@@ -21,3 +21,4 @@ Aspose.Cells 提供了在工作表中通过使用 [**insert_cut_cells **](https:
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Worksheets-CutAndPasteCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -123,3 +123,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [إنشاء رسوم بيانية ديناميكية](/cells/ar/nodejs-cpp/create-dynamic-charts/)  
 - [طريقة سهلة لضبط الرسوم البيانية باستخدام طريقة Chart.SetChartDataRange](/cells/ar/nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  
 - [البحث عن نوع قيم X وY لنقاط في سلسلة الرسم البياني](/cells/ar/nodejs-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

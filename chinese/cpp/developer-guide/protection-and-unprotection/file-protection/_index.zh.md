@@ -149,3 +149,4 @@ int main()
 - [设置强加密类型](/cells/zh/cpp/setting-strong-encryption-type/)
 - [在保护工作簿时指定作者](/cells/zh/cpp/specify-author-while-write-protecting-workbook/)
 - [验证已加密文件的密码](/cells/zh/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET fournit maintenant la propriété [**Style.quot
 Le code d'exemple suivant explique que les chaînes comme échantillon et 'échantillon ne peuvent pas être différenciées avec la propriété [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/). Nous devons donc utiliser la propriété [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/) pour les distinguer.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

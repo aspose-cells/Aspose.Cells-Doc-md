@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET支持粘贴具有特定类型的范围。
 - [将源范围的行高复制到目标范围](/cells/zh/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

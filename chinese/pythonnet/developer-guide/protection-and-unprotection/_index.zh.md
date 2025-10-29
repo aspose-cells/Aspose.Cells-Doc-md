@@ -10,7 +10,7 @@ description: 此代码段介绍了如何使用C#代码加密和解密Excel文件
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net提供了从文件到数据级别的广泛保护和解保护功能，就像MS Excel一样：
+Aspose.Cells for Python via .NET 提供从文件到数据级别的多种保护和解除保护功能，就像MS Excel一样：
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Aspose.Cells for .Net提供了从文件到数据级别的广泛保护和解保�
 - [加密 Excel 文件](/cells/zh/python-net/encrypting-excel-files/)
 - [如何检测文件格式并检查文件是否加密](/cells/zh/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

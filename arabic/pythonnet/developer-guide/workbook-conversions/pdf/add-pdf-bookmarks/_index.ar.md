@@ -24,3 +24,4 @@ keywords: إضافة علامات مرجعية لملف PDF بلغة Python، إ
 إذا كان لديك جداول بيانات تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) قبل تقديم الجدول البياني إلى تنسيق PDF. سيضمن ذلك أن تكون القيم المعتمدة على الصيغ محدثة ومقدمة بشكل صحيح في ملف PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

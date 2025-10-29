@@ -132,3 +132,4 @@ int main()
 |汇总|汇总|
 |其他|其他|
 |系列|系列|
+{{< app/cells/assistant language="cpp" >}}

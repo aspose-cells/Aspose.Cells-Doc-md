@@ -27,3 +27,4 @@ keywords: Как управлять панелью вкладок листа, у
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NET 允许你使用 [**Cell.formula**](https://refe
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-SettingSharedFormula-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

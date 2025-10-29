@@ -26,3 +26,4 @@ keywords: Библиотека Python для работы с Excel, Как ск�
 1. Скопируйте данные из первого диапазона во второй диапазон.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

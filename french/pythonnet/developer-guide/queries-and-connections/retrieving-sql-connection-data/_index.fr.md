@@ -23,3 +23,4 @@ Si l'objet ExternalConnection contient des données de connexion SQL, il peut ê
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-RetrievingSQLConnectionData-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

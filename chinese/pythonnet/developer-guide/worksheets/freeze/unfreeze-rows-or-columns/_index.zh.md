@@ -31,4 +31,5 @@ keywords: Python Excel 库，Python 取消冻结窗格，Python 如何取消冻�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
-附有[示例源Excel文件](Frozen.xlsx)。
+附有【示例源Excel文件】(Frozen.xlsx)。
+{{< app/cells/assistant language="python-net" >}}

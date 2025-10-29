@@ -22,3 +22,4 @@ keywords: Aspose.Cells for Python Excel、Excel Python 库、Python 在 Excel �
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-CreateTimelineToPivotTable.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

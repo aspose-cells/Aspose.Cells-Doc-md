@@ -149,3 +149,4 @@ int main()
 - [Définition du type de chiffrement fort](/cells/fr/cpp/setting-strong-encryption-type/)
 - [Spécifier l'auteur lors de la protection en écriture du classeur](/cells/fr/cpp/specify-author-while-write-protecting-workbook/)
 - [Vérifier le mot de passe des fichiers chiffrés](/cells/fr/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

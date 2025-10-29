@@ -25,11 +25,11 @@ aliases:
 
 ## 第1步：创建Dockerfile
 
-在你的项目[目录](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs)中创建一个名为`Dockerfile`的文件。`Dockerfile`应包含构建你的Docker镜像的指令。
+在您的项目[目录](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs)中创建一个名为`Dockerfile`的文件。`Dockerfile`应包含如何构建您的Docker镜像的指令。
 
 ## 第2步：为GridJs编写Dockerfile
 
-这里是一个用于GridJs演示的 [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) 示例，包含Java应用：
+以下是带有Java应用程序的GridJs演示的示例 [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs/Dockerfile)：
 
 ```dockerfile
 # Use the maven image to build jar file

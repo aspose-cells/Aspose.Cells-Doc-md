@@ -74,3 +74,4 @@ Si votre feuille de calcul contient des formules, il est préférable d'appeler 
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -226,3 +226,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Преобразовать диаграмму в PDF](/cells/ru/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

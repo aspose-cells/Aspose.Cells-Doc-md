@@ -18,3 +18,4 @@ keywords: Aspose.Cells for Node.js Excel，Excel Node.js 库，使用 Aspose.Cel
 以下代码通过访问工作表中的数据透视表，并将[**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-)设置为**false**来演示此功能。示例数据透视表文件可以从此[链接](pivot_table_test.xlsx)下载。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

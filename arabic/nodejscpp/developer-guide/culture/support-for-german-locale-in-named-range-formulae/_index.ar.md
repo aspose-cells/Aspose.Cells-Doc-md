@@ -38,3 +38,4 @@ namedRange.setRefersTo(value);
 wbSource.save(outputFilePath);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

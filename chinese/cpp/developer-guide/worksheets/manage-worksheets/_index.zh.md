@@ -34,3 +34,4 @@ Aspose.Cells提供了一个[Workbook](https://reference.aspose.com/cells/cpp/asp
 当已知工作表的名称时，通过名称来删除工作表是有效的。 如果不知道工作表的名称，可使用 [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) 方法的重载版本，该方法将工作表的页索引传递给它而不是工作表的名称。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

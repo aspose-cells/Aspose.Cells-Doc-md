@@ -49,3 +49,4 @@ keywords: 格式化数字为日期，单元格数字设置，格式化数字为�
 在 Aspose.Cells for Node.js via C++ 库中将数字格式化为日期，可以以编程方式向单元格应用日期格式。以下是使用 Aspose.Cells for Node.js via C++ 的方法：
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

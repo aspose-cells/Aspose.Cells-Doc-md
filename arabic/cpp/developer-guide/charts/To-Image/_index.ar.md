@@ -226,3 +226,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [تحويل الرسم البياني إلى PDF](/cells/ar/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

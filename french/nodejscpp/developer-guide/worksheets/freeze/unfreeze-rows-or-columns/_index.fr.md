@@ -42,3 +42,4 @@ workbook.save("Unfrozen.xlsx");
 ```
 
 Fichier Excel source joint (Frozen.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

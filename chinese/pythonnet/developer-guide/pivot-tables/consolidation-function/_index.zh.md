@@ -37,3 +37,4 @@ Aspose.Cells for Python via .NET提供[**ConsolidationFunction**](https://refere
 Microsoft Excel 2013仅支持DISTINCT_COUNT合并函数。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

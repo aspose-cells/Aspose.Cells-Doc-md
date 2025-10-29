@@ -102,3 +102,4 @@ int main()
 - [الحصول على نطاق مع روابط خارجية](/cells/ar/cpp/get-range-with-external-links/)
 - [تنفيذ نطاقات غير متتابعة](/cells/ar/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

@@ -195,3 +195,4 @@ int main()
 - [在加载工作簿时筛选VBA项目](/cells/zh/cpp/filter-vba-project-while-loading-a-workbook/)
 - [查找VBA项目是否受保护](/cells/zh/cpp/find-out-if-vba-project-is-protected/)
 - [为Excel工作簿的VBA项目设置密码保护](/cells/zh/cpp/password-protect-the-vba-project-of-excel-workbook/)
+{{< app/cells/assistant language="cpp" >}}

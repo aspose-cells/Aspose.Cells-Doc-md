@@ -28,3 +28,4 @@ keywords: إضافة نص HTML داخل الخلية Node.js عبر C++، تعي
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET 提供了与 Microsoft Excel 相同的功能，
 - [格式和修改命名区域](/cells/zh/python-net/format-and-modify-named-ranges/)
 - [获取带有外部链接的范围](/cells/zh/python-net/get-range-with-external-links/)
 - [实现非连续范围](/cells/zh/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

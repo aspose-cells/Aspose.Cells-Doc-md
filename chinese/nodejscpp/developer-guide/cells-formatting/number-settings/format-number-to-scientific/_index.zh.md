@@ -103,3 +103,4 @@ keywords: 将数字转换为科学计数法表示形式，将数字转换为科�
 ### 结论
 
 按照这些步骤，您可以在 Aspose.Cells for Node.js via C++ 中将数字格式化为科学计数法。请记住，您可以根据需要自定义格式字符串（"0.00E+00"），以调整小数位数或其他科学计数法显示方面。
+{{< app/cells/assistant language="nodejs-cpp" >}}

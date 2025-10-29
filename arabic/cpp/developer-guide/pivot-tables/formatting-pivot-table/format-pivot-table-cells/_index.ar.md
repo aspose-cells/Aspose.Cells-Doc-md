@@ -51,3 +51,4 @@ int main() {
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/cpp/formatting-pivot-table/)
 - [العمل مع تنسيقات عرض البيانات لحقل البيانات في الجدول المحوري](/cells/ar/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

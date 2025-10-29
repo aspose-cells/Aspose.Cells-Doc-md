@@ -71,3 +71,4 @@ int main()
 - [Exporter des données XML liées à la carte XML à l'intérieur du classeur](/cells/fr/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Trouver le nom de l'élément racine de la carte XML](/cells/fr/cpp/find-the-root-element-name-of-xml-map/)
 - [Lier des cellules aux éléments de la carte XML](/cells/fr/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

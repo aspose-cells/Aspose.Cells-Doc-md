@@ -135,3 +135,4 @@ API Aspose.Cells для Python via .NET поддерживает преобра�
 - [Json](/cells/ru/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/ru/python-net/convert-excel-to-pdf/)
 - [Преобразование CSV, TSV и TXT в Excel](/cells/ru/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

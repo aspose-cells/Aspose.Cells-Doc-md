@@ -11,8 +11,8 @@ url: /zh/go-cpp/read-and-write-xlsb-file-format/
 
 ## **读写XLSB文件格式**
 
-以下示例加载[源XLSB文件](23166992.xlsb)，读取A1单元格，然后将内容复制到C4单元格，并保存为[输出XLSB文件](23166993.xlsb)。
+以下示例加载【源XLSB文件】(23166992.xlsb)，读取A1单元格，然后将内容复制到C4单元格，并保存为【输出XLSB文件】(23166993.xlsb)。
 
 ## **示例代码**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}

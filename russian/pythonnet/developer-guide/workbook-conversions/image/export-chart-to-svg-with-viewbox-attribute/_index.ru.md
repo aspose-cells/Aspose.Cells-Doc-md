@@ -36,3 +36,4 @@ keywords: Python Экспорт графика в SVG с атрибутом  vie
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

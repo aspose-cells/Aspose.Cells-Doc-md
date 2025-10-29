@@ -22,3 +22,4 @@ Le code d'exemple suivant a démontré comment utiliser la propriété [**Pictur
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Add-Signature-Line.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

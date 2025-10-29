@@ -23,3 +23,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 Рабочий лист представлен классом [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Класс [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) предоставляет широкий спектр методов, используемых для управления рабочим листом. Чтобы добавить разрывы страниц, используйте метод [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) класса [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Добавление разрывов страниц**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

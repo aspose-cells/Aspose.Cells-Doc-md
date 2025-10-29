@@ -37,3 +37,4 @@ Après l'exécution du code d'exemple, un tableau croisé dynamique est ajouté 
 Lors de l'attribution d'une plage de cellules en tant que source de données, la plage doit aller du coin supérieur gauche au coin inférieur droit. Par exemple, "A1:C3" est valide mais "C3:A1" ne l'est pas.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

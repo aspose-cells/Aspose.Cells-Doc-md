@@ -111,3 +111,4 @@ AsposeCells.FontConfigs.setFontSubstitutes("Arial", ["Times New Roman", "Calibri
 - [设置 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性具有优先级](/cells/zh/nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [支持的字体格式](/cells/zh/nodejs-cpp/supported-font-formats/)
 - [电子表格转图像 - 设置呈现图像的像素格式](/cells/zh/nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

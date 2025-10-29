@@ -21,7 +21,7 @@ Aspose.Cells是一个类库，允许您的应用程序执行以下电子表格�
 
 
 ## **比较Open XML SDK和Aspose.Cells**
-下表将比较Open XML SDK和Aspose.Cells的特性。
+以下表格比较了Open XML SDK和Aspose.Cells的功能。 
 
 |特性或特性类别|Open XML SDK|Aspose.Cells|
 | :- | :- | :- |

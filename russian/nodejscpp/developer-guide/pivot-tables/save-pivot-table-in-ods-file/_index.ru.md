@@ -15,3 +15,4 @@ Aspose.Cells for Node.js via C++ предоставляет возможност
 
 [Файл ODS результатов](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

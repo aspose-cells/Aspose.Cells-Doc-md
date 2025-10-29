@@ -15,3 +15,4 @@ url: /ru/python-net/export-worksheet-or-chart-into-image-with-desired-width-and-
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-WorksheetToImageDesiredSize-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

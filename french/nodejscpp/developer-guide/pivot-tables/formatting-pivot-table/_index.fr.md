@@ -65,3 +65,4 @@ La classe [**PivotFieldCollection**](https://reference.aspose.com/cells/nodejs-c
 L'exemple de code ci-dessous montre comment effacer tous les champs de table de données dans une zone de données.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ClearPivotFields-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

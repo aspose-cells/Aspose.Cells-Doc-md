@@ -107,3 +107,4 @@ Excel 让数字以分数格式显示变得简单，并提供多种分数字格�
 - Aspose.Cells支持多种数字格式，包括小数、百分比、货币等。你可以自定义格式以满足你的特定需求。
 
 按照这些步骤，您可以轻松在 Aspose.Cells for Node.js via C++ 中将数字格式化为分数。这对于需要精确分数值的财务、统计或教育应用尤为有用。
+{{< app/cells/assistant language="nodejs-cpp" >}}

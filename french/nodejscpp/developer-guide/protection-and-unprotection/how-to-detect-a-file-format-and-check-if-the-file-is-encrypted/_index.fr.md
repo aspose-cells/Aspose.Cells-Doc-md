@@ -30,3 +30,4 @@ console.log("The spreadsheet format is: " + AsposeCells.FileFormatUtil.loadForma
 // Check if the file is encrypted.
 console.log("The file is encrypted: " + info.isEncrypted());
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

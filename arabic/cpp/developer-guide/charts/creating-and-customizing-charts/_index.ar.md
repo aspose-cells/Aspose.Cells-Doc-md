@@ -36,3 +36,4 @@ url: /ar/cpp/creating-and-customizing-charts/
 الشفرة المثالية أدناه توضح كيفية إنشاء رسوم بيانية مخصصة. في هذا المثال، سنستخدم رسماً بيانياً للأعمدة للسلسلة البيانية الأولى ورسم بياني خطي للسلسلة الثانية. النتيجة هي إضافة رسم بياني للأعمدة مجتمعًا مع رسم بياني خطي إلى ورقة العمل. الرجاء الاطلاع على [ملف الإكسل الناتج](66519071.xlsx) من الشفرة المثالية التالية.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

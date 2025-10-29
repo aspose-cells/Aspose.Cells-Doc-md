@@ -28,3 +28,4 @@ keywords: إنشاء صفحة PDF واحدة لكل ورقة عمل برنامج
 إذا كان جدول البيانات الخاص بك يحتوي على صيغ، من الأفضل استدعاء طريقة [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) قبل عرض جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التي تعتمد على الصيغة، وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

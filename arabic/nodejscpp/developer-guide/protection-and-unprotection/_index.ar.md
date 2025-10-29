@@ -34,3 +34,4 @@ description: يقدم هذا المقتطف شرحًا لكيفية تشفير �
 - [كشف تنسيق الملف لملفات Office Open XML المشفرة - OOXML](/cells/ar/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [تشفير ملفات Excel](/cells/ar/nodejs-cpp/encrypting-excel-files/)
 - [كيفية كشف تنسيق ملف والتحقق مما إذا كان الملف مشفرًا](/cells/ar/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

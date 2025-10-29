@@ -28,3 +28,4 @@ Aspose.Cells提供将文本应用上标（文本位于基线上方）和下标�
 ### 使用 Node.js 代码在文本上应用下标效果
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

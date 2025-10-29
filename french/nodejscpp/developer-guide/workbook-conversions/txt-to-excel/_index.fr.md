@@ -132,3 +132,4 @@ console.log("Cell Name: " + cell.getName() + " Value: " + cell.getStringValue())
 - [Lecture d'un fichier CSV avec des encodages multiples](/cells/fr/nodejs-cpp/reading-csv-file-with-multiple-encodings/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

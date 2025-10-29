@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **高级主题**
 - [在工作表中检测合并的单元格](/cells/zh/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

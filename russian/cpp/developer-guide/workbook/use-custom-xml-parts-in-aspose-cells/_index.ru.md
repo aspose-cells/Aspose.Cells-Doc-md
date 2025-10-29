@@ -78,3 +78,4 @@ int main()
 ## Связанная статья
 
 - [Добавление пользовательских свойств, видимых в панели информации документа](/cells/ru/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

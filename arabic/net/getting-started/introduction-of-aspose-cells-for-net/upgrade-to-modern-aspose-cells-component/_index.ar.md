@@ -1,5 +1,5 @@
 ---
-title: الترقية إلى مكون Aspose.Cells الحديث
+title: الترقية من Aspose.Excel القديم إلى مكون Aspose.Cells الحديث
 type: docs
 weight: 70
 url: /ar/net/upgrade-to-modern-aspose-cells-component/

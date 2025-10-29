@@ -1,7 +1,7 @@
 ---
 title: 监控运行中的程序
 type: docs
-weight: 20
+weight: 10
 url: /zh/python-java/monitor-running-programs/
 ---
 

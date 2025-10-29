@@ -20,3 +20,4 @@ Aspose.Cells现在能够呈现类似于g、ge.mm.dd等自定义日期格式模�
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-RenderCustomDateFormat.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

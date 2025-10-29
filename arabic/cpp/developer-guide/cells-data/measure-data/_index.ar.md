@@ -65,3 +65,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [الحصول على عرض النص لقيمة الخلية](/cells/ar/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

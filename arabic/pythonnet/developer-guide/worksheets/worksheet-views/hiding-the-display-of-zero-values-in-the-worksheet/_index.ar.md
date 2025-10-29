@@ -26,3 +26,4 @@ keywords: مكتبة إكسل بايثون، إخفاء القيم الصفري�
 يرجى الاطلاع على رمز العينة التالي الذي يوضح إخفاء الأصفار باستخدام Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

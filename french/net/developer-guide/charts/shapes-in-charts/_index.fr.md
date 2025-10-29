@@ -34,6 +34,14 @@ L'exemple suivant montre comment ajouter une étiquette au graphique. L'exemple 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Remarque :** Ce type de contrôle d’étiquette n’est pris en charge que dans les fichiers XLS. Si vous souhaitez un effet similaire dans un fichier XLSX, veuillez utiliser l’une des alternatives suivantes :
+
+1. Utilisez plutôt le Contrôle TextBox, il existe une alternative similaire au contrôle d’étiquette dans les fichiers XLSX.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) pour TextBox, les fichiers XLSX peuvent le prendre en charge.
+
+2. Ajoutez une Feuille dont le type est "SheetType.Chart", puis ajoutez un Graphique et un Contrôle sur cette feuille.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) pour l'ajout de SheetType.Chart.
+
 ## **Ajout d'un contrôle TextBox au graphique**
 
 Une manière de mettre en évidence des informations importantes dans un rapport est d'utiliser une zone de texte. Par exemple, saisissez du texte pour mettre en valeur le nom de l'entreprise ou pour indiquer la région géographique avec le plus de ventes. La classe [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) fournit une méthode appelée [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), qui est utilisée pour ajouter un contrôle de zone de texte à un graphique. Voici la liste des paramètres utilisés pour la méthode :

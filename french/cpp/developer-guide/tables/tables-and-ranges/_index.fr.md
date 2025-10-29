@@ -22,3 +22,4 @@ Les fonctionnalités du tableau ne sont plus disponibles après sa conversion en
 Le code d'exemple suivant montre la même fonctionnalité en utilisant Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

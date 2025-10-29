@@ -6,3 +6,4 @@ url: /ru/cpp/rows-and-columns/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

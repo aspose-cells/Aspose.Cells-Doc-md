@@ -21,3 +21,4 @@ url: /zh/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-ChangeCellsAlignment.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

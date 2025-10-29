@@ -339,3 +339,4 @@ int main()
 - [自定义图表](/cells/zh/cpp/customizing-charts/)
 - [图表中的数据格式化](/cells/zh/cpp/data-formatting-in-charts/)
 - [设置图表外观](/cells/zh/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

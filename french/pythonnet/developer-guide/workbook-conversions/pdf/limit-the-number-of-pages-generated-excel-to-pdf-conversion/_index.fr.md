@@ -24,3 +24,4 @@ L'exemple suivant montre comment restituer une plage de pages (3 et 4) dans un f
 Si le classeur contient des formules, il est préférable d'appeler la méthode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant de le rendre en PDF. Cela garantit que les valeurs dépendantes des formules sont recalculées et que les valeurs correctes sont rendues dans le fichier de sortie.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

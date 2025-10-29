@@ -44,3 +44,4 @@ Dans l'Explorateur Windows :
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 
 Ce paramètre permet aux fichiers de s'exécuter directement dans le navigateur web, sans afficher la boîte de dialogue Ouvrir-Enregistrer-Annuler lors du téléchargement ou de l'ouverture du fichier.
+{{< app/cells/assistant language="cpp" >}}

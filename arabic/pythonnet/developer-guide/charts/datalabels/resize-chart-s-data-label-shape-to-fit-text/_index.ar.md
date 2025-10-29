@@ -22,3 +22,4 @@ url: /ar/python-net/resize-chart-s-data-label-shape-to-fit-text/
 لمحاكاة ميزة إكسل في تغيير حجم أشكال علامات البيانات لتناسب النص، قدم API الخاصة بـ Aspose.Cells for Python via .NET الخاصية [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) من نوع Boolean. يعرض الكود التالي سيناريو استخدام بسيط الخاصية [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

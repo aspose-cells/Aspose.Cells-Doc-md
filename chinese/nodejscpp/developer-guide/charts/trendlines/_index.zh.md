@@ -54,3 +54,4 @@ console.log("Equation Text: " + trendLine.getDataLabels().getText());
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

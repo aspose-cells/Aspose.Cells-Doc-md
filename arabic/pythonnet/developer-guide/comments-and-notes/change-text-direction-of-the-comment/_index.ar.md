@@ -14,3 +14,4 @@ url: /ar/python-net/change-text-direction-of-the-comment/
 توفر Aspose.Cells for Python via .NET خاصية [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) لضبط اتجاه النص للتعليق. يوضح الشيفرة النموذجية التالية استخدام الخاصية [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) لضبط اتجاه النص للتعليق.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeTextDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

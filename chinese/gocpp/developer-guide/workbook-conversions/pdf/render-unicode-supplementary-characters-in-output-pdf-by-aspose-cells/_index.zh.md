@@ -1,0 +1,31 @@
+---
+title: 使用 Aspose.Cells 通过 C++ 与 Golang 在输出 PDF 时渲染 Unicode 辅助字符
+linktitle: 渲染 Unicode 辅助字符
+type: docs
+weight: 350
+url: /zh/go-cpp/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
+description: 了解如何使用 Aspose.Cells for C++ 在输出 PDF 中渲染 Unicode 辅助字符。
+---
+
+{{% alert color="primary" %}}
+
+普通的Unicode字符长为2个字节，而Unicode补充字符长为4个字节。Aspose.Cells现在支持呈现这些4字节Unicode字符。
+
+在Unicode字符标准中，补充字符是指分配的代码点范围从U+10000到U+10FFFF。换句话说，这些是大于U+FFFF的Unicode字符。
+
+- 在UTF-8中，这些字符每个都是4个字节长。
+- 在UTF-16中，这些字符需要2个代理对（16位单位）。
+
+{{% /alert %}}
+
+## 通过Aspose.Cells在输出PDF中渲染Unicode补充字符
+
+以下屏幕截图显示了Aspose.Cells如何将[源Excel文件](5115563.xlsx)渲染成[输出PDF](5115564.pdf)。您可以看到，所有三个Unicode补充字符都与由Microsoft Excel执行的渲染完全相同。
+
+![todo:image_alt_text](output.png)
+
+## 示例代码
+
+您可以使用此示例代码将[源Excel文件](5115563.xlsx)转换为[输出PDF](5115564.pdf)。
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-RenderUnicodeSupplementaryCharactersInOutputPdfByAsposeCells.go" >}}

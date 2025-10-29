@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [ضبط التعليق للجدول أو كائن القائمة داخل ورقة العمل](/cells/ar/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [الجداول والمدى](/cells/ar/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

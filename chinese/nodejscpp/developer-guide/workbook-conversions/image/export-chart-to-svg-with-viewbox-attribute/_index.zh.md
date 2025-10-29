@@ -59,3 +59,4 @@ chart.toImage(path.join(dataDir, "Image_out.svg"), opts);
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

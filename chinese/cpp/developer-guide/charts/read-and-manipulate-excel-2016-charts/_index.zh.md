@@ -33,3 +33,4 @@ Histogram
 BoxWhisker
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

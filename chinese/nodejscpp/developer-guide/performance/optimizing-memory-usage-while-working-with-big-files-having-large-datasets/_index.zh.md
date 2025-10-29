@@ -27,3 +27,4 @@ url: /zh/nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-
 1. **插入和删除单元格和行**：请注意，如果有大量的单元格/行插入/删除操作，与[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)模式相比，性能下降将非常明显。
 1. **操作不同的单元格类型**: 如果大多数单元格包含字符串值或公式，则内存成本与[**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)模式相同，但如果存在大量空单元格，或单元格的值是数字、布尔值等，则[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)选项将提供更好的性能。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

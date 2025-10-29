@@ -21,3 +21,4 @@ keywords: 在加载 HTML 到工作簿时自动调整列和行，加载 HTML 时�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

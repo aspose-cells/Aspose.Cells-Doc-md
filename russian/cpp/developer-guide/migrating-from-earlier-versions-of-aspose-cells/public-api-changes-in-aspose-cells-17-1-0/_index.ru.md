@@ -151,3 +151,4 @@ Aspose.Cells for C++ предоставляет методы GetCultureInfo и S
 - Метод IWorksheet::ToString
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

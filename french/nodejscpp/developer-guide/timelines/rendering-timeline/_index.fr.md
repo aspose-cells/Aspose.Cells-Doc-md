@@ -16,3 +16,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](input.xlsx) conten
 ![todo:image_alt_text](out.png)
 ### **Code d'exemple**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Timelines-RenderingTimeline.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

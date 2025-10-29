@@ -39,3 +39,4 @@ La déprotection d'une feuille de calcul est facile avec l'API Aspose.Cells pour
 - [Déprotéger une feuille de calcul](/cells/fr/python-net/unprotect-a-worksheet/)
 - [Vérifier le mot de passe utilisé pour protéger la feuille de calcul](/cells/fr/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

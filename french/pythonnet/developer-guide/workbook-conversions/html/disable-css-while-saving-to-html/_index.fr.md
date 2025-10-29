@@ -40,3 +40,4 @@ os.makedirs(output_dir, exist_ok=True)
 # Save the workbook in html
 wb.save(os.path.join(output_dir, "outputDisable.html"), opts)
 ```
+{{< app/cells/assistant language="python-net" >}}

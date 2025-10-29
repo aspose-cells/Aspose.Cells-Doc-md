@@ -9,3 +9,4 @@ url: /ru/cpp/copy-theme-from-one-workbook-to-another/
 В следующем образце кода показано, как [скопировать тему из одной рабочей книги](45056005.xlsx) в [другую рабочую книгу](45056004.xlsx). Данный код полезен для применения встроенных или пользовательских тем. Просто создайте нужную тему (она может быть встроенной или кастомной) в вашем файле шаблона с использованием Microsoft Excel, а затем скопируйте ее в ваш исходный файл с помощью следующего кода.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-CopyThemeFromOneWorkbookToAnother-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -83,5 +83,5 @@ ConvertFormulasData属性的默认值为false。
 ## **已添加ImageOptions属性到HtmlSaveOptions类**
 已添加ImageOptions属性到HtmlSaveOptions类。公开ImageOptions属性使开发人员能够设置导出电子表格到HTML时嵌入图像的偏好设置。 
 ## **已废弃HtmlSaveOptions.ExportChartImageFormat属性**
-从Aspose.Cells for .NET 8.0.2开始，HtmlSaveOptions.ExportChartImageFormat已被标记为过时。建议在将电子表格导出为HTML格式时使用HtmlSaveOptions.ImageOptions进行图像格式设置。
+HtmlSaveOptions.ExportChartImageFormat 从 Aspose.Cells for Java 8.0.2 版本起已被标记为过时。建议在导出电子表格为 HTML 格式时使用 HtmlSaveOptions.ImageOptions 进行图像格式设置。
 {{< app/cells/assistant language="java" >}}

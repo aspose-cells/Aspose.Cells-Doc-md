@@ -31,3 +31,4 @@ Aspose.Cells for C++ 是一款原生 C++ 库，可使 C++ 开发人员能够在�
 - [在GitHub代码库中下载示例](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Aspose.Cells for C++ 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for C++ 付费支持帮助台](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

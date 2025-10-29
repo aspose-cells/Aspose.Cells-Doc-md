@@ -26,3 +26,4 @@ La capture d'écran suivante montre le fichier Excel de sortie et ses contenus q
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

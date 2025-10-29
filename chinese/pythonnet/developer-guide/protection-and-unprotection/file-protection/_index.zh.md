@@ -48,3 +48,4 @@ Aspose.Cells for Python via .NET 允许你对Microsoft Excel文件进行加密�
 - [在保护工作簿时指定作者](/cells/zh/python-net/specify-author-while-write-protecting-workbook/)
 - [验证已加密文件的密码](/cells/zh/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

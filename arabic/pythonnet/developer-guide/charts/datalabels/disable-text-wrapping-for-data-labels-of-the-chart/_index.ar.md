@@ -18,3 +18,4 @@ url: /ar/python-net/disable-text-wrapping-for-data-labels-of-the-chart/
 يظهر النموذج العيني التالي كيفية تعطيل تضمين النص لتسميات البيانات في الرسم البياني.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

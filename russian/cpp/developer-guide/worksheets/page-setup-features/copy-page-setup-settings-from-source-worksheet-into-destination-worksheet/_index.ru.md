@@ -67,3 +67,4 @@ After Paper Size: PaperA3ExtraTransverse
 After Paper Size: PaperA3ExtraTransverse
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

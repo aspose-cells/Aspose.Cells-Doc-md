@@ -32,3 +32,4 @@ url: /ru/python-net/insert-svg-to-excel/
 Когда вы выполните вышеуказанный код в своем проекте, вы получите следующие результаты:
 
 ![](3.png)
+{{< app/cells/assistant language="python-net" >}}

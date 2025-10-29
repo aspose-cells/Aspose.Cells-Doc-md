@@ -121,3 +121,4 @@ int main()
 - [Удаление срезки](/cells/ru/cpp/removing-slicer/)
 - [Рендеринг срезки](/cells/ru/cpp/rendering-slicer/)
 - [Обновление среза](/cells/ru/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

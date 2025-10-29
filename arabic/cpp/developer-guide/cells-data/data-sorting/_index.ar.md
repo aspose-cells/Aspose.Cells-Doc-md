@@ -151,3 +151,4 @@ int main()
 ## **مواضيع متقدمة**
 - [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/cpp/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

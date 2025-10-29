@@ -51,3 +51,4 @@ workbook.save("frozen.xlsx");
 
 المرفق [ملف الإكسيل عينة](Freeze.xlsx).  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

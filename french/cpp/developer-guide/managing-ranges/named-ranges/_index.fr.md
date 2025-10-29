@@ -102,3 +102,4 @@ int main()
 - [Obtenir une plage avec des liens externes](/cells/fr/cpp/get-range-with-external-links/)
 - [Mise en œuvre de plages non séquentielles](/cells/fr/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

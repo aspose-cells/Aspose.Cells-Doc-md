@@ -32,3 +32,4 @@ url: /zh/python-net/create-dynamic-rolling-chart/
 ```
 
 您可以尝试将公式中的数字 "-5" 改为 "-10"，动态图表会显示最新的 10 组数据。现在我们已经成功使用 Aspose.Cells for Python via .NET 创建了动态滚动图表。
+{{< app/cells/assistant language="python-net" >}}

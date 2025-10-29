@@ -39,3 +39,4 @@ Aspose.Cells для Python via .NET также позволяет управля
 - [Обработка автоматических единиц оси диаграммы, как в Microsoft Excel](/cells/ru/python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Чтение меток оси после вычисления диаграммы](/cells/ru/python-net/read-axis-labels-after-calculating-the-chart/)
 - [Как установить ось категорий в графике Excel](/cells/ru/python-net/how-to-set-category-axis/)
+{{< app/cells/assistant language="python-net" >}}

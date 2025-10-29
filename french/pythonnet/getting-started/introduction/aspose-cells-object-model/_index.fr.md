@@ -87,3 +87,4 @@ Chaque objet Feuille de calcul contient un objet VerticalPageBreakCollection qui
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Un objet VerticalPageBreak est utilisé pour créer un saut de page vertical dans la feuille de calcul.
+{{< app/cells/assistant language="python-net" >}}

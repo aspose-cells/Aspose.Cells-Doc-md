@@ -76,3 +76,4 @@ Pour supprimer plusieurs lignes d'une feuille de calcul, appelez la méthode [**
 Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement, appelez la méthode [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) de la collection [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells). La méthode [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) prend l'index de la colonne à supprimer.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

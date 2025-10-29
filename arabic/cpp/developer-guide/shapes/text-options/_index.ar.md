@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **الاستنتاج**
 توفر Aspose.Cells for C++ مجموعة أدوات شاملة لإدارة خيارات نص الشكل في ملفات إكسل. باستخدام فئة [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/)، يمكنك بسهولة تخصيص محاذاة النص، والتوجيه، والتنسيق لتلبية متطلباتك الخاصة.
+{{< app/cells/assistant language="cpp" >}}

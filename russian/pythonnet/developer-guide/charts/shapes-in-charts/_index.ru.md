@@ -81,3 +81,4 @@ Aspose.Cells для Python via .NET позволяет вставлять фла
 
 ## **Продвинутые темы**
 - [Добавить водяной знак WordArt на диаграмму](/cells/ru/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

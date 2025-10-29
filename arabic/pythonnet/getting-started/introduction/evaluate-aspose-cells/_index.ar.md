@@ -17,3 +17,4 @@ url: /ar/python-net/evaluate-aspose-cells/
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 إذا كنت ترغب في اختبار Aspose.Cells دون قيود إصدار التقييم، [اطلب ترخيصًا مؤقتًا لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).
+{{< app/cells/assistant language="python-net" >}}

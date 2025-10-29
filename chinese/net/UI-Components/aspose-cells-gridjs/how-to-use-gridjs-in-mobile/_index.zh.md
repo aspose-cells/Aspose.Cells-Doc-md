@@ -15,7 +15,7 @@ aliases:
 
 GridJs能够适应移动屏幕。
 
-运行 [GridJs 演示](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "GridJs 演示")
+运行[GridJs演示](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs)
 
 演示项目的默认端口为24262。 
 

@@ -15,7 +15,7 @@ aliases:
 
 GridJs 客户端 js 可以适应移动屏幕。
 
-运行 [GridJs 示例](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "GridJs 示例")
+运行 [GridJs 示例](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs "GridJs 示例")
 
 默认示例项目的端口为 8080。 
 

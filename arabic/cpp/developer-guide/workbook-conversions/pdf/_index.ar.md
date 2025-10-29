@@ -308,3 +308,4 @@ int main()
 - [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/cpp/save-specified-worksheets-to-pdf/)
 - [مستندات PDF آمنة](/cells/ar/cpp/secure-pdf-documents/)
 - [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

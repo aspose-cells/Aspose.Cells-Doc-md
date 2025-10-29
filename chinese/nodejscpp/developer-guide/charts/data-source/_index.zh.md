@@ -123,3 +123,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [创建动态图表](/cells/zh/nodejs-cpp/create-dynamic-charts/)  
 - [使用 Chart.SetChartDataRange 方法设置图表的简单方法](/cells/zh/nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  
 - [查找图表系列中点的X和Y值类型](/cells/zh/nodejs-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

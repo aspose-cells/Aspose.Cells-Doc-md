@@ -53,3 +53,4 @@ keywords: مكتبة Excel الخاصة بـ Python، تنسيق Python وتعد
 يوفر Aspose.Cells الطريقة [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) لدمج الخلايا في النطاق. يوضح المثال التالي كيفية دمج الخلايا الفردية في نطاق مسمى.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

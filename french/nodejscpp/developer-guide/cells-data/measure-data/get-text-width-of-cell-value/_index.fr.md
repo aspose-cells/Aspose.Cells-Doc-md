@@ -18,3 +18,4 @@ Le fichier source utilisé dans l'extrait de code suivant est joint à titre de 
 ## Code d'exemple
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-MeasureData-GetTextWidth.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

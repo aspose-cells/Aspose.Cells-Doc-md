@@ -26,3 +26,4 @@ keywords: 在导入html时删除换行后多余空格，删除导入html的多�
 以下示例代码展示了[**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/)属性的用法。请将其设置为**true**或**false**以获得上面截图中显示的输出。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

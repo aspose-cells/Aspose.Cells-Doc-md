@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [指定共享公式的最大行数](/cells/zh/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [支持的Excel函数](/cells/zh/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Удалить дублирующиеся строки в рабочем листе](/cells/ru/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [Обновление ссылок в других листах при удалении пустых столбцов и строк на листе](/cells/ru/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

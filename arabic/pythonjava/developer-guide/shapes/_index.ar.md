@@ -1,7 +1,7 @@
 ---
 title: الأشكال
 type: docs
-weight: 20
+weight: 90
 url: /ar/python-java/shapes/
 ---
 

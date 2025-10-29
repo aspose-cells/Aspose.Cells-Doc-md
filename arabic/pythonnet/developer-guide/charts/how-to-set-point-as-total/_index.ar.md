@@ -80,3 +80,4 @@ wb.save(os.path.join(file_path, "output.xlsx"))
 - التعامل مع التحقق من نوع المخطط
 
 انظر [توثيق ChartPoint](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) للخيارات المتقدمة في التكوين.
+{{< app/cells/assistant language="python-net" >}}

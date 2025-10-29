@@ -48,3 +48,4 @@ Il est très facile d'ouvrir un fichier Excel protégé par mot de passe et de l
 - [Spécifier l'auteur lors de la protection en écriture du classeur](/cells/fr/python-net/specify-author-while-write-protecting-workbook/)
 - [Vérifier le mot de passe des fichiers chiffrés](/cells/fr/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

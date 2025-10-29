@@ -18,3 +18,4 @@ Les rapports basés sur des tableaux croisés dynamiques sont utiles mais suscep
 Le code suivant démontre cette fonctionnalité en accédant à un tableau croisé dynamique à partir d'une feuille, puis en définissant [**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-) sur **false**. Le fichier de tableau croisé dynamique d'exemple peut être téléchargé à partir de ce [lien](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

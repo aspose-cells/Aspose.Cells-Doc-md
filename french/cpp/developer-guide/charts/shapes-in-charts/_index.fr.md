@@ -281,3 +281,4 @@ int main()
 
 ## **Sujets avancés**
 - [Ajouter un filigrane WordArt au graphique](/cells/fr/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

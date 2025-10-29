@@ -308,3 +308,4 @@ Si votre feuille de calcul contient des formules, il est préférable d'appeler 
 - [Enregistrer des feuilles de calcul spécifiées au format PDF](/cells/fr/cpp/save-specified-worksheets-to-pdf/)
 - [Sécuriser les documents PDF](/cells/fr/cpp/secure-pdf-documents/)
 - [Spécifiez comment croiser la chaîne dans le PDF de sortie et l'image](/cells/fr/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

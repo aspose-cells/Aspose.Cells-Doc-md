@@ -16,3 +16,4 @@ keywords: Библиотека Excel для Python, отображение фо�
 Aspose.Cells для Python via .NET предоставляет свойство [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas). Установите его в **true**, чтобы Excel отображал формулы.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

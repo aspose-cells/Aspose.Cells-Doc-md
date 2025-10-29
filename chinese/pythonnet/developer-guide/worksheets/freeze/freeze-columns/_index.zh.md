@@ -41,3 +41,4 @@ keywords: Python Excel 库，Python 冻结左侧列，Python 冻结第一列，P
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 附上[示例源Excel文件](Freeze.xlsx)。
+{{< app/cells/assistant language="python-net" >}}

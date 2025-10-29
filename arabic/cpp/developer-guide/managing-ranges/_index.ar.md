@@ -194,3 +194,4 @@ int main()
 - [نقل مجموعة من الخلايا في ورقة العمل](/cells/ar/cpp/move-range-of-cells-in-a-worksheet/)
 - [إنشاء أسماء مسماة محددة بنطاق العمل وورقة العمل](/cells/ar/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [البحث والاستبدال في بيانات النطاق](/cells/ar/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

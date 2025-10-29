@@ -18,3 +18,4 @@ url: /ar/python-net/working-with-the-glow-effect-of-shape-or-chart/
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-GlowEffectOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

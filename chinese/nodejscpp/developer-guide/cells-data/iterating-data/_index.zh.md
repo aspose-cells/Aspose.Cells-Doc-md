@@ -191,3 +191,4 @@ console.log(currentCell.getStringValue());
 1. 需要遍历大量的单元格。  
 1. 只需遍历已初始化的单元格/行/列。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

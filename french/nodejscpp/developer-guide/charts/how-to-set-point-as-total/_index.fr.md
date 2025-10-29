@@ -45,3 +45,4 @@ Vous pouvez obtenir le [fichier de sortie correct](output.xlsx) suivant
 Comme le montre la figure ci-dessous, les quatre points de données "Total" sont correctement configurés, et vous pouvez voir la différence avec le graphique précédent.
 
 ![todo:image_alt_text](set-as-total2.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -41,3 +41,4 @@ url: /ru/python-net/your-first-aspose-cells-application-hello-world/
 В следующем примере открывается существующий файл шаблона Microsoft Excel с именем **book1.xls**, записываются слова "Hello World!" в ячейку A1 на первом листе и сохраняется рабочая книга как новый файл.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

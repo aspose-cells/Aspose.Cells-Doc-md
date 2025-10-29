@@ -24,3 +24,4 @@ Les graphiques de type chandeliers sont un graphique spécifique utilisé pour s
 Le jeu de données suivant montre les informations de trading quotidiennes pour une action. Nous utiliserons ces données pour créer quatre types de graphiques boursiers : graphique boursier Haut-Bas-Clôture (HLC), graphique OHLC (Ouverture-Haut-Bas-Clôture), graphique boursier Volume-Haut-Bas-Clôture (VHLC) et graphique boursier Volume-Ouverture-Haut-Bas-Clôture (VOHLC). 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="python-net" >}}

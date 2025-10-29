@@ -16,3 +16,4 @@ Parfois, vous devez trouver des cellules avec un style particulier appliqué. Vo
 Dans cet exemple, le code trouve toutes les cellules ayant le même style que celle de la cellule A1. Après l'exécution du code, toutes les cellules ayant le même style que A1 contiennent le texte "Trouvé".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindCellsWithSpecificStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

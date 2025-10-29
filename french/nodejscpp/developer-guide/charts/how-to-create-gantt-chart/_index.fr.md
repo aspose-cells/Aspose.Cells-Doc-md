@@ -91,3 +91,4 @@ chart.setShowLegend(false);
 workbook.save("result.xlsx");
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

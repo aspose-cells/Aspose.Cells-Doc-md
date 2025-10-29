@@ -41,3 +41,4 @@ Il est possible de centrer quelque chose sur une page horizontalement et vertica
 Définir les marges d'en-tête et de pied de page avec les membres de la classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) tels que [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) et [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

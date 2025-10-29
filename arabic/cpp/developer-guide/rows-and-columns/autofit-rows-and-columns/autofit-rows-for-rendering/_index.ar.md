@@ -45,3 +45,4 @@ int main()
 الآن، لم يتم قص النص في ملف PDF الناتج.
 
 ![النص لم يتم قصه في ملف PDF المحفوظ](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="cpp" >}}

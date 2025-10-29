@@ -31,3 +31,4 @@ Aspose.Cells предоставляет методы [**WorkbookSettings.setNumb
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-SpecifyCustomNumberDecimalAndGroupSeparators.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

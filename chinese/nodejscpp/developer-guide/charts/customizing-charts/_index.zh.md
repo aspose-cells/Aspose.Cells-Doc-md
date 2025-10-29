@@ -66,3 +66,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

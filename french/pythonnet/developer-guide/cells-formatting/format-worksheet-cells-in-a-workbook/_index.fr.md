@@ -45,3 +45,4 @@ Voici les étapes pour créer une feuille de calcul et formater différentes cel
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatWorksheetCells-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

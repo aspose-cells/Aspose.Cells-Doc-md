@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NET 提供了一个类 [**Workbook**](https://refer
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

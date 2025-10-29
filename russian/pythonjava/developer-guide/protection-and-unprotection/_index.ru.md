@@ -2,7 +2,7 @@
 title: Защита и снятие защиты
 linktitle: Защита
 type: docs
-weight: 40
+weight: 55
 url: /ru/python-java/protect-and-unprotect/
 description: В этом фрагменте представлено, как зашифровать и расшифровать файлы Excel, защитить и снять защиту данных в файлах Excel, используя коды Python.
 ---

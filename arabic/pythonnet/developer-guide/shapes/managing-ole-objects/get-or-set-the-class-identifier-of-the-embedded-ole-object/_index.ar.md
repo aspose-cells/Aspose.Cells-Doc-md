@@ -26,3 +26,4 @@ url: /ar/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

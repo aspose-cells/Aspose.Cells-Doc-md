@@ -31,3 +31,4 @@ Aspose.Cells для Python via .NET предоставляет свойства 
 ## Связанные статьи
 
 - [Форматирование сводной таблицы](/cells/ru/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET 让您能够轻松为单元格及范围绘制�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatWorksheetCells-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

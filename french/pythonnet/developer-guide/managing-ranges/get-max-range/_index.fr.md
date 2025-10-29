@@ -40,3 +40,4 @@ Les codes suivants montrent comment rendre la plage d'affichage maximale en html
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Voici le [fichier excel source](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

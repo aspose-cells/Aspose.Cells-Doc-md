@@ -12,3 +12,4 @@ description: 了解在Aspose.Cells for C++中支持的字体格式。
 |**TTF**|TrueType 字体
 |**TTC**|TrueType 集合
 |**OTF**|OpenType 字体
+{{< app/cells/assistant language="cpp" >}}

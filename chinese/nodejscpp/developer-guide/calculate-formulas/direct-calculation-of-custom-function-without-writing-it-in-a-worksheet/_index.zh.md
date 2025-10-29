@@ -77,3 +77,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [实现自定义计算引擎，扩展Aspose.Cells的默认计算引擎](/cells/zh/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

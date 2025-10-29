@@ -62,3 +62,4 @@ int main()
 ## مقالات ذات صلة
 
 - [التحقق من البيانات](/cells/ar/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

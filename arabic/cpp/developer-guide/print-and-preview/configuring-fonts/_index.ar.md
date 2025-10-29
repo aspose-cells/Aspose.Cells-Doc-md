@@ -143,3 +143,4 @@ int main()
 - [تعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى الصور](/cells/ar/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [تعيين خاصية DefaultFont من PdfSaveOptions و ImageOrPrintOptions لتكون لها الأولوية](/cells/ar/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [صيغ الخط المدعمة](/cells/ar/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

@@ -55,3 +55,4 @@ Style de référence A1:
 Style de référence R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="nodejs-cpp" >}}

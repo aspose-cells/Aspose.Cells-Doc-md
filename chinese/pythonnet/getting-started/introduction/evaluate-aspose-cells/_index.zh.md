@@ -17,3 +17,4 @@ url: /zh/python-net/evaluate-aspose-cells/
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 如果要测试没有评估版本限制的 Aspose.Cells，请[请求30天临时许可证](https://purchase.aspose.com/temporary-license)。
+{{< app/cells/assistant language="python-net" >}}

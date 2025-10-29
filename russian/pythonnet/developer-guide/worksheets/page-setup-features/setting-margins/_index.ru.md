@@ -41,3 +41,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 Установите поля верхнего и нижнего колонтитулов с помощью элементов класса [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup), таких как [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) и [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

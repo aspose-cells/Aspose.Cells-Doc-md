@@ -38,3 +38,4 @@ Aspose.Cells for Python via .NET 通过使用 [**TickLabels.direction_type**](ht
 [源文件](105480221.xlsx)
 
 [输出文件](105480223.xlsx)
+{{< app/cells/assistant language="python-net" >}}

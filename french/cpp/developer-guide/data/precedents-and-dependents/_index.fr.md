@@ -46,3 +46,4 @@ Aspose.Cells vous permet d'obtenir des cellules dépendantes dans les feuilles d
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingDependents-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

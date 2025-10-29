@@ -236,3 +236,4 @@ int main()
 
 ## **Sujets avancés**
 - [Extraire les données de thème à partir du fichier Excel](/cells/fr/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

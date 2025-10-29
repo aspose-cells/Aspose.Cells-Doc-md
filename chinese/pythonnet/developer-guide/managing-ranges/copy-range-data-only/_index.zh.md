@@ -26,3 +26,4 @@ keywords: Python Excel库，Python如何仅复制范围数据，Python如何使�
 1. 将第一个范围的数据复制到这个第二个范围。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

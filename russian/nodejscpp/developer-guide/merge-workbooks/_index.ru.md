@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [Объединение нескольких листов в один](/cells/ru/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Объединение файлов](/cells/ru/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

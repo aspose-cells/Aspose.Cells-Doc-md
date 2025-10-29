@@ -39,3 +39,4 @@ const sheetRender = new AsposeCells.SheetRender(worksheet, opts);
 sheetRender.toImage(0, path.join(outputDir, "outputSetPixelFormatRenderedImage.tiff"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

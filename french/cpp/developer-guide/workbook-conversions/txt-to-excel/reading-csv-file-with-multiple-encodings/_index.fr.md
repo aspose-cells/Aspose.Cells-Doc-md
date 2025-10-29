@@ -69,3 +69,4 @@ int main()
 ## Articles Connexes
 
 - [Ouverture des fichiers CSV](/cells/fr/cpp/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="cpp" >}}

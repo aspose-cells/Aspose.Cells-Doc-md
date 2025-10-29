@@ -35,3 +35,4 @@ description: Защита и снятие защиты структуры раб
 Примечание: требуется правильный пароль.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

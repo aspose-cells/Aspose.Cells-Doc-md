@@ -1,0 +1,6 @@
+---
+title: Graphiques
+type: docs
+weight: 75
+url: /fr/go-cpp/charts/
+---

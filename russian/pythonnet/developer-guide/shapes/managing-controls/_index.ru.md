@@ -381,3 +381,4 @@ Aspose.Cells для Python via .NET позволяет рисовать элли
 - [Добавить элементы ActiveX](/cells/ru/python-net/add-activex-controls-using-aspose-cells/)
 - [Удалить элемент управления ActiveX](/cells/ru/python-net/remove-activex-control/)
 - [Обновление элемента управления ComboBox ActiveX](/cells/ru/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

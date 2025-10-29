@@ -42,3 +42,4 @@ Aspose.Cells for C++ смог конвертировать листы в изо�
 Пожалуйста, ознакомьтесь со следующим образцом кода, его [образцом файла Excel](67338402.xlsx) и [выходными изображениями в формате SVG](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

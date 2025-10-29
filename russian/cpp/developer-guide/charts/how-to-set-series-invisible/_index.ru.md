@@ -60,3 +60,4 @@ int main()
 
 Как показано на рисунке ниже, первые две серии, которые изначально были видимы, стали невидимыми в выходном файле.  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

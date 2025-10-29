@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++提供用于设置"空单元格显示"数据透�
 
 - [格式化数据透视表](/cells/zh/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -91,3 +91,4 @@ url: /ar/python-net/cells-fill-settings/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

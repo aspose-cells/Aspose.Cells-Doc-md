@@ -73,3 +73,4 @@ keywords: كيفية إدارة خصائص المستند في لغة C#، ال�
 - [تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة](/cells/ar/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [تحديد لغة ملف إكسل باستخدام الخصائص المدمجة للمستند](/cells/ar/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

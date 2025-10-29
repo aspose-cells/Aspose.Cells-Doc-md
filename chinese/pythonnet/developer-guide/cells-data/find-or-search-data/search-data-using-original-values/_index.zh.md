@@ -28,3 +28,4 @@ keywords: Python Excel库，Python使用原始值搜索数据，Python查找使�
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

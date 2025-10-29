@@ -79,3 +79,4 @@ Aspose.Cells для Python via .NET предоставляет класс, ко
 
 ## **Продвинутые темы**
 - [AutoFit строк для объединенных ячеек](/cells/ru/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

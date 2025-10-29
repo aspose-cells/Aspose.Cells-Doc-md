@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [Поддерживайте макет тегов DIV при загрузке HTML в книгу Excel](/cells/ru/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [Включить пользовательские свойства CSS при сохранении в HTML](/cells/ru/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -23,3 +23,4 @@ url: /ru/python-net/chart-legend/
 
 ## **Продвинутые темы**
 - [Установить текст заливки элемента легенды графика на None с помощью Aspose.Cells для Python via .NET](/cells/ru/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

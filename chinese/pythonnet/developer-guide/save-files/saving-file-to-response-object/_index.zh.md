@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. 读取前请用`seek(0)`重置流位置
 3. 在响应头设置合适的MIME类型
 4. 对于Django/Flask等Web框架，使用特定的响应处理器
+{{< app/cells/assistant language="python-net" >}}

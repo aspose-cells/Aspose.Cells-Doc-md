@@ -35,3 +35,4 @@ url: /ar/python-net/optimizing-memory-usage-while-working-with-big-files-having-
 1. **إدراج وحذف الخلايا والصفوف**: يرجى ملاحظة أنه إذا كانت هناك الكثير من عمليات الإدراج/الحذف للخلايا/الصفوف، سيكون التدهور في الأداء ملحوظًا في وضع *تفضيل الذاكرة* مقارنةً بوضع *طبيعي*.
 1. **العمل على أنواع الخلايا المختلفة**: إذا كانت معظم الخلايا تحتوي على قيم سلسلة أو صيغًا، ستكون تكلفة الذاكرة نفسها كوضع *طبيعي* ولكن إذا كانت هناك الكثير من الخلايا الفارغة، أو قيم الخلايا تكون رقمية، بولية وما إلى ذلك، فإن الخيار [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) سيمنح أداءً أفضل.
 
+{{< app/cells/assistant language="python-net" >}}

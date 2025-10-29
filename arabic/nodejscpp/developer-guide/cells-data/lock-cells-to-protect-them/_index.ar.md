@@ -48,3 +48,4 @@ Aspose.Cells هي مكتبة قوية للعمل مع ملفات Excel برمج�
 <img src="3.png" width=60% />
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

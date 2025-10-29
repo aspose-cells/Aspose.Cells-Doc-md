@@ -25,3 +25,4 @@ Pour appliquer une mise en forme à une grande plage de cellules dans une feuill
 Parce que l'approche [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) utilise beaucoup moins de mémoire, et est efficace, l'ancienne propriété Cell.style qui consommait beaucoup de mémoire inutile a été supprimée avec la sortie de Aspose.Cells 7.1.0.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

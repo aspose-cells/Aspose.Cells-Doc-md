@@ -195,3 +195,4 @@ int main()
 - [Filtrer le projet VBA lors du chargement d'un classeur](/cells/fr/cpp/filter-vba-project-while-loading-a-workbook/)
 - [Découvrir si le projet VBA est protégé](/cells/fr/cpp/find-out-if-vba-project-is-protected/)
 - [Protéger par mot de passe le projet VBA du classeur Excel](/cells/fr/cpp/password-protect-the-vba-project-of-excel-workbook/)
+{{< app/cells/assistant language="cpp" >}}

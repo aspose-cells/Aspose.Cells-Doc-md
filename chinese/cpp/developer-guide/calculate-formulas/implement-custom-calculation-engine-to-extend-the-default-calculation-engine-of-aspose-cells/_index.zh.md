@@ -106,3 +106,4 @@ int main()
 [无需在工作表中编写即可直接计算自定义函数](/cells/zh/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

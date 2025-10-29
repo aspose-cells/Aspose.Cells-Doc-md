@@ -62,3 +62,4 @@ int main()
 إذا كان جدول البيانات يحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) قبل عرضه إلى صيغة PDF. القيام بذلك يضمن إعادة حساب القيم التي تعتمد على الصيغ، وتقديم القيم الصحيحة في ملف الإخراج.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

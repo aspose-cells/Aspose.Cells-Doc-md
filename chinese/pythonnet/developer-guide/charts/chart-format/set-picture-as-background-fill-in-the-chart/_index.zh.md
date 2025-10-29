@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET 允许你为不同对象，例如绘图区域�
 ##将图片设置为图表的背景填充的C#代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

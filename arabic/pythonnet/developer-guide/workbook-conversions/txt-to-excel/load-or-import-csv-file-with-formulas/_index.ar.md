@@ -30,3 +30,4 @@ keywords: تحميل ملف CSV أو استيراده مع الصيغ في Pytho
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

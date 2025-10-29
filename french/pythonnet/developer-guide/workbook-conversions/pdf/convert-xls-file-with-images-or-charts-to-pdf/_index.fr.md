@@ -22,3 +22,4 @@ Aspose.Cells pour Python via .NET prend en charge la conversion de fichiers XLS 
 Si la feuille de calcul contient des formules, il est préférable d'appeler la méthode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant le rendu en PDF. Ce faisant, on s'assure que les valeurs dépendant des formules sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

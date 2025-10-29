@@ -64,3 +64,4 @@ Pour dissocier les lignes ou colonnes regroupées, appelez les méthodes [**ungr
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) a une surcharge qui prend un troisième paramètre booléen. Le définir sur **true** supprime toutes les informations regroupées. Sinon, seules les informations de groupe externe sont supprimées.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

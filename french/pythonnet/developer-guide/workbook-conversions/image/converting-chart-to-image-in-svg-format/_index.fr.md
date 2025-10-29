@@ -22,3 +22,4 @@ Le code d'exemple suivant explique comment utiliser Aspose.Cells pour Python via
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertChartToSvgImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

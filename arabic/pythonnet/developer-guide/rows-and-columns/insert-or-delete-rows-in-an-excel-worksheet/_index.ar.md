@@ -20,3 +20,4 @@ keywords: مكتبة Python Excel ، إدراج أو حذف الصفوف في و
 يعمل Aspose.Cells for Python via .NET بنفس الطريقة التي تعمل بها Microsoft Excel. عند إضافة صفوف أو أعمدة ، يتم نقل محتوى ورقة العمل لأسفل ولليمين. عند إزالة صفوف أو أعمدة ، يتم نقل محتوى ورقة العمل لأعلى أو لليسار. يتم تحديث أي مراجع في ورقات العمل والخلايا الأخرى عند إضافة أو إزالة الصفوف.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

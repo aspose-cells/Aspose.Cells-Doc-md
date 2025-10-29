@@ -32,3 +32,4 @@ url: /ar/python-net/accessing-table-from-cell-and-adding-values-inside-it-using-
 يقوم الكود النموذجي التالي باستخدام ملف Excel المصدر كما هو موضح في اللقطة الشاشية أعلاه ويضيف القيم داخل الجدول ويولد ملف Excel الناتج كما هو موضح أعلاه.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-AccessTableFromCellAndAddValue.py" >}}
+{{< app/cells/assistant language="python-net" >}}

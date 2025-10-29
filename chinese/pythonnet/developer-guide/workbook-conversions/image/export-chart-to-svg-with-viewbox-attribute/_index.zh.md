@@ -36,3 +36,4 @@ keywords: Python使用viewBox属性导出图表到SVG，Python中使用viewBox�
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

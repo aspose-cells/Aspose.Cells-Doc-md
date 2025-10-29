@@ -25,11 +25,11 @@ aliases:
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл с именем `Dockerfile` в вашей [директории](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). `Dockerfile` должен содержать инструкции о том, как создать образ Docker.
+Создайте файл с именем `Dockerfile` в каталоге [директории](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). В `Dockerfile` должны содержаться инструкции по сборке образа Docker.
 
 ## Шаг 2: Написание Dockerfile для GridWeb
 
-Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) для демонстрации GridWeb с Java-приложением:
+Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) для демонстрации GridWeb с Java-приложением:
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -70,9 +70,9 @@ RUN apt-get update && apt-get install -y fontconfig libfreetype6 && rm -rf /var/
 
 # Set the environment variable for headless mode,no need to use display
 ENV JAVA_OPTS="-Djava.awt.headless=true"
-# create [log dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [log dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/log
-# create [cache dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [cache dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/grid_cache
 
 # RUN ls -l /app/

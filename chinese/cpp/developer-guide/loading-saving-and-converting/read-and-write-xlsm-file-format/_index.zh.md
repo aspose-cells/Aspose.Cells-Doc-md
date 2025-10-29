@@ -11,3 +11,4 @@ Microsoft Excel支持许多格式，如XLS、XLSX、XLSM、XLSB、CSV等。Aspos
 以下示例代码加载了[源XLSM文件](23166990.xlsm)，读取其单元格A1，然后将其内容复制到单元格C4，并将其另存为[输出XLSM文件](23166991.xlsm)。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSMFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

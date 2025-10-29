@@ -15,3 +15,4 @@ keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، رسم ال�
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ExportSlicerToPDF-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

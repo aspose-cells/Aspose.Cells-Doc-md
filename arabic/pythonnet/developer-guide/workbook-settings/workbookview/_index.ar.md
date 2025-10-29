@@ -19,7 +19,7 @@ keywords: كيفية التحكم في عرض دفتر العمل، تعيين �
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **كيفية التحكم في عرض دفتر العمل باستخدام Aspose.Cells for .NET**
+## **كيفية التحكم في عرض دفتر العمل باستخدام Aspose.Cells لبايثون via .NET**
 يوضح هذا المثال كيف:
 
 1. إنشاء دفتر عمل.
@@ -33,3 +33,4 @@ keywords: كيفية التحكم في عرض دفتر العمل، تعيين �
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

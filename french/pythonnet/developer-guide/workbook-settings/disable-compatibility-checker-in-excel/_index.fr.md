@@ -36,3 +36,4 @@ Les exemples de code suivants montrent comment désactiver le Vérificateur de c
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "WorkbookSettings-DisableCompatibilityChecker-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

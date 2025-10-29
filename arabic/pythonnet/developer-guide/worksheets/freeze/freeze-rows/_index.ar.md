@@ -40,3 +40,4 @@ keywords: مكتبة Excel لبيثون، تجميد الصفوف العلوية
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 [ملف Excel مصدري عينة مرفق](../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

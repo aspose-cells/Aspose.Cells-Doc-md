@@ -67,3 +67,4 @@ Aspose.Cells for Python via .NET API 还提供设置替代字体的功能。这�
 - [支持的字体格式](/cells/zh/python-net/supported-font-formats/)
 - [电子表格转图像 - 设置呈现图像的像素格式](/cells/zh/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

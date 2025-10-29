@@ -53,3 +53,4 @@ Aspose.Cells for Python via .NET允许修改任何这些样式或其他由您定
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughSampleExcelFile-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

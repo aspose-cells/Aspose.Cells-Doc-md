@@ -28,3 +28,4 @@ keywords: 在 Node.js 通过 C++ 向单元格添加 HTML 字符串，设置单�
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

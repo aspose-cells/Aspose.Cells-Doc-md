@@ -19,7 +19,7 @@ keywords: Как управлять видом книги, установить 
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Как управлять видом книги с использованием Aspose.Cells for .NET**
+## **Как управлять просмотром книги с помощью Aspose.Cells для Python via .NET**
 Этот пример показывает, как:
 
 1. Создать книгу.
@@ -33,3 +33,4 @@ keywords: Как управлять видом книги, установить 
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

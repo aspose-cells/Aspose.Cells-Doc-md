@@ -65,3 +65,4 @@ Aspose.Cells 提供一个 [**Workbook**](https://reference.aspose.com/cells/pyth
 - [查找具有特定样式的单元格](/cells/zh/python-net/find-cells-with-specific-style/)
 - [查找单元格值是否以单引号开始](/cells/zh/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [使用原始值搜索数据](/cells/zh/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

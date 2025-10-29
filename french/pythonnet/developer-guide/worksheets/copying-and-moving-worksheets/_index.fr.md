@@ -54,3 +54,4 @@ Aspose.Cells pour Python via .NET fournit une méthode [**Aspose.Cells.Worksheet
 L'exemple suivant montre comment déplacer une feuille de calcul vers un autre emplacement dans le classeur.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

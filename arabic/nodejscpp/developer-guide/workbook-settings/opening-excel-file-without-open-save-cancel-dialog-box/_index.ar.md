@@ -41,3 +41,4 @@ url: /ar/nodejs-cpp/opening-excel-file-without-open-save-cancel-dialog-box/
 | :- | 
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)| 
 تتيح هذه الإعدادات تشغيل الملفات مباشرة في متصفح الويب، دون عرض مربع حوار الفتح والحفظ والإلغاء عند تنزيل أو فتح الملف. 
+{{< app/cells/assistant language="nodejs-cpp" >}}

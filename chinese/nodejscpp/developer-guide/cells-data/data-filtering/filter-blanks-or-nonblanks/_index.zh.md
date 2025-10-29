@@ -53,3 +53,4 @@ keywords: 筛选空白，筛选非空白，工作表中筛选空白，工作表�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

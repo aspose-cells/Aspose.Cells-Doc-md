@@ -21,8 +21,8 @@ keywords: Python Excel 库、Python 删除重复的定义名称、Python 删除�
 6. 单击“关闭”按钮关闭名称管理器对话框。
 7. 保存工作簿以保留更改。
 
-## **使用Aspose.Cells for .Net删除命名范围**
-利用Aspose.Cells for .NET，您可以通过[文本]（https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str）删除名单或定义名称。
+## **使用 Aspose.Cells for Python via .NET 删除命名范围**
+使用 Aspose.Cells for Python via .NET，您可以通过列表中的[文本](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str)删除命名范围或定义的名称。
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

@@ -1,7 +1,7 @@
 ---
 title: Фигуры
 type: docs
-weight: 20
+weight: 90
 url: /ru/python-java/shapes/
 ---
 

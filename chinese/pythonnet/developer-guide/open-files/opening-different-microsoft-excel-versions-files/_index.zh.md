@@ -67,3 +67,4 @@ Aspose.Cells for Python via .NET 可以打开多种不同的Microsoft Excel版�
 Aspose.Cells还支持打开受密码保护的Microsoft Excel 2007、2010、2013、2016、2019、Office 365文件。
 
 
+{{< app/cells/assistant language="python-net" >}}

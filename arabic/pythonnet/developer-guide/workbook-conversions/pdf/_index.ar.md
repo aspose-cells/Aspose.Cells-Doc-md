@@ -143,3 +143,4 @@ keywords: بايثون تحويل Excel إلى PDF، تحويل Excel إلى PDF
 - [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/python-net/save-specified-worksheets-to-pdf/)
 - [مستندات PDF آمنة](/cells/ar/python-net/secure-pdf-documents/)
 - [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

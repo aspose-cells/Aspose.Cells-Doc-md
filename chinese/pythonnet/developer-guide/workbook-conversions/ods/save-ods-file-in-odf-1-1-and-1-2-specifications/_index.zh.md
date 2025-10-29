@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET支持在ODF（OpenDocument Format）1.1和1.2�
 下面的示例代码创建一个工作簿对象，在第一个工作表的单元A1中添加一些值，然后以ODF 1.1和1.2规范保存ODS文件。默认情况下，ODS文件以ODF 1.2规范保存。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

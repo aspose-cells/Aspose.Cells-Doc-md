@@ -25,3 +25,4 @@ Le code d'exemple ci-dessous montre comment créer des graphiques personnalisés
 Actuellement, Aspose.Cells pour Python via .NET ne supporte que la combinaison de graphiques en secteurs, en lignes, en colonnes et en empilement de colonnes, mais d'autres graphiques seront pris en charge dans de futures versions.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

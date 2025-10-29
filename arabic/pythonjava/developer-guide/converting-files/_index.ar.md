@@ -1,7 +1,7 @@
 ---
 title: تحويل الملفات
 type: docs
-weight: 20
+weight: 30
 url: /ar/python-java/converting-files/
 ---
 

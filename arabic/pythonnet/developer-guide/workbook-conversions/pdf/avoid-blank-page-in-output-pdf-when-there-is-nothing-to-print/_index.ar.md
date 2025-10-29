@@ -36,3 +36,4 @@ keywords: تجنب الصفحة الفارغة في ملف PDF الناتج عن
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

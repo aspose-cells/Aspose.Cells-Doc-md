@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET API 提供了简单便捷的方法，将图片�
 可能有需要始终使用最新的图片，直接从URL加载。实现方式请参考 [Insert a Linked Picture from Web Address](/cells/zh/python-net/insert-a-linked-picture-from-web-address/)。通过此方法，每次打开工作表时，图片都从URL加载。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

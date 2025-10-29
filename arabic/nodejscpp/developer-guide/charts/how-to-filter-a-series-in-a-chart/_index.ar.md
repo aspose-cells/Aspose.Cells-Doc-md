@@ -162,3 +162,4 @@ chart.toImage("TableFilters.after.png");
 // Saving the Excel file
 workbook.save("TableFilter.out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

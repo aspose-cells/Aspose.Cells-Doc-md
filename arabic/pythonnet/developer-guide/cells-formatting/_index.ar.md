@@ -111,3 +111,4 @@ url: /ar/python-net/cells-formatting/
 - [إعدادات الأرقام](/cells/ar/python-net/cells-number-settings/)
 - [الحصول على وتعيين النمط للخلايا](/cells/ar/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

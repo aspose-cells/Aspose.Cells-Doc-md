@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++ 提供 [**ConsolidationFunction**](https://refe
 Microsoft Excel 2013仅支持DISTINCT_COUNT合并函数。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

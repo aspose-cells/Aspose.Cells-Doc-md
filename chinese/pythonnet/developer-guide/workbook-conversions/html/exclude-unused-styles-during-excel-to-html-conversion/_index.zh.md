@@ -18,3 +18,4 @@ Microsoft Excel文件可能包含许多未使用的样式。当将Excel文件导
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExcludeUnusedStylesInExcelToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

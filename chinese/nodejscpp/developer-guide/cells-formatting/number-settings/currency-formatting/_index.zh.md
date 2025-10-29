@@ -47,3 +47,4 @@ keywords: 将数字格式化为货币，单元格数字设置，数字格式化�
 为了在 Aspose.Cells for Node.js via C++ 库中对数字进行货币格式化，可以以编程方式将货币格式应用于单元格。以下是使用 Aspose.Cells for Node.js via C++ 实现的方法：
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

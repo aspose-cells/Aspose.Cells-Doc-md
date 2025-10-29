@@ -17,3 +17,4 @@ keywords: Библиотека Python Excel, объединение и разъ�
 Приведенный ниже образец кода сначала создает диапазон - A1:D4, затем объединяет ячейки в диапазоне в одну ячейку с помощью метода [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#). Аналогичным образом вы можете разделять ячейки, создавая диапазон и вызывая метод [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

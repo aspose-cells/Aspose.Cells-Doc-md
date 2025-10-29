@@ -13,9 +13,9 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ## **打开不同版本的 Microsoft Excel 文件**
 
-应用程序通常需能打开由不同版本创建的Microsoft Excel文件，例如Microsoft Excel 95、97、2007/2010/2013/2016/2019及Office 365。可以加载多种格式的文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。通过构造函数或指定[文件格式]的[**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/)类的[**SetFileFormat**](https://reference.aspose.com/cells/go-cpp/workbook/setfileformat/)方法，以使用[枚举类]中的[**FileFormatType**](https://reference.aspose.com/cells/go-cpp/fileformattype/)值。
+应用程序通常需能打开由不同版本创建的Microsoft Excel文件，例如Microsoft Excel 95、97、2007/2010/2013/2016/2019及Office 365。可以加载多种格式的文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。通过构造函数或指定【文件格式】的[**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/)类的[**SetFileFormat**](https://reference.aspose.com/cells/go-cpp/workbook/setfileformat/)方法，以使用【枚举类】中的[**FileFormatType**](https://reference.aspose.com/cells/go-cpp/fileformattype/)值。
 
-[枚举类][**FileFormatType**](https://reference.aspose.com/cells/go-cpp/fileformattype/)中包含多种预定义文件格式，以下列出部分示例。
+【枚举类】[**FileFormatType**](https://reference.aspose.com/cells/go-cpp/fileformattype/)中包含多种预定义文件格式，以下列出部分示例。
 
 |**文件格式类型**|**描述**|
 | :- | :- |

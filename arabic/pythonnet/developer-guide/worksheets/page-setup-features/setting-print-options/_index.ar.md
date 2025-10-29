@@ -95,3 +95,4 @@ keywords: مكتبة بايثون Excel، إعداد منطقة الطباعة �
 |OVER_THEN_DOWN|يمثل ترتيب الطباعة كفوق ثم أسفل.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

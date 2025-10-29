@@ -1,0 +1,113 @@
+---
+title: Insérer une image de fond dans Excel avec JavaScript via C++
+linktitle: Insérer une image d arrière plan dans Excel
+type: docs
+weight: 90
+url: /fr/javascript-cpp/insert-background-image-to-excel/
+description: "Comment insérer une image d arrière plan dans Excel en utilisant Aspose.Cells for JavaScript via C++."
+---
+
+{{% alert color="primary" %}} 
+
+Vous pouvez rendre une feuille de calcul plus attrayante en ajoutant une image en arrière-plan. Cette fonctionnalité peut être très efficace si vous avez une illustration graphique d'entreprise spéciale qui ajoute une touche de fond sans obscurcir les données sur la feuille. Vous pouvez configurer une image d'arrière-plan pour une feuille à l'aide de l'API Aspose.Cells.
+
+{{% /alert %}} 
+
+## **Configuration de l'arrière-plan de la feuille dans Microsoft Excel**
+
+Pour définir une image d'arrière-plan de la feuille dans Microsoft Excel (par exemple, Microsoft Excel 2019) :
+
+1. Dans le menu **Mise en page**, recherchez l'option **Configuration de la page**, puis cliquez sur l'option **Arrière-plan**.
+1. Sélectionnez une image pour définir l'arrière-plan de la feuille.
+
+   **Configuration d'un arrière-plan de feuille**
+
+![todo:image_alt_text](insert-background-to-excel.jpg)
+
+## **Définir l'arrière-plan de la feuille avec Aspose.Cells for JavaScript via C++**
+
+Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image provenant d'un flux.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example - Set Worksheet Background Image</title>
+    </head>
+    <body>
+        <h1>Set Worksheet Background Image Example</h1>
+        <p>
+            Select a background image to apply to a new workbook's first worksheet,
+            then click "Apply Background & Save" to generate XLSX and HTML files.
+        </p>
+        <input type="file" id="bgInput" accept="image/*" />
+        <button id="runExample">Apply Background & Save</button>
+        <a id="downloadXlsx" style="display: none; margin-left: 10px;"></a>
+        <a id="downloadHtml" style="display: none; margin-left: 10px;"></a>
+        <div id="result" style="margin-top: 1em;"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, Utils } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const bgInput = document.getElementById('bgInput');
+            const resultDiv = document.getElementById('result');
+
+            if (!bgInput.files.length) {
+                resultDiv.innerHTML = '<p style="color: red;">Please select a background image file.</p>';
+                return;
+            }
+
+            const bgFile = bgInput.files[0];
+            const arrayBuffer = await bgFile.arrayBuffer();
+            const imgBytes = new Uint8Array(arrayBuffer);
+
+            // Create a new Workbook.
+            const workbook = new Workbook();
+
+            // Get the first worksheet.
+            const sheet = workbook.worksheets.get(0);
+
+            // Set the background image for the worksheet.
+            sheet.backgroundImage = imgBytes;
+
+            // Save the Excel file (XLSX)
+            const xlsxData = workbook.save(SaveFormat.Xlsx);
+            const blobXlsx = new Blob([xlsxData], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+            const downloadXlsx = document.getElementById('downloadXlsx');
+            downloadXlsx.href = URL.createObjectURL(blobXlsx);
+            downloadXlsx.download = 'outputBackImageSheet.xlsx';
+            downloadXlsx.style.display = 'inline';
+            downloadXlsx.textContent = 'Download Excel File';
+
+            // Save the HTML file
+            const htmlData = workbook.save(SaveFormat.Html);
+            const blobHtml = new Blob([htmlData], { type: 'text/html' });
+            const downloadHtml = document.getElementById('downloadHtml');
+            downloadHtml.href = URL.createObjectURL(blobHtml);
+            downloadHtml.download = 'outputBackImageSheet.html';
+            downloadHtml.style.display = 'inline';
+            downloadHtml.textContent = 'Download HTML File';
+
+            resultDiv.innerHTML = '<p style="color: green;">Background image applied. Download links are ready.</p>';
+        });
+    </script>
+</html>
+```
+
+## Articles Connexes
+
+- [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/javascript-cpp/working-with-background-in-ods-files/)

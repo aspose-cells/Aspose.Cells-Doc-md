@@ -91,3 +91,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

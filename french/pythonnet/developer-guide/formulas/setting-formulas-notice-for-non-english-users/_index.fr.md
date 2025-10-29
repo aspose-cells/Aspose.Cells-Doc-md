@@ -17,3 +17,4 @@ Il y a deux astuces que les utilisateurs non anglophones doivent suivre lors de 
 1. Les formules doivent être saisies en anglais. Par exemple, utilisez l'anglais "=SUM()" et pas l'allemand "=SUMME()".
 1. Utilisez toujours une virgule (,) pour délimiter les paramètres de la fonction. Pour certaines options ou réglages linguistiques, le délimiteur pour les paramètres de fonction est un point-virgule, mais Aspose.Cells pour Python via .NET utilise la virgule du style anglais. Par exemple, utilisez "=IF (C5=0,0,C3/C4)" et non "=IF(C5=0;0;C3/C4)"
 
+{{< app/cells/assistant language="python-net" >}}

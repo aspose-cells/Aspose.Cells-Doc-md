@@ -11,3 +11,4 @@ url: /ar/cpp/read-and-write-csv-file-format/
 يقوم الكود العيني التالي بتحميل [ملف CSV المصدر](23166994.csv) ويقرأ خليته A1، ثم ينسخ محتواه إلى خلية C4 ويحفظه كـ [ملف CSV الناتج](23166994.csv).
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

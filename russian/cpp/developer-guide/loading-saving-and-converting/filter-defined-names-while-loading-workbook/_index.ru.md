@@ -18,3 +18,4 @@ Aspose.Cells позволяет фильтровать или удалять з�
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -13,7 +13,7 @@ description: 了解如何使用Aspose.Cells for C++将Smart Art形状转换为�
 
 ## **将智能图转换为组合形状**
 
-以下示例代码加载含有Smart Art形状的[示例Excel文件](55541793.xlsx)，并将Smart Art形状转换为组形状，打印Shape::IsGroup属性。请查看下面的控制台输出。
+以下示例代码加载含有Smart Art形状的【示例Excel文件】(55541793.xlsx)，并将Smart Art形状转换为组形状，打印Shape::IsGroup属性。请查看下面的控制台输出。
 
 ![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
@@ -64,3 +64,4 @@ Is Group Shape: False
 Is Group Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

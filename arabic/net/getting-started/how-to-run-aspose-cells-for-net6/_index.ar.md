@@ -18,19 +18,19 @@ url: /ar/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs، 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-## تشغيل Aspose.Cells for .Net6 على نظام التشغيل Windows
+## تشغيل Aspose.Cells لـ .Net6 (أو gerter) على Windows
 
-أولاً يمكنك إنشاء تطبيق .net6 باستخدام VS2022 ، ثم يمكنك اختيار خيارات التثبيت التالية:
+أولاً يمكنك إنشاء تطبيق .net6 (أو gerter) باستخدام VS2022، ثم يمكنك اختيار خيارات التثبيت التالية:
 
 ### التثبيت من خلال Nuget
 
 1. البحث عن Aspose.Cells من NuGet: [Aspose.Cells for .NET حزمة NuGet](https://www.nuget.org/packages/Aspose.Cells/). 
 يمكنك أيضًا تثبيت Aspose.Cells من مدير حزم Nuget في VS2022.
 
-2. "SkiaSharp" أو "System.Drawing.Common" سيتم تثبيتها تلقائيًا كتبعية لـ Aspose.Cells 22.10.1 أو في وقت لاحق لمنصات .Net6 ، والتي تعتمد على تكوين "نظام الوجهة" في مشروعك.
-- قم بتعيين "هدف نظام التشغيل" إلى "Windows" لمشروعك، وستستخدم "System.Drawing.Common" كتبعية في نظام الويندوز الخاص بك لمشروع .Net6. في هذا التكوين، سيكون نتيجة الرسم أقرب إلى .netcore31 أو الإصدارات السابقة.
+2. سيتم تثبيت "SkiaSharp" أو "System.Drawing.Common" تلقائيًا كاعتمادية لـ Aspose.Cells 22.10.1 أو أحدث لمنصات .Net6 (أو gerter)، والتي تعتمد على تكوين "Target OS" في مشروعك.
+- اضبط "Target OS" على "Windows" لمشروعك، ستستخدم "System.Drawing.Common" كاعتمادية على نظام Windows الخاص بك لـ .Net6 (أو gerter). في هذا التكوين، يكون ناتج الرسم أقرب إلى .netcore31 أو قبل ذلك.
 **![تكوين نظام OS الهدف](TargetOS.png)**
-- قم بتعيين "هدف نظام التشغيل" إلى "None" أو خيارات أخرى لمشروعك، وستستخدم "SkiaSharp" كتبعية في نظام الويندوز الخاص بك لمشروع .Net6. *يرجى ملاحظة أن الإصدار الذي يستخدم "SkiaSharp" كتبعية لا يدعم ميزة الطباعة إلى الطابعة.*
+- اضبط "Target OS" على "None" أو خيارات أخرى لمشروعك، ستستخدم "SkiaSharp" كاعتمادية على نظام Windows الخاص بك لـ .Net6 (أو gerter). *يرجى ملاحظة أن الإصدار الذي يستخدم "SkiaSharp" كاعتمادية لا يدعم وظيفة الطباعة على الطابعة.*
 
 ### تثبيت من خلال msi أو DLL
 
@@ -43,15 +43,16 @@ url: /ar/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs، 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-بهذه الطريقة، ستستخدم "System.Drawing.Common" كتبعية في نظام الويندوز الخاص بك لمشروع .Net6. في هذا التكوين، سيكون نتيجة الرسم أقرب إلى .netcore31 أو الإصدارات السابقة.
+بهذه الطريقة، ستستخدم "System.Drawing.Common" كاعتمادية على نظام Windows الخاص بك لـ .Net6 (أو gerter). في هذا التكوين، يكون ناتج الرسم أقرب إلى .netcore31 أو قبل ذلك.
 
 4. قم بتحديد مجلد "net6.0"، وأضف Aspose.Cells.dll فيه لتطبيق .net6 الخاص بك. ثم قم بإضافة الحزم التالية يدوياً إلى مشروع .net6 الخاص بك:
 - SkiaSharp، 3.116.1.
 - System.Security.Cryptography.Pkcs، 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-بهذه الطريقة، ستستخدم "SkiaSharp" كتبعية في نظام الويندوز الخاص بك لمشروع .Net6. *يرجى ملاحظة أن الإصدار الذي يستخدم "SkiaSharp" كتبعية لا يدعم ميزة الطباعة إلى الطابعة.*
-## تشغيل Aspose.Cells for .Net6 على نظام Linux
+بهذه الطريقة، ستستخدم "SkiaSharp" كاعتمادية على نظام Windows الخاص بك لـ .Net6 (أو gerter). *يرجى ملاحظة أن الإصدار الذي يستخدم "SkiaSharp" كاعتمادية لا يدعم وظيفة الطباعة على الطابعة.*
+
+## تشغيل Aspose.Cells لـ .Net6 (أو gerter) على Linux
 
 يرجى الإشارة إلى طريقة التثبيت على نظام الويندوز، يمكنك فقط تحديد SkiaSharp كتبعية لمكتبة الرسومات على نظام Linux.
 
@@ -66,8 +67,8 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروع .net6 الخاص بك.
-3. أو يمكنك اختيار إضافة حزم NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" إلى مشروعك في .net6، بدلاً من الخطوتين السابقتين.
+2. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروعك .net6 (أو gerter).
+3. أو يمكنك اختيار إضافة حزم NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" إلى مشروعك .net6 (أو gerter)، بدلاً من الخطوتين السابقتين.
 
 *يرجى ملاحظة أن إصدار الحزمة المضافة "SkiaSharp.NativeAssets.Linux" أو "SkiaSharp.NativeAssets.Linux.NoDependencies" يجب أن يتوافق مع إصدار "SkiaSharp" المشار إليه بواسطة Aspose.Cells for .NET. الإصدارات الخاصة بـ Aspose.Cells for .NET والإصدارات المرتبطة من "SKiaSharp" موصوفة كالتالي:*
 
@@ -83,7 +84,7 @@ apk update && apk add fontconfig
 
 ### ملف Dockerfile مثالي لأوبونت
 
-1. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروعك في .net6.
+1. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروعك .net6 (أو gerter).
 
 2. استخدم ملف Dockerfile التالي:
 {{< highlight plain >}}
@@ -119,7 +120,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### ملف Dockerfile مثالي لألبين
 
-1. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروعك في .net6.
+1. أضف حزمة NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" إلى مشروعك .net6 (أو gerter).
 
 2. استخدم ملف Dockerfile التالي:
 {{< highlight plain >}}

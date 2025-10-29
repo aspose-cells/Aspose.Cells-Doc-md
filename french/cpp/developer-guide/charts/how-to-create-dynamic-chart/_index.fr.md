@@ -24,3 +24,4 @@ Nous pouvons utiliser Aspose Cells pour créer un graphique dynamique dans des f
 - [Créer un graphique dynamique roulant en utilisant Aspose Cells](/cells/fr/cpp/create-dynamic-rolling-chart/) 
 - [Créer un graphique dynamique avec défilement en utilisant Aspose Cells](/cells/fr/cpp/create-dynamic-scrolling-chart/) 
 - [Créer un graphique dynamique avec liste déroulante en utilisant Aspose Cells](/cells/fr/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

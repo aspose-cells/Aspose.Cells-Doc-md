@@ -46,3 +46,4 @@ const outputDir = path.join(__dirname, "output/");
 workbook.save(path.join(outputDir, "outputAvoidExponentialNotationWhileImportingFromHtml.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

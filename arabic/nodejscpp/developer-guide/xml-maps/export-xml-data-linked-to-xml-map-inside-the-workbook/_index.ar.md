@@ -30,3 +30,4 @@ const map = workbook.getWorksheets().getXmlMaps().get(i);
 workbook.exportXml(map.getName(), path.join(dataDir, `${map.getName()}.xml`));
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

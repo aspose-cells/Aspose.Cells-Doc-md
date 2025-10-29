@@ -14,3 +14,4 @@ url: /zh/cpp/load-workbook-with-specified-printer-paper-size/
 以下示例代码展示了[**LoadOptions.SetPaperSize()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/setpapersize/)方法的用法。它首先创建一个工作簿，然后以XLSX格式将其保存在内存流中。然后用A5纸张大小加载并保存为PDF格式，再用A3纸张大小加载再次保存为PDF。如果打开输出的PDF并检查纸张大小，你会看到它们不同，一个是A5，另一个是A3。请下载由代码生成的[A5输出PDF](PrinterSize-a5_out.pdf)和[A3输出PDF](PrinterSize-a3_out.pdf)以供参考。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadWorkbookWithPrinterSize-1.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

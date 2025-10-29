@@ -322,3 +322,4 @@ int main()
 请注意，使用Aspose.Cells删除注释时，作者不会自动删除。如果您需要同时删除作者，请像上面的示例中所示使用[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/)类的RemoveAt方法。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

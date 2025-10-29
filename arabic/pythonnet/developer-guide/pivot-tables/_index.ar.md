@@ -56,3 +56,4 @@ keywords: إنشاء جدول دوران، إدراج جدول دوران، تن
 - [حفظ الجدول المحوري في ملف ODS](/cells/ar/python-net/save-pivot-table-in-ods-file/)
 - [خيار إظهار صفحات مرشح التقرير](/cells/ar/python-net/show-report-filter-pages-option/)
 - [العمل مع تنسيقات عرض البيانات لحقل البيانات في الجدول المحوري](/cells/ar/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

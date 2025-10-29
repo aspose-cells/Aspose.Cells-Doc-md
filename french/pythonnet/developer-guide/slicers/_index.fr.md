@@ -37,3 +37,4 @@ Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel exempl
 - [Suppression du tronçonneur](/cells/fr/python-net/removing-slicer/)
 - [Rendu du tronçonneur](/cells/fr/python-net/rendering-slicer/)
 - [Mise à jour du tronçonneur](/cells/fr/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

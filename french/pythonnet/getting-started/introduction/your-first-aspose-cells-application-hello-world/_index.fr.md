@@ -41,3 +41,4 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, écrit les mots 
 L'exemple suivant ouvre un fichier modèle Microsoft Excel existant appelé **book1.xls**, écrit les mots "Bonjour le Monde !" dans la cellule A1 de la première feuille de calcul, et enregistre le classeur sous un nouveau nom de fichier.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

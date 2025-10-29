@@ -166,3 +166,4 @@ int main()
 - [Détecter le type de lien hypertexte](/cells/fr/cpp/detect-hyperlink-type/)
 - [Modifier les hyperliens de la feuille de calcul](/cells/fr/cpp/editing-hyperlinks-of-worksheet/)
 - [Obtenir des hyperliens dans la plage](/cells/fr/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

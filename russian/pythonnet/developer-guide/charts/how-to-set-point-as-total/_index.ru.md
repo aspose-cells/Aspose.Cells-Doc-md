@@ -80,3 +80,4 @@ wb.save(os.path.join(file_path, "output.xlsx"))
 - Проверка типа графика
 
 Смотрите [документацию ChartPoint](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) для расширенных настроек.
+{{< app/cells/assistant language="python-net" >}}

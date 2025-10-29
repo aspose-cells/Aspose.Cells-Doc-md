@@ -18,3 +18,4 @@ Le fichier source utilisé dans l'extrait de code suivant est joint à titre de 
 ## Code d'exemple
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-CellsHelper-GetTextWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

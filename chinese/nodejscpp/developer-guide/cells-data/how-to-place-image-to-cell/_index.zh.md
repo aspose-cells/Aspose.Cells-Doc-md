@@ -60,3 +60,4 @@ keywords: 如何在单元格中插入图片，在单元格上插入图片，在�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-place-image-in-cell.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

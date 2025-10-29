@@ -120,3 +120,4 @@ NumPy的主要功能：
 ```
 ['Store' '3055' '3036' '3074']
 ```
+{{< app/cells/assistant language="python-net" >}}

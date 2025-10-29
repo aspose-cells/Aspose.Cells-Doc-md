@@ -26,3 +26,4 @@ url: /ru/nodejs-cpp/create-dynamic-chart/
 - [Создайте динамический график прокрутки с помощью Aspose.Cells](/cells/ru/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Создайте динамический график с выпадающим списком с помощью Aspose.Cells](/cells/ru/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

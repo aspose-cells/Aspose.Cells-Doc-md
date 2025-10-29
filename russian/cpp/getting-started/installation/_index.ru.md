@@ -26,3 +26,4 @@ url: /ru/cpp/installation/
 1. Загрузите/Установите [последние файлы](https://downloads.aspose.com/cells/cpp/).
 1. Распакуйте папку в рабочую среду.
 1. Для использования Aspose.Cells for C++ сослаться на директории "Include" и "libAspose.Cells.dylib" в вашем проекте.
+{{< app/cells/assistant language="cpp" >}}

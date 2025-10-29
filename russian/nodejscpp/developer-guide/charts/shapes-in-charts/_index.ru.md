@@ -213,3 +213,4 @@ workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ## **Продвинутые темы**
 - [Добавить водяной знак WordArt на диаграмму](/cells/ru/nodejs-cpp/add-wordart-watermark-to-chart/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

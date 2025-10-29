@@ -55,3 +55,4 @@ keywords: نمط مرجعي R1C1 مقابل نمط A1 Node.js عبر C++، نم�
 نمط الإشارة R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="nodejs-cpp" >}}

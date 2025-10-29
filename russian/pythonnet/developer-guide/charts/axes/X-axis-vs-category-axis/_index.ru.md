@@ -19,3 +19,4 @@ url: /ru/python-net/X-axis-vs-category-axis/
 ![todo:image_alt_text](compare.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-X-axis-vs-category-axis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

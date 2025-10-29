@@ -14,3 +14,4 @@ url: /zh/nodejs-cpp/draw-slicer-while-rendering-excel-to-pdf/
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Slicers-ExportSlicerToPDF-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

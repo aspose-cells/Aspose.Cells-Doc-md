@@ -36,3 +36,4 @@ keywords: Python избегает пустой страницы в выходн�
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

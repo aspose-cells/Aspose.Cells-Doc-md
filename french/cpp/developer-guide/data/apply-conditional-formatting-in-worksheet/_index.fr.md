@@ -19,3 +19,4 @@ Le code d'exemple suivant montre comment ajouter un formatage conditionnel de la
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheet_1.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

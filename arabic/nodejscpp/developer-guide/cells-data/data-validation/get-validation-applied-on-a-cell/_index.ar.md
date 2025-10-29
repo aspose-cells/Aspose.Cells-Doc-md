@@ -25,3 +25,4 @@ keywords: تطبيق التحقق في إكسل باستخدام Node.js عبر 
 ## مقالات ذات صلة
 
 - [التحقق من البيانات](/cells/ar/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

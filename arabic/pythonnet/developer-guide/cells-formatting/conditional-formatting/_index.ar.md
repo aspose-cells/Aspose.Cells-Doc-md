@@ -80,3 +80,4 @@ keywords: تطبيق تنسيقات مشروطة
 - [الحصول على مجموعات الرموز، أشرطة البيانات أو كائنات مقياس الألوان المستخدمة في التنسيق الشرطي](/cells/ar/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

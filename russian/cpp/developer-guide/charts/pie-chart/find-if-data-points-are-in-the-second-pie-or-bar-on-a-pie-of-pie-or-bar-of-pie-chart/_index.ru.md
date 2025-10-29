@@ -89,3 +89,4 @@ Value: 25
 IsInSecondaryPlot: False
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

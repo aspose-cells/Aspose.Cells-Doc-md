@@ -34,3 +34,4 @@ url: /zh/python-net/data-formatting-in-charts/
 - [创建动态图表](/cells/zh/python-net/create-dynamic-charts/)
 - [使用 Chart.SetChartDataRange 方法设置图表的简单方法](/cells/zh/python-net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [查找图表系列中点的X和Y值类型](/cells/zh/python-net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="python-net" >}}

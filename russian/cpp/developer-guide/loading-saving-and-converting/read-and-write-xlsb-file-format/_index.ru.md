@@ -11,3 +11,4 @@ url: /ru/cpp/read-and-write-xlsb-file-format/
 В следующем примере загружается [исходный файл XLSB](23166992.xlsb), читается его ячейка A1, затем его содержимое копируется в ячейку C4 и сохраняется как [выходной файл XLSB](23166993.xlsb).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

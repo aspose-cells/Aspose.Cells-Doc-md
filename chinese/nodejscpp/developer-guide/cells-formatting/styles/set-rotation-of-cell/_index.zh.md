@@ -50,3 +50,4 @@ Aspose.Cells 是一个强大的 Node.js 组件，能够让开发者以编程方�
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-SetRotationOfCell.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

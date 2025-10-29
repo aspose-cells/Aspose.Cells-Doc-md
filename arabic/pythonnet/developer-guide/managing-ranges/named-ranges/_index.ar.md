@@ -33,3 +33,4 @@ keywords: مكتبة Excel بلغة Python، إنشاء نطاقات أسماء 
 - [تنسيق وتعديل نطاقات مسماة](/cells/ar/python-net/format-and-modify-named-ranges/)
 - [الحصول على نطاق مع روابط خارجية](/cells/ar/python-net/get-range-with-external-links/)
 - [تنفيذ نطاقات غير متتابعة](/cells/ar/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

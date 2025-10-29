@@ -44,3 +44,4 @@ workbook.save("TextBoxExample.xlsx");
 ضع في اعتبارك أن التفاعلات مع مربعات النص قد تختلف حسب حالات الاستخدام المحددة، لذا يرجى الرجوع إلى توثيق Aspose.Cells for Node.js via C++ لمزيد من الطرق والخصائص.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

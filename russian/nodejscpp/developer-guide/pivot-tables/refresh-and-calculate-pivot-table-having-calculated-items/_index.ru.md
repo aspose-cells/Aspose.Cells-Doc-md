@@ -17,3 +17,4 @@ Aspose.Cells for Node.js via C++ теперь поддерживает обно�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-RefreshAndCalculateItems-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

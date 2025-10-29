@@ -236,3 +236,4 @@ int main()
 
 ## **Дополнительные темы**
 - [AutoFit строк для объединенных ячеек](/cells/ru/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

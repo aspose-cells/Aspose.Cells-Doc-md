@@ -14,3 +14,4 @@ url: /zh/python-net/change-character-spacing-of-excel-textbox-or-shape/
 以下示例代码将excel文件中文本框的字符间距更改为4，并将其保存到磁盘上。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

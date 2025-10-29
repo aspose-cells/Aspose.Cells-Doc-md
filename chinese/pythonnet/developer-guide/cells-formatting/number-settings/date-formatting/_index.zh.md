@@ -50,3 +50,4 @@ keywords: 格式化数字为日期，单元格数字设置，格式化数字为�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-date.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

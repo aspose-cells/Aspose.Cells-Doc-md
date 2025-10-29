@@ -13,6 +13,23 @@ keywords: Преобразование DataFrame Pandas в Excel, Импорт D
 
 {{% /alert %}}
 
+## **Преобразуйте DataFrame Pandas непосредственно в Excel**
+Вот пример фрагмента кода для демонстрации способа импорта данных из DataFrame pandas в файл Excel с использованием Aspose.Cells для Python via .NET:
+1. Создайте образец данных DataFrame pandas.
+1. Обойдите DataFrame и импортируйте данные с использованием Aspose.Cells для Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}
+
+## **Преобразование DataFrame pandas в XLSX через формат CSV**
+Преобразование pandas DataFrame в CSV — распространенная операция. Используя Aspose.Cells для Python via .NET, мы можем выполнить дополнительную обработку созданного CSV файла, такую как создание графиков и сохранение файла в XLSX. Ниже приведен пример этого рабочего процесса:
+1. Создайте образец данных DataFrame pandas.
+1. Преобразуйте DataFrame в CSV с помощью pandas.
+1. Создайте графики и сохраните как XLSX с помощью Aspose.Cells для Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-via-CSV.py" >}}
+
+![todo:image_alt_text](pandas_chart.png)
+
 ## **Преобразовать объект DataFrame Pandas в Excel через данные JSON**
 Вот пример фрагмента кода для демонстрации способа импорта данных из DataFrame pandas в файл Excel с использованием Aspose.Cells для Python via .NET:
 1. Создайте образец данных DataFrame pandas.
@@ -21,9 +38,9 @@ keywords: Преобразование DataFrame Pandas в Excel, Импорт D
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-by-json.py" >}}
 
-## **Преобразуйте DataFrame Pandas непосредственно в Excel**
-Вот пример фрагмента кода для демонстрации способа импорта данных из DataFrame pandas в файл Excel с использованием Aspose.Cells для Python via .NET:
-1. Создайте образец данных DataFrame pandas.
-1. Обойдите DataFrame и импортируйте данные с использованием Aspose.Cells для Python via .NET.
+## **Экспорт нескольких DataFrame pandas в листы Excel**
+Иногда мы также можем захотеть вставить несколько DataFrame в разные листы в [файле Excel](MultiDataFrame.xlsx). Следующий пример показывает этот процесс.
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-multi-pandas-to-Excel.py" >}}
+
+{{< app/cells/assistant language="python-net" >}}

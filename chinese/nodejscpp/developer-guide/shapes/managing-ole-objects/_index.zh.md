@@ -165,3 +165,4 @@ index++;
 - [将WAV文件插入为一个OLE对象。](/cells/zh/nodejs-cpp/inserting-a-wav-file-as-an-ole-object/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ permet d’obtenir la source de données de con
 Le fichier source utilisé dans l'exemple de code est joint à titre de référence.
 
 [Fichier source](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

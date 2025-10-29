@@ -41,3 +41,4 @@ worksheet.getSlicers().remove(slicer);
 // Save the workbook in output XLSX format.
 workbook.save("outputRemovingSlicer.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

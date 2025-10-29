@@ -34,3 +34,4 @@ keywords: بايثون يضيف ألوانًا مخصصة إلى لوحة الأ
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

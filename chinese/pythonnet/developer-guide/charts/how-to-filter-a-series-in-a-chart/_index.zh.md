@@ -58,3 +58,4 @@ url: /zh/python-net/filtering-charts-in-excel/
 以下示例代码加载了[示例Excel文件](TableFilters.xlsx)展示了使用Aspsoe.Cells相同的功能。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

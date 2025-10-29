@@ -58,3 +58,4 @@ db.close(err => {
 
 ## **Conclusion**
 En utilisant Aspose.Cells for Node.js via C++, la gestion des connexions à la base de données et l'exécution des requêtes peuvent être implémentées de manière efficace et efficiente, permettant des capacités robustes de manipulation de données dans vos applications Node.js.
+{{< app/cells/assistant language="nodejs-cpp" >}}

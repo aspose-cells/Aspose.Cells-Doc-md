@@ -37,3 +37,4 @@ keywords: Aspose.Cells for Node.js via C++ Excel، مكتبة Excel Node.js، و
 وظيفة التوحيد DISTINCT_COUNT مدعومة فقط في Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

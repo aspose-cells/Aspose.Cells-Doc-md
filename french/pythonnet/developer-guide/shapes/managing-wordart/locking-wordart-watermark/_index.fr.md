@@ -14,3 +14,4 @@ Les API Aspose.Cells pour Python via .NET permettent d’ajouter des filigranes 
 Les API Aspose.Cells pour Python via .NET permettent de verrouiller certains aspects du filigrane afin de limiter ou de bloquer complètement l'interaction de l'utilisateur. Le code ci-dessous démontre comment utiliser Aspose.Cells pour Python via .NET pour verrouiller la sélection, le déplacement, la modification et la re-sisation du filigrane en créant une feuille de calcul à partir de zéro.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -20,3 +20,4 @@ Vous pouvez créer un PDF de graphique avec la taille de page souhaitée en util
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateChartPDFWithDesiredPageSize.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

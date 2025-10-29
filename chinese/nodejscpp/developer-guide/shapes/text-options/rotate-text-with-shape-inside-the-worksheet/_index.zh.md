@@ -50,3 +50,4 @@ shapeTextAlignment.setRotateTextWithShape(false);
 const outputFilePath = path.join(dataDir, "outputRotateTextWithShapeInsideWorksheet.xlsx");
 workbook.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

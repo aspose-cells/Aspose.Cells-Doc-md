@@ -36,3 +36,4 @@ url: /zh/python-net/what-is-a-designer-spreadsheet/
 此外，Aspose.Cells 还允许您向设计人员电子表格添加 [智能标记](/cells/zh/python-net/smart-markers/)。智能标记在运行时使用 WorkbookDesigner 类的 Process 方法对其进行处理。这有助于您写更少的代码，但仍能获得出色的结果。
 
 [了解更多关于智能标记的内容](/cells/zh/python-net/smart-markers/)。
+{{< app/cells/assistant language="python-net" >}}

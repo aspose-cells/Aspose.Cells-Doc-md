@@ -8,3 +8,4 @@ description: Apprenez comment gérer un classeur à travers les API Aspose.Cells
 keywords: Comment gérer un classeur dans Node.js via C++, Gérer le classeur et les feuilles en utilisant Node.js via C++, Opérer le classeur et les feuilles en Node.js via C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

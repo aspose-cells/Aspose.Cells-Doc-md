@@ -126,3 +126,4 @@ workbook.save(path.join(dataDir, "output_out.xlsm"));
 - [Узнать, защищен ли проект VBA](/cells/ru/nodejs-cpp/find-out-if-vba-project-is-protected/)
 - [Защитить паролем проект VBA книги Excel](/cells/ru/nodejs-cpp/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

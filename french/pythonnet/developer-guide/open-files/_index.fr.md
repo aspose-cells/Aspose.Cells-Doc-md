@@ -34,3 +34,4 @@ Avec Aspose.Cells pour Python via .NET, il est simple d'ouvrir, enregistrer et g
 - [Ouvrir des fichiers avec différents formats](/cells/fr/python-net/opening-files-with-different-formats/)
 - [Optimiser l'utilisation de la mémoire lors du travail avec de gros fichiers contenant de grands ensembles de données](/cells/fr/python-net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [Lire des feuilles de calcul numériques développées par Apple Inc. à l'aide d'Aspose.Cells](/cells/fr/python-net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

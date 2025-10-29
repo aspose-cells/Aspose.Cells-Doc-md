@@ -33,3 +33,4 @@ keywords: Python Excel库，Python在工作表之间复制形状，Python如何�
 要复制控件和其他绘图对象，请使用以下示例中显示的 [**Worksheet.shapes.add_copy**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection/add_copy/#aspose.cells.drawing.Shape-int-int-int-int) 方法。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.py" >}}
+{{< app/cells/assistant language="python-net" >}}

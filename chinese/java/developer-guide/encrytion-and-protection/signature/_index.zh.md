@@ -4,7 +4,7 @@ linktitle: 签名
 type: docs
 weight: 100
 url: /zh/java/assign-and-validate-digital-signatures/
-description: Excel 文件数字签名、验证。为了保护 Excel 文件的内容的真实性，您可以使用 Aspose.Cells for .Net 中的 C# 代码添加数字签名。
+description: Excel 文件数字签名，验证。为了保护工作簿内容的真实性，您可以使用 Java 代码添加数字签名，电话Aspose.Cells for Java。
 ---
 
 {{% alert color="primary" %}}

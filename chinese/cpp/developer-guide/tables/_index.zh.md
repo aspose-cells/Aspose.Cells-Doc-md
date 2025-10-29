@@ -6,3 +6,4 @@ url: /zh/cpp/tables/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

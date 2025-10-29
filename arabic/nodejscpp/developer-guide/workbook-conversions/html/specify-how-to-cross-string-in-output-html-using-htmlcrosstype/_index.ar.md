@@ -48,3 +48,4 @@ opts.setHtmlCrossStringType(AsposeCells.HtmlCrossType.FitToCell);
 // Output Html
 workbook.save("out" + opts.getHtmlCrossStringType() + ".htm", opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

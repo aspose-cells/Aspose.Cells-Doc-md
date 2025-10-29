@@ -120,3 +120,4 @@ Le résultat en sortie :
 ```
 ['Store' '3055' '3036' '3074']
 ```
+{{< app/cells/assistant language="python-net" >}}

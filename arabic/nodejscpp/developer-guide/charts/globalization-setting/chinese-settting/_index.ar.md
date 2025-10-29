@@ -110,3 +110,4 @@ chart0.toImage("Output.png");
 |Other Name|آخر|آخر|  
 |Series Name|سلسلة|سلسلة|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

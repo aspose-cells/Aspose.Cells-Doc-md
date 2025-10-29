@@ -24,7 +24,7 @@ Pour installer et utiliser Aspose.Cells for Node.js via Java à partir d'une arc
 ### **Linux:**
 - Téléchargez et installez [Node.js](https://nodejs.org/en/download/).
 - Installez Oracle JDK (1.7 ou 1.8) pour Linux, configurez la variable d'environnement JAVA_HOME.
-- Installez python 2.x
+- Installez Python 3.x
 - Installez le pont [node-java](https://github.com/joeferner/node-java). Vous pouvez exécuter les commandes suivantes dans le terminal : 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Installez Oracle JDK8 et configurez la variable d'environnement JAVA_HOME.
 - Installez Node.js et ajoutez node.exe au PATH.
+- Installez Python et ajoutez-le au PATH.
 - Installez node-gyp.
-- Installez Windows Build Tools.
-- Installez le pont Java-Node ([node-java bridge](https://www.npmjs.com/package/java)) et exécutez les commandes ci-dessous depuis l'invite de commande en tant qu'administrateur :
+- Installez [le pont Java-node](https://www.npmjs.com/package/java).
+- Installez aspose.cells (OU : téléchargez "Aspose.Cells for Node.js via Java" et extrayez-le dans "aspose.cells.js.java/node_modules").
 
-
+Exécutez les commandes suivantes dans l'invite de commande en tant qu'administrateur (**Assurez-vous que Java, Node.js, Python sont configurés**) :
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- Téléchargez "Aspose.Cells for Node.js via Java" et extrayez-le dans le dossier "aspose.cells.js.java/node_modules".
 - Créez un fichier nommé **hello.js** dans le dossier "aspose.cells.js.java" en utilisant le code d'exemple suivant :
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Installez python 2.x (s'il n'est pas déjà installé).
+- Installer Python 3.x (si ce n'est pas déjà installé).
 - Installez le pont Java-Node. Vous pouvez exécuter les commandes ci-dessous dans le terminal :
 
 `         `$ mkdir aspose.cells.js.java

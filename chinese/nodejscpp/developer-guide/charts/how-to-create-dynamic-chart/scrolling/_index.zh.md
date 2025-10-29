@@ -90,3 +90,4 @@ workbook.save(path.join(localPath, "DynamicScrollingChart.xlsx"));
 ```
 
 您可以尝试将单元格"Sheet1!$H$20"中的数字"10"改为"15"，这样动态图表将显示最新的15组数据。到目前为止，我们已经成功使用Aspose.Cells for Node.js via C++创建了一个动态滚动图表。
+{{< app/cells/assistant language="nodejs-cpp" >}}

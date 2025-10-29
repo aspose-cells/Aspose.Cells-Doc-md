@@ -28,3 +28,4 @@ Les exemples de code suivants montrent comment appliquer un exposant et un indic
 ### Code Node.js pour appliquer l'effet d'indice au texte
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -30,3 +30,4 @@ const worksheet = workbook.getWorksheets().get(0);
 // Print Unique Id
 console.log("Unique Id: " + worksheet.getUniqueId());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

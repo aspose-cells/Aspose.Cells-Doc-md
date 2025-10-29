@@ -48,3 +48,4 @@ TotalRowCount += sourceRange.getRowCount();
 const outputFilePath = path.join(dataDir, "Output.out.xlsx");
 destWorkbook.save(outputFilePath);
 ``` 
+{{< app/cells/assistant language="nodejs-cpp" >}}

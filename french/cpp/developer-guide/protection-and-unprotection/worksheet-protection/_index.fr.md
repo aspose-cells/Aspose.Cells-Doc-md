@@ -90,3 +90,4 @@ int main()
 - [Protection des feuilles de calcul](/cells/fr/cpp/protecting-worksheets/)
 - [Déprotéger une feuille de calcul](/cells/fr/cpp/unprotect-a-worksheet/)
 - [Vérifier le mot de passe utilisé pour protéger la feuille de calcul](/cells/fr/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

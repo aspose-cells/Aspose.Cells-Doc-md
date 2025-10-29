@@ -30,3 +30,4 @@ Le code d'exemple suivant charge le fichier Excel d'exemple (64716820.xlsx) qui 
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

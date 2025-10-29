@@ -20,3 +20,4 @@ Excel支持创建数据透视表、添加报告筛选器以及启用"显示报�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-ShowReportFilterPagesOption-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -63,3 +63,4 @@ console.error("Exception Message: " + ex.message + "\r\n");
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

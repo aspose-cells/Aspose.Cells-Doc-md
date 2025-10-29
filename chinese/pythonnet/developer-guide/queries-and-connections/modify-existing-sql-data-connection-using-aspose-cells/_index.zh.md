@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET支持修改现有的SQL数据连接。本文将
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ModifyingExistingDataConnection.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

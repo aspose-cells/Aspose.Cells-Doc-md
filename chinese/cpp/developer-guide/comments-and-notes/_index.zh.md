@@ -190,3 +190,4 @@ int main()
 - [如何更改批注字体颜色](/cells/zh/cpp/how-to-change-the-comment-font-color/)
 - [如何设置评论背景](/cells/zh/cpp/how-to-set-comment-background/)
 - [线程化的批注](/cells/zh/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

@@ -88,3 +88,4 @@ workbook.save(os.path.join(data_dir, "SampleOutput2_out.pdf"), opts)
 {{% alert color="note" %}} 
 **Примечание о различиях API**: В Python.NET свойства типа boolean используют стиль snake_case (`is_font_substitution_char_granularity`) вместо PascalCase, используемого в .NET.
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -47,3 +47,4 @@ Le code d'exemple suivant montre comment obtenir la police de thème locale.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Local-Theme-Font.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

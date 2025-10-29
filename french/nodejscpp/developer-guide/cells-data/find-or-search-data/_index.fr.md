@@ -66,3 +66,4 @@ Spécifiez les propriétés [**FindOptions.setLookInType**](https://reference.as
 - [Trouver si la valeur de la cellule commence par un guillemet simple](/cells/fr/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Rechercher des données en utilisant des valeurs originales](/cells/fr/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

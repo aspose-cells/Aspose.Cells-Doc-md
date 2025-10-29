@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [إلغاء حماية ورقة العمل](/cells/ar/nodejs-cpp/unprotect-a-worksheet/)  
 - [التحقق من الكلمة المستخدمة لحماية ورقة العمل](/cells/ar/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

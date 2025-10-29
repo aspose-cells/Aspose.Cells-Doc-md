@@ -24,3 +24,4 @@ keywords: مكتبة Excel بلغة البايثون، تطبيق تحقق ال�
 ## مقالات ذات صلة
 
 - [التحقق من البيانات](/cells/ar/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

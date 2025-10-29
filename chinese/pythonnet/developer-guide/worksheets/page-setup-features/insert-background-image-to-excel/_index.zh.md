@@ -30,3 +30,4 @@ keywords: Python Excel 库，Python 如何设置工作表背景，插入背景�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetBackgroundPicture-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

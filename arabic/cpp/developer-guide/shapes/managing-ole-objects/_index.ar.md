@@ -208,3 +208,4 @@ int main()
 - [استخراج كائنات OLE من كتاب العمل](/cells/ar/cpp/extract-ole-objects-from-workbook/)
 - [الحصول على معرف الفئة الخاص بكائن OLE المضمّن أو تعيينه](/cells/ar/cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [إدراج ملف WAV ككائن Ole](/cells/ar/cpp/inserting-a-wav-file-as-an-ole-object/)
+{{< app/cells/assistant language="cpp" >}}

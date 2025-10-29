@@ -42,3 +42,4 @@ workbook.getWorksheets().get(0).getCells().get("A1").putValue("Hello World");
 workbook.save("hello-world.xlsx");
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

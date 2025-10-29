@@ -64,3 +64,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 - [Редактирование гиперссылок в рабочем листе](/cells/ru/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Получение гиперссылок в диапазоне](/cells/ru/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

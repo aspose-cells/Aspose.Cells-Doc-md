@@ -15,3 +15,4 @@ url: /ar/python-net/password-protect-the-vba-project-of-excel-workbook/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ProtecttheVBAProjectofExcelWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

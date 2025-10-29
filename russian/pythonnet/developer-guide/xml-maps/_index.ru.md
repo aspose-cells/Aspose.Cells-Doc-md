@@ -42,3 +42,4 @@ Aspose.Cells для Python via .NET позволяет импортироват�
 - [Запрос областей ячеек, привязанных к пути XML-отображения, с использованием метода Worksheet.XmlMapQuery](/cells/ru/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -58,3 +58,4 @@ keywords: مكتبة بيثون Excel، نمط الإشارة إلى الجدو�
 نمط الإشارة R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

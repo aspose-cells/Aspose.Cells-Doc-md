@@ -16,3 +16,4 @@ url: /zh/python-net/generate-conditional-formatting-databars-images/
 以下示例代码生成了单元格 C1 的 DataBar 图像。首先，它访问了单元格的格式条件对象，然后从该对象访问[**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar)对象，并使用其 [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) 方法生成单元格的图像。最后，将图像保存在磁盘上。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

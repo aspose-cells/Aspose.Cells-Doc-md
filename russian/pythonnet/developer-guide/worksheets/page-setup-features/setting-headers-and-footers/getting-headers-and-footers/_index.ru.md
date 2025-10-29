@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET предоставляет метод [**Worksh
 Следующий код demonstriruet как разобрать заголовок или колонтитул в виде списка команд и обработать команды:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

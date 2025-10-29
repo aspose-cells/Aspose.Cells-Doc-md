@@ -49,3 +49,4 @@ description: 了解升级到最新版本的Aspose.Cells for Node.js via C++时�
 升级到Aspose.Cells for Node.js via C++的最新版本可以带来显著改进，但遵循谨慎的迁移做法至关重要，以确保应用程序保持正常运行。在迁移过程中，请始终查阅官方文档和社区论坛以获取额外支持。
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

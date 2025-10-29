@@ -43,3 +43,4 @@ workbook.getSettings().getFormulaSettings().setCalculationMode(AsposeCells.CalcM
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [计算图表后读取轴标签](/cells/zh/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [如何在Excel图表中设置类别轴](/cells/zh/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

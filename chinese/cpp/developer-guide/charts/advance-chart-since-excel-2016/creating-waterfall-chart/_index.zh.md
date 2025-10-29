@@ -106,3 +106,4 @@ int main()
 
 - [创建图表](/cells/zh/cpp/creating-charts/)
 - [自定义图表](/cells/zh/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

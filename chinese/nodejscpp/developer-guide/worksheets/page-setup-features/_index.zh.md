@@ -57,3 +57,4 @@ workbook.save("PageMarginsExample.xlsx");
 在本文档中，您学习了如何使用Aspose.Cells for Node.js via C++操作Excel的页面设置功能。通过有效使用`PageSetup`类，您可以控制工作表的打印和显示效果，提升信息的整体表现。
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

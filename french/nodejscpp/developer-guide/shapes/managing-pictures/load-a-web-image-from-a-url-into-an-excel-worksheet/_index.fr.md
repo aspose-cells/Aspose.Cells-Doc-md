@@ -38,3 +38,4 @@ Il peut y avoir des cas où vous souhaitez toujours avoir l'image mise à jour d
 {{% /alert %}}  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

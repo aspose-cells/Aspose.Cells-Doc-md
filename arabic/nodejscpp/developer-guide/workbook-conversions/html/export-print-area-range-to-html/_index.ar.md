@@ -44,3 +44,4 @@ const outputFilePath = path.join(dataDir, "outputInlineCharts.html");
 workbook.save(outputFilePath, options);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -75,3 +75,4 @@ L'exemple suivant utilise un fichier XLSX modèle, obtient les couleurs pour dif
 ## **Sujets avancés**  
 - [Extraire les données de thème à partir du fichier Excel](/cells/fr/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

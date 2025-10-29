@@ -85,3 +85,4 @@ Cet exemple montre comment formater une seule cellule pour afficher des nombres 
 
 N’oubliez pas que la chaîne de format exacte pourrait nécessiter un ajustement selon votre locale et vos exigences spécifiques en matière de format comptable (par exemple, l’utilisation d’un symbole monétaire différent, la présence de plus ou moins de décimales, etc.).
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

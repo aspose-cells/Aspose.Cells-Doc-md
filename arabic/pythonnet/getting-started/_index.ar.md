@@ -65,6 +65,50 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 
 بالطبع، إذا كنت ترغب في ذلك بشكل أبسط، يمكنك أيضًا تنزيل [libSkiaSharp.dylib](libSkiaSharp.dylib) ثم **نسخها** إلى دليل **/usr/local/lib**.
 
+> ⚠️ **ملاحظة:**  
+في بعض الحالات، بعد تثبيت إصدار جديد من **aspose-cells-python**، قد يواجه المستخدمون خطأً مثل التالي:
+
+**أثناء تهيئة المضيف لنوع ‘WrpNs_Aspose.WrpNs_Cells.WrpCs_Workbook_xxxxxx (Assembly=WrpInterop.Aspose.Cells)’، حدث خطأ - لم يتم العثور على الطريقة ‘call_000_xxxxxx’**
+
+يشير ذلك إلى أن الإصدار السابق لم يُلغَ تثبيته بالكامل، مما يؤدي إلى تعارض بين الإصدار الجديد والقديم.  
+يمكنك حل هذه المشكلة باتباع الخطوات أدناه:
+
+- أولاً، يمكنك إنشاء بيئة افتراضية نظيفة لضمان عمل أحدث إصدار بشكل صحيح على جهاز Windows الخاص بك:
+
+```
+# Set up virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+# Install aspose-cells-python
+pip install aspose-cells-python
+```
+ثم قم بتشغيل برنامجك.
+
+- إذا كنت تفضل الاستمرار في استخدام بيئتك الأصلية، يرجى تجربة الخطوات التالية:
+
+```
+pip uninstall aspose-cells-python
+```
+تأكد من نجاح إلغاء التثبيت. إذا حدثت أخطاء أثناء إلغاء التثبيت، حاول تشغيل الأمر عدة مرات.
+بدلاً من ذلك، حدد موقع دليل **site-packages** الخاص بك، وعادةً ما يكون شيء مثل:
+
+```
+\Python3x\Lib\site-packages
+```
+
+ثم احذف يدويًا الأدلة التالية (إذا كانت موجودة):
+
+```
+aspose
+aspose_cells*
+```
+
+بعد ذلك، قم بإعادة تثبيت الحزمة:
+
+```
+pip install aspose-cells-python
+```
+
 ## **كيفية إنشاء تطبيق Hello World باستخدام Aspose.Cells لـ Python via .NET**
 
 - أنشئ ملفًا بإسم **CreatingHelloWorldFile.py** واستخدم الكود المثال التالي:
@@ -77,3 +121,4 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 - يرجى زيارة [مثال Aspose.Cells لـ Python via .NET](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) على github لعرض مزيد من أكواد العينات.
 
 
+{{< app/cells/assistant language="python-net" >}}

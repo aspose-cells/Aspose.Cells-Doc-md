@@ -18,3 +18,4 @@ Le code exemple suivant génère l’image de la barre de données de la cellule
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-GenerateConditionalFormattingDataBars.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

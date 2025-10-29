@@ -85,3 +85,4 @@ workbook.save("output.xlsx");
 ## **结论**
 
 通过理解语法和结构的差异，从.NET迁移到Node.js可以变得更为简便。使用Aspose.Cells for Node.js via C++，你可以复用现有.NET应用的功能，同时利用JavaScript的优势。
+{{< app/cells/assistant language="nodejs-cpp" >}}

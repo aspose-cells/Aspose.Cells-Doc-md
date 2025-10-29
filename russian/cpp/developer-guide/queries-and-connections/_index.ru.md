@@ -6,3 +6,4 @@ weight: 700
 url: /ru/cpp/managing-database-connections/
 description: Управляйте соединениями с базой данных и запросами с помощью Aspose.Cells в C++
 ---
+{{< app/cells/assistant language="cpp" >}}

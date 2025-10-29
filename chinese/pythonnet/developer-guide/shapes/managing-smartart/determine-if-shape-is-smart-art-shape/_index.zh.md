@@ -26,3 +26,4 @@ url: /zh/python-net/determine-if-shape-is-smart-art-shape/
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

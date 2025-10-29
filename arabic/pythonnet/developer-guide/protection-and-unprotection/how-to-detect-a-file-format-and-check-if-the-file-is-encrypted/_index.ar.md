@@ -15,3 +15,4 @@ url: /ar/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypt
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DetectFileFormatAndEncryption.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

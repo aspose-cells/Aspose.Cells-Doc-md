@@ -22,3 +22,4 @@ Le code suivant explique l'utilisation des méthodes [**Cell.get_width_of_value(
 
 ## **Sujets avancés**
 - [Obtenir la largeur de texte de la valeur de la cellule](/cells/fr/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

@@ -77,3 +77,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [تطبيق محرك حساب مخصص لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells](/cells/ar/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

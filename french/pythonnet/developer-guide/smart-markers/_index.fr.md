@@ -82,3 +82,4 @@ Il est très facile de traiter les marqueurs intelligents. Voici un extrait de c
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

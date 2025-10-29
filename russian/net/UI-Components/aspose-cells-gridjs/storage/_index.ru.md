@@ -133,4 +133,4 @@ GridJs создаст и сохранит файл кеша в папке: **`Co
 ```
 
 Для получения более подробной информации вы можете проверить пример здесь:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

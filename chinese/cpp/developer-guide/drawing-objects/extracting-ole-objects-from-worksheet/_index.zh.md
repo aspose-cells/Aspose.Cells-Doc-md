@@ -15,3 +15,4 @@ Aspose.Cells允许您从工作表中提取所有类型的OLE对象。请使用[W
 - [outputExtractOleObject.docx](66519078.docx)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-ExtractingOLEObjectsFromWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

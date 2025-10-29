@@ -18,19 +18,19 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
-## 在Windows上运行Aspose.Cells for .Net6
+## 在 Windows 上运行 Aspose.Cells for .Net6（或更高版本）
 
-首先，您可以使用VS2022创建一个.net6应用程序，然后您可以选择以下安装选项:
+首先，您可以使用 VS2022 创建一个 .net6（或更高版本）应用程序，然后可以选择以下安装选项：
 
 ### 通过NuGet安装
 
 1. 从 NuGet 搜索 Aspose.Cells: [Aspose.Cells for .NET NuGet软件包](https://www.nuget.org/packages/Aspose.Cells/). 
 您还可以通过VS2022的NuGet包管理器安装Aspose.Cells。
 
-2. "SkiaSharp"或"System.Drawing.Common"将自动安装为Aspose.Cells 22.10.1或以后的依赖项，这取决于您项目中的"目标OS"配置。
-- 将项目的"目标OS"设置为"Windows"，您将在.Net6项目的Windows系统中使用"System.Drawing.Common"作为依赖项。在此配置中，绘图的结果更接近.netcore31或之前版本。
+2. "SkiaSharp" 或 "System.Drawing.Common" 将作为 Aspose.Cells 22.10.1 或更高版本的依赖自动安装，这取决于您的项目中的 "Target OS" 配置。
+- 将您的项目的 "Target OS" 设置为 "Windows"，您将在 Windows 系统中使用 "System.Drawing.Common" 作为依赖。在此配置中，绘图效果更接近 .netcore31 及之前版本。
 **![配置目标OS](TargetOS.png)**
-- 将项目的"目标OS"设置为"None"或其他选项，您将在.Net6项目的Windows系统中使用"SkiaSharp"作为依赖项。*请注意，使用"SkiaSharp"作为依赖项的版本不支持打印到打印机功能。*
+- 将您的项目的 "Target OS" 设置为 "None" 或其他选项，在 Windows 系统中将使用 "SkiaSharp" 作为依赖。*请注意，使用 "SkiaSharp" 作为依赖的版本不支持打印功能。*
 
 ### 通过msi或DLL安装
 
@@ -43,15 +43,16 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
-通过这种方式，在您的Windows系统上的.Net6项目中将使用"System.Drawing.Common"作为依赖项。在此配置中，绘图的结果更接近.netcore31或之前版本。
+这样，您将在 Windows 系统中使用 "System.Drawing.Common" 作为依赖。在此配置中，绘图效果更接近 .netcore31 及之前版本。
 
 4. 找到"net6.0"子目录，在其中添加Aspose.Cells.dll到您的.net6应用程序。手动将以下NuGet包添加到您的.net6项目:
 - SkiaSharp, 3.116.1。
 - System.Security.Cryptography.Pkcs, 6.0.5。
 - System.Text.Encoding.CodePages, 4.7.0.
 
-通过这种方式，在您的Windows系统上的.Net6项目中将使用"SkiaSharp"作为依赖项。*请注意，使用"SkiaSharp"作为依赖项的版本不支持打印到打印机功能。*
-## 在Linux上运行Aspose.Cells for .Net6
+这样，您将在 Windows 系统中使用 "SkiaSharp" 作为依赖。*请注意，使用 "SkiaSharp" 作为依赖的版本不支持打印功能。*
+
+## 在 Linux 上运行 Aspose.Cells for .Net6（或更高版本）
 
 参考在Windows上的安装方法，您只能在Linux系统上选择SkiaSharp作为图形库依赖项。
 
@@ -66,8 +67,8 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
-3. 或者你可以选择添加 nuget 包 "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1"，而非上述两个步骤。
+2. 将 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1" 添加到您的 .net6（或更高版本）项目中。
+3. 或者，您可以选择添加 nuget 包 "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1"，替代上述两个步骤。
 
 *请注意，所添加包 "SkiaSharp.NativeAssets.Linux" 或 "SkiaSharp.NativeAssets.Linux.NoDependencies" 的版本应与 Aspose.Cells for .NET 引用的 "SkiaSharp" 版本相对应。Aspose.Cells for .NET 和相应引用的 "SkiaSharp" 版本的描述如下：*
 
@@ -83,7 +84,7 @@ apk update && apk add fontconfig
 
 ### Ubuntu的Dockerfile示例
 
-1. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
+1. 将 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1" 添加到您的 .net6（或更高版本）项目中。
 
 2. 使用以下Dockerfile:
 {{< highlight plain >}}
@@ -119,7 +120,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Alpine的Dockerfile示例
 
-1. 在你的 .net6 项目中添加 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1"。
+1. 将 nuget 包 "SkiaSharp.NativeAssets.Linux 3.116.1" 添加到您的 .net6（或更高版本）项目中。
 
 2. 使用以下Dockerfile:
 {{< highlight plain >}}

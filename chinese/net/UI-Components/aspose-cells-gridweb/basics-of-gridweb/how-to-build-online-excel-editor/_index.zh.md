@@ -25,11 +25,11 @@ aliases:
 
 ## 第1步：创建Dockerfile
 
-在你的项目[目录](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/)中创建一个名为`Dockerfile`的文件。`Dockerfile`应包含如何构建你的Docker镜像的指令。
+在你的项目 [目录](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/) 中创建一个名为 `Dockerfile` 的文件。`Dockerfile` 应包含构建 Docker 镜像的指令。
 
 ## 第二步：为 GridWeb 编写 Dockerfile
 
-这是一个用于GridWeb演示的示例[`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile)，适用于ASP.NET Core应用程序：
+以下是 GridWeb 演示的 [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/Dockerfile)，用于 ASP.NET Core 应用程序：
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

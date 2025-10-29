@@ -23,19 +23,21 @@ Aspose.Cells  يسمح لك بتصدير ورقة البيانات من جدول
 
 يوضح مقتطف الكود التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
 
-### **تنسيق PNG**
+### **تحويل Excel / جدول البيانات إلى PNG باستخدام GoLang**
 
 يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صور PNG النتج](67338401.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **تنسيق TIFF**
+### **تحويل Excel / جدول البيانات إلى TIFF باستخدام GoLang**
 
 يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صورة TIFF الناتجة](67338419.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **تحويل ورقة عمل إلى SVG**
+## **تحويل Excel / جدول البيانات إلى SVG باستخدام GoLang**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 تعني SVG Scalable Vector Graphics. SVG هو مواصفة تعتمد على معايير XML للرسومات الناقلة ثنائية الأبعاد. إنها معيار مفتوح تحت تطوير من قبل الجمعية العالمية للويب (W3C) منذ عام 1999.
 

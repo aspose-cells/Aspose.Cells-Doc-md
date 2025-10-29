@@ -381,3 +381,4 @@ Aspose.Cells for Python via .NET 允许您在工作表中绘制椭圆形。创�
 - [添加ActiveX控件](/cells/zh/python-net/add-activex-controls-using-aspose-cells/)
 - [移除ActiveX控件](/cells/zh/python-net/remove-activex-control/)
 - [更新ActiveX ComboBox控件](/cells/zh/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

@@ -25,3 +25,4 @@ url: /ar/python-net/customizing-charts/
 حاليًا، يدعم Aspose.Cells للبايثون via .NET فقط الرسوم البيانية المخصصة التي تجمع بين الدوائر، الخطوط، الأعمدة، ومخططات الأعمدة المكدسة، ولكن سيتم دعم المزيد من الرسوم البيانية في الإصدارات المستقبلية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

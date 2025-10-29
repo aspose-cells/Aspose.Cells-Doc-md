@@ -18,3 +18,4 @@ keywords: 使用Aspose.Cells for Python Excel库禁用数据透视表功能区
 以下代码通过访问工作表中的数据透视表，并将[**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/)设置为**false**来演示此功能。示例数据透视表文件可以从此[链接](pivot_table_test.xlsx)下载。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

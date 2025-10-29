@@ -52,3 +52,4 @@ keywords: مكتبة Python Excel, تصفية Python Blanks, تصفية Python N
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Filter-non-blanks.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -24,7 +24,7 @@ Aspose.Cells for Node.js via Java 是平台无关的 API，可在任何已安�
 ### **Linux:**
 - 下载并安装 [Node.js](https://nodejs.org/en/download/).
 - 为Linux安装Oracle JDK（1.7或1.8），并配置JAVA_HOME环境变量。
-- 安装 python 2.x。
+- 安装 Python 3.x
 - 安装 [node-java](https://github.com/joeferner/node-java) 桥接程序。您可以在终端上运行以下命令： 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - 安装 Oracle JDK8 并配置 JAVA_HOME 环境变量。
 - 安装 Node.js，并将 node.exe 添加到 PATH。
+- 安装 Python 并添加到环境变量。
 - 安装 node-gyp。
-- 安装 Windows Build Tools。
-- 安装[node-java bridge](https://www.npmjs.com/package/java)，并以管理员身份在命令提示符下运行以下命令：
+- 安装 [node-java bridge](https://www.npmjs.com/package/java)。
+- 安装 aspose.cells（或者：下载"Aspose.Cells for Node.js via Java"并解压到"aspose.cells.js.java/node_modules"）。
 
-
+以管理员身份在命令提示符下运行以下命令（**确保配置了 Java、Node.js、Python**）：
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- 下载"Aspose.Cells for Node.js via Java"并将其解压到"aspose.cells.js.java/node_modules"。
 - 使用以下示例代码在"aspose.cells.js.java"文件夹中创建名为**hello.js**的文件：
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- 安装Python 2.x（如果尚未安装）。
+- 安装 Python 3.x（如果未安装）
 - 安装node-java bridge。您可以在终端中运行以下命令：
 
 `         `$ mkdir aspose.cells.js.java

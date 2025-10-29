@@ -49,3 +49,4 @@ Aspose.Cells 会自动适应区域设置：
 - 使用 Unicode 编码处理多语言内容
 - 验证特定地区公式
 - 测试不同区域设置下的数字解析
+{{< app/cells/assistant language="python-net" >}}

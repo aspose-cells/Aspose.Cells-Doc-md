@@ -28,7 +28,7 @@ Aspose.Cells可以从ResultSet对象导入数据到工作表，该对象可以�
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **从Microsoft Access数据库ResultSet对象导入数据到工作表。**
-以下示例代码从Microsoft Access数据库执行SQL查询，并创建ResultSet对象。然后，它使用[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/zh-CN/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-)方法将数据从ResultSet导入到工作表中。第一次使用行和列索引导入，之后使用单元格名称导入数据。最后，将工作簿保存为[输出Excel文件](48496713.xlsx)。截图显示了示例代码对输出Excel文件的效果，供参考。
+以下示例代码从Microsoft Access数据库执行SQL查询，并创建ResultSet对象。然后，它使用[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/zh-CN/java/com.aspose.cells/cells#importResultSet-java.sql.ResultSet-int-int-boolean-)方法将数据从ResultSet导入到工作表中。第一次使用行和列索引导入，之后使用单元格名称导入数据。最后，将工作簿保存为【输出Excel文件】(48496713.xlsx)。截图显示了示例代码对输出Excel文件的效果，供参考。
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **示例代码**

@@ -21,3 +21,4 @@ url: /ar/python-net/create-high-low-close-stock-chart/
 الكود العينة التالي يحمل [ملف إكسل العينة](High-Low-Close.xlsx) ويولد [ملف إكسل الناتج](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

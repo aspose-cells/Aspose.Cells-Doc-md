@@ -67,3 +67,4 @@ API Aspose.Cells for Python via .NET также предоставляет во�
 - [Поддерживаемые форматы шрифтов](/cells/ru/python-net/supported-font-formats/)
 - [Электронная таблица в изображение - установите формат пикселей для визуализированного изображения](/cells/ru/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -30,3 +30,4 @@ keywords: Python Подогнать все столбцы листа на одн
 Если ваша электронная таблица содержит формулы, лучше вызвать метод [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) непосредственно перед рендерингом таблицы в формат PDF. Это обеспечит пересчет значений, зависящих от формул, и правильное отображение этих значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -54,3 +54,4 @@ int main()
 [源文件](96928091.xls)
 
 [输出文件](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

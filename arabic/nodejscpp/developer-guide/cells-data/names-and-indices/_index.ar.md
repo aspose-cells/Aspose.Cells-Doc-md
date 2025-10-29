@@ -51,3 +51,4 @@ keywords: Node.js عبر C++ الحصول على اسم الخلية من مؤش
 هذا هو الاسم الأول الذي تم إنشاؤه
 
 ` `<> + (adj.Private _ " خاص"
+{{< app/cells/assistant language="nodejs-cpp" >}}

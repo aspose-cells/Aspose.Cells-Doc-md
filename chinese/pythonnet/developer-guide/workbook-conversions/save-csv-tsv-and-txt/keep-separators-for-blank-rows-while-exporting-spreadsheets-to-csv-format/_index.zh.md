@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET 具有将行分隔符保留在将电子表格�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-KeepSeparatorsForBlankRow-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

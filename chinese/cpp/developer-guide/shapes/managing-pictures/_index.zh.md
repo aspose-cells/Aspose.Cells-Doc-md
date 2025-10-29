@@ -203,3 +203,4 @@ int main()
 - [从网址插入链接图片](/cells/zh/cpp/insert-a-linked-picture-from-web-address/)
 - [基于单元格引用插入图片](/cells/zh/cpp/insert-a-picture-based-on-cell-reference/)
 - [从URL中加载Web图像到Excel工作表](/cells/zh/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

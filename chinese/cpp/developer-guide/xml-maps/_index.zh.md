@@ -71,3 +71,4 @@ int main()
 - [导出链接到工作簿中的 XML 映射的 XML 数据](/cells/zh/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [查找 XML 映射的根元素名称](/cells/zh/cpp/find-the-root-element-name-of-xml-map/)
 - [将单元格链接到 XML 地图元素](/cells/zh/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

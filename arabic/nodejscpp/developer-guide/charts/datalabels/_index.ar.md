@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [تعيين نوع الشكل لتسميات بيانات الرسم البياني](/cells/ar/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [عرض نطاق الخلايا كعلامات البيانات](/cells/ar/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

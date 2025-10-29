@@ -17,3 +17,4 @@ Aspose.Cells允许您访问工作表的所有超链接，使用[**Worksheet.getH
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

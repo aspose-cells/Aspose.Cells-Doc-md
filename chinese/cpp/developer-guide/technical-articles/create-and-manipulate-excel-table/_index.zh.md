@@ -13,3 +13,4 @@ Aspose.Cells允许您创建和操作新的或现有的列表对象或表格。�
 ![todo:image_alt_text](create-and-manipulate-excel-table_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-CreateAndManipulateExcelTable-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

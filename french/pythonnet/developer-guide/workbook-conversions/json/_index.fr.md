@@ -26,3 +26,4 @@ L'exemple de code suivant démontre l'exportation de la feuille de calcul active
 - [Convertir Excel en JSON](/cells/fr/python-net/convert-excel-to-json/)
 - [Convertir JSON en CSV](/cells/fr/python-net/convert-json-to-csv/)
 - [Convertir JSON en Excel](/cells/fr/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

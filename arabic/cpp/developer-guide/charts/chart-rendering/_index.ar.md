@@ -178,3 +178,4 @@ chart.ToPdf(outputPdfFile);
 في حال محاولة عرض أنواع الرسوم البيانية غير المدعومة إلى صورة أو PDF، قد تنتهي بصور بحجم 0 أو PDF فارغة.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -124,3 +124,4 @@ Aspose.Cells for Python via .NET为 [**Cell**](https://reference.aspose.com/cell
 - [换行和文本换行](/cells/zh/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

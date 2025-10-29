@@ -7,3 +7,4 @@ keywords: "nodejs, excel, api, performance"
 description: "Comment optimiser la performance de Aspose.Cells for Node.js via C++."
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

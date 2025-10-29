@@ -16,3 +16,4 @@ Le code d'exemple suivant montre comment ajouter un ensemble d'icônes condition
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-AddConditionalIconsSet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

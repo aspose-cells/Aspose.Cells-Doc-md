@@ -63,3 +63,4 @@ workbook.save(filePath);
 ملاحظة: كلمة مرور صحيحة مطلوبة.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

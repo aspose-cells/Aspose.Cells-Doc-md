@@ -54,3 +54,4 @@ int main()
 - [Convertir Excel en JSON](/cells/fr/cpp/convert-excel-to-json/)
 - [Convertir JSON en CSV](/cells/fr/cpp/convert-json-to-csv/)
 - [Convertir JSON en Excel](/cells/fr/cpp/convert-json-to-excel/)
+{{< app/cells/assistant language="cpp" >}}

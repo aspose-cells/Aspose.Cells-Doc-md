@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET API允许通过折线图创建瀑布图。该AP
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateWaterfallChart-1.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

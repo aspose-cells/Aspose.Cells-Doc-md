@@ -36,3 +36,4 @@ Si vous ouvrez le SVG du graphique dans le bloc-notes, vous trouverez l'attribut
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

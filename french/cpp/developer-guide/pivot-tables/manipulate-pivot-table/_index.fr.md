@@ -23,3 +23,4 @@ Voici la sortie de la console du code d'exemple ci-dessus lorsqu'il est ex√©cut√
 After refreshing Pivot Table value of cell H8: 6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

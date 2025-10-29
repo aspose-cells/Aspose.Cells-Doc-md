@@ -187,3 +187,4 @@ chart.toImage(path.join(dataDir, "chartPNG_out.png"), options);
 ## **مواضيع متقدمة**  
 - [تحويل الرسم البياني إلى PDF](/cells/ar/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

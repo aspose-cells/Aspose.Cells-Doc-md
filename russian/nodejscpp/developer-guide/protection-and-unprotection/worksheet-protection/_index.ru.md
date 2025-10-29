@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Снятие защиты с листа](/cells/ru/nodejs-cpp/unprotect-a-worksheet/)  
 - [Проверить Пароль, Используемый для Защиты Листа](/cells/ru/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

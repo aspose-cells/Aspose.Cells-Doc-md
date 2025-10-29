@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Добавить строку подписи на лист](/cells/ru/nodejs-cpp/add-signature-line/)  
 - [Поддержка XAdES Signature](/cells/ru/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

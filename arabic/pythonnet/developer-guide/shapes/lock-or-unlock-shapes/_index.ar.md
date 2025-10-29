@@ -30,3 +30,4 @@ url: /ar/python-net/lock-or-unlock-shapes/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Lock-Or-Unlock-Shapes-2.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

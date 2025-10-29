@@ -9,3 +9,4 @@ keywords: 使用Node.js通过C++管理形状选项，使用Node.js通过C++定�
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

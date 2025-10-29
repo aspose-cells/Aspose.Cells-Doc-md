@@ -60,3 +60,4 @@ int main()
 
 - [Afficher des puces en définissant la valeur de la cellule à l'aide de HTML](/cells/fr/cpp/display-bullets-by-setting-cell-value-using/)
 - [Obtenir une chaîne HTML5 à partir de la cellule](/cells/fr/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

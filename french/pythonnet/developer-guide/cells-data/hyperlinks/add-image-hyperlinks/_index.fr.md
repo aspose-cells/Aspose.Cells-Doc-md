@@ -18,3 +18,4 @@ Aspose.Cells pour Python via .NET permet d'ajouter des hyperliens vers des image
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AddImageHyperlinks-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

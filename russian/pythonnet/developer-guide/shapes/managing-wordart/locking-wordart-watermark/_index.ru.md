@@ -14,3 +14,4 @@ API Aspose.Cells для Python via .NET позволяет добавлять в
 API Aspose.Cells для Python via .NET позволяет блокировать определенные аспекты водяного знака, чтобы ограничить или полностью заблокировать взаимодействие пользователя. Следующий фрагмент кода демонстрирует использование API Aspose.Cells для Python via .NET для блокировки выбора, перемещения, редактирования и изменения размера водяного знака, создавая рабочую книгу с нуля.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

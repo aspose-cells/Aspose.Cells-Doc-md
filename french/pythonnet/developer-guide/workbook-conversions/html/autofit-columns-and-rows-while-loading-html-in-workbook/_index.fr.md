@@ -21,3 +21,4 @@ Le code d'exemple suivant charge d'abord le fichier HTML d'exemple dans Workbook
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

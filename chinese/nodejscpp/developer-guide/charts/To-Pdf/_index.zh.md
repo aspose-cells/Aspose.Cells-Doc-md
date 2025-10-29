@@ -72,3 +72,4 @@ chart.toPdf(path.join(outputDir, "outputCreateChartPDFWithDesiredPageSize.pdf"),
 ```  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

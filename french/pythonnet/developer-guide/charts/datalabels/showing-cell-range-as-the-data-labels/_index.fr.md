@@ -24,3 +24,4 @@ Pour afficher la plage de cellules en tant qu'étiquettes de données dans Micro
 Le code d'exemple ci-dessous accède aux étiquettes de données d'une série de graphiques et définit la propriété [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) à **true** pour sélectionner l'option **L'étiquette contient - Valeur à partir des cellules**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

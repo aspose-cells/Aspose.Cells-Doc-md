@@ -16,3 +16,4 @@ Aspose.Cells for Python via NET 在将 Excel 转换为 HTML 时提供了导出�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrintHeadings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

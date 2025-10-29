@@ -23,3 +23,4 @@ Aspose.Cells fournit une classe [Workbook](https://reference.aspose.com/cells/cp
 Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) fournit une large gamme de méthodes utilisées pour gérer une feuille de calcul. Pour ajouter les sauts de page, utilisez la méthode [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) de la classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Ajout de sauts de page**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

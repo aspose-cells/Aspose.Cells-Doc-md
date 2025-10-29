@@ -14,16 +14,16 @@ description: 学习在使用 Aspose.Cells for C++ 将Excel文件转换为HTML时
 {{% /alert %}} 
 
 ## **在Excel转HTML时导出数据棒、颜色刻度和图标集条件格式**
-下方截图显示了带有数据条、颜色刻度和图标集条件格式的[示例Excel文件](5115558.xlsx)。你可以通过提供的链接下载[示例Excel文件](5115558.xlsx)。
+下方截图显示了带有数据条、颜色刻度和图标集条件格式的【示例Excel文件】(5115558.xlsx)。你可以通过提供的链接下载【示例Excel文件】(5115558.xlsx)。
 
 ![todo:image_alt_text](conversion_1.png)
 
-下方截图显示了Aspose.Cells输出的HTML文件，展示了数据条、颜色刻度和图标集条件格式。如你所见，它与[示例Excel文件](5115558.xlsx)完全一致。
+下方截图显示了Aspose.Cells输出的HTML文件，展示了数据条、颜色刻度和图标集条件格式。如你所见，它与【示例Excel文件】(5115558.xlsx)完全一致。
 
 ![todo:image_alt_text](conversion_2.png)
 
 ### **示例代码**
-以下示例代码将示例Excel文件转换为HTML，这只是一次普通的[Excel转HTML转换](/cells/zh/cpp/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)。
+以下示例代码将示例Excel文件转换为HTML，这只是一次普通的【Excel转HTML转换】(/cells/zh/cpp/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)。
 
 ```c++
 #include <iostream>
@@ -55,3 +55,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

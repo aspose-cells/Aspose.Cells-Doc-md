@@ -236,3 +236,4 @@ int main()
 
 ## **الموضوعات المتقدمة**
 - [تلائم حجم الصفوف للخلايا المدمجة](/cells/ar/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

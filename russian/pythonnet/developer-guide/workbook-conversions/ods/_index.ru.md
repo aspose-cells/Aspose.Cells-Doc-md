@@ -24,3 +24,4 @@ Aspose.Cells для Python via .NET поддерживает преобразо�
 ## **Продвинутые темы**
 - [Сохранить файл ODS в спецификациях ODF 1.1 и 1.2](/cells/ru/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Работа с фоном в файлах ODS](/cells/ru/python-net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="python-net" >}}

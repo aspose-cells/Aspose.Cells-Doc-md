@@ -32,3 +32,4 @@ sheet.getOleObjects().get(0).setAutoLoad(true);
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "RefreshOLEObjects_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

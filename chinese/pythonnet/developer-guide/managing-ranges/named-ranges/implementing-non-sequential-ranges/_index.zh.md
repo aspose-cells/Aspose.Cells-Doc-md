@@ -16,3 +16,4 @@ keywords: Python Excel 库，Python 添加非连续范围，Python 实现非连�
 下面的代码示例显示了如何使用 Aspose.Cells for Python via .NET 创建命名的非连续范围。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

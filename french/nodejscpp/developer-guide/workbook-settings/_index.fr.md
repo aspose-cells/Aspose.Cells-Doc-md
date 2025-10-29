@@ -52,3 +52,4 @@ Aspose.Cells pour Node.js offre un certain nombre de propriétés et de méthode
 ## **Conclusion**
 Gérer les paramètres du classeur dans Aspose.Cells for Node.js via C++ est simple et offre de nombreuses options pour personnaliser le comportement des fichiers Excel. En utilisant les réglages disponibles, vous pouvez adapter le classeur à vos besoins spécifiques.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -40,3 +40,4 @@ url: /ar/cpp/accessing-cells-of-a-worksheet/
 يمكنك الوصول إلى النطاق العرض الأقصى لورق العمل باستخدام طريقة [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) في مجموعة الـ [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

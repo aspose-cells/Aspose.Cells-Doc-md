@@ -11,3 +11,4 @@ url: /zh/python-net/export-xml-data-linked-to-xml-map-inside-the-workbook/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "XmlMaps-ExportXmlMapFromWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

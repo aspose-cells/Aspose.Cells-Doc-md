@@ -41,3 +41,4 @@ opts.setDisableDownlevelRevealedComments(true);
 // Save the workbook in html
 workbook.save(path.join(outputDir, "outputDisableDownlevelRevealedComments_true.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

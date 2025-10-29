@@ -25,3 +25,4 @@ Aspose.Cells for Python via .NET 支持使用 [**ShapeCollection.add_linked_pict
 下面的示例显示了如何将来自Web地址的链接图片添加到工作表中。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

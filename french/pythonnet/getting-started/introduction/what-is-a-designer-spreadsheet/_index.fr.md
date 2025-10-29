@@ -36,3 +36,4 @@ Après avoir créé une feuille de calcul Designer, utilisez Aspose.Cells pour l
 De plus, Aspose.Cells vous permet d'ajouter des [marqueurs intelligents](/cells/fr/python-net/smart-markers/) à la feuille de calcul Designer. Les marqueurs intelligents sont traités à l'exécution à l'aide de la méthode Process de la classe WorkbookDesigner. Cela peut vous aider à écrire moins de code et obtenir tout de même un excellent résultat.
 
 [Découvrez-en plus sur les marqueurs intelligents](/cells/fr/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

@@ -151,3 +151,4 @@ int main()
 ## **Sujets avancés**
 - [Trier les données dans une colonne avec une liste de tri personnalisée](/cells/fr/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Spécifier un avertissement de tri lors du tri des données](/cells/fr/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

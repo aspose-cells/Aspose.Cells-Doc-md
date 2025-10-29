@@ -52,3 +52,4 @@ Afin de simplifier la démonstration et de la rendre compréhensible, nous crée
 1. Enregistrez le résultat sur le disque.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateDynamicChartsUsingDynamicFormula.py" >}}
+{{< app/cells/assistant language="python-net" >}}

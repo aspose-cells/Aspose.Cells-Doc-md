@@ -15,3 +15,4 @@ Le fichier de sortie généré par le code ci-dessus est joint à titre de réf�
 
 [Fichier ODS de sortie](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

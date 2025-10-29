@@ -43,3 +43,4 @@ print(w.custom_document_properties.get("test"))
 print("Press any key to continue...")
 ```
 
+{{< app/cells/assistant language="python-net" >}}

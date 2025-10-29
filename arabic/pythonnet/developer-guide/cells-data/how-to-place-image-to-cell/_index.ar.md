@@ -60,3 +60,4 @@ keywords: مكتبة Excel لـ Python، كيفية إدراج صورة في ا�
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-place-image-in-cell.py" >}}
+{{< app/cells/assistant language="python-net" >}}

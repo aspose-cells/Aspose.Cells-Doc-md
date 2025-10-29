@@ -28,3 +28,4 @@ url: /ru/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrossty
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SpecifyHtmlCrossTypeInOutputHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

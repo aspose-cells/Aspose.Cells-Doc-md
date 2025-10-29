@@ -197,3 +197,4 @@ Par défaut, la chaîne de calcul est désactivée. La création de la chaîne d
 - [Retourner une plage de valeurs en utilisant AbstractCalculationEngine](/cells/fr/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Définir le mode de calcul de formule du classeur](/cells/fr/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Utilisation de la fonction FormulaText dans Aspose.Cells](/cells/fr/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

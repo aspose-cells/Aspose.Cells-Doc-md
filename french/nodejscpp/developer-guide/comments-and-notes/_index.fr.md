@@ -144,3 +144,4 @@ workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx)
 - [Comment définir l'arrière-plan du commentaire](/cells/fr/nodejs-cpp/how-to-set-comment-background/)
 - [Commentaires en fil](/cells/fr/nodejs-cpp/threaded-comments/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

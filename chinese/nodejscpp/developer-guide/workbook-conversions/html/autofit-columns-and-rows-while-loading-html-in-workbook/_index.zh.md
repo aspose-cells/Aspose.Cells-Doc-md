@@ -13,7 +13,7 @@ description: 了解如何在使用Aspose.Cells for Node.js via C++加载HTML文�
 
 ## **加载HTML至工作簿时自适应调整列和行**
 
-以下示例代码首先在没有任何加载选项的情况下将示例HTML加载到工作簿中，并保存为XLSX格式。然后再次加载样本文HTML，但这次将[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)属性设置为**true**，然后保存为XLSX格式。请下载两个输出Excel文件，即[无自动调整列行的输出Excel]和[自动调整列行的输出Excel]。下方截图显示了[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)属性对两个输出Excel文件的影响。
+以下示例代码首先在没有任何加载选项的情况下将示例HTML加载到工作簿中，并保存为XLSX格式。然后再次加载样本文HTML，但这次将[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)属性设置为**true**，然后保存为XLSX格式。请下载两个输出Excel文件，即【无自动调整列行的输出Excel】和【自动调整列行的输出Excel】。下方截图显示了[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)属性对两个输出Excel文件的影响。
 
 ![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
@@ -49,3 +49,4 @@ wb = new AsposeCells.Workbook(ms, opts);
 wb.save(path.join(dataDir, "outputWith_AutoFitColsAndRows.xlsx"));
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

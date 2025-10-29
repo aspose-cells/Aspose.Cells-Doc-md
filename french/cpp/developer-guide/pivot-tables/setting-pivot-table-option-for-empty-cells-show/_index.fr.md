@@ -83,3 +83,4 @@ int main()
 ## Articles Connexes
 
 - [Formatage du tableau croisé dynamique](/cells/fr/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

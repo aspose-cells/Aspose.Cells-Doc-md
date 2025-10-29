@@ -30,3 +30,4 @@ Aspose.Cells提供了一个重载的方法[AddCopy()](https://reference.aspose.c
 Aspose.Cells提供了一个[MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/)方法，用于将工作表移动到同一电子表格中的另一个位置。该方法将目标工作表的索引作为参数。以下示例显示了如何将工作表移动到工作簿内的另一个位置。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

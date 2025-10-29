@@ -56,3 +56,4 @@ Aspose.Cells pour Python via .NET permet aux développeurs d'accéder à la plag
 Vous pouvez accéder à la plage d'affichage maximale d'une feuille de calcul en utilisant [**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/). Le code d'exemple suivant illustre comment accéder à la propriété [**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

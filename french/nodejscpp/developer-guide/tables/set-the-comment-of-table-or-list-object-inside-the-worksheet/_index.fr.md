@@ -34,3 +34,4 @@ lstObj.setComment("This is Aspose.Cells comment.");
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "SetCommentOfTableOrListObject_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

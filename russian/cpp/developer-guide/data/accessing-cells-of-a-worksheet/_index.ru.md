@@ -40,3 +40,4 @@ Aspose.Cells позволяет разработчикам получить до
 Вы можете получить доступ к максимальному диапазону отображения рабочего листа, используя метод [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

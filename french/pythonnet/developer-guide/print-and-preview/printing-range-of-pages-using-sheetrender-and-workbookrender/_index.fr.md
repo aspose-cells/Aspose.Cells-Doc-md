@@ -17,3 +17,4 @@ Aspose.Cells pour Python via .NET fournit les méthodes WorkbookRender.ToPrinter
 Le code d'exemple suivant illustre l'utilisation des méthodes WorkbookRender.ToPrinter(nomImprimante, indexImpression, nombrePagesImpression) et SheetRender.ToPrinter(nomImprimante, indexImpression, nombrePagesImpression). Il imprime les pages 2 à 5 du classeur et de la feuille de calcul.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-PrintingSpecificRangeOfPages.py" >}}
+{{< app/cells/assistant language="python-net" >}}

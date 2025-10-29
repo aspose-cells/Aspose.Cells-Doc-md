@@ -40,3 +40,4 @@ Il est simple de figer les volets avec Aspose.Cells pour Python via .NET. Veuill
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Fichier Excel source [exemple joint](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

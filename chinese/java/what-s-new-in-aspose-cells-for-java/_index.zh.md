@@ -8,14 +8,68 @@ url: /zh/java/what-s-new-in-aspose-cells-for-java/
 
 本页面描述了最近发布的Aspose.Cells新功能中最有趣的内容。
 
+## Aspose.Cells for Java 25.10
+* 提供选项以确定数字值的有效数字输出方式
+* 支持在导出为字符串时，使用定制的 ExportTableOptions 处理导出的单元格
+* 支持用日本皇帝年号的日历解析日期时间
+* 在计算工作簿公式时，默认支持刷新动态数组公式
+* 改善将生成的 PDF 文件与 PdfBox 库的兼容性
+* 支持在渲染透视表范围为图片时计算样式
+* 将 Excel 2016 高级图表导出为 docx
+* 支持使用智能标记在单元格中添加评论
+
+## Aspose.Cells for Java 25.9
+* 支持 WRAPCOLS，WRAPROWS 函数
+* 转换为 XPS 时支持字体变体选择器
+* 转换为嵌入字体的 SVG 时支持字体变体选择器
+* 转换文件为 HTML 时支持嵌入字体
+* 支持 FlatOPC 文件格式
+* 支持可编辑图表和嵌入对象（OLE 对象）到 PPTX 文件
+* 支持主从工作表智能标记
+* 支持重复工作表的智能标记
+
+## Aspose.Cells for Java 25.8
+* 支持 Office 365 的新功能：EXPAND、REDUCE、COT、COTH
+* 支持在保存 PDF 时使用字体变体选择器
+* 支持在保存 HTML 时保留冻结的顶端行
+* 支持在智能标记中的公式和 "if" 参数中使用变量
+* 支持范围智能标记以处理嵌套数据源
+* 支持在 Markdown 导入期间读取 Base64 编码的图片和链接引用定义
+* 支持 GridJs 中数字格式的对齐和边框选项
+* 支持在客户端 JS 中为 GridJs 的文本框控件应用字体设置
+* 支持在菜单及最大行数以下批量插入行功能
+* 支持 GridJs 自动换行文本
+* 支持 GridJs 的协作模式
+
+## Aspose.Cells for Java 25.7
+* 支持公式中的新功能：TAKE，ISOMITTED
+* 支持Excel模板中的变量，用于智能标记
+* 支持导出浮动图片到Numbers
+* 支持使用文件缓存大规模单元格数据集以降低内存成本
+
+## Aspose.Cells for Java 25.6
+* 支持为生成的pcl文件嵌入字体
+* 支持在保存Numbers时导出超链接和打印设置
+* 支持复制工作表时选择透视表的工作表引用选项
+
+## Aspose.Cells for Java 25.5
+* 支持将图片导出为Markdown格式
+* 支持导出文本框及条件格式到Numbers格式
+* 支持将嵌入的图片和实体数据导出为Docx格式
+* 支持范围的摄像头功能
+* 优化复制工作簿时切片器的功能
+* 支持GridJs的API请求令牌选项
+* 支持GridJs的波兰菜单
+* 支持为GridJs插入/删除行/列的JavaScript API
+
 ## Aspose.Cells for Java 25.4
 * 支持指定导出到HTML的工作表集
 * 支持获取和设置工作表的网格线颜色
-* 支持将可编辑图表导出为DOCX文件
+* 支持将可编辑的图表导出为DOCX文件
 * 支持读取和写入敏感性标签
 * 支持将更多样式属性导出到Numbers
-* 支持导入Markdown格式的模版文件
-* 支持检测在`Cell`和`Workbook`中的公式是否使用了自定义函数
+* 支持导入Markdown格式的模板文件
+* 支持检测公式在`Cell`和`Workbook`中是否使用了任何自定义函数
 
 ## Aspose.Cells for Java 25.3
 * 支持从单元格获取显示样式，无需获取单元格对象

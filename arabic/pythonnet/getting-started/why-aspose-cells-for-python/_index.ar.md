@@ -97,3 +97,4 @@ Aspose.Cells هي مكتبة قوية توفر مجموعة واسعة من ال
 يمكنك في Pandas استخدام كائن ExcelWriter ودالة to_excel() لإضافة رسوم بيانية إلى ملف Excel. ومع ذلك، يرجى ملاحظة أن Pandas نفسها لا تدعم تضمين الرسوم البيانية مباشرة في ملفات Excel، بل يمكنها فقط كتابة البيانات إلى ملفات Excel. لإضافة رسم بياني، يجب عليك استخدام مكتبة openpyxl أو xlsxwriter للتلاعب في ملفات Excel. هنا مثال على استخدام مكتبة xlsxwriter لإضافة رسم بياني إلى ملف Excel.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

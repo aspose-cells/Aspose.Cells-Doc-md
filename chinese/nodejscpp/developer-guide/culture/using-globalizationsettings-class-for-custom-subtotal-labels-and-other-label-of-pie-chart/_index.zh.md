@@ -129,3 +129,4 @@ throw error;
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

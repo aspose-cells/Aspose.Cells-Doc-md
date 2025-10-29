@@ -160,3 +160,4 @@ La capture d'écran de sortie :
 <br>  
 <image src="4.png" width="70%" />  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

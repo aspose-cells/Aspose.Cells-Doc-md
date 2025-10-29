@@ -166,3 +166,4 @@ int main()
 - [检测超链接类型](/cells/zh/cpp/detect-hyperlink-type/)
 - [编辑工作表的超链接](/cells/zh/cpp/editing-hyperlinks-of-worksheet/)
 - [获取范围内的超链接](/cells/zh/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

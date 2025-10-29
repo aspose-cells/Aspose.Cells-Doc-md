@@ -67,3 +67,4 @@ Aspose.Cells for Python via .NET提供了一个类[Workbook](https://reference.a
 - [编辑工作表的超链接](/cells/zh/python-net/editing-hyperlinks-of-worksheet/)
 - [获取范围内的超链接](/cells/zh/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

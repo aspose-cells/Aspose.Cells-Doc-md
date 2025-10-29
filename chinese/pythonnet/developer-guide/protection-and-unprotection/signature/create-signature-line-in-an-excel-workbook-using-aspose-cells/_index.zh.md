@@ -19,3 +19,4 @@ Aspose.Cells for Python via .NET还提供此功能，并暴露[**Picture.signatu
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-CreateSignatureLineInWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

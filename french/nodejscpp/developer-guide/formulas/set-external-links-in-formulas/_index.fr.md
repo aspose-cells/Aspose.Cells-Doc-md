@@ -44,3 +44,4 @@ cells.get("A2").setFormula(`='[${filePath}]Sheet1'!A8`);
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

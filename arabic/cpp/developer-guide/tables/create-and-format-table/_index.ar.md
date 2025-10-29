@@ -57,3 +57,4 @@ url: /ar/cpp/create-and-format-table/
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-FormatTable-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

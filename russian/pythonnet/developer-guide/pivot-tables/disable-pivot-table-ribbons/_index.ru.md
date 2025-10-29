@@ -18,3 +18,4 @@ keywords: Aspose.Cells для Python Excel, библиотека Excel Python, �
 Следующий код демонстрирует эту функцию, получая доступ к сводной таблице из листа, а затем устанавливая [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) в **false**. Образец файла сводной таблицы можно скачать по этой [ссылке](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

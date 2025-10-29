@@ -133,3 +133,4 @@ url: /ar/nodejs-cpp/cells-alignment-settings/
 - [تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية](/cells/ar/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [فواصل السطر وتفريغ النص](/cells/ar/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -166,3 +166,4 @@ keywords: إضافة مرشح بواسطة اللون باستخدام Node.js �
 ## **مواضيع متقدمة**
 - [تطبيق مرشح Microsoft Excel المتقدم لعرض السجلات التي تلبي معايير معقدة](/cells/ar/nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [الحصول على جميع فهرسات الصفوف المخفية بعد تحديث تصفية السيارة.](/cells/ar/nodejs-cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

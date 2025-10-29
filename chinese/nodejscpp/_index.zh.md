@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ 利用Node.js展示了Aspose.Cells for C++的�
 - [Aspose.Cells for Node.js via C++ API参考指南](https://reference.aspose.com/cells/nodejs-cpp/)
 - [Aspose.Cells for Node.js via C++ 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via C++ 付费支持客服台](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

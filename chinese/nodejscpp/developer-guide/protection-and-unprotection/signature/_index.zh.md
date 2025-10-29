@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [在工作表中添加签名行](/cells/zh/nodejs-cpp/add-signature-line/)  
 - [XAdES 签名的支持](/cells/zh/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

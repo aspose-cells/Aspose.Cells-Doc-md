@@ -48,3 +48,4 @@ L'exemple suivant vous montrera en détail comment définir une région localis�
 - [Comment définir la région japonaise pour le graphique](/cells/fr/nodejs-cpp/convert-chart-to-image-for-japanese-region/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

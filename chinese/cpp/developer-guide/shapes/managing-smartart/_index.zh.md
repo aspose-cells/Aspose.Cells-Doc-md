@@ -12,3 +12,4 @@ description: 使用 Aspose.Cells for C++ 管理和操作Excel文件中的Smart A
 Aspose.Cells 提供了用于以编程方式操作Excel中的Smart Art形状的全面工具。本指南演示如何使用 C++ 创建、访问和修改Smart Art元素。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -18,3 +18,4 @@ keywords: Aspose.Cells for Node.js via C++ إكسل، مكتبة إكسل Node.j
 تحتوي رمز العينة التالي على حذف جدولين للدوران من ورقة العمل. أولاً يقوم بإزالة جدول الدوران باستخدام الطريقة [**Worksheet.getPivotTables().remove(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#remove-pivottable-) ثم يزيل جدول الدوران باستخدام الطريقة [**Worksheet.getPivotTables().removeAt(index, keepData)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#removeAt-number-boolean-)
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -18,3 +18,4 @@ keywords: Aspose.Cells для Node.js Excel, библиотека Excel Node.js,
 Следующий код демонстрирует эту функцию, получая доступ к сводной таблице из листа, а затем устанавливая [**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-) в **false**. Образец файла сводной таблицы можно скачать по этой [ссылке](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -136,3 +136,4 @@ int main()
 ### 结论
 
 通过遵循这些步骤，你可以轻松地在 Aspose.Cells for C++ 中将数字格式化为百分比。Aspose.Cells 提供了丰富的功能，用于操作 Excel 文件，包括单元格格式化、公式处理等，是操作 Excel 数据的强大工具，适合 C++ 开发者使用。
+{{< app/cells/assistant language="cpp" >}}

@@ -149,3 +149,4 @@ int main()
 - [Установка сильного типа шифрования](/cells/ru/cpp/setting-strong-encryption-type/)
 - [Укажите автора при защите от записи книги](/cells/ru/cpp/specify-author-while-write-protecting-workbook/)
 - [Проверка пароля зашифрованных файлов](/cells/ru/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

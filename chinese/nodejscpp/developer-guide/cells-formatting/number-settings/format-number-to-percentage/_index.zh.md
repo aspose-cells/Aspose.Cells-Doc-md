@@ -97,3 +97,4 @@ keywords: 将数字转换为百分比格式，将数值变为百分比，修改�
 
 遵循这些步骤，您可以轻松在 Aspose.Cells for Node.js via C++ 中将数字格式化为百分比。Aspose.Cells 提供了广泛的功能用于操作 Excel 文件，包括设置单元格格式、使用公式等，是 Node.js 开发者处理 Excel 数据的强大工具。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ предоставляет свойства [**
 
 - [Форматирование сводной таблицы](/cells/ru/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

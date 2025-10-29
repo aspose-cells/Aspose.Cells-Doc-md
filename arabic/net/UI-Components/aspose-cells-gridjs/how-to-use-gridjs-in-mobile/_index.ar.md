@@ -15,7 +15,7 @@ aliases:
 
 يمكن لـ GridJs أن يتكيف مع شاشة الجوال.
 
-شغل [عرض توضيحي لـ GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "عرض توضيحي لـ GridJs")
+شغل [عرض توضيحي لـ GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "عرض توضيحي لـ GridJs")
 
 منفذ المشروع التجريبي الافتراضي هو 24262 
 

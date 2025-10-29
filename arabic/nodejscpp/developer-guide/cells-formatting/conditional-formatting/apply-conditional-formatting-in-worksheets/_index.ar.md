@@ -49,3 +49,4 @@ url: /ar/nodejs-cpp/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 عند تنفيذ الكود أعلاه، يُطبق التنسيق الشرطي على الخلية “B3” في ورقة العمل الأولى من ملف الإخراج (output.xls). يعتمد التنسيق الشرطي المطبق على الصيغة التي تحسب قيمة “B3” كمجموع B1 و B2.
+{{< app/cells/assistant language="nodejs-cpp" >}}

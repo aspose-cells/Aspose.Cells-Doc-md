@@ -71,3 +71,4 @@ url: /ar/python-net/setting-chart-appearance/
 ## **مواضيع متقدمة**
 - [تعيين رمز تنسيق القيم لسلاسل الرسم البياني](/cells/ar/python-net/set-the-values-format-code-of-chart-series/)
 - [تعيين صورة كحشو خلفية في الرسم البياني](/cells/ar/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

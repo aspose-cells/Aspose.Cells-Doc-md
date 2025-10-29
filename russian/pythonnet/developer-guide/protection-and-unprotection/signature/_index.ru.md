@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET предоставляет пространст
 - [Добавить строку подписи на лист](/cells/ru/python-net/add-signature-line/)
 - [Поддержка XAdES Signature](/cells/ru/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

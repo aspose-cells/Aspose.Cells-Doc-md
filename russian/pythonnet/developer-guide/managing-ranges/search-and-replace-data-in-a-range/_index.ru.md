@@ -16,3 +16,4 @@ keywords: Библиотека Python Excel, Поиск и замена данн
 Aspose.Cells для Python via .NET предоставляет метод [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) для указания диапазона при поиске данных. Пример кода ниже ищет и заменяет данные в диапазоне.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

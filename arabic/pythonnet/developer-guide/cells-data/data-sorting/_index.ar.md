@@ -58,3 +58,4 @@ keywords: مكتبة بيثون إكسل، فرز البيانات في بيثو
 ## **مواضيع متقدمة**
 - [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/python-net/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/python-net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="python-net" >}}

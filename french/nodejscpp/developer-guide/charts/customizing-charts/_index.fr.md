@@ -66,3 +66,4 @@ Actuellement, Aspose.Cells ne supporte que les graphiques personnalisés combina
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

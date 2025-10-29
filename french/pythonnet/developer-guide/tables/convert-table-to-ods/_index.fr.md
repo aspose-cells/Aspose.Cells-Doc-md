@@ -15,3 +15,4 @@ Le fichier ODS de sortie généré par le code d'exemple est joint à titre de r
 
 [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save)
 
+{{< app/cells/assistant language="python-net" >}}

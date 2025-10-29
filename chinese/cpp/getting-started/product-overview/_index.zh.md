@@ -82,3 +82,4 @@ Aspose不提供电话技术支持。电话支持仅供销售和购买问题使�
 |[Aspose.Cells for C++ 下载](https://downloads.aspose.com/cells/cpp)|从这里下载最新版的 Aspose.Cells。我们经常进行发布。
 |[Aspose.Cells for C++ 支持论坛](https://forum.aspose.com/c/cells/9)|在此发表您的问题和疑问，以加快解决速度。
 |[Aspose.Cells for C++ 产品文档](/cells/zh/cpp/)|包括此文档以及 Aspose.Cells API 参考的完整在线文档。
+{{< app/cells/assistant language="cpp" >}}

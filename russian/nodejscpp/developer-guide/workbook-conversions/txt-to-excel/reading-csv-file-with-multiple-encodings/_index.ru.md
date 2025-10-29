@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "MultiEncoded.csv.out.xlsx"), AsposeCells.SaveF
 ## Связанные статьи
 
 - [Открытие файлов CSV](/cells/ru/nodejs-cpp/opening-files-with-different-formats/#opening-csv-files)
+{{< app/cells/assistant language="nodejs-cpp" >}}

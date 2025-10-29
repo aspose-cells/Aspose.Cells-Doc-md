@@ -238,3 +238,4 @@ workbook.save("outSourceWithCustProps.pdf", pdfSaveOptions);
 - [将指定的工作表保存为 PDF](/cells/zh/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [安全的PDF文件](/cells/zh/nodejs-cpp/secure-pdf-documents/)
 - [指定如何在输出PDF和图像中跨越字符串](/cells/zh/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

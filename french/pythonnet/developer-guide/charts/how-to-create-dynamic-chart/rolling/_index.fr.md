@@ -32,3 +32,4 @@ Dans le fichier généré, vous pouvez continuer à ajouter des données dans le
 ```
 
 Vous pouvez essayer de changer le chiffre "-5" par "-10" dans la formule, et le graphique dynamique comptera les 10 dernières séries de données. Nous avons maintenant créé un graphique à balayage dynamique avec succès en utilisant Aspose.Cells pour Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

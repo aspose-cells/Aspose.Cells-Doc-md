@@ -15,3 +15,4 @@ Aspose.Cells for Python via .NET API增强了 [**Protection**](https://reference
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-VerifyPasswordUsedToProtectWorksheets.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

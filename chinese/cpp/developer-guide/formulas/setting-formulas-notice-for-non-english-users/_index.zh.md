@@ -18,3 +18,4 @@ Aspose.Cells 支持 Microsoft Excel 大部分的公式/函数。开发者可以�
 
 1. 公式必须使用英语输入。例如，使用英语"=SUM()"而不是德语"=SUMME()"。
 1. 始终使用逗号(,)分隔函数参数。在某些语言选项或设置中，函数参数的分隔符是分号，但 Aspose.Cells 使用英语样式的逗号。例如，使用 "=IF (C5=0,0,C3/C4)"，而不是 "=IF(C5=0;0;C3/C4)"。
+{{< app/cells/assistant language="cpp" >}}

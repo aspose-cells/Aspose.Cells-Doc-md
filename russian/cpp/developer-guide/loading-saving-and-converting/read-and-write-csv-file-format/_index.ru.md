@@ -11,3 +11,4 @@ Microsoft Excel поддерживает множество форматов, т
 В следующем образце кода загружается [исходный файл CSV](23166994.csv), читается его ячейка A1, затем его содержимое копируется в ячейку C4 и сохраняется в виде [выходного файла CSV](23166994.csv).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

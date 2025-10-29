@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NET提供了设置"对空单元格显示"数据透�
 ## 相关文章
 
 - [格式化数据透视表](/cells/zh/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

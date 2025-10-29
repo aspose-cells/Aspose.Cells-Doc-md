@@ -21,3 +21,4 @@ keywords: Aspose.Cells用于Node.js的Excel库，使用Aspose.Cells for Node.js�
 **示例代码**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-GetPivotTableRefreshDate-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

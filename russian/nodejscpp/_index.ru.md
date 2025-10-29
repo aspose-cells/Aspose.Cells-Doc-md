@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ представляет все полезны�
 - [Руководство по API для Aspose.Cells for Node.js via C++](https://reference.aspose.com/cells/nodejs-cpp/)
 - [Форум бесплатной поддержки Aspose.Cells for Node.js via C++](https://forum.aspose.com/c/cells/9)
 - [Центр поддержки платной поддержки Aspose.Cells for Node.js via C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

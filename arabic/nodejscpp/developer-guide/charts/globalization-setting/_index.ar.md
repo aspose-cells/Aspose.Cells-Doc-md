@@ -48,3 +48,4 @@ alias: [/nodejs-cpp/how-to-set-globalization-configuration-for-chart/]
 - [كيفية تعيين المنطقة اليابانية للرسم البياني](/cells/ar/nodejs-cpp/convert-chart-to-image-for-japanese-region/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

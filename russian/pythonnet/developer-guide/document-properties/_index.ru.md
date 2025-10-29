@@ -73,3 +73,4 @@ API Aspose.Cells для Python via .NET предоставил метод [**add
 - [Указание версии документа Excel с использованием встроенных свойств документа](/cells/ru/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Указание языка файла Excel с использованием встроенных свойств документа](/cells/ru/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -18,3 +18,4 @@ keywords: Aspose.Cells لبيثون إكسل، مكتبة بيثون إكسل، 
 يوضح الكود التالي هذه الميزة عن طريق الوصول إلى جدول دوران من ورقة ومن ثم ضبط [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) إلى **false**. يمكن تنزيل ملف جدول الدوران المثالي من هذا [الرابط](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

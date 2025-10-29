@@ -40,3 +40,4 @@ keywords: مكتبة إكسل بايثون، تجميد الأجزاء، تجم�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 المرفق [ملف الإكسيل عينة](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ workbook.save(path.join(outputDir, "ConvertTableToOds_out.ods"));
 
 [**Output ODS File**](ConvertTableToOds_out.ods)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -40,3 +40,4 @@ keywords: Библиотека Python для Excel, закрепление об�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Прикреплен файл [образец исходного файла Excel](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

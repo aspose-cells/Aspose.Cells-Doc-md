@@ -23,3 +23,4 @@ url: /ar/cpp/managing-page-breaks/
 ورقة العمل ممثلة بالفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) . توفر الفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) مجموعة واسعة من الأساليب المستخدمة لإدارة ورقة العمل. لإضافة فواصل الصفحات، استخدم الأسلوب [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) للفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) .
 ### **إضافة فواصل الصفحات**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

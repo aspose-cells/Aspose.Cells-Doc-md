@@ -83,3 +83,4 @@ int main()
 ## 相关文章
 
 - [格式化数据透视表](/cells/zh/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

@@ -57,3 +57,4 @@ url: /ru/python-net/combine-multiple-workbooks-into-a-single-workbook/
 - [Объединение нескольких листов в один](/cells/ru/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Объединение файлов](/cells/ru/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

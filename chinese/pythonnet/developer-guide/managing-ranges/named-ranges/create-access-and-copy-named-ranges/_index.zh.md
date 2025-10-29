@@ -107,3 +107,4 @@ Aspose.Cells for Python via .NET 提供了 [**Range.copy()**](https://reference.
 以下示例显示如何将源单元格范围复制到另一个命名范围。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

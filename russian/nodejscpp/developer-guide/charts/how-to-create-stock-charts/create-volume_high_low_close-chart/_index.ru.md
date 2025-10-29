@@ -53,3 +53,4 @@ chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.N
 // Save the Excel file
 workbook.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

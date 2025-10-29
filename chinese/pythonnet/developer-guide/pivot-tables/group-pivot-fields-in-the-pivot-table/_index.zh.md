@@ -20,3 +20,4 @@ Microsoft Excel允许您对数据透视表中的字段进行分组。当与数�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

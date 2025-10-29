@@ -25,3 +25,4 @@ Pour vous assurer que le texte dans une cellule peut être lu, des sauts de lign
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

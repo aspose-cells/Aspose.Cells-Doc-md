@@ -77,3 +77,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 - [Вставка и удаление строк и столбцов в файле Excel](/cells/ru/python-net/inserting-and-deleting-rows-and-columns/)
 - [Удалить дублирующиеся строки в рабочем листе](/cells/ru/python-net/remove-duplicate-rows-in-a-worksheet/)
 - [Обновление ссылок в других листах при удалении пустых столбцов и строк на листе](/cells/ru/python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="python-net" >}}

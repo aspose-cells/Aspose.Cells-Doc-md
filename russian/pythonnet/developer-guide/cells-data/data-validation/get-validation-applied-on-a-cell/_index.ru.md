@@ -24,3 +24,4 @@ keywords: Библиотека Excel для Python, применение вал�
 ## Связанные статьи
 
 - [Валидация данных](/cells/ru/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

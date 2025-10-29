@@ -44,3 +44,4 @@ int main()
 الملف ODS الناتج من كود العينة مرفق للرجوع إليه.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)
+{{< app/cells/assistant language="cpp" >}}

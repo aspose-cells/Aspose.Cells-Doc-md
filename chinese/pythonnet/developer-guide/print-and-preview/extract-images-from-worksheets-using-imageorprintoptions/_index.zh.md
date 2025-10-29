@@ -16,3 +16,4 @@ Microsoft Excel 用户可以向工作表添加图片。使用 Aspose.Cells for P
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ExtractImagesFromWorksheets-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

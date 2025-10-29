@@ -40,3 +40,4 @@ workbook.save("output.pdf", AsposeCells.SaveFormat.Pdf);
 Maintenant, le texte n'est pas tronqué dans le fichier PDF de sortie.
 
 ![le texte n'est pas tronqué dans le PDF enregistré](text_not_clipped_in_saved_pdf.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NET 提供使用 [**SheetRender.to_printer(printer_
 ### 示例代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PrintSheetWithAdditionalSettings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

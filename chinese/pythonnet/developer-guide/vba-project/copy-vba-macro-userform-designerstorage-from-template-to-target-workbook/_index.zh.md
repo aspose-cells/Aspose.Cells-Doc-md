@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET允许您将VBA项目从一个Excel文件复制�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [在工作表中删除重复行](/cells/zh/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [删除工作表中的空白列和行时更新其他工作表中的引用](/cells/zh/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

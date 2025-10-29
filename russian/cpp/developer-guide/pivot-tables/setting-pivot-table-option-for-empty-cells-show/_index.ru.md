@@ -83,3 +83,4 @@ int main()
 ## Связанные статьи
 
 - [Форматирование сводной таблицы](/cells/ru/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

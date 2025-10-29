@@ -66,3 +66,4 @@ keywords: العثور على بيانات Node.js بواسطة C++، البحث
 - [العثور عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة](/cells/ar/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -62,3 +62,4 @@ int main()
 ## 相关文章
 
 - [数据有效性](/cells/zh/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

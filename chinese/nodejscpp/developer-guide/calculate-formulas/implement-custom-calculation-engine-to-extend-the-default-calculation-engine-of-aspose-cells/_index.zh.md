@@ -96,3 +96,4 @@ ImplementCustomCalculationEngine.run();
 [无需在工作表中编写即自定义函数的直接计算](/cells/zh/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

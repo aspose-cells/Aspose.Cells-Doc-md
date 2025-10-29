@@ -145,3 +145,4 @@ int main()
 输出结果：
 <br>
 <img src="4.png" width=60% />
+{{< app/cells/assistant language="cpp" >}}

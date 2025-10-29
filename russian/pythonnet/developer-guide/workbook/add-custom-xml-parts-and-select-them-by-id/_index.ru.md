@@ -25,3 +25,4 @@ url: /ru/python-net/add-custom-xml-parts-and-select-them-by-id/
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

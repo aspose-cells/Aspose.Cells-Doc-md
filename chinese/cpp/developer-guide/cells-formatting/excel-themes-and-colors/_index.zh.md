@@ -236,3 +236,4 @@ int main()
 
 ## **高级主题**
 - [从Excel文件中提取主题数据](/cells/zh/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

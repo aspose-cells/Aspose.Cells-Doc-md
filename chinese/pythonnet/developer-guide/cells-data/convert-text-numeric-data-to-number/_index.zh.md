@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NET提供了可以将所有字符串或文本数值
 以下示例代码说明了如何在所有工作表中将所有字符串数值数据转换为实际数值。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

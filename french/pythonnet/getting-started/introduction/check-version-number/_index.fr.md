@@ -29,3 +29,4 @@ Pour savoir quelle version d'Aspose.Cells vous utilisez manuellement:
 Pour savoir quelle version d'Aspose.Cells vous utilisez à travers l'API, utilisez la méthode statique GetVersion de la classe CellsHelper pour obtenir le numéro de version d'Aspose.Cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CheckVersionNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

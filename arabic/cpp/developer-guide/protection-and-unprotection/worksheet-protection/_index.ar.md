@@ -90,3 +90,4 @@ int main()
 - [حماية ورق العمل](/cells/ar/cpp/protecting-worksheets/)
 - [إلغاء حماية ورقة العمل](/cells/ar/cpp/unprotect-a-worksheet/)
 - [التحقق من الكلمة المستخدمة لحماية ورقة العمل](/cells/ar/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

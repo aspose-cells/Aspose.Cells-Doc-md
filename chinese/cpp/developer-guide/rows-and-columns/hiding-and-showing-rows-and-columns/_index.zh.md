@@ -170,3 +170,4 @@ int main()
 还可以使用[**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)类的[**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/)和[**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/)方法来显示多行和列。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -154,3 +154,4 @@ int main()
 - [Преобразовать JSON в CSV](/cells/ru/cpp/convert-json-to-csv/)
 - [Преобразовать JSON в Excel](/cells/ru/cpp/convert-json-to-excel/)
 - [Преобразование Excel в Html](/cells/ru/cpp/convert-excel-to-html/)
+{{< app/cells/assistant language="cpp" >}}

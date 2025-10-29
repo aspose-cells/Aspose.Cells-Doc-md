@@ -30,3 +30,4 @@ url: /ar/nodejs-cpp/setting-pivot-table-option-for-empty-cells-show/
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

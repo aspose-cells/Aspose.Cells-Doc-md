@@ -83,3 +83,4 @@ int main()
 - [图表点的富文本自定义数据标签](/cells/zh/cpp/rich-text-custom-data-label-of-chart-point/)
 - [设置图表数据标签的形状类型](/cells/zh/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [将单元格范围显示为数据标签](/cells/zh/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

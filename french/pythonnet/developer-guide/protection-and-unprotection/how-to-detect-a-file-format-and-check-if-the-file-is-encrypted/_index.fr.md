@@ -15,3 +15,4 @@ L'exemple de code suivant illustre comment détecter un format de fichier (en ut
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DetectFileFormatAndEncryption.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -65,3 +65,4 @@ int main()
 Как видно на рисунке ниже, четыре точки "Total" настроены правильно, и вы можете заметить различия с предыдущей диаграммой.
 
 ![todo:image_alt_text](set-as-total2.png)
+{{< app/cells/assistant language="cpp" >}}

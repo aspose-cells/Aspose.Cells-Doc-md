@@ -64,3 +64,4 @@ description: "Aspose.Cells for Python via .NET الميزات"
 - إنشاء أو تحرير رأس و / أو تذييل الصفحة
 - تحديد منطقة الطباعة، وتحديد عناوين الطباعة، أو تشغيل خطوط الشبكة، إلخ.
 
+{{< app/cells/assistant language="python-net" >}}

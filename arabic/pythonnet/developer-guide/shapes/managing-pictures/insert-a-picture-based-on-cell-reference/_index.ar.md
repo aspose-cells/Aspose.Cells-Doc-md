@@ -18,3 +18,4 @@ url: /ar/python-net/insert-a-picture-based-on-cell-reference/
 ### مثال على الكود
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertPictureCellReference-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -17,3 +17,4 @@ Aspose.Cells позволяет получить доступ ко всем ги
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

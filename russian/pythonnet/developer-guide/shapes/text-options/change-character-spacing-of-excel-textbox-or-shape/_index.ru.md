@@ -14,3 +14,4 @@ url: /ru/python-net/change-character-spacing-of-excel-textbox-or-shape/
 Приведенный ниже образец кода изменяет интервал между символами текстового поля в файле Excel на 4 и затем сохраняет его на диске.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

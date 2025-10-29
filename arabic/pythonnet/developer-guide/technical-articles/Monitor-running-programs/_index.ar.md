@@ -12,3 +12,4 @@ url: /ar/python-net/monitor-running-programs/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-python-net-TechnicalArticles-MonitorRunningPrograms.py" >}}
+{{< app/cells/assistant language="python-net" >}}

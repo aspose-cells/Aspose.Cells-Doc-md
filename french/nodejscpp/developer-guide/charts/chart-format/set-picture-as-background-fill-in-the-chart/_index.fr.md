@@ -92,3 +92,4 @@ legend.setPosition(AsposeCells.LegendPositionType.Top);
 // Save the excel file
 workbook.save(path.join(dataDir, "column_chart_out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

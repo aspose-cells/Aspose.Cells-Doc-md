@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ 提供了从工作表中删除或移除数据�
 以下示例代码从工作表中删除了两个数据透视表。首先使用[**Worksheet.getPivotTables().remove(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#remove-pivottable-)方法移除数据透视表，然后使用[**Worksheet.getPivotTables().removeAt(index, keepData)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#removeAt-number-boolean-)方法移除数据透视表。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

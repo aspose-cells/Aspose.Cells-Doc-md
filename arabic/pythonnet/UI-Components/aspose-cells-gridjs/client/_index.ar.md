@@ -47,6 +47,7 @@ for example the below code init a gridjs_spreadsheet object.
 | `loadingGif` | عنوان URL للصورة المتحركة عند تحميل الصور/الأشكال.<br>القيمة الافتراضية هي content/img/updating.gif. | `content/img/updating.gif` | نعم |
 | `local` | تعيين معلومات التوطين للقوائم وأشرطة الأدوات، مع دعمMultiple اللغات.<br>القيم الممكنة تشمل:<br>- `en، zh، es، pt، de، ru، nl` (للإنجليزية، الصينية، الإسبانية، البرتغالية، الألمانية، الروسية، الهولندية)<br>- `ar، fr، id، it، ja` (للعربية، الفرنسية، الإندونيسية، الإيطالية، اليابانية)<br>- `ko، th، tr، vi، cht` (لل韩، التايلاندية، التركية، الفيتنامية، الصينية التقليدية) | `en` | نعم |
 | `mode` | يمكن أن يكون `read` أو `edit`؛ `read` تعني ورقة عمل للقراءة فقط؛ `edit` تعني أن ورقة العمل يمكن تحريرها. | لا يوجد | لا |
+| `isCollaborative` | هل يدعم وضع التعاون . | `false` | نعم |
 | `searchHighlightColor` | لون خلفية التحديد لمصطلح البحث.<br>يجب أن يتضمن اللون قناة ألفا للشفافية. | `#dbe71338` | نعم |
 | `showCheckSyntaxButton` | هل تظهر أزرار فحص النحو والتصحيح الإملائي في شريط الأدوات.<br>القيمة الافتراضية هي خطأ. | `false` | نعم |
 | `showContextmenu` | هل يظهر قائمة السياق عند النقر بزر الماوس الأيمن على خلية.<br>القيمة الافتراضية هي صحيح. | `true` | نعم |
@@ -58,6 +59,9 @@ for example the below code init a gridjs_spreadsheet object.
 | `updateMode` | يدعم حاليا فقط `الخادم`. | `server` | لا |
 | `updateUrl` | تعيين عنوان URL الخاص بالخادم لإجراءات التحديث استنادًا إلى JSON. | لا شيء | لا |
 | `view` | تعيين حجم العرض للورقة، على سبيل المثال، `{width: () => 1000, height: ()=> 500}`. | `{width: () => عرض النافذة الحالية للمستعرض، height: () => ارتفاع النافذة الحالية للمستعرض}` | نعم |
+| `token` | تعيين رمز المصادقة. عندما يكون الرمز غير فارغ، سيتم إضافة رأس `Authorization: Bearer {token}` تلقائيًا إلى رؤوس الطلب. يمكنك استخدام `xs.refreshToken(token)` لتعيين رمز جديد. | لا شيء | نعم | 
+| `showBottombarStats` | هل عرض إحصائيات الشريط السفلي.<br>القيمة الافتراضية هي true. | `true` | نعم |   
+| `showRowAppenderToolbar` | هل عرض شريط أدوات إضافة الصفوف بالجملة.<br>القيمة الافتراضية هي true. | `true` | نعم |   
 
 - تحميل بيانات json
 ```javascript
@@ -104,6 +108,19 @@ xs2.setActiveForMultipleInstance(false);
 xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
+```
+- تعيين تنبيه مخصص
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
 ```
 
 - تعيين معلومات لشكل/عمليات الصور لإجراءات الجانب الخادم
@@ -173,9 +190,39 @@ ___
 xs.reRender()
 ```
 
-- الحصول على هوية الورقة النشطة
+-  الحصول على معرف الورقة النشطة
 ```javascript
 xs.getActiveSheet()
+```
+
+-  إضافة ورقة عمل جديدة
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+-  تعديل اسم الورقة
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+-  حذف الورقة
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 - تعيين مستوى التكبير
@@ -190,6 +237,14 @@ xs.setZoomLevel(zoom)
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
+```
+-   إعداد وظيفة الاتصال قبل الحفظ 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
 ```
 
 - وظيفة الارتباط لميزة إرسال البريد الإلكتروني.
@@ -217,6 +272,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+-  إعداد إعدادات التعاون في وضع التعاون، تأكد من تعيين إعدادات التعاون قبل تعيين المعرف الفريد  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 -  تعيين عامل تصفية مرئي للصورة/الشكل
 ```javascript
@@ -244,14 +311,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -269,6 +336,153 @@ shape.setControlable(isenable)
      // the parameter is:
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
+
+
+-  إدراج صفوف
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+-  إدراج أعمدة 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+-  حذف الصفوف 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+-  حذف الأعمدة 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+-  تحديد لوحة التجميد
+```javascript
+xs.sheet.freeze(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+- إلغاء تجميد القسم
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+- تحديد النطاق القابل للتحرير / القراءة فقط
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+- إخفاء الصفوف 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- إظهار الصفوف المخفية
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- إخفاء الأعمدة 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+- إظهار الأعمدة المخفية
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+-  تعيين الارتفاع للصف
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+-  تعيين الارتفاع للصفوف
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  تعيين الارتفاع لكل الصفوف
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+-  تعيين العرض للعمود
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+-  تعيين العرض للأعمدة
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  تعيين العرض لجميع الأعمدة
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+- تعيين التعليق على الخلية
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+- إزالة التعليق من الخلية
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
 
 -  الحصول على كائن الخلية
 ```javascript
@@ -312,6 +526,18 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
+- تعيين نمط لمنطقة الخلايا المطلوبة
+```javascript
+xs.sheet.data.setRangeAttr(range,attributename,value)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	value:the  value for the attribute
+   for example:
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
+```
+
+
 -  دمج منطقة الخلية المحددة
 ```javascript
 xs.sheet.data.merge()
@@ -321,56 +547,22 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  حذف الخلية المحددة  
+- حذف محتوى الخلية أو مسح النمط في الخلية المحددة  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  تحديد لوحة التجميد
+
+- حذف محتوى الخلية أو مسح النمط في المنطقة المطلوبة للخلية
 ```javascript
-xs.sheet.data.setFreeze(ri,ci)
+xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-	ri:row index 
-	ci:column index
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
--  إدراج صف أو أعمدة في الخلية المحددة  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
--  حذف صف أو أعمدة في الخلية المحددة  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
--  تعيين العرض للعمود
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
--  تعيين العرض للأعمدة
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
--  تعيين العرض لجميع الأعمدة
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 -  الحصول على العرض للعمود 
 ```javascript
@@ -380,28 +572,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  تعيين الارتفاع للصف
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
--  تعيين الارتفاع للصفوف
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
--  تعيين الارتفاع لكل الصفوف
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 -  الحصول على الارتفاع للصف 
@@ -490,7 +660,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## واجهات برمجة التطبيقات لكائن الشكل
+- تغيير لون الخلفية لكائن الشكل
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
 
 ## واجهات برمجة التطبيقات لكائن مربع النص
 TextBox هو نوع خاص من الشكل والذي تكون خاصيته نوعه: "TextBox".
@@ -504,14 +683,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
-- تغيير لون الخلفية لكائن صندوق النص
+- تطبيق إعدادات الخط على كائن مربع النص
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 - تغيير اللون الخلفي تلقائيًا ولون النص للحصول على تأثير نشط بصريًا
 ```javascript
@@ -528,7 +708,7 @@ for (let shape of xs.sheet.data.shapes) {
 ```
 
 لمزيد من المعلومات التفصيلية ، يمكنك التحقق من المثال هنا
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>
 
 
 

@@ -20,3 +20,4 @@ keywords: Aspose.Cells для Node.js Excel, библиотека Excel Node.js,
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -55,3 +55,4 @@ this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.Structure);
 ```
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

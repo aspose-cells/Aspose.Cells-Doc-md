@@ -76,3 +76,4 @@ keywords: مكتبة Python Excel ، Aspose.Cells Python لإدارة الصفو
 لحذف عمود من ورقة العمل في أي موقع، اتصل بالطريقة [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) في تجميعة [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells). الطريقة [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) تأخذ مؤشر العمود للحذف.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

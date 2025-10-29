@@ -34,3 +34,4 @@ keywords: مكتبة Excel بلغة Python، تخزين الرقم كنص في E
 يعرض الرمز التالي كيفيقوم بإيقاف خيار فحص الأخطاء الخاص بتخزين الأرقام كنص لورقة عمل في ملف القالب XLS باستخدام واجهات برمجة التطبيقات Aspose.Cells لـ Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

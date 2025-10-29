@@ -47,3 +47,4 @@ sheetRender.toImage(i, path.join(outputDir, `outputImage-${i + 1}.png`));
 }
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

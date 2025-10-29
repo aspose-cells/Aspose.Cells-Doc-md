@@ -83,3 +83,4 @@ int main()
 ## مقالات ذات صلة
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

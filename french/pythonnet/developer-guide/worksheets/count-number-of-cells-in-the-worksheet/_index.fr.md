@@ -10,3 +10,4 @@ keywords: compter le nombre de cellules de la feuille de calcul Excel c#, cellul
 Vous pouvez compter le nombre de cellules dans la feuille de calcul en utilisant les propriétés [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) ou [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) comme indiqué dans l'exemple de code ci-dessous.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

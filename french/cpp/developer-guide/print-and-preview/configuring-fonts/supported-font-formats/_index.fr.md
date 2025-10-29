@@ -12,3 +12,4 @@ description: Découvrez les formats de police pris en charge dans Aspose.Cells f
 |**TTF**|Polices TrueType|
 |**TTC**|Collections de polices TrueType|
 |**OTF**|Polices OpenType|
+{{< app/cells/assistant language="cpp" >}}

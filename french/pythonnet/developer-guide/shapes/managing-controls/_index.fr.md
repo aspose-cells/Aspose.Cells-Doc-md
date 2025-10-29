@@ -381,3 +381,4 @@ L'exemple suivant montre comment ajouter une zone de groupe et regrouper les con
 - [Ajouter des contrôles ActiveX](/cells/fr/python-net/add-activex-controls-using-aspose-cells/)
 - [Supprimer le contrôle ActiveX](/cells/fr/python-net/remove-activex-control/)
 - [Mise à jour du contrôle ComboBox ActiveX](/cells/fr/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

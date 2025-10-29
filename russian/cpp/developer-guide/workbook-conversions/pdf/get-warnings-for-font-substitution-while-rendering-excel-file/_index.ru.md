@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Если в вашей таблице есть формулы, лучше вызвать метод `Workbook.CalculateFormula` прямо перед рендерингом таблицы в формат PDF. Это обеспечит пересчет значений, зависящих от формул, и правильное отображение значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

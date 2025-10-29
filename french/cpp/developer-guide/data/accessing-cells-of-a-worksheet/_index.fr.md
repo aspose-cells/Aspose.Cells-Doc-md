@@ -40,3 +40,4 @@ Aspose.Cells permet aux développeurs d'accéder à la plage d'affichage maximal
 Vous pouvez accéder à la plage d'affichage maximale d'une feuille de calcul en utilisant la méthode [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) de la collection [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

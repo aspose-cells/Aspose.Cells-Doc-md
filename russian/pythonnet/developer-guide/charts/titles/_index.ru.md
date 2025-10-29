@@ -33,3 +33,4 @@ Aspose.Cells для Python via .NET также позволяет управля
 
 ## **Продвинутые темы**
 - [Чтение подзаголовка диаграммы из файла ODS](/cells/ru/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

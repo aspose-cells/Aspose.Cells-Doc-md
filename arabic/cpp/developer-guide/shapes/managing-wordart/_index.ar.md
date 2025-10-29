@@ -65,3 +65,4 @@ int main()
 - [إضافة نص Word Art بأنماط مدمجة](/cells/ar/cpp/add-word-art-text-with-built-in-styles/)
 - [تأمين علامة مائية WordArt](/cells/ar/cpp/locking-wordart-watermark/)
 - [تعيين نمط WordArt المحدد مسبقًا لنص الشكل](/cells/ar/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

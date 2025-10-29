@@ -25,11 +25,11 @@ aliases:
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл с именем `Dockerfile` в вашей папке проекта [директории](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/). В `Dockerfile` должны быть инструкции по созданию вашего Docker-образа.
+Создайте файл с названием `Dockerfile` в каталоге вашего проекта [директория](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/). `Dockerfile` должен содержать инструкции по сборке образа Docker.
 
 ## Шаг 2: Написание Dockerfile для GridWeb
 
-Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile) для демонстрации GridWeb с приложением ASP.NET Core:
+Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/Dockerfile) для демонстрации GridWeb с приложением ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

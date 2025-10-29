@@ -16,3 +16,4 @@ keywords: Библиотека Python Excel, Поиск ячеек с приме
 Код в этом примере находит все ячейки, у которых такой же стиль, как у ячейки A1. После выполнения кода все ячейки, у которых такой же стиль, как у A1, содержат текст "Найдено".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindCellsWithSpecificStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

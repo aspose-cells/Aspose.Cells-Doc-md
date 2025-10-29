@@ -7,3 +7,4 @@ url: /ar/python-net/workbook-settings/
 description: إدارة إعدادات ملفات Microsoft Excel.
 ---
 
+{{< app/cells/assistant language="python-net" >}}

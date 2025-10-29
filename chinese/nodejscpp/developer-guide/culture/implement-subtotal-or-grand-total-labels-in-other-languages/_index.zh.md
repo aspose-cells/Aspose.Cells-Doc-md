@@ -14,7 +14,7 @@ url: /zh/nodejs-cpp/implement-subtotal-or-grand-total-labels-in-other-languages/
 
 ## **用其他语言实现子合计或总计标签**  
 
- 以下示例代码加载[示例 Excel 文件](5115151.xlsx)，并用中文实现了 subtotal 和 grand total 的名称。请检查由此代码生成的[输出 Excel 文件](5115152.xlsx)，以供参考。我们首先创建 [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) 类的实例，然后在代码中使用它。  
+ 以下示例代码加载【示例 Excel 文件】(5115151.xlsx)，并用中文实现了 subtotal 和 grand total 的名称。请检查由此代码生成的【输出 Excel 文件】(5115152.xlsx)，以供参考。我们首先创建 [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/globalizationsettings) 类的实例，然后在代码中使用它。  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -61,3 +61,4 @@ worksheet.getCells().setColumnWidth(0, 40);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

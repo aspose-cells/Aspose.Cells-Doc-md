@@ -47,6 +47,7 @@ for example the below code init a gridjs_spreadsheet object.
 | `loadingGif` | 加载图 images / shapes 时的 GIF 动图 URL。<br>默认值为 content/img/updating.gif。 | `content/img/updating.gif` | 是 |
 | `local` | 设置菜单和工具栏的本地化信息，支持多种语言。<br>可能的值包括：<br>- `en, zh, es, pt, de, ru, nl`（英语、中文、西班牙语、葡萄牙语、德语、俄语、荷兰语）<br>- `ar, fr, id, it, ja`（阿拉伯语、法语、印尼语、意大利语、日语）<br>- `ko, th, tr, vi, cht`（韩语、泰语、土耳其语、越南语、繁体中文字幕） | `en` | 是 |
 | `mode` | 可以是 `read` 或 `edit`；`read` 表示只读电子表格；`edit` 表示可以编辑电子表格。 | 无 | 否 |
+| `isCollaborative` | 是否支持协作模式。 | `false` | 是 |
 | `searchHighlightColor` | 搜索关键词的高亮背景色。<br>颜色必须包括透明度通道。 | `#dbe71338` | 是 |
 | `showCheckSyntaxButton` | 是否在工具栏显示语法检查和拼写纠错按钮。<br>默认值为 false。 | `false` | 是 |
 | `showContextmenu` | 是否在单元格右键点击时显示右键菜单。<br>默认值为 true。 | `true` | 是 |
@@ -58,6 +59,9 @@ for example the below code init a gridjs_spreadsheet object.
 | `updateMode` | 目前仅支持 `server`。 | `server` | 否 |
 | `updateUrl` | 根据 JSON 设置服务器端的更新操作 URL。 | 无 | 否 |
 | `view` | 设置表格视图大小，例如 `{width: () => 1000, height: ()=> 500}`。 | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | 是 |
+| `token` | 设置认证令牌。当令牌不为空时，`Authorization: Bearer {token}` 头部会自动添加到请求中。你可以使用 `xs.refreshToken(token)` 设置新令牌。 | 无 | 是 |    
+| `showBottombarStats` | 是否显示底部栏统计信息。<br>默认值为true。 | `true` | 是 |   
+| `showRowAppenderToolbar` | 是否显示批量添加行工具栏。<br>默认值为true。 | `true` | 是 |   
 
 - 用json数据加载
 ```javascript
@@ -104,6 +108,19 @@ xs2.setActiveForMultipleInstance(false);
 xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
+```
+- 设置自定义提示
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
 ```
 
 - 为服务器端操作的形状/图像操作设置信息
@@ -173,9 +190,39 @@ ___
 xs.reRender()
 ```
 
-- 获取活动表格的ID
+- 获取活动工作表ID
 ```javascript
 xs.getActiveSheet()
+```
+
+- 添加新工作表
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+- 修改工作表名称
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+- 删除工作表
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 - 设置缩放级别
@@ -190,6 +237,14 @@ xs.setZoomLevel(zoom)
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
+```
+- 在保存前设置函数调用 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
 ```
 
 -  用于发送邮件功能的回调函数
@@ -217,6 +272,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+- 在协作模式下设置协作参数，确保在设置唯一ID之前调用setCollaborativeSetting  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 - 为图像/形状设置可见过滤器
 ```javascript
@@ -244,14 +311,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -270,6 +337,153 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
+
+- 插入行
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+- 插入列 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+- 删除行 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+- 删除列 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+-  设置冻结窗格
+```javascript
+xs.sheet.freeze(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+- 取消冻结窗格
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+- 设置可编辑/只读区域
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+- 隐藏行 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- 取消隐藏行
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- 隐藏列 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+- 取消隐藏列
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+-  设置行的高度
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+-  设置行的高度
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  设置所有行的高度
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+-  设置列的宽度
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+-  设置列的宽度
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  设置所有列的宽度
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+- 设置单元格的批注
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+- 移除单元格的批注
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
+
 - 获取单元格对象
 ```javascript
 xs.sheet.data.getCell(ri,ci)
@@ -277,6 +491,7 @@ xs.sheet.data.getCell(ri,ci)
 	ri:row index 
 	ci:column index
 ```
+
 - 获取单元格样式
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
@@ -312,6 +527,18 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
+- 设置所选单元格区域的样式
+```javascript
+xs.sheet.data.setRangeAttr(range,attributename,value)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	value:the  value for the attribute
+   for example:
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
+```
+
+
 - 合并选定的单元格区域
 ```javascript
 xs.sheet.data.merge()
@@ -321,56 +548,22 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  删除所选单元格  
+- 删除所选单元格内容或清除样式  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  设置冻结窗格
+
+- 删除目标单元格区域的单元格内容或清除样式
 ```javascript
-xs.sheet.data.setFreeze(ri,ci)
+xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-	ri:row index 
-	ci:column index
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
--  在所选单元格处插入行或列  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
--  在所选单元格处删除行或列  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
--  设置列的宽度
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
--  设置列的宽度
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
--  设置所有列的宽度
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 -  获取列的宽度 
 ```javascript
@@ -380,28 +573,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  设置行的高度
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
--  设置行的高度
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
--  设置所有行的高度
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 -  获取行的高度 
@@ -490,7 +661,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## 形状对象的API
+- 更改形状对象的背景颜色
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
 
 ## 用于TextBox对象的API
 TextBox是一种特殊类型的形状，其类型属性为:"TextBox"
@@ -504,14 +684,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
-- 更改文本框对象的背景颜色
+- 为文本框对象应用字体设置
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 - 自动更改背景颜色和文本颜色以实现视觉效果
 ```javascript
@@ -528,7 +709,7 @@ for (let shape of xs.sheet.data.shapes) {
 ```
 
 有关详细信息，您可以在此处查看示例
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>
 
 
 

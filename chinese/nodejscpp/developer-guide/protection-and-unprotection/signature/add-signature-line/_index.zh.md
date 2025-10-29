@@ -43,3 +43,4 @@ dsCollection.add(signature);
 wb.setDigitalSignature(dsCollection);
 wb.save(path.join(dataDir, "signatureLine.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

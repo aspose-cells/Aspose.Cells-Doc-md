@@ -113,3 +113,4 @@ workbook.save("clear_print_area.pdf");
 Результат вывода:
 <br>
 <img src="2.png" width=60% />
+{{< app/cells/assistant language="nodejs-cpp" >}}

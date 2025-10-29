@@ -36,3 +36,4 @@ keywords: قراءة ملف CSV بعدة ترميزات في Python، تحويل
 أدناه الكود النموذجي الذي يحول ملف CSV أعلاه إلى صيغة XLSX بشكل صحيح.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -18,3 +18,4 @@ Veuillez prendre en compte ces données textuelles, c'est-à-dire {11, 111, 22}.
 Le code d'exemple suivant illustre l'utilisation de la propriété [**DataSorter.sort_as_number**](https://reference.aspose.com/cells/python-net/aspose.cells/datasorter/sort_as_number/) comme expliqué précédemment. Veuillez consulter son [fichier Excel d'exemple](43352075.xlsx) et son [fichier Excel de sortie](43352076.xlsx) pour plus d'aide.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SpecifyingSortWarningWhileSortingData.py" >}}
+{{< app/cells/assistant language="python-net" >}}

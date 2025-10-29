@@ -20,3 +20,4 @@ keywords: تحويل مراجعة XLSB إلى XLSM باستخدام Python، ت�
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.py" >}}
+{{< app/cells/assistant language="python-net" >}}

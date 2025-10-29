@@ -16,3 +16,4 @@ Aspose.Cells для Python via .NET предоставляет свойство 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 
 [Выходной файл](102662195.xlsx), сгенерированный указанным выше кодом, приложен для вашего справки.
+{{< app/cells/assistant language="python-net" >}}

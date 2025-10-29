@@ -133,4 +133,4 @@ par exemple : dans l'action de téléchargement, vous pouvez simplement l'obteni
 ```
 
 Pour plus d'informations détaillées, vous pouvez consulter l'exemple ici :
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

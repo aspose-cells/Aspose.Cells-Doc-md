@@ -42,3 +42,4 @@ description: استيراد البيانات من ملفات بيانات XML إ
 - [استعلام عن مجالات الخلية المرتبطة بمسار خريطة XML باستخدام طريقة Worksheet.XmlMapQuery](/cells/ar/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

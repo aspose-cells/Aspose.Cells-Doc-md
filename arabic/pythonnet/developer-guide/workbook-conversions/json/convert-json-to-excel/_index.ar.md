@@ -27,3 +27,4 @@ keywords: تحويل json إلى excel بالبايثون، تحويل json إل
 يُظهر المثال التالي كيفية استيراد سلسلة JSON إلى كتاب Excel. يمكنك أيضًا تحديد موقع التخطيط عند استيراد JSON. يُرجى الاطلاع على الكود لتحويل سلسلة JSON إلى ملف xlsx تم إنشاؤه بواسطة الكود للإشارة.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

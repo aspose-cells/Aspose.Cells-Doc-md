@@ -44,3 +44,4 @@ series.setValuesFormatCode("$#,##0");
 // Save the output Excel file
 workbook.save(path.join(dataDir, "51740713.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

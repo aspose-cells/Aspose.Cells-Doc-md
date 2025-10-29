@@ -29,3 +29,4 @@ Subject: Aspose.Cells for C++
 MyCustom1: This is my custom one.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

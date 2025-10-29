@@ -64,3 +64,4 @@ int main()
 Pour les scénarios nécessitant des images toujours à jour à partir d'une URL, utilisez la méthode décrite dans [Insérer une Image Liée depuis une Adresse Web](/cells/fr/cpp/insert-a-linked-picture-from-web-address/). Cette approche charge l'image depuis l'URL à chaque ouverture de la feuille de calcul.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

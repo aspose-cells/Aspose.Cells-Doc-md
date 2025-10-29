@@ -7,3 +7,4 @@ url: /ru/nodejs-cpp/globalization-and-localization/
 description: Изучите поддержку глобализации и локализации в Aspose.Cells for Node.js via C++. Узнайте, как обрабатывать культуры форматов и динамически менять форматы.
 keywords: Глобализация Локализация Aspose.Cells для Node.js через C++
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

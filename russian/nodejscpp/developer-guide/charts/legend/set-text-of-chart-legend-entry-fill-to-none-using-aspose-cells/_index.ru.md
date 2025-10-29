@@ -42,3 +42,4 @@ chart.getLegend().getLegendEntries().get(1).setIsTextNoFill(true);
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "ChartLegendEntry_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

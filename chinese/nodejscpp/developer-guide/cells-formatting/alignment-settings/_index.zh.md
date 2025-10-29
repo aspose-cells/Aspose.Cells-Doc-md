@@ -133,3 +133,4 @@ Aspose.Cells 提供 [**getStyle**](https://reference.aspose.com/cells/nodejs-cpp
 - [更改单元格对齐方式并保留现有格式](/cells/zh/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [换行和文本换行](/cells/zh/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

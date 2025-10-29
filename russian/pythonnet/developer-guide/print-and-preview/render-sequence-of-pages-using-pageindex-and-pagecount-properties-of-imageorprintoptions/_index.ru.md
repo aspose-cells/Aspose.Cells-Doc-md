@@ -21,3 +21,4 @@ url: /ru/python-net/render-sequence-of-pages-using-pageindex-and-pagecount-prope
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-RenderLimitedNoOfSequentialPages-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

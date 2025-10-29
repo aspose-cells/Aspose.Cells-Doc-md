@@ -39,3 +39,4 @@ workbook.save(path.join(outputDir, "SampleTableWithQueryTable_out.xls"));
 [Исходный файл](96928091.xls)
 
 [Выходной файл](96928092.xls)
+{{< app/cells/assistant language="nodejs-cpp" >}}

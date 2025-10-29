@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [عرض الورقة العمل إلى سياق رسومي](/cells/ar/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [تحديد مجموعة خطوط فردية أو خاصة لتقديم الدفتر](/cells/ar/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

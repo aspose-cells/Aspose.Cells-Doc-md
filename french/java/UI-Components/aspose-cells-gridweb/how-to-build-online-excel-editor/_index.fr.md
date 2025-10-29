@@ -25,11 +25,11 @@ Assurez-vous d'avoir Docker installé sur votre machine. Vous pouvez télécharg
 
 ## Étape 1 : Créer un Dockerfile
 
-Créez un fichier nommé `Dockerfile` dans votre [répertoire](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/). Le `Dockerfile` doit contenir des instructions sur la façon de construire votre image Docker.
+Créez un fichier nommé `Dockerfile` dans le [répertoire](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) de votre projet. Le `Dockerfile` doit contenir des instructions sur la façon de construire votre image Docker.
 
 ## Étape 2 : Écrire Dockerfile pour GridWeb
 
-Voici un exemple [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) pour une démo GridWeb avec une application Java :
+Voici un exemple de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile) pour la démo GridWeb avec une application Java :
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -70,9 +70,9 @@ RUN apt-get update && apt-get install -y fontconfig libfreetype6 && rm -rf /var/
 
 # Set the environment variable for headless mode,no need to use display
 ENV JAVA_OPTS="-Djava.awt.headless=true"
-# create [log dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [log dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/log
-# create [cache dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [cache dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/grid_cache
 
 # RUN ls -l /app/

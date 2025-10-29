@@ -10,3 +10,4 @@ keywords: إحصاء عدد خلايا ورقة Excel باستخدام C#، خل
 يمكنك إحصاء عدد الخلايا في الورقة باستخدام الخصائص [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) أو [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) كما هو موضح في مثال الكود أدناه.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

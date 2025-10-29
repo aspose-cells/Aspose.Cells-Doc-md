@@ -6,3 +6,4 @@ url: /zh/cpp/worksheets/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

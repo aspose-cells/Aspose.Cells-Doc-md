@@ -31,3 +31,4 @@ Aspose.Cells pour Python via .NET offre les propriétés [**PivotTable.display_n
 ## Articles Connexes
 
 - [Formatage du tableau croisé dynamique](/cells/fr/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

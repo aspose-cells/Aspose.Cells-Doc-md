@@ -15,7 +15,7 @@ Vous pouvez utiliser GridJs facilement sur un appareil mobile.
 
 GridJs peut s'adapter à l'écran mobile.
 
-Exécutez la [démonstration de GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "démonstration de GridJs")
+Exécutez la [démonstration de GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "démonstration de GridJs ")
 
 Le port par défaut du projet de démonstration est 24262. 
 

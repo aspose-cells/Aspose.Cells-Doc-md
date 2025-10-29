@@ -28,6 +28,9 @@ Aspose.Cells支持32位和64位环境。使用Aspose.Cells MSI安装程序安装
 |Xamarin.Android|包含用于 Xamarin.Android 的程序集|
 |net5.0|包含用于 .net5.0 的程序集。|
 |net6.0|包含用于 .net6.0 的程序集。|
+|net8.0|包含适用于.net8.0的程序集。|
+|net9.0|包含适用于.net9.0的程序集。|
+
 {{% alert color="primary" %}} 
 
 在 VS.NET（例如：2005、2008、2010、2012 等）项目中，当向 Aspose.Cells 添加引用时，添加引用对话框会引用 net2.0 或 net3.5 文件夹中的 Aspose.Cells.dll 文件。（若需要进一步参考，请阅读《从 .NET 项目引用 Aspose.Cells》。）您可以根据您的环境更改对库的引用。请注意，如果项目的目标框架是 .NET Framework 3.5/4 Client Profile，请使用位于 net_ClientProfile 文件夹中的 Aspose.Cells.dll 组件文件。

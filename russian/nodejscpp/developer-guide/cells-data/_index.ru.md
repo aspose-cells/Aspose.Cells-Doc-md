@@ -82,3 +82,4 @@ Aspose.Cells for Node.js via C++ предоставляет класс, [**Workb
 - [Сначала заполняется строка, а затем столбец.](/cells/ru/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Сохранить префикс одинарной кавычки значения ячейки или диапазона](/cells/ru/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Доступ и обновление частей Rich Text ячейки](/cells/ru/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

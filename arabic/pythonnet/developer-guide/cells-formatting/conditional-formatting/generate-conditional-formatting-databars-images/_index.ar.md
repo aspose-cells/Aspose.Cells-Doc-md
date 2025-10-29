@@ -16,3 +16,4 @@ url: /ar/python-net/generate-conditional-formatting-databars-images/
 يُنشئ الشفرة النموذجية التالية صورة DataBar للخلية C1. أولاً، يصل إلى كائن شرط التنسيق للخلية، ومن ثم من ذلك الكائن، يصل إلى الكائن [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar) ويستخدم طريقة [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) لإنشاء صورة الخلية. في النهاية، يقوم بحفظ الصورة على القرص.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

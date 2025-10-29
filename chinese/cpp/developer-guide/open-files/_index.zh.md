@@ -154,3 +154,4 @@ int main()
 - [将JSON转换为CSV](/cells/zh/cpp/convert-json-to-csv/)
 - [将JSON转换为Excel](/cells/zh/cpp/convert-json-to-excel/)
 - [将Excel转换为Html](/cells/zh/cpp/convert-excel-to-html/)
+{{< app/cells/assistant language="cpp" >}}

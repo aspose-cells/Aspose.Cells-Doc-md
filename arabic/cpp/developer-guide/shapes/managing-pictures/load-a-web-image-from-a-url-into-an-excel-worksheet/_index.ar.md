@@ -64,3 +64,4 @@ int main()
 للحالات التي تتطلب صورًا محدثة دائمًا من URL، استخدم الطريقة الموضحة في [إدراج صورة مربوطة من عنوان ويب](/cells/ar/cpp/insert-a-linked-picture-from-web-address/). يقوم هذا الأسلوب بتحميل الصورة من URL في كل مرة يتم فيها فتح ورقة العمل.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

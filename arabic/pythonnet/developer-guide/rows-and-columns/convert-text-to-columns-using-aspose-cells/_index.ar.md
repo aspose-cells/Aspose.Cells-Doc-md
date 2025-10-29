@@ -20,3 +20,4 @@ keywords: مكتبة Python Excel، تحويل النص إلى أعمدة باس
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-ConvertTextToColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

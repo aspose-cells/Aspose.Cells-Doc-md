@@ -17,3 +17,4 @@ L'extrait de code suivant montre comment créer une plage d'union en utilisant l
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CreateUnionRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

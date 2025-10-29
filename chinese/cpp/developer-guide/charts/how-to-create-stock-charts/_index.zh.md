@@ -25,3 +25,4 @@ url: /zh/cpp/how-to-create-stock-charts/
 以下数据集显示了一只股票的每日交易信息。我们将用这些数据创建四种股票图：高-低-收盘（HLC）股票图，开盘-高-低-收盘（OHLC）股票图，成交量-高-低-收盘（VHLC）股票图，以及成交量-开盘-高-低-收盘（VOHLC）股票图。
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="cpp" >}}

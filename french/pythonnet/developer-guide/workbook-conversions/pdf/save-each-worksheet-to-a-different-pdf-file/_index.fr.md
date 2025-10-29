@@ -22,3 +22,4 @@ Si vous avez besoin de sauvegarder chaque feuille de calcul de votre fichier Exc
 Si votre feuille de calcul contient des formules, il est préférable d'appeler [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendant des formules sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -40,3 +40,4 @@ Vous pouvez également copier les données avec la méthode [**Range.copy_data**
 - [Copier les hauteurs de ligne de la plage source vers la plage de destination](/cells/fr/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

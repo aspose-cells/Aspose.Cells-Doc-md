@@ -166,3 +166,4 @@ int main()
 - [كشف نوع الروابط التشعبية](/cells/ar/cpp/detect-hyperlink-type/)
 - [تحرير الارتباطات التشعبية لورقة العمل](/cells/ar/cpp/editing-hyperlinks-of-worksheet/)
 - [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

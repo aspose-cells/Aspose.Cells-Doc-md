@@ -102,3 +102,4 @@ Voici un extrait de code illustrant ces étapes :
 En suivant ces étapes, vous pouvez facilement formater des nombres en pourcentages dans Aspose.Cells pour Python via .NET. Aspose.Cells offre une large gamme de fonctionnalités pour manipuler des fichiers Excel, notamment le formatage des cellules, le traitement des formules, et bien plus encore, ce qui en fait un outil puissant pour les développeurs .NET travaillant avec des données Excel.
 
 
+{{< app/cells/assistant language="python-net" >}}

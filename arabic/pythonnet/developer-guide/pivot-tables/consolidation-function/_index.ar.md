@@ -37,3 +37,4 @@ keywords: Aspose.Cells للبايثون Excel، مكتبة Python Excel، وظي
 وظيفة التوحيد DISTINCT_COUNT مدعومة فقط في Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

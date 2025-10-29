@@ -26,3 +26,4 @@ keywords: Библиотека Excel на Python, автоматическое �
 ## **Пример кода на Python**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Rows-autofit-row-height.py" >}}
+{{< app/cells/assistant language="python-net" >}}

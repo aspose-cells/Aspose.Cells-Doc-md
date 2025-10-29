@@ -22,3 +22,4 @@ La bibliothèque Excel Aspose.Cells pour Python fournit également les méthodes
 Le code d'exemple suivant montre d'abord le tableau croisé dynamique sous forme compacte, puis il montre le tableau croisé dynamique sous forme de plan et enfin il montre le tableau croisé dynamique sous forme tabulaire.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

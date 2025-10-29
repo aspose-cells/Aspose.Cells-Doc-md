@@ -49,3 +49,4 @@ url: /ru/nodejs-cpp/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 При выполнении этого кода в первую очередь условное форматирование применяется к ячейке «B3» в первом рабочем листе выходного файла (output.xls). Оно зависит от формулы, которая рассчитывает значение «B3» как сумму B1 и B2.
+{{< app/cells/assistant language="nodejs-cpp" >}}

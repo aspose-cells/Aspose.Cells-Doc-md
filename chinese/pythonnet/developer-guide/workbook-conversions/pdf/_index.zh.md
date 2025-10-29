@@ -143,3 +143,4 @@ Aspose.Cells for Python via .NET支持独立于其他软件从电子表格转换
 - [将指定的工作表保存为 PDF](/cells/zh/python-net/save-specified-worksheets-to-pdf/)
 - [安全的PDF文件](/cells/zh/python-net/secure-pdf-documents/)
 - [指定如何在输出PDF和图像中跨越字符串](/cells/zh/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

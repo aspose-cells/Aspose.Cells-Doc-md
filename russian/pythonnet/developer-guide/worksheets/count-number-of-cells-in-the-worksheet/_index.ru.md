@@ -10,3 +10,4 @@ keywords: подсчитать количество ячеек листа Excel 
 Вы можете подсчитать количество ячеек в листе, используя свойства [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) или [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/), как показано в приведенном ниже примере кода.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

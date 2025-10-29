@@ -35,3 +35,4 @@ FullPathExample: CellReference </br>
 https://products.aspose.com/cells/ : External </br>
 mailto:test@test.com?subject=TestLink: Email </br>
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

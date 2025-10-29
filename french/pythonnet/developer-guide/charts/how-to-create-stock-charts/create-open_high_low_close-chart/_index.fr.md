@@ -23,3 +23,4 @@ Nous utilisons souvent des couleurs plutôt que du noir et blanc pour indiquer l
 Le code d'exemple suivant charge le [fichier Excel d'exemple](Open-High-Low-Close.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-open-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

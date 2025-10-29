@@ -51,3 +51,4 @@ series.getDataLabels().setShapeType(AsposeCells.DataLabelShapeType.WedgeEllipseC
 // Save the output Excel file
 workbook.save(path.join(dataDir, "outputSetShapeTypeOfDataLabelsOfChart.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET 的行为与Excel相同。
 1. 输入不同的页眉和页脚。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

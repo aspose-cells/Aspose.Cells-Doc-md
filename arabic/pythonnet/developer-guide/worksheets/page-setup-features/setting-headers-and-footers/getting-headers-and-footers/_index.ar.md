@@ -45,3 +45,4 @@ keywords: مكتبة إكسل للبايثون، الحصول على رؤوس و
 توضح الأكواد التالية كيفية تحليل رأس أو تذييل كقائمة أوامر ومعالجة الأوامر:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

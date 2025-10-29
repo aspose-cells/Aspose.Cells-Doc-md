@@ -28,3 +28,4 @@ keywords: مكتبة إكسل بايثون، خاصية معرف ورقة الع
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

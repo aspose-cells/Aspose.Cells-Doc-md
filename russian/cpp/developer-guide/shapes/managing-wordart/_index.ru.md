@@ -65,3 +65,4 @@ int main()
 - [Добавление словесного искусства текста с встроенными стилями](/cells/ru/cpp/add-word-art-text-with-built-in-styles/)
 - [Блокировка водяного знака WordArt](/cells/ru/cpp/locking-wordart-watermark/)
 - [Установить предварительный стиль WordArt для текста формы](/cells/ru/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

@@ -54,3 +54,4 @@ int main()
 Is VBA Code Project Signed: True  
 
 {{< /highlight >}}  
+{{< app/cells/assistant language="cpp" >}}

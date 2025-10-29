@@ -80,3 +80,4 @@ L'exemple suivant crée un nouveau classeur à partir de zéro, insère "**Bonjo
 L'exemple suivant ouvre un fichier de modèle Microsoft Excel existant, récupère une cellule et vérifie la valeur dans la cellule A1.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

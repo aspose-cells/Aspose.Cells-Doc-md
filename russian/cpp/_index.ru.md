@@ -31,3 +31,4 @@ Aspose.Cells for C++ - это собственная библиотека на �
 - [Скачайте примеры в репозитории GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Бесплатный Форум Поддержки Aspose.Cells for C++](https://forum.aspose.com/c/cells/9)
 - [Платный Служба Поддержки Aspose.Cells for C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

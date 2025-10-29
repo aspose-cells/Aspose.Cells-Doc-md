@@ -30,3 +30,4 @@ Aspose.Cells предоставляет перегруженный метод [A
 Aspose.Cells предоставляет метод [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/), который используется для перемещения рабочего листа в другое место в той же книге. Метод принимает индекс целевого рабочего листа в качестве параметра. Приведенный ниже пример показывает, как переместить рабочий лист в другое место внутри книги.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

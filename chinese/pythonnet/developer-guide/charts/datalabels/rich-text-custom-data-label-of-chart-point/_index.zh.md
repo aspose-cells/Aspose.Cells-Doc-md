@@ -18,3 +18,4 @@ url: /zh/python-net/rich-text-custom-data-label-of-chart-point/
 以下代码访问第一个系列的第一个图表点，设置其文本，然后通过设置字体的颜色为红色并将其粗体设置为**true** 来设置前10个字符的字体。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

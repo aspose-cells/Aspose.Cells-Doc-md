@@ -1,7 +1,7 @@
 ---
 title: Données
 type: docs
-weight: 110
+weight: 60
 url: /fr/python-java/data/
 ---
 

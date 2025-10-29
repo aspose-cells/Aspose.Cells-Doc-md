@@ -65,3 +65,4 @@ Spécifiez les propriétés [**FindOptions.look_in_type**](https://reference.asp
 - [Rechercher des cellules avec un style spécifique](/cells/fr/python-net/find-cells-with-specific-style/)
 - [Trouver si la valeur de la cellule commence par un guillemet simple](/cells/fr/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Rechercher des données en utilisant des valeurs originales](/cells/fr/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

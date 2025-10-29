@@ -27,8 +27,8 @@ Aspose.Cells 允许您跟踪单元格并找出哪些是相互关联的。
 Microsoft Excel 允许用户跟踪先例和依赖。
 
 1.在**查看工具栏**上，选择**公式审计**。
-   显示[公式审计]对话框。 
-   [公式审计对话框] 
+   显示【公式审计】对话框。 
+   【公式审计对话框】 
 
 ![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
@@ -44,7 +44,7 @@ Aspose.Cells使得获取单元格的先行单元格变得轻松。它不仅可�
 
 在下面的示例中，使用了模板Excel文件《Book1.xls》。电子表格在第一个工作表上包含数据和公式。
 
-[输入电子表格] 
+【输入电子表格】 
 
 ![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_2.png)
 

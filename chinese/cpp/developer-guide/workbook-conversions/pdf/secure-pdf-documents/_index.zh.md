@@ -79,3 +79,4 @@ int main()
  如果电子表格包含公式，建议在渲染为 PDF 之前调用 [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/)，确保公式相关的值被重新计算，生成正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

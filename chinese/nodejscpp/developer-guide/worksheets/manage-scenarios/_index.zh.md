@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 console.log("\nProcess completed successfully.\nFile saved at " + outputFilePath);
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

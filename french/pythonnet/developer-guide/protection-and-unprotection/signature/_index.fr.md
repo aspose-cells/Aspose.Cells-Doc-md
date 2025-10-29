@@ -33,3 +33,4 @@ Veuillez voir le code d'exemple suivant qui décrit comment effectuer la tâche 
 - [Ajouter une ligne de signature au classeur](/cells/fr/python-net/add-signature-line/)
 - [Prise en charge de la signature XAdES](/cells/fr/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -12,3 +12,4 @@ description: Aperçu des formats de police supportés dans Aspose.Cells for Node
 |**TTF**|Polices TrueType|
 |**TTC**|Collections de polices TrueType|
 |**OTF**|Polices OpenType|
+{{< app/cells/assistant language="nodejs-cpp" >}}

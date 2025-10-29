@@ -112,3 +112,4 @@ $ pip install aspose-cells-python
 
 باتباع هذه الخطوات، يمكنك بسهولة تنسيق الأرقام ككسور في Aspose.Cells للبايثون via .NET. هذا مفيد بشكل خاص للتطبيقات المالية والإحصائية أو التعليمية حيث تكون القيم الكسرية الدقيقة ضرورية.
 
+{{< app/cells/assistant language="python-net" >}}

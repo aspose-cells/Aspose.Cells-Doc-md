@@ -24,3 +24,4 @@ url: /zh/python-net/showing-cell-range-as-the-data-labels/
 下面的示例代码访问图表系列数据标签，并将 [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) 属性设置为 **true** 以选择 **标签包含 - 来自单元格的值** 选项。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

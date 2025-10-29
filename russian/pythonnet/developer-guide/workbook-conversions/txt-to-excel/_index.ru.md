@@ -43,3 +43,4 @@ keywords: Конвертировать CSV, TSV и TXT в Excel на Python, П�
 - [Загрузить или импортировать файл CSV с формулами](/cells/ru/python-net/load-or-import-csv-file-with-formulas/)
 - [Чтение файла CSV с различными кодировками](/cells/ru/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

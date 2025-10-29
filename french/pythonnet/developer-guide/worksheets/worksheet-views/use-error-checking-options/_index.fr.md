@@ -34,3 +34,4 @@ Vous pouvez utiliser les options de vérification des erreurs pour convertir rap
 Le code d’exemple suivant montre comment désactiver l’option de vérification d’erreur pour les nombres stockés en tant que texte dans une feuille du fichier XLS modèle en utilisant l’API Aspose.Cells pour Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

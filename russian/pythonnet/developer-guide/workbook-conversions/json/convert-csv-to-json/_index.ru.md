@@ -60,3 +60,4 @@ Aspose.Cells для Python via .NET поддерживает преобразо�
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

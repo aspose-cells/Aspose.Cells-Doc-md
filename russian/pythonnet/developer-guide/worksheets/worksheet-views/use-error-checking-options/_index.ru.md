@@ -34,3 +34,4 @@ Aspose.Cells для Python via .NET предоставляет функции п
 Следующий пример кода показывает, как отключить опцию проверки ошибок «Числа, сохранённые как текст» для листа в шаблонном XLS файле с использованием API Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ keywords: Aspose.Cells for C++ تقوم بإنشاء وإصلاح وتعديل �
 - [تنزيل الأمثلة في مستودع GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [منتدى الدعم المجاني لـ Aspose.Cells for C++](https://forum.aspose.com/c/cells/9)
 - [مكتب الدعم المدفوع الخاص بـ Aspose.Cells for C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

@@ -48,3 +48,4 @@ MHTML объединяет обычный HTML с внешними ресурс�
 - [Установить ширину столбца в масштабируемую единицу, например em или процент](/cells/ru/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Установить шрифт по умолчанию при рендеринге электронных таблиц в HTML](/cells/ru/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType](/cells/ru/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

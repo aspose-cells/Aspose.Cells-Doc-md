@@ -14,3 +14,4 @@ Avant Aspose.Cells 17.1, Aspose.Cells ne rendait pas le remplissage dégradé de
 Le code d'exemple suivant convertit le [fichier Excel source](22774111.xlsx) en [format HTML de sortie](22774109.zip). Le fichier Excel source contient un objet WordArt avec un remplissage dégradé comme indiqué dans la capture d'écran ci-dessus.
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -15,7 +15,7 @@ description: 学习如何在将Excel文件转换为HTML时导出或避免导出�
 
 ## **将Excel中的文档、工作簿和工作表属性导出为HTML**
 
-下方示例代码加载[示例Excel文件](61767776.xlsx)，并将其转换为HTML，未导出文档、工作簿及工作表属性，输出的HTML文件为(61767779.zip)。
+下方示例代码加载【示例Excel文件】(61767776.xlsx)，并将其转换为HTML，未导出文档、工作簿及工作表属性，输出的HTML文件为(61767779.zip)。
 
 ## **示例代码**
 
@@ -60,3 +60,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

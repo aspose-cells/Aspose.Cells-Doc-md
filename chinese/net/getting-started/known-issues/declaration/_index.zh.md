@@ -1,5 +1,5 @@
 ---
-title: 声明
+title: Web服务器上的权限信任
 type: docs
 weight: 30
 url: /zh/net/declaration/
@@ -8,6 +8,8 @@ url: /zh/net/declaration/
 {{% alert color="primary" %}} 
 
 一般来说，所有Aspose .NET组件都需要设置完全信任权限。原因是Aspose for .NET组件需要访问注册表设置、系统文件等，而不仅仅是虚拟目录，用于某些操作，比如解析字体等。此外，Aspose for .NET组件（包括Aspose.Cells for .NET）基于核心.NET系统类，这在许多情况下也需要设置完全信任权限。
+<br/>
+中等信任已在.NET Core和.NET 5+中移除。中等信任是.NET Framework时代的安全机制。中等信任逐渐被更灵活的安全策略取代。建议用户优先升级到.NET 5+并采用容器化部署，而非依赖传统的信任级别。
 
 {{% /alert %}} 
 ## **部分信任/中等信任挑战**

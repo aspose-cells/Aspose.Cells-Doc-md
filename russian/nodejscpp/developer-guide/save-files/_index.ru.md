@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [Настройка уровня сжатия книги Excel](/cells/ru/nodejs-cpp/adjust-workbook-compression-level/)
 - [Сохранить книгу в формате Strict Open XML Spreadsheet](/cells/ru/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Сохранение файла в объект ответа](/cells/ru/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

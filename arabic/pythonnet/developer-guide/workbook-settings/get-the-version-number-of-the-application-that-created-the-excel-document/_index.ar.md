@@ -14,3 +14,4 @@ url: /ar/python-net/get-the-version-number-of-the-application-that-created-the-e
 الكود النموذجي التالي يظهر استخدام خاصية [**Workbook.built_in_document_properties.version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/version). يقوم بتحميل ملفات Excel التي تم إنشاؤها باستخدام Microsoft Excel 2003 و 2007 و 2010 و 2013 ويقوم بطباعة رقم الإصدار للتطبيق الذي أنشأ هذه المستندات في Excel.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "WorkbookSettings-GetApplicationVersion-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

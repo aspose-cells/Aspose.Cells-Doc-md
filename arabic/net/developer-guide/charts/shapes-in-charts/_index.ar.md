@@ -34,6 +34,14 @@ url: /ar/net/controls-in-charts/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**ملاحظة:** هذا النوع من عناصر تحكم التسمية مدعوم فقط في ملفات XLS. إذا كنت تريد تأثيرًا مشابهًا في ملف XLSX، يرجى استخدام أحد البدائل التالية:
+
+1. استخدم عنصر تحكم مربع النص بدلاً من ذلك، هناك بديل مماثل لعنصر التسمية في ملفات XLSX.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) لدعم مربعات النص، يمكن أن تدعم ملفات XLSX.
+
+2. أضف ورقة عمل يكون نوع الورقة فيها "SheetType.Chart"، ثم أضف رسمًا بيانيًا وعنصر تحكم على هذه الورقة.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) لإضافة نوع الورقة "SheetType.Chart".
+
 ## **إضافة عنصر تحكم مربع نص إلى الرسم البياني**
 
 أحد الطرق لتسليط الضوء على معلومات مهمة في تقرير هو استخدام مربع نص. على سبيل المثال ، أدخل نصًا لتسليط الضوء على اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات. توفر صف الفصل [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تسمى [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart) ، التي تُستخدم لإضافة عنصر تحكم مربع نص إلى رسم بياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:

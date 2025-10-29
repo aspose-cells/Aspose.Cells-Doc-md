@@ -166,3 +166,4 @@ Excel предоставляет пользовательские фильтры
 ## **Продвинутые темы**
 - [Применение расширенного фильтра Microsoft Excel для отображения записей, удовлетворяющих сложным критериям](/cells/ru/nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Получить все скрытые индексы строк после обновления автофильтра](/cells/ru/nodejs-cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

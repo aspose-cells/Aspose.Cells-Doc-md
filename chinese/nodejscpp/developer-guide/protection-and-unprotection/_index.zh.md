@@ -34,3 +34,4 @@ Aspose.Cells for Node.js via C++提供了各种保护和解除保护的功能，
 - [检测加密的 Office Open XML - OOXML 文件的文件格式](/cells/zh/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [加密 Excel 文件](/cells/zh/nodejs-cpp/encrypting-excel-files/)
 - [如何检测文件格式并检查文件是否加密](/cells/zh/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

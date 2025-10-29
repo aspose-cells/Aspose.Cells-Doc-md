@@ -84,3 +84,4 @@ int main()
 Функция консолидации Уникальное количество поддерживается только Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -14,7 +14,7 @@ url: /zh/go-cpp/different-ways-to-open-files/
 
 ## **通过路径打开文件**
 
-开发者可以通过在[Workbook]类构造函数中指定本地计算机上的文件路径，打开Microsoft Excel文件。将路径作为字符串传入，Aspose.Cells会自动检测文件格式。
+开发者可以通过在【Workbook】类构造函数中指定本地计算机上的文件路径，打开Microsoft Excel文件。将路径作为字符串传入，Aspose.Cells会自动检测文件格式。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadWorkbookUsingPath.go" >}}
 

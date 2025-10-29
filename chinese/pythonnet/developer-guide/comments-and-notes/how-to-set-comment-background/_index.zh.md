@@ -34,3 +34,4 @@ keywords: 在Excel中添加插入图片、颜色和评论背景
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-AddPictureToExcelComment-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

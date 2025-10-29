@@ -18,3 +18,4 @@ url: /ar/python-net/rotate-text-with-shape-inside-the-worksheet/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-RotateTextWithShapeInsideWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

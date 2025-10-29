@@ -51,3 +51,4 @@ keywords: مكتبة إكسل بايثون، بايثون تجميد الصفو�
 توفر Aspose.Cells لـ Python via .NET طريقة [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) لإزالة إعدادات التقسيم.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}
+{{< app/cells/assistant language="python-net" >}}

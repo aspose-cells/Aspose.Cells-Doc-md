@@ -70,6 +70,8 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |BITOR|**Ingénierie**: Renvoie un 'OU logique' de 2 nombres
 |BITRSHIFT|**Ingénierie**: Renvoie un nombre de valeur décalé vers la droite de shift_amount bits
 |BITXOR|**Ingénierie**: Renvoie un 'OU exclusif' de deux nombres
+|BYCOL|**Logique** : Applique une LAMBDA à chaque colonne et retourne un tableau des résultats
+|BYROW|**Logique** : Applique une LAMBDA à chaque ligne et retourne un tableau des résultats
 
 ###### **C**
 |**Fonction**|**Résumé**|
@@ -103,6 +105,8 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |CORREL|**Statistique**: Renvoie le coefficient de corrélation entre deux ensembles de données
 |COS|**Mathématiques et trigonométrie**: Renvoie le cosinus d'un nombre
 |COSH|**Mathématiques et trigonométrie**: Renvoie le cosinus hyperbolique d'un nombre
+|COT|**Maths et trigonométrie** : Retourne le cosinus hyperbolique d'un nombre
+|COTH|**Maths et trigonométrie** : Retourne la cotangente d'un angle
 |COUNT|**Statistique**: Compte combien de chiffres se trouvent dans la liste des arguments
 |COUNTA|**Statistique**: Compte combien de valeurs se trouvent dans la liste des arguments
 |COUNTBLANK|**Statistique**: Compte le nombre de cellules vides dans une plage
@@ -170,6 +174,7 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |EVEN|**Mathématiques et trigonométrie**: Arrondit un nombre à l'entier le plus proche pair
 |EXACT|**Texte**: Vérifie si deux valeurs de texte sont identiques
 |EXP|**Mathématiques et trigonométrie**: Renvoie e à la puissance d'un nombre donné
+|EXPAND|**Recherche et référence** : Élargit ou remplit un tableau aux dimensions de lignes et de colonnes spécifiées
 |EXPONDIST|**Compatibilité**: Renvoie la distribution exponentielle
 
 ###### **F**
@@ -267,6 +272,7 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |ISNONTEXT|**Information** : Renvoie VRAI si la valeur n'est pas du texte
 |ISNUMBER|**Information** : Renvoie VRAI si la valeur est un nombre
 |ISODD|**Information** : Renvoie VRAI si le nombre est impair
+|ISOMITTED|**Information** : Vérifie si la valeur d'une LAMBDA est manquante et retourne VRAI ou FAUX
 |ISREF|**Information** : Renvoie VRAI si la valeur est une référence
 |ISTEXT|**Information** : Renvoie VRAI si la valeur est du texte
 |ISOWEEKNUM|**Date et heure** : Renvoie le numéro de la semaine ISO de l'année pour une date donnée
@@ -412,6 +418,7 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |RANK|**Compatibilité**: Renvoie le rang d'un nombre dans une liste de nombres
 |RATE|**Financier**: Renvoie le taux d'intérêt par période d'une rente
 |RECEIVED|**Financier**: Renvoie le montant reçu à l'échéance pour une sécurité entièrement investie
+|REDUCE|**Logique** : Réduit un tableau à une valeur accumulée en appliquant une LAMBDA à chaque valeur et en retournant la valeur totale dans l'accumulateur
 |REPLACE|**Text**: Remplace les caractères dans le texte
 |REPLACEB|**Text**: Remplace les caractères dans le texte
 |REPT|**Text**: Répète le texte un nombre donné de fois
@@ -475,6 +482,7 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |T|**Texte**: Convertit ses arguments en texte
 |TAN|**Mathématiques et trigonométrie**: Renvoie la tangente d'un nombre
 |TANH|**Mathématiques et trigonométrie**: Renvoie la tangente hyperbolique d'un nombre
+|TAKE|**Recherche et référence** : Retourne un nombre spécifié de lignes ou de colonnes contiguës du début ou de la fin d’un tableau
 |TBILLEQ|**Financier**: Renvoie le rendement équivalent à un titre du Trésor
 |TBILLPRICE|**Financier**: Renvoie le prix par valeur nominale de 100 $ pour un bon du Trésor
 |TBILLYIELD|**Financier**: Renvoie le rendement d'un bon du Trésor
@@ -536,13 +544,17 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |WEIBULL.DIST|**Statistique**: Renvoie la distribution de Weibull
 |WORKDAY|**Date et heure**: Renvoie le numéro de série de la date avant ou après un nombre spécifié de jours ouvrables
 |WORKDAY.INTL|**Date et heure**: Renvoie le numéro de série de la date avant ou après un nombre spécifié de jours ouvrables en utilisant des paramètres pour indiquer quels jours sont des jours de week-end et combien de jours sont des jours de week-end
+|WRAPCOLS|**Recherche et référence** : Enroule la ligne ou la colonne de valeurs fournie par colonnes après un nombre spécifié d’éléments
+|WRAPROWS|**Recherche et référence** : Enroule la ligne ou la colonne de valeurs fournie par lignes après un nombre spécifié d’éléments
 
 ###### **X**
 |**Fonction**|**Résumé**|
 | :- | :- |
-|XIRR|**Financier**: Renvoie le taux de rendement interne pour un calendrier de flux de trésorerie qui n'est pas nécessairement périodique
+|XIRR|**Financier** : Retourne le taux de rendement interne pour un calendrier de flux de trésorerie qui n'est pas nécessairement périodique.
 |XLOOKUP|**Recherche et référence**: Recherche dans une plage ou un tableau et renvoie un élément correspondant à la première correspondance trouvée. Si aucune correspondance n'existe, alors XLOOKUP peut renvoyer la correspondance la plus proche (approximative) 
-|XNPV|**Financier**: Renvoie la valeur actuelle nette d'un calendrier de flux de trésorerie qui n'est pas nécessairement périodique
+|XMATCH|**Recherche et référence** : Retourne la position relative d'un élément dans un tableau ou une plage de cellules. 
+|XNPV|**Financier** : Retourne la valeur actuelle nette pour un calendrier de flux de trésorerie qui n'est pas nécessairement périodique.
+|XOR|**Logique** : Renvoie un OU exclusif logique de tous les arguments.
 
 ###### **Y**
 |**Fonction**|**Résumé**|
@@ -560,3 +572,4 @@ Le moteur de calcul de formules d'Aspose.Cells pour Python via .NET vous permet 
 |ZTEST|**Compatibilité** : Renvoie la probabilité unilatérale de la valeur de test z
 
 
+{{< app/cells/assistant language="python-net" >}}

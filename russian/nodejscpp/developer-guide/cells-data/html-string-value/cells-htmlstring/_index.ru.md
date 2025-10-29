@@ -28,3 +28,4 @@ keywords: Добавить HTML строку внутрь ячейки Node.js �
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

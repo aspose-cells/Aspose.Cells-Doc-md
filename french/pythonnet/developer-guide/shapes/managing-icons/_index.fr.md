@@ -32,3 +32,4 @@ Ici, nous avons préparé *un exemple de code* pour vous aider à insérer des i
 Lorsque vous exécutez le code ci-dessus dans votre projet, vous obtiendrez les résultats suivants :
 
 ![](3.png)
+{{< app/cells/assistant language="python-net" >}}

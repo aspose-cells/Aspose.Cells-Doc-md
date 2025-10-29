@@ -194,3 +194,4 @@ int main()
 - [Перемещение диапазона ячеек на листе](/cells/ru/cpp/move-range-of-cells-in-a-worksheet/)
 - [Создать именованные диапазоны с учетом книги и листа](/cells/ru/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Поиск и замена данных в диапазоне](/cells/ru/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

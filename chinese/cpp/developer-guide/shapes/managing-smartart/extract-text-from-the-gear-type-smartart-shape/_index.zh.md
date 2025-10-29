@@ -16,7 +16,7 @@ Aspose.Cells for C++可以提取Gear类型SmartArt形状中的文本。请按以
 
 ## **从齿轮型智能图形中提取文本**
 
-以下示例代码加载包含Gear类型SmartArt形状的[示例Excel文件](67338483.xlsx)，并从其单个形状中提取文本。结果请参见下面的控制台输出。
+以下示例代码加载包含Gear类型SmartArt形状的【示例Excel文件】(67338483.xlsx)，并从其单个形状中提取文本。结果请参见下面的控制台输出。
 
 ## **示例代码**
 
@@ -71,3 +71,4 @@ Gear Type Shape Text: Nice
 Gear Type Shape Text: Good
 Gear Type Shape Text: Excellent
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

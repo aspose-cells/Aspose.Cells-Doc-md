@@ -32,3 +32,4 @@ url: /ru/python-net/accessing-table-from-cell-and-adding-values-inside-it-using-
 Следующий примерный код загружает исходный файл Excel, как показано на снимке экрана выше, добавляет значения в таблицу и создает выходной файл Excel, как показано выше.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-AccessTableFromCellAndAddValue.py" >}}
+{{< app/cells/assistant language="python-net" >}}

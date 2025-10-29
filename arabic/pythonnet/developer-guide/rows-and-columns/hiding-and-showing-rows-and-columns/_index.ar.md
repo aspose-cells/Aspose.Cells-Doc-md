@@ -55,3 +55,4 @@ keywords: مكتبة Excel Python، Aspose.Cells Python إخفاء وإظهار 
 من الممكن أيضًا استخدام طرق [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) و[**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) فئة [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) لجعل عدة صفوف وأعمدة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

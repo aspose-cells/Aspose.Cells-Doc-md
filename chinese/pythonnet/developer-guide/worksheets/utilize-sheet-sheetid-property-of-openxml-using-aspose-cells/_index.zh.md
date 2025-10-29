@@ -28,3 +28,4 @@ keywords: Python Excel 库，Python openxml 的工作表 ID 属性，Excel 工�
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

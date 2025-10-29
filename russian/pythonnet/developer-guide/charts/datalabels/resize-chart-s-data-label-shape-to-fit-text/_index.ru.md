@@ -22,3 +22,4 @@ url: /ru/python-net/resize-chart-s-data-label-shape-to-fit-text/
 Чтобы имитировать функцию Excel по изменению размера форм меток данных для подгонки текста, API Aspose.Cells для Python via .NET предоставил свойство [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) булевого типа. Следующий пример показывает простую сценарий использования свойства [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

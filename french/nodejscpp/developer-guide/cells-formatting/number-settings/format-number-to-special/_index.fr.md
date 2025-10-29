@@ -108,3 +108,4 @@ Voici un extrait de code illustrant ces étapes :
 
 La mise en forme des nombres en formats spéciaux dans Aspose.Cells for Node.js via C++ consiste à définir le format numérique personnalisé d'un style de cellule. Cela permet une large gamme d'options de mise en forme, vous permettant d'afficher les données exactement comme vous en avez besoin. Rappelez-vous, la clé des formats personnalisés réside dans la chaîne de format que vous fournissez, qui dicte comment le nombre sera affiché.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

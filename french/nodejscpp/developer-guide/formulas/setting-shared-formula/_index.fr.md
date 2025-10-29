@@ -49,3 +49,4 @@ cells.get("B2").setSharedFormula("=A2*0.09", 13, 1);
 // Save the excel file
 workbook.save(path.join(dataDir, "Output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

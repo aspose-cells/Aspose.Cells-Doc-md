@@ -17,3 +17,4 @@ Aspose.Cells for Node.js via C++ поддерживает скрытие и со
 [Исходный файл](96928093.xlsx)
 
 [Выходной файл](96928094.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

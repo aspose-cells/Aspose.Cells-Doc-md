@@ -46,3 +46,4 @@ Verdana
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

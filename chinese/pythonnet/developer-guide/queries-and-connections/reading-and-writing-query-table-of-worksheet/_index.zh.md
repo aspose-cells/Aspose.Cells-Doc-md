@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET提供读取查询表结果范围地址的选项
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ReadingAddressOfResultRange.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /fr/go-cpp/opening-files-with-different-formats/
 
-description: L API Aspose.Cells for .NET vous permet d ouvrir/lire différents formats tels que XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+description: L API Aspose.Cells for Go via C++ vous permet d ouvrir/lire différents formats comme XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: ouvrir des fichiers xlsx, ouvrir des fichiers html, lire des fichiers fods, lire des fichiers ods, lire des fichiers sxc, ouvrir des fichiers csv, valeurs tabulées, SpreadsheetML, tsv, mhtml
 ---
 
@@ -38,16 +38,6 @@ Aspose.Cells vous permet d'ouvrir un fichier HTML dans un objet Workbook. Le fic
 Les fichiers au format Valeurs Séparées par des Virgules (CSV) contiennent des enregistrements où les valeurs sont séparées par des virgules. Les données sont stockées sous forme de tableau où chaque colonne est séparée par le caractère virgule et est encadrée par le caractère double quote. Si une valeur de champ contient un caractère de guillemet double, il est échappé avec une paire de caractères de guillemet double. Vous pouvez également utiliser Microsoft Excel pour exporter des données de feuille de calcul vers un fichier CSV.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **Ouverture des fichiers CSV et remplacement des caractères invalides**
-
-Dans Excel, lorsque vous ouvrez un fichier CSV contenant des caractères spéciaux, les caractères sont automatiquement remplacés. La même opération est effectuée par l'API Aspose.Cells, comme le montre l'exemple de code ci-dessous.
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-Le fichier source d'exemple peut être téléchargé depuis les liens suivants pour tester cette fonctionnalité.
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **Ouverture de fichiers texte avec un séparateur personnalisé**
 

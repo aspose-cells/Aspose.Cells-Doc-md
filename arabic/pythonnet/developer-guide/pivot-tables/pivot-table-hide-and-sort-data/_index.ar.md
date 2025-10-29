@@ -19,3 +19,4 @@ Aspose.Cells لـ Python via .NET تدعم إخفاء البيانات وترت�
 [ملف المصدر](96928093.xlsx)
 
 [ملف الناتج](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

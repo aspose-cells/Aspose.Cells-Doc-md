@@ -37,7 +37,7 @@ FitToPagesWide和FitToPagesTall设置用于电子表格应用（如Microsoft Exc
 
 ## **如何使用Aspose.Cells将Excel的宽度和高度适合页面打印**
 
-在指定工作表中设置FitToPagesWide和FitToPagesTall：首先，加载[示例文件](input.xlsx)，然后调用 [**Worksheet.PageSetup.setFitToPagesTall(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesTall-int-) 和 [**Worksheet.PageSetup.setFitToPagesWide(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesWide-int-) 方法，传入目标工作表所在的对象。以下是Java示例：
+在指定工作表中设置FitToPagesWide和FitToPagesTall：首先，加载【示例文件】(input.xlsx)，然后调用 [**Worksheet.PageSetup.setFitToPagesTall(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesTall-int-) 和 [**Worksheet.PageSetup.setFitToPagesWide(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesWide-int-) 方法，传入目标工作表所在的对象。以下是Java示例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-set-FitToPagesWide-FitToPagesTall.java" >}}
 
@@ -47,7 +47,7 @@ FitToPagesWide和FitToPagesTall设置用于电子表格应用（如Microsoft Exc
 
 ## **如何使用Aspose.Cells将工作表打印为一页**
 
-要将工作表打印为一页：首先，加载[示例文件](sample.xlsx)，然后调用 [**PdfSaveOptions.setOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setOnePagePerSheet-boolean-) 方法，传入工作表对象。以下是Java示例：
+要将工作表打印为一页：首先，加载【示例文件】(sample.xlsx)，然后调用 [**PdfSaveOptions.setOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setOnePagePerSheet-boolean-) 方法，传入工作表对象。以下是Java示例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-OnePagePerSheet.java" >}}
 
@@ -58,7 +58,7 @@ FitToPagesWide和FitToPagesTall设置用于电子表格应用（如Microsoft Exc
 
 ## **如何使用Aspose.Cells将工作表的所有列打印在一页中**
 
-要在一页中打印工作表的所有列：首先，加载[示例文件](sample.xlsx)，然后调用 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setAllColumnsInOnePagePerSheet-boolean-) 方法，传入工作表对象。以下是Java示例：
+要在一页中打印工作表的所有列：首先，加载【示例文件】(sample.xlsx)，然后调用 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setAllColumnsInOnePagePerSheet-boolean-) 方法，传入工作表对象。以下是Java示例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-AllColumnsInOnePagePerSheet.java" >}}
 

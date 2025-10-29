@@ -18,3 +18,4 @@ Aspose.Cells для Python via .NET предоставляет возможно�
 В следующем примере кода удаляются две сводные таблицы с листа. Сначала удаляется сводная таблица, используя метод [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/), а затем удаляется сводная таблица, используя метод [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

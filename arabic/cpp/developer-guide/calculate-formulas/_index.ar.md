@@ -197,3 +197,4 @@ int main()
 - [إرجاع مجموعة من القيم باستخدام AbstractCalculationEngine](/cells/ar/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [ضبط وضع حساب الصيغة في سجل العمل](/cells/ar/cpp/setting-formula-calculation-mode-of-workbook/)
 - [استخدام وظيفة FormulaText في Aspose.Cells](/cells/ar/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

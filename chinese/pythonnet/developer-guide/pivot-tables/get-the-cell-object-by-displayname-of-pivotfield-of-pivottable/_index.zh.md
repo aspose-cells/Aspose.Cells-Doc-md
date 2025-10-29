@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET提供了[**PivotTable.get_cell_by_display_name(
 |**透视表 - 在之后**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+{{< app/cells/assistant language="python-net" >}}

@@ -60,3 +60,4 @@ Insérer une image dans une cellule en utilisant Aspose.Cells pour Python via .N
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-place-image-in-cell.py" >}}
+{{< app/cells/assistant language="python-net" >}}

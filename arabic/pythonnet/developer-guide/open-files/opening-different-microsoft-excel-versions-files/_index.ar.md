@@ -67,3 +67,4 @@ keywords: بايثون فتح ملفات Microsoft Excel مختلفة، كيف �
 تدعم Aspose.Cells أيضًا فتح ملفات Microsoft Excel 2007، 2010، 2013، 2016، 2019، Office 365 المحمية بكلمة مرور.
 
 
+{{< app/cells/assistant language="python-net" >}}

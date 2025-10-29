@@ -36,7 +36,7 @@ url: /zh/python-net/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|增强型元文件格式| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG是一种使用有损压缩方法保存的图像格式。| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|图形交换格式| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|代表一个Markdown文档。| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| 表示一个Markdown文档。| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|OpenOffice和StarOffice使用的基于XML的格式|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|这是一个以扁平XML格式存储的Open Document格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|一种用于Microsoft Word文档的常见格式，是XML和二进制文件的组合。||{{< emoticons/tick >}}|
@@ -47,3 +47,4 @@ url: /zh/python-net/supported-file-formats/
 |[Xml](https://docs.fileformat.com/web/xml/)|XML代表可扩展标记语言，类似于HTML，但使用标签定义对象。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS)文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW是由亚马逊为其Kindle设备开发的数字电子书文件格式。AZW3，也称为Kindle格式8（KF8）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="python-net" >}}

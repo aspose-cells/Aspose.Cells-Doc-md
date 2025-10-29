@@ -52,3 +52,4 @@ workbook.save('WorkbookSettingsExample.xlsx', SaveFormat.XLSX);
 ## **الاستنتاج**
 إدارة إعدادات الوحدة العمل في Aspose.Cells for Node.js via C++ بسيطة وتوفر العديد من الخيارات لتخصيص سلوك ملفات إكسل. باستخدام الإعدادات المتاحة، يمكنك تخصيص الوحدة بما يتناسب مع متطلباتك الخاصة.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

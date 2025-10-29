@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NET предоставляет метод [**Cell.g
 Приведенный ниже образец кода объясняет использование метода [**Cell.get_string_value(format_strategy)**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_string_value/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-HtmlStringValue-GetStringValueWithOrWithoutFormatting.py" >}}
+{{< app/cells/assistant language="python-net" >}}

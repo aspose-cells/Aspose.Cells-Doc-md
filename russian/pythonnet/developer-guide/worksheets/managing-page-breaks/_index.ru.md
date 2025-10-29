@@ -46,3 +46,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 ## **Важно знать**
 
 Когда вы устанавливаете свойства **FitToPages** (то есть [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) и [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) в настройках страницы, настройки перерывов страницы также влияют на них, поэтому, если вы печатаете лист, настройки перерывов страницы не учитываются, хотя они все еще заданы.
+{{< app/cells/assistant language="python-net" >}}

@@ -30,3 +30,4 @@ keywords: Python将所有工作表列调整到单个PDF页面，在Python中将�
 如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)方法。这样做将确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

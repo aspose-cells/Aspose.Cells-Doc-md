@@ -9,12 +9,12 @@ description: 学习如何使用编号Aspose.Cells for C++导出带网格线的Ex
 
 {{% alert color="primary" %}} 
 
-如果希望导出带有网格线的Excel文件到HTML，请使用[HtmlSaveOptions.GetExportGridLines()]属性，并将其设置为**true**。
+如果希望导出带有网格线的Excel文件到HTML，请使用【HtmlSaveOptions.GetExportGridLines()】属性，并将其设置为**true**。
 
 {{% /alert %}} 
 
 ## **将Excel导出为带有网格线的HTML**
-以下示例代码创建一个工作簿并在其工作表填充一些值，然后将其以HTML格式保存，同时将[HtmlSaveOptions.GetExportGridLines()]设置为**true**。
+以下示例代码创建一个工作簿并在其工作表填充一些值，然后将其以HTML格式保存，同时将【HtmlSaveOptions.GetExportGridLines()】设置为**true**。
 
 ```cpp
 #include <iostream>
@@ -57,3 +57,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

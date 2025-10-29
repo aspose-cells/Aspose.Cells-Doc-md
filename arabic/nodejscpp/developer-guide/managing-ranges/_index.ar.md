@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [نقل مجموعة من الخلايا في ورقة العمل](/cells/ar/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [إنشاء أسماء مسماة محددة بنطاق العمل وورقة العمل](/cells/ar/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [البحث والاستبدال في بيانات النطاق](/cells/ar/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

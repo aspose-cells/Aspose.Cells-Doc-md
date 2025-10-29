@@ -64,3 +64,4 @@ description: إدراج، تغيير الحجم، تحرير، حذف، تنسي
 - [الجداول والمدى](/cells/ar/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

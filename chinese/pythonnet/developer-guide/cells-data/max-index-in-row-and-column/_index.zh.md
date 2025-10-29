@@ -27,3 +27,4 @@ Aspose.Cells for Python via .NET提供以下属性和方法，以帮助您实现
 1. 获取单元格的[行](https://reference.aspose.com/cells/python-net/aspose.cells/cell/row/)属性。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Cells-max-index-of-row-and-column.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -362,3 +362,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [数字设置](/cells/zh/nodejs-cpp/cells-number-settings/)
 - [获取和设置单元格的样式](/cells/zh/nodejs-cpp/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

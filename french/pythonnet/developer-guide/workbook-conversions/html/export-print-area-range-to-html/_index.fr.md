@@ -16,3 +16,4 @@ Le code d'exemple suivant charge un classeur puis exporte la zone d'impression a
 [sampleInlineCharts.xlsx](79527946.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportPrintAreaToHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

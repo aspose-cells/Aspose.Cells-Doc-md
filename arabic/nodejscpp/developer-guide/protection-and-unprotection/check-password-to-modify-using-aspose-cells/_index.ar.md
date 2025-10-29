@@ -53,3 +53,4 @@ console.log("Is 5678 correct Password to modify: " + ret);
 Is 567 correct Password to modify: False  
 Is 5678 correct Password to modify: True  
 {{< /highlight >}}  
+{{< app/cells/assistant language="nodejs-cpp" >}}

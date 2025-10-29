@@ -36,3 +36,4 @@ Un graphique est composé d'une série de données. Lors de la création d'un gr
 L'exemple de code ci-dessous démontre comment créer des graphiques personnalisés. Dans cet exemple, nous allons utiliser un graphique en colonnes pour la première série de données et un graphique en ligne pour la deuxième série. Le résultat est que nous ajoutons un graphique en colonnes, combiné avec un graphique en ligne, à la feuille de calcul. Veuillez consulter le [fichier Excel de sortie](66519071.xlsx) du code d'exemple suivant.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -37,7 +37,7 @@ Cette feuille de calcul apparaîtra toujours comme la feuille de calcul active. 
 <br>
 
 ### **3ème limitation : Texte brut avec information d'évaluation**
-Dans le fichier texte brut de Aspose.Cells, des informations d'évaluation seront ajoutées à la fin du document.
+Dans le fichier texte brut en sortie par Aspose.Cells, une information d'évaluation serait ajoutée à la fin du document. Lors de l'enregistrement d'un fichier en texte brut (formats CSV et TSV), seul le contenu de la première feuille de calcul est exporté.
 <br>
 <image src="2.png" width="70%" />
 <br>

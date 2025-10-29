@@ -25,3 +25,4 @@ Les graphiques boursiers sont des graphiques spécifiques utilisés pour suivre 
 L'ensemble de données suivant montre les informations de trading quotidiennes d’une action. Nous utiliserons ces données pour créer quatre types de graphiques boursiers : graphique High-Low-Close (HLC), graphique Open-High-Low-Close (OHLC), graphique Volume-High-Low-Close (VHLC), et graphique Volume-Open-High-Low-Close (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

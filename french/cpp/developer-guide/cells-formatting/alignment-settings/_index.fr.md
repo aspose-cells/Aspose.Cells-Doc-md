@@ -494,3 +494,4 @@ int main()
 ## **Sujets avancés**
 - [Modifier l'alignement des cellules et conserver la mise en forme existante](/cells/fr/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Sauts de ligne et retour à la ligne](/cells/fr/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

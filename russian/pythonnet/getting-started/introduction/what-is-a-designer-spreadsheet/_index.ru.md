@@ -36,3 +36,4 @@ url: /ru/python-net/what-is-a-designer-spreadsheet/
 Кроме того, Aspose.Cells позволяет добавлять [умные маркеры](/cells/ru/python-net/smart-markers/) в электронную таблицу дизайнера. Умные маркеры обрабатываются во время выполнения с помощью метода Process класса WorkbookDesigner. Это может помочь вам писать меньше кода и получать отличный результат.
 
 [Узнать больше о умных маркерах](/cells/ru/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

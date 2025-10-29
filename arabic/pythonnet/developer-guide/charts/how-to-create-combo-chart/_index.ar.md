@@ -22,3 +22,4 @@ url: /ar/python-net/create-combo-chart/
 يقوم الرمز العيني التالي بتحميل [ملف Excel العيني] التالي(combo.xlsx) وإنتاج [ملف Excel الإخراج المعني] التالي(out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-combo-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

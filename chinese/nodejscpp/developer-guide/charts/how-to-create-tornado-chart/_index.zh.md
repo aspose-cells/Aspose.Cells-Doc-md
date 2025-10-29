@@ -71,3 +71,4 @@ valueAxis.getTickLabels().setNumberFormat("#,##0;#,##0");
 
 workbook.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -15,3 +15,4 @@ url: /ar/python-net/detect-if-worksheet-is-password-protected/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-CheckIfPasswordProtected.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

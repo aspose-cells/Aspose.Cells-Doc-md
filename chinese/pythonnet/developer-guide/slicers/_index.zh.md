@@ -37,3 +37,4 @@ keywords: 使用 Aspose.Cells for Python Excel、Excel Python 库，在不使用
 - [移除切片器](/cells/zh/python-net/removing-slicer/)
 - [呈现切片器](/cells/zh/python-net/rendering-slicer/)
 - [更新分析器](/cells/zh/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

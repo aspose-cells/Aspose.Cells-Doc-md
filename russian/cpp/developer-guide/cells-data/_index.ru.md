@@ -178,3 +178,4 @@ int main()
 - [Сначала заполняется строка, а затем столбец.](/cells/ru/cpp/populate-data-first-by-row-then-by-column/)
 - [Сохранить префикс одинарной кавычки значения ячейки или диапазона](/cells/ru/cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Доступ и обновление частей Rich Text ячейки](/cells/ru/cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="cpp" >}}

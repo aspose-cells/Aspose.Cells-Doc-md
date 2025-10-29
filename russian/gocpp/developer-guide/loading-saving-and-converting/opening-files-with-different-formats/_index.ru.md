@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ru/go-cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API позволяет открывать/читать различные форматы, такие как XLSX, HTML, CSV, ODS, TSV, SXC, FODS и др.
+description: API Aspose.Cells for Go via C++ позволяет открывать/читать разные форматы, такие как XLSX, HTML, CSV, ODS, TSV, SXC, FODS и др.
 keywords: открыть файлы xlsx, открыть файлы html, прочитать файлы fods, прочитать файлы ods, прочитать файлы sxc, открыть файлы csv, Табличный разделитель, SpreadsheetML, tsv, mhtml
 ---
 
@@ -38,16 +38,6 @@ Aspose.Cells позволяет открывать файл HTML в объект
 Файлы с разделенными запятыми (CSV) содержат записи, в которых значения разделены запятыми. Данные хранятся в виде таблицы, где каждый столбец разделен запятой и заключен в кавычки. Если значение поля содержит символ двойной кавычки, он экранируется парой символов двойной кавычки. Вы также можете использовать Microsoft Excel для экспорта данных электронных таблиц в CSV.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **Открытие файлов CSV и замена недопустимых символов**
-
-В Excel, при открытии файла CSV со специальными символами, символы автоматически заменяются. То же самое делает API Aspose.Cells, что демонстрируется в приведенном ниже примере кода.
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-Образец исходного файла можно скачать с помощью следующих ссылок для тестирования этой функции.
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **Открытие текстовых файлов с пользовательским разделителем**
 

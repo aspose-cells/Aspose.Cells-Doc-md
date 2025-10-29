@@ -51,3 +51,4 @@ Aspose.Cells for Python via .NET 允许对ODS文件进行加密和解密。解�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DecryptingODSFiles-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

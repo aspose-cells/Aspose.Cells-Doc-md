@@ -14,3 +14,4 @@ url: /zh/python-net/create-textbox-in-which-each-line-is-having-different-horizo
 以下示例代码创建三行并设置每行的水平对齐方式。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ar/python-java/opening-files-with-different-formats/
 
-description: تتيح لك واجهة برمجة التطبيقات Aspose.Cells for .NET فتح/قراءة تنسيقات مختلفة مثل XLSX، HTML، CSV، ODS، TSV، SXC، FODS، إلخ.
+description: يتيح Aspose.Cells لبايثون via Java API فتح/قراءة صيغ مختلفة مثل XLSX وHTML وCSV وODS وTSV وSXC وFODS وغيرها.
 keywords: فتح ملفات xlsx، فتح ملفات html، قراءة ملفات fods، قراءة ملفات ods، قراءة ملفات sxc، فتح ملفات csv، ملفات قيم منفصلة بواسطة الفاصلة، صيغة SpreadsheetML، tsv، mhtml
 ---
 

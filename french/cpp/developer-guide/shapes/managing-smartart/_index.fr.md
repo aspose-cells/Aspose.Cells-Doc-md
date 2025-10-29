@@ -12,3 +12,4 @@ description: Gérez et manipulez les formes Smart Art dans les fichiers Excel en
 Aspose.Cells fournit des outils complets pour travailler avec les formes Smart Art dans les fichiers Excel de manière programmatique. Ce guide montre comment créer, accéder et modifier des éléments Smart Art en utilisant C++.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

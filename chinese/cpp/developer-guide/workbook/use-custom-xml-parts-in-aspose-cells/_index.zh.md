@@ -78,3 +78,4 @@ int main()
 ## 相关文章
 
 - [在文档信息面板中添加可见的自定义属性](/cells/zh/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

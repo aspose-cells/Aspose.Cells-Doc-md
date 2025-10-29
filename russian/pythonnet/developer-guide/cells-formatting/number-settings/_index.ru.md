@@ -90,3 +90,4 @@ Aspose.Cells для Python via .NET предлагает встроенные ф
 - [Укажите пользовательские разделители десятичных и групповых чисел для рабочей книги](/cells/ru/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Указание форматирования собственного шаблона DBNum](/cells/ru/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

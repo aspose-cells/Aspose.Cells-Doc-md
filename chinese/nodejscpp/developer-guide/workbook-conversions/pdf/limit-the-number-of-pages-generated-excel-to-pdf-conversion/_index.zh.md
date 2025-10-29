@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 如果电子表格包含公式，建议在渲染为PDF之前调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--)。这样可以确保依赖公式的值被重新计算，并在输出文件中显示正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

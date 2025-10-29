@@ -50,3 +50,4 @@ Aspose.Cells for Python via .NET是一个强大的.NET和Java组件，允许开�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-rotate-text.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

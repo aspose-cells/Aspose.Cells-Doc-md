@@ -21,3 +21,4 @@ url: /ru/python-net/create-volume-open-high-low-close-stock-chart/
 Следующий образец кода загружает [образец excel-файла](Volume-Open-High-Low-Close.xlsx) и создает [выходной excel-файл](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-volume-open-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

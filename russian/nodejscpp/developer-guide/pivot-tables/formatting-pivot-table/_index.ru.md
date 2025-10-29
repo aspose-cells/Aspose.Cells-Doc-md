@@ -65,3 +65,4 @@ Microsoft Excel предлагает ряд заранее заданных фо
 Приведенный ниже образец кода показывает, как очистить все поля сводной таблицы в области данных.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ClearPivotFields-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

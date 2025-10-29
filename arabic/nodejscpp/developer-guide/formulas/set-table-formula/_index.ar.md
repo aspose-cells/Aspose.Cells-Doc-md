@@ -41,3 +41,4 @@ listObject.getListColumns().get(1).setFormula("=[Column A] + 1");
 // Save the workbook in xlsx format
 book.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

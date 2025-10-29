@@ -58,3 +58,4 @@ Cliquez à l'intérieur de vos données et utilisez **CTRL + T** ou utilisez l'o
 Le code d'exemple suivant charge le [fichier Excel d'exemple](TableFilters.xlsx) montre la même fonctionnalité en utilisant Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

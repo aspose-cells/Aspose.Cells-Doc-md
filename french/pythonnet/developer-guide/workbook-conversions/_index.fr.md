@@ -135,3 +135,4 @@ L'exemple de code suivant démontre l'exportation de la feuille de calcul active
 - [Json](/cells/fr/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/fr/python-net/convert-excel-to-pdf/)
 - [Convertir CSV, TSV et TXT en Excel](/cells/fr/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

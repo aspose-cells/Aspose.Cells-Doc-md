@@ -35,3 +35,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 
 ## **Продвинутые темы**
 - [Применение промежуточных итогов и изменение направления сводных строк ниже деталей](/cells/ru/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

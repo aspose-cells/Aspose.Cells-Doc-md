@@ -32,3 +32,4 @@ url: /zh/python-net/create-dynamic-chart-with-dropdownlist/
 ```
 
 您可以尝试更改单元格 "Sheet1!$A$10" 中的下拉列表值，您会看到图表的动态变化。现在我们已经成功使用 Aspose.Cells for Python via .NET 创建了带有下拉列表的动态图表。
+{{< app/cells/assistant language="python-net" >}}

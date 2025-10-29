@@ -65,3 +65,4 @@ keywords: تنسيق جدول البيانات المحورية.
 يظهر الكود العيني أدناه كيفية مسح جميع حقول الجدول المفصلي في مجال البيانات.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

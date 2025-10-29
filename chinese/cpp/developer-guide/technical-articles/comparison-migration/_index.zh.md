@@ -29,3 +29,4 @@ description: 了解Aspose.Cells for C++中的比较和迁移功能。
 Aspose.Cells for C++提供全面的Excel文件比较和迁移工具。借助这些工具，您可以确保数据完整性并优化迁移流程。
 
 有关更详细的示例和高级用法，请参考[Aspose.Cells for C++文档](https://reference.aspose.com/cells/cpp/)。
+{{< app/cells/assistant language="cpp" >}}

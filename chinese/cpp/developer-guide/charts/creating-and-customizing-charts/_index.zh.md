@@ -36,3 +36,4 @@ url: /zh/cpp/creating-and-customizing-charts/
 下面的示例代码演示了如何创建自定义图表。在此示例中，我们将使用柱状图来展示第一个数据系列，并使用折线图来展示第二个系列。结果是我们在工作表中添加了一个柱状图，结合了一个折线图。请查看以下示例代码的 [输出Excel文件](66519071.xlsx)。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

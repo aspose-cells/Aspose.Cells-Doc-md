@@ -40,3 +40,4 @@ console.log("Is VBA Code Project Signed: " + workbook.getVbaProject().isSigned()
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

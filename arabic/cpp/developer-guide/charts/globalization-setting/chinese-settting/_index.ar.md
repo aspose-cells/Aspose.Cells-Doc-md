@@ -132,3 +132,4 @@ int main()
 |Legend Total Name|الإجمالي|الإجمالي|
 |Other Name|آخر|آخر|
 |Series Name|سلسلة|سلسلة|
+{{< app/cells/assistant language="cpp" >}}

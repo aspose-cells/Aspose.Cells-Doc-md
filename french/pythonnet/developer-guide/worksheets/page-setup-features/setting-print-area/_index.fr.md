@@ -132,3 +132,4 @@ worksheet.page_setup.print_area = ""
 # Save the workbook
 workbook.save("clear_print_area.pdf")
 ```
+{{< app/cells/assistant language="python-net" >}}

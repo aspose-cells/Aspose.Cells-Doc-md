@@ -94,3 +94,4 @@ int main()
 - [使用HtmlCrossType指定输出HTML中如何交叉字符串](/cells/zh/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [支持加载HTML到Excel工作簿时的DIV标签布局](/cells/zh/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [在保存为HTML时启用CSS自定义属性](/cells/zh/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

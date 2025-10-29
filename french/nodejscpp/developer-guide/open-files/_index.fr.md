@@ -104,3 +104,4 @@ workbook1.save(path.join(dataDir, "dest.xlsx"));
 - [Convertir JSON en CSV](/cells/fr/nodejs-cpp/convert-json-to-csv/)
 - [Convertir JSON en Excel](/cells/fr/nodejs-cpp/convert-json-to-excel/)
 - [Convertir Excel en Html](/cells/fr/nodejs-cpp/convert-excel-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

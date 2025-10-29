@@ -60,3 +60,4 @@ Vous pouvez obtenir le [Fichier d'entrée](SeriesFiltered.xlsx) et le [Fichier d
 
 Comme indiqué dans la figure ci-dessous, les deux premières séries qui étaient initialement visibles, sont devenues invisibles dans le fichier de sortie.  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

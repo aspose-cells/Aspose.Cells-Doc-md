@@ -65,3 +65,4 @@ int main()
 
 ## **高级主题**
 - [获取单元值的文本宽度](/cells/zh/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

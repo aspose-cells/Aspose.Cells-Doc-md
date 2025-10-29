@@ -60,3 +60,4 @@ console.log(`${sheet.getName()} is not empty because one or more cells are initi
 }
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

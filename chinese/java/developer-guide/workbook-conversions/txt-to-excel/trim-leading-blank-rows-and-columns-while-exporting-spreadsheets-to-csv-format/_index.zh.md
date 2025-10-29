@@ -21,7 +21,7 @@ url: /zh/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-t
 
 {{% alert color="primary" %}}
 
-在 Aspose.Cells for .NET 20.4 版本发布之前，默认值为 [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) 的是 **false**。自 20.4 版本发布以来，[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) 的默认值为 **true**。
+在Aspose.Cells for Java 20.4版本之前，[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)的默认值为**false**。自20.4版本起，[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)的默认值为**true**。
 
 {{% /alert %}}
 

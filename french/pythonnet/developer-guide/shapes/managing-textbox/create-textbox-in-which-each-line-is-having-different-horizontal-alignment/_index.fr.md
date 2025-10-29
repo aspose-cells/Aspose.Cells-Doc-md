@@ -14,3 +14,4 @@ Vous pouvez définir l'alignement horizontal de votre texte de paragraphe en uti
 Le code d'exemple suivant crée trois lignes et définit l'alignement horizontal de chacune d'entre elles.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -44,3 +44,4 @@ slicer.setStyleType(AsposeCells.SlicerStyleType.SlicerStyleLight6);
 wb.save("outputFormattingSlicer.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

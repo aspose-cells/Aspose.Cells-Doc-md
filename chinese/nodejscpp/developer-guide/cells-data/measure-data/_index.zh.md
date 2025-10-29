@@ -24,3 +24,4 @@ keywords: 通过C++用Node.js测量单元格值的宽度（像素单位），通
 ## **高级主题**  
 - [获取单元值的文本宽度](/cells/zh/nodejs-cpp/get-text-width-of-cell-value/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

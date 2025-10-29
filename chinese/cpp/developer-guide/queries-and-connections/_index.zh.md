@@ -6,3 +6,4 @@ weight: 700
 url: /zh/cpp/managing-database-connections/
 description: 使用Aspose.Cells结合C++管理数据库连接和查询。
 ---
+{{< app/cells/assistant language="cpp" >}}

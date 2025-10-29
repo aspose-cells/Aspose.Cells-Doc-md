@@ -60,3 +60,4 @@ int main()
 
 كما هو موضح في الشكل أدناه، السلسلتان الأوليان اللتان كانتا مرئيتين أصلاً، أصبحتا غير مرئيتين في ملف الإخراج.  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

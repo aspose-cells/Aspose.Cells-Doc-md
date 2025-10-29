@@ -78,3 +78,4 @@ workbook.save(path.join(dataDir, "SampleOutput2_out.pdf"), opts);
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

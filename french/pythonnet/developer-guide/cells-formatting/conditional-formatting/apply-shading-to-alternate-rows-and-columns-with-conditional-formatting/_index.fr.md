@@ -34,3 +34,4 @@ La feuille de calcul résultante, dans ce cas, ressemblera comme suit.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

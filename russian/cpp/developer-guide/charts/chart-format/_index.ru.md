@@ -474,3 +474,4 @@ int main()
 ## **Продвинутые темы**
 - [Установить код формата значений серии графика](/cells/ru/cpp/set-the-values-format-code-of-chart-series/)
 - [Установите изображение в качестве фона в диаграмме](/cells/ru/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

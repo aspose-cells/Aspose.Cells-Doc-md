@@ -64,3 +64,4 @@ description: "Aspose.Cells for Python via .NET 特性"
 - 创建或编辑页眉和/或页脚
 - 设置打印区域，打印标题或打开网格线等
 
+{{< app/cells/assistant language="python-net" >}}

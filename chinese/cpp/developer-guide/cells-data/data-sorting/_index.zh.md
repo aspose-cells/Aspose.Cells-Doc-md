@@ -151,3 +151,4 @@ int main()
 ## **高级主题**
 - [使用自定义排序列表对列中的数据进行排序](/cells/zh/cpp/sort-data-in-column-with-custom-sort-list/)
 - [在对数据进行排序时指定排序警告](/cells/zh/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

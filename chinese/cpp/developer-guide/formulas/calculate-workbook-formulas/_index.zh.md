@@ -17,3 +17,4 @@ url: /zh/cpp/calculate-workbook-formulas/
  Calculated Value of Cell A4: 45
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

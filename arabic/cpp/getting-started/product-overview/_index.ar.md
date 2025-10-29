@@ -82,3 +82,4 @@ Aspose.Cells for C++ هي مكتبة C++ أصلية تمكّن مطوري C++ م
 |[التنزيل Aspose.Cells for C++](https://downloads.aspose.com/cells/cpp)|قم بتنزيل أحدث إصدار من Aspose.Cells من هنا. نحن نصدر بانتظام.|
 |[منتدى دعم Aspose.Cells for C++](https://forum.aspose.com/c/cells/9)|قم بنشر أسئلتك ومشاكلك هنا للحصول على حل سريع.|
 |[توثيق المنتج Aspose.Cells for C++](/cells/ar/cpp/)|توثيق عبر الإنترنت كامل يتضمن هذا التوثيق بالإضافة إلى مرجع API Aspose.Cells.|
+{{< app/cells/assistant language="cpp" >}}

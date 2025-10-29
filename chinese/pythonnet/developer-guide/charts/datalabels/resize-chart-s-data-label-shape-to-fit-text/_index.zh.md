@@ -22,3 +22,4 @@ Excel应用程序提供了**调整形状以适应文本**选项，用于图表�
 为了模仿Excel的自动调整数据标签形状以适应文本的功能，Aspose.Cells for Python via .NET API引入了布尔类型的[**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text)属性。以下代码展示了[**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text)属性的简单使用场景。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -220,3 +220,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [在工作表中显示公式而非数值](/cells/zh/nodejs-cpp/show-formulas-instead-of-values-in-a-worksheet/)
 - [使用错误检查选项](/cells/zh/nodejs-cpp/use-error-checking-options/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

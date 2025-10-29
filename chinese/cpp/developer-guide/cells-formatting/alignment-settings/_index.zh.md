@@ -494,3 +494,4 @@ int main()
 ## **高级主题**
 - [更改单元格对齐方式并保留现有格式](/cells/zh/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [换行和文本换行](/cells/zh/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

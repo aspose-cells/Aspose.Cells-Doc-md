@@ -52,3 +52,4 @@ Aspose.Cells for Node.js 提供许多属性和方法以调整工作簿设置：
 ## **结论**
 在Aspose.Cells for Node.js via C++中管理工作簿设置简单且提供多种选项来自定义Excel文件行为。通过利用这些设置，可以根据您的具体需求调整工作簿。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

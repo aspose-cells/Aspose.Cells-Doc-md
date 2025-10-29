@@ -18,3 +18,4 @@ Le code d'exemple charge le fichier Excel source puis l'envoie à l'imprimante e
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SpecifyJobNameWhilePrinting.py" >}}
+{{< app/cells/assistant language="python-net" >}}

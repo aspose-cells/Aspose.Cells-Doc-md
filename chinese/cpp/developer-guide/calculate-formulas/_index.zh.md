@@ -197,3 +197,4 @@ int main()
 - [使用AbstractCalculationEngine返回一系列值](/cells/zh/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [设置工作簿的公式计算模式](/cells/zh/cpp/setting-formula-calculation-mode-of-workbook/)
 - [在 Aspose.Cells 中使用 FormulaText 函数](/cells/zh/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

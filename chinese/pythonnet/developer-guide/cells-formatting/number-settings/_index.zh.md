@@ -90,3 +90,4 @@ Aspose.Cells for Python via .NET提供一些内置的数字格式，用于配置
 - [为工作簿指定自定义数值小数和分组分隔符](/cells/zh/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [指定DBNum自定义模式格式化](/cells/zh/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

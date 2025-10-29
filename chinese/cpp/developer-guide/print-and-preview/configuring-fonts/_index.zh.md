@@ -143,3 +143,4 @@ int main()
 - [在将电子表格呈现为图像时设置默认字体](/cells/zh/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [设置 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性具有优先级](/cells/zh/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [支持的字体格式](/cells/zh/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

@@ -195,3 +195,4 @@ Aspose.Cells for Python via .NET提供了一组特殊的类，位于 [**Aspose.C
 - [管理Excel图表的标题](/cells/zh/python-net/chart-and-axis-titles/)
 - [图表渲染](/cells/zh/python-net/chart-rendering/)
 - [获取图表趋势线的方程文本](/cells/zh/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Déplacer une plage de cellules dans une feuille de calcul](/cells/fr/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Créer des plages nommées en fonction du classeur et de la feuille de calcul](/cells/fr/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Rechercher et remplacer des données dans une plage](/cells/fr/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

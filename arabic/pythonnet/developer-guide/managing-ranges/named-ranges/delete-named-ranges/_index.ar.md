@@ -21,8 +21,8 @@ keywords: مكتبة بيثون لإكسل، إزالة أسماء محددة م
 6. انقر على الزر "إغلاق" لإغلاق صندوق حوار مدير الأسماء.
 7. احفظ المصنف للحفاظ على التغييرات.
 
-## **حذف نطاقات المسمى باستخدام Aspose.Cells لـ.Net**
-مع Aspose.Cells لبایتون .NET، يمكنك إزالة المجموعات المسماة أو الأسماء المعرفة باستخدام [النص](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) في القائمة.
+## **حذف النطاق المسمي باستخدام Aspose.Cells للبايثون via .NET**
+باستخدام Aspose.Cells للبايثون via .NET، يمكنك إزالة النطاقات المسماة أو الأسماء المعرفة عن طريق [النص](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) في القائمة.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

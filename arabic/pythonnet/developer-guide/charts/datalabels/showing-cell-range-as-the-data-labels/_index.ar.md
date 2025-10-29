@@ -24,3 +24,4 @@ url: /ar/python-net/showing-cell-range-as-the-data-labels/
 الشفرة التالية تصل إلى بيانات تسميات سلسلة الرسم البياني وتحدد الخاصية [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) إلى **true** لتحديد الخيار **التسمية تحتوي - القيمة من الخلايا**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

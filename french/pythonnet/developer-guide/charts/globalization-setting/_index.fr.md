@@ -40,3 +40,4 @@ Les éléments suivants du graphique seront rendus conformément à vos paramèt
 | Autre nom                     | Autre                             |
 | Nom de la série               | Série                            |
 
+{{< app/cells/assistant language="python-net" >}}

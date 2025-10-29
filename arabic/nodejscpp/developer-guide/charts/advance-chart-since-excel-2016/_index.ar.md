@@ -70,3 +70,4 @@ BoxWhisker
 - [إنشاء رسم بياني TreeMap](/cells/ar/nodejs-cpp/creating-treemap-chart/)  
 - [إنشاء رسم بياني Sunburst](/cells/ar/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

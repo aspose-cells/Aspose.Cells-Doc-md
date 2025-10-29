@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET还允许在运行时管理图表的数据标签
 - [图表点的富文本自定义数据标签](/cells/zh/python-net/rich-text-custom-data-label-of-chart-point/)
 - [设置图表数据标签的形状类型](/cells/zh/python-net/set-the-shape-type-of-data-labels-of-chart/)
 - [将单元格范围显示为数据标签](/cells/zh/python-net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="python-net" >}}

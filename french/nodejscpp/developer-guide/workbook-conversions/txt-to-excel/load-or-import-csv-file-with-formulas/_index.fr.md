@@ -58,3 +58,4 @@ Le code charge d'abord le fichier CSV, puis l'importe à nouveau à la cellule D
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

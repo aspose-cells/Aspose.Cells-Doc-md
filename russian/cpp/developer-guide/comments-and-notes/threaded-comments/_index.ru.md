@@ -322,3 +322,4 @@ int main()
 Обратите внимание, что при удалении комментария с помощью Aspose.Cells автор не удаляется автоматически. Если вам нужно также удалить автора, используйте метод RemoveAt класса [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/), как показано в приведенном выше примере.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

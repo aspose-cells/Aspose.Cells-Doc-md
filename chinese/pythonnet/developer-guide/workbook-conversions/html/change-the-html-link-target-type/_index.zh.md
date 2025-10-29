@@ -29,3 +29,4 @@ Aspose.Cells for Python via NET允许您更改HTML链接的目标类型。HTML�
 以下代码说明了[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)属性的用法。它将链接目标类型更改为**BLANK**。默认情况下为**PARENT**。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

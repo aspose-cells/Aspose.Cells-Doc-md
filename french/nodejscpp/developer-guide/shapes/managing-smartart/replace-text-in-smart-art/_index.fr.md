@@ -55,3 +55,4 @@ const outputFilePath = path.join(dataDir, "outputSmartArt.xlsx");
 wb.save(outputFilePath, options);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

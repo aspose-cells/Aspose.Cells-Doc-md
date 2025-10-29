@@ -9,7 +9,7 @@ description: 学习如何使用 Aspose.Cells for Node.js via C++ 导出工作簿
 
 ## **导出链接到工作簿中的 XML 映射的 XML 数据**
 
-请使用[**Workbook.exportXml()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#exportXml-string-)方法导出工作簿内与XML映射相关联的XML数据。以下示例代码逐个导出所有XML映射的XML数据。请查看此代码中使用的[示例Excel文件](5115497.xlsx) 和[第一个XML映射导出的XML数据](5472487.xml)。
+请使用[**Workbook.exportXml()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#exportXml-string-)方法导出工作簿内与XML映射相关联的XML数据。以下示例代码逐个导出所有XML映射的XML数据。请查看此代码中使用的【示例Excel文件】(5115497.xlsx) 和【第一个XML映射导出的XML数据】(5472487.xml)。
 
 ```javascript
 const path = require("path");
@@ -30,3 +30,4 @@ const map = workbook.getWorksheets().getXmlMaps().get(i);
 workbook.exportXml(map.getName(), path.join(dataDir, `${map.getName()}.xml`));
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

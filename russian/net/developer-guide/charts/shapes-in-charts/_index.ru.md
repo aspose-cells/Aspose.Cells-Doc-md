@@ -34,6 +34,14 @@ Aspose.Cells позволяет добавлять и манипулироват
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Примечание:** Этот тип элемента управления меткой поддерживается только в файлах XLS. Если хотите аналогичный эффект в файле XLSX, используйте один из следующих вариантов:
+
+1. Используйте элемент управления TextBox, он является аналогичным метке в файлах XLSX.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) для добавления SheetType.Chart.
+
+2. Добавьте лист, тип листа - "SheetType.Chart", затем добавьте Диаграмму и Элемент управления на этом листе.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) для добавления SheetType.Chart.
+
 ## **Добавление элемента управления текстовым полем в график**
 
 Один из способов выделить важную информацию в отчете – использование текстового поля. Например, введите текст для выделения названия компании или для указания географического региона с наибольшими продажами. Класс [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) предоставляет метод с именем [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), который используется для добавления элемента управления текстовым полем в график. Ниже приведен список параметров, используемых для метода:

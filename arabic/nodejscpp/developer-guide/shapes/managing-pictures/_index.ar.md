@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [إدراج صورة بناءً على مرجع الخلية](/cells/ar/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [تحميل صورة ويب من عنوان URL إلى ورقة عمل Excel](/cells/ar/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

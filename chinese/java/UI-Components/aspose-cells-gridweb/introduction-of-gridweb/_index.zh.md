@@ -6,7 +6,6 @@ url: /zh/java/introduction-of-gridweb/
 ---
 ## **GridWeb基础知识**
 Aspose.Cells.GridWeb是一个基于GUI的Web控件，可以嵌入到JSP Web页面或任何java服务器中的html页面中。 
- 
 
 使用它很简单且易上手。
 
@@ -15,16 +14,15 @@ Aspose.Cells.GridWeb是一个基于GUI的Web控件，可以嵌入到JSP Web页�
 还支持导入和导出所有种类的电子表格格式文件，100%兼容MS Excel文件。
 
 ## **Aspose.Cells.GridWeb - 演示**
- 
 
 为了让您快速上手，我们提供了许多代码示例和演示，展示了如何使用Aspose.Cells.GridWeb API。
 
 请从以下链接下载演示:
-[Aspose.Cells.GridWeb 演示](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
+[Aspose.Cells.GridWeb 演示](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb)
 
 
 ## **如何运行Aspose.Cells for GridWeb Java演示**
-{{% alert color="primary" %}}  
+{{% alert color="primary" %}} 
 
 Aspose.Cells for GridWeb Java演示易于运行。您只需要在您的Web服务器上部署**gridwebdemo.war**。请从此[链接](https://forum.aspose.com/uploads/discourse_instance3/22292)下载演示。
 
@@ -131,7 +129,6 @@ GridWeb 演示页面显示。
 **HeaderBar 和 CommandButton 演示正在运行** 
 
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
-
 
 
 ## **浏览器功能和 Aspose.Cells.GridWeb**

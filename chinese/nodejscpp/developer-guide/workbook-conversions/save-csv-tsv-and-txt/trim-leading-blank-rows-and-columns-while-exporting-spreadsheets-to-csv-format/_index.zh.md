@@ -29,7 +29,7 @@ description: 学习如何在使用 Aspose.Cells for Node.js via C++ 导出 CSV �
 
 ## **导出电子表格到CSV格式时修剪前导空白行和列**
 
-以下示例代码加载了具有两个前导空白列的[源 Excel 文件]（sampleTrimBlankColumns.xlsx）。它首先不做任何更改地将 Excel 文件保存为 CSV 格式，然后将 [**TxtSaveOptions.getTrimLeadingBlankRowAndColumn()**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#getTrimLeadingBlankRowAndColumn--) 属性设置为 **true**，再次保存。屏幕截图显示[源 Excel 文件]（sampleTrimBlankColumns.xlsx）、[不修剪空白列的输出 CSV 文件]（outputWithoutTrimBlankColumns.csv）以及[修剪空白列的输出 CSV 文件]（outputTrimBlankColumns.csv）。
+以下示例代码加载了具有两个前导空白列的【源 Excel 文件】（sampleTrimBlankColumns.xlsx）。它首先不做任何更改地将 Excel 文件保存为 CSV 格式，然后将 [**TxtSaveOptions.getTrimLeadingBlankRowAndColumn()**](https://reference.aspose.com/cells/nodejs-cpp/txtsaveoptions/#getTrimLeadingBlankRowAndColumn--) 属性设置为 **true**，再次保存。屏幕截图显示【源 Excel 文件】（sampleTrimBlankColumns.xlsx）、【不修剪空白列的输出 CSV 文件】（outputWithoutTrimBlankColumns.csv）以及【修剪空白列的输出 CSV 文件】（outputTrimBlankColumns.csv）。
 
 ![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
@@ -55,3 +55,4 @@ opts.setTrimLeadingBlankRowAndColumn(true);
 // Save in csv format
 wb.save(path.join(dataDir, "outputTrimBlankColumns.csv"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

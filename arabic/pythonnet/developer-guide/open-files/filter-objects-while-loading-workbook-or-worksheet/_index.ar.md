@@ -42,3 +42,4 @@ url: /ar/python-net/filter-objects-while-loading-workbook-or-worksheet/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-FilteringObjectsAtLoadTime-FilteringObjects.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

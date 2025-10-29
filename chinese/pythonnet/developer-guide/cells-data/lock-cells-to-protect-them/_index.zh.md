@@ -33,7 +33,7 @@ keywords: 使用Python锁定单元格、保护工作表、单元格保护在Exce
 ## **如何使用Python锁定单元格以保护它们**
 
 Aspose.Cells for Python via .NET 支持通过编程实现单元格保护。请按照以下步骤操作：
-1. 加载[示例文件](sample.xlsx)
+1. 加载【示例文件】(sample.xlsx)
 2. 解锁所有单元格（默认锁定状态在保护之前不会生效）
 3. 锁定特定单元格
 4. 保护工作表以强制执行锁定
@@ -99,3 +99,4 @@ sheet.protect(ProtectionType.ALL)
 # Save the modified workbook
 workbook.save("output_locked.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

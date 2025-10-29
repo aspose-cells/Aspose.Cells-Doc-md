@@ -35,3 +35,4 @@ La déprotection de la structure du classeur est facile avec l'API Aspose.Cells 
 Remarque : un mot de passe correct est requis.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

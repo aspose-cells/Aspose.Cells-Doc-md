@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET提供了在ODS文件中保存数据透视表的
 上述代码生成的输出文件已附上供参考。
 
 [输出ODS文件](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

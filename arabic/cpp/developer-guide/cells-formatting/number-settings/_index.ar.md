@@ -170,3 +170,4 @@ int main()
 - [عرض نمط التاريخ المخصص g وge mm dd](/cells/ar/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [تحديد فواصل العدد العشري المخصصة وفواصل المجموعة لسجل العمل](/cells/ar/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [تحديد تنسيق نمط DBNum المخصص](/cells/ar/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

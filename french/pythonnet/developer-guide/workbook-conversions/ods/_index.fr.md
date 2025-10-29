@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET prend en charge la conversion de fichiers Excel
 ## **Sujets avancés**
 - [Enregistrer un fichier ODS selon les spécifications ODF 1.1 et 1.2.](/cells/fr/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/python-net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="python-net" >}}

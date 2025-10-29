@@ -133,3 +133,4 @@ workbook.save(path.join(dataDir, "outputxls"));
 من الممكن أيضًا استخدام طرق [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) و[**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) من فئة [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) لجعل صفوف وأعمدة متعددة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -71,3 +71,4 @@ workbook.save("chart_legend.xlsx");
 
 ## **Продвинутые темы**
 - [Установите текст заливки записи легенды диаграммы на отсутствие с использованием Aspose.Cells](/cells/ru/nodejs-cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ workbook.save(path.join(dataDir, "AddingCustomPropertiesVisible_out.xlsx"));
 - [在Aspose.Cells中使用自定义XML部分](/cells/zh/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

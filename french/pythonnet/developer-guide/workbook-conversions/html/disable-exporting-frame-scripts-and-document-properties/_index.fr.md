@@ -16,3 +16,4 @@ Aspose.Cells pour Python via .NET exporte les scripts de cadre et les propriét�
 Le code d'exemple suivant vous permet de désactiver l'exportation des scripts de trame et des propriétés du document. Une fois que vous avez converti un classeur en HTML, le fichier de sortie ne contiendra aucun script de trame et aucune propriété du document.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

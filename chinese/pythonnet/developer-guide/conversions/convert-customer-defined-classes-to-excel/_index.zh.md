@@ -21,3 +21,4 @@ keywords: Python 将用户自定义类转换为Excel，在Python中导入用户�
 
 文件TestImportCustomObject.py演示了一个简单示例。用户可以参考此示例或稍作修改以导入自己的数据。
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

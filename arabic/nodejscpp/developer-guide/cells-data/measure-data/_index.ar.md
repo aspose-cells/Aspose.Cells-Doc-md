@@ -24,3 +24,4 @@ keywords: قياس عرض قيمة الخلية بوحدة بكسل باستخد
 ## **مواضيع متقدمة**  
 - [الحصول على عرض النص لقيمة الخلية](/cells/ar/nodejs-cpp/get-text-width-of-cell-value/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

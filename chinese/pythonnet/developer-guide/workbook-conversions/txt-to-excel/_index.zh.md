@@ -43,3 +43,4 @@ keywords: Python 将CSV、TSV和TXT转换为Excel，在Python via NET 中重新�
 - [加载或导入带公式的CSV文件](/cells/zh/python-net/load-or-import-csv-file-with-formulas/)
 - [读取带有多种编码的CSV文件](/cells/zh/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

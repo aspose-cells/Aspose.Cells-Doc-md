@@ -99,3 +99,4 @@ sheet.protect(ProtectionType.ALL)
 # Save the modified workbook
 workbook.save("output_locked.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

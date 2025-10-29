@@ -43,3 +43,4 @@ slicer.addPivotConnection(pivotTable);
 
 workbook.save(path.join(dataDir, "add-pivot-connection-out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -16,3 +16,4 @@ url: /ru/python-net/export-excel-to-html-with-gridlines/
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportToHTMLWithGridLines-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

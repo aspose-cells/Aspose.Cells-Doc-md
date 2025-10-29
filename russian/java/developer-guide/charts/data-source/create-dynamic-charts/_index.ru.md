@@ -17,7 +17,7 @@ url: /ru/java/create-dynamic-charts/
 
 {{% alert color="primary" %}}
 
-Таблицы Excel в перспективе Aspose.Cells называются ListObjects, поэтому мы будем использовать термин "ListObject" вместо "Table" для ясности. Пожалуйста, подробно ознакомьтесь с тем, как [создать ListObjects](/cells/ru/java/creating-a-list-object/) с помощью API Aspose.Cells for .NET.
+Таблицы Excel обозначаются как ListObjects с точки зрения Aspose.Cells, поэтому мы будем использовать термин "ListObject" вместо "Таблица" для ясности. Пожалуйста, ознакомьтесь подробно с тем, как [создать ListObjects](/cells/ru/java/creating-a-list-object/) с помощью API Aspose.Cells for Java.
 
 {{% /alert %}}
 

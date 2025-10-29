@@ -23,3 +23,4 @@ description: Создать всплеск для Excel с помощью Aspose
 ## **Продвинутые темы**
 - [Использование мерных линий и настройка 3D-формата](/cells/ru/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

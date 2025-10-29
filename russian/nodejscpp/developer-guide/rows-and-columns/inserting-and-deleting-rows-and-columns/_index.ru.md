@@ -215,3 +215,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 
 // Closing resources is handled automatically by Node.js, no specific close needed.
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

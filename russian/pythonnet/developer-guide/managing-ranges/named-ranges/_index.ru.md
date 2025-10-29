@@ -33,3 +33,4 @@ Aspose.Cells для Python via .NET предоставляет ту же фун�
 - [Форматирование и изменение именованных диапазонов](/cells/ru/python-net/format-and-modify-named-ranges/)
 - [Получить диапазон с внешними ссылками](/cells/ru/python-net/get-range-with-external-links/)
 - [Реализация не последовательных диапазонов](/cells/ru/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

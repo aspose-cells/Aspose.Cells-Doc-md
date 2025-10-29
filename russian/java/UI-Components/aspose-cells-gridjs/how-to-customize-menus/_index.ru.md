@@ -18,7 +18,7 @@ aliases:
 
 
 
-## настройка менюбаров 
+## Настройка менюбар 
 например: чтобы оставить только меню `Файл`, предполагая, что id div GridJs — "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ aliases:
 ![todo:экран для настройки панели меню](gridjs_customize_menubar.png)
 
 
-## настройка пунктов меню панели 
+## Настройка элементов менюбар 
 например: чтобы оставить только пункт "Скачать как XLSX" в меню "Файл", предполагая, что id div GridJs — "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -73,7 +73,7 @@ aliases:
 
 ![todo:экран для настройки пункта меню](gridjs_customize_menu.png)
 
-## настройка элементов панели инструментов 
+## Настройка элементов панели инструментов 
 например: оставить только кнопку зума, предполагая, что id div GridJs — "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -95,6 +95,84 @@ aliases:
 После вызова этой функции 
 
 ![todo:экран для настройки панели инструментов](gridjs_customize_toolbar.png)
+
+
+## Настройка эффекта наведения на панель инструментов
+
+открыть окно инспекции браузера, выбрать кнопку панели инструментов,
+
+![для выбораInspect кнопки инструментария](gridjs_hover_toolbar_button_inspect.png)
+
+затем мы можем найти связанный css-ключ для этой кнопки:freeze
+
+![todo:экран для поиска css ключа для кнопки панели инструментов](gridjs_hover_toolbar_button_csskey.png)
+
+добавьте следующее правило css:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+результат будет:
+
+![todo:экран для эффекта наведения для кнопки панели инструментов](gridjs_hover_toolbar_button_hover.png)
+
+
+## Настройка элементов нижней панели
+
+### Обзор
+В нижней панели расположены две интерактивные кнопки:
+1. &zwnj;**Добавить кнопку листа**&zwnj; (`add` класс) - Создает новые листы
+2. &zwnj;**Выбрать лист**&zwnj; (`ellipsis` класс) - Управление выбором листа
+
+### Доступ к DOM
+Вы можете получить доступ к этим элементам с помощью:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Примеры настройки
+1. Скрыть кнопки
+Чтобы удалить кнопку из DOM:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Изменить иконки
+Вы можете заменить иконки, используя внешние SVG файлы или встроенные данные SVG.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Изменить поведение кнопки
+Вы можете изменить событие клика для настройки функциональности:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
 
 

@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [设置工作表内表格或列表对象的批注](/cells/zh/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [表格和区域](/cells/zh/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

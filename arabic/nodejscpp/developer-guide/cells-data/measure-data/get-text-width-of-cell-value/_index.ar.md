@@ -18,3 +18,4 @@ keywords: احصل على عرض النص لعقدة قيمة الخلية عب�
 ## كود عينة
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-MeasureData-GetTextWidth.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

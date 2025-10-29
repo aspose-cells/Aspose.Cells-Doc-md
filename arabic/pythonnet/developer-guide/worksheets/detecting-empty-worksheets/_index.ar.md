@@ -28,3 +28,4 @@ keywords: مكتبة Excel في بايثون، اكتشاف ورقة عمل فا
 ## **نموذج برمجة**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-DetectEmptyWorksheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -4,7 +4,7 @@ linktitle: Signature
 type: docs
 weight: 100
 url: /fr/java/assign-and-validate-digital-signatures/
-description: Signature numérique de fichier Excel, vérification. Pour protéger l authenticité du contenu d un classeur Excel, vous pouvez ajouter une signature numérique en utilisant des codes C# avec Aspose.Cells pour .Net.
+description: Signature numérique d un fichier Excel, vérification. Pour protéger l authenticité du contenu d’un classeur Excel, vous pouvez ajouter une signature numérique en utilisant des codes Java avec Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

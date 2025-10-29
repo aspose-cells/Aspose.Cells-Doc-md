@@ -31,3 +31,4 @@ Aspose.Cells for C++提供广泛的文件到数据级别的保护与解除保护
 - [检测加密的 Office Open XML - OOXML 文件的文件格式](/cells/zh/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [加密 Excel 文件](/cells/zh/cpp/encrypting-excel-files/)
 - [如何检测文件格式并检查文件是否加密](/cells/zh/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

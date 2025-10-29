@@ -49,3 +49,4 @@ Aspose.Cells允许您关闭创建计算链，这在您只想计算公式一次�
 **示例代码**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

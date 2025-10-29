@@ -1,7 +1,7 @@
 ---
 title: الجداول
 type: docs
-weight: 60
+weight: 130
 url: /ar/python-java/tables/
 ---
 

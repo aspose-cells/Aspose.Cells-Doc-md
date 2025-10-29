@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET fournit la méthode [**Worksheet.page_setup.get
 Le code suivant montre comment analyser l'en-tête ou le pied de page en tant que liste de commandes et traiter les commandes :
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

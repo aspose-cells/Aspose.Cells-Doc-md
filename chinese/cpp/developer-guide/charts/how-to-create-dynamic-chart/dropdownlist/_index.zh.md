@@ -116,3 +116,4 @@ int main()
 ```
 
 您可以尝试更改单元格“Sheet1!$ A $ 10”中的下拉列表值，您将看到图表的动态变化。现在，我们已成功使用Aspose.Cells创建了具有下拉列表的动态图表。
+{{< app/cells/assistant language="cpp" >}}

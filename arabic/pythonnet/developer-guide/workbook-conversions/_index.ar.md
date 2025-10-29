@@ -135,3 +135,4 @@ keywords: تحويل مصنف Excel إلى PDF بلغة Python، تحويل مص
 - [Json](/cells/ar/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/ar/python-net/convert-excel-to-pdf/)
 - [تحويل CSV، TSV و TXT إلى Excel](/cells/ar/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

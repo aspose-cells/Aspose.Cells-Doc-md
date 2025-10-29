@@ -19,3 +19,4 @@ keywords: الحصول على عقد تحقق من صحة الخلية عبر No
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

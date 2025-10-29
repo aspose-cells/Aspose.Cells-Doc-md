@@ -81,3 +81,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Использование мерных линий и настройка 3D-формата](/cells/ru/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

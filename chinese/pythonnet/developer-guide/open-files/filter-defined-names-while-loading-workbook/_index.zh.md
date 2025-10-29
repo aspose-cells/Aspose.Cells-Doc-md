@@ -19,3 +19,4 @@ Aspose.Cells for Python via .NET 允许你过滤或删除工作簿内的定义�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-FilterDefinedNamesWhileLoadingWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

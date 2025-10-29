@@ -70,3 +70,4 @@ def test_calc_time_recursive(rec):
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

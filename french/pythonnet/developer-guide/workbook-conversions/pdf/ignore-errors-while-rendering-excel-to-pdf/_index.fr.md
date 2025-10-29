@@ -20,3 +20,4 @@ Le code suivant charge le fichier Excel d'exemple mais le fichier Excel d'exempl
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

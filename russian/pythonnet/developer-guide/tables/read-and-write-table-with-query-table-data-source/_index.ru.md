@@ -16,3 +16,4 @@ url: /ru/python-net/read-and-write-table-with-query-table-data-source/
 
 [Выходной файл](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

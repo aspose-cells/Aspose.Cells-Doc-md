@@ -42,3 +42,4 @@ La classe `Aspose.Cells.Rendering.IImageOrPrintOptions` spécifie que la feuille
 Veuillez consulter le code d'exemple suivant, son [fichier Excel d'exemple](67338402.xlsx) et les [images SVG de sortie](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

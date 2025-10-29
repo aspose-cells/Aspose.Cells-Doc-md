@@ -19,9 +19,9 @@ Aspose.Cells提供设置数据透视字段显示格式的能力。API提供了 [
 
 可从此处下载示例源文件和输出文件以测试示例代码:
 
-[源 Excel 文件]（101089332.xlsx）
+【源 Excel 文件】（101089332.xlsx）
 
-[输出 Excel 文件]（101089333.xlsx）
+【输出 Excel 文件】（101089333.xlsx）
 
 ```cpp
 #include <iostream>
@@ -68,3 +68,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

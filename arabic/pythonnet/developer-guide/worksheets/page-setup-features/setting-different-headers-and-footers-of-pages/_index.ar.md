@@ -29,3 +29,4 @@ keywords: مكتبة إكسل بلغة بايثون، تعيين رأس وتذي
 1. أدخل رؤوس وأسافل مختلفة.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

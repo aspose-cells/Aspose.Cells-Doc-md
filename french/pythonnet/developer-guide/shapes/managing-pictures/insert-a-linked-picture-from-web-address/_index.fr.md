@@ -25,3 +25,4 @@ Aspose.Cells pour Python via .NET permet d'ajouter une image liée à l’aide d
 L'exemple suivant montre comment ajouter une image liée à partir de l'adresse Web à une feuille de calcul.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

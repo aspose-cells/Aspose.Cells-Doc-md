@@ -16,3 +16,4 @@ url: /ar/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-cha
 يقوم الكود التالي بإنشاء **رسم بياني مبعثر متصل بخطوط تحمل علامات البيانات** ومن ثم يضيف **تسميات مخصصة** لـ **نقاط البيانات** في **السلسلة** من **الرسم البياني**. تعرض كل تسمية مخصصة **اسم السلسلة** و **اسم النقطة**. يمكنك استخدام أي نص آخر بدلاً من ذلك.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -77,3 +77,4 @@ keywords: Python 将 Excel 图表转换为图像，在 Python 中导出 Excel �
 1. 动态将图表转换为图像。 以下是组件用于完成任务的代码。 该代码与先前的代码类似。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

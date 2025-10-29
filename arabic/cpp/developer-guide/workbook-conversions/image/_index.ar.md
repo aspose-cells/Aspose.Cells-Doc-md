@@ -159,3 +159,4 @@ int main()
 - [تحويل مخطط إلى صورة بتنسيق SVG](/cells/ar/cpp/converting-chart-to-image-in-svg-format/)
 - [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/cpp/export-chart-to-svg-with-viewbox-attribute/)
 - [تتبع تقدّم تحويل Excel إلى TIFF](/cells/ar/cpp/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="cpp" >}}

@@ -308,3 +308,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [تنسيق البيانات في الرسوم البيانية](/cells/ar/nodejs-cpp/data-formatting-in-charts/)
 - [ضبط مظهر الرسم البياني](/cells/ar/nodejs-cpp/setting-chart-appearance/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -281,3 +281,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Добавить водяной знак WordArt на диаграмму](/cells/ru/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

@@ -113,3 +113,4 @@ Supprimer les volets fractionnés en utilisant la méthode [**remove_split**](ht
 - [Afficher les formules au lieu des valeurs dans une feuille de calcul](/cells/fr/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utiliser les options de vérification des erreurs](/cells/fr/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

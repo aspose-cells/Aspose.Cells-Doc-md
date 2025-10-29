@@ -18,7 +18,7 @@ nous ne fournissons pas d'API utiles directement.
 
 
 
-## personnaliser la barre de menu 
+## Personnaliser la barre de menus 
 par exemple : pour ne garder que le menu Fichier, supposez que l'ID du div de GridJs est "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ Après avoir appelé cette fonction
 ![à faire : l'écran pour personnaliser la barre de menu](gridjs_customize_menubar.png)
 
 
-## personnaliser les éléments dans la barre de menu 
+## Personnaliser les éléments du menu 
 par exemple : pour ne garder que l'option "Télécharger en XLSX" dans le menu Fichier, supposez que l'ID du div de GridJs est "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -73,7 +73,7 @@ Après avoir appelé cette fonction
 
 ![à faire : l'écran pour personnaliser l'élément de la barre de menu](gridjs_customize_menu.png)
 
-## personnaliser les éléments de la barre d'outils 
+## Personnaliser les éléments de la barre d'outils 
 par exemple : pour ne garder que le bouton de zoom, supposez que l'ID du div de GridJs est "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -95,6 +95,84 @@ par exemple : pour ne garder que le bouton de zoom, supposez que l'ID du div de 
 Après avoir appelé cette fonction 
 
 ![à faire : l'écran pour personnaliser la barre d'outils](gridjs_customize_toolbar.png)
+
+
+## Personnaliser l'effet de survol de la barre d'outils
+
+ouvrir la fenêtre d'inspection du navigateur, sélectionner le bouton de la barre d'outils,
+
+![todo:l'écran pour sélectionner le bouton d'inspection de la barre d'outils](gridjs_hover_toolbar_button_inspect.png)
+
+puis nous pouvons trouver la clé CSS correspondante pour ce bouton :geler
+
+![todo:l'écran pour trouver la clé CSS du bouton de la barre d'outils](gridjs_hover_toolbar_button_csskey.png)
+
+ajoutez la règle CSS suivante :
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+le résultat sera :
+
+![todo:l'écran pour l'effet de survol du bouton de la barre d'outils](gridjs_hover_toolbar_button_hover.png)
+
+
+## Personnaliser les éléments de la barre inférieure
+
+### Aperçu
+La barre inférieure contient deux boutons interactifs :
+1. &zwnj;**Bouton Ajouter une Feuille**&zwnj; (`add` classe) - Crée de nouvelles feuilles de calcul
+2. &zwnj;**Bouton Sélectionner une Feuille**&zwnj; (`ellipsis` classe) - Gère la sélection des feuilles de calcul
+
+### Accès DOM
+Vous pouvez accéder à ces éléments en utilisant :
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Exemples de personnalisation
+1. Masquer les boutons
+Pour retirer un bouton du DOM :
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Modifier les icônes
+Vous pouvez remplacer les icônes en utilisant soit des fichiers SVG externes, soit des données SVG en ligne.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Modifier le comportement du bouton
+Vous pouvez modifier l'événement clic pour personnaliser la fonctionnalité :
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
 
 

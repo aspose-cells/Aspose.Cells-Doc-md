@@ -48,3 +48,4 @@ Aspose.Cells — мощная библиотека для программной
 <img src="3.png" width=60% />
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

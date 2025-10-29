@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **Заключение**
 Aspose.Cells for C++ предоставляет полный набор инструментов для управления текстовыми опциями фигур в файлах Excel. Используя класс [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/), вы легко настраиваете выравнивание, ориентацию и форматирование текста под свои требования.
+{{< app/cells/assistant language="cpp" >}}

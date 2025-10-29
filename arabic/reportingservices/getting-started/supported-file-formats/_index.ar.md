@@ -20,7 +20,7 @@ url: /ar/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|يحفظ المستند في تنسيق ODS (جدول بيانات OpenDocument).| | {{< emoticons/tick >}} |
 |SpreadsheetML|يحفظ المستند في ملف Excel 2003 XML.| | {{< emoticons/tick >}} |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|يحفظ المستند في ملف XPS| | {{< emoticons/tick >}} |
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|يمثل مستند تنسيق بتنسيق التسويق.|{{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|يمثل مستند مارك داون.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|يحفظ المستند في ملف EMF| | {{< emoticons/tick >}} |
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|يحفظ المستند في ملف DIF| | {{< emoticons/tick >}} |
 |[JPG](https://docs.fileformat.com/image/jpeg/)|يحفظ المستند في ملف JPG| | {{< emoticons/tick >}} |

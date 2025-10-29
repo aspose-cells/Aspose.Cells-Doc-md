@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 إذا كان جدول البيانات الخاص بك يحتوي على صيغ، من الأفضل استدعاء طريقة `Workbook.CalculateFormula` قبل عرض الجدول بصيغة PDF. القيام بذلك سيضمن إعادة حساب القيم المعتمدة على الصيغة، ويتم عرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

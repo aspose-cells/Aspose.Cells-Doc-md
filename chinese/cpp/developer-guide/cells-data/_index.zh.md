@@ -178,3 +178,4 @@ int main()
 - [首先按行，然后按列填充数据](/cells/zh/cpp/populate-data-first-by-row-then-by-column/)
 - [保留单引号前缀的单元格值或范围](/cells/zh/cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [访问和更新单元格的富文本部分](/cells/zh/cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="cpp" >}}

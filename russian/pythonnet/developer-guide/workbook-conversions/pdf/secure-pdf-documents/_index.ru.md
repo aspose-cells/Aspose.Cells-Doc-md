@@ -33,3 +33,4 @@ Aspose.Cells для Python via .NET предоставляет [**PdfSecurityOpt
 Если электронная таблица содержит формулы, лучше всего вызвать [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) прямо перед преобразованием ее в PDF. Это гарантирует, что значения, зависящие от формул, пересчитываются верно и отображаются правильные значения в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -67,3 +67,4 @@ Il est également possible de verrouiller les cellules en utilisant l'API Aspose
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-LockCell-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

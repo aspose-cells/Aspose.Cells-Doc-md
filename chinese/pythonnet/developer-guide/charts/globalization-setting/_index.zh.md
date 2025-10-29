@@ -40,3 +40,4 @@ keywords: Aspose.Cells for Python via .NET、图表、全球化设置、多语�
 | 其他名称 | 其他 |
 | 系列名称 | 系列 |
 
+{{< app/cells/assistant language="python-net" >}}

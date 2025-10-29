@@ -42,3 +42,4 @@ Si votre feuille contient des formules, il est préférable d'appeler [Workbook.
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

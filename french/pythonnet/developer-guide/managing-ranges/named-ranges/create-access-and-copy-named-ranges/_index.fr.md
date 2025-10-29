@@ -107,3 +107,4 @@ Aspose.Cells pour Python via .NET fournit une [**Range.copy()**](https://referen
 L'exemple suivant montre comment copier une plage source de cellules dans une autre plage nommée.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

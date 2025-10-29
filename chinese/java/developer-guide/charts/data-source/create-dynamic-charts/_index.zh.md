@@ -17,7 +17,7 @@ url: /zh/java/create-dynamic-charts/
 
 {{% alert color="primary" %}}
 
-在Aspose.Cells的视角中，Excel表被称为ListObjects，因此我们将使用"ListObject"一词以明确。请详细阅读如何使用Aspose.Cells for .NET API[创建ListObjects](/cells/zh/java/creating-a-list-object/)。
+在Aspose.Cells中，Excel表格被称为ListObjects，为了清晰起见，我们将使用“ListObject”一词代替“表”。请详细阅读如何用Aspose.Cells for Java API[创建ListObjects](/cells/zh/java/creating-a-list-object/)。
 
 {{% /alert %}}
 

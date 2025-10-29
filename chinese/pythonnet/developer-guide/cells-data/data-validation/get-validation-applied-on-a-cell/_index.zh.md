@@ -24,3 +24,4 @@ keywords: Python Excel 库，使用 Python 在 Excel 中应用单元格验证，
 ## 相关文章
 
 - [数据有效性](/cells/zh/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

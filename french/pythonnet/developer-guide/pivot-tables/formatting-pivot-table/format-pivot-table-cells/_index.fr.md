@@ -22,3 +22,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](pivot_format.xlsx)
 
 - [Formatage du tableau croisé dynamique](/cells/fr/python-net/formatting-pivot-table/)
 - [Travailler avec les formats d'affichage des données de DataField dans le tableau croisé dynamique](/cells/fr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

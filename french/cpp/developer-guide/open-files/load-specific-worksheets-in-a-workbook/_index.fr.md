@@ -83,3 +83,4 @@ public:
     }
 };
 ```
+{{< app/cells/assistant language="cpp" >}}

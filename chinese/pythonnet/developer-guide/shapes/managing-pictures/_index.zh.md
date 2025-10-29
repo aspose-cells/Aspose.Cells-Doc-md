@@ -53,3 +53,4 @@ Aspose.Cells for Python via .NET 允许你在图形形状中显示工作表单�
 - [基于单元格引用插入图片](/cells/zh/python-net/insert-a-picture-based-on-cell-reference/)
 - [从URL中加载Web图像到Excel工作表](/cells/zh/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -163,3 +163,4 @@ workbook.calculateFormula();
 - [إرجاع مجموعة من القيم باستخدام AbstractCalculationEngine](/cells/ar/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [ضبط وضع حساب الصيغة في سجل العمل](/cells/ar/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [استخدام وظيفة FormulaText في Aspose.Cells](/cells/ar/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

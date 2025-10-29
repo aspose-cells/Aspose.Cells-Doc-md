@@ -82,3 +82,4 @@ console.error(`Test failed: ${error.message}`);
 throw error;
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

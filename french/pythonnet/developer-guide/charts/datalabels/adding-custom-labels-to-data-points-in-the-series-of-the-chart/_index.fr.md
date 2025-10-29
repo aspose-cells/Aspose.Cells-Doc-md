@@ -16,3 +16,4 @@ Vous pouvez ajouter des étiquettes personnalisées aux points de données dans 
 Le code suivant crée un **graphique de dispersion relié par des lignes avec des marqueurs de données** puis ajoute des **étiquettes personnalisées** aux **points de données** de la **série** du **graphique**. Chaque étiquette personnalisée affiche le **nom de la série** et le **nom du point**. Vous pouvez utiliser tout autre texte à la place.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

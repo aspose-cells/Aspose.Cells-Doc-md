@@ -106,3 +106,4 @@ int main()
 
 - [إنشاء الرسوم البيانية](/cells/ar/cpp/creating-charts/)
 - [تخصيص المخططات](/cells/ar/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

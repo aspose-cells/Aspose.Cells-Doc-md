@@ -4,8 +4,8 @@ linktitle: Valeur de chaîne HTML
 type: docs
 weight: 50
 url: /fr/net/adding-html-rich-text-inside-the-cell/
-description: Apprenez comment ajouter du texte enrichi HTML dans la cellule via l API Aspose.Cells for .NET.
-keywords: Ajouter du texte enrichi HTML dans la cellule, Définir du texte enrichi HTML dans la cellule, Ajouter du texte enrichi HTML dans la cellule
+description: Apprenez comment ajouter du texte enrichi HTML à l intérieur de la cellule et plusieurs styles dans une même cellule via l API Aspose.Cells for .NET.
+keywords: Ajouter du texte enrichi HTML dans la cellule, définir du texte enrichi HTML dans la cellule, plusieurs styles dans une seule cellule, ajouter du texte enrichi HTML dans la cellule
 ---
 
 {{% alert color="primary" %}}

@@ -32,3 +32,4 @@ url: /ar/python-net/create-dynamic-scrolling-chart/
 ```
 
 يمكنك تجربة تغيير الرقم "10" إلى "15" في الخلية "Sheet1!$H$20"، وسيساعد الرسم البياني الديناميكي على حساب أحدث 15 مجموعة من البيانات. الآن لقد أنشأنا رسم بياني للقوائم القابلة للتمرير الديناميكي باستخدام Aspose.Cells لبایتون via .NET بنجاح.
+{{< app/cells/assistant language="python-net" >}}

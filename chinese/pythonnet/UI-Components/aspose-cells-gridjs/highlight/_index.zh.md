@@ -263,4 +263,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-您可以在我们的 GitHub 演示页面找到更多 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+你可以在我们的 GitHub 演示页面找到更多 https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/blob/main/Examples.GridJs/templates/index.html

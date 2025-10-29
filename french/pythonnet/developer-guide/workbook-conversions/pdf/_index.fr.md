@@ -143,3 +143,4 @@ Si votre feuille de calcul contient des formules, il est préférable d'appeler 
 - [Enregistrer des feuilles de calcul spécifiées au format PDF](/cells/fr/python-net/save-specified-worksheets-to-pdf/)
 - [Sécuriser les documents PDF](/cells/fr/python-net/secure-pdf-documents/)
 - [Spécifiez comment croiser la chaîne dans le PDF de sortie et l'image](/cells/fr/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

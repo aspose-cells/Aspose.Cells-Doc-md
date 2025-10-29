@@ -41,7 +41,7 @@ docker build -t python_test .
 docker run python_test 
 {{< /highlight >}}
 
-- Remarque :
+## Remarque :
 
 Pour prendre en charge l'ouverture de fichiers Excel contenant diverses langues, nous devons installer ICU. Étant donné que le wrapper Python via .NET est basé sur .NET Core 3.1, et que .NET Core 3.1 a des exigences spécifiques de versions pour ICU, qui ne doivent pas dépasser la version 70, nous devons installer une version spécifique d'ICU.
 
@@ -49,3 +49,4 @@ Pour prendre en charge l'ouverture de fichiers Excel contenant diverses langues,
 ## Voir aussi
 
 - [Installer Docker Desktop sur Windows](https://docs.docker.com/docker-for-windows/install/)
+{{< app/cells/assistant language="python-net" >}}

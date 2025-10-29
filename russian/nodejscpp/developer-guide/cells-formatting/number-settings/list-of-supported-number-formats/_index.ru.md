@@ -192,3 +192,4 @@ Aspose.Cells.GridWeb также поддерживает 59 типов форм�
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss | 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

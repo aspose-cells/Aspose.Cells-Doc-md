@@ -21,3 +21,4 @@ Le fichier ImportCustomObject.py définit les informations de la classe à impor
 
 Le fichier TestImportCustomObject.py illustre un cas d'utilisation simple. Les utilisateurs peuvent se référer à cet exemple ou effectuer de légères modifications pour importer leurs propres données.
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

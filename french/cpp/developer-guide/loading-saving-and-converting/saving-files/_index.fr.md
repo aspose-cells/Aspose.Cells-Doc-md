@@ -32,3 +32,4 @@ Pour enregistrer le contenu souhaité dans un fichier PDF en utilisant la biblio
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

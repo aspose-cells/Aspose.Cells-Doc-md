@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [查找 XML 映射的根元素名称](/cells/zh/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [将单元格链接到 XML 地图元素](/cells/zh/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

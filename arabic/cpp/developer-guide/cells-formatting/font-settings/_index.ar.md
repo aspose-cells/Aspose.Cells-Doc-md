@@ -415,3 +415,4 @@ int main()
 ## **مواضيع متقدمة**
 - [تطبيق تأثيرات الرمز العلوي والرمز السفلي على الخطوط](/cells/ar/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [الحصول على قائمة الخطوط المستخدمة في جدول بيانات أو كتاب عمل](/cells/ar/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

@@ -56,3 +56,4 @@ console.log("StartRow: " + referredArea.getStartRow());
 console.log("EndColumn: " + referredArea.getEndColumn());
 console.log("EndRow: " + referredArea.getEndRow());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ console.log(e.message);
 Если таблица содержит формулы, лучше всего вызвать метод [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) прямо перед преобразованием в PDF. Это обеспечивает пересчет зависимых от формул значений и правильное отображение значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

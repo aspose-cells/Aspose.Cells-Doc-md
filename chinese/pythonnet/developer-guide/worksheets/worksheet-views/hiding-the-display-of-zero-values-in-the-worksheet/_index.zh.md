@@ -26,3 +26,4 @@ keywords: Python Excel 库，Python 隐藏 Excel 工作表中的零值，Python 
 请参见下面的示例代码，演示如何使用 Aspose.Cells for Python via .NET 来隐藏零值。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

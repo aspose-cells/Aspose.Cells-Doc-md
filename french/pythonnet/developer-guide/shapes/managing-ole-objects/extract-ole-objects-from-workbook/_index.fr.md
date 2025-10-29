@@ -31,3 +31,4 @@ Ensuite, extrayez les objets OLE et enregistrez-les sur le disque dur avec leurs
 Le code ci-dessous fait le travail effectif de trouver et d'extraire des objets OLE. Les objets OLE (fichiers DOC, XLS et PDF) sont enregistrés sur le disque.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

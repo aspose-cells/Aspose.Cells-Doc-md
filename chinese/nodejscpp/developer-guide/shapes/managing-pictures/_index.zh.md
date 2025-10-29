@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [基于单元格引用插入图片](/cells/zh/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [从URL中加载Web图像到Excel工作表](/cells/zh/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

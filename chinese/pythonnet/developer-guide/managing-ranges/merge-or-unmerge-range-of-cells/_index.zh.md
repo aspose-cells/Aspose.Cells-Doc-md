@@ -17,3 +17,4 @@ keywords: Python Excel库，Python合并和拆分单元格，Python合并和拆�
 以下示例代码首先创建范围 - A1:D4 - 然后使用 [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) 方法将范围中的单元格合并为单个单元格。类似地，您可以通过创建范围并调用 [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#) 方法来拆分单元格。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

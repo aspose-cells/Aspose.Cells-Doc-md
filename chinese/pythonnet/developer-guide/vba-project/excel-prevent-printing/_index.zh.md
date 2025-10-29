@@ -35,3 +35,4 @@ keywords: excel打印、防止excel打印、如何防止用户打印excel、exce
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-Prevent-printing-excel.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

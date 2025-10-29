@@ -19,7 +19,7 @@ keywords: 如何控制工作簿视图，设置Excel视图，操作工作簿视�
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **使用Aspose.Cells for .NET了解如何控制工作簿视图。**
+## **如何使用 Aspose.Cells for Python via .NET 控制工作簿视图**
 此示例演示如何：
 
 1. 创建一个工作簿。
@@ -33,3 +33,4 @@ keywords: 如何控制工作簿视图，设置Excel视图，操作工作簿视�
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

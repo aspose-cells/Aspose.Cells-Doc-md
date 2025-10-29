@@ -63,3 +63,4 @@ book.save(path.join(dataDir, "output.xlsx"));
 
 ## **Sujets avancés**
 - [Utiliser les sparklines et les paramètres de format 3D](/cells/fr/nodejs-cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

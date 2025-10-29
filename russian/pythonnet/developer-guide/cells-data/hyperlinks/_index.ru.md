@@ -67,3 +67,4 @@ Aspose.Cells для Python via .NET предоставляет класс [Workb
 - [Редактирование гиперссылок в рабочем листе](/cells/ru/python-net/editing-hyperlinks-of-worksheet/)
 - [Получение гиперссылок в диапазоне](/cells/ru/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

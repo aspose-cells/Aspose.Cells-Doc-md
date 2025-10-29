@@ -40,3 +40,4 @@ Il est simple de geler la ou les lignes avec Aspose.Cells pour Python via .NET. 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 Fichier Excel source d'exemple joint [échantillon](../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

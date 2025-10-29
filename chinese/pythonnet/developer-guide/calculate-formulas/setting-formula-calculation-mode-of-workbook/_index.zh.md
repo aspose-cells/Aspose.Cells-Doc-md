@@ -66,3 +66,4 @@ workbook.settings.formula_settings.calculation_mode = CalcModeType.MANUAL
 output_path = os.path.join(data_dir, "output_out.xlsx")
 workbook.save(output_path, SaveFormat.XLSX)
 ```
+{{< app/cells/assistant language="python-net" >}}

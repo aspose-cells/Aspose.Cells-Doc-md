@@ -96,3 +96,4 @@ int main()
 ## **Sujets avancés**
 - [Combiner plusieurs feuilles de calcul en une seule feuille](/cells/fr/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionner des fichiers](/cells/fr/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

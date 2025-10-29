@@ -53,3 +53,4 @@ Aspose.Cells предоставляет метод [**Range.intersect**](https:/
 Aspose.Cells предоставляет метод [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) для объединения ячеек в диапазоне. В следующем примере показано, как объединить отдельные ячейки именованного диапазона.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

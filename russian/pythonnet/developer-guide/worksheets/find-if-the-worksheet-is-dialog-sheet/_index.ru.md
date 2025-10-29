@@ -30,3 +30,4 @@ keywords: Библиотека Python для Excel, диалог выбора л
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

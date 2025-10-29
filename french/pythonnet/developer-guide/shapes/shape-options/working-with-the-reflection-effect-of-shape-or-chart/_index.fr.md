@@ -23,3 +23,4 @@ Le code d'exemple suivant charge le [fichier excel source](5115424.xlsx) et acc√
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-ReflactionEffectOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

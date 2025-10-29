@@ -17,3 +17,4 @@ url: /ar/python-net/export-vba-certificate-to-file-or-stream/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ExportVBACertificateToFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

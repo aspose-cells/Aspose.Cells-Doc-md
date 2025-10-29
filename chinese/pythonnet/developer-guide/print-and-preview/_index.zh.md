@@ -58,3 +58,4 @@ Worksheet page count: 1
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

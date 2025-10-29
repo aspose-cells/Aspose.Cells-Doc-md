@@ -17,3 +17,4 @@ Aspose.Cells提供了使用[**WorksheetCollection.create_union_range**](https://
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CreateUnionRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

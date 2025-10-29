@@ -40,3 +40,4 @@ Aspose.Cells для Python via .NET содержит различные спос
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Вот [исходный файл Excel](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

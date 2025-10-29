@@ -92,3 +92,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ## **高级主题**
 - [从ODS文件中读取图表副标题](/cells/zh/nodejs-cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

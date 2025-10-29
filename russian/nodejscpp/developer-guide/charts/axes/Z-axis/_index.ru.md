@@ -52,3 +52,4 @@ chart.getValueAxis().setIsVisible(false);
 // Save the file
 workbook.save("ZAxis.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

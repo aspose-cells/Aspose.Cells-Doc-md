@@ -87,3 +87,4 @@ workbook = Workbook("input.html", load_options)
 # Save the workbook with preserved layout
 workbook.save("output.xlsx", SaveFormat.XLSX)
 ```
+{{< app/cells/assistant language="python-net" >}}

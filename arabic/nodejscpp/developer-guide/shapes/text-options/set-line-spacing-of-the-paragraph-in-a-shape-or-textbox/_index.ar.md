@@ -54,3 +54,4 @@ p.setSpaceBefore(10);
 wb.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

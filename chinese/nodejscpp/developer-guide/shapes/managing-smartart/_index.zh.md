@@ -9,3 +9,4 @@ keywords: 通过 C++ 管理Smart Art Node.js，Aspose.Cells Smart Art用 C++ 管
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

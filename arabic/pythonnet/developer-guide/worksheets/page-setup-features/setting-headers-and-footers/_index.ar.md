@@ -58,3 +58,4 @@ keywords: مكتبة Excel للبايثون، إدراج صورة في رأس أ
 1. حدد علامة التبويب **رأس / تذييل**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

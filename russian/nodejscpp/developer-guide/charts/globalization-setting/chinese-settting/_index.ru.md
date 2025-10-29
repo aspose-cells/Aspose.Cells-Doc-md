@@ -110,3 +110,4 @@ chart0.toImage("Output.png");
 |Другое имя|其他|Другое|  
 |Имя серии|系列|Серия|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ workbook.save("Unfrozen.xlsx");
 ```
 
 Прикреплен [образец исходного файла Excel](Frozen.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

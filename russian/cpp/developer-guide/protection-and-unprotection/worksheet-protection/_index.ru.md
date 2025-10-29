@@ -90,3 +90,4 @@ int main()
 - [Защита листов](/cells/ru/cpp/protecting-worksheets/)
 - [Снятие защиты с листа](/cells/ru/cpp/unprotect-a-worksheet/)
 - [Проверить Пароль, Используемый для Защиты Листа](/cells/ru/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

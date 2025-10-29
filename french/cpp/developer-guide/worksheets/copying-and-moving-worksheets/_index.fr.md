@@ -30,3 +30,4 @@ Aspose.Cells fournit une méthode surchargée [AddCopy()](https://reference.aspo
 Aspose.Cells fournit une méthode [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) qui est utilisée pour déplacer une feuille de calcul vers un autre emplacement dans la même feuille de calcul. La méthode prend l'index de la feuille de calcul cible comme paramètre. L'exemple suivant montre comment déplacer une feuille de calcul vers un autre emplacement au sein du classeur.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET API支持将电子表格转换为JSON格式。�
 - [将Excel转换为JSON](/cells/zh/python-net/convert-excel-to-json/)
 - [将JSON转换为CSV](/cells/zh/python-net/convert-json-to-csv/)
 - [将JSON转换为Excel](/cells/zh/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

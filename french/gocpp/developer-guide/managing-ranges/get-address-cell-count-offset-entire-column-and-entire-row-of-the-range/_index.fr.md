@@ -1,0 +1,59 @@
+---
+title: Obtenir l adresse, le nombre de cellules, le décalage, la colonne entière et la ligne entière de la plage avec Golang via C++
+linktitle: Obtenir l adresse, le nombre de cellules, le décalage, la colonne entière et la ligne entière de la plage
+type: docs
+weight: 330
+url: /fr/go-cpp/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
+description: Apprenez comment obtenir l adresse, le nombre de cellules, le décalage, la colonne entière et la ligne entière d une plage en utilisant Aspose.Cells for C++.
+---
+
+## **Scénarios d'utilisation possibles**
+Aspose.Cells fournit l'objet `Range`, qui possède diverses méthodes utilitaires facilitant le travail avec les plages Excel. Cet article illustre l'utilisation des méthodes ou propriétés suivantes de l'objet `Range` :
+
+- **Adresse**
+
+  Obtient l'adresse de la plage.
+
+- **Nombre de cellules**
+
+  Obtient le nombre total de cellules dans la plage.
+
+- **Décalage**
+
+  Obtient une plage par décalage.
+
+- **Colonne entière**
+
+  Obtient un objet `Range` qui représente la colonne entière (ou les colonnes) contenant la plage spécifiée.
+
+- **Ligne entière**
+
+  Obtient un objet `Range` qui représente la ligne entière (ou les lignes) contenant la plage spécifiée.
+
+## **Obtenir l'adresse, le nombre de cellules, le décalage, la colonne entière et la ligne entière de la plage**
+Le code d'exemple suivant explique l'utilisation des méthodes et propriétés évoquées ci-dessus. Veuillez voir la sortie de la console du code ci-dessous pour référence.
+
+## **Code d'exemple**
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.go" >}}
+## **Sortie console**
+{{< highlight java >}}
+
+Creating Range A1:B3
+
+Range Address: A1:B3
+
+Cell Count: 6
+
+\----------------------
+
+Creating Range A1
+
+Offset: C3
+
+Entire Column: A:A
+
+Entire Row: 1:1
+
+\----------------------
+
+{{< /highlight >}}

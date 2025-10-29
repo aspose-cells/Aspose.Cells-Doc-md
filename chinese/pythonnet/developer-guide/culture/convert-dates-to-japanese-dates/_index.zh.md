@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 注意：确保环境中启用了日语支持以获得准确的年代转换。[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) 类和 [PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) 提供了此转换所需的功能。
+{{< app/cells/assistant language="python-net" >}}

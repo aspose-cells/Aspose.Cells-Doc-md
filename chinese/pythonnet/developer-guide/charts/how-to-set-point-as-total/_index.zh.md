@@ -69,7 +69,7 @@ chart.n_series[0].layout_properties.subtotals = [0, 4, 8, 12]
 wb.save(os.path.join(file_path, "output.xlsx"))
 ```
 
-已修正的[输出文件](output.xlsx) 现已正确配置总分数：
+已修正的【输出文件】(output.xlsx) 现已正确配置总分数：
 
 ![todo:image_alt_text](set-as-total2.png)
 
@@ -80,3 +80,4 @@ wb.save(os.path.join(file_path, "output.xlsx"))
 - 处理图表类型验证
 
 查看 [ChartPoint 文档](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) 获取高级配置选项。
+{{< app/cells/assistant language="python-net" >}}

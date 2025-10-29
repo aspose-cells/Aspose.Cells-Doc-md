@@ -81,3 +81,4 @@ Le [fichier de sortie](101089316.xlsx) généré par le snippet de code suivant 
 
 ## **Sujets avancés**
 - [Ajouter un filigrane WordArt au graphique](/cells/fr/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

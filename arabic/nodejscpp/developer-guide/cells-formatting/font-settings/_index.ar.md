@@ -90,3 +90,4 @@ url: /ar/nodejs-cpp/cells-font-settings/
 - [الحصول على قائمة الخطوط المستخدمة في جدول بيانات أو كتاب عمل](/cells/ar/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -133,4 +133,4 @@ GridJs 将在路径 **`Config.FileCacheDirectory/streamcache`** 内创建并保�
 ```
 
 更多详细信息，请参阅此处示例：
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

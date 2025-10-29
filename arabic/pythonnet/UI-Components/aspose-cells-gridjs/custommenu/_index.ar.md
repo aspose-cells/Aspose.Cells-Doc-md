@@ -124,7 +124,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-يمكنك العثور على المزيد في صفحة العرض الأولي الخاصة بنا على GitHub https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net/wwwroot/xspread/index.html
+يمكنك العثور على مزيد من المعلومات في صفحة العرض التوضيحي على GitHub https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/blob/main/Examples.GridJs/templates/index.html
 
 
 

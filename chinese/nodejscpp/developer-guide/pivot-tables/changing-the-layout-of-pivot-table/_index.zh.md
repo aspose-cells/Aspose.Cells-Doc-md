@@ -22,3 +22,4 @@ Aspose.Cells for Node.js via C++库还提供[**PivotTable.showInCompactForm()**]
 以下示例代码首先以**紧凑形式**显示数据透视表，然后以**大纲形式**显示数据透视表，最后以**表格形式**显示数据透视表。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

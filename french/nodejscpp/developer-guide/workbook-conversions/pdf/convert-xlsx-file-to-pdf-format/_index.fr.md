@@ -69,3 +69,4 @@ Les captures d'écran suivantes montrent les pages PDF. Notez que les en-têtes 
 |La troisième feuille de calcul **(Saisie des données)**|La dernière feuille de calcul **(Image)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Le troisième feuillet **(Saisie de données)**|Le dernier feuillet **(Image)**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

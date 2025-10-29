@@ -24,3 +24,4 @@ keywords: مكتبة Excel الخاصة بـ Python، إضافة نقاط في �
 تُظهر اللقطة الشاشية التالية الإخراج الناتج من الكود المثالي السابق.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="python-net" >}}

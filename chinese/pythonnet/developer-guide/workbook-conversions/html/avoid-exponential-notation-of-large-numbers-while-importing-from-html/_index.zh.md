@@ -16,3 +16,4 @@ keywords: 在从HTML导入时避免大数字的指数表示，保留导入HTML�
 以下示例代码说明了[**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/)属性的用法。API将原样导入数字，而不将其转换为指数表示。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

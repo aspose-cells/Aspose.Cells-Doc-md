@@ -36,3 +36,4 @@ keywords: تصدير الرسم البياني إلى SVG بخاصية viewBox �
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

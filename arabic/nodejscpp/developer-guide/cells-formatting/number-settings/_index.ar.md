@@ -92,3 +92,4 @@ url: /ar/nodejs-cpp/cells-number-settings/
 - [عرض نمط التاريخ المخصص g وge mm dd](/cells/ar/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [تحديد فواصل العدد العشري المخصصة وفواصل المجموعة لسجل العمل](/cells/ar/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [تحديد تنسيق نمط DBNum المخصص](/cells/ar/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

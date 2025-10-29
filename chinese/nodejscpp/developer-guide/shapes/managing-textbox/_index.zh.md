@@ -44,3 +44,4 @@ workbook.save("TextBoxExample.xlsx");
 请注意，与文本框的交互可能会因具体用例而异，因此请参阅Aspose.Cells for Node.js via C++文档以获取更多方法和属性。
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

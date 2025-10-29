@@ -34,3 +34,4 @@ url: /ar/cpp/manage-worksheets/
 يعمل إزالة الأوراق العمل بواسطة الاسم بشكل جيد عند معرفة اسم ورقة العمل. إذا لم تكن تعرف اسم الورقة العمل، استخدم الإصدار المكدس من الأسلوب [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) الذي يأخذ فهرس ورقة العمل بدلاً من اسمها.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

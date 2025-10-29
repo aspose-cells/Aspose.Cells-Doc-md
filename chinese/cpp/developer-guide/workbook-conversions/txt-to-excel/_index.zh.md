@@ -242,3 +242,4 @@ int main()
 ## ** 高级主题**
 - [加载或导入含公式的CSV文件](/cells/zh/cpp/load-or-import-csv-file-with-formulas/)
 - [读取带有多种编码的CSV文件](/cells/zh/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

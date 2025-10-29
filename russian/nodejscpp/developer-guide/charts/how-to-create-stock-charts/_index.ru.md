@@ -25,3 +25,4 @@ url: /ru/nodejs-cpp/how-to-create-stock-charts/
 Следующий набор данных показывает ежедневную торговую информацию по акции. Мы используем эти данные для создания четырех типов графиков акций: графика High-Low-Close (HLC), графика Open-High-Low-Close (OHLC), графика Volume-High-Low-Close (VHLC) и Volume-Open-High-Low-Close (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

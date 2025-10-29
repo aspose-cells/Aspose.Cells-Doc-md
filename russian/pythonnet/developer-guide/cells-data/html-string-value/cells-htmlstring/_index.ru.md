@@ -26,3 +26,4 @@ keywords: Библиотека Python Excel, Добавление строки H
 На следующем скриншоте показан вывод вышеприведенного образца кода.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="python-net" >}}

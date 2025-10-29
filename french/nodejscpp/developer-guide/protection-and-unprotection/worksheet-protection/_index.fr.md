@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Déprotéger une feuille de calcul](/cells/fr/nodejs-cpp/unprotect-a-worksheet/)  
 - [Vérifier le mot de passe utilisé pour protéger la feuille de calcul](/cells/fr/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

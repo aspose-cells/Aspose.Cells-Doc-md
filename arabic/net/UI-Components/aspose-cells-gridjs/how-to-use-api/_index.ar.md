@@ -46,7 +46,7 @@ aliases:
 
 بالنسبة للتخزين في جانب الخادم، نوفر أيضًا مثالًا. يرجى التحقق من: 
 
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
 
 لمزيد من التفاصيل حول التخزين، يرجى الرجوع إلى [الدليل](/cells/ar/net/aspose-cells-gridjs/storage/)
@@ -76,4 +76,4 @@ String ret =wbj.ExportToJson(fileName);
 ```
 
 للحصول على معلومات مفصلة ، يمكنك التحقق من المثال هنا:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

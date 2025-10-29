@@ -37,3 +37,4 @@ keywords: Aspose.Cells для Python Excel, библиотека Excel Python, P
 - [Удаление срезки](/cells/ru/python-net/removing-slicer/)
 - [Рендеринг срезки](/cells/ru/python-net/rendering-slicer/)
 - [Обновление среза](/cells/ru/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

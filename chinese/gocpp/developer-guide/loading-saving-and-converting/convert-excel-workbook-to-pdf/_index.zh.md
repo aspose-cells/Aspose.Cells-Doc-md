@@ -28,6 +28,6 @@ Aspose.Cells会在输出文档中直接写入API信息和版本号，例如，�
 
 文件格式应为PDF，因此请从SaveFormat枚举中选择相关的PDF（预定义值）以生成最终PDF文档。
 
-请参阅以下示例代码，其[示例Excel文件](67338368.xlsx) 和[输出PDF](67338369.pdf)，供您参考。
+请参阅以下示例代码，其【示例Excel文件】(67338368.xlsx) 和【输出PDF】(67338369.pdf)，供您参考。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SaveWorkbookAsPDF.go" >}}

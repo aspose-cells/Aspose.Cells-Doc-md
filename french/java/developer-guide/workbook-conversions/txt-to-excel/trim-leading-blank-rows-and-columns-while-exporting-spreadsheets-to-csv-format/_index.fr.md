@@ -21,7 +21,7 @@ Par défaut, Aspose.Cells ne supprime pas les colonnes et lignes vides de tête 
 
 {{% alert color="primary" %}}
 
-Avant la publication de Aspose.Cells for .NET 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) était **false**. Depuis la version 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) est **true.**
+Avant la sortie de Aspose.Cells for Java 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) était **fausse**. Depuis la version 20.4, la valeur par défaut de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) est **vraie.**
 
 {{% /alert %}}
 

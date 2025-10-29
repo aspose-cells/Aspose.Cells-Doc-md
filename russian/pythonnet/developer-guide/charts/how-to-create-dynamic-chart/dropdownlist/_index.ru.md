@@ -32,3 +32,4 @@ url: /ru/python-net/create-dynamic-chart-with-dropdownlist/
 ```
 
 Вы можете попробовать изменить значение выпадающего списка в ячейке «Sheet1!$A$10», и вы увидите динамическое изменение диаграммы. Теперь мы успешно создали динамическую диаграмму с выпадающим списком, используя Aspose.Cells для Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

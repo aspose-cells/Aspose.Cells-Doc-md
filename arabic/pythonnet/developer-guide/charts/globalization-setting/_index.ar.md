@@ -40,3 +40,4 @@ keywords: Aspose.Cells للبايثون via .NET، الرسوم، إعدادات
 | اسم آخر                  | آخر                             |
 | اسم السلسلة               | السلسلة                            |
 
+{{< app/cells/assistant language="python-net" >}}

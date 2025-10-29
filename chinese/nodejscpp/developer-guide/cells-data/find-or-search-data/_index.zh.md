@@ -66,3 +66,4 @@ Aspose.Cells 提供一个类 [**Workbook**](https://reference.aspose.com/cells/n
 - [查找单元格值是否以单引号开始](/cells/zh/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [使用原始值搜索数据](/cells/zh/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

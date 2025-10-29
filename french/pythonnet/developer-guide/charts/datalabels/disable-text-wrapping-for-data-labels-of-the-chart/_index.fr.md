@@ -18,3 +18,4 @@ Aspose.Cells pour Python via .NET fournit une propriété [**DataLabels.is_text_
 L'exemple de code ci-dessous montre comment désactiver le retour à la ligne pour les étiquettes de données du graphique.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

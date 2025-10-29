@@ -77,3 +77,4 @@ int main()
 {{< highlight java >}}
 Found: CustomXmlPart ID Sport
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

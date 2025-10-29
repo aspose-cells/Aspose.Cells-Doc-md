@@ -698,3 +698,4 @@ int main()
 - [الحصول على التحقق من الخلية في ملفات ODS](/cells/ar/cpp/get-cell-validation-in-ods-files/)
 - [الحصول على التحقق المطبق على خلية](/cells/ar/cpp/get-validation-applied-on-a-cell/)
 - [التحقق من أن قيمة الخلية تلبي قواعد التحقق من البيانات](/cells/ar/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

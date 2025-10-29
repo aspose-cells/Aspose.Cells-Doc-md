@@ -1,0 +1,185 @@
+---
+title: كيف تغير خلفية التعليق في إكسل باستخدام JavaScript عبر C++
+linktitle: خلفية التعليق
+type: docs
+weight: 190
+url: /ar/javascript-cpp/how-to-set-comment-background/
+description: كيف تغير لون التعليق وإدراج صورة أو صورة في التعليق في إكسل باستخدام Aspose.Cells for Javaنص البرنامج النصي عبر C++.
+keywords: إضافة صورة داخلية، لون خلفية التعليق، إكسل، JavaScript عبر C++
+---
+
+{{% alert color="primary" %}}
+يتم إضافة التعليقات إلى الخلايا لتسجيل ملاحظات، من تفاصيل كيفية عمل صيغة، من أين يأتي قيمة معينة، أو أسئلة من المراجعين. تلعب التعليقات دورًا مهمًا جدًا عندما يناقش عدة أشخاص أو يراجعون نفس المستند في أوقات مختلفة. كيف يمكن تمييز تعليقات الأشخاص المختلفين؟ نعم، يمكننا تعيين لون خلفية مختلف لكل تعليق. ولكن عندما نحتاج إلى معالجة الكثير من المستندات والكثير من التعليقات، فإن القيام بذلك يدويًا يعد كارثة. لحسن الحظ، يوفر [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) API يتيح لك القيام بذلك برمجياً.
+{{% /alert %}}
+
+## **كيفية تغيير اللون في التعليق في إكسل**
+
+عندما لا تحتاج إلى لون خلفية افتراضي للتعليقات، قد ترغب في استبداله بلون تهتم به. كيف أغير لون خلفية صندوق التعليقات في Excel؟
+
+سيقوم الكود التالي بإرشادك كيفية استخدام [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) لإضافة لون خلفية مفضلة إلى التعليقات باختيارك الخاص.
+
+لقد أعددنا لك [ملف نموذجي](exmaple.xlsx). يُستخدم هذا الملف لتهيئة كائن Workbook في الشيفرة أدناه.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Comment Background Color Example</title>
+    </head>
+    <body>
+        <h1>Change Comment Background Color Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Initialize a new workbook from the uploaded file
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Accessing the newly added comment
+            const comment = workbook.worksheets.get(0).comments.get(0);
+
+            // change background color
+            const shape = comment.commentShape;
+            shape.fill.solidFill.color = AsposeCells.Color.Red;
+
+            // Saving the modified Excel file
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'result.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Modified Excel File';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">Comment background color changed successfully! Click the download link to get the modified file.</p>';
+        });
+    </script>
+</html>
+```
+
+قم بتشغيل الكود أعلاه وستحصل على ملف [output file](result.xlsx).
+
+## **كيفية إدراج صورة أو صورة في التعليق في إكسل**
+
+يتيح Microsoft Excel للمستخدمين تخصيص مظهر وأسلوب جداول البيانات إلى حد كبير. من الممكن أيضًا إضافة صور خلفية إلى التعليقات. يمكن أن يكون إضافة صورة خلفية اختيارًا جماليًا أو يُستخدم لتعزيز العلامة التجارية.
+
+ينشئ الكود أدناه ملف XLSX من الصفر باستخدام API [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/)، ويضيف تعليقًا بخلفية صورة إلى الخلية A1.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Aspose.Cells - Add Comment with Picture Example</h1>
+        <p>
+            Select an existing Excel file (optional) and an image file to attach to a comment in cell A1.
+        </p>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <br/><br/>
+        <label for="imageInput">Select image to insert in comment (required):</label>
+        <input type="file" id="imageInput" accept="image/*" />
+        <br/><br/>
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, Worksheet, Cell } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const imageInput = document.getElementById('imageInput');
+            const resultDiv = document.getElementById('result');
+
+            if (!imageInput.files.length) {
+                resultDiv.innerHTML = '<p style="color: red;">Please select an image file to insert into the comment.</p>';
+                return;
+            }
+
+            // Instantiate or load Workbook
+            let workbook;
+            if (fileInput.files.length) {
+                const file = fileInput.files[0];
+                const arrayBuffer = await file.arrayBuffer();
+                workbook = new Workbook(new Uint8Array(arrayBuffer));
+            } else {
+                workbook = new Workbook();
+            }
+
+            // Access the first worksheet
+            const worksheet = workbook.worksheets.get(0);
+
+            // Get comments collection for the first sheet
+            const comments = worksheet.comments;
+
+            // Add a comment to cell A1 (row 0, column 0)
+            const commentIndex = comments.add(0, 0);
+            const comment = comments.get(commentIndex);
+
+            // Set comment text and font name (converted from setters to properties)
+            comment.note = "First note.";
+            comment.font.name = "Times New Roman";
+
+            // Load the selected image file and set it to the comment's shape fill imageData
+            const imageFile = imageInput.files[0];
+            const imgArrayBuffer = await imageFile.arrayBuffer();
+            const imageData = new Uint8Array(imgArrayBuffer);
+
+            comment.commentShape.fill.imageData = imageData;
+
+            // Save the workbook to a blob and provide a download link
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'commentwithpicture1.out.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Modified Excel File';
+
+            resultDiv.innerHTML = '<p style="color: green;">Comment with picture added successfully! Click the download link to get the modified file.</p>';
+        });
+    </script>
+</body>
+</html>
+```

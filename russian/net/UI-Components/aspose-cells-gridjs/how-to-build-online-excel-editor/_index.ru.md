@@ -25,11 +25,11 @@ aliases:
 
 ## Шаг 1: Создайте Dockerfile
 
-Создайте файл с именем `Dockerfile` в вашем проекте [каталоге](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/). В `Dockerfile` должны содержаться инструкции по сборке вашего Docker-образа.
+Создайте файл с именем `Dockerfile` в вашей папке проекта [каталоге](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/). В `Dockerfile` должны быть инструкции о том, как создать образ Docker.
 
 ## Шаг 2: Напишите Dockerfile для GridJs
 
-Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) для демонстрации GridJs с приложением ASP.NET Core:
+Вот пример [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Dockerfile) для демонстрации GridJs с приложением ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

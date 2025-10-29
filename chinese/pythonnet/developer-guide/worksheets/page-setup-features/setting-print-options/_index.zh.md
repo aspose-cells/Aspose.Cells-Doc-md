@@ -95,3 +95,4 @@ Aspose.Cells提供一个枚举[**PrintOrderType**](https://reference.aspose.com/
 |OVER_THEN_DOWN| 表示先向右打印，然后向下打印。|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

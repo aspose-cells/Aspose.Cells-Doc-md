@@ -474,3 +474,4 @@ int main()
 ## **مواضيع متقدمة**
 - [تعيين رمز تنسيق القيم لسلاسل الرسم البياني](/cells/ar/cpp/set-the-values-format-code-of-chart-series/)
 - [تعيين صورة كحشو خلفية في الرسم البياني](/cells/ar/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

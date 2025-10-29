@@ -71,3 +71,4 @@ int main()
 - [Экспорт XML-данных, связанных с XML-схемой, внутри книги](/cells/ru/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Найдите имя корневого элемента XML-карты.](/cells/ru/cpp/find-the-root-element-name-of-xml-map/)
 - [Привязка ячеек к элементам XML-отображения](/cells/ru/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

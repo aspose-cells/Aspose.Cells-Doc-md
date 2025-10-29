@@ -18,3 +18,4 @@ Aspose.Cells为Python via .NET提供了获取数据透视表的外部连接数�
 代码片段中使用的源文件已附上供参考。
 
 [源文件](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

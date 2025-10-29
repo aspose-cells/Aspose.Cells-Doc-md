@@ -4,7 +4,7 @@ linktitle: توقيع
 type: docs
 weight: 100
 url: /ar/java/assign-and-validate-digital-signatures/
-description: توقيع ملف إكسل رقمي، التحقق. لحماية أصالة محتوى دفتر العمل في ملف إكسل، يمكنك إضافة توقيع رقمي باستخدام رموز C# مع Aspose.Cells لـ .Net.
+description: توقيع رقمي لملف إكسل، والتحقق منه. لحماية أصالة محتوى ملف إكسل، يمكنك إضافة توقيع رقمي باستخدام رموز جافا مع Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

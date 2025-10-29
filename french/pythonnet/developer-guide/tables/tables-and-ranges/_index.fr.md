@@ -35,3 +35,4 @@ Le code d'exemple ci-dessous démontre l'utilisation de la classe [**TableToRang
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-ConvertTableToRangeWithOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

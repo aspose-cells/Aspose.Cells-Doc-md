@@ -149,3 +149,4 @@ int main()
 - [ضبط نوع التشفير القوي](/cells/ar/cpp/setting-strong-encryption-type/)
 - [تحديد المؤلف أثناء حماية كتاب العمل](/cells/ar/cpp/specify-author-while-write-protecting-workbook/)
 - [التحقق من كلمة مرور الملفات المشفرة](/cells/ar/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

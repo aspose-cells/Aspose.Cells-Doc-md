@@ -81,3 +81,4 @@ url: /ar/python-net/controls-in-charts/
 
 ## **مواضيع متقدمة**
 - [إضافة علامة مائية WordArt إلى الرسم البياني](/cells/ar/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

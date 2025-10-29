@@ -75,3 +75,4 @@ int main() {
 
 ## **مواضيع متقدمة**
 - [ضبط نص إدخال وسام الرسم البياني على لا شيء باستخدام Aspose.Cells](/cells/ar/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

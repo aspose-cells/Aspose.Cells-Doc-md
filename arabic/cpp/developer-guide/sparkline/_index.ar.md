@@ -81,3 +81,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [استخدام الشرائط الإشارية وإعدادات تنسيق ثلاثي الأبعاد](/cells/ar/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

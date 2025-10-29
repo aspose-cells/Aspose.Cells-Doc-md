@@ -18,19 +18,19 @@ url: /ru/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-## Запуск Aspose.Cells для .Net6 в Windows
+## Запуск Aspose.Cells для .Net6 (или новее) на Windows
 
-Сначала вы можете создать приложение .net6 с помощью VS2022, затем вы можете выбрать следующие варианты установки:
+Сначала вы можете создать приложение .net6 (или новее) с помощью VS2022, затем выбрать следующие параметры установки:
 
 ### Установка через NuGet
 
 1. Поиск Aspose.Cells в NuGet: [Aspose.Cells for .NET Набор NuGet](https://www.nuget.org/packages/Aspose.Cells/). 
 Вы также можете установить Aspose.Cells через менеджер пакетов NuGet в VS2022.
 
-2. "SkiaSharp" или "System.Drawing.Common" будут автоматически установлены в качестве зависимости Aspose.Cells 22.10.1 или более поздней версии для платформ .Net6, в зависимости от конфигурации "Целевая ОС" в вашем проекте.
-- Установите "Целевая ОС" в "Windows" для вашего проекта, вы будете использовать "System.Drawing.Common" в качестве зависимости на вашей системе Windows для проекта .Net6. В этой конфигурации результат рисования ближе к .netcore31 или ранее.
+2. "SkiaSharp" или "System.Drawing.Common" будут установлены автоматически как зависимость Aspose.Cells 22.10.1 или более новой для платформ .Net6 (или новее), которые зависят от конфигурации "Target OS" в вашем проекте.
+- Установите "Target OS" как "Windows" для вашего проекта, вы будете использовать "System.Drawing.Common" как зависимость в вашей системе Windows для проекта .Net6 (или новее). В этой конфигурации результат рисования ближе к .netcore31 или раньше.
 **![Настройка целевой ОС](TargetOS.png)**
-- Установите "Целевая ОС" в "Нет" или другие варианты для вашего проекта, вы будете использовать "SkiaSharp" в качестве зависимости на вашей системе Windows для проекта .Net6. *Обратите внимание, что версия, использующая "SkiaSharp" в качестве зависимости, не поддерживает функцию печати на принтер.*
+- Установите "Target OS" как "None" или другие параметры для вашего проекта, вы будете использовать "SkiaSharp" как зависимость в вашей системе Windows для проекта .Net6 (или новее). *Обратите внимание, что версия, использующая "SkiaSharp" как зависимость, не поддерживает функцию печати на принтер.*
 
 ### Установка через msi или DLL
 
@@ -43,15 +43,16 @@ url: /ru/net/how-to-run-aspose-cells-for-net6/
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Таким образом, вы будете использовать "System.Drawing.Common" в качестве зависимости на вашей системе Windows для проекта .Net6. В этой конфигурации результат рисования ближе к .netcore31 или ранее.
+Таким образом, вы будете использовать "System.Drawing.Common" как зависимость в вашей системе Windows для проекта .Net6 (или новее). В этой конфигурации результат рисования ближе к .netcore31 или раньше.
 
 4. Найдите подкаталог "net6.0", добавьте Aspose.Cells.dll в него в ваше приложение .net6. Вручную добавьте следующие пакеты NuGet в ваш проект .net6:
 - SkiaSharp, 3.116.1.
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Таким образом, вы будете использовать "SkiaSharp" в качестве зависимости на вашей системе Windows для проекта .Net6. *Обратите внимание, что версия, использующая "SkiaSharp" в качестве зависимости, не поддерживает функцию печати на принтер.*
-## Запустите Aspose.Cells для .Net6 на Linux
+Таким образом, вы будете использовать "SkiaSharp" как зависимость в вашей системе Windows для проекта .Net6 (или новее). *Обратите внимание, что версия, использующая "SkiaSharp" как зависимость, не поддерживает функцию печати на принтер.*
+
+## Запуск Aspose.Cells для Linux
 
 Ссылка на метод установки в Windows, вы можете выбрать только SkiaSharp в качестве зависимости графической библиотеки в системе Linux.
 
@@ -66,8 +67,8 @@ apt-get update && apt-get install -y libfontconfig1
 apk update && apk add fontconfig 
 ```
 
-2. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
-3. Или вы можете выбрать добавление пакетов NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" в ваш проект .net6 вместо двух указанных выше шагов.
+2. Добавьте пакет nuget "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6 (или новее).
+3. Или можете выбрать добавление пакета nuget "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" в ваш проект .net6 (или новее), вместо двух шагов выше.
 
 *Обратите внимание, что версия добавляемого пакета "SkiaSharp.NativeAssets.Linux" или "SkiaSharp.NativeAssets.Linux.NoDependencies" должна соответствовать версии "SkiaSharp", указанной в Aspose.Cells for .NET. Варианты версий Aspose.Cells for .NET и связанные с ними версии "SKiaSharp" представлены ниже:*
 
@@ -83,7 +84,7 @@ apk update && apk add fontconfig
 
 ### Пример Dockerfile для Ubuntu
 
-1. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
+1. Добавьте пакет nuget "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6 (или новее).
 
 2. Используйте следующий Dockerfile:
 {{< highlight plain >}}
@@ -119,7 +120,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Пример Dockerfile для Alpine
 
-1. Добавьте пакет NuGet "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6.
+1. Добавьте пакет nuget "SkiaSharp.NativeAssets.Linux 3.116.1" в ваш проект .net6 (или новее).
 
 2. Используйте следующий Dockerfile:
 {{< highlight plain >}}

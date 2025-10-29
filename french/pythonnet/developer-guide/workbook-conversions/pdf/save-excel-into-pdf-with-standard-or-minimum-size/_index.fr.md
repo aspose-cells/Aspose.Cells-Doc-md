@@ -21,3 +21,4 @@ Le code d'exemple suivant montre comment enregistrer Excel en PDF avec une taill
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveExcelIntoPdfWithOptimizedSize.py" >}}
+{{< app/cells/assistant language="python-net" >}}

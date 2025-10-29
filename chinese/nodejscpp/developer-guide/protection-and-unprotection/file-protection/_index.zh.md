@@ -105,3 +105,4 @@ workbook.save(filePath);
 - [验证已加密文件的密码](/cells/zh/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

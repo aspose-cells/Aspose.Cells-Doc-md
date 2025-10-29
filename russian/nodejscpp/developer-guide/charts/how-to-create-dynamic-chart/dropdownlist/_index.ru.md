@@ -106,3 +106,4 @@ workbook.save(path.join(localPath, "DynamicChartWithDropdownlist.xlsx"));
 ```
 
 Вы можете попробовать изменить значение выпадающего списка в ячейке "Лист1!$A$10", и вы увидите динамическое изменение диаграммы. Теперь мы успешно создали динамическую диаграмму с выпадающим списком с использованием Aspose.Cells.
+{{< app/cells/assistant language="nodejs-cpp" >}}

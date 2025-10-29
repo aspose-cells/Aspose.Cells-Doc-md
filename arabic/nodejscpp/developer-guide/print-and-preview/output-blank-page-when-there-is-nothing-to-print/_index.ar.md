@@ -42,3 +42,4 @@ opts.setOutputBlankPageWhenNothingToPrint(true);
 const sr = new AsposeCells.SheetRender(ws, opts);
 sr.toImage(0, path.join(outputDir, "OutputBlankPageWhenNothingToPrint.png"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

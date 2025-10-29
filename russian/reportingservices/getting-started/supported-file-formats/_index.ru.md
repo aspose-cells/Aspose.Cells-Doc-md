@@ -20,7 +20,7 @@ url: /ru/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)| Сохраняет документ в формате ODS (OpenDocument Spreadsheet).| |{{< emoticons/tick >}}|
 |SpreadsheetML| Сохраняет документ в формате Excel 2003 XML.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)| Сохраняет документ в формате XPS| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Представляет документ в формате разметки.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Представляет документ Markdown.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)| Сохраняет документ в формате EMF.| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)| Сохраняет документ в формате DIF.| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)| Сохраняет документ в формате JPG.| |{{< emoticons/tick >}}|

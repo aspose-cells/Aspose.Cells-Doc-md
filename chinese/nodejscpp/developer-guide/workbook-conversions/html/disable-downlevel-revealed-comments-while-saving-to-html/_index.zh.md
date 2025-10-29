@@ -17,7 +17,7 @@ Aspose.Cells for Node.js via C++ 允许通过将 [**HtmlSaveOptions.getDisableDo
 
 ## **在保存为HTML时禁用下级可见的批注**
 
-以下示例代码展示了 [**HtmlSaveOptions.getDisableDownlevelRevealedComments()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getDisableDownlevelRevealedComments--) 属性的用法。截图显示了未将此属性设置为 true 时的效果。请下载此代码用的[示例 Excel 文件](50528257.xlsx) 和生成的[输出 HTML](50528258.zip) 以供参考。
+以下示例代码展示了 [**HtmlSaveOptions.getDisableDownlevelRevealedComments()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getDisableDownlevelRevealedComments--) 属性的用法。截图显示了未将此属性设置为 true 时的效果。请下载此代码用的【示例 Excel 文件】(50528257.xlsx) 和生成的【输出 HTML】(50528258.zip) 以供参考。
 
 ![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
@@ -41,3 +41,4 @@ opts.setDisableDownlevelRevealedComments(true);
 // Save the workbook in html
 workbook.save(path.join(outputDir, "outputDisableDownlevelRevealedComments_true.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

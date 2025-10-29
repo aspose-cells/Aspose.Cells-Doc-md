@@ -157,3 +157,4 @@ keywords: مكتبة Python Excel ، إضافة Python تصفية حسب الل�
 ## **مواضيع متقدمة**
 - [تطبيق مرشح Microsoft Excel المتقدم لعرض السجلات التي تلبي معايير معقدة](/cells/ar/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [الحصول على جميع فهرسات الصفوف المخفية بعد تحديث تصفية السيارة.](/cells/ar/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

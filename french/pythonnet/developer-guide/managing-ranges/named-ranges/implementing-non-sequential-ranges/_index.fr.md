@@ -16,3 +16,4 @@ Normalement, les plages nommées sont rectangulaires avec des cellules continues
 L'exemple de code ci-dessous montre comment créer une plage nommée non-séquentielle avec Aspose.Cells pour Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

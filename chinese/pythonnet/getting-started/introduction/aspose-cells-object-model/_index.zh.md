@@ -87,3 +87,4 @@ Picture 对象表示工作表中的图片。使用 Picture 对象，开发人员
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 VerticalPageBreak 对象用于在工作表中创建垂直分页符。
+{{< app/cells/assistant language="python-net" >}}

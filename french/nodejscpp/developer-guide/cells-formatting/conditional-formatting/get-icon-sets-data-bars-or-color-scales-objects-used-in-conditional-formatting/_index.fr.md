@@ -19,3 +19,4 @@ L'exemple de code suivant montre comment lire les ensembles d'icônes utilisés 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-GetIconSetsDataBarsColorScalesObjects.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

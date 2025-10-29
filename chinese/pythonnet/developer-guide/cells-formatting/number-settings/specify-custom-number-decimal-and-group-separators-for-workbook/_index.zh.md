@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET 提供 [**WorkbookSettings.number_decimal_separ
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CustomDecimalAndGroupSeparator.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

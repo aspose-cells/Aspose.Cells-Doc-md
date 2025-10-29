@@ -30,3 +30,4 @@ Microsoft Excel (97-2007/2010) позволяет вам шифровать и �
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-SettingStrongEncryptionType-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ from aspose.cells import Workbook
          wb.save("dispose.xlsx")
          pass
 ```
+{{< app/cells/assistant language="python-net" >}}

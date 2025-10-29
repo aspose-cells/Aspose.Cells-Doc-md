@@ -43,3 +43,4 @@ url: /ar/python-net/creating-pie-chart-with-leader-lines/
 - [تنسيق البيانات في الرسوم البيانية](/cells/ar/python-net/data-formatting-in-charts/)
 - [ضبط مظهر الرسم البياني](/cells/ar/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

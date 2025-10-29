@@ -21,3 +21,4 @@ keywords: تحويل Python للصف المخصص للعميل إلى إكسل،
 
 يوضح ملف TestImportCustomObject.py حالة استخدام بسيطة. يمكن للمستخدمين الرجوع إلى هذا المثال أو إجراء تعديلات طفيفة لاستيراد بياناتهم الخاصة.
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

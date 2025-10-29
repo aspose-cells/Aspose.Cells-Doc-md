@@ -54,3 +54,4 @@ workbook.save(path.join(outputDir, "outputChangeCommentFontColor.xlsx"));
 ```  
 
 Le [fichier de sortie](102662195.xlsx) généré par le code ci-dessus est joint à titre de référence.  
+{{< app/cells/assistant language="nodejs-cpp" >}}

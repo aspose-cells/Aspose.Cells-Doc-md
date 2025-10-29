@@ -384,3 +384,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [在图表中将图片设置为背景填充](/cells/zh/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

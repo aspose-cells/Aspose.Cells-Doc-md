@@ -133,3 +133,4 @@ workbook.save(path.join(dataDir, "outputxls"));
 Также возможно использовать методы [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) и [**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) класса [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) для отображения нескольких строк и столбцов.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

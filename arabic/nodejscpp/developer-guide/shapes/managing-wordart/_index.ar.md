@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 - [إضافة نص Word Art بأنماط مدمجة](/cells/ar/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [تأمين علامة مائية WordArt](/cells/ar/nodejs-cpp/locking-wordart-watermark/)
 - [تعيين نمط WordArt المحدد مسبقًا لنص الشكل](/cells/ar/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

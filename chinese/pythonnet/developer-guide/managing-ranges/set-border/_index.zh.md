@@ -31,3 +31,4 @@ keywords: Python Excel库，Python设置范围边框，Python添加范围边框�
 1. 设置范围外的边框。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-set-border.py" >}}
+{{< app/cells/assistant language="python-net" >}}

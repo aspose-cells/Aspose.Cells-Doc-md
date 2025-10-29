@@ -24,3 +24,4 @@ keywords: Python限制在将Excel转换为PDF时所生成的页面数量，在Py
 如果电子表格包含公式，最好在将其渲染为PDF之前调用[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)方法。这样做可以确保重新计算基于公式的值，并在输出文件中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET يدعم تحويل ملفات إكسل إلى 
 ## **مواضيع متقدمة**
 - [حفظ ملف ODS بمواصفات ODF 1.1 و 1.2](/cells/ar/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [العمل مع الخلفية في ملفات ODS](/cells/ar/python-net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="python-net" >}}

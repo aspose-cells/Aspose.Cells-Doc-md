@@ -41,7 +41,7 @@ docker build -t python_test .
 docker run python_test 
 {{< /highlight >}}
 
-- 注意：
+## 注意：
 
 为了支持打开包含多种语言的Excel文件，我们需要安装ICU。考虑到Python via .NET封装基于.NET Core 3.1，而.NET Core 3.1对ICU有特定版本要求，不应超过版本70，我们需要安装特定版本的ICU。
 
@@ -49,3 +49,4 @@ docker run python_test
 ## 另请参阅
 
 - [在Windows上安装Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
+{{< app/cells/assistant language="python-net" >}}

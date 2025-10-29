@@ -121,3 +121,4 @@ int main()
 - [移除切片器](/cells/zh/cpp/removing-slicer/)
 - [呈现切片器](/cells/zh/cpp/rendering-slicer/)
 - [更新分析器](/cells/zh/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

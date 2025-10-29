@@ -15,7 +15,7 @@ aliases:
 
 Клиентский js GridJs адаптируется к мобильному экрану.
 
-Запустите [демо GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "демо GridJs")
+Запустите [демо GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs "демо GridJs ")
 
 Стандартный порт проекта демонстрации - 8080. 
 

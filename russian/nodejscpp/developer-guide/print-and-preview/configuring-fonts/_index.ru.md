@@ -111,3 +111,4 @@ AsposeCells.FontConfigs.setFontSubstitutes("Arial", ["Times New Roman", "Calibri
 - [Установите свойство DefaultFont в PdfSaveOptions и ImageOrPrintOptions для приоритета](/cells/ru/nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Поддерживаемые форматы шрифтов](/cells/ru/nodejs-cpp/supported-font-formats/)
 - [Электронная таблица в изображение - установите формат пикселей для визуализированного изображения](/cells/ru/nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

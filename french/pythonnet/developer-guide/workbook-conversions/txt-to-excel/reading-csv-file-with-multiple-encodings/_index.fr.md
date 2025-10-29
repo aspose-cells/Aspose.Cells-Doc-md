@@ -36,3 +36,4 @@ La capture d'écran suivante montre le fichier XSLX converti à partir du fichie
 Ci-dessous se trouve le code d'exemple qui convertit le fichier CSV ci-dessus en format XLSX correctement.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

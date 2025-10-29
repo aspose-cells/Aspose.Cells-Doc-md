@@ -32,3 +32,4 @@ url: /ar/python-net/create-dynamic-chart-with-dropdownlist/
 ```
 
  يمكنك محاولة تغيير قيمة القائمة المنسدلة في الخلية "Sheet1!$A$10"، ستلاحظ التغيير الديناميكي للمخطط. لقد أنشأنا بنجاح مخطط ديناميكي مع قائمة منسدلة باستخدام Aspose.Cells for Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

@@ -14,3 +14,4 @@ url: /ar/python-net/automatically-refresh-ole-object-via-microsoft-excel-using-a
 يقوم الكود العينة التالي بتحميل [ملف الإكسل العينة](5115231.xlsx) الذي يحتوي على صورة OLE غير حقيقية. الكائن OLE هو في الواقع مستند Microsoft Word ولكن ملف الإكسل العينة يعرض صورة الحيوان بدلاً من صورة Microsoft Word. ولكن إذا فتحت [ملف الإكسل الناتج](5115225.xlsx)، سترى Microsoft Excel عرض الصورة الصحيحة لـ OLE.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-OLE-RefreshOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

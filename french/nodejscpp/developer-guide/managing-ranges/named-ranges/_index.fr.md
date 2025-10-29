@@ -80,3 +80,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Mise en œuvre de plages non séquentielles](/cells/fr/nodejs-cpp/implementing-non-sequential-ranges/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

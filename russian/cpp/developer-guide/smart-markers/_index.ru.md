@@ -7,3 +7,4 @@ url: /ru/cpp/using-smart-markers/
 description: Умный импорт и размещение данных согласно шаблонам файлов Excel с помощью библиотеки Aspose.Cells.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

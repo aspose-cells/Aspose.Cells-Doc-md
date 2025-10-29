@@ -49,3 +49,4 @@ keywords: تنسيق الرقم كتاريخ، إعدادات رقم الخلي�
 لتنسيق الأرقام كتاريخ في مكتبة Aspose.Cells for Node.js via C++ للعمل مع ملفات Excel، يمكنك تطبيق تنسيق التاريخ على الخلايا برمجياً. إليك كيفية القيام بذلك باستخدام Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

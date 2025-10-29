@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 إذا كانت الورقة تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) قبل عرضها كملف PDF. يضمن ذلك إعادة حساب القيم المعتمدة على الصيغة، وعرض القيم الصحيحة في الملف الناتج.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

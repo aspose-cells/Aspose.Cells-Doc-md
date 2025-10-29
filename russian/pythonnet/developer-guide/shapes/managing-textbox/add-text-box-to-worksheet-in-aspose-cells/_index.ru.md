@@ -43,3 +43,4 @@ keywords: добавить/вставить текстовое поле текс
 
 ![](52449.png)
 
+{{< app/cells/assistant language="python-net" >}}

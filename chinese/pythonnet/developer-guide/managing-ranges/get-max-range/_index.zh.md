@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET包含查找工作表中最大范围的不同方
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 这是 [源 Excel 文件](Book1.xlsx)。
+{{< app/cells/assistant language="python-net" >}}

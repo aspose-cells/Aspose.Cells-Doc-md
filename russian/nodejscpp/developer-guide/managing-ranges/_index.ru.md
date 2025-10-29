@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Перемещение диапазона ячеек на листе](/cells/ru/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Создать именованные диапазоны с учетом книги и листа](/cells/ru/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Поиск и замена данных в диапазоне](/cells/ru/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

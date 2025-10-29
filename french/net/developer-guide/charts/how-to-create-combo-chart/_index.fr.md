@@ -9,9 +9,9 @@ url: /fr/net/create-combo-chart/
 
 ## **Scénarios d'utilisation possibles**
 Les graphiques mixtes dans Excel vous permettent de profiter de cette option car vous pouvez facilement combiner deux types de graphiques ou plus pour rendre vos données compréhensibles. Les graphiques mixtes sont utiles lorsque vos données contiennent plusieurs types de valeurs, y compris le prix et le volume. De plus, les graphiques mixtes sont faisables lorsque vos nombres de données changent largement de série en série.
-En prenant l'ensemble de données suivant comme exemple, nous pouvons observer que ces données sont assez similaires aux données mentionnées dans [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/). Si nous voulons visualiser la série0, qui correspond à "Revenu Total", sous forme de graphique en courbes, comment devrions-nous procéder?
 
-![todo:image_alt_text](sample.png)
+Nous allons maintenant créer un graphique combiné colonne-ligne. Nous commencerons par créer un graphique en colonnes, puis modifierons certains types de série en ligne pour réaliser ce graphique combiné.
+
 ## **Graphique mixte**
 Après avoir exécuté le code ci-dessous, vous verrez le graphique mixte tel qu'indiqué ci-dessous.
 

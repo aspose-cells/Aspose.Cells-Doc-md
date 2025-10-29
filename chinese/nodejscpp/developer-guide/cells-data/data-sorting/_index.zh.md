@@ -59,3 +59,4 @@ Excel提供基于背景色排序数据的功能。通过Aspose.Cells for Node.js
 - [使用自定义排序列表对列中的数据进行排序](/cells/zh/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [在对数据进行排序时指定排序警告](/cells/zh/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

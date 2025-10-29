@@ -27,3 +27,4 @@ Aspose.Cells for Python via .NET 提供了将上标（基线以上的文本）�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SettingSubscriptEffect-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

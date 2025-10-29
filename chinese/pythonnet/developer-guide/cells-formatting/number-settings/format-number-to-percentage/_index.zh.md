@@ -102,3 +102,4 @@ $ pip install aspose-cells-python
 通过按照这些步骤，您可以轻松在 Aspose.Cells for Python via .NET 中将数字格式化为百分比。Aspose.Cells 提供了丰富的功能用于操作 Excel 文件，包括单元格格式化、公式处理等，成为处理 Excel 数据的强大工具，适用于 .NET 开发者。
 
 
+{{< app/cells/assistant language="python-net" >}}

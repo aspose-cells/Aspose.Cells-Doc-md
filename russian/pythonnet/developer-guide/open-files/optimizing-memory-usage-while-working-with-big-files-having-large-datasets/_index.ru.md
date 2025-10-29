@@ -35,3 +35,4 @@ url: /ru/python-net/optimizing-memory-usage-while-working-with-big-files-having-
 1. **Вставка и удаление ячеек и строк**: Обратите внимание, что если есть много операций вставки/удаления для Ячеек/Строк, деградация производительности будет значительной в режиме *MemoryPreference* по сравнению с режимом *Normal*.
 1. **Работа с различными типами ячеек**: Если большинство ячеек содержат строковые значения или формулы, затраты памяти будут такими же, как в режиме *Normal*, но если есть много пустых ячеек, или значения ячейки являются числовыми, логическими и т. д., то [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) позволит добиться лучшей производительности.
 
+{{< app/cells/assistant language="python-net" >}}

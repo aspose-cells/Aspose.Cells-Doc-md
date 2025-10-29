@@ -36,3 +36,4 @@ Aspose.Cells提供了[**TxtLoadOptions.is_multi_encoded**](https://reference.asp
 以下是将上述 CSV 文件正确转换为 XLSX 格式的示例代码。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

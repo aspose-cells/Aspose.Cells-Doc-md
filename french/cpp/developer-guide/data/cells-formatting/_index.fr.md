@@ -23,3 +23,4 @@ Le code d'exemple suivant formate la cellule C4 de la feuille de calcul de diff√
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CellsFormatting-FormatCellOrRangeOfCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

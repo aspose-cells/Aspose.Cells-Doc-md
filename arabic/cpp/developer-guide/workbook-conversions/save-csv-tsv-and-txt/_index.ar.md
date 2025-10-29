@@ -102,3 +102,4 @@ int main()
 ## **مواضيع متقدمة**
 - [الاحتفاظ بالفواصل للصفوف الفارغة أثناء تصدير جداول البيانات إلى تنسيق CSV](/cells/ar/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [تقليص الصفوف والأعمدة الخالية أثناء تصدير جداول البيانات إلى تنسيق CSV](/cells/ar/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

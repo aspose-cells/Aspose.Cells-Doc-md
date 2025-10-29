@@ -236,3 +236,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [استخراج بيانات الثيم من ملف Excel](/cells/ar/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

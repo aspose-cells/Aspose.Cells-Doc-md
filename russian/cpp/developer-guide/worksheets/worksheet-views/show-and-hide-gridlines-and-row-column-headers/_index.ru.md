@@ -129,3 +129,4 @@ int main()
 Также возможно использовать методы [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/) и [**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/) класса [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) для отображения нескольких строк и столбцов.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

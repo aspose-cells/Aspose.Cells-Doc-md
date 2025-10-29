@@ -21,3 +21,4 @@ url: /ar/python-net/filtering-the-kind-of-data-while-loading-the-workbook-from-t
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-FilterDataWhileLoadingWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

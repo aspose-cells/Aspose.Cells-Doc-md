@@ -136,3 +136,4 @@ int main()
 
 لقطة الناتج:  
 <br><image src="4.png" width="70%" />  
+{{< app/cells/assistant language="cpp" >}}

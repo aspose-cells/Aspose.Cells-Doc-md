@@ -74,3 +74,4 @@ Has Primary Value Axis: True
 Has Secondary Value Axis: False
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

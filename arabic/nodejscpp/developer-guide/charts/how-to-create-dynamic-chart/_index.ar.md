@@ -26,3 +26,4 @@ url: /ar/nodejs-cpp/create-dynamic-chart/
 - [إنشاء مخطط تمرير ديناميكي باستخدام Aspose.Cells](/cells/ar/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [إنشاء مخطط ديناميكي مع قائمة منسدلة باستخدام Aspose.Cells](/cells/ar/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

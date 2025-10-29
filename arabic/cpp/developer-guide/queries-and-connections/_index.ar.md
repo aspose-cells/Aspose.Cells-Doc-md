@@ -6,3 +6,4 @@ weight: 700
 url: /ar/cpp/managing-database-connections/
 description: إدارة اتصالات وقواعد بيانات باستخدام Aspose.Cells مع C++.
 ---
+{{< app/cells/assistant language="cpp" >}}

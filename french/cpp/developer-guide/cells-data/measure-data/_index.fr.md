@@ -65,3 +65,4 @@ int main()
 
 ## **Sujets avancés**
 - [Obtenir la largeur de texte de la valeur de la cellule](/cells/fr/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

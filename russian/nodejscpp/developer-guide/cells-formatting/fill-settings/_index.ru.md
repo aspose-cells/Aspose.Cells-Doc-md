@@ -95,3 +95,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

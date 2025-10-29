@@ -185,3 +185,4 @@ wb.save(path.join(outputDir, "AutofitRowsforMergedCells.xlsx"));
 ## **Продвинутые темы**  
 - [AutoFit строк для объединенных ячеек](/cells/ru/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

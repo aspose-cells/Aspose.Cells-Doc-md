@@ -24,3 +24,4 @@ Aspose.Cells для Python via .NET предоставляет возможно�
 [Файл Excel с результатом](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableDataDisplayFormatRanking-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

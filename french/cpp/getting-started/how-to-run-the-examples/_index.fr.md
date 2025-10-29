@@ -24,3 +24,4 @@ N'hésitez pas à nous contacter via nos forums si vous rencontrez des problème
 Si vous souhaitez ajouter ou améliorer un exemple, nous vous encourageons à contribuer au projet. Tous les exemples et projets de démonstration de ce référentiel sont open source et peuvent être librement utilisés dans vos propres applications.
 
 Pour contribuer, vous pouvez fork le référentiel, modifier le code source et créer une pull request. Nous examinerons les modifications et les inclurons dans le référentiel si elles sont utiles.
+{{< app/cells/assistant language="cpp" >}}

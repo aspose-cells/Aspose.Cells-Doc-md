@@ -339,3 +339,4 @@ int main()
 - [تخصيص المخططات](/cells/ar/cpp/customizing-charts/)
 - [تنسيق البيانات في الرسوم البيانية](/cells/ar/cpp/data-formatting-in-charts/)
 - [ضبط مظهر الرسم البياني](/cells/ar/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

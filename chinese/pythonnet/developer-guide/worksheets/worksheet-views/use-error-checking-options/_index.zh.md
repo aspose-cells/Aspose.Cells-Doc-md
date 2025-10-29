@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NET 提供了错误检查功能。[**ErrorCheckOpti
 以下示例代码演示了如何使用 Aspose.Cells for Python via .NET API 禁用工作表中“数字存储为文本”的错误检测选项。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

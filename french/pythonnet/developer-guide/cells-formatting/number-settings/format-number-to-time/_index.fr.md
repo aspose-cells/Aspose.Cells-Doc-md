@@ -115,3 +115,4 @@ Voici un extrait de code illustrant ces étapes :
 
 Le formatage des nombres en heure dans Aspose.Cells pour Python via .NET consiste à définir un format numérique personnalisé pour les cellules où vous souhaitez afficher l’heure. En suivant les étapes décrites ci-dessus, vous pouvez facilement appliquer des formats d’heure aux cellules dans vos fichiers Excel en utilisant Aspose.Cells. Rappelez-vous, la clé est d’utiliser la chaîne de format personnalisé correcte qui correspond au format d’heure souhaité.
 
+{{< app/cells/assistant language="python-net" >}}

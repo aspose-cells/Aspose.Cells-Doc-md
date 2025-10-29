@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NET API支持更新Power Query公式项。以下代
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-UpdatePowerQueryFormulaItem-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

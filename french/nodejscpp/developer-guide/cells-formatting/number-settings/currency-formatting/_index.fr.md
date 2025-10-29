@@ -47,3 +47,4 @@ En résumé, le formatage des nombres en devise aide à distinguer les valeurs m
 Pour formater des nombres en devise dans la bibliothèque Aspose.Cells for Node.js via C++ pour travailler avec des fichiers Excel, vous pouvez appliquer le format monétaire aux cellules de manière programmatique. Voici comment faire avec Aspose.Cells for Node.js via C++ :
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

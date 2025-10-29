@@ -90,3 +90,4 @@ workbook.save(path.join(localPath, "DynamicScrollingChart.xlsx"));
 ```
 
 Вы можете попробовать изменить число "10" на "15" в ячейке "Sheet1!$H$20", и динамическая диаграмма подсчитает последние 15 наборов данных. Теперь мы успешно создали динамическую прокручиваемую диаграмму с помощью Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

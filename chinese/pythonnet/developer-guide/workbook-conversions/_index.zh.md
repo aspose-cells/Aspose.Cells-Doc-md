@@ -45,7 +45,7 @@ XPS的标记语言是XAML的子集，允许在文档中包含矢量图形元素�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XPS.py" >}}
 
 ## **转换Excel为Ods、Sxc和Fods（OpenOffice / LibreOffice Calc）**
-Aspose.Cells for Python via .NET支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板]（book1.xlsx）转换为Ods、Sxc和Fods文件。
+Aspose.Cells for Python via .NET支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将【模板】（book1.xlsx）转换为Ods、Sxc和Fods文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-ODS.py" >}}
 
@@ -135,3 +135,4 @@ Aspose.Cells for Python via .NET API提供了将电子表格转换为PPTX格式�
 - [Json](/cells/zh/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/zh/python-net/convert-excel-to-pdf/)
 - [将CSV、TSV和TXT转换为Excel](/cells/zh/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

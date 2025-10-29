@@ -54,3 +54,4 @@ console.log("Press any key to continue...");
 {{< highlight javascript >}}
 This is MyTextBox
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET 支持渲染数据透视表筛选器形状。�
 ![todo:image_alt_text](rendering-slicer_1)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RenderingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

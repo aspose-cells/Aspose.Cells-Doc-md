@@ -29,3 +29,4 @@ keywords: 使用Python将Unicode补充字符渲染到PDF文件并将Excel保存�
 您可以使用此示例代码将[源Excel文件](5115563.xlsx)转换为[输出PDF](5115564.pdf)。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

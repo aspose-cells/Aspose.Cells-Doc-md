@@ -26,3 +26,4 @@ Pour appliquer une mise en forme à une grande plage de cellules dans une feuill
 Parce que l'approche [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) utilise beaucoup moins de mémoire et est efficace, l'ancienne propriété Cell.Style, qui consommait beaucoup de mémoire inutile, a été supprimée avec la version Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -8,14 +8,67 @@ url: /fr/net/what-s-new-in-aspose-cells-for-net/
 
 Cette page décrit les fonctionnalités les plus intéressantes d'Aspose.Cells introduites dans les versions récentes.
 
+## Aspose.Cells for .NET 25.10
+* Fournir une option pour déterminer comment afficher les chiffres significatifs pour les valeurs numériques
+* Support pour traiter une cellule exportée avec ExportTableOptions personnalisé lorsque ExportAsString est vrai
+* Support pour analyser la date et l'heure avec le calendrier de l'ère impériale japonaise
+* Support pour actualiser par défaut les formules de tableau dynamique lors du calcul des formules pour le classeur
+* Améliorer la compatibilité avec la bibliothèque PdfBox pour le fichier pdf généré lors de la conversion en pdf
+* Support pour calculer le style du tableau croisé dynamique lors de la rendu d'une plage de tableau croisé dynamique en image
+* Exporter des graphiques avancés d'Excel 2016 vers docx
+* Support pour remplir un commentaire dans une cellule en utilisant les marqueurs intelligents
+
+## Aspose.Cells for .NET 25.9
+* Prise en charge de la fonction WRAPCOLS, WRAPROWS
+* Prise en charge des sélecteurs de variation de police lors de la conversion en xps
+* Prise en charge des sélecteurs de variation de police lors de la conversion en svg avec police intégrée
+* Prise en charge de l'incorporation de polices lors de la conversion de fichier en html
+* Prise en charge du format de fichier FlatOPC
+* Prise en charge des graphiques modifiables et des objets intégrés (objet OLE) dans le fichier pptx
+* Prise en charge des marqueurs intelligents pour feuille de calcul Master-Detail
+* Prise en charge du marqueur intelligent pour la répétition de la feuille de calcul
+
+## Aspose.Cells for .NET 25.8
+* Prise en charge des nouvelles fonctions de Office 365 : EXPAND, REDUCE, COT, COTH
+* Prise en charge des sélecteurs de variation de police pour l'enregistrement en pdf
+* Prise en charge de la conservation des lignes d'en-tête figées lors de l'enregistrement en HTML
+* Prise en charge des variables dans la formule et du paramètre "if" pour le marqueur intelligent
+* Prise en charge du marqueur intelligent de plage pour traiter des sources de données imbriquées
+* Prise en charge de la lecture d'images encodées en base64 et des définitions de références de liens lors de l'importation Markdown
+* Prise en charge des options d'alignement et de bordure dans le format de nombre pour GridJs
+* Prise en charge de l'application des paramètres de police dans le contrôle textbox en JS client pour GridJs
+* Prise en charge de l'insertion par lots de fonctions de ligne dans le menu et en dessous de la ligne maximale pour GridJs
+* Prise en charge du retour automatique à la ligne du texte pour GridJs
+
+## Aspose.Cells for .NET 25,7
+* Prise en charge des nouvelles fonctions dans la formule : TAKE, ISOMITTED
+* Prise en charge des variables dans le modèle Excel pour le marqueur intelligent
+* Prise en charge de l'exportation d'image flottante vers Numbers
+* Prise en charge de l'utilisation du cache de fichiers pour un grand ensemble de données de cellules afin de réduire la consommation de mémoire
+
+## Aspose.Cells for .NET 25,6
+* Prise en charge de l'intégration des polices pour le fichier pcl généré
+* Prise en charge de l'exportation de liens hypertexte et des paramètres d'impression lors de l'enregistrement dans Numbers
+* Option de sélection de la référence de la feuille pour le tableau croisé dynamique lors de la copie de la feuille de calcul
+
+## Aspose.Cells for .NET 25,5
+* Prise en charge de l'exportation d'images au format Markdown
+* Prise en charge de l'exportation de zones de texte, de formats conditionnels au format Numbers
+* Prise en charge de l'exportation d'images intégrées et de données d'entités au format Docx
+* Prise en charge de la fonction caméra pour une plage
+* Amélioration de la copie des curseurs de segmentation lors de la copie du classeur
+* Support de l'option de jeton pour les requêtes API pour GridJs
+* Prise en charge des menus polonais pour GridJs
+* Prise en charge des API JavaScript pour l'insertion/destruction de lignes/colonnes pour GridJs
+
 ## Aspose.Cells for .NET 25.4
-* Prend en charge la spécification du lot de feuilles à exporter en HTML
-* Supporte l’obtention et la définition de la couleur des lignes de grille d’une feuille de calcul
-* Supporte l’exportation de graphiques modifiables en fichiers DOCX
-* Supporte la lecture et l’écriture des étiquettes de sensibilité
-* Supporte l’exportation de plus d’attributs de style vers Numbers
-* Supporte l’importation de fichiers modèle au format Markdown
-* Supporte la détection de l’utilisation de fonctions personnalisées par les formules dans `Cell` et `Workbook`
+* Support de la spécification du lot de feuilles à exporter en HTML
+* Fonctionnalité de récupération et de définition de la couleur des lignes de la grille d'une feuille de calcul
+* Prise en charge de l'exportation de graphiques modifiables au format DOCX
+* Prise en charge de la lecture et de l'écriture des étiquettes de sensibilité
+* Prise en charge de l'exportation de plus d'attributs de style vers Numbers
+* Prise en charge de l'importation de fichiers modèle au format Markdown
+* Prise en charge de la détection de l'utilisation de fonctions personnalisées dans les formules des `Cell` et `Workbook`
 
 ## Aspose.Cells for .NET 25.3
 * Support pour obtenir le style d’affichage d’une cellule à partir des cellules sans obtenir l’objet cellule

@@ -36,3 +36,4 @@ const wb = new AsposeCells.Workbook(sourceFilePath, opts);
 wb.save(outputFilePath, AsposeCells.SaveFormat.Pdf);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

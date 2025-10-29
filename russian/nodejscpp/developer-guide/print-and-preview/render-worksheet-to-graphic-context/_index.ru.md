@@ -41,3 +41,4 @@ sheetRender.toImage(0, dataDir + "/OutputImage_out.png");
 
 // Save the image in Png format
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

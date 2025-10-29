@@ -10,7 +10,7 @@ description: Этот фрагмент представляет, как шифр
 
 
 {{% alert color="primary" %}}
-Aspose.Cells для .Net предлагает широкий спектр защиты и снятия защиты от уровня файла до уровня данных, аналогично MS Excel:
+Aspose.Cells для Python via .NET предлагает широкий спектр защиты и разблокировки на уровне файла и данных, как в MS Excel:
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Aspose.Cells для .Net предлагает широкий спектр защ
 - [Шифрование файлов Excel](/cells/ru/python-net/encrypting-excel-files/)
 - [Как обнаружить формат файла и проверить, зашифрован ли файл](/cells/ru/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

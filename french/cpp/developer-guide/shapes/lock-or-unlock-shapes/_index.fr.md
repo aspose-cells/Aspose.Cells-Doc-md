@@ -30,3 +30,4 @@ Remarque : [shape.IsLocked](https://reference.aspose.com/cells/cpp/aspose.cells.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Lock-Or-Unlock-Shapes-2.cpp" >}}
 
+{{< app/cells/assistant language="cpp" >}}

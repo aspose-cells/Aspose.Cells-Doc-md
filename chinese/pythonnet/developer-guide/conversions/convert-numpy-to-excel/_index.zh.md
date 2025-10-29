@@ -78,3 +78,4 @@ column count: 3
 输出结果：
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

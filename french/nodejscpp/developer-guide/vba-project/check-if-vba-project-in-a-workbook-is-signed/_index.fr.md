@@ -28,3 +28,4 @@ const filePath = path.join(dataDir, "Sample1.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 console.log("VBA Project is Signed: " + workbook.getVbaProject().isSigned());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

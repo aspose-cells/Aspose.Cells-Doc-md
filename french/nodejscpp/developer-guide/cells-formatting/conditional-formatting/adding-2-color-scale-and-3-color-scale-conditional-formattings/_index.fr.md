@@ -17,3 +17,4 @@ Le code d'exemple suivant ajoute des formats conditionnels 2 couleurs et 3 coule
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-Adding2-ColorScaleAnd3-ColorScale.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

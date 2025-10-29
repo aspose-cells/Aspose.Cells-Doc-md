@@ -52,3 +52,4 @@ Aspose.Cells для Python via .NET предоставляет метод [**Cel
 это первое имя, которое создано
 
 ` `< > + (adj.Private _"Частный"
+{{< app/cells/assistant language="python-net" >}}

@@ -6,3 +6,4 @@ url: /ar/cpp/cells-helper/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

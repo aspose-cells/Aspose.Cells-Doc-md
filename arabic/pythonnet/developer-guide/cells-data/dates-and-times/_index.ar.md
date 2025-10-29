@@ -3,7 +3,7 @@ title: كيفية إدارة التواريخ والأوقات
 type: docs
 weight: 600
 url: /ar/python-net/how-to-manage-dates-and-times/
-description: تعلم كيفية إدارة التواريخ والأوقات من خلال واجهة برمجة تطبيقات Aspose.Cells for .NET.
+description: تعلم كيف يمكنك إدارة التواريخ والأوقات من خلال API الخاص بـ Aspose.Cells لبايثون via .NET.
 keywords: كيفية إدارة التواريخ والأوقات، نظام التاريخ 1900، نظام التاريخ 1904، ضبط التواريخ والأوقات، الحصول على التواريخ والأوقات، إدارة التواريخ والأوقات، تخزين التواريخ والأوقات في إكسل، عرض التواريخ والأوقات في الخلايا.
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

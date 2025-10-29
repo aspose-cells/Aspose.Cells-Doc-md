@@ -141,3 +141,4 @@ Il y a de bonnes chances que le constructeur [**Workbook**](https://reference.as
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -21,3 +21,4 @@ keywords: Aspose.Cells for Python Excel库，通过Aspose.Cells for Python Excel
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableCustomSort-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -20,3 +20,4 @@ Le fichier source d'exemple et les fichiers de sortie peuvent être télécharg�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-ShowReportFilterPagesOption-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

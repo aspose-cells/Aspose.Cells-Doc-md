@@ -343,3 +343,4 @@ int main() {
 - [Appliquer un ombrage aux lignes et colonnes alternées avec une mise en forme conditionnelle](/cells/fr/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Générer des images de barres de données pour la mise en forme conditionnelle](/cells/fr/cpp/generate-conditional-formatting-databars-images/)
 - [Obtenir des ensembles d'icônes, des barres de données ou des objets de couleurs utilisés dans la mise en forme conditionnelle](/cells/fr/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

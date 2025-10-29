@@ -31,3 +31,4 @@ keywords: مكتبة Python Excel ، تعيين حدود النطاق بـ Pytho
 1. تعيين الحدود الخارجية للنطاق.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-set-border.py" >}}
+{{< app/cells/assistant language="python-net" >}}

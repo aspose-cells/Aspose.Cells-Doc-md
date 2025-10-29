@@ -95,3 +95,4 @@ url: /ar/nodejs-cpp/cells-fill-settings/
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

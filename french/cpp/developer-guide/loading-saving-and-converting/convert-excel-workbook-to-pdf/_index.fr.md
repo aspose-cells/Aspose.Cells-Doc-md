@@ -44,3 +44,4 @@ Avec la classe **IPdfSaveOptions**, vous pouvez obtenir ou définir l'heure de 
 Veuillez consulter le code d'exemple suivant et son [PDF de sortie](67338371.pdf) pour votre référence.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -97,3 +97,4 @@ Aspose.Cells可以轻松地与其他Python库和框架（如Django、Flask等）
 在Pandas中，您可以使用ExcelWriter对象和to_excel()函数将图表添加到Excel文件中。但是，请注意，Pandas本身不支持直接将图表嵌入Excel文件中，它只能将数据写入Excel文件。要添加图表，您需要使用openpyxl或xlsxwriter库来操作Excel文件。这里有一个使用xlsxwriter库向Excel文件添加图表的示例。
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

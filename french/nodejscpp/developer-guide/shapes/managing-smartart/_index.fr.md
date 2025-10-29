@@ -9,3 +9,4 @@ keywords: Gestion de Smart Art Node.js via C++, manipulation Smart Art avec Aspo
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

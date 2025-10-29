@@ -106,3 +106,4 @@ int main()
 
 - [Создание диаграмм](/cells/ru/cpp/creating-charts/)
 - [Настройка диаграмм](/cells/ru/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

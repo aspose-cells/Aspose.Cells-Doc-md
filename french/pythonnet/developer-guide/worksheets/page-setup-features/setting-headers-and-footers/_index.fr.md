@@ -58,3 +58,4 @@ Après l'exécution du code ci-dessous et l'ouverture du fichier, vérifiez l'en
 1. Sélectionnez l'onglet **En-tête/Pied de page**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

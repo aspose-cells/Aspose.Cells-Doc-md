@@ -49,3 +49,4 @@ workbook.save(os.path.join(data_dir, "output.xlsx"))
 
 如下图所示，原本可见的前两个系列在输出文件中变为不可见。
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

@@ -75,3 +75,4 @@ int main() {
 
 ## **Sujets avancés**
 - [Définir le texte de l'entrée de la légende du graphique à aucun en utilisant Aspose.Cells](/cells/fr/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

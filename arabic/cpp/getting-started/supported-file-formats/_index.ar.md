@@ -36,7 +36,7 @@ url: /ar/cpp/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|تنسيق ملف الصور المعززة EMF.| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG هو نوع من تنسيق الصور الذي يتم حفظه باستخدام طريقة الضغط مع فقدان البيانات.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|تنسيق ملف الصور GIF (GIF).| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|يمثل مستند تنسيق بتنسيق التسويق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|يمثل وثيقة ماركداون.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|تنسيق مستند XML يستخدمه OpenOffice وStarOffice.
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|هذا هو تنسيق مستند مفتوح يتم تخزينه على شكل XML مسطح.
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|تنسيق معروف لمستندات مايكروسوفت وورد والذي يعتمد على مجموعة من الملفات XML والثنائية.
@@ -47,3 +47,4 @@ url: /ar/cpp/supported-file-formats/
 |[Xml](https://docs.fileformat.com/web/xml/)|XML تعني لغة الترميز القابلة للتوسع وهي مشابهة لـ HTML ولكنها مختلفة في استخدام العلامات لتعريف الكائنات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|ملف قالب ورقة العمل الرئيسية (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW هو تنسيق ملف كتب إلكترونية رقمية تم تطويره بواسطة أمازون لأجهزتها Kindle. AZW3، المعروف أيضًا باسم Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="cpp" >}}

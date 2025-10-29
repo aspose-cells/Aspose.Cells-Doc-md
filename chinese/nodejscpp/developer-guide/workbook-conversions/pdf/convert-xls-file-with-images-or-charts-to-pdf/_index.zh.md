@@ -42,3 +42,4 @@ console.log(e.message);
  如果电子表格包含公式，最好在渲染为PDF之前调用[Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--)方法。这样可以确保公式依赖的值被重新计算，并在PDF中正确显示。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

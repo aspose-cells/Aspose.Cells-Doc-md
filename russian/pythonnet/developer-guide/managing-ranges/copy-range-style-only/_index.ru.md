@@ -22,3 +22,4 @@ keywords: Библиотека Python Excel, Python Как скопироват�
 1. Скопируйте формат первого диапазона во второй диапазон.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -4,7 +4,7 @@ linktitle: Комментарии и заметки
 type: docs
 weight: 128
 url: /ru/python-net/comments-and-notes/
-description: Вставка и управление комментариями или заметками с помощью Aspose.Cells для .Net
+description: Вставляйте и управляйте комментариями или заметками с помощью Aspose.Cells для Python via .NET.
 keywords: вставка комментариев, вставка заметок
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cells также предоставляет эту функцию. Ниж
 - [Как установить фон комментария](/cells/ru/python-net/how-to-set-comment-background/)
 - [Комментарии с цепочкой](/cells/ru/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

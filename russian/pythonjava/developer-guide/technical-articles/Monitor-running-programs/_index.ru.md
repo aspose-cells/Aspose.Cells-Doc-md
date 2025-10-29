@@ -1,7 +1,7 @@
 ---
 title: Мониторинг работающих программ
 type: docs
-weight: 20
+weight: 10
 url: /ru/python-java/monitor-running-programs/
 ---
 

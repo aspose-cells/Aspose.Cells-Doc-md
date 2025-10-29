@@ -43,3 +43,4 @@ Ces nombres sous forme de chaînes ont été convertis en nombres en utilisant [
 Le code d'exemple suivant illustre comment convertir toutes les données numériques en chaîne en nombres réels dans toutes les feuilles de calcul.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ConvertTextNumericDatatoNumber.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

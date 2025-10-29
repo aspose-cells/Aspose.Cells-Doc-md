@@ -22,3 +22,4 @@ et obtenir les lignes et colonnes verrouillées avec la méthode [**Worksheet.ge
 3. Obtenez les lignes et colonnes verrouillées
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

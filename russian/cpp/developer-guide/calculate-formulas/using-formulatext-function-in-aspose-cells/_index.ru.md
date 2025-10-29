@@ -59,3 +59,4 @@ int main()
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

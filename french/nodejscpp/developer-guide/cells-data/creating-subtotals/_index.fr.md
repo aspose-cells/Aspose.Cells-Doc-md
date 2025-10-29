@@ -33,3 +33,4 @@ Les extraits de code suivants montrent comment ajouter des sous-totaux à une fe
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-CreatingSubtotals-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

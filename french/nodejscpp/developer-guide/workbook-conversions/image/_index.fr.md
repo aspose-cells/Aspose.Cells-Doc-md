@@ -126,3 +126,4 @@ workbook.save(path.join(outputDir, "ConvertWorksheetToSVG_out.svg"));
 - [Exportation du graphique en SVG avec l'attribut viewBox](/cells/fr/nodejs-cpp/export-chart-to-svg-with-viewbox-attribute/)  
 - [Suivre la progression de la conversion d'Excel en TIFF](/cells/fr/nodejs-cpp/track-conversion-progress-of-excel-to-tiff/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

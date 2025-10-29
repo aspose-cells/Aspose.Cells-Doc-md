@@ -19,3 +19,4 @@ url: /ar/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Save-files-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

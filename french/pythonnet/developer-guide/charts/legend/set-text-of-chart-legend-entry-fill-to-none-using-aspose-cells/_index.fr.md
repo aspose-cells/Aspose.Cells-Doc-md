@@ -20,3 +20,4 @@ La capture d'écran suivante met en évidence l'effet de ce code sur le [fichier
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChartLegendEntry-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

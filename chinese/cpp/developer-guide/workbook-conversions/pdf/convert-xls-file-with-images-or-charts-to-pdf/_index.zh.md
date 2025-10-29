@@ -61,3 +61,4 @@ int main()
  如果电子表格包含公式，建议在渲染为PDF之前调用[Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/)方法。这样可以确保公式依赖的值被重新计算，并在PDF中正确显示。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

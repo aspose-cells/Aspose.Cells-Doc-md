@@ -118,3 +118,4 @@ url: /ar/python-net/chart-to-image/
 
 ## **مواضيع متقدمة**
 - [تحويل الرسم البياني إلى PDF](/cells/ar/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

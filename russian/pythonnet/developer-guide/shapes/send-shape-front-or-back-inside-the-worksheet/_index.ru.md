@@ -18,3 +18,4 @@ url: /ru/python-net/send-shape-front-or-back-inside-the-worksheet/
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-SendShapeFrontOrBackInWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

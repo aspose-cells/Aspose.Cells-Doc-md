@@ -121,3 +121,4 @@ int main()
 - [Suppression du tronçonneur](/cells/fr/cpp/removing-slicer/)
 - [Rendu du tronçonneur](/cells/fr/cpp/rendering-slicer/)
 - [Mise à jour du tronçonneur](/cells/fr/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

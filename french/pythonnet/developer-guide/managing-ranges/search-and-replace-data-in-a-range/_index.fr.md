@@ -16,3 +16,4 @@ Parfois, vous avez besoin de rechercher et remplacer des données spécifiques d
 Aspose.Cells pour Python via .NET offre la méthode [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) pour spécifier une plage lors de la recherche de données. L'exemple de code ci-dessous recherche et remplace des données dans une plage.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

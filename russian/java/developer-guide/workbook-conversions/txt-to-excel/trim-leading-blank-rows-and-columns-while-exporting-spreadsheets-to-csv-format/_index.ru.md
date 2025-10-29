@@ -21,7 +21,7 @@ url: /ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-t
 
 {{% alert color="primary" %}}
 
-До выпуска Aspose.Cells for .NET 20.4, значение по умолчанию для [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) было **false**. С момента выпуска 20.4 значение по умолчанию для [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) теперь **true**.
+До выпуска Aspose.Cells for Java 20.4 значение по умолчанию для [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) было **false**. Начиная с релиза 20.4, значение по умолчанию для [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) — **true.**
 
 {{% /alert %}}
 

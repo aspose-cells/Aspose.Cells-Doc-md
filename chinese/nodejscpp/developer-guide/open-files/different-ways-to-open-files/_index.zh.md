@@ -141,3 +141,4 @@ this.loadDataFilterOptions = LoadDataFilterOptions.Structure;
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

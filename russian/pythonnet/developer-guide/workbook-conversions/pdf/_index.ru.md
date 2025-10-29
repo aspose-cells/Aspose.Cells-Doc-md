@@ -143,3 +143,4 @@ Aspose.Cells для Python via .NET поддерживает конвертац�
 - [Сохранить указанные листы в формат PDF](/cells/ru/python-net/save-specified-worksheets-to-pdf/)
 - [Защищенные документы в формате PDF](/cells/ru/python-net/secure-pdf-documents/)
 - [Указание способа пересечения строк в выходном PDF и изображении](/cells/ru/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

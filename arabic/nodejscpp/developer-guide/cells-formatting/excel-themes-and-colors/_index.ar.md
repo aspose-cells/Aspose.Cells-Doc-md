@@ -75,3 +75,4 @@ keywords: إنشاء وتطبيق مخططات الألوان في Node.js، ط�
 ## **مواضيع متقدمة**  
 - [استخراج بيانات الثيم من ملف Excel](/cells/ar/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

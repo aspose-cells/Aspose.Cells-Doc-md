@@ -40,3 +40,4 @@ keywords: Python Excel 库，Python 冻结顶部行，Python 冻结顶部行。
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 附有[示例源Excel文件](../Freeze.xlsx)。
+{{< app/cells/assistant language="python-net" >}}

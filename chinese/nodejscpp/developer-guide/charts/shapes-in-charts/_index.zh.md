@@ -213,3 +213,4 @@ workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ## **高级主题**
 - [向图表添加艺术字水印](/cells/zh/nodejs-cpp/add-wordart-watermark-to-chart/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET كان قادرًا على تحويل أورا�
 - [تحويل مخطط Excel إلى صورة](/cells/ar/python-net/convert-an-excel-chart-to-image/)
 - [تحويل مخطط إلى صورة بتنسيق SVG](/cells/ar/python-net/converting-chart-to-image-in-svg-format/)
 - [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

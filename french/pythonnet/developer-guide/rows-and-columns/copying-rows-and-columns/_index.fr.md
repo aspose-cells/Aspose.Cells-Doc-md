@@ -33,7 +33,7 @@ Si vous cliquez sur **Coller** dans la barre d'outils **Standard** ou appuyez su
 1. Sur l'onglet Accueil, cliquez sur la flèche à côté de **Coller**, puis sélectionnez **Collage** spécial.
 1. Sélectionnez les **options** que vous souhaitez.
 
-## **Comment copier des lignes et des colonnes en utilisant Aspose.Cells for .NET**
+## **Comment copier des lignes et des colonnes en utilisant Aspose.Cells pour Python via .NET**
 
 ## **Comment copier des lignes uniques**
 
@@ -98,3 +98,4 @@ Aspose.Cells fournit maintenant [**PasteOptions**](https://reference.aspose.com/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

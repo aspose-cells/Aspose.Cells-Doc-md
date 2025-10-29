@@ -48,3 +48,4 @@ keywords: 将数字格式化为货币，单元格数字设置，数字格式化�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-currency.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

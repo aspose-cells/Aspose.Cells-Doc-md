@@ -59,3 +59,4 @@ license.set_license("/home/yourusername/Aspose.Cells.lic");
 {{% /alert %}}
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -378,3 +378,4 @@ workbook.save(path.join(dataDir, "LineWithDataMarkerChart.xlsx"), AsposeCells.Sa
 - [管理Excel图表的标题](/cells/zh/nodejs-cpp/chart-and-axis-titles/)
 - [图表渲染](/cells/zh/nodejs-cpp/chart-rendering/)
 - [获取图表趋势线的方程文本](/cells/zh/nodejs-cpp/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

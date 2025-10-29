@@ -23,3 +23,4 @@ url: /ar/python-net/chart-legend/
 
 ## **مواضيع متقدمة**
 - [اضبط نص إدخال أسطورة الرسم البياني لتملأ لا شيء باستخدام Aspose.Cells للبايثون via .NET](/cells/ar/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

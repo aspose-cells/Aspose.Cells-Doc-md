@@ -56,3 +56,4 @@ Aspose.Cells for Python via .NET 允许开发人员访问工作表的最大显�
 您可以使用[**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/)来访问工作表的最大显示范围。以下示例代码说明了如何访问[**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/)属性。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

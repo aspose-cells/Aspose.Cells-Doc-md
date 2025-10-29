@@ -33,7 +33,7 @@ const wb = new AsposeCells.Workbook(filePath);
 wb.save("sample_out.xlsx");
 ```
 
-以下代码示例，使用 JsonLoadOptions 类指定额外设置，演示导入JSON到Excel工作簿。请参考代码将[源文件](sample.json) 转换为Excel文件。
+以下代码示例，使用 JsonLoadOptions 类指定额外设置，演示导入JSON到Excel工作簿。请参考代码将【源文件】(sample.json) 转换为Excel文件。
 
 ```javascript
 const path = require("path");
@@ -85,3 +85,4 @@ AsposeCells.JsonUtility.importData(inputJson, worksheet.getCells(), row, column,
 // save file to xlsx format
 book.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

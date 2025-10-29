@@ -36,3 +36,4 @@ keywords: Python在没有内容打印时避免输出PDF中的空白页
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

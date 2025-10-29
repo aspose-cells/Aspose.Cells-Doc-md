@@ -102,3 +102,4 @@ $ pip install aspose-cells-python
 باتباع هذه الخطوات، يمكنك تشكيل الأرقام إلى نسب مئوية بسهولة في Aspose.Cells للبايثون via .NET. تقدم Aspose.Cells مجموعة واسعة من الميزات للتحكم في ملفات Excel، بما في ذلك تنسيق الخلايا، والعمل مع الصيغ، وأكثر من ذلك، مما يجعلها أداة قوية لمطوري .NET العاملين على بيانات Excel.
 
 
+{{< app/cells/assistant language="python-net" >}}

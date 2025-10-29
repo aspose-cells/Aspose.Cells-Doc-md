@@ -52,3 +52,4 @@ Aspose.Cells for Python via .NET提供了[**CellsHelper.cell_name_to_index**](ht
 这是第一个名字，它是特别私人的
 
 ` ``<> + (adj.Private _ " 私有"
+{{< app/cells/assistant language="python-net" >}}

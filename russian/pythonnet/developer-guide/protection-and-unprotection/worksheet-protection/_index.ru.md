@@ -39,3 +39,4 @@ description: Защита и снятие защиты листа Excel с по�
 - [Снятие защиты с листа](/cells/ru/python-net/unprotect-a-worksheet/)
 - [Проверить Пароль, Используемый для Защиты Листа](/cells/ru/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

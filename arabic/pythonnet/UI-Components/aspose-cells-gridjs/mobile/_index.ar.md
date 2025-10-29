@@ -13,7 +13,7 @@ keywords: excel, mobile, وورقة البيانات, محرر, ورقة بيا�
 
 يمكن لـ GridJs أن يتكيف مع شاشة الجوال.
 
-قم بتشغيل [عرض العرض التوضيحي لـ GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "عرض العرض التوضيحي لـ GridJs")
+تشغيل [عرض GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "عرض GridJs")
 
 يجب عليك الوصول إلى الصفحة عبر طريقة IP على الجهاز المحمول http://127.0.0.1:2022. 
 

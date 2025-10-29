@@ -644,3 +644,4 @@ int main()
 ## **Продвинутые темы**
 - [Применение расширенного фильтра Microsoft Excel для отображения записей, удовлетворяющих сложным критериям](/cells/ru/cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Получить все скрытые индексы строк после обновления автофильтра](/cells/ru/cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="cpp" >}}

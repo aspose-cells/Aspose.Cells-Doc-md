@@ -82,3 +82,4 @@ Aspose не предоставляет техническую поддержку
 |[Скачать Aspose.Cells for C++](https://downloads.aspose.com/cells/cpp)|Загрузите последнюю версию Aspose.Cells отсюда. Мы часто выпускаем обновления.|
 |[Форум поддержки Aspose.Cells for C++](https://forum.aspose.com/c/cells/9)|Опубликуйте свои вопросы и проблемы здесь для быстрого разрешения.|
 |[Документация продукта Aspose.Cells for C++](/cells/ru/cpp/)|Полная онлайн-документация, которая включает в себя эту документацию, а также Справочник API по Aspose.Cells.|
+{{< app/cells/assistant language="cpp" >}}

@@ -65,3 +65,4 @@ int main()
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، فمن الأفضل الاتصال بـ [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) قبل تصيير الجدول إلى PDF. سيساعد ذلك على إعادة حساب القيم المعتمدة على الصيغ، وإظهار القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

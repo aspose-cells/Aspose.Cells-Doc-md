@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Отобразить Рабочий лист на графический контекст](/cells/ru/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Указание индивидуального или частного набора шрифтов для рендеринга книги](/cells/ru/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

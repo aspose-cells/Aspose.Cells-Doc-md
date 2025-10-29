@@ -55,3 +55,4 @@ int main()
 إذا كان جدول البيانات الخاص بك يحتوي على صيغ، من الأفضل استدعاء [Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) قبل عرض الجدول كـ PDF. هذا يضمن إعادة حساب القيم المعتمدة على الصيغة، ويتم عرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ url: /ru/python-net/generate-conditional-formatting-databars-images/
 В следующем образце кода генерируется изображение панели данных ячейки C1. Сначала он получает объект условного форматирования ячейки, и затем из этого объекта извлекает объект [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar) и использует его метод [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) для создания изображения ячейки. Наконец, он сохраняет изображение на диск.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

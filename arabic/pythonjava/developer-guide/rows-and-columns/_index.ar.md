@@ -1,7 +1,7 @@
 ---
 title: الصفوف والأعمدة
 type: docs
-weight: 90
+weight: 58
 url: /ar/python-java/rows-and-columns/
 ---
 

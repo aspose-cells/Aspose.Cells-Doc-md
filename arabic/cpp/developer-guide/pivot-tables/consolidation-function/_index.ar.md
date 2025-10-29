@@ -84,3 +84,4 @@ int main()
 دعم وظيفة تجميع العدد المميز من قبل Microsoft Excel 2013 فقط.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

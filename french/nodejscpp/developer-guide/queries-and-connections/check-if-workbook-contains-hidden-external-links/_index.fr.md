@@ -65,3 +65,4 @@ Is Referred: True
 
 Is Visible: False  
 {{< /highlight >}}  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Définir le type de forme des étiquettes de données du graphique](/cells/fr/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Affichage de la plage de cellules sous forme d'étiquettes de données](/cells/fr/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

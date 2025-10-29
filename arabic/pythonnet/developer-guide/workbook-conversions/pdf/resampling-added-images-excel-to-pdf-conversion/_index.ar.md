@@ -26,3 +26,4 @@ keywords: Python تحويل صور محددة عند تحويل اكسل الىP
 إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

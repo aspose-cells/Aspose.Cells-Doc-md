@@ -82,3 +82,4 @@ int main()
 تُظهر اللقطة الشاشية التالية الإخراج الناتج من الكود المثالي السابق.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="cpp" >}}

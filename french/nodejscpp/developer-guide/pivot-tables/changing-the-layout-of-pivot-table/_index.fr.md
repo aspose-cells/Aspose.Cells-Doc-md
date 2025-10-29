@@ -22,3 +22,4 @@ La bibliothèque Aspose.Cells for Node.js via C++ fournit également les méthod
 Le code d'exemple suivant montre d'abord le tableau croisé dynamique sous forme compacte, puis il montre le tableau croisé dynamique sous forme de plan et enfin il montre le tableau croisé dynamique sous forme tabulaire.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

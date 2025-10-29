@@ -49,3 +49,4 @@ Lorsque le code ci-dessus est exécuté, le formatage conditionnel est appliqué
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 Lorsque le code ci-dessus est exécuté, le formatage conditionnel est appliqué à la cellule “B3” de la première feuille du fichier de sortie (output.xls). Le formatage dépend de la formule qui calcule la valeur de “B3” comme la somme de B1 et B2.
+{{< app/cells/assistant language="nodejs-cpp" >}}

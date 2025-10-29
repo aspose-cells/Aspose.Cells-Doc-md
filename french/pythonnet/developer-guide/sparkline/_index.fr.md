@@ -23,3 +23,4 @@ Il est simple de créer un graphique en miniature avec Aspose.Cells pour Python 
 ## **Sujets avancés**
 - [Utiliser les sparklines et les paramètres de format 3D](/cells/fr/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -59,3 +59,4 @@ keywords: فرز البيانات بترتيب تصاعدي أو تنازلي، 
 - [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

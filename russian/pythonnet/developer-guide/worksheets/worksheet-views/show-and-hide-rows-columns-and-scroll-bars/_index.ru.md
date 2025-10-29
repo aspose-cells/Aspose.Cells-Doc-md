@@ -76,3 +76,4 @@ Aspose.Cells для Python via .NET предоставляет класс, [**Wo
 Ниже приведен полный код, который открывает файл Excel, book1.xls, скрывает оба ползунка прокрутки, а затем сохраняет измененный файл как output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Worksheets-Display-DisplayHideScrollBars-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

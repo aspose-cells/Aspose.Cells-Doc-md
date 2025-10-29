@@ -21,3 +21,4 @@ url: /zh/python-net/create-volume-high-low-close-stock-chart/
 以下示例代码加载了 [样本Excel文件](Volume-High-Low-Close.xlsx) 并生成了 [输出Excel文件](out.xlsx)。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-volume-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

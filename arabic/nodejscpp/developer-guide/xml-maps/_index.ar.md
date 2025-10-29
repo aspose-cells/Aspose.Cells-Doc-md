@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [العثور على اسم عنصر الجذر في خريطة XML](/cells/ar/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [ربط الخلايا بعناصر خريطة XML](/cells/ar/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

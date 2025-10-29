@@ -20,3 +20,4 @@ keywords: Aspose.Cells لـ Python اكسل، مكتبة Python الخاصة ب�
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

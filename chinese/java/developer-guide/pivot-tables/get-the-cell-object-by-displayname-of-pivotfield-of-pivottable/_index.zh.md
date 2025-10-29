@@ -7,7 +7,7 @@ url: /zh/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells 提供 [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) 方法，您可以用它通过枢轴字段的显示名称访问单元格对象。当你想突出显示或格式化枢轴字段标题时，这个方法非常有用。本文解释了如何通过显示名称获取数据字段的单元格对象并对其应用格式。
+Aspose.Cells 提供 [PivotTable.getCellByDisplayName()](https://reference.aspose.com/cells/zh/java/com.aspose.cells/pivottable#getCellByDisplayName-java.lang.String-) 方法，您可以用它通过枢轴字段的显示名称访问单元格对象。当你想突出显示或格式化枢轴字段标题时，这个方法非常有用。本文解释了如何通过显示名称获取数据字段的单元格对象并对其应用格式。
 
 {{% /alert %}} 
 ## **通过透视表的透视字段的DisplayName获取单元格对象**

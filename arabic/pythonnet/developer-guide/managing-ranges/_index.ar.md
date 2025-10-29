@@ -76,3 +76,4 @@ CurrentRegion هو خاصية تقوم بإرجاع كائن Range يمثل ال
 - [إنشاء أسماء مسماة محددة بنطاق العمل وورقة العمل](/cells/ar/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [البحث والاستبدال في بيانات النطاق](/cells/ar/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

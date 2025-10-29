@@ -238,3 +238,4 @@ workbook.save("outSourceWithCustProps.pdf", pdfSaveOptions);
 - [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [مستندات PDF آمنة](/cells/ar/nodejs-cpp/secure-pdf-documents/)
 - [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

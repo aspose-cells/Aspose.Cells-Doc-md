@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET提供了导出工作表CSS的功能，在将Exc
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SetSingleSheetTabNameInHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

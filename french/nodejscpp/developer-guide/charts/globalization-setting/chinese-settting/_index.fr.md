@@ -110,3 +110,4 @@ Après l'opération ci-dessus, nous pouvons obtenir une image de graphique de so
 |Autre Nom|其他|Autre|  
 |Nom de Série|系列|Série|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

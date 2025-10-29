@@ -185,3 +185,4 @@ wb.save(path.join(outputDir, "AutofitRowsforMergedCells.xlsx"));
 ## **مواضيع متقدمة**  
 - [تلائم حجم الصفوف للخلايا المدمجة](/cells/ar/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

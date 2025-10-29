@@ -88,5 +88,5 @@ System.out.println("Un-formatted String Value: " + unformatted);
 
 {{% /alert %}}
 ## **已废弃Bytes、Characters、CharactersWithSpaces、Lines、Paragraphs属性**
-从Aspose.Cells for .NET 8.1.0开始，BuiltInDocumentPropertyCollection类中的许多属性已被标记为过时。这些属性包括Bytes，Characters，CharactersWithSpaces，Lines和Paragraphs。原因是这些属性在保留Excel电子表格时没有用处，因为Excel会省略它们。而这些属性最初是为Word文档和PowerPoint演示文稿编写的。 
+从 Aspose.Cells for Java 8.1.0 版本起，BuiltInDocumentPropertyCollection 类的许多属性已被标记为过时。这些属性包括 Bytes、Characters、CharactersWithSpaces、Lines 和 Paragraphs。原因是上述属性在保护 Excel 电子表格方面无用，因为 Excel 会省略它们。而这些属性最初是为 Word 文档和 PowerPoint 演示文稿编写的。 
 {{< app/cells/assistant language="java" >}}

@@ -44,3 +44,4 @@ BoxWhisker
 - [创建瀑布图](/cells/zh/python-net/creating-waterfall-chart/)
 - [创建树状图表](/cells/zh/python-net/creating-treemap-chart/)
 - [创建旭日图](/cells/zh/python-net/creating-sunburst-chart/)
+{{< app/cells/assistant language="python-net" >}}

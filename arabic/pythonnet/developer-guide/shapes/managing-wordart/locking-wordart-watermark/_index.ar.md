@@ -14,3 +14,4 @@ url: /ar/python-net/locking-wordart-watermark/
 تسمح واجهات برمجة التطبيقات Aspose.Cells for Python via .NET بقفل جوانب معينة من العلامة المائية بحيث يمكن تقليل أو تعطيل تفاعل المستخدم. يوضح مقطع الشيفرة التالي كيفية استخدام API الخاص بـ Aspose.Cells for Python via .NET لقفل التحديد، الحركة، التحرير، وإعادة التغيير في حجم العلامة المائية من خلال إنشاء جدول بيانات من البداية.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

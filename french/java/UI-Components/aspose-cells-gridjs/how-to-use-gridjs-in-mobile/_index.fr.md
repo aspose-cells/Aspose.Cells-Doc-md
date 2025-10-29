@@ -15,7 +15,7 @@ Vous pouvez utiliser GridJs facilement sur un appareil mobile.
 
 Le JS client GridJs peut s'adapter à l'écran mobile.
 
-Lancer la [démo de GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo de GridJs")
+Exécutez la [démo de GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs "démo de GridJs")
 
 Le port par défaut du projet de démo est 8080. 
 

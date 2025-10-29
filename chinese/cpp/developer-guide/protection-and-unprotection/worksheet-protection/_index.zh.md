@@ -90,3 +90,4 @@ int main()
 - [保护工作表](/cells/zh/cpp/protecting-worksheets/)
 - [取消保护工作表](/cells/zh/cpp/unprotect-a-worksheet/)
 - [验证用于保护工作表的密码](/cells/zh/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

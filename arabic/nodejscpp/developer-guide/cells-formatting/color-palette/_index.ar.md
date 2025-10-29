@@ -36,3 +36,4 @@ keywords: node.js إضافة ألوان مخصصة إلى لوحة الألوا�
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

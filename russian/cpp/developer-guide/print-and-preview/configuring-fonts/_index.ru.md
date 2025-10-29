@@ -143,3 +143,4 @@ int main()
 - [Установите шрифт по умолчанию при отображении электронной таблицы в изображения](/cells/ru/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Установите свойство DefaultFont в PdfSaveOptions и ImageOrPrintOptions для приоритета](/cells/ru/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Поддерживаемые форматы шрифтов](/cells/ru/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

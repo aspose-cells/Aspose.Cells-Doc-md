@@ -83,3 +83,4 @@ int main()
 - [Настройка метки данных диаграммы точки с использованием разностных стилей](/cells/ru/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Установка типа формы меток данных диаграммы](/cells/ru/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Показ диапазона ячеек в качестве меток данных](/cells/ru/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

@@ -111,3 +111,4 @@ Aspose.Cells for Python via .NET предоставляет класс [**Workbo
 - [Настройки чисел](/cells/ru/python-net/cells-number-settings/)
 - [Получение и установка стиля ячеек](/cells/ru/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

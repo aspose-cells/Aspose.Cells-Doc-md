@@ -36,3 +36,4 @@ url: /ar/python-net/what-is-a-designer-spreadsheet/
 بالإضافة إلى ذلك، يتيح لك Aspose.Cells إضافة [علامات ذكية](/cells/ar/python-net/smart-markers/) إلى ورقة البيانات المصممة. تتم معالجة العلامات الذكية أثناء التشغيل باستخدام طريقة Process في فئة WorkbookDesigner. يمكن أن يساعدك ذلك على كتابة أقل قدر من الشفرة والحصول على نتائج رائعة.
 
 [اكتشف المزيد عن العلامات الذكية](/cells/ar/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

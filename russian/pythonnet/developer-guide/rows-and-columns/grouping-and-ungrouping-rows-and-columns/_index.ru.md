@@ -64,3 +64,4 @@ Microsoft Excel позволяет настроить параметры гру�
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) имеет перегрузку, принимающую третий параметр логического типа. Установка его в **true** удаляет всю группированную информацию. В противном случае удаляется только внешняя информация о группе.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -98,3 +98,4 @@ int main()
 结果文件预览：
 <br>
 <image src="result.png" width="70%" />
+{{< app/cells/assistant language="cpp" >}}

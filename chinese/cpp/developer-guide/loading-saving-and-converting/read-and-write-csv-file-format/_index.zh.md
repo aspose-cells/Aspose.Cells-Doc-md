@@ -11,3 +11,4 @@ Microsoft Excel支持多种格式，如XLS、XLSX、XLSM、XLSB、CSV等。Aspos
 以下示例代码加载[源CSV文件](23166994.csv)，并读取其单元格A1，然后将其内容复制到单元格C4并保存为[输出CSV文件](23166994.csv)。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

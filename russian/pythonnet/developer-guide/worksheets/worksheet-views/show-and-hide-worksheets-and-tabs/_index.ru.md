@@ -59,3 +59,4 @@ Aspose.Cells для Python via .NET предоставляет класс, [**Wo
 ### **Управление Шириной Панели Вкладок**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -51,3 +51,4 @@ int main() {
 
 - [Formatage du tableau croisé dynamique](/cells/fr/cpp/formatting-pivot-table/)
 - [Travailler avec les formats d'affichage des données de DataField dans le tableau croisé dynamique](/cells/fr/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

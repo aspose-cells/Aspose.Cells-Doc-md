@@ -58,3 +58,4 @@ Aspose.Cells для Python via .NET позволяет добавлять заг
 1. Выберите вкладку **Шапка/Нижний колонтитул**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

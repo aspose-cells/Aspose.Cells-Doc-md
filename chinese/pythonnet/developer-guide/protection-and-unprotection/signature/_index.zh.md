@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET 提供了[**Aspose.Cells.DigitalSignatures**](h
 - [在工作表中添加签名行](/cells/zh/python-net/add-signature-line/)
 - [XAdES 签名的支持](/cells/zh/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

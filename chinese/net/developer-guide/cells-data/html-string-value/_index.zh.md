@@ -4,8 +4,8 @@ linktitle: HTML 字符串值
 type: docs
 weight: 50
 url: /zh/net/adding-html-rich-text-inside-the-cell/
-description: 学习如何通过 Aspose.Cells for .NET API 在单元格内添加 HTML 富文本。
-keywords: 在单元格内添加 HTML 富文本，设置单元格内的 HTML 富文本，在单元格中添加 HTML 富文本
+description: 了解如何通过 Aspose.Cells for .NET API 在单元格内添加HTML富文本以及在单个单元格中显示多种样式。
+keywords: 在单元格内添加HTML富文本、设置单元格内的HTML富文本、单个单元格内的多种样式、在单元格内添加HTML富文本
 ---
 
 {{% alert color="primary" %}}

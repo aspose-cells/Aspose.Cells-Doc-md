@@ -27,3 +27,4 @@ keywords: إضافة النص الغني HTML داخل الخلية Node.js عب
 
 - [عرض الرموز باستخدام قيمة الخلية باستخدام HTML](/cells/ar/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [الحصول على سلسلة HTML5 من الخلية](/cells/ar/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

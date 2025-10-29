@@ -18,3 +18,4 @@ keywords: Python Excel库，Python在排序数据时添加排序警告，Python�
 下面的示例代码说明了如何使用前面解释的[**DataSorter.sort_as_number**](https://reference.aspose.com/cells/python-net/aspose.cells/datasorter/sort_as_number/)属性。有关更多帮助，请查看其[示例Excel文件](43352075.xlsx)和[输出Excel文件](43352076.xlsx)。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SpecifyingSortWarningWhileSortingData.py" >}}
+{{< app/cells/assistant language="python-net" >}}

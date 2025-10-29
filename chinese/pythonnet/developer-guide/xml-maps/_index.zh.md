@@ -42,3 +42,4 @@ Aspose.Cells for Python via .NET允许您使用 [**Workbook.import_xml()**](http
 - [通过 Worksheet.XmlMapQuery 方法查询映射到 XML 地图路径的单元格区域](/cells/zh/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

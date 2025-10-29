@@ -79,3 +79,4 @@ Aspose.Cells لبيثون via .NET توفر فئة تمثل ملف Excel لمي�
 
 ## **مواضيع متقدمة**
 - [تلائم حجم الصفوف للخلايا المدمجة](/cells/ar/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

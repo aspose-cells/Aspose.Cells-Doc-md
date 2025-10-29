@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NET 支持提取不常见类型的对象，如 MOL�
 - [获取或设置嵌入的OLE对象的类标识符](/cells/zh/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [将WAV文件插入为一个OLE对象。](/cells/zh/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

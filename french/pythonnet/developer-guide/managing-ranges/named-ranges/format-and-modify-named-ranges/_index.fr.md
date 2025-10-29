@@ -53,3 +53,4 @@ Aspose.Cells fournit la méthode [**Range.intersect**](https://reference.aspose.
 Aspose.Cells fournit la méthode [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) pour fusionner les cellules dans la plage. L'exemple suivant montre comment fusionner les cellules individuelles d'une plage nommée.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

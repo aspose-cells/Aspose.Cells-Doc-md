@@ -68,3 +68,4 @@ console.log("AddCustomXMLPartsAndSelectThemByID executed successfully.");
  Found: CustomXmlPart ID Sport  
 {{< /highlight >}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

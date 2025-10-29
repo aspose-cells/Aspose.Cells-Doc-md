@@ -45,3 +45,4 @@ int main()
 ```
 
 ![solid-gridline.png](solid-gridline.png)
+{{< app/cells/assistant language="cpp" >}}

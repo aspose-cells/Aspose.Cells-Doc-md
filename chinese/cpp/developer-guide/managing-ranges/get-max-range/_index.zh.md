@@ -154,3 +154,4 @@ int main()
 ```
 
 这是 [源 Excel 文件](Book1.xlsx)。
+{{< app/cells/assistant language="cpp" >}}

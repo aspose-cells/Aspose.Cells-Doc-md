@@ -18,3 +18,4 @@ keywords: Aspose.Cells لـ Python Excel، مكتبة Excel Python، حفظ جد
 تم إرفاق الملف الناتج المولوظ بالكود أعلاه للرجوع إليه.
 
 [ملف ODS الناتج](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

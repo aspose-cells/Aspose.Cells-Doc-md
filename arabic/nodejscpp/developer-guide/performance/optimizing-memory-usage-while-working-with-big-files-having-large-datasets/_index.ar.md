@@ -27,3 +27,4 @@ url: /ar/nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-
 1. **إدراج وحذف الخلايا والصفوف**: يرجى ملاحظة أنه إذا كانت هناك الكثير من عمليات الإدراج/الحذف للخلايا/الصفوف، سيكون هناك تدهور أداء ملحوظ لوضع [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) مقارنة بوضع [**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/).
 1. **العمل على أنواع مختلفة من الخلايا**: إذا كان معظم الخلايا تحتوي على قيم سلسلة أو صيغ، فإن تكلفة الذاكرة ستكون نفسها كوضع [**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) ولكن إذا كانت هناك الكثير من الخلايا الفارغة، أو قيم الخلايا هي رقمية، بوليانية وما إلى ذلك، فإن الخيار [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) سيعطي أداءً أفضل.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

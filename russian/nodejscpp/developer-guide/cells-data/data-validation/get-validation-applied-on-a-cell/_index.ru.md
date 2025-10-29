@@ -25,3 +25,4 @@ keywords: применить проверку ячейки в excel с помо�
 ## Связанные статьи
 
 - [Валидация данных](/cells/ru/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

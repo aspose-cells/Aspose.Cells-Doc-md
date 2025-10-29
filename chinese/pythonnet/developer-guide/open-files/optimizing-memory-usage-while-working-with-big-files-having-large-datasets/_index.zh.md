@@ -35,3 +35,4 @@ url: /zh/python-net/optimizing-memory-usage-while-working-with-big-files-having-
 1. **插入和删除单元格和行**：请注意，如果大量进行单元格/行的插入/删除操作，与*Normal*模式相比，*MemoryPreference*模式的性能将明显下降。
 1. **操作不同的单元格类型**：如果大部分单元格包含字符串值或公式，那么内存成本将与*Normal*模式相同；但如果有大量的空单元格，或单元格值为数字、布尔值等，[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting)选项将提供更好的性能。
 
+{{< app/cells/assistant language="python-net" >}}

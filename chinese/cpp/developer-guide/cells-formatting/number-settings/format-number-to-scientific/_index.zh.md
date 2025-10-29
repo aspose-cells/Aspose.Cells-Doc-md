@@ -142,3 +142,4 @@ int main()
 ### 结论
 
 通过遵循这些步骤，你可以在 Aspose.Cells for C++ 中将数字格式化为科学计数法。记住，你可以根据需要自定义格式字符串（"0.00E+00"），以调整小数位数或科学计数法显示的其他方面。
+{{< app/cells/assistant language="cpp" >}}

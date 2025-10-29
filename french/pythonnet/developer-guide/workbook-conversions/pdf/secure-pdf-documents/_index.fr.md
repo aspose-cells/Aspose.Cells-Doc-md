@@ -33,3 +33,4 @@ Le code d'exemple ci-dessous décrit comment sécuriser les PDF avec Aspose.Cell
 Si le classeur contient des formules, il est préférable d'appeler [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant de le rendre au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

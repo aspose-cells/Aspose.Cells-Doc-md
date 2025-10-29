@@ -9,3 +9,4 @@ Avec la prévalence croissante des écrans haute résolution, les images génér
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ExcelToHighResolutionImage.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

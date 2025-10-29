@@ -47,3 +47,4 @@ console.log("Web Query URL: " + webQuery.getUrl());
 Web Query URL: https://docs.aspose.com/cells/nodejs-cpp/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

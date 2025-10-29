@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Lire les étiquettes des axes après le calcul du graphique](/cells/fr/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Comment définir l'axe des catégories dans un graphique Excel](/cells/fr/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

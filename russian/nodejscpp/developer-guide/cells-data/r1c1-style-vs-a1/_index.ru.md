@@ -55,3 +55,4 @@ keywords: Р style R1C1 VS. стиль A1 Node.js через C++, стиль с�
 Стиль ссылок R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="nodejs-cpp" >}}

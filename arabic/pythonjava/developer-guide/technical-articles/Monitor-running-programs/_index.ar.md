@@ -1,7 +1,7 @@
 ---
 title: مراقبة البرامج الجارية
 type: docs
-weight: 20
+weight: 10
 url: /ar/python-java/monitor-running-programs/
 ---
 

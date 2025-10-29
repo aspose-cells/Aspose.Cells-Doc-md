@@ -63,3 +63,4 @@ book.save(path.join(dataDir, "output.xlsx"));
 
 ## **مواضيع متقدمة**
 - [استخدام الشرائط الإشارية وإعدادات تنسيق ثلاثي الأبعاد](/cells/ar/nodejs-cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

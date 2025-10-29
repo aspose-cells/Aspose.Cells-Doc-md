@@ -1,7 +1,7 @@
 ---
 title: 特性
 type: docs
-weight: 5
+weight: 10
 url: /zh/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++特性。"
@@ -99,3 +99,4 @@ Aspose.Cells 提供对所有电子表格元素格式属性的详细程序化访�
 |设置打印区域、打印标题，或打开网格线等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

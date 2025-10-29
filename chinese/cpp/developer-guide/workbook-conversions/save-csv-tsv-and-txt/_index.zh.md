@@ -102,3 +102,4 @@ int main()
 ## **高级主题**
 - [在将电子表格导出为CSV格式时保留空行的分隔符](/cells/zh/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [导出电子表格到CSV格式时修剪前导空白行和列](/cells/zh/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

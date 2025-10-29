@@ -55,3 +55,4 @@ Si l'option [PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)](https://refe
 Si votre feuille de calcul contient des formules, il est préférable d'appeler [Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes des formules sont recalculées, et que les valeurs correctes sont affichées dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

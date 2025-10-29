@@ -45,3 +45,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 كما هو موضح في الشكل أدناه، تم ضبط النقاط الأربعة "مجموع" بشكل صحيح، ويمكنك رؤية الفرق عن المخطط السابق.
 
 ![todo:image_alt_text](set-as-total2.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

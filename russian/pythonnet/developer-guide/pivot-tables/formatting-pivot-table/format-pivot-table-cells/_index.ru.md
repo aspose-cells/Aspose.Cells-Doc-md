@@ -22,3 +22,4 @@ keywords: Форматирование ячеек сводной таблицы.
 
 - [Форматирование сводной таблицы](/cells/ru/python-net/formatting-pivot-table/)
 - [Работа с форматами отображения данных DataField в сводной таблице](/cells/ru/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

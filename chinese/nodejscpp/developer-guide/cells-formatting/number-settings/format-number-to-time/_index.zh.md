@@ -111,3 +111,4 @@ keywords: 将数值转换为时间格式，将数字转换为时间表示，改�
 
 在 Aspose.Cells for Node.js via C++ 中将数字格式化为时间，涉及为想要显示时间的单元格设置自定义数字格式。按照上述步骤操作，您可以轻松将时间格式应用到 Excel 文件中的单元格。记住，关键是使用与您希望的时间格式匹配的正确自定义格式字符串。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

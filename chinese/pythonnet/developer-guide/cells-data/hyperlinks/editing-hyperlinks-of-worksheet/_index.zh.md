@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET 允许您使用 [**Worksheet.hyperlinks**](http
 以下示例代码访问工作表的所有超链接，并将它们的 [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) 属性更改为 Aspose 网站。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

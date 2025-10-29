@@ -18,3 +18,4 @@ Le code d'échantillon suivant crée une zone de texte et ajoute du texte en jap
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

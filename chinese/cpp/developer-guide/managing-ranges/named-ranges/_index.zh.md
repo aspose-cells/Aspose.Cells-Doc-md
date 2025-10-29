@@ -102,3 +102,4 @@ int main()
 - [获取带有外部链接的范围](/cells/zh/cpp/get-range-with-external-links/)
 - [实现非连续范围](/cells/zh/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

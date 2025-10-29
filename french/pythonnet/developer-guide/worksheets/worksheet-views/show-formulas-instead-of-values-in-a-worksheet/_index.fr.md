@@ -16,3 +16,4 @@ Il est possible d’afficher les formules au lieu des valeurs calculées dans Mi
 Aspose.Cells pour Python via .NET fournit une propriété [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas). Définissez cette propriété sur **true** pour configurer Microsoft Excel afin d’afficher les formules.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

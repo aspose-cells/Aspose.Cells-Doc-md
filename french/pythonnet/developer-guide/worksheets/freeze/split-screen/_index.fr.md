@@ -51,3 +51,4 @@ Pour supprimer la division de la feuille de calcul, il suffit de cliquer à nouv
 Aspose.Cells pour Python via .NET fournit une méthode [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) pour supprimer la configuration de division.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}
+{{< app/cells/assistant language="python-net" >}}

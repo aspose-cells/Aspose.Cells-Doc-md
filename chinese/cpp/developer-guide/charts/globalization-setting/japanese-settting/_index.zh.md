@@ -126,3 +126,4 @@ public:
 |图例总数名称|すべての|Total|
 |其它名称|その他|Other|
 |系列名称|シリーズ|Series|
+{{< app/cells/assistant language="cpp" >}}

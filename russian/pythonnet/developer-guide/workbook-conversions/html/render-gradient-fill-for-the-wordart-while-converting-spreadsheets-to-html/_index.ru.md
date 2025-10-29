@@ -14,3 +14,4 @@ url: /ru/python-net/render-gradient-fill-for-the-wordart-while-converting-spread
 Следующий образец кода преобразует [исходный файл Excel](22774111.xlsx) в [выходной формат HTML](22774109.zip). Исходный файл Excel содержит объект WordArt с градиентной заливкой, как показано на приведенном выше скриншоте.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

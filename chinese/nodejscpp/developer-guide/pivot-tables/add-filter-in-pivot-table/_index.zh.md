@@ -15,3 +15,4 @@ keywords: Aspose.Cells for Node.js via C++ Excel、Excel Node.js库，使用Aspo
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Add-filter-in-PivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

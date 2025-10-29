@@ -88,3 +88,4 @@ int main()
 - [التعامل مع الوحدات التلقائية لمحور الرسم البياني مثل Microsoft Excel](/cells/ar/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [قراءة تسميات المحور بعد حساب الرسم البياني](/cells/ar/cpp/read-axis-labels-after-calculating-the-chart/)
 - [كيفية تعيين محور الفئة في رسم بياني Excel](/cells/ar/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

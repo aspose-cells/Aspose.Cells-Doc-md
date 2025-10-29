@@ -38,3 +38,4 @@ wb.getSettings().setShared(true);
 wb.save("outputSharedWorkbook.xlsx");
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

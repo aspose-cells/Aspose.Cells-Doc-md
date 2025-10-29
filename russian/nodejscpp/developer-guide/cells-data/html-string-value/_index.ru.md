@@ -27,3 +27,4 @@ Aspose.Cells поддерживает преобразование HTML, ори�
 
 - [Отображение маркеров путем установки значения ячейки с использованием HTML](/cells/ru/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [Получение строки HTML5 из ячейки](/cells/ru/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

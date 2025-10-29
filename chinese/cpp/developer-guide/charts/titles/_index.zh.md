@@ -107,3 +107,4 @@ int main()
 
 ## ** 高级主题**
 - [从ODS文件中读取图表副标题](/cells/zh/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

@@ -384,3 +384,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Définir une image comme remplissage d'arrière-plan dans le graphique](/cells/fr/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

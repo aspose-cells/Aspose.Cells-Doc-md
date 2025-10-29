@@ -16,3 +16,4 @@ keywords: مكتبة Excel Python، كيفية نسخ أطوال الصفوف م
 يوضح الكود العيني التالي كيفية استخدام enum [**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype) لنسخ ارتفاعات الصف من نطاق المصدر إلى نطاق الوجهة. بمجرد فتح ملف إكسل الناتج الذي تم إنشاؤه بواسطة هذا الكود في Microsoft Excel، سترى أن ارتفاعات صفوف نطاق الوجهة تطابق تمامًا مع ارتفاعات صفوف نطاق المصدر.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

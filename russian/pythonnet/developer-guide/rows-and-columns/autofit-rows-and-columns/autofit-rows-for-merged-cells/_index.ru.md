@@ -31,3 +31,4 @@ Aspose.Cells для Python via .NET поддерживает эту функци
 ## **Пример кода на C#**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-AutoFitRowsMergedCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -16,3 +16,4 @@ keywords: Избегайте экспоненциальной нотации б�
 В следующем образце кода объясняется использование свойства [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/). API импортирует число как есть, не преобразуя его в экспоненциальную нотацию.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

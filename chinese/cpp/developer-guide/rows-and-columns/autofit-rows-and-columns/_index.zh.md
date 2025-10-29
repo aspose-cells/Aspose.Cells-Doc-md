@@ -236,3 +236,4 @@ int main()
 
 ## **高级主题**
 - [为合并单元格自动调整行高](/cells/zh/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

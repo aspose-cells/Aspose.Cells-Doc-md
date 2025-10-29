@@ -16,7 +16,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-2-2/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取创建电子表格的应用程序的版本号](/cells/zh/java/get-the-version-number-of-the-application-that-created-the-excel-document/)
+请查看详细文章【获取创建电子表格的应用程序的版本号】(/cells/zh/java/get-the-version-number-of-the-application-that-created-the-excel-document/)
 
 {{% /alert %}} 
 
@@ -37,7 +37,7 @@ System.out.println(properties.getVersion());
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取图表的工作表](/cells/zh/java/get-worksheet-of-the-chart/)以获取更多信息。
+请查看详细文章【获取图表的工作表】(/cells/zh/java/get-worksheet-of-the-chart/)以获取更多信息。
 
 {{% /alert %}} 
 

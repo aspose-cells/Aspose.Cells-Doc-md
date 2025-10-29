@@ -18,3 +18,4 @@ url: /ar/python-net/set-picture-as-background-fill-in-the-chart/
 ## كود C# لتعيين الصورة كتعبئة خلفية في الرسم البياني
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

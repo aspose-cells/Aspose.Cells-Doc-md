@@ -60,3 +60,4 @@ Aspose.Cells for Python via .NET 支持将 CSV 转换为 JSON。为此，API 提
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

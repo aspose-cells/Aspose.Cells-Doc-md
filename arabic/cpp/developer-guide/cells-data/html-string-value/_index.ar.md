@@ -60,3 +60,4 @@ int main()
 
 - [عرض الرموز باستخدام قيمة الخلية باستخدام HTML](/cells/ar/cpp/display-bullets-by-setting-cell-value-using/)
 - [الحصول على سلسلة HTML5 من الخلية](/cells/ar/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

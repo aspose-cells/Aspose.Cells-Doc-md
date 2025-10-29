@@ -29,3 +29,4 @@ La capture d'écran suivante montre comment Aspose.Cells pour Python via .NET a 
 Vous pouvez utiliser ce code d'exemple pour convertir le [fichier Excel source](5115563.xlsx) en [PDF de sortie](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

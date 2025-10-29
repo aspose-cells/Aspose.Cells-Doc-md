@@ -60,3 +60,4 @@ workbook.save("outputRussianGlobalization.pdf");
 }
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

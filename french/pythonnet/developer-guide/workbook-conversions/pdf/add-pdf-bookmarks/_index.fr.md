@@ -24,3 +24,4 @@ Veuillez consulter le code d'exemple suivant pour savoir comment ajouter des sig
 Si votre feuille de calcul contient des formules, il est préférable d'appeler [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes des formules sont actualisées et rendues correctement au format PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

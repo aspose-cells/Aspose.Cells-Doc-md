@@ -21,3 +21,4 @@ Aspose.Cells支持对现有命名范围进行操作。可以从[Workbook.GetWork
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

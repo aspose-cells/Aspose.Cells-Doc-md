@@ -142,3 +142,4 @@ int main()
 - Aspose.Cells支持多种数字格式，包括小数、百分比、货币等。你可以自定义格式以满足你的特定需求。
 
 按照这些步骤，你可以轻松地在 Aspose.Cells for C++ 中将数字格式化为分数。这在财务、统计或教育应用中尤为有用，尤其需要精确的分数值。
+{{< app/cells/assistant language="cpp" >}}

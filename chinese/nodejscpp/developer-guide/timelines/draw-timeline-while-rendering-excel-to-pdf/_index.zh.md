@@ -29,3 +29,4 @@ const workbook = new AsposeCells.Workbook(filePath);
 workbook.save("out.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -20,3 +20,4 @@ keywords: تحويل Excel إلى HTML مع تلميح Python ، تحويل Exce
 الكود المثالي
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertExcelFileToHtmlWithTooltip-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

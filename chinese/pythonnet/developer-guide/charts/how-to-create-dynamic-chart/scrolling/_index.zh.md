@@ -32,3 +32,4 @@ url: /zh/python-net/create-dynamic-scrolling-chart/
 ```
 
 您可以尝试将单元格 "Sheet1!$H$20" 中的数字 "10" 改为 "15"，动态图表会显示最新的 15 组数据。现在我们已经成功使用 Aspose.Cells for Python via .NET 创建了动态滚动图表。
+{{< app/cells/assistant language="python-net" >}}

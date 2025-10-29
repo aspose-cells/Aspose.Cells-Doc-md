@@ -22,3 +22,4 @@ url: /ar/python-net/adding-custom-properties-visible-inside-document-information
 - [استخدام أجزاء XML المخصصة في Aspose.Cells](/cells/ar/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

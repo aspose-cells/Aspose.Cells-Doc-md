@@ -64,3 +64,4 @@ L'exemple ci-dessous ajoute des données d'exemple à une feuille de calcul, ajo
 - [Tables et Plages](/cells/fr/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -71,3 +71,4 @@ url: /zh/python-net/setting-chart-appearance/
 ## **高级主题**
 - [设置图表系列的值格式代码](/cells/zh/python-net/set-the-values-format-code-of-chart-series/)
 - [在图表中将图片设置为背景填充](/cells/zh/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

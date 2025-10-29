@@ -40,3 +40,4 @@ wb.save(path.join(dataDir, "ConvertingToHTMLFiles_out.html"), AsposeCells.SaveFo
 ```  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

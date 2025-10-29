@@ -21,3 +21,4 @@ Aspose.Cells поддерживает манипуляции существую�
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ Aspose.Cells для Python via .NET поддерживает преобразо�
 
 - [Отображение маркеров путем установки значения ячейки с использованием HTML](/cells/ru/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Получение строки HTML5 из ячейки](/cells/ru/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

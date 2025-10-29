@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET поддерживает вставку диа�
 - [Копировать высоты строк исходного диапазона в целевой диапазон](/cells/ru/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

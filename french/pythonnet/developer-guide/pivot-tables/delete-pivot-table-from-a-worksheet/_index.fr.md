@@ -18,3 +18,4 @@ Aspose.Cells pour Python via .NET fournit une fonctionnalité pour supprimer ou 
 Le code d'exemple suivant supprime deux tableaux croisés dynamiques de la feuille de calcul. D'abord, il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) et ensuite il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

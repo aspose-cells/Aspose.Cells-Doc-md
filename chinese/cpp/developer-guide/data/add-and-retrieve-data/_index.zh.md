@@ -45,3 +45,4 @@ Aspose.Cells 提供了表示 Microsoft Excel 文件的 [Workbook](https://refere
 您也可以使用上述预定义的单元格值类型与每个单元格中的数据类型进行比较。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

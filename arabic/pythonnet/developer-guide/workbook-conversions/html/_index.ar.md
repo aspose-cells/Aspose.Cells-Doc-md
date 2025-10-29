@@ -48,3 +48,4 @@ url: /ar/python-net/convert-excel-to-html/
 - [تعيين عرض العمود إلى وحدة قابلة للتطويل مثل em أو النسبة المئوية](/cells/ar/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [تعيين الخط الافتراضي أثناء تقديم جدول بيانات إلى HTML](/cells/ar/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [تحديد كيفية تقاطع السلسلة في HTML الناتج باستخدام HtmlCrossType](/cells/ar/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

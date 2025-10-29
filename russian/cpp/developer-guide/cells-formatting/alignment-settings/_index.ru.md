@@ -494,3 +494,4 @@ int main()
 ## **Продвинутые темы**
 - [Изменение выравнивания ячеек и сохранение существующего форматирования](/cells/ru/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Перенос строк и перенос текста](/cells/ru/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

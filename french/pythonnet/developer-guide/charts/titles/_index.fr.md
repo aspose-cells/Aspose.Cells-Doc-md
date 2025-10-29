@@ -33,3 +33,4 @@ Le snippet de code suivant démontre comment définir des titres pour les graphi
 
 ## **Sujets avancés**
 - [Lire le sous-titre du graphique à partir du fichier ODS](/cells/fr/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

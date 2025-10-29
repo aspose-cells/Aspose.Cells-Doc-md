@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/go-cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API 允许您打开/读取 XLSX、HTML、CSV、ODS、TSV、SXC、FODS 等不同格式。
+description: Aspose.Cells for Go via C++ API支持打开/读取不同格式如XLSX、HTML、CSV、ODS、TSV、SXC、FODS等
 keywords: 打开 xlsx 文件，打开 html 文件，读取 fods 文件，读取 ods 文件，读取 sxc 文件，打开 csv 文件，表格分隔，电子表格 ML，tsv，mhtml
 ---
 
@@ -13,7 +13,7 @@ keywords: 打开 xlsx 文件，打开 html 文件，读取 fods 文件，读取 
 使用Aspose.Cells，您可以打开多种格式的文件。**Aspose.Cells**支持打开多种文件格式，例如微软Excel（XLS、XLSX、XLSM、XLSB）、SpreadsheetML、逗号分隔值（CSV）、制表符分隔值（TSV）等。
 
 如果您需要了解所有支持的文件格式，请参考以下页面：
-[支持的文件格式]（https://docs.aspose.com/cells/go-cpp/supported-file-formats/）
+【支持的文件格式】（https://docs.aspose.com/cells/go-cpp/supported-file-formats/）
 
 {{% /alert %}}
 
@@ -38,16 +38,6 @@ Aspose.Cells 允许您将 HTML 文件打开到工作簿对象中。 HTML 文件�
 逗号分隔值（CSV）文件包含记录，其中值由逗号分隔。 数据存储为表格，其中每列由逗号字符分隔并由双引号字符引用。 如果字段值包含双引号字符，则用一对双引号字符进行转义。 您还可以使用 Microsoft Excel 将电子表格数据导出到 CSV。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **打开 CSV 文件并替换无效字符**
-
-在 Excel 中，打开具有特殊字符的 CSV 文件时，字符会自动替换。 Aspose.Cells API 也采用相同的方法，示例如下所示的代码示例。
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-可以从以下链接下载样本源文件以测试此功能。
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **使用自定义分隔符打开文本文件**
 

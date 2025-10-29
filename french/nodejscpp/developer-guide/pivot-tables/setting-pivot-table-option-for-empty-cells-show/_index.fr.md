@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ fournit les propriétés [**PivotTable.setDispl
 
 - [Formatage du tableau croisé dynamique](/cells/fr/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

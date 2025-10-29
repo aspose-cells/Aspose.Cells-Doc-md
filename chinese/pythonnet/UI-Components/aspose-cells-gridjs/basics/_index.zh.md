@@ -44,7 +44,7 @@ https://docs.aspose.com/cells/python-net/supported-file-formats/
 
 以下是用于展示Aspose.Cells.GridJs用法的基本演示：
 
-https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net 
+https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs
 
 在演示中，我们使用 [gridjs-spreadsheet](https://www.npmjs.com/package/gridjs-spreadsheet) 来呈现客户端页面。
 

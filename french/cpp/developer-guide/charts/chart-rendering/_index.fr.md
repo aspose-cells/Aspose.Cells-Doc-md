@@ -178,3 +178,4 @@ Il existe quelques types de graphiques actuellement non pris en charge pour le r
 Dans le cas où vous tenteriez de rendre les types de graphiques non pris en charge en image ou en PDF, vous pourriez obtenir des images de taille 0 ou un PDF vierge.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

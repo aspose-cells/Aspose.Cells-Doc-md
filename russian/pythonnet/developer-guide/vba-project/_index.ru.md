@@ -87,3 +87,4 @@ End Sub
 - [Узнать, защищен ли проект VBA](/cells/ru/python-net/find-out-if-vba-project-is-protected/)
 - [Защитить паролем проект VBA книги Excel](/cells/ru/python-net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="python-net" >}}

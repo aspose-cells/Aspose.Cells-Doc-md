@@ -6,3 +6,4 @@ url: /fr/cpp/formulas/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

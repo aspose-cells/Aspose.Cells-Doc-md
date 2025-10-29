@@ -115,3 +115,4 @@ $ pip install aspose-cells-python
 
 在 Aspose.Cells for Python via .NET 中，将数字格式化为时间涉及为需要显示时间的单元格设置自定义数字格式。按照上述步骤，您可以轻松在 Excel 文件中的单元格应用时间格式。记住，关键是使用匹配您期望时间格式的正确自定义格式字符串。
 
+{{< app/cells/assistant language="python-net" >}}

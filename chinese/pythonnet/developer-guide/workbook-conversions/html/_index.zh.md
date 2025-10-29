@@ -48,3 +48,4 @@ MHTML将普通的HTML与外部资源（通常是链接的内容，如图像、�
 - [将列宽设置为可缩放单元，如em或百分比](/cells/zh/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [在将电子表格渲染为HTML时设置默认字体](/cells/zh/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [使用HtmlCrossType指定输出HTML中如何交叉字符串](/cells/zh/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

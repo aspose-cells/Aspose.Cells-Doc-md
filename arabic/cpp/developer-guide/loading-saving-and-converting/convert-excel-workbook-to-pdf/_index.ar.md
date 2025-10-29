@@ -44,3 +44,4 @@ Aspose.Cells يدعم التحويل من جداول البيانات إلى ص�
 يرجى الاطلاع على الرمز الخاص بالعينة وملف الإخراج الخاص به [67338371.pdf](output PDF) للإشارة.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

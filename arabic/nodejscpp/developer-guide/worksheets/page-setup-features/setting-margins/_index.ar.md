@@ -119,3 +119,4 @@ pageSetup.setFooterMargin(2);
 // Save the Workbook.
 workbook.save(path.join(dataDir, "CenterOnPage_out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

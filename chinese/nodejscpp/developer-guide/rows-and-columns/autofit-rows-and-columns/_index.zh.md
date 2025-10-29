@@ -185,3 +185,4 @@ wb.save(path.join(outputDir, "AutofitRowsforMergedCells.xlsx"));
 ## **高级主题**  
 - [为合并单元格自动调整行高](/cells/zh/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -165,3 +165,4 @@ index++;
 - [إدراج ملف WAV ككائن Ole](/cells/ar/nodejs-cpp/inserting-a-wav-file-as-an-ole-object/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

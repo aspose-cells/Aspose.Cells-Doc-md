@@ -26,3 +26,4 @@ API Aspose.Cells для Python via .NET предоставляет поддер�
 - [Преобразовать Excel в JSON](/cells/ru/python-net/convert-excel-to-json/)
 - [Преобразовать JSON в CSV](/cells/ru/python-net/convert-json-to-csv/)
 - [Преобразовать JSON в Excel](/cells/ru/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

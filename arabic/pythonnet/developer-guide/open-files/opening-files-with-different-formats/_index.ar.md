@@ -69,3 +69,4 @@ keywords: فتح ملفات xlsx، فتح ملفات html، قراءة ملفا�
 ملف FODS هو جدول بيانات محفوظ بصيغة OpenDocument XML بدون ضغط. يمكن لـ Aspose.Cells لـ Python via .NET قراءة ملفات FODS كما هو موضح في العينة التالية من الكود.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-OpeningFODSFiles-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

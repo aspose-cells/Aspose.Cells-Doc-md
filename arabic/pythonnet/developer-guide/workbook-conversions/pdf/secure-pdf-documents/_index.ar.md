@@ -33,3 +33,4 @@ keywords: كتابة خيارات الأمان إلى ملف PDF، تشفير م
 إذا كانت جداول البيانات تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) قبل عرضها إلى PDF. يضمن هذا إعادة حساب القيم المعتمدة على الصيغ وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

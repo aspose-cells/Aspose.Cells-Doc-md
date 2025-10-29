@@ -80,3 +80,4 @@ url: /ar/python-net/cells-font-settings/
 - [الحصول على قائمة الخطوط المستخدمة في جدول بيانات أو كتاب عمل](/cells/ar/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -118,3 +118,4 @@ Aspose.Cells for Python via .NET API 支持将 Excel 图表转换为图像格式
 
 ## **高级主题**
 - [将图表转换为PDF](/cells/zh/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

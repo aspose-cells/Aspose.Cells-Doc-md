@@ -77,3 +77,4 @@ Aspose.Cells for Python via .NET 提供一个代表 Microsoft Excel 文件的类
 - [插入和删除Excel文件的行和列](/cells/zh/python-net/inserting-and-deleting-rows-and-columns/)
 - [在工作表中删除重复行](/cells/zh/python-net/remove-duplicate-rows-in-a-worksheet/)
 - [删除工作表中的空白列和行时更新其他工作表中的引用](/cells/zh/python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="python-net" >}}

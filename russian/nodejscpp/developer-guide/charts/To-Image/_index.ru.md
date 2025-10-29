@@ -187,3 +187,4 @@ chart.toImage(path.join(dataDir, "chartPNG_out.png"), options);
 ## **Продвинутые темы**  
 - [Преобразовать диаграмму в PDF](/cells/ru/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -36,3 +36,4 @@ Aspose.Cells for Python via .NET提供以下属性和方法，以帮助您实现
 1. 通过行名获取行索引。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

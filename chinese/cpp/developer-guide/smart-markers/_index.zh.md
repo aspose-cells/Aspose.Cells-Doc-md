@@ -7,3 +7,4 @@ url: /zh/cpp/using-smart-markers/
 description: 根据模板Excel文件使用Aspose.Cells库智能地导入并放置数据
 ---
 
+{{< app/cells/assistant language="cpp" >}}

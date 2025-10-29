@@ -17,3 +17,4 @@ url: /ar/python-net/render-custom-date-format-pattern-g-and-ge-mm-dd/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-RenderCustomDateFormatPatterngandgemmdd.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

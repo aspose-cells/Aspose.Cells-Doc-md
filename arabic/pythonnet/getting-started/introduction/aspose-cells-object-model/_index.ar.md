@@ -87,3 +87,4 @@ url: /ar/python-net/aspose-cells-object-model/
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 يتم استخدام كائن كسر الصفحة الرأسية لإنشاء كسر صفحة رأسي في ورقة العمل.
+{{< app/cells/assistant language="python-net" >}}

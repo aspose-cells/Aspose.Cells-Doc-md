@@ -15,7 +15,7 @@ url: /zh/nodejs-cpp/create-volume-open-high-low-close-stock-chart/
 
 ![todo:image_alt_text](sample.png)
 ## **示例代码**
-以下示例代码加载了[示例Excel文件](Volume-Open-High-Low-Close.xlsx)，并生成了[输出Excel文件](out.xlsx)。
+以下示例代码加载了【示例Excel文件】(Volume-Open-High-Low-Close.xlsx)，并生成了【输出Excel文件】(out.xlsx)。
 
 ```javascript
 const path = require("path");
@@ -50,3 +50,4 @@ chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.N
 // Save the Excel file
 workbook.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

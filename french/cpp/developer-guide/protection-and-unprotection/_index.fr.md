@@ -31,3 +31,4 @@ Protéger et déprotéger le classeur partagé.
 - [Détecter le format de fichier des fichiers Office Open XML cryptés - OOXML](/cells/fr/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Chiffrer des fichiers Excel](/cells/fr/cpp/encrypting-excel-files/)
 - [Comment détecter un format de fichier et vérifier si le fichier est chiffré](/cells/fr/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

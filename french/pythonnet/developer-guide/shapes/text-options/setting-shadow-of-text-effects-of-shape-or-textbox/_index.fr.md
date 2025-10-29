@@ -22,3 +22,4 @@ Vous pouvez définir l'**Ombre** des **Effets de Texte** de n'importe quelle For
 Le fragment de code suivant illustre l'utilisation de la propriété [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) pour définir l'ombre des effets de texte de la Forme ou de la Zone de Texte.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

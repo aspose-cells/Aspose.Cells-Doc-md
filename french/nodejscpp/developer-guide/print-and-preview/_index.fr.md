@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Rendre la feuille de calcul dans le contexte graphique](/cells/fr/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Spécifier un ensemble de polices individuelles ou privées pour le rendu du classeur](/cells/fr/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

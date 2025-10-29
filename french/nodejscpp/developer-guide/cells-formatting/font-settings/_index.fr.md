@@ -90,3 +90,4 @@ Les développeurs peuvent appliquer l'effet exposant sur la police en définissa
 - [Obtenir une liste des polices utilisées dans une feuille de calcul ou un classeur](/cells/fr/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

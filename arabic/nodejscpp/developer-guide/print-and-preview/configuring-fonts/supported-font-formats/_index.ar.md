@@ -12,3 +12,4 @@ description: نظرة عامة على تنسيقات الخط المدعومة �
 |**TTF**| TrueType Fonts|
 |**TTC**| TrueType Collection|
 |**OTF**| OpenType Fonts|
+{{< app/cells/assistant language="nodejs-cpp" >}}

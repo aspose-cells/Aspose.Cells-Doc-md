@@ -25,3 +25,4 @@ url: /zh/python-net/customizing-charts/
 目前，Aspose.Cells for Python via .NET只支持结合饼图、折线图、柱状图和簇状柱状图的自定义图表，但未来版本将支持更多类型的图表。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

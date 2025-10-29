@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET 在将工作簿转换为HTML时，导出框架�
 以下示例代码允许您禁用导出框架脚本和文档属性。一旦您将工作簿转换为HTML，输出文件将不包含任何框架脚本和文档属性。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

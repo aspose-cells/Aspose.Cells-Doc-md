@@ -28,3 +28,4 @@ keywords: Python Excel 库，使用python检测空工作表，查找Python中的
 ## **编程示例**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-DetectEmptyWorksheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

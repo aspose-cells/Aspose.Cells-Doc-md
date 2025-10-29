@@ -38,3 +38,4 @@ src.autoFill(dest, AsposeCells.AutoFillType.Series);
 workbook.save("range_autofill_result.xlsx");
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

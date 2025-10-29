@@ -23,7 +23,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-2-1/
 
 {{% alert color="primary" %}} 
 
-请查看关于[验证单元格值是否满足数据验证规则]的详细文章(/cells/zh/java/verify-that-cell-value-satisfies-data-validation-rules/)
+请查看关于【验证单元格值是否满足数据验证规则】的详细文章(/cells/zh/java/verify-that-cell-value-satisfies-data-validation-rules/)
 
 {{% /alert %}}
 ## **为WorkbookRender类的toPrinter(PrinterSettings printerSettings)方法添加了重载**

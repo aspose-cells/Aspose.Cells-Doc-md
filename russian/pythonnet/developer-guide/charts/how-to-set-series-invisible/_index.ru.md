@@ -49,3 +49,4 @@ workbook.save(os.path.join(data_dir, "output.xlsx"))
 
 На рисунке ниже видно, что первые две серии, которые были изначально видимы, стали невидимыми в итоговом файле.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

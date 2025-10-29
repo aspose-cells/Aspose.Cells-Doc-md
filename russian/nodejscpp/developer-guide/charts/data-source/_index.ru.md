@@ -123,3 +123,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Создание динамических диаграмм](/cells/ru/nodejs-cpp/create-dynamic-charts/)  
 - [Простой способ настройки диаграммы с использованием метода Chart.SetChartDataRange](/cells/ru/nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  
 - [Найдите тип значений X и Y точек в серии графика](/cells/ru/nodejs-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -34,3 +34,4 @@ url: /ar/python-net/data-formatting-in-charts/
 - [إنشاء رسوم بيانية ديناميكية](/cells/ar/python-net/create-dynamic-charts/)
 - [طريقة سهلة لضبط الرسوم البيانية باستخدام طريقة Chart.SetChartDataRange](/cells/ar/python-net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [البحث عن نوع قيم X وY لنقاط في سلسلة الرسم البياني](/cells/ar/python-net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="python-net" >}}

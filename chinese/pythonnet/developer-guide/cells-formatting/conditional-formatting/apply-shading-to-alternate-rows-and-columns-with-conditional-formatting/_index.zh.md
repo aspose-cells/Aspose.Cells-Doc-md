@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NET API 提供了为 [**Worksheet**](https://refere
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

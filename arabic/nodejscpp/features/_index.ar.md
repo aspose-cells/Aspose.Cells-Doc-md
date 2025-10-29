@@ -1,7 +1,7 @@
 ---
 title: الميزات
 type: docs
-weight: 5
+weight: 10
 url: /ar/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "ميزات Aspose.Cells for Node.js via C++."
@@ -99,3 +99,4 @@ description: "ميزات Aspose.Cells for Node.js via C++."
 |تعيين منطقة الطباعة، وأعناون الطباعة، أو تشغيل خطوط الشبكة الخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

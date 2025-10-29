@@ -106,3 +106,4 @@ workbook.save(path.join(localPath, "DynamicChartWithDropdownlist.xlsx"));
 ```
 
 يمكنك محاولة تغيير قيمة القائمة المنسدلة في الخلية "Sheet1!$A$10"، وسوف ترى التغيير الديناميكي في الرسم البياني. الآن لقد قمنا بإنشاء رسم بياني ديناميكي مع قائمة منسدلة باستخدام Aspose.Cells بنجاح.
+{{< app/cells/assistant language="nodejs-cpp" >}}

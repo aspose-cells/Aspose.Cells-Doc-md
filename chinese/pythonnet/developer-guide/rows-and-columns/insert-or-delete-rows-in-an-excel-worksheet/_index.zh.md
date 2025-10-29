@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET提供了两种插入和删除行的方法：[**
 Aspose.Cells for Python via .NET的工作方式与Microsoft Excel相同。当添加行或列时，工作表内容会向下和向右移动。当移除行或列时，工作表内容会向上或向左移动。在添加或删除行时，其他工作表和单元格中的引用会得到更新。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -42,3 +42,4 @@ keywords: 应用小计，添加小计，更改详细下面概要行的方向，�
 以下是实现上述输出的示例代码。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

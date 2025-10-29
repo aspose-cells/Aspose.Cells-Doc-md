@@ -128,3 +128,4 @@ CUSTOM表示自定义验证类型。
 - [获取ODS文件中的单元格验证](/cells/zh/python-net/get-cell-validation-in-ods-files/)
 - [获取应用于单元格的验证](/cells/zh/python-net/get-validation-applied-on-a-cell/)
 - [验证单元格值是否满足数据验证规则](/cells/zh/python-net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="python-net" >}}

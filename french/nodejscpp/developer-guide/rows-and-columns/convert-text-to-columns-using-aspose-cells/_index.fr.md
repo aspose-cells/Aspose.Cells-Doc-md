@@ -51,3 +51,4 @@ ws.getCells().textToColumns(0, 0, 5, opts);
 wb.save(path.join(dataDir, "outputTextToColumns.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

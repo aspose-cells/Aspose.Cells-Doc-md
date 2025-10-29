@@ -40,3 +40,4 @@ console.log("Chart Subtitle: " + chart.getSubTitle().getText());
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

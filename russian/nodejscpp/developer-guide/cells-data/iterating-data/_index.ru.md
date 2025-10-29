@@ -191,3 +191,4 @@ console.log(currentCell.getStringValue());
 1. Необходимо пройти большое количество ячеек.  
 1. Требуется пройти только инициализированные ячейки/строки/столбцы.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

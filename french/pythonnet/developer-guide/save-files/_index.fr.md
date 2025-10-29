@@ -93,3 +93,4 @@ Aspose.Cells pour Python via .NET prend en charge l'enregistrement de fichiers e
 - [Ajuster le niveau de compression du classeur](/cells/fr/python-net/adjust-workbook-compression-level/)
 - [Enregistrer le classeur au format strict Open XML Spreadsheet](/cells/fr/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

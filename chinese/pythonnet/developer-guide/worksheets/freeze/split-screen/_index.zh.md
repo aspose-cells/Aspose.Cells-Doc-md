@@ -51,3 +51,4 @@ keywords: Python Excel 库，Python 冻结顶部行，Python 冻结顶部行，P
 Aspose.Cells for Python via .NET 提供 [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) 方法用于移除拆分设置。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}
+{{< app/cells/assistant language="python-net" >}}

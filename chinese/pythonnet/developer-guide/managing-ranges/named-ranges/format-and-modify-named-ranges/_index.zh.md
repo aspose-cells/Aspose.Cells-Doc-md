@@ -53,3 +53,4 @@ Aspose.Cells提供[**Range.intersect**](https://reference.aspose.com/cells/pytho
 Aspose.Cells提供[**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#)方法以合并范围中的单元格。以下示例显示如何合并命名范围的单元格。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

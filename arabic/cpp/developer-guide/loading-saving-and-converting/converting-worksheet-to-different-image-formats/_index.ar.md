@@ -42,3 +42,4 @@ Aspose.Cells for C++ تمكن من تحويل ورقات العمل إلى صو�
 يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صور SVG الناتجة](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

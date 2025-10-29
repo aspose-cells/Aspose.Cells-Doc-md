@@ -35,3 +35,4 @@ description: 使用 C# 代码保护和取消保护 Excel 文件的工作簿结�
 注意：需要正确的密码。
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

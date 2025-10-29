@@ -61,3 +61,4 @@ int main()
 إذا احتوى جدول البيانات على صيغ، فمن الأفضل استدعاء طريقة [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) قبل التصيير إلى PDF. يضمن ذلك إعادة حساب القيم المعتمدة على الصيغ بشكل صحيح، وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

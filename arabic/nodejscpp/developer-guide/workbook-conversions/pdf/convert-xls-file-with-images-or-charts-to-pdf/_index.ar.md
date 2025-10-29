@@ -42,3 +42,4 @@ console.log(e.message);
 إذا كان جدول البيانات يحتوي على صيغ، من الأفضل استدعاء طريقة [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) قبل تصديره إلى PDF. يضمن ذلك إعادة حساب القيم المعتمدة على الصيغ، وظهور القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

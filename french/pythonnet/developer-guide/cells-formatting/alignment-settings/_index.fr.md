@@ -124,3 +124,4 @@ L'ordre de lecture est défini avec la propriété [**text_direction**](https://
 - [Sauts de ligne et retour à la ligne](/cells/fr/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

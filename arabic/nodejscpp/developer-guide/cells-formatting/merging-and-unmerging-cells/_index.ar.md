@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **مواضيع متقدمة**
 - [كشف الخلايا المدمجة في ورقة العمل](/cells/ar/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -64,3 +64,4 @@ Il est possible d'ajouter des hyperliens vers des fichiers Excel externes en app
 - [Modifier les hyperliens de la feuille de calcul](/cells/fr/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Obtenir des hyperliens dans la plage](/cells/fr/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

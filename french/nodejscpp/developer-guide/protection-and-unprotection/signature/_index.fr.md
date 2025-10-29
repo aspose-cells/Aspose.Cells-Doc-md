@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Ajouter une ligne de signature au classeur](/cells/fr/nodejs-cpp/add-signature-line/)  
 - [Prise en charge de la signature XAdES](/cells/fr/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -60,3 +60,4 @@ int main()
 
 如下图所示，原本可见的前两个系列在输出文件中变成了隐藏。  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

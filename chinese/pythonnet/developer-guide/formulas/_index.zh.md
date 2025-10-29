@@ -89,3 +89,4 @@ Aspose.Cells for Python via .NET 提供注册插件函数的功能，使用 [**w
 - [支持的Excel函数](/cells/zh/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

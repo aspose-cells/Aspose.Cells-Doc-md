@@ -59,3 +59,4 @@ Voici les fichiers d'exemple qui peuvent être téléchargés pour tester cette 
 - [Trier les données dans une colonne avec une liste de tri personnalisée](/cells/fr/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Spécifier un avertissement de tri lors du tri des données](/cells/fr/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

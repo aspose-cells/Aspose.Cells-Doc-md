@@ -88,3 +88,4 @@ console.log(cells.get("B2").stringValue === "B4");
 ```  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

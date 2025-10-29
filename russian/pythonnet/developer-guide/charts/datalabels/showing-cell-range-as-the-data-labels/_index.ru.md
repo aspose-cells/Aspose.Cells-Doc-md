@@ -24,3 +24,4 @@ url: /ru/python-net/showing-cell-range-as-the-data-labels/
 В приведенном ниже образце кода доступ к меткам данных серии графика и устанавливает свойство [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) в **true**, чтобы выбрать опцию **Метка содержит - значение из ячеек**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

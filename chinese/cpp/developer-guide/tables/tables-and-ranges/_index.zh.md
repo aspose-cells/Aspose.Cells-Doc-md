@@ -22,3 +22,4 @@ url: /zh/cpp/tables-and-ranges/
 以下代码片段演示了使用Aspose.Cells实现相同功能。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

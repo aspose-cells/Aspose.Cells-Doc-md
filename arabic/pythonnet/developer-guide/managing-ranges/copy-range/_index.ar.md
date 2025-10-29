@@ -40,3 +40,4 @@ keywords: مكتبة Python Excel، كيفية نسخ النطاقات في Exce
 - [نسخ أطوال الصفوف من النطاق المصدر إلى النطاق الهدف](/cells/ar/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

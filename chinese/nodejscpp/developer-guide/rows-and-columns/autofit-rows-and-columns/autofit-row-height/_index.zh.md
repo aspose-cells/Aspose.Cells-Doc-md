@@ -43,3 +43,4 @@ loadOptions.getAutoFitterOptions().setOnlyAuto(true);
 const book = new AsposeCells.Workbook(filePath, loadOptions);
 book.save(path.join(dataDir, "out2.pdf"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -23,3 +23,4 @@ url: /ar/python-net/use-custom-xml-parts-in-aspose-cells/
 
 
 
+{{< app/cells/assistant language="python-net" >}}

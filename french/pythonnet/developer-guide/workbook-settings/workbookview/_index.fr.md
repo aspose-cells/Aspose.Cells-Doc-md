@@ -19,7 +19,7 @@ Lorsque vous avez besoin d'ajuster l'affichage des pages Excel, vous devez savoi
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Comment contrôler la vue du classeur à l'aide de Aspose.Cells for .NET**
+## **Comment contrôler la vue du classeur en utilisant Aspose.Cells pour Python via .NET**
 Cet exemple montre comment :
 
 1. Créer un classeur.
@@ -33,3 +33,4 @@ Aperçu du fichier résultat:
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

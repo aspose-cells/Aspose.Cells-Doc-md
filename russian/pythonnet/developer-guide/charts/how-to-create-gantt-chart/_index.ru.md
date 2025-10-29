@@ -50,3 +50,4 @@ keywords: Создание диаграммы Ганта на Python, добав
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-gantt-chart.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

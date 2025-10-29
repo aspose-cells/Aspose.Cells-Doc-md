@@ -30,3 +30,4 @@ keywords: احتواء جميع أعمدة ورقة العمل على صفحة P
 إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فإن الأفضلية لاصدار [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) الأمر مباشرةً قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي ذلك إلى ضمان إعادة حساب قيم الصيغة التي تعتمد عليها، وتقديم القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

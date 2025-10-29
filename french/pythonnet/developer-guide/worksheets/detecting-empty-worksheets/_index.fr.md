@@ -28,3 +28,4 @@ Il est possible qu'une feuille donnée ne contienne aucune cellule remplie, mais
 ## **Exemple de programmation**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-DetectEmptyWorksheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

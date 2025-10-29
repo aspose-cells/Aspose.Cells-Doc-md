@@ -13,7 +13,7 @@ description: 学习如何使用Aspose.Cells结合C++导出Web浏览器不支持�
 
 ## **在Web浏览器不支持边框样式时导出相似的边框样式**
 
-以下示例加载了包含一些不支持边框的[示例Excel文件](64716806.xlsx)，调用效果如截图所示。截图进一步展示了[**HtmlSaveOptions.GetExportSimilarBorderStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportsimilarborderstyle/)属性在[输出HTML](64716804.zip)中的效果。
+以下示例加载了包含一些不支持边框的【示例Excel文件】(64716806.xlsx)，调用效果如截图所示。截图进一步展示了[**HtmlSaveOptions.GetExportSimilarBorderStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportsimilarborderstyle/)属性在【输出HTML】(64716804.zip)中的效果。
 
 ![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
@@ -47,3 +47,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

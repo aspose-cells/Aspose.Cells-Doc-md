@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [将多个工作表合并成一个工作表](/cells/zh/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [合并文件](/cells/zh/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

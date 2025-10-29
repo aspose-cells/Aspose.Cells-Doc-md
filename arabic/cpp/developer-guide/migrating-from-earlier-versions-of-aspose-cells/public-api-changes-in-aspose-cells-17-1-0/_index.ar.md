@@ -151,3 +151,4 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 - طريقة ToString في IWorksheet
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

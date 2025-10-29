@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET提供一个代表Microsoft Excel文件的类，
 
 ## **高级主题**
 - [应用小计和更改概要行的方向，使之位于详细信息下方](/cells/zh/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

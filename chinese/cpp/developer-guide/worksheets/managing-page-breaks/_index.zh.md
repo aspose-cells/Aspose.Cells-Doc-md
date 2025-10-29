@@ -23,3 +23,4 @@ Aspose.Cells 提供一个代表Excel文件的类 [Workbook](https://reference.as
 工作表由 [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) 类表示。 [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) 类提供了广泛的方法来管理工作表。 要添加页符，请使用 [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) 类的 [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) 方法。
 ### **添加分页**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

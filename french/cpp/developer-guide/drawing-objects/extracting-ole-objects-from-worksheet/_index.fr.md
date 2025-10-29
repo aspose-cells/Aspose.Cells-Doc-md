@@ -15,3 +15,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](66519077.xlsx) qui
 - [outputExtractOleObject.docx](66519078.docx)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-ExtractingOLEObjectsFromWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

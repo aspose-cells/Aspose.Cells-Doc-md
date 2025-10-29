@@ -15,7 +15,7 @@ Aspose.Cells for Node.js via C++提供读取背景信息和添加背景到ODS文
 
 ## **从ODS文件读取背景信息**  
 
-Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下代码示例演示如何使用 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类加载[源ODS](90112030.ods) 文件并读取背景信息。请参考代码生成的控制台输出。  
+Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下代码示例演示如何使用 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类加载【源ODS】(90112030.ods) 文件并读取背景信息。请参考代码生成的控制台输出。  
 
 ### **示例代码**  
 
@@ -54,7 +54,7 @@ Background Position: CenterCenter
 
 ## **向ODS文件添加彩色背景**  
 
-Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下示例演示如何使用 [**OdsPageBackground.getColor()**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground/#getColor--) 属性向ODS文件添加颜色背景。请参考由代码生成的[输出ODS](90112031.ods) 文件。  
+Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下示例演示如何使用 [**OdsPageBackground.getColor()**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground/#getColor--) 属性向ODS文件添加颜色背景。请参考由代码生成的【输出ODS】(90112031.ods) 文件。  
 
 ### **示例代码**  
 
@@ -96,7 +96,7 @@ workbook.save(outputDir + "ColoredBackground.ods", AsposeCells.SaveFormat.Ods);
 
 ## **向ODS文件添加图形背景**  
 
-Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下示例演示如何使用 [**OdsPageBackground.getGraphicData()**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground/#getGraphicData--) 属性为ODS文件添加图形背景。请参考由代码生成的[输出ODS](90112030.ods) 文件。  
+Aspose.Cells for Node.js via C++提供 [**OdsPageBackground**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground) 类管理ODS文件的背景。以下示例演示如何使用 [**OdsPageBackground.getGraphicData()**](https://reference.aspose.com/cells/nodejs-cpp/odspagebackground/#getGraphicData--) 属性为ODS文件添加图形背景。请参考由代码生成的【输出ODS】(90112030.ods) 文件。  
 
 ### **示例代码**  
 
@@ -138,3 +138,4 @@ background.setGraphicType(AsposeCells.OdsPageBackgroundGraphicType.Area);
 workbook.save(outputDir + "GraphicBackground.ods", AsposeCells.SaveFormat.Ods);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

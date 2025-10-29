@@ -50,3 +50,4 @@ workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), saveOption);
 إذا كانت جداول البيانات تحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) قبل عرضها إلى PDF. يضمن هذا إعادة حساب القيم المعتمدة على الصيغ وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

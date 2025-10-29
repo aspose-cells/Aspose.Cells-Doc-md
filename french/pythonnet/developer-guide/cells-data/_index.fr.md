@@ -79,3 +79,4 @@ En travaillant sur des feuilles de calcul, les utilisateurs peuvent ajouter diff
 - [Peupler d'abord les données par ligne puis par colonne](/cells/fr/python-net/populate-data-first-by-row-then-by-column/)
 - [Préserver le préfixe d'apostrophe unique de la valeur de la cellule ou de la plage](/cells/fr/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Accéder et mettre à jour les parties du texte enrichi de la cellule](/cells/fr/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

@@ -43,3 +43,4 @@ Enfin, le code suivant sauvegarde le graphique au format image et le classeur au
 - [Mise en forme des données dans les graphiques](/cells/fr/python-net/data-formatting-in-charts/)
 - [Réglage de l’apparence du graphique](/cells/fr/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -48,3 +48,4 @@ Aspose.Cells是一个功能强大的Excel文件编程操作库。要使用Aspose
 <img src="3.png" width=60% />
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

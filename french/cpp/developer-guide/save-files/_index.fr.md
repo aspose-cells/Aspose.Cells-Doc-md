@@ -356,3 +356,4 @@ int main()
 - [Ajuster le niveau de compression du classeur](/cells/fr/cpp/adjust-workbook-compression-level/)
 - [Enregistrer le classeur au format strict Open XML Spreadsheet](/cells/fr/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Enregistrer le fichier dans l'objet Response](/cells/fr/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

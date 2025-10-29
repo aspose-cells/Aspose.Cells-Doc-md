@@ -698,3 +698,4 @@ int main()
 - [Получить проверку ячейки в файлах ODS](/cells/ru/cpp/get-cell-validation-in-ods-files/)
 - [Получить примененную проверку данных к ячейке](/cells/ru/cpp/get-validation-applied-on-a-cell/)
 - [Проверьте, что значение ячейки удовлетворяет правилам проверки данных](/cells/ru/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

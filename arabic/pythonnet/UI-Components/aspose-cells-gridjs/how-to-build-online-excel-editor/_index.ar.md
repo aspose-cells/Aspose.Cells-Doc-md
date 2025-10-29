@@ -25,11 +25,11 @@ aliases:
 
 ## الخطوة 1: إنشاء ملف Dockerfile
 
-قم بإنشاء ملف باسم `Dockerfile` في [دليل](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/) مشروعك. يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
+أنشئ ملفًا باسم `Dockerfile` في [دليل](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs) مشروعك. يجب أن يحتوي `Dockerfile` على تعليمات حول كيفية بناء صورة Docker الخاصة بك.
 
 ## الخطوة 2: كتابة Dockerfile لـ GridJs
 
-إليك عينة [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile) لعرض تجريبي لـ GridJs مع تطبيق بايثون:
+إليك نموذج [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs/Dockerfile) لعينة GridJs مع تطبيق بايثون:
 
 ```dockerfile
 # use Python 3.13 as parent image

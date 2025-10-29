@@ -129,3 +129,4 @@ int main()
 من الممكن أيضًا استخدام طريقتي [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/) و [**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/) من الفئة [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) لجعل صفوف وأعمدة متعددة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

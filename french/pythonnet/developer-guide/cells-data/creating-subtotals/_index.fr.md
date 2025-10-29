@@ -35,3 +35,4 @@ Les extraits de code suivants montrent comment ajouter des sous-totaux à une fe
 
 ## **Sujets avancés**
 - [Application de sous-total et changement de direction des lignes de résumé en dessous des détails](/cells/fr/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

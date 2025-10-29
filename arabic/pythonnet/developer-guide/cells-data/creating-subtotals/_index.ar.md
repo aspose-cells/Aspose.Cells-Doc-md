@@ -35,3 +35,4 @@ keywords: مكتبة Excel لـ Python ، تطبيق المجاميع الفرع
 
 ## **مواضيع متقدمة**
 - [تطبيق المجموع الفرعي وتغيير اتجاه الصفوف القابلة للملخص تحت التفصيل](/cells/ar/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

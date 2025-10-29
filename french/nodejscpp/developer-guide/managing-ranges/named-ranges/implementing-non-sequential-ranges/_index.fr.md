@@ -37,3 +37,4 @@ name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
 // Save the workbook
 workbook.save(path.join(dataDir, "Output.out.xlsx"));
 ``` 
+{{< app/cells/assistant language="nodejs-cpp" >}}

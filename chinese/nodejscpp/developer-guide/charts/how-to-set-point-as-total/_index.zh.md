@@ -45,3 +45,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 如下图所示，四个"总和"数据点已正确设置，你可以看到与之前图表的区别。
 
 ![todo:image_alt_text](set-as-total2.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

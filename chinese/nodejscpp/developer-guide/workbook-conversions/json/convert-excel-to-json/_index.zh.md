@@ -16,7 +16,7 @@ Aspose.Cells 支持将工作簿转换为 JSON（JavaScript 对象表示法）文
 
 无需担心如何将 Excel 工作簿转换为 JSON，因为 Aspose.Cells for Node.js via C++ 库提供了最佳解决方案。Aspose.Cells API 支持将电子表格导出为 JSON 格式。要导出工作簿为 JSON，请将 [**SaveFormat.Json**](https://reference.aspose.com/cells/nodejs-cpp/saveformat/) 作为 [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveformat-) 方法的第二个参数传递。你也可以使用 [**JsonSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonsaveoptions/) 类来指定导出工作表到 JSON 的其他设置。  
 
-以下代码示例演示了导出 Excel 工作簿为 JSON。请查看此代码，将[源文件](sample.xlsx) 转换为由代码生成的 JSON 文件。  
+以下代码示例演示了导出 Excel 工作簿为 JSON。请查看此代码，将【源文件】(sample.xlsx) 转换为由代码生成的 JSON 文件。  
 
 ```javascript
 const path = require("path");
@@ -32,7 +32,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 workbook.save("sample_out.json");
 ```  
 
-以下代码示例使用 JsonSaveOptions 类来指定额外设置，并演示将Excel工作簿导出为JSON。请参考代码，将[源文件](sample.xlsx) 转换为由代码生成的JSON文件。  
+以下代码示例使用 JsonSaveOptions 类来指定额外设置，并演示将Excel工作簿导出为JSON。请参考代码，将【源文件】(sample.xlsx) 转换为由代码生成的JSON文件。  
 
 ```javascript
 const path = require("path");
@@ -55,3 +55,4 @@ workbook.save("sample_out.json", options);
 ```  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

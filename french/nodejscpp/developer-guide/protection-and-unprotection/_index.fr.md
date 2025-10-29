@@ -34,3 +34,4 @@ Protégez l'authenticité du contenu d'un document ; vous pouvez ajouter une sig
 - [Détecter le format de fichier des fichiers Office Open XML cryptés - OOXML](/cells/fr/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Chiffrer des fichiers Excel](/cells/fr/nodejs-cpp/encrypting-excel-files/)
 - [Comment détecter un format de fichier et vérifier si le fichier est chiffré](/cells/fr/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

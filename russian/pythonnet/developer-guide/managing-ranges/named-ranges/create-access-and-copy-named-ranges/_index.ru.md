@@ -107,3 +107,4 @@ Aspose.Cells для Python via .NET предоставляет [**Range.copy()**
 В следующем примере показано, как скопировать исходный диапазон ячеек в другой именованный диапазон.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

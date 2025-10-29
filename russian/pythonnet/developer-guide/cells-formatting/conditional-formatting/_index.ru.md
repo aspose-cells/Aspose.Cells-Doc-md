@@ -80,3 +80,4 @@ Microsoft Excel 2007 добавил более продвинутое услов
 - [Получить наборы значков, столбчатые диаграммы данных или объекты цветовой шкалы, используемые в условном форматировании](/cells/ru/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

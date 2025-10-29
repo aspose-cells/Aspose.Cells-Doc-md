@@ -21,7 +21,7 @@ Aspose.Cells - это библиотека классов, которая поз
 
 
 ## **Сравнение Open XML SDK и Aspose.Cells**
-В следующей таблице сравниваются функции Open XML SDK и Aspose.Cells. 
+Следующая таблица сравнивает функции Open XML SDK и Aspose.Cells. 
 
 |**Функция или Категория функций**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

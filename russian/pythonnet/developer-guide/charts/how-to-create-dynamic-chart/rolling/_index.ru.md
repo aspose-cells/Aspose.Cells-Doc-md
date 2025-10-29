@@ -32,3 +32,4 @@ url: /ru/python-net/create-dynamic-rolling-chart/
 ```
 
 Вы можете попробовать изменить число "-5" на "-10" в формуле, и динамическая диаграмма будет отображать последние 10 наборов данных. Теперь мы успешно создали динамическую скользящую диаграмму с помощью Aspose.Cells для Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

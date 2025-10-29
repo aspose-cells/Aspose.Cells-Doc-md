@@ -46,3 +46,4 @@ cell.SetStyle(style);
 - [تعديل كائن النمط الحالي](/cells/ar/cpp/modify-an-existing-style/)
 - [إعادة استخدام كائنات النمط](/cells/ar/cpp/reusing-style-objects/)
 - [استخدام الأنماط المدمجة](/cells/ar/cpp/using-built-in-styles/)
+{{< app/cells/assistant language="cpp" >}}

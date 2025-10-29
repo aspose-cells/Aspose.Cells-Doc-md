@@ -22,3 +22,4 @@ keywords: Python Excel Library, Python Измерить ширину значе�
 
 ## **Продвинутые темы**
 - [Получить ширину текста значения ячейки](/cells/ru/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

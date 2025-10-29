@@ -76,3 +76,4 @@ Aspose.Cells for Python via .NET提供了一个类[**Workbook**](https://referen
 要从工作表的任何位置删除列，请调用[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells)集合的[**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int)方法。[**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int)方法接受要删除的列的索引。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

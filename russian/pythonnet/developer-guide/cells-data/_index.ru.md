@@ -79,3 +79,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 - [Сначала заполняется строка, а затем столбец.](/cells/ru/python-net/populate-data-first-by-row-then-by-column/)
 - [Сохранить префикс одинарной кавычки значения ячейки или диапазона](/cells/ru/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Доступ и обновление частей Rich Text ячейки](/cells/ru/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

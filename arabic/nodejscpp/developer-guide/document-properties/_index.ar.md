@@ -234,3 +234,4 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 - [ضبط خصائص ScaleCrop و LinksUpToDate لخصائص المستند المضمنة](/cells/ar/nodejs-cpp/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة](/cells/ar/nodejs-cpp/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [تحديد لغة ملف إكسل باستخدام الخصائص المدمجة للمستند](/cells/ar/nodejs-cpp/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -116,3 +116,4 @@ workbook.save("html.html", saveOptions);
 
 هنا [ملف اكسل المصدر](Book1.xlsx).  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

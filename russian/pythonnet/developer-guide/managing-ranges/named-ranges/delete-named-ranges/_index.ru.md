@@ -21,8 +21,8 @@ keywords: Библиотека Python для Excel, Удаление дубли�
 6. Нажмите кнопку "Закрыть", чтобы закрыть диалоговое окно Менеджер имен.
 7. Сохраните книгу, чтобы сохранить внесенные изменения.
 
-## **Удаляет именованный диапазон с помощью Aspose.Cells для .Net**
-С помощью Aspose.Cells для .Net вы можете удалять именованные диапазоны или определённые имена по [тексту](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) из списка.
+## **Удаляет именованный диапазон с помощью Aspose.Cells для Python via .NET**
+С Aspose.Cells для Python via .NET вы можете удалять именованные диапазоны или определённые имена с помощью [текста](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) из списка.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

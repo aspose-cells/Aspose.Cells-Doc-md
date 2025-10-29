@@ -16,3 +16,4 @@ keywords: Python Excel库，Python获取单元格验证，Python获取单元格�
 ### **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-GetCellValidationInODS-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

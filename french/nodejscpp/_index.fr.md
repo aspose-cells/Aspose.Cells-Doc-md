@@ -30,3 +30,4 @@ Voici les liens vers certaines ressources utiles dont vous pourriez avoir besoin
 - [Guide de référence API Aspose.Cells for Node.js via C++](https://reference.aspose.com/cells/nodejs-cpp/)
 - [Forum d'assistance gratuit Aspose.Cells for Node.js via C++](https://forum.aspose.com/c/cells/9)
 - [Centre d'aide support payant Aspose.Cells for Node.js via C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

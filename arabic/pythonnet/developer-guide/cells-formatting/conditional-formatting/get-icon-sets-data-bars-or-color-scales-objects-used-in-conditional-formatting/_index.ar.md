@@ -19,3 +19,4 @@ url: /ar/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-cond
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GetIconSetsDataBars-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -19,3 +19,4 @@ Aspose.Cells для Python via .NET поддерживает скрытие и �
 [Исходный файл](96928093.xlsx)
 
 [Выходной файл](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

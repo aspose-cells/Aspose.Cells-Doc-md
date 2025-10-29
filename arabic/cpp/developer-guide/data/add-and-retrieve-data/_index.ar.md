@@ -45,3 +45,4 @@ url: /ar/cpp/add-and-retrieve-data/
 يمكنك أيضًا استخدام أنواع قيم الخلية المعرفة مسبقًا أعلاه للمقارنة مع نوع البيانات الموجودة في كل خلية.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -9,3 +9,4 @@ keywords: Управление Smart Art через Node.js посредство
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

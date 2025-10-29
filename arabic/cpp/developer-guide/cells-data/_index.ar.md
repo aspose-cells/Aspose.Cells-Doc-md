@@ -178,3 +178,4 @@ int main()
 - [ملء البيانات أولاً حسب الصف ثم حسب العمود](/cells/ar/cpp/populate-data-first-by-row-then-by-column/)
 - [الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق](/cells/ar/cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [الوصول إلى وتحديث أجزاء النص الغني للخلية](/cells/ar/cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: 切片器
 type: docs
-weight: 40
+weight: 100
 url: /zh/python-java/slicers/
 ---
 

@@ -42,3 +42,4 @@ Il s'agit de la sortie de la console du code d'exemple ci-dessus lorsqu'il est e
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET支持将基于Microsoft Excel的HTML转换为XL
 
 - [使用HTML设置单元格值显示项目符号](/cells/zh/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [从单元格获取HTML5字符串](/cells/zh/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

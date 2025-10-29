@@ -43,3 +43,4 @@ keywords: إضافة/إدراج مربع نص إلى ورقة العمل إكس�
 
 ![](52449.png)
 
+{{< app/cells/assistant language="python-net" >}}

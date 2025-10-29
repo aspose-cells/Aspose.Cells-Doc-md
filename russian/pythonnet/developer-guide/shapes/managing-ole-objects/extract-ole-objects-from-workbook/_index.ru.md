@@ -31,3 +31,4 @@ url: /ru/python-net/extract-ole-objects-from-workbook/
 Приведенный ниже код фактически выполняет поиск и извлечение объектов OLE. Объекты OLE (файлы DOC, XLS и PDF) сохраняются на диск.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

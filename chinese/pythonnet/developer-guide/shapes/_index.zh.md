@@ -375,3 +375,4 @@ Aspose.Cells for Python via .NET 支持在工作表中添加、提取和操作OL
 - [管理形状文本选项](/cells/zh/python-net/managing-shape-text-options/)
 - [Web扩展 - 办公室加载项](/cells/zh/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

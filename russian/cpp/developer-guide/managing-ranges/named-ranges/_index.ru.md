@@ -102,3 +102,4 @@ int main()
 - [Получить диапазон с внешними ссылками](/cells/ru/cpp/get-range-with-external-links/)
 - [Реализация не последовательных диапазонов](/cells/ru/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

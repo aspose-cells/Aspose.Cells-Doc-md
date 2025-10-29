@@ -16,3 +16,4 @@ keywords: Python Excel 库，Python 按 n 页宽 m 页高适配，计算页面�
 以下示例代码说明了如何使用[**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale)属性计算页面设置缩放因子。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-CalculateScalingFactor-CalculatePageSetupScalingFactor.py" >}}
+{{< app/cells/assistant language="python-net" >}}

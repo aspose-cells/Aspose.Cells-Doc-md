@@ -24,3 +24,4 @@ keywords: تقييد عدد الصفحات التي يتم إنشاؤها أثن
 إذا كانت جدول البيانات يحتوي على صيغ، فمن الأفضل أن تقوم باستدعاء طريقة [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) قبل عرضها في صيغة PDF. يجب القيام بذلك لضمان إعادة حساب القيم المعتمدة على الصيغ، وعرض القيم الصحيحة في ملف الإخراج.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

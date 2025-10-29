@@ -26,3 +26,4 @@ Excel中的动态图表是一种根据基础数据的更改自动更新自身的
 - [使用 Aspose.Cells 创建动态滚动图表](/cells/zh/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [使用 Aspose.Cells 创建带有下拉列表的动态图表](/cells/zh/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

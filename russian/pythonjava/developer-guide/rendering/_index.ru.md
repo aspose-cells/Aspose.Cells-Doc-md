@@ -1,7 +1,7 @@
 ---
 title: Отображение
 type: docs
-weight: 70
+weight: 150
 url: /ru/python-java/rendering/
 ---
 

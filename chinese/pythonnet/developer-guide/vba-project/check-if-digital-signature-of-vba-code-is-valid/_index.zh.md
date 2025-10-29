@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NET允许您使用[**Workbook.vba_project.is_valid_
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-CheckVbaSignatureIsValid.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

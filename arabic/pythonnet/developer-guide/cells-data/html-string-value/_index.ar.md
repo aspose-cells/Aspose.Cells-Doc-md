@@ -26,3 +26,4 @@ keywords: مكتبة أسبوز.سيلس لبايثون، إضافة نص HTML �
 
 - [عرض الرموز باستخدام قيمة الخلية باستخدام HTML](/cells/ar/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [الحصول على سلسلة HTML5 من الخلية](/cells/ar/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

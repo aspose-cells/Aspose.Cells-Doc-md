@@ -188,3 +188,4 @@ Aspose.Cells.GridWeb prend également en charge 59 types de formats de nombre qu
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss? |
 
+{{< app/cells/assistant language="python-net" >}}

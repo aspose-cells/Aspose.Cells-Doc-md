@@ -55,3 +55,4 @@ Les développeurs peuvent masquer plusieurs lignes ou colonnes en une seule fois
 Il est également possible d'utiliser les méthodes [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) et [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) de la classe [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) pour rendre plusieurs lignes et colonnes visibles.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

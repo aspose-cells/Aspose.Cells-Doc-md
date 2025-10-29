@@ -18,3 +18,4 @@ url: /ar/python-net/rich-text-custom-data-label-of-chart-point/
 الكود التالي يصل إلى نقطة الرسم البياني الأولى للسلسلة الأولى، يحدد نصها، ثم يعيّن خط العشرة أحرف الأولى بتغيير لونها إلى اللون الأحمر وجعلها غامقة **صحيحة**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -106,3 +106,4 @@ int main()
 [Прямое вычисление пользовательской функции без её записи в лист](/cells/ru/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

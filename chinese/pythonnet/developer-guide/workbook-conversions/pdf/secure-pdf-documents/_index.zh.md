@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET提供了[**PdfSecurityOptions**](https://refere
 如果电子表格包含公式，最好在将其呈现为PDF之前调用[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)。这样可以确保重新计算依赖公式的值，并且在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

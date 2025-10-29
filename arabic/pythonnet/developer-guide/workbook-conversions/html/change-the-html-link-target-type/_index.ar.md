@@ -29,3 +29,4 @@ keywords: تغيير نوع الوجهة لرابط HTML، نوع الوجهة �
 يوضح الكود التالي استخدام الخاصية [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). يقوم بتغيير نوع الوجهة للرابط إلى **BLANK**. بشكل افتراضي، يكون النوع الأصلي **PARENT**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

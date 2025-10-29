@@ -64,3 +64,4 @@ int main()
 This is MyTextBox
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

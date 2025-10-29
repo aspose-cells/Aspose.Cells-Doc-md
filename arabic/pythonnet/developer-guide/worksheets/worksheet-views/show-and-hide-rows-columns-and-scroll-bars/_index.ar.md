@@ -76,3 +76,4 @@ keywords: مكتبة Excel لـ Python، عرض الصفوف والأعمدة ف
 بالأسفل يوجد شيفرة كاملة تفتح ملف إكسل، book1.xls، ثم تخفي كلتي الشريطين وتحفظ الملف المعدل بشكل output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Worksheets-Display-DisplayHideScrollBars-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

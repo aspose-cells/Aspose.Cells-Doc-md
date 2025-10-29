@@ -562,3 +562,4 @@ workbook.save("sample.xlsx", AsposeCells.SaveFormat.Xlsx);
 - [Веб-расширения - дополнения для Office](/cells/ru/nodejs-cpp/web-extensions-office-add-ins/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

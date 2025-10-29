@@ -36,3 +36,4 @@ Aspose.Cells для Python via .NET предоставляет следующи�
 1. Получите индекс строки по имени строки.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

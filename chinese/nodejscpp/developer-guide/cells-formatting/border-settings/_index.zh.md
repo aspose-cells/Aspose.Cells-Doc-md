@@ -85,3 +85,4 @@ Aspose.Cells在[**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell)类
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AddBordersToRange.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -242,3 +242,4 @@ int main()
 ## **Расширенные темы**
 - [Загрузка или импорт CSV-файла с формулами](/cells/ru/cpp/load-or-import-csv-file-with-formulas/)
 - [Чтение файла CSV с различными кодировками](/cells/ru/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

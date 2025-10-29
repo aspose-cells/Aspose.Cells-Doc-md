@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Чтение меток оси после вычисления диаграммы](/cells/ru/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Как установить ось категорий в графике Excel](/cells/ru/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

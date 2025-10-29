@@ -21,3 +21,4 @@ Aspose.Cells支持创建命名范围。创建命名范围的方式有很多种�
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -11,3 +11,4 @@ url: /ru/cpp/read-and-write-xlsm-file-format/
 В следующем примере загружается [исходный файл XLSM](23166990.xlsm), считывается его ячейка A1, затем его содержимое копируется в ячейку C4 и сохраняется как [выходной файл XLSM](23166991.xlsm).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSMFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

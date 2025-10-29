@@ -24,3 +24,4 @@ url: /ar/cpp/create-dynamic-chart/
 - [إنشاء رسم بياني دوري ديناميكي باستخدام Aspose Cells](/cells/ar/cpp/create-dynamic-rolling-chart/) 
 - [إنشاء رسم بياني تمرير ديناميكي باستخدام Aspose Cells](/cells/ar/cpp/create-dynamic-scrolling-chart/) 
 - [إنشاء رسم بياني ديناميكي مع قائمة منسدلة باستخدام Aspose Cells](/cells/ar/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

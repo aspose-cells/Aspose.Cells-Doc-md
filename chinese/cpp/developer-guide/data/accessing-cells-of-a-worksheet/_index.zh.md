@@ -40,3 +40,4 @@ Aspose.Cells 允许开发人员访问工作表的最大显示范围。最大显�
 您可以使用 [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) 集合的 [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) 方法访问工作表的最大显示范围。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

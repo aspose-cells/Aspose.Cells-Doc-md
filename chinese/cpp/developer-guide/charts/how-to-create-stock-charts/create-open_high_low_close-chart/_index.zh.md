@@ -20,7 +20,7 @@ url: /zh/cpp/create-open-high-low-close-stock-chart/
 ![todo:image_alt_text](sample2.png)
 
 ## **示例代码**
-以下示例代码加载了[示例Excel文件](Open-High-Low-Close.xlsx)，并生成了[输出Excel文件](out.xlsx)。
+以下示例代码加载了【示例Excel文件】(Open-High-Low-Close.xlsx)，并生成了【输出Excel文件】(out.xlsx)。
 
 ```c++
 #include <iostream>
@@ -60,3 +60,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

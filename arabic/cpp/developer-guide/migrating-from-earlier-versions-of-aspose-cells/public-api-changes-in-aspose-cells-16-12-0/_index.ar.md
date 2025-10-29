@@ -637,3 +637,4 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 #### **قام بتغيير اسم طريقة ILoadOptions::SetLoadDataOptions إلى ILoadOptions::SetILoadDataOptions**
 #### **قام بتغيير اسم طريقة IWorkbook::SetSettings إلى IWorkbook::SetISettings**
 #### **تمت إعادة تسمية الطريقة IWorkbook::SetDefaultStyle إلى IWorkbook::SetDefaultIStyle**
+{{< app/cells/assistant language="cpp" >}}

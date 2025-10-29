@@ -67,3 +67,4 @@ Il est possible d'ajouter des hyperliens vers des fichiers Excel externes en app
 - [Modifier les hyperliens de la feuille de calcul](/cells/fr/python-net/editing-hyperlinks-of-worksheet/)
 - [Obtenir des hyperliens dans la plage](/cells/fr/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

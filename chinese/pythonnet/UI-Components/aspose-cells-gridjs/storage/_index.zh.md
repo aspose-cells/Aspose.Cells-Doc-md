@@ -142,4 +142,4 @@ def detail_file_json_with_uid():
 ```
 
 更多详细信息，请参阅此处示例：
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

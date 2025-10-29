@@ -36,3 +36,4 @@ workbook.getWorksheets().getRevisionLogs().setDaysPreservingHistory(7);
 workbook.save("outputShared_DaysPreservingHistory.xlsx");
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -71,3 +71,4 @@ workbook.save("chart_legend.xlsx");
 
 ## **高级主题**
 - [使用Aspose.Cells将图例条目填充的文本设置为无](/cells/zh/nodejs-cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

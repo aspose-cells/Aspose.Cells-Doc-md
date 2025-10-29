@@ -56,3 +56,4 @@ Aspose.Cells для Python via .NET поддерживает эту функци
 ## **Продвинутые темы**
 - [Обнаружение объединенных ячеек в листе](/cells/ru/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

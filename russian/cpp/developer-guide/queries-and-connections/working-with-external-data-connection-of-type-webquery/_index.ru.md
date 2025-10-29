@@ -63,3 +63,4 @@ int main()
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -19,3 +19,4 @@ Les fichiers Excel source et de sortie utilisés dans l'extrait de code sont joi
 [Fichier source](96928093.xlsx)
 
 [Fichier de sortie](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

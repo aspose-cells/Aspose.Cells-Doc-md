@@ -10,7 +10,7 @@ description: Cet extrait présente comment chiffrer et déchiffrer des fichiers 
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net propose une large gamme de protection et de déprotection du niveau de fichier au niveau des données comme MS Excel:
+Aspose.Cells pour Python via .NET offre une large gamme de protections et de déprotections du niveau fichier au niveau données comme MS Excel :
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Protéger l'authenticité du contenu d'un document, vous pouvez ajouter une sign
 - [Chiffrer des fichiers Excel](/cells/fr/python-net/encrypting-excel-files/)
 - [Comment détecter un format de fichier et vérifier si le fichier est chiffré](/cells/fr/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

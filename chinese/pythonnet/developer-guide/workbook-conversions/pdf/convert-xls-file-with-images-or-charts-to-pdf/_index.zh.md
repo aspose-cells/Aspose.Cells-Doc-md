@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NET支持将包含图像和图表的XLS文件转换
 如果电子表格包含公式，最好在呈现到PDF之前调用[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)方法。这样做可以确保公式相关的值被重新计算，并且在PDF中呈现正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

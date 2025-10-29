@@ -13,6 +13,20 @@ keywords: تحويل Excel إلى إطار بيانات Pandas باستخدام 
 
 {{% /alert %}}
 
+## **تحويل إكسل إلى إطار بيانات Pandas من الصفر**
+إليك مقطع من الكود الخاص بمثال يظهر كيفية تصدير بيانات Excel إلى إطار بيانات Pandas مباشرة باستخدام Aspose.Cells for Python via .NET:
+1. إنشاء كتاب عمل وإضافة بعض القيم.
+1. عبور بيانات Excel وتصدير البيانات إلى إطار بيانات Pandas باستخدام Aspose.Cells for Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+
+## **تحويل ملف Excel موجود إلى DataFrame من Pandas**
+إليك مثال برمجي لشرح كيفية تصدير بيانات Excel إلى DataFrame من Pandas عن طريق فتح ملف .xlsx موجود باستخدام Aspose.Cells للبايثون via .NET:
+1. فتح ملف [Excel موجود](PandasTest.xlsx).
+1. تحويل كل صف وعمود من خلايا البيانات إلى DataFrame من Pandas.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-openning-file.py" >}}
+
 ## **تحويل Excel إلى إطار بيانات Pandas عبر بيانات json**
 إليك مقطع من الكود الخاص بمثال يظهر كيفية تصدير بيانات Excel إلى إطار بيانات Pandas عبر بيانات json باستخدام Aspose.Cells for Python via .NET:
 1. إنشاء كتاب عمل وإضافة بعض القيم.
@@ -21,9 +35,10 @@ keywords: تحويل Excel إلى إطار بيانات Pandas باستخدام 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
 
-## **تحويل إطار بيانات Pandas إلى Excel مباشرة**
-إليك مقطع من الكود الخاص بمثال يظهر كيفية تصدير بيانات Excel إلى إطار بيانات Pandas مباشرة باستخدام Aspose.Cells for Python via .NET:
-1. إنشاء كتاب عمل وإضافة بعض القيم.
-1. عبور بيانات Excel وتصدير البيانات إلى إطار بيانات Pandas باستخدام Aspose.Cells for Python via .NET.
+## **تحويل Excel إلى DataFrame من Pandas عبر ملف CSV**
+نظرًا لخصائص تنسيق ملف CSV، فإن تحويل ملف .xlsx إلى ملف CSV ثم تحميله إلى DataFrame من Pandas هو عملية طبيعية وبسيطة جدًا:
+1. تحويل [ملف xlsx موجود](ProductDatatoCSV.xlsx) إلى ملف CSV.
+1. تحويل ملف CSV إلى DataFrame من Pandas.
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-via-CSV.py" >}}
+{{< app/cells/assistant language="python-net" >}}

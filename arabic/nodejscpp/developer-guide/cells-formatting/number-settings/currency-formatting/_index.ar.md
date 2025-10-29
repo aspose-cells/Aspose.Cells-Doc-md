@@ -47,3 +47,4 @@ keywords: تنسيق الرقم كعملة، إعدادات رقم الخلية�
 للتنسيق الأرقام كعملة في مكتبة Aspose.Cells for Node.js via C++ للعمل مع ملفات Excel، يمكنك تطبيق تنسيق العملة على الخلايا برمجياً. إليك كيفية القيام بذلك باستخدام Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

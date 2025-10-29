@@ -24,3 +24,4 @@ PDF/A是PDF的一个专门的版本，用于长期保存文档。 PDF/A是ISO标
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}
+{{< app/cells/assistant language="python-net" >}}

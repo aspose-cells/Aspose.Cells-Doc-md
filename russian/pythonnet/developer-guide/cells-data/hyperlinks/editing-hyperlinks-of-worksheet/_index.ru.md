@@ -16,3 +16,4 @@ Aspose.Cells для Python via .NET позволяет вам получить �
 Нижеприведенный образец кода получает доступ ко всем гиперссылкам листа и изменяет их свойство [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) на веб-сайт Aspose.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

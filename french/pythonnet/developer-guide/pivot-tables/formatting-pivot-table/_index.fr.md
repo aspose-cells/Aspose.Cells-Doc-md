@@ -65,3 +65,4 @@ La classe [**PivotFieldCollection**](https://reference.aspose.com/cells/python-n
 L'exemple de code ci-dessous montre comment effacer tous les champs de table de données dans une zone de données.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

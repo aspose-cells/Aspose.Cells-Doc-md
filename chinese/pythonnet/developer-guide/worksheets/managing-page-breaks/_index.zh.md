@@ -46,3 +46,4 @@ Aspose.Cells for Python via .NET 提供了一个 [**Workbook**](https://referenc
 ## **重要提示**
 
 当您在页面设置中设置 **FitToPages** 属性（即 [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) 和 [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)）时，分页符设置会受影响，因此，如果您打印工作表，分页符设置不会考虑，尽管它们仍然被设置。
+{{< app/cells/assistant language="python-net" >}}

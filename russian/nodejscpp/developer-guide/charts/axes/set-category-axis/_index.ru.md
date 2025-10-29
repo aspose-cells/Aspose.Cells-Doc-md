@@ -79,3 +79,4 @@ chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
 // Save the workbook to view the result file
 workbook.save(path + "Output.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

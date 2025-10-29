@@ -7,7 +7,7 @@ url: /zh/go-cpp/calculate-workbook-formulas/
 
 ## **计算工作簿公式**
 
-请使用[Workbook.CalculateFormula()]（https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/）方法计算工作簿中的公式。以下示例代码说明了此方法的用法。
+请使用【Workbook.CalculateFormula()】（https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/）方法计算工作簿中的公式。以下示例代码说明了此方法的用法。
 
 ## **示例代码**
 

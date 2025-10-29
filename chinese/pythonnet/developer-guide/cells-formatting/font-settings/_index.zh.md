@@ -80,3 +80,4 @@ Aspose.Cells提供了[**Cell**](https://reference.aspose.com/cells/python-net/as
 - [获取电子表格或工作簿中使用的字体列表](/cells/zh/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

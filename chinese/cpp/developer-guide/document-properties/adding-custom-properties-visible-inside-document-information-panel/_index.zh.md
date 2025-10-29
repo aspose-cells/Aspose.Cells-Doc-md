@@ -54,3 +54,4 @@ int main()
 - [在Aspose.Cells中使用自定义XML部分](/cells/zh/cpp/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

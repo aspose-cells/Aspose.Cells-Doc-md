@@ -76,7 +76,7 @@ aliases:
  }
 ```
 
-يمكنك العثور على المزيد في صفحة العرض التوضيحي لدينا على github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+يمكنك العثور على المزيد في صفحة عرض تجريبي على جيثب https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
 

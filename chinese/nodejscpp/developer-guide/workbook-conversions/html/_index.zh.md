@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [支持加载HTML到Excel工作簿时的DIV标签布局](/cells/zh/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [在保存为HTML时启用CSS自定义属性](/cells/zh/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -33,3 +33,4 @@ keywords: توقيع الرقم الرقمي لملف Excel، إضافة توق�
 - [إضافة خط توقيع إلى ورقة العمل](/cells/ar/python-net/add-signature-line/)
 - [دعم لـ توقيع XAdES](/cells/ar/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

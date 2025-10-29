@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NET 允许你实现工作表的自定义纸张尺�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.py" >}}
+{{< app/cells/assistant language="python-net" >}}

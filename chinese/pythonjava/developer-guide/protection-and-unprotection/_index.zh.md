@@ -2,7 +2,7 @@
 title: 保护和取消保护
 linktitle: 保护
 type: docs
-weight: 40
+weight: 55
 url: /zh/python-java/protect-and-unprotect/
 description: 这段代码介绍了如何使用python代码加密和解密excel文件，保护和取消保护excel文件中的数据。
 ---

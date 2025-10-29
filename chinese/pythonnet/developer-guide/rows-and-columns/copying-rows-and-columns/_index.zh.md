@@ -33,7 +33,7 @@ keywords: Python Excel库，Python如何复制行和列，使用Python复制行�
 1. 在主页选项卡上，单击**粘贴**旁边的箭头，然后选择**粘贴**特殊。
 1. 选择您想要的**选项**。
 
-## **如何使用 Aspose.Cells for .NET 复制行和列**
+## **如何使用 Aspose.Cells for Python via .NET 复制行列**
 
 ## **如何复制单行**
 
@@ -98,3 +98,4 @@ Aspose.Cells 现在提供 [**PasteOptions**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

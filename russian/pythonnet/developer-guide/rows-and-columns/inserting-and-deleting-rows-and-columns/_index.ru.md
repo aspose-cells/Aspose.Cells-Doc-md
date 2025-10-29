@@ -76,3 +76,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 Чтобы удалить столбец из листа в любом месте, вызовите метод [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) коллекции [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells). Метод [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) принимает индекс удаляемого столбца.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

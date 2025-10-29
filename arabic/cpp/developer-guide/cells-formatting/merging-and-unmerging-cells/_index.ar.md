@@ -162,3 +162,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [كشف الخلايا المدمجة في ورقة العمل](/cells/ar/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

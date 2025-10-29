@@ -58,3 +58,4 @@ keywords: مكتبة Excel لـ Python، إظهار وإخفاء خطوط الش
 من الممكن أيضًا استخدام طرق [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) و [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns)  للفئة [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) لجعل عدة صفوف وأعمدة مرئية.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

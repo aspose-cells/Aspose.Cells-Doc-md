@@ -16,3 +16,4 @@ url: /ar/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-SetCommentOfTableOrListObject-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -48,3 +48,4 @@ workbook.getWorksheets().get(0).getOleObjects().get(intIndex).setObjectSourceFul
 // Save the excel file
 workbook.save(path.join(dataDir, "testWAV.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

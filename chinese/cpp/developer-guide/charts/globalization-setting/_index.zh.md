@@ -47,3 +47,4 @@ alias: [/cpp/how-to-set-globalization-configuration-for-chart/]
 - [如何为图表设置中文区域](/cells/zh/cpp/convert-chart-to-image-for-chinese-region/)
 - [如何为图表设置日文区域](/cells/zh/cpp/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="cpp" >}}

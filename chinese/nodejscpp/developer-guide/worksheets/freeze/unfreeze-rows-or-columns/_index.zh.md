@@ -41,4 +41,5 @@ workbook.getWorksheets().get(0).unFreezePanes();
 workbook.save("Unfrozen.xlsx");
 ```
 
-附有[示例源Excel文件](Frozen.xlsx)。
+附有【示例源Excel文件】(Frozen.xlsx)。
+{{< app/cells/assistant language="nodejs-cpp" >}}

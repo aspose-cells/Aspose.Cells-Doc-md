@@ -42,3 +42,4 @@ workbook.save(path.join(dataDir, "OutputFile.out.pdf"), pdfSaveOptions);
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

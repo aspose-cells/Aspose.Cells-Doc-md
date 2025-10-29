@@ -41,3 +41,4 @@ url: /zh/python-net/your-first-aspose-cells-application-hello-world/
 以下示例打开名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的单元格A1中写入单词"Hello World!"，然后将工作簿保存为新文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

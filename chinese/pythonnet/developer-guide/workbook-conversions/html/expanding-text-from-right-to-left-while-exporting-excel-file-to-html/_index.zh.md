@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET 现支持在导出Excel为HTML时从右到左�
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExpandTextFromRightToLeft-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

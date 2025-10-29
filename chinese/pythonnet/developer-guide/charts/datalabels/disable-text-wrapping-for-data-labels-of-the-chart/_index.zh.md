@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET提供了一个[**DataLabels.is_text_wrapped**](
 下面的代码示例显示了如何禁用图表数据标签的文字换行。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

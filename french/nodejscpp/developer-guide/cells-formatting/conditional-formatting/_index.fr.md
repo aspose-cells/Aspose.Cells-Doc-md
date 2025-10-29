@@ -87,3 +87,4 @@ Vous ne pouvez utiliser que des styles de ligne fins pour la bordure extérieure
 - [Obtenir des ensembles d'icônes, des barres de données ou des objets de couleurs utilisés dans la mise en forme conditionnelle](/cells/fr/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

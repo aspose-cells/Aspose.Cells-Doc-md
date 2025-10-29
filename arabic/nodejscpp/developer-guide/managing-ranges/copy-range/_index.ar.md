@@ -145,3 +145,4 @@ targetRange.copyData(sourceRange);
 ## **مواضيع متقدمة**
 - [نسخ أطوال الصفوف من النطاق المصدر إلى النطاق الهدف](/cells/ar/nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

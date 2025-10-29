@@ -18,3 +18,4 @@ Le code d'exemple suivant ajoute une série dans un graphique vide qui n'avait p
 
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetValuesFormatCodeOfChartSeries.py" >}}
+{{< app/cells/assistant language="python-net" >}}

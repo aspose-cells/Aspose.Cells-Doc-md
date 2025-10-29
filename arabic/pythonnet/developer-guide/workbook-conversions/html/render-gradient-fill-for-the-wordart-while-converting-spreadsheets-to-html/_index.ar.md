@@ -14,3 +14,4 @@ url: /ar/python-net/render-gradient-fill-for-the-wordart-while-converting-spread
 يقوم الكود العينة التالي بتحويل [ملف إكسل المصدر](22774111.xlsx) إلى [تنسيق صفحة HTML الناتجة](22774109.zip). يحتوي ملف إكسل المصدر على كائن WordArt بتعبئة تدرجية كما هو مبين في الصورة أعلاه.
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

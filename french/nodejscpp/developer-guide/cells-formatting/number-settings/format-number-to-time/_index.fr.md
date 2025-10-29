@@ -111,3 +111,4 @@ Voici un extrait de code illustrant ces étapes :
 
 Formater des nombres en heure dans Aspose.Cells for Node.js via C++ implique de définir un format numérique personnalisé pour les cellules où vous souhaitez afficher l'heure. En suivant les étapes décrites ci-dessus, vous pouvez facilement appliquer des formats d'heure aux cellules de vos fichiers Excel avec Aspose.Cells. Rappelez-vous, l'important est d'utiliser la chaîne de format personnalisé correcte qui correspond au format d'heure souhaité.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

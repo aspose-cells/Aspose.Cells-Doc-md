@@ -90,3 +90,4 @@ url: /ar/python-net/cells-number-settings/
 - [تحديد فواصل العدد العشري المخصصة وفواصل المجموعة لسجل العمل](/cells/ar/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [تحديد تنسيق نمط DBNum المخصص](/cells/ar/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

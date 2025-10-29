@@ -32,3 +32,4 @@ url: /ar/python-net/create-dynamic-rolling-chart/
 ```
 
  يمكنك محاولة تغيير الرقم "-5" إلى "-10" في الصيغة، وسيسجل المخطط التنازلي أحدث 10 مجموعات من البيانات. لقد أنشأنا بنجاح مخطط تدويري ديناميكي باستخدام Aspose.Cells for Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

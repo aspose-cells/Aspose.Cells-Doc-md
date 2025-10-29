@@ -22,3 +22,4 @@ url: /ar/python-net/refresh-values-of-linked-shapes/
 ### كود C# لتحديث قيم الأشكال المرتبطة
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RefreshValueOfLinkedShapes-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

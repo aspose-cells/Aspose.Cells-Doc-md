@@ -107,3 +107,4 @@ keywords: 使用Aspose.Cells for Python via .NET API，您可以将工作簿、�
 ```
 [['Region', 'Store'], ['Central', 3055], ['East', 3036]]
 ```
+{{< app/cells/assistant language="python-net" >}}

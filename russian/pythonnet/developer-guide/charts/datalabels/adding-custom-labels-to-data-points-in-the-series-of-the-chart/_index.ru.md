@@ -16,3 +16,4 @@ url: /ru/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-cha
 В следующем коде создается **Диаграмма рассеяния, соединенная линиями с маркерами данных** и затем добавляются **пользовательские метки** к **точкам данных** в **серии** **диаграммы**. Каждая пользовательская метка показывает **Название серии** и **Имя точки**. Вы можете использовать любой другой текст вместо этого.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

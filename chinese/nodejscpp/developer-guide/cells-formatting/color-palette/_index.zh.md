@@ -36,3 +36,4 @@ Aspose.Cells 提供一个类 [**Workbook**](https://reference.aspose.com/cells/n
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

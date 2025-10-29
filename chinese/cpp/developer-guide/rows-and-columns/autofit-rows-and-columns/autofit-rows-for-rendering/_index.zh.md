@@ -45,3 +45,4 @@ int main()
 现在，在输出的 PDF 文件中文本不再被截断。
 
 ![保存的 PDF 文件中文本未被截断](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="cpp" >}}

@@ -19,3 +19,4 @@ Après avoir exécuté le code ci-dessous, vous verrez le diagramme sunburst com
 Le code d'exemple suivant charge le [fichier Excel d'exemple](sunburst.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-sunburst-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

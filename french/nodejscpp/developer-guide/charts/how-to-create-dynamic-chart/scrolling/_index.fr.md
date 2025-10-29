@@ -90,3 +90,4 @@ Dans le fichier généré, vous pouvez agir sur la barre de défilement, tandis 
 ```
 
 Vous pouvez essayer de changer le nombre "10" en "15" dans la cellule "Sheet1!$H$20", et le graphique dynamique comptera les 15 dernières données. Nous avons maintenant créé un graphique défilant dynamique avec succès en utilisant Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

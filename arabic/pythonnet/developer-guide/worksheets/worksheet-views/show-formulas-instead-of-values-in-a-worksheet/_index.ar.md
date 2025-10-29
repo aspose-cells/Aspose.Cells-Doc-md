@@ -16,3 +16,4 @@ keywords: مكتبة Excel بلغة Python، عرض الصيغ بدلاً من �
 توفر Aspose.Cells لـ Python via .NET خاصية [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas). قم بضبطها على **true** لتعيين Excel لعرض الصيغ.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

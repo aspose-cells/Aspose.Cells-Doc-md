@@ -55,3 +55,4 @@ Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://ref
 还可以使用[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)类的[**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/)和[**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/)方法来显示多行和列。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -36,7 +36,7 @@ url: /ru/java/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Формат улучшенного метафайла.| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG - тип формата изображения, сохраняемого с использованием метода потерь сжатия.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Графический формат обмена.| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Представляет документ в формате разметки.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| представляет документ markdown.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Это формат на основе XML, используемый в OpenOffice и StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Это формат Open Document, сохраненный в виде плоского XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Хорошо известный формат для документов Microsoft Word, который представляет собой комбинацию XML и двоичных файлов.||{{< emoticons/tick >}}|

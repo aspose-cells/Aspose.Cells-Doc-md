@@ -89,3 +89,4 @@ Aspose.Cells для Python via .NET предоставляет функции д
 - [Поддерживаемые функции Excel](/cells/ru/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

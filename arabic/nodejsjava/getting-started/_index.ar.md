@@ -24,7 +24,7 @@ Aspose.Cells for Node.js via Java هو واجهة برمجية مستقلة عن
 ### **Linux:**
 - قم بتنزيل وتثبيت [Node.js](https://nodejs.org/en/download/).
 - قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام Linux، وقم بتكوين متغير البيئة JAVA_HOME.
-- قم بتثبيت python 2.x
+- تثبيت بايثون 3.x
 - قم بتثبيت [node-java](https://github.com/joeferner/node-java) bridge. يمكنك تشغيل الأوامر التالية في الطرفية: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - قم بتثبيت Oracle JDK8 وقم بتكوين متغير البيئة JAVA_HOME.
 - قم بتثبيت Node.js وأضف node.exe إلى المسار.
+- تثبيت بايثون وضبطه على PATH.
 - قم بتثبيت node-gyp.
-- قم بتثبيت أدوات بناء Windows.
-- قم بتثبيت [جسر node-java](https://www.npmjs.com/package/java) وتشغيل الأوامر التالية في سطر الأوامر كمسؤول:
+- تثبيت [جسر node-java](https://www.npmjs.com/package/java).
+- تثبيت aspose.cells(أو: تحميل "Aspose.Cells for Node.js via Java" وفك ضغطه في "aspose.cells.js.java/node_modules").
 
-
+قم بتنفيذ الأوامر أدناه @ موجه الأوامر كمسؤول (**تأكد من تكوين Java و Node.js و Python**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخراجه في "aspose.cells.js.java/node_modules".
 - قم بإنشاء ملف بالاسم **hello.js** في مجلد "aspose.cells.js.java" باستخدام رمز العينة التالي:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- قم بتثبيت python 2.x (إذا لم يكن مثبتًا بالفعل).
+- تثبيت بايثون 3.x (إن لم يكن مثبتًا).
 - قم بتثبيت جسر node-java. يمكنك تشغيل الأوامر التالية في التيرمينال:
 
 `         `$ mkdir aspose.cells.js.java

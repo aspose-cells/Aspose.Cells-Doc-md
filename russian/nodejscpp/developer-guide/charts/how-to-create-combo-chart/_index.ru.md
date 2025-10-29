@@ -84,3 +84,4 @@ chart.getPlotArea().getArea().setFormatting(AsposeCells.FormattingType.None);
 // Save the Excel file
 workbook.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

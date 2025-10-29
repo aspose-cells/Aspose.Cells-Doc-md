@@ -45,3 +45,4 @@ url: /ar/python-net/apply-conditional-formatting-in-worksheets/
 
 عند تنفيذ الكود أعلاه، سيتم تطبيق التنسيق الشرطي على الخلية “B3” في الورقة العمل الأولى للملف الناتج (output.xls). يعتمد التنسيق الشرطي المطبق على الصيغة التي تحسب قيمة “B3” كمجموع B1 و B2.
 
+{{< app/cells/assistant language="python-net" >}}

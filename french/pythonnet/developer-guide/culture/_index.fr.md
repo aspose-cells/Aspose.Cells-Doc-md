@@ -49,3 +49,4 @@ Aspose.Cells s’adapte automatiquement aux paramètres régionaux pour :
 - Utiliser l'encodage Unicode pour un contenu multilingue
 - Valider les formules spécifiques à la localisation
 - Tester l'analyse des nombres avec différents réglages régionaux
+{{< app/cells/assistant language="python-net" >}}

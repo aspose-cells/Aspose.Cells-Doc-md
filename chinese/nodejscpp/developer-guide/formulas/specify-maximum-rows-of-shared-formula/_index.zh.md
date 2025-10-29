@@ -46,3 +46,4 @@ cell.setSharedFormula("=Sum(A1:A2)", 100, 1);
 wb.save("outputSpecifyMaximumRowsOfSharedFormula.xlsx");
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

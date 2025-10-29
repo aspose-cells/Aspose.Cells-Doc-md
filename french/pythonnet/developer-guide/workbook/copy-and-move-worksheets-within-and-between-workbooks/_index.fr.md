@@ -53,3 +53,4 @@ En exécutant le code, la feuille de calcul nommée Copie est copiée dans Secon
 En exécutant le code, la feuille de calcul nommée Déplacer de FirstWorkbook.xlsx est déplacée vers SecondWorkbook.xlsx avec le nom Feuille3.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -22,3 +22,4 @@ keywords: Python Excel 库，Python 如何在没有 Excel 的情况下检查冻�
 3.获取锁定的行和列。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

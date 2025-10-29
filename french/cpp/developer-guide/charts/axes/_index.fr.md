@@ -88,3 +88,4 @@ int main()
 - [Gérer les unités automatiques de l'axe du graphique comme dans Microsoft Excel](/cells/fr/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Lire les étiquettes des axes après le calcul du graphique](/cells/fr/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Comment définir l'axe des catégories dans un graphique Excel](/cells/fr/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

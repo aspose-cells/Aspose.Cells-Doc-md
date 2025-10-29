@@ -59,3 +59,4 @@ Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://ref
 ### **控制选项卡栏宽度**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

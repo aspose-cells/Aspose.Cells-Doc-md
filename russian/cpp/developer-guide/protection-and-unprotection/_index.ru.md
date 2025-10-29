@@ -31,3 +31,4 @@ Aspose.Cells for C++ предлагает широкий спектр защит
 - [Обнаружение формата файла зашифрованных файлов Office Open XML - OOXML](/cells/ru/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Шифрование файлов Excel](/cells/ru/cpp/encrypting-excel-files/)
 - [Как обнаружить формат файла и проверить, зашифрован ли файл](/cells/ru/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

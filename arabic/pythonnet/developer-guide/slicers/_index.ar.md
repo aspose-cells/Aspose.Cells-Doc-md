@@ -37,3 +37,4 @@ keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، Python Creat
 - [إزالة قالب التصفية](/cells/ar/python-net/removing-slicer/)
 - [تقديم المقطع](/cells/ar/python-net/rendering-slicer/)
 - [تحديث المقسم](/cells/ar/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Важно знать**
 
 Когда вы устанавливаете свойства **fitToPages** (то есть [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) и [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) в настройках разметки страницы, настройки разрывов страниц оказывают влияние, поэтому при печати листа настройки разрывов страниц не учитываются, хотя они все еще установлены.
+{{< app/cells/assistant language="nodejs-cpp" >}}

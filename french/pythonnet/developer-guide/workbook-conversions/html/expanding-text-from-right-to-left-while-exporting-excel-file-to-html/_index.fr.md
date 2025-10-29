@@ -29,3 +29,4 @@ Comme vous pouvez le voir dans les captures d'écran, la nouvelle version expand
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExpandTextFromRightToLeft-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

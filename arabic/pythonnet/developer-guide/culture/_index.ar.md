@@ -49,3 +49,4 @@ workbook.settings.culture_info = culture
 - استخدام ترميز يونيكود لمحتوى متعدد اللغات
 - التحقق من صحة الصيغ الخاصة بكل منطقة
 - اختبار تحليل الأرقام باستخدام إعدادات إقليمية مختلفة
+{{< app/cells/assistant language="python-net" >}}

@@ -9,3 +9,4 @@ keywords: Управление опциями фигур через Node.js с �
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [ضبط مستوى ضغط الورقة العمل](/cells/ar/nodejs-cpp/adjust-workbook-compression-level/)
 - [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [حفظ الملف في كائن الاستجابة](/cells/ar/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

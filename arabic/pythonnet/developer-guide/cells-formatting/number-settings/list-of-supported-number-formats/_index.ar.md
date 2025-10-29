@@ -188,3 +188,4 @@ url: /ar/python-net/list-of-supported-number-formats/
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss? |
 
+{{< app/cells/assistant language="python-net" >}}

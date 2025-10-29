@@ -13,7 +13,7 @@ keywords: excel，移动，电子表格，编辑器，移动电子表格，查�
 
 GridJs能够适应移动屏幕。
 
-运行[GridJs示例](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "GridJs示例")
+运行 [GridJs 演示](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "demo of GridJs")
 
 您需要通过IP方式在移动终端访问页面http://127.0.0.1:2022。 
 

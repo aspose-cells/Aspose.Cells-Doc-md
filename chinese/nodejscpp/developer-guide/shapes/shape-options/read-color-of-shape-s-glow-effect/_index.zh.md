@@ -61,3 +61,4 @@ Transparency: 0.13
 Type: RGB
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

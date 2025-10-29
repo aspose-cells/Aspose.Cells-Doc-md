@@ -6,7 +6,7 @@ url: /zh/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **可能的使用场景**
-在从工作簿筛选数据时，请使用 [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) 属性。但如果你想筛选单个工作表中的数据，则需要重写 [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-) 方法。在创建或使用 [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter) 时，请提供来自 [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) 枚举的适当值。
+在从工作簿筛选数据时，请使用 [LoadOptions.LoadFilter](https://reference.aspose.com/cells/zh/java/com.aspose.cells/loadoptions#LoadFilter) 属性。但如果你想筛选单个工作表中的数据，则需要重写 [LoadFilter.startSheet](https://reference.aspose.com/cells/zh/java/com.aspose.cells/loadfilter#startSheet-com.aspose.cells.Worksheet-) 方法。在创建或使用 [LoadFilter](https://reference.aspose.com/cells/zh/java/com.aspose.cells/loadfilter) 时，请提供来自 [LoadDataFilterOptions](https://reference.aspose.com/cells/zh/java/com.aspose.cells/LoadDataFilterOptions) 枚举的适当值。
 
 [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) 枚举具有以下值。
 

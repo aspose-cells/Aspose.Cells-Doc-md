@@ -35,3 +35,4 @@ L'option par défaut, [**MemorySetting.NORMAL**](https://reference.aspose.com/ce
 1. **Insertion et suppression de cellules et de lignes** : Veuillez noter que s'il y a beaucoup d'opérations d'insertion/suppression de Cellules/Lignes, la dégradation des performances sera notable en mode *MemoryPreference* par rapport au mode *Normal*.
 1. **Opérer sur différents types de cellules** : Si la plupart des cellules contiennent des valeurs de chaîne ou des formules, le coût de la mémoire sera le même qu'en mode *Normal*, mais s'il y a beaucoup de cellules vides, ou que les valeurs des cellules sont numériques, booléennes, et ainsi de suite, l'option [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) offrira de meilleures performances.
 
+{{< app/cells/assistant language="python-net" >}}

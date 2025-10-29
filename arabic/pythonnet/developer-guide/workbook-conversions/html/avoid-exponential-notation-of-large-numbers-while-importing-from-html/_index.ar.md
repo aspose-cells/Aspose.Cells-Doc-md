@@ -16,3 +16,4 @@ keywords: تجنب تقديم الرقم التمثيلي للأرقام الك�
 الشفرة العينية التالية توضح استخدام ال [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/). ستقوم الواجهة بإستيراد الرقم كما هو دون تحويله إلى علامة علمية.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

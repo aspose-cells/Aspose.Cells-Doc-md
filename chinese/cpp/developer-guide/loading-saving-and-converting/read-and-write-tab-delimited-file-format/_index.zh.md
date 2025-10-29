@@ -11,3 +11,4 @@ Microsoft Excel支持多种格式，如XLS、XLSX、XLSM、XLSB、CSV、制表�
 以下示例代码加载[源制表符分隔文件](23166997.txt)，并读取其单元格A1，然后将其内容复制到单元格C4并保存为[输出制表符分隔文件](23166996.txt)。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

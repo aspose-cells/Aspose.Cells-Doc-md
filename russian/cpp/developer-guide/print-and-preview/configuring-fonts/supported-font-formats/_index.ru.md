@@ -12,3 +12,4 @@ description: Узнайте о поддерживаемых форматах ш�
 |**TTF**|TrueType Шрифты|
 |**TTC**|Коллекция TrueType|
 |**OTF**|Шрифты OpenType|
+{{< app/cells/assistant language="cpp" >}}

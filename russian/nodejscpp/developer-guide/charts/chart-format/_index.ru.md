@@ -384,3 +384,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Установите изображение в качестве фона в диаграмме](/cells/ru/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

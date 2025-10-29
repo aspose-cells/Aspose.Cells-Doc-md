@@ -203,3 +203,4 @@ int main()
 - [إدراج صورة مرتبطة من عنوان ويب](/cells/ar/cpp/insert-a-linked-picture-from-web-address/)
 - [إدراج صورة بناءً على مرجع الخلية](/cells/ar/cpp/insert-a-picture-based-on-cell-reference/)
 - [تحميل صورة ويب من عنوان URL إلى ورقة عمل Excel](/cells/ar/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

@@ -89,3 +89,4 @@ keywords: كيفية حساب الصيغ في بايثون، الصيغ والد
 - [الدوال المدعومة في إكسل](/cells/ar/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

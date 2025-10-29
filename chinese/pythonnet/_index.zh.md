@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET使您的应用程序能够执行各种电子表
 - [下载Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET付费支持帮助台](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ Aspose.Cells提供了一个类[Workbook](https://reference.aspose.com/cells/node
 - [编辑工作表的超链接](/cells/zh/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [获取范围内的超链接](/cells/zh/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

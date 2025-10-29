@@ -23,3 +23,4 @@ keywords: 获取单元格的最大显示范围，获取单元格的最大行数�
 1. 获取单元格 [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range)。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-get-range.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

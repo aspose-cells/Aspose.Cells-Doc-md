@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET通过[**TableToRangeOptions**](https://referenc
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-ConvertTableToRangeWithOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

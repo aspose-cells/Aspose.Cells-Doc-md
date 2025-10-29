@@ -198,4 +198,4 @@ GridJs 会在 **`Config.getFileCacheDirectory()`** 文件夹内创建并保存�
 ```
 
 更多详细信息，请参阅此处示例：
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

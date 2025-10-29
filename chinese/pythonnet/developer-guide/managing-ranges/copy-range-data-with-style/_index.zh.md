@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET提供了一系列用于处理范围的类和方
 1. 将第一个范围的带有格式的数据复制到第二个范围。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataWithStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

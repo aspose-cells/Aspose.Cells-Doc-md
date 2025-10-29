@@ -22,3 +22,4 @@ keywords: تحويل ملف XLS مع صور أو رسوم بيانية إلى م
 إذا كان جدول الجداول يحتوي على صيغ، من الأفضل استدعاء طريقة [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) مباشرة قبل التقديم إلى PDF. يضمن ذلك إعادة حساب القيم التي تعتمد على الصيغ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

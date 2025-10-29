@@ -41,3 +41,4 @@ Aspose.Cells for Python via .NET 提供一个类，[**Workbook**](https://refere
 使用[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的成员（如[**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin)和[**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin)）设置页眉和页脚边距。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

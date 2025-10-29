@@ -1,7 +1,7 @@
 ---
 title: Строки и столбцы
 type: docs
-weight: 90
+weight: 58
 url: /ru/python-java/rows-and-columns/
 ---
 

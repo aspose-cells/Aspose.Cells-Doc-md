@@ -92,3 +92,4 @@ const outputFilePath = path.join(dataDir, "copyrangestyle.out.xls");
 // Save the excel file.
 workbook.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

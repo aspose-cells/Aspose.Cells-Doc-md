@@ -83,3 +83,4 @@ int main()
 - [تسمية بيانات مخصصة نصية غنية الرسم البياني](/cells/ar/cpp/rich-text-custom-data-label-of-chart-point/)
 - [تعيين نوع الشكل لتسميات بيانات الرسم البياني](/cells/ar/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [عرض نطاق الخلايا كعلامات البيانات](/cells/ar/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

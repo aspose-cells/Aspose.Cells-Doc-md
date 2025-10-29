@@ -90,3 +90,4 @@ workbook.save(path.join(localPath, "DynamicScrollingChart.xlsx"));
 ```
 
  يمكنك محاولة تغيير الرقم "10" إلى "15" في الخلية "Sheet1!$H$20"، وسيقوم الرسم البياني الديناميكي بعد ذلك بحساب أحدث 15 مجموعة من البيانات. لقد أنشأنا بنجاح رسمًا بيانيًا متدفقًا ديناميكيًا باستخدام Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -87,3 +87,4 @@ Microsoft Excel 2007 добавил более расширенное услов
 - [Получить наборы значков, столбчатые диаграммы данных или объекты цветовой шкалы, используемые в условном форматировании](/cells/ru/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

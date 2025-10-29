@@ -11,3 +11,4 @@ Microsoft Excel поддерживает множество форматов, т
 В следующем образце кода загружается [исходный файл, разделенный табуляцией](23166997.txt), читается его ячейка A1, затем его содержимое копируется в ячейку C4 и сохраняется в виде [выходного файла, разделенного табуляцией](23166996.txt).
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

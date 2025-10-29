@@ -13,7 +13,7 @@ Numbers 是由 Apple Inc. 开发的一款电子表格应用程序。Aspose.Cells
 
 ## **使用 Aspose.Cells for Node.js via C++ 读取由 Apple Inc. 开发的数字电子表格**
 
-以下示例代码加载[示例数字电子表格]（sampleNumbersByAppleInc.numbers），并将其转换为[输出 PDF 格式]（outputNumbersByAppleInc.pdf）。您需要在构造函数中使用 [**LoadOptions**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions) 类并指定 [**LoadFormat.Numbers**](https://reference.aspose.com/cells/nodejs-cpp/loadformat) 作为参数来成功加载。请从提供的链接下载它们。您可以用任何数字电子表格尝试代码。也请阅读代码注释以获取更多帮助。
+以下示例代码加载【示例数字电子表格】（sampleNumbersByAppleInc.numbers），并将其转换为【输出 PDF 格式】（outputNumbersByAppleInc.pdf）。您需要在构造函数中使用 [**LoadOptions**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions) 类并指定 [**LoadFormat.Numbers**](https://reference.aspose.com/cells/nodejs-cpp/loadformat) 作为参数来成功加载。请从提供的链接下载它们。您可以用任何数字电子表格尝试代码。也请阅读代码注释以获取更多帮助。
 
 ## **示例代码**
 
@@ -36,3 +36,4 @@ const wb = new AsposeCells.Workbook(sourceFilePath, opts);
 wb.save(outputFilePath, AsposeCells.SaveFormat.Pdf);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

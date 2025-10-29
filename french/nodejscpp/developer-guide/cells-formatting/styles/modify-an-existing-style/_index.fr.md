@@ -56,3 +56,4 @@ Les modifications sont automatiquement appliquées à la plage à laquelle le st
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-ModifyExistingStyle.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

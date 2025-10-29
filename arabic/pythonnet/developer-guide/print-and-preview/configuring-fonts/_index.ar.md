@@ -67,3 +67,4 @@ url: /ar/python-net/configuring-fonts-for-rendering-spreadsheets/
 - [صيغ الخط المدعمة](/cells/ar/python-net/supported-font-formats/)
 - [ورقة العمل إلى صورة - تعيين تنسيق البكسل للصورة المقدمة](/cells/ar/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

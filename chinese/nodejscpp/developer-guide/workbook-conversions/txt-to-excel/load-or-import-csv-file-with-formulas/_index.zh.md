@@ -13,7 +13,7 @@ description: 学习如何使用 Aspose.Cells for Node.js via C++ 加载和导入
 
 {{% /alert %}}  
 
-以下代码演示了如何加载以及导入带公式的 CSV 文件。你可以使用任何 CSV 文件。为了示例，我们使用包含此数据的[简单 CSV 文件]（5115034.csv），如你所见，它包含一个公式。
+以下代码演示了如何加载以及导入带公式的 CSV 文件。你可以使用任何 CSV 文件。为了示例，我们使用包含此数据的【简单 CSV 文件】（5115034.csv），如你所见，它包含一个公式。
 
 {{< highlight javascript >}}  
 const fs = require('fs');  
@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

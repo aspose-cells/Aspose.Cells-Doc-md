@@ -105,3 +105,4 @@ workbook.Save(u"output.xlsx");
 ```
 
 [Page du produit](https://products.aspose.com/cells/cpp/) | [Docs](https://docs.aspose.com/cells/cpp/) | [Démos](https://products.aspose.app/cells/family) | [Référence de l'API](https://reference.aspose.com/cells/cpp) | [Exemples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Versions](https://releases.aspose.com/cells/cpp/) | [Support gratuit](https://forum.aspose.com/c/cells) | [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< app/cells/assistant language="cpp" >}}

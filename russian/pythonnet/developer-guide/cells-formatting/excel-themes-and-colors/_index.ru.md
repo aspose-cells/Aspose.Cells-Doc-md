@@ -70,3 +70,4 @@ Aspose.Cells для Python via .NET предоставляет возможно�
 ## **Продвинутые темы**
 - [Извлечение данных о теме из файла Excel](/cells/ru/python-net/extract-theme-data-from-excel-file/)
 
+{{< app/cells/assistant language="python-net" >}}

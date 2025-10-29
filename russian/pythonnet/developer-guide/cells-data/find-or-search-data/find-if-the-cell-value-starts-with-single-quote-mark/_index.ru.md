@@ -16,3 +16,4 @@ Aspose.Cells для Python via .NET теперь предоставляет св
 В следующем образце кода объясняется, что строки как пример и 'пример не могут быть различены с помощью свойства [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/). Поэтому мы должны использовать свойство [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/), чтобы различать их.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

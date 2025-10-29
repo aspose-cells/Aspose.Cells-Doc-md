@@ -132,3 +132,4 @@ console.log("Cell Name: " + cell.getName() + " Value: " + cell.getStringValue())
 - [读取带有多种编码的CSV文件](/cells/zh/nodejs-cpp/reading-csv-file-with-multiple-encodings/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

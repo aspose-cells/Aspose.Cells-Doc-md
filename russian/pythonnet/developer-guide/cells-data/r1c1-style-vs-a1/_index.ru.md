@@ -58,3 +58,4 @@ keywords: Библиотека Python Excel, Стиль ссылки R1C1 про
 Стиль ссылок R1C1:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

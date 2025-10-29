@@ -79,3 +79,4 @@ cells = wb.getWorksheets().add("Sheet2").getCells();
 2. **插入和删除单元格及行**：请注意，如果对单元格/行进行大量插入/删除操作，*MemoryPreference* 模式的性能会明显低于 *Normal* 模式。  
 3. **操作不同类型的单元格**：如果大多数单元格包含字符串值或公式，内存成本与 *Normal* 模式相同，但如果存在大量空单元格，或单元格值为数字、布尔值等，则选项 [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) 会提供更好的性能。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

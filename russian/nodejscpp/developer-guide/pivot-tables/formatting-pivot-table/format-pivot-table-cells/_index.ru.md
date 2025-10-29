@@ -22,3 +22,4 @@ keywords: Форматирование ячеек сводной таблицы.
 
 - [Форматирование сводной таблицы](/cells/ru/nodejs-cpp/formatting-pivot-table/)
 - [Работа с форматами отображения данных DataField в сводной таблице](/cells/ru/nodejs-cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

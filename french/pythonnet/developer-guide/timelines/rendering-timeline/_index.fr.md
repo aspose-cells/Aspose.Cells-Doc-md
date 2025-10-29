@@ -17,3 +17,4 @@ Le code d'exemple suivant charge le [fichier Excel d'exemple](input.xlsx) qui co
 ### **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-RenderingTimeline.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

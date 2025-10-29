@@ -48,3 +48,4 @@ L'exemple suivant montre comment charger une licence depuis un flux.
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -66,3 +66,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 - [Определите, начинается ли значение ячейки с одинарной кавычки](/cells/ru/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Поиск данных с использованием исходных значений](/cells/ru/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

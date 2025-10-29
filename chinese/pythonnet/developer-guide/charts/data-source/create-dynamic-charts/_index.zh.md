@@ -52,3 +52,4 @@ ListObjects提供了以内置功能进行排序和筛选数据的能力。排序
 1. 将结果保存在磁盘上。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateDynamicChartsUsingDynamicFormula.py" >}}
+{{< app/cells/assistant language="python-net" >}}

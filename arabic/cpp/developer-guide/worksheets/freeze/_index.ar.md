@@ -61,3 +61,4 @@ int main()
 ```
 
 المرفق [ملف الإكسيل عينة](Freeze.xlsx).
+{{< app/cells/assistant language="cpp" >}}

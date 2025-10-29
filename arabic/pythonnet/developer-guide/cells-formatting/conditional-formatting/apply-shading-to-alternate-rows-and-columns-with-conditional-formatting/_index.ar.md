@@ -34,3 +34,4 @@ url: /ar/python-net/apply-shading-to-alternate-rows-and-columns-with-conditional
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

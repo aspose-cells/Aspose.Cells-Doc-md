@@ -48,3 +48,4 @@ reflectionEffect.setDistance(80);
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

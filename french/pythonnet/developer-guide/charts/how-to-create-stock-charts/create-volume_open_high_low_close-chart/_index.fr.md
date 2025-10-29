@@ -21,3 +21,4 @@ Ce graphique inclut une colonne pour le volume immédiatement après la premièr
 Le code d'exemple suivant charge le [fichier Excel d'exemple](Volume-Open-High-Low-Close.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-volume-open-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

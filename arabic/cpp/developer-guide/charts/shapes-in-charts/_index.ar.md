@@ -281,3 +281,4 @@ int main()
 
 ## **مواضيع متقدمة**
 - [إضافة علامة مائية WordArt إلى الرسم البياني](/cells/ar/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

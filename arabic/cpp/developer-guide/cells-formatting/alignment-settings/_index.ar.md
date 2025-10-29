@@ -494,3 +494,4 @@ int main()
 ## **مواضيع متقدمة**
 - [تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية](/cells/ar/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [فواصل السطر وتفريغ النص](/cells/ar/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

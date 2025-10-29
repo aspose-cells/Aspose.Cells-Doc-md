@@ -20,13 +20,13 @@ aliases:
 
 سيساعدك هذا الدليل على تكوين دعم متعدد اللغات في مشروع Aspose.Cells GridJs الخاص بك. يغطي التكوينات الأمامية والخلفية على حد سواء.
 
-الدليل مبني على [مشروع تجريبي](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs)، يرجى التعديل وفقًا للوضع الفعلي.
+البرنامج التعليمي مستند إلى [مشروع العرض التوضيحي](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs)، يرجى التعديل وفقًا للوضع الفعلي
 
 ## التكوين الأمامي
 
 في صفحات الواجهة الأمامية الخاصة بك، حدد لغة الواجهة باستخدام الخيار `local`.
 
-في المشروع التجريبي، تحتاج إلى تعديل ملف [uidload.html](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)
+في مشروع العرض التوضيحي، تحتاج إلى تعديل ملف [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)
 
 إليك مثال:
 
@@ -48,7 +48,7 @@ const loadNormalContext = (sheet) => {
 
 في كود الخلفية، تحتاج إلى ضبط CultureInfo المناسب قبل معالجة بيانات Excel.
 
-في المشروع التجريبي، تحتاج إلى تعديل ملف [Controller](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)
+في مشروع العرض التوضيحي، تحتاج إلى تعديل ملف [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)
 
 ### نقاط تكوين الوحدة التحكم
 

@@ -8,3 +8,4 @@ description: Apprenez comment gérer le classeur via les API Aspose.Cells pour P
 keywords: Comment gérer le classeur en C#, gérer les classeurs et feuilles de calcul à l aide de C#, exploiter les classeurs et feuilles de calcul en C#. 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

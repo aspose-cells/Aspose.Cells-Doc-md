@@ -29,3 +29,4 @@ description: تعرف على ميزات المقارنة والهجرة في Asp
 يوفر Aspose.Cells for C++ أدوات شاملة لمقارنة وترحيل ملفات Excel. من خلال استخدامها، يمكنك ضمان سلامة البيانات وتبسيط عملية الترحيل.
 
 للمزيد من الأمثلة التفصيلية والاستخدام المتقدم، راجع [مستندات Aspose.Cells for C++](https://reference.aspose.com/cells/cpp/).
+{{< app/cells/assistant language="cpp" >}}

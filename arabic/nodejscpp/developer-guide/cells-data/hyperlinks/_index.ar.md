@@ -64,3 +64,4 @@ keywords: إدراج روابط تشعبية في إكسل عبر Node.js بوا
 - [تحرير الارتباطات التشعبية لورقة العمل](/cells/ar/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

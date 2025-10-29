@@ -29,3 +29,4 @@ const wb = new AsposeCells.Workbook(filePath);
 // Save it to Pdf format
 wb.save(`output-${AsposeCells.CellsHelper.getVersion()}.pdf`);
 ``` 
+{{< app/cells/assistant language="nodejs-cpp" >}}

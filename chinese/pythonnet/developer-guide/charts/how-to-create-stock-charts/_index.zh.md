@@ -24,3 +24,4 @@ url: /zh/python-net/how-to-create-stock-charts/
 以下数据集显示了某股票的日常交易信息。我们将使用这些数据创建四种类型的股票图表：高-低-收（HLC）股票图表，开-高-低-收（OHLC）图表，量-高-低-收（VHLC）股票图表，以及量-开-高-低-收（VOHLC）股票图表。 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="python-net" >}}

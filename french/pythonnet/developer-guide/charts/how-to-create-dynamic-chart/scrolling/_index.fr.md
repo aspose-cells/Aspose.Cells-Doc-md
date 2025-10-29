@@ -32,3 +32,4 @@ Dans le fichier généré, vous pouvez agir sur la barre de défilement, tandis 
 ```
 
 Vous pouvez essayer de changer le chiffre "10" par "15" dans la cellule "Sheet1!$H$20", et le graphique dynamique comptera les 15 dernières séries de données. Nous avons maintenant créé un graphique à défilement dynamique avec succès en utilisant Aspose.Cells pour Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

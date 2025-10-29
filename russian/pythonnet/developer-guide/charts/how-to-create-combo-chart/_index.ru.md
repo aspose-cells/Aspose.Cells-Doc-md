@@ -22,3 +22,4 @@ url: /ru/python-net/create-combo-chart/
 В приведенном ниже образце кода загружается [образец файла Excel](combo.xlsx) и создается [выходной файл Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-combo-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

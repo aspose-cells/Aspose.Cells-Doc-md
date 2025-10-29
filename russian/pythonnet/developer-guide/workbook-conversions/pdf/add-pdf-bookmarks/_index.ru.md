@@ -24,3 +24,4 @@ Aspose.Cells для Python via .NET позволяет добавлять зак
 Если у вас есть формулы в таблице, лучше вызвать [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) прямо перед преобразованием таблицы в формат PDF. Это обеспечит обновление формульных зависимых значений и правильное отображение их в PDF-формате.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

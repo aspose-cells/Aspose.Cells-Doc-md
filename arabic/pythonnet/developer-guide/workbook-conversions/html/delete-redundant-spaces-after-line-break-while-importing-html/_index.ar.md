@@ -26,3 +26,4 @@ keywords: حذف المسافات الزائدة بعد فاصل الأسطر أ
 الكود البرمجي التالي يُظهر استخدام خاصية [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/). الرجاء تعيينها **true** أو **false** للحصول على الناتج كما هو موضح في اللقطة الشاشة أعلاه.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

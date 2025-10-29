@@ -82,3 +82,4 @@ description: 使用 Aspose.Cells for Python 通过 .Net 库根据模板 Excel �
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

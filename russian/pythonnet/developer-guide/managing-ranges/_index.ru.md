@@ -76,3 +76,4 @@ CurrentRegion - это свойство, которое возвращает о�
 - [Создать именованные диапазоны с учетом книги и листа](/cells/ru/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Поиск и замена данных в диапазоне](/cells/ru/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -33,3 +33,4 @@ Aspose.Cells pour Python via .NET offre la même fonctionnalité que Microsoft E
 - [Formater et modifier des plages nommées](/cells/fr/python-net/format-and-modify-named-ranges/)
 - [Obtenir une plage avec des liens externes](/cells/fr/python-net/get-range-with-external-links/)
 - [Mise en œuvre de plages non séquentielles](/cells/fr/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

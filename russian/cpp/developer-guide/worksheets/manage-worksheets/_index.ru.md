@@ -34,3 +34,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 Удаление листов по имени хорошо работает, когда известно имя листа. Если вы не знаете имя листа, используйте перегруженную версию метода [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat), который принимает индекс листа вместо его имени.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

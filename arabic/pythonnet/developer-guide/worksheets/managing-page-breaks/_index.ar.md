@@ -46,3 +46,4 @@ keywords: مكتبة إكسل بايثون، فواصل صفحات، فواصل 
 ## **مهم معرفته**
 
 عند ضبط خصائص **تناسب الصفحات** (أي [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) و [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) في إعدادات تكوين الصفحة، يتأثر إعدادات كسر الصفحة، لذلك، إذا قمت بطباعة ورقة العمل، فإن إعدادات كسر الصفحة لا تعتبر على الرغم من أنها ما زالت مضبوطة.
+{{< app/cells/assistant language="python-net" >}}

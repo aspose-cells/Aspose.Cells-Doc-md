@@ -13,7 +13,7 @@ description: 了解如何使用Aspose.Cells结合C++导出保存Excel文件到HT
 
 ## **在将 Excel 文件保存为 HTML 时导出批注**
 
-下面的示例代码演示了[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/isexportcomments/)属性的用法。截图显示将其设置为**true**时，HTML的效果。请下载[示例Excel文件](50528260.xlsx)和[生成的HTML](5052826.txt)以供参考。
+下面的示例代码演示了[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/isexportcomments/)属性的用法。截图显示将其设置为**true**时，HTML的效果。请下载【示例Excel文件】(50528260.xlsx)和【生成的HTML】(5052826.txt)以供参考。
 
 ![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
@@ -48,3 +48,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

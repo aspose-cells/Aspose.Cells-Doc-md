@@ -110,3 +110,4 @@ options.setWatermark(watermark);
 wb.save("output_image_watermark.pdf", options);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

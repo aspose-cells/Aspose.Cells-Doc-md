@@ -87,3 +87,4 @@ Aspose.Cells تتيح لك إضافة وإزالة التنسيق الشرطي �
 - [الحصول على مجموعات الرموز، أشرطة البيانات أو كائنات مقياس الألوان المستخدمة في التنسيق الشرطي](/cells/ar/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

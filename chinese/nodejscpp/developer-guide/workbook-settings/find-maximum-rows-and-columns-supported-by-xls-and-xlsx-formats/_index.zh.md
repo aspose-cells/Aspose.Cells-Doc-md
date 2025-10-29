@@ -68,3 +68,4 @@ Maximum Columns: 16384
 
 {{< /highlight >}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

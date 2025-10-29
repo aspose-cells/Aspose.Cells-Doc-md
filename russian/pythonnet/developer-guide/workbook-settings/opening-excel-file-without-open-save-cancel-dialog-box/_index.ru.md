@@ -39,3 +39,4 @@ url: /ru/python-net/opening-excel-file-without-open-save-cancel-dialog-box/
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 Эта настройка позволяет файлам запускаться непосредственно в веб-браузере, без отображения окна диалога Открыть-Сохранить-Отмена при скачивании или открытии файла.
 
+{{< app/cells/assistant language="python-net" >}}

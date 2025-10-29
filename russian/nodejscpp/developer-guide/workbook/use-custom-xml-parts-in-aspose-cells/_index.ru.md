@@ -66,3 +66,4 @@ workbook.save(filePath);
 ## Связанная статья
 
 - [Добавление пользовательских свойств, видимых в панели информации о документе](/cells/ru/nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

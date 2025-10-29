@@ -12,3 +12,4 @@ Aspose.Cells for Python via .NET 提供了从工作簿中删除 ActiveX 控件�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RemoveActiveXControl-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

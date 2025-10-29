@@ -96,3 +96,4 @@ int main()
 ## **مواضيع متقدمة**
 - [دمج الورقات المتعددة في ورقة عمل واحدة](/cells/ar/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [دمج الملفات](/cells/ar/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

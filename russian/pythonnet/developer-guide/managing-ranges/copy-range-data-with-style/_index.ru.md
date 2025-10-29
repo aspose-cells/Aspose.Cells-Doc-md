@@ -26,3 +26,4 @@ Aspose.Cells для Python via .NET предоставляет ряд класс
 1. Скопируйте данные с форматированием из первого диапазона во второй диапазон.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataWithStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

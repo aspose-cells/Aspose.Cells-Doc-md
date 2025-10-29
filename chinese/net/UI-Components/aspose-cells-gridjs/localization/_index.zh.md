@@ -20,13 +20,13 @@ aliases:
 
 本教程将引导您在 Aspose.Cells GridJs 项目中配置多语言支持。涵盖前端和后端配置内容。
 
-该教程基于[演示项目](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs)，请根据实际情况调整。
+本教程基于[演示项目](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs)，请根据实际情况调整
 
 ## 前端配置
 
 在前端页面中，使用 `local` 选项设置界面语言。
 
-在演示项目中，需修改 [uidload.html](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) 文件
+在演示项目中，您需要修改[uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)文件
 
 以下是一个例子：
 
@@ -48,7 +48,7 @@ const loadNormalContext = (sheet) => {
 
 在后端代码中，处理Excel数据前需要设置合适的 CultureInfo。
 
-在演示项目中，需修改 [Controller](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) 文件
+在演示项目中，您需要修改[控制器](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)文件
 
 ### 控制器配置要点
 

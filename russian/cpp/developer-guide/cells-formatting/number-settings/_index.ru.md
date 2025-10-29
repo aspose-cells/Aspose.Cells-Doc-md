@@ -170,3 +170,4 @@ int main()
 - [Отображение пользовательского формата даты Шаблон g и ge mm dd](/cells/ru/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Укажите пользовательские разделители десятичных и групповых чисел для рабочей книги](/cells/ru/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Указание форматирования собственного шаблона DBNum](/cells/ru/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

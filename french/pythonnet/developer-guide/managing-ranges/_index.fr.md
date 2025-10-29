@@ -76,3 +76,4 @@ Veuillez maintenant exécuter l'exemple suivant, voyez comment cela fonctionne d
 - [Créer des plages nommées en fonction du classeur et de la feuille de calcul](/cells/fr/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Rechercher et remplacer des données dans une plage](/cells/fr/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

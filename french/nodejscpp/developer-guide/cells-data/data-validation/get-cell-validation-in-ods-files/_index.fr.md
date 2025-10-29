@@ -19,3 +19,4 @@ Avec Aspose.Cells for Node.js via C++, vous pouvez obtenir la validation appliqu
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -25,3 +25,4 @@ url: /ru/python-net/find-type-of-x-and-y-values-of-points-in-chart-series/
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

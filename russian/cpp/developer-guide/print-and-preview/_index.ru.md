@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [Отобразить последовательность страниц с использованием свойств PageIndex и PageCount класса ImageOrPrintOptions](/cells/ru/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [Отобразить Рабочий лист на графический контекст](/cells/ru/cpp/render-worksheet-to-graphic-context/)
 - [Указание индивидуального или частного набора шрифтов для рендеринга книги](/cells/ru/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

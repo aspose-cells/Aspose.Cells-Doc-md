@@ -170,3 +170,4 @@ int main()
 - [呈现自定义日期格式模式g和ge mm dd](/cells/zh/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [为工作簿指定自定义数值小数和分组分隔符](/cells/zh/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [指定DBNum自定义模式格式化](/cells/zh/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

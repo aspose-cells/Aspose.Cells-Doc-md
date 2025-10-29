@@ -132,3 +132,4 @@ Microsoft Excel поддерживает ряд различных типов п
 - [Получить примененную проверку данных к ячейке](/cells/ru/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Проверьте, что значение ячейки удовлетворяет правилам проверки данных](/cells/ru/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

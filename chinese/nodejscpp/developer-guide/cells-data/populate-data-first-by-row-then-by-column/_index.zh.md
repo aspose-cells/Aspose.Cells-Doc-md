@@ -17,3 +17,4 @@ keywords: 先按行再按列填充数据，Node.js通过C++插入数据，先按
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-populate-data-first-by-row-then-by-column.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

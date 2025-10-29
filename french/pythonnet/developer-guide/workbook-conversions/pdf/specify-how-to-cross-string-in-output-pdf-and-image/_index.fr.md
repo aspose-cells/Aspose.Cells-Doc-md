@@ -32,3 +32,4 @@ Le code d'exemple suivant charge le fichier Excel d'exemple et le sauvegarde au 
 ### Code d'exemple
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUsingTextCrossType-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

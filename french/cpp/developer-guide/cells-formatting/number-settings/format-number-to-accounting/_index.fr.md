@@ -124,3 +124,4 @@ int main()
 Cet exemple démontre comment formater une seule cellule pour afficher des nombres en format comptable avec des dollars américains. La chaîne de format peut être ajustée pour répondre à différents symboles de devise ou formats comptables selon les besoins. La partie clé est la propriété `style.Custom`, où vous spécifiez le code de format personnalisé pour la comptabilité.
 
 N’oubliez pas que la chaîne de format exacte pourrait nécessiter un ajustement selon votre locale et vos exigences spécifiques en matière de format comptable (par exemple, l’utilisation d’un symbole monétaire différent, la présence de plus ou moins de décimales, etc.).
+{{< app/cells/assistant language="cpp" >}}

@@ -138,3 +138,4 @@ background.setGraphicType(AsposeCells.OdsPageBackgroundGraphicType.Area);
 workbook.save(outputDir + "GraphicBackground.ods", AsposeCells.SaveFormat.Ods);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -343,3 +343,4 @@ int main() {
 - [Применение заливки для чередующихся строк и столбцов с условным форматированием](/cells/ru/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Генерировать изображения условного форматирования столбчатых диаграмм данных](/cells/ru/cpp/generate-conditional-formatting-databars-images/)
 - [Получить наборы значков, столбчатые диаграммы данных или объекты цветовой шкалы, используемые в условном форматировании](/cells/ru/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

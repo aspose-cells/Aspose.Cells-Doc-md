@@ -58,3 +58,4 @@ Aspose.Cells для Python via .NET предоставляет класс, [**Wo
 Также возможно использовать методы [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) и [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) класса [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells), чтобы сделать несколько строк и столбцов видимыми.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -46,3 +46,4 @@ if (s !== "R" + row + "C" + col)
 否则，程序将在不显示任何消息的情况下运行，这意味着从单元格中读取的所有值都是正确的。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-multiple-threads.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

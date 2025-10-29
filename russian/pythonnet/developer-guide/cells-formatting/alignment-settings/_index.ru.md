@@ -124,3 +124,4 @@ Aspose.Cells для Python via .NET предоставляет методы [**g
 - [Перенос строк и перенос текста](/cells/ru/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

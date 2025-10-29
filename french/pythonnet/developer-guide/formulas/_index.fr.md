@@ -89,3 +89,4 @@ Ajoutez une formule de référence R1C1 à une cellule avec la propriété de la
 - [Fonctions Excel prises en charge](/cells/fr/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

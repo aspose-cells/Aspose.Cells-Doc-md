@@ -26,3 +26,4 @@ Pour masquer les valeurs zéro dans une feuille de calcul dans Microsoft Excel (
  Veuillez voir le code d'exemple suivant qui démontre comment masquer les zéros en utilisant Aspose.Cells pour Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

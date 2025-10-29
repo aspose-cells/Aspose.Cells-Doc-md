@@ -208,3 +208,4 @@ int main()
 - [从工作簿中提取OLE对象](/cells/zh/cpp/extract-ole-objects-from-workbook/)
 - [获取或设置嵌入的OLE对象的类标识符](/cells/zh/cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [将WAV文件插入为一个OLE对象。](/cells/zh/cpp/inserting-a-wav-file-as-an-ole-object/)
+{{< app/cells/assistant language="cpp" >}}

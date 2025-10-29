@@ -64,3 +64,4 @@ int main()
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

@@ -112,3 +112,4 @@ $ pip install aspose-cells-python
 
 按照这些步骤操作后，可以轻松将数字格式化为Aspose.Cells for Python via .NET中的分数。这在财务、统计或教育等需要精确分数值的应用中非常有用。
 
+{{< app/cells/assistant language="python-net" >}}

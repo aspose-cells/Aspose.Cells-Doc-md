@@ -34,3 +34,4 @@ Aspose.Cells for Node.js via C++ предлагает широкий спект�
 - [Обнаружение формата файла зашифрованных файлов Office Open XML - OOXML](/cells/ru/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Шифрование файлов Excel](/cells/ru/nodejs-cpp/encrypting-excel-files/)
 - [Как обнаружить формат файла и проверить, зашифрован ли файл](/cells/ru/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

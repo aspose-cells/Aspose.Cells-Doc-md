@@ -698,3 +698,4 @@ int main()
 - [获取ODS文件中的单元格验证](/cells/zh/cpp/get-cell-validation-in-ods-files/)
 - [获取应用于单元格的验证](/cells/zh/cpp/get-validation-applied-on-a-cell/)
 - [验证单元格值是否满足数据验证规则](/cells/zh/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

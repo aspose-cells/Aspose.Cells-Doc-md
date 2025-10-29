@@ -31,3 +31,4 @@ keywords: 无需 Excel，即可在 Python 中打开 Excel 文件，你该如何�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-OpeningFilewithDataOnly-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

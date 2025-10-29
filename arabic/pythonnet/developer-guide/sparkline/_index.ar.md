@@ -23,3 +23,4 @@ description: إنشاء شرائط صغيرة لExcel باستخدام Aspose.Ce
 ## **مواضيع متقدمة**
 - [استخدام الشرائط الإشارية وإعدادات تنسيق ثلاثي الأبعاد](/cells/ar/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

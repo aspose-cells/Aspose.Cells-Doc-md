@@ -7,3 +7,4 @@ keywords: "nodejs, excel, api, developer"
 description: "Aspose.Cells for Node.js via C++开发者指南。"
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

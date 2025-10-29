@@ -29,3 +29,4 @@ Comme vous pouvez le voir, l'attribut cible dans le lien HTML ci-dessus est **_s
 Le code suivant illustre l'utilisation de la propriété [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Il modifie le type de cible du lien en **BLANK**. Par défaut, c'est le **PARENT**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

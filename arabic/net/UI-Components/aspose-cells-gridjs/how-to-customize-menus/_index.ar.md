@@ -97,6 +97,80 @@ aliases:
 ![مهم: الشاشة لتخصيص شريط الأدوات](gridjs_customize_toolbar.png)
 
 
+## تخصيص تأثير تمرير شريط الأدوات
+
+افتح نافذة فحص المتصفح، حدد زر شريط الأدوات،
+
+![نصید: شاشة اختيار زر أدوات التفتيش](gridjs_hover_toolbar_button_inspect.png)
+
+ثم يمكننا إيجاد مفتاح CSS المرتبط بهذا الزر وهو: freeze
+
+![نصید: شاشة البحث عن مفتاح CSS لزر شريط الأدوات](gridjs_hover_toolbar_button_csskey.png)
+
+أضف قاعدة CSS التالية:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+النتيجة ستكون:
+
+![نصید: شاشة تأثير التحويم لزر شريط الأدوات](gridjs_hover_toolbar_button_hover.png)
 
 
+## تخصيص العناصر في شريط الأسفل
+
+### نظرة عامة
+يحتوي شريط الأدنى على زرين تفاعليين:
+1. &zwnj;**زر إضافة ورقة العمل**&zwnj; (`add` class) - ينشئ أوراق عمل جديدة
+2. &zwnj;**زر اختيار ورقة العمل**&zwnj; (`ellipsis` class) - يدير اختيار أوراق العمل
+
+### الوصول إلى DOM
+يمكنك الوصول إلى هذه العناصر باستخدام:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### أمثلة على التخصيص
+1. إخفاء الأزرار
+لإزالة زر من DOM:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. تغيير الأيقونات
+يمكنك استبدال الأيقونات باستخدام ملفات SVG خارجية أو بيانات SVG مضمنة.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. تغيير سلوك الزر
+يمكنك تعديل حدث النقر لتخصيص الوظائف:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 

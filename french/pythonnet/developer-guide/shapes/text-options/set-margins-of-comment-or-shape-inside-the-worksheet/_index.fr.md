@@ -18,3 +18,4 @@ Veuillez consulter le code d'échantillon suivant. Il charge le [fichier Excel d
 ## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetMarginsOfCommentOrShapeInsideTheWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

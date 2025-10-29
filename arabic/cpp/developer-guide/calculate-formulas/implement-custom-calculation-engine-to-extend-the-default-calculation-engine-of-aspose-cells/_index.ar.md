@@ -106,3 +106,4 @@ int main()
 [حساب مباشر لوظيفة مخصصة بدون كتابتها في ورقة عمل](/cells/ar/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

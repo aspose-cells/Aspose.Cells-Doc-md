@@ -113,3 +113,4 @@ Aspose.Cells предоставляет класс [**Workbook**](https://refere
 - [Показывать формулы вместо значений в листе](/cells/ru/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Использовать параметры проверки ошибок](/cells/ru/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

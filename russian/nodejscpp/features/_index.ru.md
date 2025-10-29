@@ -1,7 +1,7 @@
 ---
 title: Особенности
 type: docs
-weight: 5
+weight: 10
 url: /ru/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Функции Aspose.Cells for Node.js via C++."
@@ -99,3 +99,4 @@ Aspose.Cells обеспечивает подробный программный 
 |Установите область печати, названия печати или включите линии сетки и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -15,3 +15,4 @@ keywords: Aspose.Cells for Python Excel，Excel Python库，使用Aspose.Cells f
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-filter-in-PivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

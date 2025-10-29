@@ -48,3 +48,4 @@ Aspose.Cells for Python via .NET позволяет шифровать и защ
 - [Укажите автора при защите от записи книги](/cells/ru/python-net/specify-author-while-write-protecting-workbook/)
 - [Проверка пароля зашифрованных файлов](/cells/ru/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

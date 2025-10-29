@@ -61,3 +61,4 @@ int main()
 Если в таблице есть формулы, лучше всего вызвать метод [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) непосредственно перед преобразованием в PDF. Это гарантирует перерасчет зависимых от формул значений и правильное отображение их в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

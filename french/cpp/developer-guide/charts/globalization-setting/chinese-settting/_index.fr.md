@@ -132,3 +132,4 @@ Après l'opération ci-dessus, nous pouvons obtenir une image de graphique de so
 |Nom de Légende Total|汇总|Total|
 |Autre Nom|其他|Autre|
 |Nom de Série|系列|Série|
+{{< app/cells/assistant language="cpp" >}}

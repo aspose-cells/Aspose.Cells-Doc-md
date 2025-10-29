@@ -18,3 +18,4 @@ url: /ar/python-net/specify-individual-or-private-set-of-fonts-for-workbook-rend
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.py" >}}
+{{< app/cells/assistant language="python-net" >}}

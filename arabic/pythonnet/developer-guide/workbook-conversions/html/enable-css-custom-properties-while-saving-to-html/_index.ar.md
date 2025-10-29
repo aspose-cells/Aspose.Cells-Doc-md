@@ -38,3 +38,4 @@ opts.enable_css_custom_properties = True
 # Save the workbook in HTML
 wb.save(os.path.join(output_dir, "outputEnableCssCustomProperties.html"), opts)
 ```
+{{< app/cells/assistant language="python-net" >}}

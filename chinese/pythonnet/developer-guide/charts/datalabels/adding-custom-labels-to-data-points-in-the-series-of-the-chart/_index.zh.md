@@ -16,3 +16,4 @@ url: /zh/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-cha
 以下代码创建了**通过线连接的数据标记散点图**，然后在**图表的系列**中为**数据点**添加了**自定义标签**。每个自定义标签显示**系列名称**和**点名称**。您可以使用任何其他文本代替它。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

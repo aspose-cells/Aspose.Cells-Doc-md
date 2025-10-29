@@ -96,3 +96,4 @@ ImplementCustomCalculationEngine.run();
 [الحساب المباشر لدالة مخصصة بدون كتابتها في ورقة](/cells/ar/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

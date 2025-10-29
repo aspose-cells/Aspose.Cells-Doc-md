@@ -93,3 +93,4 @@ JSON (JavaScript Object Notation) هو تنسيق ملف مفتوح المعاي
 - [ضبط مستوى ضغط الورقة العمل](/cells/ar/python-net/adjust-workbook-compression-level/)
 - [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

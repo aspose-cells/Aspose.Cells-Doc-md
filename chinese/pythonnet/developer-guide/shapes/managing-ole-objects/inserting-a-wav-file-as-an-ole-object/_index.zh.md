@@ -12,3 +12,4 @@ Aspose.Cells for Python via .NET 提供了将不同类型的 OLE 对象添加到
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-InsertingWAVFile-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

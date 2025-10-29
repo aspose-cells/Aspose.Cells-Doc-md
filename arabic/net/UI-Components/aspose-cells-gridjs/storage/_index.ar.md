@@ -133,4 +133,4 @@ public class LocalFileCache  : GridCacheForStream
 ```
 
 للمزيد من المعلومات التفصيلية، يمكنك التحقق من المثال هنا:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

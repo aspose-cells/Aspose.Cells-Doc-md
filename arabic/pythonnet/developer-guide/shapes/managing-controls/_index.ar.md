@@ -381,3 +381,4 @@ url: /ar/python-net/managing-controls/
 - [إضافة عناصر تحكم ActiveX](/cells/ar/python-net/add-activex-controls-using-aspose-cells/)
 - [إزالة عنصر تحكم ActiveX](/cells/ar/python-net/remove-activex-control/)
 - [تحديث عنصر تحكم ActiveX ComboBox](/cells/ar/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

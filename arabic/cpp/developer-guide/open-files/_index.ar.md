@@ -154,3 +154,4 @@ int main()
 - [تحويل JSON إلى CSV](/cells/ar/cpp/convert-json-to-csv/)
 - [تحويل JSON إلى إكسل](/cells/ar/cpp/convert-json-to-excel/)
 - [تحويل إكسل إلى Html](/cells/ar/cpp/convert-excel-to-html/)
+{{< app/cells/assistant language="cpp" >}}

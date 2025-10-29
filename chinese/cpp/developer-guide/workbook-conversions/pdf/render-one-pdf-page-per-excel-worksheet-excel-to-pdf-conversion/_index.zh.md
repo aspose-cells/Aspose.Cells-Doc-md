@@ -55,3 +55,4 @@ int main()
 如果您的电子表格包含公式，建议在将电子表格渲染为PDF前调用[Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/)，确保依赖公式的值被重新计算，并在PDF中显示正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

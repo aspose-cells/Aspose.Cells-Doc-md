@@ -47,3 +47,4 @@ Voici la sortie de la console du code ci-dessus avec ce [fichier Excel d'exemple
 Web Query URL: https://docs.aspose.com/cells/nodejs-cpp/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

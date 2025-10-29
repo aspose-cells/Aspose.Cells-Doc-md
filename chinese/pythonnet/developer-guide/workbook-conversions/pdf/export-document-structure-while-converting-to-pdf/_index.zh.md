@@ -13,3 +13,4 @@ PDF逻辑结构功能提供了一种将有关文档内容结构的信息合并�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ExportDocumentStructureToPdf.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

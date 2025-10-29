@@ -73,3 +73,4 @@ int main()
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ keywords: مكتبة Excel للغة Python، تحرير الارتباطات ف�
 يصل الكود النموذجي التالي إلى كل روابط الفائقة للصفحة العمل ويغير خاصية [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) إلى موقع Aspose.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

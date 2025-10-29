@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET ведет себя так же, как Excel.
 1. Введите разные заголовки и нижние колонтитулы.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -16,3 +16,4 @@ Parfois, vous devez générer des images de Barres de données de Mise en forme 
 Le code d'exemple suivant génère l'image DataBar de la cellule C1. Tout d'abord, il accède à l'objet de condition de format de la cellule, puis à partir de cet objet, il accède à l'objet [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar) et utilise sa méthode [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) pour générer l'image de la cellule. Enfin, il enregistre l'image sur le disque.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

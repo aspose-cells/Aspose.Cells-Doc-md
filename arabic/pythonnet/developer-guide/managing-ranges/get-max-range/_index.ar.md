@@ -40,3 +40,4 @@ keywords: مكتبة Python Excel ، Python الحصول على أقصى نطا�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 هنا [ملف اكسل المصدر](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

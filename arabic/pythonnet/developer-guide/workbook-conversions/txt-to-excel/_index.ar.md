@@ -43,3 +43,4 @@ keywords: تحويل CSV وTSV وTXT إلى Excel باستخدام Python ، إ�
 - [تحميل أو استيراد ملف CSV بالصيغ](/cells/ar/python-net/load-or-import-csv-file-with-formulas/)
 - [قراءة ملف CSV بعدة ترميزات](/cells/ar/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -190,3 +190,4 @@ keywords: مكتبة إكسل في بايثون، تعيين اتجاه صفحة
 ابدأ ترقيم صفحات ورق العمل باستخدام خاصية الفئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) والخاصية [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/). تقوم الخاصية [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) بتعيين رقم الصفحة الأولى في ورق العمل ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

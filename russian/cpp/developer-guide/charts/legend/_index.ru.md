@@ -75,3 +75,4 @@ int main() {
 
 ## **Расширенные темы**
 - [Установите текст заливки записи легенды диаграммы на отсутствие с использованием Aspose.Cells](/cells/ru/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

@@ -17,3 +17,4 @@ url: /zh/python-net/setting-formulas-notice-for-non-english-users/
 1. 公式必须使用英语输入。例如，使用英语"=SUM()"而不是德语"=SUMME()"。
  1. 始终使用逗号（,）来分隔函数参数。在某些语言设置中，参数分隔符可能是分号（；），但Aspose.Cells for Python via .NET 使用英语样式的逗号。例如，应写成 "=IF (C5=0,0,C3/C4)"，而不是 "=IF(C5=0;0;C3/C4)"。
 
+{{< app/cells/assistant language="python-net" >}}

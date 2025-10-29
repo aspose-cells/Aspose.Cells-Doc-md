@@ -19,3 +19,4 @@ keywords: Получить проверку данных ячейки Node.js ч
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -50,3 +50,4 @@ workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), saveOption);
 Если электронная таблица содержит формулы, лучше всего вызвать [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) прямо перед преобразованием ее в PDF. Это гарантирует, что значения, зависящие от формул, пересчитываются верно и отображаются правильные значения в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

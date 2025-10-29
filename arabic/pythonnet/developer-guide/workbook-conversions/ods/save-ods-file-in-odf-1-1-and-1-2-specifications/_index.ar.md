@@ -18,3 +18,4 @@ keywords: حفظ ملف ODS في مواصفات ODF 1.1 و 1.2 مع بايثون
 الكود العيني أدناه ينشئ كائن ورقة عمل، يضيف قيمة إلى الخلية A1 في الورقة العمل الأولى ثم يحفظ ملف ODS في مواصفات ODF 1.1 و 1.2. بشكل افتراضي، يتم حفظ الملف ODS بمواصفة 1.2.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

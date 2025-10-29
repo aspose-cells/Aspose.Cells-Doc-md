@@ -22,3 +22,4 @@ keywords: Python Excel库，Python如何仅复制范围样式，Python如何使�
 1. 将第一个范围的格式复制到第二个范围。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

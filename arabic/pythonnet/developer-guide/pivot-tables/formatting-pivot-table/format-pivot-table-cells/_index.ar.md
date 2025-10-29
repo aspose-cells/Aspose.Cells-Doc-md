@@ -22,3 +22,4 @@ keywords: تنسيق خلايا جدول الدوران
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/python-net/formatting-pivot-table/)
 - [العمل مع تنسيقات عرض البيانات لحقل البيانات في الجدول المحوري](/cells/ar/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

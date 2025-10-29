@@ -67,3 +67,4 @@ keywords: مكتبة Python Excel ، إدراج روابط تشعبية في Exc
 - [تحرير الارتباطات التشعبية لورقة العمل](/cells/ar/python-net/editing-hyperlinks-of-worksheet/)
 - [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

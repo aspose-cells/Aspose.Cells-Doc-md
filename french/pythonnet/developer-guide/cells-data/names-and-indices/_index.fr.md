@@ -52,3 +52,4 @@ Sortie :
 c'est le premier nom qui est créé
 
 `  ` <> + (adj. Privé _ "Privé"
+{{< app/cells/assistant language="python-net" >}}

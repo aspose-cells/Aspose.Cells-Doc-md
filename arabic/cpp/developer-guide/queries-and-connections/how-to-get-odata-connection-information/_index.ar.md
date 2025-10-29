@@ -75,3 +75,4 @@ Name: Orders_table
 Value: Source{[Name="Orders",Signature="table"]}[Data]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

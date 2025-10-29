@@ -48,3 +48,4 @@ const strPageScale = (sr.getPageScale() * 100).toFixed(0) + "%";
 // Write the page scale value
 console.log(strPageScale);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

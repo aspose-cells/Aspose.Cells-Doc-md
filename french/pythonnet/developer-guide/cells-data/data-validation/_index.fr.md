@@ -128,3 +128,4 @@ Les fichiers Excel source et de sortie sont joints pour référence.
 - [Obtenir la validation de la cellule dans les fichiers ODS](/cells/fr/python-net/get-cell-validation-in-ods-files/)
 - [Obtenir la validation appliquée sur une cellule](/cells/fr/python-net/get-validation-applied-on-a-cell/)
 - [Vérifier que la valeur de la cellule satisfait aux règles de validation des données](/cells/fr/python-net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="python-net" >}}

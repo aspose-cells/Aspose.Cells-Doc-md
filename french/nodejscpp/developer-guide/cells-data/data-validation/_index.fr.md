@@ -132,3 +132,4 @@ Les fichiers Excel source et de sortie sont joints pour référence.
 - [Obtenir la validation appliquée sur une cellule](/cells/fr/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Vérifier que la valeur de la cellule satisfait aux règles de validation des données](/cells/fr/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

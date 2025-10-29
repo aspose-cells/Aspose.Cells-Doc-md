@@ -13,7 +13,7 @@ description: 学习如何在Excel文件中使用Aspose.Cells for C++将文本转
 
 ## **使用Aspose.Cells将文本转换为列**
 
-以下示例代码说明了[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/texttocolumns/)方法的用法。代码首先在第一个工作表的A列添加一些人名。姓氏和名字之间用空格字符隔开。然后对A列应用[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/texttocolumns/)方法，并将其保存为输出Excel文件。如果你打开[输出Excel文件](25395213.xlsx)，你将看到，名字在A列，姓氏在B列，如截图所示。
+以下示例代码说明了[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/texttocolumns/)方法的用法。代码首先在第一个工作表的A列添加一些人名。姓氏和名字之间用空格字符隔开。然后对A列应用[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/texttocolumns/)方法，并将其保存为输出Excel文件。如果你打开【输出Excel文件】(25395213.xlsx)，你将看到，名字在A列，姓氏在B列，如截图所示。
 
 ![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 
@@ -63,3 +63,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

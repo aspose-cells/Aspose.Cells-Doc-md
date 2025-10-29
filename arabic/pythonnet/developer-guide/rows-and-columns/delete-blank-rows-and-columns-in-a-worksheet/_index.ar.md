@@ -25,3 +25,4 @@ keywords: مكتبة Python Excel, حذف الصفوف الفارغة بواسط
 ## كود C# لحذف الأعمدة الفارغة
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-DeletingBlankColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

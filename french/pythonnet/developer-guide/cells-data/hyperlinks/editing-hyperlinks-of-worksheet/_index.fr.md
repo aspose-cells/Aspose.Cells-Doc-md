@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET vous permet d'accéder à tous les hyperliens d
 Le code d'exemple suivant accède à tous les hyperliens de la feuille de calcul et modifie leur propriété [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) en mettant le site web Aspose.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

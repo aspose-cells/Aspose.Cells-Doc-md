@@ -111,3 +111,4 @@ chart0.toImage("Output.png");
 | اسم آخر | その他 | آخر |  
 | اسم السلسلة | シリーズ | السلسلة |  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

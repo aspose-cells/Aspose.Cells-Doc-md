@@ -36,3 +36,4 @@ keywords: Python Excel, الحصول على فهرس الصف والعمود ب�
 1. الحصول على مؤشر الصف بواسطة اسم الصف.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

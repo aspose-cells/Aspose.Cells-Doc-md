@@ -82,3 +82,4 @@ Lors de la manipulation de feuilles de calcul, les utilisateurs peuvent ajouter 
 - [Peupler d'abord les données par ligne puis par colonne](/cells/fr/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Préserver le préfixe d'apostrophe unique de la valeur de la cellule ou de la plage](/cells/fr/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Accéder et mettre à jour les parties du texte enrichi de la cellule](/cells/fr/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

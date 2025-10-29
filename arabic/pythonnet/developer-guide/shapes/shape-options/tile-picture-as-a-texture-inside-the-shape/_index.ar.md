@@ -20,3 +20,4 @@ url: /ar/python-net/tile-picture-as-a-texture-inside-the-shape/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-TilePictureAsTextureInsideShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -26,3 +26,4 @@ keywords: مكتبة Python Excel ، Python كيفية نسخ مجموعة ال�
 1. نسخ بيانات النطاق الأول إلى هذا النطاق الثاني.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

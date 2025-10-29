@@ -34,6 +34,14 @@ Aspose.Cells允许您甚至在图表中添加和操作标签。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**注意：** 此类型的标签控件仅支持在XLS文件中。如果你想在XLSX文件中实现类似效果，请使用以下替代方案：
+
+1. 使用TextBox控件，XLSX文件中有类似的标签控件替代方案。
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) 用于TextBox，XLSX文件支持。
+
+2. 添加一个工作表，类型为"SheetType.Chart"，然后在该工作表上添加图表和控件。
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) 用于添加SheetType.Chart。
+
 ## **将文本框控件添加到图表**
 
 在报告中突出显示重要信息的一种方法是使用文本框。例如，输入文本以突出显示公司名称或指示销售额最高的地理区域。[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart)的方法，用于向图表添加文本框控件。以下是该方法使用的参数列表：

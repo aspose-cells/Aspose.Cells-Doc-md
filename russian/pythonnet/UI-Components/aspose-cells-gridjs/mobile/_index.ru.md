@@ -13,7 +13,7 @@ keywords: эксель, мобильный, электронная таблиц�
 
 GridJs может адаптироваться под мобильный экран.
 
-Запустите [демо GridJs](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "демо GridJs")
+Запустите [демонстрацию GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "демонстрация GridJs")
 
 Вам нужно получить доступ к странице через IP-адрес на мобильном терминале по адресу http://127.0.0.1:2022 . 
 

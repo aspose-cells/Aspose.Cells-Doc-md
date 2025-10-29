@@ -30,3 +30,4 @@ keywords: مكتبة إكسل بايثون، نوع حوار ورقة العمل
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

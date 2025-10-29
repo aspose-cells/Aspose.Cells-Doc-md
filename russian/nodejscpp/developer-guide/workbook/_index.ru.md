@@ -8,3 +8,4 @@ description: Узнайте, как управлять книгой через A
 keywords: Как управлять книгой в Node.js через C++, управление книгой и листами с помощью Node.js через C++, работа с книгой и листами в Node.js через C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

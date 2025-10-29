@@ -48,3 +48,4 @@ p.setAlignmentType(AsposeCells.TextAlignmentType.Right);
 // Save the workbook in xlsx format.
 wb.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

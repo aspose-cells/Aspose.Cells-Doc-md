@@ -56,3 +56,4 @@ Aspose.Cells может открывать файлы разных версий 
 Aspose.Cells также поддерживает открытие защищенных паролем файлов Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365.
 
 
+{{< app/cells/assistant language="cpp" >}}

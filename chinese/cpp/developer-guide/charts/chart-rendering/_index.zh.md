@@ -178,3 +178,4 @@ chart.ToPdf(outputPdfFile);
 如果尝试将不受支持的图表类型渲染为图像或PDF，则可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -69,3 +69,4 @@ def sheet_replace(workbook, s_find, s_replace):
             if mytextbox.html_text is not None and s_find in mytextbox.html_text:
                 mytextbox.html_text = mytextbox.html_text.replace(s_find, s_replace)
 ```
+{{< app/cells/assistant language="python-net" >}}

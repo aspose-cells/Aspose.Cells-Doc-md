@@ -26,3 +26,4 @@ La capture d'écran suivante montre l'effet de définir cette propriété sur **
 Le code d'exemple suivant montre l'utilisation de la propriété [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/). Veuillez le définir sur **true** ou **false** pour obtenir le résultat tel qu'indiqué dans la capture d'écran ci-dessus.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

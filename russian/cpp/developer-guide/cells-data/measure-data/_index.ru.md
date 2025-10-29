@@ -65,3 +65,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Получить ширину текста значения ячейки](/cells/ru/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

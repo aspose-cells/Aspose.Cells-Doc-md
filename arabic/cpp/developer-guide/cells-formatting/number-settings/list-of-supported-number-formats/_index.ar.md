@@ -190,3 +190,4 @@ url: /ar/cpp/list-of-supported-number-formats/
 |EasternTime4 |tth?mm?ss |
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss |
+{{< app/cells/assistant language="cpp" >}}

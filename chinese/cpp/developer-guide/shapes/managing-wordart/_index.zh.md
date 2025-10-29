@@ -65,3 +65,4 @@ int main()
 - [添加具有内置样式的艺术字文本](/cells/zh/cpp/add-word-art-text-with-built-in-styles/)
 - [锁定WordArt水印](/cells/zh/cpp/locking-wordart-watermark/)
 - [将文本形状的文字设置为预设的WordArt样式](/cells/zh/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

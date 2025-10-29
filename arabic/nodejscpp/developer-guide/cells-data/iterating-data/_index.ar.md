@@ -191,3 +191,4 @@ console.log(currentCell.getStringValue());
 1. يتعين عبور عدد كبير من الخلايا.  
 1. يجب عبور الخلايا/الصفوف/الأعمدة المهيأة فقط.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

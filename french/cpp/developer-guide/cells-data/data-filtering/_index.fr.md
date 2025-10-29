@@ -644,3 +644,4 @@ int main()
 ## **Sujets avancés**
 - [Appliquer un filtre avancé de Microsoft Excel pour afficher les enregistrements répondant à des critères complexes](/cells/fr/cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Obtenir tous les indices des lignes masquées après le rafraîchissement de l'Autofiltre](/cells/fr/cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="cpp" >}}

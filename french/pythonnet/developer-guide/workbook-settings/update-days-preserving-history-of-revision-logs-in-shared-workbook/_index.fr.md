@@ -19,3 +19,4 @@ Le code d'exemple suivant crée un classeur vide, le partage, puis met à jour l
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "WorkbookSettings-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -30,3 +30,4 @@ keywords: Загрузите или импортируйте CSV файл с ф�
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

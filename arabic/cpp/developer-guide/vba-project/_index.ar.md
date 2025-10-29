@@ -195,3 +195,4 @@ int main()
 - [تصفية مشروع VBA أثناء تحميل المصنف](/cells/ar/cpp/filter-vba-project-while-loading-a-workbook/)
 - [معرفة ما إذا كان مشروع VBA محميًا](/cells/ar/cpp/find-out-if-vba-project-is-protected/)
 - [حماية كلمة المرور لمشروع VBA لمصنف عمل Excel](/cells/ar/cpp/password-protect-the-vba-project-of-excel-workbook/)
+{{< app/cells/assistant language="cpp" >}}

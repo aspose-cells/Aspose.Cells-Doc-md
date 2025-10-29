@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NET 提供通过 [**Worksheet.unique_id**](https://
 ### 源代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-GetWorksheetUniqueId-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

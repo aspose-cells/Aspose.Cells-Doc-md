@@ -88,3 +88,4 @@ workbook.save(os.path.join(data_dir, "SampleOutput2_out.pdf"), opts)
 {{% alert color="note" %}} 
 **API差异说明**：在Python.NET中，布尔属性使用蛇形命名（`is_font_substitution_char_granularity`），而在.NET中使用PascalCase。
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ Aspose.Cells for Python via .NET提供一个类 [**Workbook**](https://reference
 - [表格和区域](/cells/zh/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

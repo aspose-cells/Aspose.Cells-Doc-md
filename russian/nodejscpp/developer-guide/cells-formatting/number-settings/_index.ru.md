@@ -92,3 +92,4 @@ Aspose.Cells предлагает некоторые встроенные фор
 - [Отображение пользовательского формата даты Шаблон g и ge mm dd](/cells/ru/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [Укажите пользовательские разделители десятичных и групповых чисел для рабочей книги](/cells/ru/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [Указание форматирования собственного шаблона DBNum](/cells/ru/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

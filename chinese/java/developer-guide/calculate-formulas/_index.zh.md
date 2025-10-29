@@ -13,7 +13,7 @@ Aspose.Cells支持大多数Microsoft Excel公式或函数（阅读[a list of the
 
 使用 [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) 属性或 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) 方法来向单元格添加公式。在应用公式时，始终以等号（=）开头，就像在Microsoft Excel中创建公式时一样，并使用逗号（，）来分隔函数参数。
 
-为了计算公式的结果，用户可以调用[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--) 方法，此方法属于 {0} 类的 {1} 方法，能够处理嵌入在 Excel 文件中的所有公式。或者用户可以调用 {2} 类中的 {3} 方法，也可以调用 {4} 类中的 {5} 方法，这些方法都用于处理单个单元格的公式：
+为了计算公式的结果，用户可以调用【**CalculateFormula**】(https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula-com.aspose.cells.CalculationOptions--) 方法，此方法属于 {0} 类的 {1} 方法，能够处理嵌入在 Excel 文件中的所有公式。或者用户可以调用 {2} 类中的 {3} 方法，也可以调用 {4} 类中的 {5} 方法，这些方法都用于处理单个单元格的公式：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 

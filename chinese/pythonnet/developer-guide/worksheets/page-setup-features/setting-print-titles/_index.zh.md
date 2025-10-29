@@ -130,3 +130,4 @@ worksheet.page_setup.print_title_columns = ""
 # Save the workbook
 workbook.save("clear_print_titles.pdf")
 ```
+{{< app/cells/assistant language="python-net" >}}

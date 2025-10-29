@@ -2,7 +2,7 @@
 title: حماية وفك الحماية
 linktitle: الحماية
 type: docs
-weight: 40
+weight: 55
 url: /ar/python-java/protect-and-unprotect/
 description: يقدم هذا المقتطف كيفية تشفير وفك تشفير ملفات Excel، وحماية وفك حماية البيانات في ملفات Excel باستخدام رموز Python.
 ---

@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [Combiner plusieurs feuilles de calcul en une seule feuille](/cells/fr/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionner des fichiers](/cells/fr/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

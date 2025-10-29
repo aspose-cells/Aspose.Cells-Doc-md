@@ -135,3 +135,4 @@ Excel会自动将公式结果溢出到相邻单元格。溢出范围会根据输
 输出快照：
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

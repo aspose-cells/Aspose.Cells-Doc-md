@@ -21,3 +21,4 @@ Le fichier source d'exemple et les fichiers de sortie peuvent être télécharg�
 
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableCustomSort-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

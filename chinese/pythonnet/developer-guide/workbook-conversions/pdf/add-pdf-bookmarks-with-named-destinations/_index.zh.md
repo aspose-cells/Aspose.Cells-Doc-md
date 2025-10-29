@@ -20,3 +20,4 @@ keywords: 使用Python添加PDF书签及命名目标
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddPDFBookmarksWithNamedDestinations.py" >}}
+{{< app/cells/assistant language="python-net" >}}

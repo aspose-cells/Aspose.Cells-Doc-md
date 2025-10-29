@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET 提供 [**Worksheet.page_setup.get_commands**](
 以下是如何解析页眉或页脚为命令列表并处理命令的代码：
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

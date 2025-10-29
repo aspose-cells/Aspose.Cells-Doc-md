@@ -71,3 +71,4 @@ int main()
 - [تصدير البيانات XML المرتبطة بخريطة XML داخل الكتيب](/cells/ar/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [العثور على اسم عنصر الجذر في خريطة XML](/cells/ar/cpp/find-the-root-element-name-of-xml-map/)
 - [ربط الخلايا بعناصر خريطة XML](/cells/ar/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

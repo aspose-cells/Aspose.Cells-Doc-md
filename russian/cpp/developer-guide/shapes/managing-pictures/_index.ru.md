@@ -203,3 +203,4 @@ int main()
 - [Вставить привязанное изображение из веб-адреса](/cells/ru/cpp/insert-a-linked-picture-from-web-address/)
 - [Вставить изображение на основе ссылки на ячейку](/cells/ru/cpp/insert-a-picture-based-on-cell-reference/)
 - [Загрузка веб-изображения из URL в лист Excel](/cells/ru/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

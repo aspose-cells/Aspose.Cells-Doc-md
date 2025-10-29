@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [调整工作簿压缩级别](/cells/zh/nodejs-cpp/adjust-workbook-compression-level/)
 - [将工作簿保存为严格的 Open XML 电子表格格式](/cells/zh/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [将文件保存到响应对象](/cells/zh/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

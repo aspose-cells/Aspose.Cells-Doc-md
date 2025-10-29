@@ -29,3 +29,4 @@ keywords: Aspose.Cells لـ Python via .NET إنشاء وإصلاح وتعديل
 - [تحميل Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [منتدى الدعم المجاني لـ Aspose.Cells for Python via .NET](https://forum.aspose.com/c/cells/9)
 - [مكتب المساعدة للدعم المدفوع لـ Aspose.Cells for Python via .NET](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="python-net" >}}

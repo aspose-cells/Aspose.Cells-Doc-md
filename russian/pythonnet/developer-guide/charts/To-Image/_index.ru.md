@@ -118,3 +118,4 @@ API Aspose.Cells для Python via .NET поддерживают преобра�
 
 ## **Продвинутые темы**
 - [Преобразовать диаграмму в PDF](/cells/ru/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

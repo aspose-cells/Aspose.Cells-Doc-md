@@ -18,3 +18,4 @@ url: /ar/cpp/filter-defined-names-while-loading-workbook/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

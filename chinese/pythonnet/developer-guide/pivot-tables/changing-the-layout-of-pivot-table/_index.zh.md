@@ -22,3 +22,4 @@ Aspose.Cells for Python Excel库也提供[**PivotTable.show_in_compact_form()**]
 以下示例代码首先以**紧凑形式**显示数据透视表，然后以**大纲形式**显示数据透视表，最后以**表格形式**显示数据透视表。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

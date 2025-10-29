@@ -12,3 +12,4 @@ description: Обзор поддерживаемых форматов шрифт
 |**TTF**|TrueType Шрифты|
 |**TTC**|Коллекция TrueType|
 |**OTF**|Шрифты OpenType|
+{{< app/cells/assistant language="nodejs-cpp" >}}

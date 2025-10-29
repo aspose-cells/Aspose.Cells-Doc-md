@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 - [Добавление словесного искусства текста с встроенными стилями](/cells/ru/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [Блокировка водяного знака WordArt](/cells/ru/nodejs-cpp/locking-wordart-watermark/)
 - [Установить предварительный стиль WordArt для текста формы](/cells/ru/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

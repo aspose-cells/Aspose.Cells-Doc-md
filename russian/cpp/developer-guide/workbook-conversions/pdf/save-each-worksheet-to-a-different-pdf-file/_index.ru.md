@@ -65,3 +65,4 @@ int main()
 Если в вашей таблице есть формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) перед преобразованием таблицы в PDF. Это обеспечит перерасчет значений, зависящих от формул, и правильное отображение значений в PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

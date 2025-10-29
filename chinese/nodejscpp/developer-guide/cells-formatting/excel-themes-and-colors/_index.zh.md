@@ -75,3 +75,4 @@ Aspose.Cells提供了自定义主题和颜色的功能。
 ## **高级主题**  
 - [从Excel文件中提取主题数据](/cells/zh/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

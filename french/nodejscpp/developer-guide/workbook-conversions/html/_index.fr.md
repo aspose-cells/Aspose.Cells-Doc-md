@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [Prise en charge de la mise en page des balises DIV lors du chargement d'HTML dans le classeur Excel](/cells/fr/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [Activer les propriétés personnalisées CSS lors de l'enregistrement en HTML](/cells/fr/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

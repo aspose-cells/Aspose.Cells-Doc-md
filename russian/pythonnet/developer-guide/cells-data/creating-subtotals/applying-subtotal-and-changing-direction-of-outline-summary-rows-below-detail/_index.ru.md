@@ -42,3 +42,4 @@ keywords: Python Excel библиотека, Применить итоговую
 Вот пример кода для достижения указанного выше результата.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

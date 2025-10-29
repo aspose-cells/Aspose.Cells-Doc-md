@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET 允许您动态添加书签。PDF书签可以�
 如果您的电子表格中含有公式，最好在将电子表格呈现为PDF格式之前调用 [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)。这样可以确保依赖公式的值在PDF中正确刷新和呈现。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

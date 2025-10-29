@@ -41,3 +41,4 @@ url: /ar/python-net/your-first-aspose-cells-application-hello-world/
 المثال التالي يفتح ملف قالب Microsoft Excel موجود يسمى **book1.xls** ، يكتب كلمة "Hello World!" في الخلية A1 في الورقة العمل الأولى ، ثم يحفظ دفتر العمل كملف جديد.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

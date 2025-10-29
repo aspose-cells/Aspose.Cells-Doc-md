@@ -22,3 +22,4 @@ keywords: Aspose.Cells for Node.js via C++ Excel، مكتبة إكسل Node.js،
 يظهر الرمز البريدي العيني التالي جدول البيانات المحوري أولاً في **النموذج المضغوط**، ثم يظهر جدول البيانات المحوري في **النموذج المخطط** وأخيرًا يظهر جدول البيانات المحوري في **النموذج الجدولي**.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

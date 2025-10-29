@@ -147,3 +147,4 @@ int main()
 ### 结论
 
 将数字格式化为时间在Aspose.Cells for C++中涉及为想显示时间的单元格设置自定义数字格式。按照上述步骤，可以轻松使用Aspose.Cells在Excel中应用时间格式。记住，关键是使用正确的自定义格式字符串，匹配您想要的时间格式。
+{{< app/cells/assistant language="cpp" >}}

@@ -44,3 +44,4 @@ BoxWhisker
 - [Создание водопадной диаграммы](/cells/ru/python-net/creating-waterfall-chart/)
 - [Создание диаграммы дерева](/cells/ru/python-net/creating-treemap-chart/)
 - [Создание диаграммы Sunburst](/cells/ru/python-net/creating-sunburst-chart/)
+{{< app/cells/assistant language="python-net" >}}

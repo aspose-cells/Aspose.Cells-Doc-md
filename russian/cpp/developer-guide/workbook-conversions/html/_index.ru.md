@@ -94,3 +94,4 @@ int main()
 - [Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType](/cells/ru/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Поддерживайте макет тегов DIV при загрузке HTML в книгу Excel](/cells/ru/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [Включить пользовательские свойства CSS при сохранении в HTML](/cells/ru/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

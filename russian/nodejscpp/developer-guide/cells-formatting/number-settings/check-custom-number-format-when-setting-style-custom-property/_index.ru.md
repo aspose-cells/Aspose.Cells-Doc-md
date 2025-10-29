@@ -20,3 +20,4 @@ url: /ru/nodejs-cpp/check-custom-number-format-when-setting-style-custom-propert
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-CheckCustomNumberFormat.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

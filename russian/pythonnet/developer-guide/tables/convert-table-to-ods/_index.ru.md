@@ -15,3 +15,4 @@ Aspose.Cells for Python via .NET поддерживает преобразова
 
 [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save)
 
+{{< app/cells/assistant language="python-net" >}}

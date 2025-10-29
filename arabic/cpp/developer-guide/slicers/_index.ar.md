@@ -121,3 +121,4 @@ int main()
 - [إزالة قالب التصفية](/cells/ar/cpp/removing-slicer/)
 - [تقديم المقطع](/cells/ar/cpp/rendering-slicer/)
 - [تحديث المقسم](/cells/ar/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

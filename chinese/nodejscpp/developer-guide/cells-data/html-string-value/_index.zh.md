@@ -27,3 +27,4 @@ Aspose.Cells支持将微软Excel导向的HTML转换为XLS/XLSX格式。这意味
 
 - [使用HTML设置单元格值显示项目符号](/cells/zh/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [从单元格获取HTML5字符串](/cells/zh/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

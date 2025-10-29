@@ -234,3 +234,4 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 - [设置内置文档属性的ScaleCrop和LinksUpToDate属性](/cells/zh/nodejs-cpp/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [使用内置文档属性指定Excel文件的文档版本](/cells/zh/nodejs-cpp/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [使用内置文档属性指定Excel文件的语言](/cells/zh/nodejs-cpp/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

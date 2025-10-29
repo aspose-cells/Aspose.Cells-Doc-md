@@ -21,3 +21,4 @@ Aspose.Cells يدعم التلاعب بالنطاقات المسماة المو�
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

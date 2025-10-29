@@ -17,3 +17,4 @@ Le code d'exemple suivant accède à tous les hyperliens de la feuille de calcul
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

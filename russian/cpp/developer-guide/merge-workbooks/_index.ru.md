@@ -96,3 +96,4 @@ int main()
 ## **Продвинутые темы**
 - [Объединение нескольких листов в один](/cells/ru/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Объединение файлов](/cells/ru/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

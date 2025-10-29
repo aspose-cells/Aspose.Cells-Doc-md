@@ -25,3 +25,4 @@ Le code ci-dessous vous montre comment obtenir la validation appliquée à une c
 ## Articles Connexes
 
 - [Validation des données](/cells/fr/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

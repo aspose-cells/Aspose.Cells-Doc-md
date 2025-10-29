@@ -375,3 +375,4 @@ Aspose.Cells для Python via .NET поддерживает добавлени�
 - [Управление параметрами текста формы](/cells/ru/python-net/managing-shape-text-options/)
 - [Веб-расширения - дополнения для Office](/cells/ru/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

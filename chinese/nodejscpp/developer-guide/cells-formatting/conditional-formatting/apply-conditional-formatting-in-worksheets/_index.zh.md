@@ -49,3 +49,4 @@ url: /zh/nodejs-cpp/apply-conditional-formatting-in-worksheets/
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
  执行上述代码时，将在输出文件（output.xls）第一张工作表的“B3”单元格应用条件格式。应用的条件格式取决于计算“B3”值的公式，即B1与B2之和。
+{{< app/cells/assistant language="nodejs-cpp" >}}

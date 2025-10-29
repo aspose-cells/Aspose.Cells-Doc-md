@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **重要提示**
 
 当你在分页设置中设置**fitToPages**属性（即[**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--)和[**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)）时，分页设置会受到影响，因此，如果你打印工作表，分页设置将不予考虑，尽管它们仍然被设置。
+{{< app/cells/assistant language="nodejs-cpp" >}}

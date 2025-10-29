@@ -19,3 +19,4 @@ url: /zh/python-net/check-custom-number-format-when-setting-style-custom-propert
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CheckCustomFormatPattern.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -30,3 +30,4 @@ keywords: Aspose.Cells for Node.js via C++ ينشئ، يصحح، يعدل، يف
 - [دليل مرجع API Aspose.Cells for Node.js via C++](https://reference.aspose.com/cells/nodejs-cpp/)
 - [منتدى الدعم المجاني Aspose.Cells for Node.js via C++](https://forum.aspose.com/c/cells/9)
 - [مكتب مساعدة الدعم المدفوع Aspose.Cells for Node.js via C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

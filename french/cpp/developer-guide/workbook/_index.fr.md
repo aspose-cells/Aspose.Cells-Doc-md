@@ -142,3 +142,4 @@ int main() {
 
 ## **Conclusion**
 Aspose.Cells for C++ fournit un ensemble complet d'outils pour gérer les classeurs et les feuilles de calcul. Que vous ayez besoin de créer un nouveau classeur, d’en ouvrir un existant ou de manipuler des feuilles, Aspose.Cells facilite le travail avec les fichiers Excel de manière programmatique.
+{{< app/cells/assistant language="cpp" >}}

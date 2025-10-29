@@ -21,8 +21,8 @@ Pour supprimer une plage nommée dans Excel, suivez les étapes suivantes :
 6. Cliquez sur le bouton "Fermer" pour fermer la boîte de dialogue Gestionnaire de noms.
 7. Enregistrez le classeur pour conserver les modifications.
 
-## **Supprime la plage nommée en utilisant Aspose.Cells pour .Net**
-Avec Aspose.Cells pour .Net, vous pouvez supprimer des plages nommées ou des noms définis via [texte](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) dans la liste.
+## **Supprimer la plage nommée en utilisant Aspose.Cells for Python via .NET**
+Avec Aspose.Cells for Python via .NET, vous pouvez supprimer des plages nommées ou des noms définis par [texte](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) dans la liste.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

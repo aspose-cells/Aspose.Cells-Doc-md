@@ -162,3 +162,4 @@ int main()
 
 ## **Sujets avancés**
 - [Détecter les cellules fusionnées dans une feuille de calcul](/cells/fr/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

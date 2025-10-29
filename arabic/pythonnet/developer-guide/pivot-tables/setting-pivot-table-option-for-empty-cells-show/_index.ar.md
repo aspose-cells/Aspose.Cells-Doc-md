@@ -31,3 +31,4 @@ keywords: Aspose.Cells لبايثون Excel، مكتبة Excel Python، تعيي
 ## مقالات ذات صلة
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

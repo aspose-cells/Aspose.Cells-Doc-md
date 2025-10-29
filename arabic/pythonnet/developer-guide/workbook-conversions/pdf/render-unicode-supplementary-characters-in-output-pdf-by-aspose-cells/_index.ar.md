@@ -29,3 +29,4 @@ keywords: إنشاء الأحرف اليونيكود الإضافية باستخ
 يمكنك استخدام هذا الكود العيني لتحويل [ملف Excel المصدر](5115563.xlsx) إلى [PDF الناتج](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

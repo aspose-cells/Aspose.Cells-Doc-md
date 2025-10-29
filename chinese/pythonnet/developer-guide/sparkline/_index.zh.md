@@ -23,3 +23,4 @@ description: 使用Aspose.Cells for Python via .NET 创建Excel中的迷你图�
 ## **高级主题**
 - [使用迷你图和设置3D格式](/cells/zh/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

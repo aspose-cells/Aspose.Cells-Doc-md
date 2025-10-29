@@ -132,3 +132,4 @@ keywords: إضافة التحقق من صحة البيانات Node.js عبر C+
 - [الحصول على التحقق المطبق على خلية](/cells/ar/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [التحقق من أن قيمة الخلية تلبي قواعد التحقق من البيانات](/cells/ar/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

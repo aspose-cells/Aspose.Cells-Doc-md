@@ -1,0 +1,91 @@
+---
+title: تعديل اتصال البيانات SQL الموجود باستخدام Aspose.Cells for JavaScript عبر C++
+linktitle: تعديل اتصال البيانات الحالي باستخدام Aspose.Cells
+type: docs
+weight: 20
+url: /ar/javascript-cpp/modify-existing-sql-data-connection-using-aspose-cells/
+description: تعلّم كيف تعدل خصائص اتصال بيانات SQL الموجودة باستخدام Aspose.Cells for JavaScript عبر C++.
+---
+
+{{% alert color="primary" %}}
+تدعم Aspose.Cells تعديل اتصالات SQL الحالية. سيشرح المقال كيفية استخدام Aspose.Cells لتعديل خصائص مختلفة لاتصالات SQL البيانات.  
+يمكنك إضافة أو رؤية اتصالات البيانات داخل Microsoft Excel باستخدام أمر القائمة الخاص بالبيانات > اتصالات.  
+وبالمثل، يوفر Aspose.Cells الوسائل للوصول وتعديل.connections عن طريق مجموعة بيانات المصنف.
+{{% /alert %}}
+
+## تعديل اتصال البيانات الحالي باستخدام Aspose.Cells
+
+توضح العينة التالية استخدام Aspose.Cells for JavaScript عبر C++ لتعديل اتصال بيانات SQL في دفتر العمل. يمكنك تنزيل ملف إكسل المصدر المستخدم في هذا الكود وملف إكسل الناتج الذي تم إنشاؤه بواسطة الكود من الروابط التالية.
+
+- [ملف Excel المصدر](5112357.xlsx)  
+- [ملف Excel الناتج](5112356.xlsx)  
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Data Connection Example</title>
+    </head>
+    <body>
+        <h1>Data Connection Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Create workbook object from uploaded file
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Access first Data Connection
+            const conn = workbook.dataConnections.get(0);
+
+            // Change the Data Connection Name and Odc file
+            conn.name = "MyConnectionName";
+            conn.odcFile = "C:\\Users\\MyDefaulConnection.odc";
+
+            // Change the Command Type, Command and Connection String
+            const dbConn = conn;
+            dbConn.commandType = AsposeCells.OLEDBCommandType.SqlStatement;
+            dbConn.command = "Select * from AdminTable";
+            dbConn.connectionString = "Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False";
+
+            // Save the workbook and provide download link
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'output_out.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Modified Excel File';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">Data connection updated successfully! Click the download link to get the modified file.</p>';
+        });
+    </script>
+</html>
+```

@@ -14,3 +14,4 @@ keywords: 通过C++在Node.js中获取范围内的超链接，获取所选范围
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-GetHyperlinksInRange.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

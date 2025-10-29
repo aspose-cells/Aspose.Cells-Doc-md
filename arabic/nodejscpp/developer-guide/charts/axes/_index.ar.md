@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [قراءة تسميات المحور بعد حساب الرسم البياني](/cells/ar/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [كيفية تعيين محور الفئة في رسم بياني Excel](/cells/ar/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

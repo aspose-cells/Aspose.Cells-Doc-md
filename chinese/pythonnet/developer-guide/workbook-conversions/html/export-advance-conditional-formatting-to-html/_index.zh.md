@@ -21,8 +21,9 @@ url: /zh/python-net/export-databar-colorscale-and-iconset-conditional-formatting
 ![todo:image_alt_text](conversion_2.png)
 
 ### **示例代码**
-以下示例代码演示了将示例Excel文件转换为HTML的过程，该过程属于常规的[Excel转HTML]。
+以下示例代码演示了将示例Excel文件转换为HTML的过程，该过程属于常规的【Excel转HTML】。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertingToHTMLFiles-1.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

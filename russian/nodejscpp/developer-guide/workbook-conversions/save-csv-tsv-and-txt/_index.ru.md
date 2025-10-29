@@ -70,3 +70,4 @@ wb.save(path.join(dataDir, "output.csv"), options);
 ## **Продвинутые темы**
 - [Сохранять разделители для пустых строк при экспорте таблиц в формат CSV](/cells/ru/nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV](/cells/ru/nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

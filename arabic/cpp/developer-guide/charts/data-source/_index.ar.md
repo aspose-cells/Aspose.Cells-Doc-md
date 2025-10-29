@@ -151,3 +151,4 @@ int main()
 - [إنشاء رسوم بيانية ديناميكية](/cells/ar/cpp/create-dynamic-charts/)
 - [طريقة سهلة لضبط الرسوم البيانية باستخدام طريقة Chart.SetChartDataRange](/cells/ar/cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [البحث عن نوع قيم X وY لنقاط في سلسلة الرسم البياني](/cells/ar/cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="cpp" >}}

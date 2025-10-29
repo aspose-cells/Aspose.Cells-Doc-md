@@ -35,3 +35,4 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "chart.xlsx"), opti
 // Save the workbook in PDF format
 workbook.save(path.join(dataDir, "ResultWithoutChart.pdf"), AsposeCells.SaveFormat.Pdf);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

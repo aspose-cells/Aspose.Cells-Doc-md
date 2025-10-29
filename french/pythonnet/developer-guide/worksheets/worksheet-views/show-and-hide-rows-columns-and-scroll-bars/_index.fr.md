@@ -76,3 +76,4 @@ Masquez les barres de défilement en définissant la [**Workbook**](https://refe
 Ci-dessous se trouve un code complet qui ouvre un fichier Excel, book1.xls, masque les deux barres de défilement, puis enregistre le fichier modifié sous le nom de output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Worksheets-Display-DisplayHideScrollBars-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

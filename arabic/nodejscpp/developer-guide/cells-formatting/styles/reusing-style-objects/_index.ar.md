@@ -25,3 +25,4 @@ url: /ar/nodejs-cpp/reusing-style-objects/
 نظرًا لأن نهج [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) يستخدم ذاكرة أقل بكثير، وهو أكثر كفاءة، تم إزالة خاصية Cell.style القديمة التي كانت تستهلك الكثير من الذاكرة غير الضرورية مع إصدار Aspose.Cells 7.1.0.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

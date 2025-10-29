@@ -20,3 +20,4 @@ keywords: Python Excel库，Python使用自定义排序列表对列中的数据�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SortDataInColumnWithCustomSortList.py" >}}
+{{< app/cells/assistant language="python-net" >}}

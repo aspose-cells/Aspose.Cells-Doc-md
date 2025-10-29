@@ -43,3 +43,4 @@ keywords: تحويل النص إلى رقم بواسطة البيانات الن
 يوضح الكود العيني التالي كيفية تحويل جميع البيانات الرقمية النصية إلى أرقام فعلية في جميع أوراق العمل.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API 允许您打开/读取 XLSX、HTML、CSV、ODS、TSV、SXC、FODS 等不同格式。
+description: API Aspose.Cells for C++允许你打开/读取不同格式，如XLSX、HTML、CSV、ODS、TSV、SXC、FODS等。
 keywords: 打开 xlsx 文件，打开 html 文件，读取 fods 文件，读取 ods 文件，读取 sxc 文件，打开 csv 文件，表格分隔，电子表格 ML，tsv，mhtml
 ---
 
@@ -82,3 +82,4 @@ StarOffice Calc类似于Microsoft Excel，并支持公式、图表、函数和�
 FODS文件是以开放文档XML格式保存的电子表格文件，没有任何压缩。Aspose.Cells可以读取FODS文件，如以下代码示例所示。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenFODSFile-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

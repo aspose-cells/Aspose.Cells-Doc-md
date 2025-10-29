@@ -147,3 +147,4 @@ workbook.getSettings().setPassword(null);
 // Save the decrypted ODS file
 workbook.save(outputDir + "outputDecryptedODSFile.ods");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

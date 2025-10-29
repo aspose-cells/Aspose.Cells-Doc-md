@@ -53,3 +53,4 @@ Aspose.Cells for Python via .NET支持在工作簿之间或内部复制或移动
 执行代码后，工作表名为 Move 从 FirstWorkbook.xlsx 移动到 SecondWorkbook.xlsx，并命名为 Sheet3。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.py" >}}
+{{< app/cells/assistant language="python-net" >}}

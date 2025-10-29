@@ -32,3 +32,4 @@ Dans le fichier généré, le graphique comptera dynamiquement les données pour
 ```
 
 Vous pouvez essayer de changer la valeur de la liste déroulante dans la cellule "Sheet1!$A$10", et vous verrez la modification dynamique du graphique. Nous avons maintenant créé avec succès un graphique dynamique avec liste déroulante en utilisant Aspose.Cells pour Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

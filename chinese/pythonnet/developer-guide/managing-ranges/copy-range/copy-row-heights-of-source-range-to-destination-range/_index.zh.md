@@ -16,3 +16,4 @@ keywords: Python Excel Library，Python如何将源范围的行高度复制到�
 以下示例代码说明了如何使用[**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype)枚举将源范围的行高复制到目标范围。一旦您在Microsoft Excel中打开由此代码生成的输出excel文件，您将看到目标范围的行高与源范围的行高完全相同。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

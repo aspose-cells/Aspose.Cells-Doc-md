@@ -143,3 +143,4 @@ En plus des méthodes mentionnées ci-dessus, les API Aspose.Cells offrent égal
 - [Définir la police par défaut lors du rendu de la feuille de calcul en images](/cells/fr/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Définir la propriété DefaultFont des PdfSaveOptions et ImageOrPrintOptions pour avoir la priorité](/cells/fr/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formats de police pris en charge](/cells/fr/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

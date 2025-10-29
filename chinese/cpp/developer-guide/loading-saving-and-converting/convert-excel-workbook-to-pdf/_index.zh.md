@@ -44,3 +44,4 @@ Aspose.Cells 支持将电子表格独立地转换为 PDF，无需其他软件。
 请参阅以下示例代码和其 [输出PDF](67338371.pdf) 供参考。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

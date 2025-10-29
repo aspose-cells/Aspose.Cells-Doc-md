@@ -11,3 +11,4 @@ Le code d'exemple suivant montre comment créer des sous-totaux à l'aide d'Aspo
 ![todo:image_alt_text](creating-subtotals_1.png)
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

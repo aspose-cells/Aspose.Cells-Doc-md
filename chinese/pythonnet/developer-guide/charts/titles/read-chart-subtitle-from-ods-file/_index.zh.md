@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NET通过使用[**Chart.sub_title**](https://refere
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

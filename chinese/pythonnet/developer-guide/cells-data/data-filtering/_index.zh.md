@@ -157,3 +157,4 @@ Excel 提供了自定义过滤功能，可以筛选以特定字符串结尾的�
 ## **高级主题**
 - [将 Microsoft Excel 的高级筛选应用于显示符合复杂条件的记录](/cells/zh/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [在刷新自动筛选后获取所有隐藏行索引](/cells/zh/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

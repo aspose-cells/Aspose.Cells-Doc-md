@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [取消保护工作表](/cells/zh/nodejs-cpp/unprotect-a-worksheet/)  
 - [验证用于保护工作表的密码](/cells/zh/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

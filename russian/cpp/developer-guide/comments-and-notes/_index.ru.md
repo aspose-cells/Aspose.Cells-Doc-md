@@ -190,3 +190,4 @@ int main()
 - [Как изменить цвет шрифта комментария](/cells/ru/cpp/how-to-change-the-comment-font-color/)
 - [Как установить фон комментария](/cells/ru/cpp/how-to-set-comment-background/)
 - [Комментарии с цепочкой](/cells/ru/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

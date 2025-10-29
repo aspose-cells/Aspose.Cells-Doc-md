@@ -31,3 +31,4 @@ AutoRecover: False
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

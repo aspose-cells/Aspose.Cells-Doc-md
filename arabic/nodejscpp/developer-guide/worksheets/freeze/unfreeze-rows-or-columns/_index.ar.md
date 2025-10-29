@@ -42,3 +42,4 @@ workbook.save("Unfrozen.xlsx");
 ```
 
 المرفق [ملف إكسل عيني](Frozen.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

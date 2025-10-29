@@ -51,3 +51,4 @@ PDF (Portable Document Format) представляет документы не�
 |Первый лист **(Прогноз продаж)**|Второй лист **(Отчет о продажах)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Третий лист **(Ввод данных)**|Последний лист **(Изображение)**|
+{{< app/cells/assistant language="python-net" >}}

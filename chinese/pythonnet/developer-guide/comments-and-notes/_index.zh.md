@@ -4,7 +4,7 @@ linktitle: 注释和备注
 type: docs
 weight: 128
 url: /zh/python-net/comments-and-notes/
-description: 使用Aspose.Cells for .Net插入和管理评论或备注。
+description: 使用Aspose.Cells for Python插入和管理评论或笔记 via .NET。
 keywords: 插入注释，插入备注
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cells 也提供了这个功能。下面是一个代码示例，从头开�
 - [如何设置评论背景](/cells/zh/python-net/how-to-set-comment-background/)
 - [线程化的批注](/cells/zh/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

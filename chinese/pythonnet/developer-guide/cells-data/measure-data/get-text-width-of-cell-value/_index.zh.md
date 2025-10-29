@@ -18,3 +18,4 @@ keywords: Python Excel库，Python获取单元格值的文本宽度，Python获�
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-CellsHelper-GetTextWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

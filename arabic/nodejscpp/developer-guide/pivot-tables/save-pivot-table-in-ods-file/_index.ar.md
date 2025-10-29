@@ -15,3 +15,4 @@ url: /ar/nodejs-cpp/save-pivot-table-in-ods-file/
 
 [ملف ODS الناتج](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

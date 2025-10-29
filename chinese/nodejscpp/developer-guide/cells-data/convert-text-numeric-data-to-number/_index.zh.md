@@ -43,3 +43,4 @@ Aspose.Cells for Node.js via C++提供了[**Cells.convertStringToNumericValue()*
 以下示例代码说明了如何在所有工作表中将所有字符串数值数据转换为实际数值。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ConvertTextNumericDatatoNumber.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

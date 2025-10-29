@@ -23,3 +23,4 @@ url: /ar/python-net/copy-sparkline-by-specifying-data-range-and-location-of-spar
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Sparklines-CopySparkline-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

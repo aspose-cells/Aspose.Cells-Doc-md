@@ -1,0 +1,185 @@
+---
+title: Personnaliser les paramètres de localisation pour le tableau croisé dynamique avec JavaScript via C++
+linktitle: Personnaliser les paramètres de globalisation pour la table croisée dynamique
+type: docs
+weight: 50
+url: /fr/javascript-cpp/customize-globalization-settings-for-pivot-table/
+---
+
+## **Scénarios d'utilisation possibles**
+
+Parfois, vous souhaitez personnaliser le texte *Total Pivot, Sous-total, Total général, Tous les éléments, Éléments multiples, Étiquettes de colonnes, Étiquettes de lignes, Valeurs vides* selon vos besoins. Script via C++ permet de personnaliser les paramètres de localisation du tableau croisé dynamique pour gérer de tels scénarios. Vous pouvez également utiliser cette fonctionnalité pour changer les étiquettes en d’autres langues comme l’arabe, l’hindi, le polonais, etc.
+
+## **Personnaliser les paramètres de globalisation pour le tableau croisé dynamique**
+
+Le code d'exemple ci-dessous explique comment personnaliser les paramètres de globalisation pour le tableau croisé dynamique. Il crée une classe *CustomPivotTableGlobalizationSettings* dérivée d'une classe de base [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/) et redéfinit toutes ses méthodes nécessaires. Ces méthodes renvoient le texte personnalisé pour *Total de Pivot, Sous-total, Total général, Tous les éléments, éléments multiples, Étiquettes de colonnes, Étiquettes de lignes, Valeurs vides*. Ensuite, il assigne l'objet de cette classe à la propriété [**WorkbookSettings.pivotSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#pivotSettings--). Le code charge le fichier excel source (40468488.xlsx) contenant le tableau croisé dynamique, le rafraîchit, calcule ses données et le sauvegarde en tant que fichier [PDF de sortie](40468487.pdf). La capture d'écran suivante montre l'effet du code exemple sur le PDF de sortie. Comme vous pouvez le voir sur la capture, différentes parties du tableau croisé dynamique ont maintenant un texte personnalisé renvoyé par les méthodes redéfinies de la classe [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/).
+
+![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
+
+## **Code d'exemple**
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Pivot Table Globalization Settings Example</title>
+    </head>
+    <body>
+        <h1>Pivot Table Globalization Settings Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, Utils } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        class CustomPivotTableGlobalizationSettings extends AsposeCells.PivotGlobalizationSettings {
+            // Gets the name of "Total" label in the PivotTable.
+            getTextOfTotal() {
+                console.log("---------GetPivotTotalName-------------");
+                return "AsposeGetPivotTotalName";
+            }
+
+            // Gets the name of "Grand Total" label in the PivotTable.
+            getTextOfGrandTotal() {
+                console.log("---------GetPivotGrandTotalName-------------");
+                return "AsposeGetPivotGrandTotalName";
+            }
+
+            // Gets the name of "(Multiple Items)" label in the PivotTable.
+            getTextOfMultipleItems() {
+                console.log("---------GetMultipleItemsName-------------");
+                return "AsposeGetMultipleItemsName";
+            }
+
+            // Gets the name of "(All)" label in the PivotTable.
+            getTextOfAll() {
+                console.log("---------GetAllName-------------");
+                return "AsposeGetAllName";
+            }
+
+            // Gets the name of "Column Labels" label in the PivotTable.
+            getTextOfColumnLabels() {
+                console.log("---------GetColumnLabelsOfPivotTable-------------");
+                return "AsposeGetColumnLabelsOfPivotTable";
+            }
+
+            // Gets the name of "Row Labels" label in the PivotTable.
+            getTextOfRowLabels() {
+                console.log("---------GetRowLabelsNameOfPivotTable-------------");
+                return "AsposeGetRowLabelsNameOfPivotTable";
+            }
+
+            // Gets the name of "(blank)" label in the PivotTable.
+            getTextOfEmptyData() {
+                console.log("---------GetEmptyDataName-------------");
+                return "(blank)AsposeGetEmptyDataName";
+            }
+
+            // Gets the name of PivotFieldSubtotalType type in the PivotTable.
+            getTextOfSubTotal(subTotalType) {
+                console.log("---------GetSubTotalName-------------");
+
+                switch (subTotalType) {
+                    case AsposeCells.PivotFieldSubtotalType.Sum:
+                        return "AsposeSum";
+
+                    case AsposeCells.PivotFieldSubtotalType.Count:
+                        return "AsposeCount";
+
+                    case AsposeCells.PivotFieldSubtotalType.Average:
+                        return "AsposeAverage";
+
+                    case AsposeCells.PivotFieldSubtotalType.Max:
+                        return "AsposeMax";
+
+                    case AsposeCells.PivotFieldSubtotalType.Min:
+                        return "AsposeMin";
+
+                    case AsposeCells.PivotFieldSubtotalType.Product:
+                        return "AsposeProduct";
+
+                    case AsposeCells.PivotFieldSubtotalType.CountNums:
+                        return "AsposeCount";
+
+                    case AsposeCells.PivotFieldSubtotalType.Stdev:
+                        return "AsposeStdDev";
+
+                    case AsposeCells.PivotFieldSubtotalType.Stdevp:
+                        return "AsposeStdDevp";
+
+                    case AsposeCells.PivotFieldSubtotalType.Var:
+                        return "AsposeVar";
+
+                    case AsposeCells.PivotFieldSubtotalType.Varp:
+                        return "AsposeVarp";
+                }
+
+                return "AsposeSubTotalName";
+            }
+        }
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const resultDiv = document.getElementById('result');
+            const downloadLink = document.getElementById('downloadLink');
+
+            if (!fileInput.files.length) {
+                resultDiv.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Instantiating a Workbook object by opening the uploaded Excel file
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Apply globalization settings and custom pivot table globalization settings
+            workbook.settings.globalizationSettings = new AsposeCells.GlobalizationSettings();
+            workbook.settings.globalizationSettings.pivotSettings = new CustomPivotTableGlobalizationSettings();
+
+            // Hide first worksheet that contains the data of the pivot table
+            workbook.worksheets.get(0).isVisible = false;
+
+            // Access second worksheet
+            const ws = workbook.worksheets.get(1);
+
+            // Access the pivot table, refresh and calculate its data
+            const pt = ws.pivotTables.get(0);
+            pt.refreshDataFlag = true;
+            pt.refreshData();
+            pt.calculateData();
+            pt.refreshDataFlag = false;
+
+            // Pdf save options - save entire worksheet on a single pdf page
+            const options = new AsposeCells.PdfSaveOptions();
+            options.onePagePerSheet = true;
+
+            // Save the output pdf 
+            const outputData = workbook.save(SaveFormat.Pdf, options);
+            const blob = new Blob([outputData], { type: 'application/pdf' });
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'outputPivotTableGlobalizationSettings.pdf';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download PDF File';
+
+            resultDiv.innerHTML = '<p style="color: green;">Operation completed successfully! Click the download link to get the PDF file.</p>';
+        });
+    </script>
+</html>
+```

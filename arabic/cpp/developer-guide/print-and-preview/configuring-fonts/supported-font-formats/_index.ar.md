@@ -12,3 +12,4 @@ description: تعرف على تنسيقات الخطوط المدعومة في A
 |**TTF**| TrueType Fonts|
 |**TTC**| TrueType Collection|
 |**OTF**| OpenType Fonts|
+{{< app/cells/assistant language="cpp" >}}

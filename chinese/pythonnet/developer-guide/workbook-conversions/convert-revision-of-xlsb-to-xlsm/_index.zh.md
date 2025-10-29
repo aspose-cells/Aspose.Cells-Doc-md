@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET现在支持将XLSB文件的修订版本完全�
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.py" >}}
+{{< app/cells/assistant language="python-net" >}}

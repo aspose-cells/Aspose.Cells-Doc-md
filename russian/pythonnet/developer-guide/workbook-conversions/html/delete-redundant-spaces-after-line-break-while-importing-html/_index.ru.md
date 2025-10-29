@@ -26,3 +26,4 @@ keywords: Удалить избыточные пробелы после пере
 Следующий пример кода демонстрирует использование свойства [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/). Пожалуйста, установите его **true** или **false**, чтобы получить вывод, как показано на скриншоте выше.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

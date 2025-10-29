@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "OutputFile_out_pdf"), pdfSaveOptions);
 Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -127,3 +127,4 @@ pageSetup.setHeader(2, "&A");
 // Saving the workbook
 workbook.save(path.join(dataDir, "InsertImageInHeaderFooter_out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

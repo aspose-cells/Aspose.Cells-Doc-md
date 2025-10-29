@@ -29,3 +29,4 @@ Effacer le filtre dans le tableau croisé dynamique en utilisant Aspose.Cells po
 
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Clear-filter-in-PivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

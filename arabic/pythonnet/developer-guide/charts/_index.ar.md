@@ -195,3 +195,4 @@ keywords: إنشاء رسم بياني، إنشاء رسم بياني
 - [إدارة عناوين مخططات Excel](/cells/ar/python-net/chart-and-axis-titles/)
 - [عرض الرسم البياني](/cells/ar/python-net/chart-rendering/)
 - [الحصول على نص المعادلة لخط اتجاه المخطط](/cells/ar/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

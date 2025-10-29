@@ -90,3 +90,4 @@ Aspose.Cells 提供 [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cel
 - [获取电子表格或工作簿中使用的字体列表](/cells/zh/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

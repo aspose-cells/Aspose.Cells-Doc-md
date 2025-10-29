@@ -68,3 +68,4 @@ First Worksheet of First Workbook - IsAutomaticPaperSize: False
 First Worksheet of Second Workbook - IsAutomaticPaperSize: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

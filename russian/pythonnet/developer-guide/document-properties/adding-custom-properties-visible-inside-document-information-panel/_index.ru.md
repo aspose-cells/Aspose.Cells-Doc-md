@@ -22,3 +22,4 @@ Aspose.Cells для Python via .NET можно использовать для �
 - [Использование пользовательских XML-частей в Aspose.Cells](/cells/ru/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

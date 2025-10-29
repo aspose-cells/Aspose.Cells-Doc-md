@@ -77,3 +77,4 @@ Créez d'abord un graphique à colonnes dans Microsoft Excel et convertissez-le 
 1. Convertir le graphique en une image dynamiquement. Voici le code utilisé par le composant pour accomplir la tâche. Le code est similaire à celui précédent :
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

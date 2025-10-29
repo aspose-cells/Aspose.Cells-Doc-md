@@ -343,3 +343,4 @@ int main() {
 - [使用条件格式为交替的行和列添加阴影](/cells/zh/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [生成条件格式设置数据条图像](/cells/zh/cpp/generate-conditional-formatting-databars-images/)
 - [获取在条件格式设置中使用的图标集、数据条或颜色刻度对象](/cells/zh/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

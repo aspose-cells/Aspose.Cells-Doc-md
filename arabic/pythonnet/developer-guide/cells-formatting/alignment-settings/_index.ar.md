@@ -124,3 +124,4 @@ url: /ar/python-net/cells-alignment-settings/
 - [فواصل السطر وتفريغ النص](/cells/ar/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

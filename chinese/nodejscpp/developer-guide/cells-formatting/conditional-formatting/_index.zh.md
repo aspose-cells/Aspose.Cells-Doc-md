@@ -87,3 +87,4 @@ Microsoft Excel 2007 增加了更高级的条件格式，Aspose.Cells 也支持�
 - [获取在条件格式设置中使用的图标集、数据条或颜色刻度对象](/cells/zh/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

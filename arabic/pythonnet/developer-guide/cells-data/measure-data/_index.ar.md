@@ -22,3 +22,4 @@ keywords: مكتبة Python Excel ، Python قياس عرض قيمة الخلي�
 
 ## **مواضيع متقدمة**
 - [الحصول على عرض النص لقيمة الخلية](/cells/ar/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

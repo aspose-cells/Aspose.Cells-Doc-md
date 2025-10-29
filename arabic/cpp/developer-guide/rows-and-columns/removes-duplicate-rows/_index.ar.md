@@ -7,6 +7,7 @@ url: /ar/cpp/remove-duplicate-rows-in-a-worksheet/
 description: تعلم كيفية إزالة الصفوف المكررة في ورقة عمل باستخدام Aspose.Cells for C++.
 ---
 
+{{% alert color="primary" %}}
 
 إزالة الصفوف المكررة هي واحدة من الميزات المفيدة في Microsoft Excel. تسمح للمستخدمين بإزالة الصفوف المكررة في ورقة عمل، ويمكنك اختيار الأعمدة التي يجب فحصها لوجود معلومات مكررة.
 
@@ -39,3 +40,6 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+
+{{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

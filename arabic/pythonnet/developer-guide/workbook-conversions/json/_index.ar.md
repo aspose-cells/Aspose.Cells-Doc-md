@@ -26,3 +26,4 @@ keywords: تحويل دفتر العمل Excel إلى JSON بالبايثون، 
 - [تحويل-Excel-إلى-JSON](/cells/ar/python-net/convert-excel-to-json/)
 - [تحويل JSON إلى CSV](/cells/ar/python-net/convert-json-to-csv/)
 - [تحويل JSON إلى Excel](/cells/ar/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

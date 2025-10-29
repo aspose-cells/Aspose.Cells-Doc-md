@@ -18,3 +18,4 @@ keywords: 通过C++在Node.js中获取单元格值的文本宽度，利用C++在
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-MeasureData-GetTextWidth.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

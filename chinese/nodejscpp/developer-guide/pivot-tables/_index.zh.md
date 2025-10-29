@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++提供了一套特殊的类，用于创建和控
 当将一系列单元格指定为数据源时，该范围必须从左上到右下。例如，“A1:C3”是有效的，但“C3:A1”是无效的。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

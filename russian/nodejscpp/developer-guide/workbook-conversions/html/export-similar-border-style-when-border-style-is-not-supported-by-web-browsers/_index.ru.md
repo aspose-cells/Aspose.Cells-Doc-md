@@ -38,3 +38,4 @@ opts.setExportSimilarBorderStyle(true);
 wb.save("outputExportSimilarBorderStyle.html", opts);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -80,3 +80,4 @@ NuGet 是下载和安装 Aspose.Cells for C++ 的最简单方式。
 以下示例打开现有的Microsoft Excel模板文件，获取一个单元格，并检查单元格A1中的值。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [Séquence de rendu des pages à l'aide des propriétés PageIndex et PageCount d'ImageOrPrintOptions](/cells/fr/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [Rendre la feuille de calcul dans le contexte graphique](/cells/fr/cpp/render-worksheet-to-graphic-context/)
 - [Spécifier un ensemble de polices individuelles ou privées pour le rendu du classeur](/cells/fr/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

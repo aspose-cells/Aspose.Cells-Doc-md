@@ -43,3 +43,4 @@ Aspose.Cells для Python via .NET поддерживает извлечени�
 - [Получение или установка идентификатора класса встроенного объекта OLE](/cells/ru/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Вставка файла WAV в качестве объекта OLE](/cells/ru/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

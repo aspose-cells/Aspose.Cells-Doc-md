@@ -166,3 +166,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Копировать высоты строк исходного диапазона в целевой диапазон](/cells/ru/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

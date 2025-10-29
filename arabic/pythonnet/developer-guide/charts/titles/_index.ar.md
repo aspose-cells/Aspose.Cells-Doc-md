@@ -33,3 +33,4 @@ url: /ar/python-net/chart-and-axis-titles/
 
 ## **مواضيع متقدمة**
 - [قراءة عنوان الرسم البياني من ملف ODS](/cells/ar/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

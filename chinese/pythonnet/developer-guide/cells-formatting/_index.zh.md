@@ -111,3 +111,4 @@ Aspose.Cells for Python via .NET提供了一个 [**Workbook**](https://reference
 - [数字设置](/cells/zh/python-net/cells-number-settings/)
 - [获取和设置单元格的样式](/cells/zh/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

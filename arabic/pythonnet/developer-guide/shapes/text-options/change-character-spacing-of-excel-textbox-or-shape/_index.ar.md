@@ -14,3 +14,4 @@ url: /ar/python-net/change-character-spacing-of-excel-textbox-or-shape/
 الكود المصدري التالي يقوم بتغيير تباعد الأحرف لصندوق النص في ملف Excel إلى النقطة 4 ثم يقوم بحفظه على القرص.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

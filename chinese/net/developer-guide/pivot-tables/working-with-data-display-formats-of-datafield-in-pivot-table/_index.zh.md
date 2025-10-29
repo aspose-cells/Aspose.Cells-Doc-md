@@ -17,9 +17,9 @@ ASpose.Cells提供了设置数据透视字段显示格式选项的功能。为�
 
 可从此处下载示例源文件和输出文件以测试示例代码:
 
-[源 Excel 文件]（101089332.xlsx）
+【源 Excel 文件】（101089332.xlsx）
 
-[输出 Excel 文件]（101089333.xlsx）
+【输出 Excel 文件】（101089333.xlsx）
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

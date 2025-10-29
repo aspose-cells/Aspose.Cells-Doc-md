@@ -116,3 +116,4 @@ workbook.save("html.html", saveOptions);
 
 这是 [源 Excel 文件](Book1.xlsx)。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

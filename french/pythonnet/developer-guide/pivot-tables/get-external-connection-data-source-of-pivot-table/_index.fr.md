@@ -18,3 +18,4 @@ Aspose.Cells pour Python via .NET fournit la possibilité d'obtenir la source de
 Le fichier source utilisé dans l'exemple de code est joint à titre de référence.
 
 [Fichier source](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

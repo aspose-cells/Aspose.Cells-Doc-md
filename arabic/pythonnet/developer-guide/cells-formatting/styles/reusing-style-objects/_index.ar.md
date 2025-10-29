@@ -26,3 +26,4 @@ url: /ar/python-net/reusing-style-objects/
 نظرًا لأن النهج [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) يستخدم أقل من الذاكرة بكثير، وهو كفء، تمت إزالة خاصية Cell.Style القديمة التي كانت تستهلك الكثير من الذاكرة غير الضرورية مع إصدار Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

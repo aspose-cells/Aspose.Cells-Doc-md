@@ -24,3 +24,4 @@ Le code suivant explique l’utilisation des méthodes [**Cell.getWidthOfValue()
 ## **Sujets avancés**  
 - [Obtenir la largeur de texte de la valeur de la cellule](/cells/fr/nodejs-cpp/get-text-width-of-cell-value/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

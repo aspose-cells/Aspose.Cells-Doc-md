@@ -47,6 +47,7 @@ les paramètres pour les options de chargement :
 | `loadingGif` | URL du GIF de chargement lors du chargement des images/formes.<br>La valeur par défaut est content/img/updating.gif. | `content/img/updating.gif` | Oui |
 | `local` | Définir les informations de localisation pour les menus et barres d'outils, prenant en charge plusieurs langues.<br>Les valeurs possibles incluent :<br>- `en, zh, es, pt, de, ru, nl` (pour anglais, chinois, espagnol, portugais, allemand, russe, néerlandais)<br>- `ar, fr, id, it, ja` (pour arabe, français, indonésien, italien, japonais)<br>- `ko, th, tr, vi, cht` (pour coréen, thaï, turc, vietnamien, chinois traditionnel) | `en` | Oui |
 | `mode` | Peut être `read` ou `edit` ; `read` signifie une feuille en lecture seule ; `edit` signifie qu'elle peut être modifiée. | Aucun | Non |
+| `isCollaborative` | Supporte-t-il le mode collaboratif . | `false` | Oui |
 | `searchHighlightColor` | Couleur de surbrillance pour le terme de recherche.<br>La couleur doit inclure un canal alpha pour la transparence. | `#dbe71338` | Oui |
 | `showCheckSyntaxButton` | Affiche ou non les boutons de vérification syntaxique et correction orthographique dans la barre d'outils.<br>La valeur par défaut est false. | `false` | Oui |
 | `showContextmenu` | Affiche ou non le menu contextuel lors du clic droit sur une cellule.<br>La valeur par défaut est true. | `true` | Oui |
@@ -58,6 +59,9 @@ les paramètres pour les options de chargement :
 | `updateMode` | Actuellement, ne supporte que `server`. | `server` | Non |
 | `updateUrl` | Définir l'URL côté serveur pour les actions de mise à jour basées sur JSON. | Aucun | Non |
 | `view` | Définir la taille de la vue pour la feuille, par exemple, `{width: () => 1000, height: () => 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Oui |
+| `token` | Définir le jeton d'authentification. Lorsque le jeton n'est pas null, l'en-tête `Authorization: Bearer {token}` sera automatiquement ajouté aux en-têtes de la requête. Vous pouvez utiliser `xs.refreshToken(token)` pour définir un nouveau jeton. | Aucun | Oui |    
+| `showBottombarStats` | Afficher ou non les statistiques de la barre inférieure.<br>La valeur par défaut est true. | `true` | Oui |   
+| `showRowAppenderToolbar` | Afficher ou non la barre d’outils d’ajout de lignes par lot.<br>La valeur par défaut est true. | `true` | Oui |   
 
 - charger avec des données json
 ```javascript
@@ -104,6 +108,19 @@ xs2.setActiveForMultipleInstance(false);
 xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
+```
+- définir une notification toast personnalisée
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
 ```
 
 - définir les infos pour l'opération des formes/images pour l'action côté serveur
@@ -173,9 +190,39 @@ ___
 xs.reRender()
 ```
 
--  obtenir l'identifiant de la feuille active
+-  Obtenir l'id de la feuille active
 ```javascript
 xs.getActiveSheet()
+```
+
+-  Ajouter une nouvelle feuille de calcul
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+-  Modifier le nom de la feuille
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+- Supprimer la feuille
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 -  Définir le niveau de zoom
@@ -190,6 +237,14 @@ xs.setZoomLevel(zoom)
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
+```
+-  Configurer l'appel de fonction avant l'enregistrement 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
 ```
 
 - Fonction de rappel pour la fonction d'envoi d'e-mail
@@ -217,6 +272,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+-  Configurer les paramètres de collaboration en mode collaboratif, assurez-vous de définir setCollaborativeSetting avant setUniqueId  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 -  définir un filtre visible pour l'image/forme
 ```javascript
@@ -244,14 +311,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -270,6 +337,153 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
+
+-  Insérer des lignes
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+-  Insérer des colonnes 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+-  Supprimer des lignes 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+-  Supprimer des colonnes 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+-  Définir le volet gelé
+```javascript
+xs.sheet.freeze(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+-  Libérer le volet
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+- Définir la plage modifiable/lecture seule
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+-  Cacher les lignes 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Afficher les lignes
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Cacher les colonnes 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+-  Afficher les colonnes
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+-  Définir la hauteur de la ligne
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+-  Définir la hauteur des lignes
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  Définir la hauteur de toutes les lignes
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+-  Définir la largeur pour la colonne
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+-  Définir la largeur pour les colonnes
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Définir la largeur pour toutes les colonnes
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+-  Définir le commentaire dans la cellule
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+-  Supprimer le commentaire dans la cellule
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
+
 -  Obtenir l'objet de cellule
 ```javascript
 xs.sheet.data.getCell(ri,ci)
@@ -277,6 +491,7 @@ xs.sheet.data.getCell(ri,ci)
 	ri:row index 
 	ci:column index
 ```
+
 -  Obtenir le style de cellule
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
@@ -312,6 +527,18 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
+-  Définir le style pour la zone de cellule souhaitée
+```javascript
+xs.sheet.data.setRangeAttr(range,attributename,value)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	value:the  value for the attribute
+   for example:
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
+```
+
+
 -  Fusionner la zone de cellules sélectionnée
 ```javascript
 xs.sheet.data.merge()
@@ -321,56 +548,22 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Supprimer la cellule sélectionnée  
+-  Supprimer le contenu de la cellule ou effacer le style dans la cellule sélectionnée  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Définir le volet gelé
+
+-  Supprimer le contenu de la cellule ou effacer le style dans la zone de cellule souhaitée
 ```javascript
-xs.sheet.data.setFreeze(ri,ci)
+xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-	ri:row index 
-	ci:column index
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
--  Insérer des lignes ou des colonnes à la cellule sélectionnée  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
--  Supprimer des lignes ou des colonnes à la cellule sélectionnée  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
--  Définir la largeur pour la colonne
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
--  Définir la largeur pour les colonnes
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
--  Définir la largeur pour toutes les colonnes
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 -  Obtenir la largeur de la colonne 
 ```javascript
@@ -380,28 +573,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Définir la hauteur de la ligne
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
--  Définir la hauteur des lignes
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
--  Définir la hauteur de toutes les lignes
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 -  Obtenir la hauteur de la ligne 
@@ -490,7 +661,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## API pour l'objet forme
+-  Modifier la couleur de fond de l'objet forme
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
 
 ## APIs pour l'objet TextBox
 TextBox est un type spécial de forme dont la propriété de type est : "TextBox",
@@ -504,14 +684,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
-- Changer la couleur de fond pour l'objet textbox
+- Appliquer les paramètres de police pour l'objet zone de texte
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 - Changer automatiquement la couleur de fond et la couleur du texte pour obtenir un effet actif visuel
 ```javascript
@@ -528,7 +709,7 @@ Masquer/démasquer le contenu textuel dans l'objet zone de texte
 ```
 
 pour plus d'informations détaillées, vous pouvez consulter l'exemple ici
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>
 
 
 

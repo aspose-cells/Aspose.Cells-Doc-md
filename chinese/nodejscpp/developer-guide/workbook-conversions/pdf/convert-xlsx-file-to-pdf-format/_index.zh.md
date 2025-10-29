@@ -69,3 +69,4 @@ console.log(e.message);
 |第一个工作表 **（销售预测）**|第二个工作表 **（销售报告）**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |第三个工作表 **（数据录入）**|最后一个工作表 **（图像）**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -73,3 +73,4 @@ Aspose.Cells for Python via .NET提供大量可重用的样式集合，用于格
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UsingBuiltinStyles-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

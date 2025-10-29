@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 ملاحظة: تأكد من تفعيل دعم اللغة اليابانية في بيئتك لضمان دقة تحويل العهود. تقدم فئة Workbook و PdfSaveOptions الوظائف اللازمة لهذا التحويل.
+{{< app/cells/assistant language="python-net" >}}

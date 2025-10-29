@@ -56,3 +56,4 @@ url: /ar/python-net/merging-and-unmerging-cells/
 ## **مواضيع متقدمة**
 - [كشف الخلايا المدمجة في ورقة العمل](/cells/ar/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

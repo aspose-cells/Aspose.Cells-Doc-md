@@ -97,3 +97,4 @@ Voici un extrait de code illustrant ces étapes :
 
 En suivant ces étapes, vous pouvez facilement formater des nombres en pourcentage dans Aspose.Cells for Node.js via C++. Aspose.Cells offre une large gamme de fonctionnalités pour manipuler les fichiers Excel, y compris le formatage des cellules, le travail avec des formules, et bien plus encore, en faisant un outil puissant pour les développeurs Node.js manipulant des données Excel.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

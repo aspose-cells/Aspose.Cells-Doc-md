@@ -4,7 +4,7 @@ linktitle: Подпись
 type: docs
 weight: 100
 url: /ru/java/assign-and-validate-digital-signatures/
-description: Цифровая подпись Excel файла, проверка. Для защиты подлинности содержимого рабочей книги Excel файла вы можете добавить цифровую подпись, используя коды C# с помощью Aspose.Cells для .Net.
+description: Цифровая подпись файла Excel, проверка. Чтобы защитить подлинность содержимого рабочей книги Excel, вы можете добавить цифровую подпись с помощью Java кодов с номером Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

@@ -1,7 +1,7 @@
 ---
 title: Segmentateurs
 type: docs
-weight: 40
+weight: 100
 url: /fr/python-java/slicers/
 ---
 

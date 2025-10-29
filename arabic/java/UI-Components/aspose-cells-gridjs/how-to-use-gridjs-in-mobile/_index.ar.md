@@ -15,7 +15,7 @@ aliases:
 
 يمكن لعميل GridJs JS التكيف مع شاشة الهاتف المحمول.
 
-شغّل [عرض GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "عرض GridJs")
+تشغيل [عرض تجريبي لـ GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs "عرض تجريبي لـ GridJs")
 
 المنفذ الافتراضي لمشروع العرض التجريبي هو 8080. 
 

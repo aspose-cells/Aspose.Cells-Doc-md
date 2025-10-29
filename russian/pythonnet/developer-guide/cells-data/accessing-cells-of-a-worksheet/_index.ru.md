@@ -56,3 +56,4 @@ Aspose.Cells для Python via .NET позволяет разработчика�
 Вы можете получить доступ к максимальному диапазону отображения листа с помощью [**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/). В следующем примере кода показано, как получить доступ к свойству [**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

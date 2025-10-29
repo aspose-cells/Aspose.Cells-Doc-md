@@ -64,3 +64,4 @@ keywords: مكتبة Python Excel, كيفية تجميع الصفوف والأع
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) لديه تحميل زائد يأخذ معامل بولياني ثالث. يتم تعيينه على **صحيح** يزيل جميع المعلومات المجمّعة. وإلا، يتم إزالة معلومات المجموعة الخارجية فقط.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

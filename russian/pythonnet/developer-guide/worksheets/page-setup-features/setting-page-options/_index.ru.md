@@ -190,3 +190,4 @@ Aspose.Cells для Python via .NET предоставляет класс [**Wor
 Задайте нумерацию страниц листа с помощью свойства [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) класса [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). Свойство [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) устанавливает номер первой страницы листа, а следующие страницы нумеруются по возрастающей.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

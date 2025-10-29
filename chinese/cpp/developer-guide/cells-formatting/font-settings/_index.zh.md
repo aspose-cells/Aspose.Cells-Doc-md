@@ -415,3 +415,4 @@ int main()
 ## **高级主题**
 - [在字体上应用上标和下标效果](/cells/zh/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [获取电子表格或工作簿中使用的字体列表](/cells/zh/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

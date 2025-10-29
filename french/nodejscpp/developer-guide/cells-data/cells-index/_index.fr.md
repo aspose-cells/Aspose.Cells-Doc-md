@@ -36,3 +36,4 @@ Cet exemple montre comment :
 1. Obtenir l'index de ligne par le nom de la ligne.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-get-index.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

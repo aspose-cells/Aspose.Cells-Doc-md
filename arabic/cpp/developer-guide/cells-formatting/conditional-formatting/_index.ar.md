@@ -343,3 +343,4 @@ int main() {
 - [تطبيق التظليل على الصفوف والأعمدة البديلة باستخدام التنسيق الشرطي](/cells/ar/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [توليد صور شريط بيانات التنسيق الشرطي](/cells/ar/cpp/generate-conditional-formatting-databars-images/)
 - [الحصول على مجموعات الرموز، أشرطة البيانات أو كائنات مقياس الألوان المستخدمة في التنسيق الشرطي](/cells/ar/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

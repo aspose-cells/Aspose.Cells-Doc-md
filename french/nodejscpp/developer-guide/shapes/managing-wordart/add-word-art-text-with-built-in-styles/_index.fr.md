@@ -38,3 +38,4 @@ ws.getShapes().addWordArt(AsposeCells.PresetWordArtStyle.WordArtStyle5, "Aspose 
 // Save the workbook in xlsx format
 wb.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

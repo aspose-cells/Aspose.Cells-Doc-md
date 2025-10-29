@@ -96,3 +96,4 @@ ImplementCustomCalculationEngine.run();
 [Прямой расчет пользовательской функции без записи ее в рабочий лист](/cells/ru/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -54,3 +54,4 @@ keywords: Aspose.Cells for Python Excel、Excel Python库、如何使用Aspose.C
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-ChangeSourceData-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

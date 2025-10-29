@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NET 允许你在没有图表的情况下加载 Exce
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-LoadTemplateWithoutCharts.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

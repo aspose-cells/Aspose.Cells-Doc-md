@@ -30,3 +30,4 @@ url: /ar/cpp/copying-and-moving-worksheets/
 يوفر Aspose.Cells طريقة [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) التي تستخدم لنقل صفحة عمل إلى مكان آخر في نفس الجدول الجدولي. تأخذ الطريقة مؤشر صفحة العمل الهدف كمعلمة. يوضح المثال التالي كيفية نقل صفحة عمل إلى مكان آخر ضمن المصنف.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

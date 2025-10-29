@@ -55,7 +55,7 @@ Aspose.Cells for Go via C++设计上既适用于服务器端，也适用于客�
 
 Aspose为其所有产品提供无限免费技术支持。技术支持对所有用户开放，包括评估用户。
 
-如果需要Aspose.Cells for Go via C++的帮助[访问Aspose论坛](https://forum.aspose.com/c/cells/9)。在Aspose.Cells for Go via C++论坛发布你的问题，几小时内会得到回答。问题由Aspose.Cells for Go支持团队直接回答。
+如果需要Aspose.Cells for Go via C++的帮助【访问Aspose论坛】(https://forum.aspose.com/c/cells/9)。在Aspose.Cells for Go via C++论坛发布你的问题，几小时内会得到回答。问题由Aspose.Cells for Go支持团队直接回答。
 
 在论坛期待回复时，请考虑时区差异。
 

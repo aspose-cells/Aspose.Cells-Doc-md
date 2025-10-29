@@ -126,3 +126,4 @@ workbook.save(path.join(dataDir, "output_out.xlsm"));
 - [查找VBA项目是否受保护](/cells/zh/nodejs-cpp/find-out-if-vba-project-is-protected/)
 - [为Excel工作簿的VBA项目设置密码保护](/cells/zh/nodejs-cpp/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

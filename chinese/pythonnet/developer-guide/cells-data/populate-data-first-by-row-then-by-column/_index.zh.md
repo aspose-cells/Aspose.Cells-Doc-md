@@ -18,3 +18,4 @@ keywords: Python Excel库, Python首先按行填充数据，然后按列填充�
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

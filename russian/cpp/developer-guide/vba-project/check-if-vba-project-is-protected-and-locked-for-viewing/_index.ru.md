@@ -54,3 +54,4 @@ int main()
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

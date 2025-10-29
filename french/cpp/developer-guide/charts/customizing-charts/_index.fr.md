@@ -8,6 +8,7 @@ weight: 40
 url: /fr/cpp/customizing-charts/
 ---
 
+
 ## **Création de graphiques personnalisés**
 
 Jusqu'à présent, lorsque nous avons discuté de graphiques, nous avons examiné des graphiques standard avec leurs paramètres de mise en forme standards. Nous définissons simplement la source de données, réglons quelques propriétés, et le graphique est créé avec ses paramètres de format par défaut. Mais les API Aspose.Cells supportent également la création de graphiques personnalisés permettant aux développeurs de créer des graphiques avec leurs propres paramètres de format.
@@ -79,3 +80,4 @@ int main()
 Actuellement, Aspose.Cells ne supporte que les graphiques personnalisés combinant pie, line, column, et column stack, mais d'autres graphiques seront supportés dans les futures versions.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

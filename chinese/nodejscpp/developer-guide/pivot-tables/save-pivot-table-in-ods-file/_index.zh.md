@@ -15,3 +15,4 @@ Aspose.Cells for Node.js via C++提供保存数据透视表为ODS文件的功能
 
 [输出ODS文件](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

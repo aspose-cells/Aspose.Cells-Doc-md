@@ -190,3 +190,4 @@ Aspose.Cells for Python via .NET 提供了一个类，[**Workbook**](https://ref
 使用[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)类的[**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)属性开始工作表页面的编号。[**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)属性设置第一个工作表页面的页码，接下来的页面按升序编号。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

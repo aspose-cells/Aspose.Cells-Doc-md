@@ -39,3 +39,4 @@ description: حماية وإلغاء حماية ورقة العمل لملفات
 - [إلغاء حماية ورقة العمل](/cells/ar/python-net/unprotect-a-worksheet/)
 - [التحقق من الكلمة المستخدمة لحماية ورقة العمل](/cells/ar/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

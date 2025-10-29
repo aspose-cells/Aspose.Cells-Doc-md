@@ -46,3 +46,4 @@ API Aspose.Cells for Node.js via C++ также позволяет примен�
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-AdvancedFilter.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

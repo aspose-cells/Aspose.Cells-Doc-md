@@ -42,3 +42,4 @@ Aspose.Cells for C++从18.5.0版本开始能够将工作表转换为SVG图像。
 请参阅以下示例代码、其[示例Excel文件](67338402.xlsx)和[输出的SVG图像](67338403.zip)。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

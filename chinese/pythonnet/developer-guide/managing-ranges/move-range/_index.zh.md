@@ -27,3 +27,4 @@ keywords: Python Excel库，Python在工作表中移动单元格范围，Python�
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Move-Range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

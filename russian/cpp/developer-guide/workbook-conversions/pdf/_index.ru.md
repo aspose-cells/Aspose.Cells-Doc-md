@@ -308,3 +308,4 @@ int main()
 - [Сохранить указанные листы в формат PDF](/cells/ru/cpp/save-specified-worksheets-to-pdf/)
 - [Защищенные документы в формате PDF](/cells/ru/cpp/secure-pdf-documents/)
 - [Указание способа пересечения строк в выходном PDF и изображении](/cells/ru/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

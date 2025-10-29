@@ -25,3 +25,4 @@ keywords: Python Excel Library，Python 删除空行，Python 移除空行，Pyt
 ## 删除空列的C#代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-DeletingBlankColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

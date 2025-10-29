@@ -22,6 +22,6 @@ Il permet également d'exporter des fichiers Excel au format PDF, HTML, etc. Voi
 - Configurez une action de contrôleur pour obtenir le fichier en cache, ainsi nous pouvons obtenir le fichier zip des images/formes ou le fichier de feuille de calcul en cache. Il utilisera l'API GridCacheForStream.LoadStream.
 - Mettez en place une action de contrôleur pour télécharger la feuille de calcul. Vous pouvez utiliser l'API GridJsWorkbook.SaveToCacheWithFileName.
 
-Ci-dessous se trouve une démo de base pour montrer l'utilisation d'Aspose.Cells.GridJs : https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs 
+Ci-dessous un démo de base pour montrer l'utilisation d'Aspose.Cells.GridJs : https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs 
 
 Si vous avez des questions, des exigences ou avez besoin d'aide, veuillez faire part de vos commentaires sur le site suivant https://forum.aspose.com/c/cells/9

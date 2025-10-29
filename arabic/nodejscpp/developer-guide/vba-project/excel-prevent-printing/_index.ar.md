@@ -50,3 +50,4 @@ modules.get("ThisWorkbook").setCodes("Private Sub Workbook_BeforePrint(Cancel As
 wb.save("out.xlsm");
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

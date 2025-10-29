@@ -154,3 +154,4 @@ int main()
 ```
 
 هنا [ملف اكسل المصدر](Book1.xlsx).
+{{< app/cells/assistant language="cpp" >}}

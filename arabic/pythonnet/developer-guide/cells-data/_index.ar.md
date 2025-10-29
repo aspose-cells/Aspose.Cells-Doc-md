@@ -79,3 +79,4 @@ keywords: مكتبة إكسل Python، Aspose.Cells لإدارة الملفات 
 - [ملء البيانات أولاً حسب الصف ثم حسب العمود](/cells/ar/python-net/populate-data-first-by-row-then-by-column/)
 - [الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق](/cells/ar/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [الوصول إلى وتحديث أجزاء النص الغني للخلية](/cells/ar/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

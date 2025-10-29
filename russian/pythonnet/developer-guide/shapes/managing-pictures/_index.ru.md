@@ -53,3 +53,4 @@ Aspose.Cells для Python via .NET позволяет отображать со
 - [Вставить изображение на основе ссылки на ячейку](/cells/ru/python-net/insert-a-picture-based-on-cell-reference/)
 - [Загрузка веб-изображения из URL в лист Excel](/cells/ru/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

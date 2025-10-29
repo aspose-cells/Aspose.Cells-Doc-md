@@ -81,3 +81,4 @@ Aspose.Cells for Python via .NET 允许你通过 [**MsoDrawingType**](https://re
 
 ## **高级主题**
 - [向图表添加艺术字水印](/cells/zh/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

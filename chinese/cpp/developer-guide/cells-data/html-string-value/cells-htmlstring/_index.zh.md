@@ -82,3 +82,4 @@ int main()
 以下截图显示了上述示例代码的输出。
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="cpp" >}}

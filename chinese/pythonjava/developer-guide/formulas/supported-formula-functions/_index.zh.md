@@ -5,447 +5,565 @@ weight: 10
 url: /zh/python-java/supported-formula-functions/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells API支持大多数标准函数和Excel内置函数。下面，您可以按字母顺序找到所有支持的函数。
 
-{{% /alert %}} 
-### **在运行时设置、读取和计算**
-Aspose.Cells 的公式计算引擎允许您在运行时设置、读取和计算以下公式和函数的结果。
-#### **A**
-- ABS
-- ACCRINT
-- ACCRINTM
-- ACOS
-- ACOSH
-- ADDRESS
-- AGGREGATE
-- AMORDEGRC
-- AMORLINC
-- AND
-- AREAS
-- ASC
-- ASIN
-- ASINH
-- ATAN
-- ATAN2
-- ATANH
-- AVEDEV
-- AVERAGE
-- AVERAGEA
-- AVERAGEIF
-- AVERAGEIFS
-#### **B**
-- BESSELI
-- BESSELJ
-- BESSELK
-- BESSELY
-- BETA.DIST
-- BETA.INV
-- BETADIST
-- BETAINV
-- BIN2DEC
-- BIN2HEX
-- BIN2OCT
-- BINOM.DIST
-- BINOMDIST
-- BITAND
-- BITLSHIFT
-- BITOR
-- BITRSHIFT
-- BITXOR
-#### **C**
-- CEILING
-- CEILING.MATH
-- CEILING.PRECISE
-- CELL
-- CHAR
-- CHIDIST
-- CHIINV
-- CHISQ.DIST
-- CHISQ.DIST.RT
-- CHISQ.INV.RT
-- CHISQ.TEST
-- CHITEST
-- CHOOSE
-- CLEAN
-- CODE
-- COLUMN
-- COLUMNS
-- COMBIN
-- COMPLEX
-- CONCAT
-- CONCATENATE
-- CONFIDENCE
-- CONFIDENCE.NORM
-- CONVERT
-- CORREL
-- COS
-- COSH
-- COUNT
-- COUNTA
-- COUNTBLANK
-- COUNTIF
-- COUNTIFS
-- COUPDAYBS
-- COUPDAYS
-- COUPDAYSNC
-- COUPNCD
-- COUPNUM
-- COUPPCD
-- COVAR
-- COVARIANCE.P
-- COVARIANCE.S
-- CRITBINOM
-- CUMIPMT
-- CUMPRINC
-#### **D**
-- DATE
-- DATEDIF
-- DATEVALUE
-- DAVERAGE
-- DAY
-- DAYS
-- DAYS360
-- DB
-- DCOUNT
-- DCOUNTA
-- DDB
-- DEC2BIN
-- DEC2HEX
-- DEC2OCT
-- DEGREES
-- DELTA
-- DEVSQ
-- DGET
-- DISC
-- DMAX
-- DMIN
-- DOLLAR
-- DOLLARDE
-- DOLLARFR
-- DPRODUCT
-- DSTDEV
-- DSTDEVP
-- DSUM
-- DURATION
-- DVAR
-- DVARP
-#### **E**
-- EDATE
-- EFFECT
-- EOMONTH
-- ERF
-- ERFC
-- ERROR.TYPE
-- EVEN
-- EXACT
-- EXP
-- EXPONDIST
-#### **F**
-- F.DIST
-- F.DIST.RT
-- F.INV.RT
-- FACT
-- FACTDOUBLE
-- FDIST
-- FILTER
-- FIND
-- FINDB
-- FINV
-- FISHER
-- FISHERINV
-- FIXED
-- FLOOR
-- FLOOR.MATH
-- FORECAST
-- FORECAST.LINEAR
-- FORMULATEXT
-- FREQUENCY, FV
-- FVSCHEDULE
-- FALSE
-#### **G**
-- GAMMA.DIST
-- GAMMA.INV
-- GAMMADIST
-- GAMMAINV
-- GAMMALN
-- GCD
-- GEOMEAN
-- GETPIVOTDATA
-- GESTEP
-- GROWTH
-#### **H**
-- HARMEAN
-- HEX2BIN
-- HEX2DEC
-- HEX2OCT
-- HLOOKUP
-- HOUR
-- HYPERLINK
-- HYPGEOM.DIST
-- HYPGEOMDIST
-#### **I**
-- IF
-- IFERROR
-- IFNA
-- IFS
-- IMABS
-- IMAGINARY
-- IMARGUMENT
-- IMCONJUGATE
-- IMCOS
-- IMDIV
-- IMEXP
-- IMLN
-- IMLOG10
-- IMLOG2
-- IMPOWER
-- IMPRODUCT
-- IMREAL
-- IMSIN
-- IMSQRT
-- IMSUB
-- IMSUM
-- INDEX
-- INDIRECT
-- INT
-- INTERCEPT
-- INTRATE
-- IPMT
-- IRR
-- ISBLANK
-- ISERR
-- ISERROR
-- ISEVEN
-- ISLOGICAL
-- ISNA
-- ISNONTEXT
-- ISNUMBER
-- ISODD
-- ISOWEEKNUM
-- ISPMT
-- ISREF
-- ISTEXT
-#### **K**
-- KURT
-#### **L**
-- LARGE
-- LCM
-- LEFT
-- LEFTB
-- LEN
-- LENB
-- LINEST
-- LN
-- LOG
-- LOG10
-- LOGEST
-- LOGINV
-- LOGNORM.DIST
-- LOGNORMDIST
-- LOOKUP
-- LOWER
-#### **M**
-- MATCH
-- MAX
-- MAXA
-- MAXIFS
-- MDETERM
-- MDURATION
-- MEDIAN
-- MID
-- MIDB
-- MIN
-- MINA
-- MINIFS
-- MINUTE
-- MINVERSE
-- MIRR
-- MMULT
-- MOD
-- MODE
-- MODE.MULT
-- MODE.SNGL
-- MONTH
-- MROUND
-- MULTINOMIAL
-#### **N**
-- N
-- NA
-- NEGBINOM.DIST
-- NEGBINOMDIST
-- NETWORKDAYS
-- NETWORKDAYS.INTL
-- NOMINAL
-- NORM.DIST
-- NORM.S.DIST
-- NORM.S.INV
-- NORMDIST
-- NORMINV
-- NORM.INV
-- NORMINV
-- NORMSDIST
-- NOT
-- NOW
-- NPER
-- NPV
-- NUMBERVALUE
-#### **O**
-- OCT2BIN
-- OCT2DEC
-- OCT2HEX
-- ODD
-- ODDFPRICE
-- ODDFYIELD
-- ODDLPRICE
-- ODDLYIELD
-- OFFSET
-- OR
-#### **P**
-- PEARSON
-- PERCENTILE
-- PERCENTILE.EXC
-- PERCENTILE.INC
-- PERCENTRANK
-- PERCENTRANK.EXC
-- PERCENTRANK.INC
-- PERMUT
-- PI
-- PMT
-- POISSON
-- POISSON.DIST
-- POWER
-- PPMT
-- PRICE
-- PRICEDISC
-- PRICEMAT
-- PROB
-- PRODUCT
-- PROPER
-- PV
-#### **Q**
-- QUARTILE
-- QUARTILE.EXC
-- QUARTILE.INC
-- QUOTIENT
-#### **R**
-- RADIANS
-- RAND
-- RANDBETWEEN
-- RANDARRAY
-- RANK
-- RANK.AVG
-- RANK.EQ
-- RATE
-- RECEIVED
-- REPLACE
-- REPLACEB
-- REPT
-- RIGHT
-- RIGHTB
-- ROMAN
-- ROUND
-- ROUNDDOWN
-- ROUNDUP
-- ROW
-- ROWS
-- RSQ
-#### **S**
-- SEARCH
-- SEARCHB
-- SECOND
-- SEQUENCE
-- SERIESSUM
-- SIGN
-- SIN
-- SINH
-- SKEW
-- SLN
-- SLOPE
-- SMALL
-- SQRT
-- SORTBY
-- SQRTPI
-- STANDARDIZE
-- STDEV
-- STDEV.P
-- STDEV.S
-- STDEVA
-- STDEVP
-- STDEVPA
-- STEYX
-- SUBSTITUTE
-- SUBTOTAL
-- SUM
-- SUMIF
-- SUMIFS
-- SUMPRODUCT
-- SUMSQ
-- SUMX2MY2
-- SUMX2PY2
-- SUMXMY2
-- SWITCH
-- SYD
-#### **T**
-- T
-- T.DIST.2T
-- T.DIST.RT
-- T.INV.2T
-- T.TEST
-- TAN
-- TANH
-- TBILLEQ
-- TBILLPRICE
-- TBILLYIELD
-- TDIST
-- TEXT
-- TEXTJOIN
-- TIME
-- TIMEVALUE
-- TINV
-- TODAY
-- TRANSPOSE
-- TREND
-- TRIM
-- TRIMMEAN
-- TRUNC
-- TTEST
-- TYPE
-- TRUE
-#### **U**
-- UNICHAR
-- UNICODE
-- UNIQUE
-- UPPER
-- USDOLLAR
-#### **V**
-- VALUE
-- VAR
-- VAR.P
-- VAR.S
-- VARA
-- VARP
-- VARPA
-- VDB
-- VLOOKUP
-#### **W**
-- WEEKDAY
-- WEEKNUM
-- WEIBULL
-- WEIBULL.DIST
-- WIDECHAR
-- WORKDAY
-- WORKDAY.INTL
-#### **X**
-- XIRR
-- XNPV
-#### **Y**
-- YEAR
-- YEARFRAC
-- YIELD
-- YIELDDISC
-- YIELDMAT
-#### **Z**
-- Z.TEST
-- ZTEST
+| | | | | | | | | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[I](#i)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
+
+{{% /alert %}}
+
+Aspose.Cells公式计算引擎允许您设置、读取和计算以下公式和函数的结果。
+
+###### **A**
+|**函数**|**摘要**|
+| :- | :- |
+|ABS|**数学和三角函数**：返回一个数字的绝对值
+|ACCRINT|**金融**：返回定期支付利息的证券的应计利息
+|ACCRINTM|**金融**：返回到期支付利息的证券的应计利息
+|ACOS|**数学和三角函数**：返回一个数字的反余弦值
+|ACOSH|**数学和三角函数**: 返回一个数的反双曲余弦值
+|ADDRESS|**查找和引用**: 返回工作表中单个单元格的文本引用
+|AGGREGATE|**数学和三角函数**: 返回列表或数据库中的数据的聚合值
+|AMORDEGRC|**财务**: 使用折旧系数计算每个会计期间的折旧值
+|AMORLINC|**财务**: 返回每个会计期间的折旧值
+|ANCHORARRAY|**查找和引用**: 返回单元格中动态数组的整个溢出范围
+|AND|**逻辑**: 如果所有参数都为TRUE，则返回TRUE
+|AREAS|**查找和引用**: 返回引用的范围中的区域数
+|ARRAYTOTEXT|**文本**：返回指定范围内的文本值数组
+|ASC|**文本**: 将字符字符串中的全角（双字节）英文字母或假名改为半角（单字节）字符
+|ASIN|**数学和三角函数**: 返回一个数的反正弦值
+|ASINH|**数学和三角函数**: 返回一个数的反双曲正弦值
+|ATAN|**数学和三角函数**: 返回一个数的反正切值
+|ATAN2|**数学和三角函数**: 根据x和y坐标返回反正切值
+|ATANH|**数学和三角函数**: 返回一个数的反双曲切线值
+|AVEDEV|**统计**: 返回数据点与其平均值的绝对偏差的平均值
+|AVERAGE|**统计**: 返回参数的平均值
+|AVERAGEA|**统计**: 返回参数的平均值，包括数字、文本和逻辑值
+|AVERAGEIF|**统计**: 返回符合指定条件的范围中所有单元格的平均值（算术平均值）
+|AVERAGEIFS|**统计**: 返回满足多个条件的所有单元格的平均值（算术平均值）
+
+###### **B**
+|**函数**|**摘要**|
+| :- | :- |
+|BESSELI|**工程**: 返回修正的贝塞尔函数In(x)
+|BESSELJ|**工程**: 返回贝塞尔函数Jn(x)
+|BESSELK|**工程**: 返回修正的贝塞尔函数Kn(x)
+|BESSELY|**工程**: 返回贝塞尔函数Yn(x)
+|BETADIST|**兼容性**: 返回贝塔分布的累积分布
+|BETA.DIST|**统计**: 返回贝塔分布的累积分布
+|BETAINV|**兼容性**: 返回指定贝塔分布的累积分布函数的反函数
+|BETA.INV|**统计**: 返回指定贝塔分布的累积分布函数的反函数
+|BIN2DEC|**工程**: 将二进制数转换为十进制
+|BIN2HEX|**工程**: 将二进制数转换为十六进制
+|BIN2OCT|**工程**: 将二进制数转换为八进制
+|BINOMDIST|**兼容性**: 返回个别项二项分布概率
+|BINOM.DIST|**统计**: 返回个别项二项分布概率
+|BITAND|**工程**: 返回两个数字的'按位与'
+|BITLSHIFT|**工程**: 返回数字左移shift_amount位的值
+|BITOR|**工程**: 返回两个数字的按位或
+|BITRSHIFT|**工程**: 返回数字向右shift_amount位的值
+|BITXOR|**工程**: 返回两个数字的按位'异或'
+|BYCOL|**逻辑**：对每一列应用LAMBDA并返回结果数组
+|BYROW|**逻辑**：对每一行应用LAMBDA并返回结果数组
+
+###### **C**
+|**函数**|**摘要**|
+| :- | :- |
+|CEILING|**兼容性**：将数字四舍五入到最近的整数或最接近的有效数字的倍数
+|CEILING.MATH|**数学和三角函数**：将数字向上舍入到最近的整数或最接近的有效数字的倍数
+|CEILING.PRECISE|**数学和三角函数**：将数字向上舍入到最近的整数或最接近的有效数字的倍数。不考虑数字的符号，该数字都将被向上舍入
+|CELL|**信息**：返回有关单元格格式、位置或内容的信息
+|CHAR|**文本**：返回由代码数字指定的字符
+|CHIDIST|**兼容性**：返回卡方分布的一尾概率
+|CHIINV|**兼容性**：返回卡方分布的一尾概率的反函数
+|CHITEST|**兼容性**：返回独立性检验
+|CHISQ.DIST|**统计**：返回累积贝塔概率密度
+|CHISQ.DIST.RT|**统计**：返回卡方分布的一尾概率
+|CHISQ.INV.RT|**统计**：返回卡方分布的一尾概率的反函数
+|CHISQ.TEST|**统计**：返回独立性检验
+|CHOOSE|**查找和引用**：从值列表中选择一个值
+|CHOOSECOLS|**查找和引用**：从数组中返回指定列
+|CHOOSEROWS|**查找和引用**：从数组中返回指定行
+|CLEAN|**文本**：从文本中删除所有不可打印字符
+|CODE|**文本**：返回文本字符串中第一个字符的数字代码
+|COLUMN|**查找和引用**：返回引用的列号
+|COLUMNS|**查找和引用**：返回引用中的列数
+|COMBIN|**数学和三角学**: 返回给定对象数量的组合数
+|COMPLEX|**工程**: 将实部和虚部系数转换为复数
+|CONCAT|**文本**: 合并多个范围和/或字符串的文本，但不提供分隔符或 IgnoreEmpty 参数
+|CONCATENATE|**文本**: 将多个文本项目连接成一个文本项目
+|CONFIDENCE|**兼容性**: 返回总体均值的置信区间
+|CONFIDENCE.NORM|**统计**: 返回总体均值的置信区间
+|CONVERT|**工程**: 将一个测量系统中的数字转换为另一个测量系统中的数字
+|CORREL|**统计**: 返回两个数据集之间的相关系数
+|COS|**数学和三角学**: 返回一个数字的余弦
+|COSH|**数学和三角学**: 返回一个数字的双曲余弦
+|COT|**数学与三角函数**：返回一个数的双曲余弦值
+|COTH|**数学与三角函数**：返回一个角的余切
+|COUNT|**统计**: 计算参数列表中有多少个数字
+|COUNTA|**统计**: 计算参数列表中有多少个值
+|COUNTBLANK|**统计**: 计算范围内有多少空单元格
+|COUNTIF|**统计**: 计算范围内满足指定条件的单元格数量
+|COUNTIFS|**统计**: 计算范围内满足多个条件的单元格数量
+|COUPDAYBS|**金融**: 返回从票息开始日到结算日期的天数
+|COUPDAYS|**金融**: 返回包含结算日期的票息期间的天数
+|COUPDAYSNC|**金融**: 返回从结算日期到下一个票息日期的天数
+|COUPNCD|**金融**: 返回结算日期后的下一个票息日期
+|COUPNUM|**金融**: 返回结算日期和到期日之间应支付的票息数量
+|COUPPCD|**财务**: 返回结算日期之前的上一个票息日
+|COVAR|**兼容性**: 返回协方差，成对偏差乘积的平均值
+|COVARIANCE.P|**统计**: 返回协方差，成对偏差乘积的平均值
+|COVARIANCE.S|**统计**: 返回样本协方差，两个数据集中每个数据点对的偏差乘积的平均值
+|CRITBINOM|**兼容性**: 返回使累积二项分布不大于或等于特定值的最小值
+|CUMIPMT|**财务**: 返回在两个期间之间已支付的累积利息
+|CUMPRINC|**财务**: 返回在两个期间之间已支付的累积本金
+
+###### **D**
+|**函数**|**摘要**|
+| :- | :- |
+|DATE|**日期和时间**：返回特定日期的序列号
+|DATEDIF|**日期和时间**: 计算两个日期之间的天数、月数或年数。此函数在需要计算年龄的公式中非常有用。
+|DATEVALUE|**日期和时间**: 将文本形式的日期转换为序列号
+|DAVERAGE|**数据库**: 返回所选数据库条目的平均值
+|DAY|**日期和时间**: 将序列号转换为月份的日期
+|DAYS|**日期和时间**: 返回两个日期之间的天数
+|DAYS360|**日期和时间**: 根据360天年计算两个日期间的天数
+|DB|**财务**: 使用固定余额递减法返回指定期间内资产的折旧
+|DCOUNT|**数据库**: 计算数据库中包含数字的单元格数
+|DCOUNTA|**数据库**: 计算数据库中非空白单元格的数量
+|DDB|**财务**: 使用双倍余额递减法或其他指定方法返回指定期间内资产的折旧
+|DEC2BIN|**工程**: 将十进制数转换为二进制
+|DEC2HEX|**工程**: 将十进制数转换为十六进制
+|DEC2OCT|**工程**: 将十进制数转换为八进制
+|DEGREES|**数学和三角函数**: 将弧度转换为度
+|DELTA|**工程**: 测试两个值是否相等
+|DEVSQ|**统计**: 返回偏差平方和
+|DGET|**数据库**: 从数据库中提取符合指定条件的单个记录
+|DISC|**金融**: 返回证券的贴现率
+|DMAX|**数据库**: 返回所选数据库条目的最大值
+|DMIN|**数据库**: 返回所选数据库条目的最小值
+|DOLLAR|**文本**: 使用 $ (美元) 货币格式将数字转换为文本
+|DOLLARDE|**金融**: 将以分数表示的美元价格转换为以小数表示的美元价格
+|DOLLARFR|**金融**: 将以小数表示的美元价格转换为以分数表示的美元价格
+|DPRODUCT|**数据库**: 将数据库中符合条件的记录字段中的值相乘
+|DROP|**查找与引用**：从数组的起始或结束排除指定数量的行或列
+|DSTDEV|**数据库**: 根据所选数据库条目的样本估计标准偏差
+|DSTDEVP|**数据库**: 根据所选数据库条目的整体总体计算标准偏差
+|DSUM|**数据库**: 将数据库中符合条件的记录字段中的数字相加
+|DURATION|**金融**: 返回定期利息支付的证券的年度持续时间
+|DVAR|**数据库**: 根据选定数据库条目的样本估计方差
+|DVARP|**数据库**: 根据所选数据库条目的整体总体计算方差
+
+###### **E**
+|**函数**|**摘要**|
+| :- | :- |
+|EDATE|**日期和时间**: 返回开始日期之前或之后指定月数的日期的序列号
+|EFFECT|**金融**: 返回有效年利率
+|ENCODEURL|**网络**: 返回URL编码的字符串
+|EOMONTH|**日期和时间**: 返回指定月数之前或之后月底的序列号
+|ERF|**工程**: 返回错误
+|ERFC|**工程**: 返回余补误差
+|ERROR.TYPE|**信息**: 返回与错误类型相对应的编号
+|EVEN|**数学和三角函数**: 将数字舍入到最接近的偶数
+|EXACT|**文本**: 检查两个文本值是否相同
+|EXP|**数学和三角函数**: 返回e的给定幂次方
+|EXPAND|**查找与引用**：将数组扩展或填充到指定的行数和列数
+|EXPONDIST|**兼容性**: 返回指数分布
+
+###### **F**
+|**函数**|**摘要**|
+| :- | :- |
+|FACT|**数学和三角函数**: 返回数的阶乘
+|FACTDOUBLE|**数学和三角函数**: 返回数的双阶乘
+|FALSE|**逻辑**: 返回逻辑值FALSE
+|F.DIST|**统计**: 返回F概率分布
+|FDIST|**兼容性**: 返回F概率分布
+|F.DIST.RT|**统计**: 返回F概率分布
+|FILTER|**查找和引用**: 基于您定义的条件过滤数据范围
+|FIND|**文本**: 在另一个文本值内查找一个文本值（区分大小写）
+|FINDB|**文本**: 在另一个文本值内查找一个文本值（区分大小写）
+|F.INV.RT|**统计**: 返回F概率分布的倒数
+|FINV|**兼容性**: 返回F概率分布的倒数
+|FISHER|**统计**: 返回费舍尔变换
+|FISHERINV|**统计**: 返回费舍尔变换的倒数
+|FIXED|**文本**: 用固定数量的小数将数字格式化为文本
+|FLOOR|**兼容性**: 将数字向下舍入至零
+|FLOOR.MATH|**数学和三角函数**: 将数字向下舍入至最接近的整数或最接近的有效位数的倍数
+|FORECAST|**统计**: 沿线性趋势返回一个值（在Excel 2016中，此函数被新的预测功能之一FORECAST.LINEAR替代）
+|FORECAST.LINEAR|**统计**: 基于现有值返回未来值
+|FORMULATEXT|**查找和引用**: 返回给定引用处的公式作为文本
+|FREQUENCY|**统计**: 返回垂直数组作为频率分布
+|FV|**财务**: 返回投资的未来价值
+|FVSCHEDULE|**财务**: 应用一系列复利利率后，返回初始本金的未来价值
+
+###### **G**
+|**函数**|**摘要**|
+| :- | :- |
+|GAMMA.DIST|**统计**: 返回伽马分布
+|GAMMADIST|**兼容性**: 返回伽玛分布
+|GAMMA.INV|**统计**: 返回伽玛累积分布的倒数
+|GAMMAINV|**兼容性**: 返回伽玛累积分布的倒数
+|GAMMALN|**统计**: 返回伽玛函数的自然对数，��(x)
+|GCD|**数学和三角函数**: 返回最大公约数
+|GEOMEAN|**统计**: 返回几何平均值
+|GESTEP|**工程**: 测试一个数是否大于阈值
+|GETPIVOTDATA|**查找和引用**: 返回透视表报表中存储的数据
+|GROWTH|**统计**: 沿指数趋势返回值
+
+###### **H**
+|**函数**|**摘要**|
+| :- | :- |
+|HARMEAN|**统计**: 返回调和平均数
+|HEX2BIN|**工程**: 将十六进制数转换为二进制
+|HEX2DEC|**工程**: 将十六进制数转换为十进制
+|HEX2OCT|**工程**: 将十六进制数转换为八进制
+|HLOOKUP|**查找和引用**: 在数组的顶行中查找并返回指定单元格的值
+|HOUR|**日期和时间**: 将序列号转换为小时
+|HSTACK|**查找和引用**: 水平串联数组并按顺序返回较大的数组
+|HYPERLINK|**查找和引用**: 创建打开存储在网络服务器、内部网络或互联网上的文档的快捷方式或跳转
+|HYPGEOM.DIST|**统计**: 返回超几何分布
+|HYPGEOMDIST|**兼容性**: 返回超几何分布
+
+###### **I**
+|**函数**|**摘要**|
+| :- | :- |
+|IF|**逻辑**: 指定要执行的逻辑测试
+|IFERROR|**逻辑**: 如果公式求值为错误，则返回您指定的值; 否则, 返回公式的结果
+|IFNA|**逻辑**: 如果表达式解析为#N/A，则返回您指定的值，否则返回表达式的结果
+|IFS|**逻辑**: 检查一个或多个条件是否满足，并返回与第一个TRUE条件相对应的值
+|IMABS|**工程**: 返回复数的绝对值（模量）
+|IMAGINARY|**工程**: 返回复数的虚系数
+|IMARGUMENT|**工程**: 返回表示弧度的参数theta的角度
+|IMCONJUGATE|**工程**: 返回复数的共轭
+|IMCOS|**工程**: 返回复数的余弦
+|IMDIV|**工程**: 返回两个复数的商
+|IMEXP|**工程**: 返回复数的指数
+|IMLN|**工程**: 返回复数的自然对数
+|IMLOG10|**工程**: 返回复数的以10为底的对数
+|IMLOG2|**工程**: 返回复数的以2为底的对数
+|IMPOWER|**工程**: 返回复数的整数次幂
+|IMPRODUCT|**工程**: 返回复数的乘积
+|IMREAL|**工程**: 返回复数的实系数
+|IMSIN|**工程**: 返回复数的正弦值
+|IMSQRT|**工程**: 返回复数的平方根
+|IMSUB|**工程**: 返回两个复数之间的差
+|IMSUM|**工程**: 返回复数的和
+|INDEX|**查找和引用**: 使用索引从引用或数组中选择一个值
+|INDIRECT|**查找和引用**: 返回由文本值指示的引用
+|INT|**数学和三角函数**: 将一个数字向下舍入到最接近的整数
+|INTERCEPT|**统计**: 返回线性回归线的截距
+|INTRATE|**金融**: 返回完全投资的证券的利率
+|IPMT|**金融**: 返回给定期间投资的利息支付
+|IRR|**金融**: 返回一系列现金流的内部收益率
+|ISBLANK|**信息**: 如果值为空，则返回TRUE
+|ISERR|**信息**: 如果值为任何错误值除了#N/A，则返回TRUE
+|ISERROR|**信息**: 如果值为任何错误值，则返回TRUE
+|ISEVEN|**信息**: 如果数字为偶数，则返回TRUE
+|ISFORMULA|**信息**: 如果有对包含公式的单元格的引用，则返回TRUE
+|ISLOGICAL|**信息**: 如果值为逻辑值，则返回TRUE
+|ISNA|**信息**: 如果值为#N/A错误值，则返回TRUE
+|ISNONTEXT|**信息**: 如果值不是文本，则返回TRUE
+|ISNUMBER|**信息**: 如果值为数字，则返回TRUE
+|ISODD|**信息**：如果数字是奇数，则返回TRUE
+|ISOMITTED|**信息**：检查 LAMBDA 中的值是否缺失，返回 TRUE 或 FALSE
+|ISREF|**信息**：如果值是引用，则返回TRUE
+|ISTEXT|**信息**：如果值是文本，则返回TRUE
+|ISOWEEKNUM|**日期和时间**：返回给定日期的 ISO 年度周数的数字
+|ISPMT|**金融**：计算投资特定期间内支付的利息
+
+###### **K**
+|**函数**|**摘要**|
+| :- | :- |
+|KURT|**统计**：返回数据集的峰度
+
+###### **L**
+|**函数**|**摘要**|
+| :- | :- |
+|LAMBDA|**逻辑**：创建自定义可重复使用的函数，并通过友好的名称调用它们
+|LARGE|**统计**：返回数据集中第k个最大的值
+|LCM|**数学和三角函数**：返回最小公倍数
+|LEFT|**文本**：从文本值返回最左边的字符
+|LEFTB|**文本**：从文本值返回最左边的字符
+|LEN|**文本**：返回文本字符串中的字符数
+|LENB|**文本**：返回文本字符串中的字符数
+|LET|**逻辑**：为计算结果分配名称
+|LINEST|**统计**：返回线性趋势的参数
+|LN|**数学和三角函数**：返回数字的自然对数
+|LOG|**数学与三角学**: 返回指定底数的对数
+|LOG10|**数学与三角学**: 返回一个数的常用对数
+|LOGEST|**统计**: 返回指数趋势的参数
+|LOGINV|**兼容性**: 返回对数正态累积分布的反函数
+|LOGNORM.DIST|**统计**: 返回对数正态分布的累积分布
+|LOGNORM.INV|**统计**: 返回对数正态累积分布的反函数
+|LOGNORMDIST|**兼容性**: 返回对数正态分布的累积分布
+|LOOKUP|**查找与引用**: 在向量或数组中查找值
+|LOWER|**文本**: 将文本转换为小写
+
+###### **M**
+|**函数**|**摘要**|
+| :- | :- |
+|MAKEARRAY|**逻辑**: 通过应用 LAMBDA 返回指定行和列大小的计算数组
+|MAP|**逻辑**: 通过应用 LAMBDA 返回由映射每个数组值到一个新值形成的数组
+|MATCH|**查找与引用**: 在引用或数组中查找值
+|MAX|**统计**: 返回参数列表中的最大值
+|MAXA|**统计**: 返回包括数字、文本和逻辑值在内的参数列表中的最大值
+|MAXIFS|**统计**: 返回给定条件或标准指定的单元格中的最大值
+|MDETERM|**数学与三角学**: 返回数组的行列式
+|MDURATION|**财务**: 返回假设面值为 $100 的证券的马考利修正久期
+|MEDIAN|**统计**: 返回给定数字的中位数
+|MID|**文本**: 从指定位置开始返回文本字符串中特定数量的字符
+|MIDB|**文本**: 从指定位置开始返回文本字符串中特定数量的字符
+|MIN|**统计**: 返回参数列表中的最小值
+|MINIFS|**统计**: 返回满足给定一组条件或标准的单元格中的最小值
+|MINA|**统计**: 返回参数列表中的最小值，包括数字、文本和逻辑值
+|MINUTE|**日期和时间**: 将序列号转换为分钟
+|MINVERSE|**数学和三角函数**: 返回数组的矩阵逆
+|MIRR|**金融**: 返回正负现金流以不同利率融资的内部收益率
+|MMULT|**数学和三角函数**: 返回两个数组的矩阵乘积
+|MOD|**数学和三角函数**: 返回除法余数
+|MODE|**兼容性**: 返回数据集中出现最频繁的值
+|MODE.MULT|**统计**: 返回数组或数据范围中最常出现或重复值的垂直数组
+|MODE.SNGL|**统计**: 返回数据集中出现最频繁的值
+|MONTH|**日期和时间**: 将序列号转换为月份
+|MROUND|**数学和三角函数**: 返回舍入到所需倍数的数字
+|MULTINOMIAL|**数学和三角函数**: 返回一组数字的多项式式
+
+###### **N**
+|**函数**|**摘要**|
+| :- | :- |
+|N|**信息**: 返回转换为数字的值
+|NA|**信息**: 返回错误值#N/A
+|NEGBINOM.DIST| **统计**: 返回负二项分布
+|NEGBINOMDIST| **兼容性**: 返回负二项分布
+|NETWORKDAYS| **日期和时间**: 返回两个日期之间的整个工作日数
+|NETWORKDAYS.INTL| **日期和时间**: 使用参数指示周末天数，返回两个日期之间的整个工作日数
+|NOMINAL| **金融**: 返回年名义利率
+|NORM.DIST| **统计**: 返回正态累积分布
+|NORMDIST| **兼容性**: 返回正态累积分布
+|NORMINV| **统计**: 返回正态累积分布的反函数
+|NORM.INV| **兼容性**: 返回正态累积分布的反函数
+|NORM.S.DIST| **统计**: 返回标准正态累积分布
+|NORMSDIST| **兼容性**: 返回标准正态累积分布
+|NORM.S.INV| **统计**: 返回标准正态累积分布的反函数
+|NORMSINV| **兼容性**: 返回标准正态累积分布的反函数
+|NOT| **逻辑**: 反转参数的逻辑
+|NOW| **日期和时间**: 返回当前日期和时间的序列号
+|NPER| **金融**: 返回投资的期数
+|NPV| **金融**: 基于一系列周期性现金流和折现率，返回投资的净现值
+|NUMBERVALUE| **文本**: 以与地区无关的方式将文本转换为数字
+
+###### **O**
+|**函数**|**摘要**|
+| :- | :- |
+|OCT2BIN|**工程**: 将八进制数转换为二进制
+|OCT2DEC|**工程**: 将八进制数转换为十进制
+|OCT2HEX|**工程**: 将八进制数转换为十六进制
+|ODD|**数学和三角函数**: 将数字向上舍入到最近的奇整数
+|ODDFPRICE|**金融**: 返回具有奇数第一期的债券每100美元面值的价格
+|ODDFYIELD|**金融**: 返回具有奇数第一期的债券的收益
+|ODDLPRICE|**金融**: 返回具有奇数最后一期的债券每100美元面值的价格
+|ODDLYIELD|**金融**: 返回具有奇数最后一期的债券的收益
+|OFFSET|**查找和引用**: 返回相对于给定引用的引用偏移量
+|OR|**逻辑**: 如果任何参数为TRUE，则返回TRUE
+
+###### **P**
+|**函数**|**摘要**|
+| :- | :- |
+|PEARSON|**统计**: 返回范围内值的皮尔逊积矩相关系数
+|PERCENTILE.EXC|**统计**: 返回范围内值的第k百分位数，其中k在范围0..1内，不包括0和1
+|PERCENTILE.INC|**统计**: 返回范围内值的第k百分位数
+|PERCENTILE|**兼容性**: 返回范围内值的第k百分位数
+|PERCENTRANK.EXC|**统计**: 作为数据集的百分比（0..1，不包括1）返回值在数据集中的排名
+|PERCENTRANK.INC|**统计**: 返回数据集中值的百分比排名
+|PERCENTRANK|**兼容性**: 返回数据集中值的百分比排名
+|PERMUT|**统计**: 返回给定对象数量的排列数
+|PI|**数学和三角**: 返回π的值
+|PMT|**金融**: 返回年金的周期付款
+|POISSON.DIST|**统计**: 返回泊松分布
+|POISSON|**兼容性**: 返回泊松分布
+|POWER|**数学和三角**: 返回一个数的幂的结果
+|PPMT|**金融**: 返回投资期间的本金支付
+|PRICE|**金融**: 返回支付周期利息的证券每100美元票面价值的价格
+|PRICEDISC|**金融**: 返回贴现证券每100美元票面价值的价格
+|PRICEMAT|**金融**: 返回到期支付利息的证券每100美元票面价值的价格
+|PROB|**统计**: 返回在一个范围内值在两个限制之间的概率
+|PRODUCT|**数学和三角**: 乘以其参数
+|PROPER|**文本**: 对文本值中每个单词的首字母大写
+|PV|**金融**: 返回投资的现值
+
+###### **Q**
+|**函数**|**摘要**|
+| :- | :- |
+|QUARTILE|**兼容性**: 返回数据集的四分位数
+|QUARTILE.EXC|**统计**: 基于0..1之间的百分位数值，返回数据集的四分位数
+|QUARTILE.INC|**统计**: 返回数据集的四分位数
+|QUOTIENT|**数学和三角**: 返回除法的整数部分
+
+###### **R**
+|**函数**|**摘要**|
+| :- | :- |
+|RADIANS|**数学和三角函数**：将度数转换为弧度
+|RAND|**数学和三角函数**：返回0到1之间的随机数
+|RANDARRAY|**数学和三角函数**：返回0到1之间的随机数数组。但您可以指定要填充的行数和列数、最小和最大值，以及是否返回整数或小数值。
+|RANDBETWEEN|**数学和三角函数**：返回您指定的数字之间的随机数
+|RANK.AVG|**统计**：返回数字在数字列表中的排名
+|RANK.EQ|**统计**：返回数字在数字列表中的排名
+|RANK|**兼容性**：返回数字在数字列表中的排名
+|RATE|**金融**：返回年金每期的利率
+|RECEIVED|**金融**：返回完全投资的证券到期收到的金额
+|REDUCE|**逻辑**：通过对每个值应用 LAMBDA 并返回累加器中的总值，减少数组到一个累积值
+|REPLACE|**文本**: 替换文本中的字符
+|REPLACEB|**文本**: 替换文本中的字符
+|REPT|**文本**: 重复文本若干次
+|**RIGHT**|**文本**：从文本值返回最右边的字符
+|RIGHTB|**文本**: 从文本值返回最右边的字符
+|ROMAN|**数学和三角函数**：将阿拉伯数字转换为罗马数字，以文本形式
+|ROUND|**数学和三角函数**: 将数字四舍五入到指定的小数位数
+|ROUNDDOWN|**数学和三角函数**：将数字向下舍入到零
+|ROUNDUP|**数学和三角函数**：将数字远离零向上舍入
+|ROW|**查找与引用**: 返回引用的行号
+|ROWS|**查找和引用**: 返回引用中的行数
+|RSQ|**统计**: 返回皮尔逊积矩相关系数的平方
+
+###### **S**
+|**函数**|**摘要**|
+| :- | :- |
+|SCAN|**逻辑**: 应用 LAMBDA 函数扫描数组的每个值，并返回具有每个中间值的数组
+|SEARCH|**文本**: 在另一个文本值中查找一个文本值（不区分大小写）
+|SEARCHB|**文本**: 在另一个文本值中查找一个文本值（不区分大小写）
+|SECOND|**日期和时间**: 将串行号转换为秒
+|SEQUENCE|**数学和三角**: 生成数组中的顺序数列表，例如 1、2、3、4
+|SERIESSUM|**数学和三角**: 根据公式返回幂级数的和
+|SHEET|**信息**: 返回引用工作表的工作表号
+|SHEETS|**信息**: 返回引用中的工作表数
+|SIGN|**数学和三角**: 返回数字的符号
+|SIN|**数学和三角**: 返回给定角度的正弦值
+|SINH|**数学和三角**: 返回数字的双曲正弦值
+|SINGLE|**逻辑**: 使用交集逻辑返回单个值、单个单元格范围或错误
+|SKEW|**统计**: 返回分布的偏度
+|SLN|**金融**: 返回一个期间资产的直线折旧
+|SLOPE|**统计**: 返回线性回归线的斜率
+|SMALL|**统计**: 返回数据集中第 k 个最小值
+|SORT|**查找与引用**: 对范围或数组的内容进行排序
+|SORTBY|**查找与引用**: 基于对应范围或数组中的值对范围或数组的内容进行排序
+|SQRT|**数学和三角函数**: 返回正平方根
+|SQRTPI|**数学和三角函数**: 返回（数* π）的平方根
+|STANDARDIZE|**统计**: 返回标准化值
+|STDEV|**兼容性**: 基于样本估算标准偏差
+|STDEV.P|**统计**: 基于整个人口计算标准偏差
+|STDEV.S|**统计**: 基于样本估算标准偏差
+|STDEVA|**统计**: 基于包括数字、文本和逻辑值在内的样本估算标准偏差
+|STDEVP|**兼容性**: 基于整个人口计算标准偏差
+|STDEVPA|**统计**: 基于整个人口，包括数字、文本和逻辑值，计算标准偏差
+|STEYX|**统计**: 返回回归中每个x的预测y值的标准误差
+|SUBSTITUTE|**文本**: 在文本字符串中用新文本代替旧文本
+|SUBTOTAL|**数学和三角函数**: 在列表或数据库中返回小计
+|SUM|**数学和三角函数**: 添加参数
+|SUMIF|**数学和三角函数**: 添加由特定条件指定的单元格
+|SUMIFS|**数学和三角函数**: 添加满足多个条件的范围中的单元格
+|SUMPRODUCT|**数学和三角函数**: 返回对应数组组件的乘积的总和
+|SUMSQ|**数学和三角函数**: 返回参数的平方和
+|SUMX2MY2|**数学和三角函数**: 返回两个数组中对应值的差的平方和的总和
+|SUMX2PY2|**数学和三角函数**：返回两个数组中对应值的平方和的总和
+|SUMXMY2|**数学和三角函数**：返回两个数组中对应值的差的平方和
+|SWITCH|**逻辑**：根据一组值评估表达式，并返回与第一个匹配值对应的结果。如果没有匹配项，可以返回一个可选的默认值。
+|SYD|**财务**：返回指定期间资产的年数总和折旧
+
+###### **T**
+|**函数**|**摘要**|
+| :- | :- |
+|T|**文本**：将其参数转换为文本
+|TAN|**数学和三角函数**：返回数字的正切
+|TANH|**数学和三角函数**：返回数字的双曲正切
+|TAKE|**查找与引用**：返回数组开头或结尾的指定数量的连续行或列
+|TBILLEQ|**财务**：返回国库券的债券当期收益率
+|TBILLPRICE|**财务**：返回每100美元面值的国库券价格
+|TBILLYIELD|**财务**：返回国库券的收益率
+|T.DIST.2T|**统计**：返回学生t-分布的百分点（概率）
+|T.DIST.RT|**统计**：返回学生t分布
+|TDIST|**兼容性**：返回学生t分布
+|TEXT|**文本**：格式化一个数字并将其转换为文本
+|TEXTAFTER|**文本**：返回给定字符或字符串之后出现的文本
+|TEXTBEFORE|**文本**：返回给定字符或字符串之前出现的文本
+|TEXTJOIN|**文本**：组合来自多个范围和/或字符串的文本，并包括您指定的分隔符在每个文本值之间。如果分隔符是一个空文本字符串，此函数将有效地连接这些范围
+|TEXTSPLIT|**文本**：使用列和行分隔符拆分文本字符串
+|TIME|**日期和时间**：返回特定时间的序列号
+|TIMEVALUE|**日期和时间**：将文本形式的时间转换为序列号
+|T.INV.2T|**统计**：返回学生 t-分布的倒数
+|TINV|**兼容性**：返回学生 t-分布的倒数
+|TOCOL|**查找和引用**：返回单列中的数组
+|TODAY|**日期和时间**：返回今天日期的序列号
+|TOROW|**查找和引用**：返回单行中的数组
+|TRANSPOSE|**查找和引用**：返回数组的转置
+|TREND|**统计**：沿线性趋势返回值
+|TRIM|**文本**：从文本中删除空格
+|TRIMMEAN|**统计**：返回数据集内部的平均值
+|TRUE|**逻辑**：返回逻辑值TRUE
+|TRUNC|**数学和三角函数**：将数值截断为整数
+|T.TEST|**统计**：返回与学生 t-检验相关联的概率
+|TTEST|**兼容性**：返回与学生 t-检验相关联的概率
+|TYPE|**信息**：返回指示值的数据类型的数字
+
+###### **U**
+|**函数**|**摘要**|
+| :- | :- |
+|UNICHAR|**文本**：返回由给定数值引用的 Unicode 字符
+|UNICODE|**文本**：返回与文本的第一个字符对应的数字（代码点）
+|UNIQUE| **查找和引用**：返回列表或范围中的唯一值列表
+|UPPER| **文本**：将文本转换为大写
+|USDOLLAR| **文本**：使用货币格式将数字转换为文本，并将小数舍入到指定位置
+
+###### **V**
+|**函数**|**摘要**|
+| :- | :- |
+|VALUE| **文本**：将文本参数转换为数字
+|VALUETOTEXT|**文本**：返回任何指定值的文本
+|VAR| **兼容性**：根据样本估计方差
+|VAR.P| **统计**：根据整个总体计算方差
+|VAR.S| **统计**：根据样本估计方差
+|VARA| **统计**：根据包括数字、文本和逻辑值在内的样本估计方差
+|VARP| **兼容性**：根据整个总体计算方差
+|VARPA| **统计**：根据包括数字、文本和逻辑值在内的整个总体计算方差
+|VDB| **财务**：使用递减余额法返回指定或部分周期的资产折旧
+|VLOOKUP| **查找和引用**：在数组的第一列中查找，并横跨行以返回单元格的值
+|VSTACK| **查找和引用**：垂直和依次附加数组，以返回更大的数组
+
+###### **W**
+|**函数**|**摘要**|
+| :- | :- |
+|WEEKDAY| **日期和时间**：将序列号转换为一周中的某天
+|WEEKNUM| **日期和时间**：将序列号转换为一年中的周数
+|WEIBULL| **兼容性**：根据整个总体计算方差，包括数字、文本和逻辑值
+|WEIBULL.DIST|**统计**: 返回威布尔分布
+|WORKDAY|**日期和时间**: 返回指定工作日之前或之后的日期的序列号
+|WORKDAY.INTL|**日期和时间**: 返回以参数指示哪些天是周末以及多少周末天数的指定工作日之前或之后的日期的序列号
+|WRAPCOLS|**查找与引用**：按列将提供的行或列值包装在指定元素数之后
+|WRAPROWS|**查找与引用**：按行将提供的行或列值包装在指定元素数之后
+
+###### **X**
+|**函数**|**摘要**|
+| :- | :- |
+|XIRR|**财务**：返回非周期性的现金流计划的内部收益率。
+|XLOOKUP|**查找与引用**: 在范围或数组中搜索并返回与其找到的首个匹配项对应的项目。如果不存在匹配项，则XLOOKUP可以返回最接近（近似）的匹配项。 
+|XMATCH|**查找与引用**：返回项目在数组或单元格范围中的相对位置。 
+|XNPV|**财务**：返回非周期性现金流计划的净现值。
+|XOR|**逻辑**：返回所有参数的异或逻辑值。
+
+###### **Y**
+|**函数**|**摘要**|
+| :- | :- |
+|YEAR|**日期和时间**: 将序列号转换为年份
+|YEARFRAC|**日期和时间**: 返回表示开始日期和结束日期之间的整天数的年份分数
+|YIELD|**财务**: 返回支付定期利息的证券的收益率
+|YIELDDISC|**财务**: 返回贴现证券的年收益率；例如国库券
+|YIELDMAT|**财务**: 返回支付到期时起息的证券的年收益率
+
+###### **Z**
+|**函数**|**摘要**|
+| :- | :- |
+|Z.TEST|**统计**: 返回z检验的单侧概率值
+|ZTEST|**兼容性**: 返回z检验的单侧概率值

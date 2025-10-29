@@ -16,3 +16,4 @@ keywords: Python Excel库，Python在工作表中显示公式而非值，Python�
 Aspose.Cells for Python via .NET 提供了一个 [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas) 属性。将其设置为 **true** 可以让微软Excel显示公式。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

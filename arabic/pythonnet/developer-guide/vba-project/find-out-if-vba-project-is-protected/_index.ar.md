@@ -27,3 +27,4 @@ IsProtected - After Protecting VBA Project: True
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

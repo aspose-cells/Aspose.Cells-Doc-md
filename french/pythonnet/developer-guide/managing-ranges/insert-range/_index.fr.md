@@ -29,3 +29,4 @@ Insérez une plage et décalez les cellules vers le bas comme les codes suivants
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Insert-Range-Down.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

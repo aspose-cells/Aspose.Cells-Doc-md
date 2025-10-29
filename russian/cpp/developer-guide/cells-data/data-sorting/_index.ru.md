@@ -151,3 +151,4 @@ int main()
 ## **Продвинутые темы**
 - [Сортировка данных в столбце с пользовательским списком](/cells/ru/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Указание предупреждения при сортировке данных](/cells/ru/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

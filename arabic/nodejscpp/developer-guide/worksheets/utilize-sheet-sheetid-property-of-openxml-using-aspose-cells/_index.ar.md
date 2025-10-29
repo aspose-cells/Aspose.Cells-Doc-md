@@ -51,3 +51,4 @@ wb.save("outputSheetId.xlsx");
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

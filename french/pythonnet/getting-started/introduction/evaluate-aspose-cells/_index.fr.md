@@ -17,3 +17,4 @@ La version d'évaluation d'Aspose.Cells (c'est-à-dire Aspose.Cells sans licence
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 Si vous souhaitez tester Aspose.Cells sans les limitations de la version d'évaluation, [demandez une licence temporaire de 30 jours](https://purchase.aspose.com/temporary-license).
+{{< app/cells/assistant language="python-net" >}}

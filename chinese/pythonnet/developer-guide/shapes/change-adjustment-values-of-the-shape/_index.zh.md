@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NET 提供 [**Shape.geometry.shape_adjust_values**]
 以下代码示例显示如何更改形状的调整值。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

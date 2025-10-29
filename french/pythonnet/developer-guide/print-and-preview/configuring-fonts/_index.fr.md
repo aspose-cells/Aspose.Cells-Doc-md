@@ -67,3 +67,4 @@ En plus des méthodes mentionnées ci-dessus, les APIs Aspose.Cells pour Python 
 - [Formats de police pris en charge](/cells/fr/python-net/supported-font-formats/)
 - [Feuille de calcul vers Image - Définir le format de pixel pour l'image rendue](/cells/fr/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

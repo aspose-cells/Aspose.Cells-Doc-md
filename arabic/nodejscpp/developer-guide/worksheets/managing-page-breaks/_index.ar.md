@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **مهم معرفته**
 
 عند ضبط خصائص **fitToPages** (وهي [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) و [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) في إعدادات الصفحة، تتأثر إعدادات انقطاع الصفحة، لذلك إذا قمت بطباعة ورقة العمل، لن تؤخذ بعين الاعتبار إعدادات انقطاع الصفحة على الرغم من أنها لا تزال مضبوطة.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -52,3 +52,4 @@ Aspose.Cells for Python via .NET توفر الطريقة [**CellsHelper.cell_ind
 هذا هو الاسم الأول الذي تم إنشاؤه
 
 ` `<> + (adj.Private _ " خاص"
+{{< app/cells/assistant language="python-net" >}}

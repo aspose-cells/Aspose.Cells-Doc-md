@@ -145,3 +145,4 @@ targetRange.copyData(sourceRange);
 ## **Продвинутые темы**
 - [Копировать высоты строк исходного диапазона в целевой диапазон](/cells/ru/nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

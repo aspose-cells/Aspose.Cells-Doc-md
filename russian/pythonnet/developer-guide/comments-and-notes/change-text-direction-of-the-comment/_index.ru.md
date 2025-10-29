@@ -14,3 +14,4 @@ Microsoft Excel позволяет добавлять комментарии к 
 Aspose.Cells для Python via .NET предоставляет свойство [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) для установки направления текста в комментарии. Следующий пример кода демонстрирует использование свойства [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) для установки направления текста в комментарии.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeTextDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

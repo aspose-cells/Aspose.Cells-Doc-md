@@ -9,3 +9,4 @@ keywords: إدارة خيارات الشكل باستخدام Node.js عبر C++
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

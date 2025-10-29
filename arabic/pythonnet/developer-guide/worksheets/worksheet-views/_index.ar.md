@@ -113,3 +113,4 @@ keywords: مكتبة إكسل بايثون، كيفية إعداد معاينة 
 - [إظهار الصيغ بدلاً من القيم في ورقة العمل](/cells/ar/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [استخدام خيارات فحص الأخطاء](/cells/ar/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -36,7 +36,7 @@ url: /fr/python-java/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Format de Métafichier Amélioré| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|Le JPEG est un type de format d'image qui est enregistré à l'aide de la méthode de compression avec perte.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Format d'Échange Graphique| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Représente un document markdown.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Représente un document markdown.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Un format basé sur XML utilisé par OpenOffice et StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Il s'agit d'un format de document ouvert stocké sous forme de XML plat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Un format bien connu pour les documents Microsoft Word qui est une combinaison de fichiers XML et binaires.||{{< emoticons/tick >}}|

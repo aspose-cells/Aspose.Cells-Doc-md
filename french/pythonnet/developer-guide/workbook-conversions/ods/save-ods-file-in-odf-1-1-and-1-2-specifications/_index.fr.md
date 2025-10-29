@@ -18,3 +18,4 @@ Aspose.Cells pour Python via .NET prend en charge l'enregistrement d'un fichier 
 Le code d'exemple ci-dessous crée un objet classeur, ajoute une valeur à la cellule A1 sur la première feuille de calcul, puis enregistre le fichier ODS selon les spécifications ODF 1.1 et 1.2. Par défaut, le fichier ODS est enregistré selon la spécification ODF 1.2.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

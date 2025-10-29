@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Установка типа формы меток данных диаграммы](/cells/ru/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Показ диапазона ячеек в качестве меток данных](/cells/ru/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

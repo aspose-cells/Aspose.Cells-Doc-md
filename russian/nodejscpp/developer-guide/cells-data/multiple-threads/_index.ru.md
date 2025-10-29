@@ -46,3 +46,4 @@ if (s !== "R" + row + "C" + col)
 В противном случае программа работает без отображения любого сообщения, что означает, что все значения, считываемые из ячеек, являются правильными.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-multiple-threads.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

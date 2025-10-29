@@ -190,3 +190,4 @@ int main()
 - [كيفية تغيير لون خط التعليق](/cells/ar/cpp/how-to-change-the-comment-font-color/)
 - [كيفية تعيين خلفية التعليق](/cells/ar/cpp/how-to-set-comment-background/)
 - [تعليقات متداخلة](/cells/ar/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

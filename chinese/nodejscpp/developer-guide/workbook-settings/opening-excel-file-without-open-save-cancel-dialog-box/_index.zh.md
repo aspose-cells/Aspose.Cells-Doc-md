@@ -41,3 +41,4 @@ url: /zh/nodejs-cpp/opening-excel-file-without-open-save-cancel-dialog-box/
 | :- | 
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)| 
 此设置允许文件在Web浏览器中直接运行，而无需下载或打开文件时显示“打开-保存-取消”对话框。 
+{{< app/cells/assistant language="nodejs-cpp" >}}

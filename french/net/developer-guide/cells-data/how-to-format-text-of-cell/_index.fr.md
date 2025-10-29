@@ -3,8 +3,8 @@ title: Comment formater du texte dans une cellule
 type: docs
 weight: 130
 url: /fr/net/how-to-format-text-in-cell/
-description: Apprenez à formater du texte dans une cellule avec Aspose.Cells.
-keywords: formater le texte d une cellule, formater une partie des caractères d une cellule, comment ajouter plusieurs formats au texte d une cellule, surligner une partie d une cellule, formater une partie de la cellule, formater du texte dans des cellules, formater du texte dans une cellule.
+description: Apprenez comment formater du texte dans une cellule et appliquer plusieurs styles dans une seule cellule avec Aspose.Cells.
+keywords: formater le texte de la cellule, formater partiellement les caractères de la cellule, comment ajouter plusieurs formats au texte de la cellule, mettre en surbrillance une partie de la cellule, formater une partie de la cellule, plusieurs styles dans une seule cellule, formater le texte dans les cellules, formater le texte dans une cellule.
 ---
 
 ## **Scénarios d'utilisation possibles**

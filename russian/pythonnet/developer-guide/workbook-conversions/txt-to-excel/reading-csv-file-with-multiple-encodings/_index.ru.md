@@ -36,3 +36,4 @@ Aspose.Cells предоставляет свойство [**TxtLoadOptions.is_mu
 Ниже приведен образец кода, преобразующий вышеуказанный файл CSV в формат XLSX правильно.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

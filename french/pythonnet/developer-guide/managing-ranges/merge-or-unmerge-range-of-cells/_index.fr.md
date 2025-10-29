@@ -17,3 +17,4 @@ Vous pouvez utiliser Aspose.Cells pour Python via .NET pour fusionner ou diviser
 Le code d'exemple suivant crée d'abord une plage - A1:D4 - puis fusionne les cellules de la plage en une seule cellule en utilisant la méthode [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#). De même, vous pouvez diviser les cellules en créant une plage et en appelant la méthode [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

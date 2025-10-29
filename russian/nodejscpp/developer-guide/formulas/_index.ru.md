@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Укажите максимальное количество строк общей формулы](/cells/ru/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [Поддерживаемые функции Excel](/cells/ru/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

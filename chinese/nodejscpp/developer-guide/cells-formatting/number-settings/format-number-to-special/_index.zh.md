@@ -108,3 +108,4 @@ Excel 提供了多种预定义的特殊格式，包括但不限于货币、会�
 
 在Aspose.Cells for Node.js via C++中，将数字格式化为特殊格式涉及设置单元格样式的自定义数字格式。这允许你实现各种格式化选项，精确显示数据。记住，自定义格式的关键是提供的格式字符串，它决定了数字的显示方式。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

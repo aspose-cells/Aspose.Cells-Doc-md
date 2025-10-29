@@ -162,3 +162,4 @@ int main()
 
 ## **Продвинутые темы**
 - [Обнаружение объединенных ячеек в листе](/cells/ru/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

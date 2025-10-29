@@ -4,8 +4,8 @@ linktitle: قيمة سلسلة HTML
 type: docs
 weight: 50
 url: /ar/net/adding-html-rich-text-inside-the-cell/
-description: تعلم كيفية إضافة Rich Text HTML داخل الخلية من خلال Aspose.Cells for .NET API.
-keywords: إضافة Rich Text HTML داخل الخلية، تعيين Rich Text HTML داخل الخلية، إضافة Rich Text HTML في الخلية
+description: تعلم كيفية إضافة نص غني بـ HTML داخل الخلية وأنماط متعددة داخل خلية واحدة من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: إضافة نص غني بـ HTML داخل الخلية، ضبط النص الغني بـ HTML داخل الخلية، أنماط متعددة داخل خلية واحدة، إضافة نص غني بـ HTML في الخلية
 ---
 
 {{% alert color="primary" %}}

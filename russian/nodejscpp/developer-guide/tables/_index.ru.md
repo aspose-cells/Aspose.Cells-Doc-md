@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [Установите комментарий таблицы или объекта списка внутри листа.](/cells/ru/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Таблицы и диапазоны](/cells/ru/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

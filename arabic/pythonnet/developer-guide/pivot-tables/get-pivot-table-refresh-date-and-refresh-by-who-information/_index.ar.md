@@ -21,3 +21,4 @@ keywords: Aspose.Cells لـ Python اكسل، مكتبة Python الخاصة ب�
 **كود عينة**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetPivotTableRefreshDate-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

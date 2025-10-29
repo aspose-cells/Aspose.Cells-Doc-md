@@ -26,3 +26,4 @@ Cet exemple :
 1. Copie les données avec la mise en forme de la première plage vers la deuxième plage.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataWithStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

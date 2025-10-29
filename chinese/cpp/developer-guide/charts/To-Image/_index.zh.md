@@ -226,3 +226,4 @@ int main()
 
 ## **高级主题**
 - [将图表转换为PDF](/cells/zh/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

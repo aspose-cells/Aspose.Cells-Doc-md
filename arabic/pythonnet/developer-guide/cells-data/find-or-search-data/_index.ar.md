@@ -65,3 +65,4 @@ keywords: مكتبة Python Excel، البحث في البيانات بواسط�
 - [العثور على الخلايا ذات النمط المحدد](/cells/ar/python-net/find-cells-with-specific-style/)
 - [العثور عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة](/cells/ar/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

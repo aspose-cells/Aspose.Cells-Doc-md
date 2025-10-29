@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. قم دائمًا بإعادة تعيين موضع التدفق باستخدام `seek(0)` قبل القراءة
 3. اضبط أنواع MIME المناسبة في رؤوس الاستجابة
 4. لإطارات الويب مثل Django/Flask، استخدم معالجات الاستجابة الخاصة بالإطار
+{{< app/cells/assistant language="python-net" >}}

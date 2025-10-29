@@ -15,7 +15,7 @@ aliases:
 
 GridJs может адаптироваться под мобильный экран.
 
-Запустите [демонстрацию GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "демонстрация GridJs")
+Запустите [демонстрацию GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "демонстрация GridJs")
 
 Порт по умолчанию демонстрационного проекта - 24262. 
 

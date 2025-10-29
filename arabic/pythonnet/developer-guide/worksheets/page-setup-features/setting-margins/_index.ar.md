@@ -41,3 +41,4 @@ keywords: مكتبة إكسل في بايثون، تعيين هوامش ورقة
 تعيين هوامش الرأس والتذييل باستخدام أعضاء فئة [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) مثل [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) و [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

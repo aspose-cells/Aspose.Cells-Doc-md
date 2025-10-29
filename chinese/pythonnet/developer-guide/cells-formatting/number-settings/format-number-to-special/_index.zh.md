@@ -112,3 +112,4 @@ $ pip install aspose-cells-python
 
 在 Aspose.Cells for Python via .NET 中，将数字格式化为特殊格式涉及设置单元格样式的自定义数字格式。这允许您展示数据的方式符合您的需求。记住，关键在于您提供的格式字符串，它决定了数字的显示方式。
 
+{{< app/cells/assistant language="python-net" >}}

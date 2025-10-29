@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 如果您的电子表格包含公式，最好在将电子表格渲染为PDF格式之前调用`Workbook.CalculateFormula`方法。这样可以确保依赖公式的值被重新计算，并在PDF中显示正确的值。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

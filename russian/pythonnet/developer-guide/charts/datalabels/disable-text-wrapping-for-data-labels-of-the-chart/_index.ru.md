@@ -18,3 +18,4 @@ Aspose.Cells для Python via .NET предоставляет свойство 
 Ниже приведен образец кода, показывающий, как отключить перенос текста для меток данных диаграммы.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

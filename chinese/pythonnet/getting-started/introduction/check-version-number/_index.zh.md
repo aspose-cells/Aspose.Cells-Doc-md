@@ -29,3 +29,4 @@ url: /zh/python-net/check-version-number/
 要通过API查找您正在使用的 Aspose.Cells 版本，使用 CellsHelper 类的 GetVersion 静态方法获取 Aspose.Cell 的版本号。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CheckVersionNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

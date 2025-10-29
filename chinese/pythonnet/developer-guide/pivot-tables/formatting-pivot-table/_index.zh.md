@@ -65,3 +65,4 @@ Microsoft Excel提供许多不同的预设报告格式，Aspose.Cells for Python
 以下代码示例显示如何清除数据区域中的所有数据透视字段。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

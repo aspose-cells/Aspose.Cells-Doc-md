@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [在工作表中移动单元格范围](/cells/zh/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [创建工作簿和工作表范围命名](/cells/zh/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [在范围内搜索和替换数据](/cells/zh/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -18,3 +18,4 @@ Pour cela, Aspose.Cells pour Python via .NET fournit la propriété [**Chart.plo
 ## Code C# pour définir une image comme remplissage d'arrière-plan dans le graphique
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

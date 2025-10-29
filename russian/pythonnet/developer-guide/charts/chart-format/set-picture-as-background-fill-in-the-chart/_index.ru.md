@@ -18,3 +18,4 @@ Aspose.Cells для Python via .NET позволяет устанавливат�
 ## Код на C#, чтобы задать изображение в качестве заполнения фона в диаграмме
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

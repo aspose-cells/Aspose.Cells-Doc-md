@@ -41,3 +41,4 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "unicode-supplement
 // Save the workbook
 workbook.save(path.join(dataDir, "RenderUnicodeInOutput_out.pdf"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

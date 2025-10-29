@@ -33,7 +33,7 @@ keywords: 在Aspose中向Excel工作表添加/插入文本框
 
 ## 在Aspose.Cells中的工作表中添加文本框
 
-当您需要批量将文本框插入工作表时，手工插入的方法显然是一场灾难。如果这困扰着您，我认为这份文档会帮助您。[Aspose.Cells]（https://products.aspose.com/cells/）为您提供了一个API，可以轻松地在您的代码中进行批量插入。
+当您需要批量将文本框插入工作表时，手工插入的方法显然是一场灾难。如果这困扰着您，我认为这份文档会帮助您。【Aspose.Cells】（https://products.aspose.com/cells/）为您提供了一个API，可以轻松地在您的代码中进行批量插入。
 
 以下示例代码创建一个文本框。
 

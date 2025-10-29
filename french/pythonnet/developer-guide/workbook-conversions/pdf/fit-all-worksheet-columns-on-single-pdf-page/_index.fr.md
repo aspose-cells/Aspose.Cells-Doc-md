@@ -30,3 +30,4 @@ Lorsqu'une feuille de calcul donnée comporte de nombreuses colonnes, le fichier
 Si votre feuille de calcul contient des formules, il est préférable d'appeler la méthode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) juste avant de générer la feuille de calcul au format PDF. De cette façon, les valeurs dépendant des formules seront recalculées et les valeurs correctes seront rendues dans le PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

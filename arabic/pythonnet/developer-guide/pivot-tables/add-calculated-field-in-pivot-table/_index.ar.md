@@ -35,3 +35,4 @@ keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، إضافة �
 
 ## **الكود المثالي**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-calculated-field-in-PivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

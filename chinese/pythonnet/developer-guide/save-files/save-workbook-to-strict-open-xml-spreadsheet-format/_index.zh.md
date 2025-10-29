@@ -19,3 +19,4 @@ Aspose.Cells for Python via .NET允许将工作簿以*严格Open XML电子表格
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Save-files-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

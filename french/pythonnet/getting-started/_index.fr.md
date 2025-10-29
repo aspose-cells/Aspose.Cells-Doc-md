@@ -65,6 +65,50 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 
 Bien sûr, si vous voulez simplifier, vous pouvez également télécharger [libSkiaSharp.dylib](libSkiaSharp.dylib) et ensuite **copiez** dans le répertoire **/usr/local/lib**.
 
+> ⚠️ **Note :**  
+Dans certains cas, après l'installation d'une nouvelle version de **aspose-cells-python**, les utilisateurs peuvent rencontrer une erreur comme celle-ci :
+
+**Lors de l'initialisation de l'hôte pour le type ‘WrpNs_Aspose.WrpNs_Cells.WrpCs_Workbook_xxxxxx (Assembly=WrpInterop.Aspose.Cells)’, une erreur s'est produite - la méthode ‘call_000_xxxxxx’ introuvable**
+
+Cela indique que la version précédente n'a pas été complètement désinstallée, ce qui entraîne un conflit entre la nouvelle version installée et l'ancienne.  
+Vous pouvez résoudre ce problème en suivant les étapes ci-dessous :
+
+- Tout d'abord, vous pouvez créer un environnement virtuel propre pour vous assurer que la dernière version fonctionne correctement sur votre machine Windows :
+
+```
+# Set up virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+# Install aspose-cells-python
+pip install aspose-cells-python
+```
+Ensuite, exécutez votre programme.
+
+- Si vous préférez continuer à utiliser votre environnement d'origine, veuillez essayer les étapes suivantes :
+
+```
+pip uninstall aspose-cells-python
+```
+Assurez-vous que la désinstallation a réussi. Si des erreurs surviennent lors de la désinstallation, essayez d'exécuter la commande plusieurs fois.
+Alternativement, localisez votre répertoire **site-packages**, généralement quelque chose comme :
+
+```
+\Python3x\Lib\site-packages
+```
+
+Supprimez ensuite manuellement les répertoires suivants (s'ils existent) :
+
+```
+aspose
+aspose_cells*
+```
+
+Ensuite, réinstallez le package :
+
+```
+pip install aspose-cells-python
+```
+
 ## **Comment créer l'application Hello World en utilisant Aspose.Cells pour Python via .NET**
 
 - Créez un fichier nommé **CreatingHelloWorldFile.py** et utilisez le code source suivant :
@@ -77,3 +121,4 @@ Bien sûr, si vous voulez simplifier, vous pouvez également télécharger [libS
 - Veuillez visiter l'exemple [Python via .NET d'Aspose.Cells](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github pour consulter plus d'exemples de code.
 
 
+{{< app/cells/assistant language="python-net" >}}

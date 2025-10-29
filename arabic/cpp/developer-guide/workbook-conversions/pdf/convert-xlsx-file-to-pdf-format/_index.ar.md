@@ -93,3 +93,4 @@ int main()
 |الورقة العمل الأولى **(توقعات المبيعات)**|الورقة العمل الثانية **(تقرير المبيعات)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |الصفحة العملية الثالثة **(ادخال البيانات)**|الصفحة العملية الأخيرة **(الصورة)**|
+{{< app/cells/assistant language="cpp" >}}

@@ -151,3 +151,4 @@ Aspose.Cells for C++ 现已向 ILoadOptions 类公开了 GetCultureInfo 和 SetC
 - IWorksheet::ToString 方法
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

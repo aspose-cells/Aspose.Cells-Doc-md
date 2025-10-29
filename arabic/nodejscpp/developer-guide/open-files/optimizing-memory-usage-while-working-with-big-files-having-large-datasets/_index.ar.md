@@ -79,3 +79,4 @@ cells = wb.getWorksheets().add("Sheet2").getCells();
 2. **إدراج وحذف الخلايا والصفوف**: يرجى ملاحظة أنه إذا كانت هناك الكثير من العمليات لإدراج/حذف الخلايا/الصفوف، فإن تدهور الأداء سيكون ملحوظًا لوضع *MemoryPreference* مقارنة بوضع *Normal*.  
 3. **العمل على أنواع مختلفة من الخلايا**: إذا كانت معظم الخلايا تحتوي على قيم نصية أو صيغ، فإن تكلفة الذاكرة ستكون نفس وضع *Normal*، ولكن إذا كانت هناك الكثير من الخلايا الفارغة، أو القيم الرقمية، أو القيم البوليانية، وما إلى ذلك، فسيعطي الخيار [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) أداءً أفضل.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

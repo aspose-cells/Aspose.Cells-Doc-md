@@ -16,3 +16,4 @@ Parfois, votre HTML contient des nombres comme 1234567890123456 qui sont plus lo
 Le code d'exemple suivant explique l'utilisation de la propriété [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/). L'API importera le nombre tel quel sans le convertir en notation exponentielle.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

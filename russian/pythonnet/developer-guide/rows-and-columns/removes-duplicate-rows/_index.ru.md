@@ -17,3 +17,4 @@ Aspose.Cells для Python via .NET предоставляет метод [**Cel
 [removeduplicates.xlsx](removeduplicates.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Remove-Duplicate-Rows-In-A-Worksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

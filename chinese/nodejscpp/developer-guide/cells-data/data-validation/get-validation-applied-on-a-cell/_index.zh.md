@@ -25,3 +25,4 @@ keywords: 在 Excel 中通过 Node.js 使用 C++ 应用单元格验证，在 Exc
 ## 相关文章
 
 - [数据有效性](/cells/zh/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

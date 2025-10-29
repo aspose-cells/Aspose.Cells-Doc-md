@@ -27,3 +27,4 @@ keywords: الكتابة فوق السطر في إكسل باستخدام باي
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SettingSubscriptEffect-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

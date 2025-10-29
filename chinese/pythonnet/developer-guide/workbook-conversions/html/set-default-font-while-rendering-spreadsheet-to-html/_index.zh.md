@@ -24,3 +24,4 @@ Aspose.Cells允许在将电子表格渲染为HTML时设置默认字体. 请使�
 ## 示例代码
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SetDefaultFontWhileRendering-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

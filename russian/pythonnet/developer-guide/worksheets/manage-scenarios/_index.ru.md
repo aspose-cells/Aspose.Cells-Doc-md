@@ -63,3 +63,4 @@ if len(worksheet.scenarios) > 0:
     print(f"\nProcess completed successfully.\nFile saved at {output_path}")
 ```
 
+{{< app/cells/assistant language="python-net" >}}

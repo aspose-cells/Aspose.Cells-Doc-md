@@ -166,3 +166,4 @@ int main()
 - [Определение типа гиперссылки](/cells/ru/cpp/detect-hyperlink-type/)
 - [Редактирование гиперссылок в рабочем листе](/cells/ru/cpp/editing-hyperlinks-of-worksheet/)
 - [Получение гиперссылок в диапазоне](/cells/ru/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

@@ -105,3 +105,4 @@ workbook.save(filePath);
 - [التحقق من كلمة مرور الملفات المشفرة](/cells/ar/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

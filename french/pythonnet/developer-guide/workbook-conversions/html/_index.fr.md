@@ -48,3 +48,4 @@ L'exemple de code ci-dessous montre comment enregistrer un classeur sous forme d
 - [Définir la largeur de colonne sur une unité extensible comme em ou pourcentage](/cells/fr/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Définir la police par défaut lors du rendu de la feuille de calcul en HTML](/cells/fr/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Spécifier comment croiser la chaîne dans le HTML de sortie en utilisant HtmlCrossType](/cells/fr/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

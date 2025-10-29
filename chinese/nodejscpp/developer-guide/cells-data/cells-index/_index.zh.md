@@ -36,3 +36,4 @@ Aspose.Cells for Node.js via C++提供以下属性和方法，帮助你实现目
 1. 通过行名获取行索引。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-get-index.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

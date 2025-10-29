@@ -22,3 +22,4 @@ url: /ru/python-net/setting-shadow-of-text-effects-of-shape-or-textbox/
 Приведенный ниже код демонстрирует использование свойства [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) для установки тени эффектов текста формы или текстового поля.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

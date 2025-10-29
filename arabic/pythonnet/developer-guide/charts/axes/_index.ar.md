@@ -39,3 +39,4 @@ url: /ar/python-net/chart-axes/
 - [التعامل مع الوحدات التلقائية لمحور الرسم البياني مثل Microsoft Excel](/cells/ar/python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [قراءة تسميات المحور بعد حساب الرسم البياني](/cells/ar/python-net/read-axis-labels-after-calculating-the-chart/)
 - [كيفية تعيين محور الفئة في رسم بياني Excel](/cells/ar/python-net/how-to-set-category-axis/)
+{{< app/cells/assistant language="python-net" >}}

@@ -17,7 +17,7 @@ url: /ar/java/create-dynamic-charts/
 
 {{% alert color="primary" %}}
 
-تشير الجداول في Excel إلى ListObjects من وجهة نظر Aspose.Cells لذلك سنستخدم مصطلح "ListObject" بدلاً من "الجدول" للوضوح. يرجى قراءة التفاصيل حول كيفية [إنشاء ListObjects](/cells/ar/java/creating-a-list-object/) باستخدام Aspose.Cells for .NET واجهة برمجة التطبيقات.
+تشير جداول إكسل إلى كائنات قائمة من منظور Aspose.Cells لذلك سنستخدم مصطلح "ListObject" بدلاً من "Table" لتحقيق الوضوح. يرجى القراءة بالتفصيل حول كيفية [إنشاء كائنات قائمة](/cells/ar/java/creating-a-list-object/) باستخدام Aspose.Cells for Java API.
 
 {{% /alert %}}
 

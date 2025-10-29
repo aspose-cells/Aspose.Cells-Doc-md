@@ -162,3 +162,4 @@ int main()
 
 ## **高级主题**
 - [在工作表中检测合并的单元格](/cells/zh/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

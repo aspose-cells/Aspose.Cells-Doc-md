@@ -66,3 +66,4 @@ url: /ar/cpp/worksheet-views/
 إزالة النوافذ المقسمة باستخدام الطريقة [RemoveSplit] (https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

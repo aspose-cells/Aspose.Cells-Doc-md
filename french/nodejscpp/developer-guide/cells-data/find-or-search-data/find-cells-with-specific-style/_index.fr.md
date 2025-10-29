@@ -17,3 +17,4 @@ Dans cet exemple, le code trouve toutes les cellules ayant le même style que ce
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SearchData-SearchCellWithSpecifyStyle.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

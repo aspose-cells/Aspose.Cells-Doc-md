@@ -236,3 +236,4 @@ Si une cellule est fusionnée, alors les méthodes AutoFit ne seront pas appliqu
 
 ## **Sujets avancés**
 - [Ajustement automatique des lignes pour les cellules fusionnées](/cells/fr/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

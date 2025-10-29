@@ -35,3 +35,4 @@ url: /ar/python-net/insert-datalabels-to-chart/
 - [تسمية بيانات مخصصة نصية غنية الرسم البياني](/cells/ar/python-net/rich-text-custom-data-label-of-chart-point/)
 - [تعيين نوع الشكل لتسميات بيانات الرسم البياني](/cells/ar/python-net/set-the-shape-type-of-data-labels-of-chart/)
 - [عرض نطاق الخلايا كعلامات البيانات](/cells/ar/python-net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="python-net" >}}

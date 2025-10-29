@@ -24,3 +24,4 @@ url: /ar/python-net/create-dynamic-chart/
 - [إنشاء رسم بياني دوري ديناميكي باستخدام Aspose Cells](/cells/ar/python-net/create-dynamic-rolling-chart/)
 - [إنشاء رسم بياني تمرير ديناميكي باستخدام Aspose Cells](/cells/ar/python-net/create-dynamic-scrolling-chart/)
 - [إنشاء رسم بياني ديناميكي مع قائمة منسدلة باستخدام Aspose Cells](/cells/ar/python-net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="python-net" >}}

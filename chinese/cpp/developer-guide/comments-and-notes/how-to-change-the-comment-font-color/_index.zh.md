@@ -73,3 +73,4 @@ int main()
 ```
 
 上述代码生成的[输出文件](102662195.xlsx)附在此供您参考。
+{{< app/cells/assistant language="cpp" >}}

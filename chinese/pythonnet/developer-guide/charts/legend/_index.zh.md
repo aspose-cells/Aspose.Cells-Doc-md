@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NET  也支持在运行时管理图表的图例，�
 
 ## **高级主题**
 - [使用 Aspose.Cells for Python via .NET 将图表图例条目的填充文本设置为无](/cells/zh/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

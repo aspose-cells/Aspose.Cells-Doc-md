@@ -1,0 +1,516 @@
+---
+title: كيفية تخصيص مظهر واجهة المستخدم لطباعة رسالة التوست في GridJs  
+type: docs
+weight: 250
+url: /ar/java/aspose-cells-gridjs/how-to-customize-toast/
+description: يصف هذا المقال كيفية تخصيص مظهر واجهة المستخدم لنص التوست في GridJs.
+keywords: GridJs،تخصيص،توست،واجهة مستخدم،مظهر،مرئي،رسالة،تنبيه
+aliases:
+aliases:
+  - /java/aspose-cells-gridjs/customize-toast/
+  - /java/aspose-cells-gridjs/customize-ui-alert/
+  - /java/aspose-cells-gridjs/customize-message-tips/
+  - /java/aspose-cells-gridjs/customize-notification/
+  - /java/aspose-cells-gridjs/customize-popup-message/
+  - /java/aspose-cells-gridjs/customize-ui-message/
+  - /java/aspose-cells-gridjs/customize-toast-styling/
+  - /java/aspose-cells-gridjs/customize-toast-theme/
+  - /java/aspose-cells-gridjs/customize-message/
+
+
+
+
+---
+
+# دليل التوست المخصص لـ GridJs
+
+## نظرة عامة
+
+يقدم GridJs نظام إشعارات توست مرن يتيح لك استبدال رسائل التوست الافتراضية بتنفيذ الإعلام الخاص بك. يوضح هذا الدليل طرقًا مختلفة لتخصيص إشعارات التوست وفقًا لاحتياجات تطبيقك.
+
+## جدول المحتويات
+
+- [الاستخدام الأساسي](#basic-usage)
+- [أمثلة على التكامل](#integration-examples)
+  - [توست مخصص جميل](#1-beautiful-custom-toast)
+  - [مكتبة توستر](#2-toastr-library-integration)
+  - [SweetAlert2](#3-sweetalert2-integration)
+  - [Vue + Element UI](#4-vue--element-ui)
+  - [React + Ant Design](#5-react--ant-design)
+- [حالات الاستخدام المتقدمة](#advanced-use-cases)
+  - [التسجيل والتحليلات](#6-logging-and-analytics)
+  - [خبز محلي الصنع مناسب للجوال](#7-mobile-friendly-toast)
+- [مرجع API](#api-reference)
+- [أفضل الممارسات](#best-practices)
+
+---
+
+## Basic Usage
+
+### Simple Alert Example
+
+The most basic custom toast can be implemented using the native `alert()` function:
+
+```javascript
+const xs = x_spreadsheet('#spreadsheet');
+
+// Define custom toast function
+function myToast(title, content, callback) {
+  alert(`${title}: ${content}`);
+  if (callback) callback();
+}
+
+// Set custom toast
+xs.customToast(myToast);
+```
+
+**المعلمات:**
+- `title` (سلسلة نصية): عنوان إعلامية التوست
+- `content` (سلسلة نصية): محتوى رسالة التوست
+- `callback` (وظيفة، اختيارية): وظيفة رد النداء للتنفيذ بعد إغلاق التوست
+
+---
+
+## Integration Examples
+
+### 1. Beautiful Custom Toast
+
+Create a visually appealing toast notification without external dependencies:
+
+```javascript
+function beautifulToast(title, content, callback) {
+  // Create dimmer overlay
+  const dimmer = document.createElement('div');
+  Object.assign(dimmer.style, {
+    position: 'fixed',
+    top: 0, left: 0, right: 0, bottom: 0,
+    background: 'rgba(0,0,0,0.5)',
+    zIndex: 9999
+  });
+
+  // Create toast element
+  const toast = document.createElement('div');
+  Object.assign(toast.style, {
+    position: 'fixed',
+    top: '50%', left: '50%',
+    transform: 'translate(-50%, -50%)',
+    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+    color: 'white',
+    padding: '20px 30px',
+    borderRadius: '10px',
+    boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
+    zIndex: 10000,
+    minWidth: '300px'
+  });
+
+  toast.innerHTML = `
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: bold;">
+      <span>${title}</span>
+      <span class="close" style="cursor: pointer;">×</span>
+    </div>
+    <div>${content}</div>
+  `;
+
+  const remove = () => {
+    document.body.removeChild(toast);
+    document.body.removeChild(dimmer);
+    if (callback) callback();
+  };
+
+  toast.querySelector('.close').onclick = remove;
+  dimmer.onclick = remove;
+
+  document.body.appendChild(dimmer);
+  document.body.appendChild(toast);
+
+  // Auto-dismiss after 3 seconds
+  setTimeout(remove, 3000);
+}
+
+xs.customToast(beautifulToast);
+```
+
+**الميزات:**
+- خلفية تدرجية
+- تراكب وضعية
+- نقر لإغلاق
+- إغلاق تلقائي بعد 3 ثوانٍ
+- زر الإغلاق
+
+---
+
+### 2. Toastr Library Integration
+
+Integrate the popular [Toastr](https://github.com/CodeSeven/toastr) library for toast notifications.
+
+**Prerequisites:**
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+```
+
+**التنفيذ:**
+```javascript
+xs.customToast((title, content, callback) => {
+  toastr.options = {
+    closeButton: true,
+    progressBar: true,
+    positionClass: 'toast-top-right',
+    timeOut: 3000
+  };
+  toastr.info(content, title);
+  if (callback) callback();
+});
+```
+
+**خيارات التخصيص:**
+- `closeButton`: يعرض زر إغلاق
+- `progressBar`: يعرض شريط تقدم للعد التنازلي
+- `positionClass`: يتحكم في موضع التوست (أعلى يمين، أسفل يسار، إلخ.)
+- `timeOut`: مدة الإغلاق التلقائي بالملي ثانية
+
+---
+
+### 3. SweetAlert2 Integration
+
+Use [SweetAlert2](https://sweetalert2.github.io/) for beautiful, customizable alert dialogs.
+
+**Prerequisites:**
+```html
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+```
+
+**التنفيذ:**
+```javascript
+xs.customToast((title, content, callback) => {
+  Swal.fire({
+    title: title,
+    html: content,
+    icon: 'info',
+    confirmButtonText: 'OK'
+  }).then(() => {
+    if (callback) callback();
+  });
+});
+```
+
+**الرموز المتاحة:**
+- `نجاح`
+- `خطأ`
+- `تحذير`
+- `معلومة`
+- `سؤال`
+
+---
+
+### 4. Vue + Element UI
+
+Integration with Vue.js and Element UI's notification component.
+
+```javascript
+new Vue({
+  el: '#app',
+  mounted() {
+    const xs = x_spreadsheet('#spreadsheet');
+
+    xs.customToast((title, content, callback) => {
+      this.$notify({
+        title: title,
+        message: content,
+        type: 'info',
+        duration: 3000,
+        onClose: callback
+      });
+    });
+  }
+});
+```
+
+**أنواع الإشعارات:**
+- `نجاح`
+- `تحذير`
+- `معلومة`
+- `خطأ`
+
+---
+
+### 5. React + Ant Design
+
+Integration with React and Ant Design's message component.
+
+```javascript
+import { message } from 'antd';
+
+const App = () => {
+  useEffect(() => {
+    const xs = x_spreadsheet('#spreadsheet');
+
+    xs.customToast((title, content, callback) => {
+      message.info({
+        content: `${title}: ${content}`,
+        duration: 3,
+        onClose: callback
+      });
+    });
+  }, []);
+
+  return <div id="spreadsheet"></div>;
+};
+```
+
+**مكونات أن ديزاين البديلة:**
+- `رسالة.نجاح()`
+- `رسالة.خطأ()`
+- `رسالة.تحذير()`
+- `إشعار.فتح()` (لإشعارات أكثر تعقيدًا)
+
+---
+
+## Advanced Use Cases
+
+### 6. Logging and Analytics
+
+Combine custom toast with logging and analytics tracking:
+
+```javascript
+xs.customToast((title, content, callback) => {
+  // Log to console
+  console.log(`[Toast] ${title}:`, content);
+
+  // Track in analytics system
+  if (window.analytics) {
+    analytics.track('toast_shown', {
+      title: title,
+      content: content,
+      timestamp: new Date().toISOString()
+    });
+  }
+
+  // Display custom notification
+  showMyCustomToast(title, content, callback);
+});
+```
+
+**حالات الاستخدام:**
+- تسجيل التصحيح
+- تتبع سلوك المستخدم
+- مراقبة الأخطاء
+- قياسات الأداء
+
+---
+
+### 7. Mobile-Friendly Toast
+
+Create a mobile-optimized toast notification:
+
+```javascript
+function mobileToast(title, content, callback) {
+  const toast = document.createElement('div');
+  Object.assign(toast.style, {
+    position: 'fixed',
+    bottom: '20px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    background: '#323232',
+    color: 'white',
+    padding: '12px 24px',
+    borderRadius: '24px',
+    fontSize: '14px',
+    zIndex: 10000,
+    maxWidth: '80%',
+    textAlign: 'center',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+  });
+
+  toast.textContent = `${title}: ${content}`;
+  document.body.appendChild(toast);
+
+  setTimeout(() => {
+    document.body.removeChild(toast);
+    if (callback) callback();
+  }, 2000);
+}
+
+xs.customToast(mobileToast);
+```
+
+ميزات تحسين الهاتف المحمول:
+- الموقع في الأسفل (ملائم للإبهام)
+- عرض بنسبة مئوية (حد أقصى 80٪)
+- مدة أقصر (2 ثانية)
+- أهداف النقر أكبر
+- بدون تراكب (غير معيق)
+
+---
+
+## API Reference
+
+### `customToast(toastFunction)`
+
+Sets a custom toast notification function for the spreadsheet instance.
+
+**Parameters:**
+- `toastFunction` (Function | null): Custom toast function with signature `(title, content, callback) => void`
+  - Pass `null` to restore default toast behavior
+
+**Returns:**
+- The spreadsheet instance (for method chaining)
+
+**Example:**
+```javascript
+// Set custom toast
+xs.customToast(myToastFunction);
+
+// Restore default
+xs.customToast(null);
+
+// Method chaining
+xs.customToast(myToast)
+  .loadData(data)
+  .setActiveSheet(0);
+```
+
+---
+
+## Best Practices
+
+### 1. Always Handle the Callback
+
+Ensure you call the callback function if provided, as it may contain important cleanup or continuation logic:
+
+```javascript
+function myToast(title, content, callback) {
+  // ... show toast ...
+  if (callback) callback();  // ✅ Always call
+}
+```
+
+### 2. الإشعارات غير المريحة
+
+لتحسين تجربة المستخدم، استخدم إشعارات التوست غير المزعجة بدلاً من التنبيهات المنبثقة:
+
+```javascript
+// ❌ Blocks user interaction
+alert(`${title}: ${content}`);
+
+// ✅ Non-blocking
+showToastNotification(title, content);
+```
+
+### 3. المدة المناسبة
+
+اختر مدد الإغلاق التلقائي المناسبة بناءً على طول المحتوى:
+
+```javascript
+const duration = content.length > 50 ? 5000 : 3000;
+setTimeout(remove, duration);
+```
+
+### 4. الوصولية
+
+تأكد من أن توست الخاص بك يمكن الوصول إليه:
+
+```javascript
+toast.setAttribute('role', 'alert');
+toast.setAttribute('aria-live', 'polite');
+toast.setAttribute('aria-atomic', 'true');
+```
+
+### 5. التعامل مع الأخطاء
+
+لفّ وظيفة التوست الخاصة بك في try-catch لمنع تعطيل الجدول الإلكتروني:
+
+```javascript
+xs.customToast((title, content, callback) => {
+  try {
+    // Your toast implementation
+    myCustomToast(title, content);
+  } catch (error) {
+    console.error('Toast error:', error);
+  } finally {
+    if (callback) callback();
+  }
+});
+```
+
+### 6. تنظيف الموارد
+
+قم دائمًا بتنظيف عناصر DOM ومستمعي الأحداث:
+
+```javascript
+function myToast(title, content, callback) {
+  const toast = document.createElement('div');
+  // ... setup toast ...
+
+  const remove = () => {
+    document.body.removeChild(toast);
+    // Clean up any event listeners
+    toast.onclick = null;
+    if (callback) callback();
+  };
+
+  document.body.appendChild(toast);
+  setTimeout(remove, 3000);
+}
+```
+
+### 7. استعادة الإعدادات الافتراضية عند الحاجة
+
+وفر وسيلة لاستعادة سلوك التوست الافتراضي:
+
+```javascript
+// Set custom toast
+xs.customToast(myToast);
+
+// Later, restore default
+xs.customToast(null);
+```
+
+---
+
+## Troubleshooting
+
+### Toast Not Showing
+
+**Problem:** Custom toast function is called but nothing appears.
+
+**Solutions:**
+1. Check z-index values (ensure they're higher than spreadsheet elements)
+2. Verify the toast element is appended to `document.body`
+3. Check browser console for JavaScript errors
+
+### Callback Not Working
+
+**Problem:** Operations after toast don't execute.
+
+**Solution:** Ensure you're calling the callback function:
+```javascript
+if (callback) callback();  // Don't forget this!
+```
+
+### تسرب الذاكرة
+
+### المشكلة: الصفحة تصبح بطيئة بعد الكثير من إشعارات التوست.
+
+**الحل:** تنظيف عناصر DOM ومستمعي الأحداث:
+```javascript
+const remove = () => {
+  document.body.removeChild(toast);
+  toast.onclick = null;  // Remove event listeners
+  if (callback) callback();
+};
+```
+
+### مشاكل عرض الهاتف المحمول
+
+**المشكلة:** يظهر التوست بشكل سيئ على أجهزة الهاتف المحمول.
+
+**الحلول:**
+1. استخدام عروض النسب المئوية: `maxWidth: '80%'`
+2. Add viewport meta tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
+3. استخدام أحجام خطوط نسبية: `fontSize: '14px'` بدلاً من البكسلات الثابتة
+
+---
+
+
+

@@ -31,3 +31,4 @@ url: /zh/python-net/extract-ole-objects-from-workbook/
 下面的代码实际完成了查找和提取OLE对象的工作。OLE对象（DOC、XLS和PDF文件）被保存到磁盘上。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

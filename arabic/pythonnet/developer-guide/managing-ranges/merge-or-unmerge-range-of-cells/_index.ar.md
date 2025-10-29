@@ -17,3 +17,4 @@ keywords: مكتبة بايثون لإكسل، دمج وفك دمج الخلاي
 يقوم الشفرة العينية التالية أولاً بإنشاء مجموعة - A1:D4 - ثم يدمج الخلايا في المجموعة في خلية واحدة باستخدام الأسلوب [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#). بالمثل، يمكنك تقسيم الخلايا عن طريق إنشاء مجموعة واستدعاء الأسلوب [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -96,3 +96,4 @@ int main()
 ## **高级主题**
 - [将多个工作表合并成一个工作表](/cells/zh/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [合并文件](/cells/zh/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

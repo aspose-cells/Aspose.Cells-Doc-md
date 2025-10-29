@@ -16,3 +16,4 @@ Le code d'exemple suivant charge le fichier Excel source et définit le commenta
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-SetCommentOfTableOrListObject-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -56,3 +56,4 @@ keywords: Сравнение стиля ссылки R1C1 по сравнени�
 Стиль ссылок R1C1:  
 <br>  
 <image src="3.png" width="70%" />  
+{{< app/cells/assistant language="cpp" >}}

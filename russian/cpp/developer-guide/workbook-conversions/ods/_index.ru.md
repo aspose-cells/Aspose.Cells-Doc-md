@@ -89,3 +89,4 @@ int main()
 ## **Продвинутые темы**
 - [Сохранить файл ODS в спецификациях ODF 1.1 и 1.2](/cells/ru/cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Работа с фоном в файлах ODS](/cells/ru/cpp/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

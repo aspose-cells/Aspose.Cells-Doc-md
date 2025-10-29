@@ -11,3 +11,4 @@ url: /ru/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/
 ![todo:image_alt_text](apply-custom-theme-colors-of-the-workbook-using-array-of-colors_1.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-ApplyCustomThemeColorsOfWorkbookUsingArrayOfColors-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

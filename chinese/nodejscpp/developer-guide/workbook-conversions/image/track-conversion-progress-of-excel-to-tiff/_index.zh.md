@@ -13,7 +13,7 @@ description: 学习如何使用 Aspose.Cells for Node.js via C++ 追踪 Excel �
 
 ## **跟踪Excel转换为TIFF的进度**
 
-下面的代码示例加载了[源 Excel 文件](95584311.xlsx)，并使用实现了 [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) 接口的 *TestPageSavingCallback* 自定义类在控制台打印其转换进度。生成的输出文件已附上供您参考。
+下面的代码示例加载了【源 Excel 文件】(95584311.xlsx)，并使用实现了 [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) 接口的 *TestPageSavingCallback* 自定义类在控制台打印其转换进度。生成的输出文件已附上供您参考。
 
 [Output File](95584312.tiff)
 
@@ -95,3 +95,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10</br>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

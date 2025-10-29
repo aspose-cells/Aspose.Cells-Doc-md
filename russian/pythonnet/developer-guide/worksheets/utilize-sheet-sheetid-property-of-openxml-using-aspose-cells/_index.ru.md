@@ -28,3 +28,4 @@ keywords: Библиотека Excel для Python, свойство идент�
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

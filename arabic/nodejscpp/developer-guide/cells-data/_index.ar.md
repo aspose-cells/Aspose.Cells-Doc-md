@@ -82,3 +82,4 @@ Aspose.Cells for Node.js via C++ يوفر فئة، [**Workbook**](https://refere
 - [ملء البيانات أولاً حسب الصف ثم حسب العمود](/cells/ar/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق](/cells/ar/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [الوصول إلى وتحديث أجزاء النص الغني للخلية](/cells/ar/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

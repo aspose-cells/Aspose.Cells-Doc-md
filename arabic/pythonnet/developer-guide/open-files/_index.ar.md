@@ -34,3 +34,4 @@ description: مع Aspose.Cells for Python via .NET، من السهل إنشاء 
 - [فتح الملفات بتنسيقات مختلفة](/cells/ar/python-net/opening-files-with-different-formats/)
 - [تحسين استخدام الذاكرة أثناء العمل مع ملفات كبيرة تحتوي على مجموعات بيانات كبيرة](/cells/ar/python-net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [قراءة جدول بيانات الأرقام المطور من قبل Apple Inc. باستخدام Aspose.Cells](/cells/ar/python-net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

@@ -11,3 +11,4 @@ Microsoft Excel prend en charge de nombreux formats tels que XLS, XLSX, XLSM, XL
 Le code d'exemple suivant charge le [fichier CSV source](23166994.csv) et lit sa cellule A1, puis en copie le contenu dans la cellule C4 et le sauvegarde en tant que [fichier CSV de sortie](23166994.csv).
 ## **Code d'exemple**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

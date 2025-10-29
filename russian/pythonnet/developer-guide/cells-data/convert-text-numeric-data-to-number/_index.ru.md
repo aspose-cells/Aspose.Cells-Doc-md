@@ -43,3 +43,4 @@ Aspose.Cells для Python via .NET предоставляет метод [**Cel
 Следующий образец кода показывает, как преобразовать все строковые числовые данные в фактические числа во всех листах книги.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

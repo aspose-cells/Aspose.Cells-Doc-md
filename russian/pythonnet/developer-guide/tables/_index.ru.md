@@ -64,3 +64,4 @@ Aspose.Cells для Python via .NET предоставляет класс, [**Wo
 - [Таблицы и диапазоны](/cells/ru/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -25,11 +25,11 @@ aliases:
 
 ## 第1步：创建Dockerfile
 
-在你的项目[目录](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/)中创建一个名为 `Dockerfile` 的文件。`Dockerfile`应包含构建Docker镜像的指令。
+在你的项目[目录](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs)中创建一个名为 `Dockerfile` 的文件。`Dockerfile` 应包含关于如何构建你的 Docker 镜像的指令。
 
 ## 第2步：为GridJs编写Dockerfile
 
-这是GridJs示例的 [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile)，配合Python应用：
+这是一个示例 [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs/Dockerfile)，用于 GridJs 演示和 Python 应用程序：
 
 ```dockerfile
 # use Python 3.13 as parent image

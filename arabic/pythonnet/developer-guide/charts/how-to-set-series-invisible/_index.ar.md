@@ -49,3 +49,4 @@ workbook.save(os.path.join(data_dir, "output.xlsx"))
 
 كما هو موضح في الصورة أدناه، السلسلتان الأوليان اللتان كانت مرئيتين أصلاً أصبحتا غير مرئيتين في الملف الناتج.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

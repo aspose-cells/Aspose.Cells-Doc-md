@@ -39,3 +39,4 @@ workbook.save(path.join(outputDir, "SampleTableWithQueryTable_out.xls"));
 [源文件](96928091.xls)
 
 [输出文件](96928092.xls)
+{{< app/cells/assistant language="nodejs-cpp" >}}

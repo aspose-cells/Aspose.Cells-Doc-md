@@ -41,7 +41,7 @@ docker build -t python_test .
 docker run python_test 
 {{< /highlight >}}
 
-- ملاحظة:
+## ملاحظة:
 
 لدعم فتح ملفات إكسل التي تحتوي على لغات متنوعة، نحتاج إلى تثبيت ICU. مع الأخذ في الاعتبار أن غطاء بايثون via .NET يعتمد على .NET Core 3.1، وأن .NET Core 3.1 لديه متطلبات إصدار محددة لـ ICU، والتي لا ينبغي أن تتجاوز الإصدار 70، فنحن بحاجة إلى تثبيت إصدار معين من ICU.
 
@@ -49,3 +49,4 @@ docker run python_test
 ## انظر أيضاً
 
 - [تثبيت Docker Desktop على Windows](https://docs.docker.com/docker-for-windows/install/)
+{{< app/cells/assistant language="python-net" >}}

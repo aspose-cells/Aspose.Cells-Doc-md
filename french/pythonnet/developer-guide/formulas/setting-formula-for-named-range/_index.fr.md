@@ -27,3 +27,4 @@ Voici un autre exemple qui utilise une plage nommée pour additionner les valeur
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-CalculatingSumUsingNamedRangeOnDifferentSheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -95,3 +95,4 @@ Aspose.Cells предоставляет перечисление [**PrintOrderTy
 |OVER_THEN_DOWN|Указывает порядок печати: вправо, затем вниз.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

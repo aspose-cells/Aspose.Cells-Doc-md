@@ -55,3 +55,4 @@ sheet.autoFitColumns();
 const outputDir = path.join(__dirname, "output");
 workbook.save(path.join(outputDir, "outputDeleteRedundantSpacesWhileImportingFromHtml.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

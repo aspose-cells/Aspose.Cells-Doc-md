@@ -56,3 +56,4 @@ Aspose.Cells for Python via .NET在[**aspose.cells.pivot**](https://reference.as
 - [将数据透视表保存为 ODS 文件](/cells/zh/python-net/save-pivot-table-in-ods-file/)
 - [显示报表筛选页选项](/cells/zh/python-net/show-report-filter-pages-option/)
 - [在数据透视表的DataField中使用数据显示格式](/cells/zh/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

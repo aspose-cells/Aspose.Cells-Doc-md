@@ -36,3 +36,4 @@ keywords: Python导出电子表格到CSV格式时修剪前导空行和列，Pyth
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-TrimLeadingBlankRowsAndColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

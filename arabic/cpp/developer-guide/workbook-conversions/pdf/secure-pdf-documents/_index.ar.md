@@ -79,3 +79,4 @@ int main()
 إذا كانت ورقة العمل تحتوي على صيغ، من الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) قبل تصييرها إلى PDF. وهذا يضمن إعادة حساب القيم المعتمدة على الصيغ وتصحيح القيم المعروضة في PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

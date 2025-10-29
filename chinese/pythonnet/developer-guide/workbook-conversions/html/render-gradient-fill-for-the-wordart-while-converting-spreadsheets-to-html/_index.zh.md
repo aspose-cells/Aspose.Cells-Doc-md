@@ -14,3 +14,4 @@ url: /zh/python-net/render-gradient-fill-for-the-wordart-while-converting-spread
 以下示例代码将[source excel file](22774111.xlsx)转换为[output HTML format](22774109.zip). 源Excel文件中包含如上截图所示的带有渐变填充的字体对象.
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -48,3 +48,4 @@ A free evaluation version of Aspose.Cells for C++ can be downloaded from the dow
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

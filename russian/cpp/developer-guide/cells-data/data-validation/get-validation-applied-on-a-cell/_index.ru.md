@@ -62,3 +62,4 @@ int main()
 ## Связанные статьи
 
 - [Валидация данных](/cells/ru/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

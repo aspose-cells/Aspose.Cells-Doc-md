@@ -53,3 +53,4 @@ int main()
 ```
 
 المرفق [ملف إكسل عيني](Frozen.xlsx).
+{{< app/cells/assistant language="cpp" >}}

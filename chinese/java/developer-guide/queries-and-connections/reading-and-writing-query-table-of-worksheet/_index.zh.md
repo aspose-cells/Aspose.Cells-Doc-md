@@ -7,7 +7,7 @@ url: /zh/java/reading-and-writing-query-table-of-worksheet/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells 提供 [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) 集合，该集合返回 [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection)。为了获取特定的 [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)，请使用 [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-) 属性并传入 QueryTable 的索引。 [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) 类有以下两个属性用于调整查询表。
+Aspose.Cells 提供 [Worksheet.getQueryTables()](https://reference.aspose.com/cells/zh/java/com.aspose.cells/worksheet#QueryTables) 集合，该集合返回 [QueryTableCollection](https://reference.aspose.com/cells/zh/java/com.aspose.cells/QueryTableCollection)。为了获取特定的 [QueryTable](https://reference.aspose.com/cells/zh/java/com.aspose.cells/QueryTable)，请使用 [QueryTableCollection.get()](https://reference.aspose.com/cells/zh/java/com.aspose.cells/querytablecollection#Item%20-int-) 属性并传入 QueryTable 的索引。 [QueryTable](https://reference.aspose.com/cells/zh/java/com.aspose.cells/QueryTable) 类有以下两个属性用于调整查询表。
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)

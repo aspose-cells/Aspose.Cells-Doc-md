@@ -57,3 +57,4 @@ url: /zh/python-net/combine-multiple-workbooks-into-a-single-workbook/
 - [将多个工作表合并成一个工作表](/cells/zh/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [合并文件](/cells/zh/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

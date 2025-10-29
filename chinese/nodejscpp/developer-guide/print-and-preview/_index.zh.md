@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [将工作表渲染到图形上下文](/cells/zh/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [指定工作簿渲染的个体或私有字体集](/cells/zh/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

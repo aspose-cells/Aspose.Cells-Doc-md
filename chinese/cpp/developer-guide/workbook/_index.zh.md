@@ -142,3 +142,4 @@ int main() {
 
 ## **结论**
 Aspose.Cells for C++ 提供了全面的工作簿和工作表管理工具。无论您需要创建新工作簿、打开现有工作簿或操作工作表，Aspose.Cells 都能轻松实现编程操作。
+{{< app/cells/assistant language="cpp" >}}

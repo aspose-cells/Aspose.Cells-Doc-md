@@ -163,3 +163,4 @@ Par défaut, la chaîne de calcul est désactivée. Car la création de la chaî
 - [Retourner une plage de valeurs en utilisant AbstractCalculationEngine](/cells/fr/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Définir le mode de calcul de formule du classeur](/cells/fr/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Utilisation de la fonction FormulaText dans Aspose.Cells](/cells/fr/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

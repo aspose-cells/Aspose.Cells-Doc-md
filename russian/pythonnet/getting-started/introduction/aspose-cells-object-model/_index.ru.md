@@ -87,3 +87,4 @@ url: /ru/python-net/aspose-cells-object-model/
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Объект VerticalPageBreak используется для создания вертикального разрыва страницы в рабочем листе.
+{{< app/cells/assistant language="python-net" >}}

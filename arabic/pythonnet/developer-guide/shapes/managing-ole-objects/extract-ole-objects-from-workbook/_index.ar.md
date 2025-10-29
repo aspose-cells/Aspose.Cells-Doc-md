@@ -31,3 +31,4 @@ url: /ar/python-net/extract-ole-objects-from-workbook/
 الكود أدناه يقوم بالعمل الفعلي للعثور على واستخراج كائنات OLE. يتم حفظ كائنات OLE (ملفات DOC وXLS وPDF) على القرص.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

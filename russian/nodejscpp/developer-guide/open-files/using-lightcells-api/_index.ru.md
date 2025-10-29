@@ -179,3 +179,4 @@ console.log("Total sheets: " + sheetCount + ", cells: " + v.CellCount
 run();
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

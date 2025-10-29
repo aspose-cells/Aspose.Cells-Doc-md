@@ -45,3 +45,4 @@ Lorsque le code ci-dessus est exécuté, une mise en forme conditionnelle est ap
 
 Lorsque le code ci-dessus est exécuté, une mise en forme conditionnelle est appliquée à la cellule "B3" dans la première feuille de calcul du fichier de sortie (output.xls). La mise en forme conditionnelle appliquée dépend de la formule qui calcule la valeur de "B3" comme la somme de B1 & B2.
 
+{{< app/cells/assistant language="python-net" >}}

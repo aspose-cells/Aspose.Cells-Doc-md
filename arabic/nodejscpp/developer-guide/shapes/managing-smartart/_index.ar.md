@@ -9,3 +9,4 @@ keywords: إدارة Smart Art Node.js عبر C++, معالجة فنون Smart A
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

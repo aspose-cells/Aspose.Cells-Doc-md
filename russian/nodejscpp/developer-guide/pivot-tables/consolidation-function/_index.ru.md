@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++ предоставляет перечислен
 Функция консолидации УНИКАЛЬНОЕ_КОЛИЧЕСТВО поддерживается только в Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

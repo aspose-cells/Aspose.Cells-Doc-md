@@ -42,3 +42,4 @@ La capture d'écran suivante montre le fichier Excel de sortie généré par le 
 Voici le code d'exemple pour obtenir le résultat tel que montré ci-dessus.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

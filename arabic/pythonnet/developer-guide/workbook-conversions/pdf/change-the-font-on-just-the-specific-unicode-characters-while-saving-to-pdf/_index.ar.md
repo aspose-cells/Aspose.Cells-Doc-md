@@ -88,3 +88,4 @@ workbook.save(os.path.join(data_dir, "SampleOutput2_out.pdf"), opts)
 {{% alert color="note" %}} 
 **ملاحظة الفرق في واجهة برمجة التطبيقات**: في Python.NET، تستخدم خصائص المنطق المنطقي snake_case (`is_font_substitution_char_granularity`) بدلاً من PascalCase المستخدمة في .NET.
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

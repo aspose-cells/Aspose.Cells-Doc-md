@@ -91,3 +91,4 @@ int main()
 ```
 
 您可以尝试在公式中将数字“-5”更改为“-10”，动态图表将计算最新的 10 组数据。现在，我们已成功使用Aspose.Cells创建了动态滚动图表。
+{{< app/cells/assistant language="cpp" >}}

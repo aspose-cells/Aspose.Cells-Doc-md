@@ -15,7 +15,7 @@ description: 学习如何在将 Excel 文件保存为 HTML 时启用 CSS 自定�
 
 ## **在保存为HTML时启用CSS自定义属性**
 
-以下示例代码展示了 [**HtmlSaveOptions.getEnableCssCustomProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getEnableCssCustomProperties--) 属性的用法。截图显示了未将此属性设置为 **true** 时的效果。请下载此代码用的[示例 Excel 文件](50528260.xlsx) 和生成的[输出 HTML](50528261.zip) 以供参考。
+以下示例代码展示了 [**HtmlSaveOptions.getEnableCssCustomProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getEnableCssCustomProperties--) 属性的用法。截图显示了未将此属性设置为 **true** 时的效果。请下载此代码用的【示例 Excel 文件】(50528260.xlsx) 和生成的【输出 HTML】(50528261.zip) 以供参考。
 
 
 
@@ -39,3 +39,4 @@ opts.setEnableCssCustomProperties(true);
 // Save the workbook in HTML
 workbook.save(path.join(dataDir, "outputEnableCssCustomProperties.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

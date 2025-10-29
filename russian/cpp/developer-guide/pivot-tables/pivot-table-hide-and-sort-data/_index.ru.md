@@ -74,3 +74,4 @@ int main()
 [Исходный файл](96928093.xlsx)
 
 [Выходной файл](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

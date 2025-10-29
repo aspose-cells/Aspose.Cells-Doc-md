@@ -155,3 +155,4 @@ worksheet.getCells().ungroupColumns(0, 2);
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

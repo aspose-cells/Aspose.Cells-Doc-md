@@ -34,3 +34,4 @@ APIs Aspose.Cells для Python via .NET предоставляют возмож
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

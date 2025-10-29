@@ -64,3 +64,4 @@ int main()
 对于需要始终从URL更新图片的场景，使用[从网页地址插入链接图片](/cells/zh/cpp/insert-a-linked-picture-from-web-address/)中描述的方法。此方法每次打开工作表时都从URL加载图片。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

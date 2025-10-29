@@ -45,3 +45,4 @@ Aspose.Cells предоставляет класс [Workbook](https://reference.
 Вы также можете использовать вышеупомянутые предопределенные типы значений ячеек для сравнения с типом данных, присутствующим в каждой ячейке.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

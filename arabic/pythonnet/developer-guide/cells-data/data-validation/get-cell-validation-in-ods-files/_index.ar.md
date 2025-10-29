@@ -16,3 +16,4 @@ keywords: مكتبة Python Excel، الحصول على التحقق من الخ
 ### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-GetCellValidationInODS-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

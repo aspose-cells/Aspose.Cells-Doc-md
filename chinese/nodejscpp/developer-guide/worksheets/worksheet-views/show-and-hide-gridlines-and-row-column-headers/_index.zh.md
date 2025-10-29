@@ -98,3 +98,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 也可以使用[**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells)类的[**Cells.unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-)和[**Cells.unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-)方法，使多行或多列变得可见。  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

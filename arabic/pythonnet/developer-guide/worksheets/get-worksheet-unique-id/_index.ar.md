@@ -14,3 +14,4 @@ keywords: مكتبة إكسل بايثون، معرف فريد لورقة الع
 ### كود المصدر
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-GetWorksheetUniqueId-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

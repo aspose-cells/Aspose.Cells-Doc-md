@@ -90,3 +90,4 @@ Aspose.Cells предоставляет методы класса [**Cell**](htt
 - [Получение списка используемых шрифтов в электронной таблице или книге](/cells/ru/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

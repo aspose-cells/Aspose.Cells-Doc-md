@@ -17,3 +17,4 @@ keywords: Aspose.Cells for Python Excel，Python Excel库，Python不使用Excel
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-DrawTimelinetoPdf.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -80,3 +80,4 @@ Vous ne pouvez utiliser que des styles de ligne fine pour la bordure de contour.
 - [Obtenir des ensembles d'icônes, des barres de données ou des objets de couleurs utilisés dans la mise en forme conditionnelle](/cells/fr/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

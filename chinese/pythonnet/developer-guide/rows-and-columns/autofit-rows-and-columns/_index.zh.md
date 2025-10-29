@@ -79,3 +79,4 @@ Aspose.Cells for Python via .NET提供了一个表示Microsoft Excel文件的[**
 
 ## **高级主题**
 - [为合并单元格自动调整行高](/cells/zh/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

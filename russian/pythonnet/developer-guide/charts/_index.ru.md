@@ -195,3 +195,4 @@ Aspose.Cells for Python via .NET предоставляет специальны
 - [Управление заголовками диаграмм Excel](/cells/ru/python-net/chart-and-axis-titles/)
 - [Отображение диаграммы](/cells/ru/python-net/chart-rendering/)
 - [Получить текст уравнения линии тренда диаграммы](/cells/ru/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

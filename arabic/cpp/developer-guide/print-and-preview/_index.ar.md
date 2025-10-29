@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [تقديم تسلسل من الصفحات باستخدام خصائص PageIndex وPageCount لخيارات الصورة أو الطباعة](/cells/ar/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [عرض الورقة العمل إلى سياق رسومي](/cells/ar/cpp/render-worksheet-to-graphic-context/)
 - [تحديد مجموعة خطوط فردية أو خاصة لتقديم الدفتر](/cells/ar/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

@@ -7,3 +7,4 @@ url: /ar/cpp/using-smart-markers/
 description: استيراد ووضع البيانات بذكاء وفقًا لملفات Excel النموذجية باستخدام مكتبة Aspose.Cells.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

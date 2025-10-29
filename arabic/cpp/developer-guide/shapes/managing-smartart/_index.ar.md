@@ -12,3 +12,4 @@ description: إدارة والتعامل مع أشكال Smart Art في ملفا
  يوفر Aspose.Cells أدوات شاملة للعمل مع أشكال Smart Art في ملفات إكسل برمجياً. يوضح هذا الدليل كيفية إنشاء والوصول وتعديل عناصر Smart Art باستخدام C++.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

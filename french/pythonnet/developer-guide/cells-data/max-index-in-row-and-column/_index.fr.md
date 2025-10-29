@@ -27,3 +27,4 @@ Cet exemple montre comment :
 1. Obtenez l'attribut [Cell.row](https://reference.aspose.com/cells/python-net/aspose.cells/cell/row/) sur la cellule.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Cells-max-index-of-row-and-column.py" >}}
+{{< app/cells/assistant language="python-net" >}}

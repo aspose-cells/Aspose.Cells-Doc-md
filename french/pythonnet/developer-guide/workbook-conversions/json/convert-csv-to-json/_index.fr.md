@@ -60,3 +60,4 @@ Le code d'exemple suivant démontre l'utilisation des classes [**ExportRangeToJs
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

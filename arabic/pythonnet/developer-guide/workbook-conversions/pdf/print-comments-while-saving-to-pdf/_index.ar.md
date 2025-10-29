@@ -28,3 +28,4 @@ Aspose.Cells for Python via .NET توفر تعدد العضوية [**PrintCommen
 يوضح الكود النموذجي التالي كيفية استخدام [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) لطباعة التعليقات أثناء الحفظ إلى صيغة PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

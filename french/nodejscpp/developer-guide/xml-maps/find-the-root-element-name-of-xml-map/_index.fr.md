@@ -42,3 +42,4 @@ console.log("Root Element Name Of Xml Map: " + xmap.getRootElementName());
 Root Element Name Of Xml Map: MiscData
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

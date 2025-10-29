@@ -356,3 +356,4 @@ int main()
 - [ضبط مستوى ضغط الورقة العمل](/cells/ar/cpp/adjust-workbook-compression-level/)
 - [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [حفظ الملف في كائن الاستجابة](/cells/ar/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

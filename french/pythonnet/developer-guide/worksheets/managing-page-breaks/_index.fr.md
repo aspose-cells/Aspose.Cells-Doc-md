@@ -46,3 +46,4 @@ En mode Aperçu des sauts de page ou Aperçu avant impression, vous pouvez voir 
 ## **Important à savoir**
 
 Lorsque vous définissez les propriétés **FitToPages** (c'est-à-dire [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) et [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) dans les paramètres de mise en page, les paramètres de saut de page sont affectés. Ainsi, si vous imprimez la feuille de calcul, les paramètres de saut de page ne sont pas pris en compte bien qu'ils soient toujours définis.
+{{< app/cells/assistant language="python-net" >}}

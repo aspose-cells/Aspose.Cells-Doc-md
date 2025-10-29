@@ -4,7 +4,7 @@ linktitle: التعليقات والملاحظات
 type: docs
 weight: 128
 url: /ar/python-net/comments-and-notes/
-description: إدراج وإدارة التعليقات أو الملاحظات باستخدام Aspose.Cells لـ .Net.
+description: إدراج وإدارة التعليقات أو الملاحظات مع Aspose.Cells for Python via .NET.
 keywords: إدراج تعليقات، إدراج ملاحظات
 ---
 
@@ -48,3 +48,4 @@ keywords: إدراج تعليقات، إدراج ملاحظات
 - [كيفية تعيين خلفية التعليق](/cells/ar/python-net/how-to-set-comment-background/)
 - [تعليقات متداخلة](/cells/ar/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -356,3 +356,4 @@ int main()
 - [Настройка уровня сжатия книги Excel](/cells/ru/cpp/adjust-workbook-compression-level/)
 - [Сохранить книгу в формате Strict Open XML Spreadsheet](/cells/ru/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Сохранение файла в объект ответа](/cells/ru/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

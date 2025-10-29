@@ -73,3 +73,4 @@ Aspose.Cells for Python via .NET API 提供了 [**add**](https://reference.aspos
 - [使用内置文档属性指定Excel文件的文档版本](/cells/zh/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [使用内置文档属性指定Excel文件的语言](/cells/zh/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

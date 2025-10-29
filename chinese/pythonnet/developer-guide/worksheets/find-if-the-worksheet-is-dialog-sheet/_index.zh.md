@@ -30,3 +30,4 @@ keywords: Python Excel 库，Python 查找 Excel 工作表对话框类型，Pyth
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

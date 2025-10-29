@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [设置图表数据标签的形状类型](/cells/zh/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [将单元格范围显示为数据标签](/cells/zh/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

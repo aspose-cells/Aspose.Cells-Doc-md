@@ -93,3 +93,4 @@ Aspose.Cells для Python via .NET поддерживает сохранени�
 - [Настройка уровня сжатия книги Excel](/cells/ru/python-net/adjust-workbook-compression-level/)
 - [Сохранить книгу в формате Strict Open XML Spreadsheet](/cells/ru/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

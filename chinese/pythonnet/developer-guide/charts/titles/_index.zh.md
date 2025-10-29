@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET 还允许在运行时管理图表的标题，�
 
 ## **高级主题**
 - [从ODS文件中读取图表副标题](/cells/zh/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

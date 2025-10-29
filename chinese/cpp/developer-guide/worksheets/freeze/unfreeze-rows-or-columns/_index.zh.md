@@ -52,4 +52,5 @@ int main()
 }
 ```
 
-附有[示例源Excel文件](Frozen.xlsx)。
+附有【示例源Excel文件】(Frozen.xlsx)。
+{{< app/cells/assistant language="cpp" >}}

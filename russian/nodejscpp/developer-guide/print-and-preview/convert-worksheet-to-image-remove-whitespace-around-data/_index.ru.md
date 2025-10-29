@@ -60,3 +60,4 @@ const sr = new AsposeCells.SheetRender(sheet, imgOptions);
 // Convert the image
 sr.toImage(0, path.join(outputDir, "outputRemoveWhitespaceAroundData.emf"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

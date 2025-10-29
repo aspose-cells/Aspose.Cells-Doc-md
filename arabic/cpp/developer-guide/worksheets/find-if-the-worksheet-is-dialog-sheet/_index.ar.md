@@ -56,3 +56,4 @@ int main()
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

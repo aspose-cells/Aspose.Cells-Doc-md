@@ -58,3 +58,4 @@ Excel提供了根据背景颜色对数据进行排序的功能。使用Aspose.Ce
 ## **高级主题**
 - [使用自定义排序列表对列中的数据进行排序](/cells/zh/python-net/sort-data-in-column-with-custom-sort-list/)
 - [在对数据进行排序时指定排序警告](/cells/zh/python-net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="python-net" >}}

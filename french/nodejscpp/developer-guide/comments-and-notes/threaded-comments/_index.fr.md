@@ -214,3 +214,4 @@ Pour supprimer les commentaires en filigrane dans Excel, cliquez avec le bouton 
 ![todo:image_alt_text](threaded-comments_8.jpg)   
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -35,3 +35,4 @@ opts.setHtmlCrossStringType(AsposeCells.HtmlCrossType.CrossHideRight);
 // Save to HTML with HtmlSaveOptions
 workbook.save(path.join(dataDir, "outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html"), opts);
 ``` 
+{{< app/cells/assistant language="nodejs-cpp" >}}

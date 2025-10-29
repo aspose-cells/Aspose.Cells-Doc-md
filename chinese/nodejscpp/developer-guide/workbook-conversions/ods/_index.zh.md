@@ -55,3 +55,4 @@ workbook.save("Out.fods");
 ## **高级主题**
 - [按照ODF 1.1和1.2规范保存ODS文件](/cells/zh/nodejs-cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [在ODS文件中处理背景](/cells/zh/nodejs-cpp/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

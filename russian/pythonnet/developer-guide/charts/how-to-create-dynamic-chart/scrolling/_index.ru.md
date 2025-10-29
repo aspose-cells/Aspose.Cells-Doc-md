@@ -32,3 +32,4 @@ url: /ru/python-net/create-dynamic-scrolling-chart/
 ```
 
 Вы можете попробовать изменить число "10" на "15" в ячейке «Sheet1!$H$20», и динамическая диаграмма будет считать последние 15 наборов данных. Теперь мы успешно создали динамическую прокручивающуюся диаграмму с помощью Aspose.Cells для Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

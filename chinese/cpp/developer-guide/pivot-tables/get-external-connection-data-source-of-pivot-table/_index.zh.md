@@ -58,3 +58,4 @@ int main()
 代码片段中使用的源文件已附上供参考。
 
 [源文件](104398862.xlsx)
+{{< app/cells/assistant language="cpp" >}}
