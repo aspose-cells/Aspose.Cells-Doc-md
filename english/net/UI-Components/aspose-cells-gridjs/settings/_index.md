@@ -1,39 +1,105 @@
+
 ---
-title: Settings for GridJs
+title: Workbook Related Settings for GridJs
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/settings/
-description: This article describes the setting for GridJs.
-keywords: GridJs,settings,GridWorkbookSettings
+description: This article describes the workbook settings for GridJs.
+keywords: GridJs,settings,GridWorkbookSettings,workbook_settings
 aliases:
-  - /net/aspose-cells-gridjs/how-to-use-setting/
-  - /net/aspose-cells-gridjs/work-with-setting/
+  - /net/aspose-cells-gridjs/how-to-use-settings/
+  - /net/aspose-cells-gridjs/work-with-settings/
+  - /net/aspose-cells-gridjs/work-with-workbook-settings/
 ---
 
+# Settings for GridJs
 
-There are some settings we can specified by set GridWorkbookSettings :
+## Overview
 
- 
-- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
+GridJs provides comprehensive configuration options through the `GridWorkbookSettings` class. These settings allow developers to customize various aspects of Excel file processing, including calculation behavior, metadata management, and performance optimization.
+
+## GridWorkbookSettings Class
+
+The [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings) class serves as the central configuration hub for GridJs operations.
+
+### Key Configuration Areas
+
+- **Calculation Settings**: Control formula recalculation behavior
+- **Metadata Management**: Set file properties and author information
+- **Performance Optimization**: Configure caching and resource management
 
 
-For example, the following code set the ReCalculateOnOpen to false to stop the caculate on opening the file :
-```C#
-   GridJsWorkbook gw = new GridJsWorkbook();
-   GridWorkbookSettings gws = new GridWorkbookSettings();
-   //do not re-calculate all formulas on opening the file.
-    gws.ReCalculateOnOpen = false;
-    gw.Settings = gws;
-    gw.ImportExcelFile(@"c:\test.xlsx");
+## Basic Usage Examples
+
+### Disabling Recalculation on File Open
+
+```csharp
+GridJsWorkbook gw = new GridJsWorkbook();
+GridWorkbookSettings gws = new GridWorkbookSettings();
+// Do not re-calculate all formulas on opening the file
+gws.ReCalculateOnOpen = false;
+gw.Settings = gws;
+gw.ImportExcelFile(@"c:\test.xlsx");
 ```
- the following code set the author for the file :
-```C#
-   GridJsWorkbook gw = new GridJsWorkbook();
-   GridWorkbookSettings gws = new GridWorkbookSettings();
-   //set author.
-    gws.Author = "peter";
-    gw.Settings = gws;
-    gw.ImportExcelFile(@"c:\test.xlsx");
+
+### Setting File Metadata
+
+```csharp
+GridJsWorkbook gw = new GridJsWorkbook();
+GridWorkbookSettings gws = new GridWorkbookSettings();
+// Set author information
+gws.Author = "peter";
+gw.Settings = gws;
+gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-You can check more settings in this class.
- 
+
+## Common Settings Reference
+
+### Calculation-Related Settings
+
+- `ReCalculateOnOpen`: Controls whether formulas are recalculated when opening files,default is true.
+- `ForceFullCalculate`: Enables forced full calculation cycles
+- `CreateCalcChain`:  Controls whether create calculated formulas chain,default is false.
+- `Iteration`:  Controls whether use iteration to resolve circular references,default is true.
+- `MaxIteration`: Set the maximum number of iterations to resolve a circular reference, the default value is 100.
+
+### Metadata Settings
+
+- `Author`: Specifies the file author
+
+
+### Performance Settings
+
+- `CheckCustomNumberFormat`: Validates custom number format when setting Style.Custom
+- `CheckExcelRestriction`: Controls Whether check restriction of excel file when user modify cells related objects
+
+## Advanced Configuration
+
+### Batch Settings Application
+
+```csharp
+GridJsWorkbook gw = new GridJsWorkbook();
+GridWorkbookSettings gws = new GridWorkbookSettings();
+
+// Configure multiple settings simultaneously
+gws.ReCalculateOnOpen = false;
+gws.Author = "peter";
+gws.CheckCustomNumberFormat = true;
+gws.CheckExcelRestriction = true;
+gw.Settings = gws;
+gw.ImportExcelFile(@"c:\test.xlsx");
+```
+
+## Demo and Examples
+
+For comprehensive implementation examples and detailed usage scenarios, refer to the official demo repository:
+
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridJs>
+
+## Additional Resources
+
+- [GridJs Server API Documentation](https://reference.aspose.com/cells/net/aspose.cells.gridjs)
+- [GridJs Client API Documentation](https://docs.aspose.com/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api)
+
+---
+
