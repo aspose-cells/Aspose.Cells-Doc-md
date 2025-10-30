@@ -67,3 +67,4 @@ Yukarıda anlatılan metodlara ek olarak, Aspose.Cells for Python via .NET API'l
 - [Desteklenen Yazı Tipi Biçimleri](/cells/tr/python-net/supported-font-formats/)
 - [Elektronik Tabloyu Görüntüye - Görüntülenen Görüntü İçin Pixel Biçimini Ayarlama](/cells/tr/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

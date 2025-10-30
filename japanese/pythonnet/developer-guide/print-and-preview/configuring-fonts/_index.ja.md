@@ -67,3 +67,4 @@ Aspose.Cells for Python via .NETのAPIは、レンダリング目的のために
 - [サポートされるフォント形式](/cells/ja/python-net/supported-font-formats/)
 - [ワークシートを画像に変換 - レンダリングされた画像のピクセル形式を設定する](/cells/ja/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -36,3 +36,4 @@ Följande exempelkod skapar en tom arbetsbok och sparar den sedan som PDF efter 
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

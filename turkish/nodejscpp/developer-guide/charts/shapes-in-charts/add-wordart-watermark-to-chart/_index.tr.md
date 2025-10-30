@@ -52,3 +52,4 @@ lineFormat.setWeight(0.0);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

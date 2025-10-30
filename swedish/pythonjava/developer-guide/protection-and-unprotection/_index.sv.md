@@ -2,7 +2,7 @@
 title: Skydda och Hävda skydd
 linktitle: Skydd
 type: docs
-weight: 40
+weight: 55
 url: /sv/python-java/protect-and-unprotect/
 description: Detta utdrag introducerar hur man krypterar och avkrypterar Excel filer, skyddar och hävdar datan i Excel filer med Python koder.
 ---

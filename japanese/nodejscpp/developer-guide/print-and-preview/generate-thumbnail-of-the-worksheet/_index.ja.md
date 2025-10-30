@@ -54,3 +54,4 @@ const sr = new AsposeCells.SheetRender(sheet, imgOptions);
 // Save the thumbnail directly
 sr.toImage(0, path.join(outputDir, "outputGenerateThumbnailOfWorksheet.jpg"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

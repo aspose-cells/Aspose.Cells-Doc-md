@@ -24,3 +24,4 @@ Aktiekurvor är ett specifikt diagram som används för att spåra prisförändr
 Följande dataset visar den dagliga handelsinformationen för en aktie. Vi kommer att använda dessa data för att skapa fyra typer av aktie-diagram: Hög-Låg-Stäng (HLC) aktie-diagram, Öppen-Hög-Låg-Stäng (OHLC) diagram, Volym-Hög-Låg-Stäng (VHLC) aktie-diagram och Volym-Öppen-Hög-Låg-Stäng (VOHLC) aktie-diagram. 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="python-net" >}}

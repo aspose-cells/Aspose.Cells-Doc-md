@@ -42,3 +42,4 @@ workbook.save(path.join(dataDir, "AddingCustomPropertiesVisible_out.xlsx"));
 - [Använd anpassade XML-delsar i Aspose.Cells](/cells/sv/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

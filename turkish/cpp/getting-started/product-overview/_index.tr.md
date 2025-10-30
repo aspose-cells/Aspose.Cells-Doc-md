@@ -82,3 +82,4 @@ Bu tablo, önemli Aspose.Cells for C++ teknik kaynaklarını listeler.
 |[Aspose.Cells for C++ indirme](https://downloads.aspose.com/cells/cpp)|Aspose.Cells'ın en son sürümünü buradan indirin. Sık sık güncelleme yapıyoruz.|
 |[Aspose.Cells for C++ destek forumu](https://forum.aspose.com/c/cells/9)|Hızlı çözüm için sorularınızı ve sorunlarınızı burada yayınlayın.|
 |[Aspose.Cells for C++ ürün belgeleri](/cells/tr/cpp/)|Bu belgeleme yanı sıra Aspose.Cells API Referansını içeren tam çevrimiçi belgeleme.|
+{{< app/cells/assistant language="cpp" >}}

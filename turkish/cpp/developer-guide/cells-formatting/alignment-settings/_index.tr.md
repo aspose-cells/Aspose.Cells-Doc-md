@@ -494,3 +494,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Hücre Düzenini Değiştirme ve Mevcut Biçimlendirmeyi Koruma](/cells/tr/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Satır Sonları ve Metin Kaydırma](/cells/tr/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

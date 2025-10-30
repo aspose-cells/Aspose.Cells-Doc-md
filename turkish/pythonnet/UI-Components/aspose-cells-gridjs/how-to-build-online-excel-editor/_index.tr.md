@@ -25,11 +25,11 @@ Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Doc
 
 ## Adım 1: Dockerfile Oluşturma
 
-Proje [kök dizininize](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/) bir `Dockerfile` isimli dosya oluşturun. `Dockerfile`, Docker imajınızın nasıl oluşturulacağını anlatan talimatları içermelidir.
+Projenize [dizin](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs) içinde `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker imajınızı nasıl oluşturacağınız konusunda talimatlar içermelidir.
 
 ## Adım 2: GridJs için Dockerfile Yazma
 
-İşte Python uygulamasıyla GridJs demo için örnek bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile):
+İşte GridJs demo için python uygulamasıyla birlikte bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs/Dockerfile) örneği:
 
 ```dockerfile
 # use Python 3.13 as parent image

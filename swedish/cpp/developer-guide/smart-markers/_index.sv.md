@@ -7,3 +7,4 @@ url: /sv/cpp/using-smart-markers/
 description: Smartt importera och placera data enligt mallexcelfiler med Aspose.Cells biblioteket.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

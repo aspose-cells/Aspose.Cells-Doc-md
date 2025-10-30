@@ -107,3 +107,4 @@ Aspose.Cells for Python via .NETでは、セルの範囲をフォーマット付
 次の例では、ソース範囲のセルを別の名前付き範囲にコピーする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

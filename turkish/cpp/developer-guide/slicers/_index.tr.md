@@ -121,3 +121,4 @@ int main()
 - [Süzgeci Kaldırma](/cells/tr/cpp/removing-slicer/)
 - [Dilimleyiciyi Oluşturma](/cells/tr/cpp/rendering-slicer/)
 - [Dilimleyici Güncelleme](/cells/tr/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

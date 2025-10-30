@@ -61,3 +61,4 @@ Du kommer att få en fil som liknar [resultatfilen](result.xlsx). I filen kommer
 
 ![](52449.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

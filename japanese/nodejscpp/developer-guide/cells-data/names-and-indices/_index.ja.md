@@ -51,3 +51,4 @@ Microsoft Excelは行と列のインデックスを1から数え始めます。�
 これは最初の名前です。
 
 ` <> + (形容詞Private _ " Private"
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -102,3 +102,4 @@ int main()
 - [外部リンク付きの範囲を取得する](/cells/ja/cpp/get-range-with-external-links/)
 - [非連続範囲の実装](/cells/ja/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

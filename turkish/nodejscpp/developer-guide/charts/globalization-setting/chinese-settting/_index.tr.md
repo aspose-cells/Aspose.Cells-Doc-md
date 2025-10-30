@@ -110,3 +110,4 @@ Yukarıdaki işlemden sonra, Çin Bölgesi ayarlamazsak, bir çıktı grafik res
 |Other Name|其他|Diğer|  
 |Series Name|系列|Seri|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

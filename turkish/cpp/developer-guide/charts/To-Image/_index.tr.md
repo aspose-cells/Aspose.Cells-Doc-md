@@ -226,3 +226,4 @@ Desteklenmeyen grafik türlerini resim veya PDF'e dönüştürmeye çalışırsa
 
 ## **Gelişmiş Konular**
 - [Grafiği PDF'ye Dönüştürme](/cells/tr/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

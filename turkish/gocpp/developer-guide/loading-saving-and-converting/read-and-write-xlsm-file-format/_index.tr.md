@@ -15,4 +15,4 @@ Aşağıdaki örnek kod, [kaynak XLSM dosyasını](23166990.xlsm) yükler, A1 h�
 
 ## **Örnek Kod**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadNumbersSpreadsheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadAndWriteXLSMFileFormat.go" >}}

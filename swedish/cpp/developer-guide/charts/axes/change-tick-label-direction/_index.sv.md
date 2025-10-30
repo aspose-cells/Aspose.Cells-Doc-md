@@ -73,3 +73,4 @@ Käll- och utdatafilerna kan laddas ned från följande länkar.
 [Källfil](105480221.xlsx)
 
 [Utdatasfil](105480223.xlsx)
+{{< app/cells/assistant language="cpp" >}}

@@ -35,3 +35,4 @@ Aşağıdaki C# kod örneği, bir HTML belgesini [Aspose.Cells Python via NET](h
 [Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML'den PDF'e”</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>
+{{< app/cells/assistant language="python-net" >}}

@@ -107,3 +107,4 @@ Kesir biçimini uyguladıktan sonra, çalışma kitabını bir dosyaya kaydedin:
 - Aspose.Cells, ondalık, yüzde, para birimi ve daha fazlası dahil olmak üzere geniş bir sayı biçimi yelpazesini destekler. İhtiyacınıza göre biçimi özelleştirebilirsiniz.
 
 Bu adımları izleyerek, Aspose.Cells for Node.js via C++'te sayıları kolayca kesir olarak biçimlendirebilirsiniz. Bu, özellikle finansal, istatistiksel veya eğitim uygulamalarında hassas kesirli değerlerin gerekli olduğu durumlarda yararlı olabilir.
+{{< app/cells/assistant language="nodejs-cpp" >}}

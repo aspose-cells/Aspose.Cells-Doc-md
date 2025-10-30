@@ -32,3 +32,4 @@ Burada, [Aspose.Cells for Python via .NET](https://products.aspose.com/cells/) k
 Yukarıdaki kodu projenizde çalıştırdığınızda aşağıdaki sonuçları elde edersiniz:
 
 ![](3.png)
+{{< app/cells/assistant language="python-net" >}}

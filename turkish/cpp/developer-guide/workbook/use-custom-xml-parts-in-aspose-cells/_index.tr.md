@@ -78,3 +78,4 @@ int main()
 ## İlgili Makale
 
 - [Belge Bilgisi Panelinde Görünen Özel Özellikleri Ekleme](/cells/tr/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

@@ -103,3 +103,4 @@ Aspose.Cells for Node.js via C++の数値を科学表記に書式設定するに
 ### 結論
 
 これらの手順に従うことで、Aspose.Cells for Node.js via C++の数値を科学表記に書式設定できます。書式文字列（"0.00E+00"）は必要に応じてカスタマイズし、少数点以下の桁数やその他の書式を調整してください。
+{{< app/cells/assistant language="nodejs-cpp" >}}

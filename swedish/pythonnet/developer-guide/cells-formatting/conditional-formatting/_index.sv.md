@@ -80,3 +80,4 @@ Du kan bara använda tunna linjestilar till ytterkanten. Diagonala linjer är in
 - [Hämta ikonsatser, databarer eller färgskalor som används i villkorlig formatering](/cells/sv/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

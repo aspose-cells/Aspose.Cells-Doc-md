@@ -166,3 +166,4 @@ int main()
 - [Bağlantı Türünü Algılamak](/cells/tr/cpp/detect-hyperlink-type/)
 - [Çalışma Sayfasının Bağlantılarını Düzenleme](/cells/tr/cpp/editing-hyperlinks-of-worksheet/)
 - [Aralıktaki Bağlantıları Al](/cells/tr/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

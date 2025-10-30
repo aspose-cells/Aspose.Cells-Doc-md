@@ -53,3 +53,4 @@ Här är konsolens utmatning av ovanstående kod efter att ha laddat den [käll-
 Is 567 correct Password to modify: False  
 Is 5678 correct Password to modify: True  
 {{< /highlight >}}  
+{{< app/cells/assistant language="nodejs-cpp" >}}

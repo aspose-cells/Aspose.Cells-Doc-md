@@ -19,7 +19,7 @@ Aspose.Cellsは、[**PivotTable.ShowInCompactForm()**](https://reference.aspose.
 
 {{% /alert %}}
 
-次のサンプルコードは、最初にピボットテーブルを[コンパクト形式]で表示し、その後[アウトライン形式]で、最後に[タブラー形式]で表示します。
+次のサンプルコードは、最初にピボットテーブルを【コンパクト形式】で表示し、その後【アウトライン形式】で、最後に【タブラー形式】で表示します。
 
 ```cpp
 #include <iostream>
@@ -83,3 +83,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

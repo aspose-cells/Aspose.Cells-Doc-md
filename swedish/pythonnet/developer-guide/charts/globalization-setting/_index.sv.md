@@ -40,3 +40,4 @@ Följande diagramelement kommer att renderas enligt dina lokaliseringsinställni
 | Annat Namn                   | Annat                              |
 | Serienamn                     | Serien                              |
 
+{{< app/cells/assistant language="python-net" >}}

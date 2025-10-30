@@ -78,3 +78,4 @@ Aspose.Cells for Python via .NET を使用して、NumPy 配列から Name に�
 出力結果：
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

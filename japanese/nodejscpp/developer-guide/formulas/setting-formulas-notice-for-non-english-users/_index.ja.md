@@ -17,3 +17,4 @@ url: /ja/nodejs-cpp/setting-formulas-notice-for-non-english-users/
 
 1. 式は英語で入力する必要があります。たとえば、"=SUM()" を使用し、"=SUMME()" ではなく、ドイツ語の "=SUMME()" を使用しないでください。
 1. 関数パラメータは常にコンマ（,）で区切ります。一部の言語設定やオプションでは、関数パラメータの区切り文字がセミコロン（;）の場合がありますが、Aspose.Cellsは英語スタイルのコンマを使用します。例えば、「=IF (C5=0,0,C3/C4)」を使用し、「=IF(C5=0;0;C3/C4)」は避けてください。  
+{{< app/cells/assistant language="nodejs-cpp" >}}

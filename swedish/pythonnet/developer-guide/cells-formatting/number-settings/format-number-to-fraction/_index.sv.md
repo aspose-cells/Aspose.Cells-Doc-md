@@ -112,3 +112,4 @@ Här är ett kodexempel som demonstrerar dessa steg:
 
 Genom att följa dessa steg kan du enkelt formatera nummer som bråktal i Aspose.Cells för Python via .NET. Detta kan vara särskilt användbart för finansiella, statistiska eller pedagogiska tillämpningar där precisa bråkvärden är nödvändiga.
 
+{{< app/cells/assistant language="python-net" >}}

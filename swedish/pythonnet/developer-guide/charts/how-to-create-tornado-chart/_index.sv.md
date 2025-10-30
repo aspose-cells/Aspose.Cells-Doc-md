@@ -36,3 +36,4 @@ Se följande exempel. Den laddar den [exempel-Excelfil](sample.xlsx) som innehå
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-tornado-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

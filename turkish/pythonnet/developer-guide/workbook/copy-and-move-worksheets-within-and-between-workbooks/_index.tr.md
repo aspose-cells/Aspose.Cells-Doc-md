@@ -53,3 +53,4 @@ Kod çalıştırıldığında, Kopya adlı çalışsayfa, İkinciÇalışmaKitab
 Kod çalıştırıldığında, İlkÇalışmaKitabı.xlsx içindeki Move adlı çalışsayfa, İkinciÇalışmaKitabı.xlsx içine Sheet3 adıyla taşınır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.py" >}}
+{{< app/cells/assistant language="python-net" >}}

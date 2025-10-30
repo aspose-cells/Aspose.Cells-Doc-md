@@ -1,5 +1,5 @@
 ---  
-title: Excel ワークシートの最初の列を固定する方法[Node.js/C++]  
+title: Excel ワークシートの最初の列を固定する方法【Node.js/C++】  
 linktitle: 列を固定する  
 type: docs  
 weight: 190  
@@ -51,3 +51,4 @@ workbook.save("frozen.xlsx");
 
 添付 [サンプルExcelファイル](Freeze.xlsx)。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

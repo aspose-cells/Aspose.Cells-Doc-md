@@ -61,3 +61,4 @@ workbook.save("result.xlsx", AsposeCells.SaveFormat.Xlsx);
 
 ![](52449.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -41,3 +41,4 @@ Det är möjligt att centrera någonting på en sida horisontellt och vertikalt.
 Ställ in sidhuvud- och sidfotmarginaler med medlemmar i [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup)-klassen som [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) och [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

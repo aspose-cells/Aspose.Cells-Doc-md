@@ -21,3 +21,4 @@ Följande exempelkod visar hur du kan spara Excel till PDF med standard- eller m
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveExcelIntoPdfWithOptimizedSize.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -41,3 +41,4 @@ sheet.setDisplayZeros(false);
 // Save the workbook
 workbook.save(path.join(dataDir, "outputfile.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

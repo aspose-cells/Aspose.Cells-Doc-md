@@ -6,5 +6,5 @@ url: /tr/java/this-file-format-is-not-supported-or-you-do-not-specify-a-correct-
 ---
 
 ## **Bu dosya formatı desteklenmiyor veya doğru bir biçim belirtmediniz**
-Kullanıcı, şablon dosyasından çalışma kitabı oluştururken dosya formatını belirttiyse, genellikle bu hatanın sebebi belirtilen dosya formatının şablon dosyasının gerçek dosya formatı olmamasıdır. Kullanıcı dosya formatını belirtmediyse, genellikle dosya adı uzantısı bu dosyanın gerçek dosya formatını temsil etmiyorsa ve dosya formatı otomatik olarak algılanamıyorsa, örneğin csv/tsv dosyası gibi özel tanımlayıcıları olmayan bir dosya olması durumunda.
+Kullanıcı şablon dosyasından çalışma kitapları oluştururken dosya biçimini belirtmişse, genellikle bu hata belirtilen dosya biçiminin şablon dosyasının gerçek dosya biçimi olmamasından kaynaklanır. Kullanıcı dosya biçimini belirtmemişse, genellikle bu durum dosya ad uzantısının dosyanın gerçek biçimini yansıtmaması ve otomatik olarak tespit edilememesi nedeniyle olur, örneğin herhangi bir özel tanımlayıcı olmayan csv/tsv dosyası. Elbette, Cells tarafından desteklenmeyen dosya biçimleri de bu hatayı rapor eder.
 {{< app/cells/assistant language="java" >}}

@@ -57,3 +57,4 @@ Du kan använda vilka källarbetsböcker som helst. Dessa bilder är bara för i
 - [Kombinera flera arbetsblad till ett enda arbetsblad](/cells/sv/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Sammanfoga filer](/cells/sv/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

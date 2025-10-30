@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Lägg till signaturraden i arbetsbladet](/cells/sv/nodejs-cpp/add-signature-line/)  
 - [Stöd för XAdES-signatur](/cells/sv/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

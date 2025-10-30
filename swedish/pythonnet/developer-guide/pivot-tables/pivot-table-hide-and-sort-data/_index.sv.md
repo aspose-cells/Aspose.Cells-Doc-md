@@ -19,3 +19,4 @@ Käll- och utdata-excelfilerna som används i kodsnutten är bifogade för refer
 [Källfil](96928093.xlsx)
 
 [Utgångsfil](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

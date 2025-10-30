@@ -40,3 +40,4 @@ Aşağıda sağlanan bağlantıdaki [örnek excel dosyası](5115032.xlsm) kullan
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

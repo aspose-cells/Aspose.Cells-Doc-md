@@ -48,3 +48,4 @@ Is Smart Art Shape: True
 
 {{< /highlight >}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

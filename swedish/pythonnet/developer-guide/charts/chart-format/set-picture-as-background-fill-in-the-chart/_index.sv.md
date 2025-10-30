@@ -18,3 +18,4 @@ För att uppnå detta tillhandahåller Aspose.Cells för Python via .NET egenska
 ## C#-kod för att ställa in bild som bakgrundsfyllning i diagrammet
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

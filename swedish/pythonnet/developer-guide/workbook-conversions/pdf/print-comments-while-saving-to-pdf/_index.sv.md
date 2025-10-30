@@ -28,3 +28,4 @@ Aspose.Cells för Python via .NET tillhandahåller [**PrintCommentsType**](https
 Följande exempelkod illustrerar hur man använder [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) för att skriva ut kommentarer när man sparar till PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

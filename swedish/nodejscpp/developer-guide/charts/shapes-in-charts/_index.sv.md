@@ -213,3 +213,4 @@ workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ## **Fortsatta ämnen**
 - [Lägg till WordArt-vattenstämpel på diagram](/cells/sv/nodejs-cpp/add-wordart-watermark-to-chart/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

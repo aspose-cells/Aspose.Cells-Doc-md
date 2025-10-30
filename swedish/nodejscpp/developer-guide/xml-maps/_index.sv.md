@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [Hitta rotresursnamnet på XML-kartan](/cells/sv/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [Länka celler till XML-kartelement](/cells/sv/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

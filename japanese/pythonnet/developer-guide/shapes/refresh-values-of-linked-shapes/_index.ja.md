@@ -22,3 +22,4 @@ url: /ja/python-net/refresh-values-of-linked-shapes/
 ### リンクされた図形の値を更新するためのC＃コード
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RefreshValueOfLinkedShapes-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

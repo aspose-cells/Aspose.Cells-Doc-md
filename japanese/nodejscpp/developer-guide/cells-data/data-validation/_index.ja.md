@@ -132,3 +132,4 @@ Aspose.Cells for Node.js via C++の各[**Worksheet**](https://reference.aspose.c
 - [セルに適用された検証を取得する](/cells/ja/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [セルの値がデータ検証ルールを満たすかどうかを確認する](/cells/ja/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

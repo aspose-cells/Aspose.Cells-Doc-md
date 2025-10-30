@@ -83,3 +83,4 @@ int main()
 - [Grafik Noktasının Zengin Metin Özel Veri Etiketi](/cells/tr/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama](/cells/tr/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Veri Etiketleri Olarak Hücre Aralığını Gösterme](/cells/tr/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

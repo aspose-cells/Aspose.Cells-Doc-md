@@ -37,7 +37,7 @@ Denna arbetsbok kommer alltid att visas som aktiv arbetsbok. Endast i licensiera
 <br>
 
 ### **3: e Begränsning: Ren text med utvärderingsinformation**
-I den utdataren textfilen av Aspose.Cells kommer utvärderingsinformationen att läggas till i slutet av dokumentet.
+I utdatafilen i vanlig textformat av Aspose.Cells kommer ett utvärderingsmeddelande att läggas till i slutet av dokumentet. Vid spara till vanlig text (såsom CSV och TSV) visas endast innehållet i det första arbetsbladet.
 <br>
 <image src="2.png" width="70%" />
 <br>

@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **高度なトピック**
 - [ワークシート内の結合セルを検出する](/cells/ja/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

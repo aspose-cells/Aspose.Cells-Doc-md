@@ -28,6 +28,9 @@ Aspose.Cellsは32ビット環境と64ビット環境の両方をサポートし�
 |Xamarin.Android|Xamarin.Androidを使用するためのアセンブリが含まれています。
 |net5.0|.net5.0を使用するためのアセンブリが含まれています。
 |net6.0|.net6.0を使用するためのアセンブリが含まれています。
+|net8.0|net8.0 と共に使用するアセンブリを含む|
+|net9.0|net9.0 と共に使用するアセンブリを含む|
+
 {{% alert color="primary" %}} 
 
 VS.NETでは（たとえば2005年、2008年、2010年、2012年など）、Aspose.Cellsへの参照を追加する場合、参照の追加ダイアログはそれぞれnet2.0またはnet3.5フォルダ内のAspose.Cells.dllファイルを参照します。（詳細は[.NETプロジェクトからAspose.Cellsへの参照付与](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)を参照してください。）プロジェクトのターゲットフレームワークが.NET Framework 3.5/4 Client Profileである場合は、net_ClientProfileフォルダ内のAspose.Cells.dllコンポーネントファイルを使用してください。

@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NETは、Shapeの調整ポイントを変更する�
 以下のコードサンプルは、シェイプの調整値を変更する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

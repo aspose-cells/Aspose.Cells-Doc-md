@@ -52,3 +52,4 @@ int main()
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

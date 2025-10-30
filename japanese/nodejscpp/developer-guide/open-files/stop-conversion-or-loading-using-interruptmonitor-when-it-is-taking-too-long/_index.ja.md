@@ -25,7 +25,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-[CSV]のセル**J1000000**はXLSXファイルではかなり遠いセルです。しかし、**waitForWhileAndThenInterrupt()**メソッドは10秒後に変換を中断し、プログラムは終了します。こちらのコードを使ってサンプルコードを実行してください。
+【CSV】のセル**J1000000**はXLSXファイルではかなり遠いセルです。しかし、**waitForWhileAndThenInterrupt()**メソッドは10秒後に変換を中断し、プログラムは終了します。こちらのコードを使ってサンプルコードを実行してください。
 
 {{< highlight javascript >}}
 
@@ -100,3 +100,4 @@ this.waitForWhileAndThenInterrupt();
 resolve();
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

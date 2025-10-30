@@ -48,3 +48,4 @@ Aşağıdaki örnek, mevcut bir dosya için Aspose.Cells for Python via .NET API
 - [Çalışma Kitabını Yazma Koruması Sırasında Yazar Belirtme](/cells/tr/python-net/specify-author-while-write-protecting-workbook/)
 - [Şifreli Dosyaların Parolasını Doğrulama](/cells/tr/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

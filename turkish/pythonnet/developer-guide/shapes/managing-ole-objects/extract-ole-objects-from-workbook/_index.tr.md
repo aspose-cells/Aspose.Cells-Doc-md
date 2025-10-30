@@ -31,3 +31,4 @@ Ardından OLE nesneleri çıkarın ve bunları dosya türlerine göre sabit disk
 Aşağıdaki kod, OLE nesnelerini bulma ve çıkartma işlemini gerçekleştirir. (DOC, XLS ve PDF dosyaları) diskte kaydedilir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

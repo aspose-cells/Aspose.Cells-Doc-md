@@ -21,3 +21,4 @@ Aşağıdaki konsol çıktısı, mevcut *Adlandırılmış Aralık* için [Full
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

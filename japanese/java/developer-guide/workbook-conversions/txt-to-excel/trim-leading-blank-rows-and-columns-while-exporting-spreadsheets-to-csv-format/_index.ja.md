@@ -21,7 +21,7 @@ ExcelまたはCSVファイルには先行する空白の列または行が含ま
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET 20.4のリリース前は、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)のデフォルト値は**false**でした。 20.4リリース以降、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)のデフォルト値は**true**です。
+Aspose.Cells for Java 20.4リリース以前は、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)の既定値は**false**でした。20.4リリース以降、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)の既定値は**true**になりました。
 
 {{% /alert %}}
 

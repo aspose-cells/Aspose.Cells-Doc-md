@@ -190,3 +190,4 @@ Ange utskriftskvaliteten för arbetsboken som ska skrivas ut med hjälp av klass
 Starta numreringen av arbetsbokssidorna med hjälp av klassens [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)-egenskap. [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/)-egenskapen ställer in sidnumret för första arbetsbokssidan och följande sidor numreras i stigande ordning.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

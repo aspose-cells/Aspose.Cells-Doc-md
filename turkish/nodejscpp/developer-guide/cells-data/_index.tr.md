@@ -82,3 +82,4 @@ Yukarıda tanımlanan hücre değeri tiplerini aynı zamanda her hücrede buluna
 - [Veri İlk Olarak Satır, Sonra Sütun Olarak Doldurma](/cells/tr/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Hücre Değerinin veya Aralığın Ön Eklemesini Koruma](/cells/tr/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Zengin Metnin Kısımlarına Erişme ve Güncelleme](/cells/tr/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

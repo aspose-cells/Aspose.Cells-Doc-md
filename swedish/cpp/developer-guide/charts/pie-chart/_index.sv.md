@@ -339,3 +339,4 @@ int main()
 - [Anpassa diagram](/cells/sv/cpp/customizing-charts/)
 - [Dataformatering i diagram](/cells/sv/cpp/data-formatting-in-charts/)
 - [Ställa in diagramens utseende](/cells/sv/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

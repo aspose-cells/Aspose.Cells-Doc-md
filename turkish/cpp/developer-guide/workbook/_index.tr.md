@@ -142,3 +142,4 @@ int main() {
 
 ## **Sonuç**
 Aspose.Cells for C++, çalışma kitapları ve çalışma sayfalarını yönetmek için kapsamlı araçlar sunar. İster yeni bir çalışma kitabı oluşturmanız, ister mevcut birini açmanız veya çalışma sayfalarını manipüle etmeniz gereketsin, Aspose.Cells Excel dosyalarıyla programlı olarak çalışmayı kolaylaştırır.
+{{< app/cells/assistant language="cpp" >}}

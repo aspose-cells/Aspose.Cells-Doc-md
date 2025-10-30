@@ -77,3 +77,4 @@ Tüm [Aspose](http://www.aspose.com/) bileşenleri, kurulduğunda değerlendirme
 1. Grafik dinamik olarak bir görüntü olarak dönüştürün. Bileşen tarafından görevi gerçekleştirmek için kullanılan kod aşağıda verilmiştir. Kod öncekiyle benzerdir:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

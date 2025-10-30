@@ -135,3 +135,4 @@ Se följande exempel som laddar [sample Excel-fil](dynamicArrayFormula.xlsx) som
 Utgångsbild:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

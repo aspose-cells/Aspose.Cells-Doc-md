@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Bilinmesi Gerekenler**
 
 Sayfa ayarları yapılandırılırken, **fitToPages** özellikleri ([**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) ve [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) ayarlandığında, sayfa kırma ayarları etkilenir, bu nedenle, çalışma sayfasını yazdırırken, ayarlar yine de yapılandırılmış olmasına rağmen dikkate alınmaz.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -26,3 +26,4 @@ I avancerade ämnen visar vi dig hur du använder Aspose.Cells för att skapa dy
 - [Skapa dynamiskt skrollande diagram med Aspose.Cells](/cells/sv/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Skapa dynamiskt diagram med dropdownlista med Aspose.Cells](/cells/sv/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

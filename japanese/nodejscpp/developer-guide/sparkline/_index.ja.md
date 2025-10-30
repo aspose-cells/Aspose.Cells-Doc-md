@@ -63,3 +63,4 @@ book.save(path.join(dataDir, "output.xlsx"));
 
 ## **高度なトピック**
 - [スパークラインの使用と 3D フォーマットの設定](/cells/ja/nodejs-cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

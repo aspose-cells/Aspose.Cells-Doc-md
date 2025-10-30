@@ -10,3 +10,4 @@ keywords: c# ile excel çalışma sayfası hücrelerini sayma, excel çalışma 
 Aşağıdaki örnekte verilen kod örneğinde gösterildiği gibi, çalışma sayfasındaki hücre sayısını [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) veya [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) özelliklerini kullanarak sayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

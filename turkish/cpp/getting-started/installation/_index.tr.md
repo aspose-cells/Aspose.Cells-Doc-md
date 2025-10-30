@@ -26,3 +26,4 @@ Ayrıca Aspose.Cells for C++'i [indirme sayfasından](https://downloads.aspose.c
 1. [En son dosyaları indirin/kurun](https://downloads.aspose.com/cells/cpp/).
 1. Klasörü üretim ortamına açın.
 1. Aspose.Cells for C++'i kullanmak için, projenizde "Include" ve "libAspose.Cells.dylib" dizinlerine referans verin.
+{{< app/cells/assistant language="cpp" >}}

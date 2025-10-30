@@ -13,3 +13,4 @@ Aspose.Cells for Python via .NETは、正規表現を使用してワークブッ
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-RegexReplace-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

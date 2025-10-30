@@ -44,3 +44,4 @@ Aspose.Cellsは、他のソフトウェアに依存せずにスプレッドシ�
 次のサンプルコードと、参照用の[出力PDF](67338371.pdf)をご覧ください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

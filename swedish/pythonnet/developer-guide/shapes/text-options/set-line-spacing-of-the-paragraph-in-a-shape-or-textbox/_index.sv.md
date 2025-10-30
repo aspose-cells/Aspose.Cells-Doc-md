@@ -14,3 +14,4 @@ Du kan ställa in radavståndet för stycket, dess utrymme före och efter med h
 Följande kodexempel förklarar användningen av de nämnda egenskaperna.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetTextboxOrShapeParagraphLineSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

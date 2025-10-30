@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NET, Microsoft Excel'de açıldığında OLE nesnes
 Aşağıdaki örnek kod, gerçek dışı bir OLE görüntüsüne sahip olan [örnek excel dosyasını](5115231.xlsx) yükler. OLE nesnesi aslında bir Microsoft Word belgesidir ancak örnek excel dosyası, Microsoft Word görüntüsü yerine hayvan görüntüsünü göstermektedir. Ancak [çıktı excel dosyasını](5115225.xlsx) açarsanız, Microsoft Excel'in doğru OLE görüntüsünü gösterdiğini göreceksiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-OLE-RefreshOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

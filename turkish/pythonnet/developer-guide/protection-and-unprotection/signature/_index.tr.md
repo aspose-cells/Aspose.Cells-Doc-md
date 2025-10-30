@@ -33,3 +33,4 @@ Aşağıdaki örnek kod, nasıl yapılacağını anlatmakta ve Aspose.Cells for 
 - [Çalışma sayfasına İmza satırı eklemek](/cells/tr/python-net/add-signature-line/)
 - [XAdES İmzası Desteği](/cells/tr/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

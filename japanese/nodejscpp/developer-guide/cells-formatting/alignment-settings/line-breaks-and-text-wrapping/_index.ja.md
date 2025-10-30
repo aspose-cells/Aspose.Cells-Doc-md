@@ -25,3 +25,4 @@ JavaScriptで‘\n’を使用してセル内に明示的な改行を挿入で�
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

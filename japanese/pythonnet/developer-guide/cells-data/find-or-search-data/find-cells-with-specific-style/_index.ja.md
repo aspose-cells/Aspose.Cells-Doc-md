@@ -16,3 +16,4 @@ keywords: Python Excel ライブラリ、特定のスタイルが適用された
 この例のコードは、セルA1と同じスタイルのすべてのセルを見つけます。コードが実行された後、A1と同じスタイルのすべてのセルにはテキスト「Found」が含まれます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindCellsWithSpecificStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

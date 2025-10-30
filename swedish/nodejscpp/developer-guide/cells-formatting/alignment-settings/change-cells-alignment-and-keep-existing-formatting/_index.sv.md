@@ -21,3 +21,4 @@ Den följande exempelkoden läser in den [exempel Excel-filen](67338585.xlsx), s
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-ChangeCellsAlignment.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

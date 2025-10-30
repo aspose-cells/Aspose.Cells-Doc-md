@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NETは、（画像、グラフなどを含む）XLS
 スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

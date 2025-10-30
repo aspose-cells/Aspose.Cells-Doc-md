@@ -28,6 +28,9 @@ Aspose.Cells, hem 32-bit hem de 64-bit ortamları destekler. Aspose.Cells MSI y�
 |Xamarin.Android|Xamarin.Android ile kullanılacak derlemeleri içerir|
 |net5.0|.net5.0 ile kullanılacak derlemeleri içerir|
 |net6.0|.net6.0 ile kullanılacak derlemeleri içerir|
+|net8.0|.net8.0 ile kullanmak için derlemeleri içerir.|
+|net9.0|.net9.0 ile kullanmak için derlemeleri içerir.|
+
 {{% alert color="primary" %}} 
 
 VS.NET'de (örneğin 2005, 2008, 2010, 2012 vb.) projelere Aspose.Cells'e bir referans eklediğinizde, Aspose.Cells.dll dosyalarına sırasıyla net2.0 veya net3.5 klasör(ler)indeki Add Reference iletişim kutusu söz konusudur. (Daha fazla bilgi için .NET projesinden Aspose.Cells'e atıfta bulunma bölümünü okuyun.) Referansı ortamınıza göre kütüphaneye değiştirebilirsiniz. Lütfen projenin hedef çerçevesini .NET Framework 3.5/4 Client Profile ise, net_ClientProfile klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanın.

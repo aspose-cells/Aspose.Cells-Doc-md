@@ -23,3 +23,4 @@ Aşağıdaki kod parçası, açıklamanın nasıl yönetileceğini göstermekted
 
 ## **Gelişmiş Konular**
 - [Aspose.Cells for Python via .NET kullanarak grafik sembol girişlerinin metnini hiçbir şeye dönüştürmeden ayarlama](/cells/tr/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

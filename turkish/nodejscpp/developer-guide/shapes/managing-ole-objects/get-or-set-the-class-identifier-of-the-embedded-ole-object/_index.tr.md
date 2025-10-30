@@ -45,3 +45,4 @@ Yukarıdaki örnek kodun, [örnek Excel dosyası](5115190.xls) kullanılarak ça
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4  
 {{< /highlight >}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

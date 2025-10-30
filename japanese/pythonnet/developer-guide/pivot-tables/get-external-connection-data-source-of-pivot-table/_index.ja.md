@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET は、Pivot Table の外部接続データソ�
 コードスニペットで使用されるソースファイルは、参照用に添付されています。
 
 [ソースファイル](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

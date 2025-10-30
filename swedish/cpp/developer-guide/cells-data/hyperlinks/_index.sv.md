@@ -166,3 +166,4 @@ int main()
 - [Identifiera hyperlänkstyp](/cells/sv/cpp/detect-hyperlink-type/)
 - [Redigera hyperlänkar på arbetsbladet](/cells/sv/cpp/editing-hyperlinks-of-worksheet/)
 - [Hämta hyperlänkar i omfånget](/cells/sv/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

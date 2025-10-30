@@ -19,3 +19,4 @@ Aşağıdaki kod örneği, [kaynak ODS dosyasını](101089354.ods) yükleyerek v
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

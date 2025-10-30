@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın](/cells/tr/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tablolar ve Aralıklar](/cells/tr/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

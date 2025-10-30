@@ -24,3 +24,4 @@ Aspose.Cells Python via .NET, Excel dosyalarını Ods, Sxc ve Fods dosyalarına 
 ## **Gelişmiş Konular**
 - [ODS Dosyasını ODF 1.1 ve 1.2 Özelliklerine Kaydetme](/cells/tr/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [ODS Dosyalarında Arkaplanla Çalışma](/cells/tr/python-net/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="python-net" >}}

@@ -106,3 +106,4 @@ I den genererade filen kommer diagrammet dynamiskt att räkna data för den vald
 ```
 
 Du kan prova att ändra värde i listrutan i cellen "Ark1!$A$10", och du kommer att se den dynamiska förändringen av diagrammet. Nu har vi skapat ett dynamiskt diagram med rullgardinsmeny med hjälp av Aspose.Cells framgångsrikt.
+{{< app/cells/assistant language="nodejs-cpp" >}}

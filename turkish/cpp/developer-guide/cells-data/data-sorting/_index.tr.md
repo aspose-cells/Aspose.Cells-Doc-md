@@ -151,3 +151,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Özel Sıralama Listesi ile Sütunda Verileri Sıralama](/cells/tr/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Veri Sıralama Sırasında Uyarıyı Belirtme](/cells/tr/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

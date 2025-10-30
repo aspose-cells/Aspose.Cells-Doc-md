@@ -17,3 +17,4 @@ url: /ja/python-net/adding-2-color-scale-and-3-color-scale-conditional-formattin
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-AddColorScales.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

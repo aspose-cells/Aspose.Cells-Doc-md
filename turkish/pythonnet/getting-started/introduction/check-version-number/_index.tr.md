@@ -29,3 +29,4 @@ Kullandığınız Aspose.Cells'in sürüm numarasını manuel olarak bulmak içi
 Aspose.Cells kullanarak sürüm numarasını API aracılığıyla bulmak için, CellsHelper sınıfının GetVersion statik yöntemini kullanarak Aspose.Cells'in sürüm numarasını alın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CheckVersionNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

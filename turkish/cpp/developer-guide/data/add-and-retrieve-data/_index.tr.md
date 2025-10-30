@@ -45,3 +45,4 @@ Hücrede bulunan verinin türü ayrıca [Cell](https://reference.aspose.com/cell
 Ayrıca, yukarıda önceden tanımlanmış hücre değer türlerini, her hücrede bulunan verinin Türü ile karşılaştırmak için de kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

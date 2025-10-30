@@ -25,3 +25,4 @@ Nedan visas exempel på kod som visar hur du hämtar validering som är tillämp
 ## Relaterade artiklar
 
 - [Data validering](/cells/sv/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

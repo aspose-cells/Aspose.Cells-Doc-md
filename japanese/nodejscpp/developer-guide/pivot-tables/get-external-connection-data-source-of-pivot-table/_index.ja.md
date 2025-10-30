@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++はピボットテーブルの外部接続デー
 コードスニペットで使用されるソースファイルは、参照用に添付されています。
 
 [ソースファイル](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

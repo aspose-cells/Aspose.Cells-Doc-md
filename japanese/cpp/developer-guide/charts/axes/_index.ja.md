@@ -88,3 +88,4 @@ int main()
 - [Microsoft Excelのようにチャートの軸の自動単位を処理する](/cells/ja/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [チャートを計算した後に軸ラベルを読み取る](/cells/ja/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Excelチャートでカテゴリ軸を設定する方法](/cells/ja/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

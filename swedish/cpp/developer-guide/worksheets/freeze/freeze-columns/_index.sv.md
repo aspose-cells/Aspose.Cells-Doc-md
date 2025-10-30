@@ -59,3 +59,4 @@ int main()
 ```
 
 Bifogad [provkälla Excel-fil](Frys.xlsx).
+{{< app/cells/assistant language="cpp" >}}

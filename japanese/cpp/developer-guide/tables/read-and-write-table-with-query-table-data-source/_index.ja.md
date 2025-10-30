@@ -54,3 +54,4 @@ int main()
 [ソースファイル](96928091.xls)
 
 [出力ファイル](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

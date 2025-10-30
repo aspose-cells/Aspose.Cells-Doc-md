@@ -70,3 +70,4 @@ wb.save(path.join(dataDir, "output.csv"), options);
 ## **Gelişmiş Konular**
 - [CSV formatına yayınlarken Boş Satırlar için Ayraçları Sakla](/cells/tr/nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [CSV formatına elektronik tabloları dışa aktarırken Öneki Boş Satırları ve Sütunları Kırp](/cells/tr/nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

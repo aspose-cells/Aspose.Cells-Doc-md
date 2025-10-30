@@ -44,3 +44,4 @@ Verilen bir çalışsayfada çok sayıda sütun bulunduğunda, render edilen PDF
 Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

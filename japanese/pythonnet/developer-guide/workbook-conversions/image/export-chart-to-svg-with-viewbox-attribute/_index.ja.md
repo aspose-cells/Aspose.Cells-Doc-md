@@ -36,3 +36,4 @@ keywords: PythonでviewBox属性を持つSVGにチャートをエクスポート
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -16,3 +16,4 @@ url: /ja/python-net/generate-conditional-formatting-databars-images/
 次のサンプルコードは、セルC1のDataBar画像を生成します。まず、セルの書式条件オブジェクトにアクセスし、そのオブジェクトから、[**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar)オブジェクトにアクセスして、その[**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image)メソッドを使用してセルの画像を生成します。最後に、画像をディスクに保存します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

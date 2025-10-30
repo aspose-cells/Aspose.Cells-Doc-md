@@ -25,3 +25,4 @@ Aşağıdaki örnek kod, Aspose.Cells for Python kullanarak sekme rengini nasıl
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-SetWorksheetTabColor-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

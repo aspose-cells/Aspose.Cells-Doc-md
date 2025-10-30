@@ -18,3 +18,4 @@ A1, B1, A2, B2 şeklinde veri yerleştirmek, A1, A2, B1, B2 şeklinde yerleştir
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

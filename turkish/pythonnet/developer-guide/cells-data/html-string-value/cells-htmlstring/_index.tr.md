@@ -26,3 +26,4 @@ Bu örnek aşağıdakileri göstermektedir:
 Yukarıdaki örnek kodun çıktısını aşağıdaki ekran görüntüsünde görebilirsiniz.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="python-net" >}}

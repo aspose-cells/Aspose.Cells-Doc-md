@@ -698,3 +698,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 - [Hämta cellvalidering i ODS-filer](/cells/sv/cpp/get-cell-validation-in-ods-files/)
 - [Få validering som tillämpas på en cell](/cells/sv/cpp/get-validation-applied-on-a-cell/)
 - [Verifiera att cellvärdet uppfyller datavalideringsreglerna](/cells/sv/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

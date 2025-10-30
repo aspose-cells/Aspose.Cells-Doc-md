@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [XML Haritasının Kök Eleman Adını Bul](/cells/tr/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [Hücreleri XML Haritası Elemanlarına Bağla](/cells/tr/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

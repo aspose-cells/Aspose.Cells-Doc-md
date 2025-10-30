@@ -30,3 +30,4 @@ Verilen bir çalışsayfada çok sayıda sütun bulunduğunda, render edilen PDF
 Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF formatına dönüştürmeden önce [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) yöntemini çağırmanız en iyisidir. Böyle yapmak, formül bağımlı değerlerin yeniden hesaplanmasını sağlayacak ve doğru değerler PDF olarak oluşturulacaktır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

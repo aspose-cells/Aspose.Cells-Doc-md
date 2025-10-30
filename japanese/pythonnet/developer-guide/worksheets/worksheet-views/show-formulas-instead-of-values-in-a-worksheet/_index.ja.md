@@ -16,3 +16,4 @@ Microsoft Excel では、**数式の表示**オプションを使って計算結
 Aspose.Cells for Python via .NETは、[**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas)プロパティを提供します。これをtrueに設定すると、Microsoft Excelが数式を表示するようになります。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

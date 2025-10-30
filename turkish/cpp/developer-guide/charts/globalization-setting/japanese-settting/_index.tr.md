@@ -126,3 +126,4 @@ Yukarıdaki işlemden sonra, Japon Bölgesi ile çıktı grafik resmi alabiliriz
 |Legend Total Adı|すべての|Toplam|
 |Diğer Adı|その他|Diğer|
 |Seri Adı|シリーズ|Seri|
+{{< app/cells/assistant language="cpp" >}}

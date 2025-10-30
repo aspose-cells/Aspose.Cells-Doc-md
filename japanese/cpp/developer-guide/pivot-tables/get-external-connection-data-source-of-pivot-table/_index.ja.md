@@ -58,3 +58,4 @@ int main()
 コードスニペットで使用されるソースファイルは、参照用に添付されています。
 
 [ソースファイル](104398862.xlsx)
+{{< app/cells/assistant language="cpp" >}}

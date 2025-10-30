@@ -120,3 +120,4 @@ Aspose.Cells for Python'i kullanarak Sutun verilerini Numpy ndarray'e nasıl dı
 ```
 ['Store' '3055' '3036' '3074']
 ```
+{{< app/cells/assistant language="python-net" >}}

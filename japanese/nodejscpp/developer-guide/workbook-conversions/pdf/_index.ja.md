@@ -238,3 +238,4 @@ workbook.save("outSourceWithCustProps.pdf", pdfSaveOptions);
 - [指定されたワークシートをPDFに保存](/cells/ja/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [PDFドキュメントをセキュアにする](/cells/ja/nodejs-cpp/secure-pdf-documents/)
 - [出力PDFおよび画像内の文字列の交差方法を指定](/cells/ja/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

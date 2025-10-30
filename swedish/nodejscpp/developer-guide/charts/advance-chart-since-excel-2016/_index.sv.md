@@ -70,3 +70,4 @@ BoxWhisker
 - [Skapa treemap-diagram](/cells/sv/nodejs-cpp/creating-treemap-chart/)  
 - [Skapa sunburst-diagram](/cells/sv/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

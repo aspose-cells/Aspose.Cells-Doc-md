@@ -87,3 +87,4 @@ Bu kod, sadece belirtilen hücrelerin (örneğin A1 ve B2) kilitlendiğinden emi
 <br>
 <img src="3.png" width=60% />
 
+{{< app/cells/assistant language="cpp" >}}

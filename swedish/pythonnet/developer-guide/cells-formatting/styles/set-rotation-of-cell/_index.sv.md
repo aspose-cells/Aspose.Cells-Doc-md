@@ -50,3 +50,4 @@ Var god se följande kod, den skapar ett arbetsboksobjekt och ställer in olika 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-rotate-text.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

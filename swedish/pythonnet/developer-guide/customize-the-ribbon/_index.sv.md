@@ -35,3 +35,4 @@ xml_path = os.path.join(data_dir, "CustomUI.xml")
 with open(xml_path, 'r') as sr:
     wb.ribbon_xml = sr.read()
 ```
+{{< app/cells/assistant language="python-net" >}}

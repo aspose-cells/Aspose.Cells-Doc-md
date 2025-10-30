@@ -1,5 +1,5 @@
 ---
-title: 宣言
+title: Webサーバー上の信頼できる権限
 type: docs
 weight: 30
 url: /ja/net/declaration/
@@ -8,6 +8,8 @@ url: /ja/net/declaration/
 {{% alert color="primary" %}} 
 
 一般的に、すべてのAspose .NETコンポーネントにはフルトラスト権限が必要です。その理由は、Aspose for .NETコンポーネントがフォントの解析などの特定の操作のために、登録表の設定、仮想ディレクトリ以外のシステムファイルへのアクセスが必要だからです。また、Aspose for .NETコンポーネント（Aspose.Cells for .NETを含む）は、多くの場合フルトラスト権限が必要なコア.NETシステムクラスに基づいています。
+<br/>
+Medium Trustは.NET Coreおよび.NET 5+では廃止されました。Medium Trustは.NET Framework時代のセキュリティメカニズムです。Medium Trustは段階的により柔軟なセキュリティポリシーに置き換えられています。ユーザーには.NET 5+へのアップグレードとコンテナ化された展開の採用を優先することをお勧めします。
 
 {{% /alert %}} 
 ## **部分信頼/中間信頼の課題**

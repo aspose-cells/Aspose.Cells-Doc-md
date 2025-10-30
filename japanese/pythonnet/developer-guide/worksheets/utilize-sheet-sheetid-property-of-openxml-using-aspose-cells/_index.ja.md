@@ -28,3 +28,4 @@ keywords: Python Excelライブラリ、PythonのシートIDプロパティ（Op
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

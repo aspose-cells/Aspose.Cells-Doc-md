@@ -41,7 +41,7 @@ docker build -t python_test .
 docker run python_test 
 {{< /highlight >}}
 
-- 注：
+## 注意：
 
 さまざまな言語を含むExcelファイルを開くサポートには、ICUのインストールが必要です。Python via .NETラッパーは.NET Core 3.1に基づいており、.NET Core 3.1はICUの特定のバージョン要件を持っているため、バージョン70を超えない必要があります。そのため、特定のバージョンのICUをインストールする必要があります。
 
@@ -49,3 +49,4 @@ docker run python_test
 ## 関連項目
 
 - [Windows に Docker Desktop をインストールする](https://docs.docker.com/docker-for-windows/install/)
+{{< app/cells/assistant language="python-net" >}}

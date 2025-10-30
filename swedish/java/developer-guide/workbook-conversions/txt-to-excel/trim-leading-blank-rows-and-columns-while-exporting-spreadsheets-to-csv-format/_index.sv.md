@@ -21,7 +21,7 @@ Som standard tar inte Aspose.Cells bort ledande tomma kolumner och rader vid spa
 
 {{% alert color="primary" %}}
 
-Innan utgivningen av Aspose.Cells for .NET 20.4, var standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **false**. Sedan 20.4-utgåvan är standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **true.**
+ Före utgivningen av Aspose.Cells for Java 20.4 var standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **falskt**. Sedan utgivningen av 20.4 är standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **sant.**
 
 {{% /alert %}}
 

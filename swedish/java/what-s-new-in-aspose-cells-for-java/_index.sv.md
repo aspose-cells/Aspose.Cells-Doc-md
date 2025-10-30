@@ -8,14 +8,68 @@ url: /sv/java/what-s-new-in-aspose-cells-for-java/
 
 Denna sida beskriver de mest intressanta nya funktionerna i Aspose.Cells som introduceras i de senaste versionerna.
 
+## Aspose.Cells for Java 25.10
+* Ge alternativ för att bestämma hur man ska utvärdera betydande siffror för numeriska värden
+* Support för att bearbeta exporterade celler med anpassade ExportTableOptions när ExportAsString är sant
+* Support för att tolka datum och tid med japansk kejsarmäre
+* Support för att uppdatera dynamiska array-formler som standard vid beräkning av formler för arbetsboken
+* Förbättra kompatibilitet med PdfBox-biblioteket för den genererade pdf-filen vid konvertering till pdf
+* Support för att beräkna stil för pivottabell vid rendering av pivottabellens område till bild
+* Exportera avancerade diagram från Excel 2016 till docx
+* Support för att fylla i kommentar på en cell med hjälp av Smart Markers
+
+## Aspose.Cells for Java 25.9
+* Stöd för WRAPCOLS, WRAPROWS funktion
+* Stöd för teckensnittvariation v&auml;ljare vid konvertering till xps
+* Stöd för teckensnittvariation v&auml;ljare vid konvertering till svg med inbäddat teckensnitt
+* Stöd för inbäddning av teckensnitt n&auml;r fil konverteras till html
+* Stöd för FlatOPC filsformat
+* Stöd för redigerbara diagram och inb&auml;ddade objekt (ole-objekt) till pptx-fil
+* Stöd f&ouml;r Master-Detail arbetsblad smartmarkörer
+* Stöd f&ouml;r smartmarkör f&ouml;r upprepning av arbetsblad
+
+## Aspose.Cells for Java 25.8
+* Stöd f&ouml;r nya funktioner i office 365: EXPAND, REDUCE, COT, COTH
+* Stöd f&ouml;r teckensnittvariation v&auml;ljare vid sparande av pdf
+* Stöd f&ouml;r att bevara frysda topprader vid sparande av HTML
+* Stöd f&ouml;r variabler i formel och "if"-parametrar f&ouml;r smartmarkör
+* Stöd f&ouml;r intervall smartmarkör f&ouml;r att behandla inb&auml;ddad datak&auml;lla
+* Stöd f&ouml;r uppläsning av base64-kodade bilder och l&auml;nkreferensdefinitioner vid Markdown-import
+* Stöd f&ouml;r justering och kantlinjealternativ i nummerformat f&ouml;r GridJs
+* Stöd f&ouml;r att applicera teckensnittinst&auml;llningar i textrutekontroll i klient JS f&ouml;r GridJs
+* Stöd f&ouml;r batchesinness&auml;ttning av radfunktion i menyn och under maxantalet rader f&ouml;r GridJs
+* Stöd f&ouml;r automatiskt textomslag f&ouml;r GridJs
+* Stöd för samarbetsläge för GridJs
+
+## Aspose.Cells for Java 25.7
+* Stöd för nya funktioner i formeln: TAKE, ISOMITTED
+* Stöd för variabler i Excelmall för smart markör
+* Stöd för export av flytande bild till Numbers
+* Stöd för användning av filcache för stor dataset av celler för att minska minneskostnad
+
+## Aspose.Cells for Java 25.6
+* Stöd för inbäddade typsnitt för genererad pcl-fil
+* Stöd för export av hyperlänk och utskriftsinställningar vid spara i Numbers
+* Stöd för att välja kalkylbladreferens för pivottabell vid kopiering av arbetsblad
+
+## Aspose.Cells for Java 25.5
+* Stöd för export av bilder i Markdown-format
+* Stöd för export av textruta, villkorlig formatering till Numbers-format
+* Stöd för export av inbäddad bild och enhetsdata till Docx-format
+* Stöd för kamera-funktion för område
+* Förbättring för kopiering av slicers vid kopiering av arbetsbok
+* Stöd för token-alternativ för API-förfrågan för GridJs
+* Stöd för polska menyer för GridJs
+* Stöd för javascript API:er för infogning/ta bort rader/kolumner för GridJs
+
 ## Aspose.Cells for Java 25,4
-* Stöder att specificera bladsets för export till HTML
-* Stöder att få och sätta rutnätlinjens färg i ett kalkylblad
-* Stöder att exportera redigerbara diagram till DOCX-filer
-* Stöder att läsa och skriva känslighetsetiketter
-* Stöder att exportera fler stilar till Numbers
-* Stöder att importera mallfiler i Markdown-format
-* Stöder att upptäcka om någon anpassad funktion används i formler i `Cell` och `Workbook`
+* Stöd för att ange kalkylbladssats för att exportera till HTML
+* Stöd för att få och sätta nätlinjefärgen för ett kalkylblad
+* Stöd för export av redigerbara diagram till DOCX-filer
+* Stöd för läsning och skrivning av känslighetsnivåetiketter
+* Stöd för att exportera fler stilattribut till Numbers
+* Stöd för import av mallfiler i Markdown-format
+* Stöd för att upptäcka om någon anpassad funktion används av formler i `Cell` och `Workbook`
 
 ## Aspose.Cells for Java 25,3
 * Stöd för att få visningsstil för en cell från celler utan att hämta cellobjektet

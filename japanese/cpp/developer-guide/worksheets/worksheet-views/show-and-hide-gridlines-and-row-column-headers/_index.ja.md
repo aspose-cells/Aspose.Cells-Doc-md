@@ -129,3 +129,4 @@ int main()
 [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/)と[**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/)のメソッドを使用して複数の行と列を表示させることも可能です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

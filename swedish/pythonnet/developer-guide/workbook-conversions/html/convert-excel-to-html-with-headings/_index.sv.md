@@ -16,3 +16,4 @@ Aspose.Cells for Python via NET ger möjligheten att exportera rubriker vid konv
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrintHeadings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -166,3 +166,4 @@ Excel, Aspose.Cells'de mevcut olan ve aşağıdaki örnek dosyadaki isimleri fil
 ## **Gelişmiş Konular**
 - [Karmaşık Kriterleri Karşılayan Kayıtları Göstermek İçin Microsoft Excel'in İleri Filtresini Uygulayın](/cells/tr/nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Yenileme Otomatik Filtre Sonrası Tüm Gizli Satır Dizinleri Alın](/cells/tr/nodejs-cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -54,3 +54,4 @@ Här är konsoloutputen från ovanstående exempelkod.
 {{< highlight javascript >}}
 This is MyTextBox
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

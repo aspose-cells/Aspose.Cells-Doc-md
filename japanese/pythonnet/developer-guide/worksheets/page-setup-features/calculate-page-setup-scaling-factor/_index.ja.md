@@ -16,3 +16,4 @@ keywords: Python Excelライブラリ、Pythonでnページに広げるExcel、�
 次のサンプルコードは、[**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale) プロパティを使用してページ設定のスケーリングファクターを計算する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-CalculateScalingFactor-CalculatePageSetupScalingFactor.py" >}}
+{{< app/cells/assistant language="python-net" >}}

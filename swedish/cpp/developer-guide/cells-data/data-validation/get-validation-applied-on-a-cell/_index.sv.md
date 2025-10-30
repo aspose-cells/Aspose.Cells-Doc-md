@@ -62,3 +62,4 @@ int main()
 ## Relaterade artiklar
 
 - [Data validering](/cells/sv/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

@@ -1,5 +1,5 @@
 ---
-title: Deklaration
+title: Tillförlitlighetsbehörigheter på webbservern
 type: docs
 weight: 30
 url: /sv/net/declaration/
@@ -8,6 +8,8 @@ url: /sv/net/declaration/
 {{% alert color="primary" %}} 
 
 Generellt sett kräver alla Aspose .NET-komponenter fulla behörigheter. Anledningen är att Aspose för .NET-komponenter behöver åtkomst till registerinställningar, systemfiler förutom virtuell katalog för vissa operationer som att tolka typsnitt etc. Dessutom baseras Aspose för .NET-komponenter (inklusive Aspose.Cells for .NET) på .NET-kärnsystemklasser som också kräver att fulla behörigheter är inställda i många fall.
+<br/>
+Medium Trust har tagits bort i .NET Core och .NET 5+. Medium Trust är säkerhetsmekanismen under .NET Framework. Medium Trust har gradvis ersatts av mer flexibla säkerhetspolicyer. Vi föreslår att användare prioriterar uppgradering till .NET 5+ och att anta containeriserad distribution istället för att förlita sig på traditionella tillitsnivåer.
 
 {{% /alert %}} 
 ## **Delvis förtroende / Medium förtroende-utmaning**

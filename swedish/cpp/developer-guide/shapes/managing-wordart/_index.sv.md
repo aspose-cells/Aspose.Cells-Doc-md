@@ -65,3 +65,4 @@ int main()
 - [Lägg till Word Art Text med Inbyggda Stilar](/cells/sv/cpp/add-word-art-text-with-built-in-styles/)
 - [Låsa WordArt vattenstämpel](/cells/sv/cpp/locking-wordart-watermark/)
 - [Ange förvald WordArt-stil för texten på formen](/cells/sv/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

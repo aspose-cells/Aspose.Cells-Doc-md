@@ -41,3 +41,4 @@ Det är enkelt att låsa första kolumn(er) med Aspose.Cells för Python via .NE
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 Bifogad [provkälla Excel-fil](Frys.xlsx).
+{{< app/cells/assistant language="python-net" >}}

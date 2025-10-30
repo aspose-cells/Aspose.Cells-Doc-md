@@ -37,3 +37,4 @@ Aşağıdaki kod **Ortalama** konsolidasyon fonksiyonunu birinci veri alanına (
 BENZERSİZ_SAYIM birleştirme fonksiyonu yalnızca Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

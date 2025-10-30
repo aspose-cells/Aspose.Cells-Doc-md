@@ -80,3 +80,4 @@ int main()
 För närvarande stöder Aspose.Cells endast anpassade diagram som kombinerar pip-, linje-, kolumn- och stapeldiagram, men fler diagram kommer att stödas i framtida versioner.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

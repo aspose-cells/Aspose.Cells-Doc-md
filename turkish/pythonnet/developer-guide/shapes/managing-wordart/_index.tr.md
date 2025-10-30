@@ -22,3 +22,4 @@ Aşağıdaki örnek, bir çalışma sayfası için arka plan filigranı olarak b
 - [Dahili Stillerle Word Art Metni Ekleme](/cells/tr/python-net/add-word-art-text-with-built-in-styles/)
 - [WordArt Filigranı Kilitleme](/cells/tr/python-net/locking-wordart-watermark/)
 - [Metin şeklinin metnine önceden ayarlanmış WordArt stili ayarlayın](/cells/tr/python-net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="python-net" >}}

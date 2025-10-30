@@ -61,3 +61,4 @@ Kod ilk olarak CSV dosyasını yükler, ardından tekrar D4 hücresine içe akta
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
+{{< app/cells/assistant language="cpp" >}}

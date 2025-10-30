@@ -372,3 +372,4 @@ wb.save(path.join(dataDir, "ConvertingToEPUBFiles_out.azw3"), AsposeCells.SaveFo
 - [Belge Dönüşüm İlerlemesini İzle](/cells/tr/nodejs-cpp/track-document-conversion-progress/)  
 - [CSV, TSV ve TXT'yi Excel'e Dönüştür](/cells/tr/nodejs-cpp/convert-csv-tsv-and-txt-to-excel/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

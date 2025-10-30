@@ -55,3 +55,4 @@ int main()
 Eğer elektronik tablonuz formüller içeriyorsa, PDF'ye dönüştürmeden hemen önce [Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) metodunu çağırmanız en iyisidir. Bu, formüle bağlı değerlerin yeniden hesaplanmasını sağlar ve PDF'de doğru değerler gösterilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

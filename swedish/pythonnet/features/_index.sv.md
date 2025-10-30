@@ -64,3 +64,4 @@ Den här sidan sammanfattar Aspose.Cells för Python via .NET funktioner.
 - Skapa eller redigera din sidhuvud och/eller sidfot
 - Ange utskriftsområde, utskriftsrubriker eller slå på rutnätet, osv.
 
+{{< app/cells/assistant language="python-net" >}}

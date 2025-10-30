@@ -56,3 +56,4 @@ Aspose.Cells.Cellsクラスには、セルの参照を使用して結合され�
 ## **高度なトピック**
 - [ワークシート内の結合セルを検出する](/cells/ja/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

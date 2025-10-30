@@ -112,3 +112,4 @@ Hücreleri ihtiyaçlarınıza göre biçimlendirdikten sonra, çalışma kitabı
 
 Aspose.Cells for Python via .NET'de sayıları özel formatlara biçimlendirmek, hücre stilinin özel sayı formatini ayarlamayı içerir. Bu, geniş bir biçimlendirme seçeneği sağlar ve verilerinizi tam istediğiniz gibi göstermenize olanak tanır. Unutmayın, özel formatların anahtarı sağladığınız format dizesidir; bu, sayının nasıl görüntüleneceğini belirler.
 
+{{< app/cells/assistant language="python-net" >}}

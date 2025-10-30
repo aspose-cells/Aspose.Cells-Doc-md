@@ -24,3 +24,4 @@ Microsoft Excelでセルの範囲をデータラベルとして表示するに�
 以下のサンプルコードは、チャートシリーズのデータラベルにアクセスし、**true**に**ラベルに値を含める**オプションを選択するための[**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range)プロパティを設定します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

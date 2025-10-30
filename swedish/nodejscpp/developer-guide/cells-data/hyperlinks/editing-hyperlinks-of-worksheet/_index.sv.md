@@ -17,3 +17,4 @@ Följande exempelkod får åtkomst till alla hyperlänkar i arbetsbladet och anv
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

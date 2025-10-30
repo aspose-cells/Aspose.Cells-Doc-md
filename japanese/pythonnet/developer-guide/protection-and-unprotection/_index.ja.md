@@ -10,7 +10,7 @@ description: このスニペットでは、Excelファイルを暗号化およ�
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Netでは、MS Excelのようなファイルからデータレベルまで幅広い保護および保護解除が提供されます。
+Aspose.Cells for Python via .NETは、MS Excelのようにファイルからデータレベルまでの保護と解除の機能を幅広く提供します：
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Aspose.Cells for .Netでは、MS Excelのようなファイルからデータレ
 - [Excelファイルの暗号化](/cells/ja/python-net/encrypting-excel-files/)
 - [ファイル形式を検出し、ファイルが暗号化されているかどうかを確認する方法](/cells/ja/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

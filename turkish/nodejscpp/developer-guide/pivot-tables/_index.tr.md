@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++, pivot tabloları oluşturmak ve kontrol etmek 
 Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığın sol üstten sağ alta gitmesi gerekir. Örneğin, "A1:C3" geçerlidir ancak "C3:A1" geçerli değildir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

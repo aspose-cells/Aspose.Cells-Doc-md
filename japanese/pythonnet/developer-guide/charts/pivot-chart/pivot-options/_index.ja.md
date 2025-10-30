@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NETを使用して、[**PivotOptions**](https://ref
 上記の例のコードを使用すると、次の効果が表示された結果ファイルを確認できます。
 
 **![Output](Output.png)**
+{{< app/cells/assistant language="python-net" >}}

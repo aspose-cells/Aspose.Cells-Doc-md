@@ -27,3 +27,4 @@ Följande kodexempel visar hur du använder metoden [**Workbook.add_digital_sign
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-AddDigitalSignatureToAnAlreadySignedExcelFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NETを使用してチャートのトレンドライ
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

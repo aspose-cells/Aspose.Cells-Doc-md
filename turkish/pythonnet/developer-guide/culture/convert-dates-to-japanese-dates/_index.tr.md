@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 Not: Doğru dönem dönüşümleri için Japonca dil desteğinin ortamınızda etkin olduğundan emin olun. [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) sınıfı ve [PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) bu dönüşüm için gerekli işlevleri sağlar.
+{{< app/cells/assistant language="python-net" >}}

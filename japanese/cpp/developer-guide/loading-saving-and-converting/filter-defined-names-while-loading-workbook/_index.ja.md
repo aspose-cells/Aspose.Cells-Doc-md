@@ -18,3 +18,4 @@ Aspose.Cellsでは、ワークブック内に存在する定義名をフィル�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

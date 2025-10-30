@@ -70,3 +70,4 @@ BoxWhisker
 - [Ağaç Haritası Grafik Oluşturma](/cells/tr/nodejs-cpp/creating-treemap-chart/)  
 - [Güneş Patlaması Grafik Oluşturma](/cells/tr/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

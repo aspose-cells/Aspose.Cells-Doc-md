@@ -35,3 +35,4 @@ opts.setDisableCss(true);
 // Save the workbook in HTML
 workbook.save(path.join(outputDir, "outputDisable.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

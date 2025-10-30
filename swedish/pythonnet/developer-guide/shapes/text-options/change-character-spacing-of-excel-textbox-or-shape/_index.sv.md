@@ -14,3 +14,4 @@ Du kan ändra teckenavståndet för Excel textruta eller form med hjälp av [**F
 Följande exempelkod ändrar karaktärsavståndet för textrutan i en Excel-fil till 4 punkter och sparar den sedan på disk.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -2,7 +2,7 @@
 title: Korumayı Tanımla ve Kaldır
 linktitle: Koruma
 type: docs
-weight: 40
+weight: 55
 url: /tr/python-java/protect-and-unprotect/
 description: Bu kesit, excel dosyalarını şifrelemeyi ve şifresini çözmeyi, python kodlarını kullanarak excel dosyalarındaki verileri korumayı ve korumasını kaldırmayı tanıtır.
 ---

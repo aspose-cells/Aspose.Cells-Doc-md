@@ -22,3 +22,4 @@ Följande kodexempel förklarar användningen av [**Cell.getStringValue()**](htt
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-GetCellStringWithOrWithoutFormatting.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

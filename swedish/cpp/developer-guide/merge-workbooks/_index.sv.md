@@ -96,3 +96,4 @@ int main()
 ## **Fortsatta ämnen**
 - [Kombinera flera arbetsblad till ett enda arbetsblad](/cells/sv/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Sammanfoga filer](/cells/sv/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

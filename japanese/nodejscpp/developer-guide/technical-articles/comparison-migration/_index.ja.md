@@ -85,3 +85,4 @@ Node.jsへの移行時には、特にファイルの読み書きなどのI/O操�
 ## **結論**
 
 .NETからNode.jsへの移行は、構文と構造の違いを理解することで簡素化できます。Aspose.Cells for Node.js via C++を使えば、既存の.NETアプリケーションの機能を再現しつつ、JavaScriptの強みを活かすことができます。
+{{< app/cells/assistant language="nodejs-cpp" >}}

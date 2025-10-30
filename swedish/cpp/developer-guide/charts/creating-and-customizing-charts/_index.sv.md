@@ -36,3 +36,4 @@ Ett diagram består av en dataserie. När man skapar ett anpassat diagram har ut
 Följande kodexempel visar hur man skapar anpassade diagram. I det här exemplet kommer vi att använda ett stapeldiagram för den första dataserien och ett linjediagram för den andra serien. Resultatet är att vi lägger till ett stapeldiagram, i kombination med ett linjediagram, till arbetsbladet. Vänligen se den [utdata Excel-filen](66519071.xlsx) från följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

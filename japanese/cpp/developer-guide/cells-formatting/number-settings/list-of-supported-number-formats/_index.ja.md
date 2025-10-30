@@ -190,3 +190,4 @@ Aspose.Cells.GridWebでは、以下の59種類の番号形式をサポートし�
 |EasternTime4 |tth?mm?ss |
 |EasternTime5 |tth?mm? |
 |EasternTime6 |tth?mm?ss |
+{{< app/cells/assistant language="cpp" >}}

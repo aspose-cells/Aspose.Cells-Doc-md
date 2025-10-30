@@ -118,3 +118,4 @@ Aspose.Cells for Python via .NET APIは、追加のツールやアプリケー�
 
 ## **高度なトピック**
 - [グラフをPDFに変換する](/cells/ja/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

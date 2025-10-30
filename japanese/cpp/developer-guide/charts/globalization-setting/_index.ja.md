@@ -47,3 +47,4 @@ Excelでチャートを含むxlsxファイルを開くとき、例としてス�
 - [チャートの中国地域を設定する方法](/cells/ja/cpp/convert-chart-to-image-for-chinese-region/)
 - [チャートの日本地域を設定する方法](/cells/ja/cpp/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="cpp" >}}

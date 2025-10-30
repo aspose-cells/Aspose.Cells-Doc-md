@@ -37,3 +37,4 @@ Följande kod tillämpar **Medelvärde** konsolideringsfunktion på det första 
 DISTINCT_COUNT konsolideringsfunktion stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -43,3 +43,4 @@ Excel プログラム（07以降のバージョン）では、テキストボッ
 
 ![](52449.png)
 
+{{< app/cells/assistant language="python-net" >}}

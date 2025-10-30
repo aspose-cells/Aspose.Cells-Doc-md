@@ -157,3 +157,4 @@ Excel, belirli bir dize ile biten satırları filtrelemek gibi özel filtreler s
 ## **Gelişmiş Konular**
 - [Karmaşık Kriterleri Karşılayan Kayıtları Göstermek İçin Microsoft Excel'in İleri Filtresini Uygulayın](/cells/tr/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Yenileme Otomatik Filtre Sonrası Tüm Gizli Satır Dizinleri Alın](/cells/tr/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

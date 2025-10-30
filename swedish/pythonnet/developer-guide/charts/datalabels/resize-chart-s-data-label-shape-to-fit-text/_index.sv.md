@@ -22,3 +22,4 @@ Detta alternativ kan nås på Excel-gränssnittet genom att välja något av dat
 För att efterlikna Excels funktion att ändra storlek på datamärkningars former för att passa texten, har Aspose.Cells för Python via .NET exponerat egenskapen [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) av typen Boolean. Följande kodsnutt visar en enkel användningssituation av [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text)-egenskapen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

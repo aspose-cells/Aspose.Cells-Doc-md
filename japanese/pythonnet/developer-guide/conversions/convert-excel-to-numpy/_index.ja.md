@@ -120,3 +120,4 @@ Aspose.Cells for Pythonを使用して列データをNumPy ndarrayにエクス�
 ```
 ['Store' '3055' '3036' '3074']
 ```
+{{< app/cells/assistant language="python-net" >}}

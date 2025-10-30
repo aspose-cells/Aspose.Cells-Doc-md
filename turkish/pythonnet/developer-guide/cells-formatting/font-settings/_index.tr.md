@@ -80,3 +80,4 @@ Geliştiriciler, yazı tipi üzerine üst simge efektini [**is_superscript**](ht
 - [Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

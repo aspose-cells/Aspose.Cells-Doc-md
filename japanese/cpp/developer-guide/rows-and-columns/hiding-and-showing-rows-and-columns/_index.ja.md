@@ -170,3 +170,4 @@ int main()
 また、複数の行と列を表示するために[**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)クラスの[**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/)および[**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/)メソッドを使用することもできます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

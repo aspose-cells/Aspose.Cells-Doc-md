@@ -108,3 +108,4 @@ Här är ett kodexempel som demonstrerar dessa steg:
 
 Att formatera nummer till speciella format i Aspose.Cells for Node.js via C++ innebär att du ställer in det anpassade nummerformatet för en cells stil. Detta möjliggör en mängd olika formateringsalternativ, så att du kan visa data exakt som du behöver. Kom ihåg att nyckeln till anpassade format är formatsträngen du tillhandahåller, vilket avgör hur numret visas.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

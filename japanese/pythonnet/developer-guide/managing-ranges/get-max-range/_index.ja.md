@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET では、[**row**](https://reference.aspose.com
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 以下は[ソースエクセルファイル](Book1.xlsx)です。
+{{< app/cells/assistant language="python-net" >}}

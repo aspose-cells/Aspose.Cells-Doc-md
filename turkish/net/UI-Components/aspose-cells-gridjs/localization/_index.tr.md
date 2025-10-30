@@ -20,13 +20,13 @@ aliases:
 
 Bu eğitim, Aspose.Cells GridJs projenizde çok dilli desteği yapılandırmanıza rehberlik edecektir. Hem ön yüz hem de arka uç yapılandırmalarını kapsar.
 
-Eğitim, [demo projeye](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs) dayanmaktadır, lütfen gerçek duruma göre ayarlayın.
+Eğitici, [demo projesine](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs) dayanır, lütfen gerçek duruma göre ayarlayın
 
 ## Ön Yüz Yapılandırması
 
 Frontend sayfalarınızda arayüz dilini `local` seçeneği kullanarak ayarlayın.
 
-Demo projede, `[uidload.html](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)` dosyasını değiştirmeniz gerekiyor.
+Demo projesinde, [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) dosyasını değiştirmeniz gerekir
 
 İşte bir örnek:
 
@@ -48,7 +48,7 @@ const loadNormalContext = (sheet) => {
 
 Arka uç kodunda, Excel verisi işlenmeden önce uygun CultureInfo ayarlamanız gerekir.
 
-Demo projede, `[Controller](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)` dosyasını değiştirmeniz gerekiyor.
+Demo projesinde, [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) dosyasını değiştirmeniz gerekir
 
 ### Kontrol Yönlendirme Noktaları
 

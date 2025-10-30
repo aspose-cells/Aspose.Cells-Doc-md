@@ -70,6 +70,8 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |BITOR|**Mühendislik**: İki sayının Bitwise OR işlemini döndürür
 |BITRSHIFT|**Mühendislik**: Bir sayıyı shift_amount bitleri sağa kaydırarak döndürür
 |BITXOR|**Mühendislik**: İki sayının Bitwise 'Exclusive Or' işlemini döndürür
+|BYCOL|**Mantıksal**: LAMBDA'yı her sütuna uygular ve sonuçların dizisini döndürür
+|BYROW|**Mantıksal**: LAMBDA'yı her satıra uygular ve sonuçların dizisini döndürür
 
 ###### **C**
 |**Fonksiyon**|**Özet**|
@@ -103,6 +105,8 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |CORREL|**İstatistiksel**: İki veri kümesi arasındaki korelasyon katsayısını döndürür
 |COS|**Matematik ve trigonometri**: Bir sayının kosinüsünü döndürür
 |COSH|**Matematik ve trigonometri**: Bir sayının hiperbolik kosinüsünü döndürür
+|COT|**Matematik ve trigonometrik**: Bir sayının hiperbolik kosinüsünü döndürür
+|COTH|**Matematik ve trigonometrik**: Bir açıktaki cotangent değerini döndürür
 |COUNT|**İstatistiksel**: Argüman listesinde kaç tane sayı olduğunu sayar
 |COUNTA|**İstatistiksel**: Argüman listesinde kaç tane değer olduğunu sayar
 |COUNTBLANK|**İstatistiksel**: Bir aralıktaki boş hücrelerin sayısını sayar
@@ -170,6 +174,7 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |EVEN|**Matematik ve trigonometri**: Bir sayıyı en yakın çift tam sayıya yuvarlar
 |EXACT|**Metin**: İki metin değerinin aynı olup olmadığını kontrol eder
 |EXP|**Matematik ve trigonometri**: Belirtilen sayının üssü olarak e döner
+|EXPAND|**Arama ve referans**: Bir diziyi belirtilen satır ve sütun boyutlarına genişletir veya doldurur
 |EXPONDIST|**Uyumluluk**: Üstel dağılımı döndürür
 
 ###### **F**
@@ -267,6 +272,7 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |ISNONTEXT|**Bilgi**: Değer metin değilse TRUE döndürür
 |ISNUMBER|**Bilgi**: Değer sayıysa TRUE döndürür
 |ISODD|**Bilgi**: Sayı tekse TRUE döndürür
+|ISOMITTED|**Bilgi**: Bir LAMBDA'daki değerin eksik olup olmadığını kontrol eder ve TRUE veya FALSE döner
 |ISREF|**Bilgi**: Değer bir başvurusa TRUE döndürür
 |ISTEXT|**Bilgi**: Değer metinse TRUE döndürür
 |ISOWEEKNUM|**Tarih ve saat**: Verilen bir tarihin ISO hafta numarasını döndürür
@@ -412,6 +418,7 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |RANK|**Uyumluluk**: Bir liste içindeki bir sayının sıralamasını döndürür
 |RATE|**Finansal**: Bir anüitenin dönem başına faiz oranını döndürür
 |RECEIVED|**Finansal**: Tamamen yatırılmış bir güvenliğin vadesinde alınan tutarı döndürür
+|REDUCE|**Mantık**: Bir diziyi, her değere bir LAMBDA uygulayarak ve toplam değeri akümülatörde tutarak azaltır
 |REPLACE|**Metin**: Metin içindeki karakterleri değiştirir
 |REPLACEB|**Metin**: Metin içindeki karakterleri değiştirir
 |REPT|**Metin**: Belirtilen sayıda tekrarlanan metni döndürür
@@ -475,6 +482,7 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |T|**Metin**: Argümanlarını metne dönüştürür
 |TAN|**Matematik ve trigonometri**: Bir sayının tanjantını döndürür
 |TANH|**Matematik ve trigonometri**: Bir sayının hiperbolik tanjantını döndürür
+|TAKE|**Arama ve referans**: Bir diziden başlangıç veya sondan belirli sayıda ardışık satır veya sütun döndürür
 |TBILLEQ|**Finansal**: Bir Hazine bonosu için bağ eşdeğer getirisini döndürür
 |TBILLPRICE|**Finansal**: Bir Hazine bonosu için 100 dolar nominal değer başına fiyatı döndürür
 |TBILLYIELD|**Finansal**: Bir Hazine bonosu için getiriyi döndürür
@@ -536,13 +544,17 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |WEIBULL.DIST|**İstatistiksel**: Weibull dağılımını döndürür
 |WORKDAY|**Tarih ve saat**: Belirtilen iş günlerinden önce veya sonra belirtilen sayıda iş günü döngüsünün seri numarasını döndürür
 |WORKDAY.INTL|**Tarih ve saat**: Hangi ve kaç günün hafta sonu günleri olduğunu göstermek için parametreleri kullanarak belirtilen sayıda iş gününden önce veya sonra tarih dizisinin seri numarasını döndürür
+|WRAPCOLS|**İzleme ve referans**: Belirtilen sayıda öğeden sonra satır veya sütunlar halinde verilen satır veya sütunu sarar
+|WRAPROWS|**İzleme ve referans**: Belirtilen sayıda öğeden sonra satır veya sütunlar halinde verilen satır veya sütunu sarar
 
 ###### **X**
 |**Fonksiyon**|**Özet**|
 | :- | :- |
-|XIRR|**Finansal**: Periyodik olmayan nakit akışları için iç verim oranını döndürür
+|XIRR|**Finansal**: Belirli dönemli olmayan nakit akış çizelgesi için iç verim oranını döndürür.
 |XLOOKUP|**Arama ve başvuru**: Bir aralığı veya bir diziyi arar ve bulduğu ilk eşleşmeye karşılık gelen bir öğe döndürür. Eğer eşleşme yoksa, XLOOKUP en yakın (yaklaşık) eşleşmeyi döndürebilir 
-|XNPV|**Finansal**: Periyodik olmayan nakit akışları için net bugünkü değeri döndürür
+|XMATCH|**Arama ve referans**: Bir öğenin dizide veya hücre aralığında göreli konumunu döndürür. 
+|XNPV|**Finansal**: Belirli dönemli olmayan nakit akış çizelgesi için net bugünkü değeri döndürür.
+|XOR|**Mantıksal**: Tüm argümanların mantıksal özerk OR'unu döndürür.
 
 ###### **Y**
 |**Fonksiyon**|**Özet**|
@@ -560,3 +572,4 @@ Aspose.Cells for Python via .NET'nin Formül Hesaplama Motoru, aşağıdaki form
 |ZTEST|**Uyumluluk**: Bir z-testinin tek kuyruklu olasılık değerini döndürür
 
 
+{{< app/cells/assistant language="python-net" >}}

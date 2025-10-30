@@ -3,7 +3,7 @@ title: Tarih ve Saatleri Nasıl Yönetilir
 type: docs
 weight: 600
 url: /tr/python-net/how-to-manage-dates-and-times/
-description: Aspose.Cells for .NET API sı aracılığıyla Tarih ve Saatleri Yönetmeyi öğrenin.
+description: Nasıl Tarih ve Saatleri Yönetebilirsiniz, Öğrenin  Aspose.Cells for Python via .NET API aracılığıyla.
 keywords: Tarih ve Saatleri Nasıl Yönetilir, 1900 tarih sistemi, 1904 tarih sistemi, Tarih ve Saatleri Ayarlama, Tarih ve Saatleri Alma, Tarih ve Saatleri Yönetme, Tarih ve Saatleri Excel de Saklama, Tarih ve Saatleri Hücrelerde Gösterme.
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

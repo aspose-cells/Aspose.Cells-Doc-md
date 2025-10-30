@@ -71,3 +71,4 @@ int main()
 - [ブック内のXMLマップにリンクされたXMLデータをエクスポート](/cells/ja/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [XMLマップのルート要素名を検出する](/cells/ja/cpp/find-the-root-element-name-of-xml-map/)
 - [セルをXMLマップ要素にリンクする](/cells/ja/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

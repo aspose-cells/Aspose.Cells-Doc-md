@@ -25,3 +25,4 @@ url: /ja/nodejs-cpp/specifying-the-absolute-position-of-the-pivot-item/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

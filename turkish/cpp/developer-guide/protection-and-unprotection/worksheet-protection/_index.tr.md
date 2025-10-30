@@ -90,3 +90,4 @@ int main()
 - [Çalışma Sayfalarını Koruma](/cells/tr/cpp/protecting-worksheets/)
 - [Bir Çalışma Sayfasını Korumayı Kaldırma](/cells/tr/cpp/unprotect-a-worksheet/)
 - [Çalışma Sayfasını Korumak İçin Kullanılan Şifreyi Doğrulama](/cells/tr/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

@@ -34,3 +34,4 @@ Kategoridata används för märkning av diagramdata och kan läggas till i [**Se
 - [Skapa Dynamiska Diagram](/cells/sv/python-net/create-dynamic-charts/)
 - [Enkel metod för diagraminställning med hjälp av Chart.SetChartDataRange-metoden](/cells/sv/python-net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Hitta typ av X- och Y-värden för punkter i diagramserier](/cells/sv/python-net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ Microsoft Excel 2007/2010/2013/2016/2019 および Office 365 形式、つまり
 Aspose.Cells は、パスワードで保護された Microsoft Excel 2007 年、2010 年、2013 年、2016 年、2019 年、Office 365 ファイルを開くこともサポートしています。
 
 
+{{< app/cells/assistant language="cpp" >}}

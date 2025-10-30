@@ -6,3 +6,4 @@ weight: 200
 url: /tr/cpp/managing-shape-options/  
 description: Aspose.Cells kullanarak Microsoft Excel dosyalarında şekil seçeneklerini C++ ile yönetme.  
 ---  
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ Normalt sett är namngivna intervaller rektangulära med celler kontinuerliga oc
 Kodexemplet nedan visar hur man skapar ett namngivet icke-sekventiellt intervall med Aspose.Cells för Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

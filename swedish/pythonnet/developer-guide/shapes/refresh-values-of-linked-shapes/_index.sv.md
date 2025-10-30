@@ -22,3 +22,4 @@ Du kan ladda ner [käll-Excel-filen](95584291.xlsx) och [utmatnings-PDF-filen
 ### C#-kod för att uppdatera värdena för länkade former
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RefreshValueOfLinkedShapes-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

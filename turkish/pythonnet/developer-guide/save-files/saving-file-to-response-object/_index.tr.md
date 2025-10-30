@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. Okumadan önce her zaman akışın konumunu `seek(0)` ile sıfırlayın
 3. Yanıt başlıklarında uygun MIME türlerini ayarlayın
 4. Django/Flask gibi web çerçevesi kullanıyorsanız, çerçeveye özgü yanıt işleyicilerini kullanın
+{{< app/cells/assistant language="python-net" >}}

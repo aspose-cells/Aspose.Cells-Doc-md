@@ -111,3 +111,4 @@ Aspose.Cells for Node.js via C++で数値を時間に書式設定するのは簡
 
 Aspose.Cells for Node.js via C++で数値を時間に書式設定するには、時間表示をしたいセルに対してカスタムの数値書式を設定します。前述の手順に従えば、Aspose.Cellsを使用して簡単にセルに時間フォーマットを適用できます。重要なのは、希望の時間フォーマットに合った正しいカスタム書式文字列を使用することです。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

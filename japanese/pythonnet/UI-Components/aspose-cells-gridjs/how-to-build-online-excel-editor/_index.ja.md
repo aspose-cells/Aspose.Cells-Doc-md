@@ -25,11 +25,11 @@ aliases:
 
 ## ステップ1：Dockerfileを作成
 
-あなたのプロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/)に`Dockerfile`という名前のファイルを作成します。`Dockerfile`には、Dockerイメージをビルドするための指示が含まれます。
+あなたのプロジェクト [ディレクトリ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs) に `Dockerfile` という名前のファイルを作成してください。`Dockerfile` にはDockerイメージのビルド方法を記述します。
 
 ## ステップ2: GridJs用のDockerfileを書く
 
-こちらは、PythonアプリケーションとともにGridJsデモ用のサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile)です：
+こちらはPythonアプリケーションを備えたGridJsデモ用の [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs/Dockerfile) の例です。
 
 ```dockerfile
 # use Python 3.13 as parent image

@@ -83,3 +83,4 @@ const wb = new AsposeCells.Workbook(filePath);
 // Display the address(range) of result range of query table
 console.log(wb.getWorksheets().get(0).getQueryTables().get(0).getResultRange().getAddress());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

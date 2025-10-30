@@ -108,3 +108,4 @@ Hücreleri ihtiyaçlarınıza göre biçimlendirdikten sonra, çalışma kitabı
 
 Bu adımları izleyerek, Aspose.Cells for Python via .NET kullanarak sayıları bilimsel göstereceğe biçimlendirebilirsiniz. Unutmayın, gerekirse biçim dizesini (`"0.00E+00"`) özelleştirerek ondalık basamak sayısı veya diğer bilimsel gösterim özelliklerini ayarlayabilirsiniz.
 
+{{< app/cells/assistant language="python-net" >}}

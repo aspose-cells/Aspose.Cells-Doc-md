@@ -7,3 +7,4 @@ url: /tr/cpp/using-smart-markers/
 description: Aspose.Cells kitaplığı ile şablon Excel dosyalarına göre veri akıllıca aktarılması ve yerleştirilmesi
 ---
 
+{{< app/cells/assistant language="cpp" >}}

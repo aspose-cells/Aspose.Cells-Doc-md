@@ -83,3 +83,4 @@ int main()
 ## İlgili Makaleler
 
 - [Pivot Tablosu Biçimlendirme](/cells/tr/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

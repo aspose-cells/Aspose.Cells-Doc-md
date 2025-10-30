@@ -236,3 +236,4 @@ int main()
 
 ## ** 高度なトピック**
 - [結合されたセルの行のAutoFit](/cells/ja/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

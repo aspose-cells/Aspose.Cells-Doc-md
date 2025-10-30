@@ -76,3 +76,4 @@ Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表す[**Wor
 ワークシートから任意の位置に列を削除するには、[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) コレクションの[**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) メソッドを呼び出します。[**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) メソッドは削除する列のインデックスを取ります。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

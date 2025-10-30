@@ -24,3 +24,4 @@ Aspose Cells kullanarak Excel dosyalarında Dinamik Grafik oluşturabiliriz. İl
 - [Aspose Cells Kullanarak Dinamik Rolling Grafik Oluşturma](/cells/tr/cpp/create-dynamic-rolling-chart/) 
 - [Aspose Cells Kullanarak Dinamik Kaydıran Grafik Oluşturma](/cells/tr/cpp/create-dynamic-scrolling-chart/) 
 - [Aspose Cells Kullanarak Dinamik Grafik için Dropdownlist Kullanarak Gantt Grafiği Oluşturma](/cells/tr/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

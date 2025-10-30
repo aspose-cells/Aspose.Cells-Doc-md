@@ -124,3 +124,4 @@ int main()
 Bu örnek, tek bir hücreyi ABD dolarıyla muhasebe formatında sayı gösterecek şekilde nasıl biçimlendireceğinizi gösterir. Format dizesi, ihtiyaçlara göre farklı para birimi sembolleri veya muhasebe formatları için ayarlanabilir. Önemli kısım, `style.Custom` özelliğidir, burada muhasebe için özel sayı biçim kodunu belirlersiniz.
 
 Unutmayın, tam format dizesi yerel ayarlarınıza ve sahip olduğunuz belirli muhasebe formatı gereksinimlerine göre ayarlanabilir (örneğin, farklı bir para birimi sembolü kullanmak, daha fazla veya daha az ondalık basamağı göstermek vb.).
+{{< app/cells/assistant language="cpp" >}}

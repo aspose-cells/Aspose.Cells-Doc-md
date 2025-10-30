@@ -166,3 +166,4 @@ int main()
 - [ハイパーリンクのタイプの検出](/cells/ja/cpp/detect-hyperlink-type/)
 - [ワークシートのハイパーリンクの編集](/cells/ja/cpp/editing-hyperlinks-of-worksheet/)
 - [範囲内のハイパーリンクを取得](/cells/ja/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

@@ -107,3 +107,4 @@ Aspose.Cells for Node.js via C++で数値を分数に書式設定する方法の
 - Aspose.Cellsは、小数、パーセンテージ、通貨など、多様な番号フォーマットをサポートしています。必要に応じてフォーマットをカスタマイズできます。
 
 これらの手順を追うことで、Aspose.Cells for Node.js via C++で数値を簡単に分数としてフォーマットできます。これは、正確な分数値が必要な金融、統計、教育アプリケーションで特に役立ちます。
+{{< app/cells/assistant language="nodejs-cpp" >}}

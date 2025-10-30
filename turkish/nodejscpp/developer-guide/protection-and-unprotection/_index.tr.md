@@ -34,3 +34,4 @@ Bir belgenin içeriğinin özgünlüğünü koruyun; dijital imza ekleyebilirsin
 - [Şifreli Office Open XML - OOXML Dosyalarının Dosya Biçimini Algılama](/cells/tr/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Excel Dosyalarının Şifrelenmesi](/cells/tr/nodejs-cpp/encrypting-excel-files/)
 - [Bir Dosya Biçimini Algılama ve Dosyanın Şifreli Olup Olmadığını Kontrol Etme](/cells/tr/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

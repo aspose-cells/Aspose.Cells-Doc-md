@@ -24,3 +24,4 @@ Lütfen, örneklerin kurulumu veya çalıştırılmasıyla ilgili herhangi bir s
 Bir örnek eklemek veya geliştirmek isterseniz, projeye katkıda bulunmanızı teşvik ederiz. Bu depoda bulunan tüm örnekler ve vitrin projeleri açık kaynaklıdır ve kendi uygulamalarınızda özgürce kullanılabilir.
 
 Katkıda bulunmak için reposu klonlayabilir, kaynak kodunu düzenleyebilir ve bir pull isteği oluşturabilirsiniz. Değişiklikleri gözden geçireceğiz ve faydalı bulunursa reposuna dahil edeceğiz.
+{{< app/cells/assistant language="cpp" >}}

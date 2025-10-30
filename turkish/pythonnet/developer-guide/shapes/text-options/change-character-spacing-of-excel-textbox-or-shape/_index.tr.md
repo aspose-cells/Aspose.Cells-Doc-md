@@ -14,3 +14,4 @@ Excel metin kutusu veya şeklin karakter boşluğunu [**FontSetting.text_options
 Aşağıdaki örnek kod, excel dosyasındaki metin kutusunun karakter boşluğunu 4 noktaya değiştirir ve ardından diske kaydeder.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ Följande exempel gör det möjligt att ställa in de utökade inbyggda dokument
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SettingScaleCropAndLinksUpToDateProperties.py" >}}
+{{< app/cells/assistant language="python-net" >}}

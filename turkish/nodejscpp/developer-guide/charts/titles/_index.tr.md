@@ -92,3 +92,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ## **Gelişmiş Konular**
 - [ODS Dosyasından Grafik Alt Başlığını Okuma](/cells/tr/nodejs-cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

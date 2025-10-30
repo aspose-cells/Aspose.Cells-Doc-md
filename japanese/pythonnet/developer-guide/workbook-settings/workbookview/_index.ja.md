@@ -19,7 +19,7 @@ Excelページの表示を調整する必要がある場合、水平および垂
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Aspose.Cells for .NETを使用してワークブックビューを制御する方法**
+## **Aspose.Cells for Python でブックビューを制御する方法 via .NET**
 この例では、次のことができます:
 
 1. ワークブックを作成する。
@@ -33,3 +33,4 @@ Excelページの表示を調整する必要がある場合、水平および垂
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

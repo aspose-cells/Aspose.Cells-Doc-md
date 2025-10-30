@@ -80,3 +80,4 @@ Utvecklare kan applicera överstruken effekt på fonten genom att ställa in [*
 - [Få en lista över typsnitt som används i en kalkylblad eller arbetsbok](/cells/sv/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

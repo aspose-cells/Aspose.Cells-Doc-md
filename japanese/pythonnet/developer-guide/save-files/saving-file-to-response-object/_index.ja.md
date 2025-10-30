@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. 読み取り前に常に `seek(0)` でストリーム位置をリセット
 3. 応答ヘッダーに適切な MIME タイプを設定
 4. DjangoやFlaskのようなWebフレームワークでは、フレームワーク固有の応答ハンドラーを使用
+{{< app/cells/assistant language="python-net" >}}

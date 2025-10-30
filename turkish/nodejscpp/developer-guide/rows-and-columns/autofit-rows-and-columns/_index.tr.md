@@ -185,3 +185,4 @@ Bir hücre birleştirilmişse, otomatik sığdırma yöntemleri uygulanmaz ki bu
 ## **Gelişmiş Konular**  
 - [Birleştirilmiş Hücreler için Satırları Otomatik Uydurma](/cells/tr/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

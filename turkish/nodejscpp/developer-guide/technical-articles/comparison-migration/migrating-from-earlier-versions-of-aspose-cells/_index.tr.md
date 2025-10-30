@@ -49,3 +49,4 @@ Aspose.Cells for Node.js via C++'nün en son sürümüne yükseltirken mevcut ko
 Aspose.Cells for Node.js via C++'ün en son sürümüne yükseltmek önemli gelişmeler sağlayabilir, fakat uygulamanızın fonksiyonel kalmasını sağlamak için dikkatli göç uygulamalarını takip etmek çok önemlidir. Güncellemeler sırasında ek destek için resmi dökümantasyon ve topluluk forumlarına başvurun.
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -39,3 +39,4 @@ Aşağıdaki kod parçası X ve Y eksenlerinin seçeneklerini nasıl ayarlayaca�
 - [Grafik Ekseni Otomatik Birimleri ile Başa Çık](/cells/tr/python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Grafik Hesaplandıktan Sonra Eksen Etiketlerini Okuma](/cells/tr/python-net/read-axis-labels-after-calculating-the-chart/)
 - [Excel Grafikte Kategori Eksenini Nasıl Ayarlayacağınız](/cells/tr/python-net/how-to-set-category-axis/)
+{{< app/cells/assistant language="python-net" >}}

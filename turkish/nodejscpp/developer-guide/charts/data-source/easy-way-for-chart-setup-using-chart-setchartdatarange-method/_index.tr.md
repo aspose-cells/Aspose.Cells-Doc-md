@@ -62,3 +62,4 @@ ch.setChartDataRange("A1:D4", true);
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

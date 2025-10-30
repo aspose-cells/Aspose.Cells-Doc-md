@@ -52,3 +52,4 @@ comboBoxActiveX.setValue("This is combo box control with updated value.");
 const outputFilePath = path.join(dataDir, "OutputFile_out.xlsx");
 wb.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

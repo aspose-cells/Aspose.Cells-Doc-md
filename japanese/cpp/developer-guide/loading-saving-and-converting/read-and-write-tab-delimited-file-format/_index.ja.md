@@ -11,3 +11,4 @@ Microsoft ExcelはXLS、XLSX、XLSM、XLSB、CSV、タブ区切りなど、多�
 次のサンプルコードでは、[ソースのタブ区切りファイル](23166997.txt)をロードし、そのセルA1の内容を読み取り、それをセルC4にコピーし、[出力のタブ区切りファイル](23166996.txt)として保存します。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

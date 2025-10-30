@@ -143,3 +143,4 @@ workbook.save(path.join(dataDir, "outputPivotTableGlobalizationSettings.pdf"), o
 
 run().catch(console.error);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

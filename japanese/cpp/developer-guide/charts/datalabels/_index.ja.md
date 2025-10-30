@@ -83,3 +83,4 @@ int main()
 - [チャートポイントのリッチテキストカスタムデータラベル](/cells/ja/cpp/rich-text-custom-data-label-of-chart-point/)
 - [チャートのデータラベルの形状タイプを設定する](/cells/ja/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [データラベルとしてセル範囲を表示する](/cells/ja/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

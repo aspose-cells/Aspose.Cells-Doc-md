@@ -93,3 +93,4 @@ Aspose.Cells for Python via .NET, dosyaları JSON veya XML'e kaydetmeyi destekle
 - [Çalışma kitabının sıkıştırma seviyesi ayarlanabilir.](/cells/tr/python-net/adjust-workbook-compression-level/)
 - [Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet](/cells/tr/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

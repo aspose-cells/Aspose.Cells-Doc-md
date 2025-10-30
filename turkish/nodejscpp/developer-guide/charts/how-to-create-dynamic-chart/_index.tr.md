@@ -26,3 +26,4 @@ Excel dosyalarında Dinamik Grafikler oluşturmak için Aspose.Cells for Node.js
 - [Aspose.Cells kullanarak Dinamik Kaydırmalı Grafik Oluşturma](/cells/tr/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Aspose.Cells kullanarak Dropdown listesi ile Dinamik Grafik Oluşturma](/cells/tr/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

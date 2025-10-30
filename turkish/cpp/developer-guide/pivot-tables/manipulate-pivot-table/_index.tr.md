@@ -23,3 +23,4 @@ Aşağıda, sağlanan [örnek excel dosyası](23167013.xlsx) ile birlikte yürü
 After refreshing Pivot Table value of cell H8: 6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

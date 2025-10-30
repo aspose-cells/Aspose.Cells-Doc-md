@@ -14,3 +14,4 @@ Microsoft Excel, hücrelere ek bilgi eklemek ve veriyi vurgulamak için yorumlar
 Aspose.Cells for Python via .NET, yorumlar için metin yönünü ayarlamak amacıyla [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) özelliği sağlar. Aşağıdaki örnek kod, [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) özelliğinin kullanımını göstererek yorum için metin yönünü belirler.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeTextDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

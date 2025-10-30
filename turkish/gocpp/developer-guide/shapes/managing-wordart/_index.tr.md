@@ -1,0 +1,22 @@
+---
+title: Golang ve C++ ile WordArt Su İşareti Ekle
+linktitle: WordArt ı Yönetme
+type: docs
+weight: 180
+url: /tr/go-cpp/add-wordart-watermark-to-worksheet/
+description: Aspose.Cells for C++ kullanarak Excel çalışma sayfalarına WordArt watermark eklemeyi öğrenin.
+---
+
+{{% alert color="primary" %}} 
+
+WordArt'ı kullanarak elektronik tablolara özel metin efektleri ekleyin. Örneğin, başlığı dosyanın üst kısmına uzatın, metni süsleyin ve metni önceden ayarlanmış bir şekle uygun hale getirin veya metni bir Excel çalışma sayfasına arka plan filigranı olarak uygulayın. WordArt, elektronik tablolara dekorasyon eklemek için taşıyabileceğiniz bir nesne haline gelir.
+
+{{% /alert %}} 
+
+Aşağıdaki örnek, bir çalışma sayfası için arka plan filigranı olarak bir WordArt şekli eklemenin nasıl yapıldığını göstermektedir.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManagingWordart.go" >}}
+## **Gelişmiş Konular**
+- [Dahili Stillerle Word Art Metni Ekleme](/cells/tr/cpp/add-word-art-text-with-built-in-styles/)
+- [WordArt Filigranı Kilitleme](/cells/tr/cpp/locking-wordart-watermark/)
+- [Metin şeklinin metnine önceden ayarlanmış WordArt stili ayarlayın](/cells/tr/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)

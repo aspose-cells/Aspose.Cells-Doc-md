@@ -157,3 +157,4 @@ Excel tillhandahåller anpassade filter som filterrader som slutar med någon sp
 ## **Fortsatta ämnen**
 - [Tillämpa Avancerat Filter i Microsoft Excel för att Visa Poster som Uppfyller Komplexa Kriterier](/cells/sv/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Hämta alla dolda radindex efter uppdatering av autofilter](/cells/sv/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

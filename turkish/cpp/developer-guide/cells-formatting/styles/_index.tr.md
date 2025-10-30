@@ -46,3 +46,4 @@ cell.SetStyle(style);
 - [Mevcut Bir Stilü Değiştirme](/cells/tr/cpp/modify-an-existing-style/)
 - [Stil Nesnelerini Yeniden Kullanma](/cells/tr/cpp/reusing-style-objects/)
 - [Dahili Stilleri Kullanma](/cells/tr/cpp/using-built-in-styles/)
+{{< app/cells/assistant language="cpp" >}}

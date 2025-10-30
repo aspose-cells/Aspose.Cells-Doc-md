@@ -37,3 +37,4 @@ Aşağıdaki kod, ilk veri alanına **ORTALAMA** birleştirme fonksiyonu ve ikin
 BENZERSİZ_SAYIM birleştirme fonksiyonu yalnızca Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -142,3 +142,4 @@ int main()
 - Aspose.Cells, ondalık, yüzde, para birimi ve daha fazlası dahil olmak üzere geniş bir sayı biçimi yelpazesini destekler. İhtiyacınıza göre biçimi özelleştirebilirsiniz.
 
 Bu adımları izleyerek, Aspose.Cells for C++ içinde sayıları kolaylıkla kesir olarak biçimlendirebilirsiniz. Bu, finansal, istatistiksel veya eğitim uygulamalarında kesin kesir değerlerinin gerekli olduğu durumlarda özellikle faydalıdır.
+{{< app/cells/assistant language="cpp" >}}

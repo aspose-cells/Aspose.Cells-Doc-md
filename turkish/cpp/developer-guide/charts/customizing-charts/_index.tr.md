@@ -80,3 +80,4 @@ int main()
  Şu anda, Aspose.Cells yalnızca pasta, çizgi, sütun ve sütun yığın grafiklerini birleştiren özel grafiklere destek sağlar. Ancak, gelecekteki sürümlerde daha fazla grafik desteklenecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

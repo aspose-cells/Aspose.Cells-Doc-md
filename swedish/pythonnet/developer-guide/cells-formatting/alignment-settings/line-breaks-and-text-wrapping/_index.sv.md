@@ -25,3 +25,4 @@ Du kan använda '\n' i C# och 'vbLf' i VB.NET för att sätta in explicita radbr
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-LineBreakTextWrapping-UseExplicitLineBreaks-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

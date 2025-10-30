@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Çalışsayısını Grafiksel Ortama Dönüştürme](/cells/tr/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Çalışma Kitabı Rendeleme İçin Bireysel veya Özel Font Kümesini Belirtin](/cells/tr/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

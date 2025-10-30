@@ -11,7 +11,7 @@ NumbersはApple Inc.が開発したスプレッドシートアプリケーショ
 
 ## **Aspose.Cellsを使用してApple Inc.が開発したNumbersスプレッドシートを読む**
 
-以下のサンプルコードは、[サンプルNumbersスプレッドシート](sampleNumbersByAppleInc.numbers)を読み込み、[出力PDF形式](outputNumbersByAppleInc.pdf)に変換します。成功させるためには、**[LoadOptions](https://reference.aspose.com/cells/go-cpp/loadoptions/)**クラスを使用し、コンストラクタのパラメータに**[LoadFormat::Numbers](https://reference.aspose.com/cells/go-cpp/loadformat/)**を指定してください。両方ともリンクからダウンロードできます。任意のNumbersスプレッドシートで試すことが可能です。コードのコメントも参照してください。
+以下のサンプルコードは、【サンプルNumbersスプレッドシート】(sampleNumbersByAppleInc.numbers)を読み込み、【出力PDF形式】(outputNumbersByAppleInc.pdf)に変換します。成功させるためには、**[LoadOptions](https://reference.aspose.com/cells/go-cpp/loadoptions/)**クラスを使用し、コンストラクタのパラメータに**[LoadFormat::Numbers](https://reference.aspose.com/cells/go-cpp/loadformat/)**を指定してください。両方ともリンクからダウンロードできます。任意のNumbersスプレッドシートで試すことが可能です。コードのコメントも参照してください。
 
 ## **サンプルコード**
 

@@ -29,3 +29,4 @@ Aspose.Cells for Python via NETでは、HTMLリンクのターゲットタイプ
 次のコードは、[**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/)プロパティの使用方法を示しています。リンクのターゲットタイプを**BLANK**に変更します。デフォルトでは**PARENT**になっています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

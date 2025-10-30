@@ -53,3 +53,4 @@ workbook.save("frozen.xlsx");
 ```
 
 Bifogad [provkäll-Excel-fil](../Freeze.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

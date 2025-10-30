@@ -11,3 +11,4 @@ Microsoft ExcelはXLS、XLSX、XLSM、XLSB、CSVなど、多くのフォーマ�
 [source XLSM file](23166990.xlsm)をロードし、セルA1の内容を読み取ってそれをセルC4にコピーし、[output XLSM file](23166991.xlsm)として保存するサンプルコードは以下のとおりです。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSMFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

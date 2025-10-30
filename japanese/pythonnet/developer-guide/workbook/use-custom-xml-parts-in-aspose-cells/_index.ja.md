@@ -23,3 +23,4 @@ Aspose.Cellsを使用してカスタムXMLパーツを追加する場合は、 [
 
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++, pivot tablonun dış bağlantı veri kaynağı
 Kod örneğinde kullanılan kaynak dosya, referans için ekte bulunmaktadır.
 
 [Kaynak Dosya](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

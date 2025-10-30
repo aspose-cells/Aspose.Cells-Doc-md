@@ -1,5 +1,5 @@
 ---
-title: Excelにインポートするデータの数式フィールドを指定する方法[Python via .NET API]
+title: Excelにインポートするデータの数式フィールドを指定する方法【Python via .NET API】
 linktitle: ワークシートへのデータインポート時に式フィールドを指定
 type: docs
 weight: 300
@@ -63,3 +63,4 @@ def run():
 if __name__ == "__main__":
     run()
 ```
+{{< app/cells/assistant language="python-net" >}}

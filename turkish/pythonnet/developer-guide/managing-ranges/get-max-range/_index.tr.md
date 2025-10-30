@@ -40,3 +40,4 @@ Aşağıdaki kodlar, maksimum görüntü aralığını HTML'e dönüştürmenin 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 İşte [kaynak excel dosyası](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ Följande kodsnutt visar hur man hanterar teckenförklaring:
 
 ## **Fortsatta ämnen**
 - [Ställ in texten för diagramlegendens objektfyllning till ingen med Aspose.Cells för Python via .NET](/cells/sv/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

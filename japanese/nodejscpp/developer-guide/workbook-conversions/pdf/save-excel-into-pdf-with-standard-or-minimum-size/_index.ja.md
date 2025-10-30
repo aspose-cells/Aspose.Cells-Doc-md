@@ -35,3 +35,4 @@ opts.setOptimizationType(AsposeCells.PdfOptimizationType.MinimumSize);
 
 workbook.save(path.join(dataDir, "OptimizedOutput_out.pdf"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

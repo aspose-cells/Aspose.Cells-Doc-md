@@ -24,3 +24,4 @@ Aşağıdaki kod örneği, bir hücreye uygulanan doğrulamayı almanın nasıl 
 ## İlgili Makaleler
 
 - [Veri Doğrulama](/cells/tr/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

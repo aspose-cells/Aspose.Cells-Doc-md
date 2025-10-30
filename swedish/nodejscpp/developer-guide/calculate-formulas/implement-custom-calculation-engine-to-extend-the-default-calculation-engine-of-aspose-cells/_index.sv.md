@@ -96,3 +96,4 @@ Vänligen kontrollera konsolutmatningen för ovanstående exempel; värdet (datu
 [Direktberäkning av anpassad funktion utan att skriva den i ett kalkylblad](/cells/sv/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

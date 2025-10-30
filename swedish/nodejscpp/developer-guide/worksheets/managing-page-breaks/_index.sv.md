@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Viktig information att veta**
 
 När du ställer in **fitToPages**-egenskaper (det vill säga [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) och [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) i sidinställningarna påverkas sidbrytningarnas inställningar, så att om du skriver ut arbetsbladet beaktas inte sidbrytningarna även om de fortfarande är inställda.
+{{< app/cells/assistant language="nodejs-cpp" >}}

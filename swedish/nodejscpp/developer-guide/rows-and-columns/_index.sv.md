@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Ta bort dubblettrader i ett kalkylblad](/cells/sv/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [Uppdatera referenser i andra arbetsblad samtidigt som tomma kolumner och rader tas bort i ett arbetsblad](/cells/sv/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

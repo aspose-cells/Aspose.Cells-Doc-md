@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /tr/go-cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API ile XLSX, HTML, CSV, ODS, TSV, SXC, FODS vb. gibi farklı formatlardaki dosyaları açabilirsiniz.
+description: Aspose.Cells for Go via C++ API, XLSX, HTML, CSV, ODS, TSV, SXC, FODS vb. farklı formatları açıp okumanıza olanak tanır.
 keywords: xlsx dosyalarını aç, html dosyalarını aç, fods dosyalarını oku, ods dosyalarını oku, sxc dosyalarını oku, csv dosyalarını aç, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
 
@@ -38,16 +38,6 @@ Aspose.Cells, HTML dosyasını Workbook nesnesine açmanıza olanak tanır. HTML
 Virgülle Ayrılmış Değerler (CSV) dosyaları, değerlerin virgülle ayrıldığı kayıtları içerir. Veri, her sütunun virgül karakteriyle ayrıldığı ve çift tırnak karakteriyle alıntılanmış bir tablo olarak saklanır. Bir alan değeri çift tırnak karakteri içeriyorsa, çift tırnak karakteriyle kaçış yapılır. Elektronik tablo verilerini CSV'ye aktarmak için Microsoft Excel'i de kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **CSV Dosyalarını Açma ve Geçersiz Karakterleri Değiştirme**
-
-Excel'de, özel karakter içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilir. Aynı işlem, kod örneğinde gösterildiği gibi Aspose.Cells API tarafından da yapılır.
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-Bu özelliği test etmek için örnek kaynak dosyasını aşağıdaki bağlantılardan indirebilirsiniz.
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **Özel Ayraçlı Metin Dosyalarını Açma**
 

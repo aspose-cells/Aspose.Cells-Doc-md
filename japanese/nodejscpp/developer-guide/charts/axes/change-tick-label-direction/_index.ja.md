@@ -60,3 +60,4 @@ workbook.save(path.join(outputDir, "outputChangeChartDataLableDirection.xlsx"));
 [ソースファイル](105480221.xlsx)
 
 [出力ファイル](105480223.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

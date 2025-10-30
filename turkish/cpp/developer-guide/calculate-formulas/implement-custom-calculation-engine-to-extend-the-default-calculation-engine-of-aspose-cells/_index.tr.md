@@ -106,3 +106,4 @@ Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin, özel motor
 [Özel fonksiyonun worksheet'e yazmadan doğrudan hesaplanması](/cells/tr/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

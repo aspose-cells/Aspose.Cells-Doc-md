@@ -17,7 +17,7 @@ Den här artikeln demonstrerar användningen av Aspose.Cells for Java API:er fö
 
 {{% alert color="primary" %}}
 
-Excel-tabeller hänvisas till som ListObjects i Aspose.Cells-perspektivet därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighet. Vänligen läs detaljerat om hur man [skapar ListObjects](/cells/sv/java/creating-a-list-object/) med Aspose.Cells for .NET API.
+ Excel-tabeller kallas ListObjects ur Aspose.Cells perspektiv, därför använder vi termen "ListObject" istället för "Tabell" för tydlighet. Läs gärna mer om hur man [skapar ListObjects](/cells/sv/java/creating-a-list-object/) med API:n Aspose.Cells for Java.
 
 {{% /alert %}}
 

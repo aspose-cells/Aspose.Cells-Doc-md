@@ -178,3 +178,4 @@ chart.ToPdf(outputPdfFile);
 レンダリングでサポートされていないチャートタイプを画像やPDFにレンダリングしようとすると、サイズが0の画像や空白のPDFができる可能性があります。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

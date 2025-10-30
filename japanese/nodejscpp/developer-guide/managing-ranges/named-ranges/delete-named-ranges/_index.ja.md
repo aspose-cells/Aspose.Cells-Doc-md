@@ -22,7 +22,7 @@ Excelから名前付き範囲を削除するには、次の手順に従うこと
 7. 変更を保存するためにワークブックを保存します。
 
 ## **Aspose.Cells for Node.js via C++を使用して名前範囲を削除する**
-Aspose.Cells for Node.js via C++を使用すると、リスト内の[テキスト]や[インデックス]を指定して名前範囲や定義済みの名前を削除できます。
+Aspose.Cells for Node.js via C++を使用すると、リスト内の【テキスト】や【インデックス】を指定して名前範囲や定義済みの名前を削除できます。
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -102,3 +102,4 @@ workbook.save("Book2.xlsx");
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

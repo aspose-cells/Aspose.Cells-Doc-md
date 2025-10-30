@@ -124,3 +124,4 @@ Det är möjligt att ställa in läsordningen för text i celler. Läsordningen 
 - [Radbrytningar och textindrag](/cells/sv/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

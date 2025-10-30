@@ -76,3 +76,4 @@ För att ta bort flera rader från ett arbetsblad, ring [**delete_rows**](https:
 För att ta bort en kolumn från arbetsbladet på valfri plats, ring [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int)-metoden i [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells)-samlingen. Metoden [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) tar indexet för kolumnen som ska tas bort.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

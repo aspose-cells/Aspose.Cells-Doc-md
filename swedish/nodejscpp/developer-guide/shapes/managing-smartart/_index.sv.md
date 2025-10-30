@@ -9,3 +9,4 @@ keywords: Hantera Smart Art Node.js via C++, Aspose.Cells Smart Art manipulation
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

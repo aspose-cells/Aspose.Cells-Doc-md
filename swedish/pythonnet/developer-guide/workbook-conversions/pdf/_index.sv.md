@@ -143,3 +143,4 @@ Om din kalkylblad innehåller formler är det bäst att anropa [Workbook.calcula
 - [Spara angivna arbetsblad som PDF](/cells/sv/python-net/save-specified-worksheets-to-pdf/)
 - [Säkra PDF-dokument](/cells/sv/python-net/secure-pdf-documents/)
 - [Ange hur textsträngar ska korsas i utgående PDF och bild](/cells/sv/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

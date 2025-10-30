@@ -4,7 +4,7 @@ linktitle: 署名
 type: docs
 weight: 100
 url: /ja/java/assign-and-validate-digital-signatures/
-description: Excelファイルのデジタル署名、検証。Excelファイルのワークブックの内容の信頼性を保護するために、Aspose.Cells for .Netを使用してC#コードでデジタル署名を追加することができます。
+description: Excelファイルのデジタル署名と検証。Excelファイルのワークブックの内容の真正性を保護するために、Javaコードを使用してデジタル署名を追加できます。Aspose.Cells for Java。
 ---
 
 {{% alert color="primary" %}}

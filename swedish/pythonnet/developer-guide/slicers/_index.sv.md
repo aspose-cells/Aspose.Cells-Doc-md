@@ -37,3 +37,4 @@ Vänligen se det följande provkoden. Den laddar [provmappen](sampleCreateSlicer
 - [Ta bort slicer](/cells/sv/python-net/removing-slicer/)
 - [Rendering slicer](/cells/sv/python-net/rendering-slicer/)
 - [Uppdatera slicer](/cells/sv/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

@@ -17,3 +17,4 @@ Du kan använda Aspose.Cells för Python via .NET för att sammanfoga eller dela
 Följande exempelkod skapar först ett intervall - A1:D4 - och slår sedan samman cellerna i intervallet till en enda cell med hjälp av [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#)-metoden. På liknande sätt kan du dela upp celler genom att skapa ett intervall och anropa [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#)-metoden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -76,3 +76,4 @@ Dölj rullningslistor genom att ställa in klassens [**Workbook**](https://refer
 Nedan finns en komplett kod som öppnar en Excel-fil, book1.xls, gömmer båda rullningsfälten och sparar sedan den modifierade filen som output.xls.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Worksheets-Display-DisplayHideScrollBars-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

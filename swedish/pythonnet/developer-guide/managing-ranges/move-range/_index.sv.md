@@ -27,3 +27,4 @@ Se den genererade filen med intervallet A1:B5 flyttat till C1:D5 nedan.
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Move-Range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

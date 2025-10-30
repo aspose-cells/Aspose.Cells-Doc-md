@@ -63,3 +63,4 @@ När ett givet kalkylblad har många kolumner kan den genererade PDF-filen visa 
 Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) strax innan du renderar kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -102,3 +102,4 @@ int main()
 - [Hämta intervall med externa länkar](/cells/sv/cpp/get-range-with-external-links/)
 - [Implementera icke-sekventiella områden](/cells/sv/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /sv/cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API en tillåter dig att öppna/läsa in olika format som XLSX, HTML, CSV, ODS, TSV, SXC, FODS, osv.
+description: API tillåter dig att öppna/läsa olika format som XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: öppna xlsx filer, öppna html filer, läsa in fods filer, läsa in ods filer, läsa in sxc filer, öppna csv filer, tabulerad, SpreadsheetML, tsv, mhtml
 ---
 
@@ -82,3 +82,4 @@ StarOffice Calc liknar Microsoft Excel och stöder formler, diagram, funktioner 
 FODS-filer är kalkylblad som sparas i OpenDocument XML utan någon komprimering. Aspose.Cells kan läsa FODS-filer som visas i följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenFODSFile-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -89,3 +89,4 @@ Lägg till en formel med referensstil **R1C1** i en cell med klassens [**Cell**]
 - [Stödda Excel-funktioner](/cells/sv/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

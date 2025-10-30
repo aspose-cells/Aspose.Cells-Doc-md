@@ -57,3 +57,4 @@ i++;
 // Re-save the file
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

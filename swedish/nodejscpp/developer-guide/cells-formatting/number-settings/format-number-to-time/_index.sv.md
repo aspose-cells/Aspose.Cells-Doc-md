@@ -111,3 +111,4 @@ Här är ett kodexempel som demonstrerar dessa steg:
 
 Formatera nummer till tid i Aspose.Cells for Node.js via C++ innebär att du sätter ett anpassat nummerformat för cellerna där du vill visa tid. Genom att följa stegen ovan kan du enkelt tillämpa tidsformat på celler i dina Excel-filer med Aspose.Cells. Kom ihåg, nyckeln är att använda rätt anpassad formatsträng som matchar det önskade tidsformatet.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

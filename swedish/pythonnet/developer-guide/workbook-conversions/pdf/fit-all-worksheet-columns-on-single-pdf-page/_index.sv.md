@@ -30,3 +30,4 @@ När ett givet kalkylblad har många kolumner kan den genererade PDF-filen visa 
 Om din kalkylblad innehåller formler är det bäst att anropa [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) metoden precis innan kalkylbladet renderas till PDF-format. På så sätt säkerställs att formelberoende värden omräknas och de korrekta värdena renderas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

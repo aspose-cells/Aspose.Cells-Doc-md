@@ -94,3 +94,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 
 - [チャートの作成](/cells/ja/nodejs-cpp/creating-charts/)
 - [チャートのカスタマイズ](/cells/ja/nodejs-cpp/customizing-charts/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

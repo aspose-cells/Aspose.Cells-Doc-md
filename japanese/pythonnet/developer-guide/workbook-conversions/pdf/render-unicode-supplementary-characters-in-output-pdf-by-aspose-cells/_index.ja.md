@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NETによる出力PDFのUnicodeサプリメンタ�
 [ソースExcelファイル](5115563.xlsx)を[出力PDF](5115564.pdf)に変換するためのサンプルコードを使用できます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

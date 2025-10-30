@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET erbjuder samma funktionalitet som Microsoft Exc
 - [Formatera och modifiera namngivna områden](/cells/sv/python-net/format-and-modify-named-ranges/)
 - [Hämta intervall med externa länkar](/cells/sv/python-net/get-range-with-external-links/)
 - [Implementera icke-sekventiella områden](/cells/sv/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

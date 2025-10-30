@@ -74,3 +74,4 @@ Käll- och utdata Excel-filer som används i kodbiten är bifogade för referens
 [Källfil](96928093.xlsx)
 
 [Utgångsfil](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

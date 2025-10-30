@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NETは[**PdfSecurityOptions**](https://reference.as
 スプレッドシートに数式が含まれている場合、スプレッドシートをPDFにレンダリングする直前に[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)を呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

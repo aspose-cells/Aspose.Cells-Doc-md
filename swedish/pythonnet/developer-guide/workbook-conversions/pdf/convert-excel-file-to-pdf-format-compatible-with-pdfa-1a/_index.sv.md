@@ -24,3 +24,4 @@ Följande exempelkod förklarar hur man konverterar Excel-fil till PDF-format ko
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}
+{{< app/cells/assistant language="python-net" >}}

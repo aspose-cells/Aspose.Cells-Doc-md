@@ -12,3 +12,4 @@ description: Lär dig om de stödja teckensnittsformaten i Aspose.Cells for C++.
 |**TTF**|TrueType-typsnitt|
 |**TTC**|TrueType-samling|
 |**OTF**|OpenType-typsnitt|
+{{< app/cells/assistant language="cpp" >}}

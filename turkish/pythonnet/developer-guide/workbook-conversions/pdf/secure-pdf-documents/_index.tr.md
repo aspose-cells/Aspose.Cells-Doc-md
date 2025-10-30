@@ -33,3 +33,4 @@ Aşağıdaki örnek kod, Aspose.Cells için Python via .NET ile PDF'leri nasıl 
 Eğer elektronik tablo formüller içeriyorsa, PDF olarak dışa aktarmadan hemen önce [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)çağrısı yapmak en iyisidir. Böylece formüle bağlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

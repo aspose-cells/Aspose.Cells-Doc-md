@@ -66,3 +66,4 @@ Aspose.Cellsは、Microsoft Excelファイルを表すクラス[**Workbook**](ht
 - [セルの値がシングルクォートマークで始まるかどうかを検索](/cells/ja/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [元の値を使用したデータの検索](/cells/ja/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

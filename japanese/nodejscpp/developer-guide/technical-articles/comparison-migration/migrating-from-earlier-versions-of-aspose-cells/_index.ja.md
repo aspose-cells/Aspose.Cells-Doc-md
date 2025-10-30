@@ -49,3 +49,4 @@ description: 最新バージョンのAspose.Cells for Node.js via C++にアッ�
 最新バージョンのAspose.Cells for Node.js via C++へのアップグレードは大きな改善をもたらす可能性がありますが、慎重な移行手順を守ることが重要です。常に公式ドキュメントやコミュニティフォーラムを参照し、移行中の追加サポートを得てください。
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

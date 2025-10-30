@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, sıfırdan bir XLSX dosyası oluşturur ve hücre A1'e 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-AddPictureToExcelComment-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

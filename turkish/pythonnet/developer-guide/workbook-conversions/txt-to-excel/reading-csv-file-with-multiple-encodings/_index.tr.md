@@ -36,3 +36,4 @@ Aşağıdaki ekran görüntüsü, [**TxtLoadOptions.is_multi_encoded**](https://
 Aşağıdaki örnek kod, yukarıdaki CSV dosyasını XLSX formatına uygun bir şekilde dönüştürür.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

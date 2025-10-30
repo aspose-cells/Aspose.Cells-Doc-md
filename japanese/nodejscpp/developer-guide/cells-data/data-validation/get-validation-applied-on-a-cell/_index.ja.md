@@ -25,3 +25,4 @@ Node.js用Aspose.Cellsを使用してセルに適用されている検証を取�
 ## 関連記事
 
 - [データの検証](/cells/ja/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

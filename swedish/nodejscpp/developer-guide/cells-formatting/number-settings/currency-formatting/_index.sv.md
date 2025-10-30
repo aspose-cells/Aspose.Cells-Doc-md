@@ -47,3 +47,4 @@ Följ dessa steg för att formatera nummer som valuta i Excel:
 För att formatera nummer som valuta i Aspose.Cells for Node.js via C++-biblioteket för att arbeta med Excel-filer kan du applicera valutaformat till celler programmatiskt. Så här gör du med Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

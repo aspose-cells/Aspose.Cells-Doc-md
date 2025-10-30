@@ -45,3 +45,4 @@ Datatypen som finns i en cell kan också kontrolleras genom att använda [Cell](
 Du kan också använda ovanstående fördefinierade cellvärdestyper för att jämföra med datatypen som finns i varje cell.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

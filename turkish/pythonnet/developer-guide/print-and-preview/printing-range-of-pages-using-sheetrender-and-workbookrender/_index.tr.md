@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NET, bu amaçla WorkbookRender.ToPrinter(string Pri
 Aşağıdaki örnek kod, WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) ve SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemlerinin kullanımını açıklar. Bu kod, çalışma kitabının ve çalışma sayfasının 2-5 sayfalarını yazdırır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-PrintingSpecificRangeOfPages.py" >}}
+{{< app/cells/assistant language="python-net" >}}

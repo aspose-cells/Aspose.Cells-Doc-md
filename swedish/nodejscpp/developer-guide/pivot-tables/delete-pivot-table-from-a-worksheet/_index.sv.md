@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ tillhandahåller en funktion för att ta bort e
 Följande kodexempel tar bort två pivottabeller från arbetsbladet. Först tar det bort pivottabellen med hjälp av [**Worksheet.getPivotTables().remove(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#remove-pivottable-) -metoden och sedan tar det bort pivottabellen med hjälp av [**Worksheet.getPivotTables().removeAt(index, keepData)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#removeAt-number-boolean-) -metoden
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

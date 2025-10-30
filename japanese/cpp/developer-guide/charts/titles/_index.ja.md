@@ -107,3 +107,4 @@ int main()
 
 ## **上級トピック**
 - [ODSファイルからチャートサブタイトルを読む](/cells/ja/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

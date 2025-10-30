@@ -18,3 +18,4 @@ Källfilen som används i den följande kodsnutten bifogas för din referens.
 ## Exempelkod
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-MeasureData-GetTextWidth.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

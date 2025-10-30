@@ -30,3 +30,4 @@ Görevlerinizi tamamlamak için gereken bazı faydalı kaynakların bağlantıla
 - [Aspose.Cells for Node.js via C++ API Referans Kılavuzu](https://reference.aspose.com/cells/nodejs-cpp/)
 - [Aspose.Cells for Node.js via C++ Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via C++ Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

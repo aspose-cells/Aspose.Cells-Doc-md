@@ -26,3 +26,4 @@ Bu örnek aşağıdakileri göstermektedir:
 1. İlk aralığın verilerini bu ikinci aralığa kopyalayın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

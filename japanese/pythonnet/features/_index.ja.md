@@ -64,3 +64,4 @@ description: "Aspose.Cells for Python via .NET の機能。"
 - ヘッダーやフッターの作成または編集
 - 印刷エリアを設定したり、タイトルを印刷したり、グリッド線を表示したりするなど。
 
+{{< app/cells/assistant language="python-net" >}}

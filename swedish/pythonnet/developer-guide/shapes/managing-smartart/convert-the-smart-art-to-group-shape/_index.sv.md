@@ -30,3 +30,4 @@ Is Group Shape: False
 Is Group Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

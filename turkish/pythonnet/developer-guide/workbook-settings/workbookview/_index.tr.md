@@ -19,7 +19,7 @@ Excel sayfalarının görüntüsünü ayarlamanız gerektiğinde, yatay ve dikey
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Aspose.Cells for .NET kullanarak Çalışma Kitabı Görünümünü Kontrol Etme**
+## **Aspose.Cells for Python via .NET Kullanarak Çalışma Kitabı Görünümünü Kontrol Etme**
 Bu örnek aşağıdakileri göstermektedir:
 
 1. Bir çalışma kitabı oluşturma.
@@ -33,3 +33,4 @@ Sonuç dosyası önizlemesi:
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

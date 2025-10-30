@@ -71,3 +71,4 @@ int main()
 - [Exportera XML-data som är länkad till XML-karta inuti arbetsboken](/cells/sv/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Hitta rotresursnamnet på XML-kartan](/cells/sv/cpp/find-the-root-element-name-of-xml-map/)
 - [Länka celler till XML-kartelement](/cells/sv/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

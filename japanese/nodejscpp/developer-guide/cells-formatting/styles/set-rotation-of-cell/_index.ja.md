@@ -50,3 +50,4 @@ Excel でセルを回転するには、次の手順を使用できます:
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-SetRotationOfCell.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

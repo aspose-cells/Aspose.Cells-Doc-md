@@ -31,3 +31,4 @@ Paylaşılan çalışma kitabını koruma ve korumayı kaldırma.
 - [Şifreli Office Open XML - OOXML Dosyalarının Dosya Biçimini Algılama](/cells/tr/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Excel Dosyalarının Şifrelenmesi](/cells/tr/cpp/encrypting-excel-files/)
 - [Bir Dosya Biçimini Algılama ve Dosyanın Şifreli Olup Olmadığını Kontrol Etme](/cells/tr/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

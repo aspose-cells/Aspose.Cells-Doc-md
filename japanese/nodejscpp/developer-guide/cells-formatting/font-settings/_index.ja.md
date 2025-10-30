@@ -90,3 +90,4 @@ Aspose.Cellsは、セルの書式設定スタイルを取得および設定に�
 - [スプレッドシートまたはブックで使用されているフォントのリストを取得する](/cells/ja/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

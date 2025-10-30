@@ -25,11 +25,11 @@ aliases:
 
 ## ステップ1：Dockerfileを作成
 
-プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/)に`Dockerfile`というファイルを作成してください。`Dockerfile`には、Dockerイメージをビルドするための命令を記述します。
+あなたのプロジェクト（ディレクトリ）に `Dockerfile` という名前のファイルを作成してください。 `Dockerfile` にはDockerイメージのビルド方法を記述します。
 
 ## ステップ2: GridJs用のDockerfileを書く
 
-ASP.NET Coreアプリケーションを使用したGridJsデモのサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) です。
+ASP.NET CoreアプリケーションのGridJsデモ用のサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Dockerfile)」
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

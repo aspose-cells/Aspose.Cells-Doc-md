@@ -25,3 +25,4 @@ För att tillämpa viss formatering på en stor omfattning av celler i en arbets
 Eftersom [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-)-metoden använder mycket mindre minne och är effektiv, togs den äldre Cell.style-egenskapen som konsumerade mycket onödig minne bort med lanseringen av Aspose.Cells 7.1.0.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

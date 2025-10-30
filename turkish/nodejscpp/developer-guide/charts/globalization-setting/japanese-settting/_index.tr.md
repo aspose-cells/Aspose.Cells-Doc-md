@@ -111,3 +111,4 @@ Yukarıdaki işlemden sonra, Japon Bölgesi ile çıktı grafik resmi alabiliriz
 |Diğer Adı|その他|Diğer|  
 |Seri Adı|シリーズ|Seri|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

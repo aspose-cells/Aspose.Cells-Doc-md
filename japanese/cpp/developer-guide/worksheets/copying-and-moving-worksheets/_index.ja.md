@@ -30,3 +30,4 @@ Aspose.Cellsは、[AddCopy()](https://reference.aspose.com/cells/cpp/aspose.cell
 Aspose.Cellsは、[MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) というメソッドを提供しており、これを使用してワークブック内でワークシートを別の位置に移動できます。このメソッドは対象のワークシートのインデックスをパラメーターとして取ります。次の例では、ワークブック内でワークシートを別の位置に移動する方法が示されています。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

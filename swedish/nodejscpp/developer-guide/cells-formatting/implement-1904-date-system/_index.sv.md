@@ -42,3 +42,4 @@ workbook.getSettings().setDate1904(true);
 // Save the excel file
 workbook.save(path.join(dataDir, "Mybook.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

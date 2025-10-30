@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NETは、MOL（原子と結合に関する情報を
 - [埋め込まれたOLEオブジェクトのクラス識別子を取得または設定する](/cells/ja/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Ole ObjectとしてWAVファイルを挿入する](/cells/ja/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

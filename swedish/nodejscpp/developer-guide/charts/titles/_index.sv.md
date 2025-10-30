@@ -92,3 +92,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ## **Fortsatta ämnen**
 - [Läs diagramunderrubrik från ODS-fil](/cells/sv/nodejs-cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -143,3 +143,4 @@ int main()
 - [スプレッドシートを画像にレンダリングする際のデフォルトフォントの設定](/cells/ja/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [PdfSaveOptionsおよびImageOrPrintOptionsのDefaultFontプロパティを優先するために設定します](/cells/ja/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [サポートされるフォント形式](/cells/ja/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

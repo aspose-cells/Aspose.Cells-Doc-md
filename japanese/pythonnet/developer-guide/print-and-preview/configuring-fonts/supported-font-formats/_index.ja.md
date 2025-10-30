@@ -11,3 +11,4 @@ TrueTypeフォント||**TTF**|
 TrueTypeコレクション||**TTC**|
 OpenTypeフォント||**OTF**|
 
+{{< app/cells/assistant language="python-net" >}}

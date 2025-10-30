@@ -44,3 +44,4 @@ Den här koden visar hur man skapar och konfigurerar en TextBox i ett Excel-ark,
 Tänk på att interaktioner med textrutor kan variera beroende på specifika användningsfall, så hänvisa till Aspose.Cells for Node.js via C++-dokumentationen för ytterligare metoder och egenskaper.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -79,3 +79,4 @@ int main()
 Om kalkbladet innehåller formler är det bäst att ringa [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) precis innan det renderas till PDF. Detta säkerställer att värden beroende av formler omberäknas och de korrekta värdena visas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

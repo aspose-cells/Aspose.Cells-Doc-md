@@ -53,3 +53,4 @@ int main()
 ```
 
 添付 [サンプルソースの Excel ファイル](Frozen.xlsx) です。
+{{< app/cells/assistant language="cpp" >}}

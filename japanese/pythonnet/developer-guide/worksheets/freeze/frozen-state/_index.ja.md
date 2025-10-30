@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NETを使えば、ウィンドウの固定状態や
 3. ロックされた行および列を取得します
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

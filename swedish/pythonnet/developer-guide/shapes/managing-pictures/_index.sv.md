@@ -53,3 +53,4 @@ Lägg till en bild i arbetsbladet genom att ringa [**add_picture**](https://refe
 - [Infoga en Bild Baserat på Cellreferens](/cells/sv/python-net/insert-a-picture-based-on-cell-reference/)
 - [Ladda en webbbild från en URL till ett Excel-arbetsblad](/cells/sv/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

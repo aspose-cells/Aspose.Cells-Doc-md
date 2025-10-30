@@ -21,3 +21,4 @@ ImportCustomObject.py dosyası, aktarılacak sınıf bilgisini tanımlar ve sın
 
 TestImportCustomObject.py dosyası, basit bir kullanım örneği gösterir. Kullanıcılar bu örneğe bakabilir veya kendi verilerini içermek için küçük değişiklikler yapabilirler.
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

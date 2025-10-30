@@ -36,3 +36,4 @@ Aspose.Cellsは[**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.co
 以下は、上記のCSVファイルを正しくXLSX形式に変換するサンプルコードです。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

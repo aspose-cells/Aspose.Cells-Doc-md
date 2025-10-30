@@ -59,3 +59,4 @@ set_licenseメソッドを呼び出すときは、ライセンス名をライセ
 {{% /alert %}}
 
 
+{{< app/cells/assistant language="python-net" >}}

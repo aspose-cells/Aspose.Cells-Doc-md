@@ -46,7 +46,7 @@ Yerel dosya depolama için burada bir örnek:
 
 Sunucu tarafı depolama için, bir örnek de sunuyoruz. Lütfen kontrol edin: 
 
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
 
 Depolama hakkında daha fazla detay için, lütfen bu [kılavuza](/cells/tr/net/aspose-cells-gridjs/storage/) bakın
@@ -76,4 +76,4 @@ Seçenek 2: GridJsControllerBase'de IGridJsService kullanma
 ```
 
 Detaylı bilgiler için buradaki örneği kontrol edebilirsiniz:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

@@ -46,3 +46,4 @@ cell.SetStyle(style);
 - [既存のStyleを修正する](/cells/ja/cpp/modify-an-existing-style/)
 - [Styleオブジェクトの再利用](/cells/ja/cpp/reusing-style-objects/)
 - [組み込みのスタイルを使用する](/cells/ja/cpp/using-built-in-styles/)
+{{< app/cells/assistant language="cpp" >}}

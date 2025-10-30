@@ -16,3 +16,4 @@ Bazen istenen aralık dışındaki hücre değerlerini yok sayarak belirli veril
 Aspose.Cells for Python via .NET, veri arama sırasında bir aralık belirtmek için [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) methodunu sağlar. Aşağıdaki kod örneği, bir aralıktaki verileri aramak ve değiştirmektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

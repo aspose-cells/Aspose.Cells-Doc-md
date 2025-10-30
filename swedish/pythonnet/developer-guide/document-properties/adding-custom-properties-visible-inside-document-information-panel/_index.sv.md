@@ -22,3 +22,4 @@ Följande exempelkod lägger till två anpassade egenskaper. Den första egenska
 - [Använd anpassade XML-delsar i Aspose.Cells](/cells/sv/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

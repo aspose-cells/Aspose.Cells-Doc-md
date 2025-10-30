@@ -88,5 +88,5 @@ System.out.println("Un-formatted String Value: " + unformatted);
 
 {{% /alert %}}
 ## **廃止されたBytes、Characters、CharactersWithSpaces、Lines、Paragraphsプロパティ**
-BuiltInDocumentPropertyCollectionクラスの多くのプロパティがバージョン Aspose.Cells for .NET 8.1.0 から非推奨となりました。これらのプロパティにはBytes、Characters、CharactersWithSpaces、Lines、Paragraphsが含まれています。これらのプロパティはExcelスプレッドシートの保存において利用されないためです。元々これらのプロパティはWord文書やPowerPointプレゼンテーション向けに記述されていました。 
+BuiltInDocumentPropertyCollectionクラスの多くのプロパティは、Aspose.Cells for Java 8.1.0以降で廃止されました。これらのプロパティには、Bytes、Characters、CharactersWithSpaces、Lines、およびParagraphsがあります。理由は、これらのプロパティはExcelスプレッドシートの保存に役立たないためです。これらのプロパティは元々Word文書やPowerPointプレゼンテーション用に書かれました。 
 {{< app/cells/assistant language="java" >}}

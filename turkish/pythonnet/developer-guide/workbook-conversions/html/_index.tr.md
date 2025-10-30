@@ -48,3 +48,4 @@ Aşağıdaki kod örneği, bir çalışma kitabını C# kullanarak MHTML dosyas�
 - [Kolon genişliğini em veya yüzde gibi ölçeklenebilir birim olarak ayarlayın](/cells/tr/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [HTML olarak elektronik tabloyu oluştururken varsayılan yazı tipini ayarlayın](/cells/tr/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Çıkış HTML'sinde dizeyi nasıl geçeceğini HtmlCrossType kullanarak belirtin](/cells/tr/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

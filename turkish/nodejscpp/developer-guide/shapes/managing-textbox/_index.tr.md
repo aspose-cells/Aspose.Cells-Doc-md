@@ -44,3 +44,4 @@ Bu kod, Excel çalışma sayfasında bir TextBox oluşturma ve yapılandırma y�
 Metin kutularıyla olan etkileşimlerin belirli kullanım durumlarına göre değişebileceğini unutmayın, bu nedenle ek yöntemler ve özellikler için Aspose.Cells for Node.js via C++ dokümantasyonuna bakın.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

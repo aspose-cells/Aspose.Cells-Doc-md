@@ -6,3 +6,4 @@ url: /sv/cpp/data/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

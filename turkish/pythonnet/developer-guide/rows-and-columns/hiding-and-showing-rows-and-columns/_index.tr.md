@@ -55,3 +55,4 @@ Geliştiriciler, [**cells**](https://reference.aspose.com/cells/python-net/aspos
 Aynı şekilde birden fazla satır ve sütunu görünür hale getirmek için [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) sınıfının [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) ve [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) metodları da kullanılabilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

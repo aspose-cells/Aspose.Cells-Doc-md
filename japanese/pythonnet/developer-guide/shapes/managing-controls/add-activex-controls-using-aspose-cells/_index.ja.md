@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NETを使ってActiveXコントロールを追加�
 次のサンプルコードは、Aspose.Cells for Python via .NETを使用してActiveXコントロールのトグルボタンを追加します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-AddActiveXControls-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

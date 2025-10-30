@@ -142,4 +142,4 @@ UpdateCellアクションはトリガーされません。
 ```
 
 詳細情報については、こちらの例をご確認ください：
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

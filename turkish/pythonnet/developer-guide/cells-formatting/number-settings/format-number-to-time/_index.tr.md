@@ -115,3 +115,4 @@ Bir sayıyı zaman olarak biçimlendirmek için, hücreyle ilişkili `Style` nes
 
 Aspose.Cells for Python via .NET kullanılarak sayıları zaman biçimine dönüştürmek, zaman göstermesini istediğiniz hücrelere özel sayı biçimi ayarlamayı içerir. Yukarıda belirtilen adımları izleyerek, Excel dosyalarınızda hücrelere zaman biçimleri uygulayabilirsiniz. Unutmayın, anahtar doğru özel biçim dizesini kullanmaktır ki bu da istediğiniz zaman formatına uygun olmalıdır.
 
+{{< app/cells/assistant language="python-net" >}}

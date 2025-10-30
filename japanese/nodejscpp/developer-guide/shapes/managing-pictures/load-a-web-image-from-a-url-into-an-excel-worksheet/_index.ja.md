@@ -38,3 +38,4 @@ chunks.push(chunk);
 {{% /alert %}}  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. Nollställ alltid strömmens position med `seek(0)` innan läsning
 3. Sätt lämpliga MIME-typer i svarshuvuden
 4. Använd ramverksspecifika svarshanterare i webbramar som Django/Flask
+{{< app/cells/assistant language="python-net" >}}

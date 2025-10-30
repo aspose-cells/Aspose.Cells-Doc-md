@@ -85,3 +85,4 @@ Aspose.Cells for Node.js via C++の数字を会計形式に整えるには、セ
 
 具体的なフォーマット文字列は、ロケールや特定の会計フォーマット要件に応じて調整する必要があります（例：異なる通貨記号の使用、小数点以下の桁数の増減など）。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

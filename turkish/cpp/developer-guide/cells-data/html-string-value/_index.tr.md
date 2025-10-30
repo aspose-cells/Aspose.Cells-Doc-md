@@ -60,3 +60,4 @@ int main()
 
 - [HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster](/cells/tr/cpp/display-bullets-by-setting-cell-value-using/)
 - [Hücreden HTML5 dizesi al](/cells/tr/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

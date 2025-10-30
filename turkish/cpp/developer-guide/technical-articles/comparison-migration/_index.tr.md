@@ -29,3 +29,4 @@ Excel dosyalarını karşılaştırırken veya taşırken, verilerde, formüller
 Aspose.Cells for C++, Excel dosyalarını karşılaştırma ve taşıma için kapsamlı araçlar sunar. Bu araçları kullanarak veri bütünlüğünü sağlayabilir ve geçiş sürecini kolaylaştırabilirsiniz.
 
 Daha detaylı örnekler ve gelişmiş kullanım için [Aspose.Cells for C++ dokümantasyonuna](https://reference.aspose.com/cells/cpp/) bakın.
+{{< app/cells/assistant language="cpp" >}}

@@ -25,3 +25,4 @@ url: /ja/cpp/how-to-create-stock-charts/
 以下のデータセットは、株式の日次取引情報を示します。このデータを使用して、4つのタイプの株式チャートを作成します：ハイロークローズ（HLC）、オープンハイロークローズ（OHLC）、ボリュームハイロークローズ（VHLC）、およびボリュームオープンハイロークローズ（VOHLC）。
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="cpp" >}}

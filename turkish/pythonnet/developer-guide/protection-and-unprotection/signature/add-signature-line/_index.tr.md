@@ -22,3 +22,4 @@ Aşağıdaki örnek kod, çalışma sayfasına imza satırı eklemek için [**Pi
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Add-Signature-Line.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

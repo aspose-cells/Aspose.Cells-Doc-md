@@ -35,3 +35,4 @@ Standardalternativet, [**MemorySetting.NORMAL**](https://reference.aspose.com/ce
 1. **Infoga & Ta bort celler & rader**: Observera att om det finns många infogning/ta bort-operationer för celler/rader, kommer prestandaförsämringen märkas för *MemoryPreference* läge jämfört med *Normal* läge.
 1. **Infogning & Radering av celler & rader**: Observera att om det finns mycket infogning/radering av operationer för celler/rader, kommer prestandanedbrytningen att vara märkbar för *MemoryPreference*-läget jämfört med *Normal*-läget.
 
+{{< app/cells/assistant language="python-net" >}}

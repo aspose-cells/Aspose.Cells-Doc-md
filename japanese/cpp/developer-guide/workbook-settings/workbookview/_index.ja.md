@@ -98,3 +98,4 @@ int main()
 結果ファイルのプレビュー:
 <br>
 <image src="result.png" width="70%" />
+{{< app/cells/assistant language="cpp" >}}

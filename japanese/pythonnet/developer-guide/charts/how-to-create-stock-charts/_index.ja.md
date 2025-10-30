@@ -24,3 +24,4 @@ url: /ja/python-net/how-to-create-stock-charts/
 以下のデータセットは、株式の日次取引情報を示しています。このデータを使用して、4種類の株価チャートを作成します：高値-安値-終値(HLC)株価チャート、始値-高値-安値-終値(OHLC)チャート、出来高-高値-安値-終値(VHLC)株価チャート、および出来高-始値-高値-安値-終値(VOHLC)株価チャート。 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="python-net" >}}

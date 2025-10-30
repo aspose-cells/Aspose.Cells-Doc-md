@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NETは、既存のピボットテーブルを含む
 上記のコードで生成された出力ファイルが添付されています。
 
 [出力ODSファイル](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

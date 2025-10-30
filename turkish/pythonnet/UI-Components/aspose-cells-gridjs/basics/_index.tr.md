@@ -44,7 +44,7 @@ Aşağıda GridJs web uygulaması geliştirmek için temel işlem adımları bul
 
 Aşağıda, Aspose.Cells.GridJs'in kullanımını gösteren temel bir demo bulunmaktadır:
 
-https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net 
+https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs
 
 Demo'da [gridjs-spreadsheet](https://www.npmjs.com/package/gridjs-spreadsheet) kullanarak istemci tarafı sayfasını oluşturuyoruz.
 

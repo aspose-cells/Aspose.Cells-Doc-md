@@ -81,3 +81,4 @@ Aşağıdaki kod parçası tarafından oluşturulan [çıktı dosyası](10108931
 
 ## **Gelişmiş Konular**
 - [Grafiklere WordArt Filigranı Ekleme](/cells/tr/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

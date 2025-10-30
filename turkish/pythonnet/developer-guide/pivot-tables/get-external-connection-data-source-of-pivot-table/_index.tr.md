@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET, pivot tablosunun dış bağlantı veri kaynağ
 Kod örneğinde kullanılan kaynak dosya, referans için ekte bulunmaktadır.
 
 [Kaynak Dosya](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

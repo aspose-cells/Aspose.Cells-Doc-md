@@ -36,3 +36,4 @@ Excelで竜巻チャートを作成する方法は次の通りです：
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-tornado-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

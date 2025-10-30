@@ -96,3 +96,4 @@ Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin; özel motor
 [Özel Fonksiyonun Doğrudan Hesaplanması, çalışma sayfasına yazmadan](/cells/tr/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -119,3 +119,4 @@ Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

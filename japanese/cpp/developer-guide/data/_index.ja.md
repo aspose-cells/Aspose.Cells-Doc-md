@@ -6,3 +6,4 @@ url: /ja/cpp/data/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

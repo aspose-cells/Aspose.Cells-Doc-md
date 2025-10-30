@@ -8,3 +8,4 @@ description: Aspose.Cells for Python via .NET APIを使用してワークブッ�
 keywords: C#でワークブックの管理方法、C#を使用したワークブックおよびワークシートの管理、C#でワークブックおよびワークシートを操作する方法。 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

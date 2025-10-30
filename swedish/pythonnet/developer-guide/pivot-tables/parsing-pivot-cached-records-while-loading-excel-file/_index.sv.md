@@ -20,3 +20,4 @@ Följande exempelkod förklarar användningen av [**LoadOptions.parsing_pivot_ca
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

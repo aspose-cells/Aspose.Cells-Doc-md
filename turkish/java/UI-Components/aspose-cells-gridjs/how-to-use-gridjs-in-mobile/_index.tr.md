@@ -15,7 +15,7 @@ GridJs'yi mobil cihazda sorunsuz kullanabilirsiniz.
 
 GridJs istemci js mobil ekranı uyum sağlar.
 
-GridJs [demo'sunu](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo of GridJs") çalıştırın
+GridJs demo'sunu çalıştır ([demo](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs))
 
 Demo projesinin varsayılan portu 8080'dir. 
 

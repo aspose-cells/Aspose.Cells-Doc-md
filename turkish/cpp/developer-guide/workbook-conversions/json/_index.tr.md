@@ -54,3 +54,4 @@ int main()
 - [Excel’i JSON’a dönüştürmek](/cells/tr/cpp/convert-excel-to-json/)
 - [JSON'ı CSV'ye dönüştür](/cells/tr/cpp/convert-json-to-csv/)
 - [JSON’u Excel’e dönüştürmek](/cells/tr/cpp/convert-json-to-excel/)
+{{< app/cells/assistant language="cpp" >}}

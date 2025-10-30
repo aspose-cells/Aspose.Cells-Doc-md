@@ -27,3 +27,4 @@ Aşağıdaki kod örneği, hücre içine HTML zengin metin eklemenin nasıl yap�
 
 - [HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster](/cells/tr/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [Hücreden HTML5 dizesi al](/cells/tr/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

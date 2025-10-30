@@ -97,3 +97,4 @@ Pratik uygulamalardan başlayalım ve Excel dosyasına grafik eklemek için üç
 Pandas'ta, ExcelWriter nesnesini ve to_excel() fonksiyonunu kullanarak bir Excel dosyasına grafik ekleyebilirsiniz. Ancak, lütfen unutmayın ki Pandas kendisi doğrudan grafikleri Excel dosyalarına gömmeyi desteklemez, yalnızca verileri Excel dosyalarına yazabilir. Grafik eklemek için openpyxl veya xlsxwriter kütüphanesini kullanmanız gerekmektedir. İşte Excel dosyasına grafik eklemek için xlsxwriter kütüphanesini kullanarak bir örnek.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

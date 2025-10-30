@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET APIは、スプレッドシートをJSON形式�
 - [ExcelをJSONに変換する](/cells/ja/python-net/convert-excel-to-json/)
 - [JSONをCSVに変換](/cells/ja/python-net/convert-json-to-csv/)
 - [JSONをExcelに変換する](/cells/ja/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

@@ -194,3 +194,4 @@ int main()
 - [Çalışma Sayfasında Hücre Aralığını Taşıma](/cells/tr/cpp/move-range-of-cells-in-a-worksheet/)
 - [Çalışma Kitabı ve Çalışma Sayfası Kapsamlı Adlandırılan Aralıkları Oluştur](/cells/tr/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Aralıktaki Veriyi Arama ve Değiştirme](/cells/tr/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

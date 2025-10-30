@@ -1,0 +1,83 @@
+---
+title: Undvik exponentiell notation för stora tal vid import från HTML
+linktitle: Undvik exponentiell notation för stora tal vid import från HTML
+type: docs
+weight: 10
+url: /sv/javascript-cpp/avoid-exponential-notation-of-large-numbers-while-importing-from/
+description: Lär dig hur du förhindrar att stora tal konverteras till exponentiell notation vid import från HTML med Aspose.Cells for JavaScript via C++.
+--- 
+
+{{% alert color="primary" %}}  
+
+Ibland innehåller din HTML nummer som 1234567890123456, vilka är längre än 15 siffror, och när du importerar din HTML till en Excel-fil, konverteras dessa nummer till exponential notation som 1.23457E+15. Om du vill att numret ska importeras som det är och inte konverteras till exponential notation, använd då [**HtmlLoadOptions.keepPrecision**](https://reference.aspose.com/cells/javascript-cpp/htmlloadoptions/#keepPrecision--) egenskapen och ställ den till **true** vid laddning av HTML.  
+
+{{% /alert %}}  
+
+Följande exempel förklarar användningen av [**HtmlLoadOptions.keepPrecision**](https://reference.aspose.com/cells/javascript-cpp/htmlloadoptions/#keepPrecision--) egenskapen. API:n kommer att importera numret som det är utan att omvandla till exponential notation.  
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Example Title</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, HtmlLoadOptions, LoadFormat } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            // Sample Html containing large number with digits greater than 15
+            const html = "<html><body><p>1234567890123456</p></body></html>";
+
+            // Convert Html to byte array
+            const byteArray = new TextEncoder().encode(html);
+
+            // Set Html load options and keep precision true
+            const loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            loadOptions.keepPrecision = true;
+
+            // Convert byte array into stream
+            const stream = byteArray;
+
+            // Create workbook from stream with Html load options
+            const workbook = new Workbook(stream, loadOptions);
+
+            // Access first worksheet
+            const sheet = workbook.worksheets.get(0);
+
+            // Auto fit the sheet columns
+            sheet.autoFitColumns();
+
+            // Save the workbook
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'outputAvoidExponentialNotationWhileImportingFromHtml.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Excel File';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">Workbook created successfully. Click the download link to download the file.</p>';
+        });
+    </script>
+</html>
+```

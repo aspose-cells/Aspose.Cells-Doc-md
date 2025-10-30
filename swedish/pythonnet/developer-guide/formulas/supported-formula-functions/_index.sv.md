@@ -70,6 +70,8 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |BITOR|**Engineering**: Returnerar en bitvis ELLER av 2 nummer
 |BITRSHIFT|**Engineering**: Returnerar ett värde numret skiftad höger med shift_amount bitar
 |BITXOR|**Engineering**: Returnerar en bitvis 'Exklusiv Eller' av två nummer
+|BYCOL|**Logik**: Tillämpa en LAMBDA på varje kolumn och returnera en array av resultaten
+|BYROW|**Logik**: Tillämpa en LAMBDA på varje rad och returnera en array av resultaten
 
 ###### **C**
 |**Funktion**|**Sammanfattning**|
@@ -103,6 +105,8 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |CORREL|**Statistisk**: Returnerar korrelationskoefficienten mellan två datamängder
 |COS|**Matematik och trigonometri**: Returnerar cosinus för ett tal
 |COSH|**Matematik och trigonometri**: Returnerar den hyperboliska cosinus för ett tal
+|COT|**Matematik och trigonometri**: Returnerar den hyperboliska cosinen av ett tal
+|COTH|**Matematik och trigonometri**: Returnerar cotangenten av en vinkel
 |COUNT|**Statistisk**: Räknar hur många tal som finns i listan med argument
 |COUNTA|**Statistisk**: Räknar hur många värden som finns i listan med argument
 |COUNTBLANK|**Statistisk**: Räknar antalet blanka celler inom ett intervall
@@ -170,6 +174,7 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |EVEN|**Matematik och trigonometri**: Avrundar ett nummer upp till närmaste jämnt heltal
 |EXACT|**Text**: Kontrollerar om två textvärden är identiska
 |EXP|**Matematik och trigonometri**: Returnerar e upphöjt till kraften av ett angivet nummer
+|EXPAND|**Uppläsning och referens**: Utökar eller fyller en matris till angivna rad- och kolumnstorlekar
 |EXPONDIST|**Kompatibilitet**: Returnerar den exponentiella fördelningen
 
 ###### **F**
@@ -267,6 +272,7 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |ISNONTEXT|**Information**: Returnerar SANT om värdet inte är en text
 |ISNUMBER|**Information**: Returnerar SANT om värdet är ett nummer
 |ISODD|**Information**: Returnerar SANT om numret är udda
+|ISOMITTED|**Information**: Kontrollerar om värdet i en LAMBDA saknas och returnerar SANT eller FALT
 |ISREF|**Information**: Returnerar SANT om värdet är en referens
 |ISTEXT|**Information**: Returns TRUE if the value is text
 |ISOWEEKNUM|**Datum och klockslag**: Returnerar antalet av ISO-veckonumret för ett visst datum
@@ -412,6 +418,7 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |RANK|**Kompatibilitet**: Returnerar rangen för ett tal i en lista med nummer
 |RATE|**Finansiell**: Returnerar räntan per period av en annuitet
 |RECEIVED|**Finansiell**: Returnerar det belopp som erhålls vid mognad för en fullt investerad säkerhet
+|REDUCE|**Logiskt**: Reducerar en matris till ett samlat värde genom att tillämpa en LAMBDA på varje värde och returnera totalvärdet i ackumulatorn
 |REPLACE|**Text**: Ersätter tecken inom text
 |REPLACEB|**Text**: Ersätter tecken inom text
 |REPT|**Text**: Upprepar text ett givet antal gånger
@@ -475,6 +482,7 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |T|**Text**: Konverterar sina argument till text
 |TAN|**Matematik och trigonometri**: Returnerar tangenten av ett nummer
 |TANH|**Matematik och trigonometri**: Returnerar den hyperboliska tangenten av ett nummer
+|TAKE|**Uppläsning och referens**: Returnerar ett angivet antal sammanhängande rader eller kolumner från början eller slutet av en matris
 |TBILLEQ|**Finansiell**: Returnerar bindande ekvivalent avkastning för en skattsedel
 |TBILLPRICE|**Finansiell**: Returnerar priset per 100 dollar ansiktsvärde för en skattsedel
 |TBILLYIELD|**Finansiell**: Returnerar avkastningen för en skattsedel
@@ -536,13 +544,17 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |WEIBULL.DIST|**Statistisk**: Returnerar Weibull-distributionen
 |WORKDAY|**Datum och tid**: Returnerar serienumret för datumet före eller efter ett angivet antal arbetsdagar
 |WORKDAY.INTL|**Datum och tid**: Returnerar serienumret för datumet före eller efter ett angivet antal arbetsdagar genom att använda parametrar för att ange vilka och hur många dagar som är helgdagar
+|WRAPCOLS|**Uppläsning och referens**: Wrapar den angivna raden eller kolumnen av värden efter ett specificerat antal element
+|WRAPROWS|**Uppläsning och referens**: Wrapar den angivna raden eller kolumnen av värden efter ett specificerat antal element
 
 ###### **X**
 |**Funktion**|**Sammanfattning**|
 | :- | :- |
-|XIRR|**Ekonomi**: Returnerar den interna avkastningen för en tidsplan för kassaflöden som inte nödvändigtvis är periodisk
+|XIRR|**Finansiell**: Returnerar den interna avkastningen för en kassaflödesplan som inte nödvändigtvis är periodisk.
 |XLOOKUP|**Sökning och referens**: Söker i en serie eller en matris och returnerar en post som motsvarar den första matchningen den hittar. Om en matchning inte finns kan XLOOKUP returnera den närmaste (ungefärliga) matchningen. 
-|XNPV|**Ekonomi**: Returnerar nettot nuvärde för en tidsplan för kassaflöden som inte nödvändigtvis är periodiska
+|XMATCH|**Uppläsning och referens**: Returnerar den relativa positionen för ett objekt i en matris eller cellområde. 
+|XNPV|**Finansiell**: Returnerar nettovärdet för en kassaflödesplan som inte nödvändigtvis är periodisk.
+|XOR|**Logiskt**: Returnerar ett logiskt exklusivt OR av alla argument.
 
 ###### **Y**
 |**Funktion**|**Sammanfattning**|
@@ -560,3 +572,4 @@ Aspose.Cells för Python via .NETs formelberäkningsmotor tillåter dig att ange
 |ZTEST|**Kompatibilitet**: Returnerar den enkelsidiga sannolikhetsvärdet för en z-test
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -4,3 +4,4 @@ type: docs
 weight: 100
 url: /tr/cpp/migrating-from-earlier-versions-of-aspose-cells/
 ---
+{{< app/cells/assistant language="cpp" >}}

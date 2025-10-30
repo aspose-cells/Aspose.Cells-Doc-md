@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ja/go-cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API は、XLSX、HTML、CSV、ODS、TSV、SXC、FODS などの異なる形式を開く/読み込むことができます。
+description: Aspose.Cells for Go via C++ APIは、XLSX、HTML、CSV、ODS、TSV、SXC、FODSなどのさまざまなフォーマットを開く/読み取ることができます。
 keywords: xlsx ファイルを開く、html ファイルを開く、fods ファイルを読む、ods ファイルを読む、sxc ファイルを読む、csv ファイルを開く、タブ区切り、SpreadsheetML、tsv、mhtml
 ---
 
@@ -38,16 +38,6 @@ Aspose.Cells は、HTML ファイルを Workbook オブジェクトに開くこ�
 コンマ区切り値（CSV）ファイルには、値がコンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で引用された表として保存されます。フィールド値に二重引用符文字が含まれる場合は、それを二重引用符文字のペアでエスケープします。Microsoft Excel を使用してスプレッドシートデータを CSV にエクスポートすることもできます。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **CSV ファイルを開くと無効な文字を置換する**
-
-Excel では、特殊文字が含まれる CSV ファイルを開くと、文字が自動的に置換されます。Aspose.Cells API でも同様に行います。これは以下のコード例で示されています。
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-この機能をテストするために、サンプルソースファイルを以下のリンクからダウンロードできます。
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **カスタム区切り記号を使用してテキストファイルを開く**
 

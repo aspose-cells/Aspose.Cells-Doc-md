@@ -59,3 +59,4 @@ Grafiğin SVG'sini not defterinde açarsanız, benzer bir **viewBox** özniteli�
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

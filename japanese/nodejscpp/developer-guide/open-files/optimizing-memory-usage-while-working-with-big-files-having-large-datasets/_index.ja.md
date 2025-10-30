@@ -79,3 +79,4 @@ cells = wb.getWorksheets().add("Sheet2").getCells();
 2. **セルや行の挿入と削除**：セルや行への挿入/削除操作が多い場合、*MemoryPreference*モードでは*Normal*モードに比べてパフォーマンスの低下が顕著になることに注意してください。  
 3. **異なるセルタイプの操作**：ほとんどのセルが文字列値や数式を含む場合、メモリコストは*Normal*モードと同じですが、多くの空セルや、数値、ブール値などが含まれる場合、[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)オプションはより良いパフォーマンスを提供します。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

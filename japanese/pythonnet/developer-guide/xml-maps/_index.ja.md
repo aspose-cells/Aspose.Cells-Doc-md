@@ -42,3 +42,4 @@ Aspose.Cells for Python via .NETは、[**Workbook.import_xml()**](https://refere
 - [ワークシート.XmlMapQueryメソッドを使用して、XMLマップパスにマップされたセルエリアをクエリします。](/cells/ja/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -75,3 +75,4 @@ Aşağıdaki örnek, şablon XLSX dosyasını kullanır, farklı tema renkleri i
 ## **Gelişmiş Konular**  
 - [Excel Dosyasından Tema Verisi Çıkarın](/cells/tr/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

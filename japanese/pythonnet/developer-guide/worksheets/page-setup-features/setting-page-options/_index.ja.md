@@ -190,3 +190,4 @@ Aspose.Cells for Python via .NET は、Microsoft Excelファイルを表すク�
 ワークシートのページ番号の設定を開始するには、[**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスの [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) プロパティを使用します。[**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) プロパティは最初のワークシートページのページ番号を設定し、次のページは昇順で番号付けされます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

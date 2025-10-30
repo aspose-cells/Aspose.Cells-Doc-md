@@ -62,3 +62,4 @@ int main()
 ## 関連記事
 
 - [データの検証](/cells/ja/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

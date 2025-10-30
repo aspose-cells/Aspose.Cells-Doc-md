@@ -81,3 +81,4 @@ Den [utdatafilen](101089316.xlsx) som genererats av följande kodsnutt bifogas f
 
 ## **Fortsatta ämnen**
 - [Lägg till WordArt-vattenstämpel på diagram](/cells/sv/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

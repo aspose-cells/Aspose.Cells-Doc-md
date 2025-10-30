@@ -40,3 +40,4 @@ Aşağıdaki grafik öğeleri, bölgeselleştirme ayarlarınıza göre görünt�
 | Diğer Adı                     | Diğer                            |
 | Seri Adı                     | Seri                             |
 
+{{< app/cells/assistant language="python-net" >}}

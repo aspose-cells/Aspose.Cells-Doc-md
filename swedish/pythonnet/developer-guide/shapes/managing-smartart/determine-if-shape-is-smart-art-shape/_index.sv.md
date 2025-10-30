@@ -26,3 +26,4 @@ Följande kodexempel laddar [exempel Excel-filen](55541792.xlsx) som innehåller
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

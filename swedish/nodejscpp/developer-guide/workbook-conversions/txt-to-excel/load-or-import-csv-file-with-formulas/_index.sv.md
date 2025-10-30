@@ -58,3 +58,4 @@ Koden laddar först CSV-filen, importer den sedan igen till cell D4. Slutligen s
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

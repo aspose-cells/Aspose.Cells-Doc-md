@@ -72,3 +72,4 @@ saveOptions.setDefaultFont("Times New Roman");
 saveOptions.setCheckWorkbookDefaultFont(false);
 workbook.save(path.join(outputDir, "out1_pdf.pdf"), saveOptions);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

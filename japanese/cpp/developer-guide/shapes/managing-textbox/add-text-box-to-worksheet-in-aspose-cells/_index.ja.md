@@ -75,3 +75,4 @@ int main()
 結果ファイル（result.xlsx）と類似したファイルを取得します。その中に次のものが見られます：
 
 ![](52449.png)
+{{< app/cells/assistant language="cpp" >}}

@@ -2,7 +2,7 @@
 title: 保護および保護解除
 linktitle: 保護
 type: docs
-weight: 40
+weight: 55
 url: /ja/python-java/protect-and-unprotect/
 description: このスニペットでは、Pythonコードを使用してExcelファイルを暗号化および復号化し、Excelファイル内のデータを保護および保護解除する方法が紹介されています。
 ---

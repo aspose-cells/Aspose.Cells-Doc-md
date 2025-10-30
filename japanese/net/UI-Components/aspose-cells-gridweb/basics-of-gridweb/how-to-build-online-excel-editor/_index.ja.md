@@ -25,11 +25,11 @@ aliases:
 
 ## ステップ1：Dockerfileを作成
 
-プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/)に `Dockerfile`という名前のファイルを作成します。`Dockerfile`にはDockerイメージのビルド方法を記述します。
+プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/)に`Dockerfile`という名前のファイルを作成します。`Dockerfile`にはDockerイメージのビルド方法に関する指示を記述します。
 
 ## ステップ 2: GridWeb用のDockerfileを作成
 
-こちらはASP.NET Coreアプリケーションを用いたGridWebデモ用の [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile)の例です。
+ASP.NET Coreアプリケーションを使ったGridWebデモ用のサンプル[`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/Dockerfile)です：
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

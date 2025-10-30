@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NETは、ヘッダーとフッターをコマンド
 以下のコードは、ヘッダーまたはフッターをコマンドリストとして解析し、コマンドを処理する方法を示しています:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NETは、VBAデジタル証明書をストリーム
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ExportVBACertificateToFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

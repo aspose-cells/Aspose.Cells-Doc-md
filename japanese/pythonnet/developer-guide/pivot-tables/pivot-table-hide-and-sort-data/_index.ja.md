@@ -19,3 +19,4 @@ Aspose.Cells for Python via .NETは、ピボットテーブルでデータを非
 [ソースファイル](96928093.xlsx)
 
 [出力ファイル](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

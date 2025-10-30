@@ -95,3 +95,4 @@ Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10</br>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

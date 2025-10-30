@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NET API を使用して、フィールド値でピ�
 
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableCustomSort-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

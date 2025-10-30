@@ -24,3 +24,4 @@ keywords: Pythonを使用してExcelをPDFに変換する際に生成される�
 スプレッドシートに式が含まれている場合、PDFにレンダリングする前に[Workbook.calculate_formula]（https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#）メソッドを呼び出すことが最善です。これにより、式に依存する値が再計算され、正しい値が出力ファイルにレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

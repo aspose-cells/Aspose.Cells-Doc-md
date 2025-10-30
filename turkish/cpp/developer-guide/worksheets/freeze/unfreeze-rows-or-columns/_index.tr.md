@@ -53,3 +53,4 @@ int main()
 ```
 
 Ekli [örnek kaynak Excel dosyası](Frozen.xlsx).
+{{< app/cells/assistant language="cpp" >}}

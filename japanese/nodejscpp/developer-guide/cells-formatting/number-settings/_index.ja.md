@@ -92,3 +92,4 @@ Aspose.Cells は、数値と日時の表示形式を設定するためのいく�
 - [カスタム日付形式パターン g および ge mm dd の表現](/cells/ja/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [ブックでのカスタム数値小数点およびグループの区切りの指定](/cells/ja/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [DBNumカスタムパターンの書式設定の指定](/cells/ja/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

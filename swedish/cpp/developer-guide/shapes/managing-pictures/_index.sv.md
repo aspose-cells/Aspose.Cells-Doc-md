@@ -203,3 +203,4 @@ int main()
 - [Infoga en Länkbild från Webbadress](/cells/sv/cpp/insert-a-linked-picture-from-web-address/)
 - [Infoga en Bild Baserat på Cellreferens](/cells/sv/cpp/insert-a-picture-based-on-cell-reference/)
 - [Ladda en webbbild från en URL till ett Excel-arbetsblad](/cells/sv/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

@@ -494,3 +494,4 @@ int main()
 ## **高度なトピック**
 - [セルの配置を変更し、既存の書式を保持する](/cells/ja/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [改行とテキストの折り返し](/cells/ja/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

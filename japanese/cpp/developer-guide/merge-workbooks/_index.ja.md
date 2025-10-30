@@ -96,3 +96,4 @@ int main()
 ## **高度なトピック**
 - [複数のワークシートを単一のワークシートに結合する](/cells/ja/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [ファイルの結合](/cells/ja/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

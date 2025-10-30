@@ -106,3 +106,4 @@ int main()
 
 - [チャートの作成](/cells/ja/cpp/creating-charts/)
 - [チャートのカスタマイズ](/cells/ja/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

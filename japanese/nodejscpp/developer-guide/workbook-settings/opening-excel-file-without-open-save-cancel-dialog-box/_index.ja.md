@@ -41,3 +41,4 @@ Windows エクスプローラで:
 | :- | 
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)| 
 この設定により、ファイルを直接ウェブブラウザで実行できるようになり、ファイルをダウンロードまたは開く際に Open-Save-Cancel ダイアログが表示されることなく実行できます。 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET は [**DataLabels.is_text_wrapped**](https://re
 次のコードサンプルは、チャートのデータラベルのテキスト折り返しを無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

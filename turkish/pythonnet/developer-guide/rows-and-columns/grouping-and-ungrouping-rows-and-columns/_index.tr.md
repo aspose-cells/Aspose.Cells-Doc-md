@@ -64,3 +64,4 @@ Gruplanmış herhangi bir satır veya sütunu ayırmak için, [**Cells**](https:
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool), üçüncü bir Boolean parametresi alan bir aşırı yüklemesi vardır. **true** olarak ayarlayarak tüm gruplanmış bilgileri kaldırabilirsiniz. Aksi takdirde, yalnızca dış grup bilgileri kaldırılır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

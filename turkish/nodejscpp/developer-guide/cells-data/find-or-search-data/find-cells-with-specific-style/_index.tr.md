@@ -17,3 +17,4 @@ Bu örnek kod, A1 hücresiyle aynı stile sahip tüm hücreleri bulur. Kod çal�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SearchData-SearchCellWithSpecifyStyle.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

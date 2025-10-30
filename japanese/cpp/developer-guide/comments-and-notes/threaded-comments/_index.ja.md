@@ -322,3 +322,4 @@ int main()
 Aspose.Cellsによるコメントの削除では、作者は自動的に削除されません。作者も削除する必要がある場合は、[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/)クラスのRemoveAtメソッドを使用してください。前述の例に示すように使用してください。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

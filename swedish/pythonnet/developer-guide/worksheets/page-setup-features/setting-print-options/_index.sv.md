@@ -95,3 +95,4 @@ De fördefinierade värdena i [**PrintOrderType**](https://reference.aspose.com/
 |OVER_THEN_DOWN|Representerar utskriftsordning som över och sedan ner.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

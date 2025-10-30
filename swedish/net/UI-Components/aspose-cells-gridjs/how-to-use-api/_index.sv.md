@@ -46,7 +46,7 @@ För lokal fil lagring, här är ett exempel:
 
 För serverlagring, erbjuder vi även ett exempel. Kontrollera: 
 
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 
 
 För mer information om lagring, se denna [guide](/cells/sv/net/aspose-cells-gridjs/storage/)
@@ -76,4 +76,4 @@ Alternativ 2: Använda IGridJsService i GridJsControllerBase
 ```
 
 För detaljerad info kan du kolla exemplet här:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

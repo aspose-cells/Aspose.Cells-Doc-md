@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama](/cells/tr/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Veri Etiketleri Olarak Hücre Aralığını Gösterme](/cells/tr/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

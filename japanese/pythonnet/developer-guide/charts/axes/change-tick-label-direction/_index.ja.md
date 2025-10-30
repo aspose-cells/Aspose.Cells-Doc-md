@@ -38,3 +38,4 @@ Aspose.Cells for Python via .NETは、[**TickLabels.direction_type**](https://re
 [ソースファイル](105480221.xlsx)
 
 [出力ファイル](105480223.xlsx)
+{{< app/cells/assistant language="python-net" >}}

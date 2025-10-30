@@ -17,3 +17,4 @@ Följande exempelkod laddar exempel-Excel-filen utan diagram och sparar den i PD
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-LoadTemplateWithoutCharts.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

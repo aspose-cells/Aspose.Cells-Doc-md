@@ -22,3 +22,4 @@ Tablo özellikleri, tablo bir aralığa dönüştürüldükten sonra artık kull
 Aşağıdaki kod parçası Aspose.Cells kullanarak aynı işlevselliği göstermektedir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

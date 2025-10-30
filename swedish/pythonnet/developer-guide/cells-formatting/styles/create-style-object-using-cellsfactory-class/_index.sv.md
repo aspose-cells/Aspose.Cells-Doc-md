@@ -14,3 +14,4 @@ Följande exempel skapar ett [Style](https://reference.aspose.com/cells/python-n
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UsingCellsFactory-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

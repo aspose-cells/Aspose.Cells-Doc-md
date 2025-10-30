@@ -15,4 +15,4 @@ Aşağıdaki örnek kod, [kaynak XLSB dosyasını](23166992.xlsb) yükler, A1 h�
 
 ## **Örnek Kod**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}

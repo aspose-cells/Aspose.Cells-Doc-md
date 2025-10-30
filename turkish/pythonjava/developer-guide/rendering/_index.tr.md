@@ -1,7 +1,7 @@
 ---
 title: Renderleme
 type: docs
-weight: 70
+weight: 150
 url: /tr/python-java/rendering/
 ---
 

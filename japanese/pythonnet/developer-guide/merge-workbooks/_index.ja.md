@@ -57,3 +57,4 @@ url: /ja/python-net/combine-multiple-workbooks-into-a-single-workbook/
 - [複数のワークシートを単一のワークシートに結合する](/cells/ja/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [ファイルの結合](/cells/ja/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -22,3 +22,4 @@ Aspose.Cells for Pythonエクセルライブラリには、これら3つの形�
 次のサンプルコードでは、まずPivot Tableを**コンパクト形式**で表示し、次に**アウトライン形式**でPivot Tableを表示し、最後にPivot Tableを**表形式**で表示します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

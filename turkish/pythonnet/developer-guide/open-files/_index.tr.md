@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NET ile Excel dosyalarını açmak, kaydetmek ve y�
 - [Farklı Biçimlerde Dosyaları Açma](/cells/tr/python-net/opening-files-with-different-formats/)
 - [Büyük Veri Kümesine Sahip Büyük Dosyalarla Çalışırken Hafıza Kullanımını Optimize Etme](/cells/tr/python-net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [Numbers Elektronik Tablosu, Apple Inc. tarafından geliştirildi.](/cells/tr/python-net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

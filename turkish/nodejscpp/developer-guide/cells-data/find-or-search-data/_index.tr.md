@@ -66,3 +66,4 @@ Belirli dizgi değerleri, aynı [**find**](https://reference.aspose.com/cells/no
 - [Hücre Değerinin Tek Tırnak İşareti ile Başlayıp Başlamadığını Bulma](/cells/tr/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Orijinal Değerler Kullanarak Veri Arama](/cells/tr/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

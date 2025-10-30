@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NET は、Microsoft Excel 向けの HTML を XLS/XL
 
 - [HTMLを設定して箇条書きを表示](/cells/ja/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [セルからHTML5文字列を取得](/cells/ja/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

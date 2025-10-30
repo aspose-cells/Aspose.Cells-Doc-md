@@ -58,3 +58,4 @@ Excelは背景色に基づいてデータをソートする機能を提供して
 ## **高度なトピック**
 - [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/python-net/sort-data-in-column-with-custom-sort-list/)
 - [データソート時の警告の指定](/cells/ja/python-net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="python-net" >}}

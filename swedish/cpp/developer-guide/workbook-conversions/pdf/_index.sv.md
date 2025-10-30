@@ -308,3 +308,4 @@ Om ditt kalkylblad innehåller formler är det bäst att anropa [**Workbook.Calc
 - [Spara angivna arbetsblad som PDF](/cells/sv/cpp/save-specified-worksheets-to-pdf/)
 - [Säkra PDF-dokument](/cells/sv/cpp/secure-pdf-documents/)
 - [Ange hur textsträngar ska korsas i utgående PDF och bild](/cells/sv/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

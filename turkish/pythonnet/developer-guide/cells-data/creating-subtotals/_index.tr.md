@@ -35,3 +35,4 @@ Aşağıdaki kod parçaları, Aspose.Cells for Python via .NET ile bir çalışm
 
 ## **Gelişmiş Konular**
 - [Aralık Uygulama ve Özet Satırların Yönünü Değiştirme ve Özetlerin Ayrıntıların Altında Oluşturulması](/cells/tr/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

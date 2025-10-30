@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表すクラ
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

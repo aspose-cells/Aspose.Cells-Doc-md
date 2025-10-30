@@ -21,3 +21,4 @@ Aspose.Cells は名前付き範囲の作成をサポートしています。名�
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

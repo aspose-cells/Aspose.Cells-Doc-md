@@ -42,3 +42,4 @@ workbook.save("Unfrozen.xlsx");
 ```
 
 Bifogad [provkälla för Excel-filen](Fryst.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

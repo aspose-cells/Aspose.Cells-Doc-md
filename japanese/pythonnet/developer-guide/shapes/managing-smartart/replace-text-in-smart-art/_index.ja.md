@@ -16,3 +16,4 @@ url: /ja/python-net/replace-text-in-smart-art/
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ReplaceTextInSmartArt-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -58,3 +58,4 @@ En komplett exempel nedan visar hur man använder [**is_row_column_headers_visib
 Det går även att använda [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) och [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) metoder av klassen [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) för att göra flera rader och kolumner synliga.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

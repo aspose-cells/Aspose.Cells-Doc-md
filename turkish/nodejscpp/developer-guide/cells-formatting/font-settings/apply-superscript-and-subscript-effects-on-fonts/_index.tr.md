@@ -28,3 +28,4 @@ Aşağıdaki kod örnekleri, metne üst simge ve altsimge uygulamanın nasıl ya
 ### Node.js kodu ile Metne Alt Simge etkisi Uygulama
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

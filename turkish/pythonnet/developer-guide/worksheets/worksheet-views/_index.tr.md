@@ -113,3 +113,4 @@ Bölme panolarını [**remove_split**](https://reference.aspose.com/cells/python
 - [Çalışma Sayfasında Değerlerin Yerine Formülleri Gösterme](/cells/tr/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Hata Kontrol Seçeneklerini Kullan](/cells/tr/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

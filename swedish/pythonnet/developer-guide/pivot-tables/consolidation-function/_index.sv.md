@@ -37,3 +37,4 @@ Följande kod tillämpar **MEDEL** konsolideringsfunktion på det första datapu
 DISTINCT_COUNT konsolideringsfunktion stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

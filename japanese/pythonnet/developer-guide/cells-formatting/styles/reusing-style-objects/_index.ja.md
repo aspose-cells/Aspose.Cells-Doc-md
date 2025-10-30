@@ -26,3 +26,4 @@ url: /ja/python-net/reusing-style-objects/
 古い Cell.Style プロパティは不要なメモリを多く消費していたため、[**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) アプローチを使用するとメモリを大幅に削減でき、効率的です。これにより、Aspose.Cells 7.1.0 のリリースに伴い、古い Cell.Style プロパティが削除されました。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

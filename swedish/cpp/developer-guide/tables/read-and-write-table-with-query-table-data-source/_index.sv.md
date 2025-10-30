@@ -54,3 +54,4 @@ Käll- och utdata Excel-filer är bifogade för referens.
 [Källfil](96928091.xls)
 
 [Resultatfil](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

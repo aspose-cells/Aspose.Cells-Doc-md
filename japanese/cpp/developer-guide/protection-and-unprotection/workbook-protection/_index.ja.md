@@ -78,3 +78,4 @@ int main()
 {{% alert color="primary" %}}
 注意：正しいパスワードが必要です。
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

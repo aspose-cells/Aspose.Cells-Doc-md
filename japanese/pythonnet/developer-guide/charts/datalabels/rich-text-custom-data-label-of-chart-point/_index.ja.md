@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NETを使用して、チャートポイントのリ
 次のコードは、最初のシリーズの最初のチャートポイントにアクセスし、そのテキストを設定し、その後、最初の10文字のフォントを赤に設定し、**true**に太字を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

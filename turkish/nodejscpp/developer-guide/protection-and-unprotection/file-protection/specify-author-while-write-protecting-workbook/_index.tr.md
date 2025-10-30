@@ -37,3 +37,4 @@ const outputDir = path.join(__dirname, "output");
 workbook.save(path.join(outputDir, "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

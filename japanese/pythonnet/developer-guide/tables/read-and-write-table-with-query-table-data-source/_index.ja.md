@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NETを使用すると、QueryTableをデータソ�
 
 [出力ファイル](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Paylaşılan Formülün Maksimum Satırlarını Belirtme](/cells/tr/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [Desteklenen Excel İşlevleri](/cells/tr/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

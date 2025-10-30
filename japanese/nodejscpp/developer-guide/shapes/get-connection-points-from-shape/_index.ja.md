@@ -40,3 +40,4 @@ connectionPoints.forEach(pt => {
 console.log(`X = ${pt[0]}, Y = ${pt[1]}`);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -47,3 +47,4 @@ ws.getCells().linkToXmlMap(map.getName(), 5, 5, "/root/row/FIELD8");
 // Save the workbook in xlsx format
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

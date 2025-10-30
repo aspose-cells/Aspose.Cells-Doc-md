@@ -16,3 +16,4 @@ Följande exempelkod laddar [in den exempel-Excel-filen](input.xlsx) som inneh
 ![todo:image_alt_text](out.png)
 ### **Exempelkod**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Timelines-RenderingTimeline.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

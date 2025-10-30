@@ -281,3 +281,4 @@ int main()
 
 ## **高度なトピック**
 - [ワードアートウォーターマークをグラフに追加する](/cells/ja/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

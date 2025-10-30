@@ -136,3 +136,4 @@ int main()
 ### 結論
 
 これらの手順に従うことで、Aspose.Cells for C++で数値を簡単にパーセンテージにフォーマットできます。Aspose.Cellsはセルのフォーマットや数式操作を含むExcelファイルの manipulat に幅広い機能を提供し、C++開発者にとって強力なツールです。
+{{< app/cells/assistant language="cpp" >}}

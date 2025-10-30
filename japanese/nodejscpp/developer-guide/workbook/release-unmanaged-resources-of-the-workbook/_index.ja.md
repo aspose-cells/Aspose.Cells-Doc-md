@@ -38,3 +38,4 @@ const wb2 = new AsposeCells.Workbook();
 wb2.dispose();
 })();
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

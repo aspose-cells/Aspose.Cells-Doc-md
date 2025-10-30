@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NETは、行を挿入および削除するための
 Aspose.Cells for Python via .NETは、Microsoft Excelと同様の方法で動作します。行または列が追加されると、ワークシートの内容は下方向および右方向にシフトされます。行または列が削除されると、ワークシートの内容は上方向または左方向にシフトされます。行が追加または削除されると、他のワークシートやセル内の参照が更新されます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

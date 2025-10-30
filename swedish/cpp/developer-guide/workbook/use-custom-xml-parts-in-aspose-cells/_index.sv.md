@@ -78,3 +78,4 @@ int main()
 ## Relaterad artikel
 
 - [Lägga till synliga anpassade egenskaper inuti dokumentinformationen](/cells/sv/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

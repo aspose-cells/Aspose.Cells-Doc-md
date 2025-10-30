@@ -32,3 +32,4 @@ Excelでのドロップダウンリストを使用した動的チャートは、
 ```
 
 セル"Sheet1!$A$10"のドロップダウンリストの値を変えると、チャートの動的な変化を見ることができます。これにより、Aspose.Cells for Python via .NETで動的チャートとドロップダウンリストの作成に成功しました。
+{{< app/cells/assistant language="python-net" >}}

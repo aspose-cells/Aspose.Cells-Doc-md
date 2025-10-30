@@ -43,3 +43,4 @@ Bu string sayılar aşağıdaki ekran görüntüsünde [**Cells.convert_string_t
 Aşağıdaki örnek kod, tüm çalışma sayfalarındaki dize sayısal verileri gerçek sayılara dönüştürmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

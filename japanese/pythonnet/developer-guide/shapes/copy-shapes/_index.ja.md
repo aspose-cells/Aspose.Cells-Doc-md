@@ -33,3 +33,4 @@ keywords: Python Excelライブラリ、ワークシート間でShapeをコピ�
 コントロールやその他の図形オブジェクトをコピーするには、次の例に示すように [**Worksheet.shapes.add_copy**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection/add_copy/#aspose.cells.drawing.Shape-int-int-int-int) メソッドを使用します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.py" >}}
+{{< app/cells/assistant language="python-net" >}}

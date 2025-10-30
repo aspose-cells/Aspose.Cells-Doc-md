@@ -40,3 +40,4 @@ Aspose.Cells tillåter utvecklare att komma åt ett kalkylblads maximala visning
 Du kan komma åt ett kalkylblads maximala visningsområde med hjälp av [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) metoden i [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) samlingen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

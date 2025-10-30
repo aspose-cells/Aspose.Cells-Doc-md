@@ -15,3 +15,4 @@ Aspose.Cells for Node.js via C++は、ピボットテーブルをODSファイル
 
 [出力ODSファイル](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

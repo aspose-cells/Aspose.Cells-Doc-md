@@ -20,3 +20,4 @@ Den följande exemplarkoden förklarar hur man använder [**DataSorter.add_key(k
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SortDataInColumnWithCustomSortList.py" >}}
+{{< app/cells/assistant language="python-net" >}}

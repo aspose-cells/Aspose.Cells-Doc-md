@@ -53,3 +53,4 @@ Yukarıdaki örnek kodun [kaynak Excel](5112232.xlsx) dosyasını yükledikten s
 Is 567 correct Password to modify: False  
 Is 5678 correct Password to modify: True  
 {{< /highlight >}}  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -126,3 +126,4 @@ Efter ovanstående operation kan vi få en utdata-diagrambild med japansk region
 |legend totalt namn|すべての|Totalt|
 |annat namn|その他|Övrigt|
 |Serienamn|シリーズ|Serie|
+{{< app/cells/assistant language="cpp" >}}

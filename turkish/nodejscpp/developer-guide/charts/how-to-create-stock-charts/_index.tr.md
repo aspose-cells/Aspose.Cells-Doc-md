@@ -25,3 +25,4 @@ Borsa grafikleri, emtia, hisse senedi ve kripto para gibi işlem gören varlıkl
 Aşağıdaki veri seti, bir hisse senedine ait günlük işlem bilgilerini gösterir. Bu verileri kullanarak dört tür stok grafiği oluşturacağız: Yüksek-Düşük-Kapanış (HLC), Açık-Yüksek-Düşük-Kapanış (OHLC), Hacim-Yüksek-Düşük-Kapanış (VHLC) ve Hacim-Açık-Yüksek-Düşük-Kapanış (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -23,3 +23,4 @@ Bu makale, farklı şekillerin ayar değerini değiştirmek için [**Shape.geome
 Aşağıdaki kod örneği, şeklin ayar değerlerini nasıl değiştireceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -79,3 +79,4 @@ När man arbetar med arbetsblad kan användare lägga till olika typer av data i
 - [Fylla data först per rad och sedan per kolumn](/cells/sv/python-net/populate-data-first-by-row-then-by-column/)
 - [Bevara enskild citattecken prefiks av cellvärde eller område](/cells/sv/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Åtkomst och uppdatering av delar av riktad text från cellen](/cells/sv/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

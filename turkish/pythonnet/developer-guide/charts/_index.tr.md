@@ -195,3 +195,4 @@ Veri işaretçisi ile çizgi grafiği oluşturmak için, [**ChartType**](https:/
 - [Excel Grafik Başlıklarını Yönetme](/cells/tr/python-net/chart-and-axis-titles/)
 - [Grafik Rendeleme](/cells/tr/python-net/chart-rendering/)
 - [Grafik Eğrisi Trend Çizgisinin Denklem Metnini Alma](/cells/tr/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

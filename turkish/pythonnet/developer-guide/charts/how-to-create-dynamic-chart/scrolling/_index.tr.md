@@ -32,3 +32,4 @@ Oluşturulan dosyada, kaydırma çubuğunu kullanabilir ve grafik dinamik olarak
 ```
 
 "Sheet1!$H$20" hücresinde "10" sayısını "15" olarak değiştirmeyi deneyebilirsiniz ve dinamik grafik en son 15 veri setini sayacaktır. Şimdi Aspose.Cells for Python via .NET kullanarak başarıyla bir dinamik kaydırmalı grafik oluşturduk.
+{{< app/cells/assistant language="python-net" >}}

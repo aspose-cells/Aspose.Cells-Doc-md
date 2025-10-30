@@ -37,3 +37,4 @@ Microsoft Excelでは、以下を表示するためのグループ設定を構�
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-UnGroupingRowsColumns-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

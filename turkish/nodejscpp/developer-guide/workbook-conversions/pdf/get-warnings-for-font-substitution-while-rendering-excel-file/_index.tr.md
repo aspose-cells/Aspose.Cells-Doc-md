@@ -74,3 +74,4 @@ Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF format�
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

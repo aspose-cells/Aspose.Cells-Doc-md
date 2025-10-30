@@ -23,3 +23,4 @@ Bu örnek aşağıdakileri göstermektedir:
 1. Hücreleri [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range/) alın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

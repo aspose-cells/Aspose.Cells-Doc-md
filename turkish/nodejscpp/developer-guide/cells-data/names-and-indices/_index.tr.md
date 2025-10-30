@@ -51,3 +51,4 @@ Bazen çalışma sayfası adını çalışma zamanında atamak gerekebilir. Bu d
 Bu, oluşturulmuş ilk adın kısaltıldığı ad
 
 ` <> + (adj.Private _ "Özel"
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -24,3 +24,4 @@ Gelişmiş konularda, aspose Cells'ı dinamik grafikler oluşturmaya nasıl kull
 - [Aspose Cells Kullanarak Dinamik Rolling Grafik Oluşturma](/cells/tr/python-net/create-dynamic-rolling-chart/)
 - [Aspose Cells Kullanarak Dinamik Kaydıran Grafik Oluşturma](/cells/tr/python-net/create-dynamic-scrolling-chart/)
 - [Aspose Cells Kullanarak Dinamik Grafik için Dropdownlist Kullanarak Gantt Grafiği Oluşturma](/cells/tr/python-net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="python-net" >}}

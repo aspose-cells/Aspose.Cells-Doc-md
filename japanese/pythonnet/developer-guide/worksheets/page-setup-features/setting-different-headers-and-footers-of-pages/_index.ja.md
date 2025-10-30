@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NETは、Excelと同じ動作をします。
 1. 異なるヘッダーとフッターを入力します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

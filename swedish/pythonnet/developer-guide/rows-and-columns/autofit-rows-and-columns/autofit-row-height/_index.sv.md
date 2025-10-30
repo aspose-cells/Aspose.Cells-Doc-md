@@ -26,3 +26,4 @@ Om du ställer in parametern [LoadOptions.AutoFitterOptions.only_auto](https://r
 ## **Python Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Rows-autofit-row-height.py" >}}
+{{< app/cells/assistant language="python-net" >}}

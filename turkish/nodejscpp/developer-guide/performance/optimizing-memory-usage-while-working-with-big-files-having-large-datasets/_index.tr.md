@@ -27,3 +27,4 @@ Varsayılan seçenek, [**MemorySetting.Normal**](https://reference.aspose.com/ce
 1. **Hücreleri ve Satırları Ekleme & Silme**: Eğer Hücreler/Satırlar için birçok ekleme/silme işlemi varsa, [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) modu için performans düşüşü, [**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) modu ile karşılaştırıldığında belirgin olacaktır.
 1. **Farklı Hücre Türlerinde İşlemler**: Eğer hücrelerin çoğu dize değerleri veya formüller içeriyorsa, bellek maliyeti [**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) modu ile aynı olacaktır ancak boş hücrelerin çok olduğu veya hücre değerlerinin sayısal, bool vb. olduğu durumlarda, [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) seçeneği daha iyi performans verecektir.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

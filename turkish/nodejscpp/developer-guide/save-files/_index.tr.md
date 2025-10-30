@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [Çalışma kitabının sıkıştırma seviyesi ayarlanabilir.](/cells/tr/nodejs-cpp/adjust-workbook-compression-level/)
 - [Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet](/cells/tr/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Yanıt Nesnesine Dosya Kaydetme](/cells/tr/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

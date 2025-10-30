@@ -21,3 +21,4 @@ HTMLファイルをWorkbookオブジェクト内で読み込む際に列と行�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

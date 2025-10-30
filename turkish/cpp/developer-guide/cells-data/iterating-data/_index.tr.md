@@ -260,3 +260,4 @@ Yukarıda belirtilen gerçeklere dayanarak, aşağıdakiler, numaralandırıcıl
 1. Yalnızca hücre koleksiyonunun salt okunur erişimi gereklidir, yani; gereksinim yalnızca hücreleri incelemektir.
 1. Birçok hücrenin dolaşılması gereklidir.
 1. Yalnızca başlatılmış hücreler/satırlar/sütunlar dolaşılmalıdır.
+{{< app/cells/assistant language="cpp" >}}

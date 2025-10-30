@@ -281,3 +281,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [Grafiklere WordArt Filigranı Ekleme](/cells/tr/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

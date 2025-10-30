@@ -28,3 +28,4 @@ keywords: PythonでExcelワークシートごとに1ページのPDFをレンダ�
 スプレッドシートに数式が含まれている場合は、PDFに変換する前に[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)メソッドを呼び出すことが最善です。これにより、数式に依存する値が再計算され、正しい値がPDFにレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

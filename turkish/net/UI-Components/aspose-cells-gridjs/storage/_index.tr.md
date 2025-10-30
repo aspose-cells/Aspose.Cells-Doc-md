@@ -133,4 +133,4 @@ Dosya ve uid arasında belirli bir eşleme bağlantısının olması gerektiğin
 ```
 
 Daha fazla detaylı bilgi için buradaki örneği kontrol edebilirsiniz:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

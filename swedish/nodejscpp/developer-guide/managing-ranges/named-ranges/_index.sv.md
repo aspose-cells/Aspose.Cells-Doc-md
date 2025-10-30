@@ -80,3 +80,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Implementera icke-sekventiella områden](/cells/sv/nodejs-cpp/implementing-non-sequential-ranges/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

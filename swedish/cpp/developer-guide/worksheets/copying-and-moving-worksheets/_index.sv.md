@@ -30,3 +30,4 @@ Aspose.Cells tillhandahåller en överlagrad metod [AddCopy()](https://reference
 Aspose.Cells tillhandahåller en metod [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) som används för att flytta ett kalkylblad till en annan plats i samma kalkyl. Metoden tar målkalkylbladets index som parameter. Följande exempel visar hur du flyttar ett kalkylblad till en annan plats inom arbetsboken.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

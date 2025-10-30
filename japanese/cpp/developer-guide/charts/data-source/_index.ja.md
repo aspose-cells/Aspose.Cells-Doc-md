@@ -151,3 +151,4 @@ int main()
 - [動的なチャートを作成する](/cells/ja/cpp/create-dynamic-charts/)
 - [Chart.SetChartDataRangeメソッドを使用した簡単なチャート設定方法](/cells/ja/cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [チャートシリーズのX値とY値のタイプを検索する](/cells/ja/cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="cpp" >}}

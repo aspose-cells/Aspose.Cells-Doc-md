@@ -106,3 +106,4 @@ workbook.save(path.join(localPath, "DynamicChartWithDropdownlist.xlsx"));
 ```
 
 セル「Sheet1!$A$10」のドロップダウンリストの値を変更してみると、チャートが動的に変化することがわかります。これで、Aspose.Cellsを使用して動的なチャートをドロップダウンリストで作成しました。
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,0 +1,40 @@
+---
+title: PDF ye kaydederken yalnızca belirli Unicode karakterlerin yazı tipini değiştirme
+linktitle: Ünicode Karakterlerde Yazı Tipini Değiştir
+type: docs
+weight: 260
+url: /tr/go-cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
+description: Aspose.Cells kullanarak belirli Unicode karakterlerin yazı tipini değiştirmeyi nasıl yapacağınızı öğrenin, Golang ve C++ kullanarak.
+---
+
+{{% alert color="primary" %}}
+
+Bazı Unicode karakterleri, kullanıcı tarafından belirtilen font tarafından görüntülenemez. Bu tür bir Unicode karakter **Bilinmeyen Kesme** (U+2011)'dır ve Unicode numarası 8209'dur. Bu karakter **Times New Roman** ile görüntülenemez, ancak **Arial Unicode MS** gibi diğer fontlarla görüntülenebilir.
+
+ Bir karakter, Times New Roman gibi belirli bir fontta olan bir kelime veya cümle içinde oluşursa, Aspose.Cells bu karakteri gösterebilecek bir fonta, örneğin Arial Unicode MS'ye, tüm kelimenin veya cümleğin fontunu değiştirir.
+
+Ancak bu, bazı kullanıcılar için istenmeyen bir davranıştır ve yalnızca o belirli karakterin fontunun değiştirilmesini isterler, tüm kelimenin veya cümlenin fontunun değiştirilmesi yerine.
+
+Bu sorunu çözmek için Aspose.Cells, `PdfSaveOptions.IsFontSubstitutionCharGranularity` özelliği sağlar, bu özellik `true` olarak ayarlanmalıdır ki sadece görüntülenemeyen belirli karakterin fontu, görüntülenebilir bir fonta değiştirilsin ve kelimenin veya cümlenin geri kalanı orijinal fontta kalsın.
+
+{{% /alert %}}
+
+## **Örnek**
+
+Aşağıdaki ekran görüntüsü, aşağıdaki örnek kodu ile oluşturulan iki PDF'yi karşılaştırır.
+
+Biri `PdfSaveOptions.IsFontSubstitutionCharGranularity` özelliği ayarlanmadan oluşturulmuş, diğeri ise bu özellik `true` yapıldıktan sonra oluşturulmuştur.
+
+İlk PDF'de tüm cümlenin fontu Times New Roman'dan Arial Unicode MS'ye Non-Breaking Hyphen nedeniyle değişti. İkinci PDF'de ise yalnızca Non-Breaking Hyphen'in fontu değişti.
+
+|**İlk PDF Dosyası**|
+| :- |
+|![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
+
+|**İkinci PDF Dosyası**|
+| :- |
+|![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
+
+### **Örnek Kod**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeTheFontOnJustTheSpecificUnicodeCharactersWhileSavingToPdf.go" >}}

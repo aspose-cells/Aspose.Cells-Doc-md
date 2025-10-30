@@ -30,3 +30,4 @@ Följande kodexempel laddar [provmallen i Excel](64716820.xlsx) som innehåller 
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

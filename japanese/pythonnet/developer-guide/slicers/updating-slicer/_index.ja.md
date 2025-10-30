@@ -20,3 +20,4 @@ Microsoft Excelでスライサーを更新する場合、そのアイテムを�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

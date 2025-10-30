@@ -49,3 +49,4 @@ När den ovan nämnda koden körs, tillämpas villkorlig formatering på cell "A
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 När den ovan nämnda koden körs, tillämpas villkorlig formatering på cell "B3" i det första arket i utdatafilen (output.xls). Den tillämpade villkorsstyrda formateringen beror på formeln som beräknar värdet av "B3" som summan av B1 & B2.
+{{< app/cells/assistant language="nodejs-cpp" >}}

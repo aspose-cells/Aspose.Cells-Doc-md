@@ -4,8 +4,8 @@ linktitle: HTML文字列値
 type: docs
 weight: 50
 url: /ja/net/adding-html-rich-text-inside-the-cell/
-description: Aspose.Cells for .NET APIを介してセル内にHTMLリッチテキストを追加する方法を学ぶ。
-keywords: セル内にHTMLリッチテキストを追加する、セル内にHTMLリッチテキストを設定する、セル内にHTMLリッチテキストを追加する
+description: HTMLリッチテキストをセル内に追加し、Aspose.Cells for .NET APIを通じて単一のセル内で複数のスタイルを適用する方法を学びます。
+keywords: セル内にHTMLリッチテキストを追加・設定、単一セル内で複数のスタイルを適用、セル内にHTMLリッチテキストを挿入
 ---
 
 {{% alert color="primary" %}}

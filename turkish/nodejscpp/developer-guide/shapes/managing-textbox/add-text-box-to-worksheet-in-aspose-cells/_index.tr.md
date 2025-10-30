@@ -61,3 +61,4 @@ Benzer bir dosya alacaksınız [sonuç dosyası](result.xlsx). Dosyada aşağıd
 
 ![](52449.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -17,3 +17,4 @@ Aşağıdaki kod, [**Workbook.remove_unused_styles()**](https://reference.aspose
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-RemoveUnusedStyles-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

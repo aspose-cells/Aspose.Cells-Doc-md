@@ -24,7 +24,7 @@ ZIP アーカイブから Aspose.Cells for Node.js via Java をインストー�
 ### **Linux:**
 - [Node.js](https://nodejs.org/en/download/)をダウンロードしてインストールしてください。
 - Linux に Oracle JDK (1.7 または 1.8) をインストールし、JAVA_HOME 環境変数を設定する。
-- Python 2.xをインストールしてください。
+- Python 3.xをインストール
 - [node-java](https://github.com/joeferner/node-java)ブリッジをインストールしてください。ターミナルで以下のコマンドを実行できます: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Oracle JDK8をインストールし、JAVA_HOME環境変数を設定してください。
 - Node.jsをインストールし、node.exeをPATHに追加してください。
+- Pythonをインストールし、PATHに設定。
 - node-gypをインストールしてください。
-- Windowsビルドツールをインストールしてください。
-- [node-javaブリッジ](https://www.npmjs.com/package/java)をインストールし、管理者としてコマンドプロンプトで以下のコマンドを実行してください:
+- [node-javaブリッジ](https://www.npmjs.com/package/java)をインストール。
+- aspose.cellsをインストール（または、「Aspose.Cells for Node.js via Java」をダウンロードして「aspose.cells.js.java/node_modules」へ展開）。
 
-
+以下のコマンドを管理者権限でコマンドプロンプトから実行してください（**Java、Node.js、Pythonが設定されていることを確認してください**）:
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- "Aspose.Cells for Node.js via Java"をダウンロードし、「aspose.cells.js.java/node_modules」に展開してください。
 - "aspose.cells.js.java"フォルダに以下のサンプルコードを使用して、**hello.js**という名前のファイルを作成してください:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Python 2.xをインストールしてください（インストールされていない場合）。
+- Python 3.x をインストールします（未インストールの場合）。
 - node-javaブリッジをインストールしてください。ターミナルで以下のコマンドを実行できます:
 
 `         `$ mkdir aspose.cells.js.java

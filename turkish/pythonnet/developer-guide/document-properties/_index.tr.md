@@ -73,3 +73,4 @@ Aspose.Cells for Python via .NET API'leri, koleksiyona özel özellikler eklemek
 - [Aspose.Cells kullanarak Excel Dosyasının Belge Sürümünü Belirtme](/cells/tr/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme](/cells/tr/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

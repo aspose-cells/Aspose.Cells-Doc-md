@@ -33,3 +33,4 @@ const workbook = new AsposeCells.Workbook(filePath);
 const ribbonXml = `<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"></customUI>`;
 workbook.setRibbonXml(ribbonXml);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

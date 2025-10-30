@@ -80,3 +80,4 @@ Ana uygulama ayrıntıları:
 - Grafik türü doğrulamasını yönetin
 
 Gelişmiş yapılandırma seçenekleri için [ChartPoint belgelerine](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) bakın.
+{{< app/cells/assistant language="python-net" >}}

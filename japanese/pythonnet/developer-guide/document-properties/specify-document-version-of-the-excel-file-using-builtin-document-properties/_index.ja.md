@@ -7,7 +7,7 @@ url: /ja/python-net/specify-document-version-of-the-excel-file-using-builtin-doc
 
 ## **可能な使用シナリオ**
 
-Excelファイルの**バージョン番号**は、ファイルを右クリックして[プロパティ]>[詳細]を選択し、**バージョン番号**欄を編集して変更できます。Aspose.Cells for Python via .NET APIを使ってプログラム的に変更するには、[**BuiltInDocumentPropertyCollection.document_version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/document_version)プロパティを使用してください。
+Excelファイルの**バージョン番号**は、ファイルを右クリックして【プロパティ】>【詳細】を選択し、**バージョン番号**欄を編集して変更できます。Aspose.Cells for Python via .NET APIを使ってプログラム的に変更するには、[**BuiltInDocumentPropertyCollection.document_version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/document_version)プロパティを使用してください。
 
 ## **ビルドインドキュメントプロパティを使用してExcelファイルのドキュメントバージョンを指定する**
 
@@ -19,3 +19,4 @@ Excelファイルの**バージョン番号**は、ファイルを右クリッ�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SpecifyDocumentVersionOfExcelFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

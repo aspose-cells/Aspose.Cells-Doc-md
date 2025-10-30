@@ -73,3 +73,4 @@ int main()
 ```
 
 上記のコードによって生成された[出力ファイル](102662195.xlsx)を参照してください。
+{{< app/cells/assistant language="cpp" >}}

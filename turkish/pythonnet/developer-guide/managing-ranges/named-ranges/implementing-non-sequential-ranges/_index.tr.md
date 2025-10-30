@@ -16,3 +16,4 @@ Genellikle adlandırılmış aralıklar, sürekli ve birbirine bitişik hücrele
 Aşağıdaki kod örneği, Aspose.Cells for Python via .NET ile adlandırılmış sıralanmamış bir aralık oluşturmanın nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

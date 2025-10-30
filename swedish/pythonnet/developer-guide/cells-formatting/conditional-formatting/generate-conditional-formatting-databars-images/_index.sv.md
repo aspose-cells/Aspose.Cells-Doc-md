@@ -16,3 +16,4 @@ Ibland behöver du generera bilder av villkorsformaterade datastaplar. Du kan an
 Följande kodexempel genererar DataBar-bilden för cell C1. Först får den åtkomst till formatvillkorsobjektet för cellen, och sedan från det objektet hämtar den [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar)-objektet och använder dess [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image)-metod för att generera bilden av cellen. Till sist sparar den bilden på disken.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -94,3 +94,4 @@ int main()
 Lütfen, `[**PivotItem.GetPosition()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getposition/)`, `[**PivotItem.GetPositionInSameParentNode()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getpositioninsameparentnode/)` özelliklerini ve `[**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/)` yöntemini kullanmadan önce `PivotTable.RefreshData` ve `PivotTable.CalculateData` yöntemlerini çağırmanız gerektiğini unutmayın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

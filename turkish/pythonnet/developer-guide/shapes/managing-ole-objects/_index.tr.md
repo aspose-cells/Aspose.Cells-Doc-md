@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NET, MOL gibi sıradışı türdeki nesneleri çık
 - [Gömülü Çalışmayan Elemanın Sınıf Tanımlayıcısını Al veya Ayarla](/cells/tr/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Ole Nesnesi Olarak Bir WAV Dosyası Eklemek](/cells/tr/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

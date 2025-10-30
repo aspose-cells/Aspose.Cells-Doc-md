@@ -27,3 +27,4 @@ Lütfen A1:B5 aralığındaki hücreleri C1:D5'e taşıyan oluşturulan dosyayı
 
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Move-Range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

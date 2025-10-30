@@ -22,3 +22,4 @@ Aspose.Cells för Python via .NET ger dig möjlighet att läsa diagram underrubr
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

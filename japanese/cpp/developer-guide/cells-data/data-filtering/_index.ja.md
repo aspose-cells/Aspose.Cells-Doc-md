@@ -644,3 +644,4 @@ int main()
 ## **高度なトピック**
 - [複雑な基準を満たすレコードを表示するMicrosoft Excelの高度なフィルタの適用](/cells/ja/cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [オートフィルタの更新後の非表示行インデックスの取得](/cells/ja/cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="cpp" >}}

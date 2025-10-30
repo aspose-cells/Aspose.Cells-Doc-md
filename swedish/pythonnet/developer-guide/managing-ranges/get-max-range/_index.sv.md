@@ -40,3 +40,4 @@ Följande koder visar hur man renderar det maximala visningsintervallet till htm
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Här är [källa excel-fil](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

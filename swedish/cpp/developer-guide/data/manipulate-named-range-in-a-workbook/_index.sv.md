@@ -21,3 +21,4 @@ Följande konsoloutput skriver ut värdena för [FullText](https://reference.asp
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -23,3 +23,4 @@ url: /ja/python-net/adjust-workbook-compression-level/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Save-files-AdjustCompressionLevel-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

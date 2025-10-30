@@ -14,3 +14,4 @@ Du kan ställa in den horisontella justeringen av din styckes text med hjälp av
 Följande kodexempel skapar tre linjer och ställer in den horisontella justeringen för var och en av dem.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

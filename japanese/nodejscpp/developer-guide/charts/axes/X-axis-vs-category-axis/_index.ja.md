@@ -1,5 +1,5 @@
 ---
-title: X軸とカテゴリ軸の違いを理解する方法[Node.js+C++]
+title: X軸とカテゴリ軸の違いを理解する方法【Node.js+C++】
 linktitle: X軸 vs カテゴリ軸
 description: Aspose.Cells for Node.js via C++におけるX軸とカテゴリ軸の違いを学びましょう。使い方やプロパティの違い、その設定方法について理解を深めることができます。
 keywords: Aspose.Cells for Node.js via C++、X軸、カテゴリ軸、違い、用途、プロパティ、設定。
@@ -93,3 +93,4 @@ chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.N
 // Save the Excel file
 workbook.save("XAxis.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

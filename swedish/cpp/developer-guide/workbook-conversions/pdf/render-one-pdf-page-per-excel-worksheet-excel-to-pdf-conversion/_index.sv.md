@@ -55,3 +55,4 @@ Om [PaginatedSaveOptions(PaginatedSaveOptions_Impl*)](https://reference.aspose.c
 Om ditt kalkylblad innehåller formler är det bäst att anropa [Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) precis innan du renderar kalkylbladet till PDF. Detta säkerställer att de formelberoende värdena omräknas och att de rätta värdena visas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

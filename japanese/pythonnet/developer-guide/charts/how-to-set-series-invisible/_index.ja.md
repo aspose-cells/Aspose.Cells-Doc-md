@@ -49,3 +49,4 @@ workbook.save(os.path.join(data_dir, "output.xlsx"))
 
 下図に示すように、もともと表示されていた最初の2つのシリーズが出力ファイルで非表示になっています。
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

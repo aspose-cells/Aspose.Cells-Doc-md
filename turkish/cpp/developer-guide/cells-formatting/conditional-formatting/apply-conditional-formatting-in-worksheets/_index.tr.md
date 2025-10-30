@@ -154,3 +154,4 @@ int main()
 ```
 
 Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk çalışma sayfasındaki “B3” hücresine koşullu biçimlendirme uygulanır. Uygulanan koşullu biçimlendirme, B3 hücresinin B1 ve B2 toplamı olarak hesaplanan değere bağlıdır.
+{{< app/cells/assistant language="cpp" >}}

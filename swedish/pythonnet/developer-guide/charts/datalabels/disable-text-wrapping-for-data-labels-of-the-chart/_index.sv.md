@@ -18,3 +18,4 @@ Aspose.Cells för Python via .NET tillhandahåller en [**DataLabels.is_text_wrap
 Nedanstående kodexempel visar hur du inaktiverar textvaggning för dataetiketterna i diagrammet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

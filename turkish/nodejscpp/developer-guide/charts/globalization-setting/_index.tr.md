@@ -48,3 +48,4 @@ Aşağıdaki örnek, istediğiniz efekti elde etmek için yerelleştirilmiş bö
 - [Grafik için Japon Bölgesi Nasıl Ayarlanır](/cells/tr/nodejs-cpp/convert-chart-to-image-for-japanese-region/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -22,3 +22,4 @@ WordArtを使用してスプレッドシートに特殊なテキスト効果を�
 - [組み込みスタイルを持つ WordArt テキストを追加する](/cells/ja/python-net/add-word-art-text-with-built-in-styles/)
 - [WordArtウォーターマークをロックする](/cells/ja/python-net/locking-wordart-watermark/)
 - [テキストのシェイプに組み込みのWordArtスタイルを設定する](/cells/ja/python-net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="python-net" >}}

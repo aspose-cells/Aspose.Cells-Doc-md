@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET, ODS dosyasını (**Açık Belge Tablosu**) ODF
 Aşağıdaki örnek kod, bir çalışma kitabı nesnesi oluşturur, ilk çalışsayfaya birkaç değer ekler ve sonra ODF 1.1 ve 1.2 özelliklerinde ODS dosyasını kaydeder. Varsayılan olarak, ODS dosyası ODF 1.2 özelliğinde kaydedilir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

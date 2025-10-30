@@ -1,7 +1,7 @@
 ---
 title: 機能
 type: docs
-weight: 5
+weight: 10
 url: /ja/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++機能。"
@@ -99,3 +99,4 @@ Aspose.Cellsを使用して、ワークシートのページ設定オプショ�
 |印刷範囲、印刷タイトルを設定する、または罫線を表示するなど|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

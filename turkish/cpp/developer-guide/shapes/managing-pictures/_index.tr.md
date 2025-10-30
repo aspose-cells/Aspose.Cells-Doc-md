@@ -203,3 +203,4 @@ int main()
 - [Web Adresinden Bağlantılı Resim Ekle](/cells/tr/cpp/insert-a-linked-picture-from-web-address/)
 - [Hücre Referansına Dayalı Resim Ekle](/cells/tr/cpp/insert-a-picture-based-on-cell-reference/)
 - [Bir URL'den Web Resmi Yükleyerek Excel Çalışma Sayfasına Ekleyin](/cells/tr/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

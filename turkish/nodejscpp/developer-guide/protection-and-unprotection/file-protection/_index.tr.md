@@ -105,3 +105,4 @@ workbook.save(filePath);
 - [Şifreli Dosyaların Parolasını Doğrulama](/cells/tr/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

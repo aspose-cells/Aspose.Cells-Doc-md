@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **Slutsats**
 Aspose.Cells for C++ erbjuder ett omfattande verktygssätt för att hantera formtextalternativ i Excel-filer. Genom att använda [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/)-klassen kan du enkelt anpassa textjustering, orientering och formatering för att möta dina specifika krav.
+{{< app/cells/assistant language="cpp" >}}

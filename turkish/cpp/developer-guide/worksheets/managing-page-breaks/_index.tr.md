@@ -23,3 +23,4 @@ Tartışmanın geri kalanında, Aspose.Cells kullanarak çalışma sayfalarını
 Sayfa, [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı, bir çalışma sayfasını yönetmek için kullanılan geniş bir yöntem yelpazesi sağlar. Sayfa kesmelerini eklemek için [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet) sınıfının [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) yöntemini kullanın.
 ### **Sayfa Kesmeleri Eklemek**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

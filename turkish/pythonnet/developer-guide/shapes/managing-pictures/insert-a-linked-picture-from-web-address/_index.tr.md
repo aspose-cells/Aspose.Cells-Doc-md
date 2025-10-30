@@ -25,3 +25,4 @@ Aspose.Cells for Python via .NET, [**ShapeCollection.add_linked_picture(int uppe
 Aşağıdaki örnek, bir elektronik tabloya hücre referansı üzerinden bağlantılı resim eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

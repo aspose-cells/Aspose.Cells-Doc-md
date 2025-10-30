@@ -81,3 +81,4 @@ int main()
 
 ## **高度なトピック**
 - [スパークラインの使用と 3D フォーマットの設定](/cells/ja/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

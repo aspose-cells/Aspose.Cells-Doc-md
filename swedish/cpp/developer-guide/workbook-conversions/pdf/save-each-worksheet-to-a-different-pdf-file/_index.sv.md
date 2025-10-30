@@ -65,3 +65,4 @@ int main()
 Om ditt kalkylblad innehåller formler är det bäst att anropa [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) precis innan du renderar kalkylbladet till PDF-format. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena visas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

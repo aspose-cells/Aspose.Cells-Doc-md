@@ -42,3 +42,4 @@ keywords: Python Excelライブラリ、小計の適用、小計の追加、ア�
 次に示すコードは、上記の出力を実現するサンプルコードです。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

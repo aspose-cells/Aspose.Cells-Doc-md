@@ -21,7 +21,7 @@ Aspose.Cellsは、アプリケーションが次のスプレッドシート処�
 
 
 ## **Open XML SDKとAspose.Cellsを比較する**
-次の表はOpen XML SDKとAspose.Cellsの機能を比較しています。
+以下の表は、Open XML SDKとAspose.Cellsの機能を比較しています。 
 
 |**機能または機能カテゴリ**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

@@ -36,3 +36,4 @@ Efter att ha skapat ett designer-kalkylblad använder du Aspose.Cells för att l
 Utöver det kan Aspose.Cells låta dig lägga till [smart markers](/cells/sv/python-net/smart-markers/) i designkalkylarket. Smarta markörer bearbetas vid körning med hjälp av Process-metoden för klassen WorkbookDesigner. Detta kan hjälpa dig skriva mindre kod och ändå få bra resultat.
 
 [Ta reda på mer om smarta markörer](/cells/sv/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

@@ -53,3 +53,4 @@ Aspose.Cells for Python via .NETは、ワークシートセルの内容を画像
 - [セル参照に基づく画像の挿入](/cells/ja/python-net/insert-a-picture-based-on-cell-reference/)
 - [Web画像のURLをExcelワークシートに読み込む](/cells/ja/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

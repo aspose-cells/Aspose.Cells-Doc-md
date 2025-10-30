@@ -3,7 +3,7 @@ title: Komma åt och hantera datum och tider
 type: docs
 weight: 600
 url: /sv/python-net/how-to-manage-dates-and-times/
-description: Lär dig hur man hanterar datum och tider genom Aspose.Cells for .NET API n.
+description: Lär dig hur man Hanterar datum och tider med Aspose.Cells för Python via .NET API.
 keywords: Komma åt och hantera datum och tider, 1900 datumsystemet, 1904 datumsystemet, Ange datum och tider, Hämta datum och tider, Hantera datum och tider, Lagra datum och tider i Excel, Visa datum och tider i celler.
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

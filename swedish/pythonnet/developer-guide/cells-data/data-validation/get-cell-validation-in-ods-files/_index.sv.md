@@ -16,3 +16,4 @@ Följande kodexempel visar användningen av metoden [**get_validation**](https:/
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-GetCellValidationInODS-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ Excelファイルのデータへのアクセスを防ぐために、パスワー
 - [暗号化されたOffice Open XML - OOXMLファイルのファイル形式を検出する](/cells/ja/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Excelファイルの暗号化](/cells/ja/cpp/encrypting-excel-files/)
 - [ファイル形式を検出し、ファイルが暗号化されているかどうかを確認する方法](/cells/ja/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

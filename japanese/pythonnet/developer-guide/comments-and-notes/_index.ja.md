@@ -4,7 +4,7 @@ linktitle: コメントとノート
 type: docs
 weight: 128
 url: /ja/python-net/comments-and-notes/
-description: Aspose.Cells for .Netでコメントやノートを挿入および管理する
+description: Aspose.Cells for Python via .NETでコメントやメモを挿入・管理します。
 keywords: コメントを挿入、ノートを挿入
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cellsもこの機能を提供します。以下は、セル"A1"に画像�
 - [コメントの背景を設定する方法](/cells/ja/python-net/how-to-set-comment-background/)
 - [スレッド化されたコメント](/cells/ja/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

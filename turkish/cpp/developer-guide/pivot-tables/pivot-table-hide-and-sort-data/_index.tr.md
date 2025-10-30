@@ -74,3 +74,4 @@ int main()
 [Kaynak Dosyası](96928093.xlsx)
 
 [Çıktı Dosyası](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++は、ワークシートからピボットテー
 次のサンプルコードでは、ワークシートから2つのピボットテーブルを削除する方法が示されています。最初に[**Worksheet.getPivotTables().remove(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#remove-pivottable-)メソッドを使用してピボットテーブルを削除し、次に[**Worksheet.getPivotTables().removeAt(index, keepData)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#removeAt-number-boolean-)メソッドを使用してピボットテーブルを削除します。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

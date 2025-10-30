@@ -16,3 +16,4 @@ Du kan lägga till anpassade etiketter till datapunkter i diagramserien. Aspose.
 Följande kod skapar **Skalär diagram sammankopplad med linjer med datamarkörer** och sedan lägger till **anpassade etiketter** till **datapunkterna** i **serien** av **diagrammet**. Varje anpassad etikett visar **Seriens namn** och **Punktnamn**. Du kan använda en annan text istället för det.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

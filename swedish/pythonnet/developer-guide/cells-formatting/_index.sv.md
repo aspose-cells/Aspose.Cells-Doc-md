@@ -111,3 +111,4 @@ Varje objekt i [**rows**](https://reference.aspose.com/cells/python-net/aspose.c
 - [Antalseinställningar](/cells/sv/python-net/cells-number-settings/)
 - [Hämta och ange stil för celler](/cells/sv/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

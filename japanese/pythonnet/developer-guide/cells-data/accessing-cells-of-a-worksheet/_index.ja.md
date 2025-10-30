@@ -56,3 +56,4 @@ Aspose.Cells for Python via .NETを使用すると、ワークシートの最大
 ワークシートの最大表示範囲には[**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/)を使用してアクセスできます。 次のサンプルコードは、[**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/)プロパティにアクセスする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

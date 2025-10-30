@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Çalışma Sayfasında Hücre Aralığını Taşıma](/cells/tr/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Çalışma Kitabı ve Çalışma Sayfası Kapsamlı Adlandırılan Aralıkları Oluştur](/cells/tr/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Aralıktaki Veriyi Arama ve Değiştirme](/cells/tr/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

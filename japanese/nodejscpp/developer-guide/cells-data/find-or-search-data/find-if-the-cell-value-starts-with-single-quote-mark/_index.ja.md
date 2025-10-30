@@ -17,3 +17,4 @@ Aspose.Cellsは、セルの値がシングルクォートで始まるかどう�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SearchData-SearchCellStartsWithSingleQuote.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

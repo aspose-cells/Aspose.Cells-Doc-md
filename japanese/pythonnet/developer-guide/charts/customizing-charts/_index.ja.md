@@ -25,3 +25,4 @@ url: /ja/python-net/customizing-charts/
 現在、Aspose.Cells for Python via .NET は、パイ、ライン、コラム、コラムスタックチャートの組み合わせのみをサポートしていますが、今後のリリースでより多くのチャートがサポートされる予定です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

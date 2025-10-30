@@ -36,3 +36,4 @@ Bir tasarımcı elektronik tablo oluşturduktan sonra, Aspose.Cells'i kullanarak
 Ek olarak, Aspose.Cells tasarımcı elektronik tabloya [akıllı işaretçiler](/cells/tr/python-net/smart-markers/) eklemenize olanak tanır. Akıllı işaretçiler, WorkbookDesigner sınıfının Process yöntemini kullanarak çalışma zamanında işlenir. Bu size daha az kod yazmanıza yardımcı olabilir ve yine de harika sonuçlar alabilirsiniz.
 
 Akıllı işaretçiler hakkında daha fazla bilgi edinin](/cells/tr/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

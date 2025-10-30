@@ -25,3 +25,4 @@ keywords: Python Excel ライブラリ、Python 空白行の削除、Python 空�
 ## 空白の列を削除するためのC#コード
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-DeletingBlankColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

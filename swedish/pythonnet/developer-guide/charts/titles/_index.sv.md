@@ -33,3 +33,4 @@ Följande kodsnutt demonstrerar hur man ställer in titlar på diagram och axlar
 
 ## **Fortsatta ämnen**
 - [Läs diagramunderrubrik från ODS-fil](/cells/sv/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

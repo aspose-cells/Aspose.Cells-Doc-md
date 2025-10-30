@@ -23,3 +23,4 @@ Följande exempelkod använder [**Workbook.content_type_properties.add()**](http
 
 
 
+{{< app/cells/assistant language="python-net" >}}

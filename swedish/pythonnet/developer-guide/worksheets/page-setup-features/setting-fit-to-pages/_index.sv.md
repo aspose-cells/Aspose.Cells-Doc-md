@@ -108,3 +108,4 @@ workbook.save("AllColumnsInOnePagePerSheet.pdf", options)
 Resultat av utmatning:
 <br>
 <img src="4.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

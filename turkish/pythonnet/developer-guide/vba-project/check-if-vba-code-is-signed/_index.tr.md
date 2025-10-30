@@ -27,3 +27,4 @@ Is VBA Code Project Signed: True
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

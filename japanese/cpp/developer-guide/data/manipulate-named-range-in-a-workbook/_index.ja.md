@@ -21,3 +21,4 @@ Aspose.Cells は既存の名前付き範囲の操作をサポートしていま�
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

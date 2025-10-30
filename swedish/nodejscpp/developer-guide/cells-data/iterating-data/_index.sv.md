@@ -191,3 +191,4 @@ Baserat på ovan nämnda fakta är följande möjliga scenarier där enumerators
 1. Ett stort antal celler ska traverseras.  
 1. Endast initialiserade celler/rader/kolumner ska traverseras.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

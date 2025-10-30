@@ -56,3 +56,4 @@ Aspose.Cells Python via .NET, geliştiricilere bir çalışsayısının maksimum
 [**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/) kullanarak bir çalışsayısının maksimum görüntü aralığına erişebilirsiniz. Aşağıdaki örnek kod, [**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/) özelliğine erişmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

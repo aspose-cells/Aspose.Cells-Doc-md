@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NETを使えば、チャートの凡例の管理は
 
 ## **高度なトピック**
 - [Aspose.Cells for Python via .NETを使って、チャートの凡例エントリの塗りつぶしのテキストを「なし」に設定する方法](/cells/ja/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

@@ -21,3 +21,4 @@ Bir resmin baytlarını belirterek pdf'ye resim filigranı ekleyebilirsiniz. Ayr
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

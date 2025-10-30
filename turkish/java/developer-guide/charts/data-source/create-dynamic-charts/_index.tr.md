@@ -17,7 +17,7 @@ Bu makale, yukarıda bahsedilen her iki yaklaşımı da kullanarak dinamik grafi
 
 {{% alert color="primary" %}}
 
-Aspose.Cells'in bakış açısında Excel tabloları ListObjects olarak adlandırılır, bu nedenle netlik için "Tablo" terimi yerine "ListObject" terimini kullanacağız. Aspose.Cells for .NET API'si ile [ListObject oluşturmayı](/cells/tr/java/creating-a-list-object/) detaylı olarak okuyun.
+Aspose.Cells perspektifinde Excel tabloları ListObject olarak adlandırılır; bu nedenle açıklık için "Tablo" yerine "ListObject" terimini kullanacağız. Lütfen [ListObject oluşturma](/cells/tr/java/creating-a-list-object/) hakkında detaylı bilgi edinin, API Aspose.Cells for Java ile.
 
 {{% /alert %}}
 

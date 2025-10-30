@@ -46,3 +46,4 @@ Aspose.Cells を使用すると、スプレッドシート内の従属セルを�
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingDependents-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

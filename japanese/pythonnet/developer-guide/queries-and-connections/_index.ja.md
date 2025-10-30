@@ -6,3 +6,4 @@ url: /ja/python-net/managing-database-connections/
 ---
 
 
+{{< app/cells/assistant language="python-net" >}}

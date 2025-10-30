@@ -35,3 +35,4 @@ Value: Source{[Name="Orders",Signature="table"]}[Data]
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

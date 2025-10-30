@@ -28,3 +28,4 @@ Om [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python
 Om din kalkylblad innehåller formler är det bäst att kalla på [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) metoden precis innan du renderar kalkylbladet till PDF. Detta säkerställer att de formelberoende värdena beräknas om och att de korrekta värdena renderas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

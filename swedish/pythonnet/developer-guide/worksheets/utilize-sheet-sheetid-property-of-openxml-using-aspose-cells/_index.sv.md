@@ -28,3 +28,4 @@ Följande exempelkod laddar [provs-exelfilen](51740716.xlsx), läser av dess fli
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

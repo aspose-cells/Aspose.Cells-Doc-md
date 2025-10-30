@@ -21,8 +21,8 @@ Excel'den adlandırılmış bir aralığı kaldırmak için şu adımları izley
 6. Ad Yöneticisi iletişim kutusunu kapatmak için "Kapat" düğmesine tıklayın.
 7. Değişiklikleri korumak için çalışma kitabını kaydedin.
 
-## **Aspose.Cells for .Net kullanarak Adlandırılmış Aralığı Silme**
-Aspose.Cells for .Net ile, listede yer alan adları [metin](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) kullanarak kaldırabilirsiniz.
+## **Aspose.Cells for Python via .NET kullanarak Adlandırılmış Aralıkları Silme**
+Aspose.Cells for Python via .NET ile listedeki [metin](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) kullanarak adlandırılmış aralıkları veya tanımlanmış isimleri kaldırabilirsiniz.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

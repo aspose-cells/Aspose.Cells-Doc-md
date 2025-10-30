@@ -65,3 +65,4 @@ int main()
  Eğer çalışma sayfanız formüller içeriyorsa, çalışma sayfasını PDF formatına dönüştürmeden hemen önce [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) çağırmak en iyisidir. Bu, formüle bağlı değerlerin yeniden hesaplanmasını sağlar ve PDF'de doğru değerler gösterilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

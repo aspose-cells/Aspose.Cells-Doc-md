@@ -637,3 +637,4 @@ Aspose.Cells for C++ 16.12.0 sürümüyle, arabirimleri birleştirilmiş tutabil
 #### **ILoadOptions::SetLoadDataOptions metodu ILoadOptions::SetILoadDataOptions olarak yeniden adlandırıldı**
 #### **IWorkbook::SetSettings metodu IWorkbook::SetISettings olarak yeniden adlandırıldı**
 #### **IWorkbook::SetDefaultStyle metodu IWorkbook::SetDefaultIStyle olarak yeniden adlandırıldı**
+{{< app/cells/assistant language="cpp" >}}

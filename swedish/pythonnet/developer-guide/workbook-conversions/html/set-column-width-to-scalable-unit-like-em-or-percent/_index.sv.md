@@ -14,3 +14,4 @@ Källfilen och utdatafiler kan laddas ned från följande länkar:
 [outsampleForScalableColumns.zip](73990151.zip)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SetScalableColumnWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

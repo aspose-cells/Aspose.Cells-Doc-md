@@ -32,3 +32,4 @@ url: /ja/python-net/accessing-table-from-cell-and-adding-values-inside-it-using-
 以下のサンプルコードは、上記のスクリーンショットに示されているソースエクセルファイルを読み込み、テーブル内に値を追加し、それに基づいて出力エクセルファイルを生成します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-AccessTableFromCellAndAddValue.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NETは、特定のタイプで範囲を貼り付け
 - [ソース範囲の行の高さを宛先範囲にコピーします。](/cells/ja/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

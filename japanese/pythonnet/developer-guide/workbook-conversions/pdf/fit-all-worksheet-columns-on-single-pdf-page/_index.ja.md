@@ -30,3 +30,4 @@ keywords: Pythonを使用してPDFに変換する際に、ワークシートの�
 スプレッドシートに数式が含まれている場合、スプレッドシートをPDF形式にレンダリングする直前に[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)メソッドを呼び出すのが最適です。これにより、数式に依存する値が再計算され、PDFに正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

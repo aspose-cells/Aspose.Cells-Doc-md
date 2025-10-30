@@ -32,3 +32,4 @@ Oluşturulan dosyada, grafik seçilen ay için verileri dinamik olarak sayacakt�
 ```
 
 Hücre "Sheet1!$A$10" içindeki açılır liste değerini değiştirerek deneyebilirsiniz ve grafikteki dinamik değişimi göreceksiniz. Şimdi Aspose.Cells for Python via .NET kullanarak açılır listeyle dinamik grafik oluşturmayı başarıyla tamamladık.
+{{< app/cells/assistant language="python-net" >}}

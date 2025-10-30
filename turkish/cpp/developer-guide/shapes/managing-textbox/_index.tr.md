@@ -7,3 +7,4 @@ url: /tr/cpp/managing-textbox-of-excel/
 description: Aspose.Cells kullanarak Excel dosyalarında TextBox yönetimini öğrenin.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

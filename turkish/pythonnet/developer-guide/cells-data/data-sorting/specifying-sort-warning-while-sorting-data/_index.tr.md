@@ -18,3 +18,4 @@ Lütfen bu metin verilerini göz önünde bulundurun; örneğin {11, 111, 22}. B
 Aşağıdaki örnek kod, daha önce açıklandığı gibi [**DataSorter.sort_as_number**](https://reference.aspose.com/cells/python-net/aspose.cells/datasorter/sort_as_number/) özelliğinin kullanımını açıklar. Daha fazla yardım için lütfen [örnek Excel dosyasını](43352075.xlsx) ve [çıktı Excel dosyasını](43352076.xlsx) kontrol edin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SpecifyingSortWarningWhileSortingData.py" >}}
+{{< app/cells/assistant language="python-net" >}}

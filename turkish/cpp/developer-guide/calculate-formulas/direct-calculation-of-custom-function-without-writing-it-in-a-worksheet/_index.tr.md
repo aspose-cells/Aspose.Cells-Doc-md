@@ -92,3 +92,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [Özel Hesaplama Motoru Uygula ve Aspose.Cells'in Varsayılan Hesaplama Motorunu Geliştir](/cells/tr/cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

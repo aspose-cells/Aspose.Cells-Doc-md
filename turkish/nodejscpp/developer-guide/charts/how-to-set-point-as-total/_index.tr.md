@@ -45,3 +45,4 @@ Aşağıdaki doğru [çıktı dosyasını](output.xlsx) edinebilirsiniz
 Aşağıdaki şekilde gösterildiği gibi, dört "Toplam" veri noktası doğru şekilde ayarlandı ve önceki grafikten farkı görebilirsiniz.
 
 ![todo:image_alt_text](set-as-total2.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

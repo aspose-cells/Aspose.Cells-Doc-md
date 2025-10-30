@@ -18,3 +18,4 @@ Python için Aspose.Cells via .NET, özet tabloyu ODS dosyalarında kaydetme yet
 Yukarıdaki kod tarafından oluşturulan çıkış dosyası referans için ekte bulunmaktadır.
 
 [Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

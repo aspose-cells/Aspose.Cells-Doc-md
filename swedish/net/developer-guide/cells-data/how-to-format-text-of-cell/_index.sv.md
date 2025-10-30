@@ -3,8 +3,8 @@ title: Hur man formaterar text i cell
 type: docs
 weight: 130
 url: /sv/net/how-to-format-text-in-cell/
-description: Lär dig hur du formaterar text i cell med Aspose.Cells.
-keywords: formatera text i cell, formatera del av tecken i cell, hur man lägger till flera formateringar till text i cell, markera del av cellen, formatera del av cellen, formatera text i celler, formatera text i cell.
+description: Lär dig formatera text i en cell och flera stilar inom en enda cell med Aspose.Cells.
+keywords: Formatera celltext, formatera del av tecken i en cell, hur man lägger till flera formateringar i celltext, markera del av en cell, formatera del av en cell, flera stilar i en cell, formatera text i celler, formatera text i cell.
 ---
 
 ## **Möjliga användningsscenario**

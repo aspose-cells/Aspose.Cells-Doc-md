@@ -74,3 +74,4 @@ Om din kalkylblad innehåller formler är det bäst att kalla Workbook.calculate
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

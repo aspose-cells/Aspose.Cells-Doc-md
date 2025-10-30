@@ -4,7 +4,7 @@ linktitle: Yorumlar ve Notlar
 type: docs
 weight: 128
 url: /tr/python-net/comments-and-notes/
-description: Aspose.Cells for .Net ile yorumları veya notları ekleyip yönetme
+description: Aspose.Cells for Python via .NET ile yorumlar veya notlar ekleyin ve yönetin.
 keywords: yorum ekle, not ekle
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cells ayrıca bu özelliği sağlar. Aşağıda, sıfırdan XLSX dosyası
 - [Yorum arka planını nasıl ayarlarım](/cells/tr/python-net/how-to-set-comment-background/)
 - [İz bırakan Yorumlar](/cells/tr/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

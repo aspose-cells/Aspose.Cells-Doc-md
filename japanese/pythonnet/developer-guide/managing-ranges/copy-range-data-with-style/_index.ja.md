@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NETでは、範囲を操作するためのさまざ
 1. 最初の範囲から2番目の範囲にデータと書式をコピーします。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataWithStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

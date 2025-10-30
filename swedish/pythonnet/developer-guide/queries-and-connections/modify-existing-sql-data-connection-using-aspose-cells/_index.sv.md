@@ -24,3 +24,4 @@ Nedan visas ett exempel på användning av Aspose.Cells för Python via .NET fö
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ModifyingExistingDataConnection.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -59,3 +59,4 @@ När du anropar set_license-metoden ska licensnamnet vara samma som din licensfi
 {{% /alert %}}
 
 
+{{< app/cells/assistant language="python-net" >}}

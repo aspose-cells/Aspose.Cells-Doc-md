@@ -60,3 +60,4 @@ Aşağıdaki kod örneği, [**ExportRangeToJsonOptions**](https://reference.aspo
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

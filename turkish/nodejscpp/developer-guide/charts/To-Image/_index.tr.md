@@ -187,3 +187,4 @@ Görüntüye veya PDF'ye dönüştürmeye çalıştığınızda, desteklenmeyen 
 ## **Gelişmiş Konular**  
 - [Grafiği PDF'ye Dönüştürme](/cells/tr/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

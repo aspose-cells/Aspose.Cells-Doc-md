@@ -154,3 +154,4 @@ int main()
 ```
 
 När den ovan nämnda koden körs, tillämpas villkorlig formatering på cell "B3" i det första arket i utdatafilen (output.xls). Den tillämpade villkorsstyrda formateringen beror på formeln som beräknar värdet av "B3" som summan av B1 & B2.
+{{< app/cells/assistant language="cpp" >}}

@@ -108,3 +108,4 @@ $ pip install aspose-cells-python
 
 これらのステップに従えば、Aspose.Cells for Python via .NETで数値を科学的表記に書式設定できます。書式文字列 (`"0.00E+00"`) を必要に応じて変更し、小数点以下の桁数や表示の他の側面を調整してください。
 
+{{< app/cells/assistant language="python-net" >}}

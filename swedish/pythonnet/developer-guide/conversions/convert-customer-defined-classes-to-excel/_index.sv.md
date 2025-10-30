@@ -21,3 +21,4 @@ Filen ImportCustomObject.py definierar den klassinformation som ska importeras o
 
 Filen TestImportCustomObject.py illustrerar ett enkelt användningsfall. Användare kan hänvisa till detta exempel eller göra små justeringar för att importera sin egen data.
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

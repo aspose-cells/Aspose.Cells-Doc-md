@@ -45,3 +45,4 @@ opts.setLinkTargetType(AsposeCells.HtmlLinkTargetType.Self);
 workbook.save(outputPath, opts);
 console.log(`File saved: ${outputPath}`);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

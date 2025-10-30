@@ -75,3 +75,4 @@ int main() {
 
 ## **Gelişmiş Konular**
 - [Grafik lejant giriş dolgu metnini hiçbir şeye ayarlayın using Aspose.Cells](/cells/tr/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

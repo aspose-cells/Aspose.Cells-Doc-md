@@ -362,3 +362,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Sayı Ayarları](/cells/tr/nodejs-cpp/cells-number-settings/)
 - [Hücreler için Stili Getirme ve Ayarlama](/cells/tr/nodejs-cpp/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

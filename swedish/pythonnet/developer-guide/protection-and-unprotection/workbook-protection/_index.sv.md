@@ -35,3 +35,4 @@ Att avskärma arbetsbokens struktur är enkelt med Aspose.Cells för Python via 
 Observera: Ett korrekt lösenord krävs.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -83,5 +83,5 @@ ConvertFormulasData özelliğinin varsayılan değeri false'tur
 ## **HtmlSaveOptions Sınıfına ImageOptions Özelliği Eklendi**
 ImageOptions özelliği, HtmlSaveOptions Sınıfına eklenmiş. ImageOptions özelliğine erişmek, geliştiricilerin elektronik tabloları HTML olarak dışa aktarırken gömülü olan resimler için tercihleri belirlemesine olanak tanımıştır. 
 ## **HtmlSaveOptions.ExportChartImageFormat Özelliği Kaldırıldı**
-HtmlSaveOptions.ExportChartImageFormat, Aspose.Cells for .NET 8.0.2'den itibaren geçersiz kılınmıştır. Elektronik tabloları HTML biçimine dışa aktarırken resim biçim ayarları için HtmlSaveOptions.ImageOptions yerine kullanılması önerilir.
+HtmlSaveOptions.ExportChartImageFormat, Aspose.Cells for Java 8.0.2 itibarıyla eski kabul edilmiştir. Dosyaları HTML formatına aktarırken görüntü formatı ayarları için HtmlSaveOptions.ImageOptions kullanmanız önerilir.
 {{< app/cells/assistant language="java" >}}

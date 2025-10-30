@@ -15,3 +15,4 @@ Aspose.Cells for Python via .NET, tablo içeren bir Excel dosyasını ODS dosyas
 
 [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save)
 
+{{< app/cells/assistant language="python-net" >}}

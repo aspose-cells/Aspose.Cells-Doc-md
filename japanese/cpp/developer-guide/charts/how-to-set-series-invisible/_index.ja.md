@@ -60,3 +60,4 @@ int main()
 
 図のように、最初に表示されていた2つのシリーズが、出力ファイルで非表示になっています。  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

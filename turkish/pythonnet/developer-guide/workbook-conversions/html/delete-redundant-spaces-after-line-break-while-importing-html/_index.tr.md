@@ -26,3 +26,4 @@ HTML içe aktarılırken satır sonrası gereksiz boşlukları silme
 Aşağıdaki örnek kod, [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) özelliğinin kullanımını gösterir. Yukarıdaki ekran görüntüsünde gösterilen çıktıyı almak için **true** veya **false** olarak ayarlayın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

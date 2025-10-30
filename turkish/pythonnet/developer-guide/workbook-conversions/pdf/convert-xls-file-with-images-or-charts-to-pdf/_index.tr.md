@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NET, resim ve grafik içeren XLS dosyalarını PDF 
 Eğer elektronik tablo formüller içeriyorsa, PDF'ye dönüştürmeden önce [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) yönteminin çağrılması en iyisidir. Böylelikle formül bağımlı değerler yeniden hesaplanır ve doğru değerler PDF'e render edilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

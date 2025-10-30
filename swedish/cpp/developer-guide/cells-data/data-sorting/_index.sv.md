@@ -151,3 +151,4 @@ int main()
 ## **Fortsatta ämnen**
 - [Sortera Data i Kolumn med Anpassad Sorteringslista](/cells/sv/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Angivande av sorteringsvarning vid sortering av data](/cells/sv/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++, bir Çalışma Sayfasından Pivot Tablo silme 
 Aşağıdaki örnek kod, çalışma sayfasından iki pivot tablosunu siler. İlk önce [**Worksheet.getPivotTables().remove(pivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#remove-pivottable-) yöntemini kullanarak pivot tablosunu kaldırır, ardından [**Worksheet.getPivotTables().removeAt(index, keepData)**](https://reference.aspose.com/cells/nodejs-cpp/pivottablecollection/#removeAt-number-boolean-) yöntemini kullanarak pivot tablosunu kaldırır.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -20,3 +20,4 @@ Se följande kod, den laddar in [exempel Excel-filen](67338473.xlsx) som innehå
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-FormattingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

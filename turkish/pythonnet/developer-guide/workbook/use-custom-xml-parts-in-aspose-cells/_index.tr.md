@@ -23,3 +23,4 @@ Aşağıdaki örnek kod, [**Workbook.content_type_properties.add()**](https://re
 
 
 
+{{< app/cells/assistant language="python-net" >}}

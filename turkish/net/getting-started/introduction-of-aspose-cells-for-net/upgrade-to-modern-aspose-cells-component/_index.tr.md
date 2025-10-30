@@ -1,5 +1,5 @@
 ---
-title: Modern Aspose.Cells Bileşimine Yükseltme
+title: Eski Aspose.Excel den Modern Aspose.Cells Bileşenine Yükseltme
 type: docs
 weight: 70
 url: /tr/net/upgrade-to-modern-aspose-cells-component/

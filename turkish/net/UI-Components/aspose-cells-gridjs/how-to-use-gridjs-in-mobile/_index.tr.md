@@ -15,7 +15,7 @@ GridJs'yi mobil cihazda sorunsuz kullanabilirsiniz.
 
 GridJs mobil ekrana adapte olabilir.
 
-[GridJs demosunu çalıştır](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "GridJs demosu")
+[GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "demo of GridJs ") demosunu çalıştır
 
 Demo projesinin varsayılan bağlantı noktası 24262'dir. 
 

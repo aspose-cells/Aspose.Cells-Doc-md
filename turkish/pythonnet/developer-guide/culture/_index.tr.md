@@ -49,3 +49,4 @@ Aspose.Cells otomatik olarak bölgesel ayarlara uyum sağlar:
 - Çok dilli içerik için Unicode kodlaması kullanın
 - Yerel bölgeye özgü formülleri doğrulayın
 - Farklı bölgesel ayarlarla sayı çözümlemesini test edin
+{{< app/cells/assistant language="python-net" >}}

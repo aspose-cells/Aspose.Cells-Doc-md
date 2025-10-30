@@ -16,3 +16,4 @@ Grafiğin seri içindeki veri noktalarına özel etiketler ekleyebilirsiniz. Asp
 Aşağıdaki kod, **Veri İşaretçileri Olan Çizgiyle Bağlantılı Dağılım Grafiği** oluşturur ve ardından **Özel Etiketler** ekler **Grafik**'in **Serisindeki** **Veri Noktalarına**. Her özel etiket, **Seri Adı** ve **Nokta Adı**'nı gösterir. İstediğiniz takdirde bunun yerine başka metin kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

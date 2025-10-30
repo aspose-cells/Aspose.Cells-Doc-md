@@ -63,3 +63,4 @@ workbook.save(filePath);
 Not: Doğru bir şifre gerekli.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

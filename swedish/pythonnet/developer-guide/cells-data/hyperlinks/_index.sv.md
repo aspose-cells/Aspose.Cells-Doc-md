@@ -67,3 +67,4 @@ Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att
 - [Redigera hyperlänkar på arbetsbladet](/cells/sv/python-net/editing-hyperlinks-of-worksheet/)
 - [Hämta hyperlänkar i omfånget](/cells/sv/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

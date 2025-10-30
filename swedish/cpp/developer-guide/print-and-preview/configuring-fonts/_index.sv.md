@@ -143,3 +143,4 @@ Förutom ovan nämnda metoder tillhandahåller Aspose.Cells API:erna också verk
 - [Ange standardtypsnitt vid rendering av kalkylark till bilder](/cells/sv/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions för att prioritera](/cells/sv/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Stödda teckensnittsformat](/cells/sv/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

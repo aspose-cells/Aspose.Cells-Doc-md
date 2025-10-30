@@ -16,3 +16,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 
 [Resultatfil](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

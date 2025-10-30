@@ -47,3 +47,4 @@ Yukarıdaki kodun [örnek excel dosyası](5112365.xlsx)'nın konsol çıktısı 
 Web Query URL: https://docs.aspose.com/cells/nodejs-cpp/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

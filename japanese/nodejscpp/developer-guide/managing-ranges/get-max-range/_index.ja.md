@@ -116,3 +116,4 @@ workbook.save("html.html", saveOptions);
 
 以下は[ソースエクセルファイル](Book1.xlsx)です。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

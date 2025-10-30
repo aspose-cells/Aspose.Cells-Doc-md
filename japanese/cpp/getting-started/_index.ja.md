@@ -80,3 +80,4 @@ NuGet は、最も簡単な方法で Aspose.Cells for C++ をダウンロード�
 次の例では、既存のMicrosoft Excelテンプレートファイルを開き、セルA1の値を取得してチェックします。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

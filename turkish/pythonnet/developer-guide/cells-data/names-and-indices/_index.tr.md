@@ -52,3 +52,4 @@ Bazı durumlarda çalışma zamanında sayfa adının atanması gerekebilir. Bu 
 Bu, oluşturulmuş ilk adın kısaltıldığı ad
 
 ` <> + (adj.Private _ "Özel"
+{{< app/cells/assistant language="python-net" >}}

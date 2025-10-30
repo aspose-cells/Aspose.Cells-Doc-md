@@ -88,3 +88,4 @@ workbook.save(os.path.join(data_dir, "SampleOutput2_out.pdf"), opts)
 {{% alert color="note" %}} 
 **APIの違いについて**: Python.NETでは、ブール値のプロパティはPascalCaseの代わりにsnake_case表記（`is_font_substitution_char_granularity`）を使用します。
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

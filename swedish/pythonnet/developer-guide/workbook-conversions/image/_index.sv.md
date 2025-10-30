@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET har kunnat konvertera kalkylblad till SVG-bild 
 - [Konvertera ett Excel-diagram till bild](/cells/sv/python-net/convert-an-excel-chart-to-image/)
 - [Konvertera diagram till bild i SVG-format](/cells/sv/python-net/converting-chart-to-image-in-svg-format/)
 - [Exportera diagram till SVG med viewBox-attribut](/cells/sv/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

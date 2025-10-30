@@ -356,3 +356,4 @@ int main()
 - [ワークブックの圧縮レベルを調整](/cells/ja/cpp/adjust-workbook-compression-level/)
 - [ストリクトなOpen XMLスプレッドシート形式でワークブックを保存](/cells/ja/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [レスポンスオブジェクトへのファイルの保存](/cells/ja/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

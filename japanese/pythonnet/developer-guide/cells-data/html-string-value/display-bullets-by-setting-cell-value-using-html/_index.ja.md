@@ -24,3 +24,4 @@ Aspose.CellsはHTMLコードで箇条書きを表示することをサポート�
 上記のサンプルコードの出力を以下のスクリーンショットで示します。
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="python-net" >}}

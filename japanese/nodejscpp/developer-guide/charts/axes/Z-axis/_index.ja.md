@@ -1,5 +1,5 @@
 ---
-title: Z軸に関する情報[Node.js+C++]
+title: Z軸に関する情報【Node.js+C++】
 description: Aspose.Cells for Node.js via C++におけるZ軸の扱い方を学びましょう。スケールやラベルなどの設定とカスタマイズ方法についてガイドします。
 keywords: Aspose.Cells for Node.js via C++、Z軸、チャート作成、設定、カスタマイズ、スケール、ラベル。
 type: docs
@@ -10,7 +10,7 @@ url: /ja/nodejs-cpp/z-axis/
 ## **可能な使用シナリオ**
 3D柱、3D円錐、3Dピラミッドなどの一部の3Dチャートには深さ（シリーズ）軸、別名Z軸があります。これを変更可能で、ティックマークの間隔や軸のラベルなどを指定できます。
 
-## **プライマリとセカンダリ軸の扱い[Microsoft Excelと同等]**
+## **プライマリとセカンダリ軸の扱い【Microsoft Excelと同等】**
 次のサンプルコードをご覧ください。新しいExcelファイルを作成し、最初のワークシートにチャートの値を設定します。次に、チャートを追加し、チャートタイプをColumn3Dに設定します。すると、Z軸（深さ軸）も表示されます。 
 
 ![todo:image_alt_text](excel.png)
@@ -52,3 +52,4 @@ chart.getValueAxis().setIsVisible(false);
 // Save the file
 workbook.save("ZAxis.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

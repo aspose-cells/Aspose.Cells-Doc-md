@@ -17,3 +17,4 @@ Följande är provfiler som kan laddas ned för att testa denna funktion:
 [removeduplicates.xlsx](removeduplicates.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Remove-Duplicate-Rows-In-A-Worksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

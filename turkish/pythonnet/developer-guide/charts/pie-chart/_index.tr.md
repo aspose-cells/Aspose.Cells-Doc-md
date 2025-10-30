@@ -43,3 +43,4 @@ Son olarak, aşağıdaki kod çizgiyi görüntü formatında ve çalışma kitab
 - [Grafiklerde Veri Biçimlendirme](/cells/tr/python-net/data-formatting-in-charts/)
 - [Grafik Görünümünü Ayarlama](/cells/tr/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

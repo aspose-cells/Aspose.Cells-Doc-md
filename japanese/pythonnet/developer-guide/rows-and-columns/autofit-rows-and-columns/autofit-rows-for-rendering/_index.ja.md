@@ -20,3 +20,4 @@ keywords: Python Excelライブラリ、PythonのレンダリングのためのP
 今、テキストは出力された PDF ファイルで切り取られていません。
 
 ![保存した PDF でテキストが切り取られていない場合](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="python-net" >}}

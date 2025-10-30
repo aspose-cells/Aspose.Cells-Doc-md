@@ -562,3 +562,4 @@ Exekvera ovanstående kod, kommer du att få följande resultat:
 - [Webbutökningar - Office-tillägg](/cells/sv/nodejs-cpp/web-extensions-office-add-ins/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

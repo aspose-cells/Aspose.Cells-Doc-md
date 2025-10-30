@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [ImageOrPrintOptionsのPageIndexおよびPageCountプロパティを使用したページのシーケンスをレンダリングする](/cells/ja/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [ワークシートをグラフィックコンテキストにレンダリング](/cells/ja/cpp/render-worksheet-to-graphic-context/)
 - [ワークブックのレンダリング用に個々またはプライベートなフォントセットを指定する](/cells/ja/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

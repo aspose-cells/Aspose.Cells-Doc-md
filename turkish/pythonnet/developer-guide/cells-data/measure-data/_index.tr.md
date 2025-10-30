@@ -22,3 +22,4 @@ Aşağıdaki kod [**Cell.get_width_of_value()**](https://reference.aspose.com/ce
 
 ## **Gelişmiş Konular**
 - [Hücre Değeri Metnin Genişliğini Alma](/cells/tr/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

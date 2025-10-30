@@ -162,3 +162,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [Çalışsheet'teki Birleştirilmiş Hücreleri Bulma](/cells/tr/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

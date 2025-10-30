@@ -236,3 +236,4 @@ int main()
 
 ## **高度なトピック**
 - [Excelファイルからテーマデータを抽出](/cells/ja/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

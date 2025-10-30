@@ -23,3 +23,4 @@ Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/c
 Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att lägga till sidbrytningar, använd metoden [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Lägga till sidbrytningar**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

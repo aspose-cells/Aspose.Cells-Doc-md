@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Grafik Hesaplandıktan Sonra Eksen Etiketlerini Okuma](/cells/tr/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Excel Grafikte Kategori Eksenini Nasıl Ayarlayacağınız](/cells/tr/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

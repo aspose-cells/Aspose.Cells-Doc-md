@@ -16,3 +16,4 @@ Aspose.Cells för Python via .NET exporterar ram-skript och dokumentegenskaper n
 Följande exempelkod tillåter dig att inaktivera export av ramskript och dokumentegenskaper. När du konverterar en arbetsbok till HTML kommer utdatafilen inte att innehålla några ramskript eller dokumentegenskaper.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

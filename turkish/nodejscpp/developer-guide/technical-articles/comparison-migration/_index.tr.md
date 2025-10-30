@@ -85,3 +85,4 @@ Doğru test çerçevelerinin kurulduğundan emin olun. Node.js farklı bir ekosi
 ## **Sonuç**
 
 .NET'ten Node.js'e geçiş, sözdizimi ve yapıdaki farkları anlayarak kolaylaştırılır. Aspose.Cells for Node.js via C++ ile mevcut .NET uygulamalarınızın işlevselliğini çoğaltabilir ve JavaScript'in güçlü yönlerinden faydalanabilirsiniz.
+{{< app/cells/assistant language="nodejs-cpp" >}}

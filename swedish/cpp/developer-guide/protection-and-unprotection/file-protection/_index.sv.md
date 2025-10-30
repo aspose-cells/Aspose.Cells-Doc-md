@@ -149,3 +149,4 @@ int main()
 - [Ange stark krypterings typ](/cells/sv/cpp/setting-strong-encryption-type/)
 - [Ange författare vid skrivskydd av arbetsbok](/cells/sv/cpp/specify-author-while-write-protecting-workbook/)
 - [Verifiera lösenord för krypterade filer](/cells/sv/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

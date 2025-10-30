@@ -63,3 +63,4 @@ book.save(path.join(dataDir, "output.xlsx"));
 
 ## **Gelişmiş Konular**
 - [Kıvılcımları ve Ayarları 3B Biçimi kullanarak Kullanma](/cells/tr/nodejs-cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

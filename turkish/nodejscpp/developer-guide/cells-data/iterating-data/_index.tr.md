@@ -191,3 +191,4 @@ Yukarıda belirtilen gerçeklere dayanarak, aşağıdakiler, numaralandırıcıl
 1. Birçok hücrenin dolaşılması gereklidir.  
 1. Yalnızca başlatılmış hücreler/satırlar/sütunlar dolaşılmalıdır.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

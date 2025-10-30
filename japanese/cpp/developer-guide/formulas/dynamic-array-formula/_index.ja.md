@@ -136,3 +136,4 @@ int main()
 
 出力スナップショット：  
 <br><image src="4.png" width="70%" />  
+{{< app/cells/assistant language="cpp" >}}

@@ -34,3 +34,4 @@ Aşağıdaki örnek kod, indeksini belirterek herhangi bir eşleşmeye erişmeyi
 Eşleşme adının bilindiği durumda eşleşmelerin kaldırılması iyi çalışır. Eğer eşleşme adını bilmiyorsanız, eşleştirmenin adı yerine sayfa indeksini alan [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) metodu için aşırı yüklenmiş bir versiyonunu kullanın.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -21,8 +21,8 @@ Excelから名前付き範囲を削除するには、次の手順に従うこと
 6. 「閉じる」ボタンをクリックして名前マネージャーのダイアログボックスを閉じます。
 7. 変更を保存するためにワークブックを保存します。
 
-## **Aspose.Cells for .Netを使用して名前付き範囲を削除する**
-Aspose.Cells for .NETを使えば、リスト内の名前付き範囲や定義済み名前を[テキスト](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str)で削除できます。
+## **Aspose.Cells for Python via .NETを使用して名前付き範囲を削除する**
+Aspose.Cells for Python via .NETを使用すると、リスト内の[テキスト](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str)で名前付き範囲または定義された名前を削除できます。
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

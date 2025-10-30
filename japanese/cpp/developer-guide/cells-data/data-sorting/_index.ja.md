@@ -151,3 +151,4 @@ int main()
 ## **高度なトピック**
 - [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/cpp/sort-data-in-column-with-custom-sort-list/)
 - [データソート時の警告の指定](/cells/ja/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

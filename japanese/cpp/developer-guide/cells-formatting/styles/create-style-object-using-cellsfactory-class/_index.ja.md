@@ -8,7 +8,7 @@ url: /ja/cpp/create-style-object-using-cellsfactory-class/
 ---  
 
 ## **CellsFactoryクラスを使用してスタイルオブジェクトを作成する**  
-以下のサンプルコードは、[Style]オブジェクトを作成し、[CellsFactory]クラスを使用し、その後、ワークブックの既定スタイルを設定します。結果を確認するには、[出力Excelファイル](5115153.xlsx)をダウンロードしてください。  
+以下のサンプルコードは、【Style】オブジェクトを作成し、【CellsFactory】クラスを使用し、その後、ワークブックの既定スタイルを設定します。結果を確認するには、【出力Excelファイル】(5115153.xlsx)をダウンロードしてください。  
 
 ```c++
 #include <iostream>
@@ -47,3 +47,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

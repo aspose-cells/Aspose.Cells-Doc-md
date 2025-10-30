@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **Fortsatta ämnen**
 - [Identifiera sammanslagna celler i ett kalkylblad](/cells/sv/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

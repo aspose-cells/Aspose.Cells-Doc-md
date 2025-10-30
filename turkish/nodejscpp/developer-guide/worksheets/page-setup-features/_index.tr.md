@@ -57,3 +57,4 @@ workbook.save("PageMarginsExample.xlsx");
 Bu belgeyle, Excel'de sayfa ayar özelliklerini Aspose.Cells for Node.js via C++ kullanarak nasıl manipüle edeceğinizi öğrendiniz. `PageSetup` sınıfını etkin kullanarak, çalışma sayfalarınızın yazdırılma ve görüntülenme biçimini kontrol edebilir, genel sunumu iyileştirebilirsiniz.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

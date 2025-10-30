@@ -107,3 +107,4 @@ Aspose.Cells för Python via .NET tillhandahåller [**Range.copy()**](https://re
 Följande exempel visar hur man kopierar en källräcka med celler till ett annat namngivet område.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

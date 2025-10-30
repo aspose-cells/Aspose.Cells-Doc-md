@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [ワークシート内の重複する行を削除する](/cells/ja/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [ワークシート内の空白の列と行を削除する際に、他のワークシートの参照を更新する](/cells/ja/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

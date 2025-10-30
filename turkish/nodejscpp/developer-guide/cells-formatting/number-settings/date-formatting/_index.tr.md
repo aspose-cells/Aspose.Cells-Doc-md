@@ -49,3 +49,4 @@ Excel'de bir sayıyı tarihe dönüştürmek için şu adımları izleyin:
 Excel dosyalarıyla çalışmak için Aspose.Cells for Node.js via C++ kütüphanesinde sayıları tarihe dönüştürmek için hücrelere programlı biçimde tarih formatı uygulayabilirsiniz. İşte Aspose.Cells for Node.js via C++ kullanarak nasıl yapacağınız:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

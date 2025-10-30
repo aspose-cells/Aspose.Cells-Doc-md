@@ -94,3 +94,4 @@ int main()
 - [Çıkış HTML'sinde dizeyi nasıl geçeceğini HtmlCrossType kullanarak belirtin](/cells/tr/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [HTML'nin Excel elektronik tablosuna yüklenmesi sırasında DIV etiketlerinin düzenini destekle](/cells/tr/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [ HTML'ye Kaydederken CSS Özel Özelliklerini Etkinleştir](/cells/tr/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

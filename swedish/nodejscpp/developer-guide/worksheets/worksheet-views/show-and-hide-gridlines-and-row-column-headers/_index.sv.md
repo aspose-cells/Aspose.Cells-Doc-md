@@ -98,3 +98,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 Det är också möjligt att använda metoderna [**Cells.unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) och [**Cells.unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) av [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells)-klassen för att göra flera rader och kolumner synliga.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

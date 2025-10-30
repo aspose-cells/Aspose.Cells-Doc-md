@@ -50,3 +50,4 @@ workbook = new AsposeCells.Workbook(path.join(dataDir, "Excel2013.xlsx"));
 console.log("Excel 2013 XLSX Version: " + workbook.getBuiltInDocumentProperties().getVersion());
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

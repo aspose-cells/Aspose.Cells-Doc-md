@@ -42,3 +42,4 @@ Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı E
 Yukarıda gösterildiği gibi çıktıyı elde etmek için örnek kod burada bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

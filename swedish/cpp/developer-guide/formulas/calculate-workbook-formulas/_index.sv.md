@@ -17,3 +17,4 @@ Detta är konsoloutputen för ovanstående exempelkod.
  Calculated Value of Cell A4: 45
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -60,3 +60,4 @@ Kaynak ve çıktı dosyaları aşağıdaki linklerden indirilebilir.
 [Kaynak Dosya](105480221.xlsx)
 
 [Çıktı Dosyası](105480223.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

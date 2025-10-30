@@ -94,3 +94,4 @@ Aspose.Cells.Font [ Calibri; 20; Regular; Color [A=255, R=55, G=98, B=104] ]
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [A=255, R=55, G=98, B=104] ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

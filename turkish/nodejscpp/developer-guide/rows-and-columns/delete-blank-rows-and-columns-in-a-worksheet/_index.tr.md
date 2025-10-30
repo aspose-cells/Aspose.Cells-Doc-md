@@ -69,3 +69,4 @@ sheet.getCells().deleteBlankColumns();
 // Save the excel file.
 workbook.save(path.join(dataDir, "mybook.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

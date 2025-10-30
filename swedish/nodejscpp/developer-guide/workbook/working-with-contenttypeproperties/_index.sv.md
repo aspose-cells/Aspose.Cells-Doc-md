@@ -32,3 +32,4 @@ workbook.getContentTypeProperties().get(index).setIsNillable(true);
 workbook.save(path.join(outputDir, "WorkingWithContentTypeProperties_out.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -15,7 +15,7 @@ aliases:
 
 GridJsはモバイル画面に適応します
 
-[GridJsのデモ] (https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "GridJsのデモ") を実行します
+[GridJs のデモ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "GridJsのデモ")を実行
 
 デモプロジェクトのデフォルトポートは24262です 
 

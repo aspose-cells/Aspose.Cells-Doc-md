@@ -46,3 +46,4 @@ Sayfa kesmeleri önizleme veya yazdırma önizleme modlarında, bu sayfa kesmele
 ## **Bilinmesi Gerekenler**
 
 **Sayfa Yerleşimi Ayarları** (yani [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) ve [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) ayarlandığında, sayfa kırığı ayarları etkilenir, bu nedenle çalışma sayfasını yazdırırsanız, sayfa kırığı ayarları dikkate alınmasa da hala ayarlıdır.
+{{< app/cells/assistant language="python-net" >}}

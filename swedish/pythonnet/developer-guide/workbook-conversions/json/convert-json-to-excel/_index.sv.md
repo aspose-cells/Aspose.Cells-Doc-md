@@ -27,3 +27,4 @@ Följande kodexempel som använder klassen JsonLoadOptions för att ange ytterli
 Följande kodexempel visar import av JSON-sträng till Excel-arbetsbok. Du kan också ange platsen för layouten vid import av JSON. Se koden för att konvertera JSON-strängen till den xlsx-fil som genereras av koden för referens.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

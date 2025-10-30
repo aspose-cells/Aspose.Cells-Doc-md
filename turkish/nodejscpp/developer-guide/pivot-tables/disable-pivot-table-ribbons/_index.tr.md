@@ -18,3 +18,4 @@ Pivot tablo tabanlı raporlar faydalıdır ancak hedef kullanıcılar bu raporla
 Aşağıdaki kod, bir sayfadan pivot tablosuna erişerek [**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-) değeri **false** olarak ayarlar ve bu özelliği gösterir. Örnek pivot tablo dosyasını bu [bağlantıdan](pivot_table_test.xlsx) indirebilirsiniz.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ keywords: サブトータルを適用し、サブトータルを追加し、詳�
 次に示すコードは、上記の出力を実現するサンプルコードです。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

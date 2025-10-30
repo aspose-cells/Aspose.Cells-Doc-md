@@ -19,3 +19,4 @@ url: /ja/python-net/creating-sunburst-chart/
 下記のサンプルコードは、[サンプルExcelファイル](sunburst.xlsx)を読み込み、[出力Excelファイル](out.xlsx)を生成します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-sunburst-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

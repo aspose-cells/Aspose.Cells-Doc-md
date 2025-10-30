@@ -170,3 +170,4 @@ Om du använder [**Custom**](https://reference.aspose.com/cells/cpp/aspose.cells
 - [Rendera anpassat datumformatmönster g och ge mm dd](/cells/sv/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Ange anpassade nummerdecimaler och gruppavgränsare för Arbetsbok](/cells/sv/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specificera DBNum anpassade mönsterformatering](/cells/sv/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

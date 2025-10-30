@@ -29,3 +29,4 @@ PythonのAspose.Cells via .NETは、アプリケーションがさまざまな�
 - [PythonのAspose.Cells via .NETのダウンロード](https://downloads.aspose.com/cells/python-net)
 - [PythonのAspose.Cells via .NET無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET 有料サポートヘルプデスク](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="python-net" >}}

@@ -59,3 +59,4 @@ Aşağıda, bir Excel dosyasını (book1.xls) açan, sekmelerini gizleyen ve de�
 ### **Sekme Çubuğu Genişliğini Kontrol Etme**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

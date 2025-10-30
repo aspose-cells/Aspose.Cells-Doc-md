@@ -135,3 +135,4 @@ Aspose.Cells for Python via .NET APIは、スプレッドシートをPPTX形式�
 - [Json](/cells/ja/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/ja/python-net/convert-excel-to-pdf/)
 - [CSV、TSV、およびTXTをExcelに変換する](/cells/ja/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

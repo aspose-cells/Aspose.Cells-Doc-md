@@ -75,3 +75,4 @@ Följande exempel använder en mall XLSX-fil, hämtar färger för olika temafä
 ## **Fortsatta ämnen**  
 - [Extrahera temadata från Excel-fil](/cells/sv/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

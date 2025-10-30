@@ -65,3 +65,4 @@ Du kan få följande rätta [utdatafil](output.xlsx)
 Som visas i figuren nedan är de fyra "Total"-datapunkterna korrekt inställda, och du kan se skillnaden från föregående diagram.
 
 ![todo:image_alt_text](set-as-total2.png)
+{{< app/cells/assistant language="cpp" >}}

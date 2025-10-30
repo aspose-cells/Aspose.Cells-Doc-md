@@ -356,3 +356,4 @@ int main()
 - [Justera arbetsbokens kompressionsnivå](/cells/sv/cpp/adjust-workbook-compression-level/)
 - [Spara arbetsbok i strikt öppet XML-kalkylbladsformat](/cells/sv/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Spara fil till responsobjekt](/cells/sv/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

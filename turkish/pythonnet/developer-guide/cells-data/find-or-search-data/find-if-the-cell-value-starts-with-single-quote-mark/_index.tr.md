@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET artık hücre değerinin tek tırnak işareti i
 Aşağıdaki örnek kod, örnek ve 'örnek gibi dizilerin [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/) özelliği ile ayırt edilemeyeceğini açıklar. Bu nedenle onları ayırt etmek için [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/) özelliğini kullanmamız gerekir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

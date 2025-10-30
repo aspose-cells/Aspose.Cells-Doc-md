@@ -26,3 +26,4 @@ Aşağıdaki kod örneği, hücre içine HTML zengin metin eklemenin nasıl yap�
 
 - [HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster](/cells/tr/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Hücreden HTML5 dizesi al](/cells/tr/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

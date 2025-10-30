@@ -16,3 +16,4 @@ Bazen kullanıcı, kaynak aralığın satır yüksekliklerini hedef aralığa ko
 Aşağıdaki örnek kod, kaynak aralığın satır yüksekliklerini hedef aralığa kopyalamak için [**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype) numarasını nasıl kullanacağını açıklamaktadır. Bu kod tarafından oluşturulan çıktı excel dosyasını Microsoft Excel'de açtığınızda, hedef aralığın satır yüksekliklerinin tam olarak kaynak aralığın satır yükseklikleriyle aynı olduğunu göreceksiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -44,3 +44,4 @@ Följande exempelkod tillämpar den avancerade filtreringen på [Sample Excel Fi
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyAdvancedFilterOfMicrosoftExcel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

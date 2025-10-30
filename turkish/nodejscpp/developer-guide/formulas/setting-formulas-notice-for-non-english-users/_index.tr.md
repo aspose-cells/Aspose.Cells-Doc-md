@@ -17,3 +17,4 @@ Aspose.Cells ile formül oluşturan diğer dillerdeki kullanıcıların dikkat e
 
 1. Formüller İngilizce olarak girilmelidir. Örneğin, Almanca "=SUMME()" yerine İngilizce olarak "=SUM()" kullanın.
 1. Her zaman fonksiyon parametrelerini ayırmak için virgül (,) kullanın. Bazı dil seçenekleri veya ayarlarında, fonksiyon parametreleri ayırıcı noktalı virgüldür ancak Aspose.Cells İngilizce tarzı virgül kullanır. Örneğin, "=IF (C5=0,0,C3/C4)" kullanın, "=IF(C5=0;0;C3/C4)" değil.  
+{{< app/cells/assistant language="nodejs-cpp" >}}

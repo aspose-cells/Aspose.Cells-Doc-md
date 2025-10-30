@@ -80,3 +80,4 @@ Microsoft Excel 2007は、より高度な条件付き書式を追加しており
 - [条件付き書式で使用されるアイコンセット、データバー、またはカラースケールオブジェクトの取得](/cells/ja/python-net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

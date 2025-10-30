@@ -66,3 +66,4 @@ workbook.save(filePath);
 ## İlgili Makale
 
 - [Belge Bilgi Paneli içinde görülebilen Özel Özellikler eklemek](/cells/tr/nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

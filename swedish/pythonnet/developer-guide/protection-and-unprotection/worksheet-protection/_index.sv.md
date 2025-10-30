@@ -39,3 +39,4 @@ Att avskärma arbetsblad är enkelt med Aspose.Cells för Python via .NET API. O
 - [Avskydda ett kalkylblad](/cells/sv/python-net/unprotect-a-worksheet/)
 - [Verifiera lösenord som används för att skydda arbetsbladet](/cells/sv/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ Aspose.CellsはExcelファイルを表す[Workbook](https://reference.aspose.com
 ワークシートは[Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) クラスで表されます。[Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) クラスは、ワークシートを管理するために使用されるさまざまなメソッドを提供します。ページブレークを追加するには、[Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) クラスの [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) メソッドを使用します。
 ### **ページブレークの追加**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

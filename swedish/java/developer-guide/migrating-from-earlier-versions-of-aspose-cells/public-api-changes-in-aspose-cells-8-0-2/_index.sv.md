@@ -83,5 +83,5 @@ Standardvärdet för ConvertFormulasData-egenskapen är falskt.
 ## **ImageOptions-egenskap tillagd till HtmlSaveOptions-klassen**
 ImageOptions-egenskapen har lagts till HtmlSaveOptions-klassen. Genom att exponera ImageOptions-egenskapen har utvecklare möjlighet att ange inställningarna för bilderna som bäddas in i HTML vid export av kalkylblad. 
 ## **Obsoletade HtmlSaveOptions.ExportChartImageFormat-egenskapen**
-HtmlSaveOptions.ExportChartImageFormat har markerats som föråldrad från och med Aspose.Cells for .NET 8.0.2. Det rekommenderas att istället använda HtmlSaveOptions.ImageOptions för inställningar för bildformat vid export av kalkylblad till HTML-format.
+HtmlSaveOptions.ExportChartImageFormat har märkts som föråldrad från och med Aspose.Cells for Java 8.0.2. Det rekommenderas att använda HtmlSaveOptions.ImageOptions istället för bildformatinställningar vid export av kalkylblad till HTML-format.
 {{< app/cells/assistant language="java" >}}

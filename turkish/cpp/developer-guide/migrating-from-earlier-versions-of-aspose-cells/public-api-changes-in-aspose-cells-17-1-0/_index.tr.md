@@ -151,3 +151,4 @@ Aspose.Cells for C++ 17.1.0 ile, kullanılmayan ve gereksiz görülen birkaç y�
 - IWorksheet::ToString Yöntemi
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

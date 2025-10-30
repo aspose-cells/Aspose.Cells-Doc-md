@@ -147,3 +147,4 @@ int main()
 ### Sonuç
 
 Aspose.Cells for C++ değerine saat formatı uygulamak için, zamanı göstermek istediğiniz hücreler için özel sayı biçimi ayarlamanız gerekir. Yukarıda anlatılan adımları takip ederek, Aspose.Cells kullanarak Excel dosyalarınızda saat biçimlerini kolayca uygulayabilirsiniz. Unutmayın, anahtar doğru biçim dizesini kullanmak ve istediğiniz zaman biçimiyle uyumlu olmasıdır.
+{{< app/cells/assistant language="cpp" >}}

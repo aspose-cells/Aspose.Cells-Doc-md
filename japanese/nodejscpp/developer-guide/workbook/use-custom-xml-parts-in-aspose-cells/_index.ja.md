@@ -66,3 +66,4 @@ workbook.save(filePath);
 ## 関連記事
 
 - [ドキュメント情報パネルで表示されるカスタムプロパティの追加](/cells/ja/nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

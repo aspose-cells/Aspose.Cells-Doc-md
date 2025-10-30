@@ -78,3 +78,4 @@ Här är ett exempel på kodsnutt som visar hur man importerar data från en Num
 Utmatningsresultat:
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

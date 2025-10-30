@@ -33,3 +33,4 @@ Se följande exempel kod som beskriver hur du kan utföra uppgiften med Aspose.C
 - [Lägg till signaturraden i arbetsbladet](/cells/sv/python-net/add-signature-line/)
 - [Stöd för XAdES-signatur](/cells/sv/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET, yorunun yazı tipi rengini ayarlamak için [**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 
 Yukarıdaki kod tarafından oluşturulan çıktı dosyası, referansınız için ekte bulunmaktadır.
+{{< app/cells/assistant language="python-net" >}}

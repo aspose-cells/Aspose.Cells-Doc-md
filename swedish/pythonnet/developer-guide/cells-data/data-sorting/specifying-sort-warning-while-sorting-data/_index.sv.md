@@ -18,3 +18,4 @@ keywords: Python Excel bibliotek, Lägg till sorteringsvarning vid sortering av 
 Den följande exemplarkoden illustrerar användningen av [**DataSorter.sort_as_number**](https://reference.aspose.com/cells/python-net/aspose.cells/datasorter/sort_as_number/)-egenskapen enligt tidigare förklaring. Kontrollera dess [exempelfil för Excel](43352075.xlsx) och [utdatafil för Excel](43352076.xlsx) för mer hjälp.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SpecifyingSortWarningWhileSortingData.py" >}}
+{{< app/cells/assistant language="python-net" >}}

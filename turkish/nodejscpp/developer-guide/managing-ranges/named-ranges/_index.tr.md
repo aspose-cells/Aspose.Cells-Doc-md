@@ -80,3 +80,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Sıralı Olmayan Aralıkları Uygulama](/cells/tr/nodejs-cpp/implementing-non-sequential-ranges/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

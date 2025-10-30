@@ -39,3 +39,4 @@ Excel dosyalarının çalışma sayfasını korumak için sadece aşağıdaki ba
 - [Bir Çalışma Sayfasını Korumayı Kaldırma](/cells/tr/python-net/unprotect-a-worksheet/)
 - [Çalışma Sayfasını Korumak İçin Kullanılan Şifreyi Doğrulama](/cells/tr/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -42,3 +42,4 @@ console.log(e.message);
 Eğer elektronik tablo formüller içeriyorsa, PDF'ye dönüştürmeden hemen önce [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) metodunu çağırmak en iyisidir. Bu, formüle bağlı değerlerin tekrar hesaplanmasını ve PDF'de doğru değerlerin gösterilmesini sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

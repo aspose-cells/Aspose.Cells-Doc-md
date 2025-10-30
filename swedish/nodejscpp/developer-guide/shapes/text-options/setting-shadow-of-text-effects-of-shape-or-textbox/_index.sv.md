@@ -55,3 +55,4 @@ tb.getFont().setSize(16);
 wb.save(path.join(outputDir, "outputSettingTextEffectsShadowOfShapeOrTextbox.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

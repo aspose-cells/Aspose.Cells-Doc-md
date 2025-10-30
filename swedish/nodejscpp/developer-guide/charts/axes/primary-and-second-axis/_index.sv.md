@@ -69,3 +69,4 @@ chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.N
 // Save the file
 workbook.save("PrimaryandSecondaryAxis.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

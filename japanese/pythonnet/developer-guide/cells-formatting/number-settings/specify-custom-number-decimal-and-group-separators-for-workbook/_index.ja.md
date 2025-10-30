@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NETは、数値のフォーマット/解析にカ�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CustomDecimalAndGroupSeparator.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

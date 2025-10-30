@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NETは、[Shape.three_d_format](https://reference.a
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-Shape3DEffect.py" >}}
+{{< app/cells/assistant language="python-net" >}}

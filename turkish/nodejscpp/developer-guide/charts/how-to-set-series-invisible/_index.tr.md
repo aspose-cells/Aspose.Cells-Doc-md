@@ -41,3 +41,4 @@ Aşağıdaki [girdi dosyasını](SeriesFiltered.xlsx) ve [çıktı dosyasını](
 
 Aşağıdaki şekilde gösterildiği gibi, orijinalde görünür olan ilk iki seri, çıktı dosyasında görünmez hale geldi.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

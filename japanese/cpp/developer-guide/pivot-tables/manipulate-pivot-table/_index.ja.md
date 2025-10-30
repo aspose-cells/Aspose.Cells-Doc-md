@@ -23,3 +23,4 @@ url: /ja/cpp/manipulate-pivot-table/
 After refreshing Pivot Table value of cell H8: 6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

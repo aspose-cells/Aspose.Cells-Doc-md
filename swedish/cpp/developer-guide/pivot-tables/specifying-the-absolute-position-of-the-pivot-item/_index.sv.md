@@ -94,3 +94,4 @@ int main()
 Observera att det är nödvändigt att kalla `PivotTable.RefreshData` och `PivotTable.CalculateData`-metoderna innan du använder [**PivotItem.GetPosition()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getposition/), [**PivotItem.GetPositionInSameParentNode()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/getpositioninsameparentnode/) egenskaper och [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotitem/move/) metod.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

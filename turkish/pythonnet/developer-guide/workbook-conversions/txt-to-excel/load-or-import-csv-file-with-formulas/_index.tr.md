@@ -30,3 +30,4 @@ Kod önce CSV dosyasını yükler, ardından D4 hücresine yeniden içe aktarır
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

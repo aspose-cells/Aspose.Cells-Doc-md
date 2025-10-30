@@ -66,3 +66,4 @@ Ange egenskaperna [**FindOptions.setLookInType**](https://reference.aspose.com/c
 - [Ta reda på om cellvärdet börjar med citattecken](/cells/sv/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Sök data med originalvärden](/cells/sv/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

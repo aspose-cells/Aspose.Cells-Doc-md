@@ -52,3 +52,4 @@ Aspose.Cells for Node.js, çalışma kitabı ayarlarını ayarlamak için çeşi
 ## **Sonuç**
 Aspose.Cells for Node.js via C++ kullanarak çalışma kitabı ayarlarını yönetmek oldukça basittir ve Excel dosyası davranışlarını özelleştirmek için çeşitli seçenekler sunar. Kullanılabilir ayarları kullanarak çalışma kitabını özel ihtiyaçlarınıza göre uyarlayabilirsiniz.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

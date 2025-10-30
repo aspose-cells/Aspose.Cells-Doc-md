@@ -54,3 +54,4 @@ Aspose.Cells för Python via .NET tillhandahåller en metod [**Aspose.Cells.Work
 Det följande exemplet visar hur man flyttar ett kalkylblad till en annan plats inom arbetsboken.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

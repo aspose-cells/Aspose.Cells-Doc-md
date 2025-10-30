@@ -166,3 +166,4 @@ int main()
 
 ## **Fortsatta ämnen**
 - [Kopiera radhöjder från källspann till destinationspann](/cells/sv/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

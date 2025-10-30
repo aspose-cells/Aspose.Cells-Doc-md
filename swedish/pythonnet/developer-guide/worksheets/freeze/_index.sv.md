@@ -40,3 +40,4 @@ Det är enkelt att frysa rutor med Aspose.Cells för Python via .NET. Använd [*
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Bifogad [provkälla Excel-fil](Frys.xlsx).
+{{< app/cells/assistant language="python-net" >}}

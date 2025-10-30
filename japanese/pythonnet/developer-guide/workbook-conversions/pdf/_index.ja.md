@@ -143,3 +143,4 @@ Aspose.Cells for Python via .NETは、他のソフトウェアに依存せずに
 - [指定されたワークシートをPDFに保存](/cells/ja/python-net/save-specified-worksheets-to-pdf/)
 - [PDFドキュメントをセキュアにする](/cells/ja/python-net/secure-pdf-documents/)
 - [出力PDFおよび画像内の文字列の交差方法を指定](/cells/ja/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

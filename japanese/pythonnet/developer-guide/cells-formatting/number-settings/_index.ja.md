@@ -90,3 +90,4 @@ Aspose.Cells for Python via .NETは、数値や日付の表示形式を設定す
 - [ブックでのカスタム数値小数点およびグループの区切りの指定](/cells/ja/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNumカスタムパターンの書式設定の指定](/cells/ja/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -53,3 +53,4 @@ console.assert(cell.getType() === AsposeCells.CellValueType.IsNumeric);
 console.assert(cell.getDoubleValue() === 1234.56);
 })();
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

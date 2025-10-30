@@ -14,3 +14,4 @@ url: /ja/python-net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 次のサンプルコードでは、上記のプロパティの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetTextboxOrShapeParagraphLineSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -18,3 +18,4 @@ Lütfen aşağıdaki örnek koda bakınız. [Örnek Excel dosyasını](61767851.
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetMarginsOfCommentOrShapeInsideTheWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığın sol ü
 - [Pivot Tablosunu ODS dosyasına kaydetme](/cells/tr/python-net/save-pivot-table-in-ods-file/)
 - [Rapor filtre sayfalarını göster seçeneği](/cells/tr/python-net/show-report-filter-pages-option/)
 - [Pivot Tablosundaki DataField'ın veri görüntüleme formatları ile çalışma](/cells/tr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

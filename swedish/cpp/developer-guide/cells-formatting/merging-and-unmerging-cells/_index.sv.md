@@ -162,3 +162,4 @@ int main()
 
 ## **Fortsatta ämnen**
 - [Identifiera sammanslagna celler i ett kalkylblad](/cells/sv/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

@@ -19,3 +19,4 @@ Aşağıdaki örnek kod, A1 ve B2 hücrelerinde bir Hücre Değer koşullu biçi
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheet_1.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

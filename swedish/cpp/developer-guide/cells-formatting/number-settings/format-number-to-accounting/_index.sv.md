@@ -124,3 +124,4 @@ int main()
 Det här exemplet visar hur man formaterar en enda cell för att visa siffror i ett bokföringsformat med amerikanska dollar. Formatsträngen kan justeras för att uppfylla olika valutysymboler eller bokföringsformat vid behov. Den viktiga delen är `style.Custom`-egendomen, där du specificerar den anpassade numreringsformatkoden för bokföring.
 
 Kom ihåg att den exakta formatsträngen kan behöva justeras baserat på din lokal och de specifika redovisningskrav du har (t.ex. använda en annan valuta symbol, visa fler eller färre decimaler, etc.).
+{{< app/cells/assistant language="cpp" >}}

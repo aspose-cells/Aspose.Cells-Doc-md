@@ -9,3 +9,4 @@ keywords: C++を使用したスマートアートのNode.js管理、Aspose.Cells
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

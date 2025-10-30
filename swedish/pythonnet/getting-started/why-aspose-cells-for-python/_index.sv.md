@@ -97,3 +97,4 @@ Låt oss börja från praktiska tillämpningar och jämföra de tre starkaste Py
 I Pandas kan du använda ExcelWriter-objektet och to_excel() funktionen för att lägga till diagram i en Excel-fil. Men observera att Pandas självt inte stöder inbäddning av diagram direkt i Excel-filer, det kan bara skriva data till Excel-filer. För att lägga till ett diagram måste du använda openpyxl eller xlsxwriter-biblioteket för att manipulera Excel-filer. Här är ett exempel på att använda xlsxwriter-biblioteket för att lägga till ett diagram i en Excel-fil.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

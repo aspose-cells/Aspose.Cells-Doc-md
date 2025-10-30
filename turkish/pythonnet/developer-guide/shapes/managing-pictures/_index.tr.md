@@ -53,3 +53,4 @@ Resmi [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells
 - [Hücre Referansına Dayalı Resim Ekle](/cells/tr/python-net/insert-a-picture-based-on-cell-reference/)
 - [Bir URL'den Web Resmi Yükleyerek Excel Çalışma Sayfasına Ekleyin](/cells/tr/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -55,3 +55,4 @@ Utvecklare kan dölja flera rader eller kolumner samtidigt genom att anropa  [**
 Det är också möjligt att använda  {1} klassens  {2} och {3} metoder för att göra flera rader och kolumner synliga.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

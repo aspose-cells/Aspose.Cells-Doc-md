@@ -42,3 +42,4 @@ Aşağıdaki örnek kod, [**Workbook.import_xml()**](https://reference.aspose.c
 - [Worksheet.XmlMapQuery yöntemini kullanarak XML Haritası Yoluna Eşlenmiş Hücre Alanlarını Sorgula](/cells/tr/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

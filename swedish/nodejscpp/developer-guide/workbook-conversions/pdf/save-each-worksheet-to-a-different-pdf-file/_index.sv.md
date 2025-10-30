@@ -47,3 +47,4 @@ workbook.save(path.join(dataDir, `worksheet-${ws.getName()}.out.pdf`), pdfSaveOp
 Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) strax innan du renderar kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

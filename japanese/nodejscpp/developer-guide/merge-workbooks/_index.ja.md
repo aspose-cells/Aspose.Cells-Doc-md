@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [複数のワークシートを単一のワークシートに結合する](/cells/ja/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [ファイルの結合](/cells/ja/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

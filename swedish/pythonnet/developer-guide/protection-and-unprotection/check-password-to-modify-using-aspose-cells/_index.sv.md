@@ -36,3 +36,4 @@ Is 5678 correct Password to modify: True
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

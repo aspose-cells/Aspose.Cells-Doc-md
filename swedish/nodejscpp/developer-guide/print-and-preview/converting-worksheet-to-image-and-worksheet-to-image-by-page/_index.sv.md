@@ -109,3 +109,4 @@ sr.toImage(j, outputDir + "outputConvertWorksheetToImageByPage_" + (j + 1) + ".t
 ```  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

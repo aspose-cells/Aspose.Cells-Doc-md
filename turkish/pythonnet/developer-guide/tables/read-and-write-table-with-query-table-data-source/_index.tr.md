@@ -16,3 +16,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 
 [Çıkış Dosyası](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

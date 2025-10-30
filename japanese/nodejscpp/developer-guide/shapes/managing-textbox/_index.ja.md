@@ -44,3 +44,4 @@ workbook.save("TextBoxExample.xlsx");
 テキストボックスとのやりとりは具体的な用途によって異なる場合があるため、追加のメソッドやプロパティについてはAspose.Cells for Node.js via C++のドキュメントを参照してください。
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

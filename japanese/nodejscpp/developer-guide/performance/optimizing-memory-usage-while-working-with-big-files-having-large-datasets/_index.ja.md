@@ -27,3 +27,4 @@ url: /ja/nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-
 1. **セルや行の挿入および削除**：多くの挿入/削除操作がセル/行にある場合、[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)モードでは、[**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)モードと比較してパフォーマンスの低下が顕著になります。
 1. **異なるセルタイプでの操作**：ほとんどのセルが文字列値や数式を含む場合、メモリコストは[**MemorySetting.Normal**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)モードと同じになりますが、空のセルが多いか、セルの値が数値、ブール値などの場合、[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)オプションはパフォーマンスが向上します。
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

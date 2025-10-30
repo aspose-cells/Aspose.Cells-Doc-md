@@ -48,3 +48,4 @@ Microsoft Excel（ここではMicrosoft Excel 2003）でファイルの暗号化
 - [ブックを書き込み保護する際に著者を指定する](/cells/ja/python-net/specify-author-while-write-protecting-workbook/)
 - [暗号化されたファイルのパスワードの検証](/cells/ja/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

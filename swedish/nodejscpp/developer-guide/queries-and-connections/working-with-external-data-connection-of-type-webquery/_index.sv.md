@@ -47,3 +47,4 @@ Här är konsolens utdata av den ovanstående koden med denna [exempel excelfile
 Web Query URL: https://docs.aspose.com/cells/nodejs-cpp/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

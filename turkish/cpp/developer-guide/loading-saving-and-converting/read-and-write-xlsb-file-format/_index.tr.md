@@ -11,3 +11,4 @@ Microsoft Excel, XLS, XLSX, XLSM, XLSB, CSV gibi birçok formata destek sağlar.
 Aşağıdaki örnek kod, [kaynak XLSB dosyasını](23166992.xlsb) yükler ve hücresi A1'i okur, ardından içeriğini hücre C4'e kopyalar ve [çıkış XLSB dosyası](23166993.xlsb) olarak kaydeder.
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

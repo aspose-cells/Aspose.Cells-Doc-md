@@ -220,3 +220,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [ワークシートで値の代わりに数式を表示する](/cells/ja/nodejs-cpp/show-formulas-instead-of-values-in-a-worksheet/)
 - [エラーチェックオプションを使用する](/cells/ja/nodejs-cpp/use-error-checking-options/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

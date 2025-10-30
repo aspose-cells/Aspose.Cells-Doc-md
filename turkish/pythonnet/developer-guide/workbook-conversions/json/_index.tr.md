@@ -26,3 +26,4 @@ Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.JSON**](ht
 - [Excel'i JSON'a dönüştür](/cells/tr/python-net/convert-excel-to-json/)
 - [JSON'ı CSV'ye dönüştür](/cells/tr/python-net/convert-json-to-csv/)
 - [JSON'ı Excel'e dönüştür](/cells/tr/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

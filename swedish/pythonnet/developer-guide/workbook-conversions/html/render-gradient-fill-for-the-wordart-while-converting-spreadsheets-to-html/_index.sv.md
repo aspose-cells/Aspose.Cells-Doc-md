@@ -14,3 +14,4 @@ Innan Aspose.Cells 17.1, renderade inte Aspose.Cells gradientfyllningen av ordko
 Följande provkod konverterar [källa excelfil](22774111.xlsx) till [utmatnings-HTML-format](22774109.zip). Källa Excel-filen innehåller ett ordkonstobjekt med gradientfyllning som visas i ovanstående skärmbild.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

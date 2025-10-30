@@ -1,0 +1,54 @@
+---
+title: Golang経由で空白または非空白をフィルタリングする方法
+linktitle: 空白または非空白をフィルタリングする方法
+type: docs
+weight: 85
+url: /ja/go-cpp/how-to-filter-blanks-and-non-blanks/
+description: Aspose.Cells for C++ APIを使用して空白セルと非空白セルをフィルタリングする方法を学びます。
+keywords: 空白をフィルタリングし、非空白をフィルタリングし、ワークシート内の空白をフィルタリングし、ワークシート内の非空白をフィルタリングし、Excel内の空白をフィルタリングし、Excel内の非空白をフィルタリングし、Excel内の空白および非空白をフィルタリングする
+---
+
+## **可能な使用シナリオ**
+Excelでのデータのフィルタリングは、ユーザーが基準に基づいて特定のデータサブセットに焦点を当てることを可能にし、全体的なデータの操作および解釈プロセスをより効率的かつ効果的にします。
+
+## **Excelで空白または非空白をフィルタリングする方法**
+Excelでは、フィルタリングオプションを使用して簡単に空白または非空白をフィルタリングすることができます。以下にその方法を示します。
+
+### **Excelで空白をフィルタリングする方法**
+1. 範囲を選択する: 列ヘッダーの文字をクリックして列全体を選択するか、空白をフィルタリングしたい範囲を選択します。
+1. フィルタメニューを開く: リボンの"データ"タブに移動します。
+<br>
+<image src="1.png" width="70%" />
+1. フィルタオプション: "フィルタ"ボタンをクリックします。これにより、選択した範囲にフィルタ矢印が追加されます。
+1. 空白をフィルタリング: 空白をフィルタリングしたい列のフィルタ矢印をクリックします。"空白"以外のすべてのオプションを選択解除し、OKをクリックします。これにより、その列の空白のセルのみが表示されます。
+<br>
+<image src="2.png" width="70%" />
+1. 結果は次のとおりです:
+<br>
+<image src="3.png" width="70%" />
+
+### **Excelで非空白をフィルタリングする方法**
+1. 範囲を選択する: 列ヘッダーの文字をクリックして列全体を選択するか、非空白をフィルタリングしたい範囲を選択します。
+1. フィルタメニューを開く: リボンの"データ"タブに移動します。
+<br>
+<image src="1.png" width="70%" />
+1. フィルタオプション: "フィルタ"ボタンをクリックします。これにより、選択した範囲にフィルタ矢印が追加されます。
+1. ブランク以外をフィルタする: フィルタ矢印をクリックし、非ブランクをフィルタしたい列を選択します。"非ブランク"または"カスタム"以外のすべてのオプションを選択解除または条件を設定し、「OK」をクリックします。これにより、その列のブランクでないセルのみが表示されます。
+<br>
+<image src="4.png" width="70%" />
+1. 結果は次のとおりです:
+<br>
+<image src="5.png" width="70%" />
+
+## **Aspose.Cellsを使用してブランクをフィルタする方法**
+列にテキストが含まれる場合、セルの一部が空白の場合にその行だけを選択するために、[AutoFilter.MatchBlanks(int fieldIndex)](https://reference.aspose.com/cells/go-cpp/autofilter/matchblanks/)と[AutoFilter.AddFilter(int fieldIndex, string criteria)](https://reference.aspose.com/cells/cpp/aspose.cells/autofilter/addfilter/)関数が次のように使用できます。 
+
+[サンプルExcelファイル](sample.xlsx)を読み込み、ダミーデータを含むコード例をご覧ください。サンプルコードでは、ブランクをフィルタリングするための3つの方法を使用し、その後ブックを[output Excel file](FilteredBlanks.xlsx)として保存します。 
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FilterBlanksOrNonblanks.go" >}}
+## **Aspose.Cellsを使用して非ブランクをフィルタする方法**
+
+サンプルコードは、ダミーデータを含む [サンプルExcelファイル](sample.xlsx) を読み込み、[空白以外のデータをフィルタリング](https://reference.aspose.com/cells/cpp/aspose.cells/autofilter/matchnonblanks/) し、その後ワークブックを [出力Excelファイル](FilteredNonBlanks.xlsx) として保存します。 
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FilterBlanksOrNonblanks-1.go" >}}
+

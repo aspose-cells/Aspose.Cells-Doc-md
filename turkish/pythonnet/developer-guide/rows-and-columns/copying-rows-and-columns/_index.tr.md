@@ -33,7 +33,7 @@ Hedef hücrelerin içeriği herhangi bir içeriği Çıkar veya tıklamak yerine
 1. Ana sekmede **Yapıştır**'ın yanındaki oku tıklayın ve ardından **Yapıştırma**'yı seçin.
 1. İstediğiniz **seçenekleri** seçin.
 
-## **Aspose.Cells for .NET Kullanarak Satır ve Sütunları Nasıl Kopyalanır**
+## **Aspose.Cells for Python via .NET Kullanarak Satır ve Sütun Kopyalama Yöntemi**
 
 ## **Tek Satırları Nasıl Kopyalanır**
 
@@ -98,3 +98,4 @@ Aspose.Cells şimdi, [**PasteOptions**](https://reference.aspose.com/cells/pytho
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

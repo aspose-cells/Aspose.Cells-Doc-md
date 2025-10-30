@@ -14,3 +14,4 @@ Följande exempelkod laddar [käll-Excel-filen](5115419.xlsx) och hämtar den f�
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-Shape3DEffect.py" >}}
+{{< app/cells/assistant language="python-net" >}}

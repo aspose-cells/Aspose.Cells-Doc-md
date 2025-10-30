@@ -52,3 +52,4 @@ item.setValue(`Excel.Workbook(File.Contents("${path.join(sourceDir, "SamplePower
 // Save the output workbook.
 workbook.save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

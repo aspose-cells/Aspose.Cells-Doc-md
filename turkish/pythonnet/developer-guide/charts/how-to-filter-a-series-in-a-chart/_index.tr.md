@@ -58,3 +58,4 @@ Veri içine tıklayın ve **CTRL + T** kullanın veya Ana sekme, **Tablo Olarak 
 Aşağıdaki örnek kod, [örnek Excel dosyasını](TableFilters.xlsx) Aspose.Cells kullanarak aynı özelliği gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

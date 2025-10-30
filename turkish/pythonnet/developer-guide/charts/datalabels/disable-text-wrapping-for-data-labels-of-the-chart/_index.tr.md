@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET, [**DataLabels.is_text_wrapped**](https://refer
 Aşağıdaki örnek kod, grafik veri etiketlerinin metin kaydırmasını devre dışı bırakmanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

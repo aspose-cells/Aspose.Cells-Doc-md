@@ -18,19 +18,19 @@ Apose.Cells ürünü için değerlendirmeyi gerçekleştirdik ve grafik kütüph
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Windows'ta Aspose.Cells for .Net6'yı Çalıştırmak
+## Windows'ta Aspose.Cells for .Net6 (veya daha yeni sürüm) çalıştırın
 
-Öncelikle VS2022 ile .net6 uygulaması oluşturabilir, ardından aşağıdaki kurulum seçeneklerini seçebilirsiniz:
+İlk olarak, VS2022 ile bir .net6 (veya daha yeni sürüm) uygulaması oluşturabilirsiniz, ardından aşağıdaki kurulum seçeneklerini tercih edebilirsiniz:
 
 ### Nuget ile kurulum
 
 1. NuGet'ten Aspose.Cells'i arayın: [Aspose.Cells for .NET NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells/). 
 VS2022'de Nuget paket yöneticisinden de Aspose.Cells'i kurabilirsiniz.
 
-2. .Net6 platformları için Aspose.Cells 22.10.1 veya sonrası için "SkiaSharp" veya "System.Drawing.Common" otomatik olarak bağımlılık olarak yüklenecektir, bu da projenizdeki "Hedef İşletim Sistemi" yapılandırmasına bağlıdır.
-- Projemiz için "Hedef İşletim Sistemi"'ni "Windows" olarak ayarlarsanız, .Net6 projesinizde Windows sisteminizde "System.Drawing.Common"'ı bir bağımlılık olarak kullanacaksınız. Bu yapılandırmada çizimin sonucu .netcore31 veya öncekine daha yakın olacaktır.
+2. "SkiaSharp" veya "System.Drawing.Common" otomatik olarak Aspose.Cells 22.10.1 veya daha yeni sürümleri için bağımlılık olarak kurulacaktır; bu, projenizde "Hedef İşletim Sistemi" yapılandırmasına bağlıdır.
+- Projeniz için "Hedef İşletim Sistemi"ni "Windows" olarak ayarlayın, Windows sisteminizde .Net6 (veya daha yeni) projenizde "System.Drawing.Common" bağımlılığı kullanacaksınız. Bu yapılandırmada, çizim sonucu .netcore31 veya öncesine daha yakındır.
 **![Hedef İşletim Sistemi yapılandırması](TargetOS.png)**
-- Projemiz için "Hedef İşletim Sistemi"'ni "None" veya diğer seçeneklere ayarlarsanız, .Net6 projesinizde Windows sisteminizde "SkiaSharp"'ı bir bağımlılık olarak kullanacaksınız. *Lütfen "SkiaSharp"'ı bağımlılık olarak kullanan sürümün yazıcıya yazdırma özelliğini desteklemediğini unutmayın.*
+- Projeniz için "Hedef İşletim Sistemi"ni "None" veya diğer seçenekler olarak ayarlayın, Windows sisteminizde "SkiaSharp" bağımlılığı kullanacaksınız. *Lütfen "SkiaSharp" bağımlılığı kullanan sürümün yazdırma özelliğini desteklemediğine dikkat edin.*
 
 ### Msi veya DLL ile kurulum
 
@@ -43,15 +43,16 @@ VS2022'de Nuget paket yöneticisinden de Aspose.Cells'i kurabilirsiniz.
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Bu şekilde, .Net6 projesinizde Windows sisteminizde "System.Drawing.Common"'ı bir bağımlılık olarak kullanacaksınız. Bu yapılandırmada çizimin sonucu .netcore31 veya öncekine daha yakın olacaktır.
+Bu şekilde, Windows sisteminizde .Net6 (veya daha yeni) projenizde "System.Drawing.Common" bağımlılığı kullanacaksınız. Bu yapılandırmada, çizim sonucu .netcore31 veya öncesine daha yakındır.
 
 4. "net6.0" alt dizinini bulun, içindeki Aspose.Cells.dll'yi .net6 uygulamanıza ekleyin. Ayrıca aşağıdaki nuget paketlerini .net6 projenize manuel olarak ekleyin:
 - SkiaSharp, 3.116.1.
 - System.Security.Cryptography.Pkcs, 6.0.5.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Bu şekilde, .Net6 projesinizde Windows sistemine "SkiaSharp" bağımlılığı olarak kullanacaksınız. *Lütfen, bağımlılık olarak "SkiaSharp" kullanan sürümün yazıcıya yazdırma özelliğini desteklemediğini unutmayın.*
-## Linux'ta Aspose.Cells for .Net6'u Çalıştır
+Bu şekilde, Windows sisteminizde .Net6 (veya daha yeni) projenizde "SkiaSharp" bağımlılığı kullanacaksınız. *Lütfen "SkiaSharp" bağımlılığı kullanan sürümün yazdırma özelliğini desteklemediğine dikkat edin.*
+
+## Linux'ta Aspose.Cells for .Net6 (veya daha yeni sürüm) çalıştırın
 
 Windows'ta kurulum yöntemine atıfta bulunarak, Linux sistemine yalnızca SkiaSharp'ı grafik kütüphanesi bağımlılığı olarak seçebilirsiniz.
 
@@ -66,8 +67,8 @@ VEYA
 apk update && apk add fontconfig 
 ```
 
-2. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
-3. Alternatif olarak, yukarıdaki iki adım yerine, nuGet paketlerini "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" projenize ekleyebilirsiniz.
+2. Nuget paketi "SkiaSharp.NativeAssets.Linux 3.116.1"'i .net6 (veya daha yeni sürüm) projenize ekleyin.
+3. Veya yukarıdaki iki adıma ek olarak, "SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1" nuget paketini projenize eklemeyi tercih edebilirsiniz.
 
 *Lütfen, eklenen paketin "SkiaSharp.NativeAssets.Linux" veya "SkiaSharp.NativeAssets.Linux.NoDependencies" sürümünün, Aspose.Cells for .NET tarafından referans verilen "SkiaSharp" sürümü ile uyumlu olması gerektiğine dikkat edin. Aspose.Cells for .NET ve karşılık gelen referans "SKiaSharp" sürümlerinin detayları aşağıda belirtilmiştir:*
 
@@ -83,7 +84,7 @@ apk update && apk add fontconfig
 
 ### Ubuntu için Örnek Docker Dosyası
 
-1. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
+1. Nuget paketi "SkiaSharp.NativeAssets.Linux 3.116.1"'i .net6 (veya daha yeni sürüm) projenize ekleyin.
 
 2. Aşağıdaki Docker dosyasını kullanın:
 {{< highlight plain >}}
@@ -119,7 +120,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Alpine için Örnek Docker Dosyası
 
-1. NuGet paketini "SkiaSharp.NativeAssets.Linux 3.116.1" .net6 projenize ekleyin.
+1. Nuget paketi "SkiaSharp.NativeAssets.Linux 3.116.1"'i .net6 (veya daha yeni sürüm) projenize ekleyin.
 
 2. Aşağıdaki Docker dosyasını kullanın:
 {{< highlight plain >}}

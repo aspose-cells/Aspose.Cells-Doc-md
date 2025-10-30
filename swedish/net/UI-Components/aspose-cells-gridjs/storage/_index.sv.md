@@ -133,4 +133,4 @@ till exempel: I nedladdningsåtgärden kan du bara hämta den från cachekatalog
 ```
 
 För mer detaljerad information kan du kolla exemplet här:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

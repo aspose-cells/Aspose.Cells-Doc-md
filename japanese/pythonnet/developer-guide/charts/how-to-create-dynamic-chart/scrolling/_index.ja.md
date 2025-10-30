@@ -32,3 +32,4 @@ url: /ja/python-net/create-dynamic-scrolling-chart/
 ```
 
 "10"を"15"に変更して"Sheet1!$H$20"の数値を調整すると、最新の15セットのデータをカウントする動的スクロールチャートを作成できます。これにより、Aspose.Cells for Python via .NETで動的スクロールチャートを成功裡に作成しました。
+{{< app/cells/assistant language="python-net" >}}

@@ -90,3 +90,4 @@ Oluşturulan dosyada, kaydırma çubuğunu kullanabilir ve grafik dinamik olarak
 ```
 
 "Sheet1!$H$20" hücresinde "10" sayısını "15" yapmayı deneyebilirsiniz, ve dinamik grafik en son 15 veri kümesini sayacaktır. Artık Aspose.Cells for Node.js via C++ kullanarak başarılı bir şekilde dinamik kaydırmalı grafik oluşturduk.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -14,3 +14,4 @@ Aşağıdaki örnek kod, [Style](https://reference.aspose.com/cells/nodejs-cpp/s
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-CreateStyleUsingCellsFactory.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

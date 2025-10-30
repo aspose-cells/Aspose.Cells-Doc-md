@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET API を使用してタスクを実行する方�
 - [ワークシートに署名行を追加](/cells/ja/python-net/add-signature-line/)
 - [XAdES署名のサポート](/cells/ja/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

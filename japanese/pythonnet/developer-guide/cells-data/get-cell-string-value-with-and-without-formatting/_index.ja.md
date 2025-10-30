@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NETは、フォーマットを含めるか含めな
 次のサンプルコードは、[**Cell.get_string_value(format_strategy)**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_string_value/)メソッドの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-HtmlStringValue-GetStringValueWithOrWithoutFormatting.py" >}}
+{{< app/cells/assistant language="python-net" >}}

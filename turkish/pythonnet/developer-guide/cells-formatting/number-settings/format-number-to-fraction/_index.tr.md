@@ -112,3 +112,4 @@ Kesir biçimini uyguladıktan sonra, çalışma kitabını bir dosyaya kaydedin:
 
 Bu adımları izleyerek, Aspose.Cells for Python via .NET'de sayıları kolayca kesir olarak biçimlendirebilirsiniz. Bu, finansal, istatistiksel veya eğitim uygulamalarında kesin kesir değerlerinin gerekli olduğu durumlar için özellikle faydalı olabilir.
 
+{{< app/cells/assistant language="python-net" >}}

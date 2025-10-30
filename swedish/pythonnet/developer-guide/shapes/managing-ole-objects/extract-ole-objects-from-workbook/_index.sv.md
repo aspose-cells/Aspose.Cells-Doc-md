@@ -31,3 +31,4 @@ Nästa extrahera OLE-objekten och spara dem på hårddisken med sina respektive 
 Nedan gör koden det faktiska arbetet med att hitta och extrahera OLE-objekt. OLE-objekten (DOC, XLS och PDF-filer) sparas på disk.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

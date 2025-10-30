@@ -29,3 +29,4 @@ Aşağıdakiler görevlerinizi tamamlamak için ihtiyaç duyabileceğiniz bazı 
 - [Aspose.Cells for Python via .NET İndir](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells için Python via .NET Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="python-net" >}}

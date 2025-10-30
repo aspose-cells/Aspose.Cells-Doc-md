@@ -32,3 +32,4 @@ Oluşturulan dosyada, A ve B sütunlarına sürekli veri eklemeye devam edebilir
 ```
 
 Formülde "-5" sayısını "-10" olarak değiştirmeyi deneyebilirsiniz ve dinamik grafik en son 10 veri setini sayacaktır. Şimdi Aspose.Cells for Python via .NET kullanarak başarıyla bir dinamik kaydırmalı grafik oluşturduk.
+{{< app/cells/assistant language="python-net" >}}

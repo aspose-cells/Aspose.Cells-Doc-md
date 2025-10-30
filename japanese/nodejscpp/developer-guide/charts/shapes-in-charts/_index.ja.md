@@ -213,3 +213,4 @@ workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ## **高度なトピック**
 - [ワードアートウォーターマークをグラフに追加する](/cells/ja/nodejs-cpp/add-wordart-watermark-to-chart/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

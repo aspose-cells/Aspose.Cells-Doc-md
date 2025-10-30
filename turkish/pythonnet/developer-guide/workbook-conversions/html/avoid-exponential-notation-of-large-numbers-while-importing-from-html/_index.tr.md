@@ -16,3 +16,4 @@ Html'nizi Excel dosyasına aktardığınızda 1234567890123456 gibi 15 rakamdan 
 Aşağıdaki örnek kod, [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/) özelliğinin kullanımını açıklar. API sayıyı üstel gösterime dönüştürmeden içe aktarır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

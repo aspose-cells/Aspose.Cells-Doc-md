@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NETを使って、ユーザー定義クラスリス
 
 TestImportCustomObject.pyは、簡単な使用例を示しています。この例を参考にしたり、少し修正したりして独自のデータをインポートできます。
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "TestImportCustomObject.py" >}}
+{{< app/cells/assistant language="python-net" >}}

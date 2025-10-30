@@ -22,3 +22,4 @@ Aspose.Cells for Python excel kütüphanesi ayrıca bu üç biçimde pivot tablo
 Aşağıdaki örnek kod önce Pivot Tablosunu **Kompakt Formda** gösterir, ardından Pivot Tablosunu **Açıklamalı Formda** gösterir ve son olarak Pivot Tablosunu **Tablo Formunda** gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

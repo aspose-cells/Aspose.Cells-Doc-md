@@ -76,3 +76,4 @@ Lütfen aşağıdaki test dosyasını indirin, excel'de açın, bir alanı seçm
 - [Çalışma Kitabı ve Çalışma Sayfası Kapsamlı Adlandırılan Aralıkları Oluştur](/cells/tr/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Aralıktaki Veriyi Arama ve Değiştirme](/cells/tr/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

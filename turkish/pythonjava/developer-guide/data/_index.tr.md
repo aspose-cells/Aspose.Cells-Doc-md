@@ -1,7 +1,7 @@
 ---
 title: Veri
 type: docs
-weight: 110
+weight: 60
 url: /tr/python-java/data/
 ---
 

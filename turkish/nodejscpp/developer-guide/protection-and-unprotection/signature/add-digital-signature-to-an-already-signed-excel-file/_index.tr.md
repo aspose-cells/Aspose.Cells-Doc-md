@@ -53,3 +53,4 @@ workbook.addDigitalSignature(dsCollection);
 workbook.save(path.join(__dirname, "outputDigitallySignedByCells.xlsx"));
 workbook.dispose();
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

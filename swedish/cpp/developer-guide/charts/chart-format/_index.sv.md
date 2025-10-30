@@ -474,3 +474,4 @@ int main()
 ## **Fortsatta ämnen**
 - [Ställ in värdenas formatkod för diagramserier](/cells/sv/cpp/set-the-values-format-code-of-chart-series/)
 - [Ange bild som bakgrundsfyllning i diagrammet.](/cells/sv/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

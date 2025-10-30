@@ -4,8 +4,8 @@ linktitle: Html Dize Değeri
 type: docs
 weight: 50
 url: /tr/net/adding-html-rich-text-inside-the-cell/
-description: Aspose.Cells for .NET API sı aracılığıyla Hücre İçine HTML Zengin Metin ekleme konusunda nasıl yapıldığını öğrenin.
-keywords: Hücre İçine HTML Zengin Metin Ekleme, Hücre İçine HTML Zengin Metin Ayarlama, Hücre İçine HTML Zengin Metin Ekleme, Hücre İçine HTML Zengin Metin Ekleme
+description: Hücre içine HTML Zengin Metin eklemeyi ve tek bir hücre içinde birden fazla stil kullanmayı Aspose.Cells for .NET API ile öğrenin.
+keywords: Hücreye HTML Zengin Metin Ekle, Hücrede HTML Zengin Metin Ayarla, Tek Bir Hücrede Çoklu Stil, Hücreye HTML Zengin Metin Ekle
 ---
 
 {{% alert color="primary" %}}

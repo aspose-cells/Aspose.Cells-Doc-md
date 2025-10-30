@@ -28,3 +28,4 @@ Lütfen birden çok çalışsayfasına sahip bir Excel dosyasını PDF'ye dönü
 Eğer elektronik tablonuzda formüller varsa, elektronik tabloyu PDF'ye dönüştürmeden önce [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) yöntemini çağırmak en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve doğru değerler PDF'ye render edilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

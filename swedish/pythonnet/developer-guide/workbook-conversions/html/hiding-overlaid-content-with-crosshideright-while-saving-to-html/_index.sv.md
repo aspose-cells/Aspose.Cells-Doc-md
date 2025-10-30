@@ -18,3 +18,4 @@ Dölja överlagt innehåll med CrossHideRight vid sparande till Html
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.py" >}}
+{{< app/cells/assistant language="python-net" >}}

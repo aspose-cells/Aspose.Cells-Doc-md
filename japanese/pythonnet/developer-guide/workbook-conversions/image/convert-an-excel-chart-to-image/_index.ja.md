@@ -77,3 +77,4 @@ pypiからAspose.Cells for Pythonをインストールするには、次のよ�
 1. チャートを動的に画像に変換します。以下にコンポーネントがこのタスクを遂行するために使用するコードが示されています。このコードは前述のものと似ています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

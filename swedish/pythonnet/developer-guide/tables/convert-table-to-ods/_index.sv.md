@@ -15,3 +15,4 @@ Den utdata ODS-fil som genereras av provkoden bifogas för din referens.
 
 [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save)
 
+{{< app/cells/assistant language="python-net" >}}

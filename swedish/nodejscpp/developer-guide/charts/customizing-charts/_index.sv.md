@@ -66,3 +66,4 @@ För närvarande stöder Aspose.Cells endast anpassade diagram som kombinerar pi
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -147,3 +147,4 @@ int main()
 ### Slutsats
 
 Formattering av nummer till tid i Aspose.Cells for C++ involverar att sätta ett anpassat nummerformat för cellerna där du vill visa tid. Genom att följa stegen ovan kan du enkelt tillämpa tidsformat på celler i dina Excel-filer med Aspose.Cells. Kom ihåg, nyckeln är att använda rätt anpassad format-sträng som matchar ditt önskade tidsformat.
+{{< app/cells/assistant language="cpp" >}}

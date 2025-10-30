@@ -29,3 +29,4 @@ Aspose.Cellsを使用して範囲を挿入し、セルを下にシフトする�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Insert-Range-Down.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

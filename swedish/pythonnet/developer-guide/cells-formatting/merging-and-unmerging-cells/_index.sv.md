@@ -56,3 +56,4 @@ Följande exempel visar hur man delar de sammanslagna cellerna (C6). Exemplet an
 ## **Fortsatta ämnen**
 - [Identifiera sammanslagna celler i ett kalkylblad](/cells/sv/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

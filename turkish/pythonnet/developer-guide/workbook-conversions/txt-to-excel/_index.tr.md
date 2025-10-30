@@ -43,3 +43,4 @@ Sekmeyle ayrılmış değerler (TSV) dosyası biçimlendirme olmadan elektronik 
 - [Formülleri Yükle veya İçe Aktar CSV Dosyası](/cells/tr/python-net/load-or-import-csv-file-with-formulas/)
 - [Çeşitli Kodlamalarla CSV Dosyası Okuma](/cells/tr/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

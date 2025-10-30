@@ -10,7 +10,7 @@ description: Den här koden introducerar hur man krypterar och avkrypterar Excel
 
 
 {{% alert color="primary" %}}
-Aspose.Cells för .Net erbjuder ett brett utbud av skydd och avskydd från fil till datanivå som MS Excel:
+Aspose.Cells för Python via .NET erbjuder ett brett utbud av skydd och avsändning från filnivå till datanivå som MS Excel:
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Skydda dokumentets äkthet, du kan lägga till en digital signatur.
 - [Kryptera Excel-filer](/cells/sv/python-net/encrypting-excel-files/)
 - [Hur man upptäcker ett filformat och kontrollerar om filen är krypterad](/cells/sv/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

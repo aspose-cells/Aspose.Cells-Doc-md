@@ -106,3 +106,4 @@ int main()
 [ワークシートに書き込まずにカスタム関数を直接計算する](/cells/ja/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

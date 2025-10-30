@@ -21,3 +21,4 @@ Aşağıdaki konsol çıktısı, yukarıdaki kodda oluşturulan *Adlandırılmı
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -40,3 +40,4 @@ Aspose.Cellsを使用すると、開発者はワークシートの最大表示�
 ワークシートの最大表示範囲には、[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/)メソッドを使用してアクセスできます。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Ange maximala rader för delad formel](/cells/sv/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [Stödda Excel-funktioner](/cells/sv/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

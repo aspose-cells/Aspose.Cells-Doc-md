@@ -1,7 +1,7 @@
 ---
 title: Bevaka körande program
 type: docs
-weight: 20
+weight: 10
 url: /sv/python-java/monitor-running-programs/
 ---
 

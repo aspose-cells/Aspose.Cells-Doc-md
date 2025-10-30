@@ -124,3 +124,4 @@ int main()
 Çıktı sonucu:
 <br>
 <img src="2.png" width=60% />
+{{< app/cells/assistant language="cpp" >}}

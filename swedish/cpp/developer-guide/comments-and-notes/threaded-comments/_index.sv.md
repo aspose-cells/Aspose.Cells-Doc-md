@@ -322,3 +322,4 @@ int main()
 Observera att genom att ta bort kommentaren med Aspose.Cells tas inte författaren bort automatiskt. Om du behöver ta bort författaren också, använd RemoveAt-metoden i [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/) -klassen enligt exemplet ovan.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

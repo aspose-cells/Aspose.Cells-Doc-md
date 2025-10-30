@@ -106,3 +106,4 @@ int main()
 
 - [Skapa diagram](/cells/sv/cpp/creating-charts/)
 - [Anpassa diagram](/cells/sv/cpp/customizing-charts/)
+{{< app/cells/assistant language="cpp" >}}

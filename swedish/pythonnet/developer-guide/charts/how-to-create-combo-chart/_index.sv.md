@@ -22,3 +22,4 @@ Efter att ha kört koden nedan kommer du att se kombinationsdiagrammet som visas
 Följande provkod laddar den [provfilen i Excel](combo.xlsx) och genererar den [resulterande Excelfilen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-combo-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -85,3 +85,4 @@ Bu örnek, bir hücreyi Amerikan Doları ile muhasebe biçiminde gösterecek şe
 
 Unutmayın, tam format dizesi yerel ayarlarınıza ve sahip olduğunuz belirli muhasebe formatı gereksinimlerine göre ayarlanabilir (örneğin, farklı bir para birimi sembolü kullanmak, daha fazla veya daha az ondalık basamağı göstermek vb.).
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

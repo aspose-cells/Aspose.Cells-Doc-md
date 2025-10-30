@@ -84,3 +84,4 @@ int main()
 Farklı Sayı Sayımı konsolidasyon işlevi sadece Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

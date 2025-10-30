@@ -32,3 +32,4 @@ url: /ja/python-net/create-dynamic-rolling-chart/
 ```
 
 "-5"を"-10"に変えて、最新の10セットのデータをカウントできる動的ロールチャートを作成できます。Aspose.Cells for Python via .NETを使った動的ロールチャートの作成に成功しました。
+{{< app/cells/assistant language="python-net" >}}

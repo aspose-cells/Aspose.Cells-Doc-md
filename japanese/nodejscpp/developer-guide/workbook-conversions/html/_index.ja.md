@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [HTMLをエクセルブックにロードする際にDIVタグのレイアウトをサポート](/cells/ja/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [次のサンプルコードは、{0} 属性の使用例を示しています。このプロパティがTrueに設定されていない場合の効果もスクリーンショットで示しています。[サンプルExcelファイル](50528260.xlsx)と生成された[出力HTML](50528261.zip)をダウンロードして参照してください。](/cells/ja/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

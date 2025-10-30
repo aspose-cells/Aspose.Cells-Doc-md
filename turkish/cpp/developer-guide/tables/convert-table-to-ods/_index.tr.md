@@ -44,3 +44,4 @@ int main()
 Örnek kod tarafından oluşturulan çıktı ODS dosyası referansınız için ekte sunulmuştur.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)
+{{< app/cells/assistant language="cpp" >}}

@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++は、「空白セルに表示する」ピボッ
 
 - [ピボットテーブルの書式設定](/cells/ja/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

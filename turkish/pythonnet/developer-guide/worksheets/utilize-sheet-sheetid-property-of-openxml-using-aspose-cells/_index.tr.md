@@ -28,3 +28,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](51740716.xlsx) yükler, Sayf
 Sheet or Tab Id: 1297
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -27,3 +27,4 @@ Bu örnek aşağıdakileri göstermektedir:
 1. Hücredeki [Cell.row](https://reference.aspose.com/cells/python-net/aspose.cells/cell/row/) özniteliğini alın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Cells-max-index-of-row-and-column.py" >}}
+{{< app/cells/assistant language="python-net" >}}

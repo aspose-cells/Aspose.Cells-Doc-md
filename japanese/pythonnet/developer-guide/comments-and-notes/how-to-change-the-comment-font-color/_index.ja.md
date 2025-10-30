@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NETは、コメントのフォントの色を設定
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 
 上記のコードによって生成された[出力ファイル](102662195.xlsx)を参照してください。
+{{< app/cells/assistant language="python-net" >}}

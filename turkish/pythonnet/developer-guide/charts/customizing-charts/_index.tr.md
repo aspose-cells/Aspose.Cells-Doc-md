@@ -25,3 +25,4 @@ Aşağıdaki örnek kod, özel grafikler nasıl oluşturulurunu göstermektedir.
 Şu anda Aspose.Cells for Python via .NET sadece pie, çizgi, kolon ve kolon yığın grafikleri kombinasyonunu destekleyen özel grafikler desteklenmektedir; ancak daha fazla grafik türü gelecekteki sürümlerde desteklenecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

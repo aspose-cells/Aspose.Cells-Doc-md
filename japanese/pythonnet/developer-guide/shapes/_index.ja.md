@@ -375,3 +375,4 @@ Aspose.Cells for Python via .NET は、ワークシート内のOLEオブジェ�
 - [形状テキストオプションの管理](/cells/ja/python-net/managing-shape-text-options/)
 - [Web拡張 - Office アドイン](/cells/ja/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

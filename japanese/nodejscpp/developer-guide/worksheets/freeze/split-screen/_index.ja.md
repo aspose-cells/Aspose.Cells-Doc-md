@@ -121,3 +121,4 @@ sheet.removeSplit();
 sheet.split();
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

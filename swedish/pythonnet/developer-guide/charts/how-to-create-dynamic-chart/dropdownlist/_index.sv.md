@@ -32,3 +32,4 @@ I den genererade filen kommer diagrammet dynamiskt att räkna data för den vald
 ```
 
 Du kan prova att ändra dropdownlistvärdet i cellen "Sheet1!$A$10", och du kommer att se den dynamiska förändringen av diagrammet. Nu har vi skapat ett dynamiskt diagram med dropdownlist med Aspose.Cells för Python via .NET framgångsrikt.
+{{< app/cells/assistant language="python-net" >}}

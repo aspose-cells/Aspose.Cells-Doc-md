@@ -26,3 +26,4 @@ wb.save("output.pdf", pdf_save_options)
 ```
 
 ![embedded-attachment.png](embedded-attachment.png)
+{{< app/cells/assistant language="python-net" >}}

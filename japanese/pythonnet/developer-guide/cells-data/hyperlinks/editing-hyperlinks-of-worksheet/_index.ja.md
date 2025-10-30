@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET を使用すると、[**Worksheet.hyperlinks**]
 以下のサンプルコードでは、ワークシートのすべてのハイパーリンクにアクセスし、その[**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address)プロパティをAsposeウェブサイトに変更します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

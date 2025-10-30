@@ -14,3 +14,4 @@ Aspose.Cells 17.1以前のバージョンでは、ExcelファイルをHTML形式
 次のサンプルコードは、[元のExcelファイル](22774111.xlsx)を[出力HTML形式](22774109.zip)に変換します。元のExcelファイルにはスクリーンショットに示すようなグラデーション塗りつぶしを持つワードアートオブジェクトが含まれています。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

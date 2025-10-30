@@ -24,3 +24,4 @@ Aspose Cellsを使用してExcelファイルに動的チャートを作成でき
 - [Aspose Cellsを使用して動的なローリングチャートを作成](/cells/ja/cpp/create-dynamic-rolling-chart/) 
 - [Aspose Cellsを使用して動的スクロールチャートを作成](/cells/ja/cpp/create-dynamic-scrolling-chart/) 
 - [Aspose Cellsを使用してドロップダウンリストで動的チャートを作成](/cells/ja/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

@@ -80,3 +80,4 @@ Aspose.Cellsは、[**Cell**](https://reference.aspose.com/cells/python-net/aspos
 - [スプレッドシートまたはブックで使用されているフォントのリストを取得する](/cells/ja/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

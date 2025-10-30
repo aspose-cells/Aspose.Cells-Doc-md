@@ -1316,3 +1316,4 @@ int main()
 - [Aspose.Cells を使用して ActiveX コントロールを追加する](/cells/ja/cpp/add-activex-controls-using-aspose-cells/)
 - [ActiveXコントロールを削除](/cells/ja/cpp/remove-activex-control/)
 - [ActiveX ComboBoxコントロールを更新](/cells/ja/cpp/update-activex-combobox-control/)
+{{< app/cells/assistant language="cpp" >}}

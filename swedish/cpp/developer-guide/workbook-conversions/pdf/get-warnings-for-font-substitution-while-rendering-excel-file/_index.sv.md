@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Om ditt kalkylblad innehåller formler är det bäst att anropa `Workbook.CalculateFormula`-metoden precis innan du renderar kalkylbladet till PDF-format. Detta säkerställer att de formelberoende värdena omräknas och att de rätta värdena visas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

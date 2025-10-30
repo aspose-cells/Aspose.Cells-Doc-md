@@ -384,3 +384,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Ange bild som bakgrundsfyllning i diagrammet.](/cells/sv/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -165,3 +165,4 @@ index++;
 - [Ole Nesnesi Olarak Bir WAV Dosyası Eklemek](/cells/tr/nodejs-cpp/inserting-a-wav-file-as-an-ole-object/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

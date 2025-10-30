@@ -29,3 +29,4 @@ Ekran görüntülerinde görebileceğiniz gibi, yeni sürüm sağa hizalanan met
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExpandTextFromRightToLeft-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

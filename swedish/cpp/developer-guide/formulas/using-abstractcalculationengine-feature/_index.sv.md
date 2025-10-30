@@ -39,3 +39,4 @@ Exempelfil:[sample-file.xlsx](sample-file.xlsx)
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingAbstractCalculationEngine2.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

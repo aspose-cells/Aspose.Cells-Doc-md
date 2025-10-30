@@ -95,3 +95,4 @@ Aspose.Cellsは、[**PrintOrderType**](https://reference.aspose.com/cells/python
 |OVER_THEN_DOWN|列から行へ印刷の順序を表します。|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

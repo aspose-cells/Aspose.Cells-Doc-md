@@ -42,3 +42,4 @@ Följande skärmbild visar den genererade Excel-filen som skapats av provkoden. 
 Här är kodexempel för att uppnå utdata som visas ovan.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

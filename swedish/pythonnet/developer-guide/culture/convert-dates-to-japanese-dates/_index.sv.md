@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 Obs: Se till att stödet för japanskt språk är aktiverat i din miljö för korrekt erasbyten. Klassen [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) och [PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) tillhandahåller nödvändig funktionalitet för denna konvertering.
+{{< app/cells/assistant language="python-net" >}}

@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](67338585.xlsx) yükler, aral
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ChangeCellsAlignmentAndKeepExistingFormatting.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

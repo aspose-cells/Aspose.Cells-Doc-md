@@ -33,7 +33,7 @@ keywords: Python Excel ライブラリ、Python で行と列をコピーする�
 1. Homeタブで、**貼り付け**の横にある矢印をクリックし、**貼り付け**を選択します。
 1. 希望する**オプション**を選択します。
 
-## **Aspose.Cells for .NETを使用して行と列をコピーする方法**
+## **Aspose.Cells for Python で行と列をコピーする方法 via .NET**
 
 ## **単一の行をコピーする方法**
 
@@ -98,3 +98,4 @@ Aspose.Cellsは現在、関数[**copy_rows**](https://reference.aspose.com/cells
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

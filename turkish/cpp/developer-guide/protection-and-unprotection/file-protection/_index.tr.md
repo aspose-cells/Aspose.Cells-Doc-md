@@ -149,3 +149,4 @@ int main()
 - [Güçlü Şifreleme Türü Belirleme](/cells/tr/cpp/setting-strong-encryption-type/)
 - [Çalışma Kitabını Yazma Koruması Sırasında Yazar Belirtme](/cells/tr/cpp/specify-author-while-write-protecting-workbook/)
 - [Şifreli Dosyaların Parolasını Doğrulama](/cells/tr/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

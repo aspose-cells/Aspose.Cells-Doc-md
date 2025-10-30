@@ -144,3 +144,4 @@ workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx)
 - [コメントの背景を設定する方法](/cells/ja/nodejs-cpp/how-to-set-comment-background/)
 - [スレッド化されたコメント](/cells/ja/nodejs-cpp/threaded-comments/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

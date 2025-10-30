@@ -95,3 +95,4 @@ int main()
 ## İlgili Makaleler
 
 - [ODS Dosyalarında Arkaplanla Çalışma](/cells/tr/cpp/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

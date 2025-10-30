@@ -27,3 +27,4 @@ Aspose.Cells for Python via .NETライブラリがベストな判断を提供し
 以下のコード例は、JSON文字列をExcelワークブックにインポートする方法を示しています。JSONのインポート時にレイアウトの場所を指定することもできます。コードで生成されたxlsxファイルへの変換のために、JSON文字列を参照してください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

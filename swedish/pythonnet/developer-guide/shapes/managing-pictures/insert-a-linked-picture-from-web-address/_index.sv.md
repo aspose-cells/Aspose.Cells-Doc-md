@@ -25,3 +25,4 @@ Aspose.Cells för Python via .NET stödjer att lägga till en länkad bild med h
 I följande exempel visas hur man lägger till en länkad bild från webbadress till ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

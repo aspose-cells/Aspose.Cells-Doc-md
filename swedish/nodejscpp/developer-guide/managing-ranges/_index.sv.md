@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Flytta cellområde i ett kalkylblad](/cells/sv/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Skapa arbetsbok och arbetsbladsspecifika namngivna områden](/cells/sv/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Sök och ersätt data i ett område](/cells/sv/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

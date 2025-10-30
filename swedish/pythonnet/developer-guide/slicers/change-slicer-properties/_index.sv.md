@@ -18,3 +18,4 @@ Var god se följande exempelkod. Den laddar in den [exempel-Excel-filen](sample
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

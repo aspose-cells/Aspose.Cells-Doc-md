@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NETを使用して、非英語ユーザーが式を
 1. 式は英語で入力する必要があります。たとえば、"=SUM()" を使用し、"=SUMME()" ではなく、ドイツ語の "=SUMME()" を使用しないでください。
 1. 常に関数のパラメーターを区切るためにコンマ（,）を使用します。一部の言語設定やオプションでは、関数パラメーターの区切り文字はセミコロンですが、Aspose.Cells for Python via .NETは英語スタイルのコンマを使用します。例えば、"=IF (C5=0,0,C3/C4)"を使用し、"=IF(C5=0;0;C3/C4)"ではありません。
 
+{{< app/cells/assistant language="python-net" >}}

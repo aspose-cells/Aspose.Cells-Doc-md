@@ -32,3 +32,4 @@ Aşağıdaki ekran görüntüsü, kod tarafından oluşturulan çıktı Excel do
 Yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükleyen ve tablo içine değer ekleyen ve yukarıda gösterilen çıktı Excel dosyasını oluşturan aşağıdaki örnek kod verilmiştir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-AccessTableFromCellAndAddValue.py" >}}
+{{< app/cells/assistant language="python-net" >}}

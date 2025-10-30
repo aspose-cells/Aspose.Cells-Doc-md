@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [チャートを計算した後に軸ラベルを読み取る](/cells/ja/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Excelチャートでカテゴリ軸を設定する方法](/cells/ja/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

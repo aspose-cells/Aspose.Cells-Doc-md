@@ -71,3 +71,4 @@ Aşağıdaki kod parçası, büyük ızgaraların rengini nasıl değiştireceğ
 ## **Gelişmiş Konular**
 - [Grafik Serisinin Değer Biçim Kodunu Ayarlayın](/cells/tr/python-net/set-the-values-format-code-of-chart-series/)
 - [Grafikte Arka Plan Doldurma Olarak Resim Ayarlama](/cells/tr/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

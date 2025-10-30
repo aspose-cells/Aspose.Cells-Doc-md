@@ -33,3 +33,4 @@ Aşağıdaki kod, bir çalışsayfasından diğerine bir grafik kopyalamak için
 Denetimleri ve diğer çizim nesnelerini kopyalamak için örnekte gösterildiği gibi [**Worksheet.shapes.add_copy**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection/add_copy/#aspose.cells.drawing.Shape-int-int-int-int) yöntemini kullanın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.py" >}}
+{{< app/cells/assistant language="python-net" >}}

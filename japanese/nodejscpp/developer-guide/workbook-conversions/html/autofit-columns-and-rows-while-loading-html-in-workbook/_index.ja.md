@@ -13,7 +13,7 @@ HTMLファイルをロードする際、Workbookオブジェクト内の列と�
 
 ## **ワークブックにHTMLをロードする際の列と行を自動調整する**
 
-以下のサンプルコードは、最初にサンプルHTMLをLoadOptionsを使用せずにWorkbookに読み込み、XLSX形式で保存します。その後、再度サンプルHTMLをWorkbookに読み込み、今回は[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)プロパティを**true**に設定してXLSX形式で保存します。両方の出力Excelファイル（[AutoFitColsAndRowsなしの出力Excelファイル](outputWithout_AutoFitColsAndRows.xlsx)と[AutoFitColsAndRowsありの出力Excelファイル]](outputWith_AutoFitColsAndRows.xlsx)）をダウンロードしてください。以下のスクリーンショットは、両方の出力Excelファイルに対する[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)プロパティの効果を示しています。
+以下のサンプルコードは、最初にサンプルHTMLをLoadOptionsを使用せずにWorkbookに読み込み、XLSX形式で保存します。その後、再度サンプルHTMLをWorkbookに読み込み、今回は[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)プロパティを**true**に設定してXLSX形式で保存します。両方の出力Excelファイル（[AutoFitColsAndRowsなしの出力Excelファイル](outputWithout_AutoFitColsAndRows.xlsx)と【AutoFitColsAndRowsありの出力Excelファイル】](outputWith_AutoFitColsAndRows.xlsx)）をダウンロードしてください。以下のスクリーンショットは、両方の出力Excelファイルに対する[**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--)プロパティの効果を示しています。
 
 ![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
@@ -49,3 +49,4 @@ wb = new AsposeCells.Workbook(ms, opts);
 wb.save(path.join(dataDir, "outputWith_AutoFitColsAndRows.xlsx"));
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

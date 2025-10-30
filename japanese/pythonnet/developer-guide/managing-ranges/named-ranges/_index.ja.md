@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET は、ワークブックおよびワークシ�
 - [名前付き範囲の書式と変更](/cells/ja/python-net/format-and-modify-named-ranges/)
 - [外部リンク付きの範囲を取得する](/cells/ja/python-net/get-range-with-external-links/)
 - [非連続範囲の実装](/cells/ja/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

@@ -19,3 +19,4 @@ Aşağıdaki örnek kod, [**Picture.signature_line**](https://reference.aspose.c
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-CreateSignatureLineInWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

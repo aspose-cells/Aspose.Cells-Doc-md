@@ -32,3 +32,4 @@ I den genererade filen kan du använda rullisten samtidigt som diagrammet dynami
 ```
 
 Du kan prova att ändra numret "10" till "15" i cellen "Sheet1!$H$20", och det dynamiska diagrammet kommer att räkna de senaste 15 datamängderna. Vi har nu framgångsrikt skapat ett dynamiskt skrollande diagram med Aspose.Cells för Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce `Workbook.CalculateFormula` metodunu çağırmanız en iyisidir. Bu, formüle bağlı değerlerin yeniden hesaplanmasını sağlar ve PDF'de doğru değerler gösterilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

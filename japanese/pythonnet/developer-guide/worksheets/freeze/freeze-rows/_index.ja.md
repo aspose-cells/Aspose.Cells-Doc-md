@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NETを使えば、行(複数行も可)を固定す�
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 添付の[サンプルソースExcelファイル](../Freeze.xlsx)。
+{{< app/cells/assistant language="python-net" >}}

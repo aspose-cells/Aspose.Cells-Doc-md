@@ -45,7 +45,7 @@ I det här exemplet använder jag Ubuntu för att visa hur du börjar använda A
 2. Öppna filen "AsposeCellsTest.csproj", lägg till följande rader i den för Aspose.Cells-paketreferenser:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="25.4" />
+    <PackageReference Include="Aspose.Cells" Version="25.10" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öppna projektet med VSCode på Ubuntu:

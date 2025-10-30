@@ -102,3 +102,4 @@ class StopConversionOrLoadingUsingInterruptMonitor:
         converter.test_run()
         print("StopConversionOrLoadingUsingInterruptMonitor executed successfully.")
 ```
+{{< app/cells/assistant language="python-net" >}}

@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET, 7.1.0 sürümünden itibaren çalışma sayfal
 - [Bir Excel Grafiğini Görüntüye Dönüştürme](/cells/tr/python-net/convert-an-excel-chart-to-image/)
 - [SVG Biçiminde Grafikleri Görüntüye Dönüştürme](/cells/tr/python-net/converting-chart-to-image-in-svg-format/)
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

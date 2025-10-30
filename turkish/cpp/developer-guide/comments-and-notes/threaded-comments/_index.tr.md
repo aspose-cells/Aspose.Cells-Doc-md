@@ -322,3 +322,4 @@ int main()
 Lütfen Aspose.Cells ile yorum kaldırma işlemi yaparken, yazar otomatik olarak kaldırılmaz. Yazarı da kaldırmak istiyorsanız, lütfen yukarıdaki örnekte [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/) sınıfının RemoveAt metodu kullanın.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

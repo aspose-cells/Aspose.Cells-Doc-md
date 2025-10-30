@@ -36,3 +36,4 @@ Aspose.Cells for Python via .NETは、目標を達成するための次のプロ
 1. 行の名前によって行インデックスを取得します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

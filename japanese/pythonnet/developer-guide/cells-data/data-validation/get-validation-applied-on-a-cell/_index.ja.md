@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NET を使用して、セルに適用されたバ�
 ## 関連記事
 
 - [データの検証](/cells/ja/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

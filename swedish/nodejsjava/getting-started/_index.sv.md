@@ -24,7 +24,7 @@ För att installera och använda Aspose.Cells för Node.js via Java från ett ZI
 ### **Linux:**
 - Ladda ner och installera [Node.js](https://nodejs.org/en/download/).
 - Installera Oracle JDK (1.7 eller 1.8) för Linux, konfigurera JAVA_HOME miljövariabel.
-- Installera python 2.x
+- Installera Python 3.x
 - Installera [node-java](https://github.com/joeferner/node-java) bridge. Du kan köra nedan kommandon i terminalen: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Installera Oracle JDK8 och konfigurera JAVA_HOME miljövariabel.
 - Installera Node.js och lägg till node.exe i PATH.
+- Installera Python och lägg till i PATH.
 - Installera node-gyp.
-- Installera Windows Build Tools.
-- Installera [node-java bridge](https://www.npmjs.com/package/java) och kör nedanstående kommandon @ kommandotolken som administratör:
+- Installera [node-java bridge](https://www.npmjs.com/package/java).
+- Installera aspose.cells (ELLER: Ladda ner "Aspose.Cells för Node.js via Java" och extrahera den till "aspose.cells.js.java/node_modules").
 
-
+Kör nedanstående kommandon @ kommandotolken som administratör (**Se till att Java, Node.js, Python är konfigurerade**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- Ladda ner "Aspose.Cells för Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
 - Skapa en fil med namnet **hello.js** i mappen "aspose.cells.js.java" med hjälp av följande exempelkod:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Installera python 2.x (om det inte redan är installerat).
+- Installera python 3.x (om det inte är installerat).
 - Installera node-java bridge. Du kan köra nedanstående kommandon @ terminalen:
 
 `         `$ mkdir aspose.cells.js.java

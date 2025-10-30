@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Rendera kalkylblad till grafiskt sammanhang](/cells/sv/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Ange individuella eller privata uppsättningar typsnitt för arbetsbokpresentation](/cells/sv/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

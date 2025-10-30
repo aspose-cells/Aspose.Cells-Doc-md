@@ -36,3 +36,4 @@ Aspose.Cellsを使用して、柔軟なAPIを活用して、ゼロからExcelフ
 さらに、Aspose.Cellsでは、デザイナースプレッドシートに[スマートマーカー](/cells/ja/python-net/smart-markers/)を追加することができます。スマートマーカーは、WorkbookDesignerクラスのProcessメソッドを使用してランタイムで処理されます。これにより、少ないコードで素晴らしい結果を得ることができます。
 
 [スマートマーカーの詳細を確認する](/cells/ja/python-net/smart-markers/)
+{{< app/cells/assistant language="python-net" >}}

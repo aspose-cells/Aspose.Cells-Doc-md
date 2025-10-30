@@ -133,4 +133,4 @@ GridJsはパス内にキャッシュファイルを作成し保存します：**
 ```
 
 詳細情報については、こちらの例をご確認ください：
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

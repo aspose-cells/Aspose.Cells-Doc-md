@@ -83,3 +83,4 @@ int main()
 ## Relaterade artiklar
 
 - [Formatering av Pivottabell](/cells/sv/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

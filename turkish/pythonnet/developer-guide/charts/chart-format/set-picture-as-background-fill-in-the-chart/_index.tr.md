@@ -18,3 +18,4 @@ Bunu başarmak için, Aspose.Cells for Python via .NET [**Chart.plot_area.area.f
 ## C# kodu, bir resmi grafikte arka plan dolgusu olarak ayarlamak için
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

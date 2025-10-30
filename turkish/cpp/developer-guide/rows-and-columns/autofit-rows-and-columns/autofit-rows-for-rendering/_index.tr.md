@@ -45,3 +45,4 @@ int main()
 Şimdi, metin çıktı PDF dosyasında kesilmemiş durumda.
 
 ![kaydedilmiş pdf'de metin kesilmemiş](kaydedilmiş_pdfde_metin_kesilmemiş.png)
+{{< app/cells/assistant language="cpp" >}}

@@ -80,3 +80,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [非連続範囲の実装](/cells/ja/nodejs-cpp/implementing-non-sequential-ranges/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

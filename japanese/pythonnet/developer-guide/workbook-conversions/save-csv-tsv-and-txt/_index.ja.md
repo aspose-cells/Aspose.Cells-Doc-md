@@ -36,3 +36,4 @@ Aspose.Cells for Python via .NETを使用して、Excel、ods、jsonなどのフ
 ## **高度なトピック**
 - [CSV形式へのスプレッドシートのエクスポート時に空行の区切り記号を保持する](/cells/ja/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="python-net" >}}

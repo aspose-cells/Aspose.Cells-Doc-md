@@ -85,3 +85,4 @@ Detta exempel visar hur man formaterar en enskild cell för att visa nummer i et
 
 Kom ihåg att den exakta formatsträngen kan behöva justeras baserat på din lokal och de specifika redovisningskrav du har (t.ex. använda en annan valuta symbol, visa fler eller färre decimaler, etc.).
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

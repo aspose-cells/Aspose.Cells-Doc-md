@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET の [DataLabels](https://reference.aspose.com/c
 - [チャートポイントのリッチテキストカスタムデータラベル](/cells/ja/python-net/rich-text-custom-data-label-of-chart-point/)
 - [チャートのデータラベルの形状タイプを設定する](/cells/ja/python-net/set-the-shape-type-of-data-labels-of-chart/)
 - [データラベルとしてセル範囲を表示する](/cells/ja/python-net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="python-net" >}}

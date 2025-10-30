@@ -42,3 +42,4 @@ Detta är konsolresultatet av ovanstående exempelkod när den exekveras med den
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

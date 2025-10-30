@@ -47,6 +47,7 @@ for example the below code init a gridjs_spreadsheet object.
 | `loadingGif` | 画像や図形を読み込むときのローディングGIFのURL。<br>デフォルトはcontent/img/updating.gif。 | `content/img/updating.gif` | はい |
 | `local` | メニューやツールバーのローカリゼーション情報を設定し、多言語対応。<br>可能な値は：<br>- `en, zh, es, pt, de, ru, nl`（英語、中国語、スペイン語、ポルトガル語、ドイツ語、ロシア語、オランダ語）<br>- `ar, fr, id, it, ja`（アラビア語、フランス語、インドネシア語、イタリア語、日本語）<br>- `ko, th, tr, vi, cht`（韓国語、タイ語、トルコ語、ベトナム語、繁体字中国語） | `en` | はい |
 | `mode` | `read`または`edit`が設定可能です。`read`は読み取り専用のスプレッドシートを意味し、`edit`は編集可能。 | なし | いいえ |
+| `isCollaborative` | コラボレーティブモードをサポートするかどうか。 | `false` | はい |
 | `searchHighlightColor` | 検索語のハイライト背景色。<br>色はアルファチャネルを含む必要があります。 | `#dbe71338` | はい |
 | `showCheckSyntaxButton` | 文法チェック＆スペル訂正ボタンをツールバーに表示するかどうか。<br>デフォルトはfalse。 | `false` | はい |
 | `showContextmenu` | セルの右クリック時にコンテキストメニューを表示するかどうか。<br>デフォルトはtrue。 | `true` | はい |
@@ -58,6 +59,9 @@ for example the below code init a gridjs_spreadsheet object.
 | `updateMode` | 現在、`server` のみサポートされています。 | `server` | No |
 | `updateUrl` | JSONに基づいたサーバーサイドの更新アクション用URLを設定します。 | なし | No |
 | `view` | シートのビュサイズを設定します。例：`{width: () => 1000, height: ()=> 500}`。 | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
+| `token` | 認証トークンを設定します。トークンがnullでない場合、リクエストヘッダーに `Authorization: Bearer {token}`が自動的に追加されます。`xs.refreshToken(token)`を使用して新しいトークンを設定できます。 | なし | はい |    
+| `showBottombarStats` | 下部バーの統計情報を表示するかどうか。<br>デフォルトはtrue。 | `true` | はい |   
+| `showRowAppenderToolbar` | バッチ行追加ツールバーを表示するかどうか。<br>デフォルトはtrue。 | `true` | はい |   
 
 - JSONデータでロード
 ```javascript
@@ -104,6 +108,19 @@ xs2.setActiveForMultipleInstance(false);
 xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
+```
+- カスタムトーストを設定
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
 ```
 
 - サーバーサイドアクションのための形状/画像操作の情報を設定
@@ -173,9 +190,39 @@ ___
 xs.reRender()
 ```
 
-- アクティブなシートのIDを取得
+- アクティブシートのIDを取得
 ```javascript
 xs.getActiveSheet()
+```
+
+- 新しいワークシートを追加
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+- シート名を変更
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+- シートを削除する
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 - ズームレベルを設定
@@ -190,6 +237,14 @@ xs.setZoomLevel(zoom)
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
+```
+- 保存前に関数呼び出しを設定する 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
 ```
 
 - メール送信機能のためのコールバック関数
@@ -217,6 +272,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+- コラボレーションモードでの設定を行う。setUniqueIdの前にsetCollaborativeSettingを設定してください  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 - 画像/形状の可視フィルタを設定
 ```javascript
@@ -244,14 +311,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -270,6 +337,153 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
+
+- 行を挿入する
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+- 列を挿入する 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+- 行を削除する 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+- 列を削除する 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+- 固定ペインを設定します
+```javascript
+xs.sheet.freeze(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+- ペインの固定を解除する
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+- 編集可能／読み取り専用範囲を設定する
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+- 行を非表示にする 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- 行の表示を解除する
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+- 列を非表示にする 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+- 列の表示を解除する
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+- 行の高さを設定します
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+- 行の高さを設定します
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- すべての行の高さを設定します
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+- 列の幅を設定します
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+- 列の幅を設定します
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+- すべての列の幅を設定します
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+- セルにコメントを設定する
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+- セルのコメントを削除する
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
+
 - セルオブジェクトを取得
 ```javascript
 xs.sheet.data.getCell(ri,ci)
@@ -277,6 +491,7 @@ xs.sheet.data.getCell(ri,ci)
 	ri:row index 
 	ci:column index
 ```
+
 - セルスタイルを取得
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
@@ -312,6 +527,18 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
+- 表示範囲のスタイルを設定する
+```javascript
+xs.sheet.data.setRangeAttr(range,attributename,value)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	value:the  value for the attribute
+   for example:
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
+```
+
+
 - 選択されたセル領域を結合します
 ```javascript
 xs.sheet.data.merge()
@@ -321,56 +548,22 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
-- 選択されたセルを削除します  
+- 選択したセルの内容を削除またはスタイルをクリアする  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
-- 固定ペインを設定します
+
+- 目的のセル範囲の内容を削除またはスタイルをクリアする
 ```javascript
-xs.sheet.data.setFreeze(ri,ci)
+xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-	ri:row index 
-	ci:column index
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
-- 選択されたセルで行または列を挿入します  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
-- 選択されたセルで行または列を削除します  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
-- 列の幅を設定します
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
-- 列の幅を設定します
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
-- すべての列の幅を設定します
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 - 列の幅を取得します 
 ```javascript
@@ -380,28 +573,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
-- 行の高さを設定します
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
-- 行の高さを設定します
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
-- すべての行の高さを設定します
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 - 行の高さを取得します 
@@ -490,7 +661,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## 形状オブジェクト用API
+- 形状オブジェクトの背景色を変更する
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
 
 ## テキストボックスオブジェクト用のAPI
 TextBoxはTypeプロパティが"TextBox"である特別な種類のシェイプです
@@ -504,14 +684,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
-- テキストボックスオブジェクトの背景色を変更する
+- テキストボックスオブジェクトのフォント設定を適用
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 - 視覚的なアクティブ効果を得るために、自動で背景色とテキスト色を変更する
 ```javascript
@@ -528,7 +709,7 @@ for (let shape of xs.sheet.data.shapes) {
 ```
 
 詳細情報については、こちらの例を確認してください
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>
 
 
 

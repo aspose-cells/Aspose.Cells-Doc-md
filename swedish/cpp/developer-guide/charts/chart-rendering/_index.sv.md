@@ -178,3 +178,4 @@ Det finns några diagramtyper som för närvarande inte stöds för rendering. S
 Om du försöker rendera de icke-supportade diagramtyperna till bild eller PDF kan du sluta med bilder som är 0 i storlek eller blanka PDF:er.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

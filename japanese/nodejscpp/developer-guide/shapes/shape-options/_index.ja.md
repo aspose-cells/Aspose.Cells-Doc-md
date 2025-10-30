@@ -9,3 +9,4 @@ keywords: Node.jsをC++経由でシェイプオプションを管理、スプレ
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

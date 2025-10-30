@@ -47,3 +47,4 @@ workbook.getWorksheets().get(0).getShapes().updateSelectedValue();
 // Save the Excel file.
 workbook.save(path.join(dataDir, "referencedpicture.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

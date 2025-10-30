@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NETを使用して、ワークシートの希望の
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.py" >}}
+{{< app/cells/assistant language="python-net" >}}

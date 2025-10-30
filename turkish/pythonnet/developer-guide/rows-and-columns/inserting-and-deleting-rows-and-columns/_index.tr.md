@@ -76,3 +76,4 @@ Geliştiriciler, herhangi bir konumda çalışma sayfasına bir sütun ekleyebil
 Herhangi bir konumda faaliyet sayfasından bir sütun silmek için, [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) koleksiyonunun [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) yöntemini çağırın. [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) yöntemi silinecek sütunun endeksini alır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

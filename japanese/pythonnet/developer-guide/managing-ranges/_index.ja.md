@@ -76,3 +76,4 @@ Aspose.Cells for Python via .NETでは、"Range.current_region"プロパティ�
 - [ワークブックおよびワークシートスコープの名前付き範囲を作成する](/cells/ja/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [範囲内のデータを検索および置換する](/cells/ja/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -40,3 +40,4 @@ Excelでスペインの地域設定を使用してチャートを含むXLSXフ�
 | その他の名前              | その他                            |
 | シリーズ名                | シリーズ                        |
 
+{{< app/cells/assistant language="python-net" >}}

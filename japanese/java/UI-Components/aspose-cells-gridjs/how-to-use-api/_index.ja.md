@@ -105,4 +105,4 @@ wb.saveToCacheWithFileName(uid, filename,password);
 ```
 
 詳細については、こちらの例をご覧ください：
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

@@ -4,7 +4,7 @@ linktitle: İmza
 type: docs
 weight: 100
 url: /tr/java/assign-and-validate-digital-signatures/
-description: Excel dosyası dijital imzası, doğrulama. Bir Excel dosyasının içeriğinin doğruluğunu korumak için, Aspose.Cells for .Net ile C# kodları kullanarak dijital bir imza ekleyebilirsiniz.
+description: Excel dosyası dijital imzası, doğrulama. Bir çalışma kitabının içeriğinin özgünlüğünü korumak için, Java kodlarıyla Aspose.Cells for Java kullanılarak dijital imza ekleyebilirsiniz.
 ---
 
 {{% alert color="primary" %}}

@@ -152,3 +152,4 @@ int main()
 ### Sonuç
 
 Aspose.Cells for C++ sayısı ile sayıları özel biçimlere biçimlendirmek, hücrenin stilinde özel sayı biçimini ayarlamakla mümkündür. Bu, geniş bir biçimlendirme seçeneği sağlar ve veriyi tam olarak istediğiniz gibi göstermenize imkan tanır. Unutmayın, özel biçimlerin anahtarı sağladığınız biçim dizesidir; bu, sayının nasıl görüntüleneceğini belirler.
+{{< app/cells/assistant language="cpp" >}}

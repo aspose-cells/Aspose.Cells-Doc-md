@@ -135,3 +135,4 @@ Följande kodexempel visar export av aktivt arbetsblad till PPTX med hjälp av m
 - [Json](/cells/sv/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/sv/python-net/convert-excel-to-pdf/)
 - [Konvertera CSV, TSV och TXT till Excel](/cells/sv/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

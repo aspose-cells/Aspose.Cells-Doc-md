@@ -22,3 +22,4 @@ Bu seçenek, Excel arayüzünde herhangi bir veri etiketini seçerek erişilebil
 Excel'in otomatik olarak veri etiketi şekillerini metne uyacak şekilde yeniden boyutlandırma özelliğini taklit etmek için, Aspose.Cells for Python via .NET API'leri Boolean türünde [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) özelliğini ortaya çıkardı. Aşağıdaki kod parçası, [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) özelliğinin basit kullanım örneğini göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

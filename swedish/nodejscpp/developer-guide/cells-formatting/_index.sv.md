@@ -362,3 +362,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [Antalseinställningar](/cells/sv/nodejs-cpp/cells-number-settings/)
 - [Hämta och ange stil för celler](/cells/sv/nodejs-cpp/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

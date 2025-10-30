@@ -70,3 +70,4 @@ Aspose.Cells for Python via .NETは、テーマや色のカスタマイズ機能
 ## **高度なトピック**
 - [Excelファイルからテーマデータを抽出](/cells/ja/python-net/extract-theme-data-from-excel-file/)
 
+{{< app/cells/assistant language="python-net" >}}

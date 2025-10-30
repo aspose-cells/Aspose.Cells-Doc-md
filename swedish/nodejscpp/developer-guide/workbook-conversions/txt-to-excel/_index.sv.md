@@ -132,3 +132,4 @@ console.log("Cell Name: " + cell.getName() + " Value: " + cell.getStringValue())
 - [Läsning av CSV-fil med flera teckentabeller](/cells/sv/nodejs-cpp/reading-csv-file-with-multiple-encodings/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

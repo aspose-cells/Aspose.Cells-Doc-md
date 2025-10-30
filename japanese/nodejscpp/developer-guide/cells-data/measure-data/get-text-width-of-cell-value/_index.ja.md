@@ -18,3 +18,4 @@ keywords: セル値のテキスト幅をNode.js経由でC++で取得、C++を使
 ## サンプルコード
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-MeasureData-GetTextWidth.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

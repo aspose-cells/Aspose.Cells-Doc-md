@@ -37,3 +37,4 @@ vbaProj.getReferences().addRegisteredReference("Office", "*\\G{2DF8D04C-5BFA-101
 workbook.save(outputPath);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

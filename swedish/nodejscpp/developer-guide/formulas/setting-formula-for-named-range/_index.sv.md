@@ -127,3 +127,4 @@ book.calculateFormula();
 // Save the result in XLSX format
 book.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

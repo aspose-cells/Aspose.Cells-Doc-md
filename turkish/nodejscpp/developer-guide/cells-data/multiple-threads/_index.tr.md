@@ -46,3 +46,4 @@ if (s !== "R" + row + "C" + col)
 Aksi takdirde, program herhangi bir mesaj göstermeden çalışır, bu da demek olur ki tüm hücrelerden okunan değerler doğrudur.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-multiple-threads.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

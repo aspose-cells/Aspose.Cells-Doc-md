@@ -40,3 +40,4 @@ Du kan också kopiera datan med [**Range.copy_data**](https://reference.aspose.c
 - [Kopiera radhöjder från källspann till destinationspann](/cells/sv/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

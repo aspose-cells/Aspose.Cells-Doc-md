@@ -65,3 +65,4 @@ Aşağıdaki kod örneği, veri alanları için görüntü biçimlerini ve sayı
 Aşağıdaki kod örneği, bir veri alanındaki tüm pivot alanlarını temizlemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

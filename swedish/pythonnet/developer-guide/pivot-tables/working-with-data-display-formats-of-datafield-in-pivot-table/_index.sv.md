@@ -24,3 +24,4 @@ Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 [Utdata Excel-fil](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableDataDisplayFormatRanking-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -49,3 +49,4 @@ Microsoft Office Automationで条件付き書式設定を適用することは�
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 上記のコードを実行すると、最初のワークシートのセル「B3」に条件付き書式が適用されます。適用される条件付き書式は、「B3」の値をB1とB2の合計として計算する式に依存します。
+{{< app/cells/assistant language="nodejs-cpp" >}}

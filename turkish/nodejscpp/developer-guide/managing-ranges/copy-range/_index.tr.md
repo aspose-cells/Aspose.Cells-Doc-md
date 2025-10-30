@@ -145,3 +145,4 @@ targetRange.copyData(sourceRange);
 ## **Gelişmiş Konular**
 - [Kaynak Aralığın Satır Yüksekliklerini Hedef Aralığa Kopyalama](/cells/tr/nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

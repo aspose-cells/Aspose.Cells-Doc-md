@@ -226,3 +226,4 @@ Ett vattenfalldiagram visar en löpande total när värden läggs till eller sub
 Vattenfallsdiagram stöds i Aspose.Cells för Python via .NET.
 ### **Anpassade diagramtyper**
 Anpassade diagram gör det möjligt för dig att skapa diagram med anpassad formatering som kan tillämpas på andra diagram också. Här har vi bara diskuterat de standarddiagrammen. Om du vill veta mer detaljer om anpassade diagram, läs då artikeln Skapa anpassade diagram som beskriver hur man skapar anpassade diagram.
+{{< app/cells/assistant language="python-net" >}}

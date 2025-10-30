@@ -13,7 +13,7 @@ description: Aspose.Cells for C++を使用して、ワークブックのレン�
 
 ## **ワークブックのレンダリング用に個々またはプライベートなフォントセットを指定する**
 
-以下のサンプルコードは、[サンプルのExcelファイル（67338268.xlsx）]を読み込み、そのフォントセットを[**IndividualFontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/individualfontconfigs/)クラスを使って指定します。コード内で使用されるフォントの[サンプルフォント（67338271.zip）]や、その結果生成される[出力されたPDF（67338269.pdf）]も確認してください。スクリーンショットは、フォントが正常に認識された場合の出力PDFの様子です。
+以下のサンプルコードは、【サンプルのExcelファイル（67338268.xlsx）】を読み込み、そのフォントセットを[**IndividualFontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/individualfontconfigs/)クラスを使って指定します。コード内で使用されるフォントの【サンプルフォント（67338271.zip）】や、その結果生成される【出力されたPDF（67338269.pdf）】も確認してください。スクリーンショットは、フォントが正常に認識された場合の出力PDFの様子です。
 
 ![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
@@ -53,3 +53,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

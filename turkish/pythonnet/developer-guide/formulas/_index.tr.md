@@ -89,3 +89,4 @@ Bir **R1C1** referans stili formülünü, [**Cell**](https://reference.aspose.co
 - [Desteklenen Excel İşlevleri](/cells/tr/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

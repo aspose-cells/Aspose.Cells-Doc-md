@@ -1,5 +1,5 @@
 ---
-title: Bildiri
+title: Web sunucusunda Güven İzinleri
 type: docs
 weight: 30
 url: /tr/net/declaration/
@@ -8,6 +8,8 @@ url: /tr/net/declaration/
 {{% alert color="primary" %}} 
 
 Genellikle, tüm Aspose .NET bileşenleri Tam Güven izinlerinin ayarlanmasını gerektirir. Sebep, Aspose for .NET bileşenlerinin kayıt defteri ayarlarına, parsing fontlar vb. gibi belirli işlemler için sanal dizin dışında sistem dosyalarına erişim gerektirmesidir. Ayrıca, Aspose for .NET bileşenleri (Aspose.Cells for .NET dahil olmak üzere) çoğu durumda Tam Güven izinlerinin ayarlanmasına ihtiyaç duyan çekirdek .NET sistem sınıflarına dayanmaktadır.
+<br/>
+Orta Güven, .NET Çerçevesi döneminde kullanılan güvenlik mekanizmasıdır ve .NET Core ve .NET 5+ ile kaldırılmıştır. Orta Güven, eskinin güvenlik mekanizmasıdır. Orta Güven, giderek daha esnek güvenlik politikalarıyla yer değiştirmektedir. Kullanıcıların, geleneksel güven seviyelerine dayanmak yerine, .NET 5+ 'e yükseltmeyi ve konteynerle dağıtımını tercih etmeleri önerilir.
 
 {{% /alert %}} 
 ## **Kısmi Güven / Orta Güven Zorluğu**

@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **重要なこと**
 
 ページ設定の**fitToPages**（[**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--)と[**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)）プロパティを設定すると、ページブレーク設定に影響し、印刷時にページブレーク設定が考慮されませんが、設定自体は維持されます。
+{{< app/cells/assistant language="nodejs-cpp" >}}

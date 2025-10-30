@@ -22,7 +22,7 @@ Aspose.Cells.GridJsは、人気のあるスプレッドシート（XLS、XLSX、
 - キャッシュ内のファイルを取得するためのコントローラーアクションを設定します。これにより、キャッシュ内の画像/シェイプのZIPファイルまたはスプレッドシートファイルを取得できます。GridCacheForStream.LoadStream APIを使用します。
 - スプレッドシートをダウンロードするためのコントローラーアクションを設定します。GridJsWorkbook.SaveToCacheWithFileName APIを使用できます。
 
-以下は、Aspose.Cells.GridJs の使用例の基本デモです：https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+こちらはAspose.Cells.GridJsの使い方を示す基本的なデモです：https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs
 
 
 ご質問や要件、助けが必要な場合は、以下のウェブサイトにフィードバックしてください https://forum.aspose.com/c/cells/9

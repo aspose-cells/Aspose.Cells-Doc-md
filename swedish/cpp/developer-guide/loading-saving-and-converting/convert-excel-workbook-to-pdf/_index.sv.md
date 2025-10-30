@@ -44,3 +44,4 @@ Med klassen **IPdfSaveOptions** kan du hämta eller ställa in PDF-skapandetid.
 Se följande exempelkod och [utmatnings-PDF](67338371.pdf) för din referens.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

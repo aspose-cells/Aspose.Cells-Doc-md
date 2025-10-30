@@ -41,3 +41,4 @@ I följande exempel skapas en ny arbetsbok från grunden, skriver orden "Hello W
 I följande exempel öppnas en befintlig Microsoft Excel-mallfil som kallas **bok1.xls**, skriver orden "Hello World!" i cellen A1 på den första arbetsbladet och sparar arbetsboken som en ny fil.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -81,3 +81,4 @@ Aspose.Cells for Python via .NETは、[**MsoDrawingType**](https://reference.asp
 
 ## **高度なトピック**
 - [ワードアートウォーターマークをグラフに追加する](/cells/ja/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

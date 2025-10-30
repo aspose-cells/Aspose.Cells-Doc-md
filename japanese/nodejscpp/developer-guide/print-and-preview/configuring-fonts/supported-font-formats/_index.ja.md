@@ -12,3 +12,4 @@ description: Aspose.Cells for Node.js via C++におけるサポートされて�
 TrueTypeフォント||**TTF**|
 TrueTypeコレクション||**TTC**|
 OpenTypeフォント||**OTF**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

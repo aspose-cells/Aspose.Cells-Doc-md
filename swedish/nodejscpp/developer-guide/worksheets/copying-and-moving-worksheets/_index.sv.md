@@ -163,3 +163,4 @@ worksheet.moveTo(2);
 // Save the excel file.
 wb.save(path.join(dataDir, "MoveWorksheet_out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -22,3 +22,4 @@ Aspose.Cells for Node.js via C++ライブラリは、これら三つの形式で
 次のサンプルコードでは、まずPivot Tableを**コンパクト形式**で表示し、次に**アウトライン形式**でPivot Tableを表示し、最後にPivot Tableを**表形式**で表示します。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

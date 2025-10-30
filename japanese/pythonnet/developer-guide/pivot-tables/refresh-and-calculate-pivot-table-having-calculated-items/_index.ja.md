@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NETは、計算されたアイテムを持つピボ
 次のサンプルコードでは、"add"、"div"、"div2"などの3つの計算されたアイテムを持つピボットテーブルを含む[元のExcelファイル](5115238.xlsx)を読み込みます。まず、セルD2の値を20に変更し、Aspose.Cells for Python via .NETのAPIを使用してピボットテーブルを更新および計算し、ワークブックをPDF形式で保存します。その結果得られる[出力PDF](5115229.pdf)は、Aspose.Cells for Python via .NETが計算されたアイテムを持つピボットテーブルを正常に更新および計算したことを示しています。これをMicrosoft Excelで確認するには、手動でセルD2に値20を入力し、Alt+F5ショートカットキーを使用するか、ピボットテーブルの更新ボタンをクリックしてピボットテーブルを更新してください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-RefreshAndCalculateItems-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -159,3 +159,4 @@ int main()
 - [SVG Biçiminde Grafikleri Görüntüye Dönüştürme](/cells/tr/cpp/converting-chart-to-image-in-svg-format/)
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/cpp/export-chart-to-svg-with-viewbox-attribute/)
 - [Excel'den TIFF'e Dönüşüm İlerlemesini İzle](/cells/tr/cpp/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="cpp" >}}

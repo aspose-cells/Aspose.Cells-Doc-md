@@ -59,3 +59,4 @@ Excelは背景色に基づいてデータを並べ替える機能を提供して
 - [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [データソート時の警告の指定](/cells/ja/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

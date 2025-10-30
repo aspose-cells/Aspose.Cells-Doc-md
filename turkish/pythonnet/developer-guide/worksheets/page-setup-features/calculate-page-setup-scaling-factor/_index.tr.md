@@ -16,3 +16,4 @@ Sayfa Ayarı Ölçeklendirme'yi **n sayfa genişliğine m sayfa yüksekliğine o
 Aşağıdaki örnek kod, [**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale) özelliğini kullanarak sayfa ayarı ölçek faktörünü hesaplamanın örneklerini göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-CalculateScalingFactor-CalculatePageSetupScalingFactor.py" >}}
+{{< app/cells/assistant language="python-net" >}}

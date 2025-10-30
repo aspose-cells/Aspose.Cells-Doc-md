@@ -40,3 +40,4 @@ workbook.save("output.pdf", AsposeCells.SaveFormat.Pdf);
 Nu är texten inte klippt i den här PDF-filen.
 
 ![text klipps inte i sparad pdf](text_klipps_inte_i_sparad_pdf.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -61,3 +61,4 @@ int main()
 Om kalkylbladet innehåller formler, är det bäst att kalla på [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) metoden strax före rendering till PDF. Det säkerställer att formelberoende värden räknas om, och att rätt värden visas i PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

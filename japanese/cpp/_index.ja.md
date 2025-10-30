@@ -31,3 +31,4 @@ Aspose.Cells for C++ は、Office Automation や Microsoft Excel アプリケー
 - [GitHub リポジトリでの例のダウンロード](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Aspose.Cells for C++ 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for C++ 有料サポートヘルプデスク](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

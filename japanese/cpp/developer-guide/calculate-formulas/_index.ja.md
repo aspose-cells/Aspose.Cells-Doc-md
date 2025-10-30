@@ -197,3 +197,4 @@ int main()
 - [AbstarctCalculationEngineを使用して値の範囲を返す](/cells/ja/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [ブックの数式計算モードの設定](/cells/ja/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Aspose.CellsでのFormulaText関数の使用](/cells/ja/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

@@ -18,3 +18,4 @@ Den följande exempelkoden laddar [käll-excelfilen](84378743.xlsx). Den ställ
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-KeepSeparatorsForBlankRow-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

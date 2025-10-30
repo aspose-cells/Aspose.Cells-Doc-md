@@ -78,3 +78,4 @@ Aspose.Cells for Python via .NET kullanarak bir NumPy dizisinden veri almayı g�
 Çıktı sonucu:
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

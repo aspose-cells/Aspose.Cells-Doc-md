@@ -56,3 +56,4 @@ Aspose.Cells for Python via .NETでは、ピボットテーブルを作成およ
 - [レポートフィルタページオプションを表示](/cells/ja/python-net/save-pivot-table-in-ods-file/)
 - [レポートフィルターページのオプションを表示](/cells/ja/python-net/show-report-filter-pages-option/)
 - [行と列のフォーマット](/cells/ja/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

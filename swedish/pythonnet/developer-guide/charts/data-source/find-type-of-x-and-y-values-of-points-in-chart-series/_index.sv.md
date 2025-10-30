@@ -25,3 +25,4 @@ Följande exempelkod laddar filen [exempel Excel-fil](64716905.xlsx) och får å
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

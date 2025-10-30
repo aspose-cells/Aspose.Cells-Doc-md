@@ -36,3 +36,4 @@ Palet sadece 56 renk tutar. Bir özel rengi paletine eklediğinizde, palet deği
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

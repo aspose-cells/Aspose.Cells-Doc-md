@@ -76,3 +76,4 @@ Nu kör följande exempel, se hur det fungerar i Aspose.Cells för Python via .N
 - [Skapa arbetsbok och arbetsbladsspecifika namngivna områden](/cells/sv/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Sök och ersätt data i ett område](/cells/sv/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

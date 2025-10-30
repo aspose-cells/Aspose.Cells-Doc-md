@@ -107,3 +107,4 @@ Aspose.Cells for Python via .NET, bir aralıktaki hücreleri biçimlendirmeyle b
 Aşağıdaki örnek, kaynak hücre aralığını başka adlandırılmış bir aralığa kopyalamanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-CopyNamedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

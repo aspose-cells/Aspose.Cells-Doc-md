@@ -98,3 +98,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 Ayrıca, [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) sınıfının [**Cells.unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-) ve [**Cells.unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-) metodlarını kullanarak birden fazla satır ve sütunu görünür hale getirmek de mümkündür.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

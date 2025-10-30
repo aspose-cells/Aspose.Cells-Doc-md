@@ -1,7 +1,7 @@
 ---
 title: Funktioner
 type: docs
-weight: 5
+weight: 10
 url: /sv/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++ funktioner."
@@ -99,3 +99,4 @@ Du kan använda Aspose.Cells för att implementera sidlayoutalternativ för arbe
 |Ange utskriftsområde, utskriftsrubriker eller slå på rutnät etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

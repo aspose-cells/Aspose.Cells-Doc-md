@@ -96,3 +96,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dosyaları Birleştirme](/cells/tr/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

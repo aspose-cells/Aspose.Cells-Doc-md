@@ -67,3 +67,4 @@ Bu özelliği test etmek için bir örnek dosya aşağıdaki bağlantıdan indir
 Aspose.Cells ayrıca şifre korumalı Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365 dosyalarını açmayı destekler.
 
 
+{{< app/cells/assistant language="python-net" >}}

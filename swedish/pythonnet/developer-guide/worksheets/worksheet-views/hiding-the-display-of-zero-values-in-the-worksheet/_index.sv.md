@@ -26,3 +26,4 @@ För att dölja nollvärden i ett arbetsblad i Microsoft Excel (till exempel Mic
 Se följande exempel som demonstrerar dölja nollor med Aspose.Cells för Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

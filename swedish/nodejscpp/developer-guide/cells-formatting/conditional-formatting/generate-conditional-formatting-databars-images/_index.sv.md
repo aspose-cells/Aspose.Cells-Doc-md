@@ -18,3 +18,4 @@ Följande exempel genererar Datastapeln för cell C1. Först accessar den format
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-GenerateConditionalFormattingDataBars.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

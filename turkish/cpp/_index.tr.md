@@ -31,3 +31,4 @@ Görevlerinizi tamamlamak için gereken bazı faydalı kaynakların bağlantıla
 - [GitHub Depolarında Örnekleri İndirin](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Aspose.Cells for C++ Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for C++ Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

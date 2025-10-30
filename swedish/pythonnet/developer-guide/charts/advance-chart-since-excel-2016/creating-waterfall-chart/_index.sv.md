@@ -20,3 +20,4 @@ Nedanstående kod visar hur du använder Aspose.Cells för Python via .NET API f
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateWaterfallChart-1.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

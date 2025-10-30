@@ -141,3 +141,4 @@ Aspose.Cellsを使用して、ネイティブでないExcelファイルや他の
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -88,3 +88,4 @@ int main()
 - [Grafik Ekseni Otomatik Birimleri ile Başa Çık](/cells/tr/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Grafik Hesaplandıktan Sonra Eksen Etiketlerini Okuma](/cells/tr/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Excel Grafikte Kategori Eksenini Nasıl Ayarlayacağınız](/cells/tr/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

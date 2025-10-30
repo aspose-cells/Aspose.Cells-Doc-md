@@ -9,9 +9,9 @@ url: /sv/net/create-combo-chart/
 
 ## **Möjliga användningsscenario**
 Kombinationsdiagram i Excel låter dig dra nytta av detta alternativ eftersom du enkelt kan kombinera två eller flera diagramtyper för att göra din data förståelig. Kombinationsdiagram är användbara när din data innehåller flera olika typer av värden, inklusive pris och volym. Dessutom är kombinationsdiagram genomförbara när dina datanummer skiljer sig markant från serie till serie.
-Med det följande datasättet som exempel kan vi konstatera att dessa data är ganska lika de data som nämns i [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/). Om vi vill visualisera serie0, som motsvarar "Total Revenue," som ett Linjediagram, hur ska vi gå tillväga?
 
-![todo:image_alt_text](sample.png)
+Nu kommer vi att skapa ett kombinerat kolumn-linje-diagram. Vi skapar först ett kolumndiagram och modifierar sedan några Series-typer till linje för att åstadkomma detta kombinerade diagram.
+
 ## **Kombinationsdiagram**
 Efter att ha kört koden nedan kommer du att se kombinationsdiagrammet som visas nedan.
 

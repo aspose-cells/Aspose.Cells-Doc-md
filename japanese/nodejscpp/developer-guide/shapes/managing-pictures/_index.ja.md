@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [セル参照に基づく画像の挿入](/cells/ja/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [Web画像のURLをExcelワークシートに読み込む](/cells/ja/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

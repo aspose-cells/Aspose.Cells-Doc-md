@@ -73,3 +73,4 @@ fs.writeFileSync("result.html", sb.join(""));
 ```
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

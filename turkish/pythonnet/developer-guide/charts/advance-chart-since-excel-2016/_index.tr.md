@@ -44,3 +44,4 @@ BoxWhisker
 - [Su Düşen Grafik Oluşturma](/cells/tr/python-net/creating-waterfall-chart/)
 - [Ağaç Haritası Grafik Oluşturma](/cells/tr/python-net/creating-treemap-chart/)
 - [Güneş Patlaması Grafik Oluşturma](/cells/tr/python-net/creating-sunburst-chart/)
+{{< app/cells/assistant language="python-net" >}}

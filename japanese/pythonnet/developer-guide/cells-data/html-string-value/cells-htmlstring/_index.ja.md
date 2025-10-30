@@ -26,3 +26,4 @@ keywords: Python Excelライブラリ、Python セル内にHTML文字列を追�
 上記のサンプルコードの出力を以下のスクリーンショットで示します。
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="python-net" >}}

@@ -61,3 +61,4 @@ Koden laddar först CSV-filen, importer den sedan igen till cell D4. Slutligen s
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
+{{< app/cells/assistant language="cpp" >}}

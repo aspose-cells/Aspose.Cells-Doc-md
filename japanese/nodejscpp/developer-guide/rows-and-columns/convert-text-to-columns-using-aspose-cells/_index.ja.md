@@ -9,7 +9,7 @@ description: Aspose.Cells for Node.js via C++を使ったExcelのテキストを
 
 ## **可能な使用シナリオ**  
 
-Microsoft Excelを使用してテキストを列に変換できます。この機能はデータタブの[データツール]から利用可能です。列の内容を複数の列に分割するには、カンマやその他の区切り文字を含む必要があります。Aspose.Cells for Node.js via C++もこの機能を[**Cells.textToColumns(number, number, number, TxtLoadOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#textToColumns-number-number-number-txtloadoptions-)経由で提供しています。  
+Microsoft Excelを使用してテキストを列に変換できます。この機能はデータタブの【データツール】から利用可能です。列の内容を複数の列に分割するには、カンマやその他の区切り文字を含む必要があります。Aspose.Cells for Node.js via C++もこの機能を[**Cells.textToColumns(number, number, number, TxtLoadOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#textToColumns-number-number-number-txtloadoptions-)経由で提供しています。  
 
 ## **Aspose.Cells for Node.js via C++を使用したテキストの列への変換**  
 
@@ -51,3 +51,4 @@ ws.getCells().textToColumns(0, 0, 5, opts);
 wb.save(path.join(dataDir, "outputTextToColumns.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

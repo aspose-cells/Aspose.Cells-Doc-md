@@ -25,11 +25,11 @@ Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Doc
 
 ## Adım 1: Dockerfile Oluşturma
 
-Proje dizininizde bir `Dockerfile` adlı dosya oluşturun. `Dockerfile` Docker imajınızı nasıl inşa edeceğinizi belirten talimatlar içermelidir. https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/
+Projenizdeki dizinde `Dockerfile` adlı bir dosya oluşturun [dizin](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/). `Dockerfile`'ın, Docker imajınızı nasıl oluşturacağınızı anlatan talimatlar içermesi gerekir.
 
 ## Adım 2: GridWeb için Dockerfile yazın
 
-İşte ASP.NET Core uygulamasıyla GridWeb demosu için örnek bir [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/Dockerfile):
+ASP.NET Core uygulamasıyla GridWeb örneği için [örnek `Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridWeb/Dockerfile)
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

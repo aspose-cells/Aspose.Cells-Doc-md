@@ -64,3 +64,4 @@ Excelファイルの外部にハイパーリンクを追加するには、Hyperl
 - [ワークシートのハイパーリンクの編集](/cells/ja/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [範囲内のハイパーリンクを取得](/cells/ja/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

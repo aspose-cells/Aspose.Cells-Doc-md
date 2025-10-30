@@ -34,6 +34,14 @@ Aşağıdaki örnek, bir etiketin grafiğe nasıl ekleneceğini göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Not:** Bu tür etiket kontrolü yalnızca XLS dosyalarında desteklenmektedir. Benzer bir etki istiyorsanız, lütfen aşağıdaki alternatifleri kullanın:
+
+1. Bunun yerine TextBox Kontrolü kullanın, XLSX dosyalarında etiket Kontrolüne benzer bir alternatif bulunmaktadır.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) TextBox için, XLSX dosyaları destekleyebilir.
+
+2. "SheetType.Chart" türünde bir sayfa ekleyin ve ardından bu Sayfaya Grafik ve Kontrol ekleyin.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) SheetType.Chart eklemek için.
+
 ## **Grafiğe TextBox Kontrolü Ekleme**
 
 Bir raporda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satış yapılan coğrafi bölgeyi belirtmek için metin girin. [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, grafiğe bir metin kutusu denetimi eklemek için kullanılan [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:

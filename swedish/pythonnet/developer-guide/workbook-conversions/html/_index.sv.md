@@ -48,3 +48,4 @@ Kodexemplet nedan visar hur man sparar en arbetsbok som en MHTML-fil med C#:
 - [Ange kolumnbredd till skalbar enhet som em eller procent](/cells/sv/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Ange standardfonten vid rendering av kalkylblad till HTML](/cells/sv/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Ange hur man korsar sträng i utmatnings-HTML med HtmlCrossType](/cells/sv/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

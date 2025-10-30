@@ -22,3 +22,4 @@ keywords: Python Excelライブラリ、Pythonセル値の幅を計測する、P
 
 ## **高度なトピック**
 - [セル値のテキスト幅を取得する](/cells/ja/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

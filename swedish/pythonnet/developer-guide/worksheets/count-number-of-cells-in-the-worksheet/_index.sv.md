@@ -10,3 +10,4 @@ keywords: räkna antal excel kalkylblads celler c#, excel kalkylblads celler c#
 Du kan räkna antalet celler i kalkylbladet genom att använda [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) eller [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) egenskaper som visas i kodexemplet nedan.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

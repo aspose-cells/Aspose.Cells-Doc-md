@@ -12,3 +12,4 @@ description: Hantera och manipulera Smart Art figurer i Excel filer med API Aspo
 Aspose.Cells tillhandahåller omfattande verktyg för att arbeta med Smart Art-figurer i Excel-filer programmässigt. Denna guide visar hur man skapar, får åtkomst till och ändrar Smart Art-element med C++.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

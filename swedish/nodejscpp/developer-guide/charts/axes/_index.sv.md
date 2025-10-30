@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Läs av axeletiketter efter att ha beräknat diagrammet](/cells/sv/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Hur man ställer in kategoriaxel i Excel-diagram](/cells/sv/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

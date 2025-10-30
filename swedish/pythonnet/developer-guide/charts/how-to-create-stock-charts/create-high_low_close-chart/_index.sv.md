@@ -21,3 +21,4 @@ Ibland, för att göra diagrammet mer intuitivt, kan vi ändra utseendet på mar
 Följande exempelkod laddar [exempel Excel-filen](High-Low-Close.xlsx) och genererar [utdatamappar Excel-filen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

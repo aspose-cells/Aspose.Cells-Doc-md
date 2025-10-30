@@ -36,3 +36,4 @@ url: /ja/cpp/creating-and-customizing-charts/
 以下の例のコードは、カスタムチャートの作成方法を示しています。この例では、最初のデータシリーズには列チャート、2番目のシリーズには折れ線グラフを使用します。その結果、ワークシートには列チャートと折れ線グラフが組み合わされたチャートが追加されます。以下のサンプルコードの出力Excelファイル(66519071.xlsx)を参照してください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

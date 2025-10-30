@@ -21,3 +21,4 @@ Aşağıdaki örnek kod, [PdfSaveOptions.optimization_type](https://reference.as
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveExcelIntoPdfWithOptimizedSize.py" >}}
+{{< app/cells/assistant language="python-net" >}}

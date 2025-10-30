@@ -32,3 +32,4 @@ Aspose.Cells for Python via .NETを使えば、ペインの固定解除は簡単
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 添付 [サンプルソースの Excel ファイル](Frozen.xlsx) です。
+{{< app/cells/assistant language="python-net" >}}

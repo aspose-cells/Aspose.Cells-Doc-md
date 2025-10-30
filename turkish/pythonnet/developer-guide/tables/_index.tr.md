@@ -64,3 +64,4 @@ Aşağıdaki örnek, bir çalışma sayfasına örnek veri ekler, bir [**ListObj
 - [Tablolar ve Aralıklar](/cells/tr/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

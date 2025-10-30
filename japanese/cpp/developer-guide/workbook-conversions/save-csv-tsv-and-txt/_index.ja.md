@@ -102,3 +102,4 @@ int main()
 ## **高度なトピック**
 - [CSV形式へのスプレッドシートのエクスポート時に空行の区切り記号を保持する](/cells/ja/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

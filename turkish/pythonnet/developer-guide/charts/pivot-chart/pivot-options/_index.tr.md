@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NET kullanarak, PivotChart'ı yönetmek için [**Pi
 Yukarıdaki örnek kodla sonuç dosyasını kontrol edebilir ve aşağıdaki etkiyi gösteren sonuç dosyasını inceleyebilirsiniz:
 
 **![Çıktı](Output.png)**
+{{< app/cells/assistant language="python-net" >}}

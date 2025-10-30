@@ -64,3 +64,4 @@ Bu sayfa Aspose.Cells için Python via .NET özelliklerini özetler.
 - Başlık ve/veya altbilgi oluştur veya düzenle
 - Yazdırma alanı, yazdırma başlıkları belirt veya ızgaraları aç
 
+{{< app/cells/assistant language="python-net" >}}

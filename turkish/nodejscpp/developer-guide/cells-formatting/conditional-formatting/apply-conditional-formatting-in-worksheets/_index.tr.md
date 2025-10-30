@@ -49,3 +49,4 @@ Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk ça
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk çalışma sayfasındaki “B3” hücresine koşullu biçimlendirme uygulanır. Uygulanan koşullu biçimlendirme, B3 hücresinin B1 ve B2 toplamı olarak hesaplanan değere bağlıdır.
+{{< app/cells/assistant language="nodejs-cpp" >}}

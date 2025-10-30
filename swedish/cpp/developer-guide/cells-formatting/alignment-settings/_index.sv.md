@@ -494,3 +494,4 @@ int main()
 ## **Fortsatta ämnen**
 - [Ändra cellers justering och behåll befintlig formatering](/cells/sv/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Radbrytningar och textindrag](/cells/sv/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

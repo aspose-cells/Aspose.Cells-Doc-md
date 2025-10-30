@@ -81,3 +81,4 @@ int main()
 
 ## **Fortsatta ämnen**
 - [Använda funktionsspår och inställningar 3D-format](/cells/sv/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

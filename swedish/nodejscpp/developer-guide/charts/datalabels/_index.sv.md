@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Ställ in datamärkenas formtyp i diagram](/cells/sv/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Visa cellområde som datamärken](/cells/sv/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

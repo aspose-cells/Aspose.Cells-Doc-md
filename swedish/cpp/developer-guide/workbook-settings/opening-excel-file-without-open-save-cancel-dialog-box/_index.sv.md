@@ -44,3 +44,4 @@ I Windows Utforskaren:
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 
 Denna inställning gör det möjligt för filer att köras direkt i webbläsaren, utan att dialogrutan Öppna-Spara-Avbryt visas vid nedladdning eller öppning av filen.
+{{< app/cells/assistant language="cpp" >}}

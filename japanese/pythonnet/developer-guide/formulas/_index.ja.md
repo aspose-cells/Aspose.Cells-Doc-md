@@ -89,3 +89,4 @@ Aspose.Cells for Python via .NET は、[**worksheets.register_add_in_function()*
 - [サポートされているExcel関数](/cells/ja/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

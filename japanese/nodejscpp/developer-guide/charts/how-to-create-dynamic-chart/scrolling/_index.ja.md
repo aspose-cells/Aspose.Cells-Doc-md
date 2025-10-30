@@ -90,3 +90,4 @@ workbook.save(path.join(localPath, "DynamicScrollingChart.xlsx"));
 ```
 
 セル "Sheet1!$H$20"の数値"10"を"15"に変更してみると、ダイナミックチャートが最新の15セットのデータをカウントします。これでAspose.Cells for Node.js via C++を使用したダイナミックスクロールチャートの作成に成功しました。
+{{< app/cells/assistant language="nodejs-cpp" >}}

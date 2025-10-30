@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET, aynı elektronik tabloda başka bir konuma say
 Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

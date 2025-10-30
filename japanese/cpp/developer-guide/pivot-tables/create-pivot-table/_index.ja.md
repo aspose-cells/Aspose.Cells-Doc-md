@@ -13,3 +13,4 @@ url: /ja/cpp/create-pivot-table/
 ![todo:image_alt_text](create-pivot-table_1.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-CreatePivotTable-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -195,3 +195,4 @@ För att skapa ett linjediagram med datamarkör, [**ChartType**](https://referen
 - [Hantera titlar för Excel-diagram](/cells/sv/python-net/chart-and-axis-titles/)
 - [Diagramrendering](/cells/sv/python-net/chart-rendering/)
 - [Få ekvationstext av diagramtrendlinje](/cells/sv/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

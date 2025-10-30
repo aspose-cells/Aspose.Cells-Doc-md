@@ -62,3 +62,4 @@ int main()
 ## İlgili Makaleler
 
 - [Veri Doğrulama](/cells/tr/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

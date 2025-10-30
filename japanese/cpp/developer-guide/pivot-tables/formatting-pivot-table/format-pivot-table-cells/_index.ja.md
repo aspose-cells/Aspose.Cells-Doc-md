@@ -51,3 +51,4 @@ int main() {
 
 - [ピボットテーブルの書式設定](/cells/ja/cpp/formatting-pivot-table/)
 - [行と列のフォーマット](/cells/ja/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

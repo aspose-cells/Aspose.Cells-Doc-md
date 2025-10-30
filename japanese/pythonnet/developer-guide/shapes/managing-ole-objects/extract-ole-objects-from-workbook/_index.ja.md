@@ -31,3 +31,4 @@ url: /ja/python-net/extract-ole-objects-from-workbook/
 以下のコードは実際にOLEオブジェクトを検出して抽出する実際の作業を行います。OLEオブジェクト（DOC、XLS、PDFファイル）はディスクに保存されます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

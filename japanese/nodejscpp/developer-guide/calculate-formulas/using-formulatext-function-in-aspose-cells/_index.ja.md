@@ -52,3 +52,4 @@ console.log(cellA2.getStringValue());
  =SUM(B1:B10)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

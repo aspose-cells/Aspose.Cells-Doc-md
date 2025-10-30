@@ -474,3 +474,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Grafik Serisinin Değer Biçim Kodunu Ayarlayın](/cells/tr/cpp/set-the-values-format-code-of-chart-series/)
 - [Grafikte Arka Plan Doldurma Olarak Resim Ayarlama](/cells/tr/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

@@ -83,5 +83,5 @@ ConvertFormulasDataプロパティのデフォルト値はfalseです。
 ## **HtmlSaveOptionsクラスにImageOptionsプロパティを追加しました**
 ImageOptionsプロパティがHtmlSaveOptionsクラスに追加されました。ImageOptionsプロパティを公開することで、スプレッドシートをエクスポートする際にHTMLに埋め込まれる画像の設定を行うことができるようになりました。 
 ## **HtmlSaveOptions.ExportChartImageFormatプロパティの廃止**
-HtmlSaveOptions.ExportChartImageFormat はバージョン Aspose.Cells for .NET 8.0.2 から非推奨となりました。スプレッドシートをHTML形式にエクスポートする際に画像の形式設定はHtmlSaveOptions.ImageOptionsを使用することが推奨されています。
+HtmlSaveOptions.ExportChartImageFormatは、Aspose.Cells for Java 8.0.2以降で廃止されました。スプレッドシートをHTMLにエクスポートする際の画像フォーマット設定には、HtmlSaveOptions.ImageOptionsを使用することを推奨します。
 {{< app/cells/assistant language="java" >}}

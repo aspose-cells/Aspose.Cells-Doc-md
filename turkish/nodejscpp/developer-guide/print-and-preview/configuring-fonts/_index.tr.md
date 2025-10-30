@@ -111,3 +111,4 @@ Yukarıda bahsedilen yöntemlere ek olarak, Aspose.Cells API’leri, hangi kayna
 - [PdfSaveOptions ve ImageOrPrintOptions'ın DefaultFont özelliğini öncelikli şekilde ayarlayın](/cells/tr/nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Desteklenen Yazı Tipi Biçimleri](/cells/tr/nodejs-cpp/supported-font-formats/)
 - [Elektronik Tabloyu Görüntüye - Görüntülenen Görüntü İçin Pixel Biçimini Ayarlama](/cells/tr/nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -64,3 +64,4 @@ Dış Excel dosyalarına bağlantı eklemek için, [Hyperlinks](https://referenc
 - [Çalışma Sayfasının Bağlantılarını Düzenleme](/cells/tr/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Aralıktaki Bağlantıları Al](/cells/tr/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

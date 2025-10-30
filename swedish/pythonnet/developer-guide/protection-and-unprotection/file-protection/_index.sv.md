@@ -48,3 +48,4 @@ Det är mycket enkelt att öppna lösenordsskyddad Excel-fil och dekryptera med 
 - [Ange författare vid skrivskydd av arbetsbok](/cells/sv/python-net/specify-author-while-write-protecting-workbook/)
 - [Verifiera lösenord för krypterade filer](/cells/sv/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

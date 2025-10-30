@@ -319,3 +319,4 @@ void CreateCellsFormatting(Workbook& workbook)
     cells.SetColumnWidth(13, 9.33);
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NET APIを使用してリーダー線付きの円�
 - [グラフのデータ整形](/cells/ja/python-net/data-formatting-in-charts/)
 - [グラフの外観設定](/cells/ja/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

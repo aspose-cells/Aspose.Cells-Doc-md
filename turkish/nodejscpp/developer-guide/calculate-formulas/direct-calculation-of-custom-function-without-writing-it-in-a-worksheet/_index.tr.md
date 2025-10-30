@@ -77,3 +77,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [Özel Hesaplama Motoru Uygulaması ve Aspose.Cells'in Varsayılan Hesaplama Motorunu Geliştirme](/cells/tr/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

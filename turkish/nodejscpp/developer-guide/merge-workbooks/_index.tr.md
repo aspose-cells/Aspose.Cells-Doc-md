@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dosyaları Birleştirme](/cells/tr/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

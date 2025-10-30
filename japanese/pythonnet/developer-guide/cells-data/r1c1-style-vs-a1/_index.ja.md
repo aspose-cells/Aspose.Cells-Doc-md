@@ -58,3 +58,4 @@ A1 参照スタイル:
 R1C1 参照スタイル:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

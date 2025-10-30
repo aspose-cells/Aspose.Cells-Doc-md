@@ -20,3 +20,4 @@ Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befin
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

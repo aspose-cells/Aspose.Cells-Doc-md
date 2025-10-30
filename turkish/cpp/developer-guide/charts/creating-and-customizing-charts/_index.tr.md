@@ -36,3 +36,4 @@ Bir grafik, bir veri serisinden oluşur. Özel bir grafik oluştururken, gelişt
 Aşağıdaki örnek kod, özel grafikler oluşturmayı nasıl gösterir. Bu örnekte, ilk veri serisi için bir sütun grafiği ve ikinci serisi için bir çizgi grafiği kullanacağız. Sonuç olarak, bir çalışma sayfasına sütun grafiği ve çizgi grafiği eklenir. Lütfen aşağıdaki örnek kodun [çıktı Excel dosyasını](66519071.xlsx) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

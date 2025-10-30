@@ -34,3 +34,4 @@ wb.getWorksheets().getXmlMaps().add(path.join(dataDir, "sample.xml"));
 wb.save(path.join(dataDir, "output_out.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

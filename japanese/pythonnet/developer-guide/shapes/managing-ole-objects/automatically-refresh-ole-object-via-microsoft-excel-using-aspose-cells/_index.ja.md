@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NETは、[**OleObject.auto_load**](https://referenc
 次のサンプルコードでは、実際のOLEイメージでないOLEオブジェクトを含む[サンプルExcelファイル](5115231.xlsx)を読み込みます。OLEオブジェクトは実際にはMicrosoft Wordドキュメントですが、サンプルExcelファイルではMicrosoft Wordイメージの代わりに動物のイメージが表示されます。しかし、[出力Excelファイル](5115225.xlsx)を開くと、Microsoft Excelが正しいOLEイメージを表示します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-OLE-RefreshOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

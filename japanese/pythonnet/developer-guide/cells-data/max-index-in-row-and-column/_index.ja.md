@@ -27,3 +27,4 @@ Aspose.Cells for Python via .NETは、目標を達成するための次のプロ
 1. セル上の[Cell.row](https://reference.aspose.com/cells/python-net/aspose.cells/cell/row/)属性を取得します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Cells-max-index-of-row-and-column.py" >}}
+{{< app/cells/assistant language="python-net" >}}

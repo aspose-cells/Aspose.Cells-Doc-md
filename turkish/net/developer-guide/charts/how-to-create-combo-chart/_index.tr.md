@@ -9,9 +9,9 @@ url: /tr/net/create-combo-chart/
 
 ## **Olası Kullanım Senaryoları**
 Excel'deki kombo grafikler, verinizi anlaşılır hale getirmek için iki veya daha fazla grafik türünü kolayca birleştirebileceğiniz bu seçeneği kullanmanızı sağlar. Kombo grafikler, verinizin fiyat ve hacim dahil olmak üzere birden çok türde değeri içerdiğinde yardımcı olur. Ayrıca, veri serilerinizin sayıları seriye göre geniş ölçüde değiştiğinde Kombo grafikler uygundur.
-Aşağıdaki veri kümesini örnek olarak alırsak, bu verilerin [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/) 'de bahsedilen verilere oldukça benzer olduğunu gözlemleyebiliriz. Series0'ı "Toplam Gelir" olarak görselleştirmek istiyorsak, bunu bir Çizgi grafiği olarak nasıl yapmalıyız?
 
-![todo:image_alt_text](sample.png)
+Şimdi bir sütun-çizgi kombinasyon grafiği oluşturacağız. İlk olarak biri sütun grafiği oluşturacağız ve ardından bazı Seriler Türlerini çizgiye değiştirerek bu kombinasyon grafiğini elde edeceğiz.
+
 ## **Kombo grafik**
 Aşağıdaki kodu çalıştırdıktan sonra, aşağıda gösterildiği gibi Kombo grafiği göreceksiniz.
 

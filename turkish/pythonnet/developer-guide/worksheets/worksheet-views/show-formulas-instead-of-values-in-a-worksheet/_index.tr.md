@@ -16,3 +16,4 @@ Microsoft Excel'de, **Formüller** şeridi altındaki **Formülleri Göster** se
 Aspose.Cells for Python via .NET, [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas) özelliğini sağlar. Bunu **true** olarak ayarlayarak Microsoft Excel'de formülleri görüntüleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -33,7 +33,7 @@ Om du klickar på **Klistra in** på **Standard** verktygsfältet eller trycker 
 1. På fliken Hem, klicka på pilen bredvid **Klistra in**, och välj sedan **Klistra in** Special.
 1. Välj de **alternativ** du vill.
 
-## **Hur man kopierar rader och kolumner med hjälp av Aspose.Cells for .NET**
+## **Hur man kopierar rader och kolumner med Aspose.Cells för Python via .NET**
 
 ## **Hur man kopierar enskilda rader**
 
@@ -98,3 +98,4 @@ Aspose.Cells tillhandahåller nu [**PasteOptions**](https://reference.aspose.com
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

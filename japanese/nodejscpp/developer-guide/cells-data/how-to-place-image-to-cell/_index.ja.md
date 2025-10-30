@@ -60,3 +60,4 @@ Aspose.Cellsを使用してセルに画像を挿入します。次のサンプ�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-place-image-in-cell.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

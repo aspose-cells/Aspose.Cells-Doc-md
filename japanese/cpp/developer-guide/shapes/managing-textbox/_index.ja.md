@@ -7,3 +7,4 @@ url: /ja/cpp/managing-textbox-of-excel/
 description: Aspose.Cellsを使用してC++でExcelファイルのTextBoxを管理する方法を学びます。
 ---
 
+{{< app/cells/assistant language="cpp" >}}

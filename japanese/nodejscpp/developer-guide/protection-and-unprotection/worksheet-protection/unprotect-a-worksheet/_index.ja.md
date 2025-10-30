@@ -69,3 +69,4 @@ worksheet.unprotect("");
 // Save Workbook
 workbook.save(path.join(dataDir, "output.out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

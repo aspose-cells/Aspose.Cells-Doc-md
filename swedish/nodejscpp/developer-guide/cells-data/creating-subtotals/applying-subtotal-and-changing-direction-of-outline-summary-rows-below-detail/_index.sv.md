@@ -42,3 +42,4 @@ Följande skärmbild visar den genererade Excel-filen som skapats av provkoden. 
 Här är kodexempel för att uppnå utdata som visas ovan.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

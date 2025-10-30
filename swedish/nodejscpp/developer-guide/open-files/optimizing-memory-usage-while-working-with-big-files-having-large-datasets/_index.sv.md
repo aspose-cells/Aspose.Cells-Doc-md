@@ -79,3 +79,4 @@ Det förvalda alternativet, [**MemorySetting.Normal**](https://reference.aspose.
 2. **Infoga & Ta bort celler & rader**: Observera att om det finns många insättnings-/raderingsoperationer för Cell/Rows, kommer prestandaförlusten att bli märkbar för *MemoryPreference*-läget jämfört med *Normal*-läget.  
 3. **Att arbeta på olika celltyper**: Om de flesta celler innehåller strängvärden eller formler, kommer minneskostnaden att vara samma som *Normal*-läget, men om det finns många tomma celler eller cellvärden som är numeriska, booleska, etc., ger [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)-alternativet bättre prestanda.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

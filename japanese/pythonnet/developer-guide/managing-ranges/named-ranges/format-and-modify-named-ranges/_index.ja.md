@@ -53,3 +53,4 @@ Aspose.Cells は 2 つの範囲の交差を求めるための [**Range.intersect
 Aspose.Cells は範囲内のセルを結合するための [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) メソッドを提供しています。次の例では、名前付き範囲内の個々のセルを結合する方法を示します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -15,3 +15,4 @@ Lütfen aşağıdaki örnek kodu inceleyin. Veriyi ayarlar ve buna dayalı bir P
 
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-filter-in-PivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

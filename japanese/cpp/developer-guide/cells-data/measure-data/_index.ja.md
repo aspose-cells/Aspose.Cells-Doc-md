@@ -65,3 +65,4 @@ int main()
 
 ## **高度なトピック**
 - [セル値のテキスト幅を取得する](/cells/ja/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

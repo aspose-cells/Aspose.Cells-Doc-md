@@ -62,3 +62,4 @@ int main()
 スプレッドシートに数式が含まれている場合、PDFにレンダリングする直前に[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/)を呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値が出力ファイルに表示されます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

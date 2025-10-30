@@ -107,3 +107,4 @@ Här är ett kodexempel som demonstrerar dessa steg:
 - Aspose.Cells stödjer ett brett spektrum av talformat, inklusive decimaltal, procent, valuta och mer. Du kan anpassa formatet för att möta dina specifika krav.
 
 Genom att följa dessa steg kan du enkelt formatera siffror som fraktioner i Aspose.Cells for Node.js via C++. Detta kan vara särskilt användbart för finansiella, statistiska eller pedagogiska tillämpningar där exakta fraktionella värden är nödvändiga.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -34,3 +34,4 @@ Skydda äktheten av ett dokuments innehåll; du kan lägga till en digital signa
 - [Upptäck filformat av krypterade Office Open XML - OOXML-filer](/cells/sv/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Kryptera Excel-filer](/cells/sv/nodejs-cpp/encrypting-excel-files/)
 - [Hur man upptäcker ett filformat och kontrollerar om filen är krypterad](/cells/sv/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

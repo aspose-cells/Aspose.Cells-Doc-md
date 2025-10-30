@@ -1,7 +1,7 @@
 ---
 title: Dosyaları Dönüştürme
 type: docs
-weight: 20
+weight: 30
 url: /tr/python-java/converting-files/
 ---
 

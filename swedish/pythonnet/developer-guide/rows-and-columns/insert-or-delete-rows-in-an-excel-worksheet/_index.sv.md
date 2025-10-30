@@ -20,3 +20,4 @@ För att infoga eller ta bort ett antal rader rekommenderar vi alltid att du anv
 Aspose.Cells for Python via .NET fungerar på samma sätt som Microsoft Excel gör. När rader eller kolumner läggs till, skiftas arbetsbladets innehåll nedåt och åt höger. När rader eller kolumner tas bort, skiftas arbetsbladets innehåll uppåt eller åt vänster. Eventuella referenser i andra arbetsblad och celler uppdateras när rader läggs till eller tas bort.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

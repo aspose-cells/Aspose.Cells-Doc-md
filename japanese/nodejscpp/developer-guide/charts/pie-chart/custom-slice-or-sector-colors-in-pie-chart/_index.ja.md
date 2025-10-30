@@ -102,3 +102,4 @@ const outputPath = path.join(dataDir, "output.out.xlsx");
 // Save the workbook
 workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

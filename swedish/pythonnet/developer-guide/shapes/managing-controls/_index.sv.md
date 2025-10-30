@@ -381,3 +381,4 @@ Följande exempel visar hur du ska lägga till en gruppbox och gruppera kontroll
 - [Lägg till ActiveX-kontroller](/cells/sv/python-net/add-activex-controls-using-aspose-cells/)
 - [Ta bort ActiveX-kontroll](/cells/sv/python-net/remove-activex-control/)
 - [Uppdatera ActiveX ComboBox Control](/cells/sv/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

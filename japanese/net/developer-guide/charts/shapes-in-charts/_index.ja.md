@@ -34,6 +34,14 @@ Aspose.Cellsを使用して、チャートにラベルを追加したり操作�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**注意:** このタイプのラベルコントロールはXLSファイルでのみサポートされています。XLSXファイルで同様の効果を得るには、以下のいずれかの代替方法を使用してください：
+
+1. TextBoxコントロールを代わりに使用してください。XLSXファイルにはこれと類似の代替手段があります。
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart)はTextBox用で、XLSXファイルでサポートされています。
+
+2. シートタイプが「SheetType.Chart」のワークシートを追加し、その上にチャートとコントロールを追加します。
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart)はSheetType.Chartの追加に使用します。
+
 ## **チャートにテキストボックスコントロールを追加**
 
 レポートで重要な情報を強調表示する一つの方法は、テキストボックスを使用することです。たとえば、企業名を表示したり、最高の売上地域を示したりするためにテキストを入力します。 [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) クラス には [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart) という名前のメソッドがあり、これを使用してチャートにテキストボックスコントロールを追加します。以下は、このメソッドに使用されるパラメータのリストです：

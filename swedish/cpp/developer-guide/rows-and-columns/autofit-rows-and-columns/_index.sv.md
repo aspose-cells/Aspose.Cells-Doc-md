@@ -236,3 +236,4 @@ Om en cell är sammanslagen kommer AutoFit-metoderna inte att tillämpas, vilket
 
 ## **Avancerade ämnen**
 - [Automatisk justering av rader för sammanfogade celler](/cells/sv/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

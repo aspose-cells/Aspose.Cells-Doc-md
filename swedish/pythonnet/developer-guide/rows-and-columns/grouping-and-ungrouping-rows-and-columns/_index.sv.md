@@ -64,3 +64,4 @@ För att avgruppera eventuellt grupperade rader eller kolumner, anropa  [**ungro
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) har en överbelastning som tar en boolesk tredje parameter. Om den ställs in på **true** tar den bort all grupperad information. Annars tas endast yttre gruppinformation bort.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

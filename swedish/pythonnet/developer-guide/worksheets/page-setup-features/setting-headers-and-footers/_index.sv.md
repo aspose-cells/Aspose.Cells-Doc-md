@@ -58,3 +58,4 @@ Efter att ha utfört koden nedan och öppnat filen, kontrollera arbetsbladets si
 1. Välj fliken **Sidhuvud/Sidfot**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

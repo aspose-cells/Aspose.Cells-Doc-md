@@ -20,3 +20,4 @@ keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリを使用�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.py" >}}
+{{< app/cells/assistant language="python-net" >}}

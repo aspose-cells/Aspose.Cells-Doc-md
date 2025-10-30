@@ -21,3 +21,4 @@ The following example shows how to add a picture as WordArt to set a background 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Picture-WordArtWatermark-new.cpp" >}}
 
 
+{{< app/cells/assistant language="cpp" >}}

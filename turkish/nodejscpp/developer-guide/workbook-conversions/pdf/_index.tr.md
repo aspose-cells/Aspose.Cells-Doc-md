@@ -238,3 +238,4 @@ Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmed
 - [Belirtilen Çalışsayfalarını PDF olarak kaydet](/cells/tr/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [Güvenli PDF Belgeleri](/cells/tr/nodejs-cpp/secure-pdf-documents/)
 - [Çıktı PDF ve görüntülerde metin geçişini belirle](/cells/tr/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

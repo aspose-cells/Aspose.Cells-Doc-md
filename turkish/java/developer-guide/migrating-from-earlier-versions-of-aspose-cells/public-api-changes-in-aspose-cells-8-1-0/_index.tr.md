@@ -88,5 +88,5 @@ Biçimsiz Dize Değeri: 123456
 
 {{% /alert %}}
 ## **Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Özellikleri Geçersiz Kılındı**
-BuiltInDocumentPropertyCollection sınıfından birçok özellik, Aspose.Cells for .NET 8.1.0'den itibaren geçersiz kılınmıştır. Bu özellikler, Bytes, Characters, CharactersWithSpaces, Lines ve Paragraphs'i içerir. Bu özellikler, Excel elektronik tablolarının korunmasında kullanışlı olmadığı için Excel tarafından atlanır. Bu özellikler aslında Word belgeleri ve PowerPoint sunuları için yazılmıştır. 
+BuiltInDocumentPropertyCollection sınıfındaki birçok özellik Aspose.Cells for Java 8.1.0’den itibaren eski kabul edilmiştir. Bu özellikler Bytes, Characters, CharactersWithSpaces, Lines ve Paragraphs’i içerir. Sebep ise, bahsi geçen özelliklerin Excel tablolarının korunmasında kullanılmamasıdır çünkü Excel bunları atlar. Bu özellikler başlangıçta Word belgeleri ve PowerPoint sunumları için yazılmıştır. 
 {{< app/cells/assistant language="java" >}}

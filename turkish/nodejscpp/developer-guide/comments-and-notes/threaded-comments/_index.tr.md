@@ -214,3 +214,4 @@ Excel'de dişli yorumları kaldırmak için, yorumları içeren hücre üzerinde
 ![todo:image_alt_text](threaded-comments_8.jpg)   
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -44,3 +44,4 @@ workbook.save(outputFilePath, saveOptions);
 スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

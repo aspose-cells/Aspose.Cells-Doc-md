@@ -3,8 +3,8 @@ title: Hücrede Metin Biçimlendirme Nasıl Yapılır
 type: docs
 weight: 130
 url: /tr/net/how-to-format-text-in-cell/
-description: Aspose.Cells kullanarak hücredeki metni nasıl biçimlendireceğinizi öğrenin.
-keywords: hücre metnini biçimlendir, hücrede kısmi karakterleri biçimlendir, hücre metnine çoklu biçimlendirme ekle, hücrenin bir bölümünü vurgula, hücrenin bir bölümünü biçimlendir, hücrede metin biçimlendirme.
+description: Aspose.Cells ile hücredeki metni biçimlendirmeyi ve tek hücre içinde birçok farklı stil kullanmayı öğrenin.
+keywords: Hücre metni biçimlendirme, hücrenin kısmi karakterlerini biçimlendirme, hücre metnine çoklu biçimlendirme ekleme, hücrenin bir bölümünü vurgulama, hücrenin bir kısmını biçimlendirme, tek hücrede Çoklu stil, hücrelerde metni biçimlendirme, hücredeki metni biçimlendirme.
 ---
 
 ## **Olası Kullanım Senaryoları**

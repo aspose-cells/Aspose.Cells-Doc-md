@@ -47,3 +47,4 @@ Excelで数字を通貨としてフォーマットするには、次の手順に
 Aspose.Cells for Node.js via C++ライブラリで数値を通貨にフォーマットするには、セルにプログラムから通貨フォーマットを適用できます。こちらは、その方法です：
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

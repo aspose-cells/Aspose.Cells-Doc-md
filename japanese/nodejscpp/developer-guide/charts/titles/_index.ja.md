@@ -92,3 +92,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 ## **高度なトピック**
 - [ODSファイルからチャートサブタイトルを読む](/cells/ja/nodejs-cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -375,3 +375,4 @@ Exekvera ovanstående kod, kommer du att få följande resultat:
 - [Hantera textalternativ för formen](/cells/sv/python-net/managing-shape-text-options/)
 - [Webbutökningar - Office-tillägg](/cells/sv/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

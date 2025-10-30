@@ -190,3 +190,4 @@ Aspose.Cells.GridWeb ayrıca aşağıda listelenen 59 türde sayı biçimini des
 |DoğuZamanı4 |tth?mm?ss |
 |EasternTime5 |tth?mm? |
 |DoğuZamanı6 |tth?mm?ss |
+{{< app/cells/assistant language="cpp" >}}

@@ -25,11 +25,11 @@ Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Doc
 
 ## Adım 1: Dockerfile Oluşturma
 
-Proje dizininize `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker görüntünüzü nasıl oluşturacağınıza dair talimatlar içermelidir.
+Projeniizde bir `Dockerfile` adlı dosya oluşturun [dizin](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs). `Dockerfile`, Docker görüntünüzü nasıl oluşturacağınızla ilgili talimatları içermelidir.
 
 ## Adım 2: GridJs için Dockerfile Yazma
 
-İşte Java uygulamasıyla GridJs demo için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile):
+İşte Java uygulamasıyla GridJs demo için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs/Dockerfile):
 
 ```dockerfile
 # Use the maven image to build jar file

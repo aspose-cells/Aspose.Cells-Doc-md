@@ -226,3 +226,4 @@ Kutu ve saçak grafiği Aspose.Cells for Python via .NET'de desteklenmektedir.
 Şelale grafiği Aspose.Cells for Python via .NET'de desteklenmektedir.
 ### **Özel Grafik Türleri**
 Özel grafikler, diğer grafiklere de uygulanabilen özel biçimlendirmelerle grafikler oluşturmanızı sağlar. Burada sadece standart grafikler hakkında konuştuk. Özel grafikler hakkında daha fazla ayrıntı öğrenmek istiyorsanız, lütfen özel grafikler oluşturma hakkında bilgi veren Özel Grafikler Oluşturma makalesini okuyun.
+{{< app/cells/assistant language="python-net" >}}

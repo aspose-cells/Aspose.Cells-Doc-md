@@ -73,3 +73,4 @@ Aspose.Cells for Python via .NET APIは、コレクションにカスタムプ�
 - [ビルドインドキュメントプロパティを使用してExcelファイルのドキュメントバージョンを指定する](/cells/ja/python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [ビルドインドキュメントプロパティを使用してExcelファイルの言語を指定する](/cells/ja/python-net/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
 
+{{< app/cells/assistant language="python-net" >}}

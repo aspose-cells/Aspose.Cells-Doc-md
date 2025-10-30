@@ -37,3 +37,4 @@ Lütfen aşağıdaki örnek kodu görün. Bir tabloyu içeren [örnek Excel dosy
 - [Süzgeci Kaldırma](/cells/tr/python-net/removing-slicer/)
 - [Dilimleyiciyi Oluşturma](/cells/tr/python-net/rendering-slicer/)
 - [Dilimleyici Güncelleme](/cells/tr/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

@@ -49,3 +49,4 @@ Du kan hämta följande [Inmatningsfil](SeriesFiltered.xlsx) och [Utdatafil](out
 
 Som visas i bilden nedan, har de första två serier som ursprungligen var synliga blivit osynliga i utdatafilen.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

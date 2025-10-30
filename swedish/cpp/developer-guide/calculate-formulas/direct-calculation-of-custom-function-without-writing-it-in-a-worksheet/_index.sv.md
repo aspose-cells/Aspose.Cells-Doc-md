@@ -92,3 +92,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [Implementera anpassad beräkningsmotor för att utöka den standardmässiga beräkningsmotorn för Aspose.Cells](/cells/sv/cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -135,3 +135,4 @@ Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.PPTX**](ht
 - [Json](/cells/tr/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/tr/python-net/convert-excel-to-pdf/)
 - [CSV, TSV ve TXT'yi Excel'e Dönüştür](/cells/tr/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

@@ -67,3 +67,4 @@ Dış Excel dosyalarına [hyperlinks](https://reference.aspose.com/cells/python-
 - [Çalışma Sayfasının Bağlantılarını Düzenleme](/cells/tr/python-net/editing-hyperlinks-of-worksheet/)
 - [Aralıktaki Bağlantıları Al](/cells/tr/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

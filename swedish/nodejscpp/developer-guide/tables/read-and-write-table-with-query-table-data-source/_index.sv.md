@@ -39,3 +39,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 [Källfil](96928091.xls)
 
 [Resultatfil](96928092.xls)
+{{< app/cells/assistant language="nodejs-cpp" >}}

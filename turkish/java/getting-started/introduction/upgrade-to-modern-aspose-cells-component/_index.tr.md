@@ -1,5 +1,5 @@
 ---
-title: Modern Aspose.Cells Bileşimine Yükseltme
+title: Eski Aspose.Excel den Modern Aspose.Cells Bileşenine Güncelleme
 type: docs
 weight: 60
 url: /tr/java/upgrade-to-modern-aspose-cells-component/

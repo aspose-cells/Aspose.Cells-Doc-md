@@ -17,3 +17,4 @@ Utvärderingsversionen av Aspose.Cells (dvs Aspose.Cells utan en applicerad lice
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 Om du vill testa Aspose.Cells utan begränsningar från utvärderingsversionen, [begär en 30-dagars tillfällig licens](https://purchase.aspose.com/temporary-license).
+{{< app/cells/assistant language="python-net" >}}

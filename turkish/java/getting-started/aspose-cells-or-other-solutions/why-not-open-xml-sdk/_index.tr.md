@@ -21,7 +21,7 @@ Aspose.Cells, uygulamanızın aşağıdaki elektronik tablo işleme görevlerini
 
 
 ## **Open XML SDK ve Aspose.Cells Karşılaştırması**
-Aşağıdaki tablo, Open XML SDK ve Aspose.Cells özelliklerini karşılaştırmaktadır.
+Aşağıdaki tablo Open XML SDK ve Aspose.Cells özelliklerini karşılaştırıyor. 
 
 |**Özellik veya Özellik Kategorisi**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 Eğer tablo formüller içeriyorsa, PDF’ye dönmeden önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) çağrısı en iyisidir. Böylece formüle bağlı değerler yeniden hesaplanır ve doğru değerler çıktı dosyasına yansıtılır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

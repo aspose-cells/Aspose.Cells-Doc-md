@@ -26,3 +26,4 @@ För att tillämpa viss formatering på en stor omfattning av celler i en arbets
 Eftersom tillvägagångssättet [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) använder mycket mindre minne och är effektivt, togs den äldre Cell.Style-egenskapen bort med versionen Aspose.Cells 7.1.0, vilken använde mycket onödigt minne.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

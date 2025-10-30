@@ -415,3 +415,4 @@ int main()
 ## **Fortsatta ämnen**
 - [Applicera Superscript- och Subscript-effekter på typsnitt](/cells/sv/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Få en lista över typsnitt som används i en kalkylblad eller arbetsbok](/cells/sv/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

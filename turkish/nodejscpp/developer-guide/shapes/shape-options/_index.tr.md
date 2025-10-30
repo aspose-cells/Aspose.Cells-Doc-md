@@ -9,3 +9,4 @@ keywords: Shape seçeneklerini Node.js ile C++ üzerinden yönetin, Elektronik t
 ---
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

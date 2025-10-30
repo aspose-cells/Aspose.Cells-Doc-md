@@ -29,3 +29,4 @@ Aşağıdaki ekran görüntüsü, Aspose.Cells for Python via .NET'nin [kaynak e
 [Kaynak excel dosyasını](5115563.xlsx) [çıktı PDF'ye](5115564.pdf) dönüştürmek için bu örnek kodu kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}
+{{< app/cells/assistant language="python-net" >}}

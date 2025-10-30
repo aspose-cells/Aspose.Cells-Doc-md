@@ -26,3 +26,4 @@ url: /ja/cpp/installation/
 1. [最新のファイル](https://downloads.aspose.com/cells/cpp/)をダウンロード/インストールします。
 1. フォルダーを展開して、本番環境に配置します。
 1. Aspose.Cells for C++を使用するためには、プロジェクトで"Include"および"libAspose.Cells.dylib"ディレクトリを参照してください。
+{{< app/cells/assistant language="cpp" >}}

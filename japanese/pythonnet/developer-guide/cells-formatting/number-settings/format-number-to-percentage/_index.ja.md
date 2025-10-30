@@ -102,3 +102,4 @@ $ pip install aspose-cells-python
 これらの手順に従うことで、Aspose.Cells for Python via .NET で数字を簡単にパーセンテージにフォーマットできます。Aspose.Cellsは、セルのフォーマットや数式の操作を含むExcelファイルの操作に幅広い機能を提供し、.NET開発者にとって強力なツールとなっています。
 
 
+{{< app/cells/assistant language="python-net" >}}

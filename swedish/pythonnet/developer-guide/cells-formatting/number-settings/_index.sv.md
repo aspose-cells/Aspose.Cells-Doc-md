@@ -90,3 +90,4 @@ Om du använder [**custom**](https://reference.aspose.com/cells/python-net/aspos
 - [Ange anpassade nummerdecimaler och gruppavgränsare för Arbetsbok](/cells/sv/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specificera DBNum anpassade mönsterformatering](/cells/sv/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

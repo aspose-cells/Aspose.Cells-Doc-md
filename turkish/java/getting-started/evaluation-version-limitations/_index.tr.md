@@ -37,7 +37,7 @@ Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Y
 <br>
 
 ### **3. Sınırlama: Değerlendirme bilgileriyle Düz Metin**
-Aspose.Cells tarafından üretilen çıktı Düz Metin dosyasında, bir değerlendirme bilgisi belgenin sonuna eklenecektir.
+Aspose.Cells ile Düz Metin dosyasına çıktı alınırken, belgelerin sonuna bir değerlendirme bilgisi eklenir. Bir dosyayı düz metin olarak kaydederken (CSV ve TSV formatları gibi), yalnızca ilk çalışma sayfasının içeriği çıktı olarak alınır.
 <br>
 <image src="2.png" width="70%" />
 <br>

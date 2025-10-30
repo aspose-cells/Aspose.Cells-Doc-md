@@ -54,3 +54,4 @@ Kaynak ve çıktı Excel dosyaları referans amaçlı eklenmiştir.
 [Kaynak Dosya](96928091.xls)
 
 [Çıkış Dosyası](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

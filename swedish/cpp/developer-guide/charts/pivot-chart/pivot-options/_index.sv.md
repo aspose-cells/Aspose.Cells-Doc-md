@@ -61,3 +61,4 @@ int main()
 Med den tidigare nämnda exempelkoden kan du kontrollera resultatfilen med följande effekt, som visas i figuren:
 
 **![Output](Output.png)**
+{{< app/cells/assistant language="cpp" >}}

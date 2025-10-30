@@ -61,3 +61,4 @@ int main()
 Eğer hesap tablosu formüller içeriyorsa, PDF'ye dönmeden hemen önce [Calculate(CalculationData data)] metodunu çağırmak en iyisidir. Bu, formüle bağlı değerlerin yeniden hesaplanmasını sağlar ve PDF'de doğru değerlerin gösterilmesini sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

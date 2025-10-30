@@ -25,11 +25,11 @@ aliases:
 
 ## ステップ1：Dockerfileを作成
 
-あなたのプロジェクト[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs)に `Dockerfile` という名前のファイルを作成してください。`Dockerfile` には、Dockerイメージのビルド方法に関する指示を記述します。
+プロジェクトの[ディレクトリ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs)に`Dockerfile`という名前のファイルを作成してください。`Dockerfile`には、Dockerイメージのビルド方法に関する指示を含める必要があります。
 
 ## ステップ2: GridJs用のDockerfileを書く
 
-次の例は、Javaアプリケーションを使用したGridJsデモ用の [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs/Dockerfile) 例です：
+こちらは、Javaアプリケーションを使用したGridJsデモのサンプル [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs/Dockerfile) です：
 
 ```dockerfile
 # Use the maven image to build jar file

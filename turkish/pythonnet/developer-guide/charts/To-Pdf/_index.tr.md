@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET kullanarak istediğiniz sayfa boyutunu belirley
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateChartPDFWithDesiredPageSize.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

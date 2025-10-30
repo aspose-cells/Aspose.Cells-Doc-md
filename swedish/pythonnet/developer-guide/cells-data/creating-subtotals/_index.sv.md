@@ -35,3 +35,4 @@ De kodsnuttar som följer visar hur man lägger till delsummor i ett kalkylblad 
 
 ## **Fortsatta ämnen**
 - [Tillämpa delsumma och ändra riktningen för sammanfattande rader nedanför detaljer](/cells/sv/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

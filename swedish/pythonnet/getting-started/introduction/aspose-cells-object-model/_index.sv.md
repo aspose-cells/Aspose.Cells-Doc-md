@@ -87,3 +87,4 @@ Varje arbetsbladsobjekt innehåller en VerticalPageBreakCollection-objekt som re
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Ett VerticalPageBreak-objekt används för att skapa ett vertikalt sidbrott i kalkylarket.
+{{< app/cells/assistant language="python-net" >}}

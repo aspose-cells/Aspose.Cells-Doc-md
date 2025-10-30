@@ -34,6 +34,14 @@ Följande exempel visar hur man lägger till en etikett i diagrammet. Exemplet a
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Obs:** Denna typ av etikettkontroll stöds endast i XLS-filer. Om du vill ha en liknande effekt i en XLSX-fil, använd något av följande alternativ:
+
+1. Använd TextBox-kontrollen istället, det finns ett liknande alternativ till etikettkontroll i XLSX-filer.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) för TextBox, XLSX-filer kan stödja.
+
+2. Lägg till ett kalkylblad där bladtypen är "SheetType.Chart", och lägg sedan till diagram och kontroll på detta blad.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) för att lägga till SheetType.Chart.
+
 ## **Lägga till textbox-styrenhet i diagrammet**
 
 Ett sätt att markera viktig information i en rapport är att använda en textruta. Till exempel, mata in text för att markera företagsnamnet eller för att ange den geografiska regionen med högst försäljning. Klassen [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) tillhandahåller en metod som heter [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), som används för att lägga till en textruta styrenhet i ett diagram. Följande är parametrarna som används för metoden:

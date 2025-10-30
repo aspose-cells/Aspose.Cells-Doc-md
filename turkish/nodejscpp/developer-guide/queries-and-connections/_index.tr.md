@@ -58,3 +58,4 @@ db.close(err => {
 
 ## **Sonuç**
 Aspose.Cells for Node.js via C++ kullanılarak, veritabanı bağlantılarını yönetmek ve sorguları çalıştırmak etkili ve verimli bir şekilde uygulanabilir, Node.js uygulamalarınızda güçlü veri manipülasyon yetenekleri sağlar.
+{{< app/cells/assistant language="nodejs-cpp" >}}

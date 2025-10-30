@@ -42,3 +42,4 @@ Bu özelliği kullanabilmek için programınıza veya projenize `Aspose.Cells.R
 Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı SVG Görüntülerini](67338403.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

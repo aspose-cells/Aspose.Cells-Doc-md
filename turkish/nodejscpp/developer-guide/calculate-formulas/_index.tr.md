@@ -163,3 +163,4 @@ Varsayılan olarak, hesaplama zinciri devre dışıdır. Zincirin oluşturulmas�
 - [AbstractCalculationEngine Kullanarak Bir Değer Aralığı Döndürme](/cells/tr/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Çalışma Kitabının Formül Hesaplama Modunu Ayarlama](/cells/tr/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Aspose.Cells'te FormulaText Fonksiyonu Kullanma](/cells/tr/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

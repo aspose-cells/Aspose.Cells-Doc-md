@@ -21,8 +21,8 @@ För att ta bort ett namngivet område från Excel kan du följa dessa steg:
 6. Klicka på knappen "Stäng" för att stänga dialogrutan för Namnhanterare.
 7. Spara arbetsboken för att behålla ändringarna.
 
-## **Tar bort namngivet område med Aspose.Cells for .Net**
-Med Aspose.Cells för .Net kan du ta bort namnintervall eller definierade namn genom [text](https://reference.aspose.com/cells/python-net/aspose.cells.namecollection/remove_a_name/#str) i listan.
+## **Raderar namngrupp utan Aspose.Cells för Python via .NET**
+Med Aspose.Cells för Python via .NET kan du ta bort namngivna grupper eller definierade namn genom [text](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) i listan.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

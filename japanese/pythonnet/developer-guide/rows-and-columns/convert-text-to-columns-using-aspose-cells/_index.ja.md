@@ -20,3 +20,4 @@ Microsoft Excel を使用してテキストを列に変換できます。この�
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-ConvertTextToColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

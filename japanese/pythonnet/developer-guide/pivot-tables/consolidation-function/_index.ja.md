@@ -37,3 +37,4 @@ Aspose.Cells for Python via .NETは、以下の集計関数をサポートする
 **DISTINCT_COUNT**集計関数は、Microsoft Excel 2013でのみサポートされています。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

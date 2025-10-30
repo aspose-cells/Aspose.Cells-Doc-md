@@ -11,3 +11,4 @@ Microsoft Excel stöder många format som XLS, XLSX, XLSM, XLSB, CSV, etc. Aspos
 Följande kodexempel laddar den [källa CSV-filen](23166994.csv), läser dess cell A1 och kopierar sedan dess innehåll till cell C4 och sparar det som [utmatningsfilen CSV](23166994.csv).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET API, URL’den resimleri Excel Çalışma Sayfa
 Her zaman URL’den güncel resmi istiyorsanız, [Web Adresinden Bağlantılı Resim Ekle](/cells/tr/python-net/insert-a-linked-picture-from-web-address/) makalesindeki talimatları izleyebilirsiniz. Bu yöntemi kullanarak, çalışma sayfası her açıldığında resim URL’den yüklenir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

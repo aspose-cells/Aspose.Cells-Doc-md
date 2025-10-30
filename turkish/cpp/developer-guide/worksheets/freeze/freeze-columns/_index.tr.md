@@ -59,3 +59,4 @@ int main()
 ```
 
 Ekli [örnek kaynak Excel dosyası](Freeze.xlsx).
+{{< app/cells/assistant language="cpp" >}}

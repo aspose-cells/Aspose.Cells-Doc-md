@@ -83,3 +83,4 @@ int main()
 ## 関連記事
 
 - [ピボットテーブルの書式設定](/cells/ja/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

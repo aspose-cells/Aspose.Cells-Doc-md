@@ -20,3 +20,4 @@ Aspose.Cells for Python via .NET APIは、URLから画像を読み込み、Excel
 常にURLから最新の画像を取得したい場合もあります。その場合は、[Webアドレスからリンクされた画像を挿入](/cells/ja/python-net/insert-a-linked-picture-from-web-address/)の記事の指示に従ってください。この方法では、ワークシートを開くたびに画像がURLからロードされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

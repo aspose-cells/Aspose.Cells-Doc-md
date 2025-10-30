@@ -39,3 +39,4 @@ opts.setEnableCssCustomProperties(true);
 // Save the workbook in HTML
 workbook.save(path.join(dataDir, "outputEnableCssCustomProperties.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

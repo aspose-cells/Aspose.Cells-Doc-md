@@ -48,3 +48,4 @@ Aşağıdaki örnek, bir lisansı bir akıştan yüklemenin nasıl yapıldığı
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

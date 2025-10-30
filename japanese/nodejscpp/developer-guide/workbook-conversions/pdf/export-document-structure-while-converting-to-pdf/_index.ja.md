@@ -29,3 +29,4 @@ pdfSaveOptions.setExportDocumentStructure(true);
 wb.save("output.pdf", pdfSaveOptions);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

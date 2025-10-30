@@ -80,3 +80,4 @@ Viktiga implementeringsdetaljer:
 - Hantera diagramtypvalidering
 
 Se [ChartPoint-dokumentationen](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) för avancerade konfigurationsalternativ.
+{{< app/cells/assistant language="python-net" >}}

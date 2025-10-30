@@ -43,3 +43,4 @@ Slutligen sparar följande kod diagrammet i bildformat och arbetsboken i XLSX-fo
 - [Dataformatering i diagram](/cells/sv/python-net/data-formatting-in-charts/)
 - [Ställa in diagramens utseende](/cells/sv/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

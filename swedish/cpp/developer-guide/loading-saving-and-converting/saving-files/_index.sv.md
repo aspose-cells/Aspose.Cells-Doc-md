@@ -32,3 +32,4 @@ För att spara önskat innehåll till en PDF-fil med hjälp av biblioteket Aspos
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

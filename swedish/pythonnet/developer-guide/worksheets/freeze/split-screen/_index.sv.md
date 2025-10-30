@@ -51,3 +51,4 @@ För att ta bort arbetsbladets uppdelning, klicka bara på Split-knappen igen.
 Aspose.Cells för Python via .NET tillhandahåller en [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) metod för att ta bort dela inställningen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}
+{{< app/cells/assistant language="python-net" >}}

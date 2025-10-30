@@ -190,3 +190,4 @@ int main()
 - [コメントのフォント色を変更する方法](/cells/ja/cpp/how-to-change-the-comment-font-color/)
 - [コメントの背景を設定する方法](/cells/ja/cpp/how-to-set-comment-background/)
 - [スレッド化されたコメント](/cells/ja/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

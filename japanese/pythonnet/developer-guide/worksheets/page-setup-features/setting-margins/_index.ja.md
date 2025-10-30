@@ -41,3 +41,4 @@ Aspose.Cells for Python via .NET は、Excelファイルを表すクラス [**Wo
 [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) クラスのメンバーでヘッダーとフッターの余白を設定するには、[**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) や [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin) などを使用します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

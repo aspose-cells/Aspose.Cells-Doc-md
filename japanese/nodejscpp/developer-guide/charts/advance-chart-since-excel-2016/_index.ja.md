@@ -70,3 +70,4 @@ BoxWhisker
 - [ツリーマップチャートの作成](/cells/ja/nodejs-cpp/creating-treemap-chart/)  
 - [サンバーストチャートの作成](/cells/ja/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

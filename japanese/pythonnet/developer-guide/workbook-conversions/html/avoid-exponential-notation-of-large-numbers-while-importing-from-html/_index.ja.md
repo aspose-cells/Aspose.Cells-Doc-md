@@ -16,3 +16,4 @@ HTMLには1.234567890123456といった15桁を超える数字が含まれてお
 次のサンプルコードは、[**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/)プロパティの使用方法を説明しています。APIは指数表記に変換することなく、この番号をそのままインポートします。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

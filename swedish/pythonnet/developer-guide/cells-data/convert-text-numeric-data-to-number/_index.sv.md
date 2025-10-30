@@ -43,3 +43,4 @@ Dessa strängnummer har konverterats till nummer med [**Cells.convert_string_to_
 Följande kodexempel visar hur du konverterar all strängnumriska data till faktiska nummer i alla arbetsblad.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

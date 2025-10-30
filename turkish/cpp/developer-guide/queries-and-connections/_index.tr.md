@@ -6,3 +6,4 @@ weight: 700
 url: /tr/cpp/managing-database-connections/
 description: Aspose.Cells kullanarak C++ ile veritabanı bağlantılarını ve sorgularını yönetin.
 ---
+{{< app/cells/assistant language="cpp" >}}

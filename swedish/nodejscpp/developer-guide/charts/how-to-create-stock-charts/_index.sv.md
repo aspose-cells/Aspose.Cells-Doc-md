@@ -25,3 +25,4 @@ Aktiekurvor är en specifik diagramtyp som används för att följa förändring
 Följande dataset visar den dagliga handelsinformationen för en aktie. Vi kommer att använda dessa data för att skapa fyra typer av aktiekurvor: High-Low-Close (HLC), Open-High-Low-Close (OHLC), Volume-High-Low-Close (VHLC), och Volume-Open-High-Low-Close (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

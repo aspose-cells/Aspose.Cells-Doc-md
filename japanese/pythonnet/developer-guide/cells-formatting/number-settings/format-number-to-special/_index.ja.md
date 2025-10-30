@@ -112,3 +112,4 @@ $ pip install aspose-cells-python
 
 Aspose.Cells for Python via .NETにおいて、数字を特殊な書式にするには、セルのスタイルのカスタム数字書式を設定します。これにより、さまざまな書式設定が可能となり、データを意図した通りに表示できます。カスタム書式の鍵は、提供する書式文字列であり、それによって数字の表示方法が決まります。
 
+{{< app/cells/assistant language="python-net" >}}

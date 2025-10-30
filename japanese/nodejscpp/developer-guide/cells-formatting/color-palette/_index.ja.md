@@ -36,3 +36,4 @@ Aspose.CellsはMicrosoft Excelファイルを表すクラス[**Workbook**](https
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

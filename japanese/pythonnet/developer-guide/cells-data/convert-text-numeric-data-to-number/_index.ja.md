@@ -43,3 +43,4 @@ Aspose.Cells for Python via .NETは、すべての文字列やテキスト数値
 以下のサンプルコードは、すべてのワークシートの文字列数値データを実際の数値に変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ConvertStringToNumericValue-ConvertTextNumericDatatoNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

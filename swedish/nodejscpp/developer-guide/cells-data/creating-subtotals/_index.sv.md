@@ -33,3 +33,4 @@ Följande kodbitar visar hur man lägger till delsumma till ett arbetsblad med A
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-CreatingSubtotals-1.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -35,3 +35,4 @@ url: /ja/python-net/optimizing-memory-usage-while-working-with-big-files-having-
 1. **セルや行の挿入・削除**: セル/行の挿入/削除が多い場合、*MemoryPreference*モードのパフォーマンス劣化が*Normal*モードと比較して顕著になります。
 1. **異なるセルタイプ間での操作**: ほとんどのセルが文字列値や数式を含む場合、メモリコストは*Normal*モードと同じになりますが、空のセルが多い場合やセルの値が数値、ブール値などの場合、[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) オプションの方がパフォーマンスが向上します。
 
+{{< app/cells/assistant language="python-net" >}}

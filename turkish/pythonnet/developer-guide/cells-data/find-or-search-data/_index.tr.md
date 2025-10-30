@@ -65,3 +65,4 @@ Belirli dize değerlerin bulunması, [**cells**](https://reference.aspose.com/ce
 - [Belirli Stile Sahip Hücreleri Bulma](/cells/tr/python-net/find-cells-with-specific-style/)
 - [Hücre Değerinin Tek Tırnak İşareti ile Başlayıp Başlamadığını Bulma](/cells/tr/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Orijinal Değerler Kullanarak Veri Arama](/cells/tr/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

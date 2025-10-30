@@ -41,3 +41,4 @@ wb.save(path.join(dataDir, "test_Cs.pdf"), pdfSaveOptions);
 
 ![solid-gridline.png](solid-gridline.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

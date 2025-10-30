@@ -73,7 +73,7 @@ aliases:
 
 ![カスタマイズされたメニューバー項目の画面](gridjs_customize_menu.png)
 
-## ツールバー項目のカスタマイズ 
+## ツールバの項目のカスタマイズ 
 例：ズームボタンだけを残すために、GridJsのdiv idを "gridjs-divid" と仮定します。
 ```javascript
    //get toolbar parent dom
@@ -97,6 +97,80 @@ aliases:
 ![カスタマイズされたツールバーの画面](gridjs_customize_toolbar.png)
 
 
+## ツールバのホバー効果のカスタマイズ
+
+ブラウザ検査ウィンドウを開き、ツールバーのボタンを選択します。
+
+![todo:inspectツールバーボタンを選択する画面](gridjs_hover_toolbar_button_inspect.png)
+
+その後、このボタンに対応するCSSキーは：freeze です。
+
+![todo:ツールバーボタンのCSSキーを見つける画面](gridjs_hover_toolbar_button_csskey.png)
+
+以下のCSSルールを追加してください：
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+結果は次のようになります：
+
+![todo:ツールバーボタンのホバー効果の画面](gridjs_hover_toolbar_button_hover.png)
 
 
+## 下部バーのアイテムをカスタマイズ
+
+### 概要
+下部バーには2つのインタラクティブなボタンがあります：
+1. &zwnj;**ワークシート追加ボタン**&zwnj; (`add`クラス) - 新しいワークシートを作成します。
+2. &zwnj;**ワークシート選択ボタン**&zwnj; (`ellipsis`クラス) - ワークシートの選択を管理します。
+
+### DOMアクセス
+これらの要素には次の方法でアクセスできます：
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### カスタマイズ例
+1. ボタンを非表示にする
+DOMからボタンを削除するには：
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. アイコンを変更する
+外部SVGファイルまたはインラインSVGデータのいずれかを使用してアイコンを置き換えることができます。
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. ボタンの動作を変更
+クリックイベントを修正して機能をカスタマイズできます：
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 

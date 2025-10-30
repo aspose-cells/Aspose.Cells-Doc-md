@@ -18,7 +18,7 @@ ancak dom yapısına dayalı bazı js fonksiyonları yazarak bunu başarabiliriz
 
 
 
-## menü çubuğunu özelleştir 
+## Menü çubuğunu özelleştir 
 örneğin: yalnızca Dosya menüsünü tutmak için, GridJs div kimliğinin "gridjs-divid" olduğunu varsayın
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ Bu fonksiyon çağrıldıktan sonra
 ![yapılacak:menü çubuğunu özelleştirme ekranı](gridjs_customize_menubar.png)
 
 
-## Menü çubuğundaki öğeleri özelleştir 
+## Menü çubuğu öğelerini özelleştir 
 örneğin: sadece Dosya menüsünde "Farklı Kaydet XLSX Olarak" menü öğesini tutmak için, GridJs div kimliğinin "gridjs-divid" olduğunu varsayın
 ```javascript
    //get menubar parent dom
@@ -95,6 +95,84 @@ Bu fonksiyon çağrıldıktan sonra
 Bu fonksiyon çağrıldıktan sonra 
 
 ![yapılacak: araç çubuğu özelleştirme ekranı](gridjs_customize_toolbar.png)
+
+
+## Araç Çubuğu hover etkisini özelleştir
+
+Tarayıcı inceleme penceresini açın, araç çubuğu düğmesini seçin,
+
+![todo:insepect araç çubuğu düğmesi seçmek için ekran](gridjs_hover_toolbar_button_inspect.png)
+
+sonra bu düğme için ilgili CSS anahtarını bulabiliriz:dondur
+
+![todo: araç çubuğu düğmesi için CSS anahtarını bulmak için ekran](gridjs_hover_toolbar_button_csskey.png)
+
+aşağıdaki CSS kuralını ekleyin:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+sonuç şöyle olacaktır:
+
+![todo: araç çubuğu düğmesi hover etkisi ekran](gridjs_hover_toolbar_button_hover.png)
+
+
+## Alt Çubuktaki Öğeleri Özelleştir
+
+### Genel Bakış
+Alt çubuk iki etkileşimli düğme içerir:
+1. &zwnj;**Çalışma Sayfası Ekle Düğmesi**&zwnj; (`add` sınıfı) - Yeni çalışma sayfaları oluşturur
+2. &zwnj;**Çalışma Sayfası Seç Düğmesi**&zwnj; (`ellipsis` sınıfı) - Çalışma sayfası seçimlerini yönetir
+
+### DOM Erişimi
+Bu elementlere erişmek için kullanabilirsiniz:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Özelleştirme Örnekleri
+1. Düğmeleri Gizle
+Bir düğmeyi DOM'dan kaldırmak için:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Simgeleri Değiştir
+İkonları ya harici SVG dosyalarıyla ya da satır içi SVG verileriyle değiştirebilirsiniz.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+2. Buton Davranışını Değiştir
+İşlevselliği özelleştirmek için tıklama olayını değiştirebilirsiniz:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
 
 

@@ -26,3 +26,4 @@ HTMLをインポートする際に改行後の余分なスペースを削除す�
 次のサンプルコードは [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) プロパティの使用例を示しています。上記のスクリーンショットに示されているように、true または false に設定してください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -1,0 +1,99 @@
+---
+title: Hur man förhindrar att användare skriver ut Excel fil med JavaScript via C++
+linktitle: Hur man förhindrar användare från att skriva ut Excel fil
+type: docs
+weight: 600
+url: /sv/javascript-cpp/how-to-prevent-printing-excel/
+description: Lär dig hur du förhindrar att användare skriver ut Excel filer med Aspose.Cells for JavaScript via C++.
+keywords: excel utskrift, förhindra utskrift av Excel, hur man förhindrar användare från att skriva ut Excel, Excel förhindra utskrift, förhindra utskrift av arbetsbok, Förhindra användare från att skriva ut hela arbetsboken med VBA.
+---
+
+## **Möjliga användningsscenario**  
+I vårt dagliga arbete kan det finnas viktig information i Excel-filen; för att skydda den interna datan från att spridas tillåter inte företaget oss att skriva ut den. Det här dokumentet visar hur du förhindrar andra från att skriva ut Excel-filer.  
+
+## **Hur man förhindrar användare från att skriva ut fil i MS-Excel**  
+Du kan tillämpa följande VBA-kod för att skydda din specifika fil från att skrivas ut.  
+1. Öppna arbetsboken som du inte tillåter andra att skriva ut.  
+1. Välj fliken "Utvecklare" i Excel-menyn och klicka på knappen "Visa kod" i avsnittet "Kontroller". Alternativt kan du hålla ned tangenterna ALT + F11 för att öppna Microsoft Visual Basic för applikationer-fönstret.  
+<br>  
+<img src="1.png" width=70% />  
+1. Dubbelklicka på ThisWorkbook i vänstra Projektutforskaren för att öppna modulen och lägg till några VBA-koder.  
+<br>  
+<img src="2.png" width=70% />  
+1. Spara och stäng detta kodfönster, gå tillbaka till arbetsboken, och nu när du skriver ut exempelfilen tillåts det inte att skrivas ut, och du får följande varningsruta:  
+<br>  
+<img src="3.png" width=70% />  
+
+## **Hur du förhindrar att användare skriver ut Excel-fil med Aspose.Cells for JavaScript via C++**  
+
+Följande exempel visar hur man förhindrar användare från att skriva ut en Excel-fil:  
+
+1. Ladda in [provfilen](sample.xlsx).  
+1. Hämta VbaModuleCollection-objektet från VbaProject-egenskapen för Workbook.  
+1. Hämta VbaModule-objektet via namnet "ThisWorkbook".  
+1. Ange egenskapen codes på VbaModule.  
+1. Spara provfilen till [xlsm-format](out.xlsm).  
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Update VBA Module Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.xlsm" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Instantiating a Workbook object from the uploaded file
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Accessing VBA project and its modules
+            const modules = workbook.vbaProject.modules;
+            const module = modules.get("ThisWorkbook");
+
+            // Setting module codes (converted from setCodes -> codes assignment)
+            module.codes = "Private Sub Workbook_BeforePrint(Cancel As Boolean)\r\n  Cancel = True\r\n  MsgBox \"Refusing to print in paperless office\"\r\nEnd Sub\r\n";
+
+            // Saving the modified workbook as macro-enabled workbook
+            const outputData = workbook.save(SaveFormat.Xlsm);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'out.xlsm';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Modified Excel File';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">VBA module updated successfully! Click the download link to get the modified file.</p>';
+        });
+    </script>
+</html>
+```

@@ -242,3 +242,4 @@ int main()
 ## **Avancerade ämnen**
 - [Ladda eller importera CSV-fil med formler](/cells/sv/cpp/load-or-import-csv-file-with-formulas/)
 - [Läsning av CSV-fil med flera teckentabeller](/cells/sv/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

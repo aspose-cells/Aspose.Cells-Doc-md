@@ -22,3 +22,4 @@ Bu örnek bir çalışma kitabı oluşturur, veri ile doldurur ve yalnızca bir 
 1. İlk aralığın biçimlendirmesini ikinci aralığa kopyalar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -59,3 +59,4 @@ workbook.calculate_formula()
 # Save the workbook in PDF format
 workbook.save("5115538.pdf", ac.SaveFormat.PDF)
 ```
+{{< app/cells/assistant language="python-net" >}}

@@ -9,7 +9,7 @@ description: 指定されたパスワードが編集パスワードと一致す�
 
 {{% alert color="primary" %}}
 
-プログラム的に指定されたパスワードが[編集用パスワード]と一致するかどうかを確認する必要がある場合があります。Aspose.Cellsは、WorkbookSettings.WriteProtection.ValidatePassword()メソッドを提供し、これを使ってパスワードの正確性を確認します。
+プログラム的に指定されたパスワードが【編集用パスワード】と一致するかどうかを確認する必要がある場合があります。Aspose.Cellsは、WorkbookSettings.WriteProtection.ValidatePassword()メソッドを提供し、これを使ってパスワードの正確性を確認します。
 
 {{% /alert %}}
 
@@ -71,3 +71,4 @@ Is 567 correct Password to modify: False
 Is 5678 correct Password to modify: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

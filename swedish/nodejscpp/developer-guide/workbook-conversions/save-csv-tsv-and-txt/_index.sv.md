@@ -70,3 +70,4 @@ wb.save(path.join(dataDir, "output.csv"), options);
 ## **Fortsatta ämnen**
 - [Behåll separatorer för tomma rader vid export av kalkylblad till CSV-format](/cells/sv/nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Rensa ledande blanka rader och kolumner vid export av kalkylblad till CSV-format](/cells/sv/nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

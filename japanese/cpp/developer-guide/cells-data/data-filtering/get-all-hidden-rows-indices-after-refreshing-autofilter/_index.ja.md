@@ -76,3 +76,4 @@ Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 12      A13     Pear
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

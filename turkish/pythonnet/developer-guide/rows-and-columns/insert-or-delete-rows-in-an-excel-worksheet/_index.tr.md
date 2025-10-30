@@ -20,3 +20,4 @@ Birkaç satır eklemek veya kaldırmak amacıyla, her zaman döngüde [**Cells.i
 Aspose.Cells for Python via .NET, Microsoft Excel'in işleyişi ile aynı şekilde çalışır. Satırlar veya sütunlar eklenirken, çalışma sayfası içeriği aşağıya ve sağa kaydırılır. Satırlar veya sütunlar çıkarıldığında, çalışma sayfası içeriği yukarı veya sola kaydırılır. Satırlar eklenip veya çıkarıldığında diğer çalışma sayfaları ve hücrelerdeki referanslar güncellenir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

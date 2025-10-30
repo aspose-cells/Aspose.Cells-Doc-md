@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **Gelişmiş Konular**
 - [Çalışsheet'teki Birleştirilmiş Hücreleri Bulma](/cells/tr/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

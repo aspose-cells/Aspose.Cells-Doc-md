@@ -124,3 +124,4 @@ Okuma sırası, [**Style**](https://reference.aspose.com/cells/python-net/aspose
 - [Satır Sonları ve Metin Kaydırma](/cells/tr/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

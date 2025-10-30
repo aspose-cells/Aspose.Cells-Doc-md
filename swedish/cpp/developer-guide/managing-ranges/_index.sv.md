@@ -194,3 +194,4 @@ int main()
 - [Flytta cellområde i ett kalkylblad](/cells/sv/cpp/move-range-of-cells-in-a-worksheet/)
 - [Skapa arbetsbok och arbetsbladsspecifika namngivna områden](/cells/sv/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Sök och ersätt data i ett område](/cells/sv/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

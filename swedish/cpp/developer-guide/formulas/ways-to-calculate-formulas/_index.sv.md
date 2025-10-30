@@ -49,3 +49,4 @@ Var god ring Workbook.GetISettings().SetCreateCalcChain() med falskt parameter. 
 **Exempelkod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

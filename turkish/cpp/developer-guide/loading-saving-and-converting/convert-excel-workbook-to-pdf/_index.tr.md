@@ -44,3 +44,4 @@ Lütfen, örnek kodunu ve [çıktı PDF'sini](67338370.pdf) inceleyin.
 Lütfen, örnek kodunu ve [çıktı PDF'sini](67338371.pdf) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

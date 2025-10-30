@@ -66,3 +66,4 @@ I exemplet använder vi en enkel mallfil som laddas, sedan används inställning
 Ta bort splitfönster med hjälp av [mRemoveSplit](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/) metoden.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

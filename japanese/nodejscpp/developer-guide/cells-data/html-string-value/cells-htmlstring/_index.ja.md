@@ -28,3 +28,4 @@ keywords: セルにHTML文字列を追加（Node.js via C++）、セルにHTML�
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

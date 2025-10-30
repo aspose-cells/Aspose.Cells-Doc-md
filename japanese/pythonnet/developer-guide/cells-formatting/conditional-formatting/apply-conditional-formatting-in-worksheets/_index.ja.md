@@ -45,3 +45,4 @@ Microsoft Office Automationで条件付き書式設定を適用することは�
 
 上記のコードを実行すると、出力ファイル（output.xls）の最初のワークシートのセル“B3”に条件付き書式が適用されます。適用された条件付き書式は、B1とB2の値を合計する数式に依存します。
 
+{{< app/cells/assistant language="python-net" >}}

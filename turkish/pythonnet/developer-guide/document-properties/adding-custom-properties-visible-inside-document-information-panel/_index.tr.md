@@ -22,3 +22,4 @@ Aşağıdaki örnek kod, herhangi bir tipe sahip olmayan ilk özellik ve ikinci 
 - [Aspose.Cells'te Özel XML Parçalarını Kullanma](/cells/tr/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

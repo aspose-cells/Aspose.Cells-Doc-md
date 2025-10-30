@@ -58,3 +58,4 @@ Klicka inuti din data och använd **CTRL + T** eller använd fliken Hem, **Forma
 Följande exempelkod laddar [prov Excel-fil](TableFilters.xlsx) som visar samma funktion med Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

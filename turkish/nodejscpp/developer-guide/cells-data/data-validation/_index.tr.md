@@ -132,3 +132,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 - [Bir Hücreye Uygulanan Doğrulamayı Al](/cells/tr/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Hücre Değerinin Veri Doğrulama Kurallarını Karşıladığını Doğrulama](/cells/tr/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

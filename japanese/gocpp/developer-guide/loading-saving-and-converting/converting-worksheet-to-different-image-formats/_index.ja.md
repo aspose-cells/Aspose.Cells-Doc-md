@@ -23,19 +23,21 @@ Aspose.Cellsを使用すると、ブックからワークシートをエクス�
 
 次のコードスニペットは、Excelファイルのワークシートを画像ファイルに変換する方法を示しています。
 
-### **PNGフォーマット**
+### **GoLangでExcel/スプレッドシートをPNGに変換**
 
 次のサンプルコードと、参照用の[サンプルExcelファイル](67338402.xlsx)、[出力PNGイメージ](67338401.zip)をご覧ください。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **TIFFフォーマット**
+### **GoLangでExcel/スプレッドシートをTIFFに変換**
 
 次のサンプルコードと、参照用の[サンプルExcelファイル](67338402.xlsx)、[出力TIFFイメージ](67338419.zip)をご覧ください。
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **ワークシートをSVGに変換**
+## **GoLangでExcel/スプレッドシートをSVGに変換**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVGはScalable Vector Graphicsの略です。 SVGは、二次元ベクトルグラフィックのためのXML標準に基づいた仕様です。 1999年以来、World Wide Web Consortium（W3C）によって開発されてきたオープンな標準です。
 

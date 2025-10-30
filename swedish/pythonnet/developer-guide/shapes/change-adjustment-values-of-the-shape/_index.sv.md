@@ -23,3 +23,4 @@ Den här artikeln förklarar användningen av [**Shape.geometry.shape_adjust_val
 Nedan visas ett kodexempel på hur man ändrar justeringsvärden för formen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

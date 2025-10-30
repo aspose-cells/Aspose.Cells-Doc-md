@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [Görüntü veya Yazdırma Seçenekleri Kullanılarak Sayfa Dizisi Oluşturma](/cells/tr/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [Çalışsayısını Grafiksel Ortama Dönüştürme](/cells/tr/cpp/render-worksheet-to-graphic-context/)
 - [Çalışma Kitabı Rendeleme İçin Bireysel veya Özel Font Kümesini Belirtin](/cells/tr/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

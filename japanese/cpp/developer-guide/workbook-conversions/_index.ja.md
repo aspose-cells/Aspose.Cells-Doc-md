@@ -146,7 +146,7 @@ int main()
 ```
 
 ## **ExcelをOds、Sxc、Fods（OpenOffice / LibreOffice Calc）に変換**
-Aspose.CellsはExcelファイルをOds、Sxc、Fodsファイルに変換することをサポートしています。以下のコード例は、[テンプレート](book1.xlsx)をOds、Sxc、Fodsファイルに変換する方法を示しています。
+Aspose.CellsはExcelファイルをOds、Sxc、Fodsファイルに変換することをサポートしています。以下のコード例は、【テンプレート】(book1.xlsx)をOds、Sxc、Fodsファイルに変換する方法を示しています。
 
 ```c++
 #include <iostream>
@@ -616,3 +616,4 @@ int main()
 - [ExcelをCSV、TSV、Textに変換](/cells/ja/cpp/convert-excel-to-csv-tsv-and-txt/)
 - [文書変換の進行状況を追跡する](/cells/ja/cpp/track-document-conversion-progress/)
 - [CSV、TSV、TXTをExcelに変換](/cells/ja/cpp/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="cpp" >}}

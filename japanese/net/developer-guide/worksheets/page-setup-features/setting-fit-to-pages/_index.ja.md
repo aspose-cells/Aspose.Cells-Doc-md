@@ -3,7 +3,7 @@ title: Excelを縮小ページ幅と高さに印刷するにはどうすれば�
 type: docs
 weight: 200
 url: /ja/net/how-to-print-excel-as-fitted-pages-wide-and-tall/
-description: この記事では、Aspose.Cellsライブラリを使用して[FitToPagesWide]と[FitToPagesTall]を設定する方法についてのコード例を示しています。
+description: この記事では、Aspose.Cellsライブラリを使用して【FitToPagesWide】と【FitToPagesTall】を設定する方法についてのコード例を示しています。
 keywords: C#：FitToPagesWideとFitToPagesTallの設定方法、C#における追加方法、Excelでの設定方法、Excelでのクリア方法、広く高く印刷、ワークシートを1ページに印刷、すべての列を1ページに印刷する方法。
 ---
 

@@ -45,3 +45,4 @@ Aspose.Cells för Python via .NET tillhandahåller [**Worksheet.page_setup.get_c
 Följande koder visar hur man parsa sidhuvud eller sidfot som kommandolista och bearbeta kommandon:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

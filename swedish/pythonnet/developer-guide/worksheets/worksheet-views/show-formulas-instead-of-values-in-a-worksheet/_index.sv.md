@@ -16,3 +16,4 @@ Det är möjligt att visa formler i stället för beräknade värden i Microsoft
 Aspose.Cells för Python via .NET ger en [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas)-egenskap. Sätt detta till **true** för att ställa in att Microsoft Excel ska visa formler.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

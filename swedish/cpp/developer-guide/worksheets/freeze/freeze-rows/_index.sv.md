@@ -59,3 +59,4 @@ int main()
 ```
 
 Bifogad [provkäll-Excel-fil](../Freeze.xlsx).
+{{< app/cells/assistant language="cpp" >}}

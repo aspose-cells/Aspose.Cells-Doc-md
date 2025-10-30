@@ -21,7 +21,7 @@ Varsayılan olarak, Aspose.Cells, kaydederken önde gelen boş sütunları ve sa
 
 {{% alert color="primary" %}}
 
-20.4 sürümünden önce Aspose.Cells for .NET'nin varsayılan değeri **false** idi. 20.4 sürümünden bu yana, [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) varsayılan değeri **false**. [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) Varsayılan değeri ise 20.4 sürümünden bu yana **true**.
+Aspose.Cells for Java 20.4 sürümünden önce, [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) varsayılan değeri **false** idi. 20.4 sürümünden bu yana, varsayılan değer [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) için **true** olarak ayarlanmıştır.
 
 {{% /alert %}}
 

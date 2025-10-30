@@ -32,3 +32,4 @@ Det är enkelt att avfrysa fönster med Aspose.Cells för Python via .NET. Anvä
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 Bifogad [provkälla för Excel-filen](Fryst.xlsx).
+{{< app/cells/assistant language="python-net" >}}

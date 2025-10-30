@@ -226,3 +226,4 @@ int main()
 
 ## **高度なトピック**
 - [グラフをPDFに変換する](/cells/ja/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

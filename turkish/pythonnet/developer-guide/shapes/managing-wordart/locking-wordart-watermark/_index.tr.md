@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NET API’leri, WordArt’ın hareket ettirilebilir
 Aspose.Cells for Python via .NET API’leri, kullanıcının etkileşimini sınırlandırmak veya tamamen engellemek için watermark’un bazı yönlerini kilitlemeye olanak tanır. Aşağıdaki kod parçası, sıfırdan bir çalışma kitabı oluşturarak, watermark’un seçimini, hareketini, düzenlenmesini ve yeniden boyutlandırılmasını kilitlemek için Aspose.Cells for Python via .NET API kullanımını gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

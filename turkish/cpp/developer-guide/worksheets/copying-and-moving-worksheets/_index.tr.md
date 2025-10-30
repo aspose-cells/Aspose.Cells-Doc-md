@@ -30,3 +30,4 @@ Aspose.Cells, koleksiyona bir çalışma sayfası eklemek ve mevcut bir çalış
 Aspose.Cells, aynı elektronik tablo içinde bir çalışma sayfasını başka bir konuma taşımak için kullanılan [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) adlı bir yöntem sağlar. Yöntem hedef çalışma sayfası indeksini parametre olarak alır. Aşağıdaki örnek, bir çalışma sayfasını çalışma kitabı içinde başka bir konuma taşımanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

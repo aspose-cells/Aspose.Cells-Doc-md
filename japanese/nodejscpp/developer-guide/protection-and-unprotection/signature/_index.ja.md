@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [ワークシートに署名行を追加](/cells/ja/nodejs-cpp/add-signature-line/)  
 - [XAdES署名のサポート](/cells/ja/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

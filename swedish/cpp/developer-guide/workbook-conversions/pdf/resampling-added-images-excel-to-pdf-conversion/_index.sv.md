@@ -64,3 +64,4 @@ Om ditt kalkylblad innehåller formler, är det bäst att anropa [**CalculateFor
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

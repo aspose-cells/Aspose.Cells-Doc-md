@@ -16,3 +16,4 @@ Ibland behöver du hitta celler med en särskild stil applicerad. Du kan använd
 Koden i detta exempel hittar alla celler som har samma stil som cell A1. Efter att koden har utförts innehåller alla celler som har samma stil som A1 texten "Hittad".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindCellsWithSpecificStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ int main()
 常に更新される画像をURLから取得する必要がある場合は、[Webアドレスからリンクされた画像を挿入](/cells/ja/cpp/insert-a-linked-picture-from-web-address/)で説明されている方法を使用してください。この方法は、ワークシートを開くたびにURLから画像をロードします。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -22,3 +22,4 @@ Följande exempel visar hur man lägger till en WordArt-form för att ställa in
 - [Lägg till Word Art Text med Inbyggda Stilar](/cells/sv/python-net/add-word-art-text-with-built-in-styles/)
 - [Låsa WordArt vattenstämpel](/cells/sv/python-net/locking-wordart-watermark/)
 - [Ange förvald WordArt-stil för texten på formen](/cells/sv/python-net/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="python-net" >}}

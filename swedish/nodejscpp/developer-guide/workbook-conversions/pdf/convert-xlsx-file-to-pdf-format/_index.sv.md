@@ -69,3 +69,4 @@ Följande skärmbilder visar PDF-sidorna. Observera att sidhuvuden och sidfötte
 |Det första kalkylbladet **(Försäljningsprognos)**|Det andra kalkylbladet **(Försäljningsrapport)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Det tredje kalkylbladet **(Dataregistrering)**|Det sista kalkylbladet **(Bild)**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

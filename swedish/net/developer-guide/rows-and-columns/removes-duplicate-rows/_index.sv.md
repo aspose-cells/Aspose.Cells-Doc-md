@@ -6,6 +6,7 @@ url: /sv/net/remove-duplicate-rows-in-a-worksheet/
 ---
 
 
+
 Ta bort dubblettrader är en av Microsoft Excels många användbara funktioner. Det gör det möjligt för användare att ta bort dubblettrader i ett arbetsblad, du kan välja vilka kolumner som ska kontrolleras för dubbel information.
 
 Aspose.Cells tillhandahåller metoden Cells.RemoveDuplicates() för detta ändamål. Du kan också ställa in startRow, startColumn, endRow, endColumn för att välja kolumner.

@@ -19,3 +19,4 @@ Följande provkod laddar in [provmappen](remove-pivot-connection.xlsx) som inn
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Removing-Pivot-Connection.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 注意：正確な元号変換のためには、お使いの環境で日本語サポートを有効にしてください。[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) クラスと [PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) はこの変換に必要な機能を提供します。
+{{< app/cells/assistant language="python-net" >}}

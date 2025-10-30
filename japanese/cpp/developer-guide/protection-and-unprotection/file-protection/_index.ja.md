@@ -149,3 +149,4 @@ int main()
 - [強力な暗号化タイプの設定](/cells/ja/cpp/setting-strong-encryption-type/)
 - [ブックを書き込み保護する際に著者を指定する](/cells/ja/cpp/specify-author-while-write-protecting-workbook/)
 - [暗号化されたファイルのパスワードの検証](/cells/ja/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

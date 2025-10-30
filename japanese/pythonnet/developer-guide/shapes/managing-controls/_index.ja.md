@@ -381,3 +381,4 @@ Aspose.Cells for Python via .NET は、ワークシートに楕円形を描く�
 - [ActiveX コントロールを追加](/cells/ja/python-net/add-activex-controls-using-aspose-cells/)
 - [ActiveXコントロールを削除](/cells/ja/python-net/remove-activex-control/)
 - [ActiveX ComboBoxコントロールを更新](/cells/ja/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

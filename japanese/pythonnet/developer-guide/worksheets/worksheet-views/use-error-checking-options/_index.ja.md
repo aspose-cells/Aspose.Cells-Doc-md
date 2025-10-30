@@ -34,3 +34,4 @@ Aspose.Cells for Python via .NETは、エラー検出機能を提供します。
 以下のサンプルコードは、Aspose.Cells for Python via .NET APIを使用して、テンプレートのXLSファイル内のワークシートで「数字をテキストとして保存」のエラー検出を無効にする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

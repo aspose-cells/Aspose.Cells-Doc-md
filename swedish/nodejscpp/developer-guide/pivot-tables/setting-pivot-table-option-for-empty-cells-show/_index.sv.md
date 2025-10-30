@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ tillhandahåller egenskaperna [**PivotTable.set
 
 - [Formatering av Pivottabell](/cells/sv/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

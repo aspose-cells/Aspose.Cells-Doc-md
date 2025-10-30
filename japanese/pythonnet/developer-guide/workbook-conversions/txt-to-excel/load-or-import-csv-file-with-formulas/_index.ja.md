@@ -30,3 +30,4 @@ CSVファイルには通常、テキストデータが含まれており、数�
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

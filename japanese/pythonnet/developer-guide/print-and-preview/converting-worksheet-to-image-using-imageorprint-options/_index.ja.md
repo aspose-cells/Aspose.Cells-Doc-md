@@ -40,3 +40,4 @@ TIFF画像には複数のフレームを含めることができます。複数�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-UseWorkbookRenderForImageConversion-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -111,3 +111,4 @@ Efter ovanstående operation kan vi få en utdata-diagrambild med japansk region
 |annat namn|その他|Övrigt|  
 |Serienamn|シリーズ|Serie|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

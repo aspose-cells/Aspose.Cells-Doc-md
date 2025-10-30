@@ -141,3 +141,4 @@ Büyük elektronik tablo yüklerken [**Workbook**](https://reference.aspose.com/
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

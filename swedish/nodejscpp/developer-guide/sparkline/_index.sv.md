@@ -63,3 +63,4 @@ book.save(path.join(dataDir, "output.xlsx"));
 
 ## **Fortsatta ämnen**
 - [Använda funktionsspår och inställningar 3D-format](/cells/sv/nodejs-cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -3,7 +3,7 @@ title: Excelを縮小ページ幅と高さに印刷するにはどうすれば�
 type: docs
 weight: 200
 url: /ja/java/how-to-print-excel-as-fitted-pages-wide-and-tall/
-description: この記事では、Aspose.Cellsライブラリを使用して[FitToPagesWide]と[FitToPagesTall]を設定する方法についてのコード例を示しています。
+description: この記事では、Aspose.Cellsライブラリを使用して【FitToPagesWide】と【FitToPagesTall】を設定する方法についてのコード例を示しています。
 keywords: JavaでFitToPagesWideとFitToPagesTallを設定する方法、JavaでFitToPagesWideとFitToPagesTallを追加する方法、ExcelでFitToPagesWideとFitToPagesTallを設定する方法、ExcelでFitToPagesWideとFitToPagesTallをクリアする方法、Excelをページに合わせて広く・高く印刷する方法、ワークシートを一ページで印刷する方法、ワークシートのすべての列を一ページで印刷する方法。
 ---
 
@@ -37,7 +37,7 @@ Microsoft ExcelでFitToPagesWideとFitToPagesTallを設定するには、以下�
 
 ## **Aspose.Cells を使用して Excel を横長・縦長フィットページとして印刷する方法**
 
-特定のワークシートでFitToPagesWideとFitToPagesTallを設定するには、まず[サンプルファイル(input.xlsx)]を読み込み、次に[**Worksheet.PageSetup.setFitToPagesTall(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesTall-int-)と[**Worksheet.PageSetup.setFitToPagesWide(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesWide-int-)メソッドを呼び出します。例：Javaでの例：
+特定のワークシートでFitToPagesWideとFitToPagesTallを設定するには、まず【サンプルファイル(input.xlsx)】を読み込み、次に[**Worksheet.PageSetup.setFitToPagesTall(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesTall-int-)と[**Worksheet.PageSetup.setFitToPagesWide(int value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup/#setFitToPagesWide-int-)メソッドを呼び出します。例：Javaでの例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-set-FitToPagesWide-FitToPagesTall.java" >}}
 
@@ -47,7 +47,7 @@ Microsoft ExcelでFitToPagesWideとFitToPagesTallを設定するには、以下�
 
 ## **Aspose.Cellsを使用したワークシートを1ページとして印刷する方法**
 
-ワークシートを一ページで印刷するには：まず[サンプルファイル(sample.xlsx)]を読み込み、その後[**PdfSaveOptions.setOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setOnePagePerSheet-boolean-)メソッドを[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/)オブジェクトに対して呼び出します。Javaの例：
+ワークシートを一ページで印刷するには：まず【サンプルファイル(sample.xlsx)】を読み込み、その後[**PdfSaveOptions.setOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setOnePagePerSheet-boolean-)メソッドを[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/)オブジェクトに対して呼び出します。Javaの例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-OnePagePerSheet.java" >}}
 
@@ -58,7 +58,7 @@ Microsoft ExcelでFitToPagesWideとFitToPagesTallを設定するには、以下�
 
 ## **Aspose.Cellsを使用してワークシートのすべての列を1ページに印刷する方法**
 
-ワークシートのすべての列を一ページで印刷するには：まず[サンプルファイル(sample.xlsx)]を読み込み、その後[**PdfSaveOptions.setAllColumnsInOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setAllColumnsInOnePagePerSheet-boolean-)メソッドを[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/)オブジェクトに対して呼び出します。Javaの例：
+ワークシートのすべての列を一ページで印刷するには：まず【サンプルファイル(sample.xlsx)】を読み込み、その後[**PdfSaveOptions.setAllColumnsInOnePagePerSheet(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setAllColumnsInOnePagePerSheet-boolean-)メソッドを[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/)オブジェクトに対して呼び出します。Javaの例：
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-PageSetup-AllColumnsInOnePagePerSheet.java" >}}
 

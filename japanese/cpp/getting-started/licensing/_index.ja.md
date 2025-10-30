@@ -48,3 +48,4 @@ SetLicenseメソッドを呼び出す際に、渡すライセンス名はライ�
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

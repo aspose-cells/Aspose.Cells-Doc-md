@@ -67,3 +67,4 @@ Förutom ovan nämnda metoder, har Aspose.Cells för Python via .NET också gjor
 - [Stödda teckensnittsformat](/cells/sv/python-net/supported-font-formats/)
 - [Kalkylblad till bild - Ställ in pixelformat för den renderade bilden](/cells/sv/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

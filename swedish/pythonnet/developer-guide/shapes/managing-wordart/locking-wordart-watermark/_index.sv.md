@@ -14,3 +14,4 @@ Aspose.Cells för Python via .NET API:erna tillåter att lägga till WordArt-vat
 Aspose.Cells för Python via .NET API:erna tillåter att låsa vissa aspekter av vattenstämplen så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodstycke visar användningen av Aspose.Cells för Python via .NET API för att låsa urval, flytt, redigering och omstorlek av vattenstämplen genom att skapa ett kalkylblad från grunden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

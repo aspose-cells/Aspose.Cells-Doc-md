@@ -32,3 +32,4 @@ Aspose.Cells for Python via .NET ile panoları serbest bırakmak oldukça basitt
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 Ekli [örnek kaynak Excel dosyası](Frozen.xlsx).
+{{< app/cells/assistant language="python-net" >}}

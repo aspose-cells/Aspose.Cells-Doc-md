@@ -170,3 +170,4 @@ int main()
 Aynı şekilde birden fazla satır ve sütunu görünür hale getirmek için [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) sınıfının [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/) ve [**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/) metodları da kullanılabilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

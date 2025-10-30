@@ -16,3 +16,4 @@ Bazen Koşullu Biçimlendirme Veri Çubuklarının görüntüleri oluşturmanız
 Aşağıdaki örnek kod, C1 hücresinin VeriÇubuk görüntüsünü oluşturur. İlk olarak, hücrenin biçimlendirme koşulu nesnesine erişir, ardından bu nesneden [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar) nesnesine erişir ve bu nesnenin [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image) yöntemini kullanarak hücrenin görüntüsünü oluşturur. Son olarak, görüntüyü diske kaydeder.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

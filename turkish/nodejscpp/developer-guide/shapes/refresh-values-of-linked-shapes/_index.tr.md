@@ -48,3 +48,4 @@ worksheet.getShapes().updateSelectedValue();
 // Save the workbook in PDF format
 workbook.save(path.join(outputDir, "outputRefreshValueOfLinkedShapes.pdf"), AsposeCells.SaveFormat.Pdf);
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

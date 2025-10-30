@@ -46,3 +46,4 @@ if (s !== "R" + row + "C" + col)
 I annat fall körs programmet utan att visa något meddelande, vilket betyder att alla värden som läses från cellerna är korrekta.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-multiple-threads.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

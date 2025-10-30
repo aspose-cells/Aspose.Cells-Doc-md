@@ -39,3 +39,4 @@ Se utmatnings [PDF](48496673.pdf)-filen efter att ha ställt in [**PdfSaveOpti
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

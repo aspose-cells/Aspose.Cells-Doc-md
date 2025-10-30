@@ -36,3 +36,4 @@ console.log("Worksheet is password protected");
 console.log("Worksheet is not password protected");
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

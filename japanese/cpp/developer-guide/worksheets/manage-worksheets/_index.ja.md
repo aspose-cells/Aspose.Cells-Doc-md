@@ -34,3 +34,4 @@ Aspose.Cellsは、Excelファイルを表す[Workbook](https://reference.aspose.
 ワークシートの名前がわかっている場合は、ワークシートの名前を使用してワークシートを削除することができます。ワークシートの名前がわからない場合は、ワークシートの名前の代わりにワークシートのシートインデックスを取る[RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) メソッドのオーバーロードバージョンを使用します。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

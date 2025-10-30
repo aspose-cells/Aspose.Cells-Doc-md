@@ -90,3 +90,4 @@ Utvecklare kan tillämpa exponenteffekten på teckensnittet genom att ställa in
 - [Få en lista över typsnitt som används i en kalkylblad eller arbetsbok](/cells/sv/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NET を使用してセルの範囲を結合また�
 次のサンプルコードは、まず範囲A1:D4を作成し、次に範囲内のセルを[**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#)メソッドを使用して単一のセルに結合します。同様に、範囲を作成し、[**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#)メソッドを呼び出すことでセルを分割することができます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -1,7 +1,7 @@
 ---
 title: Şekiller
 type: docs
-weight: 20
+weight: 90
 url: /tr/python-java/shapes/
 ---
 

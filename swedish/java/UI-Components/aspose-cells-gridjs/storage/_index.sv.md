@@ -198,4 +198,4 @@ till exempel: i hämtnings-åtgärden kan du bara hämta den från cache-katalog
 ```
 
 För mer detaljerad information kan du kolla exemplet här:
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

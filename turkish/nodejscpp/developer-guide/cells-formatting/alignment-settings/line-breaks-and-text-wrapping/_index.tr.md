@@ -25,3 +25,4 @@ JavaScript'te, hücreye net satır sonları eklemek için '\n' kullanabilirsiniz
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

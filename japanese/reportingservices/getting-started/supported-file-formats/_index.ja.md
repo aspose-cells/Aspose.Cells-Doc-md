@@ -20,7 +20,7 @@ url: /ja/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS（OpenDocument Spreadsheet）でドキュメントを保存します。| |{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XMLファイルでドキュメントを保存します。| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPSファイルでドキュメントを保存します| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|マークダウンドキュメントを表します。| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|マークダウン文書を表します。| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|EMFファイルでドキュメントを保存します| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|DIFファイルでドキュメントを保存します| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)|JPGファイルでドキュメントを保存します| |{{< emoticons/tick >}}|

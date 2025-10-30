@@ -14,3 +14,4 @@ Excelのテキストボックスまたは図形の文字間隔を変更するこ
 次のサンプルコードは、Excelファイル内のテキストボックスの文字間隔を4ポイントに変更し、その後ディスクに保存します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

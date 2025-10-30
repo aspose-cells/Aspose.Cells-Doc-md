@@ -14,3 +14,4 @@ keywords: Hämta hyperlänkar i område Node.js via C++, hämta alla hyperlänka
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-GetHyperlinksInRange.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

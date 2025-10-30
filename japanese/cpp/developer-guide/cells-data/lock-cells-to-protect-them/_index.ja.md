@@ -87,3 +87,4 @@ int main()
 <br>
 <img src="3.png" width=60% />
 
+{{< app/cells/assistant language="cpp" >}}

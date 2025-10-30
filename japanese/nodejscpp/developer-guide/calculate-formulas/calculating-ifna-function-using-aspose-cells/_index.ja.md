@@ -58,3 +58,4 @@ console.log(cellA6.getStringValue());
 
 Orange
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

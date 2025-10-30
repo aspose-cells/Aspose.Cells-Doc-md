@@ -213,3 +213,4 @@ workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
 ## **Gelişmiş Konular**
 - [Grafiklere WordArt Filigranı Ekleme](/cells/tr/nodejs-cpp/add-wordart-watermark-to-chart/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

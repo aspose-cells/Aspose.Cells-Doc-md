@@ -49,3 +49,4 @@ Aşağıdaki [girdi dosyasını](SeriesFiltered.xlsx) ve [çıktı dosyasını](
 
 Aşağıdaki şekildeki gibi, başlangıçta görünür olan ilk iki seri çıktı dosyasında görünmez hale geldi.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

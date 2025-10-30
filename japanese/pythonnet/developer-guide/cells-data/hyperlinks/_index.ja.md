@@ -67,3 +67,4 @@ Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表す[Workb
 - [ワークシートのハイパーリンクの編集](/cells/ja/python-net/editing-hyperlinks-of-worksheet/)
 - [範囲内のハイパーリンクを取得](/cells/ja/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

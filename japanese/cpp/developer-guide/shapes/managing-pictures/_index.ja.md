@@ -203,3 +203,4 @@ int main()
 - [Webアドレスからリンクされた画像の挿入](/cells/ja/cpp/insert-a-linked-picture-from-web-address/)
 - [セル参照に基づく画像の挿入](/cells/ja/cpp/insert-a-picture-based-on-cell-reference/)
 - [Web画像のURLをExcelワークシートに読み込む](/cells/ja/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

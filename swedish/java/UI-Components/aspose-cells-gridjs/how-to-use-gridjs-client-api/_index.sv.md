@@ -47,6 +47,7 @@ Parametrarna för laddningsalternativ:
 | `loadingGif` | URL för laddnings-GIF när bilder/former laddas.<br>Standardvärdet är content/img/updating.gif. | `content/img/updating.gif` | Ja |
 | `local` | Ange lokaliseringsinfo för menyer och verktygsfält, stödjer flera språk.<br>Möjliga värden inkluderar:<br>- `en, zh, es, pt, de, ru, nl` (för engelska, kinesiska, spanska, portugisiska, tyska, ryska, nederländska)<br>- `ar, fr, id, it, ja` (för arabiska, franska, indonesiska, italienska, japanska)<br>- `ko, th, tr, vi, cht` (för koreanska, thailändska, turkiska, vietnamesiska, traditionell kinesiska) | `en` | Ja |
 | `mode` | Kan vara `read` eller `edit`; `read` betyder ett skrivskyddat kalkylblad; `edit` betyder att kalkylbladet kan redigeras. | Ingen | Nej |
+| `isCollaborative` | Behöver stödja samarbetsläge . | `false` | Ja |
 | `searchHighlightColor` | Belysningsfärg för söktermen.<br;Färgen måste inkludera en alfa-kanal för transparens. | `#dbe71338` | Ja |
 | `showCheckSyntaxButton` | Visa knappar för syntaxkontroll & stavningskorrigering i verktygsfältet.<br>Standardvärdet är falskt. | `false` | Ja |
 | `showContextmenu` | Visa kontextmenyn vid högerklick på en cell.<br>Standardvärdet är sant. | `true` | Ja |
@@ -58,6 +59,9 @@ Parametrarna för laddningsalternativ:
 | `updateMode` | För närvarande stöds endast `server`. | `server` | Nej |
 | `updateUrl` | Sätt server-URL för uppdateringsåtgärder baserade på JSON. | Ingen | Nej |
 | `view` | Ange vistsstorleken för bladet, t.ex., `{width: () => 1000, height: ()=> 500}`. | `{width: () => dokument.documentElement.clientWidth, height: () => dokument.documentElement.clientHeight }` | Ja |
+| `token` | Ange autentiseringstoken. När token inte är null kommer `Authorization: Bearer {token}`-huvudet automatiskt läggas till i förfrågningshuvudet. Du kan använda `xs.refreshToken(token)` för att ange ett nytt token. | Ingen | Ja |    
+| `showBottombarStats` | Vill du visa statistik för bottenfältet.<br>Standardvärdet är sant. | `true` | Ja |   
+| `showRowAppenderToolbar` | Vill du visa verktygsfält för batchrads-appendare.<br>Standardvärdet är sant. | `true` | Ja |   
 
 - ladda med json-data
 ```javascript
@@ -104,6 +108,19 @@ xs2.setActiveForMultipleInstance(false);
 xs1.setActiveForMultipleInstance(false);
 xs2.setActiveForMultipleInstance(false);
 
+```
+- ställ in anpassad toast
+```javascript
+xs.customToast(customToastFunction);
+// the parameter is:
+	customToastFunction: user defined function to toast message,it shall have three parameters :title, content,callback
+	if set to null,it will use the default build-in toast.
+
+    for example: 
+            function myCustomToast(title, content, callback) {
+	    //.....
+	    }
+            xs.customToast(myCustomToast);
 ```
 
 - ange information för form-/bildoperationer för server-sidan
@@ -173,9 +190,39 @@ ___
 xs.reRender()
 ```
 
-- hämta aktivt blad-ID
+-  Hämta aktivt blad-ID
 ```javascript
 xs.getActiveSheet()
+```
+
+-  Lägg till ett nytt kalkylblad
+```javascript
+xs.addSheet(name,isactive,tabcolor,fontcolor)
+// the parameters are:
+	name:the sheet name
+	isactive:whether set this sheet as active sheet
+	tabcolor:the background color for the sheet in the tab bottom menu
+	fontcolor:the font color for the sheet name in the tab bottom menu
+   for example:
+    xs.addSheet('hello',true,'#12ee5b','#2c5d3b')
+```
+-  Ändra bladnamnet
+```javascript
+xs.modifySheetName(oldName,newName)
+// the parameters are:
+	oldName:the sheet name
+	newName:the new desired name
+   for example:
+     xs.modifySheetName('Sheet1','student');
+```
+- Ta bort bladet
+```javascript
+xs.deleteSheet(name)
+// the parameters is:
+	name:the sheet name
+   for example:
+        xs.deleteSheet('Sheet1');
+
 ```
 
 - Ställ in zoomnivå
@@ -190,6 +237,14 @@ xs.setZoomLevel(zoom)
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
+```
+-  Ställ in funktionsanrop före spara 
+```javascript
+xs.setBeforeSaveFunction(func)
+// the parameters is:
+	func:This function is called before the save action. If it returns true, the save will proceed; otherwise, the save will not proceed.
+   for example:
+	xs.setBeforeSaveFunction(()=>{console.log('hello before save');return true;});
 ```
 
 - Callback-funktion för e-postutskick
@@ -217,6 +272,18 @@ xs.enableKeyEvent(isenable)
 xs.destroy()
 ```
 
+-  konfigurera de samarbetsinställningar i samarbetsläge, se till att setCollaborativeSetting innan setUniqueId  
+```javascript
+xs.setCollaborativeSetting(url,wsendpoint,wsapp,wsuser,wstopic)
+    //the parameters are:
+         url: the basic action URL in the server side controller to get history messages ,the default is '/GridJs2/msg'
+	 wsendpoint: the websocket endpoint in the server side , the default is '/ws'
+	 wsapp: the websocket destinations prefixed with "/app", the default is '/app/opr'
+	 wsuser: the websocket for user-specific queues prefixed with "/usr", the default is '/user/queue'
+	 wstopic: the websocket destinations prefixed with "/topic", the default is '/topic/opr'
+
+
+```
 
 - ställ in synligt filter för bild/form
 ```javascript
@@ -244,14 +311,14 @@ xs.sheet.selector.getObj()
 xs.sheet.showHtmlAtCell(isShow, html, ri, ci, deltaX, deltaY)
 
     //the parameters are:
-    // - isShow: Boolean value indicating whether to show or hide the HTML content.
-    // - html: The HTML string to be displayed.
-    // - ri: Row index of the target cell.
-    // - ci: Column index of the target cell.
-    // - deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
-    // - deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
+      isShow: Boolean value indicating whether to show or hide the HTML content.
+      html: The HTML string to be displayed.
+      ri: Row index of the target cell.
+      ci: Column index of the target cell.
+      deltaX: (Optional) Relative X-position adjustment from the top-left corner of the cell.
+      deltaY: (Optional) Relative Y-position adjustment from the top-left corner of the cell.
 
-    // Example usage:
+    for example: 
     // Show HTML at cell A1
     xs.sheet.showHtmlAtCell(true, "<span>html span</span><input length='30' id='myinput'>test</input>", 0, 0);
 
@@ -269,6 +336,153 @@ shape.setControlable(isenable)
      // the parameter is:
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
+
+
+-  Infoga rader
+```javascript
+xs.sheet.insertRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be inserted
+```
+-  Infoga kolumner 
+```javascript
+xs.sheet.insertColumns(start, n)
+    // the parameters are:
+	start: start column id
+	n:how many columns will be inserted
+```
+-  Ta bort rader 
+```javascript
+xs.sheet.deleteRows(start, n)
+    // the parameters are:
+	start: start row id 
+	n:how many rows will be deleted
+```
+-  Ta bort kolumner 
+```javascript
+xs.sheet.deleteColumns(start, n)
+    // the parameters are:
+	start: start column id 
+	n:how many columns will be deleted
+```
+-  Ange frysfönstret
+```javascript
+xs.sheet.freeze(ri,ci)
+    // the parameters are:
+	ri:row index 
+	ci:column index
+```
+- Frysa inte panelen
+```javascript
+xs.sheet.freeze(0,0)
+```
+
+-  Ställ in redigerbart/skrivt skyddat område
+```javascript
+xs.sheet.setEditableRange(range,isenable)
+    // the parameters are:
+	range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	isenable:when set to true,the range is editable.other wise,the range is readonly.
+```
+
+-  Dölj rader 
+```javascript
+xs.sheet.hideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Visa rader igen
+```javascript
+xs.sheet.unhideRows(sri,eri)
+    // the parameters are:
+	sri:the start row index 
+	eri:the end row index
+```
+
+-  Dölj kolumner 
+```javascript
+xs.sheet.hideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+-  Visa kolumner igen
+```javascript
+xs.sheet.unhideColumns(sci,eci)
+    // the parameters are:
+	sci:the start column index 
+	eci:the end column index
+```
+
+
+-  Ange höjden för raden
+```javascript
+xs.sheet.setRowHeight(ri,height)
+    // the parameters are:
+	ri:row index
+	height:the height for the row
+```
+-  Ange höjden för raderna
+```javascript
+xs.sheet.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  Ange höjden för alla rader
+```javascript
+xs.sheet.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+-  Ange bredden för kolumnen
+```javascript
+xs.sheet.setColWidth(ci,width)
+    // the parameters are:
+	ci:column index
+	width:the width for the column
+```
+-  Ange bredden för kolumnerna
+```javascript
+xs.sheet.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Ange bredden för alla kolumner
+```javascript
+xs.sheet.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+-  Sätt kommentaren i cellen
+```javascript
+xs.sheet.setComment(ri,ci,author,note)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+	author:the author for the comment
+	note:the content for the comment
+```
+
+-  Ta bort kommentaren i cellen
+```javascript
+xs.sheet.removeComment(ri,ci)
+    // the parameters are:
+	ri:row index of the cell
+	ci:column index of the cell
+```
+
 
 -  Hämta cellobjektet
 ```javascript
@@ -312,6 +526,18 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
+-  Sätt stil för det önskade cellområdet
+```javascript
+xs.sheet.data.setRangeAttr(range,attributename,value)
+    // the parameters are:
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	value:the  value for the attribute
+   for example:
+        xs.sheet.data.setRangeAttr({sri:0,sci:0,eri:2,eci:2},'bgcolor','#11ee2a');
+```
+
+
 -  Sammanfoga det valda cellområdet
 ```javascript
 xs.sheet.data.merge()
@@ -321,56 +547,22 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Ta bort den valda cellen  
+-  Ta bort cellinnehåll eller rensa stilen i vald cell  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Ange frysfönstret
+
+-  Ta bort cellinnehåll eller rensa stilen i det önskade cellområdet
 ```javascript
-xs.sheet.data.setFreeze(ri,ci)
+xs.sheet.data.deleteRange(range,type)
     // the parameters are:
-	ri:row index 
-	ci:column index
+        range:the cell range ,etc. {sri:0,sci:0,eri:2,eci:2} reprensents range start from cell A1 to C3
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 
--  Infoga rad eller kolumner vid den valda cellen  
-```javascript
-xs.sheet.data.insert(type, n)
-    // the parameters are:
-	type: row | column
-	n:the row or column number
-```
--  Ta bort rad eller kolumner vid den valda cellen  
-```javascript
-xs.sheet.data.delete(type)
-    // the parameters are:
-	type: row | column
-```
 
--  Ange bredden för kolumnen
-```javascript
-xs.sheet.data.setColWidth(ci,width)
-    // the parameters are:
-	ci:column index
-	width:the width for the column
-```
--  Ange bredden för kolumnerna
-```javascript
-xs.sheet.data.setColsWidth(sci,eci,width)
-    // the parameters are:
-	sci:the start column index
-	eci:the end column index
-	width:the width for the column
-```
-
--  Ange bredden för alla kolumner
-```javascript
-xs.sheet.data.setAllColsWidth(width)
-    // the parameters are:
-	width:the width for the columns
-```
 
 -  Få bredden för kolumnen 
 ```javascript
@@ -380,28 +572,6 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Ange höjden för raden
-```javascript
-xs.sheet.data.setRowHeight(ri,height)
-    // the parameters are:
-	ri:row index
-	height:the height for the row
-```
--  Ange höjden för raderna
-```javascript
-xs.sheet.data.setRowsHeight(sri,eri,height)
-    // the parameters are:
-	sri:start row index
-	eri:end row index
-	height:the height for the rows
-```
-
--  Ange höjden för alla rader
-```javascript
-xs.sheet.data.setAllRowsHeight(height)
-    // the parameters are:
-	height:the height for the rows
-```
 
 
 -  Få höjden för raden 
@@ -490,7 +660,16 @@ xs.sheet.menubar.show()
 ```javascript
 xs.sheet.menubar.hide()
 ```
-
+## API:er för formobjekt
+-  Ändra bakgrundsfärg för formobjekt
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 existed,this will set the background color to Yellow 
+     const ashape=xs.sheet.data.shapes[0];
+     ashape.setBackgroundColor('#FFFF00');
+```
 
 ## API:er för TextBox-objekt
 TextBox är en speciell typ av form där typen är: "TextBox",
@@ -504,14 +683,15 @@ for (let shape of xs.sheet.data.shapes) {
 }
 ```
 
--  Ändra bakgrundsfärg för textbox-objekt
+- Tillämpa typsnittinställningar för textruteföremål
 ```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+    setFont(fontsettings)
+    // the parameter is:
+        fontsettings:   {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00', 'italic':true} ,the properties are 'name', 'size', 'bold', 'color', 'italic',they are all optional.
+    //for example,we assume shape 0 is a textbox object,this will set the font color to Yellow ,and font size to 12pt,and bold the font. 
      const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
+     const fontsettings= {'name':'Arial', 'size':12, 'bold':true, 'color':'#FFFF00'}; 
+     textbox.setFont(fontsettings);
 ```
 -  Autoändra bakgrundsfärg och textfärg för att få en visuell aktiv effekt
 ```javascript
@@ -528,7 +708,7 @@ for (let shape of xs.sheet.data.shapes) {
 ```
 
 för detaljerad information kan du kolla exemplet här
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/main/Examples.GridJs>
 
 
 

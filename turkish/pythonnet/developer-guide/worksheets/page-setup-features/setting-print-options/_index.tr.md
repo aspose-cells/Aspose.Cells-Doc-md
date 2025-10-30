@@ -95,3 +95,4 @@ Aspose.Cells, tüm önceden tanımlanmış sıralama tiplerini içeren [**PrintO
 |YUKARI_DİK|Yazdırma sırasını yukarıdan aşağıya doğru temsil eder.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

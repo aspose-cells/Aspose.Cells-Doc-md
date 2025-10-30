@@ -34,3 +34,4 @@ Metin olarak saklanan sayıları hızlı bir şekilde gerçek sayılara dönüş
 Aşağıdaki örnek kod, şablon XLS dosyasındaki bir çalışma sayfası için metin olarak saklanan numaraların hata denetimi seçeneğini devre dışı bırakma nasıl gösterileceğini gösterir Aspose.Cells for Python via .NET API'leri kullanarak.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Çalışma sayfasına İmza satırı eklemek](/cells/tr/nodejs-cpp/add-signature-line/)  
 - [XAdES İmzası Desteği](/cells/tr/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

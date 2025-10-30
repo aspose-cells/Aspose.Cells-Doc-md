@@ -238,3 +238,4 @@ Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.cal
 - [Spara angivna arbetsblad som PDF](/cells/sv/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [Säkra PDF-dokument](/cells/sv/nodejs-cpp/secure-pdf-documents/)
 - [Ange hur textsträngar ska korsas i utgående PDF och bild](/cells/sv/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -59,3 +59,4 @@ Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıda sunulm
 - [Özel Sıralama Listesi ile Sütunda Verileri Sıralama](/cells/tr/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Veri Sıralama Sırasında Uyarıyı Belirtme](/cells/tr/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

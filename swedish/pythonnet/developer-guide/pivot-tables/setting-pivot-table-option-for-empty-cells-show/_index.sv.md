@@ -31,3 +31,4 @@ Aspose.Cells för Python via .NET tillhandahåller egenskaperna [**PivotTable.di
 ## Relaterade artiklar
 
 - [Formatering av Pivottabell](/cells/sv/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

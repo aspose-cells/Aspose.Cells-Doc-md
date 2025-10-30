@@ -236,3 +236,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [Excel Dosyasından Tema Verisi Çıkarın](/cells/tr/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

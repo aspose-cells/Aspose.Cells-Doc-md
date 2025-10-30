@@ -34,3 +34,4 @@ Följande exempelkod visar hur man får åtkomst till eller hämtar ett kalkylbl
 Att ta bort kalkylblad efter namn fungerar bra när namnet på kalkylbladet är känt. Om du inte känner till kalkylbladets namn, använd en överbelastad version av metoden [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) som tar kalkylbladets index istället för dess namn.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

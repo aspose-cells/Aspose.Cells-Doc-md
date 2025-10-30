@@ -30,3 +30,4 @@ Aşağıdaki örnek kod, diyalog sayfası içeren [örnek Excel dosyasını](647
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

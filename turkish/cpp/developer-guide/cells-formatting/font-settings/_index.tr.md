@@ -415,3 +415,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Yazı Tipi Üzerine Üst Simge ve Abone Etkileri Uygulama](/cells/tr/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

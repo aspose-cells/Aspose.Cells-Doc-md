@@ -50,3 +50,4 @@ För att formatera nummer som datum i Aspose.Cells för Python via .NET bibliote
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-date.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -42,3 +42,4 @@ SVGはScalable Vector Graphicsの略です。 SVGは、二次元ベクトルグ�
 次のサンプルコードと、参照用の[サンプルExcelファイル](67338402.xlsx)、[出力SVGイメージ](67338403.zip)をご覧ください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

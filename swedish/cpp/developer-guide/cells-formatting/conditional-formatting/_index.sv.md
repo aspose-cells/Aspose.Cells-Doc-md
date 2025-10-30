@@ -343,3 +343,4 @@ int main() {
 - [Tillämpa skuggning på alternerande rader och kolumner med villkorlig formatering](/cells/sv/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Generera bilder för databarformat i villkorlig formatering](/cells/sv/cpp/generate-conditional-formatting-databars-images/)
 - [Hämta ikonsatser, databarer eller färgskalor som används i villkorlig formatering](/cells/sv/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

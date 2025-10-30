@@ -4,7 +4,7 @@ linktitle: Kommentarer och noteringar
 type: docs
 weight: 128
 url: /sv/python-net/comments-and-notes/
-description: Infoga och hantera kommentarer eller anteckningar med Aspose.Cells för .Net.
+description: Infoga och hantera kommentarer eller anteckningar med Aspose.Cells för Python via .NET.
 keywords: Infoga kommentarer, infoga noteringar
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cells tillhandahåller också den här funktionen. Nedan finns ett kodexe
 - [Hur man ställer in kommentarens bakgrund](/cells/sv/python-net/how-to-set-comment-background/)
 - [Trådade Kommentarer](/cells/sv/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -107,3 +107,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [ODS Dosyasından Grafik Alt Başlığını Okuma](/cells/tr/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

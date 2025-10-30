@@ -22,7 +22,7 @@ Excelでワークシートを縮尺すると、印刷時に内容を指定され
 
 1. Excelでワークシートを開きます
 1. **ページレイアウト** > **縮尺調整**グループに移動
-1. ページ数の要件に合わせて[幅]と[高さ]を調整
+1. ページ数の要件に合わせて【幅】と【高さ】を調整
 1. 必要に応じてカスタムスケーリングパーセンテージを設定
 <br>
 <img src="1.png" width=60% />
@@ -81,3 +81,4 @@ workbook.save("output_scaled_percentage.xlsx")
 - [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) クラス
 - [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) クラス
 - [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/) 構成
+{{< app/cells/assistant language="python-net" >}}

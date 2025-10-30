@@ -49,3 +49,4 @@ Excelで数値を日付としてフォーマットするには、次の手順に
 Aspose.Cells for Node.js via C++ライブラリで数値を日付にフォーマットするには、セルにプログラムで日付のフォーマットを適用できます。次の方法で行います：
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

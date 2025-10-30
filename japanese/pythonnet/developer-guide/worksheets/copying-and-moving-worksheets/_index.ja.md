@@ -54,3 +54,4 @@ Pyhton用Aspose.Cells via .NETは、同じスプレッドシート内でワー�
 次の例は、ワークブック内でワークシートを別の場所に移動する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

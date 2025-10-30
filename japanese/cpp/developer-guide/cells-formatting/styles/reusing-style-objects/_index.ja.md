@@ -69,3 +69,4 @@ int main()
 古い Cell.Style プロパティは不要なメモリを多く消費していたため、[**Cell.GetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/)/[**Cell.SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) アプローチを使用するとメモリを大幅に削減でき、効率的です。これにより、Aspose.Cells 7.1.0 のリリースに伴い、古い Cell.Style プロパティが削除されました。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ Nedan kodprov visar hur du lägger till HTML-rich text inuti cellen. Se skärmbi
 
 - [Visa punktlistor genom att ställa in cellvärde med hjälp av HTML](/cells/sv/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Hämta HTML5-sträng från cell](/cells/sv/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

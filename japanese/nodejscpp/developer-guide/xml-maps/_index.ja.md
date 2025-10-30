@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [XMLマップのルート要素名を検出する](/cells/ja/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [セルをXMLマップ要素にリンクする](/cells/ja/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

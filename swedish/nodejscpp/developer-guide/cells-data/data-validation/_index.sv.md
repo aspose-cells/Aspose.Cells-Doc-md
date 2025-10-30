@@ -132,3 +132,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 - [Få validering som tillämpas på en cell](/cells/sv/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Verifiera att cellvärdet uppfyller datavalideringsreglerna](/cells/sv/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

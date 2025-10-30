@@ -191,3 +191,4 @@ console.log(currentCell.getStringValue());
 1. 多数のセルを走査する必要がある場合。  
 1. 初期化されたセル/行/列のみを走査する必要がある場合。  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

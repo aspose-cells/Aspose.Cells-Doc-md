@@ -18,3 +18,4 @@ keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリ、Excelな
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

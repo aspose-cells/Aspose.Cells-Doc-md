@@ -128,3 +128,4 @@ Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 - [ODS Dosyalarında Hücre Doğrulamasını Al](/cells/tr/python-net/get-cell-validation-in-ods-files/)
 - [Bir Hücreye Uygulanan Doğrulamayı Al](/cells/tr/python-net/get-validation-applied-on-a-cell/)
 - [Hücre Değerinin Veri Doğrulama Kurallarını Karşıladığını Doğrulama](/cells/tr/python-net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="python-net" >}}

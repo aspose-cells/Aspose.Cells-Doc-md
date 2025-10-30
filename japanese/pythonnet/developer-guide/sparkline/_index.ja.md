@@ -23,3 +23,4 @@ Aspose.Cells for Python via .NETを使ったスパークラインの作成は、
 ## **高度なトピック**
 - [スパークラインの使用と 3D フォーマットの設定](/cells/ja/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

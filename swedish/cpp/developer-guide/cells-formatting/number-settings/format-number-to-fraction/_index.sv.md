@@ -142,3 +142,4 @@ int main()
 - Aspose.Cells stödjer ett brett spektrum av talformat, inklusive decimaltal, procent, valuta och mer. Du kan anpassa formatet för att möta dina specifika krav.
 
 Genom att följa dessa steg kan du enkelt formatera nummer som bråk i Aspose.Cells for C++. Detta kan vara särskilt användbart för finansiella, statistiska eller utbildningsrelaterade tillämpningar där precisa bråkvärden är nödvändiga.
+{{< app/cells/assistant language="cpp" >}}

@@ -70,3 +70,4 @@ Vanlig utdata när den optimerade koden körs med exempel filen visar avsevärd 
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

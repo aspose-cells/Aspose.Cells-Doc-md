@@ -73,3 +73,4 @@ int main()
 ```
 
 Den [utdatafil](102662195.xlsx) som genererats av ovanstående kod bifogas för din referens.
+{{< app/cells/assistant language="cpp" >}}

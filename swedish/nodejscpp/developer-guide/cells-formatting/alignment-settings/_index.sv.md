@@ -133,3 +133,4 @@ Läsordningen ställs in med [**Style**](https://reference.aspose.com/cells/node
 - [Ändra cellers justering och behåll befintlig formatering](/cells/sv/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Radbrytningar och textindrag](/cells/sv/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

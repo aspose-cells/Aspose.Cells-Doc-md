@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ ger möjlighet att hämta den externa anslutnin
 Källfilen som används i kodprovet är bifogad för referens.
 
 [Källfil](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -77,3 +77,4 @@ Skapa först ett kolumndiagram i Microsoft Excel och konvertera det till en bild
 1. Konvertera diagrammet till en bild dynamiskt. Följande är koden som används av komponenten för att utföra uppgiften. Koden är liknande den tidigare:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

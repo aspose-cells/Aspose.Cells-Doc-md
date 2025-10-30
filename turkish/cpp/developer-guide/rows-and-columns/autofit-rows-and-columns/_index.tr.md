@@ -236,3 +236,4 @@ Bir hücre birleştirilmişse, ardından AutoFit yöntemleri uygulanmayacaktır 
 
 ## **Gelişmiş Konular**
 - [Birleştirilmiş Hücreler için Satırları Otomatik Uydurma](/cells/tr/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

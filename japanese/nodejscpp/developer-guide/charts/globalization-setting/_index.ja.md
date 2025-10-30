@@ -48,3 +48,4 @@ Excelでチャートを含むxlsxファイルを開くとき、例えばExcelの
 - [チャートの日本地域を設定する方法](/cells/ja/nodejs-cpp/convert-chart-to-image-for-japanese-region/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -195,3 +195,4 @@ int main()
 - [Bir çalışma kitabı yüklenirken VBA Projesini Filtrele](/cells/tr/cpp/filter-vba-project-while-loading-a-workbook/)
 - [VBA Projesinin Korunup Korunmadığını Bulma](/cells/tr/cpp/find-out-if-vba-project-is-protected/)
 - [Excel Çalışma Kitabının VBA Projesini Parolayla Koruma](/cells/tr/cpp/password-protect-the-vba-project-of-excel-workbook/)
+{{< app/cells/assistant language="cpp" >}}

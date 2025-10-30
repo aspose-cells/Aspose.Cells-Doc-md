@@ -37,3 +37,4 @@ Efter att ha kört exempelkoden läggs en pivot-tabell till kalkylbladet.
 När du tilldelar ett cellområde som datakälla måste området gå från övre vänstra till nedre högra. Till exempel är "A1:C3" giltigt men "C3:A1" är inte det.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

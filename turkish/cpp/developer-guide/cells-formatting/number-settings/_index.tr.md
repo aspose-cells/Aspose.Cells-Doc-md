@@ -170,3 +170,4 @@ int main()
 - [Özel Tarih Format Deseni g ve ge mm dd'yi Dönüştürme](/cells/tr/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Çalışmabook için Özel Sayı Ondalık ve Grup Ayraçlarını Belirleme](/cells/tr/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNum Özel Desen Biçimlendirmesini Belirleme](/cells/tr/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

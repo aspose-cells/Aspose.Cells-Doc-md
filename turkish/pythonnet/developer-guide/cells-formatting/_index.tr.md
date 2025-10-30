@@ -111,3 +111,4 @@ Aspose.Cells for Python via .NET, Microsoft Excel dosyasını temsil eden [**Wor
 - [Sayı Ayarları](/cells/tr/python-net/cells-number-settings/)
 - [Hücreler için Stili Getirme ve Ayarlama](/cells/tr/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

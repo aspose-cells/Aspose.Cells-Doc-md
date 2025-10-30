@@ -82,3 +82,4 @@ Worksheetの操作中に、ユーザーはセルにさまざまな種類のデ�
 - [最初に行ごと、次に列ごとにデータを取得](/cells/ja/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [セル値または範囲の先頭にシングルクォートのプレフィックスを保存](/cells/ja/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [セルのリッチテキストの部分にアクセスして更新](/cells/ja/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

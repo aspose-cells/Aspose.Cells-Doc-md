@@ -31,3 +31,4 @@ const workbook = new AsposeCells.Workbook(filePath);
 workbook.save(path.join(dataDir, "out_sourceGradientFill.html"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

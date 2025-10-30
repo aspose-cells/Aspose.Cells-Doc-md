@@ -24,3 +24,4 @@ Efter att du skapar ett diagram i ett kalkylblad kan du ställa in kategorisk ax
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CategoryAxis-settings.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -102,3 +102,4 @@ int main()
 - [Harici Bağlantıları Olan Aralığı Al](/cells/tr/cpp/get-range-with-external-links/)
 - [Sıralı Olmayan Aralıkları Uygulama](/cells/tr/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

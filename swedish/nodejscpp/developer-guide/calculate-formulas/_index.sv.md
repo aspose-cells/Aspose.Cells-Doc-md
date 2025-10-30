@@ -163,3 +163,4 @@ Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan ock
 - [Returnera en rad med värden med hjälp av AbstractCalculationEngine](/cells/sv/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Inställning av Formelberäkningsläge för Arbetsbok](/cells/sv/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Användning av FormulaText-funktionen i Aspose.Cells](/cells/sv/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

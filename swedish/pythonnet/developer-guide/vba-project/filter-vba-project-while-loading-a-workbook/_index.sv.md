@@ -17,3 +17,4 @@ Följande exempelkod laddar en arbetsbok så att endast VBA filtreras. En testfi
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-FilterVBAMacrosWhileLoadingWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

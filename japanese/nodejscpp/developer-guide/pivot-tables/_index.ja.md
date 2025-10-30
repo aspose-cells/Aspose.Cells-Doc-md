@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++は、ピボットテーブルを作成・制御
 データソースとしてセル範囲を割り当てるときには、範囲は左上から右下に向かっている必要があります。例えば、「A1:C3」は有効ですが、「C3:A1」は無効です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

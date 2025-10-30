@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [チャートのデータラベルの形状タイプを設定する](/cells/ja/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [データラベルとしてセル範囲を表示する](/cells/ja/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -29,3 +29,4 @@ major.minor.hotfix
 Aspose.Cellsのバージョン番号をAPIを介して確認するには、CellsHelperクラスのGetVersion静的メソッドを使用してAspose.Cellsのバージョン番号を取得します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CheckVersionNumber.py" >}}
+{{< app/cells/assistant language="python-net" >}}

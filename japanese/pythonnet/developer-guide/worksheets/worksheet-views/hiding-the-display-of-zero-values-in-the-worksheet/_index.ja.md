@@ -26,3 +26,4 @@ Microsoft Excel でワークシートでゼロ値を非表示にするには:
 Aspose.Cells for Python via .NETを使用してゼロ値を非表示にするサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

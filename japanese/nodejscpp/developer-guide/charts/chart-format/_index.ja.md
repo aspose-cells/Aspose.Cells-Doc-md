@@ -384,3 +384,4 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 - [グラフの背景に画像を設定する](/cells/ja/nodejs-cpp/set-picture-as-background-fill-in-the-chart/)
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -58,3 +58,4 @@ Aspose.Cells for Python via .NET を使用すると、実行時にワークシ�
 1. **ヘッダー/フッター** タブを選択します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

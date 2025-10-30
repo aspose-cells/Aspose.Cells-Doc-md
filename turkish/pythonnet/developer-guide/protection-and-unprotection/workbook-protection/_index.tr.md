@@ -35,3 +35,4 @@ Workbook yapısını korumak veya kaldırmak Aspose.Cells for Python via .NET AP
 Not: Doğru bir şifre gerekli.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

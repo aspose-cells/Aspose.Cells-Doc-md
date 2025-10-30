@@ -208,3 +208,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Çalışma Sayfasındaki Yinelemeli Satırları Kaldırma](/cells/tr/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [Çalışma sayfasında boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelle](/cells/tr/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

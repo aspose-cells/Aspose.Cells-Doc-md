@@ -49,3 +49,4 @@ Aspose.Cellsは自動的に地域設定に適応します：
 - 多言語コンテンツにはUnicodeエンコードを使用する
 - ローカルに特化した数式を検証する
 - 異なる地域設定での数値解析をテストする
+{{< app/cells/assistant language="python-net" >}}

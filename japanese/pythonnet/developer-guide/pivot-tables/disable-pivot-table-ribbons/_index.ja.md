@@ -18,3 +18,4 @@ keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリを使用�
 次のコードは、シートからピボットテーブルを取得し、[**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/)を**false**に設定することでこの機能を示しています。サンプルのピボットテーブルファイルは、この[リンク](pivot_table_test.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

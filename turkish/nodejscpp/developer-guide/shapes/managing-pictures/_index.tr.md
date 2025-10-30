@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Hücre Referansına Dayalı Resim Ekle](/cells/tr/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [Bir URL'den Web Resmi Yükleyerek Excel Çalışma Sayfasına Ekleyin](/cells/tr/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

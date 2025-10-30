@@ -8,14 +8,68 @@ url: /tr/java/what-s-new-in-aspose-cells-for-java/
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells özelliklerini açıklar.
 
+## Aspose.Cells for Java 25.10
+* Sayısal değerler için anlamlı basamakların nasıl gösterileceğine karar vermek seçeneği sunar
+* ExportAsString true olduğunda, özel ExportTableOptions ile dışa aktarılan hücrelerin işlenmesine destek sağlar
+* Japon İmparatoru Yönetimi takvimi ile tarih saat çözümlemeye destek sağlar
+* Workbook hesaplamalarında dinamik dizi formüllerini varsayılan olarak yenilemeye destek sağlar
+* Dönüştürürken PdfBox kütüphanesi ile uyumluluğu artırır
+* Pivot tablosu görüntülerken stil hesaplama desteği
+* Excel 2016'nın gelişmiş grafiklerini dokümanlara aktarma
+* Smart Markers kullanarak hücreye yorum ekleme desteği
+
+## Aspose.Cells for Java 25.9
+* WRAPCOLS, WRAPROWS fonksiyonları desteği
+* XPS'e dönüştürürken font Varyasyon Seçicileri desteği
+* Gömülü fontlar ile SVG'ye dönüştürürken font Varyasyon Seçicileri desteği
+* Dosya HTML'ye dönüştürürken font gömme desteği
+* FlatOPC dosya formatı desteği
+* Düzenlenebilir grafikler ve gömülü objeler (OLE nesneleri) içeren pptx dosyası desteği
+* Master-Detail çalışma sayfası akıllı işaretleyici desteği
+* Tekrarlanan çalışma sayfası için akıllı işaretleyici desteği
+
+## Aspose.Cells for Java 25.8
+* Office 365'in yeni fonksiyonları desteği: EXPAND, REDUCE, COT, COTH
+* PDF kaydederken font varyasyon seçicileri desteği
+* HTML kaydederken dondurulmuş üst satırların korunması desteği
+* Formüldeki değişkenler ve "if" parametresi ile akıllı işaretleyici desteği
+* Kapsam akıllı işaretleyicisi ile iç içe veri kaynağı işleme desteği
+* Markdown içe aktarımında base64 kodlu resimleri ve bağlantı referans tanımlarını okuma desteği
+* GridJs'de sayı biçimlendirmede hizalama ve sınır seçenekleri desteği
+* GridJs için istemci JS'de textbox kontrolünde font ayarının uygulanmasını destekler
+* GridJs'de menüde ve maksimum satırın altında toplu satır ekleme fonksiyonunu destekler
+* GridJs için otomatik metin sarma desteği
+* GridJs için işbirlikçi mod desteği
+
+## Aspose.Cells for Java 25.7
+* FORMÜL yeni fonksiyonlarını destekler: TAKE, ISOMITTED
+* Akıllı işaretleyici için Excel şablonunda Değişkenleri destekler
+* Yüzen resmi sayılar olarak dışa aktarmayı destekler
+* Bellek maliyetini azaltmak için büyük hücre veri kümesi için dosya önbelleği kullanımı desteklenir
+
+## Aspose.Cells for Java 25.6
+* Oluşturulan pcl dosyası için gömmeli yazı tiplerini destekler
+* Numbers kaydederken bağlantı ve yazdırma ayarlarını dışa aktarmayı destekler
+* Pivot tablo için çalışma sayfası referansı seçeneğini destekler
+
+## Aspose.Cells for Java 25.5
+* Markdown formatı için resim dışa aktarmayı destekler
+* Textbox ve koşullu biçimlendirmelerin Numbers formatında dışa aktarımını destekler
+* Gömülü resim ve varlık verilerini Docx formatına dışa aktarmayı destekler
+* Range kamerası özelliğini destekler
+* Çalışma kitabı kopyalanırken dilimleyicilerin kopyalanmasını geliştirme
+* GridJs API isteği için token seçeneğini destekler
+* GridJs için Polonyaca menüleri destekle
+* GridJs için satır/sütun ekleme/çıkarma JavaScript API'lerini destekle
+
 ## Aspose.Cells for Java 25.4
-* HTML'e dışa aktarmak için sayfa setini belirtmeyi destekler
-* Bir çalışma sayfasının ızgara çizgisi rengini alma ve ayarlamayı destekler
+* HTML'ye dışa aktarılacak sayfa kümesini belirleme desteği
+* Bir çalışma sayfasının ızgara çizgisi rengini alma ve ayarlama desteği
 * Düzenlenebilir grafiklerin DOCX dosyalarına dışa aktarılmasını destekler
-* Hassasiyet etiketlerinin okunmasını ve yazılmasını destekler
-* Daha fazla stil özelliğini Numbers'a aktarmayı destekler
-* Markdown formatında şablon dosyalarını içe aktarmayı destekler
-* Formüllerde herhangi bir özel fonksiyon kullanılıp kullanılmadığını tespit etmeyi destekler (`Cell` ve `Workbook` içindeki)
+* Hassasiyet etiketleri okuma ve yazma desteği
+* Daha fazla stil özelliğini Numbers'a dışa aktarma desteği
+* Markdown formatında şablon dosyalarını içe aktarma desteği
+* `Cell` ve `Workbook` içindeki formüller tarafından kullanılıp kullanılmadığını tespit etme desteği
 
 ## Aspose.Cells for Java 25.3
 * Bir hücrenin görüntü stilini hücre nesnesini almadan elde etmeyi destekler

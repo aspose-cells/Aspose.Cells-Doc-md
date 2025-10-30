@@ -190,3 +190,4 @@ Hem [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose
 Çalışma sayfasının numaralandırmasını [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıfının [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) özelliğini kullanarak başlatın. [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) özelliği, ilk çalışma sayfasının sayı numarasını ayarlar ve sonraki sayfalar artan sırayla numaralanır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

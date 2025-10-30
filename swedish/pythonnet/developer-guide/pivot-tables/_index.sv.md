@@ -56,3 +56,4 @@ När du tilldelar ett cellområde som datakälla måste området gå från övre
 - [Spara Pivot Table i ODS-fil](/cells/sv/python-net/save-pivot-table-in-ods-file/)
 - [Visa alternativ för rapportsidfiltrering](/cells/sv/python-net/show-report-filter-pages-option/)
 - [Arbete med dataformat för DataField i pivot-tabell](/cells/sv/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

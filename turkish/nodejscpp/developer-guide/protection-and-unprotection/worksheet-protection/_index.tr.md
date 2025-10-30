@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Bir Çalışma Sayfasını Korumayı Kaldırma](/cells/tr/nodejs-cpp/unprotect-a-worksheet/)  
 - [Çalışma Sayfasını Korumak İçin Kullanılan Şifreyi Doğrulama](/cells/tr/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

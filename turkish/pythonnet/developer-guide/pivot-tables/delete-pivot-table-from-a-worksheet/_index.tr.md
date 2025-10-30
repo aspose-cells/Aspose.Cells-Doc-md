@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET, Çalışma Sayfasından Pivot Tablosunu Silme 
 Aşağıdaki örnek kod, çalışma sayfasından iki pivot tablosunu siler. İlk önce [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) yöntemini kullanarak pivot tablosunu kaldırır, ardından [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) yöntemini kullanarak pivot tablosunu kaldırır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

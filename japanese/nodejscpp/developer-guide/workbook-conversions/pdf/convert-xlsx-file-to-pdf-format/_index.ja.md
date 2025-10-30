@@ -69,3 +69,4 @@ console.log(e.message);
 |最初のワークシート**(売上予測)**|2番目のワークシート**(売上報告)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |3番目のワークシート**(データ入力)**|最後のワークシート**(画像)**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

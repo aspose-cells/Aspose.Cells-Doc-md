@@ -111,3 +111,4 @@ Bir sayıyı zaman olarak biçimlendirmek için, hücreyle ilişkili `Style` nes
 
 Aspose.Cells for Node.js via C++ sayfa sayısında sayıları zaman biçimine dönüştürmek, zamanı göstermek istediğiniz hücreler için özel sayı biçimi ayarlamayı içerir. Yukarıda anlatılan adımları takip ederek, Aspose.Cells kullanarak Excel dosyalarınızdaki hücrelere zaman biçimleri uygulayabilirsiniz. Anahtar nokta, istediğiniz zaman formatına uygun doğru özel format dizesini kullanmaktır.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

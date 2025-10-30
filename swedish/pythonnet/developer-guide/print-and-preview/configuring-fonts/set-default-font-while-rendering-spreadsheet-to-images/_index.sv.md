@@ -27,3 +27,4 @@ Detta är utmatningsbilden efter att ha ställt in egenskapen [**ImageOrPrintOpt
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}
 
+{{< app/cells/assistant language="python-net" >}}

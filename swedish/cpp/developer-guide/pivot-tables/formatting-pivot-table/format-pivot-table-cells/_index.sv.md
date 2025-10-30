@@ -51,3 +51,4 @@ int main() {
 
 - [Formatering av Pivottabell](/cells/sv/cpp/formatting-pivot-table/)
 - [Arbete med dataformat för DataField i pivot-tabell](/cells/sv/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

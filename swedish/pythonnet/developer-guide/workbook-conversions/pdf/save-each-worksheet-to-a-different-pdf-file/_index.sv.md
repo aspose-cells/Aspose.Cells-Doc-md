@@ -22,3 +22,4 @@ Om du behöver spara varje kalkylblad i din mall-Excel-fil för att generera oli
 Om ditt kalkylblad innehåller formler, är det bäst att anropa [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) strax innan du renderar kalkylbladet till PDF-format. Genom att göra det säkerställs att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

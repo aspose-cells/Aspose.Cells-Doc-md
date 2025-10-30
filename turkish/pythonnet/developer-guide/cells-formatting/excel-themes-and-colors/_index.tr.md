@@ -70,3 +70,4 @@ Aşağıdaki örnek, bir şablon XLSX dosyası kullanır, farklı tema renk tipl
 ## **Gelişmiş Konular**
 - [Excel Dosyasından Tema Verisi Çıkarın](/cells/tr/python-net/extract-theme-data-from-excel-file/)
 
+{{< app/cells/assistant language="python-net" >}}

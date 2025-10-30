@@ -96,3 +96,4 @@ ImplementCustomCalculationEngine.run();
 [ワークシートに書き込まずにカスタム関数を直接計算](/cells/ja/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

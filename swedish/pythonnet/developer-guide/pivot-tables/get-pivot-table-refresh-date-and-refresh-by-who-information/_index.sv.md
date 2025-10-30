@@ -21,3 +21,4 @@ Aspose.Cells for Python via .NET stöder nu hämtning av uppdateringsdatum och i
 **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetPivotTableRefreshDate-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

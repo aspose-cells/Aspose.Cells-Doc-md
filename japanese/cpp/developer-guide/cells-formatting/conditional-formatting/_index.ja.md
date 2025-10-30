@@ -343,3 +343,4 @@ int main() {
 - [条件付き書式設定を使用して、交互に行と列に影を付ける](/cells/ja/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [条件付き書式データバーイメージの生成](/cells/ja/cpp/generate-conditional-formatting-databars-images/)
 - [条件付き書式で使用されるアイコンセット、データバー、またはカラースケールオブジェクトの取得](/cells/ja/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

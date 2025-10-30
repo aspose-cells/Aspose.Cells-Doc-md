@@ -79,3 +79,4 @@ Yukarıda tanımlanan hücre değeri tiplerini aynı zamanda her hücrede buluna
 - [Veri İlk Olarak Satır, Sonra Sütun Olarak Doldurma](/cells/tr/python-net/populate-data-first-by-row-then-by-column/)
 - [Hücre Değerinin veya Aralığın Ön Eklemesini Koruma](/cells/tr/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Zengin Metnin Kısımlarına Erişme ve Güncelleme](/cells/tr/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

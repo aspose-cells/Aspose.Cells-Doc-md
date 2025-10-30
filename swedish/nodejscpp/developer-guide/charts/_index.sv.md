@@ -378,3 +378,4 @@ workbook.save(path.join(dataDir, "LineWithDataMarkerChart.xlsx"), AsposeCells.Sa
 - [Hantera titlar för Excel-diagram](/cells/sv/nodejs-cpp/chart-and-axis-titles/)
 - [Diagramrendering](/cells/sv/nodejs-cpp/chart-rendering/)
 - [Få ekvationstext av diagramtrendlinje](/cells/sv/nodejs-cpp/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

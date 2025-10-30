@@ -22,3 +22,4 @@ Följande exempelkod läser in [exemplet Excel-fil](pivot_format.xlsx) som inneh
 
 - [Formatering av Pivottabell](/cells/sv/nodejs-cpp/formatting-pivot-table/)
 - [Arbete med dataformat för DataField i pivot-tabell](/cells/sv/nodejs-cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -23,19 +23,21 @@ Aspose.Cells, Excel çalışma sayfalarını görüntülere dönüştürmeyi des
 
 Aşağıdaki kod örneği, bir Excel dosyasındaki bir çalışma sayfasını bir görüntü dosyasına dönüştürmenin nasıl yapıldığını gösterir.
 
-### **PNG Biçimi**
+### **GoLang kullanarak Excel/Spreadsheet'i PNG'ye dönüştürün**
 
 Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı PNG Görüntülerini](67338401.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **TIFF Biçimi**
+### **GoLang kullanarak Excel/Spreadsheet'i TIFF'e dönüştürün**
 
 Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı TIFF Görüntüsünü](67338419.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **Çalışma Sayfasını SVG'ye Dönüştürme**
+## **GoLang kullanarak Excel/Spreadsheet'i SVG'ye dönüştürün**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVG, Ölçeklenebilir Vektör Grafikleri anlamına gelir. SVG, iki boyutlu vektör grafikleri için XML standartlarına dayanan bir spesifikasyondur. 1999'dan beri World Wide Web Consortium (W3C) tarafından geliştirilen açık bir standarttır.
 

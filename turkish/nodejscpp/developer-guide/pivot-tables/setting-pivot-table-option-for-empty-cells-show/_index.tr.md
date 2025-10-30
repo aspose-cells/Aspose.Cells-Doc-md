@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++, "Boş hücreler için göster" pivot tablo se�
 
 - [Pivot Tablosu Biçimlendirme](/cells/tr/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

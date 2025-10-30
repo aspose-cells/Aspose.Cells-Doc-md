@@ -208,3 +208,4 @@ int main()
 - [Çalışma Kitabından Çalışmayan Elemanları Çıkarma](/cells/tr/cpp/extract-ole-objects-from-workbook/)
 - [Gömülü Çalışmayan Elemanın Sınıf Tanımlayıcısını Al veya Ayarla](/cells/tr/cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Ole Nesnesi Olarak Bir WAV Dosyası Eklemek](/cells/tr/cpp/inserting-a-wav-file-as-an-ole-object/)
+{{< app/cells/assistant language="cpp" >}}

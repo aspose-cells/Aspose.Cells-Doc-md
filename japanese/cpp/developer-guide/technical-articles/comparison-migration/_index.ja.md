@@ -29,3 +29,4 @@ Excelファイルを比較または移行する際に、データ、数式、書
 Aspose.Cells for C++は、Excelファイルの比較と移行のための包括的なツールを提供します。これらのツールを活用して、データの整合性を確保し、移行プロセスを効率化できます。
 
 より詳細な例や高度な使い方については、[Aspose.Cells for C++のドキュメント](https://reference.aspose.com/cells/cpp/)を参照してください。
+{{< app/cells/assistant language="cpp" >}}

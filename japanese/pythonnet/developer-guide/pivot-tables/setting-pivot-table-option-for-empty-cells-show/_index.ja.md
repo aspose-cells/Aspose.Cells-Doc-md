@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NETは、「空のセルを表示」ピボットテ
 ## 関連記事
 
 - [ピボットテーブルの書式設定](/cells/ja/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

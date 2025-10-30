@@ -113,3 +113,4 @@ Ta bort delade rutor med metoden [**remove_split**](https://reference.aspose.com
 - [Visa formler istället för värden i ett arbetsblad](/cells/sv/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Använd felkontrollalternativ](/cells/sv/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

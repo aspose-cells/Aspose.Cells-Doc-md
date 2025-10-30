@@ -65,3 +65,4 @@ int main()
 
 ## **Fortsatta ämnen**
 - [Få textens bredd av cellvärdet](/cells/sv/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

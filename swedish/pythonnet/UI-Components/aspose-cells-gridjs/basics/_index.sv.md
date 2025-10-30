@@ -44,7 +44,7 @@ Nedan följer de grundläggande processstegen för att utveckla en webbapplikati
 
 Nedan följer en grundläggande demo för att visa användningen av Aspose.Cells.GridJs :
 
-https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net 
+https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs
 
 I demot använder vi [gridjs-spreadsheet](https://www.npmjs.com/package/gridjs-spreadsheet) för att rendera sidan på klientens sida.
 

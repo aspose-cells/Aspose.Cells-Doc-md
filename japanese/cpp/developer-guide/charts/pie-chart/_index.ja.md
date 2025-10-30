@@ -339,3 +339,4 @@ int main()
 - [チャートのカスタマイズ](/cells/ja/cpp/customizing-charts/)
 - [グラフのデータ整形](/cells/ja/cpp/data-formatting-in-charts/)
 - [グラフの外観設定](/cells/ja/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

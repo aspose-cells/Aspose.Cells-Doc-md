@@ -26,3 +26,4 @@ Aspose.Cells for Python via .NETの[**Workbook.vba_project.sign()**](https://ref
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-DigitallySignVbaProjectWithCertificate-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

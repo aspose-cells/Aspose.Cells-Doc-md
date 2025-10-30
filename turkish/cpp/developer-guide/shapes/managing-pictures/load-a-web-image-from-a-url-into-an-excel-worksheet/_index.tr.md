@@ -64,3 +64,4 @@ int main()
 Her zaman güncellenen URL'den resim gerektiren durumlar için, [Web Adresinden Bağlantılı Resim Ekle](/cells/tr/cpp/insert-a-linked-picture-from-web-address/) metodunu kullanın. Bu yöntem, çalışma sayfası her açıldığında URL'den resmi yükler.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

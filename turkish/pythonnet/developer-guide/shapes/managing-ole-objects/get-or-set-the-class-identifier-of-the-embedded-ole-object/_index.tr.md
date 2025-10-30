@@ -26,3 +26,4 @@ Yukarıdaki örnek kod çalıştırıldığında [örnek excel dosyası](5115190
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

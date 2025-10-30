@@ -112,3 +112,4 @@ $ pip install aspose-cells-python
 
 これらのステップを踏むことで、Aspose.Cells for Python via .NETで数字を簡単に分数として書式設定できます。これは、財務、統計、教育アプリケーションなど、正確な分数値が必要な場面で特に有用です。
 
+{{< app/cells/assistant language="python-net" >}}

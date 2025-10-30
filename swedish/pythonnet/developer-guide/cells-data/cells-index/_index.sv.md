@@ -36,3 +36,4 @@ Detta exempel visar hur man:
 1. Få radindex efter namnet på raden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

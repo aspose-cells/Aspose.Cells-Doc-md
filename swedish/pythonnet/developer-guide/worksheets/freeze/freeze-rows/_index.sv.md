@@ -40,3 +40,4 @@ Det är enkelt att låsa rad(er) med Aspose.Cells för Python via .NET. Använd 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 Bifogad [provkäll-Excel-fil](../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

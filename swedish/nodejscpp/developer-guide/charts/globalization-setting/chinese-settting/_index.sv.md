@@ -110,3 +110,4 @@ Efter ovanstående åtgärd kan vi få en utmatningsdiagrambild med kinesisk reg
 |Annat Namn|其他|Other|  
 |Serienamn|系列|Series|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

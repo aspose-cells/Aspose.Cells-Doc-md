@@ -18,3 +18,4 @@ Aşağıdaki örnek kod, bir metin kutusu oluşturur ve içine bazı Japonca met
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

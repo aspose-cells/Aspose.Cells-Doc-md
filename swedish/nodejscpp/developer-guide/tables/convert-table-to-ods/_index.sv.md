@@ -31,3 +31,4 @@ Den utdata ODS-fil som genereras av provkoden bifogas för din referens.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

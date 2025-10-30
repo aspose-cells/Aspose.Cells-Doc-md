@@ -19,7 +19,7 @@ När du behöver justera visningen av Excel-sidor, måste du veta hur du kontrol
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Hur man Kontrollerar Workbook View med Aspose.Cells for .NET**
+## **Hur man kontrollerar arbetsboksvisning med Aspose.Cells för Python via .NET**
 Detta exempel visar hur man:
 
 1. Skapa en arbetsbok.
@@ -33,3 +33,4 @@ Förhandsgranskning av resultatfil:
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

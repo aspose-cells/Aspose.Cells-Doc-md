@@ -15,3 +15,4 @@ Följande exempelkod laddar den [exempelfil i Excel](66519077.xlsx) som har tre 
 - [outputExtractOleObject.docx](66519078.docx)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-ExtractingOLEObjectsFromWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

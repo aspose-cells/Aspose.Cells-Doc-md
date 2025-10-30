@@ -65,3 +65,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [Hücre Değeri Metnin Genişliğini Alma](/cells/tr/cpp/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="cpp" >}}

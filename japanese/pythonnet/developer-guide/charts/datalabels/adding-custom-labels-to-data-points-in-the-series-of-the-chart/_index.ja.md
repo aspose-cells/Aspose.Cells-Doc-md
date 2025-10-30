@@ -16,3 +16,4 @@ url: /ja/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-cha
 次のコードは、**データマーカー付き線で接続された散布図チャート**を作成し、その後、**チャート**の**シリーズ**の**データポイント**に**カスタムラベル**を追加します。各カスタムラベルは**シリーズ名**と**ポイント名**を表示します。他のテキストを使用することもできます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

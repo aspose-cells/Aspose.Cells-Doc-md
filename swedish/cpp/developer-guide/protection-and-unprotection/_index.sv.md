@@ -31,3 +31,4 @@ Skydda och avskydda den delade arbetsboken.
 - [Upptäck filformat av krypterade Office Open XML - OOXML-filer](/cells/sv/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Kryptera Excel-filer](/cells/sv/cpp/encrypting-excel-files/)
 - [Hur man upptäcker ett filformat och kontrollerar om filen är krypterad](/cells/sv/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

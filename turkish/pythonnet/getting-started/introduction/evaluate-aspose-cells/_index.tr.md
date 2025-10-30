@@ -17,3 +17,4 @@ Lisanssız Aspose.Cells'in değerlendirme sürümü (yani, lisans uygulanmadan A
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 Aspose.Cells'i sınırlamalar olmadan test etmek istiyorsanız, [30 günlük geçici lisans](https://purchase.aspose.com/temporary-license) isteyin.
+{{< app/cells/assistant language="python-net" >}}

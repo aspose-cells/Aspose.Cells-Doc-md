@@ -28,3 +28,4 @@ Aspose.Cellsは、テキストに上付き（基線の上）および下付き�
 ### Node.jsコード：下付き文字効果の適用
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

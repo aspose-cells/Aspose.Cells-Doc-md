@@ -637,3 +637,4 @@ Aspose.Cells for C++ 16.12.0で、インターフェースを統一するため�
 #### **ILoadOptions::SetLoadDataOptions メソッドの名前を ILoadOptions::SetILoadDataOptions に変更**
 #### **IWorkbook::SetSettings メソッドの名前を IWorkbook::SetISettings に変更**
 #### **IWorkbook::SetDefaultStyle メソッドの名前を IWorkbook::SetDefaultIStyle に変更**
+{{< app/cells/assistant language="cpp" >}}

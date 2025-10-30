@@ -26,3 +26,4 @@ Excelの動的チャート全般において、データの視覚化において
 - [ Aspose.Cellsを使用したダイナミックスクロールチャートの作成](/cells/ja/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [ Aspose.Cellsを使ったドロップダウンリスト付きのダイナミックチャートの作成](/cells/ja/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

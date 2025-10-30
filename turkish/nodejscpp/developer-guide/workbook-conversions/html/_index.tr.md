@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [HTML'nin Excel elektronik tablosuna yüklenmesi sırasında DIV etiketlerinin düzenini destekle](/cells/tr/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [ HTML'ye Kaydederken CSS Özel Özelliklerini Etkinleştir](/cells/tr/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

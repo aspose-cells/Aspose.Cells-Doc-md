@@ -25,3 +25,4 @@ Bir çalışsayfadaki geniş bir hücre aralığına bazı biçimlendirme uygula
 Çünkü [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) yaklaşımı daha az bellek kullanır ve daha verimlidir, eski Cell.style özelliği gereksiz yere çok bellek kullanması nedeniyle Aspose.Cells 7.1.0 sürümüyle kaldırılmıştır.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

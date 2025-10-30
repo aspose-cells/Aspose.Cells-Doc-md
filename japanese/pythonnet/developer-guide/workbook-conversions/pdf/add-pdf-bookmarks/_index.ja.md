@@ -24,3 +24,4 @@ Aspose.Cells for Python via .NETを使用すると、PDFブックマークを簡
 スプレッドシートに数式がある場合は、PDF形式でレンダリングする直前に[**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)を呼び出すことが最適です。これにより、数式に依存する値が更新され、正しくPDFにレンダリングされます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

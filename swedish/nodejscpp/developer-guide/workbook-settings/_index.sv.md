@@ -52,3 +52,4 @@ Aspose.Cells för Node.js erbjuder ett antal egenskaper och metoder för att jus
 ## **Slutsats**
 Att hantera arbetsboksinställningar i Aspose.Cells for Node.js via C++ är enkelt och erbjuder många alternativ för att anpassa Excel-filens beteende. Genom att använda de tillgängliga inställningarna kan du skräddarsy arbetsboken efter dina specifika behov.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

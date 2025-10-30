@@ -50,3 +50,4 @@ ws.cell_watches.add(e1.row, e1.column)
 # Save workbook to output XLSX format.
 wb.save("outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx", SaveFormat.XLSX)
 ```
+{{< app/cells/assistant language="python-net" >}}

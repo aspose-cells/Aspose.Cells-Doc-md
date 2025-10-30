@@ -234,3 +234,4 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 - [ビルトインドキュメントプロパティのScaleCropおよびLinksUpToDateプロパティを設定する](/cells/ja/nodejs-cpp/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [ビルドインドキュメントプロパティを使用してExcelファイルのドキュメントバージョンを指定する](/cells/ja/nodejs-cpp/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [ビルドインドキュメントプロパティを使用してExcelファイルの言語を指定する](/cells/ja/nodejs-cpp/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

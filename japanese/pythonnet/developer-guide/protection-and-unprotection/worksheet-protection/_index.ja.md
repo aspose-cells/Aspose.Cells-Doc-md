@@ -39,3 +39,4 @@ Excelファイルのワークシートの構造を保護するためには、次
 - [ワークシートの保護を解除する](/cells/ja/python-net/unprotect-a-worksheet/)
 - [ワークシートを保護するために使用されたパスワードの検証](/cells/ja/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

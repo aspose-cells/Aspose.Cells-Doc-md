@@ -166,3 +166,4 @@ int main()
 
 ## **Gelişmiş Konular**
 - [Kaynak Aralığın Satır Yüksekliklerini Hedef Aralığa Kopyalama](/cells/tr/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

@@ -58,3 +58,4 @@ Aşağıda verilen tam bir örnek, [**is_row_column_headers_visible**](https://r
 [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) ve [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) yöntemlerini kullanarak, [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) sınıfının birden fazla satırı ve sütunu görünür yapmak mümkündür.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

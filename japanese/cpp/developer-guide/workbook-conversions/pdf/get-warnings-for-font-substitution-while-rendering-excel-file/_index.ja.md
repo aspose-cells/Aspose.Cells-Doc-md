@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 スプレッドシートに数式が含まれている場合、`Workbook.CalculateFormula`メソッドを呼び出して、スプレッドシートをPDFに変換する直前に数式依存値を再計算し、正しい値をレンダリングさせることが最良です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

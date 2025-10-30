@@ -60,3 +60,4 @@ Aspose.Cells kullanarak hücreye resim ekleme. Lütfen aşağıdaki örnek kodu 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-place-image-in-cell.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -242,3 +242,4 @@ int main()
 ## **Gelişmiş Konular**
 - [Formüller ile CSV Dosyası Yükle veya İçe Aktar](/cells/tr/cpp/load-or-import-csv-file-with-formulas/)
 - [Çeşitli Kodlamalarla CSV Dosyası Okuma](/cells/tr/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

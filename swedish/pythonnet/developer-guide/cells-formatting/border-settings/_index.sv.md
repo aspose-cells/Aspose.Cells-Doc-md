@@ -85,3 +85,4 @@ Det är också möjligt att lägga till ramar till en rad celler istället för 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Borders-AddingBorderstoRange-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

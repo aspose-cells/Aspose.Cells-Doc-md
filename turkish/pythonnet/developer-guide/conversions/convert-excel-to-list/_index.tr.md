@@ -107,3 +107,4 @@ Aspose.Cells for Python via .NET kullanarak aralık verisini listeye nasıl akta
 ```
 [['Region', 'Store'], ['Central', 3055], ['East', 3036]]
 ```
+{{< app/cells/assistant language="python-net" >}}

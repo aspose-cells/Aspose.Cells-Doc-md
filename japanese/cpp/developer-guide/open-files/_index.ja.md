@@ -154,3 +154,4 @@ int main()
 - [JSONをCSVに変換](/cells/ja/cpp/convert-json-to-csv/)
 - [JSONをExcelに変換](/cells/ja/cpp/convert-json-to-excel/)
 - [ExcelをHtmlに変換](/cells/ja/cpp/convert-excel-to-html/)
+{{< app/cells/assistant language="cpp" >}}

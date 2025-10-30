@@ -11,3 +11,4 @@ Aşağıdaki örnek kod, çalışma sayfasındaki hücre içine bir bağlantı e
 ![todo:image_alt_text](add-hyperlinks-to-the-cells_1.png)
 ## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddHyperlinksToCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -126,3 +126,4 @@ workbook.save(path.join(outputDir, "ConvertWorksheetToSVG_out.svg"));
 - [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/nodejs-cpp/export-chart-to-svg-with-viewbox-attribute/)  
 - [Excel'den TIFF'e Dönüşüm İlerlemesini İzle](/cells/tr/nodejs-cpp/track-conversion-progress-of-excel-to-tiff/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

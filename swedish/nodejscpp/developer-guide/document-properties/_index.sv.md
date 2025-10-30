@@ -234,3 +234,4 @@ workbook.save(path.join(dataDir, "out_sample-document-properties.xlsx"));
 - [Inställning av ScaleCrop och LinksUpToDate egenskaper för inbyggda dokumentegenskaper](/cells/sv/nodejs-cpp/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/)
 - [Ange dokumentversionen för Excel-filen med hjälp av inbyggda dokumentegenskaper](/cells/sv/nodejs-cpp/specify-document-version-of-the-excel-file-using-builtin-document-properties/)
 - [Ange språket för Excel-filen med hjälp av inbyggda dokumentegenskaper](/cells/sv/nodejs-cpp/specify-the-language-of-the-excel-file-using-builtin-document-properties/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

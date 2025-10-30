@@ -90,3 +90,4 @@ Görüntüleme formatını ayarlama için kendi özel biçim dizinizi tanımlama
 - [Çalışmabook için Özel Sayı Ondalık ve Grup Ayraçlarını Belirleme](/cells/tr/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [DBNum Özel Desen Biçimlendirmesini Belirleme](/cells/tr/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

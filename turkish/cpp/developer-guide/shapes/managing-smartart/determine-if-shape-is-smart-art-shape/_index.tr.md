@@ -56,3 +56,4 @@ int main()
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

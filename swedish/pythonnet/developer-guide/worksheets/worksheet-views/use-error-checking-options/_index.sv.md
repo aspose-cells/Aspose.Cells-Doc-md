@@ -34,3 +34,4 @@ Du kan använda felkontrolloptionerna för att snabbt konvertera nummer som lagr
 Följande exempel visar hur man inaktiverar numren som lagras som text felkontroll för ett kalkylblad i mall XLS-filen med hjälp av Aspose.Cells för Python via .NET API:er.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

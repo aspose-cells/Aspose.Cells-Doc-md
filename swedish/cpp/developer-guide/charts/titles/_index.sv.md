@@ -107,3 +107,4 @@ int main()
 
 ## **Avancerade ämnen**
 - [Läs diagramunderrubrik från ODS-fil](/cells/sv/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

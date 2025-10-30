@@ -49,3 +49,4 @@ workbook.save("frozen.xlsx");
 
 Bifogad [provkälla Excel-fil](Frys.xlsx).  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -24,3 +24,4 @@ keywords: C++を使用してセル値の幅をピクセル単位で測定、C++�
 ## **高度なトピック**  
 - [セル値のテキスト幅を取得する](/cells/ja/nodejs-cpp/get-text-width-of-cell-value/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -92,3 +92,4 @@ Sayısal formatı ayarlamak için [**setCustom(string)**](https://reference.aspo
 - [Özel Tarih Format Deseni g ve ge mm dd'yi Dönüştürme](/cells/tr/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [Çalışmabook için Özel Sayı Ondalık ve Grup Ayraçlarını Belirleme](/cells/tr/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [DBNum Özel Desen Biçimlendirmesini Belirleme](/cells/tr/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

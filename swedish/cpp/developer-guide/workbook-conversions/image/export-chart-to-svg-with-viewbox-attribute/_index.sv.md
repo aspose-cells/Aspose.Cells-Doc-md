@@ -73,3 +73,4 @@ Om du öppnar diagrammets SVG i anteckningar kommer du att hitta **viewBox** -at
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

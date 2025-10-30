@@ -64,3 +64,4 @@ Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att
 - [Redigera hyperlänkar på arbetsbladet](/cells/sv/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Hämta hyperlänkar i omfånget](/cells/sv/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

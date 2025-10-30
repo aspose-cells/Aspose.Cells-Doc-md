@@ -64,3 +64,4 @@ int main()
 För scenarier som kräver alltid uppdaterade bilder från en URL, använd metoden beskriven i [Infoga en länkad bild från webbadress](/cells/sv/cpp/insert-a-linked-picture-from-web-address/). Den här metoden laddar ned bilden från URL varje gång bladet öppnas.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

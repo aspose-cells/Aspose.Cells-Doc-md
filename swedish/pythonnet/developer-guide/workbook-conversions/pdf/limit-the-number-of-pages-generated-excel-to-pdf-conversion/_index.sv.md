@@ -24,3 +24,4 @@ Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft E
 Om kalkylarket innehåller formler är det bäst att anropa [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) metoden precis innan det renderas till PDF. Att göra detta säkerställer att formelberoende värden omräknas, och de korrekta värdena renderas i utdatafilen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

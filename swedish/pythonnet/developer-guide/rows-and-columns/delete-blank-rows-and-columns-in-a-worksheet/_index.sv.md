@@ -25,3 +25,4 @@ Använd följande Aspose.Cells-metoder för att ta bort tomma rader och kolumner
 ## C# kod för att ta bort tomma kolumner
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-DeletingBlankColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

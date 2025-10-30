@@ -61,3 +61,4 @@ X Value Type: IsString
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -562,3 +562,4 @@ Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 - [Web Uzantıları - Office Eklentileri](/cells/tr/nodejs-cpp/web-extensions-office-add-ins/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,3 +12,4 @@ description: Aspose.Cells for C++ ile desteklenen yazı tipi formatları hakkın
 |**TTF**|TrueType Fontları|
 |**TTC**|TrueType Koleksiyonu|
 |**OTF**|OpenType Fontları|
+{{< app/cells/assistant language="cpp" >}}

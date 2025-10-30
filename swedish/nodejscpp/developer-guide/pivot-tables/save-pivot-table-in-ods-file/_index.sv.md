@@ -15,3 +15,4 @@ Utdatafilen som genererats av ovanstående kod är bifogad för din referens.
 
 [Utgångs-ODS-fil](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

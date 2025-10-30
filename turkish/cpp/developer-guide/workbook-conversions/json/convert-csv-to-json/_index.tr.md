@@ -96,3 +96,4 @@ int main()
 ]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

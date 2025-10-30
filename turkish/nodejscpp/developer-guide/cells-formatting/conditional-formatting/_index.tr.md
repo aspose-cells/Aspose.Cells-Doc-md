@@ -87,3 +87,4 @@ Sadece ince çizgi stili sınır sınırı için kullanılabilir. Köşegen çiz
 - [Kullanılan Koşullu Biçimlendirme İkon Setleri, Veri Çubukları veya Renk Ölçekleri Nesnelerini Almak](/cells/tr/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

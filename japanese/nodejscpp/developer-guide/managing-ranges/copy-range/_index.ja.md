@@ -145,3 +145,4 @@ targetRange.copyData(sourceRange);
 ## **高度なトピック**
 - [ソース範囲の行の高さを宛先範囲にコピーします。](/cells/ja/nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

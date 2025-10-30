@@ -16,3 +16,4 @@ Aşağıdaki örnek kod, mevcut bir zaman çizelgesi içeren [örnek Excel dosy
 ![todo:image_alt_text](out.png)
 ### **Örnek Kod**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Timelines-RenderingTimeline.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

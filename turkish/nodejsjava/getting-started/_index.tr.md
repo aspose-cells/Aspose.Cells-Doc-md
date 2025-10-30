@@ -24,7 +24,7 @@ Aspose.Cells for Node.js via Java'ü ZIP arşivinden kurmak ve kullanmak için a
 ### **Linux:**
 - [Node.js](https://nodejs.org/en/download/) indirin ve kurun.
 - Linux için Oracle JDK (1.7 veya 1.8) yükleyin, JAVA_HOME ortam değişkenini yapılandırın.
-- python 2.x kurulumu yapın.
+- Python 3.x yükleyin
 - [node-java köprüsü](https://github.com/joeferner/node-java) indirin ve kurun. Aşağıdaki komutları terminalde çalıştırabilirsiniz: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Oracle JDK8'i indirin ve JAVA_HOME ortam değişkenini yapılandırın.
 - Node.js'i kurun ve node.exe'yi PATH'a ekleyin.
+- Python yükleyin ve PATH'e ekleyin.
 - node-gyp kurulumu yapın.
-- Windows Build Araçları'nı kurun.
-- [node-java köprüsü](https://www.npmjs.com/package/java) kurun ve aşağıdaki komutları yönetici olarak komut istemine çalıştırın:
+- [node-java köprüsü](https://www.npmjs.com/package/java) yükleyin.
+- aspose.cells yükleyin (VEYA: "Aspose.Cells for Node.js via Java" dosyasını indirin ve "aspose.cells.js.java/node_modules" klasörüne çıkartın).
 
-
+Aşağıdaki komutları yönetici olarak komut istemcisinde çalıştırın (**Java, Node.js, Python yapılandırıldığından emin olun**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- "Aspose.Cells for Node.js via Java"'ü indirin ve "aspose.cells.js.java/node_modules" dizinine çıkarın.
 - "aspose.cells.js.java" klasöründe aşağıdaki örnek kodu kullanarak **hello.js** adında bir dosya oluşturun:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- python 2.x kurulumu yap (kurulu değilse).
+- Python 3.x i yükleyin (yüklenmediyse).
 - node-java köprüsünü indirin ve kurun. Aşağıdaki komutları terminalde çalıştırabilirsiniz:
 
 `         `$ mkdir aspose.cells.js.java

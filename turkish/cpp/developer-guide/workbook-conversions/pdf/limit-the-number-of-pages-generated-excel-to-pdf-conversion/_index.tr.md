@@ -62,3 +62,4 @@ int main()
 Eğer elektronik tablo formülleri içeriyorsa, PDF'ye dönüştürmeden önce[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) çağrılması en iyisidir. Bu işlem, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve çıktı dosyasında doğru değerlerin oluşturulmasını sağlar.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

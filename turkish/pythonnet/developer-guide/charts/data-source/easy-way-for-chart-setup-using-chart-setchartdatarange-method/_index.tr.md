@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET artık grafikleri kolayca kurmak için [**Chart
 Aşağıdaki örnek kod, grafikleri kolayca kurmak için [**Chart.set_chart_data_range()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/set_chart_data_range) yönteminin kullanımını açıklar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-EasyWayToChartSetupUsingSetChartDataRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

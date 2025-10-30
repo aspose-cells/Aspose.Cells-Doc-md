@@ -27,3 +27,4 @@ Excelアプリケーションと同様に、Aspose.Cells for Python via .NET API
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-CalculatingSumUsingNamedRangeOnDifferentSheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

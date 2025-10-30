@@ -42,3 +42,4 @@ Följande kodexempel visar hur man använder [**Workbook.import_xml()**](https:/
 - [Fråga cellområden kopplade till XML-kartvärdering med hjälp av Worksheet.XmlMapQuery-metoden](/cells/sv/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

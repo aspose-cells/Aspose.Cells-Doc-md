@@ -24,3 +24,4 @@ Aşağıdaki örnek, bir Microsoft Excel dosyasındaki (3 ve 4) sayfa aralığı
 Eğer elektronik tablo formulalar içeriyorsa, onu PDF'ye dönüştürmeden önce [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) yöntemini çağırmak en iyisidir. Bu işlem, formül bağımlı değerlerin tekrar hesaplanmasını sağlar ve doğru değerler çıktı dosyasında render edilir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

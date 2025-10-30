@@ -87,3 +87,4 @@ Här är konsoloutputen från ovanstående exempelkod.
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

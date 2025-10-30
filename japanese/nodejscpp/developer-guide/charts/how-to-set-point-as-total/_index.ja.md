@@ -45,3 +45,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 図のように、4つの"合計"データポイントが正しく設定されているのが確認でき、前のチャートとの違いもわかります。
 
 ![todo:image_alt_text](set-as-total2.png)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

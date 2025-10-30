@@ -121,3 +121,4 @@ int main()
 - [スライサーの削除](/cells/ja/cpp/removing-slicer/)
 - [スライサーをレンダリングする](/cells/ja/cpp/rendering-slicer/)
 - [スライサーを更新する](/cells/ja/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

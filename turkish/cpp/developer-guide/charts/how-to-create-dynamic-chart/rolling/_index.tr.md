@@ -91,3 +91,4 @@ Oluşturulan dosyada, A ve B sütunlarına sürekli veri eklemeye devam edebilir
 ```
 
 Formüldeki "-5" değerini "-10" olarak değiştirmeyi deneyin ve dinamik grafik en son 10 veri setini sayacaktır. Aspose.Cells'i kullanarak başarılı bir şekilde dinamik dolan bir grafik oluşturduk.
+{{< app/cells/assistant language="cpp" >}}

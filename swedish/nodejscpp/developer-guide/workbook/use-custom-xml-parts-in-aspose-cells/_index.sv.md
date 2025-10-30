@@ -66,3 +66,4 @@ workbook.save(filePath);
 ## Relaterad artikel
 
 - [Lägga till anpassade egenskaper synliga inuti dokumentinformationspanelen](/cells/sv/nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -29,3 +29,4 @@ Som du kan se är målattributet i ovanstående HTML-länk **_self**. Du kan kon
 Följande kod illustrerar användningen av egenskapen [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Den ändrar länkens måltyp till **BLANK**. Som standard är det **PARENT**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -281,3 +281,4 @@ int main()
 
 ## **Fortsatta ämnen**
 - [Lägg till WordArt-vattenstämpel på diagram](/cells/sv/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

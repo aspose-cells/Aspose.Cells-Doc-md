@@ -129,3 +129,4 @@ int main()
 Det är också möjligt att använda metoderna [**UnhideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderows/) och [**UnhideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumns/) av [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)-klassen för att göra flera rader och kolumner synliga.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

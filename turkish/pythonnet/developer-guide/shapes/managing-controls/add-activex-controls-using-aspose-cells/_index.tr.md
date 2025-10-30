@@ -31,3 +31,4 @@ Bir kez AktifX kontrolü şekil koleksiyonunun içine ekledikten sonra, daha son
 Aşağıdaki örnek kod, Aspose.Cells for Python via .NET kullanarak Toggle Button ActiveX Kontrolü ekler.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-AddActiveXControls-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

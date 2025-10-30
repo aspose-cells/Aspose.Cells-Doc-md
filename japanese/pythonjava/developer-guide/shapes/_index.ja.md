@@ -1,7 +1,7 @@
 ---
 title: シェイプ
 type: docs
-weight: 20
+weight: 90
 url: /ja/python-java/shapes/
 ---
 

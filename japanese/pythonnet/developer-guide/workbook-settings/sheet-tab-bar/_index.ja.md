@@ -27,3 +27,4 @@ Excelシートバーの表示を調整する必要がある場合、シートタ
 <br>
 <image src="result.png" width="70%" />
 
+{{< app/cells/assistant language="python-net" >}}

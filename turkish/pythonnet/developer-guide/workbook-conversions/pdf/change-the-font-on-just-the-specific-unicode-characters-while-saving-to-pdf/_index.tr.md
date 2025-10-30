@@ -88,3 +88,4 @@ Bu temel API bileşenlerini kullanın:
 {{% alert color="note" %}} 
 **API Fark Notu**: Python.NET'te, boolean özellikler PascalCase yerine snake_case kullanır (`is_font_substitution_char_granularity`).
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

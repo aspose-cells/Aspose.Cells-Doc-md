@@ -31,3 +31,4 @@ Aspose.Cells for Python via .NET, "Boş hücreleri göster" pivot tablo seçene�
 ## İlgili Makaleler
 
 - [Pivot Tablosu Biçimlendirme](/cells/tr/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

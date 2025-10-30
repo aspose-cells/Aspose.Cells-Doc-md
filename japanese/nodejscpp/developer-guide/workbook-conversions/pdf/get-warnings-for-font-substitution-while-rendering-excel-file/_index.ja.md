@@ -74,3 +74,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -115,3 +115,4 @@ int main()
 Den genererade utdatafilen av ovanstående kod bifogas för referens.
 
 [Utgångs-ODS-fil](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="cpp" >}}

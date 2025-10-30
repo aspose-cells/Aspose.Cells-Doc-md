@@ -76,3 +76,4 @@ Kaydırma çubuklarını gizlemek için [**Workbook**](https://reference.aspose.
 Aşağıda, bir Excel dosyasını, book1.xls'yi açan, her iki kaydırma çubuğunu gizleyen ve ardından değiştirilmiş dosyayı output.xls olarak kaydeden tam bir kod bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-Worksheets-Display-DisplayHideScrollBars-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -308,3 +308,4 @@ Aşağıdaki tablo, Aspose.Cells kullanılarak PDF'ye dışa aktarılırken tam 
 - [Belirtilen Çalışsayfalarını PDF olarak kaydet](/cells/tr/cpp/save-specified-worksheets-to-pdf/)
 - [Güvenli PDF Belgeleri](/cells/tr/cpp/secure-pdf-documents/)
 - [Çıktı PDF ve görüntülerde metin geçişini belirle](/cells/tr/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

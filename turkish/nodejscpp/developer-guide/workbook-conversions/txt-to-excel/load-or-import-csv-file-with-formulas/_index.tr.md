@@ -58,3 +58,4 @@ Kod ilk olarak CSV dosyasını yükler, ardından tekrar D4 hücresine içe akta
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

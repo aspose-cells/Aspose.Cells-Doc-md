@@ -49,3 +49,4 @@ För att formatera ett nummer som datum i Excel, följ dessa steg:
 För att formatera nummer som datum i Aspose.Cells for Node.js via C++-biblioteket för arbete med Excel-filer kan du applicera datumformat på celler programmässigt. Så här gör du med Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

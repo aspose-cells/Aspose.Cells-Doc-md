@@ -25,3 +25,4 @@ Följande exempelkod lägger först till fyra anpassade XML-delar med [**Workbo
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

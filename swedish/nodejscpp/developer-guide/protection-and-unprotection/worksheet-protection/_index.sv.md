@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Avskydda ett kalkylblad](/cells/sv/nodejs-cpp/unprotect-a-worksheet/)  
 - [Verifiera lösenord som används för att skydda arbetsbladet](/cells/sv/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -14,3 +14,4 @@ Herhangi bir şekil veya yorumun kenar boşluklarını, önce ve sonra boşlukla
 Aşağıdaki örnek kod, belirtilen özelliklerin kullanımını açıklar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetTextboxOrShapeParagraphLineSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

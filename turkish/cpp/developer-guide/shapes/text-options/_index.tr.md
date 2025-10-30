@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **Sonuç**
 Aspose.Cells for C++, Excel dosyalarında şekil metni seçeneklerini yönetmek için kapsamlı araçlar sağlar. [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) sınıfını kullanarak, metin hizalamasını, yönlendirmeyi ve biçimlendirmeyi kolayca ihtiyaçlarınıza göre özelleştirebilirsiniz.
+{{< app/cells/assistant language="cpp" >}}

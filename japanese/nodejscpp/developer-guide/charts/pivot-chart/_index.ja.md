@@ -133,3 +133,4 @@ sheet3.getCharts().get(index).setHidePivotFieldButtons(false);
 workbook.save(path.join(dataDir, "pivotChart_test_out.xlsx"));
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

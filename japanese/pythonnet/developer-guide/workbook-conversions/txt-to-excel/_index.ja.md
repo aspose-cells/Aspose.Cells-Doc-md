@@ -43,3 +43,4 @@ Excel では、特殊文字が含まれる CSV ファイルを開くと、文字
 - [数式を持つCSVファイルを読み込むまたはインポートする](/cells/ja/python-net/load-or-import-csv-file-with-formulas/)
 - [複数のエンコーディングを持つCSVファイルの読み込み](/cells/ja/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

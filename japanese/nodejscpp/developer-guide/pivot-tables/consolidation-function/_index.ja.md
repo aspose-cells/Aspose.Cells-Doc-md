@@ -37,3 +37,4 @@ Aspose.Cells for Node.js via C++は、以下の集約関数をサポートする
 **DISTINCT_COUNT**集計関数は、Microsoft Excel 2013でのみサポートされています。
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

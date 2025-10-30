@@ -88,3 +88,4 @@ int main()
 - [Hantera automatiska enheter för diagramaxeln som Microsoft Excel](/cells/sv/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Läs av axeletiketter efter att ha beräknat diagrammet](/cells/sv/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Hur man ställer in kategoriaxel i Excel-diagram](/cells/sv/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

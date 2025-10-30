@@ -41,3 +41,4 @@ Du kan hämta följande [Inmatningsfil](SeriesFiltered.xlsx) och [Utdatafil](out
 
 Som visas i figuren nedan har de två första serierna, som ursprungligen var synliga, blivit osynliga i utdatafilen.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

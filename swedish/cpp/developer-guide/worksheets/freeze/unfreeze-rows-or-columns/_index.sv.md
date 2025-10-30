@@ -53,3 +53,4 @@ int main()
 ```
 
 Bifogad [provkälla för Excel-filen](Fryst.xlsx).
+{{< app/cells/assistant language="cpp" >}}

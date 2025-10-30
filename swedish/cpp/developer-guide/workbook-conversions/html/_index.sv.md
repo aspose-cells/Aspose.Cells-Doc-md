@@ -94,3 +94,4 @@ int main()
 - [Ange hur man korsar sträng i utmatnings-HTML med HtmlCrossType](/cells/sv/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Stödjer layouten för DIV-taggar vid laddning av HTML till excel arbetsbok](/cells/sv/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [Aktivera CSS Anpassade Egenskaper under sparande till HTML](/cells/sv/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

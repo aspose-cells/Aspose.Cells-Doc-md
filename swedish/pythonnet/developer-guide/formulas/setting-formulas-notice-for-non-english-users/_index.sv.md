@@ -17,3 +17,4 @@ Det finns två tips som icke-engelska användare måste följa när de skapar fo
 1. Formler måste skrivas in på engelska. Använd till exempel det engelska "=SUM()" inte det tyska "=SUMME()".
 1. Använd alltid komma (,) för att separera funktionsparametrar. För vissa språkalternativ eller inställningar är avgränsaren för funktionsparametrar semikolon, men Aspose.Cells för Python via .NET använder engelskt kommastil. Till exempel, använd "=IF (C5=0,0,C3/C4)" inte "=IF(C5=0;0;C3/C4)"
 
+{{< app/cells/assistant language="python-net" >}}

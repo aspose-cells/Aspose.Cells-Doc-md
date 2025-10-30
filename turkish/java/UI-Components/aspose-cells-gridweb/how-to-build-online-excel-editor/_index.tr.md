@@ -25,11 +25,11 @@ Bilgisayarınıza Docker'ın yüklü olduğundan emin olun. Docker'ı [resmi Doc
 
 ## Adım 1: Dockerfile Oluşturma
 
-Proje [dizinine](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) `Dockerfile` adında bir dosya oluşturun. `Dockerfile` Docker imajınızı nasıl oluşturacağınıza dair talimatları içermelidir.
+Projenizin [dizin](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/) içinde `Dockerfile` adında bir dosya oluşturun. `Dockerfile`, Docker görüntünüzü nasıl oluşturacağınız hakkında talimatlar içermelidir.
 
 ## Adım 2: GridWeb için Dockerfile yazın
 
-İşte Java uygulamasıyla GridWeb demo'su için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile):
+İşte GridWeb demo ile Java uygulaması için örnek [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb/springboot3.3demo/Dockerfile):
 
 ```dockerfile
 #spring boot3.3 shall use jdk17 above 
@@ -70,9 +70,9 @@ RUN apt-get update && apt-get install -y fontconfig libfreetype6 && rm -rf /var/
 
 # Set the environment variable for headless mode,no need to use display
 ENV JAVA_OPTS="-Djava.awt.headless=true"
-# create [log dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [log dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/log
-# create [cache dir](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
+# create [cache dir](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridWeb/springboot3.3demo/src/main/resources/application.properties)
 RUN mkdir -p /app/grid_cache
 
 # RUN ls -l /app/

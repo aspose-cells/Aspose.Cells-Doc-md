@@ -36,3 +36,4 @@ Paletten rymmer endast 56 färger. När du lägger till en anpassad färg i pale
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

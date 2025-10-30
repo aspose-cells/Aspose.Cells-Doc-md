@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NET, başlıkları ve altbilgileri komut listesi ol
 Aşağıdaki kodlar başlık veya altlığı komut listesi olarak ayrıştırmayı ve komutları işlemeyi açıklar:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

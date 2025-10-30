@@ -42,3 +42,4 @@ console.log(e.message);
 Om kalkylbladet innehåller formel är det bäst att anropa [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) precis innan det renderas till PDF. Detta säkerställer att formelberoende värden omräknas och att korrekta värden renderas i PDF:en.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

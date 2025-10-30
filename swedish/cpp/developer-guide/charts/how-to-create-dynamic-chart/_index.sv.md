@@ -24,3 +24,4 @@ Vi kan använda Aspose Cells för att skapa dynamiska diagram i Excel-filer. I A
 - [Skapa dynamisk rullande diagram med hjälp av Aspose Cells](/cells/sv/cpp/create-dynamic-rolling-chart/) 
 - [Skapa dynamiskt rullande diagram med hjälp av Aspose Cells](/cells/sv/cpp/create-dynamic-scrolling-chart/) 
 - [Skapa dynamiskt diagram med dropdownlista med hjälp av Aspose Cells](/cells/sv/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

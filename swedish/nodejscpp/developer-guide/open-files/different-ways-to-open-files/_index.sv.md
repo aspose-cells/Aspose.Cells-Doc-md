@@ -141,3 +141,4 @@ Det finns rättvisa chanser att [**Workbook**](https://reference.aspose.com/cell
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

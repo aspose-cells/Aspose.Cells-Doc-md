@@ -38,3 +38,4 @@ Her zaman güncellenmiş resmi URL'den almak istiyorsanız, [Bağlantılı Resim
 {{% /alert %}}  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

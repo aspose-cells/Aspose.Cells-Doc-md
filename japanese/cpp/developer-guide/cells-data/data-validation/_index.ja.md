@@ -698,3 +698,4 @@ int main()
 - [ODS ファイルでのセル検証を取得](/cells/ja/cpp/get-cell-validation-in-ods-files/)
 - [セルに適用された検証を取得する](/cells/ja/cpp/get-validation-applied-on-a-cell/)
 - [セルの値がデータ検証ルールを満たすかどうかを確認する](/cells/ja/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

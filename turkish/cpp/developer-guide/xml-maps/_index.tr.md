@@ -71,3 +71,4 @@ int main()
 - [Çalışma Kitabı içinde XML Haritasına bağlı XML Verilerini Dışa Aktar](/cells/tr/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [XML Haritasının Kök Eleman Adını Bul](/cells/tr/cpp/find-the-root-element-name-of-xml-map/)
 - [Hücreleri XML Haritası Elemanlarına Bağla](/cells/tr/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

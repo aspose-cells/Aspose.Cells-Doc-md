@@ -43,3 +43,4 @@ workbook.calculateFormula();
 // Save the workbook in pdf format
 workbook.save(path.join(dataDir, "output_out.pdf"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -52,3 +52,4 @@ Microsoft Excelとは異なり、Aspose.Cells for Python via .NETでは行と列
 これは最初の名前です。
 
 ` <> + (形容詞Private _ " Private"
+{{< app/cells/assistant language="python-net" >}}

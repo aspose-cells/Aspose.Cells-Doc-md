@@ -20,3 +20,4 @@ Du kan fylla formytan med någon bild och kachelera den med [**Shape.fill.textur
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-TilePictureAsTextureInsideShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

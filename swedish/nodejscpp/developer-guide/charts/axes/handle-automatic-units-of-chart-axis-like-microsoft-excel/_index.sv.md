@@ -37,3 +37,4 @@ const chart = worksheet.getCharts().get(0);
 // Render chart to pdf
 chart.toPdf("outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pdf");
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

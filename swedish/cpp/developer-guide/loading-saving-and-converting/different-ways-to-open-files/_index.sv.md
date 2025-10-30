@@ -21,3 +21,4 @@ Det är också möjligt att öppna en Excel-fil som en ström. För att göra de
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingStream-new.cpp" >}}
 
+{{< app/cells/assistant language="cpp" >}}

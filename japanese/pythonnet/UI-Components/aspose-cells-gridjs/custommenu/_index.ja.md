@@ -124,7 +124,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net/wwwroot/xspread/index.html のgithubデモページで詳細を確認できます
+詳細は私たちのgithubデモページ https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/blob/main/Examples.GridJs/templates/index.html で確認できます
 
 
 

@@ -142,4 +142,4 @@ bu istemci arayüzü işlemlerini senkronize etmek için kaydetme işleminden ö
 ```
 
 Daha fazla detaylı bilgi için buradaki örneği kontrol edebilirsiniz:
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

@@ -7,3 +7,4 @@ url: /ja/cpp/using-smart-markers/
 description: Aspose.Cellsライブラリを使用して、テンプレートExcelファイルに従ってデータをスマートにインポートおよび配置する。
 ---
 
+{{< app/cells/assistant language="cpp" >}}

@@ -115,3 +115,4 @@ int main()
  Yukarıdaki kod tarafından oluşturulan çıktı dosyası sizin referansınız için eklendi.
 
 [Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="cpp" >}}

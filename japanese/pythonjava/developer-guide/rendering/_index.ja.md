@@ -1,7 +1,7 @@
 ---
 title: レンダリング
 type: docs
-weight: 70
+weight: 150
 url: /ja/python-java/rendering/
 ---
 

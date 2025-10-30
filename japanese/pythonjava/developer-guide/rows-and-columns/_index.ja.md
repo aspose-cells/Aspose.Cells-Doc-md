@@ -1,7 +1,7 @@
 ---
 title: 行と列
 type: docs
-weight: 90
+weight: 58
 url: /ja/python-java/rows-and-columns/
 ---
 

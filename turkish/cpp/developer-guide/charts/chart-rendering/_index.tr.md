@@ -178,3 +178,4 @@ chart.ToPdf(outputPdfFile);
 Görüntüye veya PDF'ye dönüştürmeye çalıştığınızda, desteklenmeyen grafik türlerini 0 boyutlu görüntüler veya boş PDF'lerle sonuçlanabilirsiniz.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

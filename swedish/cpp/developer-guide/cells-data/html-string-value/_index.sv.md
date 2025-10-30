@@ -60,3 +60,4 @@ int main()
 
 - [Visa punktlistor genom att ställa in cellvärde med hjälp av HTML](/cells/sv/cpp/display-bullets-by-setting-cell-value-using/)
 - [Hämta HTML5-sträng från cell](/cells/sv/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

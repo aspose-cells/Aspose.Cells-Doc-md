@@ -4,7 +4,7 @@ linktitle: Signatur
 type: docs
 weight: 100
 url: /sv/java/assign-and-validate-digital-signatures/
-description: Excelfil digital signatur, verifiering. För att skydda äktheten av en arbetsboks innehåll i Excelfilen kan du lägga till en digital signatur med C# koder med Aspose.Cells för .Net.
+description: Excel fil digital signatur, verifiering. För att skydda äktheten av ett arbetsboksinnehåll i Excel fil kan du lägga till en digital signatur med hjälp av Java koder med Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

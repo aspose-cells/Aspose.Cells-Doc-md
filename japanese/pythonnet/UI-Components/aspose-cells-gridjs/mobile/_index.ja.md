@@ -13,7 +13,7 @@ keywords: excel,mobile,spreadsheet,editor, mobile spreadsheet,viewer
 
 GridJsはモバイル画面に適応します
 
-[GridJsのデモを実行](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "GridJsのデモ")
+[GridJsのデモ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "GridJsのデモ")を実行する
 
 モバイル端末で、IP経由でページにアクセスする必要があります http://127.0.0.1:2022 . 
 

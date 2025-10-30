@@ -26,3 +26,4 @@ Bir çalışsayfadaki geniş bir hücre aralığına bazı biçimlendirme uygula
 [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) yaklaşımı çok daha az bellek kullanır ve verimlidir, bu nedenle gereksiz bellek tüketen eski Cell.Style özelliği Aspose.Cells 7.1.0 sürümü ile kaldırılmıştır.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

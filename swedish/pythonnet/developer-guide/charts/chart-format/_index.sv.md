@@ -71,3 +71,4 @@ Följande kodsnutt demonstrerar hur man ändrar färgen på stora rutnätlinjer.
 ## **Fortsatta ämnen**
 - [Ställ in värdenas formatkod för diagramserier](/cells/sv/python-net/set-the-values-format-code-of-chart-series/)
 - [Ange bild som bakgrundsfyllning i diagrammet.](/cells/sv/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

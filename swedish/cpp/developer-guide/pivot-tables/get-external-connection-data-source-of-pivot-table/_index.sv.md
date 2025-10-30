@@ -58,3 +58,4 @@ int main()
 Källfilen som används i kodprovet är bifogad för referens.
 
 [Källfil](104398862.xlsx)
+{{< app/cells/assistant language="cpp" >}}

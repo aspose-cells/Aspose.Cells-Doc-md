@@ -10,7 +10,7 @@ description: Bu kesit, CSharp kodları kullanarak Excel dosyalarını şifreleme
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net, MS Excel gibi dosya düzeyinden veri düzeyine geniş koruma ve koruma seçenekleri sunar.
+Aspose.Cells for Python via .NET, MS Excel gibi dosya ve veri seviyesinden koruma ve korumasızlaştırma sunar:
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Belge içeriğinin doğruluğunu korumak için dijital imza ekleyebilirsiniz.
 - [Excel Dosyalarının Şifrelenmesi](/cells/tr/python-net/encrypting-excel-files/)
 - [Bir Dosya Biçimini Algılama ve Dosyanın Şifreli Olup Olmadığını Kontrol Etme](/cells/tr/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -33,3 +33,4 @@ Det exemplifierande koden nedan beskriver hur man säkrar PDF:er med Aspose.Cell
 Om kalkylbladet innehåller formler är det bäst att anropa [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) precis innan det renderas till PDF. Detta ser till att formelberoende värden omberäknas och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

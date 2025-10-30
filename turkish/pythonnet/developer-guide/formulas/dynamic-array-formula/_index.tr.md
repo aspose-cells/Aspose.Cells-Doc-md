@@ -135,3 +135,4 @@ Aşağıdaki örnek kodu inceleyin, [örnek Excel dosyasını](dynamicArrayFormu
 Çıktı anlık görüntüsü:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

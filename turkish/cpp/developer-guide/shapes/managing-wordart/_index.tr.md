@@ -65,3 +65,4 @@ int main()
 - [Dahili Stillerle Word Art Metni Ekleme](/cells/tr/cpp/add-word-art-text-with-built-in-styles/)
 - [WordArt Filigranı Kilitleme](/cells/tr/cpp/locking-wordart-watermark/)
 - [Metin şeklinin metnine önceden ayarlanmış WordArt stili ayarlayın](/cells/tr/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

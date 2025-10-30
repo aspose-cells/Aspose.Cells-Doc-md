@@ -14,3 +14,4 @@ url: /ja/python-net/create-textbox-in-which-each-line-is-having-different-horizo
 以下のサンプルコードは、三つの行を作成し、それぞれの水平方向の配置を設定します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -39,7 +39,7 @@ Excelでは、フィルタリングオプションを使用して簡単に空白
 <br>
 <image src="5.png" width="70%" />
 
-## **空白セルを[Aspose.Cells for Node.js via C++]でフィルタリングする方法**
+## **空白セルを【Aspose.Cells for Node.js via C++】でフィルタリングする方法**
 列にテキストが含まれ、一部のセルが空白の場合に、その空白セルを含む行だけを選択するには、[**AutoFilter.matchBlanks(number)**](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#matchBlanks-number-)と[**AutoFilter.addFilter(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/autofilter/#addFilter-number-string-)関数を使用します。 
 
 [サンプルExcelファイル](sample.xlsx)を読み込み、ダミーデータを含むコード例をご覧ください。サンプルコードでは、ブランクをフィルタリングするための3つの方法を使用し、その後ブックを[output Excel file](FilteredBlanks.xlsx)として保存します。 
@@ -47,9 +47,10 @@ Excelでは、フィルタリングオプションを使用して簡単に空白
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterBlanks.js" >}}
 
 
-## **空白セル以外のセルを[Aspose.Cells for Node.js via C++]でフィルタリングする方法**
+## **空白セル以外のセルを【Aspose.Cells for Node.js via C++】でフィルタリングする方法**
 
 ダミーデータを含む[サンプルExcelファイル](sample.xlsx)をロードし、非空のデータをフィルタリングして[出力Excelファイル](FilteredNonBlanks.xlsx)として保存するサンプルコードを示します。 
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -49,3 +49,4 @@ workbook.save("frozen.xlsx");
 
 Ekli [örnek kaynak Excel dosyası](Freeze.xlsx).  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ workbook.save("Unfrozen.xlsx");
 ```
 
 Ekli [örnek kaynak Excel dosyası](Frozen.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

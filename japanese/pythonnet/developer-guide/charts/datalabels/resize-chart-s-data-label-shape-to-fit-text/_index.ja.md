@@ -22,3 +22,4 @@ Excelアプリケーションでは、チャートのデータラベルの**テ�
 Excelのデータラベル形状をテキストに合わせてリサイズする機能を模倣するために、Aspose.Cells for Python via .NET APIはブール型[**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text)プロパティを公開しています。以下のコード例は[**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text)プロパティの簡単な使用例を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

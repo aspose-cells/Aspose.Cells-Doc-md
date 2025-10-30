@@ -24,3 +24,4 @@ Att visa cellområdet som datamärken i Microsoft Excel:
 Exempelkoden nedan använder ett diagramseriedatamärken och ställer in [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range)-egenskapen till **true** för att välja alternativet **Etikett innehåller - Värde från celler**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

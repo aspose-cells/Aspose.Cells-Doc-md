@@ -53,3 +53,4 @@ Aspose.Cells tillhandahåller [**Range.intersect**](https://reference.aspose.com
 Aspose.Cells tillhandahåller [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) metod för att förena cellerna i intervallet. Följande exempel visar hur man förenar de enskilda cellerna i en namngiven intervall.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

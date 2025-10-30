@@ -19,3 +19,4 @@ Efter att ha kört koden nedan kommer du att se träddiagrammet som visas nedan.
 Följande exempelkod laddar den [prov Excel-fil](treemap.xlsx) och genererar [utdata Excel-fil](ut.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-treemap-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

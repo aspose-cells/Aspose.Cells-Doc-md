@@ -197,3 +197,4 @@ Som standard är beräkningskedjan inaktiverad. Eftersom skapandet av kedjan ock
 - [Returnera en rad med värden med hjälp av AbstractCalculationEngine](/cells/sv/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Inställning av Formelberäkningsläge för Arbetsbok](/cells/sv/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Användning av FormulaText-funktionen i Aspose.Cells](/cells/sv/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

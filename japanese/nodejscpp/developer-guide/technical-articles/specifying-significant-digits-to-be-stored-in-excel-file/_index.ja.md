@@ -47,3 +47,4 @@ c.putValue(1234567890.123451711);
 workbook.save(path.join(dataDir, "out_SignificantDigits.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

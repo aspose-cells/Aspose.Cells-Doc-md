@@ -16,3 +16,4 @@ keywords: Python Excelライブラリ、Pythonソース範囲の行の高さを�
 次のサンプルコードは、[**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype) 列挙型を使用して、ソース範囲の行の高さを宛先範囲にコピーする方法を説明しています。このコードで生成された出力エクセルファイルをMicrosoft Excelで開くと、宛先範囲の行の高さがソース範囲の行の高さとまったく同じであることがわかります。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

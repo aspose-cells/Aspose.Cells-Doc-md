@@ -55,3 +55,4 @@ Aspose.Cells for Python via .NETは、Microsoft Excelファイルを表す[**Wor
 また、複数の行と列を表示するために[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)クラスの[**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/)および[**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/)メソッドを使用することもできます。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

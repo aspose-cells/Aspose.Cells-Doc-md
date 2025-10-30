@@ -60,3 +60,4 @@ shape.getTextBody().getParagraphs().get(0).getPortions().get(0).getFontSetting()
 // Save the workbook
 workbook.save("ChangedCharacterSpacing.xlsx"); 
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

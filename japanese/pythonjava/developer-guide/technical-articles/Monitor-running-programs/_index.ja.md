@@ -1,7 +1,7 @@
 ---
 title: 実行中のプログラムの監視
 type: docs
-weight: 20
+weight: 10
 url: /ja/python-java/monitor-running-programs/
 ---
 

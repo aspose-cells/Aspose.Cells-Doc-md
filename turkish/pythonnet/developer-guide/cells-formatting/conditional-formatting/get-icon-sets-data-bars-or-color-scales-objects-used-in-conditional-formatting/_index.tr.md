@@ -19,3 +19,4 @@ Aşağıdaki kod örneği, koşullu biçimlendirmede kullanılan simge setlerini
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GetIconSetsDataBars-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

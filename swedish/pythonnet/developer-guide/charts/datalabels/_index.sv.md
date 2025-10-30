@@ -35,3 +35,4 @@ Följande kodsnut visar hur man hanterar datamärken:
 - [Riktextanpassade datamärken för diagrammet](/cells/sv/python-net/rich-text-custom-data-label-of-chart-point/)
 - [Ställ in datamärkenas formtyp i diagram](/cells/sv/python-net/set-the-shape-type-of-data-labels-of-chart/)
 - [Visa cellområde som datamärken](/cells/sv/python-net/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="python-net" >}}

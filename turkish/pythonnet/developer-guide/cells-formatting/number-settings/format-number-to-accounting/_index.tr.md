@@ -86,3 +86,4 @@ Bu örnek, tek bir hücreyi ABD dolarıyla muhasebe formatında sayı gösterece
 Unutmayın, tam format dizesi yerel ayarlarınıza ve sahip olduğunuz belirli muhasebe formatı gereksinimlerine göre ayarlanabilir (örneğin, farklı bir para birimi sembolü kullanmak, daha fazla veya daha az ondalık basamağı göstermek vb.).
 
 
+{{< app/cells/assistant language="python-net" >}}

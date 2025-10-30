@@ -45,7 +45,7 @@ NuGet は Aspose.Cells for .NET をダウンロードしてインストールす
 2. 「AsposeCellsTest.csproj」ファイルを開き、Aspose.Cells パッケージの参照に以下の行を追加します。
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="25.4" />
+    <PackageReference Include="Aspose.Cells" Version="25.10" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ubuntu 上の VSCode でプロジェクトを開きます。

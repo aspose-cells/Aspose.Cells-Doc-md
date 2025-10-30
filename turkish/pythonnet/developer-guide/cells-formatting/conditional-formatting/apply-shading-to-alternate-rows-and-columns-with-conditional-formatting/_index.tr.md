@@ -34,3 +34,4 @@ Bu durumda elde edilen elektronik tablo aşağıdaki gibi görünecektir.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

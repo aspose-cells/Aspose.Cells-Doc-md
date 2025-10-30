@@ -31,3 +31,4 @@ När du har lagt till ActiveX-kontrollen inuti formuppsättningen kan du sedan f
 Följande kod exempel lägger till Toggle Button ActiveX-kontroll med Aspose.Cells för Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-AddActiveXControls-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

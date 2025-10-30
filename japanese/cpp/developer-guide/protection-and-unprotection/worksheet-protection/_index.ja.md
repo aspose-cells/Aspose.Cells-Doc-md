@@ -90,3 +90,4 @@ int main()
 - [ワークシートの保護](/cells/ja/cpp/protecting-worksheets/)
 - [ワークシートの保護を解除する](/cells/ja/cpp/unprotect-a-worksheet/)
 - [ワークシートを保護するために使用されたパスワードの検証](/cells/ja/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

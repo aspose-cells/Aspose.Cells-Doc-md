@@ -80,3 +80,4 @@ wb.save(os.path.join(file_path, "output.xlsx"))
 - チャートタイプの検証を行う
 
 高度な設定オプションについては[ChartPointドキュメント](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/)を参照してください。
+{{< app/cells/assistant language="python-net" >}}

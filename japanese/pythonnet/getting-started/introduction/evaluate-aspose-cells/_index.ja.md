@@ -17,3 +17,4 @@ url: /ja/python-net/evaluate-aspose-cells/
 | :- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
 評価版の制限なしでAspose.Cellsをテストしたい場合は、[30日間の一時ライセンス](https://purchase.aspose.com/temporary-license)をリクエストしてください。
+{{< app/cells/assistant language="python-net" >}}

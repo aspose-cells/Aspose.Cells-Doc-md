@@ -53,3 +53,4 @@ Genom att köra koden kopieras bladet med namnet Kopiera till SecondWorkbook.xls
 Genom att köra koden flyttas bladet med namnet Flytta från FirstWorkbook.xlsx till SecondWorkbook.xlsx med namnet Sheet3.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.py" >}}
+{{< app/cells/assistant language="python-net" >}}

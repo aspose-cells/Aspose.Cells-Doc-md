@@ -308,3 +308,4 @@ int main()
 - [指定されたワークシートをPDFに保存](/cells/ja/cpp/save-specified-worksheets-to-pdf/)
 - [PDFドキュメントをセキュアにする](/cells/ja/cpp/secure-pdf-documents/)
 - [出力PDFおよび画像内の文字列の交差方法を指定](/cells/ja/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

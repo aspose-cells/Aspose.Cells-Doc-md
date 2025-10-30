@@ -18,7 +18,7 @@ men vi kan skriva några JS-funktioner baserat på DOM-strukturen för att åsta
 
 
 
-## anpassa menyrad 
+## Anpassa menyfält 
 Till exempel: att behålla endast File-menyn, anta att div-id för GridJs är "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ Efter att ha anropat denna funktion
 ![todo: skärm för att anpassa menyrad](gridjs_customize_menubar.png)
 
 
-## anpassa objekt i menyraden 
+## Anpassa objekt i menyfältet 
 Till exempel: att behålla "Ladda ner som XLSX"-menyalternativet endast i File-menyn, anta att div-id för GridJs är "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -73,7 +73,7 @@ Efter att ha anropat denna funktion
 
 ![todo: skärm för att anpassa menyradsobjekt](gridjs_customize_menu.png)
 
-## anpassa verktygsfältobjekt 
+## Anpassa verktygsfältets objekt 
 Till exempel: att behålla zoomknappen endast, anta att div-id för GridJs är "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -95,6 +95,84 @@ Till exempel: att behålla zoomknappen endast, anta att div-id för GridJs är "
 Efter att ha anropat denna funktion 
 
 ![todo: skärm för att anpassa verktygsfält](gridjs_customize_toolbar.png)
+
+
+## Anpassa verktygsfältets hover-effekt
+
+öppna webbläsarens inspektionsfönster, välj verktygsfältets knapp,
+
+![todo:skärm för att välja inspektionsverktygsfältets knapp](gridjs_hover_toolbar_button_inspect.png)
+
+då kan vi hitta den relaterade CSS-nyckeln för denna knapp: freeze
+
+![todo:skärm för att hitta CSS-nyckeln för verktygsfältsknappen](gridjs_hover_toolbar_button_csskey.png)
+
+lägg till följande CSS-regel:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+resultatet blir:
+
+![todo:skärm för hovringseffekt för verktygsfältsknappen](gridjs_hover_toolbar_button_hover.png)
+
+
+## Anpassa objekt i nedre aktivitetsfältet
+
+### Översikt
+Nedre aktivitetsfältet innehåller två interaktiva knappar:
+1. &zwnj;**Lägg till kalkylblad-knapp**&zwnj; (`add`-klass) - Skapar nya kalkylblad
+2. &zwnj;**Välj kalkylblad-knapp**&zwnj; (`ellipsis`-klass) - Hanterar kalkylbladsval
+
+### DOM-åtkomst
+Du kan komma åt dessa element med hjälp av:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Anpassningsexempel
+1. Dölj knappar
+För att ta bort en knapp från DOM:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Ändra ikoner
+Du kan ersätta ikoner med antingen externa SVG-filer eller inline SVG-data.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Ändra knappbeteende
+Du kan modifiera klickhändelsen för att anpassa funktionaliteten:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
 
 

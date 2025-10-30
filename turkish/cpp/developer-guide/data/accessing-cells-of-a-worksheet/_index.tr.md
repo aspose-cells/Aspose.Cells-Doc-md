@@ -40,3 +40,4 @@ Aspose.Cells, geliştiricilere bir çalışma sayfasının maksimum görüntüle
 [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) yöntemini kullanarak bir çalışma sayfasının maksimum görüntüleme aralığına erişebilirsiniz.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

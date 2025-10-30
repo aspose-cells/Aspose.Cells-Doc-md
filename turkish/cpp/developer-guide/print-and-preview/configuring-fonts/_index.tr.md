@@ -143,3 +143,4 @@ Yukarıda bahsedilen yöntemlere ek olarak, Aspose.Cells API'leri, hangi kaynakl
 - [Yaygın Olarak Kullanılan Yazı tipini Resimlere Dönüştürürken Belirleme](/cells/tr/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [PdfSaveOptions ve ImageOrPrintOptions'ın DefaultFont özelliğini öncelikli şekilde ayarlayın](/cells/tr/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Desteklenen Yazı Tipi Biçimleri](/cells/tr/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

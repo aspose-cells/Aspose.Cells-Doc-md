@@ -128,3 +128,4 @@ Käll- och utdataexcelfilerna är bilagda som referens.
 - [Hämta cellvalidering i ODS-filer](/cells/sv/python-net/get-cell-validation-in-ods-files/)
 - [Få validering som tillämpas på en cell](/cells/sv/python-net/get-validation-applied-on-a-cell/)
 - [Verifiera att cellvärdet uppfyller datavalideringsreglerna](/cells/sv/python-net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="python-net" >}}

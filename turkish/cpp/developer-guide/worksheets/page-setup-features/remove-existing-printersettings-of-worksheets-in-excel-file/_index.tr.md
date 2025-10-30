@@ -96,3 +96,4 @@ Paper Size: PaperA3
 Printer settings of this worksheet are now removed by setting it null.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

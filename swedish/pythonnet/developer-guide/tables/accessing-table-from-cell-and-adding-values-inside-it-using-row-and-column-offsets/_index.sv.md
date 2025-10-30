@@ -32,3 +32,4 @@ Följande skärmbild visar den genererade utdata-Excel-filen av koden. Som du ka
 Följande provkod laddar den angivna källan Excel-filen som visas i skärmdumpen ovan och lägger till värden inne i tabellen och genererar den resulterande Excel-filen som visas ovan.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-AccessTableFromCellAndAddValue.py" >}}
+{{< app/cells/assistant language="python-net" >}}

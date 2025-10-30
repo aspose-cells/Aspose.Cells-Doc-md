@@ -34,3 +34,4 @@ Det resulterande kalkylarket kommer i detta fall att se ut som följer.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

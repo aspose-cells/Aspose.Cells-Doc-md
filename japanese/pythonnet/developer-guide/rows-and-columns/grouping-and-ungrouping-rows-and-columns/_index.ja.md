@@ -64,3 +64,4 @@ Microsoft Excelでは、以下を表示するためのグループ設定を構�
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool)には、ブール値の第三パラメーターを取るオーバーロードがあります。これを**true**に設定すると、グループ化された情報がすべて削除されます。それ以外の場合は、外部グループ化情報のみが削除されます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ Aşağıdaki örnek, birleştirilmiş hücreleri (C6) nasıl ayıracağınızı 
 ## **Gelişmiş Konular**
 - [Çalışsheet'teki Birleştirilmiş Hücreleri Bulma](/cells/tr/python-net/detect-merged-cells-in-a-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

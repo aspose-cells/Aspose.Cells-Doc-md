@@ -64,3 +64,4 @@ Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmed
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

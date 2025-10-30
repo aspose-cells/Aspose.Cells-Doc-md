@@ -86,3 +86,4 @@ Worksheet page count: 1
 - [Rendera sekvens av sidor med hjälp av egenskaperna PageIndex och PageCount i ImageOrPrintOptions](/cells/sv/cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [Rendera kalkylblad till grafiskt sammanhang](/cells/sv/cpp/render-worksheet-to-graphic-context/)
 - [Ange individuella eller privata uppsättningar typsnitt för arbetsbokpresentation](/cells/sv/cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+{{< app/cells/assistant language="cpp" >}}

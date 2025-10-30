@@ -57,3 +57,4 @@ Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu resimler sadece 
 - [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dosyaları Birleştirme](/cells/tr/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

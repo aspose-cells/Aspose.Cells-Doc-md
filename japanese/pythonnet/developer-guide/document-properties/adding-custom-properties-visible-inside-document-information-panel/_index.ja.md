@@ -22,3 +22,4 @@ Aspose.Cells for Python via .NETを使って、ワークブック内にカスタ
 - [Aspose.CellsでカスタムXMLパーツを使用する](/cells/ja/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

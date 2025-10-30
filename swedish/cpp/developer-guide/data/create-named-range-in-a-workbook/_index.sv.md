@@ -21,3 +21,4 @@ Följande konsoloutput skriver ut värdena för [GetFullText](https://reference.
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

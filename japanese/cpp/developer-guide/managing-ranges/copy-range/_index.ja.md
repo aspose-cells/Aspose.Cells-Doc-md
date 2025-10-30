@@ -166,3 +166,4 @@ int main()
 
 ## **高度なトピック**
 - [ソース範囲の行の高さを宛先範囲にコピーします。](/cells/ja/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

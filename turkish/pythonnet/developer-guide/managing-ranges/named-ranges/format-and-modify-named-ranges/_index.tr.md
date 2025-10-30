@@ -53,3 +53,4 @@ Aspose.Cells, iki aralığın kesişimini belirlemek için [**Range.intersect**]
 Aspose.Cells, aralıktaki hücreleri birleştirmek için bir [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) yöntemi sağlar. Aşağıdaki örnek, bir isimlendirilmiş aralıktaki bireysel hücrelerin nasıl birleştirileceğini gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

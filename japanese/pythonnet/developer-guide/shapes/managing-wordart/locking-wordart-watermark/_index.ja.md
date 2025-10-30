@@ -14,3 +14,4 @@ Aspose.Cells for Python via .NETのAPIを使用して、ワークシート上に
 Aspose.Cells for Python via .NETのAPIは、ウォーターマークの特定の側面をロックし、操作の制限や完全な阻止を可能にします。以下のコードスニペットは、空のスプレッドシートを作成し、選択、移動、編集、およびリサイズをロックするためにAspose.Cells for Python via .NET APIを使用する例です。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

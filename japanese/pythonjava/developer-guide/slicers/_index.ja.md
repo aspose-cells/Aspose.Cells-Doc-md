@@ -1,7 +1,7 @@
 ---
 title: スライサー
 type: docs
-weight: 40
+weight: 100
 url: /ja/python-java/slicers/
 ---
 

@@ -43,3 +43,4 @@ Bu string sayılar aşağıdaki ekran görüntüsünde [**Cells.convertStringToN
 Aşağıdaki örnek kod, tüm çalışma sayfalarındaki dize sayısal verileri gerçek sayılara dönüştürmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ConvertTextNumericDatatoNumber.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

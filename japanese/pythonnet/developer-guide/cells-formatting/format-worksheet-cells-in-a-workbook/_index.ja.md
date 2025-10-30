@@ -45,3 +45,4 @@ Aspose.Cells for Python via .NETは、セルや範囲の境界線を簡単に描
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatWorksheetCells-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

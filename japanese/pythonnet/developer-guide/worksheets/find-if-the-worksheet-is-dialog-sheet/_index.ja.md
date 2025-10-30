@@ -30,3 +30,4 @@ Aspose.Cells for Python via .NETが提供する[**Worksheet.type**](https://refe
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

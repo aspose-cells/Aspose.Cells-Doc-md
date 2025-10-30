@@ -15,3 +15,4 @@ Följande exempelkod laddar den [provexelfilen](43352067.xlsm), får åtkomst ti
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ProtecttheVBAProjectofExcelWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

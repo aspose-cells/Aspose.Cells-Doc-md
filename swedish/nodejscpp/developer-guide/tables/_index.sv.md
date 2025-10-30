@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [Ange kommentaren för tabell eller listobjekt inne i kalkylbladet](/cells/sv/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tabeller och områden](/cells/sv/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

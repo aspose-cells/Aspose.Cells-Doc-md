@@ -343,3 +343,4 @@ int main() {
 - [Koşullu Biçimlendirme ile Sıfır Satır ve Sütunlara Gölgelendirme Uygulamak](/cells/tr/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Koşullu Biçimlendirme Veri Çubukları Görüntüleri Oluşturmak](/cells/tr/cpp/generate-conditional-formatting-databars-images/)
 - [Kullanılan Koşullu Biçimlendirme İkon Setleri, Veri Çubukları veya Renk Ölçekleri Nesnelerini Almak](/cells/tr/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

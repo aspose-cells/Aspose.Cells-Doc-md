@@ -90,3 +90,4 @@ I den genererade filen kan du använda rullisten samtidigt som diagrammet dynami
 ```
 
  Du kan prova att ändra numret "10" till "15" i cell "Sheet1!$H$20", och det dynamiska diagrammet kommer att räkna de senaste 15 dataset. Nu har vi framgångsrikt skapat ett dynamiskt skrollande diagram med Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

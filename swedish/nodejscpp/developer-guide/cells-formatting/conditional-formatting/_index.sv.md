@@ -87,3 +87,4 @@ Du kan endast använda tunn linjestil för kantens kontur. Diagonala linjer är 
 - [Hämta ikonsatser, databarer eller färgskalor som används i villkorlig formatering](/cells/sv/nodejs-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

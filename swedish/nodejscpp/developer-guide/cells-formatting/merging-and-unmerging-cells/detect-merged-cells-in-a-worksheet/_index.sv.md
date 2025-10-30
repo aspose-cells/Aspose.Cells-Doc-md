@@ -62,3 +62,4 @@ const outputFilePath = path.join(dataDir, "MergeTrial.out.xlsx");
 // Save the excel file
 wkBook.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

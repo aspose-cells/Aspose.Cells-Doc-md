@@ -83,3 +83,4 @@ int main()
 - [Riktextanpassade datamärken för diagrammet](/cells/sv/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Ställ in datamärkenas formtyp i diagram](/cells/sv/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Visa cellområde som datamärken](/cells/sv/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

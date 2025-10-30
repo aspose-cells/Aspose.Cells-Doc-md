@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET は、Microsoft Excelファイルを表す [**W
 
 ## **高度なトピック**
 - [サブトータルの適用と概要の方向を詳細の下に変更](/cells/ja/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

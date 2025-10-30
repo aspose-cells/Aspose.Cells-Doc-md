@@ -18,3 +18,4 @@ keywords: Aspose.Cells for Node.js Excel、Excel Node.jsライブラリ、Aspose
 次のコードは、シートからピボットテーブルを取得し、[**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-)を**false**に設定することでこの機能を示しています。サンプルのピボットテーブルファイルは、この[リンク](pivot_table_test.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -94,3 +94,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 
 - [Skapa diagram](/cells/sv/nodejs-cpp/creating-charts/)
 - [Anpassa diagram](/cells/sv/nodejs-cpp/customizing-charts/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

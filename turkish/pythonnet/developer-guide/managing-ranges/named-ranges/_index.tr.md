@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET, çalışma kitabı ve çalışsaaf kapsamlı a
 - [Biçimlendir ve Adlandırılmış Aralıkları Değiştir](/cells/tr/python-net/format-and-modify-named-ranges/)
 - [Harici Bağlantıları Olan Aralığı Al](/cells/tr/python-net/get-range-with-external-links/)
 - [Sıralı Olmayan Aralıkları Uygulama](/cells/tr/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

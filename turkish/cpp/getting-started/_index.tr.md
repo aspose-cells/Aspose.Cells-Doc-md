@@ -80,3 +80,4 @@ Aşağıdaki örnek, baştan yeni bir çalışma kitabı oluşturur, ilk çalı�
 Aşağıdaki örnek, mevcut bir Microsoft Excel şablon dosyasını açar, bir hücre alır ve A1 hücresindeki değeri kontrol eder.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

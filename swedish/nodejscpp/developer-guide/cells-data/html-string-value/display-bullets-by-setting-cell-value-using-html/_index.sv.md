@@ -25,3 +25,4 @@ Följande kod använder HTML-koden för att sätta cellvärdet. När du kör den
 Följande skärmbild visar utdata av ovanstående provkod.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

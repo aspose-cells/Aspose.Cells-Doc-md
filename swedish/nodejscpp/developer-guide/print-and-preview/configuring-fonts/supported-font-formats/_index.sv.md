@@ -12,3 +12,4 @@ description: Översikt över stödda fontformat i Aspose.Cells for Node.js via C
 |**TTF**|TrueType-typsnitt|
 |**TTC**|TrueType-samling|
 |**OTF**|OpenType-typsnitt|
+{{< app/cells/assistant language="nodejs-cpp" >}}

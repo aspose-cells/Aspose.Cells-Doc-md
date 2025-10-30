@@ -185,3 +185,4 @@ wb.save(path.join(outputDir, "AutofitRowsforMergedCells.xlsx"));
 ## **高度なトピック**  
 - [結合されたセルの行のAutoFit](/cells/ja/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

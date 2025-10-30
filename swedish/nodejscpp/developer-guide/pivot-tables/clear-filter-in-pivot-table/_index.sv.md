@@ -29,3 +29,4 @@ Rensa filter i Pivot-tabell med hjälp av Aspose.Cells for Node.js via C++. Se f
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Clear-filter-in-PivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -163,3 +163,4 @@ workbook.calculateFormula();
 - [AbstarctCalculationEngineを使用して値の範囲を返す](/cells/ja/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [ブックの数式計算モードの設定](/cells/ja/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Aspose.CellsでのFormulaText関数の使用](/cells/ja/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Satır ve Sütunlar
 type: docs
-weight: 90
+weight: 58
 url: /tr/python-java/rows-and-columns/
 ---
 

@@ -154,3 +154,4 @@ int main()
 ```
 
 以下は[ソースエクセルファイル](Book1.xlsx)です。
+{{< app/cells/assistant language="cpp" >}}

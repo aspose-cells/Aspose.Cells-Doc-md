@@ -36,7 +36,7 @@ url: /tr/python-net/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Geliştirilmiş meta dosyası Biçimi| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimidir.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Grafik Değişim Biçimi| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Bir Markdown belgesini temsil eder.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Markdown belgesini temsil eder.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|OpenOffice ve StarOffice tarafından kullanılan XML tabanlı bir biçimdir|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Düz XML olarak depolanan bir Open Document biçimidir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Microsoft Word belgeleri için bilinen bir biçimdir ve XML ve ikili dosyaların bir kombinasyonudur.||{{< emoticons/tick >}}|
@@ -47,3 +47,4 @@ url: /tr/python-net/supported-file-formats/
 |[Xml](https://docs.fileformat.com/web/xml/)|XML, HTML'ye benzer ancak nesneleri tanımlamak için etiketler kullanan Genişletilebilir İşaretleme Dili anlamına gelir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS) dosya.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW, Amazon tarafından Kindle cihazları için geliştirilmiş dijital kitap dosya biçimidir. AZW3, aynı zamanda Kindle Format 8 (KF8) olarak da bilinir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="python-net" >}}

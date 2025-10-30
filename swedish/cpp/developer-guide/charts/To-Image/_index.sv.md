@@ -226,3 +226,4 @@ Om du försöker rendera diagramtyper som inte stöds till en bild eller PDF kan
 
 ## **Fortsatta ämnen**
 - [Konvertera Diagram till PDF](/cells/sv/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

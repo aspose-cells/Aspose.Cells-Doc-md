@@ -142,4 +142,4 @@ till exempel: i getfile-åtgärden kan du bara hämta den från cache-mappen eft
 ```
 
 För mer detaljerad information kan du kolla exemplet här:
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

@@ -123,3 +123,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Skapa Dynamiska Diagram](/cells/sv/nodejs-cpp/create-dynamic-charts/)  
 - [Enkel metod för diagraminställning med hjälp av Chart.SetChartDataRange-metoden](/cells/sv/nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  
 - [Hitta typ av X- och Y-värden för punkter i diagramserier](/cells/sv/nodejs-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)  
+{{< app/cells/assistant language="nodejs-cpp" >}}

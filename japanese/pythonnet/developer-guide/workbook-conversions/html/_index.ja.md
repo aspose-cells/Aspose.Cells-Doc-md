@@ -48,3 +48,4 @@ MHTMLは通常のHTMLと外部リソース（つまり、通常はリンクさ�
 - [列の幅をemやpercentなどのスケーラブルな単位に設定します](/cells/ja/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [スプレッドシートをHTMLにレンダリングする際のデフォルトフォントを設定する](/cells/ja/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [出力HTML内の文字列をHtmlCrossTypeを使用してクロスする方法を指定](/cells/ja/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

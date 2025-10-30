@@ -144,3 +144,4 @@ workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx)
 - [Yorum arka planını nasıl ayarlarım](/cells/tr/nodejs-cpp/how-to-set-comment-background/)
 - [İz bırakan Yorumlar](/cells/tr/nodejs-cpp/threaded-comments/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

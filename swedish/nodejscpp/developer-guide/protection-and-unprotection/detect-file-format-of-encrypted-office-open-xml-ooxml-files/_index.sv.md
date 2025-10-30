@@ -32,3 +32,4 @@ const fileFormatInfo = AsposeCells.FileFormatUtil.detectFileFormat(stream);
 console.log("File Format: " + fileFormatInfo.getFileFormatType());
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

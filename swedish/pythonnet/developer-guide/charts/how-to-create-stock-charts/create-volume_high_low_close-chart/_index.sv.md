@@ -21,3 +21,4 @@ Detta diagram inkluderar en kolumn för volym omedelbart efter den första (kate
 Följande exempelkod laddar den [exempelfil för Excel](Volume-Open-High-Low-Close.xlsx) och genererar den [utfärdade Excelfilen](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-volume-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

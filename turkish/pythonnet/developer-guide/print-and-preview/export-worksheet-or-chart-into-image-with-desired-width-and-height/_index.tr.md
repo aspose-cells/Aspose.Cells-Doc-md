@@ -15,3 +15,4 @@ Aşağıdaki kod çalışma sayfasını 400x400 boyutunda bir görüntüye dış
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-WorksheetToImageDesiredSize-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

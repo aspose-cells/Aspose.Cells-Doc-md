@@ -124,3 +124,4 @@ Microsoft Excelのように、Aspose.Cells for Python via .NETは複数のセル
 - [改行とテキストの折り返し](/cells/ja/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

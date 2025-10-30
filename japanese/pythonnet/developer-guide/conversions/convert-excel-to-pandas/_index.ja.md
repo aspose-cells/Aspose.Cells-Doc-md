@@ -13,6 +13,20 @@ Aspose.Cells for Python via .NET APIを使用すると、Excel、TSV、CSV、Jso
 
 {{% /alert %}}
 
+## **ExcelをPandas DataFrameに変換（最初から作成）**
+Aspose.Cells for Python via .NETを使用して、ExcelデータをPandas DataFrameに直接エクスポートする方法を示すコードスニペットの例です。
+1. Workbookを作成していくつかの値を追加します。
+1. ExcelデータをトラバースしてAspose.Cells for Python via .NETを使用してPandas DataFrameにデータをエクスポートします。
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+
+## **既存のExcelファイルをPandas DataFrameに変換**
+以下は、Aspose.Cells for Python via .NETを使用して既存の.xlsxファイルを開き、ExcelデータをPandas DataFrameにエクスポートする方法を示す例のコードスニペットです：
+1. 既存の[Excelファイル](PandasTest.xlsx)を開く。
+1. 各行と列のセルデータをPandas DataFrameに変換する。
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-openning-file.py" >}}
+
 ## **ExcelをJSONデータを介してPandas DataFrameに変換する**
 Aspose.Cells for Python via .NETを使用して、ExcelデータをJSONデータを介してPandas DataFrameにエクスポートする方法を示すコードスニペットの例です。
 1. Workbookを作成していくつかの値を追加します。
@@ -21,9 +35,10 @@ Aspose.Cells for Python via .NETを使用して、ExcelデータをJSONデータ
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
 
-## **Pandas DataFrame を直接 Excel に変換**
-Aspose.Cells for Python via .NETを使用して、ExcelデータをPandas DataFrameに直接エクスポートする方法を示すコードスニペットの例です。
-1. Workbookを作成していくつかの値を追加します。
-1. ExcelデータをトラバースしてAspose.Cells for Python via .NETを使用してPandas DataFrameにデータをエクスポートします。
+## **CSVファイルを介したExcelからPandas DataFrameへの変換**
+CSVファイル形式の特性により、.xlsxファイルをCSVファイルに変換し、その後Pandas DataFrameに読み込むことは自然で簡単なプロセスです：
+1. 既存のxlsx([ProductDatatoCSV.xlsx])をCSVファイルに変換。
+1. CSVファイルをPandas DataFrameに変換。
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-via-CSV.py" >}}
+{{< app/cells/assistant language="python-net" >}}

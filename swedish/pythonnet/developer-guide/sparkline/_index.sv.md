@@ -23,3 +23,4 @@ Det är enkelt att skapa en blixt med Aspose.Cells för Python via .NET med föl
 ## **Fortsatta ämnen**
 - [Använda funktionsspår och inställningar 3D-format](/cells/sv/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

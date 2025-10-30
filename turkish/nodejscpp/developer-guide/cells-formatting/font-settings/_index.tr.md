@@ -90,3 +90,4 @@ Geliştiriciler, [**setIsSuperscript**](https://reference.aspose.com/cells/nodej
 - [Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -4,8 +4,8 @@ linktitle: HTML strängsvärde
 type: docs
 weight: 50
 url: /sv/net/adding-html-rich-text-inside-the-cell/
-description: Lär dig hur du lägger till HTML Rich Text inuti cellen genom Aspose.Cells for .NET API.
-keywords: Lägg till HTML Rich Text inuti cellen, Ange HTML Rich Text inuti cellen, Lägg till HTML Rich Text i cellen
+description: Lär dig hur man lägger till HTML Rich Text inuti cellen och flera stilar inom en cell via Aspose.Cells for .NET API.
+keywords: Lägg till HTML Rich Text i cellen, Sätt HTML Rich Text i cellen, Flera stilar inom en cell, Lägg till HTML Rich Text i cellen
 ---
 
 {{% alert color="primary" %}}

@@ -415,3 +415,4 @@ int main()
 ## **高度なトピック**
 - [フォントに上付き文字および下付き文字効果を適用する](/cells/ja/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [スプレッドシートまたはブックで使用されているフォントのリストを取得する](/cells/ja/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

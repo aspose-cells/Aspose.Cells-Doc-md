@@ -106,3 +106,4 @@ Vänligen kolla konsolens utmatning av den ovanstående provkoden, värdet (datu
 [Direktberäkning av anpassad funktion utan att skriva den i ett kalkylblad](/cells/sv/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

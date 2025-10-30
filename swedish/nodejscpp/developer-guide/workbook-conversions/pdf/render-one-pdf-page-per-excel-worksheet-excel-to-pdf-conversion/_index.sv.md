@@ -42,3 +42,4 @@ Om ditt kalkylblad innehåller formler är det bäst att ringa [Workbook.calcula
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

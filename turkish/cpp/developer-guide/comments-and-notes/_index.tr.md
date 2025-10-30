@@ -190,3 +190,4 @@ int main()
 - [Yorum Yazı Tipi Rengini Nasıl Değiştirilir](/cells/tr/cpp/how-to-change-the-comment-font-color/)
 - [Yorum arka planını nasıl ayarlarım](/cells/tr/cpp/how-to-set-comment-background/)
 - [İz bırakan Yorumlar](/cells/tr/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

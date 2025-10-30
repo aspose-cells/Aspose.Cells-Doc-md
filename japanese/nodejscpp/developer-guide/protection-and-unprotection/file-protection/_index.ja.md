@@ -105,3 +105,4 @@ workbook.save(filePath);
 - [暗号化されたファイルのパスワードの検証](/cells/ja/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

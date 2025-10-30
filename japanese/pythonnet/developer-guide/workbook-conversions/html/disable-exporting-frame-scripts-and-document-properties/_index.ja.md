@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NETは、ワークブックをHTMLに変換する�
 以下のサンプルコードを使用すると、フレームスクリプトとドキュメントプロパティのエクスポートを無効にできます。ワークブックをHTMLに変換すると、出力ファイルにフレームスクリプトとドキュメントプロパティは含まれません。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

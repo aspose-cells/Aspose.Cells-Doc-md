@@ -64,3 +64,4 @@ I exemplet nedan läggs provdata till ett kalkylblad, ett [**ListObject**](https
 - [Tabeller och områden](/cells/sv/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

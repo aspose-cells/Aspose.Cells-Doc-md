@@ -17,3 +17,4 @@ Aspose.Cells for Python via .NET ile formüller oluştururken uyulması gereken 
 1. Formüller İngilizce olarak girilmelidir. Örneğin, Almanca "=SUMME()" yerine İngilizce olarak "=SUM()" kullanın.
 1. Fonksiyon parametrelerini ayırmak için her zaman virgül (,) kullanın. Bazı dil seçenekleri veya ayarlar, fonksiyon parametreleri için ayraç olarak noktalı virgül kullanabilir, ancak Aspose.Cells for Python via .NET İngilizce tarzı virgül kullanır. Örneğin, "=IF (C5=0,0,C3/C4)" kullanın, "=IF(C5=0;0;C3/C4)" değil.
 
+{{< app/cells/assistant language="python-net" >}}

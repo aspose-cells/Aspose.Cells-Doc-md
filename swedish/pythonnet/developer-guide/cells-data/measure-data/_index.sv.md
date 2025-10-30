@@ -22,3 +22,4 @@ Följande kod förklarar användningen av [**Cell.get_width_of_value()**](https:
 
 ## **Fortsatta ämnen**
 - [Få textens bredd av cellvärdet](/cells/sv/python-net/get-text-width-of-cell-value/)
+{{< app/cells/assistant language="python-net" >}}

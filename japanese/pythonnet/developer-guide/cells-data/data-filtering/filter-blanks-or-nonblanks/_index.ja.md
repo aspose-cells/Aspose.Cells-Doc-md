@@ -52,3 +52,4 @@ Excelでは、フィルタリングオプションを使用して簡単に空白
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Filter-non-blanks.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

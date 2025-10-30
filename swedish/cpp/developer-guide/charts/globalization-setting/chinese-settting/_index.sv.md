@@ -132,3 +132,4 @@ Efter ovanstående åtgärd kan vi få en utmatningsdiagrambild med kinesisk reg
 |Legend Total Namn|汇总|Total|
 |Annat Namn|其他|Other|
 |Serienamn|系列|Series|
+{{< app/cells/assistant language="cpp" >}}

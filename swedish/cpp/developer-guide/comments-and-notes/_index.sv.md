@@ -190,3 +190,4 @@ int main()
 - [Hur man ändrar färgen på kommentarsfönstret](/cells/sv/cpp/how-to-change-the-comment-font-color/)
 - [Hur man ställer in kommentarens bakgrund](/cells/sv/cpp/how-to-set-comment-background/)
 - [Trådade Kommentarer](/cells/sv/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

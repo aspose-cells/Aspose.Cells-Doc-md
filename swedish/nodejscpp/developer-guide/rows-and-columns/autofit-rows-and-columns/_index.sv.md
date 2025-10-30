@@ -185,3 +185,4 @@ Om en cell är sammanslagen kommer inte autoFit-metoderna att tillämpas, vilket
 ## **Fortsatta ämnen**  
 - [Automatisk justering av rader för sammanfogade celler](/cells/sv/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

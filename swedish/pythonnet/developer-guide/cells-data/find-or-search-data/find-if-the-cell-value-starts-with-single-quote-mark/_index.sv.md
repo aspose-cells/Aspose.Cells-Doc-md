@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET erbjuder nu egenskapen [**Style.quote_prefix**]
 Följande exempelkod förklarar att strängar som exempelvis sample och 'sample inte kan skiljas åt med egenskapen [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/). Därför måste vi använda egenskapen [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/) för att skilja dem åt.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

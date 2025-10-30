@@ -16,3 +16,4 @@ keywords: Python Excelライブラリ、ExcelでPythonを使用してデータ�
 Python via .NETを使用してデータを検索する場合の範囲の指定には、[**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea)メソッドが提供されています。以下のコードサンプルは、範囲内でデータを検索および置換します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

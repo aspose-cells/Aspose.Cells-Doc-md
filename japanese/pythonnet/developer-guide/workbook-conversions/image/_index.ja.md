@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NETは、バージョン7.1.0からワークブッ�
 - [Excelのチャートを画像に変換](/cells/ja/python-net/convert-an-excel-chart-to-image/)
 - [SVG形式でチャートを画像に変換](/cells/ja/python-net/converting-chart-to-image-in-svg-format/)
 - [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

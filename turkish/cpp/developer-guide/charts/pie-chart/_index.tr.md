@@ -339,3 +339,4 @@ int main()
 - [Grafikleri Özelleştirme](/cells/tr/cpp/customizing-charts/)
 - [Grafiklerde Veri Biçimlendirme](/cells/tr/cpp/data-formatting-in-charts/)
 - [Grafik Görünümünü Ayarlama](/cells/tr/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

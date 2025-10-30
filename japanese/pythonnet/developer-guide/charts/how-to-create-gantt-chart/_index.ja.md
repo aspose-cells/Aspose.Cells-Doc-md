@@ -50,3 +50,4 @@ Excelでガントチャートを作成するには、次の手順に従います
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-gantt-chart.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

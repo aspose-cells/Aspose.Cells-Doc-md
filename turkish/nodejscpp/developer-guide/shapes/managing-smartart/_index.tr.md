@@ -9,3 +9,4 @@ keywords: C++, Aspose.Cells ile Node.js üzerinden Akıllı Sanat düğümünü 
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

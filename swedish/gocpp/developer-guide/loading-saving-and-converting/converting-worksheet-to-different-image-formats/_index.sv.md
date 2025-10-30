@@ -23,19 +23,21 @@ Aspose.Cells stöder konvertering av Excel-kalkylblad till bilder. För att anv�
 
 Följande kodsnutt visar hur man konverterar ett kalkylblad i en Excel-fil till en bildfil.
 
-### **PNG-format**
+### **konvertera Excel/arbetsblad till PNG med GoLang**
 
 Se följande exempelkod, dess [exempel Excel-fil](67338402.xlsx) and [utmatnings PNG-bilder](67338401.zip) för din referens.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **TIFF-format**
+### **konvertera Excel/arbetsblad till TIFF med GoLang**
 
 Se följande exempelkod, dess [exempel Excel-fil](67338402.xlsx) och [utmatnings TIFF-bild](67338419.zip) för din referens.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **Konvertera Kalkylblad till SVG**
+## **konvertera Excel/arbetsblad till SVG med GoLang**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVG står för Skalbara Vektorgrafik. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 

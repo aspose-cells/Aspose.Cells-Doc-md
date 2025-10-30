@@ -12,3 +12,4 @@ description: Aspose.Cells for C++を使ってExcelファイル内のスマート
  Aspose.Cellsは、Excelファイル内のスマートアートシェイプをプログラムで作成、アクセス、修正するための包括的なツールを提供します。このガイドは、C++を使用してスマートアート要素を作成、アクセス、および変更する方法を示します。
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

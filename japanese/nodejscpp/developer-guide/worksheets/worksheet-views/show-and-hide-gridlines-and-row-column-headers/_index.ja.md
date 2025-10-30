@@ -98,3 +98,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 [**Cells.unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-)と[**Cells.unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-)のメソッドを使用して複数の行と列を表示させることも可能です。  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

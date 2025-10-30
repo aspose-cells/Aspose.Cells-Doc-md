@@ -87,3 +87,4 @@ Her Worksheet objesi, elektronik tablodaki tüm DikeySayfaKırıkKoleksiyonunu t
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Bir DikeySayfaKırık objesi, elektronik tabloda dikey bir sayfa kırığı oluşturmak için kullanılır.
+{{< app/cells/assistant language="python-net" >}}

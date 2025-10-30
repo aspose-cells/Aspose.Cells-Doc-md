@@ -381,3 +381,4 @@ Aşağıdaki örnek, çalışma sayfasına bir grup kutu eklemeyi ve kontrolleri
 - [AktifX Kontrolleri Ekle](/cells/tr/python-net/add-activex-controls-using-aspose-cells/)
 - [ActiveX Kontrolü Kaldırma](/cells/tr/python-net/remove-activex-control/)
 - [ActiveX ComboBox Kontrolünü Güncelleme](/cells/tr/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

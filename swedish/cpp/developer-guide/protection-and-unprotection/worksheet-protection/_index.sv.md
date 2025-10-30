@@ -90,3 +90,4 @@ int main()
 - [Skydda kalkylblad](/cells/sv/cpp/protecting-worksheets/)
 - [Avskydda ett kalkylblad](/cells/sv/cpp/unprotect-a-worksheet/)
 - [Verifiera lösenord som används för att skydda arbetsbladet](/cells/sv/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

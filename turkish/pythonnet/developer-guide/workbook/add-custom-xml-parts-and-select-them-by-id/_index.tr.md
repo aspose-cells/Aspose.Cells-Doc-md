@@ -25,3 +25,4 @@ Aşağıdaki örnek kod önce [**Workbook.custom_xml_parts.add()**](https://refe
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -50,3 +50,4 @@ workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), saveOption);
 Eğer elektronik tablo formüller içeriyorsa, PDF olarak dışa aktarmadan hemen önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--)çağrısı yapmak en iyisidir. Böylece formüle bağlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

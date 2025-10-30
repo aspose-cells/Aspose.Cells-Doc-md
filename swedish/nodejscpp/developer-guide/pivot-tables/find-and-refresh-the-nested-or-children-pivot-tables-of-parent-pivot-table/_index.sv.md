@@ -20,3 +20,4 @@ Följande kod laddar den [prov-Eexcelfilen](61767747.xlsx) som innehåller tre p
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

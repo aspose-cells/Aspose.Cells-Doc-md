@@ -95,3 +95,4 @@ void FormatText() {
 
 ## **結論**
 Aspose.Cells for C++は、Excelファイル内の図形のテキストオプションを管理するための包括的なツールセットを提供します。[**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/)クラスを使って、配置、向き、書式設定を簡単にカスタマイズ可能です。
+{{< app/cells/assistant language="cpp" >}}

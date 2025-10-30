@@ -22,3 +22,4 @@ Herhangi bir Şekil veya Metin Kutusunun **Metin Efektlerinin Gölgesini** ayarl
 Aşağıdaki kod örneği, Şekil veya TextBox'ın metin efekt gölgelerini ayarlamak için [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) özelliğini kullanmanın örneklerini gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

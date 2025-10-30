@@ -85,3 +85,4 @@ AsposeCells.JsonUtility.importData(inputJson, worksheet.getCells(), row, column,
 // save file to xlsx format
 book.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

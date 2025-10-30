@@ -22,7 +22,7 @@ Det tillåter också export av Excel-filer till PDF, HTML etc. Nedan följer de 
 - Ställ in en kontrolleråtgärd för att hämta filen i cachen, så att vi kan hämta zip-filen med bilderna/formerna eller kalkylarksfilen i cachen. Den kommer att använda API:n GridCacheForStream.LoadStream.
 - Ställ in en kontrolleråtgärd för att ladda ner kalkylarket. Du kan använda API:n GridJsWorkbook.SaveToCacheWithFileName.
 
-Nedan är en enkel demo för att visa användningen av Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs
+Nedan är en grundläggande demo för att visa användningen av Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs
 
 
 Om du har några frågor, krav eller behöver hjälp, var god kontakta följande webbplats https://forum.aspose.com/c/cells/9

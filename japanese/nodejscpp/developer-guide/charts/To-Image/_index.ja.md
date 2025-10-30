@@ -187,3 +187,4 @@ chart.toImage(path.join(dataDir, "chartPNG_out.png"), options);
 ## **高度なトピック**  
 - [グラフをPDFに変換する](/cells/ja/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

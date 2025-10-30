@@ -59,3 +59,4 @@ set_license yöntemini çağırdığınızda, lisans adı lisans dosya adınızl
 {{% /alert %}}
 
 
+{{< app/cells/assistant language="python-net" >}}

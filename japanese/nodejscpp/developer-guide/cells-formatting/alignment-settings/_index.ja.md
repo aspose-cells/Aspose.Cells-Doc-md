@@ -133,3 +133,4 @@ Microsoft Excelのように、Aspose.Cellsは複数のセルを結合して1つ�
 - [セルの配置を変更し、既存の書式を保持する](/cells/ja/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [改行とテキストの折り返し](/cells/ja/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

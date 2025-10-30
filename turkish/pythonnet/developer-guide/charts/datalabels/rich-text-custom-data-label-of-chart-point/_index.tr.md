@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET kullanarak, grafik noktalarının zengin metin 
 Aşağıdaki kod, ilk serinin ilk grafik noktasına erişir, metnini ayarlar ve ardından ilk 10 karakterin rengini kırmızıya ve kalınlığını **true** olarak ayarlayarak metnin yazı tipini ayarlar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

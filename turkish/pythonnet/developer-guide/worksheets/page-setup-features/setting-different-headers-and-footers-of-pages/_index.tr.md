@@ -29,3 +29,4 @@ Aspose.Cells for Python via .NET, Excel ile aynı şekilde davranır.
 1. Farklı başlık ve altbilgileri girin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

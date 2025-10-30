@@ -8,14 +8,67 @@ url: /tr/net/what-s-new-in-aspose-cells-for-net/
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells özelliklerini açıklar.
 
+## Aspose.Cells for .NET 25.10
+* Sayısal değerler için anlamlı basamakların nasıl gösterileceğine ilişkin seçenek sunar
+* ExportAsString true olduğunda, özel ExportTableOptions ile dışa aktarılan hücreleri işlemeye destek sağlar
+* Japon İmparatorluğu Takvimi ile tarih ve saat çözümlemeye destek sağlar
+* Çalışma kitabı formüllerini hesaplarken, varsayılan olarak dinamik dizi formüllerini yenilemeye destek sağlar
+* PDF'ye dönüştürürken PdfBox kütüphanesi ile uyumluluğu artırır
+* Pivot tabel range'ini görsele dönüştürürken stil hesaplamaya destek sağlar
+* Excel 2016'nın gelişmiş grafiklerini docx'e aktarır
+* Akıllı Markers kullanarak hücreye açıklama ekleme desteği
+
+## Aspose.Cells for .NET 25.9
+* WRAPCOLS, WRAPROWS fonksiyonunu destekler
+* xps'ye dönüştürürken yazı tipi Varyasyon Seçicilerini destekler
+* Gömülü yazı tipi ile svg'ye dönüştürürken yazı tipi Varyasyon Seçicilerini destekler
+* Dosyayı html'ye dönüştürürken yazı tipi gömülmesini destekler
+* FlatOPC dosya formatını destekler
+* Düzenlenebilir grafikler ve gömülü nesne (ole nesne) içeren pptx dosyasını destekler
+* Master-Detail çalışma sayfası akıllı işaretçilerini destekler
+* Tekrarlayan çalışma sayfası için akıllı işaretçi desteği
+
+## Aspose.Cells for .NET 25.8
+* Office 365'in yeni fonksiyonlarını destekler: EXPAND, REDUCE, COT, COTH
+* PDF kaydederken yazı tipi varyasyon seçicilerini destekler
+* HTML kaydederken dondurulmuş üst satırların korunmasını destekler
+* Akıllı işaretçiler için formülde ve "if" parametresinde değişkenleri destekler
+* İç içe veri kaynağı işleme için aralık akıllı işaretçi desteği
+* Markdown içe aktarma sırasında base64 kodlu resimleri ve bağlantı referans tanımlarını okuma desteği
+* GridJs için sayı biçiminde hizalama ve sınır seçeneklerini destekler
+* GridJs için istemci JS'de metin kutusu kontrolünde yazı tipi ayarlarını uygulama desteği
+* GridJs'de menüye ve maksimum satırın altına toplu satır ekleme fonksiyonunu destekler
+* GridJs için otomatik metin kaydırma destekler
+
+## Aspose.Cells for .NET 25.7
+* Formülde yeni fonksiyonları destekle: TAKE, ISOMITTED
+* Akıllı işaretleyicili Excel şablonunda Değişkenleri destekle
+* Yüzen resmi Numbers’a dışa aktarmayı destekle
+* Bellek maliyetini azaltmak için büyük hücre veri kümesi için dosya önbelleği kullanımını destekle
+
+## Aspose.Cells for .NET 25.6
+* Oluşan pcl dosyası için gömülü fontları destekle
+* Numbers kaydederken köprü bağlantısı ve yazdırma ayarlarını dışa aktarmayı destekle
+* Çalışma sayfası kopyalanırken pivottable için sayfa referansı seçim seçeneğini destekle
+
+## Aspose.Cells for .NET 25.5
+* Markdown formatı için görsellerin dışa aktarımını destekle
+* Metin kutusu ve koşullu biçimlendirmeleri Numbers formatına dışa aktarmayı destekle
+* Gömülü görüntü ve varlık verilerini Docx formatına dışa aktarmayı destekle
+* Range kamerası özelliğini destekle
+* Çalışma kitabı kopyalanırken dilimleyicilerin kopyalanması için geliştirme
+* GridJs için API isteği token seçeneğini destekle
+* GridJs için Polonyaca menüler destekle
+* GridJs için satır/sütün ekleme/ silme javascript API’leri destekle
+
 ## Aspose.Cells for .NET 25.4
-* HTML'e dışa aktarmak için sayfa setini belirtmeyi destekler
-* Bir çalışma sayfasının ızgara çizgisi rengini alma ve ayarlamayı destekler
-* Düzenlenebilir grafiklerin DOCX dosyalarına dışa aktarılmasını destekler
-* Hassasiyet etiketlerinin okunmasını ve yazılmasını destekler
-* Daha fazla stil özelliğini Numbers'a aktarmayı destekler
-* Markdown formatında şablon dosyalarını içe aktarmayı destekler
-* Formüllerde herhangi bir özel fonksiyon kullanılıp kullanılmadığını tespit etmeyi destekler (`Cell` ve `Workbook` içindeki)
+* HTML’ye dışa aktarılacak sayfa kümesi belirleme desteği
+* Çalışma sayfasının ızgara çizgisi rengini alma ve ayarlama özelliği
+* Düzenlenebilir grafiklerin DOCX dosyalarına dışa aktarımını destekler
+* Hassasiyet etiketlerini okuma ve yazma desteği
+* Daha fazla stil özelliği dışa aktarma desteği Numbers'a
+* Markdown formatında şablon dosyalarını içe aktarma desteği
+* Formüllerde kullanılan herhangi bir özel fonksiyon olup olmadığını tespit etme desteği `Cell` ve `Workbook` içinde
 
 ## Aspose.Cells for .NET 25.3
 * Bir hücrenin görüntü stilini hücre nesnesini almadan elde etmeyi destekler

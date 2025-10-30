@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 - [組み込みスタイルを持つ WordArt テキストを追加する](/cells/ja/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [WordArtウォーターマークをロックする](/cells/ja/nodejs-cpp/locking-wordart-watermark/)
 - [テキストのシェイプに組み込みのWordArtスタイルを設定する](/cells/ja/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

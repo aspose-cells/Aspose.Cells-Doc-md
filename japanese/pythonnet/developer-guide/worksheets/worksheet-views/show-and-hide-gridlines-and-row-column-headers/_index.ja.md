@@ -58,3 +58,4 @@ Aspose.Cells for Python via .NETは、[**Workbook**](https://reference.aspose.co
 また、[**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)クラスの[**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows)メソッドと[**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns)メソッドを使用して、複数の行と列を表示したり非表示にしたりすることも可能です。
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

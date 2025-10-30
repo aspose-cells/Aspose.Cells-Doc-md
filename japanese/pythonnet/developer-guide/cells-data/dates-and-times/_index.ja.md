@@ -3,7 +3,7 @@ title: 日付と時間の管理方法
 type: docs
 weight: 600
 url: /ja/python-net/how-to-manage-dates-and-times/
-description: Aspose.Cells for .NET APIを使用して日付と時間の管理方法を学ぶ。
+description: Aspose.Cells for Python via .NET APIを通じて、日付と時刻を管理する方法について学びましょう。
 keywords: 日付と時間の管理方法、1900年の日付システム、1904年の日付システム、日付と時間の設定、日付と時間の取得、日付と時間の管理、Excelでの日付と時間の格納、セルでの日付と時間の表示。
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

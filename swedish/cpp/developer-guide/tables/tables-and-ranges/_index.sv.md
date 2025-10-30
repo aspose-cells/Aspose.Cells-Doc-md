@@ -22,3 +22,4 @@ Tabellfunktionerna är inte längre tillgängliga efter att tabellen har konvert
 Följande kodsnutt visar samma funktionalitet med hjälp av Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

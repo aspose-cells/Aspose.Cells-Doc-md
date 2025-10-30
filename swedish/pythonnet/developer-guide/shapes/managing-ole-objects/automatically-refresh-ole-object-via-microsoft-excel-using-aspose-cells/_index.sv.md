@@ -14,3 +14,4 @@ Aspose.Cells för Python via .NET tillhandahåller egenskapen [**OleObject.auto_
 Följande provkod laddar [provexempel Excel-filen](5115231.xlsx) som har en icke verklig OLE-bild. OLE-objektet är faktiskt ett Microsoft Word-dokument men provexempelfilen visar djurbilden istället för Microsoft Word-bilden. Men om du öppnar [utmatningsexelfilen](5115225.xlsx) kommer du att se att Microsoft Excel visar den korrekta OLE-bilden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-OLE-RefreshOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

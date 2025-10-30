@@ -35,3 +35,4 @@ Aspose.Cells for Python via .NET API を使えば、ブックの構造の保護�
 注意：正しいパスワードが必要です。
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -87,3 +87,4 @@ Charts オブジェクトはワークシート内のすべての Chart オブジ
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 垂直ページブレイクオブジェクトは、ワークシート内に垂直ページブレイクを作成するために使用されます。
+{{< app/cells/assistant language="python-net" >}}

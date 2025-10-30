@@ -12,3 +12,4 @@ description: Aspose.Cells for C++ kullanarak Excel dosyalarındaki Akıllı Sana
 Aspose.Cells, Excel dosyalarında Akıllı Sanat şekilleriyle programlı çalışma yapmanız için kapsamlı araçlar sağlar. Bu kılavuz, C++ kullanarak Akıllı Sanat öğeleri oluşturma, erişim ve değiştirme yöntemlerini gösterir.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

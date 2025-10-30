@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET kullanarak satırları dondurmak çok basittir.
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 Ekli [örnek kaynak Excel dosyası](../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

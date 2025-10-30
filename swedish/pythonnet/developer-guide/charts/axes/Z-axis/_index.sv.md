@@ -17,3 +17,4 @@ Se följande provkod som skapar en ny Excel-fil och lägger in värdena för dia
 
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ZAxis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

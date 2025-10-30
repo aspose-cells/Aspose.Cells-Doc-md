@@ -108,3 +108,4 @@ Hücreleri ihtiyaçlarınıza göre biçimlendirdikten sonra, çalışma kitabı
 
 Aspose.Cells for Node.js via C++ ile sayıları özel biçimlere dönüştürmek, hücrenin stilinin özel sayı biçimini ayarlamayı içerir. Bu, çeşitli biçimlendirme seçeneklerine olanak tanır ve verilerinizi tam istediğiniz gibi gösterir. Unutmayın, özel biçimlerin anahtarı sağlayacağınız biçim dizesidir; bu, sayının nasıl görüntüleneceğini belirler.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -45,3 +45,4 @@ I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lä
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ManipulateChart-ModifyLineChart-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -82,3 +82,4 @@ När man arbetar med kalkylblad kan användare lägga till olika typer av data i
 - [Fylla data först per rad och sedan per kolumn](/cells/sv/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Bevara enskild citattecken prefiks av cellvärde eller område](/cells/sv/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Åtkomst och uppdatering av delar av riktad text från cellen](/cells/sv/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

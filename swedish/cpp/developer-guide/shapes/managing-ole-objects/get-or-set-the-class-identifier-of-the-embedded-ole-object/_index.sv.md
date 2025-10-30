@@ -57,3 +57,4 @@ Detta är konsoloutputen av ovanstående provkod när den kördes med [provexemp
 {{< highlight java >}}
 DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

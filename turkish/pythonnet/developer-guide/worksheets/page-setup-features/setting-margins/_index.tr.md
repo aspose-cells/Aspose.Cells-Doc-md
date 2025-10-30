@@ -41,3 +41,4 @@ Bir şeyi yatay ve dikey olarak sayfa üzerinde ortalamak mümkündür. Bunun i�
 Üst bilgi ve alt bilgi kenar boşluklarını [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) sınıf üyeleri olan [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) ve [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin) ile ayarlayın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

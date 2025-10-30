@@ -142,3 +142,4 @@ int main()
 ### Sonuç
 
 Bu adımları izleyerek, Aspose.Cells for C++ sayısında sayıları bilimsel gösterime biçimlendirebilirsiniz. Format dizesini (`"0.00E+00"`) ihtiyaçlarınıza göre özelleştirerek ondalık basamak sayısını veya bilimsel gösterimin diğer yönlerini ayarlayabilirsiniz.
+{{< app/cells/assistant language="cpp" >}}

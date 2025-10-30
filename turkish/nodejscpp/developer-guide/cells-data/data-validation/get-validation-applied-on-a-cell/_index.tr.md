@@ -25,3 +25,4 @@ Aşağıdaki kod örneği, hücreye uygulanan doğrulamayı nasıl alacağınız
 ## İlgili Makaleler
 
 - [Veri Doğrulama](/cells/tr/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

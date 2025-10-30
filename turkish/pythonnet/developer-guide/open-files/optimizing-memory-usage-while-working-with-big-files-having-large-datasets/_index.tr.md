@@ -35,3 +35,4 @@ Varsayılan seçenek, [**MemorySetting.NORMAL**](https://reference.aspose.com/ce
 1. **Hücreleri ve Satırları Ekleme ve Silme**: Hücreler/Satırlar için çok sayıda ekleme/silme işlemi varsa, *MemoryPreference* modu, *Normal* moduna göre performansın gözle görülür derecede düşmesine neden olacaktır.
 1. **Farklı Hücre Türlerinde Çalışma**: Eğer hücrelerin çoğu dize değerleri veya formülleri içeriyorsa, hafıza maliyeti *Normal* mod ile aynı olacaktır, ancak boş hücreler veya hücre değerleri sayısal, mantıksal vb. ise, [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) seçeneği daha iyi performans sunacaktır.
 
+{{< app/cells/assistant language="python-net" >}}

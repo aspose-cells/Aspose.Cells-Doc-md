@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [共有式の最大行数を指定](/cells/ja/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [サポートされているExcel関数](/cells/ja/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

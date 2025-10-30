@@ -41,3 +41,4 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çal
 Aşağıdaki örnek, **book1.xls** adlı mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!"yazar ve çalışma kitabını yeni bir dosya olarak kaydeder.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

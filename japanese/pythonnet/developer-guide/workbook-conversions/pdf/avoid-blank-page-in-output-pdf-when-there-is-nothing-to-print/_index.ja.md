@@ -36,3 +36,4 @@ Excelファイルが空であり、Aspose.Cells for Python via .NETを使用し�
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

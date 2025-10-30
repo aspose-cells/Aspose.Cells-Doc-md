@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [Stödjer layouten för DIV-taggar vid laddning av HTML till excel arbetsbok](/cells/sv/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [Aktivera CSS Anpassade Egenskaper under sparande till HTML](/cells/sv/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -42,3 +42,4 @@ Eğer Excel tablonuz formüller içeriyorsa, PDF'ye dönüştürmeden hemen önc
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

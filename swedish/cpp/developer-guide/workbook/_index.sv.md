@@ -142,3 +142,4 @@ int main() {
 
 ## **Slutsats**
 Aspose.Cells for C++ ger ett omfattande set verktyg för att hantera arbetsböcker och kalkblad. Oavsett om du behöver skapa en ny arbetsbok, öppna en befintlig eller manipulera kalkblad, gör Aspose.Cells det enkelt att arbeta med Excel-filer programmässigt.
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ keywords: Python Excel ライブラリ、Python ファイルを開いて行の�
 ## **Python サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Rows-autofit-row-height.py" >}}
+{{< app/cells/assistant language="python-net" >}}

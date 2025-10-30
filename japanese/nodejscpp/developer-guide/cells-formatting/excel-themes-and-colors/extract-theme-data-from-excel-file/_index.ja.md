@@ -22,3 +22,4 @@ Microsoft Excelを使用してワークブックにテーマを適用できま�
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ThemesAndColors-ExtractThemeData.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

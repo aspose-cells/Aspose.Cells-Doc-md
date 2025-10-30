@@ -16,3 +16,4 @@ Ibland behöver användaren kopiera radhöjder från källointervall till målin
 Följande kodexempel förklarar hur man använder [**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype)-enumet för att kopiera radhöjder från källområdet till destinationsområdet. När du öppnar den genererade utfil i Microsoft Excel kommer du att se att destinationsområdets radhöjder är exakt desamma som källområdets radhöjder.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

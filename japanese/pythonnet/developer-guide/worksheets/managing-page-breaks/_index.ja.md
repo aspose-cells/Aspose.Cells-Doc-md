@@ -46,3 +46,4 @@ Aspose.Cells for Python via .NETは、**[**Workbook**](https://reference.aspose.
 ## **重要なこと**
 
 ページ設定の設定で**FitToPages**プロパティ（すなわち[**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall)および[**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)）を設定すると、ページブレークの設定が影響を受けます。そのため、ワークシートを印刷する場合、ページブレークの設定は考慮されませんが、それらはまだ設定されています。
+{{< app/cells/assistant language="python-net" >}}

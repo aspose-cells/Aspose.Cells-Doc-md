@@ -154,3 +154,4 @@ int main()
 ```
 
 İşte [kaynak excel dosyası](Book1.xlsx).
+{{< app/cells/assistant language="cpp" >}}

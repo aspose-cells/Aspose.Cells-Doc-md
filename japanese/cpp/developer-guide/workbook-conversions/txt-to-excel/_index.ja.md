@@ -242,3 +242,4 @@ int main()
 ## **上級トピック**
 - [数式を含むCSVファイルのロードまたはインポート](/cells/ja/cpp/load-or-import-csv-file-with-formulas/)
 - [複数のエンコーディングを持つCSVファイルの読み込み](/cells/ja/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

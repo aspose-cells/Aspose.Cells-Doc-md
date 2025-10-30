@@ -25,3 +25,4 @@ Exempelkoden nedan visar hur man skapar anpassade diagram. I det här exemplet k
 För närvarande stöder Aspose.Cells för Python via .NET bara anpassade diagram som kombinerar paj, linje, kolumn och staplade kolumndiagram, men fler diagram kommer att stödas i framtida versioner.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

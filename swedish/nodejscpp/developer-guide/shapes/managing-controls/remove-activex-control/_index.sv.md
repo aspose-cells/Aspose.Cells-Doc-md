@@ -39,3 +39,4 @@ shape.removeActiveXControl();
 wb.save(path.join(outputDir, "RemoveActiveXControl_our.xlsx"));
 ``` 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

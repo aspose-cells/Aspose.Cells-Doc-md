@@ -12,3 +12,4 @@ Aşağıdaki örnek kod, bir programın çalışmasını nasıl izleyeceğinizi 
 ## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-python-net-TechnicalArticles-MonitorRunningPrograms.py" >}}
+{{< app/cells/assistant language="python-net" >}}

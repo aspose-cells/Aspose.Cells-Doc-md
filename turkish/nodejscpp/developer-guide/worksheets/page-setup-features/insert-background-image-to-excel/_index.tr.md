@@ -57,3 +57,4 @@ workbook.save("outputBackImageSheet.html", AsposeCells.SaveFormat.Html);
 
 - [ODS Dosyalarında Arkaplanla Çalışma](/cells/tr/nodejs-cpp/working-with-background-in-ods-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

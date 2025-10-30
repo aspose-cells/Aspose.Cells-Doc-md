@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NETは、[**Chart.set_chart_data_range()**](https:/
 次のサンプルコードは、[**Chart.set_chart_data_range()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/set_chart_data_range)メソッドの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-EasyWayToChartSetupUsingSetChartDataRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

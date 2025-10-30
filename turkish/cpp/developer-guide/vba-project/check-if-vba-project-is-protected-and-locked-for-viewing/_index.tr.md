@@ -54,3 +54,4 @@ Sağlanan [örnek Excel dosyası](43352065.xlsm) ile yukarıdaki örnek kodun ç
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET は、シングルクォートマークで値�
 以下のサンプルコードは、sampleと 'sampleのような文字列を[**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/)プロパティで区別できないことを説明します。そのため、それらを区別するには[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/)プロパティを使用する必要があります。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

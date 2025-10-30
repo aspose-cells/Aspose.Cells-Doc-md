@@ -115,3 +115,4 @@ $ pip install aspose-cells-python
 
 Aspose.Cells for Python via .NETで数字を時間に書式設定するには、セルの表示したい範囲に対してカスタムの数値書式を設定します。上記の手順に従えば、Aspose.Cellsを使ってExcelファイル内のセルに時間書式を簡単に適用できます。正しいカスタムフォーマット文字列を使用することが重要です。
 
+{{< app/cells/assistant language="python-net" >}}

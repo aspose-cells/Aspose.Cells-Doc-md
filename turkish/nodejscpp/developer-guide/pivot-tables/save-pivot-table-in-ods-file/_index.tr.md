@@ -15,3 +15,4 @@ Yukarıdaki kod tarafından oluşturulan çıkış dosyası referans için ekte 
 
 [Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

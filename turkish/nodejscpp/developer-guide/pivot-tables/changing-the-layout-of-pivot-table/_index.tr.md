@@ -22,3 +22,4 @@ Aspose.Cells for Node.js via C++ kütüphanesi ayrıca bu üç biçimde pivot ta
 Aşağıdaki örnek kod önce Pivot Tablosunu **Kompakt Formda** gösterir, ardından Pivot Tablosunu **Açıklamalı Formda** gösterir ve son olarak Pivot Tablosunu **Tablo Formunda** gösterir.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}
