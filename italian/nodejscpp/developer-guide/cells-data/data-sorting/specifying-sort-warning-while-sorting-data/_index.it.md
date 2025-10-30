@@ -19,3 +19,4 @@ Il seguente codice di esempio illustra l'uso della proprietà [**DataSorter.setS
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SpecifyingSortWarningWhileSortingData.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

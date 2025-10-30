@@ -28,3 +28,4 @@ Ecco l'output della console del codice di esempio sopra.
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

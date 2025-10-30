@@ -12,3 +12,4 @@ El siguiente código de muestra muestra cómo monitorear un programa en ejecuci�
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-MonitorRunningPrograms.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

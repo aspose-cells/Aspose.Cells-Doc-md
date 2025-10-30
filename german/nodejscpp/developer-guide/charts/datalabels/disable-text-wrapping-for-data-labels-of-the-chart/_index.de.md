@@ -41,3 +41,4 @@ chart.getNSeries().get(2).getDataLabels().setIsTextWrapped(false);
 // Save the workbook
 workbook.save(path.join(dataDir, "Output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

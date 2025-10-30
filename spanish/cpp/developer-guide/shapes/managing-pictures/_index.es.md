@@ -203,3 +203,4 @@ int main()
 - [Insertar una imagen vinculada desde una dirección web](/cells/es/cpp/insert-a-linked-picture-from-web-address/)
 - [Insertar una imagen basada en la referencia de la celda](/cells/es/cpp/insert-a-picture-based-on-cell-reference/)
 - [Cargar una imagen web desde una URL en una hoja de cálculo de Excel](/cells/es/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

@@ -9,3 +9,4 @@ keywords: Smart Art Node.js Verwaltung via C++, Aspose.Cells Smart Art Manipulat
 ---  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

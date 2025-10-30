@@ -194,3 +194,4 @@ int main()
 - [Sposta Intervallo di Celle in un Foglio di Lavoro](/cells/it/cpp/move-range-of-cells-in-a-worksheet/)
 - [Crea Riferimenti con Nome a Livello di Cartella e Foglio di Lavoro](/cells/it/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Cerca e Sostituisci Dati in un Intervallo](/cells/it/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

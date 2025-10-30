@@ -112,3 +112,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 
 Das Formatieren von Zahlen auf spezielle Formate in Aspose.Cells für Python via .NET beinhaltet das Festlegen des benutzerdefinierten Zahlenformats einer Zelle. Dadurch stehen Ihnen vielfältige Formatierungsoptionen zur Verfügung, mit denen Sie Daten genau so anzeigen können, wie Sie es benötigen. Denken Sie daran, dass der Schlüssel zu benutzerdefinierten Formaten der Format-String ist, den Sie angeben, welcher bestimmt, wie die Zahl angezeigt wird.
 
+{{< app/cells/assistant language="python-net" >}}

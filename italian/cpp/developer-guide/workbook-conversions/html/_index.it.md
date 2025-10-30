@@ -94,3 +94,4 @@ int main()
 - [Specifica come attraversare la stringa nell'output HTML utilizzando HtmlCrossType](/cells/it/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Supporta il layout dei tag DIV durante il caricamento di HTML nell'oggetto foglio di calcolo Excel](/cells/it/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [Abilita le Proprietà CSS Personalizzate durante il salvataggio in HTML](/cells/it/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

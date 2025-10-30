@@ -33,7 +33,7 @@ Se fai clic su **Incolla** sulla barra degli strumenti **Standard** o premi **CT
 1. Nella scheda Home, fai clic sulla freccia accanto a **Incolla**, quindi seleziona **Incolla speciale**.
 1. Seleziona le **opzioni** desiderate.
 
-## **Come copiare righe e colonne usando Aspose.Cells for .NET**
+## **Come copiare righe e colonne usando Aspose.Cells per Python via .NET**
 
 ## **Come copiare singole righe**
 
@@ -98,3 +98,4 @@ Aspose.Cells fornisce ora [**PasteOptions**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

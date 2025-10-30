@@ -7,3 +7,4 @@ url: /it/python-net/workbook-settings/
 description: Gestire le impostazioni dei file di Microsoft Excel.
 ---
 
+{{< app/cells/assistant language="python-net" >}}

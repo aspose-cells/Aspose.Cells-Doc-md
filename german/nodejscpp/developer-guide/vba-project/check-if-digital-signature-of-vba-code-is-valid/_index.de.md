@@ -46,3 +46,4 @@ workbook = new AsposeCells.Workbook(path.join(dataDir, "output_out.xlsm"));
 // Now the signature is invalid
 console.log("Is VBA Code Project Valid Signed: " + workbook.getVbaProject().isValidSigned());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

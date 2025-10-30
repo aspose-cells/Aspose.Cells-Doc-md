@@ -15,7 +15,7 @@ aliases:
 
 Il client js di GridJs può adattarsi allo schermo mobile.
 
-Esegui il [demo di GridJs](https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs "demo di GridJs")
+Esegui [dimostrazione di GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs "demo di GridJs")
 
 La porta predefinita del progetto demo è 8080. 
 

@@ -40,3 +40,4 @@ Una imagen TIFF puede contener más de una imagen. Puede guardar todo el libro d
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-UseWorkbookRenderForImageConversion-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

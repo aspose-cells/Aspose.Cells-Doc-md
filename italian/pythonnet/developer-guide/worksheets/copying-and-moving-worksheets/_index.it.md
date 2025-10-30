@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET fornisce un metodo [**Aspose.Cells.Worksheet.mo
 L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

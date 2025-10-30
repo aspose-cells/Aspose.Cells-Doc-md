@@ -151,3 +151,4 @@ int main()
 ## **Erweiterte Themen**
 - [Daten in Spalte mit benutzerdefinierter Sortierliste sortieren](/cells/de/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Spezifizieren von Sortierwarnungen beim Sortieren von Daten](/cells/de/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

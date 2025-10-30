@@ -34,3 +34,4 @@ if not os.path.exists(output_dir):
 
 wb_source.save(os.path.join(output_dir, "sampleOutputNamedRangeTest.xlsm"))
 ```
+{{< app/cells/assistant language="python-net" >}}

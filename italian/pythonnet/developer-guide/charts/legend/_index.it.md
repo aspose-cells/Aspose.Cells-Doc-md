@@ -23,3 +23,4 @@ Il seguente snippet di codice dimostra come gestire la legenda:
 
 ## **Argomenti avanzati**
 - [Imposta il testo dell'elemento della legenda del grafico a nessuno usando Aspose.Cells per Python via .NET](/cells/it/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

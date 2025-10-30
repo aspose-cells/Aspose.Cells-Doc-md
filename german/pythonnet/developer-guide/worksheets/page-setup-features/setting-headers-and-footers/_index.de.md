@@ -58,3 +58,4 @@ Nach Ausführung des folgenden Codes und Öffnen der Datei überprüfen Sie den 
 1. Wählen Sie den Tab **Kopfzeile/Fußzeile** aus.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

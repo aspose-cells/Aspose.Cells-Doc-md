@@ -415,3 +415,4 @@ int main()
 ## **Erweiterte Themen**
 - [Hoch- und Tiefgestellt-Effekte auf Schriftarten anwenden](/cells/de/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Eine Liste der in einer Arbeitsmappe oder einem Arbeitsblatt verwendeten Schriftarten abrufen](/cells/de/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

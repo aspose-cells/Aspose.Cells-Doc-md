@@ -133,3 +133,4 @@ workbook.save(path.join(dataDir, "outputxls"));
 Es ist auch möglich, die [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells)-Klasse mit den [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRows-number-number-number-)- und [**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumns-number-number-number-)-Methoden zu verwenden, um mehrere Zeilen und Spalten sichtbar zu machen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

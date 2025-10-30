@@ -67,3 +67,4 @@ Oltre ai metodi sopra citati, le API di Aspose.Cells per Python via .NET offrono
 - [Formati di carattere supportati](/cells/it/python-net/supported-font-formats/)
 - [Foglio elettronico in immagine - Imposta il formato pixel per l'immagine renderizzata](/cells/it/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

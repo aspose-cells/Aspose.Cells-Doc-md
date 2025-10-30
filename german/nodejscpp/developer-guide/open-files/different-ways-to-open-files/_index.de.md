@@ -141,3 +141,4 @@ Es besteht die Wahrscheinlichkeit, dass der [**Workbook**](https://reference.asp
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

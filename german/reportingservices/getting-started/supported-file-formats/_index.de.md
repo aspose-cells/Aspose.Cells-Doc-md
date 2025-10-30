@@ -20,7 +20,7 @@ url: /de/reportingservices/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|Speichert das Dokument in ODS (OpenDocument Spreadsheet).| |{{< emoticons/tick >}}|
 |SpreadsheetML|Speichert das Dokument in einer Excel 2003-XML-Datei.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Speichert das Dokument in XPS-Datei| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Stellt ein Markdown-Dokument dar.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Repräsentiert ein Markdown-Dokument.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Speichert das Dokument in EMF-Datei| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Speichert das Dokument in DIF-Datei| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)|Speichert das Dokument in JPG-Datei| |{{< emoticons/tick >}}|

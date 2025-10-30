@@ -375,3 +375,4 @@ Eseguendo il codice precedente, otterrai i seguenti risultati:
 - [Gestire le opzioni di testo di forma](/cells/it/python-net/managing-shape-text-options/)
 - [Estensioni Web - Componenti aggiuntivi di Office](/cells/it/python-net/web-extensions-office-add-ins/)
 
+{{< app/cells/assistant language="python-net" >}}

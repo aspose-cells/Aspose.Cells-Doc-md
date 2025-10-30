@@ -23,19 +23,21 @@ La classe `Aspose.Cells.Rendering.ISheetRender` rappresenta un foglio di lavoro 
 
 Il seguente frammento di codice mostra come convertire un foglio di lavoro in un file immagine.
 
-### **Formato PNG**
+### **convertire Excel/foglio di calcolo in PNG con GoLang**
 
 Si prega di consultare il seguente codice di esempio, il [file di Excel di esempio](67338402.xlsx), e le [immagini PNG di output](67338401.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **Formato TIFF**
+### **convertire Excel/foglio di calcolo in TIFF con GoLang**
 
 Si prega di consultare il seguente codice di esempio, il [file di Excel di esempio](67338402.xlsx), e l'[immagine TIFF di output](67338419.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **Conversione del foglio di lavoro in SVG**
+## **convertire Excel/foglio di calcolo in SVG con GoLang**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVG sta per Scalable Vector Graphics. SVG è una specifica basata su standard XML per grafica vettoriale bidimensionale. È uno standard aperto che è stato in fase di sviluppo da parte del World Wide Web Consortium (W3C) dal 1999.
 

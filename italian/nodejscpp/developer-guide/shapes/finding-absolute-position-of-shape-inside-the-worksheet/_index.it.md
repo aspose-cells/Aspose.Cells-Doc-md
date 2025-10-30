@@ -40,3 +40,4 @@ const shape = worksheet.getShapes().get(0);
 // Displays the absolute position of the shape
 console.log(`Absolute Position of this Shape is (${shape.getLeftToCorner()} , ${shape.getTopToCorner()})`);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

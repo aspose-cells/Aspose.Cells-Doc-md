@@ -22,3 +22,4 @@ Le funzionalità della tabella non sono più disponibili dopo che la tabella è 
 Il seguente snippet di codice dimostra la stessa funzionalità utilizzando Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -21,3 +21,4 @@ A volte, per rendere il grafico più intuitivo, possiamo modificare l'aspetto de
 Il codice di esempio seguente carica il [file Excel di esempio](High-Low-Close.xlsx) e genera il [file Excel di output](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

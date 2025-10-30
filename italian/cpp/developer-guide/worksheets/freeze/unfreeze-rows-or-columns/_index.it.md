@@ -53,3 +53,4 @@ int main()
 ```
 
 Allegato il [file Excel di origine di esempio](Frozen.xlsx).
+{{< app/cells/assistant language="cpp" >}}

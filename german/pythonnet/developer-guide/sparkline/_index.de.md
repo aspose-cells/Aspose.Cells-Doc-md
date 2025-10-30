@@ -23,3 +23,4 @@ Es ist einfach, eine Sparkline mit Aspose.Cells für Python via .NET zu erstelle
 ## **Erweiterte Themen**
 - [Verwenden von Sparklines und Einstellungen 3D-Format](/cells/de/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

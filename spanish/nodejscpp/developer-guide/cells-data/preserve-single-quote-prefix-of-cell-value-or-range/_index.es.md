@@ -43,3 +43,4 @@ Quote Prefix of Cell A1: False
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

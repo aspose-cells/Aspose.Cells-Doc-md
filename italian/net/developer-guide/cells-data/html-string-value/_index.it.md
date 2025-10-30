@@ -4,8 +4,8 @@ linktitle: Valore stringa HTML
 type: docs
 weight: 50
 url: /it/net/adding-html-rich-text-inside-the-cell/
-description: Scopri come inserire testo HTML ricco all interno della cella tramite l API Aspose.Cells for .NET.
-keywords: Aggiungi testo HTML ricco all interno della cella, Imposta testo HTML ricco all interno della cella, Aggiungi testo HTML ricco nella cella
+description: Impara come aggiungere testo ricco HTML all interno della cella e più stili all interno di una singola cella tramite l API Aspose.Cells for .NET.
+keywords: Aggiungi testo ricco HTML all interno della cella, Imposta testo ricco HTML dentro la cella, Molteplici stili in una singola cella, Aggiungi testo ricco HTML nella cella
 ---
 
 {{% alert color="primary" %}}

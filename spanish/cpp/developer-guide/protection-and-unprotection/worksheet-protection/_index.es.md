@@ -90,3 +90,4 @@ int main()
 - [Protección de Hojas de Cálculo](/cells/es/cpp/protecting-worksheets/)
 - [Desproteger una Hoja de Cálculo](/cells/es/cpp/unprotect-a-worksheet/)
 - [Verificar la Contraseña Utilizada para Proteger la Hoja de Cálculo](/cells/es/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

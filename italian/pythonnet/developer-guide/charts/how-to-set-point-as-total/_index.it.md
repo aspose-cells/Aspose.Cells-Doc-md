@@ -80,3 +80,4 @@ Dettagli chiave di implementazione:
 - Gestisci la convalida del tipo di grafico
 
 Vedi [documentazione su ChartPoint](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) per opzioni di configurazione avanzate.
+{{< app/cells/assistant language="python-net" >}}

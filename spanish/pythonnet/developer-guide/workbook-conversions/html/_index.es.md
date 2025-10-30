@@ -48,3 +48,4 @@ El ejemplo de código a continuación muestra cómo guardar un libro de trabajo 
 - [Establecer el ancho de la columna a una unidad escalable como em o porcentaje](/cells/es/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Establecer fuente predeterminada al renderizar la hoja de cálculo a HTML](/cells/es/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Especifica cómo cruzar la cadena en HTML de salida utilizando HtmlCrossType](/cells/es/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

@@ -106,3 +106,4 @@ Por favor revisa la salida de consola del código de muestra anterior, el valor 
 [Cálculo directo de función personalizada sin escribirla en una hoja de cálculo](/cells/es/cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

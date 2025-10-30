@@ -1,7 +1,7 @@
 ---
 title: Caratteristiche
 type: docs
-weight: 5
+weight: 10
 url: /it/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Funzionalità Aspose.Cells for Node.js via C++."
@@ -99,3 +99,4 @@ Aspose.Cells fornisce un accesso dettagliato programmato alle proprietà di form
 |Imposta l'area di stampa, i titoli di stampa o attiva le griglie, ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

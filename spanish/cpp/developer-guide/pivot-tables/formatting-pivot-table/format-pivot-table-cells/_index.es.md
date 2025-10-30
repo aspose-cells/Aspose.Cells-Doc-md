@@ -51,3 +51,4 @@ int main() {
 
 - [Dar formato a la tabla dinámica](/cells/es/cpp/formatting-pivot-table/)
 - [Trabajar con formatos de visualización de datos del Campo de Datos en la Tabla Dinámica](/cells/es/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

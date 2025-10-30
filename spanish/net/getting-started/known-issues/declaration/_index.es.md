@@ -1,5 +1,5 @@
 ---
-title: Declaración
+title: Permisos de confianza en servidor web
 type: docs
 weight: 30
 url: /es/net/declaration/
@@ -8,6 +8,8 @@ url: /es/net/declaration/
 {{% alert color="primary" %}} 
 
 Generalmente, todos los componentes .NET de Aspose requieren permisos de Full Trust. La razón es que los componentes de Aspose para .NET necesitan acceder a la configuración del registro, archivos del sistema que no sean directorios virtuales para ciertas operaciones como el análisis de fuentes, etc. Además, los componentes de Aspose para .NET (incluido Aspose.Cells for .NET) están basados en clases del sistema principal de .NET que también requieren permisos de Full Trust en muchos casos
+<br/>
+Medio Confianza ha sido eliminado en .NET Core y .NET 5+. Medio Confianza es el mecanismo de seguridad en la era de .NET Framework. Medio Confianza ha sido reemplazado gradualmente por políticas de seguridad más flexibles. Sugerimos que los usuarios prioricen la actualización a .NET 5+ y adopten implementación en contenedores en lugar de confiar en niveles de confianza tradicionales.
 
 {{% /alert %}} 
 ## **Desafío de confianza parcial/confianza media**

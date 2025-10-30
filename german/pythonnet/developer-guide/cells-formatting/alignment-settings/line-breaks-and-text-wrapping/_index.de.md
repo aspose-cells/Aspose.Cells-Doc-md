@@ -25,3 +25,4 @@ Sie können in C# „\n“ und in VB.NET „vbLf“ verwenden, um explizite Zeil
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-LineBreakTextWrapping-UseExplicitLineBreaks-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

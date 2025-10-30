@@ -105,3 +105,4 @@ workbook.save(filePath);
 - [Verifica password dei file crittografati](/cells/it/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

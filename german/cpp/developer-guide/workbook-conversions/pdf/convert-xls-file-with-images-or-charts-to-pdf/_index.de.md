@@ -61,3 +61,4 @@ int main()
 Wenn die Tabelle Formeln enthält, ist es am besten, die Methode [Calculate(CalculationData data)]([https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/)) kurz vor der Renderung nach PDF aufzurufen. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet werden und die richtigen Werte im PDF angezeigt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

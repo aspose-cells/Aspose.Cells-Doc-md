@@ -33,3 +33,4 @@ Aspose.Cells per Python via .NET fornisce la stessa funzionalità di Microsoft E
 - [Formattare e modificare intervalli con nome](/cells/it/python-net/format-and-modify-named-ranges/)
 - [Ottieni Intervallo con Link Esterni](/cells/it/python-net/get-range-with-external-links/)
 - [Implementazione degli Intervallo Non Sequenziali](/cells/it/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

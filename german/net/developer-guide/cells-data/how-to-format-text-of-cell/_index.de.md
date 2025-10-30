@@ -3,8 +3,8 @@ title: Wie man Text in Zelle formatiert
 type: docs
 weight: 130
 url: /de/net/how-to-format-text-in-cell/
-description: Erfahren Sie, wie man Text in Zelle mit Aspose.Cells formatiert.
-keywords: Formatieren Sie den Text der Zelle, partiale Zeichen in der Zelle formatieren, wie man mehrere Formatierungen auf den Text in der Zelle anwendet, einen Teil der Zelle hervorheben, Teil der Zelle formatieren, Text in Zellen formatieren.
+description: Erfahren Sie, wie Sie Text in Zellen und mehrere Stile in einer einzigen Zelle mit Aspose.Cells formatieren.
+keywords: Text in Zellen formatieren, Teile des Textes innerhalb einer Zelle formatieren, mehrere Formatierungen auf Text in einer Zelle anwenden, einen Teil der Zelle hervorheben, Teil der Zelle formatieren, Mehrere Stile in einer Zelle, Text in Zellen formatieren, Text in Zelle formatieren.
 ---
 
 ## **Mögliche Verwendungsszenarien**

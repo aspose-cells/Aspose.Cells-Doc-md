@@ -69,3 +69,4 @@ int main()
 Poiché l'approccio [**Cell.GetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/)/[**Cell.SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) utilizza molto meno memoria ed è efficiente, la vecchia proprietà Cell.Style che consumava molta memoria inutile, è stata rimossa con il rilascio di Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

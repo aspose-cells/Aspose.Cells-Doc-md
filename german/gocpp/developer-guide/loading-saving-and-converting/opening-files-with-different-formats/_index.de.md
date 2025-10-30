@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /de/go-cpp/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET API ermöglicht das Öffnen/Lesen verschiedener Formate wie XLSX, HTML, CSV, ODS, TSV, SXC, FODS, usw.
+description: Aspose.Cells for Go via C++ API ermöglicht es, verschiedene Formate wie XLSX, HTML, CSV, ODS, TSV, SXC, FODS usw. zu öffnen/lesen.
 keywords: Öffnen von XLSX Dateien, Öffnen von HTML Dateien, Lesen von FODS Dateien, Lesen von ODS Dateien, Lesen von SXC Dateien, Öffnen von CSV Dateien, Tabstopp Delimited, SpreadsheetML, TSV, MHTML
 ---
 
@@ -38,16 +38,6 @@ Aspose.Cells ermöglicht es Ihnen, eine HTML-Datei in ein Arbeitsmappenobjekt zu
 Durch Kommas getrennte Werte (CSV)-Dateien enthalten Datensätze, bei denen die Werte durch Kommas getrennt sind. Daten werden als Tabelle gespeichert, wobei jeder Spalte das Kommazeichen trennt und durch das doppelte Anführungszeichen gekennzeichnet ist. Enthält ein Feldwert ein doppeltes Anführungszeichen, wird es mit einem Paar doppelter Anführungszeichen maskiert. Sie können auch Microsoft Excel verwenden, um Tabellendaten in CSV zu exportieren.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFile.go" >}}
-
-#### **Öffnen von CSV-Dateien und Ersetzen ungültiger Zeichen**
-
-In Excel werden beim Öffnen von CSV-Dateien mit Sonderzeichen die Zeichen automatisch ersetzt. Das gleiche geschieht durch die Aspose.Cells API, wie im folgenden Beispielcode dargestellt.
-
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-OpenCSVFileAndReplaceInvalidCharacters.go" >}}
-
-Die Beispielquelle kann von den folgenden Links heruntergeladen werden, um diese Funktion zu testen.
-
-[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **Öffnen von Textdateien mit benutzerdefiniertem Trennzeichen**
 

@@ -13,7 +13,7 @@ Sie können GridJs problemlos auf dem Mobilgerät verwenden.
 
 GridJs passt sich dem mobilen Bildschirm an.
 
-Führen Sie die [Demo von GridJs](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "Demo von GridJs ") aus
+Führen Sie die [Demo von GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "Demo von GridJs") aus
 
 Sie müssen über die IP-Weise auf der mobilen Endgerätseite zugreifen http://127.0.0.1:2022 . 
 

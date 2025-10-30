@@ -20,7 +20,7 @@ Cliente Linguaggio di definizione del report||RDLC|| |
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)| Salva il documento in ODS (OpenDocument Spreadsheet).| | {{< emoticons/tick >}} |
 |SpreadsheetML|Salva il documento in un file XML di Excel 2003.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Salva il documento in un file XPS| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Rappresenta un documento di markdown.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)| Rappresenta un documento markdown.| {{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Salva il documento in un file EMF| |{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Salva il documento in un file DIF| |{{< emoticons/tick >}}|
 |[JPG](https://docs.fileformat.com/image/jpeg/)|Salva il documento in un file JPG| |{{< emoticons/tick >}}|

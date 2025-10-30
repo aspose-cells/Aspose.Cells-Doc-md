@@ -17,3 +17,4 @@ Das Einsetzen von Daten in die Folge A1, B1, A2, B2 ist schneller als A1, A2, B1
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-populate-data-first-by-row-then-by-column.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

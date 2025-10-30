@@ -31,3 +31,4 @@ Una vez que hayas agregado el control ActiveX dentro de la colección de formas,
 El siguiente código de ejemplo agrega un control ActiveX de Botón de Alternancia usando Aspose.Cells para Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-AddActiveXControls-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

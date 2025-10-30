@@ -3,7 +3,7 @@ title: Come gestire le date e gli orari
 type: docs
 weight: 600
 url: /it/python-net/how-to-manage-dates-and-times/
-description: Impara come gestire date e orari attraverso l API Aspose.Cells for .NET.
+description: Scopri come gestire date e orari attraverso l API Aspose.Cells per Python via .NET.
 keywords: Come gestire date e orari, Il sistema di data 1900, Il sistema di data 1904, Imposta date e orari, Ottieni date e orari, Gestisci date e orari, Archivia date e orari in Excel, Visualizza date e orari nelle celle.
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

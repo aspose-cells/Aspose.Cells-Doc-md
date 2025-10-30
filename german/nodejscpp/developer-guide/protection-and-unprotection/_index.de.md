@@ -34,3 +34,4 @@ Schützen Sie die Authentizität des Inhalts eines Dokuments; Sie können eine d
 - [Erkennen Sie das Dateiformat verschlüsselter Office Open XML - OOXML-Dateien](/cells/de/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Verschlüsselung von Excel-Dateien](/cells/de/nodejs-cpp/encrypting-excel-files/)
 - [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Establecer el tipo de forma de las etiquetas de datos del gráfico](/cells/es/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Mostrar el rango de celdas como las etiquetas de datos](/cells/es/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -7,6 +7,7 @@ weight: 40
 url: /es/python-net/customizing-charts/
 ---
 
+
 ## **Creación de gráficos personalizados**
 
 Hasta ahora, cuando hemos hablado de gráficos, hemos visto gráficos estándar que tienen sus configuraciones de formato predeterminadas. Solo definimos la fuente de datos, configuramos algunas propiedades, y el gráfico se crea con su formato predeterminado. Pero las API de Aspose.Cells para Python via .NET también admiten la creación de gráficos personalizados que permiten a los desarrolladores crear gráficos con sus propias configuraciones de formato.
@@ -24,3 +25,4 @@ El código de ejemplo a continuación demuestra cómo crear gráficos personaliz
 Actualmente, Aspose.Cells para Python via .NET solo admite gráficos personalizados que combinan gráficos de pastel, línea, columna y columna apilada, pero en futuras versiones se admitirá más variedad de gráficos.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

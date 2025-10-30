@@ -40,3 +40,4 @@ Aspose.Cells consente ai programmatori di accedere all'intervallo di visualizzaz
 È possibile accedere all'intervallo di visualizzazione massimo di un foglio di lavoro utilizzando il metodo [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) della raccolta [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -81,3 +81,4 @@ Il [file di output](101089316.xlsx) generato dal frammento di codice seguente è
 
 ## **Argomenti avanzati**
 - [Aggiungi WordArt Watermark al grafico](/cells/it/python-net/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="python-net" >}}

@@ -31,3 +31,4 @@ Este ejemplo muestra cómo:
 1. Establecer el borde externo del rango.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-set-border.py" >}}
+{{< app/cells/assistant language="python-net" >}}

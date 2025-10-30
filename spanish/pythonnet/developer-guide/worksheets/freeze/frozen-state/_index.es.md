@@ -22,3 +22,4 @@ y obtenga filas y columnas bloqueadas con el método [**Worksheet.get_freezed_pa
 3. Obtiene las filas y columnas bloqueadas
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

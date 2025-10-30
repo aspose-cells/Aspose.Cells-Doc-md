@@ -116,3 +116,4 @@ workbook.save("html.html", saveOptions);
 
 Ecco il [file excel di origine](Book1.xlsx).  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

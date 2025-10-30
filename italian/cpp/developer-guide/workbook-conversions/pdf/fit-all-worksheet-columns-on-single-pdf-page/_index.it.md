@@ -63,3 +63,4 @@ Quando un dato foglio di lavoro ha molte colonne, il file PDF generato potrebbe 
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

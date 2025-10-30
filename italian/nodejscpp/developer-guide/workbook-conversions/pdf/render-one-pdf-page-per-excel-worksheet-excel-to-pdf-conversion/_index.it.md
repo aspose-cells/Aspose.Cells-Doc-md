@@ -42,3 +42,4 @@ Se il foglio di calcolo contiene formule, è meglio chiamare [Workbook.calculate
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

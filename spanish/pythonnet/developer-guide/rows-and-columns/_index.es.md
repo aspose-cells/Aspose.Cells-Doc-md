@@ -77,3 +77,4 @@ Para establecer el mismo ancho de columna para todas las columnas en la hoja de 
 - [Insertar y Eliminar Filas y Columnas de un archivo de Excel](/cells/es/python-net/inserting-and-deleting-rows-and-columns/)
 - [Eliminar filas duplicadas en una hoja de cálculo](/cells/es/python-net/remove-duplicate-rows-in-a-worksheet/)
 - [Actualizar referencias en otras hojas de cálculo al eliminar columnas y filas en blanco en una hoja de cálculo](/cells/es/python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+{{< app/cells/assistant language="python-net" >}}

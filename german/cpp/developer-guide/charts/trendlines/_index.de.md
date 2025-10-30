@@ -65,3 +65,4 @@ Dies ist die Konsolenausgabe des obigen Beispiels.
 Equation Text: y = 8.1333x + 5
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

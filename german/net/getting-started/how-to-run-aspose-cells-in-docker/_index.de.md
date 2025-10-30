@@ -210,6 +210,15 @@ docker build -t actest .
 docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
+## Empfohlene Lösung
+
+Für die .NET6-Plattformen (oder später) gibt es im Vergleich zu früheren Plattformen (.netcore31 oder früher) einen wichtigen Unterschied in Bezug auf die Grafikbibliothek. 
+In diesem offiziellen [Microsoft-Dokument](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only) wird erklärt, dass die Grafikbibliothek "System.Drawing.Common" für .NET6 oder spätere Versionen nur auf Windows unterstützt wird, und es werden Empfehlungen zur Ersetzung der Grafikbibliothek gegeben.
+
+Daher bietet Aspose.Cells eine Lösung, die auf der SkiaSharp-Grafikbibliothek auf Nicht-Windows-Plattformen basiert. Wir empfehlen die Verwendung von SkiaSharp als Bibliothek auf macOS, was auch bedeutet, dass keine libgdiplus installiert werden muss.
+
+Für Informationen zur Installation von Aspose.Cells auf Nicht-Windows-Plattformen und zur Verwendung von SkiaSharp als Grafikbibliothek, siehe den folgenden Artikel:
+[So verwenden Sie Aspose.Cells für .Net6](https://docs.aspose.com/cells/net/how-to-run-aspose-cells-for-net6/)
 
 ## Siehe auch
 

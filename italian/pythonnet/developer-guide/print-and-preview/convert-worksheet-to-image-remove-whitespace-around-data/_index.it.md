@@ -21,3 +21,4 @@ Il seguente frammento di codice rimuove gli spazi vuoti intorno ai dati nell'imm
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-RemoveWhitespaceAroundData-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

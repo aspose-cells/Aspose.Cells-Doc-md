@@ -65,3 +65,4 @@ La clase [**PivotFieldCollection**](https://reference.aspose.com/cells/python-ne
 El ejemplo de código a continuación muestra cómo borrar todos los campos de tabla dinámica en un área de datos.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

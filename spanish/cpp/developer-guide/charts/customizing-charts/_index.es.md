@@ -80,3 +80,4 @@ int main()
 Actualmente, Aspose.Cells solo soporta gráficos personalizados que combinan gráficos de pastel, línea, columna y apilados, pero en futuras versiones se soportarán más gráficos.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

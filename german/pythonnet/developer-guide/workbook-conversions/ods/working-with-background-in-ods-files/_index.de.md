@@ -46,3 +46,4 @@ Aspose.Cells für Python via .NET bietet die [**OdsPageBackground**](https://re
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSGraphicBackground-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

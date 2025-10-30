@@ -102,3 +102,4 @@ int main()
 ## **Erweiterte Themen**
 - [Trennzeichen für leere Zeilen beim Exportieren von Tabellenkalkulationen im CSV-Format beibehalten](/cells/de/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Führende leere Zeilen und Spalten beim Export von Tabellenkalkulationen in das CSV-Format abschneiden](/cells/de/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

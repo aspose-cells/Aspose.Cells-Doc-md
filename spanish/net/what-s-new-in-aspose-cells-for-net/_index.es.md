@@ -8,14 +8,67 @@ url: /es/net/what-s-new-in-aspose-cells-for-net/
 
 Esta página describe las nuevas características más interesantes de Aspose.Cells introducidas en versiones recientes.
 
+## Aspose.Cells for .NET 25.10
+* Proporcionar opción para determinar cómo mostrar dígitos significativos para valores numéricos
+* Soporte para procesar celdas exportadas con ExportTableOptions personalizado cuando ExportAsString sea verdadero
+* Soporte para analizar fechas y horas con el calendario de la Realeza Japonesa
+* Soporte para actualizar fórmulas de matriz dinámicas por defecto al calcular fórmulas para el Libro de trabajo
+* Mejorar la compatibilidad con la biblioteca PdfBox para el archivo pdf generado al convertir a pdf
+* Soporte para calcular estilos en tablas dinámicas al renderizar el rango de la tabla dinámica como imagen
+* Exportar gráficos avanzados de Excel 2016 a docx
+* Soporte para rellenar comentarios en una celda usando Marcadores inteligentes
+
+## Aspose.Cells for .NET 25.9
+* Soporte para las funciones WRAPCOLS, WRAPROWS
+* Soporte para Selectores de Variación de fuente al convertir a xps
+* Soporte para Selectores de Variación de fuente al convertir a svg con fuente incrustada
+* Soporte para incrustar fuentes al convertir archivo a html
+* Soporte para formato de archivo FlatOPC
+* Soporte para gráficos editables y objetos incrustados (objeto ole) en archivo pptx
+* Soporte para marcadores inteligentes de hoja de trabajo Maestro-Detalle
+* Soporte para marcador inteligente para hoja de trabajo repetida
+
+## Aspose.Cells for .NET 25.8
+* Soporte para las nuevas funciones de Office 365: EXPAND, REDUCE, COT, COTH
+* Soporte para selectores de variación de fuente al guardar pdf
+* Soporte para preservar filas congeladas al guardar HTML
+* Soporte para variables en fórmulas y parámetro "if" para marcador inteligente
+* Soporte para marcador inteligente de rango para procesar fuentes de datos anidados
+* Soporte para leer imágenes codificadas en base64 y referencias de enlaces durante la importación de Markdown
+* Soporte para alineación y opciones de borde en formato numérico para GridJs
+* Soporte para aplicar configuración de fuente en control de cuadro de texto en JS del cliente para GridJs
+* Soporte para inserción en lote de funciones fila en el menú y por debajo del máximo de filas para GridJs
+* Soporte para ajuste automático de texto en GridJs
+
+## Aspose.Cells for .NET 25.7
+* Soporte para nuevas funciones en fórmula: TAKE, ISOMITTED
+* Soporte para variables en la plantilla de Excel para marcador inteligente
+* Soporte para exportar imágenes flotantes a Numbers
+* Soporte para usar caché de archivos para conjuntos de datos de celdas grandes para reducir el uso de memoria
+
+## Aspose.Cells for .NET 25.6
+* Soporte para incrustar fuentes en el archivo pcl generado
+* Soporte para exportar hipervínculos y configuraciones de impresión al guardar en Numbers
+* Soporte para seleccionar la referencia de hoja para la tabla dinámica al copiar la hoja de trabajo
+
+## Aspose.Cells for .NET 25.5
+* Soporte para exportar imágenes en formato Markdown
+* Soporte para exportar cuadros de texto y formatos condicionales al formato de Numbers
+* Soporte para exportar datos de imagen incrustados y entidades al formato Docx
+* Soporte para la función de cámara de rango
+* Mejora para copiar cortadores al copiar el libro de trabajo
+* Soporte para la opción de token en solicitudes API para GridJs
+* Soporte para menús en polaco para GridJs
+* Soporte para APIs de JavaScript para insertar/eliminar filas/columnas en GridJs
+
 ## Aspose.Cells for .NET 25.4
-* Soporta especificar el conjunto de hojas a exportar a HTML
-* Soporta obtener y establecer el color de las líneas de cuadrícula de una hoja de trabajo
-* Soporta exportar gráficos editables a archivos DOCX
-* Soporta leer y escribir etiquetas de sensibilidad
-* Soporta exportar más atributos de estilo a Numbers
-* Soporta importar archivos plantilla en formato Markdown
-* Soporta detectar si alguna función personalizada es usada en fórmulas en `Cell` y `Workbook`
+* Soporte para especificar el conjunto de hojas para exportar a HTML
+* Soporte para obtener y establecer el color de las líneas de la cuadrícula de una hoja de trabajo
+* Soporte para exportar gráficos editables a archivos DOCX
+* Soporte para leer y escribir etiquetas de sensibilidad
+* Soporte para exportar más atributos de estilo a Numbers
+* Soporte para importar archivos de plantilla en formato Markdown
+* Soporte para detectar si alguna función personalizada es usada por fórmulas en `Cell` y `Workbook`
 
 ## Aspose.Cells for .NET 25.3
 * Soporte para obtener el estilo de visualización de una celda desde las celdas sin obtener el objeto de celda

@@ -18,3 +18,4 @@ Los informes basados en tablas dinámicas son útiles pero propensos a errores s
 El siguiente código demuestra esta característica accediendo a una tabla dinámica de una hoja y luego estableciendo [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) en **falso**. El archivo de tabla dinámica de ejemplo se puede descargar desde este [enlace](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -21,3 +21,4 @@ La siguiente captura de pantalla muestra el [PDF de salida](5115555.pdf) que pue
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-FilterDataWhileLoadingWorkbook-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

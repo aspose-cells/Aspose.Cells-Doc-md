@@ -31,3 +31,4 @@ Il file ODS di output generato dal codice di esempio è allegato per il tuo rife
 
 [**Output ODS File**](ConvertTableToOds_out.ods)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

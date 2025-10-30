@@ -41,3 +41,4 @@ Es fácil congelar la(s) primera(s) columna(s) con Aspose.Cells para Python via 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 Adjunto [archivo de Excel de origen de muestra](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

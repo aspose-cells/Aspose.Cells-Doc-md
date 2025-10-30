@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Wichtig zu wissen**
 
  Wenn Sie die Eigenschaften **fitToPages** (also [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) und [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) in den Seiteneinrichtungsoptionen setzen, werden die Seitenumbruch-Einstellungen beeinflusst, sodass beim Drucken des Arbeitsblatts die Seitenumbrüche zwar gesetzt, aber nicht berücksichtigt werden.
+{{< app/cells/assistant language="nodejs-cpp" >}}

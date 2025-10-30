@@ -113,3 +113,4 @@ Entfernen Sie geteilte Fenster mit der Methode [**remove_split**](https://refere
 - [Formeln anstelle von Werten im Arbeitsblatt anzeigen](/cells/de/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Fehlerüberprüfungsoptionen verwenden](/cells/de/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

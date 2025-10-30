@@ -22,3 +22,4 @@ Questa opzione può essere accessa sull'interfaccia di Excel selezionando una qu
 Per imitare la funzione di Excel di ridimensionare le forme delle etichette dei dati per adattarle al testo, le API di Aspose.Cells per Python via .NET hanno esposto la proprietà di tipo booleano [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text). Il seguente esempio di codice mostra uno scenario di utilizzo semplice della proprietà [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

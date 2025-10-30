@@ -14,3 +14,4 @@ Die Aspose.Cells für Python via .NET APIs erlauben das Hinzufügen von WordArt-
 Die Aspose.Cells für Python via .NET APIs erlauben das Sperren bestimmter Aspekte des Wasserzeichens, sodass die Benutzerinteraktion eingeschränkt oder vollständig blockiert wird. Das folgende Code-Beispiel demonstriert die Verwendung der Aspose.Cells für Python via .NET API, um die Auswahl, Bewegung, Bearbeitung und Größenänderung des Wasserzeichens durch das Erstellen einer Tabelle von Grund auf zu sperren.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

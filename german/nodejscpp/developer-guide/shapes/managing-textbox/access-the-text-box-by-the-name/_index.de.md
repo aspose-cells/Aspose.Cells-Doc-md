@@ -54,3 +54,4 @@ Hier ist die Konsolenausgabe des obigen Beispielcodes.
 {{< highlight javascript >}}
 This is MyTextBox
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

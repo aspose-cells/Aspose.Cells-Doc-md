@@ -195,3 +195,4 @@ Para crear un gráfico de líneas con marcadores de datos, [**ChartType**](https
 - [Gestionar títulos de gráficos de Excel](/cells/es/python-net/chart-and-axis-titles/)
 - [Representación de gráficos](/cells/es/python-net/chart-rendering/)
 - [Obtener texto de la ecuación de la línea de tendencia del gráfico](/cells/es/python-net/get-equation-text-of-chart-trendline/)
+{{< app/cells/assistant language="python-net" >}}

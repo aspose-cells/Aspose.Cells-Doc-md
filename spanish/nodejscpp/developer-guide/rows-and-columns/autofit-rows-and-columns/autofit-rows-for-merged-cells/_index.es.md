@@ -163,3 +163,4 @@ sheet4.autoFitRows(options4);
 // Save the Excel file
 workbook.save("out.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

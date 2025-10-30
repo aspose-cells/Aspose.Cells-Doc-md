@@ -15,3 +15,4 @@ Si prega di consultare il codice di esempio seguente. Imposta i dati e crea una 
 
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Add-filter-in-PivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

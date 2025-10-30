@@ -40,3 +40,4 @@ Sie können die Daten auch mit der Methode [**Range.copy_data**](https://referen
 - [Zeilenhöhen des Quellbereichs in den Zielbereich kopieren](/cells/de/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

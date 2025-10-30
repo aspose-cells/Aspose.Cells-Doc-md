@@ -22,3 +22,4 @@ e ottenere righe e colonne bloccate con il metodo [**Worksheet.get_freezed_panes
 3. Ottiene le righe e le colonne bloccate
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

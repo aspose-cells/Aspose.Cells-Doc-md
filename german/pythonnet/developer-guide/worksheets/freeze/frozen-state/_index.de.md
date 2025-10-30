@@ -22,3 +22,4 @@ und sperren Sie Zeilen und Spalten mit der [**Worksheet.get_freezed_panes**](htt
 3. Erhalten Sie die gesperrten Zeilen und Spalten
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Is-Worksheet-Frozen.py" >}}
+{{< app/cells/assistant language="python-net" >}}

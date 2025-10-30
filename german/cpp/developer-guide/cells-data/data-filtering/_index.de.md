@@ -644,3 +644,4 @@ int main()
 ## **Erweiterte Themen**
 - [Erweiterten Filter von Microsoft Excel anwenden, um Datensätze anhand komplexer Kriterien anzuzeigen](/cells/de/cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Alle versteckten Zeilenindizes nach Aktualisierung des AutoFilters abrufen](/cells/de/cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="cpp" >}}

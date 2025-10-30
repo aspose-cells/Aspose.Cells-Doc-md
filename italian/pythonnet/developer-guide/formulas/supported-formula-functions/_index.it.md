@@ -70,6 +70,8 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |BITOR|**Ingegneria**: Restituisce un 'Or bit a bit' di 2 numeri
 |BITRSHIFT|**Ingegneria**: Restituisce un numero di valore spostato a destra di un certo numero di bit shift_amount
 |BITXOR|**Ingegneria**: Restituisce un 'Exclusive Or bit a bit' di due numeri
+|BYCOL|**Logico**: Applica una LAMBDA a ogni colonna e restituisce un array dei risultati
+|BYROW|**Logico**: Applica una LAMBDA a ogni riga e restituisce un array dei risultati
 
 ###### **C**
 |**Funzione**|**Sommario**|
@@ -103,6 +105,8 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |CORREL|**Statistico**: Restituisce il coefficiente di correlazione tra due set di dati
 |COS|**Matematica e trigonometria**: Restituisce il coseno di un numero
 |COSH|**Matematica e trigonometria**: Restituisce il coseno iperbolico di un numero
+|COT|**Matematica e trigonometria**: Restituisce il coseno iperbolico di un numero
+|COTH|**Matematica e trigonometria**: Restituisce la cotangente di un angolo
 |COUNT|**Statistico**: Conta quanti numeri ci sono nell'elenco degli argomenti
 |COUNTA|**Statistico**: Conta quanti valori ci sono nell'elenco degli argomenti
 |COUNTBLANK|**Statistico**: Conta il numero di celle vuote all'interno di un intervallo
@@ -170,6 +174,7 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |EVEN|**Matematica e trigonometria**: Arrotonda un numero all'intero pari superiore
 |EXACT|**Testo**: Controlla se due valori di testo sono identici
 |EXP|**Matematica e trigonometria**: Restituisce e elevato alla potenza di un numero dato
+|EXPAND|**Ricerca e riferimento**: Espande o riempie un array alle dimensioni di riga e colonna specificate
 |EXPONDIST|**Compatibilità**: Restituisce la distribuzione esponenziale
 
 ###### **F**
@@ -267,6 +272,7 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |ISNONTEXT|**Informazioni**: Restituisce VERO se il valore non è testo
 |ISNUMBER|**Informazioni**: Restituisce VERO se il valore è un numero
 |ISODD|**Informazioni**: Restituisce VERO se il numero è dispari
+|ISOMITTED|**Informazioni**: Verifica se il valore in una LAMBDA è mancante e restituisce VERO o FALSO
 |ISREF|**Informazioni**: Restituisce VERO se il valore è un riferimento
 |ISTEXT|**Informazioni**: Restituisce VERO se il valore è testo
 |ISOWEEKNUM|**Data e ora**: Restituisce il numero della settimana ISO dell'anno per una data specifica
@@ -412,6 +418,7 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |RANK|**Compatibilità**: Restituisce il rango di un numero in un elenco di numeri
 |RATE|**Finanziario**: Restituisce il tasso di interesse per periodo di un'annuità
 |RECEIVED|**Finanziario**: Restituisce l'importo ricevuto al momento della scadenza per un titolo completamente investito
+|REDUCE|**Logico**: Riduce un array a un valore accumulato applicando una LAMBDA a ogni valore e restituendo il valore totale nell’accumulatore
 |REPLACE|**Testo**: Sostituisce i caratteri all'interno del testo
 |REPLACEB|**Testo**: Sostituisce i caratteri all'interno del testo
 |REPT|**Testo**: Ripete il testo un numero dato di volte
@@ -475,6 +482,7 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |T|**Testo**: Converte i suoi argomenti in testo
 |TAN|**Matematica e trigonometria**: Restituisce la tangente di un numero
 |TANH|**Matematica e trigonometria**: Restituisce la tangente iperbolica di un numero
+|TAKE|**Ricerca e riferimento**: Restituisce un numero specifico di righe o colonne contigue dall'inizio o dalla fine di un array
 |TBILLEQ|**Finanza**: Restituisce il rendimento equivalente del rendimento di un titolo di stato
 |TBILLPRICE|**Finanza**: Restituisce il prezzo per 100 dollari di valore nominale per un titolo di stato
 |TBILLYIELD|**Finanza**: Restituisce il rendimento per un titolo di stato
@@ -536,13 +544,17 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |WEIBULL.DIST|**Statistiche**: Restituisce la distribuzione di Weibull
 |WORKDAY|**Data e ora**: Restituisce il numero seriale della data prima o dopo un numero specificato di giorni lavorativi
 |WORKDAY.INTL|**Data e ora**: Restituisce il numero seriale della data prima o dopo un numero specificato di giorni lavorativi utilizzando parametri per indicare quali e quanti giorni sono festivi
+|WRAPCOLS|**Ricerca e riferimento**: Impacchetta la riga o la colonna di valori forniti in colonne dopo un numero specificato di elementi
+|WRAPROWS|**Ricerca e riferimento**: Impacchetta la riga o la colonna di valori forniti in righe dopo un numero specificato di elementi
 
 ###### **X**
 |**Funzione**|**Sommario**|
 | :- | :- |
-|XIRR|**Finanziario**: Restituisce il tasso interno di rendimento per un programma di flussi di cassa che non è necessariamente periodico
+|XIRR|**Finanza**: Restituisce il tasso interno di rendimento di un piano di flussi di cassa non necessariamente periodici.
 |XLOOKUP|**Ricerca e riferimento**: Cerca un intervallo o un array e restituisce un elemento corrispondente al primo match che trova. Se non esiste un match, XLOOKUP può restituire il match più vicino (approssimativo) 
-|XNPV|**Finanziario**: Restituisce il valore attuale netto per un programma di flussi di cassa che non è necessariamente periodico
+|XMATCH|**Ricerca e riferimento**: Restituisce la posizione relativa di un elemento in un array o intervallo di celle. 
+|XNPV|**Finanza**: Restituisce il valore attuale netto di un piano di flussi di cassa non necessariamente periodici.
+|XOR|**Logico**: Restituisce un OR esclusivo logico di tutti gli argomenti.
 
 ###### **Y**
 |**Funzione**|**Sommario**|
@@ -560,3 +572,4 @@ Il motore di calcolo delle formule di Aspose.Cells for Python via .NET consente 
 |ZTEST|**Compatibilità**: Restituisce il valore di probabilità a una coda di un test z
 
 
+{{< app/cells/assistant language="python-net" >}}

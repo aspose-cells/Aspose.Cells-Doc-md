@@ -64,3 +64,4 @@ int main()
 Für Szenarien, bei denen immer aktualisierte Bilder von einer URL erforderlich sind, verwenden Sie die in [Verknüpftes Bild von Webadresse einfügen] beschriebene Methode. Dieser Ansatz lädt das Bild jedes Mal, wenn das Arbeitsblatt geöffnet wird, von der URL.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

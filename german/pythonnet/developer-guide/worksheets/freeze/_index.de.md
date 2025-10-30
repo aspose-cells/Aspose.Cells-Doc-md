@@ -40,3 +40,4 @@ Es ist einfach, Scheiben mit Aspose.Cells für Python via .NET einzufrieren. Bit
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Anbei [Beispielquelle Excel-Datei](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

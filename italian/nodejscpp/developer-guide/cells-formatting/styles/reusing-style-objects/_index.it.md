@@ -25,3 +25,4 @@ Per applicare una formattazione a un'ampia gamma di celle in un foglio di lavoro
 Poiché il metodo [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) utilizza molto meno memoria, ed è più efficiente, il vecchio metodo Cell.style che consumava molta memoria inutile è stato rimosso con il rilascio di Aspose.Cells 7.1.0.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

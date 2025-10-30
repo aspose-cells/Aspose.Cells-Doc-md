@@ -105,6 +105,8 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |CORREL|**Estadístico**: Devuelve el coeficiente de correlación entre dos conjuntos de datos
 |COS|**Matemáticas y trigonometría**: Devuelve el coseno de un número
 |COSH|**Matemáticas y trigonometría**: Devuelve el coseno hiperbólico de un número
+|COT|**Matemáticas y trigonometría**: Devuelve el coseno hiperbólico de un número
+|COTH|**Matemáticas y trigonometría**: Devuelve la cotangente de un ángulo
 |COUNT|**Estadístico**: Cuenta cuántos números hay en la lista de argumentos
 |COUNTA|**Estadístico**: Cuenta cuántos valores hay en la lista de argumentos
 |COUNTBLANK|**Estadístico**: Cuenta el número de celdas vacías dentro de un rango
@@ -172,6 +174,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |EVEN|**Matemáticas y trigonometría**: Redondea un número al siguiente número entero par
 |EXACT|**Texto**: Comprueba si dos valores de texto son idénticos
 |EXP|**Matemáticas y trigonometría**: Devuelve e elevado a la potencia de un número dado
+|EXPAND|**Búsqueda y referencia**: Expande o rellena una matriz a las dimensiones de fila y columna especificadas
 |EXPONDIST|**Compatibilidad**: Devuelve la distribución exponencial
 
 ###### **F**
@@ -269,6 +272,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |ISNONTEXT|**Información**: Devuelve VERDADERO si el valor no es texto
 |ISNUMBER|**Información**: Devuelve VERDADERO si el valor es un número
 |ISODD|**Información**: Devuelve VERDADERO si el número es impar
+|ISOMITTED|**Información**: Verifica si el valor en una LAMBDA falta y devuelve VERDADERO o FALSO
 |ISREF|**Información**: Devuelve VERDADERO si el valor es una referencia
 |ISTEXT|**Información**: Devuelve VERDADERO si el valor es texto
 |ISOWEEKNUM|**Fecha y hora**: Devuelve el número de la semana ISO del año para una fecha dada
@@ -414,6 +418,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |RANK|**Compatibilidad**: Devuelve el rango de un número en una lista de números
 |RATE|**Financiero**: Devuelve la tasa de interés por período de una anualidad
 |RECEIVED|**Financiero**: Devuelve la cantidad recibida al vencimiento de un valor completamente invertido
+|REDUCE|**Lógico**: Reduce una matriz a un valor acumulado aplicando una LAMBDA a cada valor y devolviendo el valor total en el acumulador
 |REPLACE|**Texto**: Reemplaza caracteres dentro del texto
 |REPLACEB|**Texto**: Reemplaza caracteres dentro del texto
 |REPT|**Texto**: Repite el texto un número dado de veces
@@ -477,6 +482,7 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |T|**Texto**: Convierte sus argumentos a texto
 |TAN|**Matemáticas y trigonometría**: Devuelve la tangente de un número
 |TANH|**Matemáticas y trigonometría**: Devuelve la tangente hiperbólica de un número
+|TAKE|**Búsqueda y referencia**: Devuelve un número especificado de filas o columnas contiguas desde el inicio o el final de una matriz
 |TBILLEQ|**Financiero**: Devuelve el rendimiento equivalente al rendimiento de un bono para un bono del Tesoro
 |TBILLPRICE|**Financiero**: Devuelve el precio por cada $100 de valor nominal para un bono del Tesoro
 |TBILLYIELD|**Financiero**: Devuelve el rendimiento para un bono del Tesoro
@@ -538,13 +544,17 @@ El motor de cálculo de fórmulas de Aspose.Cells te permite establecer, leer y 
 |WEIBULL.DIST|**Estadístico**: Devuelve la distribución de Weibull
 |WORKDAY|**Fecha y hora**: Devuelve el número de serie de la fecha antes o después de un número especificado de días laborables
 |WORKDAY.INTL|**Fecha y hora**: Devuelve el número de serie de la fecha antes o después de un número especificado de días laborables utilizando parámetros para indicar cuántos días son días festivos y cuántos son días de fin de semana
+|WRAPCOLS|**Buscar y referenciar**: Envuelve la fila o columna de valores proporcionada por columnas después de un número especificado de elementos
+|WRAPROWS|**Buscar y referenciar**: Envuelve la fila o columna de valores proporcionada por filas después de un número especificado de elementos
 
 ###### **X**
 |**Función**|**Resumen**|
 | :- | :- |
-|XIRR|**Financiero**: Devuelve la tasa interna de retorno para un cronograma de flujos de efectivo que no necesariamente es periódico
+|XIRR|**Finanzas**: Devuelve la tasa interna de rendimiento para un calendario de flujos de efectivo que no es necesariamente periódico.
 |XLOOKUP|**Búsqueda y referencia**: Busca un rango o una matriz y devuelve un elemento correspondiente a la primera coincidencia que encuentra. Si no existe una coincidencia, XLOOKUP puede devolver la coincidencia más cercana (aproximada). 
-|XNPV|**Financiero**: Devuelve el valor presente neto para un cronograma de flujos de efectivo que no necesariamente es periódico
+|XMATCH|**Búsqueda y referencia**: Devuelve la posición relativa de un elemento en una matriz o rango de celdas. 
+|XNPV|**Finanzas**: Devuelve el valor presente neto para un calendario de flujos de efectivo que no es necesariamente periódico.
+|XOR|**Lógico**: Devuelve un OR exclusivo lógico de todos los argumentos.
 
 ###### **Y**
 |**Función**|**Resumen**|

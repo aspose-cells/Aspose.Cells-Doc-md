@@ -83,3 +83,4 @@ int main()
 - [Etiqueta de datos personalizada de texto enriquecido del punto del gráfico](/cells/es/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Establecer el tipo de forma de las etiquetas de datos del gráfico](/cells/es/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Mostrar el rango de celdas como las etiquetas de datos](/cells/es/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

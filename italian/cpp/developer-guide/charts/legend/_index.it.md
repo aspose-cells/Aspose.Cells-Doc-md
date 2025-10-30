@@ -75,3 +75,4 @@ int main() {
 
 ## **Argomenti avanzati**
 - [Impostare il riempimento dell'voce della legenda del grafico su nessuna utilizzando Aspose.Cells](/cells/it/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

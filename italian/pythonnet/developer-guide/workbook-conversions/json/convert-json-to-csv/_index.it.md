@@ -16,3 +16,4 @@ Il seguente esempio di codice dimostra l'uso delle classi [**JsonLayoutOptions*
 ### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

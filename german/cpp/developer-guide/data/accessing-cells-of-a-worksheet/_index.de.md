@@ -40,3 +40,4 @@ Aspose.Cells ermöglicht es Entwicklern, auf den maximalen Anzeigebereich eines 
 Sie können den maximalen Anzeigebereich eines Arbeitsblatts mithilfe der [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/)-Methode der [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)-Sammlung abrufen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -25,3 +25,4 @@ Il seguente esempio di codice mostra come ottenere la validazione applicata a un
 ## Articoli correlati
 
 - [Convalida Dati](/cells/it/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -37,3 +37,4 @@ Después de ejecutar el código de ejemplo, se agrega una tabla dinámica a la h
 Al asignar un rango de celdas como origen de datos, el rango debe ir de arriba a la derecha. Por ejemplo, "A1:C3" es válido pero "C3:A1" no lo es.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -191,3 +191,4 @@ Sulla base dei fatti sopra menzionati, di seguito sono riportati i possibili sce
 1. Deve essere attraversato un gran numero di celle.  
 1. Si devono attraversare solo le celle/righe/colonne inizializzate.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

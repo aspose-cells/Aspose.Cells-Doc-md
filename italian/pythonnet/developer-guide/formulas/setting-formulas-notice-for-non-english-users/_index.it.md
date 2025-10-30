@@ -17,3 +17,4 @@ Ci sono due consigli che gli utenti non anglofoni devono seguire quando creano f
 1. Le formule devono essere inserite in inglese. Per esempio, utilizzare l'inglese "=SUM()" e non il tedesco "=SUMME()".
 1. Usa sempre una virgola (,) per delimitare i parametri della funzione. Per alcune opzioni di lingua o impostazioni, il delimitatore dei parametri della funzione è un punto e virgola, ma Aspose.Cells for Python via .NET utilizza lo stile inglese virgola. Ad esempio, usa "=SE (C5=0;0;C3/C4)" non "=SE(C5=0;0;C3/C4)"
 
+{{< app/cells/assistant language="python-net" >}}

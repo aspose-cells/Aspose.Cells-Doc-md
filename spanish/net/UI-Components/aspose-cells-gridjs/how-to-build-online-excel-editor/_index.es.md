@@ -25,11 +25,11 @@ Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar 
 
 ## Paso 1: Crear un Dockerfile
 
-Cree un archivo llamado `Dockerfile` en el [directorio](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/) de su proyecto. El `Dockerfile` debe contener instrucciones sobre cómo construir su imagen de Docker.
+Crea un archivo llamado `Dockerfile` en el [directorio](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/). El `Dockerfile` debe contener instrucciones sobre cómo construir tu imagen de Docker.
 
 ## Paso 2: Escribir Dockerfile para GridJs
 
-Aquí hay un ejemplo de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Dockerfile) para la demostración de GridJs con la aplicación ASP.NET Core:
+Aquí tienes un ejemplo de [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Dockerfile) para la demo de GridJs con una aplicación ASP.NET Core:
 
 ```dockerfile
 # Use the official .NET6.0 runtime as a parent image

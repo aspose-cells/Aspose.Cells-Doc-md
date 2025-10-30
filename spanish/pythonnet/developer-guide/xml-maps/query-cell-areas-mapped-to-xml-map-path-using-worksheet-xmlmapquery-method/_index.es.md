@@ -51,3 +51,4 @@ Los datos XML pueden importarse a las hojas de cálculo. A veces se requiere la 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "XmlMaps-GetXMLPathFromListObject.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

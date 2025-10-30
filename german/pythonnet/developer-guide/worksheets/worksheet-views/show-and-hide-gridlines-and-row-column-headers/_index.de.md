@@ -58,3 +58,4 @@ Ein vollständiges Beispiel unten zeigt, wie die Eigenschaft [**is_row_column_he
 Es ist auch möglich, die [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) und [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) Methoden der [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) Klasse zu verwenden, um mehrere Zeilen und Spalten sichtbar zu machen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -34,3 +34,4 @@ Il codice di esempio qui sotto crea un file XLSX da zero utilizzando l'API [**As
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-AddPictureToExcelComment-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ Al asignar un rango de celdas como origen de datos, el rango debe ir de arriba a
 - [Guardar Tabla Dinámica en archivo ODS](/cells/es/python-net/save-pivot-table-in-ods-file/)
 - [Mostrar opción de páginas de filtro de reporte](/cells/es/python-net/show-report-filter-pages-option/)
 - [Trabajar con formatos de visualización de datos del Campo de Datos en la Tabla Dinámica](/cells/es/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

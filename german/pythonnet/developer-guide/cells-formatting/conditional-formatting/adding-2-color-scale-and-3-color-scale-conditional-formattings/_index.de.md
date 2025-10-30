@@ -17,3 +17,4 @@ Der folgende Beispielcode fügt 2-Farbmuster und 3-Farbmuster Bedingte Formatier
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-AddColorScales.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

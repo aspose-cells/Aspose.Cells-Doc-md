@@ -34,3 +34,4 @@ Puedes usar las opciones de verificación de errores para convertir rápidamente
 El siguiente código de ejemplo muestra cómo deshabilitar la opción de verificación de errores de números almacenados como texto en una hoja de cálculo en el archivo de plantilla XLS usando las APIs Aspose.Cells para Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

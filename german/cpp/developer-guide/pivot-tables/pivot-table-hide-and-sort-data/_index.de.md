@@ -74,3 +74,4 @@ Die in dem Codeausschnitt verwendeten Quell- und Ausgabedateien im Excel-Format 
 [Quelldatei](96928093.xlsx)
 
 [Ausgabedatei](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

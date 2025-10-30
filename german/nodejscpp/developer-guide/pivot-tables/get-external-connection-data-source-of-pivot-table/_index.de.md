@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ ermöglicht es, die externe Verbindungsdatenque
 Die im Codeausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

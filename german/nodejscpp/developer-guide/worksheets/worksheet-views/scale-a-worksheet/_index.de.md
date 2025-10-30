@@ -93,3 +93,4 @@ workbook.save("output_scaled_percentage.xlsx");
 ```
 <br>
 <img src="2.png" width=60% />
+{{< app/cells/assistant language="nodejs-cpp" >}}

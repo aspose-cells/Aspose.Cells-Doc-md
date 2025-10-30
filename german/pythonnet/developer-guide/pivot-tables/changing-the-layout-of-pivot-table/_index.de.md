@@ -22,3 +22,4 @@ Die Aspose.Cells für Python Excel-Bibliothek bietet auch [**PivotTable.show_in_
 Der folgende Beispielcode zeigt zunächst die Pivot-Tabelle im **kompakten Formular**, dann zeigt sie die Pivot-Tabelle im **Gliederungsformular** und zuletzt zeigt sie die Pivot-Tabelle im **tabellarischen Formular**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

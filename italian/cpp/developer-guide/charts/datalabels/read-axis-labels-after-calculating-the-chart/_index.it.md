@@ -71,3 +71,4 @@ Brazil
 England
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

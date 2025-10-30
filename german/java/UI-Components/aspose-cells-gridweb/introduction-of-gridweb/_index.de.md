@@ -6,7 +6,6 @@ url: /de/java/introduction-of-gridweb/
 ---
 ## **Grundlagen von GridWeb**
 Aspose.Cells.GridWeb ist eine GUI-basierte Web-Steuerung, die in JSP-Webseiten oder jeder HTML-Seite in Java Server eingebettet werden kann. 
- 
 
 Es ist einfach und leicht zu bedienen.
 
@@ -15,12 +14,11 @@ Es hilft Ihnen dabei, schnell einen Online-Web-Editor für Tabellendateien zu er
 Es unterstützt auch den Import und Export von Spreadsheets in allen Formaten, die zu 100% mit MS Excel kompatibel sind.
 
 ## **Aspose.Cells.GridWeb - Demos**
- 
 
 Um schnell an den Start zu kommen, stellen wir eine Reihe von Codebeispielen und Demos bereit, die zeigen, wie man die Aspose.Cells.GridWeb API verwendet.
 
 Bitte laden Sie die Demos über den unten stehenden Link herunter:
-[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
+[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb)
 
 
 ## **Wie man Aspose.Cells für GridWeb Java Demos ausführt**

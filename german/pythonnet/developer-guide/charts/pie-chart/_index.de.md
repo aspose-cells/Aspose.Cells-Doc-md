@@ -43,3 +43,4 @@ Abschließend speichert der folgende Code das Diagramm im Bildformat und die Arb
 - [Datenformatierung in Diagrammen](/cells/de/python-net/data-formatting-in-charts/)
 - [Diagrammaussehen festlegen](/cells/de/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

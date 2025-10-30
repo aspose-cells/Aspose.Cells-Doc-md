@@ -66,3 +66,4 @@ Derzeit unterstützt Aspose.Cells nur benutzerdefinierte Diagramme, die Kreis-, 
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

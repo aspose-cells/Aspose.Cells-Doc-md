@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Sblocca un foglio di lavoro](/cells/it/nodejs-cpp/unprotect-a-worksheet/)  
 - [Verificare la password utilizzata per proteggere il foglio di lavoro](/cells/it/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

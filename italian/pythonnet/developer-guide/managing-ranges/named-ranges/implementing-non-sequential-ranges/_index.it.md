@@ -16,3 +16,4 @@ Normalmente, i range nominati sono rettangolari con celle continue e adiacenti t
 Il codice di esempio qui sotto mostra come creare un range nominato non sequenziale con Aspose.Cells per Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

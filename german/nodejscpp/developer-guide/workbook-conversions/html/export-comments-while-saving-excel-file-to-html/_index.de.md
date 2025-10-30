@@ -34,3 +34,4 @@ opts.setIsExportComments(true);
 const outputDir = path.join(__dirname, "output");
 wb.save(path.join(outputDir, "outputExportCommentsHTML.html"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

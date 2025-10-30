@@ -16,3 +16,4 @@ El archivo fuente de muestra se puede descargar desde el siguiente enlace:
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ReplaceTextInSmartArt-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

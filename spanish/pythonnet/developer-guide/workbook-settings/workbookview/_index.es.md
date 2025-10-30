@@ -19,7 +19,7 @@ Cuando necesite ajustar la visualización de las páginas de Excel, deberá sabe
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Cómo Controlar la Vista del Libro de Trabajo mediante Aspose.Cells for .NET**
+## **Cómo controlar la vista del libro usando Aspose.Cells para Python via .NET**
 Este ejemplo muestra cómo:
 
 1. Crear un libro de trabajo.
@@ -33,3 +33,4 @@ Vista previa del archivo resultante:
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -286,3 +286,4 @@ sheet.protect(AsposeCells.ProtectionType.All);
 // Save the Excel file
 book.save(path.join(dataDir, "protectedrange.out.xls"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

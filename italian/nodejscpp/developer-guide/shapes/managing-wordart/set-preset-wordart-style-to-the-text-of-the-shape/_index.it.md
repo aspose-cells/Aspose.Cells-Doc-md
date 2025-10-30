@@ -41,3 +41,4 @@ fntSetting.setWordArtStyle(AsposeCells.PresetWordArtStyle.WordArtStyle3);
 // Save the workbook in xlsx format
 workbook.save(outputDir + "outputSetPresetWordArtStyle.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

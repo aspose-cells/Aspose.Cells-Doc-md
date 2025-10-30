@@ -17,3 +17,4 @@ Es gibt zwei Tipps, die Nicht-Englisch sprechende Nutzer beim Erstellen von Form
 1. Formeln müssen auf Englisch eingegeben werden. Verwenden Sie z.B. das englische "=SUM()" und nicht das deutsche "=SUMME()".
 1. Verwenden Sie immer ein Komma (,) zur Trennung der Funktionsparameter. Für einige Sprachoptionen oder Einstellungen ist das Trennzeichen für Funktionsparameter ein Semikolon, aber Aspose.Cells für Python via .NET verwendet den englischen Stil-Komma. Zum Beispiel verwenden Sie "=IF (C5=0,0,C3/C4)" anstelle von "=IF(C5=0;0;C3/C4)"
 
+{{< app/cells/assistant language="python-net" >}}

@@ -33,3 +33,4 @@ El siguiente código demuestra el uso del método [**Worksheet.shapes.add_copy**
 Para copiar controles y otros objetos de dibujo, utiliza el método [**Worksheet.shapes.add_copy**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection/add_copy/#aspose.cells.drawing.Shape-int-int-int-int) como se muestra en el ejemplo a continuación.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.py" >}}
+{{< app/cells/assistant language="python-net" >}}

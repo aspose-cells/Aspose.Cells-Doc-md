@@ -1,7 +1,7 @@
 ---
 title: Zeilen und Spalten
 type: docs
-weight: 90
+weight: 58
 url: /de/python-java/rows-and-columns/
 ---
 

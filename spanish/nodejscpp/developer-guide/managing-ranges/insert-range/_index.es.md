@@ -87,3 +87,4 @@ worksheet.getCells().insertRange(ca, AsposeCells.ShiftType.Down);
 console.log(worksheet.getCells().get("A3").getValue() === "Test");
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

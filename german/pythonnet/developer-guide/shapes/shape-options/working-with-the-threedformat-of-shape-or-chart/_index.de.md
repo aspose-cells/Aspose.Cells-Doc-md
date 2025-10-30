@@ -14,3 +14,4 @@ Das folgende Beispiel lädt die [Quelle Excel-Datei](5115419.xlsx) und greift au
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-Shape3DEffect.py" >}}
+{{< app/cells/assistant language="python-net" >}}

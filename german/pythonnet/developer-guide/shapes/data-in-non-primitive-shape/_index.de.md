@@ -22,3 +22,4 @@ Greifen Sie auf die Formdaten mithilfe der Eigenschaft [**Shape.paths**](https:/
 |![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-AccessNonPrimitiveShape-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

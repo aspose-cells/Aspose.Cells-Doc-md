@@ -96,3 +96,4 @@ int main()
 ## **Argomenti avanzati**
 - [Unisci più fogli di lavoro in un'unica scheda](/cells/it/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Unire file](/cells/it/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

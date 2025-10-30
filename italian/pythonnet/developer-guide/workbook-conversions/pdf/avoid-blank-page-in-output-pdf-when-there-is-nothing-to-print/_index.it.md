@@ -36,3 +36,4 @@ Il codice di esempio seguente crea un foglio di lavoro vuoto e lo salva come PDF
        at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

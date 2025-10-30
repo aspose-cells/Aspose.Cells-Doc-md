@@ -37,3 +37,4 @@ Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispieldatei Excel
 - [Slicer entfernen](/cells/de/python-net/removing-slicer/)
 - [Slicer rendern](/cells/de/python-net/rendering-slicer/)
 - [Slicer aktualisieren](/cells/de/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

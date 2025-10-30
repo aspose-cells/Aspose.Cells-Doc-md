@@ -32,3 +32,4 @@ Aquí, hemos preparado *código de ejemplo* para ayudarte a insertar íconos usa
 Cuando ejecute el código anterior en su proyecto, obtendrá los siguientes resultados:
 
 ![](3.png)
+{{< app/cells/assistant language="python-net" >}}

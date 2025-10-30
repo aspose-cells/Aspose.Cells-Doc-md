@@ -162,3 +162,4 @@ int main()
 
 ## **Argomenti avanzati**
 - [Rileva le celle unite in un foglio di lavoro](/cells/it/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

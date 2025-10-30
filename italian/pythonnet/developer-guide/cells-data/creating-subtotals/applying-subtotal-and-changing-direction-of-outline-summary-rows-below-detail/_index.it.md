@@ -42,3 +42,4 @@ La seguente schermata mostra il file Excel generato dal codice di esempio. Come 
 Ecco il codice di esempio per ottenere l'output mostrato sopra.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

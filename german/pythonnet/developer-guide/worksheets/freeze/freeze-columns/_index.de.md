@@ -41,3 +41,4 @@ Es ist einfach, die erste(n) Spalte(n) mit Aspose.Cells für Python via .NET zu 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 Anbei [Beispielquelle Excel-Datei](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

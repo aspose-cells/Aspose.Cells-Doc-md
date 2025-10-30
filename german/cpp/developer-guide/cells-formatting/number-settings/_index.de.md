@@ -170,3 +170,4 @@ Wenn Sie die Eigenschaft [**Custom**](https://reference.aspose.com/cells/cpp/asp
 - [Benutzerdefiniertes Datumsformatmuster g und ge mm dd anzeigen](/cells/de/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Benutzerdefinierte Dezimal- und Gruppentrennzeichen für Arbeitsmappe festlegen](/cells/de/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Benutzerdefiniertes DBNum-Formatmusterformat festlegen](/cells/de/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

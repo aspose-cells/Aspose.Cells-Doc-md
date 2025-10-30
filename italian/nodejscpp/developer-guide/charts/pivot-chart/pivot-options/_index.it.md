@@ -46,3 +46,4 @@ workbook.save(path.join(dataDir, "HideZoneFilter.xlsx"));
 Con il codice di esempio sopra, è possibile controllare il file di risultato con l'effetto seguente, come mostrato nella figura:
 
 **![Output](Output.png)**
+{{< app/cells/assistant language="nodejs-cpp" >}}

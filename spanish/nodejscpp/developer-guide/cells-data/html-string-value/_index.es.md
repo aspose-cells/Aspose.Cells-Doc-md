@@ -27,3 +27,4 @@ El siguiente ejemplo de código le muestra cómo agregar texto enriquecido HTML 
 
 - [Mostrar Viñetas al Establecer el Valor de la Celda usando HTML](/cells/es/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [Obtener cadena HTML5 de la Celda](/cells/es/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

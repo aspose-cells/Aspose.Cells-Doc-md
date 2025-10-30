@@ -24,3 +24,4 @@ Wir können Aspose Cells verwenden, um in Excel-Dateien dynamische Diagramme zu 
 - [Dynamisches Rollendiagramm mit Aspose Cells erstellen](/cells/de/cpp/create-dynamic-rolling-chart/) 
 - [Dynamisches Bildlaufdiagramm mit Aspose Cells erstellen](/cells/de/cpp/create-dynamic-scrolling-chart/) 
 - [Dynamisches Diagramm mit Dropdown-Liste mit Aspose Cells erstellen](/cells/de/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

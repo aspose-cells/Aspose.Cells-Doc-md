@@ -90,3 +90,4 @@ In der generierten Datei können Sie auf die Bildlaufleiste zugreifen, während 
 ```
 
 Sie können versuchen, die Zahl "10" in der Zelle "Sheet1!$H$20" auf "15" zu ändern, und das dynamische Diagramm zählt die neuesten 15 Datensätze. Wir haben erfolgreich ein dynamisches Scroll-Diagramm mit Aspose.Cells for Node.js via C++ erstellt.
+{{< app/cells/assistant language="nodejs-cpp" >}}

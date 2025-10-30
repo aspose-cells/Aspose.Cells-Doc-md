@@ -42,3 +42,4 @@ Der folgende Screenshot zeigt die von dem Beispielcode generierte Ausgabedatei i
 Hier ist der Beispielcode, um das oben gezeigte Ergebnis zu erzielen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-ApplyingSubtotalChangeSummaryDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

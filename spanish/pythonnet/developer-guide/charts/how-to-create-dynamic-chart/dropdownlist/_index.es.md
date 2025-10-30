@@ -32,3 +32,4 @@ En el archivo generado, el gráfico contará dinámicamente los datos para el me
 ```
 
 Puedes intentar cambiar el valor de la lista desplegable en la celda "Sheet1!$A$10", y verás el cambio dinámico del gráfico. Ahora hemos creado un gráfico dinámico con lista desplegable usando Aspose.Cells para Python via .NET con éxito.
+{{< app/cells/assistant language="python-net" >}}

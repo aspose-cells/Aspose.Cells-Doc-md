@@ -151,3 +151,4 @@ int main()
 ## **Argomenti avanzati**
 - [Ordina dati nella colonna con elenco di ordinamenti personalizzati](/cells/it/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifica dell'avviso di ordinamento durante l'ordinamento dei dati](/cells/it/cpp/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="cpp" >}}

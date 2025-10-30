@@ -45,3 +45,4 @@ Quando il codice precedente viene eseguito, la formattazione condizionale viene 
 
 Quando il codice precedente viene eseguito, la formattazione condizionale viene applicata alla cella “B3” nel primo foglio di lavoro del file di output (output.xls). La formattazione condizionale applicata dipende dalla formula che calcola il valore di “B3” come somma di B1 e B2.
 
+{{< app/cells/assistant language="python-net" >}}

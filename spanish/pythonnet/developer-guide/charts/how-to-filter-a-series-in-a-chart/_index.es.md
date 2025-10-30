@@ -58,3 +58,4 @@ Haz clic dentro de tus datos y usa **CTRL + T** o ve a la pestaña Inicio, **For
 El siguiente código de muestra carga el [archivo de Excel de muestra](TableFilters.xlsx) muestra la misma característica usando Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

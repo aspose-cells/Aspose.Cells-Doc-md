@@ -236,3 +236,4 @@ int main()
 
 ## **Erweiterte Themen**
 - [Extrahieren von Themen-Daten aus Excel-Datei](/cells/de/cpp/extract-theme-data-from-excel-file/)
+{{< app/cells/assistant language="cpp" >}}

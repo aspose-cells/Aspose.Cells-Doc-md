@@ -95,3 +95,4 @@ output_path = os.path.join(dir_path, "result.html")
 with open(output_path, "w", encoding="utf-8") as file:
     file.write(html_content)
 ```
+{{< app/cells/assistant language="python-net" >}}

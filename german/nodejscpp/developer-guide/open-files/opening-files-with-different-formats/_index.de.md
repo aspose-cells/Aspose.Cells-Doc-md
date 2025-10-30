@@ -230,3 +230,4 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleFods.fods"
 console.log("FODS file opened successfully!");
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

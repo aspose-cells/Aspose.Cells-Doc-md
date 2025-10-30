@@ -381,3 +381,4 @@ Das folgende Beispiel zeigt, wie Sie ein Gruppenfeld hinzufügen und die Steuere
 - [Aktivieren Sie ActiveX-Steuerelemente](/cells/de/python-net/add-activex-controls-using-aspose-cells/)
 - [AktiveX-Steuerung entfernen](/cells/de/python-net/remove-activex-control/)
 - [Aktualisieren Sie das ActiveX-ComboBox-Steuerelement](/cells/de/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

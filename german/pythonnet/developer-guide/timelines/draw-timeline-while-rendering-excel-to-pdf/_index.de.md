@@ -17,3 +17,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](input.xlsx), die eine
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-DrawTimelinetoPdf.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

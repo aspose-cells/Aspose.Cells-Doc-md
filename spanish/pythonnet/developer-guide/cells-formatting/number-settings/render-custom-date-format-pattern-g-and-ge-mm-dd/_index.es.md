@@ -17,3 +17,4 @@ El siguiente código de ejemplo convierte el [archivo de Excel fuente](5112361.x
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-RenderCustomDateFormatPatterngandgemmdd.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

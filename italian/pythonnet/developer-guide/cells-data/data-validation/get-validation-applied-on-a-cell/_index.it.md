@@ -24,3 +24,4 @@ Nella seguente esempio di codice, ti mostra come ottenere la convalida applicata
 ## Articoli correlati
 
 - [Convalida Dati](/cells/it/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

@@ -66,3 +66,4 @@ Especifica las propiedades [**FindOptions.setLookInType**](https://reference.asp
 - [Encontrar si el valor de la celda comienza con una comilla simple](/cells/es/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Buscar Datos usando Valores Originales](/cells/es/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

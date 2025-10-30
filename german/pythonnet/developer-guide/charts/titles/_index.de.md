@@ -33,3 +33,4 @@ Der folgende Codeausschnitt zeigt, wie Titel für Diagramme und Achsen festgeleg
 
 ## **Erweiterte Themen**
 - [Diagramm-Untertitel aus ODS-Datei lesen](/cells/de/python-net/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="python-net" >}}

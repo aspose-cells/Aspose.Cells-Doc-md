@@ -36,3 +36,4 @@ Después de crear una hoja de cálculo de diseño, use Aspose.Cells para leer la
 Además, Aspose.Cells le permite añadir [marcadores inteligentes](/cells/es/python-net/smart-markers/) a la hoja de cálculo de diseño. Los marcadores inteligentes se procesan en tiempo de ejecución utilizando el método de proceso de la clase WorkbookDesigner. Esto puede ayudarlo a escribir menos código y obtener excelentes resultados.
 
 [Obtenga más información sobre los marcadores inteligentes](/cells/es/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

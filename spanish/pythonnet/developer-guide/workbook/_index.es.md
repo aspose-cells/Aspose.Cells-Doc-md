@@ -8,3 +8,4 @@ description: Aprende cómo gestionar libros de trabajo a través de las API de A
 keywords: Cómo gestionar el libro de trabajo en C#, gestionar el libro de trabajo y las hojas de cálculo usando C#, operar el libro de trabajo y las hojas de cálculo en C#. 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

@@ -86,3 +86,4 @@ Este ejemplo demuestra cómo formatear una sola celda para mostrar números en f
 Recuerda, la cadena de formato exacta puede necesitar ajustes según tu configuración regional y los requisitos específicos de formato de contabilidad que tengas (por ejemplo, usando un símbolo de moneda diferente, mostrando más o menos decimales, etc.).
 
 
+{{< app/cells/assistant language="python-net" >}}

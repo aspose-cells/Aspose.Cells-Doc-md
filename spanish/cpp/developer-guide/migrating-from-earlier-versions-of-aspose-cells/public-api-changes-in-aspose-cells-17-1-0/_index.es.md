@@ -151,3 +151,4 @@ Con la versión Aspose.Cells for C++ 17.1.0, hemos eliminado algunos métodos qu
 - Método IWorksheet::ToString
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

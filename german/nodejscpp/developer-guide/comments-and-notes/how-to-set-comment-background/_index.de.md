@@ -81,3 +81,4 @@ const outputFilePath = path.join(dataDir, "commentwithpicture1.out.xlsx");
 workbook.save(outputFilePath, AsposeCells.SaveFormat.Xlsx);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

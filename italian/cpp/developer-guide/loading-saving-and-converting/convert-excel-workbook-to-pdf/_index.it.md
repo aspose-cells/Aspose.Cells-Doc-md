@@ -44,3 +44,4 @@ Con la classe **IPdfSaveOptions**, è possibile ottenere o impostare l'ora di cr
 Si prega di consultare il seguente codice di esempio e il suo [file PDF di output](67338371.pdf) per il riferimento.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

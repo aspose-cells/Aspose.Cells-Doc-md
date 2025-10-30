@@ -27,3 +27,4 @@ Si prega di vedere il file generato seguente con l'intervallo da A1:B5 spostato 
 
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Move-Range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

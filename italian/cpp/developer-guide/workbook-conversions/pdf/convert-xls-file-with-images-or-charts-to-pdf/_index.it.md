@@ -61,3 +61,4 @@ int main()
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) subito prima di convertirlo in PDF. In questo modo si garantisce che i valori dipendenti dalle formule siano ricalcolati e i valori corretti siano visualizzati nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

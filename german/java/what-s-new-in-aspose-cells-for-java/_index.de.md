@@ -8,14 +8,68 @@ url: /de/java/what-s-new-in-aspose-cells-for-java/
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Cells-Funktionen, die in den letzten Versionen eingeführt wurden.
 
+## Aspose.Cells for Java 25.10
+* Bieten Sie die Option, festzulegen, wie signifikante Ziffern für numerische Werte ausgegeben werden sollen
+* Unterstützung bei der Verarbeitung exportierter Zellen mit benutzerdefinierten ExportTableOptions, wenn ExportAsString auf true gesetzt ist
+* Unterstützung beim Parsen von Datums- und Uhrzeitangaben mit dem japanischen Kaiserkalender
+* Unterstützung beim automatischen Aktualisieren dynamischer Array-Formeln beim Berechnen von Formeln für die Arbeitsmappe
+* Verbesserung der Kompatibilität mit der PdfBox-Bibliothek beim Konvertieren in PDF
+* Unterstützung bei der Berechnung des Stils für Pivot-Tabellen beim Rendern des Pivot-Tabellenbereichs in ein Bild
+* Export von fortgeschrittenen Diagrammen aus Excel 2016 nach docx
+* Unterstützung beim Ausfüllen von Kommentaren in Zellen mit Smart Markers
+
+## Aspose.Cells for Java 25.9
+* Unterstützung von WRAPCOLS, WRAPROWS-Funktion
+* Unterstützung von Schriftvariationsselektoren beim Konvertieren in XPS
+* Unterstützung von Schriftvariationsselektoren beim Konvertieren nach SVG mit eingebetteter Schriftart
+* Unterstützung von Schriftarten-Embedding beim Konvertieren in HTML
+* Unterstützung des FlatOPC-Dateiformats
+* Unterstützung bearbeitbarer Diagramme und eingebetteter Objekte (OLE-Objekte) in PPTX-Dateien
+* Unterstützung von Master-Detail-Arbeitsblatt-Smart-Markern
+* Unterstützung für Smart Marker für wiederholende Arbeitsblätter
+
+## Aspose.Cells for Java 25.8
+* Unterstützung der neuen Funktionen von Office 365: EXPAND, REDUCE, COT, COTH
+* Unterstützung von Schriftvariationsselektoren beim Speichern als PDF
+* Unterstützung beim Erhalten gefrorener oberster Zeilen beim Speichern als HTML
+* Unterstützung von Variablen in Formeln und "if"-Parametern für Smart Marker
+* Unterstützung von Reihenbereich-Smart-Markern zum Verarbeiten verschachtelter Datenquellen
+* Unterstützung beim Lesen von Base64-kodierten Bildern und Linkreferenzdefinitionen während des Markdown-Imports
+* Unterstützung bei Ausrichtung und Rahmenoptionen im Zahlenformat für GridJs
+* Unterstützung bei der Anwendung von Schriftarteinstellungen im Textbox-Steuerelement in Client-JS für GridJs
+* Unterstützung bei Batch-Einfügefunktion für Zeilen im Menü und unterhalb der maximalen Zeilenzahl für GridJs
+* Unterstützung bei automatischem Zeilenumbruch in GridJs
+* Unterstützung des kollaborativen Modus für GridJs
+
+## Aspose.Cells for Java 25.7
+* Unterstützung neuer Funktionen in der Formel: TAKE, ISOMITTED
+* Unterstützung von Variablen in der Excel-Vorlage für Smart Marker
+* Unterstützung des Exports von schwebenden Bildern nach Numbers
+* Unterstützung der Verwendung des Dateien-Cache für große Zellendatensätze zur Reduzierung der Speicherkosten
+
+## Aspose.Cells for Java 25.6
+* Unterstützung beim Einbetten von Schriftarten in die generierte pcl-Datei
+* Unterstützung beim Exportieren von Hyperlinks und Druckeinstellungen beim Speichern von Numbers
+* Unterstützung der Option, den Bezug des Arbeitsblatts für Pivot-Tabellen beim Kopieren des Arbeitsblatts auszuwählen
+
+## Aspose.Cells for Java 25.5
+* Unterstützung beim Exportieren von Bildern im Markdown-Format
+* Unterstützung beim Exportieren von Textboxen und bedingter Formatierung ins Numbers-Format
+* Unterstützung beim Exportieren eingebetteter Bilder und Entity-Daten ins Docx-Format
+* Unterstützung der Kamerafunktion für Bereiche
+* Verbesserungen beim Kopieren von Slicern beim Kopieren der Arbeitsmappe
+* Unterstützung der Token-Option bei API-Anfragen für GridJs
+* Unterstützung polnischer Menüs für GridJs
+* Unterstützung der JavaScript-APIs zum Einfügen/Löschen von Zeilen/Spalten in GridJs
+
 ## Aspose.Cells for Java 25.4
-* Unterstützt die Angabe des zu exportierenden Blatt-Sets nach HTML
-* Unterstützt das Abrufen und Ändern der Gitterlinienfarbe eines Arbeitsblatts
-* Unterstützt den Export bearbeitbarer Diagramme in DOCX-Dateien
-* Unterstützt das Lesen und Schreiben von Sensitivitätskennzeichnungen
-* Unterstützt den Export weiterer Stilattribute zu Numbers
-* Unterstützt das Importieren von Vorlage-Dateien im Markdown-Format
-* Unterstützt die Erkennung, ob in `Cell` und `Workbook` benutzerdefinierte Funktionen verwendet werden
+* Unterstützung der Angabe der Blattgruppe für den Export nach HTML
+* Unterstützung beim Lesen und Setzen der Rasterlinienfarbe eines Arbeitsblatts
+* Unterstützung beim Exportieren bearbeitbarer Diagramme in DOCX-Dateien
+* Unterstützung beim Lesen und Schreiben von Sensitivitätskennzeichnungen
+* Unterstützung beim Exportieren weiterer Stilattribute nach Numbers
+* Unterstützung beim Importieren von Vorlagendateien im Markdown-Format
+* Unterstützung bei der Erkennung, ob benutzerdefinierte Funktionen in Formeln in `Cell` und `Workbook` verwendet werden
 
 ## Aspose.Cells for Java 25.3
 * Unterstützung zum Abrufen des Anzeige-Stils einer Zelle, ohne das Zellobjekt zu erhalten

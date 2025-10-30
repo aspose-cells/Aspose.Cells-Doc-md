@@ -58,3 +58,4 @@ workbook.save(path.join(dataDir, "output_out.xlsx"));
 - [Encontrar el nombre del elemento raíz del mapa XML](/cells/es/nodejs-cpp/find-the-root-element-name-of-xml-map/)
 - [Vincular celdas a elementos del mapa XML](/cells/es/nodejs-cpp/link-cells-to-xml-map-elements/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

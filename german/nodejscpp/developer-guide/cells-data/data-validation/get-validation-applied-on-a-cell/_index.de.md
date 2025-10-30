@@ -25,3 +25,4 @@ Der folgende Code zeigt, wie Validierungen auf eine Zelle angewendet werden.
 ## Verwandte Artikel
 
 - [Datenüberprüfung](/cells/de/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

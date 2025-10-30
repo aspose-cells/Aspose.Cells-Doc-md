@@ -31,3 +31,4 @@ El siguiente ejemplo demuestra cómo usarlo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-SettingSharedFormula-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

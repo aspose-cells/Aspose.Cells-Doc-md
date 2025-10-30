@@ -30,3 +30,4 @@ Der folgende Beispielcode lädt die [Beispieldatei Excel](64716820.xlsx), die ei
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

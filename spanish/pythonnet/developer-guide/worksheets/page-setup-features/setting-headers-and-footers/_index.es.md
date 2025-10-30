@@ -58,3 +58,4 @@ Después de ejecutar el código a continuación y abrir el archivo, verificar el
 1. Seleccionar la pestaña **Encabezado/Pie de página**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

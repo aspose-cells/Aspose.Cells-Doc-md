@@ -28,3 +28,4 @@ Para descifrar un archivo ODS, carga el archivo proporcionando una contraseña e
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-DecryptingODSFiles-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

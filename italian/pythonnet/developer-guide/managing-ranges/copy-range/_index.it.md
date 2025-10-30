@@ -40,3 +40,4 @@ Aspose.Cells for Python via .NET supporta l'incollaggio dell'intervallo con un t
 - [Copia l'altezza delle righe dell'intervallo di origine nell'intervallo di destinazione](/cells/it/python-net/copy-row-heights-of-source-range-to-destination-range/)
 
 
+{{< app/cells/assistant language="python-net" >}}

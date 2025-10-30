@@ -19,3 +19,4 @@ El siguiente código de muestra asigna un formato de número personalizado no v�
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-CheckCustomFormatPattern.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

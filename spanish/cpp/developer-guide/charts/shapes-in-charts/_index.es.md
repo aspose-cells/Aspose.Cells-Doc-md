@@ -281,3 +281,4 @@ int main()
 
 ## **Temas avanzados**
 - [Agregar marca de agua de WordArt al gráfico](/cells/es/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

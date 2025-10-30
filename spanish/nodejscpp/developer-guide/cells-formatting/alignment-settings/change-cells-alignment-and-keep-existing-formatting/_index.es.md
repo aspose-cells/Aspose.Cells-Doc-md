@@ -21,3 +21,4 @@ El siguiente código de ejemplo carga el [archivo de Excel de muestra](67338585.
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-ChangeCellsAlignment.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

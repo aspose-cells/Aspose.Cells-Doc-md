@@ -76,3 +76,4 @@ Ahora por favor ejecuta el siguiente ejemplo, mira cómo funciona en Aspose.Cell
 - [Crear rangos con nombre con ámbito de libro de trabajo y hoja de cálculo](/cells/es/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Buscar y reemplazar datos en un rango](/cells/es/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

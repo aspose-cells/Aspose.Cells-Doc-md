@@ -62,3 +62,4 @@ int main()
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) appena prima di renderlo in PDF. Questo assicura che i valori dipendenti dalle formule vengano ricalcolati e che i valori corretti vengano resi nel file di output.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

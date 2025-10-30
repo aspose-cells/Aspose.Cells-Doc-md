@@ -18,3 +18,4 @@ Il seguente codice di esempio salva il [file di Excel di esempio](60489769.xlsx)
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderOfficeAdd_InsWhileConvertingExcelToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

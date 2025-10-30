@@ -54,3 +54,4 @@ Unten ist die Konsolenausgabe des obigen Codes mithilfe der [Beispieldatei](5115
 Is VBA Code Project Signed: True  
 
 {{< /highlight >}}  
+{{< app/cells/assistant language="cpp" >}}

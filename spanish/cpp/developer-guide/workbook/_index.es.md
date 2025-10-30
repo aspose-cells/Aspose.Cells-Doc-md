@@ -142,3 +142,4 @@ int main() {
 
 ## **Conclusión**
 Aspose.Cells for C++ ofrece un conjunto completo de herramientas para gestionar libros y hojas de cálculo. Ya sea que necesite crear un nuevo libro, abrir uno existente o manipular hojas de cálculo, Aspose.Cells facilita trabajar con archivos de Excel mediante programación.
+{{< app/cells/assistant language="cpp" >}}

@@ -46,3 +46,4 @@ cell.setStyle(style);
 - [Riutilizzo degli oggetti Style](/cells/it/nodejs-cpp/reusing-style-objects/)
 - [Utilizzo degli stili incorporati](/cells/it/nodejs-cpp/using-built-in-styles/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

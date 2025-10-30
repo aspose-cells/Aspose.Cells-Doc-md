@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo `Workbook.CalculateFormula` subito prima di rendere il foglio di calcolo in formato PDF. Questo assicurerà che i valori dipendenti dalle formule vengano ricalcolati e vengano resi correttamente nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -64,3 +64,4 @@ int main()
 Lo screenshot seguente mostra l'output del codice di esempio precedente.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="cpp" >}}

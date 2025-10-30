@@ -281,3 +281,4 @@ int main()
 
 ## **Argomenti avanzati**
 - [Aggiungi WordArt Watermark al grafico](/cells/it/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

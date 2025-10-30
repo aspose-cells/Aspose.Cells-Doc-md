@@ -142,3 +142,4 @@ int main()
 ### Conclusione
 
 Seguendo questi passaggi, puoi formattare numeri in notazione scientifica in Aspose.Cells for C++. Ricorda che puoi personalizzare la stringa di formattazione (`"0.00E+00"`) come necessario per regolare le cifre decimali o altri aspetti della visualizzazione in notazione scientifica.
+{{< app/cells/assistant language="cpp" >}}

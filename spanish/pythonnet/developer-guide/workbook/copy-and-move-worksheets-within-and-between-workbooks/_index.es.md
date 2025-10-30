@@ -53,3 +53,4 @@ Al ejecutar el código, se copia la hoja llamada Copia en SecondWorkbook.xlsx co
 Al ejecutar el código se mueve la hoja llamada Mover de FirstWorkbook.xlsx a SecondWorkbook.xlsx con el nombre Hoja3.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.py" >}}
+{{< app/cells/assistant language="python-net" >}}

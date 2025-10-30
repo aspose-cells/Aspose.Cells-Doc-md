@@ -48,3 +48,4 @@ Das folgende Codebeispiel zeigt, wie Sie ein Arbeitsbuch als MHTML-Datei mithilf
 - [Spaltenbreite auf skalierbare Einheit wie em oder Prozent setzen.](/cells/de/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Legen Sie die Standardschriftart beim Rendern der Tabellenkalkulation in HTML fest](/cells/de/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.](/cells/de/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

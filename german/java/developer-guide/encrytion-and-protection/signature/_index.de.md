@@ -4,7 +4,7 @@ linktitle: Signatur
 type: docs
 weight: 100
 url: /de/java/assign-and-validate-digital-signatures/
-description: Digitale Signatur von Excel Dateien, Verifizierung. Um die Authentizität des Inhalts einer Excel Datei Arbeitsmappe zu schützen, können Sie mit Aspose.Cells für .Net digitale Signaturen mittels C# Codes hinzufügen.
+description: Excel Dateisignatur, Überprüfung. Um die Echtheit des Inhalts einer Excel Arbeitsmappe zu schützen, können Sie eine digitale Signatur mit Java Code hinzufügen, mit Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

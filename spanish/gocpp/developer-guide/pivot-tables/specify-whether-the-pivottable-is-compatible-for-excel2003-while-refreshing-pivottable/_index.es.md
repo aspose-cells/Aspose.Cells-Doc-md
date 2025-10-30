@@ -1,0 +1,20 @@
+---
+title: Especificar si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica con Golang a través de C++
+linktitle: Especificar compatibilidad con Excel 2003 en PivotTable
+type: docs
+weight: 80
+url: /es/go-cpp/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
+description: Aprende cómo especificar la compatibilidad de PivotTable para Excel2003 usando Aspose.Cells for C++ al actualizar la PivotTable.
+---
+
+{{% alert color="primary" %}}
+
+Aspose.Cells proporciona la propiedad [**PivotTable.IsExcel2003Compatible**](https://reference.aspose.com/cells/go-cpp/pivottable/isexcel2003compatible/) que puede utilizar para especificar si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica. Si es verdadero, una cadena debe ser menor o igual a 255 caracteres, por lo que si la cadena es mayor a 255 caracteres, se truncará. Si es falso, una cadena no tendrá la restricción mencionada anteriormente. El valor predeterminado es verdadero.
+
+{{% /alert %}}
+
+## **Especifique si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica**
+
+El siguiente código de ejemplo explica el uso de la propiedad [**PivotTable.IsExcel2003Compatible**](https://reference.aspose.com/cells/go-cpp/pivottable/isexcel2003compatible/). La cadena original tiene 383 caracteres de longitud. Pero cuando la propiedad [**PivotTable.IsExcel2003Compatible**](https://reference.aspose.com/cells/go-cpp/pivottable/isexcel2003compatible/) se establece en verdadero y se actualiza la tabla dinámica, los datos de la celda B5 de la tabla dinámica se truncan y tiene 255 caracteres de longitud. Sin embargo, cuando la propiedad [**PivotTable.IsExcel2003Compatible**](https://reference.aspose.com/cells/go-cpp/pivottable/isexcel2003compatible/) se establece en falso y se vuelve a actualizar la tabla dinámica, los datos de la celda B5 de la tabla dinámica no se truncan y permanecen con 383 caracteres de longitud. Por favor, lea los comentarios dentro del código para una mejor comprensión de esta propiedad.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyWhetherThePivottableIsCompatibleForExcel2003WhileRefreshingPivottable.go" >}}

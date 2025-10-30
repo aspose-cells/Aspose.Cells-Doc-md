@@ -26,3 +26,4 @@ Um einige Formatierungen auf einen großen Zellenbereich in einem Arbeitsblatt a
 Da der Ansatz [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) viel weniger Speicherplatz verbraucht und effizient ist, wurde die ältere Cell.Style-Eigenschaft, die unnötig viel Speicherplatz verbrauchte, mit der Veröffentlichung von Aspose.Cells 7.1.0 entfernt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

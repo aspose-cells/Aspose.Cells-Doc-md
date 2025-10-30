@@ -75,3 +75,4 @@ opts.setBookmark(bookmarkEntry);
 // Save the workbook in Pdf format with given pdf save options
 workbook.save(path.join(dataDir, "outputPdfBookmarkEntry_DestinationName.pdf"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

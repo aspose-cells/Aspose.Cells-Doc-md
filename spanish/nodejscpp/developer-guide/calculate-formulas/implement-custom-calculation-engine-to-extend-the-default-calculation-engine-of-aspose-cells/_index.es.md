@@ -96,3 +96,4 @@ Por favor, verifica la salida en consola del código de muestra anterior; el val
 [Cálculo directo de función personalizada sin escribirla en una hoja de cálculo]( /cells/es/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/ )
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

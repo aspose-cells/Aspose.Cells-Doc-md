@@ -19,3 +19,4 @@ Der folgende Beispielcode zeigt, wie eine bedingte Formatierung des Zellwerts in
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheet_1.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

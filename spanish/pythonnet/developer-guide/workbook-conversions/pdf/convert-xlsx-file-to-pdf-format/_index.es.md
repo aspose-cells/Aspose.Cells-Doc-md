@@ -51,3 +51,4 @@ Las siguientes capturas de pantalla muestran las páginas del PDF. Tenga en cuen
 |La primera hoja de trabajo **(Pronóstico de ventas)**|La segunda hoja de trabajo **(Informe de ventas)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |La tercera hoja de trabajo **(Entrada de datos)**|La última hoja de trabajo **(Imagen)**|
+{{< app/cells/assistant language="python-net" >}}

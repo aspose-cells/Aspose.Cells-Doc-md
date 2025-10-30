@@ -16,3 +16,4 @@ Manchmal müssen Sie nach bestimmten Daten in einem Bereich suchen und diese ers
 Aspose.Cells für Python via .NET bietet die Methode [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) zum Spezifizieren eines Bereichs beim Suchen von Daten. Der unten stehende Codebeispiel sucht und ersetzt Daten in einem Bereich.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

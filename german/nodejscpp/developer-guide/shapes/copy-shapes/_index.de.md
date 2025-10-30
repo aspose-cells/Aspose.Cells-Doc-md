@@ -94,3 +94,4 @@ workbook.getWorksheets().get("Result").getShapes().addCopy(shape.get(1), 10, 0, 
 // Save the Worksheet
 workbook.save(path.join(dataDir, "ControlsCopied_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

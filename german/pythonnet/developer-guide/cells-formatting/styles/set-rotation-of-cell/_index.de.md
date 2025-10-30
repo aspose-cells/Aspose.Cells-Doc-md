@@ -50,3 +50,4 @@ Bitte beachten Sie den folgenden Code, er erstellt ein Arbeitsmappenobjekt und s
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Cells-rotate-text.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

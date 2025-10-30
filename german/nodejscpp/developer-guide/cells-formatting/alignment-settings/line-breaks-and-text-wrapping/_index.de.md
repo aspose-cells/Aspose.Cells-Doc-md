@@ -25,3 +25,4 @@ Um sicherzustellen, dass der Text in einer Zelle gelesen werden kann, können ex
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

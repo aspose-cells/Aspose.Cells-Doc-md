@@ -53,3 +53,4 @@ shape4.toFrontOrBack(-2);
 const outputFilePath = path.join(dataDir, "outputToFrontOrBack.xlsx");
 workbook.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

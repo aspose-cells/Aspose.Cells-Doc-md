@@ -58,3 +58,4 @@ Worksheet page count: 1
 - [Arbeitsblatt in Grafikkontext rendern](/cells/de/nodejs-cpp/render-worksheet-to-graphic-context/)  
 - [Individuelle oder private Schriftsätze für das Rendern von Arbeitsbüchern angeben](/cells/de/nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)   
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

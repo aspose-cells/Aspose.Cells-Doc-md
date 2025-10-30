@@ -14,3 +14,4 @@ keywords: Obtener hipervínculos en rango Node.js vía C++, Obtener todos los hi
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-GetHyperlinksInRange.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

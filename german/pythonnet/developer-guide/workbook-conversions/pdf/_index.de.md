@@ -143,3 +143,4 @@ Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode [Workbook.calc
 - [Bestimmte Arbeitsblätter als PDF speichern](/cells/de/python-net/save-specified-worksheets-to-pdf/)
 - [Sichere PDF-Dokumente](/cells/de/python-net/secure-pdf-documents/)
 - [Angeben, wie Zeilenumbruch im Ausgabe-PDF und Bild erfolgen soll](/cells/de/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

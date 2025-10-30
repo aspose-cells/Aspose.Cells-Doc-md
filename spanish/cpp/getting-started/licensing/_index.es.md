@@ -48,3 +48,4 @@ El siguiente ejemplo muestra cómo cargar una licencia desde un flujo.
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

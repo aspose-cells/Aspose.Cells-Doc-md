@@ -21,3 +21,4 @@ El siguiente código de ejemplo explica cómo usar el método [**DataSorter.addK
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SortDataInColumnWithCustomSortList.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

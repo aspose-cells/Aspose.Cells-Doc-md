@@ -31,3 +31,4 @@ Di seguito sono forniti i link a alcune risorse utili che potrebbero essere nece
 - [Scarica gli esempi nel repository GitHub di Aspose.Cells for C++](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Forum di supporto gratuito Aspose.Cells for C++](https://forum.aspose.com/c/cells/9)
 - [Helpdesk di supporto a pagamento Aspose.Cells for C++](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="cpp" >}}

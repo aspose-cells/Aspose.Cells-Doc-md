@@ -60,3 +60,4 @@ int main()
 
 - [Mostrar Viñetas al Establecer el Valor de la Celda usando HTML](/cells/es/cpp/display-bullets-by-setting-cell-value-using/)
 - [Obtener cadena HTML5 de la Celda](/cells/es/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

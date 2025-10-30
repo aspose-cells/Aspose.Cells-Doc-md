@@ -67,3 +67,4 @@ Neben den oben genannten Methoden haben die Aspose.Cells für Python via .NET AP
 - [Unterstützte Schriftformate](/cells/de/python-net/supported-font-formats/)
 - [Arbeitsblatt zu Bild - Setzen des Pixelformats für das gerenderte Bild](/cells/de/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

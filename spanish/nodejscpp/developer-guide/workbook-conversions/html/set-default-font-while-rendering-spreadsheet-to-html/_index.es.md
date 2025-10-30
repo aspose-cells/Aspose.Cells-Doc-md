@@ -57,3 +57,4 @@ opts.setDefaultFontName("Times New Roman");
 wb.save(path.join(dataDir, "times_new_roman_out.htm"), opts);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

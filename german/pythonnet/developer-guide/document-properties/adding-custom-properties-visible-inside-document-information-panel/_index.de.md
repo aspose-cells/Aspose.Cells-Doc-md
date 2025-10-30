@@ -22,3 +22,4 @@ Der folgende Beispielscode fügt zwei benutzerdefinierte Eigenschaften hinzu. Di
 - [Verwendung von benutzerdefinierten XML-Teilen in Aspose.Cells](/cells/de/python-net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

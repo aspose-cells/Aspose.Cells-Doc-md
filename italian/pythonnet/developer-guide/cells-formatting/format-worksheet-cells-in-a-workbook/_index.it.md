@@ -45,3 +45,4 @@ Di seguito sono riportati i passaggi coinvolti per creare un foglio di calcolo e
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-FormatWorksheetCells-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

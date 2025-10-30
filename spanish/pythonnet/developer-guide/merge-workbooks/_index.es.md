@@ -57,3 +57,4 @@ Puede utilizar cualquier libro de trabajo de origen. Estas imágenes son solo co
 - [Combinar múltiples hojas de cálculo en una sola hoja de cálculo](/cells/es/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionar archivos](/cells/es/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

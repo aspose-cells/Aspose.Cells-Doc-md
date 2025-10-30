@@ -80,3 +80,4 @@ I programmatori possono applicare l'effetto esponente sulla font impostando la p
 - [Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro](/cells/it/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 
 
+{{< app/cells/assistant language="python-net" >}}

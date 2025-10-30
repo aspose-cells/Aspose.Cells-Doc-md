@@ -16,3 +16,4 @@ A veces es necesario buscar y reemplazar datos específicos en un rango ignorand
 Aspose.Cells for Python via .NET proporciona el método [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) para especificar un rango al buscar datos. El siguiente ejemplo de código busca y reemplaza datos en un rango.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

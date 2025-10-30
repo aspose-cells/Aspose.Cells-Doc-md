@@ -190,3 +190,4 @@ Imposta la qualità di stampa dei fogli di lavoro con la proprietà [**print_qua
 Inizia la numerazione delle pagine del foglio di lavoro utilizzando la proprietà [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) della classe [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La proprietà [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) imposta il numero di pagina della prima pagina del foglio di lavoro e le pagine successive sono numerate in ordine crescente.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

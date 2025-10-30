@@ -16,3 +16,4 @@ Aspose.Cells para Python via .NET exporta scripts de marco y propiedades del doc
 El siguiente código de muestra te permite desactivar la exportación de scripts de marco y propiedades del documento. Una vez que conviertas un libro de trabajo a HTML, el archivo de salida no contendrá ningún script de marco ni propiedades del documento.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

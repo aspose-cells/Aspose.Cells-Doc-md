@@ -22,3 +22,4 @@ Este ejemplo crea un libro de trabajo, lo llena con datos y copia solo el estilo
 1. Copiar el formato del primer rango al segundo rango.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

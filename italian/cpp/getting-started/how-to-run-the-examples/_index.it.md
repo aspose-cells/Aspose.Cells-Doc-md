@@ -24,3 +24,4 @@ Non esitate a contattarci utilizzando i nostri Forum se avete problemi nell'impo
 Se ti piace aggiungere o migliorare un esempio, ti incoraggiamo a contribuire al progetto. Tutti gli esempi e i progetti di showcase in questo repository sono open source e possono essere liberamente utilizzati nelle proprie applicazioni.
 
 Per contribuire, è possibile fare il fork del repository, modificare il codice sorgente e creare una pull request. Esamineremo le modifiche e le includeremo nel repository se trovate utili.
+{{< app/cells/assistant language="cpp" >}}

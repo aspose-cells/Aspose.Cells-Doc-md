@@ -218,3 +218,4 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 - [Imposta il commento della tabella o dell'oggetto lista all'interno del foglio di lavoro](/cells/it/nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tabelle e intervalli](/cells/it/nodejs-cpp/tables-and-ranges/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

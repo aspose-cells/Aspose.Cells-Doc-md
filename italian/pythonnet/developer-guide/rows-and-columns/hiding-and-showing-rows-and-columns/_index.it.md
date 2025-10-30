@@ -55,3 +55,4 @@ Gli sviluppatori possono nascondere più righe o colonne contemporaneamente chia
 È anche possibile utilizzare i metodi [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) e [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) della classe [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) per rendere visibili più righe e colonne.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

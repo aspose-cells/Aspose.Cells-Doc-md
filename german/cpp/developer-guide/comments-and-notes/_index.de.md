@@ -190,3 +190,4 @@ int main()
 - [Ändern der Kommentarschriftfarbe](/cells/de/cpp/how-to-change-the-comment-font-color/)
 - [Wie man den Kommentarhintergrund einstellt](/cells/de/cpp/how-to-set-comment-background/)
 - [Antwortkommentare](/cells/de/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

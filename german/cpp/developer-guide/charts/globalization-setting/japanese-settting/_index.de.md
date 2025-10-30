@@ -126,3 +126,4 @@ Nach obiger Operation können wir ein Ausgabediagrammbild mit japanischer Region
 |Legende Gesamtname|すべての|Gesamt|
 |Andere Bezeichnung|その他|Andere|
 |Serienname|シリーズ|Serie|
+{{< app/cells/assistant language="cpp" >}}

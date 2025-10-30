@@ -246,4 +246,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-Puoi trovare altro sulla nostra pagina demo di github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Puoi trovare di più sulla nostra pagina demo github https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/main/Examples.GridJs/src/main/resources/templates/index.html

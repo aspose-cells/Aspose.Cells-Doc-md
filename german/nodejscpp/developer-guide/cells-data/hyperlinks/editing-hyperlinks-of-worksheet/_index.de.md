@@ -17,3 +17,4 @@ Aspose.Cells ermöglicht es Ihnen, über die [**Worksheet.getHyperlinks()**](htt
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

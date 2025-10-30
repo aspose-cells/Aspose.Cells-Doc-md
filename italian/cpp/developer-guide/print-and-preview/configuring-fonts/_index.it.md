@@ -143,3 +143,4 @@ Oltre ai metodi sopra menzionati, le API di Aspose.Cells forniscono anche mezzi 
 - [Imposta il carattere predefinito durante il rendering del foglio elettronico in immagini](/cells/it/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Imposta la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions per dare priorità](/cells/it/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formati di carattere supportati](/cells/it/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

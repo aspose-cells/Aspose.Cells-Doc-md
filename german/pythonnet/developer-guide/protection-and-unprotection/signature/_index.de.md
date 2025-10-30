@@ -33,3 +33,4 @@ Siehe den folgenden Beispielcode, der beschreibt, wie Sie die Aufgabe mithilfe d
 - [Fügen Sie der Arbeitsmappe eine Signaturzeile hinzu](/cells/de/python-net/add-signature-line/)
 - [Unterstützung für XAdES-Signatur](/cells/de/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

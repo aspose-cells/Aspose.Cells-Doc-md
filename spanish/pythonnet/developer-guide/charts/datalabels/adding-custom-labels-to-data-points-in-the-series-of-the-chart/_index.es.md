@@ -16,3 +16,4 @@ Puede agregar etiquetas personalizadas a los puntos de datos en la serie del gr�
 El siguiente código crea un **Gráfico de dispersión conectado por líneas con marcadores de datos** y luego agrega **etiquetas personalizadas** a los **puntos de datos** en la **serie** del **gráfico**. Cada etiqueta personalizada muestra el **nombre de la serie** y el **nombre del punto**. Puede usar cualquier otro texto en su lugar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

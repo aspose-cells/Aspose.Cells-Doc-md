@@ -135,3 +135,4 @@ Das folgende Codebeispiel zeigt, wie das aktive Arbeitsblatt in PPTX exportiert 
 - [Json](/cells/de/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/de/python-net/convert-excel-to-pdf/)
 - [CSV, TSV und TXT in Excel umwandeln](/cells/de/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

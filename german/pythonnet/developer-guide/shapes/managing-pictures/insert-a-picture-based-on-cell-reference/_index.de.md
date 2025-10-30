@@ -18,3 +18,4 @@ Aspose.Cells für Python via .NET unterstützt die Anzeige des Inhalts einer Zel
 ### Codebeispiel
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertPictureCellReference-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

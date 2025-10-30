@@ -74,3 +74,4 @@ Se il foglio di lavoro contiene formule, è meglio chiamare il metodo Workbook.c
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

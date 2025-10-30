@@ -65,3 +65,4 @@ Die Methode [**clear()**](https://reference.aspose.com/cells/nodejs-cpp/pivotfie
 Das unten stehende Codebeispiel zeigt, wie man alle Pivot-Felder in einem Datenbereich löscht.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ClearPivotFields-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

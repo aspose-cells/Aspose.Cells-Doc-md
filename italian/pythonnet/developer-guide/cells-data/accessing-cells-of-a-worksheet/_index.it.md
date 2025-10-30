@@ -56,3 +56,4 @@ Aspose.Cells per Python via .NET consente ai programmatori di accedere all'inter
 È possibile accedere all'intervallo massimo di visualizzazione di un foglio di lavoro utilizzando [**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/). Il seguente codice di esempio illustra come accedere alla proprietà [**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

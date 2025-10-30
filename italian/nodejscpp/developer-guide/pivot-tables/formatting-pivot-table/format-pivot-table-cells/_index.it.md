@@ -22,3 +22,4 @@ Il seguente esempio di codice carica il [file Excel di esempio](pivot_format.xls
 
 - [Formattazione tabella pivot](/cells/it/nodejs-cpp/formatting-pivot-table/)
 - [Lavorare con i formati di visualizzazione dei dati dei campi dati nella tabella pivot](/cells/it/nodejs-cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

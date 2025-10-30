@@ -37,3 +37,4 @@ Dopo aver eseguito il codice di esempio, viene aggiunta una tabella pivot al fog
 Quando si assegna un intervallo di celle come origine dati, l'intervallo deve andare dall'angolo in alto a sinistra a quello in basso a destra. Ad esempio, "A1:C3" è valido ma "C3:A1" non lo è.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

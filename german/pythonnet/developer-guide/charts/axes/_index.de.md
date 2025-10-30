@@ -39,3 +39,4 @@ Der folgende Codeauszug demonstriert, wie die Optionen der X- und Y-Achsen festg
 - [Behandeln Sie automatische Einheiten der Diagrammachse wie Microsoft Excel](/cells/de/python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms](/cells/de/python-net/read-axis-labels-after-calculating-the-chart/)
 - [Wie man die Kategorieachse im Excel-Diagramm einstellt](/cells/de/python-net/how-to-set-category-axis/)
+{{< app/cells/assistant language="python-net" >}}

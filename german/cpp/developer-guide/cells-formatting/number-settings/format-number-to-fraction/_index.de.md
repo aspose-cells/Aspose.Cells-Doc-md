@@ -142,3 +142,4 @@ int main()
 - Aspose.Cells unterstützt eine breite Palette von Zahlenformaten, einschließlich Dezimal, Prozentsatz, Währung und mehr. Du kannst das Format an deine spezifischen Anforderungen anpassen.
 
 Wenn du diese Schritte befolgst, kannst du Zahlen in Aspose.Cells for C++ leicht als Brüche formatieren. Dies ist besonders nützlich in Finanz-, Statistik- oder Bildungsanwendungen, bei denen präzise Bruchwerte notwendig sind.
+{{< app/cells/assistant language="cpp" >}}

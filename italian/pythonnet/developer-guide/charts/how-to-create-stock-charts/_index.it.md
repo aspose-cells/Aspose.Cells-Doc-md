@@ -24,3 +24,4 @@ I grafici azionari sono un grafico specifico utilizzato per tracciare le variazi
 Il seguente set di dati mostra le informazioni di trading giornaliere per un'azione. Utilizzeremo questi dati per creare quattro tipi di grafici azionari: grafico azionario Alto-Basso-Chiuso (HLC), grafico Open-High-Low-Close (OHLC), grafico azionario Volume-Alto-Basso-Chiuso (VHLC) e grafico azionario Volume-Open-High-Low-Close (VOHLC). 
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="python-net" >}}

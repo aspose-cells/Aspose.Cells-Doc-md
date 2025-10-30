@@ -51,3 +51,4 @@ Ergebnis:
 das ist der erste Name, der erstellt wurde
 
 ` `<> + (Adj. Privat _ "Privat"
+{{< app/cells/assistant language="nodejs-cpp" >}}

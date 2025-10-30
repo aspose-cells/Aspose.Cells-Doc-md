@@ -19,3 +19,4 @@ Die im Codeausschnitt verwendeten Quell- und Ausgabe-Excel-Dateien sind als Refe
 [Quelldatei](96928093.xlsx)
 
 [Ausgabedatei](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

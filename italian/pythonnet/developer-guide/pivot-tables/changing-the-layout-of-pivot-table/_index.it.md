@@ -22,3 +22,4 @@ La libreria excel Aspose.Cells per Python fornisce anche i metodi [**PivotTable.
 Il seguente codice di esempio mostra prima la tabella pivot in **Forma compatta**, poi mostra la tabella pivot in **Forma di contorno** e infine mostra la tabella pivot in **Forma tabellare**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

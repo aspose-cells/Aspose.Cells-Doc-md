@@ -81,3 +81,4 @@ En el archivo generado, puedes seguir agregando datos en las columnas A y B, mie
 ```
 
 Puedes intentar cambiar el número "-5" por "-10" en la fórmula, y el gráfico dinámico contará los últimos 10 conjuntos de datos. Ahora hemos creado un gráfico de desplazamiento dinámico usando Aspose.Cells con éxito.
+{{< app/cells/assistant language="nodejs-cpp" >}}

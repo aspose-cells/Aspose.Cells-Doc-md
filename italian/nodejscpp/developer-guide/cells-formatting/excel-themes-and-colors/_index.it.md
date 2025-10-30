@@ -75,3 +75,4 @@ Il seguente esempio utilizza un file modello XLSX, ottiene i colori per diversi 
 ## **Argomenti avanzati**  
 - [Estrai dati tema dal file Excel](/cells/it/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

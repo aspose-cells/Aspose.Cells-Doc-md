@@ -143,3 +143,4 @@ Además de los métodos mencionados anteriormente, las APIs de Aspose.Cells tamb
 - [Establecer la fuente predeterminada al renderizar la hoja de cálculo a imágenes](/cells/es/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Establecer la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para tener prioridad](/cells/es/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formatos de fuente soportados](/cells/es/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

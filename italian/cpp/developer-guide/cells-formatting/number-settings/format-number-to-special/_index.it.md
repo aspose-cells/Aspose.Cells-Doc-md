@@ -152,3 +152,4 @@ int main()
 ### Conclusione
 
 La formattazione dei numeri in formati speciali in Aspose.Cells for C++ comporta l'impostazione del formato numerico personalizzato di uno stile di cella. Questo consente una vasta gamma di opzioni di formattazione, permettendoti di visualizzare i dati esattamente come desideri. Ricorda, la chiave per i formati personalizzati è la stringa di formato che fornisci, che decide come sarà visualizzato il numero.
+{{< app/cells/assistant language="cpp" >}}

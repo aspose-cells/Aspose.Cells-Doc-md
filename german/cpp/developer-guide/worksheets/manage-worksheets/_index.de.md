@@ -34,3 +34,4 @@ Der folgende Beispielcode zeigt, wie ein Arbeitsblatt unter Angabe seines Index 
 Das Entfernen von Arbeitsblättern anhand des Namens funktioniert gut, wenn der Name des Arbeitsblatts bekannt ist. Wenn der Name des Arbeitsblatts nicht bekannt ist, verwenden Sie eine überladene Version der Methode [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat), die den Blattindex des Arbeitsblatts anstelle seines Blattnamens entgegennimmt.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

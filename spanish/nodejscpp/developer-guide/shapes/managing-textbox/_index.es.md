@@ -44,3 +44,4 @@ Este código demuestra cómo crear y configurar un TextBox dentro de una hoja de
 Ten en cuenta que las interacciones con los cuadros de texto pueden variar según casos de uso específicos, así que consulta la documentación de Aspose.Cells for Node.js via C++ para métodos y propiedades adicionales.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

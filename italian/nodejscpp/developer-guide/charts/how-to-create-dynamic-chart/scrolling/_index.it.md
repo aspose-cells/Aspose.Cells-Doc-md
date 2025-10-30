@@ -90,3 +90,4 @@ Nel file generato, è possibile operare sulla barra di scorrimento, mentre il gr
 ```
 
 Puoi provare a cambiare il numero "10" in "15" nella cella "Sheet1!$H$20", e il grafico dinamico conterà gli ultimi 15 set di dati. Ora abbiamo creato con successo un grafico scorrevole dinamico usando Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

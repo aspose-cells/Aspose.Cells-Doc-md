@@ -16,3 +16,4 @@ Manchmal enthält Ihr HTML Zahlen wie 1234567890123456, die länger als 15 Stell
 Der folgende Beispielcode erklärt die Verwendung der [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/)-Eigenschaft. Die API importiert die Zahl so, wie sie ist, ohne sie in die exponentielle Notation umzuwandeln.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -107,3 +107,4 @@ int main()
 
 ## **Temas avanzados**
 - [Leer subtítulo del gráfico desde un archivo ODS](/cells/es/cpp/read-chart-subtitle-from-ods-file/)
+{{< app/cells/assistant language="cpp" >}}

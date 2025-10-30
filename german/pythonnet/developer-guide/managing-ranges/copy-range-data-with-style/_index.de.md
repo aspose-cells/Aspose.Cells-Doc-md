@@ -26,3 +26,4 @@ Dieses Beispiel:
 1. Kopiert Daten mit Formatierung aus dem ersten Bereich in den zweiten Bereich.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeDataWithStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

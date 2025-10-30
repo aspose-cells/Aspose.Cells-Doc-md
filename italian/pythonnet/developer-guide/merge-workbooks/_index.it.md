@@ -57,3 +57,4 @@ Puoi utilizzare qualsiasi cartella di lavoro di origine. Queste immagini sono so
 - [Unisci più fogli di lavoro in un'unica scheda](/cells/it/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Unire file](/cells/it/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

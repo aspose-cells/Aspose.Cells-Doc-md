@@ -31,3 +31,4 @@ Bitte sehen Sie sich den folgenden Code an. Es erstellt ein Arbeitsmappenobjekt 
 ## **C# Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-AutoFitRowsMergedCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

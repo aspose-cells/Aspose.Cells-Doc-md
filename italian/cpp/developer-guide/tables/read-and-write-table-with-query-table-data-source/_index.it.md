@@ -54,3 +54,4 @@ I file Excel di origine e di output sono allegati a scopo di riferimento.
 [File di origine](96928091.xls)
 
 [File di output](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

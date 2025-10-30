@@ -198,4 +198,4 @@ por ejemplo: en la acción de descarga, simplemente puedes obtenerlo desde el di
 ```
 
 Para obtener más información detallada, puedes consultar el ejemplo aquí:
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

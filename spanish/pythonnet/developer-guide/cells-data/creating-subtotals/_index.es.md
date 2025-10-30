@@ -35,3 +35,4 @@ Los fragmentos de código que siguen muestran cómo agregar subtotales a una hoj
 
 ## **Temas avanzados**
 - [Aplicar Subtotal y Cambiar la Dirección de las Filas de Resumen del Contorno por debajo del Detalle](/cells/es/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

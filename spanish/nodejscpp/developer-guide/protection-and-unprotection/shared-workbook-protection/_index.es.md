@@ -36,3 +36,4 @@ workbook.protectSharedWorkbook("1234");
 // Save the output Excel file
 workbook.save("outputProtectSharedWorkbook.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

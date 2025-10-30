@@ -44,3 +44,4 @@ int main()
 Die Ausgabedatei ODS, die durch den Beispielcode generiert wurde, ist im Anhang zu Ihrer Referenz.
 
 [**Output ODS File**](ConvertTableToOds_out.ods)
+{{< app/cells/assistant language="cpp" >}}

@@ -166,3 +166,4 @@ int main()
 
 ## **Argomenti avanzati**
 - [Copia l'altezza delle righe dell'intervallo di origine nell'intervallo di destinazione](/cells/it/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

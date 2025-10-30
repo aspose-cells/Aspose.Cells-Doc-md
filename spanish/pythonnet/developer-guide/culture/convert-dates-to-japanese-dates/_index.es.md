@@ -45,3 +45,4 @@ workbook.save(os.path.join(output_dir, "JapaneseDates.pdf"), SaveFormat.PDF)
 
 
 Nota: asegúrate de que el soporte para el idioma japonés esté habilitado en tu entorno para conversiones precisas de eras. La clase [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) y las [Opciones de Guardado en PDF](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) proporcionan la funcionalidad necesaria para esta conversión.
+{{< app/cells/assistant language="python-net" >}}

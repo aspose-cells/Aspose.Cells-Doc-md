@@ -35,3 +35,4 @@ options.setOnePagePerSheet(true);
 const outputFilePath = path.join(dataDir, "outputMINIFSAndMAXIFS.pdf");
 workbook.save(outputFilePath, options);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

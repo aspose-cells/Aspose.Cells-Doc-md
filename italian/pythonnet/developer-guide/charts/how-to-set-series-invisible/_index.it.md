@@ -49,3 +49,4 @@ Puoi ottenere il seguente [File di input](SeriesFiltered.xlsx) e [file di output
 
 Come mostrato nella figura sottostante, le prime due serie che erano visibili sono diventate invisibili nel file di output.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="python-net" >}}

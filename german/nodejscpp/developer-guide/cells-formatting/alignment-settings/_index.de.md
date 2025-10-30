@@ -133,3 +133,4 @@ Die Lese-Reihenfolge wird mit der [**Style**](https://reference.aspose.com/cells
 - [Zellenausrichtung ändern und vorhandenes Format beibehalten](/cells/de/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Zeilenumbrüche und Textumbrüche](/cells/de/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

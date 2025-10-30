@@ -73,3 +73,4 @@ Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wi
 Aspose.Cells for C++ può essere utilizzato per sviluppare applicazioni negli ambienti di sviluppo seguenti:
 * Xcode 12.5.1 o successivo
 * Clang e libc++ (che sono inclusi per default con Xcode)
+{{< app/cells/assistant language="cpp" >}}

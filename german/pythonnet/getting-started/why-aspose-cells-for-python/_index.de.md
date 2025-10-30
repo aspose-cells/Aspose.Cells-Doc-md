@@ -97,3 +97,4 @@ Beginnen wir mit praktischen Anwendungen und vergleichen Sie die drei stärksten
 In Pandas können Sie das ExcelWriter-Objekt und die to_excel()-Funktion verwenden, um Diagramme zu einer Excel-Datei hinzuzufügen. Bitte beachten Sie jedoch, dass Pandas selbst das Einbetten von Diagrammen direkt in Excel-Dateien nicht unterstützt, sondern nur Daten in Excel-Dateien schreiben kann. Um ein Diagramm hinzuzufügen, müssen Sie die openpyxl- oder xlsxwriter-Bibliothek verwenden, um Excel-Dateien zu manipulieren. Hier ist ein Beispiel für die Verwendung der xlsxwriter-Bibliothek, um einem Excel-File ein Diagramm hinzuzufügen.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

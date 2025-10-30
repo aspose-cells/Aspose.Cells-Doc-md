@@ -24,3 +24,4 @@ Manchmal müssen Sie die Breite und Höhe des Zellwerts berechnen, um den Zellwe
 ## **Erweiterte Themen**  
 - [Breite des Zellenwerts abrufen](/cells/de/nodejs-cpp/get-text-width-of-cell-value/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

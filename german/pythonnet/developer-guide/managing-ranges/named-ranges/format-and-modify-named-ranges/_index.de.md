@@ -53,3 +53,4 @@ Aspose.Cells bietet die [**Range.intersect**](https://reference.aspose.com/cells
 Aspose.Cells bietet die [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#)-Methode, um die Zellen im Bereich zusammenzuführen. Das folgende Beispiel zeigt, wie die einzelnen Zellen eines benannten Bereichs zusammengeführt werden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

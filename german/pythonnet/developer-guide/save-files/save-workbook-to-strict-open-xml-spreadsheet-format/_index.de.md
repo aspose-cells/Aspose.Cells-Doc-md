@@ -19,3 +19,4 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe und setzt den Wert der [**W
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Save-files-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -22,3 +22,4 @@ Absolute Position of this Shape is (320 , 183)
 {{< /highlight >}}
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-AbsolutePositionOfShapeInsideWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

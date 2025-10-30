@@ -97,3 +97,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 
 Wenn Sie diese Schritte befolgen, können Sie Zahlen in Aspose.Cells for Node.js via C++ leicht in Prozentsätze umwandeln. Aspose.Cells bietet eine breite Palette von Funktionen zur Manipulation von Excel-Dateien, einschließlich Zellformatierung, Arbeit mit Formeln und vielem mehr – ein mächtiges Werkzeug für Node.js-Entwickler, die mit Excel-Daten arbeiten.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

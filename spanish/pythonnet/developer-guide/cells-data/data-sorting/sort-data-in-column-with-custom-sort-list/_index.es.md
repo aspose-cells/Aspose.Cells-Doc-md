@@ -20,3 +20,4 @@ El siguiente código de ejemplo explica cómo usar el método [**DataSorter.add_
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-SortDataInColumnWithCustomSortList.py" >}}
+{{< app/cells/assistant language="python-net" >}}

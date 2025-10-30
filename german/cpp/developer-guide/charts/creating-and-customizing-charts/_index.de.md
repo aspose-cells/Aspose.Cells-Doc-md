@@ -36,3 +36,4 @@ Ein Diagramm besteht aus einer Datenreihe. Beim Erstellen eines benutzerdefinier
 Der folgende Beispielcode zeigt, wie benutzerdefinierte Diagramme erstellt werden. In diesem Beispiel verwenden wir ein Säulendiagramm für die erste Datenserie und ein Liniendiagramm für die zweite Serie. Das Ergebnis ist, dass wir ein Säulendiagramm zusammen mit einem Liniendiagramm zum Arbeitsblatt hinzufügen. Bitte sehen Sie die [Ausgabedatei Excel](66519071.xlsx) des folgenden Beispielcodes.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -53,3 +53,4 @@ Aggiungi un'immagine al foglio di lavoro chiamando il metodo [**add_picture**](h
 - [Inserisci un'immagine basata sul riferimento della cella](/cells/it/python-net/insert-a-picture-based-on-cell-reference/)
 - [Caricare un'immagine Web da un URL in un foglio di lavoro Excel](/cells/it/python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="python-net" >}}

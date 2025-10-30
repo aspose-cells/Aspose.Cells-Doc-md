@@ -36,3 +36,4 @@ Nach Erstellung eines Designer-Arbeitsblatts verwenden Sie Aspose.Cells, um das 
 Zusätzlich können Sie mit Aspose.Cells [Smart Marker](/cells/de/python-net/smart-markers/) zum Designer-Arbeitsblatt hinzufügen. Smart Marker werden zur Laufzeit mithilfe der Process-Methode der WorkbookDesigner-Klasse verarbeitet. Dies kann Ihnen helfen, weniger Code zu schreiben und dennoch ein großartiges Ergebnis zu erzielen.
 
 Erfahren Sie mehr über Smart Marker](/cells/de/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

@@ -236,3 +236,4 @@ Wenn eine Zelle zusammengeführt ist, werden die AutoFit-Methoden nicht angewend
 
 ## **Fortgeschrittene Themen**
 - [Automatisches Anpassen von Zeilen für zusammengeführte Zellen](/cells/de/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

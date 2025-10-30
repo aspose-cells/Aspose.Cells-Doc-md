@@ -308,3 +308,4 @@ Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.CalculateFormu
 - [Bestimmte Arbeitsblätter als PDF speichern](/cells/de/cpp/save-specified-worksheets-to-pdf/)
 - [Sichere PDF-Dokumente](/cells/de/cpp/secure-pdf-documents/)
 - [Angeben, wie Zeilenumbruch im Ausgabe-PDF und Bild erfolgen soll](/cells/de/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

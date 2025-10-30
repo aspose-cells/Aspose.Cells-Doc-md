@@ -50,3 +50,4 @@ Per formattare i numeri come data in Aspose.Cells per Python via .NET, puoi appl
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-date.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

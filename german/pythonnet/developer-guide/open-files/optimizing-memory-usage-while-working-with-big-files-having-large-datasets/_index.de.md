@@ -35,3 +35,4 @@ Die Standardoption, [**MemorySetting.NORMAL**](https://reference.aspose.com/cell
 1. **Einfügen & Löschen von Zellen & Zeilen**: Bitte beachten Sie, dass bei vielen Einfüge/Löschvorgängen für Zellen/Zeilen die Leistungseinbuße im *MemoryPreference*-Modus im Vergleich zum *Normal*-Modus spürbar sein wird.
 1. **Arbeiten mit verschiedenen Zelltypen**: Wenn die meisten Zellen Zeichenfolgen oder Formeln enthalten, wird der Speicherverbrauch wie im *Normal*-Modus sein, aber wenn es viele leere Zellen gibt oder Zellwerte numerisch, boolesch usw. sind, wird die Option [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/python-net/aspose.cells/memorysetting) eine bessere Leistung bieten.
 
+{{< app/cells/assistant language="python-net" >}}

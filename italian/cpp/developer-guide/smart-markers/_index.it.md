@@ -7,3 +7,4 @@ url: /it/cpp/using-smart-markers/
 description: Importazione e posizionamento intelligenti dei dati secondo i file Excel di modello con la libreria Aspose.Cells.
 ---
 
+{{< app/cells/assistant language="cpp" >}}

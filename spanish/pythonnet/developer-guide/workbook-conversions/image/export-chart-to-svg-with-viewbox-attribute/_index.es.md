@@ -36,3 +36,4 @@ Si abres el SVG del gráfico en el bloc de notas, encontrarás el atributo **vie
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ Il seguente codice di esempio utilizza il metodo [**Workbook.content_type_proper
 
 
 
+{{< app/cells/assistant language="python-net" >}}

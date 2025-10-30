@@ -121,3 +121,4 @@ int main()
 - [Slicer entfernen](/cells/de/cpp/removing-slicer/)
 - [Slicer rendern](/cells/de/cpp/rendering-slicer/)
 - [Slicer aktualisieren](/cells/de/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

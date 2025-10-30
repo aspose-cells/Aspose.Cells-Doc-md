@@ -18,3 +18,4 @@ Los informes basados en tablas dinámicas son útiles, pero propensos a errores 
 El siguiente código demuestra esta característica accediendo a una tabla dinámica de una hoja y luego estableciendo [**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-) en **falso**. El archivo de tabla dinámica de ejemplo se puede descargar desde este [enlace](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -115,3 +115,4 @@ Ecco un esempio di codice che dimostra questi passaggi:
 
 Formattare numeri come ora in Aspose.Cells per Python via .NET comporta l'impostazione di un formato numerico personalizzato per le celle in cui vuoi visualizzare il tempo. Seguendo i passaggi sopra, puoi facilmente applicare formati di ora alle celle nei tuoi file Excel usando Aspose.Cells. Ricorda, la chiave è usare la stringa di formato personalizzato corretta che corrisponde al formato di ora desiderato.
 
+{{< app/cells/assistant language="python-net" >}}

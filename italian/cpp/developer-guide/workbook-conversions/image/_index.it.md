@@ -159,3 +159,4 @@ int main()
 - [Conversione del grafico in Immagine in formato SVG](/cells/it/cpp/converting-chart-to-image-in-svg-format/)
 - [Esportare il grafico in SVG con attributo viewBox](/cells/it/cpp/export-chart-to-svg-with-viewbox-attribute/)
 - [Monitora il progresso della conversione di Excel in TIFF](/cells/it/cpp/track-conversion-progress-of-excel-to-tiff/)
+{{< app/cells/assistant language="cpp" >}}

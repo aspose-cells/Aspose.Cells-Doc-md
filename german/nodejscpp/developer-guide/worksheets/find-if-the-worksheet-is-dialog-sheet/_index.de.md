@@ -49,3 +49,4 @@ console.log("Worksheet is a Dialog Sheet.");
 Worksheet is a Dialog Sheet.
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

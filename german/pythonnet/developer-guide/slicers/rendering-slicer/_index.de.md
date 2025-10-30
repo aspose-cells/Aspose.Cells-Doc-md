@@ -16,3 +16,4 @@ Der folgende Beispielscode lädt die [Beispiel-Excel-Datei](67338479.xlsx), die 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RenderingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

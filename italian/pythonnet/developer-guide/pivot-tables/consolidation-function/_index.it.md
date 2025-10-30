@@ -37,3 +37,4 @@ Il seguente codice applica la funzione di consolidamento **MEDIA** al primo camp
 La funzione di consolidamento **CONTEGGIODISTINTO** è supportata solo da Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

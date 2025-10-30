@@ -72,3 +72,4 @@ if not os.path.exists(output_dir):
 
 workbook.save(os.path.join(output_dir, "out_SignificantDigits.xlsx"))
 ```
+{{< app/cells/assistant language="python-net" >}}

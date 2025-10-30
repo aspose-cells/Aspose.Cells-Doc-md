@@ -474,3 +474,4 @@ int main()
 ## **Argomenti avanzati**
 - [Impostare il codice di formato dei valori della serie del grafico](/cells/it/cpp/set-the-values-format-code-of-chart-series/)
 - [Imposta l'immagine come riempimento di sfondo nel grafico](/cells/it/cpp/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="cpp" >}}

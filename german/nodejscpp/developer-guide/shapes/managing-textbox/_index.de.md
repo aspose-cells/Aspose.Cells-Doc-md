@@ -44,3 +44,4 @@ Dieser Code zeigt, wie man eine TextBox in einem Excel-Arbeitsblatt erstellt und
 Beachten Sie, dass die Interaktion mit TextBoxen je nach Anwendungsfall variieren kann. Weitere Methoden und Eigenschaften finden Sie in der Dokumentation Aspose.Cells for Node.js via C++.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

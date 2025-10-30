@@ -9,9 +9,9 @@ url: /it/net/create-combo-chart/
 
 ## **Possibili Scenari di Utilizzo**
 I grafici Combo in Excel ti permettono di usufruire di questa opzione poiché puoi facilmente combinare due o più tipi di grafico per rendere i tuoi dati comprensibili. I grafici Combo sono utili quando i tuoi dati contengono molteplici tipologie di valori, inclusi prezzo e volume. Inoltre, i grafici Combo sono fattibili quando i numeri dei tuoi dati cambiano ampiamente da serie a serie.
-Prendendo il seguente set di dati come esempio, possiamo osservare che questi dati sono piuttosto simili ai dati citati in [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/). Se vogliamo visualizzare series0, che corrisponde a "Ricavo totale," come un grafico a Linee, come dovremmo procedere?
 
-![todo:image_alt_text](sample.png)
+Ora creeremo un grafico combinato colonna-linea. Prima creeremo un grafico a colonne, e poi modificheremo alcuni tipi di serie in linea per ottenere questo grafico combinato.
+
 ## **Grafico Combo**
 Dopo aver eseguito il codice qui sotto, vedrai il Grafico Combo come mostrato di seguito.
 

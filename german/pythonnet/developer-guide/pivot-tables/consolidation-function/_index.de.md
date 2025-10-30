@@ -37,3 +37,4 @@ Der folgende Code wendet die **AVERAGE**-Konsolidierungsfunktion auf das erste D
 Die DISTINCT_COUNT-Konsolidierungsfunktion wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

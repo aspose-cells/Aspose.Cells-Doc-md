@@ -17,7 +17,7 @@ Dieser Artikel demonstriert die Verwendung von Aspose.Cells for Java APIs, um dy
 
 {{% alert color="primary" %}}
 
-Excel-Tabellen werden aus der Perspektive von Aspose.Cells als "ListObjects" bezeichnet, daher werden wir den Begriff "ListObject" anstelle von "Tabelle" verwenden, um die Klarheit zu wahren. Bitte lesen Sie ausführlich, wie Sie [ListObjects erstellen](/cells/de/java/erstellen-eines-List-Objekts/) mit Aspose.Cells for .NET API.
+Excel-Tabellen werden in Aspose.Cells als ListObjects bezeichnet. Daher verwenden wir den Begriff "ListObject" statt "Tabelle" zur Klarheit. Lesen Sie im Detail, wie man [ListObjects erstellt](/cells/de/java/creating-a-list-object/) mit der API Aspose.Cells for Java.
 
 {{% /alert %}}
 

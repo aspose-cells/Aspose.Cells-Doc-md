@@ -151,3 +151,4 @@ void AddCustomLabels() {
     workbook.Save(u"output.xlsx");
 }
 ```
+{{< app/cells/assistant language="cpp" >}}

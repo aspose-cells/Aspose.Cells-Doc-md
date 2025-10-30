@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ proporciona las propiedades [**PivotTable.setDi
 
 - [Dar formato a la tabla dinámica](/cells/es/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

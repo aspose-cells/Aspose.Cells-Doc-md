@@ -24,3 +24,4 @@ El siguiente ejemplo muestra cómo renderizar un rango de páginas (3 y 4) en un
 Si la hoja de cálculo contiene fórmulas, es mejor llamar al método [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) justo antes de renderizarlo a PDF. Hacerlo asegura que los valores dependientes de fórmulas se recalculen y que los valores correctos se representen en el archivo de salida.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

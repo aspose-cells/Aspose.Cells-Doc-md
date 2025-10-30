@@ -19,3 +19,4 @@ Il seguente codice di esempio crea il workbook vuoto che ha un foglio di lavoro 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-OutputBlankPageWhenThereIsNothingToPrint-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

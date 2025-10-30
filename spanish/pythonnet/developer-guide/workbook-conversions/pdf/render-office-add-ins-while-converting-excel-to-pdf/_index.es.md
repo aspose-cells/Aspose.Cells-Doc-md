@@ -18,3 +18,4 @@ El siguiente código de ejemplo guarda el [archivo de Excel de muestra](60489769
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderOfficeAdd_InsWhileConvertingExcelToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

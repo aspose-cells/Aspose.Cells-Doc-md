@@ -22,3 +22,4 @@ Aspose.Cells per Python via .NET ti consente di leggere i sottotitoli dei grafic
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

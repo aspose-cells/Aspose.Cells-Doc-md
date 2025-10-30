@@ -47,3 +47,4 @@ Il seguente esempio ti mostrerà in dettaglio come impostare una regione localiz
 - [Come Impostare la Regione Cinese per il Grafico](/cells/it/cpp/convert-chart-to-image-for-chinese-region/)
 - [Come Impostare la Regione Giapponese per il Grafico](/cells/it/cpp/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="cpp" >}}

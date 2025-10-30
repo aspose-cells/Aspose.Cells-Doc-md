@@ -91,3 +91,4 @@ Die Palette bietet Platz für nur 56 Farben. Wenn Sie eine benutzerdefinierte Fa
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -226,3 +226,4 @@ Ein Wasserfalldiagramm zeigt einen laufenden Gesamtbetrag, wenn Werte hinzugefü
 Das Wasserfall-Diagramm wird in Aspose.Cells für Python via .NET unterstützt.
 ### **Benutzerdefinierte Diagrammtypen**
 Benutzerdefinierte Diagramme ermöglichen es Ihnen, Diagramme mit benutzerdefinierten Formatierungen zu erstellen, die auch auf andere Diagramme angewendet werden können. Hier haben wir nur die Standarddiagramme besprochen. Wenn Sie weitere Details zu benutzerdefinierten Diagrammen erfahren möchten, lesen Sie bitte den Artikel zur Erstellung von benutzerdefinierten Diagrammen, in dem beschrieben wird, wie benutzerdefinierte Diagramme erstellt werden.
+{{< app/cells/assistant language="python-net" >}}

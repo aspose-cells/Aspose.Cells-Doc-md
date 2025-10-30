@@ -13,7 +13,7 @@ keywords: excel, mobile, foglio elettronico, editor, foglio elettronico mobile, 
 
 GridJs si adatta allo schermo mobile.
 
-Esegui la [demo di GridJs](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net "demo di GridJs")
+Eseguire il [demo di GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs "demo di GridJs")
 
 È necessario accedere alla pagina tramite IP sul terminale mobile http://127.0.0.1:2022 . 
 

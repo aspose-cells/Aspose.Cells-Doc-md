@@ -18,3 +18,4 @@ Aspose.Cells para Python via .NET soporta mostrar el contenido de una celda de h
 ### Ejemplo de código
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertPictureCellReference-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

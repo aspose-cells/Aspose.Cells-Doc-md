@@ -1,5 +1,5 @@
 ---
-title: Upgrade auf Modern Aspose.Cells Komponente
+title: Upgrade von alter Aspose.Excel auf moderne Aspose.Cells Komponente
 type: docs
 weight: 70
 url: /de/net/upgrade-to-modern-aspose-cells-component/

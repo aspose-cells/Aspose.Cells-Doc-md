@@ -41,3 +41,4 @@ Le colonne fisse ti consentono di visualizzare i tuoi dati lunghi senza tenere t
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Column.py" >}}
 
 File Excel di esempio allegato (Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

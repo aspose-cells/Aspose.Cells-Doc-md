@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Bereich von Zellen in einem Arbeitsblatt verschieben](/cells/de/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Arbeitsbuch- und arbeitsblattübergreifende benannte Bereiche erstellen](/cells/de/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Suchen und Ersetzen von Daten in einem Bereich](/cells/de/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

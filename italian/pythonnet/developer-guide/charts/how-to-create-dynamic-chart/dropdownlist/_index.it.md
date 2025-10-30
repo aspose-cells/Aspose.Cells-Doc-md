@@ -32,3 +32,4 @@ Nel file generato, il grafico conterà dinamicamente i dati per il mese selezion
 ```
 
 Puoi provare a cambiare il valore della lista a discesa nella cella "Sheet1!$A$10", e vedrai il cambiamento dinamico del grafico. Ora abbiamo creato con successo un grafico dinamico con lista a discesa usando Aspose.Cells per Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

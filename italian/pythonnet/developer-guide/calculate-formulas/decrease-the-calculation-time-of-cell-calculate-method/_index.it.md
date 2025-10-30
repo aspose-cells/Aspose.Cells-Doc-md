@@ -70,3 +70,4 @@ L'output tipico quando si esegue il codice ottimizzato con il file di esempio mo
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

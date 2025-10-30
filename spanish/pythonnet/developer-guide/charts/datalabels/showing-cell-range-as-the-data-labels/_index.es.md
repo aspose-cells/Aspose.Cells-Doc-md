@@ -24,3 +24,4 @@ Para mostrar el rango de celdas como etiquetas de datos en Microsoft Excel:
 El código de ejemplo a continuación accede a las etiquetas de datos de una serie de gráficos y establece la propiedad [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) como **true** para seleccionar la opción **La etiqueta contiene - Valor de las celdas**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -1,7 +1,7 @@
 ---
 title: Formen
 type: docs
-weight: 20
+weight: 90
 url: /de/python-java/shapes/
 ---
 

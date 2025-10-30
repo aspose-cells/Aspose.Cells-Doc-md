@@ -6,3 +6,4 @@ weight: 235
 url: /de/cpp/globalization-and-localization/
 description: Erfahren, wie man mit Aspose.Cells for C++ Globalisierung und Lokalisierung handhabt, um mehrere Sprachen und regionale Einstellungen zu unterstützen.
 ---
+{{< app/cells/assistant language="cpp" >}}

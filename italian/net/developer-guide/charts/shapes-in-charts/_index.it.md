@@ -34,6 +34,14 @@ L'esempio seguente mostra come aggiungere un'etichetta al grafico. L'esempio uti
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Nota:** Questo tipo di controllo etichetta supportato solo su file XLS. Se desideri un effetto simile in un file XLSX, utilizza una delle seguenti alternative:
+
+1. Usa invece il Controllo TextBox, c'è un'alternativa simile al Controllo etichetta nei file XLSX.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) per TextBox, i file XLSX possono supportarlo.
+
+2. Aggiungi un Foglio di lavoro di tipo "SheetType.Chart" e poi aggiungi Grafico e Controllo su questo Foglio.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) per aggiungere SheetType.Chart.
+
 ## **Aggiunta del controllo TextBox al grafico**
 
 Un modo per evidenziare informazioni importanti in un report è utilizzare una casella di testo. Ad esempio, inserire del testo per evidenziare il nome dell'azienda o per indicare la regione geografica con le vendite più alte. La classe [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) fornisce un metodo chiamato [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), che viene utilizzato per aggiungere un controllo casella di testo a un grafico. Di seguito è riportato l'elenco dei parametri utilizzati per il metodo:

@@ -21,3 +21,4 @@ El archivo fuente de ejemplo y los archivos de salida se pueden descargar desde 
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-ShowReportFilterPagesOption-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -81,3 +81,4 @@ int main() {
 Quando esegui il codice sopra nel tuo progetto, otterrai i seguenti risultati:
 
 ![](3.png)
+{{< app/cells/assistant language="cpp" >}}

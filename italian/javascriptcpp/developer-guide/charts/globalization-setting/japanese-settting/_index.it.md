@@ -1,0 +1,220 @@
+---
+title: Convertire il grafico in immagine per la regione giapponese con JavaScript tramite C++
+description: Impara come usare Aspose.Cells for JavaScript tramite C++ per impostare la configurazione giapponese del grafico. La nostra guida dimostrerà come configurare i grafici per supportare caratteri e formattazioni giapponesi, inclusi font, dimensioni, direzione del testo e altro.  
+keywords: Aspose.Cells for JavaScript tramite C++, grafici, configurazione giapponese, font, dimensione del font, direzione del testo, supporto.  
+linktitle: Imposta Regione Giapponese  
+type: docs  
+weight: 10  
+url: /it/javascript-cpp/convert-chart-to-image-for-japanese-region/  
+alias: [/javascript-cpp/set-japanese-configuration-for-chart/]  
+---  
+
+{{% alert color="primary" %}}  
+In questo argomento, ti mostreremo come impostare la Regione Giapponese per un grafico.  
+{{% /alert %}}  
+
+## **Definisce una classe di ereditarietà**  
+
+ Primo passo, devi definire una classe "ChartJapaneseSettings" che eredita da [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/).  
+Poi, riscrivendo le funzioni correlate, è possibile impostare il testo degli elementi del grafico nella propria lingua.  
+Esempio di codice:  
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h1>Chart Globalization - Japanese Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, Worksheet, Cell, Utils } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        // Converted class from JavaScript to browser-compatible JavaScript
+        class ChartJapaneseSettings extends AsposeCells.ChartGlobalizationSettings {
+            constructor() {
+                super();
+                // Parameterless getters converted to properties
+                this.axisTitleName = "軸タイトル";
+                this.chartTitleName = "グラフ タイトル";
+                this.legendDecreaseName = "削減";
+                this.legendIncreaseName = "ぞうか";
+                this.legendTotalName = "すべての";
+                this.otherName = "その他";
+                this.seriesName = "シリーズ";
+            }
+
+            // Getter with parameter converted to a method with lowercase first letter (no 'get' prefix)
+            axisUnitName(type) {
+                switch (type) {
+                    case AsposeCells.DisplayUnitType.None:
+                        return '';
+                    case AsposeCells.DisplayUnitType.Hundreds:
+                        return "百";
+                    case AsposeCells.DisplayUnitType.Thousands:
+                        return "千";
+                    case AsposeCells.DisplayUnitType.TenThousands:
+                        return "万";
+                    case AsposeCells.DisplayUnitType.HundredThousands:
+                        return "10万";
+                    case AsposeCells.DisplayUnitType.Millions:
+                        return "百万";
+                    case AsposeCells.DisplayUnitType.TenMillions:
+                        return "千万";
+                    case AsposeCells.DisplayUnitType.HundredMillions:
+                        return "億";
+                    case AsposeCells.DisplayUnitType.Billions:
+                        return "10億";
+                    case AsposeCells.DisplayUnitType.Trillions:
+                        return "兆";
+                    default:
+                        return '';
+                }
+            }
+        }
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file (optional for this demo).</p>';
+                return;
+            }
+
+            // No try-catch per instructions; let errors propagate
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Example usage: instantiate the ChartJapaneseSettings and demonstrate properties/methods
+            const settings = new ChartJapaneseSettings();
+
+            // Example: show axis title name and chart title name and a sample axis unit name
+            const axisTitle = settings.axisTitleName;
+            const chartTitle = settings.chartTitleName;
+            const sampleUnit = settings.axisUnitName(AsposeCells.DisplayUnitType.Thousands);
+
+            document.getElementById('result').innerHTML = `
+                <p><strong>axisTitleName:</strong> ${axisTitle}</p>
+                <p><strong>chartTitleName:</strong> ${chartTitle}</p>
+                <p><strong>axisUnitName(DisplayUnitType.Thousands):</strong> ${sampleUnit}</p>
+                <p style="color: green;">ChartJapaneseSettings instantiated successfully.</p>
+            `;
+
+            // Additionally, demonstrate opening the provided file as a Workbook (no modifications)
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Prepare a simple save to allow downloading the opened file back (unchanged)
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'output.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Resulting Excel File';
+        });
+    </script>
+</html>
+```  
+
+## **Configura Impostazione Giapponese per Grafico**  
+
+ In questo passo, utilizzerai la classe "ChartJapaneseSettings" che hai definito nel passo precedente.  
+Esempio di codice:  
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example - Chart to Image</title>
+    </head>
+    <body>
+        <h1>Chart to Image Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, Worksheet, Cell, Utils, ChartJapaneseSettings } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+
+            // Instantiating a Workbook object from the uploaded file
+            const workbook = new Workbook(new Uint8Array(arrayBuffer));
+
+            // Apply Japanese chart settings
+            workbook.settings.globalizationSettings.chartSettings = new ChartJapaneseSettings();
+
+            // Access the first chart in the first worksheet
+            const chart0 = workbook.worksheets.get(0).charts.get(0);
+
+            // Convert chart to image (PNG)
+            const imageData = chart0.toImage(SaveFormat.Png);
+            const blob = new Blob([imageData], { type: 'image/png' });
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'Output.png';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Chart Image';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">Chart converted to image successfully! Click the download link to get the image.</p>';
+        });
+    </script>
+</html>
+```
+
+Poi puoi vedere l'effetto nell'immagine di output, gli elementi nel grafico saranno resi in base alle tue impostazioni.  
+
+## **Conclusioni**  
+
+In questo esempio, se non si imposta la Regione Giapponese per un grafico, gli elementi del grafico seguenti potrebbero essere resi nella lingua predefinita, come l'inglese.  
+Dopo l'operazione sopra, possiamo ottenere un'immagine del grafico di output con la Regione Giapponese.  
+
+|**Elementi supportati**|**Valore in questo esempio**|**valore predefinito nell'ambiente inglese**|  
+| :- | :- | :- |  
+|Nome del titolo dell'asse|軸タイトル|Titolo dell'asse|  
+|Nome dell'unità dell'asse|百,千...|Centinaia, Migliaia...|  
+|Nome del titolo del grafico|グラフ タイトル|Titolo del grafico|  
+|Nome incremento legenda|ぞうか|Aumento|  
+|Nome decremento legenda|削減|Decremento|  
+|Nome totale legenda|すべての|Totale|  
+|Altro nome|その他|Altro|  
+|Nome serie|シリーズ|Serie|

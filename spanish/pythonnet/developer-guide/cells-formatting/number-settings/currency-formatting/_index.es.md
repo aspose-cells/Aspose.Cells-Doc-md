@@ -48,3 +48,4 @@ Para formatear números como moneda en la biblioteca Aspose.Cells para Python .N
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-currency.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

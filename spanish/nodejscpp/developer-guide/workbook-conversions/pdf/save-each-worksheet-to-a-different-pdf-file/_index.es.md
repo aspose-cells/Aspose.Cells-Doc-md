@@ -47,3 +47,4 @@ workbook.save(path.join(dataDir, `worksheet-${ws.getName()}.out.pdf`), pdfSaveOp
 Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) justo antes de renderizar la hoja de cálculo en formato PDF. Al hacerlo, se asegurará de que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

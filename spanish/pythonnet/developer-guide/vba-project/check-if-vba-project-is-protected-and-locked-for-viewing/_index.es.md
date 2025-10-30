@@ -25,3 +25,4 @@ Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

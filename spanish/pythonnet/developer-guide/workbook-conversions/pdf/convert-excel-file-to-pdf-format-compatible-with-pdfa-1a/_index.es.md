@@ -24,3 +24,4 @@ El siguiente código de ejemplo explica cómo convertir un archivo de Excel a un
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}
+{{< app/cells/assistant language="python-net" >}}

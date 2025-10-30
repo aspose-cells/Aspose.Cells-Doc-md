@@ -33,7 +33,7 @@ Si haces clic en **Pegar** en la barra de herramientas **Estándar** o presionas
 1. En la pestaña Inicio, haz clic en la flecha junto a **Pegar**, y luego selecciona **Pegado especial**.
 1. Selecciona las **opciones** que desees.
 
-## **Cómo copiar filas y columnas utilizando Aspose.Cells for .NET**
+## **Cómo copiar filas y columnas usando Aspose.Cells para Python via .NET**
 
 ## **Cómo copiar filas individuales**
 
@@ -98,3 +98,4 @@ Aspose.Cells ahora proporciona [**PasteOptions**](https://reference.aspose.com/c
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

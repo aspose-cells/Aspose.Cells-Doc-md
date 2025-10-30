@@ -86,3 +86,4 @@ Dieses Beispiel zeigt, wie man eine einzelne Zelle so formatiert, dass Zahlen im
 Denken Sie daran, dass der genaue Formatstring je nach Locale und den spezifischen Anforderungen an das Buchhaltungsformat angepasst werden muss (z.B. Verwendung eines anderen Währungssymbols, mehr oder weniger Dezimalstellen anzeigen usw.).
 
 
+{{< app/cells/assistant language="python-net" >}}

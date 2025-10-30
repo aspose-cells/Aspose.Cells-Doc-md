@@ -74,3 +74,4 @@ Los archivos de Excel de origen y salida utilizados en el fragmento de código e
 [Archivo de origen](96928093.xlsx)
 
 [Archivo de salida](96928094.xlsx)
+{{< app/cells/assistant language="cpp" >}}

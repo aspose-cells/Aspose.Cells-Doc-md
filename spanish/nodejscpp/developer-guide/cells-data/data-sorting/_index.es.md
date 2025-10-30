@@ -59,3 +59,4 @@ A continuación se muestran los archivos de muestra que se pueden descargar para
 - [Ordenar datos en una columna con lista de orden personalizado](/cells/es/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Especificar advertencia de clasificación al ordenar datos](/cells/es/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Monitorare i programmi in esecuzione
 type: docs
-weight: 20
+weight: 10
 url: /it/python-java/monitor-running-programs/
 ---
 

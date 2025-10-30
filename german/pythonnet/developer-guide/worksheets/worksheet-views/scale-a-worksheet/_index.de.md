@@ -81,3 +81,4 @@ workbook.save("output_scaled_percentage.xlsx")
 - [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) Klasse
 - [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/) Klasse
 - [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/) Konfiguration
+{{< app/cells/assistant language="python-net" >}}

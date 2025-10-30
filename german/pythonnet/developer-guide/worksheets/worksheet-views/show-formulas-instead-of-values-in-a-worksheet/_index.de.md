@@ -16,3 +16,4 @@ Es ist möglich, Formeln anstelle berechneter Werte in Microsoft Excel anzuzeige
 Aspose.Cells für Python via .NET bietet eine [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas) Eigenschaft. Stellen Sie diese auf **true**, um Microsoft Excel anzuweisen, Formeln anzuzeigen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

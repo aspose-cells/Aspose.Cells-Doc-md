@@ -55,3 +55,4 @@ Entwickler können mehrere Zeilen oder Spalten auf einmal ausblenden, indem sie 
 Es ist auch möglich, die [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells)- und [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/)-Methoden der Klasse [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) zu verwenden, um mehrere Zeilen und Spalten sichtbar zu machen.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

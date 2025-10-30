@@ -18,3 +18,4 @@ Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716896.xlsx) mit ei
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-RotateTextWithShapeInsideWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

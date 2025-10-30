@@ -142,4 +142,4 @@ zum Beispiel: in der getFile-Aktion können Sie sie einfach aus dem Cache-Verzei
 ```
 
 Weitere Detailinformationen finden Sie hier:
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

@@ -37,3 +37,4 @@ Nach Ausführung des Beispielcodes wird eine Pivot-Tabelle zum Arbeitsblatt hinz
 Beim Zuweisen eines Zellenbereichs als Datenquelle muss der Bereich von oben links nach unten rechts verlaufen. Beispielsweise ist "A1:C3" gültig, aber "C3:A1" ist es nicht.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -36,3 +36,4 @@ Este ejemplo muestra cómo:
 1. Obtener el índice de fila por el nombre de la fila.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-get-index.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

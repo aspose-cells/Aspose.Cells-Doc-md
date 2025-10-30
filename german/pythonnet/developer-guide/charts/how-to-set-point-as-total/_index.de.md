@@ -80,3 +80,4 @@ Wichtige Implementierungsdetails:
 - Validierung des Diagrammtyps behandeln
 
 Siehe [ChartPoint-Dokumentation](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/) für erweiterte Konfigurationsoptionen.
+{{< app/cells/assistant language="python-net" >}}

@@ -23,19 +23,21 @@ La clase [Aspose.Cells.Rendering.ISheetRender](https://reference.aspose.com/cel
 
 El siguiente fragmento de código muestra cómo convertir una hoja de cálculo en un archivo de Excel a un archivo de imagen.
 
-### **Formato PNG**
+### **convertir Excel/hoja de cálculo a PNG con GoLang**
 
 Por favor, consulte el siguiente código de muestra, su [archivo Excel de muestra](67338402.xlsx) y las [imágenes PNG de salida](67338401.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **Formato TIFF**
+### **convertir Excel/hoja de cálculo a TIFF con GoLang**
 
 Por favor, consulte el siguiente código de muestra, su [archivo Excel de muestra](67338402.xlsx) y la [imagen TIFF de salida](67338419.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **Conversión de hoja de cálculo a SVG**
+## **convertir Excel/hoja de cálculo a SVG con GoLang**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVG significa Gráficos Vectoriales Escalables. SVG es una especificación basada en estándares XML para gráficos vectoriales bidimensionales. Es un estándar abierto que ha estado en desarrollo por el Consorcio World Wide Web (W3C) desde 1999.
 

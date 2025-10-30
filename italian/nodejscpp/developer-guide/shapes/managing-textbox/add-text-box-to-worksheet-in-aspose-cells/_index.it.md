@@ -61,3 +61,4 @@ Otterrai un file simile a [file risultato](result.xlsx). Nel file, vedrai quanto
 
 ![](52449.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

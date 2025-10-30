@@ -6,3 +6,4 @@ url: /es/cpp/loading-saving-and-converting/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

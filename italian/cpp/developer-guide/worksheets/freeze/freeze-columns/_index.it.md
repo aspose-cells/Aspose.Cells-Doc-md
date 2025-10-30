@@ -59,3 +59,4 @@ int main()
 ```
 
 File Excel di esempio allegato (Freeze.xlsx).
+{{< app/cells/assistant language="cpp" >}}

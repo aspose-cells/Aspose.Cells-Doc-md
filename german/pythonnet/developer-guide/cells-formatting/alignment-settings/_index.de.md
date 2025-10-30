@@ -124,3 +124,4 @@ Die Lesereihenfolge wird mit der Eigenschaft [**text_direction**](https://refere
 - [Zeilenumbrüche und Textumbrüche](/cells/de/python-net/line-breaks-and-text-wrapping/)
 
 
+{{< app/cells/assistant language="python-net" >}}

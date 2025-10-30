@@ -100,3 +100,4 @@ this.waitForWhileAndThenInterrupt();
 resolve();
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -23,3 +23,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Zellen abrufen [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-range.py" >}}
+{{< app/cells/assistant language="python-net" >}}

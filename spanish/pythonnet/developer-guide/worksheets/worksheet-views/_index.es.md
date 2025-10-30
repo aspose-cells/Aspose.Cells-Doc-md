@@ -113,3 +113,4 @@ Eliminar paneles divididos utilizando el método [**remove_split**](https://refe
 - [Mostrar fórmulas en lugar de valores en una hoja de cálculo](/cells/es/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Utilizar opciones de verificación de errores](/cells/es/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

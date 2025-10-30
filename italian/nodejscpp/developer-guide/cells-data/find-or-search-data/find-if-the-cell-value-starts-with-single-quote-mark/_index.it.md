@@ -17,3 +17,4 @@ Il seguente esempio di codice spiega che le stringhe come sample e 'sample' non 
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SearchData-SearchCellStartsWithSingleQuote.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

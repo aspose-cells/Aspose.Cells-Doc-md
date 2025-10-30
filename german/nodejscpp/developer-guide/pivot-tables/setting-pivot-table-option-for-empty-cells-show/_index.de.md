@@ -30,3 +30,4 @@ Aspose.Cells for Node.js via C++ stellt die [**PivotTable.setDisplayNullString**
 
 - [Pivot-Tabelle formatieren](/cells/de/nodejs-cpp/formatting-pivot-table/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

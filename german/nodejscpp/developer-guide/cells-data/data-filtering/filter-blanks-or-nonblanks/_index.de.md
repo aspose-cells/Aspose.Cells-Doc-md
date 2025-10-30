@@ -53,3 +53,4 @@ Siehe den folgenden Beispielcode, der die [Beispiel-Excel-Datei](sample.xlsx) l√
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-FilterNonBlanks.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

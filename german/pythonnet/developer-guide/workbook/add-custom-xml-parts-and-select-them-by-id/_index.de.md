@@ -25,3 +25,4 @@ Der folgende Beispielscode fügt zunächst vier benutzerdefinierte XML-Teile mit
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

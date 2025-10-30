@@ -27,3 +27,4 @@ Im folgenden Beispielcode wird gezeigt, wie man HTML-Rich-Text in der Zelle hinz
 
 - [Listenpunkte anzeigen, indem Sie den Zellenwert mit HTML einstellen](/cells/de/nodejs-cpp/display-bullets-by-setting-cell-value-using/)
 - [Holen Sie sich HTML5-String aus der Zelle](/cells/de/nodejs-cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -32,3 +32,4 @@ En el archivo generado, puedes seguir agregando datos en las columnas A y B, mie
 ```
 
 Puedes intentar cambiar el número "-5" por "-10" en la fórmula, y el gráfico dinámico contará los últimos 10 conjuntos de datos. Ahora hemos creado un gráfico rodante dinámico usando Aspose.Cells para Python via .NET con éxito.
+{{< app/cells/assistant language="python-net" >}}

@@ -60,3 +60,4 @@ Sie können die folgende [Inputdatei](SeriesFiltered.xlsx) und [Ausgabedatei](ou
 
 Wie in der Abbildung unten gezeigt, sind die ersten beiden Serien, die ursprünglich sichtbar waren, in der Ausgabedatei unsichtbar geworden.  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

@@ -34,3 +34,4 @@ El siguiente código de ejemplo muestra cómo acceder o obtener cualquier hoja d
 Eliminar hojas de cálculo por nombre funciona bien cuando se conoce el nombre de la hoja de cálculo. Si no se conoce el nombre de la hoja de cálculo, utilizar una versión sobrecargada del método [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) que toma el índice de la hoja de cálculo en lugar de su nombre de hoja.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

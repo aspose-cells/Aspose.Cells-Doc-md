@@ -80,3 +80,4 @@ El siguiente ejemplo crea un nuevo libro desde cero, inserta "**¡Hola Mundo!**"
 El siguiente ejemplo abre un archivo de plantilla de Microsoft Excel existente, obtiene una celda y verifica el valor en la celda A1.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

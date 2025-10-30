@@ -58,3 +58,4 @@ Se muestra a continuación un ejemplo completo que muestra cómo usar la propied
 También es posible usar los métodos [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows) y [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns) de la clase [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) para hacer varias filas y columnas visibles.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

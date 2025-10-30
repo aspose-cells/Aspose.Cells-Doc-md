@@ -1,7 +1,7 @@
 ---
 title: Rebanadores
 type: docs
-weight: 40
+weight: 100
 url: /es/python-java/slicers/
 ---
 

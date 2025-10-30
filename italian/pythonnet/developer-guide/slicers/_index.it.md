@@ -37,3 +37,4 @@ Si prega di vedere il seguente codice di esempio. Carica il [file Excel di esemp
 - [Rimozione dello slicer](/cells/it/python-net/removing-slicer/)
 - [Rendering dello slicer](/cells/it/python-net/rendering-slicer/)
 - [Aggiornamento dello slicer](/cells/it/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

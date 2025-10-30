@@ -18,3 +18,4 @@ I rapporti basati sulle tabelle pivot sono utili ma soggetti a errori se gli ute
 Il seguente codice dimostra questa funzionalità accedendo a una tabella pivot da un foglio e impostando [**setEnableWizard**](https://reference.aspose.com/cells/nodejs-cpp/pivottable/#setEnableWizard-boolean-) su **false**. Il file di esempio della tabella pivot può essere scaricato da questo [link](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-DisablePivotTableRibbon.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

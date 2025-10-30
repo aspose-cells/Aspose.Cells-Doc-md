@@ -44,3 +44,4 @@ Questo esempio dimostra come creare e configurare una TextBox all'interno di un 
 Ricorda che le interazioni con le caselle di testo possono variare a seconda dei casi d'uso specifici, quindi consulta la documentazione Aspose.Cells for Node.js via C++ per metodi e proprietà aggiuntive.
 
 ---
+{{< app/cells/assistant language="nodejs-cpp" >}}

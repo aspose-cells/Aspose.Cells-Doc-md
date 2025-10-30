@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET proporciona la capacidad de guardar una tabla d
 El archivo de salida generado del código anterior está adjunto para su referencia.
 
 [Archivo ODS de salida](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="python-net" >}}

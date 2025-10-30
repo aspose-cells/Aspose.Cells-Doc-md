@@ -308,3 +308,4 @@ Se il tuo foglio di calcolo contiene formule, è meglio chiamare [**Workbook.Cal
 - [Salva fogli specificati in PDF](/cells/it/cpp/save-specified-worksheets-to-pdf/)
 - [Documenti PDF sicuri](/cells/it/cpp/secure-pdf-documents/)
 - [Specificare come incrociare la stringa nel PDF e nell'immagine di output](/cells/it/cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="cpp" >}}

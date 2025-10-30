@@ -76,3 +76,4 @@ Per eliminare più righe da un foglio di lavoro, chiamare il metodo [**delete_ro
 Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) della collezione [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells). Il metodo [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) richiede l'indice della colonna da eliminare.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

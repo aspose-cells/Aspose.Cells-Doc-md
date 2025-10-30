@@ -90,3 +90,4 @@ Los desarrolladores pueden aplicar el efecto superíndice en la fuente configura
 - [Obtener una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

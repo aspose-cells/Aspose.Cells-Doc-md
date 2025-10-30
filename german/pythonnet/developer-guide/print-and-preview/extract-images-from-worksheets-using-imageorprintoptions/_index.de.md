@@ -16,3 +16,4 @@ Der nachstehende Beispielscode zeigt, wie Bilder aus einer Excel-Datei extrahier
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ExtractImagesFromWorksheets-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

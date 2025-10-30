@@ -61,3 +61,4 @@ int main()
  Si la hoja de cálculo contiene fórmulas, es mejor llamar al método [Calculate(CalculationData data)](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/calculate/) justo antes de renderizar a PDF. Esto asegura que los valores dependientes de las fórmulas se vuelvan a calcular y que los valores correctos se muestren en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Características
 type: docs
-weight: 5
+weight: 10
 url: /es/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Características Aspose.Cells for Node.js via C++."
@@ -99,3 +99,4 @@ Puede usar Aspose.Cells para implementar opciones de configuración de página p
 |Establecer área de impresión, títulos de impresión o activar las líneas de cuadrícula, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

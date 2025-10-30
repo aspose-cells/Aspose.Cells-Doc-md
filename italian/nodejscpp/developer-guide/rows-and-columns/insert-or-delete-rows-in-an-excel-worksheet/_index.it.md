@@ -43,3 +43,4 @@ sheet.getCells().deleteRows(7, 5);
 workbook.save(path.join(dataDir, "out_book1.out.xlsx"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

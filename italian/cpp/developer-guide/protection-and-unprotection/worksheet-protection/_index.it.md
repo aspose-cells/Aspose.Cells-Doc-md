@@ -90,3 +90,4 @@ int main()
 - [Protezione dei fogli di lavoro](/cells/it/cpp/protecting-worksheets/)
 - [Sblocca un foglio di lavoro](/cells/it/cpp/unprotect-a-worksheet/)
 - [Verificare la password utilizzata per proteggere il foglio di lavoro](/cells/it/cpp/verify-password-used-to-protect-the-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

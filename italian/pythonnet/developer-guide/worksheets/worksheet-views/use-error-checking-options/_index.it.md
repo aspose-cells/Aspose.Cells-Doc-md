@@ -34,3 +34,4 @@ Occasionalmente, i numeri potrebbero essere formattati e memorizzati nelle celle
 Il seguente esempio di codice mostra come disabilitare l'opzione di controllo degli errori di numeri memorizzati come testo per un foglio di lavoro nel file modello XLS usando le API di Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

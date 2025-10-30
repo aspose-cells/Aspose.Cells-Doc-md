@@ -1,0 +1,110 @@
+---
+title: Vermeiden Sie leere Seiten im Ausgabe PDF, wenn nichts zu drucken ist, mit JavaScript via C++
+linktitle: Leere Seite im Ausgabe PDF vermeiden, wenn nichts gedruckt werden soll
+type: docs
+weight: 30
+url: /de/javascript-cpp/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
+description: Lernen Sie, wie man leere Seiten im Ausgabe PDF vermeidet, wenn nichts zu drucken ist, mit Aspose.Cells for JavaScript via C++.
+---
+
+## **Mögliche Verwendungsszenarien**
+
+Wenn die Excel-Datei leer ist und der Benutzer sie mit Aspose.Cells for JavaScript via C++ in PDF speichert, wird eine leere Seite im Ausgabe-PDF gerendert. Manchmal ist dieses Standardverhalten unerwünscht. Aspose.Cells bietet die [**PdfSaveOptions.outputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#outputBlankPageWhenNothingToPrint--)-Eigenschaft, um dieses Problem zu beheben. Wenn Sie sie auf **false** setzen, tritt eine Ausnahme auf, wenn nichts zu drucken ist.
+
+## **Leere Seite im Ausgabe-PDF vermeiden, wenn nichts gedruckt werden soll**
+
+ Das folgende Beispiel erstellt eine leere Arbeitsmappe und speichert sie dann als PDF, nachdem die [**PdfSaveOptions.outputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#outputBlankPageWhenNothingToPrint--)-Eigenschaft auf **false** gesetzt wurde. Da im Ausgabepdf nichts gedruckt werden kann, tritt die Ausnahme wie unten gezeigt auf.
+
+## **Beispielcode**
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Save Workbook to PDF Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat, PdfSaveOptions, Utils } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+
+            if (!fileInput.files.length) {
+                // No file selected - will create an empty workbook (to mirror original JavaScript behavior)
+                document.getElementById('result').innerHTML = '<p>No file selected. Creating an empty workbook and attempting to save to PDF.</p>';
+            } else {
+                document.getElementById('result').innerHTML = '<p>Loading selected workbook...</p>';
+            }
+
+            // Instantiate workbook from file if provided, otherwise create an empty workbook
+            let workbook;
+            if (fileInput.files.length) {
+                const file = fileInput.files[0];
+                const arrayBuffer = await file.arrayBuffer();
+                workbook = new Workbook(new Uint8Array(arrayBuffer));
+            } else {
+                workbook = new Workbook();
+            }
+
+            // Create Pdf save options.
+            const opts = new PdfSaveOptions();
+
+            // Default value of OutputBlankPageWhenNothingToPrint is true.
+            // Setting false means - Do not output blank page when there is nothing to print.
+            opts.outputBlankPageWhenNothingToPrint = false;
+
+            // Save workbook to Pdf format.
+            // Note: If workbook has nothing to print and outputBlankPageWhenNothingToPrint is false,
+            // this operation may throw an exception which will propagate (no try-catch per requirements).
+            const outputData = workbook.save(SaveFormat.Pdf, opts);
+
+            const blob = new Blob([outputData], { type: 'application/pdf' });
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'output.pdf';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download PDF File';
+
+            document.getElementById('result').innerHTML = '<p style="color: green;">PDF generated successfully. Click the download link to get the file.</p>';
+        });
+    </script>
+</html>
+```
+
+## **Ausnahme**
+
+{{< highlight javascript >}}
+
+ exception was unhandled
+
+  HResult=-2146232832
+
+  Message=There is nothing to output/print.
+
+  Source=Aspose.Cells
+
+  StackTrace:
+
+       at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
+
+{{< /highlight >}}

@@ -81,3 +81,4 @@ int main()
 
 ## **Temas avanzados**
 - [Usar Gráficos de Chispa y Configuración de Formato 3D](/cells/es/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

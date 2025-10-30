@@ -128,3 +128,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 - [Zellvalidierung in ODS-Dateien erhalten](/cells/de/python-net/get-cell-validation-in-ods-files/)
 - [Validierungen auf einer Zelle abrufen](/cells/de/python-net/get-validation-applied-on-a-cell/)
 - [Überprüfen, ob Zellwert Datenvalidierungsregeln erfüllt](/cells/de/python-net/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="python-net" >}}

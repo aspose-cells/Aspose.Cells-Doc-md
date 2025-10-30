@@ -21,7 +21,7 @@ Standardmäßig verwirft Aspose.Cells keine führenden leeren Spalten und Zeilen
 
 {{% alert color="primary" %}}
 
-Vor der Veröffentlichung von Aspose.Cells for .NET 20.4 war der Standardwert für [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **false**. Seit der Version 20.4 ist der Standardwert für [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **true**.
+Vor der Version Aspose.Cells for Java 20.4 war der Standardwert von [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **false**. Seit der Version 20.4 ist der Standardwert von [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) **true**.
 
 {{% /alert %}}
 

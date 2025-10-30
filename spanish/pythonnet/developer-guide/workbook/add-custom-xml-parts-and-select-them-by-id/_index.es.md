@@ -25,3 +25,4 @@ El siguiente código de muestra primero agrega cuatro partes de XML personalizad
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

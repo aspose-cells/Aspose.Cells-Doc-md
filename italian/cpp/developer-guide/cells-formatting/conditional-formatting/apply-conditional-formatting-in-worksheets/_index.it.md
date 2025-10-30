@@ -154,3 +154,4 @@ int main()
 ```
 
 Quando viene eseguito il codice sopra, la formattazione condizionale viene applicata alla cella "B3" nel primo foglio di lavoro del file di output (output.xls). La formattazione condizionale dipende dalla formula che calcola il valore di "B3" come somma di B1 e B2.
+{{< app/cells/assistant language="cpp" >}}

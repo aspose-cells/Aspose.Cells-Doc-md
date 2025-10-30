@@ -59,3 +59,4 @@ Di seguito sono riportati i file di esempio che possono essere scaricati per tes
 - [Ordina dati nella colonna con elenco di ordinamenti personalizzati](/cells/it/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifica dell'avviso di ordinamento durante l'ordinamento dei dati](/cells/it/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

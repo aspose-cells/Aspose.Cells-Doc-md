@@ -44,3 +44,4 @@ Con la clase **IPdfSaveOptions**, puede obtener o establecer la hora de creació
 Por favor, consulte el siguiente código de muestra y su [PDF de salida](67338371.pdf) para su referencia.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

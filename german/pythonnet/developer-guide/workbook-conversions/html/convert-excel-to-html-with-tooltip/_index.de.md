@@ -20,3 +20,4 @@ Das folgende Beispielskript lädt die [Quell-Excel-Datei](98107416.xlsx) und gen
 Beispielcode
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertExcelFileToHtmlWithTooltip-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

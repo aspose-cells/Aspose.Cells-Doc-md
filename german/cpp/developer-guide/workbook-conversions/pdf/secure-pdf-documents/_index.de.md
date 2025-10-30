@@ -79,3 +79,4 @@ int main()
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) direkt vor dem Rendern in PDF aufzurufen. Dadurch werden die formelabhängigen Werte neu berechnet und die korrekten Werte im PDF angezeigt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -22,3 +22,4 @@ Dopo aver eseguito il codice qui sotto, vedrai il Grafico Combo come mostrato di
 Il codice di esempio seguente carica il [file Excel di esempio] (combo.xlsx) e genera il [file Excel di output] (out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-combo-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

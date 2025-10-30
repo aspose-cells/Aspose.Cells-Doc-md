@@ -26,3 +26,4 @@ El siguiente ejemplo de código demuestra la exportación de una hoja de cálcul
 - [Convertir-Excel-a-JSON](/cells/es/python-net/convert-excel-to-json/)
 - [Convertir JSON a CSV](/cells/es/python-net/convert-json-to-csv/)
 - [Convertir-JSON-a-Excel](/cells/es/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

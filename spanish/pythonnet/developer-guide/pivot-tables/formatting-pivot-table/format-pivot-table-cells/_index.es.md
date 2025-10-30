@@ -22,3 +22,4 @@ El siguiente código de muestra carga el [archivo de Excel de ejemplo](pivot_for
 
 - [Dar formato a la tabla dinámica](/cells/es/python-net/formatting-pivot-table/)
 - [Trabajar con formatos de visualización de datos del Campo de Datos en la Tabla Dinámica](/cells/es/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

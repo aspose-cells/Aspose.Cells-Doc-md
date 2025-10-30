@@ -96,3 +96,4 @@ Verificare l'output della console del codice di esempio sopra; il valore (data e
 [Calcolo diretto di funzione personalizzata senza scriverla in un foglio di lavoro](/cells/it/nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

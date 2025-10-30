@@ -20,3 +20,4 @@ El siguiente código de muestra explica el uso del método [**Worksheet.Cells.te
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-ConvertTextToColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

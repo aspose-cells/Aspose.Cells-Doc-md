@@ -93,3 +93,4 @@ Aspose.Cells für Python via .NET unterstützt das Speichern von Dateien in JSON
 - [Anpassen des Arbeitsmappe-Komprimierungsgrads](/cells/de/python-net/adjust-workbook-compression-level/)
 - [Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern](/cells/de/python-net/save-workbook-to-strict-open-xml-spreadsheet-format/)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -110,3 +110,4 @@ Nach der oben genannten Operation können wir ein Ausgabediagrammbild mit chines
 |Other Name|其他|Sonstige|  
 |Series Name|系列|Serie|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

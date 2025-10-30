@@ -208,3 +208,4 @@ int main()
 - [Extraer objetos OLE del libro de trabajo](/cells/es/cpp/extract-ole-objects-from-workbook/)
 - [Obtener o establecer el identificador de clase del objeto OLE incrustado](/cells/es/cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Insertar un archivo WAV como un objeto OLE](/cells/es/cpp/inserting-a-wav-file-as-an-ole-object/)
+{{< app/cells/assistant language="cpp" >}}

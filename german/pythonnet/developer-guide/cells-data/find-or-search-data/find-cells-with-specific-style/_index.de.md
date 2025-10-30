@@ -16,3 +16,4 @@ Manchmal müssen Sie Zellen mit einem bestimmten Stil finden. Sie können Aspose
 Der Code in diesem Beispiel sucht alle Zellen, die denselben Stil wie die Zelle A1 haben. Nachdem der Code ausgeführt wurde, enthalten alle Zellen, die denselben Stil wie A1 haben, den Text "Gefunden".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindCellsWithSpecificStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

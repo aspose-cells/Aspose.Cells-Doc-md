@@ -66,3 +66,4 @@ Geben Sie die Eigenschaften [**FindOptions.setLookInType**](https://reference.as
 - [Finden, ob der Zellenwert mit einem einzelnen Anführungszeichen beginnt](/cells/de/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Daten mithilfe der Originalwerte suchen](/cells/de/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

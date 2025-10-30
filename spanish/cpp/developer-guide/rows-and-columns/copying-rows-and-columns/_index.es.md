@@ -63,3 +63,4 @@ Este ejemplo copia una columna de una hoja de cálculo y la pega en una hoja de 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingColumns-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

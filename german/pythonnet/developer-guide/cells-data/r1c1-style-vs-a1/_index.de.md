@@ -58,3 +58,4 @@ A1-Bezugsstil:
 R1C1-Bezugsstil:
 <br>
 <image src="3.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

@@ -187,3 +187,4 @@ En caso de intentar renderizar los tipos de gráficos no soportados a imagen o P
 ## **Temas avanzados**  
 - [Convertir Gráfico a PDF](/cells/es/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

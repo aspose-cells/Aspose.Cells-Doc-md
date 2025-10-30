@@ -158,3 +158,4 @@ worksheet.getCells().get("A1").getStyle().setIsLocked(true);
 worksheet.protect(AsposeCells.ProtectionType.All);
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -11,3 +11,4 @@ Microsoft Excel supporta molti formati come XLS, XLSX, XLSM, XLSB, CSV, delimita
 Il seguente codice di esempio carica il [file delimitato da tabulazioni di origine](23166997.txt) e legge la cella A1 e quindi copia il suo contenuto nella cella C4 e lo salva come [file delimitato da tabulazioni di output](23166996.txt).
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

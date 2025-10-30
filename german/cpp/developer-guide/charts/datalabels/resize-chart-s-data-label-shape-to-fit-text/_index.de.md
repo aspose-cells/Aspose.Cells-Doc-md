@@ -72,3 +72,4 @@ int main()
 }
 ```  
 
+{{< app/cells/assistant language="cpp" >}}

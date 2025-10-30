@@ -16,3 +16,4 @@ El siguiente código de ejemplo crea una tabla u objeto de lista de tal manera q
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-PropagateFormulaInTable-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

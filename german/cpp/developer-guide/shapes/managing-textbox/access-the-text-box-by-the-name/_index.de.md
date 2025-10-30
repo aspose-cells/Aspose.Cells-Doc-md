@@ -64,3 +64,4 @@ Hier ist die Konsolenausgabe des obigen Beispielcodes.
 This is MyTextBox
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

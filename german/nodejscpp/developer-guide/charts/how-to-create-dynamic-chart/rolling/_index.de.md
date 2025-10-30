@@ -81,3 +81,4 @@ In der generierten Datei können Sie weiterhin Daten in den Spalten A und B hinz
 ```
 
 Sie können versuchen, die Zahl "-5" in der Formel zu "-10" zu ändern, und das dynamische Diagramm wird die neuesten 10 Datensätze zählen. Jetzt haben wir erfolgreich ein dynamisches Rollbalkendiagramm unter Verwendung von Aspose.Cells erstellt.
+{{< app/cells/assistant language="nodejs-cpp" >}}

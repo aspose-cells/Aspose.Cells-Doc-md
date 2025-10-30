@@ -44,3 +44,4 @@ workbook.save(path.join(dataDir, "ODF1.1_out.ods"), options);
 options.setOdfStrictVersion(AsposeCells.OpenDocumentFormatVersionType.Odf13);
 workbook.save(path.join(dataDir, "ODF1.3_out.ods"), options);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

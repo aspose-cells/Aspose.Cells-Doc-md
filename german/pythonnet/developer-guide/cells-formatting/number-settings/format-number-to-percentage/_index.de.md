@@ -102,3 +102,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 Wenn Sie diese Schritte befolgen, können Sie Zahlen in Aspose.Cells für Python via .NET problemlos in Prozentsätze umwandeln. Aspose.Cells bietet eine Vielzahl von Funktionen für die Manipulation von Excel-Dateien, einschließlich der Formatierung von Zellen, Arbeiten mit Formeln und vielem mehr, was es zu einem leistungsstarken Werkzeug für .NET-Entwickler macht, die mit Excel-Daten arbeiten.
 
 
+{{< app/cells/assistant language="python-net" >}}

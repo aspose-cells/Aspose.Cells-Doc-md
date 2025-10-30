@@ -20,3 +20,4 @@ La API Aspose.Cells para Python via .NET proporciona una forma sencilla y fácil
 Podría haber casos en los que siempre desees tener la imagen actualizada desde una URL. Para lograr esto, puedes seguir las instrucciones dadas en el artículo [Insertar una Imagen Vinculada desde una Dirección Web](/cells/es/python-net/insert-a-linked-picture-from-web-address/). Siguiendo este método, la imagen se carga desde la URL cada vez que se abre la hoja de cálculo.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

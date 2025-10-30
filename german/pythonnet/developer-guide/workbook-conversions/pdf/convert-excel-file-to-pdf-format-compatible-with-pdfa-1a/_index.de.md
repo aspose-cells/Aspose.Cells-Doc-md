@@ -24,3 +24,4 @@ Der folgende Beispielcode erklärt, wie man eine Excel-Datei in ein PDF-Format k
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}
+{{< app/cells/assistant language="python-net" >}}

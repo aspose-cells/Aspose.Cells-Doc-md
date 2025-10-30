@@ -76,7 +76,7 @@ ad esempio:
  }
 ```
 
-Puoi trovare altro sulla nostra pagina demo di github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Puoi trovare ulteriori informazioni sulla nostra pagina demo GitHub https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
 

@@ -20,3 +20,4 @@ Se si desidera evitare il testo che viene tagliato nel file PDF salvato, è poss
 Ora, il testo non è tagliato nel file PDF di output.
 
 ![il testo non è tagliato nel pdf salvato](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="python-net" >}}

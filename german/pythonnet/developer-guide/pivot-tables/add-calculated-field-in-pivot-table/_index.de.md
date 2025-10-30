@@ -35,3 +35,4 @@ Fügen Sie ein berechnetes Feld zur Excel-Datei mit Aspose.Cells für Python via
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-calculated-field-in-PivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

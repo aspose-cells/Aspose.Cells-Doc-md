@@ -87,3 +87,4 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode `Workbook.CalculateFormula` direkt vor dem Rendern der Tabelle in das PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formulaabhängigen Werte neu berechnet werden und die korrekten Werte im PDF dargestellt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -14,3 +14,4 @@ Puede establecer la alineación horizontal de su texto de párrafo usando la pro
 El siguiente código de muestra crea tres líneas y establece la alineación horizontal de cada una de ellas
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

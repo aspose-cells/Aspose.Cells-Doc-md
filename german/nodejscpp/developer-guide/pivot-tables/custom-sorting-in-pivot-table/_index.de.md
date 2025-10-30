@@ -21,3 +21,4 @@ Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-PivotTableCustomSort-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

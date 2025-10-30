@@ -242,3 +242,4 @@ int main()
 ## **Temas avanzados**
 - [Cargar o Importar archivo CSV con fórmulas](/cells/es/cpp/load-or-import-csv-file-with-formulas/)
 - [Lectura de archivo CSV con múltiples codificaciones](/cells/es/cpp/reading-csv-file-with-multiple-encodings/)
+{{< app/cells/assistant language="cpp" >}}

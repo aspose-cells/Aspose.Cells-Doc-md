@@ -3,8 +3,8 @@ title: Cómo formatear texto en la celda
 type: docs
 weight: 130
 url: /es/net/how-to-format-text-in-cell/
-description: Aprende cómo formatear texto en una celda con Aspose.Cells.
-keywords: formatear texto de la celda, formatear caracteres parciales de la celda, cómo agregar múltiples formatos al texto de la celda, resaltar una parte de la celda, formatear una parte de la celda, formatear texto en celdas, formatear texto en la celda.
+description: Aprende cómo dar formato al texto en una celda y múltiples estilos en una sola celda con Aspose.Cells.
+keywords: formatea texto de la celda, formatea caracteres parciales de la celda, cómo agregar múltiples formatos al texto de la celda, resalta parte de la celda, formatea parte de la celda, múltiples estilos dentro de una sola celda, formatear texto en celdas, formatear texto en una celda.
 ---
 
 ## **Escenarios de uso posibles**

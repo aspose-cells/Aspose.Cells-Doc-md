@@ -22,3 +22,4 @@ Aspose.Cells für Python via .NET ermöglicht es Ihnen, Diagramsuntertitel in OD
 Chart Subtitle: Sample Chart Subtitle
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

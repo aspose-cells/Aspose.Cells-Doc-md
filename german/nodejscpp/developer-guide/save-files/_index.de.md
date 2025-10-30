@@ -253,3 +253,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [Anpassen des Arbeitsmappe-Komprimierungsgrads](/cells/de/nodejs-cpp/adjust-workbook-compression-level/)
 - [Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern](/cells/de/nodejs-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Speichern der Datei im Antwortobjekt](/cells/de/nodejs-cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

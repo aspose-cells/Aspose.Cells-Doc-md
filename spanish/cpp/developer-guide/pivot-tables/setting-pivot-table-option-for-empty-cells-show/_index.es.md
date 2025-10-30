@@ -83,3 +83,4 @@ int main()
 ## Artículos relacionados
 
 - [Dar formato a la tabla dinámica](/cells/es/cpp/formatting-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

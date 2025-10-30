@@ -20,3 +20,4 @@ Aspose.Cells für Python via .NET API bietet eine einfache und unkomplizierte M�
 Es kann Fälle geben, in denen Sie immer das aktualisierte Bild von einer URL möchten. Um dies zu erreichen, können Sie den Anweisungen im Artikel [Linkedes Bild von Webadresse einfügen](/cells/de/python-net/insert-a-linked-picture-from-web-address/) folgen. Bei dieser Methode wird das Bild jedes Mal aus der URL geladen, wenn das Tabellenblatt geöffnet wird.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

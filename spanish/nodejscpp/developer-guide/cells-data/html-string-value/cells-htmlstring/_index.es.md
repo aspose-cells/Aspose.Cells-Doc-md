@@ -28,3 +28,4 @@ La siguiente captura de pantalla muestra la salida del código de muestra anteri
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

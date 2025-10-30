@@ -24,3 +24,4 @@ El siguiente código de ejemplo le muestra cómo obtener la validación aplicada
 ## Artículos relacionados
 
 - [Validación de datos](/cells/es/python-net/data-validation/)
+{{< app/cells/assistant language="python-net" >}}

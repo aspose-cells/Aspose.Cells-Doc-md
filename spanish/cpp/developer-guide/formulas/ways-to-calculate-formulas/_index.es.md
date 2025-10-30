@@ -49,3 +49,4 @@ Por favor llama a Workbook.GetISettings().SetCreateCalcChain() con el parámetro
 **Código de Ejemplo**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

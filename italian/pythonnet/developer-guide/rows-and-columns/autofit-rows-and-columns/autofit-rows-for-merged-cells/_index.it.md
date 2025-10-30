@@ -31,3 +31,4 @@ Si prega di vedere il seguente codice, crea un oggetto workbook e aggiungi più 
 ## **Codice di esempio C#**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-AutoFitRowsMergedCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

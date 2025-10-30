@@ -29,3 +29,4 @@ A continuación se encuentran los enlaces a algunos recursos útiles que pueda n
 - [Descargar Aspose.Cells para Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells para Python via .NET Foro de Soporte Gratuito](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells para Python via .NET Helpdesk de Soporte Pago](https://helpdesk.aspose.com/)
+{{< app/cells/assistant language="python-net" >}}

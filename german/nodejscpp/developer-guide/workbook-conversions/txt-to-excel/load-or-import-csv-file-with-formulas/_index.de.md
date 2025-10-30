@@ -58,3 +58,4 @@ Der Code l√§dt zuerst die CSV-Datei, importiert sie erneut bei Zelle D4. Schlie√
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

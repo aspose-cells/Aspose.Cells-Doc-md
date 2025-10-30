@@ -59,3 +59,4 @@ Hier sind die Beispiel Dateien, die heruntergeladen werden können, um diese Fun
 - [Daten in Spalte mit benutzerdefinierter Sortierliste sortieren](/cells/de/nodejs-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Spezifizieren von Sortierwarnungen beim Sortieren von Daten](/cells/de/nodejs-cpp/specifying-sort-warning-while-sorting-data/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

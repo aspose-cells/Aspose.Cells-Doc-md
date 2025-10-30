@@ -38,3 +38,4 @@ Potrebbero esserci casi in cui si desidera sempre l'immagine aggiornata da un UR
 {{% /alert %}}  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

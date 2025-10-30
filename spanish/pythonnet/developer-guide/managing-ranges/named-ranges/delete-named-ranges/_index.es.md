@@ -21,8 +21,8 @@ Para eliminar un rango con nombre en Excel, siga estos pasos:
 6. Haz clic en el botón "Cerrar" para cerrar el cuadro de diálogo del Administrador de nombres.
 7. Guarda el libro para guardar los cambios.
 
-## **Elimina el rango con nombre usando Aspose.Cells for .Net**
-Con Aspose.Cells para .Net, puedes eliminar rangos nombrados o nombres definidos mediante [texto](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) en la lista.
+## **Elimina Rango Nombrado usando Aspose.Cells para Python via .NET**
+Con Aspose.Cells para Python via .NET, puedes eliminar rangos nombrados o nombres definidos mediante [texto](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) en la lista.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

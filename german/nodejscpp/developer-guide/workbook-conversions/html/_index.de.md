@@ -77,3 +77,4 @@ workbook.save("out.mht");
 - [Unterstützt das Layout von DIV-Tags beim Laden von HTML in die Excel-Arbeitsmappe](/cells/de/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [Aktivieren Sie CSS Standard-Eigenschaften beim Speichern in HTML](/cells/de/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

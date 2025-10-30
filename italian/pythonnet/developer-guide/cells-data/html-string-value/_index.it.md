@@ -26,3 +26,4 @@ Il seguente esempio di codice ti mostra come aggiungere testo ricco in HTML all'
 
 - [Visualizza pallini impostando il valore della cella utilizzando HTML](/cells/it/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Ottieni una stringa HTML5 dalla cella](/cells/it/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

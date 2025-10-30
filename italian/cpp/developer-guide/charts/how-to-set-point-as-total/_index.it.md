@@ -65,3 +65,4 @@ Puoi ottenere il [file di output corretto](output.xlsx)
 Come mostrato nell'immagine seguente, i quattro punti dati "Total" sono impostati correttamente, e puoi vedere la differenza rispetto al grafico precedente.
 
 ![todo:image_alt_text](set-as-total2.png)
+{{< app/cells/assistant language="cpp" >}}

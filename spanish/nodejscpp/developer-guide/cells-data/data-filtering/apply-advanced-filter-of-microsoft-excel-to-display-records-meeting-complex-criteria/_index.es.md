@@ -46,3 +46,4 @@ El siguiente código de ejemplo aplica el filtro avanzado en el [Archivo de Exce
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Autofilter-AdvancedFilter.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

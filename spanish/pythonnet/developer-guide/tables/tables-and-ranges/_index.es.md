@@ -35,3 +35,4 @@ El código de ejemplo a continuación demuestra el uso de la clase [**TableToRan
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-ConvertTableToRangeWithOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

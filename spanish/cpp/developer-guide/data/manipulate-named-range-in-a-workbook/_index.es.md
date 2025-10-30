@@ -21,3 +21,4 @@ La siguiente salida en consola imprime los valores de los miembros [FullText](ht
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

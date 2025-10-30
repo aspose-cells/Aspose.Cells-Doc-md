@@ -31,3 +31,4 @@ Extrahieren Sie dann die OLE-Objekte und speichern Sie sie auf der Festplatte mi
 Der folgende Code führt die eigentliche Arbeit des Auffindens und Extrahierens von OLE-Objekten durch. Die OLE-Objekte (DOC-, XLS- und PDF-Dateien) werden auf der Festplatte gespeichert.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

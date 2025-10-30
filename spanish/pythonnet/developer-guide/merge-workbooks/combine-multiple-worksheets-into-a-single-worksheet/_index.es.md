@@ -17,3 +17,4 @@ El siguiente fragmento de código te muestra cómo combinar varias hojas de cál
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Merge-Workbooks-CombineMultipleWorksheetsSingleWorksheet-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

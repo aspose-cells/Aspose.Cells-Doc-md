@@ -16,3 +16,4 @@ Por favor mira el código de muestra abajo que demuestra cómo renderizar un arc
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-UsePresentationPreferenceOption-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

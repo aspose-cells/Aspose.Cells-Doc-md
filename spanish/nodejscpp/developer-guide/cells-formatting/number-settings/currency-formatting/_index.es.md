@@ -47,3 +47,4 @@ Para formatear números como moneda en Excel, sigue estos pasos:
 Para formatear números como moneda en la biblioteca Aspose.Cells for Node.js via C++ para trabajar con archivos de Excel, puedes aplicar el formato de moneda a las celdas programáticamente. Así es como puedes hacerlo usando Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

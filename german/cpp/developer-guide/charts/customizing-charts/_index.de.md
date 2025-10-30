@@ -80,3 +80,4 @@ int main()
 Derzeit unterstützt Aspose.Cells nur benutzerdefinierte Diagramme, die Kreis-, Linien-, Säulen- und Säulenstapel-Diagramme kombinieren, aber in zukünftigen Versionen werden weitere Diagrammtypen unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

@@ -32,3 +32,4 @@ Es sencillo desbloquear paneles con Aspose.Cells para Python via .NET. Utiliza e
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 Adjunto [archivo de Excel de origen de ejemplo](Frozen.xlsx).
+{{< app/cells/assistant language="python-net" >}}

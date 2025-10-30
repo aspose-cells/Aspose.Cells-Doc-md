@@ -25,3 +25,4 @@ Il codice di esempio di seguito dimostra come creare grafici personalizzati. In 
 Attualmente Aspose.Cells per Python via .NET supporta solo grafici personalizzati che combinano grafici a torta, lineari, a colonne e impilati, ma in future versioni saranno supportati altri tipi di grafici.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

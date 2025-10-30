@@ -48,3 +48,4 @@ Es ist sehr einfach, passwortgeschützte Excel-Dateien zu öffnen und mit der As
 - [Autor beim Schreibschutz des Arbeitsmappenschreibens spezifizieren](/cells/de/python-net/specify-author-while-write-protecting-workbook/)
 - [Passwort von verschlüsselten Dateien überprüfen](/cells/de/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

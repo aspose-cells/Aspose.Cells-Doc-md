@@ -142,3 +142,4 @@ int main() {
 
 ## **Fazit**
 Aspose.Cells for C++ bietet eine umfassende Sammlung von Werkzeugen zur Verwaltung von Arbeitsmappen und Arbeitsblättern. Egal, ob Sie eine neue Arbeitsmappe erstellen, eine bestehende öffnen oder Arbeitsblätter manipulieren möchten, Aspose.Cells macht es einfach, programmatisch mit Excel-Dateien zu arbeiten.
+{{< app/cells/assistant language="cpp" >}}

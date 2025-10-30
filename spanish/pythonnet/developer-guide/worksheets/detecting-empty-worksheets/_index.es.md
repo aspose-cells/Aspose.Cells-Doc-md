@@ -28,3 +28,4 @@ Es posible que una hoja dada no tenga celdas pobladas, sin embargo, puede conten
 ## **Ejemplo de Programación**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-DetectEmptyWorksheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

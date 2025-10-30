@@ -85,3 +85,4 @@ Este ejemplo demuestra cómo formatear una sola celda para mostrar números en u
 
 Recuerda, la cadena de formato exacta puede necesitar ajustes según tu configuración regional y los requisitos específicos de formato de contabilidad que tengas (por ejemplo, usando un símbolo de moneda diferente, mostrando más o menos decimales, etc.).
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

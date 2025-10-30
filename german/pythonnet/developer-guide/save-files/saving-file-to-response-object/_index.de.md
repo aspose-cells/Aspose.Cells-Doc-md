@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. Setzen Sie die Stream-Position immer mit `seek(0)`, bevor Sie lesen
 3. Legen Sie passende MIME-Typen in den Response-Headern fest
 4. Verwenden Sie für Web-Frameworks wie Django/Flask framework-spezifische Response-Handler
+{{< app/cells/assistant language="python-net" >}}

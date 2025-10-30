@@ -65,3 +65,4 @@ Geben Sie die [**FindOptions.look_in_type**](https://reference.aspose.com/cells/
 - [Zellen mit bestimmtem Stil finden](/cells/de/python-net/find-cells-with-specific-style/)
 - [Finden, ob der Zellenwert mit einem einzelnen Anführungszeichen beginnt](/cells/de/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Daten mithilfe der Originalwerte suchen](/cells/de/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

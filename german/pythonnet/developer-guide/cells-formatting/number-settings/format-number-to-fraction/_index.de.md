@@ -112,3 +112,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 
 Wenn Sie diese Schritte befolgen, können Sie Zahlen in Aspose.Cells für Python via .NET problemlos in Brüche umwandeln. Dies ist besonders nützlich für finanzielle, statistische oder bildungsbezogene Anwendungen, bei denen präzise Bruchwerte erforderlich sind.
 
+{{< app/cells/assistant language="python-net" >}}

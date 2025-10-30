@@ -33,3 +33,4 @@ Der unten stehende Beispielcode beschreibt, wie PDFs mit Aspose.Cells für Pytho
 Wenn die Tabelle Formeln enthält, ist es am besten, [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) kurz vor dem Rendern in PDF aufzurufen. Dadurch werden formelabhängige Werte neu berechnet und die richtigen Werte im PDF dargestellt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

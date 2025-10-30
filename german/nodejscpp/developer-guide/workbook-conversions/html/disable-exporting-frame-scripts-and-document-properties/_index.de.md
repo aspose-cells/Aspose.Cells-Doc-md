@@ -35,3 +35,4 @@ options.setExportFrameScriptsAndProperties(false);
 // Save workbook as HTML
 workbook.save(path.join(dataDir, "output.out.html"), options);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

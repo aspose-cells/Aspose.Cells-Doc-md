@@ -65,6 +65,50 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 
 Natürlich können Sie auch, wenn Sie es einfacher möchten, [libSkiaSharp.dylib](libSkiaSharp.dylib) herunterladen und dann **kopieren** Sie es in das Verzeichnis **/usr/local/lib**.
 
+> ⚠️ **Hinweis:**  
+In einigen Fällen kann es nach der Installation einer neuen Version von **aspose-cells-python** zu einem Fehler wie folgt kommen:
+
+**Beim Initialisieren des Hosts für den Typ ‘WrpNs_Aspose.WrpNs_Cells.WrpCs_Workbook_xxxxxx (Assembly=WrpInterop.Aspose.Cells)’ ist ein Fehler aufgetreten - Methode ‘call_000_xxxxxx’ wurde nicht gefunden**
+
+Dies deutet darauf hin, dass die vorherige Version nicht vollständig deinstalliert wurde, was zu einem Konflikt zwischen der neu installierten Version und der alten führt.  
+Sie können dieses Problem beheben, indem Sie die folgenden Schritte ausführen:
+
+- Erstellen Sie zunächst eine saubere virtuelle Umgebung, um sicherzustellen, dass die neueste Version auf Ihrem Windows-Computer ordnungsgemäß funktioniert:
+
+```
+# Set up virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+# Install aspose-cells-python
+pip install aspose-cells-python
+```
+Führen Sie dann Ihr Programm aus.
+
+- Wenn Sie Ihre ursprüngliche Umgebung weiterhin verwenden möchten, versuchen Sie bitte die folgenden Schritte:
+
+```
+pip uninstall aspose-cells-python
+```
+Stellen Sie sicher, dass die Deinstallation erfolgreich war. Wenn während der Deinstallation Fehler auftreten, versuchen Sie, den Befehl mehrfach auszuführen.
+Alternativ können Sie Ihr **site-packages**-Verzeichnis suchen, in der Regel etwas wie:
+
+```
+\Python3x\Lib\site-packages
+```
+
+Löschen Sie dann manuell die folgenden Verzeichnisse (falls vorhanden):
+
+```
+aspose
+aspose_cells*
+```
+
+Danach installieren Sie das Paket erneut:
+
+```
+pip install aspose-cells-python
+```
+
 ## **Wie man die Hello World-Anwendung mit Aspose.Cells für Python via .NET erstellt**
 
 - Erstellen Sie eine Datei mit dem Namen **CreatingHelloWorldFile.py** und verwenden Sie den folgenden Beispielcode:
@@ -77,3 +121,4 @@ Natürlich können Sie auch, wenn Sie es einfacher möchten, [libSkiaSharp.dylib
 - Bitte besuchen Sie das [Aspose.Cells for Python via .NET Beispiel](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github, um weitere Beispielscodes anzuzeigen.
 
 
+{{< app/cells/assistant language="python-net" >}}

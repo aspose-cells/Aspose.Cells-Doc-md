@@ -97,3 +97,4 @@ Comencemos desde aplicaciones prácticas y comparemos las tres librerías de Pyt
 En Pandas, puedes usar el objeto ExcelWriter y la función to_excel() para agregar gráficos a un archivo de Excel. Sin embargo, ten en cuenta que Pandas en sí no admite la inserción de gráficos directamente en archivos de Excel, solo puede escribir datos en archivos de Excel. Para agregar un gráfico, debes usar la biblioteca openpyxl o xlsxwriter para manipular archivos de Excel. Aquí tienes un ejemplo de cómo usar la biblioteca xlsxwriter para agregar un gráfico a un archivo de Excel.
 <br>
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Why-use-cells-add-chart-pandas.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -15,3 +15,4 @@ El siguiente código exporta la hoja de cálculo a una imagen con tamaño de 400
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-WorksheetToImageDesiredSize-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

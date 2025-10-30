@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET kann Arbeitsblätter seit Version 7.1.0 in SVG-
 - [Konvertieren Sie ein Excel-Diagramm in ein Bild](/cells/de/python-net/convert-an-excel-chart-to-image/)
 - [Konvertieren eines Diagramms in ein Bild im SVG-Format](/cells/de/python-net/converting-chart-to-image-in-svg-format/)
 - [Diagramm in SVG mit viewBox-Attribut exportieren](/cells/de/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

@@ -24,3 +24,4 @@ Il codice di esempio seguente spiega come convertire il file Excel nel formato P
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}
+{{< app/cells/assistant language="python-net" >}}

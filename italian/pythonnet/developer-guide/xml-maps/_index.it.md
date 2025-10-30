@@ -42,3 +42,4 @@ Il seguente codice di esempio mostra come utilizzare [**Workbook.import_xml()**]
 - [Interroga le aree delle celle mappate al percorso della mappa XML utilizzando il metodo Worksheet.XmlMapQuery](/cells/it/python-net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 
 
+{{< app/cells/assistant language="python-net" >}}

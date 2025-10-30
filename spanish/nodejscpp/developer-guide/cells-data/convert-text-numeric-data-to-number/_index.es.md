@@ -43,3 +43,4 @@ Estos números de cadena se han convertido en números utilizando [**Cells.conve
 El siguiente código de muestra ilustra cómo convertir todos los datos numéricos de cadena en números reales en todas las hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-ConvertTextNumericDatatoNumber.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

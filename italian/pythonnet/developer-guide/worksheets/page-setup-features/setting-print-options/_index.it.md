@@ -95,3 +95,4 @@ I valori predefiniti dell'enumerazione [**PrintOrderType**](https://reference.as
 |OVER_THEN_DOWN| Rappresenta l'ordine di stampa come a destra poi giù.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetPageOrder-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

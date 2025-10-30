@@ -50,3 +50,4 @@ Vedi il seguente esempio di codice. Carica il [file Excel di esempio](sample.xls
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-gantt-chart.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

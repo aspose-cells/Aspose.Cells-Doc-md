@@ -33,3 +33,4 @@ book.getWorksheets().get(0).getCells().removeDuplicates(0, 0, 5, 3);
 // Save result
 book.save("removeduplicates-result.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

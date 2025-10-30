@@ -64,3 +64,4 @@ Esta página resume las características de Aspose.Cells para Python via .NET.
 - Crear o editar el encabezado y/o pie de página
 - Establecer área de impresión, títulos de impresión o activar las líneas de cuadrícula, etc.
 
+{{< app/cells/assistant language="python-net" >}}

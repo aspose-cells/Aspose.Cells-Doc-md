@@ -61,3 +61,4 @@ Sie erhalten eine Datei, die der [Ergebnisdatei](result.xlsx) ähnlich ist. In d
 
 ![](52449.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

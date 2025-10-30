@@ -44,3 +44,4 @@ Mit der Klasse **IPdfSaveOptions** können Sie die Erstellungszeit des PDF abruf
 Bitte sehen Sie sich den folgenden Beispielcode und das [Ausgabepdf](67338371.pdf) zu Ihrer Referenz an.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -16,3 +16,4 @@ Der folgende Beispielscode lädt eine Arbeitsmappe und exportiert dann den Druck
 [sampleInlineCharts.xlsx](79527946.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportPrintAreaToHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

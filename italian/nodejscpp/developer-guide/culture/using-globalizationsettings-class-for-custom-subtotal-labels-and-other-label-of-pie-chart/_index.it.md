@@ -129,3 +129,4 @@ La classe [**GlobalizationSettings**](https://reference.aspose.com/cells/nodejs-
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

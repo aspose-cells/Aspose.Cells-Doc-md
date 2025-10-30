@@ -32,3 +32,4 @@ Un foglio di lavoro protetto da password è uno protetto da una password. Tali f
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-UnprotectingPasswordProtectedWorksheet-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

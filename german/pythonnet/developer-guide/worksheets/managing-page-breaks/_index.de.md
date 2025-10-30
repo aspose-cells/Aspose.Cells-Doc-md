@@ -46,3 +46,4 @@ Im Vorschau-Modus für Seitenumbrüche oder im Druckvorschau-Modus können Sie s
 ## **Wichtig zu wissen**
 
 Wenn Sie **Passend für Seiten**-Eigenschaften festlegen (d. h. [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) und [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) in den Seiteneinrichtungseinstellungen, werden die Seitenumbrucheinstellungen beeinflusst. Daher werden die Seitenumbrucheinstellungen beim Drucken des Arbeitsblatts nicht berücksichtigt, obwohl sie immer noch eingestellt sind.
+{{< app/cells/assistant language="python-net" >}}

@@ -26,3 +26,4 @@ Um Nullwerte in einem Arbeitsblatt in Microsoft Excel zu verstecken (z. B. Micro
 Siehe den folgenden Beispielcode, der das Ausblenden von Nullwerten mit Aspose.Cells für Python via .NET demonstriert.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-HidingDisplayOfZeroValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

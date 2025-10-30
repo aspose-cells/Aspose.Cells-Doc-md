@@ -46,3 +46,4 @@ Aspose.Cells consente di ottenere le celle dipendenti nei fogli di calcolo. Aspo
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingDependents-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

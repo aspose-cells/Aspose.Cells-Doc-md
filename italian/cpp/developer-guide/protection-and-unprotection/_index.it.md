@@ -31,3 +31,4 @@ Proteggere e rimuovere la protezione del foglio di lavoro condiviso.
 - [Rilevare il formato del file di Office Open XML crittografato - file OOXML](/cells/it/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Crittografare i file Excel](/cells/it/cpp/encrypting-excel-files/)
 - [Come rilevare un formato di file e verificare se il file è crittografato](/cells/it/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

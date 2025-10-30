@@ -25,3 +25,4 @@ El siguiente ejemplo de código muestra cómo obtener la validación aplicada en
 ## Artículos relacionados
 
 - [Validación de datos](/cells/es/nodejs-cpp/data-validation/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

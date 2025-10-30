@@ -49,3 +49,4 @@ wb = new AsposeCells.Workbook(ms, opts);
 wb.save(path.join(dataDir, "outputWith_AutoFitColsAndRows.xlsx"));
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

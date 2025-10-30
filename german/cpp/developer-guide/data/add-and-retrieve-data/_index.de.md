@@ -45,3 +45,4 @@ Der Datentyp, der in einer Zelle enthalten ist, kann auch mit Hilfe der Methode 
 Sie können auch die oben definierten Zellwerttypen verwenden, um mit dem Typ der Daten in jeder Zelle zu vergleichen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

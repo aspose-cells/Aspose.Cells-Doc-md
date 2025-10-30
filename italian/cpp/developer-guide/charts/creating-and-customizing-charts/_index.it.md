@@ -36,3 +36,4 @@ Un grafico è composto da una serie di dati. Nella creazione di un grafico perso
 Il seguente codice di esempio mostra come creare grafici personalizzati. In questo esempio, useremo un grafico a colonne per la prima serie di dati e un grafico a linee per la seconda serie. Il risultato è che aggiungiamo un grafico a colonne, combinato con un grafico a linee, al foglio di lavoro. Si prega di consultare il [file Excel di output](66519071.xlsx) del seguente codice di esempio.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

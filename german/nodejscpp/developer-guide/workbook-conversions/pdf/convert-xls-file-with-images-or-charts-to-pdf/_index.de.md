@@ -42,3 +42,4 @@ console.log(e.message);
 Falls die Tabelle Formeln enthält, ist es am besten, die Methode [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) kurz vor dem Rendern in PDF aufzurufen. So werden formelabhängige Werte neu berechnet und die korrekten Werte im PDF angezeigt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -30,3 +30,4 @@ Aspose.Cells bietet eine überladene Methode [AddCopy()](https://reference.aspos
 Aspose.Cells bietet eine Methode [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/), die verwendet wird, um ein Arbeitsblatt an eine andere Stelle im selben Tabellenkalkulationsblatt zu verschieben. Die Methode nimmt den Index des Zielarbeitsblatts als Parameter entgegen. Das folgende Beispiel zeigt, wie ein Arbeitsblatt innerhalb der Arbeitsmappe an eine andere Stelle verschoben wird.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

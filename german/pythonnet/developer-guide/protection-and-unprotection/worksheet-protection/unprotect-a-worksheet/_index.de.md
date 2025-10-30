@@ -32,3 +32,4 @@ Ein mit einem Passwort geschütztes Arbeitsblatt ist ein Arbeitsblatt, das mit e
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-UnprotectingPasswordProtectedWorksheet-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

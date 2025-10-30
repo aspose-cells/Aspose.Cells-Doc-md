@@ -18,3 +18,4 @@ Il seguente codice di esempio carica il [file Excel di origine](84378743.xlsx). 
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-KeepSeparatorsForBlankRow-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

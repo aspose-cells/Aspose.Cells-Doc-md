@@ -11,3 +11,4 @@ url: /it/python-net/supported-font-formats/
 |**TTC**|Collezioni di caratteri TrueType|
 |**OTF**|Caratteri OpenType|
 
+{{< app/cells/assistant language="python-net" >}}

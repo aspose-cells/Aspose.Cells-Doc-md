@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET bietet jetzt die [**Style.quote_prefix**](https
 Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie Muster und 'Muster nicht mit der [**Cell.string_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/string_value/)-Eigenschaft differenziert werden können. Daher müssen wir die [**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix/)-Eigenschaft verwenden, um sie zu unterscheiden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FindIfCellValueStartsWithSingleQuote.py" >}}
+{{< app/cells/assistant language="python-net" >}}

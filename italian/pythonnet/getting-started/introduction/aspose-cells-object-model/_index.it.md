@@ -87,3 +87,4 @@ Ciascun oggetto Worksheet contiene un oggetto VerticalPageBreakCollection che ra
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Un oggetto VerticalPageBreak viene utilizzato per creare un'interruzione di pagina verticale nel foglio di lavoro.
+{{< app/cells/assistant language="python-net" >}}

@@ -17,7 +17,7 @@ Este artículo demuestra el uso de Aspose.Cells for Java APIs para crear gráfic
 
 {{% alert color="primary" %}}
 
-Las Tablas de Excel se denominan ListObjects en la perspectiva de Aspose.Cells, por lo tanto, utilizaremos el término "ListObject" en lugar de "Tabla" para mayor claridad. Por favor, lea en detalle cómo [crear ListObjects](/cells/es/java/creating-a-list-object/) con Aspose.Cells for .NET API.
+Las tablas de Excel se denominan ListObjects desde la perspectiva de Aspose.Cells, por lo tanto usaremos el término "ListObject" en lugar de "Tabla" para mayor claridad. Por favor, lea con detalle cómo [crear ListObjects](/cells/es/java/creating-a-list-object/) con la API Aspose.Cells for Java.
 
 {{% /alert %}}
 

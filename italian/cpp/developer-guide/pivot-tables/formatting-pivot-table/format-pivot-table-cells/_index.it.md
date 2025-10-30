@@ -51,3 +51,4 @@ int main() {
 
 - [Formattazione tabella pivot](/cells/it/cpp/formatting-pivot-table/)
 - [Lavorare con i formati di visualizzazione dei dati dei campi dati nella tabella pivot](/cells/it/cpp/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="cpp" >}}

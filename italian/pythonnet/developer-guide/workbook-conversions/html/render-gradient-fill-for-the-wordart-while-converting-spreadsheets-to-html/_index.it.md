@@ -14,3 +14,4 @@ Prima di Aspose.Cells 17.1, Aspose.Cells non rendeva il riempimento a gradienti 
 Il seguente codice di esempio converte il [file excel di origine](22774111.xlsx) nel [formato HTML di output](22774109.zip). Il file excel di origine contiene un'oggetto WordArt con riempimento a sfumatura come mostrato nella schermata sopra.
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-RenderGradientFillToHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

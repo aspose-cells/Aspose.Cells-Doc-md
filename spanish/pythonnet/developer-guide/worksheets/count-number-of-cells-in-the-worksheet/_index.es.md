@@ -10,3 +10,4 @@ keywords: contar número de celdas de hoja de cálculo de excel c#, celdas de ho
 Puede contar el número de celdas en la hoja de cálculo utilizando las propiedades [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) o [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) como se muestra en el ejemplo de código a continuación.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

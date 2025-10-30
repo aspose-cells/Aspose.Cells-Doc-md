@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 - [Fügen Sie Word-Art-Text mit integrierten Stilen hinzu](/cells/de/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [Sperren des WordArt-Wasserzeichens](/cells/de/nodejs-cpp/locking-wordart-watermark/)
 - [Voreingestellten WordArt-Stil auf den Text der Form setzen](/cells/de/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

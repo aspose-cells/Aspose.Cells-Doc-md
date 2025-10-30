@@ -8,14 +8,68 @@ url: /es/java/what-s-new-in-aspose-cells-for-java/
 
 Esta página describe las nuevas características más interesantes de Aspose.Cells introducidas en versiones recientes.
 
+## Aspose.Cells for Java 25.10
+* Proporcionar opción para determinar cómo mostrar los dígitos significativos para valores numéricos
+* Soporte para procesar celdas exportadas con ExportTableOptions personalizadas cuando ExportAsString es verdadero
+* Soporte para analizar fechas y horas con el calendario de la Realeza Japonesa
+* Soporte para actualizar fórmulas de matriz dinámica por defecto al calcular fórmulas para el Libro de trabajo
+* Mejorar compatibilidad con la biblioteca PdfBox para el archivo PDF generado al convertir a PDF
+* Soporte para calcular estilos en la tabla dinámica al renderizar el rango de la tabla dinámica en una imagen
+* Exportar gráficos avanzados de Excel 2016 a docx
+* Soporte para poblar comentarios en una celda usando Marcadores Inteligentes
+
+## Aspose.Cells for Java 25.9
+* Soporte para funciones WRAPCOLS, WRAPROWS
+* Soporte para selectores de variación de fuente al convertir a xps
+* Soporte para selectores de variación de fuente al convertir a svg con fuente incrustada
+* Soporte para incrustar fuentes al convertir archivo a html
+* Soporte para formato de archivo FlatOPC
+* Soporte para gráficos editables y objetos incrustados (objeto OLE) en archivo pptx
+* Soporte para marcadores inteligentes en hojas de trabajo Maestro-Detalle
+* Soporte para marcador inteligente para hoja de trabajo repetida
+
+## Aspose.Cells for Java 25.8
+* Soporte para las nuevas funciones de Office 365: EXPAND, REDUCE, COT, COTH
+* Soporte para selectores de variación de fuente al guardar PDF
+* Soporte para conservar filas fijadas al guardar en HTML
+* Soporte para variables en fórmulas y parámetros "if" para marcadores inteligentes
+* Soporte para marcadores inteligentes en rangos para procesar fuentes de datos anidadas
+* Soporte para lectura de imágenes codificadas en base64 y definiciones de referencias de enlaces durante la importación Markdown
+* Soporte para opciones de alineación y borde en formato numérico para GridJs
+* Soporte para aplicar configuración de fuente en control de cuadro de texto en JS cliente para GridJs
+* Soporte para función de inserción en lote de filas en el menú y por debajo del máximo de filas para GridJs
+* Soporte para ajuste automático de texto en GridJs
+* Soporte para modo colaborativo en GridJs
+
+## Aspose.Cells for Java 25.7
+* Soporte para nuevas funciones en fórmulas: TAKE, ISOMITTED
+* Soporte para Variables en la plantilla de Excel para marcador inteligente
+* Soporte para exportar imagen flotante a Numbers
+* Soporte para usar caché de archivos en conjuntos de datos de celdas grandes para reducir el uso de memoria
+
+## Aspose.Cells for Java 25.6
+* Soporte para incrustar fuentes en el archivo pcl generado
+* Soporte para exportar hipervínculos y configuraciones de impresión al guardar en Numbers
+* Soporte para opción de seleccionar la referencia de hoja para tabla dinámica al copiar la hoja de cálculo
+
+## Aspose.Cells for Java 25.5
+* Soporte para exportar imágenes en formato Markdown
+* Soporte para exportar cuadros de texto, formatos condicionales a formato Numbers
+* Soporte para exportar imagen incrustada y datos de entidad a formato Docx
+* Soporte para la función de cámara en rango
+* Mejora para copiar segmentadores al copiar el libro de trabajo
+* Soporte para opción de token en solicitud API para GridJs
+* Soporte de menús en polaco para GridJs
+* Soporte de APIs en javascript para insertar/eliminar filas/columnas en GridJs
+
 ## Aspose.Cells for Java 25.4
-* Soporta especificar el conjunto de hojas a exportar a HTML
-* Soporta obtener y establecer el color de las líneas de cuadrícula de una hoja de trabajo
-* Soporta exportar gráficos editables a archivos DOCX
-* Soporta leer y escribir etiquetas de sensibilidad
-* Soporta exportar más atributos de estilo a Numbers
-* Soporta importar archivos plantilla en formato Markdown
-* Soporta detectar si alguna función personalizada es usada en fórmulas en `Cell` y `Workbook`
+* Soporte para especificar el conjunto de hojas a exportar a HTML
+* Soporte para obtener y establecer el color de las líneas de cuadrícula de una hoja de cálculo
+* Soporte para exportar gráficos editables a archivos DOCX
+* Soporte para leer y escribir etiquetas de sensibilidad
+* Soporte para exportar más atributos de estilo a Numbers
+* Soporte para importar archivos de plantilla en formato Markdown
+* Soporte para detectar si alguna función personalizada está siendo utilizada por fórmulas en `Cell` y `Workbook`
 
 ## Aspose.Cells for Java 25.3
 * Soporte para obtener el estilo de visualización de una celda desde las celdas sin obtener el objeto de celda

@@ -60,3 +60,4 @@ Bild in Zelle einfügen mit Aspose.Cells for Python via .NET. Bitte beachten Sie
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-place-image-in-cell.py" >}}
+{{< app/cells/assistant language="python-net" >}}

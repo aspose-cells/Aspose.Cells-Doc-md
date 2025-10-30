@@ -106,3 +106,4 @@ Nel file generato, il grafico conterà dinamicamente i dati per il mese selezion
 ```
 
 Puoi provare a cambiare il valore della lista a discesa nella cella "Foglio1!$A$10", e vedrai il cambiamento dinamico del grafico. Abbiamo creato con successo un grafico dinamico con lista a discesa utilizzando Aspose.Cells.
+{{< app/cells/assistant language="nodejs-cpp" >}}

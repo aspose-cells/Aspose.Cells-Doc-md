@@ -59,3 +59,4 @@ int main()
 ```
 
 Adjunto [archivo de Excel de muestra](../Freeze.xlsx).
+{{< app/cells/assistant language="cpp" >}}

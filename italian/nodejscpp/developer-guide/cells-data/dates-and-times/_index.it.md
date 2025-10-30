@@ -65,3 +65,4 @@ A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59  
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

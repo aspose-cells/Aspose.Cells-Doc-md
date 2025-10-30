@@ -23,3 +23,4 @@ Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells
 Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) proporciona una amplia gama de métodos utilizados para gestionar una hoja de cálculo. Para agregar los saltos de página, utiliza el método [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) de la clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Añadir Saltos de Página**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

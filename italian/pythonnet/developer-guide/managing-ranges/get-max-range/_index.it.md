@@ -40,3 +40,4 @@ I seguenti codici mostrano come renderizzare il range di visualizzazione massimo
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Ecco il [file excel di origine](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

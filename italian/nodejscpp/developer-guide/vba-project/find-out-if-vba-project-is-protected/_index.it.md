@@ -44,3 +44,4 @@ IsProtected - Before Protecting VBA Project: False
 IsProtected - After Protecting VBA Project: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

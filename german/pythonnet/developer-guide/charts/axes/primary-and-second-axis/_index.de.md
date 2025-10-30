@@ -18,3 +18,4 @@ Dann fügen wir ein Diagramm hinzu und zeigen die zweite Achse.
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-primary-and-second-axis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

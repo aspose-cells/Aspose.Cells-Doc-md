@@ -40,3 +40,4 @@ Aspose.Cells permite a los desarrolladores acceder al rango máximo de visualiza
 Puede acceder al rango máximo de visualización de una hoja de cálculo utilizando el método [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) de la colección de [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

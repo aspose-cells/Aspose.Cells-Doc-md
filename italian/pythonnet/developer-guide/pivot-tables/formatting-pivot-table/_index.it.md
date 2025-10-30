@@ -65,3 +65,4 @@ Il [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspo
 Il campione di codice sottostante mostra come eliminare tutti i campi di un Pivot in un'area dati.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

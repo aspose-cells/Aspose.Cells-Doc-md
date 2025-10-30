@@ -13,3 +13,4 @@ El siguiente código de muestra muestra cómo agrupar filas y columnas. Agrupa l
 ![todo:image_alt_text](group-rows-and-columns-of-worksheet_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-GroupRowsAndColumnsOfWorksheet-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

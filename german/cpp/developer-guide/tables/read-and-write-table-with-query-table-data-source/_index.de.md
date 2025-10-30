@@ -54,3 +54,4 @@ Die Quell- und Ausgabedateien im Excel-Format sind zur Referenz beigefügt.
 [Quelldatei](96928091.xls)
 
 [Ausgabedatei](96928092.xls)
+{{< app/cells/assistant language="cpp" >}}

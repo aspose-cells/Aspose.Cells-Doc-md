@@ -23,19 +23,21 @@ Die Klasse [Aspose.Cells.Rendering.ISheetRender](https://reference.aspose.com/ce
 
 Der folgende Codeausschnitt zeigt, wie man ein Arbeitsblatt in einer Excel-Datei in eine Bilddatei konvertiert.
 
-### **PNG-Format**
+### **Excel/Tabellendokument in PNG mit GoLang konvertieren**
 
 Bitte werfen Sie einen Blick auf den folgenden Beispielcode, die [Beispiel-Excel-Datei](67338402.xlsx) und die [Ausgabebilder im PNG-Format](67338401.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Png.go" >}}
 
-### **TIFF-Format**
+### **Excel/Tabellendokument in TIFF mit GoLang konvertieren**
 
 Bitte werfen Sie einen Blick auf den folgenden Beispielcode, die [Beispiel-Excel-Datei](67338402.xlsx) und das [Ausgabe-TIFF-Bild](67338419.zip).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Tiff.go" >}}
 
-## **Arbeitsblatt in SVG konvertieren**
+## **Excel/Tabellendokument in SVG mit GoLang konvertieren**
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertWorksheetToImage_Svg.go" >}}
 
 SVG steht für Skalierbare Vektorgrafiken. SVG ist eine Spezifikation auf der Grundlage von XML-Standards für zweidimensionale Vektorgrafiken. Es ist ein offener Standard, der vom World Wide Web Consortium (W3C) seit 1999 entwickelt wird.
 

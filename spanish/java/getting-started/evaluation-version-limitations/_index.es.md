@@ -37,7 +37,7 @@ Esta hoja de cálculo siempre se mostrará como la hoja de cálculo activa. Solo
 <br>
 
 ### **3ra Limitación: Texto Simple con información de Evaluación**
-En el archivo de Texto Simple de Aspose.Cells, se agregaría información de evaluación al final del documento.
+En el archivo de texto plano generado por Aspose.Cells, se agregará información de evaluación al final del documento. Al guardar un archivo en formato de texto plano (como CSV y TSV), solo se exporta el contenido de la primera hoja de cálculo.
 <br>
 <image src="2.png" width="70%" />
 <br>

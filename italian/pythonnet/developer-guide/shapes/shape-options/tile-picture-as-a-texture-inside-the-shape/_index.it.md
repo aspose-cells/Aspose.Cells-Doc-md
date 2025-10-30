@@ -20,3 +20,4 @@ Quando l'immagine è piccola e non copre l'intera superficie della forma senza p
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-TilePictureAsTextureInsideShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

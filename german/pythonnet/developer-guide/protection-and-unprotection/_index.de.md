@@ -10,7 +10,7 @@ description: Dieser Ausschnitt zeigt, wie man Excel Dateien verschlüsselt und e
 
 
 {{% alert color="primary" %}}
-Aspose.Cells für .Net bietet eine breite Palette von Funktionen zum Schutz und zur Aufhebung des Schutzes auf Datei- und Datenebene, ähnlich wie MS Excel:
+Aspose.Cells für Python via .NET bietet eine breite Palette an Schutz- und Entschutzfunktionen auf Dateiebene bis hin zum Datenlevel wie MS Excel:
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Schützen Sie die Authentizität des Dokumenteninhalts, indem Sie eine digitale 
 - [Verschlüsselung von Excel-Dateien](/cells/de/python-net/encrypting-excel-files/)
 - [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

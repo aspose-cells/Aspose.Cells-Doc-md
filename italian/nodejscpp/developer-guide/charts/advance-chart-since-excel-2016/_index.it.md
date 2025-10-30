@@ -70,3 +70,4 @@ BoxWhisker
 - [Creazione del grafico Mappa a blocchi](/cells/it/nodejs-cpp/creating-treemap-chart/)  
 - [Creazione del grafico Radiali](/cells/it/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

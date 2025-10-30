@@ -26,3 +26,4 @@ Possiamo usare Aspose.Cells for Node.js via C++ per creare Grafici Dinamici nei 
 - [Crea un Grafico di Scorrimento Dinamico usando Aspose.Cells](/cells/it/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Crea un Grafico Dinamico con menu a discesa usando Aspose.Cells](/cells/it/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

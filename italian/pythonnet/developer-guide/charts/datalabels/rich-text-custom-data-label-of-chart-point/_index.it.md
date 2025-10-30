@@ -18,3 +18,4 @@ Puoi usare Aspose.Cells per Python via .NET per creare etichette personalizzate 
 Il codice seguente accede al primo punto del grafico della prima serie, imposta il suo testo e quindi imposta il carattere dei primi 10 caratteri impostando il suo colore su rosso e il grassetto su **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

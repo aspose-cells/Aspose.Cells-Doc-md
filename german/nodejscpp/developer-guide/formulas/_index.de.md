@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Maximale Zeilen der gemeinsamen Formel angeben](/cells/de/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [Unterstützte Excel-Funktionen](/cells/de/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -41,3 +41,4 @@ Das folgende Beispiel erstellt ein neues Arbeitsblatt von Grund auf, schreibt di
 Das folgende Beispiel öffnet eine vorhandene Microsoft Excel-Vorlagendatei namens **book1.xls**, schreibt die Worte 'Hallo Welt!' in die Zelle A1 im ersten Arbeitsblatt und speichert das Arbeitsblatt als neue Datei.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}
+{{< app/cells/assistant language="python-net" >}}

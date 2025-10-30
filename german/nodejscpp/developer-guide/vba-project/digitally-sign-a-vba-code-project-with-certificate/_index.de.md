@@ -51,3 +51,4 @@ workbook.getVbaProject().sign(digitalSignature);
 // Save the workbook
 workbook.save(path.join(outputDir, "outputDigitallySignVbaProjectWithCertificate.xlsm"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

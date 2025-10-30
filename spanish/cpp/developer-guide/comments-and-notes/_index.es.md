@@ -190,3 +190,4 @@ int main()
 - [Cómo cambiar el color de fuente del comentario](/cells/es/cpp/how-to-change-the-comment-font-color/)
 - [Cómo configurar el fondo del comentario](/cells/es/cpp/how-to-set-comment-background/)
 - [Comentarios enhebrados](/cells/es/cpp/threaded-comments/)
+{{< app/cells/assistant language="cpp" >}}

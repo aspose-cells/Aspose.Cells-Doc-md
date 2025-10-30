@@ -23,3 +23,4 @@ Spesso usiamo i colori invece che il bianco e nero per indicare i prezzi in aume
 Il codice di esempio seguente carica il [file Excel di esempio](Open-High-Low-Close.xlsx) e genera il [file Excel di output](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-open-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

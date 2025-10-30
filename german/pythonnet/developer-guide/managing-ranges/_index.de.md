@@ -76,3 +76,4 @@ Bitte führen Sie nun das folgende Beispiel aus und sehen Sie, wie es in Aspose.
 - [Arbeitsbuch- und arbeitsblattübergreifende benannte Bereiche erstellen](/cells/de/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Suchen und Ersetzen von Daten in einem Bereich](/cells/de/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

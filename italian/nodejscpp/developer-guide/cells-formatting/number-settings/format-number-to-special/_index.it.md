@@ -108,3 +108,4 @@ Ecco un esempio di codice che dimostra questi passaggi:
 
 La formattazione dei numeri in formati speciali in Aspose.Cells for Node.js via C++ comporta impostare il formato numerico personalizzato dello stile di una cella. Ciò permette una vasta gamma di opzioni di formattazione, consentendoti di visualizzare i dati esattamente come desideri. Ricorda, la chiave per i formati personalizzati è la stringa di formato che fornisci, che determina come verrà visualizzato il numero.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

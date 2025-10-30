@@ -46,3 +46,4 @@ En la vista preliminar de saltos de página o en la vista preliminar de impresi�
 ## **Importante saber**
 
 Cuando se establecen las propiedades **FitToPages** (es decir, [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) y [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) en la configuración de la página, la configuración de saltos de página se ve afectada, por lo que si imprime la hoja de cálculo, la configuración de saltos de página no se tiene en cuenta aunque esté configurada.
+{{< app/cells/assistant language="python-net" >}}

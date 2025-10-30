@@ -79,3 +79,4 @@ Bei der Arbeit mit Tabellenblättern können Benutzer verschiedene Arten von Dat
 - [Daten erst nach Zeile und dann nach Spalte ausfüllen](/cells/de/python-net/populate-data-first-by-row-then-by-column/)
 - [Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten](/cells/de/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Teile des Rich-Texts der Zelle zugreifen und aktualisieren](/cells/de/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

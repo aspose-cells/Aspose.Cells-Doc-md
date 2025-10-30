@@ -14,3 +14,4 @@ Le API Aspose.Cells per Python via .NET consentono di aggiungere filigrane WordA
 Le API Aspose.Cells per Python via .NET consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente snippet di codice dimostra come usare le API Aspose.Cells per Python via .NET per bloccare la selezione, il movimento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

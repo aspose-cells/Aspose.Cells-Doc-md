@@ -698,3 +698,4 @@ Se adjuntan los archivos de Excel de origen y salida para referencia.
 - [Obtener validación de celda en archivos ODS](/cells/es/cpp/get-cell-validation-in-ods-files/)
 - [Obtener Validación Aplicada en una Celda](/cells/es/cpp/get-validation-applied-on-a-cell/)
 - [Verificar que el Valor de la Celda Satisface las Reglas de Validación de Datos](/cells/es/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

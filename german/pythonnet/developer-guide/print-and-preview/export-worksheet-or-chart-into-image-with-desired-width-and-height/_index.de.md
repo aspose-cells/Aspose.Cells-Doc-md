@@ -15,3 +15,4 @@ Der folgende Code exportiert das Arbeitsblatt in ein Bild mit der Größe 400x40
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-WorksheetToImageDesiredSize-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -19,3 +19,4 @@ Il codice di esempio seguente crea un workbook e modifica le proprietà del docu
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Document-Properties-SpecifyDocumentVersionOfExcelFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -48,3 +48,4 @@ Dieser Code stellt sicher, dass nur die angegebenen Zellen (A1 und B2 in diesem 
 <img src="3.png" width=60% />
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

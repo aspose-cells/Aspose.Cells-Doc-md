@@ -18,7 +18,7 @@ Tuttavia, possiamo scrivere alcune funzioni js basate sulla struttura DOM per ot
 
 
 
-## personalizzazione della barra dei menu 
+## Personalizza la barra del menu 
 ad esempio: per mantenere solo il menu File, supponi che l'id del div di GridJs sia "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -42,7 +42,7 @@ Dopo aver chiamato questa funzione
 ![todo:la schermata di personalizzazione della barra dei menu](gridjs_customize_menubar.png)
 
 
-## personalizza gli elementi nella barra dei menu 
+## Personalizza gli elementi nella barra del menu 
 ad esempio: per mantenere solo l'elemento di menu "Download As XLSX" nel menu File, supponi che l'id del div di GridJs sia "gridjs-divid"
 ```javascript
    //get menubar parent dom
@@ -73,7 +73,7 @@ Dopo aver chiamato questa funzione
 
 ![todo:la schermata di personalizzazione dell'elemento del menu](gridjs_customize_menu.png)
 
-## personalizza gli elementi della barra degli strumenti 
+## Personalizza gli elementi della barra degli strumenti 
 ad esempio: per mantenere solo il pulsante di zoom, supponi che l'id del div di GridJs sia "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -95,6 +95,84 @@ ad esempio: per mantenere solo il pulsante di zoom, supponi che l'id del div di 
 Dopo aver chiamato questa funzione 
 
 ![todo:la schermata di personalizzazione della barra degli strumenti](gridjs_customize_toolbar.png)
+
+
+## Personalizza l'effetto hover sulla barra degli strumenti
+
+apri finestra di ispezione del browser, seleziona il pulsante della barra degli strumenti,
+
+![todo: la schermata per selezionare il pulsante di ispezione della barra degli strumenti](gridjs_hover_toolbar_button_inspect.png)
+
+poi possiamo trovare la chiave CSS correlata a questo pulsante: freeze
+
+![todo:la schermata per trovare la chiave CSS per il pulsante della toolbar](gridjs_hover_toolbar_button_csskey.png)
+
+aggiungi la regola CSS di seguito:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+il risultato sarà :
+
+![todo:la schermata per effetto hover del pulsante della toolbar](gridjs_hover_toolbar_button_hover.png)
+
+
+## Personalizza gli Elementi nella Barra Inferiore
+
+### Panoramica
+La barra inferiore contiene due pulsanti interattivi:
+1. &zwnj;**Aggiungi Pulsante Foglio di Lavoro**&zwnj; (`add` classe) - Crea nuovi fogli di lavoro
+2. &zwnj;**Seleziona Pulsante Foglio di Lavoro**&zwnj; (`ellipsis` classe) - Gestisce la selezione del foglio di lavoro
+
+### Accesso DOM
+Puoi accedere a questi elementi utilizzando:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Esempi di Personalizzazione
+1. Nascondi Pulsanti
+Per rimuovere un pulsante dal DOM:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Cambia Icone
+Puoi sostituire le icone usando file SVG esterni o dati SVG inline.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Cambia Comportamento del Pulsante
+Puoi modificare l'evento di clic per personalizzare la funzionalità:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 
 
 

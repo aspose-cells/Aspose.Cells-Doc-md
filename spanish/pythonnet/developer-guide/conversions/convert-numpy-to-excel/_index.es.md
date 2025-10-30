@@ -78,3 +78,4 @@ Aquí hay un ejemplo de fragmento de código para demostrar cómo importar datos
 El resultado de la salida:
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

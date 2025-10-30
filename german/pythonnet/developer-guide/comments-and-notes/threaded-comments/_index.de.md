@@ -118,3 +118,4 @@ Das folgende Beispiel demonstriert die Bearbeitung des ersten Threaded-Kommentar
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-EditThreadedComments-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

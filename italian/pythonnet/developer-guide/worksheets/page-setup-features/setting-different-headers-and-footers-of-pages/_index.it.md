@@ -29,3 +29,4 @@ Aspose.Cells per Python via .NET si comporta allo stesso modo di Excel.
 1. Inserisci intestazioni e piè di pagina diversi.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-DiffHeaderFooter.py" >}}
+{{< app/cells/assistant language="python-net" >}}

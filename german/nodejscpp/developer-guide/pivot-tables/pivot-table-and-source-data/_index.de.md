@@ -53,3 +53,4 @@ Die Ausführung des untenstehenden Beispielcodes ändert die Quelldaten der Pivo
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-ChangeSourceData-1.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

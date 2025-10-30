@@ -12,3 +12,4 @@ description: Descripción general de los formatos de fuente compatibles en Aspos
 |**TTF**|Fuentes TrueType|
 |**TTC**|Colección de Fuentes TrueType|
 |**OTF**|Fuentes OpenType|
+{{< app/cells/assistant language="nodejs-cpp" >}}

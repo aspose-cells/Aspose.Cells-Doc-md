@@ -47,3 +47,4 @@ Um Zahlen in Excel als Währung zu formatieren, folgen Sie diesen Schritten:
 Um Zahlen in der Aspose.Cells for Node.js via C++-Bibliothek für Excel-Dateien als Währung zu formatieren, können Sie die Währungsformatierung programmatisch auf Zellen anwenden. So geht's mit Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToCurrency.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

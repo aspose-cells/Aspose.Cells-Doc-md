@@ -118,3 +118,4 @@ Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF dar
 
 ## **Erweiterte Themen**
 - [Diagramm in PDF umwandeln](/cells/de/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

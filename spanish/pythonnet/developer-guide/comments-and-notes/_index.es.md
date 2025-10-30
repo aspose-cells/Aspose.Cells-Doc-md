@@ -4,7 +4,7 @@ linktitle: Comentarios y notas
 type: docs
 weight: 128
 url: /es/python-net/comments-and-notes/
-description: Insertar y gestionar comentarios o notas con Aspose.Cells para .Net
+description: Insertar y gestionar comentarios o notas con Aspose.Cells para Python via .NET.
 keywords: insertar comentarios, insertar notas
 ---
 
@@ -48,3 +48,4 @@ Aspose.Cells también proporciona esta función. A continuación se muestra un e
 - [Cómo configurar el fondo del comentario](/cells/es/python-net/how-to-set-comment-background/)
 - [Comentarios enhebrados](/cells/es/python-net/threaded-comments/)
 
+{{< app/cells/assistant language="python-net" >}}

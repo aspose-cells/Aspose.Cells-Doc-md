@@ -45,3 +45,4 @@ Aspose.Cells für Python via .NET bietet [**Worksheet.page_setup.get_commands**]
 Der folgende Code zeigt, wie der Kopf oder der Fuß als Befehlsliste geparst und Befehle verarbeitet werden:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

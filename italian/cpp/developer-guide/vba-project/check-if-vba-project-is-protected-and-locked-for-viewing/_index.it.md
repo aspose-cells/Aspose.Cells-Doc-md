@@ -54,3 +54,4 @@ Questo è l'output della console del codice di esempio precedente quando eseguit
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

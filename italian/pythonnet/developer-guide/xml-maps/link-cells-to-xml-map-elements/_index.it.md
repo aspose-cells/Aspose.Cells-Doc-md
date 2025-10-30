@@ -17,3 +17,4 @@ Se si apre il [file Excel di output](5115467.xlsx) e si fa clic sul pulsante Svi
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "XmlMaps-LinkCellsToXmlMapElements.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

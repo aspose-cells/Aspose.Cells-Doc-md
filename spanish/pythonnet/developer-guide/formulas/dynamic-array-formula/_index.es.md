@@ -135,3 +135,4 @@ Por favor, mira el siguiente código de ejemplo que carga el [archivo Excel de m
 La instantánea de salida:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

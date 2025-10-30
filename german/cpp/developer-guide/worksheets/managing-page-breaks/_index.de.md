@@ -23,3 +23,4 @@ Aspose.Cells bietet eine Klasse [Workbook](https://reference.aspose.com/cells/cp
 Ein Arbeitsblatt wird durch die Klasse [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) repräsentiert. Die Klasse [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) bietet eine große Auswahl an Methoden, um Arbeitsblätter zu verwalten. Um Seitenumbrüche hinzuzufügen, verwenden Sie die Methode [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) der Klasse [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Seitenumbrüche hinzufügen**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

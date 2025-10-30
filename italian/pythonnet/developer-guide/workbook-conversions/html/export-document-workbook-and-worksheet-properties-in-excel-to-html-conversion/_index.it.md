@@ -18,3 +18,4 @@ Il codice di esempio seguente carica il [file di esempio di Excel](61767776.xlsx
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -33,3 +33,4 @@ Consulta el código de ejemplo a continuación que describe cómo puedes realiza
 - [Agregar línea de firma a la hoja de trabajo](/cells/es/python-net/add-signature-line/)
 - [Soporte para firma XAdES](/cells/es/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

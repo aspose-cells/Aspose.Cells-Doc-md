@@ -37,3 +37,4 @@ El siguiente código aplica la función de consolidación **Promedio** al primer
 La función de consolidación CUENTA_DISTINTA es compatible solo con Microsoft Excel 2013.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

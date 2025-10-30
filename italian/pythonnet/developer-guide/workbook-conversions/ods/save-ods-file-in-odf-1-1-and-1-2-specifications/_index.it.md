@@ -18,3 +18,4 @@ Aspose.Cells per Python via .NET supporta il salvataggio di un file ODS (OpenDoc
 Il codice di esempio seguente crea un oggetto workbook, aggiunge un valore alla cella A1 sul primo foglio di lavoro e quindi salva il file ODS nelle specifiche ODF 1.1 e 1.2. Per impostazione predefinita, il file ODS viene salvato nella specifica ODF 1.2.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -56,3 +56,4 @@ Aspose.Cells für Python via .NET ermöglicht Entwicklern den Zugriff auf den ma
 Sie können den maximalen Anzeigebereich eines Arbeitsblatts mithilfe von [**Worksheet.cells.max_display_range**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/) abrufen. Der folgende Beispielcode veranschaulicht, wie auf die [**MaxDisplayRange**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/max_display_range/)-Eigenschaft zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

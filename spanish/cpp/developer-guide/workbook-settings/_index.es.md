@@ -6,3 +6,4 @@ weight: 185
 url: /es/cpp/workbook-settings/
 description: Gestionar configuraciones de archivos de Microsoft Excel usando Aspose.Cells con C++.
 ---
+{{< app/cells/assistant language="cpp" >}}

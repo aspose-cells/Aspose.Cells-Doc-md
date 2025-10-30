@@ -152,3 +152,4 @@ int main()
 ### Fazit
 
 Das Formatieren von Nummern in spezielle Formate in Aspose.Cells for C++ beinhaltet das Setzen des benutzerdefinierten Zahlenformats einer Zelle. Dies ermöglicht eine Vielzahl von Formatierungsoptionen, sodass Sie Daten genau so anzeigen können, wie Sie es benötigen. Denken Sie daran, dass der Schlüssel zu benutzerdefinierten Formaten die Formatzeichenfolge ist, die Sie angeben, welche bestimmt, wie die Nummer angezeigt wird.
+{{< app/cells/assistant language="cpp" >}}

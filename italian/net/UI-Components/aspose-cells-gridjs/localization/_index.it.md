@@ -20,13 +20,13 @@ aliases:
 
 Questa guida ti guiderà nella configurazione del supporto multilingue nel tuo progetto Aspose.Cells GridJs. Copre sia le configurazioni frontend che backend.
 
-La guida si basa sul [progetto demo](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs), si prega di adattarla alla situazione reale
+Il tutorial si basa sul [progetto demo](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs), si prega di adattarlo alla situazione reale
 
 ## Configurazione frontend
 
 Nelle tue pagine frontend, imposta la lingua dell'interfaccia utilizzando l'opzione `local`.
 
-Nel progetto demo, è necessario modificare il file [uidload.html](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)
+Nel progetto demo, è necessario modificare il file [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html)
 
 Ecco un esempio:
 
@@ -48,7 +48,7 @@ const loadNormalContext = (sheet) => {
 
 Nel codice backend, è necessario impostare CultureInfo appropriato prima di elaborare i dati Excel.
 
-Nel progetto demo, è necessario modificare il file [Controller](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)
+Nel progetto demo, è necessario modificare il file [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs)
 
 ### Punti di configurazione del controller
 

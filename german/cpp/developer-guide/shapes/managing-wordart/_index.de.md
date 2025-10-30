@@ -65,3 +65,4 @@ int main()
 - [Fügen Sie Word-Art-Text mit integrierten Stilen hinzu](/cells/de/cpp/add-word-art-text-with-built-in-styles/)
 - [Sperren des WordArt-Wasserzeichens](/cells/de/cpp/locking-wordart-watermark/)
 - [Voreingestellten WordArt-Stil auf den Text der Form setzen](/cells/de/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

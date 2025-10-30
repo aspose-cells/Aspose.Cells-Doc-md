@@ -45,3 +45,4 @@ Aspose.Cells per Python via .NET fornisce il metodo [**Worksheet.page_setup.get_
 I seguenti codici mostrano come analizzare l'intestazione o il piè di pagina come elenco di comandi e processarli:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Parses-Header-Footer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

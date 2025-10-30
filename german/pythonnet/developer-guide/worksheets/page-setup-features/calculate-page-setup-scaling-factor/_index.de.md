@@ -16,3 +16,4 @@ Wenn Sie die Seiteneinrichtung mit der Option **Fit auf n Seite(n) breit x m Sei
 Der folgende Beispielcode veranschaulicht, wie der Maßstabsfaktor für die Seiteneinrichtung mit der Eigenschaft [**SheetRender.page_scale**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/page_scale) berechnet wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-CalculateScalingFactor-CalculatePageSetupScalingFactor.py" >}}
+{{< app/cells/assistant language="python-net" >}}

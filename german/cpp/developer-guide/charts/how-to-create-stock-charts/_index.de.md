@@ -25,3 +25,4 @@ Aktiencharts sind eine spezielle Art von Diagrammen, die die Kursveränderungen 
 Der folgende Datensatz zeigt die täglichen Handelsinformationen für eine Aktie. Wir werden diese Daten verwenden, um vier Arten von Aktiencharts zu erstellen: Hoch-Tief-Schluss (HLC), Eröffnung-Hoch-Tief-Schluss (OHLC), Volumen-Hoch-Tief-Schluss (VHLC) und Volumen-Eröffnung-Hoch-Tief-Schluss (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="cpp" >}}

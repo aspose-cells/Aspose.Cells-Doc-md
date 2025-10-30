@@ -65,3 +65,4 @@ Especifique las propiedades [**FindOptions.look_in_type**](https://reference.asp
 - [Encontrar celdas con estilo específico](/cells/es/python-net/find-cells-with-specific-style/)
 - [Encontrar si el valor de la celda comienza con una comilla simple](/cells/es/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Buscar Datos usando Valores Originales](/cells/es/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

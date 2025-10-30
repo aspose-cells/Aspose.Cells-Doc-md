@@ -32,3 +32,4 @@ Nel file generato, puoi continuare ad aggiungere dati nelle colonne A e B, mentr
 ```
 
 Puoi provare a cambiare il numero "-5" in "-10" nella formula, e il grafico dinamico conterà gli ultimi 10 set di dati. Ora abbiamo creato con successo un grafico mobile dinamico usando Aspose.Cells per Python via .NET.
+{{< app/cells/assistant language="python-net" >}}

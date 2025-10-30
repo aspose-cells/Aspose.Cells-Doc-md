@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Desproteger una Hoja de Cálculo](/cells/es/nodejs-cpp/unprotect-a-worksheet/)  
 - [Verificar la Contraseña Utilizada para Proteger la Hoja de Cálculo](/cells/es/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

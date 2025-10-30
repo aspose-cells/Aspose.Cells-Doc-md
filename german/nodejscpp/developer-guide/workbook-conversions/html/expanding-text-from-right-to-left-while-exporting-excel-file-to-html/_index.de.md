@@ -41,3 +41,4 @@ const wb = new AsposeCells.Workbook(filePath);
 wb.save(path.join(dataDir, `ExpandTextFromRightToLeft_out_${AsposeCells.CellsHelper.getVersion()}.html`), AsposeCells.SaveFormat.Html);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

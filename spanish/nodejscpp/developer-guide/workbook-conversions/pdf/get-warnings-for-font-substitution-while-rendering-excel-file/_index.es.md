@@ -74,3 +74,4 @@ Si tu hoja de cálculo contiene fórmulas, es mejor llamar al método Workbook.c
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

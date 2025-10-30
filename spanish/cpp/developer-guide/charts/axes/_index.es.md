@@ -88,3 +88,4 @@ int main()
 - [Manejar Unidades Automáticas del Eje del Gráfico como Microsoft Excel](/cells/es/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Leer etiquetas del eje después de calcular el gráfico](/cells/es/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Cómo establecer el Eje de Categoría en el Gráfico de Excel](/cells/es/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

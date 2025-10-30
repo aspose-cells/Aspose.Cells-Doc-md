@@ -24,3 +24,4 @@ In den Fortgeschrittenen Themen werden wir Ihnen zeigen, wie Sie Aspose Cells ve
 - [Dynamisches Rollendiagramm mit Aspose Cells erstellen](/cells/de/python-net/create-dynamic-rolling-chart/)
 - [Dynamisches Bildlaufdiagramm mit Aspose Cells erstellen](/cells/de/python-net/create-dynamic-scrolling-chart/)
 - [Dynamisches Diagramm mit Dropdown-Liste mit Aspose Cells erstellen](/cells/de/python-net/create-dynamic-chart-with-dropdownlist/)
+{{< app/cells/assistant language="python-net" >}}

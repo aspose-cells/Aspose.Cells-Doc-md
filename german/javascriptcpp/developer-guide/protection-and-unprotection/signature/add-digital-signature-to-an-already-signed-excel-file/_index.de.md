@@ -1,0 +1,117 @@
+---
+title: Digitale Signatur zu einer bereits signierten Excel Datei mit JavaScript via C++ hinzufügen
+linktitle: Fügen Sie eine digitale Signatur zu einer bereits signierten Excel Datei hinzu
+type: docs
+weight: 20
+url: /de/javascript-cpp/add-digital-signature-to-an-already-signed-excel-file/
+description: Dieser Artikel beschreibt, wie man mit JavaScript und Aspose.Cells for JavaScript via C++ eine digitale Signatur zu einer bereits signierten Excel Datei hinzufügt.
+keywords: Digitale Signatur zu einer bereits signierten Excel Datei hinzufügen, Wie man eine digitale Signatur zu einer bereits signierten Excel Datei mit JavaScript via C++ hinzufügt.
+---
+
+## **Mögliche Verwendungsszenarien**
+
+ Aspose.Cells for JavaScript via C++ bietet die [**Workbook.addDigitalSignature(digitalSignatureCollection)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#addDigitalSignature-digitalSignatureCollection-) Methode, die Sie verwenden können, um eine digitale Signatur zu einer bereits signierten Excel-Datei hinzuzufügen.
+
+{{% alert color="primary" %}}
+
+Bitte beachten Sie, dass beim Hinzufügen einer digitalen Signatur zu einem bereits signierten Excel-Dokument, falls das Originaldokument ein von Aspose.Cells generiertes Dokument ist, alles gut funktioniert. Wenn das Originaldokument jedoch von anderen Engines (z.B. Microsoft Excel usw.) generiert wurde, kann Aspose.Cells die Datei nach dem Laden und erneuten Speichern nicht unverändert halten, was die ursprüngliche Signatur ungültig macht.
+
+{{% /alert %}}
+
+## **Wie fügt man eine digitale Signatur zu einer bereits signierten Excel-Datei hinzu**
+
+Der folgende Beispielcode zeigt, wie die [**Workbook.addDigitalSignature(digitalSignatureCollection)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#addDigitalSignature-digitalSignatureCollection-) Methode verwendet wird, um eine digitale Signatur zu einem bereits signierten Excel-Dokument hinzuzufügen. Überprüfen Sie die im Code verwendete [Beispiel-Excel-Datei](50528280.xlsx). Diese Datei ist bereits digital signiert. Überprüfen Sie die [Ausgabedatei Excel](50528281.xlsx), die vom Code generiert wurde. Für dieses Beispiel wurde das Demo-Zertifikat [AsposeDemo.pfx](50528279.pfx) mit einem Passwort **aspose** verwendet. Das Bild zeigt die Wirkung des Beispielcodes auf die Beispiel-Excel-Datei nach Ausführung.
+
+![todo:image_alt_text](add-digital-signature-to-an-already-signed-excel-file_1.png)
+
+## **Beispielcode**
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Add Digital Signature Example</title>
+    </head>
+    <body>
+        <h1>Add Digital Signature to Workbook</h1>
+        <p>Select an Excel file and a PFX certificate, enter the certificate password, then click "Add Digital Signature".</p>
+        <input type="file" id="fileInput" accept=".xls,.xlsx" />
+        <br/><br/>
+        <input type="file" id="certInput" accept=".pfx" />
+        <br/><br/>
+        <label for="certPassword">Certificate Password:</label>
+        <input type="password" id="certPassword" value="aspose" />
+        <br/><br/>
+        <button id="runExample">Add Digital Signature</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, DigitalSignature, DigitalSignatureCollection, SaveFormat, Utils } = AsposeCells;
+
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: [
+                "arial.ttf",
+                "NotoSansSC-Regular.ttf"
+            ]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const certInput = document.getElementById('certInput');
+            const passwordInput = document.getElementById('certPassword');
+            const resultDiv = document.getElementById('result');
+
+            if (!fileInput.files.length) {
+                resultDiv.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+            if (!certInput.files.length) {
+                resultDiv.innerHTML = '<p style="color: red;">Please select a .pfx certificate file.</p>';
+                return;
+            }
+
+            // Read files as ArrayBuffer
+            const excelFile = fileInput.files[0];
+            const certFile = certInput.files[0];
+            const certPassword = passwordInput.value;
+
+            const excelArrayBuffer = await excelFile.arrayBuffer();
+            const certArrayBuffer = await certFile.arrayBuffer();
+
+            // Instantiate Workbook from uploaded Excel file
+            const workbook = new Workbook(new Uint8Array(excelArrayBuffer));
+
+            // Create the digital signature collection
+            const dsCollection = new DigitalSignatureCollection();
+
+            // Create new digital signature and add it in digital signature collection
+            // Using certificate bytes (Uint8Array), password, comment and signing date
+            const signature = new DigitalSignature(new Uint8Array(certArrayBuffer), certPassword, "Aspose.Cells added new digital signature in existing digitally signed workbook.", new Date());
+            dsCollection.add(signature);
+
+            // Add digital signature collection inside the workbook
+            workbook.addDigitalSignature(dsCollection);
+
+            // Save the workbook and provide download link
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = 'outputDigitallySignedByCells.xlsx';
+            downloadLink.style.display = 'block';
+            downloadLink.textContent = 'Download Digitally Signed Excel File';
+
+            // Dispose the workbook
+            workbook.dispose();
+
+            resultDiv.innerHTML = '<p style="color: green;">Digital signature added successfully! Click the download link to get the signed file.</p>';
+        });
+    </script>
+</html>
+```

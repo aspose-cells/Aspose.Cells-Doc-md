@@ -71,3 +71,4 @@ int main()
 - [Exportieren Sie XML-Daten, die mit der XML-Map in der Arbeitsmappe verknüpft sind](/cells/de/cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
 - [Finden Sie den Namen des Stammelements der XML-Map](/cells/de/cpp/find-the-root-element-name-of-xml-map/)
 - [Zellen mit XML-Map-Elementen verknüpfen](/cells/de/cpp/link-cells-to-xml-map-elements/)
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ Der folgende Beispielcode veranschaulicht, wie die Methode [**Workbook.vba_proje
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-DigitallySignVbaProjectWithCertificate-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

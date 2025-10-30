@@ -33,3 +33,4 @@ Der folgende Code demonstriert die Verwendung der Methode [**Worksheet.shapes.ad
 Verwenden Sie zur Kopie von Steuerelementen und anderen Zeichenobjekten die Methode [**Worksheet.shapes.add_copy**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shapecollection/add_copy/#aspose.cells.drawing.Shape-int-int-int-int), wie im folgenden Beispiel gezeigt.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.py" >}}
+{{< app/cells/assistant language="python-net" >}}

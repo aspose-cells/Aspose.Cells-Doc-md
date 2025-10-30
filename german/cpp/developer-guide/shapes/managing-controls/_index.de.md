@@ -1316,3 +1316,4 @@ int main()
 - [AktiveX-Steuerelemente mit Aspose.Cells hinzufügen](/cells/de/cpp/add-activex-controls-using-aspose-cells/)
 - [AktiveX-Steuerung entfernen](/cells/de/cpp/remove-activex-control/)
 - [Aktualisieren Sie das ActiveX-ComboBox-Steuerelement](/cells/de/cpp/update-activex-combobox-control/)
+{{< app/cells/assistant language="cpp" >}}

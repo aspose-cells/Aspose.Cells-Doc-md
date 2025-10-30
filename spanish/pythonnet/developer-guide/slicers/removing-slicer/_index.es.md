@@ -20,3 +20,4 @@ El siguiente código muestra el [archivo de Excel de muestra](67338478.xlsx) que
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

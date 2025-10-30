@@ -44,3 +44,4 @@ In Esplora risorse di Windows:
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 
 Questa impostazione consente ai file di essere eseguiti direttamente nel browser web, senza che venga mostrata la finestra di dialogo Apri-Salva-Annulla durante il download o l'apertura del file.
+{{< app/cells/assistant language="cpp" >}}

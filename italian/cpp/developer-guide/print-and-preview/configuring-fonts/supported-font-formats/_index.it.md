@@ -12,3 +12,4 @@ description: Impara quali sono i formati di font supportati in Aspose.Cells for 
 |**TTF**|Caratteri TrueType|
 |**TTC**|Collezioni di caratteri TrueType|
 |**OTF**|Caratteri OpenType|
+{{< app/cells/assistant language="cpp" >}}

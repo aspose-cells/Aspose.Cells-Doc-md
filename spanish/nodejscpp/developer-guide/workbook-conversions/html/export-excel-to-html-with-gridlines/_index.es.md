@@ -40,3 +40,4 @@ opts.setExportGridLines(true);
 wb.save(path.join(dataDir, "ExportToHTMLWithGridLines_out.html"), opts);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

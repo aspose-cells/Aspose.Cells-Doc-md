@@ -36,3 +36,4 @@ Dieses Beispiel zeigt, wie Sie:
 1. Holen Sie sich den Zeilenindex nach dem Namen der Zeile.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

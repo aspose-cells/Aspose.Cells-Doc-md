@@ -135,3 +135,4 @@ Siehe den folgenden Beispielcode, der die [Beispiel-Excel-Datei](dynamicArrayFor
 Die Ausgabesnapshot:
 <br>
 <image src="4.png" width="70%" />
+{{< app/cells/assistant language="python-net" >}}

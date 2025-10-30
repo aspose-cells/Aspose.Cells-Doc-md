@@ -136,3 +136,4 @@ int main()
 ### Fazit
 
 Wenn Sie diese Schritte befolgen, können Sie Zahlen leicht in Prozentsätze in Aspose.Cells for C++ formatieren. Aspose.Cells bietet eine breite Palette von Funktionen zum Bearbeiten von Excel-Dateien, einschließlich Formatieren von Zellen, Arbeiten mit Formeln und vielem mehr, was es zu einem leistungsstarken Tool für C++-Entwickler macht, die mit Excel-Daten arbeiten.
+{{< app/cells/assistant language="cpp" >}}

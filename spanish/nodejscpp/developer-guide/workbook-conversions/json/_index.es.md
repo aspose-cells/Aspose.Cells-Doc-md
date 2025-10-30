@@ -38,3 +38,4 @@ workbook.save(path.join(dataDir, "book1.json"));
 - [Convertir JSON a CSV](/cells/es/nodejs-cpp/convert-json-to-csv/)  
 - [Convertir-JSON-a-Excel](/cells/es/nodejs-cpp/convert-json-to-excel/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

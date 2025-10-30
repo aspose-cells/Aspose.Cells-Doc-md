@@ -203,3 +203,4 @@ int main()
 - [Verknüpftes Bild aus Webadresse einfügen](/cells/de/cpp/insert-a-linked-picture-from-web-address/)
 - [Bild anhand von Zellenverweis einfügen](/cells/de/cpp/insert-a-picture-based-on-cell-reference/)
 - [Laden Sie ein Web-Bild von einer URL in eine Excel-Arbeitsmappe](/cells/de/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

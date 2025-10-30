@@ -32,3 +32,4 @@ options.setExportHiddenWorksheet(false);
 workbook.save(path.join(dataDir, "HtmlWithoutHiddenContent_out.html"), options);
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

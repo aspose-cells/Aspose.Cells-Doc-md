@@ -12,3 +12,4 @@ description: Übersicht der unterstützten Schriftartformate in Aspose.Cells for
 |**TTF**|TrueType-Schriftarten|
 |**TTC**|TrueType-Sammlung|
 |**OTF**|OpenType-Schriften|
+{{< app/cells/assistant language="nodejs-cpp" >}}

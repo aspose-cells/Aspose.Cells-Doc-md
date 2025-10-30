@@ -35,3 +35,4 @@ I frammenti di codice seguenti mostrano come aggiungere subtotali a un foglio di
 
 ## **Argomenti avanzati**
 - [Applicazione Subtotale e Modifica della Direzione delle Righe di Riepilogo dell'Outline sotto i Dettagli](/cells/it/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

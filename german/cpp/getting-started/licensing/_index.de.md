@@ -48,3 +48,4 @@ Das folgende Beispiel zeigt, wie man eine Lizenz aus einem Stream lädt.
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

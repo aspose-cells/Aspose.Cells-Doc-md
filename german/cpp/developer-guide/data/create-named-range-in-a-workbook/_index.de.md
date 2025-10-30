@@ -21,3 +21,4 @@ Die folgende Konsolenausgabe gibt die Werte der Methoden [GetFullText](https://d
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

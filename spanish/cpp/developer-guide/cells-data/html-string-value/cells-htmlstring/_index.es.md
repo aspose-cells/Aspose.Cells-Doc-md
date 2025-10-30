@@ -82,3 +82,4 @@ Resultado generado por el código de ejemplo
 La siguiente captura de pantalla muestra la salida del código de muestra anterior.
 
 ![todo:image_alt_text](htmlstring.png)
+{{< app/cells/assistant language="cpp" >}}

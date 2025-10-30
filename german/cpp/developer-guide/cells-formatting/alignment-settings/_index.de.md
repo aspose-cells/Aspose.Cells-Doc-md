@@ -494,3 +494,4 @@ int main()
 ## **Erweiterte Themen**
 - [Zellenausrichtung ändern und vorhandenes Format beibehalten](/cells/de/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Zeilenumbrüche und Textumbrüche](/cells/de/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

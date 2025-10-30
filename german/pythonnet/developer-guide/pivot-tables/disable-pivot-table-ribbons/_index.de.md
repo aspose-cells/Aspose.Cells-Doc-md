@@ -18,3 +18,4 @@ Pivot-Tabellen-basierte Berichte sind nützlich, aber anfällig für Fehler, wen
 Der folgende Code demonstriert diese Funktion, indem er auf eine Pivot-Tabelle aus einem Blatt zugreift und dann [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) auf **false** setzt. Die Beispieldatei für die Pivot-Tabelle kann von diesem [Link](pivot_table_test.xlsx) heruntergeladen werden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ Das folgende Beispiel fügt Beispieldaten zu einem Arbeitsblatt hinzu, fügt ein
 - [Tabellen und Bereiche](/cells/de/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

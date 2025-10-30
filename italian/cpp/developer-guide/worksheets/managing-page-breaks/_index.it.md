@@ -23,3 +23,4 @@ Aspose.Cells fornisce una classe [Workbook](https://reference.aspose.com/cells/c
 Un foglio di lavoro è rappresentato dalla classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) fornisce una vasta gamma di metodi utilizzati per gestire un foglio di lavoro. Per aggiungere i salti di pagina, utilizzare il metodo [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) della classe [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 ### **Aggiunta dei salti di pagina**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

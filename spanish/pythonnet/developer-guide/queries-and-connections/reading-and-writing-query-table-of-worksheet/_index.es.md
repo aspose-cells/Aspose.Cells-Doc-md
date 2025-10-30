@@ -45,3 +45,4 @@ Aspose.Cells para Python via .NET ofrece la opción de leer la dirección, es de
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Connections-ReadingAddressOfResultRange.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

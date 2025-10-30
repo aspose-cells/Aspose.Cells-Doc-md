@@ -6,3 +6,4 @@ url: /de/cpp/developer-guide/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

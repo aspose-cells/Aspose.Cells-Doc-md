@@ -39,3 +39,4 @@ Rimuovere la protezione dal foglio di lavoro è semplice con l'API Aspose.Cells 
 - [Sblocca un foglio di lavoro](/cells/it/python-net/unprotect-a-worksheet/)
 - [Verificare la password utilizzata per proteggere il foglio di lavoro](/cells/it/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

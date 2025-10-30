@@ -71,3 +71,4 @@ Il seguente frammento di codice dimostra come cambiare il colore delle linee di 
 ## **Argomenti avanzati**
 - [Impostare il codice di formato dei valori della serie del grafico](/cells/it/python-net/set-the-values-format-code-of-chart-series/)
 - [Imposta l'immagine come riempimento di sfondo nel grafico](/cells/it/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

@@ -61,3 +61,4 @@ Il codice prima carica il file CSV, poi lo importa di nuovo in cella D4. Infine,
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
+{{< app/cells/assistant language="cpp" >}}

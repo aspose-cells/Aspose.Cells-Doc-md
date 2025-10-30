@@ -30,3 +30,4 @@ console.log("Number of Cells: " + worksheet.getCells().getCount());
 // If the number of cells is greater than 2147483647, use CountLarge
 console.log("Number of Cells (CountLarge): " + worksheet.getCells().getCountLarge());
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

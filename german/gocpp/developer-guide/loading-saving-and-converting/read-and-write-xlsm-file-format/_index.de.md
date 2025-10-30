@@ -15,4 +15,4 @@ Der folgende Beispielcode lädt die [Quelle XLSM-Datei](23166990.xlsm), liest di
 
 ## **Beispielcode**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadNumbersSpreadsheet.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadAndWriteXLSMFileFormat.go" >}}

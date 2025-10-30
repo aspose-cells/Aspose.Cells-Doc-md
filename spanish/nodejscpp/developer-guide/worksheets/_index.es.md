@@ -231,3 +231,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Vistas de hojas de trabajo](/cells/es/nodejs-cpp/worksheet-views/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

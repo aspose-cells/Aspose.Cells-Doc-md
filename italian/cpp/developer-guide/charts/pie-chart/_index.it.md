@@ -339,3 +339,4 @@ int main()
 - [Personalizzazione di Grafici](/cells/it/cpp/customizing-charts/)
 - [Formattazione dei dati nei grafici](/cells/it/cpp/data-formatting-in-charts/)
 - [Impostazione dell'aspetto del grafico](/cells/it/cpp/setting-chart-appearance/)
+{{< app/cells/assistant language="cpp" >}}

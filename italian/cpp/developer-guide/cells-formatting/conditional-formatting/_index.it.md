@@ -343,3 +343,4 @@ int main() {
 - [Applica sfumature a righe e colonne alternative con la formattazione condizionale](/cells/it/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Genera Immagini Barre Dati delle Formattazioni Condizionali](/cells/it/cpp/generate-conditional-formatting-databars-images/)
 - [Ottieni Insiemi di Icone, Barre Dati o Oggetti Scala a Colori usati nella Formattazione Condizionale](/cells/it/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

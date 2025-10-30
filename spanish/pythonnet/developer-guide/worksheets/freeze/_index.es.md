@@ -40,3 +40,4 @@ Es simple congelar paneles con Aspose.Cells para Python via .NET. Por favor, usa
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Pane.py" >}}
 
 Adjunto [archivo de Excel de origen de muestra](Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

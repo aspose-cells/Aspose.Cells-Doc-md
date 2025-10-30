@@ -24,3 +24,4 @@ Il codice genera [file HTML di output con Courier New](5115516), il [file HTML c
 ## Codice di esempio
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-SetDefaultFontWhileRendering-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

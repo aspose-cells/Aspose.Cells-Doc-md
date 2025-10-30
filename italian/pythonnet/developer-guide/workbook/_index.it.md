@@ -8,3 +8,4 @@ description: Impara come Gestire il WorkBook attraverso le API di Aspose.Cells f
 keywords: Come gestire i workbook in C#, Gestire i workbook e i fogli di lavoro usando C#, Operare i workbook e i fogli di lavoro in C#. 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

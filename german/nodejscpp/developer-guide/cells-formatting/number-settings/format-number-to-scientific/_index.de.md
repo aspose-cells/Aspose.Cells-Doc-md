@@ -103,3 +103,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 ### Fazit
 
 Wenn Sie diese Schritte befolgen, können Sie Zahlen in wissenschaftliche Notation in Aspose.Cells for Node.js via C++ formatieren. Denken Sie daran, dass Sie die Formatzeichenfolge (`"0.00E+00"`) nach Bedarf anpassen können, um die Dezimalstellen oder andere Aspekte der wissenschaftlichen Notation zu ändern.
+{{< app/cells/assistant language="nodejs-cpp" >}}

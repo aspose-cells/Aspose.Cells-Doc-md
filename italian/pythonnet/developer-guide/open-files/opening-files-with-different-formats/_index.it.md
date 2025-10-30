@@ -69,3 +69,4 @@ StarOffice Calc è simile a Microsoft Excel e supporta formule, grafici, funzion
 Il file FODS è un foglio di calcolo salvato in OpenDocument XML senza compressione. Aspose.Cells per Python via .NET può leggere i file FODS come dimostrato dall'esempio di codice seguente.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-OpeningFODSFiles-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

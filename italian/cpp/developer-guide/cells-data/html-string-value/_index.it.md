@@ -60,3 +60,4 @@ int main()
 
 - [Visualizza pallini impostando il valore della cella utilizzando HTML](/cells/it/cpp/display-bullets-by-setting-cell-value-using/)
 - [Ottieni una stringa HTML5 dalla cella](/cells/it/cpp/get-html5-string-from-cell/)
+{{< app/cells/assistant language="cpp" >}}

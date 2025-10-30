@@ -54,3 +54,4 @@ Esta es la salida de consola del código de muestra anterior cuando se ejecuta c
 Is VBA Project Locked for Viewing: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

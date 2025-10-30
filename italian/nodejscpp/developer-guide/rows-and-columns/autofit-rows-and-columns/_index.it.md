@@ -185,3 +185,4 @@ Se una cella è unita, i metodi autoFit non verranno applicati, lo stesso compor
 ## **Argomenti avanzati**  
 - [Adattare automaticamente le righe per le celle unite](/cells/it/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

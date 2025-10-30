@@ -25,3 +25,4 @@ Si prega di notare che è necessario chiamare i metodi PivotTable.RefreshData e 
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -36,7 +36,7 @@ url: /it/cpp/supported-file-formats/
 |[EMF](https://docs.fileformat.com/image/emf/)|Formato metafile avanzato.| |{{< emoticons/tick >}}|
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione lossy.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Formato di scambio grafico interattivo.| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Rappresenta un documento di markdown.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Rappresenta un documento markdown.|{{< emoticons/tick >}} |{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Un formato basato su XML utilizzato da OpenOffice e StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Si tratta di un formato di documento aperto archiviato come XML piatto.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Un formato ben noto per i documenti di Microsoft Word che è una combinazione di file XML e binari.||{{< emoticons/tick >}}|
@@ -47,3 +47,4 @@ url: /it/cpp/supported-file-formats/
 |[Xml](https://docs.fileformat.com/web/xml/)|XML sta per Extensible Markup Language che è simile all'HTML ma differisce nell'uso dei tag per definire gli oggetti.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|File del Modello del Documento Aperto (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW è un formato di file di eBook digitale sviluppato da Amazon per i suoi dispositivi Kindle. AZW3, anche noto come Kindle Format 8 (KF8).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< app/cells/assistant language="cpp" >}}

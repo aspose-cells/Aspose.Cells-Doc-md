@@ -59,3 +59,4 @@ Di seguito è riportato un esempio completo che apre un file Excel (book1.xls), 
 ### **Controllare la larghezza della barra delle schede**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

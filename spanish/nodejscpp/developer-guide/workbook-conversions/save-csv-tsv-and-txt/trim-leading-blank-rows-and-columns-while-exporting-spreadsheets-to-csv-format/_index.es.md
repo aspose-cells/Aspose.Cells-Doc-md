@@ -55,3 +55,4 @@ opts.setTrimLeadingBlankRowAndColumn(true);
 // Save in csv format
 wb.save(path.join(dataDir, "outputTrimBlankColumns.csv"), opts);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

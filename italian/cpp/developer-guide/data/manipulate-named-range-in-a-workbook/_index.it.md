@@ -21,3 +21,4 @@ Il seguente output della console stampa i valori dei membri [FullText](https://r
 Refers To: =Sheet1!$D$3:$G$6
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

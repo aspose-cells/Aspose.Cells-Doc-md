@@ -197,3 +197,4 @@ Standardmäßig ist die Berechnungskette deaktiviert. Da das Erstellen der Kette
 - [Rückgabe eines Bereichs von Werten unter Verwendung von AbstractCalculationEngine](/cells/de/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Festlegen des Formelberechnungsmodus des Arbeitsbuchs](/cells/de/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Verwendung der FormulaText-Funktion in Aspose.Cells](/cells/de/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

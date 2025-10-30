@@ -25,3 +25,4 @@ Los gráficos de acciones son un gráfico específico utilizado para rastrear lo
 El conjunto de datos a continuación muestra la información de negociación diaria de una acción. Usaremos estos datos para crear cuatro tipos de gráficos de acciones: gráfico HLC (Alta-Baja-Cierre), gráfico OHLC (Apertura-Alta-Baja-Cierre), gráfico VHLC (Volumen-Alta-Baja-Cierre), y gráfico VOHLC (Volumen-Apertura-Alta-Baja-Cierre).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

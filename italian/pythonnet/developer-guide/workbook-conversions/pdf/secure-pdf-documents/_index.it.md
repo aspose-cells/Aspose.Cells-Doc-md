@@ -33,3 +33,4 @@ Il codice di esempio qui sotto descrive come proteggere i PDF con Aspose.Cells f
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) proprio prima di renderlo in PDF. Ciò garantisce che i valori dipendenti dalle formule vengano ricalcolati e i valori corretti siano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

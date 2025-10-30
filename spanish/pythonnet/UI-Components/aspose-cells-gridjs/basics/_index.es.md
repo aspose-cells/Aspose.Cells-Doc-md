@@ -44,7 +44,7 @@ A continuación se muestran los pasos básicos del proceso para desarrollar una 
 
 A continuación se muestra una demostración básica para mostrar el uso de Aspose.Cells.GridJs :
 
-https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net 
+https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs
 
 En la demostración utilizamos [gridjs-spreadsheet](https://www.npmjs.com/package/gridjs-spreadsheet) para la renderización de la página del lado del cliente.
 

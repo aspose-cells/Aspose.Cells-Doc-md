@@ -12,3 +12,4 @@ Aspose.Cells für Python via .NET bietet die Möglichkeit, ActiveX-Steuerelement
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-RemoveActiveXControl-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

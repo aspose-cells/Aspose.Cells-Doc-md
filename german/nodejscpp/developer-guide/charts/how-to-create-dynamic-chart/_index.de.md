@@ -26,3 +26,4 @@ In den erweiterten Themen zeigen wir Ihnen, wie Sie Aspose.Cells verwenden, um d
 - [Dynamisches scrollendes Diagramm mit Aspose.Cells erstellen](/cells/de/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Dynamisches Diagramm mit Dropdown-Liste mit Aspose.Cells erstellen](/cells/de/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

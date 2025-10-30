@@ -22,3 +22,4 @@ Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispiel-Excel-Date
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-CreateTimelineToPivotTable.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

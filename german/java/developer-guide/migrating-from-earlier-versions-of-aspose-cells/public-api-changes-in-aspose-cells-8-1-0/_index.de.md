@@ -88,5 +88,5 @@ Unformatierter Zeichenfolgenwert: 123456
 
 {{% /alert %}}
 ## **Veraltete Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs-Eigenschaften**
-Viele Eigenschaften der Klasse BuiltInDocumentPropertyCollection wurden ab Aspose.Cells for .NET 8.1.0 als veraltet markiert. Dazu gehören Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Der Grund dafür ist, dass die genannten Eigenschaften nicht zur Erhaltung von Excel-Arbeitsmappen geeignet sind, da Excel sie auslässt. Diese Eigenschaften wurden ursprünglich für Word-Dokumente und PowerPoint-Präsentationen geschrieben. 
+Viele Eigenschaften der BuiltInDocumentPropertyCollection-Klasse wurden ab Aspose.Cells for Java 8.1.0 als veraltet markiert. Diese Eigenschaften umfassen Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Der Grund ist, dass die genannten Eigenschaften bei der Erhaltung von Excel-Tabellenblättern keinen Nutzen haben, da Excel sie überspringt. Diese Eigenschaften wurden ursprünglich für Word-Dokumente & PowerPoint-Präsentationen geschrieben. 
 {{< app/cells/assistant language="java" >}}

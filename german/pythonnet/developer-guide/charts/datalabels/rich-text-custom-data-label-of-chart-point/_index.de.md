@@ -18,3 +18,4 @@ Sie können Aspose.Cells für Python via .NET verwenden, um reichhaltige Text-Be
 Der folgende Code greift auf den ersten Diagrammpunkt der ersten Serie zu, setzt seinen Text und dann setzt die Schriftart der ersten 10 Zeichen, indem die Farbe auf Rot und die Fettgedrucktheit auf **true** gesetzt wird
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

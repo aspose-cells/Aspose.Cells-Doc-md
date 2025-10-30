@@ -36,3 +36,4 @@ n3df.setExtrusionHeight(32);
 // Save the output excel file in xlsx format
 wb.save(path.join(dataDir, "output_out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

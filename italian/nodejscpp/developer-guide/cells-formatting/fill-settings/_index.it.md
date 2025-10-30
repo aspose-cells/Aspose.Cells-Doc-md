@@ -95,3 +95,4 @@ La palette contiene solo 56 colori. Quando si aggiunge un colore personalizzato 
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -6,3 +6,4 @@ url: /de/cpp/tables/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

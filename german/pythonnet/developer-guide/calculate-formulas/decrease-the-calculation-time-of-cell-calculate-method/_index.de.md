@@ -70,3 +70,4 @@ Typische Ausgabe bei Ausführung des optimierten Codes mit der Beispieldatei zei
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

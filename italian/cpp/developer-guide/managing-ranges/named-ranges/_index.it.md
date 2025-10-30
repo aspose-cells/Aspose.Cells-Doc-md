@@ -102,3 +102,4 @@ int main()
 - [Ottieni Intervallo con Link Esterni](/cells/it/cpp/get-range-with-external-links/)
 - [Implementazione degli Intervallo Non Sequenziali](/cells/it/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

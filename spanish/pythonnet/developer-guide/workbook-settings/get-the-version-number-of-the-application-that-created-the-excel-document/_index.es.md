@@ -14,3 +14,4 @@ A menudo necesitas saber el número de versión de la aplicación que creó un d
 El siguiente código de ejemplo demuestra el uso de la propiedad [**Workbook.built_in_document_properties.version**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/builtindocumentpropertycollection/version). Carga archivos de Excel creados con Microsoft Excel 2003, 2007, 2010 y 2013 e imprime el número de versión de la aplicación que creó estos documentos de Excel..
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "WorkbookSettings-GetApplicationVersion-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

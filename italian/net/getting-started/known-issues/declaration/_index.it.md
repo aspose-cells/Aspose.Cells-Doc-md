@@ -1,5 +1,5 @@
 ---
-title: Dichiarazione
+title: Permessi di fiducia sul server web
 type: docs
 weight: 30
 url: /it/net/declaration/
@@ -8,6 +8,8 @@ url: /it/net/declaration/
 {{% alert color="primary" %}} 
 
 In generale, tutti i componenti Aspose .NET richiedono impostazioni di autorizzazione Full Trust. Il motivo è che i componenti Aspose per .NET devono accedere alle impostazioni del registro, ai file di sistema diversi dalla directory virtuale per determinate operazioni come l'analisi dei font, ecc. Inoltre, i componenti Aspose per .NET (compreso Aspose.Cells for .NET) si basano sulle classi di sistema di base .NET che richiedono anche impostazioni di autorizzazione Full Trust in molti casi.
+<br/>
+Trust di livello medio rimosso in .NET Core e .NET 5+. Trust di livello medio era il meccanismo di sicurezza nell'epoca del .NET Framework. Il trust di livello medio è stato gradualmente sostituito da politiche di sicurezza più flessibili. Suggeriamo agli utenti di dare priorità all'aggiornamento a .NET 5+ e di adottare il deployment containerizzato invece di affidarsi a livelli di trust tradizionali.
 
 {{% /alert %}} 
 ## **Sfida di Trust parziale / medio**

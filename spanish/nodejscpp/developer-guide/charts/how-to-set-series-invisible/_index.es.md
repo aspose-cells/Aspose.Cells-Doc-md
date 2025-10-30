@@ -41,3 +41,4 @@ Puedes obtener el [archivo de entrada](SeriesFiltered.xlsx) y el [archivo de sal
 
 Como se muestra en la figura a continuación, las dos primeras series que originalmente estaban visibles, se han vuelto invisibles en el archivo de salida.
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

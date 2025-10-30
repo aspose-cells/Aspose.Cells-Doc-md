@@ -4,7 +4,7 @@ linktitle: Firma
 type: docs
 weight: 100
 url: /it/java/assign-and-validate-digital-signatures/
-description: Firma digitale del file Excel, verifica. Per proteggere l autenticità del contenuto di una cartella di lavoro del file Excel, è possibile aggiungere una firma digitale utilizzando i codici C# con Aspose.Cells per .Net.
+description: Firma digitale del file Excel, verifica. Per proteggere l autenticità del contenuto di un workbook di Excel, puoi aggiungere una firma digitale utilizzando codici Java con Aspose.Cells for Java.
 ---
 
 {{% alert color="primary" %}}

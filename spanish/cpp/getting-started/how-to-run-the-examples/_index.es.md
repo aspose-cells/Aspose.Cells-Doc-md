@@ -24,3 +24,4 @@ No dude en comunicarse a través de nuestros foros si tiene algún problema para
 Si desea agregar o mejorar un ejemplo, lo alentamos a contribuir al proyecto. Todos los ejemplos y proyectos de exhibición en este repositorio son de código abierto y se pueden utilizar libremente en sus propias aplicaciones.
 
 Para contribuir, puedes hacer un fork del repositorio, editar el código fuente y crear una solicitud de extracción. Revisaremos los cambios e incluiremos en el repositorio si son útiles.
+{{< app/cells/assistant language="cpp" >}}

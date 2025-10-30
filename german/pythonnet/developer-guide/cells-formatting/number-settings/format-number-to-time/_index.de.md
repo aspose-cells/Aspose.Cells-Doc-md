@@ -115,3 +115,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 
 Das Formatieren von Zahlen auf Zeit in Aspose.Cells für Python via .NET beinhaltet das Festlegen eines benutzerdefinierten Zahlenformats für die Zellen, in denen die Zeit angezeigt werden soll. Durch Befolgen der oben beschriebenen Schritte können Sie problemlos Zeitformate auf Zellen in Ihren Excel-Dateien mit Aspose.Cells anwenden. Denken Sie daran, dass der Schlüssel darin liegt, den richtigen benutzerdefinierten Format-String zu verwenden, der Ihrem gewünschten Zeitformat entspricht.
 
+{{< app/cells/assistant language="python-net" >}}

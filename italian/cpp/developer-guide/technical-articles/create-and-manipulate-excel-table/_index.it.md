@@ -13,3 +13,4 @@ Il seguente codice di esempio carica il [file excel di esempio](23167015.xlsx) e
 ![todo:image_alt_text](create-and-manipulate-excel-table_1.png)
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-CreateAndManipulateExcelTable-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

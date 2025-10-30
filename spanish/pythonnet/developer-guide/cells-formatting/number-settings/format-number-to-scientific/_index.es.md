@@ -108,3 +108,4 @@ Aquí tienes un fragmento de código que demuestra estos pasos:
 
 Siguiendo estos pasos, puedes dar formato a los números en notación científica en Aspose.Cells para Python via .NET. Recuerda que puedes personalizar la cadena de formato (`"0.00E+00"`) según sea necesario para ajustar el número de decimales u otros aspectos de la visualización en notación científica.
 
+{{< app/cells/assistant language="python-net" >}}

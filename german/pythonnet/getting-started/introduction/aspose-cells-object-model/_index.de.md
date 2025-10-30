@@ -87,3 +87,4 @@ Jedes Arbeitsblattobjekt enthält ein VerticalPageBreakCollection-Objekt, das ei
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Ein VerticalPageBreak-Objekt wird verwendet, um einen vertikalen Seitenumbruch im Arbeitsblatt zu erstellen.
+{{< app/cells/assistant language="python-net" >}}

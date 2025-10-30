@@ -26,3 +26,4 @@ Utilizzando l'opzione [**PdfSaveOptions.set_image_resample**](https://reference.
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

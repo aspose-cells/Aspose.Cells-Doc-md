@@ -102,3 +102,4 @@ int main()
 - [Obtener Rango con Vínculos Externos](/cells/es/cpp/get-range-with-external-links/)
 - [Implementación de Rangos No Secuenciales](/cells/es/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

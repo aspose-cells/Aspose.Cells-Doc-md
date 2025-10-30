@@ -64,3 +64,4 @@ Per annullare il raggruppamento di qualsiasi riga o colonna raggruppata, chiamar
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) ha un sovraccarico che richiede un terzo parametro booleano. Impostandolo su **true** si rimuovono tutte le informazioni raggruppate. In caso contrario, viene rimossa solo l'informazione esterna del gruppo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

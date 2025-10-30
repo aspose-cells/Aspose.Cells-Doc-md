@@ -11,3 +11,4 @@ Microsoft Excel admite muchos formatos como XLS, XLSX, XLSM, XLSB, CSV, delimita
 El siguiente código de muestra carga el [archivo de formato delimitado por tabuladores de origen](23166997.txt) y lee su celda A1 y luego copia su contenido a la celda C4 y lo guarda como [archivo de formato delimitado por tabuladores de salida](23166996.txt).
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

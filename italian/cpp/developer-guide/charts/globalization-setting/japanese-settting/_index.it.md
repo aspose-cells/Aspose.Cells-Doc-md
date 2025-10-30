@@ -126,3 +126,4 @@ Dopo l'operazione sopra, possiamo ottenere un'immagine del grafico di output con
 |Nome totale legenda|すべての|Totale|
 |Altro nome|その他|Altro|
 |Nome serie|シリーズ|Serie|
+{{< app/cells/assistant language="cpp" >}}

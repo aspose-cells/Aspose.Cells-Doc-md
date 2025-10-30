@@ -53,3 +53,4 @@ c.setLinkedCell("A1");
 // Save the workbook in xlsx format
 wb.save(path.join(dataDir, "AddActiveXControls_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

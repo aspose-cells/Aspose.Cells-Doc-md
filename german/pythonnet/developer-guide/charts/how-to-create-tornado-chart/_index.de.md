@@ -36,3 +36,4 @@ Siehe den folgenden Beispielcode. Es lädt die [Beispieldatei Excel](sample.xlsx
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-tornado-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

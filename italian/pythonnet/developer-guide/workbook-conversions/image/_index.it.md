@@ -54,3 +54,4 @@ Aspose.Cells for Python via .NET è stato in grado di convertire i fogli di lavo
 - [Converti un Grafico Excel in Immagine](/cells/it/python-net/convert-an-excel-chart-to-image/)
 - [Conversione del grafico in Immagine in formato SVG](/cells/it/python-net/converting-chart-to-image-in-svg-format/)
 - [Esportare il grafico in SVG con attributo viewBox](/cells/it/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

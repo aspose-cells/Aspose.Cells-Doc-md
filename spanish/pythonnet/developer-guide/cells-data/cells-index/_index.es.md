@@ -36,3 +36,4 @@ Este ejemplo muestra cómo:
 1. Obtener el índice de fila por el nombre de la fila.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-get-index.py" >}}
+{{< app/cells/assistant language="python-net" >}}

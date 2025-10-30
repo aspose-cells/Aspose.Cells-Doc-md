@@ -63,3 +63,4 @@ L'esempio seguente mostra come tracciare i precedenti e i dipendenti secondo la 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-TracingDependenciesInCalculation.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

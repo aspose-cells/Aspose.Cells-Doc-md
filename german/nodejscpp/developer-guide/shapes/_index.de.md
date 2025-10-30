@@ -562,3 +562,4 @@ Führen Sie den obigen Code aus, und Sie erhalten die folgenden Ergebnisse:
 - [Weberweiterungen - Office-Add-Ins](/cells/de/nodejs-cpp/web-extensions-office-add-ins/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

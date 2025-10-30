@@ -75,3 +75,4 @@ El siguiente ejemplo muestra cómo activar una hoja de cálculo y hacer que una 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Management-MakeCellActive-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

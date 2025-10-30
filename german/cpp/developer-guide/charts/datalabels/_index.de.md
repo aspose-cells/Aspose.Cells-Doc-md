@@ -83,3 +83,4 @@ int main()
 - [Benutzerdefinierte Datenauswahl im Diagrammpunkt](/cells/de/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Festlegen des Formtyps von Datenbeschriftungen des Diagramms](/cells/de/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Anzeigen von Zellenbereichen als Datenbeschriftungen](/cells/de/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

@@ -35,3 +35,4 @@ Desproteger la estructura del libro es sencillo con la API Aspose.Cells para Pyt
 Nota: se requiere una contraseña correcta.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

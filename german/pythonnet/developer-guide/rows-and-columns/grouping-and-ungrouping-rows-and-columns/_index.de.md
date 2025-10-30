@@ -64,3 +64,4 @@ Um gruppierte Zeilen oder Spalten aufzuheben, rufen Sie die [**Cells**](https://
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) hat eine Überladung, die einen dritten booleschen Parameter akzeptiert. Wenn dieser auf **true** gesetzt wird, werden alle gruppierten Informationen entfernt. Andernfalls wird nur die äußere Gruppeninformation entfernt.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

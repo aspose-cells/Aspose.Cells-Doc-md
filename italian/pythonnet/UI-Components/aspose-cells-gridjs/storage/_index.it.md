@@ -142,4 +142,4 @@ ad esempio: nell'azione getfile, è possibile ottenerlo semplicemente dalla cart
 ```
 
 Per maggiori dettagli, puoi controllare l'esempio qui:
-<https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>

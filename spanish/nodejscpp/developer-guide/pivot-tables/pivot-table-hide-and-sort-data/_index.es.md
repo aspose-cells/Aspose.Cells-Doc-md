@@ -17,3 +17,4 @@ Se adjuntan los archivos de Excel de origen y de salida utilizados en el fragmen
 [Archivo de origen](96928093.xlsx)
 
 [Archivo de salida](96928094.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

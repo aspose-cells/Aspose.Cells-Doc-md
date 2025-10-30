@@ -77,3 +77,4 @@ Calculated Value: Welcome to Aspose.Cells.
 [Implementar motor de cálculo personalizado para extender el motor de cálculo predeterminado de Aspose.Cells]( /cells/es/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/ )
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

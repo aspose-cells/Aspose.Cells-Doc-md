@@ -58,3 +58,4 @@ Fare clic all'interno dei dati e utilizzare **CTRL + T** oppure utilizzare la sc
 Il seguente codice di esempio carica il [file Excel di esempio](TableFilters.xlsx) mostra la stessa funzionalità utilizzando Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

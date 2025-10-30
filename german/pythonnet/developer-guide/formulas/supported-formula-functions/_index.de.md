@@ -70,6 +70,8 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |BITOR|**Ingenieurwesen**: Gibt ein bitweises Oder von 2 Zahlen zurück
 |BITRSHIFT|**Ingenieurwesen**: Gibt eine Zahl zurück, die um shift_amount Bits nach rechts verschoben wurde
 |BITXOR|**Ingenieurwesen**: Gibt ein bitweises 'Exklusives Oder' von zwei Zahlen zurück
+|BYCOL|**Logisch**: Wendet eine LAMBDA an jede Spalte an und gibt ein Array der Ergebnisse zurück
+|BYROW|**Logisch**: Wendet eine LAMBDA an jede Zeile an und gibt ein Array der Ergebnisse zurück
 
 ###### **C**
 |**Funktion**|**Zusammenfassung**|
@@ -103,6 +105,8 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |CORREL|**Statistisch**: Gibt den Korrelationskoeffizienten zwischen zwei Datensätzen zurück
 |COS|**Mathematik und Trigonometrie**: Gibt den Kosinus einer Zahl zurück
 |COSH|**Mathematik und Trigonometrie**: Gibt den hyperbolischen Kosinus einer Zahl zurück
+|COT|**Mathematik und Trigonometrie**: Gibt den hyperbolischen Kosinus einer Zahl zurück
+|COTH|**Mathematik und Trigonometrie**: Gibt die Kotangente eines Winkels zurück
 |COUNT|**Statistisch**: Zählt, wie viele Zahlen in der Liste der Argumente enthalten sind
 |COUNTA|**Statistisch**: Zählt, wie viele Werte in der Liste der Argumente enthalten sind
 |COUNTBLANK|**Statistisch**: Zählt die Anzahl von leeren Zellen innerhalb eines Bereichs
@@ -170,6 +174,7 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |EVEN|**Mathematik und Trigonometrie**: Rundet eine Zahl auf zur nächsten geraden Zahl
 |EXACT|**Text**: Überprüft, ob zwei Textwerte identisch sind
 |EXP|**Mathematik und Trigonometrie**: Gibt e hoch eine gegebene Zahl zurück
+|EXPAND|**Suchen und Verweisen**: Erweitert oder füllt ein Array auf die angegebenen Zeilen- und Spaltenabmessungen
 |EXPONDIST|**Kompatibilität**: Gibt die Exponentialverteilung zurück
 
 ###### **F**
@@ -267,6 +272,7 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |ISNONTEXT|**Information**: Gibt WAHR zurück, wenn der Wert kein Text ist
 |ISNUMBER|**Information**: Gibt WAHR zurück, wenn der Wert eine Zahl ist
 |ISODD|**Information**: Gibt WAHR zurück, wenn die Zahl ungerade ist
+|ISOMITTED|**Information**: Überprüft, ob der Wert in einer LAMBDA fehlt, und gibt TRUE oder FALSE zurück
 |ISREF|**Information**: Gibt WAHR zurück, wenn der Wert ein Bezug ist
 |ISTEXT|**Information**: Gibt WAHR zurück, wenn der Wert Text ist
 |ISOWEEKNUM|**Datum und Uhrzeit**: Gibt die Nummer der ISO-Kalenderwoche des Jahres für ein bestimmtes Datum zurück
@@ -412,6 +418,7 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |RANK|**Kompatibilität**: Gibt den Rang einer Zahl in einer Liste von Zahlen zurück
 |RATE|**Finanzen**: Gibt den Zinssatz pro Periode einer Rente zurück
 |RECEIVED|**Finanzen**: Gibt den bei Fälligkeit erhaltenen Betrag für ein voll investiertes Wertpapier zurück
+|REDUCE|**Logisch**: Reduziert ein Array auf einen kumulierten Wert, indem eine LAMBDA auf jeden Wert angewendet wird und der Gesamtwert im Akkumulator zurückgegeben wird
 |REPLACE|**Text**: Ersetzt Zeichen innerhalb von Text
 |REPLACEB|**Text**: Ersetzt Zeichen innerhalb von Text
 |REPT|**Text**: Wiederholt Text eine bestimmte Anzahl von Malen
@@ -475,6 +482,7 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |T|**Text**: Konvertiert ihre Argumente in Text
 |TAN|**Mathematik und Trigonometrie**: Gibt den Tangens einer Zahl zurück
 |TANH|**Mathematik und Trigonometrie**: Gibt den hyperbolischen Tangens einer Zahl zurück
+|TAKE|**Suchen und Verweisen**: Gibt eine bestimmte Anzahl zusammenhängender Zeilen oder Spalten vom Anfang oder Ende eines Arrays zurück
 |TBILLEQ|**Finanziell**: Gibt die auf die Laufzeit bezogene Rendite für eine Schatzanweisung zurück
 |TBILLPRICE|**Finanziell**: Gibt den Preis pro 100 Nennwert für eine Schatzanweisung zurück
 |TBILLYIELD|**Finanziell**: Gibt die Rendite für eine Schatzanweisung zurück
@@ -536,13 +544,17 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |WEIBULL.DIST|**Statistisch**: Gibt die Weibull-Verteilung zurück
 |WORKDAY|**Datum und Uhrzeit**: Gibt die Seriennummer des Datums vor oder nach einer angegebenen Anzahl von Arbeitstagen zurück
 |WORKDAY.INTL|**Datum und Uhrzeit**: Gibt die Seriennummer des Datums vor oder nach einer angegebenen Anzahl von Arbeitstagen zurück, wobei Parameter angeben, welche und wie viele Tage Wochenendtage sind
+|WRAPCOLS|**Suchen und Verweisen**: Umwickelt die bereitgestellte Zeile oder Spalte von Werten nach einer bestimmten Anzahl von Elementen in Spalten.
+|WRAPROWS|**Suchen und Verweisen**: Umwickelt die bereitgestellte Zeile oder Spalte von Werten nach einer bestimmten Anzahl von Elementen in Zeilen.
 
 ###### **X**
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
-|XIRR|**Finanziell**: Gibt den internen Zinssatz für einen Zeitplan von Zahlungsströmen zurück, der nicht unbedingt periodisch ist
+|XIRR|**Finanziell**: Gibt die interne Verzinsung für einen Zahlungsstrahl zurück, der nicht unbedingt periodisch ist.
 |XLOOKUP|**Suche und Verweis**: Durchsucht einen Bereich oder ein Array und gibt den ersten gefundenen entsprechenden Eintrag zurück. Wenn kein entsprechender Eintrag vorhanden ist, kann XLOOKUP den nächsten (ungefähren) Treffer zurückgeben. 
-|XNPV|**Finanziell**: Gibt den Barwert für einen Zeitplan von Zahlungsströmen zurück, der nicht unbedingt periodisch ist
+|XMATCH|**Suchen und Verweisen**: Gibt die relative Position eines Elements in einem Array oder Zellbereich zurück. 
+|XNPV|**Finanziell**: Gibt den Netto-Barwert für einen Zahlungsstrahl zurück, der nicht unbedingt periodisch ist.
+|XOR|**Logisch**: Gibt eine logische exklusive Oder-Verknüpfung aller Argumente zurück.
 
 ###### **Y**
 |**Funktion**|**Zusammenfassung**|
@@ -560,3 +572,4 @@ Die Formelkalkulations-Engine von Aspose.Cells für Python via .NET erlaubt es, 
 |ZTEST|**Kompatibilität**: Gibt den einseitigen Wahrscheinlichkeitswert eines z-Tests zurück
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -178,3 +178,4 @@ Beim Arbeiten mit Arbeitsblättern können Benutzer verschiedene Arten von Daten
 - [Daten erst nach Zeile und dann nach Spalte ausfüllen](/cells/de/cpp/populate-data-first-by-row-then-by-column/)
 - [Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten](/cells/de/cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Teile des Rich-Texts der Zelle zugreifen und aktualisieren](/cells/de/cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="cpp" >}}

@@ -31,3 +31,4 @@ Schützen und den Schutz für die freigegebene Arbeitsmappe aufheben.
 - [Erkennen Sie das Dateiformat verschlüsselter Office Open XML - OOXML-Dateien](/cells/de/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Verschlüsselung von Excel-Dateien](/cells/de/cpp/encrypting-excel-files/)
 - [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

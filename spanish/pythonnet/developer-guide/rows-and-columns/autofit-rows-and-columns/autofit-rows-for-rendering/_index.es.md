@@ -20,3 +20,4 @@ Si deseas evitar que el texto se recorte en el archivo PDF guardado, puedes ajus
 Ahora, el texto no está recortado en el archivo PDF de salida.
 
 ![el texto no está recortado en el PDF guardado](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="python-net" >}}

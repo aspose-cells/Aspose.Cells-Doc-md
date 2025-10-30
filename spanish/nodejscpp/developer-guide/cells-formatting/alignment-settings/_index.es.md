@@ -133,3 +133,4 @@ El orden de lectura se configura con la propiedad [**TextDirection**](https://re
 - [Cambiar la alineación de las celdas y mantener el formato existente](/cells/es/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Saltos de línea y ajuste de texto](/cells/es/nodejs-cpp/line-breaks-and-text-wrapping/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

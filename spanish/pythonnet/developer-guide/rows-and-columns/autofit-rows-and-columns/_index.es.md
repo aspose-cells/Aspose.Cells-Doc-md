@@ -79,3 +79,4 @@ Si una celda está fusionada, entonces los métodos AutoFit no se aplicarán, lo
 
 ## **Temas avanzados**
 - [Ajustar automáticamente filas para celdas fusionadas](/cells/es/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

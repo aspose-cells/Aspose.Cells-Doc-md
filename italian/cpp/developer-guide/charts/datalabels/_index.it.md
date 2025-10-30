@@ -83,3 +83,4 @@ int main()
 - [Etichetta dati personalizzata in formato testo ricco del punto del grafico](/cells/it/cpp/rich-text-custom-data-label-of-chart-point/)
 - [Imposta il tipo di forma delle etichette dati del grafico](/cells/it/cpp/set-the-shape-type-of-data-labels-of-chart/)
 - [Mostra l'intervallo di celle come etichette dati](/cells/it/cpp/showing-cell-range-as-the-data-labels/)
+{{< app/cells/assistant language="cpp" >}}

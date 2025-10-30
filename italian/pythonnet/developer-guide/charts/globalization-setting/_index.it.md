@@ -40,3 +40,4 @@ I seguenti elementi del grafico verranno visualizzati secondo le impostazioni di
 | Nome Altro | Altro |
 | Nome della serie | Serie |
 
+{{< app/cells/assistant language="python-net" >}}

@@ -111,3 +111,4 @@ Además de los métodos mencionados anteriormente, las APIs de Aspose.Cells tamb
 - [Establecer la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para tener prioridad](/cells/es/nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Formatos de fuente soportados](/cells/es/nodejs-cpp/supported-font-formats/)
 - [Hoja de cálculo a imagen - Establecer formato de píxel para la imagen renderizada](/cells/es/nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

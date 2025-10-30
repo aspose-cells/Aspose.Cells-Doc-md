@@ -63,3 +63,4 @@ Ejecutar el código cambia las opciones de impresión.
 |![todo:image_alt_text](page-setup-and-printing-options_4.png)|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SettingPrintingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

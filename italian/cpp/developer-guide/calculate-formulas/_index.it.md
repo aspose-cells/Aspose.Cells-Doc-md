@@ -197,3 +197,4 @@ Per impostazione predefinita, la catena di calcolo è disattivata. Poiché la cr
 - [Restituzione di un intervallo di valori utilizzando AbstractCalculationEngine](/cells/it/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Impostare la modalità di calcolo della formula del foglio di lavoro](/cells/it/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Utilizzo della funzione FormulaText in Aspose.Cells](/cells/it/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

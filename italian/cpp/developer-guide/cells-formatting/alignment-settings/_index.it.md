@@ -494,3 +494,4 @@ int main()
 ## **Argomenti avanzati**
 - [Modifica dell'allineamento delle celle e mantenimento della formattazione esistente](/cells/it/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Interruzioni di riga e interruzioni di testo](/cells/it/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

@@ -40,3 +40,4 @@ Congelare le righe ti consente di visualizzare i tuoi dati di grandi dimensioni 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Freeze-Row.py" >}}
 
 File Excel di esempio allegato(../Freeze.xlsx).
+{{< app/cells/assistant language="python-net" >}}

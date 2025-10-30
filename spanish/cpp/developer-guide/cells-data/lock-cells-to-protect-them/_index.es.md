@@ -87,3 +87,4 @@ Este código asegura que solo las celdas especificadas (A1 y B2 en este ejemplo)
 <br>
 <img src="3.png" width=60% />
 
+{{< app/cells/assistant language="cpp" >}}

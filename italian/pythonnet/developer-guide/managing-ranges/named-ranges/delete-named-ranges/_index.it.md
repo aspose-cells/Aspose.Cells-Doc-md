@@ -21,8 +21,8 @@ Per rimuovere un intervallo nominato da Excel, segui questi passaggi:
 6. Fai clic sul pulsante "Chiudi" per chiudere la finestra di dialogo Gestione nomi.
 7. Salva il libro di lavoro per mantenere le modifiche.
 
-## **Elimina l'intervallo nominato utilizzando Aspose.Cells for .Net**
-Con Aspose.Cells per .Net, puoi rimuovere intervalli denominati o nomi definiti tramite [testo](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) dalla lista.
+## **Elimina l'intervallo denominato utilizzando Aspose.Cells for Python via .NET**
+Con Aspose.Cells for Python via .NET, puoi rimuovere intervalli denominati o nomi definiti tramite [testo](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) nella lista.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

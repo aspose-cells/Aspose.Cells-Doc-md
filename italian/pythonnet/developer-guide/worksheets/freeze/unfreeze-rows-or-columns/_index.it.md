@@ -32,3 +32,4 @@ In questo articolo, impareremo come Sbloccare Righe, Colonne e Riquadri. Se i fo
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Unfreeze-Pane.py" >}}
 
 Allegato il [file Excel di origine di esempio](Frozen.xlsx).
+{{< app/cells/assistant language="python-net" >}}

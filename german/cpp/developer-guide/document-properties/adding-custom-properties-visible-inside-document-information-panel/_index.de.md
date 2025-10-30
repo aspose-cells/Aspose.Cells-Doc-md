@@ -54,3 +54,4 @@ int main()
 - [Verwendung von benutzerdefinierten XML-Teilen in Aspose.Cells](/cells/de/cpp/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

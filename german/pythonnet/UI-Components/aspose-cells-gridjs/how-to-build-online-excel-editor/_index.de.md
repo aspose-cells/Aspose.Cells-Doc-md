@@ -25,11 +25,11 @@ Stellen Sie sicher, dass Docker auf Ihrem Rechner installiert ist. Sie können D
 
 ## Schritt 1: Erstellen Sie eine Dockerfile
 
-Erstellen Sie eine Datei namens `Dockerfile` in Ihrem Projektordner. Die `Dockerfile` sollte Anweisungen enthalten, wie Ihr Docker-Image gebaut werden soll.
+Erstellen Sie in Ihrem Projektordner eine Datei namens `Dockerfile`. Das `Dockerfile` sollte Anweisungen enthalten, wie Sie Ihr Docker-Image bauen.
 
 ## Schritt 2: Schreiben Sie die Dockerfile für GridJs
 
-Hier ist ein Beispiel für [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/blob/main/Examples_GridJs_Python_Net/Dockerfile) für die GridJs-Demo mit Python-Anwendung:
+Hier ist ein Beispiel [`Dockerfile`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs/Dockerfile) für die GridJs-Demo mit Python-Anwendung:
 
 ```dockerfile
 # use Python 3.13 as parent image

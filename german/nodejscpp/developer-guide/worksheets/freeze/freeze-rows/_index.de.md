@@ -53,3 +53,4 @@ workbook.save("frozen.xlsx");
 ```
 
 Angehängte [Beispielquelle für Excel-Datei](../Freeze.xlsx).
+{{< app/cells/assistant language="nodejs-cpp" >}}

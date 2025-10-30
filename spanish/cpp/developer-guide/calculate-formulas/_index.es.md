@@ -197,3 +197,4 @@ Por defecto, la cadena de cálculo está deshabilitada. Porque crear la cadena t
 - [Devolver un rango de valores utilizando AbstractCalculationEngine](/cells/es/cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Configurar el modo de cálculo de fórmulas de una hoja de cálculo](/cells/es/cpp/setting-formula-calculation-mode-of-workbook/)
 - [Usando la función FormulaText en Aspose.Cells](/cells/es/cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

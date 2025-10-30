@@ -54,3 +54,4 @@ Aspose.Cells para Python via .NET proporciona un método [**Aspose.Cells.Workshe
 El siguiente ejemplo muestra cómo mover una hoja de cálculo a otra ubicación dentro del libro.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Value-MoveWorksheet-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

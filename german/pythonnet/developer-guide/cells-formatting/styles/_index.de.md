@@ -55,3 +55,4 @@ cell.set_style(style)
 - [Verwenden von eingebauten Stilen](/cells/de/python-net/using-built-in-styles/)
 
 
+{{< app/cells/assistant language="python-net" >}}

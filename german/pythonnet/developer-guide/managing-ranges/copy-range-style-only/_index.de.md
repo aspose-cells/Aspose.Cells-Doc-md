@@ -22,3 +22,4 @@ Dieses Beispiel erstellt ein Arbeitsblatt, füllt es mit Daten und kopiert nur d
 1. Kopieren Sie die Formatierung des ersten Bereichs in den zweiten Bereich.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

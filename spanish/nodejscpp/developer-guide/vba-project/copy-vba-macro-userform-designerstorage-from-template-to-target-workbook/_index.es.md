@@ -99,3 +99,4 @@ target.getVbaProject().getModules().addDesignerStorage(vbaItem.getName(), design
 target.save(outputDir + "outputDesignerForm.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

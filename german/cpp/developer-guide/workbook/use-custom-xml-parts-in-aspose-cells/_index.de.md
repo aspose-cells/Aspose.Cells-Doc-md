@@ -78,3 +78,4 @@ int main()
 ## Verwandter Artikel
 
 - [Hinzufügen benutzerdefinierter Eigenschaften, die im Dokumentinformationsbereich sichtbar sind](/cells/de/cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="cpp" >}}

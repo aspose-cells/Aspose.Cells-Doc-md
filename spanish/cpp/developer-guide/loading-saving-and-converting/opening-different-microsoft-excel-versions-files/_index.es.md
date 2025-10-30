@@ -56,3 +56,4 @@ Para abrir un archivo en formato de Microsoft Excel 2007/2010/2013/2016/2019 y O
 Aspose.Cells también admite la apertura de archivos protegidos con contraseña de Microsoft Excel 2007, 2010, 2013, 2016, 2019 y Office 365.
 
 
+{{< app/cells/assistant language="cpp" >}}

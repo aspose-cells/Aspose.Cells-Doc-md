@@ -17,3 +17,4 @@ Si prega di vedere il codice di esempio di seguito che crea un nuovo file Excel 
 
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ZAxis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

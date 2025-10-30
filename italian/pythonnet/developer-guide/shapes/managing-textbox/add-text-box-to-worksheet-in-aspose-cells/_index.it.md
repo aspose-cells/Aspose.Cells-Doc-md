@@ -43,3 +43,4 @@ Otterrai un file simile a [file di risultato](result.xlsx). Nel file, vedrai qua
 
 ![](52449.png)
 
+{{< app/cells/assistant language="python-net" >}}

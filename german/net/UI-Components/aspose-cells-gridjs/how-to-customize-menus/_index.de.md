@@ -73,7 +73,7 @@ Nach Aufruf dieser Funktion
 
 ![Todo: Der Bildschirm zum Anpassen des Menüeintrags](gridjs_customize_menu.png)
 
-## Toolbar-Elemente anpassen 
+## Werkzeugleisten-Elemente anpassen 
 zum Beispiel:Nur die Zoom-Schaltfläche beibehalten, nehmen Sie an, die div-id von GridJs ist "gridjs-divid"
 ```javascript
    //get toolbar parent dom
@@ -97,6 +97,80 @@ Nach Aufruf dieser Funktion
 ![Todo: Der Bildschirm zum Anpassen der Werkzeugleiste](gridjs_customize_toolbar.png)
 
 
+## Hover-Effekt der Werkzeugleiste anpassen
+
+Öffnen Sie das Browser-Inspektionsfenster, wählen Sie die Symbolleiste-Schaltfläche,
+
+![todo: der Bildschirm zum Auswählen der Inspektions-Schaltfläche](gridjs_hover_toolbar_button_inspect.png)
+
+dann können wir den zugehörigen CSS-Schlüssel für diese Schaltfläche finden:freeze
+
+![todo:Der Bildschirm für die Suche nach CSS-Schlüssel für Toolbar-Schaltfläche](gridjs_hover_toolbar_button_csskey.png)
+
+Fügen Sie die folgende CSS-Regel hinzu:
+```css
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn:hover .x-spreadsheet-icon-img.freeze,
+.x-spreadsheet-toolbar .x-spreadsheet-toolbar-btn.active .x-spreadsheet-icon-img.freeze {
+  background: rgba(4, 71, 33, 0.08);
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+```
+Das Ergebnis wird sein:
+
+![todo:Der Bildschirm für Hover-Effekt für Toolbar-Schaltfläche](gridjs_hover_toolbar_button_hover.png)
 
 
+## Items im unteren Balken anpassen
+
+### Übersicht
+Der untere Balken enthält zwei interaktive Schaltflächen:
+1. &zwnj;**Schaltfläche zum Hinzufügen eines Arbeitsblatts**&zwnj; (`add` Klasse) - Erstellt neue Arbeitsblätter
+2. &zwnj;**Schaltfläche zur Auswahl des Arbeitsblatts**&zwnj; (`ellipsis` Klasse) - Verwalte die Arbeitsblatt-Auswahl
+
+### DOM-Zugriff
+Sie können auf diese Elemente zugreifen mit:
+```javascript
+// Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+
+// Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+
+```
+
+### Anpassungsbeispiele
+1. Schaltflächen ausblenden
+Um eine Schaltfläche aus dem DOM zu entfernen:
+```javascript
+// Hide Add Worksheet Button
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.parentElement.removeChild(addButton);
+
+// Hide Select Worksheet Button
+const selectButton = document.querySelector('.x-spreadsheet-icon-img.ellipsis');
+selectButton.parentElement.removeChild(selectButton);
+
+```
+
+2. Symbole ändern
+Sie können Symbole entweder durch externe SVG-Dateien oder Inline-SVG-Daten ersetzen.
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.style.backgroundImage = "url('https://example.com/fish-icon.svg')";
+// Adjust size and position
+addButton.style.width = '18px';
+addButton.style.height = '18px';
+addButton.style.left = '0';
+addButton.style.top = '0';
+```
+
+3. Button-Verhalten ändern
+Sie können das Klick-Ereignis anpassen, um die Funktionalität zu ändern:
+```javascript
+const addButton = document.querySelector('.x-spreadsheet-icon-img.add');
+addButton.addEventListener('click', function() {
+  // Custom action here
+  console.log('Custom add worksheet action');
+});
+```
 

@@ -26,3 +26,4 @@ También puedes descargar el paquete ZIP desde la Aspose.Cells for C++ [página
 1. Descargar/Instalar los [archivos más recientes](https://downloads.aspose.com/cells/cpp/).
 1. Descomprimir la carpeta en el entorno de producción.
 1. Para usar Aspose.Cells for C++, hacer referencia al directorio "Include" y "libAspose.Cells.dylib" en tu proyecto.
+{{< app/cells/assistant language="cpp" >}}

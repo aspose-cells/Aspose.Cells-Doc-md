@@ -41,3 +41,4 @@ Es ist möglich, etwas horizontal und vertikal auf einer Seite zu zentrieren. Da
 Legen Sie Kopf- und Fußzeilenränder mit den Membern der Klasse [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) fest, wie beispielsweise [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) und [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

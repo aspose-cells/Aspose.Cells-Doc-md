@@ -16,3 +16,4 @@ A volte il tuo Html contiene numeri come 1234567890123456 che sono più lunghi d
 Il seguente codice di esempio spiega l'uso della proprietà [**HTMLLoadOptions.keep_precision**](https://reference.aspose.com/cells/python-net/aspose.cells/abstracttextloadoptions/keep_precision/). L'API importerà il numero così com'è senza convertirlo in notazione esponenziale.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-AvoidExponentialNotationWhileImportingFromHtml-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

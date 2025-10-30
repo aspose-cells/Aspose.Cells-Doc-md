@@ -16,3 +16,4 @@ Sie können benutzerdefinierte Beschriftungen für Datenpunkte in der Serie eine
 Der folgende Code erstellt ein **Streuungsdigramm mit Linienverbundenen Datenpunkten** und fügt dann **Benutzerdefinierte Beschriftungen** zu den **Datenpunkten** in der **Serie** des **Diagramms** hinzu. Jede benutzerdefinierte Beschriftung zeigt den **Serienname** und **Punktnamen** an. Sie können stattdessen einen beliebigen anderen Text verwenden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-AddCustomLabelsToDataPointsInTheSeriesOfChart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

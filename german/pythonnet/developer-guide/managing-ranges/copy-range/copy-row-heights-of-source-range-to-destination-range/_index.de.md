@@ -16,3 +16,4 @@ Manchmal müssen Benutzer die Zeilenhöhen des Quellbereichs in den Zielbereich 
 Der folgende Beispielcode erläutert die Verwendung der [**PasteType.ROW_HEIGHTS**](https://reference.aspose.com/cells/python-net/aspose.cells/pastetype)-Enumeration, um die Zeilenhöhen des Quellbereichs in den Zielbereich zu kopieren. Sobald Sie die mit diesem Code generierte Ausgabedatei in Microsoft Excel öffnen, werden Sie feststellen, dass die Zeilenhöhen des Zielbereichs genau den Zeilenhöhen des Quellbereichs entsprechen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetRowHeightsOfSourceRangeToDestinationRange.py" >}}
+{{< app/cells/assistant language="python-net" >}}

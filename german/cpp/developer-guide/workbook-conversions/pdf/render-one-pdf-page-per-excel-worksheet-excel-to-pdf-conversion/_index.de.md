@@ -55,3 +55,4 @@ Wenn die Option [PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)](https://
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, [Workbook::CalculateFormula()](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) direkt vor dem Rendern der Tabelle in das PDF-Format aufzurufen. Dies stellt sicher, dass die abhängigen Formelfeld-Werte neu berechnet werden und die korrekten Werte im PDF dargestellt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

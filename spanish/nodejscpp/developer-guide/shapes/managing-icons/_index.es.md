@@ -64,3 +64,4 @@ Cuando ejecute el código anterior en su proyecto, obtendrá los siguientes resu
 
 ![](3.png)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

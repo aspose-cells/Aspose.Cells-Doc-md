@@ -1,7 +1,7 @@
 ---
 title: Conversione di File
 type: docs
-weight: 20
+weight: 30
 url: /it/python-java/converting-files/
 ---
 

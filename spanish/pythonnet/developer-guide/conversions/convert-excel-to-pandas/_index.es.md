@@ -13,6 +13,20 @@ Usando Aspose.Cells para Python via .NET API, puedes convertir Excel, TSV, CSV, 
 
 {{% /alert %}}
 
+## **Convertir Excel a DataFrame de Pandas desde cero**
+Aquí tienes un ejemplo de código para demostrar cómo exportar datos de Excel a un DataFrame de Pandas directamente utilizando Aspose.Cells para Python via .NET:
+1. Crea un libro de trabajo y agrega algunos valores.
+1. Recorrer los datos de Excel y exportar datos a DataFrame de Pandas utilizando Aspose.Cells para Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+
+## **Convertir un archivo de Excel existente a DataFrame de Pandas**
+Aquí tienes un ejemplo de código para demostrar cómo exportar datos de Excel a un DataFrame de pandas abriendo un archivo .xlsx existente usando Aspose.Cells para Python via .NET:
+1. Abrir un [archivo de Excel](PandasTest.xlsx) existente.
+1. Convertir los datos de cada fila y columna en un DataFrame de pandas.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-openning-file.py" >}}
+
 ## **Convertir Excel a DataFrame de Pandas a través de datos json**
 Aquí tienes un ejemplo de código para demostrar cómo exportar datos de Excel a un DataFrame de Pandas a través de datos json utilizando Aspose.Cells para Python via .NET:
 1. Crea un libro de trabajo y agrega algunos valores.
@@ -21,9 +35,10 @@ Aquí tienes un ejemplo de código para demostrar cómo exportar datos de Excel 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
 
-## **Convertir DataFrame de Pandas a Excel directamente**
-Aquí tienes un ejemplo de código para demostrar cómo exportar datos de Excel a un DataFrame de Pandas directamente utilizando Aspose.Cells para Python via .NET:
-1. Crea un libro de trabajo y agrega algunos valores.
-1. Recorrer los datos de Excel y exportar datos a DataFrame de Pandas utilizando Aspose.Cells para Python via .NET.
+## **Convertir Excel a DataFrame de Pandas vía archivo CSV**
+Debido a las características del formato de archivo CSV, convertir un archivo .xlsx a un archivo CSV y luego cargarlo en un DataFrame de Pandas es un proceso natural y sencillo:
+1. Convertir un [archivo xlsx existente](ProductDatatoCSV.xlsx) a archivo CSV.
+1. Convertir el archivo CSV a un DataFrame de Pandas.
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-via-CSV.py" >}}
+{{< app/cells/assistant language="python-net" >}}

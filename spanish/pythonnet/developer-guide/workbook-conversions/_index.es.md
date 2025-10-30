@@ -135,3 +135,4 @@ El siguiente ejemplo de código demuestra la exportación de la hoja de cálculo
 - [Json](/cells/es/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/es/python-net/convert-excel-to-pdf/)
 - [Convertir CSV, TSV y TXT a Excel](/cells/es/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

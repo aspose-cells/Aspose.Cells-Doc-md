@@ -48,3 +48,4 @@ printoption.setImageType(AsposeCells.ImageType.Jpeg);
 // Save the image
 pic.toImage(path.join(outputDir, "outputExtractImagesFromWorksheets.jpg"), printoption);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -107,3 +107,4 @@ El resultado de la salida:
 ```
 [['Region', 'Store'], ['Central', 3055], ['East', 3036]]
 ```
+{{< app/cells/assistant language="python-net" >}}

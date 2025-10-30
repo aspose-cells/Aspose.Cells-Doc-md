@@ -28,3 +28,4 @@ Lo screenshot seguente mostra l'output del codice di esempio precedente.
 
 ![todo:image_alt_text](htmlstring.png)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

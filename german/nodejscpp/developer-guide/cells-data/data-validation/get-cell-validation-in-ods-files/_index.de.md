@@ -19,3 +19,4 @@ Das folgende Codebeispiel zeigt die Verwendung der [**Cell.getValidation()**](ht
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

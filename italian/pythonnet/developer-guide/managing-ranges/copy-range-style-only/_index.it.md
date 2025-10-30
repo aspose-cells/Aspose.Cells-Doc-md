@@ -22,3 +22,4 @@ Questo esempio crea un workbook, lo popola con dati e copia solo lo stile di un 
 1. Copia la formattazione del primo intervallo al secondo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CopyRangeStyleOnly-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

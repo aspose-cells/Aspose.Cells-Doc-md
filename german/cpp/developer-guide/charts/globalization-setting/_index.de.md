@@ -47,3 +47,4 @@ Das folgende Beispiel zeigt im Detail, wie Sie eine lokalisierte Region einstell
 - [Wie man die chinesische Region für das Diagramm einstellt](/cells/de/cpp/convert-chart-to-image-for-chinese-region/)
 - [Wie man die japanische Region für das Diagramm einstellt](/cells/de/cpp/convert-chart-to-image-for-japanese-region/)
 
+{{< app/cells/assistant language="cpp" >}}

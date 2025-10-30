@@ -24,3 +24,4 @@ Dopo aver creato un grafico in un foglio di lavoro, puoi impostare l'asse delle 
 
 ## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CategoryAxis-settings.py" >}}
+{{< app/cells/assistant language="python-net" >}}

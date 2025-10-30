@@ -18,3 +18,4 @@ Aspose.Cells per Python via .NET fornisce una proprietà [**DataLabels.is_text_w
 Il campione di codice sottostante mostra come disabilitare il testo a capo per le etichette dati del grafico.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

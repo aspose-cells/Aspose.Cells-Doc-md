@@ -140,3 +140,4 @@ render.toImage(0, path.join(outputDir, `outputCustomFilteringPerWorksheet_${work
 
 run();
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

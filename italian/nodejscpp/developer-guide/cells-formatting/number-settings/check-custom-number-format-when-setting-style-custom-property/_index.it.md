@@ -20,3 +20,4 @@ Il codice di esempio seguente assegna un formato numerico personalizzato non val
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-CheckCustomNumberFormat.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

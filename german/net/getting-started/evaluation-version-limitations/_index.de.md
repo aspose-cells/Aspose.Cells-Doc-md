@@ -37,7 +37,7 @@ Dieses Arbeitsblatt wird immer als aktives Arbeitsblatt angezeigt. Nur in der li
 <br>
 
 ### **3. Einschränkung: Klartext mit Evaluierungsinformationen**
-In der Ausgabe der Klartextdatei von Aspose.Cells wird am Ende des Dokuments eine Evaluierungsinformation hinzugefügt.
+Im Ausgabedatei im Klartextformat von Aspose.Cells wird am Ende des Dokuments eine Bewertungsinformation hinzugefügt. Beim Speichern einer Datei im Klartextformat (wie CSV und TSV) wird nur der Inhalt des ersten Arbeitsblatts ausgegeben.
 <br>
 <image src="2.png" width="70%" />
 <br>

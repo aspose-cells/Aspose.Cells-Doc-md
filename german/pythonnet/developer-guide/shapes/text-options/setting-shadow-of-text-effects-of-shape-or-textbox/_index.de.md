@@ -22,3 +22,4 @@ Sie können den **Schatten** der **Texteffekte** einer beliebigen Form oder Text
 Der folgende Codeausschnitt veranschaulicht die Verwendung der [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) Eigenschaft zum Einstellen des Schattens von Texteffekten einer Form oder Textbox.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

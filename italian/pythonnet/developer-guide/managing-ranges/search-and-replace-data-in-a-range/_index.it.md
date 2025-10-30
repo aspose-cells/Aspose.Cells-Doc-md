@@ -16,3 +16,4 @@ A volte è necessario cercare e sostituire dati specifici in un intervallo ignor
 Aspose.Cells per Python via .NET fornisce il metodo [**FindOptions.set_range()**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/set_range/#aspose.cells.CellArea) per specificare un intervallo durante la ricerca dei dati. Il campione di codice sottostante cerca e sostituisce i dati in un intervallo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-SearchReplaceDataInRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

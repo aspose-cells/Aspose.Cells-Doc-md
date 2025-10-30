@@ -71,3 +71,4 @@ Der folgende Codeschnipsel zeigt, wie die Farbe der Haupt-Gitterlinien geändert
 ## **Erweiterte Themen**
 - [Setzen des Werteformatcodes der Diagrammserie](/cells/de/python-net/set-the-values-format-code-of-chart-series/)
 - [Bild als Hintergrundfüllung im Diagramm festlegen](/cells/de/python-net/set-picture-as-background-fill-in-the-chart/)
+{{< app/cells/assistant language="python-net" >}}

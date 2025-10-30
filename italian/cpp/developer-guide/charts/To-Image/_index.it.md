@@ -226,3 +226,4 @@ Nel caso tu provi a rendere in immagini o PDF i tipi di grafico non supportati, 
 
 ## **Argomenti avanzati**
 - [Converti grafico in PDF](/cells/it/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

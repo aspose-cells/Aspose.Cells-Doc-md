@@ -2,7 +2,7 @@
 title: Proteggere e rimuovere la protezione
 linktitle: Protezione
 type: docs
-weight: 40
+weight: 55
 url: /it/python-java/protect-and-unprotect/
 description: Questo snippet introduce come criptare e decriptare file excel, proteggere e togliere la protezione ai dati in file excel usando codici Python.
 ---

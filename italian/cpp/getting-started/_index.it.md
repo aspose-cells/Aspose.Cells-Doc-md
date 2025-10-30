@@ -80,3 +80,4 @@ Nell'esempio seguente viene creato un nuovo workbook da zero, inserisce "**Hello
 Nell'esempio seguente viene aperto un modello di file di Excel esistente, viene presa una cella e viene controllato il valore nella cella A1.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

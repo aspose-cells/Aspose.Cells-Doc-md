@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [Unisci più fogli di lavoro in un'unica scheda](/cells/it/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Unire file](/cells/it/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

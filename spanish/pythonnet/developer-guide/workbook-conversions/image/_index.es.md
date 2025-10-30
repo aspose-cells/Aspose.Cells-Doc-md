@@ -54,3 +54,4 @@ Aspose.Cells para Python via .NET ha podido convertir hojas de cálculo a imáge
 - [Convertir un gráfico de Excel a imagen](/cells/es/python-net/convert-an-excel-chart-to-image/)
 - [Convertir Gráfico a Imagen en Formato SVG](/cells/es/python-net/converting-chart-to-image-in-svg-format/)
 - [Exportar gráfico a SVG con atributo viewBox](/cells/es/python-net/export-chart-to-svg-with-viewbox-attribute/)
+{{< app/cells/assistant language="python-net" >}}

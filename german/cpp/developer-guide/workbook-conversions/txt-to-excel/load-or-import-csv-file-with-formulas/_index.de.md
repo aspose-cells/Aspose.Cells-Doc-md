@@ -61,3 +61,4 @@ Der Code l√§dt zuerst die CSV-Datei, importiert sie erneut bei Zelle D4. Schlie√
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
+{{< app/cells/assistant language="cpp" >}}

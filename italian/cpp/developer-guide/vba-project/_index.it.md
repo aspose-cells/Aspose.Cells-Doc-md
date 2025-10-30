@@ -195,3 +195,4 @@ int main()
 - [Filtra il Progetto VBA durante il Caricamento di un Workbook](/cells/it/cpp/filter-vba-project-while-loading-a-workbook/)
 - [Scopri se il progetto VBA è protetto](/cells/it/cpp/find-out-if-vba-project-is-protected/)
 - [Proteggi con password il progetto VBA del foglio di lavoro Excel](/cells/it/cpp/password-protect-the-vba-project-of-excel-workbook/)
+{{< app/cells/assistant language="cpp" >}}

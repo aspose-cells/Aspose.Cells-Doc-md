@@ -67,3 +67,4 @@ Además de los métodos mencionados, Aspose.Cells para Python via .NET también 
 - [Formatos de fuente soportados](/cells/es/python-net/supported-font-formats/)
 - [Hoja de cálculo a imagen - Establecer formato de píxel para la imagen renderizada](/cells/es/python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)
 
+{{< app/cells/assistant language="python-net" >}}

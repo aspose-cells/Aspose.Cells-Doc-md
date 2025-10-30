@@ -145,3 +145,4 @@ targetRange.copyData(sourceRange);
 ## **Temas avanzados**
 - [Copiar alturas de fila del rango de origen al rango de destino](/cells/es/nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -2,7 +2,7 @@
 title: Schützen und aufheben des Schutzes
 linktitle: Schutz
 type: docs
-weight: 40
+weight: 55
 url: /de/python-java/protect-and-unprotect/
 description: Dieser Ausschnitt zeigt, wie man Excel Dateien verschlüsselt und entschlüsselt, Daten in Excel Dateien mit Python Codes schützt und den Schutz aufhebt.
 ---

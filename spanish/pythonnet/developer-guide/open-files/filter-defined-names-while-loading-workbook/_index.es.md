@@ -19,3 +19,4 @@ El siguiente código de muestra carga el [archivo de Excel de muestra](61767860.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Open-files-FilterDefinedNamesWhileLoadingWorkbook.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

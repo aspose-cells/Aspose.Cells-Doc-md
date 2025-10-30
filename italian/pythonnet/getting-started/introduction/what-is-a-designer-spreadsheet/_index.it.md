@@ -36,3 +36,4 @@ Dopo aver creato un foglio di calcolo del designer, utilizza Aspose.Cells per le
 Inoltre, Aspose.Cells consente di aggiungere [smart marker](/cells/it/python-net/smart-markers/) al foglio di lavoro del designer. I marker intelligenti vengono elaborati durante l'esecuzione utilizzando il metodo Process della classe WorkbookDesigner. Questo può aiutarti a scrivere meno codice e ottenere comunque ottimi risultati.
 
 [Scopri di più sui marker intelligenti](/cells/it/python-net/smart-markers/).
+{{< app/cells/assistant language="python-net" >}}

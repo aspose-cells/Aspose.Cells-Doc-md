@@ -41,3 +41,4 @@ Name of the cell containing specified string: C10
 Name of the cell containing specified string: C11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

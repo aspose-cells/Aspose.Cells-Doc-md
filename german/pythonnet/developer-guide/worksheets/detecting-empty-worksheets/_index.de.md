@@ -28,3 +28,4 @@ Es ist möglich, dass ein bestimmtes Arbeitsblatt keine gefüllten Zellen enthä
 ## **Programmierbeispiel**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-DetectEmptyWorksheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

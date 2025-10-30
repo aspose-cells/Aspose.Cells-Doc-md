@@ -127,3 +127,4 @@ workbook.save(path.join(dataDir, "unmergingcells.out.xls"));
 
 ## **Erweiterte Themen**
 - [Erkennen von zusammengeführten Zellen in einem Arbeitsblatt](/cells/de/nodejs-cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -82,3 +82,4 @@ Mientras trabajan en hojas de cálculo, los usuarios pueden agregar diferentes t
 - [Poblar datos primero por fila luego por columna](/cells/es/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Preservar el prefijo de comilla simple del valor de la celda o rango](/cells/es/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Acceder y actualizar partes de texto enriquecido de la celda](/cells/es/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

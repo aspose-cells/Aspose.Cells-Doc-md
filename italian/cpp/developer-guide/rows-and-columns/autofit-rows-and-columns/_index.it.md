@@ -236,3 +236,4 @@ Se una cella è unita, i metodi AutoFit non verranno applicati, il che è lo ste
 
 ## **Argomenti Avanzati**
 - [Adattare automaticamente le righe per le celle unite](/cells/it/cpp/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="cpp" >}}

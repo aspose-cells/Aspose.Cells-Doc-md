@@ -38,3 +38,4 @@ Die Quell- und Ausgabedateien können von den folgenden Links heruntergeladen we
 [Quelldatei](105480221.xlsx)
 
 [Ausgabedatei](105480223.xlsx)
+{{< app/cells/assistant language="python-net" >}}

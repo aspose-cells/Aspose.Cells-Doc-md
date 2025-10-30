@@ -26,3 +26,4 @@ El siguiente código de ejemplo convierte el archivo Excel de ejemplo en HTML, s
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertingToHTMLFiles-1.py" >}}
 
 
+{{< app/cells/assistant language="python-net" >}}

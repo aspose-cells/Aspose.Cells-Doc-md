@@ -42,3 +42,4 @@ console.log(e.message);
 Si la hoja de cálculo contiene fórmulas, es recomendable llamar al método [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) justo antes de renderizar a PDF. Esto asegura que los valores dependientes de fórmulas se recalculen y que los valores correctos se rendericen en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -20,3 +20,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](61767747.xls
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

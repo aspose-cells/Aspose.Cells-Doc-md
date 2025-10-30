@@ -31,3 +31,4 @@ Aspose.Cells für Python via .NET bietet die Eigenschaften [**PivotTable.display
 ## Verwandte Artikel
 
 - [Pivot-Tabelle formatieren](/cells/de/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

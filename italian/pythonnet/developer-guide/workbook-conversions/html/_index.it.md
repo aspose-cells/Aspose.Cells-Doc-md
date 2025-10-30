@@ -48,3 +48,4 @@ L'esempio di codice seguente mostra come salvare un workbook come file MHTML uti
 - [Imposta la larghezza della colonna su un'unità scalabile come em o percentuale](/cells/it/python-net/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Imposta il carattere predefinito durante la rendering del foglio di calcolo in HTML](/cells/it/python-net/set-default-font-while-rendering-spreadsheet-to/)
 - [Specifica come attraversare la stringa nell'output HTML utilizzando HtmlCrossType](/cells/it/python-net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+{{< app/cells/assistant language="python-net" >}}

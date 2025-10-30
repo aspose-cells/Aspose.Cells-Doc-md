@@ -494,3 +494,4 @@ int main()
 ## **Temas avanzados**
 - [Cambiar la alineación de las celdas y mantener el formato existente](/cells/es/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Saltos de línea y ajuste de texto](/cells/es/cpp/line-breaks-and-text-wrapping/)
+{{< app/cells/assistant language="cpp" >}}

@@ -89,3 +89,4 @@ Fügen Sie einer Zelle mit der [**Cell**](https://reference.aspose.com/cells/pyt
 - [Unterstützte Excel-Funktionen](/cells/de/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

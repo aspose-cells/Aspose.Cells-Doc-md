@@ -22,3 +22,4 @@ Puedes establecer la sombra de los efectos de texto de cualquier forma o cuadro 
 El siguiente fragmento de código demuestra el uso de la propiedad [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) para establecer la sombra de efectos de texto de forma o cuadro de texto.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

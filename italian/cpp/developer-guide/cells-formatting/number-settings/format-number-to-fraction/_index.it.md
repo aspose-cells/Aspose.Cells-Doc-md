@@ -142,3 +142,4 @@ int main()
 - Aspose.Cells supporta un'ampia gamma di formati numerici, inclusi decimali, percentuali, valute e altri. Puoi personalizzare il formato per soddisfare le tue esigenze specifiche.
 
 Seguendo questi passaggi, puoi facilmente formattare i numeri come frazioni in Aspose.Cells for C++. Questo può essere particolarmente utile per applicazioni finanziarie, statistiche o educative in cui sono necessari valori frazionari precisi.
+{{< app/cells/assistant language="cpp" >}}

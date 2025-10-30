@@ -64,3 +64,4 @@ Diese Seite fasst die Merkmale von Aspose.Cells for Python via .NET zusammen.
 - Erstellen oder Bearbeiten Ihres Kopf- und/oder Fußzeilen
 - Festlegen des Druckbereichs, Drucktitel oder Anzeigen von Rasterlinien usw.
 
+{{< app/cells/assistant language="python-net" >}}

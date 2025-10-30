@@ -34,6 +34,14 @@ Con el siguiente ejemplo se muestra cómo añadir una etiqueta al gráfico. El e
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Nota:** Este tipo de control de etiqueta solo es compatible en archivos XLS. Si deseas un efecto similar en un archivo XLSX, por favor utiliza alguna de las siguientes alternativas:
+
+1. Usa el Control de Cuadro de Texto en su lugar, hay una alternativa similar al control de etiqueta en archivos XLSX.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) para el Cuadro de Texto, los archivos XLSX pueden soportarlo.
+
+2. Agrega una hoja de cálculo cuyo tipo de hoja sea "SheetType.Chart" y luego añade un Gráfico y un Control en esta hoja.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) para agregar un SheetType.Chart.
+
 ## **Añadiendo un Control de Cuadro de Texto al Gráfico**
 
 Una forma de resaltar información importante en un informe es mediante el uso de un cuadro de texto. Por ejemplo, introducir texto para resaltar el nombre de la empresa o indicar la región geográfica con mayores ventas. La clase [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) proporciona un método llamado [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), que se utiliza para añadir un control de cuadro de texto a un gráfico. A continuación se muestra la lista de parámetros utilizados para el método:

@@ -27,3 +27,4 @@ La seguente schermata mostra l'{output PDF](61767757.pdf) generato dal codice di
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-CreatePdfBookmarkEntryForChartSheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

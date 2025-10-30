@@ -102,3 +102,4 @@ int main()
 - [Bereich mit externen Links abrufen](/cells/de/cpp/get-range-with-external-links/)
 - [Implementierung nicht aufeinanderfolgender Bereiche](/cells/de/cpp/implementing-non-sequential-ranges/)
 
+{{< app/cells/assistant language="cpp" >}}

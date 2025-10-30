@@ -40,3 +40,4 @@ Los siguientes elementos del gráfico se renderizarán de acuerdo con tus config
 | Otro Nombre                  | Otro                             |
 | Nombre de la Serie                 | Serie                            |
 
+{{< app/cells/assistant language="python-net" >}}

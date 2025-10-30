@@ -25,3 +25,4 @@ Para aplicar un formato a un gran rango de celdas en una hoja de cálculo:
 Debido a que el enfoque [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) usa mucho menos memoria y es más eficiente, la propiedad Cell.style, que consumía mucha memoria innecesariamente, fue eliminada con la versión Aspose.Cells 7.1.0.  
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

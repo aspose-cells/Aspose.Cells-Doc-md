@@ -26,3 +26,4 @@ El siguiente ejemplo de código le muestra cómo agregar texto enriquecido HTML 
 
 - [Mostrar Viñetas al Establecer el Valor de la Celda usando HTML](/cells/es/python-net/display-bullets-by-setting-cell-value-using-html/)
 - [Obtener cadena HTML5 de la Celda](/cells/es/python-net/get-html5-string-from-cell/)
+{{< app/cells/assistant language="python-net" >}}

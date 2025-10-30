@@ -61,3 +61,4 @@ Um eine Spalte aus dem Arbeitsblatt an einer beliebigen Stelle zu löschen, rufe
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-DeleteColumn-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

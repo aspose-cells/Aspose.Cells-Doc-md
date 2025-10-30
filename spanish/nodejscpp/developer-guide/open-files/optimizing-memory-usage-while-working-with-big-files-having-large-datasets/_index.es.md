@@ -79,3 +79,4 @@ La opción predeterminada, [**MemorySetting.Normal**](https://reference.aspose.c
 2. **Insertar y eliminar celdas y filas**: Tenga en cuenta que si hay muchas operaciones de inserción/eliminación para celdas/filas, el deterioro del rendimiento será notable en modo *MemoryPreference* en comparación con el modo *Normal*.  
 3. **Operar en diferentes tipos de celda**: Si la mayoría de las celdas contienen valores de cadena o fórmulas, el costo de memoria será igual al modo *Normal*, pero si hay muchas celdas vacías, o los valores de las celdas son numéricos, booleanos y otros, la opción [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/) dará mejor rendimiento.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

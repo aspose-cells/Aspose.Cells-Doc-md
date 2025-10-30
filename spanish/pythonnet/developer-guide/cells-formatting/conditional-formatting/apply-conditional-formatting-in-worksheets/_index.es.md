@@ -45,3 +45,4 @@ Cuando se ejecuta el código anterior, se aplica formato condicional a la celda 
 
 Cuando se ejecuta el código anterior, se aplica formato condicional a la celda “B3” en la primera hoja de cálculo del archivo de salida (output.xls). El formato condicional aplicado depende de la fórmula que calcula el valor de “B3” como la suma de B1 y B2.
 
+{{< app/cells/assistant language="python-net" >}}

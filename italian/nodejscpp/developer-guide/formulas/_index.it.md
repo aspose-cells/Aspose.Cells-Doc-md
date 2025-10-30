@@ -223,3 +223,4 @@ workbook.save(path.join(dataDir, "output.xls"));
 - [Specificare il numero massimo di righe della formula condivisa](/cells/it/nodejs-cpp/specify-maximum-rows-of-shared-formula/)
 - [Funzioni Excel supportate](/cells/it/nodejs-cpp/supported-formula-functions/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

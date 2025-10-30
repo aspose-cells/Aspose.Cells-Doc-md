@@ -185,3 +185,4 @@ Wenn eine Zelle zusammengeführt ist, werden die autoFit-Methoden nicht angewend
 ## **Erweiterte Themen**  
 - [Automatisches Anpassen von Zeilen für zusammengeführte Zellen](/cells/de/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

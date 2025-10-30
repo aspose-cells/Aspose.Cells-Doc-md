@@ -64,3 +64,4 @@ L'esempio riportato di seguito aggiunge dati di esempio a un foglio di calcolo, 
 - [Tabelle e intervalli](/cells/it/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

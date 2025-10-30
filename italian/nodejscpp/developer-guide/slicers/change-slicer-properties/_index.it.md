@@ -51,3 +51,4 @@ slicer.refresh();
 // Save the workbook in output XLSX format.
 workbook.save(path.join(outputDir, "outputChangeSlicerProperties.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

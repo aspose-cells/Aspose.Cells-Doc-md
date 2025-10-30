@@ -25,3 +25,4 @@ Aspose.Cells per Python via .NET supporta l'aggiunta di un'immagine collegata ut
 Nell'esempio seguente viene mostrato come aggiungere un'immagine collegata da un indirizzo web a un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Pictures-InsertLinkedPicture-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -40,3 +40,4 @@ Die folgenden Diagrammelemente werden entsprechend Ihren Lokalisierungseinstellu
 | Anderer Name                  | Andere                            |
 | Serienname                    | Serie                             |
 
+{{< app/cells/assistant language="python-net" >}}

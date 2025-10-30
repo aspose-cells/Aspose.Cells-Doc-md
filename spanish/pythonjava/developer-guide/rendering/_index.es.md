@@ -1,7 +1,7 @@
 ---
 title: Renderización
 type: docs
-weight: 70
+weight: 150
 url: /es/python-java/rendering/
 ---
 

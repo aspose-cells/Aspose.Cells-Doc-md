@@ -8,3 +8,4 @@ description: Erfahren Sie, wie Sie Arbeitsmappen mit den APIs von Aspose.Cells f
 keywords: So verwalten Sie Arbeitsmappen in C#, verwalten Sie Arbeitsmappen und Arbeitsblätter mit C#, Betreiben Sie Arbeitsmappen und Arbeitsblätter in C#. 
 ---
 
+{{< app/cells/assistant language="python-net" >}}

@@ -78,3 +78,4 @@ workbook.save("chart_datalabels.xlsx");
 - [Festlegen des Formtyps von Datenbeschriftungen des Diagramms](/cells/de/nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/)  
 - [Anzeigen von Zellenbereichen als Datenbeschriftungen](/cells/de/nodejs-cpp/showing-cell-range-as-the-data-labels/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

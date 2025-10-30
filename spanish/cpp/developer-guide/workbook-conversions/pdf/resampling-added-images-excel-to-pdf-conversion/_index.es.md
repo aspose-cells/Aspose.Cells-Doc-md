@@ -64,3 +64,4 @@ Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**CalculateFormula
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

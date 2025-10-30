@@ -32,3 +32,4 @@ In der generierten Datei zählt das Diagramm dynamisch die Daten für den ausgew
 ```
 
 Sie können versuchen, den Dropdown-Wert in Zelle "Sheet1!$A$10" zu ändern, und Sie werden die dynamische Änderung des Diagramms sehen. Jetzt haben wir erfolgreich ein dynamisches Diagramm mit Dropdown-Liste unter Verwendung von Aspose.Cells für Python via .NET erstellt.
+{{< app/cells/assistant language="python-net" >}}

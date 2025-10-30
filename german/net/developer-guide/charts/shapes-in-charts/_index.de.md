@@ -34,6 +34,14 @@ Im folgenden Beispiel wird gezeigt, wie eine Beschriftung dem Diagramm hinzugef�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
+**Hinweis:** Diese Art von Beschriftungssteuerung wird nur in XLS-Dateien unterstützt. Wenn Sie einen ähnlichen Effekt in einer XLSX-Datei erzielen möchten, verwenden Sie bitte eine der folgenden Alternativen:
+
+1. Verwenden Sie stattdessen die TextBox-Steuerung, es gibt eine ähnliche Alternative zur Beschriftungssteuerung in XLSX-Dateien.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-textbox-control-to-the-chart) für TextBox, XLSX-Dateien können unterstützt werden.
+
+2. Fügen Sie ein Arbeitsblatt hinzu, bei dem der Blatttyp "SheetType.Chart" ist, und fügen Sie dann Diagramm und Steuerung auf dieses Blatt ein.
+- [**Example**](https://docs.aspose.com/cells/net/controls-in-charts/#adding-checkbox-in-the-chart) zum Hinzufügen des SheetType.Chart.
+
 ## **Hinzufügen einer Textfeldsteuerung zum Diagramm**
 
 Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, besteht darin, einen Textbereich zu verwenden. Geben Sie beispielsweise Text ein, um den Firmennamen hervorzuheben oder das geografische Gebiet mit den höchsten Verkäufen anzuzeigen. Die Klasse [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) stellt eine Methode namens [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart) zur Verfügung, die verwendet wird, um dem Diagramm eine Textfeldsteuerung hinzuzufügen. Im Folgenden finden Sie die verwendete Parameterliste für die Methode:

@@ -21,3 +21,4 @@ Il seguente output della console stampa i valori dei metodi [GetFullText](https:
 Refers To: =Sheet1!$A$5:$C$10
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

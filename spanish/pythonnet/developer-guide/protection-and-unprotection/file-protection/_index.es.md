@@ -48,3 +48,4 @@ Es muy sencillo abrir archivos de Excel protegidos con contraseña y descifrarlo
 - [Especificar Autor al Proteger la Escritura del Libro de Trabajo](/cells/es/python-net/specify-author-while-write-protecting-workbook/)
 - [Verificar Contraseña de Archivos Encriptados](/cells/es/python-net/verify-password-of-encrypted-excel-and-ods-files/)
 
+{{< app/cells/assistant language="python-net" >}}

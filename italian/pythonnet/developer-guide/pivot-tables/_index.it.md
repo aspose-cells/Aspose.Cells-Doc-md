@@ -56,3 +56,4 @@ Quando si assegna un intervallo di celle come origine dati, l'intervallo deve an
 - [Salva la tabella pivot in un file ODS](/cells/it/python-net/save-pivot-table-in-ods-file/)
 - [Mostra l'opzione pagine filtro report](/cells/it/python-net/show-report-filter-pages-option/)
 - [Lavorare con i formati di visualizzazione dei dati dei campi dati nella tabella pivot](/cells/it/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

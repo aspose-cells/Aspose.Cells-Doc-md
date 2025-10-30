@@ -24,3 +24,4 @@ Das folgende Beispiel zeigt, wie ein Bereich von Seiten (3 und 4) in einer Micro
 Wenn die Tabelle Formeln enthält, ist es am besten, die Methode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) unmittelbar vor dem Rendern in PDF aufzurufen. Dadurch werden formelabhängige Werte neu berechnet und die korrekten Werte in der Ausgabedatei gerendert.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

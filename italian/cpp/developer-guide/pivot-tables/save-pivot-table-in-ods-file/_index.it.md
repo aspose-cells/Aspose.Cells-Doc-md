@@ -115,3 +115,4 @@ int main()
  Il file di output generato dal codice sopra è allegato per il tuo riferimento.
 
 [File ODS di output](PivotTableSaveInODS_out.ods)
+{{< app/cells/assistant language="cpp" >}}

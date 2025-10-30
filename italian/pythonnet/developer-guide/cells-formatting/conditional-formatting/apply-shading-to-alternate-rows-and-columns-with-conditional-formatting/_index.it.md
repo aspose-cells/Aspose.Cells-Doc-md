@@ -34,3 +34,4 @@ Il foglio elettronico risultante, in questo caso, avrà questo aspetto.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

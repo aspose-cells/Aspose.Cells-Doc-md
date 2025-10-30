@@ -14,3 +14,4 @@ Il codice esempio seguente crea un oggetto [Stile](https://reference.aspose.com/
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-CreateStyleUsingCellsFactory.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

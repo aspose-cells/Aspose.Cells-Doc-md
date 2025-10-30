@@ -32,3 +32,4 @@ In der generierten Datei können Sie weiterhin Daten in den Spalten A und B hinz
 ```
 
 Sie können versuchen, die Zahl "-5" in der Formel in "-10" zu ändern, und das dynamische Diagramm wird die letzten 10 Datenreihen zählen. Jetzt haben wir erfolgreich ein dynamisches Rollendiagramm mit Aspose.Cells für Python via .NET erstellt.
+{{< app/cells/assistant language="python-net" >}}

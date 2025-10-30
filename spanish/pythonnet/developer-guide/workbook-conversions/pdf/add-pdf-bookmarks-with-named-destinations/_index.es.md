@@ -20,3 +20,4 @@ Por favor ve el siguiente código de ejemplo, su [archivo de Excel fuente](50528
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddPDFBookmarksWithNamedDestinations.py" >}}
+{{< app/cells/assistant language="python-net" >}}

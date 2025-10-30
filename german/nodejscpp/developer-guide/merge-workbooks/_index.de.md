@@ -79,3 +79,4 @@ sourceBook1.save(outputPath);
 - [Mehrere Arbeitsblätter in ein einziges Arbeitsblatt kombinieren](/cells/de/nodejs-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dateien zusammenführen](/cells/de/nodejs-cpp/merge-files/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

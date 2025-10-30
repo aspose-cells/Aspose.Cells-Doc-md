@@ -36,3 +36,4 @@ Wenn Sie das SVG des Diagramms in Notepad öffnen, finden Sie das **viewBox**-At
 {{< /highlight >}}
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

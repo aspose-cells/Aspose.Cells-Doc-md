@@ -111,3 +111,4 @@ Anche la raccolta [**cells**](https://reference.aspose.com/cells/python-net/aspo
 - [Impostazioni dei numeri](/cells/it/python-net/cells-number-settings/)
 - [Ottenere e impostare lo stile delle celle](/cells/it/python-net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 
+{{< app/cells/assistant language="python-net" >}}

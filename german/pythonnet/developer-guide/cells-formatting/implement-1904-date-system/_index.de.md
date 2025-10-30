@@ -28,3 +28,4 @@ Siehe den folgenden Beispielcode, um dies mit den APIs von Aspose.Cells für Pyt
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Implement1904DateSystem-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

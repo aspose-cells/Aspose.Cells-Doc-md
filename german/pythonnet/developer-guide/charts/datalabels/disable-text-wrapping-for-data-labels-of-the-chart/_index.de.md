@@ -18,3 +18,4 @@ Aspose.Cells für Python via .NET bietet eine [**DataLabels.is_text_wrapped**](h
 Der folgende Codebeispiel zeigt, wie der Textumbruch für die Datenbeschriftungen des Diagramms deaktiviert wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

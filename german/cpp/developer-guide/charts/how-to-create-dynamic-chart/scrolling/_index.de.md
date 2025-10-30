@@ -91,3 +91,4 @@ In der generierten Datei können Sie auf die Bildlaufleiste zugreifen, während 
 ```
 
 Sie können versuchen, die Zahl "10" in "15" in der Zelle "Sheet1!$H$20" zu ändern, und das dynamische Diagramm wird die neuesten 15 Datensätze zählen. Jetzt haben wir erfolgreich ein dynamisches Bildlaufdiagramm mit Aspose.Cells erstellt.
+{{< app/cells/assistant language="cpp" >}}

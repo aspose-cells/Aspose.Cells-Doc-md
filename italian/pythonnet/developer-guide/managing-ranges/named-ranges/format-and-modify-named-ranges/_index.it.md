@@ -53,3 +53,4 @@ Aspose.Cells fornisce il metodo [**Range.intersect**](https://reference.aspose.c
 Aspose.Cells fornisce il metodo [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#) per unergere le celle nell'intervallo. Nell'esempio seguente viene mostrato come unire le celle individuali di un intervallo nominato.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-MergeCellsInNamedRange-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -16,3 +16,4 @@ Aspose.Cells for Python via .NET exportiert Frame-Skripte und Dokumenteigenschaf
 Der folgende Beispielcode ermöglicht es Ihnen, den Export von Rahmen-Skripten und Dokumenteigenschaften zu deaktivieren. Nach der Konvertierung einer Arbeitsmappe in HTML enthält die Ausgabedatei keine Rahmen-Skripte und Dokumenteigenschaften.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-HtmlExportFrameScripts-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

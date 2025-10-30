@@ -113,3 +113,4 @@ Rimuovere i pannelli divisi utilizzando il metodo [**remove_split**](https://ref
 - [Mostra formule invece di valori in un foglio di lavoro](/cells/it/python-net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Usa le opzioni di controllo degli errori](/cells/it/python-net/use-error-checking-options/)
 
+{{< app/cells/assistant language="python-net" >}}

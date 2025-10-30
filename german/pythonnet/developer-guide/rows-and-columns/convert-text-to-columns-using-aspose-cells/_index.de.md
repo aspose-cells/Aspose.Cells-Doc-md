@@ -20,3 +20,4 @@ Der folgende Beispielscode erläutert die Verwendung der [**Worksheet.Cells.text
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-ConvertTextToColumns.py" >}}
+{{< app/cells/assistant language="python-net" >}}

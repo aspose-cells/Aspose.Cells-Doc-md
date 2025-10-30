@@ -83,5 +83,5 @@ El valor predeterminado de la propiedad ConvertFormulasData es falso.
 ## **Propiedad ImageOptions agregada a la clase HtmlSaveOptions**
 Se ha agregado la propiedad ImageOptions a la clase HtmlSaveOptions. La exposición de la propiedad ImageOptions ha permitido a los desarrolladores establecer las preferencias para las imágenes incrustadas en HTML al exportar hojas de cálculo. 
 ## **Se ha marcado como obsoleta la propiedad HtmlSaveOptions.ExportChartImageFormat a partir de Aspose.Cells for .NET 8.0.2. Se recomienda utilizar HtmlSaveOptions.ImageOptions en su lugar para la configuración del formato de imagen al exportar hojas de cálculo al formato HTML.**
-HtmlSaveOptions.ExportChartImageFormat ha sido marcado como obsoleto a partir de Aspose.Cells for .NET 8.0.2. Se recomienda utilizar HtmlSaveOptions.ImageOptions en su lugar para la configuración del formato de imagen al exportar hojas de cálculo al formato HTML.
+HtmlSaveOptions.ExportChartImageFormat ha sido marcado como obsoleto a partir de Aspose.Cells for Java 8.0.2. Se recomienda usar HtmlSaveOptions.ImageOptions en su lugar para la configuración del formato de imagen al exportar hojas de cálculo a formato HTML.
 {{< app/cells/assistant language="java" >}}

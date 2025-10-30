@@ -102,3 +102,4 @@ int main()
 ## **Argomenti avanzati**
 - [Mantieni i separatori per le righe vuote durante l'esportazione di fogli di calcolo in formato CSV](/cells/it/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Taglia righe e colonne vuote iniziali durante l'esportazione di fogli di calcolo nel formato CSV](/cells/it/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

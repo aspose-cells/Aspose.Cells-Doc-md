@@ -8,3 +8,4 @@ description: Aprende a gestionar un libro de trabajo a través de las API Aspose
 keywords: Cómo gestionar un libro de trabajo en Node.js mediante C++, Gestionar libros de trabajo y hojas de cálculo usando Node.js a través de C++, Operar libros de trabajo y hojas en Node.js mediante C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

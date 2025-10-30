@@ -14,3 +14,4 @@ url: /it/python-net/create-textbox-in-which-each-line-is-having-different-horizo
 Il seguente codice di esempio crea tre righe e imposta l'allineamento orizzontale di ciascuna di esse.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-CreateTextBoxWithDifferentHorizontalAlignment-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -9,9 +9,9 @@ url: /de/net/create-combo-chart/
 
 ## **Mögliche Verwendungsszenarien**
 Kombinationsdiagramme in Excel ermöglichen es Ihnen, diese Option zu nutzen, da Sie problemlos zwei oder mehr Diagrammtypen kombinieren können, um Ihre Daten verständlich zu machen. Kombinationsdiagramme sind hilfreich, wenn Ihre Daten verschiedene Arten von Werten enthalten, einschließlich Preis und Volumen. Darüber hinaus sind Kombinationsdiagramme sinnvoll, wenn sich Ihre Datenwerte von Serie zu Serie stark ändern.
-Anhand des folgenden Datensatzes können wir beobachten, dass diese Daten denen in [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/) ähnlich sind. Wenn wir die Serie0, die "Gesamterlös" entspricht, als Liniendiagramm visualisieren möchten, wie sollten wir vorgehen?
 
-![todo:image_alt_text](sample.png)
+Jetzt erstellen wir ein Säulen-Linien-Kombinationsdiagramm. Zuerst erstellen wir ein Säulendiagramm und ändern dann einige Serienarten in Linie, um dieses Kombinationsdiagramm zu erreichen.
+
 ## **Kombinationsdiagramm**
 Nach Ausführung des unten stehenden Codes sehen Sie das Kombinationsdiagramm wie unten gezeigt.
 

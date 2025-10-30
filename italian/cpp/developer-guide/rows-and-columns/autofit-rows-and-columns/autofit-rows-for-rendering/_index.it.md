@@ -45,3 +45,4 @@ int main()
 Ora, il testo non è tagliato nel file PDF di output.
 
 ![il testo non è tagliato nel pdf salvato](text_not_clipped_in_saved_pdf.png)
+{{< app/cells/assistant language="cpp" >}}

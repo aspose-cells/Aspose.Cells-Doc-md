@@ -299,3 +299,4 @@ worksheet.getPageSetup().setFirstPageNumber(2);
 workbook.save(path.join(dataDir, "SetFirstPageNumber_out.xls"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

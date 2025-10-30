@@ -35,3 +35,4 @@ Rimuovere la protezione dalla struttura del workbook è semplice con l'API Aspos
 Nota: è necessaria una password corretta.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

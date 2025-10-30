@@ -50,3 +50,4 @@ Um ein PivotChart mit Aspose.Cells für Python via .NET zu erstellen:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreatePivotChart-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ Resultado generado por el código de ejemplo
 La siguiente captura de pantalla muestra la salida del código de muestra anterior.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="cpp" >}}

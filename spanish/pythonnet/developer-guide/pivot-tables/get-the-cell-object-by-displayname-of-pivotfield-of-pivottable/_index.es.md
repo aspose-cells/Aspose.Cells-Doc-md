@@ -26,3 +26,4 @@ El siguiente código accede a la primera tabla dinámica de la hoja de cálculo 
 |**Tabla Dinámica - Después**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+{{< app/cells/assistant language="python-net" >}}

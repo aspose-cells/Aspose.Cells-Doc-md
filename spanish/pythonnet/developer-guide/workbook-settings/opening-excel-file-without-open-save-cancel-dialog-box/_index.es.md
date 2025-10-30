@@ -39,3 +39,4 @@ En el Explorador de Windows:
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 Esta configuración permite que los archivos se ejecuten directamente en el navegador web, sin que se muestre el cuadro de diálogo Abrir-Guardar-Cancelar al descargar o abrir el archivo.
 
+{{< app/cells/assistant language="python-net" >}}

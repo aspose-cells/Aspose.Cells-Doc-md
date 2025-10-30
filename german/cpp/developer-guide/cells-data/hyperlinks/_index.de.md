@@ -166,3 +166,4 @@ int main()
 - [Hyperlink-Typ erkennen](/cells/de/cpp/detect-hyperlink-type/)
 - [Hyperlinks im Arbeitsblatt bearbeiten](/cells/de/cpp/editing-hyperlinks-of-worksheet/)
 - [Hyperlinks im Bereich abrufen](/cells/de/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

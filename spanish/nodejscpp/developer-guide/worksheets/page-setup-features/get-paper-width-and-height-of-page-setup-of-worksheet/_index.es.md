@@ -64,3 +64,4 @@ PaperA4: 8.27x11.69
 PaperLetter: 8.5x11
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

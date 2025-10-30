@@ -43,3 +43,4 @@ Finalmente, el siguiente código guarda el gráfico en formato de imagen y el li
 - [Formato de Datos en Gráficos](/cells/es/python-net/data-formatting-in-charts/)
 - [Configurar la apariencia del gráfico](/cells/es/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

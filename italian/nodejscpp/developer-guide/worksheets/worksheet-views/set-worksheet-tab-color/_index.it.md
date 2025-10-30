@@ -41,3 +41,4 @@ worksheet.setTabColor(AsposeCells.Color.Red);
 workbook.save(path.join(dataDir, "worksheettabcolor.out.xls"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -111,3 +111,4 @@ Después de la operación anterior, podemos obtener una imagen de gráfico de sa
 |Otro Nombre|その他|Otro|  
 |Nombre de la Serie|シリーズ|Serie|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

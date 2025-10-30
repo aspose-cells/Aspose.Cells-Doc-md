@@ -185,3 +185,4 @@ Si una celda está combinada, entonces los métodos de ajuste automático no se 
 ## **Temas avanzados**  
 - [Ajustar automáticamente filas para celdas fusionadas](/cells/es/nodejs-cpp/autofit-rows-for-merged-cells/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

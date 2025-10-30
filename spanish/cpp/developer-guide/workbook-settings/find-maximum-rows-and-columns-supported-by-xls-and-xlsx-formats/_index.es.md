@@ -74,3 +74,4 @@ Maximum Rows: 1048576
 Maximum Columns: 16384
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

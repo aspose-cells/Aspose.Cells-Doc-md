@@ -53,3 +53,4 @@ Die Änderungen werden automatisch auf den Bereich angewendet, auf den der Stil 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ModifyThroughSampleExcelFile-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

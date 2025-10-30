@@ -18,3 +18,4 @@ Si prega di vedere il seguente codice di esempio. Carica il [file Excel di esemp
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

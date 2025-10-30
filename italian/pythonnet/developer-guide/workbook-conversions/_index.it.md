@@ -135,3 +135,4 @@ L'esempio di codice seguente dimostra l'esportazione del foglio di lavoro attivo
 - [Json](/cells/it/python-net/convert-workbook-to-json/)
 - [Pdf](/cells/it/python-net/convert-excel-to-pdf/)
 - [Converti CSV, TSV e TXT in Excel](/cells/it/python-net/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

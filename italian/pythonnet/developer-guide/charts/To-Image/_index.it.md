@@ -118,3 +118,4 @@ Nel caso in cui si tenti di rendere i tipi di grafico non supportati in immagine
 
 ## **Argomenti avanzati**
 - [Converti grafico in PDF](/cells/it/python-net/chart-to-pdf/)
+{{< app/cells/assistant language="python-net" >}}

@@ -34,3 +34,4 @@ Proteggi l'autenticità del contenuto di un documento; puoi aggiungere una firma
 - [Rilevare il formato del file di Office Open XML crittografato - file OOXML](/cells/it/nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Crittografare i file Excel](/cells/it/nodejs-cpp/encrypting-excel-files/)
 - [Come rilevare un formato di file e verificare se il file è crittografato](/cells/it/nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

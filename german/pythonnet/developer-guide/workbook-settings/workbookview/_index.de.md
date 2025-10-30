@@ -19,7 +19,7 @@ Wenn Sie die Anzeige der Excel-Seiten anpassen müssen, müssen Sie wissen, wie 
 - [**WorkbookSettings.window_left**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_left/)
 - [**WorkbookSettings.window_top**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/window_top/)
 
-## **Wie man die Ansicht der Arbeitsmappe mithilfe von Aspose.Cells for .NET steuert**
+## **So steuern Sie die Arbeitsblattansicht mit Aspose.Cells für Python via .NET**
 Dieses Beispiel zeigt, wie Sie:
 
 1. Ein Arbeitsbuch erstellen.
@@ -33,3 +33,4 @@ Vorschau der Ergebnisdatei:
 <image src="result.png" width="70%" />
 
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

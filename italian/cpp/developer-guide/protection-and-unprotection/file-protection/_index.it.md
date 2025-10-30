@@ -149,3 +149,4 @@ int main()
 - [Impostazione del tipo di crittografia forte](/cells/it/cpp/setting-strong-encryption-type/)
 - [Specificare l'autore durante la protezione in scrittura del workbook](/cells/it/cpp/specify-author-while-write-protecting-workbook/)
 - [Verifica password dei file crittografati](/cells/it/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

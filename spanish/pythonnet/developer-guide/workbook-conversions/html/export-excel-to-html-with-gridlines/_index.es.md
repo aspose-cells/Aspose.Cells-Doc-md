@@ -16,3 +16,4 @@ El siguiente código de ejemplo crea un libro e inserta algunos valores en su ho
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ExportToHTMLWithGridLines-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

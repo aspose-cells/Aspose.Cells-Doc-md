@@ -144,3 +144,4 @@ workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx)
 - [Come impostare lo sfondo del commento](/cells/it/nodejs-cpp/how-to-set-comment-background/)
 - [Commenti in discussione](/cells/it/nodejs-cpp/threaded-comments/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

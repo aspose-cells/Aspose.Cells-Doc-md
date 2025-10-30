@@ -32,3 +32,4 @@ Is 15 a Valid Value for this Cell: true
 Is 30 a Valid Value for this Cell: false
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

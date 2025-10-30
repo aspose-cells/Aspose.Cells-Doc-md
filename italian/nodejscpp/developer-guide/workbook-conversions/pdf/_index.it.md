@@ -238,3 +238,4 @@ Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calcula
 - [Salva fogli specificati in PDF](/cells/it/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [Documenti PDF sicuri](/cells/it/nodejs-cpp/secure-pdf-documents/)
 - [Specificare come incrociare la stringa nel PDF e nell'immagine di output](/cells/it/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -96,3 +96,4 @@ int main()
 ## **Temas avanzados**
 - [Combinar múltiples hojas de cálculo en una sola hoja de cálculo](/cells/es/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Fusionar archivos](/cells/es/cpp/merge-files/)
+{{< app/cells/assistant language="cpp" >}}

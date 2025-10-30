@@ -28,3 +28,4 @@ Wenn die Option [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com
 Wenn Ihre Tabellenkalkulation Formeln enthält, ist es am besten, die Methode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) unmittelbar vor dem Rendern der Tabellenkalkulation in PDF aufzurufen. Dadurch wird sichergestellt, dass die von den Formeln abhängigen Werte neu berechnet und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

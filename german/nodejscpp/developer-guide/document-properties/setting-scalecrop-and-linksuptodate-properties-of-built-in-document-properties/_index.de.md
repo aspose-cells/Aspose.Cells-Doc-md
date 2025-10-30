@@ -43,3 +43,4 @@ workbook.getBuiltInDocumentProperties().setLinksUpToDate(true);
 // Saving the Excel file.
 workbook.save(path.join(dataDir, "output.xls"), AsposeCells.SaveFormat.Auto);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -162,3 +162,4 @@ int main()
 
 ## **Temas avanzados**
 - [Detectar celdas combinadas en una hoja de cálculo](/cells/es/cpp/detect-merged-cells-in-a-worksheet/)
+{{< app/cells/assistant language="cpp" >}}

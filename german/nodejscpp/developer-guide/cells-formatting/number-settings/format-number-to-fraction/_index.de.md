@@ -107,3 +107,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 - Aspose.Cells unterstützt eine breite Palette von Zahlenformaten, einschließlich Dezimal, Prozentsatz, Währung und mehr. Du kannst das Format an deine spezifischen Anforderungen anpassen.
 
 Durch Befolgen dieser Schritte können Sie Zahlen leicht in Brüche in Aspose.Cells for Node.js via C++ formatieren. Dies ist besonders nützlich für Finanz-, Statistik- oder Bildungsanwendungen, in denen präzise Bruchwerte erforderlich sind.
+{{< app/cells/assistant language="nodejs-cpp" >}}

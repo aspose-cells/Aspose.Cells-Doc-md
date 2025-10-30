@@ -1,5 +1,5 @@
 ---
-title: Deklaration
+title: Vertrauensberechtigungen für Webserver
 type: docs
 weight: 30
 url: /de/net/declaration/
@@ -8,6 +8,8 @@ url: /de/net/declaration/
 {{% alert color="primary" %}} 
 
 Generell erfordern alle Aspose .NET-Komponenten Full-Trust-Berechtigungen. Der Grund dafür ist, dass Aspose für .NET-Komponenten auf Registryeinstellungen, Systemdateien und andere als virtuelles Verzeichnis benötigt, um bestimmte Operationen wie das Parsen von Schriften usw. durchzuführen. Darüber hinaus sind Aspose für .NET-Komponenten (einschließlich Aspose.Cells for .NET) auf Kern-.NET-Systemklassen basierend, die in vielen Fällen ebenfalls Full-Trust-Berechtigungen erfordern.
+<br/>
+Mittleres Vertrauen wurde in .NET Core und .NET 5+ entfernt. Mittleres Vertrauen ist der Sicherheitsmechanismus in der Ära des .NET Framework. Mittleres Vertrauen wurde allmählich durch flexiblere Sicherheitspolitiken ersetzt. Wir empfehlen den Nutzern, ein Upgrade auf .NET 5+ durchzuführen und containerisierte Deployments zu bevorzugen anstelle traditioneller Vertrauensstufen.
 
 {{% /alert %}} 
 ## **Teilweiser Vertrauen / Mittleres Vertrauen-Herausforderung**

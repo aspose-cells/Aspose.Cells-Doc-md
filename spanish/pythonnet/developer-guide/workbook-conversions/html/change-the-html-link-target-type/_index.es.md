@@ -29,3 +29,4 @@ Como puedes ver, el atributo destino en el enlace HTML anterior es **_self**. Pu
 El siguiente código ilustra el uso de la propiedad [**HtmlSaveOptions.link_target_type**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/link_target_type/). Cambia el tipo de destino del enlace a **BLANK**. Por defecto, es el **PARENT**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ChangeHtmlLinkTarget-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

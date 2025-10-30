@@ -18,3 +18,4 @@ Il seguente codice di esempio spiega l'uso del metodo [**Shape.to_front_or_back(
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-SendShapeFrontOrBackInWorksheet.py" >}}
+{{< app/cells/assistant language="python-net" >}}

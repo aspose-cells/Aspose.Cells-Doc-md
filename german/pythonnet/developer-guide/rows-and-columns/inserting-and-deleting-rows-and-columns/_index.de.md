@@ -76,3 +76,4 @@ Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode [**
 Um eine Spalte aus dem Arbeitsblatt an beliebiger Stelle zu löschen, rufen Sie die Methode [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) der Sammlung [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells) auf. Die Methode [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) erfordert den Index der zu löschenden Spalte.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

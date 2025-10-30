@@ -143,3 +143,4 @@ Si su hoja de cálculo contiene fórmulas, es mejor llamar al método [Workbook.
 - [Guardar hojas de cálculo especificadas en PDF](/cells/es/python-net/save-specified-worksheets-to-pdf/)
 - [Documentos PDF seguros](/cells/es/python-net/secure-pdf-documents/)
 - [Especificar cómo cruzar cadenas en el PDF de salida e imagen](/cells/es/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="python-net" >}}

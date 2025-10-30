@@ -30,3 +30,4 @@ Quando un dato foglio di lavoro ha molte colonne, il file PDF generato potrebbe 
 Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) appena prima di rappresentare il foglio di calcolo nel formato PDF. Così facendo, garantirai che i valori dipendenti dalla formula vengano ricalcolati e i valori corretti vengano rappresentati nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

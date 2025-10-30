@@ -30,3 +30,4 @@ Cuando una hoja de trabajo determinada tiene muchas columnas, el archivo PDF gen
 Si su hoja de cálculo contiene fórmulas, es mejor llamar al método [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) justo antes de renderizar la hoja de cálculo al formato PDF. De esta forma se asegurará de que los valores dependientes de las fórmulas se recalculen y se rendericen los valores correctos en el PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

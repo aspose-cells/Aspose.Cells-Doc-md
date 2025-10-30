@@ -190,3 +190,4 @@ Establezca la calidad de impresión de las hojas de cálculo que se imprimirán 
 Comience la numeración de las páginas de la hoja de cálculo utilizando la propiedad [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) de la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup). La propiedad [**first_page_number**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/first_page_number/) establece el número de página de la primera hoja de la hoja de cálculo y las siguientes páginas se numeran en orden ascendente.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetFirstPageNumber-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

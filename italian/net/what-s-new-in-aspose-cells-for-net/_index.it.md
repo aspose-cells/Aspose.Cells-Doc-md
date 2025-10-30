@@ -8,14 +8,67 @@ url: /it/net/what-s-new-in-aspose-cells-for-net/
 
 Questa pagina descrive le nuove e più interessanti funzionalità di Aspose.Cells introdotte nelle versioni recenti.
 
+## Aspose.Cells for .NET 25.10
+* Fornisci opzioni per determinare come visualizzare le cifre significative per i valori numerici
+* Supporta l'elaborazione di celle esportate con ExportTableOptions personalizzate quando ExportAsString è true
+* Supporta l'analisi di datetime con il calendario dell'Imperatore giapponese
+* Supporta l'aggiornamento delle formule di array dinamici di default durante il calcolo delle formule per il Workbook
+* Migliora la compatibilità con la libreria PdfBox per il file PDF generato durante la conversione in PDF
+* Supporta il calcolo dello stile per le tabelle pivot durante la resa della gamma pivot in immagine
+* Esporta grafici avanzati di Excel 2016 in docx
+* Supporta la popolazione di commenti su una cella usando Smart Markers
+
+## Aspose.Cells for .NET 25.9
+* Supporta le funzioni WRAPCOLS, WRAPROWS
+* Supporta i Selettori di Varianti di font durante la conversione in xps
+* Supporta i Selettori di Varianti di font durante la conversione in svg con font incorporato
+* Supporta l'incorporamento di font durante la conversione del file in html
+* Supporta il formato file FlatOPC
+* Supporta grafici modificabili e oggetti incorporati (oggetto OLE) nel file pptx
+* Supporta i smart marker del foglio Master-Detail
+* Supporta smart marker per fogli di lavoro ripetuti
+
+## Aspose.Cells for .NET 25.8
+* Supporta le nuove funzioni di Office 365: EXPAND, REDUCE, COT, COTH
+* Supporta i selettori di variazione del font per il salvataggio in pdf
+* Supporta la preservazione delle righe congelate durante il salvataggio in HTML
+* Supporta variabili in formula e il parametro "if" per smart marker
+* Supporta smart marker di intervallo per elaborare fonti di dati annidate
+* Supporta la lettura di immagini codificate in base64 e definizioni di riferimenti ai link durante l'importazione Markdown
+* Supporta opzioni di allineamento e bordo nel formato numerico per GridJs
+* Supporta l'applicazione di impostazioni del font nel controllo textbox in JavaScript lato client per GridJs
+* Supporta l'inserimento batch di righe nel menu e sotto il massimo righe per GridJs
+* Supporta l'avvolgimento automatico del testo per GridJs
+
+## Aspose.Cells for .NET 25.7
+* Supporta nuove funzioni nella formula: PRENDI, ÈOMESSO
+* Supporta variabili nel modello Excel per smart marker
+* Supporta l'esportazione di immagine flottante in Numbers
+* Supporta l'uso della cache di file per grandi dataset di celle per ridurre i costi di memoria
+
+## Aspose.Cells for .NET 25.6
+* Supporta l'incorporamento di font nel file pcl generato
+* Supporta l'esportazione di hyperlink e impostazioni di stampa durante il salvataggio di Numbers
+* Supporta l'opzione di selezione del riferimento del foglio per pivottable durante la copia del foglio di lavoro
+
+## Aspose.Cells for .NET 25.5
+* Supporta l'esportazione di immagini in formato Markdown
+* Supporta l'esportazione di textbox e formattazioni condizionali in formato Numbers
+* Supporta l'esportazione di immagini incorporate e dati di entità in formato Docx
+* Supporta la funzione fotocamera del raggio
+* Miglioramento dell'copiatura dei slicers durante la copia del workbook
+* Supporta l'opzione token per le richieste API di GridJs
+* Supporta menu polacchi per GridJs
+* Supporta le API JavaScript per inserire/eliminare righe/colonne per GridJs
+
 ## Aspose.Cells for .NET 25.4
 * Supporta la specifica del set di fogli da esportare in HTML
-* Supporta ottenere e impostare il colore delle linee di griglia di un foglio di lavoro
+* Supporta la lettura e impostazione del colore delle linee della griglia di un foglio di lavoro
 * Supporta l'esportazione di grafici modificabili in file DOCX
-* Supporta la lettura e la scrittura di etichette di sensibilità
-* Supporta l'esportazione di più attributi di stile su Numbers
+* Supporta la lettura e scrittura di etichette di sensibilità
+* Supporta l'esportazione di più attributi di stile in Numbers
 * Supporta l'importazione di file modello in formato Markdown
-* Supporta il rilevamento dell'uso di funzioni personalizzate da formule in `Cell` e `Workbook`
+* Supporta il rilevamento dell'uso di funzioni personalizzate da parte delle formule in `Cell` e `Workbook`
 
 ## Aspose.Cells for .NET 25.3
 * Supporto per ottenere lo stile di visualizzazione di una cella senza ottenere l'oggetto cella

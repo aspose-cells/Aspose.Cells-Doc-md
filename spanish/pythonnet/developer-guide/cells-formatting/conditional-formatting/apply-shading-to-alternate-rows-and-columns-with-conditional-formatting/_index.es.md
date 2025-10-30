@@ -34,3 +34,4 @@ La hoja de cálculo resultante, en este caso, se verá como sigue.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

@@ -50,3 +50,4 @@ worksheet.getPageSetup().setPrintComments(AsposeCells.PrintCommentsType.PrintShe
 workbook.save(path.join(dataDir, "PrintCommentWhileSavingToPdf_out.pdf"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

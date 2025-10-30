@@ -65,6 +65,50 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.6/runtimes/osx/native/libSkiaSharp.dylib 
 
 Por supuesto, si lo quiere más simple, también puede descargar [libSkiaSharp.dylib](libSkiaSharp.dylib) y luego **copiarlo** al directorio **/usr/local/lib**.
 
+> ⚠️ **Nota:**  
+En algunos casos, después de instalar una versión nueva de **aspose-cells-python**, los usuarios pueden encontrarse con un error como el siguiente:
+
+**Al inicializar el host para el tipo ‘WrpNs_Aspose.WrpNs_Cells.WrpCs_Workbook_xxxxxx (Assembly=WrpInterop.Aspose.Cells)’ ocurrió un error - Método ‘call_000_xxxxxx’ no encontrado**
+
+Esto indica que la versión previa no fue desinstalada completamente, lo que lleva a un conflicto entre la versión nueva instalada y la antigua.  
+Puedes resolver este problema siguiendo los pasos a continuación:
+
+- Primero, puedes crear un entorno virtual limpio para asegurar que la última versión funcione correctamente en tu máquina con Windows:
+
+```
+# Set up virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+# Install aspose-cells-python
+pip install aspose-cells-python
+```
+Luego ejecuta tu programa.
+
+- Si prefieres seguir usando tu entorno original, intenta los siguientes pasos:
+
+```
+pip uninstall aspose-cells-python
+```
+Asegúrate de que la desinstalación sea exitosa. Si ocurre algún error durante la desinstalación, intenta ejecutar el comando varias veces.
+Alternativamente, localiza tu directorio **site-packages**, normalmente algo así como:
+
+```
+\Python3x\Lib\site-packages
+```
+
+Luego elimina manualmente los siguientes directorios (si existen):
+
+```
+aspose
+aspose_cells*
+```
+
+Después de eso, reinstala el paquete:
+
+```
+pip install aspose-cells-python
+```
+
 ## **Cómo Crear la Aplicación Hola Mundo usando Aspose.Cells for Python via .NET**
 
 - Cree un archivo llamado **CreandoArchivoHolaMundo.py** y use el siguiente código de ejemplo:
@@ -77,3 +121,4 @@ Por supuesto, si lo quiere más simple, también puede descargar [libSkiaSharp.d
 - Por favor visite el [Ejemplo Aspose.Cells for Python via .NET](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github para ver más códigos de muestra.
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -28,3 +28,4 @@ Se l'opzione [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/ce
 Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) proprio prima di renderizzare il foglio di calcolo in PDF. Questo garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano resi nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

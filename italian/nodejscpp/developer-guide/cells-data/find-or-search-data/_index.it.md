@@ -66,3 +66,4 @@ Specifica le proprietà [**FindOptions.setLookInType**](https://reference.aspose
 - [Verifica se il valore della cella inizia con un apice singolo](/cells/it/nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Cerca dati usando valori originali](/cells/it/nodejs-cpp/search-data-using-original-values/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

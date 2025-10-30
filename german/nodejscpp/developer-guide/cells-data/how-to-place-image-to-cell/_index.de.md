@@ -60,3 +60,4 @@ Bild in Zelle mit Aspose.Cells einfügen. Bitte beachten Sie den folgenden Beisp
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-place-image-in-cell.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

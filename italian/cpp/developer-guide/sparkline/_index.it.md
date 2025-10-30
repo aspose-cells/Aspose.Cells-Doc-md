@@ -81,3 +81,4 @@ int main()
 
 ## **Argomenti avanzati**
 - [Utilizzo di Sparklines e Impostazioni 3D Formato](/cells/it/cpp/using-sparklines-and-settings-3d-format/)
+{{< app/cells/assistant language="cpp" >}}

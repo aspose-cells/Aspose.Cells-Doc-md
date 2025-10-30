@@ -20,3 +20,4 @@ Der folgende Code lädt die [Beispiel-Excel-Datei](55541778.xlsx), aber die Beis
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}
+{{< app/cells/assistant language="python-net" >}}

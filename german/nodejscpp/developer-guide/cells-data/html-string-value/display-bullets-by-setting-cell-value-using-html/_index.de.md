@@ -25,3 +25,4 @@ Der folgende Code verwendet den HTML-Code, um den Zellwert festzulegen. Sobald S
 Der folgende Screenshot zeigt die Ausgabe des obigen Beispielcodes.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -49,3 +49,4 @@ Para formatear un número como fecha en Excel, sigue estos pasos:
 Para formatear números como fecha en la biblioteca Aspose.Cells for Node.js via C++ para trabajar con archivos de Excel, puedes aplicar el formato de fecha programáticamente a las celdas. Aquí está cómo hacerlo usando Aspose.Cells for Node.js via C++:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FormatNumberToDate.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

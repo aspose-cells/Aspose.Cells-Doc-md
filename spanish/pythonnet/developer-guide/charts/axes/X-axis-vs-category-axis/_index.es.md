@@ -19,3 +19,4 @@ Mostraremos estos datos en dos tipos de gráficos, el primer gráfico es un grá
 ![todo:image_alt_text](compare.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-X-axis-vs-category-axis.py" >}}
+{{< app/cells/assistant language="python-net" >}}

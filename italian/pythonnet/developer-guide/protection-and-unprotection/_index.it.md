@@ -10,7 +10,7 @@ description: Questo snippet introduce come crittografare e decrittografare file 
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net offre un'ampia gamma di protezioni e svincoli dal livello del file al livello dei dati come in MS Excel:
+Aspose.Cells per Python via .NET offre un'ampia gamma di protezioni e sprotizioni dal livello di file a quello di dati come MS Excel:
 {{% /alert %}}
 
 
@@ -35,3 +35,4 @@ Proteggere l'autenticità del contenuto di un documento, è possibile aggiungere
 - [Crittografare i file Excel](/cells/it/python-net/encrypting-excel-files/)
 - [Come rilevare un formato di file e verificare se il file è crittografato](/cells/it/python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
+{{< app/cells/assistant language="python-net" >}}

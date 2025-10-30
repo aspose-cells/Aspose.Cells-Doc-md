@@ -33,3 +33,4 @@ Aspose.Cells für Python via .NET bietet die gleiche Funktionalität wie Microso
 - [Benannte Bereiche formatieren und ändern](/cells/de/python-net/format-and-modify-named-ranges/)
 - [Bereich mit externen Links abrufen](/cells/de/python-net/get-range-with-external-links/)
 - [Implementierung nicht aufeinanderfolgender Bereiche](/cells/de/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

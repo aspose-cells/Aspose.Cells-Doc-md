@@ -24,3 +24,4 @@ Il codice seguente utilizza il codice HTML per impostare il valore della cella. 
 Lo screenshot seguente mostra l'output del codice di esempio precedente.
 
 ![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+{{< app/cells/assistant language="python-net" >}}

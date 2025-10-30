@@ -23,3 +23,4 @@ Questo articolo spiegherà l'uso della proprietà [**Shape.geometry.shape_adjust
 Il seguente esempio di codice mostra come cambiare i valori di regolazione della forma.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

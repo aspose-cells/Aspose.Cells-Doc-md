@@ -3,7 +3,7 @@ title: Wie man Daten und Zeiten verwaltet
 type: docs
 weight: 600
 url: /de/python-net/how-to-manage-dates-and-times/
-description: Erfahren Sie, wie man Daten und Zeiten durch die API Aspose.Cells for .NET verwaltet.
+description: Erfahren Sie, wie Sie mit der Aspose.Cells for Python via .NET API Daten und Zeiten verwalten.
 keywords: Wie man Daten und Zeiten verwaltet, das 1900 Datensystem, das 1904 Datensystem, Daten und Zeiten setzen, Daten und Zeiten abrufen, Daten und Zeiten verwalten, Daten und Zeiten in Excel speichern, Daten und Zeiten in Zellen anzeigen.
 ---
 
@@ -60,3 +60,4 @@ Cell A2 contains a DateTime value.
 A2 DateTime Value: 11/23/2023 5:59:09 PM
 A2 DateTime String Value: 11/23/2023 17:59
 ```
+{{< app/cells/assistant language="python-net" >}}

@@ -48,3 +48,4 @@ opts.setExcludeUnusedStyles(true);
 wb.save("outputExcludeUnusedStylesInExcelToHTML.html", opts);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

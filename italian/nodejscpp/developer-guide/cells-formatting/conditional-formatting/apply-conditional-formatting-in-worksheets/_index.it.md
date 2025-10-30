@@ -49,3 +49,4 @@ Quando viene eseguito il codice sopra, viene applicata una formattazione condizi
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-ApplyToFormula.js" >}}
 
 Quando viene eseguito il codice sopra, la formattazione condizionale viene applicata alla cella "B3" nel primo foglio di lavoro del file di output (output.xls). La formattazione condizionale dipende dalla formula che calcola il valore di "B3" come somma di B1 e B2.
+{{< app/cells/assistant language="nodejs-cpp" >}}

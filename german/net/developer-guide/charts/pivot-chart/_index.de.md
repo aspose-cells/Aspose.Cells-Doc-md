@@ -28,22 +28,12 @@ Pivot-Diagramme werden häufig in Business Intelligence und Datenanalyse verwend
 
 ## So fügen Sie ein PivotChart mit Aspose.Cells hinzu
 
-### **Hinzufügen einer Pivot-Tabelle**
-
-Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen:
-
-1. Fügen Sie einige Daten in Zellen eines Arbeitsblatts mit der PutValue/setValue-Methode eines Cell-Objekts ein. Sie können auch eine Vorlagendatei verwenden, die bereits mit Daten gefüllt ist. Die Daten werden als Datenquelle der Pivot-Tabelle verwendet.
-1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die Methode add der PivotTables-Sammlung aufrufen (die im Arbeitsblatt-Objekt gekapselt ist).
-1. Greifen Sie auf das neue PivotTable-Objekt aus der PivotTables-Sammlung zu, indem Sie seinen Index übergeben. # Verwenden Sie eines der in dem PivotTable-Objekt gekapselten Pivot-Tabellenobjekte, um die Tabelle zu verwalten.
-
-Codebeispiele finden Sie unten.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
-
-### **Hinzufügen eines Pivot-Diagramms**
-
 Um ein PivotChart mit Aspose.Cells zu erstellen:
 
+1. Laden Sie eine [Vorlagendatei](pivotchart_data.xlsx), die bereits mit Daten gefüllt ist. Die Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
+1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die Methode add der PivotTables-Sammlung aufrufen (die im Arbeitsblatt-Objekt gekapselt ist).
+1. Greifen Sie auf das neue PivotTable-Objekt aus der PivotTables-Sammlung zu, indem Sie seinen Index übergeben. 
+1. Verwenden Sie eines der im PivotTable-Objekt gekapselten Pivot-Table-Objekte, um das Table zu verwalten.
 1. Fügen Sie ein Diagramm hinzu.
 1. Setzen Sie den PivotSource des Diagramms so, dass er auf eine vorhandene Pivot-Tabelle in der Tabelle verweist.
 1. Setzen Sie andere Attribute.

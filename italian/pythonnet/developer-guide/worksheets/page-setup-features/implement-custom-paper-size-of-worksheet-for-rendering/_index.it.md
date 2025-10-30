@@ -22,3 +22,4 @@ Aspose.Cells per Python via .NET permette di implementare la dimensione desidera
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.py" >}}
+{{< app/cells/assistant language="python-net" >}}

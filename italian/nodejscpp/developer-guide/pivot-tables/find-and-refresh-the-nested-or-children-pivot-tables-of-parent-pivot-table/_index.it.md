@@ -20,3 +20,4 @@ Il codice di esempio seguente carica il [file di Excel di esempio](61767747.xlsx
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

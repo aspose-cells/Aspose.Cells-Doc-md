@@ -23,3 +23,4 @@ Este ejemplo muestra cómo:
 1. Obtener celdas [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range).
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-get-range.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -102,3 +102,4 @@ int main()
 ## **Temas avanzados**
 - [Mantener separadores para filas en blanco al exportar hojas de cálculo a formato CSV](/cells/es/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Recortar filas y columnas en blanco al exportar hojas de cálculo al formato CSV](/cells/es/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+{{< app/cells/assistant language="cpp" >}}

@@ -116,3 +116,4 @@ workbook.save("AllColumnsInOnePagePerSheet.pdf", options);
 El resultado de la salida:
 <br>
 <img src="4.png" width=60% />
+{{< app/cells/assistant language="nodejs-cpp" >}}

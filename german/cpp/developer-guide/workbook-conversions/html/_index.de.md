@@ -94,3 +94,4 @@ int main()
 - [Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.](/cells/de/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
 - [Unterstützt das Layout von DIV-Tags beim Laden von HTML in die Excel-Arbeitsmappe](/cells/de/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [Aktivieren Sie CSS Standard-Eigenschaften beim Speichern in HTML](/cells/de/cpp/enable-css-custom-properties-while-saving-to-html/)
+{{< app/cells/assistant language="cpp" >}}

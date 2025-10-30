@@ -39,3 +39,4 @@ Ver el archivo [PDF](48496673.pdf) de salida después de establecer la propiedad
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

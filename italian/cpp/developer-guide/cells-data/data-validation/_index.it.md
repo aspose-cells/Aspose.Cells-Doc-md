@@ -698,3 +698,4 @@ I file excel sorgente e di output sono allegati a scopo informativo.
 - [Ottieni la Convalida Cellulare nei File ODS](/cells/it/cpp/get-cell-validation-in-ods-files/)
 - [Ottieni la Convalida Applicata su una Cella](/cells/it/cpp/get-validation-applied-on-a-cell/)
 - [Verifica che il Valore della Cella Soddisfi le Regole di Convalida dei Dati](/cells/it/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

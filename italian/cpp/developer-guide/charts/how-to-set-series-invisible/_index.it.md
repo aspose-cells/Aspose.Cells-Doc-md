@@ -60,3 +60,4 @@ Puoi ottenere il seguente [File di input](SeriesFiltered.xlsx) e [file di output
 
 Come mostrato nella figura sotto, le prime due serie, che erano visibili originariamente, sono diventate invisibili nel file di output.  
 ![todo:image_alt_text](output.png)
+{{< app/cells/assistant language="cpp" >}}

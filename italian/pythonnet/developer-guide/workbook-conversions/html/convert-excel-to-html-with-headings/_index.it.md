@@ -16,3 +16,4 @@ Aspose.Cells per Python via NET offre l'opzione di esportare le intestazioni dur
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrintHeadings-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

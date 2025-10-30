@@ -132,3 +132,4 @@ Después de la operación anterior, podemos obtener una imagen de gráfico de sa
 |Nombre Total de la Leyenda|汇总|Total|
 |Otro Nombre|其他|Otro|
 |Nombre de la Serie|系列|Serie|
+{{< app/cells/assistant language="cpp" >}}

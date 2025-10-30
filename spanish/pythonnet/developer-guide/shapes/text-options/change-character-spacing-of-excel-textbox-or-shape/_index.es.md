@@ -14,3 +14,4 @@ Puede cambiar el espaciado de caracteres del cuadro de texto o forma de Excel ut
 El siguiente código de ejemplo cambia el espaciado de caracteres del cuadro de texto en un archivo de Excel a 4 puntos y luego lo guarda en el disco.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-ChangeTextBoxOrShapeCharacterSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

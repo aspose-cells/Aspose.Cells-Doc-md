@@ -26,3 +26,4 @@ Der folgende Code greift auf die erste Pivot-Tabelle des Arbeitsblatts zu und ru
 |**Pivot-Tabelle - Nachher**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+{{< app/cells/assistant language="python-net" >}}

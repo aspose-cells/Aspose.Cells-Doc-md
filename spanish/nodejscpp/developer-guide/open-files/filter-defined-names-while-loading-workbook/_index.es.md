@@ -38,3 +38,4 @@ workbook.save(path.join(dataDir, "outputFilterDefinedNamesWhileLoadingWorkbook.x
 
 console.log("FilterDefinedNamesWhileLoadingWorkbook executed successfully.");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -76,3 +76,4 @@ Ora si prega di eseguire l'esempio seguente, vedere come funziona in Aspose.Cell
 - [Crea Riferimenti con Nome a Livello di Cartella e Foglio di Lavoro](/cells/it/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Cerca e Sostituisci Dati in un Intervallo](/cells/it/python-net/search-and-replace-data-in-a-range/)
 
+{{< app/cells/assistant language="python-net" >}}

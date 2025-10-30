@@ -32,3 +32,4 @@ const wb = new AsposeCells.Workbook(path.join(sourceDir, "sampleSelfClosingTags.
 wb.save(path.join(outputDir, "outsampleSelfClosingTags.xlsx"));
 ```
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -21,3 +21,4 @@ El siguiente ejemplo muestra cómo cortar y pegar celdas dentro de una hoja de c
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Worksheets-CutAndPasteCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -14,3 +14,4 @@ Puedes establecer el espaciado de línea del párrafo, su espacio antes y espaci
 El siguiente código de ejemplo explica el uso de las propiedades mencionadas.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SetTextboxOrShapeParagraphLineSpacing-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

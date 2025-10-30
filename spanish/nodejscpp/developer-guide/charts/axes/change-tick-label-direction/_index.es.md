@@ -60,3 +60,4 @@ Los archivos de origen y de salida se pueden descargar desde los siguientes enla
 [Archivo de origen](105480221.xlsx)
 
 [Archivo de salida](105480223.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

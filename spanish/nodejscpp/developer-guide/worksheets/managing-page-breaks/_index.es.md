@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Importante saber**
 
 Cuando configura las propiedades **fitToPages** (que son [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) y [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) en la configuración de la página, la configuración del salto de página se ve afectada, por lo que, si imprime la hoja de trabajo, la configuración del salto de página no se tendrá en cuenta aunque sigan establecidos.
+{{< app/cells/assistant language="nodejs-cpp" >}}

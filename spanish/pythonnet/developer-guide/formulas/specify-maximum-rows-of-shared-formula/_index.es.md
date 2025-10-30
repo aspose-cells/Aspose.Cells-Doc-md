@@ -19,3 +19,4 @@ El siguiente código de ejemplo explica el uso de la propiedad [**Workbook.setti
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-SpecifyMaximumRowsOfSharedFormula.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

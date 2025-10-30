@@ -26,3 +26,4 @@ El siguiente código de muestra carga el [archivo Excel de muestra](55541792.xls
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

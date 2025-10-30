@@ -48,3 +48,4 @@ Nell'esempio seguente viene mostrato come caricare una licenza da un oggetto str
   license.SetLicense(myStream);
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

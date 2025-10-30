@@ -40,3 +40,4 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleFilterChar
 workbook.save(outputDir + "sampleFilterChars_out.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

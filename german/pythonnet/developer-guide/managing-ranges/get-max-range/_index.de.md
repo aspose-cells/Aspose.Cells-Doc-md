@@ -40,3 +40,4 @@ Die folgenden Codes zeigen, wie der maximale Anzeigebereich in HTML gerendert wi
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Get-Max-Display-Range.py" >}}
 
 Hier ist die [Quelldatei Excel](Book1.xlsx).
+{{< app/cells/assistant language="python-net" >}}

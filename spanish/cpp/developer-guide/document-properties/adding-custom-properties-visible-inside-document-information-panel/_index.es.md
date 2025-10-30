@@ -54,3 +54,4 @@ int main()
 - [Usar Partes de XML Personalizadas en Aspose.Cells](/cells/es/cpp/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

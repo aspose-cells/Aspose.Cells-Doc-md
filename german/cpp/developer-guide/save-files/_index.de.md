@@ -356,3 +356,4 @@ int main()
 - [Anpassen des Arbeitsmappe-Komprimierungsgrads](/cells/de/cpp/adjust-workbook-compression-level/)
 - [Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern](/cells/de/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Speichern der Datei im Antwortobjekt](/cells/de/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

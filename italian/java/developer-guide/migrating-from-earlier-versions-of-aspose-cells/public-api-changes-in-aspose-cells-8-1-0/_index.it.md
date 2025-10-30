@@ -88,5 +88,5 @@ Valore Stringa non Formattato: 123456
 
 {{% /alert %}}
 ## **Proprietà Obsoletate Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs**
-Molte proprietà della classe BuiltInDocumentPropertyCollection sono state contrassegnate come obsolete a partire dal Aspose.Cells for .NET 8.1.0. Queste proprietà includono Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Il motivo è che le suddette proprietà non sono utili nella preservazione dei fogli di calcolo di Excel perché Excel li omette. Queste proprietà erano originariamente scritte per documenti di Word e presentazioni di PowerPoint. 
+Molte proprietà della classe BuiltInDocumentPropertyCollection sono state contrassegnate come obsolete a partire da Aspose.Cells for Java 8.1.0. Queste proprietà includono Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Il motivo è che le proprietà sopra indicate non sono utili per la conservazione dei fogli di calcolo Excel, poiché Excel le omette. Queste proprietà sono state originariamente scritte per documenti Word e presentazioni PowerPoint. 
 {{< app/cells/assistant language="java" >}}

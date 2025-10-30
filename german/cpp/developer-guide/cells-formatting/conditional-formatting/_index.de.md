@@ -343,3 +343,4 @@ int main() {
 - [Abwechselnde Zeilen und Spalten mit bedingter Formatierung schattieren](/cells/de/cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Generieren von Datenleistungsimages für bedingte Formatierungen](/cells/de/cpp/generate-conditional-formatting-databars-images/)
 - [Erhalten von Symbolsets, Datenleisten oder Farbskalenobjekten, die bei der bedingten Formatierung verwendet werden](/cells/de/cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+{{< app/cells/assistant language="cpp" >}}

@@ -124,3 +124,4 @@ int main()
 Este ejemplo demuestra cómo formatear una sola celda para mostrar números en formato de contabilidad con dólares estadounidenses. La cadena de formato puede ajustarse para cumplir con diferentes símbolos de moneda o formatos de contabilidad según sea necesario. La parte clave es la propiedad `style.Custom`, donde se especifica el código de formato numérico personalizado para contabilidad.
 
 Recuerda, la cadena de formato exacta puede necesitar ajustes según tu configuración regional y los requisitos específicos de formato de contabilidad que tengas (por ejemplo, usando un símbolo de moneda diferente, mostrando más o menos decimales, etc.).
+{{< app/cells/assistant language="cpp" >}}

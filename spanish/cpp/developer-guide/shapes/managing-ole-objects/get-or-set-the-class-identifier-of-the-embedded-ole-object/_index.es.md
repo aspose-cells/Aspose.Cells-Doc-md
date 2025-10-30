@@ -57,3 +57,4 @@ Esta es la salida por consola del código de ejemplo anterior cuando se ejecuta 
 {{< highlight java >}}
 DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

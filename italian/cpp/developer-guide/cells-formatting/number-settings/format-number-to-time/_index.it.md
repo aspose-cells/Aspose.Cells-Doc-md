@@ -147,3 +147,4 @@ int main()
 ### Conclusione
 
 La formattazione dei numeri come ora in Aspose.Cells for C++ comporta la impostazione di un formato numerico personalizzato per le celle in cui vuoi visualizzare l'ora. Seguendo i passaggi sopra descritti, puoi facilmente applicare formati orari alle celle nei tuoi file Excel usando Aspose.Cells. Ricorda, la chiave è usare la corretta stringa di formato personalizzato che corrisponde al formato orario desiderato.
+{{< app/cells/assistant language="cpp" >}}

@@ -33,3 +33,4 @@ Aspose.Cells for Python via .NET proporciona la misma funcionalidad que Microsof
 - [Formato y Modificación de Rangos con Nombre](/cells/es/python-net/format-and-modify-named-ranges/)
 - [Obtener Rango con Vínculos Externos](/cells/es/python-net/get-range-with-external-links/)
 - [Implementación de Rangos No Secuenciales](/cells/es/python-net/implementing-non-sequential-ranges/)
+{{< app/cells/assistant language="python-net" >}}

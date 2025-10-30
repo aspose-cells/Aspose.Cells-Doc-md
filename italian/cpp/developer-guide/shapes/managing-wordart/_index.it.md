@@ -65,3 +65,4 @@ int main()
 - [Aggiungi testo Word Art con stili incorporati](/cells/it/cpp/add-word-art-text-with-built-in-styles/)
 - [Bloccare WordArt Come Filigrana](/cells/it/cpp/locking-wordart-watermark/)
 - [Imposta lo stile predefinito di WordArt al testo della forma](/cells/it/cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="cpp" >}}

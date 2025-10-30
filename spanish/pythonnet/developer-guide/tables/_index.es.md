@@ -64,3 +64,4 @@ El siguiente ejemplo añade datos de muestra a una hoja de cálculo, agrega un [
 - [Tablas y Rangos](/cells/es/python-net/tables-and-ranges/)
 
 
+{{< app/cells/assistant language="python-net" >}}

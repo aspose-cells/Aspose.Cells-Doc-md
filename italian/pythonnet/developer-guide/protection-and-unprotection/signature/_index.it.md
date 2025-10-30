@@ -33,3 +33,4 @@ Vedi il seguente esempio di codice che descrive come puoi svolgere il compito us
 - [Aggiungi linea di firma al foglio di calcolo](/cells/it/python-net/add-signature-line/)
 - [Supporto per la firma XAdES](/cells/it/python-net/support-for-xades-signature/)
 
+{{< app/cells/assistant language="python-net" >}}

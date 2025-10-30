@@ -112,3 +112,4 @@ Ecco un esempio di codice che dimostra questi passaggi:
 
 Formattare numeri in formati speciali in Aspose.Cells per Python via .NET involves impostare il formato numerico personalizzato di una cella. Ciò consente una vasta gamma di opzioni di formattazione, permettendoti di visualizzare i dati esattamente come desideri. Ricorda, la chiave dei formati personalizzati è la stringa di formato che fornisci, che determina come verrà visualizzato il numero.
 
+{{< app/cells/assistant language="python-net" >}}

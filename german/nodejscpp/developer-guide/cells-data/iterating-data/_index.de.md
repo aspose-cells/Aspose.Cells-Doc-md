@@ -191,3 +191,4 @@ Basierend auf den oben genannten Fakten sind die folgenden möglichen Szenarien,
 1. Eine große Anzahl von Zellen muss durchlaufen werden.  
 1. Nur initialisierte Zellen/Zeilen/Spalten müssen durchlaufen werden.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

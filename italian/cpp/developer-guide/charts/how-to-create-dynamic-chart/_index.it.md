@@ -24,3 +24,4 @@ Possiamo usare Aspose Cells per creare Grafici Dinamici nei file Excel. Nelle di
 - [Crea un grafico a barre dinamico utilizzando Aspose Cells](/cells/it/cpp/create-dynamic-rolling-chart/) 
 - [Crea un grafico a barre dinamico utilizzando Aspose Cells](/cells/it/cpp/create-dynamic-scrolling-chart/) 
 - [Crea un grafico dinamico con elenco a discesa utilizzando Aspose Cells](/cells/it/cpp/create-dynamic-chart-with-dropdownlist/) 
+{{< app/cells/assistant language="cpp" >}}

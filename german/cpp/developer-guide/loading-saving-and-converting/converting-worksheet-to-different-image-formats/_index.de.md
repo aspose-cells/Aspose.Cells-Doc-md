@@ -42,3 +42,4 @@ Die Klasse `Aspose.Cells.Rendering.IImageOrPrintOptions` gibt an, dass das Arb
 Bitte werfen Sie einen Blick auf den folgenden Beispielcode, die [Beispiel-Excel-Datei](67338402.xlsx) und die [Ausgabe-SVG-Bilder](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

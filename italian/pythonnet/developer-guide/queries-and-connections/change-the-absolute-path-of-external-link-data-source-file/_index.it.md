@@ -27,3 +27,4 @@ External Link Data Source After Changing Workbook.AbsolutePath to Remote Path: h
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

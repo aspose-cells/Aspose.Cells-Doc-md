@@ -43,3 +43,4 @@ Sie erhalten eine Datei, die der [Ergebnisdatei](result.xlsx) ähnelt. In der Da
 
 ![](52449.png)
 
+{{< app/cells/assistant language="python-net" >}}

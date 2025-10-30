@@ -39,3 +39,4 @@ Das Entsperren eines Arbeitsblatts ist einfach mit der Aspose.Cells für Python 
 - [Arbeitsblatt entsperren](/cells/de/python-net/unprotect-a-worksheet/)
 - [Überprüfen Sie das verwendete Kennwort zum Schutz des Arbeitsblatts](/cells/de/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

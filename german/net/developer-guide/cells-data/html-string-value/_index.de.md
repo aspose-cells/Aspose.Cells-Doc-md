@@ -4,8 +4,8 @@ linktitle: Html String Wert
 type: docs
 weight: 50
 url: /de/net/adding-html-rich-text-inside-the-cell/
-description: Erfahren Sie, wie HTML Rich Text innerhalb der Zelle durch die Aspose.Cells for .NET API hinzugefügt wird.
-keywords: HTML Rich Text in der Zelle hinzufügen, HTML Rich Text in der Zelle setzen, HTML Rich Text in der Zelle hinzufügen
+description: Erfahren Sie, wie Sie HTML Rich Text in die Zelle einfügen und mehrere Stile innerhalb einer einzelnen Zelle über die Aspose.Cells for .NET API.
+keywords: HTML Rich Text in die Zelle einfügen, HTML Rich Text in der Zelle festlegen, Mehrere Stile innerhalb einer einzelnen Zelle, HTML Rich Text in die Zelle hinzufügen
 ---
 
 {{% alert color="primary" %}}

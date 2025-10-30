@@ -27,3 +27,4 @@ Aquí hay otro ejemplo que utiliza un rango con nombre para sumar valores de 2 c
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-CalculatingSumUsingNamedRangeOnDifferentSheets.py" >}}
+{{< app/cells/assistant language="python-net" >}}

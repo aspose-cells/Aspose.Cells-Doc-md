@@ -28,3 +28,4 @@ Gli esempi di codice seguenti mostrano come applicare esponente e pedice al test
 ### Codice Node.js per applicare l'effetto pedice sul testo
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

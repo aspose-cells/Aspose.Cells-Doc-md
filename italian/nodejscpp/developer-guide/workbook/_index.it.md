@@ -8,3 +8,4 @@ description: Impara come gestire un workbook attraverso le API Aspose.Cells for 
 keywords: Come gestire il workbook in Node.js via C++, Gestisci workbook e fogli di lavoro usando Node.js via C++, Operare su workbook e fogli di lavoro in Node.js via C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

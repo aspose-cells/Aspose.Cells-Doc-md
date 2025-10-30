@@ -163,3 +163,4 @@ Per impostazione predefinita, la catena di calcolo è disattivata. Poiché crear
 - [Restituzione di un intervallo di valori utilizzando AbstractCalculationEngine](/cells/it/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Impostare la modalità di calcolo della formula del foglio di lavoro](/cells/it/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Utilizzo della funzione FormulaText in Aspose.Cells](/cells/it/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

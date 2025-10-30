@@ -64,3 +64,4 @@ for (var dst of digitalSignatures)
 - [Aggiungi linea di firma al foglio di calcolo](/cells/it/nodejs-cpp/add-signature-line/)  
 - [Supporto per la firma XAdES](/cells/it/nodejs-cpp/support-for-xades-signature/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

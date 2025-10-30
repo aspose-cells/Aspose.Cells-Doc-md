@@ -20,3 +20,4 @@ Il codice di esempio seguente carica il [file excel di origine](98107416.xlsx) e
 Codice di Esempio
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertExcelFileToHtmlWithTooltip-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

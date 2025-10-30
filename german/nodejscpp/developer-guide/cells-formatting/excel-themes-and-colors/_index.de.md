@@ -75,3 +75,4 @@ Das folgende Beispiel verwendet eine Vorlage XLSX-Datei, erhält die Farben für
 ## **Erweiterte Themen**  
 - [Extrahieren von Themen-Daten aus Excel-Datei](/cells/de/nodejs-cpp/extract-theme-data-from-excel-file/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

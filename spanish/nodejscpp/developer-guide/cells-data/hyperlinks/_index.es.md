@@ -64,3 +64,4 @@ Es posible agregar hipervínculos a archivos de Excel externos llamando al méto
 - [Editando Hipervínculos de la Hoja de Cálculo](/cells/es/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Obtener Hipervínculos en Rango](/cells/es/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

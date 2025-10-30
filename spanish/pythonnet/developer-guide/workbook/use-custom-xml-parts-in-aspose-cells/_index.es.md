@@ -23,3 +23,4 @@ El siguiente código de muestra hace uso del método [**Workbook.content_type_pr
 
 
 
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ int main()
 Para escenarios que requieren imágenes siempre actualizadas desde una URL, use el método descrito en [Insertar una imagen vinculada desde web] (/cells/es/cpp/insert-a-linked-picture-from-web-address/). Este método carga la imagen desde la URL cada vez que se abre la hoja.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

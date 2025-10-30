@@ -16,3 +16,4 @@ Aspose.Cells para Python via .NET proporciona una propiedad [**Shape.text_body**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 
 El [archivo de salida](102662195.xlsx) generado por el código anterior se adjunta para su referencia.
+{{< app/cells/assistant language="python-net" >}}

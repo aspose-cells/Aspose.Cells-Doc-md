@@ -21,8 +21,8 @@ Um einen benannten Bereich aus Excel zu entfernen, können Sie folgende Schritte
 6. Klicken Sie auf die Schaltfläche "Schließen", um das Dialogfeld Namensmanager zu schließen.
 7. Speichern Sie die Arbeitsmappe, um die Änderungen beizubehalten.
 
-## **Benannten Bereich mit Aspose.Cells für .Net löschen**
-Mit Aspose.Cells für .Net können Sie benannte Bereiche oder definierte Namen durch [Text](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) in der Liste entfernen.
+## **Löscht benannte Bereiche mit Aspose.Cells für Python via .NET**
+Mit Aspose.Cells für Python via .NET können Sie benannte Bereiche oder definierte Namen durch [Text](https://reference.aspose.com/cells/python-net/aspose.cells/namecollection/remove_a_name/#str) in der Liste entfernen.
 
 ```python
 from aspose.cells import Workbook
@@ -92,3 +92,4 @@ worksheets.names.remove_duplicate_names()
 # Save the workbook to retain the changes
 workbook.save("Book2.xlsx")
 ```
+{{< app/cells/assistant language="python-net" >}}

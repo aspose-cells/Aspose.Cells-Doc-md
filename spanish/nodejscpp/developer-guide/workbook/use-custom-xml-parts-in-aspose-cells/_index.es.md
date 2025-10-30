@@ -66,3 +66,4 @@ workbook.save(filePath);
 ## Artículo Relacionado
 
 - [Agregar propiedades personalizadas visibles dentro del Panel de información del documento](/cells/es/nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

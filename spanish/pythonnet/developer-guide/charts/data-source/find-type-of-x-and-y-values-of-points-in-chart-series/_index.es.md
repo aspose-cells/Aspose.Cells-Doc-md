@@ -25,3 +25,4 @@ El siguiente código de ejemplo carga el [archivo de ejemplo de Excel](64716905.
 Y Value Type: IsNumeric
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

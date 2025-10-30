@@ -161,3 +161,4 @@ def save_to_response(workbook, filename, format):
 2. Siempre restablece la posición del flujo con `seek(0)` antes de leer
 3. Establece tipos MIME adecuados en las cabeceras de la respuesta
 4. Para frameworks web como Django/Flask, usa los manejadores de respuesta específicos del framework
+{{< app/cells/assistant language="python-net" >}}

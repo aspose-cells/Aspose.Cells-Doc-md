@@ -43,3 +43,4 @@ column = value[1];
 rows = value[2];
 columns = value[3];
 ```  
+{{< app/cells/assistant language="nodejs-cpp" >}}

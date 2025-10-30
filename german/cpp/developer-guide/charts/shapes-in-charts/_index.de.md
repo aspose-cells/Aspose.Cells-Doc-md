@@ -281,3 +281,4 @@ int main()
 
 ## **Erweiterte Themen**
 - [Fügen Sie dem Diagramm ein WordArt-Wasserzeichen hinzu](/cells/de/cpp/add-wordart-watermark-to-chart/)
+{{< app/cells/assistant language="cpp" >}}

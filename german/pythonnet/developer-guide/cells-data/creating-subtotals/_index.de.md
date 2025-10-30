@@ -35,3 +35,4 @@ Die nachfolgenden Codeausschnitte zeigen, wie Teilsummen zu einem Arbeitsblatt m
 
 ## **Erweiterte Themen**
 - [Teilsumme anwenden und Richtung der Zusammenfassungszeilen unterhalb der Detaildaten ändern](/cells/de/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+{{< app/cells/assistant language="python-net" >}}

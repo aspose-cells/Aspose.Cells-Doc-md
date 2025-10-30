@@ -14,3 +14,4 @@ Las API Aspose.Cells para Python via .NET permiten agregar marcas de agua WordAr
 Las API Aspose.Cells para Python via .NET permiten bloquear ciertos aspectos de la marca de agua para que la interacción del usuario pueda ser limitada o completamente bloqueada. El siguiente fragmento de código demuestra cómo usar la API Aspose.Cells para Python via .NET para bloquear la selección, movimiento, edición y cambio de tamaño de la marca de agua creando una hoja de cálculo desde cero.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-LockingWordartWatermark.py" >}}
+{{< app/cells/assistant language="python-net" >}}

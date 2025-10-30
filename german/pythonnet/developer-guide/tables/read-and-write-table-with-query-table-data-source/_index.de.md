@@ -16,3 +16,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 
 [Ausgabedatei](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

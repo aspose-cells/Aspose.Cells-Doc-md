@@ -55,3 +55,4 @@ workbook.save("Out.fods");
 ## **Argomenti avanzati**
 - [Salva il file ODS nelle specifiche ODF 1.1 e 1.2](/cells/it/nodejs-cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Lavorare con lo sfondo nei file ODS](/cells/it/nodejs-cpp/working-with-background-in-ods-files/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

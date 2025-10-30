@@ -75,3 +75,4 @@ L'esempio seguente mostra come attivare un foglio di lavoro e rendere una cella 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Management-MakeCellActive-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

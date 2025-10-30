@@ -147,3 +147,4 @@ int main()
 ### Conclusión
 
 Dar formato a números como hora en Aspose.Cells for C++ implica establecer un formato de número personalizado para las celdas donde deseas mostrar la hora. Siguiendo los pasos descritos anteriormente, puedes aplicar fácilmente formatos de hora en las celdas de tus archivos de Excel usando Aspose.Cells. Recuerda, la clave es usar la cadena de formato personalizada adecuada que coincida con el formato de hora deseado.
+{{< app/cells/assistant language="cpp" >}}

@@ -39,3 +39,4 @@ Desproteger la hoja de cálculo es fácil con la API Aspose.Cells para Python vi
 - [Desproteger una Hoja de Cálculo](/cells/es/python-net/unprotect-a-worksheet/)
 - [Verificar la Contraseña Utilizada para Proteger la Hoja de Cálculo](/cells/es/python-net/verify-password-used-to-protect-the-worksheet/)
 {{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

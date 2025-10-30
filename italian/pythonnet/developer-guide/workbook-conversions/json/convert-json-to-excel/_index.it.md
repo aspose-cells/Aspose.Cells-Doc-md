@@ -27,3 +27,4 @@ L'esempio di codice seguente che utilizza la classe JsonLoadOptions per specific
 L'esempio di codice seguente dimostra l'importazione di una stringa JSON in Excel Workbook. È anche possibile specificare la posizione del layout durante l'importazione di JSON. Si prega di consultare il codice per convertire la stringa JSON nel file xlsx generato dal codice per riferimento.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

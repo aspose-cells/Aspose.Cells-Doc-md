@@ -35,3 +35,4 @@ worksheet.setShowFormulas(true);
 // Save the workbook
 workbook.save(path.join(dataDir, ".out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

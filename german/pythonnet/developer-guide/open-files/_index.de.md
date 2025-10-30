@@ -34,3 +34,4 @@ Mit Aspose.Cells für Python via .NET ist es einfach, Excel-Dateien zu öffnen, 
 - [Öffnen von Dateien mit verschiedenen Formaten](/cells/de/python-net/opening-files-with-different-formats/)
 - [Optimierung des Speicherverbrauchs beim Arbeiten mit großen Dateien und umfangreichen Datensätzen](/cells/de/python-net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [Zahlen-Tabellenkalkulation von Apple Inc. mit Aspose.Cells lesen](/cells/de/python-net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

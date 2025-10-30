@@ -10,3 +10,4 @@ keywords: contare il numero di celle nel foglio di lavoro di excel c#, celle del
 Puoi contare il numero di celle nel foglio di lavoro utilizzando le proprietà [**Cells.count**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count/) o [**Cells.count_large**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/count_large/) come mostrato nell'esempio di codice riportato di seguito.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-CountNumberOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

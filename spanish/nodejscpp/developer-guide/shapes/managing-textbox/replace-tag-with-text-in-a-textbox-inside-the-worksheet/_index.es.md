@@ -60,3 +60,4 @@ sheet.getPageSetup().setFooter(j, sheet.getPageSetup().getFooter(j).replace(find
 }
 }
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

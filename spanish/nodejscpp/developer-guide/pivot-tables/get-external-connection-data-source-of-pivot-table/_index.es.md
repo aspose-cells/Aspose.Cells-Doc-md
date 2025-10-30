@@ -18,3 +18,4 @@ Aspose.Cells for Node.js via C++ proporciona la capacidad de obtener la fuente d
 El archivo fuente utilizado en el fragmento de código está adjunto para referencia.
 
 [Archivo Fuente](104398862.xlsx)
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -149,3 +149,4 @@ int main()
 - [Festlegen des Verschlüsselungstyps](/cells/de/cpp/setting-strong-encryption-type/)
 - [Autor beim Schreibschutz des Arbeitsmappenschreibens spezifizieren](/cells/de/cpp/specify-author-while-write-protecting-workbook/)
 - [Passwort von verschlüsselten Dateien überprüfen](/cells/de/cpp/verify-password-of-encrypted-excel-and-ods-files/)
+{{< app/cells/assistant language="cpp" >}}

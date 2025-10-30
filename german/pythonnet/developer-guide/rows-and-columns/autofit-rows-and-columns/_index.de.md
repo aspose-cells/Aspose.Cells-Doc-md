@@ -79,3 +79,4 @@ Wenn eine Zelle zusammengeführt ist, werden die AutoFit-Methoden nicht angewend
 
 ## **Erweiterte Themen**
 - [Automatisches Anpassen von Zeilen für zusammengeführte Zellen](/cells/de/python-net/autofit-rows-for-merged-cells/)
+{{< app/cells/assistant language="python-net" >}}

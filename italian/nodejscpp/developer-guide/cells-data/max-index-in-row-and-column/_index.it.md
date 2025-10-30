@@ -28,3 +28,4 @@ Questo esempio mostra come:
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-max-index-in-row-and-column.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

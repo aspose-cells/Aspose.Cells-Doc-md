@@ -30,3 +30,4 @@ Wenn ein bestimmtes Arbeitsblatt viele Spalten hat, kann die gerenderte PDF-Date
 Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch werden die formelabhängigen Werte neu berechnet und die korrekten Werte im PDF dargestellt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

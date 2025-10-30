@@ -61,3 +61,4 @@ button.setMacroName(sheet.getName() + ".ShowMessage");
 const outputFilePath = path.join(dataDir, "Output.out.xlsm");
 workbook.save(outputFilePath);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

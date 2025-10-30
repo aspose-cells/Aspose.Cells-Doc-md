@@ -34,3 +34,4 @@ Der folgende Beispielcode zeigt, wie die [**HtmlSaveOptions.table_css_id**](http
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -42,3 +42,4 @@ console.log(e.message);
 Se il foglio di calcolo contiene formule, è meglio chiamare il metodo [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) giusto prima di esportare in PDF. In questo modo si garantisce che i valori dipendenti dalle formule siano ricalcolati e i valori corretti vengano rappresentati nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

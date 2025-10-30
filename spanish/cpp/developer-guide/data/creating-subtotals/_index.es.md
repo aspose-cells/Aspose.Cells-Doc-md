@@ -11,3 +11,4 @@ El siguiente código de ejemplo muestra cómo crear subtotales usando Aspose.Cel
 ![todo:image_alt_text](creating-subtotals_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

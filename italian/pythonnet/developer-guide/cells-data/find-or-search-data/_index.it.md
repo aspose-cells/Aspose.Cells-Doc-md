@@ -65,3 +65,4 @@ Specificare le proprietà [**FindOptions.look_in_type**](https://reference.aspos
 - [Trova celle con stile specifico](/cells/it/python-net/find-cells-with-specific-style/)
 - [Verifica se il valore della cella inizia con un apice singolo](/cells/it/python-net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Cerca dati usando valori originali](/cells/it/python-net/search-data-using-original-values/)
+{{< app/cells/assistant language="python-net" >}}

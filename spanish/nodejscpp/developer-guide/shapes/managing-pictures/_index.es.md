@@ -166,3 +166,4 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Insertar una imagen basada en la referencia de la celda](/cells/es/nodejs-cpp/insert-a-picture-based-on-cell-reference/)
 - [Cargar una imagen web desde una URL en una hoja de cálculo de Excel](/cells/es/nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -18,3 +18,4 @@ Der folgende Beispielcode generiert das DataBar-Bild der Zelle C1. Zuerst greift
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ConditionalFormatting-GenerateConditionalFormattingDataBars.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

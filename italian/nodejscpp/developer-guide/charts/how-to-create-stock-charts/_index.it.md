@@ -25,3 +25,4 @@ I grafici di stock sono un tipo specifico di grafico usato per tracciare le vari
 Il dataset seguente mostra le informazioni di trading giornaliere di un'azione. Useremo questi dati per creare quattro tipi di grafici di stock: grafico di stock High-Low-Close (HLC), grafico Open-High-Low-Close (OHLC), volume-high-low-close (VHLC) e volume-open-high-low-close (VOHLC).
 
 ![todo:image_alt_text](stock.chart.data.png)
+{{< app/cells/assistant language="nodejs-cpp" >}}

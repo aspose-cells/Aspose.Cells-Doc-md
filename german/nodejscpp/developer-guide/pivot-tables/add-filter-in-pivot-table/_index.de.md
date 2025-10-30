@@ -15,3 +15,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an. Es legt die Daten fest und e
 
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-Add-filter-in-PivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

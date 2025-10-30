@@ -20,3 +20,4 @@ Per inserire o rimuovere un numero di righe, ti consigliamo di utilizzare sempre
 Aspose.Cells per Python via .NET funziona allo stesso modo di Microsoft Excel. Quando vengono aggiunte righe o colonne, il contenuto del foglio di lavoro viene spostato verso il basso e verso destra. Quando vengono rimosse righe o colonne, il contenuto del foglio di lavoro viene spostato verso l'alto o verso sinistra. Eventuali riferimenti in altri fogli di lavoro e celle vengono aggiornati quando vengono aggiunte o rimosse righe.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

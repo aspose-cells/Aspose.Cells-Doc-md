@@ -71,3 +71,4 @@ _textBox.setHtmlText(sourceTextBox.getHtmlText());
 // Save the workbook on disk
 destWb.save("Output.xlsx");
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

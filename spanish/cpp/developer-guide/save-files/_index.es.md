@@ -356,3 +356,4 @@ int main()
 - [Ajustar el nivel de compresión del libro de trabajo](/cells/es/cpp/adjust-workbook-compression-level/)
 - [Guardar libro de trabajo en formato de hoja de cálculo de Open XML estricto](/cells/es/cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Guardando archivo en objeto de respuesta](/cells/es/cpp/saving-file-to-response-object/)
+{{< app/cells/assistant language="cpp" >}}

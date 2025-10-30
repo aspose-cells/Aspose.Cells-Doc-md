@@ -25,3 +25,4 @@ Die Ausführung des Codes erstellt lediglich ein Bild des Bereichs D8:G16.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-ExportRangeOfCellsInWorksheetToImage-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

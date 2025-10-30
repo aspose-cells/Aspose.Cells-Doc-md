@@ -28,6 +28,9 @@ Aspose.Cells admite entornos de 32 bits y 64 bits. Cuando instala el componente 
 |Xamarin.Android|Contiene ensamblajes para usar con Xamarin.Android|
 |net5.0|Contiene ensamblajes para usar con .net5.0.|
 |net6.0|Contiene ensamblajes para usar con .net6.0.|
+|net8.0|Contiene ensamblados para usar con .net8.0.|
+|net9.0|Contiene ensamblados para usar con .net9.0.|
+
 {{% alert color="primary" %}} 
 
 En VS.NET (por ejemplo 2005, 2008, 2010, 2012, etc.) proyectos, al agregar una referencia a Aspose.Cells, el cuadro de diálogo Agregar referencia se refiere a los archivos Aspose.Cells.dll en la carpeta net2.0 o net3.5 respectivamente. (Para más información, lea la referencia a Aspose.Cells desde un proyecto .NET). Puede cambiar la referencia a la biblioteca de acuerdo a su entorno. Por favor note que si el marco de destino del proyecto es .NET Framework 3.5/4 Client Profile, use el archivo de componente Aspose.Cells.dll ubicado en la carpeta net_ClientProfile.

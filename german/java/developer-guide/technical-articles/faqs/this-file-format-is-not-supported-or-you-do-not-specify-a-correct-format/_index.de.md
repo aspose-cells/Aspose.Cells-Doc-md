@@ -6,5 +6,5 @@ url: /de/java/this-file-format-is-not-supported-or-you-do-not-specify-a-correct-
 ---
 
 ## **Dieses Dateiformat wird nicht unterstützt oder Sie haben kein korrektes Format angegeben**
-Wenn der Benutzer das Dateiformat beim Erstellen einer Arbeitsmappe aus einer Vorlagendatei angegeben hat, tritt dieser Fehler in der Regel auf, weil das angegebene Dateiformat nicht dem tatsächlichen Dateiformat der Vorlagendatei entspricht. Wenn der Benutzer das Dateiformat nicht angegeben hat, liegt das Problem in der Regel darin, dass die Dateinamenerweiterung nicht das tatsächliche Dateiformat dieser Datei repräsentiert und das Dateiformat nicht automatisch erkannt werden kann, wie z. B. bei der CSV/TSV-Datei, die keine speziellen Bezeichner enthält.
+Wenn der Benutzer das Dateiformat beim Erstellen der Arbeitsmappe aus einer Vorlage angegeben hat, liegt dieser Fehler häufig daran, dass das angegebene Dateiformat nicht dem tatsächlichen Dateiformat der Vorlage entspricht. Wenn der Benutzer das Dateiformat nicht angegeben hat, liegt es häufig daran, dass die Dateierweiterung den tatsächlichen Dateityp nicht repräsentiert und das Dateiformat nicht automatisch erkannt werden kann, z.B. bei der csv/tsv-Datei, die keine besonderen Kennzeichen hat. Natürlich melden auch nicht unterstützte Dateiformate durch Cells diesen Fehler.
 {{< app/cells/assistant language="java" >}}

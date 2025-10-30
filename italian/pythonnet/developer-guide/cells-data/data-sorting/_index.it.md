@@ -58,3 +58,4 @@ Di seguito sono riportati i file di esempio che possono essere scaricati per tes
 ## **Argomenti avanzati**
 - [Ordina dati nella colonna con elenco di ordinamenti personalizzati](/cells/it/python-net/sort-data-in-column-with-custom-sort-list/)
 - [Specifica dell'avviso di ordinamento durante l'ordinamento dei dati](/cells/it/python-net/specifying-sort-warning-while-sorting-data/)
+{{< app/cells/assistant language="python-net" >}}

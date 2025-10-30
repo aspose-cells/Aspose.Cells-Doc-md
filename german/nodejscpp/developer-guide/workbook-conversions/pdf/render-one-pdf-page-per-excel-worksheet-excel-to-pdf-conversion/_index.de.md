@@ -42,3 +42,4 @@ Wenn Ihre Tabelle Formeln enthält, ist es am besten, [Workbook.calculateFormula
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

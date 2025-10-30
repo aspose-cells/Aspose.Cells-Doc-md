@@ -39,3 +39,4 @@ Im Windows Explorer:
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 Mit dieser Einstellung können Dateien direkt im Webbrowser ausgeführt werden, ohne dass beim Herunterladen oder Öffnen der Datei der Dialog zum Öffnen-Speichern-Abbrechen angezeigt wird.
 
+{{< app/cells/assistant language="python-net" >}}

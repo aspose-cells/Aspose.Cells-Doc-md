@@ -8,3 +8,4 @@ description: Erfahren Sie, wie Sie eine Arbeitsmappe mit den Aspose.Cells for No
 keywords: Wie verwaltet man eine Arbeitsmappe in Node.js über C++, verwalten von Arbeitsmappen und Arbeitsblättern mittels Node.js über C++, Betrieb von Arbeitsmappen und Arbeitsblättern in Node.js über C++. 
 ---
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

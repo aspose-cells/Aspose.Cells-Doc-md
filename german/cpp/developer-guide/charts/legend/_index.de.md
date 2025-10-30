@@ -75,3 +75,4 @@ int main() {
 
 ## **Erweiterte Themen**
 - [Setzen Sie den Text des Fülls des Diagrammlegendeneintrags auf keinen mithilfe von Aspose.Cells](/cells/de/cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="cpp" >}}

@@ -18,3 +18,4 @@ Aspose.Cells para Python via .NET proporciona una propiedad [**DataLabels.is_tex
 El siguiente ejemplo de código muestra cómo deshabilitar el ajuste de texto para las etiquetas de datos del gráfico.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -21,7 +21,7 @@ De manera predeterminada, Aspose.Cells no descarta las columnas y filas en blanc
 
 {{% alert color="primary" %}}
 
-Antes del lanzamiento de Aspose.Cells for .NET 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) era **falso**. Desde el lanzamiento 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) es **verdadero.**
+Antes del lanzamiento de Aspose.Cells for Java 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) era **falso**. Desde el lanzamiento 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) es **verdadero.**
 
 {{% /alert %}}
 

@@ -35,3 +35,4 @@ Das Entsperren der Arbeitsmappenstruktur ist einfach mit der Aspose.Cells für P
 Hinweis: Ein korrektes Passwort ist erforderlich.
 {{% /alert %}}
 
+{{< app/cells/assistant language="python-net" >}}

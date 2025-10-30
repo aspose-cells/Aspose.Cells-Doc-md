@@ -50,3 +50,4 @@ workbook.getSettings().setPassword("1234");
 workbook.save(path.join(dataDir, "encryptedBook1.out.xls"));
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

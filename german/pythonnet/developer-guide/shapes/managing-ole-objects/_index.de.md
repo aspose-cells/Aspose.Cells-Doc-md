@@ -43,3 +43,4 @@ Aspose.Cells für Python via .NET unterstützt das Extrahieren von Objekten unge
 - [Abrufen oder Festlegen des Klassenbezeichners des eingebetteten OLE-Objekts](/cells/de/python-net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 - [Einfügen einer WAV-Datei als OLE-Objekt](/cells/de/python-net/inserting-a-wav-file-as-an-ole-object/)
 
+{{< app/cells/assistant language="python-net" >}}

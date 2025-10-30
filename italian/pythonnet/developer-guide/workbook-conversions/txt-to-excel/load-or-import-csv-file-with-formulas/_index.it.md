@@ -30,3 +30,4 @@ Il codice carica prima il file CSV, poi lo importa nuovamente nella cella D4. In
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

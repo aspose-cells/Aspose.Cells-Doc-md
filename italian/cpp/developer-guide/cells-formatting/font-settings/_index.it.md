@@ -415,3 +415,4 @@ int main()
 ## **Argomenti avanzati**
 - [Applica gli effetti esponente e pedice sulle font](/cells/it/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro](/cells/it/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

@@ -133,4 +133,4 @@ Zum Beispiel: Im Download-Action können Sie sie einfach aus dem Cache-Verzeichn
 ```
 
 Weitere Detailinformationen finden Sie hier:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

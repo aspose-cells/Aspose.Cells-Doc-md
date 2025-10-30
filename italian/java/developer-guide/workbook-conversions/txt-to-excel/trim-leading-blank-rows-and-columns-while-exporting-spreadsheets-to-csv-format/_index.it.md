@@ -21,7 +21,7 @@ Per impostazione predefinita, Aspose.Cells non scarta le colonne e le righe vuot
 
 {{% alert color="primary" %}}
 
-Prima del rilascio del Aspose.Cells for .NET 20.4, il valore predefinito di [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) era **false**. Dalla versione 20.4, il valore predefinito di [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) è **true.**
+Prima del rilascio di Aspose.Cells for Java 20.4, il valore predefinito di [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) era **falso**. Dalla versione 20.4, il valore predefinito di [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) è **vero.**
 
 {{% /alert %}}
 

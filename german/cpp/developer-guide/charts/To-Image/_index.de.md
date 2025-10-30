@@ -226,3 +226,4 @@ Falls Sie versuchen, nicht unterstützte Diagrammtypen in ein Bild oder PDF zu r
 
 ## **Erweiterte Themen**
 - [Diagramm in PDF umwandeln](/cells/de/cpp/chart-to-pdf/)
+{{< app/cells/assistant language="cpp" >}}

@@ -87,3 +87,4 @@ Cada objeto de Hoja de cálculo contiene un objeto de Colección de Saltos de p�
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Un objeto VerticalPageBreak se utiliza para crear un salto de página vertical en la hoja de cálculo.
+{{< app/cells/assistant language="python-net" >}}

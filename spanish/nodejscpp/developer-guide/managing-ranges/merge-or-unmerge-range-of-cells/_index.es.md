@@ -39,3 +39,4 @@ range.merge();
 // Save the workbook
 workbook.save(path.join(dataDir, "output.out.xlsx"));
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Righe e colonne
 type: docs
-weight: 90
+weight: 58
 url: /it/python-java/rows-and-columns/
 ---
 

@@ -40,3 +40,4 @@ A continuación se muestra la salida de consola del código anterior utilizando 
 Is VBA Code Project Signed: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

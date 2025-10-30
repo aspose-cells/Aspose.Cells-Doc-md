@@ -111,3 +111,4 @@ Nach obiger Operation können wir ein Ausgabediagrammbild mit japanischer Region
 |Andere Bezeichnung|その他|Andere|  
 |Serienname|シリーズ|Serie|  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

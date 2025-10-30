@@ -133,3 +133,4 @@ console.log("Encrypted excel file opened successfully!");
 Aspose.Cells unterstützt auch das Öffnen von passwortgeschützten Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-Dateien.
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

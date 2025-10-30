@@ -20,3 +20,4 @@ Der folgende Beispielscode lädt die [Beispiel-Excel-Datei](67338475.xlsx), die 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

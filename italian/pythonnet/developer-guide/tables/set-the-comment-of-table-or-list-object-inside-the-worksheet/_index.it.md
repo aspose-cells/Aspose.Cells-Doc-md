@@ -17,3 +17,4 @@ Il seguente codice di esempio carica il [file di origine excel](5115514.xlsx), i
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Tables-SetCommentOfTableOrListObject-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

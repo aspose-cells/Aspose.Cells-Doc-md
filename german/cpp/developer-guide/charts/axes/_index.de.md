@@ -88,3 +88,4 @@ int main()
 - [Behandeln Sie automatische Einheiten der Diagrammachse wie Microsoft Excel](/cells/de/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
 - [Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms](/cells/de/cpp/read-axis-labels-after-calculating-the-chart/)
 - [Wie man die Kategorieachse im Excel-Diagramm einstellt](/cells/de/cpp/how-to-set-category-axis/)
+{{< app/cells/assistant language="cpp" >}}

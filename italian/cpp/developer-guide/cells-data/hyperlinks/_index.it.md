@@ -166,3 +166,4 @@ int main()
 - [Rilevare il tipo di collegamento ipertestuale](/cells/it/cpp/detect-hyperlink-type/)
 - [Modifica dei collegamenti ipertestuali del foglio di lavoro](/cells/it/cpp/editing-hyperlinks-of-worksheet/)
 - [Ottieni i collegamenti ipertestuali nell'intervallo](/cells/it/cpp/get-hyperlinks-in-range/)
+{{< app/cells/assistant language="cpp" >}}

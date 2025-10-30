@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /es/python-java/opening-files-with-different-formats/
 
-description: Aspose.Cells for .NET La API le permite abrir/leer diferentes formatos como XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+description: La API Aspose.Cells para Python via Java te permite abrir/leer diferentes formatos como XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: abrir archivos xlsx, abrir archivos html, leer archivos fods, leer archivos ods, leer archivos sxc, abrir archivos csv, Delimitado por tabulaciones, SpreadsheetML, tsv, mhtml
 ---
 

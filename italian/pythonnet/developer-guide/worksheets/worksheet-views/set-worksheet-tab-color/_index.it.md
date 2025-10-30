@@ -25,3 +25,4 @@ Il codice di esempio di seguito mostra come impostare il colore della scheda con
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Views-SetWorksheetTabColor-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

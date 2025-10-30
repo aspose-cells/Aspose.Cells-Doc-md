@@ -637,3 +637,4 @@ Con el lanzamiento de Aspose.Cells for C++ 16.12.0, hemos renombrado algunos mé
 #### **Se renombró el método ILoadOptions::SetLoadDataOptions a ILoadOptions::SetILoadDataOptions**
 #### **Se renombró el método IWorkbook::SetSettings a IWorkbook::SetISettings**
 #### **Se renombró el método IWorkbook::SetDefaultStyle a IWorkbook::SetDefaultIStyle**
+{{< app/cells/assistant language="cpp" >}}

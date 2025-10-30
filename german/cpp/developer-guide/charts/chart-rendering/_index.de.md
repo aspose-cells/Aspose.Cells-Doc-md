@@ -178,3 +178,4 @@ Es gibt einige Diagrammtypen, die derzeit nicht für die Darstellung unterstütz
 Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF darzustellen, erhalten Sie möglicherweise Bilder mit der Größe 0 oder leere PDFs.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

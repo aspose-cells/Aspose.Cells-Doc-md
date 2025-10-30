@@ -16,3 +16,4 @@ Aspose.Cells für Python via .NET bietet eine [**Shape.text_body**](https://refe
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 
 Die [Ausgabedatei](102662195.xlsx), die vom obigen Code generiert wurde, ist als Referenz angehängt.
+{{< app/cells/assistant language="python-net" >}}

@@ -178,3 +178,4 @@ Hay pocos tipos de gráficos que actualmente no son compatibles con la renderiza
 En caso de intentar renderizar los tipos de gráficos no soportados a imagen o PDF, es posible que se obtengan imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

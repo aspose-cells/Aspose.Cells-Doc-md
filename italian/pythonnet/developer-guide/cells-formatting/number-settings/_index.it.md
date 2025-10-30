@@ -90,3 +90,4 @@ Se si utilizza la proprietà [**custom**](https://reference.aspose.com/cells/pyt
 - [Specificare Personalizzare numerico Decimale e Gruppo Separatori per Cartella di lavoro](/cells/it/python-net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Specifica di formattazione pattern personalizzato DBNum](/cells/it/python-net/specifying-dbnum-custom-pattern-formatting/)
 
+{{< app/cells/assistant language="python-net" >}}

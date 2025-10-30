@@ -8,14 +8,68 @@ url: /it/java/what-s-new-in-aspose-cells-for-java/
 
 Questa pagina descrive le nuove e più interessanti funzionalità di Aspose.Cells introdotte nelle versioni recenti.
 
+## Aspose.Cells for Java 25.10
+* Fornisce opzioni per determinare come visualizzare le cifre significative per i valori numerici
+* Supporto per elaborare celle esportate con ExportTableOptions personalizzati quando ExportAsString è vero
+* Supporto per analizzare data e ora con il calendario dell'Imperatore Giapponese
+* Supporto per aggiornare automaticamente le formule di array dinamici durante il calcolo del Workbook
+* Migliorata compatibilità con la libreria PdfBox per il file PDF generato durante la conversione in PDF
+* Supporto per calcolare lo stile per tabella pivot durante il rendering dell'intervallo pivot in immagine
+* Esportazione di grafici avanzati di Excel 2016 in docx
+* Supporto per popolare commenti in una cella utilizzando Smart Markers
+
+## Aspose.Cells for Java 25.9
+* Supporto per funzioni WRAPCOLS, WRAPROWS
+* Supporto per variatori di font durante la conversione in xps
+* Supporto per variatori di font durante la conversione in svg con font incorporato
+* Supporto per incorporare font durante la conversione del file in html
+* Supporto per formato file FlatOPC
+* Supporto per grafici modificabili e oggetti incorporati (oggetto ole) in file pptx
+* Supporto per smart markers di fogli di lavoro Master-Detail
+* Supporto per smart marker di foglio di lavoro ripetitivo
+
+## Aspose.Cells for Java 25.8
+* Supporto per le nuove funzioni di Office 365: EXPAND, REDUCE, COT, COTH
+* Supporto per variatori di font per il salvataggio in pdf
+* Supporto per preservare le righe superiori bloccate durante il salvataggio in HTML
+* Supporto per variabili in formule e parametro "if" per smart marker
+* Supporto per smart marker di intervallo per processare fonti di dati annidate
+* Supporto per la lettura di immagini codificate in base64 e definizioni di riferimenti link durante l'importazione Markdown
+* Supporto per allineamento e opzioni di bordo nel formato numerico per GridJs
+* Supporto nell'applicazione della impostazione del carattere nel controllo textbox in client JS per GridJs
+* Supporto della funzione di inserimento di righe in batch nel menu e sotto il massimo di righe per GridJs
+* Supporto all'impacchettamento automatico del testo per GridJs
+* Supporto alla modalità collaborativa per GridJs
+
+## Aspose.Cells for Java 25.7
+* Supporto alle nuove funzioni in formula: TAKE, ISOMITTED
+* Supporto alle variabili nel modello Excel per il marcatore intelligente
+* Supporto all'esportazione di immagine flottante in Numbers
+* Supporto all'uso della cache dei file per ridurre il consumo di memoria del set di dati delle celle grandi
+
+## Aspose.Cells for Java 25.6
+* Supporto all'incorporamento dei font per il file pcl generato
+* Supporto all'esportazione di hyperlink e impostazioni di stampa durante il salvataggio in Numbers
+* Supporto all'opzione di selezione del riferimento del foglio per pivot table durante la copia del foglio di lavoro
+
+## Aspose.Cells for Java 25.5
+* Supporto all'esportazione di immagini in formato Markdown
+* Supporto all'esportazione di textbox, formattazioni condizionali in formato Numbers
+* Supporto all'esportazione di immagine incorporata e dati di entità in formato Docx
+* Supporto alla funzione di fotocamera dell'intervallo
+* Miglioramento nel copia degli slicer durante la copia del workbook
+* Supporto dell'opzione token per le richieste API di GridJs
+* Supporto ai menu polacchi per GridJs
+* Supporto alle API JavaScript per inserire/eliminare righe/colonne in GridJs
+
 ## Aspose.Cells for Java 25.4
-* Supporta la specifica del set di fogli da esportare in HTML
-* Supporta ottenere e impostare il colore delle linee di griglia di un foglio di lavoro
-* Supporta l'esportazione di grafici modificabili in file DOCX
-* Supporta la lettura e la scrittura di etichette di sensibilità
-* Supporta l'esportazione di più attributi di stile su Numbers
-* Supporta l'importazione di file modello in formato Markdown
-* Supporta il rilevamento dell'uso di funzioni personalizzate da formule in `Cell` e `Workbook`
+* Supporto alla specifica del set di fogli da esportare in HTML
+* Supporto alla lettura e impostazione del colore delle linee della griglia di un foglio di lavoro
+* Supporto all'esportazione di grafici modificabili in file DOCX
+* Supporto alla lettura e scrittura delle etichette di sensibilità
+* Supporto all'esportazione di più attributi di stile in Numbers
+* Supporto all'importazione di file modello in formato Markdown
+* Supporto al rilevamento dell'uso di funzioni personalizzate da parte delle formule in `Cell` e `Workbook`
 
 ## Aspose.Cells for Java 25.3
 * Supporto per ottenere lo stile di visualizzazione di una cella senza ottenere l'oggetto cella

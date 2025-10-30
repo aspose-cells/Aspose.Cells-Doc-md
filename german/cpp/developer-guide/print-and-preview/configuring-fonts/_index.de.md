@@ -143,3 +143,4 @@ Neben den oben genannten Methoden bieten die Aspose.Cells APIs auch Möglichkeit
 - [Standardfont beim Rendern von Tabellenkalkulationen in Bilder festlegen](/cells/de/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Die Eigenschaft DefaultFont von PdfSaveOptions und ImageOrPrintOptions festlegen, um Priorität zu haben](/cells/de/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Unterstützte Schriftformate](/cells/de/cpp/supported-font-formats/)
+{{< app/cells/assistant language="cpp" >}}

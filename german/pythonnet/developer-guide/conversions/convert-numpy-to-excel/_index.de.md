@@ -78,3 +78,4 @@ Hier ist ein Beispielcode-Schnipsel, um zu demonstrieren, wie Daten aus einem Nu
 Das Ausgabenergebnis:
 <br>
 <img src="ndarray_name.png" width=60% />
+{{< app/cells/assistant language="python-net" >}}

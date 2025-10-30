@@ -18,3 +18,4 @@ Aspose.Cells für Python via .NET bietet die Möglichkeit, die externe Verbindun
 Die im Codeausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](104398862.xlsx)
+{{< app/cells/assistant language="python-net" >}}

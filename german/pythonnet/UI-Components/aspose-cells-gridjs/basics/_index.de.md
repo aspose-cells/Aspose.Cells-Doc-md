@@ -44,7 +44,7 @@ Nachfolgend sind die grundlegenden Prozessschritte zur Entwicklung einer Webanwe
 
 Nachfolgend finden Sie eine grundlegende Demo zur Veranschaulichung der Verwendung von Aspose.Cells.GridJs:
 
-https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs_Python_Net 
+https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs
 
 In der Demo verwenden wir [gridjs-spreadsheet](https://www.npmjs.com/package/gridjs-spreadsheet) zur Darstellung der Client-seitigen Seite.
 

@@ -124,3 +124,4 @@ int main()
 Dieses Beispiel zeigt, wie man eine einzelne Zelle so formatiert, dass Zahlen im US-Dollar-Buchhaltungsformat angezeigt werden. Der Formatstring kann angepasst werden, um verschiedene Währungssymbole oder Buchhaltungsformate zu erfüllen. Der Schlüssel liegt im `style.Custom`-Eigenschaft, wo Sie den benutzerdefinierten Zahlformatcode für Buchhaltung angeben.
 
 Denken Sie daran, dass der genaue Formatstring je nach Locale und den spezifischen Anforderungen an das Buchhaltungsformat angepasst werden muss (z.B. Verwendung eines anderen Währungssymbols, mehr oder weniger Dezimalstellen anzeigen usw.).
+{{< app/cells/assistant language="cpp" >}}

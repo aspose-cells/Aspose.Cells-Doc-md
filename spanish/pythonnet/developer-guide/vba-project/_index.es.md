@@ -87,3 +87,4 @@ Puedes descargar el [archivo de Excel fuente](5112508.xlsm) y el [archivo de Exc
 - [Descubrir si el proyecto de VBA está protegido](/cells/es/python-net/find-out-if-vba-project-is-protected/)
 - [Proteger con contraseña el proyecto de VBA del libro de Excel](/cells/es/python-net/password-protect-the-vba-project-of-excel-workbook/)
 
+{{< app/cells/assistant language="python-net" >}}

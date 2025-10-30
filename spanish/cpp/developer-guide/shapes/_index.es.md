@@ -6,3 +6,4 @@ url: /es/cpp/shapes/
 ---
 
 
+{{< app/cells/assistant language="cpp" >}}

@@ -26,3 +26,4 @@ Das folgende Codebeispiel zeigt, wie das aktive Arbeitsblatt mithilfe des Enumer
 - [In-Excel-in-JSON-konvertieren](/cells/de/python-net/convert-excel-to-json/)
 - [JSON in CSV konvertieren](/cells/de/python-net/convert-json-to-csv/)
 - [JSON-in-Excel-konvertieren](/cells/de/python-net/convert-json-to-excel/)
+{{< app/cells/assistant language="python-net" >}}

@@ -23,3 +23,4 @@ Der folgende Codeausschnitt zeigt, wie die Legende verwaltet wird:
 
 ## **Erweiterte Themen**
 - [Setzen Sie den Text des Füllfelds für den Legenden-Eintrag in Diagrammen auf "keine" mit Aspose.Cells für Python via .NET](/cells/de/python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="python-net" >}}

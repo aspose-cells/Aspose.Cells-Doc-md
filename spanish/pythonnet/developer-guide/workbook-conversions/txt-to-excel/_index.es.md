@@ -43,3 +43,4 @@ El archivo de valores separados por comas y con pestañas (TSV) contiene datos d
 - [Cargar o importar archivo CSV con fórmulas](/cells/es/python-net/load-or-import-csv-file-with-formulas/)
 - [Lectura de archivo CSV con múltiples codificaciones](/cells/es/python-net/reading-csv-file-with-multiple-encodings/)
 
+{{< app/cells/assistant language="python-net" >}}

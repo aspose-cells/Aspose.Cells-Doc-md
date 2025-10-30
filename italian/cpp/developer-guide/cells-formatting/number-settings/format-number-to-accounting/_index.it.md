@@ -124,3 +124,4 @@ int main()
 Questo esempio dimostra come formattare una singola cella per visualizzare numeri in formato contabile con dollari USA. La stringa di formato può essere regolata per soddisfare simboli di valuta o formati contabili diversi secondo necessità. La parte chiave è la proprietà `style.Custom`, dove si specifica il codice di formato numerico personalizzato per il contabile.
 
 Ricorda, la stringa di formato esatta potrebbe dover essere adattata in base alla tua località e ai requisiti specifici di formato contabile (ad esempio, usando un simbolo di valuta diverso, mostrando più o meno decimali, ecc.).
+{{< app/cells/assistant language="cpp" >}}

@@ -30,3 +30,4 @@ Aspose.Cells proporciona un método sobrecargado [AddCopy()](https://reference.a
 Aspose.Cells proporciona un método [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) que se utiliza para mover una hoja de cálculo a otra ubicación en la misma hoja de cálculo. El método toma el índice de la hoja de cálculo de destino como parámetro. El siguiente ejemplo muestra cómo mover una hoja de cálculo a otra ubicación dentro del libro.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

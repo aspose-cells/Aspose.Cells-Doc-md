@@ -24,3 +24,4 @@ So zeigen Sie den Zellenbereich als Datenbeschriftungen in Microsoft Excel:
 Der unten stehende Beispielcode greift auf die Beschriftungen von Diagrammserien zu und setzt die [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range)-Eigenschaft auf **true**, um die Option **Beschriftung enthält - Wert aus Zellen** auszuwählen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
+{{< app/cells/assistant language="python-net" >}}

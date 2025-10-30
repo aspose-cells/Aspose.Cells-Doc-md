@@ -415,3 +415,4 @@ int main()
 ## **Temas avanzados**
 - [Aplicar efectos de superíndice y subíndice en fuentes](/cells/es/cpp/apply-superscript-and-subscript-effects-on-fonts/)
 - [Obtener una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+{{< app/cells/assistant language="cpp" >}}

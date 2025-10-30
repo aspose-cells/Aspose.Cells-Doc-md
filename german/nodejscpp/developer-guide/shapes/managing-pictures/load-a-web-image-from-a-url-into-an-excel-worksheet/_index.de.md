@@ -38,3 +38,4 @@ Es kann FÃ¤lle geben, in denen Sie stets das aktualisierte Bild von einer URL mÃ
 {{% /alert %}}  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

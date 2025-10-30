@@ -15,3 +15,4 @@ Die Methode [**Protection.verify_password**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-VerifyPasswordUsedToProtectWorksheets.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -64,3 +64,4 @@ Questa pagina riassume Aspose.Cells for Python via .NET funzionalità.
 - Creare o modificare l'intestazione e/o piè di pagina
 - Impostare l'area di stampa, i titoli di stampa o attivare le linee della griglia, ecc.
 
+{{< app/cells/assistant language="python-net" >}}

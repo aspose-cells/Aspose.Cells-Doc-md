@@ -34,3 +34,4 @@ Depende de los desarrolladores cómo usen Aspose.Cells, pero hay pocos escenario
 Hemos discutido algunos de los escenarios más comunes de uso de Aspose.Cells en entornos web. Pero Aspose.Cells también es igualmente útil en aplicaciones de escritorio.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

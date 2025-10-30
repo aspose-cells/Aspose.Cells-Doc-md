@@ -24,3 +24,4 @@ Bitte zögern Sie nicht, sich bei Problemen mit der Einrichtung oder Ausführung
 Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Showcase-Projekte in diesem Repository sind Open Source und können frei in Ihren eigenen Anwendungen verwendet werden.
 
 Um beizutragen, können Sie das Repository forken, den Quellcode bearbeiten und einen Pull-Request erstellen. Wir werden die Änderungen überprüfen und sie in das Repository aufnehmen, wenn sie hilfreich sind.
+{{< app/cells/assistant language="cpp" >}}

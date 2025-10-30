@@ -69,3 +69,4 @@ Gli screenshot seguenti mostrano le pagine PDF. Nota che gli header e i footer s
 |Il primo foglio di lavoro **(Previsioni di vendita)**|Il secondo foglio di lavoro **(Rapporto di vendita)**|
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |Il terzo foglio di lavoro **(Inserimento dati)**|L'ultimo foglio di lavoro **(Immagine)**|
+{{< app/cells/assistant language="nodejs-cpp" >}}

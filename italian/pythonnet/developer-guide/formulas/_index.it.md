@@ -89,3 +89,4 @@ Aggiungi una formula di stile di riferimento **R1C1** a una cella con la proprie
 - [Funzioni Excel supportate](/cells/it/python-net/supported-formula-functions/)
 
 
+{{< app/cells/assistant language="python-net" >}}

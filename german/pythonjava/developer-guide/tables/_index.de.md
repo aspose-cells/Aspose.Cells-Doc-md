@@ -1,7 +1,7 @@
 ---
 title: Tabellen
 type: docs
-weight: 60
+weight: 130
 url: /de/python-java/tables/
 ---
 

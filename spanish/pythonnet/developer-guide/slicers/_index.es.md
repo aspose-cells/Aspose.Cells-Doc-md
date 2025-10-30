@@ -37,3 +37,4 @@ Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel 
 - [Eliminar rebanador](/cells/es/python-net/removing-slicer/)
 - [Renderización de rebanador](/cells/es/python-net/rendering-slicer/)
 - [Actualización de rebanador](/cells/es/python-net/updating-slicer/)
+{{< app/cells/assistant language="python-net" >}}

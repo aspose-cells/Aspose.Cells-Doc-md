@@ -59,3 +59,4 @@ A continuación, se muestra un ejemplo completo que abre un archivo de Excel (bo
 ### **Controlando el Ancho de la Barra de Pestañas**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Display-ControlTabBarWidth-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -1,0 +1,21 @@
+---
+title: Primäre und sekundäre Achse mit Golang über C++
+linktitle: Primäre und sekundäre Achse
+description: Lernen Sie, wie Sie Primär und Sekundärachsen in Aspose.Cells for C++ verstehen und damit arbeiten. Unser Leitfaden hilft Ihnen, die Unterschiede zwischen primären und sekundären Achsen zu verstehen, sowie sie effektiv in Ihren Diagrammen zu konfigurieren und zu verwenden.
+keywords: Aspose.Cells for C++, primäre Achsen, sekundäre Achsen, Verständnis, Unterschiede, Konfiguration, Nutzung.
+type: docs
+weight: 190
+url: /de/go-cpp/primary-and-second-axis/
+---
+
+## **Mögliche Verwendungsszenarien**
+Wenn die Zahlen in einem Diagramm von Datenreihen zu Datenreihen stark variieren oder wenn verschiedene Arten von Daten (Preis und Volumen) vorliegen, platzieren Sie eine oder mehrere Datenreihen auf einer sekundären vertikalen (Wert-) Achse. Die Skala der sekundären vertikalen Achse zeigt die Werte für die zugehörigen Datenreihen an. Eine sekundäre Achse funktioniert gut in einem Diagramm, das eine Kombination aus Säulen- und Liniendiagrammen zeigt.
+
+## **Behandeln Sie die primäre und sekundäre Achse wie in Microsoft Excel**
+Bitte sehen Sie sich den folgenden Beispielcode an, der eine neue Excel-Datei erstellt und die Werte des Diagramms im ersten Arbeitsblatt platziert. 
+Dann fügen wir ein Diagramm hinzu und zeigen die zweite Achse.
+
+![todo:image_alt_text](excel.png)
+
+## **Beispielcode**
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-PrimaryAndSecondAxis.go" >}}

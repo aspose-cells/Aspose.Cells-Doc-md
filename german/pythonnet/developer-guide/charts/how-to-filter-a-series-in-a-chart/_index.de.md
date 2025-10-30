@@ -58,3 +58,4 @@ Klicken Sie in Ihre Daten und verwenden Sie **STRG + T** oder gehen Sie zum Regi
 Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](TableFilters.xlsx) und zeigt dieselbe Funktion unter Verwendung von Aspsoe.Cells.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-TableFilters.py" >}}
+{{< app/cells/assistant language="python-net" >}}

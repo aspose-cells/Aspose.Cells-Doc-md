@@ -64,3 +64,4 @@ Nell'esempio precedente, è stato aggiunto un collegamento ipertestuale a un URL
 - [Modifica dei collegamenti ipertestuali del foglio di lavoro](/cells/it/nodejs-cpp/editing-hyperlinks-of-worksheet/)
 - [Ottieni i collegamenti ipertestuali nell'intervallo](/cells/it/nodejs-cpp/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

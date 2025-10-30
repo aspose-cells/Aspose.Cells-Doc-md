@@ -23,3 +23,4 @@ Sparkline è un grafico piccolo in una cella del foglio di lavoro che fornisce u
 ## **Argomenti avanzati**
 - [Utilizzo di Sparklines e Impostazioni 3D Formato](/cells/it/python-net/using-sparklines-and-settings-3d-format/)
 
+{{< app/cells/assistant language="python-net" >}}

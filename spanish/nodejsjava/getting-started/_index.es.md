@@ -24,7 +24,7 @@ Para instalar y usar Aspose.Cells para Node.js via Java desde un archivo ZIP, si
 ### **Linux:**
 - Descargue e instale [Node.js](https://nodejs.org/en/download/).
 - Instale Oracle JDK (1.7 o 1.8) para Linux, configure la variable de entorno JAVA_HOME.
-- Instale python 2.x
+- Instalar Python 3.x
 - Instala el puente [node-java](https://github.com/joeferner/node-java). Puedes ejecutar los siguientes comandos @ terminal: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Instala Oracle JDK8 y configura la variable de entorno JAVA_HOME.
 - Instala Node.js y agrega node.exe a la variable de entorno PATH.
+- Instalar Python y configurarlo en PATH.
 - Instala node-gyp.
-- Instala Windows Build Tools.
-- Instala el puente [node-java](https://www.npmjs.com/package/java) y ejecuta los siguientes comandos en el símbolo del sistema como administrador:
+- Instalar [puente node-java](https://www.npmjs.com/package/java).
+- Instalar aspose.cells (O: Descargar "Aspose.Cells for Node.js via Java" y extraerlo en "aspose.cells.js.java/node_modules").
 
-
+Ejecute los comandos a continuación en la línea de comandos como administrador (**Asegúrese de que Java, Node.js, Python estén configurados**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- Descargue "Aspose.Cells para Node.js via Java" y extráigalo en "aspose.cells.js.java/node_modules".
 - Crea un archivo llamado **hello.js** en la carpeta "aspose.cells.js.java" usando el siguiente código de ejemplo:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Instala Python 2.x (si no está instalado).
+- Instala Python 3.x (si aún no está instalado).
 - Instala el puente node-java. Puedes ejecutar los siguientes comandos @ terminal:
 
 `         `$ mkdir aspose.cells.js.java

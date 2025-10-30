@@ -25,3 +25,4 @@ Der nachstehende Beispielcode zeigt, wie benutzerdefinierte Diagramme erstellt w
 Derzeit unterstützt Aspose.Cells für Python via .NET nur benutzerdefinierte Diagramme, die Tortendiagramme, Linien-, Säulen- und gestapelte Säulendiagramme kombinieren, aber in zukünftigen Versionen werden weitere Diagramme unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

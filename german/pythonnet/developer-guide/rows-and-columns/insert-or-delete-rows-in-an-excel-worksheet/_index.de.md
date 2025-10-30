@@ -20,3 +20,4 @@ Um eine bestimmte Anzahl von Zeilen einzufügen oder zu entfernen, empfehlen wir
 Aspose.Cells für Python via .NET arbeitet auf die gleiche Weise wie Microsoft Excel. Wenn Zeilen oder Spalten hinzugefügt werden, wird der Inhalt des Arbeitsblatts nach unten und nach rechts verschoben. Beim Entfernen von Zeilen oder Spalten wird der Arbeitsblattinhalt nach oben oder nach links verschoben. Referenzen in anderen Arbeitsblättern und Zellen werden aktualisiert, wenn Zeilen hinzugefügt oder entfernt werden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertDeleteRows-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

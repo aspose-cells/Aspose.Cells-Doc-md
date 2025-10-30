@@ -34,3 +34,4 @@ Il codice di esempio seguente mostra come accedere o ottenere qualsiasi foglio d
 La rimozione dei fogli di lavoro per nome funziona bene quando si conosce il nome del foglio di lavoro. Se non si conosce il nome del foglio di lavoro, utilizzare una versione sovraccaricata del metodo [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) che prende l'indice del foglio del foglio di lavoro invece del nome del foglio.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

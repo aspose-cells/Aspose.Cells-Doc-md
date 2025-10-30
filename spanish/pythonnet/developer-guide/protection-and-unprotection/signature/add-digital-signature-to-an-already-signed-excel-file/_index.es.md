@@ -27,3 +27,4 @@ El siguiente código de muestra demuestra cómo usar el método [**Workbook.add_
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-AddDigitalSignatureToAnAlreadySignedExcelFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

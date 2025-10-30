@@ -157,3 +157,4 @@ Excel fornisce filtri personalizzati come filtra le righe che termina con una st
 ## **Argomenti avanzati**
 - [Applicare il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Ottenere tutti gli indici delle righe nascoste dopo l'aggiornamento dell'autofiltro](/cells/it/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

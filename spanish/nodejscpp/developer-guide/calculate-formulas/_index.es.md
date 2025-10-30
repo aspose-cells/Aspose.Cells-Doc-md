@@ -163,3 +163,4 @@ Por defecto, la cadena de cálculo está deshabilitada. Debido a que crear la ca
 - [Devolver un rango de valores utilizando AbstractCalculationEngine](/cells/es/nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/)
 - [Configurar el modo de cálculo de fórmulas de una hoja de cálculo](/cells/es/nodejs-cpp/setting-formula-calculation-mode-of-workbook/)
 - [Usando la función FormulaText en Aspose.Cells](/cells/es/nodejs-cpp/using-formulatext-function-in-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

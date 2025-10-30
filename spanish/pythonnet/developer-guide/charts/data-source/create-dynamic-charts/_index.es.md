@@ -52,3 +52,4 @@ Para mantener la demostración simple de entender, crearemos el libro de trabajo
 1. Guarde el resultado en el disco.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateDynamicChartsUsingDynamicFormula.py" >}}
+{{< app/cells/assistant language="python-net" >}}

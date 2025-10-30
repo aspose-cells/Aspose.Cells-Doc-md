@@ -46,3 +46,4 @@ In modalità anteprima interruzione di pagina o anteprima di stampa, è possibil
 ## **Importante sapere**
 
 Quando si impostano le proprietà **FitToPages** (cioè [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) e [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) nelle impostazioni di impaginazione, le impostazioni delle interruzioni di pagina vengono influenzate, quindi, se si stampa il foglio di lavoro, le impostazioni delle interruzioni di pagina non vengono considerate anche se sono ancora impostate.
+{{< app/cells/assistant language="python-net" >}}

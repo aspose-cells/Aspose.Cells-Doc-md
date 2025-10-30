@@ -70,3 +70,4 @@ BoxWhisker
 - [Creación de gráfico de mapa de árbol](/cells/es/nodejs-cpp/creating-treemap-chart/)  
 - [Creación de gráfico de ráfaga solar](/cells/es/nodejs-cpp/creating-sunburst-chart/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

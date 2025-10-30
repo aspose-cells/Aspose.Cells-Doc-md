@@ -50,3 +50,4 @@ Vedi il seguente codice, crea un oggetto workbook e imposta diversi angoli di ro
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-SetRotationOfCell.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

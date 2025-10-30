@@ -63,3 +63,4 @@ Hier ist die Konsolenausgabe des obigen Codes mit dieser [Beispieldatei](5112365
 Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

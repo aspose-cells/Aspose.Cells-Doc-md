@@ -18,3 +18,4 @@ Il seguente esempio di codice carica il [file Excel sorgente](5115407.xlsx), acc
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Options-GlowEffectOfShape.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -30,3 +30,4 @@ Aspose.Cells fornisce un metodo sovraccaricato [AddCopy()](https://reference.asp
 Aspose.Cells fornisce un metodo [MoveTo()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/moveto/) che viene utilizzato per spostare un foglio di lavoro in un'altra posizione nella stessa cartella di lavoro. Il metodo prende l'indice del foglio di lavoro di destinazione come parametro. L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del workbook.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

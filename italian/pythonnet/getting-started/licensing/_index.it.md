@@ -59,3 +59,4 @@ Quando chiami il metodo set_license, il nome della licenza deve essere lo stesso
 {{% /alert %}}
 
 
+{{< app/cells/assistant language="python-net" >}}

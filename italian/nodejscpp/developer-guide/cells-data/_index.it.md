@@ -82,3 +82,4 @@ Durante il lavoro sui fogli di lavoro, gli utenti possono aggiungere diversi tip
 - [Popolare prima i dati per riga e poi per colonna](/cells/it/nodejs-cpp/populate-data-first-by-row-then-by-column/)
 - [Conserva il prefisso apice singolo del valore della cella o dell'intervallo](/cells/it/nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Accedere e aggiornare le porzioni di testo arricchito della cella](/cells/it/nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

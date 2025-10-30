@@ -41,3 +41,4 @@ Es posible centrar algo en una página horizontal y verticalmente. Para ello, ha
 Establezca los márgenes de encabezado y pie de página con los miembros de la clase [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) como [**header_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/header_margin) y [**footer_margin**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/footer_margin).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.py" >}}
+{{< app/cells/assistant language="python-net" >}}

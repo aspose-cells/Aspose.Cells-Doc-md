@@ -79,3 +79,4 @@ Die Standardeinstellung, [**MemorySetting.Normal**](https://reference.aspose.com
 2. **Einfügen & Löschen von Zellen & Zeilen**: Bitte beachten Sie, dass bei vielen Einfüge-/Löschoperationen für Zellen/Zeilen die Leistungsverringerung im Modus *MemoryPreference* im Vergleich zum *Normal*-Modus deutlich sein wird.  
 3. **Arbeiten mit verschiedenen Zelltypen**: Wenn die meisten Zellen Textwerte oder Formeln enthalten, sind die Speicher Kosten wie im *Normal*-Modus. Wenn jedoch viele leere Zellen oder Zellwerte numerisch, boolesch usw. sind, wird die [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/nodejs-cpp/memorysetting/)-Option eine bessere Leistung bieten.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -88,3 +88,4 @@ Utiliza estos componentes esenciales de la API:
 {{% alert color="note" %}} 
 **Nota de diferencia API**: En Python.NET, las propiedades booleanas usan nomenclatura snake_case (`is_font_substitution_char_granularity`) en lugar de PascalCase, que se usa en .NET.
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

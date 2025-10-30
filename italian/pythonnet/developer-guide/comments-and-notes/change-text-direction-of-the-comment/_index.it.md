@@ -14,3 +14,4 @@ Microsoft Excel consente agli utenti di aggiungere commenti alle celle per aggiu
 Aspose.Cells per Python via .NET fornisce una proprietà [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) per impostare la direzione del testo di un commento. Il seguente esempio di codice dimostra l'uso della proprietà [**Shape.text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_direction) per impostare la direzione del testo di un commento.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeTextDirection-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

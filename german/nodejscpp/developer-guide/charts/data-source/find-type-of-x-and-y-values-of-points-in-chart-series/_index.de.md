@@ -49,3 +49,4 @@ console.log("Y Value Type: " + point.getYValueType());
 Y Value Type: IsNumeric  
 {{< /highlight >}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

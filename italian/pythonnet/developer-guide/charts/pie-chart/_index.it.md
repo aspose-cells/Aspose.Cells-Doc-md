@@ -43,3 +43,4 @@ Infine, il seguente codice salva il grafico in formato immagine e il workbook in
 - [Formattazione dei dati nei grafici](/cells/it/python-net/data-formatting-in-charts/)
 - [Impostazione dell'aspetto del grafico](/cells/it/python-net/setting-chart-appearance/)
 
+{{< app/cells/assistant language="python-net" >}}

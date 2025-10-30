@@ -22,3 +22,4 @@ La libreria Aspose.Cells for Node.js via C++ fornisce anche i metodi [**PivotTab
 Il seguente codice di esempio mostra prima la tabella pivot in **Forma compatta**, poi mostra la tabella pivot in **Forma di contorno** e infine mostra la tabella pivot in **Forma tabellare**.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

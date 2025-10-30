@@ -46,3 +46,4 @@ cell.SetStyle(style);
 - [Ändern eines bestehenden Stils](/cells/de/cpp/modify-an-existing-style/)
 - [Wiederverwendung von Stil-Objekten](/cells/de/cpp/reusing-style-objects/)
 - [Verwenden von eingebauten Stilen](/cells/de/cpp/using-built-in-styles/)
+{{< app/cells/assistant language="cpp" >}}

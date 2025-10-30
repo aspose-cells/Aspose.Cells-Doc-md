@@ -170,3 +170,4 @@ Si utiliza la propiedad [**Custom**](https://reference.aspose.com/cells/cpp/aspo
 - [Renderizar formato personalizado de fecha del patrón g y ge mm dd](/cells/es/cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)
 - [Especificar separadores de números decimales y de grupo personalizados para el libro de trabajo](/cells/es/cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [Especificación de formato de patrón personalizado DBNum](/cells/es/cpp/specifying-dbnum-custom-pattern-formatting/)
+{{< app/cells/assistant language="cpp" >}}

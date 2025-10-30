@@ -2,7 +2,7 @@
 title: Proteger y Desproteger
 linktitle: Protección
 type: docs
-weight: 40
+weight: 55
 url: /es/python-java/protect-and-unprotect/
 description: Este fragmento presenta cómo encriptar y desencriptar archivos de Excel, proteger y desproteger los datos en archivos de Excel utilizando códigos Python.
 ---

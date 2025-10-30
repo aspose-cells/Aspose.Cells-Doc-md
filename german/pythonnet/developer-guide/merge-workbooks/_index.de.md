@@ -57,3 +57,4 @@ Sie können beliebige Quellarbeitsmappen verwenden. Diese Bilder dienen nur zur 
 - [Mehrere Arbeitsblätter in ein einziges Arbeitsblatt kombinieren](/cells/de/python-net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Dateien zusammenführen](/cells/de/python-net/merge-files/)
 
+{{< app/cells/assistant language="python-net" >}}

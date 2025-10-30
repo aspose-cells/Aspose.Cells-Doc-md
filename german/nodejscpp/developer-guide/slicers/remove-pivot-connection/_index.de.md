@@ -37,3 +37,4 @@ slicer.removePivotConnection(pivotTable);
 // Save the workbook in output XLSX format.
 workbook.save(path.join(dataDir, "remove-pivot-connection-out.xlsx"));
 ``` 
+{{< app/cells/assistant language="nodejs-cpp" >}}

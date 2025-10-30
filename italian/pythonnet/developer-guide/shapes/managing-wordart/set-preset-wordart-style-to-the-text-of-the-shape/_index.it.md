@@ -16,3 +16,4 @@ Il seguente esempio di codice crea una casella di testo con del testo e poi impo
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-WordArt-SetPresetWordArtStyle-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -1,7 +1,7 @@
 ---
 title: Dateien konvertieren
 type: docs
-weight: 20
+weight: 30
 url: /de/python-java/converting-files/
 ---
 

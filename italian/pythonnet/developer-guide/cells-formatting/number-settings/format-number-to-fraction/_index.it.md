@@ -112,3 +112,4 @@ Ecco un esempio di codice che dimostra questi passaggi:
 
 Seguendo questi passi, puoi facilmente formattare i numeri come frazioni in Aspose.Cells per Python via .NET. Questo può essere particolarmente utile per applicazioni finanziarie, statistiche o educative che richiedono valori frazionari precisi.
 
+{{< app/cells/assistant language="python-net" >}}

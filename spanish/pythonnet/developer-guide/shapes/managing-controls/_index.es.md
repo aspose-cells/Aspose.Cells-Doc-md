@@ -381,3 +381,4 @@ El siguiente ejemplo muestra cómo agregar un grupo y agrupar los controles en l
 - [Agregar controles ActiveX](/cells/es/python-net/add-activex-controls-using-aspose-cells/)
 - [Eliminar control ActiveX](/cells/es/python-net/remove-activex-control/)
 - [Actualizar control ActiveX ComboBox](/cells/es/python-net/update-activex-combobox-control/)
+{{< app/cells/assistant language="python-net" >}}

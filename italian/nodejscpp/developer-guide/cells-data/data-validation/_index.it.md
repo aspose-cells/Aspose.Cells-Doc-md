@@ -132,3 +132,4 @@ I file excel sorgente e di output sono allegati a scopo informativo.
 - [Ottieni la Convalida Applicata su una Cella](/cells/it/nodejs-cpp/get-validation-applied-on-a-cell/)  
 - [Verifica che il Valore della Cella Soddisfi le Regole di Convalida dei Dati](/cells/it/nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

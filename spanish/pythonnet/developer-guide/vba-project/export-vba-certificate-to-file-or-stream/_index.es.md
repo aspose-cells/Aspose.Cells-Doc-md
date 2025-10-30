@@ -17,3 +17,4 @@ Consulte el siguiente código de muestra que guarda los datos en bruto del Certi
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ExportVBACertificateToFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

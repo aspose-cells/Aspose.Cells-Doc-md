@@ -18,3 +18,4 @@ Puede usar Aspose.Cells para Python via .NET para crear etiquetas de datos perso
 El siguiente código accede al primer punto del gráfico de la primera serie, establece su texto y luego establece la fuente de los primeros 10 caracteres cambiando su color a rojo y la negrita a **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
+{{< app/cells/assistant language="python-net" >}}

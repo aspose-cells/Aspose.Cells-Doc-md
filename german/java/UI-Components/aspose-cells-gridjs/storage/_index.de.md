@@ -198,4 +198,4 @@ zum Beispiel: Bei der Download-Aktion können Sie es einfach aus dem Cache-Verze
 ```
 
 Weitere Detailinformationen finden Sie hier:
-<https://github.com/aspose-cells/Aspose.Cells-for-java/tree/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples_GridJs>

@@ -58,3 +58,4 @@ El código primero carga el archivo CSV, luego lo importa nuevamente en la celda
 | :- |  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

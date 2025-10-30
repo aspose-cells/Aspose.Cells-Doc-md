@@ -45,7 +45,7 @@ En este ejemplo, uso Ubuntu para mostrar cómo empezar a usar Aspose.Cells en Li
 2. Abre el archivo "AsposeCellsTest.csproj", y agrega las siguientes líneas para las referencias del paquete Aspose.Cells:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="25.4" />
+    <PackageReference Include="Aspose.Cells" Version="25.10" />
   </ItemGroup>
 {{< /highlight >}}
 3. Abre el proyecto con VSCode en Ubuntu:

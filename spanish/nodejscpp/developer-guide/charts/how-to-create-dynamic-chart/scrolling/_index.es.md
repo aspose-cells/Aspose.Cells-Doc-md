@@ -90,3 +90,4 @@ En el archivo generado, puedes operar en la barra de desplazamiento, mientras el
 ```
 
 Puedes intentar cambiar el número "10" por "15" en la celda "Sheet1!$H$20", y el gráfico dinámico contará los últimos 15 conjuntos de datos. Ahora hemos creado con éxito un gráfico de desplazamiento dinámico usando Aspose.Cells for Node.js via C++.
+{{< app/cells/assistant language="nodejs-cpp" >}}

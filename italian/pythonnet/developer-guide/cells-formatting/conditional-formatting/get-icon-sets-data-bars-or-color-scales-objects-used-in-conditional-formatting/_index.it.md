@@ -19,3 +19,4 @@ Il seguente esempio di codice mostra come leggere serie di icone utilizzate per 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GetIconSetsDataBars-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

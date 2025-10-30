@@ -1,0 +1,31 @@
+---
+title: Imposta il bordo dell intervallo con Golang via C++
+type: docs
+weight: 600
+url: /it/go-cpp/set-range-border/
+description: Impara come impostare i bordi degli intervalli usando Aspose.Cells con Golang via C++.
+---
+
+## **Possibili Scenari di Utilizzo**
+ Quando vuoi impostare il bordo di un Intervallo, non è necessario impostare ogni cella singolarmente. Puoi impostare il bordo sull'intervallo. Aspose.Cells offre questa funzionalità. Questo articolo fornisce un esempio di codice che utilizza Aspose.Cells per impostare il bordo dell'intervallo.
+
+## **Imposta il bordo dell'intervallo in Excel**
+Per impostare il bordo di un intervallo in Excel, puoi seguire questi passaggi:
+1. Seleziona l'intervallo di celle a cui desideri applicare il bordo.
+2. Nella scheda "Home" del menu, individua il gruppo "Carattere".
+3. All'interno del gruppo "Carattere", fai clic sul pulsante a discesa "Bordi".
+<br>
+<img src="border.png" />
+4. Scegli il tipo di bordo che desideri applicare dalle opzioni nel menu a discesa. Puoi scegliere tra stili di bordi predefiniti o personalizzare il tuo bordo.
+5. Una volta selezionato lo stile di bordo desiderato, il bordo sarà applicato all'intervallo selezionato di celle.
+
+## **Imposta il bordo dell'intervallo usando Aspose.Cells**
+Questo esempio mostra come:
+
+1. Crea un libro di lavoro.
+2. Aggiungi dati alle celle nel primo foglio di lavoro.
+3. Crea un [**Range**](https://reference.aspose.com/cells/go-cpp/range).
+ 4. Imposta il bordo interno dell'intervallo.
+ 5. Imposta il bordo esterno dell'intervallo.
+
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetBorder.go" >}}

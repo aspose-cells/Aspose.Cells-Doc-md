@@ -53,3 +53,4 @@ Hier ist die Konsolenausgabe des obigen Beispielscodes nach dem Laden der [Quell
 Is 567 correct Password to modify: False  
 Is 5678 correct Password to modify: True  
 {{< /highlight >}}  
+{{< app/cells/assistant language="nodejs-cpp" >}}

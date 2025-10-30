@@ -52,3 +52,4 @@ Aspose.Cells per Node.js offre numerose proprietà e metodi per regolare le impo
 ## **Conclusioni**
 Gestire le impostazioni del workbook in Aspose.Cells for Node.js via C++ è semplice e offre numerose opzioni per personalizzare il comportamento dei file Excel. Utilizzando le impostazioni disponibili, puoi adattare il workbook alle tue esigenze specifiche.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

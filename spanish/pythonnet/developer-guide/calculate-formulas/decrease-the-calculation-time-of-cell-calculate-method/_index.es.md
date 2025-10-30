@@ -70,3 +70,4 @@ La salida típica al ejecutar el código optimizado con el archivo de muestra mu
 Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

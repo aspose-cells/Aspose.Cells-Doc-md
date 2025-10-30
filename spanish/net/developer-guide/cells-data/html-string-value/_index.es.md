@@ -4,8 +4,8 @@ linktitle: Valor de cadena HTML
 type: docs
 weight: 50
 url: /es/net/adding-html-rich-text-inside-the-cell/
-description: Aprenda cómo agregar texto enriquecido HTML dentro de la celda a través de la API Aspose.Cells for .NET.
-keywords: Agregar texto enriquecido HTML dentro de la celda, Definir texto enriquecido HTML dentro de la celda, Agregar texto enriquecido HTML en la celda
+description: Aprende cómo agregar texto enriquecido HTML dentro de la celda y múltiples estilos dentro de una sola celda a través de la API Aspose.Cells for .NET.
+keywords: Agregar texto enriquecido HTML dentro de la celda, configurar texto enriquecido HTML dentro de la celda, múltiples estilos en una sola celda, agregar texto enriquecido HTML en la celda
 ---
 
 {{% alert color="primary" %}}

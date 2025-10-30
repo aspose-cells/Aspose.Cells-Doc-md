@@ -191,3 +191,4 @@ Con base en los hechos mencionados anteriormente, los siguientes son los posible
 1. Se deben recorrer un gran número de celdas.  
 1. Solo se deben recorrer celdas/filas/columnas inicializadas.  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

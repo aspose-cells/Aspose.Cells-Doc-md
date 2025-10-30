@@ -32,3 +32,4 @@ In der generierten Datei können Sie auf die Bildlaufleiste zugreifen, während 
 ```
 
 Sie können versuchen, die Zahl "10" in Zelle "Sheet1!$H$20" zu ändern in "15", und das dynamische Diagramm zählt die neuesten 15 Datenreihen. Jetzt haben wir erfolgreich ein dynamisches Scroll-Diagramm mit Aspose.Cells für Python via .NET erstellt.
+{{< app/cells/assistant language="python-net" >}}

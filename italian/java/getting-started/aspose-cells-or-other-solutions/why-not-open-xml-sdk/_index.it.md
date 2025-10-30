@@ -21,7 +21,7 @@ Aspose.Cells è una libreria di classi che consente all'applicazione di svolgere
 
 
 ## **Confronta Open XML SDK e Aspose.Cells**
-La seguente tabella confronta le funzionalità di Open XML SDK e Aspose.Cells.
+Il seguente elenco confronta le funzionalità di Open XML SDK e Aspose.Cells. 
 
 |**Funzionalità o Categoria di funzionalità**|**Open XML SDK**|**Aspose.Cells**|
 | :- | :- | :- |

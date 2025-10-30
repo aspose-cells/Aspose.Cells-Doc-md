@@ -26,3 +26,4 @@ Para aplicar un formato a un gran rango de celdas en una hoja de cálculo:
 Debido a que el enfoque [**Cell.get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style)/[**Cell.set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) utiliza mucha menos memoria y es eficiente, la propiedad Cell.Style más antigua que consumía mucha memoria innecesaria, se eliminó con el lanzamiento de Aspose.Cells 7.1.0.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

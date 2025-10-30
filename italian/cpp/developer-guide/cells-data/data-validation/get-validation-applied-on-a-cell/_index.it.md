@@ -62,3 +62,4 @@ int main()
 ## Articoli correlati
 
 - [Convalida Dati](/cells/it/cpp/data-validation/)
+{{< app/cells/assistant language="cpp" >}}

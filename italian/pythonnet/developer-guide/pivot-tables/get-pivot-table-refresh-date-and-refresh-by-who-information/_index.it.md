@@ -21,3 +21,4 @@ Aspose.Cells per Python via .NET ora supporta il recupero della data di aggiorna
 **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetPivotTableRefreshDate-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

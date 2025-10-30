@@ -43,3 +43,4 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 Wenn die Tabelle Formeln enthält, ist es am besten, kurz vor dem Rendern in PDF [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) aufzurufen. Dies stellt sicher, dass formelabhängige Werte neu berechnet werden und die korrekten Werte in der Ausgabedatei angezeigt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

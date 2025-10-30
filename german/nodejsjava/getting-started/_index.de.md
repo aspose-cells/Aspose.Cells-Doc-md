@@ -24,7 +24,7 @@ Zum Installieren und Verwenden von Aspose.Cells für Node.js via Java aus einem 
 ### **Linux:**
 - Laden Sie [Node.js](https://nodejs.org/en/download/) herunter und installieren Sie es.
 - Installieren Sie Oracle JDK (1.7 oder 1.8) für Linux und konfigurieren Sie die Umgebungsvariable JAVA_HOME.
-- Installieren Sie Python 2.x
+- Installieren Sie Python 3.x
 - Installieren Sie die [node-java](https://github.com/joeferner/node-java) bridge. Sie können die folgenden Befehle im Terminal ausführen: 
 
 
@@ -64,11 +64,12 @@ console.log("hello world");
 ### **Windows:**
 - Oracle JDK8 installieren und die Umgebungsvariable JAVA_HOME konfigurieren.
 - Node.js installieren und node.exe zum PATH hinzufügen.
+- Installieren Sie Python und fügen Sie es dem PATH hinzu.
 - Node-gyp installieren.
-- Windows Build Tools installieren.
-- [Node-Java Bridge](https://www.npmjs.com/package/java) installieren und die folgenden Befehle als Administrator @ Befehlszeile ausführen:
+- Installieren Sie [node-java bridge](https://www.npmjs.com/package/java).
+- Installieren Sie aspose.cells (ODER: Laden Sie "Aspose.Cells für Node.js via Java" herunter und extrahieren Sie es nach "aspose.cells.js.java/node_modules").
 
-
+Führen Sie die folgenden Befehle @ Eingabeaufforderung als Administrator aus (**Stellen Sie sicher, dass Java, Node.js, Python konfiguriert sind**):
 
 {{< highlight java >}}
 
@@ -78,13 +79,12 @@ console.log("hello world");
 
 \> npm install -g node-gyp
 
-\> npm install --global --production windows-build-tools
-
 \> npm install java
+
+\> npm install aspose.cells
 
 {{< /highlight >}}
 
-- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in den Ordner "aspose.cells.js.java/node_modules".
 - Erstellen Sie im Ordner "aspose.cells.js.java" eine Datei namens **hello.js** mit folgendem Beispielcode:
 
 {{< highlight java >}}
@@ -133,7 +133,7 @@ console.log("hello world");
 
 
 
-- Python 2.x installieren (falls nicht installiert).
+- Installieren Sie Python 3.x (falls noch nicht installiert).
 - Node-Java Bridge installieren. Sie können die folgenden Befehle @ Terminal ausführen:
 
 `         `$ mkdir aspose.cells.js.java

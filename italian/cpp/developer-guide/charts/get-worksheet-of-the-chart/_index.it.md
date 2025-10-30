@@ -59,3 +59,4 @@ Sheet Name: Portfolio
 Chart's Sheet Name: Portfolio
 
 {{< /highlight >}}
+{{< app/cells/assistant language="cpp" >}}

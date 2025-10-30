@@ -90,3 +90,4 @@ Gli sviluppatori possono applicare l'effetto apice impostando il metodo [**setIs
 - [Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro](/cells/it/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

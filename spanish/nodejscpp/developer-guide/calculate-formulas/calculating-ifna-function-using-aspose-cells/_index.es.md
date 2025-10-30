@@ -58,3 +58,4 @@ Aquí está la salida en consola del código de muestra anterior.
 
 Orange
 {{< /highlight >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

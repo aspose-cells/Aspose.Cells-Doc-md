@@ -32,3 +32,4 @@ Html5:
 <div Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">This is some text.</div>
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

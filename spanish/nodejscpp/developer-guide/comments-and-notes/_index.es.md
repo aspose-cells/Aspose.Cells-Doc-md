@@ -144,3 +144,4 @@ workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx)
 - [Cómo configurar el fondo del comentario](/cells/es/nodejs-cpp/how-to-set-comment-background/)
 - [Comentarios enhebrados](/cells/es/nodejs-cpp/threaded-comments/)
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

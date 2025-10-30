@@ -121,3 +121,4 @@ int main()
 - [Eliminar rebanador](/cells/es/cpp/removing-slicer/)
 - [Renderización de rebanador](/cells/es/cpp/rendering-slicer/)
 - [Actualización de rebanador](/cells/es/cpp/updating-slicer/)
+{{< app/cells/assistant language="cpp" >}}

@@ -616,3 +616,4 @@ int main()
 - [Convertir Excel a CSV, TSV y Txt](/cells/es/cpp/convert-excel-to-csv-tsv-and-txt/)
 - [Seguimiento del progreso de conversión de documentos](/cells/es/cpp/track-document-conversion-progress/)
 - [Convertir CSV, TSV y TXT a Excel](/cells/es/cpp/convert-csv-tsv-and-txt-to-excel/)
+{{< app/cells/assistant language="cpp" >}}

@@ -12,3 +12,4 @@ description: Aprende sobre los formatos de fuente compatibles en Aspose.Cells fo
 |**TTF**|Fuentes TrueType|
 |**TTC**|Colección de Fuentes TrueType|
 |**OTF**|Fuentes OpenType|
+{{< app/cells/assistant language="cpp" >}}

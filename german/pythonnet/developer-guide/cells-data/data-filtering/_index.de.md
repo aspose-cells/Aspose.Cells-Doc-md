@@ -157,3 +157,4 @@ Excel bietet benutzerdefinierte Filter wie das Filtern von Zeilen, die mit einem
 ## **Erweiterte Themen**
 - [Erweiterten Filter von Microsoft Excel anwenden, um Datensätze anhand komplexer Kriterien anzuzeigen](/cells/de/python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Alle versteckten Zeilenindizes nach Aktualisierung des AutoFilters abrufen](/cells/de/python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+{{< app/cells/assistant language="python-net" >}}

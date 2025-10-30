@@ -19,3 +19,4 @@ Dopo aver eseguito il codice qui sotto, vedrai il grafico TreeMap come mostrato 
 Il seguente codice di esempio carica il [file Excel di esempio](treemap.xlsx) e genera il [file Excel di output](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-treemap-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

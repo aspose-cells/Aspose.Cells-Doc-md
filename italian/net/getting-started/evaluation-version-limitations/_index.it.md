@@ -37,7 +37,7 @@ Questo foglio di lavoro verrà sempre mostrato come il foglio di lavoro attivo. 
 <br>
 
 ### **3a Limitazione: Testo semplice con informazioni di valutazione**
-Nel file di testo semplice in uscita di Aspose.Cells, delle informazioni di valutazione verranno aggiunte alla fine del documento.
+Nel file di testo semplice di uscita di Aspose.Cells, verrà aggiunta alla fine del documento un'informazione di valutazione. Quando si salva un file in formato testo semplice (come CSV e TSV), verrà esportato solo il contenuto del primo foglio.
 <br>
 <image src="2.png" width="70%" />
 <br>

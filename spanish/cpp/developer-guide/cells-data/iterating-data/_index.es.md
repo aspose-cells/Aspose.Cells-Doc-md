@@ -260,3 +260,4 @@ Con base en los hechos mencionados anteriormente, los siguientes son los posible
 1. Se requiere acceso de solo lectura a la colección de celdas, es decir; el requisito es solo inspeccionar las celdas.
 1. Se deben recorrer un gran número de celdas.
 1. Solo se deben recorrer celdas/filas/columnas inicializadas.
+{{< app/cells/assistant language="cpp" >}}

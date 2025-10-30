@@ -16,3 +16,4 @@ Se adjuntan los archivos de Excel de origen y salida para referencia.
 
 [Archivo de salida](96928092.xls)
 
+{{< app/cells/assistant language="python-net" >}}

@@ -67,3 +67,4 @@ Es ist möglich, Hyperlinks zu externen Excel-Dateien hinzuzufügen, indem Sie d
 - [Hyperlinks im Arbeitsblatt bearbeiten](/cells/de/python-net/editing-hyperlinks-of-worksheet/)
 - [Hyperlinks im Bereich abrufen](/cells/de/python-net/get-hyperlinks-in-range/)
 
+{{< app/cells/assistant language="python-net" >}}

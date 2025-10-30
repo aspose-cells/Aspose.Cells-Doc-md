@@ -88,3 +88,4 @@ Verwende diese essenziellen API-Komponenten:
 {{% alert color="note" %}} 
 **API-Unterschiedsnotiz**: In Python.NET verwenden boolesche Eigenschaften snake_case-Namensgebung (`is_font_substitution_char_granularity`) anstelle des in .NET verwendeten PascalCase.
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

@@ -68,3 +68,4 @@ workbook.save("Book1.xlsx");
 - [Arbeitsblatt entsperren](/cells/de/nodejs-cpp/unprotect-a-worksheet/)  
 - [Überprüfen Sie das verwendete Kennwort zum Schutz des Arbeitsblatts](/cells/de/nodejs-cpp/verify-password-used-to-protect-the-worksheet/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

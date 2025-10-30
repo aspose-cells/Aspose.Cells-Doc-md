@@ -238,3 +238,4 @@ Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.calcula
 - [Guardar hojas de cálculo especificadas en PDF](/cells/es/nodejs-cpp/save-specified-worksheets-to-pdf/)
 - [Documentos PDF seguros](/cells/es/nodejs-cpp/secure-pdf-documents/)
 - [Especificar cómo cruzar cadenas en el PDF de salida e imagen](/cells/es/nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

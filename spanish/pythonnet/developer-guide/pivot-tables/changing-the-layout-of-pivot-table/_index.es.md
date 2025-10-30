@@ -22,3 +22,4 @@ La biblioteca Aspose.Cells para Python también proporciona los métodos [**Pivo
 El siguiente código de ejemplo muestra primero la Tabla Dinámica en **Forma compacta**, luego la muestra en **Forma de esquema** y por último muestra la Tabla Dinámica en **Forma tabular**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+{{< app/cells/assistant language="python-net" >}}

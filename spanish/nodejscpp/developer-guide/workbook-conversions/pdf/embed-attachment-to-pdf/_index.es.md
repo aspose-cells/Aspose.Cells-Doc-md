@@ -32,3 +32,4 @@ wb.save("output.pdf", pdfSaveOptions);
 
 ![embedded-attachment.png](embedded-attachment.png)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -53,3 +53,4 @@ Eseguendo il codice di esempio sottostante si cambia il dato di origine della ta
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTable-ChangeSourceData-1.js" >}}
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

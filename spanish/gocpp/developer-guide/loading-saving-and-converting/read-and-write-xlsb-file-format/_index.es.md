@@ -15,4 +15,4 @@ El siguiente código de ejemplo carga el [archivo XLSB de origen](23166992.xlsb)
 
 ## **Código de muestra**
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}
+{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-LoadingSavingAndConverting-ReadAndWriteXLSBFileFormat.go" >}}

@@ -3,8 +3,8 @@ title: Come Formattare il Testo in una Cella
 type: docs
 weight: 130
 url: /it/net/how-to-format-text-in-cell/
-description: Scopri come formattare il testo in una cella con Aspose.Cells.
-keywords: formattare il testo della cella, formattare caratteri parziali della cella, come aggiungere più formattazioni al testo della cella, evidenziare parte della cella, formattare parte della cella, formattare testo nelle celle, formattare testo nella cella.
+description: Apprendere come formattare il testo in una cella e più stili all interno di una singola cella con Aspose.Cells.
+keywords: formattare il testo di una cella, formattare caratteri parziali di una cella, come aggiungere più formattazioni al testo di una cella, evidenziare parte della cella, formattare parte della cella, più stili in una singola cella, formattare il testo nelle celle, formattare il testo in una cella.
 ---
 
 ## **Possibili Scenari di Utilizzo**

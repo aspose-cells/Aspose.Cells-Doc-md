@@ -28,3 +28,4 @@ Los siguientes ejemplos de código muestran cómo aplicar superíndice y subínd
 ### Código Node.js para aplicar efecto de subíndice en texto
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

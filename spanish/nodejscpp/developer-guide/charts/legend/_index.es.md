@@ -71,3 +71,4 @@ workbook.save("chart_legend.xlsx");
 
 ## **Temas avanzados**
 - [Establecer el texto de relleno de entrada de leyenda del gráfico a ninguno usando Aspose.Cells](/cells/es/nodejs-cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

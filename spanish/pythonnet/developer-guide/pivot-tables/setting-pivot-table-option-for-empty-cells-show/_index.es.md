@@ -31,3 +31,4 @@ Aspose.Cells para Python via .NET proporciona las propiedades [**PivotTable.disp
 ## Artículos relacionados
 
 - [Dar formato a la tabla dinámica](/cells/es/net/formatting-pivot-table/)
+{{< app/cells/assistant language="python-net" >}}

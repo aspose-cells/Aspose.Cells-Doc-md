@@ -12,3 +12,4 @@ description: Lernen Sie die unterstützten Schriftartenformate in Aspose.Cells f
 |**TTF**|TrueType-Schriftarten|
 |**TTC**|TrueType-Sammlung|
 |**OTF**|OpenType-Schriften|
+{{< app/cells/assistant language="cpp" >}}

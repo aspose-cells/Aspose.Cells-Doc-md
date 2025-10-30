@@ -16,3 +16,4 @@ Manchmal müssen Bilder von bedingten Formatierungs-Datenbalken generiert werden
 Der folgende Beispielcode generiert das DataBar-Bild der Zelle C1. Zuerst greift er auf das Formatbedingungsobjekt der Zelle zu, und dann greift er von diesem Objekt aus auf das [**DataBar**](https://reference.aspose.com/cells/python-net/aspose.cells/databar)-Objekt zu und verwendet dessen [**to_image()**](https://reference.aspose.com/cells/python-net/aspose.cells/databar/to_image)-Methode, um das Bild der Zelle zu generieren. Schließlich speichert er das Bild auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-GenerateDatabarImage-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

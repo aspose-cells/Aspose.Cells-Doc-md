@@ -24,3 +24,4 @@ Bitte sehen Sie sich den folgenden Beispielcode an, um zu erfahren, wie PDF-Lese
 Wenn Ihre Arbeitsmappe Formeln enthält, ist es am besten, [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) kurz vor dem Rendern der Arbeitsmappe im PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte aktualisiert und im PDF-Format korrekt dargestellt werden.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

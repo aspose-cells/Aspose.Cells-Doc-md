@@ -51,3 +51,4 @@ Um die Trennung des Arbeitsblatts zu entfernen, klicken Sie einfach erneut auf d
 Aspose.Cells für Python via .NET bietet eine [**Worksheet.remove_split**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/remove_split/) Methode, um die Aufteilungseinstellung zu entfernen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-Remove-Split.py" >}}
+{{< app/cells/assistant language="python-net" >}}

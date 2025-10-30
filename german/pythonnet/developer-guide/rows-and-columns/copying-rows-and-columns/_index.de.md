@@ -33,7 +33,7 @@ Wenn Sie auf **Einfügen** in der **Standard**-Symbolleiste klicken oder **STRG*
 1. Klicken Sie auf der Registerkarte Start auf den Pfeil neben **Einfügen**, und wählen Sie dann **Inhalt einfügen** aus.
 1. Wählen Sie die **Optionen**, die Sie möchten.
 
-## **Wie man Zeilen und Spalten mit der Verwendung von Aspose.Cells for .NET kopiert**
+## **So kopieren Sie Zeilen und Spalten mit Aspose.Cells für Python via .NET**
 
 ## **Wie man einzelne Zeilen kopiert**
 
@@ -98,3 +98,4 @@ Aspose.Cells bietet jetzt [**PasteOptions**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

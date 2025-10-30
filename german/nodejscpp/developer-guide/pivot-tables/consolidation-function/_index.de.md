@@ -37,3 +37,4 @@ Der folgende Code wendet die **Durchschnitt**-Konsolidierungsfunktion auf das er
 Die DISTINCT_COUNT-Konsolidierungsfunktion wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

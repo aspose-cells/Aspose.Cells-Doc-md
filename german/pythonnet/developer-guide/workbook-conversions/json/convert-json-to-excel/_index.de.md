@@ -27,3 +27,4 @@ Das folgende Codebeispiel, das die Klasse JsonLoadOptions verwendet, um zusätzl
 Das folgende Codebeispiel zeigt, wie ein JSON-String in ein Excel-Arbeitsbuch importiert wird. Bei der Importierung von JSON können Sie auch den Ort des Layouts angeben. Bitte sehen Sie sich den Code an, um den JSON-String in die vom Code generierte xlsx-Datei zu konvertieren.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}
+{{< app/cells/assistant language="python-net" >}}

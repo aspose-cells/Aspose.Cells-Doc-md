@@ -142,3 +142,4 @@ int main() {
 
 ## **Conclusioni**
 Aspose.Cells for C++ fornisce un insieme completo di strumenti per la gestione di workbook e fogli di lavoro. Che tu abbia bisogno di creare un nuovo workbook, aprirne uno esistente o manipolare i fogli di lavoro, Aspose.Cells rende semplice lavorare con i file Excel programmaticamente.
+{{< app/cells/assistant language="cpp" >}}

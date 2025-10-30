@@ -34,3 +34,4 @@ options.setPresentationPreference(true);
 // Save the Excel file to HTML with specified option
 workbook.save(path.join(dataDir, "outPresentationlayout1.out.html"), options);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

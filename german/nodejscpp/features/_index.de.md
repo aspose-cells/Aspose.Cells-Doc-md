@@ -1,7 +1,7 @@
 ---
 title: Funktionen
 type: docs
-weight: 5
+weight: 10
 url: /de/nodejs-cpp/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via C++ Funktionen."
@@ -99,3 +99,4 @@ Mit Aspose.Cells können Sie Seiteneinrichtungsoptionen für Arbeitsblätter imp
 |Legen Sie den Druckbereich fest, definieren Sie Drucktitel oder schalten Sie Gitterlinien usw. ein.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

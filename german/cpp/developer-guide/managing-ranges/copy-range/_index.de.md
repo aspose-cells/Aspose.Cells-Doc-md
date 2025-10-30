@@ -166,3 +166,4 @@ int main()
 
 ## **Erweiterte Themen**
 - [Zeilenhöhen des Quellbereichs in den Zielbereich kopieren](/cells/de/cpp/copy-row-heights-of-source-range-to-destination-range/)
+{{< app/cells/assistant language="cpp" >}}

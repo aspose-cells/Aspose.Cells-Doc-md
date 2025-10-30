@@ -108,3 +108,4 @@ Hier ist ein Codebeispiel, das diese Schritte zeigt:
 
 Das Formatieren von Zahlen in spezielle Formate in Aspose.Cells for Node.js via C++ beinhaltet das Setzen des benutzerdefinierten Zahlenformats eines Zellenstils. Damit sind vielfältige Gestaltungsmöglichkeiten verbunden, um Daten genau so anzuzeigen, wie Sie es benötigen. Denken Sie daran, dass die Schlüssel zu benutzerdefinierten Formaten die Format-String sind, die vorgeben, wie die Zahl dargestellt wird.
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

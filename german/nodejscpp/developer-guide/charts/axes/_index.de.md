@@ -81,3 +81,4 @@ workbook.save(filePath);
 - [Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms](/cells/de/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
 - [Wie man die Kategorieachse im Excel-Diagramm einstellt](/cells/de/nodejs-cpp/how-to-set-category-axis/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

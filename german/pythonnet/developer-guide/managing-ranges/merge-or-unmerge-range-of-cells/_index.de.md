@@ -17,3 +17,4 @@ Mit Aspose.Cells for Python via .NET können Sie einen Bereich von Zellen zusamm
 Der folgende Beispielcode erstellt zunächst einen Bereich - A1:D4 - und fusioniert dann die Zellen im Bereich in eine einzelne Zelle mit der Methode [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#). Ebenso können Sie Zellen aufteilen, indem Sie einen Bereich erstellen und die Methode [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#) aufrufen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

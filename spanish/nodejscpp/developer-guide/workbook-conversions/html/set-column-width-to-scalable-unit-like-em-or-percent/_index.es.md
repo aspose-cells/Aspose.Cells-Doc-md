@@ -37,3 +37,4 @@ options.setExportImagesAsBase64(true);
 const outputFilePath = path.join(dataDir, "outsampleForScalableColumns.html");
 workbook.save(outputFilePath, options);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

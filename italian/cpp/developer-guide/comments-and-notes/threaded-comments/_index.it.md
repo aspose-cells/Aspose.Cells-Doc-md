@@ -322,3 +322,4 @@ int main()
 Si noti che rimuovendo un commento con Aspose.Cells, l'autore non viene automaticamente rimosso. Se è necessario rimuovere anche l'autore, utilizzare il metodo RemoveAt della classe [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/cpp/aspose.cells/threadedcommentauthorcollection/) come mostrato nell'esempio sopra.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

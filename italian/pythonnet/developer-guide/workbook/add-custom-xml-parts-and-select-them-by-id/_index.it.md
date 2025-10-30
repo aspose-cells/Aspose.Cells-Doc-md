@@ -25,3 +25,4 @@ Il seguente codice di esempio aggiunge prima quattro parti XML personalizzate ut
 
 {{< /highlight >}}
 
+{{< app/cells/assistant language="python-net" >}}

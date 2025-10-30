@@ -22,3 +22,4 @@ Die Aspose.Cells for Node.js via C++-Bibliothek bietet außerdem die Methoden [*
 Der folgende Beispielcode zeigt zunächst die Pivot-Tabelle im **kompakten Formular**, dann zeigt sie die Pivot-Tabelle im **Gliederungsformular** und zuletzt zeigt sie die Pivot-Tabelle im **tabellarischen Formular**.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ChangingLayoutOfPivotTable.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

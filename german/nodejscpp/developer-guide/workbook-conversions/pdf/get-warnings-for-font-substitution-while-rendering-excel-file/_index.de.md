@@ -74,3 +74,4 @@ Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.calcu
 
 {{% /alert %}}  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

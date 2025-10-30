@@ -20,3 +20,4 @@ Si prega di vedere il seguente codice, carica il [file Excel di esempio](6733847
 ## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-FormattingSlicer.py" >}}
+{{< app/cells/assistant language="python-net" >}}

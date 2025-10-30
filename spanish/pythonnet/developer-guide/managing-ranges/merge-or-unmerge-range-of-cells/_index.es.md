@@ -17,3 +17,4 @@ Puede usar Aspose.Cells para Python via .NET para fusionar o dividir un rango de
 El código de ejemplo primero crea un rango - A1:D4 - luego combina las celdas en el rango en una sola celda usando el método [**Range.merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/merge/#). Del mismo modo, puede dividir celdas creando un rango y llamando al método [**Range.un_merge()**](https://reference.aspose.com/cells/python-net/aspose.cells/range/un_merge/#).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-MergeUnmergeRangeOfCells-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

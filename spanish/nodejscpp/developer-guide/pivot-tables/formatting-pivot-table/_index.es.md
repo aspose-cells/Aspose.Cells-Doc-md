@@ -65,3 +65,4 @@ La clase [**PivotFieldCollection**](https://reference.aspose.com/cells/nodejs-cp
 El ejemplo de código a continuación muestra cómo borrar todos los campos de tabla dinámica en un área de datos.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "PivotTables-ClearPivotFields-1.js" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

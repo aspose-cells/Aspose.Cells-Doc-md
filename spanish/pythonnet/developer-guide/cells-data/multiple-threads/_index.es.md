@@ -84,3 +84,4 @@ if __name__ == "__main__":
     test_multi_threading_read()
 ```
 
+{{< app/cells/assistant language="python-net" >}}

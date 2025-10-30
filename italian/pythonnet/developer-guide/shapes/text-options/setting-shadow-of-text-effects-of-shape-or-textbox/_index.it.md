@@ -22,3 +22,4 @@ url: /it/python-net/setting-shadow-of-text-effects-of-shape-or-textbox/
 Il seguente frammento di codice dimostra l'uso della proprietà [**FontSetting.text_options.shadow.preset_type**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shadoweffect/preset_type) per impostare l'ombra degli effetti di testo della forma o della casella di testo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-Text-Options-SettingTextEffectsShadowOfShapeOrTextbox-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -187,3 +187,4 @@ Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF dar
 ## **Erweiterte Themen**  
 - [Diagramm in PDF umwandeln](/cells/de/nodejs-cpp/chart-to-pdf/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

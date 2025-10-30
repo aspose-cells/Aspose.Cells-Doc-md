@@ -19,3 +19,4 @@ Il seguente esempio di codice dimostra l'uso del metodo [**Cell.getValidation()*
 
 
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

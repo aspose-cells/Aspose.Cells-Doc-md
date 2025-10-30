@@ -73,3 +73,4 @@ int main()
 ```
 
 Die [Ausgabedatei](102662195.xlsx), die vom obigen Code generiert wurde, ist als Referenz angehängt.
+{{< app/cells/assistant language="cpp" >}}

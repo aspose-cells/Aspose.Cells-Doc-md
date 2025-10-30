@@ -23,3 +23,4 @@ Wir verwenden oft Farben statt Schwarz-Weiß, um steigende und fallende Preise a
 Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](Open-High-Low-Close.xlsx) und generiert die [Ausgabedatei Excel](out.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-create-open-high-low-close-stock-chart.py" >}}
+{{< app/cells/assistant language="python-net" >}}

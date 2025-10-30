@@ -64,3 +64,4 @@ Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**CalculateFormula**](htt
 
 {{% /alert %}}
 
+{{< app/cells/assistant language="cpp" >}}

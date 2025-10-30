@@ -19,3 +19,4 @@ I file excel di origine e di output utilizzati nello snippet di codice sono alle
 [File di origine](96928093.xlsx)
 
 [File di output](96928094.xlsx)
+{{< app/cells/assistant language="python-net" >}}

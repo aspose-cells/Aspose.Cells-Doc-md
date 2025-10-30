@@ -23,3 +23,4 @@ In diesem Artikel wird die Verwendung der Eigenschaft [**Shape.geometry.shape_ad
 Im folgenden Codebeispiel wird gezeigt, wie Anpassungswerte der Form geändert werden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -17,3 +17,4 @@ Bitte sehen Sie sich den folgenden Beispielscode an, der die Rohdaten des VBA-Ze
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "VBAProject-ExportVBACertificateToFile.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

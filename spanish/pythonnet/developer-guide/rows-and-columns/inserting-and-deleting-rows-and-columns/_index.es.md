@@ -76,3 +76,4 @@ Para eliminar múltiples filas de una hoja de cálculo, llama al método [**dele
 Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llama al método [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) de la colección [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells). El método [**delete_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/delete_column/#int) toma el índice de la columna a eliminar.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-InsertingAndDeleting-DeletingAColumn-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

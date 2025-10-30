@@ -45,3 +45,4 @@ El tipo de datos contenido en una celda también se puede verificar utilizando e
 También puedes usar los tipos de valor de celda predefinidos anteriores para comparar con el tipo de dato presente en cada celda.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

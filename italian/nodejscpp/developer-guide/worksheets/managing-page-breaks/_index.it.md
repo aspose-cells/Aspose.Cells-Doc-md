@@ -85,3 +85,4 @@ workbook.save(path.join(dataDir, "RemoveSpecificPageBreak_out.xls"));
 ## **Importante sapere**
 
 Quando imposti le proprietà **fitToPages** (cioè [**PageSetup.getFitToPagesTall()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesTall--) e [**PageSetup.getFitToPagesWide()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getFitToPagesWide--)) nelle impostazioni di configurazione della pagina, le impostazioni di interruzione di pagina sono influenzate, quindi, se stampi il foglio di lavoro, le impostazioni di interruzione di pagina non vengono considerate, anche se sono ancora impostate.
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -24,3 +24,4 @@ Por favor, consulta el siguiente código de ejemplo para saber cómo agregar mar
 Si tu hoja de cálculo tiene fórmulas, es mejor llamar a [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) justo antes de renderizar la hoja de cálculo en formato PDF. Haciendo esto garantizarás que los valores dependientes de las fórmulas se actualicen y se representen correctamente en PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

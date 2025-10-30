@@ -178,3 +178,4 @@ Ci sono alcuni tipi di grafico attualmente non supportati per il rendering. Tali
 Nel caso in cui si tenti di rendere i tipi di grafico non supportati in immagine o PDF, si potrebbe ottenere immagini di dimensioni 0 o PDF vuoti.
 
 {{% /alert %}}
+{{< app/cells/assistant language="cpp" >}}

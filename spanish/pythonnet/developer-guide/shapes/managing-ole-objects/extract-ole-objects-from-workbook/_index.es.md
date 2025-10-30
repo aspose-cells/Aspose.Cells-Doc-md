@@ -31,3 +31,4 @@ A continuación, extraiga los objetos OLE y guárdelos en el disco duro con sus 
 El código a continuación realiza el trabajo real de encontrar y extraer objetos OLE. Los objetos OLE (archivos DOC, XLS y PDF) se guardan en disco.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-ExtractOLEObjects-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

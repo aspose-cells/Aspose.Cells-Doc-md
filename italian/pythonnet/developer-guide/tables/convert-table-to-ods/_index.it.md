@@ -15,3 +15,4 @@ Il file ODS di output generato dal codice di esempio è allegato per il tuo rife
 
 [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save)
 
+{{< app/cells/assistant language="python-net" >}}

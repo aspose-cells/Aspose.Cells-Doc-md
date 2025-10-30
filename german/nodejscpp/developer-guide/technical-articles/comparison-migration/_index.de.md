@@ -85,3 +85,4 @@ Stellen Sie sicher, dass geeignete Test-Frameworks vorhanden sind. Da Node.js ei
 ## **Fazit**
 
 Die Migration von .NET zu Node.js lässt sich durch das Verständnis der Unterschiede in Syntax und Struktur vereinfachen. Mit Aspose.Cells for Node.js via C++ können Sie die Funktionalität Ihrer bestehenden .NET-Anwendungen replizieren und gleichzeitig die Stärken von JavaScript nutzen.
+{{< app/cells/assistant language="nodejs-cpp" >}}

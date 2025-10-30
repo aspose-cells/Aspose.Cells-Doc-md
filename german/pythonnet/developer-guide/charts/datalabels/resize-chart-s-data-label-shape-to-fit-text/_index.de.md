@@ -22,3 +22,4 @@ Diese Option kann über die Excel-Benutzeroberfläche ausgewählt werden, indem 
 Um die Excel-Funktion zum Anpassen der Datenbeschriftungsformen an den Text nachzuahmen, haben die Aspose.Cells für Python via .NET APIs die boolesche Eigenschaft [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) freigegeben. Das folgende Codebeispiel zeigt die einfache Verwendung dieser Eigenschaft [**DataLabels.is_resize_shape_to_fit_text**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ResizeChartDataLabelToFit-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

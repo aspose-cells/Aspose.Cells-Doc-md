@@ -20,3 +20,4 @@ El siguiente código de ejemplo asigna un formato de número personalizado invá
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-CheckCustomNumberFormat.js" >}}
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

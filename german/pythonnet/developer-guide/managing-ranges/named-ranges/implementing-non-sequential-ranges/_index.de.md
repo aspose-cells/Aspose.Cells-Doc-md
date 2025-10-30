@@ -16,3 +16,4 @@ Normalerweise sind benannte Bereiche in Zellen rechteckig und die Zellen sind ko
 Das unten stehende Codebeispiel zeigt, wie man einen benannten nicht zusammenhängenden Bereich mit Aspose.Cells für Python via .NET erstellt.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-NamedRanges-ImplementingNonSequencedRanges-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

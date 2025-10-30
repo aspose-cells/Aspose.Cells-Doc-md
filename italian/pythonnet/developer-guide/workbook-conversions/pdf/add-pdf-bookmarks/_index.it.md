@@ -24,3 +24,4 @@ Si prega di consultare il codice di esempio seguente per scoprire come aggiunger
 Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) poco prima di renderizzare il foglio di calcolo nel formato PDF. Così facendo, si garantisce che i valori dipendenti dalle formule vengano aggiornati e renderizzati correttamente nel PDF.
 
 {{% /alert %}}
+{{< app/cells/assistant language="python-net" >}}

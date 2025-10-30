@@ -50,3 +50,4 @@ workbook.save(outputFilePath);
 - [Aggiungi testo Word Art con stili incorporati](/cells/it/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [Bloccare WordArt Come Filigrana](/cells/it/nodejs-cpp/locking-wordart-watermark/)
 - [Imposta lo stile predefinito di WordArt al testo della forma](/cells/it/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)
+{{< app/cells/assistant language="nodejs-cpp" >}}

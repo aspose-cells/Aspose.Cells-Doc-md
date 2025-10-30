@@ -34,3 +34,4 @@ Sie können die Fehlerprüfungsoptionen verwenden, um Zahlen, die als Text gespe
 Der folgende Beispielcode zeigt, wie die Fehlerüberprüfung für Zahlen, die als Text gespeichert sind, für ein Arbeitsblatt in der Vorlage XLS mithilfe der Aspose.Cells für Python via .NET APIs deaktiviert wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ErrorCheckingOptions-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

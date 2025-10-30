@@ -194,3 +194,4 @@ int main()
 - [Bereich von Zellen in einem Arbeitsblatt verschieben](/cells/de/cpp/move-range-of-cells-in-a-worksheet/)
 - [Arbeitsbuch- und arbeitsblattübergreifende benannte Bereiche erstellen](/cells/de/cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Suchen und Ersetzen von Daten in einem Bereich](/cells/de/cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="cpp" >}}

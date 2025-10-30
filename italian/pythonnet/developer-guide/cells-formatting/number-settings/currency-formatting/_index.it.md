@@ -48,3 +48,4 @@ Per formattare i numeri come valuta in Aspose.Cells per Python .NET, puoi applic
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-Numbers-format-currency.py" >}}
 
+{{< app/cells/assistant language="python-net" >}}

@@ -40,3 +40,4 @@ b4.putValue("This Excel file has Strict Open XML Spreadsheet format.");
 wb.save("outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

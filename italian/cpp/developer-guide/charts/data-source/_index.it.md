@@ -151,3 +151,4 @@ int main()
 - [Creazione di grafici dinamici](/cells/it/cpp/create-dynamic-charts/)
 - [Modo semplice per l'impostazione del grafico utilizzando il metodo Chart.SetChartDataRange](/cells/it/cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
 - [Trova il tipo di valori X e Y dei punti nella serie del grafico](/cells/it/cpp/find-type-of-x-and-y-values-of-points-in-chart-series/)
+{{< app/cells/assistant language="cpp" >}}

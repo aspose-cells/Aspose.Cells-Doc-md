@@ -26,3 +26,4 @@ En temas avanzados, te mostraremos cómo usar Aspose.Cells para crear gráficos 
 - [Crear Gráfico de desplazamiento dinámico usando Aspose.Cells](/cells/es/nodejs-cpp/create-dynamic-scrolling-chart/)  
 - [Crear Gráfico dinámico con lista desplegable usando Aspose.Cells](/cells/es/nodejs-cpp/create-dynamic-chart-with-dropdownlist/)  
 
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -26,3 +26,4 @@ Il seguente codice di esempio carica il [file di Excel di esempio](55541792.xlsx
 Is Smart Art Shape: True
 
 {{< /highlight >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -79,3 +79,4 @@ Mientras se trabaja en hojas de cálculo, los usuarios pueden agregar diferentes
 - [Poblar datos primero por fila luego por columna](/cells/es/python-net/populate-data-first-by-row-then-by-column/)
 - [Preservar el prefijo de comilla simple del valor de la celda o rango](/cells/es/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Acceder y actualizar partes de texto enriquecido de la celda](/cells/es/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

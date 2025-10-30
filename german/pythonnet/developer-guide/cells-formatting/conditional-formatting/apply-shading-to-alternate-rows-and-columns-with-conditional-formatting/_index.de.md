@@ -34,3 +34,4 @@ Die resultierende Tabelle wird in diesem Fall folgendermaßen aussehen.
 |![todo:image_alt_text](2.png)|
 | :- |
 
+{{< app/cells/assistant language="python-net" >}}

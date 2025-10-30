@@ -31,3 +31,4 @@ Proteger y desproteger el libro compartido.
 - [Detectar formato de archivo de archivos XML abierto de Office encriptados - Archivos OOXML](/cells/es/cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Cifrado de archivos de Excel](/cells/es/cpp/encrypting-excel-files/)
 - [Cómo detectar un formato de archivo y verificar si el archivo está encriptado](/cells/es/cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+{{< app/cells/assistant language="cpp" >}}

@@ -36,3 +36,4 @@ const book = new AsposeCells.Workbook(path.join(sourceDir, "sampleMacroEnabledWo
 // Save the output in pdf format
 book.save(outputDir + "OutputSampleMacroEnabledWorkbook.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```
+{{< app/cells/assistant language="nodejs-cpp" >}}

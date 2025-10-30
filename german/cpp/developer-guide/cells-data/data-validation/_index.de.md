@@ -698,3 +698,4 @@ Die Quell- und Ausgabedateien sind als Referenz angehängt.
 - [Zellvalidierung in ODS-Dateien erhalten](/cells/de/cpp/get-cell-validation-in-ods-files/)
 - [Validierungen auf einer Zelle abrufen](/cells/de/cpp/get-validation-applied-on-a-cell/)
 - [Überprüfen, ob Zellwert Datenvalidierungsregeln erfüllt](/cells/de/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+{{< app/cells/assistant language="cpp" >}}

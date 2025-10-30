@@ -1,5 +1,5 @@
 ---
-title: Actualizar al Componente Moderno Aspose.Cells
+title: Actualización de Aspose.Excel antiguo a Componente Moderno Aspose.Cells
 type: docs
 weight: 60
 url: /es/java/upgrade-to-modern-aspose-cells-component/

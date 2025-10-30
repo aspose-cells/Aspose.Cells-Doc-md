@@ -18,3 +18,4 @@ Aspose.Cells for Python via .NET admite guardar un archivo ODS (Hoja de cálculo
 El código de muestra a continuación crea un objeto de libro, agrega algún valor a la celda A1 en la primera hoja de cálculo y luego guarda el archivo ODS en las especificaciones ODF 1.1 y 1.2. Por defecto, el archivo ODS se guarda en la especificación ODF 1.2.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
+{{< app/cells/assistant language="python-net" >}}

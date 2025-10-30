@@ -64,3 +64,4 @@ Para desagrupar filas o columnas agrupadas, llama a los métodos [**ungroup_rows
 [**ungroup_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) tiene una sobrecarga que toma un tercer parámetro Booleano. Configurándolo en **true** eliminará toda la información agrupada. De lo contrario, solo se eliminará la información de grupo externa.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Grouping-UngroupingRowsAndColumns-1.py" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -11,3 +11,4 @@ El siguiente código de ejemplo muestra cómo agregar un hipervínculo dentro de
 ![todo:image_alt_text](add-hyperlinks-to-the-cells_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddHyperlinksToCells-new.cpp" >}}
+{{< app/cells/assistant language="cpp" >}}

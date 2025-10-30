@@ -79,3 +79,4 @@ Mentre si lavora sui fogli di lavoro, gli utenti possono aggiungere diversi tipi
 - [Popolare prima i dati per riga e poi per colonna](/cells/it/python-net/populate-data-first-by-row-then-by-column/)
 - [Conserva il prefisso apice singolo del valore della cella o dell'intervallo](/cells/it/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Accedere e aggiornare le porzioni di testo arricchito della cella](/cells/it/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
+{{< app/cells/assistant language="python-net" >}}

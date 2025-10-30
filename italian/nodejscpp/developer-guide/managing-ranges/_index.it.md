@@ -151,3 +151,4 @@ const A1C3 = src.getCurrentRegion();
 - [Sposta Intervallo di Celle in un Foglio di Lavoro](/cells/it/nodejs-cpp/move-range-of-cells-in-a-worksheet/)
 - [Crea Riferimenti con Nome a Livello di Cartella e Foglio di Lavoro](/cells/it/nodejs-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Cerca e Sostituisci Dati in un Intervallo](/cells/it/nodejs-cpp/search-and-replace-data-in-a-range/)
+{{< app/cells/assistant language="nodejs-cpp" >}}
