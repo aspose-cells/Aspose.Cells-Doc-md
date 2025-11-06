@@ -509,15 +509,15 @@ If you encounter a *404* on the JSON load request, verify that the file name is 
 | **C** – Editing a cell (server side update) | ![Cell Edit](./images/cell-edit.png) |
 | **D** – Downloading the modified file | ![Download Dialog](./images/download.png) |
 
-*(Place the corresponding PNG files under `./images/` in the documentation repository.)*
+ 
 
 ---
 
 ## 7. Additional Resources
 
 - **Aspose.Cells GridJs Java API Reference** – <https://reference.aspose.com/cells/java/com.aspose.gridjs>
-- **gridjs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
-- **Aspose.Cells License Activation** – <https://docs.aspose.com/cells/java/setting-license/>
+- **GridJs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
+- **Demo Source** – <https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/main/Examples.GridJs.Simple>
 - **Spring Boot Official Documentation** – <https://spring.io/projects/spring-boot>
 
 ---
