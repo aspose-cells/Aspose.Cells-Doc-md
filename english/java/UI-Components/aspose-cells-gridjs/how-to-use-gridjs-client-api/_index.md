@@ -132,7 +132,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
 	imageAddByUrlActionUrl: the add image from URL action  URL in the server side controller
 	imageCopyActionUrl: the copy image action  URL in the server side controller
 	zindex: the minimum zindex of the image in the canvas
-	loadingGif (optional): the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
+	loadingGif: the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
     for example: 
             const imageurl = "/GridJs2/imageurl";
             const imageuploadurl1 = "/GridJs2/AddImage";
