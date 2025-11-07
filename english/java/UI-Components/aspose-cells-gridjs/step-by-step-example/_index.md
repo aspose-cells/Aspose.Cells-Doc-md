@@ -516,6 +516,7 @@ If you encounter a *404* on the JSON load request, verify that the file name is 
 ## 7. Additional Resources
 
 - **Aspose.Cells GridJs Java API Reference** – <https://reference.aspose.com/cells/java/com.aspose.gridjs>
+- **Aspose.Cells GridJs Client API Reference** – <https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api/>
 - **GridJs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
 - **Demo Source** – <https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/main/Examples.GridJs.Simple>
 - **Spring Boot Official Documentation** – <https://spring.io/projects/spring-boot>

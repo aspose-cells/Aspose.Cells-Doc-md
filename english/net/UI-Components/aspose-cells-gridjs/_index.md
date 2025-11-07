@@ -10,6 +10,7 @@ url: /net/aspose-cells-gridjs/
 
 
 - [Basics of GridJs](/cells/net/aspose-cells-gridjs/basics/)
+- [Step By Step Example](/cells/net/aspose-cells-gridjs/step-by-step-example/)
 - [Working with GridJs Server Side](/cells/net/aspose-cells-gridjs/how-to-use-api/)
 - [Working with GridJs Client Side Script](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
 - [Working with GridJs Highlight Feature](/cells/net/aspose-cells-gridjs/how-to-use-highlight-api/)
