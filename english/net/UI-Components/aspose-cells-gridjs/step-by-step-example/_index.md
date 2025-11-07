@@ -384,7 +384,7 @@ If you encounter a **“FileCacheDirectory does not exist”** error, create the
 * **GridJs Server API** – <https://reference.aspose.com/cells/net/aspose.cells.gridjs>  
 * **GridJs Client API** – <https://docs.aspose.com/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/>
 * **GridJs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
-* **Source code for this demo** – <https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples.GridJs.Simple>  
+* **Source code for this demo** – <https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridJs.Simple>  
 
 
 ---
