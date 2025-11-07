@@ -7,8 +7,10 @@ description: Learn how to load an Excel workbook into a web page using Aspose.Ce
 keywords: GridJs,load spreadsheet,ASP.NET MVC,gridjs-spreadsheet,server side,client side,Excel,web UI
 aliases:
   - /net/aspose-cells-gridjs/how-to-load-spreadsheet/
-  - /net/aspose-cells-gridjs/guide/load-spreadsheet/
-  - /net/aspose-cells-gridjs/tutorial/load-spreadsheet/
+  - /net/aspose-cells-gridjs/gridjs-load-demo/
+  - /net/aspose-cells-gridjs/step-by-step-demo/
+  - /net/aspose-cells-gridjs/step-by-step-example/
+  - /net/aspose-cells-gridjs/gridjs-demo/
 ---
 
 # Load a Spreadsheet with GridJs
