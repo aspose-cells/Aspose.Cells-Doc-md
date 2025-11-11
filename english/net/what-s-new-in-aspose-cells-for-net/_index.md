@@ -8,6 +8,16 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.11
+* Support to copy pivot tables when copying a range
+* Support to export editable textboxes and shapes to pptx
+* Support to remove AutoFilter of the Table completely
+* Support custom properties of worksheet in xlsb files
+* Support duplicated worksheet names for "DetailSheetNewName" parameter of smart marker 
+* Support Style array as format setting when importing DataTable
+* Do not allow to delete partial table including the header
+* Do not allow to set name of one existing defined name to another ListObject
+
 ## Aspose.Cells for .NET 25.10
 * Provide option to determine how to output significant digits for numeric values
 * Support to process exported cell with custom ExportTableOptions when ExportAsString is true
