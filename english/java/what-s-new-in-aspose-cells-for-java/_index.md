@@ -8,6 +8,17 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 25.11
+* Support to copy pivot tables when copying a range
+* Support to export editable textboxes and shapes to pptx
+* Support to remove AutoFilter of the Table completely
+* Support to export JSON array as a single value with ArrayAsSingle parameter for smart marker
+* Support custom properties of worksheet in xlsb files
+* Support duplicated worksheet names for "DetailSheetNewName" parameter of smart marker 
+* Support Style array as format setting when importing DataTable
+* Add check to prevent deletion of partial table including the header
+* Add check to prevent setting the name of one existing defined name to another Table
+
 ## Aspose.Cells for Java 25.10
 * Provide option to determine how to output significant digits for numeric values
 * Support to process exported cell with custom ExportTableOptions when ExportAsString is true
