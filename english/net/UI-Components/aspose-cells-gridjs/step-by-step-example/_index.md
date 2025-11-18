@@ -46,7 +46,7 @@ cd GridJsDemo
 
 The generated folder structure looks like this:
 
-![MVC Project Structure](./images/mvc-project-structure.png)
+![MVC Project Structure](mvc-project-structure.png)
 
 > {{% alert color="primary" %}}
 > Ensure the project targets **net6.0** (the default for the template).  
@@ -390,7 +390,7 @@ function loadWithOption(jsondata) {
 3. Open a browser and navigate to **https://localhost:5001/GridJs/Index** (or the URL displayed in the console).  
    You should see the spreadsheet UI loaded with the content of **Sample.xlsx**.
 
-![Running Spreadsheet UI](./images/gridjs-ui.png)
+![Running Spreadsheet UI](gridjs-ui.png)
 
 ## Common Issues & Tips
 

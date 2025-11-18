@@ -42,7 +42,7 @@ All code snippets are complete, ready to compile, and can be run locally.
 5. Click **Generate**, unzip the archive, and open it in your IDE.
 
 > **Screenshot** – Spring Initializr configuration  
-> ![Spring Initializr Screenshot](./images/spring-initializr.png)
+> ![Spring Initializr Screenshot](spring-initializr.png)
 
 The generated project already contains the basic Spring Boot starter class.
 
@@ -504,10 +504,10 @@ If you encounter a *404* on the JSON load request, verify that the file name is 
 
 | Step | Screenshot |
 |------|------------|
-| **A** – Application home page with file input | ![Home Page](./images/	) |
-| **B** – Loaded workbook displayed in GridJs UI | ![Loaded Spreadsheet](./images/loaded-spreadsheet.png) |
-| **C** – Editing a cell (server side update) | ![Cell Edit](./images/cell-edit.png) |
-| **D** – Downloading the modified file | ![Download Dialog](./images/download.png) |
+| **A** – Application home page with file input | ![Home Page](	) |
+| **B** – Loaded workbook displayed in GridJs UI | ![Loaded Spreadsheet](loaded-spreadsheet.png) |
+| **C** – Editing a cell (server side update) | ![Cell Edit](cell-edit.png) |
+| **D** – Downloading the modified file | ![Download Dialog](download.png) |
 
  
 
