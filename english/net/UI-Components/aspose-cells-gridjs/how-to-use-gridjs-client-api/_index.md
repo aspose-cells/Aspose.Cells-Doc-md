@@ -42,26 +42,27 @@ the parameters for load options:
 
 | Parameter | Description | Default Value | Optional |
 | --- | --- | --- | --- |
-| `allowSelectTextInTextBoxInReadMode` | Whether to allow text selection in TextBox controls when in read mode.<br>The default value is false. | `false` | Yes |
-| `checkSyntax` | Whether to perform syntax checking & spell correction for user input for text content.<br>Works with setSyntaxCheckUrl.<br>The default value is false. | `false` | Yes |
-| `loadingGif` | The loading GIF URL when loading images/shapes.<br>The default value is content/img/updating.gif. | `content/img/updating.gif` | Yes |
-| `local` | Set localization info for menus & toolbars, supporting multiple languages.<br>Possible values include:<br>- `en, zh, es, pt, de, ru, nl` (for English, Chinese, Spanish, Portuguese, German, Russian, Dutch)<br>- `ar, fr, id, it, ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko, th, tr, vi, cht` (for Korean, Thai, Turkey, Vietnamese, Traditional Chinese) | `en` | Yes |
-| `mode` | Can be `read` or `edit`; `read` means a read-only spreadsheet; `edit` means the spreadsheet can be edited. | None | No |
-| `isCollaborative` | Whether to support collaborative mode . | `false` | Yes |
-| `searchHighlightColor` | The highlight background color for the search term.<br>The color must include an alpha channel for transparency. | `#dbe71338` | Yes |
-| `showCheckSyntaxButton` | Whether to show syntax checking & spell correction buttons in the toolbar.<br>The default value is false. | `false` | Yes |
-| `showContextmenu` | Whether to show the context menu on right-click on a cell.<br>The default value is true. | `true` | Yes |
+| `allowSelectTextInTextBoxInReadMode` | Whether to allow text selection in TextBox controls when in read-only mode.<br>The default value is `false`. | `false` | Yes |
+| `checkSyntax` | Whether to perform syntax checking and spell correction for user input in text content.<br>Works with `setSyntaxCheckUrl`.<br>The default value is `false`. | `false` | Yes |
+| `isCollaborative` | Whether to enable collaborative mode. | `false` | Yes |
+| `loadingGif` | The URL of the loading GIF to display when loading images or shapes.<br>The default value is `content/img/updating.gif`. | `content/img/updating.gif` | Yes |
+| `local` | Sets localization information for menus and toolbars, supporting multiple languages.<br>Possible values include:<br>- `en`, `zh`, `es`, `pt`, `de`, `ru`, `nl` (for English, Chinese, Spanish, Portuguese, German, Russian, Dutch)<br>- `ar`, `fr`, `id`, `it`, `ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko`, `th`, `tr`, `vi`, `cht` (for Korean, Thai, Turkish, Vietnamese, Traditional Chinese) | `en` | Yes |
+| `mode` | Can be `read` or `edit`; `read` means a read-only spreadsheet, and `edit` means the spreadsheet can be edited. | None | No |
+| `searchHighlightColor` | The highlight background color for search terms.<br>The color must include an alpha channel for transparency. | `#dbe71338` | Yes |
+| `showAutofilter` | Whether to show the AutoFilter button.<br>The default value is `true`. | `true` | Yes |
+| `showBottombarStats` | Whether to show the bottom bar statistics.<br>The default value is `true`. | `true` | Yes |
+| `showCheckSyntaxButton` | Whether to show syntax checking and spell correction buttons in the toolbar.<br>The default value is `false`. | `false` | Yes |
+| `showContextmenu` | Whether to show the context menu on right-clicking a cell.<br>The default value is `true`. | `true` | Yes |
 | `showFileName` | Whether to show the filename. | `true` | Yes |
-| `showFormulaExplain` | Whether to show formula explanations applied to this cell when the mouse moves over it.<br>Works together with setFormulaExplainUrl.<br>The default value is false. | `false` | Yes |
-| `showFormulaTip` | Whether to show the existing formula applied to this cell when the mouse moves over it.<br>The default value is false. | `false` | Yes |
-| `showNonEditableSymbolInCell` | Whether to show a client-side non-editable symbol in the cell.<br>If set to true, after clicking the right context menu "Disable editing", the selected area which disables edit will show the symbol.<br>The default value is false. | `false` | Yes |
+| `showFormulaExplain` | Whether to show formula explanations applied to this cell when the mouse hovers over it.<br>Works together with `setFormulaExplainUrl`.<br>The default value is `false`. | `false` | Yes |
+| `showFormulaTip` | Whether to show the existing formula applied to this cell when the mouse hovers over it.<br>The default value is `false`. | `false` | Yes |
+| `showNonEditableSymbolInCell` | Whether to show a client-side non-editable symbol in the cell.<br>If set to `true`, after clicking the "Disable editing" option in the context menu, the selected area that disables editing will show the symbol.<br>The default value is `false`. | `false` | Yes |
+| `showRowAppenderToolbar` | Whether to show the batch row appender toolbar.<br>The default value is `true`. | `true` | Yes |
 | `showToolbar` | Whether to show the toolbar. | `true` | Yes |
-| `updateMode` | Currently, only supports `server`. | `server` | No |
-| `updateUrl` | Set the server-side URL for update actions based on JSON. | None | No |
-| `view` | Set the view size for the sheet, e.g., `{width: () => 1000, height: ()=> 500}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
-| `token` | Set the authentication token. When the token is not null, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |    
-| `showBottombarStats` | Whether to show the bottom bar statistics.<br>The default value is true. | `true` | Yes |   
-| `showRowAppenderToolbar` | Whether to show the batch row appender toolbar.<br>The default value is true. | `true` | Yes |   
+| `token` | Sets the authentication token. When the token is not `null`, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |
+| `updateMode` | The update mode. Currently, only `server` is supported. | `server` | No |
+| `updateUrl` | The server-side URL for update actions based on JSON. | None | No |
+| `view` | Sets the view size for the sheet, e.g., `{width: () => 1000, height: () => 500}`.<br>The default is `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight}`. | `{width: () => document.documentElement.clientWidth, height: () => document.documentElement.clientHeight }` | Yes |
 
 -  load with json data
 ```javascript
@@ -132,7 +133,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
 	imageAddByUrlActionUrl: the add image from URL action  URL in the server side controller
 	imageCopyActionUrl: the copy image action  URL in the server side controller
 	zindex: the minimum zindex of the image in the canvas
-	loadingGif (optional): the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
+	loadingGif: the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
     for example: 
             const imageurl = "/GridJs2/imageurl";
             const imageuploadurl1 = "/GridJs2/AddImage";
@@ -629,6 +630,12 @@ xs.sheet.data.displayRight2Left
 
             }).on('columns-inserted', (ci, n) => {
                 console.log('columns-inserted :', ci, ",size", n);
+
+            }).on('vertical-scrolled', (ri) => {
+                console.log('vertical-scrolled,start row is:', ri);
+
+            }).on('horizontal-scrolled', (ci) => {
+                console.log('horizontal-scrolled,start column is:', ci);
 
             });
 ```
