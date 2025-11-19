@@ -211,10 +211,10 @@ The pre-defined chart types are:
 |Cylinder|Represents Cylinder Chart|
 |CylinderStacked|Represents Stacked Cylinder Chart|
 |Cylinder100PercentStacked|Represents 100% Stacked Cylinder Chart|
-|CylindericalBar|Represents Cylindrical Bar Chart.|
-|CylindericalBarStacked|Represents Stacked Cylindrical Bar Chart|
-|CylindericalBar100PercentStacked|Represents 100% Stacked Cylindrical Bar Chart|
-|CylindericalColumn3D|Represents 3D Cylindrical Column Chart|
+|CylindricalBar|Represents Cylindrical Bar Chart.|
+|CylindricalBarStacked|Represents Stacked Cylindrical Bar Chart|
+|CylindricalBar100PercentStacked|Represents 100% Stacked Cylindrical Bar Chart|
+|CylindricalColumn3D|Represents 3D Cylindrical Column Chart|
 |Cone|Represents Cone Chart|
 |ConeStacked|Represents Stacked Cone Chart|
 |Cone100PercentStacked|Represents 100% Stacked Cone Chart|
