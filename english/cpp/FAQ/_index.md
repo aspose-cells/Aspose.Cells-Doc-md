@@ -3,6 +3,8 @@ title: FAQ
 type: docs
 weight: 100
 url: /cpp/faq/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Not yet**

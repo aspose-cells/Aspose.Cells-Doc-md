@@ -3,6 +3,8 @@ title: Working with Table Hide Attributes
 type: docs
 weight: 160
 url: /reportingservices/working-with-table-hide-attributes/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 1. In Microsoft Excel, click **Modify Attribute** on the Aspose.Cells command bar.

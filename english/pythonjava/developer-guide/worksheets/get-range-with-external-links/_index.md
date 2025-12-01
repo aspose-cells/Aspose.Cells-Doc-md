@@ -3,6 +3,8 @@ title: Get Range with External Links
 type: docs
 weight: 60
 url: /python-java/get-range-with-external-links/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Range with External Links**

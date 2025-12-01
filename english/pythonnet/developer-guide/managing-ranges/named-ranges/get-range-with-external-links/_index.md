@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/get-range-with-external-links/
 description: This article shows how to Get Range with External Links by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Get Range with External Links.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Range with External Links**

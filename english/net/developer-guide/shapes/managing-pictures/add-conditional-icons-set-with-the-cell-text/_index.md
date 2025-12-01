@@ -3,6 +3,8 @@ title: Add Conditional Icons Set with the Cell Text
 type: docs
 weight: 160
 url: /net/add-conditional-icons-set-with-the-cell-text/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

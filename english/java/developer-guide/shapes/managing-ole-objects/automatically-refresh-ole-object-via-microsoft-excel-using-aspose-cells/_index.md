@@ -3,6 +3,8 @@ title: Automatically refresh OLE object via Microsoft Excel using Aspose.Cells
 type: docs
 weight: 730
 url: /java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

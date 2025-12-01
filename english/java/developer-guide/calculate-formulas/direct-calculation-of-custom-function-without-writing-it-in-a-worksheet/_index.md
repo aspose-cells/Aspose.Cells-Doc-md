@@ -3,6 +3,8 @@ title: Direct calculation of custom function without writing it in a worksheet
 type: docs
 weight: 650
 url: /java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

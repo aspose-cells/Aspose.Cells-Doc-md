@@ -6,6 +6,8 @@ keywords: Aspose.Cells, LowCode API, spreadsheet locker, lock spreadsheets
 type: docs
 weight: 200
 url: /net/lock-spreadsheets-using-lowcode-api/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

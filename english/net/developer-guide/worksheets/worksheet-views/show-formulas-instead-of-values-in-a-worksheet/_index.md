@@ -4,6 +4,8 @@ type: docs
 weight: 20
 url: /net/show-formulas-instead-of-values-in-a-worksheet/
 description: This article provides sample code for using the C# API or .NET Library to programmatically display formulas rather than values in an Excel worksheet or spreadsheet.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

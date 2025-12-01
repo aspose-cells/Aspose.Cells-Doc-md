@@ -3,6 +3,8 @@ title: Converting Worksheet to Image in Aspose.Cells
 type: docs
 weight: 20
 url: /net/converting-worksheet-to-image-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This document is designed to provide the developers with a detailed understanding on how to convert a worksheet to an image file & worksheet with multiple pages to an image file per page.

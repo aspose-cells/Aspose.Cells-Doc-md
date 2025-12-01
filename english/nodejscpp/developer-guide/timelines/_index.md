@@ -5,6 +5,8 @@ type: docs
 weight: 170
 url: /nodejs-cpp/create-timeline/
 description: Learn how to create a timeline with Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

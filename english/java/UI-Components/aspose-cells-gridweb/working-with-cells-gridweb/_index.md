@@ -3,6 +3,8 @@ title: Working with Cells GridWeb
 type: docs
 weight: 50
 url: /java/working-with-cells-gridweb/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Accessing Cells in the Worksheet**

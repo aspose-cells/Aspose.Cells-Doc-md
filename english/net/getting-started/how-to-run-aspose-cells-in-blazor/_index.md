@@ -5,6 +5,8 @@ weight: 138
 url: /net/how-to-run-aspose-cells-in-blazor/
 description: Learn how to How to Run Aspose.Cells in Blazor WebAssembly App and Blazor Server App.
 keywords: C# Run Aspose.Cells in Blazor WebAssembly, Use Aspose.Cells in Blazor WebAssembly, Blazor WebAssembly Application with Aspose.Cells
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Overview

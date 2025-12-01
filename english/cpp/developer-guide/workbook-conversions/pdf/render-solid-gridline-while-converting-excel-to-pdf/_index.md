@@ -5,6 +5,8 @@ type: docs
 weight: 390
 url: /cpp/render-solid-gridline-while-converting-excel-to-pdf/
 description: Learn how to render solid gridlines while converting Excel to PDF using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines nowadays.

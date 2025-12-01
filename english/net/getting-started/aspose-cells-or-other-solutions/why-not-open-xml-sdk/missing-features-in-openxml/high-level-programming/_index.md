@@ -3,6 +3,8 @@ title: High-level programming with a workbook object model
 type: docs
 weight: 50
 url: /net/high-level-programming-with-a-workbook-object-model/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics

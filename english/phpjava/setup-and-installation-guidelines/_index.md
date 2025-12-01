@@ -5,6 +5,8 @@ weight: 20
 url: /php-java/setup-and-installation-guidelines/
 keywords: "php, excel, install"
 description: "setup Aspose.Cells for PHP via Java and installation guidelines."
+ai_search_scope: cells_phpjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

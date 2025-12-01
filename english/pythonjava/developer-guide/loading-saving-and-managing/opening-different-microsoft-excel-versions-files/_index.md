@@ -3,6 +3,8 @@ title: Opening Different Microsoft Excel Versions Files
 type: docs
 weight: 20
 url: /python-java/opening-different-microsoft-excel-versions-files/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

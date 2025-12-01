@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/get-headers-or-footers/
 description: This article explains how to programmatically get headers and footers from Excel or OpenOffice files using the Node.js via C++ API.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

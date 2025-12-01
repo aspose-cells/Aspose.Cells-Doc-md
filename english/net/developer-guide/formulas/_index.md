@@ -7,6 +7,8 @@ url: /net/using-formulas-or-functions-to-process-data/
 description: Aspose.Cells can simply get, set and calculate formulas of excel files.
 description: Learn how to Manage formulas of Excel files through the Aspose.Cells for NET APIs.
 keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

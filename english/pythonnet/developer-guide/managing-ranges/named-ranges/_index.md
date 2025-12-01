@@ -6,6 +6,8 @@ weight: 40
 url: /python-net/create-workbook-and-worksheet-scoped-named-ranges/
 description: This article shows how to Create Workbook and Worksheet Scoped Named Ranges by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Create Workbook and Worksheet Scoped Named Ranges, Python Add a Named Range with Workbook Scoped, Python Add a Named Range with Worksheet Scope.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

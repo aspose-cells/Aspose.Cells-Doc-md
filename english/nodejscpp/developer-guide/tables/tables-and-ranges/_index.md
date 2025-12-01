@@ -4,6 +4,8 @@ linktitle: Tables and Ranges
 type: docs  
 weight: 50  
 url: /nodejs-cpp/tables-and-ranges/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/hiding-the-display-of-zero-values-in-the-worksheet/
 description: This article will show you sample code explaining how to programmatically hide the zero values in an Excel spreadsheet using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python hide zero values of excel worksheet, Python Hide the Display of Zero Values in the Worksheet.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, dynamic charts, data, series, formatt
 type: docs
 weight: 240
 url: /net/create-dynamic-charts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

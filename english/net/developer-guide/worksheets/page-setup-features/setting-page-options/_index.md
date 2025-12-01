@@ -5,6 +5,8 @@ weight: 10
 url: /net/setting-page-options/
 description: This article provides sample code to set page options of Excel worksheets programmatically using C# API and .NET Library. You will be able to set Page Orientation, Scaling Factor, FitToPages Options, Paper Size, Print Quality, First Page Number.
 keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

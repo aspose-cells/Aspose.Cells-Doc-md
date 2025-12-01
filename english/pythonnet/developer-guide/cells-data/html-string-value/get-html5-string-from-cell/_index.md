@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/get-html5-string-from-cell/
 description: Learn how to Get HTML5 string from Cell through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Libray, Python Get HTML5 string from Cell, Obtain HTML5 string from Cell using Python, Manage HTML5 string of Cell in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Disable Text Wrapping for Data Labels of the Chart
 type: docs
 weight: 60
 url: /java/disable-text-wrapping-for-data-labels-of-the-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

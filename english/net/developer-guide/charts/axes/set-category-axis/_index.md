@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, category axis, setting, range, properties, form
 type: docs
 weight: 205
 url: /net/how-to-set-category-axis/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 130  
 url: /nodejs-cpp/autofit-rows-for-rendering/  
 description: Learn how to auto-fit rows for rendering in Excel using Aspose.Cells for Node.js via C++. Prevent text clipping in saved PDF files.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 Generally, when you want to display all the text in a cell, you can auto-fit the row in Normal view with 100% zoom in Microsoft Excel. This allows the text to be fully visible in Normal view, and even when you print or save the file as a PDF, the text will be displayed correctly.

@@ -5,6 +5,8 @@ weight: 90
 url: /net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
 keywords: loadoption,loadoptions,setting,load,options,option
 description: This article introduces how to work with load options in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

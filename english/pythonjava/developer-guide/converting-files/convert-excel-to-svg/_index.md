@@ -3,6 +3,8 @@ title: Convert Excel to SVG
 type: docs
 weight: 60
 url: /python-java/convert-excel-to-svg/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to SVG**

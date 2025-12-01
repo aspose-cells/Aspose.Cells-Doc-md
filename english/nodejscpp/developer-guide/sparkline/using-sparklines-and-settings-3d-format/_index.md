@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /nodejs-cpp/using-sparklines-and-settings-3d-format/
 description: Learn how to use sparklines and apply 3D formatting in Excel files with Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Using Sparklines**

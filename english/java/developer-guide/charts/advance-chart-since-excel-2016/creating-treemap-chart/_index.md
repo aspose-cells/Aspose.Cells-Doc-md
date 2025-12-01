@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, Treemap chart, create, properties, formatting, 
 type: docs
 weight: 161
 url: /java/creating-treemap-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

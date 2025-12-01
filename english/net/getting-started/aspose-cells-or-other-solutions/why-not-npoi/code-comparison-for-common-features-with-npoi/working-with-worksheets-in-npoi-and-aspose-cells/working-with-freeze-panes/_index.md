@@ -3,6 +3,8 @@ title: Working with Freeze Panes
 type: docs
 weight: 100
 url: /net/working-with-freeze-panes/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Working with Freeze Panes**

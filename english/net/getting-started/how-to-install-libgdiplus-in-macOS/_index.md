@@ -4,6 +4,8 @@ type: docs
 description: "This article explains how to install libgdiplus in macOS, such as Monterey 12.4."
 weight: 150
 url: /net/how-to-install-libgdiplus-in-macos/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Overview

@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, Node.js via C++, Worksheet, Form
 type: docs
 weight: 130
 url: /nodejs-cpp/apply-conditional-formatting-in-worksheets/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

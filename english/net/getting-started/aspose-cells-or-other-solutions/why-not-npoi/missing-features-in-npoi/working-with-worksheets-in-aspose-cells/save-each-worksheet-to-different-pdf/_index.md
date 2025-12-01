@@ -3,6 +3,8 @@ title: Save Each Worksheet to Different PDF
 type: docs
 weight: 10
 url: /net/save-each-worksheet-to-different-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Save Each Worksheet to Different PDF**

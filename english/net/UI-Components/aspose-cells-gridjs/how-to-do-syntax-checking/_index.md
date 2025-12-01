@@ -10,6 +10,8 @@ aliases:
   - /net/aspose-cells-gridjs/how-to-add-syntax-checking/
   - /net/aspose-cells-gridjs/how-to-add-spell-correction/
   - /net/aspose-cells-gridjs/spell-correction/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  

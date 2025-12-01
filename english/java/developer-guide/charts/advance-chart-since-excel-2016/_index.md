@@ -3,6 +3,8 @@ title: Read and Manipulate Excel 2016 Charts
 type: docs
 weight: 150
 url: /java/read-and-manipulate-excel-2016-charts/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

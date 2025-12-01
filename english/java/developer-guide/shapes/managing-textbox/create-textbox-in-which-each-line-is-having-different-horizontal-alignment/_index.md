@@ -3,6 +3,8 @@ title: Create TextBox in which each line is having different Horizontal Alignmen
 type: docs
 weight: 800
 url: /java/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

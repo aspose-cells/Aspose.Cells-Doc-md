@@ -3,6 +3,8 @@ title: Getting Notifications while Merging Data with Smart Markers
 type: docs
 weight: 460
 url: /java/getting-notifications-while-merging-data-with-smart-markers/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

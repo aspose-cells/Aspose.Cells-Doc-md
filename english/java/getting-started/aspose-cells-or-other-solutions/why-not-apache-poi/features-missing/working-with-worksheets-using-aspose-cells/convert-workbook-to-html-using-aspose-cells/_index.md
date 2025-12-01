@@ -3,6 +3,8 @@ title: Convert Workbook to HTML using Aspose.Cells
 type: docs
 weight: 20
 url: /java/convert-workbook-to-html-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Workbook to HTML**

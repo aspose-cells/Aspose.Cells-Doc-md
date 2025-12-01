@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/group-pivot-fields-in-the-pivot-table/
 description: How to group Pivot Fields in the Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, How to Group Pivot Fields in the Pivot Table Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

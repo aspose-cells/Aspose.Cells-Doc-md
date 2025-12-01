@@ -5,6 +5,8 @@ weight: 80
 url: /java/find-cells-with-specific-style/
 description: This article demonstrates how to find cells with specific style using MS Excel and Aspose.Cells for Java API.
 keywords: find cells with specific style, find cells with specific style excel, find cells with specific style excel java, search cells with specific style, search cells with specific style excel, search cells with specific style excel java, how to find cells with specific style, how to find cells with specific style excel, how to find cells with specific style excel java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

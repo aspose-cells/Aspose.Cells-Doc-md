@@ -3,6 +3,8 @@ title: Convert Dates to Japanese Dates
 type: docs
 weight: 350
 url: /net/convert-dates-to-japanese-dates/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

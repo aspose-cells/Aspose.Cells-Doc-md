@@ -4,6 +4,8 @@ type: docs
 weight: 30
 url: /net/how-to-import-json-into-excel-with-smart-markers/
 alias: [/net/using-json-data-in-smart-markers/]
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Using Json Data for Smart Markers**

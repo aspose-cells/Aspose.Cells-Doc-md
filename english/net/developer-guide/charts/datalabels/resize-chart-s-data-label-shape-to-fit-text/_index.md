@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, data labels, shape resizing, text fit
 type: docs
 weight: 220
 url: /net/resize-chart-s-data-label-shape-to-fit-text/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

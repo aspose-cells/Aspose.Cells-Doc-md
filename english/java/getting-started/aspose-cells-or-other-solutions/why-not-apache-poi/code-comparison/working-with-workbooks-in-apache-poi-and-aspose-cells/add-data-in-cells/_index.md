@@ -3,6 +3,8 @@ title: Add Data in Cells
 type: docs
 weight: 10
 url: /java/add-data-in-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Add Data in Cells**

@@ -3,6 +3,8 @@ title: Specify Job or Document Name while printing with Aspose.Cells
 type: docs
 weight: 160
 url: /java/specify-job-or-document-name-while-printing-with-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

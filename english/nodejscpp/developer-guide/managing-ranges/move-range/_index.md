@@ -5,6 +5,8 @@ type: docs
 weight: 370  
 url: /nodejs-cpp/move-range-of-cells-in-a-worksheet/  
 description: Learn how to move a range of cells in a worksheet using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

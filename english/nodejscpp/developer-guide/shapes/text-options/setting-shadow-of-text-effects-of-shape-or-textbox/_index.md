@@ -5,6 +5,8 @@ type: docs
 weight: 250  
 url: /nodejs-cpp/setting-shadow-of-text-effects-of-shape-or-textbox/  
 description: Learn how to set the shadow of text effects for any shape or TextBox using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

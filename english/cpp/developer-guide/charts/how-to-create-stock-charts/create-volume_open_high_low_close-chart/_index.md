@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, Volume-Open-High-Low-Close Stock Chart, Stock Ma
 type: docs
 weight: 184
 url: /cpp/create-volume-open-high-low-close-stock-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

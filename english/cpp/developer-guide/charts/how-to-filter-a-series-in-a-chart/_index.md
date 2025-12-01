@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Filtering Charts in Excel, Data Analysis, Decisi
 type: docs
 weight: 2210
 url: /cpp/filtering-charts-in-excel/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

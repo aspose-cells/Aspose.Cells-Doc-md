@@ -5,6 +5,8 @@ weight: 200
 url: /python-net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 description: This article shows how to utilize Sheet.SheetId property of OpenXml using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python sheet id property of openxml, sheet id excel worksheet in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

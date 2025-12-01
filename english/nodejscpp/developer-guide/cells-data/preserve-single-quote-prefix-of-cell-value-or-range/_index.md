@@ -5,6 +5,8 @@ weight: 310
 url: /nodejs-cpp/preserve-single-quote-prefix-of-cell-value-or-range/
 description: Learn how to Preserve Single Quote Prefix of Cell Value or Range through the Aspose.Cells for Node.js via C++ API.
 keywords: Preserve Single Quote Prefix of Cell Value or Range Node.js via C++, Hide leading apostrophe or single quote mark Node.js via C++, Show leading apostrophe or single quote mark Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

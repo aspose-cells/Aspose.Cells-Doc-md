@@ -3,6 +3,8 @@ title: Add Hyperlinks to Cells in VSTO and Aspose.Cells
 type: docs
 weight: 20
 url: /net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add hyperlinks to cells in a spreadsheet, take the following steps:

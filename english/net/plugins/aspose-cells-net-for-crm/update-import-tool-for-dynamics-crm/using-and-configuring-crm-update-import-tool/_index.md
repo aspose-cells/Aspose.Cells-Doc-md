@@ -3,6 +3,8 @@ title: Using and Configuring CRM Update Import Tool
 type: docs
 weight: 20
 url: /net/using-and-configuring-crm-update-import-tool/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Below are the screenshot steps we need to follow to use the tool:

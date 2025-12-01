@@ -3,6 +3,8 @@ title: Working with Dyn-Hide Form
 type: docs
 weight: 150
 url: /reportingservices/working-with-dyn-hide-form/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

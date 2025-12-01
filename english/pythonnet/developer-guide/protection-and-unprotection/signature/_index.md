@@ -6,6 +6,8 @@ weight: 140
 url: /python-net/assign-and-validate-digital-signatures/
 description: Excel file digital signature, verification. To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using C# codes with Aspose.Cells for Python via .NET.
 keywords: Excel file digital signature, Add digital signature for Excel, How to validate digital signature.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

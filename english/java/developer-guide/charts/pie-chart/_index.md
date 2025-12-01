@@ -4,6 +4,8 @@ linktitle: Pie Chart
 type: docs
 weight: 170
 url: /java/creating-pie-chart-with-leader-lines/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

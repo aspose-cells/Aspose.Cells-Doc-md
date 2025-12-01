@@ -3,6 +3,8 @@ title: Insert or Delete Rows or Columns
 type: docs
 weight: 20
 url: /net/insert-or-delete-rows-or-columns/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet.

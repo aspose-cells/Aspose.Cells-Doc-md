@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Dynamic Chart, Real-Time Updates, User Input, Sy
 type: docs 
 weight: 74 
 url: /cpp/create-dynamic-chart/ 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Possible Usage Scenarios** 

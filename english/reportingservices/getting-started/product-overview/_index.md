@@ -3,6 +3,8 @@ title: Product Overview
 type: docs
 weight: 9
 url: /reportingservices/product-overview/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

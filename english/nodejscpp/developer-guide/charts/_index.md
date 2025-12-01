@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, Chart Creation, Microsoft Excel, Chart Types
 type: docs
 weight: 130
 url: /nodejs-cpp/creating-charts/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

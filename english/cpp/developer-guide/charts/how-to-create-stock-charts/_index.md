@@ -6,6 +6,8 @@ keywords: Create Stock Charts, Aspose.Cells, Market Data Visualization, Stock Ma
 type: docs
 weight: 71
 url: /cpp/how-to-create-stock-charts/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

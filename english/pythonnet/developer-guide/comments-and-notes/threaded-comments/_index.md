@@ -3,6 +3,8 @@ title: Threaded Comments
 type: docs
 weight: 140
 url: /python-net/threaded-comments/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Threaded Comments**

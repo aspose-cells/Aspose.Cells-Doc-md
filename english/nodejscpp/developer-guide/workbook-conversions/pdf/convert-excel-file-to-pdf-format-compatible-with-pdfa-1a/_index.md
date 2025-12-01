@@ -5,6 +5,8 @@ type: docs
 weight: 130  
 url: /nodejs-cpp/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/  
 description: Learn how to convert Excel files to PDF/A compliant PDF files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

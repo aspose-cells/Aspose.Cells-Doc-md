@@ -3,6 +3,8 @@ title: Delimiters
 type: docs
 weight: 20
 url: /reportingservices/delimiters/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Reporting Services supports a specified delimiter when rendering TXT or CSV format. Two settings control the field delimiter in Aspose.Cells for Reporting Services.

@@ -5,6 +5,8 @@ type: docs
 weight: 370
 url: /nodejs-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Learn how to remove duplicate rows in a worksheet using Aspose.Cells for Node.js via C++ and select specific columns for duplication checks.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

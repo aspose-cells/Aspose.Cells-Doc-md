@@ -3,6 +3,8 @@ title: Convert an Excel Chart to Image
 type: docs
 weight: 20
 url: /net/convert-an-excel-chart-to-image/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

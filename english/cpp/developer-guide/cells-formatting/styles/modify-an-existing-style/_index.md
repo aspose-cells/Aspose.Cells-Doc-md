@@ -5,6 +5,8 @@ keywords: Modify existing styles, customize the look and feel of your applicatio
 type: docs
 weight: 90
 url: /cpp/modify-an-existing-style/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

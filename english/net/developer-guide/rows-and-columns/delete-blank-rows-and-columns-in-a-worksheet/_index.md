@@ -3,6 +3,8 @@ title: Delete Blank Rows and Columns in a Worksheet
 type: docs
 weight: 300
 url: /net/delete-blank-rows-and-columns-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

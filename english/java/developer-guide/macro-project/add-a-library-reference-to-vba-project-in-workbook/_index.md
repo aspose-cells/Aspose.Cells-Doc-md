@@ -5,6 +5,8 @@ weight: 10
 url: /java/add-a-library-reference-to-vba-project-in-workbook/
 description: Learn how to How to Add a library reference to VBA project in workbook through the Aspose.Cells for Java API.
 keywords: How to Add a library reference to VBA project in workbook in Java, Insert a library reference to VBA project in workbook using Java, Java Set library reference to VBA project in workbook. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

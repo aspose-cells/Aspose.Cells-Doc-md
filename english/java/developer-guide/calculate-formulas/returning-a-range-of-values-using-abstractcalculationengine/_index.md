@@ -3,6 +3,8 @@ title: Returning a Range of Values using AbstractCalculationEngine
 type: docs
 weight: 275
 url: /java/returning-a-range-of-values-using-abstractcalculationengine/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

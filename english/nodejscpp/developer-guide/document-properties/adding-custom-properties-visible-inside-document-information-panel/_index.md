@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /nodejs-cpp/adding-custom-properties-visible-inside-document-information-panel/
 description: Learn how to add custom properties to a workbook object using Aspose.Cells for Node.js via C++. These properties can be viewed in the Document Information Panel.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Custom Properties visible inside Document Information Panel**

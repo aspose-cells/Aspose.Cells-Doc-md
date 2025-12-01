@@ -5,6 +5,8 @@ type: docs
 weight: 50  
 url: /nodejs-cpp/managing-ole-objects/  
 description: Learn how to manage OLE objects in Aspose.Cells for Node.js via C++. Add, extract, and manipulate OLE objects within worksheets.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

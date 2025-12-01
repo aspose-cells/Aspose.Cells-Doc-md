@@ -6,6 +6,8 @@ weight: 410
 url: /cpp/detecting-empty-worksheets/
 description: This article shows you code explaining how to detect empty worksheets of Excel workbooks programmatically using C++ API with Aspose.Cells library.
 keywords: detect empty worksheet c++, find empty excel worksheet c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Check for Populated Cells**

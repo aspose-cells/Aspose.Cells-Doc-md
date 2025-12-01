@@ -5,6 +5,8 @@ type: docs
 weight: 140  
 url: /cpp/save-specified-worksheets-to-pdf/  
 description: Export specific worksheets to PDF using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option, you can save specified worksheets to a PDF file. e.g., you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, or save custom multiple worksheets to PDF.

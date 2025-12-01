@@ -5,6 +5,8 @@ type: docs
 weight: 85
 url: /cpp/format-and-modify-named-ranges/
 description: Learn how to format, rename, merge, and remove named ranges in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Format Ranges**

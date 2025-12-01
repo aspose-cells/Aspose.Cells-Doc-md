@@ -3,6 +3,8 @@ title: Calculation of Excel 2016 MINIFS and MAXIFS functions
 type: docs
 weight: 1030
 url: /java/calculation-of-excel-2016-minifs-and-maxifs-functions/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

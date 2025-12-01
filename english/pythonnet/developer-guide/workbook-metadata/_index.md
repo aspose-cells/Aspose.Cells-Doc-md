@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /python-net/using-workbookmetadata/
 description: Learn how to manage workbook metadata efficiently using Aspose.Cells for Python via .NET API.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 80
 url: /cpp/convert-html-to-pdf/
 description: This topic shows you how to convert HTML to PDF saveformat and MHTML to PDF saveformat using Aspose.Cells for C++.
 keywords: C++ convert HTML to PDF saveformat and MHTML to PDF saveformat.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Overview**

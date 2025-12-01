@@ -12,6 +12,8 @@ aliases:
 - /net/aspose-cells-gridjs/multi-language-configuration/
 - /net/aspose-cells-gridjs/internationalization-guide/
 - /net/aspose-cells-gridjs/culture-configuration/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Aspose.Cells GridJs Multi-Language Configuration Guide

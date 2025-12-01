@@ -3,6 +3,8 @@ title: HTTP Compression
 type: docs
 weight: 10
 url: /net/http-compression/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **HTTP Compression problem**

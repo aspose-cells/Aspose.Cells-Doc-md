@@ -3,6 +3,8 @@ title: Check if Workbook contains hidden External Links
 type: docs
 weight: 230
 url: /python-net/check-if-workbook-contains-hidden-external-links/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

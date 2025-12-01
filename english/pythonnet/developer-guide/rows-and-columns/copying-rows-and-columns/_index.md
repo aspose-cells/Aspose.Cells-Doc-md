@@ -5,6 +5,8 @@ weight: 40
 url: /python-net/copying-rows-and-columns/
 description: This article shows how to Copy Rows and Columns through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python How to Copy Rows and Columns, Copy Rows in Python, Copy Columns using Python, How to Paste Rows and Columns using Aspose.Cells for Python via .NET, Python Paste multiple rows and columns, Python How to Copy and paste Single Row or Column.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

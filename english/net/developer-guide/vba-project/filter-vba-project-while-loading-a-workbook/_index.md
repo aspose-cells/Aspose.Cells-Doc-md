@@ -3,6 +3,8 @@ title: Filter VBA Project while loading a workbook
 type: docs
 weight: 140
 url: /net/filter-vba-project-while-loading-a-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Filter VBA Project while loading an Excel workbook in C#**

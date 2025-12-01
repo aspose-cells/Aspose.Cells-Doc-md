@@ -3,6 +3,8 @@ title: Licensing
 type: docs
 weight: 21
 url: /python-net/licensing/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

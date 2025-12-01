@@ -3,6 +3,8 @@ title: Convert Excel file to PDF format compatible with PDFA-1a
 type: docs
 weight: 80
 url: /java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

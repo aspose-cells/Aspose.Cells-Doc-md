@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/secure-pdf-documents/
 description: Learn how to secure PDF documents by using owner and user passwords, and set permissions for PDF files using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

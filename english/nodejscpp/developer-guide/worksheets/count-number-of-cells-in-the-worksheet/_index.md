@@ -6,6 +6,8 @@ weight: 110
 url: /nodejs-cpp/count-number-of-cells-in-the-worksheet/
 description: Learn how to programmatically count the number of cells in an Excel worksheet using Aspose.Cells for Node.js via C++.
 keywords: count number of excel worksheet cells Node.js via C++, excel worksheet cells Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 You may count the number of cells in the worksheet by using the [**Cells.getCount()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getCount--) or [**Cells.getCountLarge()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getCountLarge--) properties as shown in the code example given below.

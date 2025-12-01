@@ -3,6 +3,8 @@ title: Assign Macro Code to Form Control
 type: docs
 weight: 400
 url: /java/assign-macro-code-to-form-control/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

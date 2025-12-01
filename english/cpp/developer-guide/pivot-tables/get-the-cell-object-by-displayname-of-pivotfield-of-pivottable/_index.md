@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 description: Learn how to retrieve the cell object by the display name of a pivot field and apply formatting using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Missing Features in OpenXML
 type: docs
 weight: 20
 url: /net/missing-features-in-openxml/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics

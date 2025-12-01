@@ -5,6 +5,8 @@ type: docs
 weight: 280
 url: /nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/
 description: Learn how to set a preset WordArt style to the text of a shape using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 360
 url: /python-net/get-max-range-in-a-worksheet/
 description: This article describes how to get the max range , max data range, max display range of Excel files with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python get the max range, Python get max data range, Python get max display range.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

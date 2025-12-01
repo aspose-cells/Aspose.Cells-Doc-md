@@ -3,6 +3,8 @@ title: Hide or Unhide a Worksheet in Ruby
 type: docs
 weight: 60
 url: /java/hide-or-unhide-a-worksheet-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hide or Unhide a Worksheet**

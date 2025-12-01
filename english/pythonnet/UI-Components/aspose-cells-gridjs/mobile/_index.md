@@ -5,6 +5,8 @@ weight: 250
 url: /python-net/aspose-cells-gridjs/mobile/
 description: This article describes how to use GridJs in mobile device.
 keywords: excel,mobile,spreadsheet,editor, mobile spreadsheet,viewer
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Use GridJs in mobile device

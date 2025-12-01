@@ -3,6 +3,8 @@ title: Converting ExcelFiles To Html in Jython
 type: docs
 weight: 10
 url: /java/converting-excelfiles-to-html-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting ExcelFiles To Html**

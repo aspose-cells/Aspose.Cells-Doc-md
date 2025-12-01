@@ -3,6 +3,8 @@ title: Implementing Non-Sequential Ranges
 type: docs
 weight: 700
 url: /net/implementing-non-sequential-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

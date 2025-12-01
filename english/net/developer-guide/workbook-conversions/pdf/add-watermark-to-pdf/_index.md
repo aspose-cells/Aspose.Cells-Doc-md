@@ -3,6 +3,8 @@ title: Add Watermark To PDF
 type: docs
 weight: 9
 url: /net/add-watermark-to-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 While converting Excel file to pdf, you may have requirements to add watermark to pdf file. The following examples shows how to add text and image watermark to pdf while rendering to pdf.

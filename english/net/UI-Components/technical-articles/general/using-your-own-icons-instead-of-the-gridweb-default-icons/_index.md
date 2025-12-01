@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
 keywords: GridWeb,icon,icons
 description: This article describes how to use icons in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

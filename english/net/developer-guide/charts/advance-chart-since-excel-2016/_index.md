@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Excel 2016 charts, read, manipulate, data label
 type: docs
 weight: 48
 url: /net/read-and-manipulate-excel-2016-charts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

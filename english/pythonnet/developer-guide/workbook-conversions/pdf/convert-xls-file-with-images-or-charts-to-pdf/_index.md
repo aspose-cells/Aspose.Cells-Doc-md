@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/convert-xls-file-with-images-or-charts-to-pdf/
 description: Learn how to Convert XLS File with Images or Charts to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Convert XLS File with Images or Charts to PDF, Convert xls to pdf using Python, Python XLS file with images to pdf, xls file with charts to pdf in python, python xls to pdf
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

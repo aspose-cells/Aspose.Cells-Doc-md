@@ -3,6 +3,8 @@ title: Password Protect the VBA Project of Excel Workbook
 type: docs
 weight: 10
 url: /python-net/password-protect-the-vba-project-of-excel-workbook/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Password Protect the VBA Project of Excel Workbook in Python**

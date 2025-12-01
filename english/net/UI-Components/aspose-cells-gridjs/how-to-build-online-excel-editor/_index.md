@@ -15,6 +15,8 @@ aliases:
   - /net/aspose-cells-gridjs/how-to-build-online-excel-viewer-using-gridjs/
   - /net/aspose-cells-gridjs/how-to-build-web-spreadsheet-viewer-using-gridjs/
   - /net/aspose-cells-gridjs/how-to-build-web-excel-viewer-using-gridjs/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Docker Guide

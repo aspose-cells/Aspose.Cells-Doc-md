@@ -3,6 +3,8 @@ title: Showing Cell Range as the Data Labels
 type: docs
 weight: 110
 url: /java/showing-cell-range-as-the-data-labels/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Show cell range as data labels in MS Excel

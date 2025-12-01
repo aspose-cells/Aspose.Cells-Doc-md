@@ -5,6 +5,8 @@ type: docs
 weight: 330
 url: /nodejs-cpp/filter-objects-while-loading-workbook-or-worksheet/
 description: Learn how to filter data while loading workbooks or worksheets using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

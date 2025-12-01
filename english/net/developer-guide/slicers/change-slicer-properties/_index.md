@@ -3,6 +3,8 @@ title: Change Slicer Properties
 type: docs
 weight: 70
 url: /net/change-slicer-properties/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

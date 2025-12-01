@@ -5,6 +5,8 @@ type: docs
 weight: 260
 url: /nodejs-cpp/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
 description: Learn how to automatically propagate formulas in tables or list objects while entering data in new rows using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

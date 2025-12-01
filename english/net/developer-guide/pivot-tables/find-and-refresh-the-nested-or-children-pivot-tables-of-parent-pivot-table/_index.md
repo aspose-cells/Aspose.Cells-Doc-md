@@ -3,6 +3,8 @@ title: Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Tabl
 type: docs
 weight: 60
 url: /net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

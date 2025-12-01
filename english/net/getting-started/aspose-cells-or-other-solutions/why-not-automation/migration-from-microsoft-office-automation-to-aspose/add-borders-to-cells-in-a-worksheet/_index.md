@@ -3,6 +3,8 @@ title: Add Borders to Cells in a Worksheet
 type: docs
 weight: 50
 url: /net/add-borders-to-cells-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

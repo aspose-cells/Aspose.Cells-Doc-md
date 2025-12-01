@@ -3,6 +3,8 @@ title: Propagate Formula in Table or List Object automatically while entering da
 type: docs
 weight: 980
 url: /java/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

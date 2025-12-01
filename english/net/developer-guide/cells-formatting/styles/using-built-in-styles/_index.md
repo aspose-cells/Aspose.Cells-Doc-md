@@ -5,6 +5,8 @@ weight: 80
 url: /net/using-built-in-styles/
 description: C# code to use Excel built-in styles with Aspose.Cells for .NET API
 keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

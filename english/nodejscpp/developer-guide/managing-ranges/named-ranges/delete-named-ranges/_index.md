@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /nodejs-cpp/Delete-named-ranges/
 description: You can learn how to remove defined names or named ranges from Excel or OpenOffice files with Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

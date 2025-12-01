@@ -6,6 +6,8 @@ keywords: Aspose.Cells, 1904 date system, spreadsheet, calculation, formatting
 type: docs
 weight: 7000
 url: /cpp/implement-1904-date-system/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

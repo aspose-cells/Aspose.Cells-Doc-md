@@ -3,6 +3,8 @@ title: Add Comment In Worksheet
 type: docs
 weight: 10
 url: /net/add-comment-in-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Add Comment in Worksheet**

@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
 keywords: GridDesktop,style,row,column
 description: This article introduces how to apply style on row or column in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

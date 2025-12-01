@@ -6,6 +6,8 @@ keywords: Aspose.Cells, cell formatting, Node.js via C++, font, color, border
 type: docs
 weight: 20
 url: /nodejs-cpp/how-to-change-format-of-cell/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

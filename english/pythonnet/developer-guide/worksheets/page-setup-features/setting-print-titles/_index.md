@@ -6,6 +6,8 @@ weight: 200
 url: /python-net/how-to-set-print-titles/
 description: Learn how to configure repeated row/column headers on printed pages using Aspose.Cells for Python via .NET.
 keywords: Python repeat print headers, Python set print titles, Python clear print titles, Excel page setup Python, Python.NET spreadsheet printing
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

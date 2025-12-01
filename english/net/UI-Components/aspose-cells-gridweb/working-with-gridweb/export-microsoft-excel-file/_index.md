@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-gridweb/export-microsoft-excel-file/
 keywords: GridWeb,export
 description: This article introduces how to export file in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

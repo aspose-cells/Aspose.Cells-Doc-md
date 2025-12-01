@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Chart Controls, Chart Customization,
 type: docs
 weight: 70
 url: /nodejs-cpp/controls-in-charts/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

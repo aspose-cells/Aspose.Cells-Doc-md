@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/assign-macro-to-form-control/
 description: Learn how to assign a Macro Code to a Form Control like a Button using Aspose.Cells for Node.js via C++. 
 keywords: Assign Macro to Form Control Node.js via C++, Macro Code for Form Control Node.js via C++, Integrated Macro in XLSM Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

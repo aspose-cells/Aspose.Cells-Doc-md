@@ -3,6 +3,8 @@ title: Get All Hidden Rows Indices after Refreshing AutoFilter
 type: docs
 weight: 240
 url: /java/get-all-hidden-rows-indices-after-refreshing-autofilter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

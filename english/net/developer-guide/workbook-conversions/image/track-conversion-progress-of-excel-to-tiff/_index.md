@@ -3,6 +3,8 @@ title: Track Conversion Progress of Excel to TIFF
 type: docs
 weight: 190
 url: /net/track-conversion-progress-of-excel-to-tiff/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

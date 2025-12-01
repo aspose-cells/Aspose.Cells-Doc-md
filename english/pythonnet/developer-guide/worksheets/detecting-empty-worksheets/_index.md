@@ -5,6 +5,8 @@ weight: 410
 url: /python-net/detecting-empty-worksheets/
 description: This article shows you code explaining how to detect empty worksheets of Excel workbooks programmatically using Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, detect empty worksheet using python, find empty excel worksheet in python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Check for Populated Cells**

@@ -5,6 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/export-worksheet-css-separately-in-output/  
 description: Learn how to export worksheet CSS separately when converting an Excel file to HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

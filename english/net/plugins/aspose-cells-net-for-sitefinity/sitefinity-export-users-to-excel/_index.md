@@ -3,6 +3,8 @@ title: Sitefinity Export Users to Excel
 type: docs
 weight: 20
 url: /net/sitefinity-export-users-to-excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Contents Summary**

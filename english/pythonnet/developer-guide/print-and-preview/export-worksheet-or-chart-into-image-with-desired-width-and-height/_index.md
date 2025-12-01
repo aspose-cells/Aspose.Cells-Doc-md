@@ -3,6 +3,8 @@ title: Export Worksheet or Chart into Image with Desired Width and Height
 type: docs
 weight: 290
 url: /python-net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

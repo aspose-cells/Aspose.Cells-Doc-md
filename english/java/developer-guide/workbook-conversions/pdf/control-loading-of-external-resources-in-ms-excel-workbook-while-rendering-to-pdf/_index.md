@@ -3,6 +3,8 @@ title: Control loading of External Resources in MS Excel Workbook while renderin
 type: docs
 weight: 40
 url: /java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

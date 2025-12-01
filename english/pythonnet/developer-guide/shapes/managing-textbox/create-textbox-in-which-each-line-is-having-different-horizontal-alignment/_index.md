@@ -3,6 +3,8 @@ title: Create TextBox in which each line is having different Horizontal Alignmen
 type: docs
 weight: 310
 url: /python-net/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

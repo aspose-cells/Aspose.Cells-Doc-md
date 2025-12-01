@@ -3,6 +3,8 @@ title: Manipulate Named Range in a Workbook
 type: docs
 weight: 90
 url: /cpp/manipulate-named-range-in-a-workbook/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

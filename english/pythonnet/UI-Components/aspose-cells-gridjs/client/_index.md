@@ -13,6 +13,8 @@ aliases:
   - /python-net/aspose-cells-gridjs/client-api/
   - /python-net/aspose-cells-gridjs/js-api/
   - /python-net/aspose-cells-gridjs/javascript-api/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Working with GridJs Client Side

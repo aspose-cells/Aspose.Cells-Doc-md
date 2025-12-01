@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/apply-superscript-and-subscript-effects-on-fonts/
 description: The Node.js code to apply superscript and subscript effects to text in Excel using Aspose.Cells for Node.js via C++.
 keywords: excel superscript node.js via c++, excel subscript node.js via c++, excel superscript and subscript node.js via c++, insert subscript and superscript in excel node.js via c++, add subscript and superscript in excel node.js via c++, add superscript and subscript excel node.js via c++, add superscript excel node.js via c++, add subscript excel node.js via c++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

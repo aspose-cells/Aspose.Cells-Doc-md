@@ -5,6 +5,8 @@ type: docs
 weight: 220
 url: /nodejs-cpp/convert-excel-to-pdf/
 description: Learn how to convert Excel Workbook into PDF using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 290
 url: /nodejs-cpp/sort-data-in-column-with-custom-sort-list/
 description: Learn how to sort data in the column using a custom list by using the Aspose.Cells for Node.js via C++ API.
 keywords: Sort Data in Column with Custom Sort List, Sort data by custom list.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

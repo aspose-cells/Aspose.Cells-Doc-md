@@ -3,6 +3,8 @@ title: Conditional Formatting
 type: docs
 weight: 120
 url: /java/conditional-formatting/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

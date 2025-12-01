@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/unfreeze-rows-or-columns-of-excel-worksheet
 description: In this article, you will learn how to unfreeze rows, columns, or panes of Excel Worksheets programmatically using Aspose.Cells for C++ API.
 keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, Unfreeze window.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

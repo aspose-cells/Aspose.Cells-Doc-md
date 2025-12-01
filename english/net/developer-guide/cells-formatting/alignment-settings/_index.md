@@ -5,6 +5,8 @@ keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment
 type: docs
 weight: 20
 url: /net/cells-alignment-settings/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Configuring Alignment Settings**

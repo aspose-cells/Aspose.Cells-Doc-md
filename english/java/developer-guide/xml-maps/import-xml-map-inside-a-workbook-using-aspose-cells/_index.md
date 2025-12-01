@@ -3,6 +3,8 @@ title: Import XML Map inside a Workbook using Aspose.Cells
 type: docs
 weight: 40
 url: /java/import-xml-map-inside-a-workbook-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

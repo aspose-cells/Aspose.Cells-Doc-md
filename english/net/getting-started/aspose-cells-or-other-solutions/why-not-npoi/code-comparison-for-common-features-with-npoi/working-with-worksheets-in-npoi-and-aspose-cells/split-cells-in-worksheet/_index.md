@@ -3,6 +3,8 @@ title: Split Cells in Worksheet
 type: docs
 weight: 90
 url: /net/split-cells-in-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Split Cells in Worksheet**

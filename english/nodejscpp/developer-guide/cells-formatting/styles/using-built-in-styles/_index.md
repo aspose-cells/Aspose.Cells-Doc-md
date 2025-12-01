@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/using-built-in-styles/  
 description: Node.js code to use Excel built-in styles with Aspose.Cells for Node.js via C++.  
 keywords: node.js use excel built in styles, node.js programmatically apply styles in workbook, programmatically apply styles in workbook, node.js apply built in styles in excel, node.js apply built in styles in workbook, node.js code apply built in styles in workbook, node.js code apply built in styles in excel workbook  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

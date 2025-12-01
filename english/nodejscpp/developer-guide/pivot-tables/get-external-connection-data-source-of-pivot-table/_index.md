@@ -5,6 +5,8 @@ weight: 150
 url: /nodejs-cpp/get-external-connection-data-source-of-pivot-table/
 description: How to get external connection data source of Pivot Table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js Excel, Excel Node.js library, Get External Connection Data Source of Pivot Table Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Get External Connection Data Source of Pivot Table**

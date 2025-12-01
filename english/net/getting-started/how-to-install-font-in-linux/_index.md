@@ -4,6 +4,8 @@ type: docs
 description: "How to Install Font in Linux"
 weight: 139
 url: /net/how-to-install-font-in-linux/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Overview

@@ -5,6 +5,8 @@ type: docs
 weight: 2700
 url: /cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
 description: Learn how to detect a file's format and check if it is encrypted using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

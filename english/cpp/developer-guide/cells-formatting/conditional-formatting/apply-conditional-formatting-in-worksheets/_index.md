@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, C++, Worksheet, Formatting
 type: docs
 weight: 130
 url: /cpp/apply-conditional-formatting-in-worksheets/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

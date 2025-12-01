@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
 keywords: GridWeb,bind,DataSet
 description: This article introduce how to bind worksheet to a DataSet  in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

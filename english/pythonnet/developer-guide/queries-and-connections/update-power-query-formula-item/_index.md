@@ -3,6 +3,8 @@ title: Update Power Query Formula Item
 type: docs
 weight: 120
 url: /python-net/update-power-query-formula-item/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Usage Scenario**

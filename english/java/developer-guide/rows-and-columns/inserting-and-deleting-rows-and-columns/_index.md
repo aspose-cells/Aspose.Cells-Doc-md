@@ -5,6 +5,8 @@ weight: 60
 url: /java/inserting-and-deleting-rows-and-columns/
 description: Learn how to Insert and Delete Rows and Columns through the Aspose.Cells for Java APIs.
 keywords: How to Insert and Delete Rows and Columns in Java, Insert Rows and Columns using Java, Java Delete Rows and Columns, Insert Rows or Columns with Java, Delete Rows or Columns via Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

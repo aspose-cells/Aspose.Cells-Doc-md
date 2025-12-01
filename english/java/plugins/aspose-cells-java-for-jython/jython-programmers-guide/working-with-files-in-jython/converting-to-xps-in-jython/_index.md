@@ -3,6 +3,8 @@ title: Converting To XPS in Jython
 type: docs
 weight: 30
 url: /java/converting-to-xps-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting To XPS**

@@ -6,6 +6,8 @@ weight: 90
 url: /nodejs-cpp/determine-if-paper-size-of-worksheet-is-automatic/
 description: This article explains how to use the Node.js API with C++ addons to determine if the paper size of a worksheet is set to automatic programmatically.
 keywords: determine if paper size of worksheet automatic Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 360
 url: /cpp/detect-if-worksheet-is-password-protected/
 description: Learn how to detect if a worksheet is password protected using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 350
 url: /cpp/convert-dates-to-japanese-dates/
 description: Learn how to convert Gregorian dates to Japanese dates using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

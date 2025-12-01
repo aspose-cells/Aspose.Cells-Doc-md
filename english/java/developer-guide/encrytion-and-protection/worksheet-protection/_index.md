@@ -3,6 +3,8 @@ title: Protect and Unprotect Worksheet
 type: docs
 weight: 50
 url: /java/protect-and-unprotect-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Protect Worksheets**

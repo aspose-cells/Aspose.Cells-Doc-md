@@ -3,6 +3,8 @@ title: Unprotect a Worksheet
 type: docs
 weight: 20
 url: /python-net/unprotect-a-worksheet/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/mcp/apply-formula
 keywords: "Excel Formula MCP, Excel formulas, AI Excel formulas, Excel formula automation, Excel calculations"
 description: "Excel Formula MCP - Apply Excel formulas with AI automation, single and batch Excel formula operations"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Formula Operations

@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/convert-excel-to-html-with-headings/
 description: This topic show you how to Convert Excel to HTML with headings using Aspose.Cells for Python via NET.
 keywords: Python Convert Excel to HTML with headings, Convert Excel to HTML with headings Python via NET, Python via NET Excel to HTML with headings, Python Workbook to HTML with headings.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to HTML with headings**

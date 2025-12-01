@@ -3,6 +3,8 @@ title: Set Worksheet Tab Color in xlsx4j
 type: docs
 weight: 60
 url: /java/set-worksheet-tab-color-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Worksheet Tab Color**

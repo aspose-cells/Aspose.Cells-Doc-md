@@ -3,6 +3,8 @@ title: Working with the Shadow Effect of Shape or Chart
 type: docs
 weight: 220
 url: /python-net/working-with-the-shadow-effect-of-shape-or-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

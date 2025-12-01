@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/merge-or-unmerge-range-of-cells/
 description: Merge and Unmerge Cells in a Range in Excel with Node.js via C++ code.
 keywords: Node.js merge and unmerge cells in a range, Node.js merge and unmerge cells in range, merge and unmerge cells in range with Node.js, merge and unmerge cells in range using Node.js, merge and unmerge cells in excel using Node.js, merge and unmerge cells in excel with Node.js, Node.js merge and unmerge cells in excel, Node.js merge cells in excel, Node.js unmerge cells in excel, merge cells in range with Node.js
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

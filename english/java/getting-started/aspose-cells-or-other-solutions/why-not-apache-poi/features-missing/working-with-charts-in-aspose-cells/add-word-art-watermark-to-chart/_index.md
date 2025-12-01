@@ -3,6 +3,8 @@ title: Add Word Art Watermark to Chart
 type: docs
 weight: 10
 url: /java/add-word-art-watermark-to-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Add Word Art Watermark to Chart**

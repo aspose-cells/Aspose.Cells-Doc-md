@@ -5,6 +5,8 @@ weight: 240
 url: /nodejs-cpp/get-cell-string-value-with-and-without-formatting/
 description: Learn how to get cell string value with and without formatting through the Aspose.Cells for Node.js via C++ API.
 keywords: Get Cell String Value with and without Formatting Node.js via C++, Retrieve Cell String Value with and without Formatting Node.js via C++, Obtain Cell String Value with and without Formatting Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

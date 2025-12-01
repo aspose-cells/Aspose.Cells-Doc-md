@@ -5,6 +5,8 @@ weight: 200
 url: /net/how-to-set-print-titles/
 description: This article shows you code explaining how to set print titles using Aspose.Cells library.
 keywords: Print rows and columns repeatedly, C# How to Set Print Titles, Set and Clear Print Titles using C#, How to Clear Print Titles in C#, How to add print titles using C#, how to remove print titles using C#, How to Set Print Titles in Excel, How to Clear Print Titles in Excel.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

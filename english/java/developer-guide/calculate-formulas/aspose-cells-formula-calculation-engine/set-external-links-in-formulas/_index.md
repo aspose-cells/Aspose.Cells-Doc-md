@@ -3,6 +3,8 @@ title: Set External Links in Formulas
 type: docs
 weight: 30
 url: /java/set-external-links-in-formulas/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

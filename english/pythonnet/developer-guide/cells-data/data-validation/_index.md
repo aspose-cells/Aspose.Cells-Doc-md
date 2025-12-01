@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/data-validation/
 description: Learn how to add data validation through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Add Data Validation, Python Get Validation Value, Python Add Whole Number Data Validation, Python Add List Data Validation, Python Add Date Data Validation, Python Add Time Data Validation, Python Add Text Length Data Validation, Python Add CellArea to existing Validation, Python Check if validation in cell is dropdown, Add Custom Valication  
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

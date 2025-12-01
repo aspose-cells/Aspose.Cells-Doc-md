@@ -3,6 +3,8 @@ title: Set the Comment of Table or List Object
 type: docs
 weight: 30
 url: /java/set-the-comment-of-table-or-list-object/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Set the Comment of Table or List Object inside the Worksheet**

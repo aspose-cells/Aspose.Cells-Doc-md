@@ -6,6 +6,8 @@ weight: 200
 url: /nodejs-cpp/add-signature-line/
 description: This article describes how to add a signature line to the worksheet using Node.js code with Aspose.Cells for Node.js via C++.
 keywords: Add Signature line to the worksheet Node.js via C++, How to Add Signature line to the worksheet Node.js via C++, How to add the signature line to the worksheet Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

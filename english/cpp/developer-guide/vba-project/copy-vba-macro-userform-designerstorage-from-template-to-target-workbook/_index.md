@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /cpp/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 description: Learn how to copy VBA Macro UserForm DesignerStorage from a template to a target workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

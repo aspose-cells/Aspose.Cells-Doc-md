@@ -3,6 +3,8 @@ title: Worksheet To Image in Jython
 type: docs
 weight: 90
 url: /java/worksheet-to-image-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Worksheet To Image**

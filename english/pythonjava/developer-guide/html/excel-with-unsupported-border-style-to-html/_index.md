@@ -3,6 +3,8 @@ title: Excel with unsupported border style to HTML
 type: docs
 weight: 80
 url: /python-java/excel-with-unsupported-border-style-to/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Excel with unsupported border style to HTML**

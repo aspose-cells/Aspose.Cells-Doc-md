@@ -5,6 +5,8 @@ weight: 5
 url: /php-java/features/
 keywords: "php, excel, api, features"
 description: "Aspose.Cells for PHP via Java features."
+ai_search_scope: cells_phpjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells for PHP via Java Features Overview**

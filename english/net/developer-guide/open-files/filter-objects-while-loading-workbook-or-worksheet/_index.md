@@ -3,6 +3,8 @@ title: Filter Objects while loading Workbook or Worksheet
 type: docs
 weight: 330
 url: /net/filter-objects-while-loading-workbook-or-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Tracing Precedents and Dependents in Aspose.Cells
 type: docs
 weight: 130
 url: /net/tracing-precedents-and-dependents-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

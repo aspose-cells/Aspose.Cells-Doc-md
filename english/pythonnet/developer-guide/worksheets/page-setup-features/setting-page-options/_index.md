@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/setting-page-options/
 description: This article provides sample code to set page options of Excel worksheets programmatically using Aspose.Cells for Python via .NET API. You will be able to set Page Orientation, Scaling Factor, FitToPages Options, Paper Size, Print Quality, First Page Number.
 keywords: Python Excel Library, Python set excel page orientation, set excel scaling factor using Python, set excel worksheets paper size in Python, Python How to Set Page Orientation, Python How to Set Scaling Factor, Python How to Set FitToPages Options, Python How to Set Paper Size, Python How to Set Print Quality, Python How to Set First Page Number.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

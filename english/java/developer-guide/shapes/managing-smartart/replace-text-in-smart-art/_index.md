@@ -3,6 +3,8 @@ title: Replace text in smart art
 type: docs
 weight: 140
 url: /java/replace-text-in-smart-art/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

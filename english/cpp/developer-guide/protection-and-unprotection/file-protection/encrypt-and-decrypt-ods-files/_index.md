@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /cpp/encrypt-and-decrypt-ods-files/  
 description: Password-protect and encrypt ODS files using Aspose.Cells for C++ which is a pure C++ library.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 {{% alert color="primary" %}}  

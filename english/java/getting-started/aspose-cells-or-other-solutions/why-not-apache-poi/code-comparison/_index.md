@@ -3,6 +3,8 @@ title: Code Comparison for Common Features in Aspose.Cells and Apache POI - HSSF
 type: docs
 weight: 10
 url: /java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi-hssf-and-xssf/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The developers looking for spreadsheet processing libraries may need to walk through the features provided by the libraries available on the market. Mainly, few factors are considered when choosing an option:

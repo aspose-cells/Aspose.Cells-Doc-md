@@ -3,6 +3,8 @@ title: Find Query Tables and List Objects related to External Data Connections
 type: docs
 weight: 20
 url: /python-net/find-query-tables-and-list-objects-related-to-external-data-connections/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

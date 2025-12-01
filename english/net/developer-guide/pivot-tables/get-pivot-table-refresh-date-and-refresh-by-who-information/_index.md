@@ -3,6 +3,8 @@ title: Get Pivot Table refresh date and refresh by who information
 type: docs
 weight: 100
 url: /net/get-pivot-table-refresh-date-and-refresh-by-who-information/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

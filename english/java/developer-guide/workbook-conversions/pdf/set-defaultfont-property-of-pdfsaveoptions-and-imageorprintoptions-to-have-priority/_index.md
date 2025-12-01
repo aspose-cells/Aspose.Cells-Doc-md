@@ -3,6 +3,8 @@ title: Set DefaultFont property of PdfSaveOptions and ImageOrPrintOptions to hav
 type: docs
 weight: 30
 url: /java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

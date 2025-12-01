@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /nodejs-cpp/set-column-width-to-scalable-unit-like-em-or-percent/
 description: Learn how to set column width to scalable units like em or percent in Aspose.Cells for Node.js via C++. Improve the presentation of generated HTML tables.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Generating an HTML file from a spreadsheet is very common. The size of the columns is defined in "pt," which works in many cases. However, there can be a case where this fixed size may not be required. For example, if a container panel width is 600px, where this HTML page is being displayed, you may get a horizontal scrollbar if the generated table width is bigger. It was required that this fixed size shall be changed into a scalable unit like em or percent to get a better presentation. Following sample code can be used where [**HtmlSaveOptions.getWidthScalable()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getWidthScalable--) is set to **true** for creating scalable width.

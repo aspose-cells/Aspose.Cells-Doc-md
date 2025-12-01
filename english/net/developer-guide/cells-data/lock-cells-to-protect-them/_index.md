@@ -5,6 +5,8 @@ weight: 130
 url: /net/how-to-lock-cells-to-protect-them/
 description: This article shows you code explaining how to lock cells to protect them using Aspose.Cells library.
 keywords: C# Lock Cells to Protect Them, How to Lock Cells to Protect Them using C#, Lock Cells to Protect Them in C#.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

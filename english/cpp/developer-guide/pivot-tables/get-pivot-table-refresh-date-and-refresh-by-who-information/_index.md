@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/get-pivot-table-refresh-date-and-refresh-by-who-information/
 description: Learn how to fetch the refresh date and refresh by who information from a workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

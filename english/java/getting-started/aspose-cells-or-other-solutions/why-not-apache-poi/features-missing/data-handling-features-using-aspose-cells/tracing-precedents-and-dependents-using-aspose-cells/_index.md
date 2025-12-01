@@ -3,6 +3,8 @@ title: Tracing Precedents and Dependents using Aspose.Cells
 type: docs
 weight: 60
 url: /java/tracing-precedents-and-dependents-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Download Running Code**

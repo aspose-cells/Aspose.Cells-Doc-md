@@ -6,6 +6,8 @@ weight: 40
 url: /python-net/access-and-update-the-portions-of-rich-text-of-cell/
 description: Learn how to Access and Update the Portions of Rich Text of Cell through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Access and Update Rich Text of Cell, Python Get Rich Text of Cell, Python Edit Rich Text of Cell, Python Access Rich Text of Cell, Python Update Rich Text of Cell, Python Change Rich Text of Cell.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Set custom DataSource for WorkbookDesigner
 type: docs
 weight: 60
 url: /net/set-custom-datasource-for-workbookdesigner/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides the option to set custom DataSource for WorkbookDesigner. The API provides an overloaded method [WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5) which takes the name of the source as the first parameter and the instance of the class that implements [ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) as the second parameter. 

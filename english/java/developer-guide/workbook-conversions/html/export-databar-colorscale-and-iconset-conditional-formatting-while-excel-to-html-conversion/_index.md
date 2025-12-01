@@ -3,6 +3,8 @@ title: Export DataBar, ColorScale and IconSet Conditional Formatting while Excel
 type: docs
 weight: 660
 url: /java/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

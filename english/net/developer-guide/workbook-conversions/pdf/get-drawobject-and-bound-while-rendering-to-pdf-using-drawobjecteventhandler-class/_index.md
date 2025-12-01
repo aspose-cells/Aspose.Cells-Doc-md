@@ -3,6 +3,8 @@ title: Get DrawObject and Bound while rendering to PDF using DrawObjectEventHand
 type: docs
 weight: 70
 url: /net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

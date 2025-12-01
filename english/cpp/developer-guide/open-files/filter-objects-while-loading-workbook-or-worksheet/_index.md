@@ -5,6 +5,8 @@ type: docs
 weight: 330
 url: /cpp/filter-objects-while-loading-workbook-or-worksheet/
 description: Learn how to filter objects like charts, shapes, and conditional formatting while loading workbooks or worksheets using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

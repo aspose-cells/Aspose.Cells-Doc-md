@@ -6,6 +6,8 @@ weight: 100
 url: /cpp/get-hyperlinks-in-range/
 description: Learn how to get hyperlinks in range through the Aspose.Cells for C++ API.
 keywords: Get Hyperlinks in Range, Get all the hyperlinks in the selected range, Delete hyperlink in Range, Delete the hyperlinks in the selected range
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Hyperlinks in Range**

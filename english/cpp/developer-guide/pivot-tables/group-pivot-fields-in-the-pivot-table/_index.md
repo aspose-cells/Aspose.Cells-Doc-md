@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/group-pivot-fields-in-the-pivot-table/
 description: Learn how to group pivot fields in a pivot table using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

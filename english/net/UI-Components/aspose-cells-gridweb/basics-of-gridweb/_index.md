@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/basics-of-gridweb/
 keywords: GridWeb
 description: This article introduces  GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## Basics of GridWeb
 GridWeb is a simple to use .net/java webcontrol for display and edit spreadsheet file.

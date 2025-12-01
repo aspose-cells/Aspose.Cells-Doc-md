@@ -6,6 +6,8 @@ weight: 140
 url: /nodejs-cpp/use-error-checking-options/  
 description: Learn how to programmatically use error checking options in Excel worksheets using Aspose.Cells for Node.js via C++.  
 keywords: store number as text in excel using node.js via C++, error check excel options node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

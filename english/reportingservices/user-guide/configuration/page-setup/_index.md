@@ -3,6 +3,8 @@ title: Page Setup
 type: docs
 weight: 80
 url: /reportingservices/page-setup/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The configuration includes two section and 8 kinds of Page Setup properties. These properties include name, index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin and RightMargin.

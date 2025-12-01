@@ -6,6 +6,8 @@ weight: 100
 url: /nodejs-cpp/excel-themes-and-colors/  
 description: Learn how to use custom color schemes with Aspose.Cells for Node.js via C++.  
 keywords: Node.js Create and Apply Color Schemes, Node.js programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme Node.js, Node.js how to Use Color Scheme in Excel  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **How to Apply and Create Color Scheme in Excel**  

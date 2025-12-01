@@ -3,6 +3,8 @@ title: Specify the Language of the Excel File using BuiltIn Document Properties
 type: docs
 weight: 30
 url: /net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

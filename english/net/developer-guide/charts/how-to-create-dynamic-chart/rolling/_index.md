@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Dynamic Rolling Chart, Data Transitions, Smooth
 type: docs
 weight: 74
 url: /net/create-dynamic-rolling-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

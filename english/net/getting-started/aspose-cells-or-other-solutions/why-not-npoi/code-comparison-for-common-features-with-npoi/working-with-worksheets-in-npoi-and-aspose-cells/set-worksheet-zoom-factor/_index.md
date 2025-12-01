@@ -3,6 +3,8 @@ title: Set Worksheet Zoom Factor
 type: docs
 weight: 80
 url: /net/set-worksheet-zoom-factor/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Worksheet Zoom Factor**

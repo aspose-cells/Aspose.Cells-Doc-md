@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, X axis, Category axis, difference, u
 type: docs
 weight: 180
 url: /nodejs-cpp/X-axis-vs-category-axis/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 170
 url: /nodejs-cpp/update-activex-combobox-control/
 description: Learn how to read and write values of ActiveX ComboBox Control using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

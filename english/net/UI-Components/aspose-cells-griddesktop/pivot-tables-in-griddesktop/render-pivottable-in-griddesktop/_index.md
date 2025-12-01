@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/render-pivottable-in-griddesktop/
 keywords: GridDesktop,pivot tables,pivot,render pivot table,
 description: This article introduces the use of pivot tables in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

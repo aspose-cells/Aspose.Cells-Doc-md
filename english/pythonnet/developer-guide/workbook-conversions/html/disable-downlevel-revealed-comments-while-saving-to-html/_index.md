@@ -3,6 +3,8 @@ title: Disable Downlevel Revealed Comments while saving to HTML
 type: docs
 weight: 20
 url: /python-net/disable-downlevel-revealed-comments-while-saving-to/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

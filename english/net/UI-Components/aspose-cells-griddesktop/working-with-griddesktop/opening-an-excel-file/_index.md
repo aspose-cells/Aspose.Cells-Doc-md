@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/openg-an-excel-file/
 keywords: GridDesktop,open,file
 description: This article introduces how to open file in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

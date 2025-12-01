@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, background fill, picture, import, posi
 type: docs
 weight: 30
 url: /cpp/set-picture-as-background-fill-in-the-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

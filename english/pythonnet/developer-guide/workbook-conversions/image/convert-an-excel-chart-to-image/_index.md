@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/convert-an-excel-chart-to-image/
 description: Convert an Excel Chart to Image by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert an Excel Chart to Image, Export an Excel Chart to Image in Python via NET, Python Save an Excel Chart to Image.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

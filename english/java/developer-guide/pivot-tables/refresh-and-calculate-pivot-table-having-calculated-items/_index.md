@@ -3,6 +3,8 @@ title: Refresh and Calculate Pivot Table having Calculated Items
 type: docs
 weight: 130
 url: /java/refresh-and-calculate-pivot-table-having-calculated-items/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

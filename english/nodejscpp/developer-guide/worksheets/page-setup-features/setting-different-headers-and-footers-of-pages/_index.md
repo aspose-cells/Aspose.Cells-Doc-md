@@ -6,6 +6,8 @@ weight: 35
 url: /nodejs-cpp/setting-different-headers-and-footers-for-pages-to-excel/
 description: This article provides sample code that shows how to programmatically set headers and footers of Excel worksheet Page Setup using Aspose.Cells for Node.js via C++. Set headers and footers for first, odd, and even pages.
 keywords: set excel header footer first page Node.js via C++, set excel header footer odd pages Node.js via C++, set excel header footer even pages Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

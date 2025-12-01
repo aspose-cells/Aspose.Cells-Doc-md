@@ -3,6 +3,8 @@ title: Spreadsheet Editor - Working with Functions
 type: docs
 weight: 60
 url: /java/spreadsheet-editor-working-with-functions/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Table of Contents**

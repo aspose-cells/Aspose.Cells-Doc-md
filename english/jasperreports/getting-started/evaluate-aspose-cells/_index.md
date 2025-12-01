@@ -3,6 +3,8 @@ title: Evaluate Aspose.Cells
 type: docs
 weight: 50
 url: /jasperreports/evaluate-aspose-cells/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

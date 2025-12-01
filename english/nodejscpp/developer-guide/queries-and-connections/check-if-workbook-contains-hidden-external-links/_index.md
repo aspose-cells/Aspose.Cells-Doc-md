@@ -5,6 +5,8 @@ type: docs
 weight: 230  
 url: /nodejs-cpp/check-if-workbook-contains-hidden-external-links/  
 description: Learn how to check if a workbook contains hidden external links using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

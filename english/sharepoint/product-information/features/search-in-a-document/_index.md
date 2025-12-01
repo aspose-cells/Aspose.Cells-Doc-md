@@ -3,6 +3,8 @@ title: Search in a Document
 type: docs
 weight: 60
 url: /sharepoint/search-in-a-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for SharePoint supports searches in documents stored in SharePoint sites. Aspose.Cells for Share Point supports the following input formats to preview documents:

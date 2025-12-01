@@ -3,6 +3,8 @@ title: Create Charts using Apache POI and Aspose.Cells
 type: docs
 weight: 50
 url: /java/create-charts-using-apache-poi-and-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Create Charts**

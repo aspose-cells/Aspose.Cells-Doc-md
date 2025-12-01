@@ -3,6 +3,8 @@ title: How to change the Comment Font Color
 type: docs
 weight: 180
 url: /net/how-to-change-the-comment-font-color/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

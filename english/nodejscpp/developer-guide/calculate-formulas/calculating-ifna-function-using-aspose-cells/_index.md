@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, IFNA functions, calculations Node.js via C++
 type: docs
 weight: 40
 url: /nodejs-cpp/calculating-ifna-function-using-aspose-cells/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

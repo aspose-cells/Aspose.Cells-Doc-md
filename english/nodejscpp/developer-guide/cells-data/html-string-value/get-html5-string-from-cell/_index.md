@@ -5,6 +5,8 @@ weight: 90
 url: /nodejs-cpp/get-html5-string-from-cell/
 description: Learn how to get HTML5 string from Cell through the Aspose.Cells for Node.js via C++ API.
 keywords: Get HTML5 string from Cell Node.js via C++, Obtain HTML5 string from Cell Node.js via C++, Manage HTML5 string of Cell Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

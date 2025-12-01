@@ -3,6 +3,8 @@ title: Formula Editor Window
 type: docs
 weight: 20
 url: /reportingservices/formula-editor-window/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

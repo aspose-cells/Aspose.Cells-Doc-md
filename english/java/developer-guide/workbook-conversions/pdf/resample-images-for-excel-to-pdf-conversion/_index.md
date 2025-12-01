@@ -5,6 +5,8 @@ weight: 250
 url: /java/resample-images-for-excel-to-pdf-conversion/
 description: This article demonstrates reducing image sizes while converting Excel files to PDF
 keywords: excel to pdf, resample images during excel to pdf conversion, compress images during excel to pdf conversion, reduce image sizes during excel to pdf conversion, convert excel to pdf with smaller size, excel to pdf conversion with image resampling, excel to pdf conversion with image compression, resample images during excel to pdf conversion java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

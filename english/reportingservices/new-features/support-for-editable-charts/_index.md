@@ -3,6 +3,8 @@ title: Support for Editable Charts
 type: docs
 weight: 60
 url: /reportingservices/support-for-editable-charts/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

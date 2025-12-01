@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/secure-pdf-documents/
 description: Learn how to pass in PDF security options when saving spreadsheets to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python write security options to pdf, encrypt PDF document 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

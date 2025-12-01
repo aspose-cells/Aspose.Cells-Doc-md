@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/  
 description: Learn how to specify individual or private sets of fonts for workbook rendering using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Possible Usage Scenarios**  

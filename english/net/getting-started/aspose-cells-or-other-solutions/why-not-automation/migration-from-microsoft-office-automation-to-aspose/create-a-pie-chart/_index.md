@@ -3,6 +3,8 @@ title: Create a Pie Chart
 type: docs
 weight: 110
 url: /net/create-a-pie-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Calculate Workbook Formulas
 type: docs
 weight: 10
 url: /cpp/calculate-workbook-formulas/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Calculate Workbook Formulas**

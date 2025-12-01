@@ -5,6 +5,8 @@ weight: 80
 url: /nodejs-cpp/group-pivot-fields-in-the-pivot-table/
 description: How to group Pivot Fields in the Pivot Table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, How to Group Pivot Fields in the Pivot Table Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

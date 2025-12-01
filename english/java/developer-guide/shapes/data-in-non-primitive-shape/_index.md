@@ -3,6 +3,8 @@ title: Data in Non-Primitive Shape
 type: docs
 weight: 500
 url: /java/data-in-non-primitive-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Accessing Data of Non-Primitive Shape**

@@ -6,6 +6,8 @@ weight: 60
 url: /python-net/add-cells-to-microsoft-excel-formula-watch-window/
 description: Learn how to monitor cells in Excel's Formula Watch Window using Aspose.Cells for Python via .NET. Includes code examples and API references.
 keywords: python excel, formula watch window, cell monitoring, aspose.cells, python.net
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

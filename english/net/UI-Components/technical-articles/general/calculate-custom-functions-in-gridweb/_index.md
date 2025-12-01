@@ -5,6 +5,8 @@ weight: 90
 url: /net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
 keywords: GridWeb,custom functions,custom,function
 description: This article introduce features of custom functions in GridWeb .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

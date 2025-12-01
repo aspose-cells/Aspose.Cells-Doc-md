@@ -3,6 +3,8 @@ title: Product Overview
 type: docs
 weight: 5
 url: /java/product-overview/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

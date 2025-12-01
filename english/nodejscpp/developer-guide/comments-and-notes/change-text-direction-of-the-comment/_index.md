@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /nodejs-cpp/change-text-direction-of-the-comment/
 description: Learn how to change the text direction of comments using Aspose.Cells for Node.js via C++. Customize comment alignment settings effectively.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

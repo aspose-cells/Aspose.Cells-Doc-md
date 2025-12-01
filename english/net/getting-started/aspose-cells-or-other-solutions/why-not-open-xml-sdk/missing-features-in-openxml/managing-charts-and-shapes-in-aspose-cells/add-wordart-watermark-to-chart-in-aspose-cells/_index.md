@@ -3,6 +3,8 @@ title: Add WordArt Watermark to Chart in Aspose.Cells
 type: docs
 weight: 10
 url: /net/add-wordart-watermark-to-chart-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

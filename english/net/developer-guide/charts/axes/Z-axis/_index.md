@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Z-axis, charting, configuration, customization,
 type: docs
 weight: 210
 url: /net/z-axis/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

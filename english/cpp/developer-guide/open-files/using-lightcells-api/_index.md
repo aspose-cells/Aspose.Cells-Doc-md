@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/using-lightcells-api/
 description: Learn how to use the LightCells API in C++ to efficiently read and write large Excel files with minimal memory usage.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

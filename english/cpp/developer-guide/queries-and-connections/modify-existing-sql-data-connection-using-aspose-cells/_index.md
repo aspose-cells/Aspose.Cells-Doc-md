@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/modify-existing-sql-data-connection-using-aspose-cells/
 description: Learn how to modify existing SQL Data Connection in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

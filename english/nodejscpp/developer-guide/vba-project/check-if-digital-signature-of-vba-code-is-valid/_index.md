@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/check-if-digital-signature-of-vba-code-is-valid/
 description: Learn how to check the validity of a digital signature of VBA code using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 {{% alert color="primary" %}}

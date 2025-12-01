@@ -3,6 +3,8 @@ title: Adding Hyperlinks to Link Data in Aspose.Cells
 type: docs
 weight: 10
 url: /net/adding-hyperlinks-to-link-data-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

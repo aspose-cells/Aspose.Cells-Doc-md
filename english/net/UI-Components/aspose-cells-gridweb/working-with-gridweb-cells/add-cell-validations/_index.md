@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-gridweb/add-cell-validations/
 keywords: GridWeb,GridValidation,list validation,custom expression validation
 description: This article introduces how to add list validation,drop-down list validation and custom expression validation in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

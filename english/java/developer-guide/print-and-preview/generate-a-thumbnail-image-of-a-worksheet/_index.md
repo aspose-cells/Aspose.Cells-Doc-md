@@ -3,6 +3,8 @@ title: Generate a Thumbnail Image of a Worksheet
 type: docs
 weight: 30
 url: /java/generate-a-thumbnail-image-of-a-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

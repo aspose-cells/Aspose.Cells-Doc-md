@@ -3,6 +3,8 @@ title: Delete text from a cell
 type: docs
 weight: 30
 url: /net/delete-text-from-a-cell/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

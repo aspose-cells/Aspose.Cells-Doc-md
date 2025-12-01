@@ -5,6 +5,8 @@ weight: 10
 url: /python-java/limitations-and-api-differences/
 keywords: "python, excel, limitation, api, differences"
 description: "Aspose.Cells for Python via Java limitations and api differences."
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

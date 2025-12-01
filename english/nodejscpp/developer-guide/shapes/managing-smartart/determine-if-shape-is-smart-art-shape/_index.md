@@ -5,6 +5,8 @@ type: docs
 weight: 400  
 url: /nodejs-cpp/determine-if-shape-is-smart-art-shape/  
 description: Learn how to determine if a shape in Excel is a Smart Art shape using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

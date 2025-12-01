@@ -4,6 +4,8 @@ linktitle: Convert the Smart Art to Group Shape
 type: docs
 weight: 200
 url: /nodejs-cpp/convert-the-smart-art-to-group-shape/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

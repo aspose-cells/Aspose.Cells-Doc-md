@@ -6,6 +6,8 @@ weight: 260
 url: /nodejs-cpp/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/  
 description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for Node.js via C++.  
 keywords: Measure the Width of the Cell Value in Unit of Pixels Node.js via C++, Measure the Height of the Cell Value in Unit of Pixels Node.js via C++, Get the Width of the Cell Value in Unit of Pixels Node.js via C++, Get the Height of the Cell Value in Unit of Pixels Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

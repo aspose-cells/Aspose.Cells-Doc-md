@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /cpp/import-xml-map-inside-a-workbook-using-aspose-cells/
 description: Import data from an XML data file to Microsoft Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate Node.j
 type: docs
 weight: 80
 url: /nodejs-cpp/detect-merged-cells-in-a-worksheet/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

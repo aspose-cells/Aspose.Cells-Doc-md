@@ -3,6 +3,8 @@ title: Publishing Report
 type: docs
 weight: 120
 url: /reportingservices/publishing-report/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: World Class Free Technical Support
 type: docs
 weight: 60
 url: /jasperreports/world-class-free-technical-support/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

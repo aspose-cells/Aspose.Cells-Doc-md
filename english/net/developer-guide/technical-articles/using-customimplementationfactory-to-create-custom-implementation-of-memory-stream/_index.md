@@ -3,6 +3,8 @@ title: Using CustomImplementationFactory to create custom implementation of Memo
 type: docs
 weight: 40
 url: /net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Specify how to cross string in output HTML using HtmlCrossType
 type: docs
 weight: 140
 url: /net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

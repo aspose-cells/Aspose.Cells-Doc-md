@@ -3,6 +3,8 @@ title: Hiding the Display of Zero Values in the Worksheet
 type: docs
 weight: 250
 url: /java/hiding-the-display-of-zero-values-in-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

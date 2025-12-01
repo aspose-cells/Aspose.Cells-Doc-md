@@ -5,6 +5,8 @@ weight: 320
 url: /python-net/change-the-html-link-target-type/
 description: This topic show you how to Change the HTML Link Target Type using Aspose.Cells for Python via NET.
 keywords: Change the HTML Link Target Type, blank target type, parent target type, top target type, self target type.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

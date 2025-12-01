@@ -5,6 +5,8 @@ weight: 160
 url: /net/creating-waterfall-chart/
 description: Create waterfall charts in Excel with C# and Aspose.Cells for .NET API.
 keywords: c# create waterfall chart in excel, c# creating waterfall chart in excel, creating waterfall chart in excel with c#, create waterfall chart in excel with c#, create waterfall chart in excel c#, create waterfall chart excel c#, create waterfall chart in excel programmatically, how to create waterfall chart in excel with c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/setting-pivot-table-option-for-empty-cells-show/
 description: Learn how to set the "For empty cells show" option in pivot tables using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

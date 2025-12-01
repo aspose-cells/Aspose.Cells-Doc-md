@@ -3,6 +3,8 @@ title: Send Shape Front or Back inside the Worksheet
 type: docs
 weight: 3400
 url: /net/send-shape-front-or-back-inside-the-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

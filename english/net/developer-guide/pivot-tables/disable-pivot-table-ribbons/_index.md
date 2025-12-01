@@ -3,6 +3,8 @@ title: Disable Pivot Table Ribbons
 type: docs
 weight: 90
 url: /net/disable-pivot-table-ribbons/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

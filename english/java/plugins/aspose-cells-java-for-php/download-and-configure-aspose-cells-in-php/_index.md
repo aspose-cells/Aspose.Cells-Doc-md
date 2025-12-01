@@ -3,6 +3,8 @@ title: Download and Configure Aspose.Cells in PHP
 type: docs
 weight: 10
 url: /java/download-and-configure-aspose-cells-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Download Required Libraries**

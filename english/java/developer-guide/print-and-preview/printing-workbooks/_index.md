@@ -5,6 +5,8 @@ weight: 20
 url: /java/printing-workbooks/
 description: How print worksheets and workbook using Java. This article provides the Java code to print worksheets and workbook using Aspose.Cells for Java API.
 keywords: printing workbooks, printing worksheets, printing workbook sheets, printing a workbook, printing workbook java, printing worksheets java, printing excel workbook java, print excel worksheet java, print workbook, print worksheet
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

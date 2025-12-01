@@ -5,6 +5,8 @@ type: docs
 weight: 105 
 url: /cpp/copy-ranges-of-excel/ 
 description: Learn how to copy ranges in Excel using Aspose.Cells with C++. 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Introduction**

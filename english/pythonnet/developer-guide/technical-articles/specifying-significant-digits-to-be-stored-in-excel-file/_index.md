@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /python-net/specifying-significant-digits-to-be-stored-in-excel-file/
 description: Learn how to control significant digits stored in Excel files using Aspose.Cells for Python via .NET API.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/create-workbook-and-worksheet-scoped-named-ranges/
 description: Learn to create workbook and worksheet scoped named ranges with C++ using Aspose.Cells.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

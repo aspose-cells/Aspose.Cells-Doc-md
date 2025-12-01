@@ -6,6 +6,8 @@ weight: 120
 url: /nodejs-cpp/set-worksheet-tab-color/  
 description: This article demonstrates sample code that sets the Excel worksheet Tab Color programmatically using Node.js via C++.  
 keywords: set excel tab color Node.js via C++, code to set excel tab color Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

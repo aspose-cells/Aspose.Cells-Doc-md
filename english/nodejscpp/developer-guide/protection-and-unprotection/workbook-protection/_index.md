@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/protect-and-unprotect-workbook-structure/  
 description: Protect and unprotect workbook structure of Excel files using Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 

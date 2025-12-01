@@ -3,6 +3,8 @@ title: Export VBA Certificate to File or Stream
 type: docs
 weight: 90
 url: /python-net/export-vba-certificate-to-file-or-stream/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Find Specific Word Occurrence
 type: docs
 weight: 120
 url: /net/find-specific-word-occurrence/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **VSTO Excel**

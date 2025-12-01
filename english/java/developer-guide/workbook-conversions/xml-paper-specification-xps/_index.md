@@ -4,6 +4,8 @@ linktitle: XPS
 type: docs
 weight: 30
 url: /java/xml-paper-specification-xps/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About XPS**

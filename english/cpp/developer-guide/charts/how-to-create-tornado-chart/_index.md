@@ -6,6 +6,8 @@ weight: 73
 url: /cpp/create-tornado-chart/
 description: Learn how to create a tornado chart with Aspose.Cells for C++ API.
 keywords: C++ create a tornado chart, add a tornado chart, insert a tornado chart
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

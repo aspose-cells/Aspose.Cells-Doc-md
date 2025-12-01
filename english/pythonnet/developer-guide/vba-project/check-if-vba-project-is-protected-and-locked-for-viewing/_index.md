@@ -3,6 +3,8 @@ title: Check if VBA Project is Protected and Locked for Viewing
 type: docs
 weight: 30
 url: /python-net/check-if-vba-project-is-protected-and-locked-for-viewing/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Check if VBA Project is Protected and Locked for Viewing in Python

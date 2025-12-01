@@ -3,6 +3,8 @@ title: Managing Document Properties in Ruby
 type: docs
 weight: 90
 url: /java/managing-document-properties-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Accessing Document Properties**

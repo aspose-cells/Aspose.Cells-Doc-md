@@ -3,6 +3,8 @@ title: Create Slicer to a Pivot Table
 type: docs
 weight: 10
 url: /python-java/create-slicer-to-a-pivot-table/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

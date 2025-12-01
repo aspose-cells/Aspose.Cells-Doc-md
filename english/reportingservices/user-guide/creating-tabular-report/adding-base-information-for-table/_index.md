@@ -3,6 +3,8 @@ title: Adding base information for Table
 type: docs
 weight: 20
 url: /reportingservices/adding-base-information-for-table/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To create a new table:

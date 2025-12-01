@@ -5,6 +5,8 @@ weight: 600
 url: /python-net/how-to-control-workbook-view/
 description: Learn how to How to Control Workbook View through the Aspose.Cells for Python via .NET API.
 keywords: How to Control Workbook View, Set Excel View, Operate Workbook View, Set Workbook View, Control Excel View. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

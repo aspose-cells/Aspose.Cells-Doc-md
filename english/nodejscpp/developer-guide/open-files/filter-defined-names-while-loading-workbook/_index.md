@@ -4,6 +4,8 @@ linktitle: Filter Defined Names while loading Workbook
 type: docs
 weight: 50
 url: /nodejs-cpp/filter-defined-names-while-loading-workbook/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

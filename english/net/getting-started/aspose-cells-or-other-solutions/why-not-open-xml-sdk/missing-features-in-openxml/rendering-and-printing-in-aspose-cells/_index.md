@@ -3,6 +3,8 @@ title: Rendering and Printing in Aspose.Cells
 type: docs
 weight: 70
 url: /net/rendering-and-printing-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics

@@ -5,6 +5,8 @@ weight: 160
 url: /python-net/detect-hyperlink-type/
 description: Learn how to detect hyperlink type through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Detect hyperlink type, Python Detect the type of hyperlink, Python Get the type of hyperlink.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Detect Hyperlink Type**

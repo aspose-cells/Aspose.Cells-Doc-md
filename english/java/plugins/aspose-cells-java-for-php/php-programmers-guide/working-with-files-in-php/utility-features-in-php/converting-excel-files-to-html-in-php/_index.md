@@ -3,6 +3,8 @@ title: Converting Excel Files to HTML in PHP
 type: docs
 weight: 20
 url: /java/converting-excel-files-to-html-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Excel Files to HTML**

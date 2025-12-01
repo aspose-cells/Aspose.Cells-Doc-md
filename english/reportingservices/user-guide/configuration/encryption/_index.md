@@ -3,6 +3,8 @@ title: Encryption
 type: docs
 weight: 40
 url: /reportingservices/encryption/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Reporting Services supports three kinds of encryption: XOR, WEAK ENCRYPTION, and Microsoft Strong Cryptographic Provider. See the encryption configuration information in the **Aspose.Cells.ReportingServices.xml** file.

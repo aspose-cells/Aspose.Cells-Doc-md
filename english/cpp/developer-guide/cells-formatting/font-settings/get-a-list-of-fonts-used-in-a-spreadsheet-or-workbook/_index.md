@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
 type: docs
 weight: 20
 url: /cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

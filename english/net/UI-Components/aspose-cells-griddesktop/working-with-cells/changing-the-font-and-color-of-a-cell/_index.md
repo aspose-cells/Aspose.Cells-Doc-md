@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
 keywords: GridDesktop,font,color,change font,change color
 description: This article introduces how to update font and color in the cell in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

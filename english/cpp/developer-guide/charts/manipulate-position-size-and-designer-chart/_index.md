@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Position, Size, Designer Chart, Microsoft Excel,
 type: docs
 weight: 45
 url: /cpp/manipulate-position-size-and-designer-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**

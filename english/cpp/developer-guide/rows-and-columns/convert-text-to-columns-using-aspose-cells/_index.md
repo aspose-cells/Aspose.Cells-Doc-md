@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/convert-text-to-columns-using-aspose-cells/
 description: Learn how to convert text to columns in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

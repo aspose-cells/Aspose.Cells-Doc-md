@@ -3,6 +3,8 @@ title: Working With Colors
 type: docs
 weight: 20
 url: /net/working-with-colors/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Working With Colors**

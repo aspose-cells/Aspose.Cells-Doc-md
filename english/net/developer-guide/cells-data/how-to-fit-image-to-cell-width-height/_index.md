@@ -5,6 +5,8 @@ weight: 130
 url: /net/how-to-fit-image-to-cell-width-height/
 description: Learn how to fit image to cell width with Aspose.Cells.
 keywords: How to Fit Image to Cell Width, Fit Image to Cell Width, How to Fit Image to Cell Width and Height, How to Fit Image to Cell Height.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

@@ -3,6 +3,8 @@ title: Specify whether the PivotTable is compatible for Excel2003 while refreshi
 type: docs
 weight: 80
 url: /net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

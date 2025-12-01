@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, chart types, supported, creation, mod
 type: docs
 weight: 5
 url: /net/chart-types/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

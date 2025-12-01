@@ -5,6 +5,8 @@ weight: 50
 url: /nodejs-cpp/get-text-width-of-cell-value/
 description: Learn how to Get Text Width of Cell Value through Aspose.Cells for Node.js via C++ API.
 keywords: Get Text Width of Cell Value Node.js via C++, Obtain Text Width of Cell Value Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Text Width of Cell Value**

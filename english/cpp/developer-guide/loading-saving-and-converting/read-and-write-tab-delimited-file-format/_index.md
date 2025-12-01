@@ -3,6 +3,8 @@ title: Read and Write Tab Delimited File Format
 type: docs
 weight: 50
 url: /cpp/read-and-write-tab-delimited-file-format/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

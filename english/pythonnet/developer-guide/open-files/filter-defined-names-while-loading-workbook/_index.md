@@ -3,6 +3,8 @@ title: Filter Defined Names while loading Workbook
 type: docs
 weight: 50
 url: /python-net/filter-defined-names-while-loading-workbook/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

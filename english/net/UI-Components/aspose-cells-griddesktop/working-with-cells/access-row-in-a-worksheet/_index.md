@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/access-row-in-a-worksheet/
 keywords: GridDesktop,GridRow,get row
 description: This article introduces how to get row object (GridRow) in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ### Iterate over the rows
 **Best Practices**:

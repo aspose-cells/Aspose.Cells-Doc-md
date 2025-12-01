@@ -3,6 +3,8 @@ title: Freeze Panes in Apache POI and Aspose.Cells
 type: docs
 weight: 80
 url: /java/freeze-panes-in-apache-poi-and-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Freeze Panes**

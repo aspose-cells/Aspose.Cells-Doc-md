@@ -6,6 +6,8 @@ weight: 50
 url: /nodejs-cpp/hiding-the-display-of-zero-values-in-the-worksheet/
 description: This article will show you sample code explaining how to programmatically hide the zero values in an Excel spreadsheet using the Node.js library via C++.
 keywords: hide zero values of excel worksheet in Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

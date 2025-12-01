@@ -3,6 +3,8 @@ title: Support the layout of DIV tags while loading HTML to excel workbook
 type: docs
 weight: 770
 url: /java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

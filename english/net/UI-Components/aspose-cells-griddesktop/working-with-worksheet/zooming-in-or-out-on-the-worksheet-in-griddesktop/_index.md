@@ -5,6 +5,8 @@ weight: 160
 url: /net/aspose-cells-griddesktop/zoom-in-or-out-on-the-worksheet-in-griddesktop/
 keywords: GridDesktop,zoom,zoom in,zoom out
 description: This article introduces how to zoom in or zoom out in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

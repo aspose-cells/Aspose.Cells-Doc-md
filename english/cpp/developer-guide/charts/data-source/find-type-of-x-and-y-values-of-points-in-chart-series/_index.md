@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, X values, Y values, data types, access
 type: docs
 weight: 150
 url: /cpp/find-type-of-x-and-y-values-of-points-in-chart-series/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

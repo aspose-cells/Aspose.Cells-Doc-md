@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/how-to-freeze-rows-of-excel-worksheet
 description: In this article, you will learn how to freeze top rows of Excel Worksheets programmatically using Node.js Library with C++ API.
 keywords: Freeze top rows, Freeze top row Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

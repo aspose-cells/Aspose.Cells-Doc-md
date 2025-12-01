@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url:  /python-net/creating-sparklines/
 description: Create sparkline for Excel using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Insert a sparkline**

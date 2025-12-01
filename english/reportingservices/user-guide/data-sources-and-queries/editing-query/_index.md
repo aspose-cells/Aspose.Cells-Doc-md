@@ -3,6 +3,8 @@ title: Editing Query
 type: docs
 weight: 40
 url: /reportingservices/editing-query/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To edit a query in Aspose.Cells.Report.Designer:

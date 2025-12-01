@@ -5,6 +5,8 @@ weight: 50
 url: /net/updating-slicer/
 description: This article shows how to update linked pivot tables by updating slicer by the Aspose.Cells for .NET API.
 keywords: Aspose.Cells C# Update slicer, C# how to change the slicer, how to adjust the slicer in C#, how to select or unselect he slicer items.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

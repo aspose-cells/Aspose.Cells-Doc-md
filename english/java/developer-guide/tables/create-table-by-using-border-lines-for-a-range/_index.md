@@ -5,6 +5,8 @@ weight: 50
 url: /java/create-table-by-using-border-lines-for-a-range/
 description: How to create a table with range by using border lines. Aspose.Cells for Java provides a simple to use API that can be use to add borders to a range.
 keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

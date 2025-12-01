@@ -3,6 +3,8 @@ title: Managing Document Properties in PHP
 type: docs
 weight: 70
 url: /java/managing-document-properties-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Adding Custom Properties**

@@ -5,6 +5,8 @@ weight: 85
 url: /python-net/how-to-filter-blanks-and-non-blanks/
 description: Learn how to filter Blanks and non-blanks by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Filter Blanks, Python Filter Non-Blanks, Python Filter Blanks in worksheet, Python Filter Non-Blanks in worksheet, Python Filter Blanks in excel, Python Filter Non-Blanks in excel, Python Filter Blanks and Non-Blanks in excel
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

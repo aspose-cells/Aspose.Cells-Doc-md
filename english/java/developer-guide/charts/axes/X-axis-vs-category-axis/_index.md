@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, X axis, Category axis, difference, usage, prope
 type: docs
 weight: 180
 url: /java/x-axis-vs-category-axis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

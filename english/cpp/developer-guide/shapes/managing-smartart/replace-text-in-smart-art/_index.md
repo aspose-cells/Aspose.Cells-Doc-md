@@ -5,6 +5,8 @@ type: docs
 weight: 1200
 url: /cpp/replace-text-in-smart-art/
 description: Learn how to update text in smart art using Aspose.Cells for C++ by setting the Shape.Text property.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

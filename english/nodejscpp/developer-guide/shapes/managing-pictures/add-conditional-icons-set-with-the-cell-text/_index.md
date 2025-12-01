@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /nodejs-cpp/add-conditional-icons-set-with-the-cell-text/
 description: Learn how to add conditional icons next to the cell text using Aspose.Cells for Node.js via C++. Enhancing the meaning of data through icons.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

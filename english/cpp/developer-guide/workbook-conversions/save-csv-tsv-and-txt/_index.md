@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/convert-excel-to-csv-tsv-and-txt/
 description: Easily convert Excel files to CSV, TSV, and TXT formats using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 190
 url: /python-net/find-cells-with-specific-style/
 description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Find cells with a particular style applied, Python Search cells with a particular style applied
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

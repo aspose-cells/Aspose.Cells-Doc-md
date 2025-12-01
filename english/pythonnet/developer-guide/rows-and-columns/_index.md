@@ -6,6 +6,8 @@ weight: 100
 url: /python-net/adjusting-row-height-and-column-width/
 description: Aspose.Cells for Python via .NET can support change row height or column width, as well as apply formatting on rows or columns.
 keywords: Python Excel Library, Python Set row height and column width, Python Adjust row height and column width, Python change the row height or column width, Python format rows and columns, Python how to set row height and column width.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

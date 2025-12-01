@@ -5,6 +5,8 @@ type: docs
 weight: 230
 url: /nodejs-cpp/precedents-and-dependents/
 description: Learn to trace precedent and dependent cells in spreadsheets using Aspose.Cells for Node.js via C++. Understand how to identify linked cells in complex financial worksheets.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 140
 url: /net/add-image-hyperlinks/
 description: Learn how to Add Image Hyperlinks through the Aspose.Cells for .NET API.
 keywords: Add Image Hyperlinks, Insert Image Hyperlinks
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

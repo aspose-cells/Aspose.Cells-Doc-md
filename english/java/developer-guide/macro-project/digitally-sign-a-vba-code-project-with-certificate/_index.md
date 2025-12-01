@@ -3,6 +3,8 @@ title: Digitally Sign a VBA Code Project with Certificate
 type: docs
 weight: 110
 url: /java/digitally-sign-a-vba-code-project-with-certificate/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

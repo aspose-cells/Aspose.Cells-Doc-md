@@ -6,6 +6,8 @@ linktitle: Chart Format
 type: docs
 weight: 20
 url: /nodejs-cpp/setting-chart-appearance/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Chart Appearance**

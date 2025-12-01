@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/working-with-contenttypeproperties/
 description: Add custom ContentTypeProperties to an Excel file using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides [**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/contenttypepropertycollection/add/) method to add custom ContentTypeProperties to an Excel file. You may also make the property optional by setting the [**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/contenttypeproperty/isnillable/) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an Excel file. The following image shows both properties that were added by the sample code.

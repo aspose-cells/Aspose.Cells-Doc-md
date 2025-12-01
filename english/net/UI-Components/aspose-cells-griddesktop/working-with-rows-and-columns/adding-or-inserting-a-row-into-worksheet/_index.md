@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-griddesktop/add-or-insert-a-row-into-worksheet/
 keywords: GridDesktop,insert,add,row,insert row,add row
 description: This article introduces how to add or insert row in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

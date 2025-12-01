@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
 description: This article shows how to specify whether the PivotTable is compatible for Excel2003 while refreshing PivotTable with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Specify whether the PivotTable is compatible for Excel2003 while refreshing PivotTable
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

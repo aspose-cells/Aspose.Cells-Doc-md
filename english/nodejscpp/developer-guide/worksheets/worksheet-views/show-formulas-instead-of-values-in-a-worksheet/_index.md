@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /nodejs-cpp/show-formulas-instead-of-values-in-a-worksheet/
 description: This article provides sample code for using the Node.js API via C++ to programmatically display formulas rather than values in an Excel worksheet or spreadsheet.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

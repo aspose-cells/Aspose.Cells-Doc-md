@@ -3,6 +3,8 @@ title: How to Detect a File Format and Check if the File is Encrypted
 type: docs
 weight: 2700
 url: /python-net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

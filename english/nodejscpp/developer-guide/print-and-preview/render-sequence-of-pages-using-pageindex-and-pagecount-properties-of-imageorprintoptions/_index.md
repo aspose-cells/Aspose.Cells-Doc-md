@@ -5,6 +5,8 @@ type: docs
 weight: 110  
 url: /nodejs-cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/  
 description: Learn how to render specific pages of an Excel file to images using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

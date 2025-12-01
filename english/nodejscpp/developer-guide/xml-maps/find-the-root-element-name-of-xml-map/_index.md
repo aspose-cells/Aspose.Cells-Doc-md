@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/find-the-root-element-name-of-xml-map/
 description: Learn how to find the root element name of an XML map in Excel using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

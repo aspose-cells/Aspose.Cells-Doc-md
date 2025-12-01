@@ -3,6 +3,8 @@ title: Output Blank Page when there is Nothing to Print
 type: docs
 weight: 80
 url: /java/output-blank-page-when-there-is-nothing-to-print/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

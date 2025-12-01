@@ -3,6 +3,8 @@ title: Install Aspose Cells through NuGet
 type: docs
 weight: 30
 url: /net/installation/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

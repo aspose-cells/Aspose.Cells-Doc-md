@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js via C++, Spreadsheet, Workbook, Font, List
 type: docs
 weight: 20
 url: /nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

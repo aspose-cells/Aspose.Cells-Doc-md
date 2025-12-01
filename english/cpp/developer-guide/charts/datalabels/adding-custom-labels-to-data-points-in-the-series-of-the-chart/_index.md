@@ -5,6 +5,8 @@ description: Learn how to add custom labels to data points in the series of a ch
 type: docs
 weight: 100
 url: /cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

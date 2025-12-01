@@ -6,6 +6,8 @@ weight: 180
 url: /net/export-data-from-worksheet/
 description: This article explains how to export or import data from worksheet into datatable using C#.
 keywords: C# Export Data from Worksheet, C# Export Data to DataTable, Columns Containing Strongly Typed Data, Columns Containing Non-Strongly Typed Data, C# Export Range with flag to skip column name, C# How to Export Range with Header.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Overview

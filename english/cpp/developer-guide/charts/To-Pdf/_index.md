@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Chart to PDF, Microsoft Excel, PDF Conversion, E
 type: docs
 weight: 47
 url: /cpp/chart-to-pdf/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Rendering Chart to PDF**

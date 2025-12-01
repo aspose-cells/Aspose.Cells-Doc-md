@@ -6,6 +6,8 @@ weight: 73
 url: /nodejs-cpp/create-tornado-chart/
 description: Learn how to create a tornado chart with Aspose.Cells for Node.js via C++ API.
 keywords: Node.js create a tornado chart, add a tornado chart, insert a tornado chart
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

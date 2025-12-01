@@ -6,6 +6,8 @@ weight: 190
 url: /python-net/unfreeze-rows-or-columns-of-excel-worksheet
 description: In this article, you will learn how to unfreeze rows ,columns or panes of Excel Worksheets programmatically using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python Unfreeze panes, Python How to Unfreeze rows, Python how to Unfreeze columns, Python how to unFreeze window.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

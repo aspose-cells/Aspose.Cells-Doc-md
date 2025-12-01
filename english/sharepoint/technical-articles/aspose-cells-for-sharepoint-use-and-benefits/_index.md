@@ -3,6 +3,8 @@ title: Aspose.Cells for SharePoint - Use and Benefits
 type: docs
 weight: 10
 url: /sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

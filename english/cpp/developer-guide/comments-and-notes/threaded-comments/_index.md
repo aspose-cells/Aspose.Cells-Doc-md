@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /cpp/threaded-comments/
 description: Learn how to add, read, edit, and remove threaded comments in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Threaded Comments**

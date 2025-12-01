@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /net/why-not-vsto
 description: "Aspose.Cells for .NET is an advanced Excel file processing library that provides great support for all Microsoft Excel and other file formats. VSTO and Aspose.Cells do not compete with each other because they solve slightly different user tasks using C#."
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 When you need to compare which product is best for your solution, there are many criteria to evaluate, but the main focus will often be the functionality and effort required to use the product.

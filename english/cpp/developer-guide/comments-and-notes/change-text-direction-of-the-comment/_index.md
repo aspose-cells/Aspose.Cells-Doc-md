@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/change-text-direction-of-the-comment/
 description: Learn how to change the text direction of comments in Excel using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

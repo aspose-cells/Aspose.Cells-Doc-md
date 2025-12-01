@@ -3,6 +3,8 @@ title: Generate Conditional Formatting DataBars Images
 type: docs
 weight: 170
 url: /java/generate-conditional-formatting-databars-images/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

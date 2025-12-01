@@ -5,6 +5,8 @@ type: docs
 weight: 260
 url: /cpp/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
 description: Learn how to propagate formulas in tables or list objects automatically when entering new data using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

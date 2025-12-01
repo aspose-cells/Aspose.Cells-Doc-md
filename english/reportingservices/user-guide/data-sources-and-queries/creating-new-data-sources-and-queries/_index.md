@@ -3,6 +3,8 @@ title: Creating New Data sources and Queries
 type: docs
 weight: 20
 url: /reportingservices/creating-new-data-sources-and-queries/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

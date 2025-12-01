@@ -3,6 +3,8 @@ title: Exclude Unused Styles during Excel to HTML conversion
 type: docs
 weight: 30
 url: /java/exclude-unused-styles-during-excel-to-html-conversion/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Apply Shading to Alternate Rows and Columns with Conditional Formatting
 type: docs
 weight: 10
 url: /java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

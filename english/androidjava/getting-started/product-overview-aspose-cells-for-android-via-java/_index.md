@@ -3,6 +3,8 @@ title: Product Overview - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /java/product-overview-aspose-cells-for-android-via-java/
+ai_search_scope: cells_androidjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

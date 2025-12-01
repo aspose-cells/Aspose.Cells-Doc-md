@@ -4,6 +4,8 @@ linktitle: Save Each Worksheet to a Different PDF File
 type: docs  
 weight: 130  
 url: /nodejs-cpp/save-each-worksheet-to-a-different-pdf-file/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

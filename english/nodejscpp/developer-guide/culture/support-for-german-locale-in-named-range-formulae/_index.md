@@ -5,6 +5,8 @@ type: docs
 weight: 60  
 url: /nodejs-cpp/support-for-german-locale-in-named-range-formulae/  
 description: Learn how to support German locale in named range formulae using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 English formulae are written into named region. This Excel file can be opened in an environment where the system is configured to German Locale, however, the English formula shall be translated to German language. The following example demonstrates this feature; however, it requires Excel to be installed in German language and the system locale shall be set to German as well.  

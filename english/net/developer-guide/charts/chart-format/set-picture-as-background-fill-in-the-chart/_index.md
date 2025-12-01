@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, background fill, picture, import, pos
 type: docs
 weight: 30
 url: /net/set-picture-as-background-fill-in-the-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

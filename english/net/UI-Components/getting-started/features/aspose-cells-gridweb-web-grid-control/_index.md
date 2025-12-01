@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-gridweb/features/
 keywords: GridWeb,features,feature
 description: This article introduce features for GridWeb .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells.GridWeb – Web Grid Control**

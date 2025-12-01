@@ -6,6 +6,8 @@ weight: 50
 url: /cpp/get-paper-width-and-height-of-page-setup-of-worksheet/
 description: Learn how to get the Excel Worksheet Page Setup Paper Width and Paper Height using C++ code programmatically with Aspose.Cells for C++ API.
 keywords: excel page setup paper width c++, excel page setup paper height c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

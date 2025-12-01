@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Excel Chart, Get object positions.
 type: docs
 weight: 74
 url: /net/how-to-get-object-position-in-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

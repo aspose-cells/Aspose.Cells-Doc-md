@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
 description: This article explains how to use the Node.js API or C++ Library sample code to copy Page Setup settings from a source Worksheet into a destination Worksheet programmatically.
 keywords: copy page setup settings Node.js via C++, copy page setup settings to target worksheet Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

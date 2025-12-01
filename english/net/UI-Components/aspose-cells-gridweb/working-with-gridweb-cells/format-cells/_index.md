@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-gridweb/format-grid-cell/
 keywords: GridWeb,format,style
 description: This article introduces how to set or apply style format for a cell (GridCell) in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

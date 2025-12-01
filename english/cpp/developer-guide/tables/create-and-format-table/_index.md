@@ -3,6 +3,8 @@ title: Create and Format Table
 type: docs
 weight: 10
 url: /cpp/create-and-format-table/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Table**

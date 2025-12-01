@@ -3,6 +3,8 @@ title: Access the Text Box by the Name
 type: docs
 weight: 230
 url: /net/access-the-text-box-by-the-name/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Access the Text Box by the Name

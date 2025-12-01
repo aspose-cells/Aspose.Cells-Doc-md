@@ -4,6 +4,8 @@ type: docs
 description: "Aspose.Cells for Reporting Services expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 5
 url: /reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This page describes the most interesting new Aspose.Cells for Reporting Services features introduced in recent releases.

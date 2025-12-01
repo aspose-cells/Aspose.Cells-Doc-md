@@ -3,6 +3,8 @@ title: Introduction of GridWeb
 type: docs
 weight: 10
 url: /java/introduction-of-gridweb/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## **Basics of GridWeb**
 Aspose.Cells.GridWeb is a GUI based web control that can be embedded in JSP web pages or any html page in java server . 

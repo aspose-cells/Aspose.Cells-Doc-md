@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, sunburst chart, create, set properties, data lab
 type: docs
 weight: 162
 url: /cpp/creating-sunburst-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

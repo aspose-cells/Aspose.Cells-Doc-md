@@ -3,6 +3,8 @@ title: Setting Shadow of Text Effects of Shape or TextBox
 type: docs
 weight: 250
 url: /python-net/setting-shadow-of-text-effects-of-shape-or-textbox/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

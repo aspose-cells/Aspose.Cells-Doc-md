@@ -3,6 +3,8 @@ title: Returning a Range of Values using ICustomFunction
 type: docs
 weight: 270
 url: /java/returning-a-range-of-values-using-icustomfunction/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

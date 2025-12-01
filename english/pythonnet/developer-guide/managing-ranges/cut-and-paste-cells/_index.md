@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/cut-and-paste-cells/
 description: This article describes how to Cut and Paste Range with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to Cut and Paste Range, Python How to Cut and Paste Cells.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Cut and Paste Cells**

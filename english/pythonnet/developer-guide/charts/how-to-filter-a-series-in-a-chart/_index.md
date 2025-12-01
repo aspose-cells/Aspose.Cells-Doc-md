@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Filtering Charts in Excel, Data Anal
 type: docs
 weight: 2210
 url: /python-net/filtering-charts-in-excel/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

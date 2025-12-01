@@ -3,6 +3,8 @@ title: Removing Worksheets using Sheet Index in Jython
 type: docs
 weight: 110
 url: /java/removing-worksheets-using-sheet-index-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Removing Worksheets using Sheet Index**

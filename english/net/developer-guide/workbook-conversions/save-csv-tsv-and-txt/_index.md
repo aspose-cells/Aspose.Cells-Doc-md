@@ -4,6 +4,8 @@ linktitle: Save as CSV,TSV and Txt
 type: docs
 weight: 40
 url: /net/convert-excel-to-csv-tsv-and-txt/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Adding Custom Properties visible inside Document Information Panel
 type: docs
 weight: 500
 url: /java/adding-custom-properties-visible-inside-document-information-panel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

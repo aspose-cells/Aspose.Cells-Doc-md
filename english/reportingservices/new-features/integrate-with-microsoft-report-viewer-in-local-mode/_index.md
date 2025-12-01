@@ -3,6 +3,8 @@ title: Integrate with Microsoft Report Viewer in Local Mode
 type: docs
 weight: 30
 url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

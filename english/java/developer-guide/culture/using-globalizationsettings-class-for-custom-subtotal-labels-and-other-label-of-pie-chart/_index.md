@@ -3,6 +3,8 @@ title: Using GlobalizationSettings Class for Custom Subtotal Labels and Other La
 type: docs
 weight: 50
 url: /java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

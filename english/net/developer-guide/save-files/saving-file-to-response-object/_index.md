@@ -3,6 +3,8 @@ title: Saving File to Response Object
 type: docs
 weight: 50
 url: /net/saving-file-to-response-object/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 30
 url: /net/add-pivot-connection/
 description: Learn how to add pivot connection with Aspose.Cells library.
 keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

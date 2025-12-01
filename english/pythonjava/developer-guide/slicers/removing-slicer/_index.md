@@ -3,6 +3,8 @@ title: Removing Slicer
 type: docs
 weight: 40
 url: /python-java/removing-slicer/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Removing Slicer**

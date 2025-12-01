@@ -4,6 +4,8 @@ linktitle: Provide exported worksheet HTML file path via IFilePathProvider inter
 type: docs
 weight: 70
 url: /nodejs-cpp/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

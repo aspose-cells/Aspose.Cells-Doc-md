@@ -3,6 +3,8 @@ title: Merging and Unmerging Cells
 type: docs
 weight: 140
 url: /java/merging-and-unmerging-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

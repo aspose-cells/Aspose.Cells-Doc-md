@@ -3,6 +3,8 @@ title: Opening Files in Jython
 type: docs
 weight: 70
 url: /java/opening-files-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Opening Files**

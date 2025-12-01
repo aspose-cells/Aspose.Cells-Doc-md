@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /cpp/how-to-change-the-comment-font-color/
 description: Learn how to customize comment font color in Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

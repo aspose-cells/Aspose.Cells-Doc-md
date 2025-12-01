@@ -5,6 +5,8 @@ weight: 300
 url: /net/specify-formula-fields-while-importing-data-to-worksheet/
 description: Learn how to specify Formula Fields while Importing Data to Worksheet through the Aspose.Cells for .NET API.
 keywords: Specify formula fields while importing data to Worksheet, Set formula fields when adding data to Worksheet
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

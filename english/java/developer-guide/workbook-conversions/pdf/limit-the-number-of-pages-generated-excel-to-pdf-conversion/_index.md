@@ -3,6 +3,8 @@ title: Limit the Number of Pages Generated - Excel to PDF Conversion
 type: docs
 weight: 60
 url: /java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

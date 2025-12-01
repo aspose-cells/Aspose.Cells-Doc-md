@@ -3,6 +3,8 @@ title: Get Warnings while Loading Excel File
 type: docs
 weight: 110
 url: /net/get-warnings-while-loading-excel-file/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

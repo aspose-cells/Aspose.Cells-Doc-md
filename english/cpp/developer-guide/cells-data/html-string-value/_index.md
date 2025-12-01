@@ -6,6 +6,8 @@ weight: 50
 url: /cpp/adding-html-rich-text-inside-the-cell/
 description: Learn how to add HTML Rich Text inside the Cell through the Aspose.Cells for C++ API.
 keywords: Add HTML Rich Text inside the Cell, Set HTML Rich Text inside the Cell, Add HTML Rich Text in the Cell
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Custom Slice or Sector Colors in Pie Chart
 type: docs
 weight: 30
 url: /java/custom-slice-or-sector-colors-in-pie-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

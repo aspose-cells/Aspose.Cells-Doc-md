@@ -5,6 +5,8 @@ weight: 5
 url: /python-java/features/
 keywords: "python, excel, api, features"
 description: "Aspose.Cells for Python via Java features."
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

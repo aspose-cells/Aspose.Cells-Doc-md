@@ -5,6 +5,8 @@ type: docs
 description: "How To Link Excel Shapes to Worksheet Cells"
 weight: 3300
 url: /net/link-shapes-to-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

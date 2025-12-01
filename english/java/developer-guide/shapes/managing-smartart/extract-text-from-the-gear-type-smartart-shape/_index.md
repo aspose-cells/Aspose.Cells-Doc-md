@@ -3,6 +3,8 @@ title: Extract Text from the Gear Type SmartArt Shape
 type: docs
 weight: 130
 url: /java/extract-text-from-the-gear-type-smartart-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /nodejs-cpp/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 description: Learn how to prefix table element styles in HTML using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/save-each-worksheet-to-a-different-pdf-file/
 description: Learn how to Save Each Worksheet to a Different PDF File with Aspose.Cells for Python via .NET API.
 keywords: Python Save Each Worksheet to a Different PDF File
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

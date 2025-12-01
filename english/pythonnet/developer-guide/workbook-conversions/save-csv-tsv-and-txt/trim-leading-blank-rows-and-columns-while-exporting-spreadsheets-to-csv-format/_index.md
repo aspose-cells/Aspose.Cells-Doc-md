@@ -5,6 +5,8 @@ weight: 100
 url: /python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 description: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format by using Aspose.Cells for Python via .NET API.
 keywords: Python Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format, Trim Leading Blank Rows and Columns while saving excel to CSV format in Python via NET, Python Trim Leading Blank Rows and Columns exporting excel to CSV format.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

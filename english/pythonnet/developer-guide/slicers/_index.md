@@ -6,6 +6,8 @@ weight: 170
 url: /python-net/create-slicer/
 description: Manage slicers of Excel files with Aspose.Cells.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python Create Slicer without Excel, Add Slicer via Aspose.Cells for Python, Insert Slicer using Aspose.Cells for Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

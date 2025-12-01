@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/pivot-table-hide-and-sort-data/
 description: Learn how to hide and sort data in pivot tables using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table Hide and Sort Data**

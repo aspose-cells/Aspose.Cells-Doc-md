@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /python-net/manage-vba-project/
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for Python via .NET library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add a VBA Module in Python**

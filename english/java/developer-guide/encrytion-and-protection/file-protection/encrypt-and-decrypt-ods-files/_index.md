@@ -4,6 +4,8 @@ type: docs
 weight: 10
 url: /java/encrypt-and-decrypt-ods-files/
 description: password-protect and encrypt ODS files using Aspose.Cells for Java which is a pure Java library.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

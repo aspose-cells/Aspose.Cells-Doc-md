@@ -3,6 +3,8 @@ title: Cut and Paste Ranges
 type: docs
 weight: 150
 url: /java/cut-and-paste-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Cut and Paste Cells**

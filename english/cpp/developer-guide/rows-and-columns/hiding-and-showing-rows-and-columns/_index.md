@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/hiding-and-showing-rows-and-columns/
 description: Learn how to hide and show rows and columns in Excel files programmatically using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

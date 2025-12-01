@@ -10,6 +10,8 @@ aliases:
   - /java/aspose-cells-gridjs/how-to-highlight/
   - /java/aspose-cells-gridjs/work-with-highlight-api/
   - /java/aspose-cells-gridjs/work-with-highlight-apis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Working with GridJs Highlight feature 

@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 description: Add XML Map inside the workbook using XmlMapCollection.Add method with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

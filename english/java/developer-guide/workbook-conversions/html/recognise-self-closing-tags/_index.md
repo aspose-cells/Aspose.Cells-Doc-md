@@ -3,6 +3,8 @@ title: Recognise self closing tags
 type: docs
 weight: 120
 url: /java/recognise-self-closing-tags/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.

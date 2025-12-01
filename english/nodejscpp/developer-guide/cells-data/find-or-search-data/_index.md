@@ -5,6 +5,8 @@ weight: 50
 url: /nodejs-cpp/find-or-search-data/  
 description: Learn how to find or search cells in a worksheet that contains specified data through the Aspose.Cells for Node.js via C++ API.  
 keywords: Find data Node.js via C++, Search data Node.js via C++, Find Cells Containing a Formula Node.js via C++, Search Cells Containing a Formula Node.js via C++, Find Data or Formulas using FindOptions Node.js via C++, Search Data or Formulas using FindOptions Node.js via C++, Find or Search Cells Containing Specified String Value or Number Node.js via C++, Find or Search cells contains specified data  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

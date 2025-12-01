@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, FormulaText functions
 type: docs
 weight: 60
 url: /net/using-formulatext-function-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

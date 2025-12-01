@@ -4,6 +4,8 @@ linktitle: Change Slicer Properties
 type: docs
 weight: 70
 url: /nodejs-cpp/change-slicer-properties/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

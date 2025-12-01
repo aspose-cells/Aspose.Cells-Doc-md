@@ -6,6 +6,8 @@ weight: 600
 url: /cpp/how-to-prevent-printing-excel/  
 description: Learn how to prevent users from printing excel through the Aspose.Cells for C++ API.  
 keywords: excel printing, prevent printing excel, how to prevent users from printing excel, excel prevent printing, prevent printing workbook, Prevent users from printing the whole workbook with VBA.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Possible Usage Scenarios**  

@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 description: Learn how to convert a worksheet to an image file and a worksheet with multiple pages to an image file per page using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

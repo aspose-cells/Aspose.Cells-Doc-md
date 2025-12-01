@@ -4,6 +4,8 @@ linktitle: Retrieving SQL Connection Data
 type: docs  
 weight: 10  
 url: /nodejs-cpp/retrieving-sql-connection-data/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

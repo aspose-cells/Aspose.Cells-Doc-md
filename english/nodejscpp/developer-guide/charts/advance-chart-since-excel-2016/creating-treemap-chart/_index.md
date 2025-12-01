@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, Treemap chart, create, properties, formattin
 type: docs  
 weight: 161  
 url: /nodejs-cpp/creating-treemap-chart/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

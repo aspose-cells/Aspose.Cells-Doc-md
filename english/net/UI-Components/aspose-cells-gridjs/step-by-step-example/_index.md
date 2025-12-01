@@ -11,6 +11,8 @@ aliases:
   - /net/aspose-cells-gridjs/step-by-step-demo/
   - /net/aspose-cells-gridjs/step-by-step-example/
   - /net/aspose-cells-gridjs/gridjs-demo/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Load a Spreadsheet with GridJs

@@ -3,6 +3,8 @@ title: Data Sorting
 type: docs
 weight: 90
 url: /java/sort-data-of-excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

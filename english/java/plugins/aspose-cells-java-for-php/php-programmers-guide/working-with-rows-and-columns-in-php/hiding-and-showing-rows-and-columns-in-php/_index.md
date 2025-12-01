@@ -5,6 +5,8 @@ weight: 50
 url: /java/hiding-and-showing-rows-and-columns-in-php/
 description: Learn how to Hide and Show Rows and Columns through the Aspose.Cells for PHP via Java APIs.
 keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells for PHP - Controlling the Visibility of Rows & Columns**

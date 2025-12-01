@@ -5,6 +5,8 @@ weight: 80
 url: /net/apply-superscript-and-subscript-effects-on-fonts/
 description: The C# code to apply superscript and subscript effect to text in excel with the use of Aspose.Cells for .NET API.
 keywords: excel superscript c#, excel subscript c#, excel superscript and subscript c#, insert subscript and superscript in excel c#, add subscript and superscript in excel c#, add superscript and subscript excel c#, add superscript excel c#, add subscript excel c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

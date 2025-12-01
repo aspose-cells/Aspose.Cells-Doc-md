@@ -3,6 +3,8 @@ title: Aspose.Cells Template and Smart Markers
 type: docs
 weight: 30
 url: /reportingservices/aspose-cells-template-and-smart-markers/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

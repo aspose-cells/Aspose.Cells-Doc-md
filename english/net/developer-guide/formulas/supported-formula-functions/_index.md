@@ -6,6 +6,8 @@ weight: 10
 url: /net/supported-formula-functions/
 description: Supported excel functions for reading/setting/calculating formulas
 keywords: formula function calculate
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

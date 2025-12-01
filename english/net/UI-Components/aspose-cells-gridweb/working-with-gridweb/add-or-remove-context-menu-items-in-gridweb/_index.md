@@ -5,6 +5,8 @@ weight: 130
 url: /net/aspose-cells-gridweb/add-or-remove-context-menu-items-in-gridweb/
 keywords: GridWeb,contextmenu,menu
 description: This article introduces how to add or remove context menu items in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

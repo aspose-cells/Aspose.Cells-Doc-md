@@ -3,6 +3,8 @@ title: Support for Digital Signatures
 type: docs
 weight: 70
 url: /reportingservices/support-for-digital-signatures/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

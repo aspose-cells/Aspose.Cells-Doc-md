@@ -3,6 +3,8 @@ title: Using FormulaText function in Aspose.Cells
 type: docs
 weight: 530
 url: /java/using-formulatext-function-in-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

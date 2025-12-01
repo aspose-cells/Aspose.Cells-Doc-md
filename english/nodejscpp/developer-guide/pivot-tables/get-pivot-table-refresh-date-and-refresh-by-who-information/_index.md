@@ -5,6 +5,8 @@ weight: 100
 url: /nodejs-cpp/get-pivot-table-refresh-date-and-refresh-by-who-information/
 description: How to get Pivot Table refresh date and refresh by who information with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js Excel, Excel Node.js library, Get Pivot Table refresh date and refresh by who information Using Aspose.Cells for Node.js Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

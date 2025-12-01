@@ -3,6 +3,8 @@ title: Spreadsheet Editor Knowledge Base
 type: docs
 weight: 30
 url: /java/spreadsheet-editor-knowledge-base/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Embed HTML5 Spreadsheet Editor Anywhere**

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/save-workbook-to-strict-open-xml-spreadsheet-format/
 description: Learn how to save a workbook in Strict Open XML Spreadsheet format using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

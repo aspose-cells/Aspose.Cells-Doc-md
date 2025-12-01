@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/display-bullets-by-setting-cell-value-using-html/
 description: Add bullets to Excel Cells using HTML and the easy to use Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python add bullets in excel, add bullets in excel Python, Python display bullets in excel, display bullets in excel using Python, Python add bullets in excel with html, add bullets in excel with html in Python, Python display bullets in excel with html, display bullets in excel with html using Python, Python display bullets in excel using html, Python add bullets in excel using html.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

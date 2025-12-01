@@ -3,6 +3,8 @@ title: Reading and Writing Query Table of Worksheet
 type: docs
 weight: 40
 url: /net/reading-and-writing-query-table-of-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

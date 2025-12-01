@@ -6,6 +6,8 @@ weight: 80
 url: /net/managing-document-properties/
 description: Learn how to Manage Document Properties through the Aspose.Cells for NET APIs.
 keywords: How to Manage Document Properties in C#, Get or Set Document Properties using C#, Add or Delete Document Properties via C#, Insert or Remove Document Properties with C#, How to Access Document Properties using Aspose.Cells for NET APIs.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

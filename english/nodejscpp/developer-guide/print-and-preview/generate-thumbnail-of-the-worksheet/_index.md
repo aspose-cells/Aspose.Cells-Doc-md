@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /nodejs-cpp/generate-thumbnail-of-the-worksheet/
 description: Learn how to generate a thumbnail image from a worksheet using Aspose.Cells for Node.js via C++. Create small images for previews in documents and presentations.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

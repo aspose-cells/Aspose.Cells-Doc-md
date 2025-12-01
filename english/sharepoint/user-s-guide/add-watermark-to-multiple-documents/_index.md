@@ -3,6 +3,8 @@ title: Add Watermark to multiple documents
 type: docs
 weight: 90
 url: /sharepoint/add-watermark-to-multiple-documents/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 If you want to add watermark in multiple Excel files, please choose “Add WaterMark with Aspose.Cells” option in the Ribbon bar.

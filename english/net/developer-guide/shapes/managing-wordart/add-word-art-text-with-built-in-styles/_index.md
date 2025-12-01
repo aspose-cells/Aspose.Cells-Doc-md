@@ -3,6 +3,8 @@ title: Add Word Art Text with Built-in Styles
 type: docs
 weight: 270
 url: /net/add-word-art-text-with-built-in-styles/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

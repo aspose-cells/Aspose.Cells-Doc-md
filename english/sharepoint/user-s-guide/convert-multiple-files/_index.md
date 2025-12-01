@@ -3,6 +3,8 @@ title: Convert Multiple Files
 type: docs
 weight: 20
 url: /sharepoint/convert-multiple-files/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To convert all files in a folder: 

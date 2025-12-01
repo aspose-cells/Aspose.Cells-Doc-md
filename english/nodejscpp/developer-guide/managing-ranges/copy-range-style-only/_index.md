@@ -5,6 +5,8 @@ type: docs
 weight: 620
 url: /nodejs-cpp/copy-range-style-only/
 description: Learn how to copy only the style of a range while manipulating data in Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

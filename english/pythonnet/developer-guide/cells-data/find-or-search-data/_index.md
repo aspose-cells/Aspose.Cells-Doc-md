@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/find-or-search-data/
 description: Learn how to find or search cells in a worksheet that contains specified data through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Find data, Python Search data, Python Find Cells Containing a Formula, Python Search Cells Containing a Formula, Python Find Data or Formulas using FindOptions, Python Search Data or Formulas using FindOptions, Python Find or Search Cells Containing Specified String Value or Number, Python Find or Search cells contains specified data
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

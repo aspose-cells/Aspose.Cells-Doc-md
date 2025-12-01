@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /nodejs-cpp/filter-vba-project-while-loading-a-workbook/
 description: Learn how to filter VBA projects while loading Excel workbooks using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Filter VBA Project while loading an Excel workbook in Node.js via C++**

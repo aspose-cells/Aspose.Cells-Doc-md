@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /nodejs-cpp/resampling-added-images-excel-to-pdf-conversion/
 description: Learn how to compress images added in Excel files to reduce PDF size and improve conversion performance using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

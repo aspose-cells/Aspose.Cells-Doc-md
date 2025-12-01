@@ -3,6 +3,8 @@ title: Access the Text Box by the Name
 type: docs
 weight: 580
 url: /java/access-the-text-box-by-the-name/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

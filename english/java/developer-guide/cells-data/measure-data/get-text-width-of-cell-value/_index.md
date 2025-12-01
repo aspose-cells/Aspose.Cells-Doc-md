@@ -3,6 +3,8 @@ title: Get Text Width of Cell Value
 type: docs
 weight: 40
 url: /java/get-text-width-of-cell-value/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Text Width of Cell Value**

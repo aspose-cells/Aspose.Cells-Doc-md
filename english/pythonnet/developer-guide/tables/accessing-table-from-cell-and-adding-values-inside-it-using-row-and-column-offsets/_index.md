@@ -3,6 +3,8 @@ title: Accessing Table from Cell and Adding Values inside it using Row and Colum
 type: docs
 weight: 230
 url: /python-net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

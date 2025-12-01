@@ -3,6 +3,8 @@ title: Formatting Pivot Table
 type: docs
 weight: 60
 url: /java/formatting-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table Appearance**

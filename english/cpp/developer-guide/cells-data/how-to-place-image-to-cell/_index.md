@@ -6,6 +6,8 @@ weight: 130
 url: /cpp/how-to-insert-picture-in-cell/
 description: Learn how to insert a picture into a cell with Aspose.Cells using C++.
 keywords: How to Insert Picture in Cell, Insert Picture over Cells, Place Picture in Cell, Place Picture over Cells, How to place image in cell, How to place image over cells, Switch between Picture in Cell and Picture over Cells, Switch between Place in Cell and Place over Cells.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

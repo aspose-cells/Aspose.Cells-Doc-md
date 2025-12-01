@@ -5,6 +5,8 @@ weight: 900
 url: /python-net/convert-text-numeric-data-to-number/
 description: Learn how to convert numbers stored as text in Excel to numbers by using the Aspose.Cells for Python via .NET API.
 keywords: python excel convert text to number, python excel convert text to number, python excel convert text numeric data to number, python excel convert text numeric data to number, python excel convert numeric text to number, python excel convert numeric text to number, excel convert numeric text to number with python, convert numeric text to number in excel with python, convert numeric text to number in excel with python, convert numeric string to number in excel with python excel library, python excel convert text numeric data to number, python excel convert numeric string to number.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /net/create-and-format-table/
 description: Insert, resize, edit, delete, format table of Excel files using Aspose.Cells library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Table**

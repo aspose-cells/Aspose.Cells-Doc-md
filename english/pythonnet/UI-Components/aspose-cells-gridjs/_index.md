@@ -3,6 +3,8 @@ title: Aspose.Cells.GridJs
 type: docs
 weight: 270
 url: /python-net/aspose-cells-gridjs/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

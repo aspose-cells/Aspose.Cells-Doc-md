@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Cell Border Settings, Python Border 
 type: docs
 weight: 40
 url: /python-net/cells-border-settings/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Borders to Cells**

@@ -5,6 +5,8 @@ type: docs
 weight: 130  
 url: /nodejs-cpp/cut-and-paste-cells/  
 description: Learn how to cut and paste cells within a worksheet using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Cut and Paste Cells**  

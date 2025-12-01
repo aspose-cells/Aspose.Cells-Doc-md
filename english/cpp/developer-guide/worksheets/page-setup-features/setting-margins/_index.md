@@ -6,6 +6,8 @@ weight: 20
 url: /cpp/setting-margins/
 description: Learn how to set the margins of an Excel worksheet using C++. This guide covers setting page margins, centering content, and configuring header and footer margins programmatically with Aspose.Cells for C++.
 keywords: set excel worksheet margin to center c++, set worksheet header and footer margin c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

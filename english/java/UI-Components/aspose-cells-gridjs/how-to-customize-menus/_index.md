@@ -10,6 +10,8 @@ aliases:
   - /java/aspose-cells-gridjs/customize-ui/
   - /java/aspose-cells-gridjs/customize-toolbar/
 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## about customize menus and toolbar buttons

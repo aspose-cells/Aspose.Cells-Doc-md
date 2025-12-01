@@ -4,6 +4,8 @@ linktitle: Rich Formatting Text
 type: docs
 weight: 440
 url: /java/access-and-update-the-portions-of-rich-text-of-cell/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

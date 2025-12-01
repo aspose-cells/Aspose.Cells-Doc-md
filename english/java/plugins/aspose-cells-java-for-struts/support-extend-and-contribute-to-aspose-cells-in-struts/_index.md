@@ -3,6 +3,8 @@ title: Support, Extend and Contribute to Aspose.Cells in Struts
 type: docs
 weight: 20
 url: /java/support-extend-and-contribute-to-aspose-cells-in-struts/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Support**

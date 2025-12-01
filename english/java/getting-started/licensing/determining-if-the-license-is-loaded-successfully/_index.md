@@ -3,6 +3,8 @@ title: Determining if the License is loaded successfully
 type: docs
 weight: 210
 url: /java/determining-if-the-license-is-loaded-successfully/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

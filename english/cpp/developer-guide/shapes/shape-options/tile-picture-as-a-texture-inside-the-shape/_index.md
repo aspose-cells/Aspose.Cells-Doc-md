@@ -5,6 +5,8 @@ type: docs
 weight: 1700
 url: /cpp/tile-picture-as-a-texture-inside-the-shape/
 description: Learn how to tile a picture as a texture inside a shape using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

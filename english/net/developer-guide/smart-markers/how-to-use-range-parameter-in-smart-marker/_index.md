@@ -3,6 +3,8 @@ title: How to Use Range Parameter in SmartMarkers
 type: docs
 weight: 10
 url: /net/how-to-use-range-parameter-in-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Using Range Parameter in Smart Markers**

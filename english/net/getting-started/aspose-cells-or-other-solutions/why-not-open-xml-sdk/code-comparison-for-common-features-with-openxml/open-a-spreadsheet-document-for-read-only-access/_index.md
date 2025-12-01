@@ -3,6 +3,8 @@ title: Open a spreadsheet document for read-only access
 type: docs
 weight: 100
 url: /net/open-a-spreadsheet-document-for-read-only-access/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

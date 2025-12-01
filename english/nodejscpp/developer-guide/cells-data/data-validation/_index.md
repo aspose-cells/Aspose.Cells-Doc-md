@@ -5,6 +5,8 @@ weight: 90
 url: /nodejs-cpp/data-validation/  
 description: Learn how to add data validation through the Aspose.Cells for Node.js via C++ API.  
 keywords: Add Data Validation Node.js via C++, Get Validation Value Node.js via C++, Add Whole Number Data Validation Node.js via C++, Add List Data Validation Node.js via C++, Add Date Data Validation Node.js via C++, Add Time Data Validation Node.js via C++, Add Text Length Data Validation Node.js via C++, Add CellArea to existing Validation Node.js via C++, Check if validation in cell is dropdown Node.js via C++, Add Custom Validation Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

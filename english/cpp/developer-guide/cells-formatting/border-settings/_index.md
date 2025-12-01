@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Cell Border Settings, C++, Border Width, Border Style, B
 type: docs
 weight: 40
 url: /cpp/cells-border-settings/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Borders to Cells**

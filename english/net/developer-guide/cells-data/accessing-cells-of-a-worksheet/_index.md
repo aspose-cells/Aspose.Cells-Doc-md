@@ -5,6 +5,8 @@ weight: 10
 url: /net/accessing-cells-of-a-worksheet/
 description: This article shows how to get the maximum display range of worksheet and access cells through the Aspose.Cells for .NET API.
 keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

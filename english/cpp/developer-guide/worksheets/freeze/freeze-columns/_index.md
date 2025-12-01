@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/how-to-freeze-columns-of-excel-worksheet
 description: In this article, you will learn how to freeze left columns of Excel Worksheets programmatically using C++ Library with Aspose.Cells API.
 keywords: Freeze left columns, Freeze first columns, Lock the column(s)
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

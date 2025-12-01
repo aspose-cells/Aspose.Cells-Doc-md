@@ -6,6 +6,8 @@ weight: 50
 url: /nodejs-cpp/get-paper-width-and-height-of-page-setup-of-worksheet/
 description: Discover how to get the Excel Worksheet Page Setup Paper Width and Height using Node.js via C++ programmatically.
 keywords: excel page setup paper width Node.js via C++, excel page setup paper height Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

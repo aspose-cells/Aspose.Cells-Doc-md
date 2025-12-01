@@ -3,6 +3,8 @@ title: Features
 type: docs
 weight: 10
 url: /net/grid-features/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The following table summarizes the features available in **Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb**  and **Aspose.Cells.GridJs**  controls provided by Aspose.Cells for .NET.

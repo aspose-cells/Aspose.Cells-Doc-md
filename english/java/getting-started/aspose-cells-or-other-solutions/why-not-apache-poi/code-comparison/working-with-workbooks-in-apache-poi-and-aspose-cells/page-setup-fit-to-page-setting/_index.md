@@ -3,6 +3,8 @@ title: Page Setup - Fit to Page Setting
 type: docs
 weight: 30
 url: /java/page-setup-fit-to-page-setting/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Page Setup - Fit to Page Setting**

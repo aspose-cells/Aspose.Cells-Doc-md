@@ -5,6 +5,8 @@ weight: 170
 url: /python-net/search-and-replace-data-in-a-range/
 description: This article show how to search and replace data in a range in Excel using Python code.
 keywords: Python Excel Library, Python search and replace data in excel, Python search data in excel, Python search and replace data in a range, Python search data in a range, Python searching data in a range, Python searching data in range, Python searching data in excel, Python search data in range, search and replace data in excel with Python, search and replace data in a range with Python, search and replace data in range with Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

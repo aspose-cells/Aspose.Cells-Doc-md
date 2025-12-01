@@ -6,6 +6,8 @@ weight: 200
 url: /python-net/how-to-print-excel-as-fitted-pages-wide-and-tall/
 description: Learn to set fit_to_pages_wide and fit_to_pages_tall properties for Excel printing using Aspose.Cells for Python via .NET API.
 keywords: Python Excel Printing, Python Fit to Page Settings, Python FitToPagesWide, Python FitToPagesTall, Python Print Worksheet as One Page, Python Print All Columns in One Page
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

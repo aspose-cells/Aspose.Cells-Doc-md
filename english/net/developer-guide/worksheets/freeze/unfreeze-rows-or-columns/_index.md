@@ -6,6 +6,8 @@ weight: 190
 url: /net/unfreeze-rows-or-columns-of-excel-worksheet
 description: In this article, you will learn how to unfreeze rows ,columns or panes of Excel Worksheets programmatically using C# Library with .NET API.
 keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

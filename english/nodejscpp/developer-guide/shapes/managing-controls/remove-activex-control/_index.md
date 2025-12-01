@@ -5,6 +5,8 @@ type: docs
 weight: 1000
 url: /nodejs-cpp/remove-activex-control/
 description: Learn how to remove ActiveX controls from workbooks using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Remove ActiveX Control**

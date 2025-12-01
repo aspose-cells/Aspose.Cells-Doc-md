@@ -15,6 +15,8 @@ aliases:
   - /net/aspose-cells-gridweb/how-to-build-online-excel-viewer-using-gridweb/
   - /net/aspose-cells-gridweb/how-to-build-web-spreadsheet-viewer-using-gridweb/
   - /net/aspose-cells-gridweb/how-to-build-web-excel-viewer-using-gridweb/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Docker Guide

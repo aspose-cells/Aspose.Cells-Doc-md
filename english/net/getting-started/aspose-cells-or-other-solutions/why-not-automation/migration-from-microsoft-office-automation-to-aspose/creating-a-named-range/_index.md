@@ -3,6 +3,8 @@ title: Creating a Named Range
 type: docs
 weight: 70
 url: /net/creating-a-named-range/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

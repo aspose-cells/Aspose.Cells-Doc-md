@@ -6,6 +6,8 @@ weight: 40
 url: /python-net/different-ways-to-save-files/
 description: Aspose.Cells for Python via .NET can save files to different formats. Save Files to PDF. Save Files to HTML. Save Files to DOCX. Save Files to PPTX. Save Files to JSON. Save Files to MHTML.
 keywords: Aspose.Cells for Python via .NET Save Excel to PDF, HTML, JSON, CSV, TXT, XML, DOCX, PPTX, MHT, MHTML and so on using C#, Save or Convert Workbook to PDF HTML JSON TXT SQL in C#.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

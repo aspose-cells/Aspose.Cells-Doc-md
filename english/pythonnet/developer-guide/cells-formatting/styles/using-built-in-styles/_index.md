@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/using-built-in-styles/
 description: C# code to use Excel built-in styles with Aspose.Cells for Python via .NET API
 keywords: Python use excel built in styles, Python programmatically apply styles in workbook, programmatically apply styles in workbook, Python apply built in styles in excel, Python apply built in styles in workbook, Python code apply built in styles in workbook, Python code apply built in styles in excel workbook
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,8 @@ type: docs
 weight: 380
 url: /net/embed-attachment-to-pdf/
 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 In Excel, you can insert an Ole Object with source data([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)) . Double click the Ole Object, the embedded file will be opened.

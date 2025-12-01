@@ -5,6 +5,8 @@ type: docs
 weight: 240  
 url: /nodejs-cpp/converting-chart-to-image-in-svg-format/  
 description: Learn how to convert a chart to SVG format image using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

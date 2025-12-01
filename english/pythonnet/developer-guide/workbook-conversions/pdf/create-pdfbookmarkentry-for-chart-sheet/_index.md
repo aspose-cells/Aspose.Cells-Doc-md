@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/create-pdfbookmarkentry-for-chart-sheet/
 description: Learn how to Create PdfBookmarkEntry for Chart Sheet with Aspose.Cells for Python via .NET API.
 keywords: Python Create PdfBookmarkEntry for Chart Sheet, Add PdfBookmarkEntry for Chart Sheet using Python, Python Insert PdfBookmarkEntry for Chart Sheet, PdfBookmarkEntry for Chart Sheet in Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

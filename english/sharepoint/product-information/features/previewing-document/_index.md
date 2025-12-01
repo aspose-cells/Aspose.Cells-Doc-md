@@ -3,6 +3,8 @@ title: Previewing document
 type: docs
 weight: 40
 url: /sharepoint/previewing-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Share Point supports previewing documents directly from SharePoint. The following formats support preview:

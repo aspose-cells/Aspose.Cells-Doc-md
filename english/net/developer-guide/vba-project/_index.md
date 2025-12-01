@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /net/manage-vba-project/
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add a VBA Module in C#**

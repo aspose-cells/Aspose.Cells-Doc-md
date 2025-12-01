@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-gridweb/access-and-modify-cell-value/
 keywords: GridWeb,cell value,modify,value
 description: This article introduces how to get and modify cell value in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

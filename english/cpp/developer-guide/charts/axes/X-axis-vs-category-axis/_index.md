@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, X axis, Category axis, difference, usage, proper
 type: docs
 weight: 180
 url: /cpp/X-axis-vs-category-axis/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

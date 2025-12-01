@@ -3,6 +3,8 @@ title: Make Use of Report Designer Client Tool
 type: docs
 weight: 30
 url: /reportingservices/make-use-of-report-designer-client-tool/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

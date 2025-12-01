@@ -6,6 +6,8 @@ weight: 140
 url: /nodejs-cpp/assign-and-validate-digital-signatures/  
 description: Excel file digital signature and verification using Aspose.Cells for Node.js via C++. Protect the authenticity of workbook content with digital signatures.  
 keywords: Excel file digital signature, Add digital signature for Excel Node.js via C++, How to validate digital signature Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -6,6 +6,8 @@ weight: 90
 url: /cpp/find-if-the-worksheet-is-dialog-sheet/
 description: Dialog Sheet is an old format of sheet. This article provides instructions and sample code for determining programmatically whether an Excel worksheet is a Dialog Sheet using the C++ API.
 keywords: find excel worksheet dialog type c++, worksheet dialog c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

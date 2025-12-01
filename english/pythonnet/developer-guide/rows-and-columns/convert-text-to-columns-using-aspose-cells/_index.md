@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-text-to-columns-using-aspose-cells/
 description: This article shows how to Convert Text to Columns by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Convert Text to Columns, Convert Text to Columns in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

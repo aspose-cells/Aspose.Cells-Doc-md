@@ -3,6 +3,8 @@ title: Installing Aspose.Cells for SharePoint License
 type: docs
 weight: 10
 url: /sharepoint/installing-aspose-cells-for-sharepoint-license/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

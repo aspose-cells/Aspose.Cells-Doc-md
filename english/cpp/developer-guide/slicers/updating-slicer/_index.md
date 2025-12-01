@@ -6,6 +6,8 @@ weight: 50
 url: /cpp/updating-slicer/
 description: This article shows how to update linked pivot tables by updating slicer using the Aspose.Cells for C++ API.
 keywords: Aspose.Cells C++ Update slicer, C++ how to change the slicer, how to adjust the slicer in C++, how to select or unselect the slicer items.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Unprotecting Password Protected Worksheet in Jython
 type: docs
 weight: 150
 url: /java/unprotecting-password-protected-worksheet-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Append Documents**

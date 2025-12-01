@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js library, electronic spreadsheet, custom date for
 type: docs  
 weight: 160  
 url: /nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

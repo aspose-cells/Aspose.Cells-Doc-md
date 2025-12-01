@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /nodejs-cpp/manage-vba-project/
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add a VBA Module in Node.js**

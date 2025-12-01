@@ -6,6 +6,8 @@ keywords: Aspose.Cells, cell formatting, C++, font, color, border
 type: docs
 weight: 20
 url: /cpp/how-to-change-format-of-cell/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

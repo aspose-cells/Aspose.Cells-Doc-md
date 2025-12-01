@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-gridweb/custom-calculation-engine/
 keywords: GridWeb,custom,calculation,CalculationEngine,GridAbstractCalculationEngine
 description: This article introduces how to use GridAbstractCalculationEngine to customize the calculation process in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Implement Custom Calculation Engine**

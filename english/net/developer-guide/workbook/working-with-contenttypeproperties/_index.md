@@ -3,6 +3,8 @@ title: Working with ContentTypeProperties
 type: docs
 weight: 150
 url: /net/working-with-contenttypeproperties/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides [**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the [**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.

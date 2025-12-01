@@ -3,6 +3,8 @@ title: Copy Sheet Within Workbook
 type: docs
 weight: 40
 url: /java/copy-sheet-within-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Microsoft Excel - Moving or Copying Sheets within Workbook**

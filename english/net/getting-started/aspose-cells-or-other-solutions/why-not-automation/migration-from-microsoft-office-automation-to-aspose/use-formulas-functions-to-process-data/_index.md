@@ -3,6 +3,8 @@ title: Use Formulas Functions to Process Data
 type: docs
 weight: 140
 url: /net/use-formulas-functions-to-process-data/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

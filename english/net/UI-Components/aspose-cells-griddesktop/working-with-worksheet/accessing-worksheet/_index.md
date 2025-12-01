@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/access-worksheet/
 keywords: GridDesktop,worksheet
 description: This article introduces how to work with worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

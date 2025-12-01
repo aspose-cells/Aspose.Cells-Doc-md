@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, chart axes, automatic units, Microso
 type: docs
 weight: 120
 url: /python-net/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

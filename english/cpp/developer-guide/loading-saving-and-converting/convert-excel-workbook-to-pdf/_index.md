@@ -3,6 +3,8 @@ title: Convert Excel Workbook to PDF
 type: docs
 weight: 80
 url: /cpp/convert-excel-workbook-to-pdf/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Converting Excel Workbook to PDF**

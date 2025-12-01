@@ -3,6 +3,8 @@ title: Get Cell Validation in ODS Files
 type: docs
 weight: 190
 url: /java/get-cell-validation-in-ods-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Cell Validation in ODS Files**

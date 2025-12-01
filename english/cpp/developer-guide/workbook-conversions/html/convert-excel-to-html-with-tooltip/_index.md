@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/convert-excel-to-html-with-tooltip/
 description: Convert Excel to HTML while adding tooltips with Aspose.Cells using C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to HTML with tooltip**

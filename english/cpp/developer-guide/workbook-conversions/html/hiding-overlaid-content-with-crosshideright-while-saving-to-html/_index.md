@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/hiding-overlaid-content-with-crosshideright-while-saving-to/
 description: Use CrossHideRight with Aspose.Cells in C++ to hide overlaid content when saving to HTML.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

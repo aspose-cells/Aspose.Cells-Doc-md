@@ -5,6 +5,8 @@ weight: 130
 url: /net/display-bullets-by-setting-cell-value-using/
 description: Add bullets to Excel Cells using HTML and the easy to use Aspose.Cells for .NET API.
 keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

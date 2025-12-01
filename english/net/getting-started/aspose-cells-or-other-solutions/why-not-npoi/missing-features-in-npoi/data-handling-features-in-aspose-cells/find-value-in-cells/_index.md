@@ -3,6 +3,8 @@ title: Find Value in Cells
 type: docs
 weight: 20
 url: /net/find-value-in-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Find Value in Cells**

@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/convert-worksheet-to-image-remove-whitespace-around-data/
 description: Learn how to convert a worksheet to an image and remove whitespace around the data using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

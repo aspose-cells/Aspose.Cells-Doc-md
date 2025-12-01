@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 description: Discover how to set the DefaultFont property of PdfSaveOptions and ImageOrPrintOptions using Aspose.Cells for Node.js via C++. Ensure proper font rendering when fonts are missing.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

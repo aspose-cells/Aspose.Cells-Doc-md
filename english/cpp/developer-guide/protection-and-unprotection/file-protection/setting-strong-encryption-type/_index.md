@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/setting-strong-encryption-type/
 description: Learn how to apply strong encryption and password protection to Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

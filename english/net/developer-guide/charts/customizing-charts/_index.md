@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, customization, layouts, data series, 
 type: docs
 weight: 40
 url: /net/customizing-charts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Z-axis, charting, configuration, cus
 type: docs
 weight: 210
 url: /python-net/z-axis/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

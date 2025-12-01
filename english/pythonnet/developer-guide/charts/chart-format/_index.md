@@ -6,6 +6,8 @@ linktitle: Chart Format
 type: docs
 weight: 20
 url: /python-net/setting-chart-appearance/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Chart Appearance**

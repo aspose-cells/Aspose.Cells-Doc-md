@@ -3,6 +3,8 @@ title: Remove Unused Styles inside the Workbook
 type: docs
 weight: 470
 url: /java/remove-unused-styles-inside-the-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

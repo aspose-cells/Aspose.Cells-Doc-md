@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-gridweb/create-hierarchical-view-sheet/
 keywords: GridWeb,hierarchical
 description: This article introduce how to create hierarchical view in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

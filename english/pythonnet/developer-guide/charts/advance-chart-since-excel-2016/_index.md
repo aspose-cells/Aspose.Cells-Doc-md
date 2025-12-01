@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Excel 2016 charts, read, manipulate,
 type: docs
 weight: 48
 url: /python-net/read-and-manipulate-excel-2016-charts/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

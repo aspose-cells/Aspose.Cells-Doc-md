@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, charting, X values, Y values, data t
 type: docs
 weight: 150
 url: /python-net/find-type-of-x-and-y-values-of-points-in-chart-series/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

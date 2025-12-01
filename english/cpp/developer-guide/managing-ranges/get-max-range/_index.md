@@ -5,6 +5,8 @@ type: docs
 weight: 360
 url: /cpp/get-max-range-in-a-worksheet/
 description: This article describes how to get the max range, max data range, max display range of Excel files with Aspose.Cells for C++ library.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

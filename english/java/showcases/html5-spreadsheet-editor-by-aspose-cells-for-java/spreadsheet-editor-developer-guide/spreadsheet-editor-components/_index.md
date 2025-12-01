@@ -3,6 +3,8 @@ title: Spreadsheet Editor - Components
 type: docs
 weight: 50
 url: /java/spreadsheet-editor-components/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Table of Contents**

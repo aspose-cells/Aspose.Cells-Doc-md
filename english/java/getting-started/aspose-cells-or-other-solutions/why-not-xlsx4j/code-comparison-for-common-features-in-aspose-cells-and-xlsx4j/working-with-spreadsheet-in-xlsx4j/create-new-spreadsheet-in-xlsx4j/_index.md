@@ -3,6 +3,8 @@ title: Create New Spreadsheet in xlsx4j
 type: docs
 weight: 30
 url: /java/create-new-spreadsheet-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Create New Spreadsheet**

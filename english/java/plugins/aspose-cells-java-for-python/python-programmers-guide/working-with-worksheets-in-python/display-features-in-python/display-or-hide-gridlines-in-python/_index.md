@@ -5,6 +5,8 @@ weight: 10
 url: /java/display-or-hide-gridlines-in-python/
 description: Learn how to  Display or Hide Gridlines through the Aspose.Cells for Python Via Java API.
 keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - How to Display or Hide Gridlines**

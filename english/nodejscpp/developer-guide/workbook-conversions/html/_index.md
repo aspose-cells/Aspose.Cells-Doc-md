@@ -4,6 +4,8 @@ linktitle: HTML
 type: docs
 weight: 230
 url: /nodejs-cpp/convert-excel-to-html/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Converting Excel Workbook to HTML**

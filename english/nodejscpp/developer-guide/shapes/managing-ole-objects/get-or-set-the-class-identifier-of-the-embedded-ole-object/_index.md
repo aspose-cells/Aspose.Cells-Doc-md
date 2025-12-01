@@ -5,6 +5,8 @@ type: docs
 weight: 200  
 url: /nodejs-cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/  
 description: Learn how to get or set the class identifier of embedded OLE objects in Node.js using Aspose.Cells via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

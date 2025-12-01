@@ -5,6 +5,8 @@ weight: 5000
 url: /python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 description: This article shows how to Update references in other worksheets while deleting blank columns and rows in a worksheet by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Update references in other worksheets while deleting blank columns and rows in a worksheet, Update references when removing blank columns and rows in a worksheet in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

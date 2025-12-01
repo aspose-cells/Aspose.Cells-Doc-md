@@ -4,6 +4,8 @@ linktitle: Customize Globalization Settings for Pivot Table
 type: docs
 weight: 50
 url: /nodejs-cpp/customize-globalization-settings-for-pivot-table/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

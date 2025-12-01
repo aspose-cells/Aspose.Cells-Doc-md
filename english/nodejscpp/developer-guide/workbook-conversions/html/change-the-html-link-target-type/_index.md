@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /nodejs-cpp/change-the-html-link-target-type/
 description: Learn how to change the HTML link target type using Aspose.Cells for Node.js via C++. Control the target attribute in your HTML links.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

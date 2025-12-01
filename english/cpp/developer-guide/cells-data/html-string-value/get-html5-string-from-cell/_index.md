@@ -6,6 +6,8 @@ weight: 90
 url: /cpp/get-html5-string-from-cell/
 description: Learn how to get HTML5 string from a cell using Aspose.Cells for C++ API.
 keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

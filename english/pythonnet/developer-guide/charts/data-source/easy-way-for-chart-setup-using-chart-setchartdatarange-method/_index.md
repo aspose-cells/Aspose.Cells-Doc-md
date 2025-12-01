@@ -5,6 +5,8 @@ keywrods: Aspose.Cells for Python via .NET, charting, SetChartDataRange method, 
 type: docs
 weight: 190
 url: /python-net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

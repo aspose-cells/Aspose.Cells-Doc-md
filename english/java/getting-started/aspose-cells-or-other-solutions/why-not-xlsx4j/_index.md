@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /java/aspose-cells-java-for-xlsx4j/
 description: The section introduces why we do not select xlsx4j to parse Excel.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

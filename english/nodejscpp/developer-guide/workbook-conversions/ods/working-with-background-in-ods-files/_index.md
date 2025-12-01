@@ -5,6 +5,8 @@ type: docs
 weight: 150  
 url: /nodejs-cpp/working-with-background-in-ods-files/  
 description: Learn how to manage backgrounds in ODS files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Background in ODS Files**  

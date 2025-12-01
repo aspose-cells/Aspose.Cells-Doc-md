@@ -3,6 +3,8 @@ title: Search Data using Original Values
 type: docs
 weight: 540
 url: /java/search-data-using-original-values/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-gridweb/freeze-and-unfreeze-panes/
 keywords: GridWeb,freeze,unfreeze
 description: This article introduces how to freeze and unfreeze in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

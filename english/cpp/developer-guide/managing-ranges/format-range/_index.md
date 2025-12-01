@@ -5,6 +5,8 @@ type: docs
 weight: 105
 url: /cpp/how-to-format-a-range/
 description: Learn how to format ranges in Excel using Aspose.Cells with C++. Apply styles, fonts, and colors to cell ranges programmatically.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

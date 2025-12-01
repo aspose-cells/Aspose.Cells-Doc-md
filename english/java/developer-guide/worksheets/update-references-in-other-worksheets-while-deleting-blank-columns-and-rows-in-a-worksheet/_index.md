@@ -3,6 +3,8 @@ title: Update references in other worksheets while deleting blank columns and ro
 type: docs
 weight: 700
 url: /java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

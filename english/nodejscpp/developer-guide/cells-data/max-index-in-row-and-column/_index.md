@@ -5,6 +5,8 @@ weight: 600
 url: /nodejs-cpp/get-max-index-in-row-and-column/
 description: Learn how to Get Max Column Index in Row and Max Row Index in Column through the Aspose.Cells for Node.js via C++ API.
 keywords: Get Max Column Index in Row Node.js via C++, Get Max Row Index in Column Node.js via C++, Get Max Data Column Index in Row Node.js via C++, Get Max Data Row Index in Column Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

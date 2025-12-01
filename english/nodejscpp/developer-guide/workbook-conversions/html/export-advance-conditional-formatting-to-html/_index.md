@@ -4,6 +4,8 @@ linktitle: Export DataBar, ColorScale and IconSet Conditional Formatting while E
 type: docs  
 weight: 30  
 url: /nodejs-cpp/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}} 

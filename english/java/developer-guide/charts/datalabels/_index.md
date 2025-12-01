@@ -4,6 +4,8 @@ linktitle: DataLabels
 type: docs
 weight: 50
 url: /java/insert-datalabels-to-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

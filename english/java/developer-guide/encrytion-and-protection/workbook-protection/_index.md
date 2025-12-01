@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /java/protect-and-unprotect-workbook-structure/
 description: Protect and unprotect workbook structure of Excel files using java codes.Lock and unlock Excel (xlsx,xls, xsb) and Open office calc (ODS) files using Aspose.Cells for Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

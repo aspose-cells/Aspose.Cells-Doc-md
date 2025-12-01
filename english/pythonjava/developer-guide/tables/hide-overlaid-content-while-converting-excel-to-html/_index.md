@@ -3,6 +3,8 @@ title: Hide Overlaid Content while converting Excel to HTML
 type: docs
 weight: 40
 url: /python-java/hide-overlaid-content-while-converting-excel-to/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Hide Overlaid Content while converting Excel to HTML**

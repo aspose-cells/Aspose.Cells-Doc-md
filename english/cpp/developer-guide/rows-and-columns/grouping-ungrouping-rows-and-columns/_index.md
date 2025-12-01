@@ -3,6 +3,8 @@ title: Grouping, Ungrouping Rows and Columns
 type: docs
 weight: 30
 url: /cpp/grouping-ungrouping-rows-and-columns/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

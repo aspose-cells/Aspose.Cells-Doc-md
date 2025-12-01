@@ -5,6 +5,8 @@ weight: 40
 url: /java/grouping-and-ungrouping-rows-and-columns-in-python/
 description: Learn how to Group and Ungroup Rows and Columns through the Aspose.Cells for Python Via Java API.
 keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Group and Ungroup Management of Rows & Columns in Aspose.Cells for Python via Java**

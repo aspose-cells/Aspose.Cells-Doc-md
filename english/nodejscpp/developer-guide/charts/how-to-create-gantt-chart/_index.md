@@ -6,6 +6,8 @@ weight: 72
 url: /nodejs-cpp/how-to-create-gantt-chart/
 description: Learn how to create a Gantt chart with Aspose.Cells for Node.js via C++ API.
 keywords: Node.js create a Gantt chart, add a Gantt chart, insert a Gantt chart
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **What is Gantt chart**

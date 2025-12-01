@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /nodejs-cpp/loading-saving-and-managing/
 description: With Aspose.Cells, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, Json, XML, Pdf, Jpg, Tiff, Image, Mht, and XPS files using Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

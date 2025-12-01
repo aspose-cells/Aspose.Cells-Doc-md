@@ -3,6 +3,8 @@ title: Smartly Importing Array Element by Index into Excel With Smart Markers
 type: docs
 weight: 30
 url: /net/how-to-import-array-element-by-index-with-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Accessing Array Element by Index**

@@ -4,6 +4,8 @@ type: docs
 weight: 20
 url: /net/show-and-hide-rows-columns-and-scroll-bars/
 description: This article demonstrates how to programmatically display and hide Excel worksheet rows and columns using the C# language and the .NET API or Library. The visibility of scroll bars can be adjusted, and several rows and columns can be hidden.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

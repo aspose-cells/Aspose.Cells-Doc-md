@@ -6,6 +6,8 @@ weight: 160
 url: /nodejs-cpp/creating-waterfall-chart/
 description: Create waterfall charts in Excel with Node.js and Aspose.Cells for Node.js via C++.
 keywords: create waterfall chart in excel Node.js via C++, creating waterfall chart in excel Node.js via C++, how to create waterfall chart in excel Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

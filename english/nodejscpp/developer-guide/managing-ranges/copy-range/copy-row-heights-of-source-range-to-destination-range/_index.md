@@ -4,6 +4,8 @@ linktitle: Copy Row Heights of Source Range to Destination Range
 type: docs  
 weight: 590  
 url: /nodejs-cpp/copy-row-heights-of-source-range-to-destination-range/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

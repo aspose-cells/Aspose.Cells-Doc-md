@@ -3,6 +3,8 @@ title: Optimizing Memory Usage while Working with Big Files having Large Dataset
 type: docs
 weight: 180
 url: /python-net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

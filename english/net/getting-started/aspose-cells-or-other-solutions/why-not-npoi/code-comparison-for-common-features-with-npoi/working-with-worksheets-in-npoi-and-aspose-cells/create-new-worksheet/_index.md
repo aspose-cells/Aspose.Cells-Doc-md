@@ -3,6 +3,8 @@ title: Create New Worksheet
 type: docs
 weight: 50
 url: /net/create-new-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Create New Worksheet**

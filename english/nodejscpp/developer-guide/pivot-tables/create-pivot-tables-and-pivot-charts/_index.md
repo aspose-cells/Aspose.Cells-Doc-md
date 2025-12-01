@@ -5,6 +5,8 @@ weight: 20
 url: /nodejs-cpp/create-pivot-tables-and-pivot-charts/
 description: How to add Pivot Tables and Pivot Charts with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, Add Pivot Tables and Pivot Charts Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

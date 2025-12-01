@@ -4,6 +4,8 @@ type: docs
 weight: 380
 url: /java/render-solid-gridline-while-converting-excel-to-pdf/
 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 For compatibility with older versions, Aspose.Cells renders gridline as dotted line by default while converting Excel to PDF. However, modern Excel renders gridline as solid line in nowadays.

@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-griddesktop/rename-a-worksheet/
 keywords: GridDesktop,rename,worksheet
 description: This article introduces how to rename worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

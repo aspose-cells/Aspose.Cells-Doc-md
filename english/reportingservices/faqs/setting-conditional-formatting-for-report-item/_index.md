@@ -3,6 +3,8 @@ title: Setting Conditional Formatting for Report Item
 type: docs
 weight: 30
 url: /reportingservices/setting-conditional-formatting-for-report-item/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To set conditional formatting for report items:

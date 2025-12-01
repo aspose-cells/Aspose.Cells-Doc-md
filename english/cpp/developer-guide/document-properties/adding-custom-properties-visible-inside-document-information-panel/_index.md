@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /cpp/adding-custom-properties-visible-inside-document-information-panel/
 description: Learn how to add custom properties visible in the Document Information Panel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Custom Properties visible inside Document Information Panel**

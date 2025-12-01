@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /nodejs-cpp/working-with-the-reflection-effect-of-shape-or-chart/
 description: Learn how to work with the reflection effect of shapes or charts using Aspose.Cells for Node.js via C++. Set various reflection properties to achieve desired results.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

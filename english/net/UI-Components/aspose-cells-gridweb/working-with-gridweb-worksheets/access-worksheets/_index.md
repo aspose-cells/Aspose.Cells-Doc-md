@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/access-worksheet/
 keywords: GridWeb,GridWorksheetCollection,GridWorksheet 
 description: This article introduces how to get worksheet (GridWorksheet) in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

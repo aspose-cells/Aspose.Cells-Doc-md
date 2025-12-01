@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-griddesktop/manage-griddesktops-context-menu/
 keywords: GridDesktop,context,context menu
 description: This article introduces how to customize context menu in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

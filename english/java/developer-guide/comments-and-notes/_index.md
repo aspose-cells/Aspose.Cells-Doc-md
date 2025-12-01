@@ -6,6 +6,8 @@ weight: 128
 url: /java/comments-and-notes/
 description: Insert and manage comments or notes with Aspose.Cells for java.
 keywords: insert comments, insert notes
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

@@ -3,6 +3,8 @@ title: Copy and Move Worksheets Within and Between Workbooks
 type: docs
 weight: 20
 url: /java/copy-and-move-worksheets-within-and-between-workbooks/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

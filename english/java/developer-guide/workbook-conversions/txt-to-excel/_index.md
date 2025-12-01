@@ -3,6 +3,8 @@ title: Convert CSV, TSV and TXT to Excel
 type: docs
 weight: 50
 url: /java/convert-csv-tsv-and-txt-to-excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Opening CSV Files**

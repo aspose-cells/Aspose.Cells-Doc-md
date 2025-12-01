@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, C#, Color Ratio, Two Color Scale
 type: docs
 weight: 20
 url: /net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

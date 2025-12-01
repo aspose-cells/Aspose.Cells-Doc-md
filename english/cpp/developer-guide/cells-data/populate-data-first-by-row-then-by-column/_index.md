@@ -6,6 +6,8 @@ weight: 1000
 url: /cpp/populate-data-first-by-row-then-by-column/
 description: Learn how to Populate Data First by Row then by Column through the Aspose.Cells for C++ API.
 keywords: Populate Data First by Row then by Column, Insert Data First by Row then by Column, Add Data First by Row then by Column, High performance data insertion, High performance data addition
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

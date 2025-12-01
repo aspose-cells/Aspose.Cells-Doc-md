@@ -3,6 +3,8 @@ title: Disable Exporting Frame Scripts and Document Properties
 type: docs
 weight: 310
 url: /python-net/disable-exporting-frame-scripts-and-document-properties/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Data Validation
 type: docs
 weight: 70
 url: /java/data-validation/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/working-with-background-in-ods-files/
 description: Learn how to manage colored and graphic backgrounds in ODS files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Background in ODS Files**

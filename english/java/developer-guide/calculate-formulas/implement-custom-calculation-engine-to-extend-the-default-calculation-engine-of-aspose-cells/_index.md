@@ -3,6 +3,8 @@ title: Implement Custom Calculation Engine to extend the Default Calculation Eng
 type: docs
 weight: 590
 url: /java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

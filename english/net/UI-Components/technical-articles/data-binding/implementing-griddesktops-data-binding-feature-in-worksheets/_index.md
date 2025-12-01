@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/implementing-data-binding-feature-in-worksheets/
 keywords: GridDesktop,data binding,data,bind
 description: This article introduce how to do data binding in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

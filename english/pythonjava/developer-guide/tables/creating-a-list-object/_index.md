@@ -3,6 +3,8 @@ title: Creating a List Object
 type: docs
 weight: 20
 url: /python-java/creating-a-list-object/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The use of worksheets make is easy to work with different types of lists, for example. phone lists, task lists. etc. Aspose.Cells supports creating and managing lists.

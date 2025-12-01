@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/format-pivot-table-cells/
 description: Learn how to format pivot table cells using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

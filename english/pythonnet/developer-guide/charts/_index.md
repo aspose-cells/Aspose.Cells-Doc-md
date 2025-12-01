@@ -8,6 +8,8 @@ weight: 130
 url: /python-net/creating-charts/
 description: Create a chart in CSharp for Excel and ODS files.
 keywords: create a chart, make a graph 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

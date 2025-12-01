@@ -5,6 +5,8 @@ weight: 170
 url: /net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
 keywords: GridWeb,scrollbar
 description: This article introduces how to work with scrollbar in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

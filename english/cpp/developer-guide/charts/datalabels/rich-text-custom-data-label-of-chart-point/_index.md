@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, charting, rich text, custom data labels, fonts, 
 type: docs
 weight: 10
 url: /cpp/rich-text-custom-data-label-of-chart-point/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 40
 url: /python-net/worksheet-views/
 description: This article will describe how to use Aspose.Cells for Python via .NET API to interact with the page break preview of an Excel workbook and worksheets. Work with split panes, frozen panes, and zoom factor as well. 
 keywords: Python Excel Library, Python How to set Page Break Preview, Python hwo to Enable Normal View, Python how to set Zoom Factor, Python hwo to Freeze Panes, Python how to Split Panes, Python how to Remove Panes.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Page Break Preview**

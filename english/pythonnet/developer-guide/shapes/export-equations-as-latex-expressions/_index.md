@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /python-net/export-equation/
 description: Learn how to export Excel equations to LaTeX and MathML formats using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Sometimes you may need to export Excel formulas to other formats in your code to meet your work requirements. The Aspose.Cells library can meet your needs. The following content explains methods for exporting Excel formulas to other formats.

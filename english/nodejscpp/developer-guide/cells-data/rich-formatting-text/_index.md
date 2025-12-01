@@ -6,6 +6,8 @@ weight: 40
 url: /nodejs-cpp/access-and-update-the-portions-of-rich-text-of-cell/
 description: Learn how to Access and Update the Portions of Rich Text of Cell through the Aspose.Cells for Node.js via C++ API.
 keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

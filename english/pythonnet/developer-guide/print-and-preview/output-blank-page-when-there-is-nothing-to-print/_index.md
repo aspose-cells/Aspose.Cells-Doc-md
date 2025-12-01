@@ -3,6 +3,8 @@ title: Output Blank Page when there is Nothing to Print
 type: docs
 weight: 90
 url: /python-net/output-blank-page-when-there-is-nothing-to-print/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

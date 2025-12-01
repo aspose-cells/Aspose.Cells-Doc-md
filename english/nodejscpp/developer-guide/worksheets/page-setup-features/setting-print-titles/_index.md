@@ -6,6 +6,8 @@ weight: 200
 url: /nodejs-cpp/how-to-set-print-titles/  
 description: This article shows you how to set print titles using the Aspose.Cells library for Node.js via C++.  
 keywords: Print rows and columns repeatedly, Node.js How to Set Print Titles, Set and Clear Print Titles using Node.js, How to Clear Print Titles in Node.js, How to add print titles using Node.js, How to remove print titles using Node.js, How to Set Print Titles in Excel, How to Clear Print Titles in Excel.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

@@ -3,6 +3,8 @@ title: Working with the Reflection Effect of Shape or Chart
 type: docs
 weight: 930
 url: /java/working-with-the-reflection-effect-of-shape-or-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

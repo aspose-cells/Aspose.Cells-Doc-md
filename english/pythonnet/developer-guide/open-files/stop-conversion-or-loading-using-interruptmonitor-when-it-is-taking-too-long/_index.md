@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /python-net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 description: Learn how to interrupt Excel file processing in Python using Aspose.Cells' InterruptMonitor for efficient resource management during long operations.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

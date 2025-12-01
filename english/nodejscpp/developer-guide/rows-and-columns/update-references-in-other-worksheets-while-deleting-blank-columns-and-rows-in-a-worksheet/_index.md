@@ -5,6 +5,8 @@ type: docs
 weight: 5000
 url: /nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 description: Learn how to maintain references in other worksheets when deleting blank columns and rows in a worksheet using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

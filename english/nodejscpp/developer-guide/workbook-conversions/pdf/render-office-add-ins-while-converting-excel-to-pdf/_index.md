@@ -4,6 +4,8 @@ linktitle: Render Office Add-Ins while converting Excel to PDF
 type: docs
 weight: 100
 url: /nodejs-cpp/render-office-add-ins-while-converting-excel-to-pdf/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

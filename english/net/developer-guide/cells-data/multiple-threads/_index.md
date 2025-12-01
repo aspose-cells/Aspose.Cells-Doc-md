@@ -6,6 +6,8 @@ weight: 1800
 url: /net/reading-cell-values-in-multiple-threads-simultaneously/
 description: Learn how to read Cell Values in Multiple Threads Simultaneously through the Aspose.Cells for .NET API.
 keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

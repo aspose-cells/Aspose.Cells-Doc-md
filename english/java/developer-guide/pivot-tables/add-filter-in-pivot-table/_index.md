@@ -5,6 +5,8 @@ weight: 130
 url: /java/add-or-clear-pivot-filter/
 description: Learn how to add a filter in pivot table with Aspose.Cells Java library.
 keywords: Adding a filter in pivot table without office 2013, office 2016, office 2019 and office 365.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

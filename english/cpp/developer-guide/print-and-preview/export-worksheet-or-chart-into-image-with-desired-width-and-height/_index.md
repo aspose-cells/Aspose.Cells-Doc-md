@@ -5,6 +5,8 @@ type: docs
 weight: 290
 url: /cpp/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 description: Use Aspose.Cells to export worksheet or chart into image with desired width and height in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
@@ -51,5 +53,6 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```
+
 {{< app/cells/assistant language="cpp" >}}

@@ -5,6 +5,8 @@ type: docs
 weight: 190
 url: /net/using-smart-markers/
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Importing Data to Excel With Smart Markers**

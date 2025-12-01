@@ -5,6 +5,8 @@ type: docs
 weight: 500
 url: /nodejs-cpp/extract-text-from-the-gear-type-smartart-shape/
 description: Learn how to extract text from the Gear Type SmartArt Shape using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

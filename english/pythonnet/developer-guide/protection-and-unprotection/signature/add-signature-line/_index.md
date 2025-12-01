@@ -5,6 +5,8 @@ weight: 200
 url: /python-net/add-signature-line/
 description: This article describes how to Add Signature line to the worksheet using C# codes with Aspose.Cells for Python via .NET.
 keywords: Add Signature line to the worksheet, How to Add Signature line to the worksheet, How to Add Signature Line to Worksheet, How to add the signature line of the worksheet.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

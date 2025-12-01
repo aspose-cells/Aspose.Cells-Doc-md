@@ -3,6 +3,8 @@ title: Product Overview
 type: docs
 weight: 10
 url: /cpp/product-overview/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

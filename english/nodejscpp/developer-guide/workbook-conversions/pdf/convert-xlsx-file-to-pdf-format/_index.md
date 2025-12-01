@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/convert-xlsx-file-to-pdf-format/
 description: This guide explains how to convert an Excel file (XLSX) to PDF format using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

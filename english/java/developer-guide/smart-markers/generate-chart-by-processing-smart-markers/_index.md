@@ -3,6 +3,8 @@ title: Generate Chart by Processing Smart Markers
 type: docs
 weight: 180
 url: /java/generate-chart-by-processing-smart-markers/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

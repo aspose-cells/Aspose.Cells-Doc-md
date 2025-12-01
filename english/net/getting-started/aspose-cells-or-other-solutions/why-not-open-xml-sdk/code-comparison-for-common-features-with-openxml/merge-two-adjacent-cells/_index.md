@@ -3,6 +3,8 @@ title: Merge two adjacent cells
 type: docs
 weight: 90
 url: /net/merge-two-adjacent-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

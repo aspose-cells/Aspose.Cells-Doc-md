@@ -3,6 +3,8 @@ title: Customize Globalization Settings for Pivot Table
 type: docs
 weight: 20
 url: /java/customize-globalization-settings-for-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, charting, rich text, custom data lab
 type: docs
 weight: 10
 url: /python-net/rich-text-custom-data-label-of-chart-point/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, tick labels, direction, orientation, axes, h
 type: docs
 weight: 170
 url: /nodejs-cpp/change-tick-label-direction/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Change Tick Label Direction**

@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/protect-and-unprotect-worksheets/
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

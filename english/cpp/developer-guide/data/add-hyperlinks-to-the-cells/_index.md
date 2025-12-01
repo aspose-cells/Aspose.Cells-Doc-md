@@ -3,6 +3,8 @@ title: Add Hyperlinks to the Cells
 type: docs
 weight: 30
 url: /cpp/add-hyperlinks-to-the-cells/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add Hyperlinks to the Cells**

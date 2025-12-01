@@ -5,6 +5,8 @@ type: docs
 weight: 610
 url: /cpp/copy-range-data-with-style/
 description: Copy range data including cell styles in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

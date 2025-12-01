@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Node.js, date axis, manage, date formats, time scales
 type: docs
 weight: 200
 url: /nodejs-cpp/date-axis/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

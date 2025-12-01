@@ -5,6 +5,8 @@ weight: 170
 url: /net/aspose-cells-griddesktop/read-data-validations-in-excel-file-using-aspose-cells-griddesktop/
 keywords: GridDesktop,get,validation,validations
 description: This article introduces how to work with validation in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

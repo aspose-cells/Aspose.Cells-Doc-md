@@ -4,6 +4,8 @@ type: docs
 weight: 10
 url: /net/encrypt-and-decrypt-ods-files/
 description: password-protect and encrypt ODS files using Aspose.Cells for .Net which is a pure net library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

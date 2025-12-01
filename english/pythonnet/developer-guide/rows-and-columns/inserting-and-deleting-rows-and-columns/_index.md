@@ -6,6 +6,8 @@ weight: 70
 url: /python-net/inserting-and-deleting-rows-and-columns/
 description: This article shows how to insert and delete rows and columns by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Aspose.Cells Python manage rows and columns, Python insert rows and columns, Python delete rows and columns, Python Remove rows and columns.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

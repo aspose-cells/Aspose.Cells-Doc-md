@@ -3,6 +3,8 @@ title: Group Pivot Fields in the Pivot Table
 type: docs
 weight: 80
 url: /net/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

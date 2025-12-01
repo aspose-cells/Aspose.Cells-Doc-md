@@ -3,6 +3,8 @@ title: Render the Worksheet and Workbook to Image using ImageOrPrintOptions
 type: docs
 weight: 220
 url: /java/render-the-worksheet-and-workbook-to-image-using-imageorprintoptions/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

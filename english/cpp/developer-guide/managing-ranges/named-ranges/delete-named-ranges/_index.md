@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /cpp/delete-named-ranges/
 description: Learn how to remove defined names or named ranges from Excel or OpenOffice files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

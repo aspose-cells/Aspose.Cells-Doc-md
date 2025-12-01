@@ -5,6 +5,8 @@ weight: 120
 url: /net/aspose-cells-griddesktop/custom-row-and-custom-column-caption-of-griddesktop-worksheet/
 keywords: GridDesktop,caption,row,column
 description: This article introduces how to custom row/column caption in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom date format
 type: docs
 weight: 160
 url: /net/render-custom-date-format-pattern-g-and-ge-mm-dd/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

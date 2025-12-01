@@ -3,6 +3,8 @@ title: Replace text in smart art
 type: docs
 weight: 1200
 url: /python-net/replace-text-in-smart-art/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Sort Data in Column with Custom Sort List
 type: docs
 weight: 210
 url: /java/sort-data-in-column-with-custom-sort-list/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

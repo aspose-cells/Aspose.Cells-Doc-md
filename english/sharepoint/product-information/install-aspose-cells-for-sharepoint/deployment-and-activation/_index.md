@@ -3,6 +3,8 @@ title: Deployment and Activation
 type: docs
 weight: 20
 url: /sharepoint/deployment-and-activation/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

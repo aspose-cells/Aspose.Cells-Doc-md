@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/check-if-vba-project-is-protected-and-locked-for-viewing/
 description: Learn how to check if VBA Project is protected and locked for viewing in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Check if VBA Project is Protected and Locked for Viewing in C++

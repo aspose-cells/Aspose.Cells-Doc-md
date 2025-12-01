@@ -3,6 +3,8 @@ title: Page Break Preview in Php
 type: docs
 weight: 60
 url: /java/page-break-preview-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Page Break Preview**

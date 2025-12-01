@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/specify-maximum-rows-of-shared-formula/
 description: Learn how to specify the maximum rows of shared formula in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
 description: This article explains how to use the Aspose.Cells for Python via .NET sample code to copy Page Setup settings from source Worksheet into destination Worksheet programmatically.
 keywords: Python Excel Library, Python copy page setup settings, copy page setup settings to target worksheet in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

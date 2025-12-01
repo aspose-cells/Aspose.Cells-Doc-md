@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-griddesktop/use-aspose-cells-griddesktop-in-wpf-application/
 keywords: GridDesktop,wpf
 description: This article introduces how to use  GridDesktop in WPF application.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

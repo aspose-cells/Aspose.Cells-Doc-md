@@ -3,6 +3,8 @@ title: Inserting and Removing Cell Comments in a Worksheet in VSTO and Aspose.Ce
 type: docs
 weight: 150
 url: /net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add comments to cells:

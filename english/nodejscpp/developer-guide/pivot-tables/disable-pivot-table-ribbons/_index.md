@@ -5,6 +5,8 @@ weight: 90
 url: /nodejs-cpp/disable-pivot-table-ribbons/
 description: How to disable Pivot Table Ribbons with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js Excel, Excel Node.js library, Disable Pivot Table Ribbons Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

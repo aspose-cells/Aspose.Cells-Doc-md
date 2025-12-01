@@ -3,6 +3,8 @@ title: Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery metho
 type: docs
 weight: 60
 url: /net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

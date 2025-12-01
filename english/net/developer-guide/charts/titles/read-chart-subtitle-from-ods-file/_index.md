@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Read Chart Subtitle, OpenDocument Spreadsheet, 
 type: docs
 weight: 160
 url: /net/read-chart-subtitle-from-ods-file/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read Chart Subtitle from ODS File**

@@ -5,6 +5,8 @@ type: docs
 weight: 390
 url: /cpp/use-custom-xml-parts-in-aspose-cells/
 description: Learn how to use custom XML parts in Excel files programmatically using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Using Custom XML Parts in Aspose.Cells

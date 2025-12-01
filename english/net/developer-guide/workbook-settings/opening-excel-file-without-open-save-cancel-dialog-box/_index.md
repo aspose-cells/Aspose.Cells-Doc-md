@@ -3,6 +3,8 @@ title: Opening Excel File without Open Save Cancel Dialog Box
 type: docs
 weight: 150
 url: /net/opening-excel-file-without-open-save-cancel-dialog-box/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

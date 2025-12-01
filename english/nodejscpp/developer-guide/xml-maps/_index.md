@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /nodejs-cpp/import-xml-map-inside-a-workbook-using-aspose-cells/
 description: Import data from XML files into Excel using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

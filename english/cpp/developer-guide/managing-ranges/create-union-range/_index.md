@@ -5,6 +5,8 @@ type: docs
 weight: 360
 url: /cpp/create-union-range/
 description: Create Union Range in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Union Range**

@@ -3,6 +3,8 @@ title: Get the Cell object by DisplayName of PivotField of PivotTable
 type: docs
 weight: 310
 url: /java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

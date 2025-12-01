@@ -5,6 +5,8 @@ weight: 600
 url: /net/get-cells-index/
 description: Learn how to get row or column in by the name of row , column or cells. Convert the name of the cell to row and column index zero-based.
 keywords: Get Row index and Column index by the name of the cell, Get Column index by the name of the column, Get Row index by the name of the row, Get the index by the name of cell. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

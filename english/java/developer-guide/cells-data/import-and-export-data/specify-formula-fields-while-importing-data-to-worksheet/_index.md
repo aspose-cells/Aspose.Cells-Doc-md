@@ -3,6 +3,8 @@ title: Specify Formula Fields while Importing Data to Worksheet
 type: docs
 weight: 220
 url: /java/specify-formula-fields-while-importing-data-to-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

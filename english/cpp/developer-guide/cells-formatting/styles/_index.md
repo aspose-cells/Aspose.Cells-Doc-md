@@ -6,6 +6,8 @@ weight: 50
 url: /cpp/styling-and-data-formatting/
 description: Discover how to perform data formatting and styling in Aspose.Cells for C++, including text formatting, number formatting, date formatting, and other styling options. Our guide will help you create professional-looking spreadsheets with attractive formatting.
 keywords: Aspose.Cells for C++, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Add Footer to multiple documents
 type: docs
 weight: 80
 url: /sharepoint/add-footer-to-multiple-documents/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 If you want to add footer in multiple Excel files, please choose “Add Footer with Aspose.Cells” option in Ribbon bar.

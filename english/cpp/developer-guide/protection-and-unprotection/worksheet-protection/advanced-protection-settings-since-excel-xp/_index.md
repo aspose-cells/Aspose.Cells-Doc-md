@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/advanced-protection-settings-since-excel-xp/
 description: Learn how to apply advanced protection settings in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

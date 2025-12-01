@@ -3,6 +3,8 @@ title: Adding Table Group
 type: docs
 weight: 40
 url: /reportingservices/adding-table-group/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add table group, follow the steps below:

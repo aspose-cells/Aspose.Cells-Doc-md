@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/add-conditional-icons-set-with-the-cell-text/
 description: Learn how to add conditional icons next to cell text in Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

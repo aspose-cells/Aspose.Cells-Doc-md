@@ -3,6 +3,8 @@ title: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV f
 type: docs
 weight: 100
 url: /net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

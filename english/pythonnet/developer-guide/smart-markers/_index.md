@@ -5,6 +5,8 @@ type: docs
 weight: 190
 url: /python-net/using-smart-markers/
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells for Python via .Net library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

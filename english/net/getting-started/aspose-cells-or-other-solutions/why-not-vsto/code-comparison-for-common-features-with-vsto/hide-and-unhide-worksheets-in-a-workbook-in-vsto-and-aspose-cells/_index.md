@@ -3,6 +3,8 @@ title: Hide and Unhide Worksheets in a Workbook in VSTO and Aspose.Cells
 type: docs
 weight: 140
 url: /net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This article compares hiding and unhiding worksheets with VSTO, using either C# or Visual Basic, to performing the same task with Aspose.Cells, again using either C# or Visual Basic. Aspose.Cells lets you work without Microsoft Excel installed.

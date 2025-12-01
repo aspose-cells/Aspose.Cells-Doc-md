@@ -3,6 +3,8 @@ title: Simple and Affordable Licensing
 type: docs
 weight: 50
 url: /jasperreports/simple-and-affordable-licensing/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

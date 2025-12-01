@@ -3,6 +3,8 @@ title: Change the Absolute Path of External Link Data Source File
 type: docs
 weight: 1020
 url: /java/change-the-absolute-path-of-external-link-data-source-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

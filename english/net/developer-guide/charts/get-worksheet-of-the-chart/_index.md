@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Excel charts, worksheets, data manipulation, un
 type: docs
 weight: 1000
 url: /net/get-worksheet-of-the-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

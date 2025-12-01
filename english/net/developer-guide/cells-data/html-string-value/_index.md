@@ -6,6 +6,8 @@ weight: 50
 url: /net/adding-html-rich-text-inside-the-cell/
 description: Learn how to add HTML Rich Text inside the Cell and multiple styles within a single cell through the Aspose.Cells for .NET API.
 keywords: Add HTML Rich Text inside the Cell, Set HTML Rich Text inside the Cell, Multiple styles within a single cell, Add HTML Rich Text in the Cell
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

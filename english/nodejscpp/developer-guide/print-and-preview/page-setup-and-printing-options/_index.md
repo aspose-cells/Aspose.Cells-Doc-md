@@ -4,6 +4,8 @@ linktitle: Page Setup and Printing Options
 type: docs  
 weight: 60  
 url: /nodejs-cpp/page-setup-and-printing-options/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

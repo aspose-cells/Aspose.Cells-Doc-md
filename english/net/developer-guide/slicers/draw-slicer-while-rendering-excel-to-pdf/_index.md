@@ -3,6 +3,8 @@ title: Draw Slicer while rendering Excel to PDF
 type: docs
 weight: 60
 url: /net/draw-slicer-while-rendering-excel-to-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Draw Slicer while rendering Excel to PDF**

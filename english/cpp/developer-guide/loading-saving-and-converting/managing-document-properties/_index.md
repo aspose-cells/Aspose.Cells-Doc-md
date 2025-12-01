@@ -3,6 +3,8 @@ title: Managing Document Properties
 type: docs
 weight: 30
 url: /cpp/managing-document-properties/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenario**

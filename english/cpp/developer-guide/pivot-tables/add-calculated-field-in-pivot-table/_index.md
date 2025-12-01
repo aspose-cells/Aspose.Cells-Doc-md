@@ -6,6 +6,8 @@ weight: 130
 url: /cpp/add-calculated-field-in-pivot-table/
 description: How to add a calculated field in pivot table with Aspose.Cells for C++.
 keywords: Adding a calculated field in pivot table.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

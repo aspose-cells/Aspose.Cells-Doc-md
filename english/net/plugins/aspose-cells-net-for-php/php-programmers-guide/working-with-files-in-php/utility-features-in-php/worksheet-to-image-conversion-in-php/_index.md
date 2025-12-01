@@ -3,6 +3,8 @@ title: Worksheet to Image Conversion in PHP
 type: docs
 weight: 40
 url: /net/worksheet-to-image-conversion-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Worksheet to Image**

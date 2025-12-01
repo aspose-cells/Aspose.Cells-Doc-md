@@ -3,6 +3,8 @@ title: Integration with JasperServer
 type: docs
 weight: 30
 url: /jasperreports/integration-with-jasperserver/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

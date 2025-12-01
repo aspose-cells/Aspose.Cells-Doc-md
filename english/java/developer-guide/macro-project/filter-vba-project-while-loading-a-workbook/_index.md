@@ -3,6 +3,8 @@ title: Filter VBA Project while loading a workbook
 type: docs
 weight: 70
 url: /java/filter-vba-project-while-loading-a-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

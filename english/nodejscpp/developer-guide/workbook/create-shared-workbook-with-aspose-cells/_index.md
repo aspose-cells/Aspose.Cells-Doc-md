@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/create-shared-workbook-with-aspose-cells/  
 description: Learn how to create a shared workbook using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

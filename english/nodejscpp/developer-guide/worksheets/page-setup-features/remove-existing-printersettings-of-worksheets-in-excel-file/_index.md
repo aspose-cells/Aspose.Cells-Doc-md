@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/remove-existing-printersettings-of-worksheets-in-excel-file/
 description: In this article, you will learn how to remove existing PrinterSettings of Worksheet inside the Excel file programmatically using Aspose.Cells for Node.js via C++.
 keywords: remove printer settings of worksheet Node.js via C++, remove printer settings of excel worksheet Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

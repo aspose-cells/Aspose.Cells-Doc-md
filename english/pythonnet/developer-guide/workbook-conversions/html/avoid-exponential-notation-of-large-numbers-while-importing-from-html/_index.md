@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/avoid-exponential-notation-of-large-numbers-while-importing-from/
 description: This topic show you how to Avoid exponential notation of large numbers while importing from HTML using Aspose.Cells for Python via NET.
 keywords: Avoid exponential notation of large numbers while importing from HTML, keep precision when importing html.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,8 @@ linktitle: Implement Subtotal or Grand Total Labels in Other Languages
 type: docs  
 weight: 50  
 url: /nodejs-cpp/implement-subtotal-or-grand-total-labels-in-other-languages/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

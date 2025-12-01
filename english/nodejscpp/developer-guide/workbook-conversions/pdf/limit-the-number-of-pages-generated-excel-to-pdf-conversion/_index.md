@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /nodejs-cpp/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 description: Learn how to limit the number of pages generated when converting an Excel spreadsheet to PDF using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

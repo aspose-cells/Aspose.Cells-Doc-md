@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, C#, Alternate Rows, Alternate Co
 type: docs
 weight: 30
 url: /net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

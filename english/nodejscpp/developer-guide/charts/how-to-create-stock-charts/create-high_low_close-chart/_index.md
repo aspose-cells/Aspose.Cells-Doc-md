@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, High-Low-Close Stock Chart, Stock Market Dat
 type: docs  
 weight: 181  
 url: /nodejs-cpp/create-high-low-close-stock-chart/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

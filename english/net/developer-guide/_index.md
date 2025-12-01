@@ -5,6 +5,8 @@ weight: 20
 url: /net/developer-guide/
 description: This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Cells for .NET features, achieve a certain excel appearance, or make a use case possible.
 keywords: Guidelines for using Aspose.Cells development APIs, Reference manual of Aspose.Cells for .NET APIS
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This Developer Guide provides information on using Aspose.Cells in a variety of practical scenarios, similar to using MS Excel menus.

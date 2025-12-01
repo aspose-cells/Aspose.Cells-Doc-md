@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/customize-parameters-in-client-side-script/
 keywords: GridWeb,customize,customize parameters
 description: how to customize initialization parameters in  Aspose.Cells.GridWeb client side script.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

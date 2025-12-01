@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-gridweb/using-a-common-button-to-submit-grid-data/
 keywords: GridWeb,submit,button,custom
 description: This article describes the use of submit button in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

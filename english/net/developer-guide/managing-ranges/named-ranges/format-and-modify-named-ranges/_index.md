@@ -3,6 +3,8 @@ title: Format and Modify Named Ranges
 type: docs
 weight: 85
 url: /net/format-and-modify-named-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Format Ranges**

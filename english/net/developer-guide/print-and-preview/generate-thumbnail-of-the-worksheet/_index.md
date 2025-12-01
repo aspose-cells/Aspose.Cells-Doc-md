@@ -3,6 +3,8 @@ title: Generate Thumbnail of the Worksheet
 type: docs
 weight: 110
 url: /net/generate-thumbnail-of-the-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

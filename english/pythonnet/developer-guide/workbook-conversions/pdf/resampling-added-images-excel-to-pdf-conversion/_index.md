@@ -5,6 +5,8 @@ weight: 150
 url: /python-net/resample-added-images-excel-to-pdf-conversion/
 description: Learn how to resample added images when converting excel to pdf with Aspose.Cells for Python via .NET API.
 keywords: Python Resample Added Images when Convert Excel to PDF
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

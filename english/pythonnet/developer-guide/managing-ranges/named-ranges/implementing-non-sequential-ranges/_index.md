@@ -5,6 +5,8 @@ weight: 700
 url: /python-net/implementing-non-sequential-ranges/
 description: This article shows how to Add Non-Sequential Ranges by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Add Non-Sequential Ranges, Python implement Non-Sequential Ranges, Python Create Non-Sequential Ranges.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

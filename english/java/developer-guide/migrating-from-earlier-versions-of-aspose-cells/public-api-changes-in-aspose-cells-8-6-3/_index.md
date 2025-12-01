@@ -3,6 +3,8 @@ title: Public API Changes in Aspose.Cells 8.6.3
 type: docs
 weight: 230
 url: /java/public-api-changes-in-aspose-cells-8-6-3/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

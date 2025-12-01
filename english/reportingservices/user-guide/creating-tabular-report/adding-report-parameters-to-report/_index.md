@@ -3,6 +3,8 @@ title: Adding Report Parameters to Report
 type: docs
 weight: 60
 url: /reportingservices/adding-report-parameters-to-report/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

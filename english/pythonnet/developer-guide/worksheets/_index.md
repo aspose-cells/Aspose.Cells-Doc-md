@@ -6,6 +6,8 @@ weight: 90
 url: /python-net/manage-worksheets/
 description: This article shows how to Manage Worksheets of Microsoft Excel files by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Manage Worksheets of Microsoft Excel files, Add worksheet in Python, Python remove worksheet, Python How to Add Worksheets to a New Excel File, Python How to Add Worksheets to a Designer Spreadsheet, Python How to Access Worksheets using Sheet Name, Python How to Remove Worksheets using Sheet Name, Python How to Remove Worksheets using Sheet Index, Python How to Activate Sheets and Making a Cell Active.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

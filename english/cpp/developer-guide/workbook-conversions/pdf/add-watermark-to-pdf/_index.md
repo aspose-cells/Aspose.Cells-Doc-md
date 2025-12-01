@@ -5,6 +5,8 @@ type: docs
 weight: 9
 url: /cpp/add-watermark-to-pdf/
 description: Learn how to add text and image watermarks to PDF files while rendering using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 While converting an Excel file to PDF, you may have requirements to add a watermark to the PDF file. The following examples show how to add text and image watermarks to PDF while rendering to PDF.

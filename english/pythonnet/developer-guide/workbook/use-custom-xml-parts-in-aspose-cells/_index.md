@@ -3,6 +3,8 @@ title: Use Custom XML Parts in Aspose.Cells
 type: docs
 weight: 390
 url: /python-net/use-custom-xml-parts-in-aspose-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Using Custom XML Parts in Aspose.Cells for Python via .NET

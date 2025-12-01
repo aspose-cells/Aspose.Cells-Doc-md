@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, custom functions, direct calculations, no need to
 type: docs
 weight: 90
 url: /cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Direct Calculation of Custom Function without Writing it in a Worksheet**

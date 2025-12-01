@@ -5,6 +5,8 @@ weight: 130
 url: /nodejs-cpp/display-bullets-by-setting-cell-value-using/
 description: Add bullets to Excel Cells using HTML with the easy to use Aspose.Cells for Node.js via C++ API.
 keywords: add bullets in excel Node.js via C++, display bullets in excel Node.js via C++, add bullets in excel with html Node.js via C++, display bullets in excel with html Node.js via C++, add bullets in excel using html Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

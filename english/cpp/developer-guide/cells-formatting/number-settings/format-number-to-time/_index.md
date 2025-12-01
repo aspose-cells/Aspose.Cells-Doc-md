@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/how-to-format-number-to-time/
 description: This article will introduce how to format numbers to time using Aspose.Cells for C++ API.
 keywords: Convert numerical values into time format, Transform digits into a time representation, Change numbers to a readable time format, Format numeric data into time notation, Adapt numerical input to a time structure, Format Number to Time
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

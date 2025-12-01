@@ -5,6 +5,8 @@ weight: 40
 url: /python-net/refresh-and-calculate-pivot-table-having-calculated-items/
 description: This article shows how to Refresh and Calculate Pivot Table having Calculated Items with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Refresh and Calculate Pivot Table with Calculated Items
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

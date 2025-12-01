@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-xlsx-file-to-pdf-format/
 description: Learn how to Convert XLSX File to PDF Format with Aspose.Cells for Python via .NET API.
 keywords: Python Convert XLSX File to PDF Format, Convert xlsx to pdf using Python, Python xlsx to pdf, Save xlsx to pdf in python, xlsx to pdf format in Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

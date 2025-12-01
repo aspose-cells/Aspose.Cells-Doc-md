@@ -5,6 +5,8 @@ weight: 180
 url: /net/aspose-cells-griddesktop/split-panes-in-griddesktop-worksheet/
 keywords: GridDesktop,split,split panes,panes
 description: This article introduces how to split panes in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 85
 url: /nodejs-cpp/data-filtering/
 description: Learn how to add data filter by using the Aspose.Cells for Node.js via C++ API.
 keywords: Add Filter by Color Node.js via C++, Add Date Filters Node.js via C++, Add Number Filters Node.js via C++, Add Dynamic Filter Node.js via C++, Add Text Filters Node.js via C++, Add custom filter with Contains Node.js via C++, Add custom filter with NotContains Node.js via C++, Add custom filter with BeginsWith Node.js via C++, Add custom filter with EndsWith Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

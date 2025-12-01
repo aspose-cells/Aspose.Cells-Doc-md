@@ -5,6 +5,8 @@ type: docs
 weight: 290
 url: /cpp/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 description: Learn how to set line spacing, space before, and space after in a paragraph within a shape or textbox using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

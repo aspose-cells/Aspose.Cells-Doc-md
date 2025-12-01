@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Python libraries, spreadsheets, styling, custom number f
 type: docs
 weight: 170
 url: /python-net/check-custom-number-format-when-setting-style-custom-property/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

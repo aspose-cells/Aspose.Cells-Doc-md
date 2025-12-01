@@ -5,6 +5,8 @@ weight: 70
 url: /python-net/parsing-pivot-cached-records-while-loading-excel-file/
 description: How to parse Pivot Cached Records while loading Excel file with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, How to Parse Pivot Cached Records while loading Excel file Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Send Shape Front or Back inside the Worksheet
 type: docs
 weight: 600
 url: /java/send-shape-front-or-back-inside-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Chart Legends, Microsoft Excel, Visualization, D
 type: docs
 weight: 50
 url: /cpp/chart-legend/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Legend Options**

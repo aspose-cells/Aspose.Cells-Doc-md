@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /cpp/show-report-filter-pages-option/
 description: Learn how to enable the "Show Report Filter Pages" option in pivot tables using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Show Report Filter Pages Option**

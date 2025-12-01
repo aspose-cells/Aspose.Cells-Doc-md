@@ -3,6 +3,8 @@ title: Converting To Mhtml Files in Jython
 type: docs
 weight: 20
 url: /java/converting-to-mhtml-files-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting To Mhtml Files**

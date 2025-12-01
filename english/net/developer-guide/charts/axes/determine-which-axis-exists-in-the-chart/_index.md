@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, chart, axis, existence, category, value, second
 type: docs
 weight: 140
 url: /net/determine-which-axis-exists-in-the-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

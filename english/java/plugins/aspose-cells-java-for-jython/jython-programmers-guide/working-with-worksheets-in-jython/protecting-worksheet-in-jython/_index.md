@@ -3,6 +3,8 @@ title: Protecting Worksheet in Jython
 type: docs
 weight: 100
 url: /java/protecting-worksheet-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Protecting Worksheet**

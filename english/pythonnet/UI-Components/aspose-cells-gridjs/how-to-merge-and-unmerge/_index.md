@@ -11,6 +11,8 @@ aliases:
   - /python-net/aspose-cells-gridjs/how-to-unmerge-cells/
   - /python-net/aspose-cells-gridjs/cell-merge-and-unmerge/
   - /python-net/aspose-cells-gridjs/merge-unmerge-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

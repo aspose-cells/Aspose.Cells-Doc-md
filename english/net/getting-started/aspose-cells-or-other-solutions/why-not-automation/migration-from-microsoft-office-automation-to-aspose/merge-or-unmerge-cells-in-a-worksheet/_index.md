@@ -3,6 +3,8 @@ title: Merge or UnMerge Cells in a Worksheet
 type: docs
 weight: 40
 url: /net/merge-or-unmerge-cells-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

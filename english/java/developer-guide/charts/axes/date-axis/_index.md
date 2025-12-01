@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, date axis, manage, date formats, time scales, t
 type: docs
 weight: 200
 url: /java/date-axis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

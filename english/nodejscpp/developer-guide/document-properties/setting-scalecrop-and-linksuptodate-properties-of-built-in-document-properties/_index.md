@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /nodejs-cpp/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/
 description: Learn how to set ScaleCrop and LinksUpToDate properties of built-in document properties using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

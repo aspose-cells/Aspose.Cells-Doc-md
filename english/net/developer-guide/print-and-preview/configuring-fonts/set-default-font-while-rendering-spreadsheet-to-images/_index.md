@@ -3,6 +3,8 @@ title: Set Default Font while rendering spreadsheet to images
 type: docs
 weight: 360
 url: /net/set-default-font-while-rendering-spreadsheet-to-images/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

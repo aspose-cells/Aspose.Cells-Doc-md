@@ -3,6 +3,8 @@ title: XML Paper Specification - XPS
 type: docs
 weight: 30
 url: /net/xml-paper-specification-xps/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About XPS**

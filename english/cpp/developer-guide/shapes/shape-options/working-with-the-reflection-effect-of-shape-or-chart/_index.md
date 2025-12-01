@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /cpp/working-with-the-reflection-effect-of-shape-or-chart/
 description: Learn how to work with the reflection effect of shapes or charts using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Export Range of Cells in a Worksheet to Image
 type: docs
 weight: 60
 url: /net/export-range-of-cells-in-a-worksheet-to-image/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

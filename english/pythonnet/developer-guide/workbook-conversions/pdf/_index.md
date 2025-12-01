@@ -5,6 +5,8 @@ weight: 220
 url: /python-net/convert-excel-to-pdf/
 description: Learn how to converT Excel to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python converT Excel to PDF, ConverT Excel to PDF using Python, Python save Excel to PDF, Excel to PDF in Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

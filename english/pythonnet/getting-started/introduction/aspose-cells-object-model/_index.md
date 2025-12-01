@@ -3,6 +3,8 @@ title: Aspose.Cells Object Model
 type: docs
 weight: 20
 url: /python-net/aspose-cells-object-model/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Applying Subtotal and Changing Direction of Outline Summary Rows below De
 type: docs
 weight: 100
 url: /java/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

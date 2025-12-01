@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-griddesktop/features/
 keywords: GridDesktop,features,feature
 description: This article introduce features for GridDesktop .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells.GridDesktop – Desktop Grid Control**

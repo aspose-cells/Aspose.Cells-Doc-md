@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/insert-or-delete-rows-in-an-excel-worksheet/
 description: This article provides the python code to insert and delete rows in Excel worksheet with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python insert or delete rows in excel worksheet, Python insert or delete rows in excel, Python insert rows in excel, Python delete rows in excel, insert or delete rows in excel worksheet with Python, insert or delete rows in excel with Python, insert rows in excel with Python, delete rows in excel with Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

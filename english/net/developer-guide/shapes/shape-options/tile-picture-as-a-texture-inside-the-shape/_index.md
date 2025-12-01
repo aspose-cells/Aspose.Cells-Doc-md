@@ -3,6 +3,8 @@ title: Tile Picture as a Texture inside the Shape
 type: docs
 weight: 1700
 url: /net/tile-picture-as-a-texture-inside-the-shape/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

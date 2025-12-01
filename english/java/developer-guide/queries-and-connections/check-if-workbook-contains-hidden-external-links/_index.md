@@ -3,6 +3,8 @@ title: Check if Workbook contains hidden External Links
 type: docs
 weight: 950
 url: /java/check-if-workbook-contains-hidden-external-links/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

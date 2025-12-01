@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/export-equation/
 description: Export Excel formulas to LaTeX and MathML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Sometimes you may need to export Excel formulas to other formats in your code to meet work requirements. Aspose.Cells for C++ library can fulfill these needs. The following content introduces methods for exporting Excel formulas to other formats using C++.

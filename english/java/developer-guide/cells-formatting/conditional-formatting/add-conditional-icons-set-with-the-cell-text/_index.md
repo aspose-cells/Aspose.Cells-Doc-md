@@ -3,6 +3,8 @@ title: Add Conditional Icons Set with the Cell Text
 type: docs
 weight: 70
 url: /java/add-conditional-icons-set-with-the-cell-text/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

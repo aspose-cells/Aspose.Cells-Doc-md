@@ -3,6 +3,8 @@ title: Determine if Shape is Smart Art Shape
 type: docs
 weight: 400
 url: /net/determine-if-shape-is-smart-art-shape/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Copy Page Setup Settings from Source Worksheet into Destination Worksheet
 type: docs
 weight: 10
 url: /java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

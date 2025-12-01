@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/setting-shared-formula/
 description: Learn how to set shared formulas in Excel worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

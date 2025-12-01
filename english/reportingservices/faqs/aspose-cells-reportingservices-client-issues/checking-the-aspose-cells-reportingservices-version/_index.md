@@ -3,6 +3,8 @@ title: Checking the Aspose.Cells.ReportingServices Version
 type: docs
 weight: 50
 url: /reportingservices/checking-the-aspose-cells-reportingservices-version/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To check the Aspose.Cells.ReportingServices version:

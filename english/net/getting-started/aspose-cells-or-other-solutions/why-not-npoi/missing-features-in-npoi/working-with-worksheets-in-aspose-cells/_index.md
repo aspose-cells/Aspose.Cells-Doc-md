@@ -3,6 +3,8 @@ title: Working with Worksheets in Aspose.Cells
 type: docs
 weight: 40
 url: /net/working-with-worksheets-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  **This section includes the following topics:** 

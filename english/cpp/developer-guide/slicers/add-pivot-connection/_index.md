@@ -6,6 +6,8 @@ weight: 30
 url: /cpp/add-pivot-connection/
 description: Learn how to add pivot connection with Aspose.Cells library using C++.
 keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

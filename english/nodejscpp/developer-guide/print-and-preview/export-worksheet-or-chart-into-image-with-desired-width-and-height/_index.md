@@ -5,6 +5,8 @@ type: docs
 weight: 290  
 url: /nodejs-cpp/export-worksheet-or-chart-into-image-with-desired-width-and-height/  
 description: Learn how to export a worksheet or chart to an image with specified width and height using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

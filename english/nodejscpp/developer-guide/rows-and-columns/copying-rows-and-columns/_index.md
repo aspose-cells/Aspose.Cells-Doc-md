@@ -6,6 +6,8 @@ weight: 40
 url: /nodejs-cpp/copying-rows-and-columns/  
 description: This article shows how to copy rows and columns through the Aspose.Cells for Node.js via C++ API.  
 keywords: Node.js via C++, How to Copy Rows and Columns, Copy Rows in Node.js, Copy Columns using Node.js, How to Paste Rows and Columns using Aspose.Cells for Node.js via C++, Paste multiple rows and columns, How to Copy and paste Single Row or Column.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

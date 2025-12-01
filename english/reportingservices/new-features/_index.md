@@ -3,6 +3,8 @@ title: New Features
 type: docs
 weight: 40
 url: /reportingservices/new-features/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **This section includes the following topics:** 

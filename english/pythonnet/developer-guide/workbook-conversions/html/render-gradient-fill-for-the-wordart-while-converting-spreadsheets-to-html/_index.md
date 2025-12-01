@@ -3,6 +3,8 @@ title: Render Gradient Fill for the WordArt while Converting Spreadsheets to HTM
 type: docs
 weight: 90
 url: /python-net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

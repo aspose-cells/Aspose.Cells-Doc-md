@@ -3,6 +3,8 @@ title: Office 2000, XP Installation Question
 type: docs
 weight: 30
 url: /reportingservices/office-2000-xp-installation-question/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##### **Description**

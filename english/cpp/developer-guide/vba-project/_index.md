@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/manage-vba-project/
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add a VBA Module in C++**

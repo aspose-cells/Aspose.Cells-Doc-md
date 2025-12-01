@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, sunburst chart, create, set properties, data la
 type: docs
 weight: 162
 url: /net/creating-sunburst-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

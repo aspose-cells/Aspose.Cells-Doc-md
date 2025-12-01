@@ -3,6 +3,8 @@ title: Disable CSS while saving to HTML
 type: docs
 weight: 320
 url: /net/disable-css-while-saving-to-html/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

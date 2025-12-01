@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/access-cell-in-a-worksheet/
 keywords: GridDesktop,GridCell,get cell
 description: This article introduces how to get cell object (GridCell) in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

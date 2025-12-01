@@ -5,6 +5,8 @@ type: docs
 weight: 8000
 url: /nodejs-cpp/finding-absolute-position-of-shape-inside-the-worksheet/
 description: Learn how to find the absolute position of a shape inside a worksheet using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

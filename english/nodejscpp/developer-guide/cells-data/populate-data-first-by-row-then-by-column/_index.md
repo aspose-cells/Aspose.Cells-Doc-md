@@ -5,6 +5,8 @@ weight: 1000
 url: /nodejs-cpp/populate-data-first-by-row-then-by-column/  
 description: Learn how to Populate Data First by Row then by Column through the Aspose.Cells for Node.js via C++ API.  
 keywords: Populate Data First by Row then by Column Node.js via C++, Insert Data First by Row then by Column Node.js via C++, Add Data First by Row then by Column Node.js via C++, High performance data insertion Node.js via C++, High performance data addition Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

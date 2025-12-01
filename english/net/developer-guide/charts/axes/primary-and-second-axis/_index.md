@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, primary axes, secondary axes, understanding, di
 type: docs
 weight: 190
 url: /net/primary-and-second-axis/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

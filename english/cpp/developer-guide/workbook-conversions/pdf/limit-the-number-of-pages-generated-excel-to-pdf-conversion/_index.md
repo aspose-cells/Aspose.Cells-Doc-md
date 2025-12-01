@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /cpp/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 description: Learn how to limit the number of pages generated when converting Excel to PDF using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

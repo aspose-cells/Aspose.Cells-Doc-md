@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /nodejs-cpp/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 description: Learn how to implement Errors and Boolean values in different languages using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

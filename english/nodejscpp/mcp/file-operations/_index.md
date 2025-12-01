@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/mcp/file-operations
 keywords: "Excel file operations, Excel data operations, create Excel workbook, Excel worksheet, read Excel data, write Excel data"
 description: "Excel file and data operations - create workbooks, manage worksheets, read and write Excel data with AI automation"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel File and  Data Operations

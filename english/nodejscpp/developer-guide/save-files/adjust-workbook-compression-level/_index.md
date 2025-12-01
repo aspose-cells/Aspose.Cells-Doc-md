@@ -5,6 +5,8 @@ type: docs
 weight: 180  
 url: /nodejs-cpp/adjust-workbook-compression-level/  
 description: Learn how to adjust the workbook compression level in Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Adjust Workbook Compression Level**  

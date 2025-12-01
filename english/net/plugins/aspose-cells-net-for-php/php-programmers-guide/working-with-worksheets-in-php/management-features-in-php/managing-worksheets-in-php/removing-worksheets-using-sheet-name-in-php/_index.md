@@ -3,6 +3,8 @@ title: Removing Worksheets Using Sheet Name in PHP
 type: docs
 weight: 40
 url: /net/removing-worksheets-using-sheet-name-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Removing Worksheets Using Sheet Name**

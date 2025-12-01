@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, chart, axis labels, calculation, reading, ac
 type: docs  
 weight: 90  
 url: /nodejs-cpp/read-axis-labels-after-calculating-the-chart/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

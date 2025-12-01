@@ -5,6 +5,8 @@ weight: 800
 url: /net/creating-subtotals/
 description: Learn how to create subtotals for any repeating values in a spreadsheet by using the Aspose.Cells for .NET API.
 keywords: Apply Subtotals, Set Subtotals, Add subtotals, Create Subtotals, How to add subtotals to a worksheet 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 220
 url: /cpp/convert-excel-to-pdf/
 description: Learn how to convert Excel workbooks to PDF format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

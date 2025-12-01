@@ -3,6 +3,8 @@ title: Find Maximum Rows and Columns supported by XLS and XLSX formats
 type: docs
 weight: 60
 url: /java/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, workbooks, formula calculations, breaks, cancella
 type: docs
 weight: 50
 url: /net/interrupt-or-cancel-the-formula-calculation-of-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

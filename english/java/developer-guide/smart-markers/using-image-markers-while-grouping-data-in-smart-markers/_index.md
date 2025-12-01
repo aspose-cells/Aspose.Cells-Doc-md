@@ -3,6 +3,8 @@ title: Using Image Markers while Grouping Data in Smart Markers
 type: docs
 weight: 630
 url: /java/using-image-markers-while-grouping-data-in-smart-markers/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

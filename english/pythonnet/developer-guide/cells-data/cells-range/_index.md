@@ -5,6 +5,8 @@ weight: 600
 url: /python-net/get-cells-range/
 description: Learn how to Get Cells Range through the Aspose.Cells for Python via .NET API.
 keywords: Python Get Max Display Range of Cells, Get Max Row of Cells using Python, Get Max Data Row of Cells using Python, Get Max Column of Cells using Python, Get Max Data Column of Cells using Python. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

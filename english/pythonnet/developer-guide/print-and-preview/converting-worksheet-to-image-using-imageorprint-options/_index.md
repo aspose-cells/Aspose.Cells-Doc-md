@@ -3,6 +3,8 @@ title: Converting Worksheet to Image using ImageOrPrint Options
 type: docs
 weight: 90
 url: /python-net/converting-worksheet-to-image-using-imageorprint-options/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

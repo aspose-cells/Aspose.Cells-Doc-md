@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/convert-the-smart-art-to-group-shape/
 description: Learn how to convert Smart Art Shape into Group Shape using Aspose.Cells for C++ and access individual parts of the group shape.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

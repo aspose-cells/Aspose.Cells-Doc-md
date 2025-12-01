@@ -5,6 +5,8 @@ weight: 105
 url: /python-net/how-to-format-a-range/
 description: This article describes how to format ranges with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to format a Range, Python How to format ranges.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

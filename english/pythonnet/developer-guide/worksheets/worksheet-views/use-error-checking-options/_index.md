@@ -5,6 +5,8 @@ weight: 140
 url: /python-net/use-error-checking-options/
 description: In this article, you will find sample code that will programmatically use error checking options of Excel worksheets e.g. Numbers stored as Text using Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python store number as text in excel, How to deal with error check excel options in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/managing-document-properties/
 description: Learn how to Manage Document Properties through the Aspose.Cells for Node.js via C++ APIs.
 keywords: How to Manage Document Properties in Node.js via C++, Get or Set Document Properties using Node.js via C++, Add or Delete Document Properties via Node.js via C++, Insert or Remove Document Properties with Node.js via C++, How to Access Document Properties using Aspose.Cells for Node.js via C++ APIs.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

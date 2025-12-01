@@ -6,6 +6,8 @@ weight: 110
 url: /nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/
 description: Change Number decimal and group separators in Excel using Aspose.Cells for Node.js via C++. 
 keywords: specify custom decimal separator excel node.js via C++, specify custom group separator excel node.js via C++, change decimal and group separator excel node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

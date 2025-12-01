@@ -3,6 +3,8 @@ title: Set Margins of Comment or Shape inside the Worksheet
 type: docs
 weight: 90
 url: /java/set-margins-of-comment-or-shape-inside-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

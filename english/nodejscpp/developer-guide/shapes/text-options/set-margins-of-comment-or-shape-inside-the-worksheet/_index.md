@@ -5,6 +5,8 @@ type: docs
 weight: 1500  
 url: /nodejs-cpp/set-margins-of-comment-or-shape-inside-the-worksheet/  
 description: Learn how to set margins of comments or shapes within an Excel worksheet using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

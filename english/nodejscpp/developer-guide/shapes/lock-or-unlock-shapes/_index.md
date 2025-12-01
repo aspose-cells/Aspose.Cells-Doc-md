@@ -6,6 +6,8 @@ weight: 200
 url: /nodejs-cpp/lock-or-unlock-shapes/
 description: This article shows you code explaining how to lock or unlock shapes to protect them using Aspose.Cells library for Node.js via C++.
 keywords: Node.js Lock Shapes to Protect Them, How to Lock or unlock shapes using Node.js via C++, Lock or unlock shapes to Protect Them in Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

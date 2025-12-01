@@ -3,6 +3,8 @@ title: Aspose.Cells for Reporting Services Report Designer
 type: docs
 weight: 100
 url: /reportingservices/aspose-cells-for-reporting-services-report-designer/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

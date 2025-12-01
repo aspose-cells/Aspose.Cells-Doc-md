@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /java/encrypt-and-decrypt-excel-files/
 description: How to encrypt and decrypt excel files using java. Lock and unlock Excel files.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

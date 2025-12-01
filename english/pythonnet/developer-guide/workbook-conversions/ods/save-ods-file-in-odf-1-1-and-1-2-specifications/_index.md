@@ -7,6 +7,8 @@ weight: 230
 url: /python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/
 description: How to  Save ODS File in ODF 1.1 and 1.2 Specifications with Aspose.Cells for Python via .NET API.
 keywords: Python  Save ODS File in ODF 1.1 and 1.2 Specifications,  Save ODS File in ODF 1.1 and 1.2 Specifications Pyton via NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

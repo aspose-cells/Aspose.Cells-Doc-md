@@ -3,6 +3,8 @@ title: Insert Cell Comments
 type: docs
 weight: 40
 url: /java/insert-cell-comments/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Insert Cell Comments**

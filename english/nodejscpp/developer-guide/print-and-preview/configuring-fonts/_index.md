@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /nodejs-cpp/configuring-fonts-for-rendering-spreadsheets/
 description: Learn how to configure fonts for rendering spreadsheets using Aspose.Cells for Node.js via C++. Ensure fonts are available for optimal conversion fidelity.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

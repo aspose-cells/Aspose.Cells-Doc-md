@@ -5,6 +5,8 @@ weight: 270
 url: /nodejs-cpp/find-if-the-cell-value-starts-with-single-quote-mark/
 description: Learn how to find if the cell value starts with a single quote mark through the Aspose.Cells for Node.js via C++ API.
 keywords: Find cell value starts with a single quote mark Node.js via C++, Search cell value starts with a single quote mark Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

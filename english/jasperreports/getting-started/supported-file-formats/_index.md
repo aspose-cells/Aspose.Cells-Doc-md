@@ -3,6 +3,8 @@ title: Supported File Formats
 type: docs
 weight: 60
 url: /jasperreports/supported-file-formats/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 |**Format**|**Description**|**Load**|**Save**|

@@ -7,6 +7,8 @@ description: This article describes how to use GridJs in mobile device.
 keywords: GridJs,mobile spreadsheet editor, mobile spreadsheet viewer,excel,view,edit,mobile
 aliases:
   - /java/aspose-cells-gridjs/mobile/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Use GridJs in mobile device

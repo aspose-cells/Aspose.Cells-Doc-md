@@ -3,6 +3,8 @@ title: Opening Files in Python
 type: docs
 weight: 10
 url: /java/opening-files-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Opening Files in Python**

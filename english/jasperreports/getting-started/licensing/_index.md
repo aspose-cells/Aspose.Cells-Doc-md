@@ -3,6 +3,8 @@ title: Licensing
 type: docs
 weight: 40
 url: /jasperreports/licensing/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

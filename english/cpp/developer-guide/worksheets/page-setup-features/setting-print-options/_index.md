@@ -6,6 +6,8 @@ weight: 40
 url: /cpp/setting-print-options/
 description: This article demonstrates how to programmatically set the Print Options of the Excel Worksheet Page Setup feature using the C++ API and Library. You can set the Print Area, Print Titles, and Page Order.
 keywords: set excel print area c++, set excel print titles c++, set excel page order c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

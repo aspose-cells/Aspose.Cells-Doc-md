@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-gridweb/using-the-dropdownlist-list-freelist-gridweb/
 keywords: GridWeb,dropdownlist,freelist,list
 description: This article introduce how to use list in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

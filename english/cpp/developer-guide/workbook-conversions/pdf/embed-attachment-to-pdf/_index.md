@@ -5,6 +5,8 @@ type: docs
 weight: 380
 url: /cpp/embed-attachment-to-pdf/
 description: Learn how to embed attachments into PDF using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double click the Ole Object, the embedded file will be opened.

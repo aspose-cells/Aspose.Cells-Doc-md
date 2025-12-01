@@ -5,6 +5,8 @@ type: docs
 weight: 280
 url: /cpp/export-chart-to-svg-with-viewbox-attribute/
 description: Export a chart to SVG format with viewBox attribute using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

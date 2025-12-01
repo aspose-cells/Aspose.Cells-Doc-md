@@ -3,6 +3,8 @@ title: Opening Files in Ruby
 type: docs
 weight: 10
 url: /java/opening-files-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Simple Ways to Open Excel Files**

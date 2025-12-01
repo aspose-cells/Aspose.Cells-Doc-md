@@ -3,6 +3,8 @@ title: Using Built-in Styles
 type: docs
 weight: 480
 url: /java/using-built-in-styles/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

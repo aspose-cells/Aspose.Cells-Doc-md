@@ -5,6 +5,8 @@ weight: 50
 url: /java/hiding-and-showing-rows-and-columns-in-python/
 description: Learn how to Hide and Show Rows and Columns through the Aspose.Cells for Python Via Java API.
 keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Controlling the Visibility of Rows & Columns**

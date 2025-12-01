@@ -3,6 +3,8 @@ title: Sort Data in Worksheets
 type: docs
 weight: 230
 url: /net/sort-data-in-worksheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Below is the comparison code example for VSTO and Aspose.Cells.

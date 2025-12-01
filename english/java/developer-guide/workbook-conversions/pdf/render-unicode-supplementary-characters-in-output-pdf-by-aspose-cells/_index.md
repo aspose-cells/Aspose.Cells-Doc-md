@@ -3,6 +3,8 @@ title: Render Unicode Supplementary characters in output PDF by Aspose.Cells
 type: docs
 weight: 690
 url: /java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

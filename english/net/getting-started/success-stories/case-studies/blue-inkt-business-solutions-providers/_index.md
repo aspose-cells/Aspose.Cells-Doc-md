@@ -3,6 +3,8 @@ title: Blue Inkt Business Solutions Providers
 type: docs
 weight: 20
 url: /net/blue-inkt-business-solutions-providers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Product Background**

@@ -4,6 +4,8 @@ linktitle: Reading and Writing Query Table of Worksheet
 type: docs
 weight: 40
 url: /nodejs-cpp/reading-and-writing-query-table-of-worksheet/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

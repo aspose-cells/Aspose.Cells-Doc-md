@@ -3,6 +3,8 @@ title: Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar o
 type: docs
 weight: 910
 url: /java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

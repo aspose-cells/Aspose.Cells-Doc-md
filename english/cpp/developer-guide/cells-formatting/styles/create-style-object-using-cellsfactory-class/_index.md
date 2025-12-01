@@ -5,6 +5,8 @@ keywords: Aspose.Cells, C++ library, electronic spreadsheet, style object, cell 
 type: docs  
 weight: 70  
 url: /cpp/create-style-object-using-cellsfactory-class/  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Create Style object using CellsFactory class**  

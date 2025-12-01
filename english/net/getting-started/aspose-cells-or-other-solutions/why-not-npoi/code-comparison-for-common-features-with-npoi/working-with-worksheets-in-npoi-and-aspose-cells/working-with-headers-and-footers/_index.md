@@ -3,6 +3,8 @@ title: Working with Headers and Footers
 type: docs
 weight: 110
 url: /net/working-with-headers-and-footers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Working with Headers and Footers**

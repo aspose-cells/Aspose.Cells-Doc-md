@@ -5,6 +5,8 @@ type: docs
 weight: 1100
 url: /cpp/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 description: Replace tags in worksheet textboxes programmatically using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

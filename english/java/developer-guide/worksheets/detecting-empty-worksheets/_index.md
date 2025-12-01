@@ -3,6 +3,8 @@ title: Detecting Empty Worksheets
 type: docs
 weight: 710
 url: /java/detecting-empty-worksheets/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Check for Populated Cells**

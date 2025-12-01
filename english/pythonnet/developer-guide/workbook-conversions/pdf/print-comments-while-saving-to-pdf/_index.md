@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/print-comments-while-saving-to-pdf/
 description: Learn how to Print Comments while saving to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

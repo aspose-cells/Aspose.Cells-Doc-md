@@ -3,6 +3,8 @@ title: Adjusting Row Height and Column Width
 type: docs
 weight: 10
 url: /cpp/adjusting-row-height-and-column-width/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

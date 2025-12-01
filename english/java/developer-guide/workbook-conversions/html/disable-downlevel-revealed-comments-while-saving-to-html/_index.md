@@ -3,6 +3,8 @@ title: Disable Downlevel Revealed Comments while saving to HTML
 type: docs
 weight: 20
 url: /java/disable-downlevel-revealed-comments-while-saving-to-html/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

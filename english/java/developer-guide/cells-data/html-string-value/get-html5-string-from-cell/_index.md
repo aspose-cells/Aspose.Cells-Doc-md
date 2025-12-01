@@ -3,6 +3,8 @@ title: Get HTML5 string from Cell
 type: docs
 weight: 90
 url: /java/get-html5-string-from-cell/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

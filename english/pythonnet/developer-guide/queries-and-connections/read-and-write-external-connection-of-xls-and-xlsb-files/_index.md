@@ -3,6 +3,8 @@ title: Read and Write External Connection of XLS and XLSB files
 type: docs
 weight: 80
 url: /python-net/read-and-write-external-connection-of-xls-and-xlsb-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

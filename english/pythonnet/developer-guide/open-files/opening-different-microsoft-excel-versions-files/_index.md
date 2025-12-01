@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/opening-different-microsoft-excel-versions-files/
 description: This article explains how to open different excel versions files using Aspose.Cells for Python via .NET API.
 keywords: Python Open Different Microsoft Excel file, How do I open Encrypted Excel Files.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

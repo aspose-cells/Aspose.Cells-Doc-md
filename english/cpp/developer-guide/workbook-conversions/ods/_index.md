@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/convert-excel-to-ods/
 description: How to convert Excel to Ods (OpenOffice / LibreOffice Calc) or convert Ods (OpenOffice / LibreOffice Calc) to Excel with Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About OpenDocument**

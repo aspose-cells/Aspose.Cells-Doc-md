@@ -5,6 +5,8 @@ type: docs
 weight: 20  
 url: /nodejs-cpp/convert-an-excel-chart-to-image/  
 description: Learn how to convert Excel charts to images using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

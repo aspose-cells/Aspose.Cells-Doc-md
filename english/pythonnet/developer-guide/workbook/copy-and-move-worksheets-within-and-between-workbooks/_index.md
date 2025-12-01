@@ -3,6 +3,8 @@ title: Copy and Move Worksheets Within and Between Workbooks
 type: docs
 weight: 80
 url: /python-net/copy-and-move-worksheets-within-and-between-workbooks/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

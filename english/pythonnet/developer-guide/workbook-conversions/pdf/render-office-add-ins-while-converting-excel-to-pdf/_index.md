@@ -5,6 +5,8 @@ weight: 100
 url: /python-net/render-office-add-ins-while-converting-excel-to-pdf/
 description: Learn how to Render Office Add-Ins while converting Excel to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Print Office Add-Ins while saving file to PDF, Print Office Add-Ins while saving Excel to PDF using Python, Python Export Office Add-Ins when converting Excel to PDF, Output Office Add-Ins for Excel to PDF in python, Render Office Add-Ins while saving excel to PDF
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

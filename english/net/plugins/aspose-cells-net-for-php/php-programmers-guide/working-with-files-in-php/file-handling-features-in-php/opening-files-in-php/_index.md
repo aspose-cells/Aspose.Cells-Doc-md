@@ -3,6 +3,8 @@ title: Opening Files in PHP
 type: docs
 weight: 10
 url: /net/opening-files-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Open Excel Files**

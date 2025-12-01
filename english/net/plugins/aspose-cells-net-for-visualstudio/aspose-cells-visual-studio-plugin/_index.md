@@ -3,6 +3,8 @@ title: Aspose.Cells Visual Studio Plugin
 type: docs
 weight: 20
 url: /net/aspose-cells-visual-studio-plugin/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

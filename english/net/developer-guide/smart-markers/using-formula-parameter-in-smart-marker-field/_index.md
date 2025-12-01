@@ -3,6 +3,8 @@ title: Using Formula parameter in Smart Marker field
 type: docs
 weight: 40
 url: /net/using-formula-parameter-in-smart-marker-field/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

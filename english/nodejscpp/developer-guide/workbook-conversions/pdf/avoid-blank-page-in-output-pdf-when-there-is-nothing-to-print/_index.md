@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 description: Learn how to avoid blank pages in output PDF when there is nothing to print using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

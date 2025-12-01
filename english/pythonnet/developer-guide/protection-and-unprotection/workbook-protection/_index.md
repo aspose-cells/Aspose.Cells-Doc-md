@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /python-net/protect-and-unprotect-workbook-structure/
 description: Protect and unprotect workbook structure of Excel files using CSharp codes.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

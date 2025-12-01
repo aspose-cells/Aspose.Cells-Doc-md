@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /cpp/get-the-version-number-of-the-application-that-created-the-excel-document/
 description: Learn how to retrieve the version number of the application that created an Excel document using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

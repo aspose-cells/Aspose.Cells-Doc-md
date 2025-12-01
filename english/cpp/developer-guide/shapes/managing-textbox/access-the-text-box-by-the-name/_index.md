@@ -5,6 +5,8 @@ type: docs
 weight: 230
 url: /cpp/access-the-text-box-by-the-name/
 description: Learn how to access a text box by its name using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Access the Text Box by the Name

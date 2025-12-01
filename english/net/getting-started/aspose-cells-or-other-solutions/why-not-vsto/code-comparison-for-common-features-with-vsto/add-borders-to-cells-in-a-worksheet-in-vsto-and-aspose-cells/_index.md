@@ -3,6 +3,8 @@ title: Add Borders to Cells in a Worksheet in VSTO and Aspose.Cells
 type: docs
 weight: 10
 url: /net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add borders to cells in a spreadsheet, take the following steps:

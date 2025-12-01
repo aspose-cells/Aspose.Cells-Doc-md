@@ -5,6 +5,8 @@ weight: 60
 url: /nodejs-cpp/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 description: How to find and refresh the nested or children Pivot Tables of parent Pivot Table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js Excel, Excel Node.js library, Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table Using Aspose.Cells for Node.js Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

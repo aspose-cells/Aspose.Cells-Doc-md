@@ -3,6 +3,8 @@ title: Aspose.Cells for Java - Interruptible Library
 type: docs
 weight: 1090
 url: /java/aspose-cells-for-java-interruptible-library/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

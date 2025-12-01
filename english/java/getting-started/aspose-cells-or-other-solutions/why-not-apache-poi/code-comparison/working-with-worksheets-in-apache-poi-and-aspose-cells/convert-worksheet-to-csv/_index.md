@@ -3,6 +3,8 @@ title: Convert Worksheet to CSV
 type: docs
 weight: 30
 url: /java/convert-worksheet-to-csv/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Worksheet to CSV**

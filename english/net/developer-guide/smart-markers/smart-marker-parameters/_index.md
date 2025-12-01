@@ -3,6 +3,8 @@ title: Smart Marker Parameters
 type: docs
 weight: 30
 url: /net/smart-marker-parameters/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Designer Spreadsheet & Smart Markers**

@@ -5,6 +5,8 @@ weight: 85
 url: /python-net/data-filtering/
 description: Learn how to add data filter by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Add Filter by Color, Python Add Date Filters, Python Add Number Filters, Python Add Dynamic Filter, Python Add Text Filters, Python Add custom filter with Contains, Python Add custom filter with NotContains, Python Add custom filter with BeginsWith, Python Add custom filter with EndsWith
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

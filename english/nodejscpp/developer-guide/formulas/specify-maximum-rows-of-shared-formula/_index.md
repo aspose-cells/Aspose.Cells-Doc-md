@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/specify-maximum-rows-of-shared-formula/  
 description: Learn how to specify the maximum rows for shared formulas using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

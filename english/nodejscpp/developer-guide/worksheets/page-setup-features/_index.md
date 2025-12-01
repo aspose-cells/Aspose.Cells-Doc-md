@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/page-setup-features/
 description: Explore page setup features using Aspose.Cells for Node.js via C++. Learn how to configure page dimensions, orientations, and settings.
 keywords: Page setup features Node.js via C++, Configure page dimensions Node.js via C++, Page orientation settings Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

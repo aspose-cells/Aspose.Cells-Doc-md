@@ -5,6 +5,8 @@ weight: 260
 url: /java/secure-pdf-documents/
 description: Secure PDF files while converting from Excel files. This article demonstrates generating secure PDF file from Excel with Aspose.Cells for Java API.
 keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, excel to secure pdf java, convert excel to secure pdf, convert excel to secure pdf java, convert excel to password protected pdf, convert excel to password protected pdf java, excel to password protected pdf java, excel to password protected pdf
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

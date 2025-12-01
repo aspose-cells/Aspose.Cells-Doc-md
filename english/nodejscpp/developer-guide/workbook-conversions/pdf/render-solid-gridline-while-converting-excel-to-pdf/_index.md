@@ -6,6 +6,8 @@ weight: 390
 url: /nodejs-cpp/render-solid-gridline-while-converting-excel-to-pdf/
 description: Learn how to render solid gridlines while converting Excel to PDF using Aspose.Cells for Node.js via C++. 
 keywords: Render solid gridline to PDF Node.js via C++, Convert Excel to PDF with solid gridline Node.js via C++, PdfSaveOptions for solid gridline Node.js via C++ 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines today.

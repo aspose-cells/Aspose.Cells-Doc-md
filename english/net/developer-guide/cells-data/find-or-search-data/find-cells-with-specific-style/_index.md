@@ -5,6 +5,8 @@ weight: 190
 url: /net/find-cells-with-specific-style/
 description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for .NET API.
 keywords: Find cells with a particular style applied, Search cells with a particular style applied
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Z-axis, charting, configuration, customization, 
 type: docs
 weight: 210
 url: /cpp/z-axis/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

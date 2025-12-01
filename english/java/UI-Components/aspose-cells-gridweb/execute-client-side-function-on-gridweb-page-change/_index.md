@@ -3,6 +3,8 @@ title: Execute client side function on GridWeb page change
 type: docs
 weight: 70
 url: /java/execute-client-side-function-on-gridweb-page-change/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

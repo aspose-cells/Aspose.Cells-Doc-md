@@ -3,6 +3,8 @@ title: Spreadsheet Editor - Working with Files
 type: docs
 weight: 10
 url: /java/spreadsheet-editor-working-with-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Table of Contents**

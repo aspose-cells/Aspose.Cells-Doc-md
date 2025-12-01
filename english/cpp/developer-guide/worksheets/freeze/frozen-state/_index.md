@@ -5,6 +5,8 @@ type: docs
 weight: 190 
 url: /cpp/how-to-check-frozen-state-of-excel-worksheet 
 description: In this article, you will learn how to check the frozen state of an Excel worksheet programmatically using C++ with the Aspose.Cells API. 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Introduction** 

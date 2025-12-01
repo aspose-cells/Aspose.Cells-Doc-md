@@ -5,6 +5,8 @@ weight: 280
 url: /python-net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 description: Learn how to apply advanced filter of microsoft excel to display records meeting complex criteria by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Apply Advanced Filter, Python Set Advanced Filter, Python Add Advanced Filter, Python Create Advanced Filter, How to add Advanced Filter to a range using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

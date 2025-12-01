@@ -4,6 +4,8 @@ type: docs
 weight: 15
 url: /java/creating-and-customizing-charts/
 alias: [/java/customizing-charts/]
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Creating Charts**

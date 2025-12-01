@@ -5,6 +5,8 @@ weight: 10
 url: /net/how-to-insert-tick-symbol-to-excel/
 description: This article will introduce how to insert tick symbol Aspose.Cells for .NET API.
 keywords: Copy and paste the tick symbol, Use the Symbol or Insert menu, Enter an Alt code, Use AutoCorrect or shortcuts, Use the emoji/symbol panel, Add a tick in box / ballot box
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

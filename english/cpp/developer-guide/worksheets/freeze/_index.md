@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/how-to-freeze-panes-of-excel-worksheet
 description: In this article, you will learn how to freeze panes of Excel Worksheets programmatically using C++ Library with Aspose.Cells API.
 keywords: Freeze panes, Freeze window.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

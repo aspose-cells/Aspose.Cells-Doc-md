@@ -3,6 +3,8 @@ title: Replace text in a workbook using Regular Expression
 type: docs
 weight: 90
 url: /python-net/replace-text-in-a-workbook-using-regular-expression/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Python via .NET provides the feature to replace text in a workbook using a regular expression. For this, the API provides [**ReplaceOptions.regex_key**](https://reference.aspose.com/cells/python-net/aspose.cells/replaceoptions/regex_key) property of the [**ReplaceOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/replaceoptions) class. Setting the [**ReplaceOptions.regex_key**](https://reference.aspose.com/cells/python-net/aspose.cells/replaceoptions/regex_key) to **true** indicates that the searched key will be a regular expression.

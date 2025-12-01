@@ -3,6 +3,8 @@ title: Display Hide Tabs in Jython
 type: docs
 weight: 50
 url: /java/display-hide-tabs-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display Hide Tabs**

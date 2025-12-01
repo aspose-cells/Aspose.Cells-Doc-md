@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/show-and-hide-rows-columns-and-scroll-bars/
 description: This article demonstrates how to programmatically display and hide Excel worksheet rows and columns using the Aspose.Cells for Python via .NET API. The visibility of scroll bars can be adjusted, and several rows and columns can be hidden.
 keywords: Python Excel Library, Python show rows and columns, Python Hide rows and columns, Python show vertical scroll bar, Python show horizontal scroll bar, Python hide vertical scroll bar, Python hide horizontal scroll bar, Python Show and Hide Rows Columns and Scroll Bars.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

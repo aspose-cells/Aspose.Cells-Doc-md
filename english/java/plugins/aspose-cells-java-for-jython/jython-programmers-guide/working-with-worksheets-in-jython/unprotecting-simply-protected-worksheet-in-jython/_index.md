@@ -3,6 +3,8 @@ title: Unprotecting Simply Protected Worksheet in Jython
 type: docs
 weight: 160
 url: /java/unprotecting-simply-protected-worksheet-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Unprotecting Simply Protected Worksheet**

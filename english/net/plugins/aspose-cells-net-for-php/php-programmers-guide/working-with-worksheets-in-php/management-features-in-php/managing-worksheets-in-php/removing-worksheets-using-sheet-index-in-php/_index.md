@@ -3,6 +3,8 @@ title: Removing Worksheets Using Sheet Index in PHP
 type: docs
 weight: 30
 url: /net/removing-worksheets-using-sheet-index-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Removing Worksheets Using Sheet Index**

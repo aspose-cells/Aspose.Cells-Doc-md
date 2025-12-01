@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/show-and-hide-gridlines-and-row-column-headers/
 description: This article provides sample code for using the C++ API or Library to programmatically hide or show gridlines, row and column headers of an Excel worksheet.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

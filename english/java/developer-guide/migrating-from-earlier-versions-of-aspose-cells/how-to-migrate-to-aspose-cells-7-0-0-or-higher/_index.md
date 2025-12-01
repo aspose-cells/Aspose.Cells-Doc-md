@@ -3,6 +3,8 @@ title: How to Migrate to Aspose.Cells 7.0.0 or Higher
 type: docs
 weight: 10
 url: /java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

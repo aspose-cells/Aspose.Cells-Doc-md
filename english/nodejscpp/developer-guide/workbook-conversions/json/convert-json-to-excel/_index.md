@@ -6,6 +6,8 @@ weight: 300
 url: /nodejs-cpp/convert-json-to-excel/
 description: Learn how to convert JSON to Excel file with Aspose.Cells for Node.js via C++.
 keywords: Importing JSON without Office 2013, Office 2016, Office 2019, and Office 365 using Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

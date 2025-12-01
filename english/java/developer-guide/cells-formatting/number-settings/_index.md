@@ -3,6 +3,8 @@ title: Number Settings
 type: docs
 weight: 10
 url: /java/cells-number-settings/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Display Formats of Numbers and Dates**

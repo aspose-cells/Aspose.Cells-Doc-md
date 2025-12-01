@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/save-pivot-table-in-ods-file/
 description: Learn how to save pivot tables in ODS files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides the ability to save pivot tables in ODS files. For this, you can either convert a workbook with an existing pivot table or create a new pivot table and save the file in the ODS format. Be sure to call [**PivotTable::CalculateData()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/calculatedata/) before saving to ensure that the pivot table is rendered in the output ODS file. The following code snippet demonstrates saving a pivot table in an ODS file.

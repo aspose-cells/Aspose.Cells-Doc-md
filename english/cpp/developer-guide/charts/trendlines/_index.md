@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Chart Trendline, Equation Text, Microsoft Excel,
 type: docs
 weight: 110
 url: /cpp/get-equation-text-of-chart-trendline/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 10
 url: /net/add-data-in-cells/
 description: This article explains how to Add Data in Cells using Aspose.Cells for .NET APIs.
 keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

@@ -3,6 +3,8 @@ title: Adjust workbook compression level
 type: docs
 weight: 180
 url: /python-net/adjust-workbook-compression-level/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adjust Workbook Compression Level**

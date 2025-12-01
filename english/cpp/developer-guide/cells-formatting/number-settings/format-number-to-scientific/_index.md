@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/how-to-format-number-to-scientific/
 description: This article will introduce how to Format Number to Scientific using Aspose.Cells for C++ API.
 keywords: Convert a numeral to its scientific notation representation, Transform a figure into the format of scientific notation, Change a number to be expressed in the form of scientific notation, Format a numeric value into its equivalent scientific notation, Adapt a quantity to be displayed in scientific notation format, Format Number to Scientific
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

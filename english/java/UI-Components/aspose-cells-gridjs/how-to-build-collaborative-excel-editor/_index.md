@@ -9,6 +9,8 @@ aliases:
   - /java/aspose-cells-gridjs/collaborative-editor/
   - /java/aspose-cells-gridjs/how-to-build-collaborative-spreadsheet-editor/
   - /java/aspose-cells-gridjs/how-to-build-collaborative-excel-editor-using-gridjs/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Collaborative Excel Editor Guide

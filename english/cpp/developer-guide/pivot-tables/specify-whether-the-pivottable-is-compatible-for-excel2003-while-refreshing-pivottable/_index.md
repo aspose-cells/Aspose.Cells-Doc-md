@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
 description: Learn how to specify PivotTable compatibility for Excel2003 using Aspose.Cells for C++ while refreshing the PivotTable.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

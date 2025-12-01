@@ -5,6 +5,8 @@ type: docs
 weight: 40 
 url: /cpp/export-comments-while-saving-excel-file-to/ 
 description: Learn how to export comments while saving Excel files to HTML using Aspose.Cells with C++. 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Possible Usage Scenarios**

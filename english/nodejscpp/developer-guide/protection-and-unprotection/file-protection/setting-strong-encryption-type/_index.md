@@ -5,6 +5,8 @@ type: docs
 weight: 60  
 url: /nodejs-cpp/setting-strong-encryption-type/  
 description: Learn how to set strong encryption types for Excel files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 190
 url: /net/merge-or-unmerge-range-of-cells/
 description: Merge and Unmerge Cells in a Range in Excel with C# code.
 keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in range, merge and unmerge cells in range with c#, merge and unmerge cells in range using c#, merge and unmerge cells in excel using c#, merge and unmerge cells in excel with c#, c# merge and unmerge cells in excel, c# merge cells in excel, c# unmerge cells in excel, merge cells in range with c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

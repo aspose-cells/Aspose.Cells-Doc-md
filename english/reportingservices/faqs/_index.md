@@ -3,6 +3,8 @@ title: FAQs
 type: docs
 weight: 70
 url: /reportingservices/faqs/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **This section includes the following topics:** 

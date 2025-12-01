@@ -5,6 +5,8 @@ type: docs
 weight: 105
 url: /cpp/managing-ranges/
 description: Learn how to manage ranges in Excel files using Aspose.Cells with C++. Create, modify, and style ranges programmatically.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

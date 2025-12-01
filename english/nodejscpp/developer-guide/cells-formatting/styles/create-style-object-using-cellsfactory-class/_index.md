@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js via C++, electronic spreadsheet, style object, c
 type: docs
 weight: 70
 url: /nodejs-cpp/create-style-object-using-cellsfactory-class/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Style object using CellsFactory class**

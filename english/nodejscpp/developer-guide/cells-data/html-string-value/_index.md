@@ -6,6 +6,8 @@ weight: 50
 url: /nodejs-cpp/adding-html-rich-text-inside-the-cell/
 description: Learn how to add HTML Rich Text inside the Cell through the Aspose.Cells for Node.js via C++ API.
 keywords: Add HTML Rich Text inside the Cell Node.js via C++, Set HTML Rich Text inside the Cell Node.js via C++, Add HTML Rich Text in the Cell Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

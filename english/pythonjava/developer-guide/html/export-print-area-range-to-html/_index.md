@@ -3,6 +3,8 @@ title: Export print area range to HTML
 type: docs
 weight: 70
 url: /python-java/export-print-area-range-to/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Export print area range to HTML**

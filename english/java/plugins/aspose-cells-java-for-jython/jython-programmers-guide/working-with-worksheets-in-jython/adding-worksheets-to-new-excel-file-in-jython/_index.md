@@ -3,6 +3,8 @@ title: Adding Worksheets to New Excel File in Jython
 type: docs
 weight: 10
 url: /java/adding-worksheets-to-new-excel-file-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Adding Worksheets to New Excel**

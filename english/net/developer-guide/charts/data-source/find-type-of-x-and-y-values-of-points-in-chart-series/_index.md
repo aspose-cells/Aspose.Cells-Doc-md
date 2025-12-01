@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, X values, Y values, data types, acces
 type: docs
 weight: 150
 url: /net/find-type-of-x-and-y-values-of-points-in-chart-series/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

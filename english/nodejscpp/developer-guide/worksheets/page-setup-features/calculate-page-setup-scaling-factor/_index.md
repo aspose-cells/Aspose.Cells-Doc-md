@@ -6,6 +6,8 @@ weight: 300
 url: /nodejs-cpp/calculate-page-setup-scaling-factor/
 description: This article provides sample code explaining how to use the Node.js API with C++ to calculate Page Setup scaling factor using Fit to n page(s) wide by m tall option of Excel worksheet programmatically.
 keywords: Fit to n page wide by m tall excel Node.js via C++, calculate page setup scaling factor Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 130
 url: /python-net/how-to-scale-a-worksheet/
 description: This article explains how to scale a worksheet using Aspose.Cells for Python.NET.
 keywords: Python scale a worksheet, Scale worksheet with Python.NET, Fit to page in Python, Python worksheet scaling percentage, Aspose.Cells Python worksheet scaling.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

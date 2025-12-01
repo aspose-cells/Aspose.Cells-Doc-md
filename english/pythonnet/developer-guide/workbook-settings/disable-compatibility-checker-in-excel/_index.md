@@ -5,6 +5,8 @@ weight: 170
 url: /python-net/disable-compatibility-checker-in-excel/
 description: This article shows how to disable compatibility checker through the Aspose.Cells for Python via .NET API.
 keywords: Python Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Disable Compatibility Checker in Excel Worksheets in Python 

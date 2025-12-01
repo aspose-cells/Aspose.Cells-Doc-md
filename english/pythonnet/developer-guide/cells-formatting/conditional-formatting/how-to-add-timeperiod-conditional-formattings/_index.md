@@ -5,6 +5,8 @@ keywords: Aspose.Cells, TimePeriods Conditional Formatting, Python, Conditional,
 type: docs
 weight: 70
 url: /python-net/how-to-add-time-periods-conditional-formatting/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

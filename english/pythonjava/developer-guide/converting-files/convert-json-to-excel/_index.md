@@ -5,6 +5,8 @@ weight: 300
 url: /python-java/convert-json-to-excel/
 description: Learn how to convert json to excel file with Aspose.Cells for Python via Java.
 keywords: Importing json without office 2013, office 2016, office 2019 and office 365.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

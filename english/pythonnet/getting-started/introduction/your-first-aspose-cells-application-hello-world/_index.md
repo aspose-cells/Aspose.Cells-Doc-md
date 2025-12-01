@@ -3,6 +3,8 @@ title: Your First Aspose.Cells Application - Hello World
 type: docs
 weight: 30
 url: /python-net/your-first-aspose-cells-application-hello-world/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

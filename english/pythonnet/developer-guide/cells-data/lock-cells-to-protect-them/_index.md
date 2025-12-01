@@ -6,6 +6,8 @@ weight: 130
 url: /python-net/how-to-lock-cells-to-protect-them/
 description: Learn how to lock specific cells and protect worksheets in Excel files using Aspose.Cells for Python via .NET.
 keywords: Python lock cells, protect worksheets, cell protection in Excel with Python, Aspose.Cells Python tutorial
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

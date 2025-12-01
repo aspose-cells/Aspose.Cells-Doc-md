@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, sunburst chart, create, set properti
 type: docs
 weight: 162
 url: /nodejs-cpp/creating-sunburst-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-customer-defined-classes-to-excel/
 description: Convert Customer Defined Class to Excel by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert Customer Defined Class to Excel, Import Customer Defined Class to Excel in Python via NET, Python Convert Customer Defined Class to xlsx, Load for import Customer Defined Class to Excel.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

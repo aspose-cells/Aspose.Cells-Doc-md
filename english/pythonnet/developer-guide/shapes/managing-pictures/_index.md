@@ -3,6 +3,8 @@ title: Managing Pictures
 type: docs
 weight: 10
 url: /python-net/managing-pictures/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Python via .NET allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.

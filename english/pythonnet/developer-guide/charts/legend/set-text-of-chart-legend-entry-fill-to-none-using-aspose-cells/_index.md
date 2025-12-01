@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Chart Legend Entry Fill, Microsoft E
 type: docs
 weight: 320
 url: /python-net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

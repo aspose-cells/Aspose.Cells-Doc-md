@@ -6,6 +6,8 @@ weight: 300
 url: /cpp/convert-excel-to-json/
 description: Learn how to convert excel file to json with Aspose.Cells using C++.
 keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

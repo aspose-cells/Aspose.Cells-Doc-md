@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, C#, Worksheet, Formatting
 type: docs
 weight: 130
 url: /net/apply-conditional-formatting-in-worksheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

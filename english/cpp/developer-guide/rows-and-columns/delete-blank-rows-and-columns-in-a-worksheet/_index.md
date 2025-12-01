@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /cpp/delete-blank-rows-and-columns-in-a-worksheet/
 description: Delete empty rows and columns in a worksheet using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

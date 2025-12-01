@@ -5,6 +5,8 @@ weight: 35
 url: /python-net/ai-plugin-integration/
 description: Integrate Aspose.Cells for Python via .NET to AI tools.
 keywords: MarkItDown, Marker and Docling,convert Excel to JSON,MD and HTML.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # AI Plugin Integration

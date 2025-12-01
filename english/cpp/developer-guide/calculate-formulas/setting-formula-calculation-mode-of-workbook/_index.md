@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, workbook, formula calculation mode, settings, C++
 type: docs
 weight: 110
 url: /cpp/setting-formula-calculation-mode-of-workbook/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

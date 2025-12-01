@@ -3,6 +3,8 @@ title: Filtering the kind of data while loading the workbook from template file
 type: docs
 weight: 400
 url: /python-net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

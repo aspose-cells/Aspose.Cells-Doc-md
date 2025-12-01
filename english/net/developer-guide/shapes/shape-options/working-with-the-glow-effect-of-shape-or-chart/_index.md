@@ -3,6 +3,8 @@ title: Working with the Glow Effect of Shape or Chart
 type: docs
 weight: 240
 url: /net/working-with-the-glow-effect-of-shape-or-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

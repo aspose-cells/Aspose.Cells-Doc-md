@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, Formula Watch Window, Cells, Adding
 type: docs
 weight: 60
 url: /net/add-cells-to-microsoft-excel-formula-watch-window/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

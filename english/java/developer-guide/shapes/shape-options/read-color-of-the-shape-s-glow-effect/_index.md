@@ -3,6 +3,8 @@ title: Read Color of the Shape's Glow Effect
 type: docs
 weight: 210
 url: /java/read-color-of-the-shape-s-glow-effect/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

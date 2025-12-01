@@ -3,6 +3,8 @@ title: Get Hyperlinks in Range
 type: docs
 weight: 50
 url: /python-java/get-hyperlinks-in-range/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Hyperlinks in Range**

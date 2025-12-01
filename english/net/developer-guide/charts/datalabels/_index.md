@@ -6,6 +6,8 @@ linktitle: DataLabels
 type: docs
 weight: 50
 url: /net/insert-datalabels-to-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

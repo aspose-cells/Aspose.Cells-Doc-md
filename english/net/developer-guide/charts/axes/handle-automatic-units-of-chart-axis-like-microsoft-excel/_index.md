@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, chart axes, automatic units, Microsoft Excel, c
 type: docs
 weight: 120
 url: /net/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

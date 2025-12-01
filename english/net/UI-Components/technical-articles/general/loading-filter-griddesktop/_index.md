@@ -5,6 +5,8 @@ weight: 1060
 url: /net/aspose-cells-griddesktop/loading-filter
 description: This article describes how to use loading filter in GridDesktop.
 keywords: GridDesktop,loading,loading filter,filter
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 160
 url: /python-net/fit-all-worksheet-columns-on-single-pdf-page/
 description: Learn how to Fit All Worksheet Columns on Single PDF Page with Aspose.Cells for Python via .NET API.
 keywords: Python Fit All Worksheet Columns on Single PDF Page, Fit Worksheet Columns on Single PDF Page using Python, Python Save All Worksheet Columns to a PDF Page, Save All Columns to single PDF Page in Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

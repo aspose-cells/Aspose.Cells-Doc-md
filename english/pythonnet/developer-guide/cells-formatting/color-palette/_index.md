@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/excel-color-palette/
 description: Python code to add custom colors to the palette and use excel color palette with Aspose.Cells for Python via .NET API
 keywords: Python add custom colors to the palette, Python programmatically excel color palette, programmatically how to use color palette in workbook, Python how to use color palette in excel
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Colors and Palette**

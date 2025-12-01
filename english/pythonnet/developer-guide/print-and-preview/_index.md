@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /python-net/workbook-and-worksheet-print-preview/
 description: Aspose.Cells for Python via .NET supports printing and previewing Excel files without Microsoft Excel intallation.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

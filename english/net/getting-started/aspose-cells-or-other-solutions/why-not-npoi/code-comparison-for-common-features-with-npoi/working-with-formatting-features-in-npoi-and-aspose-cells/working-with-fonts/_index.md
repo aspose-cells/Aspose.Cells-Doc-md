@@ -3,6 +3,8 @@ title: Working With Fonts
 type: docs
 weight: 30
 url: /net/working-with-fonts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Working With Fonts**

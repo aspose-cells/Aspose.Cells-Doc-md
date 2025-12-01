@@ -5,6 +5,8 @@ weight: 290
 url: /python-net/sort-data-in-column-with-custom-sort-list/
 description: Learn how to sort data in the column using a custom list by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Sort Data in Column with Custom Sort List, Python Sort data by custom list.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

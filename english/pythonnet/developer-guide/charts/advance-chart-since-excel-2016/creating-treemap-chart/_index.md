@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Treemap chart, create, properties, f
 type: docs
 weight: 161
 url: /python-net/creating-treemap-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

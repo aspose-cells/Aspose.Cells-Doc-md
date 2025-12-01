@@ -3,6 +3,8 @@ title: Using Nested Objects
 type: docs
 weight: 50
 url: /net/using-nested-objects/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells supports nested objects in smart markers, the nested objects should be simple.**Individual** class need to be defined by user for below code.

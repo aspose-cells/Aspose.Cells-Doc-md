@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel File, Theme Data, Style, Format
 type: docs
 weight: 120
 url: /net/extract-theme-data-from-excel-file/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

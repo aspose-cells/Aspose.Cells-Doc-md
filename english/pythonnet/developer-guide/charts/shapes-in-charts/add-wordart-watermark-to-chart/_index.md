@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via.NET, WordArt Watermark, Chart Watermark, M
 type: docs
 weight: 50
 url: /python-net/add-wordart-watermark-to-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

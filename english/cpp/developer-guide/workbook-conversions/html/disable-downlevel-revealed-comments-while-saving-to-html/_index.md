@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/disable-downlevel-revealed-comments-while-saving-to/
 description: Eliminate Downlevel Revealed Comments while saving Excel files to HTML using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

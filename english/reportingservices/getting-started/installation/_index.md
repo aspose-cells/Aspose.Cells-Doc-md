@@ -3,6 +3,8 @@ title: Installation
 type: docs
 weight: 10
 url: /reportingservices/installation/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **This section includes the following topics:** 

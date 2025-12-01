@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, chart appearance, layouts, colors, fon
 type: docs
 weight: 20
 url: /cpp/setting-chart-appearance/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Chart Appearance**

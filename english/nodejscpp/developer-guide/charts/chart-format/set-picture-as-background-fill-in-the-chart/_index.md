@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, background fill, picture, 
 type: docs
 weight: 30
 url: /nodejs-cpp/set-picture-as-background-fill-in-the-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

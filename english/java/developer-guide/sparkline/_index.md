@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url:  /java/creating-sparklines/
 description: Create sparkline for Excel using Aspose.Cells.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Insert a sparkline**

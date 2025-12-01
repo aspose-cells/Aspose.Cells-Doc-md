@@ -5,6 +5,8 @@ type: docs
 weight: 270  
 url: /nodejs-cpp/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/  
 description: Learn how to automatically refresh OLE objects in Excel using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, charting, data labels, shape resizin
 type: docs
 weight: 220
 url: /python-net/resize-chart-s-data-label-shape-to-fit-text/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

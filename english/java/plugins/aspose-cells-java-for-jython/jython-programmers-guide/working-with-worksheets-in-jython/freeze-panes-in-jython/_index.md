@@ -3,6 +3,8 @@ title: Freeze Panes in Jython
 type: docs
 weight: 60
 url: /java/freeze-panes-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Freeze Panes**

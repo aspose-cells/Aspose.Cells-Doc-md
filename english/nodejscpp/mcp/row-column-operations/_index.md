@@ -6,6 +6,8 @@ weight: 50
 url: /nodejs-cpp/mcp/row-column-operations
 keywords: "Excel row operations, Excel column operations, Excel layout management, insert rows, delete columns, resize Excel cells"
 description: "Excel row and column operations - insert, delete, resize, hide/unhide rows and columns with AI automation"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Row and  Column Operations

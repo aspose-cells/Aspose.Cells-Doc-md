@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/link-cells-to-xml-map-elements/
 description: Learn how to link cells to XML Map elements using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

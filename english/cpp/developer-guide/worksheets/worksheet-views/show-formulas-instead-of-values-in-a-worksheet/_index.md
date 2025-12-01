@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/show-formulas-instead-of-values-in-a-worksheet/
 description: This article provides sample code for using the C++ API to programmatically display formulas rather than values in an Excel worksheet or spreadsheet.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

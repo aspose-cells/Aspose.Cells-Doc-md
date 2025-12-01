@@ -3,6 +3,8 @@ title: Calculate Formulas
 type: docs
 weight: 110
 url: /java/calculate-formulas/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Formulas & Calculating Results**

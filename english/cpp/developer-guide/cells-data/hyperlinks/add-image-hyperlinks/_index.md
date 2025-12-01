@@ -6,6 +6,8 @@ weight: 140
 url: /cpp/add-image-hyperlinks/
 description: Learn how to Add Image Hyperlinks through the Aspose.Cells for C++ API.
 keywords: Add Image Hyperlinks, Insert Image Hyperlinks
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

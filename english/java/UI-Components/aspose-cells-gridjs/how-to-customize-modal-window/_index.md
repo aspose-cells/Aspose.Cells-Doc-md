@@ -21,6 +21,8 @@ aliases:
   - /java/aspose-cells-gridjs/customize-popup-window/
   - /java/aspose-cells-gridjs/customize-modal-ui/
 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Modal Styling Guide for GridJs

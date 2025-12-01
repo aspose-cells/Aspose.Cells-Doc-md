@@ -3,6 +3,8 @@ title: Filling a .jasper File with Editable Chart Support
 type: docs
 weight: 10
 url: /jasperreports/filling-a-jasper-file-with-editable-chart-support/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

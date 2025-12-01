@@ -5,6 +5,8 @@ weight: 130
 url: /net/add-calculated-field-in-pivot-table/
 description: How to add a calculated field in pivot table with Aspose.Cells.
 keywords: Adding a calculated field in pivot table.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

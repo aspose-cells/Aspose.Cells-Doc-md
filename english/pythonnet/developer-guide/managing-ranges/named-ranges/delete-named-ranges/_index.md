@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/delete-named-ranges/
 description: You can learn how to remove defined names or named ranges from Excel or OpenOffice files with Aspose.Cells for Python via .Net.
 keywords: Python Excel Library, Python Remove Duplicate Defined Names, Python Delete Duplicate Defined Names.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

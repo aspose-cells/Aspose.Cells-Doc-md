@@ -3,6 +3,8 @@ title: System Requirements
 type: docs
 weight: 40
 url: /sharepoint/system-requirements/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ### **Server Requirements**

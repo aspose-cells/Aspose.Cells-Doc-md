@@ -5,6 +5,8 @@ type: docs
 weight: 85
 url: /nodejs-cpp/format-and-modify-named-ranges/
 description: Learn how to format and modify named ranges using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Format Ranges**

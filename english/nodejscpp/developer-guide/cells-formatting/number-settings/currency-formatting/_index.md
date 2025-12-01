@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/format-number-to-currency/
 description: This article will introduce how to format number to currency using Aspose.Cells for Node.js via C++ API.
 keywords: format number as currency, cell number settings, format number to currency, currency settings, currency format.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

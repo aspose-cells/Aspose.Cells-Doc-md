@@ -6,6 +6,8 @@ weight: 100
 url: /cpp/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
 description: Learn how to apply subtotal and change direction of outline summary Rows below Detail by using the Aspose.Cells for C++ API.
 keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 description: Learn how to use the GlobalizationSettings class in Aspose.Cells for C++ to customize subtotal labels and modify the "Other" label in Pie charts.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

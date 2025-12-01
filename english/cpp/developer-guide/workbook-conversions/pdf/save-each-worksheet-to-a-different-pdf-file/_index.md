@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /cpp/save-each-worksheet-to-a-different-pdf-file/
 description: Learn how to save each worksheet in an Excel file to a separate PDF file using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

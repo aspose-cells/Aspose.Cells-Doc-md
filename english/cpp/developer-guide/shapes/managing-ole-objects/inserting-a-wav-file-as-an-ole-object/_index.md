@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/inserting-a-wav-file-as-an-ole-object/
 description: Learn how to insert a WAV file as an OLE object in Excel worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

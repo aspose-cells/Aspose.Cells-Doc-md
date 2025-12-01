@@ -3,6 +3,8 @@ title: Get External Connection Data Source of Pivot Table
 type: docs
 weight: 70
 url: /java/get-external-connection-data-source-of-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get External Connection Data Source of Pivot Table**

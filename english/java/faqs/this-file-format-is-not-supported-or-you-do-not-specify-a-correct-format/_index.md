@@ -3,6 +3,8 @@ title: This file format is not supported or you do not specify a correct format
 type: docs
 weight: 10
 url: /java/this-file-format-is-not-supported-or-you-do-not-specify-a-correct-format/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **This file format is not supported or you do not specify a correct format**

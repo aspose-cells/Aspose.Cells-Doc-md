@@ -3,6 +3,8 @@ title: Convert Spreadsheet to PDF in Aspose.Cells
 type: docs
 weight: 10
 url: /net/convert-spreadsheet-to-pdf-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Spreadsheet to PDF**

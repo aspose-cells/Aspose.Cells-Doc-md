@@ -3,6 +3,8 @@ title: FAQ
 type: docs
 weight: 100
 url: /net/faq/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Fix the System.StackOverFlowException on Workbook.CalculateFormula?**

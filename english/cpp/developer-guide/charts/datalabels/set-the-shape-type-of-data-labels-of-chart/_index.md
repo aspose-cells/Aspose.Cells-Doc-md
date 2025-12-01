@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, data labels, shape types, presentation
 type: docs
 weight: 110
 url: /cpp/set-the-shape-type-of-data-labels-of-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

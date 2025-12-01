@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /nodejs-cpp/add-wordart-watermark-to-worksheet/
 description: Learn how to add WordArt as a background watermark to a worksheet using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 description: Learn how to find the maximum rows and columns supported by XLS and XLSX formats using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

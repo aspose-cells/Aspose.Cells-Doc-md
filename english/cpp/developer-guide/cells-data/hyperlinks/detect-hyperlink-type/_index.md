@@ -6,6 +6,8 @@ weight: 160
 url: /cpp/detect-hyperlink-type/
 description: Learn how to detect hyperlink type through the Aspose.Cells for C++ API.
 keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Detect Hyperlink Type**

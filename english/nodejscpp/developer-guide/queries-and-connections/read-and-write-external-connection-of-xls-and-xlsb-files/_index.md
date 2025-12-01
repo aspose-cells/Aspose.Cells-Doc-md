@@ -5,6 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/read-and-write-external-connection-of-xls-and-xlsb-files/  
 description: Learn how to read and write external connections of XLS and XLSB files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

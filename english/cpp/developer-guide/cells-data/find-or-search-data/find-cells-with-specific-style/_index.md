@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/find-cells-with-specific-style/
 description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for C++ API.
 keywords: Find cells with a particular style applied, Search cells with a particular style applied
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

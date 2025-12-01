@@ -5,6 +5,8 @@ weight: 600
 url: /nodejs-cpp/manage-cells-html-string/
 description: Learn how to manage cells HTML string through the Aspose.Cells for Node.js via C++ API.
 keywords: Add HTML String inside the Cell Node.js via C++, Set HTML String inside the Cell Node.js via C++, Add HTML String Node.js via C++, Get HTML String of Cell Node.js via C++, Manage Cells Html String Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

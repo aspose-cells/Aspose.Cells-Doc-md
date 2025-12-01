@@ -3,6 +3,8 @@ title: Add Sub Report Item
 type: docs
 weight: 20
 url: /reportingservices/add-sub-report-item/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add sub-report item:

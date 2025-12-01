@@ -3,6 +3,8 @@ title: User's Guide
 type: docs
 weight: 20
 url: /sharepoint/user-s-guide/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

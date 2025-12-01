@@ -3,6 +3,8 @@ title: Move Range of Cells in a Worksheet
 type: docs
 weight: 370
 url: /net/move-range-of-cells-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

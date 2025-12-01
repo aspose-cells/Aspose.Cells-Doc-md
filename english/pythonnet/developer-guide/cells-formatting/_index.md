@@ -6,6 +6,8 @@ linktitle: Format cells
 type: docs
 weight: 120
 url: /python-net/cells-formatting/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

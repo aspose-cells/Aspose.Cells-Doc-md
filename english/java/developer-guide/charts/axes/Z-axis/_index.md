@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, Z-axis, charting, configuration, customization,
 type: docs
 weight: 210
 url: /java/z-axis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

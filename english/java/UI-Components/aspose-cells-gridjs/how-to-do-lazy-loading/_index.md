@@ -9,6 +9,8 @@ aliases:
   - /java/aspose-cells-gridjs/lazy-loading/
   - /java/aspose-cells-gridjs/loading-on-demand/
   - /java/aspose-cells-gridjs/optimize-loading/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## About Lazy Loading  

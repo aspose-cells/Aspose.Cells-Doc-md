@@ -5,6 +5,8 @@ keywords: Aspose.Cells, IconSets Conditional Formatting, C#, Conditional, Format
 type: docs
 weight: 70
 url: /net/how-to-add-icon-sets-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

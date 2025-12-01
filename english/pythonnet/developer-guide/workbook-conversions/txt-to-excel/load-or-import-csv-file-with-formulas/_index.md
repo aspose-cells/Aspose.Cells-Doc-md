@@ -5,6 +5,8 @@ weight: 350
 url: /python-net/load-or-import-csv-file-with-formulas/
 description: Load or Import CSV file with Formulas by using Aspose.Cells for Python via .NET API.
 keywords: Python Load or Import CSV file with Formulas, Convert CSV with Formulas to Excel in Python via NET, Python convert CSV with Formulas to xlsx, Load CSV with Formulas to Excel file.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

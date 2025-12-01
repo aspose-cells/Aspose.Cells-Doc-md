@@ -3,6 +3,8 @@ title: Encrypting Excel Files in Ruby
 type: docs
 weight: 80
 url: /java/encrypting-excel-files-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Encrypting Excel Files**

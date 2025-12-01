@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Text Conditional Formatting, C#, Conditional, Formatting
 type: docs
 weight: 70
 url: /net/how-to-add-text-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

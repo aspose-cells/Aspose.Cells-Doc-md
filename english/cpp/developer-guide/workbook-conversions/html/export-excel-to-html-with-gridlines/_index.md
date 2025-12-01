@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/export-excel-to-html-with-gridlines/
 description: Learn how to export Excel files to HTML with gridlines using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

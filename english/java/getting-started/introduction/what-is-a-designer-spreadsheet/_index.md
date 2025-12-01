@@ -3,6 +3,8 @@ title: What is a Designer Spreadsheet
 type: docs
 weight: 50
 url: /java/what-is-a-designer-spreadsheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Do You Want to Speed Up Development?**

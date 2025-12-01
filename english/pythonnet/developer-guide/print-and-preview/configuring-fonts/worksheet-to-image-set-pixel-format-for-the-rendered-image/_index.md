@@ -3,6 +3,8 @@ title: Worksheet to Image - Set Pixel Format for the Rendered Image
 type: docs
 weight: 200
 url: /python-net/worksheet-to-image-set-pixel-format-for-the-rendered-image/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

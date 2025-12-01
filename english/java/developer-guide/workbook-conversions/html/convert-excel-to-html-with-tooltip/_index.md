@@ -3,6 +3,8 @@ title: Convert Excel to HTML with tooltip
 type: docs
 weight: 150
 url: /java/convert-excel-to-html-with-tooltip/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to HTML with tooltip**

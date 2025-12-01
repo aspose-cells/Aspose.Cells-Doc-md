@@ -3,6 +3,8 @@ title: Tables and Ranges
 type: docs
 weight: 50
 url: /python-net/tables-and-ranges/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

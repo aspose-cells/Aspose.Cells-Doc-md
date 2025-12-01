@@ -5,6 +5,8 @@ type: docs
 weight: 280
 url: /cpp/change-character-spacing-of-excel-textbox-or-shape/
 description: Learn how to change the character spacing of Excel textbox or shape using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

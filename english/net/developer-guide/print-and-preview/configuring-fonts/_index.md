@@ -3,6 +3,8 @@ title: Configuring Fonts for Rendering Spreadsheets
 type: docs
 weight: 10
 url: /net/configuring-fonts-for-rendering-spreadsheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Searching in a Document
 type: docs
 weight: 50
 url: /sharepoint/searching-in-a-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To search all the files in a folder:

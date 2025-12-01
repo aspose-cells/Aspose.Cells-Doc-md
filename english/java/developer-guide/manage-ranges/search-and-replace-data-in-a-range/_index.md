@@ -5,6 +5,8 @@ weight: 60
 url: /java/search-and-replace-data-in-a-range/
 description: This article show how to search and replace data in a range in Excel using Java code.
 keywords: java search and replace data in excel, java search data in excel, java search and replace data in a range, java search data in a range, java searching data in a range, java searching data in range, java searching data in excel, java search data in range, search and replace data in excel with java, search and replace data in a range with java, search and replace data in range with java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

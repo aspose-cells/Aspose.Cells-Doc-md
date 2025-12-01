@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, Dynamic Rolling Chart, Data Transitions, Smo
 type: docs
 weight: 74
 url: /nodejs-cpp/create-dynamic-rolling-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /cpp/convert-json-to-csv/
 description: Learn how to convert JSON to CSV using Aspose.Cells for C++ with simple and nested JSON examples.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert JSON to CSV**

@@ -3,6 +3,8 @@ title: Add Watermark to a document
 type: docs
 weight: 60
 url: /sharepoint/add-watermark-to-a-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 If you want to add watermark in an Excel file, please choose “Add WaterMark with Aspose.Cells” option in the document’s Edit Control Block (ECB).

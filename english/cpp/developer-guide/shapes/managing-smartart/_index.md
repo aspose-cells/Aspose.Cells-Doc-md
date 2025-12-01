@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/managing-smartart/
 description: Manage and manipulate Smart Art shapes in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

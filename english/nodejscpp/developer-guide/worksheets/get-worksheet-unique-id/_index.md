@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/get-worksheet-unique-id/
 description: This article shows how to get Excel worksheet unique id using Node.js library and C++ API programmatically.
 keywords: unique id excel worksheet Node.js via C++, unique id worksheet Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get worksheet unique id**

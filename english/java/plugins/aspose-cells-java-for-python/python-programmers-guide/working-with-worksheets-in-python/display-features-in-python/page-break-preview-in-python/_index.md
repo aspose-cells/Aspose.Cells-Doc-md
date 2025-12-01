@@ -3,6 +3,8 @@ title: Page Break Preview in Python
 type: docs
 weight: 60
 url: /java/page-break-preview-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hello World**

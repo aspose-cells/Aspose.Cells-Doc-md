@@ -6,6 +6,8 @@ weight: 320
 url: /cpp/get-all-hidden-rows-indices-after-refreshing-autofilter/
 description: Learn how to get all hidden rows indices after refreshing AutoFilter by using the Aspose.Cells for C++ API.
 keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

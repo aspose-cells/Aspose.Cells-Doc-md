@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Cells, Font Settings, Styles, Properties, Node.js via C+
 type: docs  
 weight: 30  
 url: /nodejs-cpp/cells-font-settings/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

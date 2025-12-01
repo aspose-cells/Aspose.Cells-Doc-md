@@ -3,6 +3,8 @@ title: Remove ActiveX Control
 type: docs
 weight: 160
 url: /java/remove-activex-control/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Remove ActiveX Control**

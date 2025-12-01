@@ -5,6 +5,8 @@ weight: 890
 url: /java/how-to-calculate-custom-fuctions/
 description: This article describes how to create a custom function in Microsoft Excel using the ICustomFunction feature in the Aspose.Cells library. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to define and register custom functions and get the results. Finally, we save the modified Excel file to disk.
 keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions, how to calculate custom fuctions.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

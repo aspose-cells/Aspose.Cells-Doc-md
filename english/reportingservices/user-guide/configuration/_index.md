@@ -3,6 +3,8 @@ title: Configuration
 type: docs
 weight: 140
 url: /reportingservices/configuration/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section contains the following topics:**

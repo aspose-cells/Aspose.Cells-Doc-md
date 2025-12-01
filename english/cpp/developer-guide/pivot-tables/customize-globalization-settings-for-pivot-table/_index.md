@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/customize-globalization-settings-for-pivot-table/
 description: Learn how to customize pivot table globalization settings using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

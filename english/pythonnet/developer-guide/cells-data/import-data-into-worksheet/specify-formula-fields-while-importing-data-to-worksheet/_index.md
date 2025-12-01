@@ -6,6 +6,8 @@ weight: 300
 url: /python-net/specify-formula-fields-while-importing-data-to-worksheet/
 description: Learn how to specify formula fields when importing data to worksheets using Aspose.Cells for Python via .NET API.
 keywords: Python specify formula fields during data import, Python set formula columns when importing data, Aspose.Cells Python formula import
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

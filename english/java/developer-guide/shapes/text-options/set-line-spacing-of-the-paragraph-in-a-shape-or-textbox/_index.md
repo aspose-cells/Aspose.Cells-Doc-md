@@ -3,6 +3,8 @@ title: Set Line Spacing of the Paragraph in a Shape or Textbox
 type: docs
 weight: 810
 url: /java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /net/protect-and-unprotect-worksheets/
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for .Net.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

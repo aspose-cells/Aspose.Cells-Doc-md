@@ -3,6 +3,8 @@ title: Bring shapes to the front or back in a worksheet
 type: docs
 weight: 3400
 url: /python-java/send-shape-front-or-back-inside-the-worksheet/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

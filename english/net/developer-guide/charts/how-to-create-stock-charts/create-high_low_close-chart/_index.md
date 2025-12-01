@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, High-Low-Close Stock Chart, Stock Market Data, 
 type: docs
 weight: 181
 url: /net/create-high-low-close-stock-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

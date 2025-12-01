@@ -3,6 +3,8 @@ title: Importing from Custom Objects
 type: docs
 weight: 30
 url: /net/importing-from-custom-objects/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Developers can import data from collection of objects to a worksheet using **ImportCustomObjects**. You can provide a list of columns/properties to the method to display your desired list of objects.

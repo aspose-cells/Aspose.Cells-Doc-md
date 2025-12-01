@@ -3,6 +3,8 @@ title: Save Each Worksheet to Different PDF using Aspose.Cells
 type: docs
 weight: 80
 url: /java/save-each-worksheet-to-different-pdf-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Save Each Worksheet to Different PDF**

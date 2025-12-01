@@ -10,6 +10,8 @@ aliases:
   - /python-net/aspose-cells-gridjs/how-to-use-settings/
   - /python-net/aspose-cells-gridjs/work-with-settings/
   - /python-net/aspose-cells-gridjs/work-with-workbook-settings/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Settings for GridJs

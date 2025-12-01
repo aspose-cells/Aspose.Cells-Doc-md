@@ -3,6 +3,8 @@ title: Convert Worksheet to Image - Remove whitespace around data
 type: docs
 weight: 40
 url: /net/convert-worksheet-to-image-remove-whitespace-around-data/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

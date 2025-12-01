@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Open-High-Low-Close Stock Chart, Sto
 type: docs
 weight: 182
 url: /python-net/create-open-high-low-close-stock-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

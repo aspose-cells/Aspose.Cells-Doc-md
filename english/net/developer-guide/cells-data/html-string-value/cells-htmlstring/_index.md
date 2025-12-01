@@ -5,6 +5,8 @@ weight: 600
 url: /net/manage-cells-html-string/
 description: Learn how to Manage Cells Html String through the Aspose.Cells for .NET API.
 keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

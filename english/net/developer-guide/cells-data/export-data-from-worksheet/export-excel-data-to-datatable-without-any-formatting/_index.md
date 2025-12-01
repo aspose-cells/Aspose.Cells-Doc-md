@@ -5,6 +5,8 @@ weight: 280
 url: /net/export-excel-data-to-datatable-without-any-formatting/
 description: Learn how to Export Excel Data to DataTable without any Formatting through the Aspose.Cells for .NET API.
 keywords: Export Excel Data to DataTable without any Formatting, Specify Cell Value Format Strategy, Add Format Strategy When Exporting Data to DataTable. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

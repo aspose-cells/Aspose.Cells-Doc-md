@@ -3,6 +3,8 @@ title: Format Ranges
 type: docs
 weight: 105
 url: /net/how-to-format-a-range/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

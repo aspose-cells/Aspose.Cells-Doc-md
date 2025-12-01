@@ -3,6 +3,8 @@ title: Check Password to modify using Aspose.Cells for Python via .NET
 type: docs
 weight: 2400
 url: /python-net/check-password-to-modify-using-aspose-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

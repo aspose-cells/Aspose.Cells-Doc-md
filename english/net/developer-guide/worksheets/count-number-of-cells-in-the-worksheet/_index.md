@@ -5,6 +5,8 @@ weight: 110
 url: /net/count-number-of-cells-in-the-worksheet/
 description: In this article, you will learn how to programmatically count number of cells in the Excel worksheet using C# API with .NET Library.
 keywords: count number of excel worksheet cells c#, excel worksheet cells c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 You may count the number of cells in the worksheet by using the [**Cells.Count**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count) or [**Cells.CountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge) properties as shown in the code example given below.

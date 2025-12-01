@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/determine-if-paper-size-of-worksheet-is-automatic/
 description: This article explains how to use the Aspose.Cells for Python via .NET sample code to determine if Paper Size of Worksheet is Automatic programmatically.
 keywords: Python Excel Library, Python determine if paper size of worksheet automatic.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

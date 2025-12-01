@@ -3,6 +3,8 @@ title: Specify Individual or Private Set of Fonts for Workbook Rendering
 type: docs
 weight: 40
 url: /python-net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

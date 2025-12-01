@@ -5,6 +5,8 @@ type: docs
 weight: 1500
 url: /nodejs-cpp/customizing-the-ribbon-xml/
 description: Learn how to customize the Ribbon XML in Excel using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

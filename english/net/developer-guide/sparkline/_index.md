@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url:  /net/creating-sparklines/
 description: Create sparkline for Excel using Aspose.Cells.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Insert a sparkline**

@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /python-net/import-xml-map-inside-a-workbook-using-aspose-cells/
 description: Import data from an XML data files to Microsoft Excel.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Setting Shadow of Text Effects of Shape or TextBox
 type: docs
 weight: 670
 url: /java/setting-shadow-of-text-effects-of-shape-or-textbox/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

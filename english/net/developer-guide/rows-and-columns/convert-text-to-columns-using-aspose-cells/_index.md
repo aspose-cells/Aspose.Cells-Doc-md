@@ -3,6 +3,8 @@ title: Convert Text to Columns using Aspose.Cells
 type: docs
 weight: 30
 url: /net/convert-text-to-columns-using-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

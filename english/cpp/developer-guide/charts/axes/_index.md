@@ -6,6 +6,8 @@ linktitle: Axes
 type: docs
 weight: 50
 url: /cpp/chart-axes/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

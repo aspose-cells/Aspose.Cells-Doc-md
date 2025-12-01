@@ -3,6 +3,8 @@ title: Print spreadsheets
 type: docs
 weight: 20
 url: /net/print-spreadsheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Page setup settings also provide several Print Options (also referred as Sheet Options ) that allow users to control their printed pages of worksheets. These print options allow users to:

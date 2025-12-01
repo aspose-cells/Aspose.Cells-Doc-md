@@ -3,6 +3,8 @@ title: Upgrade from old Aspose.Excel to Modern Aspose.Cells Component
 type: docs
 weight: 60
 url: /java/upgrade-to-modern-aspose-cells-component/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

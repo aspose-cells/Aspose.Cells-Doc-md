@@ -3,6 +3,8 @@ title: Working With Rows And Columns in Python
 type: docs
 weight: 30
 url: /java/working-with-rows-and-columns-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **This section includes the following topics:** 

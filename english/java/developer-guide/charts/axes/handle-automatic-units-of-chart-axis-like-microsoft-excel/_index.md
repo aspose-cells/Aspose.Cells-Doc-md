@@ -3,6 +3,8 @@ title: Handle Automatic Units of Chart Axis like Microsoft Excel
 type: docs
 weight: 80
 url: /java/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

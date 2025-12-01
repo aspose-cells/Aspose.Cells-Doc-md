@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, ICustomFunction, returns a series of values
 type: docs
 weight: 50
 url: /net/returning-a-range-of-values-using-icustomfunction/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook
 type: docs
 weight: 60
 url: /java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

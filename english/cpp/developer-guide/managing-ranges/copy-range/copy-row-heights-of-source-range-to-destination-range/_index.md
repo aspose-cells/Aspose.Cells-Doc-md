@@ -5,6 +5,8 @@ type: docs
 weight: 590
 url: /cpp/copy-row-heights-of-source-range-to-destination-range/
 description: Learn how to copy row heights from a source range to a destination range using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

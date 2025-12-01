@@ -3,6 +3,8 @@ title: Apply Custom Theme Colors of the Workbook using Array of Colors
 type: docs
 weight: 10
 url: /cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Apply Custom Theme Colors of the Workbook using Array of Colors**

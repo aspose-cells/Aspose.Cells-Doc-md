@@ -5,6 +5,8 @@ weight: 70
 url: /java/combine-multiple-worksheets-into-a-single-worksheet/
 description: Combine multiple worksheets into single worksheet by using Java code and Aspose.Cells for Java API.
 keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Activating Sheets and Activating a Cell in Worksheet
 type: docs
 weight: 5
 url: /java/activating-sheets-and-activating-a-cell-in-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

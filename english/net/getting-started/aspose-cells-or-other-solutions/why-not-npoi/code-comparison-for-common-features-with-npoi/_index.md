@@ -3,6 +3,8 @@ title: Code Comparison for common features with NPOI
 type: docs
 weight: 10
 url: /net/code-comparison-for-common-features-with-npoi/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section has the following topics:

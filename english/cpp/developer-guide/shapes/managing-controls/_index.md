@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/managing-controls/
 description: Learn how to add and manage various controls like lines, rectangles, arcs, ovals, spinners, scroll bars, and group boxes in worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

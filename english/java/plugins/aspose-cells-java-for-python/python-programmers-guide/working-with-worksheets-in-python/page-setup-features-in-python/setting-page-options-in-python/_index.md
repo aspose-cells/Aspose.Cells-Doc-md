@@ -3,6 +3,8 @@ title: Setting Page Options in Python
 type: docs
 weight: 10
 url: /java/setting-page-options-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Setting Page Options**

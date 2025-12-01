@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, rich text, custom data labels, fonts,
 type: docs
 weight: 10
 url: /net/rich-text-custom-data-label-of-chart-point/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 300
 url: /net/calculate-page-setup-scaling-factor/
 description: This article provides sample code explaining how to use the C# API or .NET library to calculate Page Setup scaling factor using Fit to n page(s) wide by m tall option of Excel worksheet programmatically.
 keywords: Fit to n page wide by m tall excel c#, calculate page setup scaling factor c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

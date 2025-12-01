@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 description: Learn how to trim leading blank rows and columns while exporting spreadsheets to CSV format using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

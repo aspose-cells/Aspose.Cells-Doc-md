@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/fit-all-worksheet-columns-on-single-pdf-page/
 description: Generate a PDF that fits all worksheet columns onto a single page using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

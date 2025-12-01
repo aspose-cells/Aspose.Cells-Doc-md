@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-excel-to-numpy/
 description: Convert Excel to NumPy by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert Excel to NumPy array, Export Workbook to NumPy array in Python via NET, Python Convert Row to  NumPy array, Python Convert Table to NumPy array, Export ListObject to NumPy array in Python via NET, Python Convert Range to  NumPy array, Column to NumPy array using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction to NumPy**

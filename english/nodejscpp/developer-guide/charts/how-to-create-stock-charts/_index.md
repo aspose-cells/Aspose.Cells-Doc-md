@@ -6,6 +6,8 @@ keywords: Create Stock Charts Node.js via C++, Aspose.Cells, Market Data Visuali
 type: docs
 weight: 71
 url: /nodejs-cpp/how-to-create-stock-charts/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

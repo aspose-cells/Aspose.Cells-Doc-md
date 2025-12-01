@@ -3,6 +3,8 @@ title: Using Custom XML Parts in Aspose.Cells
 type: docs
 weight: 570
 url: /java/using-custom-xml-parts-in-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /python-net/saving-file-to-response-object/
 description: Learn how to save Excel files directly to HTTP response streams using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

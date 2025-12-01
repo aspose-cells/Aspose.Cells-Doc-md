@@ -3,6 +3,8 @@ title: Change the Font on just the specific Unicode characters while saving to P
 type: docs
 weight: 150
 url: /java/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

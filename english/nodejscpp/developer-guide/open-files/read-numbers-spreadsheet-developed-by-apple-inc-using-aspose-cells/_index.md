@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /nodejs-cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 description: Learn how to read Numbers spreadsheets developed by Apple Inc. using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Converting Worksheet to Different Image Formats
 type: docs
 weight: 90
 url: /cpp/converting-worksheet-to-different-image-formats/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

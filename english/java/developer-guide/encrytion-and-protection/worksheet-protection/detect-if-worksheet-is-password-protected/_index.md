@@ -3,6 +3,8 @@ title: Detect if Worksheet is Password Protected
 type: docs
 weight: 280
 url: /java/detect-if-worksheet-is-password-protected/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

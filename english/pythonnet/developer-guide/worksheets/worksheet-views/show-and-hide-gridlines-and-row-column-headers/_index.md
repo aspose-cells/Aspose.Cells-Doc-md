@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/show-and-hide-gridlines-and-row-column-headers/
 description: This article provides sample code for using the Aspose.Cells for Python via .NET API to programmatically hide or show gridlines, row and column headers of an Excel worksheet.
 keywords: Python Excel Library, Python Show and Hide Gridlines, How to Show and Hide Row Column Headers in Python, How to Show and Hide Gridlines and Row Column Headers in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

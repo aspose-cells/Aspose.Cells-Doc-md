@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, Python, Worksheet, Formatting
 type: docs
 weight: 130
 url: /python-net/apply-conditional-formatting-in-worksheets/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

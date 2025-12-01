@@ -3,6 +3,8 @@ title: Precedents and Dependents
 type: docs
 weight: 100
 url: /cpp/precedents-and-dependents/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

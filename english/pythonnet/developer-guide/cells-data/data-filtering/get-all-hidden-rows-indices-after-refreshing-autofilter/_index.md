@@ -5,6 +5,8 @@ weight: 320
 url: /python-net/get-all-hidden-rows-indices-after-refreshing-autofilter/
 description: Learn how to get all hidden rows indices after refreshing AutoFilter by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Get All Hidden Rows Indices after Refreshing AutoFilter, Python Obtain All Hidden Rows Indices after Refreshing AutoFilter, Python Retrieve All Hidden Rows Indices after Refreshing AutoFilter
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

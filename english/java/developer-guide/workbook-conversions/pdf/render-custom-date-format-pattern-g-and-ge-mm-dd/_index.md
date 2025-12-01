@@ -3,6 +3,8 @@ title: Render Custom Date Format Pattern g and ge mm dd
 type: docs
 weight: 240
 url: /java/render-custom-date-format-pattern-g-and-ge-mm-dd/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

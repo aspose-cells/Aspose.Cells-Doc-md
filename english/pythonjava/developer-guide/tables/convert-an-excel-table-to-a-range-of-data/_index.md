@@ -3,6 +3,8 @@ title: Convert an Excel Table to a Range of Data
 type: docs
 weight: 10
 url: /python-java/convert-an-excel-table-to-a-range-of-data/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert an Excel Table to a Range of Data**

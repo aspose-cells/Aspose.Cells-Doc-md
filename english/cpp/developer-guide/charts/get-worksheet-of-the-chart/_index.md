@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Excel charts, worksheets, data manipulation, und
 type: docs
 weight: 1000
 url: /cpp/get-worksheet-of-the-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

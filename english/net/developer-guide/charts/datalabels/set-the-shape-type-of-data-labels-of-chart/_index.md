@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, data labels, shape types, presentatio
 type: docs
 weight: 110
 url: /net/set-the-shape-type-of-data-labels-of-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

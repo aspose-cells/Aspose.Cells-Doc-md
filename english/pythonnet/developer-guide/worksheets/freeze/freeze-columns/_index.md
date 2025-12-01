@@ -6,6 +6,8 @@ weight: 190
 url: /python-net/how-to-freeze-columns-of-excel-worksheet
 description: In this article, you will learn how to freeze left columns of Excel Worksheets programmatically using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python Freeze left columns, Python Feeze first columns, Pyton Lock the columns.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

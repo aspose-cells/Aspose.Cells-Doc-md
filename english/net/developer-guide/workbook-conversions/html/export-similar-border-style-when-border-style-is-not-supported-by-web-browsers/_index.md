@@ -3,6 +3,8 @@ title: Export similar Border Style when Border Style is not supported by Web Bro
 type: docs
 weight: 70
 url: /net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

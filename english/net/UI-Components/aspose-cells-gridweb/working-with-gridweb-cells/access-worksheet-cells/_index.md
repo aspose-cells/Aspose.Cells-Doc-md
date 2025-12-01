@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/access-worksheet-cell/
 keywords: GridWeb,cell,GridCell
 description: This article introduces how to get cell (GridCell) in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

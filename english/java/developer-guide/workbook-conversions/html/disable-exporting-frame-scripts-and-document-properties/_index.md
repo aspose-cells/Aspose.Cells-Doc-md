@@ -3,6 +3,8 @@ title: Disable Exporting Frame Scripts and Document Properties
 type: docs
 weight: 410
 url: /java/disable-exporting-frame-scripts-and-document-properties/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

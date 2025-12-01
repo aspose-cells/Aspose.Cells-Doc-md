@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, Cell calculation methods, optimization, performan
 type: docs  
 weight: 100  
 url: /nodejs-cpp/decrease-the-calculation-time-of-cell-calculate-method/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

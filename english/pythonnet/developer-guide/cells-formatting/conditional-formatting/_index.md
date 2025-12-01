@@ -6,6 +6,8 @@ weight: 60
 url: /python-net/conditional-formatting/
 description: How to apply conditional formats to Excel and ODS files in Python.
 keywords: apply conditional formats 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

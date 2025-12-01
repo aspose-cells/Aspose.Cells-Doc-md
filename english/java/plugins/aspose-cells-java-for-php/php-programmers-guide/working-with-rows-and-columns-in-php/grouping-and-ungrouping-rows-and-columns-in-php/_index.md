@@ -3,6 +3,8 @@ title: Grouping and Ungrouping Rows and Columns in PHP
 type: docs
 weight: 40
 url: /java/grouping-and-ungrouping-rows-and-columns-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Group Management of Rows & Columns**

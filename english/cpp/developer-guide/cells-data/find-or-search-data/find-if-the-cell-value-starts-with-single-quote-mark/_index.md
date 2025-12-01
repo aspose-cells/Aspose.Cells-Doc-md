@@ -6,6 +6,8 @@ weight: 270
 url: /cpp/find-if-the-cell-value-starts-with-single-quote-mark/
 description: Learn how to find if the cell value starts with a single quote mark through the Aspose.Cells for C++ API.
 keywords: Find cell value starts with a single quote mark, Search cell value starts with a single quote mark
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

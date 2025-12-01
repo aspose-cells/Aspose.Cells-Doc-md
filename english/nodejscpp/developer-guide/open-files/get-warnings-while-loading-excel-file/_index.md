@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /nodejs-cpp/get-warnings-while-loading-excel-file/
 description: Learn how to capture warnings while loading an Excel file using Aspose.Cells for Node.js via C++. Handle corrupt but loadable workbooks effectively.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

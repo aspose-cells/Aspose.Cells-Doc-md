@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
 keywords: GridDesktop,copy,paste
 description: This article introduce copy and paste in GridDesktop .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

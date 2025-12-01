@@ -5,6 +5,8 @@ type: docs
 weight: 340
 url: /cpp/save-excel-into-pdf-with-standard-or-minimum-size/
 description: Learn how to save Excel files into PDF with standard or minimum size using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

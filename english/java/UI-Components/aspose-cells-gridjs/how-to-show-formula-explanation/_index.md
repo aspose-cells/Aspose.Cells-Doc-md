@@ -11,6 +11,8 @@ aliases:
   - /java/aspose-cells-gridjs/how-to-display-formula-explanation/
   - /java/aspose-cells-gridjs/formula-explanation/
   - /java/aspose-cells-gridjs/formula-interpreter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  

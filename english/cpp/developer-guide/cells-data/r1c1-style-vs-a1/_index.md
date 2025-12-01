@@ -6,6 +6,8 @@ weight: 30
 url: /cpp/r1c1-reference-style-vs-a1/  
 description: R1C1 Reference Style VS. A1 style by using Aspose.Cells with C++.  
 keywords: R1C1 Reference Style VS. A1 style, R1C1 Reference Style, How to switch between R1C1 Reference Style and A1 Reference Style, A1 Reference style.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**

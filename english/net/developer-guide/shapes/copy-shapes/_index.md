@@ -4,6 +4,8 @@ linktitle: Copy Shapes
 type: docs
 weight: 200
 url: /net/copy-shapes-between-worksheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

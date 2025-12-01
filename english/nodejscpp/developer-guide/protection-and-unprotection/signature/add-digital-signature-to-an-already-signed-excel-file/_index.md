@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/add-digital-signature-to-an-already-signed-excel-file/
 description: This article describes how to add a digital signature to an already signed Excel file using Node.js with Aspose.Cells for Node.js via C++.
 keywords: Add Digital Signature to an already signed Excel file, How to add a digital signature to an already signed Excel document using Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

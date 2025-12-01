@@ -3,6 +3,8 @@ title: Split Panes in Jython
 type: docs
 weight: 140
 url: /java/split-panes-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Split Panes**

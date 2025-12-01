@@ -6,6 +6,8 @@ weight: 4
 url: /python-java/getting-started/ 
 keywords: "python, excel, install"
 description: Setup Aspose.Cells for Python via Java and installation guidelines.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **System Requirements**

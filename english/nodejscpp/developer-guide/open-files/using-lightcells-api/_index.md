@@ -5,6 +5,8 @@ type: docs
 weight: 160  
 url: /nodejs-cpp/using-lightcells-api/  
 description: Learn how to read and write large Excel files using the LightCells API in Node.js via C++. Improve performance and efficiency with less memory consumption.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

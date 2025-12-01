@@ -5,6 +5,8 @@ weight: 220
 url: /python-net/convert-csv-to-json/
 description: Convert CSV to JSON by using Aspose.Cells for Python via .NET API.
 keywords: Convert CVS to JSON, Convert CSV to JSON in Python via NET, Python convert CSV to JSON, Save CSV to JSON
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert CSV to JSON**

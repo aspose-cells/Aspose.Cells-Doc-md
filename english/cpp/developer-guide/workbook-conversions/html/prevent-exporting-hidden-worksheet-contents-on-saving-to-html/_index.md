@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /cpp/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 description: Learn how to prevent exporting hidden worksheet contents when saving Excel workbooks to HTML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/formatting-pivot-table/
 description: How to format pivot table with Aspose.Cells for Node.js via C++.
 keywords: Format pivot table.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table Appearance**

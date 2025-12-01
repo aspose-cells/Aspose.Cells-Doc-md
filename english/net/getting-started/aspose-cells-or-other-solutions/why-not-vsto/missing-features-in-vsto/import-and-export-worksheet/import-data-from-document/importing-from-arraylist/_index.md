@@ -3,6 +3,8 @@ title: Importing from ArrayList
 type: docs
 weight: 20
 url: /net/importing-from-arraylist/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Developers can import data from an ArrayList to their worksheets by calling the **ImportArrayList** method of the Cells collection. ImportArray method takes the following parameters: **ArrayList** , represents the ArrayList object whose contents need to import

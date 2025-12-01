@@ -5,6 +5,8 @@ type: docs
 weight: 270
 url: /cpp/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/
 description: Learn how to refresh OLE objects automatically in Microsoft Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

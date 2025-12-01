@@ -5,6 +5,8 @@ weight: 180
 url: /python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 description: Learn how to Limit the Number of Pages Generated while Rendering Excel to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Limit the Number of Pages Generated while Rendering Excel to PDF, Limit the Number of Pages Generated while saving Excel to PDF using Python, Python Set the Number of Pages Generated while converting Excel to PDF, Control the Number of Pages Generated for Excel to PDF in python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 40
 url: /cpp/rendering-timeline/
 description: Manage timelines of Excel files with Aspose.Cells with C++.
 keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

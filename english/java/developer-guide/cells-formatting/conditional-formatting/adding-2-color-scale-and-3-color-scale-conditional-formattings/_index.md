@@ -3,6 +3,8 @@ title: Adding 2-Color Scale and 3-Color Scale Conditional Formattings
 type: docs
 weight: 520
 url: /java/adding-2-color-scale-and-3-color-scale-conditional-formattings/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

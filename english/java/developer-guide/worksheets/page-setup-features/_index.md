@@ -3,6 +3,8 @@ title: Page Setup Features
 type: docs
 weight: 40
 url: /java/page-setup-features/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Sometimes, it is necessary to configure page setup settings for worksheets to control printing. These page setup settings offer various options.

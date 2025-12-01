@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, custom functions, direct calculations, Node.js vi
 type: docs
 weight: 90
 url: /nodejs-cpp/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Direct calculation of custom function without writing it in a worksheet**

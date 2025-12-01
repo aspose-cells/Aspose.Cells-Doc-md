@@ -5,6 +5,8 @@ type: docs
 weight: 350
 url: /cpp/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
 description: Learn how to render Unicode Supplementary characters in output PDF using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

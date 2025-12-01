@@ -3,6 +3,8 @@ title: Hide and Unhide Worksheets in a Workbook
 type: docs
 weight: 80
 url: /net/hide-and-unhide-worksheets-in-a-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

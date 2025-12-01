@@ -5,6 +5,8 @@ weight: 280
 url: /python-net/export-chart-to-svg-with-viewbox-attribute/
 description: Export Chart to SVG with viewBox attribute by using Aspose.Cells for Python via .NET API.
 keywords: Python Export Chart to SVG with viewBox attribute, Export Chart to SVG with viewBox attribute in Python via NET, Python Convert Chart to SVG with viewBox attribute.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

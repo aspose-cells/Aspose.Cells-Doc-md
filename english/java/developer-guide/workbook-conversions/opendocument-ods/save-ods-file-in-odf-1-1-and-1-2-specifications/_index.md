@@ -3,6 +3,8 @@ title: Save ODS file in ODF 1.1, 1.2 and 1.3 Specifications
 type: docs
 weight: 170
 url: /java/save-ods-file-in-odf-1-1-and-1-2-specifications/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

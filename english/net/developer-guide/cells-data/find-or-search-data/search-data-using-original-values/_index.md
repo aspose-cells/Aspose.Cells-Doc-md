@@ -5,6 +5,8 @@ weight: 380
 url: /net/search-data-using-original-values/
 description: Learn how to Search Data using Original Values through the Aspose.Cells for .NET API.
 keywords: Search Data using Original Values, Find Data using Original Values, Search Data by Original Values, Find Data by Original Values
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

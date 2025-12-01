@@ -3,6 +3,8 @@ title: Rendering Slicer
 type: docs
 weight: 40
 url: /net/rendering-slicer/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

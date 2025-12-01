@@ -3,6 +3,8 @@ title: Autofit Rows and Columns in Jython
 type: docs
 weight: 20
 url: /java/autofit-rows-and-columns-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Autofit Rows and Columns**

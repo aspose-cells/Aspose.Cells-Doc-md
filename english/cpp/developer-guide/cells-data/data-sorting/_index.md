@@ -6,6 +6,8 @@ weight: 130
 url: /cpp/sort-data-of-excel/
 description: Learn how to sort data by using the Aspose.Cells for C++ API.
 keywords: Sort data in ascending or descending order, Sort data based on the background color
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

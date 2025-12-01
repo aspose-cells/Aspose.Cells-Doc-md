@@ -5,6 +5,8 @@ type: docs
 weight: 3400
 url: /nodejs-cpp/send-shape-front-or-back-inside-the-worksheet/
 description: Learn how to send a shape to the front or back in a worksheet using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

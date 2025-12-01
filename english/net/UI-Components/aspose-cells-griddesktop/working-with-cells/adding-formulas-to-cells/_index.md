@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-griddesktop/adding-formula-to-cell/
 keywords: GridDesktop,formula
 description: This article introduces how to get or set formula  in the cell in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

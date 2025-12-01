@@ -3,6 +3,8 @@ title: Remove ActiveX Control
 type: docs
 weight: 1000
 url: /python-net/remove-activex-control/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Remove ActiveX Control**

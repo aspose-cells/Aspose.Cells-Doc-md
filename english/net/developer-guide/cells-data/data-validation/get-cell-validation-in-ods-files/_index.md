@@ -5,6 +5,8 @@ weight: 180
 url: /net/get-cell-validation-in-ods-files/
 description: Learn how to Get Cell Validation in ODS Files through the Aspose.Cells for .NET API..
 keywords: Get Cell Validation, Obtain Cell Validation 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Cell Validation in ODS Files**

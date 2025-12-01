@@ -5,6 +5,8 @@ weight: 280
 url: /net/export-excel-data-to-datatable-and-check-mixed-data-type/
 description: Learn how to Export Excel Data to DataTable and Check Mixed Data Type through the Aspose.Cells for .NET API.
 keywords: Export Excel Data to DataTable and Check Mixed Data Type, Export Workbook Data to DataTable and Check Mixed Data Type, Export Data to DataTable and Check Mixed Data Type, Export Worksheet Data to DataTable and Check Mixed Data Type.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

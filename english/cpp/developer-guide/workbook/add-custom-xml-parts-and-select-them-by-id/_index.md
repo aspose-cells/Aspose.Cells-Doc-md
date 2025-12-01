@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/add-custom-xml-parts-and-select-them-by-id/
 description: Learn how to add and select custom XML parts in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -12,6 +12,8 @@ aliases:
   - /net/aspose-cells-gridjs/how-to-use-apis/
   - /net/aspose-cells-gridjs/work-with-serverside-api/
   - /net/aspose-cells-gridjs/work-with-serverside-apis/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

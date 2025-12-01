@@ -3,6 +3,8 @@ title: Create Pivot Tables and Pivot Charts
 type: docs
 weight: 20
 url: /net/create-pivot-tables-and-pivot-charts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

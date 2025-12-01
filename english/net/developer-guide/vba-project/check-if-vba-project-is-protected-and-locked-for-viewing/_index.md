@@ -3,6 +3,8 @@ title: Check if VBA Project is Protected and Locked for Viewing
 type: docs
 weight: 30
 url: /net/check-if-vba-project-is-protected-and-locked-for-viewing/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Check if VBA Project is Protected and Locked for Viewing in C#

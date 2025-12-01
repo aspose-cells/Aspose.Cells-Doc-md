@@ -5,6 +5,8 @@ type: docs
 weight: 9
 url: /nodejs-cpp/add-watermark-to-pdf/
 description: Learn how to add text and image watermark to PDF while converting Excel to PDF using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 While converting an Excel file to PDF, you may have requirements to add a watermark to the PDF file. The following examples show how to add text and image watermarks to the PDF while rendering.

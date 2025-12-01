@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-gridweb/group-rows-and-create-subtotal/
 keywords: GridWeb,subtotal,group,ungroup
 description: This article introduces how to group/ungroup rows/columns and how to work with subtotal in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 280
 url: /nodejs-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/  
 description: Learn how to apply advanced filter of Microsoft Excel to display records meeting complex criteria by using the Aspose.Cells for Node.js via C++ API.  
 keywords: Apply Advanced Filter Node.js via C++, Set Advanced Filter Node.js via C++, Add Advanced Filter Node.js via C++, Create Advanced Filter Node.js via C++, How to add Advanced Filter to a range Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

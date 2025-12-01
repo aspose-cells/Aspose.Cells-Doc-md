@@ -3,6 +3,8 @@ title: Converting HTML files to Excel Spreadsheets in Ruby
 type: docs
 weight: 40
 url: /java/converting-html-files-to-excel-spreadsheets-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting HTML files to Excel Spreadsheets**

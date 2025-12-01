@@ -3,6 +3,8 @@ title: Export Range of Cells in a Worksheet to Image
 type: docs
 weight: 130
 url: /java/export-range-of-cells-in-a-worksheet-to-image/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

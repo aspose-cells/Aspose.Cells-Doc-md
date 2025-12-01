@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/mcp/cell-operations
 keywords: "Excel cell operations, merge Excel cells, copy paste Excel, Excel cell manipulation, AI Excel cell operations"
 description: "Excel cell operations - merge, copy/paste, clear cells, and advanced cell manipulation with AI automation"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Cell Operations

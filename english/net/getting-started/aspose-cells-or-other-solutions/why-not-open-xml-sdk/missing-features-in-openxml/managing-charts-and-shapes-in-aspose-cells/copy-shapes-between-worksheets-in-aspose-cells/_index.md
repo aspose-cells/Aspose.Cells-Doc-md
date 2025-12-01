@@ -3,6 +3,8 @@ title: Copy Shapes between Worksheets in Aspose.Cells
 type: docs
 weight: 30
 url: /net/copy-shapes-between-worksheets-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

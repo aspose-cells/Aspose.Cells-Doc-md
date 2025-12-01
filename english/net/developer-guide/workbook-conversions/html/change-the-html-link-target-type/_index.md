@@ -3,6 +3,8 @@ title: Change the HTML Link Target Type
 type: docs
 weight: 320
 url: /net/change-the-html-link-target-type/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

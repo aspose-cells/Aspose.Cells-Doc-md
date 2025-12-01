@@ -3,6 +3,8 @@ title: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells
 type: docs
 weight: 140
 url: /cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ weight: 60
 url: /cpp/delete-pivot-table-from-a-worksheet/
 description: C++ code to remove PivotTable for Excel Worksheets using Aspose.Cells.
 keywords: c++ remove pivot table from worksheet, c++ remove pivot table from excel, how to delete pivot table with c++, delete pivot table with c++, delete pivot table from excel with c++, c++ delete pivot table, c++ remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

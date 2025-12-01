@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Dynamic Chart, Real-Time Updates, User Input, S
 type: docs
 weight: 74
 url: /net/create-dynamic-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

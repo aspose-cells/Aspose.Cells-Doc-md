@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, SetChartDataRange method, 
 type: docs
 weight: 190
 url: /nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

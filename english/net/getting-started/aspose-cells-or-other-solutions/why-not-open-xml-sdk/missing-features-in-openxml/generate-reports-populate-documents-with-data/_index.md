@@ -3,6 +3,8 @@ title: Generate reports, populate documents with data
 type: docs
 weight: 40
 url: /net/generate-reports-populate-documents-with-data/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics

@@ -6,6 +6,8 @@ weight: 110
 url: /cpp/support-for-xades-signature/
 description: This article describes Support for XAdES Signature using C++ codes with Aspose.Cells for C++.
 keywords: Support for XAdES Signature, How to sign Excel with XAdES Signature, How to add XAdES signature.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

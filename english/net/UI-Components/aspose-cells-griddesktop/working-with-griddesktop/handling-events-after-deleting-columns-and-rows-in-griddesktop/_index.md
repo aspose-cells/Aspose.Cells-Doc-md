@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-griddesktop/handle-events-after-delete-columns-and-rows-in-griddesktop/
 keywords: GridDesktop,events,delete row,delete column
 description: This article introduces the events after delete row/column in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

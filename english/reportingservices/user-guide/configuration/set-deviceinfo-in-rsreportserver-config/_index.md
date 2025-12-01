@@ -3,6 +3,8 @@ title: Set DeviceInfo in rsreportserver.config
 type: docs
 weight: 60
 url: /reportingservices/set-deviceinfo-in-rsreportserver-config/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 - **FileExtension** 

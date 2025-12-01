@@ -3,6 +3,8 @@ title: Specify the Far East and Latin Name of the Font in Text Options of Shape
 type: docs
 weight: 120
 url: /java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

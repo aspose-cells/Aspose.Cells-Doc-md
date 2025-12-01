@@ -5,6 +5,8 @@ type: docs
 weight: 70  
 url: /nodejs-cpp/add-custom-xml-parts-and-select-them-by-id/  
 description: Learn how to add custom XML parts to Excel documents and select them by ID using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

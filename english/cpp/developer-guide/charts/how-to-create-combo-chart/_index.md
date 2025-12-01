@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Combo Chart, Combining Chart Types, Data Present
 type: docs  
 weight: 73  
 url: /cpp/create-combo-chart/  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

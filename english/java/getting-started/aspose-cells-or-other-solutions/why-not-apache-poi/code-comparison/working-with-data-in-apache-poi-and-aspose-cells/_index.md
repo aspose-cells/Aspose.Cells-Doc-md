@@ -3,6 +3,8 @@ title: Working with Data in Apache POI and Aspose.Cells
 type: docs
 weight: 40
 url: /java/working-with-data-in-apache-poi-and-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  **This section includes the following topics:**

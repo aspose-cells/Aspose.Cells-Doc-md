@@ -6,6 +6,8 @@ weight: 50
 url: /nodejs-cpp/updating-slicer/
 description: This article shows how to update linked pivot tables by updating slicer using Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells Node.js via C++, Update slicer Node.js, how to change the slicer Node.js, how to adjust the slicer in Node.js, how to select or unselect the slicer items Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

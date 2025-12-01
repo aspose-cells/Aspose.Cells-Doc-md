@@ -4,6 +4,8 @@ type: docs
 description: "Run Aspose.Cells in a Docker container for Linux, Windows Server and any OS. "
 weight: 139
 url: /net/how-to-run-aspose-cells-in-docker/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Microservices, in conjunction with containerization make it possible to easily combine technologies. Docker allows you to easily integrate Aspose.Cells functionality into your application, regardless of what technology is in your development stack.

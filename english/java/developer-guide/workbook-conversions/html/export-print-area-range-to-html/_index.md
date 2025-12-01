@@ -3,6 +3,8 @@ title: Export print area range to HTML
 type: docs
 weight: 60
 url: /java/export-print-area-range-to-html/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

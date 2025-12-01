@@ -3,6 +3,8 @@ title: Configuring Aspose.Cells.ReportingServices Client Report Server URL
 type: docs
 weight: 40
 url: /reportingservices/configuring-aspose-cells-reportingservices-client-report-server-url/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To configure a client Report Server URL:

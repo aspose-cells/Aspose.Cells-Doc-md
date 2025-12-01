@@ -5,6 +5,8 @@ weight: 30
 url: /nodejs-cpp/r1c1-reference-style-vs-a1/
 description: R1C1 Reference Style VS. A1 style by using Aspose.Cells for Node.js via C++.
 keywords: R1C1 Reference Style VS. A1 style Node.js via C++, R1C1 Reference Style Node.js via C++, How to switch between R1C1 Reference Style and A1 Reference Style Node.js via C++, A1 Reference style Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

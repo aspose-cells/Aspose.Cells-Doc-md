@@ -3,6 +3,8 @@ title: Implement Custom Paper Size of Worksheet for Rendering
 type: docs
 weight: 30
 url: /java/implement-custom-paper-size-of-worksheet-for-rendering/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

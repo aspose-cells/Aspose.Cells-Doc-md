@@ -3,6 +3,8 @@ title: Applying a License
 type: docs
 weight: 40
 url: /java/applying-a-license/
+ai_search_scope: cells_androidjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

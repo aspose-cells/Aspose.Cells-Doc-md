@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-gridweb/enter-cell-data-in-percentage-format/
 keywords: GridWeb,percentage,format
 description: This article introduce enter cell data with percentage format in GridWeb .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

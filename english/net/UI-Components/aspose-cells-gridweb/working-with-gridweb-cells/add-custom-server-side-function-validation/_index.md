@@ -5,6 +5,8 @@ weight: 110
 url: /net/aspose-cells-gridweb/add-custom-server-side-function-validation/
 keywords: GridWeb,server side validation
 description: This article introduces how to work with server side validation in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

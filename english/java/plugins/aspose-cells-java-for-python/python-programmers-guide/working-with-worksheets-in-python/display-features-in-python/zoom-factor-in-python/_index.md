@@ -3,6 +3,8 @@ title: Zoom Factor in Python
 type: docs
 weight: 80
 url: /java/zoom-factor-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Zoom Factor**

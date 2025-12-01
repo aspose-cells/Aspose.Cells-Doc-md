@@ -3,6 +3,8 @@ title: Converting To MHTML Files in Python
 type: docs
 weight: 30
 url: /java/converting-to-mhtml-files-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting To MHTML**

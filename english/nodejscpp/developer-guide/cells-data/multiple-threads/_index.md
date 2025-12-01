@@ -6,6 +6,8 @@ weight: 1800
 url: /nodejs-cpp/reading-cell-values-in-multiple-threads-simultaneously/
 description: Learn how to read cell values in multiple threads simultaneously through the Aspose.Cells for Node.js via C++ API.
 keywords: Read Cell Values in Multiple Threads Simultaneously Node.js via C++, Aspose.Cells C++ Multiple Threads, Read data in Multiple Threads
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

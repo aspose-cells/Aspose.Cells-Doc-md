@@ -6,6 +6,8 @@ weight: 200
 url: /net/lock-or-unlock-shapes/
 description: This article shows you code explaining how to Lock or unlock shapes to protect them using Aspose.Cells library.
 keywords: C# Lock Shapes to Protect Them, How to Lock or unlock shapes using C#, Lock or unlock shapes to Protect Them in C#.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

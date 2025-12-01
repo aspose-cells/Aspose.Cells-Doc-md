@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Chart Legend Entry Fill, Microsoft Excel, Visual
 type: docs
 weight: 320
 url: /cpp/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

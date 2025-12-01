@@ -4,6 +4,8 @@ type: docs
 weight: 10
 url: /java/getting-started/
 description: This article describes how to download and install aspose, and create and execute sample codes.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

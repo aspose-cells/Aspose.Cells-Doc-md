@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/check-if-vba-project-is-protected-and-locked-for-viewing/
 description: Learn how to check if a VBA project in an Excel file is protected and locked for viewing using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Check if VBA Project is Protected and Locked for Viewing in Node.js

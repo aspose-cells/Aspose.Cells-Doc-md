@@ -5,6 +5,8 @@ type: docs
 weight: 100  
 url: /nodejs-cpp/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/  
 description: Learn how to stop the conversion of Workbook to various formats using InterruptMonitor when it is taking too long with Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

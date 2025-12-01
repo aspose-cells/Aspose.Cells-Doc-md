@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 description: Learn how to specify individual or private set of fonts for workbook rendering using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

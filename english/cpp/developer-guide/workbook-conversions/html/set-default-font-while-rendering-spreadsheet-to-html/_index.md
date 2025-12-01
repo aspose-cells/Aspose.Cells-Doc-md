@@ -5,6 +5,8 @@ type: docs
 weight: 370
 url: /cpp/set-default-font-while-rendering-spreadsheet-to/
 description: Learn how to set default font while rendering spreadsheet to HTML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

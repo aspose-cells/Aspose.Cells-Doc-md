@@ -3,6 +3,8 @@ title: Cut and Paste Cells
 type: docs
 weight: 30
 url: /python-java/cut-and-paste-cells/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Cut and Paste Cells**

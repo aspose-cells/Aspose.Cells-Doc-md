@@ -5,6 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/update-days-preserving-history-of-revision-logs-in-shared-workbook/  
 description: Learn how to update the days for preserving revision log history in shared workbooks using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

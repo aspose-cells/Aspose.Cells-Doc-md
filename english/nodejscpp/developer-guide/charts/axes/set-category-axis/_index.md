@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, category axis, setting, range, prope
 type: docs
 weight: 205
 url: /nodejs-cpp/how-to-set-category-axis/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

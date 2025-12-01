@@ -6,6 +6,8 @@ weight: 120
 url: /cpp/autofit-row-height/
 description: Learn how to fit the rows which height are not customed using Aspose.Cells with C++.
 keywords: AutoFit Row Height when loading file, automatically adjust the row height when opening excel file.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

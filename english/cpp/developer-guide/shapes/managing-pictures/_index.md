@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/managing-pictures/
 description: Add, position, and manage images in spreadsheets using Aspose.Cells for C++ API.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.

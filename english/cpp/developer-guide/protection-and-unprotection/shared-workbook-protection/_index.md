@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/password-protect-or-unprotect-the-shared-workbook/
 description: Learn how to password protect or unprotect a shared workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

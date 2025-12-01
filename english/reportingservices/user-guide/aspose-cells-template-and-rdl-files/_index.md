@@ -3,6 +3,8 @@ title: Aspose.Cells Template and RDL Files
 type: docs
 weight: 40
 url: /reportingservices/aspose-cells-template-and-rdl-files/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

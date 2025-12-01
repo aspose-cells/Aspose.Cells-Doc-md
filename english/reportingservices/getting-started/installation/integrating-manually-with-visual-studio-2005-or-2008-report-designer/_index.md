@@ -3,6 +3,8 @@ title: Integrating Manually with Visual Studio 2005 or 2008 Report Designer
 type: docs
 weight: 30
 url: /reportingservices/integrating-manually-with-visual-studio-2005-or-2008-report-designer/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

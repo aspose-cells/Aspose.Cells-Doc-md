@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
 type: docs
 weight: 2000
 url: /cpp/format-worksheet-cells-in-a-workbook/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

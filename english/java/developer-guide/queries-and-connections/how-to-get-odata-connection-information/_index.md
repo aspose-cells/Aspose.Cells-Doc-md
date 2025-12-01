@@ -3,6 +3,8 @@ title: How to get OData Connection Information
 type: docs
 weight: 60
 url: /java/how-to-get-odata-connection-information/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get OData Connection Information**

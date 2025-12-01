@@ -5,6 +5,8 @@ type: docs
 weight: 340
 url: /cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 description: Learn how to detect the file format of encrypted Office Open XML (OOXML) files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

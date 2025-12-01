@@ -5,6 +5,8 @@ type: docs
 weight: 100  
 url: /cpp/check-if-vba-code-is-signed/  
 description: Learn how to check if VBA code in Excel files is signed using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

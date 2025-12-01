@@ -5,6 +5,8 @@ weight: 20
 url: /java/convert-excel-to-json/
 description: Learn how to convert excel file to json with Aspose.Cells for Java APIs.
 keywords: Java Export Workbook to json, Convert Excel to JSON using Java, Save Excel to JSON in Java, Convert Workbook to JSON using Java, Save Workbook to JSON in Java, Export Excel to JSON via Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

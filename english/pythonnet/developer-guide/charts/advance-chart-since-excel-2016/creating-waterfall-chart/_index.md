@@ -5,6 +5,8 @@ weight: 160
 url: /python-net/creating-waterfall-chart/
 description: Create waterfall charts in Excel with C# and Aspose.Cells for Python via .NET API.
 keywords: Python create waterfall chart in excel, Python creating waterfall chart in excel, creating waterfall chart in excel with Python, create waterfall chart in excel with Python, create waterfall chart in excel Python, create waterfall chart excel Python, create waterfall chart in excel programmatically, how to create waterfall chart in excel with Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

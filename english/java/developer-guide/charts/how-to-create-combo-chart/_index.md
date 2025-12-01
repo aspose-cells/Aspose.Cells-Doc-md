@@ -5,6 +5,8 @@ weight: 73
 url: /java/create-combo-chart/
 description: How to create combo chart, how to add stock chart with line chart, how to generate combo chart.
 keywords: Add combo chart, Create stock chart with line chart, Generate combo chart, add stock chart with line chart.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

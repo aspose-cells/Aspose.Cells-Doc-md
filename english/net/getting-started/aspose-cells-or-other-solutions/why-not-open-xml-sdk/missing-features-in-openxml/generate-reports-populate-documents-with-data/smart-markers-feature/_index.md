@@ -3,6 +3,8 @@ title: Smart Markers feature in Aspose.Cells
 type: docs
 weight: 30
 url: /net/smart-markers-feature-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Smart markers** are used to let Aspose.Cells know what information to place in an Microsoft Excel designer spreadsheet. Smart markers allow you to create templates that contain only specific information and formatting.

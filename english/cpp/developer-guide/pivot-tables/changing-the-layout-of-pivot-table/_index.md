@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/changing-the-layout-of-pivot-table/
 description: Learn how to change the layout of a Pivot Table in Compact, Outline, and Tabular forms using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

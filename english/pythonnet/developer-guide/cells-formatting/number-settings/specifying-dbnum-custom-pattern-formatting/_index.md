@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Python library, electronic spreadsheet, custom format pa
 type: docs
 weight: 110
 url: /python-net/specifying-dbnum-custom-pattern-formatting/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Bo
 type: docs
 weight: 40
 url: /net/cells-border-settings/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Borders to Cells**

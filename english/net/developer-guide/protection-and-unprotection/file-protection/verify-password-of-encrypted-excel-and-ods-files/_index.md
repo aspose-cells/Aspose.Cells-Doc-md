@@ -4,6 +4,8 @@ type: docs
 weight: 10
 url: /net/verify-password-of-encrypted-excel-and-ods-files/
 description: Verify the passord of encrypted Excel (xlsx, xlsb, xls, xlsm) and Open office (ODS) files using CShape codes.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

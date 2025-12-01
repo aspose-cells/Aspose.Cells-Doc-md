@@ -3,6 +3,8 @@ title: Smartly Importing Master and Details Data into Excel With Smart Markers
 type: docs
 weight: 30
 url: /net/how-to-use-master-and-details-with-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

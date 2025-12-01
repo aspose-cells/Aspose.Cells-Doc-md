@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Cell Border Settings, Node.js via C++, Border Width, Bor
 type: docs  
 weight: 40  
 url: /nodejs-cpp/cells-border-settings/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Adding Borders to Cells**  

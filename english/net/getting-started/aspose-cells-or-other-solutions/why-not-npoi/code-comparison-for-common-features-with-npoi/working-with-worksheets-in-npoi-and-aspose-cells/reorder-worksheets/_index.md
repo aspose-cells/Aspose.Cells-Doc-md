@@ -3,6 +3,8 @@ title: Reorder Worksheets
 type: docs
 weight: 70
 url: /net/reorder-worksheets/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Reorder Worksheets**

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/opening-excel-file-without-open-save-cancel-dialog-box/
 description: Learn how to open a Microsoft Excel file in a browser without showing the Open-Save-Cancel dialog box using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

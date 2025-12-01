@@ -3,6 +3,8 @@ title: Get worksheet unique id
 type: docs
 weight: 200
 url: /java/get-worksheet-unique-id/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get worksheet unique id**

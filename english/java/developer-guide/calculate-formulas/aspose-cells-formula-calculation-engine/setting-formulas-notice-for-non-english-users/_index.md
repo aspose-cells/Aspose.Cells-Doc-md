@@ -3,6 +3,8 @@ title: Setting Formulas - Notice for Non English Users
 type: docs
 weight: 20
 url: /java/setting-formulas-notice-for-non-english-users/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

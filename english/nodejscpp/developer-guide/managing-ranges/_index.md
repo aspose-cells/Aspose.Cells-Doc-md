@@ -5,6 +5,8 @@ type: docs
 weight: 105
 url: /nodejs-cpp/managing-ranges/
 description: Learn how to manage ranges in Excel using Aspose.Cells for Node.js via C++. Create ranges, set values, styles, and perform various operations.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

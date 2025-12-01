@@ -3,6 +3,8 @@ title: Show Report Filter Pages option
 type: docs
 weight: 140
 url: /java/show-report-filter-pages-option/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Show report filter pages option**

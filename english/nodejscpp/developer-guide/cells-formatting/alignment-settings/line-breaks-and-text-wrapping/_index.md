@@ -6,6 +6,8 @@ keywords: Aspose.Cells, line breaks, text wraps, text layout Node.js via C++
 type: docs  
 weight: 60  
 url: /nodejs-cpp/line-breaks-and-text-wrapping/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

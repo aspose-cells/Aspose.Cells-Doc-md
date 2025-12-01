@@ -3,6 +3,8 @@ title: Mapping Query Parameters to Report Parameters
 type: docs
 weight: 30
 url: /reportingservices/mapping-query-parameters-to-report-parameters/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 1. Open Microsoft Excel.

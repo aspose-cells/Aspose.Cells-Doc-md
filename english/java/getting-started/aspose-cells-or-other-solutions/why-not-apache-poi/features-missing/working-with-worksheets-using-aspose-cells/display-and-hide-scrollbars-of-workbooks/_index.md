@@ -3,6 +3,8 @@ title: Display and Hide Scrollbars of Workbooks
 type: docs
 weight: 40
 url: /java/display-and-hide-scrollbars-of-workbooks/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display and Hide Scrollbars of Workbooks**

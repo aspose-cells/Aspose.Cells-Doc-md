@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, charting, data source, destination worksheet, ro
 type: docs  
 weight: 440  
 url: /cpp/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 190
 url: /python-net/merge-or-unmerge-range-of-cells/
 description: This article describes how to Merge and Unmerge Cells in a Range in Excel with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python merge and unmerge cells, Python merge and unmerge cells in a range, merge and unmerge cells in range with Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

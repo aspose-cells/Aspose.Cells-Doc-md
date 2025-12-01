@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 description: Learn how to use the DrawObjectEventHandler class in C++ to capture DrawObject and Bound while rendering Excel files to PDF or images.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

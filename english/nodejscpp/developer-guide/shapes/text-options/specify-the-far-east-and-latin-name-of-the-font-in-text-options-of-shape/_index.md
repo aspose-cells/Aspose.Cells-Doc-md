@@ -5,6 +5,8 @@ type: docs
 weight: 1600  
 url: /nodejs-cpp/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/  
 description: Learn how to specify Far East and Latin font names in text options of shapes using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

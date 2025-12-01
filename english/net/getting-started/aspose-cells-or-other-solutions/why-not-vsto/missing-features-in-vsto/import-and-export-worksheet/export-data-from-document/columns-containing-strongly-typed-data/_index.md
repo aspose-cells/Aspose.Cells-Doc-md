@@ -3,6 +3,8 @@ title: Columns Containing Strongly Typed Data
 type: docs
 weight: 20
 url: /net/columns-containing-strongly-typed-data/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (that means all values in a column must have the same data type) then we can export the worksheet content by calling the **ExportDataTable** method of the Cells class. **ExportDataTable** method takes the following parameters to export worksheet data as **DataTable** object: **Row Number** , represents the row number of the first cell from where the data will be exported

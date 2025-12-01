@@ -6,6 +6,8 @@ weight: 360
 url: /nodejs-cpp/detect-if-worksheet-is-password-protected/
 description: Learn how to detect if a worksheet is password protected using Aspose.Cells for Node.js via C++. 
 keywords: Detect Worksheet Password Protection Node.js via C++, Check if Worksheet is Password Protected Node.js via C++, Aspose.Cells for Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

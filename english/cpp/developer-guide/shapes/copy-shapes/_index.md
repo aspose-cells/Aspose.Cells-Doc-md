@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/copy-shapes-between-worksheets/
 description: Learn how to copy shapes, charts, and other drawing objects between worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

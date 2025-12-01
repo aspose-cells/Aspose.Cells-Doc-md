@@ -3,6 +3,8 @@ title: Protect and unProtect Worksheets
 type: docs
 weight: 190
 url: /net/protect-and-unprotect-worksheets-with-vsto/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **VSTO**

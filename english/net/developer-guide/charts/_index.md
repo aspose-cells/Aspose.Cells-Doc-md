@@ -8,6 +8,8 @@ weight: 130
 url: /net/creating-charts/
 description: Create a chart in CSharp for Excel and ODS files.
 keywords: create a chart, make a graph 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Using Sparklines and Settings 3D Format
 type: docs
 weight: 40
 url: /java/using-sparklines-and-settings-3d-format/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Using Sparklines**

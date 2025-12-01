@@ -3,6 +3,8 @@ title: Creating Table Item
 type: docs
 weight: 10
 url: /reportingservices/creating-table-item/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

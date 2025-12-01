@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /python-net/protect-and-unprotect-worksheets/
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

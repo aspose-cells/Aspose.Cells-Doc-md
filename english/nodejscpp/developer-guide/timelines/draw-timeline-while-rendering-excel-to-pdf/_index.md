@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/draw-timeline-while-rendering-excel-to-pdf/  
 description: Manage timelines of Excel files with Aspose.Cells for Node.js via C++.  
 keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365 Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Draw Timeline while rendering Excel to PDF**  

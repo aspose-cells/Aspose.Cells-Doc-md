@@ -3,6 +3,8 @@ title: Aspose.Cells Java For Ruby
 type: docs
 weight: 40
 url: /java/aspose-cells-java-for-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

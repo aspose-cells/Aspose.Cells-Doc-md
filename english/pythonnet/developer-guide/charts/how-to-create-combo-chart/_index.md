@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Combo Chart, Combining Chart Types, 
 type: docs
 weight: 73
 url: /python-net/create-combo-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

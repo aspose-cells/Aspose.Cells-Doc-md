@@ -5,6 +5,8 @@ weight: 100
 url: /net/excel-themes-and-colors/
 description: C# code to use Excel Color Scheme with Aspose.Cells for .NET API
 keywords: C# to Create and Apply Color Schemes, c# programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme, c# how to Use Color Scheme in excel
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Apply and Create Color Scheme in Excel**

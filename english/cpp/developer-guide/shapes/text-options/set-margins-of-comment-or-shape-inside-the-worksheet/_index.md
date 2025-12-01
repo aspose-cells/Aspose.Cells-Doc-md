@@ -5,6 +5,8 @@ type: docs
 weight: 1500  
 url: /cpp/set-margins-of-comment-or-shape-inside-the-worksheet/  
 description: Learn how to set margins of comments or shapes inside a worksheet using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

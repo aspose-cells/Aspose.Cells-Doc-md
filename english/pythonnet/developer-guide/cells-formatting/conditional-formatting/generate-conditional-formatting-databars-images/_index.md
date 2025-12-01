@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Conditional Formatting, Data Bars, I
 type: docs
 weight: 40
 url: /python-net/generate-conditional-formatting-databars-images/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

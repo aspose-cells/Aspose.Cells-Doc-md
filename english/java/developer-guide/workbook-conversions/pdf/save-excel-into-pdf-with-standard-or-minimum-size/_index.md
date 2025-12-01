@@ -3,6 +3,8 @@ title: Save Excel into PDF with Standard or Minimum Size
 type: docs
 weight: 510
 url: /java/save-excel-into-pdf-with-standard-or-minimum-size/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

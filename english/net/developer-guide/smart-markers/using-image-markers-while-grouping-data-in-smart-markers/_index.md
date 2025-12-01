@@ -4,6 +4,8 @@ type: docs
 weight: 30
 url: /net/how-to-use-image-markers-in-smart-markers/
 alias: [/net/using-image-markers-while-grouping-data-in-smart-markers/]
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

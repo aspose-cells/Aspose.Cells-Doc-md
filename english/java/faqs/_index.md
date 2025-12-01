@@ -3,6 +3,8 @@ title: FAQs
 type: docs
 weight: 300
 url: /java/faqs/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## General

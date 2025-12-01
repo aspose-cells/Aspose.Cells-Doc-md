@@ -3,6 +3,8 @@ title: Inserting a WAV file as an Ole Object
 type: docs
 weight: 70
 url: /python-net/inserting-a-wav-file-as-an-ole-object/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/update-power-query-formula-item/
 description: Learn how to update Power Query Formula Items using Aspose.Cells for C++ to modify data source file locations in Excel files.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Usage Scenario**

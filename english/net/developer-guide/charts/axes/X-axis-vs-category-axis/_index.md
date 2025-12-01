@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, X axis, Category axis, difference, usage, prope
 type: docs
 weight: 180
 url: /net/X-axis-vs-category-axis/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

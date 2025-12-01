@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/creating-sparklines/
 description: Create sparkline for Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Insert a sparkline**

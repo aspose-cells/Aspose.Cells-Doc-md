@@ -5,6 +5,8 @@ type: docs
 weight: 500
 url: /cpp/extract-text-from-the-gear-type-smartart-shape/
 description: Learn how to extract text from Gear Type SmartArt shapes in Excel using Aspose.Cells for C++ with step-by-step guidance and code examples.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

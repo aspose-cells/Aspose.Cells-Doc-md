@@ -6,6 +6,8 @@ weight: 410
 url: /nodejs-cpp/detecting-empty-worksheets/  
 description: This article shows you code explaining how to detect empty worksheets of Excel workbooks programmatically using the Node.js API with C++ library.  
 keywords: detect empty worksheet Node.js via C++, find empty excel worksheet Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Check for Populated Cells**

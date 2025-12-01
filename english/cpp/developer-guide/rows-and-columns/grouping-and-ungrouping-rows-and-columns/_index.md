@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/grouping-and-ungrouping-rows-and-columns/
 description: Learn how to group and ungroup rows and columns in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

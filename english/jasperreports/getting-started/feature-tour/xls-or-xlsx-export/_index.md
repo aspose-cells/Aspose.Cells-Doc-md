@@ -3,6 +3,8 @@ title: XLS or XLSX Export
 type: docs
 weight: 20
 url: /jasperreports/xls-or-xlsx-export/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

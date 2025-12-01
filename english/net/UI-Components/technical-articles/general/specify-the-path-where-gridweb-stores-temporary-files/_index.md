@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-gridweb/gridweb-cache-files/
 keywords: GridWeb,cache,session,storage
 description: This article describes the storage in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ### about file cache
 {{% alert color="primary" %}} 

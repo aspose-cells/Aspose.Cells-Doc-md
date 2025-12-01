@@ -5,6 +5,8 @@ type: docs
 weight: 290  
 url: /nodejs-cpp/convert-revision-of-xlsb-to-xlsm/  
 description: Learn how to fully convert revisions of XLSB files into XLSM format using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

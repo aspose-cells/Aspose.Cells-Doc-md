@@ -3,6 +3,8 @@ title: Set the Comment of Table or List Object inside the Worksheet
 type: docs
 weight: 20
 url: /cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

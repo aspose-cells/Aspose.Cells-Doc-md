@@ -3,6 +3,8 @@ title: Aspose.Cells Forms for DNN
 type: docs
 weight: 40
 url: /net/aspose-cells-forms-for-dnn/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

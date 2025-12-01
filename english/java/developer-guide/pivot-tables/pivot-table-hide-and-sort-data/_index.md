@@ -3,6 +3,8 @@ title: Pivot Table Hide and Sort data
 type: docs
 weight: 120
 url: /java/pivot-table-hide-and-sort-data/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table Hide and Sort data**

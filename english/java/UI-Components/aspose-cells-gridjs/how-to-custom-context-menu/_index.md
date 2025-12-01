@@ -10,6 +10,8 @@ aliases:
   - /java/aspose-cells-gridjs/how-to-custom-context-menus/
   - /java/aspose-cells-gridjs/work-with-context-menu/
   - /java/aspose-cells-gridjs/work-with-context-menus/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 # Custom build-in context menus
 We have some build in context menu items ,for example insert/delete row/column and so on.

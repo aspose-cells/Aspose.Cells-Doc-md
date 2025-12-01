@@ -5,6 +5,8 @@ type: docs
 weight: 3200  
 url: /nodejs-cpp/refresh-values-of-linked-shapes/  
 description: Learn how to refresh the values of linked shapes in Excel using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 {{% alert color="primary" %}}  

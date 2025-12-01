@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, WordArt Watermark, Chart Watermark, Microsof
 type: docs  
 weight: 50  
 url: /nodejs-cpp/add-wordart-watermark-to-chart/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

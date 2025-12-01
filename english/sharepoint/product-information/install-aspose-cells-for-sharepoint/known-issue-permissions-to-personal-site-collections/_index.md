@@ -3,6 +3,8 @@ title: Known Issue - Permissions to Personal Site Collections
 type: docs
 weight: 40
 url: /sharepoint/known-issue-permissions-to-personal-site-collections/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

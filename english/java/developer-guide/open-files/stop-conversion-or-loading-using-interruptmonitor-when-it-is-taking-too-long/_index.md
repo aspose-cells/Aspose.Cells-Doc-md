@@ -3,6 +3,8 @@ title: Stop conversion or loading using InterruptMonitor when it is taking too l
 type: docs
 weight: 100
 url: /java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

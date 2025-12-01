@@ -6,6 +6,8 @@ weight: 600
 url: /cpp/how-to-control-workbook-view/
 description: Learn how to control workbook view using the Aspose.Cells for C++ API.
 keywords: How to Control Workbook View, Set Excel View, Operate Workbook View, Set Workbook View, Control Excel View.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

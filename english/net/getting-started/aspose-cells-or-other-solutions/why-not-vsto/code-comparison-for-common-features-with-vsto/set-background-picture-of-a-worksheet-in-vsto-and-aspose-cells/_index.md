@@ -3,6 +3,8 @@ title: Set Background Picture of a Worksheet in VSTO and Aspose.Cells
 type: docs
 weight: 220
 url: /net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To apply a background image to a spreadsheet:

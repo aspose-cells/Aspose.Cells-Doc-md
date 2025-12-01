@@ -3,6 +3,8 @@ title: Setting Pivot Table Option - For Empty Cells Show
 type: docs
 weight: 30
 url: /java/setting-pivot-table-option-for-empty-cells-show/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

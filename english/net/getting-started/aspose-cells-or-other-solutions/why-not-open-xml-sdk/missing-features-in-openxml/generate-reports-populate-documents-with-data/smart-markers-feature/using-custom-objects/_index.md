@@ -3,6 +3,8 @@ title: Using Anonymous Types or Custom Objects in Aspose.Cells
 type: docs
 weight: 30
 url: /net/using-anonymous-types-or-custom-objects-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells also supports anonymous types or custom objects in smart markers. In below example Product class is need to be defined before use.

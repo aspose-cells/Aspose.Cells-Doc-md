@@ -4,6 +4,8 @@ description: Learn how to change theme colors for chart series using Aspose.Cell
 type: docs
 weight: 80
 url: /net/change-theme-colors-for-chart-series/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

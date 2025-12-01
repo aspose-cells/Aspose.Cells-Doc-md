@@ -3,6 +3,8 @@ title: Check Version Number
 type: docs
 weight: 80
 url: /net/check-version-number/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

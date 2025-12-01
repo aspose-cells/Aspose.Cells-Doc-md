@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Read Chart Subtitle, OpenDocument Spreadsheet, O
 type: docs
 weight: 160
 url: /cpp/read-chart-subtitle-from-ods-file/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read Chart Subtitle from ODS File**

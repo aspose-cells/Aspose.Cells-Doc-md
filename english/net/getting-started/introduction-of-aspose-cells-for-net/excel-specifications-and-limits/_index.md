@@ -5,6 +5,8 @@ weight: 40
 url: /net/excel-specifications-and-limits/
 description: In this article, find all workbook, worksheet, and feature specifications and limits. In Excel 2010, the maximum worksheet size is 1,048,576 rows by 16,384 columns.
 keywords: Excel Specifications and Limits, Calculation specifications and limits, Charting specifications and limits, PivotTable and PivotChart report specifications and limits
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Excel Specifications and Limits for Newer versions**

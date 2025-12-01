@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /nodejs-cpp/extract-images-from-worksheets-using-imageorprintoptions/
 description: Learn how to extract images from Excel worksheets and save them using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

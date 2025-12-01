@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/add-pdf-bookmarks-with-named-destinations/
 description: Learn how to add PDF bookmarks with named destinations using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Convert JSON to CSV
 type: docs
 weight: 160
 url: /java/convert-json-to-csv/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells supports converting simple as well as nested JSON to CSV. For this, the API provides [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) and [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) classes. The [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) class provides the options for JSON layout like [**IgnoreArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle)(ignores the title if the array is a property of an object) or [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable)(processes the array as a table). The [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) class processes the JSON using the layout options set with the [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) class.

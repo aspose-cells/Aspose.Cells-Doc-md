@@ -6,6 +6,8 @@ weight: 50
 url: /cpp/get-text-width-of-cell-value/
 description: Learn how to Get Text Width of Cell Value through the Aspose.Cells for C++ API.
 keywords: Get Text Width of Cell Value, Obtain Text Width of Cell Value
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Text Width of Cell Value**

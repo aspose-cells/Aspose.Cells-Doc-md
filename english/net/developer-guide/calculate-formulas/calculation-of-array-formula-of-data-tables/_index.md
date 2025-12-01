@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, data tables, array formulas, calculations
 type: docs
 weight: 70
 url: /net/calculation-of-array-formula-of-data-tables/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

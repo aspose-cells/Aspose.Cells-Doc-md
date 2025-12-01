@@ -3,6 +3,8 @@ title: Copy fragments and worksheets between Workbooks
 type: docs
 weight: 20
 url: /net/copy-fragments-and-worksheets-between-workbooks/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.

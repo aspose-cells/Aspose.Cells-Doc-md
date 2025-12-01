@@ -3,6 +3,8 @@ title: Public API Changes in Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /net/public-api-changes-in-aspose-cells-9-0-0/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 600
 url: /nodejs-cpp/get-cells-range/
 description: Learn how to Get Cells Range through the Aspose.Cells for Node.js via C++ API.
 keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

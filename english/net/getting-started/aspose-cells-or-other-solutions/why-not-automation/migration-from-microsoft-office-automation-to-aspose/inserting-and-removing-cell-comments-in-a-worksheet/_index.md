@@ -3,6 +3,8 @@ title: Inserting and Removing Cell Comments in a Worksheet
 type: docs
 weight: 30
 url: /net/inserting-and-removing-cell-comments-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

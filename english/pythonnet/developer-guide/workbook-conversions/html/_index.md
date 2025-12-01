@@ -3,6 +3,8 @@ title: HTML
 type: docs
 weight: 230
 url: /python-net/convert-excel-to-html/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Converting Excel Workbook to HTML**

@@ -5,6 +5,8 @@ keywords: Dynamic Array Formulas, Dynamic Array Formulas in Excel, Set dynamic a
 type: docs  
 weight: 70  
 url: /cpp/calculation-of-dynamic-array-formulas/  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **What is the Excel Array Formula**  

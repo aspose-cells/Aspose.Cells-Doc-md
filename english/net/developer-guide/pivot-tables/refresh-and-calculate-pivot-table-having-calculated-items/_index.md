@@ -3,6 +3,8 @@ title: Refresh and Calculate Pivot Table having Calculated Items
 type: docs
 weight: 40
 url: /net/refresh-and-calculate-pivot-table-having-calculated-items/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

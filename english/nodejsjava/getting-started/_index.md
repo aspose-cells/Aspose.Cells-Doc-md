@@ -5,6 +5,8 @@ weight: 5
 url: /nodejs-java/getting-started/
 keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via Java and installation guidelines."
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **System Requirements**

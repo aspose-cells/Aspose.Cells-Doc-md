@@ -3,6 +3,8 @@ title: Create a Pie Chart in VSTO and Aspose.Cells
 type: docs
 weight: 80
 url: /net/create-a-pie-chart-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This article compares how to create a pie chart using Office Automation and VSTO to using Aspose.Cells for .NET. The steps for creating a pie chart are:

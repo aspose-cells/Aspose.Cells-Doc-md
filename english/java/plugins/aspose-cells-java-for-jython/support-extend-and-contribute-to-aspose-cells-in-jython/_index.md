@@ -3,6 +3,8 @@ title: Support, Extend and Contribute to Aspose.Cells in Jython
 type: docs
 weight: 30
 url: /java/support-extend-and-contribute-to-aspose-cells-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Support**

@@ -3,6 +3,8 @@ title: Prevent Exporting Hidden Worksheet Contents on Saving to HTML
 type: docs
 weight: 210
 url: /python-net/prevent-exporting-hidden-worksheet-contents-on-saving-to/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

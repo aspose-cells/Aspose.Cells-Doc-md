@@ -6,6 +6,8 @@ weight: 170
 url: /nodejs-cpp/disable-compatibility-checker-in-excel/  
 description: Learn how to disable the compatibility checker through the Aspose.Cells for Node.js via C++ API.  
 keywords: Node.js Disable Compatibility Checker, Excel Disable Compatibility Checker in Node.js via C++, Disable Compatibility Checker in Workbook.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## Disable Compatibility Checker in Excel Worksheets in Node.js  

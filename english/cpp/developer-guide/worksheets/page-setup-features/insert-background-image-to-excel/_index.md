@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /cpp/insert-background-image-to-excel/
 description: "How to insert background image to Excel using Aspose.Cells for C++."
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Getting Started
 type: docs
 weight: 10
 url: /java/aspose-cells-for-android-via-java-features/
+ai_search_scope: cells_androidjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells Android via Java Features Overview**

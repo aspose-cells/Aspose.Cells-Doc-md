@@ -3,6 +3,8 @@ title: Custom sorting in Pivot Table
 type: docs
 weight: 130
 url: /net/custom-sorting-in-pivot-table/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Custom sorting in Pivot Table**

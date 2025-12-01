@@ -3,6 +3,8 @@ title: Working with Spreadsheet in xlsx4j
 type: docs
 weight: 10
 url: /java/working-with-spreadsheet-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  **This section includes the following topics:**

@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/apply-superscript-and-subscript-effects-on-fonts/
 description: The Python code to apply superscript and subscript effect to text in excel with the use of Aspose.Cells for Python via .NET API.
 keywords: excel superscript Python, excel subscript Python, excel superscript and subscript Python, insert subscript and superscript in excel Python, add subscript and superscript in excel Python, add superscript and subscript excel Python, add superscript excel Python, add subscript excel Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

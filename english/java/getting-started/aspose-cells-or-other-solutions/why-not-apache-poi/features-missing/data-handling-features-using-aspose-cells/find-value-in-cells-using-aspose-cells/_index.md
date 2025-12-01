@@ -3,6 +3,8 @@ title: Find Value in Cells using Aspose.Cells
 type: docs
 weight: 10
 url: /java/find-value-in-cells-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Find Value in Cells**

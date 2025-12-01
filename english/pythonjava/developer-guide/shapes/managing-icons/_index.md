@@ -4,6 +4,8 @@ linktitle: Managing Icons
 type: docs
 weight: 101
 url: /python-java/insert-svg-to-excel/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Add Icons to Worksheet in Aspose.Cells for Python via Java

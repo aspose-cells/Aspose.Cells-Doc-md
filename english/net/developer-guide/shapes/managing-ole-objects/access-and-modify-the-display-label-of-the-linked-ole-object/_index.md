@@ -3,6 +3,8 @@ title: Access and Modify the Display Label of the Linked Ole Object
 type: docs
 weight: 100
 url: /net/access-and-modify-the-display-label-of-the-linked-ole-object/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

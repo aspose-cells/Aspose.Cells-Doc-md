@@ -4,6 +4,8 @@ linktitle: Convert XLS File with Images or Charts to PDF
 type: docs
 weight: 50
 url: /nodejs-cpp/convert-xls-file-with-images-or-charts-to-pdf/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

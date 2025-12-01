@@ -5,6 +5,8 @@ weight: 190
 url: /python-net/get-worksheet-unique-id/
 description: This article shows how to get Excel worksheet unique id using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python unique id excel worksheet, Python Get worksheet unique id.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Get worksheet unique id**

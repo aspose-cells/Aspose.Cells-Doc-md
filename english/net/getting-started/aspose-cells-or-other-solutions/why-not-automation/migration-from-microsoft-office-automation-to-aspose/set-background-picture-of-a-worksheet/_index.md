@@ -3,6 +3,8 @@ title: Set Background Picture of a Worksheet
 type: docs
 weight: 90
 url: /net/set-background-picture-of-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

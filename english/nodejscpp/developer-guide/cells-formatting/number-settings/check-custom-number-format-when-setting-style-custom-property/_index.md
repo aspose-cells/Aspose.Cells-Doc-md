@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js libraries, spreadsheets, styling, custom number 
 type: docs
 weight: 170
 url: /nodejs-cpp/check-custom-number-format-when-setting-style-custom-property/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

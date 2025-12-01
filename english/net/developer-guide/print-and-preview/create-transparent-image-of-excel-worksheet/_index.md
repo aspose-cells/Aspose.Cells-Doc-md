@@ -3,6 +3,8 @@ title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 170
 url: /net/create-transparent-image-of-excel-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

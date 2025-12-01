@@ -5,6 +5,8 @@ type: docs
 weight: 50  
 url: /nodejs-cpp/create-pdfbookmarkentry-for-chart-sheet/  
 description: Learn how to create PdfBookmarkEntry for chart sheets using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

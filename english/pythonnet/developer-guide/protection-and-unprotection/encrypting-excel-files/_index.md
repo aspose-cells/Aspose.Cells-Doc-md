@@ -3,6 +3,8 @@ title: Encrypting Excel Files
 type: docs
 weight: 90
 url: /python-net/encrypting-excel-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

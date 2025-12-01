@@ -3,6 +3,8 @@ title: Precedents and Dependents
 type: docs
 weight: 230
 url: /java/precedents-and-dependents/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 140
 url: /net/aspose-cells-gridweb/validate-entire-worksheet-instead-of-only-the-updated-cells/
 keywords: GridWeb,validate,js,client
 description: This article introduces how to validate in client js function in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

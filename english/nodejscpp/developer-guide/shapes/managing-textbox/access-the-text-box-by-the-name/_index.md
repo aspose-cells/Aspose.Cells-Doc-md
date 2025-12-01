@@ -5,6 +5,8 @@ type: docs
 weight: 230
 url: /nodejs-cpp/access-the-text-box-by-the-name/
 description: Learn how to access a text box by name from the collection in Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Access the Text Box by the Name

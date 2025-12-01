@@ -4,6 +4,8 @@ linktitle: Workbook Metadata
 type: docs
 weight: 390
 url: /java/using-workbookmetadata/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

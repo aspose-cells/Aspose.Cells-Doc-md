@@ -5,6 +5,8 @@ weight: 110
 url: /python-net/show-report-filter-pages-option/
 description: This article shows how to show report filter pages option with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Show report filter pages option.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Show report filter pages option**

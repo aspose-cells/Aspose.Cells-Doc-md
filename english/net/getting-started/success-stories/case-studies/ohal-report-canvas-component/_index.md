@@ -3,6 +3,8 @@ title: Ohal Report Canvas Component
 type: docs
 weight: 30
 url: /net/ohal-report-canvas-component/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

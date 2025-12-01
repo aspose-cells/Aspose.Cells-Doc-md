@@ -3,6 +3,8 @@ title: Sort Data in Spreadsheets
 type: docs
 weight: 70
 url: /java/sort-data-in-spreadsheets/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Sort Data in Spreadsheets**

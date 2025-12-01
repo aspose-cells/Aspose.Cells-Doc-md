@@ -3,6 +3,8 @@ title: Printing Workbooks in xlsx4j
 type: docs
 weight: 30
 url: /java/printing-workbooks-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Printing Workbooks**

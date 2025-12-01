@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /cpp/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
 description: Learn how to convert Excel files to PDF/A-1a compliant PDF format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

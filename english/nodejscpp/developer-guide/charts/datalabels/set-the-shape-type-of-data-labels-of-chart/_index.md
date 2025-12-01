@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, data labels, shape types, 
 type: docs
 weight: 110
 url: /nodejs-cpp/set-the-shape-type-of-data-labels-of-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

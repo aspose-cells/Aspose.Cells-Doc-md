@@ -6,6 +6,8 @@ weight: 240
 url: /cpp/get-cell-string-value-with-and-without-formatting/
 description: Learn how to Get Cell String Value with and without Formatting through the Aspose.Cells for C++ API.
 keywords: Get Cell String Value with and without Formatting, Retrieve Cell String Value with and without Formatting, Obtain Cell String Value with and without Formatting
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

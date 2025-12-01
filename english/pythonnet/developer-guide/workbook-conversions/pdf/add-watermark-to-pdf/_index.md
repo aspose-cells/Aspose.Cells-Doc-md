@@ -5,6 +5,8 @@ weight: 9
 url: /python-net/add-watermark-to-pdf/
 description: Learn how to add watermark to pdf with Aspose.Cells for Python via .NET API.
 keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 While converting Excel file to pdf, you may have requirements to add watermark to pdf file. The following examples shows how to add text and image watermark to pdf while rendering to pdf.

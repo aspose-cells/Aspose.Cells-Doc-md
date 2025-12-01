@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-java/limitations-and-api-differences/
 keywords: "nodejs, excel, limitation, api, differences"
 description: "Aspose.Cells for Node.js via Java limitations and api differences."
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Public API Differences**

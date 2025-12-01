@@ -3,6 +3,8 @@ title: Fit All Worksheet Columns on Single PDF Page
 type: docs
 weight: 160
 url: /net/fit-all-worksheet-columns-on-single-pdf-page/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

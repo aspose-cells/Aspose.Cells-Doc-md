@@ -3,6 +3,8 @@ title: Count number of cells in the Worksheet
 type: docs
 weight: 120
 url: /java/count-number-of-cells-in-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Count number of cells in the Worksheet**

@@ -3,6 +3,8 @@ title: Tracing Precedents and Dependents in xlsx4j
 type: docs
 weight: 70
 url: /java/tracing-precedents-and-dependents-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Tracing Precedents and Dependents**

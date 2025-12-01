@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Cells, Fill Settings, Background, Style, Node.js via C++
 type: docs  
 weight: 50  
 url: /nodejs-cpp/cells-fill-settings/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Colors and Background Patterns**  

@@ -3,6 +3,8 @@ title: Conversion Options
 type: docs
 weight: 30
 url: /sharepoint/conversion-options/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

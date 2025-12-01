@@ -3,6 +3,8 @@ title: Aspose.Cells for Java Vs Open Source Competitors
 type: docs
 weight: 1089
 url: /java/aspose-cells-for-java-vs-open-source-competitors/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

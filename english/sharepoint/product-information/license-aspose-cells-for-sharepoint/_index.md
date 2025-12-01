@@ -3,6 +3,8 @@ title: License Aspose.Cells for SharePoint
 type: docs
 weight: 70
 url: /sharepoint/license-aspose-cells-for-sharepoint/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

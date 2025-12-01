@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Chart Titles, Axis Titles, Microsoft Excel, Data
 type: docs
 weight: 50
 url: /cpp/chart-and-axis-titles/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

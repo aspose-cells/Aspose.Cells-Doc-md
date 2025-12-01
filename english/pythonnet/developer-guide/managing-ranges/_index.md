@@ -6,6 +6,8 @@ weight: 105
 url: /python-net/managing-ranges/
 description: This article shows how to manage ranges by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python manage ranges, Create range in Python, Python Put value into the Cells of the Range, Python Set style of the Cells of the Range, Python Get CurrentRegion of the Range.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

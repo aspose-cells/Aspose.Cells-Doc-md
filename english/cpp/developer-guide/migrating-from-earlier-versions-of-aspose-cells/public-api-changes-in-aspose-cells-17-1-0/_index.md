@@ -3,6 +3,8 @@ title: Public API Changes in Aspose.Cells 17.1.0
 type: docs
 weight: 20
 url: /cpp/public-api-changes-in-aspose-cells-17-1-0/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

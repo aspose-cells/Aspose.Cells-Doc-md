@@ -3,6 +3,8 @@ title: Add Group function in Aspose.Cells for Reporting Services Client
 type: docs
 weight: 120
 url: /reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 It sets the Group attributes of table report item through Modify Attributes. The parameters include Type, Name, Level and Hide.

@@ -3,6 +3,8 @@ title: Find if the cell value starts with single quote mark
 type: docs
 weight: 610
 url: /java/find-if-the-cell-value-starts-with-single-quote-mark/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

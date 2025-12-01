@@ -3,6 +3,8 @@ title: Getting Cell Contents
 type: docs
 weight: 10
 url: /net/getting-cell-contents/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Getting Cell Contents**

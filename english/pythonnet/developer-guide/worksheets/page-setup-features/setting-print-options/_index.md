@@ -5,6 +5,8 @@ weight: 40
 url: /python-net/setting-print-options/
 description: This article demonstrates how to programmatically set the Print Options of the Excel Worksheet Page Setup feature using the Aspose.Cells for Python via .NET API. You can set the Print Area, Print Titles and Page Order.
 keywords: Python Excel Library, Python set excel print area, Python set exce print titles, Python how to set excel page order, Python How to Set Print Options, Python How to Set Print Area, Python How to Set Print Titles. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

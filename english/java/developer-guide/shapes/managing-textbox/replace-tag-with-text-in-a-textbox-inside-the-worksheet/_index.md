@@ -3,6 +3,8 @@ title: Replace tag with text in a textbox inside the Worksheet
 type: docs
 weight: 150
 url: /java/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-griddesktop/remove-a-column-from-worksheet/
 keywords: GridDesktop,remove,column,delete,column
 description: This article introduces how to remove column in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

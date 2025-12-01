@@ -3,6 +3,8 @@ title: Create Style object using CellsFactory class
 type: docs
 weight: 1040
 url: /java/create-style-object-using-cellsfactory-class/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Style object using CellsFactory class**

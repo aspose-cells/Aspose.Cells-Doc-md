@@ -3,6 +3,8 @@ title: Retrieve a dictionary of all named ranges in a spreadsheet document
 type: docs
 weight: 120
 url: /net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

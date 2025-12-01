@@ -7,6 +7,8 @@ url: /python-net/using-formulas-or-functions-to-process-data/
 description: Aspose.Cells for Python via .NET can simply get, set and calculate formulas of excel files.
 description: Learn how to Manage formulas of Excel files through the Aspose.Cells for Python via .NET for NET APIs.
 keywords: How to calculate formulas in Python, Formulas and Functions using Python, Python Manage Built-in Functions, How to Use Add-in Functions with Python, How to Use Array Formula via Python, How to Use R1C1 Formula in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

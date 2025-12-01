@@ -6,6 +6,8 @@ linktitle: Chart to Image
 type: docs  
 weight: 46  
 url: /nodejs-cpp/chart-to-image/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Rendering Charts**

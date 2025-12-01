@@ -3,6 +3,8 @@ title: How to Add a Watermark to a Worksheet in Excel
 type: docs
 weight: 50
 url: /cpp/how-to-add-text-or-picture-as-watermark-for-worksheets/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

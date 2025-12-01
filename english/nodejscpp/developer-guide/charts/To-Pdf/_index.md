@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Chart to PDF, Microsoft Excel, PDF C
 type: docs  
 weight: 47  
 url: /nodejs-cpp/chart-to-pdf/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Rendering Chart to PDF**

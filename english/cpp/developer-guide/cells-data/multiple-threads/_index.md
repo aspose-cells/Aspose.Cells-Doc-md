@@ -6,6 +6,8 @@ weight: 1800
 url: /cpp/reading-cell-values-in-multiple-threads-simultaneously/
 description: Learn how to read Cell Values in Multiple Threads Simultaneously through the Aspose.Cells for C++ API.
 keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C++ Multiple Threads, Read data in Multiple Threads
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

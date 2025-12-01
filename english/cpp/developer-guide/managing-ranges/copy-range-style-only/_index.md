@@ -5,6 +5,8 @@ type: docs
 weight: 620
 url: /cpp/copy-range-style-only/
 description: Learn how to copy only the style of a range in Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

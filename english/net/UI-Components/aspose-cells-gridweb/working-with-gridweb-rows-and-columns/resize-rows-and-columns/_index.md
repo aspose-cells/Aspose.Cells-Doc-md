@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-gridweb/resize-rows-and-columns/
 keywords: GridWeb,width,height,row height,column width
 description: This article introduces how to set row height and column width in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

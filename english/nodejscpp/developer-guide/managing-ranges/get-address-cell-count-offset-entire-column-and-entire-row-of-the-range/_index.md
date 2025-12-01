@@ -4,6 +4,8 @@ linktitle: Get Address Cell Count Offset Entire Column and Entire Row of the Ran
 type: docs
 weight: 330
 url: /nodejs-cpp/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ weight: 300
 url: /python-net/calculation-of-excel-2016-minifs-and-maxifs-functions/
 description: Learn how to calculate Excel 2016 MINIFS and MAXIFS functions using Aspose.Cells for Python via .NET API with code examples.
 keywords: python excel, minifs maxifs, formula calculation, aspose.cells
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

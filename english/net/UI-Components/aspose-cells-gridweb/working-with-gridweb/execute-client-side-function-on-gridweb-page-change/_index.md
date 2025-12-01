@@ -5,6 +5,8 @@ weight: 140
 url: /net/aspose-cells-gridweb/execute-client-side-function-on-gridweb-page-change/
 keywords: GridWeb,client,js,javascript,function
 description: This article introduces how to work with client js function in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -7,6 +7,8 @@ type: docs
 weight: 9
 url: /net/convert-chart-to-image-for-chinese-region/
 alias: [/net/set-chinese-configuration-for-chart/]
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

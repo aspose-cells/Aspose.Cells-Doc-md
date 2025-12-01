@@ -3,6 +3,8 @@ title: Calculate or Recalculate formulas dynamically
 type: docs
 weight: 10
 url: /net/calculate-or-recalculate-formulas-dynamically/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Formula calculation** engine is embedded in **Aspose.Cells**. It can not only re-calculate the formula imported from the designer file but also supports to calculate the results of formulas added at runtime.

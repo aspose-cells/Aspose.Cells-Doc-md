@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-gridweb/rebind-worksheet-gridweb/
 keywords: GridWeb,rebind
 description: This article introduce how to rebind worksheet in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

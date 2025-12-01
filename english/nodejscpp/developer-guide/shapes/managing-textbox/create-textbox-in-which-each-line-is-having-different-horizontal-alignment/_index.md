@@ -5,6 +5,8 @@ type: docs
 weight: 310
 url: /nodejs-cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
 description: Learn how to create a TextBox in which each line can have a different horizontal alignment using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

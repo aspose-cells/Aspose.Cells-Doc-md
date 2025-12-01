@@ -5,6 +5,8 @@ type: docs
 weight: 1500
 url: /cpp/customizing-the-ribbon-xml/
 description: Learn how to customize the Ribbon XML in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 85
 url: /nodejs-cpp/how-to-filter-blanks-and-non-blanks/
 description: Learn how to filter Blanks and non-blanks by using the Aspose.Cells for Node.js via C++ API.
 keywords: Filter Blanks, Filter Non-Blanks, Filter Blanks in worksheet, Filter Non-Blanks in worksheet, Filter Blanks in excel, Filter Non-Blanks in excel, Filter Blanks and Non-Blanks in excel
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

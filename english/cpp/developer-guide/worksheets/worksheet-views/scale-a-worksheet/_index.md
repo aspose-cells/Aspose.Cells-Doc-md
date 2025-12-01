@@ -6,6 +6,8 @@ weight: 130
 url: /cpp/how-to-scale-a-worksheet/
 description: This article shows you code explaining how to scale a worksheet using Aspose.Cells library with C++.
 keywords: C++ scale a worksheet, How to Scale a Worksheet using C++, Scale a worksheet in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Progress Bar, create a Progress Bar, add a Prog
 type: docs
 weight: 73
 url: /net/how-to-create-a-progress-bar/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

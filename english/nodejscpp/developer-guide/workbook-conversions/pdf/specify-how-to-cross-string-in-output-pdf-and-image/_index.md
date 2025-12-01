@@ -5,6 +5,8 @@ type: docs
 weight: 120  
 url: /nodejs-cpp/specify-how-to-cross-string-in-output-pdf-and-image/  
 description: Learn to control text overflow in output PDF/Image by specifying the cross type using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Load source excel file without charts
 type: docs
 weight: 750
 url: /java/load-source-excel-file-without-charts/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

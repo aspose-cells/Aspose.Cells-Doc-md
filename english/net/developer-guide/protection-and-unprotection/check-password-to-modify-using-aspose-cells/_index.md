@@ -3,6 +3,8 @@ title: Check Password to modify using Aspose.Cells
 type: docs
 weight: 2400
 url: /net/check-password-to-modify-using-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
 type: docs
 weight: 50
 url: /cpp/cells-fill-settings/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Colors and Background Patterns**

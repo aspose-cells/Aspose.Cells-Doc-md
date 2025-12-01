@@ -5,6 +5,8 @@ weight: 110
 url: /net/aspose-cells-griddesktop/manage-comments-in-a-worksheet/
 keywords: GridDesktop,commment,commments
 description: This article introduces how to work with comment in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

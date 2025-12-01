@@ -5,6 +5,8 @@ weight: 10
 url: /net/different-ways-to-open-files/
 description: This article explains how to open an excel file using Aspose.Cells for .NET API.
 keywords: C# Open an Excel file without Excel, How do I open an Excel File.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

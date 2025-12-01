@@ -8,6 +8,8 @@ description: This article describes how to use the custom calculation engine for
 aliases:
   - /net/aspose-cells-gridjs/customcalculation/
   - /net/aspose-cells-gridjs/work-with-custom-calculation-engine/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Implement Custom Calculation Engine**

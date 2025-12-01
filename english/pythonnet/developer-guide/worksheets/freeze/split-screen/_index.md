@@ -6,6 +6,8 @@ weight: 190
 url: /python-net/how-to-split-screen-of-excel-worksheet
 description: In this article, you'll learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts programmatically using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python Freeze top rows, Python Feeze top row, Python Split worksheet vertically on columns, Python Split worksheet horizontally on rows, Python Split worksheet into four parts Python How to remove split.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

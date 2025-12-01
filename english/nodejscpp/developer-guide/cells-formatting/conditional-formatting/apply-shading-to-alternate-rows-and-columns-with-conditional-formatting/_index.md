@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, Node.js via C++, Alternate Rows,
 type: docs
 weight: 30
 url: /nodejs-cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

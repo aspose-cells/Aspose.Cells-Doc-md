@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/unprotect-a-worksheet/
 description: Learn how to unprotect a worksheet using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/resampling-added-images-excel-to-pdf-conversion/
 description: Learn how to resample added images to reduce PDF size using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

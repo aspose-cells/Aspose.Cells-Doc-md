@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/autofit-rows-for-merged-cells/
 description: This article shows how to AutoFit Rows for Merged Cells through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python How to use AutoFitMergedCellsType for autofitting rows, Autofit Rows for Merged Cells in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

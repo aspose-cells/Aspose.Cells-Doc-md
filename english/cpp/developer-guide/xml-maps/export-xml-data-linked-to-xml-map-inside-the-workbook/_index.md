@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/
 description: Learn how to export XML data linked to XML Maps inside your workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Export XML Data linked to XML Map inside the Workbook**

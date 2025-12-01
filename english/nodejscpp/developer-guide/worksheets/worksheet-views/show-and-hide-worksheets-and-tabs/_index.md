@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/show-and-hide-worksheets-and-tabs/  
 description: This article provides sample code for using the Node.js API or Node.js Library to programmatically display and hide an Excel worksheet. Additionally, how to show and hide Excel workbook tabs.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

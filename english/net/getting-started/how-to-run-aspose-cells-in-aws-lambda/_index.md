@@ -4,6 +4,8 @@ type: docs
 description: "Integrate Aspose.Cells functionality into your application using Docker regardless of what technology is in your development stack. Learn how to use Aspose .Cells in a Docker container."
 weight: 141
 url: /net/how-to-run-aspose-cells-in-aws-lambda/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Prepare AWS environment

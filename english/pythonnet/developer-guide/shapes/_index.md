@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /python-net/insert-shapes/
 description: Manage pictures, oleobject, shapes into Excel files.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

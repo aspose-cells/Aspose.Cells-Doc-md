@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/implement-subtotal-or-grand-total-labels-in-other-languages/
 description: Learn how to implement subtotal and grand total labels in non-English languages using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

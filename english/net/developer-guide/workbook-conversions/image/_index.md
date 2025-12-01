@@ -3,6 +3,8 @@ title: Image
 type: docs
 weight: 300
 url: /net/convert-excel-to-image/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

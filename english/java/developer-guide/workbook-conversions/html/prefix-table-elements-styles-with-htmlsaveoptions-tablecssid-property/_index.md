@@ -3,6 +3,8 @@ title: Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property
 type: docs
 weight: 110
 url: /java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 5000
 url: /cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 description: Learn how to update references in other worksheets while deleting blank columns and rows in a worksheet using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

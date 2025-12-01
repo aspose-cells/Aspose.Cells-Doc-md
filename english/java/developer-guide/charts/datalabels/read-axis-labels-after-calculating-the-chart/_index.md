@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, chart, axis labels, calculation, reading, acces
 type: docs
 weight: 90
 url: /java/read-axis-labels-after-calculating-the-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

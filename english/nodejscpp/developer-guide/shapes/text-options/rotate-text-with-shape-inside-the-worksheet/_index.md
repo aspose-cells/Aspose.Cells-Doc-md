@@ -5,6 +5,8 @@ type: docs
 weight: 1300
 url: /nodejs-cpp/rotate-text-with-shape-inside-the-worksheet/
 description: Learn how to rotate text with shape inside an Excel worksheet using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

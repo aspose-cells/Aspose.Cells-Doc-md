@@ -6,6 +6,8 @@ weight: 200
 url: /cpp/add-signature-line/
 description: This article describes how to add a signature line to the worksheet using C++ codes with Aspose.Cells for C++.
 keywords: Add Signature line to the worksheet, How to Add Signature line to the worksheet, How to Add Signature Line to Worksheet, How to add the signature line of the worksheet.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

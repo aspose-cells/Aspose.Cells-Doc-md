@@ -3,6 +3,8 @@ title: Group Rows and Columns of Worksheet
 type: docs
 weight: 40
 url: /cpp/group-rows-and-columns-of-worksheet/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

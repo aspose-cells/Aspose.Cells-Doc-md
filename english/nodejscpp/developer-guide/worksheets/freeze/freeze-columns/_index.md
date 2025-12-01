@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/how-to-freeze-columns-of-excel-worksheet  
 description: Learn how to freeze left columns of Excel Worksheets programmatically using Aspose.Cells for Node.js via C++.  
 keywords: Freeze left columns, Freeze first columns, Lock the column(s)  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

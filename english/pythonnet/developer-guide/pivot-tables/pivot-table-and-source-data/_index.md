@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/pivot-table-and-source-data/
 description: This article shows how to change the source data of pivot table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, How to Change Pivot Table's Source Data Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table's Source Data**

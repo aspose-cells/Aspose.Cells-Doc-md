@@ -5,6 +5,8 @@ type: docs
 weight: 170
 url: /java/create-timeline/
 description: Learn how to create a timeline with Aspose.Cells For java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

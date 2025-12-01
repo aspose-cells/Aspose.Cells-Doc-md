@@ -5,6 +5,8 @@ weight: 10
 url: /net/how-to-add-camera-for-range/
 description: This article will introduce how to add camera for range content Aspose.Cells for .NET API.
 keywords: How to Use Camera Function, How to add Camera for range content, How to Use Camera tool, Camera Function in Excel, How to Use Camera Function in Aspose.Cells for .NET
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

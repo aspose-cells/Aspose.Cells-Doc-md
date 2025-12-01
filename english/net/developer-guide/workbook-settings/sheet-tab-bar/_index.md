@@ -5,6 +5,8 @@ weight: 600
 url: /net/how-to-control-sheet-tab-bar/
 description: Learn how to How to Control Control Sheet Tab Bar through the Aspose.Cells for .NET API.
 keywords: How to Control Sheet Tab Bar, Operate Sheet Tab Bar, Set Sheet Tab Bar, Control Sheet Tab Bar. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

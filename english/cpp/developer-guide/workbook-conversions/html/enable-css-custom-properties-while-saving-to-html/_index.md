@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /cpp/enable-css-custom-properties-while-saving-to-html/
 description: Learn how to enable CSS custom properties while saving Excel files to HTML using Aspose.Cells for C++. Improve performance by reducing redundant image data.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

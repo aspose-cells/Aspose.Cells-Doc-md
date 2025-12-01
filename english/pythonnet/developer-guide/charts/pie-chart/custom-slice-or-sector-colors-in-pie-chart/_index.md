@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Pie Chart, Custom Slice Colors, Cust
 type: docs
 weight: 60
 url: /python-net/custom-slice-or-sector-colors-in-pie-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

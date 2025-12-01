@@ -3,6 +3,8 @@ title: Render Office Add-Ins while converting Excel to PDF
 type: docs
 weight: 90
 url: /java/render-office-add-ins-while-converting-excel-to-pdf/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

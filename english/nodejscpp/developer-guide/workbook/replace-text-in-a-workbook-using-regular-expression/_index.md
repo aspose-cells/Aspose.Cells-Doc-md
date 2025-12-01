@@ -5,6 +5,8 @@ type: docs
 weight: 90  
 url: /nodejs-cpp/replace-text-in-a-workbook-using-regular-expression/  
 description: Replace text in a workbook using regular expression in Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 Aspose.Cells provides the feature to replace text in a workbook using a regular expression. For this, the API provides [**ReplaceOptions.getRegexKey()**](https://reference.aspose.com/cells/nodejs-cpp/replaceoptions/#getRegexKey--) property of the [**ReplaceOptions**](https://reference.aspose.com/cells/nodejs-cpp/replaceoptions) class. Setting the [**ReplaceOptions.getRegexKey()**](https://reference.aspose.com/cells/nodejs-cpp/replaceoptions/#getRegexKey--) to **true** indicates that the searched key will be a regular expression.

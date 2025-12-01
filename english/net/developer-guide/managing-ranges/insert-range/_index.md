@@ -3,6 +3,8 @@ title: Insert Ranges
 type: docs
 weight: 105
 url: /net/insert-ranges-to-Excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

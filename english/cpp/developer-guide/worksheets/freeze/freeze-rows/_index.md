@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/how-to-freeze-rows-of-excel-worksheet
 description: In this article, you will learn how to freeze top rows of Excel Worksheets programmatically using C++ Library with Aspose.Cells API.
 keywords: Freeze top rows, Freeze top row.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

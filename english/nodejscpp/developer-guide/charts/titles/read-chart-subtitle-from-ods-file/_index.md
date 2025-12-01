@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Read Chart Subtitle, OpenDocument Sp
 type: docs
 weight: 160
 url: /nodejs-cpp/read-chart-subtitle-from-ods-file/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read Chart Subtitle from ODS File**

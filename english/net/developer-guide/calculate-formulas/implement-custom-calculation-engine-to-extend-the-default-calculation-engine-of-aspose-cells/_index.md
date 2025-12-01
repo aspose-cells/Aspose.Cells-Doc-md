@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, Custom Calculation Engine, extends the default ca
 type: docs
 weight: 80
 url: /net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Implement Custom Calculation Engine**

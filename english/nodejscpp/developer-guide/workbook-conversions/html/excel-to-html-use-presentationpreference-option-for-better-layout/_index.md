@@ -4,6 +4,8 @@ linktitle: Excel to HTML - Use PresentationPreference Option for Better Layout
 type: docs
 weight: 220
 url: /nodejs-cpp/excel-to-html-use-presentationpreference-option-for-better-layout/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

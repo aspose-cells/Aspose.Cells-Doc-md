@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, 1904 date system, spreadsheet, calcu
 type: docs
 weight: 7000
 url: /python-net/implement-1904-date-system/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Unprotect a Worksheet in Ruby
 type: docs
 weight: 20
 url: /java/unprotect-a-worksheet-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Unprotect a Worksheet**

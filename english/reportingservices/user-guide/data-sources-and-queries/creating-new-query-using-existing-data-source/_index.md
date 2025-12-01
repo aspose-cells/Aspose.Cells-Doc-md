@@ -3,6 +3,8 @@ title: Creating New Query Using Existing Data Source
 type: docs
 weight: 30
 url: /reportingservices/creating-new-query-using-existing-data-source/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To create a new query using an existing data source:

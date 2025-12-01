@@ -5,6 +5,8 @@ weight: 7000
 url: /java/finding-absolute-position-of-shape-inside-the-worksheet/
 description: Learn how to Find Absolute Position of Shape inside the Worksheet through the Aspose.Cells for Java APIs.
 keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

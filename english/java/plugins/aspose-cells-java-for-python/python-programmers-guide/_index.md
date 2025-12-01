@@ -3,6 +3,8 @@ title: Python Programmers Guide
 type: docs
 weight: 20
 url: /java/python-programmers-guide/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section shows different examples of Aspose.Cells Java Apis in Python using JPype.

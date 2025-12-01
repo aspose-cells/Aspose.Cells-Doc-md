@@ -3,6 +3,8 @@ title: Using Data Sources and Queries Created in Visual Studio
 type: docs
 weight: 10
 url: /reportingservices/using-data-sources-and-queries-created-in-visual-studio/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

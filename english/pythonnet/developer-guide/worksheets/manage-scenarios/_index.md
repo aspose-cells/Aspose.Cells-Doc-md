@@ -6,6 +6,8 @@ weight: 190
 url: /python-net/create-manipulate-or-remove-scenarios-from-worksheets/
 description: Learn how to create, modify, and delete scenarios in Excel worksheets programmatically using Aspose.Cells for Python via .NET API.
 keywords: Python Excel scenarios, manage worksheet scenarios Python, add scenario Python, remove scenario Excel Python, modify scenarios Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/remove-pivot-connection/
 description: Learn how to remove pivot connection using Aspose.Cells for Node.js via C++.
 keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365 Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

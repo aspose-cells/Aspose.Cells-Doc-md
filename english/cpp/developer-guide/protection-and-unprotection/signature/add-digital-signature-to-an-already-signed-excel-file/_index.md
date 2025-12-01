@@ -6,6 +6,8 @@ weight: 20
 url: /cpp/add-digital-signature-to-an-already-signed-excel-file/
 description: Learn how to add digital signatures to signed Excel files using Aspose.Cells for C++. Maintain document integrity with multiple signatures.
 keywords: Add Digital Signature to an already signed Excel file, C++ digital signatures, Excel document security
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

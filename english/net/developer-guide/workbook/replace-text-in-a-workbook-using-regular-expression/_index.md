@@ -3,6 +3,8 @@ title: Replace text in a workbook using Regular Expression
 type: docs
 weight: 90
 url: /net/replace-text-in-a-workbook-using-regular-expression/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides the feature to replace text in a workbook using a regular expression. For this, the API provides [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) property of the [**ReplaceOptions**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions) class. Setting the [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) to **true** indicates that the searched key will be a regular expression.

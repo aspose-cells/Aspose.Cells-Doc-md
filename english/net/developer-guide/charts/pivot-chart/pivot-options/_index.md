@@ -6,6 +6,8 @@ weight: 10
 url: /net/how-to-manage-pivotchart-with-pivotoptions/
 description: How to manage PivotChart with PivotOptions.
 keywords: PivotChart
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## What is PivotChart
 

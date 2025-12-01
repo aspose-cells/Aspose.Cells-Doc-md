@@ -6,6 +6,8 @@ weight: 110
 url: /nodejs-cpp/support-for-xades-signature/  
 description: This article describes support for XAdES Signature using Node.js via C++ with Aspose.Cells.  
 keywords: Support for XAdES Signature Node.js via C++, How to sign Excel with XAdES Signature Node.js via C++, How to add XAdES signature Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Introduction**  

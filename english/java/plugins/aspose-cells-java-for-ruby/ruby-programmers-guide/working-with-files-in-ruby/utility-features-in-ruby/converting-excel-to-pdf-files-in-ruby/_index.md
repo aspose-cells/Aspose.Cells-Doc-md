@@ -3,6 +3,8 @@ title: Converting Excel to PDF Files in Ruby
 type: docs
 weight: 30
 url: /java/converting-excel-to-pdf-files-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Excel to PDF Files**

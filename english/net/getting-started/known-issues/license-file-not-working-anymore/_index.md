@@ -3,6 +3,8 @@ title: License File Not Working Anymore
 type: docs
 weight: 60
 url: /net/license-file-not-working-anymore/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Symptom**

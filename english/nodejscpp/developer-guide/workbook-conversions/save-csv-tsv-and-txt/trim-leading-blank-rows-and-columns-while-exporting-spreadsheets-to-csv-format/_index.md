@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 description: Learn how to trim leading blank rows and columns when exporting spreadsheets to CSV format using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

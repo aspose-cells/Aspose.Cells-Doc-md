@@ -5,6 +5,8 @@ keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom format patt
 type: docs
 weight: 110
 url: /net/specifying-dbnum-custom-pattern-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

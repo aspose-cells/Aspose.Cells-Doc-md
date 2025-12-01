@@ -3,6 +3,8 @@ title: Avoid exponential notation of large numbers while importing from HTML
 type: docs
 weight: 600
 url: /java/avoid-exponential-notation-of-large-numbers-while-importing-from/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Display or Hide Scroll Bars in Ruby
 type: docs
 weight: 30
 url: /java/display-or-hide-scroll-bars-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display or Hide Scroll Bars**

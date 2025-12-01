@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Excel File, Theme Data, Style, Forma
 type: docs
 weight: 120
 url: /python-net/extract-theme-data-from-excel-file/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Installing and Using Aspose.Cells for IntelliJ IDEA - Maven
 type: docs
 weight: 10
 url: /java/installing-and-using-aspose-cells-for-intellij-idea-maven/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Installing**

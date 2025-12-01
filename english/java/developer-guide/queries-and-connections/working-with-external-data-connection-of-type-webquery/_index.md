@@ -3,6 +3,8 @@ title: Working with External Data Connection of type WebQuery
 type: docs
 weight: 430
 url: /java/working-with-external-data-connection-of-type-webquery/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 250
 url: /cpp/working-with-the-threedformat-of-shape-or-chart/
 description: Learn how to manipulate the 3-D Format of shapes or charts using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

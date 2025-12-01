@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, charting, dynamic charts, data, series, form
 type: docs  
 weight: 240  
 url: /nodejs-cpp/create-dynamic-charts/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

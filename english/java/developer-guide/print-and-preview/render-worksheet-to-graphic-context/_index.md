@@ -3,6 +3,8 @@ title: Render Worksheet to Graphic Context
 type: docs
 weight: 300
 url: /java/render-worksheet-to-graphic-context/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

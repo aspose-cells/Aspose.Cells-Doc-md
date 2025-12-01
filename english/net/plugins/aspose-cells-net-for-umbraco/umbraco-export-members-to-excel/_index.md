@@ -3,6 +3,8 @@ title: Umbraco Export Members to Excel
 type: docs
 weight: 10
 url: /net/umbraco-export-members-to-excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

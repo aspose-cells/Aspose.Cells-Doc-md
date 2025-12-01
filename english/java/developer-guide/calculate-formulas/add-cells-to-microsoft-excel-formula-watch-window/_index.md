@@ -3,6 +3,8 @@ title: Add Cells to Microsoft Excel Formula Watch Window
 type: docs
 weight: 20
 url: /java/add-cells-to-microsoft-excel-formula-watch-window/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Evaluate Aspose.Cells
 type: docs
 weight: 40
 url: /python-java/evaluate-aspose-cells/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

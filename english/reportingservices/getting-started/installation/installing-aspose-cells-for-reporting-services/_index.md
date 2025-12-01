@@ -3,6 +3,8 @@ title: Installing Aspose.Cells for Reporting Services
 type: docs
 weight: 20
 url: /reportingservices/installing-aspose-cells-for-reporting-services/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics:

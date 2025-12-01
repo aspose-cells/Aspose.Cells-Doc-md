@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/format-number-to-date/
 description: This article will introduce how to format number to date using Aspose.Cells for Node.js via C++ API.
 keywords: format number as date, cell number settings, format number to date, date settings, date format.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

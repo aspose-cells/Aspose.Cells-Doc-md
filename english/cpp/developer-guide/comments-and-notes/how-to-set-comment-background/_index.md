@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/how-to-set-comment-background/
 description: How to change color in comment in Excel. How to insert picture or image in comment in Excel using C++.
 keywords: add inset picture image color comment background excel
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

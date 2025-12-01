@@ -5,6 +5,8 @@ weight: 90
 url: /net/aspose-cells-griddesktop/manage-hyperlinks-in-a-worksheet/
 keywords: GridDesktop,hyper,link,hyperlink,hyperlinks
 description: This article introduces how to work with hyperlink in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

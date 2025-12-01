@@ -5,6 +5,8 @@ type: docs
 weight: 260
 url: /cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
 description: Learn how to change the font of specific Unicode characters while saving to PDF using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

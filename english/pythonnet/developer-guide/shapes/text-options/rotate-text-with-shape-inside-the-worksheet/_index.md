@@ -3,6 +3,8 @@ title: Rotate Text with Shape inside the Worksheet
 type: docs
 weight: 1300
 url: /python-net/rotate-text-with-shape-inside-the-worksheet/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

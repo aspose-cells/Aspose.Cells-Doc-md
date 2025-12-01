@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /nodejs-cpp/check-if-vba-project-in-a-workbook-is-signed/
 description: Learn how to check if a VBA project in a workbook is signed using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

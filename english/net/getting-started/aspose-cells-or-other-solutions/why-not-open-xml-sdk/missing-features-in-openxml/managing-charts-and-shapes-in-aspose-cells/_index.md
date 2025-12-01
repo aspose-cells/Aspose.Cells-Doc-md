@@ -3,6 +3,8 @@ title: Managing Charts and Shapes in Aspose.Cells
 type: docs
 weight: 60
 url: /net/managing-charts-and-shapes-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section includes the following topics:

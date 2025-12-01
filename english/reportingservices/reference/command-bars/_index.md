@@ -3,6 +3,8 @@ title: Command Bars
 type: docs
 weight: 10
 url: /reportingservices/command-bars/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The following table shows the command bars icons and tools on Aspose.Cells.Report.Designer add-in's toolbar.

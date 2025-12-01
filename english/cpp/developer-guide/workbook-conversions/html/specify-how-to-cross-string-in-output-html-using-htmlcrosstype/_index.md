@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 description: Learn how to control string overflow in HTML output using Aspose.Cells for C++ with HtmlCrossType.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

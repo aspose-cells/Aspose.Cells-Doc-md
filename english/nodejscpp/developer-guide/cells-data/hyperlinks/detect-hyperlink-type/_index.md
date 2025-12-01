@@ -5,6 +5,8 @@ weight: 160
 url: /nodejs-cpp/detect-hyperlink-type/
 description: Learn how to detect hyperlink type through the Aspose.Cells for Node.js via C++ API.
 keywords: Detect hyperlink type Node.js via C++, Detect the type of hyperlink Node.js via C++, Get the type of hyperlink Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Detect Hyperlink Type**

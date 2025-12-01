@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/setting-formula-for-named-range/
 description: Learn how to set formulas for named ranges in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Formula for Named Range**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Filtering Charts in Excel, Data Analysis, Decis
 type: docs
 weight: 2210
 url: /net/filtering-charts-in-excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

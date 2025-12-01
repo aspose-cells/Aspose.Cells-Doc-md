@@ -3,6 +3,8 @@ title: Add Footer to a document
 type: docs
 weight: 70
 url: /sharepoint/add-footer-to-a-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 If you want to add footer in an Excel file, please choose “Add Footer with Aspose.Cells” option in the document’s Edit Control Block (ECB).

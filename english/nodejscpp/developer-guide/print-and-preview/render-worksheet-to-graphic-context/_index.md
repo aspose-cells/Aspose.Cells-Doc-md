@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /nodejs-cpp/render-worksheet-to-graphic-context/
 description: Learn how to render a worksheet to graphic context using Aspose.Cells for Node.js via C++. This includes rendering to image files, screens, and printers.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

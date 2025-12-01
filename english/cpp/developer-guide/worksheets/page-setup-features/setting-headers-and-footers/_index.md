@@ -6,6 +6,8 @@ weight: 30
 url: /cpp/setting-headers-and-footers/
 description: This article explains how to programmatically insert an image in the header and footer of Excel worksheets by setting the header and footer with script commands using the C++ API or Library.
 keywords: insert image in excel header footer c++, set excel header footer script commands c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

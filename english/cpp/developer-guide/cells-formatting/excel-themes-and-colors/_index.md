@@ -6,6 +6,8 @@ weight: 100
 url: /cpp/excel-themes-and-colors/
 description: C++ code to use Excel Color Scheme with Aspose.Cells for C++ API
 keywords: C++ to Create and Apply Color Schemes, C++ programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme, C++ how to Use Color Scheme in excel
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Apply and Create Color Scheme in Excel**

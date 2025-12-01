@@ -6,6 +6,8 @@ weight: 45
 url: /nodejs-cpp/insert-hyperlinks-to-excel/
 description: How to insert hyperlinks into Excel file with Aspose.Cells library without MS Excel using Node.js via C++.
 keywords: Insert Hyperlinks into Excel Node.js via C++, Add or Insert Hyperlinks Node.js via C++, Add or Insert link to a URL Node.js via C++, Add or Insert a Link to a Cell Node.js via C++, Add a Link to an External File Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

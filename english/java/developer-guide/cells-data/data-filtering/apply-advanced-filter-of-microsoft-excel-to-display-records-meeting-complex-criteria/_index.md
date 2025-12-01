@@ -3,6 +3,8 @@ title: Apply Advanced Filter of Microsoft Excel to Display Records Meeting Compl
 type: docs
 weight: 190
 url: /java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

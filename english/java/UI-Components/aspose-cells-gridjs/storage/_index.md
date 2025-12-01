@@ -8,6 +8,8 @@ keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 aliases:
   - /java/aspose-cells-gridjs/storage-introduction/
   - /java/aspose-cells-gridjs/work-with-storage/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

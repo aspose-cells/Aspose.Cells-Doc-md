@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
 type: docs
 weight: 80
 url: /net/detect-merged-cells-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

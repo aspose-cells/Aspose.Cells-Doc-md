@@ -5,6 +5,8 @@ weight: 60
 url: /python-net/remove-existing-printersettings-of-worksheets-in-excel-file/
 description: In this article, you will learn how to remove existing PrinterSettings of Worksheet inside the Excel file through Page Setup object programmatically with sample code using Aspose.Cells for Python Excel Library.
 keywords: Python Excel Library, Python remove printer settings of worksheet, Python remove printer settings of excel worksheet.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

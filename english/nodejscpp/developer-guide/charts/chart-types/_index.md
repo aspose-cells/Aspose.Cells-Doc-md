@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, charting, chart types, supported, creation, 
 type: docs
 weight: 5
 url: /nodejs-cpp/chart-types/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

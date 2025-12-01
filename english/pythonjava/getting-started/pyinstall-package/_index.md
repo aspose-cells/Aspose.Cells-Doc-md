@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /python-java/pyinstaller-python/
 description: Package python code to exe via pyinstaller.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **What is PyInstaller used for?**

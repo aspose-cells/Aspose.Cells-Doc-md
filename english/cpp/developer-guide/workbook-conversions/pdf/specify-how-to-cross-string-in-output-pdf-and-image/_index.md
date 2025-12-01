@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/specify-how-to-cross-string-in-output-pdf-and-image/
 description: Learn how to control text overflow in PDF and image outputs using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

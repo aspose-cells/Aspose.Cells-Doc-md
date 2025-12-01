@@ -5,6 +5,8 @@ type: docs
 weight: 260
 url: /nodejs-cpp/add-activex-controls-using-aspose-cells/
 description: Learn how to add ActiveX controls in a worksheet using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

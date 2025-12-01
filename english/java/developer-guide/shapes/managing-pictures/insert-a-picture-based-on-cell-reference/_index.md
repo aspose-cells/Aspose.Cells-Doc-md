@@ -3,6 +3,8 @@ title: Insert a Picture based on Cell Reference
 type: docs
 weight: 90
 url: /java/insert-a-picture-based-on-cell-reference/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

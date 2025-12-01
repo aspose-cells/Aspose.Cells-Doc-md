@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/autofit-rows-and-columns/
 description: This article shows how to autoFit rows, columns, rows of merged cells and row in a range of cells by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Autofit rows, Python autofit columns, Python autofit row in a range of cells, Python autofit rows of merged cells.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

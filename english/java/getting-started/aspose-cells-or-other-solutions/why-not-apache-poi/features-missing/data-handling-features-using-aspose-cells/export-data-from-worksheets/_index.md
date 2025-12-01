@@ -3,6 +3,8 @@ title: Export Data from Worksheets
 type: docs
 weight: 40
 url: /java/export-data-from-worksheets/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Export Data from Worksheets**

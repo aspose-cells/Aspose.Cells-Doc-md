@@ -3,6 +3,8 @@ title: Save Workbook to Strict Open XML Spreadsheet Format
 type: docs
 weight: 150
 url: /python-net/save-workbook-to-strict-open-xml-spreadsheet-format/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

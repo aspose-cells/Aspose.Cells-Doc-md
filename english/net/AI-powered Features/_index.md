@@ -5,6 +5,8 @@ weight: 200
 url: /net/ai-powered-features/
 keywords: AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI.
 description: This article is a Step-by-Step guide to use AI-powered features for processing spreadsheet files.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

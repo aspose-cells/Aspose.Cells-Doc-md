@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-griddesktop/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
 keywords: copy,paste,GridPasteType
 description: This article describes how to use the GridPasteType to do copy paste operation in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

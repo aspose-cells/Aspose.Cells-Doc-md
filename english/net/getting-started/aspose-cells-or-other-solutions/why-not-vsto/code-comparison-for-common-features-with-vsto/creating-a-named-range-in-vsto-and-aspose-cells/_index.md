@@ -3,6 +3,8 @@ title: Creating a Named Range in VSTO and Aspose.Cells
 type: docs
 weight: 90
 url: /net/creating-a-named-range-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To create a named range:

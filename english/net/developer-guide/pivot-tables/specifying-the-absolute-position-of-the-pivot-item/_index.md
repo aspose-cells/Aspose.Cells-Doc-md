@@ -3,6 +3,8 @@ title: Specifying the Absolute Position of the Pivot Item
 type: docs
 weight: 50
 url: /net/specifying-the-absolute-position-of-the-pivot-item/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

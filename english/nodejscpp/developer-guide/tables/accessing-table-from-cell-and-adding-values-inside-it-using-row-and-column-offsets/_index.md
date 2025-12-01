@@ -4,6 +4,8 @@ linktitle: Accessing Table from Cell and Adding Values inside it using Row and C
 type: docs  
 weight: 230  
 url: /nodejs-cpp/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

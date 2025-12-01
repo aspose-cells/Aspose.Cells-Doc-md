@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/managing-shape-text-options/
 description: Learn how to manage shape text options programmatically using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

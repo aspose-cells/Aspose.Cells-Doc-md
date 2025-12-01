@@ -3,6 +3,8 @@ title: Aspose.Cells Java for PHP
 type: docs
 weight: 80
 url: /java/aspose-cells-java-for-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction to Aspose.Cells Java for PHP**

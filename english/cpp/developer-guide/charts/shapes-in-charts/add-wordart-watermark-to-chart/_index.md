@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, WordArt Watermark, Chart Watermark, Microsoft Ex
 type: docs
 weight: 50
 url: /cpp/add-wordart-watermark-to-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

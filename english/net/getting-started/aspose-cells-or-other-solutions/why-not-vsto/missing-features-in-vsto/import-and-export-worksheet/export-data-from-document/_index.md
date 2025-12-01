@@ -3,6 +3,8 @@ title: Export data from document
 type: docs
 weight: 10
 url: /net/export-data-from-document/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also allow them to export their worksheet data to a **DataTable**. As we know that **DataTable** is the part of ADO.NET and is used to hold data. Once the data is stored in a **DataTable**, it can be used in any way according to the requirements of users.

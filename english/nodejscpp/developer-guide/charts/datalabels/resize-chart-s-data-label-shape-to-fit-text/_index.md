@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, data labels, shape resizin
 type: docs  
 weight: 220  
 url: /nodejs-cpp/resize-chart-s-data-label-shape-to-fit-text/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

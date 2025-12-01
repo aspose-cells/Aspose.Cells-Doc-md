@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /nodejs-cpp/load-specific-worksheets-in-a-workbook/
 description: Learn how to load specific worksheets in a workbook using Aspose.Cells for Node.js via C++. Improve performance and reduce memory consumption.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
 keywords: GridWeb,copy
 description: This article introduces how to copy rows and columns in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ type: docs
 weight: 230
 url: /cpp/convert-excel-to-html/
 description: Convert Excel to HTML and MHTML format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Converting Excel Workbook to HTML**

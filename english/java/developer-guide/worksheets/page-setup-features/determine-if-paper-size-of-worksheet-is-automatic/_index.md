@@ -3,6 +3,8 @@ title: Determine if Paper Size of Worksheet is Automatic
 type: docs
 weight: 20
 url: /java/determine-if-paper-size-of-worksheet-is-automatic/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Remove White Spaces from the Data before Rendering to Image
 type: docs
 weight: 270
 url: /java/remove-white-spaces-from-the-data-before-rendering-to-image/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

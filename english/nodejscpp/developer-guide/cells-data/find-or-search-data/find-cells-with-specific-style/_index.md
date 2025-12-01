@@ -5,6 +5,8 @@ weight: 190
 url: /nodejs-cpp/find-cells-with-specific-style/
 description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for Node.js via C++ API.
 keywords: Find cells with a particular style applied Node.js via C++, Search cells with a particular style applied Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

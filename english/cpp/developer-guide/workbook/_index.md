@@ -6,6 +6,8 @@ weight: 60
 url: /cpp/managing-workbooks-and-worksheets/
 description: Learn how to Manage Workbook through the Aspose.Cells for C++ APIs.
 keywords: How to Manage Workbook in C++, Manage Workbook and worksheets using C++, Operate workbook and worksheets in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

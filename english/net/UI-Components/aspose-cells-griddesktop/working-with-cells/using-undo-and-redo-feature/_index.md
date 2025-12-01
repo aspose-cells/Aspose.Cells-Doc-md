@@ -5,6 +5,8 @@ weight: 120
 url: /net/aspose-cells-griddesktop/use-undo-and-redo-feature/
 keywords: GridDesktop,undo,redo
 description: This article introduces undo and redo feature in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

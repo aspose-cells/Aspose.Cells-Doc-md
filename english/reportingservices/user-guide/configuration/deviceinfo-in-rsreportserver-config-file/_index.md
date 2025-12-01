@@ -3,6 +3,8 @@ title: DeviceInfo in rsreportserver.config file
 type: docs
 weight: 70
 url: /reportingservices/deviceinfo-in-rsreportserver-config-file/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The DeviceInfo section in **rsreportserver.config** takes the following parameters that affects Aspose.Cells' behavior:

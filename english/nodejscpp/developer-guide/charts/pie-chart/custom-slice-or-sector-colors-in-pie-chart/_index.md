@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Pie Chart, Custom Slice Colors, Cust
 type: docs
 weight: 60
 url: /nodejs-cpp/custom-slice-or-sector-colors-in-pie-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

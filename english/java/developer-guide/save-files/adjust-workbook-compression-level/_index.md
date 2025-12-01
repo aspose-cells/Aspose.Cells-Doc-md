@@ -3,6 +3,8 @@ title: Adjust workbook compression level
 type: docs
 weight: 130
 url: /java/adjust-workbook-compression-level/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adjust workbook compression level**

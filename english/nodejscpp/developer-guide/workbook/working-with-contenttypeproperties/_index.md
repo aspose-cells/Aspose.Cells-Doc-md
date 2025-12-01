@@ -5,6 +5,8 @@ type: docs
 weight: 150  
 url: /nodejs-cpp/working-with-contenttypeproperties/  
 description: Learn how to work with custom ContentTypeProperties in Excel files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 Aspose.Cells provides [**Workbook.getContentTypeProperties()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getContentTypeProperties--) method to add custom ContentTypeProperties to an Excel file. You may also make the property optional by setting the [**ContentTypeProperty.isNillable()**](https://reference.aspose.com/cells/nodejs-cpp/contenttypeproperty/#isNillable--) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an Excel file. The following image shows both properties that were added by the sample code.

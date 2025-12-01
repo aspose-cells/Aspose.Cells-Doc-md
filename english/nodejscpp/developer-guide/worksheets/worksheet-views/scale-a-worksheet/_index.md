@@ -6,6 +6,8 @@ weight: 130
 url: /nodejs-cpp/how-to-scale-a-worksheet/
 description: This article shows you code explaining how to scale a worksheet using Aspose.Cells for Node.js via C++.
 keywords: Node.js scale a worksheet, How to Scale a Worksheet using Node.js via C++, Scale a worksheet in Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

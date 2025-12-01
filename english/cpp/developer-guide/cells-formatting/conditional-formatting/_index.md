@@ -6,6 +6,8 @@ weight: 60
 url: /cpp/conditional-formatting/
 description: How to apply conditional formats to Excel and ODS files in C++.
 keywords: apply conditional formats 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

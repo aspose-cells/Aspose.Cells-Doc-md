@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /cpp/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/
 description: Learn to render gradient fill for WordArt while converting spreadsheets to HTML with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

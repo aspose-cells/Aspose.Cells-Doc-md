@@ -3,6 +3,8 @@ title: Check if Digital Signature of VBA Code is Valid
 type: docs
 weight: 120
 url: /net/check-if-digital-signature-of-vba-code-is-valid/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,8 @@ linktitle: export equation
 type: docs
 weight: 100
 url: /net/export-equation/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, then Aspose.Cell library can meet your needs. The following content introduces some methods on how to export Excel formulas to other formats, I hope these methods will be helpful to you.

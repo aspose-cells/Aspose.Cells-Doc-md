@@ -3,6 +3,8 @@ title: Spreadsheet Editor - Working with Cells
 type: docs
 weight: 40
 url: /java/spreadsheet-editor-working-with-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Table of Contents**

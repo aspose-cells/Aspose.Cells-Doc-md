@@ -3,6 +3,8 @@ title: Missing Features in NPOI
 type: docs
 weight: 20
 url: /net/missing-features-in-npoi/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section shows the features that are only available in Aspose.Cells and not in NPOI (HSSF and XSSF).

@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /nodejs-cpp/create-and-format-table/
 description: Insert, resize, edit, delete, and format tables of Excel files using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Table**

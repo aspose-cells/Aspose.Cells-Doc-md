@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /cpp/adjust-workbook-compression-level/
 description: Learn how to adjust the compression level of a workbook using Aspose.Cells for C++ to optimize file size and processing time.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adjust Workbook Compression Level**

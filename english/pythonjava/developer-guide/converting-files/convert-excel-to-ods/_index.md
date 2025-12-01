@@ -3,6 +3,8 @@ title: Convert Excel to ODS
 type: docs
 weight: 40
 url: /python-java/convert-excel-to-ods/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to ODS**

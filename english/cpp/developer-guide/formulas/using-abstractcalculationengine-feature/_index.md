@@ -3,6 +3,8 @@ title: Using AbstractCalculationEngine Feature
 type: docs
 weight: 20
 url: /cpp/using-abstractcalculationengine-feature/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

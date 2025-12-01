@@ -3,6 +3,8 @@ title: System Requirements
 type: docs
 weight: 10
 url: /net/system-requirements/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

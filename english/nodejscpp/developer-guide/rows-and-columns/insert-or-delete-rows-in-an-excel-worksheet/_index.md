@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/insert-or-delete-rows-in-an-excel-worksheet/  
 description: This article provides Node.js code using C++ to insert and delete rows in an Excel worksheet.  
 keywords: node.js insert or delete rows in excel worksheet, node.js insert or delete rows in excel, node.js insert rows in excel, node.js delete rows in excel, insert or delete rows in excel worksheet with node.js, insert or delete rows in excel with node.js, insert rows in excel with node.js, delete rows in excel with node.js  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

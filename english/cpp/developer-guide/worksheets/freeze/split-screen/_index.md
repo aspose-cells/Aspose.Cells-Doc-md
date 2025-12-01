@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/how-to-split-screen-of-excel-worksheet
 description: In this article, you'll learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts programmatically using C++.
 keywords: Freeze top rows, Freeze top row.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

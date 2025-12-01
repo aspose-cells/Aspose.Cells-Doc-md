@@ -3,6 +3,8 @@ title: Find the Root Element Name of XML Map
 type: docs
 weight: 30
 url: /net/find-the-root-element-name-of-xml-map/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

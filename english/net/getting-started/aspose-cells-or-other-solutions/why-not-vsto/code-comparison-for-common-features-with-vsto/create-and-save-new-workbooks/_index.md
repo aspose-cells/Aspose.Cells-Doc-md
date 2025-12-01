@@ -3,6 +3,8 @@ title: Create and Save New Workbooks
 type: docs
 weight: 70
 url: /net/create-and-save-new-workbooks/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Migration Tips:**

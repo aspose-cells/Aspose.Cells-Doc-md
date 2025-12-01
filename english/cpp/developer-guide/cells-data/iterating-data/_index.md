@@ -6,6 +6,8 @@ weight: 55
 url: /cpp/how-and-where-to-use-enumerators/
 description: Learn how to How and Where to Use Enumerators through the Aspose.Cells for C++ API.
 keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

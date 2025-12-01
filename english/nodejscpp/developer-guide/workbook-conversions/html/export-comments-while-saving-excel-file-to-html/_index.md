@@ -4,6 +4,8 @@ linktitle: Export Comments while Saving Excel file to HTML
 type: docs
 weight: 40
 url: /nodejs-cpp/export-comments-while-saving-excel-file-to/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

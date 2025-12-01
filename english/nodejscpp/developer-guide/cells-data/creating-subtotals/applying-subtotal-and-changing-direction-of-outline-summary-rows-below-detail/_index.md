@@ -5,6 +5,8 @@ weight: 100
 url: /nodejs-cpp/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
 description: Learn how to apply subtotal and change direction of outline summary Rows below Detail by using the Aspose.Cells for Node.js via C++ API.
 keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

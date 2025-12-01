@@ -3,6 +3,8 @@ title: Aspose.Cells Java for Python
 type: docs
 weight: 60
 url: /java/aspose-cells-java-for-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **JPype**

@@ -5,6 +5,8 @@ weight: 100
 url: /net/aspose-cells-gridweb/access-hyperlink-object-of-the-gridweb-cell/
 keywords: GridWeb,hyperlink
 description: This article introduces how to work with hyperlink in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

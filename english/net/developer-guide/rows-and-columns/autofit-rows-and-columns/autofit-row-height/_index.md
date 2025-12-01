@@ -5,6 +5,8 @@ weight: 120
 url: /net/autofit-row-height/
 description: Learn how to fit the rows which height are not customed.
 keywords: AutoFit Row Height when loading file, automatically adjust the row height when opening excel file. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

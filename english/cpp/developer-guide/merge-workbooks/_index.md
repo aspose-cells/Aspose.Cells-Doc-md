@@ -5,6 +5,8 @@ type: docs
 weight: 66
 url: /cpp/combine-multiple-workbooks-into-a-single-workbook/
 description: Learn how to combine multiple workbooks into a single workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 330
 url: /python-net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 description: This article shows how to Get Address Cell Count Offset Entire Column and Entire Row of the Range by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Get Address Cell Count Offset Entire Column and Entire Row of the Range, Python Get Address of the Range, Python Get Cell Count of the Range, Python Get Offset of the Range, Python Get Entire Column and Entire Row of the Range.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

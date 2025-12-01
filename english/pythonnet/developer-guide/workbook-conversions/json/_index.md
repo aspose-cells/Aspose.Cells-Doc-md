@@ -5,6 +5,8 @@ weight: 300
 url: /python-net/convert-workbook-to-json/
 description: Learn how to convert excel workbook to json with Aspose.Cells for Python via .NET API.
 keywords: Python Convert excel workbook to json, Convert excel workbook to json Pyton via NET, Export Workbook to json, Convert excel workbook to json
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

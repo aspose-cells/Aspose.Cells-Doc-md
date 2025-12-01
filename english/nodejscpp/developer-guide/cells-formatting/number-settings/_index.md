@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js library, electronic spreadsheet, cell number set
 type: docs  
 weight: 10  
 url: /nodejs-cpp/cells-number-settings/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **How to Set Display Formats of Numbers and Dates**  

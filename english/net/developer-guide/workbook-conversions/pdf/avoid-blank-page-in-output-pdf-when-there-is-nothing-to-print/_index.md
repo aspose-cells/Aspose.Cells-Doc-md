@@ -3,6 +3,8 @@ title: Avoid Blank Page in Output PDF when there is Nothing to Print
 type: docs
 weight: 30
 url: /net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

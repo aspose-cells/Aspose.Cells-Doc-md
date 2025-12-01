@@ -5,6 +5,8 @@ weight: 110
 url: /python-net/support-for-xades-signature/
 description: This article describes Support for XAdES Signature using C# codes with Aspose.Cells for Python via .NET.
 keywords: Support for XAdES Signature, How to sign Excel with XAdES Signature, How to add XAdES signature.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

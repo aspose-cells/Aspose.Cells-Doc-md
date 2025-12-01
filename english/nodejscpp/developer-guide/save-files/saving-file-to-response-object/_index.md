@@ -5,6 +5,8 @@ type: docs
 weight: 50  
 url: /nodejs-cpp/saving-file-to-response-object/  
 description: Learn how to dynamically generate files and send them directly to a client browser using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

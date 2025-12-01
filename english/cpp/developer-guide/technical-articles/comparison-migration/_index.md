@@ -5,6 +5,8 @@ type: docs
 weight: 250
 url: /cpp/comparison-migration/
 description: Learn about comparison and migration features in Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Migrating Excel Files**

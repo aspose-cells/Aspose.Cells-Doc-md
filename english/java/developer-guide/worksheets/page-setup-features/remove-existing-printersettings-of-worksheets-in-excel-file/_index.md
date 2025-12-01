@@ -3,6 +3,8 @@ title: Remove Existing PrinterSettings of Worksheets in Excel file
 type: docs
 weight: 40
 url: /java/remove-existing-printersettings-of-worksheets-in-excel-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, category axis, setting, range, prope
 type: docs
 weight: 205
 url: /python-net/how-to-set-category-axis/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

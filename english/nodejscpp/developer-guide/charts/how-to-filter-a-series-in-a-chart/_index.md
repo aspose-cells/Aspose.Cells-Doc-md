@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Filtering Charts in Excel, Data Anal
 type: docs
 weight: 2210
 url: /nodejs-cpp/filtering-charts-in-excel/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

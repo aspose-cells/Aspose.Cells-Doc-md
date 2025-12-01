@@ -5,6 +5,8 @@ type: docs
 weight: 330
 url: /nodejs-cpp/read-color-of-shape-s-glow-effect/
 description: Learn how to read the color of a shape's glow effect using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

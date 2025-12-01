@@ -3,6 +3,8 @@ title: More Excel File Formats Export
 type: docs
 weight: 10
 url: /reportingservices/more-excel-file-formats-export/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: DNN Export Users and Roles to Excel
 type: docs
 weight: 20
 url: /net/dnn-export-users-and-roles-to-excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

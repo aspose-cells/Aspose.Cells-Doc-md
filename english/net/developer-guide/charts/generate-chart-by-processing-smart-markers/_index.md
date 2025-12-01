@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, chart generation, smart markers, appearance, us
 type: docs
 weight: 2100
 url: /net/generate-chart-by-processing-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

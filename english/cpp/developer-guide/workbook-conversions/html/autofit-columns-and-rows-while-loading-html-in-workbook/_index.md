@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/autofit-columns-and-rows-while-loading-html-in-workbook/
 description: Learn how to autofit columns and rows while loading HTML into a Workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

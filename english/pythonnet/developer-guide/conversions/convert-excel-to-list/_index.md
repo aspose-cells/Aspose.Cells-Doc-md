@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-excel-to-list/
 description: Convert Excel to List by using Aspose.Cells for Python via .NET API.
 keywords: Convert Excel to Dictionary Using Python Excel Library, Convert Workbook to Dictionary Using Python Excel Library, Convert Row object to List Using Python Excel Library, How to Convert ListObject to List, Convert COlumn Object to List Using Python Excel Library, Convert Range to List Using Python Excel Library, Convert Worksheet to List Using Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

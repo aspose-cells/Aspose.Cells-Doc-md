@@ -3,6 +3,8 @@ title: Expanding text from right to left while exporting Excel file to HTML
 type: docs
 weight: 60
 url: /net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

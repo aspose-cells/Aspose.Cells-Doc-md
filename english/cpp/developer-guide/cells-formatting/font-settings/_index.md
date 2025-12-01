@@ -6,6 +6,8 @@ weight: 30
 url: /cpp/cells-font-settings/
 description: Aspose.Cells is a C++ library for working with spreadsheet files. It supports setting the font settings of cells, allowing users to customize the font style and properties of cells. This article will introduce how to use the Aspose.Cells library to set cell font settings.
 keywords: Aspose.Cells, Cells, Font Settings, Styles, Properties
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Dynamic Chart, Drop-Down List, Data 
 type: docs
 weight: 76
 url: /python-net/create-dynamic-chart-with-dropdownlist/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

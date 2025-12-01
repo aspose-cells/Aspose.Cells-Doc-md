@@ -3,6 +3,8 @@ title: Installing Aspose.Cells for JasperReports
 type: docs
 weight: 20
 url: /jasperreports/installing-aspose-cells-for-jasperreports/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To use **Aspose.Cells for JasperReports** from your application, copy **aspose.cells.jasperreports.jar** from the \lib folder of Aspose.Cells.JasperReports.zip to the JasperReports\lib directory or to a library folder of your application. After that, you can access the exporters programmatically.

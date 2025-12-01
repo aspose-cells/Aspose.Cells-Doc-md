@@ -4,6 +4,8 @@ linktitle: Link Cells to XML Map Elements
 type: docs
 weight: 50
 url: /nodejs-cpp/link-cells-to-xml-map-elements/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

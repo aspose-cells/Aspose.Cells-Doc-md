@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/list-of-supported-functions/
 keywords: GridDesktop,functions,formula
 description: This article introduces the supported functions in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

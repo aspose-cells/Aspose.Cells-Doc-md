@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/loading-saving-and-managing/
 description: With Aspose.Cells for C++, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, Json, XML, Pdf, Jpg, Tiff, Image, Mht, and XPS files.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

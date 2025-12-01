@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/insert-background-image-to-excel/
 description: This article explains how to insert background image to Excel using Aspose.Cells for Python via .NET sample code.
 keywords: Python Excel Library, Python How to Set Sheet Background, Insert Background Image to Excel in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

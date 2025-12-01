@@ -5,6 +5,8 @@ type: docs
 weight: 50  
 url: /nodejs-cpp/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/  
 description: Learn how to export Document, Workbook, and Worksheet properties in Excel to HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

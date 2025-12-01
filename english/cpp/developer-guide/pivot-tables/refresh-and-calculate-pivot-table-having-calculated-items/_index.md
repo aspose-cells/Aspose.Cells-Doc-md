@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/refresh-and-calculate-pivot-table-having-calculated-items/
 description: Refresh and calculate pivot table with calculated items using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

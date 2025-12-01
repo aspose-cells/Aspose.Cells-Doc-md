@@ -3,6 +3,8 @@ title: Change Data Source of the Chart to Destination Worksheet while Copying Ro
 type: docs
 weight: 850
 url: /java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

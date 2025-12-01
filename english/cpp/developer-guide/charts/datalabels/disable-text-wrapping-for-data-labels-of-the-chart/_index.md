@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, data labels, text wrapping, overlappin
 type: docs
 weight: 70
 url: /cpp/disable-text-wrapping-for-data-labels-of-the-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

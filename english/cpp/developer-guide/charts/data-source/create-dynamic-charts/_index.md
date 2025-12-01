@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, dynamic charts, data, series, formatti
 type: docs
 weight: 240
 url: /cpp/create-dynamic-charts/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,8 @@ linktitle: Manage Scenarios
 type: docs
 weight: 120
 url: /java/create-manipulate-or-remove-scenarios-from-worksheets/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

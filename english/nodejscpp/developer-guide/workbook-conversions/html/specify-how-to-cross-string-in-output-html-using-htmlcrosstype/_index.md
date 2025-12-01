@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /nodejs-cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 description: Learn how to control string overflow in HTML output by specifying HtmlCrossType in Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

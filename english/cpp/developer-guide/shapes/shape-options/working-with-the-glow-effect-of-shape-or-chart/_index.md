@@ -5,6 +5,8 @@ type: docs
 weight: 240
 url: /cpp/working-with-the-glow-effect-of-shape-or-chart/
 description: Learn how to work with the glow effect of shapes or charts using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

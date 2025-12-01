@@ -5,6 +5,8 @@ weight: 170
 url: /python-net/print-multiple-copies-of-a-worksheet/
 description: This article shows how to use the Aspose.Cells for Python via .NET API to print multiple copies of an Excel worksheet programmatically.
 keywords: Python Excel Library, Python print multiple excel copies, print worksheets using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Print multiple copies of a worksheet**

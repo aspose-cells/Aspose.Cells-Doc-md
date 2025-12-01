@@ -3,6 +3,8 @@ title: Custom sorting in Pivot Table
 type: docs
 weight: 30
 url: /java/custom-sorting-in-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Custom sorting in Pivot Table**

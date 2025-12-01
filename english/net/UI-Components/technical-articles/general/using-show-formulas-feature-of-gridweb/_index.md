@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-gridweb/use-show-formulas-feature/
 keywords: GridWeb,show formulas,formula
 description: This article describes how to show formulas in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

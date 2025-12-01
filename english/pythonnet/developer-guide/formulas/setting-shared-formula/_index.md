@@ -3,6 +3,8 @@ title: Setting Shared Formula
 type: docs
 weight: 10
 url: /python-net/setting-shared-formula/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

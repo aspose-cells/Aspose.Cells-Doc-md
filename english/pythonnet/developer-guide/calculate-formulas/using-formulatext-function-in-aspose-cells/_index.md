@@ -6,6 +6,8 @@ weight: 60
 url: /python-net/using-formulatext-function-in-aspose-cells/
 description: Learn how to work with Excel's FORMULATEXT function using Aspose.Cells for Python via .NET. Get and set cell formulas programmatically while maintaining spreadsheet integrity.
 keywords: Aspose.Cells, Python, Excel, FORMULATEXT, formula handling, spreadsheet automation
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -6,6 +6,8 @@ linktitle: Data source
 type: docs
 weight: 10
 url: /net/data-formatting-in-charts/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 In our previous topics, we have already provided many examples to demonstrate that how can you set a data source for your chart but in this topic, we are going to provide more details about the types of data that can be set for a chart.

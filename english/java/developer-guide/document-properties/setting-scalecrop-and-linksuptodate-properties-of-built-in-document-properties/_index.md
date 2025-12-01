@@ -3,6 +3,8 @@ title: Setting ScaleCrop and LinksUpToDate properties of Built-In Document Prope
 type: docs
 weight: 1050
 url: /java/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

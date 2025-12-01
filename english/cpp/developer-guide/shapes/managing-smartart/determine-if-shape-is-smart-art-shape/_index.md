@@ -5,6 +5,8 @@ type: docs
 weight: 400
 url: /cpp/determine-if-shape-is-smart-art-shape/
 description: Learn how to determine if a shape is a Smart Art Shape using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

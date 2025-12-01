@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/changing-the-layout-of-pivot-table/
 description: How to change the Layout of Pivot Table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, Change the Layout of Pivot Table Using Aspose.Cells for Node.js Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Change the Layout of Pivot Table in MS-Excel**

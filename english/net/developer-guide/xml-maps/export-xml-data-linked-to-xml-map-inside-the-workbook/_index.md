@@ -3,6 +3,8 @@ title: Export XML Data linked to XML Map inside the Workbook
 type: docs
 weight: 20
 url: /net/export-xml-data-linked-to-xml-map-inside-the-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Export XML Data linked to XML Map inside the Workbook**

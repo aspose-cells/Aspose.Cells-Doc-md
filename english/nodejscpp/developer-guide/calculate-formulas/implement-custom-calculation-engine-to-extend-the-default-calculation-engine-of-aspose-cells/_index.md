@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, Custom Calculation Engine, Node.js via C++
 type: docs
 weight: 80
 url: /nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Implement Custom Calculation Engine**

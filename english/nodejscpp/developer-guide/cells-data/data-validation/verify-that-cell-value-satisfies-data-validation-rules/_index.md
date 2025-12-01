@@ -5,6 +5,8 @@ weight: 210
 url: /nodejs-cpp/verify-that-cell-value-satisfies-data-validation-rules/
 description: Learn how to Verify Cell Value Satisfies Data Validation Rules through the Aspose.Cells for Node.js via C++ API.
 keywords: Get Cell Validation Value Node.js via C++, Obtain Cell Validation Value Node.js via C++, Verify whether a value satisfies the data validation rules applied to the cell Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

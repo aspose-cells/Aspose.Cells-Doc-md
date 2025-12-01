@@ -3,6 +3,8 @@ title: Manipulate Pivot Table
 type: docs
 weight: 20
 url: /cpp/manipulate-pivot-table/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

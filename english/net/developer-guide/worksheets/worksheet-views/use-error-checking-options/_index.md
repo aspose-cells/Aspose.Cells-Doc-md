@@ -5,6 +5,8 @@ weight: 140
 url: /net/use-error-checking-options/
 description: In this article, you will find sample code that will programmatically use error checking options of Excel worksheets e.g. Numbers stored as Text using C# API or .NET Library.
 keywords: store number as text in excel using c#, error check excel options c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

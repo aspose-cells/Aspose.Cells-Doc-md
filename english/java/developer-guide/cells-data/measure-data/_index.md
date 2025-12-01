@@ -4,6 +4,8 @@ linktitle: Measure Data
 type: docs
 weight: 280
 url: /java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

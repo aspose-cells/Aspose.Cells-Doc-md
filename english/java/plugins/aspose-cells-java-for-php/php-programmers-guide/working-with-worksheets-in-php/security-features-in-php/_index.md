@@ -3,6 +3,8 @@ title: Security Features in Php
 type: docs
 weight: 40
 url: /java/security-features-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **This section includes the following topics:**

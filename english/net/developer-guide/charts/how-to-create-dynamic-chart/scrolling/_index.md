@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Dynamic Scrolling Chart, Data Transitions, Smoo
 type: docs
 weight: 75
 url: /net/create-dynamic-scrolling-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

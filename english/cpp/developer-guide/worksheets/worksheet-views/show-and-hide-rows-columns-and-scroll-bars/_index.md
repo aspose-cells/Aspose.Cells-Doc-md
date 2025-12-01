@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/show-and-hide-rows-columns-and-scroll-bars/
 description: This article demonstrates how to programmatically display and hide Excel worksheet rows and columns using the C++ language and the Aspose.Cells API. The visibility of scroll bars can be adjusted, and several rows and columns can be hidden.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

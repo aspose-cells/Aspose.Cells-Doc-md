@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/autofit-rows-for-merged-cells/
 description: Learn how to auto-fit rows for merged cells using Aspose.Cells for Node.js via C++. Implement auto-fit functionality for merged cells in spreadsheets.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

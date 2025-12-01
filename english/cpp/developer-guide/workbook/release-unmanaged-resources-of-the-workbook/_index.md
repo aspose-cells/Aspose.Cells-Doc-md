@@ -5,6 +5,8 @@ type: docs
 weight: 310
 url: /cpp/release-unmanaged-resources-of-the-workbook/
 description: Learn how to release unmanaged resources of the Workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

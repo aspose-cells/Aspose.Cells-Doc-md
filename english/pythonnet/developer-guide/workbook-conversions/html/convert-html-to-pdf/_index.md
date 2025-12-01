@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/convert-html-to-pdf/
 description: This topic show you how to convert HTML to PDF saveformat and MHTML to PDF saveformat using Aspose.Cells for Python via NET.
 keywords: convert HTML to PDF saveformat and MHTML to PDF saveformat.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Overview**

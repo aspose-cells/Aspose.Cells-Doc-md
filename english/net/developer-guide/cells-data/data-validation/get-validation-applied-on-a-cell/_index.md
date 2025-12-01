@@ -5,6 +5,8 @@ weight: 200
 url: /net/get-validation-applied-on-a-cell/
 description: This article show how to apply validation on a Cell with C#
 keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

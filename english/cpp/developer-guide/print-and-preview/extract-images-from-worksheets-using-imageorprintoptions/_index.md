@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /cpp/extract-images-from-worksheets-using-imageorprintoptions/
 description: Learn how to extract images from Excel worksheets and save them to a local drive using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

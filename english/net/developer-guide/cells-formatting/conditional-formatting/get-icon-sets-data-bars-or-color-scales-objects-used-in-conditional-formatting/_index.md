@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, Icon Set, Data Bar, Color Scale,
 type: docs
 weight: 10
 url: /net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

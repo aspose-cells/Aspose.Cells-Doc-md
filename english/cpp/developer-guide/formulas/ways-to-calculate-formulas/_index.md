@@ -3,6 +3,8 @@ title: Ways to Calculate Formulas
 type: docs
 weight: 30
 url: /cpp/ways-to-calculate-formulas/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

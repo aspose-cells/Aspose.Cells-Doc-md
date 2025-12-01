@@ -5,6 +5,8 @@ weight: 80
 url: /net/excel-color-palette/
 description: C# code to add custom colors to the palette and use excel color palette with Aspose.Cells for .NET API
 keywords: c# add custom colors to the palette, c# programmatically excel color palette, programmatically how to use color palette in workbook, c# how to use color palette in excel
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Colors and Palette**

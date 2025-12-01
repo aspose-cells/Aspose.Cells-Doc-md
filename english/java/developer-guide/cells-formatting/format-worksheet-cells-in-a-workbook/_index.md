@@ -3,6 +3,8 @@ title: Format Worksheet Cells in a Workbook
 type: docs
 weight: 140
 url: /java/format-worksheet-cells-in-a-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

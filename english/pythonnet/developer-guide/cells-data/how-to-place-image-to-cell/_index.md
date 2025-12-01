@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/how-to-insert-picture-in-cell/
 description: Learn how to insert a picture into a cell with Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python How to Insert Picture in Cell, Python Insert Picture over Cells, Python Place Picture in Cell, Python Place Picture over Cells, Python How to place image in cell, Python How to place image over cells, Python Switch between Picture in Cell and Picture over Cells, Python Switch between Place in Cell and Place over Cells.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

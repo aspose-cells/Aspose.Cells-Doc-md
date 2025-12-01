@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/encrypt-and-decrypt-excel-files/  
 description: How to encrypt and decrypt Excel files using Node.js via C++. Lock and unlock Excel files.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -5,6 +5,8 @@ weight: 60
 url: /python-net/draw-slicer-while-rendering-excel-to-pdf/
 description: Learn how to draw slicer while rendering excel to pdf with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python Draw Slicer while rendering Excel to PDF without Excel, Python Render Slicer while rendering Excel to PDF without Excel, Draw Slicer while rendering Excel to PDF using Aspose.Cells for Python excel library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Draw Slicer while rendering Excel to PDF Using Aspose.Cells for Python Excel Library**

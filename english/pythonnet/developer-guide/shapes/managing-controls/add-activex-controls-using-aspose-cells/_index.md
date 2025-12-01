@@ -3,6 +3,8 @@ title: Add ActiveX Controls
 type: docs
 weight: 260
 url: /python-net/add-activex-controls-using-aspose-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

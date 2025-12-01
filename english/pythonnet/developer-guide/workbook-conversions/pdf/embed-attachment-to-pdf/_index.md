@@ -5,6 +5,8 @@ type: docs
 weight: 380
 url: /python-net/embed-attachment-to-pdf/
 description: Learn how to embed Ole Object attachments in PDF files using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double click the Ole Object to open the embedded file.

@@ -5,6 +5,8 @@ weight: 260
 url: /net/determining-if-the-license-is-loaded-successfully/
 description: Learn how to Detect if the License is loaded successfully through the Aspose.Cells for NET APIs.
 keywords: How to Detect if the License is loaded successfully in C#, Determine if the License is loaded successfully using C#, Check if the License is loaded successfully via C#, check the status of license.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

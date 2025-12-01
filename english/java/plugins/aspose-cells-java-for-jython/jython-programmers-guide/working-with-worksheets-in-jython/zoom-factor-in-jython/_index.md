@@ -3,6 +3,8 @@ title: Zoom Factor in Jython
 type: docs
 weight: 170
 url: /java/zoom-factor-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Zoom Factor**

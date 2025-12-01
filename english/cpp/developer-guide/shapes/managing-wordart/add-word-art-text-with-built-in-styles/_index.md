@@ -5,6 +5,8 @@ type: docs
 weight: 270
 url: /cpp/add-word-art-text-with-built-in-styles/
 description: Learn how to add Word Art Text with Built-in Styles using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

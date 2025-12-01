@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, FormulaText functions Node.js via C++
 type: docs
 weight: 60
 url: /nodejs-cpp/using-formulatext-function-in-aspose-cells/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

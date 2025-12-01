@@ -3,6 +3,8 @@ title: Import Data to Worksheets using Aspose.Cells
 type: docs
 weight: 30
 url: /java/import-data-to-worksheets-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Import Data to Worksheets**

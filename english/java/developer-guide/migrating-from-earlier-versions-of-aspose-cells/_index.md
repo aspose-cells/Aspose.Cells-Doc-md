@@ -3,6 +3,8 @@ title: Migrating from Earlier Versions of Aspose.Cells
 type: docs
 weight: 2200
 url: /java/migrating-from-earlier-versions-of-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **This section includes the following topics:** 

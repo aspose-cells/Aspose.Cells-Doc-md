@@ -9,6 +9,8 @@ aliases:
   - /net/aspose-cells-gridjs/download-function/
   - /net/aspose-cells-gridjs/how-to-add-download-function/
   - /net/aspose-cells-gridjs/custom-download/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  

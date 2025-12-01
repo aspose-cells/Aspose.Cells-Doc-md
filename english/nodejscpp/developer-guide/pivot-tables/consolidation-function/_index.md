@@ -5,6 +5,8 @@ weight: 20
 url: /nodejs-cpp/consolidation-function/
 description: How to apply ConsolidationFunction to Data Fields of Pivot Table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, ConsolidationFunction to Data Fields of Pivot Table Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Consolidation function**

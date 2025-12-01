@@ -3,6 +3,8 @@ title: Creating Tabular Report
 type: docs
 weight: 70
 url: /reportingservices/creating-tabular-report/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

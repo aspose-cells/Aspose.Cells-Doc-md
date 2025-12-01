@@ -3,6 +3,8 @@ title: Converting Worksheet to Image and Worksheet to Image by Page
 type: docs
 weight: 210
 url: /java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

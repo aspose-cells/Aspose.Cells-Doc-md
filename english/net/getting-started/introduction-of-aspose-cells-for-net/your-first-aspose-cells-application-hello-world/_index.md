@@ -5,6 +5,8 @@ weight: 30
 url: /net/your-first-aspose-cells-application-hello-world/
 description: Create, edit and save your first excel file in any supported formats using Aspose.Cells for .NET to experience its simplicity and power in C#.
 keywords: C# Hello World, Aspose.Cells for .NET Hello World, The first application using Aspose.Cells for .NET, The first program via Aspose.Cells for .NET.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

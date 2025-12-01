@@ -3,6 +3,8 @@ title: Adding New Worksheets to Workbook and Activating a Sheet in VSTO and Aspo
 type: docs
 weight: 30
 url: /net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Migration tip:**

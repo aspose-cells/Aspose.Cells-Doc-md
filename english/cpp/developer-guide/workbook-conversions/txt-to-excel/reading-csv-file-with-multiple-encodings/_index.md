@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/reading-csv-file-with-multiple-encodings/
 description: Learn how to read CSV files with multiple encodings using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

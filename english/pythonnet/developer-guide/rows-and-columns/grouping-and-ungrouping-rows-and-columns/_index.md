@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/grouping-and-ungrouping-rows-and-columns/
 description: This article shows how to Group and Ungroup Rows and Columns by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python How to Group Rows and Columns, Python How to Ungroup Rows and Columns, Python Group Management of Rows and Columns, Python How to set Summary Rows to Below of Detail, Python How to set Summary Columns to Right of Detail.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /cpp/extract-ole-objects-from-workbook/
 description: Learn how to extract OLE objects from a workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

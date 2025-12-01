@@ -6,6 +6,8 @@ weight: 68
 url: /cpp/protect-and-unprotect/
 alias: [/cpp/security-features/]
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using C++ codes.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

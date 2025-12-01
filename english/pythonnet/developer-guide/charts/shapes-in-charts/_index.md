@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Chart Controls, Chart Customization,
 type: docs
 weight: 70
 url: /python-net/controls-in-charts/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

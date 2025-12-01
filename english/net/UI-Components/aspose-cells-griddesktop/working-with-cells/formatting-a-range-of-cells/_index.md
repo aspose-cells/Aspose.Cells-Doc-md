@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-griddesktop/formatting-a-range-of-cells/
 keywords: GridDesktop,format,style,cells
 description: This article introduces how to apply style format on cells in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

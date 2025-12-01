@@ -5,6 +5,8 @@ keywords: Dynamic Array Formulas, Dynamic Array Formulas in Excel, Set dynamic a
 type: docs
 weight: 70
 url: /net/calculation-of-dynamic-array-formulas/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## **What is the Excel Array Formula**
 In Excel, an array formula is a special type of formula that allows you to perform calculations on arrays of data rather than individual cells. Array formulas can be used to perform complex calculations, manipulate data, and solve specific problems efficiently. They are entered differently from regular formulas and often require the use of Ctrl + Shift + Enter.

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Chart to PDF, Microsoft Excel, PDF C
 type: docs
 weight: 47
 url: /python-net/chart-to-pdf/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Rendering Chart to PDF**

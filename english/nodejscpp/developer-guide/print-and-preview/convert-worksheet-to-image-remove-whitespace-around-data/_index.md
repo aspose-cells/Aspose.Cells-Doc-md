@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /nodejs-cpp/convert-worksheet-to-image-remove-whitespace-around-data/
 description: Learn how to convert Microsoft Excel worksheets to images and remove whitespace around data using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

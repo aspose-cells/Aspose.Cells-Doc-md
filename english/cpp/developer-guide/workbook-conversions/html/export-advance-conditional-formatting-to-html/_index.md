@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/
 description: Learn how to export DataBar, ColorScale, and IconSet conditional formatting while converting Excel files to HTML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

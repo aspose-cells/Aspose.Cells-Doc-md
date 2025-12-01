@@ -3,6 +3,8 @@ title: Insert Web Image from a URL into an Excel Worksheet
 type: docs
 weight: 240
 url: /java/insert-web-image-from-a-url-into-an-excel-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

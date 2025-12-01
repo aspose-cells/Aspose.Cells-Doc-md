@@ -3,6 +3,8 @@ title: Check Custom Number Format when Setting Style.Custom Property
 type: docs
 weight: 160
 url: /java/check-custom-number-format-when-setting-style-custom-property/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

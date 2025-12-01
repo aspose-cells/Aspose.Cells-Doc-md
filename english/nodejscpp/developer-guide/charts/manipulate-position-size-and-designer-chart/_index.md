@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Position, Size, Designer Chart, Micr
 type: docs
 weight: 45
 url: /nodejs-cpp/manipulate-position-size-and-designer-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**

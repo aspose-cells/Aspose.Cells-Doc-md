@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, C++, Color Ratio, Two Color Scal
 type: docs
 weight: 20
 url: /cpp/adding-2-color-scale-and-3-color-scale-conditional-formattings/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

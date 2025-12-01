@@ -3,6 +3,8 @@ title: Get worksheet information
 type: docs
 weight: 50
 url: /net/get-worksheet-information/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

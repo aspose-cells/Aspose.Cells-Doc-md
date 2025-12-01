@@ -3,6 +3,8 @@ title: Import and Export Data
 type: docs
 weight: 130
 url: /java/import-and-export-data/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 2400
 url: /cpp/check-password-to-modify-using-aspose-cells/
 description: Check if the given password matches the Password to modify using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

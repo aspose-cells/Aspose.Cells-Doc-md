@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /nodejs-cpp/disable-downlevel-revealed-comments-while-saving-to/
 description: Learn how to disable downlevel revealed comments when saving an Excel file to HTML using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

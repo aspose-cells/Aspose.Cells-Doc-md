@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, charting, background fill, picture, 
 type: docs
 weight: 30
 url: /python-net/set-picture-as-background-fill-in-the-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

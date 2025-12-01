@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/  
 description: How to convert an Image from URL to actual Excel image using Aspose.Cells for Node.js via C++.  
 keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, Node.js, Excel  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## Load an Image from a URL into an Excel Worksheet  

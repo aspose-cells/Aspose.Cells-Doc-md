@@ -3,6 +3,8 @@ title: Reading CSV File with Multiple Encodings
 type: docs
 weight: 140
 url: /java/reading-csv-file-with-multiple-encodings/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

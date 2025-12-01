@@ -4,6 +4,8 @@ linktitle: Formatting Slicer
 type: docs  
 weight: 20  
 url: /nodejs-cpp/formatting-slicer/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Possible Usage Scenarios**  

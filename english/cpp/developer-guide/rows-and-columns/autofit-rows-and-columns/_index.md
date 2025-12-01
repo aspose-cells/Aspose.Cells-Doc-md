@@ -6,6 +6,8 @@ weight: 20
 url: /cpp/autofit-rows-and-columns/
 description: This article shows how to autoFit rows, columns, rows of merged cells, and rows in a range of cells using the Aspose.Cells for C++ API.
 keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

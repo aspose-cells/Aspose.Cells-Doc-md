@@ -6,6 +6,8 @@ linktitle: Styles
 type: docs
 weight: 50
 url: /python-net/styling-and-data-formatting/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -5,6 +5,8 @@ weight: 60
 url: /python-net/draw-timeline-while-rendering-excel-to-pdf/
 description: Manage timelines of Excel files with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python Rendering timeline to pdf without Excel.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Draw Timeline while rendering Excel to PDF Using Aspose.Cells for Python Excel Library**

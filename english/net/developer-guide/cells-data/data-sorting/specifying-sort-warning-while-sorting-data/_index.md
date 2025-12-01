@@ -5,6 +5,8 @@ weight: 140
 url: /net/specifying-sort-warning-while-sorting-data/
 description: Learn how to specify sort warning while sorting data by using the Aspose.Cells for .NET API.
 keywords: Add sort warning when sorting data, set sort warning while sorting data, select sort warning when sorting data.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

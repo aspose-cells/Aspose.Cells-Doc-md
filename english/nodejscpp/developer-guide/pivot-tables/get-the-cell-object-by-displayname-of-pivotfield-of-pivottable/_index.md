@@ -5,6 +5,8 @@ weight: 70
 url: /nodejs-cpp/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 description: How to get the Cell object by DisplayName of PivotField of PivotTable with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, Get the Cell object by DisplayName of PivotField of PivotTable Using Aspose.Cells for Node.js via C++ Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

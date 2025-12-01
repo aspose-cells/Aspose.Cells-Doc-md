@@ -6,6 +6,8 @@ weight: 130
 url: /cpp/how-to-lock-cells-to-protect-them/
 description: This article shows you code explaining how to lock cells to protect them using Aspose.Cells library with C++.
 keywords: C++ Lock Cells to Protect Them, How to Lock Cells to Protect Them using C++, Lock Cells to Protect Them in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

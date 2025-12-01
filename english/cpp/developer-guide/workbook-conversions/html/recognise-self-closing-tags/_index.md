@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/recognise-self-closing-tags/
 description: Learn how to handle self-closing tags in HTML using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 HTML can have a variety of tag formats for empty tags like `<td></td>` or `<td/>`. Aspose.Cells supports both these formats now, whereas earlier it was supporting only `<td></td>` like tags. This feature can be tested by converting the attached sample HTML file to an Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.

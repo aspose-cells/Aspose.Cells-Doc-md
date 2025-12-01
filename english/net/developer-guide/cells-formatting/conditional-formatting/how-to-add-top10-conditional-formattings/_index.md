@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Top10 Conditional Formatting, C#, Conditional, Formattin
 type: docs
 weight: 70
 url: /net/how-to-add-top10-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

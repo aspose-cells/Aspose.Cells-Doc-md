@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-griddesktop/how-to-use-aspose-cells-griddesktop/
 keywords: GridDesktop
 description: This article introduce the use of GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

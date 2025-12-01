@@ -3,6 +3,8 @@ title: Printing Range of Pages using SheetRender and WorkbookRender
 type: docs
 weight: 250
 url: /python-net/printing-range-of-pages-using-sheetrender-and-workbookrender/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

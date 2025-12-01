@@ -4,6 +4,8 @@ linktitle: Managing Hyperlinks
 type: docs
 weight: 160
 url: /java/insert-hyperlinks-to-excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Hyperlinks to Link Data**

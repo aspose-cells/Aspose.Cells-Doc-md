@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-gridweb/sort-worksheet-data/
 keywords: GridWeb,sort
 description: This article introduces how to sort data in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

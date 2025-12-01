@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/ignore-errors-while-rendering-excel-to-pdf/
 description: Learn how to ignore errors during Excel to PDF conversion using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

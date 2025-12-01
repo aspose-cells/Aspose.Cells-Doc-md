@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/get-worksheet-unique-id/
 description: This article shows how to get Excel worksheet unique ID using C++ library and API programmatically.
 keywords: unique ID Excel worksheet C++, unique ID worksheet C++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Worksheet Unique ID**

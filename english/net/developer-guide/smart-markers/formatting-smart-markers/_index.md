@@ -3,6 +3,8 @@ title: Formatting Smart Markers
 type: docs
 weight: 20
 url: /net/formatting-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Copy Style Attribute**

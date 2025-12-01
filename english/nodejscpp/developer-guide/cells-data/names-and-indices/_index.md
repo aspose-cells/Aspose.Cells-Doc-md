@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/names-and-indices/
 description: Learn how to get Conversion between cell name and row/column index through the Aspose.Cells for Node.js via C++ API.
 keywords: Node.js via C++ Get Cell Name from Row and Column Indices, Get Row and Column Indices from Cell Name, Create safe worksheet names, Add safe worksheet names
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Cell Name from Row and Column Indices**

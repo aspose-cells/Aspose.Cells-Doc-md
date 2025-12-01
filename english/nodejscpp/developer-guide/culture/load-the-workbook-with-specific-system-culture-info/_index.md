@@ -4,6 +4,8 @@ linktitle: Load the Workbook with specific System Culture Info
 type: docs
 weight: 190
 url: /nodejs-cpp/load-the-workbook-with-specific-system-culture-info/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

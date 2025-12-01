@@ -3,6 +3,8 @@ title: Converting Chart to Image in SVG Format
 type: docs
 weight: 240
 url: /net/converting-chart-to-image-in-svg-format/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

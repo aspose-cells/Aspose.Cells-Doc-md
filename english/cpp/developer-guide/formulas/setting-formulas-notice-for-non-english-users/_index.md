@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/setting-formulas-notice-for-non-english-users/
 description: Learn how to set formulas in Aspose.Cells for C++ with English (US) style for non-English users.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

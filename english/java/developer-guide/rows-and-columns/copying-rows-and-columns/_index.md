@@ -3,6 +3,8 @@ title: Copying Rows and Columns
 type: docs
 weight: 30
 url: /java/copying-rows-and-columns/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

@@ -4,6 +4,8 @@ linktitle: AutoFill Range
 type: docs
 weight: 10
 url: /java/autofill-ranges/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##  **Perform an autofill in the specified range in Excel**

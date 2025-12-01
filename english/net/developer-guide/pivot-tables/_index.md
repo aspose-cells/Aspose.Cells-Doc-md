@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /net/create-pivot-table/
 description: Create and format pivot tables of Excel spreadsheet files.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Pivot Table**

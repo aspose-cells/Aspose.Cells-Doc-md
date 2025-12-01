@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-gridweb/protect-cells/
 keywords: GridWeb,protect,readonly,editable
 description: This article introduces how to protect cells in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

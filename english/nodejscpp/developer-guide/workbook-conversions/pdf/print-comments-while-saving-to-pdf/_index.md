@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/print-comments-while-saving-to-pdf/  
 description: Learn how to print comments when saving Excel documents to PDF using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

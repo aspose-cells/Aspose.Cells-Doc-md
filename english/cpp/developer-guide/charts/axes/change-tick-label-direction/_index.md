@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, tick labels, direction, orientation, axes, horiz
 type: docs
 weight: 170
 url: /cpp/change-tick-label-direction/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Change Tick Label Direction**

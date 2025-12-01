@@ -3,6 +3,8 @@ title: Miscellaneous
 type: docs
 weight: 50
 url: /reportingservices/miscellaneous/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

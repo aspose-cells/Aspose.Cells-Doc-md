@@ -5,6 +5,8 @@ type: docs
 weight: 970
 url: /cpp/track-document-conversion-progress/
 description: Learn how to track document conversion progress in C++ using Aspose.Cells to enhance application usability.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

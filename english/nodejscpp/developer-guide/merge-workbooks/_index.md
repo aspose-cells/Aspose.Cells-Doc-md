@@ -5,6 +5,8 @@ type: docs
 weight: 66
 url: /nodejs-cpp/combine-multiple-workbooks-into-a-single-workbook/
 description: Learn how to combine multiple workbooks into a single workbook using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

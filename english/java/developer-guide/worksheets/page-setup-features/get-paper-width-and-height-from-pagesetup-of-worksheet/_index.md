@@ -3,6 +3,8 @@ title: Get Paper Width and Height from PageSetup of Worksheet
 type: docs
 weight: 300
 url: /java/get-paper-width-and-height-from-pagesetup-of-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

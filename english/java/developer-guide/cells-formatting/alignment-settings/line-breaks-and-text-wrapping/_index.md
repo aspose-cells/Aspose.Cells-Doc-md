@@ -3,6 +3,8 @@ title: Line Breaks and Text Wrapping
 type: docs
 weight: 10
 url: /java/line-breaks-and-text-wrapping/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

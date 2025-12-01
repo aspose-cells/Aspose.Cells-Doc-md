@@ -5,6 +5,8 @@ weight: 90
 url: /net/aspose-cells-gridweb/handle-column-filter-server-side-events/
 keywords: GridWeb,filter,OnBeforeColumnFilter,OnAfterColumnFilter
 description: This article introduces how to handle column filter event in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

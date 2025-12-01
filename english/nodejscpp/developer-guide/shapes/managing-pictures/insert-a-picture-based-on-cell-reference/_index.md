@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /nodejs-cpp/insert-a-picture-based-on-cell-reference/
 description: Learn how to insert a picture in a worksheet based on a cell reference using Aspose.Cells for Node.js via C++. Show cell data in a picture.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

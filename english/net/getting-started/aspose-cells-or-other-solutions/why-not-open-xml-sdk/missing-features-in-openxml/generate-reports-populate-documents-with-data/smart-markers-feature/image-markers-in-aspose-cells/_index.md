@@ -3,6 +3,8 @@ title: Image Markers in Aspose.Cells
 type: docs
 weight: 20
 url: /net/image-markers-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells smart markers support image markers too. This section shows you how to insert pictures using smart markers.

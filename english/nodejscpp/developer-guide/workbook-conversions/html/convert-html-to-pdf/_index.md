@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/convert-html-to-pdf/
 description: This topic shows you how to convert HTML to PDF and MHTML to PDF using Aspose.Cells for Node.js via C++.
 keywords: Node.js convert HTML to PDF and MHTML to PDF via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Overview**

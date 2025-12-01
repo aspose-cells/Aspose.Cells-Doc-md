@@ -3,6 +3,8 @@ title: Using Aspose.Cells on 32-bit and 64-bit Platforms
 type: docs
 weight: 10
 url: /net/using-aspose-cells-on-32-bit-and-64-bit-platforms/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

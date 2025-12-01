@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions, how t
 type: docs
 weight: 30
 url: /net/how-to-calculate-custom-fuctions/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

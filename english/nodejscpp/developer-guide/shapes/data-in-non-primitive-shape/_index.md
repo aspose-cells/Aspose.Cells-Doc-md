@@ -5,6 +5,8 @@ type: docs
 weight: 300  
 url: /nodejs-cpp/data-in-non-primitive-shape/  
 description: Learn how to access and manipulate non-primitive shapes in Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Accessing Data of Non-Primitive Shape**  

@@ -5,6 +5,8 @@ weight: 220
 url: /net/convert-csv-to-json/
 description: Convert CSF file to JSON by using the simple to use Aspose.Cells for .NET API.
 keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert CSV to JSON**

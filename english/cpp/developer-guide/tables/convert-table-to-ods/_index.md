@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/convert-table-to-ods/
 description: Convert an Excel file with a table to ODS file format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells supports converting an Excel file with a table to ODS file. You simply have to save the file in ODS format and the generated ODS file will have a functioning table.

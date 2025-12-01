@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /nodejs-cpp/enable-css-custom-properties-while-saving-to-html/
 description: Learn how to enable CSS custom properties when saving Excel files to HTML using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

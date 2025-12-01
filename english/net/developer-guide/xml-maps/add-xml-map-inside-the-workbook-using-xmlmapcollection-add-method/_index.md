@@ -3,6 +3,8 @@ title: Add XML Map inside the Workbook using XmlMapCollection.Add method
 type: docs
 weight: 10
 url: /net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

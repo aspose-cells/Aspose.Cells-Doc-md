@@ -4,6 +4,8 @@ type: docs
 weight: 90
 url: /java/insert-background-image-to-excel/
 description: "How to insert background image to Excel using Aspose.Cells for Java."
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

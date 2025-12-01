@@ -3,6 +3,8 @@ title: AI Documents
 type: docs
 weight: 200
 url: /net/ai/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

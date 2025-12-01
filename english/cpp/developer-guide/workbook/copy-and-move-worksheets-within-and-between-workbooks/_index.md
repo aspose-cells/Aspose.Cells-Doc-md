@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/copy-and-move-worksheets-within-and-between-workbooks/
 description: Learn how to copy and move worksheets within and between Excel workbooks using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

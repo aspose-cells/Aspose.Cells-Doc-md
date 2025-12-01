@@ -4,6 +4,8 @@ linktitle: Named Range
 type: docs
 weight: 40
 url: /net/create-workbook-and-worksheet-scoped-named-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

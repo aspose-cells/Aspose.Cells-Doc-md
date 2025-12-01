@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Python library, electronic spreadshe
 type: docs
 weight: 70
 url: /python-net/create-style-object-using-cellsfactory-class/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Style object using CellsFactory class**

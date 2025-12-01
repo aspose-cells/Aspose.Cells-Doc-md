@@ -6,6 +6,8 @@ weight: 220
 url: /cpp/convert-csv-to-json/
 description: Convert CSV file to JSON by using the simple to use Aspose.Cells for C++ API.
 keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON C++, C++ code to convert CSV to JSON
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert CSV to JSON**

@@ -5,6 +5,8 @@ weight: 250
 url: /net/aspose-cells-gridweb/aspose-cells-gridweb/workbook-settings/
 description: This article describes the workbook settings in GridWeb.
 keywords: GridWeb,settings
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, tick labels, direction, orientation,
 type: docs
 weight: 170
 url: /python-net/change-tick-label-direction/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Change Tick Label Direction**

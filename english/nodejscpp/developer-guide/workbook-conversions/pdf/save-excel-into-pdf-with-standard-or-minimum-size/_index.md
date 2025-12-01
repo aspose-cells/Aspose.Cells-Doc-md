@@ -5,6 +5,8 @@ type: docs
 weight: 340
 url: /nodejs-cpp/save-excel-into-pdf-with-standard-or-minimum-size/
 description: Learn how to save Excel files into PDF format with Standard or Minimum size using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

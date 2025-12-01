@@ -3,6 +3,8 @@ title: Using Aspose.Cells for Java with ColdFusion
 type: docs
 weight: 40
 url: /java/using-aspose-cells-for-java-with-coldfusion/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

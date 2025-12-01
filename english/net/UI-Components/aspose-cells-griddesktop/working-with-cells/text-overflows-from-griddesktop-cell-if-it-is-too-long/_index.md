@@ -5,6 +5,8 @@ weight: 140
 url: /net/aspose-cells-griddesktop/text-overflows-from-griddesktop-cell-if-it-is-too-long/
 keywords: GridDesktop,overflow
 description: This article introduces the text overflow in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

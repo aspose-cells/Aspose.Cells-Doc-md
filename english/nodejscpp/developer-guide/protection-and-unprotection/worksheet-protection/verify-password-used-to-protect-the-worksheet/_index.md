@@ -5,6 +5,8 @@ type: docs
 weight: 370
 url: /nodejs-cpp/verify-password-used-to-protect-the-worksheet/
 description: Learn how to verify the password used to protect a worksheet using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

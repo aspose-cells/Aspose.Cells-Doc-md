@@ -3,6 +3,8 @@ title: Load Source Excel File Without Charts
 type: docs
 weight: 420
 url: /python-net/load-source-excel-file-without-charts/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

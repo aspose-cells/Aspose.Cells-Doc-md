@@ -3,6 +3,8 @@ title: Preparing for Creating Table Report
 type: docs
 weight: 10
 url: /reportingservices/preparing-for-creating-table-report/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Before creating a tabular report user must first create data sources, datasets and report parameters (optional) as described in [DataSources and Queries](/cells/reportingservices/data-sources-and-queries/).

@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/add-pdf-bookmarks/
 description: Learn how to add pdf book marks with Aspose.Cells for Python via .NET API.
 keywords: Python add pdf bookmarks, add pdf book marks Pyton via NET, insert pdf bookmarks
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 4
 url: /python-net/getting-started/
 description: Learn how to install Aspose.Cells for Python via .NET and create Hello World Application.
 keywords: How to install Aspose.Cells for Python via .NET in Windows Linux and MacOS, installation guidelines for Aspose.Cells for Python via .NET, Python Via .NET Hello World program. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **System Requirements**

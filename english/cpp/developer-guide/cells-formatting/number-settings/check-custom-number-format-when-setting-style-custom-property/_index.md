@@ -5,6 +5,8 @@ keywords: Aspose.Cells, C++ libraries, spreadsheets, styling, custom number form
 type: docs
 weight: 170
 url: /cpp/check-custom-number-format-when-setting-style-custom-property/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

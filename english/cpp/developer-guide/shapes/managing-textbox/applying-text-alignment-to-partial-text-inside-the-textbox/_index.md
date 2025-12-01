@@ -6,6 +6,8 @@ weight: 20
 url: /cpp/applying-text-alignment-to-partial-text-inside-the-textbox/
 description: How to apply/set text alignment to textbox in Aspose.Cells with C++.
 keywords: apply/set alignment TextBox Worksheet Excel Aspose
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 TextBoxes can improve the expressiveness of our documents and diagrams, and applying different alignments to different parts of a TextBox can help highlight points of interest to readers. But the default alignment of TextBox does not meet all our needs. For this, you may need to adjust each TextBox to meet your target requirements. If you don't have a lot of TextBox objects to tweak, you're in luck. If there are so many TextBoxes to adjust, I think you will be in trouble. Don't worry now, [Aspose.Cells](https://products.aspose.com/cells/) provides such an API interface to help you do just that.

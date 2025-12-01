@@ -4,6 +4,8 @@ linktitle: Advanced Protection Settings since Excel XP
 type: docs
 weight: 30
 url: /nodejs-cpp/advanced-protection-settings-since-excel-xp/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

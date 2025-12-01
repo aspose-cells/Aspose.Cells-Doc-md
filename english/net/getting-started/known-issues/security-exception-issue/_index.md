@@ -3,6 +3,8 @@ title: Security Exception Issue
 type: docs
 weight: 30
 url: /net/security-exception-issue/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Security Exception Problem**

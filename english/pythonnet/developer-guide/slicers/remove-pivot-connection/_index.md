@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/remove-pivot-connection/
 description: Learn how to remove pivot connection with Aspose.Cells for Python via .NET library.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python remove pivot connection without Excel, Remove Pivot Connection using Aspose.Cells for Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

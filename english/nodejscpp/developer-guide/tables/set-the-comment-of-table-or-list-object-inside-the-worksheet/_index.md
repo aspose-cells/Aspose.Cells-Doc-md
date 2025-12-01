@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /nodejs-cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 description: Learn how to set the comment of the table or list object inside the worksheet using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

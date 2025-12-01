@@ -3,6 +3,8 @@ title: Link Cells to XML Map Elements
 type: docs
 weight: 50
 url: /python-net/link-cells-to-xml-map-elements/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

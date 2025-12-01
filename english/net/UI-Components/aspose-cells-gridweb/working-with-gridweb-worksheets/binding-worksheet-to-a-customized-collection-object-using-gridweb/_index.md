@@ -5,6 +5,8 @@ weight: 130
 url: /net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
 keywords: GridWeb,bind
 description: This article introduces how to bind worksheet to collection in GridWeb. 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

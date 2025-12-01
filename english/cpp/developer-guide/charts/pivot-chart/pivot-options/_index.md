@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/how-to-manage-pivotchart-with-pivotoptions/
 description: How to manage PivotChart with PivotOptions using C++.
 keywords: PivotChart
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## What is PivotChart

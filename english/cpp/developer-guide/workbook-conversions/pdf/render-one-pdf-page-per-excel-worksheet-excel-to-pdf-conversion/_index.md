@@ -4,6 +4,8 @@ type: docs
 weight: 100
 url: /cpp/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 description: Convert Excel worksheets into PDF format with one page for each worksheet using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

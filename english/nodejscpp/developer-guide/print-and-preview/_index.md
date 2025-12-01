@@ -5,6 +5,8 @@ type: docs
 weight: 70  
 url: /nodejs-cpp/workbook-and-worksheet-preview/  
 description: Aspose.Cells supports printing and previewing Excel files without Microsoft Excel installation using Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Print Preview**  

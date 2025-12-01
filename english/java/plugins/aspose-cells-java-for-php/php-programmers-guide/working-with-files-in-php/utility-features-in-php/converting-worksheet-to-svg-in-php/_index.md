@@ -3,6 +3,8 @@ title: Converting Worksheet to SVG in PHP
 type: docs
 weight: 60
 url: /java/converting-worksheet-to-svg-in-php/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Worksheet to SVG**

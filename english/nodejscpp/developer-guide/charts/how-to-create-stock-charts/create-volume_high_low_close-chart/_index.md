@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Volume-High-Low-Close Stock Chart, S
 type: docs
 weight: 183
 url: /nodejs-cpp/create-volume-high-low-close-stock-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

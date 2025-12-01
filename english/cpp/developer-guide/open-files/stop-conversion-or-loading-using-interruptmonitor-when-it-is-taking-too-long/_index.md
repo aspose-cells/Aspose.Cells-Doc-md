@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 description: Learn how to stop conversion or loading of large Excel files using InterruptMonitor in Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

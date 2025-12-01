@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, an abstract calculation engine that returns a ser
 type: docs
 weight: 55
 url: /cpp/returning-a-range-of-values-using-abstractcalculationengine/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

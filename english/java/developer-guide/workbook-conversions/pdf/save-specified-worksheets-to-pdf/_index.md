@@ -3,6 +3,8 @@ title: Save Specified Worksheets to PDF
 type: docs
 weight: 51
 url: /java/save-specified-worksheets-to-pdf/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 By default, Aspose.Cells save all **visible** worksheets in a workbook to pdf file. With [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-) option, you can save specified worksheets to pdf file. e.g. you can save active worksheet to pdf, save all worksheets(both visible and hidden worksheets) to pdf, save custom multiple worksheets to pdf.

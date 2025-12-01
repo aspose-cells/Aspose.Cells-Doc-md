@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/retrieving-sql-connection-data/
 description: Learn how to retrieve SQL connection data, including server URL, username, table name, and more using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

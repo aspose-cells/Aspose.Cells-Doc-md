@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /cpp/custom-sorting-in-pivot-table/
 description: Learn how to sort Pivot Tables on field values using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Custom sorting in Pivot Table**

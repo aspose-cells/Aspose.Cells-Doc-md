@@ -5,6 +5,8 @@ type: docs
 weight: 430  
 url: /nodejs-cpp/load-workbook-with-specified-printer-paper-size/  
 description: Learn how to set the printer paper size while loading a workbook using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

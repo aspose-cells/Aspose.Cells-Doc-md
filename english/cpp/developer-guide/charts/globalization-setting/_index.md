@@ -7,6 +7,8 @@ type: docs
 weight: 50
 url: /cpp/convert-chart-to-localized-image/
 alias: [/cpp/how-to-set-globalization-configuration-for-chart/]
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

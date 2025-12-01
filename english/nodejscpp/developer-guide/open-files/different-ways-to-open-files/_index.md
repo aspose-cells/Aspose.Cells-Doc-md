@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/different-ways-to-open-files/
 description: This article explains how to open an Excel file using Aspose.Cells for Node.js via C++ API.
 keywords: Node.js Open an Excel file without Excel, How do I open an Excel File using Node.js.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Export Worksheet CSS Separately in Output HTML
 type: docs
 weight: 80
 url: /python-net/export-worksheet-css-separately-in-output/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

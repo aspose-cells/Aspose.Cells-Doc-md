@@ -5,6 +5,8 @@ weight: 85
 url: /python-net/format-and-modify-named-ranges/
 description: This article shows how to Format and Modify Named Ranges by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Format and Modify Named Ranges, Python Set Background Color and Font Attributes to a Named Range, Python Add Borders to a Named Range, Python Rename a Named Range, Python Union of Ranges, Python Intersection of Ranges, Python Merge Cells in the Named Range.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Format Ranges**

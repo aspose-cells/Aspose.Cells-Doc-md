@@ -3,6 +3,8 @@ title: Digital Signatures
 type: docs
 weight: 50
 url: /reportingservices/digital-signatures/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Reporting Services supports digital signatures when exporting Microsoft Excel 2007 files or ODS files. We have some configuration information for digital signatures that can be set in the **Aspose.Cells.ReportingServices.xml** file.

@@ -5,6 +5,8 @@ type: docs
 weight: 105
 url: /cpp/autofill-ranges/
 description: Learn how to perform an autofill operation in a specified range of an Excel file using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Perform an Autofill in the Specified Range in Excel**

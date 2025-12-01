@@ -5,6 +5,8 @@ type: docs
 weight: 140
 url: /cpp/filter-vba-project-while-loading-a-workbook/
 description: Learn how to filter VBA projects while loading an Excel workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Filter VBA Project while loading an Excel workbook in C++**

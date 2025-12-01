@@ -5,6 +5,8 @@ type: docs
 weight: 280
 url: /cpp/set-preset-wordart-style-to-the-text-of-the-shape/
 description: Learn how to set preset WordArt style to the text of a shape using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

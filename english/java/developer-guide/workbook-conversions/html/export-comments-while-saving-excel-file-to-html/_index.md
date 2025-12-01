@@ -3,6 +3,8 @@ title: Export Comments while Saving Excel file to HTML
 type: docs
 weight: 40
 url: /java/export-comments-while-saving-excel-file-to-html/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

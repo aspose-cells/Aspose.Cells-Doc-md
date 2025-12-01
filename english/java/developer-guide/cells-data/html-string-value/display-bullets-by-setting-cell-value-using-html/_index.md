@@ -5,6 +5,8 @@ weight: 120
 url: /java/display-bullets-by-setting-cell-value-using/
 description: Learn how to add bullets to Excel Cells using HTML and Aspose.Cells for Java API.
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

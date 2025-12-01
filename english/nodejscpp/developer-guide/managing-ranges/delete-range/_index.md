@@ -5,6 +5,8 @@ type: docs
 weight: 105  
 url: /nodejs-cpp/delete-ranges-from-Excel/  
 description: Learn how to delete ranges in Excel and shift cells left or up using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

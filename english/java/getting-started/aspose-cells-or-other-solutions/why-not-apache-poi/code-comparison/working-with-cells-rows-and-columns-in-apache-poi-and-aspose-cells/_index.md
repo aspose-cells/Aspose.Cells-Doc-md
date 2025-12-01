@@ -3,6 +3,8 @@ title: Working with Cells, Rows and Columns in Apache POI and Aspose.Cells
 type: docs
 weight: 30
 url: /java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  **This section includes the following topics:**

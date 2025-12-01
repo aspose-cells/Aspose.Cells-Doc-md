@@ -5,6 +5,8 @@ type: docs
 weight: 1100
 url: /python-net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 description: Learn how to replace tags with text in textboxes within Excel worksheets using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

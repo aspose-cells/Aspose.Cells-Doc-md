@@ -5,6 +5,8 @@ type: docs
 weight: 90  
 url: /nodejs-cpp/manage-worksheets/  
 description: Add, remove, and activate worksheets using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

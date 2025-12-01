@@ -5,6 +5,8 @@ weight: 80
 url: /net/aspose-cells-griddesktop/use-format-painter/
 keywords: GridDesktop,format painter
 description: This article introduces the format painter in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

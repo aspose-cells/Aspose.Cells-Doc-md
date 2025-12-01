@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
 keywords: GridDesktop,import,data,datatable
 description: This article introduces how to import data in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

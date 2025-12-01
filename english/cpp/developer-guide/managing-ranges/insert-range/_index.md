@@ -5,6 +5,8 @@ type: docs
 weight: 105  
 url: /cpp/insert-ranges-to-excel/  
 description: Learn how to insert ranges into Excel files using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**

@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /python-net/enable-css-custom-properties-while-saving-to-html/
 description: Learn how to enable CSS custom properties when saving Excel files to HTML using Aspose.Cells for Python via .NET API.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

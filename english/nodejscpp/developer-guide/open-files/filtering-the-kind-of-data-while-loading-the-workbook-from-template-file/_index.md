@@ -4,6 +4,8 @@ linktitle: Filtering the kind of data while loading the workbook from template f
 type: docs  
 weight: 400  
 url: /nodejs-cpp/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

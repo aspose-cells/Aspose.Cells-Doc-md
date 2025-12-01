@@ -5,6 +5,8 @@ type: docs
 weight: 400
 url: /cpp/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/
 description: Learn how to filter specific data types while loading a workbook from a template file using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

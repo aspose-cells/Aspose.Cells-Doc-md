@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-gridweb/remove-worksheets/
 keywords: GridWeb,remove,remove GridWorksheet,remove worksheet
 description: This article introduces how to remove worksheet (GridWorksheet) in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

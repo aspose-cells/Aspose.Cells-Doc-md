@@ -3,6 +3,8 @@ title: Check if VBA Project is Protected and Locked for Viewing
 type: docs
 weight: 50
 url: /java/check-if-vba-project-is-protected-and-locked-for-viewing/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

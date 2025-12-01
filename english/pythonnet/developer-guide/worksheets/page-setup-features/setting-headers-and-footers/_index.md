@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/setting-headers-and-footers/
 description: This article explains how to programmatically insert an image in the header and footer of Excel worksheets by setting the header and footer with script commands using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python insert image in excel header footer, set excel header footer script commands using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

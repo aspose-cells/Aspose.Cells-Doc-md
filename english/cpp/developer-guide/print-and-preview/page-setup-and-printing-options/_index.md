@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/page-setup-and-printing-options/
 description: Configure page setup and print settings to control the printing process using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

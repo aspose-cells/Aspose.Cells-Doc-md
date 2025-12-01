@@ -5,6 +5,8 @@ type: docs
 weight: 72
 url: /python-net/how-to-set-point-as-total/
 description: Learn how to configure total points in Excel waterfall charts using Aspose.Cells for Python via .NET with this step-by-step guide.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **What is "Set Point as Total" in Excel Chart**

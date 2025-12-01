@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET library, cell formatting, Python, fon
 type: docs
 weight: 20
 url: /python-net/how-to-change-format-of-cell/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells, C++ library, spreadsheet, number format, list, supported
 type: docs
 weight: 30
 url: /cpp/list-of-supported-number-formats/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells**

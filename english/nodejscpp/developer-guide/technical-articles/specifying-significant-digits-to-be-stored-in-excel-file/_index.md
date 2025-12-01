@@ -5,6 +5,8 @@ type: docs
 weight: 30  
 url: /nodejs-cpp/specifying-significant-digits-to-be-stored-in-excel-file/  
 description: Learn how to specify significant digits to be stored in an Excel file using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

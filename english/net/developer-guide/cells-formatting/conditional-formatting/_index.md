@@ -6,6 +6,8 @@ weight: 60
 url: /net/conditional-formatting/
 description: How to apply conditional formats to Excel and ODS files in CSharp.
 keywords: apply conditional formats 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

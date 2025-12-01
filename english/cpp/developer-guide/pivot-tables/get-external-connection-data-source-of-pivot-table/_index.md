@@ -5,6 +5,8 @@ type: docs
 weight: 150
 url: /cpp/get-external-connection-data-source-of-pivot-table/
 description: Learn how to retrieve the external connection data source of a pivot table using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get External Connection Data Source of Pivot Table**

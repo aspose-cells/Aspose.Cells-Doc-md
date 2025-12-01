@@ -3,6 +3,8 @@ title: Delete Ranges
 type: docs
 weight: 25
 url: /java/delete-ranges-from-Excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

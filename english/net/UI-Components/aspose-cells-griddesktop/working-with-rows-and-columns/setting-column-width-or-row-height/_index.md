@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-griddesktop/set-column-width-or-row-height/
 description: This article explains how to set column width and row height using the Aspose.Cells.GridDesktop API.
 keywords: GridDesktop,set,width,column,row,height
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

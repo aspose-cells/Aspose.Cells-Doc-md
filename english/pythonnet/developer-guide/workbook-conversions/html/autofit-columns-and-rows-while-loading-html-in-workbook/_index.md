@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/autofit-columns-and-rows-while-loading-html-in-workbook/
 description: This topic show you how to AutoFit Columns and Rows while loading HTML in Workbook using Aspose.Cells for Python via NET.
 keywords: AutoFit Columns and Rows while loading HTML in Workbook, AutoFit Columns and Rows for loading HTML.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

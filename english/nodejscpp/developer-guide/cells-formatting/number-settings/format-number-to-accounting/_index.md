@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/how-to-format-number-to-accounting/
 description: This article will introduce how to Format Number to Accountingusing Aspose.Cells for Node.js via C++ API.
 keywords: Convert numerical values into an accounting format, Apply accounting formatting to numeric data, Transform numbers into an accounting representation, Format figures according to accounting standards, Adjust numerical entries to follow accounting format conventions, Format Number to Accounting
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

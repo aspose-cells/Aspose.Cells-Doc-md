@@ -5,6 +5,8 @@ weight: 80
 url: /net/convert-html-to-pdf/
 description: This topic show you how to convert HTML to PDF saveformat and MHTML to PDF saveformat using Aspose.Cells for .NET.
 keywords: C# convert HTML to PDF saveformat and MHTML to PDF saveformat.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Overview**

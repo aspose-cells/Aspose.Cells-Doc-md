@@ -6,6 +6,8 @@ keywords: Aspose.Cells, LowCode API, spreadsheet conversion, JSON, HTML, image, 
 type: docs
 weight: 200
 url: /net/work-with-spreadsheets-using-lowcode-api/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

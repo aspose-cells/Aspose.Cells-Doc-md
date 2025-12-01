@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /cpp/digitally-sign-a-vba-code-project-with-certificate/
 description: Learn how to digitally sign your VBA code project using Aspose.Cells for C++ with a certificate.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

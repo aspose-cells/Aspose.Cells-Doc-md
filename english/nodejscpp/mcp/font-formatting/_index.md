@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/mcp/font-formatting
 keywords: "Excel font formatting, Excel text formatting, Excel font settings, AI Excel font styling, Excel font automation"
 description: "Excel font and text formatting - apply font styles, colors, sizes, and text effects with AI automation"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Font and  Text Formatting

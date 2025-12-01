@@ -5,6 +5,8 @@ type: docs
 weight: 170
 url: /cpp/locking-wordart-watermark/
 description: Learn how to lock WordArt watermarks in Excel worksheets using Aspose.Cells for C++. Prevent editing, movement, and selection of watermarks programmatically.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

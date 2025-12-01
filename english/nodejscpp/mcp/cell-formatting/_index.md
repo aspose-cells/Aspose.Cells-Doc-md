@@ -6,6 +6,8 @@ weight: 40
 url: /nodejs-cpp/mcp/cell-formatting
 keywords: "Excel cell formatting, Excel cell styles, Excel borders, Excel alignment, Excel background colors, AI Excel formatting"
 description: "Excel cell formatting - apply backgrounds, borders, alignment, number formats, and cell styles with AI automation"
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Cell Formatting

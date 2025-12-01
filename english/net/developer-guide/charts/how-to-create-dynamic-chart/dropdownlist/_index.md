@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Dynamic Chart, Drop-Down List, Data Visualizati
 type: docs
 weight: 76
 url: /net/create-dynamic-chart-with-dropdownlist/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

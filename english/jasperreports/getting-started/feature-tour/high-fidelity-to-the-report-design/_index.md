@@ -3,6 +3,8 @@ title: High Fidelity to the Report Design
 type: docs
 weight: 30
 url: /jasperreports/high-fidelity-to-the-report-design/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

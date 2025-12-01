@@ -5,6 +5,8 @@ weight: 90
 url: /python-net/disable-pivot-table-ribbons/
 description: How to disable Pivot Table Ribbons with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Disable Pivot Table Ribbons Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 230  
 url: /cpp/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/  
 description: Access a table from a cell and add values using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

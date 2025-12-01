@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/how-to-set-comment-background/
 description: How to change color in comment and insert picture or image in comment in Excel using Aspose.Cells for Node.js via C++.
 keywords: add inset picture image color comment background excel Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

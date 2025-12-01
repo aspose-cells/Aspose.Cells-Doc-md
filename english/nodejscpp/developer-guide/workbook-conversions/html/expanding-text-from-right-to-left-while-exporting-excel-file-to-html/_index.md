@@ -4,6 +4,8 @@ linktitle: Expanding text from right to left while exporting Excel file to HTML
 type: docs  
 weight: 60  
 url: /nodejs-cpp/expanding-text-from-right-to-left-while-exporting-excel-file-to/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 {{% alert color="primary" %}}  

@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/removing-slicer/
 description: Learn how to remove slicer with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python remove Slicer without Excel, Delete Slicer using Aspose.Cells for Python, Python delete slicer, Delete slicer via Aspsoe.Cells for python excel library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

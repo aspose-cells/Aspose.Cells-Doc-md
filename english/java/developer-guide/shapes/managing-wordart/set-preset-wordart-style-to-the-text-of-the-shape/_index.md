@@ -3,6 +3,8 @@ title: Set preset WordArt style to the text of the shape
 type: docs
 weight: 1000
 url: /java/set-preset-wordart-style-to-the-text-of-the-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

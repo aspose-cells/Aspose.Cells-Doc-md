@@ -5,6 +5,8 @@ keywords: Aspose.Cells, line breaks, text wraps, text layout
 type: docs
 weight: 60
 url: /cpp/line-breaks-and-text-wrapping/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

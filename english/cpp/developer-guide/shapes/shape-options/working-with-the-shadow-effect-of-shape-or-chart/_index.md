@@ -5,6 +5,8 @@ type: docs
 weight: 220
 url: /cpp/working-with-the-shadow-effect-of-shape-or-chart/
 description: Learn how to manipulate the shadow effect of shapes or charts using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

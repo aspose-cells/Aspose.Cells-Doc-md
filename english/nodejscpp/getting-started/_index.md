@@ -5,6 +5,8 @@ weight: 5
 url: /nodejs-cpp/getting-started/
 keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via C++ and installation guidelines."
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Product Description**

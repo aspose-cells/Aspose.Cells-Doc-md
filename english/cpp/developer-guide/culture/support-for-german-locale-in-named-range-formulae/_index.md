@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/support-for-german-locale-in-named-range-formulae/
 description: Learn how to handle named range formulae in German locale using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 English formulae are written into named regions. This Excel file can be opened in an environment where the system is configured to German Locale; however, the English formula shall be translated to the German language. The following example demonstrates this feature, but it requires Excel to be installed in German and the system locale to be set to German as well.

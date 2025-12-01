@@ -5,6 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/ignore-errors-while-rendering-excel-to-pdf/  
 description: Learn how to ignore errors during the conversion of Excel files to PDF using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Possible Usage Scenarios**  

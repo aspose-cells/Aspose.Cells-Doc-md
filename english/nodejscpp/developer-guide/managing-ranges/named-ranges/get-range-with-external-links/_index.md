@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/get-range-with-external-links/
 description: Learn how to get ranges with external links using Aspose.Cells for Node.js via C++. Retrieve data from different Excel files efficiently.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Range with External Links**

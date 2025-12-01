@@ -3,6 +3,8 @@ title: Extract Text from the Gear Type SmartArt Shape
 type: docs
 weight: 500
 url: /python-net/extract-text-from-the-gear-type-smartart-shape/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

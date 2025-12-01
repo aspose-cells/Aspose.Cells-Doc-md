@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, Data Bars, Images, Spreadsheets
 type: docs
 weight: 40
 url: /cpp/generate-conditional-formatting-databars-images/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

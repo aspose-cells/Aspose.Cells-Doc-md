@@ -3,6 +3,8 @@ title: Set Print Area
 type: docs
 weight: 40
 url: /java/set-print-area/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Print Area**

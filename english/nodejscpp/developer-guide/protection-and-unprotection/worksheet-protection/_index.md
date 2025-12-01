@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/protect-and-unprotect-worksheets/  
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-gridweb/use-client-side-functions-to-select-range-or-get-the-selected-range/
 keywords: GridWeb,selected,range
 description: This article describes how to get selected range in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

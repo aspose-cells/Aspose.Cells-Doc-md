@@ -3,6 +3,8 @@ title: Load Workbook with specified Printer Paper Size
 type: docs
 weight: 430
 url: /cpp/load-workbook-with-specified-printer-paper-size/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/convert-csv-tsv-and-txt-to-excel/
 description: Learn how to convert CSV, TSV, and TXT files to Excel using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

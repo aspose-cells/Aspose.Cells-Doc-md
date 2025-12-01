@@ -6,6 +6,8 @@ weight: 90
 url: /nodejs-cpp/find-if-the-worksheet-is-dialog-sheet/
 description: This article provides instructions and sample code for determining programmatically whether an Excel worksheet is a Dialog Sheet using Aspose.Cells for Node.js via C++.
 keywords: find excel worksheet dialog type Node.js via C++, worksheet dialog Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

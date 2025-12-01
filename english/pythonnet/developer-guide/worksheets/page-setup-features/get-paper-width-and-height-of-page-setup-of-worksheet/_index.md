@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/get-paper-width-and-height-of-page-setup-of-worksheet/
 description: You will discover in this article how to get the Excel Worksheet Page Setup Paper Width and Paper Height using python code programmatically with Aspsoe.Cells for Python via .NET API or Library.
 keywords: Python Excel Library, Python excel page setup paper width, excel page setup paper height in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

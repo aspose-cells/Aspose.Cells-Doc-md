@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/show-formulas-instead-of-values-in-a-worksheet/
 description: This article provides sample code for using the Aspose.Cells for Python via .NET API to programmatically display formulas rather than values in an Excel worksheet or spreadsheet.
 keywords: Python Excel Library, Python Show Formulas Instead of Values in a Worksheet, Python How to Show Formulas.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

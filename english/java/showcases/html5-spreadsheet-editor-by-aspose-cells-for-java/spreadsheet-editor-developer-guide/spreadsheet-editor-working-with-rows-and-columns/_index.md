@@ -3,6 +3,8 @@ title: Spreadsheet Editor - Working with Rows and Columns
 type: docs
 weight: 30
 url: /java/spreadsheet-editor-working-with-rows-and-columns/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Table of Contents**

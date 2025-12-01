@@ -3,6 +3,8 @@ title: Add Worksheets to Existing Excel File in PHP
 type: docs
 weight: 10
 url: /net/add-worksheets-to-existing-excel-file-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Add Worksheets to Existing Excel File

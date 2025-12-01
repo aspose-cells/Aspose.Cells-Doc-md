@@ -3,6 +3,8 @@ title: Set Range Border
 type: docs
 weight: 600
 url: /net/set-range-border/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

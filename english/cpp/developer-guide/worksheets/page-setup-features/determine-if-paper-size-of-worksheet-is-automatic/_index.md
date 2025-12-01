@@ -6,6 +6,8 @@ weight: 90
 url: /cpp/determine-if-paper-size-of-worksheet-is-automatic/
 description: This article explains how to use the C++ API or library sample code to determine if Paper Size of Worksheet is Automatic programmatically.
 keywords: determine if paper size of worksheet automatic c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /cpp/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
 description: Learn how to copy sparklines by specifying data range and location using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

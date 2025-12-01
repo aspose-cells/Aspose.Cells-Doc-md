@@ -5,6 +5,8 @@ weight: 2000
 url: /python-net/change-adjustment-values-of-the-shape/
 description: This article shows how to Change Adjustment Values of the Shape through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Change Adjustment Values of the Shape, Python how to Change Adjustment Values of the Shape.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

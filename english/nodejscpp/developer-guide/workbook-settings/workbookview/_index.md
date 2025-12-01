@@ -6,6 +6,8 @@ weight: 600
 url: /nodejs-cpp/how-to-control-workbook-view/
 description: Learn how to control the Workbook View through the Aspose.Cells for Node.js via C++ API.
 keywords: How to Control Workbook View Node.js via C++, Set Excel View Node.js via C++, Operate Workbook View Node.js via C++, Set Workbook View Node.js via C++, Control Excel View Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

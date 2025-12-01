@@ -3,6 +3,8 @@ title: Implement Subtotal or Grand Total labels in other languages
 type: docs
 weight: 50
 url: /net/implement-subtotal-or-grand-total-labels-in-other-languages/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

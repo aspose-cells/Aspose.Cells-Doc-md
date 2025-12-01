@@ -3,6 +3,8 @@ title: Apply Styles to Ranges in Workbooks
 type: docs
 weight: 40
 url: /net/apply-styles-to-ranges-in-workbooks/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Below is the code comparison of applying style to rows and columns of workbooks:

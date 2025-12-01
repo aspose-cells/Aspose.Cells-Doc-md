@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /cpp/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 description: Render a sequence of pages from an Excel file to images using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

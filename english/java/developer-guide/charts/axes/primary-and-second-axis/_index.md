@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, primary axes, secondary axes, understanding, di
 type: docs
 weight: 190
 url: /java/primary-and-second-axis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

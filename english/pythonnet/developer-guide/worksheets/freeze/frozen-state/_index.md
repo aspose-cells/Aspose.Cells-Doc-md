@@ -6,6 +6,8 @@ weight: 190
 url: /python-net/how-to-check-frozen-state-of-excel-worksheet
 description: In this article, you will learn how check frozen state of excel worksheet programmatically using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python How to check Frozen State without Excel, Check Frozen State without Excel in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

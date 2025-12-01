@@ -3,6 +3,8 @@ title: AutoFit Columns and Rows while loading HTML in Workbook
 type: docs
 weight: 70
 url: /java/autofit-columns-and-rows-while-loading-html-in-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

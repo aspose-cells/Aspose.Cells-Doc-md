@@ -5,6 +5,8 @@ weight: 35
 url: /python-net/setting-different-headers-and-footers-for-pages-to-Excel/
 description: This article provides sample code that shows how to programmatically set various headers and footers of Excel worksheet Page Setup settings using the Aspose.Cells for Python API. You can set the headers and footers for the first page, odd pages and even pages.
 keywords: Python Excel Library, Python set excel header footer first page, set excel header footer odd pages in Python, set excel header footer even pages using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 300  
 url: /nodejs-cpp/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/  
 description: Learn how to copy a sparkline in Excel by specifying data range and location of sparkline group using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -3,6 +3,8 @@ title: Copying Rows and Columns in Python
 type: docs
 weight: 30
 url: /java/copying-rows-and-columns-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Copying Rows and Columns**

@@ -3,6 +3,8 @@ title: Display String in Worksheet Cell
 type: docs
 weight: 110
 url: /net/display-string-in-worksheet-cell/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **VSTO**

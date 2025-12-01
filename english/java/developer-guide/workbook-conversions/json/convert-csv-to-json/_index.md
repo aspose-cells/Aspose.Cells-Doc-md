@@ -3,6 +3,8 @@ title: Convert CSV to JSON
 type: docs
 weight: 170
 url: /java/convert-csv-to-json/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert CSV to JSON**

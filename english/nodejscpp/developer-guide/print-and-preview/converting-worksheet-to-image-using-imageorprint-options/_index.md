@@ -5,6 +5,8 @@ type: docs
 weight: 90  
 url: /nodejs-cpp/converting-worksheet-to-image-using-imageorprint-options/  
 description: Learn how to convert a worksheet to an image file and apply various image and print options using Aspose.Cells for Node.js via C++.   
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

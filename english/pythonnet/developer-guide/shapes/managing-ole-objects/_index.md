@@ -3,6 +3,8 @@ title: Managing OLE Objects
 type: docs
 weight: 50
 url: /python-net/managing-ole-objects/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

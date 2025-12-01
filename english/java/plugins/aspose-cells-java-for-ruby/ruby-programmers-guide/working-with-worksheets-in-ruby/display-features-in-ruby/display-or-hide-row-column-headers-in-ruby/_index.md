@@ -3,6 +3,8 @@ title: Display or Hide Row Column Headers in Ruby
 type: docs
 weight: 20
 url: /java/display-or-hide-row-column-headers-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display or Hide Row Column Headers**

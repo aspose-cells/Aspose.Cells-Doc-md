@@ -4,6 +4,8 @@ type: docs
 weight: 30
 url: /java/aspose-cells-features/
 description: Summarize Aspose.Cells for Java features and provide links to detailed feature descriptions.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

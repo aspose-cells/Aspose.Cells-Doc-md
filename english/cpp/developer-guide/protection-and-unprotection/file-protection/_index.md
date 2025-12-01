@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/encrypt-and-decrypt-excel-files/
 description: How to encrypt and decrypt Excel files using C++. Lock and unlock Excel files.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

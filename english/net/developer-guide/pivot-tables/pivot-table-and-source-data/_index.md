@@ -3,6 +3,8 @@ title: Pivot Table and Source Data
 type: docs
 weight: 30
 url: /net/pivot-table-and-source-data/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table's Source Data**

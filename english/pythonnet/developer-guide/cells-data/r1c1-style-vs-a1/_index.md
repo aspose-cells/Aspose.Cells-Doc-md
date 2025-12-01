@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/r1c1-reference-style-vs-a1/
 description: R1C1 Reference Style VS. A1 style by using Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python R1C1 Reference Style VS. A1 style, Python R1C1 Reference Style, Python How to switch between R1C1 Reference Style and A1 Reference Style, Python A1 Reference style.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

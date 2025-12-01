@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/configuring-fonts-for-rendering-spreadsheets/
 description: Learn how to configure fonts for rendering spreadsheets to images, PDF, and XPS formats using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

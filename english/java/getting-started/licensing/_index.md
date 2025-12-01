@@ -5,6 +5,8 @@ weight: 50
 url: /java/licensing/
 description: Aspose.Cells for JAVA provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies in Java.
 keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Apply a License in Aspose.Cells Component**

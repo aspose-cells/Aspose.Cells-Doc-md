@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 description: Learn how to implement errors and boolean values in Russian or any other language using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Node.js via C++, Z-axis, charting, configuration, cus
 type: docs
 weight: 210
 url: /nodejs-cpp/z-axis/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ weight: 700
 url: /nodejs-cpp/managing-database-connections/
 description: Learn how to manage database connections and execute queries using Node.js via C++ with Aspose.Cells.
 keywords: Manage database connections Node.js via C++, Execute queries Node.js via C++, Database interaction Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

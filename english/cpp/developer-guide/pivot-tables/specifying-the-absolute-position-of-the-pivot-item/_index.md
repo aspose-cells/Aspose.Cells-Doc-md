@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/specifying-the-absolute-position-of-the-pivot-item/
 description: Learn how to specify the absolute position of pivot items in C++ using Aspose.Cells.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -4,6 +4,8 @@ linktitle: Keep Separators for Blank Rows while exporting spreadsheets to CSV fo
 type: docs  
 weight: 160  
 url: /nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Keep Separators for Blank Rows while exporting spreadsheets to CSV format**  

@@ -3,6 +3,8 @@ title: Check if VBA project in a Workbook is Signed
 type: docs
 weight: 70
 url: /net/check-if-vba-project-in-a-workbook-is-signed/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

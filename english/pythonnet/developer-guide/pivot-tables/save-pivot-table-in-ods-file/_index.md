@@ -5,6 +5,8 @@ weight: 150
 url: /python-net/save-pivot-table-in-ods-file/
 description: This article shows how to save pivot table in ODS file with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Save pivot table in ODS file using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Save Pivot Table in ODS file**

@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 description: Learn how to update the number of days for preserving history in a shared workbook using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

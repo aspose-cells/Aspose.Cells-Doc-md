@@ -5,6 +5,8 @@ weight: 380
 url: /python-net/search-data-using-original-values/
 description: Learn how to Search Data using Original Values through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Search Data using Original Values, Python Find Data using Original Values, Python Search Data by Original Values, Python Find Data by Original Values
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

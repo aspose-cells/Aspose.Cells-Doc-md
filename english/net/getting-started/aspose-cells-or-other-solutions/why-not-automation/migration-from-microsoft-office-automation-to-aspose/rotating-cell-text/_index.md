@@ -3,6 +3,8 @@ title: Rotating Cell Text
 type: docs
 weight: 100
 url: /net/rotating-cell-text/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Node.js via C++, primary axes, secondary axes, unders
 type: docs
 weight: 190
 url: /nodejs-cpp/primary-and-second-axis/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

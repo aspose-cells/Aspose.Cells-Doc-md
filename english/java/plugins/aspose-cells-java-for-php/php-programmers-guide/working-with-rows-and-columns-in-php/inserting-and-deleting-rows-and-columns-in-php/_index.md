@@ -5,6 +5,8 @@ weight: 60
 url: /java/inserting-and-deleting-rows-and-columns-in-php/
 description: Learn how to Insert and Delete Rows and Columns through the Aspose.Cells for PHP via Java APIs.
 keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Managing Rows/Columns**

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Combo Chart, Combining Chart Types, Data Presen
 type: docs
 weight: 73
 url: /net/create-combo-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/get-headers-or-footers/
 description: This article explains how to programmatically get header and footers from Excel or OpenOffice files using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python get headers and footers, Parse Headers and Footers to Command List using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

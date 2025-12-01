@@ -4,6 +4,8 @@ linktitle: Ranges
 type: docs
 weight: 105
 url: /net/managing-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

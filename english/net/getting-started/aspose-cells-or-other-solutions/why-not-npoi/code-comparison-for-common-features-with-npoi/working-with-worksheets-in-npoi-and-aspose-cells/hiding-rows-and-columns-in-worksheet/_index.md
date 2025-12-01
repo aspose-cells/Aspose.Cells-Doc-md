@@ -3,6 +3,8 @@ title: Hiding Rows and Columns in Worksheet
 type: docs
 weight: 60
 url: /net/hiding-rows-and-columns-in-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hiding Rows and Columns in Worksheet**

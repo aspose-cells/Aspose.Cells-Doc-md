@@ -6,6 +6,8 @@ weight: 100
 url: /java/how-to-add-pivot-chart/
 description: How to add a PivotChart using Aspose.Cells.
 keywords: PivotChart
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## What is PivotChart
 A pivot chart is a visual representation of the data in a pivot table. Pivot charts provide a way to summarize, analyze, explore, and present summary data. Here are some key features and aspects of pivot charts:

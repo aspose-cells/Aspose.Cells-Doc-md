@@ -3,6 +3,8 @@ title: Check if VBA Code is Signed
 type: docs
 weight: 100
 url: /net/check-if-vba-code-is-signed/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

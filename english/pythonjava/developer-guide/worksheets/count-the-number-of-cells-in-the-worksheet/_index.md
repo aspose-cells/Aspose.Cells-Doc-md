@@ -3,6 +3,8 @@ title: Count the number of cells in the Worksheet
 type: docs
 weight: 40
 url: /python-java/count-the-number-of-cells-in-the-worksheet/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Count the number of cells in the Worksheet**

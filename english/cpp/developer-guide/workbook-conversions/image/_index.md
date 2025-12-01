@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /cpp/convert-excel-to-image/
 description: Learn how to convert Excel worksheets to images, including TIFF and SVG formats, using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

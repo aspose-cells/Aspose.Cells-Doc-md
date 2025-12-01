@@ -6,6 +6,8 @@ weight: 190
 url: /net/how-to-freeze-rows-of-excel-worksheet
 description: In this article, you will learn how to freeze top rows of Excel Worksheets programmatically using C# Library with .NET API.
 keywords: Freeze top rows, Feeze top row.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

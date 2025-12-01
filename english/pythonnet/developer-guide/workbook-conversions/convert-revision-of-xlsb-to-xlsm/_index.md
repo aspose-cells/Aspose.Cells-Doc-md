@@ -5,6 +5,8 @@ weight: 290
 url: /python-net/convert-revision-of-xlsb-to-xlsm/
 description: How to Convert Revision of XLSB to XLSM with Aspose.Cells for Python via .NET API.
 keywords: Python Convert Revision of XLSB to XLSM, Convert Revision of XLSB to XLSM Pyton via NET, Python via NET Convert Revision of XLSB to XLSM.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

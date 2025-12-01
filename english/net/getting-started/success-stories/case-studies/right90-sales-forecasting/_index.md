@@ -3,6 +3,8 @@ title: Right90 Sales Forecasting
 type: docs
 weight: 10
 url: /net/right90-sales-forecasting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Product Background**

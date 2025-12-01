@@ -3,6 +3,8 @@ title: Modify existing SQL Data Connection using Aspose.Cells
 type: docs
 weight: 20
 url: /net/modify-existing-sql-data-connection-using-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

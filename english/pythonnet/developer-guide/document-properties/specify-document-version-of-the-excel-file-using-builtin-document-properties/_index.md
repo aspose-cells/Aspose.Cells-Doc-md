@@ -3,6 +3,8 @@ title: Specify Document Version of the Excel File using BuiltIn Document Propert
 type: docs
 weight: 20
 url: /python-net/specify-document-version-of-the-excel-file-using-builtin-document-properties/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

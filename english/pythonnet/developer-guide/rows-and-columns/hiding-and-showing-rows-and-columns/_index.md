@@ -5,6 +5,8 @@ weight: 60
 url: /python-net/hiding-and-showing-rows-and-columns/
 description: This article shows how to Hide and Show Rows and Columns by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Aspose.Cells Python Hide and Show Rows, Python Hide and Show Columns, Python Hide Rows and Columns, Python Show Rows and Columns.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

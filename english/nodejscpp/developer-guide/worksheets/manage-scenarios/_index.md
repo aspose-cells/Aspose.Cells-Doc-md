@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/create-manipulate-or-remove-scenarios-from-worksheets/
 description: Learn how to create, manipulate, or remove scenarios from Excel Worksheets programmatically using Node.js with C++ API.
 keywords: create scenario worksheet node.js via C++, remove scenario excel worksheet node.js via C++, manipulate scenario worksheet node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Adding Reporting Services Global Variables to Report
 type: docs
 weight: 70
 url: /reportingservices/adding-reporting-services-global-variables-to-report/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

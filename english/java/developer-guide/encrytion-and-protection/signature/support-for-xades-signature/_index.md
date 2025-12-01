@@ -3,6 +3,8 @@ title: Support for XAdES Signature
 type: docs
 weight: 110
 url: /java/support-for-xades-signature/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides supports signing workbooks with XAdES Signature. For this, the API provides [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) class and [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType) enumeration.

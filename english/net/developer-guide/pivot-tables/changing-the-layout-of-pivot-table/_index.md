@@ -3,6 +3,8 @@ title: Changing the Layout of Pivot Table
 type: docs
 weight: 10
 url: /net/changing-the-layout-of-pivot-table/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

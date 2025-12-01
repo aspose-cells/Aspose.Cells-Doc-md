@@ -5,6 +5,8 @@ type: docs
 weight: 230
 url: /cpp/get-warnings-for-font-substitution-while-rendering-excel-file/
 description: Learn how to get warnings for font substitution when rendering Excel files to PDF using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

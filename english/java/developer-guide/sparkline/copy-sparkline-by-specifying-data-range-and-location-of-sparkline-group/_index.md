@@ -3,6 +3,8 @@ title: Copy Sparkline by Specifying Data Range and Location of Sparkline Group
 type: docs
 weight: 120
 url: /java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Copy Sparkline by Specifying Data Range and Location of Sparkline Group in MS Excel

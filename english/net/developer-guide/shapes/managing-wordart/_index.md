@@ -4,6 +4,8 @@ linktitle: Managing WordArt
 type: docs
 weight: 180
 url: /net/add-wordart-watermark-to-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

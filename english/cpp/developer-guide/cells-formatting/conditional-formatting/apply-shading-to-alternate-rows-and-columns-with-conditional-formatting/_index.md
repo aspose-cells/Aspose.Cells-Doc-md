@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, C++, Alternate Rows, Alternate C
 type: docs
 weight: 30
 url: /cpp/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

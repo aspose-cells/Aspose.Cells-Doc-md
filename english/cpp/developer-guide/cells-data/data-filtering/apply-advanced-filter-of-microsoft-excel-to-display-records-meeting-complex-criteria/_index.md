@@ -6,6 +6,8 @@ weight: 280
 url: /cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 description: Learn how to apply advanced filter of microsoft excel to display records meeting complex criteria by using the Aspose.Cells for C++ API.
 keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
@@ -79,5 +81,6 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```
+
 {{< app/cells/assistant language="cpp" >}}

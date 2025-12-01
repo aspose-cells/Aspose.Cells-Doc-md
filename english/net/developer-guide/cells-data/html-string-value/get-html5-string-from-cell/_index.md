@@ -5,6 +5,8 @@ weight: 90
 url: /net/get-html5-string-from-cell/
 description: Learn how to Get HTML5 string from Cell through the Aspose.Cells for .NET API.
 keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

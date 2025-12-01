@@ -3,6 +3,8 @@ title: Aspose.Cells for Android via Java Installation
 type: docs
 weight: 30
 url: /java/aspose-cells-for-android-via-java-installation/
+ai_search_scope: cells_androidjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **System Requirements**

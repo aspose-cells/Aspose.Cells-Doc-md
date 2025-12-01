@@ -3,6 +3,8 @@ title: Adobe Portable Document Format - PDF
 type: docs
 weight: 40
 url: /net/adobe-portable-document-format-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

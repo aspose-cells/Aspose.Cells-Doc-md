@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/page-setup-features/
 description: Learn how to configure page setup features in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Page Setup Features**

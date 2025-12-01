@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/removing-slicer/
 description: Learn how to remove slicers in Excel files programmatically using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

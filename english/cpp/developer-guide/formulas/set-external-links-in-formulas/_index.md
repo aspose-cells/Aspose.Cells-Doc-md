@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/set-external-links-in-formulas/
 description: Learn how to include links to external files in formulas using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Protecting and Unprotecting Workbooks in VSTO and Aspose.Cells
 type: docs
 weight: 200
 url: /net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To open an existing Microsoft Excel file, protect the workbook with structure and Windows attributes and save the file.

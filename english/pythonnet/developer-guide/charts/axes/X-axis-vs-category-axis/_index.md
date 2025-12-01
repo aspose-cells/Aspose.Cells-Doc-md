@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, X axis, Category axis, difference, u
 type: docs
 weight: 180
 url: /python-net/X-axis-vs-category-axis/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

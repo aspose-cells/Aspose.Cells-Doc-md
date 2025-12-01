@@ -5,6 +5,8 @@ weight: 600
 url: /python-net/how-to-prevent-printing-excel/
 description: Learn how to How to prevent users from printing excel through the Aspose.Cells for Python via .NET API.
 keywords: excel printing, prevent printing excel, how to prevent users from printing excel, excel prevent printing, prevent printing workbook, Prevent users from printing the whole workbook with VBA. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

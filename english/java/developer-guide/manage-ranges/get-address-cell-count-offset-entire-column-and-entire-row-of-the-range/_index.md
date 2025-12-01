@@ -3,6 +3,8 @@ title: Get Address Cell Count Offset Entire Column and Entire Row of the Range
 type: docs
 weight: 250
 url: /java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

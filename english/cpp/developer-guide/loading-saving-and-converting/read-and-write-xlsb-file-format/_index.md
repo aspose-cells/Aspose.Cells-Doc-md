@@ -3,6 +3,8 @@ title: Read and Write XLSB File Format
 type: docs
 weight: 60
 url: /cpp/read-and-write-xlsb-file-format/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

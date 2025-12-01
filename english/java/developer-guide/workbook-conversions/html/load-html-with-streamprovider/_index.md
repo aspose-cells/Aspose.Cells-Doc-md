@@ -3,6 +3,8 @@ title: Load Html to Excel with StreamProvider
 type: docs
 weight: 80
 url: /java/convert-html-to-excel-with-streamprovider/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

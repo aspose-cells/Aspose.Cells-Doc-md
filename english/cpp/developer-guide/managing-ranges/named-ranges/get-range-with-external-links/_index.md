@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/get-range-with-external-links/
 description: Learn how to retrieve ranges with external links in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Range with External Links**

@@ -3,6 +3,8 @@ title: Using DLL Only
 type: docs
 weight: 20
 url: /reportingservices/using-dll-only/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## How to install Aspose.Cells for Reporting Services using only the DLL:

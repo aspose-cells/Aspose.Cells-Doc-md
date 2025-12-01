@@ -5,6 +5,8 @@ keywords: Aspose.Cells for C++, Treemap chart, create, properties, formatting, c
 type: docs
 weight: 161
 url: /cpp/creating-treemap-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

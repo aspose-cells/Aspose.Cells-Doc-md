@@ -5,6 +5,8 @@ type: docs
 weight: 235
 url: /python-net/globalization-and-localization/
 description: Learn how to handle multilingual data and regional settings in Excel files using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 <!-- Removed  per instructions -->

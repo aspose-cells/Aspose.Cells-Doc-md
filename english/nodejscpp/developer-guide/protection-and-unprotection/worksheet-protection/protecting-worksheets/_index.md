@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /nodejs-cpp/protecting-worksheets/
 description: Learn how to protect worksheets in Excel using Aspose.Cells for Node.js via C++, including protecting rows, columns, and specific cells.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

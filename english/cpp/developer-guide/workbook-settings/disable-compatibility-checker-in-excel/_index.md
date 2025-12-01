@@ -6,6 +6,8 @@ weight: 170
 url: /cpp/disable-compatibility-checker-in-excel/
 description: This article shows how to disable compatibility checker through the Aspose.Cells for C++ API.
 keywords: C++ Disable Compatibility Checker, Excel Disable Compatibility Checker in C++, Disable Compatibility Checker in Workbook. 
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Disable Compatibility Checker in Excel Worksheets in C++

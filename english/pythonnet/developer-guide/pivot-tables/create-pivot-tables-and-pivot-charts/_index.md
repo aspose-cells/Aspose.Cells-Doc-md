@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/create-pivot-tables-and-pivot-charts/
 description: How to add Pivot Tables and Pivot Charts with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Add Pivot Tables and Pivot Charts Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

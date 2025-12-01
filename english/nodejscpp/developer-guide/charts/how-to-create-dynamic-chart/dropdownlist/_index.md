@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Dynamic Chart, Drop-Down List, Data 
 type: docs
 weight: 76
 url: /nodejs-cpp/create-dynamic-chart-with-dropdownlist/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

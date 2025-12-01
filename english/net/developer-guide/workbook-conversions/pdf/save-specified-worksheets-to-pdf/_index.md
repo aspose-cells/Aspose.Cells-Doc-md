@@ -3,6 +3,8 @@ title: Save Specified Worksheets to PDF
 type: docs
 weight: 140
 url: /net/save-specified-worksheets-to-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 By default, Aspose.Cells save all **visible** worksheets in a workbook to pdf file. With [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) option, you can save specified worksheets to pdf file. e.g. you can save active worksheet to pdf, save all worksheets(both visible and hidden worksheets) to pdf, save custom multiple worksheets to pdf.

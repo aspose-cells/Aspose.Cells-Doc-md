@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, chart axes, automatic units, Microsoft Excel, co
 type: docs
 weight: 120
 url: /cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

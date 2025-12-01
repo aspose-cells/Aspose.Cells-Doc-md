@@ -4,6 +4,8 @@ linktitle: Merge Files
 type: docs
 weight: 20
 url: /nodejs-cpp/merge-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

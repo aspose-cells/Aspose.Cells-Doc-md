@@ -3,6 +3,8 @@ title: Set Print Titles
 type: docs
 weight: 30
 url: /net/set-print-titles/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Print Titles**

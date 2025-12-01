@@ -5,6 +5,8 @@ weight: 70
 url: /java/merge-or-unmerge-range-of-cells/
 description: Merge and Unmerge Cells in a Range in Excel with Java code.
 keywords: java merge and unmerge cells in a range, java merge and unmerge cells in range, merge and unmerge cells in range with java, merge and unmerge cells in range using java, merge and unmerge cells in excel using java, merge and unmerge cells in excel with java, java merge and unmerge cells in excel, java merge cells in excel, java unmerge cells in excel, merge cells in range with java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Getting Started
 type: docs
 weight: 10
 url: /jasperreports/getting-started/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/insert-svg-to-excel/
 description: Learn how to add icons to Excel worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Add Icons to Worksheet in Aspose.Cells

@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-griddesktop/work-with-validations-in-worksheets/
 keywords: GridDesktop,validations,validation
 description: This article introduces how to work with validation in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

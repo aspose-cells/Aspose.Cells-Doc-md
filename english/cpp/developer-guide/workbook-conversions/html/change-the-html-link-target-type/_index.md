@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /cpp/change-the-html-link-target-type/
 description: Learn how to change the HTML link target type using Aspose.Cells for C++. Control the target attribute in HTML links programmatically.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

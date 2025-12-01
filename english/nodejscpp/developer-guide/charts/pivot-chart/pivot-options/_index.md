@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/how-to-manage-pivotchart-with-pivotoptions/
 description: How to manage PivotChart with PivotOptions in Node.js via C++.
 keywords: PivotChart Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## What is PivotChart
 

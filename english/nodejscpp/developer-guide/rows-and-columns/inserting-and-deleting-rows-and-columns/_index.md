@@ -6,6 +6,8 @@ weight: 70
 url: /nodejs-cpp/inserting-and-deleting-rows-and-columns/
 description: This article shows how to insert and delete rows and columns by the Aspose.Cells for Node.js via C++ API.
 keywords: Aspose.Cells Node.js via C++ manage rows and columns, insert rows and columns, delete rows and columns
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

@@ -5,6 +5,8 @@ weight: 50
 url: /java/modify-an-existing-style/
 description: Learn how to change styles in Excel with Microsoft Excel and with Aspose.Cells for Java API.
 keywords: modify an existing style excel, modify an existing style excel java, modify existing style excel, modify existing style excel java, change existing style in excel, change existing style in excel java, how to change style in excel, how to change style in excel with java, how to change style in excel with java, how to change style in excel using java, changing existing style in excel java, changing existing style in excel
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

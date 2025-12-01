@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/export-excel-to-html-with-gridlines/  
 description: Learn how to export an Excel file to HTML format with GridLines using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

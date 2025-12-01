@@ -4,6 +4,8 @@ type: docs
 weight: 360
 url: /net/get-max-range-in-a-worksheet/
 description: This article describes how to get the max range , max data range, max display range of Excel files with Aspose.Cells for .Net library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

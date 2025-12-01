@@ -5,6 +5,8 @@ type: docs
 weight: 300
 url: /cpp/data-in-non-primitive-shape/
 description: Access and manipulate data in non-primitive shapes using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Accessing Data of Non-Primitive Shape**

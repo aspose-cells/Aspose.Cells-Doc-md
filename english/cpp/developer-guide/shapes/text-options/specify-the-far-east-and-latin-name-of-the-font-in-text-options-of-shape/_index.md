@@ -5,6 +5,8 @@ type: docs
 weight: 1600
 url: /cpp/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 description: Learn how to specify the Far East and Latin font names in text options of a shape using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

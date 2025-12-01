@@ -3,6 +3,8 @@ title: How to use the Aspose.Cells for Android via Java Examples
 type: docs
 weight: 50
 url: /java/how-to-use-the-aspose-cells-for-android-via-java-examples/
+ai_search_scope: cells_androidjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Firstly make sure that you have the ADT bundle installed and that you have downloaded the latest version of Aspose.Cells for Android via Java.

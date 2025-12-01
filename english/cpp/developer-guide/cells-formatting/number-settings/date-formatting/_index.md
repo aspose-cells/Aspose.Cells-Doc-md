@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/format-number-to-date/
 description: This article will introduce how to format number to date using Aspose.Cells for C++ API.
 keywords: format number as date, cell number settings, format number to date, date settings, date format.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

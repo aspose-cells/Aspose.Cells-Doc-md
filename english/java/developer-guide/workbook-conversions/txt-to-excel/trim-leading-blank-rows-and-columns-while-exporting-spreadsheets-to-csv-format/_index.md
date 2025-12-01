@@ -3,6 +3,8 @@ title: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV f
 type: docs
 weight: 50
 url: /java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

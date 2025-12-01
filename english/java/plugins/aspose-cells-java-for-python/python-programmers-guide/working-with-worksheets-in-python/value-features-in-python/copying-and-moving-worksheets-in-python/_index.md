@@ -3,6 +3,8 @@ title: Copying and Moving Worksheets in Python
 type: docs
 weight: 10
 url: /java/copying-and-moving-worksheets-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Copying and Moving Worksheets**

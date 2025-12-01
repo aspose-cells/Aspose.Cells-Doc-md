@@ -3,6 +3,8 @@ title: Set Line Spacing of the Paragraph in a Shape or Textbox
 type: docs
 weight: 290
 url: /python-net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

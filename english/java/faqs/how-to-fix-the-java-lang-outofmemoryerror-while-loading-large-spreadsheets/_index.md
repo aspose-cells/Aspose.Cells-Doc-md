@@ -3,6 +3,8 @@ title: How to Fix the java.lang.OutOfMemoryError while Loading Large Spreadsheet
 type: docs
 weight: 20
 url: /java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

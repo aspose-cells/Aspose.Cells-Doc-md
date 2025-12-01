@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, 2016, MINIFS function, MAXIFS function, calculati
 type: docs
 weight: 300
 url: /net/calculation-of-excel-2016-minifs-and-maxifs-functions/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

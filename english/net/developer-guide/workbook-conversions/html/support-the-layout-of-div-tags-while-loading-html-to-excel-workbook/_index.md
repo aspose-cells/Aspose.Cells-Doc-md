@@ -3,6 +3,8 @@ title: Support the layout of DIV tags while loading HTML to excel workbook
 type: docs
 weight: 50
 url: /net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

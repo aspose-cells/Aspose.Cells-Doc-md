@@ -6,6 +6,8 @@ keywords: Aspose.Cells, C++ library, electronic spreadsheet, custom format patte
 type: docs
 weight: 110
 url: /cpp/specifying-dbnum-custom-pattern-formatting/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

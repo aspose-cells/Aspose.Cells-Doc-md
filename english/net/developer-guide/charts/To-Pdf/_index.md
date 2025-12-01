@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Chart to PDF, Microsoft Excel, PDF Conversion, 
 type: docs
 weight: 47
 url: /net/chart-to-pdf/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Rendering Chart to PDF**

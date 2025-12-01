@@ -3,6 +3,8 @@ title: Control External Resources using WorkbookSetting.StreamProvider
 type: docs
 weight: 10
 url: /net/control-external-resources-using-workbooksetting-streamprovider/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

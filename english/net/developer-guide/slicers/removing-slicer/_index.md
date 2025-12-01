@@ -3,6 +3,8 @@ title: Removing Slicer
 type: docs
 weight: 30
 url: /net/removing-slicer/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

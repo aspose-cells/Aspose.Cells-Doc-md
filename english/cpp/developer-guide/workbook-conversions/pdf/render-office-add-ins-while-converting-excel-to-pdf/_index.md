@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/render-office-add-ins-while-converting-excel-to-pdf/
 description: Learn how to render Office Add-Ins while converting Excel files to PDF using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

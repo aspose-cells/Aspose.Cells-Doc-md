@@ -3,6 +3,8 @@ title: Excel Themes and Colors
 type: docs
 weight: 130
 url: /java/excel-2007-themes-and-colors/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

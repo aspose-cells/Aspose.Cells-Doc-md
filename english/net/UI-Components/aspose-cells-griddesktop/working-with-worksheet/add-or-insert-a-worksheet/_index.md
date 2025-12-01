@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-griddesktop/add-or-insert-a-worksheet/
 keywords: GridDesktop,insert,worksheet,insert worksheet
 description: This article introduces how to add or insert worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

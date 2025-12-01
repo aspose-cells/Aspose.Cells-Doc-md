@@ -3,6 +3,8 @@ title: Update Days Preserving History of Revision Logs in Shared Workbook
 type: docs
 weight: 90
 url: /java/update-days-preserving-history-of-revision-logs-in-shared-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

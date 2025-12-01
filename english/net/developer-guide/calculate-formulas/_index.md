@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Excel, formulas, calculations, Direct Calculation of For
 type: docs
 weight: 125
 url: /net/calculate-formulas/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Formulas & Calculating Results**

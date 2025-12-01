@@ -5,6 +5,8 @@ type: docs
 weight: 210
 url: /nodejs-cpp/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 description: Learn how to prevent exporting hidden worksheet contents when saving Excel files to HTML using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

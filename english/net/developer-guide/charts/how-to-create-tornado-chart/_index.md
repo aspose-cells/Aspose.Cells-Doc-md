@@ -5,6 +5,8 @@ weight: 73
 url: /net/create-tornado-chart/
 description: Learn how to create a tornado chart with Aspose.Cells for .NET API.
 keywords: C# create a tornado chart, add a tornado chart, insert a tornado chart
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

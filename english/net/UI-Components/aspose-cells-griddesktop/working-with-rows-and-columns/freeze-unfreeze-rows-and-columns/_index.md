@@ -5,6 +5,8 @@ weight: 70
 url: /net/aspose-cells-griddesktop/freeze-unfreeze-rows-and-columns/
 keywords: GridDesktop,unfreeze,freeze
 description: This article introduces how to freeze/unfreeze row/column in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

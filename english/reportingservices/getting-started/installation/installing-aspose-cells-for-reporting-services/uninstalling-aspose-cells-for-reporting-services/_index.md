@@ -3,6 +3,8 @@ title: Uninstalling Aspose.Cells for Reporting Services
 type: docs
 weight: 30
 url: /reportingservices/uninstalling-aspose-cells-for-reporting-services/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 If you have used the MSI installer to deploy Aspose.Cells for Reporting Services, follow these steps to remove the component, complete with the associated demos and documentation. 

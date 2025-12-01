@@ -4,6 +4,8 @@ type: docs
 weight: 10
 url: /python-net/encrypt-and-decrypt-ods-files/
 description: password-protect and encrypt ODS files using Aspose.Cells for Python via .NET which is a pure net library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

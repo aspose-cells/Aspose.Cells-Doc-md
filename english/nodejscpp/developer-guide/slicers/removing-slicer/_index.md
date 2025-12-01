@@ -4,6 +4,8 @@ linktitle: Removing Slicer
 type: docs
 weight: 30
 url: /nodejs-cpp/removing-slicer/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

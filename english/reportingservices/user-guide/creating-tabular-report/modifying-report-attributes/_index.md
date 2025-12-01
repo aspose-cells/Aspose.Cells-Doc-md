@@ -3,6 +3,8 @@ title: Modifying Report Attributes
 type: docs
 weight: 90
 url: /reportingservices/modifying-report-attributes/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To modify the attributes of a report:

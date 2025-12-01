@@ -5,6 +5,8 @@ weight: 150
 url: /python-net/get-external-connection-data-source-of-pivot-table/
 description: How to get external connection data source of Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Get External Connection Data Source of Pivot Table Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Get External Connection Data Source of Pivot Table**

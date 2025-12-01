@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-griddesktop/work-with-aspose-cells-griddesktop-events/
 keywords: GridDesktop,event,events
 description: This article introduces how to use events in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

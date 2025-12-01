@@ -3,6 +3,8 @@ title: Table Sorting Configuration
 type: docs
 weight: 90
 url: /reportingservices/table-sorting-configuration/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The configuration includes 5 kinds of properties. These include report name, table name, row offset value, column index and order type.

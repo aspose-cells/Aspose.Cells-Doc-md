@@ -7,6 +7,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/convert-chart-to-image-for-japanese-region/  
 alias: [/nodejs-cpp/set-japanese-configuration-for-chart/]  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

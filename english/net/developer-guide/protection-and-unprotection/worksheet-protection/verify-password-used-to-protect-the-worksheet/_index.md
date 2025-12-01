@@ -3,6 +3,8 @@ title: Verify Password Used to Protect the Worksheet
 type: docs
 weight: 370
 url: /net/verify-password-used-to-protect-the-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

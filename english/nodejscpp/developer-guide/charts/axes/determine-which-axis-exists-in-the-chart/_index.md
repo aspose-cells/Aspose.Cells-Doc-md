@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, chart, axis, existence, category, value, sec
 type: docs  
 weight: 140  
 url: /nodejs-cpp/determine-which-axis-exists-in-the-chart/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

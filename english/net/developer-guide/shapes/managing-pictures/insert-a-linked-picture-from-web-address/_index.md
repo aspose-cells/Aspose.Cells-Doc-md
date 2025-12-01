@@ -3,6 +3,8 @@ title: Insert a Linked Picture from Web Address
 type: docs
 weight: 450
 url: /net/insert-a-linked-picture-from-web-address/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

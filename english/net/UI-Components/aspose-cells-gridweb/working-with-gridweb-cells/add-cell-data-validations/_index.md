@@ -5,6 +5,8 @@ weight: 90
 url: /net/aspose-cells-gridweb/add-cell-data-validations/
 keywords: GridWeb,validation,data validation,GridValidation
 description: This article introduces how to add data validation (GridValidation)  in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

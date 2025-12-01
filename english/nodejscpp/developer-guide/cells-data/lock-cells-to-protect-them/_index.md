@@ -5,6 +5,8 @@ weight: 130
 url: /nodejs-cpp/how-to-lock-cells-to-protect-them/
 description: This article shows you code explaining how to lock cells to protect them using Aspose.Cells for Node.js via C++.
 keywords: Node.js Lock Cells to Protect Them, How to Lock Cells to Protect Them using Node.js, Lock Cells to Protect Them in Node.js.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

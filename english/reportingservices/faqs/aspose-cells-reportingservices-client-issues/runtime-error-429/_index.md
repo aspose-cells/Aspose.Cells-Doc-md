@@ -3,6 +3,8 @@ title: Runtime Error 429
 type: docs
 weight: 60
 url: /reportingservices/runtime-error-429/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##### **Description**

@@ -3,6 +3,8 @@ title: Add Images in Spreadsheet in xlsx4j
 type: docs
 weight: 20
 url: /java/add-images-in-spreadsheet-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Add Images in Spreadsheet**

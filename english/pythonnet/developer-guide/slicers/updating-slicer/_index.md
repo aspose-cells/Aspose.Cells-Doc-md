@@ -5,6 +5,8 @@ weight: 50
 url: /python-net/updating-slicer/
 description: Learn how to update slicer with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python update Slicer without Excel, Update Slicer using Aspose.Cells for Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

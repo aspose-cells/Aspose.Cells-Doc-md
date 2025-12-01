@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /python-java/protect-and-unprotect-workbook-structure/
 description: Protect and unprotect workbook structure of Excel files using Python codes.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

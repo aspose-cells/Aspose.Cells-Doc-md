@@ -3,6 +3,8 @@ title: Add Digital Signature to an already signed Excel file
 type: docs
 weight: 20
 url: /java/add-digital-signature-to-an-already-signed-excel-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

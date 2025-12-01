@@ -3,6 +3,8 @@ title: Hiding Overlaid Content with CrossHideRight while saving to HTML
 type: docs
 weight: 100
 url: /net/hiding-overlaid-content-with-crosshideright-while-saving-to/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

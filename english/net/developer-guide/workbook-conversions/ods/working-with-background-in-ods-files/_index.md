@@ -3,6 +3,8 @@ title: Working with Background in ODS Files
 type: docs
 weight: 150
 url: /net/working-with-background-in-ods-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Background in ODS Files**

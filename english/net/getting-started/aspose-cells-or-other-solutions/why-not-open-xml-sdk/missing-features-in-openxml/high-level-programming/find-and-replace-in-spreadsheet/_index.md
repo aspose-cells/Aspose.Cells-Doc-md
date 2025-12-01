@@ -3,6 +3,8 @@ title: Find and Replace in Spreadsheet
 type: docs
 weight: 30
 url: /net/find-and-replace-in-spreadsheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ![todo:image_alt_text](Find_and_Replace.png)

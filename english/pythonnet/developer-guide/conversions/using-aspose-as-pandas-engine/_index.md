@@ -5,6 +5,8 @@ weight: 40
 url: /python-net/using-aspose-as-pandas-engine/
 description: Using Aspose.Cells for Python via .NET as a Pandas Excel Engine.
 keywords: Using Aspose.Cells for Python via .NET as a Pandas Excel Engine.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

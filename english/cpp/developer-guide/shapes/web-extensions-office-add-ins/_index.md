@@ -5,6 +5,8 @@ type: docs
 weight: 130
 url: /cpp/web-extensions-office-add-ins/
 description: Learn how to add and access Web Extensions (Office Add-ins) in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to Office clients to improve the user experience and productivity.

@@ -4,6 +4,8 @@ linktitle: Convert CSV, TSV and TXT to Excel
 type: docs  
 weight: 30  
 url: /nodejs-cpp/convert-csv-tsv-and-txt-to-excel/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -5,6 +5,8 @@ weight: 260
 url: /net/export-html-string-value-of-the-cells-to-the-datatable/
 description: Learn how to Export HTML String Value of the Cells to the DataTable through the Aspose.Cells for .NET API.
 keywords: Export HTML String Value of the Cells to the DataTable, Export HTML String Value to the DataTable
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

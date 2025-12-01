@@ -3,6 +3,8 @@ title: Convert Chart to Image in xlsx4j
 type: docs
 weight: 10
 url: /java/convert-chart-to-image-in-xlsx4j/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Chart to Image**

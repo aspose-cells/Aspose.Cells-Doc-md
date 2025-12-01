@@ -5,6 +5,8 @@ type: docs
 weight: 185
 url: /python-net/workbook-settings/
 description: Manage settings of Microsoft Excel files.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{< app/cells/assistant language="python-net" >}}

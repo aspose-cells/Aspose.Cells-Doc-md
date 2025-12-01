@@ -3,6 +3,8 @@ title: Display or Hide Row Column Headers in Aspose.Cells
 type: docs
 weight: 60
 url: /net/display-or-hide-row-column-headers-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

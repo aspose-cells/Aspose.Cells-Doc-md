@@ -3,6 +3,8 @@ title: Aspose Tools Toolbar - only supported in SharePoint 2010
 type: docs
 weight: 50
 url: /sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for SharePoint provides a toolbar that includes some valuable options and commands:

@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /cpp/add-a-library-reference-to-vba-project-in-workbook/
 description: Learn how to add or register library references to the VBA project in a workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

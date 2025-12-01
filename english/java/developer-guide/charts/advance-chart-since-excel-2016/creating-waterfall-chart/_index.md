@@ -5,6 +5,8 @@ weight: 140
 url: /java/creating-waterfall-chart/
 description: Create waterfall charts in Excel with Java and Aspose.Cells for Java API.
 keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Implement Errors and Boolean Value in Russian or Any Other Language
 type: docs
 weight: 30
 url: /java/implement-errors-and-boolean-value-in-russian-or-any-other-language/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

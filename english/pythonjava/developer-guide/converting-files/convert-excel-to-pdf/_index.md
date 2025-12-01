@@ -5,6 +5,8 @@ weight: 50
 url: /python-java/convert-excel-to-pdf/
 description: How to convert Excel to PDF with Python. This article demonstrates converting Excel files to PDF using Python and easy to use Aspose.Cells for Python via Java API.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to PDF**

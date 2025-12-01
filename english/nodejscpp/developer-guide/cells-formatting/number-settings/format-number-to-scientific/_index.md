@@ -5,6 +5,8 @@ weight: 10
 url: /nodejs-cpp/how-to-format-number-to-scientific/
 description: This article will introduce how to Format Number to Scientificusing Aspose.Cells for Node.js via C++ API.
 keywords: Convert a numeral to its scientific notation representation, Transform a figure into the format of scientific notation, Change a number to be expressed in the form of scientific notation, Format a numeric value into its equivalent scientific notation, Adapt a quantity to be displayed in scientific notation format, Format Number to Scientific
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/sort-data-of-excel/
 description: Learn how to sort data by using the Aspose.Cells for for Python via .NET API.
 keywords: Python Excel Library, Python Sort data in ascending or descending order, Python Sort data based on the background color.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

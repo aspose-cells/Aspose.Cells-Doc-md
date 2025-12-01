@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /nodejs-cpp/worksheet-views/
 description: This article will describe how to use Node.js and the Node.js API to interact with the page break preview of an Excel workbook and worksheets. Work with split panes, frozen panes, and zoom factor as well.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Page Break Preview**

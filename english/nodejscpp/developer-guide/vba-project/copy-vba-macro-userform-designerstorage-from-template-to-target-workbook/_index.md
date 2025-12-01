@@ -5,6 +5,8 @@ type: docs
 weight: 130  
 url: /nodejs-cpp/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/  
 description: Learn how to copy a VBA project, including Designer Storage, from one Excel file to another using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

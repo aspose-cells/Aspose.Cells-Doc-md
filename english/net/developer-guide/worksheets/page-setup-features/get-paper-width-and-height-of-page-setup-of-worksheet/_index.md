@@ -5,6 +5,8 @@ weight: 50
 url: /net/get-paper-width-and-height-of-page-setup-of-worksheet/
 description: You will discover in this article how to get the Excel Worksheet Page Setup Paper Width and Paper Height using C# code programmatically with .NET API or Library.
 keywords: excel page setup paper width c#, excel page setup paper height c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

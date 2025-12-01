@@ -5,6 +5,8 @@ type: docs
 weight: 140  
 url: /nodejs-cpp/threaded-comments/  
 description: Manage threaded comments in Excel documents using Aspose.Cells for Node.js via C++. Learn to add, read, edit, and remove threaded comments.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Threaded Comments**  

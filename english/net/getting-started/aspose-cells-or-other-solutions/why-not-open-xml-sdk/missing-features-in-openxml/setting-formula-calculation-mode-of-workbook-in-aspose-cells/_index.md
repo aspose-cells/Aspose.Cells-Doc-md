@@ -3,6 +3,8 @@ title: Setting Formula Calculation Mode of Workbook in Aspose.Cells
 type: docs
 weight: 100
 url: /net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

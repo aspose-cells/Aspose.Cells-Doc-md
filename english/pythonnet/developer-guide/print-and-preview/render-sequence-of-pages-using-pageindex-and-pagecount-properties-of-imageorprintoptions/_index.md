@@ -4,6 +4,8 @@ type: docs
 weight: 110
 url: /python-net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

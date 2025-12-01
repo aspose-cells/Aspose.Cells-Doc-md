@@ -5,6 +5,8 @@ weight: 130
 url: /net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
 keywords: GridDesktop,protect
 description: This article introduces how to protect cells in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

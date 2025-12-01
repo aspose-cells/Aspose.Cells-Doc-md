@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/autofit-rows-for-merged-cells/
 description: Learn how to auto-fit rows for merged cells in Excel using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

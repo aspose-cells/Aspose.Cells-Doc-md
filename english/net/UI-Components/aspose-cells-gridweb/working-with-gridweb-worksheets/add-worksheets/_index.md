@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-gridweb/add-worksheet/
 keywords: GridWeb,add,worksheet,add GridWorksheet
 description: This article introduces how to add worksheet (GridWorksheet ) in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

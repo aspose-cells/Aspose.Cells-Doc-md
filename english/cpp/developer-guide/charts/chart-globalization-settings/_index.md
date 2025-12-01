@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, chart globalization, languages, locali
 type: docs
 weight: 2200
 url: /cpp/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

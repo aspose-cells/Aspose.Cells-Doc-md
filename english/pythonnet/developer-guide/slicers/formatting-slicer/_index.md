@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/formatting-slicer/
 description: Learn how to format slicer with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python format Slicer without Excel, Format Slicer using Aspose.Cells for Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

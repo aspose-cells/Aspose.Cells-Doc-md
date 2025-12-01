@@ -5,6 +5,8 @@ weight: 100
 url: /python-net/get-pivot-table-refresh-date-and-refresh-by-who-information/
 description: How to get Pivot Table refresh date and refresh by who information with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Get Pivot Table refresh date and refresh by who information Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

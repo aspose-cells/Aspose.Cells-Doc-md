@@ -5,6 +5,8 @@ weight: 180
 url: /nodejs-cpp/get-cell-validation-in-ods-files/  
 description: Learn how to Get Cell Validation in ODS Files through the Aspose.Cells for Node.js via C++ API.  
 keywords: Get Cell Validation Node.js via C++, Obtain Cell Validation Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Get Cell Validation in ODS Files**  

@@ -6,6 +6,8 @@ weight: 220
 url: /nodejs-cpp/convert-csv-to-json/
 description: Convert CSV file to JSON using the easy-to-use Aspose.Cells for Node.js via C++ API.
 keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON Node.js via C++, c++ code to convert CSV to JSON
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert CSV to JSON**

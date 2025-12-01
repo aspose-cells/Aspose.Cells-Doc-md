@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Position, Size, Designer Chart, Micr
 type: docs
 weight: 45
 url: /python-net/manipulate-position-size-and-designer-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**

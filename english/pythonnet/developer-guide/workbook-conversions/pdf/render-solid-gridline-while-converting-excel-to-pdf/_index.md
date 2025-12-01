@@ -6,6 +6,8 @@ weight: 390
 url: /python-net/render-solid-gridline-while-converting-excel-to-pdf/
 description: Learn how to display solid gridlines during Excel to PDF conversion using Aspose.Cells for Python via .NET.
 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines nowadays.

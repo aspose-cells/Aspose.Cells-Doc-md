@@ -6,6 +6,8 @@ weight: 60
 url: /cpp/remove-existing-printersettings-of-worksheets-in-excel-file/
 description: Learn how to remove existing PrinterSettings of Worksheet inside the Excel file through Page Setup object programmatically using Aspose.Cells with C++.
 keywords: remove printer settings of worksheet c++, remove printer settings of excel worksheet c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

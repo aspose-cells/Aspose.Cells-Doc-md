@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /cpp/using-workbookmetadata/
 description: Learn how to use WorkbookMetadata to edit custom document properties of a workbook in C++ with Aspose.Cells.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

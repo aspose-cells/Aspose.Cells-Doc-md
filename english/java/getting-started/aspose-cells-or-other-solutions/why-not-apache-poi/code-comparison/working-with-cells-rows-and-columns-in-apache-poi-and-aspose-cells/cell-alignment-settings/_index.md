@@ -3,6 +3,8 @@ title: Cell Alignment Settings
 type: docs
 weight: 20
 url: /java/cell-alignment-settings/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Cell Alignment Settings**

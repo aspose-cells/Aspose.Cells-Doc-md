@@ -5,6 +5,8 @@ type: docs
 weight: 330
 url: /cpp/read-color-of-shape-s-glow-effect/
 description: Learn how to read the color of the glow effect of any shape using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

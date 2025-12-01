@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /net/workbook-and-worksheet-print-preview/
 description: Aspose.Cells supports printing and previewing Excel files without Microsoft Excel intallation.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

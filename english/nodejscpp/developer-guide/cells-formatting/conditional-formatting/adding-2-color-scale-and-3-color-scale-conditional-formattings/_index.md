@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Conditional Formatting, Node.js via C++, Color Ratio, Tw
 type: docs  
 weight: 20  
 url: /nodejs-cpp/adding-2-color-scale-and-3-color-scale-conditional-formattings/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

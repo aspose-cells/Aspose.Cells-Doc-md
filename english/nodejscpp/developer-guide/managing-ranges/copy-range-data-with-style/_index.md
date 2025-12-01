@@ -5,6 +5,8 @@ type: docs
 weight: 610  
 url: /nodejs-cpp/copy-range-data-with-style/  
 description: Learn how to copy a range of cells with formatting using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

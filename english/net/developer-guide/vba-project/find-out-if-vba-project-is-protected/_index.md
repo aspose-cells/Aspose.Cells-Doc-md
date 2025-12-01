@@ -3,6 +3,8 @@ title: Find out if VBA Project is Protected
 type: docs
 weight: 20
 url: /net/find-out-if-vba-project-is-protected/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Find out if VBA Project is Protected in C#**

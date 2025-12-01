@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/set-external-links-in-formulas/
 description: Learn how to set external links in formulas using Aspose.Cells for Node.js via C++. 
 keywords: Set external links in formulas Node.js via C++, Include external files in formulas Node.js via C++ 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

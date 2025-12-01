@@ -3,6 +3,8 @@ title: Modifying Report Parameters
 type: docs
 weight: 20
 url: /reportingservices/modifying-report-parameters/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To modify a report parameter: 

@@ -3,6 +3,8 @@ title: Delete Worksheets from Workbooks
 type: docs
 weight: 100
 url: /net/delete-worksheets-from-workbooks/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 You can delete any worksheet in a workbook. To delete a worksheet, use the worksheet host item or access the worksheet by using the sheets collection of the workbook.

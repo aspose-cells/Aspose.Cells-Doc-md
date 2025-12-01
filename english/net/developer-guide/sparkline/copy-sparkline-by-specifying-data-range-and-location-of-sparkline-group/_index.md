@@ -3,6 +3,8 @@ title: Copy Sparkline by Specifying Data Range and Location of Sparkline Group
 type: docs
 weight: 300
 url: /net/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

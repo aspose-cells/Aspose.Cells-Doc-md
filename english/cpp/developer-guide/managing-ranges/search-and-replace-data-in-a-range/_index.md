@@ -6,6 +6,8 @@ weight: 170
 url: /cpp/search-and-replace-data-in-a-range/
 description: This article shows how to search and replace data in a range in Excel using C++ code.
 keywords: c++ search and replace data in excel, c++ search data in excel, c++ search and replace data in a range, c++ search data in a range, c++ searching data in a range, c++ searching data in range, c++ searching data in excel, c++ search data in range, search and replace data in excel with c++, search and replace data in a range with c++, search and replace data in range with c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

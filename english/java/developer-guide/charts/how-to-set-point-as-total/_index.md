@@ -5,6 +5,8 @@ keywords: WaterFall Chart, Point, Set as total.
 type: docs
 weight: 72
 url: /java/how-to-set-point-as-total/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## What is "Set point as total" in Excel Chart

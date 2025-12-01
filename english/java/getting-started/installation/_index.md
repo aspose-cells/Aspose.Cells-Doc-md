@@ -3,6 +3,8 @@ title: Installation
 type: docs
 weight: 20
 url: /java/installation/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Installing Aspose.Cells for Java from Maven Repository**

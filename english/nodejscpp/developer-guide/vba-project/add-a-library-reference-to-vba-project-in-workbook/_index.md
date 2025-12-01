@@ -4,6 +4,8 @@ linktitle: Add a library reference to VBA project in workbook
 type: docs  
 weight: 80  
 url: /nodejs-cpp/add-a-library-reference-to-vba-project-in-workbook/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

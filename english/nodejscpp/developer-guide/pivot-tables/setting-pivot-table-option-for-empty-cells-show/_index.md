@@ -3,6 +3,8 @@ title: Setting Pivot Table Option - For Empty Cells Show
 type: docs
 weight: 40
 url: /nodejs-cpp/setting-pivot-table-option-for-empty-cells-show/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

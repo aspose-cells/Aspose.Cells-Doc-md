@@ -3,6 +3,8 @@ title: Display or Hide Tabs in Python
 type: docs
 weight: 30
 url: /java/display-or-hide-tabs-in-python/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display Hide Tabs**

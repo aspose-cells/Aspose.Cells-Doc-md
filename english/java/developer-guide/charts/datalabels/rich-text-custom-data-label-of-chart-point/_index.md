@@ -3,6 +3,8 @@ title: Rich Text Custom Data Label of Chart Point
 type: docs
 weight: 150
 url: /java/rich-text-custom-data-label-of-chart-point/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

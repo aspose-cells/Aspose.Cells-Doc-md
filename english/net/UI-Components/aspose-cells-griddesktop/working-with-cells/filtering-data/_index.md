@@ -5,6 +5,8 @@ weight: 100
 url: /net/aspose-cells-griddesktop/filtering-data/
 keywords: GridDesktop,filter,filter data,AutoFilter,RowFilterr
 description: This article introduces how to filter data in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

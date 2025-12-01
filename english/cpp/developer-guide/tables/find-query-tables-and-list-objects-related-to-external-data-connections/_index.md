@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /cpp/find-query-tables-and-list-objects-related-to-external-data-connections/
 description: Learn how to find Query Tables and List Objects related to External Data Connections using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

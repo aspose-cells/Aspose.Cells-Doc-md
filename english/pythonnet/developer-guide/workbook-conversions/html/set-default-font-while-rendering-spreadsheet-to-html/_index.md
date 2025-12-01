@@ -3,6 +3,8 @@ title: Set Default Font while rendering spreadsheet to HTML
 type: docs
 weight: 370
 url: /python-net/set-default-font-while-rendering-spreadsheet-to/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

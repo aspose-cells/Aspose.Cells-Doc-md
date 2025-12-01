@@ -3,6 +3,8 @@ title: Worksheet Views
 type: docs
 weight: 40
 url: /cpp/worksheet-views/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Page Break Preview**

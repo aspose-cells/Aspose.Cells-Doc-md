@@ -5,6 +5,8 @@ type: docs
 weight: 3500
 url: /cpp/get-connection-points-from-shape/
 description: Learn how to retrieve shape connection points using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells provides rich features to manage shapes in spreadsheets. Sometimes there's a need to get the connection points of a shape for alignment or placement. The following code can be used to get the list of connection points of a shape using the [Shape.GetConnectionPoints()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getconnectionpoints/) method.

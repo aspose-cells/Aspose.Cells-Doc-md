@@ -3,6 +3,8 @@ title: Preserve Single Quote Prefix of Cell Value or Range
 type: docs
 weight: 1900
 url: /java/preserve-single-quote-prefix-of-cell-value-or-range/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

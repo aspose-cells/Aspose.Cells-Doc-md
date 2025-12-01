@@ -5,6 +5,8 @@ type: docs
 weight: 320
 url: /python-net/disable-css-while-saving-to-html/
 description: Learn how to disable CSS styles when saving Excel files to HTML format using Aspose.Cells for Python via .NET API.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

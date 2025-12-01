@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/read-and-write-table-with-query-table-data-source/
 description: Learn how to read and write a table with a QueryTable data source using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read and Write Table with Query Table Data Source**

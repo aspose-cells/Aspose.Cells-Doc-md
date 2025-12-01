@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/autofit-columns-and-rows-while-loading-html-in-workbook/
 description: Learn how to autofit columns and rows while loading HTML files in a Workbook using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

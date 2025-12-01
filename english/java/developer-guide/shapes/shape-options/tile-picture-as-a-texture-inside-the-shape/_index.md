@@ -3,6 +3,8 @@ title: Tile Picture as a Texture inside the Shape
 type: docs
 weight: 50
 url: /java/tile-picture-as-a-texture-inside-the-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

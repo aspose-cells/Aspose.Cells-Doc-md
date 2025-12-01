@@ -5,6 +5,8 @@ type: docs
 weight: 170  
 url: /nodejs-cpp/create-transparent-image-of-excel-worksheet/  
 description: Learn how to generate a transparent image of an Excel worksheet using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

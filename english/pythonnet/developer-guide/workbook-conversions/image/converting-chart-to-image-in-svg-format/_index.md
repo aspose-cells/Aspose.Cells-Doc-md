@@ -5,6 +5,8 @@ weight: 240
 url: /python-net/converting-chart-to-image-in-svg-format/
 description: Converting Chart to Image in SVG Format by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert Chart to Image in SVG Format, Export Chart to Image in SVG Format in Python via NET, Python Save Chart to Image in SVG Format.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

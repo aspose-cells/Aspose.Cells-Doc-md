@@ -5,6 +5,8 @@ weight: 140
 url: /python-net/save-specified-worksheets-to-pdf/
 description: Learn how to Save Specified Worksheets to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Save Active Worksheet to PDF, Save All Worksheets to PDF, Save Specified Worksheets to PDF
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 By default, Aspose.Cells for Python via .NET save all **visible** worksheets in a workbook to pdf file. With [**PdfSaveOptions.sheet_set**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/) option, you can save specified worksheets to pdf file. e.g. you can save active worksheet to pdf, save all worksheets(both visible and hidden worksheets) to pdf, save custom multiple worksheets to pdf.

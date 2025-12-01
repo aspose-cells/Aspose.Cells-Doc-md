@@ -4,6 +4,8 @@ linktitle: Password Protect or Unprotect the Shared Workbook
 type: docs
 weight: 10
 url: /nodejs-cpp/password-protect-or-unprotect-the-shared-workbook/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

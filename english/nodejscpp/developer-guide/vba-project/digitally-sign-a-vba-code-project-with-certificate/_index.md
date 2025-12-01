@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /nodejs-cpp/digitally-sign-a-vba-code-project-with-certificate/
 description: Learn how to digitally sign a VBA Code Project with a certificate using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

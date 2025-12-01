@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /cpp/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 description: Learn how to export or avoid exporting Document, Workbook, and Worksheet properties when converting Excel files to HTML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

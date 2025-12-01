@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/format-pivot-table-cells/
 description: How to format pivot table cells with Aspose.Cells for Python via .NET.
 keywords: Format pivot table cells.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

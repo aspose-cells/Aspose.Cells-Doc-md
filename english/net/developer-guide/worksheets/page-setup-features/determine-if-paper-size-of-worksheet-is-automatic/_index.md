@@ -5,6 +5,8 @@ weight: 90
 url: /net/determine-if-paper-size-of-worksheet-is-automatic/
 description: This article explains how to use the C# API or .NET Library sample code to determine if Paper Size of Worksheet is Automatic programmatically.
 keywords: determine if paper size of worksheet automatic c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /net/manage-worksheets/
 description: Add worksheet, remove worksheet and active Sheet using Aspose.Cells.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

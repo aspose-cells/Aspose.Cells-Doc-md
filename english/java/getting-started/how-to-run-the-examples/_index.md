@@ -3,6 +3,8 @@ title: How to Run the Examples
 type: docs
 weight: 100
 url: /java/how-to-run-the-examples/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Download from GitHub**

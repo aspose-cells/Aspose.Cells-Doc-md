@@ -3,6 +3,8 @@ title: Change Tick Label Direction
 type: docs
 weight: 90
 url: /java/change-tick-label-direction/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Change Tick Label Direction**

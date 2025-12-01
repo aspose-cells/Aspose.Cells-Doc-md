@@ -3,6 +3,8 @@ title: Update ActiveX ComboBox Control
 type: docs
 weight: 170
 url: /python-net/update-activex-combobox-control/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, category axis, setting, range, properties, forma
 type: docs
 weight: 205
 url: /cpp/how-to-set-category-axis/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

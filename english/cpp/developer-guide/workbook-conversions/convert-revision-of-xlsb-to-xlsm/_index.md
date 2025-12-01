@@ -5,6 +5,8 @@ type: docs
 weight: 290
 url: /cpp/convert-revision-of-xlsb-to-xlsm/
 description: Learn to convert revisions of XLSB files into XLSM format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

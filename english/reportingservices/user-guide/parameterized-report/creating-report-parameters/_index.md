@@ -3,6 +3,8 @@ title: Creating Report Parameters
 type: docs
 weight: 10
 url: /reportingservices/creating-report-parameters/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To create a report parameter in Aspose.Cells.Report.Designer:

@@ -5,6 +5,8 @@ weight: 80
 url: /net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
 description: This article explains how to use the C# API or .NET Library sample code to copy Page Setup settings from source Worksheet into destination Worksheet programmatically.
 keywords: copy page setup settings c#, copy page setup settings to target worksheet c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

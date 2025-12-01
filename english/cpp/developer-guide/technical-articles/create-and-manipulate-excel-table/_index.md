@@ -3,6 +3,8 @@ title: Create and Manipulate Excel Table
 type: docs
 weight: 30
 url: /cpp/create-and-manipulate-excel-table/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

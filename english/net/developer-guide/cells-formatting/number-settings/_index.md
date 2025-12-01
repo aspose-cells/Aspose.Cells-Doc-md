@@ -5,6 +5,8 @@ keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settin
 type: docs
 weight: 10
 url: /net/cells-number-settings/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Set Display Formats of Numbers and Dates**

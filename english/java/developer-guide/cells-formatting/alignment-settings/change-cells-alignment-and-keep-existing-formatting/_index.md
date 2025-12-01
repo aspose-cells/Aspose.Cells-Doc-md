@@ -3,6 +3,8 @@ title: Change Cells Alignment and Keep Existing Formatting
 type: docs
 weight: 260
 url: /java/change-cells-alignment-and-keep-existing-formatting/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

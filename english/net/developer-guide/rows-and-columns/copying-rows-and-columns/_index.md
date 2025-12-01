@@ -5,6 +5,8 @@ weight: 40
 url: /net/copying-rows-and-columns/
 description: This article shows how to Copy Rows and Columns through the Aspose.Cells for .NET API.
 keywords: C# How to Copy Rows and Columns, Copy Rows in C#, Copy Columns using C#, How to Paste Rows and Columns using Aspose.Cells for .NET, Paste multiple rows and columns, How to Copy and paste Single Row or Column.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

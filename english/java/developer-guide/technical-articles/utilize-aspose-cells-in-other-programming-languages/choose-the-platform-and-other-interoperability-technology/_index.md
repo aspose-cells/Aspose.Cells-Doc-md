@@ -3,6 +3,8 @@ title: Choose the Platform and Other Interoperability Technology
 type: docs
 weight: 10
 url: /java/choose-the-platform-and-other-interoperability-technology/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

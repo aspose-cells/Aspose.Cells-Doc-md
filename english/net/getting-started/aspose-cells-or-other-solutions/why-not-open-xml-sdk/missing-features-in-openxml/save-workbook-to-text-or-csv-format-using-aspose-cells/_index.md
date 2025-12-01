@@ -3,6 +3,8 @@ title: Save Workbook to Text or CSV Format using Aspose.Cells
 type: docs
 weight: 80
 url: /net/save-workbook-to-text-or-csv-format-using-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

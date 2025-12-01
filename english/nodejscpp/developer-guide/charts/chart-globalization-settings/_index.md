@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, chart globalization, langu
 type: docs  
 weight: 2200  
 url: /nodejs-cpp/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

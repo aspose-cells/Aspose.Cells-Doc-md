@@ -3,6 +3,8 @@ title: Detect Hyperlink Type
 type: docs
 weight: 180
 url: /java/detect-hyperlink-type/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Detect Hyperlink Type**

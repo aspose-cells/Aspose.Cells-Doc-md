@@ -5,6 +5,8 @@ type: docs
 weight: 20  
 url: /nodejs-cpp/show-and-hide-rows-columns-and-scroll-bars/  
 description: This article demonstrates how to programmatically display and hide Excel worksheet rows and columns using Node.js via C++. Control the visibility of scroll bars and hide multiple rows and columns efficiently.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

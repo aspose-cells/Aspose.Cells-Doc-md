@@ -6,6 +6,8 @@ weight: 100
 url: /nodejs-cpp/adjusting-row-height-and-column-width/  
 description: Aspose.Cells for Node.js via C++ can support change row height or column width, as well as apply formatting on rows or columns.  
 keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

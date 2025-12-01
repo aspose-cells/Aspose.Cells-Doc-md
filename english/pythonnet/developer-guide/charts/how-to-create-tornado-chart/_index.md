@@ -5,6 +5,8 @@ weight: 73
 url: /python-net/create-tornado-chart/
 description: Learn how to create a tornado chart with Aspose.Cells for Python via .NET API.
 keywords: Python create a tornado chart, add a tornado chart, insert a tornado chart
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

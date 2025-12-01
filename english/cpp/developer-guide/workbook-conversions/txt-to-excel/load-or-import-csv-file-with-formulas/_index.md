@@ -5,6 +5,8 @@ type: docs
 weight: 350
 url: /cpp/load-or-import-csv-file-with-formulas/
 description: Load or import a CSV file containing formulas using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

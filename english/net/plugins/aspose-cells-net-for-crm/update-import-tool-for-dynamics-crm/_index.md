@@ -3,6 +3,8 @@ title: Update Import Tool for Dynamics CRM
 type: docs
 weight: 10
 url: /net/update-import-tool-for-dynamics-crm/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Contents Summary**

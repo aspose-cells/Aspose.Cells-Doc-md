@@ -6,6 +6,8 @@ weight: 260
 url: /cpp/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
 description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for C++ API.
 keywords: Measure the Width of the Cell Value in Unit of Pixels, Measure the Height of the Cell Value in Unit of Pixels, Get the Width of the Cell Value in Unit of Pixels, Get the Height of the Cell Value in Unit of Pixels
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

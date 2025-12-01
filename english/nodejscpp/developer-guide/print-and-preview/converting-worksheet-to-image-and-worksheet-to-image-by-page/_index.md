@@ -4,6 +4,8 @@ linktitle: Converting Worksheet to Image and Worksheet to Image by Page
 type: docs  
 weight: 80  
 url: /nodejs-cpp/converting-worksheet-to-image-and-worksheet-to-image-by-page/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

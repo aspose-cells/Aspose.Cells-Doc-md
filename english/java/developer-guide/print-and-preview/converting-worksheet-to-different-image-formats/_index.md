@@ -3,6 +3,8 @@ title: Converting Worksheet to Different Image Formats
 type: docs
 weight: 30
 url: /java/converting-worksheet-to-different-image-formats/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

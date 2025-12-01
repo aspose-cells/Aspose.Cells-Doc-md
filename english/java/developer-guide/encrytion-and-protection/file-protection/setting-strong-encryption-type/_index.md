@@ -3,6 +3,8 @@ title: Setting Strong Encryption Type
 type: docs
 weight: 10
 url: /java/setting-strong-encryption-type/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

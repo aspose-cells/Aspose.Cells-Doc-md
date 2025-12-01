@@ -3,6 +3,8 @@ title: Delete Ranges
 type: docs
 weight: 105
 url: /net/delete-ranges-from-Excel/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

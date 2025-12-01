@@ -7,6 +7,8 @@ url: /cpp/convert-chart-to-image-for-japanese-region/
 alias: [/cpp/set-japanese-configuration-for-chart/]
 description: Learn how to use Aspose.Cells for C++ to set the Japanese configuration for the chart. Our guide will demonstrate how to configure charts to support Japanese characters and formatting, including fonts, size, text direction, and more.
 keywords: Aspose.Cells for C++, Charts, Japanese configuration, font, font size, text direction, support.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

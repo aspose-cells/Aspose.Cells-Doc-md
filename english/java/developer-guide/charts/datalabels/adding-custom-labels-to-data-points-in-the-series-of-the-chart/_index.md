@@ -3,6 +3,8 @@ title: Adding Custom Labels to Data Points in the Series of the Chart
 type: docs
 weight: 380
 url: /java/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

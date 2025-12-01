@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/specify-how-to-cross-string-in-output-pdf-and-image/
 description: Learn how to cross string in output PDF and image with Aspose.Cells for Python via .NET API.
 keywords: Python Cross String in output PDF and image
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Insert a new worksheet
 type: docs
 weight: 70
 url: /net/insert-a-new-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

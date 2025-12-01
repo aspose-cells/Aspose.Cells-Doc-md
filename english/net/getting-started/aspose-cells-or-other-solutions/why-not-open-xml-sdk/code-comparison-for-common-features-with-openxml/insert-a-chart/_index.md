@@ -3,6 +3,8 @@ title: Insert a chart
 type: docs
 weight: 60
 url: /net/insert-a-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

@@ -5,6 +5,8 @@ weight: 20
 url: /net/setting-margins/
 description: In this article, you will learn how to set the margins of an Excel worksheet using sample code. You will also learn how to programmatically set the margins for the page centre, the header and footer margins of Page Setup using the C# API or .NET Library.
 keywords: set excel worksheet margin to center c#, set worksheet header and footer margin c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

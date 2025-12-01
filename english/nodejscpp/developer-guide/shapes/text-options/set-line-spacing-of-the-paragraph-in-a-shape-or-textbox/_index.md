@@ -5,6 +5,8 @@ type: docs
 weight: 290  
 url: /nodejs-cpp/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/  
 description: Learn how to set the line spacing of paragraphs in shapes or textboxes using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

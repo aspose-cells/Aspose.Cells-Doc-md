@@ -6,6 +6,8 @@ weight: 40
 url: /nodejs-cpp/different-ways-to-save-files/
 description: Aspose.Cells for Node.js via C++ can save files to different formats including PDF, HTML, DOCX, PPTX, JSON, and MHTML.
 keywords: Aspose.Cells Save Excel to PDF, HTML, JSON, CSV, TXT, XML, DOCX, PPTX, MHT, MHTML and more using Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

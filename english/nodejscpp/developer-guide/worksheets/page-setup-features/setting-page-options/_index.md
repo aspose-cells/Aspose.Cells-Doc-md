@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/setting-page-options/  
 description: This article provides sample code to set page options of Excel worksheets programmatically using Node.js via C++. Set Page Orientation, Scaling Factor, FitToPages Options, Paper Size, Print Quality, First Page Number.  
 keywords: set excel page orientation node.js via C++, set excel scaling factor node.js via C++, set excel worksheets paper size node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

@@ -3,6 +3,8 @@ title: Managing Document Properties in Jython
 type: docs
 weight: 60
 url: /java/managing-document-properties-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Managing Document Properties**

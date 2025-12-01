@@ -5,6 +5,8 @@ keywords: Excel chart, Series, Invisible, IsFiltered.
 type: docs
 weight: 74
 url: /java/how-to-set-series-invisible/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## How to set series invisible in Excel Chart

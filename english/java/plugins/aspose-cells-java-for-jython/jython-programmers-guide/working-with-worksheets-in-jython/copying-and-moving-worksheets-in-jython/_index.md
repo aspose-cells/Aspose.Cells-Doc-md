@@ -3,6 +3,8 @@ title: Copying And Moving Worksheets in Jython
 type: docs
 weight: 20
 url: /java/copying-and-moving-worksheets-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Copying And Moving Worksheets**

@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /cpp/create-shared-workbook-with-aspose-cells/  
 description: Learn how to create a shared workbook using Aspose.Cells with C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

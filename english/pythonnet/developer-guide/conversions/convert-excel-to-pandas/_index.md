@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/convert-excel-to-pandas-dataframe/
 description: Convert Pandas to Excel by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert Excel to Pandas DataFrame, Export Excel to Pandas DataFrame in Python via NET, Python Convert xlsx to  Pandas DataFrame, Save excel to Pandas DataFrame.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

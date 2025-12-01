@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/avoid-exponential-notation-of-large-numbers-while-importing-from/
 description: Learn how to avoid exponential notation of large numbers while importing from HTML using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

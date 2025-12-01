@@ -3,6 +3,8 @@ title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /net/aspose-cells-net-for-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Getting Started**

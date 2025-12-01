@@ -6,6 +6,8 @@ weight: 210
 url: /cpp/verify-that-cell-value-satisfies-data-validation-rules/
 description: Learn how to Verify Cell Value Satisfies Data Validation Rules through the Aspose.Cells for C++ API.
 keywords: Get Cell Validation Value, Obtain Cell Validation Value, Verify whether a value satisfies the data validation rules applied to the cell
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -4,6 +4,8 @@ type: docs
 weight: 250
 url: /python-net/aspose-cells-gridjs/basics/
 keywords: gridjs,python,edit,spreadsheet,view,viewer,editor,excel
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Basics of GridJs

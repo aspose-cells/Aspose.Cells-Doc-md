@@ -5,6 +5,8 @@ weight: 71
 url: /java/how-to-create-stock-charts/
 description: How to create a stock chart, how to add a stock chart, how to generate a stock chart.
 keywords: Add stock charts, Create stock charts, Generate stock charts.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 190
 url: /net/how-to-check-frozen-state-of-excel-worksheet
 description: In this article, you will learn how check frozen state of excel worksheet programmatically using C# Library with .NET API.
 
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

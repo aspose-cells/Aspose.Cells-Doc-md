@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /java/aspose-cells-java-for-apache-poi-ss-hssf-and-xssf/
 description: Why not Apache POI SS - HSSF and XSSF.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

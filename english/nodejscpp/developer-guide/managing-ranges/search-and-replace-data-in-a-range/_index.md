@@ -6,6 +6,8 @@ weight: 170
 url: /nodejs-cpp/search-and-replace-data-in-a-range/
 description: This article shows how to search and replace data in a range in Excel using Node.js via C++ code.
 keywords: node.js search and replace data in excel, node.js search data in excel, node.js search and replace data in a range, node.js search data in a range, node.js searching data in a range, node.js searching data in range, node.js searching data in excel, node.js search data in range, search and replace data in excel with node.js, search and replace data in a range with node.js, search and replace data in range with node.js
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

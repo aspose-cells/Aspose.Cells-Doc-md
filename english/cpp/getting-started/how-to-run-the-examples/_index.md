@@ -3,6 +3,8 @@ title: How to Run the Examples
 type: docs
 weight: 60
 url: /cpp/how-to-run-the-examples/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Software Requirements**

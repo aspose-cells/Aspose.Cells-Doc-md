@@ -5,6 +5,8 @@ type: docs
 weight: 390
 url: /nodejs-cpp/use-custom-xml-parts-in-aspose-cells/
 description: Learn how to use custom XML parts in Aspose.Cells for Node.js via C++. Integrate external XML data within Excel files seamlessly.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## Using Custom XML Parts in Aspose.Cells

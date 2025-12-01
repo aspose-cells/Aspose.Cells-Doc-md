@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/combine-multiple-worksheets-into-a-single-worksheet/
 description: Learn how to combine multiple worksheets into a single worksheet using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
@@ -71,5 +73,6 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```
+
 {{< app/cells/assistant language="cpp" >}}

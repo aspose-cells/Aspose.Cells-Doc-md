@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/protect-and-unprotect-workbook-structure/
 description: Protect and unprotect workbook structure of Excel files using C++ with Aspose.Cells.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

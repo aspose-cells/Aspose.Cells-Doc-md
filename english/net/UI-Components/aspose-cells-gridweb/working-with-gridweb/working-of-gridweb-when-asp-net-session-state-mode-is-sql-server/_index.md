@@ -5,6 +5,8 @@ weight: 160
 url: /net/aspose-cells-gridweb/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/
 keywords: GridWeb,web session state,sqlserver,session state mode
 description: This article introduces how to configure in GridWeb when web session state mode is SQL Server.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

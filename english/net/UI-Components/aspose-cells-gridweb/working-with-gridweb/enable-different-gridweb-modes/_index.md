@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-gridweb/enable-different-gridweb-modes/
 keywords: GridWeb,EditMode,SessionMode
 description: This article introduces how to work with EditMode and SessionMode in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

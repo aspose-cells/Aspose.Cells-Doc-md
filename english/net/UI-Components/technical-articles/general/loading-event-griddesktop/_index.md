@@ -5,6 +5,8 @@ weight: 1060
 url: /net/aspose-cells-griddesktop/loading-event
 description: This article describes how to use loading event in GridDesktop.
 keywords: GridDesktop,event,loading event,loading
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  

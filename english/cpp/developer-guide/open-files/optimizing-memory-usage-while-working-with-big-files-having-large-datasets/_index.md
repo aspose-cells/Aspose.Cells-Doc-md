@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /cpp/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
 description: Learn how to optimize memory usage when working with large Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

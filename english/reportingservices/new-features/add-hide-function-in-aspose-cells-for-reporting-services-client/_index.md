@@ -3,6 +3,8 @@ title: Add Hide Function in Aspose.Cells for Reporting Services Client
 type: docs
 weight: 90
 url: /reportingservices/add-hide-function-in-aspose-cells-for-reporting-services-client/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

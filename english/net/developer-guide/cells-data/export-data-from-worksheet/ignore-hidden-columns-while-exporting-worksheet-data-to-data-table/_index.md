@@ -5,6 +5,8 @@ weight: 330
 url: /net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/
 description: Learn how to Ignore Hidden Columns while Exporting Worksheet Data to Data Table through the Aspose.Cells for .NET API.
 keywords: Export Visible Columns Data to DataTable, Export unhidden Columns Data to DataTable, Export Columns Data to DataTable and Exclude hidden Columns, Ignore Hidden Columns while Exporting Worksheet Data to Data Table
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

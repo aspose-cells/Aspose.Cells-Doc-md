@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/working-with-external-data-connection-of-type-webquery/
 description: Learn how to work with external data connections of type WebQuery using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

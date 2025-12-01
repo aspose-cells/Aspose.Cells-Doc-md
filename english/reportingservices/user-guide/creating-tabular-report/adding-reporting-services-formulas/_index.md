@@ -3,6 +3,8 @@ title: Adding Reporting Services Formulas
 type: docs
 weight: 30
 url: /reportingservices/adding-reporting-services-formulas/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add Reporting Services Formulas to the table data cell, follow the steps below:

@@ -3,6 +3,8 @@ title: Delete Blank Rows and Columns in a Worksheet
 type: docs
 weight: 360
 url: /java/delete-blank-rows-and-columns-in-a-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

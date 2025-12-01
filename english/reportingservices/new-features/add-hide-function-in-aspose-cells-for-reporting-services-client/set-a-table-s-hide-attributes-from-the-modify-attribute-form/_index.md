@@ -3,6 +3,8 @@ title: Set a Table's Hide Attributes from the Modify Attribute Form
 type: docs
 weight: 10
 url: /reportingservices/set-a-table-s-hide-attributes-from-the-modify-attribute-form/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Set a table report's hide attributes from **Modify Attribute**. Parameters include:

@@ -3,6 +3,8 @@ title: Support for Microsoft Excel 2007 or 2010 Custom UI
 type: docs
 weight: 50
 url: /reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Converting Worksheet to SVG in Ruby
 type: docs
 weight: 70
 url: /java/converting-worksheet-to-svg-in-ruby/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Worksheet to SVG**

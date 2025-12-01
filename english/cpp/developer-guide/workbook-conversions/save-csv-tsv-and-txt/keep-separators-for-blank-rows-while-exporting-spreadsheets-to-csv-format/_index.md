@@ -5,6 +5,8 @@ type: docs
 weight: 160
 url: /cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
 description: Learn how to keep separators for blank rows when exporting spreadsheets to CSV format using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Keep Separators for Blank Rows while exporting spreadsheets to CSV format**

@@ -3,6 +3,8 @@ title: Convert Revision of XLSB to XLSM
 type: docs
 weight: 2200
 url: /java/convert-revision-of-xlsb-to-xlsm/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

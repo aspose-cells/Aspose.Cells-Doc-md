@@ -3,6 +3,8 @@ title: Wrapping Cell Text in VSTO and Aspose.Cells
 type: docs
 weight: 250
 url: /net/wrapping-cell-text-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To create a worksheet with two cells, one with wrapped text and one without:

@@ -3,6 +3,8 @@ title: Setting Formula for Named Range
 type: docs
 weight: 20
 url: /python-net/setting-formula-for-named-range/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Formula for Named Range**

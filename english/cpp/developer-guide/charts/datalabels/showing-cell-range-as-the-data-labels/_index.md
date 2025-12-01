@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, data labels, cell range, data source, 
 type: docs
 weight: 130
 url: /cpp/showing-cell-range-as-the-data-labels/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

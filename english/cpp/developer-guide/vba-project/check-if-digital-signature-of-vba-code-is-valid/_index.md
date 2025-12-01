@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/check-if-digital-signature-of-vba-code-is-valid/
 description: Learn how to check the validity of a digital signature in VBA code using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

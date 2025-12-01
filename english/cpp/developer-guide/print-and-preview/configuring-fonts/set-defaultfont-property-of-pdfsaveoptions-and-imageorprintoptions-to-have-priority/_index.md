@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 description: Learn to prioritize font settings when saving documents with Aspose.Cells in C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

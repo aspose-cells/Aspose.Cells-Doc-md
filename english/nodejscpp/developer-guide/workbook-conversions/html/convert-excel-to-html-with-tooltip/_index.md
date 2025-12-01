@@ -5,6 +5,8 @@ type: docs
 weight: 200  
 url: /nodejs-cpp/convert-excel-to-html-with-tooltip/  
 description: Learn how to convert Excel files to HTML format with tooltips for complete text display using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Convert Excel to HTML with tooltip**

@@ -3,6 +3,8 @@ title: Export Worksheet CSS Separately in Output HTML
 type: docs
 weight: 80
 url: /java/export-worksheet-css-separately-in-output-html/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

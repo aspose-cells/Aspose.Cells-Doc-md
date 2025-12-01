@@ -5,6 +5,8 @@ type: docs
 weight: 280
 url: /nodejs-cpp/export-chart-to-svg-with-viewbox-attribute/
 description: Learn how to export a chart to SVG format with the viewBox attribute using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Excel Document, Heading, Body, Theme
 type: docs
 weight: 120
 url: /python-net/headings-and-body-theme-font/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

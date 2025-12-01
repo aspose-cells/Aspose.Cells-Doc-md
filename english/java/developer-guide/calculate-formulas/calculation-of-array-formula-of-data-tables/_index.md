@@ -3,6 +3,8 @@ title: Calculation of Array Formula of Data Tables
 type: docs
 weight: 550
 url: /java/calculation-of-array-formula-of-data-tables/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

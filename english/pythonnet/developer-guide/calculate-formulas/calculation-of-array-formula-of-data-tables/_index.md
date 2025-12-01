@@ -6,6 +6,8 @@ weight: 70
 url: /python-net/calculation-of-array-formula-of-data-tables/
 description: Learn how to calculate array formulas for Excel data tables using Aspose.Cells for Python via .NET API. Modify and save spreadsheets programmatically.
 keywords: Python Excel Data Tables, Python Array Formulas, Aspose.Cells Python, Calculate Data Tables Python, Excel Automation Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

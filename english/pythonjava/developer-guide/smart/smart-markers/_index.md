@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /python-java/using-smart-markers/
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells for Python via java library.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

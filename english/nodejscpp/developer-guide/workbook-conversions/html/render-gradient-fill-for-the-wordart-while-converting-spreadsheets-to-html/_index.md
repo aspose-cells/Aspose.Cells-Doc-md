@@ -5,6 +5,8 @@ type: docs
 weight: 90  
 url: /nodejs-cpp/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/  
 description: Learn how to render gradient fill for WordArt when converting spreadsheets to HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

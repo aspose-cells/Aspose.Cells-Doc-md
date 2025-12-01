@@ -5,6 +5,8 @@ weight: 200
 url: /python-net/convert-excel-to-html-with-tooltip/
 description: This topic show you how to Convert Excel to HTML with tooltip using Aspose.Cells for Python via NET.
 keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Convert Excel to HTML with tooltip**

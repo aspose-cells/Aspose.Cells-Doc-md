@@ -3,6 +3,8 @@ title: Using Aspose.Cells for Java with Perl
 type: docs
 weight: 30
 url: /java/using-aspose-cells-for-java-with-perl/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

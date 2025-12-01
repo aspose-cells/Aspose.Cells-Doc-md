@@ -3,6 +3,8 @@ title: Specify how to cross string in output PDF and image
 type: docs
 weight: 120
 url: /net/specify-how-to-cross-string-in-output-pdf-and-image/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

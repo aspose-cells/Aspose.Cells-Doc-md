@@ -3,6 +3,8 @@ title: Enter Cell Data of GridWeb Worksheet in Percentage Format
 type: docs
 weight: 1010
 url: /java/enter-cell-data-of-gridweb-worksheet-in-percentage-format/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

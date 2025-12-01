@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/avoid-exponential-notation-of-large-numbers-while-importing-from/  
 description: Learn how to prevent large numbers from being converted to exponential notation while importing from HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

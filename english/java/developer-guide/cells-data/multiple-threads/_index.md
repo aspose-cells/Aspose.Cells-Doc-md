@@ -6,6 +6,8 @@ weight: 1100
 url: /java/reading-cell-values-in-multiple-threads-simultaneously/
 description: Learn how to Read Cell Values in Multiple Threads Simultaneously with Aspose.Cells for Java APIs.
 keywords: Java Read Cell Values in Multiple Threads Simultaneously, Multiple Threads for Aspose.Cells for Java APIs.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

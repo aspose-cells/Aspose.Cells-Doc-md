@@ -3,6 +3,8 @@ title: Display or Hide Gridlines in Aspose.Cells
 type: docs
 weight: 50
 url: /net/display-or-hide-gridlines-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

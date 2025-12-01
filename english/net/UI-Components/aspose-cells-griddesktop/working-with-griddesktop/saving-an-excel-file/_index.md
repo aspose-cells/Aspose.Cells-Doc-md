@@ -5,6 +5,8 @@ weight: 20
 url: /net/aspose-cells-griddesktop/save-an-excel-file/
 keywords: GridDesktop,save,file
 description: This article introduces how to save file in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

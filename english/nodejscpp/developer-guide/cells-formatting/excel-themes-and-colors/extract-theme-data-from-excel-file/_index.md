@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel File, Theme Data, Style, Format, Node.js via C++
 type: docs  
 weight: 120  
 url: /nodejs-cpp/extract-theme-data-from-excel-file/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 {{% alert color="primary" %}}  

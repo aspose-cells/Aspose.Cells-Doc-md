@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Pie Chart, Custom Slice Colors, Custom Sector Co
 type: docs
 weight: 60
 url: /cpp/custom-slice-or-sector-colors-in-pie-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

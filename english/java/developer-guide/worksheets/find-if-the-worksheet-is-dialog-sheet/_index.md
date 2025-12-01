@@ -3,6 +3,8 @@ title: Find if the Worksheet is Dialog Sheet
 type: docs
 weight: 100
 url: /java/find-if-the-worksheet-is-dialog-sheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

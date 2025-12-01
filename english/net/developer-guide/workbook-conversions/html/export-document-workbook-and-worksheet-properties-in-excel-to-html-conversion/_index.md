@@ -3,6 +3,8 @@ title: Export Document Workbook and Worksheet Properties in Excel to HTML conver
 type: docs
 weight: 50
 url: /net/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

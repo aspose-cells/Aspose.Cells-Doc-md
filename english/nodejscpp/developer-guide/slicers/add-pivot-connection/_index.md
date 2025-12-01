@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/add-pivot-connection/
 description: Learn how to add pivot connection using Aspose.Cells for Node.js via C++.
 keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365 Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

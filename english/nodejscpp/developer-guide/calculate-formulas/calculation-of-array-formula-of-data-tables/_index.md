@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, data tables, array formulas, calculations Node.js
 type: docs
 weight: 70
 url: /nodejs-cpp/calculation-of-array-formula-of-data-tables/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

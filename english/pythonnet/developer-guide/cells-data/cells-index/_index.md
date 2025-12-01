@@ -5,6 +5,8 @@ weight: 600
 url: /python-net/get-cells-index/
 description: Learn how to get row or column in by the name of row through the Aspose.Cells for Python via .NET API, column or cells. Convert the name of the cell to row and column index zero-based through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel, Get Row index and Column index by the name of the cell using Python, Get Column index by the name of the column using Python, Get Row index by the name of the row using Python, Get the index by the name of cell using Python. 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

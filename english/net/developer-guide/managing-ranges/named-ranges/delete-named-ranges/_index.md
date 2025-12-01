@@ -4,6 +4,8 @@ type: docs
 weight: 90
 url: /net/Delete-named-ranges/
 description: You can learn how to remove defined names or named ranges from Excel or OpenOffice files with Aspose.Cells for .Net .
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

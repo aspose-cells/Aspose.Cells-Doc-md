@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Reusing Style Objects, Style Management, Code Ef
 type: docs
 weight: 3000
 url: /cpp/reusing-style-objects/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

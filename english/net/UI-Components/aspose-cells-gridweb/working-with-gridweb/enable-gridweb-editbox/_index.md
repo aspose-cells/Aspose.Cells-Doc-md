@@ -5,6 +5,8 @@ weight: 110
 url: /net/aspose-cells-gridweb/enable-gridweb-editbox/
 keywords: GridWeb,editbox,formula bar
 description: This article introduces how to work with formula bar or edit box  in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

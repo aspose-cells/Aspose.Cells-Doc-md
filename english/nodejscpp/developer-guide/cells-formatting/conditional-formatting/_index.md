@@ -6,6 +6,8 @@ weight: 60
 url: /nodejs-cpp/conditional-formatting/  
 description: How to apply conditional formats to Excel and ODS files in Node.js via C++.  
 keywords: apply conditional formats Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**

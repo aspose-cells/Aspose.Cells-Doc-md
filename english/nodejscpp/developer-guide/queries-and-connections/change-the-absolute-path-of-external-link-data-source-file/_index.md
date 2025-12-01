@@ -5,6 +5,8 @@ type: docs
 weight: 290
 url: /nodejs-cpp/change-the-absolute-path-of-external-link-data-source-file/
 description: Learn how to change the absolute path of the external link data source file using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

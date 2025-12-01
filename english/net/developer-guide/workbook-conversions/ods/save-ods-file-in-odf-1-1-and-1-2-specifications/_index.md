@@ -5,6 +5,8 @@ description: Convert Excel to ODF 1.1, 1.2 and 1.3 Specifications with Aspose.Ce
 type: docs
 weight: 230
 url: /net/save-ods-file-in-odf-1-1-and-1-2-specifications/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

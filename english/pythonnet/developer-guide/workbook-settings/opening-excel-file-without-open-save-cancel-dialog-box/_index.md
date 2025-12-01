@@ -3,6 +3,8 @@ title: Opening Excel File without Open Save Cancel Dialog Box
 type: docs
 weight: 150
 url: /python-net/opening-excel-file-without-open-save-cancel-dialog-box/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

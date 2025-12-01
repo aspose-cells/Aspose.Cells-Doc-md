@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/using-sparklines-and-settings-3d-format/
 description: Learn how to use sparklines and apply 3D formatting in Excel files using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Using Sparklines**

@@ -3,6 +3,8 @@ title: Locking WordArt Watermark
 type: docs
 weight: 170
 url: /net/locking-wordart-watermark/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

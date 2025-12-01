@@ -3,6 +3,8 @@ title: Aspose.Cells Java for IntelliJ IDEA - Maven
 type: docs
 weight: 50
 url: /java/aspose-cells-java-for-intellij-idea-maven/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

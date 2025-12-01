@@ -5,6 +5,8 @@ type: docs
 weight: 370
 url: /cpp/move-range-of-cells-in-a-worksheet/
 description: Learn how to move a range of cells in a worksheet using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

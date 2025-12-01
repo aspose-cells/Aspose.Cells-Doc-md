@@ -3,6 +3,8 @@ title: HTTPS SSL Issue
 type: docs
 weight: 20
 url: /net/https-ssl-issue/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **HTTPS/SSL Problem**

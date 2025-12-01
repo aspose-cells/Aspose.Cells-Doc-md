@@ -5,6 +5,8 @@ weight: 130
 url: /net/how-to-scale-a-worksheet/
 description: This article shows you code explaining how to scale a worksheet using Aspose.Cells library.
 keywords: C# scale a worksheet, How to Scale a Worksheet using C#, Scale a worksheet in C#.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

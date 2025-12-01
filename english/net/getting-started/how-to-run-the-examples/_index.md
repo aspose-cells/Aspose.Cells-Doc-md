@@ -3,6 +3,8 @@ title: How to Run the Examples
 type: docs
 weight: 140
 url: /net/how-to-run-the-examples/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Software Requirements**

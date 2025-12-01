@@ -5,6 +5,8 @@ weight: 250
 url: /net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/
 description: Learn how to Rename duplicate columns automatically while exporting worksheet data through the Aspose.Cells for .NET API.
 keywords: Rename duplicate columns while exporting worksheet data, Rename duplicate columns automatically while exporting  data to DataTable
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

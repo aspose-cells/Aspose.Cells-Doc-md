@@ -3,6 +3,8 @@ title: Rendering Slicer
 type: docs
 weight: 50
 url: /python-java/rendering-slicer/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Rendering Slicer**

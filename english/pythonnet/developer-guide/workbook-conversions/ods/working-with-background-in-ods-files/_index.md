@@ -5,6 +5,8 @@ weight: 150
 url: /python-net/working-with-background-in-ods-files/
 description: How to work with Background in ODS Files with Aspose.Cells for Python via .NET API.
 keywords: Python work with Background in ODS Files, Read Background Information from ODS file Pyton via NET, Add Colored Background to ODS file using Python via NET, Python via NET Add Graphic Background to ODS file.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Background in ODS Files**

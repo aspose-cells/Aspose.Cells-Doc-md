@@ -3,6 +3,8 @@ title: Read and Write External Connection of XLSB or XLS file
 type: docs
 weight: 80
 url: /java/read-and-write-external-connection-of-xlsb-or-xls-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

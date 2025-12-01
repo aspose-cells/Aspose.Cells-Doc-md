@@ -4,6 +4,8 @@ linktitle: Managing Icons
 type: docs
 weight: 15
 url: /java/insert-svg-to-excel/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Add Icons to Worksheet in Aspose.Cells

@@ -5,6 +5,8 @@ type: docs
 weight: 310
 url: /cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
 description: Learn how to create a TextBox with different horizontal alignment for each line using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

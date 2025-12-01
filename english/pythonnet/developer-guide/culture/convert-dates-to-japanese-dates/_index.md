@@ -5,6 +5,8 @@ type: docs
 weight: 350
 url: /python-net/convert-dates-to-japanese-dates/
 description: Learn how to convert Gregorian dates to Japanese dates in Excel files using Aspose.Cells for Python via .NET.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

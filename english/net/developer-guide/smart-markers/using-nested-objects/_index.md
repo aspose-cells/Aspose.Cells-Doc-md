@@ -3,6 +3,8 @@ title: Smartly Importing Nested Objects into Excel With Smart Markers
 type: docs
 weight: 30
 url: /net/how-to-import-nested-objects-with-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Using Nested Objects for Smart Markers**

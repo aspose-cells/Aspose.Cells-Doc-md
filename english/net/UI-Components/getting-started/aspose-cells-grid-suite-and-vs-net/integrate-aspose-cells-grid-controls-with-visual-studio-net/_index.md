@@ -5,6 +5,8 @@ weight: 10
 url: /net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
 description: This article describes how to use GridWeb and GridDesktop controls in vissual studio .NET.
 keywords:  GridWeb,GridDesktop,visual studio,control,integrate
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

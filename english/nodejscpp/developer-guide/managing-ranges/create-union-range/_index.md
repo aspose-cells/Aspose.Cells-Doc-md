@@ -6,6 +6,8 @@ weight: 360
 url: /nodejs-cpp/create-union-range/  
 description: Learn how to create a Union Range using Aspose.Cells for Node.js via C++.  
 keywords: Create Union Range Node.js via C++, Union Range Aspose.Cells Node.js, WorksheetCollection create union range Node.js  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Create Union Range**  

@@ -5,6 +5,8 @@ weight: 200
 url: /python-net/create-access-and-copy-named-ranges/
 description: This article shows how to Create Access and Copy Named Ranges by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Create Access and Copy Named Ranges, Python Create Named Ranges, Python Copy Named Ranges, Python Access All the Named Ranges in a Spreadsheet.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

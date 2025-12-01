@@ -6,6 +6,8 @@ weight: 68
 url: /nodejs-cpp/protect-and-unprotect/
 alias: [/nodejs-cpp/security-features/]
 description: This snippet introduces how to encrypt and decrypt Excel files, protect and unprotect the data in Excel files using Node.js with C++ addons.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

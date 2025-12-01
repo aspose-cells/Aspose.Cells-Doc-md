@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Pie Chart, Leader Lines, Microsoft Excel, Data V
 type: docs
 weight: 45
 url: /cpp/creating-pie-chart-with-leader-lines/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

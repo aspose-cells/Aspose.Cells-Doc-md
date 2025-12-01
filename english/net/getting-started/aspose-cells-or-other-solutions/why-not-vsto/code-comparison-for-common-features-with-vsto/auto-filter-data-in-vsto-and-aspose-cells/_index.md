@@ -3,6 +3,8 @@ title: Auto Filter Data in VSTO and Aspose.Cells
 type: docs
 weight: 50
 url: /net/auto-filter-data-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To apply auto-filtering to a column:

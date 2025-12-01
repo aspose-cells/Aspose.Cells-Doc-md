@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/draw-slicer-while-rendering-excel-to-pdf/
 description: Export Excel to PDF with slicer settings using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Draw Slicer while rendering Excel to PDF**

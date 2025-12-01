@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, chart globalization, languages, local
 type: docs
 weight: 2200
 url: /net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Hiding and Showing Rows and Columns
 type: docs
 weight: 60
 url: /net/hiding-and-showing-rows-and-columns/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

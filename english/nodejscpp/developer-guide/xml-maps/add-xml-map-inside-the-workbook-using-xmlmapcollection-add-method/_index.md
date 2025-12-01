@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/  
 description: Learn how to add XML Map inside the workbook using XmlMapCollection.Add method with Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

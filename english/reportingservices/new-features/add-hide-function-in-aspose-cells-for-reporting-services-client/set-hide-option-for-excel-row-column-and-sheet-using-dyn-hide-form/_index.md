@@ -3,6 +3,8 @@ title: Set Hide Option for Excel Row, Column and Sheet using Dyn-Hide Form
 type: docs
 weight: 20
 url: /reportingservices/set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells for Reporting Services hides any specified row, column and sheet based set in the Hide parameters. The parameters include:

@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, Excel 2016 charts, read, manipulate, data la
 type: docs  
 weight: 48  
 url: /nodejs-cpp/read-and-manipulate-excel-2016-charts/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

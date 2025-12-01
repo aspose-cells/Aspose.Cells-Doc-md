@@ -5,6 +5,8 @@ weight: 250
 url: /python-net/aspose-cells-gridjs/server/
 keywords: use case,excel,GridJs,spreadsheet,file,download,edit,editor,view,viewer
 description: This article describes how to use Aspose.Cells.GridJs library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

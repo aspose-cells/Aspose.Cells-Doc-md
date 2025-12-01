@@ -5,6 +5,8 @@ type: docs
 weight: 340  
 url: /nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/  
 description: Learn how to detect the file format of encrypted OOXML files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

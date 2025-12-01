@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/data-formatting-in-charts/
 description: Learn about the various data sources supported by Aspose.Cells for C++. Our guide will walk you through the different types of data sources available and show you how to connect and retrieve data from them to populate your worksheets.
 keywords: Aspose.Cells for C++, charting, data formatting, labels, colors, fonts, appearance, usability.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 In our previous topics, we have already provided many examples to demonstrate how you can set a data source for your chart. In this topic, we are going to provide more details about the types of data that can be set for a chart.

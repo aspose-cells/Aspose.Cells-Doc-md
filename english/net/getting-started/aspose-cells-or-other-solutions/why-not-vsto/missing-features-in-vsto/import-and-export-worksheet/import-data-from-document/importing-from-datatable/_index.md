@@ -3,6 +3,8 @@ title: Importing from DataTable
 type: docs
 weight: 40
 url: /net/importing-from-datatable/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Developers can import data from a **DataTable** to their worksheets by calling the **ImportDataTable** method of the Cells collection. There are many overloaded versions of the **ImportDataTable** method but a typical overload takes the following parameters:**DataTable** , represents the **DataTable** object whose contents need to import

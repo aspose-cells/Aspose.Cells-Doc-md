@@ -4,6 +4,8 @@ linktitle: Optimizing Memory Usage while Working with Big Files having Large Dat
 type: docs  
 weight: 180  
 url: /nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

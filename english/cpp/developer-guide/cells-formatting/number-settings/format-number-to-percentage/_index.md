@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/how-to-format-number-to-percentage/
 description: This article will introduce how to Format Number to Percentage using Aspose.Cells for C++ API.
 keywords: Convert a number into a percentage format, Transform numerical values into percentages, Change numbers to be displayed as percentages, Formatting numbers as percentages, Adjusting numerical figures to percentage representation, Format Number to Percentage
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

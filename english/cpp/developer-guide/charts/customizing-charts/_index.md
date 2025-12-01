@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, customization, layouts, data series, a
 type: docs
 weight: 40
 url: /cpp/customizing-charts/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

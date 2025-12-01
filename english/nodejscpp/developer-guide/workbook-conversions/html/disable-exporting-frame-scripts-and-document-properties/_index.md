@@ -5,6 +5,8 @@ type: docs
 weight: 310
 url: /nodejs-cpp/disable-exporting-frame-scripts-and-document-properties/
 description: Learn how to disable exporting frame scripts and document properties when converting a workbook to HTML using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 {{% alert color="primary" %}}

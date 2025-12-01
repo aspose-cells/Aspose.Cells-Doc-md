@@ -6,6 +6,8 @@ url: /java/
 is_root: true
 description: Aspose.Cells for Java is a class library which supports creating, updating and saving Excel files. And Aspose.Cells for Java also supports converting files to PDF, DOCX, PPTX, JSON,XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
 keywords: Aspose.Cells for Java create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

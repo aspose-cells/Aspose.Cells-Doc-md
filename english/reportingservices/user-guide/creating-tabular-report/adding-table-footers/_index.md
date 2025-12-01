@@ -3,6 +3,8 @@ title: Adding Table Footers
 type: docs
 weight: 50
 url: /reportingservices/adding-table-footers/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To add table footers:

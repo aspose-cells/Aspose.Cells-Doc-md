@@ -3,6 +3,8 @@ title: Set the Shape Type of Data Labels of Chart
 type: docs
 weight: 70
 url: /java/set-the-shape-type-of-data-labels-of-chart/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

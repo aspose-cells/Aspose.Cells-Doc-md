@@ -3,6 +3,8 @@ title: Working with PivotTable
 type: docs
 weight: 100
 url: /reportingservices/working-with-pivottable/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

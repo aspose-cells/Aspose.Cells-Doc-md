@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/copying-and-moving-worksheets/
 description: This article includes sample code and describes how to copy and move worksheets programmatically both within an Excel workbook and across Excel workbooks using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python copy worksheet, Python move worksheet, Python Copy Worksheets between Workbooks, Python Move Worksheets within Workbook, Python Copy Worksheets between Workbooks, Python Copy Worksheets within a Workbook.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

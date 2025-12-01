@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/working-with-external-data-connection-of-type-webquery/
 description: Learn how to work with WebQuery data connection in Microsoft Excel using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

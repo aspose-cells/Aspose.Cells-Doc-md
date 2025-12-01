@@ -3,6 +3,8 @@ title: Adding Custom Properties visible inside Document Information Panel
 type: docs
 weight: 300
 url: /python-net/adding-custom-properties-visible-inside-document-information-panel/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Custom Properties visible inside Document Information Panel**

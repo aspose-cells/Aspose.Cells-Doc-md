@@ -3,6 +3,8 @@ title: Add Custom XML Parts and Select them by ID
 type: docs
 weight: 10
 url: /java/add-custom-xml-parts-and-select-them-by-id/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

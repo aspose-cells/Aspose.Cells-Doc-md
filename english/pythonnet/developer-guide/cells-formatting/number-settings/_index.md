@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Python library, electronic spreadsheet, cell number sett
 type: docs
 weight: 10
 url: /python-net/cells-number-settings/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Set Display Formats of Numbers and Dates**

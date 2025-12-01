@@ -6,6 +6,8 @@ weight: 600
 url: /nodejs-cpp/how-to-control-sheet-tab-bar/  
 description: Learn how to control the sheet tab bar using Aspose.Cells for Node.js via C++.  
 keywords: How to Control Sheet Tab Bar Node.js via C++, Operate Sheet Tab Bar Node.js via C++, Set Sheet Tab Bar Node.js via C++, Control Sheet Tab Bar Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

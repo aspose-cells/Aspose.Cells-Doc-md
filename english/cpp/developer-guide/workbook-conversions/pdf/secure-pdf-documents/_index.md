@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /cpp/secure-pdf-documents/
 description: Learn how to secure PDF documents with owner and user passwords using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ weight: 40
 url: /java/evaluation-version-limitations/
 description: This article can help you understand how to obtain evaluation versions and know the limitations of evaluation versions.
 keywords: Evaluation Version Limitations, Number of Opened Files in Evaluation Version, Evaluation Watermark using Evaluation Version.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Get Evaluation Version of Aspose.Cells**

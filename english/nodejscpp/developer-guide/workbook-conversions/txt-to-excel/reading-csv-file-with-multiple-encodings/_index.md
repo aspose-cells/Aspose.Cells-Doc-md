@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /nodejs-cpp/reading-csv-file-with-multiple-encodings/
 description: Learn how to read CSV files with multiple encodings using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

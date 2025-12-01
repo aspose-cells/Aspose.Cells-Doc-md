@@ -5,6 +5,8 @@ type: docs
 weight: 260
 url: /python-net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
 description: Learn how to modify fonts for specific Unicode characters during PDF conversion using Aspose.Cells for Python via .NET. Ensure precise text rendering with character-level font substitution.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

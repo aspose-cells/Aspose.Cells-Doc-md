@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /python-net/loading-saving-and-managing/
 description: With Aspose.Cells for Python via .NET, it is simple to create,open and manage Excel,CSV,TSV,ODS,HTML,Numbers,Json,XML,Pdf,Jpg,Tiff,Image,Mht and XPS files.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

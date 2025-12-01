@@ -5,6 +5,8 @@ type: docs
 weight: 2700  
 url: /nodejs-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/  
 description: Learn how to detect a file format and check if a file is encrypted using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

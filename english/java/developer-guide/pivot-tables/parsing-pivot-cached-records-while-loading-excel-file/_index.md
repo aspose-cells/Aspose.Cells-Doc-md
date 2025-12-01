@@ -3,6 +3,8 @@ title: Parsing Pivot Cached Records while loading Excel file
 type: docs
 weight: 100
 url: /java/parsing-pivot-cached-records-while-loading-excel-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

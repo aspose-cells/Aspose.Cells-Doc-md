@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/excel-color-palette/  
 description: Node.js code to add custom colors to the palette and use Excel color palette with Aspose.Cells for Node.js via C++.  
 keywords: node.js add custom colors to the palette, node.js programmatically excel color palette, programmatically how to use color palette in workbook, node.js how to use color palette in excel  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Colors and Palette**  

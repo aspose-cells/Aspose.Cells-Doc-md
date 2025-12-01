@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Dynamic Scrolling Chart, Data Transi
 type: docs
 weight: 75
 url: /python-net/create-dynamic-scrolling-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

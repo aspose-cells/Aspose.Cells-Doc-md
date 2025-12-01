@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/opening-different-microsoft-excel-versions-files/
 description: This article explains how to open different Excel version files using Aspose.Cells for Node.js via C++.
 keywords: Node.js Open Different Microsoft Excel file via C++, How do I open Encrypted Excel Files Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

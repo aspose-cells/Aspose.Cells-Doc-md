@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /nodejs-cpp/add-pdf-bookmarks-with-named-destinations/
 description: Learn how to add PDF bookmarks with named destinations using Aspose.Cells for Node.js via C++. Ensure bookmarks remain intact regardless of page changes.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

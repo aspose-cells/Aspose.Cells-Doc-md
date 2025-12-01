@@ -6,6 +6,8 @@ weight: 10
 url: /cpp/supported-formula-functions/
 description: Supported Excel functions for reading, setting, and calculating formulas using Aspose.Cells with C++.
 keywords: formula function calculate
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

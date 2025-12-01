@@ -3,6 +3,8 @@ title: Changing the Layout of Pivot Table
 type: docs
 weight: 60
 url: /java/changing-the-layout-of-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

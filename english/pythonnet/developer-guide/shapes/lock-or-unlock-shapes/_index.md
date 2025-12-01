@@ -4,6 +4,8 @@ linktitle: Lock or unlock shapes
 type: docs
 weight: 200
 url: /python-net/lock-or-unlock-shapes/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

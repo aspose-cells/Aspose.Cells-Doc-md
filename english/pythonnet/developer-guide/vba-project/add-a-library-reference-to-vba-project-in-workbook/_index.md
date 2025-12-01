@@ -3,6 +3,8 @@ title: Add a library reference to VBA project in workbook
 type: docs
 weight: 80
 url: /python-net/add-a-library-reference-to-vba-project-in-workbook/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

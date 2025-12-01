@@ -3,6 +3,8 @@ title: Read and Write Table with Query Table Data Source
 type: docs
 weight: 30
 url: /net/read-and-write-table-with-query-table-data-source/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read and Write Table with Query Table Data Source**

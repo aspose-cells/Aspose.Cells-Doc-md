@@ -3,6 +3,8 @@ title: Change Adjustment Values of the Shape
 type: docs
 weight: 3200
 url: /java/change-adjustment-values-of-the-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

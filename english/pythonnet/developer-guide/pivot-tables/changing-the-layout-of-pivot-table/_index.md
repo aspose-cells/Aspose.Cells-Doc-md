@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/changing-the-layout-of-pivot-table/
 description: How to change the Layout of Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Change the Layout of Pivot Table Using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Change the Layout of Pivot Table in MS-Excel**

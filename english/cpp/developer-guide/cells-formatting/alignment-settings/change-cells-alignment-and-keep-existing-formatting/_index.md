@@ -5,6 +5,8 @@ keywords: Aspose.Cells, C++, Cell alignment, preserve existing formatting
 type: docs
 weight: 340
 url: /cpp/change-cells-alignment-and-keep-existing-formatting/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 5
 url: /nodejs-cpp/supported-font-formats/
 description: Overview of supported font formats in Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 |**Format**|**Description**|

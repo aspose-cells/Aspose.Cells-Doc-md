@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /cpp/converting-worksheet-to-image-using-imageorprint-options/
 description: Learn how to convert a worksheet to an image file and apply different image and print options using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

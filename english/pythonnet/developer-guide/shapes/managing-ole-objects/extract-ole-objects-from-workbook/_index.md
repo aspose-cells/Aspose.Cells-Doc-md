@@ -3,6 +3,8 @@ title: Extract OLE Objects from Workbook
 type: docs
 weight: 110
 url: /python-net/extract-ole-objects-from-workbook/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 120
 url: /nodejs-cpp/autofit-row-height/
 description: Learn how to fit rows whose height is not customized when loading a file using Aspose.Cells for Node.js via C++.
 keywords: AutoFit Row Height when loading file Node.js via C++, automatically adjust row height when opening excel file Node.js via C++ 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

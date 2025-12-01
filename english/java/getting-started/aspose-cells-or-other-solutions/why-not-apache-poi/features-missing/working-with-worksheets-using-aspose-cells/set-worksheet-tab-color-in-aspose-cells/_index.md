@@ -3,6 +3,8 @@ title: Set Worksheet Tab Color in Aspose.Cells
 type: docs
 weight: 90
 url: /java/set-worksheet-tab-color-in-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Worksheet Tab Color**

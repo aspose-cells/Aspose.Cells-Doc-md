@@ -5,6 +5,8 @@ type: docs
 weight: 290
 url: /cpp/change-the-absolute-path-of-external-link-data-source-file/
 description: Change the absolute path of external link data source file in Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

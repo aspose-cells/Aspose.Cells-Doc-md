@@ -6,6 +6,8 @@ linktitle: Number Format
 type: docs
 weight: 100
 url: /net/set-the-values-format-code-of-chart-series/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

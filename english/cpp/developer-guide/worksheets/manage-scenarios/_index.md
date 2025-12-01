@@ -6,6 +6,8 @@ weight: 190
 url: /cpp/create-manipulate-or-remove-scenarios-from-worksheets/
 description: In this article, you will learn how to create, manipulate or remove Scenarios from Excel Worksheets programmatically using C++ Library with Aspose.Cells API.
 keywords: create scenario worksheet c++, remove scenario excel worksheet c++, manipulate scenario worksheet c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

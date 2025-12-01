@@ -5,6 +5,8 @@ weight: 60
 url: /net/aspose-cells-griddesktop/find-griddesktop-version-at-runtime/
 keywords: GridDesktop,version
 description: This article introduces how to get version in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

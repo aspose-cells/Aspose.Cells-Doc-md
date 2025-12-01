@@ -3,6 +3,8 @@ title: Performance
 type: docs
 weight: 30
 url: /reportingservices/performance/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To improve performance, set the Performance parameter to **ON**.

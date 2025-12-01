@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, abstract calculation engine returning values Node
 type: docs
 weight: 55
 url: /nodejs-cpp/returning-a-range-of-values-using-abstractcalculationengine/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

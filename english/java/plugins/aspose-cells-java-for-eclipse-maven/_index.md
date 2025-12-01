@@ -3,6 +3,8 @@ title: Aspose.Cells Java for Eclipse - Maven
 type: docs
 weight: 90
 url: /java/aspose-cells-java-for-eclipse-maven/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

@@ -3,6 +3,8 @@ title: Export Chart to SVG with viewBox attribute
 type: docs
 weight: 280
 url: /net/export-chart-to-svg-with-viewbox-attribute/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

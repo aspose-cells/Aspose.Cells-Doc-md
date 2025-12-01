@@ -5,6 +5,8 @@ type: docs
 weight: 310
 url: /nodejs-cpp/release-unmanaged-resources-of-the-workbook/
 description: Learn how to release unmanaged resources of Workbook object using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Advanced Formula Calculation
 type: docs
 weight: 40
 url: /reportingservices/advanced-formula-calculation/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

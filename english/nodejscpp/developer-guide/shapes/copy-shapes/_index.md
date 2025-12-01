@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /nodejs-cpp/copy-shapes-between-worksheets/
 description: Learn how to copy shapes like pictures and charts between worksheets using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

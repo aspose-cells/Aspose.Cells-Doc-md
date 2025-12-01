@@ -4,6 +4,8 @@ linktitle: Render One PDF Page Per Excel Worksheet - Excel to PDF Conversion
 type: docs  
 weight: 100  
 url: /nodejs-cpp/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

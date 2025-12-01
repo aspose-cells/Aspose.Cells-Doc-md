@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/add-filter-in-pivot-table/
 description: Learn how to add a filter in pivot table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Adding a Filter in Pivot Table using Aspose.Cells for Python Excel Library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

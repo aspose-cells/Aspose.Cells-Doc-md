@@ -3,6 +3,8 @@ title: Use Formulas Functions to Process Data in VSTO and Aspose.Cells
 type: docs
 weight: 240
 url: /net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Cell Formula**

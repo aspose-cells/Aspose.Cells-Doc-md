@@ -5,6 +5,8 @@ type: docs
 weight: 20
 url: /nodejs-cpp/convert-excel-to-ods/
 description: How to convert Excel to Ods (OpenOffice / LibreOffice Calc) or convert Ods (OpenOffice / LibreOffice Calc) to Excel with Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About OpenDocument**

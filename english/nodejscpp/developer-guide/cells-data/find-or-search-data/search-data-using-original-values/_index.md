@@ -5,6 +5,8 @@ weight: 380
 url: /nodejs-cpp/search-data-using-original-values/  
 description: Learn how to Search Data using Original Values through the Aspose.Cells for Node.js via C++ API.  
 keywords: Search Data using Original Values Node.js via C++, Find Data using Original Values Node.js via C++, Search Data by Original Values Node.js via C++, Find Data by Original Values Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

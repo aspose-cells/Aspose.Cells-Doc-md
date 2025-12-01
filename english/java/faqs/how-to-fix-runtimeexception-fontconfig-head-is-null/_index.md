@@ -3,6 +3,8 @@ title: How to fix RuntimeException - Fontconfig head is null
 type: docs
 weight: 50
 url: /java/how-to-fix-runtimeexception-fontconfig-head-is-null/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 The error `java.lang.RuntimeException: Fontconfig head is null, check your fonts or fonts configuration` occurs when **Aspose.Cells for Java** cannot locate the required fonts on the system. Aspose.Cells relies on font files for rendering and processing operations such as PDF generation, image rendering, and page layout handling.

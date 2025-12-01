@@ -5,6 +5,8 @@ type: docs
 weight: 270
 url: /nodejs-cpp/add-word-art-text-with-built-in-styles/
 description: Learn to add Word Art Text with Built-in Styles using Aspose.Cells for Node.js via C++. Create visually appealing text in Excel using built-in styles.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

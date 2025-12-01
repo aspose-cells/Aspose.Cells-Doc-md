@@ -6,6 +6,8 @@ weight: 90
 url: /net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
 keywords: GridDesktop,merge,unmerge
 description: This article introduces merge and unmerge in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

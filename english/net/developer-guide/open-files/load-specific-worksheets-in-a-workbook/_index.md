@@ -3,6 +3,8 @@ title: Load Specific Worksheets in a Workbook
 type: docs
 weight: 100
 url: /net/load-specific-worksheets-in-a-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

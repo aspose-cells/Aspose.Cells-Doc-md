@@ -6,6 +6,8 @@ weight: 45
 url: /cpp/insert-hyperlinks-to-excel/
 description: How to insert hyperlinks into Excel file with Aspose.Cells library without MS Excel using C++.
 keywords: Insert Hyperlinks into Excel, Add or Insert Hyperlinks, Add or Insert link to a URL, Add or Insert a Link to a Cell, Add a Link to an External File
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

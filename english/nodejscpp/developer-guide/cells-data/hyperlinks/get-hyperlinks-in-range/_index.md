@@ -5,6 +5,8 @@ weight: 100
 url: /nodejs-cpp/get-hyperlinks-in-range/
 description: Learn how to get hyperlinks in range through the Aspose.Cells for Node.js via C++ API.
 keywords: Get Hyperlinks in Range Node.js via C++, Get all the hyperlinks in the selected range Node.js via C++, Delete hyperlink in Range Node.js via C++, Delete the hyperlinks in the selected range Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Hyperlinks in Range**

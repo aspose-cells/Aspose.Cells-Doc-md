@@ -6,6 +6,8 @@ weight: 100
 url: /net/how-to-add-pivot-chart/
 description: How to add a PivotChart using Aspose.Cells.
 keywords: PivotChart
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 ## What is PivotChart
 

@@ -6,6 +6,8 @@ weight: 200
 url: /nodejs-cpp/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 description: This article demonstrates how to utilize Sheet.SheetId property of OpenXml using Excel manipulation with Aspose.Cells for Node.js via C++ programmatically.
 keywords: sheet id property of openxml node.js via C++, sheet id excel worksheet node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

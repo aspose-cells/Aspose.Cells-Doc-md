@@ -5,6 +5,8 @@ type: docs
 weight: 200
 url: /cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 description: Learn how to get or set the class identifier of embedded OLE objects using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

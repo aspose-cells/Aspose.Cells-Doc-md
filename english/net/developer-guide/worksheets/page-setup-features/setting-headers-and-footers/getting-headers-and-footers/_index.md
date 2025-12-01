@@ -4,6 +4,8 @@ type: docs
 weight: 30
 url: /net/get-headers-or-footers/
 description: This article explains how to programmatically get header and footers from Excel or OpenOffice files using the C# API or .NET Library.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

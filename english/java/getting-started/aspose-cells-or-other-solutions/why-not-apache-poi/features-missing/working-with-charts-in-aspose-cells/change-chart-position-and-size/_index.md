@@ -3,6 +3,8 @@ title: Change Chart Position and Size
 type: docs
 weight: 20
 url: /java/change-chart-position-and-size/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Change Chart Position and Size**

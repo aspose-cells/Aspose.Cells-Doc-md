@@ -4,6 +4,8 @@ linktitle: Workbook Merger
 type: docs
 weight: 66
 url: /net/combine-multiple-workbooks-into-a-single-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

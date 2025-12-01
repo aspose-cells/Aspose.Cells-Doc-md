@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, chart axes, automatic units, Microso
 type: docs  
 weight: 120  
 url: /nodejs-cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

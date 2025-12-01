@@ -4,6 +4,8 @@ linktitle: Sets Table Formula
 type: docs
 weight: 260
 url: /python-net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Get or Set the Class Identifier of the Embedded OLE Object
 type: docs
 weight: 920
 url: /java/get-or-set-the-class-identifier-of-the-embedded-ole-object/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

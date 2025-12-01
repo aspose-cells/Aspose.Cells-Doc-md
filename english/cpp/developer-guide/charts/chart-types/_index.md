@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, charting, chart types, supported, creation, modi
 type: docs
 weight: 5
 url: /cpp/chart-types/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

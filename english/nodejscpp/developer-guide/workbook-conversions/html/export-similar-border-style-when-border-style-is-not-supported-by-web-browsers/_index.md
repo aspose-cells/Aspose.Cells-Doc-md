@@ -5,6 +5,8 @@ type: docs
 weight: 70  
 url: /nodejs-cpp/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/  
 description: Learn how to export borders that are not supported by web browsers when converting Excel files to HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

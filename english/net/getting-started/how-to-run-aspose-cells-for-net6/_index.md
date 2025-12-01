@@ -4,6 +4,8 @@ type: docs
 description: "How to Run Aspose.Cells for .Net6."
 weight: 138
 url: /net/how-to-run-aspose-cells-for-net6/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Overview

@@ -3,6 +3,8 @@ title: Release Unmanaged Resources of the Workbook
 type: docs
 weight: 310
 url: /net/release-unmanaged-resources-of-the-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

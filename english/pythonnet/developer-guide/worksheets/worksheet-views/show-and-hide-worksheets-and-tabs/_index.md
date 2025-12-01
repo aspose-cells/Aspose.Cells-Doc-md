@@ -5,6 +5,8 @@ weight: 10
 url: /python-net/show-and-hide-worksheets-and-tabs/
 description: This article provides sample code for using the Aspose.Cells for Python via .NET API to programmatically display and hide an Excel worksheet. Additionally, how to show and hide Excel workbook tabs.
 keywords: Python Excel Library, Python Show and Hide a Worksheet, Python Show and Hide Tabs, Python Control the Tab Bar Width.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

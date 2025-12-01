@@ -5,6 +5,8 @@ weight: 10
 url: /net/how-to-format-number-to-fraction/
 description: This article will introduce how to Format Number to Fractionusing Aspose.Cells for .NET API.
 keywords: Convert a numeral into a fraction representation, Transform a digit into its fractional equivalent, Change a number into its corresponding fraction form, Format a numeric value into a fraction, Express a number as a fraction, Format Number to Fraction
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

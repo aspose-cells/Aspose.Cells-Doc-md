@@ -5,6 +5,8 @@ weight: 300
 url: /python-net/data-in-non-primitive-shape/
 description: This article shows Data in Non-Primitive Shape through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Data in Non-Primitive Shape, Python how to Access Data of Non-Primitive Shape.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Accessing Data of Non-Primitive Shape**

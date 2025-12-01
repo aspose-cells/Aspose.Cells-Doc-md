@@ -5,6 +5,8 @@ weight: 130
 url: /net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
 keywords: GridWeb,generate report,report
 description: This article introduces how to generate report in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

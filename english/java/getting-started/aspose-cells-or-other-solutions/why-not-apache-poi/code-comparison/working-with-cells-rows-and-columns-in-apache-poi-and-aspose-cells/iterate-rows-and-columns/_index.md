@@ -5,6 +5,8 @@ weight: 50
 url: /java/iterate-rows-and-columns/
 description: Learn how to Iterate Rows and Columns through the Aspose.Cells for Java APIs.
 keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Iterate Rows and Columns Using Aspose.Cells for Java**

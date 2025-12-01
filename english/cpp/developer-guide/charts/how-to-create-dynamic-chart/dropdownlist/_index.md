@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Dynamic Chart, Drop-Down List, Data Visualizatio
 type: docs
 weight: 76
 url: /cpp/create-dynamic-chart-with-dropdownlist/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Read the values of the GridWeb cells on Client Side
 type: docs
 weight: 10
 url: /java/read-the-values-of-the-gridweb-cells-on-client-side/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Excel to PDF Conversion in PHP
 type: docs
 weight: 20
 url: /net/excel-to-pdf-conversion-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Excel to PDF Conversion**

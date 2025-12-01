@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/add-pdf-bookmarks-with-named-destinations/
 description: Learn how to Add PDF Bookmarks with Named Destinations with Aspose.Cells for Python via .NET API.
 keywords: Python Add PDF Bookmarks with Named Destinations
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Create PdfBookmarkEntry for Chart Sheet
 type: docs
 weight: 50
 url: /net/create-pdfbookmarkentry-for-chart-sheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

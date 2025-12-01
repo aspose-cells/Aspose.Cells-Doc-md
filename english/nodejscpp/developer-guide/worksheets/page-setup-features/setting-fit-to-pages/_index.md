@@ -6,6 +6,8 @@ weight: 200
 url: /nodejs-cpp/how-to-print-excel-as-fitted-pages-wide-and-tall/
 description: This article shows you code explaining how to set FitToPagesWide and FitToPagesTall using Aspose.Cells for Node.js via C++.
 keywords: Node.js via C++ How to Set FitToPagesWide and FitToPagesTall, How to add FitToPagesWide and FitToPagesTall in Node.js, How to Set FitToPagesWide and FitToPagesTall in Excel, How to Clear FitToPagesWide and FitToPagesTall in Excel, How to Print Excel as Fitted Pages Wide and Tall, How to Print Worksheet as One Page, How to Print All Columns of Worksheet in One Page.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

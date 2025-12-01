@@ -5,6 +5,8 @@ weight: 100
 url: /net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
 keywords: GridDesktop,controls,control
 description: This article introduces how to set control in column GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

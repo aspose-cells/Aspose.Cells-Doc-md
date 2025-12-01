@@ -5,6 +5,8 @@ type: docs
 weight: 110
 url: /cpp/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 description: Learn how to prefix table elements styles using Aspose.Cells for C++ with HtmlSaveOptions.TableCssId property.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

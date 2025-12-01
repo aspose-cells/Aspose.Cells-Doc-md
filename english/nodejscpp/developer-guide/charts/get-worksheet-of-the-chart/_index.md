@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, Excel charts, worksheets, data manipulation,
 type: docs
 weight: 1000
 url: /nodejs-cpp/get-worksheet-of-the-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

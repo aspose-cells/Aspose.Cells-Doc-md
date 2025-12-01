@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/reading-and-writing-query-table-of-worksheet/
 description: Learn how to read and write query tables in Excel worksheets using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

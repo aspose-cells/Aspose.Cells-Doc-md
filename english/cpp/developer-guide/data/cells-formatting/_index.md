@@ -3,6 +3,8 @@ title: Cells Formatting
 type: docs
 weight: 50
 url: /cpp/cells-formatting/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Format Cell or Range of Cells**

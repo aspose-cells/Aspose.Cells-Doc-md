@@ -6,6 +6,8 @@ weight: 110
 url: /cpp/specify-custom-number-decimal-and-group-separators-for-workbook/
 description: Change Number decimal and group separator in MS Excel and with C++ code by using the Aspose.Cells for C++ API.
 keywords: specify custom decimal separator excel, specify custom decimal separator excel c++, specify custom group separator excel, specify custom group separator excel c++, specify custom decimal and group separator excel, specify custom decimal and group separator excel c++, change decimal and group separator excel c++, change decimal and group separator excel, change decimal separator excel, change decimal separator excel c++, change group separator excel, change group separator excel c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

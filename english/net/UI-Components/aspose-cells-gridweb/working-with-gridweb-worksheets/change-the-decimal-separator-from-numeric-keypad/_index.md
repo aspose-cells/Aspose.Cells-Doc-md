@@ -5,6 +5,8 @@ weight: 150
 url: /net/aspose-cells-gridweb/change-the-decimal-separator-from-numeric-keypad/
 keywords: GridWeb,decimal,decimal separator
 description: This article introduces how to change decimal separator in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

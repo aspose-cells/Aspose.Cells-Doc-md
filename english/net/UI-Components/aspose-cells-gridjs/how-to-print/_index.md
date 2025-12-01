@@ -10,6 +10,8 @@ aliases:
   - /net/aspose-cells-gridjs/printing/
   - /net/aspose-cells-gridjs/print-configuration/
   - /net/aspose-cells-gridjs/print-layout/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

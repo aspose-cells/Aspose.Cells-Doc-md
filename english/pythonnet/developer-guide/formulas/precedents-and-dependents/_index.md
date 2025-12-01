@@ -3,6 +3,8 @@ title: Precedents and Dependents
 type: docs
 weight: 230
 url: /python-net/precedents-and-dependents/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

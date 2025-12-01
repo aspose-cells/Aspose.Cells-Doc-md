@@ -3,6 +3,8 @@ title: Implementing Non-Sequential Ranges
 type: docs
 weight: 1200
 url: /java/implementing-non-sequential-ranges/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Normally, [named ranges](/cells/java/named-ranges/) are rectangular with cells continuous and adjacent to each other. But sometimes, you may need to use a non-sequential cell range in which cells are not adjacent. Aspose.Cells supports creating a named range with non-adjacent cells. For this, the API provides the [**Name.RefersTo**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) property.

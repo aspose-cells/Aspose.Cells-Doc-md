@@ -5,6 +5,8 @@ weight: 70
 url: /python-net/change-slicer-properties/
 description: Learn how to Change Slicer Properties with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python Change Slicer Properties without Excel, Python modify Slicer Properties without Excel, Change Slicer Properties using Aspose.Cells for Python excel library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

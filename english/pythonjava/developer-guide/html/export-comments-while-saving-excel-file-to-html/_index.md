@@ -3,6 +3,8 @@ title: Export Comments while Saving Excel file to HTML
 type: docs
 weight: 60
 url: /python-java/export-comments-while-saving-excel-file-to/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Export Comments while Saving Excel file to HTML**

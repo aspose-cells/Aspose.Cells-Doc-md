@@ -5,6 +5,8 @@ type: docs
 weight: 30  
 url: /nodejs-cpp/exclude-unused-styles-during-excel-to-html-conversion/  
 description: Learn how to exclude unused styles when converting Excel to HTML using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

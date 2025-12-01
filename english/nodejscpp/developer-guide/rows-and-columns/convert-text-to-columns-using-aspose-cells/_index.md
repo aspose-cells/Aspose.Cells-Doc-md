@@ -5,6 +5,8 @@ type: docs
 weight: 30  
 url: /nodejs-cpp/convert-text-to-columns-using-aspose-cells/  
 description: Learn how to convert text to columns in Excel using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

@@ -3,6 +3,8 @@ title: Import Data from Microsoft Access Database ResultSet Object to the Worksh
 type: docs
 weight: 200
 url: /java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

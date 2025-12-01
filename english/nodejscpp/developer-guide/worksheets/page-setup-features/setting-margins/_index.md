@@ -6,6 +6,8 @@ weight: 20
 url: /nodejs-cpp/setting-margins/
 description: In this article, you will learn how to set the margins of an Excel worksheet using sample code. Also learn how to programmatically set margins for page center, header, and footer using the Node.js API via C++.
 keywords: set excel worksheet margin to center Node.js via C++, set worksheet header and footer margin Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

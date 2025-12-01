@@ -3,6 +3,8 @@ title: Set External Links in Formulas in Aspose.Cells
 type: docs
 weight: 90
 url: /net/set-external-links-in-formulas-in-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

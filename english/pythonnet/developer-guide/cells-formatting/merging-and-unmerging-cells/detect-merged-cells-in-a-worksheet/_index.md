@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Worksheet, Merge Cells, Detect, Iden
 type: docs
 weight: 80
 url: /python-net/detect-merged-cells-in-a-worksheet/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

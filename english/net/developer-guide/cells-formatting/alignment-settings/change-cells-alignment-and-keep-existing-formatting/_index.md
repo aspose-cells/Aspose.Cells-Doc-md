@@ -5,6 +5,8 @@ keywords: Aspose.Cells, C#, Cell alignment, preserve existing formatting
 type: docs
 weight: 340
 url: /net/change-cells-alignment-and-keep-existing-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

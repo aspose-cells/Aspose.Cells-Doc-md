@@ -3,6 +3,8 @@ title: Fit All Worksheet Columns on Single PDF Page
 type: docs
 weight: 70
 url: /java/fit-all-worksheet-columns-on-single-pdf-page/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

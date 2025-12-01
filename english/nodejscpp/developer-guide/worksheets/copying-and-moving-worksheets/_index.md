@@ -6,6 +6,8 @@ weight: 10
 url: /nodejs-cpp/copying-and-moving-worksheets/
 description: This article includes sample code and describes how to copy and move worksheets programmatically both within an Excel workbook and across Excel workbooks using the Node.js API with C++.
 keywords: copy worksheet Node.js, move worksheet Node.js
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

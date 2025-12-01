@@ -3,6 +3,8 @@ title: Change Text Direction of the Comment
 type: docs
 weight: 10
 url: /net/change-text-direction-of-the-comment/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

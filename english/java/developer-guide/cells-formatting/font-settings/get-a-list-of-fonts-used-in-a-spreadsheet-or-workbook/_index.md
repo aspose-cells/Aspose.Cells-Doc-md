@@ -3,6 +3,8 @@ title: Get a List of Fonts used in a Spreadsheet or Workbook
 type: docs
 weight: 20
 url: /java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

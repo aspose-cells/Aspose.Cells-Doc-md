@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/add-pivot-connection/
 description: Learn how to add pivot connection with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Python Add Pivot Connection without Excel, Python Associate Slicer and PivotTable without Excel, Add Pivot Connection using Aspose.Cells for Python excel library.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

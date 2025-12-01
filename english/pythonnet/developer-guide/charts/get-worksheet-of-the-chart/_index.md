@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Excel charts, worksheets, data manip
 type: docs
 weight: 1000
 url: /python-net/get-worksheet-of-the-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

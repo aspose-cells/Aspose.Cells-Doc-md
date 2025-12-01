@@ -3,6 +3,8 @@ title: Read Chart Subtitle from ODS File
 type: docs
 weight: 120
 url: /java/read-chart-subtitle-from-ods-file/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read Chart Subtitle from ODS File**

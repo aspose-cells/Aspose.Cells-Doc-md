@@ -5,6 +5,8 @@ type: docs
 weight: 330
 url: /cpp/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 description: Learn how to get address, cell count, offset, entire column, and entire row of a range using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

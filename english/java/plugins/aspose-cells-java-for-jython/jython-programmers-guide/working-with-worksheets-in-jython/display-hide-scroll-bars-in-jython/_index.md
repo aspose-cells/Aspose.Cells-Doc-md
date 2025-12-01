@@ -3,6 +3,8 @@ title: Display Hide Scroll Bars in Jython
 type: docs
 weight: 40
 url: /java/display-hide-scroll-bars-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display Hide Scroll Bars**

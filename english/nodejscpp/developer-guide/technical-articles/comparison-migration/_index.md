@@ -6,6 +6,8 @@ weight: 250
 url: /nodejs-cpp/comparison-migration/
 description: Explore the differences and consider migration strategies for using Aspose.Cells with Node.js via C++.
 keywords: Comparison Aspose.Cells Node.js C++, Migration from .NET to Node.js via C++ 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

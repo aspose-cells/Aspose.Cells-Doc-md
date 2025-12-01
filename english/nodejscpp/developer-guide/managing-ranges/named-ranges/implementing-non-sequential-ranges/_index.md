@@ -5,6 +5,8 @@ type: docs
 weight: 700
 url: /nodejs-cpp/implementing-non-sequential-ranges/
 description: Learn how to create named non-sequential ranges with Aspose.Cells for Node.js via C++. Use non-adjacent cell ranges effectively.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

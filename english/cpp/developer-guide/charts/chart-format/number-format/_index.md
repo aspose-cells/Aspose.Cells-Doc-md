@@ -6,6 +6,8 @@ weight: 100
 url: /cpp/set-the-values-format-code-of-chart-series/
 description: Learn how to set the values format code of chart series in Aspose.Cells for C++. Our guide will help you understand how to format your chart series data using the appropriate format code, allowing you to present your data accurately and professionally.
 keywords: Aspose.Cells for C++, chart series, values format code, formatting, data presentation, accuracy, professionalism.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ linktitle: Pie Chart
 type: docs
 weight: 45
 url: /python-net/creating-pie-chart-with-leader-lines/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Detect File Format of Encrypted Office Open XML - OOXML Files
 type: docs
 weight: 340
 url: /python-net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

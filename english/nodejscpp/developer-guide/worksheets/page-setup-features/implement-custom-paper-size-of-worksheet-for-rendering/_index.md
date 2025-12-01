@@ -6,6 +6,8 @@ weight: 70
 url: /nodejs-cpp/implement-custom-paper-size-of-worksheet-for-rendering/  
 description: This article explains how to use the Node.js API via C++ to set a custom paper size for your desired worksheets when rendering an Excel file to PDF format programmatically.  
 keywords: set custom paper size while rendering excel to pdf Node.js via C++  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

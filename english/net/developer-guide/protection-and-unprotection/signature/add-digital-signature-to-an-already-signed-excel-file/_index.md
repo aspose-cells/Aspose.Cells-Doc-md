@@ -5,6 +5,8 @@ weight: 20
 url: /net/add-digital-signature-to-an-already-signed-excel-file/
 description: This article describes how to Add Digital Signature to an already signed Excel file using C# codes with Aspose.Cells for .Net.
 keywords: Add Digital Signature to an already signed Excel file, How to add a digital signature to an already signed Excel document.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

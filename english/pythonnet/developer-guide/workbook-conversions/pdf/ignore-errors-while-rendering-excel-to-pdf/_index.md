@@ -5,6 +5,8 @@ weight: 80
 url: /python-net/ignore-errors-while-rendering-excel-to-pdf/
 description: Learn how to Ignore Errors while Rendering Excel to PDF with Aspose.Cells for Python via .NET API.
 keywords: Python Ignore Errors while Rendering Excel to PDF, Ignore Errors while saving Excel to PDF using Python, Python Ignore Errors while converting Excel to PDF, Ignore Errors for Excel to PDF in python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

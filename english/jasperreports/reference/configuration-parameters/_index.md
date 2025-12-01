@@ -3,6 +3,8 @@ title: Configuration Parameters
 type: docs
 weight: 10
 url: /jasperreports/configuration-parameters/
+ai_search_scope: cells_jasperreports
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

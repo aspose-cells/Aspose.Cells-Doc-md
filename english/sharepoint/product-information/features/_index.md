@@ -3,6 +3,8 @@ title: Features
 type: docs
 weight: 30
 url: /sharepoint/features/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ###### **This section includes the following topics:** 

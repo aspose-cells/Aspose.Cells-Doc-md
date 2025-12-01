@@ -3,6 +3,8 @@ title: Copying Rows and Columns
 type: docs
 weight: 20
 url: /cpp/copying-rows-and-columns/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

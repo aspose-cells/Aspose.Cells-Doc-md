@@ -5,6 +5,8 @@ type: docs
 weight: 10
 url: /cpp/verify-password-of-encrypted-excel-and-ods-files/
 description: Verify the password of encrypted Excel (xlsx, xlsb, xls, xlsm) and Open office (ODS) files using C++ codes.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

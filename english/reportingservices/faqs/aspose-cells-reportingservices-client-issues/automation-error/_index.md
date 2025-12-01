@@ -3,6 +3,8 @@ title: Automation Error
 type: docs
 weight: 10
 url: /reportingservices/automation-error/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##### **Description**

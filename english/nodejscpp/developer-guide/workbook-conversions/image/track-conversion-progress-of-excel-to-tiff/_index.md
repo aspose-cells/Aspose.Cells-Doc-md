@@ -5,6 +5,8 @@ type: docs
 weight: 190
 url: /nodejs-cpp/track-conversion-progress-of-excel-to-tiff/
 description: Learn how to track the conversion progress of Excel files to TIFF using Aspose.Cells for Node.js via C++. Enhance user experience during the conversion process.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

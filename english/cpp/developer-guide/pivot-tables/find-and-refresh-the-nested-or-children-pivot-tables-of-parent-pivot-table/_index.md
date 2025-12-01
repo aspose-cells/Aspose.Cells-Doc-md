@@ -5,6 +5,8 @@ type: docs
 weight: 60
 url: /cpp/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 description: Learn how to find and refresh nested or children pivot tables of a parent pivot table using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

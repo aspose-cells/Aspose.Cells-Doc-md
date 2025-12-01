@@ -3,6 +3,8 @@ title: Specifying the absolute position of the Pivot Item
 type: docs
 weight: 40
 url: /java/specifying-the-absolute-position-of-the-pivot-item/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

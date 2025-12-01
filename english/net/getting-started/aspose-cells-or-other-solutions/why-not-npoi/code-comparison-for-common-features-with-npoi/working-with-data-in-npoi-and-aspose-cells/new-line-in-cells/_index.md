@@ -3,6 +3,8 @@ title: New Line in Cells
 type: docs
 weight: 30
 url: /net/new-line-in-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - New Line in Cells**

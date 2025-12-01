@@ -3,6 +3,8 @@ title: Workbook and Worksheet Print Preview
 type: docs
 weight: 130
 url: /java/workbook-and-worksheet-print-preview/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Usage Scenario**

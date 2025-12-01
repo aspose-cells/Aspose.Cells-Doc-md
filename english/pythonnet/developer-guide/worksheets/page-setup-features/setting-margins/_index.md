@@ -5,6 +5,8 @@ weight: 20
 url: /python-net/setting-margins/
 description: In this article, you will learn how to set the margins of an Excel worksheet using sample code. You will also learn how to programmatically set the margins for the page centre, the header and footer margins of Page Setup using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python set excel worksheet margin to center, set worksheet header and footer margin using Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

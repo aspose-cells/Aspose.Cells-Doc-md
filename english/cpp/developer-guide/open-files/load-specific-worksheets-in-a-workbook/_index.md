@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/load-specific-worksheets-in-a-workbook/
 description: Learn how to load specific worksheets in a workbook using Aspose.Cells with C++ to improve performance and reduce memory usage.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

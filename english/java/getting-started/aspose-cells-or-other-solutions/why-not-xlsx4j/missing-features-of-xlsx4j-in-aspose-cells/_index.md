@@ -3,6 +3,8 @@ title: Missing Features of xlsx4j in Aspose.Cells
 type: docs
 weight: 20
 url: /java/missing-features-of-xlsx4j-in-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section shows the features that are only available in Aspose.Cells and not in xlsx4j.

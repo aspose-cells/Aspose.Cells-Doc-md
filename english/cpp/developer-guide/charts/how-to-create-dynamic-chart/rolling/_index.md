@@ -6,6 +6,8 @@ keywords: Aspose.Cells for C++, Dynamic Rolling Chart, Data Transitions, Smooth 
 type: docs
 weight: 74
 url: /cpp/create-dynamic-rolling-chart/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

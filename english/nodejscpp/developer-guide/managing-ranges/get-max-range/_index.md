@@ -5,6 +5,8 @@ type: docs
 weight: 360  
 url: /nodejs-cpp/get-max-range-in-a-worksheet/  
 description: This article describes how to get the max range, max data range, and max display range of Excel files using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

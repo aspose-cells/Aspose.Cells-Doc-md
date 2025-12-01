@@ -3,6 +3,8 @@ title: Setting Report Attributes
 type: docs
 weight: 80
 url: /reportingservices/setting-report-attributes/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

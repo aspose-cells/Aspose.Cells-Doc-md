@@ -5,6 +5,8 @@ weight: 20
 url: /net/opening-different-microsoft-excel-versions-files/
 description: This article explains how to open different excel versions files using Aspose.Cells for .NET API.
 keywords: C# Open Different Microsoft Excel file, How do I open Encrypted Excel Files.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

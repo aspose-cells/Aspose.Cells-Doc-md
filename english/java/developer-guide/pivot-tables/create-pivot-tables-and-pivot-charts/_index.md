@@ -5,6 +5,8 @@ weight: 10
 url: /java/create-pivot-tables-and-pivot-charts/
 description: Create Pivot Tables and Pivot Charts with Aspose.Cells for Java API.
 keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

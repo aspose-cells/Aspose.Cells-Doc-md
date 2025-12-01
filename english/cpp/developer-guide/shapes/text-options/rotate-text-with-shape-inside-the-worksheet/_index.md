@@ -5,6 +5,8 @@ type: docs
 weight: 1300
 url: /cpp/rotate-text-with-shape-inside-the-worksheet/
 description: Learn how to control text rotation with shapes in Excel worksheets using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

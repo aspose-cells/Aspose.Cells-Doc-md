@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source,
 type: docs
 weight: 130
 url: /net/showing-cell-range-as-the-data-labels/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

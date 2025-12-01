@@ -3,6 +3,8 @@ title: Extract Images from Worksheets using ImageOrPrintOptions
 type: docs
 weight: 140
 url: /python-net/extract-images-from-worksheets-using-imageorprintoptions/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

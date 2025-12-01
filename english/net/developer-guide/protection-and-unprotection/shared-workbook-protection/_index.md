@@ -3,6 +3,8 @@ title: Password Protect or Unprotect the Shared Workbook
 type: docs
 weight: 10
 url: /net/password-protect-or-unprotect-the-shared-workbook/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

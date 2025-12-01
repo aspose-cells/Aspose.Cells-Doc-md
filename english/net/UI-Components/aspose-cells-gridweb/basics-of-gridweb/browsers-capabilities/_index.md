@@ -5,6 +5,8 @@ weight: 10
 url: /net/aspose-cells-gridweb/browsers-capabilities/
 keywords: GridWeb,browsers-capabilities,capability
 description: This article introduces the browser capability for GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

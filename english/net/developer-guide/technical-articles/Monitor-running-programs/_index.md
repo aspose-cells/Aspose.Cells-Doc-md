@@ -3,6 +3,8 @@ title: Monitor running programs
 type: docs
 weight: 20
 url: /net/Monitor-running-programs/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to monitor a running program**

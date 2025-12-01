@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Treemap chart, create, properties, formatting, 
 type: docs
 weight: 161
 url: /net/creating-treemap-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ weight: 180
 url: /python-net/get-cell-validation-in-ods-files/
 description: Learn how to Get Cell Validation in ODS Files through the Aspose.Cells for Python via .NET API..
 keywords: Python Excel Library, Python Get Cell Validation, Python Obtain Cell Validation 
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Cell Validation in ODS Files**

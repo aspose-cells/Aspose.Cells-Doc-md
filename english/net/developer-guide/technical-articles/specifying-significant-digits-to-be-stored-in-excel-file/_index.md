@@ -3,6 +3,8 @@ title: Specifying Significant Digits to be Stored in Excel File
 type: docs
 weight: 30
 url: /net/specifying-significant-digits-to-be-stored-in-excel-file/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -5,6 +5,8 @@ type: docs
 weight: 53
 url: /java/protect-and-unprotect/
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using JAVA codes.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

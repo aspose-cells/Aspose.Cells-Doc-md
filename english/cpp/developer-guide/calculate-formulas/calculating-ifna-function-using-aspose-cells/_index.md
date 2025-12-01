@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, IFNA functions, calculations, C++
 type: docs
 weight: 40
 url: /cpp/calculating-ifna-function-using-aspose-cells/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

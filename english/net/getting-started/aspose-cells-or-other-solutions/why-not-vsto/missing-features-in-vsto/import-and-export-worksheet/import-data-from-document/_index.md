@@ -3,6 +3,8 @@ title: Import data from document
 type: docs
 weight: 20
 url: /net/import-data-from-document/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Data is the collection of raw facts and we create spreadsheet documents or reports to present these raw facts in a more meaningful manner. Normally, we add data to spreadsheets by ourselves but sometimes, we need to reuse existing data resources and here comes the need to import data to spreadsheets from different data sources. In this topic, we will discuss some techniques to import data to worksheets from different data sources.

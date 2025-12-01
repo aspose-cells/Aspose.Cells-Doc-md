@@ -6,6 +6,8 @@ weight: 128
 url: /nodejs-cpp/comments-and-notes/
 description: Insert and manage comments or notes with Aspose.Cells for Node.js via C++.
 keywords: insert comments, insert notes Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

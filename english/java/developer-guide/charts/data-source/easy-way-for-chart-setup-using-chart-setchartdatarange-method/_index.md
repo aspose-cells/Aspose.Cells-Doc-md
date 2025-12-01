@@ -3,6 +3,8 @@ title: Easy way for Chart Setup using Chart.setChartDataRange method
 type: docs
 weight: 210
 url: /java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

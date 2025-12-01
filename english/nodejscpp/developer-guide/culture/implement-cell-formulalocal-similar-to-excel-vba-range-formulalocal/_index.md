@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /nodejs-cpp/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/
 description: Learn how to implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

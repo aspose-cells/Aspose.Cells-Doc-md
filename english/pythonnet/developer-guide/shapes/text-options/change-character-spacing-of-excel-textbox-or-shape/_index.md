@@ -3,6 +3,8 @@ title: Change Character Spacing of Excel TextBox or Shape
 type: docs
 weight: 280
 url: /python-net/change-character-spacing-of-excel-textbox-or-shape/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

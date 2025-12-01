@@ -3,6 +3,8 @@ title: Aspose.Cells .NET for DNN
 type: docs
 weight: 70
 url: /net/aspose-cells-net-for-dnn/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 This section has the following topics:

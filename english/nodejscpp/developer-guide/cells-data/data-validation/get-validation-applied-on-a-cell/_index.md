@@ -5,6 +5,8 @@ weight: 200
 url: /nodejs-cpp/get-validation-applied-on-a-cell/
 description: This article shows how to apply validation on a Cell with Node.js via C++.
 keywords: apply cell validation in excel with Node.js via C++, apply validation on a cell in excel with Node.js via C++, apply validation in excel with Node.js via C++, cell validation in excel with Node.js via C++, Node.js via C++ apply cell validation in excel, Node.js via C++ apply validation on a cell in excel, Node.js via C++ cell validation in excel
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 110
 url: /python-net/setting-formula-calculation-mode-of-workbook/
 description: Learn how to set formula calculation mode (automatic, manual) in Excel workbooks using Aspose.Cells for Python via .NET API. Step-by-step guide with code examples.
 keywords: Python, Aspose.Cells, Excel, workbook, formula calculation mode, automatic, manual, settings
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Formula Calculation Mode in Workbook**

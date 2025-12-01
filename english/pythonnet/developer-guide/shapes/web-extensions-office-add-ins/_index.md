@@ -3,6 +3,8 @@ title: Web Extensions - Office Add-ins
 type: docs
 weight: 130
 url: /python-net/web-extensions-office-add-ins/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to Office client to improve the user experience and productivity.

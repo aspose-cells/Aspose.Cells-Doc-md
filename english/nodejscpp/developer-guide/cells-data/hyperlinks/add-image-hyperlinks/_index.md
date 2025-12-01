@@ -5,6 +5,8 @@ weight: 140
 url: /nodejs-cpp/add-image-hyperlinks/
 description: Learn how to Add Image Hyperlinks through the Aspose.Cells for Node.js via C++ API.
 keywords: Add Image Hyperlinks Node.js via C++, Insert Image Hyperlinks Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

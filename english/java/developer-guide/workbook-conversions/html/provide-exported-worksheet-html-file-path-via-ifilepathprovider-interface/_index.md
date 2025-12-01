@@ -3,6 +3,8 @@ title: Provide exported worksheet HTML file path via IFilePathProvider interface
 type: docs
 weight: 870
 url: /java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

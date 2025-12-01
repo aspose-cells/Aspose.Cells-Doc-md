@@ -3,6 +3,8 @@ title: Managing Controls
 type: docs
 weight: 150
 url: /net/managing-controls/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

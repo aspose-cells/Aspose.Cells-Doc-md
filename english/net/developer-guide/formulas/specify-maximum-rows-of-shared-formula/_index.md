@@ -3,6 +3,8 @@ title: Specify Maximum Rows of Shared Formula
 type: docs
 weight: 40
 url: /net/specify-maximum-rows-of-shared-formula/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

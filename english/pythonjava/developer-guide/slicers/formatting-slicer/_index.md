@@ -3,6 +3,8 @@ title: Formatting Slicer
 type: docs
 weight: 30
 url: /python-java/formatting-slicer/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Formatting Slicer**

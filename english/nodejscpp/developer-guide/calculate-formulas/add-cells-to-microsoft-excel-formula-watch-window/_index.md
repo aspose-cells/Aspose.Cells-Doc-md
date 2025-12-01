@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel, Formula Watch Window, Cells, Adding, Node.js via 
 type: docs
 weight: 60
 url: /nodejs-cpp/add-cells-to-microsoft-excel-formula-watch-window/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

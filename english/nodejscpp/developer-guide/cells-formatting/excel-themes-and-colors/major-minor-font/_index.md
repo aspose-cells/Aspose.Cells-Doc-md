@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, S
 type: docs
 weight: 120
 url: /nodejs-cpp/headings-and-body-theme-font/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

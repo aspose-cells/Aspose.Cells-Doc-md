@@ -3,6 +3,8 @@ title: Finding Absolute Position of Shape inside the Worksheet
 type: docs
 weight: 8000
 url: /net/finding-absolute-position-of-shape-inside-the-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Using LightCells API
 type: docs
 weight: 80
 url: /java/using-lightcells-api/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

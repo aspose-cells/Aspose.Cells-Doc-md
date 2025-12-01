@@ -5,6 +5,8 @@ type: docs
 weight: 180
 url: /cpp/add-wordart-watermark-to-worksheet/
 description: Learn how to add WordArt watermarks to Excel worksheets using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

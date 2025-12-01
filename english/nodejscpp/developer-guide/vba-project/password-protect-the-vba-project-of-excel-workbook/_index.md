@@ -5,6 +5,8 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/password-protect-the-vba-project-of-excel-workbook/  
 description: Learn how to password protect the VBA project of an Excel workbook using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Password Protect the VBA Project of Excel Workbook in Node.js**  

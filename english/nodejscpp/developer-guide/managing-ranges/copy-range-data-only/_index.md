@@ -5,6 +5,8 @@ type: docs
 weight: 600  
 url: /nodejs-cpp/copy-range-data-only/  
 description: Learn how to copy data from one range of cells to another using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

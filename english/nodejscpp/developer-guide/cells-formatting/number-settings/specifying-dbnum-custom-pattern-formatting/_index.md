@@ -6,6 +6,8 @@ keywords: Aspose.Cells, Node.js via C++, electronic spreadsheet, custom format p
 type: docs
 weight: 110
 url: /nodejs-cpp/specifying-dbnum-custom-pattern-formatting/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

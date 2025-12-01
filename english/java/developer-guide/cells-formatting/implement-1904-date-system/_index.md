@@ -3,6 +3,8 @@ title: Implement 1904 Date System
 type: docs
 weight: 2000
 url: /java/implement-1904-date-system/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

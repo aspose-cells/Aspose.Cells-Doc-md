@@ -5,6 +5,8 @@ type: docs
 weight: 320  
 url: /nodejs-cpp/using-workbookmetadata/  
 description: Learn how to edit workbook metadata using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

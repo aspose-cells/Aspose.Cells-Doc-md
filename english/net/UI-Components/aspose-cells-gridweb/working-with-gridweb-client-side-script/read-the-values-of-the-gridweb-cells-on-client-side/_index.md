@@ -5,6 +5,8 @@ weight: 30
 url: /net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
 keywords: GridWeb,cell,cell value
 description: This article introduces how to get the cell value in GridWeb.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

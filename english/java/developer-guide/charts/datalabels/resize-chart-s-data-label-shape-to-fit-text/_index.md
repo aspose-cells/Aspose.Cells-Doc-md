@@ -3,6 +3,8 @@ title: Resize Chart's Data Label Shape To Fit Text
 type: docs
 weight: 190
 url: /java/resize-chart-s-data-label-shape-to-fit-text/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -6,6 +6,8 @@ weight: 72
 url: /python-net/how-to-create-gantt-chart/
 description: Learn how to create a Gantt chart with Aspose.Cells for Python via .NET API.
 keywords: Python create a Gantt chart, add a Gantt chart, insert a Gantt chart
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **What is Gantt chart**

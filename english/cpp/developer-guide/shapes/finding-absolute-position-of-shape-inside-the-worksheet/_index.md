@@ -5,6 +5,8 @@ type: docs
 weight: 8000
 url: /cpp/finding-absolute-position-of-shape-inside-the-worksheet/
 description: Determine the absolute position of a shape in a worksheet using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

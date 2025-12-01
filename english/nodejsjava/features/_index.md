@@ -5,6 +5,8 @@ weight: 5
 url: /nodejs-java/features/
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via Java features."
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells for Node.js via Java Features Overview**

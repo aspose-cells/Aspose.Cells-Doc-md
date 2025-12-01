@@ -5,6 +5,8 @@ type: docs
 weight: 120
 url: /nodejs-cpp/update-power-query-formula-item/
 description: Learn how to update the Power Query Formula item data source in an Excel file using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Usage Scenario**

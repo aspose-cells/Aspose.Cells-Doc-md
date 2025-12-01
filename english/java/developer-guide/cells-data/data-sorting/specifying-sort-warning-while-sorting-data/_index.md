@@ -3,6 +3,8 @@ title: Specifying Sort Warning While Sorting Data
 type: docs
 weight: 100
 url: /java/specifying-sort-warning-while-sorting-data/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

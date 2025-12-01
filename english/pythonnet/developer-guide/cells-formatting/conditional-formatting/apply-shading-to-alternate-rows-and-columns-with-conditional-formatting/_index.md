@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Conditional Formatting, Python Alternate Rows, Alternate
 type: docs
 weight: 30
 url: /python-net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

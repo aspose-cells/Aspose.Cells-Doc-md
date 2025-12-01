@@ -3,6 +3,8 @@ title: Converting Worksheet To SVG in Jython
 type: docs
 weight: 40
 url: /java/converting-worksheet-to-svg-in-jython/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Worksheet To SVG**

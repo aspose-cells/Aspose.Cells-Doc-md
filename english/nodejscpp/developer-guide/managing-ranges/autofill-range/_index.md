@@ -5,6 +5,8 @@ type: docs
 weight: 105
 url: /nodejs-cpp/autofill-ranges/
 description: Learn how to perform an autofill operation in a specified range of an Excel file using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##  **Perform an autofill in the specified range in Excel**

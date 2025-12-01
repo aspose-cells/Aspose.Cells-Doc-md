@@ -5,6 +5,8 @@ type: docs
 weight: 80
 url: /nodejs-cpp/copy-and-move-worksheets-within-and-between-workbooks/
 description: Learn how to copy and move worksheets within and between workbooks using Aspose.Cells for Node.js via C++. Efficiently manage your workbook structures.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

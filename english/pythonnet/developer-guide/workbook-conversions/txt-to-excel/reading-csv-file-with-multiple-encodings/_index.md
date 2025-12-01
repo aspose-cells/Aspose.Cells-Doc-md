@@ -5,6 +5,8 @@ weight: 200
 url: /python-net/reading-csv-file-with-multiple-encodings/
 description: Reading CSV File with Multiple Encodings by using Aspose.Cells for Python via .NET API.
 keywords: Python Reading CSV File with Multiple Encodings, Convert CSV File with Multiple Encodings to Excel in Python via NET, Python convert CSV File with Multiple Encodings to xlsx, Load CSV File with Multiple Encodings to Excel file.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

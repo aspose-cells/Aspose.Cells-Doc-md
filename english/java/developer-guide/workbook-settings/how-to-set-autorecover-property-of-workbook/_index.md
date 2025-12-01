@@ -3,6 +3,8 @@ title: How to set AutoRecover property of Workbook
 type: docs
 weight: 160
 url: /java/how-to-set-autorecover-property-of-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

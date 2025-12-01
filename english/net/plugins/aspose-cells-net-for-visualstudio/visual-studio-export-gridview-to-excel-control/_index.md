@@ -3,6 +3,8 @@ title: Visual Studio Export GridView To Excel Control
 type: docs
 weight: 10
 url: /net/visual-studio-export-gridview-to-excel-control/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

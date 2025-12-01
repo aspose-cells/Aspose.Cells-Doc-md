@@ -6,6 +6,8 @@ weight: 5
 url: /java/names-and-indices/
 description: Learn how to get Conversion result between cell name and row/column index with Aspose.Cells for Java APIs.
 keywords: Java Convert cell index to name, Convert cell name to row/column index using java apis, How to Get Cell Name from Row and Column Indices with java, Java How to Get Row and Column Indices from Cell Name.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Get Cell Name from Row and Column Indices**

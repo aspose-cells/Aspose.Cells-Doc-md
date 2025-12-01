@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Position, Size, Designer Chart, Microsoft Excel
 type: docs
 weight: 45
 url: /net/manipulate-position-size-and-designer-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**

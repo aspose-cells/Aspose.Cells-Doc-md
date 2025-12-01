@@ -6,6 +6,8 @@ weight: 200
 url: /python-net/copy-shapes-between-worksheets/
 description: This article shows how to Copy Shapes between Worksheets through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Copy Shapes between Worksheets, Python how to Copy a Picture from one Worksheet to Another, Python how to Copy a Chart from one Worksheet to Another, Python how to Copy Controls and Other Drawing Objects from One Worksheet to Another.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

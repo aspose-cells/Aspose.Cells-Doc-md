@@ -5,6 +5,8 @@ weight: 50
 url: /net/aspose-cells-griddesktop/apply-style-on-cell/
 keywords: GridDesktop,format,style,number formats,number format,NumberFormat
 description: This article introduces how to get or set style format  in the cell in the Worksheet in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

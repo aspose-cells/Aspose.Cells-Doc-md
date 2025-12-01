@@ -3,6 +3,8 @@ title: Add ActiveX Controls using Aspose.Cells
 type: docs
 weight: 260
 url: /net/add-activex-controls-using-aspose-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

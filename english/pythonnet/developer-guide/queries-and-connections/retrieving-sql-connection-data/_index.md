@@ -3,6 +3,8 @@ title: Retrieving SQL Connection Data
 type: docs
 weight: 10
 url: /python-net/retrieving-sql-connection-data/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

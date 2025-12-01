@@ -3,6 +3,8 @@ title: Add Worksheets to New Excel File in PHP
 type: docs
 weight: 20
 url: /net/add-worksheets-to-new-excel-file-in-php/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Add Worksheets to New Excel File**

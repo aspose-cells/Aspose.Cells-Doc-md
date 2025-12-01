@@ -3,6 +3,8 @@ title: AutoFit Rows for Rendering
 type: docs
 weight: 130
 url: /java/autofit-rows-for-rendering/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Generally, when you want to display all the text in a cell, you can autofit row in Normal view with 100% zoom in Microsoft Excel. This allows the text to be fully visible in Normal view, and even when you print or save the file as a PDF, the text will be displayed correctly.

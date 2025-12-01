@@ -3,6 +3,8 @@ title: AutoFit Rows for Merged Cells
 type: docs
 weight: 120
 url: /net/autofit-rows-for-merged-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

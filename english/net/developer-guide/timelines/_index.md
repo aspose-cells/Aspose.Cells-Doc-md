@@ -5,6 +5,8 @@ type: docs
 weight: 170
 url: /net/create-timeline/
 description: Learn how to create a timeline with Aspose.Cells.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

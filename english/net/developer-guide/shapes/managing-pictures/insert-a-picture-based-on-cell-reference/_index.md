@@ -3,6 +3,8 @@ title: Insert a Picture Based on Cell Reference
 type: docs
 weight: 150
 url: /net/insert-a-picture-based-on-cell-reference/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 40
 url: /cpp/specify-author-while-write-protecting-workbook/
 description: Learn how to specify an author name while write protecting a workbook using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

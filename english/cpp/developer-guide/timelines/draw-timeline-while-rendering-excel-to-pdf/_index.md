@@ -6,6 +6,8 @@ weight: 60
 url: /cpp/draw-timeline-while-rendering-excel-to-pdf/
 description: Manage timelines of Excel files with Aspose.Cells with C++.
 keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Draw Timeline while rendering Excel to PDF**

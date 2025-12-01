@@ -6,6 +6,8 @@ weight: 10
 url: /net/add-text-box-to-worksheet-in-aspose-cells/
 description: How to add/insert TextBox to Worksheet in Aspose.Cells.
 keywords: add/insert Text Box TextBox Worksheet Excel Aspose
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Add Text Box to Worksheet in Excel

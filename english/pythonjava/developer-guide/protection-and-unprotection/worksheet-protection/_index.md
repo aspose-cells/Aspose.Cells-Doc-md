@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /python-java/protect-and-unprotect-worksheet/
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for Python via Java.
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

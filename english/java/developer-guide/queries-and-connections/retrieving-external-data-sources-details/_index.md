@@ -3,6 +3,8 @@ title: Retrieving External Data Sources Details
 type: docs
 weight: 10
 url: /java/retrieving-external-data-sources-details/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

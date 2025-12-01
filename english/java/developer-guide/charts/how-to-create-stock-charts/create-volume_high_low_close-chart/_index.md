@@ -5,6 +5,8 @@ weight: 183
 url: /java/create-volume-high-low-close-stock-chart/
 description: How to create a Volume-High-Low-Close(VHLC) Stock Chart, how to add a Volume-High-Low-Close(VHLC) Stock Chart, how to generate a Volume-High-Low-Close(VHLC) Stock Chart.
 keywords: Add Volume-High-Low-Close(VHLC) Stock Chart, Create Volume-High-Low-Close(VHLC) Stock Chart, Generate Volume-High-Low-Close(VHLC) Stock Chart.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

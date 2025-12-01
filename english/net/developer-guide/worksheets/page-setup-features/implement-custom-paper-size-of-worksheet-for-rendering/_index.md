@@ -5,6 +5,8 @@ weight: 70
 url: /net/implement-custom-paper-size-of-worksheet-for-rendering/
 description: This article explains how to use the C# API or .NET Library sample code to set custom paper size of your desired worksheets when rendering Excel file to PDF file format programmatically.
 keywords: set custom paper size while rendering excel to pdf c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

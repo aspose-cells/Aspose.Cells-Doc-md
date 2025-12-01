@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
 keywords: GridWeb,dotnetcore
 description: This article introduces how to use GridWeb in .net core web application
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

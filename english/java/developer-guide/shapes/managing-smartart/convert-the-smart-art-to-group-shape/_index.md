@@ -3,6 +3,8 @@ title: Convert the Smart Art to Group Shape
 type: docs
 weight: 80
 url: /java/convert-the-smart-art-to-group-shape/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Preview Multiple Documents
 type: docs
 weight: 40
 url: /sharepoint/preview-multiple-documents/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 You may preview multiple Excel documents in the document library. 

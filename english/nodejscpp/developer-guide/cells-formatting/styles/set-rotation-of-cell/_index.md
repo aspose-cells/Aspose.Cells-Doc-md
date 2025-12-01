@@ -6,6 +6,8 @@ weight: 80
 url: /nodejs-cpp/how-to-rotate-text-of-cell/  
 description: Learn how to rotate text of a cell programmatically using Aspose.Cells for Node.js via C++.  
 keywords: node.js rotate text of Cell, Node.js programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, Node.js how to rotate text of Cell in excel  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Rotate Text of Cell in Aspose.Cells for Node.js via C++**

@@ -3,6 +3,8 @@ title: Detect File Format of Encrypted Office Open XML - OOXML Files
 type: docs
 weight: 1080
 url: /java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

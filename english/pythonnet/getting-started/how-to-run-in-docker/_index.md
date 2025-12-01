@@ -4,6 +4,8 @@ type: docs
 description: "Run Aspose.Cells in a Docker container for Linux"
 weight: 140
 url: /net/how-to-run-aspose-cells-python-via-net-in-docker/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Preface:

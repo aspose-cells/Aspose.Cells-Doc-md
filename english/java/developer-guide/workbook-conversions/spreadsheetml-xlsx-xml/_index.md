@@ -3,6 +3,8 @@ title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /java/spreadsheetml-xlsx-xml/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About SpreadsheetML**

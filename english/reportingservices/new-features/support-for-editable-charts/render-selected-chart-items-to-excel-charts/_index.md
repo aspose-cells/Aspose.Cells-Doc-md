@@ -3,6 +3,8 @@ title: Render Selected Chart Items to Excel Charts
 type: docs
 weight: 30
 url: /reportingservices/render-selected-chart-items-to-excel-charts/
+ai_search_scope: cells_reportingservices
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Preview Document
 type: docs
 weight: 30
 url: /sharepoint/preview-document/
+ai_search_scope: cells_sharepoint
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 To preview a Microsoft Excel document in the document library:

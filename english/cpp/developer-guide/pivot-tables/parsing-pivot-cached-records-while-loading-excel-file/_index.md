@@ -5,6 +5,8 @@ type: docs
 weight: 70
 url: /cpp/parsing-pivot-cached-records-while-loading-excel-file/
 description: Learn how to parse pivot cached records while loading Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

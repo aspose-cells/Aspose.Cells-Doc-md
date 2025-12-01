@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /java/assign-and-validate-digital-signatures/
 description: Excel file digital signature, verification. To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using Java codes with Aspose.Cells for Java.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

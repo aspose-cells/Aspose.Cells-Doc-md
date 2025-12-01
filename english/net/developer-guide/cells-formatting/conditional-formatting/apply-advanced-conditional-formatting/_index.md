@@ -5,6 +5,8 @@ keywords: Aspose.Cells, Advanced Conditional Formatting, C#, Conditional, Format
 type: docs
 weight: 70
 url: /net/apply-advanced-conditional-formatting/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

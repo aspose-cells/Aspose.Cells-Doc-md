@@ -3,6 +3,8 @@ title: Track Document Conversion Progress
 type: docs
 weight: 970
 url: /net/track-document-conversion-progress/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

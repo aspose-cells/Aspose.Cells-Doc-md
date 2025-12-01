@@ -3,6 +3,8 @@ title: How to fix exception - Could not initialize class sun.font.FontScaler
 type: docs
 weight: 40
 url: /java/how-to-fix-exception-could-not-initialize-class-sun-font-fontscaler/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

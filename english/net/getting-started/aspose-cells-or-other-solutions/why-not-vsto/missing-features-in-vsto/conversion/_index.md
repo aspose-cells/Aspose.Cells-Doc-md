@@ -3,6 +3,8 @@ title: Conversion
 type: docs
 weight: 30
 url: /net/conversion/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Aspose.Cells unique feature that provide flexibility in version conversions without affecting work.

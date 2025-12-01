@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/setting-headers-and-footers/
 description: This article explains how to programmatically insert an image in the header and footer of Excel worksheets using Aspose.Cells for Node.js via C++. 
 keywords: insert image in excel header footer Node.js via C++, set excel header footer script commands Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

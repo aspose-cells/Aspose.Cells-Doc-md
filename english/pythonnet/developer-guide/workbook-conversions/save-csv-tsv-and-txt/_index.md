@@ -6,6 +6,8 @@ weight: 40
 url: /python-net/convert-excel-to-csv-tsv-and-txt/
 description: Convert Excel to CSV,TSV and Txt by using Aspose.Cells for Python via .NET API.
 keywords: Python Convert Excel to CSV,TSV and Txt, Convert Excel to CSV,TSV and Txt in Python via NET, Python Convert Workbook to CSV,TSV and Txt.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

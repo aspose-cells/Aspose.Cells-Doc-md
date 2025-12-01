@@ -5,6 +5,8 @@ type: docs
 weight: 360
 url: /nodejs-cpp/export-document-structure-while-converting-to-pdf/
 description: Learn how to export document structure while converting an Excel file to a tagged PDF using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells for Node.js via C++ preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.

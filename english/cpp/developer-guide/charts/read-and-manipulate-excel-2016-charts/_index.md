@@ -3,6 +3,8 @@ title: Read and Manipulate Excel 2016 Charts
 type: docs
 weight: 20
 url: /cpp/read-and-manipulate-excel-2016-charts/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

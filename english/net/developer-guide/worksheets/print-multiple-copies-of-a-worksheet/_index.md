@@ -5,6 +5,8 @@ weight: 170
 url: /net/print-multiple-copies-of-a-worksheet/
 description: This article shows how to use the C# Library and .NET API to print multiple copies of an Excel worksheet programmatically.
 keywords: print multiple excel copies c#, print worksheets c#
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Print multiple copies of a worksheet**

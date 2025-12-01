@@ -6,6 +6,8 @@ weight: 200
 url: /cpp/get-validation-applied-on-a-cell/
 description: This article shows how to apply validation on a Cell with C++.
 keywords: apply cell validation in excel with c++, apply validation on a cell in excel with c++, apply validation in excel with c++, cell validation in excel with c++, c++ apply cell validation in excel, c++ apply validation on a cell in excel, c++ cell validation in excel, c++ cell validation
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

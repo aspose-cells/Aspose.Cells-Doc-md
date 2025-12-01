@@ -5,6 +5,8 @@ weight: 70
 url: /python-net/implement-custom-paper-size-of-worksheet-for-rendering/
 description: This article explains how to use the Aspose.Cells for Python via .NET sample code to set custom paper size of your desired worksheets when rendering Excel file to PDF file format programmatically.
 keywords: Python Excel Library, Python set custom paper size while rendering excel to pdf, Implement Custom Paper Size of Worksheet for Rendering in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

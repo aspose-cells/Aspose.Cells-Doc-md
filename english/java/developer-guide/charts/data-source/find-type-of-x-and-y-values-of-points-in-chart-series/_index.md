@@ -3,6 +3,8 @@ title: Find Type of X and Y Values of Points in Chart Series
 type: docs
 weight: 110
 url: /java/find-type-of-x-and-y-values-of-points-in-chart-series/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

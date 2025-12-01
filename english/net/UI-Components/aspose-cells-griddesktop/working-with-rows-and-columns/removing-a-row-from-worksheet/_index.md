@@ -5,6 +5,8 @@ weight: 40
 url: /net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
 keywords: GridDesktop,remove,row
 description: This article introduces how to remove row in GridDesktop.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

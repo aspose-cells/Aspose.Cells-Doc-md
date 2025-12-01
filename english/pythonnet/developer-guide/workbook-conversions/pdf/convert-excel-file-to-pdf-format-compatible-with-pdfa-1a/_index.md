@@ -5,6 +5,8 @@ weight: 130
 url: /python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
 description: Learn how to Convert Excel file to PDF format compatible with PDFA-1a with Aspose.Cells for Python via .NET API.
 keywords: Python Convert Excel file to PDF format compatible with PDFA-1a, PDFA-1a, PDFA-1b, PDF14, PDF15, PDF16, PDF17
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

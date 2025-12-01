@@ -3,6 +3,8 @@ title: Managing OLE Objects
 type: docs
 weight: 30
 url: /java/managing-ole-objects/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

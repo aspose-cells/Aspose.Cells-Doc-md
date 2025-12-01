@@ -5,6 +5,8 @@ weight: 600
 url: /python-net/set-range-border/
 description: This article shows how to set range border by the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python set range border, Python add range border.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

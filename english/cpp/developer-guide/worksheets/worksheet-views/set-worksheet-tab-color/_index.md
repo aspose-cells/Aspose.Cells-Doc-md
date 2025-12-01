@@ -6,6 +6,8 @@ weight: 120
 url: /cpp/set-worksheet-tab-color/
 description: This article demonstrates sample code that sets the Excel worksheet Tab Color programmatically using the C++ API or Library.
 keywords: set excel tab color c++, code to set excel tab color c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

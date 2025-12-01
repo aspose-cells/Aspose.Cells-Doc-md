@@ -4,6 +4,8 @@ linktitle: AutoFill Range
 type: docs
 weight: 105
 url: /net/autofill-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##  **Perform an autofill in the specified range in Excel**

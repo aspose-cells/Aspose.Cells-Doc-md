@@ -6,6 +6,8 @@ weight: 30
 url: /nodejs-cpp/managing-page-breaks/
 description: This article provides sample code and explains how to add, clear, or delete specific page breaks in Excel worksheets programmatically using Aspose.Cells for Node.js via C++.
 keywords: page breaks Node.js via C++, excel page breaks Node.js via C++, clear page break Node.js via C++, delete specific page break Node.js via C++
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

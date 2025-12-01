@@ -5,6 +5,8 @@ weight: 30
 url: /java/remove-pivot-connection/
 description: Learn how to remove pivot connection with Aspose.Cells Java library.
 keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

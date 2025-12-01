@@ -4,6 +4,8 @@ linktitle: Opening Excel File without Open Save Cancel Dialog Box
 type: docs
 weight: 150
 url: /nodejs-cpp/opening-excel-file-without-open-save-cancel-dialog-box/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 {{% alert color="primary" %}} 

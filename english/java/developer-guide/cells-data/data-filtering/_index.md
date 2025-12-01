@@ -3,6 +3,8 @@ title: Data Filtering
 type: docs
 weight: 60
 url: /java/data-filtering/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

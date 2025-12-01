@@ -4,6 +4,8 @@ linktitle: Open Files
 type: docs
 weight: 10
 url: /java/opening-files-with-different-formats/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

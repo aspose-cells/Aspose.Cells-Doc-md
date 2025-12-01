@@ -3,6 +3,8 @@ title: Digitally Sign a VBA Code Project with Certificate
 type: docs
 weight: 110
 url: /python-net/digitally-sign-a-vba-code-project-with-certificate/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

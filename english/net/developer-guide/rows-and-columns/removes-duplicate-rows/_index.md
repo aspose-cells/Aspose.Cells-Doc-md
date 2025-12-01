@@ -3,6 +3,8 @@ title: Remove duplicate rows in a Worksheet
 type: docs
 weight: 370
 url: /net/remove-duplicate-rows-in-a-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 

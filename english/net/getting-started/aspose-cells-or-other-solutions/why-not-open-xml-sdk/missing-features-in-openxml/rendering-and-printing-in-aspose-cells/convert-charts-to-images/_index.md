@@ -3,6 +3,8 @@ title: Convert charts to images
 type: docs
 weight: 10
 url: /net/convert-charts-to-images/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 **Charts** are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than having to analyze several columns of worksheet numbers, you can see at a glance whether sales are falling or rising over quarterly periods, or how the actual sales compare to the projected sales.Sometimes, you do need to present the chart in your applications or web pages. You might need to insert it into a Word Document, a PDF file, a Power Point Presentation or in some other scenario. Simply you want the chart should be rendered as an image, so that you may paste it into your applications with ease. A Picture is worthwhile. Frequently, in the course of work, one has to present statistical and graphical information in an easy to understand and an easy to maintain manner.You might try Office Automation but Office automation has its own drawbacks. There are several reasons and issues involved: E.g., Security, Stability, Scalability/Speed, Price, Features etc. In Short, there are many reasons, with the top one being that Microsoft themselves strongly recommends against Office automation from software solutions: Considerations for server-side Automation of Office.There is another option which you can use to convert an Excel Chart to an image using **Aspose.Cells**.

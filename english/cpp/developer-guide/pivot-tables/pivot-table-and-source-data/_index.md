@@ -5,6 +5,8 @@ type: docs
 weight: 30
 url: /cpp/pivot-table-and-source-data/
 description: Learn how to dynamically change a pivot table's source data using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table's Source Data**

@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/unfreeze-rows-or-columns-of-excel-worksheet
 description: In this article, you will learn how to unfreeze rows, columns, or panes of Excel Worksheets programmatically using Node.js API with C++.
 keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

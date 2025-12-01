@@ -5,6 +5,8 @@ weight: 150
 url: /python-net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
 description: This article describes how to Create Signature Line in an Excel Workbook using C# codes with Aspose.Cells for Python via .NET.
 keywords: Create Signature Line in an Excel Workbook, How to Create Signature Line in an Excel Workbook, How to Add Signature Line, How to Add Signature Line to Excel file.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

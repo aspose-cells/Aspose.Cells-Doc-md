@@ -3,6 +3,8 @@ title: Get Warnings for Font Substitution while Rendering Excel File
 type: docs
 weight: 230
 url: /net/get-warnings-for-font-substitution-while-rendering-excel-file/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

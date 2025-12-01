@@ -5,6 +5,8 @@ weight: 900
 url: /nodejs-cpp/convert-text-numeric-data-to-number/
 description: Learn how to convert numbers stored as text in Excel to numbers by using the Aspose.Cells for Node.js via C++ API.
 keywords: excel convert text to number, excel convert text to number Node js code, excel convert text numeric data to number, excel convert text numeric data to number Node js code, excel convert numeric text to number, excel convert numeric text to number Node js code, excel convert numeric text to number with Node js code, convert numeric text to number in excel with Node js code, convert numeric text to number in excel with Node js code, convert numeric string to number in excel with Node js code, excel convert text numeric data to number Node js code, excel convert numeric string to number Node js code
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

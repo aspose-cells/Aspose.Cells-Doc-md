@@ -5,6 +5,8 @@ weight: 30
 url: /python-net/managing-page-breaks/
 description: This article provides sample code and explains how to add page breaks, clear page breaks, or delete specific page breaks in Excel worksheets programmatically using Aspose.Cells for Python via .NET APIs.
 keywords: Python Excel Library, Python page breaks, excel page breaks in Python, clear page break in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

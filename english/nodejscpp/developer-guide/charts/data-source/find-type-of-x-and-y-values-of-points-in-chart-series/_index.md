@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js, charting, X values, Y values, data types, ac
 type: docs  
 weight: 150  
 url: /nodejs-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

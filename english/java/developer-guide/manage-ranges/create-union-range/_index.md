@@ -3,6 +3,8 @@ title: Create Union Range
 type: docs
 weight: 270
 url: /java/create-union-range/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Union Range**

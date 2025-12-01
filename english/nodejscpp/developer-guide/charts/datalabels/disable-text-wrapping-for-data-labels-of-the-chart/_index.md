@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Node.js via C++, charting, data labels, text wrapping
 type: docs
 weight: 70
 url: /nodejs-cpp/disable-text-wrapping-for-data-labels-of-the-chart/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

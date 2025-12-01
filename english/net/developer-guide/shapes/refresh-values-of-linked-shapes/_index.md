@@ -3,6 +3,8 @@ title: Refresh Values of Linked Shapes
 type: docs
 weight: 3200
 url: /net/refresh-values-of-linked-shapes/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

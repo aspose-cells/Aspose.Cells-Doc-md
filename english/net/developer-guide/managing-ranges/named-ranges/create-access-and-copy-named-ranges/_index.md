@@ -3,6 +3,8 @@ title: Create Access and Copy Named Ranges
 type: docs
 weight: 200
 url: /net/create-access-and-copy-named-ranges/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

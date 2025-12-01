@@ -4,6 +4,8 @@ type: docs
 weight: 20
 url: /java/consolidation-function/
 description: Apply ConsolidationFunction to data fields of the pivot table.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Consolidation function**

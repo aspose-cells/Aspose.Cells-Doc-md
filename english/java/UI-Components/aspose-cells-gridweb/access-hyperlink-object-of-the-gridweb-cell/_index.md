@@ -3,6 +3,8 @@ title: Access Hyperlink object of the GridWeb Cell
 type: docs
 weight: 60
 url: /java/access-hyperlink-object-of-the-gridweb-cell/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

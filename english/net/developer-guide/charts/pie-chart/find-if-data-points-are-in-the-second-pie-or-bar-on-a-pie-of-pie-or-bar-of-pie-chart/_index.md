@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary P
 type: docs
 weight: 180
 url: /net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

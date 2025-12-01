@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, charting, data source, destination w
 type: docs
 weight: 440
 url: /python-net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

@@ -4,6 +4,8 @@ linktitle: Get the Version Number of the Application that Created the Excel Docu
 type: docs  
 weight: 210  
 url: /nodejs-cpp/get-the-version-number-of-the-application-that-created-the-excel-document/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

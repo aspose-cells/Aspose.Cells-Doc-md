@@ -3,6 +3,8 @@ title: Calculate Sub Totals
 type: docs
 weight: 10
 url: /net/calculate-sub-totals/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Calculate Sub Totals**

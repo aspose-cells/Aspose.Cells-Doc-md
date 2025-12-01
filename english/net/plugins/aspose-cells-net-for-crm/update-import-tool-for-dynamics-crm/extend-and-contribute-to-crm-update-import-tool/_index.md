@@ -3,6 +3,8 @@ title: Extend and Contribute to CRM Update Import Tool
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-update-import-tool/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 You can download the latest source code at:

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Java, category axis, setting, range, properties, form
 type: docs
 weight: 205
 url: /java/how-to-set-category-axis/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

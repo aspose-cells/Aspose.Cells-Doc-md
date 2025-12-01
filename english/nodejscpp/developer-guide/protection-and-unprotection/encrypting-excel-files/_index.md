@@ -5,6 +5,8 @@ type: docs
 weight: 90
 url: /nodejs-cpp/encrypting-excel-files/
 description: Learn how to encrypt and password-protect Excel files using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

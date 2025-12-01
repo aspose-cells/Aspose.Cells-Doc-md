@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /nodejs-cpp/access-and-modify-the-display-label-of-the-linked-ole-object/
 description: Learn how to access and modify the display label of a linked Ole object using Aspose.Cells for Node.js via C++. 
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

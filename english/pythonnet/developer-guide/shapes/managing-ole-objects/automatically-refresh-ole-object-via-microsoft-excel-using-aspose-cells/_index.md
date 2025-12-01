@@ -3,6 +3,8 @@ title: Automatically refresh OLE object
 type: docs
 weight: 270
 url: /python-net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Cells Formats
 type: docs
 weight: 100
 url: /java/cells-formatting/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Adding Borders to Cells**

@@ -5,6 +5,8 @@ weight: 130
 url: /nodejs-cpp/add-calculated-field-in-pivot-table/
 description: How to add a calculated field in pivot table with Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js library, Adding a calculated field in pivot table using Node.js Excel Library.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

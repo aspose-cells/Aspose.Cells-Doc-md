@@ -3,6 +3,8 @@ title: Specify Author while Write Protecting Workbook
 type: docs
 weight: 110
 url: /java/specify-author-while-write-protecting-workbook/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

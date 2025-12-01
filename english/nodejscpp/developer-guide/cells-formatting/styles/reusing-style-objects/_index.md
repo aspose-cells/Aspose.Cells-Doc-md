@@ -6,6 +6,8 @@ keywords: Aspose.Cells for Node.js via C++, Reusing Style Objects, Style Managem
 type: docs  
 weight: 3000  
 url: /nodejs-cpp/reusing-style-objects/  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

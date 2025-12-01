@@ -5,6 +5,8 @@ weight: 600
 url: /nodejs-cpp/how-to-manage-dates-and-times/  
 description: Learn how to manage dates and times through the Aspose.Cells for Node.js via C++ API.  
 keywords: How to Manage Dates and Times, The 1900 date system, The 1904 date system, Set Dates and Times, Get Dates and Times, Manage Dates and Times, Store Dates and Times in Excel, Display Dates and Times in Cells.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **How to store Dates and Times in Excel**  

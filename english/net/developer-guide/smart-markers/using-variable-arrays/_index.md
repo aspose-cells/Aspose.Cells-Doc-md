@@ -3,6 +3,8 @@ title: Smartly Importing Variable Arrays into Excel With Smart Markers
 type: docs
 weight: 30
 url: /net/how-to-import-variable-arrays-with-smart-markers/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Why Using Variable Arrays for Smart Markers**

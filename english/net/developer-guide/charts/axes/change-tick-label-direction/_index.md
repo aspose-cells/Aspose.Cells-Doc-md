@@ -5,6 +5,8 @@ keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, hori
 type: docs
 weight: 170
 url: /net/change-tick-label-direction/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Change Tick Label Direction**

@@ -5,6 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/migrating-from-earlier-versions-of-aspose-cells/  
 description: Learn about the key differences and migration steps when upgrading to the latest version of Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
   

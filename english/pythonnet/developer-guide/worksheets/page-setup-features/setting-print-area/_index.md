@@ -6,6 +6,8 @@ weight: 200
 url: /python-net/how-to-set-print-area/
 description: Learn how to set and clear print areas in Excel files using Aspose.Cells for Python via .NET.
 keywords: python set print area, clear print range, python excel print settings, aspose.cells python print area, python limit printing range
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

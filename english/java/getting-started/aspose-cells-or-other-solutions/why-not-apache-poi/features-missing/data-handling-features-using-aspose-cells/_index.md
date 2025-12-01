@@ -3,6 +3,8 @@ title: Data Handling Features using Aspose.Cells
 type: docs
 weight: 10
 url: /java/data-handling-features-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  **This section includes the following topics:**

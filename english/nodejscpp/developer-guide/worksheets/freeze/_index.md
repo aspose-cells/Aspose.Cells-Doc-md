@@ -6,6 +6,8 @@ weight: 190
 url: /nodejs-cpp/how-to-freeze-panes-of-excel-worksheet  
 description: In this article, you will learn how to freeze panes of Excel Worksheets programmatically using Aspose.Cells for Node.js via C++.  
 keywords: Freeze panes, Freeze window.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Introduction**  

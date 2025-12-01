@@ -3,6 +3,8 @@ title: Add Image in Worksheet
 type: docs
 weight: 20
 url: /net/add-image-in-worksheet/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Add Image in Worksheet**

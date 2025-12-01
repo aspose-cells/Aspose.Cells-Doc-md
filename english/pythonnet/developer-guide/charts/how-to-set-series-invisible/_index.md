@@ -6,6 +6,8 @@ weight: 74
 url: /python-net/how-to-set-series-invisible/
 description: Learn how to hide chart series in Excel using Aspose.Cells for Python via .NET with this step-by-step guide.
 keywords: python excel chart, hide series, is_filtered property, Aspose.Cells Python
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to set series invisible in Excel Chart**

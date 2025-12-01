@@ -5,6 +5,8 @@ weight: 140
 url: /python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
 description: How to work with data display formats of DataField in Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, Excel Python library, Work with data display formats of DataField in Pivot Table.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ keywords: Aspose.Cells for Python via .NET, Dynamic Chart, Real-Time Updates, Us
 type: docs
 weight: 74
 url: /python-net/create-dynamic-chart/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

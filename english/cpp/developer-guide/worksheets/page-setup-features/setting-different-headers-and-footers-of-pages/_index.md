@@ -6,6 +6,8 @@ weight: 35
 url: /cpp/setting-different-headers-and-footers-for-pages-to-excel/
 description: This article provides sample code that shows how to programmatically set various headers and footers of Excel worksheet Page Setup settings using the C++ Library and API. You can set the headers and footers for the first page, odd pages, and even pages.
 keywords: set excel header footer first page c++, set excel header footer odd pages c++, set excel header footer even pages c++
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

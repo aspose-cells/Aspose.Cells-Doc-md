@@ -5,6 +5,8 @@ type: docs
 weight: 420
 url: /cpp/load-source-excel-file-without-charts/
 description: Learn how to load an Excel file without charts using Aspose.Cells with C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

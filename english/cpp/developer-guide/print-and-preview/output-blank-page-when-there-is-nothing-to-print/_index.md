@@ -5,6 +5,8 @@ type: docs
 weight: 90  
 url: /cpp/output-blank-page-when-there-is-nothing-to-print/  
 description: Handle empty worksheets and print blank pages with Aspose.Cells using C++.  
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  

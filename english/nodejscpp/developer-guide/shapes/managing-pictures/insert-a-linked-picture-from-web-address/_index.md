@@ -5,6 +5,8 @@ type: docs
 weight: 450  
 url: /nodejs-cpp/insert-a-linked-picture-from-web-address/  
 description: Learn how to insert a linked picture from a web address into a worksheet using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  

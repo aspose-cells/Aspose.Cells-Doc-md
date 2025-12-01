@@ -5,6 +5,8 @@ weight: 120
 url: /python-net/set-worksheet-tab-color/
 description: This article demonstrates sample code that sets the Excel worksheet Tab Color programmatically using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python set excel tab color, How to set excel tab color in Python, How to set worksheet tab color in Python.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

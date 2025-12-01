@@ -5,6 +5,8 @@ type: docs
 weight: 1200  
 url: /nodejs-cpp/replace-text-in-smart-art/  
 description: Learn how to replace text in smart art using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
   
 ## **Possible Usage Scenarios**  

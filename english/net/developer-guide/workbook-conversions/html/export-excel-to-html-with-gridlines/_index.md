@@ -3,6 +3,8 @@ title: Export Excel to HTML with GridLines
 type: docs
 weight: 40
 url: /net/export-excel-to-html-with-gridlines/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 

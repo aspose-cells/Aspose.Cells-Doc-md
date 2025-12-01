@@ -3,6 +3,8 @@ title: Read Color of Shape's Glow Effect
 type: docs
 weight: 330
 url: /python-net/read-color-of-shape-s-glow-effect/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios

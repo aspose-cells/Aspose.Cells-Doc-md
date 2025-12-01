@@ -5,6 +5,8 @@ type: docs
 weight: 40  
 url: /nodejs-cpp/specify-author-while-write-protecting-workbook/  
 description: Specify an author name while write protecting a workbook using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**

@@ -6,6 +6,8 @@ weight: 122
 url: /nodejs-cpp/using-formulas-or-functions-to-process-data/
 description: Learn how to Manage formulas of Excel files through the Aspose.Cells for Node.js via C++. Aspose.Cells can simply get, set and calculate formulas of excel files.
 keywords: How to calculate formulas in Node.js via C++, Formulas and Functions using Node.js via C++, Node.js via C++ Manage Built-in Functions, How to Use Add-in Functions with Node.js via C++, How to Use Array Formula via Node.js via C++, How to Use R1C1 Formula in Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**

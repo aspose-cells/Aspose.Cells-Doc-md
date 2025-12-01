@@ -5,5 +5,7 @@ weight: 20
 url: /nodejs-java/developer-guide/
 keywords: "nodejs, excel, api, developer"
 description: "Aspose.Cells for Node.js via Java developer guide."
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 

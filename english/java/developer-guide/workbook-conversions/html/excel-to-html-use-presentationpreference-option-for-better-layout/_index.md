@@ -3,6 +3,8 @@ title: Excel to HTML - Use PresentationPreference Option for Better Layout
 type: docs
 weight: 110
 url: /java/excel-to-html-use-presentationpreference-option-for-better-layout/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

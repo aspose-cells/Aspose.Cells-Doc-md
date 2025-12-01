@@ -5,6 +5,8 @@ type: docs
 weight: 100
 url: /cpp/access-and-modify-the-display-label-of-the-linked-ole-object/
 description: Learn how to access and modify the display label of linked Ole Objects in Excel files using Aspose.Cells for C++.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

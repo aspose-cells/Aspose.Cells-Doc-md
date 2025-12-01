@@ -3,6 +3,8 @@ title: Calculate the sum of a range of cells
 type: docs
 weight: 10
 url: /net/calculate-the-sum-of-a-range-of-cells/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **OpenXML Excel**

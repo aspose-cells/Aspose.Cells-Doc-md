@@ -5,6 +5,8 @@ weight: 100
 url: /java/specify-custom-number-decimal-and-group-separators-for-workbook/
 description: This article shows how to change Number decimal and group separator in MS Excel and with Java code by using the Aspose.Cells for Java API.
 keywords: specify custom decimal separator excel, specify custom decimal separator excel java, specify custom group separator excel, specify custom group separator excel java, specify custom decimal and group separator excel, specify custom decimal and group separator excel java, change decimal and group separator excel java, change decimal and group separator excel, change decimal separator excel, change decimal separator excel java, change group separator excel, change group separator excel java
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

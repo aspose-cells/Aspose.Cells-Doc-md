@@ -3,6 +3,8 @@ title: Open Text Files as Workbooks
 type: docs
 weight: 180
 url: /net/open-text-files-as-workbooks/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Below are comparison code example for opening textfile as Workbooks:

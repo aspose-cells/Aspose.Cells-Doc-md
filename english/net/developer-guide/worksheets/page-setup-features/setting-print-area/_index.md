@@ -5,6 +5,8 @@ weight: 200
 url: /net/how-to-set-print-area/
 description: This article shows you code explaining how to set print area using Aspose.Cells library.
 keywords: Limit printing range, Set Print Range, Clear Print Range, Set and Clear Print Range using C#, C# How to Set Print Area, Set and Clear Print Area using C#, How to Clear Print Area in C#, How to add print area using C#, how to remove print area using C#, How to Set Print Area in Excel, How to Clear Print Area in Excel.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

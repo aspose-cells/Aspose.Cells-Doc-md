@@ -3,6 +3,8 @@ title: Create Signature Line in an Excel Workbook using Aspose.Cells
 type: docs
 weight: 180
 url: /java/create-signature-line-in-an-excel-workbook-using-aspose-cells/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,8 @@ type: docs
 weight: 50
 url: /nodejs-cpp/grouping-and-ungrouping-rows-and-columns/
 description: Discover how to group and ungroup rows and columns in Excel using Aspose.Cells for Node.js via C++.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Introduction**
