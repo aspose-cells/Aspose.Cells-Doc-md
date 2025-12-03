@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) property to set the cell value with our HTML.
+Aspose.Cells now supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setHtmlString-java.lang.String-) property to set the cell value with our HTML.
 
 {{% /alert %}}
 

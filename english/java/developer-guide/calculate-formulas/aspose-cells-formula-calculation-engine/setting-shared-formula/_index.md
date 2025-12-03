@@ -19,7 +19,7 @@ You want to add a function in B2 that will calculate the sales tax for the first
 
 {{% /alert %}} 
 
-Aspose.Cells lets you specify a formula using the [Cell.Formula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) property, specifically [Cell.setFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) and [Cell.getFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula).
+Aspose.Cells lets you specify a formula using the [Cell.Formula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-) property, specifically [Cell.setFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula-java.lang.String-) and [Cell.getFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getFormula--).
 
 There are two options for adding formulas to the other cells (B3, B4, B5, and so on) in the column.
 

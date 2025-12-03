@@ -15,7 +15,7 @@ To ensure that text in a cell can be read, explicit line breaks and text wrappin
 
 ## **To Wrap Text in a Cell**
 
-To wrap text in a cell, use the [**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped) property.
+To wrap text in a cell, use the [**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setTextWrapped-boolean-) property.
 
 The following sample code shows how to use text wrapping and explicit line breaks in a cell.
 

@@ -35,15 +35,15 @@ This article shows how to:
 - [Set text to subscript](/cells/java/dealing-with-font-settings/).
 - [Set text to superscript](/cells/java/dealing-with-font-settings/).
 ### **Setting Font Name**
-Apply a specific font to text in cells using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name) property.
+Apply a specific font to text in cells using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#setName-java.lang.String-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
 ### **Setting Font Style to Bold**
-Set text to bold by setting the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) property to **true**.
+Set text to bold by setting the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#setBold-boolean-) property to **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
 ### **Setting Font Size**
-Set the font size using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size) property.
+Set the font size using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#setSize-int-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **Setting Font Underline Type**
@@ -76,28 +76,28 @@ Underline text with the [Font](https://reference.aspose.com/cells/java/com.aspos
 
 
 ### **Setting Font Color**
-Set the font color with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) property. Select any color from the [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeration and assign the selected color to the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+Set the font color with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#setColor-com.aspose.cells.Color-) property. Select any color from the [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeration and assign the selected color to the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#setColor-com.aspose.cells.Color-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
 ### **Setting Strikeout Effect on Text**
-Strikeout text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout) property.
+Strikeout text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#setStrikeout-boolean-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
 ### **Setting Subscript**
-Make text superscript by using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) property.
+Make text superscript by using the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#setSubscript-boolean-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
 ### **Setting Superscript**
-Apply superscript to text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) property.
+Apply superscript to text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#setSuperscript-boolean-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 

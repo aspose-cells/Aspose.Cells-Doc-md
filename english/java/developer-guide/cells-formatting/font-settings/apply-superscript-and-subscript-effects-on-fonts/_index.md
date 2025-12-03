@@ -17,7 +17,7 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 ## **Working with Superscript and Subscript**
 
-Apply the superscript effect using the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) property. To apply subscript, use the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) method.
+Apply the superscript effect using the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#isSuperscript--) property. To apply subscript, use the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#setSubscript-boolean-) method.
 
 The following code examples show how to apply super- and subscript to text.
 

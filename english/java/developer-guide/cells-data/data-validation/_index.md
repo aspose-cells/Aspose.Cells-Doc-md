@@ -36,12 +36,12 @@ To create validations using Microsoft Excel:
 ![todo:image_alt_text](data-validation_1.png)
 ### **Data Validation with Aspose.Cells**
 Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.
-In Aspose.Cells, each [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class has a [Validations](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Validations) object which represents a collection of [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) objects. To set up validation, set some of the [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) class' properties:
+In Aspose.Cells, each [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class has a [Validations](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getValidations--) object which represents a collection of [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) objects. To set up validation, set some of the [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) class' properties:
 
-- [Type](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Type): represents the validation type, which may be specified by using one of the predefined values in the [ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType) enumeration.
-- [Operator](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Operator): represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [OperatorType](https://reference.aspose.com/cells/java/com.aspose.cells/OperatorType) enumeration.
-- [Formula1](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Formula1): represents the value or expression associated with the first part of the data validation.
-- [Formula2](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Formula2): represents the value or expression associated with the second part of the data validation.
+- [Type](https://reference.aspose.com/cells/java/com.aspose.cells/Validation##setType-int-): represents the validation type, which may be specified by using one of the predefined values in the [ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType) enumeration.
+- [Operator](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#setOperator-int-): represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [OperatorType](https://reference.aspose.com/cells/java/com.aspose.cells/OperatorType) enumeration.
+- [Formula1](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#setFormula1-java.lang.String-): represents the value or expression associated with the first part of the data validation.
+- [Formula2](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#setFormula2-java.lang.String-): represents the value or expression associated with the second part of the data validation.
 
 When the [Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation) object's properties have been configured, developers can use the [CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea) structure to store information about the cell range that will be validated using the created validation.
 #### **Types of Data Validation**
@@ -109,7 +109,7 @@ When data validations are implemented, then validation can be checked by assigni
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ## **Check if validation in a cell is dropdown**
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
+As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#getInCellDropDown) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
 
 [sampleDataValidationRules.xlsx](77987849.xlsx)
 

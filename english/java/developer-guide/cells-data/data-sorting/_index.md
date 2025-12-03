@@ -31,7 +31,7 @@ Generally, sorting is performed on a list - defined as a contiguous group of dat
 
 ## **Sorting Data with Aspose.Cells**
 
-Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) class used to sort data in ascending or descending order. The class has some important members, for example, methods like [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) and [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2). These members are used to define sorted keys and specify the key sort order.
+Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) class used to sort data in ascending or descending order. The class has some important members, for example, methods like [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#setKey1-int-) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#setKey2-int-) and [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#setOrder1-int-) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#setOrder2-int-). These members are used to define sorted keys and specify the key sort order.
 
 You have to define keys and set the sort order before implementing data sorting. The class provides the [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) method used to perform data sorting based on the cell data in a worksheet.
 
@@ -58,7 +58,7 @@ After executing the code below, data is sorted appropriately as you can see from
 
 {{% alert color="primary" %}}
 
-To sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) attribute.
+To sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#setSortLeftToRight-boolean-) attribute.
 
 {{% /alert %}}
 

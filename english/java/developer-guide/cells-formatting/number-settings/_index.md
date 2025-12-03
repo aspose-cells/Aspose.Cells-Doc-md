@@ -23,7 +23,7 @@ In the left side of the dialog, there are many categories of values like **Gener
 
 ## **Using Built-in Number Formats**
 
-Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) method of the [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.
+Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setNumber-int-) method of the [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.
 
 |**Value**|**Type**|**Format String**|
 | :- | :- | :- |
@@ -68,14 +68,14 @@ Aspose.Cells offers some built-in number formats to configure the display format
 
 ## **Using Custom Number Formats**
 
-To define your own customized format string for setting the display format, use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom). This approach is not as fast as using pre-set formats but it is more flexible.
+To define your own customized format string for setting the display format, use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setCustom-java.lang.String-). This approach is not as fast as using pre-set formats but it is more flexible.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "UsingCustomNumber-1.java" >}}
 
 {{% alert color="primary" %}}
 
-If you use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) is overridden and vice versa.
+If you use the [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setCustom-java.lang.String-) to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) is overridden and vice versa.
 
 {{% /alert %}}
 

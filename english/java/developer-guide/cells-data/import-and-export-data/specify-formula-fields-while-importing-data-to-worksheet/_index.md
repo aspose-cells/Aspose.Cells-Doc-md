@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can specify formula fields when you import data into your worksheet using the [**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) method. This method takes the Boolean array where the value **true** means the field is a formula field. For example, if the third field is a formula field, then the third value in the array will be **true**.
+You can specify formula fields when you import data into your worksheet using the [**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#setFormulas-boolean---) method. This method takes the Boolean array where the value **true** means the field is a formula field. For example, if the third field is a formula field, then the third value in the array will be **true**.
 
 ## **Specify Formula Fields while Importing Data to Worksheet**
 

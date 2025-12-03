@@ -46,14 +46,14 @@ Select any text alignment type using the [**TextAlignmentType**](https://referen
 
 {{% alert color="primary" %}}
 
-You can also apply the justify distributed setting using the [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) property.
+You can also apply the justify distributed setting using the [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#isJustifyDistributed--) property.
 
 {{% /alert %}}
 
 ## **Horizontal , Vertical Alignment and Indentation**
 
-Use the [**HorizontalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) property to align the text horizontally and [**VerticalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment) property to align the text vertically.
-It is possible to set the indentation level of the text in a cell with the [**IndentLevel**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) property 
+Use the [**HorizontalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setHorizontalAlignment-int-) property to align the text horizontally and [**VerticalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setVerticalAlignment-int-) property to align the text vertically.
+It is possible to set the indentation level of the text in a cell with the [**IndentLevel**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setIndentLevel-int-) property 
 and tt only effects when Horizontal alignment is left or right.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-1.java" >}}
@@ -61,7 +61,7 @@ and tt only effects when Horizontal alignment is left or right.
 
 ## **Orientation**
 
-Set the orientation (rotation) of the text in a cell with the [**RotationAngle**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle) property.
+Set the orientation (rotation) of the text in a cell with the [**RotationAngle**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setRotationAngle-int-) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-Orientation-1.java" >}}
 
@@ -71,13 +71,13 @@ The following section discusses how to control text by setting text wrapping, sh
 
 ### **Wrapping Text**
 
-Wrapping text in a cell makes it easier to read: the height of the cell adjusts to fit all the text, instead of cutting it off or spilling over into adjacent cells. Set text wrapping on or off with the [**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped) property.
+Wrapping text in a cell makes it easier to read: the height of the cell adjusts to fit all the text, instead of cutting it off or spilling over into adjacent cells. Set text wrapping on or off with the [**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#isTextWrapped--) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LineBreakTextWrapping-WrapText-1.java" >}}
 
 ### **Shrinking to Fit**
 
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**ShrinkToFit**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) property. to **true**.
+An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**ShrinkToFit**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setShrinkToFit-boolean-) property. to **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 
@@ -97,7 +97,7 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspo
 
 It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
 
-The reading order is set with the [**TextDirection**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) property. Aspose.Cells provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection) enumeration.
+The reading order is set with the [**TextDirection**](https://reference.aspose.com/cells/java/com.aspose.cells/style#setTextDirection-int-) property. Aspose.Cells provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection) enumeration.
 
 |**Text Direction Types**|**Description**|
 | :- | :- |

@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the **Advanced Excel Options** as shown in the screenshot below.
 
-Aspose.Cells provides the [**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberDecimalSeparator) and [WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberGroupSeparator) properties to set the custom separators for formatting/parsing numbers.
+Aspose.Cells provides the [**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setNumberDecimalSeparator-char-) and [WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setNumberGroupSeparator-char-) properties to set the custom separators for formatting/parsing numbers.
 
 {{% /alert %}}
 

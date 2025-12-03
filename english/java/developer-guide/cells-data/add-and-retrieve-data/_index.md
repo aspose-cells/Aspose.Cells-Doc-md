@@ -31,14 +31,14 @@ Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/jav
 
 The [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class provides several properties that allow developers to retrieve values from the cells according to their data types. These properties include:
 
-- [StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue), the cell's string value.
-- [DoubleValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DoubleValue), returns the cell's double value.
-- [BoolValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#BoolValue), the cell's Boolean value.
-- [DateTimeValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DateTimeValue), the cell's date/time value.
-- [FloatValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#FloatValue), the cell's float value.
-- [IntValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#IntValue), the cell's integer value.
+- [StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue--), the cell's string value.
+- [DoubleValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getDoubleValue--), returns the cell's double value.
+- [BoolValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getBoolValue--), the cell's Boolean value.
+- [DateTimeValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getDateTimeValue--), the cell's date/time value.
+- [FloatValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getFloatValue--), the cell's float value.
+- [IntValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getIntValue--), the cell's integer value.
 
-Moreover, the type of data contained in a cell can also be checked by using the [Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) property of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class. In fact, the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) property is based on [CellValueType](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType) enumeration whose pre-defined values are listed below:
+Moreover, the type of data contained in a cell can also be checked by using the [Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getType--) property of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class. In fact, the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getType--) property is based on [CellValueType](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType) enumeration whose pre-defined values are listed below:
 
 |**Cell Value Types**|**Description**|
 | :- | :- |

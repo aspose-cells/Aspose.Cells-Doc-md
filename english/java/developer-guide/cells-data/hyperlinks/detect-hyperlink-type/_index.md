@@ -16,7 +16,7 @@ An Excel file can have different types of hyperlinks like external, cell referen
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
 - [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL-REFERENCE): Link to cell or named range.
 
-To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) class provides a [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). The following code snippet demonstrates the use of the [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property by using this [source excel file](LinkTypes.xlsx).
+To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) class provides a [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#getLinkType--) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). The following code snippet demonstrates the use of the [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#getLinkType--) property by using this [source excel file](LinkTypes.xlsx).
 
 ## Source Code
 
