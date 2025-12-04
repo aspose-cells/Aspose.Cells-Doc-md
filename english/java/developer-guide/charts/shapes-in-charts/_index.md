@@ -27,8 +27,8 @@ The [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cel
 
 The method returns an object of the [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) class, where the [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) class represents a label in the chart. It has some important members as detailed below:
 
-- [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text) property specifies a label's caption string.
-- [**Fill**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) property specifies the fill color attributes.
+- [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#getText--) property specifies a label's caption string.
+- [**Fill**](https://reference.aspose.com/cells/java/com.aspose.cells/label#getFill--) property specifies the fill color attributes.
 
 The following example shows how to add a label to the chart. The example uses a designer file which has a chart in it. We use this file to insert a label into the chart.
 

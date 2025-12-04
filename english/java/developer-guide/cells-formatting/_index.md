@@ -39,13 +39,13 @@ To set the line color, select a color using the [Color](https://reference.aspose
 |**Line Styles**|**Description**|
 | :- | :- |
 |[DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT)|Represents thin dash-dotted line|
-|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT_DOT)|Represents thin dash-dot-dotted line|
+|[DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASH-DOT-DOT)|Represents thin dash-dot-dotted line|
 |[DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DASHED)|Represents dashed line|
 |[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOTTED)|Represents dotted line|
 |[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#DOUBLE)|Represents double line|
 |[HAIR](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#HAIR)|Represents hair line|
 |[MEDIUM_DASH_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT)|Represents medium dash-dotted line|
-|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT_DOT)|Represents medium dash-dot-dotted line|
+|[MEDIUM_DASH_DOT_DOT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASH-DOT-DOT)|Represents medium dash-dot-dotted line|
 |[MEDIUM_DASHED](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM-DASHED)|Represents medium dashed line|
 |[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#NONE)|Represents no line|
 |[MEDIUM](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM)|Represents medium line|
@@ -106,8 +106,8 @@ Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/ja
 The example below adds a custom color to the palette before applying it on a font.
 
 
-
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndPalette-ColorsAndPalette.java" >}}
+
 ## **Colors and Background Patterns**
 Microsoft Excel can set the foreground (outline) and background (fill) colors of cells and background patterns as shown below.
 
@@ -123,13 +123,13 @@ Aspose.Cells provides the [setStyle](https://reference.aspose.com/cells/java/co
 
 {{% alert color="primary" %}} 
 
-To set the foreground or background color of a cell, use the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [setBackgroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) or [setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) properties. These properties only come into effect if the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) property is configured.
+To set the foreground or background color of a cell, use the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [setBackgroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBackgroundColor-com.aspose.cells.Color-) or [setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setForegroundColor-com.aspose.cells.Color-) properties. These properties only come into effect if the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#setPattern-int-) property is configured.
 
 {{% /alert %}} 
 
-The [setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)  property sets the cell's shading color.
+The [setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setForegroundColor-com.aspose.cells.Color-)  property sets the cell's shading color.
 
-The [setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)   property specifies the background pattern used for the foreground or background color. Aspose.Cells provides the [BackgroundType](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType) enumeration which contains a set of pre-defined types of background patterns.
+The [setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#setPattern-int-) property specifies the background pattern used for the foreground or background color. Aspose.Cells provides the [BackgroundType](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType) enumeration which contains a set of pre-defined types of background patterns.
 
 |**Pattern Type**|**Description**|
 | :- | :- |
@@ -164,12 +164,12 @@ The following output is generated when executing the code.
 ### **Important to Know**
 {{% alert color="primary" %}} 
 
-- To set a cell's foreground or background color, use the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) or [BackgroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) properties. Both properties will take effect only if the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) property is configured.
-- The [ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) property sets the cell's shade color.
-  The [Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [BackgroundType](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType). that contains a set of pre-defined types of background patterns.
+- To set a cell's foreground or background color, use the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setForegroundColor-com.aspose.cells.Color-) or [BackgroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBackgroundColor-com.aspose.cells.Color-) properties. Both properties will take effect only if the [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)  object's [Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#setPattern-int-) property is configured.
+- The [ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#setForegroundColor-com.aspose.cells.Color-) property sets the cell's shade color.
+  The [Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#setPattern-int-) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [BackgroundType](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType). that contains a set of pre-defined types of background patterns.
 - If you select [BackgroundType.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE) value from the [BackgroundType](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType) enumeration, the foreground color is not applied.
   Likewise, the background color is not applied if you select the [BackgroundType.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE) or [BackgroundType.SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID) values.
-- When retrieving cell's shading/fill color, if [Style.Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) is [BackgroundType.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE), [Style.ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) will return *Color.Empty*.
+- When retrieving cell's shading/fill color, if [Style.Pattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#getPattern--) is [BackgroundType.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE), [Style.ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#getForegroundColor--) will return *Color.Empty*.
 
 {{% /alert %}} 
 ## **Formatting Selected Characters in a Cell**

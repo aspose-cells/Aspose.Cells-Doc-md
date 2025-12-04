@@ -23,7 +23,7 @@ The [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.c
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
-In order to inject custom labels, it is required to assign the [WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) property to an instance of the *CustomSettings* class defined above before adding the Subtotals to the worksheet.
+In order to inject custom labels, it is required to assign the [WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) property to an instance of the *CustomSettings* class defined above before adding the Subtotals to the worksheet.
 
 
 

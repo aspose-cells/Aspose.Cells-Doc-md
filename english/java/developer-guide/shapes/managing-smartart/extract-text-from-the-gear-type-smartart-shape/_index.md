@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes--) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) property.
+Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes--) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getText--) property.
 
 ## **Extract Text from the Gear Type SmartArt Shape**
 

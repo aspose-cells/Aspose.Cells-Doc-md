@@ -13,7 +13,7 @@ Microsoft Excel provides a good feature to Auto Size the width and height of a c
 
 {{% /alert %}} 
 ## **Auto Fitting**
-Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getWorksheets--) collection that allows access to each worksheet in the Excel file.
 
 A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a wide range of properties and methods for managing a worksheet. This article looks at using the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class to autofit rows or columns.
 ### **AutoFit Row - Simple**
@@ -53,7 +53,7 @@ The [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/wor
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
 ### **AutoFit Rows for Merged Cells**
-With Aspose.Cells it is possible to autofit rows even for cells that have been merged using the [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) class provides [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) property that can be used to autofit rows for merged cells. [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) accepts [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType) enumerable which has the following members.
+With Aspose.Cells it is possible to autofit rows even for cells that have been merged using the [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) class provides [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#setAutoFitMergedCellsType-int-) property that can be used to autofit rows for merged cells. [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#setAutoFitMergedCellsType-int-) accepts [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType) enumerable which has the following members.
 
 - [NONE](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): Ignore merged cells.
 - [FIRST_LINE](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST-LINE): Only expands the height of the first row.

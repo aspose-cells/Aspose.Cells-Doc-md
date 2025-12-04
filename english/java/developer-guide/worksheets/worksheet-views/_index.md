@@ -17,13 +17,13 @@ A normal view is a worksheet's default view. Page break preview is an editing vi
 ### **Controlling View Modes**
 Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) method.
+A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setPageBreakPreview-boolean-) method.
 #### **Enabling Normal View**
-Set any worksheet to normal view by using the [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) method of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class and passing **false** as a parameter.
+Set any worksheet to normal view by using the [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setPageBreakPreview-boolean-) method of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class and passing **false** as a parameter.
 #### **Enabling Page Break Preview**
-Set any worksheet to page break preview using the [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) method of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class and passing **true** as a parameter.
+Set any worksheet to page break preview using the [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setPageBreakPreview-boolean-) method of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class and passing **true** as a parameter.
 
-A complete example is given below that demonstrates the use of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) method to enable the page break preview mode for the first worksheet of the Excel file.
+A complete example is given below that demonstrates the use of the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setPageBreakPreview-boolean-) method to enable the page break preview mode for the first worksheet of the Excel file.
 
 In the screenshot below, you can see that Book1.xls file is in Normal View.
 
@@ -49,9 +49,9 @@ Aspose.Cells also allows developers to set the worksheet zoom factor.
 ### **Controlling the Zoom Factor**
 Aspose.Cells provides a [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) method.
+A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setZoom-int- ) method.
 
-A complete example is given below that demonstrates how to use the [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) method to set the zoom factor of the first worksheet in an Excel file.
+A complete example is given below that demonstrates how to use the [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setZoom-int- ) method to set the zoom factor of the first worksheet in an Excel file.
 
 In the screenshot below, you can see the Book1.xls file in the default view.
 
@@ -64,7 +64,6 @@ The Book1.xls file is opened with the [Workbook](https://reference.aspose.com/ce
 **Output.xls: worksheet after modification** 
 
 ![todo:image_alt_text](worksheet-views_5.png)
-
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}

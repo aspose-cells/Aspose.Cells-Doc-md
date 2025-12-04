@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Change Tick Label Direction**
 
-Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) property. The [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enumeration provides the following members
+Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#setDirectionType-int-) property. The [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#setDirectionType-int-) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enumeration provides the following members
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)

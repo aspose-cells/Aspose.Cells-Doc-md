@@ -47,10 +47,10 @@ Developers can also specify the file format in which their files should be saved
 |[**DIF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#DIF)|Represents Data Interchange Format.|
 |[**NUMBERS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#NUMBERS)|Represents a numbers file.|
 |[**MARKDOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|Represents a markdown document.|
-**Normally, there are two ways to save Excel files as follows:**
+**Normally, there are two ways to save Excel files as follows:** 
 
-1. **Saving the file to some location**
-1. **Saving the file to a stream**
+1. **Saving the file to some location**  
+2. **Saving the file to a stream**  
 
 ## **Saving File to Some Location**
 
@@ -68,7 +68,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) is a comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the parameter of method [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) is set to true, the program will still only export one worksheet.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#getSeparator--) is a comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the parameter of method [**TxtSaveOptions.setExportAllSheets(boolean value)**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions/#setExportAllSheets-boolean-) is set to true, the program will still only export one worksheet.
 
 **Example:**
 
@@ -104,7 +104,7 @@ If developers need to save their files to a **Stream** then they should create a
 
 #### **Set ContentCopyForAccessibility option**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class, you can get or set the PDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent) option to control the content access in the converted PDF. It means it allows screen reader software to utilize the text within the PDF file for reading the PDF file.  You can disable it by applying a change permissions password and deselecting the two items in the screenshot [here](71630877.png).
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class, you can get or set the PDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#getAccessibilityExtractContent--) option to control the content access in the converted PDF. It means it allows screen reader software to utilize the text within the PDF file for reading the PDF file.  You can disable it by applying a change permissions password and deselecting the two items in the screenshot [here](71630877.png).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ContentCopyForAccessibilityOption.java" >}}
 

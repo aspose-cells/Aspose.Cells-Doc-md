@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells provides [**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName) property.
+Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells provides [**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#setFarEastName-java.lang.String-) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#setLatinName-java.lang.String-) property.
 
 ## **Specify the Far East and Latin Name of the Font in Text Options of Shape**
 

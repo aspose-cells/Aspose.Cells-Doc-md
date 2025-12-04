@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-You can add custom labels to data points in the series of the chart. Aspose.Cells provides [ChartPoint.getDataLabels().setText()](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.
+You can add custom labels to data points in the series of the chart. Aspose.Cells provides [ChartPoint.getDataLabels().setText()](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setText-java.lang.String-) property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.
 
 {{% /alert %}} 
 ## **Adding Custom Labels to Data Points in the Series of the Chart**

@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to set the margins of any shape or comment using the [**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment) property. This property returns the object of [**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) class which has different properties e.g. [**TopMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**RightMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt), etc. that can be used to set the top, left, bottom and right margins.
+Aspose.Cells allows you to set the margins of any shape or comment using the [**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#getTextAlignment--) property. This property returns the object of [**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) class which has different properties e.g. [**TopMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#getTopMarginPt--), [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#getLeftMarginPt--), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#getBottomMarginPt--), [**RightMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#getRightMarginPt--) etc. that can be used to set the top, left, bottom and right margins.
 
 ## **Set Margins of Comment or Shape inside the Worksheet**
 
@@ -21,3 +21,4 @@ Please see the following sample code. It loads the [sample Excel file](61767867.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}
 {{< app/cells/assistant language="java" >}}
+```

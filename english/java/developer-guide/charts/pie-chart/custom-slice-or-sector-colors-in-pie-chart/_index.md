@@ -16,7 +16,7 @@ This article explains how to add custom colors to pie chart slices/sectors. By d
 To set the custom color for a pie chart's individual slices or sectors:
 
 1. Access the [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) object's [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
-1. Assign a color of your choice using the [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) method.
+1. Assign a color of your choice using the [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#setForegroundColor-com.aspose.cells.Color-) method.
 
 This article also explains how to set:
 
@@ -27,7 +27,7 @@ This article also explains how to set:
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) is not specific to pie charts but can be used for all types of charts.
+[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#setForegroundColor-com.aspose.cells.Color-) is not specific to pie charts but can be used for all types of charts.
 
 {{% /alert %}}
 

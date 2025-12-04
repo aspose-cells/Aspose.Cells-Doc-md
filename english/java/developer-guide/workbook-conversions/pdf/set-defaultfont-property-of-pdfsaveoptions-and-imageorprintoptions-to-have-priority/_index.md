@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 While setting the **DefaultFont** property of [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), you might expect that saving to PDF or image would set that **DefaultFont** to all the text in the workbook that has a missing (not installed) font.
 
-Generally, when saving to PDF or image, Aspose.Cells will first try to set Workbook's default font (i.e., [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font-). If workbook's default font still cannot show/render text properly, then Aspose.Cells will try to render with font mentioned against **DefaultFont** attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Generally, when saving to PDF or image, Aspose.Cells will first try to set Workbook's default font (i.e., [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#getFont--). If workbook's default font still cannot show/render text properly, then Aspose.Cells will try to render with font mentioned against **DefaultFont** attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
 To cope with your expectation, we have a Boolean property named "**CheckWorkbookDefaultFont**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). You can set it to false to disable trying workbook's default font or let the **DefaultFont** setting in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) to have priority.
 
@@ -29,13 +29,13 @@ This is the screenshot of the [template file](49446914.xlsx) used in the examp
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-This is the output PNG image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) property to "Times New Roman".
+This is the output PNG image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDefaultFont-java.lang.String-) property to "Times New Roman".
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-See the output [TIFF](out1_imageTIFF.tiff) image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) property to "Times New Roman".
+See the output [TIFF](out1_imageTIFF.tiff) image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDefaultFont-java.lang.String-) property to "Times New Roman".
 
-See the output [PDF](out1_pdf.pdf) file after setting the [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) property to "Times New Roman".
+See the output [PDF](out1_pdf.pdf) file after setting the [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setDefaultFont-java.lang.String-) property to "Times New Roman".
 
 ## **Sample Code**
 

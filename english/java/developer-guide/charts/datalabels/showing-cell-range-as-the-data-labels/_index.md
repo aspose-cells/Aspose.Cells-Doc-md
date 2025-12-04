@@ -23,11 +23,11 @@ The following screenshot highlights this option for your reference.
 
 ## Show cell range as data labels with Aspose.Cells
 
-Aspose.Cells provides the [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) method to check or uncheck the checkbox **Label Contains - Value From Cells** as shown in the screenshot above.
+Aspose.Cells provides the [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setShowCellRange-boolean-) method to check or uncheck the checkbox **Label Contains - Value From Cells** as shown in the screenshot above.
 
 ## Java code to show cell range as data labels
 
-The sample code below accesses the Data Labels of the Chart Series and then set [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) method to true to check **Label Contains - Value From Cells** option.
+The sample code below accesses the Data Labels of the Chart Series and then set [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setShowCellRange-boolean-) method to true to check **Label Contains - Value From Cells** option.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}
 {{< app/cells/assistant language="java" >}}

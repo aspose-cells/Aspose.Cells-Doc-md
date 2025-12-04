@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Java API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.HasLeaderLines**](https://reference.aspose.com/cells/java/com.aspose.cells/series#HasLeaderLines) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Java API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.HasLeaderLines**](https://reference.aspose.com/cells/java/com.aspose.cells/series#setHasLeaderLines-boolean-) property.
 
 {{% /alert %}}
 

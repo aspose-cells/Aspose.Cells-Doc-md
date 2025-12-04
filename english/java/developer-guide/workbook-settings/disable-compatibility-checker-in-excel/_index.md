@@ -26,7 +26,7 @@ To disable the Compatibility Checker in Microsoft Excel (for example Microsoft E
 
 ## **Using Aspose.Cells APIs**
 
-Set the [**WorkbookSettings.CheckComptiliblity**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) property to **False** to disable Microsoft Excel's Compatibility Checker.
+Set the [**WorkbookSettings.CheckComptiliblity**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setCheckCompatibility-boolean-) property to **False** to disable Microsoft Excel's Compatibility Checker.
 
 Suppose we have a template XLS file. When a user saves or re-saves it in MS Excel 2007/2010/2013, the Compatibility Checker dialog box is displayed, as shown in the screenshot below.
 

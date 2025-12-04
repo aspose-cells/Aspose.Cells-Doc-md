@@ -45,7 +45,7 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
 
 ## **Get XML path from List Object/Table**
 
-XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells by calling [**ListObject.getXmlMap().getDataBinding().getUrl()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmldatabinding#Url).  Following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
+XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells by calling [**ListObject.getXmlMap().getDataBinding().getUrl()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmldatabinding#getUrl--) .  Following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
 
 1. [XMLData.xlsx](XMLData.xlsx)
 1. [CountryList.xml](CountryList.xml)

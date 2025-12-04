@@ -73,18 +73,18 @@ You may achieve the same results by passing the [**SaveFormat.HTML**](https://re
 
 ### **Setting Image Preferences for HTML**
 
-Starting from 8.0.2, Aspose.Cells has exposed [**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) class, which allows developers to specify image preferences when saving spreadsheets to HTML format.
+Starting from 8.0.2, Aspose.Cells has exposed [**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#getImageOptions--) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions) class, which allows developers to specify image preferences when saving spreadsheets to HTML format.
 
 The image settings that can be applied are:
 
-- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType): Gets or sets the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality): Gets or sets the quality of images between 0 to 100, when ImageFormat is specified as Jpeg.
-- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution): Gets or sets the vertical resolution of the image in dots per inch.
-- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution): Gets or sets the horizontal resolution of the image in dots per inch.
-- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression): Gets or sets the compression type for the images when ImageFormat is specified as Tiff.
-- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setImageType-int-): Gets or sets the image type. Please note, all shapes, including charts, render as images in the output HTML.
+- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setQuality-int-): Gets or sets the quality of images between 0 to 100, when ImageFormat is specified as Jpeg.
+- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setVerticalResolution-int-): Gets or sets the vertical resolution of the image in dots per inch.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setHorizontalResolution-int-): Gets or sets the horizontal resolution of the image in dots per inch.
+- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setTiffCompression-int-): Gets or sets the compression type for the images when ImageFormat is specified as Tiff.
+- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setTransparent-boolean-): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
-The code below demonstrates how to use [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) to specify different preferences.
+The code below demonstrates how to use [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#getImageOptions--) to specify different preferences.
 
 |**Spreadsheet view before export**|**HTML view after export**|
 | :- | :- |
@@ -120,7 +120,7 @@ To specify security options when saving to PDF, use [**PdfSaveOptions**](https:/
 
 #### **Advanced Conversion**
 
-You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class to set different attributes for the conversion. Setting different properties of [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class will give you the control over the Print, Font, Security and Compression settings for the resultant PDF file. Most notable property is the [**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance) that enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class to set different attributes for the conversion. Setting different properties of [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class will give you the control over the Print, Font, Security and Compression settings for the resultant PDF file. Most notable property is the [**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setCompliance-int-) that enables you to save the Excel files to PDF/A compliant PDF files.
 
 ##### **Saving Excel Spreadsheets to PDF/A Complied Files**
 

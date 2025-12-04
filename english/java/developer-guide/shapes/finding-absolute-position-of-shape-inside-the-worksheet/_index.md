@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to know the absolute position of a shape on a worksheet. Aspose.Cells provides the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties for this purpose. These properties return the absolute position of a shape in a worksheet in pixels.
+Sometimes, you need to know the absolute position of a shape on a worksheet. Aspose.Cells provides the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getLeftToCorner--) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getTopToCorner--) properties for this purpose. These properties return the absolute position of a shape in a worksheet in pixels.
 
 {{% /alert %}}
 
 ## **Explanation of the Shape.getLeftToCorner() and Shape.getTopToCorner() properties**
 
-This screenshot explains what distances the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties measure.
+This screenshot explains what distances the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getLeftToCorner--) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getTopToCorner--) properties measure.
 
 **How to Measure absolute position**
 

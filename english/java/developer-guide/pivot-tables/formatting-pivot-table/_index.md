@@ -17,7 +17,7 @@ The [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/Pi
 
 #### **Setting the AutoFormat and PivotTableStyle Types**
 
-The code example that follows illustrates how to set the auto format type and the pivot table style type using the [**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) and [**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) properties.
+The code example that follows illustrates how to set the auto format type and the pivot table style type using the [**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setAutoFormatType-int-) and [**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setPivotTableStyleType-int-) properties.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
