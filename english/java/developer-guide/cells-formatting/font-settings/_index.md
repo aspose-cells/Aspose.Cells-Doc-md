@@ -47,7 +47,7 @@ Set the font size using the [Font](https://reference.aspose.com/cells/java/com.a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **Setting Font Underline Type**
-Underline text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) property. Aspose.Cells offers various pre-defined font underline types in the [FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType) enumeration.
+Underline text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/font) object's [setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#setUnderline-int-) property. Aspose.Cells offers various pre-defined font underline types in the [FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType) enumeration.
 
 |**Font Underline Types**|**Description**|
 | :- | :- |

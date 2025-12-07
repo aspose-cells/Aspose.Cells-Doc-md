@@ -59,10 +59,10 @@ Aspose.Cells APIs support both types of document properties, built-in and custom
 
 Use the [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) to access the file's document properties as described below.
 
-- To access built-in document properties, use [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties).
-- To access custom document properties, use the [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties).
+- To access built-in document properties, use [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getBuiltInDocumentProperties--).
+- To access custom document properties, use the [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getCustomDocumentProperties--).
 
-Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties) and [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties) return an instance of [**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection). This collection contains [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) objects, each of which represents a single built-in or custom document property.
+Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getBuiltInDocumentProperties--) and [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getCustomDocumentProperties--) return an instance of [**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection). This collection contains [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) objects, each of which represents a single built-in or custom document property.
 
 It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) as demonstrated in the example below.
 
@@ -70,9 +70,9 @@ It is up to the application requirement how to access a property, that is; by us
 
 The [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) class allows to retrieve the name, value, and type of the document property:
 
-- To get the property name, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Name).
-- To get the property value, use [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value). [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value) returns the value as an Object.
-- To get the property type, use [**DocumentProperty.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type). This returns one of the [**PropertyType**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType) enumeration values.
+- To get the property name, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#getName--).
+- To get the property value, use [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#getValue--). [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#getValue--) returns the value as an Object.
+- To get the property type, use [**DocumentProperty.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#getType--). This returns one of the [**PropertyType**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType) enumeration values.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentPropertyValue.java" >}}
 
@@ -88,7 +88,7 @@ Aspose.Cells APIs have exposed the [**add**](https://reference.aspose.com/cells/
 
 ### **Configuring “Link to content” Custom Property**
 
-To create a custom property linked to the content of a given range, call the [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) method and pass property name and source. You can check whether a property is configured as linked to content using the [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) property. Moreover, it is also possible to get the source range using the [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) property of the [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) class.
+To create a custom property linked to the content of a given range, call the [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent-java.lang.String-java.lang.String-) method and pass property name and source. You can check whether a property is configured as linked to content using the [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#isLinkedToContent--) property. Moreover, it is also possible to get the source range using the [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#getSource--) property of the [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) class.
 
 We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled **MyRange** which refers to a cell value.
 

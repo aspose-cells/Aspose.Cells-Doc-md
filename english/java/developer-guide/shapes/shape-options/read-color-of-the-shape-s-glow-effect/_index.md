@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Possible Usage Scenarios
 
-If you want to read the color of the glow effect of any shape, please use the [**Shape.Glow.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#Color) property. It will help you find the various properties relating to the color of the glow effect applied in a shape.
+If you want to read the color of the glow effect of any shape, please use the [**Shape.Glow.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#getColor--) property. It will help you find the various properties relating to the color of the glow effect applied in a shape.
 
 ## Read Color of the Glow Effect of Shape
 

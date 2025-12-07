@@ -76,7 +76,7 @@ With this type of validation, the user can enter decimal numbers into the valida
 #### **Programming Sample: List Data Validation**
 This type of validation allows the user to enter values from a drop-down list. It provides a list: a series of rows that contain data. Users can only select values from the list. The validation area is the cell range A1:A5 in the first worksheet.
 
-It is important here that you set the [Validation.setInCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) property to **true**.
+It is important here that you set the [Validation.setInCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#setInCellDropDown-boolean-) property to **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ListDataValidation-ListDataValidation.java" >}}
 
@@ -109,7 +109,7 @@ When data validations are implemented, then validation can be checked by assigni
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ## **Check if validation in a cell is dropdown**
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#getInCellDropDown) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
+As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#getInCellDropDown--) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
 
 [sampleDataValidationRules.xlsx](77987849.xlsx)
 

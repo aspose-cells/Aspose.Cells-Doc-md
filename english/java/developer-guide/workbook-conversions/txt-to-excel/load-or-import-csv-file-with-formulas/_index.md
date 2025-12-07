@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-CSV file mostly contains textual data and they do not contain any formulas. However sometimes it happens CSV files also contain formulas. Such CSV files should be loaded by setting the [TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#HasFormula) to **true**. Once this property will be set to **true**, Aspose.Cells will not treat formula as simple text. They will be treated as formula and Aspose.Cells formula calculation engine will process them as usual.
+CSV file mostly contains textual data and they do not contain any formulas. However sometimes it happens CSV files also contain formulas. Such CSV files should be loaded by setting the [TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#setHasFormula-boolean-) to **true**. Once this property will be set to **true**, Aspose.Cells will not treat formula as simple text. They will be treated as formula and Aspose.Cells formula calculation engine will process them as usual.
 
 {{% /alert %}} 
 ## **Load or Import CSV file with Formulas**

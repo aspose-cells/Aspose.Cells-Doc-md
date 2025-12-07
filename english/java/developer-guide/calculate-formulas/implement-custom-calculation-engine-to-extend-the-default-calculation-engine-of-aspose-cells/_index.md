@@ -13,7 +13,7 @@ Aspose.Cells has a powerful calculation engine that can calculate almost all of 
 
 The following property and classes are used in implementing this feature.
 
-- [CalculationOptions.CustomEngine](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CustomEngine)
+- [CalculationOptions.CustomEngine](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-)
 - [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)
 - [CalculationData](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationData)
 

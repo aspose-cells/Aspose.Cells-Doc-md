@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-If you want to set the text of the chart's legend entry fill to none so that it should not display inside the chart legend then please set the [LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#IsTextNoFill) to **true**.
+If you want to set the text of the chart's legend entry fill to none so that it should not display inside the chart legend then please set the [LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#setTextNoFill-boolean-) to **true**.
 
 {{% /alert %}} 
 ## **Set text of chart legend entry fill to none using Aspose.Cells**

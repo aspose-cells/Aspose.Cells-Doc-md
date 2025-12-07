@@ -63,7 +63,7 @@ You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIW
 
 ![todo:image_alt_text](chart-formatting_3.png)
 
-Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text) method that can be used to set their titles as shown below in an example. After executing the example code, a column chart will be added to the worksheet as shown below:
+Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#setText-java.lang.String-) method that can be used to set their titles as shown below in an example. After executing the example code, a column chart will be added to the worksheet as shown below:
 
 **Column chart after setting titles** 
 
@@ -75,7 +75,7 @@ Aspose.Cells also allows developers to set the titles of a chart and its axes at
 
 #### **Hiding Major Gridlines**
 
-Developers can control the visibility of major gridlines by using the [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) method of the [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line) object. After hiding the major gridlines, a column chart added to the worksheet has the following appearance:
+Developers can control the visibility of major gridlines by using the [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#setVisible-boolean-) method of the [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line) object. After hiding the major gridlines, a column chart added to the worksheet has the following appearance:
 
 **A column chart with hidden major gridlines** 
 
@@ -95,7 +95,7 @@ Developers cannot only control the visibility of major gridlines but also other 
 
 ### **Setting Borders for Back and Side Walls**
 
-Since the release of Microsoft Excel 2007, the walls of a 3D chart have been divided into two parts: side wall and back wall, so we have to use two [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objects to represent them separately and you can access them by using [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) and [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+Since the release of Microsoft Excel 2007, the walls of a 3D chart have been divided into two parts: side wall and back wall, so we have to use two [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objects to represent them separately and you can access them by using [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getBackWall--) and [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getSideWall--) .
 
 The example given below shows how to set the border of the sidewall by using different attributes.
 
@@ -103,16 +103,16 @@ The example given below shows how to set the border of the sidewall by using dif
 
 ## **Change the Chart Position and Size**
 
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getChartObject--) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
 
 ### **Modifying Chart's Position and Size**
 
 To change the chart's position (X, Y coordinates) and size (height, width), use these properties:
 
-1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
-1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
-1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
-1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
+1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#setWidth-int-)
+1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#setHeight-int-)
+1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#setX-int-)
+1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#setY-int-)
 
 The following example explains the usage of the above properties. It loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart and save the workbook.
 
@@ -136,7 +136,7 @@ There is a time where you might need to manipulate or modify the charts in your 
 
 ### **Manipulating Designer Charts in the Template Files**
 
-To manipulate designer charts in a template file, use all chart related API calls. For example, use [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) property to get the existing charts collection in the template file.
+To manipulate designer charts in a template file, use all chart related API calls. For example, use [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getCharts--) property to get the existing charts collection in the template file.
 
 #### **Creating a Chart**
 

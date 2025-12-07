@@ -13,9 +13,9 @@ Microsoft Excel 2013 allows users to wrap or unwrap text inside a chart's data l
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) method. Set to **True** or **False** to enable or disable text wrapping on data labels respectively.
+Aspose.Cells provides the [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setTextWrapped-boolean-) method. Set to **True** or **False** to enable or disable text wrapping on data labels respectively.
 
-Similarly, use the [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) method to find out if a data label is already wrapped.
+Similarly, use the [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#isTextWrapped--) method to find out if a data label is already wrapped.
 
 This screenshot shows a sample Microsoft Excel file containing a chart in which the text of the data labels are wrapped. As you can see, you can check or clear the **Wrap text in shape** option in the ALIGNMENT section of the Format Datalabels panel in Microsoft Excel 2013.
 
@@ -23,7 +23,7 @@ This screenshot shows a sample Microsoft Excel file containing a chart in which 
 
 ![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
-The sample code that follows loads the sample Microsoft Excel file using Aspose.Cells and disables data label text wrapping using the [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) method. When the code is executed, the chart looks like this. The previously wrapped text is now unwrapped.
+The sample code that follows loads the sample Microsoft Excel file using Aspose.Cells and disables data label text wrapping using the [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setTextWrapped-boolean-) method. When the code is executed, the chart looks like this. The previously wrapped text is now unwrapped.
 
 **Showing data labels on one line only**
 

@@ -9,16 +9,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) collection which returns the [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). To get a specific [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable), use the [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20-int-) property and pass the index of the QueryTable. The [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) class has the following two properties for adjusting the QueryTable.
+Aspose.Cells provides [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getQueryTables--) collection which returns the [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). To get a specific [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable), use the [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#get-int-) property and pass the index of the QueryTable. The [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) class has the following two properties for adjusting the QueryTable.
 
-- [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
-- [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
+- [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#getAdjustColumnWidth--)
+- [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#getPreserveFormatting--)
 
 These are both boolean values. You can view them in Microsoft Excel via Data > Connections > Properties.
 
 {{% /alert %}} 
 ## **Reading and Writing Query Table of Worksheet**
-The following sample code reads the first [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) of the first worksheet and then prints both of the [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) properties. Then it sets the [QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) to **true**.
+The following sample code reads the first [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) of the first worksheet and then prints both of the [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) properties. Then it sets the [QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#setPreserveFormatting-boolean-) to **true**.
 
 The following screenshot shows the [source excel file](5472578.xlsx) used in the code and its properties showing both of the [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) values.
 

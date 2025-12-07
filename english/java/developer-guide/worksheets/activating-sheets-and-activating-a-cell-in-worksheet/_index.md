@@ -18,9 +18,9 @@ Sometimes, you need a specific worksheet to be active and displayed when a user 
 
 ## **Activating Sheets and Activating a Cell**
 
-Aspose.Cells provides specific API calls for activating a sheet and a cell. For Example, the [**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex) property is useful for setting the active sheet in a workbook. Similarly, the [**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell) property can be used to set and get an active cell in the worksheet.
+Aspose.Cells provides specific API calls for activating a sheet and a cell. For Example, the [**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#setActiveSheetIndex-int-) property is useful for setting the active sheet in a workbook. Similarly, the [**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#setActiveCell-java.lang.String-) property can be used to set and get an active cell in the worksheet.
 
-To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow) and [**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn) properties.
+To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getFirstVisibleRow--) and [**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getFirstVisibleColumn--) properties.
 
 The following example shows how to activate a worksheet and make an active cell in it. The following output is generated when executing the code. The scrollbars are scrolled to make the 2nd row and 2nd column as their first visible row and column.
 

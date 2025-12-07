@@ -23,9 +23,9 @@ This article describes that how to add horizontal or vertical page breaks into w
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class which provides a wide range of properties and methods for managing worksheets. To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks) properties.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class which provides a wide range of properties and methods for managing worksheets. To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getHorizontalPageBreaks--) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getVerticalPageBreaks--) properties.
 
-The [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks) properties are in fact collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks. How these methods are used is discussed below.
+The [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getHorizontalPageBreaks--) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#getVerticalPageBreaks--) properties are in fact collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks. How these methods are used is discussed below.
 
 ## **Adding Page Breaks**
 
@@ -53,7 +53,7 @@ To remove a specific page break in the worksheet, call the [**HorizontalPageBrea
 
 {{% alert color="primary" %}}
 
-**Important to know**: When you set the fit to page properties (that is [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) and [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide-) in the page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they still exist in the file.
+**Important to know**: When you set the fit to page properties (that is [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFitToPagesTall-int-) and [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFitToPagesWide-int-) in the page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they still exist in the file.
 
 {{% /alert %}}
 {{< app/cells/assistant language="java" >}}

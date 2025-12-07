@@ -13,7 +13,7 @@ You can convert Smart Art Shape into Group Shape using the [**Shape.getResultOf
 
 ## **Convert the Smart Art to Group Shape**
 
-The following sample code loads the [sample Excel file](55541806.xlsx) containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the [Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup) property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541806.xlsx) containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the [Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#isGroup--) property. Please see the console output of the sample code given below.
 
 ![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 

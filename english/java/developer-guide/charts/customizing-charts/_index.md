@@ -131,7 +131,7 @@ It is possible to create many different types of charts with Aspose.Cells. All s
 |PyramidColumn3D|Represents 3D Pyramid Column Chart|
 To create a chart using Aspose.Cells:
 
-1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) object's [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) method.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) object's [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setValue-java.lang.Object-) method.
    This will be used as the data source for the chart.
 1. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection's [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add-int-int-int-int-int-) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object.
 1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) enumeration.

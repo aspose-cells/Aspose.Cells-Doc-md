@@ -56,8 +56,8 @@ The following example shows how to access a specified range by its name.
 #### **Identify Cells in a Named Range**
 Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells.i.e., A1:C4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following methods to identify the cells in the range:
 
-- [getFirstRow](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstRow) returns the index of the first row in the named range.
-- [getFirstColumn](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstColumn) returns the index of the first column in the named range.
+- [getFirstRow](https://reference.aspose.com/cells/java/com.aspose.cells/range#getFirstRow--) returns the index of the first row in the named range.
+- [getFirstColumn](https://reference.aspose.com/cells/java/com.aspose.cells/range#getFirstColumn--) returns the index of the first column in the named range.
 
 The following example shows how to input some values into the cells of a specified range.
 
@@ -65,8 +65,8 @@ The following example shows how to input some values into the cells of a specifi
 #### **Input Data into the Cells in the Named Range**
 Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells i.e., H1:J4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://reference.aspose.com/cells/java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following properties to identify the cells in the range:
 
-- [getFirstRow](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstRow) returns the index of the first row in the named range.
-- [getFirstColumn](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstColumn) returns the index of the first column in the named range.
+- [getFirstRow](https://reference.aspose.com/cells/java/com.aspose.cells/range#getFirstRow--) returns the index of the first row in the named range.
+- [getFirstColumn](https://reference.aspose.com/cells/java/com.aspose.cells/range#getFirstColumn--) returns the index of the first column in the named range.
 
 The following example shows how to input some values into the cells of a specified range.
 

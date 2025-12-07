@@ -15,13 +15,13 @@ In [Accessing Cells of a Worksheet](/cells/java/accessing-cells-of-a-worksheet/)
 ## **Adding Data to Cells**
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. Each item in the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection represents an object of the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
-Aspose.Cells allows developers to add data to cells in worksheets by calling the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) property. By using the [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) property, it is possible to add Boolean, string, double, integer or date/time, etc. values to the cell.
+Aspose.Cells allows developers to add data to cells in worksheets by calling the [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setValue-java.lang.Object-) property. By using the [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setValue-java.lang.Object-) property, it is possible to add Boolean, string, double, integer or date/time, etc. values to the cell.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingDataToCells-AddingDataToCells.java" >}}
 ### **Improving Efficiency**
 {{% alert color="primary" %}} 
 
-If you use the [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) property to add a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
+If you use the [setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setValue-java.lang.Object-) property to add a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
 
 {{% /alert %}} 
 

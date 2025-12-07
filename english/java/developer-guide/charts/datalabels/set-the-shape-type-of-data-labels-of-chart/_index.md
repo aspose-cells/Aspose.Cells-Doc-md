@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can change the shape type of data labels of the chart using the [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType) property. It takes the value of [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) enumeration and changes the shape type of data labels accordingly. Some of its values are
+You can change the shape type of data labels of the chart using the [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#setShapeType-int-) property. It takes the value of [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) enumeration and changes the shape type of data labels accordingly. Some of its values are
 
 {{< highlight java >}}
 

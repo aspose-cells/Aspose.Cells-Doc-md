@@ -25,7 +25,7 @@ All of these alignment settings are fully supported by Aspose.Cells and are disc
 
 ## **Alignment settings in Aspose.Cells**
 
-Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) and [**SetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) methods for the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) class provides useful properties for configuring alignment settings.
+Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle--) and [**SetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle-com.aspose.cells.Style-) methods for the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) class provides useful properties for configuring alignment settings.
 
 Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) enumeration. The pre-defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) enumeration are:
 

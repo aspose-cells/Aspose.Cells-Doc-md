@@ -25,7 +25,7 @@ It is possible to set the height of a single row by calling the [Cells](https://
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightOfRow-SettingHeightOfRow.java" >}}
 ### **Setting the Height of All Rows**
-To set the same row height for all rows in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#StandardHeight) method.
+To set the same row height for all rows in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setStandardHeight-double-) method.
 
 
 
@@ -41,7 +41,7 @@ Set the width of a column by calling the [Cells](https://reference.aspose.com/ce
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfColumn-SettingWidthOfColumn.java" >}}
 ### **Setting the Width of All Columns**
-To set the same column width for all columns in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#StandardWidth) method.
+To set the same column width for all columns in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setStandardWidth-double-) method.
 
 
 

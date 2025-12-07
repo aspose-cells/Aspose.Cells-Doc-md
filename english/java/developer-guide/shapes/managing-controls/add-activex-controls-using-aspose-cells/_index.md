@@ -24,7 +24,7 @@ You can add ActiveX controls with Aspose.Cells using the [ShapeCollection.addAct
 - [TOGGLE_BUTTON](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#TOGGLE-BUTTON)
 - [UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#UNKNOWN)
 
-Once, you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl) property and then set its various properties.
+Once, you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getActiveXControl--) property and then set its various properties.
 
 {{% /alert %}} 
 ## **Add Toggle Button ActiveX Control using Aspose.Cells**

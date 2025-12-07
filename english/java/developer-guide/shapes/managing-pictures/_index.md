@@ -31,7 +31,7 @@ Pictures can be positioned using Aspose.Cells as follows:
 
 ### **Absolute Positioning**
 
-Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) and [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) methods of the [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) object.
+Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#setUpperDeltaX-int-) and [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#setUpperDeltaY-int-) methods of the [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
 

@@ -29,7 +29,7 @@ Chart data is that data that we use as a data source to build our charts. We can
 
 ### **Category Data**
 
-Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) by using its [**setCategoryData**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#CategoryData) method.
+Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) by using its [**setCategoryData**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#setCategoryData-java.lang.String-) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingCategoryData-SettingCategoryData.java" >}}
 

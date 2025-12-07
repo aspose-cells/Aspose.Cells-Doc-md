@@ -41,13 +41,13 @@ Microsoft Excel also allows to configure group settings for displaying:
 
 It is possible to configure these group settings using the Worksheet class' Outline property.
 ### **Summary Rows Below Detail**
-Developers can control displaying summary rows below detail by using the [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) class' [SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) method.
+Developers can control displaying summary rows below detail by using the [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) class' [SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#setSummaryRowBelow-boolean-) method.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
 ### **Summary Columns to Right of Detail**
-It is possible to control whether summary columns are displayed to the right of the details with the [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) class' [SummaryColumnRight](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight) method.
+It is possible to control whether summary columns are displayed to the right of the details with the [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) class' [SummaryColumnRight](https://reference.aspose.com/cells/java/com.aspose.cells/outline#setSummaryColumnRight-boolean-) method.
 
 
 

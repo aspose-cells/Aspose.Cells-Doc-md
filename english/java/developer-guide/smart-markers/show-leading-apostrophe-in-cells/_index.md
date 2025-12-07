@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Show leading apostrophe in cells**
 
-In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property. This property indicates whether to set the [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix) property when entering string value starting with a single quote to the cell. Setting the [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property to **false** will display the leading apostrophe in the output excel file.
+In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setQuotePrefixToStyle-boolean-) property. This property indicates whether to set the [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#setQuotePrefix-boolean-) property when entering string value starting with a single quote to the cell. Setting the [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#setQuotePrefixToStyle-boolean-) property to **false** will display the leading apostrophe in the output excel file.
 
 The following screenshot shows the output excel file with the visible apostrophe.
 

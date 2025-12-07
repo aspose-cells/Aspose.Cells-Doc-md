@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-You can access the external data connection of any type using the [Workbook.DataConnections](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataConnections) collection. One type of such a data connection is WebQuery. This article will show you how to work with the WebQuery data connection. You can create WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.
+You can access the external data connection of any type using the [Workbook.DataConnections](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getDataConnections--) collection. One type of such a data connection is WebQuery. This article will show you how to work with the WebQuery data connection. You can create WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.
 
 {{% /alert %}} 
 ## **Working with External Data Connection of type WebQuery**

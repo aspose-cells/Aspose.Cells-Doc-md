@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) property which returns the reference of the worksheet that contains the chart.
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getWorksheet--) property which returns the reference of the worksheet that contains the chart.
 
 {{% /alert %}}
 
 ## Example
 
-The following example shows how to use the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) property.
+The following example shows how to use the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getWorksheet--) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#getWorksheet--) property.
 
 ### Java code to access the worksheet of the chart
 

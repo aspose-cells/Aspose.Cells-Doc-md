@@ -17,7 +17,7 @@ A waterfall chart is a special type of chart that is normally used to demonstrat
 
 ## Creating a Waterfall Chart
 
-Aspose.Cells APIs allows creating a waterfall chart with the help of line chart. The API also allows to customize the chart appearance to give it the shape of the waterfall by setting the most important properties to shape the chart, that is; [**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars) properties.
+Aspose.Cells APIs allows creating a waterfall chart with the help of line chart. The API also allows to customize the chart appearance to give it the shape of the waterfall by setting the most important properties to shape the chart, that is; [**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#getUpBars--) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#getDownBars--) properties.
 
 Below provided code snippet demonstrates the usage of Aspose.Cells for Java API to create a waterfall chart from scratch.
 

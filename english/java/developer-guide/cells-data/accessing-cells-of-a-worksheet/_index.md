@@ -45,7 +45,7 @@ This approach works in the same way as that of the first approach.
 ## **Accessing Maximum Display Range of Worksheet**
 Aspose.Cells allows developers to access a worksheet's maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select, or display the entire contents of a worksheet in an image.
 
-You can access a worksheet's maximum display range using [Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
+You can access a worksheet's maximum display range using [Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#getMaxDisplayRange--).
 
 In the following figure, the selected worksheet' maximum display range is A1:G15.
 
@@ -53,7 +53,7 @@ In the following figure, the selected worksheet' maximum display range is A1:G15
 
 ![todo:image_alt_text](accessing-cells-of-a-worksheet_1.png)
 
-The following sample code illustrates how to access the [MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange) property. The code generates the following output.
+The following sample code illustrates how to access the [MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#getMaxDisplayRange--) property. The code generates the following output.
 
 {{< highlight java >}}
 
