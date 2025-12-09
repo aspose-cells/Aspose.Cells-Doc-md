@@ -10,6 +10,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 25.12
+* Adds API for importing LaTeX format strings in Aspose equation objects
+* Support public API to get data values from chart
+* Support to convert cell area to pivot area setting list
+* Support to obtain full external URL/link with path
+* Remove the special exception of SkipCalculation() for user's custom engine
+* Remove bookmark when exporting a named range to html
+
 ## Aspose.Cells for .NET 25.11
 * Support to copy pivot tables when copying a range
 * Support to export editable textboxes and shapes to pptx
