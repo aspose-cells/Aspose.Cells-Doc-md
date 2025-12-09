@@ -13,6 +13,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 ## Aspose.Cells for .NET 25.12
 * Adds API for importing LaTeX format strings in Aspose equation objects
 * Support public API to get data values from chart
+* Support to export charts to Numbers
 * Support to convert cell area to pivot area setting list
 * Support to obtain full external URL/link with path
 * Remove the special exception of SkipCalculation() for user's custom engine
