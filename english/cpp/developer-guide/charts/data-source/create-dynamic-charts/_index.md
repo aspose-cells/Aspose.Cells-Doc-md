@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Dynamic (or interactive) charts have the ability to change when you change the scope of data. In other words, the dynamic charts can automatically reflect changes when the data source is changed. In order to trigger the change in the data source, one can use the filtering option of Excel Tables or use a control such as ComboBox or Dropdown list.
+Dynamic (or interactive) charts have the ability to change when you change the scope of data. In other words, dynamic charts can automatically reflect changes when the data source is changed. In order to trigger the change in the data source, one can use the filtering option of Excel Tables or use a control such as a ComboBox or a dropdown list.
 
 This article demonstrates the usage of Aspose.Cells for C++ APIs to create dynamic charts using both of the aforementioned approaches.
 
@@ -22,20 +22,20 @@ This article demonstrates the usage of Aspose.Cells for C++ APIs to create dynam
 
 {{% alert color="primary" %}}
 
-Excel tables are referred to as ListObjects in Aspose.Cells' perspective, therefore, we will use the term "ListObject" instead of "Table" for clarity. Please read in detail on how to [create ListObjects](/cells/cpp/create-and-format-table/) with Aspose.Cells for C++ API.
+Excel tables are referred to as ListObjects from Aspose.Cells's perspective; therefore, we will use the term "ListObject" instead of "Table" for clarity. Please read in detail about how to [create ListObjects](/cells/cpp/create-and-format-table/) with the Aspose.Cells for C++ API.
 
 {{% /alert %}}
 
-ListObjects provides the in-built functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop-down lists which are automatically added to the header row of the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/). Due to these features (sorting & filtering), the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/).
+ListObjects provide the in‑built functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop‑down lists which are automatically added to the header row of the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/). Due to these features (sorting & filtering), the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/).
 
 In order to keep the demonstration simple to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) from scratch and move forward step by step as outlined below.
 
 1. Create an empty [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
-1. Access the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) of the first [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) in the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
-1. Insert some data to the cells.
-1. Create [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) based on the inserted data.
-1. Create [**Chart**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/) based on the data range of [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/).
-1. Save the result on the disc.
+2. Access the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) of the first [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) in the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
+3. Insert some data to the cells.
+4. Create a [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) based on the inserted data.
+5. Create a [**Chart**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/) based on the data range of the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/).
+6. Save the result on the disk.
 
 ```cpp
 #include <iostream>
@@ -82,10 +82,10 @@ int main()
     cells.Get(u"B5").PutValue(u"Grapes");
     cells.Get(u"B6").PutValue(u"Carrot");
     cells.Get(u"B7").PutValue(u"Onion");
-    cells.Get(u"B8").PutValue(u"Cabage");
-    cells.Get(u"B9").PutValue(u"Potatoe");
+    cells.Get(u"B8").PutValue(u"Cabbage");
+    cells.Get(u"B9").PutValue(u"Potato");
     cells.Get(u"B10").PutValue(u"Coke");
-    cells.Get(u"B11").PutValue(u"Coladas");
+    cells.Get(u"B11").PutValue(u"Colada");
     cells.Get(u"B12").PutValue(u"Fizz");
 
     cells.Get(u"C1").PutValue(u"Cost");
@@ -114,7 +114,7 @@ int main()
     cells.Get(u"D11").PutValue(2.4);
     cells.Get(u"D12").PutValue(3.3);
 
-    // Create ListObject, Get the List objects collection in the first worksheet
+    // Create ListObject, get the ListObjects collection in the first worksheet
     ListObjectCollection listObjects = sheet.GetListObjects();
 
     // Add a List based on the data source range with headers on
@@ -139,18 +139,18 @@ int main()
 
 ## **Using Dynamic Formulas**
 
-In case you do not wish to use the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) as a data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of ComboBox. When selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the VLOOKUP function, the whole range can be refreshed upon user interaction, therefore it can be used as a source to the dynamic chart.
+In case you do not wish to use the [**ListObject**](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) as a data source for the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as a ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of the ComboBox. When the selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the VLOOKUP function, the whole range can be refreshed upon user interaction; therefore, it can be used as a source for the dynamic chart.
 
 In order to keep the demonstration simple to understand, we will create the Workbook from scratch and move forward step by step as outlined below.
 
 1. Create an empty [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
-1. Access the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) of the first [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) in the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
-1. Insert some data to the cells by creating a Named Range. This data will serve as a series to the dynamic chart.
-1. Create [**ComboBox**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/combobox/) based on the Named Range created in the previous step.
-1. Insert some more data to the cells that will serve as a source to the VLOOKUP function.
-1. Insert VLOOKUP function (with appropriate parameters) to a range of cells. This will range will serve as a source to the dynamic chart.
-1. Create [**Chart**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/) based on the range created in the previous step.
-1. Save the result on the disc.
+2. Access the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) of the first [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) in the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
+3. Insert some data to the cells by creating a Named Range. This data will serve as a series for the dynamic chart.
+4. Create a [**ComboBox**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/combobox/) based on the Named Range created in the previous step.
+5. Insert some more data to the cells that will serve as a source for the VLOOKUP function.
+6. Insert VLOOKUP functions (with appropriate parameters) to a range of cells. This range will serve as a source for the dynamic chart.
+7. Create a [**Chart**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/) based on the range created in the previous step.
+8. Save the result on the disk.
 
 ```cpp
 #include <iostream>
@@ -252,7 +252,7 @@ int main()
     worksheet.GetCells().Get(u"I23").PutValue(200);
     worksheet.GetCells().Get(u"I24").PutValue(100);
 
-    // Dynamically load data on selection of Dropdown value
+    // Dynamically load data on selection of dropdown value
     worksheet.GetCells().Get(u"D16").SetFormula(u"=IFERROR(VLOOKUP($C$16,$C$21:$I$24,2,FALSE),0)");
     worksheet.GetCells().Get(u"E16").SetFormula(u"=IFERROR(VLOOKUP($C$16,$C$21:$I$24,3,FALSE),0)");
     worksheet.GetCells().Get(u"F16").SetFormula(u"=IFERROR(VLOOKUP($C$16,$C$21:$I$24,4,FALSE),0)");
@@ -267,7 +267,7 @@ int main()
     chart.GetNSeries().Get(0).SetName(u"=C16");
     chart.GetNSeries().SetCategoryData(u"=$D$15:$I$15");
 
-    // Save result on disc
+    // Save result on disk
     workbook.Save(outDir + u"output_out.xlsx");
 
     Aspose::Cells::Cleanup();

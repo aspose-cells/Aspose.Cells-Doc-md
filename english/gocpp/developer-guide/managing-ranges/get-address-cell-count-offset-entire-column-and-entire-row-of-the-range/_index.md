@@ -35,6 +35,7 @@ The following sample code explains the usage of the methods and properties as di
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.go" >}}
+
 ## **Console Output**
 {{< highlight java >}}
 
@@ -44,7 +45,7 @@ Range Address: A1:B3
 
 Cell Count: 6
 
-\----------------------
+----------------------
 
 Creating Range A1
 
@@ -54,6 +55,6 @@ Entire Column: A:A
 
 Entire Row: 1:1
 
-\----------------------
+----------------------
 
 {{< /highlight >}}

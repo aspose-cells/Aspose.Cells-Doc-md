@@ -27,7 +27,7 @@ In the screenshot below, you can see that the Book1.xls file contains three work
 
 ![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-The Book1.xls file is opened by using the Workbook class and the gridlines on the first worksheet are hidden. The modified file is saved as output.xls.
+The Book1.xls file is opened using the Workbook class, and the gridlines on the first worksheet are hidden. The modified file is saved as output.xls.
 
 **Output.xls: worksheet after modification** 
 
@@ -51,7 +51,7 @@ Workbook workbook = new Workbook(fstream);
 
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Hiding the gridlines of the first worksheet of the Excel file
+//Hiding the gridlines on the first worksheet of the Excel file
 
 worksheet.IsGridlinesVisible = false;
 

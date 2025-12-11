@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password-protected, however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password protected or not. This article demonstrates the usage of Aspose.Cells for Node.js via C++ API to achieve the same.
+It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password‑protected; however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect whether a given worksheet is password protected. This article demonstrates the usage of Aspose.Cells for Node.js via C++ API to achieve the same.
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ has exposed the [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword--) property to detect if a worksheet is password protected or not. Boolean type [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/nodejs-cpp/protection/#isProtectedWithPassword--) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) is password-protected and **false** if not.
+Aspose.Cells for Node.js via C++ exposes the **Protection.isProtectedWithPassword()** property to detect if a worksheet is password protected. The Boolean property returns **true** if the worksheet is password‑protected and **false** otherwise.
 
 ```javascript
 const path = require("path");
@@ -25,17 +25,18 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
+
 // Create an instance of Workbook and load a spreadsheet
 const book = new AsposeCells.Workbook(filePath);
 
-// Access the protected Worksheet
+// Access the protected worksheet
 const sheet = book.getWorksheets().get(0);
 
-// Check if Worksheet is password protected
+// Check if worksheet is password protected
 if (sheet.getProtection().isProtectedWithPassword()) {
-console.log("Worksheet is password protected");
+    console.log("Worksheet is password protected");
 } else {
-console.log("Worksheet is not password protected");
+    console.log("Worksheet is not password protected");
 }
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,5 +1,5 @@
 ---
-title: Working With Rows And Columns in Ruby
+title: Working with Rows and Columns in Ruby
 type: docs
 weight: 40
 url: /java/working-with-rows-and-columns-in-ruby/

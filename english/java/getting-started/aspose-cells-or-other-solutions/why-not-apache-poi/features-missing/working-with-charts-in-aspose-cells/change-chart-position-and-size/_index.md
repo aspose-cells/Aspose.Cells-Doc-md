@@ -8,12 +8,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Change Chart Position and Size**
-To change the chart's position (X, Y coordinates) and size (height, width), use these properties using Aspose.Cells:
+To change the chart's position (X, Y coordinates) and size (height, width), use these Aspose.Cells properties:
 
 1. Chart.getChartObject().get/setWidth()
-1. Chart.getChartObject().get/setHeight()
-1. Chart.getChartObject().get/setX()
-1. Chart.getChartObject().get/setY()
+2. Chart.getChartObject().get/setHeight()
+3. Chart.getChartObject().get/setX()
+4. Chart.getChartObject().get/setY()
 
 **Java**
 
@@ -23,17 +23,17 @@ To change the chart's position (X, Y coordinates) and size (height, width), use 
 
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Load the chart from source worksheet
+// Load the chart from source worksheet
 
 Chart chart = worksheet.getCharts().get(0);
 
-//Resize the chart
+// Resize the chart
 
 chart.getChartObject().setWidth(400);
 
 chart.getChartObject().setHeight(300);
 
-//Reposition the chart
+// Reposition the chart
 
 chart.getChartObject().setX(250);
 

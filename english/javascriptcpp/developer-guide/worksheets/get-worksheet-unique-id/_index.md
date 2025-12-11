@@ -4,13 +4,13 @@ linktitle: Get worksheet unique id
 type: docs
 weight: 190
 url: /javascript-cpp/get-worksheet-unique-id/
-description: This article shows how to get Excel worksheet unique id using JavaScript library and C++ API programmatically.
+description: This article shows how to get an Excel worksheet's unique ID using the JavaScript library and C++ API programmatically.
 keywords: unique id excel worksheet JavaScript via C++, unique id worksheet JavaScript via C++
 ---
 
 ## **Get worksheet unique id**
 
-Aspose.Cells for JavaScript via C++ provides the ability to get the unique id of a worksheet by using the [**Worksheet.uniqueId**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#uniqueId--) property. The following code snippet demonstrates the use of the [**Worksheet.uniqueId**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#uniqueId--) property to print the unique id of a worksheet. The following code snippet uses this [sample excel file](105480213.xlsx).
+Aspose.Cells for JavaScript via C++ provides the ability to get the unique ID of a worksheet by using the [**Worksheet.uniqueId**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#uniqueId--) property. The following code snippet demonstrates the use of the [**Worksheet.uniqueId**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#uniqueId--) property to print the unique ID of a worksheet. The following code snippet uses this [sample Excel file](105480213.xlsx).
 
 ### Source Code
 
@@ -59,7 +59,7 @@ Aspose.Cells for JavaScript via C++ provides the ability to get the unique id of
             // Accessing the first worksheet in the Excel file
             const worksheet = workbook.worksheets.get(0);
             
-            // Get Unique Id
+            // Get Unique ID
             const uniqueId = worksheet.uniqueId;
             console.log("Unique Id: " + uniqueId);
 

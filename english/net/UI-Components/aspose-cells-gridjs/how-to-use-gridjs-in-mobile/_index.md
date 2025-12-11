@@ -11,19 +11,19 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## Use GridJs in mobile device
+## Use GridJs on a mobile device
 
 You can use GridJs smoothly on the mobile device. 
 
-GridJs can adapts the mobile screen.
+GridJs can adapt to the mobile screen.
 
 Run the [demo of GridJs ](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
 
 The default port of the demo project is 24262. 
 
-You need to access the page through IP way on the mobile terminal http://localhost:24262/GridJs2/List . 
+You need to access the page via IP on the mobile terminal http://localhost:24262/GridJs2/List. 
 
-You can use a small tool like: iisexpress proxy.
+You can use a small tool such as iisexpress-proxy.
 
 Install with the following command:
 
@@ -35,10 +35,10 @@ Run the command to complete the port mapping:
 
 ![todo:iisexpress command](iisproxy_port_map.png)
 
-Then  we can open the demo web page in the mobile browser.
+Then we can open the demo web page in the mobile browser.
 
-Navigate the page http://yourip:82/GridJs2/List  and select a file to open.
+Navigate to the page http://yourip:82/GridJs2/List and select a file to open.
 
 ![todo:the screen navagation on mobile](gridjs_edit_on_mobile.png)
 
-Then we can do edit operations as in PC device.
+Then you can perform edit operations as on a PC device.

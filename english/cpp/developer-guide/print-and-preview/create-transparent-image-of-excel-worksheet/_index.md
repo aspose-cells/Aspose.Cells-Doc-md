@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes, you need to generate the image of your worksheet as a transparent image. You want to apply transparency to all cells which have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.GetTransparent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettransparent/) property to apply transparency to the worksheet image. When this property is **false**, then cells with no fill colors are drawn with white color and when it is **true**, cells with no fill colors are drawn transparent. 
+Sometimes, you need to generate an image of your worksheet as a transparent image. You want to apply transparency to all cells that have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.GetTransparent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettransparent/) property to apply transparency to the worksheet image. When this property is **false**, cells with no fill colors are drawn in white, and when it is **true**, cells with no fill colors are drawn as transparent. 
 
 {{% /alert %}} 
 
-In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.
+In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn in white.
 
 |**Output without transparency: the cell background is white**| 
 | :- | 
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)| 
 
-While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
+While in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
 
 |**Output with transparency enabled**| 
 | :- | 
@@ -40,14 +40,14 @@ int main()
 
     // Source directory path
     U16String sourceDir = u"..\\Data\\01_SourceDirectory\\";
-    
+
     // Output directory path
     U16String outputDir = u"..\\Data\\02_OutputDirectory\\";
 
     // Create workbook object from source file
     Workbook workbook(sourceDir + u"sampleCreateTransparentImage.xlsx");
 
-    // Apply different image or print options
+    // Apply image or print options
     ImageOrPrintOptions imgOption;
     imgOption.SetImageType(static_cast<ImageType>(5)); // Png
     imgOption.SetHorizontalResolution(200);

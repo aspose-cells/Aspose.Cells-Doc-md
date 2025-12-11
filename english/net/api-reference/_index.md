@@ -3,8 +3,8 @@ title: API Reference
 type: docs
 weight: 40
 url: /net/api-reference/
-description: Learn an explanation and examples of Aspose.Cells for .NET classes and methods to generate, convert, modify, render, and print excel files without using Microsoft Excel.
-keywords: Aspose.Cells for .NET API Reference, C# generate excel files apis, C# convert excel files apis, C# fix and repair excel files apis, C# render excel files apis, C# print excel files apis
+description: Learn an explanation and examples of Aspose.Cells for .NET classes and methods to generate, convert, modify, render, and print Excel files without using Microsoft Excel.
+keywords: Aspose.Cells for .NET API Reference, C# generate Excel files APIs, C# convert Excel files APIs, C# fix and repair Excel files APIs, C# render Excel files APIs, C# print Excel files APIs
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

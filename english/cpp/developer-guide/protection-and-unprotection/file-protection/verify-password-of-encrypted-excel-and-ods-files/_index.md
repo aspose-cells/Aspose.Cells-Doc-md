@@ -4,19 +4,19 @@ linktitle: Verify Password of Encrypted Files
 type: docs
 weight: 10
 url: /cpp/verify-password-of-encrypted-excel-and-ods-files/
-description: Verify the password of encrypted Excel (xlsx, xlsb, xls, xlsm) and Open office (ODS) files using C++ codes.
+description: Verify the password of encrypted Excel (xlsx, xlsb, xls, xlsm) and OpenOffice (ODS) files using C++ code.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
-If Excel (xlsx, xlsb, xls, xlsm) and Open office (ODS) files are locked with a password, Aspose supports simple password verification without parsing specific data of the files.
+If Excel (xlsx, xlsb, xls, xlsm) and OpenOffice (ODS) files are locked with a password, Aspose supports simple password verification without parsing specific data in the files.
 {{% /alert %}} 
 
-## **Verify the password of the encrypted file**
+## **Verify the password of an encrypted file**
 
-To verify the password of the encrypted file, Aspose.Cells for C++ provides the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/fileformatutil/verifypassword/) method. This method accepts two parameters, the file stream and the password that needs to be verified.
-The following code snippet demonstrates the use of the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/fileformatutil/verifypassword/) method to verify whether the provided password is valid or not.
+To verify the password of the encrypted file, Aspose.Cells for C++ provides the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/fileformatutil/verifypassword/) method. This method accepts two parameters, the file stream and the password that needs to be verified.  
+The following code snippet demonstrates the use of the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/fileformatutil/verifypassword/) method to verify whether the provided password is valid.
 
 ```c++
 #include <iostream>

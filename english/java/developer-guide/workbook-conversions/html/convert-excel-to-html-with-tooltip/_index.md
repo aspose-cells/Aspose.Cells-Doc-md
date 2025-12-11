@@ -15,7 +15,7 @@ The following image shows the tooltip in the generated HTML file.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-The following code sample loads the [source excel file](AddTooltipToHtmlSample.xlsx) and generates the [output HTML file](AddTooltipToHtmlSample_out.zip) with the tooltip.
+The following code sample loads the **source Excel file** ([AddTooltipToHtmlSample.xlsx](AddTooltipToHtmlSample.xlsx)) and generates the **output HTML file** ([AddTooltipToHtmlSample_out.zip](AddTooltipToHtmlSample_out.zip)) with the tooltip.
 
 ## Sample Code
 

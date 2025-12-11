@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-By default, Aspose.Cells saves Excel into PDF with Standard size. However, you can also save it with Minimum size using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getoptimizationtype/) property. It accepts the following values:
+By default, Aspose.Cells saves Excel to PDF in standard size. However, you can also save it with minimum size using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getoptimizationtype/) property. It accepts the following values:
 
 - PdfOptimizationType::Standard
 - PdfOptimizationType::MinimumSize
@@ -19,7 +19,7 @@ By default, Aspose.Cells saves Excel into PDF with Standard size. However, you c
 {{% /alert %}} 
 
 ## **Save Excel into PDF with Standard or Minimum Size using Aspose.Cells**
-The following sample code shows how you can save Excel into PDF with Standard or Minimum size using [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getoptimizationtype/) property.
+The following sample code shows how you can save Excel to PDF with standard or minimum size using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getoptimizationtype/) property.
 
 ```c++
 #include <iostream>
@@ -37,13 +37,13 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"SampleBook.xlsx";
 
     // Path of output PDF file
     U16String outputFilePath = outDir + u"OptimizedOutput_out.pdf";
 
-    // Load excel file into workbook object
+    // Load Excel file into workbook object
     Workbook workbook(inputFilePath);
 
     // Create PDF save options

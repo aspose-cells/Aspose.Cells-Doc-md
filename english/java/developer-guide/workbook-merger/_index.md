@@ -4,7 +4,7 @@ linktitle: Workbook Merger
 type: docs
 weight: 50
 url: /java/combine-multiple-workbooks-into-a-single-workbook/
-description: Combine multiple workbooks into single workbooks by using Java code and Aspose.Cells for Java API.
+description: Combine multiple workbooks into a single workbook by using Java code and Aspose.Cells for Java API.
 keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a simple application to combine workbooks with a few, simple lines of code using Aspose.Cells.
+Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a simple application to combine workbooks with a few simple lines of code using Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Combining Workbooks**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells for Java. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) method to combine them and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells for Java. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine-com.aspose.cells.Workbook-) method to combine them, and saves the output workbook.
 
 ### **Source Workbooks**
 
@@ -67,7 +67,7 @@ You may find the [Combine Multiple Worksheets into a Single Worksheet](/cells/ja
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Merge Multiple Worksheets into a Single Worksheet](/cells/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/java/merge-files/)
 

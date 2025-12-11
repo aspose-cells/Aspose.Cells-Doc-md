@@ -13,14 +13,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-In this topic, we will show you how to set Japanese Region for a chart.
+In this topic, we will show you how to set the Japanese region for a chart.
 
 {{% /alert %}}
 
-## **Defines an inheritance class**
+## **Define a Derived Class**
 
-First step, you need to define a class `ChartJapaneseSettings` that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartglobalizationsettings/). 
-Then, by overriding the related functions, you can set the text of the chart elements in your own language.
+First, you need to define a class `ChartJapaneseSettings` that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartglobalizationsettings/).  
+Then, by overriding the related functions, you can set the text of the chart elements in your own language.  
+
 Code example:
 ```cpp
 #include <iostream>
@@ -28,10 +29,10 @@ Code example:
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Charts;
 
-class ChartJapaneseSetttings : public ChartGlobalizationSettings
+class ChartJapaneseSettings : public ChartGlobalizationSettings
 {
 public:
-    ChartJapaneseSetttings() : ChartGlobalizationSettings() {}
+    ChartJapaneseSettings() : ChartGlobalizationSettings() {}
 
     U16String GetAxisTitleName() override
     {
@@ -79,7 +80,7 @@ public:
 
     U16String GetLegendIncreaseName() override
     {
-        return U16String(u"\u305E\u3046\u304B");
+        return U16String(u"\u305E\u3046\u304b");
     }
 
     U16String GetLegendTotalName() override
@@ -99,33 +100,33 @@ public:
 };
 ```
 
-## **Config Japanese Setting For Chart**
+## **Configure Japanese Settings for Chart**
 
-In this step, you will use the class `ChartJapaneseSettings` you defined in the previous step.
+In this step, you will use the class `ChartJapaneseSettings` you defined in the previous step.  
+
 Code example:
-
 ```cpp
-    Workbook wb("Japanese.xls");
-    wb.GetSettings().GetGlobalizationSettings().SetChartSettings(new ChartJapaneseSettings());
-    Chart chart0 = wb.GetWorksheets().Get(0).GetCharts().Get(0);
-    chart0.ToImage("Output.png");
+Workbook wb("Japanese.xls");
+wb.GetSettings().GetGlobalizationSettings().SetChartSettings(new ChartJapaneseSettings());
+Chart chart0 = wb.GetWorksheets().Get(0).GetCharts().Get(0);
+chart0.ToImage("Output.png");
 ```
 
-Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.
+Then you can see the effect in the output image; the elements in the chart will be rendered according to your settings.
 
 ## **Conclusion**
 
-In this example, if you do not set Japanese Region for a chart, the following chart elements may be rendered in the default language, such as English.
-After the above operation, we can get an output chart picture with Japanese Region.
+In this example, if you do not set the Japanese region for a chart, the following chart elements may be rendered in the default language, such as English.  
+After the above operation, you can obtain an output chart image with the Japanese region.
 
-|**Supported elements**|**Value in this example**|**default value in the English environment**|
+| **Supported Elements** | **Value in This Example** | **Default Value in the English Environment** |
 | :- | :- | :- |
-|Axis Title Name|軸タイトル|Axis Title|
-|Axis Unit Name|百,千...|Hundreds, Thousands...|
-|Chart Title Name|グラフ タイトル|Chart Title|
-|Legend Increase Name|ぞうか|Increase|
-|Legend Decrease Name|削減|Decrease|
-|Legend Total Name|すべての|Total|
-|Other Name|その他|Other|
-|Series Name|シリーズ|Series|
+| Axis Title Name | 軸タイトル | Axis Title |
+| Axis Unit Name | 百,千... | Hundreds, Thousands... |
+| Chart Title Name | グラフ タイトル | Chart Title |
+| Legend Increase Name | ぞうか | Increase |
+| Legend Decrease Name | 削減 | Decrease |
+| Legend Total Name | すべての | Total |
+| Other Name | その他 | Other |
+| Series Name | シリーズ | Series |
 {{< app/cells/assistant language="cpp" >}}

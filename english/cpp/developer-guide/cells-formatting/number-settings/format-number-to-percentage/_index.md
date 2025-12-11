@@ -4,7 +4,7 @@ linktitle: How to Format Number to Percentage
 type: docs
 weight: 10
 url: /cpp/how-to-format-number-to-percentage/
-description: This article will introduce how to Format Number to Percentage using Aspose.Cells for C++ API.
+description: This article will introduce how to format a number to percentage using Aspose.Cells for C++ API.
 keywords: Convert a number into a percentage format, Transform numerical values into percentages, Change numbers to be displayed as percentages, Formatting numbers as percentages, Adjusting numerical figures to percentage representation, Format Number to Percentage
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -68,11 +68,11 @@ For a quick format change without using the mouse:
 Remember, when you format a number as a percentage, Excel is essentially multiplying the cell value by 100. So, if you're entering data that you want to display as a percentage, you should enter it as a decimal (e.g., enter "0.1" for 10%).
 
 ## **How to Format Number to Percentage in Aspose.Cells for C++**
-Formatting numbers to percentages in Aspose.Cells for C++ is a straightforward process. Aspose.Cells is a powerful library that allows you to create, manipulate, and convert Excel files in C++ applications without needing Microsoft Excel installed on your system. Here's how you can format numbers to percentages using Aspose.Cells for C++:
+Formatting numbers to percentages in Aspose.Cells for C++ is a straightforward process. Aspose.Cells is a powerful library that allows you to create, manipulate, and convert Excel files in C++ applications without needing Microsoft Excel installed on your system. Here’s how you can format numbers to percentages using Aspose.Cells for C++:
 
 ### Step 1: Install Aspose.Cells for C++
 
-First, ensure you have Aspose.Cells for C++ installed in your project. If you haven't installed it yet, you can get it via NuGet. Run the following command in the NuGet Package Manager Console:
+First, ensure you have Aspose.Cells for C++ installed in your project. If you haven’t installed it yet, you can get it via NuGet. Run the following command in the NuGet Package Manager Console:
 
 ```powershell
 Install-Package Aspose.Cells.Cpp
@@ -84,11 +84,11 @@ You can either create a new workbook or open an existing one.
 
 ### Step 3: Access the Worksheet
 
-You need to access the worksheet where you want to format numbers to percentages. If you're working with a new workbook, you'll likely be working with the first worksheet.
+You need to access the worksheet where you want to format numbers to percentages. If you’re working with a new workbook, you’ll likely be working with the first worksheet.
 
 ### Step 4: Apply Percentage Formatting
 
-To format a cell or a range of cells to display numbers as percentages, you'll need to set the cell's or range's style number format to a percentage format. For a range of cells, you would loop through the range and apply the style to each cell individually.
+To format a cell or a range of cells to display numbers as percentages, you’ll need to set the cell’s or range’s style number format to a percentage format. For a range of cells, you would loop through the range and apply the style to each cell individually.
 
 ### Step 5: Save the Workbook
 
@@ -96,7 +96,8 @@ Finally, save the workbook to a file or stream.
 
 ### Sample Code
 
-Here's a code snippet demonstrating these steps:
+Here’s a code snippet demonstrating these steps:
+
 ```c++
 #include <iostream>
 #include "Aspose.Cells.h"

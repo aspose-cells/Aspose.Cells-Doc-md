@@ -9,7 +9,7 @@ description: Learn how to filter VBA projects while loading an Excel workbook us
 
 ## **Filter VBA Project while loading an Excel workbook in C++**
 
-Some .xlsm/.xslb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells will unconditionally load this (meta) data when opening such workbooks. You may require to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/go-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/go-cpp/loaddatafilteroptions).
+Some .xlsm/.xlsb files contain an extremely large amount of macros (or very, very long macros). Aspose.Cells will unconditionally load this (meta) data when opening such workbooks. You may need to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/go-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided via a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/go-cpp/loaddatafilteroptions).
 
 ## **Sample Code**
 

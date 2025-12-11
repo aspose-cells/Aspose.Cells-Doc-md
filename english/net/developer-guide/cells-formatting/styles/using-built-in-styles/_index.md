@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides a vast collection of re-usable styles to format a cell in spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
+Aspose.Cells provides a vast collection of reusable styles to format a cell in a spreadsheet document. We can use built‑in styles in our workbook and also create custom styles.
 
 {{% /alert %}}
 
 ## **How to use Built-in Styles**
 
-The method [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) make it convenient to use built-in styles. Here is a list of all possible built-in styles:
+The method [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) make it convenient to use built‑in styles. Here is a list of all possible built‑in styles:
 
 - TWENTY_PERCENT_ACCENT_1
 - TWENTY_PERCENT_ACCENT_2

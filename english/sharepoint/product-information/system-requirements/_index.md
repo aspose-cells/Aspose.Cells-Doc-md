@@ -17,13 +17,13 @@ To install Aspose.Cells for SharePoint you need a computer running one of the fo
 
 {{% alert color="primary" %}} 
 
-WE recommend that you installing Service Pack 2 or later for these products.
+We recommend that you install Service Pack 2 or later for these products.
 
 {{% /alert %}}
 ### **Client Requirements**
 You need a browser to access SharePoint sites. Aspose.Cells for SharePoint is tested with:
 
 - Microsoft Internet Explorer
-- Mozilla FireFox
+- Mozilla Firefox
 - Google Chrome
 - Safari

@@ -13,8 +13,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Sometimes, developers need to work with encrypted PDF files. For example:
 
-- Secure the documents with owner and user passwords so not just anyone can open it.
-- Set restrictions or permissions to the document after the document is opened. e.g. restrict whether the document content can be printed or extracted.
+- Secure the documents with owner and user passwords so **that** not just anyone can open them.
+- Set restrictions or permissions to the document after the document is opened, e.g., restrict whether the document content can be printed or extracted.
 
 This article explains how to pass in PDF security options when saving spreadsheets to PDF.
 
@@ -49,7 +49,7 @@ workbook.save(path.join(dataDir, "securepdf_test.out.pdf"), saveOption);
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering it to PDF. This ensures that formula dependent values are recalculated and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering it to PDF. This ensures that **formula‑dependent** values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

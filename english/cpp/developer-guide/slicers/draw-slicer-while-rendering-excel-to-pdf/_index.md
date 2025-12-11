@@ -10,9 +10,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Draw Slicer while rendering Excel to PDF**
-If you have an Excel file which has a slicer applied to it and you want to export the Excel to PDF with the slicer settings, Aspose.Cells now supports this by default. You simply export the Excel file with a slicer to PDF, and the generated PDF will show the slicer applied.
+If you have an Excel file that has a slicer applied to it and you want to export the Excel file to PDF with the slicer settings, Aspose.Cells now supports this by default. You simply export the Excel file with a slicer to PDF, and the generated PDF will show the slicer applied.
 
-The following sample code loads the [sample Excel file](94044165.xlsx) that contains an existing slicer. It then saves the workbook as [output PDF file](94044166.pdf). The following screenshot compares the source Excel file and the generated PDF file.
+The following sample code loads the [sample Excel file](94044165.xlsx) that contains an existing slicer. It then saves the workbook as the [output PDF file](94044166.pdf). The following screenshot compares the source Excel file and the generated PDF file.
 
 ![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 
@@ -34,13 +34,13 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
     
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"SampleSlicerChart.xlsx";
 
-    // Path of output pdf file
+    // Path of output PDF file
     U16String outputFilePath = outDir + u"SampleSlicerChart.pdf";
 
-    // Create workbook from the excel file
+    // Create workbook from the Excel file
     Workbook workbook(inputFilePath);
 
     // Save the workbook as a PDF file

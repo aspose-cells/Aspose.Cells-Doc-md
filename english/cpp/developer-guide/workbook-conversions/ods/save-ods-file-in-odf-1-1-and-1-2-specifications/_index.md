@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.GetOdfStrictVersion()**](https://reference.aspose.com/cells/cpp/aspose.cells/odssaveoptions/getodfstrictversion/) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/cpp/aspose.cells.ods/opendocumentformatversiontype/), so the ODS file saved without this setting uses the 1.2 specifications.
+Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the ODF (**OpenDocument Format**) 1.1, 1.2 and 1.3 specifications. Aspose.Cells has [**OdsSaveOptions.GetOdfStrictVersion()**](https://reference.aspose.com/cells/cpp/aspose.cells/odssaveoptions/getodfstrictversion/) property that specifies the ODF version for saving ODS files. The default value of this property is [**OpenDocumentFormatVersionType.Odf12**](https://reference.aspose.com/cells/cpp/aspose.cells.ods/opendocumentformatversiontype/), so the ODS file saved without this setting uses the 1.2 specification.
 
 {{% /alert %}}
 
@@ -42,7 +42,7 @@ int main()
     Cell cell = worksheet.GetCells().Get(u"A1");
     cell.PutValue(u"Welcome to Aspose!");
 
-    // Save ODS in ODF 1.2 version which is default
+    // Save ODS in ODF 1.2 version, which is the default
     OdsSaveOptions options;
     workbook.Save(outDir + u"ODF1.2_out.ods", options);
 

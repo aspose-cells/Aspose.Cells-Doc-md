@@ -23,15 +23,15 @@ The file format that the file is saved to is decided by the [**SaveFormat**](htt
 |**File Format Types**|**Description**|
 | :- | :- |
 |CSV|Represents a CSV file|
-|Excel97To2003|Represents an Excel 97 - 2003 file|
+|Excel97To2003|Represents an Excel 97‑2003 file|
 |Xlsx|Represents an Excel 2007 XLSX file|
 |Xlsm|Represents an Excel 2007 XLSM file|
 |Xltx|Represents an Excel 2007 template XLTX file|
-|Xltm|Represents an Excel 2007 macro-enabled XLTM file|
+|Xltm|Represents an Excel 2007 macro‑enabled XLTM file|
 |Xlsb|Represents an Excel 2007 binary XLSB file|
 |SpreadsheetML|Represents a Spreadsheet XML file|
-|TSV|Represents a Tab-separated values file|
-|TabDelimited|Represents a Tab Delimited text file|
+|TSV|Represents a Tab‑separated values file|
+|TabDelimited|Represents a Tab‑delimited text file|
 |ODS|Represents an ODS file|
 |Html|Represents HTML file(s)|
 |MHtml|Represents an MHTML file(s)|
@@ -128,10 +128,11 @@ To save files to a storage location, specify the file name (complete with storag
 </html>
 ```
 
-## **How to Save Workbook to Pdf**
-Portable Document Format (PDF) is a type of document created by Adobe back in the 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware, as well as Operating System. The PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features, and 3D objects in it that can become part of source document.
+## **How to Save Workbook to PDF**
+Portable Document Format (PDF) is a type of document created by Adobe back in the 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware, as well as operating systems. The PDF file format has the full capability to contain information such as text, images, hyperlinks, form fields, rich media, digital signatures, attachments, metadata, geospatial features, and 3D objects that can become part of the source document.
 
-The following code shows how to save workbook as pdf file with Aspose.Cells:
+The following code shows how to save a workbook as a PDF file with Aspose.Cells:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -211,13 +212,13 @@ The following code shows how to save workbook as pdf file with Aspose.Cells:
 
 ## **How to Save Workbook to Text or CSV Format**
 
-Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.
+Sometimes you want to convert or save a workbook with multiple worksheets into a text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.
 
-The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS, and so on) with any number of worksheets.
+The following code example explains how to save an entire workbook into a text format. Load the source workbook, which could be any Microsoft Excel or OpenOffice spreadsheet file (e.g., XLS, XLSX, XLSM, XLSB, ODS, and so on) with any number of worksheets.
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.separator**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#separator--) is comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the [**TxtSaveOptions.exportAllSheets**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#exportAllSheets--) property is set to true, the program will still only export one worksheet.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.separator**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#separator--) is a comma, so do not specify a separator if saving to CSV format. Please note: If you are using the evaluation version and even if the [**TxtSaveOptions.exportAllSheets**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#exportAllSheets--) property is set to true, the program will still only export one worksheet.
 
 ```html
 <!DOCTYPE html>
@@ -283,7 +284,7 @@ You can modify the same example to save your file to CSV. By default, [**TxtSave
 
 ## **How to Save File to Text Files with Custom Separator**
 
-Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters between its data.
+Text files contain spreadsheet data without formatting. The file is a kind of plain‑text file that can have customized delimiters between its data.
 
 ```html
 <!DOCTYPE html>
@@ -351,7 +352,7 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 
 ## **How to Save File to a Stream**
 
-To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) object's [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method. Specify the desired file format using the [**SaveFormat**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration when calling the [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method.
+To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) object's [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method. Specify the desired file format using the [**SaveFormat**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration when calling the method.
 
 ```html
 <!DOCTYPE html>
@@ -412,8 +413,10 @@ To save files to a stream, create a *MemoryStream* or *FileStream* object and sa
 </html>
 ```
 
-## **How to Save Excel File to Html and Mht files**
-Aspose.Cells can simply save an Excel file, JSON, CSV, or other files which could be loaded by Aspose.Cells as .html and .mht files.
+## **How to Save Excel File to HTML and MHT Files**
+
+Aspose.Cells can simply save an Excel file, JSON, CSV, or other files that can be loaded by Aspose.Cells as .html and .mht files.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -472,10 +475,10 @@ Aspose.Cells can simply save an Excel file, JSON, CSV, or other files which coul
     </script>
 </html>
 ```
- 
 
 ## **How to Save Excel File to OpenOffice (ODS, SXC, FODS, OTS)**
-We can save the files as OpenOffice format: ODS, SXC, FODS, OTS, etc.
+
+We can save the files in OpenOffice formats: ODS, SXC, FODS, OTS, etc.
 
 ```html
 <!DOCTYPE html>
@@ -559,7 +562,7 @@ We can save the files as OpenOffice format: ODS, SXC, FODS, OTS, etc.
 
 ## **How to Save Excel File to JSON or XML**
 
-JSON (JavaScript Object Notation) is an open standard file format for sharing data that uses human-readable text to store and transmit data. JSON files are stored with the .json extension. JSON requires less formatting and is a good alternative for XML. JSON is derived from JavaScript but is a language-independent data format. The generation and parsing of JSON is supported by many modern programming languages. application/json is the media type used for JSON.
+JSON (JavaScript Object Notation) is an open‑standard file format for sharing data that uses human‑readable text to store and transmit data. JSON files are stored with the .json extension. JSON requires less formatting and is a good alternative to XML. JSON is derived from JavaScript but is a language‑independent data format. The generation and parsing of JSON is supported by many modern programming languages. `application/json` is the media type used for JSON.
 
 Aspose.Cells supports saving files to JSON or XML.
 
@@ -620,8 +623,7 @@ Aspose.Cells supports saving files to JSON or XML.
 </html>
 ```
 
-
-## **Advance topics**
+## **Advanced Topics**
 - [Adjust workbook compression level](/cells/javascript-cpp/adjust-workbook-compression-level/)
 - [Save Workbook to Strict Open XML Spreadsheet Format](/cells/javascript-cpp/save-workbook-to-strict-open-xml-spreadsheet-format/)
 - [Saving File to Response Object](/cells/javascript-cpp/saving-file-to-response-object/)

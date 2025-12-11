@@ -9,7 +9,7 @@ keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, A
 
 {{% alert color="primary" %}}
 
-A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product or date. With Microsoft Excel it is possible to quickly re-arrange the information in the pivot table by dragging buttons to a new position.
+A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product or date. With Microsoft Excel it is possible to quickly re‑arrange the information in the pivot table by dragging buttons to a new position.
 
 A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.
 
@@ -27,17 +27,16 @@ Aspose.Cells for JavaScript via C++ provides a special set of classes used to cr
 - PivotTables, a collection of all the PivotTable objects on the worksheet.
 
 ### **Prepare to use Aspose.Cells for JavaScript via C++**
-1. Install Aspose.Cells for JavaScript via C++ from NPM, use command as:  $ npm install aspose.cells.node.
-1. You can also follow the step-by-step instructions on how to install “Aspose.Cells for JavaScript via C++” to your developer environment.
-
+1. Install Aspose.Cells for JavaScript via C++ from NPM, use the command: `$ npm install aspose.cells.node`.
+2. You can also follow the step‑by‑step instructions on how to install “Aspose.Cells for JavaScript via C++” to your developer environment.
 
 ### **How to Add a Pivot Table Using Aspose.Cells for JavaScript via C++**
 
 To create a pivot table using Aspose.Cells for JavaScript via C++:
 
-1. Add some data to a worksheet cells using a Cell object's put_value method. You also use a template file already filled with data. The data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the PivotTables collection's add method (encapsulated in the Worksheet object).
-1. Access the new PivotTable object from the PivotTables collection by passing its index. # Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
+1. Add some data to a worksheet's cells using a Cell object's `put_value` method. You also can use a template file already filled with data. The data will be used as the pivot table's data source.
+2. Add a pivot table to the worksheet by calling the PivotTables collection's `add` method (encapsulated in the Worksheet object).
+3. Access the new PivotTable object from the PivotTables collection by passing its index. Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
 
 Code examples are given below.
 
@@ -449,7 +448,7 @@ Code examples are given below.
             // Naming the sheet
             sheet2.name = "PivotTable";
 
-            // Getting the pivottables collection in the sheet
+            // Getting the pivot tables collection in the sheet
             const pivotTables = sheet2.pivotTables;
 
             // Adding a PivotTable to the worksheet
@@ -462,7 +461,7 @@ Code examples are given below.
             pivotTable.rowGrand = true;
             pivotTable.columnGrand = true;
 
-            // Setting the PivotTable report is automatically formatted
+            // Setting the PivotTable to be automatically formatted
             pivotTable.isAutoFormat = true;
 
             // Setting the PivotTable autoformat type.
@@ -506,8 +505,8 @@ Code examples are given below.
 To create a PivotChart using Aspose.Cells for JavaScript via C++:
 
 1. Add a chart.
-1. Set the PivotSource of the chart to refer to an existing pivot table in the spreadsheet.
-1. Set other attributes.
+2. Set the PivotSource of the chart to refer to an existing pivot table in the spreadsheet.
+3. Set other attributes.
 
 ```html
 <!DOCTYPE html>

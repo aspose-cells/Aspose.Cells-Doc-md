@@ -21,3 +21,5 @@ To achieve this, Aspose.Cells for Python via .NET provides the [**Chart.plot_ar
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SetPictureBackGroundFillChart.py" >}}
 {{< app/cells/assistant language="python-net" >}}
+
+

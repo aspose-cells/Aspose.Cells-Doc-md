@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Saving Files**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+The following example demonstrates how to save documents using **Aspose.Cells Java for Jython**. Here you can see an example code.
 
 **Jython Code**
 
@@ -33,9 +33,7 @@ class SavingFiles:
 
 
 
-
-
-        #Creating an Workbook object with an Excel file path
+        #Creating a Workbook object with an Excel file path
 
         workbook = Workbook(dataDir + "Book1.xls")
 
@@ -47,7 +45,7 @@ class SavingFiles:
 
         workbook.save(dataDir + "book.out.xls", fileFormatType.EXCEL_97_TO_2003)
 
-        #Save in Excel2007 xlsx format
+        #Save in Excel2007 XLSX format
 
         workbook.save(dataDir + "book.out.xlsx", fileFormatType.XLSX)
 
@@ -65,14 +63,13 @@ class SavingFiles:
 
 
 
-
-
 if __name__ == '__main__':        
 
     SavingFiles()
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Saving Files (Aspose.Cells)** from any of the social coding sites listed below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/SavingFiles.py)

@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells for Node.js via C++ provides the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property along with the [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class to work with the shadow effect of shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class contains the following properties which can be set to achieve different results as per application requirements.  
+Aspose.Cells for Node.js via C++ provides the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property along with the [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class to work with the shadow effect of a shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect) class contains the following properties, which can be set to achieve different results as per application requirements.  
 
 - [ShadowEffect.getAngle()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getAngle--)  
 - [ShadowEffect.getBlur()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getBlur--)  
@@ -21,7 +21,7 @@ Aspose.Cells for Node.js via C++ provides the [Shape.getShadowEffect()](https://
 - [ShadowEffect.getTransparency()](https://reference.aspose.com/cells/nodejs-cpp/shadoweffect/#getTransparency--)  
 
 ## **Working with the Shadow Effect of Shape or Chart**  
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property and then saves the workbook in the [output excel file](5115411.xlsx).  
+The following sample code loads the source Excel file, accesses the first shape in the first worksheet, sets the sub‑properties of the [Shape.getShadowEffect()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getShadowEffect--) property, and then saves the workbook to the output Excel file.  
 
 ```javascript
 const path = require("path");
@@ -30,7 +30,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
-// Load your source excel file
+// Load your source Excel file
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Access first worksheet
@@ -39,15 +39,15 @@ const worksheet = workbook.getWorksheets().get(0);
 // Access first shape
 const shape = worksheet.getShapes().get(0);
 
-// Set the shadow effect of the shape, set its Angle, Blur, Distance and Transparency properties
+// Set the shadow effect of the shape, setting its Angle, Blur, Distance, and Transparency properties
 const shadowEffect = shape.getShadowEffect();
 shadowEffect.setAngle(150);
 shadowEffect.setBlur(4);
 shadowEffect.setDistance(45);
 shadowEffect.setTransparency(0.3);
 
-// Save the workbook in xlsx format
+// Save the workbook in XLSX format
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

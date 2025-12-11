@@ -10,20 +10,20 @@ url: /javascript-cpp/chart-axes/
 
 {{% alert color="primary" %}}  
 
-In Excel charts, there are 3 kinds of Axes:  
-1. Horizontal(Category) Axis : X Axis  
-1. Vertical(Value) Axis : Y Axis  
-1. Depth(Series) Axis : Z Axis  
+In Excel charts, there are three kinds of axes:  
+1. Horizontal (Category) Axis: X‑axis  
+2. Vertical (Value) Axis: Y‑axis  
+3. Depth (Series) Axis: Z‑axis  
 
 {{% /alert %}}  
 
 ## **Axis Options**  
-Aspose.Cells for JavaScript via C++ also allows you to manage chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/javascript-cpp/axis/) object, you can change all options of Axis as done in Excel.  
+Aspose.Cells for JavaScript via C++ also allows you to manage a chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/javascript-cpp/axis/) object, you can change all Axis options as done in Excel.  
 
 |![todo:image_alt_text](chart_axes.png)|  
 
 ## **Manage X and Y Axes**  
-In Excel chart, horizontal and vertical axes are the two most popular axes to use.  
+In an Excel chart, the horizontal and vertical axes are the two most commonly used axes.  
 
 The following code snippet demonstrates how to set the options of X and Y axes.  
 
@@ -84,7 +84,7 @@ The following code snippet demonstrates how to set the options of X and Y axes.
             // Accessing the instance of the newly added chart
             const chart = worksheet.charts.get(chartIndex);
 
-            // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
+            // Adding SeriesCollection (chart data source) to the chart, ranging from cells A1 to B4
             chart.chartDataRange = ["A1:B4", true];
 
             // Hiding X axis
@@ -110,7 +110,7 @@ The following code snippet demonstrates how to set the options of X and Y axes.
 </html>
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Change Tick Label Direction](/cells/javascript-cpp/change-tick-label-direction/)  
 - [Determine which Axis exists in the Chart](/cells/javascript-cpp/determine-which-axis-exists-in-the-chart/)  
 - [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/javascript-cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)  

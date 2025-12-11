@@ -5,21 +5,21 @@ type: docs
 weight: 240  
 url: /nodejs-cpp/converting-chart-to-image-in-svg-format/  
 description: Learn how to convert a chart to SVG format image using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
 
-Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.  
+Scalable Vector Graphics (SVG) is an XML-based vector image format for two‑dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.  
 
 SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, but are more often created with drawing software.  
 
-Aspose.Cells can save chart into images in various formats like BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.  
+Aspose.Cells can save a chart as images in various formats such as BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.  
 
 {{% /alert %}}  
 
-The following sample code explains how to use Aspose.Cells to convert a chart into an SVG format image. The code loads the source Microsoft Excel file and then saves the first chart found on the first worksheet to SVG.  
+The following sample code explains how to use Aspose.Cells to convert a chart to an SVG image. The code loads the source Microsoft Excel file and then saves the first chart found on the first worksheet to SVG.  
 
 ```javascript
 const path = require("path");
@@ -41,8 +41,8 @@ const chart = worksheet.getCharts().get(0);
 const opts = new AsposeCells.ImageOrPrintOptions();
 opts.setImageType(AsposeCells.ImageType.Svg);
 
-// Save the chart to svg format
+// Save the chart to SVG format
 chart.toImage(path.join(dataDir, "Image_out.svg"), opts);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

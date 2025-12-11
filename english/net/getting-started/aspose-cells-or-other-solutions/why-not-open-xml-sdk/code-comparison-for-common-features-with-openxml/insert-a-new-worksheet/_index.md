@@ -68,8 +68,6 @@ using (SpreadsheetDocument spreadSheet = SpreadsheetDocument.Open(docName, true)
 ## **Aspose.Cells**
 {{< highlight csharp >}}
 
-
-
 string FilePath = @"..\..\..\..\Sample Files\";
 
 string FileName = FilePath + "Insert a new worksheet.xlsx";
@@ -80,15 +78,15 @@ private static void InsertWorksheet(string docName)
 
 {
 
-  //Instantiating a Workbook object
+  // Instantiating a Workbook object
 
   Workbook workbook = new Workbook(docName);
 
-  //Adding a new worksheet to the Excel object
+  // Adding a new worksheet to the Excel object
 
   int SheetIndex = workbook.Worksheets.Add();
 
-  //Saving the Excel file
+  // Saving the Excel file
 
   workbook.Save(docName);
 

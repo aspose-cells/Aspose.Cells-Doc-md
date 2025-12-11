@@ -9,11 +9,10 @@ url: /nodejs-cpp/customizing-charts/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
-  
-  
+
 ## **Creating Custom Charts**  
 
-So far, when we've discussed charts, we've looked at standard charts that have their standard formatting settings. We only define the data source, set a few properties, and the chart is created with its default format settings. But Aspose.Cells APIs also supports creating custom charts that allow developers to create charts with their own format settings.  
+So far, when we've discussed charts, we've looked at standard charts that have their standard formatting settings. We only define the data source, set a few properties, and the chart is created with its default format settings. But Aspose.Cells APIs also support creating custom charts that allow developers to create charts with their own format settings.  
 
 Developers can create custom charts at run-time using Aspose.Cells.  
 
@@ -64,8 +63,8 @@ workbook.save(path.join(dataDir, "output.xls"));
 
 {{% alert color="primary" %}}  
 
-Currently, Aspose.Cells only supports custom charts that combine pie, line, column, and column stack charts but more charts will be supported in future releases.  
+Currently, Aspose.Cells only supports custom charts that combine pie, line, column, and column stack charts, but more charts will be supported in future releases.  
 
 {{% /alert %}}  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

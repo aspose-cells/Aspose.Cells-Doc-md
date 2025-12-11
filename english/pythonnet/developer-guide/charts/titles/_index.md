@@ -12,27 +12,24 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-In Excel charts, there are 2 kinds of title:
-1. Chart Title 
-1. Axis Titles
-
-
+In Excel charts, there are two kinds of titles:
+1. Chart Title  
+2. Axis Titles
 
 {{% /alert %}}
 
 ## **Title Options**
-Aspose.Cells for Python via .NET also allows to manage chart's titles at runtime，with [Title](https://reference.aspose.com/cells/python-net/aspose.cells.charts/title/) object, you can change text, font and fill format for titles.
+Aspose.Cells for Python via .NET also allows you to manage chart titles at runtime, with the [Title](https://reference.aspose.com/cells/python-net/aspose.cells.charts/title/) object you can change text, font, and fill format for titles.
 
 |![todo:image_alt_text](chart_title.png)|
 
 ## **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for Python via .NET also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [title](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/title) property that can be used to set their titles as shown below in an example.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for Python via .NET also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [title](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/title) property that can be used to set their titles as shown in the example below.
 
-The following code snippet demonstrates how to set titles to charts and axes.
-
+The following code snippet demonstrates how to set titles to charts and axes.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SettingTitlesAxes-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Read Chart Subtitle from ODS File](/cells/python-net/read-chart-subtitle-from-ods-file/)
 {{< app/cells/assistant language="python-net" >}}

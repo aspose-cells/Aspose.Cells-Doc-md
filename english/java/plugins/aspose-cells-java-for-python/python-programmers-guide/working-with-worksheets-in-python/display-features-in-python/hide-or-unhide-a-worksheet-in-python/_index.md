@@ -9,45 +9,37 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Hide or Unhide a Worksheet**
 ### **Hiding a Worksheet**
-To hide worksheet using Aspose.Cells Java for Ruby, call **hideunhideworksheet** module.
-
-**Python Code**
-
-{{< highlight java >}}
-
- workbook = self.Workbook(self.dataDir + "Book1.xls")
-
-#Accessing the first worksheet in the Excel file
-
-worksheets = workbook.getWorksheets()
-
-worksheet = worksheets.get(0)
-
-#Hiding the first worksheet of the Excel file
-
-worksheet.setVisible(True)
-
-#Saving the modified Excel file in default (that is Excel 2003) format
-
-workbook.save(self.dataDir + "output.xls")
-
-\# Print message
-
-print "Worksheet 1 is now hidden, please check the output document."
-
-{{< /highlight >}}
-### **Showing a Worksheet**
-Developers can make a worksheet visible by setting the *setVisible(* *true* *)* method of the **Worksheet** class.
+To hide a worksheet using Aspose.Cells for Python, call the **hideunhideworksheet** module.
 
 **Python Code**
 
 {{< highlight python >}}
+workbook = self.Workbook(self.dataDir + "Book1.xls")
 
- # Displaying the worksheet of the Excel file
+# Accessing the first worksheet in the Excel file
+worksheets = workbook.getWorksheets()
+worksheet = worksheets.get(0)
 
-worksheet.setVisible(true)
+# Hiding the first worksheet of the Excel file
+worksheet.setVisible(False)
 
+# Saving the modified Excel file in default (that is Excel 2003) format
+workbook.save(self.dataDir + "output.xls")
+
+# Print message
+print "Worksheet 1 is now hidden, please check the output document."
 {{< /highlight >}}
+
+### **Showing a Worksheet**
+Developers can make a worksheet visible by setting the `setVisible(True)` method of the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class.
+
+**Python Code**
+
+{{< highlight python >}}
+# Displaying the worksheet of the Excel file
+worksheet.setVisible(True)
+{{< /highlight >}}
+
 ## **Download Running Code**
 Download **Hide or Unhide a Worksheet (Aspose.Cells)** from any of the below mentioned social coding sites:
 

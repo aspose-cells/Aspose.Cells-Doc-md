@@ -9,8 +9,7 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, and you can pick which columns should be checked for duplicate information.
+Removing duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a worksheet, and you can pick which columns should be checked for duplicate information.
 
 Aspose.Cells for Node.js via C++ provides the `Cells.removeDuplicates()` method for this purpose. You can also set `startRow`, `startColumn`, `endRow`, and `endColumn` to specify the range of columns to check for duplicates.
 
@@ -29,7 +28,7 @@ const filePath = path.join(dataDir, "removeduplicates.xlsx");
 // Create workbook
 const book = new AsposeCells.Workbook(filePath);
 
-// Remove Duplicate
+// Remove Duplicates
 book.getWorksheets().get(0).getCells().removeDuplicates(0, 0, 5, 3);
 
 // Save result

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-The look and feel of a text can be controlled by changing font settings. The font settings may include the name, style, size, color and other effects of the fonts. Just like Microsoft Excel, Aspose.Cells for Python via .NET also supports configuring the font settings of the cells.
+The look and feel of text can be controlled by changing font settings. The font settings may include the name, style, size, color and other effects of the fonts. Just like Microsoft Excel, Aspose.Cells for Python via .NET also supports configuring the font settings of the cells.
 
 {{% /alert %}}
 
@@ -47,7 +47,7 @@ Use the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.c
 
 ### **Setting Font Underline Type**
 
-Use the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**underline**](https://reference.aspose.com/cells/python-net/aspose.cells/font/underline) property to underline text. Aspose.Cells for Python via .NET offers various pre-defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/python-net/aspose.cells/fontunderlinetype) enumeration.
+Use the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**underline**](https://reference.aspose.com/cells/python-net/aspose.cells/font/underline) property to underline text. Aspose.Cells for Python via .NET offers various pre‑defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/python-net/aspose.cells/fontunderlinetype) enumeration.
 
 |**Font Underline Types**|**Description**|
 | :- | :- |
@@ -67,7 +67,7 @@ Apply strikeout by setting the [**Style.font**](https://reference.aspose.com/ce
 
 ### **Setting Subscript Effect**
 
-Apply subscript by setting the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**is_subscript**](https://reference.aspose.com/cells/python-net/aspose.cells/font/is_subscript/) property to **true**.
+Apply subscript by setting the [**Style.font**](https://reference.aspose.com/cells/python-net/aspose.cells/style/font) object's [**is_subscript**](https://reference.aspose.com/cells/python-net/aspose.cells/font/is_subscript) property to **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SetSubscript.py" >}}
 
@@ -77,7 +77,7 @@ Developers can apply the superscript effect on the font by setting the [**is_sup
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SetSuperscript.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/python-net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/python-net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 

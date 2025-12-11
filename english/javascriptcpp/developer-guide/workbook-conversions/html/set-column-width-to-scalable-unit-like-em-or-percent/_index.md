@@ -7,7 +7,7 @@ url: /javascript-cpp/set-column-width-to-scalable-unit-like-em-or-percent/
 description: Learn how to set column width to scalable units like em or percent in Aspose.Cells for JavaScript via C++. Improve the presentation of generated HTML tables.
 ---
 
-Generating an HTML file from a spreadsheet is very common. The size of the columns is defined in "pt," which works in many cases. However, there can be a case where this fixed size may not be required. For example, if a container panel width is 600px, where this HTML page is being displayed, you may get a horizontal scrollbar if the generated table width is bigger. It was required that this fixed size shall be changed into a scalable unit like em or percent to get a better presentation. Following sample code can be used where [**HtmlSaveOptions.widthScalable**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#widthScalable--) is set to **true** for creating scalable width.
+Generating an HTML file from a spreadsheet is very common. The size of the columns is defined in **pt**, which works in many cases. However, there may be cases where this fixed size is not appropriate. For example, if a container panel width is 600 px, where this HTML page is displayed, you may get a horizontal scrollbar if the generated table width is larger. It is required that this fixed size be changed to a scalable unit such as **em** or **percent** to achieve better presentation. The following sample code can be used, with [**HtmlSaveOptions.widthScalable**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#widthScalable--) set to **true**, to create scalable widths.
 
 Sample source file and output files can be downloaded from the following links:
 
@@ -54,10 +54,10 @@ Sample source file and output files can be downloaded from the following links:
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
-            // Specify Html Save Options
+            // Specify HTML Save Options
             const options = new HtmlSaveOptions();
             
             // Set the property for scalable width (converted from setWidthScalable)
@@ -66,7 +66,7 @@ Sample source file and output files can be downloaded from the following links:
             // Specify image save format (converted from setExportImagesAsBase64)
             options.exportImagesAsBase64 = true;
             
-            // Save the workbook in Html format with specified Html Save Options
+            // Save the workbook in HTML format with the specified Html Save Options
             const outputData = workbook.save(SaveFormat.Html, options);
             const blob = new Blob([outputData], { type: 'text/html' });
             const downloadLink = document.getElementById('downloadLink');

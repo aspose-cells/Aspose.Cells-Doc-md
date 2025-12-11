@@ -8,11 +8,11 @@ url: /javascript-cpp/export-comments-while-saving-excel-file-to/
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells for JavaScript via C++ provides this feature using the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/javascript-cpp/export-comments-while-saving-excel-file-to/) property. If you set it **true**, then HTML will also display comments present in your Excel file.
+When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells for JavaScript via C++ provides this feature using the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/javascript-cpp/export-comments-while-saving-excel-file-to/) property. If you set it **to true**, then HTML will also display comments present in your Excel file.
 
 ## **Export Comments while Saving Excel file to HTML**
 
-The following sample code explains the usage of [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/javascript-cpp/export-comments-while-saving-excel-file-to/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for a reference.
+The following sample code explains the usage of the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/javascript-cpp/export-comments-while-saving-excel-file-to/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for a reference.
 
 ![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 

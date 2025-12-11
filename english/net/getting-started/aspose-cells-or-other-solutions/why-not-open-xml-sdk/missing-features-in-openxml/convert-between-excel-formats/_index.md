@@ -1,71 +1,65 @@
----
-title: Convert between Excel formats
-type: docs
-weight: 20
-url: /net/convert-between-excel-formats/
-ai_search_scope: cells_net
+---  
+title: Convert between Excel formats  
+type: docs  
+weight: 20  
+url: /net/convert-between-excel-formats/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Converting Excel to PDF**
+## **Converting Excel to PDF**  
 
-**PDF** files are widely used for exchanging documents between organizations, government sectors and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into **PDF** documents.
-**Aspose.Cells** supports converting Excel files to PDF and maintains high visual fidelity in the conversion.
+**PDF** files are widely used for exchanging documents between organizations, government sectors, and individuals. It is a standard document format, and software developers are often asked to find a way to convert Microsoft Excel files into **PDF** documents.  
+**Aspose.Cells** supports converting Excel files to PDF and maintains high visual fidelity in the conversion.  
 
-Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Save an Excel file to PDF using the Workbook class' Save method. The Save method provides the SaveFormat.Pdf enum member that converts the native Excel files to PDF format.
+Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Save an Excel file to PDF using the Workbook class’s **Save** method. The **Save** method provides the **SaveFormat.Pdf** enum member that converts the native Excel files to PDF format.  
 
-**Converting** directly from spreadsheet to PDF, instead of using a third-party tool or external API, has several **advantages**:
+**Converting** directly from a spreadsheet to PDF, instead of using a third‑party tool or external API, has several **advantages**:  
 
-1. Direct conversion does not require temporary files because the whole process can be done in memory.
-1. No XML file is needed so large files can easily be converted.
-1. The conversion speed is much faster.
+1. Direct conversion does not require temporary files because the whole process can be done in memory.  
+2. No XML file is needed, so large files can be easily converted.  
+3. The conversion speed is much faster.  
 
-**To convert files to PDF:**
+**To convert files to PDF:**  
 
-1. Instantiate an object of the **Workbook** class by calling its empty constructor.
-1. You may **open/load** an existing template file or skip this step if you are creating the workbook from scratch.
-1. Do your desired work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the **Workbook class' Save method** to save the spreadsheet. The file format should be PDF so select Pdf (a pre-defined value) from the SaveFormat enumeration to generate the final PDF document.
+1. Instantiate an object of the **Workbook** class by calling its empty constructor.  
+2. You may **open/load** an existing template file or skip this step if you are creating the workbook from scratch.  
+3. Perform your desired work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells’ APIs.  
+4. When the spreadsheet processing is complete, call the **Workbook** class’s **Save** method to save the spreadsheet. The file format should be PDF, so select **Pdf** (a predefined value) from the **SaveFormat** enumeration to generate the final PDF document.  
 
-{{< highlight csharp >}}
+{{< highlight csharp >}}  
+Workbook workbook = new Workbook(openFileDialog1.FileName);  
 
-  Workbook workbook = new Workbook(openFileDialog1.FileName);
+workbook.Save(saveFileDialog1.FileName, SaveFormat.Pdf);  
+{{< /highlight >}}  
 
-  workbook.Save(saveFileDialog1.FileName, SaveFormat.Pdf);
+## **Converting Excel to MHTML**  
 
-{{< /highlight >}}
+**MHTML** combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. It is used for emails with the *.mht* file extension.  
+Aspose.Cells supports reading and writing MHTML files.  
 
-## **Converting Excel to MHTML**
+{{< highlight csharp >}}  
+Workbook workbook = new Workbook(openFileDialog1.FileName);  
 
-**MHTML** combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio and so on) into one file. They are used for emails with the .mht file extension.
-Aspose.Cells supports reading and writing MHTML files.
+// Specify the HTML saving options  
+HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.MHtml);  
 
-{{< highlight csharp >}}
+workbook.Save(saveFileDialog1.FileName, sv);  
+{{< /highlight >}}  
 
-  Workbook workbook = new Workbook(openFileDialog1.FileName);
+## **Converting Excel to XPS**  
 
-  //Specify the HTML Saving Options
+Sometimes, you want to convert or save a workbook with multiple worksheets into a text format. For text formats (for example, TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.  
 
-  HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.MHtml);
+{{< highlight csharp >}}  
+Workbook workbook = new Workbook(openFileDialog1.FileName);  
 
-  workbook.Save(saveFileDialog1.FileName, sv);
+workbook.Save(saveFileDialog1.FileName, SaveFormat.CSV);  
+{{< /highlight >}}  
 
-{{< /highlight >}}
+## **Download Sample Code**  
 
-## **Converting Excel to XPS**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)  
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)  
 
-Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.
-
-{{< highlight csharp >}}
-
-  Workbook workbook = new Workbook(openFileDialog1.FileName);
-
- workbook.Save(saveFileDialog1.FileName, SaveFormat.CSV);
-
-{{< /highlight >}}
-
-## **Download Sample Code**
-
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)
 {{< app/cells/assistant language="csharp" >}}

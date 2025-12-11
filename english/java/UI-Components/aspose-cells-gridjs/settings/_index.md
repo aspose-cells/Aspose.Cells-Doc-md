@@ -1,4 +1,3 @@
-
 ---
 title: Workbook Related Settings for GridJs
 type: docs
@@ -22,14 +21,13 @@ GridJs provides comprehensive configuration options through the `GridWorkbookSet
 
 ## GridWorkbookSettings Class
 
-The [**GridWorkbookSettings**](https://reference.aspose.com/cells/java/com.aspose.gridjs/gridworkbooksettings) class serves as the central configuration hub for GridJs operations.
+The **[GridWorkbookSettings](https://reference.aspose.com/cells/java/com.aspose.gridjs/gridworkbooksettings)** class serves as the central configuration hub for GridJs operations.
 
 ### Key Configuration Areas
 
 - **Calculation Settings**: Control formula recalculation behavior
 - **Metadata Management**: Set file properties and author information
 - **Performance Optimization**: Configure caching and resource management
-
 
 ## Basic Usage Examples
 
@@ -57,24 +55,22 @@ gw.importExcelFile(@"c:\test.xlsx");
 
 ## Common Settings Reference
 
-### Calculation-Related Settings
+### Calculation‑Related Settings
 
-- `setReCalculateOnOpen`: Controls whether formulas are recalculated when opening files,default is true.
-- `setForceFullCalculate`: Enables forced full calculation cycles
-- `setCreateCalcChain`:  Controls whether create calculated formulas chain,default is false.
-- `setIteration`:  Controls whether use iteration to resolve circular references,default is true.
-- `setMaxIteration`: Set the maximum number of iterations to resolve a circular reference, the default value is 100.
+- `setReCalculateOnOpen`: Controls whether formulas are recalculated when opening files, default is **true**.
+- `setForceFullCalculate`: Enables forced full calculation cycles.
+- `setCreateCalcChain`: Controls whether to create a calculated formulas chain, default is **false**.
+- `setIteration`: Controls whether to use iteration to resolve circular references, default is **true**.
+- `setMaxIteration`: Sets the maximum number of iterations to resolve a circular reference; the default value is **100**.
 
 ### Metadata Settings
 
-- `setAuthor`: Specifies the file author
-
+- `setAuthor`: Specifies the file author.
 
 ### Performance Settings
 
-- `setCheckCustomNumberFormat`: Validates custom number format when setting Style.Custom
-- `setCheckExcelRestriction`: Controls Whether check restriction of excel file when user modify cells related objects
-
+- `setCheckCustomNumberFormat`: Validates custom number format when setting `Style.Custom`.
+- `setCheckExcelRestriction`: Controls whether to check restrictions of the Excel file when the user modifies cell‑related objects.
 
 ## Advanced Configuration
 
@@ -99,11 +95,7 @@ For comprehensive implementation examples and detailed usage scenarios, refer to
 
 <https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/main/Examples.GridJs>
 
-
 ## Additional Resources
 
 - [GridJs Server API Documentation](https://reference.aspose.com/cells/java/com.aspose.gridjs)
 - [GridJs Client API Documentation](https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api)
-
----
-

@@ -5,4 +5,3 @@ weight: 10
 url: /go-cpp/loading-saving-and-converting/
 ---
 
-

@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Autofit Rows and Columns**
 ### **Autofit Row**
-The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
+The most straightforward approach to auto‑sizing the height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
 **Ruby Code**
 
@@ -17,39 +17,39 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
  def autofit_row()
 
-        data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+        data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-        # Instantiating a Workbook object by excel file path
+        # Instantiating a Workbook object by an Excel file path
 
-        workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
+        workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
-        # Accessing the first worksheet in the Excel file
+        # Accessing the first worksheet in the Excel file
 
-        worksheet = workbook.getWorksheets().get(0)
+        worksheet = workbook.getWorksheets().get(0)
 
-        # Auto-fitting the 3rd row of the worksheet
+        # Auto‑fitting the 3rd row of the worksheet
 
-        worksheet.autoFitRow(2)
+        worksheet.autoFitRow(2)
 
-        # Auto-fitting the 3rd row of the worksheet based on the contents in a range of
+        # Auto‑fitting the 3rd row of the worksheet based on the contents in a range of
 
-        # cells (from 1st to 9th column) within the row
+        # cells (from 1st to 9th column) within the row
 
-        #worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
+        #worksheet.autoFitRow(2,0,8) # Uncomment this line if you want to do AutoFit Row in a range of cells. Also, comment line 288.
 
-        # Saving the modified Excel file in default (that is Excel 2003) format
+        # Saving the modified Excel file in default (that is Excel 2003) format
 
-        workbook.save(data_dir + "Autofit Row.xls")
+        workbook.save(data_dir + "Autofit Row.xls")
 
-        puts "Autofit Row Successfully."
+        puts "Autofit Row successfully."
 
-    end
+    end
 
 {{< /highlight >}}
 ### **Autofit Column**
-The easiest way to auto-size the width and height of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
+The easiest way to auto‑size the width of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
 
 **Ruby Code**
 
@@ -57,38 +57,38 @@ The easiest way to auto-size the width and height of a column is to call the Wo
 
  def autofit_column()
 
-    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
-    workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
+    workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
-    # Accessing the first worksheet in the Excel file
+    # Accessing the first worksheet in the Excel file
 
-    worksheet = workbook.getWorksheets().get(0)
+    worksheet = workbook.getWorksheets().get(0)
 
-    # Auto-fitting the 4th column of the worksheet
+    # Auto‑fitting the 4th column of the worksheet
 
-    worksheet.autoFitColumn(3)
+    worksheet.autoFitColumn(3)
 
-    # Auto-fitting the 4th column of the worksheet based on the contents in a range of
+    # Auto‑fitting the 4th column of the worksheet based on the contents in a range of
 
-    # cells (from 1st to 9th row) within the column
+    # cells (from 1st to 9th row) within the column
 
-    #worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
+    #worksheet.autoFitColumn(3,0,8) # Uncomment this line if you want to do AutoFit Column in a range of cells. Also, comment line 310.
 
-    # Saving the modified Excel file in default (that is Excel 2003) format
+    # Saving the modified Excel file in default (that is Excel 2003) format
 
-    workbook.save(data_dir + "Autofit Column.xls")
+    workbook.save(data_dir + "Autofit Column.xls")
 
-    puts "Autofit Column Successfully."
+    puts "Autofit Column successfully."
 
 end
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Autofit Rows and Columns (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Autofit Rows and Columns (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

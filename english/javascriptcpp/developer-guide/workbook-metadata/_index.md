@@ -1,17 +1,17 @@
----
-title: Using WorkbookMetadata with JavaScript via C++
-linktitle: Workbook Metadata
-type: docs
-weight: 320
-url: /javascript-cpp/using-workbookmetadata/
-description: Learn how to edit workbook metadata using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Using WorkbookMetadata with JavaScript via C++  
+linktitle: Workbook Metadata  
+type: docs  
+weight: 320  
+url: /javascript-cpp/using-workbookmetadata/  
+description: Learn how to edit workbook metadata using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}  
-Aspose.Cells allows you to load a light-weight version of a workbook into memory to edit its metadata information. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class to load the workbook.  
+Aspose.Cells allows you to load a lightweight version of a workbook into memory to edit its metadata. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class to load the workbook.  
 {{% /alert %}}  
 
-The following sample code uses the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class to edit custom document properties of a workbook. Once you open the workbook using the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class, you will be able to read the document properties. Here is a sample code using the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class.  
+The following sample code uses the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class to edit custom document properties of a workbook. Once you open the workbook using the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class, you will be able to read the document properties. Here is sample code using the [**WorkbookMetadata**](https://reference.aspose.com/cells/javascript-cpp/workbookmetadata) class.  
 
 ```html
 <!DOCTYPE html>
@@ -56,7 +56,7 @@ The following sample code uses the [**WorkbookMetadata**](https://reference.aspo
             // Create metadata options for document properties
             const options = new MetadataOptions(MetadataType.Document_Properties);
 
-            // Open Workbook metadata from the uploaded file
+            // Open workbook metadata from the uploaded file
             const meta = new WorkbookMetadata(uint8, options);
 
             // Set some properties

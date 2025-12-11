@@ -7,7 +7,8 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Open an existing excel file, Merge some cells in the first worksheet in the workbook and save the excel file.
+Open an existing **Excel** file, **merge** some cells in the first worksheet of the workbook, and save the **Excel** file.
+
 ## **Merging Cells**
 ### **VSTO**
 Following are the parallel code snippets for VSTO (C#) and Aspose.Cells for .NET (C#).
@@ -18,11 +19,11 @@ Following are the parallel code snippets for VSTO (C#) and Aspose.Cells for .NET
 
  Excel.Application excelApp = Application;
 
-//Specify the template excel file path.
+//Specify the template **Excel** file path.
 
  string myPath = "Book1.xls";
 
-//Open the excel file.
+//Open the Excel file.
 
  excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
@@ -38,7 +39,7 @@ Following are the parallel code snippets for VSTO (C#) and Aspose.Cells for .NET
 
             Missing.Value, Missing.Value);
 
-//Get the range of cells i.e.., A1:C1.
+//Get the range of cells i.e., A1:C1.
 
  Excel.Range rng1 = excelApp.get_Range("A1", "C1");
 
@@ -64,15 +65,15 @@ Following are the parallel code snippets for VSTO (C#) and Aspose.Cells for .NET
 
   Workbook workbook = new Workbook();
 
-//Specify the template excel file path.
+//Specify the template **Excel** file path.
 
  string myPath = "Book1.xls";
 
-//Open the excel file.
+//Open the Excel file.
 
  workbook.Open(myPath);
 
-//Get the range of cells i.e.., A1:C1.
+//Get the range of cells i.e., A1:C1.
 
  Aspose.Cells.Range rng1 = workbook.Worksheets[0].Cells.CreateRange("A1", "C1");
 
@@ -90,7 +91,7 @@ To unmerge the cell(s), use the following lines of code for VSTO (C#) and Aspose
 ### **VSTO**
 {{< highlight csharp >}}
 
- //UnMerge the cell.
+ //Unmerge the cell.
 
   rng1.UnMerge();
 
@@ -100,7 +101,7 @@ To unmerge the cell(s), use the following lines of code for VSTO (C#) and Aspose
 
    Cells rng = workbook.Worksheets[0].Cells;
 
-//UnMerge the cell.
+//Unmerge the cell.
 
   rng.UnMerge(0, 0, 1, 3);
 

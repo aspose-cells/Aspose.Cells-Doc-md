@@ -10,7 +10,7 @@ keywords: find excel worksheet dialog type JavaScript via C++, worksheet dialog 
 
 ## **Possible Usage Scenarios**
 
-Dialog Sheet is an old format of sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003, as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.
+A Dialog Sheet is an older sheet format that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel, e.g., 2003, as shown in this screenshot. It can also be inserted with VBA in newer versions, e.g., Microsoft Excel 2016.
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
@@ -67,7 +67,7 @@ The following sample code loads the [sample Excel file](64716820.xlsx) that cont
             // Access first worksheet
             const ws = workbook.worksheets.get(0);
 
-            // Find if the sheet type is dialog and print the message
+            // Find if the sheet type is a dialog sheet and print the message
             if (ws.type === AsposeCells.SheetType.Dialog) {
                 document.getElementById('result').innerHTML = '<p style="color: green;">Worksheet is a Dialog Sheet.</p>';
             } else {

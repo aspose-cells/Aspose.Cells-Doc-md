@@ -9,9 +9,9 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double click the Ole Object, the embedded file will be opened.
+In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double‑click the Ole Object, and the embedded file will be opened.
 
-Generally, while converting to PDF, the Ole Object will be rendered as an icon or a thumbnail without the Ole Object source data. With option [PdfSaveOptions.GetEmbedAttachments()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getembedattachments/), you can embed the Ole Object source data as an attachment in PDF. You can double click the icon or the thumbnail in PDF to open the source file of the Ole Object.
+Generally, while converting to PDF, the Ole Object is rendered as an icon or a thumbnail without the Ole Object's source data. With the option [PdfSaveOptions.GetEmbedAttachments()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getembedattachments/), you can embed the Ole Object's source data as an attachment in the PDF. You can double‑click the icon or the thumbnail in the PDF to open the source file of the Ole Object.
 
 ```c++
 #include <iostream>

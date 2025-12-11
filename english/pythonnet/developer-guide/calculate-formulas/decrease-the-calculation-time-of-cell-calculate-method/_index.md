@@ -1,22 +1,22 @@
----
-title: Decrease the Calculation Time of Cell.Calculate Method with Python.NET
-linktitle: Decrease Calculation Time of Cell.Calculate
-type: docs
-weight: 100
-url: /python-net/decrease-the-calculation-time-of-cell-calculate-method/
-description: Learn how to optimize Excel cell calculation performance using Aspose.Cells for Python via .NET. Reduce computation time with CalculationOptions settings.
-keywords: python excel calculation, optimize cell calculate, Aspose.Cells Python, calculation performance, recursive calculation options
-ai_search_scope: cells_pythonnet
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Decrease the Calculation Time of Cell.Calculate Method with Python.NET  
+linktitle: Decrease Calculation Time of Cell.Calculate  
+type: docs  
+weight: 100  
+url: /python-net/decrease-the-calculation-time-of-cell-calculate-method/  
+description: Learn how to optimize Excel cell calculation performance using Aspose.Cells for Python via .NET. Reduce computation time with CalculationOptions settings.  
+keywords: python excel calculation, optimize cell calculate, Aspose.Cells Python, calculation performance, recursive calculation options  
+ai_search_scope: cells_pythonnet  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask" 
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-Normally, we recommend users to call [**workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/) method once and then get the calculated values of individual cells. When working with single cell calculations, you can use [**calculation_options.recursive**](https://reference.aspose.com/cells/python-net/aspose.cells/calculationoptions/recursive/) property to significantly reduce computation time. Setting this property to `False` prevents recalculating dependent cells on subsequent calls.
+Normally, we recommend that users call [**workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/) method once and then get the calculated values of individual cells. When working with single‑cell calculations, you can use the [**calculation_options.recursive**](https://reference.aspose.com/cells/python-net/aspose.cells/calculationoptions/recursive/) property to significantly reduce computation time. Setting this property to `False` prevents recalculating dependent cells on subsequent calls.  
 
-## **Optimizing Cell Calculation Performance**
+## **Optimizing Cell Calculation Performance**  
 
-The following sample demonstrates using the recursive property. Use the provided [sample Excel file](5113710.xlsx) to test the performance difference. The code shows how setting `recursive=False` reduces calculation time by avoiding redundant dependent cell recalculations.
+The following sample demonstrates using the recursive property. Use the provided [sample Excel file](5113710.xlsx) to test the performance difference. The code shows how setting `recursive=False` reduces calculation time by avoiding redundant dependent‑cell recalculations.  
 
 ```python
 # For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
@@ -25,7 +25,7 @@ test_calc_time_recursive(True)
 
 # Test calculation time after setting recursive false
 test_calc_time_recursive(False)
-```
+```  
 
 ```python
 import os
@@ -34,7 +34,7 @@ from aspose.cells import Workbook, CalculationOptions
 
 def test_calc_time_recursive(rec):
     """
-    Tests calculation time with recursive option and prints elapsed seconds
+    Tests calculation time with the recursive option and prints the elapsed seconds.
     """
     # The path to the documents directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -62,14 +62,14 @@ def test_calc_time_recursive(rec):
     
     # Print results
     print(f"Recursive {rec}: {elapsed_time} seconds")
-```
+```  
 
-## **Performance Benchmark Results**
+## **Performance Benchmark Results**  
 
-Typical output when running the optimized code with the sample file shows significant time reduction:
+Typical output when running the optimized code with the sample file shows a significant time reduction:  
 
-{{< highlight text >}}
-Recursive True: 96 seconds
-Recursive False: 42 seconds
-{{< /highlight >}}
+{{< highlight text >}}  
+Recursive True: 96 seconds  
+Recursive False: 42 seconds  
+{{< /highlight >}}  
 {{< app/cells/assistant language="python-net" >}}

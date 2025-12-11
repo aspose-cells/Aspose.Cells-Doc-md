@@ -11,27 +11,25 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Headers and footers are displayed only in Page Layout view, Print Preview, and on printed pages. 
+Headers and footers are displayed only in Page Layout view, Print Preview, and on printed pages.  
 
-You can also use the Page Setup dialog box if you want to view headers or footers for more than one worksheet at a time. 
+You can also use the Page Setup dialog box if you want to view headers or footers for more than one worksheet at a time.  
 
-For other sheet types, such as chart sheets, or charts, you can insert headers and footers only by using the Page Setup dialog box.
+For other sheet types, such as chart sheets or charts, you can insert headers and footers only by using the Page Setup dialog box.
 
 {{% /alert %}}
 
 ## **Getting Headers and Footers in MS Excel**
-1. Click the worksheet where you want to view or change headers or footers.
-2. On the View tab, in the Workbook Views group, click Page Layout.
-  Excel displays the worksheet in Page Layout view.
+1. Click the worksheet where you want to view or change headers or footers.  
+2. On the View tab, in the Workbook Views group, click **Page Layout**. Excel displays the worksheet in Page Layout view.  
 3. To view or edit a header or footer, click the left, center, or right header or footer text box at the top or the bottom of the worksheet page (under Header, or above Footer).
 
-
 ## **Getting Headers and Footers using Aspose.Cells for C++**
-With [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getheader/) and [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfooter/) methods, C++ developers can simply get headers or footers from the file.
+With [**Worksheet.PageSetup.GetHeader**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getheader/) and [**Worksheet.PageSetup.GetFooter**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfooter/) methods, C++ developers can simply get headers or footers from the file.
 
-1. Construct Workbook to open the file.
-2. Gets the worksheet where you want to get headers or footer.
-3. Gets header or footer with specific section id.
+1. Construct a [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) to open the file.  
+2. Get the worksheet where you want to get headers or footers.  
+3. Get the header or footer with a specific section ID.
 
 ```c++
 #include <iostream>
@@ -59,15 +57,15 @@ int main()
 ```
 
 ## **Parse Headers and Footers to Command List**
-The header or footer text can contain special commands, for example a placeholder for the page number, current date or text formatting attributes.
+The header or footer text can contain special commands, for example a placeholder for the page number, current date, or text‑formatting attributes.
 
 Special commands are represented by a single letter with a leading ampersand ("&").
 
 The header and footer strings are constructed using ABNF grammar. It's not easy to understand without a viewer.
 
-Aspose.Cells for C++ provides [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcommands/) method to parse headers and footers as command list.
+Aspose.Cells for C++ provides the [**Worksheet.PageSetup.GetCommands**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcommands/) method to parse headers and footers as a command list.
 
-The following code shows how to parse header or footer as command list and process commands:
+The following code shows how to parse a header or footer as a command list and process the commands:
 
 ```cpp
 #include <iostream>
@@ -98,7 +96,7 @@ int main()
         switch (c.GetType())
         {
             case HeaderFooterCommandType::SheetName:
-                // Embedded the name of the sheet to header or footer
+                // Embed the name of the sheet in the header or footer
                 break;
             default:
                 break;

@@ -9,30 +9,25 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells for Node.js via C++ provides the Range object which has various utility methods that facilitate the user to work with Excel Ranges easily. This article illustrates the usage of the following methods or properties of the Range object.
+Aspose.Cells for Node.js via C++ provides the Range object which has various utility methods that facilitate the user in working with Excel ranges easily. This article illustrates the usage of the following methods or properties of the Range object.
 
-- **Address**
+- **Address**  
+  Gets the address of the range.
 
-Gets address of the range.
+- **Cell Count**  
+  Gets the total cell count in the range.
 
-- **Cell Count**
+- **Offset**  
+  Gets the range by offset.
 
-Gets all cell count in the range.
+- **Entire Column**  
+  Gets a Range object that represents the entire column (or columns) that contains the specified range.
 
-- **Offset**
-
-Gets range by offset.
-
-- **Entire Column**
-
-Gets a Range object that represents the entire column (or columns) that contains the specified range.
-
-- **Entire Row**
-
-Gets a Range object that represents the entire row (or rows) that contains the specified range.
+- **Entire Row**  
+  Gets a Range object that represents the entire row (or rows) that contains the specified range.
 
 ## **Get Address, Cell Count, Offset, Entire Column and Entire Row of the Range**
-The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for a reference.
+The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
 ```javascript
@@ -77,7 +72,7 @@ console.log("");
 
 ## **Console Output**
 {{< highlight javascript >}}
- Creating Range A1:B3
+Creating Range A1:B3
 
 Range Address: A1:B3
 
@@ -94,6 +89,5 @@ Entire Column: A:A
 Entire Row: 1:1
 
 \----------------------
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

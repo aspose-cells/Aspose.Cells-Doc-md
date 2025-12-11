@@ -9,9 +9,9 @@ description: Learn how to convert Excel charts to images using Aspose.Cells with
 
 {{% alert color="primary" %}}
 
-Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy-to-understand and easy-to-maintain manner. A picture helps.
+Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy‑to‑understand and easy‑to‑maintain manner. A picture helps.
 
-Sometimes, charts are needed in an application or web pages. Or they might be needed for a Word document, a PDF file, a PowerPoint presentation, or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.
+Sometimes, charts are needed in an application or on web pages. Or they might be needed for a Word document, a PDF file, a PowerPoint presentation, or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.
 
 {{% /alert %}}
 
@@ -50,6 +50,7 @@ All [Aspose](http://www.aspose.com/) components work in evaluation mode when fir
    1. Write the code that finds and converts the chart. Below is the code used by the component to accomplish the task. Very few lines of code are used.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertAnExcelChartToImage.go" >}}
+
 ### **Converting a Column Chart to an Image File**
 
 First, create a column chart in Microsoft Excel and convert it to an image file, as above. After executing the sample code, a JPEG file is created based on the column chart in the template Excel file.
@@ -69,6 +70,6 @@ First, create a column chart in Microsoft Excel and convert it to an image file,
 |![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|
 
 1. Set up a project, with references, as described above.
-1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
+1. Convert the chart to an image dynamically. The following code is used by the component to accomplish the task. The code is similar to the previous one:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertAnExcelChartToImage-1.go" >}}

@@ -17,7 +17,7 @@ Sometimes, you want to print a range of pages to an output PDF file. Aspose.Cell
 
 ## **Limiting the Number of Pages Generated**
 
-The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
+The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to a PDF.
 
 ```javascript
 const path = require("path");
@@ -27,7 +27,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 // Open an Excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "TestBook.xlsx"));
-// Instantiate the PdfSaveOption
+// Instantiate the PdfSaveOptions
 const options = new AsposeCells.PdfSaveOptions();
 
 // Print only Page 3 and Page 4 in the output PDF
@@ -42,7 +42,7 @@ workbook.save(path.join(dataDir, "outPDF1.out.pdf"), options);
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering it to PDF. Doing so ensures that formula-dependent values are recalculated, and the correct values are rendered in the output file.
+If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering it to PDF. Doing so ensures that formula‑dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

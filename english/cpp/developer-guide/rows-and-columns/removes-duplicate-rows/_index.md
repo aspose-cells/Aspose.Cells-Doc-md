@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Removing duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, and you can pick which columns should be checked for duplicate information.
+Removing duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a worksheet, and you can select which columns should be checked for duplicate information.
 
-Aspose.Cells provides the `Cells::RemoveDuplicates()` method for this purpose. You can also set `startRow`, `startColumn`, `endRow`, and `endColumn` to pick up columns.
+Aspose.Cells provides the `Cells::RemoveDuplicates()` method for this purpose. You can also specify `startRow`, `startColumn`, `endRow`, and `endColumn` to define the range.
 
-Following are the sample files which can be downloaded for testing this feature:
+The following sample file can be downloaded for testing this feature:
 
 [removeduplicates.xlsx](removeduplicates.xlsx)
 

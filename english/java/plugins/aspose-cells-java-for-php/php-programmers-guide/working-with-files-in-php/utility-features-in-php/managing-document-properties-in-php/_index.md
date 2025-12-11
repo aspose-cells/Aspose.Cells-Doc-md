@@ -8,13 +8,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Adding Custom Properties**
-To add custom document properties using Aspose.Cells Java for PHP, call **add_custom_property** method of the **Document** module.
+To add custom document properties using Aspose.Cells Java for PHP, call the **add_custom_property** method of the **Document** module.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiate a Workbook object by excel file path
+ //Instantiate a Workbook object by **Excel** file path
 
 $workbook = new Workbook($dataDir . "Book1.xls");
 
@@ -49,6 +49,6 @@ $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Accessing Document Properties (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Accessing Document Properties (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

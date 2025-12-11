@@ -3,7 +3,7 @@ title: Verify that Cell Value Satisfies Data Validation Rules
 type: docs
 weight: 210
 url: /javascript-cpp/verify-that-cell-value-satisfies-data-validation-rules/
-description: Learn how to Verify Cell Value Satisfies Data Validation Rules through the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to verify cell value satisfies data validation rules through the Aspose.Cells for JavaScript via C++ API.
 keywords: Get Cell Validation Value JavaScript via C++, Obtain Cell Validation Value JavaScript via C++, Verify whether a value satisfies the data validation rules applied to the cell JavaScript via C++
 ---
 
@@ -14,10 +14,11 @@ Microsoft Excel allows users to add data validation rules to cells. For example,
 Sometimes, it is necessary to verify whether a value satisfies the data validation rules applied to the cell programmatically. In the case above, for example, the entry should fail.
 
 {{% /alert %}} 
-## **Introduction**
-Aspose.Cells for JavaScript via C++ provides the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property to validate cell values programmatically. If the value in a cell does not satisfy the data validation rule applied to that cell, it returns **false**, else **true**.
 
-The following sample code illustrates how the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property works. First, it enters the value 3 into C1. Because this does not satisfy the data validation rule, the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property returns **false**. Then, it enters the value 15 into C1. Because this value satisfies the data validation rule, the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property returns **true**. Similarly, it returns **false** for value 30.
+## **Introduction**
+Aspose.Cells for JavaScript via C++ provides the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property to validate cell values programmatically. If the value in a cell does not satisfy the data validation rule applied to that cell, it returns **false**, otherwise **true**.
+
+The following sample code illustrates how the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property works. First, it enters the value 3 into C1. Because this does not satisfy the data validation rule, the [Cell.validationValue](https://reference.aspose.com/cells/javascript-cpp/cell/#validationValue--) property returns **false**. Then, it enters the value 15 into C1. Because this value satisfies the data validation rule, the property returns **true**. Similarly, it returns **false** for the value 30.
 
 ```html
 <!DOCTYPE html>
@@ -68,14 +69,14 @@ The following sample code illustrates how the [Cell.validationValue](https://ref
             const worksheet = workbook.worksheets.get(0);
 
             // Access Cell C1
-            // Cell C1 has the Decimal Validation applied on it.
-            // It can take only the values Between 10 and 20
+            // Cell C1 has the Decimal Validation applied to it.
+            // It can take only the values between 10 and 20
             const cell = worksheet.cells.get("C1");
 
             // Enter 3 inside this cell (not between 10 and 20)
             cell.value = 3;
 
-            // Check if number 3 satisfies the Data Validation rule applied on this cell
+            // Check if number 3 satisfies the data validation rule applied to this cell
             const valid3 = cell.validationValue;
             console.log("Is 3 a Valid Value for this Cell: " + valid3);
             resultDiv.innerHTML += `<p>Is 3 a Valid Value for this Cell: ${valid3}</p>`;
@@ -83,7 +84,7 @@ The following sample code illustrates how the [Cell.validationValue](https://ref
             // Enter 15 inside this cell (between 10 and 20)
             cell.value = 15;
 
-            // Check if number 15 satisfies the Data Validation rule applied on this cell
+            // Check if number 15 satisfies the data validation rule applied to this cell
             const valid15 = cell.validationValue;
             console.log("Is 15 a Valid Value for this Cell: " + valid15);
             resultDiv.innerHTML += `<p>Is 15 a Valid Value for this Cell: ${valid15}</p>`;
@@ -91,7 +92,7 @@ The following sample code illustrates how the [Cell.validationValue](https://ref
             // Enter 30 inside this cell (not between 10 and 20)
             cell.value = 30;
 
-            // Check if number 30 satisfies the Data Validation rule applied on this cell
+            // Check if number 30 satisfies the data validation rule applied to this cell
             const valid30 = cell.validationValue;
             console.log("Is 30 a Valid Value for this Cell: " + valid30);
             resultDiv.innerHTML += `<p>Is 30 a Valid Value for this Cell: ${valid30}</p>`;

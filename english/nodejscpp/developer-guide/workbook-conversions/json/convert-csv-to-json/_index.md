@@ -12,15 +12,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Convert CSV to JSON**
 
-Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class provides the options for exporting range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class has the following properties.
+Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class provides the options for exporting a range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class has the following properties.
 
 - [**ExportRangeToJsonOptions.getExportAsString()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getExportAsString--): This exports the string value of the cells to JSON.
-- [**ExportRangeToJsonOptions.getHasHeaderRow()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getHasHeaderRow--): This indicates whether the range contains a header row.
-- [**ExportRangeToJsonOptions.getIndent()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getIndent--): Indicates the indent.
+- [**ExportRangeToJsonOptions.getHasHeaderRow()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getHasHeaderRow--): This indicates whether the range contains a header row.
+- [**ExportRangeToJsonOptions.getIndent()**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/#getIndent--): Indicates the indent.
 
 The [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) class.
 
-The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) classes to load the [source CSV file](104398879.csv) and prints the JSON output in the console.
+The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/nodejs-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility/) classes to load the [source CSV file](104398879.csv) and print the JSON output in the console.
 
 ### **Sample Code**
 
@@ -47,7 +47,7 @@ console.log(data);
 ```
 
 ### **Console Output**
-{{< highlight java >}}
+{{< highlight json >}}
 
 [
 {
@@ -56,7 +56,7 @@ console.log(data);
 "edition": "third",
 "author": "Herbert Schildt",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
@@ -66,17 +66,17 @@ console.log(data);
 "edition": "second",
 "author": "EAAAA",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
 {
 "id": 3,
-"language": ".Net",
+"language": ".NET",
 "edition": "second",
 "author": "E.Balagurusamy",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 }

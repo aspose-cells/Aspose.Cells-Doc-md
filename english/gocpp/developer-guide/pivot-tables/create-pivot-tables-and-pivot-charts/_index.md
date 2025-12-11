@@ -19,7 +19,7 @@ Aspose.Cells supports [pivot tables](/cells/cpp/create-pivot-tables-and-pivot-ch
 
 ## **Adding Pivot Tables and Charts**
 
-Aspose.Cells provides a special set of classes used to create pivot tables. These classes are used to create and set PivotTable objects, which act as a PivotTable object's basic building blocks:
+Aspose.Cells provides a special set of classes used to create pivot tables. These classes are used to create and configure PivotTable objects, which act as the basic building blocks of a PivotTable.
 
 - **PivotField**, a field in a pivot table report.
 - **PivotFields**, a collection of all the PivotField objects in a pivot table.
@@ -30,31 +30,32 @@ Aspose.Cells provides a special set of classes used to create pivot tables. Thes
 
 1. Download and install Aspose.Cells:
    1. [Download Aspose.Cells](https://downloads.aspose.com/cells/go-cpp/).
-   1. Install it on your development computer.
-      All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents. To work with the component in its full capacity, you do need to have a valid license.
-1. Create a project:
+   2. Install it on your development computer.  
+      All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only adds watermarks to produced documents. To work with the component at full capacity, you need a valid license.
+2. Create a project:
    1. Start your C++ IDE (e.g., Visual Studio).
-   1. Create a new console application.
-1. Add references:
-   Add reference to the Aspose.Cells component into your project, for example, `...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll`.
+   2. Create a new console application.
+3. Add references:  
+   Add a reference to the Aspose.Cells component in your project, for example, `...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll`.
 
 ### **Adding a Pivot Table**
 
 To create a pivot table using Aspose.Cells:
 
-1. Add some data to a worksheet cells using a `Cell` object's `PutValue` method. You can also use a template file already filled with data. The data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the `PivotTables` collection's `Add` method (encapsulated in the `Worksheet` object).
-1. Access the new `PivotTable` object from the `PivotTables` collection by passing its index. Use any of the pivot table objects encapsulated in the `PivotTable` object to manage the table.
+1. Add some data to a worksheet’s cells using a `Cell` object's `PutValue` method. You can also use a template file already filled with data. The data will be used as the pivot table’s data source.
+2. Add a pivot table to the worksheet by calling the `PivotTables` collection’s `Add` method (encapsulated in the `Worksheet` object).
+3. Access the new `PivotTable` object from the `PivotTables` collection by its index. Use any of the objects within the `PivotTable` to manage the table.
 
 Code examples are given below.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatePivotTablesAndPivotCharts.go" >}}
+
 ### **Adding a Pivot Chart**
 
 To create a PivotChart using Aspose.Cells:
 
 1. Add a chart.
-1. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.
-1. Set other attributes.
+2. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.
+3. Set other attributes.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CreatePivotTablesAndPivotCharts-1.go" >}}

@@ -39,25 +39,27 @@ It is also simple to open an Excel file as a stream. To do so, use an overloaded
 
 ```javascript
 try {
-const path = require("path");
-const fs = require("fs");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const fs = require("fs");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Book2.xls");
-// Opening through Stream
-// Create a Stream object
-const fstream = fs.createReadStream(filePath);
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    const filePath = path.join(dataDir, "Book2.xls");
+    // Opening through Stream
+    // Create a Stream object
+    const fstream = fs.createReadStream(filePath);
 
-// Creating a Workbook object, open the file from a Stream object
-// That contains the content of file and it should support seeking
-const chunks = [];
-fstream.on('data', (chunk) => {
-chunks.push(chunk);
+    // Creating a Workbook object, open the file from a Stream object
+    // that contains the content of the file and should support seeking
+    const chunks = [];
+    fstream.on('data', (chunk) => {
+        chunks.push(chunk);
+    });
+}
 ```
 
-## **How to Open a File with Data only**
+## **How to Open a File with Data Only**
 
 To open a file with data only, use the [**LoadOptions**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions) and [**LoadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadfilter) classes to set the related attributes and options of the classes for the template file to be loaded.
 
@@ -81,7 +83,7 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xlsx"), load
 console.log("File data imported successfully!");
 ```
 
-## **How to Load Visible Sheets only**
+## **How to Load Visible Sheets Only**
 
 While loading a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the [**LoadFilter**](https://reference.aspose.com/cells/nodejs-cpp/loadfilter) class and pass its instance to [**LoadOptions.getLoadFilter()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getLoadFilter--) property.
 
@@ -95,7 +97,7 @@ const sampleFile = "output.xlsx";
 const samplePath = path.join(dataDir, sampleFile);
 
 // Create a sample workbook
-// and put some data in first cell of all 3 sheets
+// and put some data in the first cell of all 3 sheets
 const createWorkbook = new AsposeCells.Workbook();
 createWorkbook.getWorksheets().get("Sheet1").getCells().get("A1").putValue("Aspose");
 createWorkbook.getWorksheets().add("Sheet2").getCells().get("A1").putValue("Aspose");
@@ -109,8 +111,8 @@ loadOptions.setLoadFilter(new AsposeCells.LoadFilter()); // Corrected line by de
 
 const loadWorkbook = new AsposeCells.Workbook(samplePath, loadOptions);
 console.log(`Sheet1: A1: ${loadWorkbook.getWorksheets().get("Sheet1").getCells().get("A1").getValue()}`);
-console.log(`Sheet1: A2: ${loadWorkbook.getWorksheets().get("Sheet2").getCells().get("A1").getValue()}`);
-console.log(`Sheet1: A3: ${loadWorkbook.getWorksheets().get("Sheet3").getCells().get("A1").getValue()}`);
+console.log(`Sheet2: A1: ${loadWorkbook.getWorksheets().get("Sheet2").getCells().get("A1").getValue()}`);
+console.log(`Sheet3: A1: ${loadWorkbook.getWorksheets().get("Sheet3").getCells().get("A1").getValue()}`);
 ```
 
 Here is the implementation of the *CustomLoad* class referenced in the above snippet.
@@ -119,27 +121,27 @@ Here is the implementation of the *CustomLoad* class referenced in the above sni
 const { Workbook, LoadDataFilterOptions } = require("aspose.cells.node");
 
 class CustomLoad {
-startSheet(sheet) {
-if (sheet.isVisible()) {
-// Load everything from visible worksheet
-this.loadDataFilterOptions = LoadDataFilterOptions.All;
-} else {
-// Load nothing
-this.loadDataFilterOptions = LoadDataFilterOptions.Structure;
-}
-}
+    startSheet(sheet) {
+        if (sheet.isVisible()) {
+            // Load everything from a visible worksheet
+            this.loadDataFilterOptions = LoadDataFilterOptions.All;
+        } else {
+            // Load nothing
+            this.loadDataFilterOptions = LoadDataFilterOptions.Structure;
+        }
+    }
 }
 ```
 
 {{% alert color="primary" %}}
 
-An exception will be thrown if you try to open non-native Excel files or other file formats (for example PPT/PPTX, DOC/DOCX, etc.) using Aspose.Cells.
+An exception will be thrown if you try to open non‑native Excel files or other file formats (for example PPT/PPTX, DOC/DOCX, etc.) using Aspose.Cells.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}}
 
-There are fair chances that the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) constructor may throw *OutOfMemoryError* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into memory; therefore, the spreadsheet has to be loaded while enabling the Memory Preferences.
+The **Workbook** constructor may throw an *OutOfMemoryError* while loading large spreadsheets. This exception indicates that the available memory is insufficient to fully load the spreadsheet into memory; therefore, the spreadsheet must be loaded while enabling the Memory Preferences.
 
 {{% /alert %}}
 

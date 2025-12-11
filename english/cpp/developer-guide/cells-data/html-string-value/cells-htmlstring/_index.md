@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you need to set styled data for a specific Cell, you can assign an HTML string to the Cell. Of course, you can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to set styled data for a specific cell, you can assign an HTML string to the cell. Of course, you can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 - [**Cell::GetHtmlString**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gethtmlstring/)
 - [**Cell::SetHtmlString**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/sethtmlstring/)
 
-## **Get and set html string using Aspose.Cells**
+## **Get and Set HTML String Using Aspose.Cells**
 This example shows how to:
 
-1. Create a workbook and add some data.
-1. Get the specific Cell in the first worksheet.
-1. Set html string to the Cell.
-1. Get html string of the Cell.
+1. Create a workbook and add some data.  
+2. Get the specific cell in the first worksheet.  
+3. Set an HTML string to the cell.  
+4. Get the HTML string of the cell.
 
 ```cpp
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
     Worksheet ws = workbook.GetWorksheets().Get(0);
     Cells cells = ws.GetCells();
 
-    // Setting the value to the cells
+    // Setting values to the cells
     Cell cell = cells.Get(u"A1");
     cell.PutValue(u"Fruit");
 
@@ -70,7 +70,7 @@ int main()
     // Set HTML string for C4 cell
     c4.SetHtmlString(u"<i>test italic</i>");
 
-    // Get the HTML string of specific cell
+    // Get the HTML string of the specific cell
     std::cout << c3.GetHtmlString().ToUtf8() << std::endl;
     std::cout << c4.GetHtmlString().ToUtf8() << std::endl;
 

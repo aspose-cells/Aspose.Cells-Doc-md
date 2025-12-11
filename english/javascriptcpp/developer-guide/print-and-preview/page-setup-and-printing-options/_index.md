@@ -27,7 +27,7 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 1. Create a worksheet with some data in Microsoft Excel:  
    1. Open a new workbook in Microsoft Excel.  
    1. Add some data.  
-1. Set page setup options:  
+2. Set page setup options:  
    Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.  
 
 |**Default page setup options.**|  
@@ -38,14 +38,14 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
    1. [Download](https://downloads.aspose.com/cells/javascript-cpp) Aspose.Cells for JavaScript via C++.  
    1. Install it on your development computer.  
       All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.  
-1. Create a project:  
+2. Create a project:  
    1. Start your JavaScript environment.  
    1. Create a new console application.  
       This example will show a JavaScript console application, but you can use C++ bindings too.  
-1. Add references:  
-   1. This example uses Aspose.Cells so add a reference to that component to the project. For example:  
+3. Add references:  
+   1. This example uses Aspose.Cells, so add a reference to that component to the project. For example:  
       …\Program Files\Aspose\Aspose.Cells\Bin\JavaScript-Cpp\Aspose.Cells.node  
-1. Write the application that invokes the API:  
+4. Write the application that invokes the API:  
 
 ```html
 <!DOCTYPE html>
@@ -128,17 +128,17 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 </html>
 ```  
 
-### **Setting Print options**  
+### **Setting Print Options**  
 
 Page setup settings also provide several print options (also called sheet options) that allow users to control how worksheet pages are printed. They allow users to:  
 
-- Select a specific print area of a worksheet.
-- Print titles.
-- Print gridlines.
-- Print row/column headings.
-- Achieve draft quality.
-- Print comments.
-- Print cell errors.
+- Select a specific print area of a worksheet.  
+- Print titles.  
+- Print gridlines.  
+- Print row/column headings.  
+- Achieve draft quality.  
+- Print comments.  
+- Print cell errors.  
 - Define page ordering.  
 
 The example that follows applies print options to the file created in the example above (PageSetup.xls). The screenshot below shows the default print options before new options are applied.  
@@ -208,22 +208,22 @@ Executing the code changes the print options.
             // Defining row numbers 1 as title rows
             pageSetup.printTitleRows = "$1:$2";
             
-            // Allowing to print gridlines
+            // Allow printing gridlines
             pageSetup.printGridlines = true;
             
-            // Allowing to print row/column headings
+            // Allow printing row/column headings
             pageSetup.printHeadings = true;
             
-            // Allowing to print worksheet in black & white mode
+            // Allow printing worksheet in black & white mode
             pageSetup.blackAndWhite = true;
             
-            // Allowing to print comments as displayed on worksheet
+            // Allow printing comments as displayed on worksheet
             pageSetup.printComments = AsposeCells.PrintCommentsType.PrintInPlace;
             
-            // Allowing to print worksheet with draft quality
+            // Allow printing worksheet with draft quality
             pageSetup.printDraft = true;
             
-            // Allowing to print cell errors as N/A
+            // Allow printing cell errors as N/A
             pageSetup.printErrors = AsposeCells.PrintErrorsType.PrintErrorsNA;
             
             // Setting the printing order of the pages to over then down

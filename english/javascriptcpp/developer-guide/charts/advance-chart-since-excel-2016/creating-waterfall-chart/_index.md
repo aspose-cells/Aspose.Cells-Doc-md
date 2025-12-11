@@ -10,13 +10,13 @@ keywords: create waterfall chart in excel JavaScript via C++, creating waterfall
 
 {{% alert color="primary" %}}
 
-A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc., but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or more customization.
+A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc., but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or extensive customization.
 
 {{% /alert %}} 
 
 Aspose.Cells APIs allow creating a waterfall chart with the help of the line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.upBars**](https://reference.aspose.com/cells/javascript-cpp/series/#upBars--) & [**Series.downBars**](https://reference.aspose.com/cells/javascript-cpp/series/#downBars--) properties.
 
-Below provided code snippet demonstrates the usage of Aspose.Cells for JavaScript via C++ to create a waterfall chart from scratch.
+The code snippet below demonstrates the usage of Aspose.Cells for JavaScript via C++ to create a waterfall chart from scratch.
 
 ```html
 <!DOCTYPE html>
@@ -66,7 +66,7 @@ Below provided code snippet demonstrates the usage of Aspose.Cells for JavaScrip
             // Retrieve the Cells of the first Worksheet
             const cells = worksheet.cells;
 
-            // Input some data which chart will use as source
+            // Input some data which the chart will use as source
             cells.get("A1").value = "Previous Year";
             cells.get("A2").value = "January";
             cells.get("A3").value = "March";
@@ -88,7 +88,7 @@ Below provided code snippet demonstrates the usage of Aspose.Cells for JavaScrip
             cells.get("C5").value = 7.5;
             cells.get("C6").value = 9.5;
 
-            // Add a Chart of type Waterfall in same worksheet as of data
+            // Add a chart of type Waterfall in the same worksheet as the data
             const idx = worksheet.charts.add(ChartType.Waterfall, 4, 4, 25, 13);
 
             // Retrieve the Chart object
@@ -100,18 +100,18 @@ Below provided code snippet demonstrates the usage of Aspose.Cells for JavaScrip
             // Add Category Data
             chart.nSeries.categoryData = "$A$1:$A$6";
 
-            // Series has Up Down Bars
+            // Series has up‑down bars
             chart.nSeries.get(0).hasUpDownBars = true;
 
             // Set the colors of Up and Down Bars
             chart.nSeries.get(0).upBars.area.foregroundColor = Color.Green;
             chart.nSeries.get(0).downBars.area.foregroundColor = Color.Red;
 
-            // Make both Series Lines invisible
+            // Make both Series lines invisible
             chart.nSeries.get(0).border.isVisible = false;
             chart.nSeries.get(1).border.isVisible = false;
 
-            // Set the Plot Area Formatting Automatic
+            // Set the plot area formatting to Automatic
             chart.plotArea.area.formatting = FormattingType.Automatic;
 
             // Delete the Legend

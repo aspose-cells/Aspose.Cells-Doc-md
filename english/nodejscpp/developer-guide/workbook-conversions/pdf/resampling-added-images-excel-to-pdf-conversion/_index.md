@@ -38,11 +38,11 @@ workbook.save(path.join(dataDir, "OutputFile_out_pdf"), pdfSaveOptions);
 
 {{% alert color="primary" %}}
 
-Using the the [**setImageResample(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#setImageResample-number-number-) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the [**setImageResample(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#setImageResample-number-number-) option minimizes the size of the output PDF but it may affect the image quality a bit.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**workbook.calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

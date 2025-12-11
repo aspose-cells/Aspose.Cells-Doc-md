@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells provides the [OleObject.GetClassIdentifier()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/getclassidentifier/) property which you can use to get or set the class identifier of embedded OLE object. OLE Object Class Identifiers are actually GUIDs, i.e., Globally Unique Identifiers. GUID is always 16-bytes long, therefore Class Identifiers are also 16-bytes long. They are often found inside the Windows Registry and provide information to the host application about how to open embedded OLE objects containing various embedded resources inside the client application.
+Aspose.Cells provides the [OleObject.GetClassIdentifier()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobject/getclassidentifier/) property which you can use to get or set the class identifier of embedded OLE objects. OLE Object Class Identifiers are actually GUIDs, i.e., Globally Unique Identifiers. GUIDs are always 16 bytes long, therefore class identifiers are also 16 bytes long. They are often found inside the Windows Registry and provide information to the host application about how to open embedded OLE objects containing various embedded resources inside the client application.
 
 ## **Get or Set the Class Identifier of the Embedded OLE Object**
 The following screenshot shows the OLE Object Class Identifier, i.e., GUID, which has been read from the [sample excel file](5115190.xls) containing the embedded PowerPoint OLE object.
@@ -56,7 +56,7 @@ int main()
 ### **Console Output**
 This is the console output of the above sample code when executed with the [sample excel file](5115190.xls).
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}

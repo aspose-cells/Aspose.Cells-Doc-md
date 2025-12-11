@@ -15,11 +15,11 @@ Aspose.Cells supports all the data display formats of DataField.
 
 {{% /alert %}}
 
-## **"Rank Smallest to Largest" and "Rank Largest to Smallest" Display Format Option**
+## **"Rank Smallest to Largest" and "Rank Largest to Smallest" Display Format Options**
 
 Aspose.Cells provides the ability to set the display format option for pivot fields. For this, the API provides the [**PivotField.GetCalculationType()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotshowvaluessetting/getcalculationtype/) property. To rank largest to smallest, you may set the [**PivotField.GetCalculationType()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotshowvaluessetting/getcalculationtype/) property to [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivotfielddatadisplayformat/). The following code snippet demonstrates setting the display format options.
 
-Sample source and output files can be downloaded from here for testing the sample code:
+Sample source and output files can be downloaded here for testing the sample code:
 
 [Source Excel File](101089332.xlsx)
 

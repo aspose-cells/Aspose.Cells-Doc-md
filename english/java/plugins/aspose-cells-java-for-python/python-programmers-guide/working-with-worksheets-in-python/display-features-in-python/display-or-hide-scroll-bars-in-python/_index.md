@@ -1,52 +1,50 @@
----
-title: Display or Hide Scroll Bars in Python
-type: docs
-weight: 20
-url: /java/display-or-hide-scroll-bars-in-python/
+---  
+title: Display or Hide Scroll Bars in Python  
+type: docs  
+weight: 20  
+url: /java/display-or-hide-scroll-bars-in-python/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Display or Hide Scroll Bars**
-### **Hiding Row/Column Headers**
-To hide row/column headers using **Aspose.Cells Java for Python**, call **DisplayHideRowColumnHeaders** module.
+## **Aspose.Cells - Display or Hide Scroll Bars**  
 
-**Python Code**
+### **Hiding Row/Column Headers**  
+To hide row/column headers using **Aspose.Cells Java for Python**, call the **DisplayHideRowColumnHeaders** module.  
 
-{{< highlight python >}}
+**Python Code**  
 
- workbook = self.Workbook(self.dataDir + "Book1.xls")
+{{< highlight python >}}  
 
-#Hiding the vertical scroll bar of the Excel file
+workbook = self.Workbook(self.dataDir + "Book1.xls")  
 
-workbook.getSettings().setVScrollBarVisible(False)
+# Hiding the vertical scroll bar of the Excel file  
+workbook.getSettings().setVScrollBarVisible(False)  
 
-#Hiding the horizontal scroll bar of the Excel file
+# Hiding the horizontal scroll bar of the Excel file  
+workbook.getSettings().setHScrollBarVisible(False)  
 
-workbook.getSettings().setHScrollBarVisible(False)
+# Saving the modified Excel file in the default (that is Excel 2003) format  
+workbook.save(self.dataDir + "output.xls")  
 
-#Saving the modified Excel file in default (that is Excel 2003) format
+# Print message  
+print("Scroll bars are now hidden, please check the output document.")  
 
-workbook.save(self.dataDir + "output.xls")
+{{< /highlight >}}  
 
-\# Print message
+### **Making Row/Column Headers Visible**  
+Make row and column headers visible by using the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class's `setRowColumnHeadersVisible(True)` method.  
 
-print "Scroll bars are now hidden, please check the output document."
+**Python Code**  
 
-{{< /highlight >}}
-### **Making Row/Column Headers Visible**
-Make row and column headers visible by using the Worksheet class' setRowColumnHeadersVisible(true) method.
+{{< highlight python >}}  
 
-**Python Code**
+# Displaying the headers of rows and columns  
+worksheet.setRowColumnHeadersVisible(True)  
 
-{{< highlight python >}}
+{{< /highlight >}}  
 
- # Displaying the headers of rows and columns
-
-worksheet.setRowColumnHeadersVisible(true)
-
-{{< /highlight >}}
-## **Download Running Code**
-Download **Hello World (Aspose.Cells)** from any of the below mentioned social coding sites:
+## **Download Running Code**  
+Download **Hello World (Aspose.Cells)** from any of the below‑mentioned social coding sites:  
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

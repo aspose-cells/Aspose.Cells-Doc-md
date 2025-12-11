@@ -3,13 +3,13 @@ title: Get Validation Applied on a Cell
 type: docs
 weight: 200
 url: /javascript-cpp/get-validation-applied-on-a-cell/
-description: This article shows how to apply validation on a Cell with JavaScript via C++.
+description: This article shows how to apply validation to a cell with JavaScript via C++.
 keywords: apply cell validation in excel with JavaScript via C++, apply validation on a cell in excel with JavaScript via C++, apply validation in excel with JavaScript via C++, cell validation in excel with JavaScript via C++, JavaScript via C++ apply cell validation in excel, JavaScript via C++ apply validation on a cell in excel, JavaScript via C++ cell validation in excel
 ---
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells for JavaScript via C++ to get the validation applied to a cell. Aspose.Cells provides the [**Cell.validation**](https://reference.aspose.com/cells/javascript-cpp/cell/#validation--) method for this purpose. If there is no validation applied on the cell, it returns null.
+You can use Aspose.Cells for JavaScript via C++ to get the validation applied to a cell. Aspose.Cells provides the [**Cell.validation**](https://reference.aspose.com/cells/javascript-cpp/cell/#validation--) method for this purpose. If there is no validation applied to the cell, it returns null.
 
 Similarly, you can use [**Worksheet.validations.validationInCell(number, number)**](https://reference.aspose.com/cells/javascript-cpp/validationcollection/#validationInCell-number-number-) method to acquire the validation applied to a cell by providing its row and column indices.
 
@@ -17,7 +17,7 @@ Similarly, you can use [**Worksheet.validations.validationInCell(number, number)
 
 ## JavaScript code to get the validation applied on a Cell
 
-Below code sample shows you how to get validation applied on a cell.
+Below code sample shows you how to get validation applied to a cell.
 
 ```html
 <!DOCTYPE html>
@@ -64,7 +64,7 @@ Below code sample shows you how to get validation applied on a cell.
             // Access its first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Cell C1 has the Decimal Validation applied on it.
+            // Cell C1 has decimal validation applied to it.
             const cell = worksheet.cells.get("C1");
 
             // Access the validation applied on this cell
@@ -78,7 +78,7 @@ Below code sample shows you how to get validation applied on a cell.
             output += `<p>Operator: ${validation.operator}</p>`;
             output += `<p>Formula1: ${validation.formula1}</p>`;
             output += `<p>Formula2: ${validation.formula2}</p>`;
-            output += `<p>Ignore blank: ${validation.ignoreBlank}</p>`;
+            output += `<p>Ignore blanks: ${validation.ignoreBlank}</p>`;
 
             document.getElementById('result').innerHTML = output;
         });

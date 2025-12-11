@@ -1,19 +1,20 @@
----
-title: Create TextBox in which each line is having different Horizontal Alignment
-type: docs
-weight: 310
-url: /net/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
+---  
+title: Create a TextBox in which each line has a different horizontal alignment  
+type: docs  
+weight: 310  
+url: /net/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/  
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-You can set the horizontal alignment of your paragraph text using the [**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) property.
+You can set the horizontal alignment of your paragraph text using the [**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) property.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following sample code creates three lines and sets the horizontal alignment of each of them.
+The following sample code creates three lines and sets the horizontal alignment of each of them.  
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}
-{{< app/cells/assistant language="csharp" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTextBoxWithDifferentHorizontalAlignment-1.cs" >}}  
+{{< app/cells/assistant language="csharp" >}}  
+

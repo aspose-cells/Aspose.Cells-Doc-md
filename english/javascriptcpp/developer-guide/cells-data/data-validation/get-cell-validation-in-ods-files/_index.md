@@ -3,7 +3,7 @@ title: Get Cell Validation in ODS Files
 type: docs
 weight: 180
 url: /javascript-cpp/get-cell-validation-in-ods-files/
-description: Learn how to Get Cell Validation in ODS Files through the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to get cell validation in ODS files using the Aspose.Cells for JavaScript via C++ API.
 keywords: Get Cell Validation JavaScript via C++, Obtain Cell Validation JavaScript via C++
 ---
 
@@ -11,7 +11,7 @@ keywords: Get Cell Validation JavaScript via C++, Obtain Cell Validation JavaScr
 
 With Aspose.Cells for JavaScript via C++, you can get the validation applied to a cell in ODS files. For this, the API provides the [**Cell.validation**](https://reference.aspose.com/cells/javascript-cpp/cell/#validation--) property of the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell/) class.  
 
-The following code sample demonstrates the use of the [**Cell.validation**](https://reference.aspose.com/cells/javascript-cpp/cell/#validation--) property by loading the [source ODS](101089354.ods) file and reading the validation of the cell A9.  
+The following code sample demonstrates the use of the [**Cell.validation**](https://reference.aspose.com/cells/javascript-cpp/cell/#validation--) property by loading the [source ODS](101089354.ods) file and reading the validation of cell A9.  
 
 ### **Sample Code**  
 

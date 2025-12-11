@@ -3,7 +3,7 @@ title: How to Format Number to Percentage
 type: docs
 weight: 10
 url: /nodejs-cpp/how-to-format-number-to-percentage/
-description: This article will introduce how to Format Number to Percentageusing Aspose.Cells for Node.js via C++ API.
+description: This article will introduce how to format number to percentage using Aspose.Cells for Node.js via C++ API.
 keywords: Convert a number into a percentage format, Transform numerical values into percentages, Change numbers to be displayed as percentages, Formatting numbers as percentages, Adjusting numerical figures to percentage representation, Format Number to Percentage
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -26,7 +26,7 @@ Formatting numbers to percentages in Excel is a common practice for several reas
 
 7. **Educational and Instructional Use**: In educational settings, formatting numbers as percentages can help students better understand fractions, ratios, and proportions. It's a practical application of mathematical concepts.
 
-To format a number as a percentage in Excel, you simply select the cell(s) containing your data, then choose the "Percentage" format option, either from the Home tab on the Ribbon or by right-clicking and selecting "Format Cells." Excel will then display the numbers as percentages, multiplying the original decimal values by 100 and adding a percentage sign. This automatic conversion facilitates the reasons mentioned above, making data management and presentation both efficient and effective.
+To format a number as a percentage in Excel, you simply select the cell(s) containing your data, then choose the "Percentage" format option, either from the Home tab on the Ribbon or by right‑clicking and selecting "Format Cells." Excel will then display the numbers as percentages, multiplying the original decimal values by 100 and adding a percentage sign. This automatic conversion facilitates the reasons mentioned above, making data management and presentation both efficient and effective.
 
 ## **How to Format Number to Percentage in Excel**
 Formatting numbers as percentages in Excel is a straightforward process that can be accomplished in a few steps. Here's how you can do it:
@@ -41,14 +41,14 @@ Formatting numbers as percentages in Excel is a straightforward process that can
 ### Using the Format Cells Dialog
 
 1. **Select the Cells**: Highlight the cells you want to format.
-2. **Open Format Cells Dialog**: Right-click on one of the selected cells and choose "Format Cells" from the context menu. Alternatively, you can press `Ctrl + 1` on your keyboard to open the Format Cells dialog.
+2. **Open Format Cells Dialog**: Right‑click on one of the selected cells and choose "Format Cells" from the context menu. Alternatively, you can press `Ctrl + 1` on your keyboard to open the Format Cells dialog.
 3. **Select Percentage**: In the Format Cells dialog, click on the "Number" tab if it's not already selected. Then, in the list on the left, click "Percentage."
 4. **Adjust Decimal Places**: You can adjust the number of decimal places you want to display. For example, if you want to show two decimal places, enter "2" in the "Decimal places" box.
 5. **Apply**: Click "OK" to apply the percentage format. Your selected cells will now display values as percentages.
 
 ### Using a Formula
 
-If you're entering a formula or want to convert an existing number to a percentage within a formula, you can simply multiply the number by 100 and add the percentage sign to the format.
+If you're entering a formula or want to convert an existing number to a percentage within a formula, you can simply multiply the number by 100 and add the percent sign to the format.
 
 For example, if you have a value in cell A1 and you want to display it as a percentage in cell B1, you could use the following formula in B1:
 
@@ -75,8 +75,7 @@ First, make sure you have Aspose.Cells for Node.js via C++ referenced in your pr
 
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. 
-
+You can either create a new workbook or open an existing one.
 
 ### Step 3: Access the Worksheet
 

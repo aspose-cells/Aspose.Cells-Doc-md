@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**  
 
-When a Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Cells for Node.js via C++, it also exports various types of Document, Workbook, and Worksheet properties as shown in the following screenshot. You can avoid exporting these properties by setting the [**HtmlSaveOptions.getExportDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportDocumentProperties--), [**HtmlSaveOptions.getExportWorkbookProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportWorkbookProperties--) and [**HtmlSaveOptions.getExportWorksheetProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportWorksheetProperties--) as **false**. The default value of these properties is **true**. The following screenshot shows how these properties look like in exported HTML.  
+When a Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Cells for Node.js via C++, it also exports various types of Document, Workbook, and Worksheet properties as shown in the following screenshot. You can avoid exporting these properties by setting the [**HtmlSaveOptions.getExportDocumentProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportDocumentProperties--), [**HtmlSaveOptions.getExportWorkbookProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportWorkbookProperties--) and [**HtmlSaveOptions.getExportWorksheetProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExportWorksheetProperties--) as **false**. The default value of these properties is **true**. The following screenshot shows how these properties look in the exported HTML.  
 
 ![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)  
 
@@ -35,7 +35,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Specify Html Save Options
 const options = new AsposeCells.HtmlSaveOptions();
 
-// We do not want to export document, workbook and worksheet properties
+// We do not want to export the document, workbook, and worksheet properties
 options.setExportDocumentProperties(false);
 options.setExportWorkbookProperties(false);
 options.setExportWorksheetProperties(false);
@@ -43,5 +43,5 @@ options.setExportWorksheetProperties(false);
 // Export the Excel file to Html with Html Save Options
 workbook.save("outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

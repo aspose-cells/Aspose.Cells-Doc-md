@@ -1,32 +1,32 @@
----
-title: Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook with C++
-linktitle: Copy VBA Macro UserForm DesignerStorage
-type: docs
-weight: 130
-url: /cpp/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
-description: Learn how to copy VBA Macro UserForm DesignerStorage from a template to a target workbook using Aspose.Cells for C++.
+---  
+title: Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook with C++  
+linktitle: Copy VBA Macro UserForm DesignerStorage  
+type: docs  
+weight: 130  
+url: /cpp/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/  
+description: Learn how to copy VBA Macro UserForm DesignerStorage from a template to a target workbook using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules, such as Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage:
+Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules, such as Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module there is extra data called Designer Storage that must be accessed or copied. The following two methods deal with Designer Storage:  
 
-- [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/getdesignerstorage/)
-- [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/adddesignerstorage/)
+- [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/getdesignerstorage/)  
+- [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/adddesignerstorage/)  
 
-## **Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook**
+## **Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook**  
 
-Please see the following sample code. It copies the VBA project from the [template Excel file](50528345.xlsm) into an empty workbook and saves it as the [output Excel file](50528346.xlsm). If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/getdesignerstorage/) and [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/adddesignerstorage/) methods.
+Please see the following sample code. It copies the VBA project from the [template Excel file](50528345.xlsm) into an empty workbook and saves it as the [output Excel file](50528346.xlsm). If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/getdesignerstorage/) and [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbamodulecollection/adddesignerstorage/) methods.  
 
-**![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**
+**![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**  
 
-The following screenshot shows the output Excel file and its contents which were copied from the template Excel file. When you click on the Button 1, it opens up the VBA User Form which itself has a command button that shows a message box on clicking.
+The following screenshot shows the output Excel file and its contents, which were copied from the template file. When you click Button 1, it opens the VBA User Form, which contains a command button that displays a message box when clicked.  
 
-**![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)**
+**![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)**  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```cpp
 #include <iostream>

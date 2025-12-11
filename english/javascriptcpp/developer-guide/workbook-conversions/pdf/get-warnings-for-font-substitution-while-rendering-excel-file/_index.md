@@ -20,7 +20,7 @@ The screenshot below shows a source Excel file that we will use in the following
 |**Not all fonts are rendered correctly**|  
 | :- |  
 |![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)|  
-Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable fonts as shown below.
+Aspose.Cells will substitute the fonts in cells A6 and A7 with suitable fonts as shown below.
 
 |**Substituted fonts**|  
 | :- |  
@@ -31,7 +31,7 @@ You can download the source Excel file and the output PDF from the following lin
 - [source.xlsx](5112611.xlsx)  
 - [output.pdf](5112616.pdf)  
 ## **Code**  
-The following code implements the IWarningCallback and sets the PdfSaveOptions.warningCallback property with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the WarningCallback.Warning() method.
+The following code implements the IWarningCallback and sets the PdfSaveOptions.warningCallback property with the implemented interface. Now, whenever any font is substituted in any cell, Aspose.Cells will fire a warning inside the WarningCallback.Warning() method.
 
 ```html
 <!DOCTYPE html>
@@ -114,6 +114,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 
 {{% alert color="primary" %}}  
 
-If your spreadsheet contains formulas, it is best to call Workbook.calculateFormula method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call the `Workbook.calculateFormula()` method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

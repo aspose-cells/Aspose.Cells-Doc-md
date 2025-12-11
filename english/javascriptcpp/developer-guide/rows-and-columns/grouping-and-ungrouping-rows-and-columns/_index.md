@@ -11,7 +11,7 @@ description: Discover how to group and ungroup rows and columns in Excel using A
 
 In a Microsoft Excel file, you can create an outline for the data to let you show and hide levels of detail with a single mouse click.
 
-Click the **Outline Symbols**, 1,2,3, + and - to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading as shown below in the figure:
+Click the **Outline Symbols**, 1, 2, 3, + and – to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading as shown below in the figure:
 
 |**Grouping Rows and Columns.**|
 | :- |
@@ -21,7 +21,7 @@ Click the **Outline Symbols**, 1,2,3, + and - to quickly display only the rows o
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection that represents all cells in the worksheet.
 
-The [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
+The [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection provides several methods to manage rows or columns in a worksheet; a few of these are discussed below in more detail.
 
 ### **Grouping Rows and Columns**
 
@@ -98,7 +98,7 @@ Microsoft Excel allows you to configure group settings for displaying:
 
 Developers can configure these group settings using the [**outline**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#outline--) property of the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class.
 
-### **Summary Rows to Below of Detail**
+### **Summary Rows Below Detail**
 
 It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://reference.aspose.com/cells/javascript-cpp/outline) class' [**summaryRowBelow**](https://reference.aspose.com/cells/javascript-cpp/outline/#summaryRowBelow--) property to **true** or **false**.
 

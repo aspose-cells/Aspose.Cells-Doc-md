@@ -15,7 +15,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells for Python via .NET provides a [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells for Python via .NET provides a [**Worksheet.show_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/show_formulas) property. Set this to **True** to cause Microsoft Excel to display formulas.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ShowFormulasInsteadOfValues-1.py" >}}
 {{< app/cells/assistant language="python-net" >}}

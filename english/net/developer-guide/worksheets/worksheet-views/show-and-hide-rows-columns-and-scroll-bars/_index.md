@@ -1,5 +1,5 @@
 ---
-title: Show and Hide Rows Columns and Scroll Bars
+title: Show and Hide Rows, Columns, and Scroll Bars
 type: docs
 weight: 20
 url: /net/show-and-hide-rows-columns-and-scroll-bars/
@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides ways to control the visibility of Rows, Column and Scroll Bars of a worksheet.
+Aspose.Cells provides ways to control the visibility of Rows, Columns, and Scroll Bars of a worksheet.
 
 {{% /alert %}}
 
@@ -22,26 +22,26 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Developers can show any hidden row or column by calling the [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) and [**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) methods of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection respectively. Both methods take two parameters:
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: worksheet.Cells.UnhideColumn(5, -1)
+While making a hidden column visible, if you need to restore it to its previously assigned width or its original width, please unhide the column with a negative width. For example: `worksheet.Cells.UnhideColumn(5, -1)`
 
 {{% /alert %}}
 
 ### **Hide Rows and Columns**
 
-Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) and [**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) methods of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) and [**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) methods of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection respectively. Both methods take the row or column index as a parameter to hide the specific row or column.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-It is also possible to hide a row or column by setting the row height or column width to 0 respectively.
+It is also possible to hide a row or column by setting the row height or column width to 0 respectively.
 
 {{% /alert %}}
 
@@ -62,7 +62,7 @@ Microsoft Excel also provides horizontal and vertical scroll bars so that users 
 
 ### **Controlling the Visibility of Scroll Bars**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class' [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) properties. [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) are Boolean properties, which means that these properties can only store **true** or **false** values.
+Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class' [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) properties. **WorkbookSettings.IsVScrollBarVisible** and **WorkbookSettings.IsHScrollBarVisible** are Boolean properties, which means that these properties can only store **true** or **false** values.
 
 #### **Making Scroll Bars Visible**
 
@@ -74,7 +74,7 @@ Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cell
 
 **Sample Code**
 
-Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls.
+Below is a complete code that opens an Excel file, `book1.xls`, hides both scroll bars, and then saves the modified file as `output.xls`.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

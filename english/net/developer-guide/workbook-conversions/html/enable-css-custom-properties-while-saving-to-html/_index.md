@@ -9,9 +9,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved.Please use [**HtmlSaveOptions.EnableCssCustomProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/EnableCssCustomProperties) property and set it **true** while saving to HTML.
-![todo:image_alt_text](enable-css-custom-properties-while-saving-to-html-1.jpg) 
- 
+When you save your Excel file to HTML, for scenarios where there are multiple occurrences of the same base64 image, the custom property allows the image data to be saved only once, so the performance of the resultant HTML can be improved. Please use [**HtmlSaveOptions.EnableCssCustomProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/EnableCssCustomProperties) property and set it **true** while saving to HTML.
+![todo:image_alt_text](enable-css-custom-properties-while-saving-to-html-1.jpg)
+
 
 ## **Enable CSS Custom Properties while saving to HTML**
 

@@ -4,7 +4,7 @@ linktitle: Export Data from Worksheet
 type: docs
 weight: 180
 url: /net/export-data-from-worksheet/
-description: This article explains how to export or import data from worksheet into datatable using C#.
+description: This article explains how to export or import data from a worksheet into a DataTable using C#.
 keywords: C# Export Data from Worksheet, C# Export Data to DataTable, Columns Containing Strongly Typed Data, Columns Containing Non-Strongly Typed Data, C# Export Range with flag to skip column name, C# How to Export Range with Header.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Overview
 
-This article explains how to export your Worksheet data to DataTable using C#. It covers the following topics
+This article explains how to export your Worksheet data to a DataTable using C#. It covers the following topics
 
 _Format_: **Excel**
 - [C# Excel to DataTable](#csharp-excel-to-datatable)
@@ -48,21 +48,21 @@ This article discusses some data export techniques that developers have access t
 
 ## **How to Export Data from Worksheet**
 
-Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also allow them to export their worksheet data to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8). As we know that [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) is the part of ADO.NET and is used to hold data. Once the data is stored in a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8), it can be used in any way according to the requirements of users. Developers can also store this data (stored in [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)) directly to a database if they wish. So, we can see that it becomes easier for the developers to manipulate worksheet data if it is exported to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8).
+Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also **allows** them to export their worksheet data to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8). As we know that [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) is part of ADO.NET and is used to hold data. Once the data is stored in a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8), it can be used in any way according to the requirements of users. Developers can also store this data (stored in [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)) directly to a database if they wish. So, we can see that it becomes easier for the developers to manipulate worksheet data if it is exported to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8).
 
 ## **How to Export Data to DataTable Using Aspose.Cells**
 
-Developers can easily export their worksheet data to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object by calling either [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) or [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. Both methods are used in different scenarios, which are discussed below in more detail.
+Developers can easily export their worksheet data to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object by calling either [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) or [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. Both methods are used in different scenarios, which are discussed below in more detail.
 
 ## **Columns Containing Strongly Typed Data**
 
-We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (that means all values in a column must have the same data type) then we can export the worksheet content by calling the [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method takes the following parameters to export worksheet data as [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object:
+We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (that means all values in a column must have the same data type) then we can export the worksheet content by calling the [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. The [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method takes the following parameters to export worksheet data as a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object:
 
-- **Row number**, the row number of the first cell data will be exported from.
-- **Column number**, the column number of the first cell the data will be exported from.
-- **Number of rows**, the number of rows to export.
-- **Number of columns**, the number of columns to export.
-- **Export column names**, a Boolean property that indicates whether the data in the first row of the worksheet should be exported as column names of the [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) or not.
+- **Row number** – the row number of the first cell from which data will be exported.
+- **Column number** – the column number of the first cell from which the data will be exported.
+- **Number of rows** – the number of rows to export.
+- **Number of columns** – the number of columns to export.
+- **Export column names** – a Boolean property that indicates whether the data in the first row of the worksheet should be exported as column names of the [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) or not.
 
 _Steps: Exporting Data to DataTable_
 
@@ -85,27 +85,27 @@ _Steps: Exporting Data to DataTable_
 
 _Code Steps:_
 
-1. Load your Excel file in [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook/) object.
-   - [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook/) object can load Excel file formats e.g. XLS, XLSX, XLSM, ODS etc.
-3. Acces the first [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet/) in the Excel file.
-4. Choose your export area e.g. 7 rows and 2 columns starting from 1st cell of **DataTable**.
-5. Use [ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/) method to export the data into DataTable.
+1. Load your Excel file in a [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook/) object.
+   - The [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook/) object can load Excel file formats, e.g., XLS, XLSX, XLSM, ODS, etc.
+2. **Access** the first [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet/) in the Excel file.
+3. Choose your export area, e.g., 7 rows and 2 columns starting from the first cell of the **DataTable**.
+4. Use the [ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/) method to export the data into a DataTable.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingStronglyTypedData-1.cs" >}}
 
 ## **Columns Containing Non-Strongly Typed Data**
 
-If all values in the columns of a worksheet are not strongly typed (that means the values in a column may have the different data types) then we can export the worksheet content by calling the [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method takes the same set of parameters as that of the [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method to export worksheet data as a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object.
+If all values in the columns of a worksheet are not strongly typed (that means the values in a column may have **different** data types) then we can export the worksheet content by calling the [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. The [**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method takes the same set of parameters as that of the [**ExportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method to export worksheet data as a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingNonStronglyTypedData-1.cs" >}}
 
 ## **How to Export Range with Header**
 
-Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) where a flag is available to skip header row in the exported data. Following code exports a range of data to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) with an argument [**ExportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions) which contains [**ExportColumnName**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/exportcolumnname) flag. It is set to **true** if header information is there, hence it will not be included in data and set to **false** if no header is there and all rows are to be considered as data.
+Data from a range can be exported to a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) where a flag is available to skip the header row in the exported data. The following code exports a range of data to a DataTable with an argument **ExportTableOptions**, which contains the **ExportColumnName** flag. It is set to **true** if header information is present, in which case the header will be excluded from the data, and set to **false** if no header is present and all rows are considered data.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportRangeWithFlagToSkipColumnHeader-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Export Excel Data to DataTable without any Formatting](/cells/net/export-excel-data-to-datatable-without-any-formatting/)
 - [Export HTML String Value of the Cells to the DataTable](/cells/net/export-html-string-value-of-the-cells-to-the-datatable/)
 - [Export Visible Rows Data from Worksheet](/cells/net/export-visible-rows-data-from-worksheet/)

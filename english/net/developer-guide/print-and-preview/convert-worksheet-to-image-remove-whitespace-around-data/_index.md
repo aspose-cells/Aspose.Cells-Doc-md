@@ -13,11 +13,11 @@ Sometimes, you need to present worksheet images in applications or web pages. Fo
 
 {{% /alert %}}
 
-## **Remove Whitespace around Data**
+## **Remove Whitespace Around Data**
 
-The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
+The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
 
-When you use the sheet-to-image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, bottom, left and right page setup margins for the source worksheet to 0 and specify [**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) attributes accordingly.
+When you use the sheet‑to‑image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, bottom, left, and right page‑setup margins for the source worksheet to 0, and by specifying the [**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) attributes accordingly.
 
 The following code snippet removes the whitespace around the data in the output image.
 

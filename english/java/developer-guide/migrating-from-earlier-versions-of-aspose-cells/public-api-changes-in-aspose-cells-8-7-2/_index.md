@@ -14,17 +14,17 @@ This document describes the changes to the Aspose.Cells API from version 8.7.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Extended the Default Calculation Engine**
-Aspose.Cells APIs have powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow to extend the default calculation engine to meet custom calculation requirements of any application.
+Aspose.Cells APIs have **a** powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you to** extend the default calculation engine to meet custom calculation requirements of any application.
 
-Following APIs have been added with the release of Aspose.Cells for Java 8.7.2.
+**The** following APIs have been added with the release of Aspose.Cells for Java 8.7.2.
 
-1. AbstractCalculationEngine Class
-1. CalculationData Class
-1. CalculationOptions.CustomEngine Property
+1. AbstractCalculationEngine Class  
+2. CalculationData Class  
+3. CalculationOptions.CustomEngine Property  
 
 {{% alert color="primary" %}} 
 
-Above mentioned APIs allow to implement custom calculation engine for all functions (including Excel's native functions) with more flexibility.
+**The** above‑mentioned APIs allow **implementing** a custom calculation engine for all functions (including Excel's native functions) with more flexibility.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -64,7 +64,7 @@ Following is the simple usage scenario.
 
 {{< /highlight >}}
 ### **Added Overloaded Indexer for TextBoxCollection**
-Aspose.Cells for Java 8.7.2 has exposed the overloaded indexer for the TextBoxCollection class in order to access the instance of TextBox using its name as String.
+Aspose.Cells for Java 8.7.2 has exposed **an** overloaded indexer for the TextBoxCollection class in order to access **an** instance of TextBox using its name as **a** string.
 
 {{% alert color="primary" %}} 
 
@@ -72,7 +72,7 @@ For more details on this feature, please review the detailed article on [Accessi
 
 {{% /alert %}} 
 
-Simple usage scenario looks as follow. 
+Simple usage scenario looks as **follows**. 
 
 **Java**
 
@@ -103,4 +103,5 @@ box.setName("MyTextBox");
 box = sheet.getTextBoxes().get("MyTextBox");
 
 {{< /highlight >}}
+
 {{< app/cells/assistant language="java" >}}

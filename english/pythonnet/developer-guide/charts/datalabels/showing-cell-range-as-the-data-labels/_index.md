@@ -15,15 +15,15 @@ In Microsoft Excel 2013, you can display a cell range for data labels. Aspose.Ce
 
 {{% /alert %}}
 
-## **Check-box to Show Cell Range as Data Labels**
+## **Check box to Show Cell Range as Data Labels**
 
 To show the cell range as data labels in Microsoft Excel:
 
-1. Select the series data labels and right-click to open the context menu.
-1. Select **Format Data Labels**. Label options are displayed.
-1. Select or clear the option **Label Contains - Value From Cells**.
+1. Select the series' data labels and right‑click to open the context menu.
+2. Select **Format Data Labels**. Label options are displayed.
+3. Select or clear the option **Label Contains - Value From Cells**.
 
-The sample code below accesses a chart series data labels and sets the [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) property to **true** to select the **Label Contains - Value From Cells** option.
+The sample code below accesses a chart series' data labels and sets the [**DataLabels.show_cell_range**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/show_cell_range) property to **true** to select the **Label Contains - Value From Cells** option.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ShowCellRangeAsDataLabels.py" >}}
 {{< app/cells/assistant language="python-net" >}}

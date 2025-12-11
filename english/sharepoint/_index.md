@@ -14,13 +14,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 **Welcome to Aspose.Cells for SharePoint**
 
-Aspose.Cells for SharePoint is a flexible solution supporting spreadsheet conversion that makes it possible to convert MS Excel documents within the Microsoft SharePoint applications.
+Aspose.Cells for SharePoint is a flexible solution supporting spreadsheet conversion that makes it possible to convert MS Excel documents within Microsoft SharePoint applications.
 
 {{% /alert %}}
 
 ## **Aspose.Cells for SharePoint Resources**
 
-The following are the links to some useful resources you may need to accomplish your tasks.
+The following are links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Cells for SharePoint Online Documentation](/cells/sharepoint/)
 - [Aspose.Cells for SharePoint Features](/cells/sharepoint/features/)

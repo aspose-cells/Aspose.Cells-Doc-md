@@ -15,13 +15,13 @@ Microsoft Excel allows you to copy a sparkline by specifying the data range and 
 
 To copy a sparkline to other cells in Microsoft Excel:
 
-1. Select the cell containing the sparkline.
-1. Select **Edit Data** from the **Sparkline** section of the **Design** tab.
-1. Select **Edit Group Location & Data**.
-1. Specify the data range and location.
-1. Click **OK**.
+1. Select the cell containing the sparkline.  
+2. Select **Edit Data** from the **Sparkline** section of the **Design** tab.  
+3. Select **Edit Group Location & Data**.  
+4. Specify the data range and location.  
+5. Click **OK**.
 
-Aspose.Cells for Python via .NET provides the SparklineCollection.Add(dataRange, row, column) method to specify a sparkline group's data range and location. The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations in the sparkline group. Finally, it writes the output Excel file on disk which is also shown in the screenshot above.
+Aspose.Cells for Python via .NET provides the `SparklineCollection.Add(dataRange, row, column)` method to specify a sparkline group's data range and location. The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations to the sparkline group. Finally, it writes the output Excel file on disk, which is also shown in the screenshot above.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Sparklines-CopySparkline-1.py" >}}
 

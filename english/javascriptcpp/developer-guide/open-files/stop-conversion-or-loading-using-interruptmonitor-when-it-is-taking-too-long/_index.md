@@ -9,11 +9,11 @@ description: Learn how to stop the conversion of Workbook to various formats usi
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells for JavaScript via C++ allows you to stop the conversion of Workbook to various formats like PDF, HTML etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) both for stopping conversion as well as to stop loading huge workbook. Please use [**Workbook.interruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/workbook/#interruptMonitor--) property for stopping conversion and [**LoadOptions.interruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#interruptMonitor--) property for loading huge workbook.
+Aspose.Cells for JavaScript via C++ allows you to stop the conversion of Workbook to various formats like PDF, HTML, etc., using the [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) object when it is taking too long. The conversion process is often both CPU‑ and memory‑intensive, and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) both for stopping conversion as well as for loading a huge workbook. Please use [**Workbook.interruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/workbook/#interruptMonitor--) property for stopping conversion and [**LoadOptions.interruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#interruptMonitor--) property for loading a huge workbook.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
-The following sample code explains the usage of [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
+The following sample code explains the usage of [**InterruptMonitor**](https://reference.aspose.com/cells/javascript-cpp/interruptmonitor) object. The code converts a fairly large Excel file to PDF. It will take several seconds (i.e., *more than 30 seconds*) to get it converted because of these lines of code.
 
 {{< highlight javascript >}}
 
@@ -25,7 +25,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-As you see **J1000000** is quite a farther cell in XLSX file. However, the **waitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds and the program ends/terminates. Please use the following code to execute the sample code.
+As you can see, **J1000000** is a fairly distant cell in the XLSX file. However, the **waitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds and the program ends/terminates. Please use the following code to run the sample code.
 
 {{< highlight javascript >}}
 
@@ -74,7 +74,7 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
                 this._timeoutId = null;
             }
 
-            // This function will create workbook and convert it to Pdf format
+            // This function will create workbook and convert it to PDF format
             async createWorkbookAndConvertItToPdfFormat(monitorThread, fileUint8Array) {
                 // Create a workbook object
                 let wb;
@@ -85,7 +85,7 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
                     wb = new Workbook();
                 }
 
-                // Assign it InterruptMonitor object
+                // Assign it an InterruptMonitor object
                 wb.interruptMonitor = this.im;
 
                 // Access first worksheet
@@ -95,7 +95,7 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
                 const cell = ws.cells.get("J1000000");
                 cell.value = "This is text.";
 
-                // Save the workbook to Pdf format (async) and provide download
+                // Save the workbook to PDF format (async) and provide download
                 const outputData = await wb.saveAsync(SaveFormat.Pdf);
                 const blob = new Blob([outputData], { type: "application/pdf" });
                 const downloadLink = document.getElementById('downloadLink');
@@ -112,7 +112,7 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
                 }
             }
 
-            // This function will interrupt the conversion process after 10s
+            // This function will interrupt the conversion process after 10 s
             waitForWhileAndThenInterrupt() {
                 // schedule an interrupt after 10 seconds
                 this._timeoutId = setTimeout(() => {
@@ -149,7 +149,7 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
             }
 
             const example = new StopConversionOrLoadingUsingInterruptMonitor();
-            // Let errors propagate (no try-catch) as required
+            // Let errors propagate (no try‑catch) as required
             await example.testRun(fileUint8Array);
         });
     </script>

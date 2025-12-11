@@ -11,16 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Dynamic scrolling chart is a type of graphical representation used to display data that changes over time. It is designed to provide a real-time view of data, allowing users to track continuous updates and trends. The chart continuously updates itself as new data is added, and it automatically scrolls to show the most recent information.
+A dynamic scrolling chart is a type of graphical representation used to display data that changes over time. It is designed to provide a real‑time view of data, allowing users to track continuous updates and trends. The chart continuously updates itself as new data is added, and it automatically scrolls to show the most recent information.
 
-Dynamic scrolling charts are commonly used in various industries, such as finance, stock market analysis, weather tracking, and social media analytics. They enable users to visualize and analyze data patterns and make informed decisions based on real-time information.
+Dynamic scrolling charts are commonly used in various industries, such as finance, stock market analysis, weather tracking, and social media analytics. They enable users to visualize and analyze data patterns and make informed decisions based on real‑time information.
 
 These charts are typically interactive, allowing the user to zoom in or out, scroll through historical data, and adjust time intervals. They often support multiple data series, providing a comprehensive view of different metrics and their correlations.
 
-Overall, dynamic scrolling charts are valuable tools for monitoring and analyzing time-series data, facilitating real-time decision-making and enhancing data visualization capabilities.
+Overall, dynamic scrolling charts are valuable tools for monitoring and analyzing time‑series data, facilitating real‑time decision‑making and enhancing data visualization capabilities.
 
 ## **Use Aspose.Cells to create Dynamic Scrolling Chart**
-In the next paragraphs, we will show you how to create Dynamic Scrolling Chart using Aspose.Cells for Node.js via C++. We'll show you the code for the example, as well as the Excel file created with this code.
+In the next paragraphs, we will show you how to create a dynamic scrolling chart using Aspose.Cells for Node.js via C++. We'll show you the code for the example, as well as the Excel file created with this code.
 
 ## **Sample Code**
 The following sample code will generate the [Dynamic Scrolling Chart File](DynamicScrollingChart.xlsx).
@@ -46,10 +46,10 @@ const showDays = 10;
 let currentDay = 1;
 
 for (let i = 0; i < allDays; i++) {
-const cellA = `A${i + 2}`;
-const cellB = `B${i + 2}`;
-sheet.getCells().get(cellA).putValue(i + 1);
-sheet.getCells().get(cellB).putValue(50 * (i % 2) + 20 * (i % 3) + 10 * Math.floor(i / 3));
+  const cellA = `A${i + 2}`;
+  const cellB = `B${i + 2}`;
+  sheet.getCells().get(cellA).putValue(i + 1);
+  sheet.getCells().get(cellB).putValue(50 * (i % 2) + 20 * (i % 3) + 10 * Math.floor(i / 3));
 }
 
 // This is the Dynamic Scrolling Control Data
@@ -58,11 +58,11 @@ sheet.getCells().get("G20").putValue(currentDay);
 sheet.getCells().get("H19").putValue("Show Days");
 sheet.getCells().get("H20").putValue(showDays);
 
-// Set the dynamic range for the chart's data source. 
+// Set the dynamic range for the chart's data source.
 let index = sheets.getNames().add("Sheet1!ChtScrollData");
 sheets.getNames().get(index).setRefersTo("=OFFSET(Sheet1!$B$2,Sheet1!$G$20,0,Sheet1!$H$20,1)");
 
-// Set the dynamic range for the chart's data labels. 
+// Set the dynamic range for the chart's data labels.
 index = sheets.getNames().add("Sheet1!ChtScrollLabels");
 sheets.getNames().get(index).setRefersTo("=OFFSET(Sheet1!$A$2,Sheet1!$G$20,0,Sheet1!$H$20,1)");
 
@@ -91,5 +91,5 @@ In the generated file, you can operate on the scroll bar, while the chart dynami
 "=OFFSET(Sheet1!$B$2,Sheet1!$G$20,0,Sheet1!$H$20,1)"
 ```
 
-You can try changing the number "10" to "15" in cell "Sheet1!$H$20", and the dynamic chart will count the latest 15 sets of data. Now we have created a dynamic scrolling chart using Aspose.Cells for Node.js via C++ successfully.
+You can try changing the number "10" to "15" in cell `Sheet1!$H$20`, and the dynamic chart will count the latest 15 sets of data. Now we have created a dynamic scrolling chart using Aspose.Cells for Node.js via C++ successfully.
 {{< app/cells/assistant language="nodejs-cpp" >}}

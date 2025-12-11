@@ -8,6 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 Below is the code comparison of applying style to rows and columns of workbooks:
+
 ## **VSTO**
 {{< highlight csharp >}}
 
@@ -27,11 +28,12 @@ Below is the code comparison of applying style to rows and columns of workbooks:
 
  style.Interior.Pattern = Excel.XlPattern.xlPatternSolid;
 
- Excel.Range FormatingRange = mySheet.get_Range("A1", "A10");
+ Excel.Range FormattingRange = mySheet.get_Range("A1", "A10");
 
- FormatingRange.Style = "NewStyle";
+ FormattingRange.Style = "NewStyle";
 
 {{< /highlight >}}
+
 ## **Aspose.Cells**
 {{< highlight csharp >}}
 
@@ -43,47 +45,37 @@ Below is the code comparison of applying style to rows and columns of workbooks:
 
  style.VerticalAlignment = TextAlignmentType.Center;
 
- //Setting the horizontal alignment of the text in the "A1" cell
-
+ // Setting the horizontal alignment of the text in the "A1" cell
  style.HorizontalAlignment = TextAlignmentType.Center;
 
- //Setting the font color of the text in the "A1" cell
-
+ // Setting the font color of the text in the "A1" cell
  style.Font.Color = Color.Green;
 
- //Shrinking the text to fit in the cell
-
+ // Shrinking the text to fit in the cell
  style.ShrinkToFit = true;
 
- //Setting the bottom border color of the cell to red
-
+ // Setting the bottom border color of the cell to red
  style.Borders[BorderType.BottomBorder].Color = Color.Red;
 
- //Creating StyleFlag
-
+ // Creating StyleFlag
  StyleFlag styleFlag = new StyleFlag();
 
  styleFlag.HorizontalAlignment = true;
-
  styleFlag.VerticalAlignment = true;
-
  styleFlag.ShrinkToFit = true;
-
  styleFlag.Borders = true;
-
  styleFlag.FontColor = true;
 
- //Accessing a row from the Rows collection
-
+ // Accessing a column from the Columns collection
  Column column = mySheet.Cells.Columns[0];
 
- //Assigning the Style object to the Style property of the row
-
+ // Assigning the Style object to the Style property of the column
  column.ApplyStyle(style, styleFlag);
 
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
+
 ## **Download**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
 {{< app/cells/assistant language="csharp" >}}

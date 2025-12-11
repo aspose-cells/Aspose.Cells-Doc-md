@@ -10,15 +10,15 @@ url: /javascript-cpp/returning-a-range-of-values-using-abstractcalculationengine
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine) class which is used to implement user-defined or custom functions that are not supported by Microsoft Excel as built-in functions.
+Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine) class which is used to implement user‑defined or custom functions that are not supported by Microsoft Excel as built‑in functions.
 
 This article will explain how to return the range of values from [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine).
 
 {{% /alert %}}
 
-The following code demonstrates the use of the [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine) class and returns the range of values via its method.
+The following code demonstrates the use of the [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine) class and returns the range of values through its method.
 
-Create a class with a function *calculateCustomFunction*. This class implements [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine).
+Create a class with a function *calculate*. This class implements [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine).
 
 ```html
 <!DOCTYPE html>
@@ -137,7 +137,7 @@ Now use the above function in your program
             const cells = workbook.worksheets.get(0).cells;
             const cell = cells.get(0, 0);
 
-            // Set array formula (converted setter to property assignment)
+            // Set array formula
             cell.arrayFormula = "=MYFUNC()";
 
             const style = cell.style;

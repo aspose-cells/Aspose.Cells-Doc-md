@@ -14,10 +14,12 @@ Sometimes, you want to change the default font and font color of the GridDesktop
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
+
 ## **Change Default Font and Font Color at Design Time**
 The following screenshot shows how to change the default font and font color of GridDesktop at Design Time.
 
 ![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+
 ## **Change Default Font and Font Color at Run Time**
 The following sample code explains how to change the default font and font color of GridDesktop at Run Time.
 
@@ -29,7 +31,7 @@ System.Drawing.Font fnt = new System.Drawing.Font("Arial Black", 18);
 
 this.gridDesktop1.DefaultCellFont = fnt;
 
-//Assign your desired Font color to DefaultCellFontColor property
+//Assign your desired font color to the DefaultCellFontColor property
 
 this.gridDesktop1.DefaultCellFontColor = System.Drawing.Color.Blue;
 

@@ -1,25 +1,25 @@
 ---
-title: Encrypt And Decrypt ODS files with JavaScript via C++
-linktitle: Encrypt And Decrypt ODS files
+title: Encrypt and Decrypt ODS Files with JavaScript via C++
+linktitle: Encrypt and Decrypt ODS Files
 type: docs
 weight: 10
 url: /javascript-cpp/encrypt-and-decrypt-ods-files/
-description: Password-protect and encrypt ODS files using Aspose.Cells for JavaScript via C++. 
+description: Password‑protect and encrypt ODS files using Aspose.Cells for JavaScript via C++.
 ---
 
 {{% alert color="primary" %}}
-OpenOffice.org is a full-featured office suite which supports password-protecting and encrypting files. However, an encrypted ODS file can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise warning messages. The Encryption options are not applicable for ODS files unlike other file types. 
+OpenOffice.org is a full‑featured office suite that supports password‑protecting and encrypting files. However, an encrypted ODS file can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise warning messages. Encryption options are not applicable for ODS files unlike other file types.  
 Aspose.Cells allows you to encrypt and decrypt ODS files. Decrypted ODS files can be opened both in Excel and OpenOffice.
 {{% /alert %}}
 
 ## **Encrypt with OpenOffice Calc**
-1. Select **Save as** and click the **Save With Password** box.
-1. Click the **Save** button.
-1. Type your desired password into both the **Enter Password to Open** and **Confirm Password** fields in the Set Password window that opens. 
-1. Click the **OK** button to save the file.
+1. Select **Save As** and click the **Save with Password** box.  
+2. Click the **Save** button.  
+3. Type your desired password into both the **Enter Password to Open** and **Confirm Password** fields in the Set Password window that opens.  
+4. Click the **OK** button to save the file.
 
 ## **Encrypt ODS file with Aspose.Cells for JavaScript via C++**
-To encrypt an ODS file, load the file and set the [**WorkbookSettings.password**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#password--) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
+To encrypt an ODS file, load the file and set the `WorkbookSettings.password` value to the desired password before saving it. The resulting encrypted ODS file can be opened only in OpenOffice.
 
 ```html
 <!DOCTYPE html>
@@ -63,7 +63,7 @@ To encrypt an ODS file, load the file and set the [**WorkbookSettings.password**
             // Instantiating a Workbook object by opening the uploaded ODS file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Password protect the file (converted from getSettings().setPassword -> settings.password)
+            // Password‑protect the file
             workbook.settings.password = "1234";
 
             // Saving the ODS file
@@ -82,7 +82,7 @@ To encrypt an ODS file, load the file and set the [**WorkbookSettings.password**
 ```
 
 ## **Decrypt ODS file with Aspose.Cells for JavaScript via C++**
-To decrypt an ODS file, load the file by providing a password in the [**LoadOptions.password**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#password--). Once the file is loaded, set the [**WorkbookSettings.password**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#password--) string to null.
+To decrypt an ODS file, load the file by providing the password via `LoadOptions.password`. Once loaded, set the `WorkbookSettings.password` property to `null`.
 
 ```html
 <!DOCTYPE html>
@@ -132,7 +132,7 @@ To decrypt an ODS file, load the file by providing a password in the [**LoadOpti
             // Load the encrypted ODS file with the appropriate load options
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            // Set the password to null (remove password from settings)
+            // Remove the password from settings
             workbook.settings.password = null;
 
             // Save the decrypted ODS file and provide download link

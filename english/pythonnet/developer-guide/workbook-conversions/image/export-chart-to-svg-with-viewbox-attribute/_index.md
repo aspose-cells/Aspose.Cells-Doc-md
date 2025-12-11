@@ -4,14 +4,14 @@ type: docs
 weight: 280
 url: /python-net/export-chart-to-svg-with-viewbox-attribute/
 description: Export Chart to SVG with viewBox attribute by using Aspose.Cells for Python via .NET API.
-keywords: Python Export Chart to SVG with viewBox attribute, Export Chart to SVG with viewBox attribute in Python via NET, Python Convert Chart to SVG with viewBox attribute.
+keywords: Python Export Chart to SVG with viewBox attribute, Export Chart to SVG with viewBox attribute in Python via .NET, Python Convert Chart to SVG with viewBox attribute.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells for Python via .NET provides [**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) property which when set to **true** exports the chart to SVG with viewBox attribute.
+By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells for Python via .NET provides the [**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) property, which when set to **true**, exports the chart to SVG with the viewBox attribute.
 
 {{% /alert %}}
 
@@ -23,18 +23,16 @@ The following sample code exports the chart to SVG format with the viewBox attri
 
 {{% alert color="primary" %}}
 
-If you open the chart's SVG in notepad, you will find the **viewBox** attribute similar to this.
+If you open the chart's SVG in Notepad, you will find the **viewBox** attribute, similar to this:
 
 {{< highlight java >}}
-
  <svg xmlns="http://www.w3.org/2000/svg"
-
+ 
      xmlns:xlink="http://www.w3.org/1999/xlink"
-
+ 
      width="100%" height="100%"
-
+ 
      viewBox="0 0 480 288">
-
 {{< /highlight >}}
 
 {{% /alert %}}

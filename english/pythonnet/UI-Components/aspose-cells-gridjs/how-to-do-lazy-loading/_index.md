@@ -41,7 +41,6 @@ from aspose.cellsgridjs import Config
 Config.set_lazy_loading(True)
 ```  
 
-
 ### Step 2: Set Action URL in Client File  
 
 Configure the lazy‑loading URL in your client‑side JavaScript file. The URL must match the route you registered in Flask (the `BaseRouteName` you set above).  
@@ -56,7 +55,7 @@ After the user clicks on a worksheet that is not the active one, the data‑quer
 
 ### Step 3: Implement Lazy Loading Action in a Flask Controller  
 
-Create a Flask route that implement the lazy loading.  
+Create a Flask route that implements the lazy loading.  
 
 #### Example implementation without the base controller  
 
@@ -83,10 +82,7 @@ def lazy_loading():
         return response
     except Exception as e:
         return Response(str(e), status=500)
-
 ```  
-
-
 
 ## Demo and Examples  
 

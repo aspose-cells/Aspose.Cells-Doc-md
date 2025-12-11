@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Custom sorting in Pivot Table**
-By using the Aspose.Cells API, you can sort Pivot Tables on field values. The following code snippet loads the sample Excel file and adds three pivot tables. The first pivot table is without custom sorting, the second pivot table is sorted on "SeaFood" row field values, and the third pivot table is sorted on "28/07/2000" column field values.
+By using the Aspose.Cells API, you can sort Pivot Tables on field values. The following code snippet loads the sample Excel file and adds three pivot tables. The first pivot table does not use custom sorting, the second pivot table is sorted on "Seafood" row field values, and the third pivot table is sorted on "28/07/2000" column field values.
 
 Sample source file and output files can be downloaded from here for testing the sample code:
 
@@ -49,7 +49,7 @@ int main()
     // Access the instance of the newly added PivotTable
     PivotTable pivotTable = pivotTables.Get(index);
 
-    // Unshow grand totals for rows and columns
+    // Hide grand totals for rows and columns
     pivotTable.SetShowRowGrandTotals(false);
     pivotTable.SetShowColumnGrandTotals(false);
 
@@ -73,14 +73,14 @@ int main()
     pivotTable.CalculateData();
     // End of source PivotTable
 
-    // Sort the PivotTable on "SeaFood" row field values
+    // Sort the PivotTable on "Seafood" row field values
     // Add a PivotTable to the worksheet
     index = pivotTables.Add(u"=Sheet1!A1:C10", u"E10", u"PivotTable2");
 
     // Access the instance of the newly added PivotTable
     pivotTable = pivotTables.Get(index);
 
-    // Unshow grand totals for rows and columns
+    // Hide grand totals for rows and columns
     pivotTable.SetShowRowGrandTotals(false);
     pivotTable.SetShowColumnGrandTotals(false);
 
@@ -103,7 +103,7 @@ int main()
 
     pivotTable.RefreshData();
     pivotTable.CalculateData();
-    // End of sort the PivotTable on "SeaFood" row field values
+    // End of sorting the PivotTable on "Seafood" row field values
 
     // Sort the PivotTable on "28/07/2000" column field values
     // Add a PivotTable to the worksheet
@@ -112,7 +112,7 @@ int main()
     // Access the instance of the newly added PivotTable
     pivotTable = pivotTables.Get(index);
 
-    // Unshow grand totals for rows and columns
+    // Hide grand totals for rows and columns
     pivotTable.SetShowRowGrandTotals(false);
     pivotTable.SetShowColumnGrandTotals(false);
 
@@ -135,15 +135,15 @@ int main()
 
     pivotTable.RefreshData();
     pivotTable.CalculateData();
-    // End of sort the PivotTable on "28/07/2000" column field values
+    // End of sorting the PivotTable on "28/07/2000" column field values
 
     // Save the Excel file
-    wb.Save(outDir + u"out_java.xlsx");
+    wb.Save(outDir + u"out_cpp.xlsx");
 
     // Save as PDF
     PdfSaveOptions options;
     options.SetOnePagePerSheet(true);
-    wb.Save(outDir + u"out_java.pdf", options);
+    wb.Save(outDir + u"out_cpp.pdf", options);
 
     Aspose::Cells::Cleanup();
 }

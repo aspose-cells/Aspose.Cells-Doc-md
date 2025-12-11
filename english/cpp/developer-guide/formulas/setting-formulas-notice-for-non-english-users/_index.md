@@ -1,10 +1,10 @@
 ---
-title: Setting Formulas - Notice for Non English Users with C++
-linktitle: Setting Formulas - Notice for Non English Users
+title: Setting Formulas - Notice for Non‑English Users with C++
+linktitle: Setting Formulas - Notice for Non‑English Users
 type: docs
 weight: 10
 url: /cpp/setting-formulas-notice-for-non-english-users/
-description: Learn how to set formulas in Aspose.Cells for C++ with English (US) style for non-English users.
+description: Learn how to set formulas in Aspose.Cells for C++ with English (US) style for non‑English users.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -15,9 +15,10 @@ Aspose.Cells supports most of the formulas/functions that are part of Microsoft 
 
 {{% /alert %}} 
 
-## **Notice for Non English Users**
-There are two tips that non-English users must follow when creating formulas with Aspose.Cells:
+## **Notice for Non‑English Users**
+There are two tips that non‑English users must follow when creating formulas with Aspose.Cells:
 
-1. Formulas must be entered in English. For example, use the English "=SUM()" not the German "=SUMME()".
-1. Always use a comma (,) to delimit function parameters. For some language options or settings, the delimiter for function parameters is a semicolon but Aspose.Cells uses the English style comma. For example, use "=IF (C5=0,0,C3/C4)" not "=IF(C5=0;0;C3/C4)".
+1. Formulas must be entered in English. For example, use the English "`=SUM()`" not the German "`=SUMME()`".
+2. Always use a comma (,) to delimit function parameters. For some language options or settings, the delimiter for function parameters may be a semicolon, but Aspose.Cells uses the English‑style comma. For example, use "`=IF(C5=0,0,C3/C4)`" not "`=IF(C5=0;0;C3/C4)`".
+
 {{< app/cells/assistant language="cpp" >}}

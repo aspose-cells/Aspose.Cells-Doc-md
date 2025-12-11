@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-There are different numbers of rows and columns supported by Excel formats. For example, XLS supports 65536 rows and 256 columns while XLSX supports 1048576 rows and 16384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**GetMaxRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties.
+There are different numbers of rows and columns supported by Excel formats. For example, XLS supports 65,536 rows and 256 columns while XLSX supports 1,048,576 rows and 16,384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**GetMaxRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties.
 
 ## **Find Maximum Rows and Columns supported by XLS and XLSX formats**
 
-The following sample code creates a workbook first in XLS and then in XLSX format. After creation, it prints the values of [**GetMaxRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties. Please see the console output of the code given below for your reference.
+The following sample code creates a workbook first in XLS format and then in XLSX format. After creation, it prints the values of [**GetMaxRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties. Please see the console output of the code given below for your reference.
 
 ## **Sample Code**
 
@@ -77,3 +77,4 @@ Maximum Columns: 16384
 
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}
+

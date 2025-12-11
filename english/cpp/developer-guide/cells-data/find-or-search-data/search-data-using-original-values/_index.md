@@ -4,7 +4,7 @@ linktitle: Search Data using Original Values
 type: docs
 weight: 380
 url: /cpp/search-data-using-original-values/
-description: Learn how to Search Data using Original Values through the Aspose.Cells for C++ API.
+description: Learn how to search data using original values with the Aspose.Cells for C++ API.
 keywords: Search Data using Original Values, Find Data using Original Values, Search Data by Original Values, Find Data by Original Values
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has formula =Sum(A1:A2) and its value is 20 but it is formatted as ---, then the value 20 is hidden and cannot be found using Microsoft Excel find options. However, you can find it using Aspose.Cells using [**LookInType.OriginalValues**](https://reference.aspose.com/cells/cpp/aspose.cells/lookintype/)
+Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has the formula `=Sum(A1:A2)` and its value is 20, but it is formatted as `---`. Then the value 20 is hidden and cannot be found using Microsoft Excel find options. However, you can find it using Aspose.Cells with **LookInType.OriginalValues**.
 
 {{% /alert %}}
 
-The following sample code illustrates the above point. It finds cell D4 which cannot be found using Microsoft Excel find options but Aspose.Cells can find it using [**LookInType.OriginalValues**](https://reference.aspose.com/cells/cpp/aspose.cells/lookintype/). Please read the comments inside the code for more information.
+The following sample code illustrates the above point. It finds cell D4, which cannot be found using Microsoft Excel find options, but Aspose.Cells can find it using **LookInType.OriginalValues**. Please read the comments inside the code for more information.
 
 ## C++ code to search data using original values
 
@@ -42,24 +42,24 @@ int main()
     // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Add 10 in cell A1 and A2
+    // Add 10 to cells A1 and A2
     worksheet.GetCells().Get(u"A1").PutValue(10);
     worksheet.GetCells().Get(u"A2").PutValue(10);
 
-    // Add Sum formula in cell D4 but customize it as ---
+    // Add a SUM formula in cell D4 but customize its format to ---
     Cell cell = worksheet.GetCells().Get(u"D4");
 
     Style style = cell.GetStyle();
     style.SetCustom(u"---", true);
     cell.SetStyle(style);
 
-    // The result of formula will be 20 but 20 will not be visible because the cell is formatted as ---
+    // The result of the formula will be 20, but 20 will not be visible because the cell is formatted as ---
     cell.SetFormula(u"=Sum(A1:A2)");
 
     // Calculate the workbook
     workbook.CalculateFormula();
 
-    // Create find options, we will search 20 using original values otherwise 20 will never be found because it is formatted as ---
+    // Create find options; we will search for 20 using original values; otherwise 20 will never be found because it is formatted as ---
     FindOptions options;
     options.SetLookInType(LookInType::OriginalValues);
     options.SetLookAtType(LookAtType::EntireContent);
@@ -67,7 +67,7 @@ int main()
     Cell foundCell;
     int32_t obj = 20;
 
-    // Find 20 which is Sum(A1:A2) and formatted as ---
+    // Find 20, which is Sum(A1:A2) and formatted as ---
     foundCell = worksheet.GetCells().Find(obj, foundCell, options);
 
     // Print the found cell
@@ -84,9 +84,8 @@ int main()
 
 Here is the console output of the above sample code.
 
-{{< highlight java >}}
-
+{{< highlight cpp >}}
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="cpp" >}}

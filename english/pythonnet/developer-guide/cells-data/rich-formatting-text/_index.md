@@ -4,7 +4,7 @@ linktitle: Rich Formatting Text
 type: docs
 weight: 40
 url: /python-net/access-and-update-the-portions-of-rich-text-of-cell/
-description: Learn how to Access and Update the Portions of Rich Text of Cell through the Aspose.Cells for Python via .NET API.
+description: Learn how to access and update the portions of rich text of a cell through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Access and Update Rich Text of Cell, Python Get Rich Text of Cell, Python Edit Rich Text of Cell, Python Access Rich Text of Cell, Python Update Rich Text of Cell, Python Change Rich Text of Cell.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,15 +12,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET allows you to access and update the portions of the rich text of the cell. For this purpose, you can use [**Cell.get_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_characters/#) and [**Cell.set_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_characters/#list) methods. These methods will return and accept the array of [**FontSetting**](https://reference.aspose.com/cells/python-net/aspose.cells/fontsetting) objects which you can use to access and update various properties of font like font name, font color, boldness, etc.
+Aspose.Cells for Python via .NET allows you to access and update the portions of the rich text of a cell. For this purpose, you can use [**Cell.get_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_characters/#) and [**Cell.set_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_characters/#list) methods. These methods return and accept an array of [**FontSetting**](https://reference.aspose.com/cells/python-net/aspose.cells/fontsetting) objects, which you can use to access and update various font properties such as font name, font color, boldness, etc.
 
 {{% /alert %}}
 
 ## **Access and Update the Portions of Rich Text of Cell**
 
-The following code demonstrates the usage of [**Cell.get_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_characters/#) and [**Cell.set_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_characters/#list) methods using the [source excel file](5112369.xlsx) which you can download from the provided link. The source excel file has a rich text in the cell A1. It has 3 portions and each portion has a different font. The following code snippet accesses these portions and updates the first portion with a new font name. Finally, it saves the workbook as [output excel file](5112366.xlsx). When you will open it, you will find the font of the first portion of the text has changed to **"Arial"**.
+The following code demonstrates the usage of [**Cell.get_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_characters/#) and [**Cell.set_characters()**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_characters/#list) methods using the source Excel file (5112369.xlsx), which you can download from the provided link. The source Excel file contains rich text in cell A1. It has three portions, and each portion has a different font. The following code snippet accesses these portions and updates the first portion with a new font name. Finally, it saves the workbook as the output Excel file (5112366.xlsx). When you open it, you will see that the font of the first portion of the text has changed to **"Arial"**.
 
-### C# code to access and update the portions of Rich Text of Cell
+### Python code to access and update the portions of rich text of a cell
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-UpdateRichTextCells-1.py" >}}
 
@@ -31,19 +31,12 @@ Here is the console output of the above sample code using the [source excel file
 {{< highlight java >}}
 
 Before updating the font settings....
-
 Century
-
 Courier New
-
 Verdana
-
 After updating the font settings....
-
 Arial
-
 Courier New
-
 Verdana
 
 {{< /highlight >}}

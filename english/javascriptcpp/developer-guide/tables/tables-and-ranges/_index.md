@@ -9,14 +9,14 @@ url: /javascript-cpp/tables-and-ranges/
 ## **Introduction**  
 
 Sometimes you create a table in Microsoft Excel and do not want to keep working with the table functionality that it comes with. Instead, you want something that looks like a table. To keep data in a table without losing formatting, convert the table to a regular range of data.  
-Aspose.Cells does support this feature of Microsoft Excel for tables and list objects.  
+Aspose.Cells supports this feature of Microsoft Excel for tables and list objects.  
 
 ## **Using Microsoft Excel**  
 
 Use the **Convert to Range** feature to quickly convert a table to a range without losing formatting. In Microsoft Excel 2007/2010:  
 
 1. Click anywhere in the table to make sure that the active cell is in a table column.  
-1. On the **Design** tab, in the **Tools** group, click **Convert to Range**.  
+2. On the **Design** tab, in the **Tools** group, click **Convert to Range**.  
 
 ## **Using Aspose.Cells**  
 
@@ -59,7 +59,7 @@ Use the **Convert to Range** feature to quickly convert a table to a range witho
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiate workbook from uploaded file
+            // Instantiate a workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Access the first worksheet and convert the first table/list object to a normal range
@@ -90,9 +90,9 @@ The table features are no longer available after the table has been converted to
 
 ## **Convert Table to Range with Options**  
 
-Aspose.Cells provides additional options while converting Table to Range through the [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class. The [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class provides [**lastRow**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/#lastRow--) property which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index and the rest of the formatting will be removed.  
+Aspose.Cells provides additional options while converting a table to a range through the [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class. The [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class provides the [**lastRow**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/#lastRow--) property, which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index, and the rest of the formatting will be removed.  
 
-The sample code given below demonstrates the use of [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class.  
+The sample code given below demonstrates the use of the [**TableToRangeOptions**](https://reference.aspose.com/cells/javascript-cpp/tabletorangeoptions/) class.  
 
 ```html
 <!DOCTYPE html>
@@ -143,10 +143,10 @@ The sample code given below demonstrates the use of [**TableToRangeOptions**](h
             const options = new TableToRangeOptions();
             options.lastRow = 5;
 
-            // Convert the first table/list object (from the first worksheet) to normal range
+            // Convert the first table/list object (from the first worksheet) to a normal range
             workbook.worksheets.get(0).listObjects.get(0).convertToRange(options);
 
-            // Saving the modified Excel file
+            // Save the modified Excel file
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

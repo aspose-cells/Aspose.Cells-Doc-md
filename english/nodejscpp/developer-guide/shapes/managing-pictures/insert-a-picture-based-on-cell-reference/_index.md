@@ -10,12 +10,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Sometimes you have an empty picture and need to show data or contents in the picture by setting a cell reference in the Formula Bar. Aspose.Cells supports this feature (Microsoft Excel 2010).
+Sometimes you have an empty picture and need to show data or content in the picture by setting a cell reference in the Formula Bar. Aspose.Cells supports this feature (Microsoft Excel 2010).
 {{% /alert %}}
 
 ## Inserting a Picture Based on Cell Reference
 
-Aspose.Cells for Node.js via C++ supports displaying the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell or cell range is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object. Add a picture to the worksheet by calling the [**ShapeCollection.addPicture(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addPicture-number-number-number-number-uint8array-) method of the [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) object). Specify the cell range by using the [**Picture.getFormula()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getFormula--) attribute of the [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/picture) object.
+Aspose.Cells for Node.js via C++ supports displaying the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell or cell range is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object. Add a picture to the worksheet by calling the [**ShapeCollection.addPicture(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addPicture-number-number-number-number-uint8array-) method of the [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection) (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) object). Specify the cell range by using the [**Picture.getFormula()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getFormula--) attribute of the [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/picture) object.
 
 ### Code Example
 
@@ -43,7 +43,7 @@ const stream = Uint8Array.from(imagedata);
 const pic = workbook.getWorksheets().get(0).getShapes().addPicture(0, 3, stream, 10, 10);
 // Specify the formula that refers to the source range of cells
 pic.setFormula("A1:C10");
-// Update the shapes selected value in the worksheet
+// Update the shape's selected value in the worksheet
 workbook.getWorksheets().get(0).getShapes().updateSelectedValue();
 
 // Save the Excel file.

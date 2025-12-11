@@ -19,7 +19,7 @@ To change the format of a single cell in Excel, follow these steps:
 
 2. Locate the cell you want to format.
 
-3. Right-click on the cell and select "Format Cells" from the context menu. Alternatively, you can select the cell and go to the Home tab in the Excel ribbon, click on the "Format" dropdown in the "Cells" group, and select "Format Cells".
+3. Right‑click on the cell and select "Format Cells" from the context menu. Alternatively, you can select the cell and go to the Home tab in the Excel ribbon, click on the "Format" dropdown in the "Cells" group, and select "Format Cells".
 
 4. The "Format Cells" dialog box will appear. Here, you can choose various formatting options to apply to the selected cell. For example, you can change the font style, font size, font color, number format, borders, background color, etc. Explore the different tabs in the dialog box to access various formatting options.
 
@@ -33,7 +33,7 @@ To change the format of a cell using Aspose.Cells, you can use the following met
 3. [Cell.SetStyle(Style style, StyleFlag flag)](https://reference.aspose.com/cells/go-cpp/cell/setstyle_style/)
 
 ## **Sample Code**
-In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and change the format to the cell. Finally, we save the workbook to a new file.
+In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells ("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and apply the format to the cell. Finally, we save the workbook to a new file.
 ![todo:image_alt_text](change-format.png)
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeFormat.go" >}}

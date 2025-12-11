@@ -1,5 +1,5 @@
 ---
-title: Finding Absolute Position of Shape inside the Worksheet
+title: Finding Absolute Position of Shape inside the worksheet
 type: docs
 weight: 8000
 url: /net/finding-absolute-position-of-shape-inside-the-worksheet/
@@ -17,7 +17,7 @@ The following sample code displays the absolute position of the first shape in t
 
 {{< highlight java >}}
 
-Absolute Position of this Shape is (320 , 183)
+Absolute position of the shape is (320, 183)
 
 {{< /highlight >}}
 

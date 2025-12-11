@@ -11,13 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel users can add images to spreadsheets. With Aspose.Cells for Node.js via C++, it's possible to read images from Microsoft Excel files and save them to a local drive. This article shows how.
+Microsoft Excel users can add images to spreadsheets. With Aspose.Cells for Node.js via C++, it is possible to read images from Microsoft Excel files and save them to a local drive. This article shows how.
 
 {{% /alert %}} 
 
 The sample code below shows how to extract images from an Excel file and save them.
-
-
 
 ```javascript
 const path = require("path");
@@ -37,7 +35,7 @@ const worksheet = workbook.getWorksheets().get(0);
 // Get the first Picture in the first worksheet
 const pic = worksheet.getPictures().get(0);
 
-// Set the output image file path
+// Set the output image format
 const picformat = pic.getImageType().toString();
 
 // Note: you may evaluate the image format before specifying the image path

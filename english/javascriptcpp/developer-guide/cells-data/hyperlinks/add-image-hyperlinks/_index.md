@@ -1,19 +1,19 @@
----
-title: Add Image Hyperlinks
-type: docs
-weight: 140
-url: /javascript-cpp/add-image-hyperlinks/
-description: Learn how to Add Image Hyperlinks through the Aspose.Cells for JavaScript via C++ API.
-keywords: Add Image Hyperlinks JavaScript via C++, Insert Image Hyperlinks JavaScript via C++
----
+---  
+title: Add Image Hyperlinks  
+type: docs  
+weight: 140  
+url: /javascript-cpp/add-image-hyperlinks/  
+description: Learn how to add image hyperlinks through the Aspose.Cells for JavaScript via C++ API.  
+keywords: Add Image Hyperlinks JavaScript via C++, Insert Image Hyperlinks JavaScript via C++  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Hyperlinks are useful for accessing information on other worksheets, or on websites. Microsoft Excel lets users add hyperlinks on text in cells, and on images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons, or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells for JavaScript via C++.
+Hyperlinks are useful for accessing information on other worksheets or on websites. Microsoft Excel lets users add hyperlinks to text in cells and to images. Image hyperlinks can make navigating a worksheet easier, for example, as next‑ and previous‑buttons or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells for JavaScript via C++.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-Aspose.Cells for JavaScript via C++ allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link's screen tip and address. The following sample code illustrates how to add an image hyperlink into a worksheet.
+Aspose.Cells for JavaScript via C++ allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link’s screen tip and address. The following sample code illustrates how to add an image hyperlink into a worksheet.  
 
 ```html
 <!DOCTYPE html>
@@ -72,7 +72,7 @@ Aspose.Cells for JavaScript via C++ allows you to add hyperlinks to images in sp
             // Get the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Insert a string value to a cell
+            // Insert a string value into a cell
             const cell = worksheet.cells.get("C2");
             cell.value = "Image Hyperlink";
 

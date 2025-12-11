@@ -1,5 +1,5 @@
 ---
-title: Convert Excel to Pdf, Image, and other formats with C++
+title: Convert Excel to PDF, Image, and other formats with C++
 linktitle: Workbook Conversions
 type: docs
 weight: 65
@@ -147,8 +147,8 @@ int main()
 }
 ```
 
-## **Convert Excel to Ods, Sxc, and Fods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells supports converting Excel files to Ods, Sxc, and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc, and Fods files.
+## **Convert Excel to ODS, SXC, and FODS (OpenOffice / LibreOffice Calc)**
+Aspose.Cells supports converting Excel files to ODS, SXC, and FODS files. The code example below shows how to convert the [template](book1.xlsx) to ODS, SXC, and FODS files.
 
 ```c++
 #include <iostream>
@@ -165,13 +165,13 @@ int main()
     // Load your source workbook
     Workbook workbook(u"book1.xlsx");
 
-    // Save as ods file
+    // Save as ODS file
     workbook.Save(u"Out.ods");
 
-    // Save as sxc file
+    // Save as SXC file
     workbook.Save(u"Out.sxc");
 
-    // Save as fods file
+    // Save as FODS file
     workbook.Save(u"Out.fods");
 
     Aspose::Cells::Cleanup();
@@ -266,11 +266,11 @@ Starting from 8.0.2, Aspose.Cells has exposed [**GetImageOptions()**](https://re
 Below are details of some of the image settings that can be applied:
 
 - [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- [**GetQuality()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getquality/): Specifies the quality of the image between 0 to 100 when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Jpeg.
+- [**GetQuality()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getquality/): Specifies the quality of the image between 0 to 100 when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as JPEG.
 - [**GetVerticalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getverticalresolution/): Gets or sets the vertical resolution of the image in dots per inch.
 - [**GetHorizontalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gethorizontalresolution/): Gets or sets the horizontal resolution of the image in dots per inch.
-- [**TiffCompression**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as Tiff.
-- [**GetTransparent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettransparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- [**TiffCompression**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/imagetype/) is specified as TIFF.
+- [**GetTransparent()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettransparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as PNG.
 
 The code below demonstrates how to use [**HtmlSaveOptions.GetImageOptions()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getimageoptions/) to specify different preferences.
 
@@ -608,14 +608,14 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert Revision of XLSB to XLSM](/cells/cpp/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/cpp/convert-excel-to-html/)
 - [Image](/cells/cpp/convert-excel-to-image/)
-- [Json](/cells/cpp/convert-workbook-to-json/)
-- [Convert Excel workbook to Ods, Sxc, and Fods (OpenOffice / LibreOffice calc).](/cells/cpp/convert-excel-to-ods/)
-- [Pdf](/cells/cpp/convert-excel-workbook-to-pdf/)
-- [Convert Excel to CSV, TSV, and Txt](/cells/cpp/convert-excel-to-csv-tsv-and-txt/)
+- [JSON](/cells/cpp/convert-workbook-to-json/)
+- [Convert Excel workbook to ODS, SXC, and FODS (OpenOffice / LibreOffice Calc).](/cells/cpp/convert-excel-to-ods/)
+- [PDF](/cells/cpp/convert-excel-workbook-to-pdf/)
+- [Convert Excel to CSV, TSV, and TXT](/cells/cpp/convert-excel-to-csv-tsv-and-txt/)
 - [Track Document Conversion Progress](/cells/cpp/track-document-conversion-progress/)
 - [Convert CSV, TSV, and TXT to Excel](/cells/cpp/convert-csv-tsv-and-txt-to-excel/)
 {{< app/cells/assistant language="cpp" >}}

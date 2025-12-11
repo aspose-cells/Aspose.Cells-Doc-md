@@ -1,5 +1,5 @@
 ---
-title: Smartly Importing Array Element by Slicer into Excel With Smart Markers
+title: Smartly Importing Array Elements by Slicer into Excel With Smart Markers
 type: docs
 weight: 30
 url: /net/how-to-import-array-element-by-slicer-with-smart-markers/
@@ -7,29 +7,29 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Why Accessing Array Element by Slicer**
-In FastReport's Smart Markers, accessing array elements using a slicer (e.g., [array[1..3]]) provides a concise, efficient way to work with subsets of data.
+## **Why Access Array Elements by Slicer**
+In FastReport's Smart Markers, accessing array elements using a slicer (e.g., `[array[1..3]]`) provides a concise, efficient way to work with subsets of data.
 
-1. Simplified Data Extraction: Manually iterating over large arrays requires loops and complex syntax. Slicers let you extract ranges (subarrays) in one line. Example: [Products[1..5].Name] fetches names of the first 5 products.
-2. Dynamic Reporting: Generate reports for variable data slices (e.g., "Top N items," paginated views). Example: [Sales[0..{PageNo*10}]] dynamically loads data chunks for multi-page reports.
-3. Performance Optimization: Avoid loading entire arrays into memory. Fetch only needed elements. Example: [Logs[^10..^1]] retrieves the last 10 entries efficiently.
-4. Declarative Syntax: Express intent directly in template markers. Example: [Employees[3..7].Department] clearly selects departments from entries 3 to 7.
-5. Integration with Data Sources: Works with arrays from databases, JSON, or code. Example: Bind Invoice.Items[0..2] to display the first 3 line items.
-6. Slicers in Smart Markers reduce code complexity, improve readability, and optimize data handling for array subsets. Use them when you need quick, range-based access—ideal for pagination, top-N lists, or windowed data views. 
+1. **Simplified Data Extraction:** Manually iterating over large arrays requires loops and complex syntax. Slicers let you extract ranges (subarrays) in one line. Example: `[Products[1..5].Name]` fetches names of the first 5 products.  
+2. **Dynamic Reporting:** Generate reports for variable data slices (e.g., Top N items, paginated views). Example: `[Sales[0..{PageNo*10}]]` dynamically loads data chunks for multi‑page reports.  
+3. **Performance Optimization:** Avoid loading entire arrays into memory. Fetch only needed elements. Example: `[Logs[^10..^1]]` retrieves the last 10 entries efficiently.  
+4. **Declarative Syntax:** Express intent directly in template markers. Example: `[Employees[3..7].Department]` clearly selects departments from entries 3 to 7.  
+5. **Integration with Data Sources:** Works with arrays from databases, JSON, or code. Example: Bind `Invoice.Items[0..2]` to display the first 3 line items.  
+6. **Slicers in Smart Markers** reduce code complexity, improve readability, and optimize data handling for array subsets. Use them when you need quick, range‑based access—ideal for pagination, top‑N lists, or windowed data views.  
 
-## **How to Import Array Element by Slicer into Excel With Smart Markers**
-Aspose.Cells supports accessing array element by slicer in smart markers. Please check [template file](ElementBySlicer.xlsx), [json file](ElementBySlicer.json) and the screenshot of the output excel file generated with the following code.
+## **How to Import Array Elements by Slicer into Excel With Smart Markers**
+Aspose.Cells supports accessing array elements by slicer in Smart Markers. Please check the [template file](ElementBySlicer.xlsx), the [JSON file](ElementBySlicer.json), and the screenshot of the output Excel file generated with the following code.
 
-|**The first worksheet of the smartmarker.xlsx file showing smart markers.**|
+| **The first worksheet of the smartmarker.xlsx file showing Smart Markers.** |
 | :- |
-|![todo:image_alt_text](ElementBySlicer1.png)|
+| ![todo:image_alt_text](ElementBySlicer1.png) |
 
-|**The screenshot of the output excel file.**|
+| **The screenshot of the output Excel file.** |
 | :- |
-|![todo:image_alt_text](ElementBySlicer2.png)|
+| ![todo:image_alt_text](ElementBySlicer2.png) |
 
-Json data as follows:
-```json data
+**JSON data as follows:**
+```json
 {
   "EntityCin": "EntityCin Test",
   "EntityName": "EntityName Test",
@@ -164,6 +164,7 @@ Json data as follows:
   ]
 }
 ```
+
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-AccessElementBySlicer.cs" >}}

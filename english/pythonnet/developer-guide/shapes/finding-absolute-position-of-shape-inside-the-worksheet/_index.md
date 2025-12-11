@@ -3,8 +3,8 @@ title: Finding Absolute Position of Shape inside the Worksheet
 type: docs
 weight: 8000
 url: /python-net/finding-absolute-position-of-shape-inside-the-worksheet/
-description: This article shows how to Find Absolute Position of Shape inside the Worksheet through the Aspose.Cells for Python via .NET API.
-keywords: Python Excel Library, Python how to Find Absolute Position of Shape inside the Worksheet.
+description: This article shows how to find the absolute position of a shape inside the worksheet through the Aspose.Cells for Python via .NET API.
+keywords: Python Excel Library, Python how to find absolute position of shape inside the worksheet.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -19,7 +19,7 @@ The following sample code displays the absolute position of the first shape in t
 
 {{< highlight java >}}
 
-Absolute Position of this Shape is (320 , 183)
+Absolute position of this shape is (320, 183)
 
 {{< /highlight >}}
 

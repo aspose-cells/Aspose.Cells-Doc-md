@@ -4,21 +4,21 @@ linktitle: Comment Background
 type: docs
 weight: 190
 url: /javascript-cpp/how-to-set-comment-background/
-description: How to change color in comment and insert picture or image in comment in Excel using Aspose.Cells for JavaScript via C++.
-keywords: add inset picture image color comment background excel JavaScript via C++
+description: How to change color in a comment and insert a picture or image in a comment in Excel using Aspose.Cells for JavaScript via C++.
+keywords: add insert picture image color comment background excel JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
-Comments are added to cells to record comments, anything from the details of how a formula is worked, where a value comes from or questions from reviewers. Comments play an extremely important role when multiple people discuss or review the same document at different times. How to distinguish different people's comments? Yes, we can set a different background color for each comment. But when we need to process a lot of documents and a lot of comments, doing it manually is a disaster. Fortunately [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) provides an API that allows you to do this in code.
+Comments are added to cells to record remarks, anything from the details of how a formula works, where a value comes from, or questions from reviewers. Comments play an extremely important role when multiple people discuss or review the same document at different times. How can you distinguish different people's comments? Yes, you can set a different background color for each comment. But when you need to process a lot of documents and a lot of comments, doing it manually is disastrous. Fortunately, [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) provides an API that allows you to do this in code.
 {{% /alert %}}
 
-## **How to change color in comment in Excel**
+## **How to change the color of a comment in Excel**
 
-When you don't need the default background color for comments, you may want to replace it with a color you're interested in. How do I change the background color of the Comments box in Excel?
+When you don't need the default background color for comments, you may want to replace it with a color you prefer. How do you change the background color of the comment box in Excel?
 
-The following code will guide you how to use [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) to add your favorite background color to comments of your own choice.
+The following code will guide you on how to use [**Aspose.Cells**](https://products.aspose.com/cells/javascript-cpp/) to add your favorite background color to comments of your own choice.
 
-Here we have prepared a [sample file](exmaple.xlsx) for you. This file is used to initialize the Workbook object in the code below.
+Here we have prepared a [sample file](example.xlsx) for you. This file is used to initialize the Workbook object in the code below.
 
 ```html
 <!DOCTYPE html>
@@ -62,14 +62,14 @@ Here we have prepared a [sample file](exmaple.xlsx) for you. This file is used t
             // Initialize a new workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Accessing the newly added comment
+            // Access the newly added comment
             const comment = workbook.worksheets.get(0).comments.get(0);
 
-            // change background color
+            // Change background color
             const shape = comment.commentShape;
             shape.fill.solidFill.color = AsposeCells.Color.Red;
 
-            // Saving the modified Excel file
+            // Save the modified Excel file
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -86,7 +86,7 @@ Here we have prepared a [sample file](exmaple.xlsx) for you. This file is used t
 
 Execute the above code and you will get an [output file](result.xlsx).
 
-## **How to insert picture or image in comment in Excel**
+## **How to insert a picture or image in a comment in Excel**
 
 Microsoft Excel lets users customize the look and feel of spreadsheets to a great extent. It is even possible to add background pictures to comments. Adding a background image can be an aesthetic choice or be used to strengthen branding.
 

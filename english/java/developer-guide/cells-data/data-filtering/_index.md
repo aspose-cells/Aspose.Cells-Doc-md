@@ -15,13 +15,13 @@ Microsoft Excel provides some good features to autofilter worksheet data. Aspose
 
 ## **Autofilter Data**
 
-Autofiltering is the quickest way to select only those items from the worksheet that you want to display in a list. The autofilter feature allows users to filter items in a list according to a set criteria. Filter based on text, numbers or dates.
+Autofiltering is the quickest way to select only those items from the worksheet that you want to display in a list. The autofilter feature allows users to filter items in a list according to a set **of** criteria. Filters based on text, numbers or dates.
 
 ### **Autofilter in Microsoft Excel**
 
 To activate the autofilter feature in Microsoft Excel:
 
-1. Click the heading row in a worksheet.
+1. Click the heading row in a worksheet.  
 1. From the **Data** menu, select **Filter** and then **AutoFilter**.
 
 When you apply an autofilter to a worksheet, filter switches (black arrows) appear to the right of the column headings.
@@ -32,13 +32,14 @@ Some of the autofilter options are:
 
 |**Options**|**Description**|
 | :- | :- |
-|All|Show all items in the list once.|
-|Custom|Customize filter criteria like contains/not contains|
+|All|Show all items in the list.|
+|Custom|Customize filter criteria like contains / not contains|
 |Filter by Color|Filters based on filled color|
-|Date Filters|Filters rows based on different criteria on date|
-|Number Filters|Different type of filter on numbers like comparison, averages and Top 10 etc.|
-|Text Filters|Different filters like begins with, ends with, contains etc,|
-|Blanks/Non Blanks|These filters can be implemented through Text Filter Blank|
+|Date Filters|Filters rows based on different date criteria|
+|Number Filters|Different types of filters on numbers, such as comparisons, averages, and Top 10, etc.|
+|Text Filters|Different filters like begins with, ends with, contains, etc.|
+|Blanks/Non‑Blanks|These filters can be implemented through the Text Filter Blank option.|
+
 Users manually filter their worksheet data in Microsoft Excel using these options.
 
 ### **Autofilter with Aspose.Cells**
@@ -53,107 +54,107 @@ In the example given below, we have created the same AutoFilter using Aspose.Cel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterData.java" >}}
 
-#### **Different types of Filter**
+#### **Different Types of Filter**
 
-Aspose.Cells provides multiple options to apply different type of filters like Color Filter, Date Filter, Number Filter, Text Filter, Blank Filters and None Blank Filters.
+Aspose.Cells provides multiple options to apply different types of filters like Color Filter, Date Filter, Number Filter, Text Filter, Blank Filters and Non‑Blank Filters.
 
 ##### **Fill Color**
 
-Aspose.Cells provides a function [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) to filter data based upon the fill color property of the cells. In the example given below, a template file having different fill colors in the first column of the sheet is used to test the color filtering function. Following files can be downloaded to check the functionality.
+Aspose.Cells provides a function [**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-) to filter data based upon the fill‑color property of the cells. In the example given below, a template file having different fill colors in the first column of the sheet is used to test the color‑filtering function. The following files can be downloaded to check the functionality.
 
-1. [ColouredCells.xlsx](72417315.xlsx)
+1. [ColouredCells.xlsx](72417315.xlsx)  
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterColor.java" >}}
 
 ##### **Date**
 
-Different types of date filters can be implemented like filtering all the rows having dates in January 2018. Following sample code demonstrates this filter using [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-) function. Following files can be used for testing this functionality.
+Different types of date filters can be implemented, such as filtering all rows that have dates in January 2018. The following sample code demonstrates this filter using the [**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter-int-int-int-int-int-int-int-int-) function. The following files can be used for testing this functionality.
 
-1. [Date.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)  
 1. [FilteredDate.xlsx](72417318.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDate.java" >}}
 
 ##### **Dynamic Date**
 
-Sometimes dynamic filters are required based on a date like all the cells having dates in January irrespective of the year. In this case, [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-) function is used as given in the following sample code. Following files can be used for testing.
+Sometimes dynamic filters are required based on a date, such as all cells having dates in January irrespective of the year. In this case, the [**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter-int-int-) function is used, as shown in the following sample code. The following files can be used for testing.
 
-1. [Date.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)  
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 
 ##### **Number**
 
-Custom filters can be applied using Aspose.Cells like selecting cells having number between a given range. Following example demonstrates the usage of [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) function to filter numbers. Sample files can be downloaded from the following links.
+Custom filters can be applied using Aspose.Cells, such as selecting cells that contain numbers between a given range. The following example demonstrates the usage of the [**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom-int-int-java.lang.Object-) function to filter numbers. Sample files can be downloaded from the following links.
 
-1. [Number.xlsx](72417320.xlsx)
+1. [Number.xlsx](72417320.xlsx)  
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNumber.java" >}}
 
 ##### **Text**
 
-If a column contains text and cells are to be selected containing particular text, [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-) function can be used. In the following example, the template file contains a list of countries and row is to be selected containing particular country name. Following code demonstrates filtering text using the below sample files.
+If a column contains text and you need to select cells that contain particular text, the [**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter-int-java.lang.String-) function can be used. In the following example, the template file contains a list of countries and rows are selected that contain a particular country name. The code demonstrates filtering text using the sample files below.
 
-1. [Text.xlsx](72417322.xlsx)
+1. [Text.xlsx](72417322.xlsx)  
 1. [FilteredText.xlsx](72417323.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterText.java" >}}
 
 ##### **Blanks**
 
-If a column contains text such that few cells are blank, and filter is required to select those rows only where blank cells are present, [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-) function can be used as demonstrated below. Sample files can be downloaded from the following links.
+If a column contains text such that a few cells are blank, and you need to filter only those rows where blank cells are present, the [**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks-int-) function can be used as demonstrated below. Sample files can be downloaded from the following links.
 
-1. [Blank.xlsx](72417324.xlsx)
+1. [Blank.xlsx](72417324.xlsx)  
 1. [FilteredBlank.xlsx](72417325.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterBlank.java" >}}
 
-##### **Non Blanks**
+##### **Non‑Blanks**
 
-When cells having any text are to be filtered, use [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-) filter function as demonstrated below. Sample files can be downloaded from the following links.
+When cells containing any text are to be filtered, use the [**matchNonBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks-int-) function as demonstrated below. Sample files can be downloaded from the following links.
 
-1. [Blank.xlsx](72417324.xlsx)
+1. [Blank.xlsx](72417324.xlsx)  
 1. [FilteredNonBlank.xlsx](72417326.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNonBlank.java" >}}
 
-##### **Custom filter with Contains**
+##### **Custom Filter with Contains**
 
-Excel provides custom filters like filter rows which contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file. Sample files can be downloaded from the following links.
+Excel provides custom filters that filter rows which contain a specific string. This feature is available in Aspose.Cells and is demonstrated below by filtering the names in the sample file. Sample files can be downloaded from the following links.
 
-1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
-1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx)
+1. [sourceSampleCountryNames.xlsx](sourceSampleCountryNames.xlsx)  
+1. [outSourceSampleCountryNames.xlsx](outSourceSampleCountryNames.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-Contains.java" >}}
 
-##### **Custom filter with NotContains**
+##### **Custom Filter with NotContains**
 
-Excel provides custom filters like filter rows which does not contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
+Excel provides custom filters that filter rows which do **not** contain a specific string. This feature is available in Aspose.Cells and is demonstrated below by filtering the names in the sample file.
 
-1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourceSampleCountryNames.xlsx](sourceSampleCountryNames.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-NotContains.java" >}}
 
-##### **Custom filter with BeginsWith**
+##### **Custom Filter with BeginsWith**
 
-Excel provides custom filters like filter rows which begins with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
+Excel provides custom filters that filter rows which begin with a specific string. This feature is available in Aspose.Cells and is demonstrated below by filtering the names in the sample file.
 
-1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourceSampleCountryNames.xlsx](sourceSampleCountryNames.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-BeginsWith.java" >}}
 
-##### **Custom filter with EndsWith**
+##### **Custom Filter with EndsWith**
 
-Excel provides custom filters like filter rows which end with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
+Excel provides custom filters that filter rows which end with a specific string. This feature is available in Aspose.Cells and is demonstrated below by filtering the names in the sample file.
 
-1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourceSampleCountryNames.xlsx](sourceSampleCountryNames.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-EndsWith.java" >}}
 
-## **Advance topics**
+## **Advanced Topics**
 - [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 

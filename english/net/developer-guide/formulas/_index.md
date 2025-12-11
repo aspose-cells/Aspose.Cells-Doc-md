@@ -4,8 +4,8 @@ linktitle: Formulas
 type: docs
 weight: 122
 url: /net/using-formulas-or-functions-to-process-data/
-description: Aspose.Cells can simply get, set and calculate formulas of excel files.
-description: Learn how to Manage formulas of Excel files through the Aspose.Cells for NET APIs.
+description: Aspose.Cells can simply get, set, and calculate formulas of Excel files.
+description: Learn how to manage formulas of Excel files through the Aspose.Cells for .NET APIs.
 keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add-in functions. Moreover, Aspose.Cells supports array and R1C1 formulas.
+One of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that help users perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add‑in functions. Moreover, Aspose.Cells supports array and R1C1 formulas.
 
 ## **How to Use Formulas and Functions**
 
@@ -24,23 +24,21 @@ It is possible to apply formulas to cells using properties and methods offered b
 - Using built-in functions.
 - Using add-in functions.
 - Working with array formulas.
-- Creating a R1C1 formula.
+- Creating an R1C1 formula.
 
 ## **How to Use Built-in Functions**
 
-Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/net/supported-formula-functions/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in future.
+Built-in functions or formulas are provided as ready‑made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/net/supported-formula-functions/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in the future.
 
-Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/net/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
+Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or the designer spreadsheet. Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup, and reference formulas.
 
-Use the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) property to add a formula to a cell. **Complex formulas**, for example
+Use the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class's [**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) property to add a formula to a cell. **Complex formulas**, for example
 
 {{< highlight java >}}
-
  = H7*(1+IF(P7 = $L$3,$M$3, (IF(P7=$L$4,$M$4,0))))
-
 {{< /highlight >}}
 
-, are also supported in Aspose.Cells. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
+are also supported in Aspose.Cells. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
 In the example below, a complex formula is applied to the first cell of a worksheet's [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
 
@@ -48,11 +46,11 @@ In the example below, a complex formula is applied to the first cell of a worksh
 
 ## **How to Use Add-in Functions**
 
-We can have some user defined formulas that we want to include as an excel add-in. When setting the cell.Formula function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
+We can have some user‑defined formulas that we want to include as an Excel add‑in. When setting the `cell.Formula` property, built‑in functions work fine; however, there is a need to set custom functions or formulas using add‑in functions.
 
-Aspose.Cells provides features to register add in functions using [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
+Aspose.Cells provides features to register add‑in functions using [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Afterwards, when we set `cell.Formula = anyFunctionFromAddIn`, the output Excel file contains the calculated value from the add‑in function.
 
-Following XLAM file shall be downloaded for registering the add in function in the below sample code. Similarly the output file "test_udf.xlsx" can be downloaded to check the output.
+The following XLAM file should be downloaded for registering the add‑in function in the sample code below. Similarly, the output file **test_udf.xlsx** can be downloaded to verify the result.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -66,26 +64,26 @@ Array formulas are formulas that take arrays, instead of individual numbers, as 
 
 Some Microsoft Excel functions return arrays of values. To calculate multiple results with an array formula, enter the array into a range of cells with the same number of rows and columns as the array arguments.
 
-It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method. The [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method takes the following parameters:
+It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class's [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method. The **SetArrayFormula** method takes the following parameters:
 
-- **Array Formula**, the array formula.
-- **Number of Rows**, the number of rows to populate result of the array formula.
-- **Number of Columns**, the number of columns to populate result of the array formula.
+- **Array Formula** – the array formula.
+- **Number of Rows** – the number of rows to populate the result of the array formula.
+- **Number of Columns** – the number of columns to populate the result of the array formula.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
 ## **How to Use R1C1 Formula**
 
-Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
+Add an **R1C1** reference‑style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class's [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Precedents and Dependents](/cells/net/precedents-and-dependents/)
 - [Set External Links in Formulas](/cells/net/set-external-links-in-formulas/)
 - [Propagate Formula in Table or List Object automatically while entering data in new rows](/cells/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 - [Setting Formula for Named Range](/cells/net/setting-formula-for-named-range/)
-- [Setting Formulas - Notice for Non English Users](/cells/net/setting-formulas-notice-for-non-english-users/)
+- [Setting Formulas - Notice for Non‑English Users](/cells/net/setting-formulas-notice-for-non-english-users/)
 - [Setting Shared Formula](/cells/net/setting-shared-formula/)
 - [Specify Maximum Rows of Shared Formula](/cells/net/specify-maximum-rows-of-shared-formula/)
 - [Supported Excel Functions](/cells/net/supported-formula-functions/)

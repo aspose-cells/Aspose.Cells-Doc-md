@@ -1,6 +1,6 @@
 ---
-title: Convert Excel to CSV, TSV and Txt with C++
-linktitle: Save as CSV,TSV and Txt
+title: Convert Excel to CSV, TSV and TXT with C++
+linktitle: Save as CSV, TSV and TXT
 type: docs
 weight: 40
 url: /cpp/convert-excel-to-csv-tsv-and-txt/
@@ -19,11 +19,11 @@ Aspose.Cells makes it possible to convert Excel, ODS, JSON, and other format fil
 
 Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.
 
-The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.
+The following code example explains how to save an entire workbook into text format. Load the source workbook, which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.GetSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/txtsaveoptions/getseparator/) is a comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.GetSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/txtsaveoptions/getseparator/) is a comma, so do not specify a separator if saving to CSV format.
 
 ```c++
 #include <iostream>
@@ -39,22 +39,22 @@ int main()
 
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
+
     // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xls";
-    
+
     // Load your source workbook
     Workbook workbook(inputFilePath);
-    
+
     // Text save options. You can use any type of separator
     TxtSaveOptions opts;
     opts.SetSeparator(u'\t');
     opts.SetExportAllSheets(true);
-    
+
     // Save entire workbook data into file
     U16String outputFilePath = srcDir + u"out.txt";
     workbook.Save(outputFilePath, opts);
-    
+
     std::cout << "Workbook saved successfully as text file!" << std::endl;
 
     Aspose::Cells::Cleanup();
@@ -79,14 +79,14 @@ int main()
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
-    // Path of input excel file
+
+    // Path of input Excel file
     U16String filePath = srcDir + u"Book1.xlsx";
 
-    // Create a Workbook object and opening the file from its path
+    // Create a Workbook object and open the file from its path
     Workbook workbook(filePath);
 
-    // Instantiate Text File's Save Options
+    // Instantiate the text file's save options
     TxtSaveOptions options;
 
     // Specify the separator
@@ -101,7 +101,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 {{< app/cells/assistant language="cpp" >}}

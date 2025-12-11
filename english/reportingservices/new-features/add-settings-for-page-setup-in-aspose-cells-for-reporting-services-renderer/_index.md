@@ -7,4 +7,4 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for Reporting Services renderer sets worksheet page setup of the exported Excel file through page setup settings in Aspose.Cells Reporting Services configuration file. 
+Aspose.Cells for Reporting Services renderer sets the worksheet page setup of the exported Excel file through page setup settings in the Aspose.Cells Reporting Services configuration file.

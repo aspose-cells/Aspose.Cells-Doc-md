@@ -26,11 +26,10 @@ The following screenshot shows the **Advanced Excel Options** and highlights the
 
 ## **Specifying Custom Separators using Aspose.Cells for Node.js via C++**
 
-The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.
+The following sample code illustrates how to specify the custom separators using the Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as a dot and a space, respectively.
 
-### Node.js code to specify custom Number Decimal and Group Separators
+### Node.js code to specify custom number decimal and group separators
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-SpecifyCustomNumberDecimalAndGroupSeparators.js" >}}
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

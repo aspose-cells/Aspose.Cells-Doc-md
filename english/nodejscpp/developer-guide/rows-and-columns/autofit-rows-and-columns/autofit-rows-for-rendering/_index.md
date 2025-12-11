@@ -25,7 +25,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Book1.xlsx");
 
-// Init workbook instance.
+// Initialize workbook instance.
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Set autofit options for rendering.
@@ -35,7 +35,7 @@ autoFitterOptions.setForRendering(true);
 // Autofit rows with options.
 workbook.getWorksheets().get(0).autoFitRows(autoFitterOptions);
 
-// Save to pdf.
+// Save to PDF.
 workbook.save("output.pdf", AsposeCells.SaveFormat.Pdf);
 ```
 

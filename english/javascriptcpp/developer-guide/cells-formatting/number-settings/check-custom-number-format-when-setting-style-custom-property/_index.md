@@ -10,11 +10,11 @@ url: /javascript-cpp/check-custom-number-format-when-setting-style-custom-proper
 
 ## **Possible Usage Scenarios**
 
-If you assign an invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property, then Aspose.Cells for JavaScript via C++ will not throw any exception. But if you want Aspose.Cells to check if the assigned custom number format is valid or not, then please set the [**Workbook.settings.checkCustomNumberFormat**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#checkCustomNumberFormat-boolean-) property to **true**.
+If you assign an invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property, then Aspose.Cells for JavaScript via C++ will not throw an exception. But if you want Aspose.Cells to check whether the assigned custom number format is valid, then please set the [**Workbook.settings.checkCustomNumberFormat**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#checkCustomNumberFormat-boolean-) property to **true**.
 
 ## **Check Custom Number Format when setting Style.custom property**
 
-The following sample code assigns an invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property. Since we have already set the [**Workbook.settings.checkCustomNumberFormat**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#checkCustomNumberFormat-boolean-) property to **true**, it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
+The following sample code assigns an invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property. Since we have already set the [**Workbook.settings.checkCustomNumberFormat**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#checkCustomNumberFormat-boolean-) property to **true**, it throws an exception, e.g., **“Invalid number format.”** Please read the comments inside the code for more help.
 
 ## **Sample Code**
 
@@ -61,20 +61,20 @@ The following sample code assigns an invalid custom number format to [**Style.cu
             }
 
             // Setting this property to true will make Aspose.Cells throw an exception
-            // when invalid custom number format is assigned to Style.custom property
+            // when an invalid custom number format is assigned to the Style.custom property
             workbook.settings.checkCustomNumberFormat = true;
 
             // Access first worksheet
             const sheet = workbook.worksheets.get(0);
 
-            // Access cell A1 and put some number to it
+            // Access cell A1 and put some number into it
             const cell = sheet.cells.get("A1");
             cell.value = 2347;
 
             // Access cell's style and set its Style.custom property
             const style = cell.style;
 
-            // This line will throw exception if workbook.settings.checkCustomNumberFormat is set to true
+            // This line will throw an exception if workbook.settings.checkCustomNumberFormat is set to true
             style.custom = "ggg @ fff"; // Invalid custom number format
 
             // Saving the modified Excel file

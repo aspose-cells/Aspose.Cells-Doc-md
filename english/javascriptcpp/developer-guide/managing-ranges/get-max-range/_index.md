@@ -20,7 +20,7 @@ Aspose.Cells for JavaScript via C++ contains different ways to find the max rang
 {{% /alert %}}
 
 ## **Getting max range**
-In Aspose.Cells, if the [**row**](https://reference.aspose.com/cells/javascript-cpp/row/) and [**column**](https://reference.aspose.com/cells/javascript-cpp/column/) objects are initialized, these rows and columns will be counted to the maximum area, even if there is no data in empty rows or columns.
+In Aspose.Cells, if the [**row**](https://reference.aspose.com/cells/javascript-cpp/row/) and [**column**](https://reference.aspose.com/cells/javascript-cpp/column/) objects are initialized, these rows and columns will be counted toward the maximum area, even if there is no data in empty rows or columns.
 
 ```html
 <!DOCTYPE html>
@@ -100,8 +100,7 @@ In Aspose.Cells, if the [**row**](https://reference.aspose.com/cells/javascript-
 ```
 
 ## **Getting max data range**
-In most cases, we only need to obtain all the ranges containing all the data, even if the empty cells outside the range are formatted.
-And the settings about shapes, tables, and pivot tables will be ignored.
+In most cases, we only need to obtain the range containing all the data, even if the empty cells outside the range are formatted. The settings for shapes, tables, and pivot tables are ignored.
 
 ```html
 <!DOCTYPE html>
@@ -181,8 +180,7 @@ And the settings about shapes, tables, and pivot tables will be ignored.
 ```
 
 ## **Getting max display range**
-When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables.
-The following codes show how to render the max display range to HTML:
+When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables. The following code shows how to render the max display range to HTML:
 
 ```html
 <!DOCTYPE html>
@@ -232,7 +230,7 @@ The following codes show how to render the max display range to HTML:
             // Gets the max display range.
             const range = worksheets.get(0).cells.maxDisplayRange;
 
-            // Save the range to html
+            // Save the range to HTML
             const saveOptions = new AsposeCells.HtmlSaveOptions();
             saveOptions.exportActiveWorksheetOnly = true;
             saveOptions.exportArea = AsposeCells.CellArea.createCellArea(

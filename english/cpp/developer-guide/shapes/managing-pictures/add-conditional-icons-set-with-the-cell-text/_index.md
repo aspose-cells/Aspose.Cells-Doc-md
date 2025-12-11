@@ -1,6 +1,6 @@
 ---
-title: Add Conditional Icons Set with the Cell Text with C++
-linktitle: Add Conditional Icons Set with the Cell Text
+title: Add Conditional Icons Set with Cell Text Using C++
+linktitle: Add Conditional Icons Set with Cell Text
 type: docs
 weight: 160
 url: /cpp/add-conditional-icons-set-with-the-cell-text/
@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells supports this feature.
+Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You may want to use some of the conditional formatting icon types without applying conditional formatting to cells. Aspose.Cells supports this feature.
 
 {{% /alert %}} 
 
-The following code sample shows how to add conditional icons set with the Cell Text.
+The following code sample shows how to add a conditional icons set with cell text.
 
 ```cpp
 #include <iostream>
@@ -48,7 +48,7 @@ int main()
     cells.SetColumnWidth(1, 24);
     cells.SetColumnWidth(2, 24);
 
-    // Input date into the cells
+    // Input data into the cells
     cells.Get(u"A1").PutValue(u"KPIs");
     cells.Get(u"A2").PutValue(u"Total Turnover (Sales at List)");
     cells.Get(u"A3").PutValue(u"Total Gross Margin %");

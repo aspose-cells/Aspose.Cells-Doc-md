@@ -15,7 +15,7 @@ You can convert your Text to Columns using Microsoft Excel. This feature is avai
 
 ## **Convert Text to Columns using Aspose.Cells for Python Excel Library**
 
-The following sample code explains the usage of [**Worksheet.Cells.text_to_columns()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/text_to_columns/) method. The code first adds some people name in column A of the first worksheet. The first and last name is separated by space character. Then it applies [**Worksheet.Cells.text_to_columns()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/text_to_columns/) method on column A and save it as output excel file. If you open the [output excel file](25395213.xlsx), you will see, first names are in column A while last names are in column B as shown in this screenshot.
+The following sample code explains the usage of [**Worksheet.Cells.text_to_columns()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/text_to_columns/) method. The code first adds some people's names in column A of the first worksheet. The first and last names are separated by a space character. Then it applies [**Worksheet.Cells.text_to_columns()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/text_to_columns/) method on column A and saves it as an output Excel file. If you open the output Excel file, you will see that the first names are in column A while the last names are in column B, as shown in this screenshot.
 
 ![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 

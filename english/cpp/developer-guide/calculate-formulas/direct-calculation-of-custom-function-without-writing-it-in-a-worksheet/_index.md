@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This topic explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [**Worksheet::CalculateFormula(System::String formula, CalculationOptions opts)**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/calculateformula/) method for this purpose.
 
-Please see the following sample code that illustrates the usage of this method. We have used a custom function named MyCompany::CustomFunction() and we calculate its value as "Aspose.Cells." by ourselves and then this value is automatically concatenated with the value of cell A1 which is "Welcome to " by the calculation engine and the final calculated value returns as "Welcome to Aspose.Cells.". As you can see in the code, we have not written our custom function anywhere in a worksheet and it is calculated directly by our own custom logic.
+Please see the following sample code that illustrates the usage of this method. We have used a custom function named `MyCompany::CustomFunction()` and we calculate its value as **“Aspose.Cells.”** ourselves; this value is then automatically concatenated with the value of cell A1, which is **“Welcome to ”**, by the calculation engine. The final calculated value is **“Welcome to Aspose.Cells.”** As you can see in the code, we have not written our custom function anywhere in a worksheet, and it is calculated directly by our own custom logic.
 
 ### **Programming Sample**
 
@@ -53,17 +53,17 @@ public:
         // Add some text in cell A1
         ws.GetCells().Get(u"A1").PutValue(u"Welcome to ");
 
-        // Create a calculation options with custom engine
+        // Create calculation options with custom engine
         CalculationOptions opts;
         opts.SetCustomEngine(new ICustomEngine());
 
         // This line shows how you can call your own custom function without
-        // a need to write it in any worksheet cell
+        // needing to write it in any worksheet cell
         // After the execution of this line, it will return
         // Welcome to Aspose.Cells.
         Aspose::Cells::Object ret = ws.CalculateFormula(u"=A1 & MyCompany.CustomFunction()", opts);
 
-        // Print the calculated value on Console
+        // Print the calculated value to the console
         std::cout << "Calculated Value: " << ret.ToString().ToUtf8() << std::endl;
 
         Aspose::Cells::Cleanup();
@@ -81,7 +81,7 @@ int main()
 
 Below is the console output of the above sample code.
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 Calculated Value: Welcome to Aspose.Cells.
 

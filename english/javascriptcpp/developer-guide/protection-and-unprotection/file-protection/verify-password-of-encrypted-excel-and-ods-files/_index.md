@@ -4,16 +4,16 @@ linktitle: Verify Password of Encrypted Files
 type: docs
 weight: 10
 url: /javascript-cpp/verify-password-of-encrypted-excel-and-ods-files/
-description: Verify the password of encrypted Excel (xlsx, xlsb, xls, xlsm) and Open Office (ODS) files using Aspose.Cells for JavaScript via C++.
+description: Verify the password of encrypted Excel (xlsx, xlsb, xls, xlsm) and OpenOffice (ODS) files using Aspose.Cells for JavaScript via C++.
 ---
 
 {{% alert color="primary" %}}  
-If Excel (xlsx, xlsb, xls, xlsm) and Open Office (ODS) files are locked with a password, Aspose supports simple password verification without parsing specific data of the files.  
+If Excel (xlsx, xlsb, xls, xlsm) and OpenOffice (ODS) files are locked with a password, Aspose supports simple password verification without parsing specific data of the files.  
 {{% /alert %}}  
 
 ## **Verify the password of the encrypted file**  
 
-To verify the password of the encrypted file, Aspose.Cells for JavaScript via C++ provides the [**FileFormatUtil.verifyPassword(Uint8Array, string)**](https://reference.aspose.com/cells/javascript-cpp/fileformatutil/#verifyPassword-uint8array-string-) method. This method accepts two parameters, the file stream and the password that needs to be verified.  
+To verify the password of the encrypted file, Aspose.Cells for JavaScript via C++ provides the [**FileFormatUtil.verifyPassword(Uint8Array, string)**](https://reference.aspose.com/cells/javascript-cpp/fileformatutil/#verifyPassword-uint8array-string-) method. This method accepts two parameters: a file stream and the password that needs to be verified.  
 The following code snippet demonstrates the use of the [**FileFormatUtil.verifyPassword(Uint8Array, string)**](https://reference.aspose.com/cells/javascript-cpp/fileformatutil/#verifyPassword-uint8array-string-) method to verify whether the provided password is valid or not.  
 
 ```html
@@ -58,7 +58,7 @@ The following code snippet demonstrates the use of the [**FileFormatUtil.verifyP
 
             const isPasswordValid = FileFormatUtil.verifyPassword(bytes, "1234");
 
-            document.getElementById('result').innerHTML = '<p>Password is Valid: ' + isPasswordValid + '</p>';
+            document.getElementById('result').innerHTML = '<p>Password is valid: ' + isPasswordValid + '</p>';
         });
     </script>
 </html>

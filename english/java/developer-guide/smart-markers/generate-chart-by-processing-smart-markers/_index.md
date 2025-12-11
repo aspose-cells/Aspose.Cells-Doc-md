@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells APIs provide the WorkbookDesigner class to work with Smart Markers where the formatting & formulas are placed in the designer spreadsheets and then processed against specified data source(s) to fill up the data according to the Smart Markers. It is also possible to create Excel charts by processing Smart Markers, that will require the following steps.
+Aspose.Cells APIs provide the WorkbookDesigner class to work with Smart Markers, where the formatting & formulas are placed in the designer spreadsheets and then processed against specified data source(s) to populate the data according to the Smart Markers. It is also possible to create Excel charts by processing Smart Markers, which will require the following steps.
 
 - Creation of designer spreadsheet
 - Processing designer spreadsheet against specified data source
@@ -17,7 +17,7 @@ Aspose.Cells APIs provide the WorkbookDesigner class to work with Smart Markers 
 
 {{% /alert %}} 
 ## **Creation of Designer Spreadsheet**
-A designer spreadsheet is a simple Excel file created with Microsoft Excel application or Aspose.Cells APIs containing the visual formatting, formulas and smart markers, where the contents are to be populated at runtime.
+A designer spreadsheet is a simple Excel file created with Microsoft Excel application or Aspose.Cells APIs containing the visual formatting, formulas, and smart markers, where the contents are to be populated at runtime.
 
 {{% alert color="primary" %}} 
 
@@ -29,7 +29,7 @@ For the sake of simplicity, we will create the designer spreadsheet using the As
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Create an instance of Workbook
 
@@ -61,17 +61,17 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 {{< /highlight >}}
 
-If you save the resultant spreadsheet at this stage, the data in the worksheet will look as follow.
+If you save the resultant spreadsheet at this stage, the data in the worksheet will look as follows.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_1.png)
 ## **Processing Designer Spreadsheet**
-In order to process the designer spreadsheet, we must have a data source that corresponds to the Smart Markers used in the designer spreadsheet. For instance, we have created a Smart Marker entry as **&=$Headers(horizontal)**, that represents the variable by name Headers whereas the key **(horizontal)** suggests that the data should be populated horizontally.
+In order to process the designer spreadsheet, we must have a data source that corresponds to the Smart Markers used in the designer spreadsheet. For instance, we have created a Smart Marker entry as **&=$Headers(horizontal)**; this represents the variable named **Headers**, whereas the key **(horizontal)** suggests that the data should be populated horizontally.
 
-In order to demonstrate this use case, we will create the data source from scratch and process it against the designer spreadsheet created in previous step. However, in real time scenario, data could already be available for further processing so you can skip the creation of data source if data is already available.
+In order to demonstrate this use case, we will create the data source from scratch and process it against the designer spreadsheet created in the previous step. However, in a real‑time scenario, data could already be available for further processing, so you can skip the creation of the data source if data is already available.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Create string arrays which will serve as data sources to the smart markers
 
@@ -87,11 +87,11 @@ String[] year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "31
 
 {{< /highlight >}}
 
-Processing of Smart Markers is quite simple as follow.
+Processing of Smart Markers is quite simple as follows.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Create an instance of WorkbookDesigner
 
@@ -119,31 +119,21 @@ designer.process();
 
 {{< /highlight >}}
 
-If you save the spreadsheet at this stage, the data will look as follow.
+If you save the spreadsheet at this stage, the data will look as follows.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_2.png)
 
 {{% alert color="primary" %}} 
 
-Above code snippet uses the existing instance of the Workbook class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of Workbook class by loading the existing designer spreadsheet.
+The above code snippet uses the existing instance of the Workbook class created in the first step. If you already have the designer spreadsheet file on disk or in memory, you can create an instance of the Workbook class by loading the existing designer spreadsheet.
 
 {{% /alert %}} 
 ## **Creation of Chart**
-Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the Chart.setChartDataRange method so that we do not have to configure the chart further.
-
-
-
-
-
-
+Once the data is in place, all we need to do is create a chart based on the data source. In order to keep the example simple, we will use the `Chart.setChartDataRange` method so that we do not have to configure the chart further.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GenerateChartByProcessingSmartMarkers-GenerateChartByProcessingSmartMarkers.java" >}}
 
-
-
-
-
-The final chart looks as follow.
+The final chart looks as follows.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)
 {{< app/cells/assistant language="java" >}}

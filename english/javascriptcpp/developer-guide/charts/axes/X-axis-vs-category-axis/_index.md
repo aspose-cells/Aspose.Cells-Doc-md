@@ -9,14 +9,17 @@ url: /javascript-cpp/X-axis-vs-category-axis/
 ---
 
 ## **Possible Usage Scenarios**
-There are different types of X axes. While the Y axis is a Value type axis, the X axis can be a Category type axis or a Value type axis. Using a Value axis, the data is treated as continuously varying numerical data, and the marker is placed at a point along the axis which varies according to its numerical value. Using a Category axis, the data is treated as a sequence of non-numerical text labels, and the marker is placed at a point along the axis according to its position in the sequence. The sample below illustrates the difference between Value and Category Axes.
-Our sample data is shown in the [sample Table file](sample.png) below. The first column contains our X axis data, which can be treated as Categories or as Values. Note that the numbers are not equally spaced, nor do they even appear in numerical order.
+There are different types of X axes. While the Y axis is a Value‑type axis, the X axis can be a Category‑type axis or a Value‑type axis. Using a Value axis, the data is treated as continuously varying numerical data, and the marker is placed at a point along the axis that varies according to its numerical value. Using a Category axis, the data is treated as a sequence of non‑numerical text labels, and the marker is placed at a point along the axis according to its position in the sequence. The sample below illustrates the difference between Value and Category axes.  
+
+Our sample data is shown in the [sample table file](sample.png) below. The first column contains our X‑axis data, which can be treated as categories or as values. Note that the numbers are not equally spaced, nor do they appear in numerical order.
 
 ![todo:image_alt_text](sample.png)
-## **Handle X and Category axis like Microsoft Excel**
-We will display this data on two types of chart, the first chart is XY (Scatter) chart X as Value Axis, the second chart is line chart X as Category Axis.
+
+## **Handle X and Category Axes like Microsoft Excel**
+We will display this data on two types of chart. The first chart is an XY (Scatter) chart with X as a Value axis, and the second chart is a line chart with X as a Category axis.
 
 ![todo:image_alt_text](compare.png)
+
 ## **Sample Code**
 ```html
 <!DOCTYPE html>
@@ -84,46 +87,42 @@ We will display this data on two types of chart, the first chart is XY (Scatter)
             worksheet.cells.get("D5").putValue(2);
 
             // Create Line Chart: X as Category Axis
-            let pieIdx = worksheet.charts.add(ChartType.LineWithDataMarkers, 6, 15, 20, 21);
+            let chartIdx = worksheet.charts.add(ChartType.LineWithDataMarkers, 6, 15, 20, 21);
             // Retrieve the Chart object
-            let chart = worksheet.charts.get(pieIdx);
+            let chart = worksheet.charts.get(chartIdx);
             // Add Series
             chart.nSeries.add("B2:D5", true);
             // Set the category data
             chart.nSeries.categoryData = "=Sheet1!$A$2:$A$5";
-            // Set the first series name
+            // Set the series names
             chart.nSeries.get(0).name = "Cats";
-            // Set the second series name
             chart.nSeries.get(1).name = "Dogs";
-            // Set the third series name
             chart.nSeries.get(2).name = "Fishes";
-            // Set the Legend at the bottom of the chart area
+            // Set the legend at the bottom of the chart area
             chart.legend.position = LegendPositionType.Bottom;
-            // Fill the PlotArea area with nothing 
+            // Fill the PlotArea with no fill
             chart.plotArea.area.fillFormat.fillType = FillType.None;
 
             // Create XY (Scatter) Chart: X as Value Axis
-            pieIdx = worksheet.charts.add(ChartType.ScatterConnectedByLinesWithDataMarker, 6, 6, 20, 12);
+            chartIdx = worksheet.charts.add(ChartType.ScatterConnectedByLinesWithDataMarker, 6, 6, 20, 12);
             // Retrieve the Chart object
-            chart = worksheet.charts.get(pieIdx);
+            chart = worksheet.charts.get(chartIdx);
             // Add Series
             chart.nSeries.add("B2:D5", true);
-            // Set X values for series 
+            // Set X values for each series
             chart.nSeries.get(0).xValues = "{1,3,2.5,3.5}";
             chart.nSeries.get(1).xValues = "{1,3,2.5,3.5}";
             chart.nSeries.get(2).xValues = "{1,3,2.5,3.5}";
-            // Set the first series name
+            // Set the series names
             chart.nSeries.get(0).name = "Cats";
-            // Set the second series name
             chart.nSeries.get(1).name = "Dogs";
-            // Set the third series name
             chart.nSeries.get(2).name = "Fishes";
-            // Set the Legend at the bottom of the chart area
+            // Set the legend at the bottom of the chart area
             chart.legend.position = LegendPositionType.Bottom;
-            // Fill the PlotArea area with nothing 
+            // Fill the PlotArea with no fill
             chart.plotArea.area.fillFormat.fillType = FillType.None;
 
-            // Saving the modified Excel file
+            // Save the modified Excel file
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

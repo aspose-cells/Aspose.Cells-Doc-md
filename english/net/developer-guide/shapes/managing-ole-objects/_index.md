@@ -15,30 +15,30 @@ OLE (Object Linking and Embedding) is supported by many different programs and i
 
 ### **Inserting OLE Objects into the Worksheet**
 
-Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
+Aspose.Cells supports adding, extracting, and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection. Another class, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
 
-- The [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.
-- The [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.
+- The [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) property specifies the image (icon) data of byte‑array type. The image will be displayed to show the OLE Object in the worksheet.
+- The [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double‑click on the OLE Object icon.
 
-The following example shows how to add an OLE Object(s) into a worksheet.
+The following example shows how to add OLE Object(s) to a worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
 ### **Extracting OLE Objects in the Workbook**
 
-The following example shows how to extract OLE Objects in a Workbook. The example gets different OLE objects from an existing XLS file and saves different files (DOC, XLS, PPT, PDF, etc.) based on the OLE object’s file format type.
+The following example shows how to extract OLE Objects from a Workbook. The example gets different OLE objects from an existing XLS file and saves different files (DOC, XLS, PPT, PDF, etc.) based on the OLE object’s file‑format type.
 
-After running the code, we can save different files based on their respective OLE Objects format types.
+After running the code, you can save different files based on each OLE Object’s format type.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
 
-### **Extracting Embedded MOL File**
+### **Extracting an Embedded MOL File**
 
-Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](94896196.xlsx).
+Aspose.Cells supports extracting objects of uncommon types like MOL (Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting the embedded MOL file and saving it to disk using this [sample Excel file](94896196.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Access and Modify the Display Label of the Linked Ole Object](/cells/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
 - [Automatically refresh OLE object via Microsoft Excel using Aspose.Cells](/cells/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Extract OLE Objects from Workbook](/cells/net/extract-ole-objects-from-workbook/)

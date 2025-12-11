@@ -31,7 +31,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access the VBA project of the workbook.
 const vbaProject = workbook.getVbaProject();
 
-// Whether "Lock project for viewing" is true or not.
+// Indicates whether "Lock project for viewing" is true.
 console.log("Is VBA Project Locked for Viewing: " + vbaProject.getIslockedForViewing());
 ```
 
@@ -39,9 +39,7 @@ console.log("Is VBA Project Locked for Viewing: " + vbaProject.getIslockedForVie
 
 This is the console output of the above sample code when executed with the provided [sample Excel file](43352065.xlsm).
 
-{{< highlight java >}}
-
+{{< highlight javascript >}}
 Is VBA Project Locked for Viewing: True
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

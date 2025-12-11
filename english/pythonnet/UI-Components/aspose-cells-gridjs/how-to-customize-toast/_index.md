@@ -1,11 +1,10 @@
 ---
-title: how to customize UI appearence for message tip toast in GridJs  
+title: how to customize UI appearance for message tip toast in GridJs  
 type: docs
 weight: 250
 url: /python-net/aspose-cells-gridjs/how-to-customize-toast/
-description: This article describes how to customize UI appearence for mssage toast in GridJs.
-keywords: GridJs,customize,toast,UI,appearence,visual,message,alert
-aliases:
+description: This article describes how to customize UI appearance for message toast in GridJs.
+keywords: GridJs,customize,toast,UI,appearance,visual,message,alert
 aliases:
   - /python-net/aspose-cells-gridjs/customize-toast/
   - /python-net/aspose-cells-gridjs/customize-ui-alert/
@@ -16,9 +15,6 @@ aliases:
   - /python-net/aspose-cells-gridjs/customize-toast-styling/
   - /python-net/aspose-cells-gridjs/customize-toast-theme/
   - /python-net/aspose-cells-gridjs/customize-message/
-
-
-
 
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -352,7 +348,7 @@ xs.customToast(mobileToast);
 Sets a custom toast notification function for the spreadsheet instance.
 
 **Parameters:**
-- `toastFunction` (Function | null): Custom toast function with signature `(title, content, callback) => void`
+- `toastFunction` (Function | null): Custom toast function with signature `(title, content, callback) => void`
   - Pass `null` to restore default toast behavior
 
 **Returns:**
@@ -420,7 +416,7 @@ toast.setAttribute('aria-atomic', 'true');
 
 ### 5. Error Handling
 
-Wrap your toast function in try-catch to prevent breaking the spreadsheet:
+Wrap your toast function in `try‑catch` to prevent breaking the spreadsheet:
 
 ```javascript
 xs.customToast((title, content, callback) => {
@@ -477,9 +473,9 @@ xs.customToast(null);
 **Problem:** Custom toast function is called but nothing appears.
 
 **Solutions:**
-1. Check z-index values (ensure they're higher than spreadsheet elements)
+1. Check `z-index` values (ensure they're higher than spreadsheet elements)
 2. Verify the toast element is appended to `document.body`
-3. Check browser console for JavaScript errors
+3. Check the browser console for JavaScript errors
 
 ### Callback Not Working
 
@@ -508,11 +504,6 @@ const remove = () => {
 **Problem:** Toast looks bad on mobile devices.
 
 **Solutions:**
-1. Use percentage-based widths: `maxWidth: '80%'`
+1. Use percentage‑based widths: `maxWidth: '80%'`
 2. Add viewport meta tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
 3. Use relative font sizes: `fontSize: '14px'` instead of fixed pixels
-
----
- 
- 
- 

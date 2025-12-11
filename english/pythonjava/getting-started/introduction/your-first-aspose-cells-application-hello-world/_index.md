@@ -1,11 +1,11 @@
----
-title: Your First Aspose.Cells Application - Hello World
-type: docs
-weight: 30
-url: /python-java/your-first-aspose-cells-application-hello-world/
-ai_search_scope: cells_pythonjava
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Your First Aspose.Cells Application - Hello World  
+type: docs  
+weight: 30  
+url: /python-java/your-first-aspose-cells-application-hello-world/  
+ai_search_scope: cells_pythonjava  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask" 
+---  
 
 {{% alert color="primary" %}}
 
@@ -17,14 +17,14 @@ This beginner's topic shows how developers can create a simple first application
 
 To create the Hello World application using Aspose.Cells API:
 
-1. Create an instance of the [**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook) class.
-1. Apply the license:
-   1. If you have purchased a license, then use the license in your application to get access to Aspose.Cells' full functionality
-   1. If you are using the evaluation version of the component (if you're using Aspose.Cells without a license), skip this step.
-1. Create a new Microsoft Excel file, or open an existing file in which you want to add/update some text.
-1. Access any cell of a worksheet in the Microsoft Excel file.
-1. Insert the words **Hello World!** into a cell accessed.
-1. Generate the modified Microsoft Excel file.
+1. Create an instance of the [**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook) class.  
+2. Apply the license:  
+   1. If you have purchased a license, then use the license in your application to get access to Aspose.Cells' full functionality.  
+   2. If you are using the evaluation version of the component (if you're using Aspose.Cells without a license), skip this step.  
+3. Create a new Microsoft Excel file, or open an existing file in which you want to add/update some text.  
+4. Access any cell of a worksheet in the Microsoft Excel file.  
+5. Insert the words **Hello World!** into the accessed cell.  
+6. Generate the modified Microsoft Excel file.
 
 The examples below demonstrate the above steps.
 
@@ -32,7 +32,7 @@ The examples below demonstrate the above steps.
 
 The following example creates a new workbook from scratch, writes the words "Hello World!" into cell A1 on the first worksheet, and saves the file.
 
-**The generated spreadsheet** 
+**The generated spreadsheet**  
 
 ![todo:image_alt_text](your-first-aspose-cells-application-hello-world_1.png)
 
@@ -40,6 +40,6 @@ The following example creates a new workbook from scratch, writes the words "Hel
 
 ### **Opening an Existing File**
 
-The following example opens an existing Microsoft Excel template file called **book1.xls**, writes the words "Hello World!" in cell A1 in the first worksheet, and saves the workbook as a new file.
+The following example opens an existing Microsoft Excel template file called **book1.xls**, writes the words "Hello World!" in cell A1 of the first worksheet, and saves the workbook as a new file.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpeningExistingFile.py" >}}

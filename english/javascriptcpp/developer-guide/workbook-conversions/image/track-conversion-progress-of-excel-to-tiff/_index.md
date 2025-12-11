@@ -9,11 +9,11 @@ description: Learn how to track the conversion progress of Excel files to TIFF u
 
 ## **Possible Usage Scenarios**
 
-Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells for JavaScript via C++ supports tracking document conversion process by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface provides [**pageStartSaving(PageStartSavingArgs)**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback/#pageStartSaving-pagestartsavingargs-) and [**pageEndSaving(PageEndSavingArgs)**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback/#pageEndSaving-pageendsavingargs-) methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the *TestPageSavingCallback* custom class.
+Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells for JavaScript via C++ supports tracking the document conversion process by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface provides [**pageStartSaving(PageStartSavingArgs)**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback/#pageStartSaving-pagestartsavingargs-) and [**pageEndSaving(PageEndSavingArgs)**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback/#pageEndSaving-pageendsavingargs-) methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the *TestPageSavingCallback* custom class.
 
 ## **Track Conversion Progress of Excel to TIFF**
 
-The following code sample loads the [source excel file](95584311.xlsx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface. The output file generated is attached for your reference.
+The following code sample loads the [source **Excel** file](95584311.xlsx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/javascript-cpp/ipagesavingcallback) interface. The output file generated is attached for your reference.
 
 [Output File](95584312.tiff)
 
@@ -196,7 +196,7 @@ End saving page index 4 of pages 10</br>
 Start saving page index 5 of pages 10</br>
 End saving page index 5 of pages 10</br>
 Start saving page index 6 of pages 10</br>
-End saving page index 6 of pages 10</br>
+End saving page index 6</br>
 Start saving page index 7 of pages 10</br>
 End saving page index 7 of pages 10</br>
 Start saving page index 8 of pages 10</br>

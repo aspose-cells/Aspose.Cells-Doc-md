@@ -7,39 +7,34 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (that means all values in a column must have the same data type) then we can export the worksheet content by calling the **ExportDataTable** method of the Cells class. **ExportDataTable** method takes the following parameters to export worksheet data as **DataTable** object: **Row Number** , represents the row number of the first cell from where the data will be exported
+We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (which means all values in a column must have the same data type), then we can export the worksheet content by calling the **ExportDataTable** method of the Cells class. The **ExportDataTable** method takes the following parameters to export worksheet data as a **DataTable** object:
 
-- **Column Number** , represents the column number of the first cell from where the data will be exported
-- **Number of Rows** , represents the number of rows to export
-- **Number of Columns** , represents the number of columns to export
-- **Export Column Names** , a boolean proeprty that indicates whether the data in the first row of the worksheet should be exported as column names of the DataTable or not
+- **Row Number**, represents the row number of the first cell from where the data will be exported
+- **Column Number**, represents the column number of the first cell from where the data will be exported
+- **Number of Rows**, represents the number of rows to export
+- **Number of Columns**, represents the number of columns to export
+- **Export Column Names**, a boolean property that indicates whether the data in the first row of the worksheet should be exported as column names of the DataTable or not
 
 {{< highlight csharp >}}
 
- //Creating a file stream containing the Excel file to be opened
-
+ // Creating a file stream containing the Excel file to be opened
 FileStream fstream = new FileStream(FOD_OpenFile.FileName, FileMode.Open);
 
-//Instantiating a Workbook object
+// Instantiating a Workbook object
 
-//Opening the Excel file through the file stream
-
+// Opening the Excel file through the file stream
 Workbook workbook = new Workbook(fstream);
 
-//Accessing the first worksheet in the Excel file
-
+// Accessing the first worksheet in the Excel file
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Exporting the contents of 2 rows and 2 columns starting from 1st cell to DataTable
+// Exporting the contents of 2 rows and 2 columns starting from the first cell to a DataTable
+DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 2, 2, true);
 
-DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0,2, 2, true);
-
-//Binding the DataTable with DataGrid
-
+// Binding the DataTable with a DataGrid
 dataGridView1.DataSource = dataTable;
 
-//Closing the file stream to free all resources
-
+// Closing the file stream to free all resources
 fstream.Close();
 
 {{< /highlight >}}

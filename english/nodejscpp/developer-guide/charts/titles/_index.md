@@ -12,14 +12,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-In Excel charts, there are 2 kinds of title:
-1. Chart Title 
-1. Axis Titles
+In Excel charts, there are 2 kinds of titles:
+1. Chart Title  
+2. Axis Titles
 
 {{% /alert %}}
 
 ## **Title Options**
-Aspose.Cells for Node.js via C++ also allows managing chart's titles at runtime. With the [Title](https://reference.aspose.com/cells/nodejs-cpp/title/) object, you can change text, font, and fill format for titles.
+Aspose.Cells for Node.js via C++ also allows managing chart titles at runtime. With the [Title](https://reference.aspose.com/cells/nodejs-cpp/title/) object, you can change text, font, and fill format for titles.
 
 |![todo:image_alt_text](chart_title.png)|
 
@@ -58,7 +58,7 @@ const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0,
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
 
-// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cells to "B3"
 chart.getNSeries().add("A1:B3", true);
 
 // Setting the foreground color of the plot area
@@ -82,16 +82,16 @@ chart.getTitle().setText("Title");
 // Setting the font color of the chart title to blue
 chart.getTitle().getFont().setColor(AsposeCells.Color.Blue);
 
-// Setting the title of category axis of the chart
+// Setting the title of the category axis of the chart
 chart.getCategoryAxis().getTitle().setText("Category");
 
-// Setting the title of value axis of the chart
+// Setting the title of the value axis of the chart
 chart.getValueAxis().getTitle().setText("Value");
 
 // Saving the Excel file
 workbook.save(path.join(dataDir, "book1.out.xls"));
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Read Chart Subtitle from ODS File](/cells/nodejs-cpp/read-chart-subtitle-from-ods-file/)
 {{< app/cells/assistant language="nodejs-cpp" >}}

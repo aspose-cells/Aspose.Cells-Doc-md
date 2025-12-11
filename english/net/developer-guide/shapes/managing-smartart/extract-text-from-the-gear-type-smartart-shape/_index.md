@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
+Aspose.Cells can extract text from the Gear Type SmartArt shape. In order to do so, you should first convert the SmartArt shape to a group shape using the [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. Then you should get the array of all the individual shapes forming the group shape using the [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) method. Finally, you can iterate over all of the individual shapes one by one in a loop and extract their text using the [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
 
 ## **Extract Text from the Gear Type SmartArt Shape**
 
-The following sample code loads the [sample Excel file](67338483.xlsx) that contains Gear Type Smart Art Shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for a reference.
+The following sample code loads the [sample Excel file](67338483.xlsx) that contains the Gear Type SmartArt shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below as a reference.
 
 ## **Sample Code**
 
@@ -21,13 +21,11 @@ The following sample code loads the [sample Excel file](67338483.xlsx) that cont
 
 ## **Console Output**
 
-{{< highlight java >}}
-
+{{< highlight csharp >}}
 Gear Type Shape Text: Nice
 
 Gear Type Shape Text: Good
 
 Gear Type Shape Text: Excellent
-
 {{< /highlight >}}
 {{< app/cells/assistant language="csharp" >}}

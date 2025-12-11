@@ -19,7 +19,7 @@ Microsoft Excel allows you to set the formula calculation mode, that is, the way
 To set the formula calculation mode in Microsoft Excel:  
 
 1. Select **Formulas** and then **Calculation Options**.  
-1. Select one of the options.  
+2. Select one of the options.  
 
 Aspose.Cells for JavaScript via C++ also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.calculationMode**](https://reference.aspose.com/cells/javascript-cpp/formulasettings/#calculationMode--) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/javascript-cpp/calcmodetype) enumeration which has one of the following values:  
 

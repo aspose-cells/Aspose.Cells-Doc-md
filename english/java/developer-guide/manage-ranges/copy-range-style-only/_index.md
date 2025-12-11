@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-[Copy Range Data Only](/cells/java/copy-range-data-only/) and [Copy Range Data with Style](/cells/java/copy-range-data-with-style/) explained how to copy data from a range to another with or without formatting. It is also possible to copy only the formatting of the range. This article shows how.
+[Copy Range Data Only](/cells/java/copy-range-data-only/) and [Copy Range Data with Style](/cells/java/copy-range-data-with-style/) explain how to copy data from a range to another with or without formatting. It is also possible to copy only the formatting of the range. This article shows how.
 
 {{% /alert %}} 
 ## **Copy Range Style Only**

@@ -7,13 +7,13 @@ url: /javascript-cpp/autofill-ranges/
 description: Learn how to perform an autofill operation in a specified range of an Excel file using Aspose.Cells for JavaScript via C++.
 ---
 
-##  **Perform an autofill in the specified range in Excel**
+## **Perform an autofill in the specified range in Excel**
 
-In Excel, select a range, move the mouse to the right-bottom, and drag "plus" to autofill data.
+In Excel, select a range, move the mouse to the bottom‑right, and drag the “plus” sign to autofill data.
 
-## **Auto Fill Ranges with Aspose.Cells for JavaScript via C++**
+## **Auto‑Fill Ranges with Aspose.Cells for JavaScript via C++**
 
-The following example shows how to perform an AutoFill operation on a Range, and 
+The following example shows how to perform an AutoFill operation on a range.
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

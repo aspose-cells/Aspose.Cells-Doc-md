@@ -12,12 +12,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 # Excel Cell Formatting
 
-Apply professional **Excel cell formatting** with AI-powered automation. Style **Excel cells** with backgrounds, borders, alignment, number formats, and advanced cell properties.
+Apply professional **Excel cell formatting** with AI‑powered automation. Style **Excel cells** with backgrounds, borders, alignment, number formats, and advanced cell properties.
 
 ## Available Tools
 
-- `cell_format` - **Excel cell formatting** (background, borders, alignment, number format) through **Excel MCP**
-- `cell_format_batch` - Apply **Excel cell formatting** to multiple ranges in batch with **AI automation**
+- `cell_format` – **Excel cell formatting** (background, borders, alignment, number format) through **Excel MCP**
+- `cell_format_batch` – Apply **Excel cell formatting** to multiple ranges in batch with **AI automation**
 
 ## Single Cell Formatting
 
@@ -234,58 +234,58 @@ Apply professional **Excel cell formatting** with AI-powered automation. Style *
 ## Formatting Parameters Reference
 
 ### Background Colors
-- `"#FFFFFF"` - White
-- `"#4472C4"` - Professional blue
-- `"#E6F3FF"` - Light blue
-- `"#FFFF00"` - Yellow
-- `"#FFE6E6"` - Light red
-- `"#E6FFE6"` - Light green
-- `"#F0F8FF"` - Alice blue
+- `"#FFFFFF"` – White
+- `"#4472C4"` – Professional blue
+- `"#E6F3FF"` – Light blue
+- `"#FFFF00"` – Yellow
+- `"#FFE6E6"` – Light red
+- `"#E6FFE6"` – Light green
+- `"#F0F8FF"` – Alice blue
 
 ### Horizontal Alignment
-- `"left"` - Left aligned
-- `"center"` - Center aligned
-- `"right"` - Right aligned
-- `"justify"` - Justified
-- `"fill"` - Fill the cell
+- `"left"` – Left aligned
+- `"center"` – Center aligned
+- `"right"` – Right aligned
+- `"justify"` – Justified
+- `"fill"` – Fill the cell
 
 ### Vertical Alignment
-- `"top"` - Top aligned
-- `"middle"` - Middle aligned
-- `"bottom"` - Bottom aligned
-- `"justify"` - Justified vertically
+- `"top"` – Top aligned
+- `"middle"` – Middle aligned
+- `"bottom"` – Bottom aligned
+- `"justify"` – Justified vertically
 
 ### Border Styles
-- `"none"` - No border
-- `"thin"` - Thin line
-- `"medium"` - Medium line
-- `"thick"` - Thick line
-- `"dashed"` - Dashed line
-- `"dotted"` - Dotted line
-- `"double"` - Double line
+- `"none"` – No border
+- `"thin"` – Thin line
+- `"medium"` – Medium line
+- `"thick"` – Thick line
+- `"dashed"` – Dashed line
+- `"dotted"` – Dotted line
+- `"double"` – Double line
 
 ### Border Sides
-- `["all"]` - All sides
-- `["top", "bottom"]` - Top and bottom
-- `["left", "right"]` - Left and right
-- `["outline"]` - Outside borders only
-- `["inside"]` - Inside borders only
+- `["all"]` – All sides
+- `["top", "bottom"]` – Top and bottom
+- `["left", "right"]` – Left and right
+- `["outline"]` – Outside borders only
+- `["inside"]` – Inside borders only
 
 ### Number Formats
-- `"General"` - Default format
-- `"0"` - Integer
-- `"0.00"` - Two decimal places
-- `"0%"` - Percentage
-- `"$#,##0.00"` - Currency with thousands separator
-- `"yyyy-mm-dd"` - Date format
-- `"h:mm AM/PM"` - Time format
+- `"General"` – Default format
+- `"0"` – Integer
+- `"0.00"` – Two decimal places
+- `"0%"` – Percentage
+- `"$#,##0.00"` – Currency with thousands separator
+- `"yyyy-mm-dd"` – Date format
+- `"h:mm AM/PM"` – Time format
 
 ### Text Properties
-- `text_wrap: true` - Wrap text in cell
-- `text_rotation: 45` - Rotate text (degrees)
-- `indent: 2` - Indent text level
-- `locked: true` - Lock cell for protection
-- `hidden: true` - Hide cell formula
+- `text_wrap: true` – Wrap text in the cell
+- `text_rotation: 45` – Rotate text (degrees)
+- `indent: 2` – Indent text level
+- `locked: true` – Lock cell for protection
+- `hidden: true` – Hide cell formula
 
 ## Advanced Formatting Examples
 
@@ -359,37 +359,37 @@ Apply professional **Excel cell formatting** with AI-powered automation. Style *
 
 ## Best Practices
 
-1. **Color Harmony**: Use complementary colors for professional appearance
-2. **Contrast**: Ensure text is readable against background colors
-3. **Consistency**: Apply consistent formatting across similar data
-4. **Borders**: Use borders to separate sections and highlight important data
-5. **Number Formats**: Apply appropriate number formats for data types
+1. **Color Harmony** – Use complementary colors for a professional appearance  
+2. **Contrast** – Ensure text is readable against background colors  
+3. **Consistency** – Apply consistent formatting across similar data  
+4. **Borders** – Use borders to separate sections and highlight important data  
+5. **Number Formats** – Apply appropriate number formats for data types  
 
 ## Common Use Cases
 
 ### Report Headers
-- Dark background with white text
-- Center alignment
-- Thick borders
-- Text wrapping enabled
+- Dark background with white text  
+- Center alignment  
+- Thick borders  
+- Text wrapping enabled  
 
 ### Financial Data
-- Currency formatting
-- Right alignment for numbers
-- Highlighting negative values
-- Thousands separators
+- Currency formatting  
+- Right alignment for numbers  
+- Highlighting negative values  
+- Thousands separators  
 
 ### Status Indicators
-- Color-coded backgrounds
-- Center alignment
-- Bold borders
-- Clear visual distinction
+- Color‑coded backgrounds  
+- Center alignment  
+- Bold borders  
+- Clear visual distinction  
 
 ### Data Tables
-- Alternating row colors
-- Consistent column widths
-- Appropriate number formats
-- Clear header styling
+- Alternating row colors  
+- Consistent column widths  
+- Appropriate number formats  
+- Clear header styling  
 
 ## Error Handling
 
@@ -405,7 +405,7 @@ Apply professional **Excel cell formatting** with AI-powered automation. Style *
   }
 }
 ```
-**Result**: Uses default background color
+**Result**: Uses default background color  
 
 ### Invalid Number Format
 ```json
@@ -419,5 +419,6 @@ Apply professional **Excel cell formatting** with AI-powered automation. Style *
   }
 }
 ```
-**Result**: Uses General format as fallback 
+**Result**: Uses General format as fallback  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

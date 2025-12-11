@@ -3,7 +3,7 @@ title: How to Lock Cells to Protect Them
 type: docs
 weight: 130
 url: /javascript-cpp/how-to-lock-cells-to-protect-them/
-description: This article shows you code explaining how to lock cells to protect them using Aspose.Cells for JavaScript via C++.
+description: This article provides code that shows how to lock cells to protect them using Aspose.Cells for JavaScript via C++.
 keywords: JavaScript Lock Cells to Protect Them, How to Lock Cells to Protect Them using JavaScript, Lock Cells to Protect Them in JavaScript.
 ---
 
@@ -25,18 +25,18 @@ Locking cells to protect them is a common practice in spreadsheet applications, 
 ## **How to Lock Cells to Protect Them in Excel**
 Here's how you can lock cells in Microsoft Excel:
 
-1. Select the Cells to Lock: Select the cells you want to lock. If you want to lock the entire sheet, you can skip this step.
-1. Open the Format Cells Dialog: Right-click on the selected cells and choose "Format Cells," or press Ctrl+1.
-<br>
-<img src="1.png" width=60% />
-1. Lock the Cells: In the Format Cells dialog, go to the "Protection" tab. Check the "Locked" checkbox. Click "OK."
-1. Protect the Worksheet: Go to the "Review" tab on the Ribbon. Click "Protect Sheet." Set a password (optional) and choose the permissions you want to allow (e.g., selecting locked cells, formatting cells, etc.). Click "OK."
-<br>
-<img src="2.png" width=60% />
+1. Select the Cells to Lock: Select the cells you want to lock. If you want to lock the entire sheet, you can skip this step.  
+2. Open the Format Cells Dialog: Right‑click on the selected cells and choose **Format Cells**, or press **Ctrl+1**.  
+   <br>
+   <img src="1.png" width=60% />
+3. Lock the Cells: In the Format Cells dialog, go to the **Protection** tab. Check the **Locked** checkbox. Click **OK**.  
+4. Protect the Worksheet: Go to the **Review** tab on the Ribbon. Click **Protect Sheet**. Set a password (optional) and choose the permissions you want to allow (e.g., selecting locked cells, formatting cells, etc.). Click **OK**.  
+   <br>
+   <img src="2.png" width=60% />
 
 ## **How to Lock Cells to Protect Them Using JavaScript**
 
-Aspose.Cells is a powerful library for working with Excel files programmatically. To lock cells using Aspose.Cells for JavaScript via C++, you need to follow these steps: load [sample file](sample.xlsx), unlock all cells first (since, by default, all cells are locked but not enforced until the worksheet is protected), then lock the specific cells you want to protect, and finally protect the worksheet to enforce the locking.
+Aspose.Cells is a powerful library for working with Excel files programmatically. To lock cells using Aspose.Cells for JavaScript via C++, you need to follow these steps: load the [sample file](sample.xlsx), unlock all cells first (since, by default, all cells are locked but not enforced until the worksheet is protected), then lock the specific cells you want to protect, and finally protect the worksheet to enforce the locking.
 
 ```html
 <!DOCTYPE html>

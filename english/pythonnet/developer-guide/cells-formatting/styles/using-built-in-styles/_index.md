@@ -3,21 +3,21 @@ title: Using Built-in Styles
 type: docs
 weight: 80
 url: /python-net/using-built-in-styles/
-description: C# code to use Excel built-in styles with Aspose.Cells for Python via .NET API
-keywords: Python use excel built in styles, Python programmatically apply styles in workbook, programmatically apply styles in workbook, Python apply built in styles in excel, Python apply built in styles in workbook, Python code apply built in styles in workbook, Python code apply built in styles in excel workbook
+description: Python code to use Excel built-in styles with Aspose.Cells for Python via .NET API
+keywords: Python use Excel built-in styles, Python programmatically apply styles in workbook, programmatically apply styles in workbook, Python apply built-in styles in Excel, Python apply built-in styles in workbook, Python code apply built-in styles in workbook, Python code apply built-in styles in Excel workbook
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET provides a vast collection of re-usable styles to format a cell in spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
+Aspose.Cells for Python via .NET provides a vast collection of reusable styles to format a cell in a spreadsheet document. We can use built‑in styles in our workbook and also create custom styles.
 
 {{% /alert %}}
 
-## **How to use Built-in Styles**
+## **How to Use Built-in Styles**
 
-The method [**Workbook.create_builtin_style**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/create_builtin_style) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/python-net/aspose.cells/builtinstyletype) make it convenient to use built-in styles. Here is a list of all possible built-in styles:
+The method [**Workbook.create_builtin_style**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/create_builtin_style) and the enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/python-net/aspose.cells/builtinstyletype) make it convenient to use built‑in styles. Here is a list of all possible built‑in styles:
 
 - TWENTY_PERCENT_ACCENT_1
 - TWENTY_PERCENT_ACCENT_2
@@ -71,7 +71,7 @@ The method [**Workbook.create_builtin_style**](https://reference.aspose.com/cell
 - ROW_LEVEL
 - COLUMN_LEVEL
 
-## Python code to use built-in styles
+## Python Code to Use Built-in Styles
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UsingBuiltinStyles-1.py" >}}
 

@@ -10,15 +10,15 @@ url: /javascript-cpp/extract-theme-data-from-excel-file/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows the users to extract Theme related data from Excel file. For example, you can extract Theme Name applied to workbook and Theme Color applied to cell or borders of the cell, etc.
+Aspose.Cells allows users to extract theme‑related data from an Excel file. For example, you can extract the theme name applied to the workbook and theme colors applied to cells or cell borders, etc.
 
-You can apply Theme to your workbook using Microsoft Excel via Page Layout > Themes command.
+You can apply a theme to your workbook using Microsoft Excel via **Page Layout > Themes** command.
 
 {{% /alert %}}
 
 ## JavaScript code to extract theme data from Excel file
 
-The following sample code extracts the Theme name applied to the source workbook and then it extracts the Theme color applied to cell A1 and the Theme color applied to the bottom border of the cell.
+The following sample code extracts the theme name applied to the source workbook and then extracts the theme color applied to cell A1 and the theme color applied to the bottom border of the cell.
 
 ```html
 <!DOCTYPE html>
@@ -85,20 +85,20 @@ The following sample code extracts the Theme name applied to the source workbook
             const style = cell.style;
 
             if (style.foregroundThemeColor != null) {
-                // Extract theme color applied to this cell if theme has foreground theme color defined
+                // Extract the theme color applied to this cell if the theme has a foreground theme color defined
                 const fgColorType = style.foregroundThemeColor.colorType;
                 resultDiv.innerHTML += `<p>Foreground theme color type: ${fgColorType}</p>`;
             } else {
-                resultDiv.innerHTML += `<p>Theme has not foreground color defined.</p>`;
+                resultDiv.innerHTML += `<p>Theme does not have a foreground color defined.</p>`;
             }
 
-            // Extract theme color applied to the bottom border of the cell if theme has border color defined
+            // Extract theme color applied to the bottom border of the cell if the theme has a border color defined
             const bot = style.borders.get(BorderType.BottomBorder);
             if (bot.themeColor != null) {
                 const botColorType = bot.themeColor.colorType;
                 resultDiv.innerHTML += `<p>Bottom border theme color type: ${botColorType}</p>`;
             } else {
-                resultDiv.innerHTML += `<p>Theme has not Border color defined.</p>`;
+                resultDiv.innerHTML += `<p>Theme does not have a border color defined.</p>`;
             }
 
             // No file is produced here, but keep download link hidden

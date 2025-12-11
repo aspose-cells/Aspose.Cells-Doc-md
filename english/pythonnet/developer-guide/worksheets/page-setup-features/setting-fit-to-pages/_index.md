@@ -12,33 +12,33 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-The fit_to_pages_wide and fit_to_pages_tall settings control spreadsheet scaling during printing. These settings ensure printed output fits within specified page dimensions:
+The **fit_to_pages_wide** and **fit_to_pages_tall** settings control spreadsheet scaling during printing. These settings ensure printed output fits within specified page dimensions:
 
-1. **fit_to_pages_wide**: Specifies horizontal page count for printing
-1. **fit_to_pages_tall**: Specifies vertical page count for printing
+1. **fit_to_pages_wide**: Specifies the horizontal page count for printing.  
+2. **fit_to_pages_tall**: Specifies the vertical page count for printing.
 
 ## **Why Use FitToPagesWide and FitToPagesTall**
 Key benefits include:
-1. Precise print layout control
-1. Consistent multi-sheet formatting
-1. Professional document presentation
+1. Precise print layout control  
+2. Consistent multi-sheet formatting  
+3. Professional document presentation  
 
 ## **How to Print File as Fitted Pages Wide and Tall in Excel**
-To configure in Microsoft Excel:
-1. Open workbook and select worksheet
-1. Navigate to **Page Layout** → **Page Setup** dialog
-1. In **Page** tab under **Scaling**:
-   - Select "Fit to"
-   - Specify pages wide (horizontal) and tall (vertical)
+To configure this in Microsoft Excel:
+1. Open the workbook and select a worksheet.  
+2. Navigate to **Page Layout** → **Page Setup** dialog.  
+3. In the **Page** tab under **Scaling**:
+   - Select "Fit to".  
+   - Specify pages wide (horizontal) and tall (vertical).
 
 <br>
 <img src="2.png" width=60% />
 
 ## **How to Print Excel as Fitted Pages Wide and Tall Using Aspose.Cells**
 To configure programmatically:
-1. Load [sample file](input.xlsx)
-1. Access worksheet's [**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/) object
-1. Set [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) and [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) properties
+1. Load the [sample file](input.xlsx).  
+2. Access the worksheet's [**page_setup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/) object.  
+3. Set the [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall/) and [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide/) properties.
 
 ```python
 from aspose.cells import Workbook
@@ -64,9 +64,9 @@ Output result:
 <img src="1.png" width=60% />
 
 ## **How to Print Worksheet as One Page**
-To force single-page output:
-1. Use [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)
-1. Set [**one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/one_page_per_sheet/) property
+To force single‑page output:
+1. Use [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/).  
+2. Set the [**one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/one_page_per_sheet/) property.
 
 ```python
 from aspose.cells import Workbook, PdfSaveOptions
@@ -89,8 +89,8 @@ Output result:
 
 ## **How to Print All Columns in One Page**
 To consolidate columns horizontally:
-1. Configure [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)
-1. Enable [**all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/all_columns_in_one_page_per_sheet/) property
+1. Configure [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/).  
+2. Enable the [**all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/all_columns_in_one_page_per_sheet/) property.
 
 ```python
 from aspose.cells import Workbook, PdfSaveOptions

@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns etc., named and stored as a set. When applied, all of the formatting in that style are applied.
+To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns, etc., named and stored as a set. When applied, all of the formatting in that style is applied.
 
-You can also use an existing style, save it with the workbook and use to format information with the same attributes.
+You can also use an existing style, save it with the workbook, and use it to format information with the same attributes.
 
-When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.
+When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style, including Comma, Currency, and Percent.
 
 Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.
 
@@ -24,15 +24,15 @@ Aspose.Cells allows modifying any of these styles or any other style that you de
 
 ## **Using Microsoft Excel**
 
-To update a style in Microsoft Excel 97-2003:
+To update a style in Microsoft Excel 97‑2003:
 
-1. On the **Format** menu, click **Style**.
-1. Select the style you want to modify from the **Style name** list.
-1. Click **Modify**.
-1. Select the style options that you want using the tabs in the Format Cells dialog.
-1. Click **OK**.
-1. Under **Style includes**, specify the style features you want.
-1. Click **OK** to save the style and apply it to the selected range.
+1. On the **Format** menu, click **Style**.  
+2. Select the style you want to modify from the **Style name** list.  
+3. Click **Modify**.  
+4. Select the style options that you want using the tabs in the Format Cells dialog.  
+5. Click **OK**.  
+6. Under **Style includes**, specify the style features you want.  
+7. Click **OK** to save the style and apply it to the selected range.
 
 ## **Using Aspose.Cells for Node.js via C++**
 
@@ -44,18 +44,16 @@ This example creates a [**Style**](https://reference.aspose.com/cells/nodejs-cpp
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-CreateAndModifyStyle.js" >}}
 
-
 ### **Modifying an Existing Style**
 
 This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:
 
-1. gets the style,
-1. creates a style object and
-1. modifies the style formatting.
+1. Gets the style,  
+2. Creates a style object, and  
+3. Modifies the style formatting.
 
 The modifications are automatically applied to the range the style was applied to.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-ModifyExistingStyle.js" >}}
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

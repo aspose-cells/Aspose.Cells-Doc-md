@@ -18,7 +18,7 @@ To preview multiple files from within a folder:
 1. Select multiple files.
 1. With the files still selected, select **Preview Document with Aspose.Cells**.
 
-**Document preview from withing SharePoint** 
+**Document preview from within SharePoint** 
 
 ![todo:image_alt_text](preview-multiple-documents_1.png)
 

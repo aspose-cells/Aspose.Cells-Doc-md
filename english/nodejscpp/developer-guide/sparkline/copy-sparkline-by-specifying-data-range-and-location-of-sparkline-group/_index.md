@@ -4,9 +4,9 @@ linktitle: Copy Sparkline by Specifying Data Range and Location of Sparkline Gro
 type: docs  
 weight: 300  
 url: /nodejs-cpp/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/  
-description: Learn how to copy a sparkline in Excel by specifying data range and location of sparkline group using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: Learn how to copy a sparkline in Excel by specifying a data range and location of a sparkline group using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
@@ -16,12 +16,12 @@ Microsoft Excel allows you to copy a sparkline by specifying the data range and 
 To copy a sparkline to other cells in Microsoft Excel:  
 
 1. Select the cell containing the sparkline.  
-1. Select **Edit Data** from the **Sparkline** section of the **Design** tab.  
-1. Select **Edit Group Location & Data**.  
-1. Specify the data range and location.  
-1. Click **OK**.  
+2. Select **Edit Data** from the **Sparkline** section of the **Design** tab.  
+3. Select **Edit Group Location & Data**.  
+4. Specify the data range and location.  
+5. Click **OK**.  
 
-Aspose.Cells provides the `SparklineCollection.add(dataRange, row, column)` method to specify a sparkline group's data range and location. The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations in the sparkline group. Finally, it writes the output Excel file on disk which is also shown in the screenshot above.  
+Aspose.Cells provides the `SparklineCollection.add(dataRange, row, column)` method to specify a sparkline group's data range and location. The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations to the sparkline group. Finally, it writes the output Excel file to disk, which is also shown in the screenshot above.  
 
 ```javascript
 const path = require("path");
@@ -47,5 +47,5 @@ group.getSparklines().add("Sheet1!D8:O8", 7, 15);
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

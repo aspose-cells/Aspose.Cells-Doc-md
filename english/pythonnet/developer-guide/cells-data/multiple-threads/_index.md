@@ -16,15 +16,14 @@ Needing to read cell values in multiple threads simultaneously is a common requi
 
 {{% /alert %}}
 
-To read cell values in more than one thread simultaneously, set [**worksheet.cells.multi_thread_reading**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/multi_thread_reading/) to **True**. If you do not, you might get the wrong cell values.
+To read cell values in more than one thread simultaneously, set [**worksheet.cells.multi_thread_reading**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/multi_thread_reading/) to **True**. If you do not, you might get incorrect cell values.
 
 The following code:
 
-1. Creates a workbook
-1. Adds a worksheet
-1. Populates the worksheet with string values
-1. Creates two threads that simultaneously read values from random cells
-   If the values read are correct, nothing happens. If the values read are incorrect, then a message is displayed.
+1. Creates a workbook  
+2. Adds a worksheet  
+3. Populates the worksheet with string values  
+4. Creates two threads that simultaneously read values from random cells. If the values read are correct, nothing happens. If the values read are incorrect, a message is displayed.
 
 If you comment this line:
 
@@ -32,14 +31,14 @@ If you comment this line:
 test_workbook.worksheets[0].cells.multi_thread_reading = True
 ```
 
-then the following message check will trigger:
+then the following message check will be triggered:
 
 ```python
 if s != f"R{row}C{col}":
     print("This message will show when cells read values are incorrect")
 ```
 
-Otherwise, the program runs without showing any message which means all values read from cells are correct.
+Otherwise, the program runs without showing any message, which means all values read from cells are correct.
 
 ```python
 import threading

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the [**PdfBookmarkEntry.getDestinationName()**](https://reference.aspose.com/cells/nodejs-cpp/pdfbookmarkentry/#getDestinationName--) property.
+Named Destinations are a special kind of bookmark or link in a PDF that does not depend on specific pages. This means that if pages are added or deleted from the PDF, regular bookmarks may become invalid, but named destinations will remain intact. To create a named destination, set the [**PdfBookmarkEntry.getDestinationName()**](https://reference.aspose.com/cells/nodejs-cpp/pdfbookmarkentry/#getDestinationName--) property.
 
 ## **Add PDF Bookmarks with Named Destinations**
 
-Please see the following sample code, its [source Excel file](50528348.xlsx), and its [output PDF file](50528349.pdf). The screenshot shows the bookmarks and named destinations inside the output PDF. The screenshot also describes how to view Named Destinations and that you need Professional version of Acrobat Reader.
+Please see the following sample code, its [source Excel file](50528348.xlsx), and its [output PDF file](50528349.pdf). The screenshot shows the bookmarks and named destinations in the output PDF. It also explains how to view named destinations and indicates that you need the Professional version of Acrobat Reader.
 
 ![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
@@ -59,12 +59,12 @@ subbookmarkEntry2.setText("Text2");
 subbookmarkEntry2.setDestination(cell);
 subbookmarkEntry2.setDestinationName("AsposeCells--" + cell.getName());
 
-// Add Sub-Bookmarks in list
+// Add sub‑bookmarks to list
 const list = [];
 list.push(subbookmarkEntry1);
 list.push(subbookmarkEntry2);
 
-// Assign Sub-Bookmarks list to Bookmark Sub-Entry
+// Assign the sub‑bookmarks list to the bookmark's sub‑entries
 bookmarkEntry.getSubEntries = function() {
 return this.subEntries || (this.subEntries = []);
 };
@@ -74,7 +74,7 @@ bookmarkEntry.getSubEntries().push(...list);
 const opts = new AsposeCells.PdfSaveOptions();
 opts.setBookmark(bookmarkEntry);
 
-// Save the workbook in Pdf format with given pdf save options
+// Save the workbook in PDF format with the given PDF save options
 workbook.save(path.join(dataDir, "outputPdfBookmarkEntry_DestinationName.pdf"), opts);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

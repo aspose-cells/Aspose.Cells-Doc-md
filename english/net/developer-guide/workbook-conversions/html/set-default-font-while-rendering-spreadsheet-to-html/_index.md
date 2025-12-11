@@ -1,5 +1,5 @@
 ---
-title: Set Default Font while rendering spreadsheet to HTML
+title: Set Default Font while Rendering Spreadsheet to HTML
 type: docs
 weight: 370
 url: /net/set-default-font-while-rendering-spreadsheet-to/
@@ -9,15 +9,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to set default font while rendering spreadsheet to HTML. Please use the [**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname) for this purpose. This property is useful when there are some cells in a spreadsheet that have invalid or non-existing fonts. Then those cells will be rendered in a font specified with the [**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname) property.
+Aspose.Cells allows you to set the default font while rendering a spreadsheet to HTML. Please use the [**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname) for this purpose. This property is useful when there are cells in a spreadsheet that have invalid or non‑existing fonts; those cells will be rendered using the font specified by the **HtmlSaveOptions.DefaultFontName** property.
 
 {{% /alert %}}
 
-## Set Default Font while rendering spreadsheet to HTML
+## Set Default Font while Rendering Spreadsheet to HTML
 
-The following sample code creates a workbook and adds some text in cell B4 of the first worksheet and sets its font to some unknown/non-existing font. Then it saves the workbook in HTML by setting different default font names like Courier New, Arial, Times New Roman, etc.
+The following sample code creates a workbook, adds some text in cell B4 of the first worksheet, and sets its font to an unknown/non‑existing font. Then it saves the workbook in HTML by setting different default font names such as Courier New, Arial, Times New Roman, etc.
 
-The screenshot shows the effect of setting different default font names via [**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname) property.
+The screenshot shows the effect of setting different default font names via the [**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname) property.
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 

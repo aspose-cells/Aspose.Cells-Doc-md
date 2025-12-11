@@ -4,13 +4,13 @@ linktitle: Add Pivot Connection
 type: docs
 weight: 30
 url: /javascript-cpp/add-pivot-connection/
-description: Learn how to add pivot connection using Aspose.Cells for JavaScript via C++.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365 JavaScript via C++.
+description: Learn how to add a pivot connection using Aspose.Cells for JavaScript via C++.
+keywords: Add pivot connection for Office 2013, Office 2016, Office 2019 and Office 365 JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**
 
-If you want to associate a slicer and pivot table in Excel, you need to right-click the slicer and select "Report Connections..." item. In the option list, you can operate on the check box. Similarly, if you want to associate a slicer and pivot table using Aspose.Cells API programmatically, please use the [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/javascript-cpp/slicer/#addPivotConnection-PivotTable-) method. It will associate the slicer and pivot table.
+If you want to associate a slicer and pivot table in Excel, you need to right‑click the slicer and select **“Report Connections…”** item. In the options list, you can check the box. Similarly, if you want to associate a slicer and pivot table using Aspose.Cells API programmatically, please use the [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/javascript-cpp/slicer/#addPivotConnection-PivotTable-) method. It will associate the slicer and pivot table.
 
 ## **Associate Slicer and PivotTable**
 

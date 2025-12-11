@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Filter VBA Project while loading an Excel workbook in Node.js via C++**
 
-Some .xlsm/.xslb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for Node.js via C++ will unconditionally load this (meta) data when opening such workbooks. You may require to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions).
+Some .xlsm/.xlsb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for Node.js via C++ will unconditionally load this (meta) data when opening such workbooks. You may need to control this using [**LoadDataFilterOptions**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions) when you only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/nodejs-cpp/loaddatafilteroptions).
 
 ## **Sample Code**
 
@@ -35,7 +35,7 @@ loadOptions.setLoadFilter(loadFilter);
 // Create workbook object from sample excel file using load options
 const book = new AsposeCells.Workbook(path.join(sourceDir, "sampleMacroEnabledWorkbook.xlsm"), loadOptions);
 
-// Save the output in pdf format
+// Save the output in XLSM format
 book.save(outputDir + "OutputSampleMacroEnabledWorkbook.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

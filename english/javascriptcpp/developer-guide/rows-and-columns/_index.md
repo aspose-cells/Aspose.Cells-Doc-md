@@ -4,12 +4,12 @@ linktitle: Rows and Columns
 type: docs
 weight: 100
 url: /javascript-cpp/adjusting-row-height-and-column-width/
-description: Aspose.Cells for JavaScript via C++ can support change row height or column width, as well as apply formatting on rows or columns.
+description: Aspose.Cells for JavaScript via C++ can support changing row height or column width, as well as applying formatting on rows or columns.
 keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.
 ---
 
 {{% alert color="primary" %}}
-When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells, developers can perform these operations at runtime.
+When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or the width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells, developers can perform these operations at runtime.
 {{% /alert %}}
 
 ## **Working with Rows**
@@ -22,10 +22,10 @@ The [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collect
 
 ### **How to Set the Height of a Row**
 
-It is possible to set the height of a single row by calling the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection's [**rowHeight(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#rowHeight-number-number-) method. The [**rowHeight(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#rowHeight-number-number-) method takes the following parameters as follows:
+It is possible to set the height of a single row by calling the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection's [**rowHeight(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#rowHeight-number-number-) method. The [**rowHeight(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#rowHeight-number-number-) method takes the following parameters:
 
-- **Row index**, the index of the row that you're changing the height of.
-- **Row height**, the row height to apply on the row.
+- **Row index** – the index of the row whose height you are changing.
+- **Row height** – the row height to apply.
 
 ```html
 <!DOCTYPE html>
@@ -89,8 +89,6 @@ It is possible to set the height of a single row by calling the [**cells**](http
 ### **How to Set the Height of All Rows in a Worksheet**
 
 If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**standardHeight()**](https://reference.aspose.com/cells/javascript-cpp/cells/#standardHeight--) property of the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection.
-
-
 
 ```html
 <!DOCTYPE html>
@@ -162,8 +160,8 @@ If developers need to set the same row height for all rows in the worksheet, the
 
 Set the width of a column by calling the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection's [**columnWidth(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#columnWidth-number-number-) method. The [**columnWidth(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#columnWidth-number-number-) method takes the following parameters:
 
-- **Column index**, the index of the column that you're changing the width of.
-- **Column width**, the desired column width.
+- **Column index** – the index of the column whose width you are changing.
+- **Column width** – the desired column width.
 
 ```html
 <!DOCTYPE html>
@@ -233,8 +231,8 @@ Set the width of a column by calling the [**cells**](https://reference.aspose.co
 
 Set the width of a column by calling the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection's [**columnWidthPixel(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#columnWidthPixel-number-number-) method. The [**columnWidthPixel(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#columnWidthPixel-number-number-) method takes the following parameters:
 
-- **Column index**, the index of the column that you're changing the width of.
-- **Column width**, the desired column width in pixels.
+- **Column index** – the index of the column whose width you are changing.
+- **Column width** – the desired column width in pixels.
 
 ```html
 <!DOCTYPE html>
@@ -370,7 +368,7 @@ To set the same column width for all columns in the worksheet, use the [**cells*
 </html>
 ```
 
-## **Advance topics**
+## **Advanced Topics**
 - [AutoFit Rows and Columns](/cells/javascript-cpp/autofit-rows-and-columns/)
 - [Convert Text to Columns using Aspose.Cells](/cells/javascript-cpp/convert-text-to-columns-using-aspose-cells/)
 - [Copying Rows and Columns](/cells/javascript-cpp/copying-rows-and-columns/)

@@ -20,12 +20,12 @@ This article provides a sample code that uses Aspose.Cells to copy a range of da
 This example shows how to:
 
 1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Create a [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/).
-1. Create a [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object with specified formatting attributes.
-1. Apply the style formatting to the range.
-1. Create another range of cells.
-1. Copy data of the first range to this second range.
+2. Add data to cells in the first worksheet.
+3. Create a [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/).
+4. Create a [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object with specified formatting attributes.
+5. Apply the style formatting to the range.
+6. Create another range of cells.
+7. Copy the data from the first range to this second range.
 
 ```c++
 #include <iostream>

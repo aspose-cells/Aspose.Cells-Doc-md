@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to only load specific sheets. This can improve performance and consume less memory. This approach is useful when working with large workbook containing several worksheets.
+By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to load only specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook containing several worksheets.
 
 {{% /alert %}}
 

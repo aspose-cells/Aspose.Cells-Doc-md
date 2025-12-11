@@ -9,7 +9,7 @@ description: Learn how to load specific worksheets in a workbook using Aspose.Ce
 
 {{% alert color="primary" %}}
 
-By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to only load specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook made up of many worksheets.
+By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to load only specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook made up of many worksheets.
 
 {{% /alert %}}
 
@@ -42,15 +42,15 @@ By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible
             console.log("Aspose.Cells initialized");
         });
 
-        // Minimal CustomLoad implementation suitable for assigning as a loadFilter.
+        // Minimal CustomLoad implementation suitable for assigning as a load filter.
         // Adjust methods as needed for your filtering logic.
         class CustomLoad {
             constructor() {
                 // Initialize any needed state here
             }
 
-            // Example method name - actual Aspose.Cells LoadFilter interface methods
-            // may differ; this placeholder can be extended to meet real interface.
+            // Example method name – actual Aspose.Cells LoadFilter interface methods
+            // may differ; this placeholder can be extended to meet the real interface.
             accept(entry) {
                 // Return true to load, false to skip (placeholder logic)
                 return true;
@@ -75,14 +75,14 @@ By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
             // Perform your desired task here
-            // (left intentionally blank - modify as needed)
+            // (left intentionally blank – modify as needed)
 
             // Save the workbook to a downloadable Blob
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'outputFile.out.xlsx';
+            downloadLink.download = 'outputFile.xlsx';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Modified Excel File';
 
@@ -129,7 +129,7 @@ By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible
                     // Load everything from worksheet "Sheet2"
                     this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.All;
                 } else {
-                    // Load nothing (only structure)
+                    // Load nothing (only the structure)
                     this.loadDataFilterOptions = AsposeCells.LoadDataFilterOptions.Structure;
                 }
             }

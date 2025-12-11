@@ -4,14 +4,14 @@ type: docs
 weight: 90
 url: /python-net/data-validation/
 description: Learn how to add data validation through the Aspose.Cells for Python via .NET API.
-keywords: Python Excel Library, Python Add Data Validation, Python Get Validation Value, Python Add Whole Number Data Validation, Python Add List Data Validation, Python Add Date Data Validation, Python Add Time Data Validation, Python Add Text Length Data Validation, Python Add CellArea to existing Validation, Python Check if validation in cell is dropdown, Add Custom Valication  
+keywords: Python Excel Library, Python Add Data Validation, Python Get Validation Value, Python Add Whole Number Data Validation, Python Add List Data Validation, Python Add Date Data Validation, Python Add Time Data Validation, Python Add Text Length Data Validation, Python Add CellArea to existing Validation, Python Check if validation in cell is dropdown, Add Custom Validation  
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Microsoft Excel provides some good features to auto filter or validate worksheet data. Aspose.Cells for Python via .NET fully supports Microsoft Excel's data validation and AutoFilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells for Python via .NET.
+Microsoft Excel provides some good features to auto-filter or validate worksheet data. Aspose.Cells for Python via .NET fully supports Microsoft Excel's data validation and AutoFilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells for Python via .NET.
 
 {{% /alert %}}
 
@@ -22,28 +22,28 @@ Data validation is the ability to set rules pertaining to data entered on a work
 Microsoft Excel supports a number of different types of data validation. Each type is used to control what type of data is entered into a cell, or cell range. Below, code snippets illustrate how to validate that:
 
 - Numbers are whole, that is, that they don't have a decimal part.
-- Decimal numbers follow the right structure. The code example defines that a range of cells should have two decimal spaces.
+- Decimal numbers follow the right structure. The code example defines that a range of cells should have two decimal places.
 - Values are restricted to a list of values. List validation defines a separate list of values that can be applied to a cell, or cell range.
 - Dates fall within a specific range.
 - A time is within a specific range.
-- A text is within a given character length.
+- Text is within a given character length.
 
 ### **Data Validation with Microsoft Excel**
 
 To create validations using Microsoft Excel:
 
-1. In a worksheet, select the cells to which you want to apply validation.
-1. From the **Data** menu, select **Validation**. The validation dialog will be displayed.
+1. In a worksheet, select the cells to which you want to apply validation.  
+1. From the **Data** menu, select **Validation**. The validation dialog will be displayed.  
 1. Click the **Settings** tab and enter settings.
 
 ### **Data Validation with Aspose.Cells for Python Excel Library**
 
-Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.
-In Aspose.Cells for Python via .NET, each [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class has a [**validations**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/validations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation) class' properties as follows:
+Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.  
+In Aspose.Cells for Python via .NET, each [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class has a [**validations**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/validations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation) class's properties as follows:
 
-- type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/python-net/aspose.cells/validationtype) enumeration.
-- Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/python-net/aspose.cells/operatortype) enumeration.
-- formula1 – represents the value or expression associated with the first part of the data validation.
+- type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/python-net/aspose.cells/validationtype) enumeration.  
+- Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/python-net/aspose.cells/operatortype) enumeration.  
+- formula1 – represents the value or expression associated with the first part of the data validation.  
 - formula2 – represents the value or expression associated with the second part of the data validation.
 
 When the [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation) object's properties have been configured, developers can use the [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) structure to store information about the cell range that will be validated using the created validation.
@@ -79,13 +79,13 @@ It is important here that you set the [**Validation.in_cell_drop_down**](https:/
 
 ##### **Date Data Validation**
 
-With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 to 1999. Here, the validation area is the B1 cell.
+With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 and 1999. Here, the validation area is the B1 cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-DateDataValidation-1.py" >}}
 
 ##### **Time Data Validation**
 
-With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 to 11:30 AM. Here, the validation area is the B1 cell.
+With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 and 11:30 AM. Here, the validation area is the B1 cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-TimeDataValidation-1.py" >}}
 
@@ -97,15 +97,15 @@ With this type of validation, users can enter text values of a specified length 
 
 ### **Data Validation Rules**
 
-When data validations are implemented, then validation can be checked by assigning different values in the cells. [Cell.get_validation_value()](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_validation_value/#) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
+When data validations are implemented, validation can be checked by assigning different values to the cells. [Cell.get_validation_value()](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_validation_value/#) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-FilteringAndValidation-DataValidationRules-1.py" >}}
 
-## **Check if validation in cell is dropdown**
+## **Check if validation in a cell is a dropdown**
 
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.in_cell_drop_down**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/in_cell_drop_down/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
+As we have seen, there are many types of validations that can be implemented on a cell. If you want to check whether validation is a dropdown or not, [**Validation.in_cell_drop_down**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/in_cell_drop_down/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
 
 [sampleValidation.xlsx](79527947.xlsx)
 
@@ -113,7 +113,7 @@ As we have seen there are many types of validations that can be implemented with
 
 ## **Add CellArea to existing Validation**
 
-There might be cases where you might want to add [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) to existing [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation). When you add [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) using [**Validation.add_area(cell_area)**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/add_area/#aspose.cells.CellArea), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.add_area(cell_area, check_intersection, check_edge)**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/add_area/#aspose.cells.CellArea-bool-bool) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter as **false**.
+There might be cases where you might want to add [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) to existing [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation). When you add [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) using [**Validation.add_area(cell_area)**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/add_area/#aspose.cells.CellArea), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.add_area(cell_area, check_intersection, check_edge)**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/add_area/#aspose.cells.CellArea-bool-bool) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter to **false**.
 
 The following code snippet demonstrates the use of the [**Validation.add_area(cell_area, check_intersection, check_edge)**](https://reference.aspose.com/cells/python-net/aspose.cells/validation/add_area/#aspose.cells.CellArea-bool-bool) method to add new [**CellArea**](https://reference.aspose.com/cells/python-net/aspose.cells/cellarea) to existing [**Validation**](https://reference.aspose.com/cells/python-net/aspose.cells/validation).
 
@@ -126,7 +126,7 @@ The source and output excel files are attached for reference.
 [Output File](96928220.xlsx)
 
 
-## **Advance topics**
+## **Advanced topics**
 - [Get Cell Validation in ODS Files](/cells/python-net/get-cell-validation-in-ods-files/)
 - [Get Validation Applied on a Cell](/cells/python-net/get-validation-applied-on-a-cell/)
 - [Verify that Cell Value Satisfies Data Validation Rules](/cells/python-net/verify-that-cell-value-satisfies-data-validation-rules/)

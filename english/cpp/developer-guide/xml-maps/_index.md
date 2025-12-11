@@ -1,17 +1,17 @@
 ---
-title: Import XML to Excel Workbook with C++
+title: Import XML into Excel Workbook with C++
 linktitle: XML Maps
 type: docs
 weight: 210
 url: /cpp/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: Import data from an XML data file to Microsoft Excel using Aspose.Cells with C++.
+description: Import data from an XML data file into Microsoft Excel using Aspose.Cells with C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.ImportXml()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/importxml/) method. You can import XML Map using Microsoft Excel with the following steps:
+Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.ImportXml()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/importxml/) method. You can import an XML map using Microsoft Excel with the following steps:
 
 - Select the **Developer** tab.
 - Click **Import** in the XML section and follow the required steps.
@@ -22,7 +22,7 @@ You will need to provide your XML data to complete the import. Here is a [sample
 
 ## **Import XML Map using Microsoft Excel**
 
-The following screenshot shows how to import XML Map using Microsoft Excel.
+The following screenshot shows how to import an XML map using Microsoft Excel.
 
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
 | :- |
@@ -55,7 +55,7 @@ int main()
     // URL that contains your XML data for mapping
     U16String XML(u"http://www.aspose.com/docs/download/attachments/434475650/sampleXML.txt");
 
-    // Import your XML Map data starting from cell A1
+    // Import your XML map data starting from cell A1
     workbook.ImportXml(XML, u"Sheet1", 0, 0);
 
     // Save workbook

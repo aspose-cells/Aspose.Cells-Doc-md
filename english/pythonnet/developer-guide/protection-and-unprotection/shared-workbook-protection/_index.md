@@ -15,7 +15,7 @@ You can protect or unprotect the shared workbook with Microsoft Excel as shown i
 
 ## **Password Protect or Unprotect the Shared Workbook**
 
-The following sample code creates a workbook and protects it while enabling sharing and saves it as [output Excel file](55541777.xlsx). The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.
+The following sample code creates a workbook and protects it while enabling sharing and saves it as an [output Excel file](55541777.xlsx). The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 

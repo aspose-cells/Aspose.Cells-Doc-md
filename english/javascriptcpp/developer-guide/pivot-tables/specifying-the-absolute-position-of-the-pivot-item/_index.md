@@ -7,15 +7,15 @@ url: /javascript-cpp/specifying-the-absolute-position-of-the-pivot-item/
 
 {{% alert color="primary" %}}
 
-Sometimes, user needs to specify the absolute position of the pivot items, Aspose.Cells for JavaScript via C++ API has exposed few new properties and a method to achieve user requirement.
+Sometimes, the user needs to specify the absolute position of the pivot items; Aspose.Cells for JavaScript via C++ API has exposed a few new properties and a method to achieve this requirement.
 
-- Added [**PivotItem.position**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#position-number-) property that can be used to specify the position index in all the PivotItems regardless of the parent node. Added [**PivotItem.positionInSameParentNode**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#positionInSameParentNode-number-) property that can be used to specify the position index in the PivotItems under the same parent node.
-- Added [**PivotItem.move**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) method in order to move the item up or down based on the count value, where count is the number of position to move the PivotItem up or down. If the count value is less than zero, the item will be moved up where as if the count value is larger than zero, the PivotItem will move down, Boolean type isSameParent parameter specify whether the moving operation has to be performed in the same parent node or not.
-- Obsoleted the *PivotItem.move(int count)* method therefore it is suggested to use the newly added method [**PivotItem.move(number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) instead.
+- Added [**PivotItem.position**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#position-number-) property that can be used to specify the position index among all the PivotItems regardless of the parent node. Added [**PivotItem.positionInSameParentNode**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#positionInSameParentNode-number-) property that can be used to specify the position index in the PivotItems under the same parent node.
+- Added [**PivotItem.move**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) method in order to move the item up or down based on the count value, where **count** is the number of positions to move the PivotItem. If the count value is less than zero, the item will be moved up; whereas if the count value is greater than zero, the PivotItem will move down. The Boolean‑type **isSameParent** parameter specifies whether the moving operation has to be performed in the same parent node or not.
+- The *PivotItem.move(int count)* method is obsolete; therefore, it is recommended to use the newly added method [**PivotItem.move(number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) instead.
 
 {{% /alert %}}
 
-The following sample code creates a Pivot Table and then it specifies the Pivot Items positions in the same parent node. You can download the [source Excel](5112632.xlsx) and [output Excel](5112619.xlsx) files for your reference. If you open the output Excel file, you will see the Pivot Item "4H12" is at 0th position in parent "K11" and "DIF400" is at 3rd position. Similarly, CA32 is at position 1 and AAA3 is at position 2
+The following sample code creates a Pivot Table and then specifies the Pivot Items' positions in the same parent node. You can download the [source Excel](5112632.xlsx) and [output Excel](5112619.xlsx) files for your reference. If you open the output Excel file, you will see the Pivot Item **"4H12"** is at the 0th position in parent **"K11"** and **"DIF400"** is at the 3rd position. Similarly, **CA32** is at position 1 and **AAA3** is at position 2.
 
 ```html
 <!DOCTYPE html>
@@ -91,8 +91,8 @@ The following sample code creates a Pivot Table and then it specifies the Pivot 
 
             /*
              * Please call the PivotTable.refreshData() and PivotTable.calculateData()
-             * before using PivotItem.setPosition,
-             * PivotItem.setPositionInSameParentNode and PivotItem.move methods.
+             * before using PivotItem.position,
+             * PivotItem.positionInSameParentNode and PivotItem.move methods.
             */
             pvtTable.refreshData();
             pvtTable.calculateData();
@@ -101,10 +101,10 @@ The following sample code creates a Pivot Table and then it specifies the Pivot 
             pvtTable.rowFields.get("Item").pivotItems.get("DIF400").positionInSameParentNode = 3;
 
             /* 
-             * As a result of using PivotItem.setPositionInSameParentNode,
-             * it will change the original sort sequence.
-             * So when you use PivotItem.setPositionInSameParentNode in another parent node.
-             * You need call the method named "calculateData" again. 
+             * As a result of using PivotItem.positionInSameParentNode,
+             * the original sort sequence will change.
+             * So when you use PivotItem.positionInSameParentNode in another parent node,
+             * you need to call the method named `calculateData` again. 
             */
             pvtTable.calculateData();
 
@@ -128,6 +128,6 @@ The following sample code creates a Pivot Table and then it specifies the Pivot 
 
 {{% alert color="primary" %}}
 
-Please note, it is necessary to call the PivotTable.RefreshData and PivotTable.CalculateData methods before using [**PivotItem.position**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#position-number-), [**PivotItem.positionInSameParentNode**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#positionInSameParentNode-number-) properties and [**PivotItem.move**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) method.
+Please note, it is necessary to call the **PivotTable.RefreshData** and **PivotTable.CalculateData** methods before using [**PivotItem.position**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#position-number-), [**PivotItem.positionInSameParentNode**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#positionInSameParentNode-number-) properties and [**PivotItem.move**](https://reference.aspose.com/cells/javascript-cpp/pivotitem/#move-number-boolean-) method.
 
 {{% /alert %}}

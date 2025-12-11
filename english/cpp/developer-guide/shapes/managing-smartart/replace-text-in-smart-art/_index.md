@@ -1,17 +1,17 @@
 ---
-title: Replace text in smart art with C++
-linktitle: Replace text in smart art
+title: Replace text in SmartArt with C++
+linktitle: Replace text in SmartArt
 type: docs
 weight: 1200
 url: /cpp/replace-text-in-smart-art/
-description: Learn how to update text in smart art using Aspose.Cells for C++ by setting the Shape.Text property.
+description: Learn how to update text in SmartArt using Aspose.Cells for C++ by setting the Shape.Text property.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provides this feature by setting the [**Shape.Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettext/) property.
+SmartArt is one of the major objects in a workbook. Often, there is a need to update the text in SmartArt. Aspose.Cells provides this feature by setting the [**Shape.Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettext/) property.
 
 The sample source file can be downloaded from the following link:
 

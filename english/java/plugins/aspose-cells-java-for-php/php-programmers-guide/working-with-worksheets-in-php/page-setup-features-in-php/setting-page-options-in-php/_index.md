@@ -1,5 +1,5 @@
 ---
-title: Setting Page Options in Php
+title: Setting Page Options in PHP
 type: docs
 weight: 10
 url: /java/setting-page-options-in-php/
@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Setting Page Options**
 ### **Page Orientation**
-To apply page orientation settings using **Aspose.Cells Java for PHP**, call **page_orientation** method of **pagesetup** module.
+To apply page orientation settings using **Aspose.Cells Java for PHP**, call the **page_orientation** method of the [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pageSetup) module.
 
 **PHP Code**
 
@@ -19,7 +19,7 @@ To apply page orientation settings using **Aspose.Cells Java for PHP**, call **p
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook();
 
@@ -39,17 +39,17 @@ To apply page orientation settings using **Aspose.Cells Java for PHP**, call **p
 
     $page_setup->setOrientation($page_orientation_type->PORTRAIT);
 
-    # Saving the modified Excel file in default (that is Excel 2003) format
+    # Saving the modified Excel file in the default (Excel 2003) format
 
     $workbook->save($dataDir . "Page Orientation.xls");
 
-    print "Set page orientation, please check the output file." . PHP_EOL;
+    print "Set page orientation; please check the output file." . PHP_EOL;
 
 }
 
 {{< /highlight >}}
 ### **Scaling Factor**
-To apply scaling using **Aspose.Cells Java for PHP**, call **scaling** method of **pagesetup** module.
+To apply scaling using **Aspose.Cells Java for PHP**, call the **scaling** method of the [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pageSetup) module.
 
 **PHP Code**
 
@@ -59,7 +59,7 @@ To apply scaling using **Aspose.Cells Java for PHP**, call **scaling** method of
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -77,11 +77,11 @@ To apply scaling using **Aspose.Cells Java for PHP**, call **scaling** method of
 
     $page_setup->setZoom(100);
 
-    # Saving the modified Excel file in default (that is Excel 2003) format
+    # Saving the modified Excel file in the default (Excel 2003) format
 
     $workbook->save($dataDir . "Scaling.xls");
 
-    print "Set scaling, please check the output file." . PHP_EOL;
+    print "Set scaling; please check the output file." . PHP_EOL;
 
 }
 

@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-You can use Aspose.Cells for Node.js via C++ to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.setDesiredSize(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#setDesiredSize-number-number-boolean-) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.  
+You can use Aspose.Cells for Node.js via C++ to export your worksheet or chart as an image with the desired width and height. It provides [**ImageOrPrintOptions.setDesiredSize(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#setDesiredSize-number-number-boolean-) method to set the desired width and height of the exported image. The width and height are specified in units of pixels.  
 {{% /alert %}}  
 
-The following code exports the worksheet into an image with 400x400 size.  
+The following code exports the worksheet into an image with a size of 400 × 400 pixels.  
 
 ```javascript
 const path = require("path");
@@ -32,7 +32,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
-// Set image or print options we want one page per sheet. The image format is in png and desired dimensions are 400x400
+// Set image or print options: we want one page per sheet. The image format is PNG and the desired dimensions are 400x400
 const opts = new AsposeCells.ImageOrPrintOptions();
 opts.setOnePagePerSheet(true);
 opts.setImageType(AsposeCells.ImageType.Png);
@@ -42,5 +42,5 @@ opts.setDesiredSize(400, 400, false);
 const sr = new AsposeCells.SheetRender(worksheet, opts);
 sr.toImage(0, path.join(outputDir, "outputWorksheetToImageDesiredSize.png"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

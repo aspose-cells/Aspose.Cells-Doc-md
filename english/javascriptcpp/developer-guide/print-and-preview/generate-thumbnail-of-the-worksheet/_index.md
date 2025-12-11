@@ -1,19 +1,19 @@
----
-title: Generate Thumbnail of the Worksheet with JavaScript via C++
-linktitle: Generate Thumbnail of the Worksheet
-type: docs
-weight: 110
-url: /javascript-cpp/generate-thumbnail-of-the-worksheet/
-description: Learn how to generate a thumbnail image from a worksheet using Aspose.Cells for JavaScript via C++. Create small images for previews in documents and presentations.
----
+---  
+title: Generate Thumbnail of the Worksheet with JavaScript via C++  
+linktitle: Generate Thumbnail of the Worksheet  
+type: docs  
+weight: 110  
+url: /javascript-cpp/generate-thumbnail-of-the-worksheet/  
+description: Learn how to generate a thumbnail image from a worksheet using Aspose.Cells for JavaScript via C++. Create small images for previews in documents and presentations.  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-It can be useful to generate thumbnails from worksheets. A thumbnail is a small image that can be pasted into a Word document or a PowerPoint presentation to give a preview of what's on the worksheet. It can be added to a webpage with a link to download the original document and has a host of other uses.
+It can be useful to generate thumbnails from worksheets. A thumbnail is a small image that can be pasted into a Word document or a PowerPoint presentation to give a preview of what's on the worksheet. It can be added to a webpage with a link to download the original document and has a host of other uses.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-Aspose.Cells for JavaScript via C++ allows you to output worksheets to image files so making a thumbnail is easy. The sample code below shows you how to output worksheets to image files.
+Aspose.Cells for JavaScript via C++ allows you to output worksheets to image files so making a thumbnail is easy. The sample code below shows you how to output worksheets to image files.  
 
 ```html
 <!DOCTYPE html>

@@ -8,7 +8,7 @@ description: Learn how to copy data from one range of cells to another using Asp
 ---
 
 {{% alert color="primary" %}}  
-Sometimes, you need to copy data from one range of cells to another, copying the data only, not the formatting. Aspose.Cells offers this feature.  
+Sometimes, you need to copy data from one range of cells to another, copying only the data—not the formatting. Aspose.Cells offers this feature.  
 
 This article provides a sample code that uses Aspose.Cells to copy a range of data.  
 {{% /alert %}}  
@@ -16,12 +16,12 @@ This article provides a sample code that uses Aspose.Cells to copy a range of da
 This example shows how to:  
 
 1. Create a workbook.  
-1. Add data to cells in the first worksheet.  
-1. Create a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range).  
-1. Create a [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object with specified formatting attributes.  
-1. Apply the style formatting to the range.  
-1. Create another range of cells.  
-1. Copy data of the first range to this second range.  
+2. Add data to cells in the first worksheet.  
+3. Create a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range).  
+4. Create a [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object with specified formatting attributes.  
+5. Apply the style formatting to the range.  
+6. Create another range of cells.  
+7. Copy the data from the first range to the second range.  
 
 ```html
 <!DOCTYPE html>
@@ -64,7 +64,7 @@ This example shows how to:
                 workbook = new Workbook();
             }
 
-            // Get the first Worksheet Cells.
+            // Get the cells of the first worksheet.
             const cells = workbook.worksheets.get(0).cells;
 
             // Fill some sample data into the cells.
@@ -80,7 +80,7 @@ This example shows how to:
 
             // Create a style object.
             const style = workbook.createStyle();
-            // Specify the font attribute.
+            // Specify the font.
             style.font.name = "Calibri";
             // Specify the shading color.
             style.foregroundColor = AsposeCells.Color.Yellow;
@@ -97,19 +97,19 @@ This example shows how to:
 
             // Create the style flag object.
             const flag1 = new AsposeCells.StyleFlag();
-            // Implement font attribute
+            // Apply font attribute
             flag1.fontName = true;
-            // Implement the shading / fill color.
+            // Apply the shading/fill color.
             flag1.cellShading = true;
-            // Implement border attributes.
+            // Apply border attributes.
             flag1.borders = true;
-            // Set the Range style.
+            // Apply the style to the range.
             range.applyStyle(style, flag1);
 
             // Create a second range (C10:F12).
             const range2 = cells.createRange("C10", "F12");
 
-            // Copy the range data only.
+            // Copy only the data of the range.
             range2.copyData(range);
 
             // Save the workbook and provide download link.

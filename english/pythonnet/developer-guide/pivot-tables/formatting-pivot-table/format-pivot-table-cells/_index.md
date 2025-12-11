@@ -13,10 +13,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Sometimes, you want to format pivot table cells. For example, you want to apply background color to pivot table cells. Aspose.Cells for Python via .NET provides two methods [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) and [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/), which you can use for this purpose.
 
-[**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) applies the style to entire pivot table while [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) applies the style to a single cell of the pivot table.
+[**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) applies the style to the entire pivot table, while [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) applies the style to a single cell of the pivot table.
 
 {{% /alert %}}
-The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and achieve the operation of formatting the entire pivot table and formatting individual cells in the pivot table.
+The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and **achieves** the operation of formatting the entire pivot table and formatting individual cells in the pivot table.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormatPivotTableCells-1.py" >}}
 

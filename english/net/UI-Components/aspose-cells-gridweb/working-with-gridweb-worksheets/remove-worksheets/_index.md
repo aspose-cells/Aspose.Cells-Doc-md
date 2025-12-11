@@ -4,27 +4,23 @@ type: docs
 weight: 30
 url: /net/aspose-cells-gridweb/remove-worksheets/
 keywords: GridWeb,remove,remove GridWorksheet,remove worksheet
-description: This article introduces how to remove worksheet (GridWorksheet) in GridWeb.
+description: This article introduces how to remove a worksheet (GridWorksheet) in GridWeb.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
 
-This topic provides information about how to remove worksheets from Microsoft Excel files using the Aspose.Cells.GridWeb API.It is possible to either remove a worksheet by specifying its sheet index or name.
+This topic provides information about how to remove worksheets from Microsoft Excel files using the Aspose.Cells.GridWeb API. It is possible to remove a worksheet either by specifying its sheet index or its name.
 
 {{% /alert %}} 
 ## **Removing a Worksheet**
 ### **Using Sheet Index**
 The code below shows how to remove a worksheet by specifying its sheet index in the GridWorksheetCollection's RemoveAt method.
 
-
-
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-RemoveWorksheets.aspx-RemoveWorksheetUsingIndex.cs" >}}
 ### **Using Sheet Name**
 The code below shows how to remove a worksheet by specifying its sheet name in the GridWorksheetCollection's RemoveAt method.
-
-
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-RemoveWorksheets.aspx-RemoveWorksheetUsingName.cs" >}}
 

@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Add Custom XML Parts and Select them by ID with JavaScript via C++
 linktitle: Add Custom XML Parts and Select them by ID
@@ -10,11 +9,11 @@ description: Learn how to add custom XML parts to Excel documents and select the
 
 ## **Possible Usage Scenarios**  
 
-Custom XML Parts are the XML data that is stored inside the Microsoft Excel documents and are used by the applications that deal with them. There is no direct way of adding them using Microsoft Excel UI at the moment. However, you can add them programmatically in various ways, e.g., using VSTO, using Aspose.Cells, etc. Please use [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection if you want to add Custom XML Part using Aspose.Cells API. You can also set its ID using the [**CustomXmlPart.iD**](https://reference.aspose.com/cells/javascript-cpp/customxmlpart/#iD--) property. Similarly, if you want to select Custom XML Part by ID, you can use [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection.  
+Custom XML Parts are the XML data stored inside Microsoft Excel documents and are used by applications that work with them. There is no direct way to add them using the Microsoft Excel UI at the moment. However, you can add them programmatically in various ways, e.g., using VSTO or Aspose.Cells. Please use the [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection if you want to add a Custom XML Part using the Aspose.Cells API. You can also set its ID using the [**CustomXmlPart.id**](https://reference.aspose.com/cells/javascript-cpp/customxmlpart/#iD--) property. Similarly, if you want to select a Custom XML Part by ID, you can use the [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection.  
 
 ## **Add Custom XML Parts and Select them by ID**  
 
-The following sample code first adds four Custom XML Parts using [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection. It then sets their IDs using [**CustomXmlPart.iD**](https://reference.aspose.com/cells/javascript-cpp/customxmlpart/#iD--) property. Finally, it finds or selects one of the added Custom XML Part using [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection. Please also see the console output of the code given below for reference.  
+The following sample code first adds four Custom XML Parts using the [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection. It then sets their IDs using the [**CustomXmlPart.id**](https://reference.aspose.com/cells/javascript-cpp/customxmlpart/#iD--) property. Finally, it finds and selects one of the added Custom XML Parts using the [**Workbook.customXmlParts**](https://reference.aspose.com/cells/javascript-cpp/workbook/#customXmlParts--) collection. Please also see the console output of the code given below for reference.  
 
 ## **Sample Code**  
 
@@ -71,18 +70,18 @@ The following sample code first adds four Custom XML Parts using [**Workbook.cus
             wb.customXmlParts.add(btsData, btsSchema);
             wb.customXmlParts.add(btsData, btsSchema);
 
-            // Assign ids to custom xml parts.
+            // Assign IDs to custom xml parts.
             wb.customXmlParts.get(0).id = "Fruit";
             wb.customXmlParts.get(1).id = "Color";
             wb.customXmlParts.get(2).id = "Sport";
             wb.customXmlParts.get(3).id = "Shape";
 
-            // Specify search custom xml part id.
+            // Specify the custom XML part ID to search for.
             let srchID = "Fruit";
             srchID = "Color";
             srchID = "Sport";
 
-            // Search custom xml part by the search id.
+            // Search custom xml part by the search ID.
             const cxp = wb.customXmlParts.selectByID(srchID);
 
             // Print the found or not found message on console and UI.
@@ -112,6 +111,5 @@ The following sample code first adds four Custom XML Parts using [**Workbook.cus
 ## **Console Output**  
 
 {{< highlight java >}}  
- Found: CustomXmlPart ID Sport  
+Found: CustomXmlPart ID Sport  
 {{< /highlight >}}  
- ```

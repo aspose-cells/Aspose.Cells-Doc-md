@@ -11,10 +11,10 @@ keywords: Format pivot table cells.
 
 Sometimes, you want to format pivot table cells. For example, you want to apply background color to pivot table cells. Aspose.Cells for JavaScript via C++ provides two methods [**PivotTable.formatAll(style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#formatAll-style-) and [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#format-number-number-style-), which you can use for this purpose.
 
-[**PivotTable.formatAll(style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#formatAll-style-) applies the style to entire pivot table while [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#format-number-number-style-) applies the style to a single cell of the pivot table.
+[**PivotTable.formatAll(style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#formatAll-style-) applies the style to the entire pivot table, while [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#format-number-number-style-) applies the style to a single cell of the pivot table.
 
 {{% /alert %}}
-The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and achieve the operation of formatting the entire pivot table and formatting individual cells in the pivot table.
+The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and **achieves formatting** the entire pivot table and **individual cells** in the pivot table.
 
 ```html
 <!DOCTYPE html>
@@ -80,7 +80,7 @@ The following sample code loads the [sample Excel file](pivot_format.xlsx) that 
             // Access the first pivot table (index 0)
             const pivotTable2 = worksheet.pivotTables.get(0);
 
-            // Format the cell of pivot table at row 16, column 5 (0-based indices)
+            // Format the cell of the pivot table at row 16, column 5 (0-based indices)
             pivotTable2.format(16, 5, style2);
 
             // Saving the workbook object and preparing download link

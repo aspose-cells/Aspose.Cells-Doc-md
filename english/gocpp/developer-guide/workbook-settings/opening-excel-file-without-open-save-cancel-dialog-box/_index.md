@@ -24,20 +24,20 @@ The following image shows the Open-Save-Cancel dialog box shown by Internet Expl
 | :- |
 |![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
 
-As explained above, allowing a file to open or run on your system without confirmation that you really want it to is a security risk. Some files contains viruses, and some site will try to download harmful files to your machine without prompting you. It is therefore not recommended that you allow file download without the download prompt so that users have to verify the file and its source can be verified before downloading or running it. Disabling the download dialog box makes the system vulnerable to viruses, Trojans and hackers who may silently affect your system. 
+As explained above, allowing a file to open or run on your system without confirmation that you really want it to is a security risk. Some files contain viruses, and some sites will try to download harmful files to your machine without prompting you. It is therefore not recommended to allow file download without the download prompt, as users need to verify the file and its source before downloading or running it. Disabling the download dialog box makes the system vulnerable to viruses, Trojans and hackers who may silently affect your system. 
 
 ## **Opening a File without the Open-Save-Cancel dialog box**
 While it is a big security concern, Microsoft still provides Internet Explorer settings that allow users to disable the Open-Save-Cancel prompt for file download. 
 
 In Windows Explorer:
 
-1. On the **Tools** menu, select **Folder Options**.
-1. Click the File Types tab in the Folder Options dialog.
-1. Select the XLS extension file type.
-1. Click **Advanced**. 
-   A dialog box is displayed. It has three options at the bottom.
-1. Uncheck **Confirm open after download**.
-1. Select the third option - **Browse in same window** - to view the Excel file in Internet Explorer without starting Microsoft Excel standalone. 
+1. On the **Tools** menu, select **Folder Options**.  
+2. Click the **File Types** tab in the Folder Options dialog.  
+3. Select the **XLS** extension file type.  
+4. Click **Advanced**.  
+   A dialog box is displayed. It has three options at the bottom.  
+5. Uncheck **Confirm open after download**.  
+6. Select the third option — **Browse in same window** — to view the Excel file in Internet Explorer without starting Microsoft Excel standalone.  
 
 |**Editing file type options**|
 | :- |

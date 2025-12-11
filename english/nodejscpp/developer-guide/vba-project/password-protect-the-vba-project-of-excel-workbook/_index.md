@@ -9,13 +9,13 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
-## **Password Protect the VBA Project of Excel Workbook in Node.js**  
+## **Password-protect the VBA project of an Excel workbook in Node.js**  
 
-You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells using [**VbaProject.protect(boolean, string)**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#protect-boolean-string-) method.  
+You can password protect the VBA (Visual Basic for Applications) project of a workbook with Aspose.Cells using [**VbaProject.protect(boolean, string)**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#protect-boolean-string-) method.  
 
 ## **Sample Code**  
 
-The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA Project and protects it with a password. Finally, it saves it as the [output Excel file](43352068.xlsm).  
+The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA project and protects it with a password. Finally, it saves it as the [output Excel file](43352068.xlsm).  
 
 ```javascript
 const path = require("path");
@@ -36,5 +36,5 @@ vbaProject.protect(true, "11");
 // Save the output Excel file
 workbook.save(path.join(dataDir, "outputPasswordProtectVBAProject.xlsm"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

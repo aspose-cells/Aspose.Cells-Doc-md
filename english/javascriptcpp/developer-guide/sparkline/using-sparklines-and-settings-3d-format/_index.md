@@ -1,6 +1,6 @@
 ---
-title: Using Sparklines and Settings 3D Format with JavaScript via C++
-linktitle: Using Sparklines and Settings 3D Format
+title: Using Sparklines and Setting 3D Format with JavaScript via C++
+linktitle: Using Sparklines and Setting 3D Format
 type: docs
 weight: 40
 url: /javascript-cpp/using-sparklines-and-settings-3d-format/
@@ -8,29 +8,30 @@ description: Learn how to use sparklines and apply 3D formatting in Excel files 
 ---
 
 ## **Using Sparklines**
-Microsoft Excel 2010 can analyze information in more ways than ever before. It allows users to track and highlight important data trends with new data analysis and visualization tools. Sparklines are mini-charts that you can place inside cells so that you can view data and chart on the same table. When sparklines are used properly, data analysis is quicker and more to the point. They also provide a simple view of information, avoiding over-crowded worksheets with a lot of busy charts.
+Microsoft Excel 2010 can analyze information in more ways than ever before. It allows users to track and highlight important data trends with new data analysis and visualization tools. Sparklines are mini‑charts that you can place inside cells so that you can view data **and the** chart on the same table. When sparklines are used properly, data analysis is quicker and more to the point. They also provide a simple view of information, avoiding over‑crowded worksheets with a lot of busy charts.
 
 Aspose.Cells for JavaScript via C++ provides an API for manipulating sparklines in spreadsheets.
+
 ### **Sparklines in Microsoft Excel**
 To insert sparklines in Microsoft Excel 2010:
 
-1. Select the cells where you want the sparklines to appear. To make them easy to view, select cells at the side of the data.
-1. Click **Insert** on the ribbon and then choose **column** in the **Sparklines** group.
-1. Select or enter the range of cells in the worksheet that contain the source data. The charts will appear.
+1. Select the cells where you want the sparklines to appear. To make them easy to view, select cells at the side of the data.  
+2. Click **Insert** on the ribbon and then choose **Column** in the **Sparklines** group.  
+3. Select or enter the range of cells in the worksheet that contain the source data. The charts will appear.
 
 Sparklines help you to see trends, for example, the win or loss record for a softball league. Sparklines can even sum up the entire season of each team in the league.
+
 ### **Sparklines using Aspose.Cells for JavaScript via C++**
-Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells for JavaScript via C++. The classes that manage sparklines are contained in the [SparklineGroupCollection](https://reference.aspose.com/cells/javascript-cpp/sparklinegroupcollection/) module, so you need to require this module before using these features.
+Developers can create, delete, or read sparklines (in the template file) using the API provided by Aspose.Cells for JavaScript via C++. The classes that manage sparklines are contained in the [SparklineGroupCollection](https://reference.aspose.com/cells/javascript-cpp/sparklinegroupcollection/) module, so you need to require this module before using these features.
 
 By adding custom graphics for a given data range, developers have the freedom to add different types of tiny charts to selected cell areas.
 
 The example below demonstrates the Sparklines feature. The example shows how to:
 
-1. Open a simple template file.
-1. Read sparklines information for a worksheet.
-1. Add new sparklines for a given data range to a cell area.
-1. Save the Excel file to disk.
-
+1. Open a simple template file.  
+2. Read sparklines information for a worksheet.  
+3. Add new sparklines for a given data range to a cell area.  
+4. Save the Excel file to disk.  
 
 ```html
 <!DOCTYPE html>
@@ -90,7 +91,7 @@ The example below demonstrates the Sparklines feature. The example shows how to:
             }
 
             // Add Sparklines
-            // Define the CellArea D2:D10 (rows and columns are zero-based: D is column 4 -> index 4)
+            // Define the CellArea D2:D10 (rows and columns are zero‑based: D is column 4 -> index 4)
             const ca = CellArea.createCellArea(1, 4, 7, 4);
             // Add new Sparklines for a data range to a cell area
             const idx = sheet.sparklineGroups.add(SparklineType.Column, "Sheet1!B2:D8", false, ca);
@@ -114,11 +115,11 @@ The example below demonstrates the Sparklines feature. The example shows how to:
     </script>
 </html>
 ```
+
 ## **Setting 3D Format**
-You might need 3D charting styles so you can get just the results for your scenario. Aspose.Cells for JavaScript via C++ does provide the relevant API to apply Microsoft Excel 2007 3D formatting.
+You might need 3D charting styles so you can get exactly the results you need for your scenario. Aspose.Cells for JavaScript via C++ provides the relevant API to apply Microsoft Excel 2007 3D formatting.
 
 A complete example is given below to demonstrate how to create a chart and apply Microsoft Excel 2007 3D formatting. After executing the example code, a column chart (with 3D effects) will be added to the worksheet.
-
 
 ```html
 <!DOCTYPE html>
@@ -192,7 +193,7 @@ A complete example is given below to demonstrate how to create a chart and apply
             // Get the Data Series
             const ser = chart.nSeries.get(0);
 
-            // Apply the 3-D formatting
+            // Apply the 3‑D formatting
             const spPr = ser.shapeProperties;
             const fmt3d = spPr.format3D;
 

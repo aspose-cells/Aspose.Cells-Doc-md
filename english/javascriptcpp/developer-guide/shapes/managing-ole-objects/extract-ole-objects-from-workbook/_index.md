@@ -34,7 +34,7 @@ All Aspose components, when installed, work in evaluation mode. The evaluation m
 
 ### **Create a Project**
 
-Start a JavaScript environment and create a new project. This example will show a browser-based application, but you can use any JavaScript-compatible environment as well.
+Start a JavaScript environment and create a new project. This example will show a browser‑based application, but you can use any JavaScript‑compatible environment as well.
 
 1. Add Dependencies  
    1. Include the Aspose.Cells for JavaScript via C++ script in your HTML page and create a simple UI to select an Excel file and extract OLE objects:
@@ -111,7 +111,7 @@ Start a JavaScript environment and create a new project. This example will show 
                     const ole = oleObjects.get(o);
 
                     // Attempt to get a filename from ole properties
-                    // Applying universal getter->property conversion:
+                    // Applying a universal getter → property conversion:
                     // getSourceFullName() -> sourceFullName, getName() -> name, getObjectData() -> objectData
                     let fileName = ole.sourceFullName || ole.name || `ole_object_sheet${s}_idx${o}.bin`;
 
@@ -254,7 +254,7 @@ Start a JavaScript environment and create a new project. This example will show 
 
                     const fileName = `outOle${i}.${ext}`;
 
-                    // Save the ole object as a new excel file if the object type is xlsx.
+                    // Save the ole object as a new Excel file if the object type is xlsx.
                     if (ole.fileFormatType === FileFormatType.Xlsx) {
                         const ms = ole.objectData;
                         if (ms != null) {
@@ -288,3 +288,4 @@ Start a JavaScript environment and create a new project. This example will show 
         </script>
     </body>
 </html>
+```

@@ -12,14 +12,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **How to Set Display Formats of Numbers and Dates**  
 
-A very strong feature of Microsoft Excel is that it allows users to set the display formats of numeric values and dates. We know that numeric data can be used to represent different values including decimal, currency, percentage, fraction or accounting values, etc. All these numerical values are displayed in different formats depending on the type of information they represent. Similarly, there are many formats in which a date or time can be displayed.  
+A very powerful feature of Microsoft Excel is that it allows users to set the display formats of numeric values and dates. We know that numeric data can be used to represent different values including decimal, currency, percentage, fraction or accounting values, etc. All these numerical values are displayed in different formats depending on the type of information they represent. Similarly, there are many formats in which a date or time can be displayed.  
 Aspose.Cells supports this functionality and allows developers to set any display format for a number or date.  
 
 ### **How to Set Display Formats in Microsoft Excel**  
 
 To set display formats in Microsoft Excel:  
 
-1. Right-click any cell.  
+1. Right‑click any cell.  
 2. Select **Format Cells**. A dialog will appear that is used to set the display formats of any kind of value.  
 
 On the left side of the dialog, there are many categories of values like **General**, **Number**, **Currency**, **Accounting**, **Date**, **Time**, **Percentage**, etc. Aspose.Cells supports all of these display formats.  
@@ -71,16 +71,13 @@ Aspose.Cells offers some built-in number formats to configure the display format
 |48|Scientific|##0.0E+00|  
 |49|Text|@|  
 
-
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-HowToUseBuiltInNumberFormats.js" >}}
-
 
 ### **How to Use Custom Number Formats**  
 
-To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method. This approach is not as fast as using pre-set formats but it is more flexible.  
+To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method. This approach is not as fast as using pre‑set formats, but it is more flexible.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-NumberSetting-HowToUseBuiltInNumberFormats.js" >}}
-
 
 {{% alert color="primary" %}}  
 
@@ -88,10 +85,11 @@ If you use the [**setCustom(string)**](https://reference.aspose.com/cells/nodejs
 
 {{% /alert %}}  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Check Custom Number Format when Setting Style.Custom Property](/cells/nodejs-cpp/check-custom-number-format-when-setting-style-custom-property/)  
 - [List of Supported Number Formats](/cells/nodejs-cpp/list-of-supported-number-formats/)  
 - [Render Custom Date Format Pattern g and ge mm dd](/cells/nodejs-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  
 - [Specify Custom Number Decimal and Group Separators for Workbook](/cells/nodejs-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/)  
 - [Specifying DBNum Custom Pattern Formatting](/cells/nodejs-cpp/specifying-dbnum-custom-pattern-formatting/)  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

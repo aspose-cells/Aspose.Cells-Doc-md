@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.3.2 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Mechanism to Modify the VBA/Macro Code in Spreadsheets**
-In order to provide the feature of [VBA/Macro Code Manipulation](/cells/net/modifying-vba-or-macro-code-using-aspose-cells/), the Aspose.Cells for .NET 8.4.0 has exposed a series of new classes and properties in the Aspose.Cells.Vba namespace. A few of the important details of these new classes are as follow.
+In order to provide the feature of [VBA/Macro Code Manipulation](/cells/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 has exposed a series of new classes and properties in the Aspose.Cells.Vba namespace. A few of the important details of these new classes are as follows.
 
 - VbaProject class can be used to fetch the VBA project from a given spreadsheet.
 - VbaModuleCollection class represents the collection of VBA modules that are part of a given VbaProject.
@@ -58,14 +58,13 @@ workbook.Save("output.xlsm");
 
 {{< /highlight >}}
 
-
 ### **Ability to Remove Pivot Table**
-Aspose.Cells for .NET 8.4.0 has exposed two methods for the PivotTableCollection to provide the feature of Pivot Table removal from a given spreadsheet. The details of aforesaid methods are as follow.
+Aspose.Cells for .NET 8.4.0 has exposed two methods for the PivotTableCollection to provide the feature of Pivot Table removal from a given spreadsheet. The details of the aforesaid methods are as follows.
 
-- PivotTableCollection.Remove method accepts an object of PivotTable, and removes it from the collection.
-- PivotTableCollection.RemoveAt method accepts a zero index based integer value and removes the particular PivotTable from the collection.
+- PivotTableCollection.Remove method accepts an object of PivotTable and removes it from the collection.
+- PivotTableCollection.RemoveAt method accepts a zero‑index‑based integer value and removes the particular PivotTable from the collection.
 
-The following code snippet shows how to remove the PivotTable using both above mentioned methods.
+The following code snippet shows how to remove the PivotTable using both of the above‑mentioned methods.
 
 **C#**
 
@@ -97,9 +96,8 @@ workbook.Save("output.xlsx");
 
 {{< /highlight >}}
 
-
 ### **Support for Different Pivot Table Layouts**
-Aspose.Cells for .NET 8.4.0 provides the support for different predefined layouts for Pivot Tables. In order to provide this feature, the Aspose.Cells APIs have exposed three methods for the PivotTable class as detailed below.
+Aspose.Cells for .NET 8.4.0 provides support for different predefined layouts for Pivot Tables. To enable this feature, the Aspose.Cells APIs have exposed three methods for the PivotTable class as detailed below.
 
 - PivotTable.ShowInCompactForm method renders the Pivot Table in Compact layout.
 - PivotTable.ShowInOutlineForm method renders the Pivot Table in Outline layout.
@@ -107,7 +105,7 @@ Aspose.Cells for .NET 8.4.0 provides the support for different predefined layout
 
 {{% alert color="primary" %}} 
 
-It is important to call the PivotTable.RefreshData & PivotTable.CalculateData after setting any of the above mentioned layouts.
+It is important to call `PivotTable.RefreshData` and `PivotTable.CalculateData` after setting any of the above‑mentioned layouts.
 
 {{% /alert %}} 
 
@@ -117,7 +115,7 @@ The following sample code sets different layouts for a Pivot Table and stores th
 
 {{< highlight csharp >}}
 
- //Create workbook object from source excel file
+ //Create workbook object from source Excel file
 
 Workbook workbook = new Workbook("source.xlsx");
 
@@ -133,13 +131,9 @@ PivotTable pivotTable = worksheet.PivotTables[0];
 
 pivotTable.ShowInCompactForm();
 
-//Refresh the pivot table
-
 pivotTable.RefreshData();
 
 pivotTable.CalculateData();
-
-//Save the output
 
 workbook.Save("CompactForm.xlsx");
 
@@ -147,13 +141,9 @@ workbook.Save("CompactForm.xlsx");
 
 pivotTable.ShowInOutlineForm();
 
-//Refresh the pivot table
-
 pivotTable.RefreshData();
 
 pivotTable.CalculateData();
-
-//Save the output
 
 workbook.Save("OutlineForm.xlsx");
 
@@ -161,34 +151,30 @@ workbook.Save("OutlineForm.xlsx");
 
 pivotTable.ShowInTabularForm();
 
-//Refresh the pivot table
-
 pivotTable.RefreshData();
 
 pivotTable.CalculateData();
-
-//Save the output
 
 workbook.Save("TabularForm.xlsx");
 
 {{< /highlight >}}
 
-
 ### **Class TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy Added**
-Aspose.Cells for .NET 8.4.0 has exposed the TxtLoadStyleStrategy class and TxtLoadOptions.LoadStyleStrategy property in order to specify the strategy to format the parsed values while converting string value to number or date time.
+Aspose.Cells for .NET 8.4.0 has exposed the `TxtLoadStyleStrategy` class and `TxtLoadOptions.LoadStyleStrategy` property in order to specify the strategy to format the parsed values while converting string values to numbers or date‑time.
+
 ### **Added DataBar.ToImage Method**
-With the release of v8.4.0, the Aspose.Cells API has provided the DataBar.ToImage method to save the conditionally formatted DataBars in image format. The {DataBar.ToImage}} method accepts two parameters as detailed below.
+With the release of v8.4.0, the Aspose.Cells API has provided the `DataBar.ToImage` method to save the conditionally formatted DataBars in image format. The `DataBar.ToImage` method accepts two parameters as detailed below.
 
-- The first parameter is of type Aspose.Cells.Cell on which conditional formatting has been applied.
-- The second parameter is of type Aspose.Cells.Rendering.ImageOrPrintOptions in order to set different parameters of the resultant image.
+- The first parameter is of type `Aspose.Cells.Cell` on which conditional formatting has been applied.
+- The second parameter is of type `Aspose.Cells.Rendering.ImageOrPrintOptions` in order to set different parameters of the resultant image.
 
-The following sample code demonstrates the use of DataBar.ToImage method to render the DataBar in image format.
+The following sample code demonstrates the use of `DataBar.ToImage` method to render the DataBar in image format.
 
 **C#**
 
 {{< highlight csharp >}}
 
- //Create workbook object from source excel file
+ //Create workbook object from source Excel file
 
 Workbook workbook = new Workbook("source.xlsx");
 
@@ -224,21 +210,22 @@ File.WriteAllBytes("databar.png", imgBytes);
 
 {{< /highlight >}}
 
-
 ### **Added Border.ThemeColor Property**
-Aspose.Cells APIs allow to extract theme related formatting data from the spreadsheets. With the release of Aspose.Cells for .NET 8.4.0, the API has exposed the Border.ThemeColor property that can be used to retrieve the theme color attributes of Cell borders.
+Aspose.Cells APIs allow extracting theme‑related formatting data from spreadsheets. With the release of Aspose.Cells for .NET 8.4.0, the API has exposed the `Border.ThemeColor` property that can be used to retrieve the theme‑color attributes of cell borders.
+
 ### **Added DrawObject.ImageBytes Property**
-Aspose.Cells for .NET 8.4.0 has exposed the DrawObject.ImageBytes property to get the image data from Chart or Shape.
+Aspose.Cells for .NET 8.4.0 has exposed the `DrawObject.ImageBytes` property to get the image data from a chart or shape.
+
 ### **Added HtmlSaveOptions.ExportBogusRowData Property**
-Aspose.Cells for .NET 8.4.0 has provided the {HtmlSaveOptions.ExportBogusRowData}} property. The Boolean type property determines if API will inject bogus bottom row data while exporting spreadsheet to HTML format.
+Aspose.Cells for .NET 8.4.0 has provided the `HtmlSaveOptions.ExportBogusRowData` property. The Boolean‑type property determines whether the API will inject bogus bottom‑row data while exporting a spreadsheet to HTML format.
 
 {{% alert color="primary" %}} 
 
-The default value is true.
+The default value is **true**.
 
 {{% /alert %}} 
 
-The following sample code illustrates the use of aforesaid property.
+The following sample code illustrates the use of the aforesaid property.
 
 **C#**
 
@@ -248,11 +235,9 @@ The following sample code illustrates the use of aforesaid property.
 
 HtmlSaveOptions options = new HtmlSaveOptions();
 
-//Set the ExportBogusRowData to true
-
 options.ExportBogusRowData = true;
 
-//Create workbook object from source excel file
+//Create workbook object from source Excel file
 
 Workbook workbook = new Workbook("source.xlsx");
 
@@ -262,18 +247,20 @@ workbook.Save("output.xlsx");
 
 {{< /highlight >}}
 
-
 ### **Added HtmlSaveOptions.CellCssPrefix Property**
-Newly added property HtmlSaveOptions.CellCssPrefix allows to set the prefix for the CSS files while exporting spreadsheets to HTML format.
+The newly added property `HtmlSaveOptions.CellCssPrefix` allows setting the prefix for the CSS files while exporting spreadsheets to HTML format.
 
 {{% alert color="primary" %}} 
 
-The default value is "" (empty string).
+The default value is `""` (empty string).
 
 {{% /alert %}}
-## **Obseleted APIs**
+
+## **Obsolete APIs**
 ### **Obsoleted Cells.GetCellByIndex & Row.GetCellByIndex Methods**
-Use the GetEnumerator method to iterate all cells instead.
+Use the `GetEnumerator` method to iterate over all cells instead.
+
 ### **Obsoleted DrawObject.Image Property**
-Use the DrawObject.ImageBytes property to get image data instead.
+Use the `DrawObject.ImageBytes` property to get image data instead.
+
 {{< app/cells/assistant language="csharp" >}}

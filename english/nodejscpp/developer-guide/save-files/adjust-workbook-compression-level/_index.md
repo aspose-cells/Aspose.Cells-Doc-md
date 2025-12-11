@@ -11,19 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Adjust Workbook Compression Level**  
 
-Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells for Node.js via C++ provides the [**OoxmlCompressionType**](https://reference.aspose.com/cells/nodejs-cpp/ooxmlcompressiontype) enumeration which you can use to set the compression level of the workbook. The [**OoxmlCompressionType**](https://reference.aspose.com/cells/nodejs-cpp/ooxmlcompressiontype) enumeration provides the following members.  
+Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells for Node.js via C++ provides the **OoxmlCompressionType** enumeration, which you can use to set the compression level of the workbook. The **OoxmlCompressionType** enumeration provides the following members.  
 
 - Level1: The fastest but least effective compression.  
-- Level2: A little slower, but better, than level 1.  
-- Level3: A little slower, but better, than level 2.  
-- Level4: A little slower, but better, than level 3.  
-- Level5: A little slower than level 4, but with better compression.  
+- Level2: A little slower but better than Level 1.  
+- Level3: A little slower but better than Level 2.  
+- Level4: A little slower but better than Level 3.  
+- Level5: A little slower than Level 4 but with better compression.  
 - Level6: A good balance of speed and compression efficiency.  
 - Level7: Pretty good compression!  
-- Level8: Better compression than Level7!  
+- Level8: Better compression than Level 7!  
 - Level9: The "best" compression, where best means greatest reduction in the size of the input data stream. This is also the slowest compression.  
 
-The following code snippet demonstrates the use of [**OoxmlCompressionType**](https://reference.aspose.com/cells/nodejs-cpp/ooxmlcompressiontype) enumeration and compares the conversion time for Level1, Level6, and Level9. You may also compare the sizes of the generated files.  
+The following code snippet demonstrates the use of the **OoxmlCompressionType** enumeration, and compares the conversion time for Level 1, Level 6, and Level 9. You may also compare the sizes of the generated files.  
 
 ```javascript
 const path = require("path");
@@ -55,5 +55,5 @@ workbook.saveAsync(path.join(outDir, "LargeSampleFile_level_9_out.xlsb"), option
 elapsedMs = process.hrtime(watch);
 console.log("Level 9 Elapsed Time: " + (elapsedMs[0] * 1e3 + elapsedMs[1] / 1e6));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -7,7 +7,7 @@ url: /go-cpp/support-for-german-locale-in-named-range-formulae/
 description: Learn how to handle named range formulae in German locale using Aspose.Cells with Golang via C++.
 ---
 
-English formulae are written into named regions. This Excel file can be opened in an environment where the system is configured to German Locale; however, the English formula shall be translated to the German language. The following example demonstrates this feature, but it requires Excel to be installed in German and the system locale to be set to German as well.
+English formulae are written into named regions. This Excel file can be opened in an environment where the system is configured to the German locale; however, the English formula will be translated into German. The following example demonstrates this feature, but it requires Excel to be installed in German and the system locale to be set to German as well.
 
 A sample file for testing this feature can be downloaded from the following link:
 

@@ -9,8 +9,7 @@ url: /javascript-cpp/create-style-object-using-cellsfactory-class/
 ---
 
 ## **Create Style object using CellsFactory class**
-The following sample code creates [Style](https://reference.aspose.com/cells/javascript-cpp/style) object using [CellsFactory](https://reference.aspose.com/cells/javascript-cpp/cellsfactory) class and then sets the Default Style of the workbook. Please download the [output excel file](5115153.xlsx) to see the results of this code for your reference.
-
+The following sample code creates a [Style](https://reference.aspose.com/cells/javascript-cpp/style) object using the [CellsFactory](https://reference.aspose.com/cells/javascript-cpp/cellsfactory) class and then sets the Default Style of the workbook. Please download the [output Excel file](5115153.xlsx) to see the results of this code for your reference.
 
 ```html
 <!DOCTYPE html>

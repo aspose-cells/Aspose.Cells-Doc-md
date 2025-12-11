@@ -8,11 +8,11 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, then Aspose.Cell library can meet your needs. The following content introduces some methods on how to export Excel formulas to other formats, I hope these methods will be helpful to you.
+Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, **and** Aspose.Cells library can meet your needs. The following content introduces some methods **for exporting** Excel formulas to other formats. **I hope these methods will be helpful to you.**
 
 We have prepared sample code here to help you achieve your goals using Aspose.Cells. Necessary sample files are also provided.
 
-Sample file:[Sample.xlsx](Sample.xlsx)
+Sample file: [Sample.xlsx](Sample.xlsx)
 
 ## Export equations as LaTeX expressions
 
@@ -33,7 +33,5 @@ The following sample code shows how to use the [ToMathML()](https://reference.as
 ### C#-To-MathML
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Export-equations-as-MathML-expressions.cs" >}}
-
-
 
 {{< app/cells/assistant language="csharp" >}}

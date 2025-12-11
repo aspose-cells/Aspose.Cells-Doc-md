@@ -11,12 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Cut and Paste Cells**
 
-Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcutcells/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcutcells/) method accepts the following parameters:
+Aspose.Cells provides the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcutcells/) method of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcutcells/) method accepts the following parameters:
 
 - [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/): The range of cells to be cut.
-- Row Index: The index of the row to insert cells.
-- Column Index: The index of the column to insert cells.
-- [**ShiftType**](https://reference.aspose.com/cells/cpp/aspose.cells/shifttype/): The shift direction of the columns.
+- Row index: The index of the row where cells will be inserted.
+- Column index: The index of the column where cells will be inserted.
+- [**ShiftType**](https://reference.aspose.com/cells/cpp/aspose.cells/shifttype/): The shift direction for the cells.
 
 The following example shows how to cut and paste cells within a worksheet.
 

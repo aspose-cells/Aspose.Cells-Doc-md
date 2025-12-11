@@ -9,7 +9,7 @@ keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, C
 
 ## **Consolidation function**
 
-Aspose.Cells for JavaScript via C++ can be used to apply ConsolidationFunction to data fields (or value fields) of the pivot table. In Microsoft Excel, you can right-click the value field and then select **Value Field Settings...** option and then select the tab **Summarize Values By**. From there, you can select any ConsolidationFunction of your choice like Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
+Aspose.Cells for JavaScript via C++ can be used to apply ConsolidationFunction to data fields (or value fields) of the pivot table. In Microsoft Excel, you can right‑click the value field and then select **Value Field Settings...** option and then select the tab **Summarize Values By**. From there, you can select any ConsolidationFunction of your choice like Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
 
 Aspose.Cells for JavaScript via C++ provides [**ConsolidationFunction**](https://reference.aspose.com/cells/javascript-cpp/consolidationfunction/) enumeration to support the following consolidation functions.
 
@@ -84,7 +84,7 @@ The following code applies **Average** consolidation function to the first data 
             // Apply DistinctCount consolidation function to second data field
             pivotTable.dataFields.get(1).function = AsposeCells.ConsolidationFunction.DistinctCount;
 
-            // Calculate the data to make changes affect
+            // Calculate the data to make the changes take effect
             pivotTable.calculateData();
 
             // Saving the Excel file

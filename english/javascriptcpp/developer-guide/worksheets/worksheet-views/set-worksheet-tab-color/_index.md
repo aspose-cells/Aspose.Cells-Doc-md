@@ -5,21 +5,22 @@ type: docs
 weight: 120
 url: /javascript-cpp/set-worksheet-tab-color/
 description: This article demonstrates sample code that sets the Excel worksheet Tab Color programmatically using JavaScript via C++.
-keywords: set excel tab color JavaScript via C++, code to set excel tab color JavaScript via C++
+keywords: set Excel tab color JavaScript via C++, code to set Excel tab color JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent from the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
+Aspose.Cells allows you to change the color of individual worksheet tabs to make them more prominent than the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
 
 {{% /alert %}}
 ## **Setting Worksheet Tab Color with Microsoft Excel**
-1. Right-click a tab in the tab-sheet at the bottom of the current worksheet.
-1. Select **Tab color**.
-1. Select a color from the palette.
-1. Click **OK**.
+1. Right‑click a tab on the sheet tab bar at the bottom of the workbook.  
+2. Select **Tab color**.  
+3. Choose a color from the palette.  
+4. Click **OK**.  
+
 ## **Setting Worksheet Tab Color with Aspose.Cells**
-The sample code below shows how to set tab color with Aspose.Cells.
+The sample code below shows how to set the tab color with Aspose.Cells.
 
 ```html
 <!DOCTYPE html>

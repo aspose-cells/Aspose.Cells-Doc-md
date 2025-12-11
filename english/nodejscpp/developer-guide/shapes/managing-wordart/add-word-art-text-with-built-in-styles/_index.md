@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 You can add Word Art Text with Built-in Styles using Aspose.Cells for Node.js via C++. Please use [ShapeCollection.addWordArt()](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addWordArt-presetwordartstyle-string-number-number-number-number-number-number-) method for this purpose.
 
 ## **Add Word Art Text with Built-in Styles**
-The following sample code adds Word Art texts with different Built-in Styles. Please check the [output excel file](5115470.xlsx) generated with this code. This is how the [output excel file](5115470.xlsx) looks in Microsoft Excel.
+The following sample code adds Word Art text with different built‑in styles. Please check the output Excel file ([5115470.xlsx](5115470.xlsx)) generated with this code. This is how the output Excel file looks in Microsoft Excel.
 
 ![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 

@@ -18,7 +18,7 @@ InsertText(FileName, "Inserted Text");
 
 // Given a document name and text, 
 
-// inserts a new work sheet and writes the text to cell "A1" of the new worksheet.
+// inserts a new worksheet and writes the text to cell "A1" of the new worksheet.
 
 public static void InsertText(string docName, string text)
 
@@ -204,7 +204,7 @@ private static Cell InsertCellInWorksheet(string columnName, uint rowIndex, Work
 
     }
 
-    // If there is not a cell with the specified column name, insert one.  
+    // If there is no cell with the specified column name, insert one.  
 
     if (row.Elements<Cell>().Where(c => c.CellReference.Value == columnName + rowIndex).Count() > 0)
 
@@ -265,19 +265,19 @@ private static void InsertText(string docName, string text)
 
 {
 
-    //Instantiating a Workbook object
+    // Instantiating a Workbook object
 
     Workbook workbook = new Workbook(docName);
 
-    //Obtaining the reference of the Active worksheet
+    // Obtaining the reference of the active worksheet
 
     Worksheet worksheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
 
-    //insert value from cell
+    // Insert value into cell
 
     worksheet.Cells["A1"].PutValue(text);
 
-    //Saving the Excel file
+    // Saving the Excel file
 
     workbook.Save(docName);
 

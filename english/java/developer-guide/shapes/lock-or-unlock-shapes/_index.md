@@ -12,9 +12,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Sometimes, you need to protect all shapes in certain worksheets to prevent them from being destroyed by unwanted situations. In this case, you need to lock all shapes in the specified worksheet.
 
-Sometimes, you need to be able to modify certain shapes in certain protected worksheets, in which case, you need to unlock these shapes.
+Sometimes, you need to be able to modify certain shapes in certain protected worksheets, in which case you need to unlock these shapes.
 
-This article will introduce in detail how to lock and unlock specified shapes.
+This article will detail how to lock and unlock specified shapes.
 
 {{% /alert %}}
 

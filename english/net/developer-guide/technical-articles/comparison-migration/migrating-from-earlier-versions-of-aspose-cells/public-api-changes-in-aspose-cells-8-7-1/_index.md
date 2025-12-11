@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.7.0 to 8.7.1 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.7.0 to 8.7.1 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added LookInType.OriginalValues Property**
-Aspose.Cells APIs already support the [Find or Search Data](/cells/net/find-or-search-data/) feature for spreadsheets in order to find some particular piece of contents in cell value & formula. However, this feature was lacking the aspect of formatting applied onto the cell that may change the appearance as well as the value of the contents, consequently make the text unsearchable using the original value. With this release of Aspose.Cells APIs, another constant by the name LookInType.OriginalValues has been exposed to the public API which allows to overcome the situation as discussed above.
+Aspose.Cells APIs already support the [Find or Search Data](/cells/net/find-or-search-data/) feature for spreadsheets in order to find a particular piece of content in cell value & formula. However, this feature was lacking the aspect of formatting applied to the cell that may change the appearance as well as the value of the contents, consequently making the text unsearchable using the original value. With this release of Aspose.Cells APIs, another constant by the name `LookInType.OriginalValues` has been exposed to the public API which allows you to overcome the situation as discussed above.
 
 {{% alert color="primary" %}} 
 
@@ -36,7 +36,7 @@ Workbook workbook = new Workbook();
 
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Add 10 in cell A1 and A2
+//Add 10 to cell A1 and A2
 
 worksheet.Cells["A1"].PutValue(10);
 
@@ -52,7 +52,7 @@ style.Custom = "---";
 
 cell.SetStyle(style);
 
-//The result of formula will be 20
+//The result of the formula will be 20
 
 //but 20 will not be visible because
 
@@ -88,9 +88,9 @@ Console.WriteLine(foundCell);
 
 
 ### **Added OnBeforeColumnFilter Event for GridWeb**
-Aspose.Cells.GridWeb for .NET 8.7.1 has exposed the OnBeforeColumnFilter event which serves as callback to the filtering mechanism done through the GridWeb UI. As the name suggests, the event is triggered before the column filtering is applied and can be used to get the filtering information such as column index and value on which filter has to be applied.
+Aspose.Cells.GridWeb for .NET 8.7.1 has exposed the `OnBeforeColumnFilter` event which serves as a callback to the filtering mechanism performed through the GridWeb UI. As the name suggests, the event is triggered before the column filtering is applied and can be used to get the filtering information such as column index and the value on which the filter has to be applied.
 
-Simple usage scenario looks as follow.
+A simple usage scenario looks as follows.
 
 **C#**
 
@@ -108,7 +108,7 @@ Simple usage scenario looks as follow.
 
 {{% alert color="primary" %}} 
 
-Do not forget to register the event to GridWeb control <acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
+Do not forget to register the event to GridWeb control `<acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>`
 
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

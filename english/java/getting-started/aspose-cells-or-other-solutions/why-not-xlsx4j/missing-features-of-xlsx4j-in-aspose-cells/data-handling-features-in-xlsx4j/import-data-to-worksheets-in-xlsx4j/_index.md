@@ -30,7 +30,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
-//Importing the array of names to 1st row and first column vertically
+//Importing the array of names to the 1st row and the first column vertically
 
 Cells cells = worksheet.getCells();
 
@@ -46,7 +46,7 @@ Import Data from ArrayList
 
  ArrayList<String> list = new ArrayList<String>();
 
-//Add few names to the list as string values
+//Add a few names to the list as string values
 
 list.add("laurence chen");
 
@@ -54,7 +54,7 @@ list.add("roman korchagin");
 
 list.add("kyle huang");
 
-//Importing the contents of ArrayList to 1st row and first column vertically
+//Importing the contents of ArrayList to the 1st row and the first column vertically
 
 cells.importArrayList(list,2,0,true);
 

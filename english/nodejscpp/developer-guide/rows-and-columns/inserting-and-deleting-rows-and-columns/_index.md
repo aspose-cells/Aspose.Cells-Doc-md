@@ -4,7 +4,7 @@ linktitle: Inserting and Deleting Rows and Columns
 type: docs
 weight: 70
 url: /nodejs-cpp/inserting-and-deleting-rows-and-columns/
-description: This article shows how to insert and delete rows and columns by the Aspose.Cells for Node.js via C++ API.
+description: This article shows how to insert and delete rows and columns using the Aspose.Cells for Node.js via C++ API.
 keywords: Aspose.Cells Node.js via C++ manage rows and columns, insert rows and columns, delete rows and columns
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,8 +12,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. Inversely, we may also need to delete rows or columns from specified positions in the worksheet. 
-To fulfill these requirements, Aspose.Cells for Node.js via C++ provides a very simplest set of classes and methods, discussed below.
+Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. **Conversely**, we may also need to delete rows or columns from specified positions in the worksheet.  
+To fulfill these requirements, Aspose.Cells for Node.js via C++ provides a **very simple** set of classes and methods, discussed below.
 
 ### **Manage Rows and Columns**
 
@@ -26,7 +26,6 @@ The [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#ge
 When rows or columns are added, the content in the worksheet is shifted down or to the right, and if rows or columns are removed, the content is shifted up or to the left.
 
 {{% /alert %}}
-
 
 ## **Insert Rows and Columns**
 
@@ -62,10 +61,10 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Insert Multiple Rows**
 
-To insert multiple rows into a worksheet, call the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method takes two parameters:
+To insert multiple rows into a worksheet, call the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) method takes two required parameters:
 
-- Row index, the index of the row from where the new rows will be inserted.
-- Number of rows, the total number of rows that need to be inserted.
+- **Row index** – the index of the row from where the new rows will be inserted.  
+- **Number of rows** – the total number of rows that need to be inserted.
 
 ```javascript
 const path = require("path");
@@ -86,11 +85,11 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 ### **How to Insert a Row with Formatting**
 
-To insert a row with formatting options, use the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) property of [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) class with [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) Enumeration has three members as listed below.
+To insert a row with formatting options, use the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertRows-number-number-boolean-) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/nodejs-cpp/insertoptions) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) property of the **InsertOptions** instance using the **CopyFormatType** enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/nodejs-cpp/copyformattype/) enumeration has three members as listed below.
 
-- SameAsAbove: Formats the row same as the above row.
-- SameAsBelow:  Formats the row same as below row.
-- Clear: Clears the formatting.
+- **SameAsAbove** – Formats the row the same as the row above.  
+- **SameAsBelow** – Formats the row the same as the row below.  
+- **Clear** – Clears the formatting.
 
 ```javascript
 const fs = require("fs");
@@ -111,7 +110,7 @@ const workbook = new AsposeCells.Workbook(fstream);
 // Accessing the first worksheet in the Excel file
 const worksheet = workbook.getWorksheets().get(0);
 
-// Setting Formatting options
+// Setting formatting options
 const insertOptions = new AsposeCells.InsertOptions();
 insertOptions.setCopyFormatType(AsposeCells.CopyFormatType.SameAsAbove);
 
@@ -158,8 +157,8 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 To delete multiple rows from a worksheet, call the [**deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-) method of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. The [**deleteRows(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#deleteRows-number-number-) method takes two parameters:
 
-- Row index, the index of the row from where the rows will be deleted.
-- Number of rows, the total number of rows that need to be deleted.
+- **Row index** – the index of the row from where the rows will be deleted.  
+- **Number of rows** – the total number of rows that need to be deleted.
 
 ```javascript
 const fs = require("fs");
@@ -186,7 +185,6 @@ worksheet.getCells().deleteRows(2, 10);
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
-
 
 ### **How to Delete a Column**
 

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports hiding and showing Gridlines of the worksheet which are visible by default. It also provides controlling visibility of Row Column Headers of the worksheet.
+Aspose.Cells supports hiding and showing gridlines of a worksheet, which are visible by default. It also provides control over the visibility of row and column headers of the worksheet.
 
 {{% /alert %}}
 
@@ -21,17 +21,17 @@ All Excel worksheets have gridlines by default. They help delineate cells so tha
 
 ### **Controlling the Visibility of the Gridlines**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isgridlinesvisible/) property. [**IsGridlinesVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isgridlinesvisible/) is a Boolean property, which means that it can only store a **true** or **false** value.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of gridlines, use the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsGridlinesVisible** property. **IsGridlinesVisible** is a Boolean property, which means that it can only store a **true** or **false** value.
 
 #### **Making Gridlines Visible**
 
-Make the gridlines visible by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isgridlinesvisible/) property to **true**.
+Make the gridlines visible by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsGridlinesVisible** property to **true**.
 
 #### **Hiding Gridlines**
 
-Hide gridlines by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsGridlinesVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isgridlinesvisible/) property to **false**.
+Hide gridlines by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsGridlinesVisible** property to **false**.
 
-A complete example is given below that demonstrates the use of the [**IsGridlinesVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isgridlinesvisible/) property by opening an excel file(book1.xls), hiding the gridlines on the first worksheet and saving the modified file as output.xls.
+A complete example is given below that demonstrates the use of the **IsGridlinesVisible** property by opening an Excel file (book1.xls), hiding the gridlines on the first worksheet, and saving the modified file as output.xls.
 
 ```cpp
 #include <iostream>
@@ -54,14 +54,14 @@ int main()
     // Access the first worksheet in the Excel file
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Hide the grid lines of the first worksheet
+    // Hide the gridlines of the first worksheet
     worksheet.SetIsGridlinesVisible(false);
 
     // Save the modified Excel file
     U16String outputFilePath = srcDir + u"output.xls";
     workbook.Save(outputFilePath);
 
-    std::cout << "Grid lines hidden successfully!" << std::endl;
+    std::cout << "Gridlines hidden successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }
@@ -73,17 +73,17 @@ All worksheets in an Excel file are composed of cells that are arranged in rows 
 
 ### **Controlling the Visibility of the Worksheets**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isrowcolumnheadersvisible/) property. [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isrowcolumnheadersvisible/) is a Boolean property, which means that it can only store a **true** or **false** value.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of properties and methods for managing a worksheet. To control the visibility of row and column headers, use the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsRowColumnHeadersVisible** property. **IsRowColumnHeadersVisible** is a Boolean property, which means that it can only store a **true** or **false** value.
 
 #### **Making Row/Column Headers Visible**
 
-Make row and column headers visible by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isrowcolumnheadersvisible/) property to **true**.
+Make row and column headers visible by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsRowColumnHeadersVisible** property to **true**.
 
 #### **Hiding Row/Column Headers**
 
-Hide row and column headers by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isrowcolumnheadersvisible/) property to **false**.
+Hide row and column headers by setting the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class **IsRowColumnHeadersVisible** property to **false**.
 
-A complete example is given below that shows how to use the [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/isrowcolumnheadersvisible/) property by opening an excel file(book1.xls), hiding the row and column headers on the first worksheet and saving the modified file as output.xls.
+A complete example is given below that shows how to use the **IsRowColumnHeadersVisible** property by opening an Excel file (book1.xls), hiding the row and column headers on the first worksheet, and saving the modified file as output.xls.
 
 ```cpp
 #include <iostream>

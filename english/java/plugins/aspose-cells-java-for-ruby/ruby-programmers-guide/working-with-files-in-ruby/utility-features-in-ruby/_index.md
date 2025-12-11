@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Converting Chart to Image in Ruby](/cells/java/converting-chart-to-image-in-ruby/)
 - [Converting Excel Files to HTML in Ruby](/cells/java/converting-excel-files-to-html-in-ruby/)
 - [Converting Excel to PDF Files in Ruby](/cells/java/converting-excel-to-pdf-files-in-ruby/)
-- [Converting HTML files to Excel Spreadsheets in Ruby](/cells/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
+- [Converting HTML Files to Excel Spreadsheets in Ruby](/cells/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
 - [Converting to MHTML Files in Ruby](/cells/java/converting-to-mhtml-files-in-ruby/)
 - [Converting Worksheet to Image in Ruby](/cells/java/converting-worksheet-to-image-in-ruby/)
 - [Converting Worksheet to SVG in Ruby](/cells/java/converting-worksheet-to-svg-in-ruby/)

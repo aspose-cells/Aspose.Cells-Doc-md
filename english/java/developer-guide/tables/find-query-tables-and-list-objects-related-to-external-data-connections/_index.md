@@ -9,15 +9,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Find Query Tables and List Objects related to External Data Connections**
 
-Sometimes, you need to find out Query Tables and List Objects related to some External Data Connection. Query Tables are related to External Data Connection object with Connection Id, while List Objects are related to a Query Table.
+Sometimes, you need to find Query Tables and List Objects related to an External Data Connection. Query Tables are related to an External Data Connection object with a Connection Id, while List Objects are related to a Query Table.
 
-The following sample code explains how you can find Query Tables and List Objects related to External Data Connection. The code uses the [sample excel file](5472550.xlsm) which you can download from the provided link. You can also see the output of this sample code at the bottom of this article.
+The following sample code explains how you can find Query Tables and List Objects related to an External Data Connection. The code uses the [sample Excel file](5472550.xlsm), which you can download from the provided link. You can also see the output of this sample code at the bottom of this article.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
 ## **Console Output**
 
-Here is the console output of the above sample code using this [sample excel file](5472550.xlsm).
+Here is the console output of the above sample code using this [sample Excel file](5472550.xlsm).
 
 {{< highlight java >}}
 

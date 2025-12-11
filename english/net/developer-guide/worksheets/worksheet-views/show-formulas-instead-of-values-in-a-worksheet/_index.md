@@ -14,7 +14,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells provides a [**Worksheet.ShowFormulas**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas) property. Set it to **true** to make Microsoft Excel display formulas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

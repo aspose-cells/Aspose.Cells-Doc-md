@@ -1,21 +1,21 @@
----
-title: Data in Non-Primitive Shape with JavaScript via C++
-linktitle: Data in Non-Primitive Shape
-type: docs
-weight: 300
-url: /javascript-cpp/data-in-non-primitive-shape/
-description: Learn how to access and manipulate non-primitive shapes in Aspose.Cells for JavaScript via C++.
----
+---  
+title: Data in Non-Primitive Shape with JavaScript via C++  
+linktitle: Data in Non-Primitive Shape  
+type: docs  
+weight: 300  
+url: /javascript-cpp/data-in-non-primitive-shape/  
+description: Learn how to access and manipulate non-primitive shapes in Aspose.Cells for JavaScript via C++.  
+---  
 
 ## **Accessing Data of Non-Primitive Shape**  
 
-Sometimes, you need to access data from a shape that is not built-in. Built-in shapes are called primitive shapes; ones that aren't are called non-primitive. For example, you can define your own shapes using different curve connected lines.  
+Sometimes, you need to access data from a shape that is not built‑in. Built‑in shapes are called primitive shapes; ones that aren't are called non‑primitive. For example, you can define your own shapes using different **curves connected by lines**.  
 
 ## **A Non-Primitive Shape**  
 
-In Aspose.Cells for JavaScript via C++, non-primitive shapes are assigned the type [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/javascript-cpp/autoshapetype/). You can check their type using the [**Shape.autoShapeType**](https://reference.aspose.com/cells/javascript-cpp/shape/#autoShapeType--) property.  
+In Aspose.Cells for JavaScript via C++, non‑primitive shapes are assigned the type [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/javascript-cpp/autoshapetype/). You can check their type using the [**Shape.autoShapeType**](https://reference.aspose.com/cells/javascript-cpp/shape/#autoShapeType--) property.  
 
-Access the shape data using the [**Shape.paths**](https://reference.aspose.com/cells/javascript-cpp/shape/#paths--) property. It returns all the connected paths that comprise the non-primitive shape. These paths are of the type [**ShapePath**](https://reference.aspose.com/cells/javascript-cpp/shapepath) that holds a list of all the segments which in turn contain the points in each segment.  
+Access the shape data using the [**Shape.paths**](https://reference.aspose.com/cells/javascript-cpp/shape/#paths--) property. It returns all the connected paths that comprise the non‑primitive shape. These paths are of the type [**ShapePath**](https://reference.aspose.com/cells/javascript-cpp/shapepath) that holds a list of all the segments, **which, in turn, contain the points for each segment**.  
 
 |**Shows an example of a non-primitive shape**|  
 | :- |  
@@ -79,7 +79,7 @@ Access the shape data using the [**Shape.paths**](https://reference.aspose.com/c
                 {
                     const shapePath = shapePathCollection.get(i);
                     // Access path segment list
-                    const pathSegments = shapePath.pathSegementList;
+                    const pathSegments = shapePath.pathSegmentList;
 
                     // Access individual path segment
                     for (let j = 0; j < pathSegments.count; j++)
@@ -99,7 +99,7 @@ Access the shape data using the [**Shape.paths**](https://reference.aspose.com/c
                 outputHtml += '</pre></div>';
                 document.getElementById('result').innerHTML = outputHtml;
             } else {
-                document.getElementById('result').innerHTML = '<p>Shape is not a NonPrimitive auto-shape.</p>';
+                document.getElementById('result').innerHTML = '<p>Shape is not a **Non‑primitive** auto‑shape.</p>';
             }
         });
     </script>

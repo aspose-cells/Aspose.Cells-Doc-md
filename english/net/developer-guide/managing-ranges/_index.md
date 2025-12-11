@@ -10,11 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-In Excel, you can select multiple cells with a mouse box selection, the set of selected cells is called "Range".
+In Excel, you can select multiple cells with a mouse box selection; the set of selected cells is called a "Range".
 
-For example, you can click the left mouse button in Cell "A1" of the Excel and then drag to cell "C4". The rectangular area you selected can also be easily created as an object by using Aspose.Cells.
+For example, you can click the left mouse button in cell **A1** of Excel and then drag to cell **C4**. The rectangular area you selected can also be easily created as an object by using Aspose.Cells.
 
-Here is how to create range, put value, set style, and do more operations to the "Range" object.
+Here is how to create a range, put values, set style, and perform more operations on the "Range" object.
 
 ## **Managing Ranges Using Aspose.Cells**
 
@@ -22,46 +22,45 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 ### **Create Range**
 
-When you want to create a rectangular area that extends over A1:C4, you can use the following code:
+When you want to create a rectangular area that extends over **A1:C4**, you can use the following code:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-Create.cs" >}}
 
 ### **Put value into the Cells of the Range**
 
-Say you have a range of cells that extends over A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
+Say you have a range of cells that extends over **A1:C4**. The matrix contains 4 × 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
-The following example shows how to input some values into the cells of the Range.
+The following example shows how to input some values into the cells of the range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-PutValue.cs" >}}
 
 ### **Set style of the Cells of the Range**
 
-The following example shows how to set style of the cells of the Range.
+The following example shows how to set the style of the cells of the range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-SetStyle.cs" >}}
 
 ### **Get CurrentRegion of the Range**
 
-CurrentRegion is a property that returns a Range object that represents the current region. 
+CurrentRegion is a property that returns a Range object that represents the current region.  
 
-The current region is a range bounded by any combination of blank rows and blank columns. Read-only.
+The current region is a range bounded by any combination of blank rows and blank columns. Read‑only.
 
-In excel, you can get CurrentRegion area by:
-1. Select an area(range1) with the mouse box.
-2. Click "Home - Editing - Find & Select - Go To Special - Currect region", or use "Ctrl+Shift+*", you will see excel automatically helps you select an area(range2), now you made it, range2 is the CurrentRegion of range1.
+In Excel, you can get the CurrentRegion area by:
+1. Select an area (range1) with the mouse box.
+2. Click **Home → Editing → Find & Select → Go To Special → Current region**, or use **Ctrl+Shift+***; you will see Excel automatically select an area (range2). Now you have it; range2 is the CurrentRegion of range1.
 
-Using Aspose.Cells, you can use "Range.CurrentRegion" property to perform the same function.
+Using Aspose.Cells, you can use the `Range.CurrentRegion` property to perform the same function.
 
-Please downloaded the following test file, open it in excel, use the mouse box to select an area "A1:D7", then click "Ctrl+Shift+*", you will see area "A1:C3" selected.
+Please download the following test file, open it in Excel, use the mouse box to select an area **A1:D7**, then click **Ctrl+Shift+***; you will see area **A1:C3** selected.
 
 [current_region.xlsx](current_region.xlsx)
 
-Now please run the following example, see how it works in Aspose.Cells:
+Now please run the following example to see how it works in Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-CurrentRegion.cs" >}}
 
-
-## **Advance topics**
+## **Advanced topics**
 - [AutoFill range of Excel file](/cells/net/autofill-ranges/)
 - [Copy Ranges of Excel](/cells/net/copy-ranges-of-Excel/)
 - [Copy Range Data Only](/cells/net/copy-range-data-only/)

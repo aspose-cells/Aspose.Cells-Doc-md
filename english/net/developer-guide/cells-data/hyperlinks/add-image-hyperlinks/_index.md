@@ -3,7 +3,7 @@ title: Add Image Hyperlinks
 type: docs
 weight: 140
 url: /net/add-image-hyperlinks/
-description: Learn how to Add Image Hyperlinks through the Aspose.Cells for .NET API.
+description: Learn how to add image hyperlinks using the Aspose.Cells for .NET API.
 keywords: Add Image Hyperlinks, Insert Image Hyperlinks
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Hyperlinks are useful for accessing information on other worksheets, or on websites. Microsoft Excel lets users add hyperlinks on text in cells, and on images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons, or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells.
+Hyperlinks are useful for accessing information on other worksheets, or on websites. Microsoft Excel lets users add hyperlinks to text in cells, and on images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons, or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells.
 
 {{% /alert %}} 
 
-Aspose.Cells allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link's screen tip and address. The following sample code illustrates how to add an image hyperlink into a worksheet.
+Aspose.Cells allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link's screen tip and address. The following sample code illustrates how to add an image hyperlink to a worksheet.
 
 
 

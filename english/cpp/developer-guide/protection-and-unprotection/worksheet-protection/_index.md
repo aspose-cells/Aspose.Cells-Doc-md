@@ -13,17 +13,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 To prevent other users from accidentally or deliberately changing, moving, or deleting data in a worksheet, you can lock the cells on your Excel worksheet and then protect the sheet with a password. 
 {{% /alert %}}
 
-## **Protect and Unprotect Worksheet in MS Excel**
+## **Protect and Unprotect Worksheets in MS Excel**
 
 **![protect and unprotect Worksheet](protect-and-unprotect-worksheet.png)**
 
-1. Click **Review > Protect Worksheet**.
-1. Enter a password in **the Password box**.
-1. Select **allow** options.
-1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
+1. Click **Review > Protect Worksheet**.  
+2. Enter a password in **the Password box**.  
+3. Select **the allow** options.  
+4. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
 
 ## **Protect Worksheet Using Aspose.Cells for C++**
-Only need the following simple lines of code to implement protecting workbook structure of Excel files.
+You only need the following simple lines of code to implement protecting the workbook structure of Excel files.
 
 ```c++
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
 ```
 
 ## **Unprotect Worksheet Using Aspose.Cells for C++**
-Unprotecting worksheet is easy with Aspose.Cells API. If worksheet is password-protected, a correct password is required.
+Unprotecting a worksheet is easy with the Aspose.Cells API. If the worksheet is password‑protected, a correct password is required.
 
 ```cpp
 #include <iostream>
@@ -86,7 +86,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Advanced Protection Settings since Excel XP](/cells/cpp/advanced-protection-settings-since-excel-xp/)
 - [Detect if Worksheet is Password Protected](/cells/cpp/detect-if-worksheet-is-password-protected/)
 - [Protecting Worksheets](/cells/cpp/protecting-worksheets/)

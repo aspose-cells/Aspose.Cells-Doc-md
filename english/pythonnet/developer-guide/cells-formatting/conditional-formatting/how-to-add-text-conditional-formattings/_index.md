@@ -10,32 +10,31 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Using text-based conditional formatting in spreadsheets is useful for highlighting cells that meet specific textual criteria. This can improve data analysis and make it easier to find key information in a large dataset. Here are some reasons to use text conditional formatting:
+Using text‑based conditional formatting in spreadsheets is useful for highlighting cells that meet specific textual criteria. This can improve data analysis and make it easier to find key information in a large dataset. Here are some reasons to use text conditional formatting:
 
-1. Highlight Specific Text: You can apply formatting based on specific words, phrases, or characters. For example, you might want to highlight all cells that contain the word "Urgent" or "Completed" to easily differentiate tasks in a project.
-1. Identify Patterns or Trends: If you’re working with categories or statuses (like "High", "Medium", "Low"), text conditional formatting can visually distinguish between them, making it easier to track progress or prioritize tasks.
-1. Error or Data Entry Alerts: Text formatting can flag inconsistent or erroneous entries, such as misspelled words, incomplete text, or incorrect values. This is particularly useful in datasets with a lot of textual input.
-1. Enhanced Readability: Color-coding text or changing its style (bold, italics, etc.) helps make important information stand out, improving the overall readability of your sheet.
-1. Dynamic Feedback: You can set up rules that automatically adjust the formatting when text matches certain conditions. This means you don't have to manually update the formatting as the data changes.
+1. **Highlight Specific Text:** You can apply formatting based on specific words, phrases, or characters. For example, you might want to highlight all cells that contain the word “Urgent” or “Completed” to easily differentiate tasks in a project.  
+2. **Identify Patterns or Trends:** If you’re working with categories or statuses (like “High”, “Medium”, “Low”), text conditional formatting can visually distinguish between them, making it easier to track progress or prioritize tasks.  
+3. **Error or Data Entry Alerts:** Text formatting can flag inconsistent or erroneous entries, such as misspelled words, incomplete text, or incorrect values. This is particularly useful in datasets with a lot of textual input.  
+4. **Enhanced Readability:** Color‑coding text or changing its style (bold, italics, etc.) helps make important information stand out, improving the overall readability of your sheet.  
+5. **Dynamic Feedback:** You can set up rules that automatically adjust the formatting when text matches certain conditions. This means you don’t have to manually update the formatting as the data changes.  
 
 In essence, text conditional formatting helps you quickly spot relevant information, errors, and trends, making it a powerful tool for managing and interpreting textual data.
 
 ## **How to Add Text Conditional Formatting Using Excel**
-To add text-based conditional formatting in Excel, follow these steps:
+To add text‑based conditional formatting in Excel, follow these steps:
 
-1. Select the Range of Cells: Highlight the cells where you want to apply the conditional formatting.
-1. Open the Conditional Formatting Menu: Go to the Home tab in the Excel ribbon. Click on Conditional Formatting in the "Styles" group.
-1. Choose “New Rule”: From the drop-down menu, select New Rule.
-1. Select “Format only cells that contain”: In the New Formatting Rule dialog, choose Format only cells that contain under the "Select a Rule Type" section.
-1. Set the Rule Criteria: In the "Format cells with" section, choose Specific Text from the drop-down. Select either containing, begins with, or ends with, depending on the condition you want to apply. Enter the text you want to format (e.g., a specific word like "Urgent" or "Completed").
-1. Choose the Formatting: Click on the Format button. In the Format Cells dialog, you can select the font color, fill color, or any other formatting options you prefer.
-1. Apply the Rule: Once you’ve set your desired format, click OK to apply the rule. Click OK again in the New Formatting Rule dialog to close it.
-1. View the Results: The cells containing the text you specified will now have the formatting applied, making it easy to spot relevant information.
-
+1. Select the range of cells where you want to apply the conditional formatting.  
+2. Open the Conditional Formatting menu: go to the **Home** tab in the Excel ribbon and click **Conditional Formatting** in the **Styles** group.  
+3. Choose **New Rule** from the drop‑down menu.  
+4. Select **Format only cells that contain**. In the **New Formatting Rule** dialog, choose **Format only cells that contain** under the **Select a Rule Type** section.  
+5. Set the rule criteria: in the **Format cells with** section, choose **Specific Text** from the drop‑down. Select either *containing*, *begins with*, or *ends with*, depending on the condition you want to apply. Enter the text you want to format (e.g., a specific word like “Urgent” or “Completed”).  
+6. Choose the formatting: click the **Format** button. In the **Format Cells** dialog, select the font color, fill color, or any other formatting options you prefer.  
+7. Apply the rule: once you’ve set your desired format, click **OK** to apply the rule. Click **OK** again in the **New Formatting Rule** dialog to close it.  
+8. View the results: the cells containing the text you specified will now have the formatting applied, making it easy to spot relevant information.
 
 ## **How to Add Text Conditional Formatting Using Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. This examples demonstrate an exercise for advanced conditional formatting types including BeginsWith, ContainsBlank, ContainsText and so on.
+Aspose.Cells for Python via .NET fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. These examples demonstrate advanced conditional‑formatting types including **BeginsWith**, **ContainsBlank**, **ContainsText**, and so on.
 
 ### **Format Cell When the Value Starts With Specified Text**
 
@@ -124,8 +123,8 @@ class ConditionalFormatting:
             area.end_row = end_row
             area.end_column = end_col
         return area
-
 ```
+
 ### **Format Cell When the Value Contains Blank**
 
 ```python
@@ -171,7 +170,6 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E9").put_value("  ")
         self._sheet.cells.get("G10").put_value("  ")
-
 ```
 
 ### **Format Cell When the Value Contains Errors**
@@ -220,7 +218,6 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E17").put_value("  ")
         self._sheet.cells.get("G18").put_value("  ")
-        
 ```
 
 ### **Format Cell When the Value Contains Specified Text**
@@ -267,7 +264,6 @@ class ConditionalFormatting:
         cond.style.background_color = Color.yellow
         cond.style.pattern = BackgroundType.SOLID
         cond.text = "1"
-
 ```
 
 ### **Format Cell When the Value Contains Duplicate Values**
@@ -315,7 +311,6 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E23").put_value("bb")
         self._sheet.cells.get("G24").put_value("bb")
-
 ```
 
 ### **Format Cell When the Value Ends With Specified Text**
@@ -365,10 +360,9 @@ class ConditionalFormatting:
         cond.text = "ab"
         self._sheet.cells.get("E13").put_value("nnnab")
         self._sheet.cells.get("G14").put_value("mmmabc")
-
 ```
 
-### **Format Cell When the Value Not Contains Blank**
+### **Format Cell When the Value Does Not Contain Blank**
 
 ```python
 from aspose.cells import Workbook
@@ -413,10 +407,9 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E11").put_value("abc")
         self._sheet.cells.get("G12").put_value("  ")
-
 ```
 
-### **Format Cell When the Value Not Contains Errors**
+### **Format Cell When the Value Does Not Contain Errors**
 
 ```python
 from aspose.cells import Workbook
@@ -461,10 +454,9 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E19").put_value("  ")
         self._sheet.cells.get("G20").put_value("  ")
-
 ```
 
-### **Format Cell When the Value Not Contains Specified Text**
+### **Format Cell When the Value Does Not Contain Specified Text**
 
 ```python
 from aspose.cells import Workbook
@@ -556,7 +548,6 @@ class ConditionalFormatting:
         cond.style.pattern = BackgroundType.SOLID
         self._sheet.cells.get("E21").put_value("aa")
         self._sheet.cells.get("G22").put_value("aa")
-
 ```
 
 {{< app/cells/assistant language="python-net" >}}

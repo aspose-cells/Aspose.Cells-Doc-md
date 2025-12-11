@@ -9,7 +9,7 @@ description: Learn how to prefix table element styles in HTML using Aspose.Cells
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to prefix table elements styles with [**HtmlSaveOptions.tableCssId**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#tableCssId--) property. Suppose, you set this property with some value like **MyTest_TableCssId**, then you will find table elements styles like shown below:
+Aspose.Cells allows you to prefix table element styles with [**HtmlSaveOptions.tableCssId**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#tableCssId--) property. Suppose you set this property with a value like **MyTest_TableCssId**, then you will find table element styles as shown below:
 
 {{< highlight javascript >}}
  table#MyTest_TableCssId
@@ -65,26 +65,26 @@ The following sample code demonstrates how to make use of [**HtmlSaveOptions.tab
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (fileInput.files.length === 0) {
-                // No file selected - create a new workbook as in original JavaScript sample
+                // No file selected – create a new workbook as in the original JavaScript sample
                 const wb = new Workbook();
 
                 // Access first worksheet
                 const ws = wb.worksheets.get(0);
 
-                // Access cell B5 and put value inside it
+                // Access cell B5 and put a value inside it
                 const cell = ws.cells.get("B5");
                 cell.value = "This is some text.";
 
-                // Set the style of the cell - font color is Red
+                // Set the style of the cell – font color is Red
                 const st = cell.style;
                 st.font.color = Color.Red;
                 cell.style = st;
 
-                // Specify html save options - specify table css id
+                // Specify HTML save options – specify table CSS ID
                 const opts = new HtmlSaveOptions();
                 opts.tableCssId = "MyTest_TableCssId";
 
-                // Save the workbook in html
+                // Save the workbook as HTML
                 const outputData = wb.save(SaveFormat.Html, opts);
                 const blob = new Blob([outputData], { type: 'text/html' });
                 const downloadLink = document.getElementById('downloadLink');
@@ -105,20 +105,20 @@ The following sample code demonstrates how to make use of [**HtmlSaveOptions.tab
             // Access first worksheet
             const ws = wb.worksheets.get(0);
 
-            // Access cell B5 and put value inside it
+            // Access cell B5 and put a value inside it
             const cell = ws.cells.get("B5");
             cell.value = "This is some text.";
 
-            // Set the style of the cell - font color is Red
+            // Set the style of the cell – font color is Red
             const st = cell.style;
             st.font.color = Color.Red;
             cell.style = st;
 
-            // Specify html save options - specify table css id
+            // Specify HTML save options – specify table CSS ID
             const opts = new HtmlSaveOptions();
             opts.tableCssId = "MyTest_TableCssId";
 
-            // Save the workbook in html
+            // Save the workbook as HTML
             const outputData = wb.save(SaveFormat.Html, opts);
             const blob = new Blob([outputData], { type: 'text/html' });
             const downloadLink = document.getElementById('downloadLink');

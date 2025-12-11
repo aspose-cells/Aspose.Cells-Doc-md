@@ -1,5 +1,5 @@
 ---
-title: How to create TreeMap chart
+title: How to create a TreeMap chart
 description: Learn how to create a Treemap chart in Aspose.Cells for .NET. Our guide will help you understand the various properties and formatting options available for Treemap charts, including colors, labels, and data representation.
 keywords: Aspose.Cells for .NET, Treemap chart, create, properties, formatting, colors, labels, data representation, circular chart, hierarchical charting.
 type: docs
@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.
+A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are the store's best sellers. **The** tree branches are represented by rectangles, and each sub‑branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity, and can easily show large amounts of data that would be difficult to present with other chart types.
 
 ![todo:image_alt_text](sample.png)
 ## **TreeMap chart**

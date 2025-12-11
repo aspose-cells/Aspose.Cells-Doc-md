@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-You can add custom labels to data points in the series of the chart. Aspose.Cells provides [**DataLabels.getText()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getText--) property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.
+You can add custom labels to data points in the series of the chart. Aspose.Cells provides [**DataLabels.getText()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getText--) **method** to add these custom labels. This article will explain how to use this method to add custom labels to data points in the series of the chart.
 
 {{% /alert %}}  
 
-The following code creates **Scatter Chart Connected By Lines With Data Markers** and then adds **Custom Labels** to the **Data Points** in the **Series** of the **Chart**. Each custom label shows the **Series Name** and **Point Name**. You can use any other text instead of it.
+The following code creates **Scatter Chart Connected By Lines With Data Markers** and then adds **Custom Labels** to the **Data Points** in the **Series** of the **Chart**. Each custom label shows the **Series Name** and **Point Name**. You can use any other text instead.
 
 ```javascript
 const path = require("path");
@@ -59,8 +59,8 @@ let series = chart.getNSeries().get(0);
 
 let pointCount = series.getPoints().getCount();
 for (let i = 0; i < pointCount; i++) {
-const pointIndex = series.getPoints().get(i);
-pointIndex.getDataLabels().setText("Series 1" + "\n" + "Point " + i);
+    const pointIndex = series.getPoints().get(i);
+    pointIndex.getDataLabels().setText("Series 1" + "\n" + "Point " + i);
 }
 
 // Insert series
@@ -70,11 +70,11 @@ series = chart.getNSeries().get(1);
 
 pointCount = series.getPoints().getCount();
 for (let i = 0; i < pointCount; i++) {
-const pointIndex = series.getPoints().get(i);
-pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
+    const pointIndex = series.getPoints().get(i);
+    pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
 }
 
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

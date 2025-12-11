@@ -4,7 +4,7 @@ linktitle: Get Validation Applied on a Cell
 type: docs
 weight: 200
 url: /cpp/get-validation-applied-on-a-cell/
-description: This article shows how to apply validation on a Cell with C++.
+description: This article shows how to apply validation on a cell with C++.
 keywords: apply cell validation in excel with c++, apply validation on a cell in excel with c++, apply validation in excel with c++, cell validation in excel with c++, c++ apply cell validation in excel, c++ apply validation on a cell in excel, c++ cell validation in excel, c++ cell validation
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to get the validation applied to a cell. Aspose.Cells provides the [**Cell::GetValidation()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidation/) method for this purpose. If there is no validation applied on the cell, it returns null.
+You can use Aspose.Cells to get the validation applied to a cell. Aspose.Cells provides the [**Cell::GetValidation()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidation/) method for this purpose. If there is no validation applied to the cell, it returns null.
 
 Similarly, you can use [**Worksheet::Validations::GetValidationInCell**](https://reference.aspose.com/cells/cpp/aspose.cells/validationcollection/getvalidationincell/) method to acquire the validation applied to a cell by providing its row and column indices.
 
@@ -41,7 +41,7 @@ int main()
     // Access its first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Cell C1 has the Decimal Validation applied on it. It can take only the values Between 10 and 20
+    // Cell C1 has the Decimal Validation applied to it. It can take only values between 10 and 20
     Cell cell = worksheet.GetCells().Get(u"C1");
 
     // Access the validation applied on this cell

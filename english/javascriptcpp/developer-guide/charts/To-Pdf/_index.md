@@ -10,7 +10,7 @@ url: /javascript-cpp/chart-to-pdf/
 
 ## **Rendering Chart to PDF**
 
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf(string)**](https://reference.aspose.com/cells/javascript-cpp/chart/#toPdf-string-) method with the ability to store the resultant PDF on disk path or Stream.
+In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf(string)**](https://reference.aspose.com/cells/javascript-cpp/chart/#toPdf-string-) method with the ability to store the resultant PDF on a disk path or stream.
 
 ```html
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ In order to render the chart to PDF format, the Aspose.Cells APIs have exposed t
             const chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 15, 5);
             const chart = worksheet.charts.get(chartIndex);
 
-            // Adding Series Collection (chart data source) to the chart ranging from "A1" cell to "B3"
+            // Adding Series Collection (chart data source) to the chart ranging from the "A1" cell to "B3"
             chart.nSeries.add("A1:B3", true);
 
             // Converting chart to PDF
@@ -79,7 +79,7 @@ In order to render the chart to PDF format, the Aspose.Cells APIs have exposed t
 ```
 
 ## **Create Chart PDF with Desired Page Size**  
-You can create chart Pdf with your desired page size using Aspose.Cells and specify how you want to align the chart inside the page as top, bottom, center, left, right etc. Besides, the output chart can be created in stream or on disk. Please see the following sample code that loads the [sample Excel file](64716906.xlsx), accesses the first chart inside the worksheet and then converts it into [output Pdf](64716907.pdf) with desired page size. The following screenshot shows that the page size in the output Pdf is 7x7 as specified inside the code and chart is center aligned both horizontally as well as vertically.
+You can create a chart PDF with your desired page size using Aspose.Cells and specify how you want to align the chart inside the page—as top, bottom, center, left, right, etc. Besides, the output chart can be created in a stream or on disk. Please see the following sample code that loads the [sample Excel file](64716906.xlsx), accesses the first chart inside the worksheet, and then converts it into [output PDF](64716907.pdf) with the desired page size. The following screenshot shows that the page size in the output PDF is 7 × 7 as specified inside the code, and the chart is center‑aligned both horizontally and vertically.
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)  
 ## **Sample Code**  
@@ -131,7 +131,7 @@ You can create chart Pdf with your desired page size using Aspose.Cells and spec
             // Access first chart inside the worksheet.
             const chart = worksheet.charts.get(0);
 
-            // Create chart pdf with desired page size.
+            // Create chart PDF with desired page size.
             // Note: In browser API omit file path and receive output data (Uint8Array / ArrayBuffer)
             const outputData = chart.toPdf(7, 7, AsposeCells.PageLayoutAlignmentType.Center, AsposeCells.PageLayoutAlignmentType.Center);
 

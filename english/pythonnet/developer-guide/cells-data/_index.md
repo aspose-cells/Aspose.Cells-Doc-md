@@ -20,17 +20,17 @@ In [Accessing Cells of a Worksheet](/cells/python-net/accessing-cells-of-a-works
 
 Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection. Each item in the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class.
 
-Aspose.Cells for Python via .NET allows developers to add data to the cells in worksheets by calling the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#bool) method. Aspose.Cells for Python via .NET provides overloaded versions of the [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method that lets developers add different kinds of data to cells. Using these overloaded versions of the [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method, it is possible to add a Boolean, string, double, integer or date/time, etc. values to the cell.
+Aspose.Cells for Python via .NET allows developers to add data to the cells in worksheets by calling the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#bool) method. Aspose.Cells for Python via .NET provides overloaded versions of the [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method that let developers add different kinds of data to cells. Using these overloaded versions of the [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method, it is possible to add a Boolean, string, double, integer or date/time, etc. value to a cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-AddingDataToCells-1.py" >}}
 
 ## **How to Improve Efficiency**
 
-If you use [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method to put a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
+If you use [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#int) method to put a large amount of data to a worksheet, you should add values to the cells first by rows, then by columns. This approach greatly improves the efficiency of your applications.
 
 ## **How to Retrieve Data from Cells**
 
-Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) collection that allows access to worksheets in the file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection. Each item in the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/worksheets/) collection that allows access to the worksheets in the file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection. Each item in the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/cells/) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class.
 
 The [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class provides several properties that allow developers to retrieve values from the cells according to their data types. These properties include:
 
@@ -41,9 +41,9 @@ The [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell)�
 - [**float_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/float_value/): returns the float value of the cell.
 - [**int_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/int_value/): returns the integer value of the cell.
 
-When a field is not filled, cells with [**double_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/double_value/) or [**float_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/float_value/) throws an exception.
+When a field is not filled, cells with [**double_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/double_value/) or [**float_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/float_value/) throw an exception.
 
-The type of data contained in a cell can also be checked by using the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**type**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/type/) property. In fact, the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**type**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/type/) property is based on the [**CellValueType**](https://reference.aspose.com/cells/python-net/aspose.cells/cellvaluetype) enumeration whose pre-defined values are listed below:
+The type of data contained in a cell can also be checked by using the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**type**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/type/) property. In fact, the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class' [**type**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/type/) property is based on the [**CellValueType**](https://reference.aspose.com/cells/python-net/aspose.cells/cellvaluetype) enumeration whose pre‑defined values are listed below:
 
 |**Cell Value Types**|**Description**|
 | :- | :- |
@@ -55,7 +55,7 @@ The type of data contained in a cell can also be checked by using the [**Cell**]
 |IS_ERROR|Specifies that cell value is an error value.|
 |IS_UNKNOWN|Specifies that cell value is unknown.|
 
-You can also use the above pre-defined cell value types to compare with the Type of data present in each cell.
+You can also use the above pre‑defined cell value types to compare with the type of data present in each cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-RetrievingDataFromCells-1.py" >}}
 
@@ -65,7 +65,7 @@ While working on worksheets, users may add different types of data in the cells.
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Accessing Cells of a Worksheet](/cells/python-net/accessing-cells-of-a-worksheet/)
 - [Convert Text Numeric Data to Number](/cells/python-net/convert-text-numeric-data-to-number/)
 - [Creating Subtotals](/cells/python-net/creating-subtotals/)

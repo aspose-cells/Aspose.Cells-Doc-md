@@ -19,7 +19,7 @@ You can convert numbers stored as text to numbers by following a few simple step
 1. Next to the selected cell or range of cells, click the error button that appears. On the menu, click Convert to Number. 
 <br>
 <img src="4.png" width=70% />
-1. If the alert button is not available, Select a column with this problem. If you don't want to convert the whole column, you can select one or more cells instead. Just be sure the cells you select are in the same column, otherwise this process won't work. The Text to Columns button is typically used for splitting a column, but it can also be used to convert a single column of text to numbers. On the Data tab, click Text to Columns.
+1. If the alert button is not available, select a column with this problem. If you don't want to convert the whole column, you can select one or more cells instead. Just be sure the cells you select are in the same column; otherwise, this process won't work. The Text to Columns button is typically used for splitting a column, but it can also be used to convert a single column of text to numbers. On the Data tab, click Text to Columns.
 <br>
 <img src="1.png" width=70% />
 1. Click the Finish button in the pop-up box.

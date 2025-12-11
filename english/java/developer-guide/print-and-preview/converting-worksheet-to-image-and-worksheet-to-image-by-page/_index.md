@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This document is designed to provide the developers with a detailed understanding of how to convert a worksheet to an image file & worksheet with multiple pages to an image file per page.
+This document is designed to provide developers with a detailed understanding of how to convert a worksheet to an image file and a worksheet with multiple pages to an image file per page.
 
 Sometimes, you might need to present worksheets as images, for example, to use them in applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply, you want to render the worksheet as an image. Aspose.Cells APIs support converting worksheets in Microsoft Excel files to images. Also, Aspose.Cells supports converting a workbook to multiple image files, one per page.
 
@@ -17,7 +17,7 @@ Sometimes, you might need to present worksheets as images, for example, to use t
 
 ## **Using Aspose.Cells to Convert Worksheet to Image File**
 
-This article shows how to use Aspose.Cells for Java API to convert a worksheet to image. The API provides several valuable classes, such as [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), and so on. The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class represents a worksheet to render images for the worksheet and has an overloaded [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) method that can convert a worksheet to image files directly with any attributes or options set.
+This article shows how to use the Aspose.Cells for Java API to convert a worksheet to an image. The API provides several valuable classes, such as [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), and so on. The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class represents a worksheet for rendering images and has an overloaded [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage-int-java.io.OutputStream-) method that can convert a worksheet to image files directly with any attributes or options set.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
@@ -31,13 +31,13 @@ After executing the above code, the worksheet named Sheet1 is converted into an 
 
 ## **Using Aspose.Cells to Convert Worksheet to Image File by Page**
 
-This example shows how to use Aspose.Cells to convert a worksheet from a template workbook that has several pages to one image file per page.
+This example shows how to use Aspose.Cells to convert a worksheet from a template workbook that has several pages into one image file per page.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheetToImageByPage-1.java" >}}
 
 ### **Result**
 
-After executing the above code, the worksheet named Sheet1 is converted into two image files (1 per page) Sheet 1 Page 1.Tiff and Sheet 1 Page 2.Tiff.
+After executing the above code, the worksheet named Sheet1 is converted into two image files (one per page): Sheet 1 Page 1.Tiff and Sheet 1 Page 2.Tiff.
 
 **Generated image file (Sheet 1 Page 1.Tiff)**
 

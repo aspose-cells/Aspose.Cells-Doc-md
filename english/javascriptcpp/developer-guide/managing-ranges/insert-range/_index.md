@@ -17,9 +17,9 @@ In Excel, you can select a range, then insert a range and shift other data right
 
 Aspose.Cells for JavaScript via C++ provides [Cells.insertRange(CellArea, number, ShiftType, boolean)](https://reference.aspose.com/cells/javascript-cpp/cells/#insertRange-cellarea-number-shifttype-boolean-) method to insert a range.
 
-## **Insert Ranges And Shift Cells Right**
+## **Insert Ranges and Shift Cells Right**
 
-Insert a range and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells right as the following code with Aspose.Cells:
 
 ```html
 <!DOCTYPE html>
@@ -76,8 +76,8 @@ Insert a range and shift cells right as the following codes with Aspose.Cells:
             // Create a range of cells.
             const sourceRange = worksheet.cells.createRange("A1", "A2");
 
-            // Input some data with some formattings into
-            // A few cells in the range.
+            // Input some data with some formatting into
+            // a few cells in the range.
             sourceRange.get(0, 0).value = "Test";
             sourceRange.get(1, 0).value = "123";
 
@@ -104,9 +104,9 @@ Insert a range and shift cells right as the following codes with Aspose.Cells:
 </html>
 ```
 
-## **Insert Ranges And Shift Cells Down**
+## **Insert Ranges and Shift Cells Down**
 
-Insert a range and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down as the following code with Aspose.Cells:
 
 ```html
 <!DOCTYPE html>
@@ -162,8 +162,8 @@ Insert a range and shift cells down as the following codes with Aspose.Cells:
             // Create a range of cells.
             const sourceRange = worksheet.cells.createRange("A1", "A2");
 
-            // Input some data with some formattings into
-            // A few cells in the range.
+            // Input some data with some formatting into
+            // a few cells in the range.
             const cell00 = sourceRange.get(0, 0);
             cell00.value = "Test";
             const cell10 = sourceRange.get(1, 0);

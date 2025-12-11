@@ -67,7 +67,7 @@ int main()
 }
 ```
 
-### **Unprotecting a Password Protected Worksheet Using Aspose.Cells**
+### **Unprotecting a Password-Protected Worksheet Using Aspose.Cells**
 
 A password-protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the [**Unprotect**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/unprotect/) method that takes the password as a parameter.
 
@@ -101,7 +101,7 @@ int main()
     // Unprotecting the worksheet with a password
     worksheet.Unprotect(u"");
 
-    // Save Workbook
+    // Save the Workbook
     workbook.Save(outputFilePath);
 
     std::cout << "Worksheet unprotected and saved successfully!" << std::endl;

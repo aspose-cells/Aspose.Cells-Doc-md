@@ -15,35 +15,35 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 #### **System Requirements**
 
-**Following are the system requirements to use Aspose.Cells .NET for PHP:**
+**The following are the system requirements to use Aspose.Cells .NET for PHP:**
 
-- IIS with PHP and PHP Manager installed.
-- Aspose.Total APIs.
-- Aspose.Cells the Interop dll and tlb file.
+- IIS with PHP and PHP Manager installed.  
+- Aspose.Total APIs.  
+- Aspose.Cells Interop DLL and TLB file.
 
 #### **Supported Platforms**
 
-**Following are the supported platforms:**
+**The following are the supported platforms:**
 
-- PHP 5.3 or above
-- Windows OS
+- PHP 5.3 or above  
+- Windows OS  
 
 ### **Download and Configure**
 
 #### **Download Required Libraries**
 
-Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for PHP examples.
+Download the required libraries mentioned below. These are required for executing Aspose.Cells .NET for PHP examples.
 
-- [Download Aspose.Cells for .NET (DLL or MSI) files from download section](https://downloads.aspose.com/cells/net)
-- [Download Aspose.Cells for .NET interop dll](https://downloads.aspose.com/cells/net)
+- [Download Aspose.Cells for .NET (DLL or MSI) files from the download section](https://downloads.aspose.com/cells/net)  
+- [Download Aspose.Cells for .NET Interop DLL](https://downloads.aspose.com/cells/net)
 
-If you download MSI version, you will find Aspose.Cells.dll in installed location which is C:\Program Files (x86)\Aspose\Aspose.Cells for .NET\Bin\net2.0 folder by default.
-However in case you have downloaded DLL version you can extract it and then copy Aspose.Cells.dll from .NET 2.0 folder to your c:\temp folder for ease of use.
-Similarly extract interop zip file and copy Aspose.Inteop.dll to c:\temp
+If you download the MSI version, you will find **Aspose.Cells.dll** in the installed location, which is `C:\Program Files (x86)\Aspose\Aspose.Cells for .NET\Bin\net2.0` by default.  
+If you have downloaded the DLL version, you can extract it and then copy **Aspose.Cells.dll** from the .NET 2.0 folder to your `C:\temp` folder for ease of use.  
+Similarly, extract the Interop zip file and copy **Aspose.Interop.dll** to `C:\temp`.
 
 #### **Download Examples from Social Coding Sites**
 
-Following releases of running examples are available to download on below mentioned social coding sites:
+The following runnable examples are available to download from the social coding sites listed below:
 
 -----
 
@@ -53,15 +53,14 @@ Following releases of running examples are available to download on below mentio
 
   - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
-#### **How to configure the source code on Windows Platform**
+#### **How to Configure the Source Code on Windows Platform**
 
-Please follow these simple steps in order to open and extend the source code while using:
+Please follow these simple steps in order to open and extend the source code while using it:
 
-##### **1. Register both dll and interop.dll files e.g. Aspose.Cells.dll and Aspose.Cells.Interop.dll.**
+##### **1. Register both DLL and Interop DLL files (e.g., Aspose.Cells.dll and Aspose.Cells.Interop.dll).**
 
 {{< highlight java >}}
-
- Register both dll and interop.dll files e.g. Aspose.Cells.dll and Aspose.Cells.Interop.dll.
+Register both DLL and Interop DLL files e.g. Aspose.Cells.dll and Aspose.Cells.Interop.dll.
 
 C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.dll /codebase
 
@@ -72,79 +71,67 @@ Copyright (C) Microsoft Corporation 1998-2004. All rights reserved.
 Types registered successfully
 
 C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Interop.dll /codebase
-
 {{< /highlight >}}
 
-##### **2. Enable COM and DOTNET Extensions in PHP.**
+##### **2. Enable COM and .NET Extensions in PHP.**
 
-In IIS open PHP Manager and then Click ‘Enable to Disable and Extension‘. Find php_com_dotnet.dll and make sure it is enabled.
+In IIS, open PHP Manager and then click **Enable/Disable Extension**. Find `php_com_dotnet.dll` and make sure it is enabled.
 
 ##### **3. Configure Aspose.Cells .NET for PHP Examples**
 
 ###### **Method 1**
 
-Clone PHP Examples from [github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
-and run the following command
+Clone PHP examples from [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP) and run the following command:
 
 {{< highlight java >}}
-
- composer install
-
+composer install
 {{< /highlight >}}
 
 ###### **Method 2**
 
-In your PHP Project's composer.json file add following lines
+In your PHP project's `composer.json` file, add the following lines:
 
 {{< highlight java >}}
-
- {
-
+{
     "require": {
-
         "aspose-cells/Aspose.Cells-for-.NET_for_php": "dev-master"
-
     }
-
 }
-
 {{< /highlight >}}
 
-and run the install command
+and run the install command:
 
 {{< highlight java >}}
-
- composer install
-
+composer install
 {{< /highlight >}}
 
-To read about composer visit <https://getcomposer.org/>
+To read about Composer, visit <https://getcomposer.org/>
 
-### **Support Extend and Contribute**
+### **Support, Extend and Contribute**
 
 #### **Support**
 
-From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
+From the very first days of Aspose, we knew that merely providing good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
 
-This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
+This is why we offer free support. Anyone who uses our product, whether they have bought it or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose.Cells .NET for PHP using any of the following platforms:
+You can log any issues or suggestions related to Aspose.Cells .NET for PHP using any of the following platforms:
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 #### **Extend and Contribute**
 
-Aspose.Cells .NET for PHP is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
+Aspose.Cells .NET for PHP is open source, and its source code is available on major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new features or improving the existing ones, so that others can also benefit from it.
 
 #### **Source Code**
 
-You can get the latest source code from one of the following locations
+You can get the latest source code from one of the following locations:
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 ## **Sample Code Examples**
 
-This section includes the following topics
+This section includes the following topics:
 
 - [PHP Programmers Guide](/cells/net/php-programmers-guide/)
   - [Working With Files in PHP](/cells/net/working-with-files-in-php/)

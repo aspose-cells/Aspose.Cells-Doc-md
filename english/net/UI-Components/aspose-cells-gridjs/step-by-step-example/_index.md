@@ -32,10 +32,10 @@ You will create a **.NET 6 MVC** application, configure the Aspose.Cells.GridJ
 | Item | Version | How to obtain |
 |------|---------|----------------|
 | .NET SDK | 6.0 or later | <https://dotnet.microsoft.com/download> |
-| Aspose.Cells | 25.\* (NuGet) | `dotnet add package Aspose.Cells --version 25.*` |
-| Aspose.Cells.GridJs | 25.\* (NuGet) | `dotnet add package Aspose.Cells.GridJs --version 25.*` |
+| Aspose.Cells | 25.* (NuGet) | `dotnet add package Aspose.Cells --version 25.*` |
+| Aspose.Cells.GridJs | 25.* (NuGet) | `dotnet add package Aspose.Cells.GridJs --version 25.*` |
 | Newtonsoft.Json | 13.0.1 (NuGet) | `dotnet add package Newtonsoft.Json --version 13.0.1` |
-| jQuery, jQuery‑UI, JSZip | specific versions listed in the requirement | CDN links are used in the HTML sample |
+| jQuery, jQuery‑UI, JSZip | specific versions listed in the requirements | CDN links are used in the HTML sample |
 
 ## Create a .NET 6 MVC Project
 
@@ -364,7 +364,7 @@ function loadWithOption(jsondata) {
     // ----------------------------------------------------------------
     // 5️⃣ Register image‑related and download URLs
     // ----------------------------------------------------------------
-    xs.setImageInfo(imageUrl, imageUploadUrl1, imageUploadUrl2, imageCopyUrl, 1000,"/image/loading.gif");
+    xs.setImageInfo(imageUrl, imageUploadUrl1, imageUploadUrl2, imageCopyUrl, 1000, "/image/loading.gif");
     xs.setFileDownloadInfo(fileDownloadUrl);
     xs.setOleDownloadInfo(oleDownloadUrl);
     xs.setOpenFileUrl("/GridJs/Index"); // URL to reopen the demo page
@@ -402,8 +402,6 @@ function loadWithOption(jsondata) {
 - **Large files** – GridJs converts the workbook to JSON in memory; for very large files consider increasing the server memory limit or using pagination features of the library.  
 {{% /alert %}}
 
-
-
 ## Demo and Source Code
 
 The complete source code for this tutorial is available in the official Aspose.Cells.GridJs GitHub repository:
@@ -415,7 +413,3 @@ The complete source code for this tutorial is available in the official Aspose.C
 * **GridJs Server API** – <https://reference.aspose.com/cells/net/aspose.cells.gridjs>  
 * **GridJs Client API** – <https://docs.aspose.com/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/>
 * **GridJs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
- 
-
-
----

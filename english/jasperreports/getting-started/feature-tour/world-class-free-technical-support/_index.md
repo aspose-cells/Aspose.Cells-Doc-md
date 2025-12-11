@@ -8,16 +8,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-
 Aspose is renowned for its free and unlimited technical support provided directly by the developers of the products. If a new version of a product is available, or if resolving a question results in a fix, all new releases are free if you have an active subscription.
-
 {{% /alert %}}
 
 ### **Getting Support**
 
 #### **Forums**
 
-[Aspose's Support Forums](https://forum.aspose.com/) is the place not only to resolve technical issues, but to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
+[Aspose's Support Forums](https://forum.aspose.com/) are the place not only to resolve technical issues but also to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
 
 #### **Blogs**
 
@@ -25,4 +23,4 @@ Aspose is renowned for its free and unlimited technical support provided directl
 
 #### **Need more support?**
 
-Aspose offers free support to all users. For companies want that their issue will get prioritized, or who want to influence our product development road map, there are [advanced support options](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) like Priority Support and Enterprise Support.
+Aspose offers free support to all users. For companies that want their issues to be prioritized, or who want to influence our product development roadmap, there are [advanced support options](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) such as Priority Support and Enterprise Support.

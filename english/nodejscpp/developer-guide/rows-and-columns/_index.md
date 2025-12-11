@@ -4,14 +4,14 @@ linktitle: Rows and Columns
 type: docs  
 weight: 100  
 url: /nodejs-cpp/adjusting-row-height-and-column-width/  
-description: Aspose.Cells for Node.js via C++ can support change row height or column width, as well as apply formatting on rows or columns.  
+description: Aspose.Cells for Node.js via C++ can support changing row height or column width, as well as applying formatting on rows or columns.  
 keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
-When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells, developers can perform these operations at runtime.  
+When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or the width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells, developers can perform these operations at runtime.  
 {{% /alert %}}  
 
 ## **Working with Rows**  
@@ -24,49 +24,53 @@ The [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection 
 
 ### **How to Set the Height of a Row**  
 
-It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method. The [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method takes the following parameters as follows:
+It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method. The [**setRowHeight(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setRowHeight-number-number-) method takes the following parameters:  
 
-- **Row index**, the index of the row that you're changing the height of.  
-- **Row height**, the row height to apply on the row.
+- **Row index** – the index of the row that you're changing the height of.  
+- **Row height** – the row height to apply to the row.  
 
 ```javascript
 try {
-const path = require("path");
-const fs = require("fs");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const fs = require("fs");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xls");
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    const filePath = path.join(dataDir, "book1.xls");
+    // Creating a file stream containing the Excel file to be opened
+    const fstream = fs.createReadStream(filePath);
 
-// Reading the file stream into a buffer
-const chunks = [];
-fstream.on('data', chunk => chunks.push(chunk));
-fstream.on('end', () => {
-const buffer = Buffer.concat(chunks);
+    // Reading the file stream into a buffer
+    const chunks = [];
+    fstream.on('data', chunk => chunks.push(chunk));
+    fstream.on('end', () => {
+        const buffer = Buffer.concat(chunks);
 
-// Instantiating a Workbook object
-// Opening the Excel file through the file stream
-const workbook = new AsposeCells.Workbook(buffer);
+        // Instantiating a Workbook object
+        // Opening the Excel file through the file stream
+        const workbook = new AsposeCells.Workbook(buffer);
 
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
+        // Accessing the first worksheet in the Excel file
+        const worksheet = workbook.getWorksheets().get(0);
 
-// Setting the height of the second row to 13
-worksheet.getCells().setRowHeight(1, 13);
+        // Setting the height of the second row to 13
+        worksheet.getCells().setRowHeight(1, 13);
 
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "output.out.xls"));
+        // Saving the modified Excel file
+        workbook.save(path.join(dataDir, "output.out.xls"));
 
-// Closing the file stream to free all resources
-fstream.close();
+        // Closing the file stream to free all resources
+        fstream.close();
+    });
+} catch (e) {
+    console.error(e);
+}
 ```  
 
 ### **How to Set the Height of All Rows in a Worksheet**  
 
-If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**getStandardHeight()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getStandardHeight--) property of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
+If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**setStandardHeight()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setStandardHeight-number-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
 
 **Example:**  
 
@@ -95,10 +99,9 @@ worksheet.getCells().setStandardHeight(15);
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
 
-// Closing the file stream to free all resources
-// (Note: Closing the file stream is unnecessary in this context as it's a 
+// Note: Closing the file stream is unnecessary in this context as it's a
 // synchronous read performed using fs.readFileSync, which does not require
-// explicit closure, but if using fs.createReadStream, you would handle it accordingly)
+// explicit closure. If using fs.createReadStream, you would handle it accordingly.
 ```  
 
 ## **Working with Columns**  
@@ -107,8 +110,8 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 
 Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidth(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidth-number-number-) method. The [**setColumnWidth(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidth-number-number-) method takes the following parameters:  
 
-- **Column index**, the index of the column that you're changing the width of.  
-- **Column width**, the desired column width.  
+- **Column index** – the index of the column that you're changing the width of.  
+- **Column width** – the desired column width.  
 
 ```javascript
 const fs = require("fs");
@@ -135,16 +138,15 @@ worksheet.getCells().setColumnWidth(1, 17.5);
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
 
-// Closing the file stream to free all resources
-fstream; // Note: No explicit close needed for fs.readFileSync
+// No explicit close needed for fs.readFileSync
 ```  
 
 ### **How to Set Column Width in Pixels**  
 
 Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**setColumnWidthPixel(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidthPixel-number-number-) method. The [**setColumnWidthPixel(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setColumnWidthPixel-number-number-) method takes the following parameters:  
 
-- **Column index**, the index of the column that you're changing the width of.  
-- **Column width**, the desired column width in pixels.  
+- **Column index** – the index of the column that you're changing the width of.  
+- **Column width** – the desired column width in pixels.  
 
 ```javascript
 const path = require("path");
@@ -168,7 +170,7 @@ workbook.save(path.join(outDir, "SetColumnWidthInPixels_Out.xlsx"));
 
 ### **How to Set the Width of All Columns in a Worksheet**  
 
-To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**getStandardWidth()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#getStandardWidth--) property.  
+To set the same column width for all columns in the worksheet, use the [**setStandardWidth()**](https://reference.aspose.com/cells/nodejs-cpp/cells/#setStandardWidth-number-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection.  
 
 ```javascript
 const path = require("path");
@@ -194,11 +196,10 @@ worksheet.getCells().setStandardWidth(20.5);
 // Saving the modified Excel file
 workbook.save(path.join(dataDir, "output.out.xls"));
 
-// Closing the file stream to free all resources
 // No explicit close needed in Node.js
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [AutoFit Rows and Columns](/cells/nodejs-cpp/autofit-rows-and-columns/)  
 - [Convert Text to Columns using Aspose.Cells](/cells/nodejs-cpp/convert-text-to-columns-using-aspose-cells/)  
 - [Copying Rows and Columns](/cells/nodejs-cpp/copying-rows-and-columns/)  
@@ -209,5 +210,5 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 - [Inserting and Deleting Rows and Columns of Excel file](/cells/nodejs-cpp/inserting-and-deleting-rows-and-columns/)  
 - [Remove duplicate rows in a Worksheet](/cells/nodejs-cpp/remove-duplicate-rows-in-a-worksheet/)  
 - [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/nodejs-cpp/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -3,8 +3,8 @@ title: Hiding the Display of Zero Values in the Worksheet
 type: docs
 weight: 50
 url: /python-net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: This article will show you sample code explaining how to programmatically hide the zero values in an Excel spreadsheet using the Aspose.Cells for Python via .NET API.
-keywords: Python Excel Library, Python hide zero values of excel worksheet, Python Hide the Display of Zero Values in the Worksheet.
+description: This article will show you sample code explaining how to programmatically hide zero values in an Excel spreadsheet using the Aspose.Cells for Python via .NET API.
+keywords: Python Excel Library, Python hide zero values of Excel worksheet, Python Hide the Display of Zero Values in the Worksheet.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -17,11 +17,11 @@ Sometimes, you need to hide zero values in a spreadsheet. It might be a personal
 
 ## **How to Hide Zero Values in Excel**
 
-To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Excel 2003):
+To hide zero values in a worksheet in Microsoft Excel (for example, Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**, and then select the **View** tab.
-1. Deselect the **Zero values** option.
-1. Click **OK**.
+2. Deselect the **Zero values** option.
+3. Click **OK**.
 
 ## **How to Hide Zero Values with Aspose.Cells for Python Excel Library**
 

@@ -9,7 +9,7 @@ description: Eliminate Downlevel Revealed Comments while saving Excel files to H
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, Aspose.Cells reveals Downlevel Conditional Comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern Web Browsers. You can read about them in detail at the following link.
+When you save your Excel file to HTML, Aspose.Cells reveals Downlevel Conditional Comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern web browsers. You can read about them in detail at the following link.
 
 - [Conditional comment - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 

@@ -1,27 +1,27 @@
----
-title: Password Protect or Unprotect the Shared Workbook with C++
-linktitle: Password Protect or Unprotect the Shared Workbook
-type: docs
-weight: 10
-url: /cpp/password-protect-or-unprotect-the-shared-workbook/
-description: Learn how to password protect or unprotect a shared workbook using Aspose.Cells for C++.
+---  
+title: Password Protect or Unprotect the Shared Workbook with C++  
+linktitle: Password Protect or Unprotect the Shared Workbook  
+type: docs  
+weight: 10  
+url: /cpp/password-protect-or-unprotect-the-shared-workbook/  
+description: Learn how to password protect or unprotect a shared workbook using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the [**Workbook::ProtectSharedWorkbook()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/protectsharedworkbook/) and [**Workbook::UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/unprotectsharedworkbook/) methods.
+You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the [**Workbook::ProtectSharedWorkbook()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/protectsharedworkbook/) and [**Workbook::UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/unprotectsharedworkbook/) methods.  
 
-![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)  
 
-## **Password Protect or Unprotect the Shared Workbook**
+## **Password Protect or Unprotect the Shared Workbook**  
 
-The following sample code creates a workbook and protects it while enabling sharing and saves it as [output Excel file](55541777.xlsx). The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.
+The following sample code creates a workbook, protects it while enabling sharing, and saves it as the [output Excel file](55541777.xlsx). The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.  
 
-![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```c++
 #include <iostream>

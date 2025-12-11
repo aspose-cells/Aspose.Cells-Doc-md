@@ -18,11 +18,11 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 **![protect and unprotect workbook structure](protect-and-unprotect-workbook-structure.png)**
 
 1. Click **Review > Protect Workbook**.
-1. Enter a password in **the Password box**.
-1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
+2. Enter a password in **the Password box**.
+3. Select **OK**, re‑enter the password to confirm it, and then select **OK** again.
 
 ## **Protect Workbook Structure Using Aspose.Cells for C++**
-Only need the following simple lines of code to implement protecting workbook structure of Excel files.
+You only need the following simple lines of code to implement protecting the workbook structure of Excel files.
 
 ```c++
 #include <iostream>
@@ -49,7 +49,7 @@ int main()
 ```
 
 ## **Unprotect Workbook Structure Using Aspose.Cells for C++**
-Unprotecting workbook structure is easy with Aspose.Cells API.
+Unprotecting workbook structure is easy with the Aspose.Cells API.
 
 ```c++
 #include <iostream>
@@ -61,14 +61,14 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Open an Excel file which workbook structure is protected.
+    // Open an Excel file whose workbook structure is protected.
     U16String inputFilePath = u"Book1.xlsx";
     Workbook workbook(inputFilePath);
 
     // Unprotect workbook structure.
     workbook.Unprotect(u"password");
 
-    // Save Excel file.
+    // Save the Excel file.
     workbook.Save(inputFilePath);
 
     std::cout << "Workbook structure unprotected and saved successfully!" << std::endl;

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**  
 
-Microsoft Excel files may contain many unused styles. When you export the Excel file to HTML format, these unused styles are also exported. This can increase the size of the HTML. You can exclude the unused styles during the conversion of Excel files to HTML using the [**HtmlSaveOptions.getExcludeUnusedStyles()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExcludeUnusedStyles--) property. When you set it **true**, all unused styles are excluded from the output HTML. The following screenshot displays a sample unused style inside the output HTML.  
+Microsoft Excel files may contain many unused styles. When you export the Excel file to HTML format, these unused styles are also exported. This can increase the size of the HTML. You can exclude the unused styles during the conversion of Excel files to HTML using the [**HtmlSaveOptions.getExcludeUnusedStyles()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getExcludeUnusedStyles--) property. When you set it **to true**, all unused styles are excluded from the output HTML. The following screenshot displays a sample unused style inside the output HTML.  
 
 ![todo:image_alt_text](exclude-unused-styles-during-excel-to-html-conversion_1.png)  
 
@@ -40,14 +40,14 @@ const ws = wb.getWorksheets().get(0);
 // Put some value in cell C7
 ws.getCells().get("C7").putValue("This is sample text.");
 
-// Specify html save options, we want to exclude unused styles
+// Specify HTML save options; we want to exclude unused styles
 const opts = new AsposeCells.HtmlSaveOptions();
 
 // Comment this line to include unused styles
 opts.setExcludeUnusedStyles(true);
 
-// Save the workbook in html format
+// Save the workbook in HTML format
 wb.save("outputExcludeUnusedStylesInExcelToHTML.html", opts);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

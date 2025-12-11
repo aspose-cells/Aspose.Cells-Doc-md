@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Scroll bars are very used to navigate the contents of any file. Normally, there are two kinds of scroll bars:
+Scroll bars are widely used to navigate the contents of any file. Normally, there are two kinds of scroll bars:
 
 - Vertical scroll bars
 - Horizontal scroll bars
@@ -18,11 +18,11 @@ Microsoft Excel also provides horizontal and vertical scroll bars so that users 
 
 {{% /alert %}}
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) class' [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) properties. [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) are Boolean properties, which means that these properties can only store **true** or **false** values.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) class's [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) properties. [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) are Boolean properties, which means that these properties can only store **true** or **false** values.
 
-Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls .
+Below is complete code that opens an Excel file, book1.xls, hides both scroll bars, and then saves the modified file as output.xls.
 
-The screenshot below shows Book1.xls file containing both scroll bars. The modified file is saved as output.xls file, also shown below.
+The screenshot below shows Book1.xls file containing both scroll bars. The modified file is saved as output.xls, also shown below.
 
 **Book1.xls: Excel file before any modification**
 

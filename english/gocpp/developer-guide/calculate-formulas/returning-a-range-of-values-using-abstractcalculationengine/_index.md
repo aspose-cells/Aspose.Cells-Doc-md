@@ -10,15 +10,15 @@ url: /go-cpp/returning-a-range-of-values-using-abstractcalculationengine/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/) class which is used to implement user-defined or custom functions that are not supported by Microsoft Excel as built-in functions.
+Aspose.Cells provides **the AbstractCalculationEngine** class, which is used to implement user‑defined or custom functions that are not supported by Microsoft Excel as built‑in functions.
 
-This article will explain how to return the range of values from [**AbstractCalculationEngine**](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/).
+This article will explain how to return the range of values from **AbstractCalculationEngine**.
 
 {{% /alert %}}
 
-The following code demonstrates the use of the [**AbstractCalculationEngine**](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/) class and returns the range of values via its method.
+The following code demonstrates the use of the **AbstractCalculationEngine** class and returns a range of values via its method.
 
-Create a class with a function `CalculateCustomFunction`. This class implements [**AbstractCalculationEngine**](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/).
+Create a class with a function `CalculateCustomFunction`. This class implements **AbstractCalculationEngine**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReturningARangeOfValuesUsingAbstractcalculationengine.go" >}}
 Now use the above function in your program.

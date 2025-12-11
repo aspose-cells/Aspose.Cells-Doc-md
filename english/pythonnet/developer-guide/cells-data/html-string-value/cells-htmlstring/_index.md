@@ -3,23 +3,23 @@ title: Manage Cells Html String
 type: docs
 weight: 600
 url: /python-net/manage-cells-html-string/
-description: Learn how to Manage Cells Html String through the Aspose.Cells for Python via .NET API.
+description: Learn how to manage cells HTML string through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Add HTML String inside the Cell, Python Set HTML String inside the Cell, Python Add HTML String, Get HTML String of Cell in Python, Python Manage Cells Html String.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you need to set styled data for specific Cell, you can assign a html string to the Cell. Of course, you can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to set styled data for a specific cell, you can assign an HTML string to the cell. Of course, you can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 - [**Cell.html_string**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/html_string/)
 
-## **Get and set html string using Aspose.Cells for Python excel library**
+## **Get and set HTML string using Aspose.Cells for Python Excel library**
 This example shows how to:
 
-1. Create a workbook and add some data.
-1. Get the specific Cell in the first worksheet.
-1. Set html string to the Cell.
-1. Get html string of the Cell.
+1. Create a workbook and add some data.  
+2. Get the specific cell in the first worksheet.  
+3. Set the HTML string to the cell.  
+4. Get the HTML string of the cell.  
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-HtmlStringValue-get-htmlstring.py" >}}
 

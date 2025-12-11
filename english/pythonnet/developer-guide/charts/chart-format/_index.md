@@ -11,15 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Chart Appearance**
-In How to Create a Chart we gave a brief introduction to the types of charts and charting objects offered by Aspose.Cells for Python via .NET, and described how to create one. This article discusses how to customize the appearance of charts by setting their properties:
+In *How to Create a Chart* we gave a brief introduction to the types of charts and charting objects offered by Aspose.Cells for Python via .NET, and described how to create one. This article discusses how to customize the appearance of charts by setting their properties:
 
 - Setting the chart area.
 - Setting chart lines.
 - Applying themes.
-- Setting titles to charts and axes.
+- Setting titles for charts and axes.
 - Working with gridlines.
+
 ### **Setting Chart Area**
-There are different kinds of areas in a chart and Aspose.Cells for Python via .NET provides the flexibility to modify the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color, and fill format etc.
+There are different kinds of areas in a chart, and Aspose.Cells for Python via .NET provides the flexibility to modify the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color, and fill format, etc.
 
 In the example given below, we have applied different formatting settings on different kinds of areas of a chart. These areas include:
 
@@ -30,13 +31,10 @@ In the example given below, we have applied different formatting settings on dif
 
 The following code snippet demonstrates how to set the chart area.
 
-
-
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SettingChartsAppearance-SettingChartArea-1.py" >}}
 
 ### **Setting Chart Lines**
-Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/python-net/aspose.cells.charts/seriescollection). The following code snippet demonstrates how to set chart lines using Aspose.Cells for Python via .NET API.
-
+Developers can also apply different kinds of styles to the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/python-net/aspose.cells.charts/seriescollection). The following code snippet demonstrates how to set chart lines using the Aspose.Cells for Python via .NET API.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SettingChartsAppearance-SettingChartLines-1.py" >}}
 
@@ -58,19 +56,18 @@ It is possible to customize the look of major gridlines. Hide or show gridlines,
 #### **Hiding Major Gridlines**
 Developers can control the visibility of major gridlines by setting the [is_visible](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/line/is_visible) property of the [Line](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/line) object to **true** or **false**.
 
-The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart will be added to the worksheet will have not gridlines.
+The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart added to the worksheet will not have gridlines.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SettingChartsAppearance-MajorGridlines-1.py" >}}
 
 #### **Changing Major Gridlines Settings**
-Developers cannot only control the visibility of major gridlines but also other properties including its color etc.
+Developers can not only control the visibility of major gridlines but also other properties, including its color, etc.
 
 The following code snippet demonstrates how to change the major gridlines' color. After setting the color of the major gridlines, a column chart will be added to the worksheet with modified gridlines.
 
-
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-SettingChartsAppearance-ChangingMajorGridlines-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Set the Values Format Code of Chart Series](/cells/python-net/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/python-net/set-picture-as-background-fill-in-the-chart/)
 {{< app/cells/assistant language="python-net" >}}

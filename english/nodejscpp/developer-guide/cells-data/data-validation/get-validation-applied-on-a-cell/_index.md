@@ -11,15 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells for Node.js to get the validation applied to a cell. Aspose.Cells provides the [**Cell.getValidation()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getValidation--) method for this purpose. If there is no validation applied on the cell, it returns null.
+You can use Aspose.Cells for Node.js to get the validation applied to a cell. Aspose.Cells provides the [**Cell.getValidation()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getValidation--) method for this purpose. If there is no validation applied **to** the cell, it returns null.
 
 Similarly, you can use [**Worksheet.validations.getValidationInCell(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/validationcollection/#getValidationInCell-number-number-) method to acquire the validation applied to a cell by providing its row and column indices.
 
 {{% /alert %}}
 
-## Node.js code to get the validation applied on a Cell
+## Node.js code to get the validation applied **to** a Cell
 
-Below code sample shows you how to get validation applied on a cell.
+Below code sample shows how to get validation applied to a cell.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-DataValidation-ReadingValidationPropertiesOfCell.js" >}}
 

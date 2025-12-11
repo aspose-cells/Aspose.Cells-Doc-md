@@ -4,7 +4,7 @@ linktitle: Get Max Range In A Worksheet
 type: docs
 weight: 360
 url: /go-cpp/get-max-range-in-a-worksheet/
-description: This article describes how to get the max range, max data range, max display range of Excel files with Aspose.Cells for C++ library.
+description: This article describes how to get the max range, max data range, and max display range of Excel files with Aspose.Cells for C++ library.
 ---
 
 {{% alert color="primary" %}} 
@@ -20,17 +20,16 @@ Aspose.Cells for C++ contains different ways to find the max range in a workshee
 {{% /alert %}} 
 
 ## **Getting max range**
-In Aspose.Cells, if the [**Row**](https://reference.aspose.com/cells/go-cpp/row/) and [**Column**](https://reference.aspose.com/cells/cpp/aspose.cells/column/) objects are initialized, these rows and columns will be counted to the maximum area, even if there is no data in empty rows or columns.
+In Aspose.Cells, if the [**Row**](https://reference.aspose.com/cells/go-cpp/row/) and [**Column**](https://reference.aspose.com/cells/cpp/aspose.cells/column/) objects are initialized, these rows and columns will be counted towards the maximum area, even if they are empty.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetMaxRange.go" >}}
 ## **Getting max data range**
-In most cases, we only need to obtain all the ranges containing all the data, even if the empty cells outside the range are formatted.
-And the settings about shapes, tables, and pivot tables will be ignored.
+In most cases, we only need to obtain the range that contains all the data, even if empty cells outside the range are formatted. Settings related to shapes, tables, and pivot tables are ignored.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetMaxRange-1.go" >}}
 ## **Getting max display range**
 When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables.
-The following codes show how to render the max display range to HTML:
+The following code shows how to render the max display range to HTML:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-GetMaxRange-2.go" >}}
-Here is [source excel file](Book1.xlsx).
+Here is the source Excel file.

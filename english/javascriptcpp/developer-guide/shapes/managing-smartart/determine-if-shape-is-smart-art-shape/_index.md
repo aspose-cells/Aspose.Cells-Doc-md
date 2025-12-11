@@ -9,11 +9,11 @@ description: Learn how to determine if a shape in Excel is a Smart Art shape usi
 
 ## **Possible Usage Scenarios**  
 
-Smart Art Shapes are special shapes in Microsoft Excel that allow you to create complex diagrams automatically. You can find if the shape is a smart art shape or normal shape using [**Shape.isSmartArt()**](https://reference.aspose.com/cells/javascript-cpp/shape/#isSmartArt--) property.  
+SmartArt shapes are special shapes in Microsoft Excel that allow you to create complex diagrams automatically. You can determine whether a shape is a SmartArt shape or a normal shape using the **Shape.isSmartArt()** property.  
 
-## **Determine if Shape is Smart Art Shape**  
+## **Determine if Shape is SmartArt Shape**  
 
-The following sample code loads the [sample Excel file](55541792.xlsx) containing a smart art shape as shown in this screenshot. It then prints the value of [**Shape.isSmartArt()**](https://reference.aspose.com/cells/javascript-cpp/shape/#isSmartArt--) property of the first shape. Please see the console output of the sample code given below.  
+The following sample code loads the [sample Excel file](55541792.xlsx) containing a SmartArt shape, as shown in this screenshot. It then prints the value of the **Shape.isSmartArt()** property of the first shape. Please see the console output of the sample code given below.  
 
 ![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)  
 
@@ -67,7 +67,7 @@ The following sample code loads the [sample Excel file](55541792.xlsx) containin
             // Accessing the first shape
             const shape = worksheet.shapes.get(0);
             
-            // Determine if shape is smart art (converted to property access)
+            // Determine if shape is SmartArt (converted to property access)
             const isSmartArt = shape.isSmartArt;
             
             document.getElementById('result').innerHTML = `<p>Is Smart Art Shape: ${isSmartArt}</p>`;

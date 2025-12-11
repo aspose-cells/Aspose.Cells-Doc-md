@@ -1,5 +1,5 @@
 ---
-title: Code Comparison for common features with OpenXML
+title: Code Comparison for Common Features with OpenXML
 type: docs
 weight: 10
 url: /net/code-comparison-for-common-features-with-openxml/
@@ -18,7 +18,7 @@ This section includes the following topics
 - [Insert a new worksheet](/cells/net/insert-a-new-worksheet/)
 - [Insert text into a cell](/cells/net/insert-text-into-a-cell/)
 - [Merge two adjacent cells](/cells/net/merge-two-adjacent-cells/)
-- [Open a spreadsheet document for read-only access](/cells/net/open-a-spreadsheet-document-for-read-only-access/)
+- [Open a spreadsheet document for read‑only access](/cells/net/open-a-spreadsheet-document-for-read-only-access/)
 - [Open a spreadsheet document from a stream](/cells/net/open-a-spreadsheet-document-from-a-stream/)
 - [Retrieve a dictionary of all named ranges in a spreadsheet document](/cells/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/)
 - [Retrieve the values of cells](/cells/net/retrieve-the-values-of-cells/)

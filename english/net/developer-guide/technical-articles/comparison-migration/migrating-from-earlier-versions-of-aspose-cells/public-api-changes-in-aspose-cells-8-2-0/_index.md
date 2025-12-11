@@ -9,24 +9,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes changes to the Aspose.Cells API from version 8.1.2 to 8.2.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes changes to the Aspose.Cells API from version 8.1.2 to 8.2.0 that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
-## **Added MultiThreadReading Property for Cells Class**
-With Aspose.Cells for .NET 8.2.0, the MultiThreadReading property has been added to the Cells class in order to provide more robust mechanism to read cells values with multiple threads simultaneously. Setting the Boolean type property to true in the multi-threaded application makes sure that each thread will receive the correct cells value.
+
+## **Added MultiThreadReading Property for the Cells Class**
+With Aspose.Cells for .NET 8.2.0, the MultiThreadReading property has been added to the Cells class in order to provide a more robust mechanism to read cell values with multiple threads simultaneously. Setting the Boolean‑type property to true in a multi‑threaded application ensures that each thread will receive the correct cell value.
 
 {{% alert color="primary" %}} 
 
 Please check the detailed article on [Simultaneously Read Cells Values in Multi-Threaded Environment](http://aspose.com/docs/display/cellsnet/Reading+Cells+Values+in+Multiple+Threads+Simultaneously) for more information.
 
 {{% /alert %}}
+
 ## **Added Overloads for AutoFitRows & AutoFitColumns Methods**
-New overloads for AutoFitRows & AutoFitColumns have been added to the Worksheet class, allowing the developers to auto fit the rows & columns based on their respective ranges while passing an instance of the AutoFitterOptions class. 
+New overloads for AutoFitRows & AutoFitColumns have been added to the Worksheet class, allowing developers to auto‑fit the rows and columns based on their respective ranges while passing an instance of the AutoFitterOptions class. 
 
-The signatures of aforesaid methods are as follow:
+The signatures of the aforesaid methods are as follows:
 
-1. AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
-1. AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions options)
+1. AutoFitRows(int startRow, int endRow, AutoFitterOptions options)  
+2. AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions options)
 
 {{% alert color="primary" %}} 
 

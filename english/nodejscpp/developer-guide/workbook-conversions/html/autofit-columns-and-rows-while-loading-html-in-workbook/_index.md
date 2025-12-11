@@ -15,7 +15,7 @@ You can autofit columns and rows while loading your HTML file inside the Workboo
 
 ## **AutoFit Columns and Rows while loading HTML in Workbook**
 
-The following sample code first loads the sample HTML into Workbook without any load options and saves it in XLSX format. It then again loads the sample HTML into Workbook but this time, it loads the HTML after setting the [**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--) property to **true** and saves it in XLSX format. Please download both the output excel files i.e. [Output Excel File Without AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) and [Output Excel File With AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). The following screenshot shows the effect of [**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--) property on both output excel files.
+The following sample code first loads the sample HTML into the Workbook without any load options and saves it in XLSX format. It then loads the sample HTML into the Workbook again, this time after setting the [**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--) property to **true**, and saves it in XLSX format. Please download both the output Excel files, i.e., [Output Excel File Without AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) and [Output Excel File With AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). The following screenshot shows the effect of the [**HtmlLoadOptions.getAutoFitColsAndRows()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getAutoFitColsAndRows--) property on both output Excel files.
 
 ![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
@@ -25,7 +25,7 @@ The following sample code first loads the sample HTML into Workbook without any 
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
+// The path to the document directory.
 const dataDir = path.join(__dirname, "data");
 
 // Sample HTML.
@@ -37,17 +37,17 @@ const ms = Uint8Array.from(sampleHtml, c => c.charCodeAt(0));
 // Load memory stream into workbook.
 let wb = new AsposeCells.Workbook(ms);
 
-// Save the workbook in xlsx format.
+// Save the workbook in XLSX format.
 wb.save(path.join(dataDir, "outputWithout_AutoFitColsAndRows.xlsx"));
 
-// Specify the HTMLLoadOptions and set AutoFitColsAndRows = true.
+// Specify the HtmlLoadOptions and set AutoFitColsAndRows = true.
 const opts = new AsposeCells.HtmlLoadOptions();
 opts.setAutoFitColsAndRows(true);
 
-// Load memory stream into workbook with the above HTMLLoadOptions.
+// Load memory stream into workbook with the above HtmlLoadOptions.
 wb = new AsposeCells.Workbook(ms, opts);
 
-// Save the workbook in xlsx format.
+// Save the workbook in XLSX format.
 wb.save(path.join(dataDir, "outputWith_AutoFitColsAndRows.xlsx"));
 ```
 

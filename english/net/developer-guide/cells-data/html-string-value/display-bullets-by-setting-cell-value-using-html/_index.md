@@ -1,9 +1,9 @@
 ---
-title: Display Bullets by setting Cell Value using HTML
+title: Display Bullets by Setting Cell Value Using HTML
 type: docs
 weight: 130
 url: /net/display-bullets-by-setting-cell-value-using/
-description: Add bullets to Excel Cells using HTML and the easy to use Aspose.Cells for .NET API.
+description: Add bullets to Excel cells using HTML and the easy-to-use Aspose.Cells for .NET API.
 keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) property to set the cell value with our HTML.
+Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting a cell value using HTML. We will use the [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) property to set the cell value with our HTML.
 
 {{% /alert %}}
 
-## C# code to display Bullets by setting Cell value using HTML
+## C# code to display bullets by setting cell value using HTML
 
-The following code uses the HTML code to set the cell value. Once, you will run this code, you will get the output as shown in the image below.
+The following code uses HTML to set the cell value. Once you run this code, you will get the output shown in the image below.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 
@@ -25,5 +25,5 @@ The following code uses the HTML code to set the cell value. Once, you will run 
 
 The following screenshot shows the output of the above sample code.
 
-![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
+![Display bullets in cell using HTML](display-bullets-by-setting-cell-value-using-html_1.png)
 {{< app/cells/assistant language="csharp" >}}

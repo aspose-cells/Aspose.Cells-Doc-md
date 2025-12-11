@@ -24,7 +24,7 @@ It is also possible to format comments' appearance by configuring their height, 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CommentsAndNotes-1.go" >}}
 ## **Add an Image to Comment**
 
-With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (They suppose that you have already added a cell comment.)
+With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (It is assumed that you have already added a cell comment.)
 
 1. Right-click the cell that contains the comment.
 1. Select **Show/Hide Comments**, and clear any text from the comment.
@@ -39,7 +39,7 @@ With Microsoft Excel 2007, it is also possible to have an image as the backgroun
 Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CommentsAndNotes-2.go" >}}
-## **Advance topics**
+## **Advanced topics**
 - [Change Text Direction of the Comment](/cells/cpp/change-text-direction-of-the-comment/)
 - [How to change the Comment Font Color](/cells/cpp/how-to-change-the-comment-font-color/)
 - [How to set comment background](/cells/cpp/how-to-set-comment-background/)

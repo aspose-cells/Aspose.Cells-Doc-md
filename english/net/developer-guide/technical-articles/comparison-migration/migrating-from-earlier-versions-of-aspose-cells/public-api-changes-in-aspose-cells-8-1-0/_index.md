@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes changes to the Aspose.Cells API from version 8.0.2 to 8.1.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes changes to the Aspose.Cells API from version 8.0.2 to 8.1.0 that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added HtmlSaveOptions.ExportHiddenWorksheet Property**
-The HtmlSaveOptions class has exposed ExportHiddenWorksheet property which can be used to specify if hidden worksheets are exported to HTML format. The default value is true. whereas if set to false, the Aspose.Cells will not export hidden worksheet contents.
+The HtmlSaveOptions class has exposed the ExportHiddenWorksheet property which can be used to specify if hidden worksheets are exported to HTML format. The default value is true, whereas if set to false, Aspose.Cells will not export hidden worksheet contents.
 
 {{% alert color="primary" %}} 
 
@@ -21,9 +21,9 @@ Please check the detailed article on [Prevent Exporting Hidden Worksheet](/cells
 
 {{% /alert %}}
 ## **Added Cell.StringValueWithoutFormat Property**
-StringValueWithoutFormat property has been added to the Cell Class, in order to facilitate the developers to retrieve the cell value without any formatting applied.
+StringValueWithoutFormat property has been added to the Cell class, in order to facilitate developers retrieving the cell value without any formatting applied.
 
-Below provided code snippet demonstrate the usage of Cell.StringValueWithoutFormat property as compared to the cell.DisplayStringValue by creating a spreadsheet from scratch and applying the number format to one of the cells.
+Below provided code snippet demonstrates the usage of the Cell.StringValueWithoutFormat property compared to the cell.DisplayStringValue, by creating a spreadsheet from scratch and applying the number format to one of the cells.
 
 **C#**
 
@@ -73,13 +73,13 @@ Console.WriteLine(unformatted);
 
 {{% alert color="primary" %}} 
 
-Output of above code is as follow
+Output of the above code is as follows
 
 123,456
 
 123456
 
 {{% /alert %}}
-## **Obsoleted Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Properties**
-Many properties from BuiltInDocumentPropertyCollection class have been marked obsolete starting from Aspose.Cells for .NET 8.1.0. These properties include Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Reason being, the aforesaid properties are of no use in preservative of Excel spreadsheets because Excel omits them. Where as these properties were originally written for Word documents & PowerPoint presentations.
+## **Obsolete Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Properties**
+Many properties from BuiltInDocumentPropertyCollection class have been marked obsolete starting from Aspose.Cells for .NET 8.1.0. These properties include Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. The reason is that these properties are of no use in preserving Excel spreadsheets because Excel omits them. Whereas these properties were originally intended for Word documents and PowerPoint presentations.
 {{< app/cells/assistant language="csharp" >}}

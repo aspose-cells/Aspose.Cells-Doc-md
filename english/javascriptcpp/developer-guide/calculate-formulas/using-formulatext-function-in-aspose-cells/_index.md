@@ -1,20 +1,20 @@
----
-title: Using FormulaText function in Aspose.Cells for JavaScript via C++
-linktitle: Using FormulaText function in Aspose.Cells
-description: This article introduces how to use the FormulaText function in Aspose.Cells library to process formulas in Microsoft Excel. Learn to get and set the formula text of cells and save modified Excel files using JavaScript via C++.
-keywords: Aspose.Cells, Excel, FormulaText functions JavaScript via C++
-type: docs
-weight: 60
-url: /javascript-cpp/using-formulatext-function-in-aspose-cells/
----
+---  
+title: Using FormulaText function in Aspose.Cells for JavaScript via C++  
+linktitle: Using FormulaText function in Aspose.Cells  
+description: This article introduces how to use the FormulaText function in the Aspose.Cells library to process formulas in Microsoft Excel. Learn to get and set the formula text of cells and save modified Excel files using JavaScript via C++.  
+keywords: Aspose.Cells, Excel, FormulaText function, JavaScript via C++  
+type: docs  
+weight: 60  
+url: /javascript-cpp/using-formulatext-function-in-aspose-cells/  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-FormulaText is an Excel 2013 and later function. It is not supported by previous versions like Excel 2010 or 2007 etc. As its name suggests, it prints the text of the formula which is present in a given cell. This article will show you how to make use of this function using Aspose.Cells for JavaScript via C++.
+FormulaText is an Excel 2013 and later function. It is not supported by previous versions like Excel 2010 or 2007, etc. As its name suggests, it prints the text of the formula that is present in a given cell. This article will show you how to make use of this function using Aspose.Cells for JavaScript via C++.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-The following sample code shows the usage of FormulaText with Aspose.Cells for JavaScript via C++. The code first writes a formula in cell A1 and then prints the text of the formula using FormulaText in cell A2.
+The following sample code shows the usage of FormulaText with Aspose.Cells for JavaScript via C++. The code first writes a formula in cell A1 and then prints the text of the formula using FormulaText in cell A2.  
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ The following sample code shows the usage of FormulaText with Aspose.Cells for J
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Loads the workbook which contains hidden external links
+            // Loads the workbook
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Access first worksheet
@@ -74,19 +74,17 @@ The following sample code shows the usage of FormulaText with Aspose.Cells for J
             // Calculate the workbook
             workbook.calculateFormula();
 
-            // Print the results of A2, It will now print the text of the formula inside cell A1
+            // Print the results of A2; it will now print the text of the formula inside cell A1
             console.log(cellA2.stringValue);
 
             resultDiv.innerHTML = `<p style="color: green;">Operation completed successfully! Formula text: ${cellA2.stringValue}</p>`;
         });
     </script>
 </html>
-```
-## **Console Output**
+```  
 
+## **Console Output**  
 
-{{< highlight java >}}
-
- =SUM(B1:B10)
-
+{{< highlight java >}}  
+=SUM(B1:B10)  
 {{< /highlight >}}

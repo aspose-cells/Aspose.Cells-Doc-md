@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. **An** HTML link looks like this
 
 {{< highlight java >}}
 
@@ -28,7 +28,7 @@ As you can see the target attribute in the above HTML link is **_self**. You can
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**GetLinkTargetType()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getlinktargettype/) property. It changes the link target type to **blank**. By default, it is the **parent**.
+The following code illustrates the usage of [**GetLinkTargetType()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getlinktargettype/) property. It changes the link target type to **self**. By default, it is the **parent**.
 
 ```c++
 #include <iostream>

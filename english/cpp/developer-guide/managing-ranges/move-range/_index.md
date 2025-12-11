@@ -15,7 +15,7 @@ This article shows how to move a range of cells in a worksheet.
 
 {{% /alert %}}
 
-## **Move Range of Cells in a Worksheet**
+## **Move a Range of Cells in a Worksheet**
 The example code uses a template file to demonstrate the task.
 
 **The input file**

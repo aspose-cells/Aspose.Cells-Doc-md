@@ -1,13 +1,13 @@
----
-title: Get Connection Points from Shape with JavaScript via C++
-linktitle: Get Connection Points from Shape
-type: docs
-weight: 3500
-url: /javascript-cpp/get-connection-points-from-shape/
-description: Learn how to retrieve connection points from shapes in Excel using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Get Connection Points from Shape with JavaScript via C++  
+linktitle: Get Connection Points from Shape  
+type: docs  
+weight: 3500  
+url: /javascript-cpp/get-connection-points-from-shape/  
+description: Learn how to retrieve connection points from shapes in Excel using Aspose.Cells for JavaScript via C++.  
+---  
 
-Aspose.Cells provides rich features to manage shapes in the spreadsheet. Sometimes there is a need to get the connection points of a shape for aligning or placing the shapes at the appropriate place. For this purpose, all the connection points are required. The following code can be used to get the list of connection points of a shape by using the [**Shape.connectionPoints**](https://reference.aspose.com/cells/javascript-cpp/shape/#connectionPoints--) property.
+Aspose.Cells provides rich features to manage shapes in the spreadsheet. Occasionally, there is a need to obtain the connection points of a shape for aligning or placing shapes in the appropriate location. For this purpose, all the connection points are required. The following code can be used to get the list of connection points of a shape by using the [**Shape.connectionPoints**](https://reference.aspose.com/cells/javascript-cpp/shape/#connectionPoints--) property.  
 
 ```html
 <!DOCTYPE html>
@@ -62,13 +62,13 @@ Aspose.Cells provides rich features to manage shapes in the spreadsheet. Sometim
                 // Add a new textbox to the collection.
                 const textboxIndex = worksheet.textBoxes.add(2, 1, 160, 200);
 
-                // Access your text box which is also a shape object from shapes collection
+                // Access your text box, which is also a shape object in the shapes collection
                 const shape = newWorkbook.worksheets.get(0).shapes.get(0);
 
                 // Get all the connection points in this shape
                 const connectionPoints = shape.connectionPoints;
 
-                // Display all the shape points
+                // Display all the shape's points
                 let html = '<h2>Connection Points</h2><ul>';
                 connectionPoints.forEach(pt => {
                     const line = `X = ${pt[0]}, Y = ${pt[1]}`;

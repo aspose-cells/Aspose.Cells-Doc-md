@@ -10,7 +10,7 @@ url: /javascript-cpp/provide-exported-worksheet-html-file-path-via-ifilepathprov
 Suppose you have an Excel file with multiple sheets and you want to export each sheet to an individual HTML file. If any of your sheets have links to other sheets, then those links will be broken in the exported HTML. To deal with this problem, Aspose.Cells for JavaScript via C++ provides the [IFilePathProvider](https://reference.aspose.com/cells/javascript-cpp/ifilepathprovider) interface, which you can implement to fix the broken links.
 
 ## **Provide exported worksheet HTML file path via IFilePathProvider interface**
-Please download the [sample excel file](5115213.zip) used in the following code and its exported HTML files. All these files are inside the Temp directory. You should extract it on the C: drive. Then, it will become the C:\Temp directory. Then you will open the Sheet1.html file in the browser and click the two links inside it. These links refer to these two exported HTML worksheets which are inside the C:\Temp\OtherSheets directory.
+Please download the [sample Excel file](5115213.zip) used in the following code and its exported HTML files. All these files are inside the Temp directory. You should extract it to the C: drive. Then, it will become the C:\Temp directory. Then you will open the Sheet1.html file in the browser and click the two links inside it. These links refer to these two exported HTML worksheets which are inside the C:\Temp\OtherSheets directory.
 
 {{< highlight javascript >}}
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
@@ -18,20 +18,20 @@ Please download the [sample excel file](5115213.zip) used in the following code 
 file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 {{< /highlight >}}
 
-The following screenshot shows how the C:\Temp\Sheet1.html and its links look like
+The following screenshot shows how the C:\Temp\Sheet1.html and its links **look** like
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
-The following screenshot shows the HTML source. As you can see, the links are now referring to C:\Temp\OtherSheets directory. This was achieved using the [IFilePathProvider](https://reference.aspose.com/cells/javascript-cpp/ifilepathprovider) interface.
+The following screenshot shows the HTML source. As you can see, the links are now referring to the C:\Temp\OtherSheets directory. This was achieved using the [IFilePathProvider](https://reference.aspose.com/cells/javascript-cpp/ifilepathprovider) interface.
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 
 ## **Sample Code**
-Please note the C:\Temp directory is just for illustration purposes. You can use any directory of your choice and place the [sample excel file](5115211.xlsx) inside there and execute the provided sample code. It will then create an OtherSheets sub-directory inside your directory and export the second and third worksheets HTML inside it. Please change the dirPath variable inside the provided code and refer it to the directory of your choice before execution.
+Please note the C:\Temp directory is just for illustration purposes. You can use any directory of your choice and place the [sample Excel file](5115211.xlsx) inside there and execute the provided sample code. It will then create an OtherSheets sub‑directory inside your directory and export the second and third worksheets HTML inside it. Please change the `dirPath` variable inside the provided code and refer it to the directory of your choice before execution.
 
 {{% alert color="primary" %}} 
 
-The sample code will only work when you set the Aspose.Cells license. If you try to run the code without setting the license, it will go into an infinite loop. Therefore, we have added a check to print a message and stop execution when the license is not set. You can either purchase a license or request a 30-day temporary license from the Aspose.Purchase team.
+The sample code will only work when you set the Aspose.Cells license. If you try to run the code without setting the license, it will go into an infinite loop. Therefore, we have added a check to print a message and stop execution when the license is not set. You can either purchase a license or request a 30‑day temporary license from the Aspose.Purchase team.
 
 {{% /alert %}} 
 

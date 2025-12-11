@@ -37,10 +37,10 @@ Follow these steps directly in the GridJs spreadsheet UI.
 1. **Select a rectangular range** – click the first cell, drag to the last cell. 
    ![selection of cell range to merge](select-range.gif)
 
-2. **Click "Merge" icon in toolbar** – when icon is clicked, it toggles to "Un‑merge" if the selection is already merged.
+2. **Click "Merge" icon in toolbar** – when the icon is clicked, it toggles to "Un‑merge" if the selection is already merged.
    ![use merge icon to set merge](set-merge.gif)  
 
-3. **Click "Merge" icon to un‑merge** – if the selected range is merged, clicking the icon again will restore the individual cells.  
+3. **Click the "Merge" icon to un‑merge** – if the selected range is merged, clicking the icon again will restore the individual cells.  
    ![use merge icon to unmerge](set-unmerge.gif)  
 
 The spreadsheet automatically redraws the affected area, showing a single merged cell or the restored individual cells.
@@ -86,7 +86,5 @@ unmergeRange({sri:0, sci:0, eri:1, eci:1});
 | `xs.sheet.data.setRangeAttr(range, attr, value)` | Modifies an attribute of the currently selected range. For merging, set `attr` to `'merge'` and `value` to `true` (merge) or `false` (un‑merge). | `range` – **object** (contains `sri`, `sci`, `eri`, `eci` for start/end row/column).<br>`attr` – **string** (`'merge'` only).<br>`value` – **boolean** (`true` to merge, `false` to un‑merge). | `undefined` (grid refreshes automatically). |
 
 
-> **Tip** – The merge icon is toggleable. If the selected range is already merged, clicking it will un‑merge the cells.
+> **Tip** – The merge icon is toggleable. If the selected range is already merged, clicking it will un‑merge the cells.  
 > **For live demos and more examples, visit:** <https://github.com/aspose-cells/Aspose.Cells.Grid-for-Python-via-.NET/tree/main/Examples.GridJs>
-
-

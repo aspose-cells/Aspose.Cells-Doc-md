@@ -12,14 +12,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **How to set series invisible in Excel Chart**
 
-In an Excel chart, you can right-click a chart, click "Select Data", and in the pop-up window, set whether a series is visible by checking or unchecking it.
-You can download the following [sample file](SeriesFiltered.xlsx) and operate it in Excel as shown in the figure to achieve this function. Next, we will show you how to accomplish this using the Aspose.Cells for Python via .NET library.
+In an Excel chart, you can right‑click a chart, click **Select Data**, and in the pop‑up window set whether a series is visible by checking or unchecking it.  
+You can download the following [sample file](SeriesFiltered.xlsx) and open it in Excel as shown in the figure to achieve this function. Next, we will show you how to accomplish this using the Aspose.Cells for Python via .NET library.
 
 ![todo:image_alt_text](series-invisible.png)
 
 ## **How to set series invisible using Aspose.Cells**
 
-Use the following code to set series invisible using Aspose.Cells for Python via .NET:
+Use the following code to set a series invisible using Aspose.Cells for Python via .NET:
 
 ```python
 import os
@@ -47,8 +47,8 @@ n_series[0].is_filtered = True
 workbook.save(os.path.join(data_dir, "output.xlsx"))
 ```
 
-You can get the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
+You can download the following input file and output file.
 
-As shown in the figure below, the first two series which were originally visible have become invisible in the output file.
+As shown in the figure below, the first two series, which were originally visible, have become invisible in the output file.
 ![todo:image_alt_text](output.png)
 {{< app/cells/assistant language="python-net" >}}

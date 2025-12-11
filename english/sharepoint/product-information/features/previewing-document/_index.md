@@ -7,9 +7,9 @@ ai_search_scope: cells_sharepoint
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for Share Point supports previewing documents directly from SharePoint. The following formats support preview:
+Aspose.Cells for SharePoint supports previewing documents directly from SharePoint. The following formats support preview:
 
-- XLS – Microsoft Excel 97 - 2003
+- XLS – Microsoft Excel 97‑2003
 - XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
 - XML – Microsoft Excel SpreadsheetML
@@ -18,11 +18,6 @@ Aspose.Cells for Share Point supports previewing documents directly from SharePo
 
 ![todo:image_alt_text](previewing-document_1.png)
 
-
-
 **Document preview from within a SharePoint library** 
 
 ![todo:image_alt_text](previewing-document_2.png)
-
-
-

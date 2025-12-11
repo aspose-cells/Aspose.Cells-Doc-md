@@ -1,6 +1,6 @@
 ---  
-title: Show and Hide Rows Columns and Scroll Bars with Node.js via C++  
-linktitle: Show and Hide Rows Columns and Scroll Bars  
+title: Show and Hide Rows, Columns and Scroll Bars with Node.js via C++  
+linktitle: Show and Hide Rows, Columns and Scroll Bars  
 type: docs  
 weight: 20  
 url: /nodejs-cpp/show-and-hide-rows-columns-and-scroll-bars/  
@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Aspose.Cells provides ways to control the visibility of Rows, Column and Scroll Bars of a worksheet.  
+Aspose.Cells provides ways to control the visibility of rows, columns, and scroll bars of a worksheet.  
 {{% /alert %}}  
 
 ## **Show and Hide Rows and Columns**  
@@ -21,8 +21,8 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Developers can show any hidden row or column by calling the [**unhideRow(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideRow-number-number-) and [**unhideColumn(number, number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#unhideColumn-number-number-) methods of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection respectively. Both methods take two parameters:  
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.  
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.  
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.  
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.  
 
 ```javascript
 const path = require("path");
@@ -53,12 +53,12 @@ workbook.save(path.join(dataDir, "output.xls"));
 ```  
 
 {{% alert color="primary" %}}  
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: worksheet.Cells.unhideColumn(5, -1)  
+While making a hidden column visible, if you need to restore it to its previously assigned width or its original width, please unhide the column with a negative width. For example: `worksheet.getCells().unhideColumn(5, -1)`  
 {{% /alert %}}  
 
 ### **Hide Rows and Columns**  
 
-Developers can hide a row or column by calling the [**hideRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideRow-number-) and [**hideColumn(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideColumn-number-) methods of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.  
+Developers can hide a row or column by calling the [**hideRow(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideRow-number-) and [**hideColumn(number)**](https://reference.aspose.com/cells/nodejs-cpp/cells/#hideColumn-number-) methods of the [**getCells()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection respectively. Both methods take the row or column index as a parameter to hide the specific row or column.  
 
 ```javascript
 const path = require("path");
@@ -82,7 +82,7 @@ workbook.save(path.join(dataDir, "output.out.xls"));
 ```  
 
 {{% alert color="primary" %}}  
-It is also possible to hide a row or column by setting the row height or column width to 0 respectively.  
+It is also possible to hide a row or column by setting the row height or column width to 0, respectively.  
 {{% /alert %}}  
 
 ### **Hide Multiple Rows and Columns**  
@@ -114,14 +114,14 @@ worksheet.getCells().hideRows(2, 3);
 worksheet.getCells().hideColumns(1, 2);
 
 // Saving the modified Excel file
-workbook.save(path.join(dataDir, "outputxls"));
+workbook.save(path.join(dataDir, "output.xls"));
 
-// No explicit close needed for file stream as we're working with in-memory data
+// No explicit close needed for file stream as we're working with in‑memory data
 ```  
 
 ## **Show and Hide Scroll Bars**  
 
-Scroll bars are used to navigate the contents of any file. Normally, there are two kinds of scroll bars:  
+Scroll bars are used to navigate the contents of a worksheet. Normally, there are two kinds of scroll bars:  
 
 - Vertical scroll bars  
 - Horizontal scroll bars  
@@ -130,19 +130,19 @@ Microsoft Excel also provides horizontal and vertical scroll bars so that users 
 
 ### **Controlling the Visibility of Scroll Bars**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--) and [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--) properties. [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--) and [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--) are Boolean properties, which means that these properties can only store **true** or **false** values.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--) and [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--) properties. Both are Boolean properties, which means they can store only **true** or **false** values.  
 
 #### **Making Scroll Bars Visible**  
 
-Make scroll bars visible by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--) or [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--) property to **true**.  
+Make scroll bars visible by setting the **Workbook** class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **true**.  
 
 #### **Hiding Scroll Bars**  
 
-Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--) or [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--) property to **false**.  
+Hide scroll bars by setting the **Workbook** class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **false**.  
 
 **Sample Code**  
 
-Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls.  
+Below is a complete code that opens an Excel file, *book1.xls*, hides both scroll bars, and then saves the modified file as *output.xls*.  
 
 ```javascript
 const fs = require("fs");

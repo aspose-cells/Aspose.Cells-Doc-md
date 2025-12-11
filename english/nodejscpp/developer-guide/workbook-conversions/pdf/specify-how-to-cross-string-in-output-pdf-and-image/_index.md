@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When a cell contains text or a string but it is larger than the width of the cell, then the string overflows if the next cell in the next column is null or empty. When you save your Excel file into PDF/Image, you can control this overflow by specifying the cross type using the [**TextCrossType**](https://reference.aspose.com/cells/nodejs-cpp/textcrosstype) enumeration. It has the following values:
+When a cell contains text or a string that is larger than the width of the cell, the string overflows if the next cell in the next column is null or empty. When you save your Excel file into PDF/Image, you can control this overflow by specifying the cross type using the [**TextCrossType**](https://reference.aspose.com/cells/nodejs-cpp/textcrosstype) enumeration. It has the following values:
 
-- **TextCrossType.Default**: Display text like MS Excel which depends on the next cell. If the next cell is null, the string will cross or it will be truncated.
+- **TextCrossType.Default**: Display text like MS Excel, which depends on the next cell. If the next cell is null, the string will cross, otherwise it will be truncated.
 
-- **TextCrossType.CrossKeep**: Display the string like MS Excel exporting PDF/Image.
+- **TextCrossType.CrossKeep**: Display the string as MS Excel does when exporting to PDF/Image.
 
-- **TextCrossType.CrossOverride**: Display all the text by crossing other cells and override the text of crossed cells.
+- **TextCrossType.CrossOverride**: Display all the text by crossing other cells and overriding the text of crossed cells.
 
 - **TextCrossType.StrictInCell**: Only display the string within the width of the cell.
 
@@ -42,7 +42,7 @@ const sourceDir = path.join(__dirname, "data");
 const outputDir = path.join(__dirname, "output");
 
 // Load template Excel file
-const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCrosssType.xlsx"));
+const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCrossType.xlsx"));
 
 // Initialize PDF save options
 const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
@@ -51,7 +51,7 @@ const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setTextCrossType(AsposeCells.TextCrossType.StrictInCell);
 
 // Save PDF file
-workbook.save(outputDir + "outputCrosssType.pdf", pdfSaveOptions);
+workbook.save(outputDir + "outputCrossType.pdf", pdfSaveOptions);
 
 // Initialize image or print options
 const imageSaveOptions = new AsposeCells.ImageOrPrintOptions();
@@ -62,7 +62,7 @@ imageSaveOptions.setTextCrossType(AsposeCells.TextCrossType.StrictInCell);
 // Initialize sheet renderer object
 const sheetRenderer = new AsposeCells.SheetRender(workbook.getWorksheets().get(0), imageSaveOptions);
 
-sheetRenderer.toImage(0, outputDir + "outputCrosssType.png");
+sheetRenderer.toImage(0, outputDir + "outputCrossType.png");
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -10,12 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Aspose.Cells - Set Print Area**
 By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' PrintArea property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class's PrintArea property. Assign a cell range that defines the print area to this property.
 
 **C#**
 
 {{< highlight cs >}}
-
  // Instantiating a Workbook object
 
 Workbook workbook = new Workbook();
@@ -61,15 +60,14 @@ PageSetup pageSetup = sheet.PageSetup;
 pageSetup.PrintArea = "A1:F20";
 
 workbook.Save("test.xlsx");
-
 {{< /highlight >}}
+
 ## **NPOI - HSSF XSSF - Set Print Area**
-Workbook.setPrintArea method is available to set page properties of print area.
+Workbook.setPrintArea method is available to set the print area of a worksheet.
 
 **C#**
 
 {{< highlight cs >}}
-
  IWorkbook wb = new XSSFWorkbook();
 
 ISheet sheet1 = wb.CreateSheet("new sheet");
@@ -111,11 +109,11 @@ row4.CreateCell(5).SetCellValue(2.5);
 
 wb.SetRepeatingRowsAndColumns(0, 0, 2, -1, -1);
 
-// Set the the repeating rows and columns on the second sheet.
+// Set the repeating rows and columns on the second sheet.
 
 wb.SetRepeatingRowsAndColumns(1, 4, 5, 1, 2);
 
-//set the print area for the first sheet
+// Set the print area for the first sheet
 
 wb.SetPrintArea(0, 1, 2, 0, 3);
 
@@ -124,16 +122,14 @@ FileStream sw = File.Create("test.xlsx");
 wb.Write(sw);
 
 sw.Close();
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Set Print Area** form any of the below mentioned social coding sites:
+Download **Set Print Area** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
-
 For more details, visit [Setting Print Options](/cells/net/setting-print-options/).
-
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

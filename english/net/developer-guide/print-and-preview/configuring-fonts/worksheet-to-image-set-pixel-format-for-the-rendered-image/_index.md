@@ -9,13 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes you want to specify the pixel format when rendering a worksheet to image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.
+Sometimes you want to specify the pixel format when rendering a worksheet to an image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.
 
 {{% /alert %}} 
 
-Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the sheets.
-
-
+Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the worksheets.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

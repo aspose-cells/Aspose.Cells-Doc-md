@@ -20,11 +20,11 @@ Please also check the [Public API Changes introduced in Aspose.Cells for Java 8.
 ### **Added TextOptions Class & FontSettings.TextOptions Property**
 Aspose.Cells for Java has exposed the TextOptions class along with FontSettings.TextOptions property in order to control the appearance of textual parts of a Shape.
 
-Here is simple usage scenario of FontSettings.TextOptions property.
+Here is a simple usage scenario of FontSettings.TextOptions property.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Initialize Workbook instance
 
@@ -48,13 +48,13 @@ TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOp
 
 {{< /highlight >}}
 ### **Added TextOptions.Fill, Outline & Shadow Properties**
-Aspose.Cells for Java 8.9.2 has exposed the TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow properties which allows to control the aspects of textual contents of the shape, such as fill, shadow & outline respectively. 
+Aspose.Cells for Java 8.9.2 has exposed the TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow properties which allow to control the aspects of textual content of the shape, such as fill, shadow & outline respectively. 
 
-Here is simple usage scenario of aforementioned properties.
+Here is a simple usage scenario of the aforementioned properties.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Initialize Workbook instance
 
@@ -94,11 +94,11 @@ textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyle
 ### **Added Shape.Line Property**
 Aspose.Cells for Java has exposed the Shape.Line property which returns an instance of LineFormat in order to control the appearance of outlines of a Shape.
 
-Here is simple usage scenario of Shape.Line property.
+Here is a simple usage scenario of Shape.Line property.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Initialize Workbook instance
 
@@ -124,11 +124,11 @@ line.setWeight(4);
 ### **Added Shape.Fill property**
 Aspose.Cells for Java 8.9.2 has exposed the Shape.Fill property which returns an instance of FillFormat in order to control the different aspects of shape area.
 
-Following is the simple usage scenario of Shape.Fill property.
+Following is a simple usage scenario of Shape.Fill property.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  //Initialize Workbook instance
 

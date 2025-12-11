@@ -1,34 +1,32 @@
----
-title: Change Font and Color of a Cell
-type: docs
-weight: 40
-url: /net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
-keywords: GridDesktop,font,color,change font,change color
-description: This article introduces how to update font and color in the cell in the Worksheet in GridDesktop.
-ai_search_scope: cells_net
+---  
+title: Change Font and Color of a Cell  
+type: docs  
+weight: 40  
+url: /net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/  
+keywords: GridDesktop,font,color,change font,change color  
+description: This article introduces how to update font and color in the cell in the Worksheet in GridDesktop.  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-In this topic, we will discuss about changing the font and font color of a cell in GridDesktop. This feature provides more in depth control of worksheets to developers. Using this feature, developers can customize the font and color of any desired cell.
+In this topic, we will discuss changing the font and font color of a cell in GridDesktop. This feature provides more in‑depth control of worksheets for developers. Using this feature, developers can customize the font and color of any desired cell.  
 
-{{% /alert %}} 
-## **Changing the Font & Color of a Cell**
+{{% /alert %}}  
+## **Changing the Font & Color of a Cell**  
 To change the font and color of a cell using Aspose.Cells.GridDesktop, please follow the steps below:
 
-- Access any desired **Worksheet**
-- Access a **Cell** whose font and color are to be changed
-- Create a customized **Font**
-- Set the **Font** of the **Cell** to the customized one
-- Finally, set **Font Color** of the **Cell** to any desired **Color**
+- Access any desired **Worksheet**  
+- Access a **Cell** whose font and color are to be changed  
+- Create a customized **Font**  
+- Set the **Font** of the **Cell** to the customized one  
+- Finally, set **Font Color** of the **Cell** to any desired **Color**  
 
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ChangeFontColorOfCell-1.cs" >}}  
 
+{{% alert color="primary" %}}  
 
-{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ChangeFontColorOfCell-1.cs" >}}
-
-{{% alert color="primary" %}} 
-
-If you only need to get information about the font or font color of the cell then you can also use **GetFont** and **GetFontColor** methods of the cell.
+If you only need to get information about the font or font color of the cell, then you can also use **GetFont** and **GetFontColor** methods of the cell.  
 
 {{% /alert %}}

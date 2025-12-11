@@ -1,5 +1,5 @@
 ---
-title: Hide or Unhide a Worksheet in Php
+title: Hide or Unhide a Worksheet in PHP
 type: docs
 weight: 50
 url: /java/hide-or-unhide-a-worksheet-in-php/
@@ -9,33 +9,28 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Hide or Unhide a Worksheet**
 ### **Hiding a Worksheet**
-To hide worksheet using Aspose.Cells Java for PHP, call **hideunhideworksheet** module.
+To hide a worksheet using Aspose.Cells for Java in PHP, call the **HideUnhideWorksheet** module.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiating a Workbook object by excel file path
-
+ // Instantiating a Workbook object by Excel file path
 $workbook = new Workbook($dataDir . "book1.xls");
 
-//Accessing the first worksheet in the Excel file
-
+// Accessing the first worksheet in the Excel file
 $worksheets = $workbook->getWorksheets();
-
 $worksheet = $worksheets->get(0);
 
-//Hiding the first worksheet of the Excel file
-
+// Hiding the first worksheet of the Excel file
 $worksheet->setVisible(false);
 
-//Saving the modified Excel file in default (that is Excel 2003) format
-
+// Saving the modified Excel file in the default (Excel 2003) format
 $workbook->save($dataDir . "output.xls");
 
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Hide or Unhide a Worksheet (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Hide or Unhide a Worksheet (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

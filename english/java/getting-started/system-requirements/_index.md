@@ -13,7 +13,7 @@ Aspose.Cells for Java does not require having Microsoft Excel installed, as Aspo
 
 {{% /alert %}} 
 ## **Supported Operating Systems**
-Aspose.Cells for Java supports any operating system that runs the Java runtime including, but not limited:
+Aspose.Cells for Java supports any operating system that runs the Java runtime, including but not limited to:
 ### **Windows**
 - Microsoft Windows 2000 ( x64, x86)
 - Microsoft Windows XP ( x64, x86)
@@ -27,12 +27,12 @@ Aspose.Cells for Java supports any operating system that runs the Java runtime 
 ### **Linux**
 - Linux (Ubuntu, openSUSE, CentOS and others)
 ### **Mac**
-- Mac OS X etc.
+- macOS, etc.
 ## **Supported Java Versions**
 Aspose.Cells for Java supports the following Java versions:
 
 - J2SE 6.0 (1.6)
 - J2SE 7.0 (1.7)
-- or above
+- or higher
 
 {{< app/cells/assistant language="java" >}}

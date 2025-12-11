@@ -35,7 +35,7 @@ comment.setNote("Hello Aspose!");
 
 ## **Apache POI SS - HSSF & XSSF - Insert Cell Comments**
 
-Below examples shows how Comments can be inserted using Apache POI API
+The following example shows how comments can be inserted using the Apache POI API
 
 **Java**
 

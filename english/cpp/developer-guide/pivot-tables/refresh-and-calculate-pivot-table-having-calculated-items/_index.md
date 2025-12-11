@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use the [**PivotTable.RefreshData()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/refreshdata/) and [**PivotTable.CalculateData()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/calculatedata/) as usual to perform this function.
+Aspose.Cells now supports refreshing and calculating **a** pivot table having calculated items. Please use the [**PivotTable.RefreshData()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/refreshdata/) and [**PivotTable.CalculateData()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/calculatedata/) as usual to perform this function.
 
 {{% /alert %}}
 
 ## **Refresh and Calculate Pivot Table having Calculated Items**
 
-The following sample code loads the [source excel file](5115238.xlsx) which contains a pivot table having three calculated items such as "add", "div", "div2". We first change the value of cell D2 to 20 and then refresh and calculate the pivot table using Aspose.Cells APIs and save the workbook in PDF format. The results in the [output PDF](5115229.pdf) show that Aspose.Cells refreshed and calculated the pivot table having calculated items successfully. You can verify it using Microsoft Excel by manually putting the value 20 in cell D2 and then refreshing the pivot table via Alt+F5 shortcut key or clicking the pivot table Refresh button.
+The following sample code loads the [source Excel file](5115238.xlsx) which contains a pivot table having three calculated items such as **"add", "div", and "div2"**. **First, we change** the value of cell D2 to 20, **then refresh and calculate** the pivot table using Aspose.Cells APIs, **and then** save the workbook in PDF format. The results in the [output PDF](5115229.pdf) show that Aspose.Cells refreshed and calculated the pivot table having calculated items successfully. You can verify this using Microsoft Excel by manually putting the value 20 in cell D2 and then refreshing the pivot table via the Alt+F5 shortcut key or **by clicking the Refresh button on the pivot table**.
 
 ```c++
 #include <iostream>
@@ -32,12 +32,12 @@ int main()
 
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
+
     // Load source Excel file containing a pivot table having calculated items
     U16String sampleFilePath = srcDir + u"sample.xlsx";
     Workbook workbook(sampleFilePath);
 
-    // Access first worksheet
+    // Access the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
 
     // Change the value of cell D2
@@ -52,7 +52,7 @@ int main()
         pt.CalculateData();
     }
 
-    // Save the workbook in output PDF
+    // Save the workbook **as a** PDF
     U16String outputFilePath = srcDir + u"RefreshAndCalculateItems_out.pdf";
     workbook.Save(outputFilePath, SaveFormat::Pdf);
 

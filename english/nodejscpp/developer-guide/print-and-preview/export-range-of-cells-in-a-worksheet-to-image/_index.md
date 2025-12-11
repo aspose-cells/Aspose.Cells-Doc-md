@@ -4,8 +4,8 @@ linktitle: Export Range of Cells in a Worksheet to Image
 type: docs  
 weight: 60  
 url: /nodejs-cpp/export-range-of-cells-in-a-worksheet-to-image/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 ## **Possible Usage Scenarios**  
@@ -16,7 +16,7 @@ You can make an image of a worksheet using Aspose.Cells for Node.js via C++. How
 
 To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set [**ImageOrPrintOptions.getOnePagePerSheet()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getOnePagePerSheet--) to **true**. The following code takes an image of the range D8:G16. Below is a screenshot of the [sample Excel file](47153160.xlsx) used in the code. You can try the code with any Excel file.  
 
-## **Screenshot of Sample Excel File and its Exported Image**  
+## **Screenshot of Sample Excel File and Its Exported Image**  
 
 **![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**  
 
@@ -45,22 +45,22 @@ const worksheet = workbook.getWorksheets().get(0);
 // Set the print area with your desired range
 worksheet.getPageSetup().setPrintArea("D8:G16");
 
-// Set all margins as 0
+// Set all margins to 0
 worksheet.getPageSetup().setLeftMargin(0);
 worksheet.getPageSetup().setRightMargin(0);
 worksheet.getPageSetup().setTopMargin(0);
 worksheet.getPageSetup().setBottomMargin(0);
 
-// Set OnePagePerSheet option as true
+// Set the OnePagePerSheet option to true
 const options = new AsposeCells.ImageOrPrintOptions();
 options.setOnePagePerSheet(true);
 options.setImageType(AsposeCells.ImageType.Jpeg);
 options.setHorizontalResolution(200);
 options.setVerticalResolution(200);
 
-// Take the image of your worksheet
+// Capture the image of your worksheet
 const sr = new AsposeCells.SheetRender(worksheet, options);
 sr.toImage(0, path.join(outputDir, "outputExportRangeOfCellsInWorksheetToImage.jpg"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

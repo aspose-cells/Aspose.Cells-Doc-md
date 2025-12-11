@@ -10,19 +10,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Aspose.Cells provides [**Shape.getGeometry()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGeometry--) property to make changes to the adjustment points with shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:  
+Aspose.Cells provides [**Shape.getGeometry()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGeometry--) property to make changes to the adjustment points of shapes. In the Microsoft Excel UI, adjustments display as yellow‑diamond nodes. For example:  
 
-- Rounded Rectangle has an adjustment to change the arc  
-- Triangle has an adjustment to change the location of the point  
-- Trapezoid has an adjustment to change the width of the top  
-- Arrows have two adjustments to change the shape of the head and tail  
+- Rounded Rectangle has an adjustment to change the arc.  
+- Triangle has an adjustment to change the location of the point.  
+- Trapezoid has an adjustment to change the width of the top.  
+- Arrows have two adjustments to change the shape of the head and tail.  
 
-This article will explain the use of [**Shape.getGeometry()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGeometry--) property to change the adjustment value of the different shapes.  
+This article will explain the use of [**Shape.getGeometry()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getGeometry--) property to change the adjustment values of the different shapes.  
 {{% /alert %}}  
 
 ## **Change Adjustment Values**  
 
-The below code sample shows how to change adjustment values of the shape.  
+The code sample below shows how to change the adjustment values of the shape.  
 
 ```javascript
 const path = require("path");
@@ -50,9 +50,9 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
 
-## **How to set or change the RoundedRectangularCallout tip point in excel**  
+## **How to set or change the RoundedRectangularCallout tip point in Excel**  
 
-The following code example shows how to set or change a rounded rectangle callout tip point position in Excel.  
+The following code example shows how to set or change a RoundedRectangularCallout tip‑point position in Excel.  
 
 ```javascript
 const path = require("path");
@@ -69,8 +69,8 @@ let sheet = workbook.getWorksheets().get(0);
 // Add a RoundedRectangularCallout to the worksheet
 let polygonShape = sheet.getShapes().addAutoShape(AsposeCells.AutoShapeType.RoundedRectangularCallout, 0, 0, 0, 0, 0, 0);
 
-polygonShape.setTop(200); // Shape Top properties
-polygonShape.setLeft(500); // Shape Left properties
+polygonShape.setTop(200); // Shape Top property
+polygonShape.setLeft(500); // Shape Left property
 polygonShape.setWidth(200); // Shape Width
 polygonShape.setHeight(100); // Shape Height
 
@@ -95,5 +95,4 @@ shapeGuides.get(0).setValue(0.7);
 workbook.save(path.join(filePath, "res-resave.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -11,8 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Get Hyperlinks in Range**
 
-The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class provides a [**getHyperlinks()**](https://reference.aspose.com/cells/nodejs-cpp/range/#getHyperlinks--) method which returns all the hyperlinks in the selected range. You may also delete the hyperlink by calling the [**Hyperlink.delete()**](https://reference.aspose.com/cells/nodejs-cpp/hyperlink/#delete--) method.
-
+The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) class provides a [**getHyperlinks()**](https://reference.aspose.com/cells/nodejs-cpp/range/#getHyperlinks--) method which returns all the hyperlinks in the selected range. You may also delete hyperlinks by calling the [**Hyperlink.delete()**](https://reference.aspose.com/cells/nodejs-cpp/hyperlink/#delete--) method.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Hyperlinks-GetHyperlinksInRange.js" >}}
 

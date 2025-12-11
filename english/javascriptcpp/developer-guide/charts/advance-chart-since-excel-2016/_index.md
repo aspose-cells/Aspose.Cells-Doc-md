@@ -9,15 +9,17 @@ url: /javascript-cpp/read-and-manipulate-excel-2016-charts/
 ---
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells now supports the reading and manipulation of Microsoft Excel 2016 charts which are not present in Microsoft Excel 2013 or earlier versions.  
+Aspose.Cells now supports the reading and manipulation of Microsoft Excel 2016 charts, which are not present in Microsoft Excel 2013 or earlier versions.  
+
 ## **Read and Manipulate Excel 2016 Charts**  
-The following sample code loads the [source excel file](22774101.xlsx) which contains Excel 2016 charts in the first worksheet. It reads all charts one by one and changes its title as per its chart type. The following screenshot shows the source excel file before the execution of code. As you can see, chart title is the same for all charts.
+The following sample code loads the [source Excel file](22774101.xlsx) which contains Excel 2016 charts in the first worksheet. It reads all charts one by one and changes their titles as per their chart type. The following screenshot shows the source Excel file before the execution of the code. As you can see, the chart titles are the same for all charts.
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_1.png)
 
-The following screenshot shows the [output excel file](22774104.xlsx) after the execution of code. As you can see, the chart title is changed as per its chart type.
+The following screenshot shows the [output Excel file](22774104.xlsx) after the execution of the code. As you can see, the chart titles are changed as per their chart type.
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)  
+
 ## **Sample Code**  
 ```html
 <!DOCTYPE html>
@@ -99,6 +101,7 @@ The following screenshot shows the [output excel file](22774104.xlsx) after the 
     </script>
 </html>
 ```  
+
 ## **Console Output**  
 
 
@@ -116,7 +119,7 @@ BoxWhisker
 
 {{< /highlight >}}  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Creating Waterfall Chart](/cells/javascript-cpp/creating-waterfall-chart/)  
 - [Creating TreeMap Chart](/cells/javascript-cpp/creating-treemap-chart/)  
 - [Creating Sunburst Chart](/cells/javascript-cpp/creating-sunburst-chart/)

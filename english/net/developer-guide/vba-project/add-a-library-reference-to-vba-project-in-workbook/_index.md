@@ -1,5 +1,5 @@
 ---
-title: Add a library reference to VBA project in workbook
+title: Add a library reference to a VBA project in a workbook
 type: docs
 weight: 80
 url: /net/add-a-library-reference-to-vba-project-in-workbook/
@@ -15,11 +15,11 @@ Sometimes, you need to add or register the library reference to the VBA project 
 
 ## **Add a library reference to VBA project in Microsoft Excel**
 
-In Microsoft Excel, you can add a library reference to the VBA project by clicking the **Tools > References...** manually.
+In Microsoft Excel, you can add a library reference to the VBA project by clicking **Tools > References...** manually.
 
 ## **Add a library reference to the VBA project in a workbook using Aspose.Cells**
 
-The following sample code adds or registers two library references to the VBA project of the workbook using [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) method.
+The following sample code adds or registers two library references to the workbook’s VBA project using the [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

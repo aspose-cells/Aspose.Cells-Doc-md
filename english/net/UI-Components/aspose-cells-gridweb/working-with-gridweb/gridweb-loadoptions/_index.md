@@ -11,22 +11,24 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-There are some loadoptions we can set before import the file.
+There are some load options we can set before importing the file.
 
-we can use [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (for general file) and [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (for csv file)	
+We can use [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (for general files) and [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (for CSV files).	
  
 {{% /alert %}} 
-## **load with other encode **
-For the csv file, it is actually a text-based file, without the specific encoding described in the xlsx format file.
 
-Therefore, users can set specific character encoding before loading the file.
+## **Load with Other Encoding**
 
-here is a sample code to load with chinese:
+For a CSV file, it is actually a text‑based file without the specific encoding described in the XLSX format.
+
+Therefore, users can set a specific character encoding before loading the file.
+
+Here is a sample code to load a Chinese CSV file:
 
 ```csharp
-    GridTxtLoadOptions topt = new GridTxtLoadOptions();
-    topt.Encoding = (Encoding.GetEncoding("GB2312"));
-    GridWeb1.LoadOptions = topt;
-    String filePath = Server.MapPath("~/workbook/chinesefile.csv");
-    GridWeb1.ImportExcelFile(filePath);
+GridTxtLoadOptions topt = new GridTxtLoadOptions();
+topt.Encoding = Encoding.GetEncoding("GB2312");
+GridWeb1.LoadOptions = topt;
+string filePath = Server.MapPath("~/workbook/chinesefile.csv");
+GridWeb1.ImportExcelFile(filePath);
 ```

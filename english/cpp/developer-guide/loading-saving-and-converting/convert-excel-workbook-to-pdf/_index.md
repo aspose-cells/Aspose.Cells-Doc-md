@@ -14,7 +14,7 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for C++ populates the **Application** field with value 'Aspose.Cells' and **PDF Producer** field with value, e.g 'Aspose.Cells v18.5.0'.
+Aspose.Cells directly writes API and version‑number information in output documents. For example, upon rendering a document to PDF, Aspose.Cells for C++ populates the **Application** field with the value 'Aspose.Cells' and the **PDF Producer** field with the value, e.g., 'Aspose.Cells v18.5.0'.
 
 {{% /alert %}} 
 ### **Direct Conversion**
@@ -22,20 +22,20 @@ Aspose.Cells supports conversion from spreadsheets to PDF independently of other
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class by calling its empty constructor.
-1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
-1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method to save the spreadsheet.
+1. Instantiate an object of the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class by calling its empty constructor.  
+2. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.  
+3. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, etc.) on the spreadsheet using Aspose.Cells' APIs.  
+4. When the spreadsheet code is complete, call the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method to save the spreadsheet.  
 
-The file format should be PDF so select relevant PDF (a pre-defined value) from the SaveFormat enumeration to generate the final PDF document
+The file format should be PDF, so select the relevant PDF (a pre‑defined value) from the SaveFormat enumeration to generate the final PDF document.
 
 Please see the following sample code, its [sample Excel file](67338368.xlsx) and [output PDF](67338369.pdf) for your reference.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion-new.cpp" >}}
 ### **Advanced Conversion**
-You may also opt to use the [PdfSaveOptions](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the **PdfSaveOptions** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [SetCompliance](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/) which enables you to save the Excel files to PDF/A compliant PDF files.
-#### **Saving Workbook to PDF/A Complied Files**
-The following code snippet demonstrates how to use the **PdfSaveOptions** class to save Excel files to PDF/A compliant PDF format
+You may also opt to use the [PdfSaveOptions](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the **PdfSaveOptions** class gives you control over the print, font, security, and compression settings for the output PDF. The most important property is [SetCompliance](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/) which enables you to save the Excel files to PDF/A‑compliant PDF files.
+#### **Saving Workbook to PDF/A Compliant Files**
+The following code snippet demonstrates how to use the **PdfSaveOptions** class to save Excel files to PDF/A‑compliant PDF format.
 
 Please see the following sample code and its [output PDF](67338370.pdf) for your reference.
 

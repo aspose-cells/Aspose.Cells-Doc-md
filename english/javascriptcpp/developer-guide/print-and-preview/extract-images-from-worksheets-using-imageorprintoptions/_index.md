@@ -62,22 +62,22 @@ The sample code below shows how to extract images from an Excel file and save th
             // Get the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Get the first Picture in the first worksheet
+            // Get the first picture in the first worksheet
             const pic = worksheet.pictures.get(0);
 
-            // Determine picture format
+            // Determine the picture format
             const picformat = pic.imageType.toString();
 
-            // Define ImageOrPrintOptions
+            // Define the ImageOrPrintOptions
             const printoption = new ImageOrPrintOptions();
 
             // Specify the image format (use JPEG as in original code)
             printoption.imageType = ImageType.Jpeg;
 
-            // Export picture to image bytes (browser version returns image bytes when path is not used)
+            // Export the picture to image bytes (the browser version returns image bytes when a path is not used)
             const outputData = pic.toImage(printoption);
 
-            // Determine file extension and MIME type
+            // Determine the file extension and MIME type
             let ext = picformat.toLowerCase();
             if (ext === 'jpeg') ext = 'jpg';
             let mime = 'image/jpeg';

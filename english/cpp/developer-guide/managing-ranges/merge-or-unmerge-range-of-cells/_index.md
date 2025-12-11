@@ -18,7 +18,7 @@ You can use Aspose.Cells to merge or split a range of cells. Aspose.Cells provid
 
 ## **Example**
 
-The following sample code first creates a range - A1:D4 - then merges the cells in the range into a single cell using the [**Range.Merge()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/merge/) method. Similarly, you can split cells by creating a range and calling the [**Range.UnMerge()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/unmerge/) method.
+The following sample code first creates a range (A1:D4), then merges the cells in the range into a single cell using the [**Range.Merge()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/merge/) method. Similarly, you can unmerge the cells by creating a range and calling the [**Range.UnMerge()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/unmerge/) method.
 
 ```cpp
 #include <iostream>
@@ -34,7 +34,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of output excel file
+    // Path of the output Excel file
     U16String outputPath = srcDir + u"output.out.xlsx";
 
     // Create a workbook

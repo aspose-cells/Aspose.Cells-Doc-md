@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Microsoft Excel provides a feature that allows you to auto-size the height of a cell according to its content. The feature is called auto-fit rows. Microsoft Excel doesn't set auto-fit operation on merged cells natively. Sometimes the feature becomes vital for a user who really needs to implement auto-fit rows on merged cells too.
+Microsoft Excel provides a feature that allows you to auto‑size the height of a cell according to its content. The feature is called AutoFit rows. Microsoft Excel does not support AutoFit on merged cells natively. Sometimes the feature becomes vital for a user who really needs to implement AutoFit rows on merged cells as well.
 
 {{% /alert %}}
 
-Aspose.Cells supports this feature through the [**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. Using this API, it is possible to auto-fit rows in a worksheet including merged cells.
+Aspose.Cells supports this feature through the [**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. Using this API, it is possible to AutoFit rows in a worksheet, including merged cells.
 
-After executing the code, Aspose.Cells auto-fits rows for merged cells.
+After executing the code, Aspose.Cells AutoFits rows for merged cells.
 
 **Output Excel file**
 

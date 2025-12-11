@@ -15,7 +15,7 @@ Microsoft Excel files may contain many unused styles. When you export the Excel 
 
 ## **Exclude Unused Styles during Excel to HTML conversion**
 
-The following sample code creates a workbook and also creates an unused named style. Since the [**HtmlSaveOptions.GetExcludeUnusedStyles()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getexcludeunusedstyles/) is set to **true**, this unused named style will not be exported to the [output HTML](61767778.zip). However, if you set it to **false**, then this unused style will be present inside the output HTML, which you can then see in the HTML markup as shown in the above screenshot.
+The following sample code creates a workbook and also creates an unused named style. Since the [**HtmlSaveOptions.GetExcludeUnusedStyles()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getexcludeunusedstyles/) is set to **true**, this unused named style will not be exported to the [output HTML](61767778.zip). However, if you set it to **false**, this unused style will be present inside the output HTML, which you can then see in the HTML markup as shown in the above screenshot.
 
 ## **Sample Code**
 

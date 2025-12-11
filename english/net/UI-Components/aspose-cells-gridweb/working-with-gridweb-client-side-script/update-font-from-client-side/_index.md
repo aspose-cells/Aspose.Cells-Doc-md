@@ -11,20 +11,20 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This topic discusses changing font settings from client side in the Aspose.Cells.GridWeb control.
+This topic discusses changing font settings from the client side in the Aspose.Cells.GridWeb control.
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb now supports changing font settings from the client side. For this, the API provides the following functions
+Aspose.Cells GridWeb now supports changing font settings from the client side. For this, the API provides the following functions:
 
-- **updateCellFontStyle**: Params - r/i/b/ib for regular/italic/bold/italic&&bold
-- **updateCellFontSize**: Params - fontname, etc. 'System'
-- **updateCellFontName**: Params - fontsize,etc. '12pt'
-- **updateCellFontColor**: Params - none/u/l/ul/ for none/underline/strikout/underline&&strikout
-- **updateCellFontLine**: Params - html color like #aa22ee or wellknown color name like green,red,...
-- **updateCellBackGroundColor**: Params - html color like #aa22ee or wellknown color name like green,red,...
+- **updateCellFontStyle**: Params – r/i/b/ib for regular/italic/bold/italic && bold  
+- **updateCellFontSize**: Params – fontsize, etc. '12pt'  
+- **updateCellFontName**: Params – fontname, etc. 'System'  
+- **updateCellFontColor**: Params – none/u/l/ul for none/underline/strikeout/underline && strikeout  
+- **updateCellFontLine**: Params – HTML color like `#aa22ee` or well‑known color name like green, red, …  
+- **updateCellBackgroundColor**: Params – HTML color like `#aa22ee` or well‑known color name like green, red, …
 
-The following code snippet demonstrates changing font settings from client side in GridWeb.
+The following code snippet demonstrates changing font settings from the client side in GridWeb.
 
 ## Sample Code
 

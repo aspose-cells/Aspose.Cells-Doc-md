@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Export Data from Worksheets**
-Aspose.Cells not only lets its users import data to worksheets from external data sources but also allow them to export worksheet data to an array.
+Aspose.Cells not only lets its users import data to worksheets from external data sources but also allows them to export worksheet data to an array.
 
 **Java**
 
@@ -26,7 +26,7 @@ Workbook workbook = new Workbook(fstream);
 
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
+//Exporting the contents of 7 rows and 8 columns starting from the first cell to an array.
 
 Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 

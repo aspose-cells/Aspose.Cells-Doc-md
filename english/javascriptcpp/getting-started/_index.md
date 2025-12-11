@@ -1,31 +1,30 @@
 ---
-title: Getting started
+title: Getting Started
 type: docs
 weight: 5
 url: /javascript-cpp/getting-started/
 keywords: "Excel,Browser,Serverless,XLS,XLSX,XLSB,CSV,PDF,JPG,PNG,HTML,ODS,XLSM,Spreadsheet,Markdown,XPS,DOCX,PPTX,MHTML,SVG,JSON,SQL,XML"
-description: "setup Aspose.Cells for javascript via C++ and installation guidelines."
+description: "Setup Aspose.Cells for JavaScript via C++ and installation guidelines."
 ---
 
 ## **Product Description**
-Aspose.Cells for JavaScript via C++ is a high-performance, feature-rich library for manipulating and converting spreadsheet files, including Excel (XLS, XLSX, XLSB, XLSM), ODS, CSV, and HTML formats. It provides a comprehensive set of features for creating, editing, converting, and rendering spreadsheets in both browser and Node.js environments. With full support for all major Excel formats, Aspose.Cells for JavaScript via C++ ensures maximum compatibility and flexibility across diverse use cases.
-Built with WebAssembly to unlock near-native performance directly in the browser, Aspose.Cells for JavaScript via C++ enables fast and efficient spreadsheet processing without the need for a server. Its lightweight runtime footprint makes it perfect for serverless web applications that require advanced Excel functionality. Whether you're building dashboards, data processing pipelines, or document generation tools, Aspose.Cells for JavaScript via C++ offers a complete, reliable, and high-performance solution.Aspose.Cells for JavaScript via C++ supports browsers and Node.js, mainly browsers.
+Aspose.Cells for JavaScript via C++ is a high‑performance, feature‑rich library for manipulating and converting spreadsheet files, including Excel (XLS, XLSX, XLSB, XLSM), ODS, CSV, and HTML formats. It provides a comprehensive set of features for creating, editing, converting, and rendering spreadsheets in both browser and Node.js environments. With full support for all major Excel formats, Aspose.Cells for JavaScript via C++ ensures maximum compatibility and flexibility across diverse use cases.  
+Built with WebAssembly to unlock near‑native performance directly in the browser, Aspose.Cells for JavaScript via C++ enables fast and efficient spreadsheet processing without the need for a server. Its lightweight runtime footprint makes it perfect for serverless web applications that require advanced Excel functionality. Whether you're building dashboards, data processing pipelines, or document generation tools, Aspose.Cells for JavaScript via C++ offers a complete, reliable, and high‑performance solution. Aspose.Cells for JavaScript via C++ supports browsers and Node.js, primarily browsers.
 
-## **Key features**
-1. **File Creation and Editing:**  Create new spreadsheets from scratch or edit existing ones with ease. This includes adding or modifying data, formatting cells, managing worksheets, and more.
-1. **Data Processing:** Perform complex data manipulations such as sorting, filtering, and validation. The library also supports advanced formulas and functions to facilitate data analysis and calculations.
-1. **File Conversion:** Convert Excel files to various formats such as PDF, HTML, ODS, and image formats like PNG and JPEG. This feature is useful for sharing and distributing spreadsheet data in different formats.
-1. **Chart and Graphics:** Create and customize a wide range of charts and graphics to visually represent data. The library supports bar charts, line charts, pie charts, and many more, along with customization options for design and layout.
-1. **Rendering and Printing:** Render Excel sheets to high-fidelity images and PDFs, ensuring that the visual representation is accurate. The library also provides options for printing spreadsheets with precise control over page layout and formatting.
-1. **Advanced Protection and Security:** Protect spreadsheets with passwords, encrypt files, and manage access permissions to ensure data security and integrity.
-1. **Performance and Scalability:** Designed to handle large datasets and complex spreadsheets efficiently, Aspose.Cells for JavaScript via C++ ensures high performance and scalability for enterprise-level applications.
-
+## **Key Features**
+1. **File Creation and Editing:** Create new spreadsheets from scratch or edit existing ones with ease. This includes adding or modifying data, formatting cells, managing worksheets, and more.  
+2. **Data Processing:** Perform complex data manipulations such as sorting, filtering, and validation. The library also supports advanced formulas and functions to facilitate data analysis and calculations.  
+3. **File Conversion:** Convert Excel files to various formats such as PDF, HTML, ODS, and image formats like PNG and JPEG. This feature is useful for sharing and distributing spreadsheet data in different formats.  
+4. **Chart and Graphics:** Create and customize a wide range of charts and graphics to visually represent data. The library supports bar charts, line charts, pie charts, and many more, along with customization options for design and layout.  
+5. **Rendering and Printing:** Render Excel sheets to high‑fidelity images and PDFs, ensuring that the visual representation is accurate. The library also provides options for printing spreadsheets with precise control over page layout and formatting.  
+6. **Advanced Protection and Security:** Protect spreadsheets with passwords, encrypt files, and manage access permissions to ensure data security and integrity.  
+7. **Performance and Scalability:** Designed to handle large datasets and complex spreadsheets efficiently, Aspose.Cells for JavaScript via C++ ensures high performance and scalability for enterprise‑level applications.
 
 ## **Prerequisites**
 
 Before getting started, make sure you have:
-- Node.js installed on your system (Download from https://nodejs.org/)
-- A valid Aspose license file (e.g., Aspose.Total.lic, Aspose.Cells.lic, or aspose.cells.js.lic) for full-featured use
+- Node.js installed on your system (download from https://nodejs.org/)
+- A valid Aspose license file (e.g., Aspose.Total.lic, Aspose.Cells.lic, or aspose.cells.js.lic) for full‑featured use
 - Basic knowledge of HTML and JavaScript
 
 ## **Step 1: Installation**
@@ -51,7 +50,8 @@ Install a simple HTTP server globally:
 npm install -g http-server
 {{< /highlight >}}
 
-Or use Python's built-in server (if Python is installed):
+Or use Python's built‑in server (if Python is installed):
+
 {{< highlight bash >}}
 # Python 3
 python -m http.server
@@ -65,21 +65,23 @@ python -m SimpleHTTPServer
 ### Encrypt Your License File
 
 1. **Start the HTTP server** in your project directory:
-   {{< highlight bash >}}
-   http-server -p 8080
-   {{< /highlight >}}
+
+{{< highlight bash >}}
+http-server -p 8080
+{{< /highlight >}}
 
 2. **Open the license encryption tool** in your browser:
-   ```
-   http://localhost:8080/node_modules/aspose.cells.js/encrypt_lic.html
-   ```
+
+```
+http://localhost:8080/node_modules/aspose.cells.js/encrypt_lic.html
+```
 
 3. **Upload your license file**:
-   - Click "Choose File" and select your license file (e.g., `Aspose.Total.lic`, `Aspose.Cells.lic`, or `aspose.cells.js.lic`)
+   - Click **Choose File** and select your license file (e.g., `Aspose.Total.lic`, `Aspose.Cells.lic`, or `aspose.cells.js.lic`)
    - The encryption process will complete automatically (very fast)
-   
+
 4. **Download the encrypted license**:
-   - Click "Download Processed File" to download `aspose.cells.enc`
+   - Click **Download Processed File** to download `aspose.cells.enc`
    - Save this file to your project directory
 
 ### Place the Encrypted License
@@ -261,9 +263,9 @@ const jsonData = workbook.save(SaveFormat.Json);
    - Verify the original license file is valid and not expired
 
 3. **CORS issues in browser**
-   - Always use an HTTP server, never open HTML files directly
+   - Always use an HTTP server; never open HTML files directly
    - Use `http-server` or similar tools for local development
-   
+
 ### Getting Help
 
 If you encounter issues:

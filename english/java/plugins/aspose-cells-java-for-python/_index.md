@@ -9,29 +9,29 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **JPype**
 
-JPype is an effort to allow python programs full access to java class libraries. This is achieved not through re-implementing Python, as Jython/JPython has done, but rather through interfacing at the native level in both Virtual Machines.
+JPype is an effort to allow Python programs full access to Java class libraries. This is achieved not through re‑implementing Python, as Jython/JPython has done, but rather through interfacing at the native level in both virtual machines.
 
 Read more at [readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
 
 ## **Aspose.Cells for Java**
 
-Aspose.Cells for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
+Aspose.Cells for Java is an advanced class library for Java that enables you to perform a wide range of document‑processing tasks directly within your Java applications.
 
-Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma Separated Value), TSV (Tab-separated values), TabDelimited (Tab delimited text file), Html, MHtml, ODS (OpenDocument Spreadsheet), SpreadsheetML, and Numbers (document is created by Apple's "Numbers" application) files. With Aspose.Cells you can generate, modify, and convert documents without using Microsoft Excel.
+Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma‑Separated Values), TSV (Tab‑separated values), TabDelimited (tab‑delimited text file), HTML, MHTML, ODS (OpenDocument Spreadsheet), SpreadsheetML, and Numbers (documents created by Apple’s “Numbers” application) files. With Aspose.Cells you can generate, modify, and convert documents without using Microsoft Excel.
 
 ## **Aspose.Cells Java for Jython**
 
-Aspose.Cells Java for Python is a project that demonstrates/provides the Aspose.Cells for Java API usage examples in Python.
+Aspose.Cells Java for Python is a project that demonstrates and provides examples of using the Aspose.Cells for Java API in Python.
 
 ## **System Requirements**
 
 **Following are the system requirements to use Aspose.Cells Java for Python:**
 
-- Jpype
+- JPype
 - Downloaded Aspose.Cells component.
 
 ## **Supported Platforms**
 
 **Following are the supported platforms:**
 
-- Python 2.7.x.x
+- Python 2.7.x

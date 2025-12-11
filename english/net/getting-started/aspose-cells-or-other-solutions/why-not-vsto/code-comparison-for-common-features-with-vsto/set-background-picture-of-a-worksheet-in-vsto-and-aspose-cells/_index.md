@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 To apply a background image to a spreadsheet:
 
-1. Create a workbook and access the sheet you want to apply a background image to.
-1. Apply the background image.
-1. Save the workbook.
+1. Create a workbook and access the sheet you want to apply a background image to.  
+2. Apply the background image.  
+3. Save the workbook.
 
 The code samples that follow show how to do this first with VSTO, using either C# or Visual Basic, and then with Aspose.Cells for .NET, again using either C# or Visual Basic.
 
-The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.
+The code examples in this article create a worksheet with a repeating background image, like the one in the screenshot below.
 
 ![todo:image_alt_text](picture1.png)
 
@@ -33,7 +33,7 @@ Excel.Application ExcelApp = Application;
 
 Excel.Workbook objBook = ExcelApp.Workbooks.Add(System.Reflection.Missing.Value);
 
-//Get the First sheet.
+//Get the first sheet.
 
 Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
@@ -41,7 +41,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 objSheet.SetBackgroundPicture("pic.jpeg");
 
-//Save the excel file.
+//Save the Excel file.
 
 objBook.SaveCopyAs("BackgroundPicBook.xls");
 
@@ -67,7 +67,7 @@ Worksheet sheet = workbook.Worksheets[0];
 
 string ImageUrl = "pic.jpeg";
 
-//Get the picture into the streams.
+//Get the picture into a stream.
 
 FileStream fs = File.OpenRead(ImageUrl);
 
@@ -75,7 +75,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 byte[] imageData = new Byte[fs.Length];
 
-//Obtain the picture into the array of bytes from streams.
+//Obtain the picture into the byte array from the stream.
 
 fs.Read(imageData, 0, imageData.Length);
 
@@ -87,7 +87,7 @@ fs.Close();
 
 sheet.SetBackground(imageData);
 
-//Save the excel file.
+//Save the Excel file.
 
 workbook.Save("BackgroundPicBook.xls");
 

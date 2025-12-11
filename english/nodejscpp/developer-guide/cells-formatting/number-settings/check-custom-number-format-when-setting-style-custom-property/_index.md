@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-If you assign an invalid custom number format to [**Style.setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method, then Aspose.Cells for Node.js via C++ will not throw any exception. But if you want Aspose.Cells to check if the assigned custom number format is valid or not, then please set the [**Workbook.getSettings().setCheckCustomNumberFormat(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setCheckCustomNumberFormat-boolean-) method to **true**.
+If you assign an invalid custom number format to [**Style.setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method, then Aspose.Cells for Node.js via C++ will not throw an exception. However, if you want Aspose.Cells to check whether the assigned custom number format is valid, please set the [**Workbook.getSettings().setCheckCustomNumberFormat(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setCheckCustomNumberFormat-boolean-) method to **true**.
 
 ## **Check Custom Number Format when setting Style.setCustom(string) method**
 
-The following sample code assigns an invalid custom number format to [**Style.setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method. Since we have already set the [**Workbook.getSettings().setCheckCustomNumberFormat(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setCheckCustomNumberFormat-boolean-) method to **true**, it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
+The following sample code assigns an invalid custom number format to [**Style.setCustom(string)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setCustom-string-) method. Since we have already set the [**Workbook.getSettings().setCheckCustomNumberFormat(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#setCheckCustomNumberFormat-boolean-) method to **true**, it throws an exception, e.g., “Invalid number format.” Please read the comments inside the code for more help.
 
 ## **Sample Code**
 

@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Using Aspose.Cells, you can open files with different formats. **Aspose.Cells** can open a range of file formats such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files, etc.
 
-If you need to know all supported file formats, please refer to the following pages:
+If you need to know all supported file formats, please refer to the following page:
 [Supported File Formats](https://docs.aspose.com/cells/nodejs-cpp/supported-file-formats/)
 
 {{% /alert %}}
@@ -25,7 +25,7 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 ### **Opening SpreadsheetML Files**
 
-SpreadsheetML files are XML representations of spreadsheets including all information about it, such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
+SpreadsheetML files are XML representations of spreadsheets including all information about them, such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option has been added to Microsoft Excel that exports spreadsheets to SpreadsheetML files.
 
 ```javascript
 const path = require("path");
@@ -37,14 +37,14 @@ const dataDir = path.join(__dirname, "data");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions3 = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.SpreadsheetML);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const wbSpreadSheetML = new AsposeCells.Workbook(path.join(dataDir, "Book3.xml"), loadOptions3);
 console.log("SpreadSheetML file opened successfully!");
 ```
 
 ### **Opening HTML Files**
 
-Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML file should be Microsoft Excel oriented i.e., MS-Excel should be able to open it.
+Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML file should be Microsoft Excel‑oriented, i.e., MS‑Excel should be able to open it.
 
 ```javascript
 const path = require("path");
@@ -57,16 +57,16 @@ const filePath = path.join(dataDir, "Book1.html");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.HtmlLoadOptions(AsposeCells.LoadFormat.Html);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const wb = new AsposeCells.Workbook(filePath, loadOptions);
 
-// Save the MHT file
+// Save the workbook as an XLSX file
 wb.save(`${filePath}output.xlsx`);
 ```
 
 ### **Opening CSV Files**
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character, it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
+Comma‑separated values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double‑quote character. If a field value contains a double‑quote character, it is escaped with a pair of double‑quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
 
 ```javascript
 const path = require("path");
@@ -79,14 +79,14 @@ const filePath = path.join(dataDir, "Book_CSV.csv");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions4 = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Csv);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const wbCSV = new AsposeCells.Workbook(filePath, loadOptions4);
 console.log("CSV file opened successfully!");
 ```
 
 #### **Opening CSV files and replacing invalid characters**
 
-In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API which is demonstrated in the code example given below.
+In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API, as demonstrated in the code example below.
 
 ```javascript
 const path = require("path");
@@ -105,7 +105,6 @@ loadOptions.setConvertDateTimeData(false);
 
 // Load CSV file
 const workbook = new AsposeCells.Workbook(filePath, loadOptions);
-
 
 console.log(workbook.getWorksheets().get(0).getName()); // (20180220142533)(ASPOSE_CELLS_T
 console.log(workbook.getWorksheets().get(0).getName().length); // 31
@@ -133,7 +132,7 @@ txtLoadOptions.setSeparator(",");
 // Specify the encoding type
 txtLoadOptions.setEncoding(AsposeCells.EncodingType.UTF8);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const wb = new AsposeCells.Workbook(filePath, txtLoadOptions);
 
 // Save file
@@ -142,7 +141,7 @@ wb.save(path.join(dataDir, "output.txt"));
 
 ### **Opening Tab Delimited Files**
 
-Tab delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.
+Tab‑delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain text file with a tab between each column.
 
 ```javascript
 const path = require("path");
@@ -155,14 +154,14 @@ const filePath = path.join(dataDir, "Book1TabDelimited.txt");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions5 = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.TabDelimited);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const wbTabDelimited = new AsposeCells.Workbook(filePath, loadOptions5);
 console.log("Tab delimited file opened successfully!");
 ```
 
 ### **Opening Tab-Separated Values (TSV) Files**
 
-Tab-separated values (TSV) file contains spreadsheet data but without any formatting. It is the same as a Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.
+Tab‑separated values (TSV) files contain spreadsheet data but without any formatting. They are the same as Tab‑delimited files, where data is arranged in rows and columns like in tables and spreadsheets.
 
 ```javascript
 const path = require("path");
@@ -174,7 +173,7 @@ const sourceDir = path.join(__dirname, "data");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Tsv);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleTSVFile.tsv"), loadOptions);
 
 // Using the Sheet 1 in Workbook
@@ -200,7 +199,7 @@ const sourceDir = path.join(__dirname, "data");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Sxc);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleSXC.sxc"), loadOptions);
 
 // Using the Sheet 1 in Workbook
@@ -214,7 +213,7 @@ console.log(`Cell Name: ${cell.getName()} Value: ${cell.getStringValue()}`);
 
 ### **Opening FODS Files**
 
-FODS file is a spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
+FODS files are spreadsheets saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
 
 ```javascript
 const path = require("path");
@@ -226,7 +225,7 @@ const sourceDir = path.join(__dirname, "data");
 // Instantiate LoadOptions specified by the LoadFormat.
 const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Fods);
 
-// Create a Workbook object and opening the file from its path
+// Create a Workbook object and open the file from its path
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "SampleFods.fods"), loadOptions);
 
 console.log("FODS file opened successfully!");

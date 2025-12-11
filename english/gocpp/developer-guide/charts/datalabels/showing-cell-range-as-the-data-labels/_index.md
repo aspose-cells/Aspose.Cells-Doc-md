@@ -10,18 +10,18 @@ url: /go-cpp/showing-cell-range-as-the-data-labels/
 
 {{% alert color="primary" %}}
 
-In Microsoft Excel 2013, you can display a cell range for data labels. Aspose.Cells supports this feature.
+In Microsoft Excel 2013, you can display a cell range for data labels. Aspose.Cells supports this feature.
 
 {{% /alert %}}
 
-## **Check-box to Show Cell Range as Data Labels**
+## **Check box to Show Cell Range as Data Labels**
 
-To show the cell range as data labels in Microsoft Excel:
+To show the cell range as data labels in Microsoft Excel:
 
-1. Select the series data labels and right-click to open the context menu.
-1. Select **Format Data Labels**. Label options are displayed.
-1. Select or clear the option **Label Contains - Value From Cells**.
+1. Select the series data labels and right‑click to open the context menu.  
+2. Select **Format Data Labels**. Label options are displayed.  
+3. Select or clear the option **Label Contains - Value From Cells**.
 
-The sample code below accesses a chart series data labels and sets the [**DataLabels.GetShowCellRange()**](https://reference.aspose.com/cells/go-cpp/datalabels/getshowcellrange/) property to **true** to select the **Label Contains - Value From Cells** option.
+The sample code below accesses the data labels of a chart series and sets the [**DataLabels.GetShowCellRange()**](https://reference.aspose.com/cells/go-cpp/datalabels/getshowcellrange/) property to **true** to select the **Label Contains - Value From Cells** option.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ShowingCellRangeAsTheDataLabels.go" >}}

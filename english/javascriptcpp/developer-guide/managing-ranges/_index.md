@@ -9,19 +9,19 @@ description: Learn how to manage ranges in Excel using Aspose.Cells for JavaScri
 
 ## **Introduction**
 
-In Excel, you can select multiple cells with a mouse box selection; the set of selected cells is called "Range".
+In Excel, you can select multiple cells with a mouse‑box selection; the set of selected cells is called a **range**.
 
-For example, you can click the left mouse button in Cell "A1" of Excel and then drag to cell "C4". The rectangular area you selected can also be easily created as an object by using Aspose.Cells for JavaScript via C++.
+For example, you can click the left mouse button on cell **A1** of Excel and then drag to cell **C4**. The rectangular area you selected can also be easily created as an object by using Aspose.Cells for JavaScript via C++.
 
-Here is how to create a range, put a value, set a style, and perform more operations on the "Range" object.
+Here is how to create a range, put a value, set a style, and perform more operations on the **Range** object.
 
 ## **Managing Ranges Using Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**Workbook.worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection.
+Aspose.Cells provides a class, **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)**, that represents a Microsoft Excel file. The **Workbook** class contains a **Workbook.worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **Worksheet** class provides a **cells** collection.
 
 ### **Create Range**
 
-When you want to create a rectangular area that extends over A1:C4, you can use the following code:
+When you want to create a rectangular area that extends over **A1:C4**, you can use the following code:
 
 ```html
 <!DOCTYPE html>
@@ -87,11 +87,11 @@ When you want to create a rectangular area that extends over A1:C4, you can use 
 </html>
 ```
 
-### **Put value into the Cells of the Range**
+### **Put values into the cells of the range**
 
-Say you have a range of cells that extends over A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
+Say you have a range of cells that extends over **A1:C4**. The matrix contains **4 × 3 = 12** cells. The individual range cells are arranged sequentially: `Range[0,0]`, `Range[0,1]`, `Range[0,2]`, `Range[1,0]`, `Range[1,1]`, `Range[1,2]`, `Range[2,0]`, `Range[2,1]`, `Range[2,2]`, `Range[3,0]`, `Range[3,1]`, `Range[3,2]`.
 
-The following example shows how to input some values into the cells of the Range.
+The following example shows how to input some values into the cells of the range.
 
 ```html
 <!DOCTYPE html>
@@ -158,9 +158,9 @@ The following example shows how to input some values into the cells of the Range
 </html>
 ```
 
-### **Set style of the Cells of the Range**
+### **Set style of the cells of the range**
 
-The following example shows how to set the style of the cells of the Range.
+The following example shows how to set the style of the cells of the range.
 
 ```html
 <!DOCTYPE html>
@@ -235,21 +235,20 @@ The following example shows how to set the style of the cells of the Range.
 </html>
 ```
 
-### **Get CurrentRegion of the Range**
+### **Get CurrentRegion of the range**
 
-CurrentRegion is a property that returns a Range object that represents the current region. 
+**CurrentRegion** is a property that returns a **Range** object representing the current region. The current region is a range bounded by any combination of blank rows and blank columns. It is read‑only.
 
-The current region is a range bounded by any combination of blank rows and blank columns. Read-only.
+In Excel, you can obtain the CurrentRegion area by:
 
-In Excel, you can get the CurrentRegion area by:
-1. Select an area (range1) with the mouse box.
-2. Click "Home - Editing - Find & Select - Go To Special - Current region", or use "Ctrl+Shift+*", you will see Excel automatically helps you select an area (range2). Now you made it, range2 is the CurrentRegion of range1.
+1. Selecting an area (range1) with the mouse box.  
+2. Clicking **Home → Editing → Find & Select → Go To Special → Current region**, or using **Ctrl + Shift + \***. Excel will automatically select the surrounding area (range2). The resulting range2 is the **CurrentRegion** of range1.
 
-Please download the following test file, open it in Excel, use the mouse box to select an area "A1:D7", then click "Ctrl+Shift+*", you will see area "A1:C3" selected.
+Please download the following test file, open it in Excel, use the mouse box to select the area **A1:D7**, then press **Ctrl + Shift + \*** – you will see the area **A1:C3** selected.
 
 [current_region.xlsx](current_region.xlsx)
 
-Now please run the following example to see how it works in Aspose.Cells:
+Now run the following example to see how it works in Aspose.Cells:
 
 ```html
 <!DOCTYPE html>
@@ -321,18 +320,18 @@ Now please run the following example to see how it works in Aspose.Cells:
 ```
 
 
-## **Advance topics**
-- [AutoFill range of Excel file](/cells/javascript-cpp/autofill-ranges/)
-- [Copy Ranges of Excel](/cells/javascript-cpp/copy-ranges-of-Excel/)
-- [Copy Range Data Only](/cells/javascript-cpp/copy-range-data-only/)
-- [Copy Range Data with Style](/cells/javascript-cpp/copy-range-data-with-style/)
-- [Copy Range Style Only](/cells/javascript-cpp/copy-range-style-only/)
-- [Create Union Range](/cells/javascript-cpp/create-union-range/)
-- [Cut and Paste Range](/cells/javascript-cpp/cut-and-paste-cells/)
-- [Delete Ranges](/cells/javascript-cpp/delete-ranges-from-Excel/)
-- [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/javascript-cpp/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
-- [Insert Ranges](/cells/javascript-cpp/insert-ranges-to-Excel/)
-- [Merge or Unmerge Range of Cells](/cells/javascript-cpp/merge-or-unmerge-range-of-cells/)
-- [Move Range of Cells in a Worksheet](/cells/javascript-cpp/move-range-of-cells-in-a-worksheet/)
-- [Create Workbook and Worksheet Scoped Named Ranges](/cells/javascript-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
-- [Search and Replace Data in a Range](/cells/javascript-cpp/search-and-replace-data-in-a-range/)
+## **Advanced topics**
+- [AutoFill range of an Excel file](/cells/javascript-cpp/autofill-ranges/)
+- [Copy ranges of an Excel file](/cells/javascript-cpp/copy-ranges-of-Excel/)
+- [Copy range data only](/cells/javascript-cpp/copy-range-data-only/)
+- [Copy range data with style](/cells/javascript-cpp/copy-range-data-with-style/)
+- [Copy range style only](/cells/javascript-cpp/copy-range-style-only/)
+- [Create union range](/cells/javascript-cpp/create-union-range/)
+- [Cut and paste range](/cells/javascript-cpp/cut-and-paste-cells/)
+- [Delete ranges](/cells/javascript-cpp/delete-ranges-from-Excel/)
+- [Get address, cell count, offset, entire column and entire row of the range](/cells/javascript-cpp/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [Insert ranges](/cells/javascript-cpp/insert-ranges-to-Excel/)
+- [Merge or unmerge range of cells](/cells/javascript-cpp/merge-or-unmerge-range-of-cells/)
+- [Move range of cells in a worksheet](/cells/javascript-cpp/move-range-of-cells-in-a-worksheet/)
+- [Create workbook and worksheet‑scoped named ranges](/cells/javascript-cpp/create-workbook-and-worksheet-scoped-named-ranges/)
+- [Search and replace data in a range](/cells/javascript-cpp/search-and-replace-data-in-a-range/)

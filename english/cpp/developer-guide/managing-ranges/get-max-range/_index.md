@@ -4,7 +4,7 @@ linktitle: Get Max Range In A Worksheet
 type: docs
 weight: 360
 url: /cpp/get-max-range-in-a-worksheet/
-description: This article describes how to get the max range, max data range, max display range of Excel files with Aspose.Cells for C++ library.
+description: This article describes how to get the max range, max data range, and max display range of Excel files with the Aspose.Cells for C++ library.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -22,7 +22,7 @@ Aspose.Cells for C++ contains different ways to find the max range in a workshee
 {{% /alert %}} 
 
 ## **Getting max range**
-In Aspose.Cells, if the [**Row**](https://reference.aspose.com/cells/cpp/aspose.cells/row/) and [**Column**](https://reference.aspose.com/cells/cpp/aspose.cells/column/) objects are initialized, these rows and columns will be counted to the maximum area, even if there is no data in empty rows or columns.
+In Aspose.Cells, if the [**Row**](https://reference.aspose.com/cells/cpp/aspose.cells/row/) and [**Column**](https://reference.aspose.com/cells/cpp/aspose.cells/column/) objects are initialized, these rows and columns will be counted towards the maximum area, even if there is no data in empty rows or columns.
 
 ```cpp
 #include <iostream>
@@ -62,8 +62,7 @@ int main()
 ```
 
 ## **Getting max data range**
-In most cases, we only need to obtain all the ranges containing all the data, even if the empty cells outside the range are formatted.
-And the settings about shapes, tables, and pivot tables will be ignored.
+In most cases, we only need to obtain the range that contains all the data, even if empty cells outside the range are formatted. Settings for shapes, tables, and pivot tables are ignored.
 
 ```cpp
 #include <iostream>
@@ -103,8 +102,7 @@ int main()
 ```
 
 ## **Getting max display range**
-When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables.
-The following codes show how to render the max display range to HTML:
+When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables. The following code shows how to render the max display range to HTML:
 
 ```cpp
 #include <iostream>
@@ -155,5 +153,5 @@ int main()
 }
 ```
 
-Here is [source excel file](Book1.xlsx).
+Here is [source Excel file](Book1.xlsx).
 {{< app/cells/assistant language="cpp" >}}

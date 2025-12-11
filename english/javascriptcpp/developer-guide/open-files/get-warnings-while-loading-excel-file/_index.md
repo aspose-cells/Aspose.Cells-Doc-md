@@ -13,7 +13,7 @@ Sometimes the user tries to load a workbook which is somewhat corrupt but loadab
 
 ## **Get Warnings while Loading Excel File**
 
-The following sample code explains how to get warnings while loading an Excel file. The code loads the [sample excel file](sampleDuplicateDefinedName.xlsx) which throws a [**DuplicateDefinedName**](https://reference.aspose.com/cells/javascript-cpp/warningtype) warning on loading. This warning is then caught by the [**IWarningCallback.warning(WarningInfo)**](https://reference.aspose.com/cells/javascript-cpp/iwarningcallback/#warning-warninginfo-) method that prints the warning messages on the console. The code then saves the workbook as [output excel file](outputDuplicateDefinedName.xlsx). If you open the sample excel file in Microsoft Excel, it will also display this warning as shown in this screenshot. Please also check the console output of the code given below for more understanding.
+The following sample code explains how to get warnings while loading an Excel file. The code loads the [sample Excel file](sampleDuplicateDefinedName.xlsx) which throws a [**DuplicateDefinedName**](https://reference.aspose.com/cells/javascript-cpp/warningtype) warning on loading. This warning is then caught by the [**IWarningCallback.warning(WarningInfo)**](https://reference.aspose.com/cells/javascript-cpp/iwarningcallback/#warning-warninginfo-) method that prints the warning messages on the console. The code then saves the workbook as the [output Excel file](outputDuplicateDefinedName.xlsx). If you open the sample Excel file in Microsoft Excel, it will also display this warning, as shown in the screenshot. Please also check the console output of the code shown below for better understanding.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -74,7 +74,7 @@ The following sample code explains how to get warnings while loading an Excel fi
             const options = new LoadOptions();
             options.warningCallback = new WarningCallback();
 
-            // Load the source excel file
+            // Load the source Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer), options);
 
             // Save the workbook and provide a download link
@@ -93,8 +93,6 @@ The following sample code explains how to get warnings while loading an Excel fi
 ```
 
 ## **Console Output**
-
-
 
 {{< highlight java >}}
 

@@ -5,4 +5,3 @@ weight: 70
 url: /go-cpp/tables/
 ---
 
-

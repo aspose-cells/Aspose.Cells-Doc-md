@@ -1,7 +1,7 @@
 ---
 title: Reusing Style Objects
 linktitle: Reusing Style Objects
-description: In Aspose.Cells for JavaScript via C++, by creating and using reusable style objects, you can simplify style management and improve code efficiency. Our guide will help you leverage the advantages of reusable style objects and implement them in your application.
+description: In Aspose.Cells for JavaScript via C++, you can simplify style management and improve code efficiency by creating and using reusable style objects. Our guide will help you leverage the advantages of reusable style objects and implement them in your application.
 keywords: Aspose.Cells for JavaScript via C++, Reusing Style Objects, Style Management, Code Efficiency, Reusable Styles, Application Development, API Reference, Example Code, Download, Support.
 type: docs
 weight: 3000
@@ -65,7 +65,7 @@ To apply some formatting to a large range of cells in a worksheet:
             cell1.style = styleObject;
             cell2.style = styleObject;
 
-            // Put the values inside the cell
+            // Put the values into the cells
             cell1.value = "Hello World!";
             cell2.value = "Hello World!!";
 
@@ -86,5 +86,5 @@ To apply some formatting to a large range of cells in a worksheet:
 
 
 {{% alert color="primary" %}}  
-Because the [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) / [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style-style-) approach uses a lot less memory, and is efficient, the older Cell.style property which consumed a lot of unnecessary memory was removed with the release of Aspose.Cells 7.1.0.  
+Because the [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) / [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style-style-) approach uses far less memory and is efficient, the older Cell.style property, which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.  
 {{% /alert %}}

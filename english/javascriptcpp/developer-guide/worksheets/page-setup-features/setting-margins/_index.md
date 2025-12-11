@@ -4,7 +4,7 @@ linktitle: Setting Margins
 type: docs
 weight: 20
 url: /javascript-cpp/setting-margins/
-description: In this article, you will learn how to set the margins of an Excel worksheet using sample code. Also learn how to programmatically set margins for page center, header, and footer using the JavaScript API via C++.
+description: In this article, you will learn how to set the margins of an Excel worksheet using sample code. You will also learn how to programmatically set margins for page center, header, and footer using the JavaScript API via C++.
 keywords: set excel worksheet margin to center JavaScript via C++, set worksheet header and footer margin JavaScript via C++
 ---
 
@@ -62,7 +62,7 @@ Set page margins (left, right, top, bottom) using [**Worksheet.pageSetup**](http
             const fileInput = document.getElementById('fileInput');
 
             if (!fileInput.files.length) {
-                // Proceed with a new empty workbook if no file selected
+                // Proceed with a new empty workbook if no file is selected
             }
 
             const file = fileInput.files.length ? fileInput.files[0] : null;
@@ -140,10 +140,10 @@ It is possible to center something on a page horizontally and vertically. For th
             // Get the first (default) worksheet
             const worksheet = worksheets.get(0);
 
-            // Get the pagesetup object
+            // Get the pageSetup object
             const pageSetup = worksheet.pageSetup;
 
-            // Specify Center on page Horizontally and Vertically
+            // Specify center on page horizontally and vertically
             pageSetup.centerHorizontally = true;
             pageSetup.centerVertically = true;
 
@@ -217,7 +217,7 @@ Set header and footer margins with the [**Worksheet.pageSetup**](https://referen
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'CenterOnPage_out.xls';
+            downloadLink.download = 'HeaderFooterMargins_out.xls';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Modified Excel File';
 

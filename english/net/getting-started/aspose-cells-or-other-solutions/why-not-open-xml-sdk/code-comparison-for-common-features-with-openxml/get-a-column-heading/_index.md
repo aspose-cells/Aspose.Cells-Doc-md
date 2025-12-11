@@ -21,14 +21,13 @@ string cellName = "B3";
 string s1 = GetColumnHeading(FileName, worksheetName, cellName);
 
 // Given a document name, a worksheet name, and a cell name, gets the column of the cell and returns
-
 // the content of the first cell in that column.
 
 public static string GetColumnHeading(string docName, string worksheetName, string cellName)
 
 {
 
-// Open the document as read-only.
+// Open the document as read‑only.
 
 using (SpreadsheetDocument document = SpreadsheetDocument.Open(docName, false))
 
@@ -73,7 +72,6 @@ using (SpreadsheetDocument document = SpreadsheetDocument.Open(docName, false))
     Cell headCell = cells.First();
 
     // If the content of the first cell is stored as a shared string, get the text of the first cell
-
     // from the SharedStringTablePart and return it. Otherwise, return the string value of the cell.
 
     if (headCell.DataType != null && headCell.DataType.Value == CellValues.SharedString)
@@ -122,7 +120,7 @@ private static uint GetRowIndex(string cellName)
 
 {
 
-// Create a regular expression to match the row index portion the cell name.
+// Create a regular expression to match the row index portion of the cell name.
 
 Regex regex = new Regex(@"\d+");
 
@@ -150,23 +148,23 @@ private static string GetColumnHeading(string docName, string worksheetName, str
 
 {
 
-    //Instantiating a Workbook object
+    // Instantiating a Workbook object
 
     Workbook workbook = new Workbook(docName);
 
-    //Obtaining the reference of the worksheet by passing its Name
+    // Obtaining the reference of the worksheet by passing its name
 
     Worksheet worksheet = workbook.Worksheets[worksheetName];
 
-    //Removing value from cell
+    // Getting the cell
 
     Cell Cell = worksheet.Cells[cellName];
 
-    //Get First row of the column
+    // Get the first row of the column
 
     string ColumnHeadingName = CellsHelper.CellIndexToName(0, Cell.Column);
 
-    //return value of heading cell
+    // Return the value of the heading cell
 
     return worksheet.Cells[ColumnHeadingName].Value.ToString();
 

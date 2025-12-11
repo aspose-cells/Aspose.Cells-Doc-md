@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
   
 ## **Introduction**  
   
-Aspose.Cells provides support for signing workbooks with XAdES Signature. For this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignature) class and [**XAdESType**](https://reference.aspose.com/cells/nodejs-cpp/xadestype) enumeration.  
+Aspose.Cells provides support for signing workbooks with an XAdES signature. To do this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignature) class and the [**XAdESType**](https://reference.aspose.com/cells/nodejs-cpp/xadestype) enumeration.  
   
 ## **How to Add XAdES Signature for Excel**  
   
-The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignature) class to sign the [source](101089323.xlsx) workbook.  
+The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/nodejs-cpp/digitalsignature) class to sign the source workbook.  
   
 ```javascript
 const path = require("path");

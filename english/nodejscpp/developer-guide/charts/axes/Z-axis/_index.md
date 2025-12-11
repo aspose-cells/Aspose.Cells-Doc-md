@@ -1,6 +1,6 @@
 ---
 title: Z Axis with Node.js via C++
-description: Learn how to work with the Z-axis in Aspose.Cells for Node.js via C++. Our guide will help you understand how to configure and customize the Z-axis, including its scale and labels, to enhance your charts.
+description: Learn how to work with the Z‑axis in Aspose.Cells for Node.js via C++. Our guide will help you understand how to configure and customize the Z‑axis, including its scale and labels, to enhance your charts.
 keywords: Aspose.Cells for Node.js via C++, Z-axis, charting, configuration, customization, scale, labels.
 type: docs
 weight: 210
@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-For some 3-D charts such as 3-D column, 3-D cone, or 3-D pyramid which has a depth (series) axis, also known as the Z axis, that you can change. You can specify the interval between tick marks, axis labels and other operations.
+For some 3‑D charts such as 3‑D column, 3‑D cone, or 3‑D pyramid that have a depth (series) axis, also known as the Z axis, you can change various settings. You can specify the interval between tick marks, axis labels, and other properties.
 
 ## **Handle Primary and Secondary Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. Then we add a chart and set the chart type to Column3D, then you can see the Z Axis also called Depth Axis. 
+Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. Then we add a chart and set the chart type to Column3D; you can see the Z Axis, also called the Depth Axis.
 
 ![todo:image_alt_text](excel.png)
 
@@ -29,7 +29,7 @@ const filePath = path.join(dataDir, "sample.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 // Get the first worksheet
 const worksheet = workbook.getWorksheets().get(0);
-// Put values to cells for creating chart
+// Put values into cells for creating the chart
 worksheet.getCells().get("A1").putValue("A");
 worksheet.getCells().get("B1").putValue("B");
 worksheet.getCells().get("C1").putValue("C");
@@ -45,11 +45,11 @@ const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column3D, 9, 
 const chart = worksheet.getCharts().get(chartIndex);
 // Calculate the chart
 chart.calculate();
-// Add SeriesCollection (chart data source) to the chart ranging from "A2" cell to "C3"
+// Add SeriesCollection (chart data source) to the chart ranging from the "A2" cell to "C3"
 chart.setChartDataRange("A2:C3", true);
-// Hide the CategoryAxis axis
+// Hide the Category Axis
 chart.getCategoryAxis().setIsVisible(false);
-// Hide the ValueAxis axis
+// Hide the Value Axis
 chart.getValueAxis().setIsVisible(false);
 // Save the file
 workbook.save("ZAxis.xlsx");

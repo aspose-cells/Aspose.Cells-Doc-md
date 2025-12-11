@@ -1,16 +1,16 @@
 ---
-title: Render Solid Gridline while converting Excel to PDF with JavaScript via C++
-linktitle: Render Solid Gridline while converting Excel to PDF
+title: Render Solid Gridlines while converting Excel to PDF with JavaScript via C++
+linktitle: Render Solid Gridlines while converting Excel to PDF
 type: docs
 weight: 390
 url: /javascript-cpp/render-solid-gridline-while-converting-excel-to-pdf/
-description: Learn how to render solid gridlines while converting Excel to PDF using Aspose.Cells for JavaScript via C++. 
-keywords: Render solid gridline to PDF JavaScript via C++, Convert Excel to PDF with solid gridline JavaScript via C++, PdfSaveOptions for solid gridline JavaScript via C++ 
+description: Learn how to render solid gridlines while converting Excel to PDF using Aspose.Cells for JavaScript via C++.
+keywords: Render solid gridlines to PDF JavaScript via C++, Convert Excel to PDF with solid gridlines JavaScript via C++, PdfSaveOptions for solid gridlines JavaScript via C++
 ---
 
-For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines today.
+For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern versions of Excel render gridlines as solid lines.
 
-With option [PdfSaveOptions.gridlineTypes](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) , Aspose.Cells for JavaScript via C++ can also render gridlines as solid lines.
+With option [PdfSaveOptions.gridlineTypes](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions), Aspose.Cells for JavaScript via C++ can also render gridlines as solid lines.
 
 ```html
 <!DOCTYPE html>
@@ -62,14 +62,14 @@ With option [PdfSaveOptions.gridlineTypes](https://reference.aspose.com/cells/ja
             const cell = worksheet.cells.get("D9");
             cell.value = "gridline";
 
-            // Enable to print gridline
+            // Enable printing of gridlines
             worksheet.pageSetup.printGridlines = true;
 
-            // Set to render gridline as solid line
+            // Set to render gridlines as solid lines
             const pdfSaveOptions = new PdfSaveOptions();
             pdfSaveOptions.gridlineType = AsposeCells.GridlineType.Hair;
 
-            // Save the pdf file with PdfSaveOptions
+            // Save the PDF file with PdfSaveOptions
             const outputData = wb.save(SaveFormat.Pdf, pdfSaveOptions);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

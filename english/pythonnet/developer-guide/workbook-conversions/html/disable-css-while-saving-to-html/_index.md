@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to a single page HTML, usually the CSS elements will be embedded within the HTML file and will be located in the HEAD section. If you attach this file as a content/body of an email, the CSS elements will be stripped out by most email clients, resulting in improper rendering. The Aspose.Cells for Python via .NET API introduces an option which allows you to optionally disable CSS, allowing styles to be directly applied within the HTML elements themselves. If you want to set the HTML as the content/body of the email, please use the [**HtmlSaveOptions.disable_css**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/disable_css/) property and set it to **True**.
+When you save your Excel file to a single-page HTML, the CSS elements are usually embedded within the HTML file and placed in the **HEAD** section. If you attach this file as the content/body of an email, most email clients will strip out the CSS elements, resulting in improper rendering. The Aspose.Cells for Python via .NET API introduces an option that allows you to optionally disable CSS, enabling styles to be applied directly within the HTML elements themselves. If you want to set the HTML as the email's content/body, please use the **HtmlSaveOptions.disable_css** property and set it to **True**.
 
 ## **Disable CSS while Saving to HTML**
 
-The following sample code shows the usage of [**HtmlSaveOptions.disable_css**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/disable_css/) property.
+The following sample code shows the usage of the **HtmlSaveOptions.disable_css** property.
 
 ## **Sample Code**
 
@@ -36,10 +36,10 @@ wb = Workbook(os.path.join(source_dir, "sampleDisableCss.xlsx"))
 opts = HtmlSaveOptions()
 opts.disable_css = True
 
-# Create output directory if not exists
+# Create output directory if it does not exist
 os.makedirs(output_dir, exist_ok=True)
 
-# Save the workbook in html
+# Save the workbook in HTML
 wb.save(os.path.join(output_dir, "outputDisable.html"), opts)
 ```
 {{< app/cells/assistant language="python-net" >}}

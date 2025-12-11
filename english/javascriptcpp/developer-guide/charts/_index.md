@@ -1,23 +1,23 @@
----
-title: Create and Manage Chart with JavaScript via C++
-linktitle: Charts
-description: Learn how to use Aspose.Cells for JavaScript via C++ to create charts in Microsoft Excel. Our guide will demonstrate various chart types and how to customize their appearance and formatting.
-keywords: Aspose.Cells for JavaScript via C++, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
-type: docs
-weight: 130
-url: /javascript-cpp/creating-charts/
----
+---  
+title: Create and Manage Chart with JavaScript via C++  
+linktitle: Charts  
+description: Learn how to use Aspose.Cells for JavaScript via C++ to create charts in Microsoft Excel. Our guide will demonstrate various chart types and how to customize their appearance and formatting.  
+keywords: Aspose.Cells for JavaScript via C++, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.  
+type: docs  
+weight: 130  
+url: /javascript-cpp/creating-charts/  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Aspose.Cells provides many flexible charting objects. This topic discusses Aspose.Cells' charting objects.
+It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Aspose.Cells provides many flexible charting objects. This topic discusses Aspose.Cells' charting objects.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Creating Charts**
+## **Creating Charts**  
 
-### **Simply Creating a Chart**
-It’s simple to create a chart with Aspose.Cells with the following example codes:
+### **Simply Creating a Chart**  
+It is simple to create a chart with Aspose.Cells with the following example code:  
 ```html
 <!DOCTYPE html>
 <html>
@@ -100,63 +100,58 @@ It’s simple to create a chart with Aspose.Cells with the following example cod
         });
     </script>
 </html>
-```
+```  
 
-### **Things to Know for Creating a Chart**
+### **Things to Know for Creating a Chart**  
 
-Before creating charts, it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
+Before creating charts, it is important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.  
 
-#### **Charting Objects**
+#### **Charting Objects**  
 
-The charting objects are listed below:
+The charting objects are listed below:  
 
-- Series, a single data series in a chart.
-- Axis, a chart's axis.
-- Chart, a single Excel chart.
-- ChartArea, the chart area in the worksheet.
-- ChartDataTable, a chart data table.
-- ChartFrame, the frame object in a chart.
-- ChartPoint, a single point in a series in a chart.
-- ChartPointCollection, a collection that contains all the points in one series.
-- Charts, a collection of Chart objects.
-- DataLabels, a collection of all the DataLabel objects for the specified series.
-- FillFormat, fill format for a shape.
-- Floor, the floor of a 3D chart.
-- Legend, the chart legend.
-- Line, the chart line.
-- SeriesCollection, a collection of Series objects.
-- TickLabels, the tick mark labels associated with tick marks on a chart axis.
-- Title, the title of a chart or axis.
-- Trendline, a trendline in a chart.
-- TrendlineCollection, a collection of all Trendline objects for the specified data series.
-- Walls, the walls of a 3D chart.
+- Series, a single data series in a chart.  
+- Axis, a chart's axis.  
+- Chart, a single Excel chart.  
+- ChartArea, the chart area in the worksheet.  
+- ChartDataTable, a chart data table.  
+- ChartFrame, the frame object in a chart.  
+- ChartPoint, a single point in a series in a chart.  
+- ChartPointCollection, a collection that contains all the points in one series.  
+- Charts, a collection of Chart objects.  
+- DataLabels, a collection of all the DataLabel objects for the specified series.  
+- FillFormat, fill format for a shape.  
+- Floor, the floor of a 3D chart.  
+- Legend, the chart legend.  
+- Line, the chart line.  
+- SeriesCollection, a collection of Series objects.  
+- TickLabels, the tick mark labels associated with tick marks on a chart axis.  
+- Title, the title of a chart or axis.  
+- Trendline, a trendline in a chart.  
+- TrendlineCollection, a collection of all Trendline objects for the specified data series.  
+- Walls, the walls of a 3D chart.  
 
-#### **Using Charting Objects**
+#### **Using Charting Objects**  
 
-As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.
+As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.  
 
-Add any type of chart to a worksheet using the [**charts**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#charts--) collection. Each item in the [**charts**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#charts--) collection represents a [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object. A [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+Add any type of chart to a worksheet using the [**charts**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#charts--) collection. Each item in the [**charts**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#charts--) collection represents a [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object. A [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.  
 
-### **Create Chart Using Aspose.Cells**
+### **Create Chart Using Aspose.Cells**  
 
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell/) object's [**putValue(string)**](https://reference.aspose.com/cells/javascript-cpp/cell/#putValue-string-) method. This will be used as the data source for the chart.  
+2. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/javascript-cpp/chartcollection) collection's [**add**](https://reference.aspose.com/cells/javascript-cpp/chartcollection/#add-charttype-number-number-number-number-) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet/) object.  
+3. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) enumeration. For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/javascript-cpp/charttype) value as the chart type.  
+4. Access the new [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object from the [**Charts**](https://reference.aspose.com/cells/javascript-cpp/chartcollection) collection by passing its index.  
+5. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object to manage the chart. The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/javascript-cpp/seriescollection/) charting object to specify the chart's data source.  
 
+When adding source data to the chart, the data source can be a range of cells (such as "A1:C3"), a sequence of non‑contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").  
 
-1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell/) object's [**putValue(string)**](https://reference.aspose.com/cells/javascript-cpp/cell/#putValue-string-) method.
-   This will be used as the data source for the chart.
-2. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/javascript-cpp/chartcollection) collection's [**add**](https://reference.aspose.com/cells/javascript-cpp/chartcollection/#add-charttype-number-number-number-number-) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet/) object.
-3. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) enumeration.
-   For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/javascript-cpp/charttype) value as the chart type.
-4. Access the new [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object from the [**Charts**](https://reference.aspose.com/cells/javascript-cpp/chartcollection) collection by passing its index.
-5. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/javascript-cpp/chart/) object to manage the chart.
-   The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/javascript-cpp/seriescollection/) charting object to specify the chart's data source.
+These general steps allow you to create any type of chart. Use different charting objects to create different charts.  
 
-When adding source data to the chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
+It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre‑defined in an enumeration named [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/).  
 
-These general steps allow you to create any type of chart. Use different charting objects to create different charts.
-
-It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/).
-
-The pre-defined chart types are:
+The pre‑defined chart types are:  
 
 |**Chart Types**|**Description**|
 | :- | :- |
@@ -230,15 +225,15 @@ The pre-defined chart types are:
 |PyramidBar100PercentStacked|Represents 100% Stacked Pyramid Bar Chart|
 |PyramidColumn3D|Represents 3D Pyramid Column Chart|
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-When you assign a range of cells as the data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
+When you assign a range of cells as the data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-#### **Pyramid Chart**
+#### **Pyramid Chart**  
 
-When the example code is executed, a pyramid chart is added to the worksheet.
+When the example code is executed, a pyramid chart is added to the worksheet.  
 
 ```html
 <!DOCTYPE html>
@@ -318,11 +313,11 @@ When the example code is executed, a pyramid chart is added to the worksheet.
         });
     </script>
 </html>
-```
+```  
 
-#### **Line Chart**
+#### **Line Chart**  
 
-In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
+In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) to *Line* creates a line chart. The complete source is provided below. **When** the code is executed, a line chart is added to the worksheet.  
 
 ```html
 <!DOCTYPE html>
@@ -404,15 +399,15 @@ In the above example, simply changing the [**ChartType**](https://reference.aspo
         });
     </script>
 </html>
-```
+```  
 
-#### **Bubble Chart**
+#### **Bubble Chart**  
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/javascript-cpp/charttype) and a few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/javascript-cpp/charttype) and a few extra properties such as BubbleSizes, Values, and XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.  
 
-#### **Line with Data Marker Chart**
+#### **Line with Data Marker Chart**  
 
-In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) has to be set to *ChartType.LineWithDataMarkers* and a few extra properties such as background area, Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
+In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/javascript-cpp/charttype/) has to be set to *ChartType.LineWithDataMarkers* and a few extra properties such as background area, series markers, values, and XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.  
 
 ```html
 <!DOCTYPE html>
@@ -494,26 +489,26 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
             // Set autoscaling value to true
             chart.autoScaling = true;
 
-            // Set foreground color white
+            // Set foreground color to white
             chart.plotArea.area.foregroundColor = AsposeCells.Color.White;
 
-            // Set Properties of chart title
+            // Set properties of chart title
             chart.title.text = "Sample Chart";
 
             // Set chart type
             chart.type = AsposeCells.ChartType.LineWithDataMarkers;
 
-            // Set Properties of categoryaxis title
+            // Set properties of category axis title
             chart.categoryAxis.title.text = "Units";
 
-            //Set Properties of nseries
+            // Set properties of nSeries
             const s2_idx = chart.nSeries.add("A2:A2", true);
             const s3_idx = chart.nSeries.add("A22:A22", true);
 
-            // Set IsColorVaried to true for varied points color
+            // Set isColorVaried to true for varied point colors
             chart.nSeries.isColorVaried = true;
 
-            // Set properties of background area and series markers
+            // Set properties of background area and series markers for series2
             const series2 = chart.nSeries.get(s2_idx);
             series2.area.formatting = AsposeCells.FormattingType.Custom;
             series2.marker.area.foregroundColor = AsposeCells.Color.Yellow;
@@ -545,21 +540,21 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
         });
     </script>
 </html>
-```
+```  
 
-## **Advance topics**
-- [Read and Manipulate Excel 2016 Charts](/cells/javascript-cpp/read-and-manipulate-excel-2016-charts/)
-- [Manage Axes of Excel Charts](/cells/javascript-cpp/chart-axes/)
-- [Setting Chart Appearance](/cells/javascript-cpp/setting-chart-appearance/)
-- [Chart Types](/cells/javascript-cpp/chart-types/)
-- [Customizing Charts](/cells/javascript-cpp/customizing-charts/)
-- [Set Data source for the chart](/cells/javascript-cpp/data-formatting-in-charts/)
-- [Manage DataLabels of Excel Charts](/cells/javascript-cpp/insert-datalabels-to-chart/)
-- [Get Worksheet of the Chart](/cells/javascript-cpp/get-worksheet-of-the-chart/)
-- [Manage Legend of Excel Charts](/cells/javascript-cpp/chart-legend/)
-- [Manipulate Position Size and Designer Chart](/cells/javascript-cpp/manipulate-position-size-and-designer-chart/)
-- [Creating Pie Chart with Leader Lines](/cells/javascript-cpp/creating-pie-chart-with-leader-lines/)
-- [Shapes in Charts](/cells/javascript-cpp/controls-in-charts/)
-- [Manage Titles of Excel Charts](/cells/javascript-cpp/chart-and-axis-titles/)
-- [Chart Rendering](/cells/javascript-cpp/chart-rendering/)
-- [Get Equation Text of Chart Trendline](/cells/javascript-cpp/get-equation-text-of-chart-trendline/)
+## **Advanced topics**  
+- [Read and Manipulate Excel 2016 Charts](/cells/javascript-cpp/read-and-manipulate-excel-2016-charts/)  
+- [Manage Axes of Excel Charts](/cells/javascript-cpp/chart-axes/)  
+- [Setting Chart Appearance](/cells/javascript-cpp/setting-chart-appearance/)  
+- [Chart Types](/cells/javascript-cpp/chart-types/)  
+- [Customizing Charts](/cells/javascript-cpp/customizing-charts/)  
+- [Set Data source for the chart](/cells/javascript-cpp/data-formatting-in-charts/)  
+- [Manage DataLabels of Excel Charts](/cells/javascript-cpp/insert-datalabels-to-chart/)  
+- [Get Worksheet of the Chart](/cells/javascript-cpp/get-worksheet-of-the-chart/)  
+- [Manage Legend of Excel Charts](/cells/javascript-cpp/chart-legend/)  
+- [Manipulate Position Size and Designer Chart](/cells/javascript-cpp/manipulate-position-size-and-designer-chart/)  
+- [Creating Pie Chart with Leader Lines](/cells/javascript-cpp/creating-pie-chart-with-leader-lines/)  
+- [Shapes in Charts](/cells/javascript-cpp/controls-in-charts/)  
+- [Manage Titles of Excel Charts](/cells/javascript-cpp/chart-and-axis-titles/)  
+- [Chart Rendering](/cells/javascript-cpp/chart-rendering/)  
+- [Get Equation Text of Chart Trendline](/cells/javascript-cpp/get-equation-text-of-chart-trendline/)  

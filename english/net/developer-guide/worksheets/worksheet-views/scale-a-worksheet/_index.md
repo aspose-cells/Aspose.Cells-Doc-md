@@ -3,7 +3,7 @@ title: How to Scale a Worksheet
 type: docs
 weight: 130
 url: /net/how-to-scale-a-worksheet/
-description: This article shows you code explaining how to scale a worksheet using Aspose.Cells library.
+description: This article shows you code explaining how to scale a worksheet using the Aspose.Cells library.
 keywords: C# scale a worksheet, How to Scale a Worksheet using C#, Scale a worksheet in C#.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -31,6 +31,7 @@ Scaling a worksheet in Excel can help you fit your content onto a single page or
 1. Go to the Page Layout Tab: Click on the Page Layout tab in the Ribbon.
 
 1. Scale to Fit Group: In the Page Layout tab, find the Scale to Fit group. Here you have options to adjust the scaling. Width: This option allows you to specify how many pages wide the printed worksheet will be. Height: This option allows you to specify how many pages tall the printed worksheet will be. Scale: You can also set a custom scaling percentage here.
+
 <br>
 <img src="1.png" width=60% />
 
@@ -38,9 +39,8 @@ Scaling a worksheet in Excel can help you fit your content onto a single page or
 
 1. Adjust Scaling Percentage (if needed): If you prefer to set a specific scaling percentage, adjust the Scale box. For instance, setting it to 50% will make everything half the size.
 
-
 ## **How to Scale a Worksheet Using C#**
-Aspose.Cells is a powerful library for working with Excel files programmatically. To scale a worksheet using Aspose.Cells, you need to follow these steps: load [sample file](sample.xlsx) and adjust the print settings so that the content fits to the desired number of pages or a specific percentage of the original size.
+Aspose.Cells is a powerful library for working with Excel files programmatically. To scale a worksheet using Aspose.Cells, you need to follow these steps: load the [sample file](sample.xlsx) and adjust the print settings so that the content fits the desired number of pages or a specific percentage of the original size.
 
 ### **Example: Fit to Page**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-scale-a-worksheet-fit-to-page.cs" >}}

@@ -11,8 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  
-Combo charts in Excel let you avail of this option because you can easily combine two or more chart types to make your data understandable. Combo charts are helpful when your data contains multiple kinds of values including price and volume. Moreover, Combo charts are feasible when your data numbers change widely from series to series.  
-
+Combo charts in Excel allow you to combine two or more chart types easily, making your data more understandable. Combo charts are helpful when your data contains multiple kinds of values, including price and volume. Moreover, combo charts are useful when your data values vary widely from series to series.  
 
 ![todo:image_alt_text](sample.png)  
 ## **Combo chart**  
@@ -49,7 +48,7 @@ int main()
     // Set the chart title
     chart.GetTitle().SetText(u"Combo Chart");
     
-    // Set the Legend position to bottom of the chart area
+    // Set the legend position to the bottom of the chart area
     chart.GetLegend().SetPosition(LegendPositionType::Bottom);
     
     // Set data range
@@ -96,7 +95,7 @@ int main()
     // Set color for the first series
     chart.GetNSeries().Get(0).GetBorder().SetColor(Color::DarkBlue());
     
-    // Fill the PlotArea area with nothing 
+    // Fill the PlotArea with nothing
     chart.GetPlotArea().GetArea().SetFormatting(FormattingType::None);
     
     // Save the Excel file

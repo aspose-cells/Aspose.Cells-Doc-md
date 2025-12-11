@@ -8,7 +8,7 @@ description: Learn how to detect a file format and check if a file is encrypted 
 ---
 
 {{% alert color="primary" %}}  
-Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password-protected file) so it can't be read directly, or we should not read it. Aspose.Cells for JavaScript via C++ provides the [**FileFormatUtil.detectFileFormat(Uint8Array)**](https://reference.aspose.com/cells/javascript-cpp/fileformatutil/#detectFileFormat-uint8array-) static method and some relevant APIs that you can use to process documents.  
+Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file's content is appropriate. The file might be encrypted (a password‑protected file), so it can't be read directly, or it should not be read. Aspose.Cells for JavaScript via C++ provides the [**FileFormatUtil.detectFileFormat(Uint8Array)**](https://reference.aspose.com/cells/javascript-cpp/fileformatutil/#detectFileFormat-uint8array-) static method and some relevant APIs that you can use to process documents.  
 {{% /alert %}}  
 
 The following sample code illustrates how to detect a file format (using the file path) and check its extension. You can also determine whether the file is encrypted.  

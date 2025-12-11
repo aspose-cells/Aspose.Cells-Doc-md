@@ -10,11 +10,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Early versions of Aspose.Cells were not able to handle automatic units of the chart axis properly when the chart is rendered to image or PDF. Now, Aspose.Cells supports the handling of automatic units of the chart axis. There is no code change. Just convert your chart into image or PDF and it will render the chart axis just like Microsoft Excel renders it.
+Early versions of Aspose.Cells were not able to handle automatic units of the chart axis properly when the chart is rendered to an image or PDF. Now, Aspose.Cells supports automatic units on the chart axis. There is no code change. Just convert your chart into an image or PDF, and it will render the chart axis just as Microsoft Excel does.
+
 ## **Handle Automatic Units of Chart Axis like Microsoft Excel**
-The following sample code loads the [sample Excel file](61767755.xlsx) and generates the [output PDF chart](61767752.pdf). The screenshot shows the automatic units of chart axis in red rectangles and also compares the sample Excel file chart with the output PDF chart. Both are exactly similar.
+The following sample code loads the [sample Excel file](61767755.xlsx) and generates the [output PDF chart](61767752.pdf). The screenshot shows the automatic units of the chart axis in red rectangles and compares the sample Excel file chart with the output PDF chart. Both are exactly the same.
 
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
+
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

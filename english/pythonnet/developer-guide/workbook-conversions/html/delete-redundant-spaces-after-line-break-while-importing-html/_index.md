@@ -3,15 +3,15 @@ title: Delete redundant spaces after line break while importing HTML
 type: docs
 weight: 20
 url: /python-net/delete-redundant-spaces-after-line-break-while-importing/
-description: This topic show you how to Delete redundant spaces after line break while importing HTML using Aspose.Cells for Python via NET.
-keywords: Delete redundant spaces after line break while importing HTML, Delete redundant spaces for importing html.
+description: This topic shows you how to delete redundant spaces after line break while importing HTML using Aspose.Cells for Python via .NET.
+keywords: Delete redundant spaces after line break while importing HTML, Delete redundant spaces for importing HTML.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Please use [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) property and set it **true** to delete all the redundant spaces coming after the line break tag. By default, this property is **false** and redundant spaces are preserved in the output excel files.
+Please use [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) property and set it to **true** to delete all the redundant spaces that come after the line break tag. By default, this property is **false** and redundant spaces are preserved in the output Excel files.
 
 {{% /alert %}}
 
@@ -25,7 +25,7 @@ The following screenshot shows the effect of setting this property to **false** 
 
 ### Programming Sample
 
-The following sample code shows the usage of the [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) property. Please set it **true** or **false** to get the output as shown in the above screenshot.
+The following sample code shows the usage of the [**HTMLLoadOptions.delete_redundant_spaces**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/delete_redundant_spaces/) property. Please set it to **true** or **false** to get the output as shown in the above screenshot.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-DeleteRedundantSpacesWhileImportingFromHtml-1.py" >}}
 {{< app/cells/assistant language="python-net" >}}

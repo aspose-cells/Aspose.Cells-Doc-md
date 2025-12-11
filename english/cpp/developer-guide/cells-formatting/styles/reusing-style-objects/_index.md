@@ -18,9 +18,9 @@ Reusing style objects can save memory and make a program faster.
 
 To apply some formatting to a large range of cells in a worksheet:
 
-1. Create a style object.
-1. Specify the attributes.
-1. Apply the style to the cells in the range.
+1. Create a style object.  
+2. Specify the attributes.  
+3. Apply the style to the cells in the range.
 
 ```cpp
 #include <iostream>
@@ -55,11 +55,11 @@ int main()
     cell1.SetStyle(styleObject);
     cell2.SetStyle(styleObject);
 
-    // Put the values inside the cell
+    // Put the values inside the cells
     cell1.PutValue(u"Hello World!");
     cell2.PutValue(u"Hello World!!");
 
-    // Save to Pdf without setting PdfSaveOptions.IsFontSubstitutionCharGranularity
+    // Save to PDF without setting PdfSaveOptions.IsFontSubstitutionCharGranularity
     workbook.Save(outDir + u"SampleOutput_out.xlsx");
 
     Aspose::Cells::Cleanup();
@@ -68,7 +68,7 @@ int main()
 
 {{% alert color="primary" %}}
 
-Because the [**Cell.GetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/)/[**Cell.SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) approach uses a lot less memory, and is efficient, the older Cell.Style property which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.
+Because the **Cell.GetStyle**/**Cell.SetStyle** approach uses far less memory and is efficient, the older **Cell.Style** property, which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.
 
 {{% /alert %}}
 {{< app/cells/assistant language="cpp" >}}

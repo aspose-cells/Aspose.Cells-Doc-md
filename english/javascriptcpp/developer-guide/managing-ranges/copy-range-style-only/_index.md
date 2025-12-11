@@ -4,22 +4,22 @@ linktitle: Copy Range Style Only
 type: docs
 weight: 620
 url: /javascript-cpp/copy-range-style-only/
-description: Learn how to copy only the style of a range while manipulating data in Aspose.Cells for JavaScript via C++. 
+description: Learn how to copy only the style of a range while manipulating data in Aspose.Cells for JavaScript via C++.
 ---
 
 {{% alert color="primary" %}}
 
-[Copy Range Data Only](/cells/javascript-cpp/copy-range-data-only/) and [Copy Range Data with Style](/cells/javascript-cpp/copy-range-data-with-style/) explained how to copy data from a range to another on its own or complete with formatting. It is also possible to copy only the formatting. This article shows how.
+[Copy Range Data Only](/cells/javascript-cpp/copy-range-data-only/) and [Copy Range Data with Style](/cells/javascript-cpp/copy-range-data-with-style/) explain how to copy data from one range to another on its own or together with formatting. It is also possible to copy only the formatting. This article shows how.
 
 {{% /alert %}} 
 
-This example creates a workbook, populates it with data and copies a range's style only.
+This example creates a workbook, populates it with data, and copies a range's style only.
 
-1. Create a range.
-1. Create a `Style` object with specified formatting attributes.
-1. Apply the style formatting to the range.
-1. Create a second range of cells.
-1. Copy the first range's formatting to the second range.
+1. Create a range.  
+2. Create a `Style` object with specified formatting attributes.  
+3. Apply the style formatting to the range.  
+4. Create a second range of cells.  
+5. Copy the first range's formatting to the second range.
 
 ```html
 <!DOCTYPE html>
@@ -101,15 +101,15 @@ This example creates a workbook, populates it with data and copies a range's sty
             right.lineStyle = AsposeCells.CellBorderType.Thin;
             right.color = AsposeCells.Color.Blue;
 
-            // Create the styleflag object.
+            // Create the StyleFlag object.
             const flag1 = new AsposeCells.StyleFlag();
-            // Implement font attribute
+            // Set font attribute.
             flag1.fontName = true;
-            // Implement the shading / fill color.
+            // Set the shading/fill color.
             flag1.cellShading = true;
-            // Implement border attributes.
+            // Set border attributes.
             flag1.borders = true;
-            // Set the Range style.
+            // Apply the style to the range.
             range.applyStyle(style, flag1);
 
             // Create a second range (C10:E13).

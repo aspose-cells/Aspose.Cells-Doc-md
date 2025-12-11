@@ -25,23 +25,23 @@ The following is the code for the `TestPageSavingCallback` custom class.
 
 {{< highlight java >}}
 
-Start saving page index 0 of pages 11</br>
-End saving page index 0 of pages 11</br>
-Start saving page index 1 of pages 11</br>
-End saving page index 1 of pages 11</br>
-Start saving page index 2 of pages 11</br>
-End saving page index 2 of pages 11</br>
-Start saving page index 3 of pages 11</br>
-End saving page index 3 of pages 11</br>
-Start saving page index 4 of pages 11</br>
-End saving page index 4 of pages 11</br>
-Start saving page index 5 of pages 11</br>
-End saving page index 5 of pages 11</br>
-Start saving page index 6 of pages 11</br>
-End saving page index 6 of pages 11</br>
-Start saving page index 7 of pages 11</br>
-End saving page index 7 of pages 11</br>
-Start saving page index 8 of pages 11</br>
-End saving page index 8 of pages 11
+Start saving page index 0 of 11 pages</br>
+End saving page index 0 of 11 pages</br>
+Start saving page index 1 of 11 pages</br>
+End saving page index 1 of 11 pages</br>
+Start saving page index 2 of 11 pages</br>
+End saving page index 2 of 11 pages</br>
+Start saving page index 3 of 11 pages</br>
+End saving page index 3 of 11 pages</br>
+Start saving page index 4 of 11 pages</br>
+End saving page index 4 of 11 pages</br>
+Start saving page index 5 of 11 pages</br>
+End saving page index 5 of 11 pages</br>
+Start saving page index 6 of 11 pages</br>
+End saving page index 6 of 11 pages</br>
+Start saving page index 7 of 11 pages</br>
+End saving page index 7 of 11 pages</br>
+Start saving page index 8 of 11 pages</br>
+End saving page index 8 of 11 pages
 
 {{< /highlight >}}

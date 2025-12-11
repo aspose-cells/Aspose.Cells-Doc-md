@@ -1,26 +1,26 @@
----
-title: Convert CSV to JSON with JavaScript via C++
-linktitle: Convert CSV to JSON
-type: docs
-weight: 220
-url: /javascript-cpp/convert-csv-to-json/
-description: Convert CSV file to JSON using the easy-to-use Aspose.Cells for JavaScript via C++ API.
-keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON JavaScript via C++, c++ code to convert CSV to JSON
----
+---  
+title: Convert CSV to JSON with JavaScript via C++  
+linktitle: Convert CSV to JSON  
+type: docs  
+weight: 220  
+url: /javascript-cpp/convert-csv-to-json/  
+description: Convert CSV file to JSON using the easy-to-use Aspose.Cells for JavaScript via C++ API.  
+keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON JavaScript via C++, c++ code to convert CSV to JSON  
+---  
 
-## **Convert CSV to JSON**
+## **Convert CSV to JSON**  
 
-Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class provides the options for exporting range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class has the following properties.
+Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class provides the options for exporting a range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class has the following properties.  
 
-- [**ExportRangeToJsonOptions.exportAsString**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#exportAsString--): This exports the string value of the cells to JSON.
-- [**ExportRangeToJsonOptions.hasHeaderRow**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#hasHeaderRow--): This indicates whether the range contains a header row.
-- [**ExportRangeToJsonOptions.indent**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#indent--): Indicates the indent.
+- [**ExportRangeToJsonOptions.exportAsString**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#exportAsString--): This exports the string value of the cells to JSON.  
+- [**ExportRangeToJsonOptions.hasHeaderRow**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#hasHeaderRow--): This indicates whether the range contains a header row.  
+- [**ExportRangeToJsonOptions.indent**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/#indent--): Indicates the indentation.  
 
-The [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class.
+The [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) class.  
 
-The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) classes to load the [source CSV file](104398879.csv) and prints the JSON output in the console.
+The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/javascript-cpp/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility/) classes to load the [source CSV file](104398879.csv) and print the JSON output in the console.  
 
-### **Sample Code**
+### **Sample Code**  
 
 ```html
 <!DOCTYPE html>
@@ -102,11 +102,12 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**]
         });
     </script>
 </html>
-```
+```  
 
-### **Console Output**
-{{< highlight java >}}
+### **Console Output**  
+{{< highlight json >}}  
 
+```json
 [
 {
 "id": 1,
@@ -114,7 +115,7 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**]
 "edition": "third",
 "author": "Herbert Schildt",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
@@ -124,20 +125,21 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**]
 "edition": "second",
 "author": "EAAAA",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
 {
 "id": 3,
-"language": ".Net",
+"language": ".NET",
 "edition": "second",
 "author": "E.Balagurusamy",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 }
 ]
+```  
 
 {{< /highlight >}}

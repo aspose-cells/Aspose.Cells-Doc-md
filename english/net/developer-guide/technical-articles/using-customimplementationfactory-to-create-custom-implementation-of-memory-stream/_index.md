@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells has provided an API named [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) which enables the user to provide custom implementation such as using Recyclable memory implementation instead of the default MemoryStream.
+Aspose.Cells provides an API named [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) which enables the user to provide a custom implementation, such as using a Recyclable memory implementation instead of the default MemoryStream.
 
 ## **Using CustomImplementationFactory to create custom implementation of Memory Stream**
 
-The following sample code illustrates how to make use of [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) in your program. Sometimes, there is enough memory in your system but the memory is not contiguous. Memory Stream objects use contiguous memory but you can provide the implementation of Memory Stream in such a way that it uses the non-contiguous memory instead,
+The following sample code illustrates how to make use of [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) in your program. Sometimes there is enough memory in your system, but the memory is not contiguous. MemoryStream objects use contiguous memory, but you can provide an implementation of MemoryStream in such a way that it uses non‑contiguous memory instead.
 
 ## **Sample Code**
 

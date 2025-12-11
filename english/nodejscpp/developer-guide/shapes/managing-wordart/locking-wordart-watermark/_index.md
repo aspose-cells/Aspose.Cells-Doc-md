@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that the WordArt becomes an object that you can move and position on the worksheet. It is also possible to lock the WordArt object for any interaction such as editing, movement & selection. This article explains the usage of [**Shape.setLockedProperty(ShapeLockType, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/shape/#setLockedProperty-shapelocktype-boolean-) method to lock a few aspects of the watermark.
+Aspose.Cells APIs allow adding WordArt watermarks to the worksheet, where the WordArt becomes an object that you can move and position. It is also possible to lock the WordArt object for any interaction such as editing, movement, and selection. This article explains the usage of [**Shape.setLockedProperty(ShapeLockType, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/shape/#setLockedProperty-shapelocktype-boolean-) method to lock several aspects of the watermark.  
 
 {{% /alert %}}  
 
-Aspose.Cells APIs allow locking certain aspects of the watermark so that user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for Node.js via C++ to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.  
+Aspose.Cells APIs allow locking certain aspects of the watermark so that user interaction can be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for Node.js via C++ to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.  
 
 ```javascript
 const path = require("path");
@@ -32,7 +32,7 @@ const sheet = workbook.getWorksheets().get(0);
 
 // Add Watermark
 const wordart = sheet.getShapes().addTextEffect(AsposeCells.MsoPresetTextEffect.TextEffect1,
-"CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
+    "CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
 
 // Lock Shape Aspects
 wordart.setIsLocked(true);
@@ -57,5 +57,5 @@ wordart.setHasLine(false);
 // Save the file
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

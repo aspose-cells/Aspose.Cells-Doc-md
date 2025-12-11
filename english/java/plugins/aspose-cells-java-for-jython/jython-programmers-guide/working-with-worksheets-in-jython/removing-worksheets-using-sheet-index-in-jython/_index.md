@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Removing Worksheets using Sheet Index**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+To remove worksheets using **Aspose.Cells Java for Jython**, see the example code below.
 
 **Jython Code**
 
@@ -21,7 +21,7 @@ from com.aspose.cells import Workbook
 from java.io import FileInputStream;
 
 
-class RemovingWorksheetsusingSheetIndex:
+class RemovingWorksheetsUsingSheetIndex:
 
     def __init__(self):
 
@@ -31,33 +31,33 @@ class RemovingWorksheetsusingSheetIndex:
 
         fstream=FileInputStream(dataDir + "Book1.xls");
 
-        #Instantiating a Workbook object with the stream
+        # Instantiating a Workbook object with the stream
 
         workbook = Workbook(fstream)
 
-        #Removing a worksheet using its sheet index
+        # Removing a worksheet using its sheet index
 
         workbook.getWorksheets().removeAt(0)
 
-        #Saving the Excel file
+        # Saving the Excel file
 
         workbook.save(dataDir + "book.out.xls")
 
-        #Closing the file stream to free all resources
+        # Closing the file stream to free all resources
 
         fstream.close()
 
 
-        #Print Message
+        # Print Message
 
         print "Sheet removed successfully."
 
 if __name__ == '__main__':        
 
-    RemovingWorksheetsusingSheetIndex()
+    RemovingWorksheetsUsingSheetIndex()
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download the example code from any of the social coding sites listed below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetIndex.py)

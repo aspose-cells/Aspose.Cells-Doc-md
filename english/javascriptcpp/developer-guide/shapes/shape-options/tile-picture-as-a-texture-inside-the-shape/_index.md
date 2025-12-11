@@ -1,19 +1,19 @@
----
-title: Tile Picture as a Texture inside the Shape with JavaScript via C++
-linktitle: Tile Picture as a Texture inside the Shape
-type: docs
-weight: 1700
-url: /javascript-cpp/tile-picture-as-a-texture-inside-the-shape/
-description: Learn how to tile a small picture as a texture inside a shape using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Tile Picture as a Texture inside the Shape with JavaScript via C++  
+linktitle: Tile Picture as a Texture inside the Shape  
+type: docs  
+weight: 1700  
+url: /javascript-cpp/tile-picture-as-a-texture-inside-the-shape/  
+description: Learn how to tile a small picture as a texture inside a shape using Aspose.Cells for JavaScript via C++.  
+---  
 
 ## **Possible Usage Scenarios**  
 
-When the picture is small and does not cover the entire surface of the shape without losing its quality, then you have the option to tile it. Tiling fills the shape surface with a small image by repeating them as if they are tiles.  
+When the picture is small and does not cover the entire surface of the shape while maintaining its quality, you have the option to tile it. Tiling fills the shape surface with a small image by repeating it as if it were tiles.  
 
 ## **Tile Picture as a Texture inside the Shape**  
 
-You can fill the shape surface with some image and tile it using the [**Shape.isTiling()**](https://reference.aspose.com/cells/javascript-cpp/texturefill/#isTiling--) property and setting it **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx) as well as the screenshot for a reference.  
+You can fill the shape surface with an image and tile it using the [**Shape.isTiling()**](https://reference.aspose.com/cells/javascript-cpp/texturefill/#isTiling--) property by setting it **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx) as well as the screenshot for reference.  
 
 ## **Screenshot**  
 

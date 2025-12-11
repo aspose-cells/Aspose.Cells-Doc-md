@@ -1,6 +1,6 @@
 ---
-title: Inserting a WAV file as an Ole Object with Node.js via C++
-linktitle: Inserting a WAV file as an Ole Object
+title: Inserting a WAV file as an OLE Object with Node.js via C++
+linktitle: Inserting a WAV file as an OLE Object
 type: docs
 weight: 70
 url: /nodejs-cpp/inserting-a-wav-file-as-an-ole-object/
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides the functionality to add different types of OLE objects to the Excel worksheets. We will see in the following code examples, how to add a WAV file as an OLE object using simple APIs provided by Aspose.Cells. 
+Aspose.Cells provides the functionality to add different types of OLE objects to Excel worksheets. We will see in the following code examples how to add a WAV file as an OLE object using simple APIs provided by Aspose.Cells. 
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ const imageUrl = path.join(dataDir, "image2.jpg");
 
 imageData = fs.readFileSync(imageUrl);
 
-// Get an excel file path in a variable.
+// Get an Excel file path in a variable.
 const filePath = path.join(dataDir, "chord.wav");
 fs.writeFileSync(filePath, Buffer.from('RIFF____WAVEfmt \x10\x00\x00\x00\x01\x00\x01\x00\x00\x04\x00\x00\x00\x04\x00\x00\x01\x00\x08\x00data____', 'binary'));
 
@@ -41,13 +41,15 @@ const workbook = new AsposeCells.Workbook();
 
 const sheet = workbook.getWorksheets().get(0);
 
-// Add Ole Object
+// Add OLE Object
 sheet.getOleObjects().add(14, 3, 200, 220, imageData);
 workbook.getWorksheets().get(0).getOleObjects().get(intIndex).setFileFormatType(AsposeCells.FileFormatType.Unknown);
 workbook.getWorksheets().get(0).getOleObjects().get(intIndex).setObjectData(objectData);
 workbook.getWorksheets().get(0).getOleObjects().get(intIndex).setObjectSourceFullName(filePath);
 
-// Save the excel file
+// Save the Excel file
 workbook.save(path.join(dataDir, "testWAV.out.xlsx"));
 ```
+
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

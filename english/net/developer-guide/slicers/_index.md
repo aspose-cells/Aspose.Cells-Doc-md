@@ -11,9 +11,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-A slicer is used to filter data quickly. It can be used to filter data both in a table or pivot table. Microsoft Excel allows you to create slicer by selecting a table or pivot table and then clicking the *Insert > Slicer*. Aspose.Cells also allows you to create slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index) method.
+A slicer is used to filter data quickly. It can be used to filter data both in a table **and** a pivot table. Microsoft Excel allows you to create **a** slicer by selecting a table or pivot table and then clicking *Insert > Slicer*. Aspose.Cells also allows you to create **a** slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index) method.
 
-## **Create Slicer to a Pivot Table**
+## **Create a Slicer for a Pivot Table**
 
 Please see the following sample code. It loads the [sample Excel file](67338470.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](67338471.xlsx) and [output XLSB](67338472.xlsb) format. The following screenshot shows the slicer created by Aspose.Cells in the output Excel file.
 
@@ -23,7 +23,7 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
-## **Create Slicer to Excel Table**
+## **Create a Slicer for an Excel Table**
 
 Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column. Finally, it saves the workbook in [output XLSX](outputCreateSlicerToExcelTable.xlsx) format.
 
@@ -31,7 +31,7 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Slicer Properties](/cells/net/change-slicer-properties/)
 - [Draw Slicer while rendering Excel to PDF](/cells/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [Formatting Slicer](/cells/net/formatting-slicer/)

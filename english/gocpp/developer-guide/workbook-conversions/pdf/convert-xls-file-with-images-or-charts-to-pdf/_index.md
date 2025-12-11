@@ -17,6 +17,6 @@ Aspose.Cells supports converting XLS files that contain images and charts to PDF
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ConvertXlsFileWithImagesOrChartsToPdf.go" >}}
 {{% alert color="primary" %}} 
 
-If the spreadsheet contains formulas, it is best to call the [Calculate(CalculationData data)](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/calculate/) method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call the [Calculate(CalculationData data)](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/calculate/) method just before rendering to PDF. Doing so ensures that formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

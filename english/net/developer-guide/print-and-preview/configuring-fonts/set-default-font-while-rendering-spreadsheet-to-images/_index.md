@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Please use the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to set the default font while rendering spreadsheets to images. This property will only be effective when the default font of the workbook could not render your characters. The default font specified with [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property is used for all those cells which have invalid or non-existent fonts.
+Please use the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to set the default font while rendering spreadsheets to images. This property will only be effective when the default font of the workbook **cannot** render your characters. The default font specified with [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property is used for all those cells which have invalid or non‑existent fonts.
 
 {{% /alert %}}
 
 ## Set Default Font while rendering spreadsheet to images
 
-The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to invalid or non-existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Times New Roman*.
+The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to **an** invalid or non‑existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Times New Roman*.
 
 This is the output image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New*.
 

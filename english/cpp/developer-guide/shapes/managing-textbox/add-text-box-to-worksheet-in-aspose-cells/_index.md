@@ -1,10 +1,10 @@
 ---
-title: How to add/insert TextBox to Worksheet with C++
+title: How to Add/Insert TextBox to Worksheet with C++
 linktitle: Add Text Box to Worksheet
 type: docs
 weight: 10
 url: /cpp/add-text-box-to-worksheet-in-aspose-cells/
-description: How to add/insert TextBox to Worksheet in Aspose.Cells with C++.
+description: How to add/insert a TextBox to a worksheet in Aspose.Cells with C++.
 keywords: add/insert Text Box TextBox Worksheet Excel Aspose
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Add Text Box to Worksheet in Excel
 
-In the Excel program (version 07 and above), there are two places where you can insert text boxes. One in "insert-shapes", the other is on the right side of the top menu of the "Insert" option.
+In the Excel program (version 07 and above), there are two places where you can insert text boxes. One is in **Insert Shapes**, and the other is on the right side of the top menu of the **Insert** option.
 
 ### Method One:
 
@@ -26,16 +26,16 @@ In the Excel program (version 07 and above), there are two places where you can 
 
 You can create text boxes with horizontal or vertical text.
 
-- Select the corresponding option (horizontal or vertical)
-- Left click on the page
-- Hold down the left button and drag a distance on the page
-- Release the left button
+- Select the corresponding option (horizontal or vertical)  
+- Left‑click on the page  
+- Hold down the left button and drag to the desired size on the page  
+- Release the left button  
 
-Now you get a text box.
+Now you have a text box.
 
 ## Add Text Box to Worksheet in Aspose.Cells
 
-When you need to bulk insert TextBox into the worksheet, the manual insertion method is obviously a disaster. If this bothers you, I think this document will help you. [Aspose.Cells](https://products.aspose.com/cells/) provides you with an API to easily do bulk inserts in your code.
+When you need to bulk insert TextBoxes into the worksheet, the manual insertion method is obviously impractical. If this bothers you, this document will help. [Aspose.Cells](https://products.aspose.com/cells/) provides an API to easily perform bulk inserts in your code.
 
 The following sample code creates a text box.
 
@@ -59,7 +59,7 @@ int main()
     // Create an object of the Workbook class
     Workbook workbook;
 
-    // Access first worksheet from the collection
+    // Access the first worksheet from the collection
     Worksheet sheet = workbook.GetWorksheets().Get(0);
 
     // Add the TextBox to the worksheet
@@ -74,7 +74,7 @@ int main()
 }
 ```
 
-You will get a file similar to [result file](result.xlsx). In the file, you will see the following:
+You will get a file similar to the [result file](result.xlsx). In the file, you will see the following:
 
 ![](52449.png)
 {{< app/cells/assistant language="cpp" >}}

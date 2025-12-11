@@ -1,5 +1,5 @@
 ---
-title: How to Use if Parameter and Variables in SmartMarkers
+title: How to Use If Parameter and Variables in SmartMarkers
 type: docs
 weight: 10
 url: /net/how-to-use-if-parameter-and-Variables-in-smart-markers/
@@ -7,35 +7,35 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Why Using if Parameter and Variables in Smart Markers**
+## **Why Use If Parameter and Variables in Smart Markers**
 Smart Markers are powerful tools used in various contexts. The use of parameters and variables within Smart Markers significantly enhances their flexibility, efficiency, and functionality.
 
-1. Dynamic Data Handling and Flexibility: Parameters and variables allow Smart Markers to handle data dynamically, adapting to changing inputs without requiring manual adjustments to the template or code.
-2. Control Over Behavior and Operations: Parameters fine-tune the behavior of Smart Markers, enabling operations like grouping, sorting, subtotaling, and conditional formatting.
-3. Support for Complex Data Structures: Variables enable Smart Markers to work with complex data sources, including arrays, objects, and multi-dimensional data.
-4. Efficiency and Automation: Parameters and variables automate repetitive tasks, reducing manual effort and potential errors.
-5. Conditional Logic and Filtering: Though limited in some contexts, parameters and variables can implement conditional logic.
-6. Customization and User Interaction: Variables allow user inputs to customize Smart Marker behavior dynamically.
-7. Performance Optimization: Parameters help optimize performance by controlling how data is processed.
+1. Dynamic Data Handling and Flexibility: Parameters and variables allow Smart Markers to handle data dynamically, adapting to changing inputs without requiring manual adjustments to the template or code.  
+2. Control Over Behavior and Operations: Parameters fine‑tune the behavior of Smart Markers, enabling operations like grouping, sorting, subtotaling, and conditional formatting.  
+3. Support for Complex Data Structures: Variables enable Smart Markers to work with complex data sources, including arrays, objects, and multi‑dimensional data.  
+4. Efficiency and Automation: Parameters and variables automate repetitive tasks, reducing manual effort and potential errors.  
+5. Conditional Logic and Filtering: Though limited in some contexts, parameters and variables can implement conditional logic.  
+6. Customization and User Interaction: Variables allow user inputs to customize Smart Marker behavior dynamically.  
+7. Performance Optimization: Parameters help optimize performance by controlling how data is processed.  
 
 
-## **How to Use if Parameter and Variables in SmartMarkers**
-Sometimes, you need to add if condition judgment to variable parameters in SmartMarkers. Aspose.Cells makes it possible to use if parameter and variables in SmartMarkers. Please check [template file](template.xlsx), [json file](data.json) and the screenshot of the output excel file generated with the following code.
+## **How to Use If Parameter and Variables in Smart Markers**
+Sometimes, you need to add an if‑condition judgment to variable parameters in Smart Markers. Aspose.Cells makes it possible to use the If parameter and variables in Smart Markers. Please check the [template file](template.xlsx), the [JSON file](data.json), and the screenshot of the output Excel file generated with the following code.
 
-|**The first worksheet of the template.xlsx file showing variables.**|
+| **The first worksheet of the template.xlsx file showing variables.** |
 | :- |
-|![todo:image_alt_text](variables.png)|
+| ![todo:image_alt_text](variables.png) |
 
-|**The second worksheet of the template.xlsx file showing smart markers.**|
+| **The second worksheet of the template.xlsx file showing smart markers.** |
 | :- |
-|![todo:image_alt_text](template.png)|
+| ![todo:image_alt_text](template.png) |
 
-|**The screenshot of the output excel file.**|
+| **The screenshot of the output Excel file.** |
 | :- |
-|![todo:image_alt_text](result.png)|
+| ![todo:image_alt_text](result.png) |
 
-Json data as follows:
-```json data
+JSON data as follows:
+```json
 {
     "Directors": [
         {
@@ -114,6 +114,7 @@ Json data as follows:
     "SSN": "11111111"
 }
 ```
+
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-If-Parameter-And-Variables.cs" >}}

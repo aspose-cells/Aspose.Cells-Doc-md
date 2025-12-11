@@ -17,24 +17,24 @@ Aspose.Cells APIs provide the facility to render spreadsheets in image formats a
 
 Below is the process that Aspose.Cells APIs follow behind the scenes:
 
-1. The API tries to find the fonts on the file system matching the exact font name used in the spreadsheet.
-1. If the API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) property.
-1. If the API cannot locate the font defined under the workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) property, it attempts to use the font specified under [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getdefaultfont/) property.
-1. If the API cannot locate the font defined under [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getdefaultfont/) property, it attempts to use the font specified under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getdefaultfontname/) property.
-1. If the API cannot locate the font defined under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getdefaultfontname/) property, it attempts to select the most suitable fonts from all of the available fonts.
-1. Finally, if the API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
+1. The API tries to find the fonts on the file system matching the exact font name used in the spreadsheet.  
+2. If the API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) property.  
+3. If the API cannot locate the font defined under the workbook's [**DefaultStyle.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getfont/) property, it attempts to use the font specified under [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getdefaultfont/) property.  
+4. If the API cannot locate the font defined under [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) or [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getdefaultfont/) property, it attempts to use the font specified under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getdefaultfontname/) property.  
+5. If the API cannot locate the font defined under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getdefaultfontname/) property, it attempts to select the most suitable fonts from all of the available fonts.  
+6. Finally, if the API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
 
 ## **Set Custom Font Folders**
 
-Aspose.Cells APIs search the operating system's default font directory for the required fonts. If the required fonts are not available in the system's font directory, the APIs search through custom (user-defined) directories. The [**FontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/) class provides several ways to set custom font directories, as detailed below:
+Aspose.Cells APIs search the operating system's default font directory for the required fonts. If the required fonts are not available in the system's font directory, the APIs search through custom (user‑defined) directories. The [**FontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/) class provides several ways to set custom font directories, as detailed below:
 
-1. [**FontConfigs.SetFontFolder**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolder/): This method is useful if there is only one folder to be set.
-1. [**FontConfigs.SetFontFolders**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolders/): This method is useful when the fonts reside in multiple folders, and the user wishes to set all folders separately rather than combining all fonts in a single folder.
-1. [**FontConfigs.SetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontsources/): This mechanism is useful when the user wishes to load fonts from multiple folders, a single font file, or font data from an array of bytes.
+1. [**FontConfigs.SetFontFolder**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolder/): This method is useful if there is only one folder to be set.  
+2. [**FontConfigs.SetFontFolders**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolders/): This method is useful when the fonts reside in multiple folders, and the user wishes to set all folders separately rather than combining all fonts in a single folder.  
+3. [**FontConfigs.SetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontsources/): This mechanism is useful when the user wishes to load fonts from multiple folders, a single font file, or font data from an array of bytes.
 
 {{% alert color="primary" %}}
 
-Both [**FontConfigs.SetFontFolder**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolder/) and [**FontConfigs.SetFontFolders**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolders/) methods accept a Boolean type second parameter. Passing **true** as the second parameter will direct the Aspose.Cells APIs to search the subfolders for the font files.
+Both [**FontConfigs.SetFontFolder**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolder/) and [**FontConfigs.SetFontFolders**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/setfontfolders/) methods accept a Boolean‑type second parameter. Passing **true** as the second parameter will direct the Aspose.Cells APIs to search the subfolders for the font files.
 
 {{% /alert %}}
 
@@ -52,7 +52,8 @@ Vector<uint8_t> GetDataFromFile(const U16String& file)
 
     if (!fileStream.is_open()) {
         std::cerr << "Failed to open the file." << std::endl;
-        return 1;
+        // Return an empty vector on error
+        return Vector<uint8_t>();
     }
 
     // Get file size
@@ -65,7 +66,7 @@ Vector<uint8_t> GetDataFromFile(const U16String& file)
     fileStream.read(reinterpret_cast<char*>(buffer), fileSize);
     fileStream.close();
 
-    Vector<uint8_t>data(buffer, fileSize);
+    Vector<uint8_t> data(buffer, fileSize);
     delete[] buffer;
 
     return data;
@@ -101,13 +102,13 @@ int main()
 
 {{% alert color="primary" %}}
 
-Please use any of the above-mentioned methods at the start of the application, that is, before invoking any other objects of Aspose.Cells APIs.
+Please use any of the above‑mentioned methods at the start of the application, that is, before invoking any other objects of Aspose.Cells APIs.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-If all of the above-mentioned methods are used to set the font sources, only the last settings will take effect.
+If all of the above‑mentioned methods are used to set the font sources, only the last settings will take effect.
 
 {{% /alert %}}
 
@@ -136,12 +137,12 @@ int main()
 
 ## **Information Gathering**
 
-In addition to the above-mentioned methods, the Aspose.Cells APIs also provide means to gather information on what sources and substitutions have been set:
+In addition to the above‑mentioned methods, the Aspose.Cells APIs also provide means to gather information on what sources and substitutions have been set:
 
-1. [**FontConfigs.GetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsources/) method returns an array of type [**FontSourceBase**](https://reference.aspose.com/cells/cpp/aspose.cells/fontsourcebase/) containing the list of specified font sources. If no sources have been set, the [**FontConfigs.GetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsources/) method will return an empty array.
-1. [**FontConfigs.GetFontSubstitutes**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsubstitutes/) method accepts a parameter of type **string**, allowing you to specify the font name for which substitution has been set. If no substitution has been set for the specified font name, the [**FontConfigs.GetFontSubstitutes**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsubstitutes/) method will return null.
+1. [**FontConfigs.GetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsources/) method returns an array of type [**FontSourceBase**](https://reference.aspose.com/cells/cpp/aspose.cells/fontsourcebase/) containing the list of specified font sources. If no sources have been set, the [**FontConfigs.GetFontSources**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsources/) method will return an empty array.  
+2. [**FontConfigs.GetFontSubstitutes**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsubstitutes/) method accepts a parameter of type **string**, allowing you to specify the font name for which substitution has been set. If no substitution has been set for the specified font name, the [**FontConfigs.GetFontSubstitutes**](https://reference.aspose.com/cells/cpp/aspose.cells/fontconfigs/getfontsubstitutes/) method will return null.
 
-## **Advance Topics**
+## **Advanced Topics**
 - [Set Default Font while rendering spreadsheet to images](/cells/cpp/set-default-font-while-rendering-spreadsheet-to-images/)
 - [Set DefaultFont property of PdfSaveOptions and ImageOrPrintOptions to have priority](/cells/cpp/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Supported Font Formats](/cells/cpp/supported-font-formats/)

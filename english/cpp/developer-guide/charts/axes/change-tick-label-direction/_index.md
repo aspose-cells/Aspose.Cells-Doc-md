@@ -45,7 +45,7 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    // Directory source and output paths
+    // Source and output directories
     U16String sourceDir(u"..\\Data\\01_SourceDirectory\\");
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
@@ -62,7 +62,7 @@ int main()
     chart.GetCategoryAxis().GetTickLabels().SetDirectionType(ChartTextDirectionType::Horizontal);
 
     // Output the modified workbook to a new file
-    workbook.Save(outDir + u"outputChangeChartDataLableDirection.xlsx");
+    workbook.Save(outDir + u"outputChangeChartDataLabelDirection.xlsx");
 
     std::cout << "Chart tick label direction changed successfully!" << std::endl;
 

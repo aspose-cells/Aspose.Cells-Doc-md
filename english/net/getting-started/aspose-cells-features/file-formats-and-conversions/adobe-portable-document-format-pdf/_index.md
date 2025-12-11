@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Any document loaded into Aspose.Cells can be converted to PDF that conforms to the [PDF 1.5](https://docs.fileformat.com/pdf/) or [PDF/A-1b](https://docs.fileformat.com/pdf/a/) specification. Aspose.Cells goes to great lengths to faithfully convert Microsoft Excel documents to PDF. Most of the time the look of the final PDF document will be indistinguishable from the original Microsoft Excel document.
+Any document loaded into Aspose.Cells can be converted to PDF that conforms to the [PDF 1.5](https://docs.fileformat.com/pdf/) or [PDF/A-1b](https://docs.fileformat.com/pdf/a/) specification. Aspose.Cells goes to great lengths to faithfully convert Microsoft Excel documents to PDF. Most of the time, the look of the final PDF document will be indistinguishable from the original Microsoft Excel document.
 
 {{% /alert %}} 
 ## **PDF in Aspose.Cells**

@@ -9,11 +9,11 @@ description: Learn how to check if a VBA project in an Excel file is protected a
 
 ## Check if VBA Project is Protected and Locked for Viewing in JavaScript via C++
 
-Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.islockedForViewing**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#islockedForViewing--) property. If it is locked for viewing, then the [**VbaProject.islockedForViewing**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#islockedForViewing--) property returns **true**.
+Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) project of an Excel file is protected and locked for viewing. For this, the API provides the [**VbaProject.islockedForViewing**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#islockedForViewing--) property. If it is locked for viewing, the property returns **true**.
 
 ## **Sample Code**
 
-The following sample code loads the [sample Excel file](43352065.xlsm) and checks if the VBA (Visual Basic for Applications) Project of the Excel file is protected and locked for viewing. Please also see its Console Output for reference.
+The following sample code loads the [sample Excel file](43352065.xlsm) and checks if the VBA (Visual Basic for Applications) project of the Excel file is protected and locked for viewing. Please also see its console output for reference.
 
 ```html
 <!DOCTYPE html>
@@ -80,7 +80,5 @@ The following sample code loads the [sample Excel file](43352065.xlsm) and check
 This is the console output of the above sample code when executed with the provided [sample Excel file](43352065.xlsm).
 
 {{< highlight java >}}
-
 Is VBA Project Locked for Viewing: True
-
 {{< /highlight >}}

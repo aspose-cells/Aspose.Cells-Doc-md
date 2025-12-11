@@ -1,21 +1,21 @@
----
-title: Copy Range Data with Style using JavaScript via C++
-linktitle: Copy Range Data with Style
-type: docs
-weight: 610
-url: /javascript-cpp/copy-range-data-with-style/
-description: Learn how to copy a range of cells with formatting using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Copy Range Data with Style using JavaScript via C++  
+linktitle: Copy Range Data with Style  
+type: docs  
+weight: 610  
+url: /javascript-cpp/copy-range-data-with-style/  
+description: Learn how to copy a range of cells with formatting using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-[Copy Range Data Only](/cells/javascript-cpp/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Specifically, it applies a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.
+[Copy Range Data Only](/cells/javascript-cpp/copy-range-data-only/) **explains** how to copy the data from a range of cells to another range. Specifically, it applies a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**createRange(string, string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-), [**StyleFlag**](https://reference.aspose.com/cells/javascript-cpp/styleflag/) and [**applyStyle(Style, StyleFlag)**](https://reference.aspose.com/cells/javascript-cpp/cells/#applyStyle-style-styleflag-).
+Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**createRange(string, string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-), [**StyleFlag**](https://reference.aspose.com/cells/javascript-cpp/styleflag/) and [**applyStyle(Style, StyleFlag)**](https://reference.aspose.com/cells/javascript-cpp/cells/#applyStyle-style-styleflag-).  
 
-This example:
+This example:  
 
 1. Creates a workbook.  
 2. Fills a number of cells in the first worksheet with data.  
@@ -59,7 +59,7 @@ This example:
             if (fileInput.files.length && fileInput.files[0]) {
                 // If a file is provided, open it and modify
             } else {
-                // No file provided, will create a new workbook
+                // No file provided; a new workbook will be created
             }
 
             // Instantiate or load workbook
@@ -72,7 +72,7 @@ This example:
                 workbook = new Workbook();
             }
 
-            // Get the first Worksheet Cells.
+            // Get the cells of the first worksheet.
             const cells = workbook.worksheets.get(0).cells;
 
             // Fill some sample data into the cells.
@@ -102,13 +102,13 @@ This example:
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Blue;
 
-            // Create the styleflag object.
+            // Create the StyleFlag object.
             const flag1 = new AsposeCells.StyleFlag();
-            // Implement font attribute
+            // Set font attribute
             flag1.fontName = true;
-            // Implement the shading / fill color.
+            // Set the shading/fill color.
             flag1.cellShading = true;
-            // Implement border attributes.
+            // Set border attributes.
             flag1.borders = true;
             // Set the Range style.
             range.applyStyle(style, flag1);
@@ -119,7 +119,7 @@ This example:
             // Copy the range data with formatting.
             range2.copy(range);
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

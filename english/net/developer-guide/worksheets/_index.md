@@ -9,14 +9,13 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Developers can easily create and manage worksheets in Microsoft Excel files programmatically using Aspose.Cells' flexible API. This topic describes approaches for adding and removing worksheets in Microsoft Excel files.
 
 {{% /alert %}}
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file.
 
 A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets.
 
@@ -24,17 +23,17 @@ A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/c
 
 To create a new Excel file programmatically:
 
-1. Create an object of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.
-1. Call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection.
-1. Obtain a worksheet reference.
-1. Perform work on the worksheets.
-1. Save the new Excel file with new worksheets by calling the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class' [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method.
+1. Create an object of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.  
+2. Call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection.  
+3. Obtain a worksheet reference.  
+4. Perform work on the worksheets.  
+5. Save the new Excel file with new worksheets by calling the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class' [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
 ## **Adding Worksheets to a Designer Spreadsheet**
 
-The process of adding worksheets to a designer spreadsheet is the same as that of adding a new worksheet, except that the Excel file already exists so should be opened before worksheets are added. A designer spreadsheet can be opened by the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.
+The process of adding worksheets to a designer spreadsheet is the same as that of adding a new worksheet, except that the Excel file already exists, so it should be opened before worksheets are added. A designer spreadsheet can be opened by the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
@@ -67,7 +66,7 @@ An **active cell** is a selected cell, the cell into which data is entered when 
 
 ### **Activating Sheets and Making a Cell Active**
 
-Aspose.Cells provides specific API calls for activating a sheet and a cell. For Example, the [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) property is useful for setting the active sheet in a workbook.
+Aspose.Cells provides specific API calls for activating a sheet and a cell. For example, the [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) property is useful for setting the active sheet in a workbook.
 Similarly, [**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell) property is used to set and get an active cell in the worksheet.
 
 To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) and [**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn) properties.
@@ -76,7 +75,7 @@ The following example shows how to activate a worksheet and make an active cell 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Copying and Moving Worksheets](/cells/net/copying-and-moving-worksheets/)
 - [Count number of cells in the Worksheet](/cells/net/count-number-of-cells-in-the-worksheet/)
 - [Detecting Empty Worksheets](/cells/net/detecting-empty-worksheets/)

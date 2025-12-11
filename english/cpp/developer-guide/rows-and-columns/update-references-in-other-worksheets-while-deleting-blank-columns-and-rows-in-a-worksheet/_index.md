@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-When you delete blank columns and rows in a worksheet, its references in other worksheets become invalid. If you want to avoid this behavior and ensure that references to the current worksheet in other worksheets are also updated, use the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property and set it to **true**.
+When you delete blank columns and rows in a worksheet, **their** references in other worksheets become invalid. If you want to avoid this behavior and ensure that references to the current worksheet in other worksheets are also updated, use the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property and set it to **true**.
 
 {{% /alert %}}
 
@@ -84,7 +84,6 @@ int main()
 This is the console output of the above sample code when the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property is set to **true**.
 
 {{< highlight java >}}
-
 Cell E3 before deleting blank columns and rows in Sheet1.
 --------------------------------------------------------
 Cell Formula: =Sheet1!C1
@@ -94,13 +93,11 @@ Cell E3 after deleting blank columns and rows in Sheet1.
 --------------------------------------------------------
 Cell Formula: =Sheet1!A1
 Cell Value: 4
-
 {{< /highlight >}}
 
 This is the console output of the above sample code when the [**DeleteOptions.GetUpdateReference()**](https://reference.aspose.com/cells/cpp/aspose.cells/deleteoptions/getupdatereference/) property is set to **false**. As you can see, the formula in cell E3 of the second worksheet is not updated, and its cell value is now 0 instead of 4, which is invalid.
 
 {{< highlight java >}}
-
 Cell E3 before deleting blank columns and rows in Sheet1.
 --------------------------------------------------------
 Cell Formula: =Sheet1!C1
@@ -110,6 +107,6 @@ Cell E3 after deleting blank columns and rows in Sheet1.
 --------------------------------------------------------
 Cell Formula: =Sheet1!C1
 Cell Value: 0
-
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}
+

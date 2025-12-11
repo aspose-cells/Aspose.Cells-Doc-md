@@ -1,16 +1,16 @@
----
-title: Measure the Width and Height of the Cell Value in Unit of Pixels
-linktitle: Measure the Size
-type: docs
-weight: 260
-url: /javascript-cpp/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
-description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for JavaScript via C++.
-keywords: Measure the Width of the Cell Value in Unit of Pixels JavaScript via C++, Measure the Height of the Cell Value in Unit of Pixels JavaScript via C++, Get the Width of the Cell Value in Unit of Pixels JavaScript via C++, Get the Height of the Cell Value in Unit of Pixels JavaScript via C++
----
+---  
+title: Measure the Width and Height of the Cell Value in Unit of Pixels  
+linktitle: Measure the Size  
+type: docs  
+weight: 260  
+url: /javascript-cpp/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/  
+description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for JavaScript via C++.  
+keywords: Measure the Width of the Cell Value in Unit of Pixels JavaScript via C++, Measure the Height of the Cell Value in Unit of Pixels JavaScript via C++, Get the Width of the Cell Value in Unit of Pixels JavaScript via C++, Get the Height of the Cell Value in Unit of Pixels JavaScript via C++  
+---  
 
 {{% alert color="primary" %}}  
 
-Sometimes you need to calculate the width and height of cell value to fit the cell value inside the cell. Aspose.Cells provides [**Cell.widthOfValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#widthOfValue--) and [**Cell.heightOfValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#heightOfValue--) methods for this purpose. By using these methods you can calculate width and height of the cell value and then set the width of the column and height of the row of that cell respectively and this will then adjust or fit the cell value inside the cell.  
+Sometimes you need to calculate the width and height of a cell value to fit the cell value inside the cell. Aspose.Cells provides [**Cell.widthOfValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#widthOfValue--) and [**Cell.heightOfValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#heightOfValue--) methods for this purpose. By using these methods, you can calculate the width and height of the cell value, then set the column width and row height of that cell respectively; this will adjust or fit the cell value inside the cell.  
 
 Alternatively, you can also [autofit rows and columns of your cell or range of cells](/cells/javascript-cpp/autofit-rows-and-columns/) using Aspose.Cells APIs.  
 
@@ -63,7 +63,7 @@ The following code explains the use of [**Cell.widthOfValue**](https://reference
             // Access first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Access cell B2 and add some value inside it
+            // Access cell B2 and add a value inside it
             const cell = worksheet.cells.get("B2");
             cell.value = "Welcome to Aspose!";
 
@@ -72,18 +72,18 @@ The following code explains the use of [**Cell.widthOfValue**](https://reference
             style.font.size = 16;
             cell.style = style;
 
-            // Calculate the width and height of the cell value in unit of pixels
+            // Calculate the width and height of the cell value in units of pixels
             const widthOfValue = cell.widthOfValue;
             const heightOfValue = cell.heightOfValue;
 
             // Print both values to the page
             document.getElementById('result').innerHTML = `<p>Width of Cell Value: ${widthOfValue}</p><p>Height of Cell Value: ${heightOfValue}</p>`;
 
-            // Set the row height and column width to adjust/fit the cell value inside cell
+            // Set the row height and column width to adjust/fit the cell value inside the cell
             worksheet.cells.setColumnWidthPixel(1, widthOfValue);
             worksheet.cells.setRowHeightPixel(1, heightOfValue);
 
-            // Save the output excel file and provide download link
+            // Save the output Excel file and provide download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -97,5 +97,5 @@ The following code explains the use of [**Cell.widthOfValue**](https://reference
 ```
 
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Get Text Width of Cell Value](/cells/javascript-cpp/get-text-width-of-cell-value/)

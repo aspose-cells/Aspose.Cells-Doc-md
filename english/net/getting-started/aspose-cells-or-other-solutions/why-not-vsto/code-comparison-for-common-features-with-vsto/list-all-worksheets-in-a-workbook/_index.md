@@ -12,87 +12,57 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
  	Excel.Application excelApp = Application;
 
-	//Specify the template excel file path.
-
+	// Specify the template Excel file path.
 	string myPath = "List All Worksheets in a Workbook.xlsx";
 
-	//Open the excel file.
-
+	// Open the Excel file.
 	Microsoft.Office.Interop.Excel.Workbook ThisWorkbook = excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value,
-
 		  Missing.Value, Missing.Value);
 
 	ListSheets(ThisWorkbook);
-
 }
 
 private void ListSheets(Microsoft.Office.Interop.Excel.Workbook workbook)
-
 {
-
 	int index = 0;
-
 	Excel.Range rng = this.Application.get_Range("A1", missing);
 
 	foreach (Excel.Worksheet displayWorksheet in workbook.Worksheets)
-
 	{
-
 		rng.get_Offset(index, 0).Value2 = displayWorksheet.Name;
-
 		index++;
-
 	}
-
 }
-
 {{< /highlight >}}
+
 ## **Aspose**
 {{< highlight csharp >}}
 
  static void Main(string[] args)
-
 {
-
 	string myPath = "List All Worksheets in a Workbook.xlsx";
-
 	Workbook workbook = new Workbook(myPath);
-
 	ListSheets(workbook);
-
 }
 
 private static void ListSheets(Workbook workbook)
-
 {
-
-	int index=0;
-
+	int index = 0;
 	Worksheet thisWorksheet = workbook.Worksheets[0];
 
 	foreach (Worksheet worksheet in workbook.Worksheets)
-
 	{
-
 		thisWorksheet.Cells[index, 0].Value = worksheet.Name;
-
 		index++;
-
 	}
-
 }
-
 {{< /highlight >}}
+
 ## **Download Sample Code**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/List.All.Worksheets.in.a.Workbook.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)

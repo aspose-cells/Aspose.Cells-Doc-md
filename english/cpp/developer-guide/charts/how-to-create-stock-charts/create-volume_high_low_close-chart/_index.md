@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-The third stock chart we will look at is the Volume High Low Close chart. Again it is important to repeat that you must have the data in the correct order. If you need to rearrange your data table, you should do it before you set up your chart. This chart includes a column for volume immediately after the first (category) column, and the charts include a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
+The third stock chart we will look at is the Volume‑High‑Low‑Close chart. Again, it is important to note that you must have the data in the correct order. If you need to rearrange your data table, you should do it before you set up your chart. This chart includes a column for volume immediately after the first (category) column, and the chart includes a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
 
 ![todo:image_alt_text](data.png)
 ## **Volume-High-Low-Close (VHLC) stock chart**
@@ -35,16 +35,16 @@ int main()
     // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     
-    // Create High-Low-Close Stock Chart
+    // Create Volume-High-Low-Close Stock Chart
     int32_t pieIdx = worksheet.GetCharts().Add(ChartType::StockVolumeHighLowClose, 5, 6, 20, 12);
     
     // Retrieve the Chart object
     Chart chart = worksheet.GetCharts().Get(pieIdx);
     
-    // Set the legend can be showed
+    // Set the legend to be shown
     chart.SetShowLegend(true);
     
-    // Set the chart title name 
+    // Set the chart title
     chart.GetTitle().SetText(u"Volume-High-Low-Close Stock");
     
     // Set the Legend at the bottom of the chart area
@@ -56,10 +56,10 @@ int main()
     // Set category data 
     chart.GetNSeries().SetCategoryData(u"A2:A9");
     
-    // Set Color for the first series (Volume) data 
+    // Set the color for the first series (Volume) data 
     chart.GetNSeries().Get(0).GetArea().SetForegroundColor(Color{ 79, 129, 189 });
     
-    // Fill the PlotArea area with nothing 
+    // Fill the PlotArea with nothing 
     chart.GetPlotArea().GetArea().GetFillFormat().SetFillType(FillType::None);
     
     // Save the Excel file
@@ -70,6 +70,5 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
-
 
 {{< app/cells/assistant language="cpp" >}}

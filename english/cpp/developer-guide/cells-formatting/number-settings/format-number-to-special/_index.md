@@ -4,7 +4,7 @@ linktitle: How to Format Number to Special
 type: docs
 weight: 10
 url: /cpp/how-to-format-number-to-special/
-description: This article will introduce how to Format Number to Special using Aspose.Cells for C++ API.
+description: This article introduces how to format numbers to a special format using the Aspose.Cells for C++ API.
 keywords: Format a number to a special pattern, Apply a specific pattern to format numbers, Customize number formatting to a unique style, Adjust the presentation of numbers to a distinct format, Transform numbers to follow a particular formatting rule, Format Number to Special
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Possible Usage Scenarios**
 Formatting numbers to a special format in Excel is a powerful feature that allows users to display numbers in a more readable, understandable, or standardized way. This can be particularly useful in various scenarios, such as financial reporting, data analysis, and everyday spreadsheet use. Here are some reasons why you might want to format numbers to a special format in Excel:
 
-1. **Improved Readability**: Special formatting can make numbers easier to read and understand. For example, formatting a number as a phone number (e.g., (123) 456-7890) or as a social security number (e.g., 123-45-6789) makes these numbers instantly recognizable and more readable than presenting them as plain digits.
+1. **Improved Readability**: Special formatting can make numbers easier to read and understand. For example, formatting a number as a phone number (e.g., (123) 456‑7890) or as a social security number (e.g., 123‑45‑6789) makes these numbers instantly recognizable and more readable than presenting them as plain digits.
 
 2. **Consistency**: Applying a special format ensures consistency across your data, which is crucial for reports or datasets that are shared with others or used for presentations. Consistency in number formatting helps in comparing data and maintaining professional standards.
 
@@ -36,82 +36,83 @@ Formatting numbers to a special format in Excel allows you to display numbers in
 
 ### Using Built-in Special Formats
 
-1. **Select the Cells**: Click on the cell or range of cells that you want to format.
-2. **Open Format Cells Dialog**: Right-click on the selected cells and choose "Format Cells," or press `Ctrl` + `1` on your keyboard to open the Format Cells dialog box.
-3. **Choose Special**: In the Format Cells dialog, go to the "Number" tab, and in the Category list, select "Special."
-4. **Select a Format**: You will see a list of predefined special formats such as Zip Code, Phone Number, and Social Security Number (depending on your region). Click on the one that suits your needs.
-5. **Apply and OK**: Click "OK" to apply the selected format.
+1. **Select the Cells**: Click on the cell or range of cells that you want to format.  
+2. **Open Format Cells Dialog**: Right‑click on the selected cells and choose **Format Cells**, or press `Ctrl` + `1` on your keyboard to open the Format Cells dialog box.  
+3. **Choose Special**: In the Format Cells dialog, go to the **Number** tab, and in the Category list, select **Special**.  
+4. **Select a Format**: You will see a list of predefined special formats such as Zip Code, Phone Number, and Social Security Number (depending on your region). Click on the one that suits your needs.  
+5. **Apply and OK**: Click **OK** to apply the selected format.
 
 ### Creating Custom Formats
 
 If the built-in special formats don't meet your needs, you can create a custom format:
 
-1. **Select the Cells**: Highlight the cell or range of cells you want to format.
-2. **Open Format Cells Dialog**: Right-click and choose "Format Cells," or press `Ctrl` + `1`.
-3. **Go to Custom**: In the Format Cells dialog, select the "Number" tab, then choose "Custom" from the Category list.
-4. **Enter Custom Format**: In the Type box, enter the custom format code. For example:
-   - To format a 10-digit phone number, you might use: `(###) ###-####`
-   - For a product code that starts with two letters followed by three numbers: `"XX"###`
-5. **Apply and OK**: Click "OK" to apply your custom format.
+1. **Select the Cells**: Highlight the cell or range of cells you want to format.  
+2. **Open Format Cells Dialog**: Right‑click and choose **Format Cells**, or press `Ctrl` + `1`.  
+3. **Go to Custom**: In the Format Cells dialog, select the **Number** tab, then choose **Custom** from the Category list.  
+4. **Enter Custom Format**: In the **Type** box, enter the custom format code. For example:  
+   - To format a 10‑digit phone number, you might use: `(###) ###‑####`  
+   - For a product code that starts with two letters followed by three numbers: `"XX"###`  
+5. **Apply and OK**: Click **OK** to apply your custom format.
 
 ### Tips for Custom Number Formats
 
-- Use `#` for optional digits. Excel will display the digit if it's present.
-- Use `0` for a digit placeholder that will display zeros if no number is present in that position.
-- Use `?` to add space for insignificant zeros but not display them, which can help align numbers with decimal points.
+- Use `#` for optional digits. Excel will display the digit if it is present.  
+- Use `0` for a digit placeholder that will display zeros if no number is present in that position.  
+- Use `?` to add space for insignificant zeros but not display them, which can help align numbers with decimal points.  
 - Text can be included in custom formats by enclosing it in quotation marks.
 
 ### Example Custom Format Codes
 
-- **Social Security Number (SSN)**: `000-00-0000`
-- **Phone Number (US)**: `(###) ###-####`
-- **Product Code**: `"PRD-"0000`
-- **Date with Text**: `"Day" dd "of" mmmm, yyyy`
+- **Social Security Number (SSN)**: `000-00-0000`  
+- **Phone Number (US)**: `(###) ###‑####`  
+- **Product Code**: `"PRD-"0000`  
+- **Date with Text**: `"Day" dd "of" mmmm, yyyy  
 
 Remember, the custom format feature is very powerful and allows for a wide range of formatting options beyond just special number formats. You can combine conditions, colors, and more to create highly customized displays of your data in Excel.
 
 ## **How to Format Number to Special in Aspose.Cells for C++**
-In Aspose.Cells for C++, formatting numbers to a special format involves using the `Style` object associated with a cell. The `Style` object allows you to specify various formatting options, including number formats. Special number formats can include formats like dates, times, phone numbers, zip codes, or any custom number format you wish to apply.
+In Aspose.Cells for C++, formatting numbers to a special format involves using the `Style` object associated with a cell. The `Style` object allows you to specify various formatting options, including number formats. Special number formats can include dates, times, phone numbers, zip codes, or any custom number format you wish to apply.
 
 Here's a step-by-step guide on how to format a number to a special format using Aspose.Cells for C++:
 
 ### Step 1: Add Aspose.Cells to Your Project
 
-First, ensure that you have Aspose.Cells for C++ added to your project. You can obtain it via NuGet Package Manager or download it directly from the Aspose website.
+First, ensure that you have Aspose.Cells for C++ added to your project. You can obtain it via the Aspose website or a package manager.
 
-If you're using NuGet Package Manager Console, you can install it by running:
+If you're using a package manager console, you can install it by running:
 
 ```powershell
 Install-Package Aspose.Cells.Cpp
 ```
 
 ### Step 2: Create a Workbook and Access a Worksheet
-You can either create a new workbook or open an existing one. 
+You can either create a new workbook or open an existing one.
 
 ### Step 3: Access or Add Data to a Cell
-You need to access the worksheet where you want to format numbers to special. If you're working with a new workbook, you'll likely be working with the first worksheet.
+Access the worksheet where you want to format numbers to a special format. If you're working with a new workbook, you’ll likely be using the first worksheet.
 
 ### Step 4: Format the Number to a Special Format
-To format a cell to display its number in special notation, you'll need to set its custom format.
+Set the cell’s custom format to the desired special notation.
 
 ### Step 5: Save the Workbook
-After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in scientific notation as specified.
+After formatting the cells as needed, don’t forget to save your workbook. This will save your workbook with the cells formatted in the special notation as specified.
 
 ### Custom Number Formats
 
 The `style.Custom` property allows you to define custom number formats. Here are a few examples:
 
-- **Phone Number:** `"(###) ###-####"`
-- **Zip Code:** `"#####-####"`
-- **Social Security Number:** `"###-##-####"`
-- **Date Format:** `"yyyy-mm-dd"`
+- **Phone Number:** `"(###) ###‑####"`  
+- **Zip Code:** `"#####‑####"`  
+- **Social Security Number:** `"###‑##‑####"`  
+- **Date Format:** `"yyyy‑mm‑dd"`  
 
 You can create virtually any number format by specifying the format string according to your needs.
 
 ### Sample Code
 
 Here's a code snippet demonstrating these steps:
-```c++
+
+```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
@@ -153,5 +154,6 @@ int main()
 
 ### Conclusion
 
-Formatting numbers to special formats in Aspose.Cells for C++ involves setting the custom number format of a cell's style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.
+Formatting numbers to special formats in Aspose.Cells for C++ involves setting the custom number format of a cell’s style. This allows for a wide range of formatting options, enabling you to display data exactly how you need it. Remember, the key to custom formats is the format string you provide, which dictates how the number will be displayed.
+
 {{< app/cells/assistant language="cpp" >}}

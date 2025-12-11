@@ -13,12 +13,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 According to the definition, a page break is a place in a flow of text where one page ends and the next begins. Microsoft Excel lets users add page breaks into any selected cell of a worksheet.
 
-The location of the cell where the page break is added, the page is ended and the rest of the data after the page break is printed on the next page while printing. In simple words, page breaks divide your worksheet into multiple pages according to your specifications. You can also add page breaks to your worksheets at runtime using Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET allows developers to add two kinds of page breaks:
+When the page break is added at a cell, the page ends at that point and the data after the page break is printed on the next page while printing. In simple words, page breaks divide your worksheet into multiple pages according to your specifications. You can also add page breaks to your worksheets at runtime using Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET allows developers to add two kinds of page breaks:
 
 - Horizontal page break
 - Vertical page break
 
-In the rest of the discussion, we will describe how can you add horizontal or vertical page breaks into your worksheets using Aspose.Cells for Python via .NET.
+In the rest of the discussion, we will describe how you can add horizontal or vertical page breaks into your worksheets using Aspose.Cells for Python via .NET.
 
 {{% /alert %}}
 
@@ -28,7 +28,7 @@ Aspose.Cells for Python via .NET provides a [**Workbook**](https://reference.as
 
 A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a wide range of properties and methods used to manage a worksheet.
 
-To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class' [**horizontal_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/horizontal_page_breaks) and [**vertical_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/vertical_page_breaks) properties.
+To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class's [**horizontal_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/horizontal_page_breaks) and [**vertical_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/vertical_page_breaks) properties.
 
 The [**horizontal_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/horizontal_page_breaks) and [**vertical_page_breaks**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/vertical_page_breaks) properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.
 
@@ -47,5 +47,5 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 ## **Important to know**
 
-When you set **FitToPages** properties (that is [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) and [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+When you set **FitToPages** properties (that is [**fit_to_pages_tall**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_tall) and [**fit_to_pages_wide**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/fit_to_pages_wide)) in page setup settings, the page break settings are affected, so if you print the worksheet, the page break settings are not considered even though they are still set.
 {{< app/cells/assistant language="python-net" >}}

@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-There is no direct option available to create custom paper sizes in MS Excel; however, you can set a custom paper size of your desired worksheets when rendering Excel files to PDF file format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.
+There is no direct option available to create custom paper sizes in MS Excel; however, you can set a custom paper size for your desired worksheets when rendering Excel files to the PDF format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.
 
 ## **Implement Custom Paper Size of Worksheet for Rendering**
 
-Aspose.Cells allows you to implement your desired paper size of the worksheet. You may use the [**CustomPaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/custompapersize/) method of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class to specify a custom page size. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056028.pdf) generated with the following code for reference.
+Aspose.Cells allows you to set your desired paper size for the worksheet. You may use the [**CustomPaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/custompapersize/) method of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class to specify a custom page size. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056028.pdf) generated with the following code for reference.
 
 ## **Screenshot**
 
@@ -47,10 +47,10 @@ int main()
     // Access cell B4
     Cell b4 = ws.GetCells().Get("B4");
 
-    // Add the message in cell B4
+    // Add the message to cell B4
     b4.PutValue(u"Pdf Page Dimensions: 6.00 x 4.00 in");
 
-    // Save the workbook in pdf format
+    // Save the workbook in PDF format
     U16String outputDir(u"..\\Data\\02_OutputDirectory\\");
     wb.Save(outputDir + u"outputCustomPaperSize.pdf");
 

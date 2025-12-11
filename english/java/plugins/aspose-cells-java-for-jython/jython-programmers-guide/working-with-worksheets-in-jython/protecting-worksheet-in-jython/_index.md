@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Protecting Worksheet**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+To protect a worksheet using **Aspose.Cells for Java** with Jython, see the example code below.
 
 **Jython Code**
 
@@ -29,7 +29,7 @@ class ProtectingWorksheet:
 
 
 
-        #Instantiating a Excel object by excel file path
+        #Instantiating an Excel object by Excel file path
 
         excel = Workbook(dataDir + "Book1.xls")
 
@@ -66,7 +66,8 @@ if __name__ == '__main__':
     ProtectingWorksheet()
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download the **Protecting Worksheet (Aspose.Cells)** example from any of the source code repositories listed below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/ProtectingWorksheet.py)

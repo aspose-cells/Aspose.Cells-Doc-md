@@ -19,65 +19,69 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Using](#UpdateImportToolforDynamicsCRM-Using)
 - [Support](#UpdateImportToolforDynamicsCRM-Support)
 - [Extend and Contribute](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
+
 ## **Introduction**
-The Aspose Update Import Tool is an open source add-on to be used in Microsoft Dynamic CRM. This add-on is capable of automatically Update and/or Export data from CRM to Aspose.Cells Spreadsheets.We don't need to do anything manually and install this add-on and make our work easier and faster.
+The Aspose Update Import Tool is an open‑source add‑on to be used in Microsoft Dynamics CRM. This add‑on is capable of automatically updating and/or exporting data from CRM to Aspose.Cells spreadsheets. We don't need to do anything manually; just install this add‑on to make our work easier and faster.
 
-This add-on provides functionality to automatically Update and/or Export from CRM. One click will Import/Export the record to/from CRM.
+This add‑on provides functionality to automatically update and/or export from CRM. One click will import/export the record to/from CRM.
 
-Major features of this Addon are:
+Major features of this add‑on are:
 
-- Establish the connection to desired CRM.
-- Allow user to select desired Entity and Fields.
-- Getting the record from CRM display in grid.
-- Export the record to Aspose.Cells Spreadsheet.
-- Get the record from Aspose.Cells Spreadsheet display in grid.
-- Export the record from grid to CRM.
+- Establish a connection to the desired CRM.
+- Allow the user to select the desired entity and fields.
+- Get the records from CRM and display them in a grid.
+- Export the records to an Aspose.Cells spreadsheet.
+- Get the records from an Aspose.Cells spreadsheet and display them in a grid.
+- Export the records from the grid to CRM.
+
 ## **System Requirements and Supported Platforms**
 ### **System Requirements**
-In order to install and use Aspose .Net Update Import Tool for Microsoft Dynamics CRM you need to have one of the following CRM version installed
+In order to install and use Aspose .NET Update Import Tool for Microsoft Dynamics CRM you need to have one of the following CRM versions installed:
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
 
-Please feel free to contact us if you find any issues in installing or using this Add-on.
+Please feel free to contact us if you find any issues in installing or using this add‑on.
+
 ### **Supported Platforms**
-This addon will work with all version of Microsoft Dynamics CRM:
+This add‑on will work with all versions of Microsoft Dynamics CRM:
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
-## **Downloading**
-You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
+## **Downloading**
+You can download Aspose .NET Update Import Tool for CRM from one of the following locations:
+
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
+
 ## **Installing or Uninstalling**
-It is a custom developed tool and doesn't require any installation or uninstall.
-You simply need to download the tool and extract it on your drive, and it is ready to use.
+It is a custom‑developed tool and doesn't require any installation or uninstallation.  
+You simply need to download the tool, extract it on your drive, and it is ready to use.
+
 ### **Applying License**
 Add the following code in the form by providing the path to the license file:
 
 {{< highlight java >}}
-
-  if (LicenseFilePath != "" && File.Exists(LicenseFilePath))
-
- {
-
-   License Lic = new License();
-
-   Lic.SetLicense(LicenseFilePath);
-
- }
-
+if (LicenseFilePath != "" && File.Exists(LicenseFilePath))
+{
+    License Lic = new License();
+    Lic.SetLicense(LicenseFilePath);
+}
 {{< /highlight >}}
+
 ## **Using**
-Easily configure and Use Aspose .NET Update Import Tool for Dynamics CRM by following the instructions [here](/cells/net/using-and-configuring-crm-update-import-tool/).
+Easily configure and use Aspose .NET Update Import Tool for Dynamics CRM by following the instructions [here](/cells/net/using-and-configuring-crm-update-import-tool/).
+
 ## **Support**
-We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
+We offer free support. Anyone who uses our product, whether they have purchased it or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose .Net Update Import Tool using any of the following platforms:
+You can log any issues or suggestions related to Aspose .NET Update Import Tool using any of the following platforms:
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
+
 ## **Extend and Contribute**
-This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](/cells/net/extend-and-contribute-to-crm-update-import-tool/).
+This add‑on is open source. The scenario we have created and resolved may differ from the end user’s needs. You can download the latest source code and update it according to your business requirements.
+
+Please find the latest source code and code examples [here](/cells/net/extend-and-contribute-to-crm-update-import-tool/).

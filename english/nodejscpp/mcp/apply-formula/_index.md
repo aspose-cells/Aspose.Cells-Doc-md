@@ -16,8 +16,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Available Tools
 
-- `apply_formula` - Apply **Excel formulas** to single cells with **Excel Formula MCP**
-- `apply_formula_batch` - Apply **Excel formulas** to multiple cells in batch using **AI Excel**
+- `apply_formula` - Apply **Excel formulas** to single cells with **Excel Formula MCP**.
+- `apply_formula_batch` - Apply **Excel formulas** to multiple cells in batch using **AI Excel**.
 
 ## Single Formula Operations
 
@@ -127,30 +127,30 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## Common Excel Functions
 
 ### Mathematical Functions
-- `SUM(range)` - Sum values in range
-- `AVERAGE(range)` - Calculate average
-- `MIN(range)` - Find minimum value
-- `MAX(range)` - Find maximum value
-- `COUNT(range)` - Count numeric cells
+- `SUM(range)` – Sum values in range
+- `AVERAGE(range)` – Calculate average
+- `MIN(range)` – Find minimum value
+- `MAX(range)` – Find maximum value
+- `COUNT(range)` – Count numeric cells
 
 ### Logical Functions
-- `IF(condition, true_value, false_value)` - Conditional logic
-- `AND(condition1, condition2)` - Logical AND
-- `OR(condition1, condition2)` - Logical OR
+- `IF(condition, true_value, false_value)` – Conditional logic
+- `AND(condition1, condition2)` – Logical AND
+- `OR(condition1, condition2)` – Logical OR
 
 ### Text Functions
-- `CONCATENATE(text1, text2)` - Join text
-- `LEFT(text, num_chars)` - Extract left characters
-- `RIGHT(text, num_chars)` - Extract right characters
-- `LEN(text)` - Text length
+- `CONCATENATE(text1, text2)` – Join text
+- `LEFT(text, num_chars)` – Extract left characters
+- `RIGHT(text, num_chars)` – Extract right characters
+- `LEN(text)` – Text length
 
 ## Best Practices
 
-1. **Formula Syntax**: Both `=SUM(A1:A10)` and `SUM(A1:A10)` work
-2. **Cell References**: Use absolute references (`$A$1`) when needed
-3. **Error Handling**: Test formulas with simple data first
-4. **Batch Operations**: Use batch operations for multiple similar formulas
-5. **Formula Validation**: Verify results after applying formulas
+1. **Formula Syntax**: Both `=SUM(A1:A10)` and `SUM(A1:A10)` work.
+2. **Cell References**: Use absolute references (`$A$1`) when needed.
+3. **Error Handling**: Test formulas with simple data first.
+4. **Batch Operations**: Use batch operations for multiple similar formulas.
+5. **Formula Validation**: Verify results after applying formulas.
 
 ## Error Handling
 

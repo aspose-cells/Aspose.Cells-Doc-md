@@ -21,7 +21,7 @@ Aspose.Cells for Node.js via C++ provides [Cells.insertRange(CellArea, number, S
 
 ## **Insert Ranges And Shift Cells Right**
 
-Insert a range and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells right using the following code with Aspose.Cells:
 
 ```javascript
 const path = require("path");
@@ -45,8 +45,7 @@ const worksheet = newWorkbook.getWorksheets().get(0);
 // Create a range of cells.
 const sourceRange = worksheet.getCells().createRange("A1", "A2");
 
-// Input some data with some formattings into
-// A few cells in the range.
+// Input some data with some formatting into a few cells in the range.
 sourceRange.get(0, 0).setValue("Test");
 sourceRange.get(1, 0).setValue("123");
 const ca = AsposeCells.CellArea.createCellArea("A1", "A2");
@@ -56,7 +55,7 @@ console.log(worksheet.getCells().get("B1").getValue() === "Test");
 
 ## **Insert Ranges And Shift Cells Down**
 
-Insert a range and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down using the following code with Aspose.Cells:
 
 ```javascript
 const path = require("path");
@@ -80,8 +79,7 @@ const worksheet = newWorkbook.getWorksheets().get(0);
 // Create a range of cells.
 const sourceRange = worksheet.getCells().createRange("A1", "A2");
 
-// Input some data with some formattings into
-// A few cells in the range.
+// Input some data with some formatting into a few cells in the range.
 sourceRange.get(0, 0).putValue("Test");
 sourceRange.get(1, 0).putValue(123);
 const ca = AsposeCells.CellArea.createCellArea("A1", "A2");

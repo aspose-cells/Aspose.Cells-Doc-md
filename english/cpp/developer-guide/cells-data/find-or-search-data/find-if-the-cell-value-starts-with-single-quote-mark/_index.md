@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now provides the [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like sample and 'sample etc.
+Aspose.Cells now provides the [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like `sample` and `'sample`, etc.
 
 {{% /alert %}}
 
-The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell::GetStringValue**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/) property. Therefore we must use [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to distinguish them.
+The following sample code demonstrates that strings like `sample` and `'sample` cannot be differentiated using the [**Cell::GetStringValue**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/) property. Therefore, we must use the [**Style::QuotePrefix**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getquoteprefix/) property to distinguish them.
 
 ```cpp
 #include <iostream>
@@ -34,7 +34,7 @@ int main()
     // Create worksheet
     Worksheet sheet = wb.GetWorksheets().Get(0);
 
-    // Access cell A1 and A2
+    // Access cells A1 and A2
     Cell a1 = sheet.GetCells().Get(u"A1");
     Cell a2 = sheet.GetCells().Get(u"A2");
 
@@ -42,7 +42,7 @@ int main()
     a1.PutValue(u"sample");
     a2.PutValue(u"'sample");
 
-    // Print their string values, A1 and A2 both are same
+    // Print their string values; A1 and A2 are both the same
     std::cout << "String value of A1: " << a1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "String value of A2: " << a2.GetStringValue().ToUtf8() << std::endl;
 
@@ -52,7 +52,7 @@ int main()
 
     std::cout << std::endl;
 
-    // Check if A1 and A2 has a quote prefix
+    // Check if A1 and A2 have a quote prefix
     std::cout << "A1 has a quote prefix: " << s1.GetQuotePrefix() << std::endl;
     std::cout << "A2 has a quote prefix: " << s2.GetQuotePrefix() << std::endl;
 

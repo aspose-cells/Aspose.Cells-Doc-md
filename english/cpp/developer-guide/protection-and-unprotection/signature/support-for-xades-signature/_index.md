@@ -4,7 +4,7 @@ linktitle: Support for XAdES Signature
 type: docs
 weight: 110
 url: /cpp/support-for-xades-signature/
-description: This article describes Support for XAdES Signature using C++ codes with Aspose.Cells for C++.
+description: This article describes support for XAdES signatures using C++ code with Aspose.Cells for C++.
 keywords: Support for XAdES Signature, How to sign Excel with XAdES Signature, How to add XAdES signature.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-Aspose.Cells provides support for signing workbooks with XAdES Signature. For this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/digitalsignature/) class and the [**XAdESType**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/xadestype/) enumeration.
+Aspose.Cells provides support for signing workbooks with XAdES signatures. To do this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/digitalsignature/) class and the [**XAdESType**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/xadestype/) enumeration.
 
 ## **How to Add XAdES Signature for Excel**
 
-The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/digitalsignature/) class to sign the [source](101089323.xlsx) workbook.
+The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/cpp/aspose.cells.digitalsignatures/digitalsignature/) class to sign the source workbook.
 
 ```cpp
 #include <iostream>

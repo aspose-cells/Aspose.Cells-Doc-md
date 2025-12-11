@@ -9,12 +9,12 @@ description: Learn how to auto-fit rows for merged cells using Aspose.Cells for 
 
 {{% alert color="primary" %}}
 
-Microsoft Excel provides a feature that allows you to auto-size the height of a cell according to its content. The feature is called auto-fit rows. Microsoft Excel doesn't set auto-fit operation on merged cells natively. Sometimes the feature becomes vital for a user who really needs to implement auto-fit rows on merged cells too.
+Microsoft Excel provides a feature that allows you to auto-size the height of a cell according to its content. The feature is called auto‑fit rows. Microsoft Excel doesn't set auto‑fit operation on merged cells natively. Sometimes the feature becomes vital for a user who really needs to implement auto‑fit rows on merged cells too.
 
 {{% /alert %}}
 
 ## **How to use AutoFitMergedCellsType for autofitting rows**
-Aspose.Cells for JavaScript via C++ supports this feature through the [**AutoFitterOptions.autoFitMergedCellsType**](https://reference.aspose.com/cells/javascript-cpp/autofitmergedcellstype/) API. Using this API, it is possible to auto-fit rows in a worksheet including merged cells. Here is a list of all possible types of auto fitting merged cells:
+Aspose.Cells for JavaScript via C++ supports this feature through the [**AutoFitterOptions.autoFitMergedCellsType**](https://reference.aspose.com/cells/javascript-cpp/autofitmergedcellstype/) API. Using this API, it is possible to auto‑fit rows in a worksheet including merged cells. Here is a list of all possible types of auto‑fitting merged cells:
 
 - None
 - FirstLine
@@ -23,7 +23,7 @@ Aspose.Cells for JavaScript via C++ supports this feature through the [**AutoFit
 
 ## **Autofit Rows for Merged Cells**
 
-Please see the following code, it creates a workbook object and adds multiple worksheets. Use different methods for autofit operations in each worksheet. The screenshot shows the results after the execution of the sample code.
+Please see the following code; it creates a workbook object and adds multiple worksheets. Use different methods for autofit operations in each worksheet. The screenshot shows the results after the execution of the sample code.
 
 <br>
 <img src="result.png" width=80% />
@@ -80,7 +80,7 @@ Please see the following code, it creates a workbook object and adds multiple wo
             // Merge the cells
             range.merge();
 
-            // Insert value to the merged cell A1
+            // Insert value into the merged cell A1
             const cell1 = sheet1.cells.get(0, 0);
             cell1.value = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end";
 
@@ -111,7 +111,7 @@ Please see the following code, it creates a workbook object and adds multiple wo
             // Merge the cells
             range2.merge();
 
-            // Insert value to the merged cell A1
+            // Insert value into the merged cell A1
             const cell2 = sheet2.cells.get(0, 0);
             cell2.value = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end";
 
@@ -142,7 +142,7 @@ Please see the following code, it creates a workbook object and adds multiple wo
             // Merge the cells
             range3.merge();
 
-            // Insert value to the merged cell A1
+            // Insert value into the merged cell A1
             const cell3 = sheet3.cells.get(0, 0);
             cell3.value = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end";
 
@@ -173,7 +173,7 @@ Please see the following code, it creates a workbook object and adds multiple wo
             // Merge the cells
             range4.merge();
 
-            // Insert value to the merged cell A1
+            // Insert value into the merged cell A1
             const cell4 = sheet4.cells.get(0, 0);
             cell4.value = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end";
 

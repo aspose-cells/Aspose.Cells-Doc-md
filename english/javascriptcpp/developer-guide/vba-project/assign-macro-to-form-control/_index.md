@@ -1,20 +1,20 @@
 ---
-title: Assign Macro to Form Control with JavaScript via C++
+title: Assign a Macro to a Form Control with JavaScript via C++
 linktitle: Assign Macro to Form Control
 type: docs
 weight: 60
 url: /javascript-cpp/assign-macro-to-form-control/
-description: Learn how to assign a Macro Code to a Form Control like a Button using Aspose.Cells for JavaScript via C++. 
+description: Learn how to assign a macro code to a Form Control such as a button using Aspose.Cells for JavaScript via C++.
 keywords: Assign Macro to Form Control JavaScript via C++, Macro Code for Form Control JavaScript via C++, Integrated Macro in XLSM JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.macroName**](https://reference.aspose.com/cells/javascript-cpp/shape/#macroName--) property to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells allows you to assign a macro code to a Form Control, such as a button. Please use the [**Shape.macroName**](https://reference.aspose.com/cells/javascript-cpp/shape/#macroName--) property to assign a new macro code to a Form Control inside the workbook.
 
 {{% /alert %}}
 
-The following sample code creates a new workbook, assigns a Macro Code to a Form Button, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel, you will see the following macro code.
+The following sample code creates a new workbook, assigns a macro code to a Form button, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel, you will see the following macro code.
 
 {{< highlight java >}}
 

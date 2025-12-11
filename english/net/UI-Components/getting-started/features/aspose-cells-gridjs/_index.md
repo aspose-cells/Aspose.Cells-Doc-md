@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /net/aspose-cells-gridjs/features/
 keywords: GridJs,features,feature
-description: This article introduce features for GridJs .
+description: This article introduces features for GridJs.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -16,43 +16,44 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ### **Worksheet Features**
 - Add/remove/rename worksheets.
 
-
 ### **Row & Column Features**
 - Add, insert and remove rows and columns in a worksheet.
 - Hide and show rows and columns.
 - Freeze and unfreeze rows & columns.
- 
+
 ### **Cell Features**
-- Edit multiple cells .
-- Supports number, date,currency and time format settings.
+- Edit multiple cells.
+- Supports number, date, currency and time format settings.
 - Supports custom format settings.
 - Supports background color settings.
 - Supports autofill.
 - Control text alignment.
-- Control text wraping.
+- Control text wrapping.
 - Manage borders.
 - Control the font settings.
-- Merge or split cells
+- Merge or split cells.
+
 ### **Formatting Features**
 - Create web-based interactive grid applications that look and feel like desktop spreadsheet applications.
 - Supports cell formatting.
 
 ### **Utility Features**
-- Supports drop-down list  validations.
+- Supports drop-down list validations.
 - Add/remove/search comments.
 - Rotate/Resize/Move pictures/shapes.
-
 - Keyboard navigation.
-### **Advance Features**
+
+### **Advanced Features**
 - Supports creating and calculating formulas on web pages.
 - Provides 80+ pre-defined functions related to math, text and data, date and time, and logic.
 
 ### **Browsers Supported**
 - Microsoft Internet Explorer
-- Mozilla FireFox
+- Mozilla Firefox
 - Opera
 - Google Chrome
 - Microsoft Edge
+
 ### **Microsoft Excel Supported**
 - Microsoft Excel 97
 - Microsoft Excel 2000
@@ -61,7 +62,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - Microsoft Excel 2007
 - Microsoft Excel 2010
 - Microsoft Excel 2013
+
 ### **Platforms Supported**
-- ASP.NET core
-
-
+- ASP.NET Core

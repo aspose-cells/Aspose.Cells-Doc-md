@@ -22,20 +22,20 @@ Aspose.Cells provides the [**GetStyle**](https://reference.aspose.com/cells/go-c
 
 #### **Adding Borders to a Cell**
 
-Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection. The border type is passed as an index to the [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection. All border types are pre-defined in the [**BorderType**](https://reference.aspose.com/cells/cpp/aspose.cells/bordertype/) enumeration.
+Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection. The border type is passed as an index to the [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection. All border types are pre‑defined in the [**BorderType**](https://reference.aspose.com/cells/cpp/aspose.cells/bordertype/) enumeration.
 
 **Border enumeration**
 
 | **Border Types** | **Description** |
 |------------------|-----------------|
 | BottomBorder     | A bottom border line |
-| DiagonalDown     | A diagonal line from top left to right bottom |
-| DiagonalUp       | A diagonal line from bottom left to right top |
+| DiagonalDown     | A diagonal line from top‑left to bottom‑right |
+| DiagonalUp       | A diagonal line from bottom‑left to top‑right |
 | LeftBorder       | A left border line |
 | RightBorder      | A right border line |
 | TopBorder        | A top border line |
 
-The [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection stores all borders. Each border in the [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection is represented by a [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object which provides two properties, [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getcolor/) and [**GetLineStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getlinestyle/) to set a border's line color and style respectively.
+The [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection stores all borders. Each border in the [**GetBorders()**](https://reference.aspose.com/cells/go-cpp/style/getborders/) collection is represented by a [**Border**](https://reference.aspose.com/cells/cpp/aspose.cells/border/) object, which provides two properties, [**GetColor()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getcolor/) and [**GetLineStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/border/getlinestyle/), to set a border's line color and style, respectively.
 
 To set a border's line color, select a color using the Color enumeration and assign it to the Border object's Color property.
 
@@ -45,18 +45,18 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 
 | **Line Styles**       | **Description**               |
 |------------------------|-------------------------------|
-| DashDot               | Thin dash-dotted line         |
-| DashDotDot            | Thin dash-dot-dotted line     |
+| DashDot               | Thin dash‑dotted line         |
+| DashDotDot            | Thin dash‑dot‑dotted line     |
 | Dashed                | Dashed line                  |
 | Dotted                | Dotted line                  |
 | Double                | Double line                  |
 | Hair                  | Hairline                     |
-| MediumDashDot         | Medium dash-dotted line       |
-| MediumDashDotDot      | Medium dash-dot-dotted line   |
+| MediumDashDot         | Medium dash‑dotted line       |
+| MediumDashDotDot      | Medium dash‑dot‑dotted line   |
 | MediumDashed          | Medium dashed line            |
 | None                  | No line                      |
 | Medium                | Medium line                  |
-| SlantedDashDot        | Slanted medium dash-dotted line |
+| SlantedDashDot        | Slanted medium dash‑dotted line |
 | Thick                 | Thick line                   |
 | Thin                  | Thin line                    |
 
@@ -71,17 +71,17 @@ You should set both line style and color at the same time. The two diagonal bord
 
 #### **Adding Borders to a Range of Cells**
 
-It is also possible to add borders to a range of cells rather than just a single cell. To do so, first, create a range of cells by calling the [**Cells**](https://reference.aspose.com/cells/go-cpp/cells/) collection's [**CreateRange**](https://reference.aspose.com/cells/go-cpp/cells/createrange/) method. It takes the following parameters:
+It is also possible to add borders to a range of cells rather than just a single cell. To do so, first create a range of cells by calling the [**Cells**](https://reference.aspose.com/cells/go-cpp/cells/) collection's [**CreateRange**](https://reference.aspose.com/cells/go-cpp/cells/createrange/) method. It takes the following parameters:
 
-- First Row, the first row of the range.
-- First Column, represents the first column of the range.
-- Number of Rows, the number of rows in the range.
-- Number of Columns, the number of columns in the range.
+- **First Row** – the first row of the range.  
+- **First Column** – the first column of the range.  
+- **Number of Rows** – the number of rows in the range.  
+- **Number of Columns** – the number of columns in the range.
 
 The [**CreateRange**](https://reference.aspose.com/cells/go-cpp/cells/createrange_string_string/) method returns a [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object, which contains the specified range of cells. The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object provides a [**SetOutlineBorder**](https://reference.aspose.com/cells/cpp/aspose.cells/range/setoutlineborder/) method that takes the following parameters to add a border to the range of cells:
 
-- **Border Type**, the border type, selected from the [**BorderType**](https://reference.aspose.com/cells/go-cpp/bordertype/) enumeration.
-- **Line Style**, the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/go-cpp/cellbordertype/) enumeration.
-- **Color**, the line color, selected from the Color enumeration.
+- **Border Type** – the border type, selected from the [**BorderType**](https://reference.aspose.com/cells/go-cpp/bordertype/) enumeration.  
+- **Line Style** – the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/go-cpp/cellbordertype/) enumeration.  
+- **Color** – the line color, selected from the Color enumeration.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-BorderSettings-1.go" >}}

@@ -1,20 +1,20 @@
----
-title: Set External Links in Formulas with JavaScript via C++
-linktitle: Set External Links in Formulas
-type: docs
-weight: 20
-url: /javascript-cpp/set-external-links-in-formulas/
-description: Learn how to set external links in formulas using Aspose.Cells for JavaScript via C++. 
-keywords: Set external links in formulas JavaScript via C++, Include external files in formulas JavaScript via C++ 
----
+---  
+title: Set External Links in Formulas with JavaScript via C++  
+linktitle: Set External Links in Formulas  
+type: docs  
+weight: 20  
+url: /javascript-cpp/set-external-links-in-formulas/  
+description: Learn how to set external links in formulas using Aspose.Cells for JavaScript via C++.  
+keywords: Set external links in formulas JavaScript via C++, Include external files in formulas JavaScript via C++  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or range value against them. Aspose.Cells for JavaScript via C++ provides this feature and this document explains how to use it.
+Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or range value against them. Aspose.Cells for JavaScript via C++ provides this feature, and this document explains how to use it.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-The sample code below shows how to include external files in formulas.
+The sample code below shows how to include external files in formulas.  
 
 ```html
 <!DOCTYPE html>
@@ -54,10 +54,10 @@ The sample code below shows how to include external files in formulas.
             // Instantiate a new Workbook.
             const workbook = new Workbook();
 
-            // Get first Worksheet
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
 
-            // Get Cells collection
+            // Get the cells collection
             const cells = sheet.cells;
 
             // Set formula with external links

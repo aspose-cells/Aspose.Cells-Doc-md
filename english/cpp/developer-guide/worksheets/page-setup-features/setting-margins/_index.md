@@ -20,11 +20,11 @@ Aspose.Cells fully supports Microsoft Excel's page setup options. Developers may
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains the [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 
-The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) property used to set the page setup options for a worksheet. The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) attribute is an object of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class that enables developers to set different page layout options for a printed worksheet. The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides various properties and methods used to set page setup options.
+The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) property used to set the page setup options for a worksheet. The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) property is an object of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class that enables developers to set different page layout options for a printed worksheet. The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides various properties and methods used to set page‑setup options.
 
 ### **Page Margins**
 
-Set page margins (left, right, top, bottom) using [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members. A few of the methods are listed below which are used to specify page margins:
+Set page margins (left, right, top, bottom) using the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members. A few of the methods are listed below which are used to specify page margins:
 
 - [**GetLeftMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getleftmargin/)
 - [**GetRightMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getrightmargin/)
@@ -55,7 +55,7 @@ int main()
     // Get the first (default) worksheet
     Worksheet worksheet = worksheets.Get(0);
 
-    // Get the pagesetup object
+    // Get the PageSetup object
     PageSetup pageSetup = worksheet.GetPageSetup();
 
     // Set bottom, left, right, and top page margins
@@ -75,7 +75,7 @@ int main()
 
 ### **Center on Page**
 
-It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class, [**GetCenterHorizontally()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcenterhorizontally/) and [**GetCenterVertically()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getcentervertically/).
+It is possible to center content on a page horizontally and vertically. For this, there are useful members of the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class, **SetCenterHorizontally()** and **SetCenterVertically()**.
 
 ```cpp
 #include <iostream>
@@ -101,7 +101,7 @@ int main()
     // Get the first (default) worksheet
     Worksheet worksheet = worksheets.Get(0);
 
-    // Get the pagesetup object
+    // Get the PageSetup object
     PageSetup pageSetup = worksheet.GetPageSetup();
 
     // Specify Center on page Horizontally and Vertically
@@ -119,7 +119,7 @@ int main()
 
 ### **Header and Footer Margins**
 
-Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members such as [**GetHeaderMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getheadermargin/) and [**GetFooterMargin()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getfootermargin/).
+Set header and footer margins with the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class members such as **SetHeaderMargin()** and **SetFooterMargin()**.
 
 ```cpp
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
     // Get the first (default) worksheet
     Worksheet worksheet = worksheets.Get(0);
 
-    // Get the pagesetup object
+    // Get the PageSetup object
     PageSetup pageSetup = worksheet.GetPageSetup();
 
     // Specify Header / Footer margins
@@ -153,9 +153,9 @@ int main()
     pageSetup.SetFooterMargin(2);
 
     // Save the Workbook
-    workbook.Save(outDir + u"CenterOnPage_out.xls");
+    workbook.Save(outDir + u"HeaderFooterMargins_out.xls");
 
-    std::cout << "Workbook saved successfully with centered header and footer margins!" << std::endl;
+    std::cout << "Workbook saved successfully with header and footer margins!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }

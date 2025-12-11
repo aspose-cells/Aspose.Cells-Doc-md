@@ -1,11 +1,11 @@
----
-title: Release Unmanaged Resources of the Workbook with JavaScript via C++
-linktitle: Release Unmanaged Resources of the Workbook
-type: docs
-weight: 310
-url: /javascript-cpp/release-unmanaged-resources-of-the-workbook/
-description: Learn how to release unmanaged resources of Workbook object using Aspose.Cells for JavaScript via C++. 
----
+---  
+title: Release Unmanaged Resources of the Workbook with JavaScript via C++  
+linktitle: Release Unmanaged Resources of the Workbook  
+type: docs  
+weight: 310  
+url: /javascript-cpp/release-unmanaged-resources-of-the-workbook/  
+description: Learn how to release unmanaged resources of the Workbook object using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}
 
@@ -13,7 +13,7 @@ Aspose.Cells provides [**Workbook.dispose()**](https://reference.aspose.com/cell
 
 {{% /alert %}}
 
-[**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) object now implements the *System.IDisposable* interface which has a single method [**Workbook.dispose()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#dispose--). You can either directly call the [**Workbook.dispose()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#dispose--) method or you can use the *Using* statement to call this method automatically.
+[**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) object now implements the *System.IDisposable* interface which has a single method [**Workbook.dispose()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#dispose--). You can either directly call the [**Workbook.dispose()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#dispose--) method or you can use the *using* statement to call this method automatically.
 
 ```html
 <!DOCTYPE html>

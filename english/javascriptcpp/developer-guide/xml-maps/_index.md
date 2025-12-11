@@ -1,36 +1,36 @@
----
-title: Import XML to Excel workbook with JavaScript via C++
-linktitle: XML Maps
-type: docs
-weight: 210
-url: /javascript-cpp/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: Import data from XML files into Excel using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Import XML to Excel workbook with JavaScript via C++  
+linktitle: XML Maps  
+type: docs  
+weight: 210  
+url: /javascript-cpp/import-xml-map-inside-a-workbook-using-aspose-cells/  
+description: Import data from XML files into Excel using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#importXml-string-string-number-number-) method. You can import XML Map using Microsoft Excel with the following steps:
+Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#importXml-string-string-number-number-) method. You can import an XML map using Microsoft Excel with the following steps:  
 
-- Select **Developer** tab
-- Click **Import** in the XML section and follow the required steps.
+- Select **Developer** tab  
+- Click **Import** in the XML section and follow the required steps.  
 
-You will need to provide your XML data to complete the import. Here is a [sample XML data](5115037.txt) that you can use for testing.
+You will need to provide your XML data to complete the import. Here is a [sample XML data](5115037.txt) that you can use for testing.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Import XML Map using Microsoft Excel**
+## **Import XML Map using Microsoft Excel**  
 
-The following screenshot shows how to import XML Map using Microsoft Excel.
+The following screenshot shows how to import an XML map using Microsoft Excel.  
 
-|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
-| :- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|  
+| :- |  
 
-## **Import XML Map using Aspose.Cells for JavaScript via C++**
+## **Import XML Map using Aspose.Cells for JavaScript via C++**  
 
-The following sample code shows how to make use of the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#importXml-string-string-number-number-). It generates the [output excel file](5115036.xlsx) as shown in this screenshot.
+The following sample code shows how to use the [**Workbook.importXml(string, string, number, number)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#importXml-string-string-number-number-). It generates the [output Excel file](5115036.xlsx) as shown in this screenshot.  
 
-|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
-| :- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|  
+| :- |  
 
 ```html
 <!DOCTYPE html>
@@ -75,10 +75,10 @@ The following sample code shows how to make use of the [**Workbook.importXml(st
             // Create a workbook
             const workbook = new Workbook();
 
-            // Import your XML Map data starting from cell A1 on Sheet1
+            // Import your XML map data starting from cell A1 on Sheet1
             workbook.importXml(xmlText, "Sheet1", 0, 0);
 
-            // Save workbook to XLSX and provide download link
+            // Save the workbook to XLSX and provide a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -91,10 +91,10 @@ The following sample code shows how to make use of the [**Workbook.importXml(st
         });
     </script>
 </html>
-```
+```  
 
-## **Advanced topics**
-- [Add XML Map inside the Workbook using XmlMapCollection.add() method](/cells/javascript-cpp/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [Export XML Data linked to XML Map inside the Workbook](/cells/javascript-cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [Find the Root Element Name of XML Map](/cells/javascript-cpp/find-the-root-element-name-of-xml-map/)
-- [Link Cells to XML Map Elements](/cells/javascript-cpp/link-cells-to-xml-map-elements/)
+## **Advanced topics**  
+- [Add XML Map inside the Workbook using XmlMapCollection.add() method](/cells/javascript-cpp/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)  
+- [Export XML Data linked to XML Map inside the Workbook](/cells/javascript-cpp/export-xml-data-linked-to-xml-map-inside-the-workbook/)  
+- [Find the Root Element Name of XML Map](/cells/javascript-cpp/find-the-root-element-name-of-xml-map/)  
+- [Link Cells to XML Map Elements](/cells/javascript-cpp/link-cells-to-xml-map-elements/)  

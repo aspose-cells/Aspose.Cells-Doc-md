@@ -16,7 +16,7 @@ Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cell
 
 {{% /alert %}}
 
-The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once, you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and inside it, you will see the following macro code.
+The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and inside it, you will see the following macro code.
 
 {{< highlight java >}}
 
@@ -184,7 +184,7 @@ int main()
 }
 ```
 
-## **Advance Topics**
+## **Advanced Topics**
 - [Add a Library Reference to VBA Project in Workbook](/cells/cpp/add-a-library-reference-to-vba-project-in-workbook/)
 - [Assign Macro to Form Control](/cells/cpp/assign-macro-to-form-control/)
 - [Check if Digital Signature of VBA Code is Valid](/cells/cpp/check-if-digital-signature-of-vba-code-is-valid/)

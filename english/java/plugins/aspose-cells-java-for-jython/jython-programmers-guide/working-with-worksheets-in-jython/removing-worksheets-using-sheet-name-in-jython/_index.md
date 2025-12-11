@@ -1,64 +1,56 @@
----
-title: Removing Worksheets using Sheet Name in Jython
-type: docs
-weight: 120
-url: /java/removing-worksheets-using-sheet-name-in-jython/
+---  
+title: Removing Worksheets using Sheet Name in Jython  
+type: docs  
+weight: 120  
+url: /java/removing-worksheets-using-sheet-name-in-jython/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Removing Worksheets using Sheet Name**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+## **Aspose.Cells – Removing Worksheets using Sheet Name**  
 
-**Jython Code**
+This example demonstrates how to remove a worksheet by its name using **Aspose.Cells for Java in Jython**. See the sample code below.  
 
-{{< highlight java >}}
+**Jython Code**  
 
- from aspose-cells import Settings
-
+{{< highlight java >}}  
+```python
+from aspose-cells import Settings
 from com.aspose.cells import Workbook
+from java.io import FileInputStream
 
-from java.io import FileInputStream;
 
-
-class RemovingWorksheetsusingSheetName:
+class RemovingWorksheetsUsingSheetName:
 
     def __init__(self):
-
         dataDir = Settings.dataDir + 'WorkingWithWorksheets/RemovingWorksheetsusingSheetName/'
 
+        # Creating a file stream containing the Excel file to be opened
+        fstream = FileInputStream(dataDir + "Book1.xls")
 
+        # Instantiating a Workbook object with the stream
+        workbook = Workbook(fstream)
 
-        #Creating a file stream containing the Excel file to be opened
+        # Removing a worksheet using its sheet name
+        workbook.getWorksheets().removeAt("Sheet1")
 
-        fstream = FileInputStream(dataDir + "Book1.xls");
+        # Saving the Excel file
+        workbook.save(dataDir + "book.out.xls")
 
-        #Instantiating a Workbook object with the stream
+        # Closing the file stream to free all resources
+        fstream.close()
 
-        workbook = Workbook(fstream);
+        # Print message
+        print "Sheet removed successfully."
+        
 
-        #Removing a worksheet using its sheet name
+if __name__ == '__main__':
+    RemovingWorksheetsUsingSheetName()
+```  
+{{< /highlight >}}  
 
-        workbook.getWorksheets().removeAt("Sheet1");
+## **Download Runnable Code**  
 
-        #Saving the Excel file
+Download **Removing Worksheets (Aspose.Cells)** from any of the below mentioned source‑code repositories:  
 
-        workbook.save(dataDir + "book.out.xls");
-
-        #Closing the file stream to free all resources
-
-        fstream.close();
-
-        #Print Message
-
-        print "Sheet removed successfully.";
-
-if __name__ == '__main__':        
-
-    RemovingWorksheetsusingSheetName()
-
-{{< /highlight >}}
-## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
-
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)  

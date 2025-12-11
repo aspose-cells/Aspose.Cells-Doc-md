@@ -21,7 +21,7 @@ The following example shows how to render a range of pages (3 and 4) in a Micros
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. Doing ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.
+If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. Doing so ensures that formula‑dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

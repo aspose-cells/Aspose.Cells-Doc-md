@@ -1,26 +1,26 @@
----
-title: Add Signature Line to the Worksheet with C++
-linktitle: Add Signature Line
-type: docs
-weight: 200
-url: /cpp/add-signature-line/
-description: This article describes how to add a signature line to the worksheet using C++ codes with Aspose.Cells for C++.
-keywords: Add Signature line to the worksheet, How to Add Signature line to the worksheet, How to Add Signature Line to Worksheet, How to add the signature line of the worksheet.
+---  
+title: Add Signature Line to the Worksheet with C++  
+linktitle: Add Signature Line  
+type: docs  
+weight: 200  
+url: /cpp/add-signature-line/  
+description: This article describes how to add a signature line to the worksheet using C++ code with Aspose.Cells for C++.  
+keywords: Add Signature line to the worksheet, How to Add Signature line to the worksheet, How to Add Signature Line to Worksheet, How to add the signature line of the worksheet.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Introduction**
+## **Introduction**  
 
-Aspose.Cells provides the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property to add the signature line of the worksheet.
+Aspose.Cells provides the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property to add a signature line to the worksheet.  
 
-## **How to Add Signature Line to Worksheet**
+## **How to Add Signature Line to Worksheet**  
 
-The following sample code demonstrates how to use the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property to add the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
+The following sample code demonstrates how to use the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property to add a signature line to the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.  
 
-![todo:image_alt_text](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```cpp
 #include <iostream>

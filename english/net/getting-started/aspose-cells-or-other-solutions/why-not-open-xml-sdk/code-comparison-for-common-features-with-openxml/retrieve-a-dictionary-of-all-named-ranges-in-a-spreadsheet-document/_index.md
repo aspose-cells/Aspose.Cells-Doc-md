@@ -26,7 +26,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
     var returnValue = new Dictionary<String, String>();
 
-    // Open the spreadsheet document for read-only access.
+    // Open the spreadsheet document for read‑only access.
 
     using (SpreadsheetDocument document =
 
@@ -81,20 +81,17 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
     var returnValue = new Dictionary<String, String>();
 
 
-
-    // Open a SpreadsheetDocument based on a filepath.
+    // Open a workbook based on the file path.
 
     Workbook workbook = new Workbook(fileName);
 
 
-
-    //Getting all named ranges
+    // Getting all named ranges
 
     Range[] range = workbook.Worksheets.GetNamedRanges();
 
 
-
-    // If there are items in Ranges, add them to the dictionary.
+    // If there are items in ranges, add them to the dictionary.
 
     if (range != null)
 

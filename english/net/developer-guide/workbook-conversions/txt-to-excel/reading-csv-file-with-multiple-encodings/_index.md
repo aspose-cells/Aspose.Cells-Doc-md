@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, your CSV file contains multiple Encodings (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells allows you to load such CSV files and converting them into other formats, for example, PDF or XLSX.
+Sometimes, your CSV file contains multiple encodings (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells allows you to load such CSV files and convert them into other formats, for example, PDF or XLSX.
 
 {{% /alert %}}
 
@@ -27,7 +27,7 @@ The following screenshot shows the XLSX file converted from the above CSV file w
 | :- |
 |![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
 
-The following screenshot shows the XSLX file converted from the above CSV file after setting the [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) property to **true**. As you can see, the Unicode text is now converted properly.
+The following screenshot shows the XLSX file converted from the above CSV file after setting the [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) property to **true**. As you can see, the Unicode text is now converted properly.
 
 |**Output file 2: IsMultiEncoded is set to true**|
 | :- |

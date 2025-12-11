@@ -11,12 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to find out Query Tables and List Objects related to some External Data Connection. Query Tables are related to External Data Connection object with Connection Id, while List Objects are related to a Query Table.
+Sometimes, you need to find out Query Tables and List Objects related to an External Data Connection. Query Tables are related to an External Data Connection object with a Connection ID, while List Objects are related to a Query Table.
 
 {{% /alert %}}
 
 ## **Find Query Tables and List Objects related to External Data Connections**
-The following sample codes with [sample excel file](5115493.xlsm) explain how to find Query Tables and List Objects related to External Data Connection.
+The following sample codes with [sample Excel file](5115493.xlsm) explain how to find Query Tables and List Objects related to an External Data Connection.
 
 ```c++
 #include <iostream>
@@ -122,7 +122,7 @@ void PrintTables(Workbook workbook, ExternalConnection ec)
 }
 ```
 
-The following is the console output of running the above sample codes with this [sample excel file](5115493.xlsm).
+The following is the console output of running the above sample codes with this [sample Excel file](5115493.xlsm).
 
 {{< highlight java >}}
 
@@ -155,4 +155,7 @@ querytable hp?s=UWTI+Historical+Prices
 refersto: =Sheet1!$H$1:$N$69
 
 {{< /highlight >}}
+
 {{< app/cells/assistant language="cpp" >}}
+
+

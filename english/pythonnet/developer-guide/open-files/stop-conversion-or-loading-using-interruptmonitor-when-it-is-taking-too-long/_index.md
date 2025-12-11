@@ -4,26 +4,26 @@ linktitle: Stop Conversion or Loading Using InterruptMonitor
 type: docs
 weight: 100
 url: /python-net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
-description: Learn how to interrupt Excel file processing in Python using Aspose.Cells' InterruptMonitor for efficient resource management during long operations.
+description: Learn how to interrupt Excel file processing in Python using Aspere.Cells' InterruptMonitor for efficient resource management during long operations.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to stop the conversion of Workbook to various formats like PDF, HTML etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) both for stopping conversion as well as to stop loading huge workbooks. Please use [**Workbook.interrupt_monitor**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/interrupt_monitor/) property for stopping conversion and [**LoadOptions.interrupt_monitor**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/interrupt_monitor/) property for loading huge workbooks.
+Aspose.Cells allows you to stop the conversion of a Workbook to various formats like PDF, HTML, etc., using the [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) object when it is taking too long. The conversion process is often both CPU and memory intensive, and it is useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) both for stopping conversion and for stopping the loading of huge workbooks. Please use the [**Workbook.interrupt_monitor**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/interrupt_monitor/) property for stopping conversion and the [**LoadOptions.interrupt_monitor**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/interrupt_monitor/) property for loading huge workbooks.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
-The following sample code explains the usage of [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
+The following sample code explains the usage of [**InterruptMonitor**](https://reference.aspose.com/cells/python-net/aspose.cells/interruptmonitor) object. The code converts a fairly large Excel file to PDF. It will take several seconds (i.e., *more than 30 seconds*) to convert because of these lines of code.
 
 ```python
-# Access cell J1000000 and add some text inside it.
+# Access cell J1000000 and add some text.
 cell = ws.cells.get("J1000000")
 cell.put_value("This is text.")
 ```
 
-As you see **J1000000** is quite a farther cell in XLSX file. However, the **wait_for_while_and_then_interrupt()** method interrupts the conversion after 10 seconds and program ends/terminates. Please use the following code to execute the sample code.
+As you can see, **J1000000** is a much farther cell in the XLSX file. However, the **wait_and_interrupt()** method interrupts the conversion after 10 seconds and the program terminates. Please use the following code to execute the sample code.
 
 ```python
 StopConversionOrLoadingUsingInterruptMonitor().test_run()
@@ -40,7 +40,7 @@ from aspose.cells import InterruptMonitor
 
 class StopConversionOrLoadingUsingInterruptMonitor:
     # Output directory
-    output_dir = None  # Will be set using GetOutputDirectory()
+    output_dir = None  # Will be set using get_output_directory()
 
     def __init__(self):
         # Create InterruptMonitor object

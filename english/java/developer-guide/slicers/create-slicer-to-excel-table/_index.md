@@ -1,5 +1,5 @@
 ---
-title: Create Slicer to Excel Table
+title: Create a Slicer for an Excel Table
 type: docs
 weight: 15
 url: /java/create-slicer-to-excel-table/
@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-A slicer is used to filter data quickly. It can be used to filter data both in a table or pivot table. Microsoft Excel allows you to create slicer by selecting a table or pivot table and then clicking the *Insert > Slicer*. Aspose.Cells also allows you to create slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-) method.
+A slicer is used to filter data quickly. It can be used to filter data in either a table or a pivot table. Microsoft Excel allows you to create a slicer by selecting a table or pivot table and then clicking *Insert > Slicer*. Aspose.Cells also allows you to create a slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-) method.
 
 ## **Create Slicer to Excel Table**
 

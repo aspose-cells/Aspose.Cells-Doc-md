@@ -8,13 +8,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hello World**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+To append documents using **Aspose.Cells for Java with Jython**. Here is an example code.
 
 **Jython Code**
 
 {{< highlight java >}}
 
- from asposewords import Settings
+from asposewords import Settings
 
 from com.aspose.Cells import Document
 
@@ -43,23 +43,25 @@ class HelloWorld:
         cell.setValue("Hello World!")
 
 
-
         file_format_type = FileFormatType
 
 
 
-        workbook.save(dataDir + "HelloWorld.xls" , file_format_type.EXCEL_97_TO_2003 )
+        workbook.save(dataDir + "HelloWorld.xls", file_format_type.EXCEL_97_TO_2003)
 
 
 
-        print "Document has been saved, please check the output file.";
+        print "Document has been saved, please check the output file."
+
+
 
 if __name__ == '__main__':        
 
     HelloWorld()
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Append Documents (Aspose.Cells)** from any of the below‑mentioned social‑coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/quickstart/HelloWorld.py)

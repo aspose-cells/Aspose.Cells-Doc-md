@@ -1,29 +1,29 @@
----
-title: Format Worksheet Cells in a Workbook with C++
-linktitle: Format Worksheet Cells
-description: Aspose.Cells is a C++ library for working with spreadsheet files. It supports formatting worksheet cells in workbooks, allowing users to customize the appearance and style of the cells. This article will introduce how to format worksheet cells using the Aspose.Cells library.
-keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
-type: docs
-weight: 2000
-url: /cpp/format-worksheet-cells-in-a-workbook/
+---  
+title: Format Worksheet Cells in a Workbook with C++  
+linktitle: Format Worksheet Cells  
+description: Aspose.Cells is a C++ library for working with spreadsheet files. It supports formatting worksheet cells in workbooks, allowing users to customize the appearance and style of the cells. This article will introduce how to format worksheet cells using the Aspose.Cells library.  
+keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style  
+type: docs  
+weight: 2000  
+url: /cpp/format-worksheet-cells-in-a-workbook/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 {{% alert color="primary" %}}
 
 This article shows how to:
 
-1. Use styles to quickly format data.
-1. Format cells in rows and columns.
-1. Use borders and colors to emphasize data.
-1. Apply number formats to emphasize data.
-1. Use fonts and attributes to highlight data.
-1. Format data in a named range.
-1. Change data alignment and orientation.
-1. Set row height and column width.
+1. Use styles to quickly format data.  
+1. Format cells in rows and columns.  
+1. Use borders and colors to emphasize data.  
+1. Apply number formats to emphasize data.  
+1. Use fonts and attributes to highlight data.  
+1. Format data in a named range.  
+1. Change data alignment and orientation.  
+1. Set row height and column width.  
 
-The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data into and apply formatting using [Aspose.Cells](https://products.aspose.com/cells/cpp/).
+The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data, and apply formatting using [Aspose.Cells](https://products.aspose.com/cells/cpp/).  
 
 {{% /alert %}}
 
@@ -35,21 +35,21 @@ A format represents a style and is defined as a set of characteristics, such as 
 
 Number formats also make data more meaningful. By applying different number formats, you can change the appearance of numbers without changing the number behind the appearance.
 
-Aspose.Cells provides lets you draw borders around cells and ranges easily. It also lets you apply fonts and shade cells. The component is efficient enough that you can format a complete row or column, set alignments, wrap and rotate text in cells. Aspose.Cells further supports all number formats supported by Microsoft Excel.
+Aspose.Cells lets you draw borders around cells and ranges easily. It also lets you apply fonts and shade cells. The component is efficient enough that you can format a complete row or column, set alignments, wrap and rotate text in cells. Aspose.Cells further supports all number formats supported by Microsoft Excel.
 
 This article shows how to create a console application in Visual Studio that generates an annual sales report. The workbook is created from scratch, then data is inserted and the worksheet is formatted. We show how to create a simple console application which creates an Excel workbook (you can also use a template file), insert sales data into the first worksheet, format the data and save an Excel file.
 
 ### **Process**
 
-Below are the steps involved how to create a spreadsheet and format different cells in different rows and columns of a worksheet.
+Below are the steps involved in creating a spreadsheet and formatting different cells in various rows and columns of a worksheet.
 
-1. Download and install Aspose.Cells:
-   1. [Download](https://downloads.aspose.com/cells/cpp) Aspose.Cells for C++.
-   1. Install it on your development computer.
-1. Create a project and add references:
-   1. Start Visual Studio.
-   1. Create a new console application.
-   1. Add a reference to Aspose.Cells, for example …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
+1. Download and install Aspose.Cells:  
+   1. [Download](https://downloads.aspose.com/cells/cpp) Aspose.Cells for C++.  
+   1. Install it on your development computer.  
+1. Create a project and add references:  
+   1. Start Visual Studio.  
+   1. Create a new console application.  
+   1. Add a reference to Aspose.Cells, for example …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll  
 1. Add the following code to the project:
 
 ```c++
@@ -109,7 +109,7 @@ void CreateReportData(Workbook& workbook)
     cells.Get(u"A4").PutValue(u"Coffee");
     cells.Get(u"A5").PutValue(u"Tofu");
     cells.Get(u"A6").PutValue(u"Ikura");
-    cells.Get(u"A7").PutValue(u"Choclade");
+    cells.Get(u"A7").PutValue(u"Chocolate");
     cells.Get(u"A8").PutValue(u"Maxilaku");
     cells.Get(u"A9").PutValue(u"Scones");
     cells.Get(u"A10").PutValue(u"Sauce");
@@ -320,5 +320,5 @@ void CreateCellsFormatting(Workbook& workbook)
 
     cells.SetColumnWidth(13, 9.33);
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

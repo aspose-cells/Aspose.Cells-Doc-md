@@ -10,11 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can convert Smart Art Shape into Group Shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getResultOfSmartArt--) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
+You can convert a SmartArt shape into a group shape using the [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getResultOfSmartArt--) method. It will enable you to handle a SmartArt shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
 
 ## **Convert the Smart Art to Group Shape**
 
-The following sample code loads the [sample Excel file](55541793.xlsx) containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the Shape.isGroup property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541793.xlsx) containing a SmartArt shape as shown in this screenshot. It then converts the SmartArt shape into a group shape and prints the value of the `Shape.isGroup` property. Please see the console output of the sample code given below.
 
 ![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
@@ -24,7 +24,7 @@ The following sample code loads the [sample Excel file](55541793.xlsx) containin
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// Load the sample smart art shape - Excel file
+// Load the sample SmartArt shape - Excel file
 const filePath = path.join(__dirname, "data", "sampleSmartArtShape_GetResultOfSmartArt.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
@@ -34,13 +34,13 @@ const worksheet = workbook.getWorksheets().get(0);
 // Access first shape
 const shape = worksheet.getShapes().get(0);
 
-// Determine if shape is smart art
+// Determine if shape is SmartArt
 console.log("Is Smart Art Shape: " + shape.isSmartArt());
 
 // Determine if shape is group shape
 console.log("Is Group Shape: " + shape.isGroup());
 
-// Convert smart art shape into group shape
+// Convert SmartArt shape into group shape
 console.log("Is Group Shape: " + shape.getResultOfSmartArt().isGroup());
 ```
 

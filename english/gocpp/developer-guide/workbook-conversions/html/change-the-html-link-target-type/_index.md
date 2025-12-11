@@ -9,15 +9,13 @@ description: Learn how to change the HTML link target type using Aspose.Cells fo
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. **The** HTML link looks like this:
 
 {{< highlight java >}}
-
- <a href="http://www.aspose.com/" target="_self">
-
+<a href="http://www.aspose.com/" target="_self">
 {{< /highlight >}}
 
-As you can see the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**GetLinkTargetType()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getlinktargettype/) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/cpp/aspose.cells/htmllinktargettype/) enum which has the following values.
+As you can see, the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**GetLinkTargetType()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getlinktargettype/) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/cpp/aspose.cells/htmllinktargettype/) enum which has the following values.
 
 - HtmlLinkTargetType::Blank
 - HtmlLinkTargetType::Parent
@@ -26,6 +24,6 @@ As you can see the target attribute in the above HTML link is **_self**. You can
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**GetLinkTargetType()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getlinktargettype/) property. It changes the link target type to **blank**. By default, it is the **parent**.
+The following code illustrates the usage of [**GetLinkTargetType()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getlinktargettype/) property. It changes the link target type to **Blank**. By default, it is **Parent**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeTheHtmlLinkTargetType.go" >}}

@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells for Python via .NET.
 
-This article shows how to create a console application in Visual Studio.Net, and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells for Python via .NET API.
+This article shows how to create a console application in Visual Studio .NET and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells for Python via .NET API.
 
 {{% /alert %}}
 
 ## **Working with Page and Print Settings**
 
-For this example, we created a workbook in Microsoft Excel and use Aspose.Cells for Python via .NET to set page setup and print options.
+For this example, we created a workbook in Microsoft Excel and used Aspose.Cells for Python via .NET to set page setup and print options.
 
 ### **Using Aspose.Cells to set Page Setup Options**
 
@@ -28,19 +28,18 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 |![todo:image_alt_text](page-setup-and-printing-options_1.png)|
 
 1. Create a worksheet with some data in Microsoft Excel:
-   1. Open a new workbook in Microsoft Excel.
-   1. Add some data.
-1. Set page setup options:
+   1. Open a new workbook in Microsoft Excel.  
+   2. Add some data.  
+2. Set page setup options:  
    Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.
 
 |**Default page setup options.**|
 | :- |
 |![todo:image_alt_text](page-setup-and-printing-options_2.png)|
 
-
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PrintAndPreview-SettingPageSetup-1.py" >}}
 
-### **Setting Print options**
+### **Setting Print Options**
 
 Page setup settings also provide several print options (also called sheet options) that allow users to control how worksheet pages are printed. They allow users to:
 
@@ -58,6 +57,7 @@ The example that follows applies print options to the file created in the exampl
 |**Input document**|
 | :- |
 |![todo:image_alt_text](page-setup-and-printing-options_3.png)|
+
 Executing the code changes the print options.
 
 |**Output file**|

@@ -15,35 +15,35 @@ Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/ja
 {{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
-
-//Accessing the first worksheet in the Excel file
-
-Worksheet worksheet = workbook.getWorksheets().get(0);
-
-Cells cells = worksheet.getCells();
-
-cells.hideRow(2); //Hiding the 3rd row of the worksheet
-
-cells.hideColumn(1); //Hiding the 2nd column of the worksheet
-
+ 
+ //Accessing the first worksheet in the Excel file
+ 
+ Worksheet worksheet = workbook.getWorksheets().get(0);
+ 
+ Cells cells = worksheet.getCells();
+ 
+ cells.hideRow(2); //Hiding the 3rd row of the worksheet
+ 
+ cells.hideColumn(1); //Hiding the 2nd column of the worksheet
+ 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Hide / Unhide Cells**
-To Hide a row or column, Apache POI SS provide Row.setZeroHeight(boolean) method.
+To hide a row or column, Apache POI SS provides the Row.setZeroHeight(boolean) method.
 
 **Java**
 
 {{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
-
-Workbook workbook = WorkbookFactory.create(inStream);
-
-Sheet sheet = workbook.createSheet();
-
-Row row = sheet.createRow(0);
-
-row.setZeroHeight(true);
-
+ 
+ Workbook workbook = WorkbookFactory.create(inStream);
+ 
+ Sheet sheet = workbook.createSheet();
+ 
+ Row row = sheet.createRow(0);
+ 
+ row.setZeroHeight(true);
+ 
 {{< /highlight >}}
 ## **Download Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)

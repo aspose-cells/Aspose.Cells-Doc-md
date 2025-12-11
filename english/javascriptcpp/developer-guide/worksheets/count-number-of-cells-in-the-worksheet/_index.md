@@ -57,7 +57,7 @@ You may count the number of cells in the worksheet by using the [**Cells.count**
             // Access first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Get number of cells (regular Count)
+            // Get number of cells (regular count)
             const numberOfCells = worksheet.cells.count;
 
             // If very large, use CountLarge

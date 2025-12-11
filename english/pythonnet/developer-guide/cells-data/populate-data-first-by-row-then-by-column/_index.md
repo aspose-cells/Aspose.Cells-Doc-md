@@ -11,13 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Populating a spreadsheet with data first by row and then by column improves the overall performance.
+Populating a spreadsheet with data first by row and then by column improves overall performance.
 
 {{% /alert %}} 
 
-Putting data in the sequence A1, B1, A2, B2 is faster than A1, A2, B1, B2. If there are many cells in a worksheet and you follow the second sequence, that is, you're filling the data row by row, this tip can make the program much faster.
-
-
+Putting data in the sequence A1, B1, A2, B2 is faster than A1, A2, B1, B2. If there are many cells in a worksheet and you follow the second sequence—that is, you fill the data row by row—this tip can make the program much faster.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-PopulateDataEfficiently-PopulateDataFirstByRowThenColumns.py" >}}
 {{< app/cells/assistant language="python-net" >}}

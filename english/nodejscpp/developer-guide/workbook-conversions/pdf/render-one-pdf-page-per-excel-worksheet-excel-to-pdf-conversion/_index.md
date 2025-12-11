@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-When working with large Microsoft Excel files (for example a workbook that has many sheets, each with 50 columns and 300 or more rows of data), you might want the PDF output to show one page per worksheet, regardless of the size of the worksheet. This would mean that each page is likely to have a radically different page size. This can be achieved by using Aspose.Cells for Node.js via C++.  
+When working with large Microsoft Excel files (for example, a workbook that has many sheets, each with 50 columns and 300 or more rows of data), you might want the PDF output to show one page per worksheet, regardless of the size of the worksheet. This would mean that each page is likely to have a radically different page size. This can be achieved by using Aspose.Cells for Node.js via C++.  
 
 {{% /alert %}}  
 
@@ -36,11 +36,11 @@ workbook.save(path.join(dataDir, "OutputFile.out.pdf"), pdfSaveOptions);
 
 {{% alert color="primary" %}}  
 
-If the [PdfSaveOptions.getOnePagePerSheet()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOnePagePerSheet--) option is set to **true**, all the sheet content will be rendered to one PDF page.  
+If the [PdfSaveOptions.getOnePagePerSheet()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOnePagePerSheet--) option is set to **true**, all the sheet content will be rendered on one PDF page.  
 
 {{% /alert %}} {{% alert color="primary" %}}  
 
-If your spreadsheet contains formulas, it is best to call [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.  
+If your spreadsheet contains formulas, it is best to call [Workbook.calculateFormula()](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF. This ensures that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.  
 
 {{% /alert %}}  
   

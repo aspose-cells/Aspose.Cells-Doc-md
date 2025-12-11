@@ -4,7 +4,7 @@ linktitle: Apply Superscript and Subscript Effects on Fonts
 type: docs
 weight: 80
 url: /cpp/apply-superscript-and-subscript-effects-on-fonts/
-description: The C++ code to apply superscript and subscript effect to text in excel with the use of Aspose.Cells for C++ API.
+description: The C++ code to apply superscript and subscript effects to text in Excel using the Aspose.Cells for C++ API.
 keywords: excel superscript c++, excel subscript c++, excel superscript and subscript c++, insert subscript and superscript in excel c++, add subscript and superscript in excel c++, add superscript and subscript excel c++, add superscript excel c++, add subscript excel c++
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -20,9 +20,9 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 Apply the superscript effect by setting the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/font/) object's [**IsSuperscript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issuperscript/) property to **true**. To apply subscript, set the [**Style.Font**](https://reference.aspose.com/cells/cpp/aspose.cells/font/) object's [**IsSubscript**](https://reference.aspose.com/cells/cpp/aspose.cells/font/issubscript/) property to **true**.
 
-The following code examples show how to apply super and subscript to text.
+The following code examples show how to apply superscript and subscript to text.
 
-### C++ code to Apply Superscript effect on text
+### C++ code to Apply Superscript effect to text
 
 ```cpp
 #include <iostream>
@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-### C++ code to Apply Subscript effect on text
+### C++ code to Apply Subscript effect to text
 
 ```cpp
 #include <iostream>
@@ -79,7 +79,7 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
+    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
     // Create a new workbook

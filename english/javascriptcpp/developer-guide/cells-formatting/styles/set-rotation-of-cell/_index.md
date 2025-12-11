@@ -14,38 +14,38 @@ Aspose.Cells is a powerful JavaScript component that enables developers to work 
 
 ## **How to Rotate Text of Cell in Excel**
 To rotate a cell in Excel, you can use the following steps:
-1. Open Excel and select the cell or range of cells that you want to rotate.
-1. Right-click on the selected cell(s) and choose "Format Cells" from the context menu. Alternatively, you can go to the "Home" tab in the Excel ribbon, click on the "Format" dropdown in the "Cells" group, and select "Format Cells."
-1. In the "Format Cells" dialog box, navigate to the "Alignment" tab.
-1. Under the "Orientation" section, you will see the options to rotate the text. You can directly input the desired rotation angle in degrees in the "Degrees" box. Positive values rotate the text counterclockwise, and negative values rotate it clockwise.
-<br>
-![todo:image_alt_text](alignment.png)
-1. Once you have selected the desired rotation, click "OK" to apply the changes. The selected cell(s) will now be rotated based on your chosen rotation angle or orientation.
+1. Open Excel and select the cell or range of cells that you want to rotate.  
+2. Right‑click on the selected cell(s) and choose **“Format Cells”** from the context menu. Alternatively, you can go to the **Home** tab in the Excel ribbon, click on the **Format** dropdown in the **Cells** group, and select **“Format Cells.”**  
+3. In the **“Format Cells”** dialog box, navigate to the **Alignment** tab.  
+4. Under the **Orientation** section, you will see the options to rotate the text. You can directly input the desired rotation angle in degrees in the **Degrees** box. Positive values rotate the text counterclockwise, and negative values rotate it clockwise.  
+   <br>
+   ![todo:image_alt_text](alignment.png)  
+5. Once you have selected the desired rotation, click **OK** to apply the changes. The selected cell(s) will now be rotated based on your chosen rotation angle or orientation.
 
 ## **How to Rotate Text of Cell using Aspose.Cells API**
 
-[**Style.rotationAngle(number)**](https://reference.aspose.com/cells/javascript-cpp/style/#rotationAngle-number-) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
-1. Load the Excel Workbook  
-<br>
-First, you need to load the Excel workbook using Aspose.Cells. You can use the Workbook class to open an existing Excel file or create a new one. 
+[**Style.rotationAngle(number)**](https://reference.aspose.com/cells/javascript-cpp/style/#rotationAngle-number-) property makes it convenient to rotate cell text. To rotate cells in Aspose.Cells, you need to follow these steps:
+1. **Load the Excel Workbook**  
+   <br>
+   First, you need to load the Excel workbook using Aspose.Cells. You can use the `Workbook` class to open an existing Excel file or create a new one.  
 
-1. Access the Worksheet  
-<br>
-Once the workbook is loaded, you need to access the worksheet where you want to rotate the cells. You can either access the worksheet by its index or name. 
+2. **Access the Worksheet**  
+   <br>
+   Once the workbook is loaded, you need to access the worksheet where you want to rotate the cells. You can either access the worksheet by its index or name.  
 
-1. Rotate the text of Cell  
-<br>
-Now that you have access to the worksheet, you can rotate the cells by modifying the Style object of the desired cells. The Style object allows you to set various formatting options, including rotation. 
+3. **Rotate the Text of the Cell**  
+   <br>
+   Now that you have access to the worksheet, you can rotate the cells by modifying the `Style` object of the desired cells. The `Style` object allows you to set various formatting options, including rotation.  
 
-1. Save the Workbook  
-<br>
-After rotating the cells, you can save the modified workbook back to a file or stream using the Save method.
+4. **Save the Workbook**  
+   <br>
+   After rotating the cells, you can save the modified workbook back to a file or stream using the `Save` method.
 
 ## **JavaScript Sample Code**
 
-Please see the following code, it creates a workbook object and sets different rotation angles for several cells. The screenshot shows the result after the execution of the sample code.
+Please see the following code; it creates a workbook object and sets different rotation angles for several cells. The screenshot shows the result after executing the sample code.  
 <br>
-<img src="rotation.png" width=80% />
+<img src="rotation.png" width="80%" />
 
 ```html
 <!DOCTYPE html>
@@ -96,7 +96,7 @@ Please see the following code, it creates a workbook object and sets different r
             a1Style.rotationAngle = 45; 
             a1.style = a1Style;
 
-            // set Column index of the cell
+            // Set column index of the cell
             column = 1;
             let b1 = worksheet.cells.get(row, column);
             b1.putValue("b1 rotate text");
@@ -106,7 +106,7 @@ Please see the following code, it creates a workbook object and sets different r
             b1Style.rotationAngle = 255;
             b1.style = b1Style;
 
-            // set Column index of the cell
+            // Set column index of the cell
             column = 2;
             let c1 = worksheet.cells.get(row, column);
             c1.putValue("c1 rotate text");
@@ -116,7 +116,7 @@ Please see the following code, it creates a workbook object and sets different r
             c1Style.rotationAngle = -90;
             c1.style = c1Style;
 
-            // set Column index of the cell
+            // Set column index of the cell
             column = 3;
             let d1 = worksheet.cells.get(row, column);
             d1.putValue("d1 rotate text");

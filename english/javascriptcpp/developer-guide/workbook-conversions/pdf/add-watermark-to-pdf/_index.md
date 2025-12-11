@@ -9,9 +9,9 @@ description: Learn how to add text and image watermark to PDF while converting E
 
 While converting an Excel file to PDF, you may have requirements to add a watermark to the PDF file. The following examples show how to add text and image watermarks to the PDF while rendering.
 
-##  **Add text watermark to PDF**
+## **Add text watermark to PDF**
 
-You can easily add a text watermark to a PDF by specifying the text and the corresponding font. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/javascript-cpp/renderingwatermark/).
+You can easily add a text watermark to a PDF by specifying the text and the corresponding font. Additionally, you can set alignment, offset, rotation, opacity, foreground/background, and scale to the page in [RenderingWatermark](https://reference.aspose.com/cells/javascript-cpp/renderingwatermark/).
 
 ```html
 <!DOCTYPE html>
@@ -56,7 +56,7 @@ You can easily add a text watermark to a PDF by specifying the text and the corr
                 document.getElementById('result').innerHTML = '<p>No input file provided. Proceeding with creating a new workbook.</p>';
             }
 
-            // prepare a workbook with 3 pages.
+            // Prepare a workbook with 3 pages.
             const wb = new Workbook();
             wb.worksheets.get(0).cells.get("A1").value = "Page1";
             let index = wb.worksheets.add();
@@ -65,29 +65,29 @@ You can easily add a text watermark to a PDF by specifying the text and the corr
             wb.worksheets.get(index).cells.get("A1").value = "Page3";
             wb.worksheets.get(index).pageSetup.paperSize = AsposeCells.PaperSizeType.PaperA3;
 
-            // create a font for watermark, and specify bold, italic, color.
+            // Create a font for watermark, and specify bold, italic, color.
             const font = new AsposeCells.RenderingFont("Calibri", 68);
             font.italic = true;
             font.bold = true;
             font.color = AsposeCells.Color.Blue;
 
-            // create a watermark from text and the specified font.
+            // Create a watermark from text and the specified font.
             const watermark = new AsposeCells.RenderingWatermark("Watermark", font);
 
-            // specify horizontal and vertical alignment
+            // Specify horizontal and vertical alignment
             watermark.hAlignment = AsposeCells.TextAlignmentType.Center;
             watermark.vAlignment = AsposeCells.TextAlignmentType.Center;
 
-            // specify rotation
+            // Specify rotation
             watermark.rotation = 30;
 
-            // specify opacity
+            // Specify opacity
             watermark.opacity = 0.6;
 
-            // specify the scale to page(e.g. 100, 50) in percent.
+            // Specify the scale to page (e.g., 100, 50) in percent.
             watermark.scaleToPagePercent = 50;
 
-            // specify watermark for rendering to pdf.
+            // Specify watermark for rendering to PDF.
             const options = new AsposeCells.PdfSaveOptions();
             options.watermark = watermark;
 
@@ -108,7 +108,7 @@ You can easily add a text watermark to a PDF by specifying the text and the corr
 
 ## **Add image watermark to PDF**
 
-You can add an image watermark to a PDF just by specifying the image bytes of an image. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/javascript-cpp/renderingwatermark/).
+You can add an image watermark to a PDF by specifying the image bytes. Additionally, you can set alignment, offset, rotation, opacity, foreground/background, and scale to the page in [RenderingWatermark](https://reference.aspose.com/cells/javascript-cpp/renderingwatermark/).
 
 ```html
 <!DOCTYPE html>
@@ -164,23 +164,23 @@ You can add an image watermark to a PDF just by specifying the image bytes of an
             // Create a watermark from image bytes.
             const watermark = new RenderingWatermark(imageBytes);
 
-            // Specify offset to alignment.
+            // Specify offset for alignment.
             watermark.offsetX = 100;
             watermark.offsetY = 200;
 
             // Specify rotation.
             watermark.rotation = 30;
 
-            // Specify watermark to background.
+            // Specify watermark as background.
             watermark.isBackground = true;
 
             // Specify opacity.
             watermark.opacity = 0.6;
 
-            // Specify the scale to page (e.g. 100, 50) in percent.
+            // Specify the scale to page (e.g., 100, 50) in percent.
             watermark.scaleToPagePercent = 50;
 
-            // Specify watermark for rendering to pdf.
+            // Specify watermark for rendering to PDF.
             const options = new PdfSaveOptions();
             options.watermark = watermark;
 

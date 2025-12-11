@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-Sometimes your HTML contains numbers like 1234567890123456, which are longer than 15 digits, and when you import your HTML to an Excel file, these numbers convert to exponential notation like 1.23457E+15. If you want your number to be imported as it is and not converted to exponential notation, then please use [**HtmlLoadOptions.getKeepPrecision()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getKeepPrecision--) property and set it **true** while loading your HTML.  
+Sometimes your HTML contains numbers like 1234567890123456, which are longer than 15 digits, and when you import your HTML to an Excel file, these numbers are converted to exponential notation like 1.23457E+15. If you want the number to be imported as it is and not converted to exponential notation, please use [**HtmlLoadOptions.getKeepPrecision()**](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/#getKeepPrecision--) property and set it to **true** while loading your HTML.  
 
 {{% /alert %}}  
 
@@ -21,20 +21,20 @@ The following sample code explains the usage of [**HtmlLoadOptions.getKeepPrecis
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// Sample Html containing large number with digits greater than 15
+// Sample HTML containing a large number with digits greater than 15
 const html = "<html><body><p>1234567890123456</p></body></html>";
 
-// Convert Html to byte array
+// Convert HTML to byte array
 const byteArray = new TextEncoder().encode(html);
 
-// Set Html load options and keep precision true
+// Set HTML load options and keep precision true
 const loadOptions = new AsposeCells.HtmlLoadOptions(AsposeCells.LoadFormat.Html);
 loadOptions.setKeepPrecision(true);
 
 // Convert byte array into stream
 const stream = byteArray;
 
-// Create workbook from stream with Html load options
+// Create workbook from stream with HTML load options
 const workbook = new AsposeCells.Workbook(stream, loadOptions);
 
 // Access first worksheet
@@ -47,5 +47,5 @@ sheet.autoFitColumns();
 const outputDir = path.join(__dirname, "output/");
 workbook.save(path.join(outputDir, "outputAvoidExponentialNotationWhileImportingFromHtml.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

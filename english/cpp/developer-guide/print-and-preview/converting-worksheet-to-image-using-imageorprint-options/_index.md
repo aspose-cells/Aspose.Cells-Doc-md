@@ -19,9 +19,9 @@ This document is designed to provide a detailed understanding of how to convert 
 
 Sometimes, you might require presenting your worksheets as a pictorial representation. You may need to present the worksheet images in your applications or web pages, insert them into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply put, you want a worksheet rendered as an image so that you can use it elsewhere. Aspose.Cells supports converting worksheets in Excel files to images. Additionally, Aspose.Cells supports setting different options like image format, resolution (both vertical and horizontal), image quality, and other image and print options.
 
-You might consider Office Automation, but it has its own drawbacks. There are several reasons and issues involved, such as security, stability, scalability, speed, price, and features. In short, there are many reasons, with the top one being that Microsoft themselves strongly recommends against Office automation from software solutions.
+You might consider Office Automation, but it has its own drawbacks. There are several reasons and issues involved, such as security, stability, scalability, speed, price, and features. In short, there are many reasons, with the top one being that Microsoft itself strongly recommends against Office automation from software solutions.
 
-This article shows how to create a console application in Visual Studio, perform the conversion of a worksheet to an image using different image and print options with a few and simplest lines of code using Aspose.Cells API.
+This article shows how to create a console application in Visual Studio, perform the conversion of a worksheet to an image using a few simple lines of code with different image and print options using Aspose.Cells API.
 
 You need to include the [**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) namespace in your program/project. It has several valuable classes, for example, [**SheetRender**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/), [**WorkbookRender**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/workbookrender/), etc.
 
@@ -31,7 +31,7 @@ The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/
 
 ### **Creating a Template Workbook in Microsoft Excel**
 
-I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options like horizontal and vertical resolutions, TiffCompression, etc.
+I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options like horizontal and vertical resolutions, TIFF compression, etc.
 
 ### **Download and Install Aspose.Cells**
 

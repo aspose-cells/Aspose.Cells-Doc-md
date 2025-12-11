@@ -8,11 +8,11 @@ url: /javascript-cpp/formatting-slicer/
 
 ## **Possible Usage Scenarios**
 
-You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells for JavaScript via C++ also allows you to do this using the [**Slicer.numberOfColumns**](https://reference.aspose.com/cells/javascript-cpp/slicer/#numberOfColumns--) and [**Slicer.styleType**](https://reference.aspose.com/cells/javascript-cpp/slicer/#styleType--) properties.
+You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style, etc. Aspose.Cells for JavaScript via C++ also allows you to do this using the [**Slicer.numberOfColumns**](https://reference.aspose.com/cells/javascript-cpp/slicer/#numberOfColumns--) and [**Slicer.styleType**](https://reference.aspose.com/cells/javascript-cpp/slicer/#styleType--) properties.
 
 ## **Formatting Slicer**
 
-Please see the following code, it loads the [sample Excel file](67338473.xlsx) that contains a slicer. It accesses the slicer and sets its number of columns and style type and saves it as [output Excel file](67338474.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.
+Please see the following code; it loads the [sample Excel file](67338473.xlsx) that contains a slicer. It accesses the slicer, sets its number of columns and style type, and saves it as the [output Excel file](67338474.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.
 
 ![todo:image_alt_text](formatting-slicer_1.png)
 
@@ -60,7 +60,7 @@ Please see the following code, it loads the [sample Excel file](67338473.xlsx) t
             // Instantiate Workbook from uploaded file
             const wb = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const ws = wb.worksheets.get(0);
 
             // Access the first slicer inside the slicer collection
@@ -72,7 +72,7 @@ Please see the following code, it loads the [sample Excel file](67338473.xlsx) t
             // Set the type of slicer style
             slicer.styleType = AsposeCells.SlicerStyleType.SlicerStyleLight6;
 
-            // Save the workbook in output XLSX format
+            // Save the workbook in XLSX format
             const outputData = wb.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

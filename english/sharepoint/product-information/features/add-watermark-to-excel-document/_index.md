@@ -7,6 +7,6 @@ ai_search_scope: cells_sharepoint
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for SharePoint supports to add Watermark to Excel spreadsheets.
+Aspose.Cells for SharePoint supports adding a watermark to Excel spreadsheets.
 
 ![todo:image_alt_text](add-watermark-to-excel-document_1.png)

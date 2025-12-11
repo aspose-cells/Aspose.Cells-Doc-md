@@ -4,14 +4,14 @@ linktitle: Specify Individual or Private Set of Fonts for Workbook Rendering
 type: docs
 weight: 40
 url: /cpp/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
-description: Learn how to specify individual or private set of fonts for workbook rendering using Aspose.Cells for C++.
+description: Learn how to specify an individual or private set of fonts for workbook rendering using Aspose.Cells for C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Generally, you specify the fonts directory or list of fonts for all workbooks, but sometimes, you have to specify individual or private set of fonts for your workbooks. Aspose.Cells provides the [**IndividualFontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/individualfontconfigs/) class that can be used to specify the individual or private set of fonts for your workbook.
+Generally, you specify the fonts directory or a list of fonts for all workbooks, but sometimes you need to specify an individual or private set of fonts for your workbooks. Aspose.Cells provides the [**IndividualFontConfigs**](https://reference.aspose.com/cells/cpp/aspose.cells/individualfontconfigs/) class that can be used to specify the individual or private set of fonts for your workbook.
 
 ## **Specify Individual or Private Set of Fonts for Workbook Rendering**
 
@@ -33,11 +33,11 @@ int main()
     // Path of your custom font directory
     U16String customFontsDir(u"C:\\TempDir\\CustomFonts");
 
-    // Specify individual font configs custom font directory
+    // Specify individual font configs for the custom font directory
     IndividualFontConfigs fontConfigs;
 
-    // If you comment this line or if custom font directory is wrong or 
-    // if it does not contain required font then output pdf will not be rendered correctly
+    // If you comment this line, or if the custom font directory is wrong,
+    // or if it does not contain the required font, then the output PDF will not be rendered correctly
     fontConfigs.SetFontFolder(customFontsDir, false);
 
     // Specify load options with font configs

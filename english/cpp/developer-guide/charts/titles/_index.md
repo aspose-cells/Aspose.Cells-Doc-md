@@ -12,9 +12,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-In Excel charts, there are 2 kinds of title:
+In Excel charts, there are two kinds of titles:
 1. Chart Title 
-1. Axis Titles
+2. Axis Titles
 
 {{% /alert %}}
 
@@ -68,7 +68,7 @@ int main()
     // Accessing the instance of the newly added chart
     Chart chart = worksheet.GetCharts().Get(chartIndex);
 
-    // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+    // Adding a SeriesCollection (chart data source) to the chart, ranging from cells A1 to B3
     chart.GetNSeries().Add(u"A1:B3", true);
 
     // Setting the foreground color of the plot area
@@ -92,10 +92,10 @@ int main()
     // Setting the font color of the chart title to blue
     chart.GetTitle().GetFont().SetColor(Color::Blue());
 
-    // Setting the title of category axis of the chart
+    // Setting the title of the category axis of the chart
     chart.GetCategoryAxis().GetTitle().SetText(u"Category");
 
-    // Setting the title of value axis of the chart
+    // Setting the title of the value axis of the chart
     chart.GetValueAxis().GetTitle().SetText(u"Value");
 
     // Saving the Excel file

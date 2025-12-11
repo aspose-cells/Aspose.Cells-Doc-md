@@ -1,30 +1,30 @@
----
-title: Split Screen of Excel Worksheet with JavaScript via C++
-linktitle: Split Screen
-type: docs
-weight: 190
-url: /javascript-cpp/how-to-split-screen-of-excel-worksheet
-description: In this article, you'll learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts programmatically using JavaScript via C++ Addon.
-keywords: Freeze top rows, Freeze top row.
----
+---  
+title: Split Screen of Excel Worksheet with JavaScript via C++  
+linktitle: Split Screen  
+type: docs  
+weight: 190  
+url: /javascript-cpp/how-to-split-screen-of-excel-worksheet  
+description: In this article, you'll learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts programmatically using JavaScript via C++ Addon.  
+keywords: Freeze top rows, Freeze top row.  
+---  
 
-## **Introduction**
+## **Introduction**  
 
-In this article, we will learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts. When working with large datasets, we need to see a few areas of the same worksheet at a time to compare different subsets of data. The split screen function can meet your needs.
+In this article, we will learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts. When working with large datasets, we need to see a few areas of the same worksheet at a time to compare different subsets of data. The split screen function can meet your needs.  
 
-## **How to split screen in Excel**
-To split up a worksheet into two or four parts, do as the following:
+## **How to split screen in Excel**  
+To split up a worksheet into two or four parts, do the following:  
 
-1. Select the row/column/cell before which you want to place the split.
-2. On the View tab, in the Windows group, click the Split button.
+1. Select the row/column/cell before which you want to place the split.  
+2. On the **View** tab, in the **Window** group, click the **Split** button.  
 
-**![Split Screen](Split-Screen.png)**
+**![Split Screen](Split-Screen.png)**  
 
-## **Split worksheet vertically on columns**
+## **Split worksheet vertically on columns**  
 
-To separate two areas of the spreadsheet vertically, select the column to the right of the column where you wish the split to appear and click the Split button in Excel.
+To separate two areas of the spreadsheet vertically, select the column to the right of the column where you wish the split to appear and click the **Split** button in Excel.  
 
-It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for JavaScript via C++, we only need to select one cell in the top row as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.
+It's easy to split a worksheet vertically on columns programmatically with Aspose.Cells for JavaScript via C++; we only need to select a cell in the top row as the active cell, then split with the [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.  
 
 ```html
 <!DOCTYPE html>
@@ -73,7 +73,7 @@ It's easy to split worksheet vertically on columns programmatically with Aspose.
             // Access the first worksheet
             const sheet = workbook.worksheets.get(0);
 
-            // Sets C1 cell in the top row as the active cell.
+            // Set the C1 cell in the top row as the active cell.
             sheet.activeCell = "C1";
 
             // Split worksheet vertically on columns
@@ -92,12 +92,13 @@ It's easy to split worksheet vertically on columns programmatically with Aspose.
         });
     </script>
 </html>
-```
+```  
 
-## **Split worksheet horizontally on rows**
-To separate your Excel window horizontally, select the row below the row where you want the split to occur in Excel.
+## **Split worksheet horizontally on rows**  
 
-It's easy to split worksheet horizontally on rows programmatically with Aspose.Cells for JavaScript via C++, we only need to select one cell in the left column as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.
+To separate your Excel window horizontally, select the row below the row where you want the split to occur in Excel.  
+
+It's easy to split a worksheet horizontally on rows programmatically with Aspose.Cells for JavaScript via C++; we only need to select a cell in the left column as the active cell, then split with the [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.  
 
 ```html
 <!DOCTYPE html>
@@ -144,7 +145,7 @@ It's easy to split worksheet horizontally on rows programmatically with Aspose.C
             // Accessing the first worksheet in the Excel file
             const sheet = workbook.worksheets.get(0);
 
-            // Sets A6 cell in the left column as the active cell.
+            // Set the A6 cell in the left column as the active cell.
             sheet.activeCell = "A6";
 
             // Split worksheet horizontally on rows
@@ -163,12 +164,13 @@ It's easy to split worksheet horizontally on rows programmatically with Aspose.C
         });
     </script>
 </html>
-```
+```  
 
-## **Split worksheet into four parts**
-To view four different sections of the same worksheet simultaneously, split your screen both vertically and horizontally in Excel.
+## **Split worksheet into four parts**  
 
-It's easy to split worksheet vertically on columns programmatically with Aspose.Cells for JavaScript via C++, we only need to select one cell not in the first row and column as active cell, then split with [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.
+To view four different sections of the same worksheet simultaneously, split your screen both vertically and horizontally in Excel.  
+
+It's easy to split a worksheet into four parts programmatically with Aspose.Cells for JavaScript via C++; we only need to select a cell that is not in the first row or column as the active cell, then split with the [**Worksheet.split()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#split--) method.  
 
 ```html
 <!DOCTYPE html>
@@ -215,7 +217,7 @@ It's easy to split worksheet vertically on columns programmatically with Aspose.
             // Access the first worksheet
             const sheet = workbook.worksheets.get(0);
             
-            // Sets E6 cell as the active cell.
+            // Set the E6 cell as the active cell.
             sheet.activeCell = "E6";
             
             // Split worksheet into four parts
@@ -234,12 +236,13 @@ It's easy to split worksheet vertically on columns programmatically with Aspose.
         });
     </script>
 </html>
-```
+```  
 
-## **How to remove split**
-To remove the worksheet splitting, just click the Split button again.
+## **How to remove split**  
 
-Aspose.Cells for JavaScript via C++ provides a [**Worksheet.removeSplit()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#removeSplit--) method to remove split setting.
+To remove the worksheet splitting, just click the **Split** button again.  
+
+Aspose.Cells for JavaScript via C++ provides a [**Worksheet.removeSplit()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#removeSplit--) method to remove the split setting.  
 
 ```html
 <!DOCTYPE html>
@@ -284,7 +287,7 @@ Aspose.Cells for JavaScript via C++ provides a [**Worksheet.removeSplit()**](htt
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             const sheet = workbook.worksheets.get(0);
 
-            // Remove split and then split worksheet into four parts
+            // Remove split and then split the worksheet into four parts
             sheet.removeSplit();
             sheet.split();
 

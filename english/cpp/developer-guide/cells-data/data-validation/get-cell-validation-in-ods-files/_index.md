@@ -42,7 +42,7 @@ int main()
     Cells cells = worksheet.GetCells();
     Cell cell = cells.Get(U16String(u"A9"));
 
-    // Check validation existence
+    // Check if validation exists
     Validation validation = cell.GetValidation();
     if (validation.IsNull() == false)
     {

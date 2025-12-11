@@ -14,19 +14,19 @@ If you closely look at the bottom of a Microsoft Excel file, you will see a numb
 - Sheet tabs.
 - Tab scrolling buttons.
 
-Sheet tabs represent the worksheets in the Excel file. Click any tab to switch to that worksheet. The more worksheets in the workbook, the more sheet tabs there are. If the Excel file has a good number of worksheets you need buttons to navigate through them. So, Microsoft Excel provides tab scrolling buttons for scrolling through the sheet tabs.
+Sheet tabs represent the worksheets in the Excel file. Click any tab to switch to that worksheet. The more worksheets in the workbook, the more sheet tabs there are. If the Excel file has a large number of worksheets, you need buttons to navigate through them. So Microsoft Excel provides tab scrolling buttons for scrolling through the sheet tabs.
 
 **Sheet tabs & tab scrolling buttons** 
 
 ![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_1.png)
 
-Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files. 
+Using Aspose.Cells, developers can control the visibility of sheet tabs and tab scrolling buttons in Excel files. 
 
 {{% /alert %}} 
 
-Below is a complete example that opens an Excel file (book1.xls), hides its tabs and saves the modified file as output.xls.
+Below is a complete example that opens an Excel file (book1.xls), hides its tabs, and saves the modified file as output.xls.
 
-You can see that Book1.xls file contains tabs in the figure below. After the example code is executed, the tabs are hidden, as you can see from the screenshot of the output.xls file below.
+You can see that the Book1.xls file contains tabs in the figure below. After the example code is executed, the tabs are hidden, as you can see from the screenshot of the output.xls file below.
 
 **book1.xls: Excel file before any modification** 
 
@@ -55,7 +55,6 @@ workbook.Settings.ShowTabs = false;
 workbook.Save("output.xls");
 
 
-
 {{< /highlight >}}
 ## **Controlling the Tab Bar Width**
 **C#**
@@ -65,7 +64,6 @@ workbook.Save("output.xls");
  //Adjusting the sheet tab bar width
 
 workbook.Worksheets.SheetTabBarWidth = 800;
-
 
 
 {{< /highlight >}}

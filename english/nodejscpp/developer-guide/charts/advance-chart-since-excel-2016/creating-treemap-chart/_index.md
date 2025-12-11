@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  
-A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.  
+A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best‑sellers. The tree branches are represented by rectangles, and each sub‑branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity, and can easily show lots of data, which would be difficult with other chart types.  
 
 ![todo:image_alt_text](sample.png)  
 ## **TreeMap chart**  
@@ -36,20 +36,20 @@ const worksheet = workbook.getWorksheets().get(0);
 const pieIdx = worksheet.getCharts().add(AsposeCells.ChartType.Treemap, 5, 6, 20, 12);
 // Retrieve the Chart object
 const chart = worksheet.getCharts().get(pieIdx);
-// Set the legend can be showed
+// Set the legend to be shown
 chart.setShowLegend(true);
 // Set the chart title name 
 chart.getTitle().setText("TreeMap Chart");
-// Add series data range(D2:D13,actually)
+// Add series data range (D2:F13, actually)
 chart.getNSeries().add("D2:F13", true);
-// Set category data(A2:A13 is incorrect )
+// Set category data (A2:C13 is correct)
 chart.getNSeries().setCategoryData("A2:C13");
 // Show the DataLabels with category names
 chart.getNSeries().get(0).getDataLabels().setShowCategoryName(true);
-// Fill the PlotArea area with nothing 
+// Fill the PlotArea with no fill 
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Save the Excel file
 workbook.save("out.xlsx");
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -13,7 +13,7 @@ You can change the character spacing of an Excel textbox or shape using the [**T
 
 {{% /alert %}}
 
-The following sample code changes the character spacing of the text box in an Excel file to point 4 and then saves it on disk.
+The following sample code changes the character spacing of the textbox in an Excel file to 4 points and then saves it to disk.
 
 ```html
 <!DOCTYPE html>

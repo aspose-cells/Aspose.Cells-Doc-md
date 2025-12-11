@@ -8,9 +8,9 @@ description: Learn how to use custom color schemes with Aspose.Cells for JavaScr
 keywords: JavaScript Create and Apply Color Schemes, JavaScript programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme JavaScript, JavaScript how to Use Color Scheme in Excel  
 ---
 
-## **How to Apply and Create Color Scheme in Excel**  
+## **How to Apply and Create Color Schemes in Excel**  
 Document themes make it easy to coordinate colors, fonts, and graphic formatting effects of Excel documents and update them quickly.  
-Themes provide a unified look with named styles, graphical effects, and other objects used in a workbook. For example, the Accent1 style looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it to how you want it.  
+Themes provide a unified look with named styles, graphical effects, and other objects used in a workbook. For example, the Accent1 style looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it to suit your needs.  
 
 ### **How to Apply a Color Scheme in Excel**  
 1. Open Excel and go to the "Page Layout" tab in the Excel ribbon.  
@@ -24,7 +24,7 @@ You can create your own color set to give your document a fresh, unique look or 
 
 1. Open Excel and go to the "Page Layout" tab in the Excel ribbon.  
 1. Click on the "Colors" button in the "Themes" section.  
-1. Click "Customize Colors..." button.  
+1. Click the "Customize Colors..." button.  
 <br>  
 <img src="color2.png" width=70% />  
 
@@ -35,10 +35,10 @@ You can create your own color set to give your document a fresh, unique look or 
 
 1. Click on the "Save" button to save your custom color scheme. Your custom color scheme will now be available in the "Colors" drop-down menu for future use.  
 
-## **How to Create and Apply Color Scheme in Aspose.Cells**  
+## **How to Create and Apply Color Schemes in Aspose.Cells**  
 Aspose.Cells provides features for customizing themes and colors.  
 
-### **How to Create Custom Color Theme in Aspose.Cells**  
+### **How to Create a Custom Color Theme in Aspose.Cells**  
 If theme colors are used in the file, we don't need to modify each cell individually; we just need to modify the colors in the theme.  
 
 The following example shows how to apply custom themes with your desired colors. We use a sample template file manually created in Microsoft Excel 2007.  
@@ -104,9 +104,9 @@ The following example loads a template XLSX file, defines colors for different t
             ];
 
             // Set the custom theme with specified colors.
-            workbook.customTheme("CustomeTheme1", carr);
+            workbook.customTheme("CustomTheme1", carr);
                         
-            // Save as the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -125,7 +125,6 @@ The following example loads a template XLSX file, defines colors for different t
 
 ### **How to Apply Theme Colors in Aspose.Cells**  
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the Excel file to disk.  
-
 
 ```html
 <!DOCTYPE html>
@@ -184,10 +183,10 @@ The following example applies a cell’s foreground and font colors based on the
             // Apply style.
             c.style = s;
 
-            // Put a value.
+            // Set a value.
             c.value = "Testing1";
 
-            // Save the excel file and provide download link.
+            // Save the Excel file and provide a download link.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -300,5 +299,5 @@ The following example uses a template XLSX file, gets the colors for different t
 ```
 
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Extract Theme Data from Excel File](/cells/javascript-cpp/extract-theme-data-from-excel-file/)

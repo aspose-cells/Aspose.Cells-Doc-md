@@ -1,5 +1,5 @@
 ---
-title: Convert Excel workbook to Ods,Sxc and Fods (OpenOffice / LibreOffice calc) via JavaScript
+title: Convert Excel workbook to Ods, Sxc and Fods (OpenOffice / LibreOffice Calc) via JavaScript
 linktitle: Ods
 type: docs
 weight: 20
@@ -10,8 +10,8 @@ description: How to convert Excel to Ods (OpenOffice / LibreOffice Calc) or conv
 ## **About OpenDocument**
 The [OpenDocument format (ODF)](https://en.wikipedia.org/wiki/OpenDocument) is a free and open file format for electronic office documents originally developed by Sun for the Open Office suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.
 
-## **Convert Ods (OpenOffice / LibreOffice calc) to Excel**
-Aspose.Cells for JavaScript via C++ supports loading Ods, Sxc and Fods which are supported by OpenOffice / LibreOffice Calc, and convert [Ods](book1.ods), [Sxc](book1.sxc) and [Fods](book1.fods) to Excel files.
+## **Convert Ods (OpenOffice / LibreOffice Calc) to Excel**
+Aspose.Cells for JavaScript via C++ supports loading Ods, Sxc and Fods which are supported by OpenOffice / LibreOffice Calc, and converts [Ods](book1.ods), [Sxc](book1.sxc) and [Fods](book1.fods) to Excel files.
 
 ```html
 <!DOCTYPE html>
@@ -106,7 +106,7 @@ Aspose.Cells for JavaScript via C++ supports loading Ods, Sxc and Fods which are
 ```
 
 ## **Convert Excel to Ods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc and Fods file.
+Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc, and Fods files.
 
 ```html
 <!DOCTYPE html>
@@ -154,7 +154,7 @@ Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc 
             // Load your source workbook
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Save as ods file 
+            // Save as ODS file 
             const odsData = workbook.save(SaveFormat.Ods);
             const blobOds = new Blob([odsData]);
             const downloadLinkOds = document.getElementById('downloadLinkOds');
@@ -163,7 +163,7 @@ Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc 
             downloadLinkOds.style.display = 'inline-block';
             downloadLinkOds.textContent = 'Download Out.ods';
 
-            // Save as sxc file 
+            // Save as SXC file 
             const sxcData = workbook.save(SaveFormat.Sxc);
             const blobSxc = new Blob([sxcData]);
             const downloadLinkSxc = document.getElementById('downloadLinkSxc');
@@ -172,7 +172,7 @@ Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc 
             downloadLinkSxc.style.display = 'inline-block';
             downloadLinkSxc.textContent = 'Download Out.sxc';
 
-            // Save as fods file 
+            // Save as FODS file 
             const fodsData = workbook.save(SaveFormat.Fods);
             const blobFods = new Blob([fodsData]);
             const downloadLinkFods = document.getElementById('downloadLinkFods');
@@ -187,6 +187,6 @@ Aspose.Cells for JavaScript via C++ supports converting Excel files to Ods, Sxc 
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Save ODS File in ODF 1.1 and 1.2 Specifications](/cells/javascript-cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Working with Background in ODS Files](/cells/javascript-cpp/working-with-background-in-ods-files/)

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. **The** HTML link looks like this
 
 {{< highlight javascript >}}
 
@@ -28,13 +28,13 @@ As you can see, the target attribute in the above HTML link is **_self**. You ca
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**HtmlSaveOptions.getLinkTargetType()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getLinkTargetType--) property. It changes the link target type to **blank**. By default, it is **parent**.
+The following code illustrates the usage of [**HtmlSaveOptions.getLinkTargetType()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getLinkTargetType--) property. It changes the link target type to **Self**. By default, it is **Parent**.
 
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
+ // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const inputPath = path.join(dataDir, "Sample1.xlsx");
 const outputPath = path.join(dataDir, "Output.out.html");

@@ -1,22 +1,22 @@
----
-title: Different Ways to Open Files with JavaScript via C++
-linktitle: Different Ways to Open Files
-type: docs
-weight: 10
-url: /javascript-cpp/different-ways-to-open-files/
-description: This article explains how to open an Excel file using Aspose.Cells for JavaScript via C++ API.
-keywords: JavaScript Open an Excel file without Excel, How do I open an Excel File using JavaScript.
----
+---  
+title: Different Ways to Open Files with JavaScript via C++  
+linktitle: Different Ways to Open Files  
+type: docs  
+weight: 10  
+url: /javascript-cpp/different-ways-to-open-files/  
+description: This article explains how to open an Excel file using Aspose.Cells for JavaScript via C++ API.  
+keywords: JavaScript Open an Excel file without Excel, How do I open an Excel File using JavaScript.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-With Aspose.Cells, it is simple to open files, for example, to retrieve data, or to use a designer template to speed up the development process.
+With Aspose.Cells, it is simple to open files, for example, to retrieve data, or to use a designer template to speed up the development process.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **How to Open an Excel File via a Path**
+## **How to Open an Excel File via a Path**  
 
-Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class constructor. Simply pass the path in the constructor as a *string*. Aspose.Cells will automatically detect the file format type.
+Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class constructor. Simply pass the path in the constructor as a *string*. Aspose.Cells will automatically detect the file format type.  
 
 ```html
 <!DOCTYPE html>
@@ -66,11 +66,11 @@ Developers can open a Microsoft Excel file using its file path on the local comp
         });
     </script>
 </html>
-```
+```  
 
-## **How to Open an Excel File via a Stream**
+## **How to Open an Excel File via a Stream**  
 
-It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
+It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.  
 
 ```html
 <!DOCTYPE html>
@@ -137,11 +137,11 @@ It is also simple to open an Excel file as a stream. To do so, use an overloaded
         });
     </script>
 </html>
-```
+```  
 
-## **How to Open a File with Data only**
+## **How to Open a File with Data Only**  
 
-To open a file with data only, use the [**LoadOptions**](https://reference.aspose.com/cells/javascript-cpp/loadoptions) and [**LoadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadfilter) classes to set the related attributes and options of the classes for the template file to be loaded.
+To open a file with data only, use the [**LoadOptions**](https://reference.aspose.com/cells/javascript-cpp/loadoptions) and [**LoadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadfilter) classes to set the related attributes and options of the classes for the template file to be loaded.  
 
 ```html
 <!DOCTYPE html>
@@ -205,11 +205,11 @@ To open a file with data only, use the [**LoadOptions**](https://reference.aspos
         });
     </script>
 </html>
-```
+```  
 
-## **How to Load Visible Sheets only**
+## **How to Load Visible Sheets Only**  
 
-While loading a [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the [**LoadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadfilter) class and pass its instance to [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property.
+While loading a [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the [**LoadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadfilter) class and pass its instance to [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property.  
 
 ```html
 <!DOCTYPE html>
@@ -375,16 +375,16 @@ While loading a [**Workbook**](https://reference.aspose.com/cells/javascript-cpp
         });
     </script>
 </html>
-```
+```  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-An exception will be thrown if you try to open non-native Excel files or other file formats (for example PPT/PPTX, DOC/DOCX, etc.) using Aspose.Cells.
+An exception will be thrown if you try to open non‑native Excel files or other file formats (for example PPT/PPTX, DOC/DOCX, etc.) using Aspose.Cells.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-There are fair chances that the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) constructor may throw *OutOfMemoryError* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into memory; therefore, the spreadsheet has to be loaded while enabling the Memory Preferences.
+There is a fair chance that the **Workbook** constructor may throw *OutOfMemoryError* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into memory; therefore, the spreadsheet has to be loaded while enabling the Memory Preferences.  
 
 {{% /alert %}}

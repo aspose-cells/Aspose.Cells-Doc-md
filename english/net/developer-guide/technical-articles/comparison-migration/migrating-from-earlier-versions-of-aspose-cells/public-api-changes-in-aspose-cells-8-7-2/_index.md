@@ -9,14 +9,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.7.1 to 8.7.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.7.1 to 8.7.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Extended the Default Calculation Engine**
-Aspose.Cells APIs have powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow to extend the default calculation engine to meet custom calculation requirements of any application.
+Aspose.Cells APIs have **a** powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you** to extend the default calculation engine to meet custom calculation requirements of any application.
 
-Following APIs have been added with the release of Aspose.Cells for .NET 8.7.2.
+**Following APIs have been added with the release of Aspose.Cells for .NET 8.7.2.**
 
 1. AbstractCalculationEngine Class
 1. CalculationData Class
@@ -24,7 +24,7 @@ Following APIs have been added with the release of Aspose.Cells for .NET 8.7.2.
 
 {{% alert color="primary" %}} 
 
-Above mentioned APIs allow to implement custom calculation engine for all functions (including Excel's native functions) with more flexibility.
+**Above-mentioned** APIs allow **you** to implement **a** custom calculation engine for all functions (including Excel's native functions) with more flexibility.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -32,7 +32,7 @@ For more details on this feature, please review the detailed article on [Impleme
 
 {{% /alert %}} 
 
-Following is the simple usage scenario.
+**Following is the simple usage scenario.**
 
 **C#**
 
@@ -92,7 +92,7 @@ Following is the simple usage scenario.
 
 
 ### **Added Overloaded Indexer for TextBoxCollection**
-Aspose.Cells for .NET 8.7.2 has exposed the overloaded indexed for the TextBoxCollection class in order to access the instance of TextBox using its name as string.
+Aspose.Cells for .NET 8.7.2 has exposed the overloaded **indexer** for the TextBoxCollection class in order to access the instance of TextBox using its name as a string.
 
 {{% alert color="primary" %}} 
 
@@ -100,7 +100,7 @@ For more details on this feature, please review the detailed article on [Accessi
 
 {{% /alert %}} 
 
-Simple usage scenario looks as follow.
+**Simple usage scenario looks as follows.**
 
 **C#**
 
@@ -134,9 +134,9 @@ box = sheet.TextBoxes["MyTextBox"];
 
 
 ### **Added OnAfterColumnFilter Event for GridWeb**
-Aspose.Cells.GridWeb for .NET 8.7.2 has exposed the OnAfterColumnFilter event which serves as callback to the filtering mechanism done through the Aspose.Cells.GridWeb UI. As the name suggests, the event is triggered after the column filtering is applied and can be used to get the filtering information such as column index on which filter was applied and selected filter value.
+Aspose.Cells.GridWeb for .NET 8.7.2 has exposed the OnAfterColumnFilter event which serves as a callback **for** the filtering mechanism done through the Aspose.Cells.GridWeb UI. As the name suggests, the event is triggered after the column filtering is applied and can be used to get the filtering information such as column index on which filter was applied and selected filter value.
 
-Simple usage scenario looks as follow.
+**Simple usage scenario looks as follows.**
 
 **C#**
 
@@ -154,7 +154,7 @@ Simple usage scenario looks as follow.
 
 {{% alert color="primary" %}} 
 
-Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control `<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>`
 
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

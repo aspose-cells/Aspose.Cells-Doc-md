@@ -18,7 +18,7 @@ Microsoft Excel lets users auto-size the width and height of cells according to 
 
 ## **Auto Fitting**
 
-Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class to autofit rows or columns.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [**Worksheets**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class to auto-fit rows or columns.
 
 ### **AutoFit Row - Simple**
 
@@ -97,7 +97,7 @@ int main()
     // Accessing the first worksheet in the Excel file
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Auto-fitting the 3rd row of the worksheet
+    // Auto-fitting the 2nd row of the worksheet (columns 0 to 5)
     worksheet.AutoFitRow(1, 0, 5);
 
     // Save the modified Excel file
@@ -156,12 +156,12 @@ int main()
 
 ### **How to AutoFit Rows for Merged Cells**
 
-With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) class provides the [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) property that can be used to autofit rows for merged cells. [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) accepts the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitmergedcellstype/) enumeration, which has the following members:
+With Aspose.Cells, it is possible to auto‑fit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) class provides the [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) property that can be used to auto‑fit rows for merged cells. [**GetAutoFitMergedCellsType()**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/getautofitmergedcellstype/) accepts the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitmergedcellstype/) enumeration, which has the following members:
 
 - None: Ignore merged cells.
 - FirstLine: Only expands the height of the first row.
 - LastLine: Only expands the height of the last row.
-- EachLine: Only expands the height of each row.
+- EachLine: Expands the height of each row.
 
 ```cpp
 #include <iostream>
@@ -187,7 +187,7 @@ int main()
     // Merge the cells
     range.Merge();
 
-    // Insert value to the merged cell A1
+    // Insert a value into the merged cell A1
     worksheet.GetCells().Get(0, 0).SetValue(u"A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end");
 
     // Create a style object
@@ -202,10 +202,10 @@ int main()
     // Create an object for AutoFitterOptions
     AutoFitterOptions options;
 
-    // Set auto-fit for merged cells
+    // Set auto‑fit for merged cells
     options.SetAutoFitMergedCellsType(AutoFitMergedCellsType::EachLine);
 
-    // Autofit rows in the sheet (including the merged cells)
+    // Auto‑fit rows in the sheet (including the merged cells)
     worksheet.AutoFitRows(options);
 
     // Save the Excel file
@@ -219,12 +219,12 @@ int main()
 
 {{% alert color="primary" %}}
 
-You may also try to use the overloaded versions of [**AutoFitRows**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitrows/) and [**AutoFitColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitcolumns/) methods accepting a range of rows/columns and an instance of [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) to auto-fit the selected rows/columns with your desired [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) accordingly.
+You may also try to use the overloaded versions of [**AutoFitRows**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitrows/) and [**AutoFitColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitcolumns/) methods accepting a range of rows/columns and an instance of [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) to auto‑fit the selected rows/columns with your desired [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) accordingly.
 
 The signatures of the aforesaid methods are as follows:
 
-1. AutoFitRows(int startRow, int endRow, [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) options)
-1. AutoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/autofitteroptions/) options)
+1. `AutoFitRows(int startRow, int endRow, AutoFitterOptions options)`
+2. `AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions options)`
 
 {{% /alert %}}
 
@@ -232,10 +232,10 @@ The signatures of the aforesaid methods are as follows:
 
 {{% alert color="primary" %}}
 
-If a cell is merged, then the AutoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the auto filter API. Moreover, if the text in a cell is wrapped, the [**AutoFitColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitcolumn/) method will not be applied either. Another thing you need to know is that the *AutoFit* methods are time-consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.
+If a cell is merged, then the AutoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the AutoFilter API. Moreover, if the text in a cell is wrapped, the [**AutoFitColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/autofitcolumn/) method will not be applied either. Another thing you need to know is that the *AutoFit* methods are time‑consuming. So, you should call these methods as infrequently as possible to ensure the efficiency of your application.
 
 {{% /alert %}}
 
-## **Advance Topics**
+## **Advanced Topics**
 - [AutoFit Rows for Merged Cells](/cells/cpp/autofit-rows-for-merged-cells/)
 {{< app/cells/assistant language="cpp" >}}

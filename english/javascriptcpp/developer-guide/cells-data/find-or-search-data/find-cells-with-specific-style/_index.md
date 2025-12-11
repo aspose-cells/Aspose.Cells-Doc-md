@@ -1,19 +1,19 @@
----
-title: Find Cells with Specific Style
-type: docs
-weight: 190
-url: /javascript-cpp/find-cells-with-specific-style/
-description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for JavaScript via C++ API.
-keywords: Find cells with a particular style applied JavaScript via C++, Search cells with a particular style applied JavaScript via C++
----
+---  
+title: Find Cells with Specific Style  
+type: docs  
+weight: 190  
+url: /javascript-cpp/find-cells-with-specific-style/  
+description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for JavaScript via C++ API.  
+keywords: Find cells with a particular style applied JavaScript via C++, Search cells with a particular style applied JavaScript via C++  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells for JavaScript via C++ to find all cells with a common style. Aspose.Cells provides the [**FindOptions.style(Style)**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#style-style-) method which you can use to specify the style to search cells for.
+Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells for JavaScript via C++ to find all cells with a common style. Aspose.Cells provides the [**FindOptions.style(Style)**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#style-style-) method which you can use to specify the style to search cells for.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text "Found".
+The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text "Found".  
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ The code in this example finds all cells that have the same style as that of cel
             let nextCell = null;
 
             do {
-                // Find the cell that has a style of cell A1
+                // Find the cell that has the same style as cell A1
                 nextCell = worksheet.cells.find(null, nextCell, options);
                 if (nextCell === null) break;
                 // Change the text of the cell

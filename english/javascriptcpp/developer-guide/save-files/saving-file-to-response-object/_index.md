@@ -19,17 +19,17 @@ It is also possible to generate a file dynamically and send it directly to a cli
 
 - JavaScript response object.  
 - File name.  
-- [**ContentDisposition**](https://reference.aspose.com/cells/javascript-cpp/contentdisposition/), the content-disposition type of the output file.  
-- [**SaveOptions**](https://reference.aspose.com/cells/javascript-cpp/saveoptions/), the file format type  
+- [**ContentDisposition**](https://reference.aspose.com/cells/javascript-cpp/contentdisposition/), the content‑disposition type of the output file.  
+- [**SaveOptions**](https://reference.aspose.com/cells/javascript-cpp/saveoptions/), the file format type.  
 
-The [**ContentDisposition**](https://reference.aspose.com/cells/javascript-cpp/contentdisposition/) enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.  
+The [**ContentDisposition**](https://reference.aspose.com/cells/javascript-cpp/contentdisposition/) enumeration determines whether the file being sent to the browser provides the option to open directly in the browser or in an application associated with .xls/.xlsx or another extension.  
 
-The enumeration contains the following pre-defined save types:  
+The enumeration contains the following pre‑defined save types:  
 
-|**Type**|**Description**|  
-| :- | :- |  
-|Attachment|Sends the spreadsheet to the browser and opens in an application as an attachment associated with .xls/.xlsx or other extensions|  
-|Inline|Sends the document to the browser and presents an option to save the spreadsheet to disk or open inside the browser|  
+| **Type** | **Description** |
+| :- | :- |
+| Attachment | Sends the spreadsheet to the browser and opens in an application as an attachment associated with .xls/.xlsx or other extensions |
+| Inline | Sends the document to the browser and presents an option to save the spreadsheet to disk or open inside the browser |
 
 ### **XLS Files**  
 
@@ -71,8 +71,8 @@ The enumeration contains the following pre-defined save types:
             let response = null;
 
             if (response != null) {
-                // Server-side streaming scenario (not used in browser example)
-                // Save in Excel2003 XLS format to response stream with options
+                // Server‑side streaming scenario (not used in browser example)
+                // Save in Excel 2003 XLS format to response stream with options
                 const options = new XlsSaveOptions();
                 workbook.save(response, "output.xls", AsposeCells.ContentDisposition.Inline, options);
                 response.end();
@@ -218,7 +218,7 @@ The enumeration contains the following pre-defined save types:
 
 ### **Note**  
 
-Due to the absence of a standard response object in JavaScript, this functionality does not exist in Aspose.Cells for JavaScript via C++. You can refer to the following code to save the file to the stream, then perform operations on the stream.  
+Due to the absence of a standard response object in JavaScript, this functionality does not exist in Aspose.Cells for JavaScript via C++. You can refer to the following code to save the file to a stream, then perform operations on the stream.  
 
 ```html
 <!DOCTYPE html>

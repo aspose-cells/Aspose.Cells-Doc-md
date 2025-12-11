@@ -11,9 +11,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product or date. With Microsoft Excel it is possible to quickly re-arrange the information in the pivot table by dragging buttons to a new position.
+A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product, or date. With Microsoft Excel it is possible to quickly re‑arrange the information in the pivot table by dragging buttons to a new position.
 
-A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.
+A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.
 
 Aspose.Cells for Python via .NET supports [pivot tables](/cells/python-net/create-pivot-tables-and-pivot-charts/) and [pivot charts](/cells/python-net/create-pivot-tables-and-pivot-charts/).
 
@@ -29,29 +29,28 @@ Aspose.Cells for Python via .NET provides a special set of classes used to creat
 - PivotTables, a collection of all the PivotTable objects on the worksheet.
 
 ### **Prepare to use Aspose.Cells for Python via .NET**
-1. Install Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/), use command as: $ pip install aspose-cells-python.
-1. You can also follow the step-by-step instructions on how to install “Aspose.Cells for Python via .NET” to your developer environment.
-
+1. Install Aspose.Cells for Python via .NET from [PyPI](https://pypi.org/project/aspose-cells-python/), using the command: `$ pip install aspose-cells-python`.
+2. You can also follow the step‑by‑step instructions on how to install “Aspose.Cells for Python via .NET” in your development environment.
 
 ### **How to Add a Pivot Table Using Aspose.Cells for Python Excel Library**
 
 To create a pivot table using Aspose.Cells for Python via .NET:
 
-1. Add some data to a worksheet cells using a Cell object's put_value method. You also use a template file already filled with data. The data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the PivotTables collection's add method (encapsulated in the Worksheet object).
-1. Access the new PivotTable object from the PivotTables collection by passing its index. # Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
+1. Add some data to worksheet cells using a Cell object's `put_value` method, or use a template file already filled with data. The data will be used as the pivot table's data source.  
+2. Add a pivot table to the worksheet by calling the PivotTables collection's `add` method (encapsulated in the Worksheet object).  
+3. Access the new PivotTable object from the PivotTables collection by its index. Use the PivotTable object to manage the table.
 
 Code examples are given below.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-CreatePivotTablesPivotCharts-CreatePivotTable-1.py" >}}
 
-### **How to Add a Pivot Chart Using Aspsoe.Cells for Python Excel Library**
+### **How to Add a Pivot Chart Using Aspose.Cells for Python Excel Library**
 
 To create a PivotChart using Aspose.Cells for Python via .NET:
 
-1. Add a chart.
-1. Set the PivotSource of the chart to refer to an existing pivot table in the spreadsheet.
-1. Set other attributes.
+1. Add a chart.  
+2. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.  
+3. Set other attributes as needed.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-CreatePivotTablesPivotCharts-CreatePivotChart-1.py" >}}
 

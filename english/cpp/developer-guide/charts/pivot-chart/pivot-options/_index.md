@@ -32,20 +32,20 @@ int main()
 
     // Path for the sample Excel file
     U16String path = u"..\\Data\\01_SourceDirectory\\";
-    
+
     // Create a Workbook object from the sample file
     Workbook book(path + u"Sample.xlsx");
-    
+
     // Get the first chart from the first worksheet
     Chart chart = book.GetWorksheets().Get(0).GetCharts().Get(0);
-    
+
     // Get the PivotOptions from the chart
     PivotOptions opt = chart.GetPivotOptions();
-    
-    // Hide ZoneFilter in PivotChart
+
+    // Hide Zone Filter in PivotChart
     opt.SetDropZoneFilter(false); // HideZoneFilter
 
-    // You can set more properties, try them!
+    // You can set more properties; try them!
     // opt.SetDropZoneCategories(false);  // HideZoneCategories
     // opt.SetDropZoneData(false);        // HideZoneData
     // opt.SetDropZoneSeries(false);      // HideZoneSeries
@@ -60,7 +60,7 @@ int main()
 }
 ```
 
-With the example code above, you can check the result file with the following effect, as shown in the figure:
+With the example code above, you can view the resulting file with the following effect, as shown in the figure:
 
 **![Output](Output.png)**
 {{< app/cells/assistant language="cpp" >}}

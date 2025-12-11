@@ -18,7 +18,7 @@ Aspose.Cells also supports these features in a flexible manner. In this topic, w
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection. Each item in the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) class.
 
-The [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) has the [**style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) property that is used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) class provides properties for setting the foreground and background colors of the cells. Aspose.Cells provides a [**BackgroundType**](https://reference.aspose.com/cells/javascript-cpp/backgroundtype) enumeration that contains a set of pre-defined types of background patterns which are given below.
+The [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) has the [**style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) property that is used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) class provides properties for setting the foreground and background colors of the cells. Aspose.Cells provides a [**BackgroundType**](https://reference.aspose.com/cells/javascript-cpp/backgroundtype) enumeration that contains a set of pre‑defined types of background patterns, which are given below.
 
 |**Background Patterns**|**Description**|
 | :- | :- |
@@ -42,7 +42,7 @@ The [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) has the [
 |ThinVerticalStripe|Represents thin vertical stripe pattern|
 |VerticalStripe|Represents vertical stripe pattern|
 
-In the example below, the foreground color of the A1 cell is set but A2 is configured to have both foreground and background colors with a vertical stripe background pattern.
+In the example below, the foreground color of the A1 cell is set, but A2 is configured to have both foreground and background colors with a vertical stripe background pattern.
 
 ```html
 <!DOCTYPE html>
@@ -125,21 +125,20 @@ In the example below, the foreground color of the A1 cell is set but A2 is confi
 </html>
 ```
 
-
 ### **Important to Know**
 
 {{% alert color="primary" %}}
 
 - To set a cell's foreground or background color, use the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**foregroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#foregroundColor-color-) or [**backgroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#backgroundColor-color-) properties. Both will take effect only if the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**pattern**](https://reference.aspose.com/cells/javascript-cpp/style/#pattern-backgroundtype-) property is configured.
-- The [**foregroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#foregroundColor-color-) property sets the cell's shade color. The [**pattern**](https://reference.aspose.com/cells/javascript-cpp/style/#pattern-backgroundtype-) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://reference.aspose.com/cells/javascript-cpp/backgroundtype), that contains a set of pre-defined types of background patterns.
+- The [**foregroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#foregroundColor-color-) property sets the cell's shade color. The [**pattern**](https://reference.aspose.com/cells/javascript-cpp/style/#pattern-backgroundtype-) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://reference.aspose.com/cells/javascript-cpp/backgroundtype), that contains a set of pre‑defined types of background patterns.
 - If you select *BackgroundType.None* value from the [**BackgroundType**](https://reference.aspose.com/cells/javascript-cpp/backgroundtype) enumeration, the foreground color is not applied. Likewise, the background color is not applied if you select the *BackgroundType.None* or *BackgroundType.Solid* values.
-- When retrieving cell's shading/fill color, if [**style.pattern**](https://reference.aspose.com/cells/javascript-cpp/style/#pattern-backgroundtype-) is *BackgroundType.None*, [**style.foregroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#foregroundColor--) will return *Color.Empty*.
+- When retrieving a cell's shading/fill color, if [**style.pattern**](https://reference.aspose.com/cells/javascript-cpp/style/#pattern-backgroundtype-) is *BackgroundType.None*, [**style.foregroundColor**](https://reference.aspose.com/cells/javascript-cpp/style/#foregroundColor--) will return *Color.Empty*.
 
 {{% /alert %}}
 
 ### **Applying Gradient Fill Effects**
 
-To apply your desired Gradient Fill Effects to the cell, use the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**twoColorGradient**](https://reference.aspose.com/cells/javascript-cpp/style/#twoColorGradient-color-color-gradientstyletype-number-) property accordingly.
+To apply your desired gradient fill effects to the cell, use the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**twoColorGradient**](https://reference.aspose.com/cells/javascript-cpp/style/#twoColorGradient-color-color-gradientstyletype-number-) property accordingly.
 
 ```html
 <!DOCTYPE html>
@@ -214,10 +213,9 @@ To apply your desired Gradient Fill Effects to the cell, use the [**Style**](htt
 </html>
 ```
 
-
 ## **Colors and Palette**
 
-A palette is the number of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97-2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills and lines in a chart.
+A palette is the set of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97‑2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills, and lines in a chart.
 
 With Aspose.Cells it is possible not only to use the palette's existing colors but also custom colors. Before using a custom color, add it to the palette first.
 
@@ -225,14 +223,14 @@ This topic discusses how to add custom colors to the palette.
 
 ### **Adding Custom Colors to Palette**
 
-Aspose.Cells supports Microsoft Excel's 56 color palette. To use a custom color that is not defined in the palette, add the color to the palette.
+Aspose.Cells supports Microsoft Excel's 56‑color palette. To use a custom color that is not defined in the palette, add the color to the palette.
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class provides a [**changePalette**](https://reference.aspose.com/cells/javascript-cpp/workbook/#changePalette-color-number-) method that takes the following parameters to add a custom color to modify the palette:
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class provides a [**changePalette**](https://reference.aspose.com/cells/javascript-cpp/workbook/#changePalette-color-number-) method that takes the following parameters to add a custom color to the palette:
 
-- Custom Color, the custom color to be added.
-- Index, the index of the color in the palette that the custom color will replace. Should be between 0-55.
+- **Custom Color** – the custom color to be added.  
+- **Index** – the index of the color in the palette that the custom color will replace. Should be between 0‑55.
 
-The example below adds a custom color (Orchid) to the palette before applying it on a font.
+The example below adds a custom color (Orchid) to the palette before applying it to a font.
 
 ```html
 <!DOCTYPE html>
@@ -319,9 +317,8 @@ The example below adds a custom color (Orchid) to the palette before applying it
 </html>
 ```
 
-
 {{% alert color="primary" %}}
 
-The palette only holds 56 colors. When you add a custom color to the palette, the palette is changed and any element in the file formatted with the previous color is changed. So, when you change the palette, please be very careful. Moreover, this is the limitation in XLS (Excel 97 - 2003) file format only as there is no such limitation for XLSX or other advanced MS Excel (2007/2010 or 2013) file formats.
+The palette only holds 56 colors. When you add a custom color to the palette, the palette is changed and any element in the file formatted with the previous color is changed. So, when you change the palette, please be very careful. Moreover, this limitation applies only to the XLS (Excel 97‑2003) file format; there is no such limitation for XLSX or other advanced MS Excel (2007/2010/2013) file formats.
 
 {{% /alert %}}

@@ -5,4 +5,4 @@ type: docs
 weight: 200  
 url: /go-cpp/managing-shape-options/  
 description: Manage shape options in Microsoft Excel files using Aspose.Cells with Golang via C++.  
----  
+---

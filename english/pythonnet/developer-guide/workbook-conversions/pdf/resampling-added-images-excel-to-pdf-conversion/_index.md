@@ -3,8 +3,8 @@ title: Resample Added Images - Excel to PDF Conversion
 type: docs
 weight: 150
 url: /python-net/resample-added-images-excel-to-pdf-conversion/
-description: Learn how to resample added images when converting excel to pdf with Aspose.Cells for Python via .NET API.
-keywords: Python Resample Added Images when Convert Excel to PDF
+description: Learn how to resample added images when converting Excel to PDF with Aspose.Cells for Python via .NET API.
+keywords: Python Resample Added Images when Converting Excel to PDF
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -21,11 +21,11 @@ Please see the following sample code that describes how to perform the task usin
 
 {{% alert color="primary" %}}
 
-Using the the [**PdfSaveOptions.set_image_resample**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/set_image_resample/#int-int) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the [**PdfSaveOptions.set_image_resample**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/set_image_resample/#int-int) option minimizes the size of the output PDF, but it may affect the image quality a bit.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="python-net" >}}

@@ -24,7 +24,7 @@ Worksheet worksheet2 = worksheets.Add("Sheet2");
 
 Worksheet worksheet3 = worksheets.Add("Sheet3");
 
-//Move Sheets with in Workbook.
+//Move Sheets within Workbook.
 
 worksheet2.MoveTo(0);
 
@@ -32,7 +32,7 @@ worksheet1.MoveTo(1);
 
 worksheet3.MoveTo(2);
 
-//Save the excel file.
+//Save the Excel file.
 
 workbook.Save("../../data/AsposeMoveSheet.xls");
 
@@ -64,7 +64,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Reorder Worksheets** form any of the below mentioned social coding sites:
+Download **Reorder Worksheets** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 

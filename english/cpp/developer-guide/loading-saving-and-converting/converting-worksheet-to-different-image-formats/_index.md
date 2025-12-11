@@ -15,7 +15,7 @@ Aspose.Cells allows you to export a worksheet from a workbook and convert it int
 ## **Converting Worksheet to Image**
 Worksheets contain data that you want to analyze. For example, a worksheet can contain parameters, totals, percentages, exceptions, and calculations.
 
-As a developer, you might need to present worksheets as images. For example, you might need to use an image of a worksheet in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.
+As a developer, you might need to present worksheets as images. For example, you might need to use an image of a worksheet in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation, or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.
 
 Aspose.Cells supports converting Excel worksheets to images. To use this feature, you need to import the [Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) namespace to your program or project. It has several valuable classes for rendering and printing, for example, [SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) and others.
 
@@ -28,18 +28,18 @@ Please see the following sample code, its [sample Excel file](67338402.xlsx), an
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
 
 ### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+ Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
 
 ## **Converting Worksheet to SVG**
-SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
+SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two‑dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
 
-Aspose.Cells for C++ has been able to convert worksheets to SVG image since version 18.5.0.
+Aspose.Cells for C++ has been able to convert worksheets to SVG images since version 18.5.0.
 
 To use this feature, import the `Aspose.Cells.Rendering` namespace to your program or project. It has several valuable classes for rendering and printing, for example, `ISheetRender`, `IImageOrPrintOptions`, and others.
 
-The `Aspose.Cells.Rendering.IImageOrPrintOptions` class specifies that the worksheet will be saved in SVG format. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file
+The `Aspose.Cells.Rendering.IImageOrPrintOptions` class specifies that the worksheet will be saved in SVG format. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
 
 Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output SVG Images](67338403.zip).
 

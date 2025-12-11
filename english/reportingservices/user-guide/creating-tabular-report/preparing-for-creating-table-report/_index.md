@@ -7,12 +7,12 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Before creating a tabular report user must first create data sources, datasets and report parameters (optional) as described in [DataSources and Queries](/cells/reportingservices/data-sources-and-queries/).
+Before creating a tabular report, the user must first create data sources, datasets, and report parameters (optional) as described in [DataSources and Queries](/cells/reportingservices/data-sources-and-queries/).
 
 Below, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2005.
 
-1. Create a dataset named EmpSalesDetail. We'll use this as the table's data source. The dataset has three parameters: ReportYear, ReportMonth and EmpID.
-   The SQL that defines EmpSalesDetail is as follows: 
+1. Create a dataset named **EmpSalesDetail**. We'll use this as the table's data source. The dataset has three parameters: **ReportYear**, **ReportMonth**, and **EmpID**.  
+   The SQL that defines **EmpSalesDetail** is as follows:
 
 **SQL**
 
@@ -86,8 +86,8 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Create a dataset named SalesEmps. We'll use that as the valid values for the EmpID parameter.
-   The SQL that defines SalesEmps is: 
+2. Create a dataset named **SalesEmps**. We'll use that as the valid values for the **EmpID** parameter.  
+   The SQL that defines **SalesEmps** is:
 
 **SQL**
 
@@ -105,28 +105,19 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1. Create three report parameters: ReportYear, ReportMonth and EmpID. 
-   1. The valid values for the parameter ReportYear are: 
+3. Create three report parameters: **ReportYear**, **ReportMonth**, and **EmpID**.  
+   1. The valid values for the parameter **ReportYear** are:
 
-![todo:image_alt_text](preparing-for-creating-table-report_1.png)
+   ![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
+   2. The valid values for the parameter **ReportMonth** are:
 
+   ![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
+   3. The valid values for the parameter **EmpID** are:
 
-1. The valid values for the parameter ReportMonth is: 
+   ![todo:image_alt_text](preparing-for-creating-table-report_3.png)
 
-![todo:image_alt_text](preparing-for-creating-table-report_2.png)
+4. Map the dataset parameters to report parameters, as follows:
 
-
-
-
-1. The valid value for the parameter EmpID are: 
-
-![todo:image_alt_text](preparing-for-creating-table-report_3.png)
-
-
-
-
-1. Map the dataset parameters to report parameters, as follow: 
-
-![todo:image_alt_text](preparing-for-creating-table-report_4.png)
+   ![todo:image_alt_text](preparing-for-creating-table-report_4.png)

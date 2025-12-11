@@ -24,7 +24,7 @@ The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) cla
 
 ### **Page Margins**
 
-Set page margins (left, right, top, bottom) using [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class members. A few of the methods are listed below which are used to specify page margins:
+Set page margins (left, right, top, bottom) using the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class members. A few of the methods are listed below which are used to specify page margins:
 
 - [**PageSetup.getLeftMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getLeftMargin--)
 - [**PageSetup.getRightMargin()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getRightMargin--)
@@ -47,10 +47,10 @@ const worksheets = workbook.getWorksheets();
 // Get the first (default) worksheet
 const worksheet = worksheets.get(0);
 
-// Get the pagesetup object
+// Get the PageSetup object
 const pageSetup = worksheet.getPageSetup();
 
-// Set bottom, left, right and top page margins
+// Set the bottom, left, right, and top page margins
 pageSetup.setBottomMargin(2);
 pageSetup.setLeftMargin(1);
 pageSetup.setRightMargin(1);
@@ -62,7 +62,7 @@ workbook.save(path.join(dataDir, "SetMargins_out.xls"));
 
 ### **Center on Page**
 
-It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class, [**PageSetup.getCenterHorizontally()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterHorizontally--) and [**PageSetup.getCenterVertically()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterVertically--).
+It is possible to center something on a page horizontally and vertically. For this, there are useful members of the [**Worksheet.getPageSetup()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getPageSetup--) class, [**PageSetup.getCenterHorizontally()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterHorizontally--) and [**PageSetup.getCenterVertically()**](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#getCenterVertically--).
 
 ```javascript
 const path = require("path");
@@ -80,10 +80,10 @@ const worksheets = workbook.getWorksheets();
 // Get the first (default) worksheet
 const worksheet = worksheets.get(0);
 
-// Get the pagesetup object
+// Get the PageSetup object
 const pageSetup = worksheet.getPageSetup();
 
-// Specify Center on page Horizontally and Vertically
+// Specify centering on the page horizontally and vertically
 pageSetup.setCenterHorizontally(true);
 pageSetup.setCenterVertically(true);
 
@@ -111,14 +111,14 @@ const worksheets = workbook.getWorksheets();
 // Get the first (default) worksheet
 const worksheet = worksheets.get(0);
 
-// Get the pagesetup object
+// Get the PageSetup object
 const pageSetup = worksheet.getPageSetup();
 
-// Specify Header / Footer margins
+// Specify header/footer margins
 pageSetup.setHeaderMargin(2);
 pageSetup.setFooterMargin(2);
 
 // Save the Workbook.
-workbook.save(path.join(dataDir, "CenterOnPage_out.xls"));
+workbook.save(path.join(dataDir, "HeaderFooter_out.xls"));
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

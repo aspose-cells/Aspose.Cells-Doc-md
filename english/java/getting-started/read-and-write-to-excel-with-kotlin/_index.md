@@ -9,10 +9,10 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for Java is a powerful library that enables developers to manipulate Excel files programmatically. While it is designed for Java, it integrates seamlessly with Kotlin, thanks to Kotlin's full interoperability with Java. This document provides a step-by-step guide to reading from and writing to Excel files using Kotlin and Aspose.Cells for Java.
+Aspose.Cells for Java is a powerful library that enables developers to manipulate Excel files programmatically. While it is designed for Java, it integrates seamlessly with Kotlin, thanks to Kotlin's full interoperability with Java. This document provides a step‑by‑step guide to reading from and writing to Excel files using Kotlin and Aspose.Cells for Java.
 
 ## Prerequisites
-- Kotlin and Java Development Kit (JDK) installed.
+- Kotlin and the Java Development Kit (JDK) installed.
 - A build tool (Maven or Gradle) configured for dependency management.
 
 ## Setting Up Aspose.Cells in a Kotlin Project
@@ -50,6 +50,7 @@ Add the Aspose.Cells dependency to your project:
     </dependency>
 </dependencies>
 ```
+
 ### For Gradle (`build.gradle.kts`):
 ```kotlin
 repositories {
@@ -65,6 +66,7 @@ dependencies {
     implementation("org.bouncycastle:bcpkix-jdk15on:1.68")
 }
 ```
+
 ## Write to Excel
 
 This example demonstrates how to create a new Excel workbook, populate cells with data, and save the file to disk.

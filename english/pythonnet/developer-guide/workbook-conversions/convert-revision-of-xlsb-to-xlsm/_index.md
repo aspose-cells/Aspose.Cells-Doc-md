@@ -4,22 +4,20 @@ type: docs
 weight: 290
 url: /python-net/convert-revision-of-xlsb-to-xlsm/
 description: How to Convert Revision of XLSB to XLSM with Aspose.Cells for Python via .NET API.
-keywords: Python Convert Revision of XLSB to XLSM, Convert Revision of XLSB to XLSM Pyton via NET, Python via NET Convert Revision of XLSB to XLSM.
+keywords: Python Convert Revision of XLSB to XLSM, Convert Revision of XLSB to XLSM Python via NET, Python via NET Convert Revision of XLSB to XLSM.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Python via .NET now supports to fully convert revisions of XLSB file into XLSM file. Revisions are found inside the path \xl\revisions. You can view them by changing your XLSB file extension to ZIP. The \xl\revisions path contains files ending with .bin extensions.
+Aspose.Cells for Python via .NET now fully supports converting revisions of an XLSB file into an XLSM file. Revisions are found inside the path \xl\revisions. You can view them by changing the XLSB file extension to .zip. The \xl\revisions path contains files ending with .bin extensions.
 
-When you convert your XLSB file into XLSM file using Aspose.Cells for Python via .NET, these .bin files successfully converts to .xml files as shown in these two screenshots.
+When you convert your XLSB file into an XLSM file using Aspose.Cells for Python via .NET, these .bin files successfully convert to .xml files as shown in these two screenshots.
 
 {{% /alert %}} 
 
 The following code sample shows you how to convert the XLSB file into XLSM format using Aspose.Cells for Python via .NET.
-
-
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ConvertXLSBToXLSM-ConvertXLSBRevisionToXLSM.py" >}}
 {{< app/cells/assistant language="python-net" >}}

@@ -1,19 +1,19 @@
----
-title: Add Watermark To PDF with C++
-linktitle: Add Watermark To PDF
-type: docs
-weight: 9
-url: /cpp/add-watermark-to-pdf/
-description: Learn how to add text and image watermarks to PDF files while rendering using Aspose.Cells with C++.
+---  
+title: Add Watermark To PDF with C++  
+linktitle: Add Watermark To PDF  
+type: docs  
+weight: 9  
+url: /cpp/add-watermark-to-pdf/  
+description: Learn how to add text and image watermarks to PDF files while rendering using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-While converting an Excel file to PDF, you may have requirements to add a watermark to the PDF file. The following examples show how to add text and image watermarks to PDF while rendering to PDF.
+While converting an Excel file to PDF, you may have a requirement to add a watermark to the PDF file. The following examples show how to add text and image watermarks to PDF while rendering.  
 
-## **Add text watermark to PDF**
+## **Add text watermark to PDF**  
 
-You can easily add a text watermark to PDF by specifying text and the corresponding font. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/renderingwatermark/).
+You can easily add a text watermark to a PDF by specifying the text and the corresponding font. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to the page in [RenderingWatermark](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/renderingwatermark/).  
 
 ```cpp
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
     // Specify opacity.
     watermark.SetOpacity(0.6f);
 
-    // Specify the scale to page (e.g., 100, 50) in percent.
+    // Specify the scale to the page (e.g., 100, 50) in percent.
     watermark.SetScaleToPagePercent(50);
 
     // Specify watermark for rendering to PDF.
@@ -67,11 +67,11 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-## **Add image watermark to PDF**
+## **Add image watermark to PDF**  
 
-You can add an image watermark to PDF just by specifying image bytes of an image. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/renderingwatermark/).
+You can add an image watermark to a PDF simply by specifying the image bytes. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to the page in [RenderingWatermark](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/renderingwatermark/).  
 
 ```cpp
 #include <iostream>
@@ -96,20 +96,20 @@ int main()
     Vector<uint8_t> imageBytes; // Assume image bytes are prepared
     RenderingWatermark watermark(imageBytes);
 
-    // Specify offset to alignment
+    // Specify offset for alignment
     watermark.SetOffsetX(100);
     watermark.SetOffsetY(200);
 
     // Specify rotation
     watermark.SetRotation(30);
 
-    // Specify watermark to background
+    // Specify watermark as background
     watermark.SetIsBackground(true);
 
     // Specify opacity
     watermark.SetOpacity(0.6f);
 
-    // Specify the scale to page (e.g., 100, 50) in percent
+    // Specify the scale to the page (e.g., 100, 50) in percent
     watermark.SetScaleToPagePercent(50);
 
     // Specify watermark for rendering to PDF

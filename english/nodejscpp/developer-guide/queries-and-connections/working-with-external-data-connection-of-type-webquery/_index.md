@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can access external data connection of any type using the Workbook.DataConnections collection. One type of such data connection is WebQuery. This article will show you how to work with WebQuery data connection. You can create WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.
+You can access external data connections of any type using the `Workbook.DataConnections` collection. One type of such a data connection is WebQuery. This article will show you how to work with a WebQuery data connection. You can create a WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.
 
 {{% /alert %}}
 
 ## Working with External Data Connection of type WebQuery
 
-The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
+The following code shows how to work with an external data connection of type **WebQuery**. It uses the [sample Excel file](5112365.xlsx) that you can download from the provided link. You can also see the console output of this code below.
 
 ```javascript
 const path = require("path");
@@ -31,22 +31,20 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 const connections = workbook.getDataConnections();
 if (connections.getCount() > 0) {
-const connection = connections.get(0);
+    const connection = connections.get(0);
 
-if (connection instanceof AsposeCells.WebQueryConnection) {
-const webQuery = connection;
-console.log("Web Query URL: " + webQuery.getUrl());
-}
+    if (connection instanceof AsposeCells.WebQueryConnection) {
+        const webQuery = connection;
+        console.log("Web Query URL: " + webQuery.getUrl());
+    }
 }
 ```
 
 ## Console Output
 
-Here is the console output of the above code with this [sample excel file](5112365.xlsx).
+Here is the console output of the above code using this [sample Excel file](5112365.xlsx).
 
 {{< highlight javascript >}}
-
 Web Query URL: https://docs.aspose.com/cells/nodejs-cpp/
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

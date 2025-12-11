@@ -4,7 +4,7 @@ linktitle: Convert CSV to JSON
 type: docs
 weight: 220
 url: /cpp/convert-csv-to-json/
-description: Convert CSV file to JSON by using the simple to use Aspose.Cells for C++ API.
+description: Convert a CSV file to JSON by using the simple-to-use Aspose.Cells for C++ API.
 keywords: Convert, Convert CSV to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON C++, C++ code to convert CSV to JSON
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,15 +12,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Convert CSV to JSON**
 
-Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class provides the options for exporting range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class has the following properties.
+Aspose.Cells supports converting CSV to JSON. For this, the API provides [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) classes. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class provides the options for exporting a range to JSON. The [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class has the following properties.
 
-- [**GetExportAsString()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/getexportasstring/): This exports the string value of the cells to JSON.
-- [**GetHasHeaderRow()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/gethasheaderrow/): This indicates whether the range contains a header row.
+- [**GetExportAsString()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/getexportasstring/): This exports the string values of the cells to JSON.  
+- [**GetHasHeaderRow()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/gethasheaderrow/): This indicates whether the range contains a header row.  
 - [**GetIndent()**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/getindent/): Indicates the indent.
 
 The [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) class exports the JSON using the export options set with the [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) class.
 
-The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) classes to load the [source CSV file](104398879.csv) and prints the JSON output in the console.
+The following code sample demonstrates the use of [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/exportrangetojsonoptions/) and [**JsonUtility**](https://reference.aspose.com/cells/cpp/aspose.cells.utility/jsonutility/) classes to load the [source CSV file](104398879.csv) and print the JSON output in the console.
 
 ### **Sample Code**
 
@@ -45,7 +45,7 @@ int main()
     // Get the last cell in the worksheet
     Cell lastCell = workbook.GetWorksheets().Get(0).GetCells().GetLastCell();
 
-    // Set JsonSaveOptions
+    // Set JSON save options
     JsonSaveOptions jsonSaveOptions;
 
     // Create a range from the first cell to the last cell
@@ -71,7 +71,7 @@ int main()
 "edition": "third",
 "author": "Herbert Schildt",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
@@ -81,7 +81,7 @@ int main()
 "edition": "second",
 "author": "EAAAA",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 },
@@ -91,7 +91,7 @@ int main()
 "edition": "second",
 "author": "E.Balagurusamy",
 "streetAddress": 126,
-"city": "San Jone",
+"city": "San Jose",
 "state": "CA",
 "postalCode": 394221
 }

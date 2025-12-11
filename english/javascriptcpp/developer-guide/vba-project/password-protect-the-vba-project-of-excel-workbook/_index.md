@@ -1,19 +1,19 @@
----
-title: Password Protect the VBA Project of Excel Workbook with JavaScript via C++
-linktitle: Password Protect the VBA Project of Excel Workbook
-type: docs
-weight: 10
-url: /javascript-cpp/password-protect-the-vba-project-of-excel-workbook/
-description: Learn how to password protect the VBA project of an Excel workbook using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Password Protect the VBA Project of Excel Workbook with JavaScript via C++  
+linktitle: Password Protect the VBA Project of Excel Workbook  
+type: docs  
+weight: 10  
+url: /javascript-cpp/password-protect-the-vba-project-of-excel-workbook/  
+description: Learn how to password protect the VBA project of an Excel workbook using Aspose.Cells for JavaScript via C++.  
+---  
 
-## **Password Protect the VBA Project of Excel Workbook in JavaScript via C++**
+## **Password Protect the VBA Project of Excel Workbook in JavaScript via C++**  
 
-You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells for JavaScript via C++ using [**VbaProject.protect(boolean, string)**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#protect-boolean-string-) method.  
+You can password‑protect the VBA (Visual Basic for Applications) project of a workbook with Aspose.Cells for JavaScript via C++ using the [**VbaProject.protect(boolean, string)**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#protect-boolean-string-) method.  
 
 ## **Sample Code**  
 
-The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA Project and protects it with a password. Finally, it saves it as the [output Excel file](43352068.xlsm).  
+The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA project, and protects it with a password. Finally, it saves the file as the [output Excel file](43352068.xlsm).  
 
 ```html
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ The following sample code loads the [sample Excel file](43352067.xlsm), accesses
             // Access the VBA project of the workbook (converted getter to property)
             const vbaProject = workbook.vbaProject;
 
-            // Lock the VBA project for viewing with password
+            // Lock the VBA project for viewing with a password
             vbaProject.protect(true, "11");
 
             // Save the output Excel file (as .xlsm)

@@ -12,13 +12,12 @@ description: Learn how to create workbook and worksheet scoped named ranges usin
 Microsoft Excel allows users to define named ranges with two different scopes: workbook (also known as global scope) and worksheet.
 
 - Named ranges with a workbook scope can be accessed from any worksheet within that workbook by simply using its name.
-- Worksheet scoped named ranges are accessed with the reference of the particular worksheet in which it was created.
+- Worksheet‑scoped named ranges are accessed with the reference to the particular worksheet in which they were created.
 
-Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet scoped named range.
+Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft Excel for adding workbook and worksheet‑scoped named ranges. When creating a worksheet‑scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet‑scoped named range.
 
 {{% /alert %}} 
-## **Adding a Named Range with Workbook Scoped**
-
+## **Adding a Named Range with Workbook Scope**
 
 ```html
 <!DOCTYPE html>
@@ -62,16 +61,16 @@ Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft
                 workbook = new Workbook();
             }
 
-            // Get first worksheet of the workbook
+            // Get the first worksheet of the workbook
             const sheet = workbook.worksheets.get(0);
 
             // Get worksheet's cells collection
             const cells = sheet.cells;
 
-            // Create a range of Cells from Cell A1 to C10
+            // Create a range of cells from A1 to C10
             const workbookScope = cells.createRange("A1", "C10");
 
-            // Assign the name to workbook scope named range
+            // Assign the name to the workbook‑scope named range
             workbookScope.name = "workbookScope";
 
             // Save the workbook and prepare download link
@@ -89,7 +88,6 @@ Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft
 </html>
 ```
 ## **Adding a Named Range with Worksheet Scope**
-
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +121,7 @@ Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
 
-            // Create new workbook or load from selected file
+            // Create a new workbook or load from the selected file
             let workbook;
             if (fileInput.files.length) {
                 const file = fileInput.files[0];
@@ -133,16 +131,16 @@ Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft
                 workbook = new Workbook();
             }
 
-            // Get first worksheet of the workbook
+            // Get the first worksheet of the workbook
             const sheet = workbook.worksheets.get(0);
 
             // Get worksheet's cells collection
             const cells = sheet.cells;
 
-            // Create a range of Cells
+            // Create a range of cells
             const localRange = cells.createRange("A1", "C10");
 
-            // Assign name to range with sheet reference
+            // Assign name to the range with sheet reference
             localRange.name = "Sheet1!local";
 
             // Save the workbook
@@ -160,7 +158,7 @@ Aspose.Cells for JavaScript via C++ provides the same functionality as Microsoft
 </html>
 ```
 
-## **Advance topics**
+## **Advanced Topics**
 - [Create Access and Copy Named Ranges](/cells/javascript-cpp/create-access-and-copy-named-ranges/)
 - [Format and Modify Named Ranges](/cells/javascript-cpp/format-and-modify-named-ranges/)
 - [Get Range with External Links](/cells/javascript-cpp/get-range-with-external-links/)

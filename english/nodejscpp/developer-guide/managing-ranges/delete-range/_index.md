@@ -21,7 +21,7 @@ Aspose.Cells provides [Cells.deleteRange(number, number, number, number, ShiftTy
 
 ## **Delete Ranges And Shift Cells Left**  
 
-Delete a range and shift cells left as the following codes with Aspose.Cells for Node.js via C++:  
+Delete a range and shift cells left as the following code with Aspose.Cells for Node.js via C++:  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -45,8 +45,8 @@ const worksheet = newWorkbook.getWorksheets().get(0);
 // Gets cells.
 const cells = worksheet.getCells();
 
-// Input some data with some formattings into
-// A few cells in the range.
+// Input some data with some formatting into
+// a few cells in the range.
 cells.get("C2").putValue("C2");
 cells.get("C3").putValue("C3");
 const ca = AsposeCells.CellArea.createCellArea("B2", "B3");
@@ -56,7 +56,7 @@ console.log(worksheet.getCells().get("B2").getStringValue() === "C2");
 
 ## **Delete Ranges And Shift Cells Up**  
 
-Delete a range and shift cells up as the following codes with Aspose.Cells for Node.js via C++:  
+Delete a range and shift cells up as the following code with Aspose.Cells for Node.js via C++:  
 
 ```javascript
 const path = require("path");
@@ -80,8 +80,8 @@ const worksheet = newWorkbook.getWorksheets().get(0);
 // Gets cells.
 const cells = worksheet.getCells();
 
-// Input some data with some formattings into
-// A few cells in the range.
+// Input some data with some formatting into
+// a few cells in the range.
 cells.get("B4").putValue("B4");
 cells.get("B5").putValue("B5");
 const ca = AsposeCells.CellArea.createCellArea("B2", "B3");

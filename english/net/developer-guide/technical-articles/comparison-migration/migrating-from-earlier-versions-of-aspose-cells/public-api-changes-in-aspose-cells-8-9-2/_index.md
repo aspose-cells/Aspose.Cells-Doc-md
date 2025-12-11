@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.9.1 to 8.9.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.9.1 to 8.9.2 that may be of interest to module and application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -18,9 +18,9 @@ Please also check the [Public API Changes introduced in Aspose.Cells for .NET 8.
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added TextOptions Class & FontSettings.TextOptions Property**
-Aspose.Cells for .NET has exposed the TextOptions class along with FontSettings.TextOptions property in order to control the appearance of textual parts of a Shape.
+Aspose.Cells for .NET has exposed the TextOptions class along with the FontSettings.TextOptions property in order to control the appearance of the textual parts of a shape.
 
-Here is simple usage scenario of FontSettings.TextOptions property.
+Here is a simple usage scenario of the FontSettings.TextOptions property.
 
 **C#**
 
@@ -46,9 +46,9 @@ var textOptions = shape.TextBody[1].TextOptions;
 
 
 ### **Added TextOptions.Fill, Outline & Shadow Properties**
-Aspose.Cells for .NET 8.9.2 has exposed the TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow properties which allows to control the aspects of textual contents of the shape, such as fill, shadow & outline respectively.
+Aspose.Cells for .NET 8.9.2 has exposed the TextOptions.Fill, TextOptions.Outline, and TextOptions.Shadow properties, which allow you to control aspects of the textual contents of the shape, such as fill, shadow, and outline respectively.
 
-Here is simple usage scenario of aforementioned properties.
+Here is a simple usage scenario of the aforementioned properties.
 
 **C#**
 
@@ -92,9 +92,9 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 
 
 ### **Added Shape.Line Property**
-Aspose.Cells for .NET has exposed the Shape.Line property which returns an instance of LineFormat in order to control the appearance of outlines of a Shape.
+Aspose.Cells for .NET has exposed the Shape.Line property, which returns an instance of LineFormat in order to control the appearance of the outline of a shape.
 
-Here is simple usage scenario of Shape.Line property.
+Here is a simple usage scenario of the Shape.Line property.
 
 **C#**
 
@@ -123,10 +123,10 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **Added Shape.Fill property**
-Aspose.Cells for .NET 8.9.2 has exposed the Shape.Fill property which returns an instance of FillFormat in order to control the different aspects of shape area.
+### **Added Shape.Fill Property**
+Aspose.Cells for .NET 8.9.2 has exposed the Shape.Fill property, which returns an instance of FillFormat in order to control the different aspects of a shape's area.
 
-Following is the simple usage scenario of Shape.Fill property.
+The following is a simple usage scenario of the Shape.Fill property.
 
 **C#**
 
@@ -155,15 +155,20 @@ fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 {{< /highlight >}}
 ## **Obsoleted APIs**
 ### **Obsoleted ShapeFont Class**
-Please use TextOptions class instead.
+Please use the TextOptions class instead.
+
 ### **Obsoleted ShapeFormat Class**
-Please directly use Shape.Fill and Shape.Line properties.
+Please directly use the Shape.Fill and Shape.Line properties.
+
 ### **Obsoleted Shape.Format Property**
-Please directly use Shape.Fill and Shape.Line properties.
+Please directly use the Shape.Fill and Shape.Line properties.
+
 ### **Obsoleted Shape.LineFormat Property**
-Please use Shape.Line property instead.
+Please use the Shape.Line property instead.
+
 ### **Obsoleted Shape.FillFormat Property**
-Please use Shape.Fill property instead.
+Please use the Shape.Fill property instead.
+
 ### **Obsoleted FontSetting.ShapeFont Property**
-Please use FontSetting.TextOptions property instead.
+Please use the FontSettings.TextOptions property instead.
 {{< app/cells/assistant language="csharp" >}}

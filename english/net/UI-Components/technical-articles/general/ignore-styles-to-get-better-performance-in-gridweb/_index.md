@@ -1,36 +1,32 @@
----
-title: Ignore styles to get better performance in GridWeb
-type: docs
-weight: 1060
-url: /net/aspose-cells-gridweb/ignorestylewithnodata
-description: This article describes how to use IgnoreStyleWithNoData to get better performance in GridWeb.
-keywords: GridWeb,performance
-ai_search_scope: cells_net
+---  
+title: Ignore styles to get better performance in GridWeb  
+type: docs  
+weight: 1060  
+url: /net/aspose-cells-gridweb/ignorestylewithnodata  
+description: This article describes how to use IgnoreStyleWithNoData to get better performance in GridWeb.  
+keywords: GridWeb,performance  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
-Please use [GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata) property to load less required rows/columns from the workbook.
- 
-## **Get Better Performance While Loading Workbook**
-Please check the [sample excel file](largerowswithstyle.xlsx) 
+## **Possible Usage Scenarios**  
+Please use the [GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata) property to load fewer rows and columns from the workbook.  
 
-When set  IgnoreStyleWithNoData = true;
+## **Get Better Performance While Loading Workbook**  
+Please check the [sample Excel file](largerowswithstyle.xlsx)  
 
-As you can see ,It shows rows (to 15) and columns (to L),It will not display the last continus rows and columns without data in cells.Thus the load time will be less.
+When **IgnoreStyleWithNoData** is set to `true`:
 
-![workbook with ignore style](ignorestyletrue.png)
+As you can see, it shows rows up to 15 and columns up to L. It will not display the last continuous rows and columns without data in cells. Thus, the load time will be reduced.  
 
+![workbook with ignore style](ignorestyletrue.png)  
 
-When set  IgnoreStyleWithNoData = false;(the default value is false)
+When **IgnoreStyleWithNoData** is set to `false` (the default value is false):
 
-As you can see ,It shows much more rows (to 500) and columns (to CZ)
+As you can see, it shows many more rows (up to 500) and columns (up to CZ).  
 
-From row 16 to row 500,some of the cells has set the boder style,however the cells contains no data.
+From row 16 to row 500, some of the cells have the border style set, however the cells contain no data.  
 
-From column M to column CZ,some of the cells has set the boder style,however the cells contains no data.
+From column M to column CZ, some of the cells have the border style set, however the cells contain no data.  
 
-![workbook without ignore style](ignorestylefalse.png)
- 
- 
- 
+![workbook without ignore style](ignorestylefalse.png)  

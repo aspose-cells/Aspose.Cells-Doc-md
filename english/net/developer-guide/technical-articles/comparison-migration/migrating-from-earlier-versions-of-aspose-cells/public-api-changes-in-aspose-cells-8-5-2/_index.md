@@ -1,187 +1,167 @@
----
-title: Public API Changes in Aspose.Cells 8.5.2
-type: docs
-weight: 180
-url: /net/public-api-changes-in-aspose-cells-8-5-2/
+---  
+title: Public API Changes in Aspose.Cells 8.5.2  
+type: docs  
+weight: 180  
+url: /net/public-api-changes-in-aspose-cells-8-5-2/  
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-This document describes the changes to the Aspose.Cells API from version 8.5.1 to 8.5.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-5-2/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.5.1 to 8.5.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-5-2/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.  
 
-{{% /alert %}} 
-## **Added APIs**
-### **Render Worksheet to Graphic Context**
-This release of Aspose.Cells for .NET API has exposed two new overloads of SheetRender.ToImage method that now allows to accept an instance of System.Drawing.Graphics class to [render in Graphics context](/cells/net/render-worksheet-to-graphic-context/). The signatures of newly added methods are as follow.
+{{% /alert %}}  
 
-1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
-1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
+## **Added APIs**  
 
-Following is the simple usage scenario.
+### **Render Worksheet to Graphic Context**  
 
-**C#**
+This release of Aspose.Cells for .NET API has exposed two new overloads of the `SheetRender.ToImage` method that now allows accepting an instance of `System.Drawing.Graphics` class to [render in Graphics context](/cells/net/render-worksheet-to-graphic-context/). The signatures of the newly added methods are as follows.  
 
-{{< highlight csharp >}}
+1. `SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)`  
+1. `SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)`  
 
- //Create workbook object from source file
+Following is the simple usage scenario.  
 
-Workbook workbook = new Workbook(filePath);
+**C#**  
 
-//Access first worksheet
+{{< highlight csharp >}}  
 
-Worksheet worksheet = workbook.Worksheets[0];
+// Create workbook object from source file  
+Workbook workbook = new Workbook(filePath);  
 
-//Create empty Bitmap
+// Access first worksheet  
+Worksheet worksheet = workbook.Worksheets[0];  
 
-Bitmap bmp = new Bitmap(800, 800);
+// Create empty Bitmap  
+Bitmap bmp = new Bitmap(800, 800);  
 
-//Create Graphics Context
+// Create Graphics context  
+Graphics g = Graphics.FromImage(bmp);  
+g.Clear(Color.Blue);  
 
-Graphics g = Graphics.FromImage(bmp);
+// Set OnePagePerSheet to true in image or print options  
+ImageOrPrintOptions opts = new ImageOrPrintOptions();  
+opts.OnePagePerSheet = true;  
 
-g.Clear(Color.Blue);
+// Render worksheet to graphics context  
+SheetRender sr = new SheetRender(worksheet, opts);  
+sr.ToImage(0, g, 0, 0);  
 
-//Set one page per sheet to true in image or print options
+// Save the graphics‑context image in PNG format  
+bmp.Save("test.png", ImageFormat.Png);  
 
-ImageOrPrintOptions opts = new ImageOrPrintOptions();
+{{< /highlight >}}  
 
-opts.OnePagePerSheet = true;
+### **Added PivotTable.GetCellByDisplayName Method**  
 
-//Render worksheet to graphics context
+Aspose.Cells for .NET 8.5.2 has exposed the `PivotTable.GetCellByDisplayName` method that can be used to [retrieve the Cell object by the name of the PivotField](/cells/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). This method could be useful in scenarios where you wish to highlight or format the PivotField header.  
 
-SheetRender sr = new SheetRender(worksheet, opts);
+Following is the simple usage scenario.  
 
-sr.ToImage(0, g, 0, 0);
+**C#**  
 
-//Save the graphics context image in Png format
+{{< highlight csharp >}}  
 
-bmp.Save("test.png", ImageFormat.Png);
+// Create workbook object from source Excel file  
+Workbook workbook = new Workbook(filePath);  
 
-{{< /highlight >}}
+// Access first worksheet  
+Worksheet worksheet = workbook.Worksheets[0];  
 
+// Access first pivot table inside the worksheet  
+PivotTable pivotTable = worksheet.PivotTables[0];  
 
-### **Added PivotTable.GetCellByDisplayName Method**
-Aspose.Cells for .NET 8.5.2 has exposed the PivotTable.GetCellByDisplayName method that can be used to [retrieve the Cell object by the name of the PivotField](/cells/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). This method could be useful in scenarios where you wish to highlight or format the PivotField header.
+// Access cell by display name of the 2nd data field of the pivot table  
+Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[1].DisplayName);  
 
-Following is the simple usage scenario.
+// Access cell style and set its fill color and font color  
+Style style = cell.GetStyle();  
+style.ForegroundColor = Color.LightBlue;  
+style.Font.Color = Color.Black;  
 
-**C#**
+// Set the style of the cell  
+pivotTable.Format(cell.Row, cell.Column, style);  
 
-{{< highlight csharp >}}
+// Save workbook  
+workbook.Save("output.xlsx");  
 
- //Create workbook object from source excel file
+{{< /highlight >}}  
 
-Workbook workbook = new Workbook(filePath);
+### **Added SaveOptions.MergeAreas Property**  
 
-//Access first worksheet
+Aspose.Cells for .NET 8.5.2 has exposed the `SaveOptions.MergeAreas` property that can accept a Boolean value. The default value is `false`; however, if set to `true`, the Aspose.Cells for .NET API tries to merge the individual CellAreas before saving the file.  
 
-Worksheet worksheet = workbook.Worksheets[0];
+{{% alert color="primary" %}}  
 
-//Access first pivot table inside the worksheet
+If a spreadsheet has too many individual cells with validation applied, there is a chance that the resultant spreadsheet may become corrupted. One possible solution is to merge the cells with identical validation rules, or you can now use the `SaveOptions.MergeAreas` property to direct the API to auto‑merge the CellAreas before the save operation.  
 
-PivotTable pivotTable = worksheet.PivotTables[0];
+{{% /alert %}}  
 
-//Access cell by display name of 2nd data field of the pivot table
+### **Added Shape.Geometry.ShapeAdjustValues Property**  
 
-Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[1].DisplayName);
+With the release of v8.5.2, the Aspose.Cells API has exposed the `Shape.Geometry.ShapeAdjustValues` property that can be used to [make changes to the adjustment points of different shapes](/cells/net/change-adjustment-values-of-the-shape/).  
 
-//Access cell style and set its fill color and font color
+{{% alert color="primary" %}}  
 
-Style style = cell.GetStyle();
+In the Microsoft Excel interface, the adjustment points display as yellow diamond nodes.  
 
-style.ForegroundColor = Color.LightBlue;
+{{% /alert %}}  
 
-style.Font.Color = Color.Black;
+For instance,  
 
-//Set the style of the cell
+1. Rounded Rectangle has an adjustment to change the arc  
+1. Triangle has an adjustment to change the location of the point  
+1. Trapezoid has an adjustment to change the width of the top  
+1. Arrows have two adjustments to change the shape of the head and tail  
 
-pivotTable.Format(cell.Row, cell.Column, style);
+Here is the simplest usage scenario.  
 
-//Save workbook
+**C#**  
 
-workbook.Save("output.xlsx");
+{{< highlight csharp >}}  
 
-{{< /highlight >}}
+// Create workbook object from source Excel file  
+Workbook workbook = new Workbook(filePath);  
 
+// Access first worksheet  
+Worksheet worksheet = workbook.Worksheets[0];  
 
-### **Added SaveOptions.MergeAreas Property**
-Aspose.Cells for .NET 8.5.2 has exposed the SaveOptions.MergeAreas property that can accept Boolean type value. The default value is false however, if set to true, the Aspose.Cells for .NET API tries to merge the individual CellArea before saving the file.
+// Access first three shapes of the worksheet  
+Shape shape1 = worksheet.Shapes[0];  
+Shape shape2 = worksheet.Shapes[1];  
+Shape shape3 = worksheet.Shapes[2];  
 
-{{% alert color="primary" %}} 
+// Change the adjustment values of the shapes  
+shape1.Geometry.ShapeAdjustValues[0].Value = 0.5d;  
+shape2.Geometry.ShapeAdjustValues[0].Value = 0.8d;  
+shape3.Geometry.ShapeAdjustValues[0].Value = 0.5d;  
 
-If a spreadsheet has too many individual cells with validation applied, there are chances that the resultant spreadsheet may get corrupted. One possible solution is to merge the cells with identical validation rules or you can now use the SaveOptions.MergeAreas property to direct the API to auto merge the CellAreas before save operation.
+// Save the workbook  
+workbook.Save("output.xls");  
 
-{{% /alert %}} 
-### **Added Shape.Geometry.ShapeAdjustValues Property**
-With the release of v8.5.2, the Aspose.Cells API has exposed the Shape.Geometry.ShapeAdjustValues property that can be used to [make changes to the adjustment points of different shapes](/cells/net/change-adjustment-values-of-the-shape/).
+{{< /highlight >}}  
 
-{{% alert color="primary" %}} 
+### **Enumeration Field ConsolidationFunction.DistinctCount Added**  
 
-In the Microsoft Excel interface, the adjustment points display as yellow diamond nodes.
+Aspose.Cells for .NET 8.5.2 has exposed the `ConsolidationFunction.DistinctCount` field that can be used to [apply the Distinct Count consolidation function](/cells/net/consolidation-function/) on a DataField of a PivotTable.  
 
-{{% /alert %}} 
+{{% alert color="primary" %}}  
 
-For instance,
+Distinct Count consolidation function is supported by Microsoft Excel 2013 only.  
 
-1. Rounded Rectangle has an adjustment to change the arc
-1. Triangle has an adjustment to change the location of the point
-1. Trapezoid has an adjustment to change the width of the top
-1. Arrows have two adjustments to change the shape of the head and tail
+{{% /alert %}}  
 
-Here is the simplest usage scenario.
+### **Better Event Handling for GridDesktop**  
 
-**C#**
+This release of Aspose.Cells.GridDesktop has exposed four new events. Two of these events trigger on different states of loading spreadsheet files in GridDesktop, whereas the other two trigger upon calculation of formulas.  
 
-{{< highlight csharp >}}
+The events are listed as follows.  
 
- //Create workbook object from source excel file
+1. `GridDesktop.BeforeLoadFile`  
+1. `GridDesktop.FinishLoadFile`  
+1. `GridDesktop.BeforeCalculate`  
+1. `GridDesktop.FinishCalculate`  
 
-Workbook workbook = new Workbook(filePath);
-
-//Access first worksheet
-
-Worksheet worksheet = workbook.Worksheets[0];
-
-//Access first three shapes of the worksheet
-
-Shape shape1 = worksheet.Shapes[0];
-
-Shape shape2 = worksheet.Shapes[1];
-
-Shape shape3 = worksheet.Shapes[2];
-
-//Change the adjustment values of the shapes
-
-shape1.Geometry.ShapeAdjustValues[0].Value = 0.5d;
-
-shape2.Geometry.ShapeAdjustValues[0].Value = 0.8d;
-
-shape3.Geometry.ShapeAdjustValues[0].Value = 0.5d;
-
-//Save the workbook
-
-workbook.Save("output.xls);
-
-{{< /highlight >}}
-
-
-### **Enumeration Field ConsolidationFunction.DistinctCount Added**
-Aspose.Cells for .NET 8.5.2 has exposed the ConsolidationFunction.DistinctCount field that can be used to [apply the Distinct Count consolidation function](/cells/net/consolidation-function/) on DataField of a PivotTable.
-
-{{% alert color="primary" %}} 
-
-Distinct Count consolidation function is supported by Microsoft Excel 2013 only.
-
-{{% /alert %}} 
-### **Better Event Handling for GridDesktop**
-This release of Aspose.Cells.GridDesktop has exposed 4 new events. 2 of these events trigger on different states of loading spreadsheet files in GridDesktop whereas the other 2 trigger upon calculation of formulas.
-
-The events are listed as follow.
-
-1. GridDesktop.BeforeLoadFile
-1. GridDesktop.FinishLoadFile
-1. GridDesktop.BeforeCalculate
-1. GridDesktop.FinishCalculate
 {{< app/cells/assistant language="csharp" >}}

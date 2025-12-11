@@ -1,19 +1,19 @@
----
-title: Comparison and Migration with JavaScript via C++
-linktitle: Comparison and Migration
-type: docs
-weight: 250
-url: /javascript-cpp/comparison-migration/
-description: Explore the differences and consider migration strategies for using Aspose.Cells with JavaScript via C++.
-keywords: Comparison Aspose.Cells JavaScript C++, Migration from .NET to JavaScript via C++
----
+---  
+title: Comparison and Migration with JavaScript via C++  
+linktitle: Comparison and Migration  
+type: docs  
+weight: 250  
+url: /javascript-cpp/comparison-migration/  
+description: Explore the differences and consider migration strategies for using Aspose.Cells with JavaScript via C++.  
+keywords: Comparison Aspose.Cells JavaScript C++, Migration from .NET to JavaScript via C++  
+---  
 
-## **Comparison Between .NET and JavaScript via C++**
+## **Comparison Between .NET and JavaScript via C++**  
 
-When transitioning from Aspose.Cells for .NET to Aspose.Cells for JavaScript via C++, there are certain differences to consider in terms of library structure, syntax, and functionality. Below is a comparison to assist you in understanding these differences.
+When transitioning from Aspose.Cells for .NET to Aspose.Cells for JavaScript via C++, there are certain differences to consider in terms of library structure, syntax, and functionality. Below is a comparison to assist you in understanding these differences.  
 
-### **1. Initialization**
-In .NET, objects are often initialized using constructors. In JavaScript via C++, you will typically create instances using the `new` keyword but integrated into JavaScript syntax:
+### **1. Initialization**  
+In .NET, objects are often initialized using constructors. In JavaScript via C++, you will typically create instances using the `new` keyword, integrated into JavaScript syntax:  
 
 ```html
 <!DOCTYPE html>
@@ -68,7 +68,7 @@ In .NET, objects are often initialized using constructors. In JavaScript via C++
         });
     </script>
 </html>
-```
+```  
 
-### **2. Accessing Worksheets**
-In .NET, you might see code like this to access a worksheet:
+### **2. Accessing Worksheets**  
+In .NET, you might see code like this to access a worksheet:  

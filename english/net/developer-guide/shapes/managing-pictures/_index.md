@@ -13,8 +13,7 @@ This article explains how to add pictures, and how to insert an image that shows
 
 ## **Adding Pictures**
 
-Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:
-Simply call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method of the [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object). The [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method takes the following parameters:
+Adding pictures to a spreadsheet is very easy. It only takes a few lines of code. Simply call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method of the [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object). The [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method takes the following parameters:
 
 - **Upper left row index**, the index of the upper left row.
 - **Upper left column index**, the index of the upper left column.
@@ -27,11 +26,11 @@ Simply call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells.dr
 There are two possible ways to control the positioning of pictures using Aspose.Cells:
 
 - Proportional positioning: define a position proportional to the row height and width.
-- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20pixels below the edge of the cell.
+- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20 pixels below the edge of the cell.
 
 ### **Proportional Positioning**
 
-Developers can position the pictures proportional to row height and column width using the [**UpperDeltaX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax) and [**UpperDeltaY**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
+Developers can position the pictures proportionally to row height and column width using the [**UpperDeltaX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax) and [**UpperDeltaY**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.cs" >}}
 
@@ -49,7 +48,7 @@ Add a picture to the worksheet by calling the [**AddPicture**](https://reference
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PictureCellReference-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Conditional Icons Set with the Cell Text](/cells/net/add-conditional-icons-set-with-the-cell-text/)
 - [Insert a Linked Picture from Web Address](/cells/net/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture Based on Cell Reference](/cells/net/insert-a-picture-based-on-cell-reference/)

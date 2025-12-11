@@ -1,24 +1,24 @@
----
-title: Customizing the Ribbon XML with JavaScript via C++
-linktitle: Customize Excel Menu
-type: docs
-weight: 1500
-url: /javascript-cpp/customizing-the-ribbon-xml/
-description: Learn how to customize the Ribbon XML in Excel using Aspose.Cells for JavaScript via C++. 
----
+---  
+title: Customizing the Ribbon XML with JavaScript via C++  
+linktitle: Customize Excel Menu  
+type: docs  
+weight: 1500  
+url: /javascript-cpp/customizing-the-ribbon-xml/  
+description: Learn how to customize the Ribbon XML in Excel using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Microsoft Office replaced menus and toolbars with a Ribbon at the top of the application window since office 2007. The Ribbon is customizable. 
-Aspose.Cells for JavaScript via C++ allows you to
+Microsoft Office has replaced menus and toolbars with a Ribbon at the top of the application window since Office 2007. The Ribbon is customizable.  
+Aspose.Cells for JavaScript via C++ allows you to  
 
-- Keep Ribbon XML without parsing it,
-- Read and write Ribbon XML without parsing it,
-- Get and set Ribbon XML data.
+- Keep Ribbon XML without parsing it,  
+- Read and write Ribbon XML without parsing it,  
+- Get and set Ribbon XML data.  
 
-If you want to change the Ribbon XML, you have to parse it with an XML parser or other Ribbon XML tool.
+If you want to change the Ribbon XML, you must parse it with an XML parser or another Ribbon XML tool.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
 ```html
 <!DOCTYPE html>

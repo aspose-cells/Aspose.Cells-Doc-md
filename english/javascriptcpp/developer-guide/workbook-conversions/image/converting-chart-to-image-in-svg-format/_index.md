@@ -1,19 +1,19 @@
----
-title: Converting Chart to Image in SVG Format with JavaScript via C++
-linktitle: Converting Chart to Image in SVG Format
-type: docs
-weight: 240
-url: /javascript-cpp/converting-chart-to-image-in-svg-format/
-description: Learn how to convert a chart to SVG format image using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Converting Chart to Image in SVG Format with JavaScript via C++  
+linktitle: Converting Chart to Image in SVG Format  
+type: docs  
+weight: 240  
+url: /javascript-cpp/converting-chart-to-image-in-svg-format/  
+description: Learn how to convert a chart to an SVG format image using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}
 
-Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
+Scalable Vector Graphics (SVG) is an XML-based vector image format for two‑dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
 
 SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, but are more often created with drawing software.
 
-Aspose.Cells can save chart into images in various formats like BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.
+Aspose.Cells can save charts as images in various formats, such as BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.
 
 {{% /alert %}}
 

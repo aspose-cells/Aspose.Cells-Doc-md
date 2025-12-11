@@ -1,118 +1,118 @@
----
-title: Working With Colors
-type: docs
-weight: 20
-url: /net/working-with-colors/
-ai_search_scope: cells_net
+---  
+title: Working With Colors  
+type: docs  
+weight: 20  
+url: /net/working-with-colors/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Working With Colors**
-**C#**
+## **Aspose.Cells - Working With Colors**  
+**C#**  
 
-{{< highlight cs >}}
+{{< highlight cs >}}  
 
- Workbook workbook = new Workbook(); // Creating a Workbook object
+Workbook workbook = new Workbook(); // Creating a Workbook object  
 
-workbook.Worksheets.Add();
+workbook.Worksheets.Add();  
 
-Worksheet worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];  
 
-//Accessing cell from the worksheet
+// Accessing a cell from the worksheet  
 
-Cell cell = worksheet.Cells["B2"];
+Cell cell = worksheet.Cells["B2"];  
 
-Style style = cell.GetStyle();            
+Style style = cell.GetStyle();  
 
-//Setting the foreground color to yellow            
+// Setting the foreground color to yellow  
 
-style.BackgroundColor = Color.Yellow;
+style.BackgroundColor = Color.Yellow;  
 
-//Setting the background pattern to vertical stripe
+// Setting the background pattern to vertical stripe  
 
-style.Pattern = BackgroundType.VerticalStripe;            
+style.Pattern = BackgroundType.VerticalStripe;  
 
-//Saving the modified style to the "B2" cell.
+// Saving the modified style to the "B2" cell.  
 
-cell.SetStyle(style);
+cell.SetStyle(style);  
 
-// === Setting Foreground ===
+// === Setting Foreground ===  
 
-//Adding custom color to the palette at 55th index
+// Adding custom color to the palette at the 55th index  
 
-Color color = Color.FromArgb(212, 213, 0);
+Color color = Color.FromArgb(212, 213, 0);  
 
-workbook.ChangePalette(color, 55);
+workbook.ChangePalette(color, 55);  
 
-//Accessing cell from the worksheet
+// Accessing a cell from the worksheet  
 
-cell = worksheet.Cells["B3"];
+cell = worksheet.Cells["B3"];  
 
-//Adding some value to the cell
+// Adding a value to the cell  
 
-cell.PutValue("Hello Aspose!");
+cell.PutValue("Hello Aspose!");  
 
-workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
+workbook.Save("test.xlsx", SaveFormat.Xlsx); // Workbooks can be saved in many formats  
 
+{{< /highlight >}}  
 
-{{< /highlight >}}
-## **NPOI - HSSF XSSF - Working With Colors**
-**C#**
+## **NPOI - HSSF XSSF - Working With Colors**  
+**C#**  
 
-{{< highlight cs >}}
+{{< highlight cs >}}  
 
- IWorkbook wb = new XSSFWorkbook();
+IWorkbook wb = new XSSFWorkbook();  
 
-// Create a Worksheet
+// Create a Worksheet  
 
-ISheet ws = wb.CreateSheet("Sheet1");
+ISheet ws = wb.CreateSheet("Sheet1");  
 
+// Aqua background  
 
-// Aqua background
+ICellStyle style = wb.CreateCellStyle();  
 
-ICellStyle style = wb.CreateCellStyle();
+style.FillBackgroundColor = IndexedColors.Aqua.Index;  
 
-style.FillBackgroundColor = IndexedColors.Aqua.Index;
+style.FillPattern = FillPattern.BigSpots;  
 
-style.FillPattern = FillPattern.BigSpots;
+IRow row = ws.CreateRow(0);  
 
-IRow row = ws.CreateRow(0);
+ICell cell = row.CreateCell(1);  
 
-ICell cell = row.CreateCell(1);
+cell.SetCellValue("X");  
 
-cell.SetCellValue("X");
+cell.CellStyle = style;  
 
-cell.CellStyle = style;            
+// Orange "foreground" — foreground being the fill foreground, not the font color.  
 
-// Orange "foreground", foreground being the fill foreground not the font color.
+style = wb.CreateCellStyle();  
 
-style = wb.CreateCellStyle();
+style.FillBackgroundColor = IndexedColors.Orange.Index;  
 
-style.FillBackgroundColor = IndexedColors.Orange.Index;
+style.FillPattern = FillPattern.SolidForeground;  
 
-style.FillPattern = FillPattern.SolidForeground;
+cell = row.CreateCell(2);  
 
-cell = row.CreateCell(2);
+cell.SetCellValue("X");  
 
-cell.SetCellValue("X");
+cell.CellStyle = style;  
 
-cell.CellStyle = style;
+FileStream sw = File.Create("test.xlsx");  
 
-FileStream sw = File.Create("test.xlsx");
+wb.Write(sw);  
 
-wb.Write(sw);
+sw.Close();  
 
-sw.Close();
+{{< /highlight >}}  
 
-{{< /highlight >}}
-## **Download Running Code**
-Download **Working With Colors** form any of the below mentioned social coding sites:
+## **Download Running Code**  
+Download **Working With Colors** from any of the below‑mentioned social coding sites:  
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-For more details, visit [Data Formating Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+For more details, visit [Data Formatting Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).  
 
-{{% /alert %}}
+{{% /alert %}}  
 {{< app/cells/assistant language="csharp" >}}

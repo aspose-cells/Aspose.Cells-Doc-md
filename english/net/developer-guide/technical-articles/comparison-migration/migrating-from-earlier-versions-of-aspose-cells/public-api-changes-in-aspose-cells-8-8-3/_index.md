@@ -14,20 +14,20 @@ This document describes the changes to the Aspose.Cells API from version 8.8.2 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for ActiveX Controls**
-Aspose.Cells for .NET 8.8.3 has exposed the AddActiveXControl method that allows to add an ActiveX control to the ShapeCollection. The aforementioned method requires 7 parameters to specify the control type, location to place the control and size of the control. The type can be specified using the ControlType enumeration with following possible values.
+Aspose.Cells for .NET 8.8.3 has exposed the `AddActiveXControl` method that allows adding an ActiveX control to the `ShapeCollection`. The aforementioned method requires 7 parameters to specify the control type, the location to place the control, and the size of the control. The type can be specified using the `ControlType` enumeration with the following possible values.
 
-1. ControlType.CheckBox
-1. ControlType.ComboBox
-1. ControlType.CommandButton
-1. ControlType.Image
-1. ControlType.Label
-1. ControlType.ListBox
-1. ControlType.RadioButton
-1. ControlType.ScrollBar
-1. ControlType.SpinButton
-1. ControlType.TextBox
-1. ControlType.ToggleButton
-1. ControlType.Unknown
+1. ControlType.CheckBox  
+1. ControlType.ComboBox  
+1. ControlType.CommandButton  
+1. ControlType.Image  
+1. ControlType.Label  
+1. ControlType.ListBox  
+1. ControlType.RadioButton  
+1. ControlType.ScrollBar  
+1. ControlType.SpinButton  
+1. ControlType.TextBox  
+1. ControlType.ToggleButton  
+1. ControlType.Unknown  
 
 {{% alert color="primary" %}} 
 
@@ -40,34 +40,25 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of Workbook
-
 var book = new Workbook();
 
 // Access first worksheet from the collection
-
 var sheet = book.Worksheets[0];
 
 // Add Toggle Button ActiveX Control to the ShapeCollection at specified location
-
 var shape = sheet.Shapes.AddActiveXControl(ControlType.ToggleButton, 4, 0, 4, 0, 100, 30);
 
 // Access the ActiveX Control object and set its linked cell property
-
 ActiveXControl control = shape.ActiveXControl;
-
 control.LinkedCell = "A1";
 
-// Save the result on disc
-
+// Save the result on disk
 book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
-
 {{< /highlight >}}
 
-
 ### **Added LoadOptions.SetPaperSize Method**
-Aspose.Cells for .NET 8.8.3 allows to set the default print paper size from the default printer's setting while using the newly exposed LoadOptions.SetPaperSize method as demonstrated below. Please note, the input parameter to the aforementioned method is the value from the PaperSizeType enumeration containing the predefined paper sizes.
+Aspose.Cells for .NET 8.8.3 allows setting the default print paper size from the default printer's setting while using the newly exposed `LoadOptions.SetPaperSize` method as demonstrated below. Please note, the input parameter to the aforementioned method is a value from the `PaperSizeType` enumeration containing the predefined paper sizes.
 
 {{% alert color="primary" %}} 
 
@@ -80,56 +71,41 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of LoadOptions
-
 var loadOptions = new LoadOptions();
 
-// Set the PaperSize property to appropriate value
-
+// Set the PaperSize property to the appropriate value
 loadOptions.SetPaperSize(PaperSizeType.PaperA4);
 
 // Create an instance of Workbook and load an existing spreadsheet
-
 var book = new Workbook(dir + "input.xlsx", loadOptions);
-
 {{< /highlight >}}
 
-
 ### **Added Cell.GetCharacters(flag) Method**
-Aspose.Cells APIs allow to get the characters objects in the form of FontSetting array by using the Cell.GetCharacters method. With this release, the Aspose.Cells for .NET API has exposed an overloaded version of the Cell.GetCharacters that could accept Boolean as parameter, indicating if the table style has to be applied on the cell if the cell is part of a ListObject.
+Aspose.Cells APIs allow getting the character objects in the form of a `FontSetting` array by using the `Cell.GetCharacters` method. With this release, the Aspose.Cells for .NET API has exposed an overloaded version of `Cell.GetCharacters` that can accept a Boolean parameter, indicating whether the table style should be applied to the cell if the cell is part of a `ListObject`.
 
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of Workbook and load an existing spreadsheet
-
 var book = new Workbook(dir + "input.xlsx");
 
 // Access first worksheet from the collection
-
 var sheet = book.Worksheets[0];
 
 // Access cells collection of the first worksheet
-
 var cells = sheet.Cells;
 
 // Access particular cell from a ListObject
-
 // Assuming A1 resides in a ListObject
-
 var cell = cells["A1"];
 
 // Get all Characters objects from the cell
-
 var characters = cell.GetCharacters(true);
-
 {{< /highlight >}}
 
-
 ### **Added OleObject.AutoLoad Property**
-Aspose.Cells for .NET 8.8.3 has exposed the OleObject.AutoLoad property which allows to refresh the OleObject's image if the contents/data of the underlying object has been changed. The aforementioned property when set to true, forces the Excel application to refresh the OleObject's image when resultant spreadsheet is loaded.
+Aspose.Cells for .NET 8.8.3 has exposed the `OleObject.AutoLoad` property which allows refreshing the OleObject's image if the contents/data of the underlying object has been changed. When the property is set to **true**, it forces Excel to refresh the OleObject's image when the resultant spreadsheet is loaded.
 
 {{% alert color="primary" %}} 
 
@@ -142,32 +118,24 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of Workbook and load an existing spreadsheet
-
 var book = new Workbook(dir + "input.xlsx");
 
 // Access first worksheet from the collection
-
 var sheet = book.Worksheets[0];
 
 // Access OleObjectCollection from first worksheet
-
 var oleObjects = sheet.OleObjects;
 
-// Access a OleObject from the collection
-
+// Access an OleObject from the collection
 var oleObject = oleObjects[0];
 
 // Set AutoLoad to true
-
 oleObject.AutoLoad = true;
-
 {{< /highlight >}}
 
-
 ### **Added HTMLLoadOptions.SupportDivTag Property**
-Aspose.Cells for .NET 8.8.3 has exposed the HTMLLoadOptions.SupportDivTag property which allows to parse the DIV tags embedded in TD tags while loading HTML files/snippet in Aspose.Cells object model. Boolean type property has the default value of false.
+Aspose.Cells for .NET 8.8.3 has exposed the `HTMLLoadOptions.SupportDivTag` property which allows parsing the **DIV** tags embedded in **TD** tags while loading HTML files/snippets in the Aspose.Cells object model. The Boolean property has a default value of **false**.
 
 {{% alert color="primary" %}} 
 
@@ -180,106 +148,62 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Store the HTML snippet in a variable
-
 var export_html = @"
-
 <html>
-
 <body>
-
     <table>
-
         <tr>
-
             <td>
-
                 <div>This is some Text.</div>
-
                 <div>
-
                     <div>
-
                         <span>This is some more Text</span>
-
                     </div>
-
                     <div>
-
                         <span>abc@abc.com</span>
-
                     </div>
-
                     <div>
-
                         <span>1234567890</span>
-
                     </div>
-
                     <div>
-
                         <span>ABC DEF</span>
-
                     </div>
-
                 </div>
-
                 <div>Generated On May 30, 2016 02:33 PM <br />Time Call Received from Jan 01, 2016 to May 30, 2016</div>
-
             </td>
-
             <td>
-
                 <img src='ASpose_logo_100x100.png' />
-
             </td>
-
         </tr>
-
     </table>
-
 </body>
-
 </html>";
 
 // Create an instance of MemoryStream and load the contents of the HTML
-
 using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_html)))
-
 {
-
     // Create an instance of HTMLLoadOptions
-
     var loadOptions = new HTMLLoadOptions(LoadFormat.Html);
 
     // Set SupportDivTag property to true
-
     loadOptions.SupportDivTag = true;
 
     // Create workbook object from the HTML using load options
-
     var book = new Workbook(stream, loadOptions);
 
     // Auto fit rows and columns of first worksheet
-
     var sheet = book.Worksheets[0];
-
     sheet.AutoFitRows();
-
     sheet.AutoFitColumns();
 
-    // Save the spreadsheet on disc
-
+    // Save the spreadsheet on disk
     book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
-
 }
-
 {{< /highlight >}}
 
-
 ### **Added HtmlSaveOptions.ExportGridLines Property**
-Aspose.Cells for .NET 8.8.3 has exposed the HtmlSaveOptions.ExportGridLines property which allows to render the grid lines while exporting spreadsheet to HTML format. Boolean type property has the default value of false, however, when set to true, the API renders the grid lines for the available data range in HTML format.
+Aspose.Cells for .NET 8.8.3 has exposed the `HtmlSaveOptions.ExportGridLines` property which allows rendering the grid lines while exporting a spreadsheet to HTML format. The Boolean property has a default value of **false**; however, when set to **true**, the API renders the grid lines for the available data range in HTML format.
 
 {{% alert color="primary" %}} 
 
@@ -292,28 +216,21 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of Workbook and load existing spreadsheet
-
 var book = new Workbook(dir + "input.xlsx");
 
 // Create an instance of HtmlSaveOptions
-
 var options = new HtmlSaveOptions();
 
 // Set ExportGridLines to true
-
 options.ExportGridLines = true;
 
 // Save the result in HTML format
-
 book.Save(dir + "output.html", options);
-
 {{< /highlight >}}
 
-
 ### **Added ListObject.Comment Property**
-Aspose.Cells APIs now allow to get and set the comments for an instance of ListObject. In order provide the aforementioned feature, the Aspose.Cells APIs have exposed the ListObject.Comment property.
+Aspose.Cells APIs now allow getting and setting comments for an instance of `ListObject`. In order to provide the aforementioned feature, the APIs have exposed the `ListObject.Comment` property.
 
 {{% alert color="primary" %}} 
 
@@ -326,32 +243,24 @@ Following is the simple usage scenario.
 **C#**
 
 {{< highlight csharp >}}
-
  // Create an instance of Workbook and load existing spreadsheet
-
 var book = new Workbook(dir + "input.xlsx");
 
 // Access first worksheet from the collection
-
 var sheet = book.Worksheets[0];
 
 // Access first ListObject from the collection of ListObjects
-
 var listObject = sheet.ListObjects[0];
 
 // Set comments for the ListObject
-
 listObject.Comment = "Comments";
 
-// Save the result on disc
-
+// Save the result on disk
 book.Save(dir + "output.xlsx");
-
 {{< /highlight >}}
 
-
 ### **Added GridWeb.SessionStorePath Property**
-Aspose.Cells.GridWeb for .NET 8.8.3 has exposed the SessionStorePath property which allows to get or set the session store path when Session Mode is ViewState. The aforementioned property gets or sets the relative path to the current web application Base Directory.
+Aspose.Cells.GridWeb for .NET 8.8.3 has exposed the `SessionStorePath` property which allows getting or setting the session store path when Session Mode is **ViewState**. The property gets or sets the relative path to the current web application base directory.
 
 {{% alert color="primary" %}} 
 
@@ -360,7 +269,8 @@ For more details on this feature, please review the detailed article on [Specify
 {{% /alert %}} 
 
 Following is the simple usage scenario.
+
 ## **Removed APIs**
 ### **Removed Workbook.Decrypt Method**
-The said property was marked obsoleted some time back. This release has completely removed it from the public API. It is advised to set the WorkbookSettings.Password property to null in order to achieve the same goal.
+The method was marked obsolete some time ago. This release has completely removed it from the public API. It is advised to set the `WorkbookSettings.Password` property to `null` to achieve the same effect.
 {{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Dynamic (or interactive) charts have the ability to change when you change the scope of data. In other words, the dynamic charts can automatically reflect changes when the data source is changed. In order to trigger the change in the data source, one can use the filtering option of Excel Tables or use a control such as ComboBox or Dropdown list.
+Dynamic (or interactive) charts have the ability to change when you change the scope of data. In other words, the dynamic charts can automatically reflect changes when the data source is changed. In order to trigger the change in the data source, one can use the filtering option of Excel tables or use a control such as a ComboBox or a drop‑down list.  
 
 This article demonstrates the usage of Aspose.Cells for Node.js via C++ APIs to create dynamic charts using both of the aforementioned approaches.  
 {{% /alert %}}  
@@ -19,18 +19,18 @@ This article demonstrates the usage of Aspose.Cells for Node.js via C++ APIs to 
 ## **Using Excel Tables**  
 
 {{% alert color="primary" %}}  
-Excel tables are referred to as ListObjects in Aspose.Cells' perspective, therefore, we will use the term "ListObject" instead of "Table" for clarity. Please read in detail on how to [create ListObjects](/cells/nodejs-cpp/create-and-format-table/) with Aspose.Cells for Node.js via C++.  
+Excel tables are referred to as ListObjects in Aspose.Cells's perspective; therefore, we will use the term "ListObject" instead of "Table" for clarity. Please read in detail how to [create ListObjects](/cells/nodejs-cpp/create-and-format-table/) with Aspose.Cells for Node.js via C++.  
 {{% /alert %}}  
 
-ListObjects provides the in-built functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop-down lists which are automatically added to the header row of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject). Due to these features (sorting & filtering), the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject).
+ListObjects provide built‑in functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop‑down lists which are automatically added to the header row of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject). Due to these features (sorting & filtering), the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) seems to be the perfect candidate to serve as the data source to a dynamic chart because, when sorting or filtering is changed, the representation of data in the chart changes to reflect the current state of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject).  
 
-In order to keep the demonstration simple to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) from scratch and move forward step by step as outlined below.
+In order to keep the demonstration simple and easy to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) from scratch and move forward step by step as outlined below.
 
-1. Create an empty [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).
-1. Access the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).
-1. Insert some data to the cells.
-1. Create [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) based on the inserted data.
-1. Create [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) based on the data range of [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject).
+1. Create an empty [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).  
+1. Access the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).  
+1. Insert some data to the cells.  
+1. Create a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) based on the inserted data.  
+1. Create a [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) based on the data range of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject).  
 1. Save the result on the disk.  
 
 ```javascript
@@ -40,10 +40,13 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
+
 // Create an instance of Workbook
 const book = new AsposeCells.Workbook();
+
 // Access first worksheet from the collection
 const sheet = book.getWorksheets().get(0);
+
 // Access cells collection of the first worksheet
 const cells = sheet.getCells();
 
@@ -100,7 +103,7 @@ cells.get("D10").putValue(2.2);
 cells.get("D11").putValue(2.4);
 cells.get("D12").putValue(3.3);
 
-// Create ListObject, Get the List objects collection in the first worksheet
+// Create ListObject, get the ListObjects collection in the first worksheet
 const listObjects = sheet.getListObjects();
 
 // Add a List based on the data source range with headers on
@@ -120,17 +123,17 @@ book.save(path.join(dataDir, "output_out.xlsx"));
 
 ## **Using Dynamic Formulas**  
 
-In case you do not wish to use the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) as a data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of ComboBox. When selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the VLOOKUP function, the whole range can be refreshed upon user interaction, therefore it can be used as a source to the dynamic chart.
+In case you do not wish to use the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject) as a data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as a ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of a ComboBox. When the selection is changed, the VLOOKUP function refreshes the cell value. If a range of cells uses the VLOOKUP function, the whole range can be refreshed upon user interaction; therefore, it can be used as a source for the dynamic chart.  
 
-In order to keep the demonstration simple to understand, we will create the Workbook from scratch and move forward step by step as outlined below.
+In order to keep the demonstration simple and easy to understand, we will create the Workbook from scratch and move forward step by step as outlined below.
 
-1. Create an empty [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).
-1. Access the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).
-1. Insert some data to the cells by creating a Named Range. This data will serve as a series to the dynamic chart.
-1. Create [**ComboBox**](https://reference.aspose.com/cells/nodejs-cpp/combobox) based on the Named Range created in the previous step.
-1. Insert some more data to the cells that will serve as a source to the VLOOKUP function.
-1. Insert VLOOKUP function (with appropriate parameters) to a range of cells. This range will serve as a source to the dynamic chart.
-1. Create [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) based on the range created in the previous step.
+1. Create an empty [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).  
+1. Access the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook).  
+1. Insert some data to the cells by creating a Named Range. This data will serve as a series for the dynamic chart.  
+1. Create a [**ComboBox**](https://reference.aspose.com/cells/nodejs-cpp/combobox) based on the Named Range created in the previous step.  
+1. Insert some more data to the cells that will serve as a source to the VLOOKUP function.  
+1. Insert VLOOKUP function (with appropriate parameters) to a range of cells. This range will serve as a source for the dynamic chart.  
+1. Create a [**Chart**](https://reference.aspose.com/cells/nodejs-cpp/chart) based on the range created in the previous step.  
 1. Save the result on the disk.  
 
 ```javascript
@@ -221,7 +224,7 @@ worksheet.getCells().get("I22").putValue(200);
 worksheet.getCells().get("I23").putValue(200);
 worksheet.getCells().get("I24").putValue(100);
 
-// Dynamically load data on selection of Dropdown value
+// Dynamically load data on selection of drop‑down value
 worksheet.getCells().get("D16").setFormula("=IFERROR(VLOOKUP($C$16,$C$21:$I$24,2,FALSE),0)");
 worksheet.getCells().get("E16").setFormula("=IFERROR(VLOOKUP($C$16,$C$21:$I$24,3,FALSE),0)");
 worksheet.getCells().get("F16").setFormula("=IFERROR(VLOOKUP($C$16,$C$21:$I$24,4,FALSE),0)");
@@ -236,8 +239,8 @@ chart.getNSeries().add("='Sheet1'!$D$16:$I$16", false);
 chart.getNSeries().get(0).setName("=C16");
 chart.getNSeries().setCategoryData("=$D$15:$I$15");
 
-// Save result on disc
+// Save result on disk
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -4,16 +4,15 @@ linktitle: Rows and Columns
 type: docs
 weight: 100
 url: /python-net/adjusting-row-height-and-column-width/
-description: Aspose.Cells for Python via .NET can support change row height or column width, as well as apply formatting on rows or columns.
+description: Aspose.Cells for Python via .NET can support changing row height or column width, as well as applying formatting on rows or columns.
 keywords: Python Excel Library, Python Set row height and column width, Python Adjust row height and column width, Python change the row height or column width, Python format rows and columns, Python how to set row height and column width.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
-When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells for Python via .NET developers can perform these operations at runtime.
+When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or the width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. However, with Aspose.Cells for Python via .NET developers can perform these operations at runtime.
 
 {{% /alert %}}
 
@@ -21,22 +20,22 @@ When working with spreadsheets and adding data to rows or columns, you might nee
 
 ### **How to Adjust Row Height**
 
-Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection that represents all cells in the worksheet.
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection that represents all cells in the worksheet.
 
-The [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
+The [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
 
 ### **How to Set the Height of a Row**
 
-It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_row_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_row_height/#int-float) method. The [**set_row_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_row_height/#int-float) method takes the following parameters as follows:
+It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_row_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_row_height/#int-float) method. The [**set_row_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_row_height/#int-float) method takes the following parameters:
 
-- **row**, the index of the row that you're changing the height of.
-- **height**, the row height to apply on the row.
+- **row**, the index of the row whose height you are changing.
+- **height**, the row height to apply.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-HeightAndWidth-SettingHeightOfRow-1.py" >}}
 
 ### **How to Set the Height of All Rows in a Worksheet**
 
-If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**standard_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/standard_height) property of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection.
+If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**standard_height**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/standard_height) property of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection.
 
 **Example:**
 
@@ -46,29 +45,29 @@ If developers need to set the same row height for all rows in the worksheet, the
 
 ### **How to Set the Width of a Column**
 
-Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_column_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width/#int-float) method. The [**set_column_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width/#int-float) method takes the following parameters:
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_column_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width/#int-float) method. The [**set_column_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width/#int-float) method takes the following parameters:
 
-- **column**, the index of the column that you're changing the width of.
+- **column**, the index of the column whose width you are changing.
 - **width**, the desired column width.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-HeightAndWidth-SettingWidthOfColumn-1.py" >}}
 
 ### **How to Set Column Width in Pixels**
 
-Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_column_width_pixel**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) method. The [**set_column_width_pixel**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) method takes the following parameters:
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**set_column_width_pixel**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) method. The [**set_column_width_pixel**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) method takes the following parameters:
 
-- **column**, the index of the column that you're changing the width of.
+- **column**, the index of the column whose width you are changing.
 - **pixels**, the desired column width in pixels.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-HeightAndWidth-SetColumnWidthInPixels-1.py" >}}
 
 ### **How to Set the Width of All Columns in a Worksheet**
 
-To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**standard_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/standard_width) property.
+To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection's [**standard_width**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/standard_width) property.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [AutoFit Rows and Columns](/cells/python-net/autofit-rows-and-columns/)
 - [Convert Text to Columns using Aspose.Cells](/cells/python-net/convert-text-to-columns-using-aspose-cells/)
 - [Copying Rows and Columns](/cells/python-net/copying-rows-and-columns/)

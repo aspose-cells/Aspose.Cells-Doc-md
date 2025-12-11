@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows the user to check if the VBA code project is signed or not. Please use the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isSigned--) property to check if the VBA code project is signed or not.
+Aspose.Cells allows the user to check whether the VBA code project is signed. Please use the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isSigned--) property to determine this.
 
 {{% /alert %}}
 
-The following code explains how to check if the VBA code is signed or not using the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isSigned--) property. You can use any of your excel files to test this code. For testing purposes, you can use [this excel file used in the code](5115032.xlsm).
+The following code explains how to check if the VBA code is signed using the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isSigned--) property. You can use any of your Excel files to test this code. For testing purposes, you can use [this Excel file used in the code](5115032.xlsm).
 
 ## **Check if VBA Code is Signed in Node.js**
 
@@ -35,7 +35,7 @@ console.log("Is VBA Code Project Signed: " + workbook.getVbaProject().isSigned()
 
 ## Console Output
 
-Below is the console output of the above code using the [sample excel file](5115032.xlsm) provided by the link.
+Below is the console output of the above code using the [sample Excel file](5115032.xlsm) provided in the link.
 
 {{< highlight java >}}
 

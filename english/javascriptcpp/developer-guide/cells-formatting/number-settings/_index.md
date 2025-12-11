@@ -1,12 +1,12 @@
----
-title: Number Settings
-linktitle: Number Settings
-description: Aspose.Cells is a JavaScript library for working with spreadsheet files that supports many different cell number settings. This article introduces how to use the Aspose.Cells library to manage the number settings of cells for adjusting number formats in spreadsheets.
-keywords: Aspose.Cells, JavaScript library, electronic spreadsheet, cell number settings, formatting, management, Formats of Numbers and Dates
-type: docs
-weight: 10
-url: /javascript-cpp/cells-number-settings/
----
+---  
+title: Number Settings  
+linktitle: Number Settings  
+description: Aspose.Cells is a JavaScript library for working with spreadsheet files that supports many different cell number settings. This article introduces how to use the Aspose.Cells library to manage the number settings of cells for adjusting number formats in spreadsheets.  
+keywords: Aspose.Cells, JavaScript library, electronic spreadsheet, cell number settings, formatting, management, Formats of Numbers and Dates  
+type: docs  
+weight: 10  
+url: /javascript-cpp/cells-number-settings/  
+---  
 
 ## **How to Set Display Formats of Numbers and Dates**  
 
@@ -17,7 +17,7 @@ Aspose.Cells supports this functionality and allows developers to set any displa
 
 To set display formats in Microsoft Excel:  
 
-1. Right-click any cell.  
+1. Right‑click any cell.  
 2. Select **Format Cells**. A dialog will appear that is used to set the display formats of any kind of value.  
 
 On the left side of the dialog, there are many categories of values like **General**, **Number**, **Currency**, **Accounting**, **Date**, **Time**, **Percentage**, etc. Aspose.Cells supports all of these display formats.  
@@ -28,47 +28,46 @@ Aspose.Cells provides the [**style**](https://reference.aspose.com/cells/javascr
 
 ### **How to Use Built-in Number Formats**  
 
-Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the [**number**](https://reference.aspose.com/cells/javascript-cpp/style/#number-number-) property of the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**number**](https://reference.aspose.com/cells/javascript-cpp/style/#number-number-) property of the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.  
+Aspose.Cells offers some built‑in number formats to configure the display formats of the numbers and dates. These built‑in number formats can be applied by using the [**number**](https://reference.aspose.com/cells/javascript-cpp/style/#number-number-) property of the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object. All built‑in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**number**](https://reference.aspose.com/cells/javascript-cpp/style/#number-number-) property of the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object to apply the display format. This approach is fast. The built‑in number formats supported by Aspose.Cells are listed below.  
 
-|**Value**|**Type**|**Format String**|  
-| :- | :- | :- |  
-|0|General|General|  
-|1|Decimal|0|  
-|2|Decimal|0.00|  
-|3|Decimal|#,##0|  
-|4|Decimal|#,##0.00|  
-|5|Currency|$#,##0;$-#,##0|  
-|6|Currency|$#,##0;[Red]$-#,##0|  
-|7|Currency|$#,##0.00;$-#,##0.00|  
-|8|Currency|$#,##0.00;[Red]$-#,##0.00|  
-|9|Percentage|0%|  
-|10|Percentage|0.00%|  
-|11|Scientific|0.00E+00|  
-|12|Fraction|# ?/?|  
-|13|Fraction|# */*|  
-|14|Date|m/d/yyyy|  
-|15|Date|d-mmm-yy|  
-|16|Date|d-mmm|  
-|17|Date|mmm-yy|  
-|18|Time|h:mm AM/PM|  
-|19|Time|h:mm:ss AM/PM|  
-|20|Time|h:mm|  
-|21|Time|h:mm:ss|  
-|22|Time|m/d/yy h:mm|  
-|37|Currency|#,##0;-#,##0|  
-|38|Currency|#,##0;[Red]-#,##0|  
-|39|Currency|#,##0.00;-#,##0.00|  
-|40|Currency|#,##0.00;[Red]-#,##0.00|  
-|41|Accounting|_ * #,##0_ ;_ * "_ ;_ @_|  
-|42|Accounting|_ $* #,##0_ ;_ $* "_ ;_ @_|  
-|43|Accounting|_ * #,##0.00_ ;_ * "??_ ;_ @_|  
-|44|Accounting|_ $* #,##0.00_ ;_ $* "??_ ;_ @_|  
-|45|Time|mm:ss|  
-|46|Time|h:mm:ss|  
-|47|Time|mm:ss.0|  
-|48|Scientific|##0.0E+00|  
-|49|Text|@|  
-
+| **Value** | **Type**      | **Format String** |
+| --------- | ------------- | ----------------- |
+| 0         | General       | General           |
+| 1         | Decimal       | 0                 |
+| 2         | Decimal       | 0.00              |
+| 3         | Decimal       | #,##0             |
+| 4         | Decimal       | #,##0.00          |
+| 5         | Currency      | $#,##0;$-#,##0    |
+| 6         | Currency      | $#,##0;[Red]$-#,##0 |
+| 7         | Currency      | $#,##0.00;$-#,##0.00 |
+| 8         | Currency      | $#,##0.00;[Red]$-#,##0.00 |
+| 9         | Percentage    | 0%                |
+| 10        | Percentage    | 0.00%             |
+| 11        | Scientific    | 0.00E+00          |
+| 12        | Fraction      | # ?/?             |
+| 13        | Fraction      | # */*             |
+| 14        | Date          | m/d/yyyy          |
+| 15        | Date          | d-mmm-yy          |
+| 16        | Date          | d-mmm             |
+| 17        | Date          | mmm-yy            |
+| 18        | Time          | h:mm AM/PM        |
+| 19        | Time          | h:mm:ss AM/PM    |
+| 20        | Time          | h:mm              |
+| 21        | Time          | h:mm:ss           |
+| 22        | Time          | m/d/yy h:mm      |
+| 37        | Currency      | #,##0;-#,##0      |
+| 38        | Currency      | #,##0;[Red]-#,##0 |
+| 39        | Currency      | #,##0.00;-#,##0.00 |
+| 40        | Currency      | #,##0.00;[Red]-#,##0.00 |
+| 41        | Accounting    | _ * #,##0_ ;_ * "_ ;_ @_ |
+| 42        | Accounting    | _ $* #,##0_ ;_ $* "_ ;_ @_ |
+| 43        | Accounting    | _ * #,##0.00_ ;_ * "??_ ;_ @_ |
+| 44        | Accounting    | _ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
+| 45        | Time          | mm:ss             |
+| 46        | Time          | h:mm:ss           |
+| 47        | Time          | mm:ss.0           |
+| 48        | Scientific    | ##0.0E+00         |
+| 49        | Text          | @                 |  
 
 ```html
 <!DOCTYPE html>
@@ -110,14 +109,14 @@ Aspose.Cells offers some built-in number formats to configure the display format
                 workbook = new Workbook();
             }
 
-            // Obtaining the reference of the first worksheet
+            // Obtaining a reference to the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Adding the current system date to "A1" cell
+            // Adding the current system date to the "A1" cell
             const cellA1 = worksheet.cells.get("A1");
             cellA1.value = new Date();
 
-            // Getting the Style of the A1 Cell
+            // Getting the style of the A1 cell
             let style = cellA1.style;
 
             // Setting the display format to number 15 to show date as "d-mmm-yy"
@@ -130,7 +129,7 @@ Aspose.Cells offers some built-in number formats to configure the display format
             const cellA2 = worksheet.cells.get("A2");
             cellA2.value = 20;
 
-            // Getting the Style of the A2 Cell
+            // Getting the style of the A2 cell
             style = cellA2.style;
 
             // Setting the display format to number 9 to show value as percentage
@@ -143,7 +142,7 @@ Aspose.Cells offers some built-in number formats to configure the display format
             const cellA3 = worksheet.cells.get("A3");
             cellA3.value = 2546;
 
-            // Getting the Style of the A3 Cell
+            // Getting the style of the A3 cell
             style = cellA3.style;
 
             // Setting the display format to number 6 to show value as currency
@@ -167,10 +166,9 @@ Aspose.Cells offers some built-in number formats to configure the display format
 </html>
 ```  
 
-
 ### **How to Use Custom Number Formats**  
 
-To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property. This approach is not as fast as using pre-set formats but it is more flexible.  
+To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property. This approach is not as fast as using pre‑set formats, but it is more flexible.  
 
 ```html
 <!DOCTYPE html>
@@ -214,14 +212,14 @@ To define your own customized format string for setting the display format, use 
                 workbook = new Workbook();
             }
 
-            // Obtaining the reference of the first worksheet
+            // Obtaining a reference to the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Adding the current system date to "A1" cell
+            // Adding the current system date to the "A1" cell
             const cellA1 = worksheet.cells.get("A1");
             cellA1.putValue(new Date());
 
-            // Getting the Style of the A1 Cell
+            // Getting the style of the A1 cell
             let style = cellA1.style;
 
             // Setting the display format to number 15 to show date as "d-mmm-yy"
@@ -234,7 +232,7 @@ To define your own customized format string for setting the display format, use 
             const cellA2 = worksheet.cells.get("A2");
             cellA2.putValue(20);
 
-            // Getting the Style of the A2 Cell
+            // Getting the style of the A2 cell
             style = cellA2.style;
 
             // Setting the display format to number 9 to show value as percentage
@@ -247,7 +245,7 @@ To define your own customized format string for setting the display format, use 
             const cellA3 = worksheet.cells.get("A3");
             cellA3.putValue(2546);
 
-            // Getting the Style of the A3 Cell
+            // Getting the style of the A3 cell
             style = cellA3.style;
 
             // Setting the display format to number 6 to show value as currency
@@ -271,14 +269,13 @@ To define your own customized format string for setting the display format, use 
 </html>
 ```  
 
-
 {{% alert color="primary" %}}  
 
 If you use the [**custom**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) property to set the number format, any previous format set using the [**number**](https://reference.aspose.com/cells/javascript-cpp/style/#number-number-) property is overridden and vice versa.  
 
 {{% /alert %}}  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Check Custom Number Format when Setting Style.Custom Property](/cells/javascript-cpp/check-custom-number-format-when-setting-style-custom-property/)  
 - [List of Supported Number Formats](/cells/javascript-cpp/list-of-supported-number-formats/)  
 - [Render Custom Date Format Pattern g and ge mm dd](/cells/javascript-cpp/render-custom-date-format-pattern-g-and-ge-mm-dd/)  

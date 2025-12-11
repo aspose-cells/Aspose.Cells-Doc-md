@@ -4,7 +4,7 @@ linktitle: Count number of cells in the Worksheet
 type: docs
 weight: 110
 url: /cpp/count-number-of-cells-in-the-worksheet/
-description: In this article, you will learn how to programmatically count number of cells in the Excel worksheet using C++ API with Aspose.Cells.
+description: In this article, you will learn how to programmatically count the number of cells in the Excel worksheet using the C++ API with Aspose.Cells.
 keywords: count number of excel worksheet cells c++, excel worksheet cells c++
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -32,7 +32,7 @@ int main()
     // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Print number of cells in the Worksheet
+    // Print number of cells in the worksheet
     std::cout << "Number of Cells: " << worksheet.GetCells().GetCount() << std::endl;
 
     // In case the number of cells is greater than 2147483647, use CountLarge

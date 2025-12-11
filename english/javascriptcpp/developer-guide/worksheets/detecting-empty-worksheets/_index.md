@@ -4,27 +4,27 @@ linktitle: Detecting Empty Worksheets
 type: docs
 weight: 410
 url: /javascript-cpp/detecting-empty-worksheets/
-description: This article shows you code explaining how to detect empty worksheets of Excel workbooks programmatically using the JavaScript API with C++ library.
+description: This article shows you code explaining how to detect empty worksheets of Excel workbooks programmatically using the JavaScript API with the C++ library.
 keywords: detect empty worksheet JavaScript via C++, find empty excel worksheet JavaScript via C++
 ---
 
 ## **Check for Populated Cells**
 
-Worksheets can have one or more cells populated with values where a value can be simple (text, numeric, date/time) or a formula or a formula-based value. In such a case, it is easy to detect if a given worksheet is empty or not. All we have to check is the [**Cells.maxDataRow**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataRow--) or [**Cells.maxDataColumn**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataColumn--) properties. If the aforementioned properties return zero or positive values that means, one or more cells have been populated; however, if any of these properties return -1, that indicates that none of the cells have been populated in the given worksheet.
+Worksheets can have one or more cells populated with values, where a value can be simple (text, numeric, date/time) or a formula, or a formula‑based value. In such a case, it is easy to detect if a given worksheet is empty or not. All we have to check is the [**Cells.maxDataRow**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataRow--) or [**Cells.maxDataColumn**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataColumn--) properties. If the aforementioned properties return zero or positive values, that means one or more cells have been populated; however, if any of these properties return **-1**, that indicates that none of the cells have been populated in the given worksheet.
 
 {{% alert color="primary" %}}
 
-The rows & columns collections have zero-based indices; therefore, a cell at row 0 & column 0 means the first cell in the worksheet, which is A1.
+The rows and columns collections have zero‑based indices; therefore, a cell at row 0 and column 0 means the first cell in the worksheet, which is **A1**.
 
 {{% /alert %}}
 
 ## **Check for Empty Initialized Cells**
 
-All cells that have values are automatically initialized; however, there is a possibility that a worksheet has cells with only formatting applied. In such a scenario, the [**Cells.maxDataRow**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataRow--) or [**Cells.maxDataColumn**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataColumn--) properties will return -1 indicating the absence of any populated values, but initialized cells due to cell formatting cannot be detected using this approach. In order to check if a worksheet has empty initialized cells, it is advised to use the `Enumerator.MoveNext` method on the enumerator acquired from [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection. If the `Enumerator.MoveNext` method returns **true**, that means there are one or more initialized cells in the given worksheet.
+All cells that have values are automatically initialized; however, there is a possibility that a worksheet has cells with only formatting applied. In such a scenario, the [**Cells.maxDataRow**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataRow--) or [**Cells.maxDataColumn**](https://reference.aspose.com/cells/javascript-cpp/cells/#maxDataColumn--) properties will return **-1**, indicating the absence of any populated values, but initialized cells due to cell formatting cannot be detected using this approach. In order to check if a worksheet has empty initialized cells, it is advised to use the `Enumerator.MoveNext` method on the enumerator obtained from the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection. If the `Enumerator.MoveNext` method returns **true**, that means there are one or more initialized cells in the given worksheet.
 
 ## **Check for Shapes**
 
-It is possible that a given worksheet does not have any populated cells; however, it could contain shapes & objects such as controls, charts, images, and so on. If we need to check if a worksheet contains any shape, we can do it by inspecting the [**ShapeCollection.count**](https://reference.aspose.com/cells/javascript-cpp/shapecollection/#count--) property. Any positive value indicates the presence of shape(s) in the worksheet.
+It is possible that a given worksheet does not have any populated cells; however, it could contain shapes and objects such as controls, charts, images, and so on. If we need to check if a worksheet contains any shapes, we can do it by inspecting the [**ShapeCollection.count**](https://reference.aspose.com/cells/javascript-cpp/shapecollection/#count--) property. Any positive value indicates the presence of shape(s) in the worksheet.
 
 ## **Programming Sample**
 

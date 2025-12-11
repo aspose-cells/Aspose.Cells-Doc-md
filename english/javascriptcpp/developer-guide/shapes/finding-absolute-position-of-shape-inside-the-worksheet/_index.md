@@ -17,7 +17,7 @@ The following sample code displays the absolute position of the first shape in t
 
 {{< highlight java >}}
 
-Absolute Position of this Shape is (320 , 183)
+Absolute Position of this Shape is (320, 183)
 
 {{< /highlight >}}
 
@@ -70,10 +70,10 @@ Absolute Position of this Shape is (320 , 183)
             // Access the first shape inside the worksheet
             const shape = worksheet.shapes.get(0);
 
-            // Displays the absolute position of the shape
+            // Display the absolute position of the shape
             const left = shape.leftToCorner;
             const top = shape.topToCorner;
-            const message = `Absolute Position of this Shape is (${left} , ${top})`;
+            const message = `Absolute Position of this Shape is (${left}, ${top})`;
             console.log(message);
             resultDiv.innerHTML = `<p>${message}</p>`;
         });

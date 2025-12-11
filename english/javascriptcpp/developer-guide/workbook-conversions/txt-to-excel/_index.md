@@ -12,7 +12,7 @@ Using Aspose.Cells, you can convert CSV files to Excel, OpenOffice, PDF, JSON, a
 
 ## **Opening CSV Files**
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
+Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character, it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
 
 ```html
 <!DOCTYPE html>
@@ -66,9 +66,9 @@ Comma Separated Values (CSV) files contain records where the values are separate
 </html>
 ```
 
-## **Opening CSV files and replacing invalid characters**
+## **Opening CSV Files and Replacing Invalid Characters**
 
-In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API which is demonstrated in the code example given below.
+In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is performed by the Aspose.Cells API, as demonstrated in the code example below.
 
 ```html
 <!DOCTYPE html>
@@ -120,7 +120,7 @@ In Excel, when a CSV file with special characters is opened, the characters are 
             // Load CSV into a Workbook using the options
             const workbook = new Workbook(new Uint8Array(arrayBuffer), options);
 
-            // Access first worksheet and its name
+            // Access the first worksheet and its name
             const worksheet = workbook.worksheets.get(0);
             const sheetName = worksheet.name;
             const nameLength = sheetName.length;
@@ -138,10 +138,9 @@ In Excel, when a CSV file with special characters is opened, the characters are 
 </html>
 ```
 
+### **Opening Text Files with a Custom Separator**
 
-### **Opening Text Files with Custom Separator**
-
-Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.
+Text files are used to hold spreadsheet data without formatting. The file is a kind of plain‑text file that can have customized delimiters.
 
 ```html
 <!DOCTYPE html>
@@ -182,7 +181,7 @@ Text files are used to hold spreadsheet data without formatting. The file is a k
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiate Text File's LoadOptions
+            // Instantiate the Text File's LoadOptions
             const txtLoadOptions = new TxtLoadOptions();
 
             // Specify the separator
@@ -209,9 +208,9 @@ Text files are used to hold spreadsheet data without formatting. The file is a k
 </html>
 ```
 
-### **Opening Tab Delimited Files**
+### **Opening Tab‑Delimited Files**
 
-Tab delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.
+Tab‑delimited (text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain‑text file with a tab between each column.
 
 ```html
 <!DOCTYPE html>
@@ -220,7 +219,7 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
         <title>Aspose.Cells Tab Delimited Example</title>
     </head>
     <body>
-        <h1>Open Tab-Delimited File</h1>
+        <h1>Open Tab‑Delimited File</h1>
         <input type="file" id="fileInput" accept=".txt,.csv,.tsv,.xls,.xlsx" />
         <button id="runExample">Open Tab Delimited</button>
         <a id="downloadLink" style="display: none;">Download Result</a>
@@ -245,7 +244,7 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (!fileInput.files.length) {
-                document.getElementById('result').innerHTML = '<p style="color: red;">Please select a tab-delimited text file.</p>';
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select a tab‑delimited text file.</p>';
                 return;
             }
 
@@ -258,7 +257,7 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
             // Create a Workbook object and open the file from the uploaded data using LoadOptions
             const wbTabDelimited = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            document.getElementById('result').innerHTML = '<p style="color: green;">Tab delimited file opened successfully!</p>';
+            document.getElementById('result').innerHTML = '<p style="color: green;">Tab‑delimited file opened successfully!</p>';
 
             // Save the workbook to XLSX and provide a download link
             const outputData = wbTabDelimited.save(SaveFormat.Xlsx);
@@ -273,9 +272,9 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
 </html>
 ```
 
-### **Opening Tab-Separated Values (TSV) Files**
+### **Opening Tab‑Separated Values (TSV) Files**
 
-Tab-separated values (TSV) files contain spreadsheet data but without any formatting. It is the same as a Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.
+Tab‑separated values (TSV) files contain spreadsheet data but without any formatting. They are the same as a tab‑delimited file, where data is arranged in rows and columns like in tables and spreadsheets.
 
 ```html
 <!DOCTYPE html>
@@ -336,6 +335,6 @@ Tab-separated values (TSV) files contain spreadsheet data but without any format
 </html>
 ```
 
-## **Advance topics**
-- [Load or Import CSV file with Formulas](/cells/javascript-cpp/load-or-import-csv-file-with-formulas/)
+## **Advanced Topics**
+- [Load or Import CSV File with Formulas](/cells/javascript-cpp/load-or-import-csv-file-with-formulas/)
 - [Reading CSV File with Multiple Encodings](/cells/javascript-cpp/reading-csv-file-with-multiple-encodings/)

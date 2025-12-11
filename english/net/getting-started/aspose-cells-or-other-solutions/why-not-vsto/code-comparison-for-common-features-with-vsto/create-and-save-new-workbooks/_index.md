@@ -8,42 +8,45 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Migration Tips:**
-\1. Create Workbook object
-\2. Get current Worksheet.
-\3. Insert some text in any cell.
-\4. Save the Workbook.
+1. Create a Workbook object.  
+2. Get the current worksheet.  
+3. Insert some text in any cell.  
+4. Save the workbook.  
+
 ### **VSTO**
-Below is code example for VSTO
+Below is a code example for VSTO
 
 {{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
- Excel.Worksheet worksheet = newWorkbook.ActiveSheet;
+  Excel.Worksheet worksheet = newWorkbook.ActiveSheet;
 
- Excel.Range cells = worksheet.Cells;
+  Excel.Range cells = worksheet.Cells;
 
- cells.set_Item(1,1,"Some Text");
+  cells.set_Item(1, 1, "Some Text");
 
- newWorkbook.Save();
+  newWorkbook.Save();
 
 {{< /highlight >}}
+
 ### **Aspose.Cells**
-Below is code example for Aspose.Cells
+Below is a code example for Aspose.Cells
 
 {{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
- Worksheet worksheet = newWorkbook.Worksheets.Add("New Sheet");
+  Worksheet worksheet = newWorkbook.Worksheets.Add("New Sheet");
 
- Cells cells = worksheet.Cells;
+  Cells cells = worksheet.Cells;
 
- cells[0,0].PutValue("Some Text");
+  cells[0, 0].PutValue("Some Text");
 
- newWorkbook.Save(fileName);
+  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
+
 ## **Download**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)
 {{< app/cells/assistant language="csharp" >}}

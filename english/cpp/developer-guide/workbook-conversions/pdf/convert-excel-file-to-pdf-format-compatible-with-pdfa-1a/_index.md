@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-PDF/A is a unique flavor of PDF designed for the long-term preservation of documents. PDF/A is an ISO-standardized version of the Portable Document Format (PDF) which is an archival format of PDF that embeds all fonts used in the document within the PDF file. PDF/A differs from PDF by prohibiting features, such as font linking (as opposed to font embedding) and encryption. Aspose.Cells enables you to save the Excel files to PDF/A compliant PDF files (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u are supported). This topic describes how to save the Excel workbook to PDF/A compliant (PDF/A-1a) PDF file.
+PDF/A is a unique flavor of PDF designed for the long-term preservation of documents. PDF/A is an ISO‑standardized version of the Portable Document Format (PDF) which is an archival format of PDF that embeds all fonts used in the document within the PDF file. PDF/A differs from PDF by prohibiting features, such as font linking (as opposed to font embedding) and encryption. Aspose.Cells enables you to save the Excel files to PDF/A compliant PDF files (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u are supported). This topic describes how to save the Excel workbook to a PDF/A compliant (PDF/A-1a) PDF file.
 
 ## **Convert Excel file to PDF Format Compatible with PDF/A-1a**
 
-Developers may use the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [**PdfSaveOptions.GetCompliance()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getcompliance/) that enables you to save the Excel files to PDF/A compliant PDF files.
+Developers may use the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) class gives you control over the print, font, security, and compression settings for the output PDF. The most important property is [**PdfSaveOptions.GetCompliance()**](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getcompliance/) that enables you to save Excel files as PDF/A‑compliant PDFs.
 
-The following sample code explains how to convert Excel file to PDF format compatible with PDF/A-1a. Please see its [output PDF](outputCompliancePdfA1a.pdf) as well as the screenshot for a reference.
+The following sample code explains how to convert an Excel file to PDF format compatible with PDF/A-1a. Please see its [output PDF](outputCompliancePdfA1a.pdf) as well as the screenshot for reference.
 
 ## **Screenshot**
 
@@ -43,16 +43,16 @@ int main()
 
     // Access cell B5 and add some message inside it
     Cell cell = ws.GetCells().Get(u"B5");
-    cell.PutValue(u"This PDF format is compatible with PDFA-1a.");
+    cell.PutValue(u"This PDF format is compatible with PDF/A-1a.");
 
-    // Create pdf save options and set its compliance to PDFA-1a
+    // Create PDF save options and set its compliance to PDF/A-1a
     PdfSaveOptions opts;
     opts.SetCompliance(PdfCompliance::PdfA1a);
 
-    // Save the output pdf
+    // Save the output PDF
     wb.Save(u"..\\Data\\02_OutputDirectory\\outputCompliancePdfA1a.pdf", opts);
 
-    std::cout << "PDF created successfully with PDFA-1a compliance!" << std::endl;
+    std::cout << "PDF created successfully with PDF/A-1a compliance!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }

@@ -9,12 +9,10 @@ description: Learn how to change the HTML link target type using Aspose.Cells fo
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. The HTML link looks like this:
 
 {{< highlight javascript >}}
-
- <a href="http://www.aspose.com/" target="_self">
-
+<a href="http://www.aspose.com/" target="_self">
 {{< /highlight >}}
 
 As you can see, the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**HtmlSaveOptions.linkTargetType**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#linkTargetType--) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/javascript-cpp/htmllinktargettype) enum which has the following values.
@@ -26,7 +24,7 @@ As you can see, the target attribute in the above HTML link is **_self**. You ca
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**HtmlSaveOptions.linkTargetType**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#linkTargetType--) property. It changes the link target type to **blank**. By default, it is **parent**.
+The following code illustrates the usage of [**HtmlSaveOptions.linkTargetType**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#linkTargetType--) property. It changes the link target type to **self**. By default, it is **parent**.
 
 ```html
 <!DOCTYPE html>

@@ -20,15 +20,15 @@ Microsoft Excel 2007 and later versions (2010/2013/2016) provide advanced condit
 Aspose.Cells for Python via .NET supports all advanced conditional formatting features including:
 
 - Add shaded data bars to graphically enhance the underlying numbers by embedding a simple bar chart in the cells.
-- Automatically shade cells with color scales based on their relation to values in other cells in the range. The default settings shades the lowest value in red moving up to the highest value in green.
-- Use icon sets in a similar way to color scales, but rather than shading the cells it adds small icons, such as arrows and traffic lights to the cells.
+- Automatically shade cells with color scales based on their relation to values in other cells in the range. The default settings **shade** the lowest value in red, moving up to the highest value in green.
+- Use icon sets in a similar way to color scales, but rather than shading the cells, it adds small icons, such as arrows and traffic lights to the cells.
 
 Aspose.Cells fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. This example demonstrates an exercise for advanced conditional formatting types including IconSets, DataBars, Color Scales, TimePeriods, Top/Bottom and other rules with different sets of attributes.
 
 - [**Adding Color Scale Conditional Formattings**](/cells/python-net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
 - [**Adding Above Average Conditional Formattings**](/cells/python-net/how-to-add-above-average-conditional-formatting/)
 - [**Adding DataBars Conditional Formattings**](/cells/python-net/how-to-add-databars-conditional-formatting/)
-- [**Adding IonSets Conditional Formattings**](/cells/python-net/how-to-add-icon-sets-conditional-formatting/)
+- [**Adding IconSets Conditional Formattings**](/cells/python-net/how-to-add-icon-sets-conditional-formatting/)
 - [**Adding Text Conditional Formattings**](/cells/python-net/how-to-add-text-conditional-formatting/)
 - [**Adding TimePeriods Conditional Formattings**](/cells/python-net/how-to-add-time-periods-conditional-formatting/)
 - [**Adding Top10 Conditional Formattings**](/cells/python-net/how-to-add-top10-conditional-formatting/)

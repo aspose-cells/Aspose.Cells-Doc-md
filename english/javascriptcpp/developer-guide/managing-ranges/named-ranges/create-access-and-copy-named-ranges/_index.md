@@ -9,9 +9,9 @@ description: Learn how to create, access, and copy named ranges in Excel using A
 
 ## **Introduction**  
 
-Normally, column and row labels are used to refer to individual cells. It is possible to create descriptive names to represent cells, ranges of cells, formulas, or constant values. The word **name** may refer to a string of characters that represents a cell, range of cells, formula, or constant value. Assigning a name to a range means that range of cells can be referred to by its name. Use easy-to-understand names, such as Products, to refer to hard-to-understand ranges, such as Sales!C20:C30. Labels can be used in formulas that refer to data on the same worksheet; if you want to represent a range on another worksheet, you may use a name. *Named ranges are among the most powerful features of Microsoft Excel, especially when used as the source range for list controls, pivot tables, charts, and so on.*  
+Normally, column and row labels are used to refer to individual cells. It is possible to create descriptive names to represent cells, ranges of cells, formulas, or constant values. The word **name** may refer to a string of characters that represents a cell, a range of cells, a formula, or a constant value. Assigning a name to a range means that the range of cells can be referred to by its name. Use easy‑to‑understand names, such as **Products**, to refer to hard‑to‑understand ranges, such as **Sales!C20:C30**. Labels can be used in formulas that refer to data on the same worksheet; if you want to represent a range on another worksheet, you may use a name. *Named ranges are among the most powerful features of Microsoft Excel, especially when used as the source range for list controls, pivot tables, charts, and so on.*
 
-## **Working with Named Range Using Microsoft Excel**  
+## **Working with Named Ranges Using Microsoft Excel**  
 
 ### **Create Named Ranges**  
 
@@ -20,25 +20,25 @@ The following steps describe how to name a cell or range of cells using **MS Exc
 1. Select the cell or range of cells that you want to name.  
 2. Click the **Name Box** at the left end of the formula bar.  
 3. Type the name for the cells.  
-4. Press ENTER.  
+4. Press **ENTER**.  
 
 {{% alert color="primary" %}}  
 You cannot name a cell while you are changing the contents of the cell.  
 {{% /alert %}}  
 
-## **Working with Named Range Using Aspose.Cells**  
+## **Working with Named Ranges Using Aspose.Cells**  
 
-Here, we use the Aspose.Cells API to do the task.  
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection.  
+Here, we use the Aspose.Cells API to accomplish the task.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The **Workbook** class contains a **worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The **Worksheet** class provides a **cells** collection.  
 
 ### **Create Named Range**  
 
-It is possible to create a named range by calling the overloaded [**createRange(string, string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-) method of the [**cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection. A typical version of [**createRange(string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-) method takes the following parameters:  
+It is possible to create a named range by calling the overloaded [**createRange(string, string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-) method of the **cells** collection. A typical version of the **createRange** method takes the following parameters:  
 
-- Name of the upper left cell, the name of the top left cell in the range.  
-- Name of the lower right cell, the name of the bottom right cell in the range.  
+- Name of the upper‑left cell (the top‑left cell in the range).  
+- Name of the lower‑right cell (the bottom‑right cell in the range).  
 
-When the [**createRange(string)**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-) method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class. Use this [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object to configure the named range. For example, set the name of the range using the [**name**](https://reference.aspose.com/cells/javascript-cpp/range/#name--) property. The following example shows how to create a named range of cells that extends over B4:G14.  
+When the **createRange** method is called, it returns the newly created range as an instance of the [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class. Use this **Range** object to configure the named range. For example, set the name of the range using the **name** property. The following example shows how to create a named range of cells that extends over **B4:G14**.  
 
 ```html
 <!DOCTYPE html>
@@ -108,18 +108,18 @@ When the [**createRange(string)**](https://reference.aspose.com/cells/javascript
 
 ### **Input Data into the Cells in the Named Range**  
 
-You can insert data into the individual cells of a range following the pattern  
+You can insert data into the individual cells of a range using the pattern  
 
-- **JavaScript**: Range[row,column]  
+- **JavaScript**: `Range[row,column]`  
 
-Say you have a named range of cells that spans A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].  
+Suppose you have a named range of cells that spans **A1:C4**. The matrix contains **4 × 3 = 12** cells. The individual range cells are arranged sequentially: `Range[0,0]`, `Range[0,1]`, `Range[0,2]`, `Range[1,0]`, `Range[1,1]`, `Range[1,2]`, `Range[2,0]`, `Range[2,1]`, `Range[2,2]`, `Range[3,0]`, `Range[3,1]`, `Range[3,2]`.  
 
 Use the following properties to identify the cells in the range:  
 
-- firstRow returns the index of the first row in the named range.  
-- firstColumn returns the index of the first column in the named range.  
-- rowCount returns the total number of rows in the named range.  
-- columnCount returns the total number of columns in the named range.  
+- **firstRow** returns the index of the first row in the named range.  
+- **firstColumn** returns the index of the first column in the named range.  
+- **rowCount** returns the total number of rows in the named range.  
+- **columnCount** returns the total number of columns in the named range.  
 
 The following example shows how to input some values into the cells of a specified range.  
 
@@ -185,7 +185,7 @@ The following example shows how to input some values into the cells of a specifi
             range.get(2, 1).value = "India";
             range.get(2, 2).value = "Egypt";
             range.get(3, 0).value = "China";
-            range.get(3, 1).value = "Philipine";
+            range.get(3, 1).value = "Philippines";
             range.get(3, 2).value = "Brazil";
 
             // Save the excel file.
@@ -205,18 +205,18 @@ The following example shows how to input some values into the cells of a specifi
 
 ### **Identify Cells in the Named Range**  
 
-You can insert data into the individual cells of a range following the pattern:  
+You can insert data into the individual cells of a range using the pattern:  
 
-- **JavaScript**: Range[row,column]  
+- **JavaScript**: `Range[row,column]`  
 
-If you have a named range that spans A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0] ,Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].  
+If you have a named range that spans **A1:C4**, the matrix contains **4 × 3 = 12** cells. The individual range cells are arranged sequentially: `Range[0,0]`, `Range[0,1]`, `Range[0,2]`, `Range[1,0]`, `Range[1,1]`, `Range[1,2]`, `Range[2,0]`, `Range[2,1]`, `Range[2,2]`, `Range[3,0]`, `Range[3,1]`, `Range[3,2]`.  
 
 Use the following properties to identify the cells in the range:  
 
-- firstRow returns the index of the first row in the named range.  
-- firstColumn returns the index of the first column in the named range.  
-- rowCount returns the total number of rows in the named range.  
-- columnCount returns the total number of columns in the named range.  
+- **firstRow** returns the index of the first row in the named range.  
+- **firstColumn** returns the index of the first column in the named range.  
+- **rowCount** returns the total number of rows in the named range.  
+- **columnCount** returns the total number of columns in the named range.  
 
 The following example shows how to input some values into the cells of a specified range.  
 
@@ -293,7 +293,7 @@ The following example shows how to input some values into the cells of a specifi
 
 #### **Access a Specific Named Range**  
 
-Call the [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) collection's [**rangeByName(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#rangeByName-string-) method to get a range by the specified name. A typical [**rangeByName(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#rangeByName-string-) method takes the name of the named range and returns the specified named range as an instance of the [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class. The following example shows how to access a specified range by its name.  
+Call the **worksheets** collection's [**rangeByName(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#rangeByName-string-) method to get a range by the specified name. A typical **rangeByName(string)** method takes the name of the named range and returns the specified named range as an instance of the [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class. The following example shows how to access a specified range by its name.  
 
 ```html
 <!DOCTYPE html>
@@ -354,7 +354,7 @@ Call the [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/work
 
 #### **Access All the Named Ranges in a Spreadsheet**  
 
-Call the [**worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) collection's [**namedRanges()**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#namedRanges--) method to get all named ranges in a spreadsheet. The [**namedRanges()**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#namedRanges--) method returns an array of all named ranges in the [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) collection.  
+Call the **worksheets** collection's **namedRanges** property to get all named ranges in a spreadsheet. The **namedRanges** property returns an array of all named ranges in the **worksheets** collection.  
 
 The following example shows how to access all the named ranges in a workbook.  
 
@@ -417,7 +417,7 @@ The following example shows how to access all the named ranges in a workbook.
 
 ### **Copy Named Ranges**  
 
-Aspose.Cells provides [**range.copy(Range, PasteOptions)**](https://reference.aspose.com/cells/javascript-cpp/range/#copy-range-pasteoptions-) method to copy a range of cells with formatting into another range.  
+Aspose.Cells provides the [**range.copy(Range, PasteOptions)**](https://reference.aspose.com/cells/javascript-cpp/range/#copy-range-pasteoptions-) method to copy a range of cells with formatting into another range.  
 
 The following example shows how to copy a source range of cells to another named range.  
 

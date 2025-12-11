@@ -9,7 +9,7 @@ description: Learn how to save Excel files into PDF with standard or minimum siz
 
 {{% alert color="primary" %}} 
 
-By default, Aspose.Cells saves Excel into PDF with Standard size. However, you can also save it with Minimum size using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getoptimizationtype/) property. It accepts the following values:
+By default, Aspose.Cells saves Excel into PDF with Standard size. However, you can also save it with **minimum size** using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getoptimizationtype/) property. It accepts the following values:
 
 - PdfOptimizationType::Standard
 - PdfOptimizationType::MinimumSize
@@ -17,6 +17,6 @@ By default, Aspose.Cells saves Excel into PDF with Standard size. However, you c
 {{% /alert %}} 
 
 ## **Save Excel into PDF with Standard or Minimum Size using Aspose.Cells**
-The following sample code shows how you can save Excel into PDF with Standard or Minimum size using [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getoptimizationtype/) property.
+The following sample code shows how you can save Excel into PDF with Standard or Minimum size using the [PdfSaveOptions.GetOptimizationType()](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getoptimizationtype/) property.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SaveExcelIntoPdfWithStandardOrMinimumSize.go" >}}

@@ -9,11 +9,11 @@ keywords: Find cell value starts with a single quote mark JavaScript via C++, Se
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now provides the [**Style.quotePrefix**](https://reference.aspose.com/cells/javascript-cpp/style/#quotePrefix-boolean-) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like sample and 'sample etc.
+Aspose.Cells now provides the [**Style.quotePrefix**](https://reference.aspose.com/cells/javascript-cpp/style/#quotePrefix-boolean-) property to find if the cell value starts with a single quote mark. Before this property, there was no way to distinguish between strings like `sample` and `'sample'`, etc.
 
 {{% /alert %}}
 
-The following sample code explains that the strings like sample and 'sample cannot be differentiated with [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property. Therefore we must use [**Style.quotePrefix**](https://reference.aspose.com/cells/javascript-cpp/style/#quotePrefix-boolean-) property to distinguish them.
+The following sample code explains that strings like `sample` and `'sample'` cannot be differentiated with the [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property. Therefore, we must use the [**Style.quotePrefix**](https://reference.aspose.com/cells/javascript-cpp/style/#quotePrefix-boolean-) property to distinguish them.
 
 ```html
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ The following sample code explains that the strings like sample and 'sample cann
             a1.putValue("sample");
             a2.putValue("'sample");
             
-            // Read their string values, A1 and A2 both are same when read as stringValue
+            // Read their string values; A1 and A2 are the same when read via stringValue
             const a1String = a1.stringValue;
             const a2String = a2.stringValue;
             
@@ -67,7 +67,7 @@ The following sample code explains that the strings like sample and 'sample cann
             const s1 = a1.style;
             const s2 = a2.style;
             
-            // Check if A1 and A2 has a quote prefix
+            // Check if A1 and A2 have a quote prefix
             const a1Quote = s1.quotePrefix;
             const a2Quote = s2.quotePrefix;
             

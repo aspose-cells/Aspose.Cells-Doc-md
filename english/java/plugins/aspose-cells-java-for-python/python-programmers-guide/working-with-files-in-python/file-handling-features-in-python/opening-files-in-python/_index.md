@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Opening Files in Python**
-To open a file using Aspose.Cells Java in Python, simply invoke the openfile() method of Document class and specify the second document to append at end.
+To open a file using Aspose.Cells Java in Python, simply invoke the `openFile()` method of the `Workbook` class and specify the second document to append at the end.
 
 **Python Code**
 
@@ -16,21 +16,21 @@ To open a file using Aspose.Cells Java in Python, simply invoke the openfile() m
 
  fileFormatType = self.FileFormatType
 
-\# 1. Opening from path
+# 1. Opening from path
 
-\# Creatin an Workbook object with an Excel file path
+# Creating a Workbook object with an Excel file path
 
 workbook1 = self.Workbook(self.dataDir + "Book1.xls")
 
 print "Workbook opened using path successfully.";
 
-\# 2 Opening workbook from stream
+# 2. Opening workbook from stream
 
-#Create a Stream object
+# Create a Stream object
 
 fstream = self.FileInputStream(self.dataDir + "Book2.xls")
 
-#Creating an Workbook object with the stream object
+# Creating a Workbook object with the stream object
 
 workbook2 = self.Workbook(fstream)
 
@@ -38,115 +38,114 @@ fstream.close()
 
 print ("Workbook opened using stream successfully.");
 
-\# 3.
+# 3.
 
-\# Opening Microsoft Excel 97 Files
+# Opening Microsoft Excel 97 Files
 
-#Createing and EXCEL_97_TO_2003 LoadOptions object
+# Creating an EXCEL_97_TO_2003 LoadOptions object
 
 loadOptions1 = self.LoadOptions(fileFormatType.EXCEL_97_TO_2003)
 
-#Creating an Workbook object with excel 97 file path and the loadOptions object
+# Creating a Workbook object with Excel 97 file path and the LoadOptions object
 
 workbook3 = self.Workbook(self.dataDir + "Book_Excel97_2003.xls", loadOptions1)
 
-\# Print message
+# Print message
 
 print("Excel 97 Workbook opened successfully.");
 
-\# 4.
+# 4.
 
-\# Opening Microsoft Excel 2007 XLSX Files
+# Opening Microsoft Excel 2007 XLSX Files
 
-#Createing and XLSX LoadOptions object
+# Creating an XLSX LoadOptions object
 
 loadOptions2 = self.LoadOptions(fileFormatType.XLSX)
 
-#Creating an Workbook object with 2007 xlsx file path and the loadOptions object
+# Creating a Workbook object with 2007 XLSX file path and the LoadOptions object
 
 workbook4 = self.Workbook(self.dataDir + "Book_Excel2007.xlsx", loadOptions2)
 
-\# Print message
+# Print message
 
 print ("Excel 2007 Workbook opened successfully.")
 
 
-\# 5.
+# 5.
 
-\# Opening SpreadsheetML Files
+# Opening SpreadsheetML Files
 
-#Creating and EXCEL_2003_XML LoadOptions object
+# Creating an EXCEL_2003_XML LoadOptions object
 
 loadOptions3 = self.LoadOptions(fileFormatType.EXCEL_2003_XML)
 
-#Creating an Workbook object with SpreadsheetML file path and the loadOptions object
+# Creating a Workbook object with SpreadsheetML file path and the LoadOptions object
 
 workbook5 = self.Workbook(self.dataDir + "Book3.xml", loadOptions3)
 
-\# Print message
+# Print message
 
-print ("SpreadSheetML format workbook has been opened successfully.");
+print ("SpreadsheetML format workbook has been opened successfully.");
 
-\# 6.
+# 6.
 
-\# Opening CSV Files
+# Opening CSV Files
 
-#Creating and CSV LoadOptions object
+# Creating a CSV LoadOptions object
 
 loadOptions4 = self.LoadOptions(fileFormatType.CSV)
 
-#Creating an Workbook object with CSV file path and the loadOptions object
+# Creating a Workbook object with CSV file path and the LoadOptions object
 
 workbook6 = self.Workbook(self.dataDir + "Book_CSV.csv", loadOptions4)
 
-\# Print message
+# Print message
 
 print ("CSV format workbook has been opened successfully.")
 
 
-\# 7.
+# 7.
 
-\# Opening Tab Delimited Files
+# Opening Tab Delimited Files
 
-\# Creating and TAB_DELIMITED LoadOptions object
+# Creating a TAB_DELIMITED LoadOptions object
 
 loadOptions5 = self.LoadOptions(fileFormatType.TAB_DELIMITED);
 
-\# Creating an Workbook object with Tab Delimited text file path and the loadOptions object
+# Creating a Workbook object with Tab Delimited text file path and the LoadOptions object
 
 workbook7 = self.Workbook(self.dataDir + "Book1TabDelimited.txt", loadOptions5)
 
-\# Print message
+# Print message
 
 print("<br />");
 
 print ("Tab Delimited workbook has been opened successfully.");
 
 
+# 8.
 
-\# 8.
+# Opening Encrypted Excel Files
 
-\# Opening Encrypted Excel Files
-
-\# Creating and EXCEL_97_TO_2003 LoadOptions object
+# Creating an EXCEL_97_TO_2003 LoadOptions object
 
 loadOptions6 = self.LoadOptions(fileFormatType.EXCEL_97_TO_2003)
 
-\# Setting the password for the encrypted Excel file
+# Setting the password for the encrypted Excel file
 
 loadOptions6.setPassword("1234")
 
-\# Creating an Workbook object with file path and the loadOptions object
+# Creating a Workbook object with file path and the LoadOptions object
 
 workbook8 = self.Workbook(self.dataDir + "encryptedBook.xls", loadOptions6)
 
-\# Print message
+# Print message
 
 print("<br />");
 
 print ("Encrypted workbook has been opened successfully.");
-
 {{< /highlight >}}
+
 ## **Download Running Code**
 Download **Opening File (Aspose.Cells)** from any of the below mentioned social coding sites:
 

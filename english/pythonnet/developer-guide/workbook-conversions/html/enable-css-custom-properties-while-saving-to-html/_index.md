@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, for scenarios where there are multiple occurrences of one base64 image, using CSS custom properties allows the image data to be saved only once. This improves the performance of the resultant HTML. Use the [**HtmlSaveOptions.enable_css_custom_properties**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/enable_css_custom_properties/) attribute and set it to **True** while saving to HTML.
+When you save your Excel file to HTML, in scenarios where there are multiple occurrences of a base64 image, using CSS custom properties allows the image data to be saved only once. This improves the performance of the resultant HTML. Use the [**HtmlSaveOptions.enable_css_custom_properties**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/enable_css_custom_properties/) attribute and set it to **True** while saving to HTML.
 
 ![todo:image_alt_text](enable-css-custom-properties-while-saving-to-html-1.jpg)
 
 ## **Enable CSS Custom Properties while saving to HTML**
 
-The following sample code demonstrates using the [**HtmlSaveOptions.enable_css_custom_properties**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/enable_css_custom_properties/) attribute. The screenshot shows the effect when this property is not set to True. Download the [sample Excel file](50528260.xlsx) used in this code and the [output HTML](50528261.zip) generated for reference.
+The following sample code demonstrates the use of the [**HtmlSaveOptions.enable_css_custom_properties**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/enable_css_custom_properties/) attribute. The screenshot shows the effect when this property is not set to **True**. Download the [sample Excel file](50528260.xlsx) used in this code and the [output HTML](50528261.zip) generated for reference.
 
 ## **Sample Code**
 

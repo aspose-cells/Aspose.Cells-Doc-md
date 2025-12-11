@@ -10,24 +10,24 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-This document is designed to provide a detailed understanding of how to convert a worksheet to an image file and apply different image and print options for the image, options like resolution, TIFF compression, image format and page quality.  
+This document is designed to provide a detailed understanding of how to convert a worksheet to an image file and apply different image and print options for the image, such as resolution, TIFF compression, image format, and page quality.  
 {{% /alert %}}  
 
 ## **Saving Worksheets to Images - Different Approaches**  
 
-Sometimes, you might require presenting your worksheets as a pictorial representation. You do need to present the worksheet images into your applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply you want a worksheet rendered as an image so that you can use it elsewhere. Aspose.Cells supports converting worksheets in Excel files to images. Also, Aspose.Cells supports setting different options like image format, resolution (both vertical and horizontal), image quality, and other image and print options.  
+Sometimes, you might require presenting your worksheets as a pictorial representation. You need to embed the worksheet images into your applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply, you want a worksheet rendered as an image so that you can use it elsewhere. Aspose.Cells supports converting worksheets in Excel files to images. Aspose.Cells also supports setting different options like image format, resolution (both vertical and horizontal), image quality, and other image and print options.  
 
-You might try Office Automation but Office automation has its own drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed, price, and features. In Short, there are many reasons, with the top one being that Microsoft themselves strongly recommends against Office automation from software solutions.  
+You might try Office Automation, but Office automation has its own drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed, price, and features. In short, there are many reasons, with the top one being that Microsoft itself strongly recommends against Office automation from software solutions.  
 
-This article shows how to create a console application in Visual Studio .NET, perform the conversion of a worksheet to image using different image and print options with a few and simplest lines of code using Aspose.Cells API.  
+This article shows how to create a console application in Visual Studio .NET, perform the conversion of a worksheet to an image using different image and print options with a few simple lines of code using the Aspose.Cells API.  
 
-The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/) class represents a worksheet to render images for the worksheet, it has an overloaded [**toImage(number)**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#toImage-number-) method that can directly convert a worksheet to image file(s) specified with your desired attributes or options. It can return an object that you can Save an image file to the disk/stream. There are several image formats supported, e.g BMP, PNG, GIFF, JPEG, TIFF, EMF and so on.  
+The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/) class provides functionality to render a worksheet as images. It has an overloaded [**toImage(number)**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#toImage-number-) method that can directly convert a worksheet to image file(s) with your desired attributes or options. It returns an object that you can save as an image file to disk or a stream. Several image formats are supported, e.g., BMP, PNG, GIF, JPEG, TIFF, EMF, etc.  
 
-## **Using Aspose.Cells to Convert Worksheet to Image using ImageOrPrint options.**  
+## **Using Aspose.Cells to Convert Worksheet to Image using ImageOrPrint options**  
 
 ### **Creating a template workbook in Microsoft Excel**  
 
-I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options like horizontal and vertical resolutions, TiffCompression etc.  
+I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options such as horizontal and vertical resolutions, TiffCompression, etc.  
 
 ### **Download and Install Aspose.Cells**  
 
@@ -39,7 +39,7 @@ Start your preferred development environment (e.g., Visual Studio). Create a new
 
 ### **Add References**  
 
-This project will use Aspose.Cells. So, you have to add a reference to Aspose.Cells component in your project. For example, add a reference to ….\Program Files\Aspose\Aspose.Cells for Node.js via C++\Bin\Aspose.Cells.node  
+This project will use Aspose.Cells. Therefore, you need to add a reference to the Aspose.Cells component in your project. For example, add a reference to `…\Program Files\Aspose\Aspose.Cells for Node.js via C++\Bin\Aspose.Cells.node`.  
 
 ### **Convert Worksheet to an Image file**  
 
@@ -61,7 +61,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 const sheet = workbook.getWorksheets().get(0);
 
 // Apply different Image and Print options
-const options = new AsposeCells.ImageOrPrintOptions(); // Corrected: Added the instantiation for ImageOrPrintOptions.
+const options = new AsposeCells.ImageOrPrintOptions();
 
 // Set Horizontal Resolution
 options.setHorizontalResolution(300);
@@ -88,7 +88,7 @@ sr.toImage(pageIndex, path.join(outputDir, `outputWorksheetToAnImage_${pageIndex
 
 ## **Conversion Options**  
 
-It is possible to save specific pages to image. The following code converts the first and second worksheets in a workbook to JPG images.  
+It is possible to save specific pages to images. The following code converts the first and second worksheets in a workbook to JPG images.  
 
 ```javascript
 const path = require("path");
@@ -99,7 +99,7 @@ const sourceDir = path.join(__dirname, "data");
 // Output directory
 const outputDir = path.join(__dirname, "output");
 
-// Open a template excel file
+// Open a template Excel file
 const filePath = path.join(sourceDir, "sampleSpecificPagesToImages.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
@@ -150,5 +150,4 @@ const workbookRender = new AsposeCells.WorkbookRender(workbook, opts);
 workbookRender.toImage(path.join(outputDir, "outputUseWorkbookRenderForImageConversion.tiff"));
 ```  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

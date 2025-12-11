@@ -9,9 +9,9 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Cells for Python via .NET preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.
+PDF logical structure facilities provide a mechanism for incorporating information regarding the document's content structure into a PDF file. Aspose.Cells for Python via .NET preserves information about the structure from a Microsoft Excel document, such as cells, rows, tables, worksheets, images, shapes, header/footer, etc.
 
-With option [PdfSaveOptions.export_document_structure]https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/export_document_structure/), you can save to a tagged PDF with document structure exported.
+With the option [PdfSaveOptions.export_document_structure](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/export_document_structure/), you can save as a tagged PDF with the document structure exported.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ExportDocumentStructureToPdf.py" >}}
 

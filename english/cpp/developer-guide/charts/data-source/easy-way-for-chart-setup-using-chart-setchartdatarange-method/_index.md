@@ -1,22 +1,22 @@
----
-title: Easy way for Chart Setup using Chart.SetChartDataRange method with C++
-linktitle: Easy way for Chart Setup using Chart.SetChartDataRange method
-description: Learn how to easily set up charts using the Chart.SetChartDataRange method in Aspose.Cells for C++. Our guide will show you how to specify the data range for your chart, allowing you to create professional and accurate charts with minimal effort.
-keywords: Aspose.Cells for C++, charting, SetChartDataRange method, data range, professional, accurate, charts.
-type: docs
-weight: 190
-url: /cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
+---  
+title: Easy way for Chart Setup using Chart.SetChartDataRange method with C++  
+linktitle: Easy way for Chart Setup using Chart.SetChartDataRange method  
+description: Learn how to easily set up charts using the Chart.SetChartDataRange method in Aspose.Cells for C++. Our guide will show you how to specify the data range for your chart, allowing you to create professional and accurate charts with minimal effort.  
+keywords: Aspose.Cells for C++, charting, SetChartDataRange method, data range, professional, accurate, charts.  
+type: docs  
+weight: 190  
+url: /cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.
+Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up **a** chart easily. Using this method, you will now not need to add series and category axis data separately.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following sample code explains the use of [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up chart easily.
+The following sample code explains the use of [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up chart easily.  
 
 ```cpp
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
     worksheet.GetCells().Get(u"D3").PutValue(4);
     worksheet.GetCells().Get(u"D4").PutValue(2);
 
-    // Create Column chart with easy way
+    // Create column chart easily
     int32_t idx = worksheet.GetCharts().Add(ChartType::Column, 6, 5, 20, 13);
     Chart ch = worksheet.GetCharts().Get(idx);
     ch.SetChartDataRange(u"A1:D4", true);
@@ -73,5 +73,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

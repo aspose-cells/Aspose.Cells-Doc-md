@@ -1,5 +1,5 @@
 ---  
-title: Convert Excel to Pdf, Image and other formats  
+title: Convert Excel to PDF, Image and other formats  
 linktitle: Workbook Conversions  
 type: docs  
 weight: 65  
@@ -14,7 +14,7 @@ Aspose.Cells supports conversion between many formats. Technically, conversion m
 {{% /alert %}}  
 
 ## **Convert Excel Workbook to PDF**  
-PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.  
+PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find ways to convert Microsoft Excel files into PDF documents.  
 
 Aspose.Cells supports converting Excel files to PDF and maintains high visual fidelity in the conversion.  
 
@@ -69,7 +69,7 @@ const book = new AsposeCells.Workbook(filePath);
 book.save("Image1.bmp");
 // Convert workbook to JPG image.
 book.save("Image1.jpg");
-// Convert workbook to Png image.
+// Convert workbook to PNG image.
 book.save("Image1.png");
 // Convert workbook to EMF image.
 book.save("Image1.emf");
@@ -82,7 +82,7 @@ The XPS document format consists of structured XML markup that defines the layou
 
 The markup language for XPS is a subset of XAML which allows it to incorporate vector graphics elements in documents, using XAML to mark up the Windows Presentation Foundation (WPF) primitives. The elements used are described in terms of paths and other geometrical primitives.  
 
-An XPS file is, in fact, a unicode ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application that supports ZIP files.  
+An XPS file is, in fact, a Unicode ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application that supports ZIP files.  
 
 From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.  
 
@@ -100,7 +100,7 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xls"));
 const sheet = workbook.getWorksheets().get(0);
 
 
-// Render the sheet to xps            
+// Render the sheet to XPS            
 const options = new AsposeCells.XpsSaveOptions();
 const sheetSet = new AsposeCells.SheetSet([sheet.getIndex()]);
 options.setSheetSet(sheetSet);
@@ -111,8 +111,8 @@ workbook.save(path.join(dataDir, "out_printingxps.out.xps"), options);
 workbook.save(path.join(dataDir, "out_whole_printingxps.out.xps"), new AsposeCells.XpsSaveOptions());
 ```  
 
-## **Convert Excel to Ods, Sxc and Fods (OpenOffice / LibreOffice Calc)**  
-Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc and Fods file.  
+## **Convert Excel to ODS, SXC and FODS (OpenOffice / LibreOffice Calc)**  
+Aspose.Cells supports converting Excel files to ODS, SXC and FODS files. The code example below shows how to convert the [template](book1.xlsx) to ODS, SXC and FODS files.  
 
 ```javascript
 const path = require("path");
@@ -125,13 +125,13 @@ const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xlsx");
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Save as ods file 
+// Save as ODS file 
 workbook.save("Out.ods");
 
-// Save as sxc file 
+// Save as SXC file 
 workbook.save("Out.sxc");
 
-// Save as fods file 
+// Save as FODS file 
 workbook.save("Out.fods");
 ```  
 
@@ -189,16 +189,16 @@ Starting from 8.0.2, Aspose.Cells has exposed [**getImageOptions()**](https://re
 Below are details of some of the image settings that can be applied,  
 
 - [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.   
-- [**getQuality()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getQuality--): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as Jpeg.  
+- [**getQuality()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getQuality--): Specifies the quality of the image between 0 and 100, when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as JPEG.  
 - [**getVerticalResolution()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getVerticalResolution--): Gets or sets the vertical resolution of the image in dots per inch.  
 - [**getHorizontalResolution()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getHorizontalResolution--): Gets or sets the horizontal resolution of the image in dots per inch.  
-- [**TiffCompression**](https://reference.aspose.com/cells/nodejs-cpp/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as Tiff.  
-- [**getTransparent()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTransparent--): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.  
+- [**TiffCompression**](https://reference.aspose.com/cells/nodejs-cpp/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/nodejs-cpp/imagetype/) is specified as TIFF.  
+- [**getTransparent()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTransparent--): Indicates if the background of an image should be transparent when ImageFormat is specified as PNG.  
 
 ## **Convert Excel Workbook to Markdown**  
-The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass [**SaveFormat.Markdown**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**MarkdownSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/markdownsaveoptions) class to specify additional settings for exporting worksheet to Markdown.  
+The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass [**SaveFormat.Markdown**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use the [**MarkdownSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/markdownsaveoptions) class to specify additional settings for exporting a worksheet to Markdown.  
 
-The following code example demonstrates exporting active worksheet to Markdown by using [**SaveFormat.Markdown**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.  
+The following code example demonstrates exporting the active worksheet to Markdown by using [**SaveFormat.Markdown**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.  
 
 ```javascript
 const path = require("path");
@@ -217,9 +217,9 @@ workbook.save(path.join(outputDir, "Book1.md"), AsposeCells.SaveFormat.Markdown)
 ```  
 
 ## **Convert Excel Workbook to JSON**  
-Aspose.Cells supports converting a workbook to Json (JavaScript Object Notation) file.  
+Aspose.Cells supports converting a workbook to JSON (JavaScript Object Notation) file.  
 
-The following code example demonstrates exporting active worksheet to Json by using [**SaveFormat.Json**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the code to convert [source file](Book1.xlsx) to the [output Json file](Book1.Json) generated by the code for reference.  
+The following code example demonstrates exporting the active worksheet to JSON by using [**SaveFormat.Json**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the code to convert the [source file](Book1.xlsx) to the [output JSON file](Book1.json) generated by the code for reference.  
 
 ```javascript
 const path = require("path");
@@ -232,7 +232,7 @@ const filePath = path.join(dataDir, "Book1.xlsx");
 // Load your source workbook
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Convert the workbook to json file.
+// Convert the workbook to JSON file.
 workbook.save(path.join(dataDir, "book1.json"));
 ```  
 
@@ -274,14 +274,14 @@ const filePath = path.join(dataDir, "Book1.xlsx");
 // Open a template excel file
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Save file to tiff
+// Save file to TIFF
 workbook.save("out.tiff");
 ```  
 
 ## **Convert Excel Workbook to DOCX**  
-The Aspose.Cells API provides support for converting spreadsheets to DOCX format. To export the workbook to DOCX, pass [**SaveFormat.Docx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**DocxSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/docxsaveoptions) class to specify additional settings for exporting worksheet to DOCX.  
+The Aspose.Cells API provides support for converting spreadsheets to DOCX format. To export the workbook to DOCX, pass [**SaveFormat.Docx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**DocxSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/docxsaveoptions) class to specify additional settings for exporting a worksheet to DOCX.  
 
-The following code example demonstrates exporting active worksheet to DOCX by using [**SaveFormat.Docx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output DOCX file](Book1.docx) generated by the code for reference.  
+The following code example demonstrates exporting the active worksheet to DOCX by using [**SaveFormat.Docx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output DOCX file](Book1.docx) generated by the code for reference.  
 
 ```javascript
 const path = require("path");
@@ -295,14 +295,14 @@ const outputDir = dataDir;
 // Open the template file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Book1.xlsx"));
 
-// Save as Markdown
+// Save as DOCX
 workbook.save(path.join(outputDir, "Book1.docx"), AsposeCells.SaveFormat.Docx);
 ```  
 
 ## **Convert Excel Workbook to PPTX**  
-The Aspose.Cells API provides support for converting spreadsheets to PPTX format. To export the workbook to PPTX, pass [**SaveFormat.Pptx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**PptxSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pptxsaveoptions) class to specify additional settings for exporting worksheet to PPTX.  
+The Aspose.Cells API provides support for converting spreadsheets to PPTX format. To export the workbook to PPTX, pass [**SaveFormat.Pptx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**PptxSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/pptxsaveoptions) class to specify additional settings for exporting a worksheet to PPTX.  
 
-The following code example demonstrates exporting active worksheet to PPTX by using [**SaveFormat.Pptx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output PPTX file](Book1.pptx) generated by the code for reference.  
+The following code example demonstrates exporting the active worksheet to PPTX by using [**SaveFormat.Pptx**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member. Please see the [output PPTX file](Book1.pptx) generated by the code for reference.  
 
 ```javascript
 const path = require("path");
@@ -316,14 +316,14 @@ const outputDir = path.join(dataDir, "output/");
 // Open the template file
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "Book1.xlsx"));
 
-// Save as Markdown
+// Save as PPTX
 workbook.save(path.join(outputDir, "Book1.pptx"), AsposeCells.SaveFormat.Pptx);
 ```  
 
 ## **Convert Excel Workbook to EPUB**  
-The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/ebooksaveoptions) class to specify additional settings for exporting worksheet to Epub.  
+The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/ebooksaveoptions) class to specify additional settings for exporting a worksheet to EPUB.  
 
-The following code example demonstrates exporting active worksheet to EPUB by using [**SaveFormat.Epub**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member.  
+The following code example demonstrates exporting the active worksheet to EPUB by using [**SaveFormat.Epub**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member.  
 
 ```javascript
 const path = require("path");
@@ -342,9 +342,9 @@ workbook.save(path.join(dataDir, "ConvertingToEPUBFiles_out.epub"), AsposeCells.
 ```  
 
 ## **Convert Excel Workbook to AZW3**  
-The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/ebooksaveoptions) class to specify additional settings for exporting worksheet to AZW3.  
+The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/ebooksaveoptions) class to specify additional settings for exporting a worksheet to AZW3.  
 
-The following code example demonstrates exporting active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member.  
+The following code example demonstrates exporting the active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/nodejs-cpp/saveformat) enumeration member.  
 
 ```javascript
 const path = require("path");
@@ -363,7 +363,7 @@ const wb = new AsposeCells.Workbook(filePath);
 wb.save(path.join(dataDir, "ConvertingToEPUBFiles_out.azw3"), AsposeCells.SaveFormat.Azw3);
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Convert Revision of XLSB to XLSM](/cells/nodejs-cpp/convert-revision-of-xlsb-to-xlsm/)  
 - [HTML](/cells/nodejs-cpp/convert-excel-to-html/)  
 - [Image](/cells/nodejs-cpp/convert-excel-to-image/)  
@@ -373,5 +373,5 @@ wb.save(path.join(dataDir, "ConvertingToEPUBFiles_out.azw3"), AsposeCells.SaveFo
 - [Convert Excel to CSV, TSV and Txt](/cells/nodejs-cpp/convert-excel-to-csv-tsv-and-txt/)  
 - [Track Document Conversion Progress](/cells/nodejs-cpp/track-document-conversion-progress/)  
 - [Convert CSV, TSV and TXT to Excel](/cells/nodejs-cpp/convert-csv-tsv-and-txt-to-excel/)  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

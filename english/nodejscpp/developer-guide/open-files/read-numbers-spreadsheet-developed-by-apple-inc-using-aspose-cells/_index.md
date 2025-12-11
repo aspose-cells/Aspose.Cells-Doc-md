@@ -4,18 +4,18 @@ linktitle: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells
 type: docs
 weight: 140
 url: /nodejs-cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
-description: Learn how to read Numbers spreadsheets developed by Apple Inc. using Aspose.Cells for Node.js via C++. 
+description: Learn how to read Numbers spreadsheets developed by Apple Inc. using Aspose.Cells for Node.js via C++.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets, but it does not support writing to them. It can read Numbers spreadsheets' Data, Style, and Formulas.
+Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets, but it does not support writing to them. It can read Numbers spreadsheets' data, style, and formulas.
 
 ## **Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells for Node.js via C++**
 
-The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You will have to use the [**LoadOptions**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions) class and specify [**LoadFormat.Numbers**](https://reference.aspose.com/cells/nodejs-cpp/loadformat) as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.
+The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You need to use the [**LoadOptions**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions) class and specify [**LoadFormat.Numbers**](https://reference.aspose.com/cells/nodejs-cpp/loadformat) as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the code comments for further assistance.
 
 ## **Sample Code**
 
@@ -28,13 +28,13 @@ const dataDir = path.join(__dirname, "data");
 const sourceFilePath = path.join(dataDir, "sampleNumbersByAppleInc.numbers");
 const outputFilePath = path.join(dataDir, "outputNumbersByAppleInc.pdf");
 
-// Specify load options, we want to load Numbers spreadsheet
+// Specify load options; we want to load a Numbers spreadsheet
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Numbers);
 
-// Load the Numbers spreadsheet in workbook with above load options
+// Load the Numbers spreadsheet into a workbook with the above load options
 const wb = new AsposeCells.Workbook(sourceFilePath, opts);
 
-// Save the workbook to pdf format
+// Save the workbook to PDF format
 wb.save(outputFilePath, AsposeCells.SaveFormat.Pdf);
 ```
 

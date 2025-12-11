@@ -1,6 +1,6 @@
 ---
-title: How to create Combo chart with JavaScript via C++
-linktitle: How to create Combo chart
+title: How to create Combo Chart with JavaScript via C++
+linktitle: How to create Combo Chart
 description: Learn how to create a combo chart using Aspose.Cells for JavaScript via C++. Our comprehensive guide will demonstrate how to combine different chart types into one combo chart for a more effective data presentation.
 keywords: Aspose.Cells for JavaScript via C++, Combo Chart, Combining Chart Types, Data Presentation, Effective Visualization.
 type: docs
@@ -9,14 +9,17 @@ url: /javascript-cpp/create-combo-chart/
 ---
 
 ## **Possible Usage Scenarios**
-Combo charts in Excel let you avail of this option because you can easily combine two or more chart types to make your data understandable. Combo charts are helpful when your data contains multiple kinds of values including price and volume. Moreover, Combo charts are feasible when your data numbers change widely from series to series.
+Combo charts in Excel let you take advantage of this option because you can easily combine two or more chart types to make your data more understandable. Combo charts are helpful when your data contains multiple kinds of values, including price and volume. Moreover, combo charts are useful when your data values vary widely across series.
+
 Taking the following dataset as an example, we can observe that these data are quite similar to the data mentioned in [**VHCL**](https://docs.aspose.com/cells/javascript-cpp/create-volume-high-low-close-stock-chart/). If we want to visualize series0, which corresponds to "Total Revenue," as a Line chart, how should we proceed?
 
 ![todo:image_alt_text](sample.png)
+
 ## **Combo chart**
 After running the code below, you will see the Combo chart as shown below.
 
 ![todo:image_alt_text](result.png)
+
 ## **Sample Code**
 The following sample code loads the [sample Excel file](combo.xlsx) and generates the [output Excel file](out.xlsx).
 
@@ -67,9 +70,9 @@ The following sample code loads the [sample Excel file](combo.xlsx) and generate
             const pieIdx = worksheet.charts.add(AsposeCells.ChartType.StockVolumeHighLowClose, 15, 0, 34, 12);
             // Retrieve the Chart object
             const chart = worksheet.charts.get(pieIdx);
-            // Set the legend can be showed
+            // Set the legend to be shown
             chart.showLegend = true;
-            // Set the chart title name 
+            // Set the chart title
             chart.title.text = "Combo Chart";
             // Set the Legend at the bottom of the chart area
             chart.legend.position = AsposeCells.LegendPositionType.Bottom;
@@ -78,7 +81,7 @@ The following sample code loads the [sample Excel file](combo.xlsx) and generate
             // Set category data 
             chart.nSeries.get(0).xValues = "A2:A12";  // Corrected method
 
-            // Set the Series[1] Series[2] and Series[3] to different Marker Style
+            // Set Series[1], Series[2], and Series[3] to different marker styles
             for (let j = 0; j < chart.nSeries.count; j++) {
                 switch (j) {
                     case 1:
@@ -109,9 +112,9 @@ The following sample code loads the [sample Excel file](combo.xlsx) and generate
             chart.nSeries.get(0).type = AsposeCells.ChartType.Line;
             // Set style for the border of first series
             chart.nSeries.get(0).border.style = AsposeCells.LineType.Solid;
-            // Set Color for the first series
+            // Set color for the first series
             chart.nSeries.get(0).border.color = AsposeCells.Color.DarkBlue;
-            // Fill the PlotArea area with nothing 
+            // Fill the PlotArea with no formatting 
             chart.plotArea.area.formatting = AsposeCells.FormattingType.None;
 
             // Save the Excel file and provide download link

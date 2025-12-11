@@ -15,7 +15,7 @@ Sometimes, you need to find cells with a particular style applied. You can use A
 
 {{% /alert %}}
 
-The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text "Found".
+The code in this example finds all cells that have the same style as cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text "Found".
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-SearchData-SearchCellWithSpecifyStyle.js" >}}
 

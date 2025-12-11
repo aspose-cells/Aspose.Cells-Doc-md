@@ -15,9 +15,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 {{% alert color="primary" %}}
 
 Microsoft Excel provides three formula calculation modes:
-- **Automatic**: Recalculates formulas on every change and workbook open
-- **Automatic except for data tables**: Recalculates formulas except data tables on changes
-- **Manual**: Only recalculates when user requests (F9/CTRL+ALT+F9) or during save
+- **Automatic**: Recalculates formulas on every change and when a workbook is opened
+- **Automatic except for data tables**: Recalculates formulas, except for data tables, when changes occur
+- **Manual**: Recalculates only when the user requests it (F9/CTRL+ALT+F9) or during a save
 
 {{% /alert %}}
 
@@ -31,10 +31,10 @@ Available modes via [**CalcModeType**](https://reference.aspose.com/cells/python
 - `MANUAL`
 
 **Implementation Steps:**
-1. Load existing workbook or create new instance
+1. Load an existing workbook or create a new instance
 2. Access workbook settings
 3. Set calculation mode using `formula_settings.calculation_mode`
-4. Save modified workbook
+4. Save the modified workbook
 
 ```python
 from aspose.cells import Workbook, CalcModeType

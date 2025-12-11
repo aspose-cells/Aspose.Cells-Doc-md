@@ -83,13 +83,13 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Working With Borders** form any of the below mentioned social coding sites:
+Download **Working With Borders** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Data Formating Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+For more details, visit [Data Formatting Features](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

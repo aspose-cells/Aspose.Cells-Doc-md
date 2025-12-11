@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Aspose.Cells for Reporting Services supports a specified delimiter when rendering TXT or CSV format. Two settings control the field delimiter in Aspose.Cells for Reporting Services.
 
-1. The field delimiter parameter in **rsreportserver.config** can only control a specified rendering extension. 
+1. The field delimiter parameter in **rsreportserver.config** can only control a specific rendering extension.  
 
 {{< highlight java >}}
 
@@ -29,7 +29,7 @@ Aspose.Cells for Reporting Services supports a specified delimiter when renderin
 
 Specified field delimiters configuration reference:
 
-----blank delimiter
+---- blank delimiter
 
 <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,14 +64,9 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
-
-
-
-1. The field delimiter parameter in **Aspose.Cells.ReportingServices.xml** can control all TXT type rendering extensions. 
+2. The field delimiter parameter in **Aspose.Cells.ReportingServices.xml** can control all TXT-type rendering extensions.  
 
 {{< highlight java >}}
-
-
 
 <CSVRender Mode="Default">
 
@@ -79,14 +74,13 @@ Specified field delimiters configuration reference:
 
     <Delimiters value=","/>
 
-    <RenderTableList value ="False"/>
+    <RenderTableList value="False"/>
 
     <report name="" Mode="" encode="" Delimiters="" RenderTableList=""/>
 
     <NoOutPutIsValid ALL="False"/>
 
-  </CSVRender>
-
+</CSVRender>
 
 {{< /highlight >}}
 

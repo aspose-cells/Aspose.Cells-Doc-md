@@ -9,7 +9,7 @@ keywords: Get Cell String Value with and without Formatting JavaScript via C++, 
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides a property [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) which can be used to get the string value of the cell with or without any formatting. Suppose, you have a cell with value 0.012345 and you have formatted it to display two decimal places only. It will then display as 0.01 in Excel. You can retrieve string values both as 0.01 and as 0.012345 using the [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property. It takes [**CellValueFormatStrategy**](https://reference.aspose.com/cells/javascript-cpp/cellvalueformatstrategy/) enum as a parameter which has the following values
+Aspose.Cells provides a property [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) which can be used to get the string value of the cell with or without any formatting. Suppose you have a cell with value `0.012345` and you have formatted it to display two decimal places only. It will then display as `0.01` in Excel. You can retrieve string values both as `0.01` and as `0.012345` using the [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property. It takes a **CellValueFormatStrategy** enum as a parameter, which has the following values:
 
 - CellValueFormatStrategy.CellStyle
 - CellValueFormatStrategy.DisplayStyle
@@ -18,7 +18,7 @@ Aspose.Cells provides a property [**Cell.stringValue**](https://reference.aspose
 
 {{% /alert %}}
 
-The following sample code explains the use of [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property.
+The following sample code demonstrates the use of the [**Cell.stringValue**](https://reference.aspose.com/cells/javascript-cpp/cell/#stringValue--) property.
 
 ```html
 <!DOCTYPE html>
@@ -62,7 +62,7 @@ The following sample code explains the use of [**Cell.stringValue**](https://ref
             // Put value inside the cell
             cell.putValue(0.012345);
 
-            // Format the cell that it should display 0.01 instead of 0.012345
+            // Format the cell so that it displays 0.01 instead of 0.012345
             const style = cell.style;
             style.number = 2;
             cell.style = style;

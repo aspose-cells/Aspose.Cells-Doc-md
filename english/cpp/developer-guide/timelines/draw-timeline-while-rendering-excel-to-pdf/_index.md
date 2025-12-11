@@ -11,9 +11,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Draw Timeline while rendering Excel to PDF**
-If you have an Excel file which has a timeline applied to it and you want to export the Excel to PDF with the timeline settings, Aspose.Cells now supports this by default. You simply export the Excel file with a timeline to PDF, and the generated PDF will show the timeline applied.
 
-The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. It then saves the workbook as [output PDF file](out.pdf). The following screenshot compares the source Excel file and the generated PDF file.
+If you have an Excel file that has a timeline applied to it and you want to export the Excel to PDF with the timeline settings, Aspose.Cells now supports this by default. You simply export the Excel file with a timeline to PDF, and the generated PDF will show the timeline applied.
+
+The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. It then saves the workbook as the output PDF file ([output PDF file](out.pdf)). The following screenshot compares the source Excel file and the generated PDF file.
 
 <img src="out.png" width="60%">
 
@@ -33,7 +34,7 @@ int main()
 
     // Save file to pdf
     U16String outputFilePath(u"out.pdf");
-    wb->Save(outputFilePath, SaveFormat::Pdf);
+    wb.Save(outputFilePath, SaveFormat::Pdf);
 
     std::cout << "Workbook saved successfully as PDF!" << std::endl;
 

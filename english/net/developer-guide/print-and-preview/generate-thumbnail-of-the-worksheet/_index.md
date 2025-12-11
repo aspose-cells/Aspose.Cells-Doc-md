@@ -13,9 +13,7 @@ It can be useful to generate thumbnails from worksheets. A thumbnail is a small 
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET allows you to output worksheets to image files so making a thumbnail is easy. The sample code below shows you, how to output worksheets to image files.
-
-
+Aspose.Cells for .NET allows you to output worksheets to image files, so making a thumbnail is easy. The sample code below shows you how to output worksheets to image files.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GenerateThumbnailOfWorksheet-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

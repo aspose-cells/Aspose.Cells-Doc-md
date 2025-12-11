@@ -21,7 +21,7 @@ The [**PivotTable**](https://reference.aspose.com/cells/javascript-cpp/pivottabl
 
 #### **How to Set the AutoFormat Type**
 
-Microsoft Excel offers a number of different pre-set report formats. Aspose.Cells for JavaScript via C++ support these formatting options too. To access them:
+Microsoft Excel offers a number of different pre‑set report formats. Aspose.Cells for JavaScript via C++ **supports** these formatting options too. To access them:
 
 1. Set [**PivotTable.isAutoFormat(value)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#isAutoFormat-boolean-) to **true**.
 1. Assign a formatting option from the [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/javascript-cpp/pivottableautoformattype/) enumeration.
@@ -99,7 +99,7 @@ Microsoft Excel offers a number of different pre-set report formats. Aspose.Cell
 
 #### **How to Set Format Options**
 
-The code sample below shows how to format the pivot table to show grand totals for rows and columns, and how to set the report's field order. It also shows how to set a customer string for null values.
+The code sample below shows how to format the pivot table to show grand totals for rows and columns, and how to set the report's field order. It also shows how to set a **custom** string for null values.
 
 ```html
 <!DOCTYPE html>
@@ -177,7 +177,7 @@ The code sample below shows how to format the pivot table to show grand totals f
 
 #### **Formatting Look and Feel Manually**
 
-To formatting how the pivot table report looks manually, instead of using pre-set report formats, use the [**PivotTable.formatAll(style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#formatAll-style-) and [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#format-number-number-style-) methods. Create a style object for your desired formatting, for example:
+**To format** how the pivot table report looks manually, instead of using pre‑set report formats, use the [**PivotTable.formatAll(style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#formatAll-style-) and [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#format-number-number-style-) methods. Create a style object for your desired formatting, for example:
 
 ```html
 <!DOCTYPE html>
@@ -259,9 +259,9 @@ To formatting how the pivot table report looks manually, instead of using pre-se
 The [**PivotField**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/) class represents a field in a pivot table and can be formatted in a number of ways. The code sample below shows how to:
 
 - Access row fields.
-- Setting subtotals.
-- Setting autosort.
-- Setting autoshow.
+- Set subtotals.
+- Set autosort.
+- Set autoshow.
 
 #### **How to Set Row/Column/Page Fields Format**
 
@@ -358,7 +358,7 @@ The [**PivotField**](https://reference.aspose.com/cells/javascript-cpp/pivotfiel
 </html>
 ```
 
-### **How to Set Data fields format**
+### **How to Set Data Fields Format**
 
 The code sample below shows how to set display formats and number format for data fields.
 
@@ -440,7 +440,7 @@ The code sample below shows how to set display formats and number format for dat
 
 ### **How to Clear Pivot Fields**
 
-The [**PivotFieldCollection**](https://reference.aspose.com/cells/javascript-cpp/pivotfieldcollection/) has a method named [**clear()**](https://reference.aspose.com/cells/javascript-cpp/pivotfieldcollection/#clear--) that allows you to clear pivot fields. Use it when you want to clear all the pivot fields in the areas, for example, page, column, row or data.
+The [**PivotFieldCollection**](https://reference.aspose.com/cells/javascript-cpp/pivotfieldcollection/) has a method named [**clear()**](https://reference.aspose.com/cells/javascript-cpp/pivotfieldcollection/#clear--) that allows you to clear pivot fields. Use it when you want to clear all the pivot fields in the areas, for example, page, column, row or data.  
 The code sample below shows how to clear all the pivot fields in a data area.
 
 ```html

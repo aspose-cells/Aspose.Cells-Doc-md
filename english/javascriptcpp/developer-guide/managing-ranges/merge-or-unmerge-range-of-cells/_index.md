@@ -10,13 +10,13 @@ keywords: JavaScript merge and unmerge cells in a range, JavaScript merge and un
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to merge or split a range of cells. Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells/javascript-cpp/range/#merge--) and [**Range.unMerge()**](https://reference.aspose.com/cells/javascript-cpp/range/#unMerge--) methods for this purpose. This article explains how to merge a range of cells into a single cell.
+You can use Aspose.Cells to merge or unmerge a range of cells. Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells/javascript-cpp/range/#merge--) and [**Range.unMerge()**](https://reference.aspose.com/cells/javascript-cpp/range/#unMerge--) methods for this purpose. This article explains how to merge a range of cells into a single cell.
 
 {{% /alert %}}
 
 ## **Example**
 
-The following sample code first creates a range - A1:D4 - then merges the cells in the range into a single cell using the [**Range.merge()**](https://reference.aspose.com/cells/javascript-cpp/range/#merge--) method. Similarly, you can split cells by creating a range and calling the [**Range.unMerge()**](https://reference.aspose.com/cells/javascript-cpp/range/#unMerge--) method.
+The following sample code first creates a range – A1:D4 – then merges the cells in the range into a single cell using the [**Range.merge()**](https://reference.aspose.com/cells/javascript-cpp/range/#merge--) method. Similarly, you can unmerge cells by creating a range and calling the [**Range.unMerge()**](https://reference.aspose.com/cells/javascript-cpp/range/#unMerge--) method.
 
 ```html
 <!DOCTYPE html>

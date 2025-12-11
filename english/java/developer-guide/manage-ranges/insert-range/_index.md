@@ -19,13 +19,13 @@ Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/jav
 
 ## **Insert Ranges And Shift Cells Right**
 
-Insert a ranage and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells right as follows using Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Right.java" >}}
 
 ## **Insert Ranges And Shift Cells Down**
 
-Insert a ranage and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down as follows using Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 

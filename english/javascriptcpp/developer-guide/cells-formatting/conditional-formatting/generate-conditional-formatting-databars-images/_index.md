@@ -1,7 +1,7 @@
 ---
 title: Generate Conditional Formatting DataBars Images
 linktitle: Generate Conditional Formatting DataBars Images
-description: Aspose.Cells is a JavaScript library for working with spreadsheet files. It supports the generation of conditionally formatted data bars and images, allowing users to customize the display of the spreadsheet based on the value of the cells. This article will introduce how to use the Aspose.Cells library to generate conditionally formatted data bars and images.
+description: Aspose.Cells is a JavaScript library for working with spreadsheet files. It supports the generation of conditionally formatted data bars and images, allowing users to customize the display of the spreadsheet based on the value of the cells. This article introduces how to use the Aspose.Cells library to generate conditionally formatted data bars and images.
 keywords: Aspose.Cells, Conditional Formatting, Data Bars, Images, Spreadsheets, JavaScript via C++
 type: docs
 weight: 40
@@ -14,7 +14,7 @@ Sometimes, you need to generate images of Conditional Formatting DataBars. You c
 
 {{% /alert %}}
 
-The following sample code generates the DataBar image of cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the [**DataBar**](https://reference.aspose.com/cells/javascript-cpp/databar) object and uses its [**DataBar.toImage(Cell, ImageOrPrintOptions)**](https://reference.aspose.com/cells/javascript-cpp/databar/#toImage-cell-imageorprintoptions-) method to generate the image of the cell. Finally, it saves the image on disk.
+The following sample code generates the DataBar image of cell C1. First, it accesses the format‑condition object of the cell; then, from that object, it accesses the [**DataBar**](https://reference.aspose.com/cells/javascript-cpp/databar) object and uses its [**DataBar.toImage(Cell, ImageOrPrintOptions)**](https://reference.aspose.com/cells/javascript-cpp/databar/#toImage-cell-imageorprintoptions-) method to generate the image of the cell. Finally, it saves the image on disk.
 
 ```html
 <!DOCTYPE html>
@@ -55,13 +55,13 @@ The following sample code generates the DataBar image of cell C1. First, it acce
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Creating a workbook from the uploaded file
+            // Create a workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Access the cell which contains conditional formatting databar
+            // Access the cell which contains conditional formatting DataBar
             const cell = worksheet.cells.get("C1");
 
             // Create and get the conditional formatting of the worksheet
@@ -70,14 +70,14 @@ The following sample code generates the DataBar image of cell C1. First, it acce
             fcc.addCondition(AsposeCells.FormatConditionType.DataBar);
             fcc.addArea(AsposeCells.CellArea.createCellArea("C1", "C4"));
 
-            // Access the conditional formatting databar
+            // Access the conditional formatting DataBar
             const dbar = fcc.get(0).dataBar;
 
             // Create image or print options
             const opts = new AsposeCells.ImageOrPrintOptions();
             opts.imageType = AsposeCells.ImageType.Png;
 
-            // Get the image bytes of the databar
+            // Get the image bytes of the DataBar
             const imgBytes = dbar.toImage(cell, opts);
 
             // Create a blob and provide download link

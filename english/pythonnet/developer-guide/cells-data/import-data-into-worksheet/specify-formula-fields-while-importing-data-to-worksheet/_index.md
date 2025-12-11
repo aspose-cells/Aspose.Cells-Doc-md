@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can specify formula fields when importing data into your worksheet using the [**ImportTableOptions.is_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/importtableoptions/is_formulas/) property. This property takes a boolean list where the value **True** indicates the field is a formula. For example, if the third field is a formula field, the third element in the list will be **True**.
+You can specify formula fields when importing data into your worksheet using the [**ImportTableOptions.is_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/importtableoptions/is_formulas/) property. This property takes a boolean list where the value **True** indicates that the field is a formula. For example, if the third field is a formula field, the third element in the list will be **True**.
 
 ## **Specify Formula Fields during Data Import**
 

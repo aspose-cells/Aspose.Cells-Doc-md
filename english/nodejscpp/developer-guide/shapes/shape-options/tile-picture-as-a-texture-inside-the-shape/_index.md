@@ -5,17 +5,17 @@ type: docs
 weight: 1700  
 url: /nodejs-cpp/tile-picture-as-a-texture-inside-the-shape/  
 description: Learn how to tile a small picture as a texture inside a shape using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 ## **Possible Usage Scenarios**  
 
-When the picture is small and does not cover the entire surface of the shape without losing its quality, then you have the option to tile it. Tiling fills the shape surface with a small image by repeating them as if they are tiles.  
+When the picture is small and does not cover the entire surface of the shape without losing its quality, you have the option to tile it. Tiling fills the shape surface with a small image by repeating it as tiles.  
 
 ## **Tile Picture as a Texture inside the Shape**  
 
-You can fill the shape surface with some image and tile it using the [**Shape.isTiling()**](https://reference.aspose.com/cells/nodejs-cpp/texturefill/#isTiling--) property and setting it **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx) as well as the screenshot for a reference.  
+You can fill the shape surface with an image and tile it by using the [**Shape.isTiling()**](https://reference.aspose.com/cells/nodejs-cpp/texturefill/#isTiling--) property and setting it to **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx), and the screenshot for reference.  
 
 ## **Screenshot**  
 
@@ -46,5 +46,5 @@ shape.getFill().getTextureFill().setIsTiling(true);
 // Save the output Excel file
 workbook.save(path.join(outputDir, "outputTextureFill_IsTiling.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

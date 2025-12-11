@@ -1,22 +1,22 @@
----
-title: Find Cells with Specific Style with C++
-linktitle: Find Cells with Specific Style
-type: docs
-weight: 190
-url: /cpp/find-cells-with-specific-style/
-description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for C++ API.
-keywords: Find cells with a particular style applied, Search cells with a particular style applied
+---  
+title: Find Cells with Specific Style with C++  
+linktitle: Find Cells with Specific Style  
+type: docs  
+weight: 190  
+url: /cpp/find-cells-with-specific-style/  
+description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for C++ API.  
+keywords: Find cells with a particular style applied, Search cells with a particular style applied  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells to find all cells with a common style. Aspose.Cells provides the [**FindOptions.GetStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/getstyle/) property which you can use to specify the style to search cells for.
+Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells to find all cells with a common style. Aspose.Cells provides the [**FindOptions.GetStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/findoptions/getstyle/) property, which you can use to specify the style to search cells for.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text "Found".
+The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text **"Found"**.  
 
 ```c++
 #include <iostream>
@@ -56,5 +56,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

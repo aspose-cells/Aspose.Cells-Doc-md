@@ -1,5 +1,5 @@
 ---
-title: Disable Text Wrapping for Data Labels of the Chart with JavaScript via C++
+title: Disable Text Wrapping for Data Labels on the Chart with JavaScript via C++
 description: Learn how to disable text wrapping for data labels in charts using Aspose.Cells for JavaScript via C++. Our guide will show you how to prevent long labels from overlapping and provide more readable and clear chart displays.
 keywords: Aspose.Cells for JavaScript via C++, charting, data labels, text wrapping, overlapping, readability, displays.
 type: docs
@@ -9,13 +9,13 @@ url: /javascript-cpp/disable-text-wrapping-for-data-labels-of-the-chart/
 
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 allows users to wrap or unwrap text inside the Data Labels of the Chart. By default, the text inside the Data Labels of the Chart is in the wrapped state.
+Microsoft Excel 2013 allows users to wrap or unwrap text inside the data labels of a chart. By default, the text inside the data labels of a chart is in the wrapped state.
 
-Aspose.Cells provides a [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#isTextWrapped--) property which you can set true or false to enable or disable text wrapping of data labels respectively.
+Aspose.Cells provides a [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#isTextWrapped--) property that you can set to **true** or **false** to enable or disable text wrapping of data labels, respectively.
 
 {{% /alert %}}
 
-The below code sample shows how to disable text wrapping for the data labels of the chart.
+The code sample below shows how to disable text wrapping for the data labels of the chart.
 
 ```html
 <!DOCTYPE html>
@@ -56,7 +56,7 @@ The below code sample shows how to disable text wrapping for the data labels of 
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiating a Workbook object by loading uploaded file
+            // Instantiating a Workbook object by loading the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Access the first worksheet
@@ -65,12 +65,12 @@ The below code sample shows how to disable text wrapping for the data labels of 
             // Access the first chart inside the worksheet
             const chart = worksheet.charts.get(0);
 
-            // Disable the Text Wrapping of Data Labels in all Series
+            // Disable the text wrapping of data labels in all series
             chart.nSeries.get(0).dataLabels.isTextWrapped = false;
             chart.nSeries.get(1).dataLabels.isTextWrapped = false;
             chart.nSeries.get(2).dataLabels.isTextWrapped = false;
 
-            // Save the workbook and provide download link
+            // Save the workbook and provide a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

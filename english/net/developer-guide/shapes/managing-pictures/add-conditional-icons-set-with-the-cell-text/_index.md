@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells supports the feature.
+Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types, but without applying conditional formatting to cells. Aspose.Cells supports this feature.
 
 {{% /alert %}} 
 
-The following code sample shows how to add conditional icons set with the Cell Text.
+The following code sample shows how to add a conditional icons set with the cell text.
 
 
 

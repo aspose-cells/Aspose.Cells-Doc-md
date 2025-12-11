@@ -11,12 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
   
 ## **Cut and Paste Cells**  
   
-Aspose.Cells for Node.js via C++ provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells/) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) accepts the following parameters.  
+Aspose.Cells for Node.js via C++ provides the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/nodejs-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) method of the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells/) collection. **InsertCutCells** accepts the following parameters.  
   
 - [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range/): The range of cells to be cut.  
-- Row Index: The index of the row to insert cells.  
-- Column Index: The index of the column to insert cells.  
-- [**ShiftType**](https://reference.aspose.com/cells/nodejs-cpp/shifttype/): The shift direction of the columns.  
+- Row Index: The index of the row where cells will be inserted.  
+- Column Index: The index of the column where cells will be inserted.  
+- [**ShiftType**](https://reference.aspose.com/cells/nodejs-cpp/shifttype/): The direction in which existing cells are shifted.  
   
 The following example shows how to cut and paste cells within a worksheet.  
   

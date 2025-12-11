@@ -13,7 +13,7 @@ Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. 
 
 {{% /alert %}} 
 ## **Assigning Macro Code to Form Control using Aspose.Cells**
-The following sample code creates a new workbook, assign a Macro Code to a Form Buttom and saves the output in the XLSM format. Once, you will open the output XLSM file in Microsoft Excel you will see the following macro code.
+The following sample code creates a new workbook, assigns a Macro Code to a Form Button, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel, you will see the following macro code.
 
 {{< highlight java >}}
 

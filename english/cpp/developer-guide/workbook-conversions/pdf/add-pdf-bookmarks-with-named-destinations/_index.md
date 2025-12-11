@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the [**PdfBookmarkEntry.GetDestinationName()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/pdfbookmarkentry/getdestinationname/) property.
+Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. This means that if pages are added or deleted from the PDF, bookmarks may become invalid, but named destinations will remain intact. To create a Named Destination, set the **PdfBookmarkEntry::GetDestinationName()** property.
 
 ## **Add PDF Bookmarks with Named Destinations**
 
-Please see the following sample code, its [source Excel file](50528348.xlsx), and its [output PDF file](50528349.pdf). The screenshot shows the bookmarks and named destinations inside the output PDF. The screenshot also describes how to view Named Destinations and that you need Professional version of Acrobat Reader.
+Please see the following sample code, its source Excel file, and its output PDF file. The screenshot shows the bookmarks and named destinations inside the output PDF. It also describes how to view Named Destinations and indicates that you need the Professional version of Acrobat Reader.
 
 ![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
@@ -85,7 +85,7 @@ int main() {
     PdfSaveOptions opts;
     opts.SetBookmark(bookmarkEntry);
 
-    // Save the workbook in Pdf format with given pdf save options
+    // Save the workbook in PDF format with the given PDF save options
     wb.Save(outDir + u"outputPdfBookmarkEntry_DestinationName.pdf", opts);
 
     std::cout << "Workbook saved successfully with bookmarks!" << std::endl;

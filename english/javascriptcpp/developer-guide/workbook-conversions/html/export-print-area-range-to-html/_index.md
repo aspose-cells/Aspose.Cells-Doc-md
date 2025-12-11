@@ -8,11 +8,11 @@ url: /javascript-cpp/export-print-area-range-to/
 
 ## **Possible Usage Scenarios**
 
-This is a common scenario where we need to export only the print area i.e. a selected range of cells instead of the entire sheet to HTML. This feature is already available for PDF rendering; however, now you can perform this task for HTML as well. First, set the print area in the page setup object of the worksheet. Later on, use [**HtmlSaveOptions.exportPrintAreaOnly()**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportPrintAreaOnly--) flag to export the selected range only.
+This is a common scenario where we need to export only the print area, i.e., a selected range of cells, instead of the entire sheet to HTML. This feature is already available for PDF rendering; however, now you can perform this task for HTML as well. First, set the print area in the page‑setup object of the worksheet. Later, use the [**HtmlSaveOptions.exportPrintAreaOnly()**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportPrintAreaOnly--) flag to export the selected range only.
 
 ## Sample Code
 
-Following sample code loads a workbook and then exports print area to the HTML. Sample file for testing this feature can be downloaded from the following link:
+The following sample code loads a workbook and then exports the print area to HTML. A sample file for testing this feature can be downloaded from the link below:
 
 [sampleInlineCharts.xlsx](79527946.xlsx)
 

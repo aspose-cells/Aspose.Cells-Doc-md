@@ -13,27 +13,27 @@ Aspose.Cells provides the [**Range**](https://reference.aspose.com/cells/java/co
 
 - **Address**
 
-Gets address of the range.
+  Gets the address of the range.
 
 - **Cell Count**
 
-Gets all cell count in the range.
+  Gets the total cell count in the range.
 
 - **Offset**
 
-Gets range by offset.
+  Gets a range by offset.
 
 - **Entire Column**
 
-Gets a Range object that represents the entire column (or columns) that contains the specified range.
+  Gets a Range object that represents the entire column (or columns) that contains the specified range.
 
 - **Entire Row**
 
-Gets a Range object that represents the entire row (or rows) that contains the specified range.
+  Gets a Range object that represents the entire row (or rows) that contains the specified range.
 
 ## **Get Address, Cell Count, Offset, Entire Column and Entire Row of the Range**
 
-The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for a reference.
+The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
 

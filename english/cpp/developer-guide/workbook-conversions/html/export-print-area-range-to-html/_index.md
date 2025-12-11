@@ -1,23 +1,23 @@
----
-title: Export Print Area Range to HTML with C++
-linktitle: Export Print Area Range to HTML
-type: docs
-weight: 60
-url: /cpp/export-print-area-range-to/
-description: Learn how to export the print area range to HTML using Aspose.Cells for C++.
+---  
+title: Export Print Area Range to HTML with C++  
+linktitle: Export Print Area Range to HTML  
+type: docs  
+weight: 60  
+url: /cpp/export-print-area-range-to/  
+description: Learn how to export the print area range to HTML using Aspise.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-This is a common scenario where we need to export only the print area, i.e., a selected range of cells, instead of the entire sheet to HTML. This feature is already available for PDF rendering; however, now you can perform this task for HTML as well. First, set the print area in the page setup object of the worksheet. Later, use the [**HtmlSaveOptions.GetExportPrintAreaOnly()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportprintareaonly/) flag to export the selected range only.
+This is a common scenario where we need to export only the print area, i.e., a selected range of cells, instead of the entire sheet to HTML. This feature is already available for PDF rendering; however, you can now perform this task for HTML as well. First, set the print area in the page‑setup object of the worksheet. Later, use the [**HtmlSaveOptions.GetExportPrintAreaOnly()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportprintareaonly/) flag to export the selected range only.  
 
-## **Sample Code**
+## **Sample Code**  
 
-The following sample code loads a workbook and then exports the print area to HTML. The sample file for testing this feature can be downloaded from the following link:
+The following sample code loads a workbook and then exports the print area to HTML. The sample file for testing this feature can be downloaded from the following link:  
 
-[sampleInlineCharts.xlsx](79527946.xlsx)
+[sampleInlineCharts.xlsx](79527946.xlsx)  
 
 ```cpp
 #include <iostream>
@@ -63,5 +63,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

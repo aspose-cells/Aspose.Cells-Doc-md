@@ -8,21 +8,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Spreadsheet to PDF**
-PDF documents are widely used as a standard format of exchanging documents between organizations, government sectors and individuals. Software developers are often asked to device a way to easily convert Microsoft Excel files into PDF documents. Aspose.Cells supports this features.
+PDF documents are widely used as a standard format for exchanging documents between organizations, government sectors, and individuals. Software developers are often asked to devise a way to easily convert Microsoft Excel files into PDF documents. Aspose.Cells supports this feature.
 
 **C#**
 
 {{< highlight cs >}}
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
- Workbook workbook = new Workbook("../../data/test.xlsx");
-
-//Save the document in PDF format
-
+// Save the document in PDF format
 workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Convert Spreadsheet to PDF** form any of the below mentioned social coding sites:
+Download **Convert Spreadsheet to PDF** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
 {{< app/cells/assistant language="csharp" >}}

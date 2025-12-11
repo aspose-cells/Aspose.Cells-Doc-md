@@ -2,7 +2,7 @@
 title: Alignment Settings
 linktitle: Alignment Settings
 description: In the Aspose.Cells library, you can use cell alignment settings to adjust the layout and display of text using Node.js via C++. This document provides detailed steps and sample code for using Aspose.Cells for cell alignment settings.
-keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping Node.js via C++
+keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping, Node.js via C++
 type: docs
 weight: 20
 url: /nodejs-cpp/cells-alignment-settings/
@@ -18,7 +18,7 @@ Anyone who has used Microsoft Excel to format cells will be familiar with the al
 
 As you can see from the above figure, there are different kinds of alignment options:
 
-- Text alignment(horizontal & vertical)
+- Text alignment (horizontal & vertical)
 - Indentation.
 - Orientation.
 - Text control.
@@ -32,22 +32,22 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Aspose.Cells provides [**getStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) and [**setStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) methods for the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) class provides useful properties for configuring alignment settings.
 
-Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/nodejs-cpp/textalignmenttype) enumeration. The pre-defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/nodejs-cpp/textalignmenttype) enumeration are:
+Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/nodejs-cpp/textalignmenttype) enumeration. The pre‑defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/nodejs-cpp/textalignmenttype) enumeration are:
 
-|**Text Alignment Types**|**Description**|
+| **Text Alignment Types** | **Description** |
 | :- | :- |
-|Bottom|Represents bottom text alignment|
-|Center|Represents center text alignment|
-|CenterAcross|Represents center across text alignment|
-|Distributed|Represents distributed text alignment|
-|Fill|Represents fill text alignment|
-|General|Represents general text alignment|
-|Justify|Represents justify text alignment|
-|Left|Represents left text alignment|
-|Right|Represents right text alignment|
-|Top|Represents top text alignment|
-|JustifiedLow|Aligns the text with an adjusted kashida length for Arabic text.|
-|ThaiDistributed|Distributes Thai text especially, because each character is treated as a word.|
+| Bottom | Represents bottom text alignment |
+| Center | Represents center text alignment |
+| CenterAcross | Represents center‑across text alignment |
+| Distributed | Represents distributed text alignment |
+| Fill | Represents fill text alignment |
+| General | Represents general text alignment |
+| Justify | Represents justify text alignment |
+| Left | Represents left text alignment |
+| Right | Represents right text alignment |
+| Top | Represents top text alignment |
+| JustifiedLow | Aligns the text with an adjusted kashida length for Arabic text |
+| ThaiDistributed | Distributes Thai text especially because each character is treated as a word |
 
 {{% alert color="primary" %}}
 
@@ -61,22 +61,17 @@ Use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object'
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-HorizontalAlignment.js" >}}
 
-
-
 #### **Vertical Alignment**
 
 Similar to horizontal alignment, use the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setVerticalAlignment**](https://reference.aspose.com/cells/nodejs-cpp/style/#setVerticalAlignment-textalignmenttype-) method to align the text vertically.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-VerticalAlignment.js" >}}
 
-
 #### **Indentation**
 
 It is possible to set the indentation level of the text in a cell with the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setIndentLevel**](https://reference.aspose.com/cells/nodejs-cpp/style/#setIndentLevel-number-) method.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-Indentation.js" >}}
-
-
 
 #### **Orientation**
 
@@ -86,7 +81,7 @@ Set the orientation (rotation) of the text in a cell with the [**Style**](https:
 
 #### **Text Control**
 
-The following section discusses how to control text by setting text wrapping, shrink to fit and other formatting options.
+The following section discusses how to control text by setting text wrapping, shrink‑to‑fit, and other formatting options.
 
 ##### **Wrapping Text**
 
@@ -94,13 +89,11 @@ Wrapping text in a cell makes it easier to read: the height of the cell adjusts 
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-WrapText.js" >}}
 
-
 ##### **Shrinking to Fit**
 
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setShrinkToFit(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setShrinkToFit-boolean-) method to **true**.
+An alternative to wrapping text in a cell is to shrink the text size to fit the cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**setShrinkToFit(boolean)**](https://reference.aspose.com/cells/nodejs-cpp/style/#setShrinkToFit-boolean-) method to **true**.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-ShrinkToFit.js" >}}
-
 
 ##### **Merging Cells**
 
@@ -113,25 +106,23 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspo
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-MergeCells.js" >}}
 
-
-The other way is to first call the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection's [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method to create a range of the cells to be merged. The [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method takes the same set of parameters as that of the [**merge**](https://reference.aspose.com/cells/nodejs-cpp/cells/#merge-number-number-number-number-) method discussed above and returns a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object. The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object also provides a [**merge**](https://reference.aspose.com/cells/nodejs-cpp/range/#merge--) method that merges the range specified in the [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object.
+The other way is to first call the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection's [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method to create a range of the cells to be merged. The [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method takes the same set of parameters as the [**merge**](https://reference.aspose.com/cells/nodejs-cpp/cells/#merge-number-number-number-number-) method discussed above and returns a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object. The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object also provides a [**merge**](https://reference.aspose.com/cells/nodejs-cpp/range/#merge--) method that merges the specified range.
 
 ##### **Text Direction**
 
-It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
+It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc., are displayed. For example, English is a left‑to‑right language while Arabic is a right‑to‑left language.
 
-The reading order is set with the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**TextDirection**](https://reference.aspose.com/cells/nodejs-cpp/style/#setTextDirection-textdirectiontype-) property. Aspose.Cells provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/textdirectiontype) enumeration.
+The reading order is set with the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**TextDirection**](https://reference.aspose.com/cells/nodejs-cpp/style/#setTextDirection-textdirectiontype-) property. Aspose.Cells provides pre‑defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/nodejs-cpp/textdirectiontype) enumeration.
 
-|**Text Direction Types**|**Description**|
+| **Text Direction Types** | **Description** |
 | :- | :- |
-|Context|The reading order consistent with the language of the first entered character|
-|LeftToRight|Left to right reading order|
-|RightToLeft|Right to left reading order|
+| Context | The reading order consistent with the language of the first entered character |
+| LeftToRight | Left‑to‑right reading order |
+| RightToLeft | Right‑to‑left reading order |
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AlignSettings-TextDirection.js" >}}
 
-
-## **Advance topics**
+## **Advanced topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/nodejs-cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/nodejs-cpp/line-breaks-and-text-wrapping/)
 

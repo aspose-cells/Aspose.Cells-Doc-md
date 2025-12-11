@@ -1,5 +1,5 @@
 ---
-title: Code Comparison for common features with VSTO
+title: Code Comparison for Common Features with VSTO
 type: docs
 weight: 10
 url: /net/code-comparison-for-common-features-with-vsto/
@@ -7,7 +7,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section has following topics:
+This section has the following topics:
 
 - [Add Borders to Cells in a Worksheet in VSTO and Aspose.Cells](/cells/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/)
 - [Add Hyperlinks to Cells in VSTO and Aspose.Cells](/cells/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/)
@@ -27,7 +27,7 @@ This section has following topics:
 - [List All Worksheets in a Workbook](/cells/net/list-all-worksheets-in-a-workbook/)
 - [Merge or UnMerge Cells in a Worksheet in VSTO and Aspose.Cells](/cells/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/)
 - [Open Text Files as Workbooks](/cells/net/open-text-files-as-workbooks/)
-- [Protect and unProtect Worksheets](/cells/net/protect-and-unprotect-worksheets/)
+- [Protect and Unprotect Worksheets](/cells/net/protect-and-unprotect-worksheets/)
 - [Protecting and Unprotecting Workbooks in VSTO and Aspose.Cells](/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/)
 - [Rotating Cell Text in VSTO and Aspose.Cells](/cells/net/rotating-cell-text-in-vsto-and-aspose-cells/)
 - [Set Background Picture of a Worksheet in VSTO and Aspose.Cells](/cells/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/)

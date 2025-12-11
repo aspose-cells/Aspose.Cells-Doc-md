@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-You can use WordArt to add special text effects to spreadsheets. For example, stretch a title, decorate text, make the text fit a preset shape, or apply the affected text to a chart’s plot area as a watermark. The WordArt becomes an object that you can move or position in your spreadsheets to add decoration.  
+You can use WordArt to add special text effects to spreadsheets. For example, stretch a title, decorate text, make the text fit a preset shape, or apply the effect to a chart’s plot area as a watermark. The WordArt becomes an object that you can move or position in your spreadsheets to add decoration.  
 
 The following example shows how to add a WordArt shape as a watermark for the chart plot area.  
 
@@ -28,7 +28,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
 
-// Open the existing excel file.
+// Open the existing Excel file.
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Get the chart in the first worksheet.
@@ -36,7 +36,7 @@ const chart = workbook.getWorksheets().get(0).getCharts().get(0);
 
 // Add a WordArt watermark (shape) to the chart's plot area.
 const wordart = chart.getShapes().addTextEffectInChart(AsposeCells.MsoPresetTextEffect.TextEffect2,
-"CONFIDENTIAL", "Arial Black", 66, false, false, 1200, 500, 2000, 3000);
+    "CONFIDENTIAL", "Arial Black", 66, false, false, 1200, 500, 2000, 3000);
 
 // Get the shape's fill format.
 const wordArtFormat = wordart.getFill();
@@ -47,11 +47,11 @@ wordArtFormat.setTransparency(0.9);
 // Get the line format.
 const lineFormat = wordart.getLine();
 
-// Set Line format to invisible.
+// Set line format to invisible.
 lineFormat.setWeight(0.0);
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

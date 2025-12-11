@@ -1,18 +1,17 @@
 ---
-title: Inserting a WAV file as an Ole Object with JavaScript via C++
-linktitle: Inserting a WAV file as an Ole Object
+title: Inserting a WAV file as an OLE Object with JavaScript via C++
+linktitle: Inserting a WAV file as an OLE Object
 type: docs
 weight: 70
 url: /javascript-cpp/inserting-a-wav-file-as-an-ole-object/
-description: Learn how to insert a WAV file as an OLE object in Excel worksheets using Aspose.Cells for JavaScript via C++. 
+description: Learn how to insert a WAV file as an OLE object in Excel worksheets using Aspose.Cells for JavaScript via C++.
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides the functionality to add different types of OLE objects to the Excel worksheets. We will see in the following code examples, how to add a WAV file as an OLE object using simple APIs provided by Aspose.Cells. 
+Aspose.Cells provides the functionality to add different types of OLE objects to the Excel worksheets. We will see in the following code examples how to add a WAV file as an OLE object using simple APIs provided by Aspose.Cells. 
 
 {{% /alert %}} 
-
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +68,7 @@ Aspose.Cells provides the functionality to add different types of OLE objects to
             // Access the first worksheet
             const sheet = workbook.worksheets.get(0);
 
-            // Add Ole Object (using image as the display/content preview)
+            // Add OLE Object (using image as the display/content preview)
             sheet.oleObjects.add(14, 3, 200, 220, imageData);
 
             // Configure the added OLE object

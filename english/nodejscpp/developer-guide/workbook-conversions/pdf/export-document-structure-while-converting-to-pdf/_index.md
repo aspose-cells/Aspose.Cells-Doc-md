@@ -20,14 +20,14 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "document-structure-example.xlsx");
-// Open the excel file with image, shape, chart, etc.
+// Open the Excel file with image, shape, chart, etc.
 const wb = new AsposeCells.Workbook(filePath);
 
 // Set to export document structure.
 const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setExportDocumentStructure(true);
 
-// Save the pdf file with PdfSaveOptions
+// Save the PDF file with PdfSaveOptions
 wb.save("output.pdf", pdfSaveOptions);
 ```
 

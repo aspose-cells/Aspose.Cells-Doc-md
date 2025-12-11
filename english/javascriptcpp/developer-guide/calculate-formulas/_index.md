@@ -10,13 +10,13 @@ url: /javascript-cpp/calculate-formulas/
 
 ## **Adding Formulas & Calculating Results**
 
-Aspose.Cells has an embedded formula calculation engine. Not only can it re-calculate formulas imported from designer templates, but it also supports calculating the results of formulas added at runtime.
+Aspose.Cells has an embedded formula calculation engine. Not only can it recalculate formulas imported from designer templates, but it also supports calculating the results of formulas added at runtime.
 
-Aspose.Cells supports most of the formulas or functions that are part of Microsoft Excel (Read [a list of the functions supported by the calculation engine](/cells/javascript-cpp/supported-formula-functions/)). Those functions can be used through the APIs or designer spreadsheets. Aspose.Cells supports a huge set of mathematical, string, boolean, date/time, statistical, database, lookup, and reference formulas.
+Aspose.Cells supports most of the formulas or functions that are part of Microsoft Excel (Read [a list of the functions supported by the calculation engine](/cells/javascript-cpp/supported-formula-functions/)). Those functions can be used through the APIs or designer spreadsheets. Aspose.Cells supports a huge set of mathematical, string, boolean, date/time, statistical, database, lookup, and reference formulas.
 
-Use the [**formula**](https://reference.aspose.com/cells/javascript-cpp/cell/#formula--) property or [**formula(string, object)**](https://reference.aspose.com/cells/javascript-cpp/cell/#formula-string-object-) methods of the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
+Use the **formula** property or **formula(string, object)** methods of the **Cell** class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-To calculate the results of formulas, the user may call the [**calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) method of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class which processes all formulas embedded in an Excel file. Or, the user may call the [**calculateFormula(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#calculateFormula-string-) method of the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class which processes all formulas embedded in a sheet. Or, the user may also call the [**calculate(CalculationOptions)**](https://reference.aspose.com/cells/javascript-cpp/cell/#calculate-calculationoptions-) method of the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) class which processes the formula of one Cell:
+To calculate the results of formulas, the user may call the **calculateFormula()** method of the **Workbook** class, which processes all formulas embedded in an Excel file. Or the user may call the **calculateFormula(string)** method of the **Worksheet** class, which processes all formulas embedded in a sheet. Or the user may also call the **calculate(CalculationOptions)** method of the **Cell** class, which processes the formula of a single cell:
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ To calculate the results of formulas, the user may call the [**calculateFormula(
 
 {{% alert color="primary" %}}
 
-The **Formula** property and **formula(...)** methods of the [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) class work differently from the **calculate** methods of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet), and [**Cell**](https://reference.aspose.com/cells/javascript-cpp/cell) classes. The **Formula** property and **formula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call **calculate** methods.
+The **Formula** property and **formula(...)** methods of the **Cell** class work differently from the **calculate** methods of the **Workbook**, **Worksheet**, and **Cell** classes. The **Formula** property and **formula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call the **calculate** methods.
 
 {{% /alert %}}
 
@@ -106,9 +106,9 @@ The **Formula** property and **formula(...)** methods of the [**Cell**](https://
 
 Aspose.Cells has an embedded formula calculation engine. As well as calculating formulas imported from a designer file, Aspose.Cells can calculate formula results directly.
 
-Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
+Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on a Microsoft Excel formula without adding the formula to the worksheet.
 
-You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) to [**calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-) the results of such formulas without adding them to the worksheet:
+You can use Aspose.Cells' formula calculation engine APIs for **Worksheet** to calculate the results of such formulas without adding them to the worksheet by calling **calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**:
 
 ```html
 <!DOCTYPE html>
@@ -195,9 +195,9 @@ Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-## **How to Calculate Formulas repeatedly**
+## **How to Calculate Formulas Repeatedly**
 
-When there are lots of formulas in the workbook, and the user needs to calculate them repeatedly while modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**formulaSettings.enableCalculationChain**](https://reference.aspose.com/cells/javascript-cpp/formulasettings/#enableCalculationChain--).
+When there are many formulas in the workbook and the user needs to calculate them repeatedly while modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: **formulaSettings.enableCalculationChain**.
 
 ```html
 <!DOCTYPE html>
@@ -244,7 +244,7 @@ When there are lots of formulas in the workbook, and the user needs to calculate
             // Print the time before formula calculation
             console.log(new Date());
 
-            // Set the CreateCalcChain as true
+            // Enable calculation chain
             workbook.settings.formulaSettings.enableCalculationChain = true;
 
             // Calculate the workbook formulas
@@ -280,11 +280,11 @@ When there are lots of formulas in the workbook, and the user needs to calculate
 
 {{% alert color="primary" %}}
 
-By default, the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas ([**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--)) may consume more CPU processing time and memory when compared with calculating formulas without a chain. If the user does not need to calculate formulas repeatedly, the default behavior (calculating the formula directly without creating a calculation chain) should be the better way.
+By default, the calculation chain is disabled. Because creating the chain also requires extra time, the first calculation of formulas (**Workbook.calculateFormula()**) may consume more CPU processing time and memory compared with calculating formulas without a chain. If the user does not need to calculate formulas repeatedly, the default behavior (calculating the formula directly without creating a calculation chain) is the better approach.
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Cells to Microsoft Excel Formula Watch Window](/cells/javascript-cpp/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Calculating IFNA function using Aspose.Cells](/cells/javascript-cpp/calculating-ifna-function-using-aspose-cells/)
 - [Calculation of Array Formula of Data Tables](/cells/javascript-cpp/calculation-of-array-formula-of-data-tables/)

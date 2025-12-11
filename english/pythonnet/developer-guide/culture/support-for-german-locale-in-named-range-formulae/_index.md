@@ -9,7 +9,7 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-English formulae are written into named regions. This Excel file can be opened in an environment where the system is configured to German locale, and the English formula shall be translated to German language. This example requires Excel installed with German language settings and system locale configured to German.
+English formulas are written into named regions. This Excel file can be opened in an environment where the system is configured to the German locale, and the English formula will be translated to German. This example requires Excel to be installed with German language settings and the system locale configured to German.
 
 Sample file for testing this feature can be downloaded from:  
 [sampleNamedRangeTest.xlsm](73990165.xlsm)

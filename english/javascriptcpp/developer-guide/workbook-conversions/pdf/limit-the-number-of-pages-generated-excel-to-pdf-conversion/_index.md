@@ -9,7 +9,7 @@ description: Learn how to limit the number of pages generated when converting an
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to print a range of pages to an output PDF file. Aspose.Cells for JavaScript via C++ has the ability to set a limit on how many pages are generated when converting an Excel spreadsheet to the PDF file format.
+Sometimes you want to print a range of pages to an output PDF file. Aspose.Cells for JavaScript via C++ has the ability to set a limit on how many pages are generated when converting an Excel spreadsheet to the PDF file format.
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ The following example shows how to render a range of pages (3 and 4) in a Micros
             // Open an Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Instantiate the PdfSaveOption
+            // Instantiate the PdfSaveOptions
             const options = new PdfSaveOptions();
 
             // Print only Page 3 and Page 4 in the output PDF
@@ -85,6 +85,6 @@ The following example shows how to render a range of pages (3 and 4) in a Micros
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering it to PDF. Doing so ensures that formula-dependent values are recalculated, and the correct values are rendered in the output file.
+If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering it to PDF. Doing so ensures that formula‑dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}

@@ -3,7 +3,7 @@ title: Get Validation Applied on a Cell
 type: docs
 weight: 200
 url: /net/get-validation-applied-on-a-cell/
-description: This article show how to apply validation on a Cell with C#
+description: This article **shows** how to apply validation on a cell with C#
 keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -19,7 +19,7 @@ Similarly, you can use [**Worksheet.Validations.GetValidationInCell**](https://r
 
 ## C# code to get the validation applied on a Cell
 
-Below code sample, shows you how to get validation applied on a cell.
+**The code sample below shows how to get the validation applied on a cell.**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
 

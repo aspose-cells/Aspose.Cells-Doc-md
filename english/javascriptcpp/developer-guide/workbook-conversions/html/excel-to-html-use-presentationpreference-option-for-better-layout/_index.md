@@ -1,20 +1,18 @@
----
-title: Excel to HTML - Use PresentationPreference Option for Better Layout with JavaScript via C++
-linktitle: Excel to HTML - Use PresentationPreference Option for Better Layout
-type: docs
-weight: 220
-url: /javascript-cpp/excel-to-html-use-presentationpreference-option-for-better-layout/
----
+---  
+title: Excel to HTML - Use PresentationPreference Option for Better Layout with JavaScript via C++  
+linktitle: Excel to HTML - Use PresentationPreference Option for Better Layout  
+type: docs  
+weight: 220  
+url: /javascript-cpp/excel-to-html-use-presentationpreference-option-for-better-layout/  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Aspose.Cells provides a useful HtmlSaveOptions.presentationPreference property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
+Aspose.Cells provides a useful **HtmlSaveOptions.presentationPreference** property for developers who need to render **a** better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is **false**. We recommend setting this property to **true** to get a more attractive presentation of Excel reports.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-Please see the sample code below that demonstrates how to render an HTML file from an Excel report with presentation preference on.
-
-
+Please see the sample code below that demonstrates how to render an HTML file from an Excel report with **the presentation preference turned on**.  
 
 ```html
 <!DOCTYPE html>
@@ -55,15 +53,15 @@ Please see the sample code below that demonstrates how to render an HTML file fr
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiate the Workbook from uploaded file
+            // Instantiate the Workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
             // Create HtmlSaveOptions object
             const options = new HtmlSaveOptions();
-            // Set the Presentation preference option (converted from setPresentationPreference)
+            // Set the PresentationPreference option (converted from setPresentationPreference)
             options.presentationPreference = true;
             
-            // Save the Excel file to HTML with specified option
+            // Save the Excel file to HTML with the specified option
             const outputData = workbook.save(SaveFormat.Html, options);
             const blob = new Blob([outputData], { type: 'text/html' });
             const downloadLink = document.getElementById('downloadLink');

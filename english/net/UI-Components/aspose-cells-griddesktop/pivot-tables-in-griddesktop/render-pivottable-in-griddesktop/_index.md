@@ -10,7 +10,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-If your Excel file has a Pivot Table, GridDesktop will be able to load and render the Pivot Table fine. Besides, you will be able to interact the Pivot Table in GUI and manipulate it.
+If your Excel file has a Pivot Table, GridDesktop will be able to load and render the Pivot Table correctly. Besides, you will be able to interact **with** the Pivot Table in GUI and manipulate it.
+
 ## **Render PivotTable in GridDesktop**
 The following sample code imports the [Sample Excel File containing the Pivot Table](48496686.xlsx). The screenshot shows the result of the execution of this sample code for a reference.
 
@@ -18,4 +19,3 @@ The following sample code imports the [Sample Excel File containing the Pivot Ta
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-PivotTablesInGridDesktop-Form_RenderPivotTableInGridDesktop.cs" >}}
-

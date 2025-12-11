@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.4.0 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Mechanism to Modify Database Connection**
-The com.aspose.cells.ExternalConnection class already contained the method & properties that could be used to inspect the database connection details stored in a spreadsheet. Most of the properties associated with ExternalConnection class were read only until the release of Aspose.Cells for Java 8.4.1. With this release, the API has provided the support to manipulate the database connection settings as well.
+The `com.aspose.cells.ExternalConnection` class already contained the methods and properties that could be used to inspect the database connection details stored in a spreadsheet. Most of the properties associated with the `ExternalConnection` class were read‑only until the release of Aspose.Cells for Java 8.4.1. With this release, the API has provided support to manipulate the database connection settings as well.
 
 The following code snippet shows how to dynamically modify database connection settings.
 
@@ -26,11 +26,11 @@ The following code snippet shows how to dynamically modify database connection s
 
 com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
-//Access first data connection
+ //Access first data connection
 
 com.aspose.cells.ExternalConnection conn = workbook.getDataConnections().get(0);
 
-//Change a few properties
+ //Change a few properties
 
 conn.setName("MyConnectionName");
 
@@ -40,40 +40,40 @@ conn.setConnectionDescription("Test Connection");
 
 conn.setCredentials(com.aspose.cells.CredentialsMethodType.PROMPT);
 
-//Save the workbook
+ //Save the workbook
 
 workbook.save(output);
 
 {{< /highlight >}}
 
-Here are a few most important properties exposed by the {ExternalConnection}} class.
+Here are a few most important properties exposed by the `ExternalConnection` class.
 
 |**Property Name** |**Description** |
 | :- | :- |
 |BackgroundRefresh |Indicates whether the connection can be refreshed in the background (asynchronously). <br>true if preferred usage of the connection is to refresh asynchronously in the background; <br>false if preferred usage of the connection is to refresh synchronously in the foreground. |
-|ConnectionDescription |Specifies the user description for this connection |
-|ConnectionId |Specifies The unique identifier of this connection. |
-|Credentials |Specifies the authentication method to be used when establishing (or re-establishing) the connection. |
+|ConnectionDescription |Specifies the user description for this connection. |
+|ConnectionId |Specifies the unique identifier of this connection. |
+|Credentials |Specifies the authentication method to be used when establishing (or re‑establishing) the connection. |
 |IsDeleted |Indicates whether the associated workbook connection has been deleted. true if the<br>connection has been deleted; otherwise, false. |
 |IsNew |True if the connection has not been refreshed for the first time; otherwise, false. This <br>state can happen when the user saves the file before a query has finished returning. |
 |KeepAlive |True when the spreadsheet application should make efforts to keep the connection <br>open. When false, the application should close the connection after retrieving the <br>information. |
 |Name |Specifies the name of the connection. Each connection must have a unique name. |
 |OdcFile |Specifies the full path to external connection file from which this connection was <br>created. If a connection fails during an attempt to refresh data, and reconnectionMethod=1, <br>then the spreadsheet application will try again using information from the external connection file <br>instead of the connection object embedded within the workbook. |
-|OnlyUseConnectionFile |Indicates whether the spreadsheet application should always and only use the <br>connection information in the external connection file indicated by the odcFile attribute <br>when the connection is refreshed. If false, then the spreadsheet application <br>should follow the procedure indicated by the reconnectionMethod attribute |
-|Parameters |Gets ConnectionParameterCollection for an ODBC or web query. |
-|ReConnectionMethod |Specify reconnectionMethod type |
+|OnlyUseConnectionFile |Indicates whether the spreadsheet application should always and only use the <br>connection information in the external connection file indicated by the odcFile attribute <br>when the connection is refreshed. If false, then the spreadsheet application <br>should follow the procedure indicated by the reconnectionMethod attribute. |
+|Parameters |Gets the `ConnectionParameterCollection` for an ODBC or web query. |
+|ReConnectionMethod |Specifies the reconnectionMethod type. |
 |RefreshInternal|Specifies the number of minutes between automatic refreshes of the connection. |
 |RefreshOnLoad |True if this connection should be refreshed when opening the file; otherwise, false. |
 |SaveData |True if the external data fetched over the connection to populate a table is to be saved<br>with the workbook; otherwise, false. |
-|SavePassword |True if the password is to be saved as part of the connection string; otherwise, False. |
-|SourceFile |Used when the external data source is file-based. When a connection to such a data <br>source fails, the spreadsheet application attempts to connect directly to this file. May be <br>expressed in URI or system-specific file path notation. |
+|SavePassword |True if the password is to be saved as part of the connection string; otherwise, false. |
+|SourceFile |Used when the external data source is file‑based. When a connection to such a data <br>source fails, the spreadsheet application attempts to connect directly to this file. May be <br>expressed in URI or system‑specific file path notation. |
 |SSOId|Identifier for Single Sign On (SSO) used for authentication between an intermediate <br>spreadsheetML server and the external data source. |
 |Type |Specifies the data source type. |
 
-### **Ability to Format Sub-String of DataLabels' Text**
-Aspose.Cells for Java 8.4.1 has exposed the DataLabels.characters method to retrieve an instance of FontSetting class that corresponds to the sub-string of a ChartPoints.DataLabels. In turn, the instance of FontSetting class can be used to format the sub-string of the DataLabels with different font settings & color.
+### **Ability to Format Sub‑String of DataLabels' Text**
+Aspose.Cells for Java 8.4.1 has exposed the `DataLabels.characters` method to retrieve an instance of the `FontSetting` class that corresponds to the substring of a `ChartPoints.DataLabels`. In turn, the instance of the `FontSetting` class can be used to format the substring of the DataLabels with different font settings and color.
 
-The following code snippet shows how to use the DataLabels.characters method.
+The following code snippet shows how to use the `DataLabels.characters` method.
 
 **Java**
 
@@ -83,23 +83,23 @@ The following code snippet shows how to use the DataLabels.characters method.
 
 com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
-//Access first worksheet
+ //Access first worksheet
 
 com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Access the first chart inside the sheet
+ //Access the first chart inside the sheet
 
 com.aspose.cells.Chart chart = worksheet.getCharts().get(0);
 
-//Access the data label of first series first point
+ //Access the data label of first series first point
 
 com.aspose.cells.DataLabels labels = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 
-//Set data label text
+ //Set data label text
 
 labels.setText("Rich Text Label");
 
-//Set the font setting of the first 10 characters
+ //Set the font setting of the first 10 characters
 
 com.aspose.cells.FontSetting settings = labels.characters(0, 10);
 
@@ -107,16 +107,16 @@ settings.getFont().setColor(com.aspose.cells.Color.getRed());
 
 settings.getFont().setBold(true);
 
-//Save the workbook
+ //Save the workbook
 
 workbook.save(output);
 
 {{< /highlight >}}
 
 ### **Ability to Set Desired Image Dimensions for Spreadsheet & Chart Export**
-Aspose.Cells for Java 8.4.1 has exposed the ImageOrPrintOptions.setDesiredSize method to set the dimensions of the resultant image while exporting spreadsheets & charts to images. The ImageOrPrintOptions.setDesiredSize method accepts two integer type parameters, where first is the desired width and second is desired height.
+Aspose.Cells for Java 8.4.1 has exposed the `ImageOrPrintOptions.setDesiredSize` method to set the dimensions of the resultant image while exporting spreadsheets & charts to images. The `setDesiredSize` method accepts two integer‑type parameters, where the first is the desired width and the second is the desired height.
 
-The following code snippet shows how to set the desired dimensions while exporting worksheet to PNG.
+The following code snippet shows how to set the desired dimensions while exporting a worksheet to PNG.
 
 **Java**
 
@@ -124,23 +124,23 @@ The following code snippet shows how to set the desired dimensions while exporti
 
  com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
-//Access first worksheet
+ //Access first worksheet
 
 com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Create an instance of ImageOrPrintOptions
+ //Create an instance of ImageOrPrintOptions
 
 com.aspose.cells.ImageOrPrintOptions options = new com.aspose.cells.ImageOrPrintOptions();
 
-//Set resultant image format
+ //Set resultant image format
 
 options.setImageFormat(com.aspose.cells.ImageFormat.getPng());
 
-//Set desired dimensions as 400x400
+ //Set desired dimensions as 400x400
 
 options.setDesiredSize(400, 400);
 
-//Render sheet to image
+ //Render sheet to image
 
 com.aspose.cells.SheetRender renderer = new com.aspose.cells.SheetRender(worksheet, options);
 
@@ -150,18 +150,18 @@ renderer.toImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-Same method can also be used for converting charts to images. 
+The same method can also be used for converting charts to images. 
 
 {{% /alert %}} 
 
 ### **Rendering Comments to PDF**
-With the release of v8.4.1, the Aspose.Cells API has provided the PageSetup.PrintComments property & PrintCommentsType enumeration in order to facilitate the rendering of comments while converting spreadsheets to PDF format. The PrintCommentsType enumeration has the following constants. 
+With the release of v8.4.1, the Aspose.Cells API has provided the `PageSetup.PrintComments` property and `PrintCommentsType` enumeration in order to facilitate the rendering of comments while converting spreadsheets to PDF format. The `PrintCommentsType` enumeration has the following constants. 
 
-- PrintCommentsType.PRINT_NO_COMMENTS: Comments are not to be rendered.
-- PrintCommentsType.PRINT_IN_PLACE: Comments are to be rendered where they are placed.
-- PrintCommentsType.PRINT_SHEET_END: Comments are to be rendered at the end of worksheet.
+- `PrintCommentsType.PRINT_NO_COMMENTS`: Comments are not to be rendered.  
+- `PrintCommentsType.PRINT_IN_PLACE`: Comments are to be rendered where they are placed.  
+- `PrintCommentsType.PRINT_SHEET_END`: Comments are to be rendered at the end of the worksheet.  
 
-The following sample code demonstrates the use of PageSetup.PrintComments property to render the comments using all possible PrintCommentsType enumeration values.
+The following sample code demonstrates the use of `PageSetup.PrintComments` property to render the comments using all possible `PrintCommentsType` enumeration values.
 
 **Java**
 
@@ -171,40 +171,40 @@ The following sample code demonstrates the use of PageSetup.PrintComments proper
 
 com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
-//Access first worksheet
+ //Access first worksheet
 
 com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Print no comments
+ //Print no comments
 
 worksheet.getPageSetup().setPrintComments(com.aspose.cells.PrintCommentsType.PRINT_NO_COMMENTS);
 
-//Save workbook in PDF format without comments
+ //Save workbook in PDF format without comments
 
 workbook.save("nocomments.pdf");
 
-//Print the comments as displayed on sheet
+ //Print the comments as displayed on sheet
 
 worksheet.getPageSetup().setPrintComments(com.aspose.cells.PrintCommentsType.PRINT_IN_PLACE);
 
-//Save workbook in PDF format while rendering comments in place
+ //Save workbook in PDF format while rendering comments in place
 
 workbook.save("printinplace.pdf");
 
-//Print the comments at the end of sheet
+ //Print the comments at the end of sheet
 
 worksheet.getPageSetup().setPrintComments(com.aspose.cells.PrintCommentsType.PRINT_SHEET_END);
 
-//Save workbook in PDF format while rendering comments at the end of worksheet
+ //Save workbook in PDF format while rendering comments at the end of worksheet
 
 workbook.save("printsheetend.pdf");
 
 {{< /highlight >}}
 
 ### **Added Workbook.isLicensed Property**
-Aspose.Cells for Java 8.4.1 has exposed the Workbook.isLicensed which could be of great help in determining if the license has been successfully loaded or not. If you access this property before setting the license, it will return false and vise versa, however, the license should be valid.
+Aspose.Cells for Java 8.4.1 has exposed the `Workbook.isLicensed` property, which can be of great help in determining if the license has been successfully loaded or not. If you access this property before setting the license, it will return false and vice versa; however, the license should be valid.
 
-The following sample code demonstrates the usage of Workbook.isLicensed property.
+The following sample code demonstrates the usage of the `Workbook.isLicensed` property.
 
 **Java**
 
@@ -214,17 +214,17 @@ The following sample code demonstrates the usage of Workbook.isLicensed property
 
 com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook();
 
-//Check if the license is loaded or not
+ //Check if the license is loaded or not
 
 if (!workbook.isLicensed())
 
 {
 
-	//Set license
+    //Set license
 
-	com.aspose.cells.License license = new com.aspose.cells.License();
+    com.aspose.cells.License license = new com.aspose.cells.License();
 
-	lic.SetLicense(licPath);
+    license.setLicense(licPath);
 
 }
 
@@ -232,16 +232,16 @@ else
 
 {
 
-  //do process
+    //do process
 
 }
 
 {{< /highlight >}}
 
 ### **Added ImageOrPrintOptions.SVGFitToViewPort Property**
-Aspose.Cells for Java 8.4.1 has exposed the SVGFitToViewPort property for the ImageOrPrintOptions class that can be used to turn on the viewBox attribute for the SVG file format while exporting spreadsheets or charts to SVG format. The default value of this property is false therefore the base XML for SVG file generated without setting the aforesaid property will not include the viewBox attribute.
+Aspose.Cells for Java 8.4.1 has exposed the `SVGFitToViewPort` property for the `ImageOrPrintOptions` class that can be used to turn on the `viewBox` attribute for the SVG file format while exporting spreadsheets or charts to SVG format. The default value of this property is false, therefore the base XML for an SVG file generated without setting the aforesaid property will not include the `viewBox` attribute.
 
-The following sample code demonstrates the usage of ImageOrPrintOptions.SVGFitToViewPort property.
+The following sample code demonstrates the usage of the `ImageOrPrintOptions.SVGFitToViewPort` property.
 
 **Java**
 
@@ -251,23 +251,23 @@ The following sample code demonstrates the usage of ImageOrPrintOptions.SVGFitTo
 
 com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
-//Access first worksheet
+ //Access first worksheet
 
 com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Create an instance of ImageOrPrintOptions
+ //Create an instance of ImageOrPrintOptions
 
 com.aspose.cells.ImageOrPrintOptions options = new com.aspose.cells.ImageOrPrintOptions();
 
-//Set image format to SVG
+ //Set image format to SVG
 
 options.setSaveFormat(com.aspose.cells.SaveFormat.SVG);
 
-//Set the SVGFitToViewPort to true
+ //Set the SVGFitToViewPort to true
 
 options.setSVGFitToViewPort(true);
 
-//Create an instance of SheetRender and initialize it with worksheet instance as well as object of ImageOrPrintOptions
+ //Create an instance of SheetRender and initialize it with worksheet instance as well as object of ImageOrPrintOptions
 
 com.aspose.cells.SheetRender renderer = new com.aspose.cells.SheetRender(worksheet, options);
 
@@ -276,5 +276,5 @@ renderer.toImage(0, "output.svg");
 {{< /highlight >}}
 ## **Obsoleted APIs**
 ### **Obsoleted Workbook.validateFormula Method**
-Use the Cell.Formula property to validate the formula.
+Use the `Cell.Formula` property to validate the formula.  
 {{< app/cells/assistant language="java" >}}

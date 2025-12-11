@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.getComment()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#getComment--) property. The comment will be visible inside the xl/tables/tableName.xml file.
+You can set the comment of the Table or List Object inside the worksheet using the [**ListObject.setComment()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#setComment--) method. The comment will be visible inside the xl/tables/tableName.xml file.
 
 {{% /alert %}}
 
 ## **Set the Comment of Table or List Object inside the Worksheet**
 
-The following sample code loads the [source excel file](5115514.xlsx), sets the comment of the first table or list object inside the worksheet.
+The following sample code loads the source Excel file, and sets the comment of the first table or list object inside the worksheet.
 
 ```javascript
 const path = require("path");

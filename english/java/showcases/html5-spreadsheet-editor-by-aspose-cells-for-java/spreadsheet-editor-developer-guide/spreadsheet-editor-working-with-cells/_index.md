@@ -18,12 +18,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
   - WorksheetView.clearCurrentCellFormatting
   - WorksheetView.clearCurrentCellContents
   - WorksheetView.clearCurrentCell
+
 ### **Selecting a Cell**
 Use your mouse pointer to point to a cell. Click a cell to select it. The selected cell is highlighted by a bold rectangle.
 
-**How it works?**
+**How it works:**  
 
-When the user click a cell, the event is handled by JavaScript callback function which is attached to Primefaces component.
+When the user clicks a cell, the event is handled by a JavaScript callback function that is attached to the PrimeFaces component.
+
 #### **Cell selection callback**
 {{< highlight java >}}
 
@@ -94,19 +96,21 @@ When the user click a cell, the event is handled by JavaScript callback function
                     $this.selectedCell = this;
 
 {{< /highlight >}}
+
 ### **Delete a Cell**
 To delete a cell:
 
-1. Click on a cell you want to delete.
-1. Switch to **Format tab**.
-1. Click **Delete Cell** button.
-1. Choose **Shift Cells Up** or **Shift Cells Left** button.
+1. Click on a cell you want to delete.  
+2. Switch to **Format tab**.  
+3. Click **Delete Cell** button.  
+4. Choose **Shift Cells Up** or **Shift Cells Left** button.  
 
 The editor will delete the selected cell. The adjacent cells will be automatically shifted either horizontally or vertically to adjust the space.
 
-**How it works?**
+**How it works:**  
 
-The **Shift Cells Up** and **Shift Cells Left** are handled by JSF backend bean **WorksheetView**. The source code of the respective methods is as follows:
+The **Shift Cells Up** and **Shift Cells Left** are handled by the JSF backend bean **WorksheetView**. The source code of the respective methods is as follows:
+
 #### **WorksheetView.removeCellShiftUp**
 {{< highlight java >}}
 
@@ -144,19 +148,21 @@ The **Shift Cells Up** and **Shift Cells Left** are handled by JSF backend bean 
     }
 
 {{< /highlight >}}
+
 ### **Clear a Cell**
 To clear a cell:
 
-1. Click on a cell you want to clear.
-1. Switch to **Format tab**.
-1. Click **Clear Cell** button.
-1. Choose **Formats**, **Contents** or **Both** option.
+1. Click on a cell you want to clear.  
+2. Switch to **Format tab**.  
+3. Click **Clear Cell** button.  
+4. Choose **Formats**, **Contents** or **Both** option.  
 
 The editor will clear the selected cell.
 
-**How it works?**
+**How it works:**  
 
-The **Formats**, **Contents** and **Both** are handled by JSF backend bean **WorksheetView**. The source code of the respective methods is as follows:
+The **Formats**, **Contents**, and **Both** options are handled by the JSF backend bean **WorksheetView**. The source code of the respective methods is as follows:
+
 #### **WorksheetView.clearCurrentCellFormatting**
 {{< highlight java >}}
 
@@ -219,4 +225,5 @@ The **Formats**, **Contents** and **Both** are handled by JSF backend bean **Wor
     }
 
 {{< /highlight >}}
+
 {{< app/cells/assistant language="java" >}}

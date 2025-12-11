@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes cell values are wider that the cell they are in, or are on several lines. Such values are not fully visible to users unless they change the height and width of rows and columns. Aspose.Cells.GridWeb fully supports setting row heights and column width. This topic discusses these features in detail with the help of examples.
+Sometimes cell values are wider **than** the cell they are in, or are on several lines. Such values are not fully visible to users unless they change the height and width of the rows and columns. Aspose.Cells.GridWeb fully supports setting row heights and column **widths**. This topic discusses these features in detail with the help of examples.
 
 {{% /alert %}} 
 ## **Working with Row Heights and Column Width**
@@ -24,7 +24,7 @@ To set the height of a row:
 
 {{% alert color="primary" %}} 
 
-SetRowHeight and SetColumnWidth method of the Cells collection also has variants available to set row height and column width measurements in inches and pixels.
+SetRowHeight and SetColumnWidth **methods** of the Cells collection also **have** variants available to set row height and column **width** measurements in inches and pixels.
 
 {{% /alert %}} 
 

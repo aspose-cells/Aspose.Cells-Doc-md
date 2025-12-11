@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for Python via .NET introduces an option which allows you optionally disable exporting frame scripts and document properties. Please use the HtmlSaveOptions.ExportFrameScriptsAndProperties property to disable the export.
+Aspose.Cells for Python via .NET exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for Python via .NET introduces an option which allows you to optionally disable exporting frame scripts and document properties. Please use the HtmlSaveOptions.ExportFrameScriptsAndProperties property to disable the export.
 
 {{% /alert %}}
 

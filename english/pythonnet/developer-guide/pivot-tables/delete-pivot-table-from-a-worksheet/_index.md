@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET provides a feature to delete or remove Pivot Table from a Worksheet. You can delete the pivot table using pivot table object or pivot table position. Please use the [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) method to delete the pivot table using pivot table object and [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) method to delete pivot table object using its position inside the pivot table collection.
+Aspose.Cells for Python via .NET provides a feature to delete or remove a pivot table from a worksheet. You can delete the pivot table using a pivot‑table object or its position. Please use the [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) method to delete the pivot table using a pivot‑table object and the [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) method to delete the pivot table using its position inside the pivot‑table collection.
 
 {{% /alert %}}
 
-## **How to Delete Pivot Table from Worksheet Using Aspose.Cells for Python Excel Library**
+## **How to Delete a Pivot Table from a Worksheet Using Aspose.Cells for Python via .NET**
 
-The following sample code deletes two pivot tables from the worksheet. First it removes pivot table using [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) method and then it removes pivot table using [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) method
+The following sample code deletes two pivot tables from the worksheet. First, it removes the pivot table using the [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) method, and then it removes the pivot table using the [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) method.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}
 {{< app/cells/assistant language="python-net" >}}

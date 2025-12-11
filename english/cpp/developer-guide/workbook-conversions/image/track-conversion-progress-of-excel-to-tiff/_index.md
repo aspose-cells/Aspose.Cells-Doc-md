@@ -97,7 +97,7 @@ public:
 
 ## **Console Output**
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 Start saving page index 0 of pages 10</br>
 End saving page index 0 of pages 10</br>

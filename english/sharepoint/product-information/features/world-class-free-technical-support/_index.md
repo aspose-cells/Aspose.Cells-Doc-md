@@ -17,16 +17,16 @@ Aspose is renowned for its free and unlimited technical support provided directl
 
 #### **Forums**
 
-[Aspose's Support Forums](https://forum.aspose.com/) is the place not only to resolve technical issues, but to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
+[Aspose's Support Forums](https://forum.aspose.com/) are the place not only to resolve technical issues, but also to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered on the Aspose website.
 
 #### **Blogs**
 
-[Aspose.Blogs](https://blog.aspose.com/) is the place to look for information about the latest releases and about what Aspose developers have to say.
+[Aspose.Blogs](https://blog.aspose.com/) is the place to look for information about the latest releases and what Aspose developers have to say.
 
 #### **Need more support?**
 
-Aspose offers free support to all users. For companies want that their issue will get prioritized, or who want to influence our product development road map, there are [advanced support options](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) like Priority Support and Enterprise Support.
+Aspose offers free support to all users. For companies that want their issue to be prioritized, or that want to influence our product development roadmap, there are [advanced support options](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) such as Priority Support and Enterprise Support.
 
-**There is plenty of activity in the Aspose.Support Forums.**
+**There is plenty of activity in the Aspose Support Forums.**
 
 ![todo:image_alt_text](world-class-free-technical-support_1.png)

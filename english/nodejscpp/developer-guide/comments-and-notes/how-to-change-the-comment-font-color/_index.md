@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Microsoft Excel allows users to add comments to cells to add additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction, Font Color, etc. Aspose.Cells for Node.js via C++ provides APIs to accomplish the task.  
 {{% /alert %}}  
 
-Aspose.Cells for Node.js via C++ provides a [**Shape.getTextBody()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextBody--) property to set the font color of the comment. The following sample code demonstrates the use of [**Shape.getTextBody()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextBody--) property to set text direction for a comment.  
+Aspose.Cells for Node.js via C++ provides a [**Shape.getTextBody()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextBody--) property to set the font color of the comment. The following sample code demonstrates the use of [**Shape.getTextBody()**](https://reference.aspose.com/cells/nodejs-cpp/shape/#getTextBody--) property to set the font color for a comment.  
 
 ```javascript
 const path = require("path");

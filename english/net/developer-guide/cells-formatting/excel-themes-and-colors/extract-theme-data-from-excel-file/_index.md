@@ -1,6 +1,6 @@
 ---
 title: Extract Theme Data from Excel File
-description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports extracting theme data from Excel files, allowing users to obtain the style and formatting information of documents. This article will introduce how to extract topic data from Excel files using the Aspose.Cells library.
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports extracting theme data from Excel files, allowing users to obtain the style and formatting information of documents. This article will introduce how to extract theme data from Excel files using the Aspose.Cells library.
 keywords: Aspose.Cells, Excel File, Theme Data, Style, Format
 type: docs
 weight: 120
@@ -11,15 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows the users to extract Theme related data from Excel file. For example, you can extract Theme Name applied to workbook and Theme Color applied to cell or borders of the cell, etc.
+Aspose.Cells allows users to extract theme‑related data from Excel files. For example, you can extract the theme name applied to a workbook and theme colors applied to a cell or its borders, etc.
 
-You can apply Theme to your workbook using Microsoft Excel via Page Layout > Themes command.
+You can apply a theme to your workbook using Microsoft Excel via the **Page Layout > Themes** command.
 
 {{% /alert %}}
 
 ## C# code to extract theme data from Excel file
 
-The following sample code extracts the Theme name applied to source workbook and then it extracts the Theme color applied to cell A1 and Theme color applied to the bottom border of the cell.
+The following sample code extracts the theme name applied to the source workbook and then extracts the theme color applied to cell A1 and the theme color applied to the bottom border of the cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ExtractThemeData-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

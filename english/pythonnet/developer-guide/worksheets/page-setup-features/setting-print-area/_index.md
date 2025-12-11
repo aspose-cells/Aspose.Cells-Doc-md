@@ -24,9 +24,9 @@ Setting a print area in a document helps control printed content. Key reasons in
 
 To set a print area programmatically:
 
-1. Access worksheet's page setup properties
-1. Define print area using cell range notation
-1. Save modified workbook
+1. Access the worksheet's page setup properties
+1. Define the print area using cell‑range notation
+1. Save the modified workbook
 
 ```python
 # Sample image reference remains unchanged
@@ -37,9 +37,9 @@ To set a print area programmatically:
 
 To remove print area constraints:
 
-1. Access page setup properties
-1. Reset print area to empty string
-1. Save changes
+1. Access the worksheet's page setup properties
+1. Reset the print area to an empty string
+1. Save the modified workbook
 
 ```python
 # Sample image reference remains unchanged
@@ -50,13 +50,13 @@ To remove print area constraints:
 
 Clearing the print area results in:
 
-1. Default printing of entire worksheet
+1. Default printing of the entire worksheet
 1. Removal of previous range constraints
 1. Inclusion of all formatted cells
 
 ## **How to Set Print Area Using Aspose.Cells**
 
-Set print area through worksheet's page setup:
+Set print area through the worksheet's page setup:
 
 ```python
 import aspose.cells as ac
@@ -70,7 +70,7 @@ worksheet = workbook.worksheets[0]
 # Set print area to A1:D10
 worksheet.page_setup.print_area = "A1:D10"
 
-# Save modified workbook
+# Save the modified workbook
 workbook.save("output_set_print_area.xlsx")
 ```
 
@@ -95,7 +95,7 @@ worksheet = workbook.worksheets[0]
 # Clear print area
 worksheet.page_setup.print_area = ""
 
-# Save modified workbook
+# Save the modified workbook
 workbook.save("output_clear_print_area.xlsx")
 ```
 
@@ -113,12 +113,13 @@ workbook = Workbook("input.xlsx")
 # Access the desired worksheet
 worksheet = workbook.worksheets[0]
 
-# Set the print area - specify the range you want to print
+# Set the print area – specify the range you want to print
 worksheet.page_setup.print_area = "A1:D10"
 
 # Save the workbook
 workbook.save("set_print_area.pdf")
 ```
+
 ```python
 from aspose.cells import Workbook
 
@@ -134,4 +135,5 @@ worksheet.page_setup.print_area = ""
 # Save the workbook
 workbook.save("clear_print_area.pdf")
 ```
+
 {{< app/cells/assistant language="python-net" >}}

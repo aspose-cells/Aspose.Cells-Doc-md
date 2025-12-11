@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-In the Japanese Calendar, a new era begins with the reign of a new emperor. On 1st May 2019, a new emperor came into power with which the Heisei era ended and the Reiwa era began.
+In the Japanese calendar, a new era begins with the reign of a new emperor. On 1 May 2019, a new emperor came into power, ending the Heisei era and beginning the Reiwa era.
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 source_dir = os.path.join(current_dir, "data")
 output_dir = os.path.join(current_dir, "output")
 
-# Create output directory if not exists
+# Create output directory if it does not exist
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 

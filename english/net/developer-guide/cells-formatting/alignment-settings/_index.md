@@ -1,6 +1,6 @@
 ---
 title: Alignment Settings
-description: In the Aspose.Cells library, you can use cell alignment settings to adjust the layout and display of text. By adjusting settings such as horizontal alignment, vertical alignment, and text wrapping, you have more control over how text flows in cells. This document will provide you with detailed steps and sample code to help you quickly grasp how to use Aspose.Cells for cell alignment settings.
+description: In the Aspose.Cells library, you can use cell alignment settings to adjust the layout and display of text. By adjusting settings such as horizontal alignment, vertical alignment, and text wrapping, you gain more control over how text flows in cells. This document will provide you with detailed steps and sample code to help you quickly grasp how to use Aspose.Cells for cell alignment settings.
 keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ Anyone who has used Microsoft Excel to format cells will be familiar with the al
 
 As you can see from the above figure, there are different kinds of alignment options:
 
-- Text alignment(horizontal & vertical)
+- Text alignment (horizontal & vertical)
 - Indentation.
 - Orientation.
 - Text control.
@@ -31,13 +31,13 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods for the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) class provides useful properties for configuring alignment settings.
 
-Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) enumeration. The pre-defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) enumeration are:
+Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) enumeration. The pre‑defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) enumeration are:
 
 |**Text Alignment Types**|**Description**|
 | :- | :- |
 |Bottom|Represents bottom text alignment|
 |Center|Represents center text alignment|
-|CenterAcross|Represents center across text alignment|
+|CenterAcross|Represents center‑across text alignment|
 |Distributed|Represents distributed text alignment|
 |Fill|Represents fill text alignment|
 |General|Represents general text alignment|
@@ -45,12 +45,12 @@ Select any text alignment type using the [**TextAlignmentType**](https://referen
 |Left|Represents left text alignment|
 |Right|Represents right text alignment|
 |Top|Represents top text alignment|
-|JustifiedLow|Aligns the text with an adjusted kashida length for Arabic text.|
-|ThaiDistributed|Distributes Thai text especially, because each character is treated as a word.|
+|JustifiedLow|Aligns the text with an adjusted kashida length for Arabic text|
+|ThaiDistributed|Distributes Thai text especially because each character is treated as a word|
 
 {{% alert color="primary" %}}
 
-You can also apply the justify distributed setting using the [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) property.
+You can also apply the justify‑distributed setting using the [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) property.
 
 {{% /alert %}}
 
@@ -80,7 +80,7 @@ Set the orientation (rotation) of the text in a cell with the [**Style**](https:
 
 #### **Text Control**
 
-The following section discusses how to control text by setting text wrapping, shrink to fit and other formatting options.
+The following section discusses how to control text by setting text wrapping, shrink‑to‑fit, and other formatting options.
 
 ##### **Wrapping Text**
 
@@ -90,7 +90,7 @@ Wrapping text in a cell makes it easier to read: the height of the cell adjusts 
 
 ##### **Shrinking to Fit**
 
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property to **true**.
+An alternative to wrapping text is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's **IsShrinkToFit** property to **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
@@ -109,9 +109,9 @@ The other way is to first call the [**Cells**](https://reference.aspose.com/cell
 
 ##### **Text Direction**
 
-It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
+It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left‑to‑right language while Arabic is a right‑to‑left language.
 
-The reading order is set with the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) property. Aspose.Cells provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype) enumeration.
+The reading order is set with the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) property. Aspose.Cells provides pre‑defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype) enumeration.
 
 |**Text Direction Types**|**Description**|
 | :- | :- |
@@ -121,7 +121,7 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/net/line-breaks-and-text-wrapping/)
 

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-A slicer is used to filter data quickly. It can be used to filter data both in a table or pivot table. Microsoft Excel allows you to create a slicer by selecting a table or pivot table and then clicking the *Insert > Slicer*. Aspose.Cells also allows you to create a slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicercollection/add/) method.
+A slicer is used to filter data quickly. It can be used to filter data in either a table or a pivot table. Microsoft Excel allows you to create a slicer by selecting a table or pivot table and then clicking *Insert > Slicer*. Aspose.Cells also allows you to create a slicer using the [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicercollection/add/) method.
 
-## **Create Slicer to a Pivot Table**
+## **Create a Slicer for a Pivot Table**
 
-Please see the following sample code. It loads the [sample Excel file](67338470.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](67338471.xlsx) and [output XLSB](67338472.xlsb) format. The following screenshot shows the slicer created by Aspose.Cells in the output Excel file.
+Please see the following sample code. It loads the [sample Excel file](67338470.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](67338471.xlsx) and [output XLSB](67338472.xlsb) formats. The following screenshot shows the slicer created by Aspose.Cells in the output Excel file.
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
@@ -42,23 +42,23 @@ int main()
     // Path of input Excel file
     U16String inputFilePath = srcDir + u"sampleCreateSlicerToPivotTable.xlsx";
 
-    // Path of output Excel files
+    // Paths of output Excel files
     U16String outputFilePathXlsx = outDir + u"outputCreateSlicerToPivotTable.xlsx";
     U16String outputFilePathXlsb = outDir + u"outputCreateSlicerToPivotTable.xlsb";
 
-    // Load sample Excel file containing pivot table
+    // Load sample Excel file containing a pivot table
     Workbook wb(inputFilePath);
 
-    // Access first worksheet
+    // Access the first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
 
-    // Access first pivot table inside the worksheet
+    // Access the first pivot table inside the worksheet
     PivotTable pt = ws.GetPivotTables().Get(0);
 
-    // Add slicer relating to pivot table with first base field at cell B22
+    // Add a slicer related to the pivot table using the first base field at cell B22
     int idx = ws.GetSlicers().Add(pt, u"B22", pt.GetBaseFields().Get(0));
 
-    // Access the newly added slicer from slicer collection
+    // Access the newly added slicer from the slicer collection
     Slicer slicer = ws.GetSlicers().Get(idx);
 
     // Save the workbook in output XLSX format
@@ -73,7 +73,7 @@ int main()
 }
 ```
 
-## **Create Slicer to Excel Table**
+## **Create a Slicer for an Excel Table**
 
 Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column. Finally, it saves the workbook in [output XLSX](outputCreateSlicerToExcelTable.xlsx) format.
 
@@ -98,13 +98,13 @@ int main()
     // Load sample Excel file containing a table
     Workbook workbook(srcDir + u"sampleCreateSlicerToExcelTable.xlsx");
 
-    // Access first worksheet
+    // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Access first table inside the worksheet
+    // Access the first table inside the worksheet
     ListObject table = worksheet.GetListObjects().Get(0);
 
-    // Add slicer
+    // Add a slicer
     int idx = worksheet.GetSlicers().Add(table, 0, u"H5");
 
     // Save the workbook in output XLSX format
@@ -116,7 +116,7 @@ int main()
 }
 ```
 
-## **Advance Topics**
+## **Advanced Topics**
 - [Change Slicer Properties](/cells/cpp/change-slicer-properties/)
 - [Draw Slicer while rendering Excel to PDF](/cells/cpp/draw-slicer-while-rendering-excel-to-pdf/)
 - [Formatting Slicer](/cells/cpp/formatting-slicer/)

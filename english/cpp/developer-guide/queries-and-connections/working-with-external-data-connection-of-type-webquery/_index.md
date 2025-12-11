@@ -1,23 +1,23 @@
----
-title: Working with External Data Connection of type WebQuery with C++
-linktitle: Working with External Data Connection of type WebQuery
-type: docs
-weight: 30
-url: /cpp/working-with-external-data-connection-of-type-webquery/
-description: Learn how to work with WebQuery data connection in Microsoft Excel using Aspose.Cells with C++.
+---  
+title: Working with External Data Connection of type WebQuery with C++  
+linktitle: Working with External Data Connection of type WebQuery  
+type: docs  
+weight: 30  
+url: /cpp/working-with-external-data-connection-of-type-webquery/  
+description: Learn how to work with WebQuery data connection in Microsoft Excel using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-You can access external data connection of any type using the Workbook.DataConnections collection. One type of such data connection is WebQuery. This article will show you how to work with WebQuery data connection. You can create WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.
+You can access external data connections of any type using the `Workbook.DataConnections` collection. One type of such a data connection is **WebQuery**. This article will show you how to work with a WebQuery data connection. You can create a WebQuery data connection in Microsoft Excel using the **Data** > **From Web** menu.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## Working with External Data Connection of type WebQuery
+## Working with External Data Connection of type WebQuery  
 
-The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
+The following code shows how to work with an external data connection of type **WebQuery**. It uses the [sample Excel file](5112365.xlsx) which you can download from the provided link. You can also see the console output of this code below.  
 
 ```cpp
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"WebQuerySample.xlsx";
 
     // Create workbook
@@ -54,15 +54,14 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-## Console Output
+## Console Output  
 
-Here is the console output of the above code with this [sample excel file](5112365.xlsx).
+Here is the console output of the above code using this sample Excel file.  
 
-{{< highlight java >}}
+{{< highlight java >}}  
+Web Query URL: https://docs.aspose.com/cells/net/  
+{{< /highlight >}}  
 
-Web Query URL: https://docs.aspose.com/cells/net/
-
-{{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}

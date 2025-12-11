@@ -8,7 +8,7 @@ description: You can learn how to remove defined names or named ranges from Exce
 ---
 
 ## **Introduction**
-If there are too many defined names or named ranges in the Excel files, we have to clear some for they are not referred again.
+If there are too many defined names or named ranges in the Excel files, we have to clear some because they are not referenced again.
 
 ## **Remove Named Range in MS Excel**
 
@@ -69,10 +69,10 @@ With Aspose.Cells for JavaScript via C++, you can remove named ranges or defined
             // Get all the worksheets in the book.
             const worksheets = workbook.worksheets;
 
-            // Deleted a named range by text.
+            // Delete a named range by text.
             worksheets.names.remove("NamedRange");
 
-            // Deleted a defined name by index. Ensure to check the count before removal.
+            // Delete a defined name by index. Ensure to check the count before removal.
             if (worksheets.names.count > 0) {
                 worksheets.names.removeAt(0);
             }
@@ -92,11 +92,10 @@ With Aspose.Cells for JavaScript via C++, you can remove named ranges or defined
 </html>
 ```
 
-Note: if the defined name is referred by formulas, it could not be removed. We only can remove the formula of the defined name.
+Note: If the defined name is referenced by formulas, it cannot be removed. You can only remove the formula that uses the defined name.
 
-## **Removes Some Named Ranges**
-When we remove a defined name, we have to check whether it is referred by all formulas in the file.
-In order to improve performance of removing named ranges, we can remove some together.
+## **Remove Some Named Ranges**
+When we remove a defined name, we have to check whether it is referenced by any formulas in the file. In order to improve performance when removing named ranges, we can remove several at once.
 
 ```html
 <!DOCTYPE html>
@@ -162,7 +161,7 @@ In order to improve performance of removing named ranges, we can remove some tog
 ```
 
 ## **Remove Duplicate Defined Names**
-Some Excel files corrupt because some defined names are duplicate. So we can remove these duplicate names to repair the file.
+Some Excel files become corrupt because some defined names are duplicated. Removing these duplicate names can repair the file.
 
 ```html
 <!DOCTYPE html>
@@ -209,7 +208,7 @@ Some Excel files corrupt because some defined names are duplicate. So we can rem
             // Get all the worksheets in the book.
             const worksheets = workbook.worksheets;
 
-            // Deleted some defined names.
+            // Delete duplicate defined names.
             worksheets.names.removeDuplicateNames();
 
             // Save the workbook to retain the changes.

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Export XML Data linked to XML Map inside the Workbook**
 
-Please use the [**Workbook::ExportXml()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/exportxml/) method to export XML data linked to your XML Maps inside your workbook. The following sample code exports XML data of all XML Maps from the workbook one by one. Please check the [sample excel file](5115497.xlsx) used in this code and the [exported XML data of the first XML Map](5472487.xml).
+Please use the [**Workbook::ExportXml()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/exportxml/) method to export XML data linked to your XML Maps inside your workbook. The following sample code exports XML data of all XML Maps from the workbook one by one. Please check the [sample Excel file](5115497.xlsx) used in this code and the [exported XML data of the first XML Map](5472487.xml).
 
 ```c++
 #include <iostream>
@@ -28,7 +28,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"sample.xlsx";
 
     // Create workbook
@@ -37,13 +37,13 @@ int main()
     // Get XML maps from the workbook
     auto xmlMaps = workbook.GetWorksheets().GetXmlMaps();
 
-    // Export all XML data from all XML Maps from the Workbook
+    // Export all XML data from all XML Maps in the Workbook
     for (int i = 0; i < xmlMaps.GetCount(); i++)
     {
         // Access the XML Map
         XmlMap map = xmlMaps.Get(i);
 
-        // Exports its XML Data to file
+        // Export its XML data to a file
         workbook.ExportXml(map.GetName(), outDir + map.GetName() + u".xml");
     }
 

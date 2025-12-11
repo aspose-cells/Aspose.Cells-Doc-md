@@ -9,15 +9,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy to understand and an easy to maintain manner. A picture helps.
+Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy to understand and easy to maintain manner. A picture helps.
 
-Sometimes, charts are needed in an application or web pages. Or it might be needed needed for a Word document, a PDF file, a PowerPoint presentation or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.
+Sometimes, charts are needed in an application or web pages. Or it might be needed for a Word document, a PDF file, a PowerPoint presentation or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.
 
 {{% /alert %}}
 
 ## **Converting Charts to Images**
 
-In the examples here, a pie chart and a column char are converted to images.
+In the examples here, a pie chart and a column chart are converted to images.
 
 ### **Converting a Pie Chart to an Image File**
 
@@ -27,10 +27,10 @@ First, create a pie chart in Microsoft Excel and then convert it to an image fil
 | :- |
 |![todo:image_alt_text](convert-an-excel-chart-to-image_1.png)|
 
-1. Create a pie chart in Microsoft Excel :
-   1. Opened a new workbook in Microsoft Excel.
+1. Create a pie chart in Microsoft Excel:
+   1. Open a new workbook in Microsoft Excel.
    1. Input some data into a worksheet.
-   1. Created a pie chart based on the data.
+   1. Create a pie chart based on the data.
    1. Save the file.
 
 |**The input file.**|
@@ -70,7 +70,7 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 |![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|
 
 1. Set up a project, with references, as described above.
-1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
+2. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

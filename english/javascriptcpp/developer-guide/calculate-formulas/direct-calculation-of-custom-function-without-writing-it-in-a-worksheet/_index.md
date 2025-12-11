@@ -12,7 +12,7 @@ url: /javascript-cpp/direct-calculation-of-custom-function-without-writing-it-in
 
 This topic explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [**Worksheet.calculateFormula(formula, opts)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#calculateFormula-string-CalculationOptions-) method for this purpose.
 
-Please see the following sample code that illustrates the usage of this method. We have used a custom function named MyCompany.CustomFunction() and we calculate its value as "Aspose.Cells." by ourselves and then this value is automatically concatenated with the value of cell A1 which is "Welcome to " by the calculation engine and the final calculated value returns as "Welcome to Aspose.Cells."". As you can see in a code that we have not written our custom function anywhere in a worksheet and it is calculated directly by our own custom logic.
+Please see the following sample code that illustrates the usage of this method. We use a custom function named `MyCompany.CustomFunction()` and calculate its value as `"Aspose.Cells."` ourselves. This value is then automatically concatenated with the value of cell **A1**, which is `"Welcome to "`, by the calculation engine, and the final calculated result is `"Welcome to Aspose.Cells."`. As you can see, we have not written our custom function in any worksheet; it is calculated directly by our custom logic.
 
 ### **Programming Sample**
 
@@ -79,7 +79,7 @@ Please see the following sample code that illustrates the usage of this method. 
             opts.customEngine = new CustomEngine();
 
             // This line shows how you can call your own custom function without
-            // a need to write it in any worksheet cell
+            // the need to write it in any worksheet cell
             // After the execution of this line, it will return
             // Welcome to Aspose.Cells.
             const ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);

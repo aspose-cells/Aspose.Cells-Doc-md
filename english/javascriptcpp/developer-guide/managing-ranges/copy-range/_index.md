@@ -8,15 +8,15 @@ url: /javascript-cpp/copy-ranges-of-Excel/
 
 ## **Introduction**
 
-In Excel, you can select a range, copy the range, then paste it with specific options to the same worksheet, other worksheets or other files.
+In Excel, you can select a range, copy the range, then paste it with specific options to the same worksheet, other worksheets, or other files.
 
 ## **Copy Ranges Using Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells for JavaScript via C++ provides some overload [Range.copy(Range, PasteOptions)](https://reference.aspose.com/cells/javascript-cpp/range/#copy-range-pasteoptions-) methods to copy the range. And [Range.copyStyle(Range)](https://reference.aspose.com/cells/javascript-cpp/range/#copyStyle-range-) only the copy style of the range; [Range.copyData(Range)](https://reference.aspose.com/cells/javascript-cpp/range/#copyData-range-) only the copy value of the range.
+Aspose.Cells for JavaScript via C++ provides several overloaded methods, such as [Range.copy(Range, PasteOptions)](https://reference.aspose.com/cells/javascript-cpp/range/#copy-range-pasteoptions-), to copy a range. The method [Range.copyStyle(Range)](https://reference.aspose.com/cells/javascript-cpp/range/#copyStyle-range-) copies only the style of the range, while [Range.copyData(Range)](https://reference.aspose.com/cells/javascript-cpp/range/#copyData-range-) copies only the values of the range.
 
 ## **Copy Range**
 
-Creating two ranges: the source range, the target range, then copying the source range to the target range with the `Range.copy` method.
+Creating two ranges—the source range and the target range—and then copying the source range to the target range with the `Range.copy` method.
 
 See the following code:
 
@@ -69,7 +69,7 @@ See the following code:
             // Create a range of cells.
             let sourceRange = worksheet.cells.createRange("A1", "A2");
 
-            // Input some data with some formattings into A few cells in the range.
+            // Input some data with some formatting into a few cells in the range.
             sourceRange.get(0, 0).value = "Test";
             sourceRange.get(1, 0).value = 123;
 
@@ -165,7 +165,7 @@ Aspose.Cells for JavaScript via C++ supports pasting the range with specific typ
             // Create a range of cells.
             const sourceRange = worksheet.cells.createRange("A1", "A2");
 
-            // Input some data with some formattings into a few cells in the range.
+            // Input some data with some formatting into a few cells in the range.
             sourceRange.get(0, 0).value = "Test";
             sourceRange.get(1, 0).value = 123;
 
@@ -198,7 +198,7 @@ Aspose.Cells for JavaScript via C++ supports pasting the range with specific typ
 
 ## **Only Copy Data Of The Range**
 
-Also, you can copy the data with the `Range.copyData` method as shown in the following code:
+You can also copy only the data with the `Range.copyData` method, as shown in the following code:
 
 ```html
 <!DOCTYPE html>
@@ -251,7 +251,7 @@ Also, you can copy the data with the `Range.copyData` method as shown in the fol
             // Create a range of cells.
             const sourceRange = worksheet.cells.createRange("A1", "A2");
 
-            // Input some data with some formattings into a few cells in the range.
+            // Input some data with some formatting into a few cells in the range.
             sourceRange.get(0, 0).value = "Test";
             sourceRange.get(1, 0).value = 123;
 
@@ -276,5 +276,5 @@ Also, you can copy the data with the `Range.copyData` method as shown in the fol
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Copy Row Heights of Source Range to Destination Range](/cells/javascript-cpp/copy-row-heights-of-source-range-to-destination-range/)

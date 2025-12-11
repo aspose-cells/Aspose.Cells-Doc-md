@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that the WordArt becomes an object that you can move and position on the worksheet. It is also possible to lock the WordArt object for any interaction such as editing, movement, and selection. This article explains the usage of [**Shape.SetLockedProperty**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/setlockedproperty/) method to lock a few aspects of the watermark.
+Aspose.Cells APIs allow you to add WordArt watermarks to a worksheet, turning the WordArt into an object that can be moved and positioned on the worksheet. It is also possible to lock the WordArt object for any interaction such as editing, moving, and selecting. This article explains the usage of [**Shape.SetLockedProperty**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/setlockedproperty/) method to lock a few aspects of the watermark.
 
 {{% /alert %}}
 
-Aspose.Cells APIs allow locking certain aspects of the watermark so that the user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for C++ API to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.
+Aspose.Cells APIs allow locking certain aspects of the watermark so that user interaction can be limited or completely blocked. The following code snippet demonstrates the usage of the Aspose.Cells for C++ API to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.
 
 ```cpp
 #include <iostream>

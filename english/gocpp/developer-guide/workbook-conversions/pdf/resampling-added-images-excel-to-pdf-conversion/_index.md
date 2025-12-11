@@ -9,7 +9,7 @@ description: Learn how to resample added images to reduce PDF size using Aspose.
 
 {{% alert color="primary" %}}
 
-While working with big Microsoft Excel files with lots of images, you might need to compress images that have been added to reduce the output PDF file size and improve the overall conversion performance. Aspose.Cells supports resampling added images to reduce the output PDF file size and improve the performance somewhat.
+While working with large Microsoft Excel files with lots of images, you might need to compress images that have been added to reduce the output PDF file size and improve the overall conversion performance. Aspose.Cells supports resampling added images to reduce the output PDF file size and improve performance somewhat.
 
 {{% /alert %}}
 
@@ -18,13 +18,12 @@ Please see the following sample code that describes how to perform the task usin
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ResamplingAddedImagesExcelToPdfConversion.go" >}}
 {{% alert color="primary" %}}
 
-Using the [**SetImageResample**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/setimageresample/) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the **SetImageResample** option minimizes the size of the output PDF, but it may affect image quality slightly.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**CalculateFormula**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call **CalculateFormula** just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
-

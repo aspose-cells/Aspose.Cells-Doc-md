@@ -7,15 +7,15 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells also supports anonymous types or custom objects in smart markers. In below example Product class is need to be defined before use.
+Aspose.Cells also supports anonymous types or custom objects in smart markers. In the below example, the **Product** class needs to be defined before use.
 
 {{< highlight csharp >}}
 
- //Instantiate the workbookdesigner object.
+ //Instantiate the WorkbookDesigner object.
 
 WorkbookDesigner report = new WorkbookDesigner();
 
-//Get the first worksheet(default sheet) in the workbook.
+//Get the first worksheet (default sheet) in the workbook.
 
 Aspose.Cells.Worksheet w = report.Workbook.Worksheets[0];
 
@@ -45,9 +45,9 @@ report.SetDataSource("MyProduct", list);
 
 report.Process(false);
 
-//Save the excel file.
+//Save the Excel file.
 
-report.Workbook.Save("Smart Marker Customobjects.xls");
+report.Workbook.Save("Smart Marker CustomObjects.xls");
 
 {{< /highlight >}}
 ## **Download Sample Code**

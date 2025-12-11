@@ -17,9 +17,9 @@ Sometimes, you need to present worksheet images in applications or web pages. Fo
 
 ## **Remove Whitespace around Data**
 
-The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
+The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
 
-When you use the sheet-to-image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, bottom, left and right page setup margins for the source worksheet to 0 and specify [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions) attributes accordingly.
+When you use the sheet‑to‑image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, bottom, left, and right page‑setup margins for the source worksheet to 0 and specifying [**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions) attributes accordingly.
 
 The following code snippet removes the whitespace around the data in the output image.
 
@@ -52,7 +52,7 @@ sheet.getPageSetup().setTopMargin(0);
 const imgOptions = new AsposeCells.ImageOrPrintOptions();
 imgOptions.setImageType(AsposeCells.ImageType.Emf);
 
-// Set only one page would be rendered for the image
+// Set only one page to be rendered for the image
 imgOptions.setOnePagePerSheet(true);
 imgOptions.setPrintingPage(AsposeCells.PrintingPageType.IgnoreBlank);
 

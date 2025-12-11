@@ -43,8 +43,8 @@ comment.getCommentShape().setTextHorizontalAlignment(AsposeCells.TextAlignmentTy
 // Set the Text Direction - Right-to-Left
 comment.getCommentShape().setTextOrientationType(AsposeCells.TextDirectionType.RightToLeft);
 
-// Set the Comment note
-comment.setNote("This is my Comment Text. This is test");
+// Set the comment note
+comment.setNote("This is my comment text. This is a test");
 
 const outputFilePath = path.join(dataDir, "OutCommentShape.out.xlsx");
 // Save the Excel file

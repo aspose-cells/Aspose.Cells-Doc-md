@@ -11,18 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-The most valuable feature offered by Aspose.Cells.GridWeb is support for formulas or functions. Aspose.Cells.GridWeb has its own Formula Engine that calculates the formulas in worksheets. Aspose.Cells.GridWeb supports both in-built and user-defined functions or formulas. This topic discusses adding formulas to cells using Aspose.Cells.GridWeb API in detail.
+The most valuable feature offered by Aspose.Cells.GridWeb is support for formulas or functions. Aspose.Cells.GridWeb has its own Formula Engine that calculates the formulas in worksheets. Aspose.Cells.GridWeb supports both in‑built and user‑defined functions or formulas. This topic discusses adding formulas to cells using Aspose.Cells.GridWeb API in detail.
 
 {{% /alert %}} 
 ## **Adding Formulas to Cells**
 ### **How to Add & Calculate a Formula?**
-It is possible to add, access and modify formulas in cells by using a cell's Formula property. Aspose.Cells.GridWeb supports user-defined formulas ranging from simple to complex. However, a large number of built-in functions or formulas (similar to Microsoft Excel) are also supplied with Aspose.Cells.GridWeb. To see the full list of built-in functions, please refer to this [list of supported functions.](/cells/net/aspose-cells-gridweb/list-of-supported-functions/)
+It is possible to add, access and modify formulas in cells by using a cell's Formula property. Aspose.Cells.GridWeb supports user‑defined formulas ranging from simple to complex. However, a large number of built‑in functions or formulas (similar to Microsoft Excel) are also supplied with Aspose.Cells.GridWeb. To see the full list of built‑in functions, please refer to this [list of supported functions.](/cells/net/aspose-cells-gridweb/list-of-supported-functions/)
 
 {{% alert color="primary" %}} 
 
 The formula syntax should be compatible with Microsoft Excel syntax. For example, all formulas must begin with an equal sign (=).
 
-To add a formula dynamically, Aspose.Cells.GridWeb will recognize it as a formula even if you don't use an **=** sign, but if end users working in the GUI, he must use the "=" sign.
+To add a formula dynamically, Aspose.Cells.GridWeb will recognize it as a formula even if you don't use an **=** sign, but if end users are working in the GUI, they must use the "=" sign.
 
 {{% /alert %}} 
 
@@ -44,7 +44,7 @@ In the above screenshot, you can see that a formula has been added to B3 but has
 
 Users can also calculate formulas by clicking **Submit**.
 
-**Clicking Submit button of GridWeb** 
+**Clicking the Submit button of GridWeb** 
 
 ![todo:image_alt_text](add-cell-formulas_2.png)
 

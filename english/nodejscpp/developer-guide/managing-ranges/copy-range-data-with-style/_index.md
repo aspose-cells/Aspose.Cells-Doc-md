@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-[Copy Range Data Only](/cells/nodejs-cpp/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Specifically, it applies a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.  
+[Copy Range Data Only](/cells/nodejs-cpp/copy-range-data-only/) **explains** how to copy the data from a range of cells to another range. Specifically, it applies a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.  
 
 {{% /alert %}}  
 
@@ -40,12 +40,10 @@ const workbook = new AsposeCells.Workbook();
 const cells = workbook.getWorksheets().get(0).getCells();
 
 // Fill some sample data into the cells.
-for (let i = 0; i < 50; i++)
-{
-for (let j = 0; j < 10; j++) 
-{
-cells.get(i, j).putValue(`${i},${j}`);
-}
+for (let i = 0; i < 50; i++) {
+    for (let j = 0; j < 10; j++) {
+        cells.get(i, j).putValue(`${i},${j}`);
+    }
 }
 
 // Create a range (A1:D3).
@@ -68,15 +66,15 @@ style.getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(AsposeCells.C
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setColor(AsposeCells.Color.Blue);
 
-// Create the styleflag object.
+// Create the StyleFlag object.
 const flag1 = new AsposeCells.StyleFlag();
-// Implement font attribute
+// Set font attribute.
 flag1.setFontName(true);
-// Implement the shading / fill color.
+// Set the shading/fill color.
 flag1.setCellShading(true);
-// Implement border attributes.
+// Set border attributes.
 flag1.setBorders(true);
-// Set the Range style.
+// Apply the style to the range.
 range.applyStyle(style, flag1);
 
 // Create a second range (C10:F12).
@@ -86,8 +84,8 @@ const range2 = cells.createRange("C10", "F12");
 range2.copy(range);
 
 const outputFilePath = path.join(dataDir, "CopyRange.out.xlsx");
-// Save the excel file.
+// Save the Excel file.
 workbook.save(outputFilePath);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

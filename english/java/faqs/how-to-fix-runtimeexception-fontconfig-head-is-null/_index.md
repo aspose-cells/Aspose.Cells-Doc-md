@@ -17,9 +17,7 @@ Since you’re likely running in a headless environment, you should configure Ja
 
 You can enable headless mode by adding the following system property at the start of your Java application:
 
-java
-
-```bash
+```java
 System.setProperty("java.awt.headless", "true");
 ```
 
@@ -31,7 +29,7 @@ Or set it via the command line when launching the JVM:
 
 ## Install the Necessary Fonts
 
-If you’re working in an environment where you can install packages, you can install font-related packages to ensure that basic fonts are available. For Linux systems, you could install font packages such as:
+If you’re working in an environment where you can install packages, you can install font‑related packages to ensure that basic fonts are available. For Linux systems, you could install font packages such as:
 
 **Debian/Ubuntu**:
 
@@ -53,7 +51,7 @@ sudo yum install -y fontconfig dejavu-sans-fonts
 
 ## Example
 
-Here is a Dockerfile of Apline with only jdk17 being installed.
+Here is a Dockerfile of Alpine with only JDK 17 being installed.
 
 ```dockerfile
 # Start with the bare Alpine base image
@@ -68,7 +66,7 @@ RUN apk add --no-cache openjdk17-jdk \
     && java -version
 ```
 
-Use the docker with Aspose.Cells for Java, the following exception will occur while rendering to pdf and image.
+When using Docker with Aspose.Cells for Java, the following exception occurs while rendering to PDF and image.
 
 ```text
 Caused by: java.lang.RuntimeException: Fontconfig head is null, check your fonts or fonts configuration
@@ -85,7 +83,7 @@ Caused by: java.lang.RuntimeException: Fontconfig head is null, check your fonts
     ... 33 more
 ```
 
-After addiing `fontconfig` and `ttf-dejavu` packages, it will be OK while rendering to pdf and image.
+After adding `fontconfig` and `ttf-dejavu` packages, it works correctly while rendering to PDF and image.
 
 ```dockerfile
 # Start with the bare Alpine base image

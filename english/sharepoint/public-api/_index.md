@@ -9,6 +9,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Customers developing their own SharePoint solutions can get access to our conversion engine using the public API. This includes all supported file formats and conversion options. The detailed interface specifications in our [API Reference](https://reference.aspose.com/) is accompanied with different C# and VB samples.
+Customers developing their own SharePoint solutions can get access to our conversion engine using the public API. This includes all supported file formats and conversion options. The detailed interface specifications in our [API Reference](https://reference.aspose.com/) are accompanied by various C# and VB samples.
 
 {{% /alert %}}

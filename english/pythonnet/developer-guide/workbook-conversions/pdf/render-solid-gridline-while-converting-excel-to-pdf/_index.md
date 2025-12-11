@@ -10,7 +10,7 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines nowadays.
+For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines today.
 
 With the option [PdfSaveOptions.gridline_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/gridline_type/), Aspose.Cells can also render gridlines as solid lines.
 
@@ -25,14 +25,14 @@ wb = Workbook()
 worksheet = wb.worksheets[0]
 worksheet.cells.get("D9").put_value("gridline")
 
-# Enable to print gridline
+# Enable printing of gridlines
 worksheet.page_setup.print_gridlines = True
 
-# Set to render gridline as solid line
+# Set to render gridlines as solid lines
 pdf_save_options = PdfSaveOptions()
 pdf_save_options.gridline_type = GridlineType.HAIR
 
-# Save the pdf file with PdfSaveOptions
+# Save the PDF file with PdfSaveOptions
 current_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(current_dir, "output")
 

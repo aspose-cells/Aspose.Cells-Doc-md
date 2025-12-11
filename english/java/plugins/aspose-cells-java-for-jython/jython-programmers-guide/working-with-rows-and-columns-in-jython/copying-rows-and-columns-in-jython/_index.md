@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Copying Rows and Columns**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+To copy rows and columns using **Aspose.Cells for Java with Jython**. Below is an example code.
 
 **Jython Code**
 
@@ -50,7 +50,7 @@ class RowsAndColumns:
 
         worksheet = workbook.getWorksheets().get(0)
 
-        # Copy the second row with data, formattings, images and drawing objects
+        # Copy the second row with data, formatting, images, and drawing objects
 
         # to the 12th row in the worksheet.
 
@@ -61,6 +61,7 @@ class RowsAndColumns:
         workbook.save(dataDir + "Copy Rows.xls")
 
         print "Copy Rows Successfully." 
+
 
 
 
@@ -83,7 +84,6 @@ class RowsAndColumns:
         while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
-
 
 
 
@@ -131,7 +131,8 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download the example code (Aspose.Cells) from any of the repositories listed below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

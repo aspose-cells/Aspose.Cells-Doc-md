@@ -9,13 +9,13 @@ description: Convert Excel to HTML while adding tooltips with Aspose.Cells using
 
 ## **Convert Excel to HTML with tooltip**
 
-There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells supports this by providing [**HtmlSaveOptions.GetAddTooltipText()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getaddtooltiptext/) property. Setting the [**HtmlSaveOptions.GetAddTooltipText()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getaddtooltiptext/) property to **true** will add the complete text as a tooltip in the generated HTML.
+There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on hover. Aspose.Cells supports this by providing the [**HtmlSaveOptions.GetAddTooltipText()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getaddtooltiptext/) property. Setting the [**HtmlSaveOptions.GetAddTooltipText()**](https://reference.aspose.com/cells/go-cpp/htmlsaveoptions/getaddtooltiptext/) property to **true** will add the complete text as a tooltip in the generated HTML.
 
 The following image shows the tooltip in the generated HTML file.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-The following code sample loads the [source excel file](98107416.xlsx) and generates the [output HTML file](98107417.zip) with the tooltip.
+The following code sample loads the [source Excel file](98107416.xlsx) and generates the [output HTML file](98107417.zip) with the tooltip.
 
 Sample Code
 

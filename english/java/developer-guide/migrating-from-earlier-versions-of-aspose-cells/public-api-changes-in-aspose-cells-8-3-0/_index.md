@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.2.2 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added WorkbookSettings.AutoRecover Property**
-The getter/setter for the property AutoRecover have been added to the WorkbookSettings class in order to allow developers to get/set option of Auto-Recovery for the spreadsheets in their applications. 
+The getter/setter for the property AutoRecover has been added to the WorkbookSettings class in order to allow developers to get/set the option of Auto‑Recovery for the spreadsheets in their applications. 
 
 {{% alert color="primary" %}} 
 
@@ -35,7 +35,7 @@ settings.setAutoRecover(true);
 {{< /highlight >}}
 
 ### **Added WorkbookSettings.CrashSave Property**
-The getter/setter for the property CrashSave have been added to the WorkbookSettings class. The Boolean type property indicates whether the application last saved the workbook file after a crash.
+The getter/setter for the property CrashSave has been added to the WorkbookSettings class. The Boolean‑type property indicates whether the application last saved the workbook file after a crash.
 
 **Java**
 
@@ -50,7 +50,7 @@ System.out.println(settings.getCrashSave());
 {{< /highlight >}}
 
 ### **Added WorkbookSettings.DataExtractLoad Property**
-The getter/setter for the property DataExtractLoad have been added to the WorkbookSettings class in order to allow the developers to get/set the information regarding the last recovery. If the property DataExtractLoad returns true that indicates that the data recovery has been performed on the workbook file.
+The getter/setter for the property DataExtractLoad has been added to the WorkbookSettings class in order to allow developers to get/set the information regarding the last recovery. If the DataExtractLoad property returns true, it indicates that data recovery has been performed on the workbook file.
 
 **Java**
 
@@ -65,7 +65,7 @@ System.out.println(settings.getDataExtractLoad());
 {{< /highlight >}}
 
 ### **Added WorkbookSettings.RepairLoad Property**
-The getter/setter for the property RepairLoad have been added to the WorkbookSettings class. The Boolean type property indicates if the spreadsheet has been repaired in the last loading session with Excel application.
+The getter/setter for the property RepairLoad has been added to the WorkbookSettings class. The Boolean‑type property indicates whether the spreadsheet was repaired in the last loading session with the Excel application.
 
 **Java**
 
@@ -80,7 +80,7 @@ System.out.println(settings.getRepairLoad());
 {{< /highlight >}}
 
 ### **Added TxtLoadOptions.KeepExactFormat Property**
-The property KeepExactFormat has been added to the TxtLoadOptions class that indicates whether the exact formatting should be kept for the cell value when string/text is converted to numbers or DateTime. This property has been added to match the behavior of MS Excel application for loading DateTime or numeric values from CSV files. In order to simulate the MS Excel's behavior, set the KeepExactFormat property to false, whereas the default value is true so the cell value will be formatted as the string in CSV file.
+The property KeepExactFormat has been added to the TxtLoadOptions class. It indicates whether the exact formatting should be kept for the cell value when a string/text is converted to numbers or DateTime. This property has been added to match the behavior of MS Excel for loading DateTime or numeric values from CSV files. In order to simulate MS Excel's behavior, set the KeepExactFormat property to false; the default value is true, so the cell value will be formatted as the string in the CSV file.
 
 **Java**
 
@@ -95,7 +95,7 @@ Workbook book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 ### **Added Shape.Id Property**
-The v8.3.0 has added the getter/setter for the property Shape.Id in order to uniquely identify each shape object in a given spreadsheet. This new property also helps in uniquely identifying Chart objects in a spreadsheet as demonstrated below.
+Version 8.3.0 adds the getter/setter for the property Shape.Id in order to uniquely identify each shape object in a given spreadsheet. This new property also helps in uniquely identifying Chart objects in a spreadsheet as demonstrated below.
 
 **Java**
 
@@ -120,7 +120,7 @@ for(int index = 0; index <= charts.getCount(); index++)
 {{< /highlight >}}
 
 ### **Added PlotArea.setPositionAuto Method**
-The method setPositionAuto has been added to the PlotArea class that helps in setting the chart's plot area to automatic mode.
+The method setPositionAuto has been added to the PlotArea class. It helps in setting the chart's plot area to automatic mode.
 
 **Java**
 
@@ -133,4 +133,3 @@ Chart chart = book.getWorksheets().get(0).getCharts().get(0);
 chart.getPlotArea().setPositionAuto();
 
 {{< /highlight >}}
-{{< app/cells/assistant language="java" >}}

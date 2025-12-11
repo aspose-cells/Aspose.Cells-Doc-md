@@ -1,11 +1,11 @@
----
-title: Check if VBA project in a Workbook is Signed with JavaScript via C++
-linktitle: Check if VBA project in a Workbook is Signed
-type: docs
-weight: 70
-url: /javascript-cpp/check-if-vba-project-in-a-workbook-is-signed/
-description: Learn how to check if a VBA project in a workbook is signed using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Check if VBA project in a Workbook is Signed with JavaScript via C++  
+linktitle: Check if VBA project in a Workbook is Signed  
+type: docs  
+weight: 70  
+url: /javascript-cpp/check-if-vba-project-in-a-workbook-is-signed/  
+description: Learn how to check if a VBA project in a workbook is signed using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}
 
@@ -13,9 +13,9 @@ You can check if your VBA project is signed or not using Microsoft Excel via **T
 
 {{% /alert %}}
 
-## **Check if VBA project in a Workbook is Signed in JavaScript**
+## **Check if VBA Project in a Workbook is Signed in JavaScript**
 
-The following code loads the workbook and checks if its VBA project is signed using [**Workbook.vbaProject**](https://reference.aspose.com/cells/javascript-cpp/workbook/#vbaProject--) property. The property will return **true** if the project is signed otherwise it will return **false**.
+The following code loads the workbook and checks if its VBA project is signed using [**Workbook.vbaProject**](https://reference.aspose.com/cells/javascript-cpp/workbook/#vbaProject--) property. The property will return **true** if the project is signed, otherwise it will return **false**.
 
 ```html
 <!DOCTYPE html>

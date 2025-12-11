@@ -1,111 +1,112 @@
----
-title: Add Image in Worksheet
-type: docs
-weight: 20
-url: /net/add-image-in-worksheet/
-ai_search_scope: cells_net
+---  
+title: Add Image in Worksheet  
+type: docs  
+weight: 20  
+url: /net/add-image-in-worksheet/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Add Image in Worksheet**
-**C#**
+## **Aspose.Cells - Add Image in Worksheet**  
+**C#**  
 
-{{< highlight cs >}}
+{{< highlight cs >}}  
 
- //Instantiating a Workbook object
+ //Instantiating a Workbook object  
 
-Workbook workbook = new Workbook();
+Workbook workbook = new Workbook();  
 
-//Adding a new worksheet to the Workbook object
+//Adding a new worksheet to the Workbook object  
 
-WorksheetCollection worksheets = workbook.Worksheets;
+WorksheetCollection worksheets = workbook.Worksheets;  
 
-Worksheet worksheet = worksheets.Add("My Worksheet");
+Worksheet worksheet = worksheets.Add("My Worksheet");  
 
-//Insert a string value to a cell
+//Insert a string value to a cell  
 
-worksheet.Cells["C2"].Value = "Image";
+worksheet.Cells["C2"].Value = "Image";  
 
-//Set the 4th row height
+//Set the 4th row height  
 
-worksheet.Cells.SetRowHeight(3, 150);
+worksheet.Cells.SetRowHeight(3, 150);  
 
-//Set the C column width
+//Set the C column width  
 
-worksheet.Cells.SetColumnWidth(2, 50);
+worksheet.Cells.SetColumnWidth(2, 50);  
 
-//Add a picture to the C4 cell
+//Add a picture to the C4 cell  
 
-int index = worksheet.Pictures.Add(3, 2, 3, 2, "../../data/aspose.png");
+int index = worksheet.Pictures.Add(3, 2, 3, 2, "../../data/aspose.png");  
 
-//Get the picture object
+//Get the picture object  
 
-//Picture pic = worksheet.getPictures().get(index);
+//Picture pic = worksheet.getPictures().get(index);  
 
-Picture pic = worksheet.Pictures[index];
+Picture pic = worksheet.Pictures[index];  
 
-//Set the placement type
+//Set the placement type  
 
-pic.Placement = PlacementType.FreeFloating;
+pic.Placement = PlacementType.FreeFloating;  
 
-workbook.Save("../../data/image.xlsx");
+workbook.Save("../../data/image.xlsx");  
 
+{{< /highlight >}}  
 
-{{< /highlight >}}
-## **NPOI - HSSF XSSF - Add Image in Worksheet**
-**C#**
+## **NPOI - HSSF XSSF - Add Image in Worksheet**  
+**C#**  
 
-{{< highlight cs >}}
+{{< highlight cs >}}  
 
- IWorkbook wb = new XSSFWorkbook();
+ IWorkbook wb = new XSSFWorkbook();  
 
-ISheet sheet1 = wb.CreateSheet("First Sheet");
+ISheet sheet1 = wb.CreateSheet("First Sheet");  
 
-//add picture data to this workbook.
+// Add picture data to this workbook.  
 
-byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");  
 
-int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
+int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);  
 
-ICreationHelper helper = wb.GetCreationHelper();
+ICreationHelper helper = wb.GetCreationHelper();  
 
-// Create the drawing patriarch.  This is the top level container for all shapes.
+// Create the drawing patriarch.  This is the top level container for all shapes.  
 
-IDrawing drawing = sheet1.CreateDrawingPatriarch();
+IDrawing drawing = sheet1.CreateDrawingPatriarch();  
 
-// add a picture shape
+// Add a picture shape  
 
-IClientAnchor anchor = helper.CreateClientAnchor();
+IClientAnchor anchor = helper.CreateClientAnchor();  
 
-//set top-left corner of the picture,
+// Set top-left corner of the picture,  
 
-//subsequent call of Picture#resize() will operate relative to it
+// subsequent call of Picture#resize() will operate relative to it  
 
-anchor.Col1 = 3;
+anchor.Col1 = 3;  
 
-anchor.Row1 = 2;
+anchor.Row1 = 2;  
 
-IPicture pict = drawing.CreatePicture(anchor, pictureIdx);
+IPicture pict = drawing.CreatePicture(anchor, pictureIdx);  
 
-//auto-size picture relative to its top-left corner
+// Auto-size picture relative to its top-left corner  
 
-pict.Resize();
+pict.Resize();  
 
-FileStream sw = File.Create("../../data/image.xlsx");
+FileStream sw = File.Create("../../data/image.xlsx");  
 
-wb.Write(sw);
+wb.Write(sw);  
 
-sw.Close();
+sw.Close();  
 
-{{< /highlight >}}
-## **Download Running Code**
-Download **Add Image in Worksheet** form any of the below mentioned social coding sites:
+{{< /highlight >}}  
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
+## **Download Running Code**  
+Download **Add Image in Worksheet** from any of the below mentioned social coding sites:  
 
-{{% alert color="primary" %}} 
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)  
 
-For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+{{% alert color="primary" %}}  
 
-{{% /alert %}}
+For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).  
+
+{{% /alert %}}  
 {{< app/cells/assistant language="csharp" >}}

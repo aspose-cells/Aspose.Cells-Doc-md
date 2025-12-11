@@ -10,14 +10,12 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-
 ## **Comparison Between .NET and Node.js via C++**
 
 When transitioning from Aspose.Cells for .NET to Aspose.Cells for Node.js via C++, there are certain differences to consider in terms of library structure, syntax, and functionality. Below is a comparison to assist you in understanding these differences.
 
 ### **1. Initialization**
-In .NET, objects are often initialized using constructors. In Node.js via C++, you will typically create instances using the `new` keyword but integrated into JavaScript syntax:
+In .NET, objects are often initialized using constructors. In Node.js via C++, you will typically create instances using the `new` keyword, integrated into JavaScript syntax:
 
 ```javascript
 const { Workbook } = require('aspose.cells');

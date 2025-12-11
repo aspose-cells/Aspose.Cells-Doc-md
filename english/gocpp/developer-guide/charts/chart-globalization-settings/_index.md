@@ -1,5 +1,5 @@
 ---
-title: Using ChartGlobalizationSettings Class to Set Different Language for Chart Component with Golang via C++
+title: Using ChartGlobalizationSettings Class to Set a Different Language for Chart Component with Golang via C++
 linktitle: Using ChartGlobalizationSettings Class
 description: Learn how to use the ChartGlobalizationSettings class in Aspose.Cells for C++ to set different languages for chart components. Our guide will help you understand how to localize chart elements, labels, and legends to different languages, allowing you to present your data in a culturally appropriate way.
 keywords: Aspose.Cells for C++, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
@@ -10,20 +10,20 @@ url: /go-cpp/using-chartglobalizationsettings-class-to-set-different-language-fo
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/) class in order to deal with the scenarios where the user wishes to set chart component to different language. custom labels for Subtotals in a spreadsheet. 
+Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/) class in order to deal with scenarios where the user wishes to set chart components to different languages and provide custom labels for subtotals in a spreadsheet. 
 
 ## **Introduction to ChartGlobalizationSettings Class**
 
-The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate such as AxisTitle name, AxisUnit name, ChartTitle name and so on to different language.
+The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate items such as AxisTitle, AxisUnit, ChartTitle, and so on into different languages.
 
-1. [**GetAxisTitleName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getaxistitlename/): Gets the name of Title for Axis.
-1. [**GetAxisUnitName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getaxisunitname/): Gets the Name of Axis Unit.
-1. [**GetChartTitleName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getcharttitlename/): Gets the name of Chart Title.
-1. [**GetLegendDecreaseName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegenddecreasename/): Gets the name of Decrease for Legend.
-1. [**GetLegendIncreaseName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegendincreasename/): Gets the name of increase for Legend.
-1. [**GetLegendTotalName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegendtotalname/): Gets the name of Total for Legend.
-1. [**GetOtherName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getothername/): Gets the name of "Other" labels for Chart.
-1. [**GetSeriesName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getseriesname/): Gets the name of Series in the Chart.
+1. [**GetAxisTitleName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getaxistitlename/): Gets the name of the title for an axis.  
+2. [**GetAxisUnitName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getaxisunitname/): Gets the name of the axis unit.  
+3. [**GetChartTitleName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getcharttitlename/): Gets the name of the chart title.  
+4. [**GetLegendDecreaseName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegenddecreasename/): Gets the name of “Decrease” for the legend.  
+5. [**GetLegendIncreaseName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegendincreasename/): Gets the name of “Increase” for the legend.  
+6. [**GetLegendTotalName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getlegendtotalname/): Gets the name of “Total” for the legend.  
+7. [**GetOtherName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getothername/): Gets the name of the “Other” label for the chart.  
+8. [**GetSeriesName**](https://reference.aspose.com/cells/go-cpp/chartglobalizationsettings/getseriesname/): Gets the name of a series in the chart.  
 
 ### **Custom language translation**
 Here, we will create a waterfall chart based on the following data. The names of chart components will be displayed in English in the chart. We will use a Turkish language example to show how to display the Chart Title, Legend Increase/Decrease names, Total name, and Axis Title in Turkish.
@@ -34,12 +34,12 @@ Here, we will create a waterfall chart based on the following data. The names of
 The following sample code loads the [sample Excel file](waterfall.xlsx).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChartGlobalizationSettings.go" >}}
+
 ## Output generated by the sample code
 
 This is the console output of the above sample code.
 
 {{< highlight java >}}
-
 Workbook chart title: Grafik Başlığı
 
 Workbook chart legend: Artış
@@ -48,6 +48,5 @@ Workbook chart legend: Düşüş
 
 Workbook chart legend: Toplam
 
-Workbook category axis tile: Eksen Başlığı
-
+Workbook category axis title: Eksen Başlığı
 {{< /highlight >}}

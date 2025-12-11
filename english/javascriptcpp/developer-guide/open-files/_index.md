@@ -1,10 +1,10 @@
 ---
-title: Loading and managing Excel, OpenOffice, Json, Csv and Html files
+title: Loading and managing Excel, OpenOffice, JSON, CSV and HTML files
 linktitle: Open Files
 type: docs
 weight: 20
 url: /javascript-cpp/loading-saving-and-managing/
-description: With Aspose.Cells, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, Json, XML, Pdf, Jpg, Tiff, Image, Mht, and XPS files using JavaScript via C++.
+description: With Aspose.Cells, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, JSON, XML, PDF, JPG, TIFF, Image, MHT, and XPS files using JavaScript via C++.
 ---
 
 {{% alert color="primary" %}}
@@ -55,7 +55,7 @@ The following example creates a new workbook from scratch.
             // Access the "A1" cell in the sheet
             const cell = sheet.cells.get("A1");
 
-            // Input the "Hello World!" text into the "A1" cell
+            // Input the "Hello World!" text into cell A1
             cell.value = "Hello World!";
 
             // Save the Excel file and prepare download link
@@ -73,8 +73,8 @@ The following example creates a new workbook from scratch.
 </html>
 ```
 
-## **Opening and saving a File**
-With Aspose.Cells, it is simple to open, save and manage Excel files.
+## **Opening and Saving a File**
+With Aspose.Cells, it is simple to open, save, and manage Excel files.
 
 ```html
 <!DOCTYPE html>
@@ -115,17 +115,17 @@ With Aspose.Cells, it is simple to open, save and manage Excel files.
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Creating a Workbook object and opening an Excel file using its file stream
+            // Creating a Workbook object and opening an Excel file from its file stream
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Adding new sheet
+            // Adding a new sheet
             const sheetIndex = workbook.worksheets.add("MySheet");
             const sheet = workbook.worksheets.get(sheetIndex);
 
-            // Setting active sheet
+            // Setting the active sheet
             workbook.worksheets.activeSheetIndex = 1;
 
-            // Setting values.
+            // Setting values:
             const cells = sheet.cells;
 
             // Setting text
@@ -134,7 +134,7 @@ With Aspose.Cells, it is simple to open, save and manage Excel files.
             // Setting number
             cells.get("A2").putValue(1000);
 
-            // Setting Date Time
+            // Setting date and time
             const cell = cells.get("A3");
             cell.putValue(new Date());
             const style = cell.style;
@@ -178,4 +178,4 @@ With Aspose.Cells, it is simple to open, save and manage Excel files.
 - [Convert Excel to JSON](/cells/javascript-cpp/convert-excel-to-json/)
 - [Convert JSON to CSV](/cells/javascript-cpp/convert-json-to-csv/)
 - [Convert JSON to Excel](/cells/javascript-cpp/convert-json-to-excel/)
-- [Convert Excel to Html](/cells/javascript-cpp/convert-excel-to-html/)
+- [Convert Excel to HTML](/cells/javascript-cpp/convert-excel-to-html/)

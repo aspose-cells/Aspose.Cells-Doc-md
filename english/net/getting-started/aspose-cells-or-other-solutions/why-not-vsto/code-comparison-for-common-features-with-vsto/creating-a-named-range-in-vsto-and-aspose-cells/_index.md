@@ -10,15 +10,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 To create a named range:
 
 1. Set up the worksheet: 
-   1. Instantiate an Application object.(VSTO only.)
+   1. Instantiate an Application object (VSTO only).
    1. Add a Workbook.
    1. Get the first sheet.
-1. Create a named range: 
+2. Create a named range: 
    1. Define a range.
    1. Name the range.
    1. Save the file.
 
 The code examples below show how to perform these steps using VSTO with either C#. The code examples that follow show how to do the same thing using Aspose.Cells for .NET, again with either C#.
+
 ## **VSTO**
 {{< highlight csharp >}}
 
@@ -52,7 +53,7 @@ foreach (Excel.Range cell in range.Cells)
 
 {
 
-	cell.set_Value(Missing.Value, "Test");
+    cell.set_Value(Missing.Value, "Test");
 
 }
 
@@ -65,6 +66,7 @@ wb.SaveCopyAs("Test_Range.xls");
 xl.Quit();
 
 {{< /highlight >}}
+
 ## **Aspose.Cells**
 {{< highlight csharp >}}
 
@@ -88,24 +90,24 @@ for (int row = 0; row < range.RowCount; row++)
 
 {
 
-	for (int column = 0; column < range.ColumnCount; column++)
+    for (int column = 0; column < range.ColumnCount; column++)
 
-	{
+    {
 
-		range[row, column].PutValue("Test");
+        range[row, column].PutValue("Test");
 
-	}
+    }
 
 }
 
-//Saving the modified Excel file in default (that is Excel 2003) format
+//Saving the modified Excel file in the default (i.e., Excel 2003) format
 
 workbook.Save("Test_Range.xls");
 
-
 {{< /highlight >}}
+
 ## **Download Sample Code**
-- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [SourceForge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20(Aspose.Cells).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20(Aspose.Cells).zip)
 {{< app/cells/assistant language="csharp" >}}

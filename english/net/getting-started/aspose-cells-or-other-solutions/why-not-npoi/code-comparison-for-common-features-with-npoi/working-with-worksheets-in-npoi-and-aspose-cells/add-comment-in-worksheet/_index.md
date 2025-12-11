@@ -26,7 +26,7 @@ Worksheet worksheet = workbook.Worksheets[sheetIndex];
 
 //Setting the name of the newly added worksheet
 
-worksheet.Name = "Adding Comment in Execl Cell";
+worksheet.Name = "Adding Comment in Excel Cell";
 
 //Adding a comment to "F5" cell
 
@@ -59,7 +59,7 @@ workbook.Save("Output-AddingComment.xls");
 
 ISheet sheet = hssfworkbook.CreateSheet("Cell comments in POI HSSF");
 
-// Create the drawing patriarch. This is the top level container for all shapes including cell comments.
+// Create the drawing patriarch. This is the top‑level container for all shapes, including cell comments.
 
 HSSFPatriarch patr = (HSSFPatriarch)sheet.CreateDrawingPatriarch();
 
@@ -69,25 +69,25 @@ ICell cell1 = sheet.CreateRow(3).CreateCell(1);
 
 cell1.SetCellValue(new HSSFRichTextString("Hello, World"));
 
-//anchor defines size and position of the comment in worksheet
+// Anchor defines the size and position of the comment in the worksheet.
 
 IComment comment1 = patr.CreateCellComment(new HSSFClientAnchor(0, 0, 0, 0, 4, 2, 6, 5));
 
-// set text in the comment
+// Set text in the comment
 
 comment1.String = (new HSSFRichTextString("We can set comments in POI"));
 
-//set comment author.
+// Set comment author.
 
-//you can see it in the status bar when moving mouse over the commented cell
+// You can see it in the status bar when moving the mouse over the commented cell
 
 comment1.Author = ("Apache Software Foundation");
 
-// The first way to assign comment to a cell is via HSSFCell.SetCellComment method
+// The first way to assign a comment to a cell is via the HSSFCell.SetCellComment method
 
 cell1.CellComment = (comment1);
 
-//Write the stream data of workbook to the root directory
+// Write the workbook's stream data to the root directory
 
 FileStream file = new FileStream(@"OutputAddedCommentInCell.xls", FileMode.Create);
 
@@ -98,7 +98,7 @@ file.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Add Image in Worksheet** form any of the below mentioned social coding sites:
+Download **Add Comment in Worksheet** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 

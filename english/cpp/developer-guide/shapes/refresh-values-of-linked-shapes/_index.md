@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you have a linked shape in your Excel file which is linked to some cell. In Microsoft Excel, changing the value of the linked cell also changes the value of the linked shape. This also works fine with Aspose.Cells if you want to save your workbook in XLS or XLSX format. However, if you want to save your workbook in PDF or HTML format, then you will have to call [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/updateselectedvalue/) method to refresh the value of the linked shape.
+Sometimes, you have a linked shape in your Excel file which is linked to a cell. In Microsoft Excel, changing the value of the linked cell also changes the value of the linked shape. This also works fine with Aspose.Cells if you want to save your workbook in XLS or XLSX format. However, if you want to save your workbook in PDF or HTML format, you will have to call the **Worksheet.Shapes.UpdateSelectedValue()** method to refresh the value of the linked shape.
 
 {{% /alert %}}
 
 ## Example
 
-The following screenshot shows the source Excel file used in the sample code below. It has a linked picture linked to cells A1 to E4. We will change the value of cell B4 with Aspose.Cells and then call [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/updateselectedvalue/) method to refresh the value of the picture and save it in PDF format.
+The following screenshot shows the source Excel file used in the sample code below. It contains a linked picture that is linked to cells A1 to E4. We will change the value of cell B4 with Aspose.Cells and then call the **Worksheet.Shapes.UpdateSelectedValue()** method to refresh the value of the picture and save it in PDF format.
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
@@ -51,7 +51,7 @@ int main()
     Cell cell = worksheet.GetCells().Get(u"B4");
     cell.PutValue(100);
 
-    // Update the value of the Linked Picture which is linked to cell B4
+    // Update the value of the linked picture which is linked to cell B4
     worksheet.GetShapes().UpdateSelectedValue();
 
     // Save the workbook in PDF format

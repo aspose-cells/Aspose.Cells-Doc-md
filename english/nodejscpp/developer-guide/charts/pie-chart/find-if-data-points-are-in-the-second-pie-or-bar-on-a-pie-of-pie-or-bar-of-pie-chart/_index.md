@@ -11,9 +11,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  
-You can find if data points of series are in the second pie on *Pie of Pie* chart or in the bar of *Bar of Pie* chart using Aspose.Cells for Node.js via C++. Please use the [ChartPoint.isInSecondaryPlot()](https://reference.aspose.com/cells/nodejs-cpp/chartpoint/#isInSecondaryPlot--) property to determine it.  
+You can find if data points of a series are in the second pie on a *Pie of Pie* chart or in the bar of a *Bar of Pie* chart using Aspose.Cells for Node.js via C++. Please use the [ChartPoint.isInSecondaryPlot()](https://reference.aspose.com/cells/nodejs-cpp/chartpoint/#isInSecondaryPlot--) property to determine this.  
 
-Please download the [sample excel file](5115193.xlsx) used in the following sample code and see its console output. If you open the [sample excel file](5115193.xlsx), you will find all the data points which are less than 10 are inside the bar of *Bar of Pie* chart as also shown by console output.  
+Please download the sample Excel file ([sample excel file](5115193.xlsx)) used in the following sample code and see its console output. If you open the sample Excel file, you will find that all data points less than 10 are inside the bar of the *Bar of Pie* chart, as also shown by the console output.  
+
 ## **Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart**  
 The following sample code shows how to find if data points are in the second pie or bar on a *Pie of Pie* or *Bar of Pie* chart.  
 
@@ -39,27 +40,28 @@ const series = chart.getNSeries().get(0);
 /* 
 * Print the data points of the chart series and 
 * check its IsInSecondaryPlot property to determine 
-* if data point is inside the bar or pie 
+* if a data point is inside the bar or pie 
 */
 for (let i = 0; i < series.getPoints().getCount(); i++) {
-// Access chart point
-const chartPoint = series.getPoints().get(i);
+    // Access chart point
+    const chartPoint = series.getPoints().get(i);
 
-// Skip null values
-if (chartPoint.get_YValue() === null) continue;
+    // Skip null values
+    if (chartPoint.get_YValue() === null) continue;
 
-/* 
-* Print the chart point value and see if it is inside bar or pie.
-* If the IsInSecondaryPlot is true, then the data point is inside bar 
-* otherwise it is inside the pie. 
-*/
-console.log("Value: " + chartPoint.get_YValue());
-console.log("IsInSecondaryPlot: " + chartPoint.isInSecondaryPlot());
-console.log();
+    /* 
+    * Print the chart point value and see if it is inside bar or pie.
+    * If the IsInSecondaryPlot is true, then the data point is inside the bar,
+    * otherwise it is inside the pie. 
+    */
+    console.log("Value: " + chartPoint.get_YValue());
+    console.log("IsInSecondaryPlot: " + chartPoint.isInSecondaryPlot());
+    console.log();
 }
 ```  
+
 ## **Console Output**  
-Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [ChartPoint.isInSecondaryPlot()](https://reference.aspose.com/cells/nodejs-cpp/chartpoint/#isInSecondaryPlot--) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.  
+Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [ChartPoint.isInSecondaryPlot()](https://reference.aspose.com/cells/nodejs-cpp/chartpoint/#isInSecondaryPlot--) is **false**, the data point is inside the pie; if it is **true**, then the data point is inside the bar.  
 
 {{< highlight javascript >}}  
  Value: 15  
@@ -83,5 +85,5 @@ IsInSecondaryPlot: true
 Value: 25  
 IsInSecondaryPlot: false  
 {{< /highlight >}}  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

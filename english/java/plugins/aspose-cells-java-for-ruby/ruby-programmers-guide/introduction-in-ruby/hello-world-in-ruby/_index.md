@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hello World**
-To Write anything in the Spreadsheet Document using Aspose.Cells for Java in Ruby, simply invoke HelloWorld module.
+To write anything in the spreadsheet document using Aspose.Cells for Java in Ruby, simply invoke the HelloWorld module.
 
 **Ruby Code**
 
@@ -16,27 +16,26 @@ To Write anything in the Spreadsheet Document using Aspose.Cells for Java in Rub
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
-\# Instantiating a Workbook object that represents a Microsoft Excel file.
+# Instantiating a Workbook object that represents a Microsoft Excel file.
 
 workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-\# Note when you create a new workbook, a default worksheet,
+# Note that when you create a new workbook, a default worksheet,
+# "Sheet1", is by default added to the workbook.
 
-\# "Sheet1", is by default added to the workbook.
-
-\# Accessing the first worksheet in the book ("Sheet1").
+# Accessing the first worksheet in the book ("Sheet1").
 
 sheet = workbook.getWorksheets().get(0)
 
-\# Access cell "A1" in the sheet.
+# Access cell "A1" in the sheet.
 
 cell = sheet.getCells().get("A1")
 
-\# Input the "Hello World!" text into the "A1" cell
+# Input the "Hello World!" text into the "A1" cell.
 
 cell.setValue("Hello World!")
 
-\# Saving the modified Excel file in default (that is Excel 2003) format
+# Saving the modified Excel file in the default (that is, Excel 2003) format
 
 file_format_type = Rjb::import('com.aspose.cells.FileFormatType')
 
@@ -46,6 +45,6 @@ puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Hello World (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Hello World (Aspose.Cells)** from any of the below social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

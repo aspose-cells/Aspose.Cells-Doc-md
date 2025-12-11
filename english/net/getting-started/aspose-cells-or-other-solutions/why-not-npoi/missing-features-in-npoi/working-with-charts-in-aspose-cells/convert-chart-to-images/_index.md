@@ -8,8 +8,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Chart to Images**
-Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data.
-The Chart class toImage method converts the chart to an image file, that can be saved to disk or stream.
+Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data.  
+The Chart class's **ToImage** method converts the chart to an image file that can be saved to disk or a stream.
 
 **C#**
 
@@ -25,7 +25,7 @@ WorksheetCollection worksheets = workbook.Worksheets;
 
 Worksheet sheet = worksheets[0];
 
-// Adding some sample value to cells
+// Adding some sample values to cells
 
 Cells cells = sheet.Cells;
 
@@ -67,7 +67,7 @@ chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Convert Chart to Images** form any of the below mentioned social coding sites:
+Download **Convert Chart to Images** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 

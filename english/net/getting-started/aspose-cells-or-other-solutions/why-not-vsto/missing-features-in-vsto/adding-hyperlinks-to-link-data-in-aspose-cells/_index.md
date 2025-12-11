@@ -17,7 +17,7 @@ Using Aspose.Cells, developers can create different kinds of hyperlinks in Micro
 
 ## **Adding Hyperlinks**
 
-Three types of hyperlink can be added to a cell using Aspose.Cells:
+Three types of **hyperlinks** can be added to a cell using Aspose.Cells:
 
 - [Adding link to a URL](#adding-link-to-a-url).
 - [Adding a link to another cell in the same file](#adding-a-link-to-a-cell-in-the-same-file).
@@ -29,44 +29,37 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 ### **Adding Link to a URL**
 
-The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class contains a [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collection. Each item in the Hyperlinks collection represents a Hyperlink. Add hyperlinks to URLs by calling the Hyperlinks collection's Add method. The Add method takes the following parameters:
+The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class contains a [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collection. Each item in the Hyperlinks collection represents a hyperlink. Add hyperlinks to URLs by calling the Hyperlinks collection's `Add` method. The `Add` method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
-- Number of columns, the number of columns in this hyperlink range
+- Number of columns, the number of columns in this hyperlink range.
 - URL, the URL address.
 
 **C#**
 
 {{< highlight csharp >}}
-
  //Instantiating a Workbook object
-
 Workbook workbook = new Workbook();
 
 //Adding a new worksheet to the Workbook object
-
 int i = workbook.Worksheets.Add();
 
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-
 Worksheet worksheet = workbook.Worksheets[i];
 
 //Adding a hyperlink to a URL at "A1" cell
-
 worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
 //Saving the Excel file
-
 workbook.Save("C:\\book1.xls");
-
 {{< /highlight >}}
 
 ### **Adding a Link to a Cell in the Same File**
 
-It is possible to add hyperlinks to cells in the same Excel file by calling the Hyperlink collection's Add method. The Add method works for both internal and external hyperlinks. One version of the overloaded method takes the following parameters:
+It is possible to add hyperlinks to cells in the same Excel file by calling the Hyperlinks collection's `Add` method. The `Add` method works for both internal and external hyperlinks. One version of the overloaded method takes the following parameters:
 
-- Cell name,the name of the cell the hyperlink will be added to.
+- Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
 - Number of columns, the number of columns in this hyperlink range.
 - URL, the address of the target cell.
@@ -74,62 +67,46 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 **C#**
 
 {{< highlight csharp >}}
-
  //Instantiating a Workbook object
-
 Workbook workbook = new Workbook();
 
 //Obtaining the reference of the first (default) worksheet
-
 Worksheet worksheet = workbook.Worksheets[0];
 
 //Adding an internal hyperlink to the "B9" cell of the other worksheet "Sheet2" in
-
 //the same Excel file
-
 worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 
 //Saving the Excel file
-
 workbook.Save("C:\\book1.xls");
-
 {{< /highlight >}}
 
 ### **Adding a Link to an External File**
 
-It is possible to add hyperlinks to external Excel files by calling the Hyperlinks collection's Add method. The Add method takes the following parameters:
+It is possible to add hyperlinks to external Excel files by calling the Hyperlinks collection's `Add` method. The `Add` method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
 - Number of columns, the number of columns in this hyperlink range.
-- URL, the address of the target, external Excel file.
+- URL, the address of the target external Excel file.
 
 **C#**
 
 {{< highlight csharp >}}
-
  //Instantiating a Workbook object
-
 Workbook workbook = new Workbook();
 
 //Adding a new worksheet to the Excel object
-
 int i = workbook.Worksheets.Add();
 
 //Obtaining the reference of the newly added worksheet by passing its sheet index
-
 Worksheet worksheet = workbook.Worksheets[i];
 
-//Adding an internal hyperlink to the "B9" cell of the other worksheet "Sheet2" in
-
-//the same Excel file
-
+//Adding an external hyperlink to the "A5" cell that points to an external Excel file
 worksheet.Hyperlinks.Add("A5", 1, 1, "C:\\book1.xls");
 
 //Saving the Excel file
-
 workbook.Save("C:\\book2.xls");
-
 {{< /highlight >}}
 
 ## **Download Running Code**

@@ -1,5 +1,5 @@
 ---
-title: Set Default Font while rendering spreadsheet to images with Node.js via C++
+title: Set Default Font while rendering a spreadsheet to images with Node.js via C++
 linktitle: Set Default Font while rendering spreadsheet to images
 type: docs
 weight: 360
@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Please use the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to set the default font while rendering spreadsheets to images. This property will only be effective when the default font of the workbook could not render your characters. The default font specified with [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property is used for all those cells which have invalid or non-existent fonts.
+Please use the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to set the default font while rendering spreadsheets to images. This property will only be effective when the default font of the workbook cannot render your characters. The default font specified with [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property is used for all those cells which have invalid or non‑existent fonts.
 
 {{% /alert %}}
 
-## Set Default Font while rendering spreadsheet to images
+## Set Default Font while rendering a spreadsheet to images
 
-The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to an invalid or non-existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to *Times New Roman*.
+The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to an invalid or non‑existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to *Times New Roman*.
 
 This is the output image after setting the [**ImageOrPrintOptions.getDefaultFont()**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getDefaultFont--) property to *Courier New*.
 
@@ -51,18 +51,18 @@ const ws = wb.getWorksheets().get(0);
 const cell = ws.getCells().get("A4");
 cell.putValue("This text has some unknown or invalid font which does not exist.");
 
-// Set the font of cell A4 which is unknown.
+// Set the font of cell A4 to an unknown font.
 let st = cell.getStyle();
 st.getFont().setName("UnknownNotExist");
 st.getFont().setSize(20);
 st.setIsTextWrapped(true);
 cell.setStyle(st);
 
-// Set first column width and fourth column height
+// Set the first column's width and the fourth row's height
 ws.getCells().setColumnWidth(0, 80);
 ws.getCells().setRowHeight(3, 60);
 
-// Create image or print options.
+// Create ImageOrPrintOptions.
 const opts = new AsposeCells.ImageOrPrintOptions();
 opts.setOnePagePerSheet(true);
 opts.setImageType(AsposeCells.ImageType.Png);
@@ -72,7 +72,7 @@ opts.setDefaultFont("Courier New");
 let sr = new AsposeCells.SheetRender(ws, opts);
 sr.toImage(0, "out_courier_new_out.png");
 
-// Render worksheet image again with Times New Roman as default font.
+ // Render worksheet image again with Times New Roman as default font.
 opts.setDefaultFont("Times New Roman");
 sr = new AsposeCells.SheetRender(ws, opts);
 sr.toImage(0, "times_new_roman_out.png");

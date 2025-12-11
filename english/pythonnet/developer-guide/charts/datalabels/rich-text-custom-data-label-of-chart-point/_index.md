@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells for Python via .NET to create rich text custom data label of the chart point. Aspose.Cells for Python via .NET provides the [**DataLabels.characters()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttextframe/characters) method to return the [**FontSetting**](https://reference.aspose.com/cells/python-net/aspose.cells/fontsetting) object which can be used to set the font properties of the text like its color, boldness, etc.
+You can use Aspose.Cells for Python via .NET to create a rich‑text custom data label for a chart point. Aspose.Cells for Python via .NET provides the **DataLabels.characters()** method to return the [**FontSetting**](https://reference.aspose.com/cells/python-net/aspose.cells/fontsetting) object, which can be used to set the font properties of the text, such as its color, boldness, etc.
 
 {{% /alert %}}
 
 ## Rich Text Custom Data Label of Chart Point
 
-The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by settings it's color to red and boldness to **true**.
+The following code accesses the first chart point of the first series, sets its text, and then sets the font of the first 10 characters by setting its color to red and boldness to **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-RichTextCustomDataLabelOfChartPoint.py" >}}
 {{< app/cells/assistant language="python-net" >}}

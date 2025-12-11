@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the [**PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/isautomaticpapersize/) property of the **Worksheet** class.
+Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet according to their requirements. In this case, the paper size is not automatic. You can determine whether the worksheet paper size is automatic by using the [**PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/isautomaticpapersize/) property of the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 
 ## **Determine if Paper Size of Worksheet is Automatic**
 
@@ -21,7 +21,7 @@ The sample code given below loads the following two Excel files
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-and finds if the paper size of their first worksheet is automatic or not. In Microsoft Excel, you can check if the paper size is automatic or not via the Page Setup window as shown in this screenshot.
+and determines whether the paper size of their first worksheet is automatic. In Microsoft Excel, you can check if the paper size is automatic via the Page Setup window as shown in this screenshot.
 
 ![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
@@ -41,10 +41,10 @@ int main()
     // Source directory path
     U16String sourceDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Load the first workbook having automatic paper size false
+    // Load the first workbook with automatic paper size set to false
     Workbook wb1(sourceDir + u"samplePageSetupIsAutomaticPaperSize-False.xlsx");
 
-    // Load the second workbook having automatic paper size true
+    // Load the second workbook with automatic paper size set to true
     Workbook wb2(sourceDir + u"samplePageSetupIsAutomaticPaperSize-True.xlsx");
 
     // Access the first worksheet of both workbooks
@@ -63,11 +63,10 @@ int main()
 
 Here is the console output of the above sample code when executed with the given sample Excel files.
 
-{{< highlight java >}}
-
+{{< highlight cpp >}}
 First Worksheet of First Workbook - IsAutomaticPaperSize: False
 
 First Worksheet of Second Workbook - IsAutomaticPaperSize: True
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="cpp" >}}

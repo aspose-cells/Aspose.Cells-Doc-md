@@ -31,7 +31,7 @@ To improve performance, set the Performance parameter to **ON**.
 
 The various performance parameters are as follows:
 
-- **LimitCellsNumberForMerged**: the maximum number of cells that can be merged. The default value 1,000,000. The parameter value is set by the user and is not affected by the performance parameter switch. 
+- **LimitCellsNumberForMerged**: the maximum number of cells that can be merged. The default value is 1,000,000. The parameter value is set by the user and is not affected by the Performance parameter switch. 
 
 {{< highlight java >}}
 
@@ -39,10 +39,7 @@ The various performance parameters are as follows:
 
 {{< /highlight >}}
 
-
-
-
-- **IsAutoRowFit**: When the value of Performance is **off**, the value of IsAutoRowFit is **false** by default. When the value of performance parameter is **on**, the value is **true** by default. When the value of Performance is **on**, a sub-element report can reset point report to the AutoRowFit value. 
+- **IsAutoRowFit**: When the value of Performance is **off**, IsAutoRowFit is **false** by default. When the Performance parameter is **on**, the value is **true** by default. When Performance is **on**, a sub‑element report can reset the report's AutoRowFit value. 
 
 {{< highlight java >}}
 
@@ -64,10 +61,7 @@ The various performance parameters are as follows:
 
 {{< /highlight >}}
 
-
-
-
-- **IsMerged**: When the value of Performance is **off**, IsMerged default value is **false**. When the value of Performance is **on**, the default value is **true**. When the value Performance parameter is **on**, a sub-element report can reset the point report to the AutoRowFit value. 
+- **IsMerged**: When the value of Performance is **off**, IsMerged is **false** by default. When the value of Performance is **on**, the default value is **true**. When the Performance parameter is **on**, a sub‑element report can reset the report's Merged value. 
 
 {{< highlight java >}}
 
@@ -89,10 +83,7 @@ The various performance parameters are as follows:
 
 {{< /highlight >}}
 
-
-
-
-- **IsSetStyle**: When the value of Performance is **off**, the default value is **false**. When Performance is **on**, the default value is **true**. Also, when Performance is **on**, a sub-element report can reset the point report to the AutoRowFit value. 
+- **IsSetStyle**: When the value of Performance is **off**, the default value is **false**. When Performance is **on**, the default value is **true**. Also, when Performance is **on**, a sub‑element report can reset the report's SetStyle value. 
 
 {{< highlight java >}}
 
@@ -114,10 +105,7 @@ The various performance parameters are as follows:
 
 {{< /highlight >}}
 
-
-
-
-- **IsConditionalFormatting**: When Performance is **off**, the default value is **false**. When Performance is **on**, the default value is **true**. Also, when Performance is **on**, a sub-element report can reset the point report to the AutoRowFit value. When the IsSetStyle parameter value is set to **false**, the value of Performance is invalid. 
+- **IsConditionalFormatting**: When Performance is **off**, the default value is **false**. When Performance is **on**, the default value is **true**. Also, when Performance is **on**, a sub‑element report can reset the report's ConditionalFormatting value. When the IsSetStyle parameter is **false**, the ConditionalFormatting setting is ignored. 
 
 {{< highlight java >}}
 

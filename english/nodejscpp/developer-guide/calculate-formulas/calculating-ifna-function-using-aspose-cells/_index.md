@@ -1,7 +1,7 @@
 ---
 title: Calculating IFNA function using Aspose.Cells for Node.js via C++
-description: How to calculate IFNA functions using the Aspose.Cells library for Node.js via C++. Load an existing Excel file or create a new one, and calculate the IFNA function to get the result. Finally, save the modified Excel file to disk.
-keywords: Aspose.Cells, Excel, IFNA functions, calculations Node.js via C++
+description: How to calculate the IFNA function using the Aspose.Cells library for Node.js via C++. Load an existing Excel file or create a new one, calculate the IFNA function to get the result, and finally save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, IFNA functions, calculations, Node.js via C++
 type: docs
 weight: 40
 url: /nodejs-cpp/calculating-ifna-function-using-aspose-cells/
@@ -16,7 +16,6 @@ Aspose.Cells supports the calculation of the IFNA Excel function. The IFNA funct
 {{% /alert %}} 
 ## **Calculating IFNA function using Aspose.Cells for Node.js via C++**
 The following sample code illustrates the calculation of the IFNA function using Aspose.Cells for Node.js via C++.
-
 
 ```javascript
 const path = require("path");
@@ -45,7 +44,7 @@ const cellA6 = worksheet.getCells().get("A6");
 cellA5.setFormula('=IFNA(VLOOKUP("Pear",$A$1:$A$3,1,0),"Not found")');
 cellA6.setFormula('=IFNA(VLOOKUP("Orange",$A$1:$A$3,1,0),"Not found")');
 
-// Calculate the formula of workbook
+// Calculate the workbook's formulas
 workbook.calculateFormula();
 
 // Print the values of A5 and A6

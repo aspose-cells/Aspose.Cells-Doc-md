@@ -17,13 +17,13 @@ Aspose.Cells can help you retrieve SQL connection data. This includes any and al
 
 In Microsoft Excel, connect to a database by:
 
-1. Clicking the **Data** menu and selecting **From Other Sources** followed by **From SQL Server**.
-1. Then select **Data** followed by **Connections**.
-1. Use the Connections wizard to connect to the database and create a database query.
+1. Click the **Data** menu and select **From Other Sources**, then **From SQL Server**.
+2. Select **Data**, then **Connections**.
+3. Use the Connections wizard to connect to the database and create a database query.
 
 Aspose.Cells provides the `Workbook::get_DataConnections()` method for retrieving external connections. It returns a collection of `ExternalConnection` objects in the workbook.
 
-If the `ExternalConnection` object contains SQL connection data, it can be type-casted to a `DBConnection` object and its properties can be used to retrieve database command, command type, connection description, connection information, credentials, and so on.
+If the `ExternalConnection` object contains SQL connection data, it can be type‑cast to a `DBConnection` object and its properties can be used to retrieve the database command, command type, connection description, connection information, credentials, and so on.
 
 ```c++
 #include <iostream>
@@ -42,7 +42,7 @@ int main()
     // Create a workbook object from source file
     Workbook workbook(srcDir + u"connection.xlsx");
 
-    // Access the external collections
+    // Access the external connections collection
     ExternalConnectionCollection connections = workbook.GetDataConnections();
 
     int connectionCount = connections.GetCount();
@@ -53,7 +53,7 @@ int main()
     {
         connection = connections.Get(i);
 
-        // Check if the Connection is DBConnection, then retrieve its various properties
+        // Check if the connection is a DBConnection, then retrieve its various properties
         if (connection.GetClassType() == ExternalConnectionClassType::Database)
         {
             DBConnection dbConn = static_cast<DBConnection&>(connection);

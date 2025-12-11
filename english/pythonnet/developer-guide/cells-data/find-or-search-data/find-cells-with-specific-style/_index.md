@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells for Python via .NET to find all cells with a common style. Aspose.Cells for Python via .NET provides the [**FindOptions.style**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/style/) property which you can use to specify the style to search cells for.
+Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells for Python via .NET to find all cells with a common style. Aspose.Cells for Python via .NET provides the [**FindOptions.style**](https://reference.aspose.com/cells/python-net/aspose.cells/findoptions/style/) property, which you can use to specify the style to search for.
 
 {{% /alert %}}
 

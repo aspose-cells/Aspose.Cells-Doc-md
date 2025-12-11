@@ -8,10 +8,10 @@ description: Learn how to export a worksheet or chart to an image with specified
 ---
 
 {{% alert color="primary" %}}
-You can use Aspose.Cells for JavaScript via C++ to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.desiredSize(number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#desiredSize-number-number-boolean-) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.
+You can use Aspose.Cells for JavaScript via C++ to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.desiredSize(number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#desiredSize-number-number-boolean-) method to set the desired width and height of the exported image. The width and height are specified in units of pixels.
 {{% /alert %}}
 
-The following code exports the worksheet into an image with 400x400 size.  
+The following code exports the worksheet into an image with a size of 400 × 400.  
 
 ```html
 <!DOCTYPE html>

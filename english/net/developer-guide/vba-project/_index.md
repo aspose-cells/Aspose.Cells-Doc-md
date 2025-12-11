@@ -1,10 +1,10 @@
 ---
-title: Manage VBA codes of Excel Macro-Enabled workbook.
+title: Manage VBA code of Excel Macro‑Enabled workbook.
 linktitle: Macro Project
 type: docs
 weight: 200
 url: /net/manage-vba-project/
-description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
+description: Add VBA module and modify VBA or macro with Aspose.Cells library.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Add a VBA Module in C#**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA module and macro code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA module inside the workbook.
 
 {{% /alert %}}
 
-The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once, you will open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and inside it, you will see the following macro code.
+The following sample code creates a new workbook, adds a new VBA module and macro code, and saves the output in the XLSM format. When you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named **TestModule** and inside it, you will see the following macro code.
 
 {{< highlight java >}}
 
@@ -28,7 +28,7 @@ End Sub
 
 {{< /highlight >}}
 
-Here is the sample code to generate the output XLSM file with VBA Module and Macro Code.
+Here is the sample code to generate the output XLSM file with a VBA module and macro code.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 
@@ -36,18 +36,18 @@ Here is the sample code to generate the output XLSM file with VBA Module and Ma
 
 {{% alert color="primary" %}} 
 
-You can modify VBA or Macro Code using Aspose.Cells. Aspose.Cells has added the following namespace and classes to read and modify the VBA project in the Excel file.
+You can modify VBA or macro code using Aspose.Cells. Aspose.Cells has added the following namespaces and classes to read and modify the VBA project in the Excel file.
 
 - Aspose.Cells.Vba
 - VbaProject
 - VbaModuleCollection
 - VbaModule
 
-This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells.
+This article will show you how to change the VBA or macro code inside the source Excel file using Aspose.Cells.
 
 {{% /alert %}} 
 
-The following sample code loads the source Excel file which has a following VBA or Macro code inside it
+The following sample code loads the source Excel file which has the following VBA or macro code inside it:
 
 {{< highlight java >}}
 
@@ -59,7 +59,7 @@ End Sub
 
 {{< /highlight >}}
 
-After the execution of Aspose.Cells sample code, the VBA or Macro code will be modified like this
+After executing the Aspose.Cells sample code, the VBA or macro code will be modified as follows:
 
 {{< highlight java >}}
 
@@ -73,11 +73,9 @@ End Sub
 
 You can download the [source Excel file](5112508.xlsm) and the [output Excel file](5112511.xlsm) from the given links.
 
-
-
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ModifyingVBAOrMacroCode-ModifyingVBAOrMacroCode.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add a library reference to VBA project in workbook](/cells/net/add-a-library-reference-to-vba-project-in-workbook/)
 - [Assign Macro to Form Control](/cells/net/assign-macro-to-form-control/)
 - [Check if Digital Signature of VBA Code is Valid](/cells/net/check-if-digital-signature-of-vba-code-is-valid/)

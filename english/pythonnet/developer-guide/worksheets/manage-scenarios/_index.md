@@ -26,7 +26,6 @@ Use the [**Worksheet.scenarios**](https://reference.aspose.com/cells/python-net/
 1. Open an Excel file containing scenarios
 2. Remove an existing scenario
 3. Add a new scenario
-
 4. Save the modified workbook
 
 ```python
@@ -52,7 +51,7 @@ if len(worksheet.scenarios) > 0:
     # Get the scenario
     scenario = worksheet.scenarios[i]
     # Add comment to it
-    scenario.comment = "Test sceanrio is created."
+    scenario.comment = "Test scenario is created."
     # Get the input cells for the scenario
     sic = scenario.input_cells
     # Add the scenario on B4 (as changing cell) with default value

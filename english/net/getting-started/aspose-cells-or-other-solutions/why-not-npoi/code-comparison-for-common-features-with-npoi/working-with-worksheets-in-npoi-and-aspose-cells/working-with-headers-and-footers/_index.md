@@ -26,7 +26,7 @@ Worksheet worksheet = worksheets.Add("My Worksheet");
 
 PageSetup pageSetup = worksheet.PageSetup;
 
-//Setting worksheet name at the left  header
+//Setting worksheet name in the left header
 
 pageSetup.SetHeader(0, "&A");
 
@@ -77,7 +77,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Working with Headers and Footers** form any of the below mentioned social coding sites:
+Download **Working with Headers and Footers** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 

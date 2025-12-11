@@ -4,7 +4,7 @@ linktitle: Specify Custom Number Decimal and Group Separators for Workbook
 type: docs
 weight: 110
 url: /javascript-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Change Number decimal and group separators in Excel using Aspose.Cells for JavaScript via C++.
+description: Change number decimal and group separators in Excel using Aspose.Cells for JavaScript via C++.
 keywords: specify custom decimal separator excel JavaScript via C++, specify custom group separator excel JavaScript via C++, change decimal and group separator excel JavaScript via C++
 ---
 
@@ -24,9 +24,9 @@ The following screenshot shows the **Advanced Excel Options** and highlights the
 
 ## **Specifying Custom Separators using Aspose.Cells for JavaScript via C++**
 
-The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.
+The following sample code illustrates how to specify the custom separators using the Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as a dot and a space, respectively.
 
-### JavaScript code to specify custom Number Decimal and Group Separators
+### JavaScript code to specify custom number decimal and group separators
 
 ```html
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ The following sample code illustrates how to specify the Custom Separators using
 
             worksheet.autoFitColumns();
 
-            // Save workbook as pdf
+            // Save workbook as PDF
             const outputData = workbook.save(SaveFormat.Pdf);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             const downloadLink = document.getElementById('downloadLink');

@@ -19,13 +19,13 @@ Aspose.Cells provides [Cells.DeleteRange](https://reference.aspose.com/cells/jav
 
 ## **Delete Ranges And Shift Cells Left**
 
-Delete a ranage and shift cells left as the following codes with Aspose.Cells:
+Delete a range and shift cells left as shown in the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Left.java" >}}
 
 ## **Delete Ranges And Shift Cells Up**
 
-Delete a ranage and shift cells up as the following codes with Aspose.Cells:
+Delete a range and shift cells up as shown in the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Delete-Range-Up.java" >}}
 

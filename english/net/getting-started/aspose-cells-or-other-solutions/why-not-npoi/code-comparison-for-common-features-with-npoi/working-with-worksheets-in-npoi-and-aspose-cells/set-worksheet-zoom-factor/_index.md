@@ -49,7 +49,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Set Worksheet Zoom Factor** form any of the below mentioned social coding sites:
+Download **Set Worksheet Zoom Factor** from any of the below-mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 

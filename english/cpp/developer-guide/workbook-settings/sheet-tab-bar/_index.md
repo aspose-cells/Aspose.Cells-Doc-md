@@ -4,14 +4,14 @@ linktitle: How to Control Sheet Tab Bar
 type: docs
 weight: 600
 url: /cpp/how-to-control-sheet-tab-bar/
-description: Learn how to Control Sheet Tab Bar through the Aspose.Cells for C++ API.
-keywords: How to Control Sheet Tab Bar, Operate Sheet Tab Bar, Set Sheet Tab Bar, Control Sheet Tab Bar. 
+description: Learn how to control the sheet tab bar through the Aspose.Cells for C++ API.
+keywords: How to Control Sheet Tab Bar, Operate Sheet Tab Bar, Set Sheet Tab Bar, Control Sheet Tab Bar.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you need to adjust the display of the Excel sheet bar, you need to know how to control the sheet tab bar, such as hiding or showing the sheet tab bar, changing the sheet tab bar width, specifying the first visible tab, and so on. Aspose.Cells supports these features. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to adjust the display of the Excel sheet tab bar, you need to know how to control the sheet tab bar, such as hiding or showing the sheet tab bar, changing the sheet tab bar width, specifying the first visible tab, and so on. Aspose.Cells supports these features. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 
 - [**WorkbookSettings.GetShowTabs()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getshowtabs/)
 - [**WorkbookSettings.GetSheetTabBarWidth()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getsheettabbarwidth/)
@@ -20,9 +20,9 @@ When you need to adjust the display of the Excel sheet bar, you need to know how
 ## **How to Control Sheet Tab Bar using Aspose.Cells for C++**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Display the sheet tab and set the width of the tab bar.
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Display the sheet tabs and set the width of the tab bar.
 
 ```c++
 #include <iostream>
@@ -36,11 +36,11 @@ int main()
     // Create a Workbook object
     Workbook workbook;
 
-    // Obtain the reference to the newly added worksheet
+    // Obtain a reference to the first worksheet
     Worksheet ws = workbook.GetWorksheets().Get(0);
     Cells cells = ws.GetCells();
 
-    // Setting the value to the cells
+    // Set the values of the cells
     Cell cell = cells.Get(u"A1");
     cell.PutValue(u"Fruit");
     cell = cells.Get(u"B1");
@@ -57,7 +57,7 @@ int main()
     cell = cells.Get(u"A5");
     cell.PutValue(u"Cherry");
 
-    // Display the sheet tab and set the width of the tab bar
+    // Display the sheet tabs and set the width of the tab bar
     workbook.GetSettings().SetShowTabs(true);
     workbook.GetSettings().SetSheetTabBarWidth(150);
 

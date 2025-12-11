@@ -9,7 +9,7 @@ url: /go-cpp/create-dynamic-chart/
 --- 
 
 ## **Possible Usage Scenarios** 
-A Dynamic Chart in Excel is a type of chart that automatically updates itself based on changes in the underlying data. It allows users to create interactive and visually appealing charts that can dynamically display information in real-time.
+A Dynamic Chart in Excel is a type of chart that automatically updates itself based on changes in the underlying data. It allows users to create interactive and visually appealing charts that can dynamically display information in real time.
 
 With Dynamic Charts, users can easily select and highlight specific data ranges or categories, and the chart will automatically adjust itself to reflect these changes. This feature is particularly useful when working with large sets of data that frequently change or when presenting data that requires constant updates.
 
@@ -17,10 +17,10 @@ Dynamic Charts can be created using various chart types such as column, line, ba
 
 Overall, Dynamic Charts in Excel provide flexibility and efficiency in data visualization, allowing users to present information effectively while saving time and effort in manual chart updates.
 
-## **Use Aspose Cells to create Dynamic Chart** 
-We can use Aspose Cells to create Dynamic Chart in Excel files. In the Advance topics, we will show you how to use Aspose Cells to create dynamic charts.
+## **Use Aspose.Cells to Create Dynamic Chart** 
+We can use Aspose.Cells to create a dynamic chart in Excel files. In the Advanced topics, we will show you how to use Aspose.Cells to create dynamic charts.
 
-## **Advance topics** 
-- [Create Dynamic Rolling Chart using Aspose Cells](/cells/cpp/create-dynamic-rolling-chart/) 
-- [Create Dynamic Scrolling Chart using Aspose Cells](/cells/cpp/create-dynamic-scrolling-chart/) 
-- [Create Dynamic Chart with Dropdownlist using Aspose Cells](/cells/cpp/create-dynamic-chart-with-dropdownlist/) 
+## **Advanced topics** 
+- [Create Dynamic Rolling Chart using Aspose.Cells](/cells/cpp/create-dynamic-rolling-chart/) 
+- [Create Dynamic Scrolling Chart using Aspose.Cells](/cells/cpp/create-dynamic-scrolling-chart/) 
+- [Create Dynamic Chart with Dropdownlist using Aspose.Cells](/cells/cpp/create-dynamic-chart-with-dropdownlist/)

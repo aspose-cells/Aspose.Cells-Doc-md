@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-After you create a chart in a worksheet, then you can set category axis for it. In this article, we will show you how to set category axis for Excel chart, using Aspose.Cells for Python via .NET with sample code.
+After you create a chart in a worksheet, you can then set the category axis for it. In this article, we will show you how to set the category axis for an Excel chart using Aspose.Cells for Python via .NET with sample code.
 
 ## **The steps in sample code**
 
@@ -20,9 +20,9 @@ After you create a chart in a worksheet, then you can set category axis for it. 
 
 3. Add some values to cells in the first worksheet.
 
-4. Now you can set the category axis, there are two ways: using cell data, or using strings directly, both of which are shown in the sample code.
+4. Now you can set the category axis. There are two ways: using cell data or using strings directly; both are shown in the sample code.
 
-5. Set value axis, save the workbook to view the result.
+5. Set the value axis and save the workbook to view the result.
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CategoryAxis-settings.py" >}}

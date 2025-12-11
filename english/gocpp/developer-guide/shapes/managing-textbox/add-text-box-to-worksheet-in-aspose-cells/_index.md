@@ -10,7 +10,7 @@ keywords: add/insert Text Box TextBox Worksheet Excel Aspose
 
 ## Add Text Box to Worksheet in Excel
 
-In the Excel program (version 07 and above), there are two places where you can insert text boxes. One in "insert-shapes", the other is on the right side of the top menu of the "Insert" option.
+In Excel (version 2007 and above), there are two places where you can insert text boxes: one in **Insert Shapes**, and the other on the right side of the top menu of the **Insert** option.
 
 ### Method One:
 
@@ -25,19 +25,20 @@ In the Excel program (version 07 and above), there are two places where you can 
 You can create text boxes with horizontal or vertical text.
 
 - Select the corresponding option (horizontal or vertical)
-- Left click on the page
-- Hold down the left button and drag a distance on the page
-- Release the left button
+- Left‑click on the page
+- Hold down the left mouse button and drag a distance on the page
+- Release the left mouse button
 
-Now you get a text box.
+Now you have a text box.
 
 ## Add Text Box to Worksheet in Aspose.Cells
 
-When you need to bulk insert TextBox into the worksheet, the manual insertion method is obviously a disaster. If this bothers you, I think this document will help you. [Aspose.Cells](https://products.aspose.com/cells/) provides you with an API to easily do bulk inserts in your code.
+When you need to bulk insert a TextBox into a worksheet, the manual insertion method is obviously impractical. If this bothers you, this document will help. [Aspose.Cells](https://products.aspose.com/cells/) provides an API to easily perform bulk inserts in your code.
 
 The following sample code creates a text box.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AddTextBoxToWorksheetInAsposeCells.go" >}}
-You will get a file similar to [result file](result.xlsx). In the file, you will see the following:
+
+You will get a file similar to the [result file](result.xlsx). In the file, you will see the following:
 
 ![](52449.png)

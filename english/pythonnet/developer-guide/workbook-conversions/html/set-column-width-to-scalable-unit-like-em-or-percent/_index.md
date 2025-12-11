@@ -7,7 +7,7 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Generating an HTML file from a spreadsheet is very common. The size of the columns is defined in "pt" which works in many cases. However, there can be a case where this fixed size may not be required. For example, if a container panel width is 600px where this HTML page is being displayed. In this case, you may get a horizontal scrollbar if the generated table width is bigger. It was required that this fixed size shall be changed into a scalable unit like em or percent to get a better presentation. Following sample code can be used where [**HtmlSaveOptions.width_scalable**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/width_scalable) is set to **true** for creating scalable width.
+Generating an HTML file from a spreadsheet is very common. The size of the columns is defined in "pt", which works in many cases. However, there can be a case where this fixed size is not suitable. For example, if a container panel width is 600 px where this HTML page is displayed, you may get a horizontal scrollbar if the generated table width is larger. It is required that this fixed size be changed to a scalable unit such as em or percent to achieve a better presentation. The following sample code can be used, where **HtmlSaveOptions.width_scalable** is set to **true** to create a scalable width.
 
 Sample source file and output files can be downloaded from the following links:
 

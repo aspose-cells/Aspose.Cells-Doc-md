@@ -15,7 +15,7 @@ Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cell
 
 ## **Adding VBA Module and Code using Aspose.Cells**
 
-The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once, you will open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and inside it, you will see the following macro code.
+The following sample code creates a new workbook, adds a new VBA module and macro code, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and, inside it, the following macro code.
 
 {{< highlight java >}}
 
@@ -29,7 +29,7 @@ End Sub
 
 ## Sample Code
 
-Here is a sample code to generate the output XLSM file with VBA Module and Macro Code.
+Here is sample code to generate the output XLSM file with a VBA module and macro code.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}
 {{< app/cells/assistant language="java" >}}

@@ -70,7 +70,7 @@ int main()
     cout << "Creating Range A1" << endl;
     rng = ws.GetCells().CreateRange(u"A1");
 
-    // Print range offset, entire column and entire row
+    // Print range offset, entire column, and entire row
     cout << "Offset: " << rng.GetOffset(2, 2).GetAddress().ToUtf8() << endl;
     cout << "Entire Column: " << rng.GetEntireColumn().GetAddress().ToUtf8() << endl;
     cout << "Entire Row: " << rng.GetEntireRow().GetAddress().ToUtf8() << endl;
@@ -85,7 +85,7 @@ int main()
 ```
 
 ## **Console Output**
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 Creating Range A1:B3
 
@@ -93,7 +93,7 @@ Range Address: A1:B3
 
 Cell Count: 6
 
-\----------------------
+----------------------
 
 Creating Range A1
 
@@ -103,7 +103,7 @@ Entire Column: A:A
 
 Entire Row: 1:1
 
-\----------------------
+----------------------
 
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}

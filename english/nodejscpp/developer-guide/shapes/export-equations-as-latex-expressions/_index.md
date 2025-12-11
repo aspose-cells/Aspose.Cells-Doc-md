@@ -1,14 +1,14 @@
----
-title: How to export excel equations to other types of expressions
-linktitle: export equation
-type: docs
-weight: 100
-url: /nodejs-cpp/export-equation/
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: How to export excel equations to other types of expressions  
+linktitle: export equation  
+type: docs  
+weight: 100  
+url: /nodejs-cpp/export-equation/  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, then Aspose.Cells library can meet your needs. The following content introduces some methods on how to export Excel formulas to other formats, I hope these methods will be helpful to you.
+Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, and the Aspose.Cells library can meet those requirements. The following content introduces several methods for exporting Excel formulas to other formats; I hope these methods will be helpful to you.
 
 We have prepared sample code here to help you achieve your goals using Aspose.Cells. Necessary sample files are also provided.
 
@@ -37,7 +37,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 let sb = [
 "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n    <script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML\"></script>\r\n    <script type=\"text/x-mathjax-config\">\r\n        MathJax.Hub.Config({\r\n\t    tex2jax: {\r\n\t        inlineMath: [['$','$'], ['\\\\(','\\\\)']],\r\n\t        processEscapes: true\r\n\t    }\r\n\t
-```
+```  
 
 ## Export equations as MathML expressions
 

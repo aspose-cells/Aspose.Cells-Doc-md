@@ -15,17 +15,17 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 {{% /alert %}}  
 
 
-## **Protect and unprotect Workbook Structure in MS Excel**  
+## **Protect and Unprotect Workbook Structure in MS Excel**  
 
 **![protect and unprotect workbook structure](protect-and-unprotect-workbook-structure.png)**  
 
 1. Click **Review > Protect Workbook**.  
-1. Enter a password in **the Password box**.  
-1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.  
+2. Enter a password in the Password box.  
+3. Select **OK**, re‑enter the password to confirm it, and then select **OK** again.  
 
 
 ## **Protect Workbook Structure Using Aspose.Cells for Node.js via C++**  
-Only need the following simple lines of code to implement protecting workbook structure of Excel files.  
+Only the following simple lines of code are needed to implement protecting the workbook structure of Excel files.  
 
 ```javascript
 const path = require("path");
@@ -43,7 +43,7 @@ workbook.save(filePath);
 ```  
 
 ## **Unprotect Workbook Structure Using Aspose.Cells for Node.js via C++**  
-Unprotecting workbook structure is easy with Aspose.Cells API.  
+Unprotecting workbook structure is easy with the Aspose.Cells API.  
 
 ```javascript
 const path = require("path");
@@ -53,7 +53,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Book1.xlsx");
 
-// Open an Excel file which workbook structure is protected.
+// Open an Excel file whose workbook structure is protected.
 const workbook = new AsposeCells.Workbook(filePath);
 // Unprotect workbook structure.
 workbook.unprotect("password");

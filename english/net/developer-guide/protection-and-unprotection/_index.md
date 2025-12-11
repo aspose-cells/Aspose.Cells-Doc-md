@@ -5,19 +5,19 @@ type: docs
 weight: 68
 url: /net/protect-and-unprotect/
 alias: [/net/security-features/]
-description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using CSharp codes.
+description: This snippet introduces how to encrypt and decrypt Excel files, and protect and unprotect data in Excel files using C# code.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
 {{% alert color="primary" %}}
-Aspose.Cells for .Net offers a wide range of protection and unprotection from file to data level like MS Excel:
+Aspose.Cells for .NET offers a wide range of protection and unprotection, from file to data level, similar to MS Excel:
 {{% /alert %}}
 
 
 ## [**Encrypt and decrypt Excel files**](/cells/net/encrypt-and-decrypt-excel-files/)
-To prevent others from accessing data in Excel files, protect Excel file with a password.
+To prevent others from accessing data in Excel files, protect the Excel file with a password.
 
 ## [**Protect and unprotect workbook**](/cells/net/protect-and-unprotect-workbook-structure/)
 To prevent other users from viewing hidden worksheets, adding, moving, deleting, or hiding worksheets, and renaming worksheets, you can protect the structure of your Excel workbook with a password.
@@ -29,9 +29,9 @@ To prevent other users from accidentally or deliberately changing, moving, or de
 Protect and unprotect the shared workbook.
 
 ## [**Add or remove a digital signature in Office files**](/cells/net/assign-and-validate-digital-signatures/)
-Protect the authenticity of a document's content, you can add a digital signature.
+To protect the authenticity of a document's content, you can add a digital signature.
 
-## **Advance topics**
+## **Advanced topics**
 - [Check Password to modify using Aspose.Cells](/cells/net/check-password-to-modify-using-aspose-cells/)
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/net/encrypting-excel-files/)

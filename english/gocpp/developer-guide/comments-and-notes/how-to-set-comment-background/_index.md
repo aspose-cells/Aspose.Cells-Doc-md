@@ -4,13 +4,13 @@ linktitle: Comment Background
 type: docs
 weight: 190
 url: /go-cpp/how-to-set-comment-background/
-description: How to change color in comment in Excel. How to insert picture or image in comment in Excel using C++.
-keywords: add inset picture image color comment background excel
+description: How to change the color of a comment in Excel. How to insert a picture or image into a comment in Excel using C++.
+keywords: add insert picture image color comment background excel
 ---
 
 {{% alert color="primary" %}}
 
-Comments are added to cells to record comments, anything from the details of how a formula is worked, where a value comes from, or questions from reviewers. Comments play an extremely important role when multiple people discuss or review the same document at different times. How to distinguish different people's comments? Yes, we can set a different background color for each comment. But when we need to process a lot of documents and a lot of comments, doing it manually is a disaster. Fortunately, [**Aspose.Cells**](https://products.aspose.com/cells/go-cpp/) provides an API that allows you to do this in code.
+Comments are added to cells to record notes, anything from the details of how a formula works, where a value comes from, or questions from reviewers. Comments play an extremely important role when multiple people discuss or review the same document at different times. **How can we distinguish different people's comments?** Yes, we can set a different background color for each comment. But when we need to process a lot of documents and a lot of comments, doing it manually is a disaster. Fortunately, [**Aspose.Cells**](https://products.aspose.com/cells/go-cpp/) provides an API that allows you to do this in code.
 
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ When you don't need the default background color for comments, you may want to r
 
 The following code will guide you on how to use [**Aspose.Cells**](https://products.aspose.com/cells/go-cpp/) to add your favorite background color to comments of your own choice.
 
-Here we have prepared a [sample file](exmaple.xlsx) for you. This file is used to initialize the Workbook object in the code below.
+Here we have prepared a [sample file](example.xlsx) for you. This file is used to initialize the Workbook object in the code below.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-HowToSetCommentBackground.go" >}}
 Execute the above code, and you will get an [output file](result.xlsx).

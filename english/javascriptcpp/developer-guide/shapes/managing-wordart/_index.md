@@ -9,7 +9,7 @@ description: Learn how to add WordArt as a background watermark to a worksheet u
 
 {{% alert color="primary" %}} 
 
-Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, and make text fit a preset shape, or apply text to an Excel sheet as a background watermark. The WordArt becomes an object that you can move or position in spreadsheets to add decoration.
+Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, make text fit a preset shape, or apply text to an Excel sheet as a background watermark. WordArt becomes an object that you can move or position in spreadsheets to add decoration.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ The following example shows how to add a WordArt shape to set a background water
             const wordart = sheet.shapes.addTextEffect(AsposeCells.MsoPresetTextEffect.TextEffect1,
                 "CONFIDENTIAL", "Arial Black", 50, false, true, 18, 8, 1, 1, 130, 800);
 
-            // Get the fill format of the word art
+            // Get the fill format of the WordArt
             const wordArtFormat = wordart.fill;            
 
             // Set the transparency
@@ -89,7 +89,7 @@ The following example shows how to add a WordArt shape to set a background water
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Word Art Text with Built-in Styles](/cells/javascript-cpp/add-word-art-text-with-built-in-styles/)
 - [Locking WordArt Watermark](/cells/javascript-cpp/locking-wordart-watermark/)
 - [Set preset WordArt style to the text of the shape](/cells/javascript-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)

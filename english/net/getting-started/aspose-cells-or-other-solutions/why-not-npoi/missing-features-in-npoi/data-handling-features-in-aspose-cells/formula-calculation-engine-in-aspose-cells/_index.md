@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Formula Calculation Engine**
-The formula calculation engine is embedded in Aspose.Cells. It can not only re-calculate the formula imported from a designer spreadsheet file but also supports to calculate the results of formulas added at runtime.
+The formula calculation engine is embedded in Aspose.Cells. It can not only recalculate the formula imported from a designer spreadsheet file but also supports calculating the results of formulas added at runtime.
 
 **C#**
 
@@ -62,7 +62,7 @@ book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Formula Calculation Engine** form any of the below mentioned social coding sites:
+Download **Formula Calculation Engine** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 

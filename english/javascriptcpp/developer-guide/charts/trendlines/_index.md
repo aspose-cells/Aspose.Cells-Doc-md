@@ -10,11 +10,11 @@ url: /javascript-cpp/get-equation-text-of-chart-trendline/
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of Chart Trendline using Aspose.Cells for JavaScript via C++. Aspose.Cells provides [**DataLabels.text**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#text--) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/javascript-cpp/chart/#calculate--) method.
+You can retrieve the equation text of a chart trendline using Aspose.Cells for JavaScript via C++. Aspose.Cells provides the **DataLabels.text**[https://reference.aspose.com/cells/javascript-cpp/datalabels/#text--] property, which returns the equation text of a chart trendline. To use this property, you must first call the **Chart.calculate()**[https://reference.aspose.com/cells/javascript-cpp/chart/#calculate--] method.
 
 {{% /alert %}}
 
-The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [**DataLabels.text**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#text--) property in the following sample code.
+The following screenshot shows the chart with a trendline, and its equation text is shown in red color. We will retrieve this text using the **DataLabels.text**[https://reference.aspose.com/cells/javascript-cpp/datalabels/#text--] property in the following sample code.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
@@ -68,13 +68,13 @@ The following screenshot shows the Chart with a Trendline and its Equation Text 
             // Access the first chart inside the worksheet
             const chart = worksheet.charts.get(0);
 
-            // Calculate the Chart to get the Equation Text of Trendline
+            // Calculate the chart to get the equation text of the trendline
             chart.calculate();
 
-            // Access the Trendline
+            // Access the trendline
             const trendLine = chart.nSeries.get(0).trendLines.get(0);
 
-            // Read the Equation Text of Trendline
+            // Read the equation text of the trendline
             const equationText = trendLine.dataLabels.text;
 
             document.getElementById('result').innerHTML = `<p>Equation Text: ${equationText}</p>`;
@@ -88,7 +88,5 @@ The following screenshot shows the Chart with a Trendline and its Equation Text 
 This is the console output of the above sample code.
 
 {{< highlight javascript >}}
-
 Equation Text: y = 8.1333x + 5
-
 {{< /highlight >}}

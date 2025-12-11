@@ -1,27 +1,27 @@
----
-title: Specify how to cross string in output PDF and image with JavaScript via C++
-linktitle: Specify how to cross string in output PDF and image
-type: docs
-weight: 120
-url: /javascript-cpp/specify-how-to-cross-string-in-output-pdf-and-image/
-description: Learn to control text overflow in output PDF/Image by specifying the cross type using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Specify how to cross a string in output PDF and image with JavaScript via C++  
+linktitle: Specify how to cross a string in output PDF and image  
+type: docs  
+weight: 120  
+url: /javascript-cpp/specify-how-to-cross-string-in-output-pdf-and-image/  
+description: Learn to control text overflow in output PDF/Image by specifying the cross type using Aspose.Cells for JavaScript via C++.  
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-When a cell contains text or a string but it is larger than the width of the cell, then the string overflows if the next cell in the next column is null or empty. When you save your Excel file into PDF/Image, you can control this overflow by specifying the cross type using the [**TextCrossType**](https://reference.aspose.com/cells/javascript-cpp/textcrosstype) enumeration. It has the following values:
+When a cell contains text that is larger than the width of the cell, the string overflows if the next cell in the subsequent column is null or empty. When you save your Excel file to PDF/Image, you can control this overflow by specifying the cross type using the [**TextCrossType**](https://reference.aspose.com/cells/javascript-cpp/textcrosstype) enumeration. It has the following values:  
 
-- **TextCrossType.Default**: Display text like MS Excel which depends on the next cell. If the next cell is null, the string will cross or it will be truncated.
+- **TextCrossType.Default**: Display text as in MS Excel, which depends on the next cell. If the next cell is empty, the string will cross; otherwise it will be truncated.  
 
-- **TextCrossType.CrossKeep**: Display the string like MS Excel exporting PDF/Image.
+- **TextCrossType.CrossKeep**: Display the string as MS Excel does when exporting to PDF/Image.  
 
-- **TextCrossType.CrossOverride**: Display all the text by crossing other cells and override the text of crossed cells.
+- **TextCrossType.CrossOverride**: Display all the text by crossing other cells and overriding the text of the crossed cells.  
 
-- **TextCrossType.StrictInCell**: Only display the string within the width of the cell.
+- **TextCrossType.StrictInCell**: Only display the string within the width of the cell.  
 
-## **Specify how to cross string in output PDF/Image using TextCrossType**
+## **Specify how to cross a string in output PDF/Image using TextCrossType**  
 
-The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different [**TextCrossType**](https://reference.aspose.com/cells/javascript-cpp/textcrosstype). The sample Excel file and output files can be downloaded from the following links:
+The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different [**TextCrossType**](https://reference.aspose.com/cells/javascript-cpp/textcrosstype). The sample Excel file and output files can be downloaded from the following links:  
 
 [sampleCrossType.xlsx](81920905.xlsx)  
 
@@ -29,7 +29,7 @@ The following sample code loads the sample Excel file and saves it to PDF/Image 
 
 [outputCrossType.png](81920904.png)  
 
-### Sample Code
+### Sample Code  
 
 ```html
 <!DOCTYPE html>
@@ -86,20 +86,20 @@ The following sample code loads the sample Excel file and saves it to PDF/Image 
 
             // Initialize PDF save options
             const pdfSaveOptions = new PdfSaveOptions();
-            // Set text cross type (converted setter -> property)
+            // Set text cross type (converted setter → property)
             pdfSaveOptions.textCrossType = TextCrossType.StrictInCell;
 
             // Save PDF file data
             const pdfData = workbook.save(SaveFormat.Pdf, pdfSaveOptions);
             const pdfBlob = new Blob([pdfData], { type: 'application/pdf' });
             downloadLinkPdf.href = URL.createObjectURL(pdfBlob);
-            downloadLinkPdf.download = 'outputCrosssType.pdf';
+            downloadLinkPdf.download = 'outputCrossType.pdf';
             downloadLinkPdf.style.display = 'inline-block';
             downloadLinkPdf.textContent = 'Download PDF File';
 
             // Initialize image or print options
             const imageSaveOptions = new ImageOrPrintOptions();
-            // Set text cross type (converted setter -> property)
+            // Set text cross type (converted setter → property)
             imageSaveOptions.textCrossType = TextCrossType.StrictInCell;
 
             // Initialize sheet renderer for first worksheet
@@ -109,7 +109,7 @@ The following sample code loads the sample Excel file and saves it to PDF/Image 
             const imageData = sheetRenderer.toImage(0);
             const imageBlob = new Blob([imageData], { type: 'image/png' });
             downloadLinkPng.href = URL.createObjectURL(imageBlob);
-            downloadLinkPng.download = 'outputCrosssType.png';
+            downloadLinkPng.download = 'outputCrossType.png';
             downloadLinkPng.style.display = 'inline-block';
             downloadLinkPng.textContent = 'Download PNG File';
 

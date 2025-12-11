@@ -1,21 +1,21 @@
----
-title: Filter VBA Project while loading a workbook with JavaScript via C++
-linktitle: Filter VBA Project while loading a workbook
-type: docs
-weight: 140
-url: /javascript-cpp/filter-vba-project-while-loading-a-workbook/
-description: Learn how to filter VBA projects while loading Excel workbooks using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Filter VBA Project while loading a workbook with JavaScript via C++  
+linktitle: Filter VBA Project while loading a workbook  
+type: docs  
+weight: 140  
+url: /javascript-cpp/filter-vba-project-while-loading-a-workbook/  
+description: Learn how to filter VBA projects while loading Excel workbooks using Aspose.Cells for JavaScript via C++.  
+---  
 
-## **Filter VBA Project while loading an Excel workbook in JavaScript via C++**
+## **Filter VBA Project while loading an Excel workbook in JavaScript via C++**  
 
-Some .xlsm/.xslb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for JavaScript via C++ will unconditionally load this (meta) data when opening such workbooks. You may require to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/javascript-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/javascript-cpp/loaddatafilteroptions).
+Some .xlsm/.xlsb files have an extremely large amount of macros (or very, very long macros). Aspose.Cells for JavaScript via C++ will unconditionally load this (meta) data when opening such workbooks. You may need to control this though [**LoadDataFilterOptions**](https://reference.aspose.com/cells/javascript-cpp/loaddatafilteroptions) when you really only need to extract sheet names for a large number of workbooks, thus skipping over such unneeded content. This filter is provided by introducing a new option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/javascript-cpp/loaddatafilteroptions).  
 
-## **Sample Code**
+## **Sample Code**  
 
-The following sample code loads a workbook such that only VBA is filtered. A sample file for testing this feature can be downloaded from the following link:
+The following sample code loads a workbook such that only VBA is filtered. A sample file for testing this feature can be downloaded from the following link:  
 
-[sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
+[sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)  
 
 ```html
 <!DOCTYPE html>

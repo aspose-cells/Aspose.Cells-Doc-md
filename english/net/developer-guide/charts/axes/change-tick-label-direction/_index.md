@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Change Tick Label Direction**
 
-Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) property. The [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) enumeration provides the following members
+Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) property. The [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) enumeration provides the following members:
 
 - Horizontal
 - Vertical
@@ -19,7 +19,7 @@ Aspose.Cells provides you with the ability to change the chart tick label direct
 - Rotate270
 - Stacked
 
-The following image compares the source and output files
+The following images compare the source and output files.
 
 ### **Source file image**
 

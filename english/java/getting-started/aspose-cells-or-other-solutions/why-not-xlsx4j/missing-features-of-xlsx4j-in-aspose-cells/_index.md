@@ -9,9 +9,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This section shows the features that are only available in Aspose.Cells and not in xlsx4j.
 
-It is very helpful for the developers who want to migrate from xlsx4j to Aspose.Cells.
+It is very helpful for developers who want to migrate from xlsx4j to Aspose.Cells.
 
-This includes following abundant features of Aspose.Cells as compared to xlsx4j:
+This includes the following abundant features of Aspose.Cells compared to xlsx4j:
 
 - [Data Handling Features in xlsx4j](/cells/java/data-handling-features-in-xlsx4j/)
   - [Calculate Sub Totals in xlsx4j](/cells/java/calculate-sub-totals-in-xlsx4j/)
@@ -38,5 +38,5 @@ This includes following abundant features of Aspose.Cells as compared to xlsx4j:
   - [Save Each Worksheet to Different PDF in xlsx4j](/cells/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
   - [Set Worksheet Tab Color in xlsx4j](/cells/java/set-worksheet-tab-color-in-xlsx4j/)
 
-**Note:** Many more examples are yet to be available soon.
+**Note:** Many more examples will be available soon.
 {{< app/cells/assistant language="java" >}}

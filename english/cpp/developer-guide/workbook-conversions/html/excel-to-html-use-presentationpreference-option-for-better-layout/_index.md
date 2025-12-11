@@ -1,21 +1,21 @@
----
-title: Excel to HTML - Use PresentationPreference Option for Better Layout with C++
-linktitle: Excel to HTML - Use PresentationPreference Option for Better Layout
-type: docs
-weight: 220
-url: /cpp/excel-to-html-use-presentationpreference-option-for-better-layout/
-description: Learn to render better layout when saving Excel files to HTML with C++.
+---  
+title: Excel to HTML - Use PresentationPreference Option for Better Layout with C++  
+linktitle: Excel to HTML - Use PresentationPreference Option for Better Layout  
+type: docs  
+weight: 220  
+url: /cpp/excel-to-html-use-presentationpreference-option-for-better-layout/  
+description: Learn to render a better layout when saving Excel files to HTML with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Aspose.Cells provides a useful HtmlSaveOptions.PresentationPreference property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
+Aspose.Cells provides a useful **HtmlSaveOptions::PresentationPreference** property for developers who need to render a better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is **false**. We recommend setting this property to **true** to obtain a more attractive presentation of Excel reports.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-Please see the sample code below that demonstrates how to render an HTML file from Excel report with presentation preference on.
+Please see the sample code below that demonstrates how to render an HTML file from an Excel report with the presentation preference enabled.  
 
 ```cpp
 #include <iostream>
@@ -31,7 +31,7 @@ int main()
 
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
+
     // Path of input Excel file
     U16String inputFilePath = srcDir + u"sample.xlsx";
 
@@ -40,11 +40,11 @@ int main()
 
     // Create HtmlSaveOptions object
     HtmlSaveOptions options;
-    
-    // Set the Presentation preference option
+
+    // Set the PresentationPreference option
     options.SetPresentationPreference(true);
 
-    // Save the Excel file to HTML with specified option
+    // Save the Excel file to HTML with the specified option
     U16String outputFilePath = srcDir + u"outPresentationlayout1.out.html";
     workbook.Save(outputFilePath, options);
 
@@ -52,6 +52,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
-
+```  
 {{< app/cells/assistant language="cpp" >}}

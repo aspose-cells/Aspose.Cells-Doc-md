@@ -4,20 +4,20 @@ linktitle: Read Color of Shape's Glow Effect
 type: docs
 weight: 330
 url: /javascript-cpp/read-color-of-shape-s-glow-effect/
-description: Learn how to read the color of a shape's glow effect using Aspose.Cells for JavaScript via C++. 
+description: Learn how to read the color of a shape's glow effect using Aspose.Cells for JavaScript via C++.
 ---
 
 ## Possible Usage Scenarios
 
-If you want to read the color of the glow effect of any shape, then please use the [**Shape.color**](https://reference.aspose.com/cells/javascript-cpp/gloweffect/#color--) property. It will help you find the various properties relating to the color of the glow effect of the shape.
+If you want to read the color of the glow effect of any shape, then please use the [**Shape.glow.color**](https://reference.aspose.com/cells/javascript-cpp/gloweffect/#color--) property. It will help you find the various properties relating to the color of the glow effect of the shape.
 
-## Read Color of the Glow Effect of Shape
+## Read the Color of the Glow Effect of a Shape
 
-Please see the following sample code and its [source excel file](22774108.xlsx) and the console output for your reference. The following screenshot shows the glow effect of the shape inside the source excel file when viewed in Microsoft Excel.
+Please see the following sample code and its [source excel file](22774108.xlsx) and the console output for your reference. The following screenshot shows the glow effect of the shape inside the source Excel file when viewed in Microsoft Excel.
 
 ![todo:image_alt_text](read-color-of-shape-s-glow-effect_1.png)
 
-## JavaScript code to read color of shape's glow effect
+## JavaScript code to read the color of a shape's glow effect
 
 ```html
 <!DOCTYPE html>
@@ -102,10 +102,7 @@ Please see the following sample code and its [source excel file](22774108.xlsx) 
 
 ## Console Output
 
-
-
 {{< highlight javascript >}}
-
 Color: Color [A=222, R=255, G=0, B=0]
 
 ColorIndex: 16711672
@@ -115,5 +112,4 @@ IsShapeColor: True
 Transparency: 0.13
 
 Type: RGB
-
 {{< /highlight >}}

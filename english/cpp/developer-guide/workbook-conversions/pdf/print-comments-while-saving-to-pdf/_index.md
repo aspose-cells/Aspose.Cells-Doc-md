@@ -1,33 +1,33 @@
----
-title: Print Comments while saving to PDF with C++
-linktitle: Print Comments while saving to PDF
-type: docs
-weight: 10
-url: /cpp/print-comments-while-saving-to-pdf/
-description: Learn how to print comments while saving Excel files to PDF using Aspose.Cells for C++.
+---  
+title: Print Comments while saving to PDF with C++  
+linktitle: Print Comments while saving to PDF  
+type: docs  
+weight: 10  
+url: /cpp/print-comments-while-saving-to-pdf/  
+description: Learn how to print comments while saving Excel files to PDF using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options:
+Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options:  
 
-- None
-- At end of sheet
-- As displayed on sheet
+- None  
+- At end of sheet  
+- As displayed on sheet  
 
-Aspose.Cells provides the [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enum has the following members:
+Aspose.Cells provides the [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enum has the following members:  
 
-- PrintNoComments
-- PrintInPlace
-- PrintSheetEnd
+- PrintNoComments  
+- PrintInPlace  
+- PrintSheetEnd  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Print Comments while saving to PDF**
+## **Print Comments while saving to PDF**  
 
-The following sample code illustrates how to use [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) to print comments while saving to PDF.
+The following sample code illustrates how to use [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) to print comments while saving to PDF.  
 
 ```cpp
 #include <iostream>
@@ -58,9 +58,9 @@ int main()
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
     /*
-     * For print no comments use "PrintCommentsType::PrintNoComments"
-     * and for print the comments as displayed on sheet use "PrintCommentsType::PrintInPlace"
-     * For Print the comments at the end of sheet we use "PrintCommentsType::PrintSheetEnd"
+     * To print no comments, use PrintCommentsType::PrintNoComments.
+     * To print the comments as displayed on the sheet, use PrintCommentsType::PrintInPlace.
+     * To print the comments at the end of the sheet, use PrintCommentsType::PrintSheetEnd.
     */
     worksheet.GetPageSetup().SetPrintComments(PrintCommentsType::PrintSheetEnd);
 
@@ -71,5 +71,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

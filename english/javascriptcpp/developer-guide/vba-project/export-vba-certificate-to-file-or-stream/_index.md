@@ -9,13 +9,13 @@ description: Learn how to export VBA Digital Certificate to a file or stream usi
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to export VBA Digital Certificate to stream such as file or memory stream. You can access the raw data of the VBA digital certificate using the [**VbaProject.certRawData**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#certRawData--) property.
+Aspose.Cells allows you to export a VBA Digital Certificate to a stream such as a file or memory stream. You can access the raw data of the VBA digital certificate using the [**VbaProject.certRawData**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#certRawData--) property.
 
 {{% /alert %}}
 
 ## **Export VBA Certificate to File or Stream in JavaScript**
 
-Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample excel file used in this code](5115031.xlsm) from the provided link.
+Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample Excel file used in this code](5115031.xlsm) from the provided link.
 
 ```html
 <!DOCTYPE html>
@@ -49,17 +49,17 @@ Please see the following sample code that saves the raw data of the VBA Certific
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (!fileInput.files.length) {
-                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel macro-enabled (.xlsm) file.</p>';
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel macro‑enabled (.xlsm) file.</p>';
                 return;
             }
 
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from the uploaded file
+            // Instantiate a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
-            // Retrieve bytes data of Digital Certificate of VBA Project
+            // Retrieve the byte data of the VBA project's digital certificate
             const certBytes = workbook.vbaProject.certRawData;
             
             // Convert to Uint8Array and create a Blob for download

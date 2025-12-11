@@ -1,21 +1,19 @@
----
-title: Add Conditional Icons Set with the Cell Text using JavaScript via C++
-linktitle: Add Conditional Icons Set with the Cell Text
-type: docs
-weight: 160
-url: /javascript-cpp/add-conditional-icons-set-with-the-cell-text/
-description: Learn how to add conditional icons next to the cell text using Aspose.Cells for JavaScript via C++. Enhancing the meaning of data through icons.
----
+---  
+title: Add Conditional Icons Set with the Cell Text using JavaScript via C++  
+linktitle: Add Conditional Icons Set with the Cell Text  
+type: docs  
+weight: 160  
+url: /javascript-cpp/add-conditional-icons-set-with-the-cell-text/  
+description: Learn how to add conditional icons next to the cell text using Aspose.Cells for JavaScript via C++. Enhancing the meaning of data through icons.  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells for JavaScript via C++ supports this feature.
+Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells for JavaScript via C++ supports this feature.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-The following code sample shows how to add conditional icons set with the Cell Text.
-
-
+The following code sample shows how to add a conditional icon set with the cell text.  
 
 ```html
 <!DOCTYPE html>
@@ -53,7 +51,7 @@ The following code sample shows how to add conditional icons set with the Cell T
             const worksheet = workbook.worksheets.get(0);
             // Get the cells
             const cells = worksheet.cells;
-            // Set the columns widths (A, B and C) by setting column width on each column
+            // Set the column widths (A, B, and C) by setting the width on each column
             worksheet.cells.columns.get(0).width = 24;
             worksheet.cells.columns.get(1).width = 24;
             worksheet.cells.columns.get(2).width = 24;
@@ -72,7 +70,7 @@ The following code sample shows how to add conditional icons set with the Cell T
             cells.get("C3").value = 10.3168384396244;
             cells.get("C4").value = 11.3326931937091;
 
-            // Get the conditional icon's image data and add pictures
+            // Get the conditional icons' image data and add pictures
             const iconTypes = [
                 { type: AsposeCells.IconSetType.TrafficLights31, row: 1, column: 1 },
                 { type: AsposeCells.IconSetType.Arrows3, row: 1, column: 2 },

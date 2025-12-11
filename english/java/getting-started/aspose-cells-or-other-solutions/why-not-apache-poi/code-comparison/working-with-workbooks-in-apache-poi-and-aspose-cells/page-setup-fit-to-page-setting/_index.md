@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Page Setup - Fit to Page Setting**
-To fit the contents of the worksheet to a specific number of pages, use the [PageSetup](/cells/java/page-setup-fit-to-page-setting/) class' setFitToPagesTall and setFitToPagesWide methods. These methods are also used to scale worksheets.
+To fit the contents of the worksheet to a specific number of pages, use the [PageSetup](/cells/java/page-setup-fit-to-page-setting/) class's setFitToPagesTall and setFitToPagesWide methods. These methods are also used to scale worksheets.
 
 **Java**
 
@@ -40,7 +40,7 @@ pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF & XSSF - Page Setup - Fit to Page Setting**
-Apache POI SS uses setFitHeight and setFitWidth methods for fit to page settings.
+Apache POI SS uses setFitHeight and setFitWidth methods for fit-to-page settings.
 
 **Java**
 

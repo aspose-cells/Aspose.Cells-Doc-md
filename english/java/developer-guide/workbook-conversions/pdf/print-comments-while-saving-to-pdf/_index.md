@@ -19,7 +19,7 @@ Microsoft Excel allows you to print comments while printing or saving to PDF for
 
 ## **Print Comments while saving to PDF**
 
-Aspose.Cells provides the following enums to support the printing comments while saving PDF
+Aspose.Cells provides the following enums to support printing comments while saving to PDF
 
 - [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-NO-COMMENTS)
 - [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT-IN-PLACE)
@@ -34,4 +34,5 @@ The following sample code illustrates how to use [**PrintCommentsType**](https:/
 ## Related Articles
 
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+
 {{< app/cells/assistant language="java" >}}

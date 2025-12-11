@@ -9,15 +9,15 @@ keywords: PivotChart Node.js via C++
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-## What is PivotChart
+## What is a PivotChart
 
 A PivotChart in Excel is a graphical representation of data created from a PivotTable. It allows users to visualize and analyze data dynamically by summarizing and displaying information in chart form. PivotCharts are interactive and can be easily modified to show different perspectives of the data, making it a powerful tool for data analysis and presentation in Excel.
 
-## How to manage PivotChart with PivotOptions
+## How to manage a PivotChart with PivotOptions
 
-By using Aspose.Cells for Node.js via C++, you can use [**PivotOptions**](https://reference.aspose.com/cells/nodejs-cpp/pivotoptions/) to manage PivotChart.
+By using Aspose.Cells for Node.js via C++, you can manage a PivotChart using [**PivotOptions**](https://reference.aspose.com/cells/nodejs-cpp/pivotoptions/).
 
-Sample file and code:
+Sample file and code:  
 [Sample File](Sample.xlsx)
 
 ```javascript
@@ -35,7 +35,7 @@ const opt = chart.getPivotOptions();
 // Hide ZoneFilter in PivotChart
 opt.setDropZoneFilter(false); // HideZoneFilter
 
-// You can set more properties, try them!
+// You can set more properties and try them!
 // opt.setDropZoneCategories(false); // HideZoneCategories
 // opt.setDropZoneData(false); // HideZoneData
 // opt.setDropZoneSeries(false); // HideZoneSeries
@@ -45,7 +45,7 @@ opt.setDropZoneFilter(false); // HideZoneFilter
 workbook.save(path.join(dataDir, "HideZoneFilter.xlsx"));
 ```
 
-With the example code above, you can check the result file with the following effect, as shown in the figure:
+With the example code above, you can check the resulting file, which shows the following effect, as shown in the figure:
 
 **![Output](Output.png)**
 {{< app/cells/assistant language="nodejs-cpp" >}}

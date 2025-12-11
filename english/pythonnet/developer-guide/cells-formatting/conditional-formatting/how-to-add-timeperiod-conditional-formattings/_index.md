@@ -1,42 +1,41 @@
----
-title: How to Add Time Periods Conditional Formatting
-description: How to use the Aspose.Cells for Python via .NET library to apply TimePeriods conditional formatting. By adjusting these criteria, you have more control over how cells look and appear.
-keywords: Aspose.Cells, TimePeriods Conditional Formatting, Python, Conditional, Formatting
-type: docs
-weight: 70
-url: /python-net/how-to-add-time-periods-conditional-formatting/
-ai_search_scope: cells_pythonnet
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: How to Add Time Periods Conditional Formatting  
+description: How to use the Aspose.Cells for Python via .NET library to apply Time Periods conditional formatting. By adjusting these criteria, you have more control over how cells look and appear.  
+keywords: Aspose.Cells, Time Periods Conditional Formatting, Python, Conditional, Formatting  
+type: docs  
+weight: 70  
+url: /python-net/how-to-add-time-periods-conditional-formatting/  
+ai_search_scope: cells_pythonnet  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask" 
+---  
 
-## **Possible Usage Scenarios**
-Using Time Periods conditional formatting in Excel is super useful when working with dates—it helps you visually track and manage time-based data quickly.
-1. Instant Insights on Time-Based Data: Quickly highlight things like Today’s tasks, Last month’s sales, Upcoming deadlines, Next week’s appointments.
-1. Better Time Management: Helps you stay on top of due dates, events, or expiring items. Great for project timelines, invoices, or schedules.
-1. Automatic Updates: It updates dynamically. If today’s date changes, Excel will update the formatting without you lifting a finger.
+## **Possible Usage Scenarios**  
+Using Time Periods conditional formatting in Excel is super useful when working with dates—it helps you visually track and manage time‑based data quickly.  
 
-1. Visual Clarity: Makes time-sensitive information stand out using colors or bold styles — so it doesn’t get missed.
+1. Instant Insights on Time‑Based Data: Quickly highlight things like Today’s tasks, Last month’s sales, Upcoming deadlines, Next week’s appointments.  
+2. Better Time Management: Helps you stay on top of due dates, events, or expiring items. Great for project timelines, invoices, or schedules.  
+3. Automatic Updates: It updates dynamically. If today’s date changes, Excel will update the formatting without you lifting a finger.  
+4. Visual Clarity: Makes time‑sensitive information stand out using colors or bold styles — so it doesn’t get missed.  
 
-## **How to Add Time Periods Conditional Formatting Using Excel**
-Here's how you can add Time Periods conditional formatting in Excel — super useful for highlighting dates like today, last week, next month, etc.
+## **How to Add Time Periods Conditional Formatting Using Excel**  
+Here's how you can add Time Periods conditional formatting in Excel — super useful for highlighting dates like today, last week, next month, etc.  
 
-Steps to Add Time Periods Conditional Formatting:
-1. Select the range of date cells you want to format. Example: A2:A50.
-1. Go to the Home tab on the ribbon.
-1. Click on Conditional Formatting in the Styles group.
-1. Hover over Highlight Cells Rules.
-1. Click on A Date Occurring...
-1. In the dialog box that appears: Use the drop-down to select a time period(Today, Yesterday, Tomorrow, Last 7 days, Last week, Next month, etc.).
-1. Choose the format (default is light red fill with dark red text, or click Custom Format to choose your own).
-1. Click OK.
+**Steps to Add Time Periods Conditional Formatting:**  
 
+1. Select the range of date cells you want to format. Example: A2:A50.  
+2. Go to the Home tab on the ribbon.  
+3. Click on **Conditional Formatting** in the Styles group.  
+4. Hover over **Highlight Cells Rules**.  
+5. Click on **A Date Occurring…**  
+6. In the dialog box that appears, use the drop‑down to select a time period (Today, Yesterday, Tomorrow, Last 7 days, Last week, Next month, etc.).  
+7. Choose the format (default is light red fill with dark red text, or click **Custom Format** to choose your own).  
+8. Click **OK**.  
 
-## **How to Add Time Periods Conditional Formatting Using Aspose.Cells for Python via .NET**
+## **How to Add Time Periods Conditional Formatting Using Aspose.Cells for Python via .NET**  
 
-Aspose.Cells for Python via .NET fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. This example demonstrates an exercise for Time Periods conditional formatting with different sets of attributes.
+Aspose.Cells for Python via .NET fully supports the conditional formatting provided by Microsoft Excel 2007 and later versions in XLSX format on cells at runtime. This example demonstrates an exercise for Time Periods conditional formatting with different sets of attributes.  
 
 ```python
-from aspose.cells import Workbook
 from aspose.cells import Workbook, Worksheet, CellArea, FormatConditionType, IconSetType, FormatConditionValueType, BackgroundType, TimePeriodType
 from aspose.pydrawing import Color
 from datetime import datetime
@@ -134,7 +133,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I16").put_value("ThisWeek")
+        self._sheet.cells.get("I16").put_value("This Week")
 
     def add_time_period_7(self):
         conds = self.get_format_condition("I13:K14", Color.medium_blue)
@@ -153,7 +152,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I14").put_value("ThisMonth")
+        self._sheet.cells.get("I14").put_value("This Month")
 
     def add_time_period_6(self):
         conds = self.get_format_condition("I11:K12", Color.medium_aquamarine)
@@ -172,7 +171,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I12").put_value("NextWeek")
+        self._sheet.cells.get("I12").put_value("Next Week")
 
     def add_time_period_5(self):
         conds = self.get_format_condition("I9:K10", Color.maroon)
@@ -191,7 +190,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I10").put_value("NextMonth")
+        self._sheet.cells.get("I10").put_value("Next Month")
 
     def add_time_period_4(self):
         conds = self.get_format_condition("I7:K8", Color.linen)
@@ -210,7 +209,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I8").put_value("LastWeek")
+        self._sheet.cells.get("I8").put_value("Last Week")
 
     def add_time_period_3(self):
         conds = self.get_format_condition("I5:K6", Color.linen)
@@ -229,7 +228,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I6").put_value("LastMonth")
+        self._sheet.cells.get("I6").put_value("Last Month")
 
     def add_time_period_2(self):
         conds = self.get_format_condition("I3:K4", Color.light_steel_blue)
@@ -248,7 +247,7 @@ class ConditionalFormatting:
         style = c.get_style()
         style.number = 30
         c.set_style(style)
-        self._sheet.cells.get("I4").put_value("Last7Days")
+        self._sheet.cells.get("I4").put_value("Last 7 Days")
 
     def add_time_period_1(self):
         conds = self.get_format_condition("I1:K2", Color.light_slate_gray)

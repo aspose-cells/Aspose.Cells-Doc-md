@@ -1,26 +1,26 @@
----
-title: Set Default Font while rendering spreadsheet to HTML with JavaScript via C++
-linktitle: Set Default Font while rendering spreadsheet to HTML
-type: docs
-weight: 370
-url: /javascript-cpp/set-default-font-while-rendering-spreadsheet-to/
----
+---  
+title: Set a Default Font while Rendering a Spreadsheet to HTML with JavaScript via C++  
+linktitle: Set Default Font while Rendering Spreadsheet to HTML  
+type: docs  
+weight: 370  
+url: /javascript-cpp/set-default-font-while-rendering-spreadsheet-to/  
+---  
 
-{{% alert color="primary" %}}
-Aspose.Cells allows you to set default font while rendering spreadsheet to HTML. Please use the [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) for this purpose. This property is useful when there are some cells in a spreadsheet that have invalid or non-existing fonts. Then those cells will be rendered in a font specified with the [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) property.
-{{% /alert %}}
+{{% alert color="primary" %}}  
+Aspose.Cells allows you to set a default font while rendering a spreadsheet to HTML. Please use the [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) for this purpose. This property is useful when there are cells in a spreadsheet that have invalid or non‑existing fonts. Those cells will then be rendered using the font specified with the [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) property.  
+{{% /alert %}}  
 
-## Set Default Font while rendering spreadsheet to HTML
+## Set Default Font while Rendering a Spreadsheet to HTML  
 
-The following sample code creates a workbook and adds some text in cell B4 of the first worksheet and sets its font to some unknown/non-existing font. Then it saves the workbook in HTML by setting different default font names like Courier New, Arial, Times New Roman, etc.
+The following sample code creates a workbook, adds some text to cell **B4** of the first worksheet, and sets its font to an unknown/non‑existing font. It then saves the workbook as HTML by specifying different default font names such as **Courier New**, **Arial**, **Times New Roman**, etc.  
 
-The screenshot shows the effect of setting different default font names via [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) property.
+The screenshot shows the effect of setting different default font names via the [**HtmlSaveOptions.defaultFontName**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#defaultFontName--) property.  
 
-![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)  
 
-The code generates the [output HTML file with Courier New](5115516), the [output HTML with Arial](5115518), and the [output HTML file with Times New Roman](5115517).
+The code generates the [output HTML file with Courier New](5115516), the [output HTML with Arial](5115518), and the [output HTML file with Times New Roman](5115517).  
 
-## Sample Code
+## Sample Code  
 
 ```html
 <!DOCTYPE html>
@@ -54,15 +54,15 @@ The code generates the [output HTML file with Courier New](5115516), the [output
         });
 
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Creating a new workbook and accessing first worksheet.
+            // Create a new workbook and access the first worksheet.
             const wb = new Workbook();
             const ws = wb.worksheets.get(0);
 
-            // Access cell B4 and add some text inside it.
+            // Access cell B4 and add some text to it.
             const cell = ws.cells.get("B4");
             cell.value = "This text has some unknown or invalid font which does not exist.";
 
-            // Set the font of cell B4 which is unknown.
+            // Set the font of cell B4 to an unknown font.
             const st = cell.style;
             st.font.name = "UnknownNotExist";
             st.font.size = 20;
@@ -71,7 +71,7 @@ The code generates the [output HTML file with Courier New](5115516), the [output
             // Prepare HtmlSaveOptions and save three variants with different default fonts.
             const opts = new HtmlSaveOptions();
 
-            // 1) Default font Courier New
+            // 1) Default font: Courier New
             opts.defaultFontName = "Courier New";
             const outputData1 = wb.save(SaveFormat.Html, opts);
             const blob1 = new Blob([outputData1], { type: "text/html" });
@@ -81,7 +81,7 @@ The code generates the [output HTML file with Courier New](5115516), the [output
             downloadLink1.style.display = 'block';
             downloadLink1.textContent = 'Download out_courier_new_out.htm';
 
-            // 2) Default font Arial
+            // 2) Default font: Arial
             opts.defaultFontName = "Arial";
             const outputData2 = wb.save(SaveFormat.Html, opts);
             const blob2 = new Blob([outputData2], { type: "text/html" });
@@ -91,7 +91,7 @@ The code generates the [output HTML file with Courier New](5115516), the [output
             downloadLink2.style.display = 'block';
             downloadLink2.textContent = 'Download out_arial_out.htm';
 
-            // 3) Default font Times New Roman
+            // 3) Default font: Times New Roman
             opts.defaultFontName = "Times New Roman";
             const outputData3 = wb.save(SaveFormat.Html, opts);
             const blob3 = new Blob([outputData3], { type: "text/html" });

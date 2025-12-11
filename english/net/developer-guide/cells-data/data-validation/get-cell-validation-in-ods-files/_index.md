@@ -3,8 +3,8 @@ title: Get Cell Validation in ODS Files
 type: docs
 weight: 180
 url: /net/get-cell-validation-in-ods-files/
-description: Learn how to Get Cell Validation in ODS Files through the Aspose.Cells for .NET API..
-keywords: Get Cell Validation, Obtain Cell Validation 
+description: Learn how to get cell validation in ODS files through the Aspose.Cells for .NET API.
+keywords: Get Cell Validation, Obtain Cell Validation
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 With Aspose.Cells, you can get the validation applied to a cell in ODS files. For this, the API provides the [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) method of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
-The following code sample demonstrates the use of the [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) method by loading the [source ODS](101089354.ods) file and reading the validation of the cell A9.
+The following code sample demonstrates the use of the [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) method by loading the [source ODS](101089354.ods) file and reading the validation of cell A9.
 
 ### **Sample Code**
 

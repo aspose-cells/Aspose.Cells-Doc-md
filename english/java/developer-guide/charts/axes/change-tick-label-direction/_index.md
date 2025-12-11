@@ -37,5 +37,5 @@ The source and output files can be downloaded from the following links.
 
 [Source File](SampleChangeTickLabelDirection.xlsx)
 
-[Output File](outputChangeChartDataLableDirection.xlsx)
+[Output File](outputChangeChartDataLabelDirection.xlsx)
 {{< app/cells/assistant language="java" >}}

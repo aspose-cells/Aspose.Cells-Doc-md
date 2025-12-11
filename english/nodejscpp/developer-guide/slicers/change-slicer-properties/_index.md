@@ -1,22 +1,22 @@
----
-title: Change Slicer Properties with Node.js via C++
-linktitle: Change Slicer Properties
-type: docs
-weight: 70
-url: /nodejs-cpp/change-slicer-properties/
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Change Slicer Properties with Node.js via C++  
+linktitle: Change Slicer Properties  
+type: docs  
+weight: 70  
+url: /nodejs-cpp/change-slicer-properties/  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-There might be situations where you may want to change the properties of the Slicer such as placement or row height. Aspose.Cells for Node.js via C++ provides you with the option to update these properties.
+There might be situations where you may want to change the properties of a slicer, such as placement or row height. Aspose.Cells for Node.js via C++ provides you with the option to update these properties.  
 
-## **Change Slicer Properties**
+## **Change Slicer Properties**  
 
-Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column and changes its properties like row height, width, is printable, title, etc. It saves the workbook as [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column and changes its properties like row height, width, printable flag, title, etc. It saves the workbook as [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```javascript
 const path = require("path");
@@ -29,10 +29,10 @@ const outputDir = path.join(__dirname, "output");
 // Load sample Excel file containing a table.
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleCreateSlicerToExcelTable.xlsx"));
 
-// Access first worksheet.
+// Access the first worksheet.
 const worksheet = workbook.getWorksheets().get(0);
 
-// Access first table inside the worksheet.
+// Access the first table inside the worksheet.
 const table = worksheet.getListObjects().get(0);
 
 // Add slicer

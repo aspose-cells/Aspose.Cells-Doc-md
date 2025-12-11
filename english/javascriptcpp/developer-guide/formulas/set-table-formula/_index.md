@@ -11,7 +11,7 @@ description: Learn how to automatically propagate formulas in tables or list obj
 Sometimes, you want a formula in your Table or List Object to automatically propagate to new rows while entering new data. This is the default behavior of Microsoft Excel. To achieve the same functionality with Aspose.Cells for JavaScript via C++, please use [ListColumn.formula](https://reference.aspose.com/cells/javascript-cpp/listcolumn/#formula--) property.
 
 ## **Propagate Formula in Table or List Object Automatically While Entering Data in New Rows**
-The following sample code creates a Table or List Object in such a way that the formula in column B will automatically propagate to new rows when you enter new data. Please check the [output excel file](5115469.xlsx) generated with this code. If you enter any number in cell A3, you will see that the formula in cell B2 automatically propagates to cell B3.
+The following sample code creates a Table or List Object such that the formula in column B automatically propagates to new rows when you enter new data. Please check the [output Excel file](5115469.xlsx) generated with this code. If you enter any number in cell A3, you will see that the formula in cell B2 automatically propagates to cell B3.
 
 ```html
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ The following sample code creates a Table or List Object in such a way that the 
             // Access first worksheet
             const sheet = book.worksheets.get(0);
 
-            // Add column headings in cell A1 and B1
+            // Add column headings in cells A1 and B1
             sheet.cells.get(0, 0).value = "Column A";
             sheet.cells.get(0, 1).value = "Column B";
 
@@ -60,7 +60,7 @@ The following sample code creates a Table or List Object in such a way that the 
             listObject.tableStyleType = AsposeCells.TableStyleType.TableStyleMedium2;
             listObject.displayName = "Table";
 
-            // Set the formula of second column so that it propagates to new rows automatically while entering data
+            // Set the formula of the second column so that it propagates to new rows automatically while entering data
             listObject.listColumns.get(1).formula = "=[Column A] + 1";
 
             // Save the workbook in xlsx format

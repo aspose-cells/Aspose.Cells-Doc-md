@@ -21,8 +21,8 @@ Aspose.Cells for Node.js via C++ contains different ways to find the max range i
 
 {{% /alert %}}  
 
-## **Getting max range**  
-In Aspose.Cells, if the [**row**](https://reference.aspose.com/cells/nodejs-cpp/row/) and [**column**](https://reference.aspose.com/cells/nodejs-cpp/column/) objects are initialized, these rows and columns will be counted to the maximum area, even if there is no data in empty rows or columns.  
+## **Getting Max Range**  
+In Aspose.Cells, if the [**row**](https://reference.aspose.com/cells/nodejs-cpp/row/) and [**column**](https://reference.aspose.com/cells/nodejs-cpp/column/) objects are initialized, these rows and columns will be counted toward the maximum area, even if there is no data in the empty rows or columns.  
 
 ```javascript
 const path = require("path");
@@ -53,9 +53,9 @@ maxColumn = sheet.getCells().getMaxColumn();
 range = sheet.getCells().createRange(0, 0, maxRow + 1, maxColumn + 1);
 ```  
 
-## **Getting max data range**  
-In most cases, we only need to obtain all the ranges containing all the data, even if the empty cells outside the range are formatted.  
-And the settings about shapes, tables, and pivot tables will be ignored.  
+## **Getting Max Data Range**  
+In most cases, we only need to obtain the range that contains all the data, even if the empty cells outside the range are formatted.  
+Settings related to shapes, tables, and pivot tables are ignored.  
 
 ```javascript
 const path = require("path");
@@ -86,9 +86,9 @@ maxColumn = sheet.getCells().getMaxDataColumn();
 range = sheet.getCells().createRange(0, 0, maxRow + 1, maxColumn + 1);
 ```  
 
-## **Getting max display range**  
+## **Getting Max Display Range**  
 When we export all data from the worksheet to HTML, PDF, or images, we need to obtain an area containing all visible objects, including data, styles, graphics, tables, and pivot tables.  
-The following codes show how to render the max display range to HTML:  
+The following code shows how to render the max display range to HTML:  
 
 ```javascript
 const path = require("path");
@@ -116,6 +116,6 @@ saveOptions.setExportArea(AsposeCells.CellArea.createCellArea(range.getFirstRow(
 workbook.save("html.html", saveOptions);
 ```  
 
-Here is [source excel file](Book1.xlsx).  
+Here is the source Excel file (Book1.xlsx).  
   
 {{< app/cells/assistant language="nodejs-cpp" >}}

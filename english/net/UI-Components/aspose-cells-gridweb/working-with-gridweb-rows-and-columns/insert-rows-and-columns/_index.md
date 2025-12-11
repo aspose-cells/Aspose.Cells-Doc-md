@@ -17,26 +17,23 @@ This topic explains how to insert new rows and columns into a worksheet using th
 ## **Inserting Rows**
 To insert a row at any position in a worksheet:
 
-1. Add the Aspose.Cells.GridWeb control to the Web Form.
-1. Access the worksheet you're adding rows to.
-1. Insert a row by specifying a row index where the row would be inserted.
-
-
+1. Add the Aspose.Cells.GridWeb control to a Web Form.  
+2. Access the worksheet you're adding rows to.  
+3. Insert a row by specifying the row index at which the row will be inserted.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-AddRowsColumns.aspx-AddRow.cs" >}}
+
 ## **Inserting Columns**
 To insert a column at any position in a worksheet:
 
-1. Add the Aspose.Cells.GridWeb control to a Web Form.
-1. Access the worksheet you're adding columns to.
-1. Insert a column by specifying the column index where the column would be inserted.
-
-
+1. Add the Aspose.Cells.GridWeb control to a Web Form.  
+2. Access the worksheet you're adding columns to.  
+3. Insert a column by specifying the column index at which the column will be inserted.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-AddRowsColumns.aspx-AddColumn.cs" >}}
 
 {{% alert color="primary" %}} 
 
-You can also use InsertRows/InsertColumns methods to insert multiple rows/columns into the worksheets accordingly.
+You can also use the InsertRows/InsertColumns methods to insert multiple rows or columns into the worksheets accordingly.
 
 {{% /alert %}}

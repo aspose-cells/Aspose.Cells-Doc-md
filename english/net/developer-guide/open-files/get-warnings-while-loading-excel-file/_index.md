@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Sometimes the user tries to load the workbook which is somewhat corrupt but loadable. In such case, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the [**IWarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback) interface and setting [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback) property.
+Sometimes the user tries to load the workbook which is somewhat corrupt but loadable. In such a case, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the [**IWarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback) interface and setting [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback) property.
 
 ## **Get Warnings while Loading Excel File**
 
-The following sample code explains how to get warnings while loading excel file. The code loads the [sample excel file](sampleDuplicateDefinedName.xlsx) which throws [**DuplicateDefinedName**](https://reference.aspose.com/cells/net/aspose.cells/warningtype) warning on loading. This warning is then caught by [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning) method that prints the warning messages on the console. The code then saves the workbook as [output excel file](outputDuplicateDefinedName.xlsx). If you open the sample excel file in Microsoft Excel, it will also display you this warning as shown in this screenshot. Please also check the console output of the code given below for more understanding.
+The following sample code explains how to get warnings while loading an Excel file. The code loads the [sample Excel file](sampleDuplicateDefinedName.xlsx) which throws a [**DuplicateDefinedName**](https://reference.aspose.com/cells/net/aspose.cells/warningtype) warning when loading. This warning is then caught by [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning) method that prints the warning messages on the console. The code then saves the workbook as the [output Excel file](outputDuplicateDefinedName.xlsx). If you open the sample Excel file in Microsoft Excel, it will also display this warning to you as shown in this screenshot. Please also check the console output of the code given below for better understanding.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -23,7 +23,7 @@ The following sample code explains how to get warnings while loading excel file.
 
 ## **Console Output**
 
-Here is the console output of the above code when executed with the provided [sample excel file](sampleDuplicateDefinedName.xlsx).
+Here is the console output of the above code when executed with the provided [sample Excel file](sampleDuplicateDefinedName.xlsx).
 
 {{< highlight java >}}
 

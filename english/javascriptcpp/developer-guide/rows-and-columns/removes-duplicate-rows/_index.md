@@ -7,11 +7,11 @@ url: /javascript-cpp/remove-duplicate-rows-in-a-worksheet/
 description: Learn how to remove duplicate rows in a worksheet using Aspose.Cells for JavaScript via C++ and select specific columns for duplication checks.
 ---
 
-Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, and you can pick which columns should be checked for duplicate information.
+Removing duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a worksheet, and you can pick which columns should be checked for duplicate information.
 
 Aspose.Cells for JavaScript via C++ provides the `Cells.removeDuplicates()` method for this purpose. You can also set `startRow`, `startColumn`, `endRow`, and `endColumn` to specify the range of columns to check for duplicates.
 
-Following are the sample files which can be downloaded for testing this feature:
+Following are the sample files that can be downloaded for testing this feature:
 
 [removeduplicates.xlsx](removeduplicates.xlsx)
 
@@ -59,7 +59,7 @@ Following are the sample files which can be downloaded for testing this feature:
             // Create workbook from uploaded file
             const book = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Remove Duplicate (converted getters to properties)
+            // Remove Duplicates (converted getters to properties)
             book.worksheets.get(0).cells.removeDuplicates(0, 0, 5, 3);
 
             // Save result and provide download link

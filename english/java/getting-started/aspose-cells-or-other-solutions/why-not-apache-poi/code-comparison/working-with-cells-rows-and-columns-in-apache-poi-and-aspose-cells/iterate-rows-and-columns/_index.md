@@ -3,7 +3,7 @@ title: Iterate Rows and Columns
 type: docs
 weight: 50
 url: /java/iterate-rows-and-columns/
-description: Learn how to Iterate Rows and Columns through the Aspose.Cells for Java APIs.
+description: Learn how to iterate rows and columns through the Aspose.Cells for Java APIs.
 keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **How to Iterate Rows and Columns Using Aspose.Cells for Java**
 
-Rows and Columns can be iterated using rows and columns collection.
+Rows and columns can be iterated using the rows and columns collection.
 
 **Java**
 
@@ -35,15 +35,15 @@ for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
-	for (int j = 0 ; j < tcols ; j++)
+    for (int j = 0 ; j < tcols ; j++)
 
-	{
+    {
 
-		System.out.print(cells.get(i,j).getName() + " - " + cells.get(i,j).getValue() + "\t");
+        System.out.print(cells.get(i,j).getName() + " - " + cells.get(i,j).getValue() + "\t");
 
-	}
+    }
 
-	System.out.println("");
+    System.out.println("");
 
 }
 
@@ -51,7 +51,7 @@ for (int i = 0 ; i < rows.getCount() ; i++)
 
 ## **Apache POI SS - HSSF XSSF - Iterate Rows and Columns**
 
-Rows and Cells can be iterated on Sheet. Sample code is mentioned below:
+Rows and cells can be iterated on a sheet. Sample code is shown below:
 
 **Java**
 

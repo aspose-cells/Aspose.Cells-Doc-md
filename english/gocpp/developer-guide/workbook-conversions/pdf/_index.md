@@ -21,7 +21,7 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for C++ directly writes the information about API and Version Number in output documents. For example, upon rendering a document to PDF, Aspose.Cells for C++ populates the **PDF Producer** field with a value, e.g., 'Aspose.Cells v23.2'.
+Aspose.Cells for C++ directly writes information about the API and version number in output documents. For example, upon rendering a document to PDF, Aspose.Cells for C++ populates the **PDF Producer** field with a value, e.g., 'Aspose.Cells v23.2'.
 
 Please note that you can change this information in output documents by using the [**PdfSaveOptions.GetProducer()**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getproducer/) property.
 
@@ -31,25 +31,25 @@ Please note that you can change this information in output documents by using th
 
 Aspose.Cells for C++ supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) class' [**Save**](https://reference.aspose.com/cells/go-cpp/workbook/save/) method. The [**Save**](https://reference.aspose.com/cells/go-cpp/workbook/save/) method provides the [**SaveFormat.Pdf**](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) enumeration member that converts the native Excel files to PDF format.
 
-Follow the below steps to directly convert the Excel spreadsheets to PDF format:
+Follow the steps below to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) class by calling its empty constructor.
-1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
-1. Do any work (input data, apply formatting, set formulas, insert pictures, or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) class' [**Save**](https://reference.aspose.com/cells/go-cpp/workbook/save/) method to save the spreadsheet.
+1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) class by calling its empty constructor.  
+2. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.  
+3. Do any work (input data, apply formatting, set formulas, insert pictures, or other drawing objects, etc.) on the spreadsheet using Aspose.Cells' APIs.  
+4. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) class' [**Save**](https://reference.aspose.com/cells/go-cpp/workbook/save/) method to save the spreadsheet.
 
-The file format should be PDF, so select *Pdf* (a pre-defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/go-cpp/saveformat/) enumeration to generate the final PDF document.
+The file format should be PDF, so select *Pdf* (a pre‑defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/go-cpp/saveformat/) enumeration to generate the final PDF document.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Pdf.go" >}}
 ### **Advanced Conversion**
 
 You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class gives you control over the print, font, security, and compression settings for the output PDF.
 
-The most important property is [**GetCompliance()**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getcompliance/), which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+The most important property is [**GetCompliance()**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/getcompliance/), which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-3b, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
-#### **Saving Workbook to PDF/A Complied Files**
+#### **Saving Workbook to PDF/A Compliant Files**
 
-The below-provided code snippet demonstrates how to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class to save Excel files to PDF/A compliant PDF format.
+The code snippet below demonstrates how to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class to save Excel files to PDF/A‑compliant PDF format.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Pdf-1.go" >}}
 {{% alert color="primary" %}}
@@ -70,7 +70,7 @@ With the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveo
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Pdf-3.go" >}}
 #### **Export Custom properties to PDF**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx" can be downloaded [here](sourceWithCustProps.xlsx) for testing, and the output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/go-cpp/pdfsaveoptions/) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on **File** and then the **Properties** option as shown in the following image. Template file **sourceWithCustProps.xlsx** can be downloaded [here](sourceWithCustProps.xlsx) for testing, and the output PDF file **outSourceWithCustProps.pdf** is available [here](outSourceWithCustProps.pdf) for analysis.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -92,7 +92,7 @@ The table that follows lists all features that are fully or partially supported 
 | Comments |  | Yes |  |
 | Conditional Formatting |  | Yes |  |
 | Document Properties |  | Yes |  |
-| Drawing Objects |  | Partially | Shadow and 3-D effects for drawing objects are not supported well; WordArt and SmartArt are partially supported. |
+| Drawing Objects |  | Partially | Shadow and 3‑D effects for drawing objects are not supported well; WordArt and SmartArt are partially supported. |
 | Font | Size | Yes |  |
 | Font | Color | Yes |  |
 | Font | Style | Yes |  |
@@ -115,11 +115,11 @@ The table that follows lists all features that are fully or partially supported 
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula-dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add PDF Bookmarks with Named Destinations](/cells/cpp/add-pdf-bookmarks-with-named-destinations/)
 - [Change the Font on just the specific Unicode characters while saving to PDF](/cells/cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
 - [Convert XLSX File to PDF Format](/cells/cpp/convert-xlsx-file-to-pdf-format/)

@@ -11,7 +11,7 @@ This section shows the features that are only available in Aspose.Cells and not 
 
 It is very helpful for developers who want to migrate from NPOI to Aspose.Cells.
 
-This includes following abundant features of Aspose.Cells as compared to NPOI:
+This includes the following abundant features of Aspose.Cells compared to NPOI:
 
 - [Data Handling Features in Aspose.Cells](/cells/net/data-handling-features-in-aspose-cells/)
   - [Calculate Sub Totals](/cells/net/calculate-sub-totals/)
@@ -28,5 +28,5 @@ This includes following abundant features of Aspose.Cells as compared to NPOI:
   - [Save Each Worksheet to Different PDF](/cells/net/save-each-worksheet-to-different-pdf/)
   - [Set Worksheet Tab Color in Aspose.Cells](/cells/net/set-worksheet-tab-color-in-aspose-cells/)
 
-**Note:** Many more examples are yet to be available soon.
+**Note:** Many more examples will be available soon.
 {{< app/cells/assistant language="csharp" >}}

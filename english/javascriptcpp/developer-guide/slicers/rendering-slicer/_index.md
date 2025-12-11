@@ -59,10 +59,10 @@ The following sample code loads the [sample Excel file](67338479.xlsx) that cont
             // Access first worksheet.
             const ws = wb.worksheets.get(0);
 
-            // Set the print area because we want to render slicer only.
+            // Set the print area because we want to render only the slicer.
             ws.pageSetup.printArea = "B15:E25";
 
-            // Specify image or print options, set one page per sheet and only area to true.
+            // Specify image or print options, set one page per sheet, and set onlyArea to true.
             const imgOpts = new ImageOrPrintOptions();
             imgOpts.horizontalResolution = 200;
             imgOpts.verticalResolution = 200;

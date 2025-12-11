@@ -9,14 +9,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.9.2 to 9.0.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.9.2 to 9.0.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added Shape.TextOptions Property**
 Aspose.Cells for .NET has exposed the TextOptions property for the Shape class in order to control the appearance of textual parts of a Shape.
 
-Here is simple usage scenario of Shape.TextOptions property.
+Here is a simple usage scenario of the Shape.TextOptions property.
 
 **C#**
 
@@ -50,11 +50,10 @@ textbox.TextOptions.IsItalic = true;
 
 {{< /highlight >}}
 
-
 ### **Added LoadOptions.CultureInfo Property**
-Aspose.Cells for .NET 9.0.0 has exposed the LoadOptions.CultureInfo property which allows inject an instance of CultureInfo at the time of loading a document in an instance of Workbook.
+Aspose.Cells for .NET 9.0.0 has exposed the LoadOptions.CultureInfo property which allows injecting an instance of CultureInfo at the time of loading a document into an instance of Workbook.
 
-Here is simple usage scenario of aforementioned properties.
+Here is a simple usage scenario of the aforementioned property.
 
 {{% alert color="primary" %}} 
 
@@ -88,15 +87,14 @@ var book = new Workbook(dir + "input.html", options);
 
 {{< /highlight >}}
 
-
 ### **Added ChartPoint.IsInSecondaryPlot Property**
 Aspose.Cells for .NET has exposed the ChartPoint.IsInSecondaryPlot property which can be used to detect if a ChartPoint resides on a secondary plot of a Pie or Bar chart.
 
-Here is simple usage scenario of Shape.Line property.
+Here is a simple usage scenario of the ChartPoint.IsInSecondaryPlot property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Finding a DataPoint resides on the Second Plot](/cells/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+Check the detailed article on [Finding a DataPoint that resides on the Second Plot](/cells/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 
@@ -138,11 +136,10 @@ foreach (ChartPoint point in series.Points)
 
 {{< /highlight >}}
 
+### **Added OleObject.ClassIdentifier Property**
+Aspose.Cells for .NET 9.0.0 has exposed the OleObject.ClassIdentifier property which can be used to specify the application behavior for loading an OleObject. For instance, a PPT file can be embedded in a spreadsheet with two different views, that is, presentation view or slide view, each having different class identifier values.
 
-### **Added OleObject.ClassIdentifier property**
-Aspose.Cells for .NET 9.0.0 has exposed the OleObject.ClassIdentifier property which can be used to specify the application behavior to load an OleObject. For instance, a PPT file can be embedded in a spreadsheet with 2 different views, that is; presentation view or slide view, whereas both views have different class identifier values.
-
-Following is the simple usage scenario of OleObject.ClassIdentifier property.
+The following is a simple usage scenario of the OleObject.ClassIdentifier property.
 
 {{% alert color="primary" %}} 
 
@@ -281,9 +278,9 @@ Please use Shape.Line.BeginArrowheadWidth property as an alternative.
 ### **Obsoleted LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Properties**
 Please use Shape.Line.BeginArrowheadLength property instead.
 ### **Obsoleted LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Properties**
-Please use Shape.Line.EndArrowheadWidth property instead.
+Please use Shape.Line.EndArrowheadWidth property as an alternative.
 ### **Obsoleted LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Properties**
-Please use Shape.Line.EndArrowheadLength property instead.
+Please use Shape.Line.EndArrowheadLength property as an alternative.
 ## **Deleted APIs**
 ### **Deleted Worksheet.CopyConditionalFormatting Method**
 ### **Deleted Workbook.CheckWriteProtectedPassword Method**

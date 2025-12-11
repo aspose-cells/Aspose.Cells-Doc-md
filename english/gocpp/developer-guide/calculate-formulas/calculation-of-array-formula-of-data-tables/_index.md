@@ -10,16 +10,16 @@ url: /go-cpp/calculation-of-array-formula-of-data-tables/
 
 {{% alert color="primary" %}}
 
-You can create Data Table in Microsoft Excel using Data > What-If Analysis > Data Table.... Aspose.Cells now allows you to calculate the array formula of a data table. Please use [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) as normal for calculating any type of formulas.
+You can create a data table in Microsoft Excel using **Data > What‑If Analysis > Data Table**. Aspose.Cells now allows you to calculate the array formula of a data table. Please use [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) as usual for calculating any type of formulas.
 
 {{% /alert %}}
 
-In the following sample code, we used the [source excel file](5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table which are filled with Yellow color will become 120 as shown in the following images. The sample code generates the [output PDF](5115538.pdf).
+In the following sample code, we used the [source Excel file](5115535.xlsx). If you change the value of cell **B1** to **100**, the values of the data table that are filled with yellow color will become **120**, as shown in the following images. The sample code generates the [output PDF](5115538.pdf).
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
-Here is the sample code used to generate the [output PDF](5115538.pdf) from the [source excel file](5115535.xlsx). Please read the comments for more information.
+Here is the sample code used to generate the [output PDF](5115538.pdf) from the [source Excel file](5115535.xlsx). Please read the comments for more information.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CalculationOfArrayFormulaOfDataTables.go" >}}

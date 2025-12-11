@@ -9,18 +9,18 @@ keywords: excel printing, prevent printing excel, how to prevent users from prin
 ---
 
 ## **Possible Usage Scenarios**  
-In our daily work, there may be some important information in the Excel file; in order to protect the internal data from spreading, the company will not allow us to print them. This document will tell you how to prevent others from printing Excel files.  
+In our daily work, there may be some important information in the Excel file; in order to protect the internal data from spreading, the company will not allow us to print it. This document will tell you how to prevent others from printing Excel files.  
 
 ## **How to Prevent Users from Printing File in MS-Excel**  
 You can apply the following VBA code to protect your specific file from being printed.  
-1. Open your workbook which you don’t allow others to print.  
-1. Select the "Developer" tab in the Excel ribbon and click on the "View Code" button in the "Controls" section. Alternatively, you can hold down the ALT + F11 keys to open the Microsoft Visual Basic for Applications window.  
+1. Open the workbook that you don’t want others to print.  
+2. Select the **Developer** tab in the Excel ribbon and click the **View Code** button in the **Controls** section. Alternatively, you can press **ALT + F11** to open the Microsoft Visual Basic for Applications window.  
 <br>  
 <img src="1.png" width=70% />  
-1. And then in the left Project Explorer, double click ThisWorkbook to open the module, and add some VBA codes.  
+3. In the left Project Explorer, double‑click **ThisWorkbook** to open the module and add some VBA code.  
 <br>  
 <img src="2.png" width=70% />  
-1. Then save and close this code, go back to the workbook, and now when you print the sample file, it will not be allowed to be printed, and you will get the following warning box:  
+4. Then save and close the code, return to the workbook. When you attempt to print the workbook, it will be prevented, and you will see the following warning box:  
 <br>  
 <img src="3.png" width=70% />  
 
@@ -29,10 +29,10 @@ You can apply the following VBA code to protect your specific file from being pr
 The following sample code illustrates how to prevent users from printing an Excel file:  
 
 1. Load the [sample file](sample.xlsx).  
-1. Get the VbaModuleCollection object from the VbaProject property of Workbook.  
-1. Get the VbaModule object via the "ThisWorkbook" name.  
-1. Set the codes property of VbaModule.  
-1. Save the sample file to [xlsm format](out.xlsm).  
+2. Get the **VbaModuleCollection** object from the **VbaProject** property of **Workbook**.  
+3. Get the **VbaModule** object by the name **"ThisWorkbook"**.  
+4. Set the **codes** property of the **VbaModule**.  
+5. Save the workbook in **XLSM** format.  
 
 ```html
 <!DOCTYPE html>
@@ -80,10 +80,10 @@ The following sample code illustrates how to prevent users from printing an Exce
             const modules = workbook.vbaProject.modules;
             const module = modules.get("ThisWorkbook");
 
-            // Setting module codes (converted from setCodes -> codes assignment)
+            // Setting module codes
             module.codes = "Private Sub Workbook_BeforePrint(Cancel As Boolean)\r\n  Cancel = True\r\n  MsgBox \"Refusing to print in paperless office\"\r\nEnd Sub\r\n";
 
-            // Saving the modified workbook as macro-enabled workbook
+            // Saving the modified workbook as a macro‑enabled workbook
             const outputData = workbook.save(SaveFormat.Xlsm);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

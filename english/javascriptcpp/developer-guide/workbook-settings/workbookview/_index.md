@@ -9,7 +9,7 @@ keywords: How to Control Workbook View JavaScript via C++, Set Excel View JavaSc
 ---
 
 ## **Possible Usage Scenarios**
-When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells for JavaScript via C++ offers this feature. Aspose.Cells for JavaScript via C++ provides the following properties and methods to help you to achieve your goals.
+When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells for JavaScript via C++ offers this feature. Aspose.Cells for JavaScript via C++ provides the following properties and methods to help you achieve your goals.
 
 - [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#isHScrollBarVisible--)
 - [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#isVScrollBarVisible--)
@@ -23,9 +23,9 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 ## **How to Control Workbook View using Aspose.Cells for JavaScript via C++**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Hide horizontal and vertical scrollbars of Workbook View.
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Hide horizontal and vertical scrollbars of Workbook View.
 
 ```html
 <!DOCTYPE html>

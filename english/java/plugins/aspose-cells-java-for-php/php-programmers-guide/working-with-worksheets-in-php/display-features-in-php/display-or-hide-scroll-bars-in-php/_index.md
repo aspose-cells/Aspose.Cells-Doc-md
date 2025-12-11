@@ -1,5 +1,5 @@
 ---
-title: Display or Hide Scroll Bars in Php
+title: Display or Hide Scroll Bars in PHP
 type: docs
 weight: 20
 url: /java/display-or-hide-scroll-bars-in-php/
@@ -9,30 +9,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Display or Hide Scroll Bars**
 ### **Hiding Scroll Bars**
-To hide Scroll Bars using **Aspose.Cells Java for PHP**, call **displayhidescrollbars** module.
+To hide scroll bars using **Aspose.Cells Java for PHP**, call the **DisplayHideScrollBars** module.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiating a Excel object by excel file path
-
+ // Instantiating an Excel object by the Excel file path
 $workbook = new Workbook($dataDir . "book1.xls");
 
-//Hiding the vertical scroll bar of the Excel file
-
+// Hiding the vertical scroll bar of the Excel file
 $workbook->getSettings()->setVScrollBarVisible(false);
 
-//Hiding the horizontal scroll bar of the Excel file
-
+// Hiding the horizontal scroll bar of the Excel file
 $workbook->getSettings()->setHScrollBarVisible(false);
 
-//Saving the modified Excel file in default (that is Excel 2003) format
-
+// Saving the modified Excel file in the default (Excel 2003) format
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Display or Hide Scroll Bars (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Display or Hide Scroll Bars (Aspose.Cells)** from the social coding sites mentioned below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

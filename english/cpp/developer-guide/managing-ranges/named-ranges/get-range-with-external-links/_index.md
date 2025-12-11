@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Get Range with External Links**
 
-A lot of times Excel files access data from other Excel files using external links. Aspose.Cells provides the option to retrieve these external links by using the [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method. The [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method returns an array of type [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/). The [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/) class provides an [**GetExternalFileName()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getexternalfilename/) property which returns the name of the external file. The [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/) class exposes the following members.
+Often, Excel files access data from other Excel files using external links. Aspose.Cells provides the option to retrieve these external links by using the [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method. The [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method returns an array of type [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/). The [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/) class provides a [**GetExternalFileName()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getexternalfilename/) property which returns the name of the external file. The [**ReferredArea**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/) class exposes the following members.
 
 - [**GetEndColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getendcolumn/): The end column of the area
 - [**GetEndRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getendrow/): The end row of the area
@@ -22,7 +22,7 @@ A lot of times Excel files access data from other Excel files using external lin
 - [**GetStartColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getstartcolumn/): The start column of the area
 - [**GetStartRow()**](https://reference.aspose.com/cells/cpp/aspose.cells/referredarea/getstartrow/): The start row of the area
 
-The sample code given below demonstrates the use of [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method to get Ranges with external links.
+The sample code given below demonstrates the use of the [**Name.GetReferredAreas**](https://reference.aspose.com/cells/cpp/aspose.cells/name/getreferredareas/) method to get ranges with external links.
 
 ## **Sample Code**
 

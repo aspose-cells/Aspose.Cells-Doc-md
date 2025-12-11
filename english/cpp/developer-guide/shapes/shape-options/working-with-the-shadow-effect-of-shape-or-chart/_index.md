@@ -21,7 +21,7 @@ Aspose.Cells provides the [GetShadowEffect()](https://reference.aspose.com/cells
 - [GetTransparency()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shadoweffect/gettransparency/)
 
 ## **Working with the Shadow Effect of Shape or Chart**
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [GetShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getshadoweffect/) property and then saves the workbook in the [output excel file](5115411.xlsx).
+The following sample code loads the [source Excel file](5115425.xlsx), accesses the first shape in the first worksheet, sets the sub‑properties of the [GetShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getshadoweffect/) property, and then saves the workbook to the [output Excel file](5115411.xlsx).
 
 ```cpp
 #include <iostream>
@@ -40,22 +40,22 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"sample.xlsx";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"output_out.xlsx";
 
-    // Load your source excel file
+    // Load your source Excel file
     Workbook wb(inputFilePath);
 
-    // Access first worksheet
+    // Access the first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
 
-    // Access first shape
+    // Access the first shape
     Shape sh = ws.GetShapes().Get(0);
 
-    // Set the shadow effect of the shape, Set its Angle, Blur, Distance and Transparency properties
+    // Set the shadow effect of the shape: set its Angle, Blur, Distance, and Transparency properties
     ShadowEffect se = sh.GetShadowEffect();
     se.SetAngle(150);
     se.SetBlur(4);

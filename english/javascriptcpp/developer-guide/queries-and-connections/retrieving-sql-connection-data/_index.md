@@ -15,12 +15,12 @@ Aspose.Cells can help you retrieve SQL connection data. This includes any and al
 In Microsoft Excel, connect to a database by:
 
 1. Clicking the **Data** menu and selecting **From Other Sources** followed by **From SQL Server**.  
-1. Then select **Data** followed by **Connections**.  
-1. Use the Connections wizard to connect to the database and create a database query.
+2. Then select **Data** followed by **Connections**.  
+3. Use the Connections wizard to connect to the database and create a database query.
 
 Aspose.Cells for JavaScript via C++ provides the `Workbook.dataConnections` property for retrieving external connections. It returns an array of ExternalConnection objects in the workbook.
 
-If the ExternalConnection object contains SQL connection data, it can be type-cast to a DBConnection object and its properties can be used to retrieve database command, command type, connection description, connection information, credentials, and so on.
+If the ExternalConnection object contains SQL connection data, it can be type‑cast to a DBConnection object and its properties can be used to retrieve database command, command type, connection description, connection information, credentials, and so on.
 
 ```html
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ If the ExternalConnection object contains SQL connection data, it can be type-ca
                 for (let i = 0; i < connectionCount; i++) {
                     connection = connections.get(i);
 
-                    // Check if the Connection is DBConnection, then retrieve its various properties
+                    // Check if the connection is a DBConnection, then retrieve its various properties
                     if (connection.classType === AsposeCells.ExternalConnectionClassType.DBConnection) {
 
                         const dbConn = connection;

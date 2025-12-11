@@ -15,6 +15,6 @@ You can check if your VBA project is signed or not using Microsoft Excel via **T
 
 ## **Check if VBA project in a Workbook is Signed in C++**
 
-The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/go-cpp/vbaproject/issigned/) property. The property will return **true** if the project is signed otherwise it will return **false**.
+The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/go-cpp/vbaproject/issigned/) property. The property will return **true** if the project is signed, otherwise it will return **false**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-CheckIfVbaProjectInAWorkbookIsSigned.go" >}}

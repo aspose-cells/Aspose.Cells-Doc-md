@@ -1,22 +1,24 @@
----
-title: Customize Globalization Settings for Pivot Table with JavaScript via C++
-linktitle: Customize Globalization Settings for Pivot Table
-type: docs
-weight: 50
-url: /javascript-cpp/customize-globalization-settings-for-pivot-table/
----
+---  
+title: Customize Globalization Settings for Pivot Table with JavaScript via C++  
+linktitle: Customize Globalization Settings for Pivot Table  
+type: docs  
+weight: 50  
+url: /javascript-cpp/customize-globalization-settings-for-pivot-table/  
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-Sometimes you want to customize the *Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values* text as per your requirements. Aspose.Cells for JavaScript via C++ allows you to customize the globalization settings of the pivot table to deal with such scenarios. You can also use this feature to change the labels to other languages like Arabic, Hindi, Polish, etc.
+Sometimes you want to customize the *Pivot Total, Subtotal, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values* texts to meet your requirements. Aspose.Cells for JavaScript via C++ allows you to customize the globalization settings of the pivot table to address such scenarios. You can also use this feature to change the labels to other languages such as Arabic, Hindi, Polish, etc.  
 
-## **Customize Globalization Settings for Pivot Table**
+## **Customize Globalization Settings for Pivot Table**  
 
-The following sample code explains how to customize globalization settings for the pivot table. It creates a class *CustomPivotTableGlobalizationSettings* derived from a base class [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/) and overrides all of its necessary methods. These methods return the customized text for the *Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values*. Then it assigns the object of this class to [**WorkbookSettings.pivotSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#pivotSettings--) property. The code loads the [source excel file](40468488.xlsx) that contains the pivot table, refreshes and calculates its data and saves it as [output PDF](40468487.pdf) file. The following screenshot shows the effect of the sample code on the output PDF. As you can see in the screenshot, different parts of the pivot table have now a customized text returned by the overridden methods of [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/) class.
+The following sample code explains how to customize globalization settings for the pivot table. It creates a class *CustomPivotTableGlobalizationSettings* derived from the base class [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/) and overrides all of its necessary methods. These methods return the customized text for the *Pivot Total, Subtotal, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values*. Then it assigns an instance of this class to the [**WorkbookSettings.pivotSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#pivotSettings--) property.  
 
-![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
+The code loads the [source Excel file](40468488.xlsx) that contains the pivot table, refreshes and calculates its data, and saves it as an [output PDF](40468487.pdf) file. The following screenshot shows the effect of the sample code on the output PDF. As you can see in the screenshot, different parts of the pivot table now have customized text returned by the overridden methods of the [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/pivotglobalizationsettings/) class.  
 
-## **Sample Code**
+![Pivot Table Globalization Settings Example](customize-globalization-settings-for-pivot-table_1.png)  
+
+## **Sample Code**  
 
 ```html
 <!DOCTYPE html>
@@ -48,49 +50,49 @@ The following sample code explains how to customize globalization settings for t
         });
 
         class CustomPivotTableGlobalizationSettings extends AsposeCells.PivotGlobalizationSettings {
-            // Gets the name of "Total" label in the PivotTable.
+            // Gets the name of the "Total" label in the PivotTable.
             getTextOfTotal() {
                 console.log("---------GetPivotTotalName-------------");
                 return "AsposeGetPivotTotalName";
             }
 
-            // Gets the name of "Grand Total" label in the PivotTable.
+            // Gets the name of the "Grand Total" label in the PivotTable.
             getTextOfGrandTotal() {
                 console.log("---------GetPivotGrandTotalName-------------");
                 return "AsposeGetPivotGrandTotalName";
             }
 
-            // Gets the name of "(Multiple Items)" label in the PivotTable.
+            // Gets the name of the "(Multiple Items)" label in the PivotTable.
             getTextOfMultipleItems() {
                 console.log("---------GetMultipleItemsName-------------");
                 return "AsposeGetMultipleItemsName";
             }
 
-            // Gets the name of "(All)" label in the PivotTable.
+            // Gets the name of the "(All)" label in the PivotTable.
             getTextOfAll() {
                 console.log("---------GetAllName-------------");
                 return "AsposeGetAllName";
             }
 
-            // Gets the name of "Column Labels" label in the PivotTable.
+            // Gets the name of the "Column Labels" label in the PivotTable.
             getTextOfColumnLabels() {
                 console.log("---------GetColumnLabelsOfPivotTable-------------");
                 return "AsposeGetColumnLabelsOfPivotTable";
             }
 
-            // Gets the name of "Row Labels" label in the PivotTable.
+            // Gets the name of the "Row Labels" label in the PivotTable.
             getTextOfRowLabels() {
                 console.log("---------GetRowLabelsNameOfPivotTable-------------");
                 return "AsposeGetRowLabelsNameOfPivotTable";
             }
 
-            // Gets the name of "(blank)" label in the PivotTable.
+            // Gets the name of the "(blank)" label in the PivotTable.
             getTextOfEmptyData() {
                 console.log("---------GetEmptyDataName-------------");
                 return "(blank)AsposeGetEmptyDataName";
             }
 
-            // Gets the name of PivotFieldSubtotalType type in the PivotTable.
+            // Gets the name for a given PivotFieldSubtotalType in the PivotTable.
             getTextOfSubTotal(subTotalType) {
                 console.log("---------GetSubTotalName-------------");
 
@@ -114,7 +116,7 @@ The following sample code explains how to customize globalization settings for t
                         return "AsposeProduct";
 
                     case AsposeCells.PivotFieldSubtotalType.CountNums:
-                        return "AsposeCount";
+                        return "AsposeCountNums";
 
                     case AsposeCells.PivotFieldSubtotalType.Stdev:
                         return "AsposeStdDev";
@@ -146,17 +148,17 @@ The following sample code explains how to customize globalization settings for t
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiating a Workbook object by opening the uploaded Excel file
+            // Instantiate a Workbook object by opening the uploaded Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Apply globalization settings and custom pivot table globalization settings
             workbook.settings.globalizationSettings = new AsposeCells.GlobalizationSettings();
             workbook.settings.globalizationSettings.pivotSettings = new CustomPivotTableGlobalizationSettings();
 
-            // Hide first worksheet that contains the data of the pivot table
+            // Hide the first worksheet that contains the data of the pivot table
             workbook.worksheets.get(0).isVisible = false;
 
-            // Access second worksheet
+            // Access the second worksheet
             const ws = workbook.worksheets.get(1);
 
             // Access the pivot table, refresh and calculate its data
@@ -166,11 +168,11 @@ The following sample code explains how to customize globalization settings for t
             pt.calculateData();
             pt.refreshDataFlag = false;
 
-            // Pdf save options - save entire worksheet on a single pdf page
+            // PDF save options – save the entire worksheet on a single PDF page
             const options = new AsposeCells.PdfSaveOptions();
             options.onePagePerSheet = true;
 
-            // Save the output pdf 
+            // Save the output PDF
             const outputData = workbook.save(SaveFormat.Pdf, options);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             downloadLink.href = URL.createObjectURL(blob);

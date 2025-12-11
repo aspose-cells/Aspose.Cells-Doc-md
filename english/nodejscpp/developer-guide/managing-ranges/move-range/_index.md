@@ -39,8 +39,8 @@ const workbook = new AsposeCells.Workbook(filePath);
 const cells = workbook.getWorksheets().get(0).getCells();
 
 const range = cells.createRange("A1", "B5");
-//move the range to right.
+// Move the range to the right.
 range.moveTo(0, 2);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

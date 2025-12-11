@@ -11,14 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Combo charts in Excel let you avail of this option because you can easily combine two or more chart types to make your data understandable. Combo charts are helpful when your data contains multiple kinds of values including price and volume. Moreover, Combo charts are feasible when your data numbers change widely from series to series.
+Combo charts in Excel let you take advantage of this option because you can easily combine two or more chart types to make your data understandable. Combo charts are helpful when your data contains multiple kinds of values, including price and volume. Moreover, Combo charts are useful when your data numbers change widely from series to series.  
 Taking the following dataset as an example, we can observe that these data are quite similar to the data mentioned in [**VHCL**](https://docs.aspose.com/cells/nodejs-cpp/create-volume-high-low-close-stock-chart/). If we want to visualize series0, which corresponds to "Total Revenue," as a Line chart, how should we proceed?
 
 ![todo:image_alt_text](sample.png)
+
 ## **Combo chart**
 After running the code below, you will see the Combo chart as shown below.
 
 ![todo:image_alt_text](result.png)
+
 ## **Sample Code**
 The following sample code loads the [sample Excel file](combo.xlsx) and generates the [output Excel file](out.xlsx).
 
@@ -38,7 +40,7 @@ const worksheet = workbook.getWorksheets().get(0);
 const pieIdx = worksheet.getCharts().add(AsposeCells.ChartType.StockVolumeHighLowClose, 15, 0, 34, 12);
 // Retrieve the Chart object
 const chart = worksheet.getCharts().get(pieIdx);
-// Set the legend can be showed
+// Set the legend to be shown
 chart.setShowLegend(true);
 // Set the chart title name 
 chart.getTitle().setText("Combo Chart");
@@ -49,39 +51,39 @@ chart.setChartDataRange("A1:E12", true);
 // Set category data 
 chart.getNSeries().get(0).setXValues("A2:A12");  // Corrected method
 
-// Set the Series[1] Series[2] and Series[3] to different Marker Style
+// Set the Series[1] Series[2] and Series[3] to different marker styles
 for (let j = 0; j < chart.getNSeries().getCount(); j++) {
-switch (j) {
-case 1:
-chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Circle);
-chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Pink);
-chart.getNSeries().get(j).getBorder().setIsVisible(false);
-break;
-case 2:
-chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Dash);
-chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Orange);
-chart.getNSeries().get(j).getBorder().setIsVisible(false);
-break;
-case 3:
-chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Square);
-chart.getNSeries().get(j).getMarker().setMarkerSize(15);
-chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
-chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.LightBlue);
-chart.getNSeries().get(j).getBorder().setIsVisible(false);
-break;
-}
+  switch (j) {
+    case 1:
+      chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Circle);
+      chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+      chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+      chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Pink);
+      chart.getNSeries().get(j).getBorder().setIsVisible(false);
+      break;
+    case 2:
+      chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Dash);
+      chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+      chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+      chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.Orange);
+      chart.getNSeries().get(j).getBorder().setIsVisible(false);
+      break;
+    case 3:
+      chart.getNSeries().get(j).getMarker().setMarkerStyle(AsposeCells.ChartMarkerType.Square);
+      chart.getNSeries().get(j).getMarker().setMarkerSize(15);
+      chart.getNSeries().get(j).getMarker().getArea().setFormatting(AsposeCells.FormattingType.Custom);
+      chart.getNSeries().get(j).getMarker().getArea().setForegroundColor(AsposeCells.Color.LightBlue);
+      chart.getNSeries().get(j).getBorder().setIsVisible(false);
+      break;
+  }
 }
 // Set the chart type for Series[0] 
 chart.getNSeries().get(0).setType(AsposeCells.ChartType.Line);
 // Set style for the border of first series
 chart.getNSeries().get(0).getBorder().setStyle(AsposeCells.LineType.Solid);
-// Set Color for the first series
+// Set color for the first series
 chart.getNSeries().get(0).getBorder().setColor(AsposeCells.Color.DarkBlue);
-// Fill the PlotArea area with nothing 
+// Fill the PlotArea with no fill 
 chart.getPlotArea().getArea().setFormatting(AsposeCells.FormattingType.None);
 // Save the Excel file
 workbook.save("out.xlsx");

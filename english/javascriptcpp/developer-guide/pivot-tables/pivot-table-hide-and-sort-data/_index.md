@@ -1,11 +1,11 @@
 ---
-title: Pivot Table Hide and Sort data
+title: Pivot Table Hide and Sort Data
 type: docs
 weight: 120
 url: /javascript-cpp/pivot-table-hide-and-sort-data/
 ---
 
-## **Pivot Table Hide and Sort data**
+## **Pivot Table Hide and Sort Data**
 Aspose.Cells for JavaScript via C++ supports hiding and sorting data in the pivot table. The following code snippet demonstrates this feature by sorting the Score column in descending order and then hiding the rows with a score less than 60.
 
 ```html
@@ -63,7 +63,7 @@ Aspose.Cells for JavaScript via C++ supports hiding and sorting data in the pivo
             let currentRow = 3;
             const rowsUsed = dataBodyRange.endRow;
 
-            // Sorting score in descending
+            // Sorting score in descending order
             const field = pivotTable.rowFields.get(0);
             field.isAutoSort = true;
             field.isAscendSort = false;
@@ -99,7 +99,7 @@ Aspose.Cells for JavaScript via C++ supports hiding and sorting data in the pivo
 </html>
 ```
 
-The source and output excel files used in the code snippet are attached for reference.
+The source and output Excel files used in the code snippet are attached for reference.
 
 [Source File](96928093.xlsx)
 

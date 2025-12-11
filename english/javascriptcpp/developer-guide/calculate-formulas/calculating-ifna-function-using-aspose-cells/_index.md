@@ -1,7 +1,7 @@
 ---
 title: Calculating IFNA function using Aspose.Cells for JavaScript via C++
-description: How to calculate IFNA functions using the Aspose.Cells library for JavaScript via C++. Load an existing Excel file or create a new one, and calculate the IFNA function to get the result. Finally, save the modified Excel file to disk.
-keywords: Aspose.Cells, Excel, IFNA functions, calculations JavaScript via C++
+description: How to calculate the IFNA function using the Aspose.Cells library for JavaScript via C++. Load an existing Excel file or create a new one, calculate the IFNA function to get the result, and finally save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, IFNA functions, calculations, JavaScript via C++
 type: docs
 weight: 40
 url: /javascript-cpp/calculating-ifna-function-using-aspose-cells/
@@ -12,8 +12,8 @@ url: /javascript-cpp/calculating-ifna-function-using-aspose-cells/
 Aspose.Cells supports the calculation of the IFNA Excel function. The IFNA function returns the value you specify if the formula returns the #N/A error value; otherwise, it returns the result of the formula.
 
 {{% /alert %}} 
-## **Calculating IFNA function using Aspose.Cells for JavaScript via C++**
-The following sample code illustrates the calculation of the IFNA function using Aspose.Cells for JavaScript via C++. 
+## **Calculating the IFNA function using Aspose.Cells for JavaScript via C++**
+The following sample code illustrates the calculation of the IFNA function using Aspose.Cells for JavaScript via C++.  
 
 
 ```html
@@ -75,7 +75,7 @@ The following sample code illustrates the calculation of the IFNA function using
             cellA5.formula = '=IFNA(VLOOKUP("Pear",$A$1:$A$3,1,0),"Not found")';
             cellA6.formula = '=IFNA(VLOOKUP("Orange",$A$1:$A$3,1,0),"Not found")';
 
-            // Calculate the formula of workbook
+            // Calculate the workbook's formulas
             workbook.calculateFormula();
 
             // Get the string values of A5 and A6
@@ -100,7 +100,7 @@ The following sample code illustrates the calculation of the IFNA function using
 
 
 {{< highlight javascript >}}
- Not found
+Not found
 
 Orange
 {{< /highlight >}}

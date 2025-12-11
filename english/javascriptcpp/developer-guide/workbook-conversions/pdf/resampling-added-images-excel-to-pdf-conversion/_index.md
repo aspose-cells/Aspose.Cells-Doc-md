@@ -9,7 +9,7 @@ description: Learn how to compress images added in Excel files to reduce PDF siz
 
 {{% alert color="primary" %}}
 
-While working with big Microsoft Excel files with lots of images, you might need to compress images that have been added to reduce the output PDF file size and improve the overall conversion performance. Aspose.Cells for JavaScript via C++ supports resampling added images to reduce the output PDF file size and improve the performance somewhat.
+While working with large Microsoft Excel files that contain many images, you might need to compress the images to reduce the output PDF file size and improve overall conversion performance. Aspose.Cells for JavaScript via C++ supports resampling added images to reduce the output PDF file size and improve performance somewhat.
 
 {{% /alert %}}
 
@@ -81,10 +81,10 @@ Please see the following sample code that describes how to perform the task usin
 
 {{% alert color="primary" %}}
 
-Using the the [**imageResample(number, number)**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#imageResample-number-number-) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the [**imageResample(number, number)**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#imageResample-number-number-) option minimizes the size of the output PDF, but it may affect image quality slightly.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}

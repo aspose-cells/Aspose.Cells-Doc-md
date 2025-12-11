@@ -1,6 +1,6 @@
 ---
-title: Excel File and  Data Operations
-linktitle: File and  Data Operations
+title: Excel File and Data Operations
+linktitle: File and Data Operations
 type: docs
 weight: 10
 url: /nodejs-cpp/mcp/file-operations
@@ -10,17 +10,17 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-# Excel File and  Data Operations
+# Excel File and Data Operations
 
-Manage **Excel files** and **data operations** with AI-powered automation. Create **Excel workbooks**, manage **worksheets**, and perform **Excel data** read/write operations.
+Manage **Excel files** and **data operations** with AI‑powered automation. Create **Excel workbooks**, manage **worksheets**, and perform **Excel data** read/write operations.
 
 ## Available Tools
 
-- `create_workbook` - Create new **Excel workbooks** with **AI Excel** automation
-- `create_worksheet` - Add **Excel worksheets** to existing **Excel workbooks**
-- `get_workbook_info` - Get **Excel workbook** metadata and information
-- `read_data_from_excel` - Read data from **Excel worksheets** with **AI-powered** precision
-- `write_data_to_excel` - Write data to **Excel worksheets** through **Excel MCP**
+- `create_workbook` – Create new **Excel workbooks** with **AI Excel** automation  
+- `create_worksheet` – Add **Excel worksheets** to existing **Excel workbooks**  
+- `get_workbook_info` – Get **Excel workbook** metadata and information  
+- `read_data_from_excel` – Read data from **Excel worksheets** with **AI‑powered** precision  
+- `write_data_to_excel` – Write data to **Excel worksheets** through **Excel MCP**
 
 ## Create Excel Workbooks
 
@@ -210,29 +210,30 @@ Manage **Excel files** and **data operations** with AI-powered automation. Creat
 
 ## Best Practices
 
-1. **File Paths**: Use relative paths for better portability
-2. **Sheet Names**: Use descriptive names for worksheets
-3. **Data Structure**: Organize data with clear headers
-4. **Range Reading**: Specify ranges for large datasets
-5. **Error Handling**: Verify file existence before operations
+1. **File Paths** – Use relative paths for better portability.  
+2. **Sheet Names** – Use descriptive names for worksheets.  
+3. **Data Structure** – Organize data with clear headers.  
+4. **Range Reading** – Specify ranges for large datasets.  
+5. **Error Handling** – Verify file existence before operations.  
 
 ## Common Patterns
 
 ### Data Import Pattern
-1. Create workbook
-2. Write raw data
-3. Read back to verify
-4. Process with formulas
+1. Create workbook.  
+2. Write raw data.  
+3. Read back to verify.  
+4. Process with formulas.  
 
-### Multi-Sheet Reports
-1. Create workbook with main sheet
-2. Add summary/analysis sheets
-3. Write data to each sheet
-4. Link sheets with formulas
+### Multi‑Sheet Reports
+1. Create workbook with a main sheet.  
+2. Add summary/analysis sheets.  
+3. Write data to each sheet.  
+4. Link sheets with formulas.  
 
 ### Data Validation
-1. Write data
-2. Read back specific ranges
-3. Verify data integrity
-4. Handle missing values 
+1. Write data.  
+2. Read back specific ranges.  
+3. Verify data integrity.  
+4. Handle missing values.  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

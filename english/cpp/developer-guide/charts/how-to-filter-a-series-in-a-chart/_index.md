@@ -18,7 +18,7 @@ In Excel, we can filter out specific series from a chart, causing those filtered
 
 In Aspose.Cells, we can perform a similar operation. For a [sample](seriesFiltered.xlsx) file like this, if we want to filter out **Testseries2** and **Testseries4**, we can execute the following code. Additionally, we will maintain two lists: one ([GetNSeries()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getnseries/)) list to store all the selected series and another ([GetFilteredNSeries](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getfilterednseries/)) to store the filtered series.
 
-Please **note** that in the code, when we set **chart->GetNSeries()->Get(0)->SetIsFiltered(true);**, the first series in [GetNSeries()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getnseries/) will be removed and placed in the appropriate position within [GetFilteredNSeries](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getfilterednseries/). Subsequently, the previous **NSeries[1]** will become the new first item in the list, and all the following series will shift forward by one position. This means that if we then run **chart->GetNSeries()->Get(1)->SetIsFiltered(true);**, we are effectively removing the original third series. This can sometimes lead to confusion, so we recommend following the operation in the code, which deletes series from the end to the beginning.
+Please **note** that in the code, when we set **chart.GetNSeries().Get(0).SetIsFiltered(true);**, the first series in [GetNSeries()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getnseries/) will be removed and placed in the appropriate position within [GetFilteredNSeries](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getfilterednseries/). Subsequently, the previous **NSeries[1]** will become the new first item in the list, and all the following series will shift forward by one position. This means that if we then run **chart.GetNSeries().Get(1).SetIsFiltered(true);**, we are effectively removing the original third series. This can sometimes lead to confusion, so we recommend following the operation in the code, which deletes series from the end to the beginning.
 
 ![todo:image_alt_text](Figure1.png)
 
@@ -80,16 +80,16 @@ int main()
 
 ## **2. Filter the data and let the chart change**
 
-Filtering your data is a great way to handle chart filters with a lot of data. When you filter the data, the chart will change. One issue we're going to have to address is making sure the chart stays on the screen. When you filter, you get hidden rows, and occasionally, the chart will be in those hidden rows.
+Filtering your data is a great way to handle chart filters with a lot of data. When you filter the data, the chart will change. One issue we have to address is making sure the chart stays on the screen. When you filter, you get hidden rows, and occasionally, the chart will be in those hidden rows.
 
 ![todo:image_alt_text](Figure3.png)
 
 ### **Steps to use Data Filters to change the chart in Excel**
 
-1. Click inside your data range.
-2. Click the **Data** tab, and turn on Filters by clicking Filters. Your header row will have drop down arrows.
-3. Create a chart by going to **Insert** tab and selecting a columns chart.
-4. Now filter your data using the drop down arrows in the data. Don't use the Chart Filters.
+1. Click inside your data range.  
+2. Click the **Data** tab, and turn on filters by clicking **Filter**. Your header row will have drop‑down arrows.  
+3. Create a chart by going to the **Insert** tab and selecting a column chart.  
+4. Now filter your data using the drop‑down arrows in the data. Don't use the Chart Filters.
 
 ### **Sample Code**
 The following sample code shows the same feature using Aspose.Cells.
@@ -154,16 +154,16 @@ int main() {
 
 ## **3. Filter the data using a Table and let the chart change**
 
-Using a Table is similar to Method 2, using a range, but you have advantages with tables over ranges. When you change your range to a Table and add data, the chart automatically updates. With a range, you will have to change the data source.
+Using a Table is similar to Method 2, using a range, but you have advantages with tables over ranges. When you change your range to a Table and add data, the chart automatically updates. With a range, you will have to change the data source.
 
-### **Format as table in Excel**
+### **Format as Table in Excel**
 
-Click inside your data and use **CTRL + T** or use the Home tab, **Format as Table**
+Click inside your data and use **CTRL + T** or use the Home tab, **Format as Table**.
 
 ![todo:image_alt_text](Figure4.png)
 
 ### **Sample Code**
-The following sample code loads the [sample Excel file](TableFilters.xlsx) shows the same feature using Aspose.Cells.
+The following sample code loads the [sample Excel file](TableFilters.xlsx) and shows the same feature using Aspose.Cells.
 
 ```cpp
 #include <iostream>
@@ -207,7 +207,7 @@ int main()
     // Apply the filters
     listObject.GetAutoFilter().Refresh();
 
-    // After adding new value the chart will change
+    // After adding a new value the chart will change
     listObject.PutCellValue(7, 0, Object(u"Me"));
     listObject.PutCellValue(7, 1, Object(1000));
 

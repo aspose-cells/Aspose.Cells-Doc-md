@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Get OData Connection Information**
 
-There might be cases where developers need to extract OData information from the Excel file. Aspose.Cells provides the [**Workbook.GetDataMashup()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/getdatamashup/) property which returns the DataMashup information present in the Excel file. This information is represented by the [**DataMashup**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/datamashup/) class. The [**DataMashup**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/datamashup/) class provides the [**GetPowerQueryFormulas()**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/datamashup/getpowerqueryformulas/) property that returns the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/powerqueryformulacollection/) collection. From the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/powerqueryformulacollection/), you can get access to [**PowerQueryFormula**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/powerqueryformula/) and [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/cpp/aspose.cells.querytables/powerqueryformulaitem/).
+There might be cases where developers need to extract OData information from an Excel file. Aspose.Cells provides the `Workbook.GetDataMashup()` property, which returns the DataMashup information present in the Excel file. This information is represented by the **DataMashup** class. The **DataMashup** class provides the `GetPowerQueryFormulas()` property that returns a **PowerQueryFormulaCollection**. From the **PowerQueryFormulaCollection**, you can get access to **PowerQueryFormula** and **PowerQueryFormulaItem**.
 
 The following code snippet demonstrates the use of these classes to retrieve the OData information.
 
-The Source file used in the following code snippet is attached for your reference.
+The source file used in the following code snippet is attached for your reference.
 
 [Source File](96928098.xlsx)
 
@@ -64,7 +64,7 @@ int main()
 
 ### **Console Output**
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 Connection Name: Orders
 

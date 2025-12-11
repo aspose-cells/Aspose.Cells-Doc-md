@@ -10,7 +10,7 @@ url: /javascript-cpp/creating-pie-chart-with-leader-lines/
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for JavaScript via C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.hasLeaderLines**](https://reference.aspose.com/cells/javascript-cpp/series/#hasLeaderLines--) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for JavaScript via C++ API. In Excel, the **‘Show leader lines’** option is set by default, so when you create a pie chart in Excel, the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.hasLeaderLines**](https://reference.aspose.com/cells/javascript-cpp/series/#hasLeaderLines--) property.
 
 {{% /alert %}}
 
@@ -142,9 +142,9 @@ To demonstrate the usage of Aspose.Cells for JavaScript via C++ API to create a 
 </html>
 ```
 
-So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note, to show the leader lines, we have to move the data labels a little.
+So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note that to show the leader lines, we have to move the data labels slightly.
 
-The following piece of code turns on the leader lines, refresh the chart, and then calculates the data labels' positions to move them accordingly.
+The following piece of code turns on the leader lines, refreshes the chart, and then calculates the data labels' positions to move them accordingly.
 
 ```html
 <!DOCTYPE html>
@@ -266,13 +266,13 @@ The following piece of code turns on the leader lines, refresh the chart, and th
             // Calculate chart
             chart.calculate();
 
-            // You need to move DataLabels a little leftward or rightward depending on their position to show leader lines
+            // You need to move data labels a little leftward or rightward depending on their position to show leader lines
             const DELTA = 100;
             const series0 = chart.nSeries.get(0);
             for (let i = 0; i < series0.points.count; i++) {
                 const pt = series0.points.get(i);
                 let X = pt.dataLabels.x;
-                // If it is greater than 2000, then move the X position a little right otherwise move the X position a little left
+                // If it is greater than 2000, then move the X position a little right; otherwise move it a little left
                 if (X > 2000)
                     pt.dataLabels.x = X + DELTA;
                 else
@@ -443,11 +443,11 @@ Finally, the following code saves the chart in image format and the workbook in 
 </html>
 ```
 
-|**Resultant Pie Chart**|
+| **Resultant Pie Chart** |
 | :- |
-|![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png)|
+| ![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png) |
 
-## **Advance topics**
+## **Advanced topics**
 - [Custom Slice or Sector Colors in Pie Chart](/cells/javascript-cpp/custom-slice-or-sector-colors-in-pie-chart/)
 - [Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart](/cells/javascript-cpp/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 

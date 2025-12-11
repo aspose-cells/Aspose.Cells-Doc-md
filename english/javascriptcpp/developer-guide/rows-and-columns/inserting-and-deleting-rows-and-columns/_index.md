@@ -4,14 +4,14 @@ linktitle: Inserting and Deleting Rows and Columns
 type: docs
 weight: 70
 url: /javascript-cpp/inserting-and-deleting-rows-and-columns/
-description: This article shows how to insert and delete rows and columns by the Aspose.Cells for JavaScript via C++ API.
+description: This article shows how to insert and delete rows and columns using the Aspose.Cells for JavaScript via C++ API.
 keywords: Aspose.Cells JavaScript via C++ manage rows and columns, insert rows and columns, delete rows and columns
 ---
 
 ## **Introduction**
 
-Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. Inversely, we may also need to delete rows or columns from specified positions in the worksheet. 
-To fulfill these requirements, Aspose.Cells for JavaScript via C++ provides a very simplest set of classes and methods, discussed below.
+Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. Conversely, we may also need to delete rows or columns from specified positions in the worksheet.  
+To fulfill these requirements, Aspose.Cells for JavaScript via C++ provides a very simple set of classes and methods, discussed below.
 
 ### **Manage Rows and Columns**
 
@@ -167,11 +167,11 @@ To insert multiple rows into a worksheet, call the [**insertRows(number, number,
 
 ### **How to Insert a Row with Formatting**
 
-To insert a row with formatting options, use the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/cells/#insertRows-number-number-boolean-) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/javascript-cpp/insertoptions) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/javascript-cpp/copyformattype/) property of [**InsertOptions**](https://reference.aspose.com/cells/javascript-cpp/insertoptions) class with [**CopyFormatType**](https://reference.aspose.com/cells/javascript-cpp/copyformattype/) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/javascript-cpp/copyformattype/) Enumeration has three members as listed below.
+To insert a row with formatting options, use the [**insertRows(number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/cells/#insertRows-number-number-boolean-) overload that takes an [**InsertOptions**](https://reference.aspose.com/cells/javascript-cpp/insertoptions) object as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/javascript-cpp/copyformattype/) property of the [**InsertOptions**](https://reference.aspose.com/cells/javascript-cpp/insertoptions) class with a value from the [**CopyFormatType**](https://reference.aspose.com/cells/javascript-cpp/copyformattype/) enumeration. The enumeration has three members as listed below.
 
-- SameAsAbove: Formats the row same as the above row.
-- SameAsBelow:  Formats the row same as below row.
-- Clear: Clears the formatting.
+- **SameAsAbove**: Formats the row the same as the above row.
+- **SameAsBelow**: Formats the row the same as the below row.
+- **Clear**: Clears the formatting.
 
 ```html
 <!DOCTYPE html>
@@ -219,7 +219,7 @@ To insert a row with formatting options, use the [**insertRows(number, number, b
             // Accessing the first worksheet in the Excel file
             const worksheet = workbook.worksheets.get(0);
 
-            // Setting Formatting options
+            // Setting formatting options
             const insertOptions = new InsertOptions();
             insertOptions.copyFormatType = CopyFormatType.SameAsAbove;
 

@@ -8,7 +8,7 @@ url: /javascript-cpp/set-range-border/
 
 ## **Possible Usage Scenarios**  
 When you want to set the border for a range, you don't need to set each cell individually. You can set the border on the range. Aspose.Cells for JavaScript via C++ offers this feature.  
-This article provides a sample code that uses Aspose.Cells for JavaScript via C++ to set range border.  
+This article provides a sample code that uses Aspose.Cells for JavaScript via C++ to set a range border.  
 
 ## **Set Range border in Excel**  
 To set the border of a range in Excel, you can follow these steps:  
@@ -26,8 +26,8 @@ This example shows how to:
 1. Create a workbook.  
 2. Add data to cells in the first worksheet.  
 3. Create a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range).  
-4. Set inner border of the range.  
-5. Set outer border of the range.  
+4. Set the inner border of the range.  
+5. Set the outer border of the range.  
 
 ```html
 <!DOCTYPE html>
@@ -61,11 +61,11 @@ This example shows how to:
         document.getElementById('runExample').addEventListener('click', async () => {
             // Instantiate a new workbook
             const workbook = new Workbook();
-            // Obtaining the reference of the newly added worksheet
+            // Obtain the reference of the newly added worksheet
             const ws = workbook.worksheets.get(0);
             const cells = ws.cells;
 
-            // Setting the value to the cells
+            // Set the values of the cells
             let cell = cells.get("A1");
             cell.putValue("Fruit");
             cell = cells.get("B1");
@@ -103,7 +103,7 @@ This example shows how to:
             // Create a range (A1:C5).
             const range = cells.createRange("A1", "C5");
 
-            // set inner border of range
+            // Set the inner border of the range
             const innerColor = workbook.createCellsColor();
             innerColor.color = AsposeCells.Color.Red;
             range.insideBorders = {
@@ -118,7 +118,7 @@ This example shows how to:
                 color: innerColor
             };
 
-            // set outer border of range
+            // Set the outer border of the range
             const outerColor = workbook.createCellsColor();
             outerColor.color = AsposeCells.Color.Blue;
             range.outlineBorders = {
@@ -126,7 +126,7 @@ This example shows how to:
                 color: outerColor
             };
 
-            // Saving the modified Excel file and provide download link
+            // Saving the modified Excel file and providing a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

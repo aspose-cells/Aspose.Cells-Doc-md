@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes, it is necessary to include links to external files in formulas, for example to evaluate a cell or range value against them. Aspose.Cells provides this feature and this document explains how to use it.
+Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or range value against them. Aspose.Cells provides this feature, and this document explains how to use it.
 
 {{% /alert %}} 
 
@@ -27,11 +27,11 @@ string FileName = FilePath + "Set External Links in Formula.xlsx";
 
 Workbook workbook = new Workbook();
 
-//Get first Worksheet
+//Get the first worksheet
 
 Worksheet sheet = workbook.Worksheets[0];
 
-//Get Cells collection
+//Get cells collection
 
 Aspose.Cells.Cells cells = sheet.Cells;
 

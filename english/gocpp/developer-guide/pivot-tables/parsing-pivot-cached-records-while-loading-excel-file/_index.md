@@ -1,5 +1,5 @@
 ---
-title: Parsing Pivot Cached Records while loading Excel file with Golang via C++
+title: Parsing Pivot Cached Records while Loading an Excel File with Golang via C++
 linktitle: Parsing Pivot Cached Records
 type: docs
 weight: 70
@@ -9,13 +9,13 @@ description: Learn how to parse pivot cached records while loading Excel files u
 
 ## **Possible Usage Scenarios**
 
-When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held inside the memory of Microsoft Excel. You cannot see it but that is the data the Pivot Table references when you build your Pivot Table or change a Slicer selection or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data so it makes sense that your file size will be potentially double.
+When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held in memory by Microsoft Excel. You cannot see it, but that is the data the Pivot Table references when you build your Pivot Table, change a slicer selection, or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table, but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data, so it makes sense that your file size could potentially double.
 
-When you load your Excel file inside the Workbook object, you can decide whether you also want to load the records of Pivot Cache or not, using the [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/go-cpp/loadoptions/getparsingpivotcachedrecords/) property. The default value of this property is **false**. If Pivot Cache is quite big, it can increase the performance. But if you also want to load the records of Pivot Cache, you should set this property as **true**.
+When you load your Excel file into the Workbook object, you can decide whether you also want to load the Pivot Cache records, using the [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/go-cpp/loadoptions/getparsingpivotcachedrecords/) property. The default value of this property is **false**. If the Pivot Cache is quite large, it can improve performance. However, if you also want to load the Pivot Cache records, you should set this property to **true**.
 
-## **Parsing Pivot Cached Records while loading Excel file**
+## **Parsing Pivot Cached Records while Loading an Excel File**
 
-The following sample code explains the usage of [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/go-cpp/loadoptions/getparsingpivotcachedrecords/) property. It loads the [sample Excel file](61767773.xlsx) while parsing the pivot cached records. Then it refreshes the pivot table and saves it as the [output Excel file](61767774.xlsx).
+The following sample code demonstrates the usage of [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/go-cpp/loadoptions/getparsingpivotcachedrecords/) property. It loads the [sample Excel file](61767773.xlsx) while parsing the pivot cached records, then refreshes the pivot table and saves it as the [output Excel file](61767774.xlsx).
 
 ## **Sample Code**
 

@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.8.1 to 8.8.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.8.1 to 8.8.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Update References Automatically while Deleting Blank Rows & Columns**
-Aspose.Cells for .NET 8.8.2 has exposed the overloaded versions of the Cells.DeleteBlankRows & Cells.DeleteBlankColumns methods. The new methods can accept an instance of DeleteOptions class and can be used to overcome the situations that could arise due to the broken references in formulas, chart series data and so on. The DeleteOptions class currently has only one member, a Boolean type property by the name UpdateReference. If the said property is set to true and the instance of DeleteOptions class is passed to the Cells.DeleteBlankRows & Cells.DeleteBlankColumns methods, the API will internally adjust the formula references (if any) to accommodate the changes.
+Aspose.Cells for .NET 8.8.2 has exposed overloaded versions of the Cells.DeleteBlankRows and Cells.DeleteBlankColumns methods. The new methods can accept an instance of the DeleteOptions class and can be used to overcome situations that may arise due to broken references in formulas, chart series data, and so on. The DeleteOptions class currently has only one member, a Boolean‑type property named **UpdateReference**. If the said property is set to true and the instance of the DeleteOptions class is passed to the Cells.DeleteBlankRows and Cells.DeleteBlankColumns methods, the API will internally adjust formula references (if any) to accommodate the changes.
 
 {{% alert color="primary" %}} 
 
@@ -22,13 +22,13 @@ For more details on this feature, please review the detailed article on [Deletin
 
 {{% /alert %}} 
 
-Following is the simple usage scenario.
+The following is a simple usage scenario.
 
 **C#**
 
 {{< highlight csharp >}}
 
- //Create an instance of Workbook & load an existing spreadsheet
+ //Create an instance of Workbook and load an existing spreadsheet
 
 var book = new Workbook(dir + "sample.xlsx");
 
@@ -40,7 +40,7 @@ var sheet = book.Worksheets[0];
 
 var cells = sheet.Cells;
 
-//Create an instance of DeleteOptions class
+//Create an instance of the DeleteOptions class
 
 DeleteOptions options = new DeleteOptions();
 

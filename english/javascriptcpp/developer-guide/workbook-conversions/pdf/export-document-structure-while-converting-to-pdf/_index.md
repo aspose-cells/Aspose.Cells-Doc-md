@@ -7,7 +7,7 @@ url: /javascript-cpp/export-document-structure-while-converting-to-pdf/
 description: Learn how to export document structure while converting an Excel file to a tagged PDF using Aspose.Cells for JavaScript via C++.
 ---
 
-PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells for JavaScript via C++ preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.
+PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells for JavaScript via C++ preserves information about the structure of a Microsoft Excel document, such as cells, rows, tables, worksheets, images, shapes, headers/footers, etc.
 
 With option [PdfSaveOptions.exportDocumentStructure()](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#exportDocumentStructure--) you can save to a tagged PDF with the document structure exported.
 
@@ -57,7 +57,7 @@ With option [PdfSaveOptions.exportDocumentStructure()](https://reference.aspose.
             const pdfSaveOptions = new PdfSaveOptions();
             pdfSaveOptions.exportDocumentStructure = true;
 
-            // Save the pdf file with PdfSaveOptions
+            // Save the PDF file with PdfSaveOptions
             const outputData = workbook.save(SaveFormat.Pdf, pdfSaveOptions);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             const downloadLink = document.getElementById('downloadLink');

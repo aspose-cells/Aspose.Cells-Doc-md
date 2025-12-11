@@ -1,6 +1,6 @@
 ---
-title: Using ChartGlobalizationSettings Class to Set Different Language for Chart Component with JavaScript via C++
-linktitle: Using ChartGlobalizationSettings Class to Set Different Language for Chart Component
+title: Using ChartGlobalizationSettings Class to Set Different Languages for Chart Components with JavaScript via C++
+linktitle: Using ChartGlobalizationSettings Class to Set Different Languages for Chart Components
 description: Learn how to use the ChartGlobalizationSettings class in Aspose.Cells for JavaScript via C++ to set different languages for chart components. Our guide will help you understand how to localize chart elements, labels, and legends.
 keywords: Aspose.Cells for JavaScript via C++, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
 type: docs
@@ -10,22 +10,23 @@ url: /javascript-cpp/using-chartglobalizationsettings-class-to-set-different-lan
 
 ## **Possible Usage Scenarios**  
 
-Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/) class in order to deal with the scenarios where the user wishes to set chart component to different languages and custom labels for Subtotals in a spreadsheet.  
+Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/) class to address scenarios where the user wishes to set chart components to different languages and provide custom labels for subtotals in a spreadsheet.  
 
 ## **Introduction to ChartGlobalizationSettings Class**  
 
-The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate such as AxisTitle name, AxisUnit name, ChartTitle name, and so on to different languages.  
-1. [**ChartGlobalizationSettings.axisTitleName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#axisTitleName--): Gets the name of Title for Axis.  
-1. [**ChartGlobalizationSettings.axisUnitName(DisplayUnitType)**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#axisUnitName-displayunittype-): Gets the Name of Axis Unit.  
-1. [**ChartGlobalizationSettings.chartTitleName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#chartTitleName--): Gets the name of Chart Title.  
-1. [**ChartGlobalizationSettings.legendDecreaseName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#legendDecreaseName--): Gets the name of Decrease for Legend.  
-1. [**ChartGlobalizationSettings.legendIncreaseName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#legendIncreaseName--): Gets the name of Increase for Legend.  
-1. [**ChartGlobalizationSettings.legendTotalName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#legendTotalName--): Gets the name of Total for Legend.  
-1. [**ChartGlobalizationSettings.otherName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#otherName--): Gets the name of "Other" labels for Chart.  
-1. [**ChartGlobalizationSettings.seriesName**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/#seriesName--): Gets the name of Series in the Chart.  
+The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/) class currently offers the following eight methods, which can be overridden in a custom class to translate items such as the AxisTitle name, AxisUnit name, ChartTitle name, and so on into different languages.  
+
+1. **ChartGlobalizationSettings.axisTitleName**: Gets the title name for an axis.  
+2. **ChartGlobalizationSettings.axisUnitName(DisplayUnitType)**: Gets the name of an axis unit.  
+3. **ChartGlobalizationSettings.chartTitleName**: Gets the chart title name.  
+4. **ChartGlobalizationSettings.legendDecreaseName**: Gets the name for the decrease label in the legend.  
+5. **ChartGlobalizationSettings.legendIncreaseName**: Gets the name for the increase label in the legend.  
+6. **ChartGlobalizationSettings.legendTotalName**: Gets the name for the total label in the legend.  
+7. **ChartGlobalizationSettings.otherName**: Gets the name of the “Other” label for the chart.  
+8. **ChartGlobalizationSettings.seriesName**: Gets the series name in the chart.  
 
 ### **Custom language translation**  
-Here, we will create a waterfall chart based on the following data. The names of chart components will be displayed in English in the chart. We will use a Turkish language example to show how to display the Chart Title, Legend Increase/Decrease names, Total name, and Axis Title in Turkish.  
+Here, we will create a waterfall chart based on the following data. The names of chart components will be displayed in English by default. We will use a Turkish-language example to show how to display the chart title, legend increase/decrease names, total name, and axis title in Turkish.  
 
 ![todo:image_alt_text](sample.png)  
 

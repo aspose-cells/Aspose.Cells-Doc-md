@@ -27,7 +27,6 @@ To change the format of a single cell in Excel, follow these steps:
 
 5. After making the desired formatting changes, click the "OK" button to apply the formatting to the selected cell.
 
-
 ## **How to change the format of a cell Using Node.js**
 
 To change the format of a cell using Aspose.Cells, you can use the following methods:
@@ -35,9 +34,8 @@ To change the format of a cell using Aspose.Cells, you can use the following met
 2. [Cell.setStyle(Style, explicitFlag)](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-boolean-)
 3. [Cell.setStyle(Style, StyleFlag)](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-styleflag-)
 
-
 ## **Sample Code**
-In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells ("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and change the format to the cell. Finally, we save the workbook to a new file.
+In this example, we create an Excel workbook, add some sample data, access the first worksheet, and get two cells ("A2" and "B3"). Then, we get the style of the cell, set various formatting options (e.g., font color, bold), and change the format of the cell. Finally, we save the workbook to a new file.
 ![todo:image_alt_text](change-format.png)
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-ChangeFormat.js" >}}

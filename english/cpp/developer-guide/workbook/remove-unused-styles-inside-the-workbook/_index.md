@@ -1,10 +1,10 @@
 ---  
-title: Remove Unused Styles inside the Workbook with C++  
-linktitle: Remove Unused Styles inside the Workbook  
+title: Remove Unused Styles in the Workbook with C++  
+linktitle: Remove Unused Styles in the Workbook  
 type: docs  
 weight: 340  
 url: /cpp/remove-unused-styles-inside-the-workbook/  
-description: Remove unused styles in Excel workbook using Aspose.Cells with C++.  
+description: Remove unused styles in an Excel workbook using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
@@ -15,7 +15,7 @@ Unused styles in Excel files not only take up space but also cause performance i
 
 {{% /alert %}}  
 
-The following code explains the usage of [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/removeunusedstyles/). The code loads the [template excel file](5115520.xlsx) which you can download from the provided link. It contains an unused style named **AsposeStyle**; this style and all other unused styles will be removed after the execution of the code.  
+The following code explains the usage of [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/removeunusedstyles/). The code loads the [template Excel file](5115520.xlsx) which you can download from the provided link. It contains an unused style named **AsposeStyle**; this style and all other unused styles will be removed after the execution of the code.  
 
 ![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)  
 
@@ -31,7 +31,7 @@ int main()
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
     // Path to the documents directory.
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
+
     // Load template Excel file containing unused styles
     U16String templateFilePath = srcDir + u"Template-With-Unused-Custom-Style.xlsx";
     Workbook workbook(templateFilePath);

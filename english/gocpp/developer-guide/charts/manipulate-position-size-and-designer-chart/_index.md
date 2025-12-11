@@ -9,7 +9,7 @@ url: /go-cpp/manipulate-position-size-and-designer-chart/
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.GetChartObject()](https://reference.aspose.com/cells/go-cpp/chart/getchartobject/) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.GetChartObject()](https://reference.aspose.com/cells/go-cpp/chart/getchartobject/) property to achieve this. You can use its sub‑properties to resize the chart with new **height** and **width** or reposition it with new **X** and **Y** coordinates.
 
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
@@ -19,23 +19,26 @@ To change the chart's position (X, Y coordinates) or size (height, width), use t
 1. [Chart.GetHeight()](https://reference.aspose.com/cells/go-cpp/shape/getheight/)
 1. [Chart.GetWidth()](https://reference.aspose.com/cells/go-cpp/shape/getwidth/)
 
-The following example explains the usage of the above APIs, it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
+The following example explains the usage of the above APIs. It loads the existing workbook that contains a chart in its first worksheet, then it resizes and repositions the chart using Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManipulatePositionSizeAndDesignerChart.go" >}}
+
 ## **Manipulating Designer Charts**
-There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formattings can be preserved with accuracy.
+There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formatting can be preserved with accuracy.
 
 ### **Manipulating Designer Charts in Template Files**
-To manipulate designer charts in template files, use the chart related API. For example, you may use the Worksheet.Charts property to get the existing charts collection in the template file.
+To manipulate designer charts in template files, use the chart‑related API. For example, you may use the Worksheet.Charts property to get the existing charts collection in the template file.
 
 #### **Creating a Chart**
 The following example shows how to create a pyramid chart. We will manipulate this chart later on.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManipulatePositionSizeAndDesignerChart-1.go" >}}
+
 #### **Manipulating the Chart**
-The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the date label of one data point has been set to 'United Kingdom, 30K'.
+The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the data label of one data point has been set to **'United Kingdom, 30K'**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ManipulatePositionSizeAndDesignerChart-2.go" >}}
+
 #### **Manipulating a Line Chart in the Designer Template**
 In this example, we will manipulate a line chart. We will add some data series to the existing chart and change their line colors.
 

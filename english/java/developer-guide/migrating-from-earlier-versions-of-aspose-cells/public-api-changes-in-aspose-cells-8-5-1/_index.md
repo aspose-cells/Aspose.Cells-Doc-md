@@ -13,33 +13,31 @@ This document describes the changes to the Aspose.Cells API from version 8.5.0 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Added Workbook.Dispose Method**
-Aspose.Cells for Java 8.5.1 has exposed the Workbook.dispose method to release the unmanaged resources of the Workbook object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.
+### **Added Workbook.dispose Method**
+Aspose.Cells for Java 8.5.1 exposes the `Workbook.dispose` method to release the unmanaged resources of the Workbook object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.
 
 **Java**
 
 {{< highlight csharp >}}
 
- //Create workbook object
-
+ // Create a workbook object
 Workbook book = new Workbook();
 
-//Call dispose method
-
+// Call the dispose method
 book.dispose();
 
 {{< /highlight >}}
 ### **Added Cell.getHeightOfValue Method**
-Aspose.Cells for Java 8.5.1 has exposed the Cell.getHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+Aspose.Cells for Java 8.5.1 exposes the `Cell.getHeightOfValue` method to get the height of a cell's value. By using this method you can calculate the height of the cell value and then set the height of the row of that cell accordingly. Check the detailed article on [how to calculate the cell height & width](/cells/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType Added**
-Aspose.Cells for Java 8.5.1 has exposed the enumeration com.aspose.cells.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields. 
+Aspose.Cells for Java 8.5.1 exposes the enumeration `com.aspose.cells.TableDataSourceType` to retrieve the data source type of a ListObject. The TableDataSourceType enumeration has the following fields:
 
 1. TableDataSourceType.QUERY_TABLE
-1. TableDataSourceType.SHARE_POINT
-1. TableDataSourceType.WORKSHEET
-1. TableDataSourceType.XML
+2. TableDataSourceType.SHARE_POINT
+3. TableDataSourceType.WORKSHEET
+4. TableDataSourceType.XML
 ### **Added ListObject.DataSourceType Property**
-With the release of v8.5.1, the Aspose.Cells API has exposed the readonly ListObject.DataSourceType property that can be used to detect the data source type of a ListObject.
+With the release of v8.5.1, the Aspose.Cells API exposes the read‑only `ListObject.DataSourceType` property that can be used to detect the data source type of a ListObject.
 
 Here is the simplest usage scenario.
 
@@ -54,35 +52,20 @@ Worksheet sheet = book.getWorksheets().get(0);
 ListObject listObject = sheet.getListObjects().get(0);
 
 if (listObject.getDataSourceType() == com.aspose.cells.TableDataSourceType.QUERY_TABLE)
-
 {
-
-	System.out.println("Data Source Type is Query Table");
-
+    System.out.println("Data Source Type is Query Table");
 }
-
 else if (listObject.getDataSourceType() == com.aspose.cells.TableDataSourceType.SHARE_POINT)
-
 {
-
-	System.out.println("Data Source Type is SharePoint Linked List");
-
+    System.out.println("Data Source Type is SharePoint Linked List");
 }
-
 else if (listObject.getDataSourceType() == com.aspose.cells.TableDataSourceType.WORKSHEET)
-
 {
-
-	System.out.println("Data Source Type is Excel Worksheet Table");
-
+    System.out.println("Data Source Type is Excel Worksheet Table");
 }
-
 else if (listObject.getDataSourceType() == com.aspose.cells.TableDataSourceType.XML)
-
 {
-
-	System.out.println("Data Source Type is XML");
-
+    System.out.println("Data Source Type is XML");
 }
 
 {{< /highlight >}}

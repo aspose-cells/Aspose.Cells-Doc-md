@@ -9,17 +9,17 @@ keywords: Create Signature Line in an Excel Workbook Node.js via C++, How to Cre
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
-  
+
 ## **Introduction**  
-  
+
 Microsoft Excel provides a feature to add **Signature Line** in Excel workbooks. You can add a Signature Line by clicking the **Insert** Tab and then selecting **Signature Line** from the **Text** group.  
-  
+
 ## **How to Create Signature Line for Excel**  
-  
-Aspose.Cells for Node.js via C++ also provides this feature and has exposed the [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.  
-  
-The following sample code adds a Signature Line using [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property and saves the workbook.  
-  
+
+Aspose.Cells for Node.js via C++ also provides this feature and exposes the [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.  
+
+The following sample code adds a signature line using the [**Picture.getSignatureLine()**](https://reference.aspose.com/cells/nodejs-cpp/picture/#getSignatureLine--) property and saves the workbook.  
+
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
@@ -42,5 +42,5 @@ workbook.getWorksheets().get(0).getShapes().addSignatureLine(1, 1, signatureLine
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

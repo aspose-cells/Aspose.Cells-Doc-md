@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 allows users to wrap or unwrap text inside the Data Labels of the Chart. By default, the text inside the Data Labels of the Chart is in the wrapped state.
+Microsoft Excel 2013 allows users to wrap or unwrap text inside the data labels of a chart. By default, the text inside the data labels of the chart is in the wrapped state.
 
-Aspose.Cells for Python via .NET provides a [**DataLabels.is_text_wrapped**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/is_text_wrapped) property which you can set True or False to Enable or Disable Text Wrapping of Data Labels respectively.
+Aspose.Cells for Python via .NET provides a [**DataLabels.is_text_wrapped**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/is_text_wrapped) property that you can set to **True** or **False** to enable or disable text wrapping of data labels, respectively.
 
 {{% /alert %}}
 
-The below code sample shows how to disable text wrapping for the data labels of the chart.
+The code sample below shows how to disable text wrapping for the data labels of the chart.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-DisableTextWrappingForDataLabels.py" >}}
 {{< app/cells/assistant language="python-net" >}}

@@ -8,75 +8,61 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Merge Cells**
-The Cells class has some useful methods for the task. For example, the merge method merges the cells into a single cell within a specified range of the cells.
+The Cells class has some useful methods for the task. For example, the **merge** method merges cells into a single cell within a specified range.
 
 **Java**
 
 {{< highlight java >}}
-
  //Create a Workbook.
+ Workbook wbk = new Workbook();
 
-Workbook wbk = new Workbook();
+ //Create a Worksheet and get the first sheet.
+ Worksheet worksheet = wbk.getWorksheets().get(0);
 
-//Create a Worksheet and get the first sheet.
+ //Create a Cells object to fetch all the cells.
+ Cells cells = worksheet.getCells();
 
-Worksheet worksheet = wbk.getWorksheets().get(0);
+ //Merge some Cells (C6:E7) into a single C6 Cell.
+ cells.merge(5,2,2,3);
 
-//Create a Cells object to fetch all the cells.
+ //Input data into the C6 cell.
+ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 
-Cells cells = worksheet.getCells();
-
-//Merge some Cells (C6:E7) into a single C6 Cell.
-
-cells.merge(5,2,2,3);
-
-//Input data into C6 Cell.
-
-worksheet.getCells().get(5,2).setValue("This is a test of merging");
-
-//Save the Workbook.
-
-wbk.save(dataDir + "merge_Aspose.xls");
-
+ //Save the Workbook.
+ wbk.save(dataDir + "merge_Aspose.xls");
 {{< /highlight >}}
+
 ## **Apache POI SS - HSSF XSSF - Merge Cells**
-Sheet.addMergedRegion can be used to Merge Cells.
+`Sheet.addMergedRegion` can be used to merge cells.
 
 **Java**
 
 {{< highlight java >}}
-
  Workbook wb = new HSSFWorkbook();
 
-Sheet sheet = wb.createSheet("new sheet");
+ Sheet sheet = wb.createSheet("new sheet");
 
-Row row = sheet.createRow((short) 1);
+ Row row = sheet.createRow((short) 1);
 
-Cell cell = row.createCell((short) 1);
+ Cell cell = row.createCell((short) 1);
 
-cell.setCellValue("This is a test of merging");
+ cell.setCellValue("This is a test of merging");
 
-sheet.addMergedRegion(new CellRangeAddress(
-
+ sheet.addMergedRegion(new CellRangeAddress(
         1, //first row (0-based)
-
         1, //last row  (0-based)
-
         1, //first column (0-based)
-
         2  //last column  (0-based)
-
-));
-
+ ));
 {{< /highlight >}}
+
 ## **Download Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
-
 For more details, visit [Merging and Unmerging (Splitting) Cells](/cells/java/merging-and-unmerging-cells).
-
 {{% /alert %}}
 {{< app/cells/assistant language="java" >}}

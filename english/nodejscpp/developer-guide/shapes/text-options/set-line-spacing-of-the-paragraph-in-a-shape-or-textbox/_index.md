@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.getLineSpace()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getLineSpace--), [**TextParagraph.getSpaceBefore()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getSpaceBefore--), and [**TextParagraph.getSpaceAfter()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getSpaceAfter--) properties of the [**TextParagraph**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/) class.  
+You can set the line spacing of the paragraph, its space before and after using the [**TextParagraph.getLineSpace()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getLineSpace--), [**TextParagraph.getSpaceBefore()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getSpaceBefore--), and [**TextParagraph.getSpaceAfter()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getSpaceAfter--) properties of the [**TextParagraph**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/) class.  
 
 {{% /alert %}}  
 
@@ -40,7 +40,7 @@ shape.setText("Sign up for your free phone number.\nCall and text online for fre
 // Access the first paragraph
 const p = shape.getTextBody().getTextParagraphs().get(1);
 
-// Set the line space
+// Set the line spacing
 p.setLineSpaceSizeType(AsposeCells.LineSpaceSizeType.Points);
 p.setLineSpace(20);
 
@@ -55,5 +55,5 @@ p.setSpaceBefore(10);
 // Save the workbook in xlsx format
 wb.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

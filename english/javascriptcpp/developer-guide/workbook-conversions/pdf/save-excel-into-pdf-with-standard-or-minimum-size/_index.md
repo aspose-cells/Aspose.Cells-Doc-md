@@ -9,15 +9,15 @@ description: Learn how to save Excel files into PDF format with Standard or Mini
 
 {{% alert color="primary" %}} 
 
-By default, Aspose.Cells saves Excel into PDF with Standard size. However, you can also save it with Minimum size using the [PdfSaveOptions.optimizationType](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#optimizationType--) property. It accepts the following values:
+By default, Aspose.Cells saves Excel files to PDF with **Standard** size. However, you can also save them with **Minimum** size using the [PdfSaveOptions.optimizationType](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#optimizationType--) property. It accepts the following values:
 
-- PdfOptimizationType.Standard
-- PdfOptimizationType.MinimumSize
+- PdfOptimizationType.Standard  
+- PdfOptimizationType.MinimumSize  
 
 {{% /alert %}} 
 
 ## **Save Excel into PDF with Standard or Minimum Size using Aspose.Cells for JavaScript via C++**
-The following sample code shows how you can save Excel into PDF with Standard or Minimum size using the [PdfSaveOptions.optimizationType](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#optimizationType--) property.
+The following sample code shows how you can save Excel files to PDF with Standard or Minimum size using the [PdfSaveOptions.optimizationType](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#optimizationType--) property.
 
 ```html
 <!DOCTYPE html>

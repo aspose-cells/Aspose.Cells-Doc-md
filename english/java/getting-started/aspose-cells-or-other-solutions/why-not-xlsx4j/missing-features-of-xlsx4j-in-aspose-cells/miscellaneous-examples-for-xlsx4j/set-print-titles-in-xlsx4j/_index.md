@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Print Titles**
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [PageSetup](/java/PageSetup) class'setPrintTitleColumns and setPrintTitleRows properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [PageSetup](/java/PageSetup) class's setPrintTitleColumns and setPrintTitleRows properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -16,16 +16,13 @@ The rows or columns that will be repeated are defined by passing their row or co
 
 {{< highlight java >}}
 
- //Obtaining the reference of the PageSetup of the worksheet
-
+ // Obtaining a reference to the PageSetup of the worksheet
 PageSetup pageSetup = sheet.getPageSetup();
 
-//Defining column numbers A & B as title columns
-
+// Defining column numbers A and B as title columns
 pageSetup.setPrintTitleColumns("$A:$B");
 
-//Defining row numbers 1 & 2 as title rows
-
+// Defining row numbers 1 and 2 as title rows
 pageSetup.setPrintTitleRows("$1:$2");
 
 {{< /highlight >}}

@@ -8,7 +8,7 @@ description: This article provides sample code for using the JavaScript API via 
 ---
 
 {{% alert color="primary" %}}  
-Aspose.Cells supports hiding and showing Gridlines of the worksheet which are visible by default. It also provides controlling visibility of Row Column Headers of the worksheet.  
+Aspose.Cells supports hiding and showing gridlines of the worksheet, which are visible by default. It also provides control over the visibility of row and column headers of the worksheet.  
 {{% /alert %}}  
 
 ## **Show and Hide Gridlines**  
@@ -27,7 +27,7 @@ Make the gridlines visible by setting the [**Worksheet.isGridlinesVisible()**](h
 
 Hide gridlines by setting the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isGridlinesVisible--) property to **false**.  
 
-A complete example is given below that demonstrates the use of the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isGridlinesVisible--) property by opening an excel file (book1.xls), hiding the gridlines on the first worksheet, and saving the modified file as output.xls.  
+A complete example is given below that demonstrates the use of the [**Worksheet.isGridlinesVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isGridlinesVisible--) property by opening an Excel file (book1.xls), hiding the gridlines on the first worksheet, and saving the modified file as output.xls.  
 
 ```html
 <!DOCTYPE html>
@@ -110,7 +110,7 @@ Make row and column headers visible by setting the [**Worksheet.isRowColumnHeade
 
 Hide row and column headers by setting the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isRowColumnHeadersVisible--) property to **false**.  
 
-A complete example is given below that shows how to use the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isRowColumnHeadersVisible--) property by opening an excel file (book1.xls), hiding the row and column headers on the first worksheet, and saving the modified file as output.xls.  
+A complete example is given below that shows how to use the [**Worksheet.isRowColumnHeadersVisible()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isRowColumnHeadersVisible--) property by opening an Excel file (book1.xls), hiding the row and column headers on the first worksheet, and saving the modified file as output.xls.  
 
 ```html
 <!DOCTYPE html>

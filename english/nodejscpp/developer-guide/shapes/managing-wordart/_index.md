@@ -48,7 +48,7 @@ const outputFilePath = path.join(dataDir, "Watermark_Test.out.xls");
 workbook.save(outputFilePath);
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Word Art Text with Built-in Styles](/cells/nodejs-cpp/add-word-art-text-with-built-in-styles/)
 - [Locking WordArt Watermark](/cells/nodejs-cpp/locking-wordart-watermark/)
 - [Set preset WordArt style to the text of the shape](/cells/nodejs-cpp/set-preset-wordart-style-to-the-text-of-the-shape/)

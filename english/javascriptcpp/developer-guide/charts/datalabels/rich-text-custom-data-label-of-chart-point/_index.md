@@ -9,13 +9,13 @@ url: /javascript-cpp/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to create rich text custom data labels for chart points. Aspose.Cells provides the [**ChartTextFrame.characters(number, number)**](https://reference.aspose.com/cells/javascript-cpp/charttextframe/#characters-number-number-) method to return the [**FontSetting**](https://reference.aspose.com/cells/javascript-cpp/fontsetting) object which can be used to set the font properties of the text like its color, boldness, etc.
+You can use Aspose.Cells to create rich text custom data labels for chart points. Aspose.Cells provides the [**ChartTextFrame.characters(number, number)**](https://reference.aspose.com/cells/javascript-cpp/charttextframe/#characters-number-number-) method to return the [**FontSetting**](https://reference.aspose.com/cells/javascript-cpp/fontsetting) object, which can be used to set the font properties of the text, such as its color, boldness, etc.
 
 {{% /alert %}}
 
 ## Rich Text Custom Data Label of Chart Point
 
-The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by setting its color to red and boldness to **true**.
+The following code accesses the first chart point of the first series, sets its text, and then sets the font of the first 10 characters by changing its color to red and making it bold.
 
 ```html
 <!DOCTYPE html>
@@ -60,13 +60,13 @@ The following code accesses the first chart point of the first series, sets its 
             // Creating a Workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
             // Access the first chart inside the sheet
             const chart = worksheet.charts.get(0);
 
-            // Access the data label of first series first point
+            // Access the data label of the first series' first point
             const dlbls = chart.nSeries.get(0).points.get(0).dataLabels;
 
             // Set data label text

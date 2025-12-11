@@ -9,16 +9,16 @@ description: Learn how to insert a linked picture from a web address into a work
 
 {{% alert color="primary" %}}
 
-Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL and the picture will be downloaded every time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded into the Excel document, but points to a web resource.
+Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL, and the picture will be downloaded each time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded in the Excel document, but points to a web resource.
 
 {{% /alert %}}
 
 ## **Using Microsoft Excel**
 
-In Microsoft Excel (for example 2007):
+In Microsoft Excel (for example, 2007):
 
 1. Click the **Insert** menu and select **Picture**.
-1. Specify the web address for the picture in the Insert Picture dialog.
+2. Specify the web address for the picture in the Insert Picture dialog.
 
 ## **Using Aspose.Cells for C++**
 

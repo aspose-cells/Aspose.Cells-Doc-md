@@ -9,11 +9,11 @@ url: /go-cpp/check-custom-number-format-when-setting-style-custom-property/
 
 ## **Possible Usage Scenarios**
 
-If you assign an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**.
+If you assign an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property, Aspose.Cells will not throw an exception. But if you want Aspose.Cells to check whether the assigned custom number format is valid, then set the [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**.
 
 ## **Check Custom Number Format when setting Style.Custom property**
 
-The following sample code assigns an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property. Since we have already set [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**, therefore it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
+The following sample code assigns an invalid custom number format to [**Style.GetCustom()**](https://reference.aspose.com/cells/go-cpp/style/getcustom/) property. Since we have set [**Workbook.GetCheckCustomNumberFormat()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getcheckcustomnumberformat/) property to **true**, it throws an exception, e.g., “Invalid number format.” Please read the comments inside the code for more help.
 
 ## **Sample Code**
 

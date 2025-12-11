@@ -6,17 +6,17 @@ keywords: Aspose.Cells for Node.js, chart, axis labels, calculation, reading, ac
 type: docs  
 weight: 90  
 url: /nodejs-cpp/read-axis-labels-after-calculating-the-chart/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 ## **Possible Usage Scenarios**
 
-You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#calculate--) method. Please use the [**Axis.getAxisTexts()**](https://reference.aspose.com/cells/nodejs-cpp/axis/#getAxisTexts--) method for this purpose that will return the list of axis labels.
+You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#calculate--) method. Please use the [**Axis.getAxisTexts()**](https://reference.aspose.com/cells/nodejs-cpp/axis/#getAxisTexts--) method for this purpose, which will return the list of axis labels.
 
 ## **Read Axis Labels after Calculating the Chart**
 
-Please see the following sample code that loads the [sample Excel file](ReadAxisLabels.xlsx) and reads the category axis labels of the chart in the first worksheet. It then prints the values of the axis labels on the console. Please see the console output of the sample code given below for a reference.
+Please see the following sample code that loads the [sample Excel file](ReadAxisLabels.xlsx) and reads the category‑axis labels of the chart in the first worksheet. It then prints the values of the axis labels on the console. Refer to the console output of the sample code given below.
 
 ## **Sample Code**
 
@@ -28,10 +28,10 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "ReadAxisLabels_new.xlsx");
 
-// Load the Excel file containing chart
+// Load the Excel file containing the chart
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Access first worksheet
+// Access the first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
 // Access the chart
@@ -40,35 +40,29 @@ const chart = worksheet.getCharts().get(0);
 // Calculate the chart
 chart.calculate();
 
-// Read axis labels of category axis
+// Read axis labels of the category axis
 const lstLabels = chart.getCategoryAxis().getAxisTexts();
 
-// Print axis labels on console
+// Print axis labels on the console
 console.log("Category Axis Labels: ");
 console.log("---------------------");
 
 // Iterate axis labels and print them one by one
 for (let i = 0; i < lstLabels.length; i++) {
-console.log(lstLabels[i]);
+    console.log(lstLabels[i]);
 }
 ```
 
 ## **Console Output**
 
-{{< highlight javascript >}}  
- Category Axis Labels:  
+```javascript
+Category Axis Labels: 
+---------------------
+Iran
+China
+USA
+Brazil
+England
+```
 
-\---------------------  
-
-Iran  
-
-China  
-
-USA  
-
-Brazil  
-
-England  
-{{< /highlight >}}  
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

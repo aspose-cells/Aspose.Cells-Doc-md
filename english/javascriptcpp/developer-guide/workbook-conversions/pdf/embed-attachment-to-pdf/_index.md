@@ -7,7 +7,7 @@ url: /javascript-cpp/embed-attachment-to-pdf/
 description: Learn how to embed an Ole Object as an attachment in a PDF using Aspose.Cells for JavaScript via C++.
 ---
 
-In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double click the Ole Object, and the embedded file will be opened.
+In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double-click the Ole Object, and the embedded file will be opened.
 
 Generally, while converting to PDF, the Ole Object will be rendered as an icon or a thumbnail without the Ole Object source data. With option [PdfSaveOptions.embedAttachments()](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#embedAttachments--) you can embed the Ole Object source data as an attachment in PDF. You can double-click the icon or the thumbnail in PDF to open the source file of the Ole Object.
 
@@ -57,7 +57,7 @@ Generally, while converting to PDF, the Ole Object will be rendered as an icon o
             const pdfSaveOptions = new PdfSaveOptions();
             pdfSaveOptions.embedAttachments = true;
 
-            // Save the pdf file with PdfSaveOptions
+            // Save the PDF file with PdfSaveOptions
             const outputData = workbook.save(SaveFormat.Pdf, pdfSaveOptions);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             const downloadLink = document.getElementById('downloadLink');

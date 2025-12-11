@@ -15,7 +15,7 @@ To integrate Aspose.Cells for JasperReports with JasperServer, perform the steps
 
 {{% alert color="primary" %}} 
 
-In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
+In all of the following steps, <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
@@ -51,7 +51,7 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
 
 {{< /highlight >}}
 
-1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
+2. Locate the `<util:map id="exporterConfigMap">` element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
 **XML**
 
@@ -83,11 +83,12 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
 
 
 
+3. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
 
-1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
-1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
-1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
-   (This bean may contain various configuration settings intended to configure the export. For example, you can use the JasperReports font mapping feature or specify the location of the Aspose.Cells for JasperReports license file.) 
+4. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib** folder.
+
+5. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.  
+   (This bean may contain various configuration settings intended to configure the export. For example, you can use the JasperReports font‑mapping feature or specify the location of the Aspose.Cells for JasperReports license file.) 
 
 **XML**
 
@@ -107,12 +108,8 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
 
 
 
-
-1. Run JasperServer and open any report to view. If the previous steps were performed properly, additional format icons are available. 
+6. Run JasperServer and open any report to view. If the previous steps were performed properly, additional format icons are available. 
 
 **New export formats available (on the right) after installing Aspose.Cells for JasperReports on JasperServer** 
 
 ![todo:image_alt_text](integration-with-jasperserver_1.png)
-
-
-

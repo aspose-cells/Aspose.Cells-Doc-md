@@ -4,18 +4,18 @@ linktitle: Remove Existing PrinterSettings of Worksheets in Excel file
 type: docs
 weight: 60
 url: /javascript-cpp/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: In this article, you will learn how to remove existing PrinterSettings of Worksheet inside the Excel file programmatically using Aspose.Cells for JavaScript via C++.
+description: In this article, you will learn how to remove existing PrinterSettings of worksheets inside the Excel file programmatically using Aspose.Cells for JavaScript via C++.
 keywords: remove printer settings of worksheet JavaScript via C++, remove printer settings of excel worksheet JavaScript via C++
 ---
 
 ## **Possible Usage Scenarios**
-Sometimes developers want to prevent Excel from including *.bin* files of printer settings in the saved XLSX files. Printer settings files are located under *“[file "root"]\xl\printerSettings”.* This document explains how to remove existing printer settings using Aspose.Cells APIs.
+Sometimes developers want to prevent Excel from including *.bin* files of printer settings in the saved XLSX files. Printer settings files are located under *“[file "root"]\xl\printerSettings”.* This document explains how to remove existing printer settings using Aspose.Cells APIs.
 
 ## **Remove Existing PrinterSettings of Worksheets in Excel file**
-Aspose.Cells allows you to remove existing printer settings specified for different sheets in the Excel file. The following sample code illustrates how to remove existing printer settings for all the worksheets in the workbook. Please see its [sample Excel file](45056020.xlsx), [output Excel file](45056021.xlsx), console output as well as the screenshot for a reference.
+Aspose.Cells allows you to remove existing printer settings specified for different sheets in the Excel file. The following sample code illustrates how to remove existing printer settings for all the worksheets in the workbook. Please see the sample Excel file, the output Excel file, the console output, and the screenshot for reference.
 
 ## **Screenshot**
-![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+![remove-existing-printersettings-of-worksheets-in-excel-file_1.png](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 
 ## **Sample Code**
 ```html
@@ -68,7 +68,7 @@ Aspose.Cells allows you to remove existing printer settings specified for differ
             // Instantiating a Workbook object from the uploaded file
             const wb = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Get the sheet counts of the workbook
+            // Get the sheet count of the workbook
             const sheetCount = wb.worksheets.count;
 
             const messages = [];
@@ -82,20 +82,20 @@ Aspose.Cells allows you to remove existing printer settings specified for differ
 
                 // Check if printer settings for this worksheet exist
                 if (ps.printerSettings != null) {
-                    // Print the following message
+                    // Log the following message
                     console.log("PrinterSettings of this worksheet exist.");
                     messages.push("PrinterSettings of this worksheet exist.");
 
-                    // Print sheet name and its paper size
+                    // Log sheet name and its paper size
                     console.log("Sheet Name: " + ws.name);
                     console.log("Paper Size: " + ps.paperSize);
                     messages.push("Sheet Name: " + ws.name);
                     messages.push("Paper Size: " + ps.paperSize);
 
-                    // Remove the printer settings by setting them null
+                    // Remove the printer settings by setting it to null
                     ps.printerSettings = null;
-                    console.log("Printer settings of this worksheet are now removed by setting it null.");
-                    messages.push("Printer settings of this worksheet are now removed by setting it null.");
+                    console.log("Printer settings of this worksheet are now removed by setting it to null.");
+                    messages.push("Printer settings of this worksheet are now removed by setting it to null.");
                     messages.push("");
                 }
             }
@@ -119,36 +119,24 @@ Aspose.Cells allows you to remove existing printer settings specified for differ
 ## **Console Output**
 {{< highlight javascript >}}
 
- PrinterSettings of this worksheet exist.
-
+PrinterSettings of this worksheet exist.
 Sheet Name: Sheet1
-
 Paper Size: PaperLegal
-
-Printer settings of this worksheet are now removed by setting it null.
+Printer settings of this worksheet are now removed by setting it to null.
 
 PrinterSettings of this worksheet exist.
-
 Sheet Name: Sheet2
-
 Paper Size: PaperEnvelopeB5
-
-Printer settings of this worksheet are now removed by setting it null.
+Printer settings of this worksheet are now removed by setting it to null.
 
 PrinterSettings of this worksheet exist.
-
 Sheet Name: Sheet3
-
 Paper Size: PaperA6
-
-Printer settings of this worksheet are now removed by setting it null.
+Printer settings of this worksheet are now removed by setting it to null.
 
 PrinterSettings of this worksheet exist.
-
 Sheet Name: Sheet4
-
 Paper Size: PaperA3
-
-Printer settings of this worksheet are now removed by setting it null.
+Printer settings of this worksheet are now removed by setting it to null.
 
 {{< /highlight >}}

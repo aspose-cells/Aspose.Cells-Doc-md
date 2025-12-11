@@ -5,28 +5,28 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/encrypt-and-decrypt-excel-files/  
 description: How to encrypt and decrypt Excel files using Node.js via C++. Lock and unlock Excel files.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
-Microsoft Excel (97 - 365) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is 'Office 97/2000 Compatible' or 'Weak Encryption (XOR)'. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.  
+Microsoft Excel (97 – 365) enables you to encrypt and password‑protect your spreadsheets. It uses algorithms provided by a cryptographic service provider (CSP), which is a set of cryptographic algorithms with different properties. The default CSP is **Office 97/2000 Compatible** or **Weak Encryption (XOR)**. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the **Microsoft Strong Cryptographic Provider**. To give you an idea, 128‑bit encryption is what banks use to encrypt the connection with their Internet Banking systems.  
 
-Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.  
+Aspose.Cells allows you to encrypt and password‑protect Microsoft Excel files with your desired encryption type.  
 {{% /alert %}}  
 
 ## **Using Microsoft Excel**  
 
-To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):  
+To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):  
 
 1. From the **Tools** menu, select **Options**. A dialog will appear.  
 2. Select the **Security** tab.  
-3. Input a password and click **Advanced**  
+3. Enter a password and click **Advanced**.  
 4. Choose the encryption type and confirm the password.  
 
 ## **Encrypting Excel file with Aspose.Cells for Node.js via C++**  
 
-The following example shows how to encrypt and password protect an Excel file using the Aspose.Cells API.  
+The following example shows how to encrypt and password‑protect an Excel file using the Aspose.Cells API.  
 
 ```javascript
 const path = require("path");
@@ -49,7 +49,7 @@ workbook.setEncryptionOptions(AsposeCells.EncryptionType.StrongCryptographicProv
 // Password protect the file.
 workbook.getSettings().setPassword("1234");
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "encryptedBook1.out.xls"));
 ```  
 
@@ -71,13 +71,14 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "Book1.xls"));
 // Set the password for modification.
 workbook.getSettings().getWriteProtection().setPassword("1234");
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "SpecifyPasswordToModifyOption.out.xls"));
 ```  
 
 
+
 ## **Decrypting Excel file with Aspose.Cells for Node.js via C++**  
-It is very easy to open a password-protected Excel file and decrypt it using the Aspose.Cells API as shown in the following code:  
+It is very easy to open a password‑protected Excel file and decrypt it using the Aspose.Cells API as shown in the following code:  
 
 ```javascript
 const path = require("path");
@@ -100,11 +101,11 @@ workbook.save(filePath);
 ```  
 
 
-## **Advance topics**  
+
+## **Advanced topics**  
 - [Encrypt And Decrypt ODS files](/cells/nodejs-cpp/encrypt-and-decrypt-ods-files/)  
 - [Setting Strong Encryption Type](/cells/nodejs-cpp/setting-strong-encryption-type/)  
 - [Specify Author while Write Protecting Workbook](/cells/nodejs-cpp/specify-author-while-write-protecting-workbook/)  
 - [Verify Password of Encrypted Files](/cells/nodejs-cpp/verify-password-of-encrypted-excel-and-ods-files/)  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

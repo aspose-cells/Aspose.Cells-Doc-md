@@ -9,13 +9,13 @@ description: Learn how to disable exporting frame scripts and document propertie
 
 {{% alert color="primary" %}}
 
-Aspose.Cells exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for JavaScript via C++ introduces an option which allows you to optionally disable exporting frame scripts and document properties. Please use the `HtmlSaveOptions.exportFrameScriptsAndProperties` property to disable the export.
+Aspose.Cells exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for JavaScript via C++ introduces an option that allows you to optionally disable exporting frame scripts and document properties. Please use the `HtmlSaveOptions.exportFrameScriptsAndProperties` property to disable the export.
 
 {{% /alert %}}
 
-## **Disable exporting frame scripts and document properties**
+## **Disable Exporting Frame Scripts and Document Properties**
 
-The following sample code allows you to disable exporting frame scripts and document properties. Once you convert a workbook into HTML, the output file will not contain any frame scripts and document properties.
+The following sample code demonstrates how to disable exporting frame scripts and document properties. Once you convert a workbook into HTML, the output file will not contain any frame scripts or document properties.
 
 ```html
 <!DOCTYPE html>

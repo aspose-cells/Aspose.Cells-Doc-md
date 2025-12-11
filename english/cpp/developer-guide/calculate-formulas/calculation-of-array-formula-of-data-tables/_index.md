@@ -12,17 +12,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can create Data Table in Microsoft Excel using Data > What-If Analysis > Data Table.... Aspose.Cells now allows you to calculate the array formula of a data table. Please use [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) as normal for calculating any type of formulas.
+You can create a data table in Microsoft Excel using **Data > What‑If Analysis > Data Table**. Aspose.Cells now allows you to calculate the array formula of a data table. Please use [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) as usual for calculating any type of formulas.
 
 {{% /alert %}}
 
-In the following sample code, we used the [source excel file](5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table which are filled with Yellow color will become 120 as shown in the following images. The sample code generates the [output PDF](5115538.pdf).
+In the following sample code, we used the **source Excel file** ([DataTable.xlsx](5115535.xlsx)). If you change the value of cell **B1** to **100**, the values of the data table that are filled with yellow color will become **120**, as shown in the following images. The sample code generates the [output PDF](5115538.pdf).
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
-Here is the sample code used to generate the [output PDF](5115538.pdf) from the [source excel file](5115535.xlsx). Please read the comments for more information.
+Here is the sample code used to generate the [output PDF](5115538.pdf) from the **source Excel file**. Please read the comments for more information.
 
 ```cpp
 #include <iostream>
@@ -39,22 +39,22 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"DataTable.xlsx";
 
-    // Create workbook from source excel file
+    // Create workbook from source Excel file
     Workbook workbook(inputFilePath);
 
     // Access first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // When you will put 100 in B1, then all Data Table values formatted as Yellow will become 120
+    // When you put 100 in B1, all data table values formatted in yellow will become 120
     worksheet.GetCells().Get(u"B1").PutValue(100);
 
-    // Calculate formula, now it also calculates Data Table array formula
+    // Calculate formula; now it also calculates data table array formula
     workbook.CalculateFormula();
 
-    // Save the workbook in pdf format
+    // Save the workbook in PDF format
     workbook.Save(outDir + u"output_out.pdf");
 
     std::cout << "Workbook saved successfully!" << std::endl;

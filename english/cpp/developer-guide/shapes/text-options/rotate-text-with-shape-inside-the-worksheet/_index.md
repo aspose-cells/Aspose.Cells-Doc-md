@@ -15,9 +15,9 @@ You can add text inside any shape using Microsoft Excel. If you add a shape usin
 
 ## **Rotate Text with Shape inside the Worksheet**
 
-The following sample code loads the [sample Excel file](64716896.xlsx) that contains a triangle shape, and its text rotates with the shape. If you open the sample Excel file in Microsoft Excel and rotate the triangle shape, the text will also rotate with it. The code then sets the [**ShapeTextAlignment.GetRotateTextWithShape()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/shapetextalignment/getrotatetextwithshape/) property to **false** and saves it as the [output Excel file](64716897.xlsx). If you now open the output Excel file in Microsoft Excel and rotate the triangle shape, the text will not rotate with it. Please see the following screenshot showing the effect of the code on the sample Excel file for reference.
+The following sample code loads the [sample Excel file](64716896.xlsx) that contains a triangle shape, and its text rotates with the shape. If you open the sample Excel file in Microsoft Excel and rotate the triangle shape, the text will also rotate with it. The code then sets the [**ShapeTextAlignment.GetRotateTextWithShape()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/shapetextalignment/getrotatetextwithshape/) property to **false** and saves it as the [output Excel file](64716897.xlsx). If you now open the output Excel file in Microsoft Excel and rotate the triangle shape, the text will not rotate with it. Please see the following screenshot, which shows the effect of the code on the sample Excel file for reference.
 
-![todo:image_alt_text](rotate-text-with-shape-inside-the-worksheet_1.png)
+![Screenshot showing text rotation behavior](rotate-text-with-shape-inside-the-worksheet_1.png)
 
 ## **Sample Code**
 

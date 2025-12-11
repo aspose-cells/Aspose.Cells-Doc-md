@@ -9,15 +9,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.6.3 to 8.7.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.6.3 to 8.7.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for PDF Optimization**
-Aspose.Cells APIs already provide the feature of converting spreadsheets to PDF. With this release of the API, users can now [optimize the resultant PDF size](/cells/java/save-excel-into-pdf-with-standard-or-minimum-size/) as well. Aspose.Cells for Java 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to choose the desired optimization algorithm while exporting spreadsheets to PDF format. There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below. 
+Aspose.Cells APIs already provide the feature of converting spreadsheets to PDF. With this release of the API, users can now [optimize the resultant PDF size](/cells/java/save-excel-into-pdf-with-standard-or-minimum-size/) as well. Aspose.Cells for Java 8.7.0 exposes the `PdfSaveOptions.OptimizationType` property along with the `PdfOptimizationType` enumeration in order to facilitate users in choosing the desired optimization algorithm while exporting spreadsheets to PDF format. There are two possible values for the `PdfSaveOptions.OptimizationType` property as detailed below. 
 
-1. PdfOptimizationType.MINIMUM_SIZE: Quality is compromised for the resultant file size.
-1. PdfOptimizationType.STANDARD: Quality isn't compromised so the resultant file size will be large.
+1. `PdfOptimizationType.MINIMUM_SIZE`: Quality is compromised for the resultant file size.  
+2. `PdfOptimizationType.STANDARD`: Quality isn’t compromised, so the resultant file size will be large.
 
 Following is the simple usage scenario.
 
@@ -45,7 +45,7 @@ book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
 ### **Detection of Digitally Signed VBA Project**
-Newly exposed VbaProject.isSigned property can be used to in [detect if the VBA project in a Workbook is digitally signed](/cells/java/check-if-vba-code-is-signed/). The VbaProject.isSigned property is of type Boolean, which returns true if the VBA project is digitally signed and vice versa.
+Newly exposed `VbaProject.isSigned` property can be used to detect if the VBA project in a Workbook is digitally signed. The `VbaProject.isSigned` property is of type Boolean, which returns true if the VBA project is digitally signed and false otherwise.
 
 Following is the simple usage scenario.
 
@@ -81,7 +81,7 @@ else
 
 {{< /highlight >}}
 ### **Added Protection.verifyPassword Method**
-Aspose.Cells APIs have enhanced the Protection class by introducing the verifyPassword method which allows to specify a password as an instance of String and [verifies if same password has been used to protect the Worksheet](/cells/java/verify-password-used-to-protect-the-worksheet/). The Protection.verifyPassword method returns true if the specified password matches with the password used to protect the given worksheet, and false if specified password does not match. Following piece of code uses the Protection.verifyPassword method in conjunction with Protection.isProtectedWithPassword field to detect the password protection, and verifies the password.
+Aspose.Cells APIs have enhanced the `Protection` class by introducing the `verifyPassword` method, which allows specifying a password as a `String` and verifies whether the same password has been used to protect the worksheet. The `Protection.verifyPassword` method returns true if the specified password matches the password used to protect the given worksheet, and false if the specified password does not match. The following piece of code uses the `Protection.verifyPassword` method in conjunction with the `Protection.isProtectedWithPassword` field to detect password protection and verify the password.
 
 Following is the simple usage scenario.
 
@@ -125,7 +125,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 {{< /highlight >}}
 ### **Added Protection.isProtectedWithPassword Property**
-This release of Aspose.Cells for Java has also exposed the Protection.isProtectedWithPassword field that can be useful in [detecting if a Worksheet is password protected or not](/cells/java/detect-if-worksheet-is-password-protected/).
+This release of Aspose.Cells for Java has also exposed the `Protection.isProtectedWithPassword` field, which can be useful for detecting whether a worksheet is password‑protected.
 
 Following is the simple usage scenario.
 
@@ -165,7 +165,7 @@ else
 
 {{< /highlight >}}
 ### **Added ColorScale.Is3ColorScale Property**
-Aspose.Cells for Java 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to [create 2-Color Scale conditional format](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will generate a 2-Color Scale conditional format.
+Aspose.Cells for Java 8.7.0 has exposed the `ColorScale.Is3ColorScale` property that can be used to [create 2‑Color Scale conditional format](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). The property is of type Boolean with a default value of true, which means that the conditional format will be a 3‑Color Scale by default. However, setting the `ColorScale.Is3ColorScale` property to false will generate a 2‑Color Scale conditional format.
 
 Following is the simple usage scenario.
 
@@ -215,7 +215,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Added TxtLoadOptions.HasFormula Property**
-Aspose.Cells for Java 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](/cells/java/load-or-import-csv-file-with-formulas/). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
+Aspose.Cells for Java 8.7.0 provides support to identify and parse formulas while loading CSV/TXT files containing delimited plain data. The newly exposed `TxtLoadOptions.HasFormula` property, when set to true, directs the API to parse the formulas from the input delimited file and assign them to the relevant cells without requiring any additional processing.
 
 Following is the simple usage scenario.
 
@@ -249,7 +249,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Added DataLabels.ResizeShapeToFitText Property**
-Another useful feature that Aspose.Cells for Java 8.7.0 has exposed is the DataLabels.ResizeShapeToFitText property that can enable the [resize shape to fit text](/cells/java/resize-chart-s-data-label-shape-to-fit-text/) feature of Excel application for chart's data labels.
+Another useful feature that Aspose.Cells for Java 8.7.0 has exposed is the `DataLabels.ResizeShapeToFitText` property, which enables the “resize shape to fit text” feature of the Excel application for a chart’s data labels.
 
 Following is the simple usage scenario.
 
@@ -284,5 +284,5 @@ chart.calculate();
 {{< /highlight >}}
 ## **Removed APIs**
 ### **Removed Workbook.SaveOptions Property**
-The Workbook.SaveOptions property was marked obsoleted some time back. With this release, it has been completely removed from the public API therefore it is advised to use the Workbook.save(Stream, SaveOptions) or Workbook.save(string, SaveOptions) method as alternative.
+The `Workbook.SaveOptions` property was marked obsolete some time ago. With this release, it has been completely removed from the public API; therefore, it is advised to use the `Workbook.save(Stream, SaveOptions)` or `Workbook.save(String, SaveOptions)` method as an alternative.
 {{< app/cells/assistant language="java" >}}

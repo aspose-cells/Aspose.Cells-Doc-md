@@ -1,31 +1,31 @@
----
-title: Set Default Font while rendering spreadsheet to images with JavaScript via C++
-linktitle: Set Default Font while rendering spreadsheet to images
-type: docs
-weight: 360
-url: /javascript-cpp/set-default-font-while-rendering-spreadsheet-to-images/
-description: Learn how to set the default font while rendering spreadsheets to images using Aspose.Cells for JavaScript via C++. 
----
+---  
+title: Set Default Font while rendering spreadsheets to images with JavaScript via C++  
+linktitle: Set Default Font while rendering spreadsheets to images  
+type: docs  
+weight: 360  
+url: /javascript-cpp/set-default-font-while-rendering-spreadsheet-to-images/  
+description: Learn how to set the default font while rendering spreadsheets to images using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Please use the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to set the default font while rendering spreadsheets to images. This property will only be effective when the default font of the workbook could not render your characters. The default font specified with [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property is used for all those cells which have invalid or non-existent fonts.
+Please use the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to set the default font while rendering spreadsheets to images. This property is effective only when the workbook's default font cannot render your characters. The default font specified with the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property is used for all cells that have invalid or non‑existent fonts.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## Set Default Font while rendering spreadsheet to images
+## Set Default Font while rendering spreadsheets to images  
 
-The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to an invalid or non-existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Times New Roman*.
+The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to an invalid or non‑existent font. Then, it renders two images of the worksheet. The first image is created by setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Courier New*, and the second image is created by setting the same property to *Times New Roman*.  
 
-This is the output image after setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Courier New*.
+This is the output image after setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Courier New*.  
 
-![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)  
 
-This is the output image after setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Times New Roman*.
+This is the output image after setting the [**ImageOrPrintOptions.defaultFont**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#defaultFont--) property to *Times New Roman*.  
 
-![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)  
 
-## Sample Code
+## Sample Code  
 
 ```html
 <!DOCTYPE html>
@@ -89,14 +89,14 @@ This is the output image after setting the [**ImageOrPrintOptions.defaultFont**]
             const cell = ws.cells.get("A4");
             cell.value = "This text has some unknown or invalid font which does not exist.";
 
-            // Set the font of cell A4 which is unknown.
+            // Set the font of cell A4 to an unknown font.
             let st = cell.style;
             st.font.name = "UnknownNotExist";
             st.font.size = 20;
             st.isTextWrapped = true;
             cell.style = st;
 
-            // Set first column width and fourth row height
+            // Set the first column width and the fourth row height
             ws.cells.setColumnWidth(0, 80);
             ws.cells.setRowHeight(3, 60);
 

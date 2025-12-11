@@ -1,18 +1,18 @@
----
-title: Copying and Moving Worksheets with JavaScript via C++
-linktitle: Copying and Moving Worksheets
-type: docs
-weight: 10
-url: /javascript-cpp/copying-and-moving-worksheets/
-description: This article includes sample code and describes how to copy and move worksheets programmatically both within an Excel workbook and across Excel workbooks using the JavaScript via C++ API.
-keywords: copy worksheet JavaScript, move worksheet JavaScript
----
+---  
+title: Copying and Moving Worksheets with JavaScript via C++  
+linktitle: Copying and Moving Worksheets  
+type: docs  
+weight: 10  
+url: /javascript-cpp/copying-and-moving-worksheets/  
+description: This article includes sample code and describes how to copy and move worksheets programmatically both within an Excel workbook and across Excel workbooks using the JavaScript via C++ API.  
+keywords: copy worksheet JavaScript, move worksheet JavaScript  
+---  
 
 {{% alert color="primary" %}}
 
-Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.
+Sometimes you need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.
 
-Aspose.Cells for JavaScript via C++ supports copying and moving worksheets within or between workbooks. Worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.
+Aspose.Cells for JavaScript via C++ supports copying and moving worksheets within or between workbooks. Worksheets, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.
 
 {{% /alert %}}
 
@@ -20,13 +20,13 @@ Aspose.Cells for JavaScript via C++ supports copying and moving worksheets withi
 
 Following are the steps involved for copying and moving worksheets within or between workbooks in Microsoft Excel.
 
-1. To move or copy sheets to another workbook, open the workbook that will receive the sheets.
-1. Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.
-1. On the **Edit** menu, click **Move or Copy Sheet**.
-1. In the **To book** dialog, click the workbook to receive the sheets.
-1. To move or copy the selected sheets to a new workbook, click **New Book**.
-1. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.
-1. To copy the sheets instead of moving them, select the **Create a copy** checkbox.
+1. To move or copy sheets to another workbook, open the workbook that will receive the sheets.  
+2. Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.  
+3. On the **Edit** menu, click **Move or Copy Sheet**.  
+4. In the **To book** dialog, click the workbook to receive the sheets.  
+5. To move or copy the selected sheets to a new workbook, click **New Book**.  
+6. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.  
+7. To copy the sheets instead of moving them, select the **Create a copy** checkbox.  
 
 ### **Copy Worksheets within a Workbook with Aspose.Cells for JavaScript via C++**
 
@@ -96,7 +96,7 @@ The following example shows how to copy an existing worksheet within a workbook.
         });
     </script>
 </html>
-```
+```  
 
 ### **Copy Worksheets between Workbooks**
 
@@ -153,7 +153,7 @@ The following example shows how to copy a worksheet from one workbook to another
             // Create another Workbook (destination workbook)
             const excelWorkbook1 = new Workbook();
 
-            // Copy the first sheet of the first book into second book.
+            // Copy the first sheet of the first workbook into the second workbook.
             excelWorkbook1.worksheets.get(0).copy(excelWorkbook0.worksheets.get(0));
 
             // Save the file as Excel 97-2003 (.xls)
@@ -169,7 +169,7 @@ The following example shows how to copy a worksheet from one workbook to another
         });
     </script>
 </html>
-```
+```  
 
 The following example shows how to copy a worksheet from one workbook to another.
 
@@ -223,7 +223,7 @@ The following example shows how to copy a worksheet from one workbook to another
             const pagesetup = ws0.pageSetup;
 
             // The first five rows are repeated in each page...
-            // It can be seen in print preview.
+            // They can be seen in print preview.
             pagesetup.printTitleRows = "$1:$5";
 
             // Create another Workbook.
@@ -252,7 +252,7 @@ The following example shows how to copy a worksheet from one workbook to another
         });
     </script>
 </html>
-```
+```  
 
 ### **Move Worksheets within Workbook**
 

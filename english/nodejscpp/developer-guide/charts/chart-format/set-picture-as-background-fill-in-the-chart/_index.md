@@ -16,7 +16,7 @@ Aspose.Cells allows you to set a gradient, texture, pattern, or picture as fill 
 
 {{% /alert %}}
 
-To achieve this, Aspose.Cells provides the [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property. The following code sample demonstrates the use of [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property to set a picture as a background fill in the chart.
+To achieve this, Aspose.Cells provides the [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property. The following code sample demonstrates the use of the [**Chart.getPlotArea()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getPlotArea--) property to set a picture as a background fill in the chart.
 
 ## Node.js code to set picture as background fill in the chart
 
@@ -34,13 +34,13 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Get the first worksheet.
 let sheet = workbook.getWorksheets().get(0);
 
-// Set the name of worksheet
+// Set the name of the worksheet
 sheet.setName("Data");
 
 // Get the cells collection in the sheet.
 const cells = workbook.getWorksheets().get(0).getCells();
 
-// Put some values into a cells of the Data sheet.
+// Put some values into cells of the Data sheet.
 cells.get("A1").putValue("Region");
 cells.get("A2").putValue("France");
 cells.get("A3").putValue("Germany");
@@ -62,15 +62,15 @@ cells.get("B8").putValue(10000);
 let sheetIndex = workbook.getWorksheets().add(AsposeCells.SheetType.Chart);
 sheet = workbook.getWorksheets().get(sheetIndex);
 
-// Set the name of worksheet
+// Set the name of the worksheet
 sheet.setName("Chart");
 
 // Create chart
 let chartIndex = sheet.getCharts().add(AsposeCells.ChartType.Column, 1, 1, 25, 10);
 const chart = sheet.getCharts().get(chartIndex);
 
-// Set some properties of chart plot area.
-// To set a picture as fill format and make the border invisible.
+// Set some properties of the chart plot area.
+// To set a picture as the fill format and make the border invisible.
 const fs = require("fs");
 const data = fs.readFileSync(path.join(dataDir, "aspose.png"));
 chart.getPlotArea().getArea().getFillFormat().setImageData(data);
@@ -82,16 +82,16 @@ chart.getTitle().getFont().setColor(AsposeCells.Color.Blue);
 chart.getTitle().getFont().setIsBold(true);
 chart.getTitle().getFont().setSize(12);
 
-// Set properties of nseries
+// Set properties of NSeries
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setIsColorVaried(true);
 
-// Set the Legend.
+// Set the legend.
 const legend = chart.getLegend();
 legend.setPosition(AsposeCells.LegendPositionType.Top);
 
-// Save the excel file
+// Save the Excel file
 workbook.save(path.join(dataDir, "column_chart_out.xls"));
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

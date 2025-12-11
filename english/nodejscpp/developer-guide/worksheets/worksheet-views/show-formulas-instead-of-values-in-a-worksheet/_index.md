@@ -15,7 +15,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Worksheet.getShowFormulas()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getShowFormulas--) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells provides a [**Worksheet.getShowFormulas()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getShowFormulas--) property. Set this to **true** to cause Microsoft Excel to display formulas.
 
 ```javascript
 const path = require("path");
@@ -31,7 +31,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access the first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
-// Show formulas of the worksheet
+// Show formulas for the worksheet
 worksheet.setShowFormulas(true);
 
 // Save the workbook

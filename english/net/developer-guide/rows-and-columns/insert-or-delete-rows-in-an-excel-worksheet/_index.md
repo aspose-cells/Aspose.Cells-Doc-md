@@ -3,7 +3,7 @@ title: Insert or Delete Rows in an Excel Worksheet
 type: docs
 weight: 20
 url: /net/insert-or-delete-rows-in-an-excel-worksheet/
-description: This article provides the C# code to insert and delete rows in Excel worksheet
+description: This article provides the C# code to insert and delete rows in an Excel worksheet
 keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows in excel, c# insert rows in excel, c# delete rows in excel, insert or delete rows in excel worksheet with c#, insert or delete rows in excel with c#, insert rows in excel with c#, delete rows in excel with c#
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"

@@ -1,15 +1,15 @@
 ---
-title: Convert Excel to High-Resolution Image with C++
-linktitle: Convert Excel to High-Resolution Image
+title: Convert Excel to High‑Resolution Image with C++
+linktitle: Convert Excel to High‑Resolution Image
 type: docs
 weight: 100
 url: /cpp/convert-excel-to-high-resolution-image/
-description: Generate high-resolution images from Excel files using Aspose.Cells with C++.
+description: Generate high‑resolution images from Excel files using Aspose.Cells with C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-With the increasing prevalence of high-resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high-resolution screens, it's essential to generate images at a higher DPI. Aspose.Cells offers the functionality to set [**ImageOrPrintOptions.GetHorizontalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gethorizontalresolution/) and [**ImageOrPrintOptions.GetVerticalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getverticalresolution/), allowing you to create high-quality images from Excel files that look sharp on high-resolution displays.
+With the increasing prevalence of high‑resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high‑resolution screens, it's essential to generate images at a higher DPI. Aspose.Cells offers functionality to set [**ImageOrPrintOptions.GetHorizontalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gethorizontalresolution/) and [**ImageOrPrintOptions.GetVerticalResolution()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getverticalresolution/), allowing you to create high‑quality images from Excel files that look sharp on high‑resolution displays.
 
 ```c++
 #include <iostream>

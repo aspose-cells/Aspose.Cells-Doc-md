@@ -3,7 +3,7 @@ title: Custom Download Function for GridJs
 type: docs
 weight: 260
 url: /net/aspose-cells-gridjs/how-to-use-download-function/
-description: This article describes how to implement custom download function for GridJs.
+description: This article describes how to implement a custom download function for GridJs.
 keywords: GridJs,download,file download,custom download,export,save file
 aliases:
   - /net/aspose-cells-gridjs/download-function/
@@ -14,9 +14,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
  
-# How to implement custom download function for GridJs
+# How to Implement Custom Download Function for GridJs
 
-GridJs provides a flexible download mechanism that allows you to customize the file download behavior. You can set a custom download function to handle file downloads according to your requirements.
+GridJs provides a flexible download mechanism that allows you to customize the file‑download behavior. You can set a custom download function to handle file downloads according to your requirements.
 
 ## Set Custom Download Function
 
@@ -32,7 +32,7 @@ function customDownloadHandler(toFileName, outputType, saveMode) {
     console.log('Save Mode:', saveMode);
     
     // Implement your custom download logic here
-    // For example: upload to cloud storage, save to custom location, etc.
+    // For example: upload to cloud storage, save to a custom location, etc.
 }
 
 // Set the custom download function
@@ -52,18 +52,18 @@ The custom download function receives three parameters:
 - **Type**: String
 - **Description**: The output file format type
 - **Possible Values**:
-  - `Original` - Keep the original file format
-  - `XLSX` - Export as Excel format
-  - `PDF` - Export as PDF format
-  - `HTML` - Export as HTML format
+  - `Original` – Keep the original file format
+  - `XLSX` – Export as Excel format
+  - `PDF` – Export as PDF format
+  - `HTML` – Export as HTML format
 
 ### 3. saveMode
 - **Type**: String
-- **Description**: The save destination mode
+- **Description**: The save‑destination mode
 - **Possible Values**:
-  - `Device` - Download to local device (default)
-  - `GoogleDrive` - Save to Google Drive
-  - `Dropbox` - Save to Dropbox
+  - `Device` – Download to local device (default)
+  - `GoogleDrive` – Save to Google Drive
+  - `Dropbox` – Save to Dropbox
 
 ## Download Scenarios
 
@@ -73,7 +73,7 @@ GridJs supports multiple download scenarios based on different user actions:
 
 ```javascript
 function customDownloadHandler(toFileName, outputType, saveMode) {
-    switch(outputType) {
+    switch (outputType) {
         case 'Original':
             // Handle original format download
             downloadAsOriginal(toFileName);
@@ -123,7 +123,7 @@ xs.setFileDownloadCallFunction(customDownloadHandler);
 
 3. **Async Operations**: If your download logic involves asynchronous operations (like API calls), make sure to handle promises appropriately.
 
-4. **File Name Extension**: When the output type is not "Original", the file extension will be automatically adjusted to match the output type (e.g., `.xlsx`, `.pdf`, `.html`).
+4. **File Name Extension**: When the output type is not **Original**, the file extension will be automatically adjusted to match the output type (e.g., `.xlsx`, `.pdf`, `.html`).
 
 5. **Default Behavior**: If you don't set a custom download function, GridJs will use its default download behavior.
 
@@ -131,4 +131,4 @@ xs.setFileDownloadCallFunction(customDownloadHandler);
 
 - [Getting Started with GridJs](/net/aspose-cells-gridjs/getting-started/)
 - [How to Build Online Excel Editor](/net/aspose-cells-gridjs/how-to-build-online-excel-editor/)
-- [Server Side Configuration](/net/aspose-cells-gridjs/server-side-configuration/)
+- [Server‑Side Configuration](/net/aspose-cells-gridjs/server-side-configuration/)

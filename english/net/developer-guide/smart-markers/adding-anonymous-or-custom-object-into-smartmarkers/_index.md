@@ -1,5 +1,5 @@
 ---
-title: Adding Anonymous or Custom Object into SmartMarkers
+title: Adding an Anonymous or Custom Object into SmartMarkers
 type: docs
 weight: 10
 url: /net/adding-anonymous-or-custom-object-into-smartmarkers/
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This explains how to import anonymous or custom objects into SmartMarkers.
 
-Sometimes, you need to include custom objects as a data source to the SmartMarkers. Aspose.Cells makes it possible to use custom objects as the data source.
+Sometimes, you need to include custom objects as a data source for SmartMarkers. Aspose.Cells makes it possible to use custom objects as a data source.
 
 {{% /alert %}} 
 

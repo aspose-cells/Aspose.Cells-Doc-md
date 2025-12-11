@@ -1,32 +1,32 @@
----
-title: Insert a Linked Picture from Web Address with C++
-linktitle: Insert a Linked Picture from Web Address
-type: docs
-weight: 450
-url: /cpp/insert-a-linked-picture-from-web-address/
-description: Learn how to insert a linked picture from a web address into a worksheet using Aspose.Cells for C++.
+---  
+title: Insert a Linked Picture from Web Address with C++  
+linktitle: Insert a Linked Picture from Web Address  
+type: docs  
+weight: 450  
+url: /cpp/insert-a-linked-picture-from-web-address/  
+description: Learn how to insert a linked picture from a web address into a worksheet using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL and the picture will be downloaded every time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded into the Excel document, but points to a web resource.
+Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL and the picture will be downloaded every time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded into the Excel document, but points to a web resource.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Using Microsoft Excel**
+## **Using Microsoft Excel**  
 
-In Microsoft Excel (for example 2007):
+In Microsoft Excel (for example, 2007):  
 
-1. Click the **Insert** menu and select **Picture**.
-1. Specify the web address for the picture in the Insert Picture dialog.
+1. Click the **Insert** menu and select **Picture**.  
+1. Specify the web address for the picture in the Insert Picture dialog.  
 
-## **Using Aspose.Cells for C++**
+## **Using Aspose.Cells for C++**  
 
-Aspose.Cells for C++ supports adding a linked image using the [**ShapeCollection::AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, System::String sourceFullName)**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addlinkedpicture/) method. The method returns a [**Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) object.
+Aspose.Cells for C++ supports adding a linked image using the [**ShapeCollection::AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, System::String sourceFullName)**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addlinkedpicture/) method. The method returns a [**Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) object.  
 
-The following example shows how to add a linked picture from a web address to a worksheet.
+The following example shows how to add a linked picture from a web address to a worksheet.  
 
 ```cpp
 #include <iostream>
@@ -48,7 +48,7 @@ int main()
     // Instantiate a new Workbook
     Workbook workbook;
 
-    // Insert a linked picture (from Web Address) to B2 Cell
+    // Insert a linked picture (from Web Address) to the B2 cell
     U16String imageUrl(u"http://www.aspose.com/Images/aspose-logo.jpg");
     Picture pic = workbook.GetWorksheets().Get(0).GetShapes().AddLinkedPicture(1, 1, 100, 100, imageUrl);
 
@@ -64,5 +64,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

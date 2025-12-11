@@ -8,7 +8,7 @@ description: Learn how to work with the shadow effect of shapes or charts using 
 ---
 
 ## **Possible Usage Scenarios**  
-Aspose.Cells for JavaScript via C++ provides the [Shape.shadowEffect](https://reference.aspose.com/cells/javascript-cpp/shape/#shadowEffect--) property along with the [ShadowEffect](https://reference.aspose.com/cells/javascript-cpp/shadoweffect) class to work with the shadow effect of shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/javascript-cpp/shadoweffect) class contains the following properties which can be set to achieve different results as per application requirements.  
+Aspose.Cells for JavaScript via C++ provides the [Shape.shadowEffect](https://reference.aspose.com/cells/javascript-cpp/shape/#shadowEffect--) property along with the [ShadowEffect](https://reference.aspose.com/cells/javascript-cpp/shadoweffect) class to work with the shadow effect of **a** shape or chart. The [ShadowEffect](https://reference.aspose.com/cells/javascript-cpp/shadoweffect) class contains the following properties which can be set to achieve different results as per application requirements.  
 
 - [ShadowEffect.angle](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#angle--)  
 - [ShadowEffect.blur](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#blur--)  
@@ -19,7 +19,7 @@ Aspose.Cells for JavaScript via C++ provides the [Shape.shadowEffect](https://re
 - [ShadowEffect.transparency](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#transparency--)  
 
 ## **Working with the Shadow Effect of Shape or Chart**  
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of the [Shape.shadowEffect](https://reference.aspose.com/cells/javascript-cpp/shape/#shadowEffect--) property and then saves the workbook in the [output excel file](5115411.xlsx).  
+The following sample code loads the **source Excel file** ([5115425.xlsx](5115425.xlsx)), accesses the first shape in the first worksheet, sets the sub‑properties of the [Shape.shadowEffect](https://reference.aspose.com/cells/javascript-cpp/shape/#shadowEffect--) property, and then saves the workbook to the **output Excel file** ([5115411.xlsx](5115411.xlsx)).  
 
 ```html
 <!DOCTYPE html>

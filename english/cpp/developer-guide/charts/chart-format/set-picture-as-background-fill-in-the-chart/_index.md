@@ -1,24 +1,24 @@
----
-title: Set Picture as Background Fill in the Chart with C++
-linktitle: Set Picture as Background Fill in the Chart
-description: Learn how to set a picture as the background fill in a chart using Aspose.Cells for C++. Our guide will show you how to import and position the picture, adjust its size and color, and apply formatting options to enhance your chart's appearance.
-keywords: Aspose.Cells for C++, charting, background fill, picture, import, positioning, size, color, formatting.
-type: docs
-weight: 30
-url: /cpp/set-picture-as-background-fill-in-the-chart/
+---  
+title: Set Picture as Background Fill in the Chart with C++  
+linktitle: Set Picture as Background Fill in the Chart  
+description: Learn how to set a picture as the background fill in a chart using Aspose.Cells for C++. Our guide will show you how to import and position the picture, adjust its size and color, and apply formatting options to enhance your chart's appearance.  
+keywords: Aspose.Cells for C++, charting, background fill, picture, import, positioning, size, color, formatting.  
+type: docs  
+weight: 30  
+url: /cpp/set-picture-as-background-fill-in-the-chart/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells allows you to set a gradient, texture, pattern, or picture as fill effects for different objects, such as the plot area, chart area, or legend box of a chart. This document shows how to add an image to a chart's background.
+Aspose.Cells allows you to set a gradient, texture, pattern, or picture as fill effects for different objects, such as the plot area, chart area, or legend box of a chart. This document shows how to add an image to a chart's background.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-To achieve this, Aspose.Cells provides the [**Chart.GetImageData()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/getimagedata/) property. The following code sample demonstrates the use of [**Chart.GetImageData()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/fillformat/getimagedata/) property to set a picture as a background fill in the chart.
+To achieve this, Aspose.Cells provides the **Chart.GetImageData** property. The following code sample demonstrates how to use the **Chart.GetImageData** property to set a picture as a background fill in a chart.  
 
-## C++ code to set picture as background fill in the chart
+## C++ code to set picture as background fill in the chart  
 
 ```cpp
 #include <iostream>
@@ -49,7 +49,7 @@ int main() {
     cells.Get(u"A6").PutValue(u"Italy");
     cells.Get(u"A7").PutValue(u"Spain");
     cells.Get(u"A8").PutValue(u"Portugal");
-    cells.Get(u"B1").PutValue(u"Sale");
+    cells.Get(u"B1").PutValue(u"Sales");
     cells.Get(u"B2").PutValue(70000);
     cells.Get(u"B3").PutValue(55000);
     cells.Get(u"B4").PutValue(30000);
@@ -68,7 +68,7 @@ int main() {
     std::ifstream fs((srcDir + u"aspose.png").ToUtf8(), std::ios::binary);
     std::vector<uint8_t> data((std::istreambuf_iterator<char>(fs)), std::istreambuf_iterator<char>());
     Aspose::Cells::Vector<uint8_t> asposeData(data.data(), data.size());
-    
+
     chart.GetPlotArea().GetArea().GetFillFormat().SetImageData(asposeData);
     chart.GetPlotArea().GetBorder().SetIsVisible(false);
 

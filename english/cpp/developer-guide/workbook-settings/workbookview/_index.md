@@ -26,8 +26,8 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 This example shows how to:
 
 1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Hide horizontal and vertical scrollbars of Workbook View.
+2. Add data to cells in the first worksheet.
+3. Hide horizontal and vertical scrollbars of Workbook View.
 
 ```cpp
 #include <iostream>

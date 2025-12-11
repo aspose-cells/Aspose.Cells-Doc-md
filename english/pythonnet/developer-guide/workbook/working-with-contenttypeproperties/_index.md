@@ -4,10 +4,10 @@ type: docs
 weight: 150
 url: /python-net/working-with-contenttypeproperties/
 ai_search_scope: cells_pythonnet
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_endpoint: "https://docsearch.api.aspose.com/ask"
 ---
 
-Aspose.Cells for Python via .NET provides [**Workbook.content_type_properties.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/contenttypepropertycollection/add/#str-str) method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the [**ContentTypeProperty.is_nillable**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/contenttypeproperty/is_nillable) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.
+Aspose.Cells for Python via .NET provides [**Workbook.content_type_properties.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/contenttypepropertycollection/add/#str-str) method to add custom ContentTypeProperties to an **Excel** file. You may also make the property optional by setting the [**ContentTypeProperty.is_nillable**](https://reference.aspose.com/cells/python-net/aspose.cells.properties/contenttypeproperty/is_nillable) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an Excel file. The following image shows both properties that were added by the sample code.
 
 ![todo:image_alt_text](working-with-contenttypeproperties_1.jpg)
 

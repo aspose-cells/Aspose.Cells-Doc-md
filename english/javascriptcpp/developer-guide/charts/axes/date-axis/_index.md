@@ -1,25 +1,24 @@
----
-title: Date Axis with JavaScript via C++
-description: Learn how to manage the date axis in Aspose.Cells for JavaScript via C++. Our guide will help you understand how to work with various date formats, time scales, and tick label frequencies.
-keywords: Aspose.Cells for JavaScript via C++, date axis, manage, date formats, time scales, tick label frequencies.
-type: docs
-weight: 200
-url: /javascript-cpp/date-axis/
----
+---  
+title: Date Axis with JavaScript via C++  
+description: Learn how to manage the date axis in Aspose.Cells for JavaScript via C++. Our guide will help you understand how to work with various date formats, time scales, and tick label frequencies.  
+keywords: Aspose.Cells for JavaScript via C++, date axis, manage, date formats, time scales, tick label frequencies.  
+type: docs  
+weight: 200  
+url: /javascript-cpp/date-axis/  
+---  
 
-## **Possible Usage Scenarios**
-When you create a chart from worksheet data that uses dates, and the dates are plotted along the horizontal (category) axis in the chart, Aspose.Cells for JavaScript via C++ automatically changes the category axis to a date (time-scale) axis.
-A date axis displays dates in chronological order at specific intervals or base units, such as the number of days, months, or years, even if the dates on the worksheet are not in sequential order or in the same base units.
-By default, Aspose.Cells determines the base units for the date axis based on the smallest difference between any two dates in the worksheet data. For example, if you have data for stock prices where the smallest difference between dates is seven days, Excel sets the base unit to days, but you can change the base unit to months or years if you want to see the performance of the stock over a longer period of time.
+## **Possible Usage Scenarios**  
+When you create a chart from worksheet data that uses dates and the dates are plotted along the horizontal (category) axis in the chart, Aspose.Cells for JavaScript via C++ automatically changes the category axis to a date (time‑scale) axis.  
+A date axis displays dates in chronological order at specific intervals or base units, such as the number of days, months, or years, even if the dates on the worksheet are not in sequential order or in the same base units.  
+By default, Aspose.Cells determines the base units for the date axis based on the smallest difference between any two dates in the worksheet data. For example, if you have data for stock prices where the smallest difference between dates is seven days, Excel sets the base unit to days, but you can change the base unit to months or years if you want to see the performance of the stock over a longer period of time.  
 
-## **Handle Date Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. 
-Then we add a chart and set the type of the [**Axis**](https://reference.aspose.com/cells/javascript-cpp/axis/) 
-to [**Axis.categoryType**](https://reference.aspose.com/cells/javascript-cpp/axis/#categoryType--) and then set the base units to Days.
+## **Handle Date Axis Like Microsoft Excel**  
+Please see the following sample code that creates a new Excel file and puts the chart values in the first worksheet.  
+Then we add a chart and set the type of the axis to **Axis.categoryType** and set the base unit to days.  
 
-![todo:image_alt_text](excel.png)
+![todo:image_alt_text](excel.png)  
 
-## **Sample Code**
+## **Sample Code**  
 ```html
 <!DOCTYPE html>
 <html>
@@ -59,7 +58,7 @@ to [**Axis.categoryType**](https://reference.aspose.com/cells/javascript-cpp/axi
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Get the first worksheet
@@ -75,7 +74,7 @@ to [**Axis.categoryType**](https://reference.aspose.com/cells/javascript-cpp/axi
             const style = cells.style;
             style.number = 14;
 
-            // Put values to cells for creating chart
+            // Put values to cells for creating the chart
             const cellA2 = cells.get("A2");
             cellA2.style = style;
             cellA2.value = new Date(Date.UTC(2022, 5, 26));
@@ -98,24 +97,24 @@ to [**Axis.categoryType**](https://reference.aspose.com/cells/javascript-cpp/axi
             // Access the instance of the newly added chart
             const chart = worksheet.charts.get(chartIndex);
 
-            // Add SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
+            // Add SeriesCollection (chart data source) to the chart for cells A1:B4
             // Converted setter to property assignment (range and boolean passed as array)
             chart.chartDataRange = ["A1:B4", true];
 
-            // Set the Axis type to Date time
+            // Set the Axis type to DateTime
             chart.categoryAxis.categoryType = CategoryType.TimeScale;
             // Set the base unit for CategoryAxis to days
             chart.categoryAxis.baseUnitScale = TimeUnit.Days;
             // Set the direction for the axis text to be vertical
             chart.categoryAxis.tickLabels.directionType = ChartTextDirectionType.Vertical;
-            // Fill the PlotArea area with nothing 
+            // Fill the PlotArea with no fill
             chart.plotArea.area.fillFormat.fillType = FillType.None;
-            // Set max value of Y axis.
+            // Set max value of Y axis
             chart.valueAxis.maxValue = 70;
-            // Set major unit.
+            // Set major unit
             chart.valueAxis.majorUnit = 10;
 
-            // Saving the modified Excel file and provide download link
+            // Save the modified Excel file and provide a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

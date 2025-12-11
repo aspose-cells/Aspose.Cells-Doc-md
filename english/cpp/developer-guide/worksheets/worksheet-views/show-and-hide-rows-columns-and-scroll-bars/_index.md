@@ -23,8 +23,8 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Developers can show any hidden row or column by calling the [**UnhideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderow/) and [**UnhideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take two parameters:
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.  
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.
 
 ```cpp
 #include <iostream>
@@ -41,10 +41,10 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xls";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"output.xls";
 
     // Create workbook
@@ -70,13 +70,13 @@ int main()
 
 {{% alert color="primary" %}}
 
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: `worksheet->GetCells()->UnhideColumn(5, -1)`.
+While making a hidden column visible, if you need to restore it to its previously assigned width or to its original width, you should unhide the column with a negative width. For example: `worksheet.GetCells().UnhideColumn(5, -1)`.
 
 {{% /alert %}}
 
 ### **Hide Rows and Columns**
 
-Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hiderow/) and [**HideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hiderow/) and [**HideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take the row or column index as a parameter to hide the specific row or column.
 
 ```cpp
 #include <iostream>
@@ -95,10 +95,10 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xls";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"output.out.xls";
 
     // Create workbook
@@ -124,7 +124,7 @@ int main()
 
 {{% alert color="primary" %}}
 
-It is also possible to hide a row or column by setting the row height or column width to 0 respectively.
+It is also possible to hide a row or column by setting the row height or column width to 0, respectively.
 
 {{% /alert %}}
 
@@ -132,7 +132,7 @@ It is also possible to hide a row or column by setting the row height or column 
 
 Developers can hide multiple rows or columns at once by calling the [**HideRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hiderows/) and [**HideColumns**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hidecolumns/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take the starting row or column index and the number of rows or columns that should be hidden as parameters.
 
-```c++
+```cpp
 #include <iostream>
 #include <memory>
 #include "Aspose.Cells.h"
@@ -158,14 +158,14 @@ int main()
     // Access the first worksheet in the Excel file
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Hide 3, 4, and 5 rows in the worksheet
+    // Hide rows 3, 4, and 5 in the worksheet
     worksheet.GetCells().HideRows(2, 3);
 
-    // Hide 2 and 3 columns in the worksheet
+    // Hide columns 2 and 3 in the worksheet
     worksheet.GetCells().HideColumns(1, 2);
 
     // Save the modified Excel file
-    workbook.Save(outDir + u"outputxls");
+    workbook.Save(outDir + u"output.xls");
 
     std::cout << "Rows and columns hidden successfully!" << std::endl;
 
@@ -175,30 +175,30 @@ int main()
 
 ## **Show and Hide Scroll Bars**
 
-Scroll bars are used to navigate the contents of any file. Normally, there are two kinds of scroll bars:
+Scroll bars are used to navigate the contents of a worksheet. Normally, there are two kinds of scroll bars:
 
-- Vertical scroll bars
+- Vertical scroll bars  
 - Horizontal scroll bars
 
-Microsoft Excel also provides horizontal and vertical scroll bars so that users can scroll through worksheet contents. Using Aspose.Cells, developers can control the visibility of both types of scroll bars in Excel files.
+Microsoft Excel provides both horizontal and vertical scroll bars so that users can scroll through worksheet contents. Using Aspose.Cells, developers can control the visibility of both types of scroll bars in Excel files.
 
 ### **Controlling the Visibility of Scroll Bars**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) properties. [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) are Boolean properties, which means that these properties can only store **true** or **false** values.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class's [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) and [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) properties. Both are Boolean properties, which means they can store only **true** or **false** values.
 
 #### **Making Scroll Bars Visible**
 
-Make scroll bars visible by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) or [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) property to **true**.
+Make scroll bars visible by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class's [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) or [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) property to **true**.
 
 #### **Hiding Scroll Bars**
 
-Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class' [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) or [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) property to **false**.
+Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class's [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/isvscrollbarvisible/) or [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/ishscrollbarvisible/) property to **false**.
 
 **Sample Code**
 
-Below is a complete code that opens an Excel file, `book1.xls`, hides both scroll bars, and then saves the modified file as `output.xls`.
+Below is a complete code example that opens an Excel file (`book1.xls`), hides both scroll bars, and then saves the modified file as `output.xls`.
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include "Aspose.Cells.h"
@@ -223,10 +223,10 @@ int main()
     // Create workbook from the input file
     Workbook workbook(inputFilePath);
 
-    // Hide the vertical scroll bar of the Excel file
+    // Hide the vertical scroll bar of the workbook
     workbook.GetSettings().SetIsVScrollBarVisible(false);
 
-    // Hide the horizontal scroll bar of the Excel file
+    // Hide the horizontal scroll bar of the workbook
     workbook.GetSettings().SetIsHScrollBarVisible(false);
 
     // Save the modified Excel file

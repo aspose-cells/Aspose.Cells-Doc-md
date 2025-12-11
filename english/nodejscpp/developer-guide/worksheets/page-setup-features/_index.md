@@ -10,10 +10,8 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-
 ## **Introduction**
-With Aspose.Cells for Node.js via C++, you can manipulate various page setup features of an Excel workbook. These features include setting page size, orientation, margins, and more. Proper configuration of these features allows for a better printing and viewing experience.
+With Aspose.Cells for Node.js via C++, you can manipulate various page‑setup features of an Excel workbook. These features include setting page size, orientation, margins, and more. Proper configuration of these features allows for a better printing and viewing experience.
 
 ## **Setting Page Size and Orientation**
 You can specify the page size and orientation of a worksheet by using the `PageSetup` class. It provides various properties to manage page dimensions and layout.
@@ -39,7 +37,7 @@ workbook.save("PageSetupExample.xlsx");
 ```
 
 ## **Setting Margins**
-You can also set the margins for the page using the same `PageSetup` class. The margins can be adjusted for left, right, top, and bottom sides.
+You can also set the margins of the page using the same `PageSetup` class. The margins can be adjusted for the left, right, top, and bottom sides.
 
 ### **Example Code**
 Here’s how you can set the margins of a worksheet.
@@ -56,7 +54,7 @@ workbook.save("PageMarginsExample.xlsx");
 ```
 
 ## **Conclusion**
-In this document, you have learned how to manipulate page setup features in Excel using Aspose.Cells for Node.js via C++. By effectively using the `PageSetup` class, you can control how your worksheets are printed and displayed, enhancing the overall presentation of information.
+In this document, you have learned how to manipulate page‑setup features in Excel using Aspose.Cells for Node.js via C++. By effectively using the `PageSetup` class, you can control how your worksheets are printed and displayed, enhancing the overall presentation of information.
 
 ---
 {{< app/cells/assistant language="nodejs-cpp" >}}

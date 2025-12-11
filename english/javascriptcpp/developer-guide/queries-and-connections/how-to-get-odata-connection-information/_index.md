@@ -13,7 +13,7 @@ There might be cases where developers need to extract OData information from the
 
 The following code snippet demonstrates the use of these classes to retrieve the OData information.
 
-The Source file used in the following code snippet is attached for your reference.
+The source file used in the following code snippet is attached for your reference.
 
 [Source File](96928098.xlsx)
 

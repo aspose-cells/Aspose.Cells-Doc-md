@@ -8,11 +8,11 @@ url: /javascript-cpp/change-slicer-properties/
 
 ## **Possible Usage Scenarios**
 
-There might be situations where you may want to change the properties of the Slicer such as placement or row height. Aspose.Cells for JavaScript via C++ provides you with the option to update these properties.
+There might be situations where you want to change the properties of the slicer, such as its placement or row height. Aspose.Cells for JavaScript via C++ provides you with the option to update these properties.
 
 ## **Change Slicer Properties**
 
-Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column and changes its properties like row height, width, is printable, title, etc. It saves the workbook as [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column and changes its properties such as row height, width, printable status, title, etc. It saves the workbook as [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
 
 ## **Sample Code**
 
@@ -61,10 +61,10 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
             // Instantiating a Workbook object by opening the uploaded Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const worksheet = workbook.worksheets.get(0);
 
-            // Access first table inside the worksheet.
+            // Access the first table inside the worksheet.
             const table = worksheet.listObjects.get(0);
 
             // Add slicer

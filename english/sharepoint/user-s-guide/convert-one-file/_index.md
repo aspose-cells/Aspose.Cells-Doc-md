@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-One of the most common tasks that users use Aspose.Cells for, is converting individual files. 
+One of the most common tasks that users use Aspose.Cells for is converting individual files. 
 
 {{% /alert %}} 
 ### **Converting Individual Files**
@@ -21,8 +21,6 @@ To convert a particular document in a document library:
 
 ![todo:image_alt_text](convert-one-file_1.png)
 
-
-
 The conversion settings screen is displayed. Here, you can fine-tune the conversion:
 
 1. Select the destination file format from the **Convert to** list.
@@ -30,7 +28,7 @@ The conversion settings screen is displayed. Here, you can fine-tune the convers
    By default, Aspose.Cells for SharePoint pre-populates this field with the name of the source file. 
    The extension is added automatically according to the selected format.
 1. Start the conversion by clicking **Convert**.
-   (Or go back to the library, dismissing your settings, by clicking **Cancel**.)
+   (Or go back to the library, discarding your settings, by clicking **Cancel**.)
 
 **Conversion Settings screen for one file conversion** 
 

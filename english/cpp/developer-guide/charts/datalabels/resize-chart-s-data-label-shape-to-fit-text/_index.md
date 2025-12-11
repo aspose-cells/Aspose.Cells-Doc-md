@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-Excel application provides the **Resize shape to fit text** option for Chart's DataLabels in order to increase the size of the shape so that the text fits inside of it.  
+Excel application provides the **Resize shape to fit text** option for Chart's Data Labels in order to increase the size of the shape so that the text fits inside of it.  
 
 {{% /alert %}}  
 
 ## **How to Resize Chart's Data Label Shape To Fit Text in Microsoft Excel**  
 
-This option can be accessed on the Excel interface by selecting any of the data labels on the chart. Right-click and select the **Format DataLabels** menu. On **Size & Properties** tab, expand **Alignment** to reveal the related properties including the **Resize shape to fix text** option.  
+This option can be accessed on the Excel interface by selecting any of the data labels on the chart. Right-click and select the **Format Data Labels** menu. On **Size & Properties** tab, expand **Alignment** to reveal the related properties including the **Resize shape to fit text** option.  
 
 ## **How to Resize Chart's Data Label Shape To Fit Text Using Aspose.Cells for C++**  
 
@@ -36,7 +36,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"source.xlsx";
 
     // Create an instance of Workbook containing the Chart
@@ -73,5 +73,5 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```  
-  
+
 {{< app/cells/assistant language="cpp" >}}

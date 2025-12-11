@@ -19,23 +19,18 @@ options.HorizontalResolution = 200;
 
 options.VerticalResolution = 200;
 
-//Specify the image type
+// Specify the image type
 options.ImageType = ImageType.Tiff;
 
-//Sheet2Image By Page conversion
+// Sheet to Image by Page conversion
 
 SheetRender sr = new SheetRender(sheet, options);
 
 for (int j = 0; j < sr.PageCount; j++)
-
 {
-
-	Bitmap pic = sr.ToImage(j);
-
-	pic.Save(sheet.Name + " Page" + (j + 1) + ".tiff");
-
+    Bitmap pic = sr.ToImage(j);
+    pic.Save(sheet.Name + " Page" + (j + 1) + ".tiff");
 }
-
 
 {{< /highlight >}}
 ## **Download Sample Code**

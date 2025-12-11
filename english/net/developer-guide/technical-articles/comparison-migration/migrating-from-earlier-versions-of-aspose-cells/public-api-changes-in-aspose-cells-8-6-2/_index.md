@@ -13,8 +13,8 @@ This document describes the changes to the Aspose.Cells API from version 8.6.1 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Support for Call Back with Smart Markers**
-This release of Aspose.Cells for .NET API has exposed the WorkbookDesigner.CallBack property and ISmartMarkerCallBack interface that together allows to [get the notifications about the cell reference and/or smart marker being processed](/cells/net/getting-notifications-while-merging-data-with-smart-markers/). Following piece of code demonstrates the usage of ISmartMarkerCallBack interface to define a new class that handles the call back for WorkbookDesigner.Process method.
+### **Support for Callback with Smart Markers**
+This release of Aspose.Cells for .NET API has exposed the `WorkbookDesigner.CallBack` property and `ISmartMarkerCallBack` interface that together allow you to receive notifications about the cell reference and/or smart marker being processed. The following piece of code demonstrates the usage of the `ISmartMarkerCallBack` interface to define a new class that handles the callback for the `WorkbookDesigner.Process` method.
 
 **C#**
 
@@ -50,7 +50,7 @@ This release of Aspose.Cells for .NET API has exposed the WorkbookDesigner.CallB
 
 
 
-Rest of the process includes loading the designer spreadsheet containing the Smart Markers with WorkbookDesigner and process it by setting the data source. However, in order to enable the notifications, it is necessary to set the WorkbookDesigner.CallBack property before calling the WorkbookDesigner.Process method as demonstrated below.
+The rest of the process includes loading the designer spreadsheet containing the Smart Markers with `WorkbookDesigner` and processing it by setting the data source. However, in order to enable the notifications, it is necessary to set the `WorkbookDesigner.CallBack` property before calling the `WorkbookDesigner.Process` method as demonstrated below.
 
 **C#**
 
@@ -80,9 +80,9 @@ designer.Process(false);
 
 
 ### **Added Chart.ToPdf Method**
-Aspose.Cells for .NET 8.6.2 has exposed the Chart.ToPdf method that can be used to [directly render the Chart shape to PDF format](/cells/net/convert-an-excel-chart-to-image/). The said method currently accepts a parameter of of type string as file path location to store the resultant file on disk.
+Aspose.Cells for .NET 8.6.2 has exposed the `Chart.ToPdf` method that can be used to directly render the Chart shape to PDF format. The method currently accepts a parameter of type `string` as a file‑path location to store the resultant file on disk.
 
-Following is the simple usage scenario.
+The following is a simple usage scenario.
 
 **C#**
 
@@ -108,9 +108,9 @@ chart.ToPdf(outputFilePath);
 
 
 ### **Added Workbook.RemoveUnusedStyles Method**
-Aspose.Cells for .NET 8.6.2 has exposed the Workbook.RemoveUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](/cells/net/remove-unused-styles-inside-the-workbook/).
+Aspose.Cells for .NET 8.6.2 has exposed the `Workbook.RemoveUnusedStyles` method that can be used to remove all unused `Style` objects from the pool of styles.
 
-Following is the simple usage scenario.
+The following is a simple usage scenario.
 
 **C#**
 
@@ -128,9 +128,9 @@ workbook.RemoveUnusedStyles();
 
 
 ### **Added Cells.Style Property**
-The Cells.Style property can be used to access the Style for the Worksheet representing the default style.
+The `Cells.Style` property can be used to access the `Style` of the worksheet representing the default style.
 
-Following is the simple usage scenario.
+The following is a simple usage scenario.
 
 **C#**
 
@@ -150,6 +150,6 @@ Style style = book.Worksheets[0].Cells.Style;
 ### **Events Added for GridWeb**
 Aspose.Cells.GridWeb for .NET 8.6.2 has exposed the following two new events.
 
-1. AjaxCallFinished: Fires when the AJAX update of the control finished. (EnableAJAX shall be set to true).
-1. CellModifiedOnAjax: Fires when the cell is modified in AJAX call.
+1. **AjaxCallFinished**: Fires when the AJAX update of the control has finished. (EnableAJAX shall be set to true).
+2. **CellModifiedOnAjax**: Fires when the cell is modified in an AJAX call.
 {{< app/cells/assistant language="csharp" >}}

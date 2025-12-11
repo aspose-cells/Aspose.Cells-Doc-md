@@ -14,34 +14,24 @@ You can automatically create subtotals for any repeating values in a spreadsheet
 
 {{< highlight java >}}
 
- //Instantiate a new workbook
-
+//Instantiate a new workbook
 Workbook workbook = new Workbook("book1.xls");
 
 //Get the Cells collection in the first worksheet
-
 Cells cells = workbook.getWorksheets().get(0).getCells();
 
-//Create a cellarea i.e.., B3:C19
-
+//Create a CellArea, i.e., B3:C19
 CellArea ca = new CellArea();
-
 ca.StartRow = 2;
-
-ca.StartColumn =1;
-
+ca.StartColumn = 1;
 ca.EndRow = 18;
-
 ca.EndColumn = 2;
 
-//Apply subtotal, the consolidation function is Sum and it will applied to
-
+//Apply subtotal, the consolidation function is Sum and it will be applied to
 //Second column (C) in the list
-
 cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
-//Save the excel file
-
+//Save the Excel file
 workbook.save(dataDir + "AsposeTotal.xls");
 
 {{< /highlight >}}
@@ -51,8 +41,6 @@ workbook.save(dataDir + "AsposeTotal.xls");
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/calculatesubtotals/AsposeCalculateSubTotals.java)
 
 {{% alert color="primary" %}} 
-
 For more details, visit [Creating Subtotals](/cells/java/creating-subtotals).
-
 {{% /alert %}}
 {{< app/cells/assistant language="java" >}}

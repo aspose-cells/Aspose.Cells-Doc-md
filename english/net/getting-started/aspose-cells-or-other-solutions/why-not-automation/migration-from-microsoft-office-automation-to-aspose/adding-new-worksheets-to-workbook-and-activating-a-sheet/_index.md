@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-When working with a template file, sometimes, there's a need to add extra worksheets into the workbook to collect data. The new cells will be filled with data at specified positions and locations in each worksheet.
+When working with a template file, sometimes there's a need to add extra worksheets into the workbook to collect data. The new cells will be filled with data at specified positions and locations in each worksheet.
 
 Similarly, you may need a specific worksheet to be active and viewed first when the file is opened in Microsoft Excel. An "active sheet" is the sheet that you're working on in a workbook. The name on the tab of the active sheet is bold by default.
 
@@ -20,11 +20,12 @@ Adding worksheets and setting which sheet is active are common and simple tasks 
 For the purposes of this migration tip:
 
 1. Add new worksheets to an existing Microsoft Excel file.
-1. Fill data into the cells of each new worksheet.
-1. Activate a sheet in the workbook.
-1. Save as Microsoft Excel file.
+2. Fill data into the cells of each new worksheet.
+3. Activate a sheet in the workbook.
+4. Save as Microsoft Excel file.
 
-Below, are parallel code snippets for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB), that show how to achieve these tasks.
+Below are parallel code snippets for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB) that show how to achieve these tasks.
+
 ### **VSTO**
 **C#**
 
@@ -46,11 +47,11 @@ using System.Reflection;
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Specify the template excel file path.
+//Specify the template Excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//Open the excel file.
+//Open the Excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
@@ -80,7 +81,7 @@ for (int i = 1; i < 6; i++)
 
 //Add a worksheet to the workbook.
 
-newWorksheet = Excel.Worksheet)excelApp.Worksheets.Add(Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+newWorksheet = (Excel.Worksheet)excelApp.Worksheets.Add(Missing.Value, Missing.Value, Missing.Value, Missing.Value);
 
 //Name the sheet.
 
@@ -100,7 +101,7 @@ cells.set_Item(i, i,"New_Sheet" + i.ToString());
 
 ((Excel.Worksheet)excelApp.ActiveWorkbook.Sheets[1]).Activate();
 
-//Save As the excel file.
+//Save As the Excel file.
 
 excelApp.ActiveWorkbook.SaveCopyAs(@"d:\test\out_My_Book1.xls");
 
@@ -108,13 +109,11 @@ excelApp.ActiveWorkbook.SaveCopyAs(@"d:\test\out_My_Book1.xls");
 
 excelApp.Quit();
 
-
-
 {{< /highlight >}}
 
 **VB**
 
-{{< highlight csharp >}}
+{{< highlight vbnet >}}
 
  .......
 
@@ -132,11 +131,11 @@ Imports System.Reflection
 
 Dim excelApp As Excel.Application = New Excel.ApplicationClass()
 
-'Specify the template excel file path.
+'Specify the template Excel file path.
 
 Dim myPath As String = "d:\test\My_Book1.xls"
 
-'Open the excel file.
+'Open the Excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value)
 
@@ -174,7 +173,7 @@ Next
 
 CType(excelApp.ActiveWorkbook.Sheets(1), Excel.Worksheet).Activate()
 
-'Save As the excel file.
+'Save As the Excel file.
 
 excelApp.ActiveWorkbook.SaveCopyAs("d:\test\out_My_Book1.xls")
 
@@ -182,9 +181,8 @@ excelApp.ActiveWorkbook.SaveCopyAs("d:\test\out_My_Book1.xls")
 
 excelApp.Quit()
 
-
-
 {{< /highlight >}}
+
 ### **Aspose.Cells for .NET**
 **C#**
 
@@ -196,7 +194,7 @@ using Aspose.Cells;
 
 .......
 
-//Instantiate an instance of license and set the license file
+//Instantiate an instance of License and set the license file
 
 //through its path
 
@@ -204,13 +202,13 @@ Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Cells.lic");
 
-//Specify the template excel file path.
+//Specify the template Excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
 //Instantiate a new Workbook.
 
-//Open the excel file.
+//Open the Excel file.
 
 Workbook workbook = new Workbook(myPath);
 
@@ -248,17 +246,15 @@ cells[i, i].PutValue("New_Sheet" + (i+1).ToString());
 
 workbook.Worksheets.ActiveSheetIndex = 0;
 
-//Save As the excel file.
+//Save As the Excel file.
 
 workbook.Save(@"d:\test\out_My_Book1.xls");
-
-
 
 {{< /highlight >}}
 
 **VB**
 
-{{< highlight csharp >}}
+{{< highlight vbnet >}}
 
  .......
 
@@ -266,7 +262,7 @@ Imports Aspose.Cells
 
 .......
 
-'Instantiate an instance of license and set the license file
+'Instantiate an instance of License and set the license file
 
 'through its path
 
@@ -274,13 +270,13 @@ Dim license As Aspose.Cells.License = New Aspose.Cells.License
 
 license.SetLicense("Aspose.Cells.lic")
 
-'Specify the template excel file path.
+'Specify the template Excel file path.
 
 Dim myPath As String ="d:\test\My_Book1.xls"
 
 'Instantiate a new Workbook.
 
-'Open the excel file.
+'Open the Excel file.
 
 Dim workbook As Workbook = New Workbook(myPath)
 
@@ -318,11 +314,10 @@ Next
 
 workbook.Worksheets.ActiveSheetIndex = 0
 
-'Save As the excel file.
+'Save As the Excel file.
 
 workbook.Save("c:\test\out_My_Book1.xls")
 
-
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="csharp" >}}

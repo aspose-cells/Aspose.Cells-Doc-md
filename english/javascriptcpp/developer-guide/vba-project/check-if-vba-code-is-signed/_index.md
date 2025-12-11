@@ -1,21 +1,21 @@
----
-title: Check if VBA Code is Signed with JavaScript via C++
-linktitle: Check if VBA Code is Signed
-type: docs
-weight: 100
-url: /javascript-cpp/check-if-vba-code-is-signed/
-description: Learn how to check if the VBA code project is signed using Aspose.Cells for JavaScript via C++. 
----
+---  
+title: Check if VBA Code is Signed with JavaScript via C++  
+linktitle: Check if VBA Code is Signed  
+type: docs  
+weight: 100  
+url: /javascript-cpp/check-if-vba-code-is-signed/  
+description: Learn how to check if the VBA code project is signed using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells allows the user to check if the VBA code project is signed or not. Please use the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isSigned--) property to check if the VBA code project is signed or not.
+Aspose.Cells allows the user to check if the VBA code project is signed. Please use the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isSigned--) property to determine whether the VBA code project is signed.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following code explains how to check if the VBA code is signed or not using the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isSigned--) property. You can use any of your excel files to test this code. For testing purposes, you can use [this excel file used in the code](5115032.xlsm).
+The following code explains how to check if the VBA code is signed using the [**VbaProject.isSigned()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isSigned--) property. You can use any of your Excel files to test this code. For testing purposes, you can use [this Excel file used in the code](5115032.xlsm).  
 
-## **Check if VBA Code is Signed in JavaScript**
+## **Check if VBA Code is Signed in JavaScript**  
 
 ```html
 <!DOCTYPE html>
@@ -68,14 +68,14 @@ The following code explains how to check if the VBA code is signed or not using 
         });
     </script>
 </html>
-```
+```  
 
-## Console Output
+## Console Output  
 
-Below is the console output of the above code using the [sample excel file](5115032.xlsm) provided by the link.
+Below is the console output of the above code using the [sample Excel file](5115032.xlsm) provided in the link.  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
-Is VBA Code Project Signed: True
+Is VBA Code Project Signed: True  
 
 {{< /highlight >}}

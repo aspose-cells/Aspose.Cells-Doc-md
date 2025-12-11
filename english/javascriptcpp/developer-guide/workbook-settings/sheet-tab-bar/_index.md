@@ -9,7 +9,7 @@ keywords: How to Control Sheet Tab Bar JavaScript via C++, Operate Sheet Tab Bar
 ---
 
 ## **Possible Usage Scenarios**  
-When you need to adjust the display of Excel sheet bar, you need to know how to control the sheet tab bar, such as hiding or showing the sheet tab bar, changing the sheet tab bar width, specifying the first visible tab, and so on. Aspose.Cells for JavaScript via C++ supports these features. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to adjust the display of the Excel sheet tab bar, you should know how to control it, such as hiding or showing the sheet tab bar, changing the sheet tab bar width, specifying the first visible tab, and so on. Aspose.Cells for JavaScript via C++ supports these features. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 
 - [**WorkbookSettings.showTabs**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#showTabs--)
 - [**WorkbookSettings.sheetTabBarWidth**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#sheetTabBarWidth--)
@@ -18,9 +18,9 @@ When you need to adjust the display of Excel sheet bar, you need to know how to 
 ## **How to Control Sheet Tab Bar using Aspose.Cells for JavaScript via C++**  
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Display the sheet tab and set the width of the tab bar.
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Display the sheet tab and set the width of the tab bar.
 
 ```html
 <!DOCTYPE html>

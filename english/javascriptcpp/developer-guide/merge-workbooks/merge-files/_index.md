@@ -8,11 +8,11 @@ url: /javascript-cpp/merge-files/
 
 ## **Introduction**
 
-Aspose.Cells provides different ways for merging files. For simple files with data, formatting, and formulas, the [**Workbook.combine(Workbook)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#combine-workbook-) method can be used to combine several workbooks, and the [**Worksheet.copy(Worksheet)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#copy-worksheet-) method can be used to copy worksheets into a new workbook. These methods are easy to use and effective, but if you have a lot of files to merge, you might find that they take a lot of system resources. To avoid this, use the [**CellsHelper.mergeFiles(string[], string, string)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#mergeFiles-stringarray-string-string-) static method, a more efficient way to merge several files.
+Aspose.Cells provides different ways for merging files. For simple files with data, formatting, and formulas, the [**Workbook.combine(Workbook)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#combine-workbook-) method can be used to combine several workbooks, and the [**Worksheet.copy(Worksheet)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#copy-worksheet-) method can be used to copy worksheets into a new workbook. These methods are easy to use and effective, but if you have a lot of files to merge, you might find that they **consume a lot of system resources**. To avoid this, use the [**CellsHelper.mergeFiles(string[], string, string)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#mergeFiles-stringarray-string-string-) static method, **which is** a more efficient way to merge several files.
 
 ## **Merge Files Using Aspose.Cells for JavaScript via C++**
 
-The following sample code illustrates how to merge large files using the [**CellsHelper.mergeFiles(string[], string, string)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#mergeFiles-stringarray-string-string-) method. It takes two simple but large files, Book1.xls and Book2.xls. The files contain formatted data and formulas only.
+The following sample code illustrates how to merge large files using the [**CellsHelper.mergeFiles(string[], string, string)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#mergeFiles-stringarray-string-string-) method. It takes two simple yet large files, Book1.xls and Book2.xls. The files contain formatted data and formulas only.
 
 {{% alert color="primary" %}}
 
@@ -85,7 +85,7 @@ The [**CellsHelper.mergeFiles(string[], string, string)**](https://reference.asp
             let i = 1;
             const worksheets = workbook.worksheets;
             for (let j = 0; j < worksheets.count; j++) {
-                worksheets.get(j).name = `Sheet1${i}`;
+                worksheets.get(j).name = `Sheet${i}`;
                 i++;
             }
 

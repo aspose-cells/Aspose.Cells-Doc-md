@@ -16,7 +16,7 @@ Anyone who has used Microsoft Excel to format cells will be familiar with the al
 
 As you can see from the above figure, there are different kinds of alignment options:
 
-- Text alignment(horizontal & vertical)
+- Text alignment (horizontal & vertical)
 - Indentation.
 - Orientation.
 - Text control.
@@ -30,7 +30,7 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/go-cpp/cell/getstyle/) and [**SetStyle**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) methods for the [**Cell**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) class provides useful properties for configuring alignment settings.
 
-Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/go-cpp/textalignmenttype/) enumeration. The pre-defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/go-cpp/textalignmenttype/) enumeration are:
+Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/go-cpp/textalignmenttype/) enumeration. The predefined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/go-cpp/textalignmenttype/) enumeration are:
 
 |**Text Alignment Types**|**Description**|
 | :- | :- |
@@ -45,7 +45,7 @@ Select any text alignment type using the [**TextAlignmentType**](https://referen
 |Right|Represents right text alignment|
 |Top|Represents top text alignment|
 |JustifiedLow|Aligns the text with an adjusted kashida length for Arabic text.|
-|ThaiDistributed|Distributes Thai text especially, because each character is treated as a word.|
+|ThaiDistributed|Distributes Thai text because each character is treated as a word.|
 
 {{% alert color="primary" %}}
 
@@ -75,7 +75,7 @@ Set the orientation (rotation) of the text in a cell with the [**Style**](https:
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-3.go" >}}
 #### **Text Control**
 
-The following section discusses how to control text by setting text wrapping, shrink to fit and other formatting options.
+The following section discusses how to control text by setting text wrapping, shrink‑to‑fit and other formatting options.
 
 ##### **Wrapping Text**
 
@@ -84,15 +84,15 @@ Wrapping text in a cell makes it easier to read: the height of the cell adjusts 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-4.go" >}}
 ##### **Shrinking to Fit**
 
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**IsTextWrapped**](https://reference.aspose.com/cells/go-cpp/style/istextwrapped/) property to **true**.
+An alternative to wrapping text in a cell is to shrink the text size to fit the cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's **IsShrinkToFit** property to **true**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-5.go" >}}
 ##### **Merging Cells**
 
 Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspose.Cells provides two approaches to this task. One way is to call the [**GetCells()**](https://reference.aspose.com/cells/go-cpp/worksheet/getcells/) collection's [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/merge/) method. The [**Merge**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/merge/) method takes the following parameters to merge the cells:
 
-- First row: the first row from where to start merging.
-- First column: the first column from where to start merging.
+- First row: the first row from which to start merging.
+- First column: the first column from which to start merging.
 - Number of rows: the number of rows to merge.
 - Number of columns: the number of columns to merge.
 
@@ -101,9 +101,9 @@ The other way is to first call the [**GetCells()**](https://reference.aspose.com
 
 ##### **Text Direction**
 
-It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
+It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left‑to‑right language while Arabic is a right‑to‑left language.
 
-The reading order is set with the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/style/gettextdirection/) property. Aspose.Cells provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells/textdirectiontype/) enumeration.
+The reading order is set with the [**Style**](https://reference.aspose.com/cells/go-cpp/style/) object's [**GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/style/gettextdirection/) property. Aspose.Cells provides pre‑defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells/textdirectiontype/) enumeration.
 
 |**Text Direction Types**|**Description**|
 | :- | :- |
@@ -112,6 +112,6 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 |RightToLeft|Right to left reading order|
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AlignmentSettings-7.go" >}}
-## **Advance topics**
+## **Advanced topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/cpp/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/cpp/line-breaks-and-text-wrapping/)

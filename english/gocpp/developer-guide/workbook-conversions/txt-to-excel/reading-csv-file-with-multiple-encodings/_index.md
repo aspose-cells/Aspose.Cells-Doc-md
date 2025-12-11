@@ -9,7 +9,7 @@ description: Learn how to read CSV files with multiple encodings using Aspose.Ce
 
 {{% alert color="primary" %}}
 
-Sometimes, your CSV file contains multiple encodings (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells allows you to load such CSV files and convert them into other formats, for example, PDF or XLSX.
+Sometimes, your CSV file contains multiple encodings (Unicode, ANSI, UTF‑8, UTF‑7, etc). Aspose.Cells allows you to load such CSV files and convert them into other formats, for example, PDF or XLSX.
 
 {{% /alert %}}
 
@@ -36,6 +36,7 @@ The following screenshot shows the XLSX file converted from the above CSV file a
 Below is the sample code that converts the above CSV file into XLSX format properly.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ReadingCsvFileWithMultipleEncodings.go" >}}
+
 ## Related Articles
 
 - [Opening CSV Files](/cells/cpp/opening-files-with-different-formats/#opening-csv-files)

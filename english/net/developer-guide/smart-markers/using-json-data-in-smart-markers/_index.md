@@ -8,41 +8,41 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Why Using Json Data for Smart Markers**
-Why Use JSON Data as Original Data for Smart Markers?
-JSON (JavaScript Object Notation) is a lightweight, human-readable data interchange format that's ideal for structuring hierarchical data. Here’s why it’s well-suited as original data for smart markers (dynamic placeholders that auto-populate spreadsheets, documents, or dashboards):
+## **Why Use JSON Data for Smart Markers**
+Why Use JSON Data as Original Data for Smart Markers?  
+JSON (JavaScript Object Notation) is a lightweight, human‑readable data interchange format that's ideal for structuring hierarchical data. Here’s why it’s well‑suited as original data for Smart Markers (dynamic placeholders that auto‑populate spreadsheets, documents, or dashboards):
 
-1. Structured & Hierarchical Data Support
-JSON natively supports nested objects and arrays (e.g., { "user": { "name": "Alice", "orders": [ ... ] } }). Smart markers can traverse this hierarchy (e.g., {{user.orders[0].price}}), making it easy to map complex data to templates.
+1. **Structured & Hierarchical Data Support**  
+   JSON natively supports nested objects and arrays (e.g., `{ "user": { "name": "Alice", "orders": [ ... ] } }`). Smart Markers can traverse this hierarchy (e.g., `{{user.orders[0].price}}`), making it easy to map complex data to templates.
 
-2. Language and Platform Agnostic
-JSON parsers exist in virtually all programming languages (Python, JavaScript, Java, etc.). Tools like Excel Power Query, Google Apps Script, or no-code platforms (e.g., Airtable) seamlessly ingest JSON.
+2. **Language and Platform Agnostic**  
+   JSON parsers exist in virtually all programming languages (Python, JavaScript, Java, etc.). Tools like Excel Power Query, Google Apps Script, or no‑code platforms (e.g., Airtable) seamlessly ingest JSON.
 
-3. API-Friendly
-Most modern APIs (e.g., REST, GraphQL) return data in JSON format. Smart markers can directly consume live JSON from web services, enabling real-time data updates (e.g., stock prices, weather).
+3. **API‑Friendly**  
+   Most modern APIs (e.g., REST, GraphQL) return data in JSON format. Smart Markers can directly consume live JSON from web services, enabling real‑time data updates (e.g., stock prices, weather).
 
-4. Human-Readable & Debuggable
-JSON’s plain-text structure is easy to: Validate (e.g., using JSONLint). Edit manually or via scripts. Debug when mapping data to markers.
+4. **Human‑Readable & Debuggable**  
+   JSON’s plain‑text structure is easy to validate (e.g., using JSONLint), edit manually or via scripts, and debug when mapping data to markers.
 
-5. Scalability & Flexibility
-Add/remove fields in JSON without breaking existing smart markers (if optional fields are handled gracefully). Supports diverse data types: strings, numbers, booleans, arrays, and objects.
+5. **Scalability & Flexibility**  
+   Add/remove fields in JSON without breaking existing Smart Markers (if optional fields are handled gracefully). Supports diverse data types: strings, numbers, booleans, arrays, and objects.
 
-6. Ecosystem Compatibility
-Works with modern data tools: Databases: MongoDB, PostgreSQL (JSONB), etc. Automation tools: Zapier, Integromat. Data pipelines: Apache NiFi, Talend.
+6. **Ecosystem Compatibility**  
+   Works with modern data tools: Databases (MongoDB, PostgreSQL (JSONB), etc.), automation tools (Zapier, Integromat), and data pipelines (Apache NiFi, Talend).
 
 ## **Using Excel Nested Template with JSON Data**
-Aspose.Cells for .NET supports json data in smart markers, json data can be nested hierarchically. Please check [template file](smartmarker.xlsx), [json file](smartmarker.json) and the screenshot of the output excel file generated with the following code.
+Aspose.Cells for .NET supports JSON data in Smart Markers; JSON data can be nested hierarchically. Please check the [template file](smartmarker.xlsx), the [JSON file](smartmarker.json), and the screenshot of the output Excel file generated with the following code.
 
-|**The first worksheet of the smartmarker.xlsx file showing smart markers.**|
+| **The first worksheet of the smartmarker.xlsx file showing Smart Markers.** |
 | :- |
-|![todo:image_alt_text](jsontemplate.png)|
+| ![todo:image_alt_text](jsontemplate.png) |
 
-|**The screenshot of the output excel file.**|
+| **The screenshot of the output Excel file.** |
 | :- |
-|![todo:image_alt_text](jsonresult.png)|
+| ![todo:image_alt_text](jsonresult.png) |
 
-Json data as follows:
-```json data
+JSON data as follows:
+```json
 {
     "EntityCin" : "EntityCin Test",
     "EntityName" : "EntityName Test",
@@ -121,24 +121,24 @@ Json data as follows:
     ]
 }
 ```
+
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data.cs" >}}
 
-
 ## **Using Excel Subtotal Template with JSON Data**
-Aspose.Cells for .NET supports json data in smart markers, json data can be nested hierarchically. Subtotal was used for data statistics in the excel template. Please check [template file](jsonExcelTemplate.xlsx), [json file](jsonData.json) and the screenshot of the output excel file generated with the following code.
+Aspose.Cells for .NET supports JSON data in Smart Markers; JSON data can be nested hierarchically. Subtotal was used for data statistics in the Excel template. Please check the [template file](jsonExcelTemplate.xlsx), the [JSON file](jsonData.json), and the screenshot of the output Excel file generated with the following code.
 
-|**The first worksheet of the jsonExcelTemplate.xlsx file showing smart markers.**|
+| **The first worksheet of the jsonExcelTemplate.xlsx file showing Smart Markers.** |
 | :- |
-|![todo:image_alt_text](jsontemplate2.png)|
+| ![todo:image_alt_text](jsontemplate2.png) |
 
-|**The screenshot of the output excel file.**|
+| **The screenshot of the output Excel file.** |
 | :- |
-|![todo:image_alt_text](jsonresult2.png)|
+| ![todo:image_alt_text](jsonresult2.png) |
 
-Json data as follows:
-```json data
+JSON data as follows:
+```json
 {
     "number": 10,
     "test": "test abc",
@@ -150,7 +150,6 @@ Json data as follows:
       {"valNumber":15,"valString": "bb"},
       {"valNumber":1,"valString": "cc"},
       {"valNumber":20,"valString": "dd"}
-
     ],
     "nestedArray": [
       {"valNumber":12,"valString": "xy","nestArr": [{"val": 1,"some": "aa"}]},
@@ -158,15 +157,16 @@ Json data as follows:
       {"valNumber":1,"valString": "yz","nestArr": [{"some": "cc"}]},
       {"valNumber":20,"valString": "z","nestArr": [{"some": "dd"}]}
     ],
-  "Products": [
-    { "ProductID": "A101", "ProductName": "Apples", "Units": 5 },
-    { "ProductID": "A101", "ProductName": "Apples", "Units": 10 },
-    { "ProductID": "B202", "ProductName": "Bananas", "Units": 7 },
-    { "ProductID": "B202", "ProductName": "Bananas", "Units": 3 },
-    { "ProductID": "C303", "ProductName": "Cherries", "Units": 8 }
-  ]
+    "Products": [
+      { "ProductID": "A101", "ProductName": "Apples", "Units": 5 },
+      { "ProductID": "A101", "ProductName": "Apples", "Units": 10 },
+      { "ProductID": "B202", "ProductName": "Bananas", "Units": 7 },
+      { "ProductID": "B202", "ProductName": "Bananas", "Units": 3 },
+      { "ProductID": "C303", "ProductName": "Cherries", "Units": 8 }
+    ]
 }
 ```
+
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-Using-JSON-Data-Subtotal.cs" >}}

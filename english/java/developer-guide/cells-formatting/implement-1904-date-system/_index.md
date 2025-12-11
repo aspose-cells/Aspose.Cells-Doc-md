@@ -13,17 +13,17 @@ Microsoft Excel supports two date systems: 1900 date system (the default date sy
 
 {{% /alert %}} 
 
-To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 2003):
+To implement the 1904 date system in Microsoft Excel (for example**,** Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**, and select the **Calculation** tab.
 1. Select the **1904 date system** option.
 1. Click **OK**.
 
-   **Selecting 1904 date system in Microsoft Excel** 
+   **Selecting the 1904 date system in Microsoft Excel** 
 
 ![todo:image_alt_text](implement-1904-date-system_1.png)
 
-See the following sample code on how to achieve this using Aspose.Cells APIs.
+See the following sample code **for** how to achieve this using the Aspose.Cells **API**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}
 {{< app/cells/assistant language="java" >}}

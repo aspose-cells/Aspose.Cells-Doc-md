@@ -7,13 +7,14 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section includes the following topics
+This section includes the following topics:
 
-- [Import Export data from document](/cells/net/import-export-data-from-document/)
+- [Import/Export data from a document](/cells/net/import-export-data-from-document/)
 - [Insert or Delete Rows or Columns](/cells/net/insert-or-delete-rows-or-columns/)
 - [Smart Markers feature in Aspose.Cells](/cells/net/smart-markers-feature-in-aspose-cells/)
   - [Grouping Data in Aspose.Cells](/cells/net/grouping-data-in-aspose-cells/)
   - [Image Markers in Aspose.Cells](/cells/net/image-markers-in-aspose-cells/)
   - [Using Anonymous Types or Custom Objects in Aspose.Cells](/cells/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
   - [Using Nested Objects in Aspose.Cells](/cells/net/using-nested-objects-in-aspose-cells/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -1,21 +1,21 @@
----
-title: Change Character Spacing of Excel TextBox or Shape with C++
-linktitle: Change Character Spacing of Excel TextBox or Shape
-type: docs
-weight: 280
-url: /cpp/change-character-spacing-of-excel-textbox-or-shape/
-description: Learn how to change the character spacing of Excel textbox or shape using Aspose.Cells with C++.
+---  
+title: Change Character Spacing of Excel TextBox or Shape with C++  
+linktitle: Change Character Spacing of Excel TextBox or Shape  
+type: docs  
+weight: 280  
+url: /cpp/change-character-spacing-of-excel-textbox-or-shape/  
+description: Learn how to change the character spacing of Excel textbox or shape using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-You can change the character spacing of Excel textbox or shape using the [**TextOptions.GetSpacing()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textoptions/getspacing/) property.
+You can change the character spacing of an Excel text box or shape using the **[TextOptions.GetSpacing()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textoptions/getspacing/)** property.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following sample code changes the character spacing of the text box in an Excel file to point 4 and then saves it on disk.
+The following sample code changes the character spacing of the text box in an Excel file to 4 points and then saves it to disk.  
 
 ```c++
 #include <iostream>
@@ -32,21 +32,21 @@ int main()
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
     // Output directory path
-    U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+    U16String outDir(u"..\\Data\\02_OutputDirectory\\"");
 
-    // Load your excel file inside a workbook object
+    // Load your Excel file into a Workbook object
     Workbook wb(srcDir + u"sampleChangeTextBoxOrShapeCharacterSpacing.xlsx");
 
-    // Access your text box which is also a shape object from shapes collection
+    // Access the text box, which is also a shape object, from the shapes collection
     Shape shape = wb.GetWorksheets().Get(0).GetShapes().Get(0);
 
-    // Access the first font setting object via GetCharacters() method
+    // Access the first font setting object via the GetRichFormattings() method
     FontSetting fs = shape.GetRichFormattings()[0];
 
-    // Set the character spacing to point 4
+    // Set the character spacing to 4 points
     fs.GetTextOptions().SetSpacing(4);
 
-    // Save the workbook in xlsx format
+    // Save the workbook in XLSX format
     wb.Save(outDir + u"outputChangeTextBoxOrShapeCharacterSpacing.xlsx", SaveFormat::Xlsx);
 
     std::cout << "Character spacing changed successfully!" << std::endl;

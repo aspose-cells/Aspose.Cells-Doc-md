@@ -1,4 +1,3 @@
-
 ---
 title: Workbook Related Settings for GridJs
 type: docs
@@ -59,11 +58,11 @@ The [**GridWorkbookSettings**](https://reference.aspose.com/cells/python-net/asp
 
 ### Calculation-Related Settings
 
-- `re_calculate_on_open`: Controls whether formulas are recalculated when opening files,default is true.
+- `re_calculate_on_open`: Controls whether formulas are recalculated when opening files, default is true.
 - `force_full_calculate`: Enables forced full calculation cycles
-- `create_calc_chain`:  Controls whether create calculated formulas chain,default is false.
-- `iteration`:  Controls whether use iteration to resolve circular references,default is true.
-- `max_iteration`: Set the maximum number of iterations to resolve a circular reference, the default value is 100.
+- `create_calc_chain`: Controls whether to create a calculated formulas chain, default is false.
+- `iteration`: Controls whether to use iteration to resolve circular references, default is true.
+- `max_iteration`: Set the maximum number of iterations to resolve circular references, the default value is 100.
 
 ### Metadata Settings
 
@@ -73,7 +72,7 @@ The [**GridWorkbookSettings**](https://reference.aspose.com/cells/python-net/asp
 ### Performance Settings
 
 - `check_custom_number_format`: Validates custom number format when setting Style.Custom
-- `check_excel_restriction`: Controls Whether check restriction of excel file when user modify cells related objects
+- `check_excel_restriction`: Controls whether to check restrictions of the Excel file when the user modifies cell‑related objects
 
 ## Advanced Configuration
 
@@ -104,4 +103,3 @@ For comprehensive implementation examples and detailed usage scenarios, refer to
 - [GridJs Client API Documentation](https://docs.aspose.com/cells/python-net/aspose-cells-gridjs/how-to-use-gridjs-client-api)
 
 ---
-

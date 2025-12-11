@@ -1,21 +1,21 @@
 ---
-title: Browsers Capabilities
+title: Browser Capabilities
 type: docs
 weight: 10
 url: /net/aspose-cells-gridweb/browsers-capabilities/
 keywords: GridWeb,browsers-capabilities,capability
-description: This article introduces the browser capability for GridWeb.
+description: This article introduces the browser capabilities for GridWeb.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb is a GUI based web control that can be embedded in ASP.NET web forms like other web controls provided by the Microsoft .NET Framework. The most important thing about a web control is providing cross-browser support. Aspose.Cells.GridWeb provides cross-browser support.
+Aspose.Cells.GridWeb is a GUI‑based web control that can be embedded in ASP.NET web forms like other web controls provided by the Microsoft .NET Framework. The most important aspect of a web control is providing cross‑browser support. Aspose.Cells.GridWeb provides cross‑browser support.
 
 {{% /alert %}} 
 ## **Comparison**
-Aspose.Cells.GridWeb is built using Microsoft .NET Framework so it is fully supported on Microsoft's Internet Explorer (IE). However, on other browsers it has minor limitations. This topic provides a detailed comparison of which features are supported on different browsers.
+Aspose.Cells.GridWeb is built using the Microsoft .NET Framework, so it is fully supported on Microsoft’s Internet Explorer (IE). However, on other browsers it has minor limitations. This topic provides a detailed comparison of which features are supported on different browsers.
 
 |**Client Side Features** |**Microsoft Internet Explorer** |**Google Chrome** |**Mozilla Firefox** |**Opera** |
 | :- | :- | :- | :- | :- |
@@ -33,8 +33,8 @@ Aspose.Cells.GridWeb is built using Microsoft .NET Framework so it is fully supp
 |Multiple Cells Input/Edit, Single Postback |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Number Format |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Sheet Paging |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Readonly Cells |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Readonly Rows/Columns |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Read‑only Cells |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Read‑only Rows/Columns |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Data Validation using Regular Expressions |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Resize Column Width |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Resize Row Height |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -43,4 +43,3 @@ Aspose.Cells.GridWeb is built using Microsoft .NET Framework so it is fully supp
 |Scroll Sheet Tabs |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set Borders of Cells |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set Font Settings of Cells |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-

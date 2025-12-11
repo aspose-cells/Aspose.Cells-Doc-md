@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-You can create data sources and queries in Visual Studio and save them to an RDL file. When the RDL file is opened in Aspose.Cells.Report.Designer, its data sources and queries are available for use. For example, we can create a query named EmpSalesDetail in Visual Studio and save it as an RDL File.
+You can create data sources and queries in Visual Studio and save them to an RDL file. When the RDL file is opened in Aspose.Cells.Report.Designer, its data sources and queries are available for use. For example, we can create a query named EmpSalesDetail in Visual Studio and save it as an RDL file.
 
 **The EmpSalesDetail RDL file** 
 

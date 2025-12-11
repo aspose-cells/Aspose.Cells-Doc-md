@@ -13,14 +13,14 @@ Sometimes, you want to convert numeric data entered as text to numbers. You can 
 
 ## How to Convert numbers stored as text to numbers in Excel
 You can convert numbers stored as text to numbers by following a few simple steps.
-1. Select any single cell or range of cells that has an error indicator in the upper-left corner.
-1. Next to the selected cell or range of cells, click the error button that appears. On the menu, click Convert to Number. 
+1. Select any single cell or range of cells that has an error indicator in the upper‑left corner.
+1. Next to the selected cell or range of cells, click the error button that appears. On the menu, click **Convert to Number**. 
 <br>
 <img src="4.png" width=70% />
-1. If the alert button is not available, Select a column with this problem. If you don't want to convert the whole column, you can select one or more cells instead. Just be sure the cells you select are in the same column, otherwise this process won't work. The Text to Columns button is typically used for splitting a column, but it can also be used to convert a single column of text to numbers. On the Data tab, click Text to Columns.
+1. If the alert button is not available, select a column with this problem. If you don't want to convert the whole column, you can select one or more cells instead. Just be sure the cells you select are in the same column; otherwise, this process won't work. The **Text to Columns** button is typically used for splitting a column, but it can also be used to convert a single column of text to numbers. On the **Data** tab, click **Text to Columns**.
 <br>
 <img src="1.png" width=70% />
-1. Click the Finish button in the pop-up box.
+1. Click the **Finish** button in the pop‑up box.
 <br>
 <img src="2.png" width=70% />
 1. The numbers stored as text are transformed into numbers.
@@ -28,13 +28,13 @@ You can convert numbers stored as text to numbers by following a few simple step
 <img src="3.png" width=70% />
 
 ## How to Convert numbers stored as text to numbers using Aspose.Cells for JavaScript via C++
-Aspose.Cells for JavaScript via C++ provides the [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/javascript-cpp/cells/#convertStringToNumericValue--) method which can be used to convert all string or text numeric data into numbers.
+Aspose.Cells for JavaScript via C++ provides the [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/javascript-cpp/cells/#convertStringToNumericValue--) method, which can be used to convert all string or text numeric data into numbers.
 
 The following screenshot shows string numbers in cells **A1:A17**. String numbers are aligned to the left.
 <br>
 <img src="5.png" width=70% />
 
-These string numbers have been converted to numbers using [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/javascript-cpp/cells/#convertStringToNumericValue--) in the following screenshot. As you can see, they are now right-aligned.
+These string numbers have been converted to numbers using [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/javascript-cpp/cells/#convertStringToNumericValue--) in the following screenshot. As you can see, they are now right‑aligned.
 <br>
 <img src="6.png" width=70% />
 
@@ -81,15 +81,15 @@ The following sample code illustrates how to convert all string numeric data to 
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiate workbook object with the uploaded Excel file
+            // Instantiate the workbook object with the uploaded Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Access worksheets collection
             const sheets = workbook.worksheets;
-            const sheetcount = sheets.count;
+            const sheetCount = sheets.count;
 
             // Iterate through all worksheets and convert strings to numeric values
-            for (let i = 0; i < sheetcount; i++) {
+            for (let i = 0; i < sheetCount; i++) {
                 const sheet = sheets.get(i);
                 sheet.cells.convertStringToNumericValue();
             }

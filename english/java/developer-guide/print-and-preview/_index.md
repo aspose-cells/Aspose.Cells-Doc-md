@@ -1,5 +1,5 @@
 ---
-title: Render, Print and preview
+title: Render, Print, and Preview
 type: docs
 weight: 56
 url: /java/rendering/
@@ -8,3 +8,5 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{< app/cells/assistant language="java" >}}
+
+

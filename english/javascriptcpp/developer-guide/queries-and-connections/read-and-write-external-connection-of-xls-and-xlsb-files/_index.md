@@ -9,11 +9,11 @@ description: Learn how to read and write external connections of XLS and XLSB fi
 
 ## **Possible Usage Scenarios**  
 
-Aspose.Cells already supports reading and writing external connections of XLSX files but now, it also supports this feature for XLSB and XLS files. However, the code is the same for all types of formats.  
+Aspose.Cells already supports reading and writing external connections of XLSX files, but now it also supports this feature for XLSB and XLS files. However, the code is the same for all formats.  
 
 ## **Read and Write External Connection of XLS/XLSB file**  
 
-The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first external connection which is actually a Microsoft Access DB Connection. It then modifies the [**DBConnection.name**](https://reference.aspose.com/cells/javascript-cpp/dbconnection/#name--) property and saves it as output XLS/XLSB file. The screenshot shows the effect of code on [sample XLSB file](51740722.xlsb) and [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for a reference.  
+The following sample code loads the sample XLSB file (an XLS file can also be loaded) and reads its first external connection, which is actually a Microsoft Access DB connection. It then modifies the [**DBConnection.name**](https://reference.aspose.com/cells/javascript-cpp/dbconnection/#name--) property and saves it as an output XLS/XLSB file. The screenshot shows the effect of the code on the [sample XLSB file](51740722.xlsb) and the [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for reference.  
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)  
 
@@ -53,20 +53,20 @@ The following code shall work for both XLSB and XLS files by loading and saving 
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (!fileInput.files.length) {
-                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file (.xlsb).</p>';
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an Excel file (.xls, .xlsx, .xlsb, or .csv).</p>';
                 return;
             }
 
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Load the source Excel Xlsb file
+            // Load the source Excel XLSB file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Read the first external connection which is actually a DB-Connection
+            // Read the first external connection, which is actually a DB connection
             const dbCon = workbook.dataConnections.get(0);
 
-            // Print the Name, Command and Connection Info of the DB-Connection
+            // Print the Name, Command and Connection Info of the DB connection
             const outputLines = [];
             outputLines.push("Connection Name: " + dbCon.name);
             outputLines.push("Command: " + dbCon.command);
@@ -75,7 +75,7 @@ The following code shall work for both XLSB and XLS files by loading and saving 
             // Modify the Connection Name
             dbCon.name = "NewCust";
 
-            // Save the Excel Xlsb file
+            // Save the Excel XLSB file
             const outputData = workbook.save(SaveFormat.Xlsb);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

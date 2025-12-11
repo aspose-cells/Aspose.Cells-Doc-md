@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIs have enhanced the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/) class by introducing some useful properties & methods. One such method is the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) which allows specifying a password as an instance of *string* and verifies if the same password has been used to protect the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
+Aspose.Cells APIs have enhanced the [**Protection**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/) class by introducing some useful properties and methods. One such method is the [**VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) which allows specifying a password as an instance of a string and verifies if the same password has been used to protect the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
 
 {{% /alert %}}
 
-The [**Protection.VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) method returns **true** if the specified password matches the password used to protect the given worksheet and **false** if the specified password does not match. The following piece of code uses the [**Protection.VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) method in conjunction with [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property to detect the password protection, and verifies the password.
+The [**Protection.VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) method returns **true** if the specified password matches the password used to protect the given worksheet and **false** if the specified password does not match. The following piece of code uses the [**Protection.VerifyPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/verifypassword/) method in conjunction with the [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property to detect whether the worksheet is protected with a password and to verify the password.
 
 ```cpp
 #include <iostream>

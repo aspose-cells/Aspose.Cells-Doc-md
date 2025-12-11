@@ -8,9 +8,9 @@ url: /javascript-cpp/optimizing-memory-usage-while-working-with-big-files-having
 
 {{% alert color="primary" %}}
 
-When building a workbook with large data sets, or reading a big Microsoft Excel file, the total amount of RAM the process will take is always a concern. There are measures that can be adapted to cope with the challenge. Aspose.Cells for JavaScript via C++ provides some relevant options and API calls to lower, reduce and optimize memory use. Also, it can help the process work more efficiently and run faster.
+When building a workbook with large data sets, or reading a big Microsoft Excel file, the total amount of RAM the process will take is always a concern. There are measures that can be adapted to cope with the challenge. Aspose.Cells for JavaScript via C++ provides some relevant options and API calls to lower, reduce, and optimize memory use. It can also help the process work more efficiently and run faster.
 
-Use the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option to optimize memory use for cells data and decrease the overall memory cost. When building a large data set for cells, it can save a certain amount of memory compared to using the default setting ([**MemorySetting.Normal**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/)).
+Use the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option to optimize memory use for cell data and decrease the overall memory cost. When building a large data set for cells, it can save a certain amount of memory compared to using the default setting ([**MemorySetting.Normal**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/)).
 
 {{% /alert %}}
 
@@ -135,23 +135,23 @@ The following example shows how to write a large dataset to a worksheet in an op
             // Set the memory preferences on the workbook settings
             workbook.settings.memorySetting = AsposeCells.MemorySetting.MemoryPreference;
 
-            // Note: The memory settings also would not work for the default sheet i.e., "Sheet1" etc. automatically created by the Workbook
-            // To change the memory setting of existing sheets, change memory setting for them manually:
+            // Note: The memory settings also do not apply to the default sheet, i.e., "Sheet1", automatically created by the Workbook.
+            // To change the memory setting of existing sheets, change the memory setting for them manually:
             let cells = workbook.worksheets.get(0).cells;
             cells.memorySetting = AsposeCells.MemorySetting.MemoryPreference;
 
-            // Input large dataset into the cells of the worksheet.
+            // Input a large dataset into the cells of the worksheet.
             // Your code goes here.
             // Example: populate a few cells to demonstrate
             const firstCell = cells.get(0, 0);
             firstCell.value = "Sample Data 1";
             cells.get(1, 0).value = "Sample Data 2";
 
-            // Get cells of the newly created Worksheet "Sheet2" whose memory setting is same with the one defined in WorkbookSettings:
+            // Get cells of the newly created Worksheet "Sheet2" whose memory setting is the same as the one defined in WorkbookSettings:
             const sheet2 = workbook.worksheets.add("Sheet2");
             const cells2 = sheet2.cells;
             // .........
-            // Input large dataset into the cells of the worksheet.
+            // Input a large dataset into the cells of the worksheet.
             // Your code goes here.
             // Example: populate a few cells in Sheet2
             cells2.get(0, 0).value = "Sheet2 Data 1";
@@ -174,8 +174,10 @@ The following example shows how to write a large dataset to a worksheet in an op
 
 ## **Caution**
 
-The default option, [**MemorySetting.Normal**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) is applied for all versions. For some situations, such as building a workbook with a large data set for cells, the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option may optimize the memory use and decrease the memory cost for the application. However, this option may degrade performance in some special cases such as follow.
+The default option, [**MemorySetting.Normal**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) is applied for all versions. For some situations, such as building a workbook with a large data set for cells, the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option may optimize memory use and decrease the memory cost for the application. However, this option may degrade performance in some special cases as follows.
 
-1. **Accessing Cells Randomly and Repeatedly**: The most efficient sequence for accessing the cells collection is cell by cell in one row, and then row by row. Especially, if you access rows/cells by the Enumerator acquired from [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells), [**RowCollection**](https://reference.aspose.com/cells/javascript-cpp/rowcollection), and [**Row**](https://reference.aspose.com/cells/javascript-cpp/row), the performance would be maximized with [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/).
+1. **Accessing Cells Randomly and Repeatedly**: The most efficient sequence for accessing the cells collection is cell by cell in one row, and then row by row. Especially, if you access rows/cells via the Enumerator obtained from [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells), [**RowCollection**](https://reference.aspose.com/cells/javascript-cpp/rowcollection), and [**Row**](https://reference.aspose.com/cells/javascript-cpp/row), performance is maximized with [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/).
+
 2. **Inserting & Deleting Cells & Rows**: Please note that if there are lots of insert/delete operations for Cells/Rows, the performance degradation will be notable for *MemoryPreference* mode as compared to the *Normal* mode.
-3. **Operating on Different Cell Types**: If most of the cells contain string values or formulas, the memory cost will be the same as *Normal* mode but if there are lots of empty cells, or cell values are numeric, bool and so on, the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option will give better performance.
+
+3. **Operating on Different Cell Types**: If most of the cells contain string values or formulas, the memory cost will be the same as *Normal* mode, but if there are many empty cells, or cell values are numeric, boolean, and so on, the [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/javascript-cpp/memorysetting/) option will give better performance.

@@ -1,5 +1,5 @@
----
-title: Convert Chart to Image for Japanese Region with JavaScript via C++
+---  
+title: Convert Chart to Image for Japanese Region with JavaScript via C++  
 description: Learn how to use Aspose.Cells for JavaScript via C++ to set the Japanese configuration for the chart. Our guide will demonstrate how to configure charts to support Japanese characters and formatting, including fonts, size, text direction, and more.  
 keywords: Aspose.Cells for JavaScript via C++, Charts, Japanese configuration, font, font size, text direction, support.  
 linktitle: Set Japanese Region  
@@ -10,12 +10,12 @@ alias: [/javascript-cpp/set-japanese-configuration-for-chart/]
 ---  
 
 {{% alert color="primary" %}}  
-In this topic, we will show you how to set Japanese Region for a chart.  
+In this topic, we will show you how to set Japanese region for a chart.  
 {{% /alert %}}  
 
-## **Defines an inheritance class**  
+## **Defines an Inheriting Class**  
 
-First step, you need to define a class "ChartJapaneseSettings" that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/).  
+In the first step, you need to define a class **ChartJapaneseSettings** that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/chartglobalizationsettings/).  
 Then, by rewriting the related functions, you can set the text of the chart elements in your own language.  
 Code example:  
 ```html
@@ -105,7 +105,7 @@ Code example:
             // Example usage: instantiate the ChartJapaneseSettings and demonstrate properties/methods
             const settings = new ChartJapaneseSettings();
 
-            // Example: show axis title name and chart title name and a sample axis unit name
+            // Example: show axis title name, chart title name, and a sample axis unit name
             const axisTitle = settings.axisTitleName;
             const chartTitle = settings.chartTitleName;
             const sampleUnit = settings.axisUnitName(AsposeCells.DisplayUnitType.Thousands);
@@ -133,9 +133,9 @@ Code example:
 </html>
 ```  
 
-## **Config Japanese Setting For Chart**  
+## **Configure Japanese Settings for Chart**  
 
-In this step, you will use the class "ChartJapaneseSettings" you defined in the previous step.  
+In this step, you will use the class **ChartJapaneseSettings** you defined in the previous step.  
 Code example:  
 
 ```html
@@ -199,22 +199,22 @@ Code example:
         });
     </script>
 </html>
-```
+```  
 
-Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.  
+Then you can see the effect in the output image; the elements in the chart will be rendered according to your settings.  
 
 ## **Conclusion**  
 
-In this example, if you do not set Japanese Region for a chart, the following chart elements may be rendered in the default language, such as English.  
-After the above operation, we can get an output chart picture with Japanese Region.  
+In this example, if you do not set the Japanese region for a chart, the following chart elements may be rendered in the default language, such as English.  
+After the above operation, you can get an output chart picture with Japanese region settings.  
 
-|**Supported elements**|**Value in this example**|**default value in the English environment**|  
-| :- | :- | :- |  
-|Axis Title Name|軸タイトル|Axis Title|  
-|Axis Unit Name|百,千...|Hundreds, Thousands...|  
-|Chart Title Name|グラフ タイトル|Chart Title|  
-|Legend Increase Name|ぞうか|Increase|  
-|Legend Decrease Name|削減|Decrease|  
-|Legend Total Name|すべての|Total|  
-|Other Name|その他|Other|  
-|Series Name|シリーズ|Series|
+| **Supported elements** | **Value in this example** | **Default value in the English environment** |
+| :- | :- | :- |
+| Axis Title Name | 軸タイトル | Axis Title |
+| Axis Unit Name | 百,千... | Hundreds, Thousands... |
+| Chart Title Name | グラフ タイトル | Chart Title |
+| Legend Increase Name | ぞうか | Increase |
+| Legend Decrease Name | 削減 | Decrease |
+| Legend Total Name | すべての | Total |
+| Other Name | その他 | Other |
+| Series Name | シリーズ | Series |

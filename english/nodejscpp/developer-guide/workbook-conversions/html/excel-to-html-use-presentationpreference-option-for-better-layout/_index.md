@@ -10,13 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells provides a useful HtmlSaveOptions.presentationPreference property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
+Aspose.Cells provides a useful HtmlSaveOptions.presentationPreference property for developers who need to render a better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.
 
 {{% /alert %}} 
 
 Please see the sample code below that demonstrates how to render an HTML file from an Excel report with presentation preference on.
-
-
 
 ```javascript
 const path = require("path");
@@ -24,7 +22,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
-// Instantiate the Workbook
+// Instantiate a Workbook
 // Load an Excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsx"));
 

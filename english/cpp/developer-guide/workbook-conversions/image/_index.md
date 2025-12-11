@@ -19,7 +19,7 @@ Aspose.Cells allows you to export a worksheet from the workbook and convert it i
 
 An Excel file can contain multiple sheets with multiple pages. [**WorkbookRender**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/workbookrender/) allows you to convert Excel to TIFF with multiple pages. Also, you can control multiple options for TIFF, like [Compression](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/tiffcompression/), [GetTiffColorDepth()](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gettiffcolordepth/), Resolution([GetHorizontalResolution()](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/gethorizontalresolution/), [GetVerticalResolution()](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getverticalresolution/)).
 
-The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-mulitiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-mulitiple-pages.tiff) are attached for your reference.
+The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-multiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-multiple-pages.tiff) are attached for your reference.
 
 ```c++
 #include <iostream>
@@ -32,7 +32,7 @@ int main() {
     Aspose::Cells::Startup();
 
     // Load the workbook
-    Workbook wb(u"workbook-to-tiff-with-mulitiple-pages.xlsx");
+    Workbook wb(u"workbook-to-tiff-with-multiple-pages.xlsx");
 
     // Create image options
     ImageOrPrintOptions imgOptions;
@@ -47,7 +47,7 @@ int main() {
 
     // Render the workbook to TIFF
     WorkbookRender workbookRender(wb, imgOptions);
-    workbookRender.ToImage(u"workbook-to-tiff-with-mulitiple-pages.tiff");
+    workbookRender.ToImage(u"workbook-to-tiff-with-multiple-pages.tiff");
 
     std::cout << "Workbook rendered to TIFF successfully!" << std::endl;
 
@@ -115,9 +115,9 @@ At present, the API for converting worksheets to images does not support 3D bubb
 
 ## **Converting Worksheet to SVG**
 
-SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
+SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two‑dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
 
-Aspose.Cells for C++ has been able to convert worksheets to SVG image since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
+Aspose.Cells for C++ has been able to convert worksheets to SVG images since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
 
 ```cpp
 #include <iostream>
@@ -147,7 +147,7 @@ int main()
     // Set currently active sheet index to 1 i.e. Sheet2
     workbook.GetWorksheets().SetActiveSheetIndex(1);
 
-    // Save workbook to SVG. It shall render the active sheet only to SVG
+    // Save workbook to SVG. It renders the active sheet only to SVG
     workbook.Save(outDir + u"ConvertWorksheetToSVG_out.svg");
 
     std::cout << "Worksheet converted to SVG successfully!" << std::endl;
@@ -156,7 +156,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert an Excel Chart to Image](/cells/cpp/convert-an-excel-chart-to-image/)
 - [Converting Chart to Image in SVG Format](/cells/cpp/converting-chart-to-image-in-svg-format/)
 - [Export Chart to SVG with viewBox attribute](/cells/cpp/export-chart-to-svg-with-viewbox-attribute/)

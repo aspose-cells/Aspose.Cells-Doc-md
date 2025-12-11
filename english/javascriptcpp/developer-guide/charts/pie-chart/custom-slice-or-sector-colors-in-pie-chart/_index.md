@@ -1,7 +1,7 @@
 ---
 title: Custom Slice or Sector Colors in Pie Chart with JavaScript via C++
 linktitle: Custom Slice or Sector Colors in Pie Chart
-description: Learn how to use Aspose.Cells for JavaScript via C++ to customize slice and sector colors in a pie chart. Our guide will demonstrate how to assign unique colors to each slice, sector, or legion for improved visual appeal and data representation.
+description: Learn how to use Aspose.Cells for JavaScript via C++ to customize slice and sector colors in a pie chart. Our guide will demonstrate how to assign unique colors to each slice, sector, or legend for improved visual appeal and data representation.
 keywords: Aspose.Cells for JavaScript via C++, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
 type: docs
 weight: 60
@@ -21,10 +21,10 @@ To set a custom color for a pie chart's individual slices or sectors:
 
 This article also explains how to:
 
-- A chart's category data.
-- A chart title linked to a cell.
-- The chart title font settings.
-- The position of the legend.
+- Set a chart's category data.
+- Link a chart title to a cell.
+- Configure the chart title font settings.
+- Set the position of the legend.
 
 {{% alert color="primary" %}}
 
@@ -135,7 +135,7 @@ This article also explains how to:
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'output.out.xlsx';
+            downloadLink.download = 'output.xlsx';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Excel File';
 

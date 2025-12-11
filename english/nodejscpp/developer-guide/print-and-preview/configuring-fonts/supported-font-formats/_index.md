@@ -9,9 +9,10 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-|**Format**|**Description**|
-| :- | :- | :- | :- |
-|**TTF**|TrueType Fonts|
-|**TTC**|TrueType Collection|
-|**OTF**|OpenType Fonts|
+| **Format** | **Description** |
+| :- | :- |
+| **TTF** | TrueType Fonts |
+| **TTC** | TrueType Collection |
+| **OTF** | OpenType Fonts |
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

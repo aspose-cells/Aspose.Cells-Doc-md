@@ -13,7 +13,7 @@ Sometimes you want to specify the pixel format when rendering a worksheet to ima
 
 {{% /alert %}} 
 
-Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the sheets.
+Please see the sample code below that demonstrates how to set the desired pixel format while rendering the sheets as images.
 
 
 

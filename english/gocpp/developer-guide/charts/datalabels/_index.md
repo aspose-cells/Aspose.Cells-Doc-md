@@ -10,22 +10,22 @@ keywords: Aspose.Cells for C++, Excel charts, data labels, management, readabili
 
 {{% alert color="primary" %}}
 
-DataLabels are an important part of a chart. We can easily know the value, percentage, etc. of each series.
+DataLabels are an important part of a chart. We can easily know the value, percentage, etc., of each series.
 
 {{% /alert %}}
 
 ## **DataLabels Options**
-Aspose.Cells also allows managing chart's datalabels at runtime with the [DataLabels](https://reference.aspose.com/cells/go-cpp/datalabels/) object. It's simple to move, update, and format datalabels of the chart.
+Aspose.Cells also allows managing a chart's data labels at runtime with the [DataLabels](https://reference.aspose.com/cells/go-cpp/datalabels/) object. It's simple to move, update, and format the chart's data labels.
 
 |![todo:image_alt_text](chart_datalabels.png)|
 
-## **Manage the DataLabels of Chart**
-It's simple to manage datalabels of the chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/go-cpp/datalabels/).
+## **Manage the DataLabels of a Chart**
+It's simple to manage the data labels of a chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/go-cpp/datalabels/).
 
 The following code snippet demonstrates how to manage DataLabels:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Datalabels.go" >}}
-## **Advance Topics**
+## **Advanced Topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/cpp/disable-text-wrapping-for-data-labels-of-the-chart/)
 - [Resize Chart's Data Label Shape To Fit Text](/cells/cpp/resize-chart-s-data-label-shape-to-fit-text/)

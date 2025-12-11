@@ -1,5 +1,5 @@
 ---
-title: Access the Text Box by the Name
+title: Access the Text Box by Name
 type: docs
 weight: 230
 url: /net/access-the-text-box-by-the-name/
@@ -7,11 +7,11 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## Access the Text Box by the Name
+## Access the Text Box by Name
 
-Earlier, text boxes are accessed by index from the [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) collection but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
+Earlier, text boxes were accessed by index from the [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) collection, but now you can also access a text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
 
-The following sample code first creates a text box and assigns it some text and name. Then in the next lines, we access the same text box by its name and print its text.
+The following sample code first creates a text box and assigns it some text and a name. Then, in the next lines, we access the same text box by its name and print its text.
 
 ### C# code to access the text box by name
 
@@ -22,8 +22,6 @@ The following sample code first creates a text box and assigns it some text and 
 Here is the console output of the above sample code.
 
 {{< highlight java >}}
-
 This is MyTextBox
-
 {{< /highlight >}}
 {{< app/cells/assistant language="csharp" >}}

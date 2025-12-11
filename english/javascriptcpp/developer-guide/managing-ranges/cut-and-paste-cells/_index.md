@@ -1,15 +1,15 @@
----
-title: Cut and Paste Range with JavaScript via C++
-linktitle: Cut and Paste Range
-type: docs
-weight: 130
-url: /javascript-cpp/cut-and-paste-cells/
-description: Learn how to cut and paste cells within a worksheet using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Cut and Paste Range with JavaScript via C++  
+linktitle: Cut and Paste Range  
+type: docs  
+weight: 130  
+url: /javascript-cpp/cut-and-paste-cells/  
+description: Learn how to cut and paste cells within a worksheet using Aspose.Cells for JavaScript via C++.  
+---  
 
-## **Cut and Paste Cells**
+## **Cut and Paste Cells**  
 
-Aspose.Cells for JavaScript via C++ provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/javascript-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) method of the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells/) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/javascript-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) accepts the following parameters.  
+Aspose.Cells for JavaScript via C++ provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/javascript-cpp/cells/#insertCutCells-Range-number-number-ShiftType-) method of the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells/) collection. The **InsertCutCells** method accepts the following parameters.  
 
 - [**Range**](https://reference.aspose.com/cells/javascript-cpp/range/): The range of cells to be cut.  
 - Row Index: The index of the row to insert cells.  

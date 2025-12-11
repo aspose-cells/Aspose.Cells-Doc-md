@@ -13,9 +13,7 @@ Please set the comment of the Table or List Object inside the worksheet using th
 
 {{% /alert %}} 
 ## **Set the Comment of Table or List Object inside the Worksheet**
-The following sample code loads the source excel file and sets the comment of the first table or list object inside the worksheet.
-
-
+The following sample code loads the source **Excel** file and sets the comment of the first table or list object inside the worksheet.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-SetCommentOfTableOrListObject-new.cpp" >}}
 {{< app/cells/assistant language="cpp" >}}

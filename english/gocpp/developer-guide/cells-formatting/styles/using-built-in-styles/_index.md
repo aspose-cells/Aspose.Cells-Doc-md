@@ -10,7 +10,7 @@ keywords: c++ use excel built in styles, c++ programmatically apply styles in wo
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides a vast collection of re-usable styles to format a cell in a spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
+Aspose.Cells provides a vast collection of reusable styles to format a cell in a spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
 
 {{% /alert %}}
 

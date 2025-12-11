@@ -28,23 +28,23 @@ It is also possible to format comments' appearance by configuring their height, 
 
 ## **Add an Image to Comment**
 
-With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (They suppose that you have already added a cell comment.)
+With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (It is assumed that you have already added a cell comment.)
 
-1. Right-click the cell that contains the comment.
-1. Select **Show/Hide Comments**, and clear any text from the comment.
-1. Click on the border of the comment to select it.
-1. Select **Format**, then **Comment**.
-1. On the **Colors and Lines** tab, expand the **Color** list.
-1. Click **Fill Effects**.
-1. On the **Picture** tab, click **Select Picture**.
-1. Locate and select the picture.
+1. Right-click the cell that contains the comment.  
+1. Select **Show/Hide Comments**, and clear any text from the comment.  
+1. Click on the border of the comment to select it.  
+1. Select **Format**, then **Comment**.  
+1. On the **Colors and Lines** tab, expand the **Color** list.  
+1. Click **Fill Effects**.  
+1. On the **Picture** tab, click **Select Picture**.  
+1. Locate and select the picture.  
 1. Click **OK** until all dialogs have closed.
 
-Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
+Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell **A1** with a picture set as its background.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Text Direction of the Comment](/cells/java/change-text-direction-of-the-comment/)
 - [How to change the Comment Font Color](/cells/java/how-to-change-the-comment-font-color/)
 - [How to set comment background](/cells/java/how-to-set-comment-background/)

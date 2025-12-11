@@ -4,8 +4,8 @@ linktitle: Rendering Slicer
 type: docs  
 weight: 40  
 url: /nodejs-cpp/rendering-slicer/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 ## **Possible Usage Scenarios**  
@@ -15,6 +15,7 @@ Aspose.Cells for Node.js via C++ supports the rendering of slicer shapes. If you
 The following sample code loads the [sample Excel file](67338479.xlsx) that contains an existing slicer. It converts the worksheet into an image by setting the print area that covers only the slicer. The resulting image is the [output image](67338480.png) that shows the rendered slicer. As you can see, the slicer has been rendered properly and looks the same as in the sample Excel file.  
 
 ![todo:image_alt_text](rendering-slicer_1)  
+
 ## **Sample Code**  
 ```javascript
 const path = require("path");
@@ -45,5 +46,5 @@ imgOpts.setOnlyArea(true);
 const sr = new AsposeCells.SheetRender(ws, imgOpts);
 sr.toImage(0, "outputRenderingSlicer.png");
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

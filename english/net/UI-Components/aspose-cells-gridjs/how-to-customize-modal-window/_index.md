@@ -1,10 +1,10 @@
 ---
-title: how to customize UI appearence for modal window in GridJs  
+title: how to customize UI appearance for modal window in GridJs  
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/how-to-customize-ui-window/
-description: This article describes how to customize UI appearence for modal window in GridJs.
-keywords: GridJs,customize,modal,UI,appearence,visual,window
+description: This article describes how to customize UI appearance for modal window in GridJs.
+keywords: GridJs,customize,modal,UI,appearance,visual,window
 aliases:
 aliases:
   - /net/aspose-cells-gridjs/customize-appearence/
@@ -708,7 +708,3 @@ Suitable for business and corporate applications.
 - **Shadow Generator**: [Box Shadows](https://box-shadow.dev/)
 
 ---
- 
-
- 
- 

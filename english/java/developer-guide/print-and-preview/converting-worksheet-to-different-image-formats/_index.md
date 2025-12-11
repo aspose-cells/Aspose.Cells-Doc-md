@@ -25,7 +25,7 @@ Aspose.Cells for Java also supports conversion to TIFF format. To convert a work
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-At present, the converting worksheet to image API does not support 3D-bubble charts.
+At present, the worksheet-to-image conversion API does not support 3D-bubble charts.
 
 {{% /alert %}}
 
@@ -43,7 +43,7 @@ To use this feature, you need to import the com.aspose.cells namespace to your p
 
 The [**com.aspose.cells.ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) class specifies that the worksheet will be saved in SVG format.
 
-The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class takes the object of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) as a parameter that sets the save format to SVG format.
+The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) class takes an [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) object as a parameter, which sets the save format to SVG.
 
 The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
 
@@ -51,7 +51,7 @@ The following code snippet shows how to convert a worksheet in an Excel file to 
 
 ### **Render active worksheet in a workbook**
 
-A simple way to convert active worksheet in a workbook is to set the active sheet index and then save the workbook as SVG. It will render the active sheet to SVG. Following sample code demonstrates this feature:
+A simple way to convert the active worksheet in a workbook is to set the active sheet index and then save the workbook as SVG. It will render the active sheet to SVG. Following sample code demonstrates this feature:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
 

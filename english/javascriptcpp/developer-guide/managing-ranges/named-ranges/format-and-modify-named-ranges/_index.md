@@ -70,8 +70,8 @@ The following example shows how to set the solid fill color (shading color) with
             // Set the font text color
             stl.font.color = Color.Red;
 
-            // To Set the fill color of the range, you may use ForegroundColor with
-            // Solid Pattern setting.
+            // To set the fill color of the range, you may use ForegroundColor with
+            // solid pattern setting.
             stl.foregroundColor = Color.Yellow;
             stl.pattern = BackgroundType.Solid;
 
@@ -84,7 +84,7 @@ The following example shows how to set the solid fill color (shading color) with
             // Apply the style to the range.
             range.applyStyle(stl, flg);
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -101,7 +101,7 @@ The following example shows how to set the solid fill color (shading color) with
 
 ### **Adding Borders to a Named Range**
 
-It is possible to add borders to a range of cells instead of just a single cell. The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object provides a [**outlineBorder(BorderType, CellBorderType, CellsColor)**](https://reference.aspose.com/cells/javascript-cpp/range/#outlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:
+It is possible to add borders to a range of cells instead of just a single cell. The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object provides a [**setOutlineBorder(BorderType, CellBorderType, CellsColor)**](https://reference.aspose.com/cells/javascript-cpp/range/#outlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:
 
 - Border type, the type of border, selected from the [**BorderType**](https://reference.aspose.com/cells/javascript-cpp/bordertype) enumeration.
 - Line style, the line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/javascript-cpp/cellbordertype) enumeration.
@@ -157,7 +157,7 @@ The following example shows how to set an outline border to a range.
             // Adding some value to the "A1" cell
             cell.putValue("Hello World From Aspose");
 
-            // Creating a range of cells starting from "A1" cell to 3rd column in a row
+            // Creating a range of cells starting from "A1" cell to the third column in the row
             const range = worksheet.cells.createRange(0, 0, 1, 3);
 
             // Adding a thick top border with blue line
@@ -241,7 +241,7 @@ The following example shows how to set borders around each cell in the range.
             // Declare style.
             let stl;
 
-            // Create the style adding to the style collection.
+            // Create the style and add it to the style collection.
             stl = workbook.createStyle();
 
             // Specify the font settings.
@@ -286,7 +286,7 @@ The following example shows how to set borders around each cell in the range.
 
 ## **Rename a Named Range**
 
-Aspose.Cells allows you to rename a named range for your needs. You may get the named range and rename it by using [**Name.text**](https://reference.aspose.com/cells/javascript-cpp/name/#text--) attribute. The following example shows how to rename a named range.
+Aspose.Cells allows you to rename a named range for your needs. You may get the named range and rename it by using the **Name.text** attribute. The following example shows how to rename a named range.
 
 ```html
 <!DOCTYPE html>
@@ -359,7 +359,7 @@ Aspose.Cells allows you to rename a named range for your needs. You may get the 
 
 ## **Union of Ranges**
 
-Aspose.Cells provides [**Range.unionRang(Range)**](https://reference.aspose.com/cells/javascript-cpp/range/#unionRang-range-) method to take the union for ranges; the method returns an [*Array*] object. The following example shows how to take union for ranges.
+Aspose.Cells provides the **Range.unionRanges(Range[])** method to take the union of ranges; the method returns an **Array** object. The following example shows how to take the union of ranges.
 
 ```html
 <!DOCTYPE html>
@@ -416,13 +416,13 @@ Aspose.Cells provides [**Range.unionRang(Range)**](https://reference.aspose.com/
             // Create a styleflag object.
             const flag = new AsposeCells.StyleFlag();
 
-            // Apply the cellshading.
+            // Apply the cell shading.
             flag.cellShading = true;
 
             // Creates an array list.
             let al = [];
 
-            // Get the array list collection apply the union operation.
+            // Get the array list collection and apply the union operation.
             al = ranges[0].unionRanges([ranges[1]]);
 
             // Define a range object.
@@ -459,7 +459,7 @@ Aspose.Cells provides [**Range.unionRang(Range)**](https://reference.aspose.com/
 
 ## **Intersection of Ranges**
 
-Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.com/cells/javascript-cpp/range/#intersect-range-) method to intersect two ranges. The method returns a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object. To check whether a range intersects another range, use the [**Range.intersect(Range)**](https://reference.aspose.com/cells/javascript-cpp/range/#intersect-range-) method that returns a Boolean value. The following example shows how to intersect the ranges.
+Aspose.Cells provides the **Range.intersect(Range)** method to intersect two ranges. The method returns a **Range** object. To check whether a range intersects another range, use the **Range.isIntersect(Range)** method, which returns a Boolean value. The following example shows how to intersect the ranges.
 
 ```html
 <!DOCTYPE html>
@@ -506,7 +506,7 @@ Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.
             // Get the named ranges.
             const ranges = workbook.worksheets.namedRanges;
 
-            // Check whether the first range intersect the second range.
+            // Check whether the first range intersects the second range.
             const isIntersect = ranges.get(0).isIntersect(ranges.get(1));
 
             // Create a style object.
@@ -522,7 +522,7 @@ Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.
             // Apply the cell shading.
             flag.cellShading = true;
 
-            // If first range intersects second range.
+            // If the first range intersects the second range.
             if (isIntersect) {
                 // Create a range by getting the intersection.
                 const intersection = ranges.get(0).intersect(ranges.get(1));
@@ -534,7 +534,7 @@ Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.
                 intersection.applyStyle(style, flag);
             }
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -551,7 +551,7 @@ Aspose.Cells provides the [**Range.intersect(Range)**](https://reference.aspose.
 
 ## **Merge Cells in the Named Range**
 
-Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells/javascript-cpp/range/#merge--) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
+Aspose.Cells provides the **Range.merge()** method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
 
 ```html
 <!DOCTYPE html>
@@ -620,7 +620,7 @@ Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells
             // Input data into range.
             range1.get(0, 0).putValue("Aspose");
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = wb1.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -637,7 +637,7 @@ Aspose.Cells provides the [**Range.merge()**](https://reference.aspose.com/cells
 
 ## **Remove a Named Range**
 
-Aspose.Cells provides the [**NameCollection.removeAt(number)**](https://reference.aspose.com/cells/javascript-cpp/namecollection/#removeAt-number-) method to erase the name of the range. To clear the contents of the range, use [**Cells.clearRange(CellArea)**](https://reference.aspose.com/cells/javascript-cpp/cells/#clearRange-cellarea-) method. The following example shows how to remove a named range with its contents.
+Aspose.Cells provides the **NameCollection.removeAt(number)** method to erase the name of the range. To clear the contents of the range, use the **Cells.clearRange(CellArea)** method. The following example shows how to remove a named range with its contents.
 
 ```html
 <!DOCTYPE html>
@@ -690,7 +690,7 @@ Aspose.Cells provides the [**NameCollection.removeAt(number)**](https://referenc
             range1.outlineBorder = { position: BorderType.LeftBorder, type: CellBorderType.Medium, color: new Color(0, 0, 128) };
             range1.outlineBorder = { position: BorderType.RightBorder, type: CellBorderType.Medium, color: new Color(0, 0, 128) };
 
-            // Input some data with some formattings into a few cells in the range.
+            // Input some data with formatting into a few cells in the range.
             range1.get(0, 0).putValue("Test");
             range1.get(0, 4).putValue("123");
 

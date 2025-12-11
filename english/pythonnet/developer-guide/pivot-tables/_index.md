@@ -25,11 +25,10 @@ Aspose.Cells for Python via .NET provides a special set of classes in the [**asp
 
 ### **Creating a Simple Pivot Table Using Aspose.Cells**
 
-1. Add data to a worksheet using the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) object's [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#str) method.
-   This data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) collection's [**add**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/add/#str-str-str) method, which is encapsulated in the Worksheet object.
-1. Access the new [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) object from the [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) collection by passing the PivotTable index.
-1. Use any of the [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) objects (explained above) to manage the pivot table.
+1. Add data to a worksheet using the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) object's [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#str) method. This data will be used as the pivot table's data source.  
+2. Add a pivot table to the worksheet by calling the [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) collection's [**add**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/add/#str-str-str) method, which is encapsulated in the Worksheet object.  
+3. Access the new [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) object from the [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) collection by its index.  
+4. Use any of the [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) objects (explained above) to manage the pivot table.
 
 After executing the example code, a pivot table is added to the worksheet.
 
@@ -41,7 +40,7 @@ When assigning a range of cells as the data source, the range must go from top l
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Consolidation Function](/cells/python-net/consolidation-function/)
 - [Custom sorting in Pivot Table](/cells/python-net/custom-sorting-in-pivot-table/)
 - [Customize Globalization Settings for Pivot Table](/cells/python-net/customize-globalization-settings-for-pivot-table/)
@@ -49,13 +48,13 @@ When assigning a range of cells as the data source, the range must go from top l
 - [Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table](/cells/python-net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/)
 - [Formatting Pivot Table](/cells/python-net/formatting-pivot-table/)
 - [Get External Connection Data Source of Pivot Table](/cells/python-net/get-external-connection-data-source-of-pivot-table/)
-- [Get Pivot Table refresh date and refresh by who information](/cells/python-net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
+- [Get pivot table refresh date and information about who refreshed it](/cells/python-net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
 - [Group Pivot Fields in the Pivot Table](/cells/python-net/group-pivot-fields-in-the-pivot-table/)
 - [Parsing Pivot Cached Records while loading Excel file](/cells/python-net/parsing-pivot-cached-records-while-loading-excel-file/)
 - [Pivot Table and Source Data](/cells/python-net/pivot-table-and-source-data/)
 - [Pivot Table Hide and Sort data](/cells/python-net/pivot-table-hide-and-sort-data/)
-- [Refresh and Calculate Pivot Table having Calculated Items](/cells/python-net/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [Refresh and calculate a pivot table that has calculated items](/cells/python-net/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Save Pivot Table in ODS file](/cells/python-net/save-pivot-table-in-ods-file/)
 - [Show report filter pages option](/cells/python-net/show-report-filter-pages-option/)
-- [Working with data display formats of DataField in Pivot Table](/cells/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+- [Working with data display formats of DataField in a pivot table](/cells/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
 {{< app/cells/assistant language="python-net" >}}

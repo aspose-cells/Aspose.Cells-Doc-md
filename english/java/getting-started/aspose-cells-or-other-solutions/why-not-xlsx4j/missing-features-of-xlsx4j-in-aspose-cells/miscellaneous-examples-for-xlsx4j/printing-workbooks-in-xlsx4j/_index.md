@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Printing Workbooks**
-After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your need. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection.
+After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your needs. When printing, MS Excel assumes you want to print the entire worksheet area unless you specify a selection.
 
 **Printing Worksheet**
 
@@ -60,7 +60,7 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Printing Workbooks ](/cells/java/printing-workbooks).
+For more details, visit [Printing Workbooks](/cells/java/printing-workbooks).
 
 {{% /alert %}}
 {{< app/cells/assistant language="java" >}}

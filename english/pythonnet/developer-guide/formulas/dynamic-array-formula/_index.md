@@ -8,6 +8,7 @@ url: /python-net/calculation-of-dynamic-array-formulas/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 ## **What is the Excel Array Formula**
 In Excel, an array formula is a special type of formula that allows you to perform calculations on arrays of data rather than individual cells. Array formulas can be used to perform complex calculations, manipulate data, and solve specific problems efficiently. They are entered differently from regular formulas and often require the use of Ctrl + Shift + Enter.
 
@@ -17,7 +18,7 @@ Here are some key points about array formulas in Excel:
 Array formulas are written like regular formulas but involve operations on arrays of values. They are enclosed in curly braces { } to indicate that they are array formulas. However, you don't type these curly braces yourself; Excel adds them automatically when you enter the formula correctly.
 1. Entering Array Formulas:
 <br>
-To enter an array formula, you type the formula into the formula bar.Instead of pressing Enter to finish, you press Ctrl + Shift + Enter. This tells Excel that it's an array formula. When entered correctly, Excel displays the formula within curly braces in the formula bar to indicate that it's an array formula.
+To enter an array formula, you type the formula into the formula bar. Instead of pressing Enter to finish, you press Ctrl + Shift + Enter. This tells Excel that it's an array formula. When entered correctly, Excel displays the formula within curly braces in the formula bar to indicate that it's an array formula.
 1. Use Cases:
 <br>
 Array formulas are useful for performing calculations across multiple cells or ranges simultaneously. They can be used for advanced mathematical calculations, conditional operations, filtering data, and more.
@@ -77,21 +78,22 @@ Dynamic array formulas are available in Excel 365 and Excel 2021. They may not b
 
 Dynamic array formulas offer powerful capabilities for data manipulation and analysis in Excel, making it easier to work with arrays of data and perform complex calculations efficiently.
 
-## **What is the difference of Array Formulas and Dynamic Array Formulas in Excel**
+## **What is the difference between Array Formulas and Dynamic Array Formulas in Excel**
 In Excel, both array formulas and dynamic array formulas are used to perform calculations on multiple values simultaneously, but they have some differences in terms of functionality and how they are implemented.
 
 ### **Array Formulas Features**
 1. Array formulas are traditional formulas in Excel that can perform calculations on arrays of data.
-1. They are entered by pressing Ctrl + Shift + Enter after typing the formula, which tells Excel that it's an array formula.
-1. Array formulas have limitations in terms of their ability to spill results into adjacent cells. They typically return a 1. single result, although that result might be a cell array.
-1. They have been around for a long time and are supported in all versions of Excel.
+2. They are entered by pressing Ctrl + Shift + Enter after typing the formula, which tells Excel that it's an array formula.
+3. Array formulas have limitations in terms of their ability to spill results into adjacent cells. They typically return a single result, although that result might be a cell array.
+4. They have been around for a long time and are supported in all versions of Excel.
 
 ### **Dynamic Array Formulas Features**
 1. Dynamic array formulas are a new feature introduced in Excel 365 (Office 365 subscription) and Excel 2021.
-1. They automatically spill results into adjacent cells based on the size of the input data or the formula's calculation.
-1. Dynamic array formulas don't require pressing Ctrl + Shift + Enter; you simply type the formula into one cell, and Excel automatically populates the adjacent cells with the results.
-1. These formulas have the ability to return multiple results (a range of cells) directly without the need for an array formula or Ctrl + Shift + Enter.
-1. They have new functions like **FILTER**, **SORT**, **UNIQUE**, etc., which can handle arrays natively and return results in a dynamic array format.
+2. They automatically spill results into adjacent cells based on the size of the input data or the formula's calculation.
+3. Dynamic array formulas don't require pressing Ctrl + Shift + Enter; you simply type the formula into one cell, and Excel automatically populates the adjacent cells with the results.
+4. These formulas have the ability to return multiple results (a range of cells) directly without the need for an array formula or Ctrl + Shift + Enter.
+5. They have new functions like **FILTER**, **SORT**, **UNIQUE**, etc., which can handle arrays natively and return results in a dynamic array format.
+
 In summary, dynamic array formulas are a more modern and convenient way to work with arrays in Excel, providing automatic spilling of results and simplifying the process of working with arrays compared to traditional array formulas. However, they are only available in the newer versions of Excel that support dynamic arrays.
 
 ## **How to Set and Calculate Dynamic Array Formulas in Excel**
@@ -130,7 +132,7 @@ If you want to clear the spilled data, you can delete the formula from the origi
 By following these steps, you can set up dynamic array formulas in Excel to efficiently analyze and manipulate arrays of data, allowing for easier data analysis and reporting tasks.
 
 ## **How to Set and Refresh Dynamic Array Formulas Using Aspose.Cells for Python via .NET**
-Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [**Cell.set_dynamic_array_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-aspose.cells.FormulaParseOptions-bool) function to set dynamic array formula and  [**Workbook.refresh_dynamic_array_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) function to refresh dynamic array formulas before calling formula calculation, and finally save the workbook as [output Excel file](out.xlsx). 
+Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [**Cell.set_dynamic_array_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-aspose.cells.FormulaParseOptions-bool) function to set the dynamic array formula and the [**Workbook.refresh_dynamic_array_formulas**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) function to refresh dynamic array formulas before calling formula calculation, and finally save the workbook as the [output Excel file](out.xlsx). 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Formulas-dynamic-array-formulas.py" >}}
 

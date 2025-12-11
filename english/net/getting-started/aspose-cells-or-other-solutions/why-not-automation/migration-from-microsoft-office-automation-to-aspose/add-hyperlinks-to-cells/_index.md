@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET allows you to perform almost any tasks through your application that a user can perform in Microsoft Excel. This article compares how to add a hyperlink to a cell in a worksheet using VSTO and Aspose.Cells for .NET.
+Aspose.Cells for .NET allows you to perform almost any task through your application that a user can perform in Microsoft Excel. This article compares how to add a hyperlink to a cell in a worksheet using VSTO and Aspose.Cells for .NET.
 
 {{% /alert %}}
 
@@ -18,15 +18,14 @@ Aspose.Cells for .NET allows you to perform almost any tasks through your applic
 To add hyperlinks to cells in a spreadsheet, take the following steps:
 
 1. Set up the worksheet:
-   1. Instantiate an Application object.
-      (VSTO only.)
+   1. Instantiate an Application object. (VSTO only.)
    1. Add a Workbook.
    1. Get the first sheet.
    1. Add text to the cells that you'll add a hyperlink to.
-1. Add hyperlink.
-1. Save the document.
+2. Add hyperlink.
+3. Save the document.
 
-These steps are shown in the code examples below. The first examples shows how to use [VSTO](/cells/net/add-hyperlinks-to-cells/) with either C# or Visual Basic to add a hyperlink to a cell. The examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/add-hyperlinks-to-cells/), again using C# or Visual Basic.
+These steps are shown in the code examples below. The first example shows how to use [VSTO](/cells/net/add-hyperlinks-to-cells/) with either C# or Visual Basic to add a hyperlink to a cell. The examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/add-hyperlinks-to-cells/), again using C# or Visual Basic.
 
 The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet.
 
@@ -41,8 +40,6 @@ The code samples generate an Excel file that has a hyperlink in cell A1 on the f
 {{< highlight csharp >}}
 
  .......
-
-
 
 using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -62,13 +59,11 @@ Excel.ApplicationClass ExcelApp = new Excel.ApplicationClass();
 
 Excel.Workbook objBook = ExcelApp.Workbooks.Add(System.Reflection.Missing.Value);
 
-//Get the First sheet.
+//Get the first sheet.
 
 Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
-
-
-//Define a range object(A1).
+//Define a range object (A1).
 
 Excel.Range _range;
 
@@ -78,15 +73,13 @@ _range = objSheet.get_Range("A1", "A1");
 
 objSheet.Hyperlinks.Add(_range, "http://www.aspose.com/", Type.Missing, "Click to go to Aspose site", "Aspose Site!");
 
-//Save the excel file.
+//Save the Excel file.
 
-objBook.SaveCopyAs("c:\\Hyperlink_test.xls"); 
+objBook.SaveCopyAs("c:\\Hyperlink_test.xls");
 
-//Quit the Application.
+//Quit the application.
 
 ExcelApp.Quit();
-
-
 
 {{< /highlight >}}
 
@@ -106,11 +99,11 @@ using Aspose.Cells;
 
 Workbook workbook = new Workbook();
 
-//Get the First sheet.
+//Get the first sheet.
 
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Define A1 Cell.
+//Define A1 cell.
 
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
@@ -122,11 +115,9 @@ worksheet.Hyperlinks[index].TextToDisplay = "Aspose Site!";
 
 worksheet.Hyperlinks[index].ScreenTip = "Click to go to Aspose site";
 
-//Save the excel file.
+//Save the Excel file.
 
 workbook.Save("c:\\Hyperlink_test.xls");       
-
-
 
 {{< /highlight >}}
 {{< app/cells/assistant language="csharp" >}}

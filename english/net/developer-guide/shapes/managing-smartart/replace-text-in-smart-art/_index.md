@@ -1,5 +1,5 @@
 ---
-title: Replace text in smart art
+title: Replace text in SmartArt
 type: docs
 weight: 1200
 url: /net/replace-text-in-smart-art/
@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provide this feature by setting [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
+SmartArt is one of the major objects in a workbook. Many times there is a need to update the text in SmartArt. Aspose.Cells provides this feature by setting [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
 
 The sample source file can be downloaded from the following link:
 

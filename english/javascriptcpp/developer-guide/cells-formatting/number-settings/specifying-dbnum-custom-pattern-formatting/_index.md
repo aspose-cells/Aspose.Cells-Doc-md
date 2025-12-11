@@ -10,7 +10,7 @@ url: /javascript-cpp/specifying-dbnum-custom-pattern-formatting/
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells for JavaScript via C++ supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom formatting as [DBNum2][$-804]General then it will be displayed like 壹佰贰拾叁. You can specify your custom formatting of the cell using [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) method and [**Style.custom(string)**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) method.
+Aspose.Cells for JavaScript via C++ supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom formatting as `[DBNum2][$-804]General`, it will be displayed like 壹佰贰拾叁. You can specify your custom formatting of the cell using the [**Cell.style**](https://reference.aspose.com/cells/javascript-cpp/cell/#style--) method and the [**Style.custom(string)**](https://reference.aspose.com/cells/javascript-cpp/style/#custom-string-) method.
 
 ## **Sample Code**
 
@@ -58,14 +58,14 @@ The following sample code illustrates how to specify *DBNum* custom pattern form
                 workbook = new Workbook();
             }
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const ws = workbook.worksheets.get(0);
 
-            // Access cell A1 and put value 123.
+            // Access cell A1 and set its value to 123.
             const cell = ws.cells.get("A1");
             cell.value = 123;
 
-            // Access cell style.
+            // Access the cell style.
             const st = cell.style;
 
             // Specifying DBNum custom pattern formatting.
@@ -77,7 +77,7 @@ The following sample code illustrates how to specify *DBNum* custom pattern form
             // Set the first column width.
             ws.cells.columns.get(0).width = 30;
 
-            // Save the workbook in output pdf format.
+            // Save the workbook in PDF format.
             const outputData = workbook.save(SaveFormat.Pdf);
             const blob = new Blob([outputData], { type: "application/pdf" });
             const downloadLink = document.getElementById('downloadLink');

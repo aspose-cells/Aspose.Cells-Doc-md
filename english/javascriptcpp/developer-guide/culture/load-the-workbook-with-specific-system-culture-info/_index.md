@@ -1,15 +1,15 @@
 ---
-title: Load the Workbook with specific System Culture Info via JavaScript and C++
-linktitle: Load the Workbook with specific System Culture Info
+title: Load the Workbook with Specific System Culture Info via JavaScript and C++
+linktitle: Load the Workbook with Specific System Culture Info
 type: docs
 weight: 190
 url: /javascript-cpp/load-the-workbook-with-specific-system-culture-info/
 ---
 
 ## **Possible Usage Scenarios**
-Earlier, you had to change the culture info of the entire thread to deal with numbers and dates in a particular culture format, but now Aspose.Cells for JavaScript via C++ provides the `LoadOptions.CultureInfo` property which you can use to load your workbook with specific culture info without changing the culture info of the entire thread.
+Earlier, you had to change the culture information of the entire thread to deal with numbers and dates in a particular cultural format, but now Aspose.Cells for JavaScript via C++ provides the `LoadOptions.CultureInfo` property, which you can use to load your workbook with specific culture information without changing the culture information of the entire thread.
 
-## **Load the Workbook with specific System Culture Info**
+## **Load the Workbook with Specific System Culture Info**
 The following sample code shows how to load the workbook with specific system culture info to deal with dates.
 
 ```html
@@ -113,7 +113,7 @@ The following sample code shows how to load the workbook with specific system cu
         });
 
         document.getElementById('runExample').addEventListener('click', () => {
-            // Creating an in-memory HTML stream equivalent
+            // Creating an in‑memory HTML stream equivalent
             const htmlString = "<html><head><title>Test Culture</title></head><body><table><tr><td>1234,56</td></tr></table></body></html>";
 
             // Encode string to Uint8Array for Workbook constructor
@@ -124,7 +124,7 @@ The following sample code shows how to load the workbook with specific system cu
             const options = new LoadOptions(LoadFormat.Html);
             options.region = CountryCode.UnitedKingdom;
 
-            // Instantiate Workbook from the in-memory HTML content
+            // Instantiate Workbook from the in‑memory HTML content
             const workbook = new Workbook(new Uint8Array(array), options);
 
             // Access first worksheet and cell A1

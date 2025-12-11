@@ -4,18 +4,18 @@ type: docs
 weight: 170
 url: /net/aspose-cells-gridweb/add-remove-comment-from-client-side/
 keywords: GridWeb,add,remove,comment,js
-description: This article introduces how to work with comment in client js in GridWeb.
+description: This article introduces how to work with comments in client‑side JavaScript in GridWeb.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-This topic discusses adding and removing Comments from client side in the Aspose.Cells.GridWeb control.
+This topic discusses adding and removing comments from the client side in the Aspose.Cells.GridWeb control.
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb now supports adding and removing Comments from client side. For this, the API provides the "addcomments" and "delcomments" functions. The following code snippet demonstrates adding and removing comments from client side in GridWeb.
+Aspose.Cells GridWeb now supports adding and removing comments from the client side. For this, the API provides the `addcomments` and `delcomments` functions. The following code snippet demonstrates adding and removing comments from the client side in GridWeb.
 
 ## Sample Code
 

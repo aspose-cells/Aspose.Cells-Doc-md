@@ -8,31 +8,34 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Migration Tip:**
-\1. Create Workbook object and get Worksheet.
-\2. Insert text in worksheet.
-\3. Create new Worksheet and Copy it to previous before made worksheet.
+\1. Create a Workbook object and get a Worksheet.  
+\2. Insert text in the worksheet.  
+\3. Create a new Worksheet and copy it to the previously created worksheet.  
+
 ### **VSTO**
-Error rendering macro 'code' : Invalid value specified for parameter lang
+Error rendering macro 'code' : Invalid value specified for parameter lang  
+
 ### **Aspose.Cells**
 {{< highlight csharp >}}
 
-  private static string fileName ="CopyWorksheets.xlsx";
+private static string fileName = "CopyWorksheets.xlsx";
 
- Workbook newWorkbook = new Workbook();
+Workbook newWorkbook = new Workbook();
 
- Worksheet worksheet = newWorkbook.Worksheets.Add("New Sheet");
+Worksheet worksheet = newWorkbook.Worksheets.Add("New Sheet");
 
- Cells cells = worksheet.Cells;
+Cells cells = worksheet.Cells;
 
- cells[0, 0].PutValue("Some Text");
+cells[0, 0].PutValue("Some Text");
 
- Worksheet worksheet2 = newWorkbook.Worksheets.Add("MySheet");
+Worksheet worksheet2 = newWorkbook.Worksheets.Add("MySheet");
 
- worksheet2.Copy(worksheet);
+worksheet2.Copy(worksheet);
 
- newWorkbook.Save(fileName);
+newWorkbook.Save(fileName);
 
 {{< /highlight >}}
+
 ## **Download**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
 {{< app/cells/assistant language="csharp" >}}

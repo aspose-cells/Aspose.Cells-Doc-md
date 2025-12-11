@@ -5,17 +5,17 @@ type: docs
 weight: 110
 url: /javascript-cpp/support-for-xades-signature/
 description: This article describes support for XAdES Signature using JavaScript via C++ with Aspose.Cells.
-keywords: Support for XAdES Signature JavaScript via C++, How to sign Excel with XAdES Signature JavaScript via C++, How to add XAdES signature JavaScript via C++.  
----  
-  
-## **Introduction**  
-  
-Aspose.Cells provides support for signing workbooks with XAdES Signature. For this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature) class and [**XAdESType**](https://reference.aspose.com/cells/javascript-cpp/xadestype) enumeration.  
-  
-## **How to Add XAdES Signature for Excel**  
-  
-The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature) class to sign the [source](101089323.xlsx) workbook.  
-  
+keywords: Support for XAdES Signature JavaScript via C++, How to sign Excel with XAdES Signature JavaScript via C++, How to add XAdES signature JavaScript via C++.
+---
+
+## **Introduction**
+
+Aspose.Cells provides support for signing workbooks with an XAdES signature. For this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature) class and [**XAdESType**](https://reference.aspose.com/cells/javascript-cpp/xadestype) enumeration.
+
+## **How to Add XAdES Signature for Excel**
+
+The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature) class to sign the source workbook.
+
 ```html
 <!DOCTYPE html>
 <html>

@@ -20,14 +20,14 @@ This article explains how to <b>convert HTML to PDF</b>. It covers the following
 </ul>
 
 ## **HTML to PDF Conversion in JavaScript**
-How to convert HTML to PDF? With [Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/) library, you can easily convert HTML to PDF programmatically with a few lines of code. Aspose.Cells for JavaScript via C++ is capable of building cross-platform applications with the ability to generate, modify, convert, render and print all Excel files.
+How to convert HTML to PDF? With [Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/) library, you can easily convert HTML to PDF programmatically with a few lines of code. Aspose.Cells for JavaScript via C++ is capable of building cross‑platform applications with the ability to generate, modify, convert, render and print all Excel files.
 
 ## **JavaScript Convert HTML to PDF**
 The following JavaScript code sample shows how to convert an HTML document to a PDF using [Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/).
 
-1. Create an instance of the [HtmlLoadOptions](https://reference.aspose.com/cells/javascript-cpp/htmlloadoptions/) class.
-1. Initialize [Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook/) object.
-1. Save output PDF document by calling Workbook.save() method.
+1. Create an instance of the [HtmlLoadOptions](https://reference.aspose.com/cells/javascript-cpp/htmlloadoptions/) class.  
+2. Initialize a [Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook/) object.  
+3. Save the output PDF document by calling the `Workbook.save()` method.
 
 ```html
 <!DOCTYPE html>
@@ -87,8 +87,8 @@ The following JavaScript code sample shows how to convert an HTML document to a 
 </html>
 ```
 
-## **Try to convert HTML to PDF online**
+## **Try converting HTML to PDF online**
 
-[Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML to PDF”</a>, where you may try to investigate the functionality and quality it works.
+[Aspose.Cells for JavaScript via C++](https://releases.aspose.com/cells/javascript-cpp/) provides a free online application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML to PDF”</a>, where you can try the functionality and evaluate the quality of the results.  
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>

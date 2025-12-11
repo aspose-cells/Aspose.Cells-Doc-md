@@ -9,11 +9,11 @@ description: Manage slicers of Excel files with Aspose.Cells for JavaScript via 
 
 ## **Possible Usage Scenarios**
 
-A slicer is used to filter data quickly. It can be used to filter data both in a table or pivot table. Microsoft Excel allows you to create slicer by selecting a table or pivot table and then clicking the *Insert > Slicer*. Aspose.Cells for JavaScript via C++ also allows you to create slicer using the [**Worksheet.slicers.add()**](https://reference.aspose.com/cells/javascript-cpp/slicercollection/#add-pivottable-string-string-) method.
+A slicer is used to filter data quickly. It can be used to filter data in either a table or a pivot table. Microsoft Excel allows you to create a slicer by selecting a table or a pivot table and then clicking *Insert > Slicer*. Aspose.Cells for JavaScript via C++ also allows you to create a slicer using the [**Worksheet.slicers.add()**](https://reference.aspose.com/cells/javascript-cpp/slicercollection/#add-pivottable-string-string-) method.
 
 ## **Create Slicer to a Pivot Table**
 
-Please see the following sample code. It loads the [sample Excel file](67338470.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](67338471.xlsx) and [output XLSB](67338472.xlsb) format. The following screenshot shows the slicer created by Aspose.Cells for JavaScript via C++ in the output Excel file.
+Please see the following sample code. It loads the [sample Excel file](67338470.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](67338471.xlsx) and [output XLSB](67338472.xlsb) formats. The following screenshot shows the slicer created by Aspose.Cells for JavaScript via C++ in the output Excel file.
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
@@ -70,7 +70,7 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
             // Access first pivot table inside the worksheet.
             const pt = ws.pivotTables.get(0);
 
-            // Add slicer relating to pivot table with first base field at cell B22.
+            // Add a slicer related to the pivot table using the first base field at cell B22.
             const idx = ws.slicers.add(pt, "B22", pt.baseFields.get(0));
 
             // Access the newly added slicer from slicer collection.

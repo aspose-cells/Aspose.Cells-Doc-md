@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 PDF logical structure facilities provide a mechanism for incorporating information regarding the document content structure into a PDF file. Aspose.Cells preserves information about the structure from a Microsoft Excel document, such as cell, row, table, worksheet, image, shape, header/footer, etc.  
 
-With option [PdfSaveOptions.GetExportDocumentStructure()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getexportdocumentstructure/), you can save to a tagged PDF with document structure exported.  
+With the option [PdfSaveOptions.GetExportDocumentStructure()](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/getexportdocumentstructure/), you can save to a tagged PDF with document structure exported.  
 
 ```c++
 #include <iostream>
@@ -32,7 +32,7 @@ int main()
     PdfSaveOptions pdfSaveOptions;
     pdfSaveOptions.SetExportDocumentStructure(true);
 
-    // Save the PDF file with PdfSaveOptions
+    // Save the PDF file using PdfSaveOptions
     workbook.Save(u"output.pdf", pdfSaveOptions);
 
     std::cout << "PDF file saved successfully with document structure!" << std::endl;
@@ -41,5 +41,4 @@ int main()
 }
 ```  
 
-  
 {{< app/cells/assistant language="cpp" >}}

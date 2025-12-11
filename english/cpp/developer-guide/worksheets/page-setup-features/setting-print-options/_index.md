@@ -24,7 +24,7 @@ These print options allow users to:
 - Print titles.
 - Print gridlines.
 - Print row/column headings.
-- Achieve draft quality.
+- Print in draft quality.
 - Print comments.
 - Print cell errors.
 - Define page ordering.
@@ -35,7 +35,7 @@ Aspose.Cells supports all the print options offered by Microsoft Excel, and deve
 
 By default, the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetPrintArea()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintarea/) property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class's [**GetPrintArea()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintarea/) method. Assign a cell range that defines the print area to this property.
 
 ```cpp
 #include <iostream>
@@ -75,7 +75,7 @@ int main()
 
 ### **Set Print Titles**
 
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class' [**GetPrintTitleColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinttitlecolumns/) and [**GetPrintTitleRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinttitlerows/) properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class's [**GetPrintTitleColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinttitlecolumns/) and [**GetPrintTitleRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinttitlerows/) properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -127,28 +127,28 @@ The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetu
 - [**GetPrintGridlines()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintgridlines/): a Boolean property that defines whether to print gridlines or not.
 - [**GetPrintHeadings()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintheadings/): a Boolean property that defines whether to print row and column headings or not.
 - [**GetBlackAndWhite()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getblackandwhite/): a Boolean property that defines whether to print the worksheet in black and white mode or not.
-- [**GetPrintComments()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintcomments/): defines whether to display the print comments on the worksheet or at the end of the worksheet.
-- [**GetPrintDraft()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintdraft/): a boolean property that defines whether to print the sheet without graphics.
-- [**GetPrintErrors()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinterrors/): defines whether to print cell errors as displayed, blank, dash, or N/A.
+- [**GetPrintComments()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintcomments/): defines whether to print comments on the worksheet or at the end of the worksheet.
+- [**GetPrintDraft()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintdraft/): a Boolean property that defines whether to print the sheet without graphics.
+- [**GetPrintErrors()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinterrors/): defines whether to print cell errors as displayed, blank, dash, or N/A.
 
-To set the [**GetPrintComments()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintcomments/) and [**GetPrintErrors()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinterrors/) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) and [**PrintErrorsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printerrorstype/) that contain pre-defined values to be assigned to the [**GetPrintComments()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintcomments/) and [**GetPrintErrors()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinterrors/) properties respectively.
+To set the [**GetPrintComments()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprintcomments/) and [**GetPrintErrors()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getprinterrors/) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) and [**PrintErrorsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printerrorstype/) that contain pre‑defined values to be assigned to those properties respectively.
 
-The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enumeration are listed below with their descriptions.
+The pre‑defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printcommentstype/) enumeration are listed below with their descriptions.
 
-|**Print Comments Types**|**Description**|
+| **Print Comments Types** | **Description** |
 | :- | :- |
-|PrintInPlace|Specifies to print comments as displayed on the worksheet.|
-|PrintNoComments|Specifies not to print comments.|
-|PrintSheetEnd|Specifies to print comments at the end of the worksheet.|
+| PrintInPlace | Specifies to print comments as displayed on the worksheet. |
+| PrintNoComments | Specifies not to print comments. |
+| PrintSheetEnd | Specifies to print comments at the end of the worksheet. |
 
-The pre-defined values of [**PrintErrorsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printerrorstype/) enumeration are listed below with their descriptions.
+The pre‑defined values of [**PrintErrorsType**](https://reference.aspose.com/cells/cpp/aspose.cells/printerrorstype/) enumeration are listed below with their descriptions.
 
-|**Print Errors Types**|**Description**|
+| **Print Errors Types** | **Description** |
 | :- | :- |
-|PrintErrorsBlank|Specifies not to print errors.|
-|PrintErrorsDash|Specifies to print errors as "--".|
-|PrintErrorsDisplayed|Specifies to print errors as displayed.|
-|PrintErrorsNA|Specifies to print errors as "#N/A".|
+| PrintErrorsBlank | Specifies not to print errors. |
+| PrintErrorsDash | Specifies to print errors as “--”. |
+| PrintErrorsDisplayed | Specifies to print errors as displayed. |
+| PrintErrorsNA | Specifies to print errors as “#N/A”. |
 
 ```c++
 #include <iostream>
@@ -194,19 +194,19 @@ int main()
 
 ### **Set Page Order**
 
-The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides the [**GetOrder()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getorder/) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
+The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides the [**GetOrder()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/getorder/) property, which is used to specify the order of multiple pages of your worksheet to be printed. There are two possible orders:
 
-- **Down then over:** prints all the pages down before printing any pages to the right.
+- **Down then over:** prints all the pages downward before printing any pages to the right.
 - **Over then down:** prints pages left to right before printing the pages below.
 
-Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/cpp/aspose.cells/printordertype/) that contains all pre-defined order types.
+Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/cpp/aspose.cells/printordertype/) that contains all pre‑defined order types.
 
-The pre-defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/cpp/aspose.cells/printordertype/) enumeration are listed below.
+The pre‑defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/cpp/aspose.cells/printordertype/) enumeration are listed below.
 
-|**Print Order Types**|**Description**|
+| **Print Order Types** | **Description** |
 | :- | :- |
-|DownThenOver|Represents printing order as down then over.|
-|OverThenDown|Represents printing order as over then down.|
+| DownThenOver | Represents printing order as down then over. |
+| OverThenDown | Represents printing order as over then down. |
 
 ```c++
 #include <iostream>

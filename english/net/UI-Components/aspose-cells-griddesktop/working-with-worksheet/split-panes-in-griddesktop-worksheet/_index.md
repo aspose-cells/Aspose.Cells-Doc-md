@@ -10,10 +10,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Microsoft Excel allows you to split panes using View > Split menu command. Aspose.Cells also provides this feature. Please use GridDesktop.DoSplit() and GridDesktop.UnDoSplit() methods to split and unsplit panes in GridDesktop worksheet.
+Microsoft Excel allows you to split panes using the View > Split menu command. Aspose.Cells also provides this feature. Please use GridDesktop.DoSplit() and GridDesktop.UnDoSplit() methods to split and unsplit panes in a GridDesktop worksheet.
+
 ## **Split Panes in GridDesktop Worksheet**
-The following screenshots shows the GridDesktop before split planes and after split planes.
+The following screenshots show the GridDesktop before split panes and after split panes.
+
 ### **GridDesktop Before Split Panes**
 ![todo:image_alt_text](split-panes-in-griddesktop-worksheet_1.png)
+
 ### **GridDesktop After Split Panes**
 ![todo:image_alt_text](split-panes-in-griddesktop-worksheet_2.png)

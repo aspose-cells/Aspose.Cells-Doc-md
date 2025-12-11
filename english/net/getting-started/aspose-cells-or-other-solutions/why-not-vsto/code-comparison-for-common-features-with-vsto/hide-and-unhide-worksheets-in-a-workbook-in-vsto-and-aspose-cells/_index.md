@@ -7,21 +7,24 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This article compares hiding and unhiding worksheets with VSTO, using either C# or Visual Basic, to performing the same task with Aspose.Cells, again using either C# or Visual Basic. Aspose.Cells lets you work without Microsoft Excel installed.
+This article compares hiding and unhiding worksheets with VSTO, using either C# or Visual Basic, **with** performing the same task with Aspose.Cells, again using either C# or Visual Basic. Aspose.Cells lets you work without Microsoft Excel installed.
 
 The steps to hide a worksheet are:
 
-1. Open a file.
-1. Get a worksheet.
-1. Hide the worksheet.
-1. Save the file.
-   To unhide a worksheet again, simply toggle visibility on for the hidden sheet.
+1. Open a file.  
+2. Get a worksheet.  
+3. Hide the worksheet.  
+4. Save the file.  
+
+To unhide a worksheet again, simply toggle visibility on for the hidden sheet.
 
 The code samples below first show how to hide a worksheet. The first samples show the process with VSTO, using either C#, compared to using Aspose.Cells, again using either C#.
 
-The second set of code samples show the line used to unhide the worksheet in VSTO or Aspose.Cells.
+The second set of code samples **shows** the line used to unhide the worksheet in VSTO or Aspose.Cells.
+
 ## **Hiding Worksheets**
 Below are code samples for VSTO and Aspose.Cells that illustrate how to hide a worksheet in a workbook.
+
 ### **VSTO**
 {{< highlight csharp >}}
 
@@ -67,6 +70,7 @@ excelApp.Quit();
 
 
 {{< /highlight >}}
+
 ### **Aspose.Cells**
 {{< highlight csharp >}}
 
@@ -95,8 +99,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **UnHiding Worksheet**
+
+## **Unhiding Worksheet**
 Below are code samples for VSTO and Aspose.Cells that illustrate how to unhide a worksheet in a workbook.
+
 ### **VSTO**
 {{< highlight csharp >}}
 
@@ -105,6 +111,7 @@ Below are code samples for VSTO and Aspose.Cells that illustrate how to unhide a
 	objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 
 {{< /highlight >}}
+
 ### **Aspose.Cells**
 {{< highlight csharp >}}
 
@@ -113,6 +120,7 @@ Below are code samples for VSTO and Aspose.Cells that illustrate how to unhide a
 objSheet.IsVisible = true;
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)

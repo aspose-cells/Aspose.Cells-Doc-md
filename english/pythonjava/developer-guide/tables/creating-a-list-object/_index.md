@@ -7,7 +7,7 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-The use of worksheets make is easy to work with different types of lists, for example. phone lists, task lists. etc. Aspose.Cells supports creating and managing lists.
+The use of worksheets makes it easy to work with different types of lists, for example phone lists, task lists, etc. Aspose.Cells supports creating and managing lists.
 
 ## **Advantages of a List Object**
 
@@ -32,7 +32,7 @@ This displays the Create List dialog.
 
 ![todo:image_alt_text](picture2.png)
 
-Implementing the List object and specifying Total Row (Select **Data**, then **List**, followed by **Total Row**).
+Implementing the List object and specifying a Total Row (Select **Data**, then **List**, followed by **Total Row**).
 
 **Creating a List object** 
 
@@ -42,9 +42,9 @@ Implementing the List object and specifying Total Row (Select **Data**, then *
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class provides a wide range of properties and methods for managing a worksheet. To create a [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) in a worksheet, use [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects) collection property of the [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection) class, which further provides the [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) method for adding a List object and specifying a range of cells for the list.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class provides a wide range of properties and methods for managing a worksheet. To create a [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) in a worksheet, use the [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects) collection property of the [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection) class, which further provides the [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) method for adding a List object and specifying a range of cells for the list.
 
-According to the specified range of cells, the List object is created in the worksheet by Aspose.Cells. Use attributes (for example, ShowTotals, ListColumns, etc.) of the [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) class to control the list.
+According to the specified range of cells, the List object is created in the worksheet by Aspose.Cells. Use attributes (for example, ShowTotals, ListColumns, etc.) of the [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) class to control the list.
 
 In the example given below, we have created the same [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) using Aspose.Cells for Python via Java API as we created using Microsoft Excel in the above section.
 

@@ -7,24 +7,22 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-It sets the Group attributes of table report item through Modify Attributes. The parameters include Type, Name, Level and Hide.
+It sets the Group attributes of a table report item through **Modify Attributes**. The parameters include **Type**, **Name**, **Level**, and **Hide**.
 
-- Type represents Group Type. It includes Row Group and Column Group.
-- Name represents Group name.
-- Level represents Group level.
-- Hide represents Group hide.
+- **Type** represents the group type. It includes Row Group and Column Group.  
+- **Name** represents the group name.  
+- **Level** represents the group level.  
+- **Hide** represents the group hide setting.
 
-Modifying Report involves the following steps:
-Open “Modify Report” dialog box and choose Outline tab.
+Modifying a report involves the following steps:  
+Open the “Modify Report” dialog box and choose the **Outline** tab.
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
-
-Click **Modify** button and update Hide configuration. 
+Click the **Modify** button and update the Hide configuration.
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
-
-Click **Commit** button and save hide configs. 
+Click the **Commit** button and save the hide configurations.
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

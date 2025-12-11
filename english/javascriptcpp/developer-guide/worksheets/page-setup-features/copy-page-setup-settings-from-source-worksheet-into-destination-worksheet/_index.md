@@ -4,7 +4,7 @@ linktitle: Copy Page Setup Settings from Source Worksheet into Destination Works
 type: docs
 weight: 80
 url: /javascript-cpp/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: This article explains how to use the JavaScript API or C++ Library sample code to copy Page Setup settings from a source Worksheet into a destination Worksheet programmatically.
+description: This article explains how to use the JavaScript API or C++ library sample code to copy Page Setup settings from a source worksheet into a destination worksheet programmatically.
 keywords: copy page setup settings JavaScript via C++, copy page setup settings to target worksheet JavaScript via C++
 ---
 
@@ -14,7 +14,7 @@ When you add a new sheet to a workbook, it contains the default *Page Setup sett
 
 ## **Copy Page Setup Settings from Source Worksheet into Destination Worksheet**
 
-The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using [**PageSetup.copy(PageSetup, CopyOptions)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#copy-pagesetup-copyoptions-) method. Please see the following sample code and its console output for a reference.
+The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using [**PageSetup.copy(PageSetup, CopyOptions)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#copy-pagesetup-copyoptions-) method. Please see the following sample code and its console output for reference.
 
 ## **Sample Code**
 

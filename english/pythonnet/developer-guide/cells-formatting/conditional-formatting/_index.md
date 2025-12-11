@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Conditional formatting is an advanced Microsoft Excel feature that allows you to apply formats to a cell or range of cells and have that formatting change depending on the value of the cell or the value of a formula. For example, you can have a cell appear bold only when the value of the cell is greater than 500. When the value of the cell meets the condition, the specified format is applied to the cell. If the value of the cell does not meet the format condition, the cell's default formatting is used. In Microsoft Excel, select **Format**, then **Conditional Formatting** to open the Conditional Formatting dialog.
 
-Aspose.Cells for Python via .NET supports applying conditional formatting to cells at runtime. This article explains how. It also explains how to calculate the color used by Excel for color scale conditional formatting.
+Aspose.Cells for Python via .NET supports applying conditional formatting to cells at runtime. This article explains how. It also explains how to calculate the color used by Excel for color scale conditional formatting.
 
 ## **Applying Conditional Formatting**
 
@@ -26,7 +26,7 @@ Aspose.Cells for Python via .NET supports conditional formatting in several ways
 
 ### **Using Designer Spreadsheet**
 
-Developers can create a designer spreadsheet that contains conditional formatting in Microsoft Excel and then open that spreadsheet with Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET loads and saves the designer spreadsheet, keeping any conditional formatting setting.
+Developers can create a designer spreadsheet that contains conditional formatting in Microsoft Excel and then open that spreadsheet with Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET loads and saves the designer spreadsheet, keeping any conditional formatting settings.
 
 ### **Using the Copy Method**
 
@@ -38,15 +38,15 @@ Aspose.Cells for Python via .NET allows developers to copy conditional format se
 
 Aspose.Cells for Python via .NET lets you both add and remove conditional formatting at runtime. The code samples below show how to set conditional formatting:
 
-1. Instantiate a workbook.
-1. Add an empty conditional format.
-1. Set the range that the formatting should apply to.
-1. Define the formatting conditions.
-1. Save the file.
+1. Instantiate a workbook.  
+2. Add an empty conditional format.  
+3. Set the range that the formatting should apply to.  
+4. Define the formatting conditions.  
+5. Save the file.
 
-After this example comes a number of other smaller examples that show how to apply font settings, borders settings, and patterns.
+After this example comes a number of other smaller examples that show how to apply font settings, border settings, and patterns.
 
-Microsoft Excel 2007 added more advanced conditional formatting that Aspose.Cells for Python via .NET also support. The examples here, illustrate how to use simple formatting, the Microsoft Excel 2007 examples show how to apply more advanced conditional formatting.
+Microsoft Excel 2007 added more advanced conditional formatting that Aspose.Cells for Python via .NET also **supports**. The examples here illustrate how to use simple formatting; the Microsoft Excel 2007 examples show how to apply more advanced conditional formatting.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ConditionalFormattingatRuntime-1.py" >}}
 
@@ -66,7 +66,7 @@ You can only change font style, text color, underline style, and strikeout style
 
 {{% alert color="primary" %}}
 
-You can only use thin line styles to the outline border. Diagonal lines are not allowed.
+You can only use thin line styles for the outline border. Diagonal lines are not allowed.
 
 {{% /alert %}}
 
@@ -74,7 +74,7 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-SetPattern-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](/cells/python-net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
 - [Apply Conditional Formatting in Worksheets](/cells/python-net/apply-conditional-formatting-in-worksheets/)
 - [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/cells/python-net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)

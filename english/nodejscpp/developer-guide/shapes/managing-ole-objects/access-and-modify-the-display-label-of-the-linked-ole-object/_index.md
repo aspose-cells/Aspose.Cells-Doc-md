@@ -17,7 +17,7 @@ Microsoft Excel allows you to change the display label of the Ole Object as show
 
 ## **Access and Modify the Display Label of the Linked Ole Object**
 
-Please see the following sample code, it loads the [sample Excel file](64716810.xlsx) that contains the Ole Object. The code accesses the Ole Object and changes its label from Sample APIs to Aspose APIs. Please see the console output given below that shows the effect of the sample code on the sample Excel file for a reference.
+Please see the following sample code; it loads the [sample Excel file](64716810.xlsx) that contains the Ole Object. The code accesses the Ole Object and changes its label from **Sample APIs** to **Aspose APIs**. The console output shown below demonstrates the effect of the sample code on the sample Excel file for reference.
 
 ## **Sample Code**
 

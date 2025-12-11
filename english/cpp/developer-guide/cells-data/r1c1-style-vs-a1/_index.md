@@ -4,8 +4,8 @@ linktitle: Excel – R1C1 Reference Style vs. A1
 type: docs  
 weight: 30  
 url: /cpp/r1c1-reference-style-vs-a1/  
-description: R1C1 Reference Style VS. A1 style by using Aspose.Cells with C++.  
-keywords: R1C1 Reference Style VS. A1 style, R1C1 Reference Style, How to switch between R1C1 Reference Style and A1 Reference Style, A1 Reference style.  
+description: R1C1 Reference Style vs. A1 style by using Aspose.Cells with C++.  
+keywords: R1C1 Reference Style vs. A1 style, R1C1 Reference Style, How to switch between R1C1 Reference Style and A1 Reference Style, A1 Reference style.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
@@ -22,34 +22,35 @@ This is the default reference style in Excel. In A1 style, columns are identifie
 
 In R1C1 style, both rows and columns are identified by numbers. The letter "R" represents the row number, and the letter "C" represents the column number. For example, R2C1 refers to the cell in the second row and first column.
 
-Any numbers in square brackets refer to relative distance from the current cell. Unlike A1 which refers to columns followed by row number, R1C1 does the opposite: rows followed by columns (which does take some getting used to). Positive numbers will refer to cells below and/or across to the right. Negative numbers will refer to cells above and/or to the left.
+Any numbers in square brackets refer to relative distance from the current cell. Unlike A1, which refers to columns followed by a row number, R1C1 does the opposite: rows followed by columns (which does take some getting used to). Positive numbers will refer to cells below and/or across to the right. Negative numbers will refer to cells above and/or to the left.
 
-For example, R[2]C[3] is a cell 2 rows down and 3 columns to the right. R[-1]C[-4] is a cell 1 row up and 4 columns to the left. If no number is shown in brackets then you are referring to the same row or column i.e. R[3]C will be a cell 3 rows below the current cell in the same column.  
+For example, R[2]C[3] is a cell 2 rows down and 3 columns to the right. R[-1]C[-4] is a cell 1 row up and 4 columns to the left. If no number is shown in brackets, then you are referring to the same row or column, i.e., R[3]C will be a cell 3 rows below the current cell in the same column.  
 <br>  
 <image src="2.png" width="70%" />  
 
 ## **Comparison for R1C1 Reference Style and A1 Reference Style**  
 Here's a quick comparison:  
-|**A1 Style**|**R1C1 Style**|  
-| :- | :- |  
-|A1|R1C1  
-|B3|R3C2  
-|G10|R10C7  
-|AA25|R25C27  
+
+| **A1 Style** | **R1C1 Style** |
+| :- | :- |
+| A1 | R1C1 |
+| B3 | R3C2 |
+| G10 | R10C7 |
+| AA25 | R25C27 |
 
 ## **How to switch between R1C1 Reference Style and A1 Reference Style**  
 You can switch between these reference styles in Excel settings. To change the reference style:
 
-1. Go to the "File" tab.  
-1. Select "Options" at the bottom.  
-1. In the Excel Options dialog box, go to the "Formulas" category.  
-1. Under the "Working with formulas" section, check or uncheck the "R1C1 reference style" option.  
-1. Click "OK" to apply the changes.  
+1. Go to the **File** tab.  
+2. Select **Options** at the bottom.  
+3. In the **Excel Options** dialog box, go to the **Formulas** category.  
+4. Under the **Working with formulas** section, check or uncheck the **R1C1 Reference Style** option.  
+5. Click **OK** to apply the changes.  
 <br>  
 <image src="1.png" width="70%" />  
 
 ## **How to use R1C1 Reference Style and A1 Reference Style in Excel**  
-The following example shows how to calculate the sum of two cell values in two styles.  
+The following example shows how to calculate the sum of two cell values in the two styles.  
 <br>  
 A1 Reference Style:  
 <br>  

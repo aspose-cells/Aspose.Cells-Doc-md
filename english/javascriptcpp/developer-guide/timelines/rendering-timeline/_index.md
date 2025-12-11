@@ -1,20 +1,21 @@
----
-title: Rendering Timeline
-type: docs
-weight: 40
-url: /javascript-cpp/rendering-timeline/
-description: Manage timelines of Excel files with Aspose.Cells for JavaScript via C++.
-keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
----
+---  
+title: Rendering Timeline  
+type: docs  
+weight: 40  
+url: /javascript-cpp/rendering-timeline/  
+description: Manage timelines of Excel files with Aspose.Cells for JavaScript via C++.  
+keywords: Rendering timeline without Office 2013, Office 2016, Office 2019, and Office 365  
+---  
 
-## **Possible Usage Scenarios**
-Aspose.Cells for JavaScript via C++ supports the rendering of timeline shape without using office 2013, office 2016, office 2019 and office 365. If you convert your worksheet into an image or you save your workbook to PDF or HTML formats, you will see, timelines are rendered properly.
+## **Possible Usage Scenarios**  
+Aspose.Cells for JavaScript via C++ supports rendering of timeline shapes without requiring Office 2013, Office 2016, Office 2019, or Office 365. If you convert your worksheet into an image or save your workbook to PDF or HTML formats, you will see that timelines are rendered properly.  
 
-## **Rendering Timeline**
-The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. Get the shape object according to the name of timeline, and then render it into a picture through the Shape.ToImage() method. The following image is the [output image](out.png) that shows the rendered timeline. As you can see, timeline has been rendered properly and it looks the same as in the sample Excel file.
+## **Rendering Timeline**  
+The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. Get the shape object by the name of the timeline, and then render it into a picture through the `Shape.ToImage()` method. The following image is the [output image](out.png) that shows the rendered timeline. As you can see, the timeline has been rendered properly and it looks the same as in the sample Excel file.  
 
-![todo:image_alt_text](out.png)
-### **Sample Code**
+![todo:image_alt_text](out.png)  
+
+### **Sample Code**  
 ```html
 <!DOCTYPE html>
 <html>
@@ -63,7 +64,7 @@ The following sample code loads the [sample Excel file](input.xlsx) that conta
             // Access second worksheet (index 1)
             const sheet = workbook.worksheets.get(1);
 
-            // Add timeline relating to pivot table (access first timeline)
+            // Add timeline relating to pivot table (access the first timeline)
             const timeline = sheet.timelines.get(0);
 
             // Prepare image options

@@ -9,11 +9,11 @@ description: Learn how to delete all blank rows and columns from a worksheet usi
 
 {{% alert color="primary" %}}
 
-It is possible to delete all blank rows and columns from a worksheet. This is useful when, for example, generating a PDF file from a Microsoft Excel file and want to convert only rows and columns that contain data or related objects.
+It is possible to delete all blank rows and columns from a worksheet. This is useful when, for example, generating a PDF file from a Microsoft Excel file and you want to convert only rows and columns that contain data or related objects.
 
 Use the following Aspose.Cells methods to delete empty rows and columns:
 
-1. To delete blank rows, use the [**Cells.deleteBlankRows()**](https://reference.aspose.com/cells/javascript-cpp/cells/#deleteBlankRows--) method. Please note, for blank rows that will be deleted, it is not only required that [**Row.isBlank()**](https://reference.aspose.com/cells/javascript-cpp/row/#isBlank--) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
+1. To delete blank rows, use the [**Cells.deleteBlankRows()**](https://reference.aspose.com/cells/javascript-cpp/cells/#deleteBlankRows--) method. Please note, for blank rows that will be deleted, it is not only required that [**Row.isBlank()**](https://reference.aspose.com/cells/javascript-cpp/row/#isBlank--) be true, but also that there be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.  
 2. To delete blank columns, use the [**Cells.deleteBlankColumns()**](https://reference.aspose.com/cells/javascript-cpp/cells/#deleteBlankColumns--) method.
 
 {{% /alert %}}

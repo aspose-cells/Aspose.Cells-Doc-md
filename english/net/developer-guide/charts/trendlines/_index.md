@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose.Cells provides [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate) method.
+You can retrieve the equation text of a chart trendline using Aspose.Cells. Aspose.Cells provides the [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) property, which returns the equation text of a chart trendline. To use this property, you must first call the [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate) method.
 
 {{% /alert %}}
 
-The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) property in the following sample code.
+The following screenshot shows a chart with a trendline, and its equation text is shown in red. We will retrieve this text using the [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) property in the following sample code.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
@@ -28,9 +28,7 @@ The following screenshot shows the Chart with a Trendline and its Equation Text 
 
 This is the console output of the above sample code.
 
-{{< highlight java >}}
-
+{{< highlight plaintext >}}
 Equation Text: y = 8.1333x + 5
-
 {{< /highlight >}}
 {{< app/cells/assistant language="csharp" >}}

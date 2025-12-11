@@ -1,68 +1,71 @@
----
-title: New Line in Cells
-type: docs
-weight: 30
-url: /java/new-line-in-cells/
+---  
+title: New Line in Cells  
+type: docs  
+weight: 30  
+url: /java/new-line-in-cells/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - New Line in Cells**
-To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.
+## **Aspose.Cells - New Line in Cells**  
+To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, while explicit line breaks put breaks exactly where you want them.  
 
-To wrap text in a cell, use the Style.setTextWrapped method.
+To wrap text in a cell, use the `Style.setTextWrapped` method.  
 
-**Java**
+**Java**  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
- // Add Text to the First Cell with Explicit Line Breaks
+ // Add Text to the First Cell with Explicit Line Breaks  
 
-cell.get(0, 0).setValue("I am using \nthe latest version of \nAspose.Cells \nto test this functionality");
+cell.get(0, 0).setValue("I am using \nthe latest version of \nAspose.Cells \nto test this functionality");  
 
-//Get Cell's Style
+// Get Cell's Style  
 
-Style style = cell.get(0, 0).getStyle();
+Style style = cell.get(0, 0).getStyle();  
 
-//Set Text Wrap property to true
+// Set the Text Wrap property to true  
 
-style.setTextWrapped(true);
+style.setTextWrapped(true);  
 
-//Set Cell's Style
+// Set Cell's Style  
 
-cell.get(0, 0).setStyle(style);
+cell.get(0, 0).setStyle(style);  
 
-{{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - New Line in Cells**
-CellStyle.setWrapText should be true for wrapped text.
+{{< /highlight >}}  
 
-**Java**
+## **Apache POI SS - HSSF XSSF - New Line in Cells**  
+`CellStyle.setWrapText` should be set to true for wrapped text.  
 
-{{< highlight java >}}
+**Java**  
 
- Row row = sheet.createRow(2);
+{{< highlight java >}}  
 
-Cell cell = row.createCell(2);
+ Row row = sheet.createRow(2);  
 
-cell.setCellValue("Use \n with word wrap on to create a new line");
+Cell cell = row.createCell(2);  
 
-//to enable newlines you need set a cell styles with wrap=true
+cell.setCellValue("Use \n with word wrap on to create a new line");  
 
-CellStyle cs = wb.createCellStyle();
+// To enable newlines you need to set a cell style with wrap=true  
 
-cs.setWrapText(true);
+CellStyle cs = wb.createCellStyle();  
 
-cell.setCellStyle(cs);
+cs.setWrapText(true);  
 
-{{< /highlight >}}
-## **Download Running Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/newlineincells)
+cell.setCellStyle(cs);  
 
-{{% alert color="primary" %}} 
+{{< /highlight >}}  
 
-For more details, visit [Line Breaks and Text Wrapping](/java/line-breaks-and-text-wrapping).
+## **Download Running Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)  
 
-{{% /alert %}}
-{{< app/cells/assistant language="java" >}}
+## **Download Sample Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/newlineincells)  
+
+{{% alert color="primary" %}}  
+
+For more details, visit [Line Breaks and Text Wrapping](/java/line-breaks-and-text-wrapping).  
+
+{{% /alert %}}  
+{{< app/cells/assistant language="java" >}}  

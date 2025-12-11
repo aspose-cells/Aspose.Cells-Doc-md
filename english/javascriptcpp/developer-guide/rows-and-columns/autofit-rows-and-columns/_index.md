@@ -4,7 +4,7 @@ linktitle: AutoFit Rows and Columns
 type: docs
 weight: 20
 url: /javascript-cpp/autofit-rows-and-columns/
-description: This article shows how to autoFit rows, columns, rows of merged cells, and row in a range of cells using Aspose.Cells for JavaScript via C++.
+description: This article shows how to autoFit rows, columns, rows of merged cells, and a row in a range of cells using Aspose.Cells for JavaScript via C++.
 keywords: Autofit rows JavaScript via C++, autofit columns JavaScript via C++, autofit row in a range of cells JavaScript via C++, autofit rows of merged cells JavaScript via C++
 ---
 
@@ -12,7 +12,7 @@ keywords: Autofit rows JavaScript via C++, autofit columns JavaScript via C++, a
 Microsoft Excel lets users auto-size the width and height of cells according to their content. This feature is also available through Aspose.Cells for JavaScript via C++, so developers can auto-size the dimensions of a cell at runtime.  
 {{% /alert %}}  
 
-## **Auto Fitting**  
+## **Auto-Fitting**  
 
 Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**Workbook.worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class to autofit rows or columns.  
 
@@ -158,7 +158,7 @@ The [**autoFitRow**](https://reference.aspose.com/cells/javascript-cpp/worksheet
 
 ### **How to AutoFit Column in a Range of Cells**  
 
-A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#autoFitColumn-number-) method that takes the following parameters:  
+A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of the [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#autoFitColumn-number-) method that takes the following parameters:  
 
 - **Column index**, the index of the column about to be auto-fitted.  
 - **First row index**, the index of the column's first row.  
@@ -211,7 +211,7 @@ The [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksh
             // Accessing the first worksheet in the Excel file
             const worksheet = workbook.worksheets.get(0);
 
-            // Auto-fitting the Column of the worksheet (column index 4)
+            // Auto-fitting the column of the worksheet (column index 4)
             worksheet.autoFitColumn(4);
 
             // Saving the modified Excel file
@@ -231,12 +231,12 @@ The [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksh
 
 ### **How to AutoFit Rows for Merged Cells**  
 
-With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) class provides [**AutoFitterOptions.autoFitMergedCellsType()**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#autoFitMergedCellsType--) property that can be used to autofit rows for merged cells. [**AutoFitterOptions.autoFitMergedCellsType()**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#autoFitMergedCellsType--) accepts [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/javascript-cpp/autofitmergedcellstype) enumerable which has the following members.  
+With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) class provides the [**AutoFitterOptions.autoFitMergedCellsType()**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#autoFitMergedCellsType--) property that can be used to autofit rows for merged cells. [**AutoFitterOptions.autoFitMergedCellsType()**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#autoFitMergedCellsType--) accepts the [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/javascript-cpp/autofitmergedcellstype) enumeration, which has the following members.  
 
 - None: Ignore merged cells.  
 - FirstLine: Only expands the height of the first row.  
 - LastLine: Only expands the height of the last row.  
-- EachLine: Only expands the height of each row.  
+- EachLine: Expands the height of each row.  
 
 ```html
 <!DOCTYPE html>
@@ -316,7 +316,7 @@ With Aspose.Cells, it is possible to autofit rows even for cells that have been 
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'AutofitRowsforMergedCells.xlsx';
+            downloadLink.download = 'AutoFitRowsForMergedCells.xlsx';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Excel File';
 
@@ -332,14 +332,14 @@ You may also try to use the overloaded versions of [**autoFitRows**](https://ref
 The signatures of the aforesaid methods are as follows:  
 
 1. autoFitRows(int startRow, int endRow, [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) options)  
-1. autoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) options)  
+2. autoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions) options)  
 {{% /alert %}}  
 
 ## **Important to Know**  
 
 {{% alert color="primary" %}}  
-If a cell is merged then the autoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the autofilter API. Moreover, if the text in a cell is wrapped, the [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#autoFitColumn-number-) method will not be applied either. Another thing you need to know is that the *autoFit* methods are time-consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.  
+If a cell is merged, then the autoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the AutoFilter API. Moreover, if the text in a cell is wrapped, the [**autoFitColumn**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#autoFitColumn-number-) method will not be applied either. Another thing you need to know is that the *autoFit* methods are time‑consuming. So, you should call these methods as rarely as possible to ensure the efficiency of your application.  
 {{% /alert %}}  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [AutoFit Rows for Merged Cells](/cells/javascript-cpp/autofit-rows-for-merged-cells/)

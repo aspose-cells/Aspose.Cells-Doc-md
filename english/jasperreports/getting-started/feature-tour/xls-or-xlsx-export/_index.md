@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports allows you to deliver reports in the XLS and XLSX format without loss of layout or formatting. To create spreadsheets in the Microsoft Excel formats, Aspose.Cells for JasperReports relies on a built-in version of [Aspose.Cells for Java](https://products.aspose.com/cells/java/), a leading spreadsheet-processing library from Aspose.
+Aspose.Cells for JasperReports allows you to deliver reports in the XLS and XLSX **formats** without loss of layout or formatting. To create spreadsheets in the Microsoft Excel formats, Aspose.Cells for JasperReports relies on a built‑in version of [Aspose.Cells for Java](https://products.aspose.com/cells/java/), a leading spreadsheet‑processing library from Aspose.
 
 Microsoft Excel is not required to generate documents with Aspose.Cells.
 

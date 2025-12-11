@@ -8,21 +8,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Chart to Images**
-Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data.
-The Chart class toImage method converts the chart to an image file, that can be saved to disk or stream.
+Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data.  
+The Chart class `toImage` method converts the chart to an image file that can be saved to disk or a stream.
 
 **Java**
 
 {{< highlight java >}}
 
- //Get the Chart image
-
+ // Get the chart image
 ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
-
 imgOpts.setImageFormat(ImageFormat.getPng());
 
-//Save the chart image file.
-
+// Save the chart image file.
 chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage.png"), imgOpts);
 
 {{< /highlight >}}

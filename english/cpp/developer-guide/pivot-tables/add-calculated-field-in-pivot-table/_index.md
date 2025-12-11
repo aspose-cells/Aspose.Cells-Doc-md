@@ -11,30 +11,31 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you create a pivot table based on known data, you find that the data in it is not what you want. The data you want is the combination of these original data. For example, you need to add, subtract, multiply and divide the original data before you want the data. At this time, you need to build a calculated field and set the corresponding formula for calculation. Then perform some statistics and other operations on the calculated field. 
+When you create a pivot table based on known data, you may find that the data in it is not what you want. The desired data is a combination of the original data. For example, you need to add, subtract, multiply, and divide the original data before obtaining the results you need. At that point, you need to build a calculated field and set the corresponding formula for calculation, then perform some statistics and other operations on the calculated field.  
 
 ## **Add calculated field in Pivot Table in Excel**
 Insert a calculated field in a PivotTable in Excel, follow these steps:
 
-1. Select the PivotTable that you want to add a calculated field to. 
-2. Go to the PivotTable Analyze tab on the ribbon.
-3. Click on "Fields, Items, & Sets" and then select "Calculated Field" from the drop-down menu.
-4. In the "Name" field, enter a name for the calculated field.
-5. In the "Formula" field, enter the formula for the calculation you want to perform using the appropriate PivotTable field names and mathematical operators. 
-<br>
-<img src="1.png" width=80% />
-6. Click "ok" to create the calculated field.
-7. The new calculated field will appear in the PivotTable Field List under the Values section.
-8. Drag the calculated field to the Values section of the PivotTable to display the calculated values.
-<br>
-<img src="2.png" width=80% />
+1. Select the PivotTable that you want to add a calculated field to.  
+2. Go to the **PivotTable Analyze** tab on the ribbon.  
+3. Click on **Fields, Items, & Sets** and then select **Calculated Field** from the drop‑down menu.  
+4. In the **Name** field, enter a name for the calculated field.  
+5. In the **Formula** field, enter the formula for the calculation you want to perform using the appropriate PivotTable field names and mathematical operators.  
+   <br>
+   <img src="1.png" width=80% />
+6. Click **OK** to create the calculated field.  
+7. The new calculated field will appear in the PivotTable Field List under the **Values** section.  
+8. Drag the calculated field to the **Values** section of the PivotTable to display the calculated values.  
+   <br>
+   <img src="2.png" width=80% />
 
-## **Add calculated field in Pivot Table Using C++**
-Add calculated field to Excel file using Aspose.Cells. Please see the following sample code. After executing the example code, a pivot table with calculated field is added to the worksheet.
-1. Set the original data and create a pivot table. 
-2. Create the calculated field according to the existing PivotField in the pivot table.
-3. Add the calculated field to the data area. 
-4. Finally, it saves the workbook in [output XLSX](out.xlsx) format. 
+## **Add a calculated field in Pivot Table Using C++**
+Add a calculated field to an Excel file using Aspose.Cells. Please see the following sample code. After executing the example code, a pivot table with a calculated field is added to the worksheet.
+
+1. Set the original data and create a pivot table.  
+2. Create the calculated field based on the existing PivotField in the pivot table.  
+3. Add the calculated field to the data area.  
+4. Finally, the workbook is saved in XLSX format.  
 
 ## **Sample Code**
 ```c++
@@ -49,7 +50,7 @@ int main()
     // Creating a Workbook object
     Workbook workbook;
 
-    // Obtaining the reference of the newly added worksheet
+    // Obtaining a reference to the newly added worksheet
     Worksheet ws = workbook.GetWorksheets().Get(0);
     Cells cells = ws.GetCells();
 
@@ -106,7 +107,7 @@ int main()
     PivotTable pivotTable = ws.GetPivotTables().Get(i);
     pivotTable.AddFieldToArea(PivotFieldType::Row, 0);
 
-    // Adding a calculated field to PivotTable and dragging it to data area
+    // Adding a calculated field to the PivotTable and dragging it to the data area
     pivotTable.AddCalculatedField(u"total", u"=Count*Price", true);
 
     pivotTable.RefreshData();

@@ -1,54 +1,53 @@
----
-title: Importing from ArrayList
-type: docs
-weight: 20
-url: /net/importing-from-arraylist/
-ai_search_scope: cells_net
+---  
+title: Importing from ArrayList  
+type: docs  
+weight: 20  
+url: /net/importing-from-arraylist/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-Developers can import data from an ArrayList to their worksheets by calling the **ImportArrayList** method of the Cells collection. ImportArray method takes the following parameters: **ArrayList** , represents the ArrayList object whose contents need to import
+Developers can import data from an ArrayList to their worksheets by calling the **ImportArrayList** method of the Cells collection. The ImportArrayList method takes the following parameters: **ArrayList**, which represents the ArrayList object whose contents need to be imported.
 
-- Row Number , represents the row number of the first cell where the data will be imported
-- Column Number , represents the column number of the first cell where the data will be imported
-- Is Vertical , a boolean value that specifies to import data vertically or horizontally
+- Row Number, represents the row number of the first cell where the data will be imported.  
+- Column Number, represents the column number of the first cell where the data will be imported.  
+- Is Vertical, a boolean value that specifies whether to import data vertically or horizontally.  
 
-{{< highlight csharp >}}
+{{< highlight csharp >}}  
 
- //Instantiating a Workbook object
+ //Instantiating a Workbook object  
 
-Workbook workbook = new Workbook();
+Workbook workbook = new Workbook();  
 
-//Adding a new worksheet to the Workbook object
+//Adding a new worksheet to the Workbook object  
 
-int i = workbook.Worksheets.Add();
+int i = workbook.Worksheets.Add();  
 
-//Obtaining the reference of the newly added worksheet by passing its sheet index
+//Obtaining the reference of the newly added worksheet by passing its sheet index  
 
-Worksheet worksheet = workbook.Worksheets[i];
+Worksheet worksheet = workbook.Worksheets[i];  
 
-//Instantiating an ArrayList object
+//Instantiating an ArrayList object  
 
-ArrayList list = new ArrayList();
+ArrayList list = new ArrayList();  
 
-//Add few names to the list as string values
+//Add a few names to the list as string values  
 
-list.Add("laurence chen");
+list.Add("laurence chen");  
 
-list.Add("roman korchagin");
+list.Add("roman korchagin");  
 
-list.Add("kyle huang");
+list.Add("kyle huang");  
 
-list.Add("tommy wang");
+list.Add("tommy wang");  
 
-//Importing the contents of ArrayList to 1st row and first column vertically
+//Importing the contents of ArrayList to 1st row and first column vertically  
 
-worksheet.Cells.ImportArrayList(list, 0, 0, true);
+worksheet.Cells.ImportArrayList(list, 0, 0, true);  
 
-//Saving the Excel file
+//Saving the Excel file  
 
-workbook.Save("DataImport from Array List.xls");
+workbook.Save("DataImport from Array List.xls");  
 
-
-{{< /highlight >}}
+{{< /highlight >}}  
 {{< app/cells/assistant language="csharp" >}}

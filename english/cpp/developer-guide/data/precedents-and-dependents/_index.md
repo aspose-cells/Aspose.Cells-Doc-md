@@ -14,7 +14,7 @@ Complex financial worksheets, especially ones developed in collaboration, can hi
 {{% /alert %}} 
 ## **Introduction**
 - **Precedent cells** are cells that are referred to by a formula in another cell. For example, if cell D10 contains the formula =B5, cell B5 is a precedent to cell D10.
-- **Dependent cells** contain formulas that refer to other cells. For example, if cell D10 contains the formula =B5, cell D10 is dependent of cell B5.
+- **Dependent cells** contain formulas that refer to other cells. For example, if cell D10 contains the formula =B5, cell D10 is a dependent of cell B5.
 
 To make the spreadsheet easy to read, you might want to clearly show which cells on a spreadsheet are used in a formula. Similarly, you may want to extract the dependent cells of other cells.
 
@@ -34,16 +34,16 @@ Microsoft Excel allows users to trace precedents and dependents.
    1. To display a tracer arrow to each cell that directly provides data to the active cell, click **Trace Precedents** on the **Formula Auditing** toolbar.
 1. Trace formulas that reference a particular cell (dependents)
    1. Select the cell for which you want to identify the dependent cells.
-   1. To display a tracer arrow to each cell that is dependent on the active cell, click Trace Dependents on the Formula Auditing toolbar.
+   1. To display a tracer arrow to each cell that is dependent on the active cell, click **Trace Dependents** on the Formula Auditing toolbar.
 ## **Tracing Precedent and Dependent Cells: Aspose.Cells**
 ### **Tracing Precedents**
-Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cells that provide data to simple formula precedents but also find cells that provide data to complex formula precedents with named ranges.
+Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cells that provide data to simple formula precedents, but it can also find cells that provide data to complex formula precedents with named ranges.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingPrecedents-new.cpp" >}}
 ### **Tracing Dependents**
-Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells can not only retrieve cells that provide data regarding a simple formula but also find cells that provide data to complex formula dependents with named ranges.
+Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells cannot only retrieve cells that provide data for a simple formula, but also find cells that provide data to complex formula dependents with named ranges.
 
 
 

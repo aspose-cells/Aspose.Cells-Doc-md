@@ -11,19 +11,19 @@ description: Add, remove, and activate worksheets using Aspose.Cells for JavaScr
 Developers can easily create and manage worksheets in Microsoft Excel files programmatically using Aspose.Cells' flexible API. This topic describes approaches for adding and removing worksheets in Microsoft Excel files.
 {{% /alert %}}
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The **Workbook** class contains a **worksheets** collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets.
+A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a wide range of properties and methods for managing worksheets.
 
 ## **Adding Worksheets to a New Excel File**
 
 To create a new Excel file programmatically:
 
-1. Create an object of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.  
-2. Call the [**WorksheetCollection.add(SheetType)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#add-sheettype-) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection.  
+1. Create an object of the **Workbook** class.  
+2. Call the **WorksheetCollection.add(SheetType)** method of the **WorksheetCollection** class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the **worksheets** collection.  
 3. Obtain a worksheet reference.  
-4. Perform work on the worksheets.  
-5. Save the new Excel file with new worksheets by calling the [**Workbook.save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.
+4. Perform work on the worksheet.  
+5. Save the new Excel file with the new worksheets by calling the **Workbook.save(string, SaveFormat)** method of the **Workbook** class.
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ To create a new Excel file programmatically:
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'output.out.xls';
+            downloadLink.download = 'output.xls';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Excel File';
 
@@ -87,7 +87,7 @@ To create a new Excel file programmatically:
 
 ## **Adding Worksheets to a Designer Spreadsheet**
 
-The process of adding worksheets to a designer spreadsheet is the same as that of adding a new worksheet, except that the Excel file already exists and should be opened before worksheets are added. A designer spreadsheet can be opened by the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.
+The process of adding worksheets to a designer spreadsheet is the same as adding a new worksheet, except that the Excel file already exists and should be opened before worksheets are added. A designer spreadsheet can be opened by the **Workbook** class.
 
 ```html
 <!DOCTYPE html>
@@ -214,7 +214,7 @@ Access any worksheet by specifying its name or index.
 
 ## **Removing Worksheets using Sheet Name**
 
-To remove worksheets from a file, call the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#removeAt-string-) method of the [**WorksheetCollection**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) class. Pass the sheet name to the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#removeAt-string-) method to remove a specific worksheet.
+To remove worksheets from a file, call the **WorksheetCollection.removeAt(string)** method of the **WorksheetCollection** class. Pass the sheet name to the **WorksheetCollection.removeAt(string)** method to remove a specific worksheet.
 
 ```html
 <!DOCTYPE html>
@@ -267,7 +267,7 @@ To remove worksheets from a file, call the [**WorksheetCollection.removeAt(strin
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'output.out.xls';
+            downloadLink.download = 'output.xls';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Modified Excel File';
 
@@ -279,7 +279,7 @@ To remove worksheets from a file, call the [**WorksheetCollection.removeAt(strin
 
 ## **Removing Worksheets using Sheet Index**
 
-Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [**WorksheetCollection.removeAt(string)**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#removeAt-string-) method that takes the sheet index of the worksheet instead of its sheet name.
+Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the **WorksheetCollection.removeAt(int)** method that takes the sheet index of the worksheet instead of its sheet name.
 
 ```html
 <!DOCTYPE html>
@@ -332,7 +332,7 @@ Removing worksheets by name works well when the name of the worksheet is known. 
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'output.out.xls';
+            downloadLink.download = 'output.xls';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Modified Excel File';
 
@@ -344,19 +344,19 @@ Removing worksheets by name works well when the name of the worksheet is known. 
 
 ## **Activating Sheets and Making an Active Cell in the Worksheet**
 
-Sometimes, you need a specific worksheet to be active and displayed when a user opens a Microsoft Excel file in Excel. Similarly, you might want to activate a specific cell and set the scrollbars to show the active cell. Aspose.Cells is capable of doing all these tasks.
+Sometimes you need a specific worksheet to be active and displayed when a user opens a Microsoft Excel file. Similarly, you might want to activate a specific cell and set the scrollbars to show the active cell. Aspose.Cells can perform all these tasks.
 
-An **active sheet** is a sheet you're working on: the active sheet's name on the tab is bold by default.
+An **active sheet** is the sheet you are working on; the active sheet’s tab name appears in bold by default.
 
-An **active cell** is a selected cell, the cell into which data is entered when you begin typing. Only one cell is active at a time. The active cell is highlighted by a heavy border.
+An **active cell** is the selected cell—the cell into which data is entered when you begin typing. Only one cell is active at a time, and it is highlighted by a heavy border.
 
 ### **Activating Sheets and Making a Cell Active**
 
-Aspose.Cells provides specific API calls for activating a sheet and a cell. For example, the [**WorksheetCollection.activeSheetIndex**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection/#activeSheetIndex--) property is useful for setting the active sheet in a workbook. Similarly, [**Worksheet.activeCell**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#activeCell--) property is used to set and get an active cell in the worksheet.
+Aspose.Cells provides specific API calls for activating a sheet and a cell. For example, the **WorksheetCollection.activeSheetIndex** property is useful for setting the active sheet in a workbook. Similarly, **Worksheet.activeCell** is used to set and get the active cell in a worksheet.
 
-To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Worksheet.firstVisibleRow**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#firstVisibleRow--) and [**Worksheet.firstVisibleColumn**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#firstVisibleColumn--) properties.
+To ensure that the horizontal or vertical scrollbars are positioned at the row and column you want to show, use the **Worksheet.firstVisibleRow** and **Worksheet.firstVisibleColumn** properties.
 
-The following example shows how to activate a worksheet and make an active cell in it. In the generated output, the scrollbars will be scrolled to make the 2nd row and 2nd column as their first visible row and column.
+The following example shows how to activate a worksheet and make a cell active. In the generated output, the scrollbars will be scrolled to make the 2nd row and 2nd column the first visible row and column.
 
 ```html
 <!DOCTYPE html>
@@ -391,7 +391,7 @@ The following example shows how to activate a worksheet and make an active cell 
             // Instantiate a new Workbook.
             const workbook = new Workbook();
 
-            // Add a worksheet if collection is empty
+            // Add a worksheet if the collection is empty
             const worksheets = workbook.worksheets;
             if (worksheets.count === 0) {
                 worksheets.add();
@@ -407,10 +407,10 @@ The following example shows how to activate a worksheet and make an active cell 
             const cell = cells.get(1, 1);
             cell.value = "Hello World!";
 
-            // Set the first sheet as an active sheet.
+            // Set the first sheet as the active sheet.
             worksheets.activeSheetIndex = 0;
 
-            // Set B2 cell as an active cell in the worksheet.
+            // Set B2 cell as the active cell in the worksheet.
             worksheet1.activeCell = "B2";
 
             // Set the B column as the first visible column in the worksheet.
@@ -419,7 +419,7 @@ The following example shows how to activate a worksheet and make an active cell 
             // Set the 2nd row as the first visible row in the worksheet.
             worksheet1.firstVisibleRow = 1;
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -434,7 +434,7 @@ The following example shows how to activate a worksheet and make an active cell 
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Copying and Moving Worksheets](/cells/javascript-cpp/copying-and-moving-worksheets/)  
 - [Count number of cells in the Worksheet](/cells/javascript-cpp/count-number-of-cells-in-the-worksheet/)  
 - [Detecting Empty Worksheets](/cells/javascript-cpp/detecting-empty-worksheets/)  

@@ -25,13 +25,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Insert a Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
   - WorksheetView.addCellShiftRight
   - WorksheetView.addCellShiftDown
+
 ### **Add a Row**
 To add a new row:
 
-1. Click on a cell where you want to add a row.
-1. Switch to **Format tab**.
-1. Click **Add Row above** to add a row above the selected cell.
-1. Click **Add Row below** to add a row below the selected cell.
+1. Click on a cell where you want to add a row.  
+2. Switch to **the Format tab**.  
+3. Click **Add Row above** to add a row above the selected cell.  
+4. Click **Add Row below** to add a row below the selected cell.
 
 The editor will add a new row at the selected location.
 
@@ -99,13 +100,14 @@ The **Add Row above** and **Add Row below** are handled by JSF backend bean **Wo
     }
 
 {{< /highlight >}}
+
 ### **Add a Column**
 To add a new column:
 
-1. Click on a cell where you want to add a column.
-1. Switch to **Format tab**.
-1. Click **Add Column Before** to add a column before the selected cell.
-1. Click **Add Column After** to add a column after the selected cell.
+1. Click on a cell where you want to add a column.  
+2. Switch to **the Format tab**.  
+3. Click **Add Column Before** to add a column before the selected cell.  
+4. Click **Add Column After** to add a column after the selected cell.
 
 The editor will add a new column at the selected location.
 
@@ -165,12 +167,13 @@ The **Add Column Before** and **Add Column After** are handled by JSF backend be
     }
 
 {{< /highlight >}}
+
 ### **Delete a Row**
 To delete a row:
 
-1. Click on a cell in the row you want to delete.
-1. Switch to **Format tab**.
-1. Click **Delete Row** button.
+1. Click on a cell in the row you want to delete.  
+2. Switch to **the Format tab**.  
+3. Click **Delete Row** button.
 
 The editor will delete the row which includes the selected cell.
 
@@ -205,12 +208,13 @@ The **Delete Row** button is handled by JSF backend bean **WorksheetView** using
     }
 
 {{< /highlight >}}
+
 ### **Delete a Column**
 To delete a column:
 
-1. Click on a cell in the columnyou want to delete.
-1. Switch to **Format tab**.
-1. Click **Delete Column** button.
+1. Click on a cell in the column you want to delete.  
+2. Switch to **the Format tab**.  
+3. Click **Delete Column** button.
 
 The editor will delete the column which includes the selected cell.
 
@@ -245,32 +249,33 @@ The **Delete Column** button is handled by JSF backend bean **WorksheetView** us
     }
 
 {{< /highlight >}}
+
 ### **Column Width and Row Height**
-To change width of a column:
+To change the width of a column:
 
-1. Click on any cell inside the column.
-1. Switch to **Format tab**.
-1. Click **Column Width** button to open **Column Width** dialog.
-1. Enter a new value in the dialog box.
-1. Click **Close**.
+1. Click on any cell inside the column.  
+2. Switch to **the Format tab**.  
+3. Click **Column Width** button to open **Column Width** dialog.  
+4. Enter a new value in the dialog box.  
+5. Click **Close**.
 
-The editor will change the width of column.
+The editor will change the width of the column.
 
 **How to change row height?**
 
-To change height of a row:
+To change the height of a row:
 
-1. Click on any cell inside the row.
-1. Switch to **Format tab**.
-1. Click **Row Height** button to open **Row Height** dialog.
-1. Enter a new value in the dialog box.
-1. Click **Close**.
+1. Click on any cell inside the row.  
+2. Switch to **the Format tab**.  
+3. Click **Row Height** button to open **Row Height** dialog.  
+4. Enter a new value in the dialog box.  
+5. Click **Close**.
 
-The editor will change the height of row.
+The editor will change the height of the row.
 
 **How it works?**
 
-When the user submit the value of width and height, these values are handled on server-side by **setCurrentRowHeight** and **setCurrentColumnWidth** methods of JSF backend bean **WorksheetView**.
+When the user submits the width and height values, they are handled on the server side by the **setCurrentRowHeight** and **setCurrentColumnWidth** methods of JSF backend bean **WorksheetView**.
 #### **WorksheetView.setCurrentRowHeight**
 {{< highlight java >}}
 
@@ -312,13 +317,14 @@ When the user submit the value of width and height, these values are handled on 
     }
 
 {{< /highlight >}}
+
 ### **Insert a Cell**
 To add a new cell:
 
-1. Click on a cell where you want to new.
-1. Switch to **Insert tab**.
-1. Click **Cell** button.
-1. Choose **Shift Cells Right** or **Shift Cells Down** button.
+1. Click on a cell where you want to add a new cell.  
+2. Switch to **Insert tab**.  
+3. Click **Cell** button.  
+4. Choose **Shift Cells Right** or **Shift Cells Down** button.
 
 The editor will add a new cell at the selected location. The adjacent cells will be automatically shifted either horizontally or vertically to create space for the new one.
 

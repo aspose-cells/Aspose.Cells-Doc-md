@@ -1,24 +1,24 @@
----
-title: Detect Merged Cells in a Worksheet with C++
-linktitle: Detect Merged Cells
-description: Aspose.Cells is a C++ library for working with spreadsheet files. It supports detecting merged cells in a worksheet, making it easy for users to identify and manipulate these cells. This article will introduce how to use the Aspose.Cells library to detect merged cells.
-keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
-type: docs
-weight: 80
-url: /cpp/detect-merged-cells-in-a-worksheet/
+---  
+title: Detect Merged Cells in a Worksheet with C++  
+linktitle: Detect Merged Cells  
+description: Aspose.Cells is a C++ library for working with spreadsheet files. It supports detecting merged cells in a worksheet, making it easy for users to identify and manipulate these cells. This article will introduce how to use the Aspose.Cells library to detect merged cells.  
+keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate  
+type: docs  
+weight: 80  
+url: /cpp/detect-merged-cells-in-a-worksheet/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-This article provides information on how to get merged cell areas in a worksheet.
+This article provides information on how to get merged cell areas in a worksheet.  
 
-Aspose.Cells allows you to get merged cell areas in a worksheet. You can unmerge (split) them too. This article shows the simplest code using **Aspose.Cells API** to perform the task.
+Aspose.Cells allows you to get merged cell areas in a worksheet. You can unmerge (split) them too. This article shows the simplest code using the Aspose.Cells API to perform the task.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The component provides the [**Cells::GetMergedAreas()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmergedareas/) method which can get all merged cells. The following code sample shows you how to detect merged cells in a worksheet.
+The component provides the [**Cells::GetMergedAreas()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmergedareas/) method, which retrieves all merged cells. The following code sample shows you how to detect merged cells in a worksheet.  
 
 ```c++
 #include <iostream>
@@ -60,5 +60,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

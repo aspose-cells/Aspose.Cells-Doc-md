@@ -4,14 +4,14 @@ linktitle: Set Preset WordArt Style to the Text of the Shape
 type: docs
 weight: 280
 url: /go-cpp/set-preset-wordart-style-to-the-text-of-the-shape/
-description: Learn how to set preset WordArt style to the text of a shape using Aspose.Cells for C++.
+description: Learn how to set a preset WordArt style to the text of a shape using Aspose.Cells for C++.
 ---
 
 ## **Possible Usage Scenarios**
-You can set preset WordArt style to the text of the shape using Aspose.Cells. Please use [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/go-cpp/fontsetting/setwordartstyle/) or [FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle/) methods for this purpose.
+You can set a preset WordArt style to the text of the shape using Aspose.Cells. Please use [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/go-cpp/fontsetting/setwordartstyle/) or [FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle/) methods for this purpose.
 
 ## **Set Preset WordArt Style to the Text of the Shape**
-The following sample code creates a text box with some text and then sets preset WordArt style of its text using [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/go-cpp/fontsetting/setwordartstyle/) method. This is how the [output excel file](5115445.xlsx) looks in Microsoft Excel.
+The following sample code creates a text box with some text and then sets the preset WordArt style of its text using the [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/go-cpp/fontsetting/setwordartstyle/) method. This shows how the output Excel file appears in Microsoft Excel.
 
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 

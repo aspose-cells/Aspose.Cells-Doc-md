@@ -12,15 +12,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows users to extract theme-related data from an Excel file. For example, you can extract the theme name applied to the workbook and the theme color applied to a cell or the borders of the cell, etc.
+Aspose.Cells allows users to extract theme‑related data from an Excel file. For example, you can extract the theme name applied to the workbook and the theme color applied to a cell or the borders of the cell, etc.
 
-You can apply a theme to your workbook using Microsoft Excel via Page Layout > Themes command.
+You can apply a theme to your workbook using Microsoft Excel via **Page Layout > Themes** command.
 
 {{% /alert %}}
 
 ## C++ code to extract theme data from Excel file
 
-The following sample code extracts the theme name applied to the source workbook and then extracts the theme color applied to cell A1 and the theme color applied to the bottom border of the cell.
+The following sample code extracts the theme name applied to the source workbook and then extracts the theme color applied to cell **A1** and the theme color applied to the bottom border of the cell.
 
 ```cpp
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
     // Check if theme has foreground color defined
     if (style.GetForegroundThemeColor().IsNull())
     {
-        std::cout << "Theme has not foreground color defined." << std::endl;
+        std::cout << "Theme has no foreground color defined." << std::endl;
     }
     else
     {
@@ -65,7 +65,7 @@ int main()
     Border bot = style.GetBorders().Get(BorderType::BottomBorder);
     if (bot.GetThemeColor().IsNull())
     {
-        std::cout << "Theme has not Border color defined." << std::endl;
+        std::cout << "Theme has no border color defined." << std::endl;
     }
     else
     {

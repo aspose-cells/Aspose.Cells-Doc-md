@@ -8,23 +8,23 @@ description: How to encrypt and decrypt Excel files using JavaScript via C++. Lo
 ---
 
 {{% alert color="primary" %}}  
-Microsoft Excel (97 - 365) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is 'Office 97/2000 Compatible' or 'Weak Encryption (XOR)'. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.  
+Microsoft Excel (97 – 365) enables you to encrypt and password‑protect your spreadsheets. It uses algorithms provided by a cryptographic service provider (CSP), a set of cryptographic algorithms with different properties. The default CSP is “Office 97/2000 Compatible” or “Weak Encryption (XOR)”. It’s important to choose the proper encryption key length. Some CSPs don’t support more than 40‑ or 56‑bit keys. That is considered weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the “Microsoft Strong Cryptographic Provider”. To give you an idea, 128‑bit encryption is what banks use to encrypt the connection with their Internet Banking systems.  
 
-Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.  
+Aspose.Cells allows you to encrypt and password‑protect Microsoft Excel files with your desired encryption type.  
 {{% /alert %}}  
 
 ## **Using Microsoft Excel**  
 
-To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):  
+To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):  
 
 1. From the **Tools** menu, select **Options**. A dialog will appear.  
 2. Select the **Security** tab.  
-3. Input a password and click **Advanced**  
+3. Enter a password and click **Advanced**.  
 4. Choose the encryption type and confirm the password.  
 
 ## **Encrypting Excel file with Aspose.Cells for JavaScript via C++**  
 
-The following example shows how to encrypt and password protect an Excel file using the Aspose.Cells API.  
+The following example shows how to encrypt and password‑protect an Excel file using the Aspose.Cells API.  
 
 ```html
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ The following example shows how to encrypt and password protect an Excel file us
             // Password protect the file.
             workbook.settings.password = "1234";
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -141,7 +141,7 @@ The following example shows how to set the **Password to modify** Microsoft Exce
             // Set the password for modification.
             workbook.settings.writeProtection.password = "1234";
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -158,7 +158,7 @@ The following example shows how to set the **Password to modify** Microsoft Exce
 
 
 ## **Decrypting Excel file with Aspose.Cells for JavaScript via C++**  
-It is very easy to open a password-protected Excel file and decrypt it using the Aspose.Cells API as shown in the following code:  
+It is very easy to open a password‑protected Excel file and decrypt it using the Aspose.Cells API as shown in the following code:  
 
 ```html
 <!DOCTYPE html>
@@ -228,7 +228,7 @@ It is very easy to open a password-protected Excel file and decrypt it using the
 ```  
 
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Encrypt And Decrypt ODS files](/cells/javascript-cpp/encrypt-and-decrypt-ods-files/)  
 - [Setting Strong Encryption Type](/cells/javascript-cpp/setting-strong-encryption-type/)  
 - [Specify Author while Write Protecting Workbook](/cells/javascript-cpp/specify-author-while-write-protecting-workbook/)  

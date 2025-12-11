@@ -4,15 +4,15 @@ linktitle: Get Hyperlinks in Range
 type: docs
 weight: 100
 url: /cpp/get-hyperlinks-in-range/
-description: Learn how to get hyperlinks in range through the Aspose.Cells for C++ API.
-keywords: Get Hyperlinks in Range, Get all the hyperlinks in the selected range, Delete hyperlink in Range, Delete the hyperlinks in the selected range
+description: Learn how to get hyperlinks in a range using the Aspose.Cells for C++ API.
+keywords: Get Hyperlinks in Range, Get all the hyperlinks in the selected range, Delete hyperlink in range, Delete the hyperlinks in the selected range
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Get Hyperlinks in Range**
 
-The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class provides a [**GetHyperlinks()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/gethyperlinks/) property which returns all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the [**Hyperlink.Delete**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/delete/) method.
+The [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) class provides a [**GetHyperlinks()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/gethyperlinks/) **method** which returns all the hyperlinks in the selected range. You may also delete a hyperlink by calling the [**Hyperlink.Delete**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/delete/) method.
 
 ```cpp
 #include <iostream>
@@ -25,7 +25,7 @@ int main()
 
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
+    
     Workbook workbook(srcDir + u"HyperlinksSample.xlsx");
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Range range = worksheet.GetCells().CreateRange(u"A2", u"B3");

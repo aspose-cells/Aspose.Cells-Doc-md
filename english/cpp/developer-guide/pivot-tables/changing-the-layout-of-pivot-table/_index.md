@@ -1,27 +1,27 @@
----
-title: Changing the Layout of Pivot Table with C++
-linktitle: Changing the Layout of Pivot Table
-type: docs
-weight: 10
-url: /cpp/changing-the-layout-of-pivot-table/
-description: Learn how to change the layout of a Pivot Table in Compact, Outline, and Tabular forms using Aspose.Cells for C++.
+---  
+title: Changing the Layout of Pivot Table with C++  
+linktitle: Changing the Layout of Pivot Table  
+type: docs  
+weight: 10  
+url: /cpp/changing-the-layout-of-pivot-table/  
+description: Learn how to change the layout of a Pivot Table in Compact, Outline, and Tabular forms using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 {{% alert color="primary" %}}
 
-Microsoft Excel allows you to change the Layout of Pivot Table using *PivotTable Tools > Design > Report Layout* menu commands. You can change the Layout in these three forms:
+Microsoft Excel allows you to change the layout of a PivotTable using *PivotTable Tools > Design > Report Layout* menu commands. You can change the layout in these three forms:
 
-- Show in Compact Form
-- Show in Outline Form
-- Show in Tabular Form
+- Show in Compact Form  
+- Show in Outline Form  
+- Show in Tabular Form  
 
-Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showincompactform/), [**PivotTable.ShowInOutlineForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showinoutlineform/), and [**PivotTable.ShowInTabularForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showintabularform/) methods to change the layout of pivot table in these three forms.
+Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showincompactform/), [**PivotTable.ShowInOutlineForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showinoutlineform/), and [**PivotTable.ShowInTabularForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showintabularform/) methods to change the layout of a PivotTable in these three forms.
 
 {{% /alert %}}
 
-The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form**, and lastly, it shows the Pivot Table in **Tabular Form**.
+The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form**, and finally it shows the Pivot Table in **Tabular Form**.
 
 ```cpp
 #include <iostream>
@@ -38,10 +38,10 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"pivotTable_sample.xlsx";
 
-    // Create workbook object from source excel file
+    // Create workbook object from source Excel file
     Workbook workbook(inputFilePath);
 
     // Access first worksheet

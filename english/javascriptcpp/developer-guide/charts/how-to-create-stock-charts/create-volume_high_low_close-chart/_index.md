@@ -1,6 +1,6 @@
 ---
-title: Create Volume-High-Low-Close(VHLC) Stock Chart with JavaScript via C++
-linktitle: Create Volume-High-Low-Close(VHLC) Stock Chart
+title: Create Volume-High-Low-Close (VHLC) Stock Chart with JavaScript via C++
+linktitle: Create Volume-High-Low-Close (VHLC) Stock Chart
 description: Learn how to create a volume-high-low-close stock chart using Aspose.Cells for JavaScript via C++. Our guide will demonstrate how to plot stock market data, including volume, high, low, and close prices, onto a chart for better analysis and visualization.
 keywords: Aspose.Cells for JavaScript via C++, Volume-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
 type: docs
@@ -9,13 +9,15 @@ url: /javascript-cpp/create-volume-high-low-close-stock-chart/
 ---
 
 ## **Possible Usage Scenarios**
-The third stock chart we will look at is the Volume High Low Close chart.  Again, it is important to repeat that you must have the data in the correct order.  If you need to rearrange your data table, you should do it before you set up your chart.
-This chart includes a column for volume immediately after the first (category) column, and the charts include a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
+The third stock chart we will look at is the Volume High Low Close chart.  Again, it is important to emphasize that you must have the data in the correct order.  If you need to rearrange your data table, you should do it before you set up your chart.  
+This chart includes a column for volume immediately after the first (category) column, and includes a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
 
 ![todo:image_alt_text](data.png)
+
 ## **Volume-High-Low-Close (VHLC) stock chart**
 
 ![todo:image_alt_text](sample.png)
+
 ## **Sample Code**
 The following sample code loads the [sample Excel file](Volume-High-Low-Close.xlsx) and generates the [output Excel file](out.xlsx).
 
@@ -63,11 +65,11 @@ The following sample code loads the [sample Excel file](Volume-High-Low-Close.xl
             // Access the first worksheet.
             const worksheet = workbook.worksheets.get(0);
 
-            // Create High-Low-Close-Stock Chart
+            // Create Volume-High-Low-Close Stock Chart
             const pieIdx = worksheet.charts.add(AsposeCells.ChartType.StockVolumeHighLowClose, 5, 6, 20, 12);
             // Retrieve the Chart object
             const chart = worksheet.charts.get(pieIdx);
-            // Set the legend can be showed
+            // Set the legend to be shown
             chart.showLegend = true;
             // Set the chart title name 
             chart.title.text = "Volume-High-Low-Close Stock";
@@ -77,9 +79,9 @@ The following sample code loads the [sample Excel file](Volume-High-Low-Close.xl
             chart.chartDataRange = ["A1:E9", true];
             // Set category data 
             chart.nSeries.categoryData = "A2:A9";
-            // Set Color for the first series(Volume) data 
+            // Set the color for the first series (Volume) data 
             chart.nSeries.get(0).area.foregroundColor = new AsposeCells.Color(79, 129, 189);
-            // Fill the PlotArea area with nothing 
+            // Fill the PlotArea with nothing 
             chart.plotArea.area.fillFormat.fillType = AsposeCells.FillType.None;
 
             // Saving the modified Excel file

@@ -6,13 +6,13 @@ weight: 20
 url: /javascript-cpp/find-out-if-vba-project-is-protected/
 ---
 
-## **Find out if VBA Project is Protected in JavaScript**
+## **Find out if a VBA Project is Protected in JavaScript**
 
-You can find if the VBA (Visual Basic Applications) Project of your Excel file is protected or not with Aspose.Cells using [**VbaProject.isProtected()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isProtected--) property.
+You can determine whether the VBA (Visual Basic for Applications) project of your Excel file is protected using Aspose.Cells via the **VbaProject.isProtected()** property.
 
 ## **Sample Code**
 
-The following sample code creates a workbook and then checks if its VBA project is protected or not. Then it protects the VBA project and again checks if its VBA project is protected or not. Please see its console output for a reference. Before protection, [**VbaProject.isProtected()**](https://reference.aspose.com/cells/javascript-cpp/vbaproject/#isProtected--) returns **false** but after protection, it returns **true**.
+The following sample code creates a workbook, checks if its VBA project is protected, then protects the VBA project and checks again. Refer to the console output for the results. Before protection, **VbaProject.isProtected()** returns **false**, and after protection it returns **true**.
 
 ```html
 <!DOCTYPE html>
@@ -59,18 +59,18 @@ The following sample code creates a workbook and then checks if its VBA project 
             // Access the VBA project of the workbook.
             const vbaProj = workbook.vbaProject;
 
-            // Find out if VBA Project is Protected using isProtected method.
+            // Find out whether the VBA project is protected using the isProtected method.
             const beforeProtected = vbaProj.isProtected();
             console.log("IsProtected - Before Protecting VBA Project: " + beforeProtected);
 
             // Protect the VBA project.
             vbaProj.protect(true, "11");
 
-            // Find out if VBA Project is Protected using isProtected method.
+            // Find out whether the VBA project is protected using the isProtected method.
             const afterProtected = vbaProj.isProtected();
             console.log("IsProtected - After Protecting VBA Project: " + afterProtected);
 
-            // Save the modified workbook as XLSM to preserve VBA project
+            // Save the modified workbook as XLSM to preserve the VBA project.
             const outputData = workbook.save(SaveFormat.Xlsm);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -91,12 +91,9 @@ The following sample code creates a workbook and then checks if its VBA project 
 
 ## **Console Output**
 
-This is the console output of the above sample code for a reference.
+This is the console output of the above sample code for reference.
 
-{{< highlight java >}}
-
+{{< highlight javascript >}}
 IsProtected - Before Protecting VBA Project: False
-
 IsProtected - After Protecting VBA Project: True
-
 {{< /highlight >}}

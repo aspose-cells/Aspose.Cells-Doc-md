@@ -1,5 +1,5 @@
 ---
-title: Python Programmers Guide
+title: Python Programmer's Guide
 type: docs
 weight: 20
 url: /java/python-programmers-guide/
@@ -7,9 +7,9 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section shows different examples of Aspose.Cells Java Apis in Python using JPype.
+This section shows different examples of Aspose.Cells Java APIs in Python, using JPype.
 
-It is very helpful for developers who want to use Aspose.Cells Java Apis in Python.
+It is very helpful for developers who want to use Aspose.Cells Java APIs in Python.
 
 - [Quick Start in Python](/cells/java/quick-start-in-python/)
   - [Hello World in Python](/cells/java/hello-world-in-python/)
@@ -20,7 +20,7 @@ It is very helpful for developers who want to use Aspose.Cells Java Apis in Pyth
   - [Utility Features in Python](/cells/java/utility-features-in-python/)
     - [Converting Excel Files to HTML in Python](/cells/java/converting-excel-files-to-html-in-python/)
     - [Converting Excel to PDF Files in Python](/cells/java/converting-excel-to-pdf-files-in-python/)
-    - [Converting To MHTML Files in Python](/cells/java/converting-to-mhtml-files-in-python/)
+    - [Converting to MHTML Files in Python](/cells/java/converting-to-mhtml-files-in-python/)
     - [Converting Worksheet to Image in Python](/cells/java/converting-worksheet-to-image-in-python/)
     - [Converting Worksheet to SVG in Python](/cells/java/converting-worksheet-to-svg-in-python/)
     - [Managing Document Properties in Python](/cells/java/managing-document-properties-in-python/)
@@ -50,4 +50,4 @@ It is very helpful for developers who want to use Aspose.Cells Java Apis in Pyth
     - [Copying and Moving Worksheets in Python](/cells/java/copying-and-moving-worksheets-in-python/)
     - [Managing Page Breaks in Python](/cells/java/managing-page-breaks-in-python/)
 
-**Note:** Many more examples are yet to be available soon.
+**Note:** Many more examples will be available soon.

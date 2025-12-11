@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Headers and footers are the lines of text displayed below the top margin or above the bottom margin respectively. It's possible to add headers and footers to the worksheets also. Headers and footers can be used to display useful information like page number, author name, topic name, or date and time. Headers and footers are managed using the page setup settings.
+Headers and footers are the lines of text displayed **above** the top margin or **below** the bottom margin, respectively. Headers and footers can also be added to worksheets. They can be used to display useful information such as page number, author name, topic name, or date and time. Headers and footers are managed using the page‑setup settings.
 
 {{% /alert %}}
 
 ## **Setting Headers and Footers**
 
-Aspose.Cells allows you to add headers and footers to worksheets at runtime but we recommend setting headers and footers manually in a pre-designed file for printing. You can use Microsoft Excel as a GUI tool to set headers and footers to save effort and development time. Aspose.Cells can import the file and save the settings.
+Aspose.Cells allows you to add headers and footers to worksheets at runtime, but we recommend setting headers and footers manually in a pre‑designed file for printing. You can use Microsoft Excel as a GUI tool to set headers and footers to save effort and development time. Aspose.Cells can import the file and preserve the settings.
 
 To add headers and footers at runtime, Aspose.Cells provides special API calls and script commands to format headers and footers.
 
@@ -38,11 +38,11 @@ Script commands are special commands that allow you to set header and footer for
 |&&Text|Shows &Text. For example: &&WO will be displayed as &WO|
 |&"\<FontName>"|Represents a font name. For example: &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Represents font name with style. For example: &"Arial,Bold"|
-|&\<FontSize>|Represents font size. For example: “&14abc”. But, if this command is followed by a plain number to be printed in the header, this should be separated with a space character from the font size. For example: “&14 123”.|
+|&\<FontSize>|Represents font size. For example: "&14abc". However, if this command is followed by a plain number to be printed in the header, the number should be separated from the font size with a space character. For example: "&14 123".|
 
 ### **Set Headers and Footers**
 
-The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides two methods, [**SetHeader**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setheader/) and [**SetFooter**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setfooter/), used to add a header and footer to a worksheet. These methods take only two parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class provides two methods, [**SetHeader**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setheader/) and [**SetFooter**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setfooter/), used to add a header and footer to a worksheet. These methods take only two parameters:
 
 - **Section** – the section where the header or footer should be placed. There are three sections: left, center and right, represented by 0, 1 and 2 respectively.
 - **Script** – the script to be used for the header or footer. This script contains script commands to format headers or footers.
@@ -90,15 +90,15 @@ int main()
 
 ### **Insert an Image into a Header or Footer**
 
-The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class has two additional methods, [**SetHeaderPicture**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setheaderpicture/) and [**SetFooterPicture**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setfooterpicture/), used to add pictures into the header and footer. These methods take the parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/) class has two additional methods, [**SetHeaderPicture**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setheaderpicture/) and [**SetFooterPicture**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/setfooterpicture/), used to add pictures into the header and footer. These methods take the following parameters:
 
 - **Section** – the header or footer section where the picture will be placed. There are three sections, left, center and right, represented by the values 0, 1 and 2 respectively.
 - **Byte array** – the graphical data (the binary data should be written into the buffer of a byte array).
 
-After executing the code below and opening the file, check the header of the worksheet by:
+After executing the code below and opening the file, check the header of the worksheet as follows:
 
-1. On the **File** menu, select **Page Setup**. A dialog will be displayed.
-1. Select the **Header/Footer** tab.
+1. On the **File** menu, select **Page Setup**. A dialog will be displayed.  
+2. Select the **Header/Footer** tab.
 
 ```cpp
 #include <iostream>
@@ -122,7 +122,7 @@ int main()
     // Creating a Workbook object
     Workbook workbook;
 
-    // Creating a string variable to store the url of the logo/picture
+    // Creating a string variable to store the URL of the logo/picture
     U16String logo_url = srcDir + u"aspose-logo.jpg";
 
     // Declaring a FileStream object
@@ -159,7 +159,7 @@ int main()
         // Setting the script for the logo/picture
         pageSetup.SetHeader(1, u"&G");
 
-        // Setting the Sheet's name in the right section of the page header with the script
+        // Setting the sheet's name in the right section of the page header with the script
         pageSetup.SetHeader(2, u"&A");
 
         // Saving the workbook

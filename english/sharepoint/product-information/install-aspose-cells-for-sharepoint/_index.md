@@ -7,7 +7,7 @@ ai_search_scope: cells_sharepoint
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-###### **This section includes the following topics:** 
+###### **This section includes the following topics:**
 - [Installing Aspose.Cells for SharePoint](/cells/sharepoint/installing-aspose-cells-for-sharepoint/)
 - [Deployment and Activation](/cells/sharepoint/deployment-and-activation/)
 - [Activation and Deactivation after installation](/cells/sharepoint/activation-and-deactivation-after-installation/)

@@ -1,6 +1,6 @@
 ---
 title: Create TextBox in which each line has a different Horizontal Alignment with JavaScript via C++
-linktitle: Create TextBox in which each line is having different Horizontal Alignment
+linktitle: Create TextBox in which each line has different Horizontal Alignment
 type: docs
 weight: 310
 url: /javascript-cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
@@ -46,13 +46,13 @@ The following sample code creates three lines and sets the horizontal alignment 
             // Creating a new workbook
             const wb = new Workbook();
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const ws = wb.worksheets.get(0);
 
-            // Add text box inside the sheet.
+            // Add a text box inside the sheet.
             ws.shapes.addTextBox(2, 0, 2, 0, 80, 400);
 
-            // Access first shape which is a text box and set its text.
+            // Access the first shape, which is a text box, and set its text.
             const shape = ws.shapes.get(0);
             shape.text = "Sign up for your free phone number.\nCall and text online for free.\nCall your friends and family.";
 

@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This topic explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [**Worksheet.calculateFormula(formula, opts)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-CalculationOptions-) method for this purpose.
 
-Please see the following sample code that illustrates the usage of this method. We have used a custom function named MyCompany.CustomFunction() and we calculate its value as "Aspose.Cells." by ourselves and then this value is automatically concatenated with the value of cell A1 which is "Welcome to " by the calculation engine and the final calculated value returns as "Welcome to Aspose.Cells."". As you can see in a code that we have not written our custom function anywhere in a worksheet and it is calculated directly by our own custom logic.
+Please see the following sample code that illustrates the usage of this method. We have used a custom function named `MyCompany.CustomFunction()` and we calculate its value as `"Aspose.Cells."` ourselves; then this value is automatically concatenated with the value of cell A1, which is `"Welcome to "`, by the calculation engine, and the final calculated value returns as `"Welcome to Aspose.Cells."`. As you can see, we have not written our custom function anywhere in a worksheet, and it is calculated directly by our own custom logic.
 
 ### **Programming Sample**
 
@@ -67,16 +67,12 @@ ImplementDirectCalculationOfCustomFunction.run();
 Below is the console output of the above sample code.
 
 {{< highlight javascript >}}
-
 Calculated Value: Welcome to Aspose.Cells.
-
 {{< /highlight >}}
 
 ### **Related Article**
 
 {{% alert color="primary" %}}
-
 [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/nodejs-cpp/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
-
 {{% /alert %}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

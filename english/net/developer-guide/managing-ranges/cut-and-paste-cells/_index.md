@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Cut and Paste Cells**
 
-Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) accepts the following parameters.
+Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. The [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) method accepts the following parameters.
 
 - [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range): The range of cells to be cut.
 - Row Index: The index of the row to insert cells.

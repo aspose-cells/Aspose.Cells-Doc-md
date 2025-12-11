@@ -1,16 +1,15 @@
----
-title: Get Hyperlinks in Range
-type: docs
-weight: 100
-url: /javascript-cpp/get-hyperlinks-in-range/
-description: Learn how to get hyperlinks in range through the Aspose.Cells for JavaScript via C++ API.
-keywords: Get Hyperlinks in Range JavaScript via C++, Get all the hyperlinks in the selected range JavaScript via C++, Delete hyperlink in Range JavaScript via C++, Delete the hyperlinks in the selected range JavaScript via C++
----
+---  
+title: Get Hyperlinks in Range  
+type: docs  
+weight: 100  
+url: /javascript-cpp/get-hyperlinks-in-range/  
+description: Learn how to get hyperlinks in a range through Aspose.Cells for JavaScript via C++ API.  
+keywords: Get Hyperlinks in Range JavaScript via C++, Get all the hyperlinks in the selected range JavaScript via C++, Delete hyperlink in Range JavaScript via C++, Delete the hyperlinks in the selected range JavaScript via C++  
+---  
 
-## **Get Hyperlinks in Range**
+## **Get Hyperlinks in Range**  
 
-The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class provides a [**hyperlinks**](https://reference.aspose.com/cells/javascript-cpp/range/#hyperlinks--) method which returns all the hyperlinks in the selected range. You may also delete the hyperlink by calling the [**Hyperlink.delete()**](https://reference.aspose.com/cells/javascript-cpp/hyperlink/#delete--) method.
-
+The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class provides a [**hyperlinks**](https://reference.aspose.com/cells/javascript-cpp/range/#hyperlinks--) method which returns all the hyperlinks in the selected range. You may also delete a hyperlink by calling the [**Hyperlink.delete()**](https://reference.aspose.com/cells/javascript-cpp/hyperlink/#delete--) method.  
 
 ```html
 <!DOCTYPE html>
@@ -63,7 +62,7 @@ The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class p
             // Create a range A2:B3
             const range = worksheet.cells.createRange("A2", "B3");
 
-            // Get Hyperlinks in range
+            // Get hyperlinks in the range
             const hyperlinks = range.hyperlinks;
 
             let logText = '';
@@ -71,7 +70,7 @@ The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) class p
                 const link = hyperlinks.get(i);
                 logText += `${link.area} : ${link.address}\n`;
                 
-                // To delete the link, use the Hyperlink.Delete() method.
+                // To delete the link, use the Hyperlink.delete() method.
                 link.delete();
             }
 

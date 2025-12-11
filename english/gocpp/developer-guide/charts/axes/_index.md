@@ -10,28 +10,29 @@ url: /go-cpp/chart-axes/
 
 {{% alert color="primary" %}}
 
-In Excel charts, there are 3 kinds of Axes:
-1. Horizontal (Category) Axis : X Axis
-1. Vertical (Value) Axis : Y Axis
-1. Depth (Series) Axis : Z Axis
+In Excel charts, there are three kinds of axes:
+1. Horizontal (Category) Axis: X‑Axis
+2. Vertical (Value) Axis: Y‑Axis
+3. Depth (Series) Axis: Z‑Axis
 
 {{% /alert %}}
 
 ## **Axis Options**
-Aspose.Cells also allows you to manage chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/go-cpp/axis/) object, you can change all options of the Axis as done in Excel.
+Aspose.Cells also allows you to manage a chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/go-cpp/axis/) object, you can change all options of the axis as in Excel.
 
 |![todo:image_alt_text](chart_axes.png)|
 
 ## **Manage X and Y Axes**
 
-In Excel charts, horizontal and vertical axes are the two most popular axes to use.
+In Excel charts, horizontal and vertical axes are the two most commonly used axes.
 
 The following code snippet demonstrates how to set the options of X and Y axes.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Axes.go" >}}
-## **Advance Topics**
+
+## **Advanced Topics**
 - [Change Tick Label Direction](/cells/cpp/change-tick-label-direction/)
-- [Determine which Axis exists in the Chart](/cells/cpp/determine-which-axis-exists-in-the-chart/)
-- [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
-- [Read Axis Labels after Calculating the Chart](/cells/cpp/read-axis-labels-after-calculating-the-chart/)
-- [How to Set Category Axis in Excel Chart](/cells/cpp/how-to-set-category-axis/)
+- [Determine which axis exists in the chart](/cells/cpp/determine-which-axis-exists-in-the-chart/)
+- [Handle automatic units of chart axes like Microsoft Excel](/cells/cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+- [Read axis labels after calculating the chart](/cells/cpp/read-axis-labels-after-calculating-the-chart/)
+- [How to set the category axis in an Excel chart](/cells/cpp/how-to-set-category-axis/)

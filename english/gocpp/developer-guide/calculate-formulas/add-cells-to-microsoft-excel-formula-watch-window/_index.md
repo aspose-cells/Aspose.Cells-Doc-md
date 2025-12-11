@@ -10,7 +10,7 @@ url: /go-cpp/add-cells-to-microsoft-excel-formula-watch-window/
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel Watch Window is a useful tool to conveniently monitor cell values and their formulas in a window. You can open the *Watch Window* in Microsoft Excel by clicking *Formulas > Watch Window*. It has the *Add Watch* button that can be used to add cells for inspection. Similarly, you can use the [**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/go-cpp/cellwatchcollection/add_int_int/) method to add cells to the *Watch Window* using Aspose.Cells API.
+The Microsoft Excel Watch Window is a useful tool that conveniently monitors cell values and their formulas. You can open the *Watch Window* in Microsoft Excel by clicking *Formulas > Watch Window*. It has the *Add Watch* button that can be used to add cells for inspection. Similarly, you can use the [**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/go-cpp/cellwatchcollection/add_int_int/) method to add cells to the *Watch Window* using the Aspose.Cells API.
 
 ## **Add Cells to Microsoft Excel Formula Watch Window**
 

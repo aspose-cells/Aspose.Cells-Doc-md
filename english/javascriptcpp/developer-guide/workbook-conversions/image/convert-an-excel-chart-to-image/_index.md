@@ -9,9 +9,9 @@ description: Learn how to convert Excel charts to images using Aspose.Cells for 
 
 {{% alert color="primary" %}}  
 
-Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy to understand and an easy to maintain manner. A picture helps.  
+Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy-to-understand and easy-to-maintain manner. A picture helps.  
 
-Sometimes, charts are needed in an application or web pages. Or it might be needed for a Word document, a PDF file, a PowerPoint presentation or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.  
+Sometimes, charts are needed in an application or on web pages. Or they might be needed for a Word document, a PDF file, a PowerPoint presentation, or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.  
 
 {{% /alert %}}  
 
@@ -46,7 +46,7 @@ All [Aspose](http://www.aspose.com/) components work in evaluation mode when fir
 1. Create a project:  
    1. Start your preferred IDE.  
    1. Create a new console application. This example uses a JavaScript application, but you can create it using any JavaScript runtime environment.  
-   1. Add a reference. This project uses Aspose.Cells so add a reference to Aspose.Cells for JavaScript via C++.  
+   1. Add a reference. This project uses Aspose.Cells, so add a reference to Aspose.Cells for JavaScript via C++.  
    1. Write the code that finds and converts the chart. Below is the code used by the component to accomplish the task. Very few lines of code are used.  
 
 ```html
@@ -128,7 +128,7 @@ First, create a column chart in Microsoft Excel and convert it to an image file,
 |![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|  
 
 1. Set up a project, with references, as described above.  
-1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:  
+1. Convert the chart to an image dynamically. The following is the code used by the component to accomplish the task. The code is similar to the previous one:  
 
 ```html
 <!DOCTYPE html>

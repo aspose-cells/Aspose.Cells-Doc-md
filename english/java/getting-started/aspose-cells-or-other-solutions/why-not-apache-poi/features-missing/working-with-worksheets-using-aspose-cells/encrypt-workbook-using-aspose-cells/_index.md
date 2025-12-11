@@ -8,17 +8,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Encrypt Workbook**
-The following example shows how you can encrypt / password protect an excel file using the Aspose.Cells API.
+The following example shows how you can encrypt/password‑protect an Excel file using the Aspose.Cells API.
 
 **Java**
 
 {{< highlight java >}}
 
- //Instantiate a Workbook object by excel file path
+ //Instantiate a Workbook object by Excel file path
 
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 
-//Password protect the file.
+//Password‑protect the file.
 
 workbook.getSettings().setPassword("1234");
 
@@ -26,11 +26,11 @@ workbook.getSettings().setPassword("1234");
 
 workbook.setEncryptionOptions(EncryptionType.XOR, 40);
 
-//Specify Strong Encryption type (RC4,Microsoft Strong Cryptographic Provider).
+//Specify Strong Encryption type (RC4, Microsoft Strong Cryptographic Provider).
 
 workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128);
 
-//Save the excel file.
+//Save the Excel file.
 
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
@@ -38,6 +38,7 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 ## **Download Running Code**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 

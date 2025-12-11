@@ -34,7 +34,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
         </ul>
     </div>
     <div class="col-md-6">
-	   <p>Print</p>
+        <p>Print</p>
         <ul>
             <li><a href="/cells/java/specify-job-or-document-name-while-printing-with-aspose-cells/">Print</a></li>
             <li><a href="/cells/java/rendering-and-printing/">Rendering and Printing</a></li>
@@ -62,50 +62,50 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
     <div class="col-md-6">
         <p>Data</p>
         <ul>
-		 <li><a href="/cells/java/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
-		 <li><a href="/cells/java/add-and-retrieve-data/">Add and Retrieve Data</a></li>
-		 <li><a href="/cells/java/worksheets/">Worksheets</a></li>
-		 <li><a href="/cells/java/rows-and-columns/">Rows and Columns</a></li>
+            <li><a href="/cells/java/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
+            <li><a href="/cells/java/add-and-retrieve-data/">Add and Retrieve Data</a></li>
+            <li><a href="/cells/java/worksheets/">Worksheets</a></li>
+            <li><a href="/cells/java/rows-and-columns/">Rows and Columns</a></li>
         </ul>
         <p>Style</p>
         <ul>
-		 <li><a href="/cells/java/data-formatting/">Number</a></li>
-		 <li><a href="/cells/java/dealing-with-font-settings/">Alignment</a></li>
-		 <li><a href="/cells/java/fonts/">Font</a></li>
-		 <li><a href="/cells/java/cells-formatting/#adding-borders-to-cells">Border</a></li>
-		 <li><a href="/cells/java/cells-formatting/#colors-and-background-patterns">Fill</a></li>
-		 <li><a href="/cells/java/dealing-with-font-settings/">Dealing with Font Settings</a></li>
-		 <li><a href="/cells/java/change-cells-alignment-and-keep-existing-formatting/">Change Cells Alignment and Keep Existing Formatting</a></li>
+            <li><a href="/cells/java/data-formatting/">Number</a></li>
+            <li><a href="/cells/java/dealing-with-font-settings/">Alignment</a></li>
+            <li><a href="/cells/java/fonts/">Font</a></li>
+            <li><a href="/cells/java/cells-formatting/#adding-borders-to-cells">Border</a></li>
+            <li><a href="/cells/java/cells-formatting/#colors-and-background-patterns">Fill</a></li>
+            <li><a href="/cells/java/dealing-with-font-settings/">Dealing with Font Settings</a></li>
+            <li><a href="/cells/java/change-cells-alignment-and-keep-existing-formatting/">Change Cells Alignment and Keep Existing Formatting</a></li>
         </ul>
         <p>Conditional Formatting</p>
         <ul>
-		  <li><a href="/cells/java/conditional-formatting/">Conditional Formatting</a></li>
-          <li><a href="/cells/java/apply-conditional-formatting-in-worksheets/">Apply Conditional Formatting in Worksheets</a></li>
-          <li><a href="/cells/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/">Apply Shading to Alternate Rows and Columns with Conditional Formatting</a></li>
-        </ul>       
+            <li><a href="/cells/java/conditional-formatting/">Conditional Formatting</a></li>
+            <li><a href="/cells/java/apply-conditional-formatting-in-worksheets/">Apply Conditional Formatting in Worksheets</a></li>
+            <li><a href="/cells/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/">Apply Shading to Alternate Rows and Columns with Conditional Formatting</a></li>
+        </ul>
     </div>
-    <div class="col-md-6">        
+    <div class="col-md-6">
         <p>Sort</p>
         <ul>
-		 <li><a href="/cells/java/data-sorting/">Data Sorting</a></li>
-         <li><a href="/cells/java/sort-data-in-column-with-custom-sort-list/">Sort Data in Column with Custom Sort List</a></li>
-		 <li><a href="/cells/java/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
+            <li><a href="/cells/java/data-sorting/">Data Sorting</a></li>
+            <li><a href="/cells/java/sort-data-in-column-with-custom-sort-list/">Sort Data in Column with Custom Sort List</a></li>
+            <li><a href="/cells/java/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
         </ul>
-		 <p>Filter</p>
+        <p>Filter</p>
         <ul>
-		 <li><a href="/cells/java/data-filtering/">Data Filtering</a></li>
-         <li><a href="/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria</a></li>
-		 <li><a href="/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
+            <li><a href="/cells/java/data-filtering/">Data Filtering</a></li>
+            <li><a href="/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria</a></li>
+            <li><a href="/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
         </ul>
-        <p>Find&Select</p>
+        <p>Find & Select</p>
         <ul>
-		<li><a href="/cells/java/find-or-search-data/">Find or Search Data</a></li>
+            <li><a href="/cells/java/find-or-search-data/">Find or Search Data</a></li>
         </ul>
         <p>Cells</p>
         <ul>
-		    <li><a href="/cells/java/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
-             <li><a href="/cells/java/managing-rows-columns-and-cells/">Managing Rows, Columns and Cells</a></li>
-        </ul>		
+            <li><a href="/cells/java/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
+            <li><a href="/cells/java/managing-rows-columns-and-cells/">Managing Rows, Columns and Cells</a></li>
+        </ul>
     </div>
 </div>
 {{< /tab >}}
@@ -118,11 +118,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             <li><a href="/cells/java/formatting-pivot-table/">Formatting Pivot Table</a></li>
         </ul>
         <p><a href="/cells/java/tables/">Table</a></p>
-         <ul>
+        <ul>
             <li><a href="/cells/java/creating-a-list-object/">Creating a List Object</a></li>
             <li><a href="/cells/java/format-a-list-object-table/">Format a List Object - Table</a></li>
-        </ul>
-        <ul>
         </ul>
         <p><a href="/cells/java/managing-pictures">Picture</a></p>
         <ul>
@@ -133,16 +131,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
         <p><a href="/cells/java/managing-charts-and-shapes/">Shape</a></p>
         <ul>
             <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-to-worksheet">Inserting a Line to Worksheet</a></li>
-            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-arrow-to-worksheet">Inserting a line arrow to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-arrow-to-worksheet">Inserting a Line Arrow to Worksheet</a></li>
             <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-rectangle-to-worksheet">Inserting a Rectangle to Worksheet</a></li>
             <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-cube-to-worksheet">Inserting a Cube to Worksheet</a></li>
-						<li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
-						<li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
-						<li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
-						<li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
-						<li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a Callout Quad Arrow to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Inserting a Multiplication Sign to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Inserting a Multidocument to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five‑Pointed Star to Worksheet</a></li>
+            <li><a href="/cells/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a Thought Bubble Cloud to Worksheet</a></li>
         </ul>
-		    <p>Links</p>
+        <p>Links</p>
         <ul>
             <li><a href="/cells/java/working-with-hyperlinks-to-link-data/">Working with Hyperlinks to Link Data</a></li>
             <li><a href="/cells/java/add-image-hyperlinks/">Add Image Hyperlinks</a></li>
@@ -160,15 +158,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             <li><a href="/cells/java/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
             <li><a href="/cells/java/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
         </ul>
-         <p><a href="/cells/java/charts/">Chart</a></p>
-		  <ul>
+        <p><a href="/cells/java/charts/">Chart</a></p>
+        <ul>
             <li><a href="/cells/java/creating-and-customizing-charts/">Creating and Customizing Charts</a></li>
-			<li><a href="/cells/java/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>
+            <li><a href="/cells/java/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>
             <li><a href="/cells/java/chart-formatting/">Chart Formatting</a></li>
-	   </ul>
+        </ul>
     </div>
-    <div class="col-md-6">       
-        <p><a href="/cells/java/managing-ole-objects/">OleObject</a></p>
+    <div class="col-md-6">
+        <p><a href="/cells/java/managing-ole-objects/">OLE Object</a></p>
         <ul>
             <li><a href="/cells/java/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">Managing OLE Objects</a></li>
         </ul>
@@ -178,14 +176,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             <li><a href="/cells/java/create-slicer-to-excel-table/">Create Slicer to Excel Table</a></li>
             <li><a href="/cells/java/formatting-slicer/">Formatting Slicer</a></li>
         </ul>
-        <p><a href="/cells/java/managing-charts-and-shapes/">Text Box</a</p>
+        <p><a href="/cells/java/managing-charts-and-shapes/">Text Box</a></p>
         <ul>
             <li><a href="/cells/java/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
             <li><a href="/cells/java/applying-text-alignment-to-partial-text-inside-the-textbox/">Applying text alignment to partial text inside the TextBox</a></li>
         </ul>
-        <p>Header&Footer</p>
+        <p>Header & Footer</p>
         <ul>
-        <li><a href="/cells/java/page-setup-features/#setting-headers-and-footers">Setting Headers and Footers</a></li>
+            <li><a href="/cells/java/page-setup-features/#setting-headers-and-footers">Setting Headers and Footers</a></li>
         </ul>
         <p><a href="/cells/java/managing-charts-and-shapes/">WordArt</a></p>
         <ul>
@@ -197,7 +195,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
         </ul>
         <p>Icons</p>
         <ul>
-            <li><a href="/cells/java/add-icons-to-worksheet-in-aspose-cells/">insert Icons to Worksheet</a></li>
+            <li><a href="/cells/java/add-icons-to-worksheet-in-aspose-cells/">Insert Icons to Worksheet</a></li>
         </ul>
     </div>
 </div>
@@ -212,26 +210,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
         </ul>
         <p>Page Setup</p>
         <ul>
-         <li><a href="/cells/java/page-setup-features/#setting-margins">Setting Margins</a></li>
-         <li><a href="/cells/java/page-setup-features/#setting-page-options">Setting Page Options</a></li>
-         <li><a href="/cells/java/page-setup-features/#setting-print-options">Setting Print Options</a></li>
-         <li><a href="/cells/java/managing-page-breaks/">Managing Page Breaks</a></li>
-         <li><a href="/cells/java/insert-background-image-to-excel/">Insert Background Image to Excel</a></li>         
-         <li><a href="/cells/java/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
-         <li><a href="/cells/java/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
-         <li><a href="/cells/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
-         <li><a href="/cells/java/determine-if-paper-size-of-worksheet-is-automatic/">Determine if Paper Size of Worksheet is Automatic</a></li>
+            <li><a href="/cells/java/page-setup-features/#setting-margins">Setting Margins</a></li>
+            <li><a href="/cells/java/page-setup-features/#setting-page-options">Setting Page Options</a></li>
+            <li><a href="/cells/java/page-setup-features/#setting-print-options">Setting Print Options</a></li>
+            <li><a href="/cells/java/managing-page-breaks/">Managing Page Breaks</a></li>
+            <li><a href="/cells/java/insert-background-image-to-excel/">Insert Background Image to Excel</a></li>
+            <li><a href="/cells/java/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
+            <li><a href="/cells/java/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
+            <li><a href="/cells/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
+            <li><a href="/cells/java/determine-if-paper-size-of-worksheet-is-automatic/">Determine if Paper Size of Worksheet is Automatic</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Scale to Fit</p>
         <ul>
-		<li><a href="/cells/java/page-setup-features/#scaling-factor">Scale</a></li>
-		<li><a href="/cells/java/page-setup-features/#fittopages-options">Width and Height</a></li>
+            <li><a href="/cells/java/page-setup-features/#scaling-factor">Scale</a></li>
+            <li><a href="/cells/java/page-setup-features/#fittopages-options">Width and Height</a></li>
         </ul>
         <p>Sheet Options</p>
         <ul>
-		<li><a href="/cells/java/page-setup-features/#set-other-print-options">Print Gridlines and Heading</a></li>
+            <li><a href="/cells/java/page-setup-features/#set-other-print-options">Print Gridlines and Headings</a></li>
         </ul>
     </div>
 </div>
@@ -267,40 +265,40 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 {{< tab tabNum="6" >}}
 <div class="row">
     <div class="col-md-6">
-	    <p><a href="/cells/java/managing-database-connections/">Get & Transform data</a></p>
+        <p><a href="/cells/java/managing-database-connections/">Get & Transform Data</a></p>
         <ul>
-		 <li><a href="/cells/java/xml-maps/">XML Maps</a></li>
-		 <li><a href="/cells/java/retrieving-sql-connection-data/">Retrieving SQL Connection Data</a></li>
-		 <li><a href="/cells/java/how-to-get-odata-connection-information/">How to get OData Connection Information</a></li>
-		 <li><a href="/cells/java/modify-existing-sql-data-connection-using-aspose-cells/">Modify existing SQL Data Connection using Aspose.Cells</a></li>
-		 <li><a href="/cells/java/working-with-external-data-connection-of-type-webquery/">Working with External Data Connection of type WebQuery</a></li>
+            <li><a href="/cells/java/xml-maps/">XML Maps</a></li>
+            <li><a href="/cells/java/retrieving-sql-connection-data/">Retrieving SQL Connection Data</a></li>
+            <li><a href="/cells/java/how-to-get-odata-connection-information/">How to get OData Connection Information</a></li>
+            <li><a href="/cells/java/modify-existing-sql-data-connection-using-aspose-cells/">Modify existing SQL Data Connection using Aspose.Cells</a></li>
+            <li><a href="/cells/java/working-with-external-data-connection-of-type-webquery/">Working with External Data Connection of type WebQuery</a></li>
         </ul>
         <p><a href="/cells/java/managing-database-connections/">Queries & Connections</a></p>
         <ul>
-		 <li><a href="/cells/java/reading-and-writing-query-table-of-worksheet/">Reading and Writing Query Table of Worksheet</a></li>
+            <li><a href="/cells/java/reading-and-writing-query-table-of-worksheet/">Reading and Writing Query Table of Worksheet</a></li>
         </ul>
         <p>Sort</p>
         <ul>
-         <li><a href="/cells/java/data-sorting/">Sort</a></li>
-          <li><a href="/cells/java/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
+            <li><a href="/cells/java/data-sorting/">Sort</a></li>
+            <li><a href="/cells/java/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
         </ul>
-         <p>Filter</p>
+        <p>Filter</p>
         <ul>
-         <li><a href="/cells/java/data-filtering/">Filter</a></li>
-         <li><a href="/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
-         <li><a href="/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Advanced Filter</a></li>
+            <li><a href="/cells/java/data-filtering/">Filter</a></li>
+            <li><a href="/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
+            <li><a href="/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Advanced Filter</a></li>
         </ul>
         <p>Data Tools</p>
         <ul>
-         <li><a href="/cells/java/convert-text-to-columns-using-aspose-cells/">Text to Columns</a></li>
-        <li><a href="/cells/java/data-validation/">Data Validation</a></li>
-        <li><a href="/cells/java/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
+            <li><a href="/cells/java/convert-text-to-columns-using-aspose-cells/">Text to Columns</a></li>
+            <li><a href="/cells/java/data-validation/">Data Validation</a></li>
+            <li><a href="/cells/java/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Outline</p>
         <ul>
-		<li><a href="/cells/java/creating-subtotals/">Creating Subtotals</a></li>
+            <li><a href="/cells/java/creating-subtotals/">Creating Subtotals</a></li>
         </ul>
     </div>
 </div>
@@ -312,23 +310,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
         <ul>
             <li><a href="/cells/java/add-a-picture-to-an-excel-comment/">Add a Picture to an Excel Comment</a></li>
             <li><a href="/cells/java/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
-            <li><a href="/cells/java/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>            
+            <li><a href="/cells/java/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
             <li><a href="/cells/java/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
             <li><a href="/cells/java/disable-downlevel-revealed-comments-while-saving-to-html/">Disable Downlevel Revealed Comments while saving to HTML</a></li>
             <li><a href="/cells/java/threaded-comments/">Threaded Comments</a></li>
         </ul>
     </div>
-     <div class="col-md-6">
+    <div class="col-md-6">
         <p>Protect</p>
         <ul>
-         <li><a href="/cells/java/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>
-         <li><a href="/cells/java/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
+            <li><a href="/cells/java/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>
+            <li><a href="/cells/java/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Changes</p>
         <ul>
-         <li><a href="/cells/java/convert-revision-of-xlsb-to-xlsm/">Convert Revision of XLSB to XLSM</a></li>
+            <li><a href="/cells/java/convert-revision-of-xlsb-to-xlsm/">Convert Revision of XLSB to XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -338,22 +336,22 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
     <div class="col-md-6">
         <p>Workbook Views</p>
         <ul>
-         <li><a href="/cells/java/worksheet-views/#page-break-preview">Page Break Preview</a></li>
+            <li><a href="/cells/java/worksheet-views/#page-break-preview">Page Break Preview</a></li>
         </ul>
         <p>Show</p>
-         <ul>
-		<li><a href="/cells/java/show-and-hide-elements/">Show and Hide Elements</a></li>
+        <ul>
+            <li><a href="/cells/java/show-and-hide-elements/">Show and Hide Elements</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Zoom</p>
         <ul>
-         <li><a href="/cells/java/worksheet-views/#zoom-factor">Zoom</a></li>
+            <li><a href="/cells/java/worksheet-views/#zoom-factor">Zoom</a></li>
         </ul>
         <p>Window</p>
         <ul>
-        <li><a href="/cells/java/worksheet-views/#freeze-panes">Freeze Panes</a></li>
-        <li><a href="/cells/java/worksheet-views/#applying-and-removing-split-panes">Applying and Removing Split Panes</a></li>
+            <li><a href="/cells/java/worksheet-views/#freeze-panes">Freeze Panes</a></li>
+            <li><a href="/cells/java/worksheet-views/#applying-and-removing-split-panes">Applying and Removing Split Panes</a></li>
         </ul>
     </div>
 </div>
@@ -363,11 +361,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
     <div class="col-md-6">
         <p>Controls</p>
         <ul>
-         <li><a href="/cells/java/workbook-vba-project/">Workbook VBA Project</a></li>
+            <li><a href="/cells/java/workbook-vba-project/">Workbook VBA Project</a></li>
         </ul>
         <p>XML</p>
-         <ul>
-		<li><a href="/cells/java/xml-maps/">XML Maps</a></li>
+        <ul>
+            <li><a href="/cells/java/xml-maps/">XML Maps</a></li>
         </ul>
     </div>
 </div>

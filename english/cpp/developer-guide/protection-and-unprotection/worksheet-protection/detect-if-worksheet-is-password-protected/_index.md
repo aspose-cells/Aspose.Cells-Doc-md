@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password-protected, however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password protected or not. This article demonstrates the usage of Aspose.Cells for C++ API to achieve the same.
+It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password‑protected; however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password protected or not. This article demonstrates the usage of the Aspose.Cells for C++ API to achieve the same.
 
 {{% /alert %}}
 
-Aspose.Cells for C++ has exposed the [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property to detect if a worksheet is password protected or not. Boolean type [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) is password-protected and **false** if not.
+Aspose.Cells for C++ exposes the [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property to detect if a worksheet is password protected or not. The Boolean‑type [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/cpp/aspose.cells/protection/isprotectedwithpassword/) property returns **true** if a [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) is password‑protected and **false** if not.
 
 ```c++
 #include <iostream>

@@ -19,6 +19,6 @@ Aspose.Cells provides the [GetShadowEffect()](https://reference.aspose.com/cells
 - [GetTransparency()](https://reference.aspose.com/cells/go-cpp/shadoweffect/gettransparency/)
 
 ## **Working with the Shadow Effect of Shape or Chart**
-The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [GetShadowEffect()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getshadoweffect/) property and then saves the workbook in the [output excel file](5115411.xlsx).
+The following sample code loads the source **Excel** file ([5115425.xlsx](5115425.xlsx)), accesses the first shape in the first worksheet, sets the sub‑properties of the **GetShadowEffect** property, and then saves the workbook to the output **Excel** file ([5115411.xlsx](5115411.xlsx)).
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-WorkingWithTheShadowEffectOfShapeOrChart.go" >}}

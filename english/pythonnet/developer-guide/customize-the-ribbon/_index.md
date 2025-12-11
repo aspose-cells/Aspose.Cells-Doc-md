@@ -11,14 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Microsoft Office replaced menus and toolbars with a Ribbon at the top of the application window since Office 2007. The Ribbon is customizable. 
+Microsoft Office has replaced menus and toolbars with a Ribbon at the top of the application window since Office 2007. The Ribbon is customizable. 
 Aspose.Cells allows you to:
 
 - Keep Ribbon XML without parsing it
 - Read and write Ribbon XML without parsing it
 - Get and set Ribbon XML data
 
-If you want to change the Ribbon XML, you have to parse it with an XML parser or other Ribbon XML tool.
+If you want to change the Ribbon XML, you must parse it using an XML parser or another Ribbon XML tool.
 
 {{% /alert %}}
 

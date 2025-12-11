@@ -1,10 +1,10 @@
 ---
-title: how to customize UI appearence for message tip toast in GridJs  
+title: how to customize UI appearance for message tip toast in GridJs  
 type: docs
 weight: 250
 url: /java/aspose-cells-gridjs/how-to-customize-toast/
-description: This article describes how to customize UI appearence for mssage toast in GridJs.
-keywords: GridJs,customize,toast,UI,appearence,visual,message,alert
+description: This article describes how to customize the UI appearance for message toast in GridJs.
+keywords: GridJs,customize,toast,UI,appearance,visual,message,alert
 aliases:
 aliases:
   - /java/aspose-cells-gridjs/customize-toast/
@@ -17,12 +17,9 @@ aliases:
   - /java/aspose-cells-gridjs/customize-toast-theme/
   - /java/aspose-cells-gridjs/customize-message/
 
-
-
-
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+--- 
 
 # Custom Toast Guide for GridJs
 
@@ -45,7 +42,7 @@ GridJs provides a flexible custom toast notification system that allows you to r
 - [API Reference](#api-reference)
 - [Best Practices](#best-practices)
 
----
+--- 
 
 ## Basic Usage
 
@@ -71,7 +68,7 @@ xs.customToast(myToast);
 - `content` (string): The toast message content
 - `callback` (function, optional): Callback function to execute after toast is dismissed
 
----
+--- 
 
 ## Integration Examples
 
@@ -139,7 +136,7 @@ xs.customToast(beautifulToast);
 - Auto-dismiss after 3 seconds
 - Close button
 
----
+--- 
 
 ### 2. Toastr Library Integration
 
@@ -171,7 +168,7 @@ xs.customToast((title, content, callback) => {
 - `positionClass`: Controls toast position (top-right, bottom-left, etc.)
 - `timeOut`: Auto-dismiss duration in milliseconds
 
----
+--- 
 
 ### 3. SweetAlert2 Integration
 
@@ -203,7 +200,7 @@ xs.customToast((title, content, callback) => {
 - `info`
 - `question`
 
----
+--- 
 
 ### 4. Vue + Element UI
 
@@ -234,7 +231,7 @@ new Vue({
 - `info`
 - `error`
 
----
+--- 
 
 ### 5. React + Ant Design
 
@@ -266,7 +263,7 @@ const App = () => {
 - `message.warning()`
 - `notification.open()` (for more complex notifications)
 
----
+--- 
 
 ## Advanced Use Cases
 
@@ -299,7 +296,7 @@ xs.customToast((title, content, callback) => {
 - Error monitoring
 - Performance metrics
 
----
+--- 
 
 ### 7. Mobile-Friendly Toast
 
@@ -337,13 +334,13 @@ xs.customToast(mobileToast);
 ```
 
 **Mobile Optimization Features:**
-- Bottom positioning (thumb-friendly)
-- Percentage-based width (80% max)
+- Bottom positioning (thumb‑friendly)
+- Percentage‑based width (80% max)
 - Shorter duration (2 seconds)
 - Larger tap targets
-- No overlay (non-blocking)
+- No overlay (non‑blocking)
 
----
+--- 
 
 ## API Reference
 
@@ -352,7 +349,7 @@ xs.customToast(mobileToast);
 Sets a custom toast notification function for the spreadsheet instance.
 
 **Parameters:**
-- `toastFunction` (Function | null): Custom toast function with signature `(title, content, callback) => void`
+- `toastFunction` (Function | null): Custom toast function with signature `(title, content, callback) => void`
   - Pass `null` to restore default toast behavior
 
 **Returns:**
@@ -372,7 +369,7 @@ xs.customToast(myToast)
   .setActiveSheet(0);
 ```
 
----
+--- 
 
 ## Best Practices
 
@@ -387,21 +384,21 @@ function myToast(title, content, callback) {
 }
 ```
 
-### 2. Non-Blocking Notifications
+### 2. Non‑Blocking Notifications
 
-For better user experience, use non-blocking toast notifications instead of modal alerts:
+For better user experience, use non‑blocking toast notifications instead of modal alerts:
 
 ```javascript
 // ❌ Blocks user interaction
 alert(`${title}: ${content}`);
 
-// ✅ Non-blocking
+// ✅ Non‑blocking
 showToastNotification(title, content);
 ```
 
 ### 3. Appropriate Duration
 
-Choose appropriate auto-dismiss durations based on content length:
+Choose appropriate auto‑dismiss durations based on content length:
 
 ```javascript
 const duration = content.length > 50 ? 5000 : 3000;
@@ -420,7 +417,7 @@ toast.setAttribute('aria-atomic', 'true');
 
 ### 5. Error Handling
 
-Wrap your toast function in try-catch to prevent breaking the spreadsheet:
+Wrap your toast function in `try‑catch` to prevent breaking the spreadsheet:
 
 ```javascript
 xs.customToast((title, content, callback) => {
@@ -468,7 +465,7 @@ xs.customToast(myToast);
 xs.customToast(null);
 ```
 
----
+--- 
 
 ## Troubleshooting
 
@@ -477,9 +474,9 @@ xs.customToast(null);
 **Problem:** Custom toast function is called but nothing appears.
 
 **Solutions:**
-1. Check z-index values (ensure they're higher than spreadsheet elements)
+1. Check `z-index` values (ensure they're higher than spreadsheet elements)
 2. Verify the toast element is appended to `document.body`
-3. Check browser console for JavaScript errors
+3. Check the browser console for JavaScript errors
 
 ### Callback Not Working
 
@@ -508,11 +505,6 @@ const remove = () => {
 **Problem:** Toast looks bad on mobile devices.
 
 **Solutions:**
-1. Use percentage-based widths: `maxWidth: '80%'`
+1. Use percentage‑based widths: `maxWidth: '80%'`
 2. Add viewport meta tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
 3. Use relative font sizes: `fontSize: '14px'` instead of fixed pixels
-
----
- 
- 
- 

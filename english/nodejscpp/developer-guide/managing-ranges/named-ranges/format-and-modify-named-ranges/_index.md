@@ -102,7 +102,7 @@ const cell = worksheet.getCells().get("A1");
 // Adding some value to the "A1" cell
 cell.putValue("Hello World From Aspose");
 
-// Creating a range of cells starting from "A1" cell to 3rd column in a row
+/ // Creating a range of cells starting from "A1" cell to 3rd column in a row
 const range = worksheet.getCells().createRange(0, 0, 1, 3);
 
 // Adding a thick top border with blue line
@@ -206,7 +206,7 @@ workbook.save(path.join(dataDir, "RenamingRange.out.xlsx"));
 
 ## **Union of Ranges**
 
-Aspose.Cells provides [**Range.unionRang(Range)**](https://reference.aspose.com/cells/nodejs-cpp/range/#unionRang-range-) method to take the union for ranges; the method returns an [*Array*] object. The following example shows how to take union for ranges.
+Aspose.Cells provides [**Range.unionRange(Range)**](https://reference.aspose.com/cells/nodejs-cpp/range/#unionRang-range-) method to take the union of ranges; the method returns an [*Array*] object. The following example shows how to take union for ranges.
 
 ```javascript
 const path = require("path");
@@ -232,7 +232,7 @@ style.setPattern(AsposeCells.BackgroundType.Solid);
 // Create a styleflag object.
 const flag = new AsposeCells.StyleFlag();
 
-// Apply the cellshading.
+// Apply the cell shading.
 flag.setCellShading(true);
 
 // Creates an array list.
@@ -395,8 +395,8 @@ range1.setOutlineBorder(AsposeCells.BorderType.BottomBorder, AsposeCells.CellBor
 range1.setOutlineBorder(AsposeCells.BorderType.LeftBorder, AsposeCells.CellBorderType.Medium, new AsposeCells.Color(0, 0, 128));
 range1.setOutlineBorder(AsposeCells.BorderType.RightBorder, AsposeCells.CellBorderType.Medium, new AsposeCells.Color(0, 0, 128));
 
-// Input some data with some formattings into
-// A few cells in the range.
+// Input some data with some formatting into
+// a few cells in the range.
 range1.get(0, 0).putValue("Test");            
 range1.get(0, 4).putValue("123");
 

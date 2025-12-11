@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.
+To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several lines in a cell, while explicit line breaks place breaks exactly where you want them.
 
 {{% /alert %}}
 
@@ -23,7 +23,7 @@ The following sample code shows how to use text wrapping and explicit line break
 
 ## **To Use Explicit Line Breaks**
 
-You can use ‘\n’ in Java to insert the explicit line breaks in a cell.
+You can use ‘\n’ in Java to insert explicit line breaks in a cell.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}
 {{< app/cells/assistant language="java" >}}

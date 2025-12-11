@@ -11,17 +11,17 @@ url: /javascript-cpp/insert-datalabels-to-chart/
 {{% alert color="primary" %}}  
 
 DataLabels are an important part of a chart.  
-We can easily know the value, percentage, etc. of each series  
+We can easily know the value, percentage, etc., of each series.  
 
 {{% /alert %}}  
 
 ## **DataLabels Options**  
-Aspose.Cells for JavaScript via C++ also allows managing chart's datalabels at runtime, with the [DataLabels](https://reference.aspose.com/cells/javascript-cpp/datalabels/) object, it's simple to move, update and format datalabels of the chart.  
+Aspose.Cells for JavaScript via C++ also allows managing a chart's data labels at runtime. With the [DataLabels](https://reference.aspose.com/cells/javascript-cpp/datalabels/) object, it’s simple to move, update, and format data labels of the chart.  
 
 |![todo:image_alt_text](chart_datalabels.png)|  
 
 ## **Manage the DataLabels of Chart**  
-It's simple to manage datalabels of the chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/javascript-cpp/datalabels/).  
+It’s simple to manage the chart’s data labels with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/javascript-cpp/datalabels/).  
 
 The following code snippet demonstrates how to manage DataLabels:  
 
@@ -66,13 +66,13 @@ The following code snippet demonstrates how to manage DataLabels:
             // Instantiate a new Workbook object
             const workbook = new Workbook();
 
-            // Adding a new worksheet to the Workbook object
+            // Add a new worksheet to the Workbook object
             const sheetIndex = workbook.worksheets.add();
 
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            // Obtain the reference of the newly added worksheet by its sheet index
             const worksheet = workbook.worksheets.get(sheetIndex);
 
-            // Adding sample values to cells
+            // Add sample values to cells
             worksheet.cells.get("A1").putValue(50);
             worksheet.cells.get("A2").putValue(100);
             worksheet.cells.get("A3").putValue(150);
@@ -80,20 +80,20 @@ The following code snippet demonstrates how to manage DataLabels:
             worksheet.cells.get("B2").putValue(32);
             worksheet.cells.get("B3").putValue(50);
 
-            // Adding a chart to the worksheet
+            // Add a chart to the worksheet
             const chartIndex = worksheet.charts.add(AsposeCells.ChartType.Column, 5, 0, 15, 5);
 
-            // Accessing the instance of the newly added chart
+            // Access the newly added chart instance
             const chart = worksheet.charts.get(chartIndex);
 
-            // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+            // Add SeriesCollection (chart data source) ranging from cell A1 to B3
             chart.nSeries.add("A1:B3", true);
 
             // Show value labels
             chart.nSeries.get(0).dataLabels.showValue = true;
             // Show series name labels
             chart.nSeries.get(1).dataLabels.showSeriesName = true;
-            // Move labels to center
+            // Move labels to centre
             chart.nSeries.get(1).dataLabels.position = AsposeCells.LabelPositionType.Center;
 
             // Save the file and prepare download
@@ -111,7 +111,7 @@ The following code snippet demonstrates how to manage DataLabels:
 </html>
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/javascript-cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)  
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/javascript-cpp/disable-text-wrapping-for-data-labels-of-the-chart/)  
 - [Resize Chart's Data Label Shape To Fit Text](/cells/javascript-cpp/resize-chart-s-data-label-shape-to-fit-text/)  

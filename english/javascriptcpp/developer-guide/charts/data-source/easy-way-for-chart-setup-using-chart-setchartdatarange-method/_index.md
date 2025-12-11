@@ -10,11 +10,11 @@ url: /javascript-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-meth
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now provides [**Chart.chartDataRange(string, boolean)**](https://reference.aspose.com/cells/javascript-cpp/chart/#chartDataRange-string-boolean-) method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.
+Aspose.Cells now provides [**Chart.chartDataRange(string, boolean)**](https://reference.aspose.com/cells/javascript-cpp/chart/#chartDataRange-string-boolean-) method to set up a chart easily. Using this method, you will no longer need to add series and category‑axis data separately.
 
 {{% /alert %}}
 
-The following sample code explains the use [**Chart.chartDataRange(string, boolean)**](https://reference.aspose.com/cells/javascript-cpp/chart/#chartDataRange-string-boolean-) method to set up chart easily.
+The following sample code explains how to use the [**Chart.chartDataRange(string, boolean)**](https://reference.aspose.com/cells/javascript-cpp/chart/#chartDataRange-string-boolean-) method to set up a chart easily.
 
 ```html
 <!DOCTYPE html>
@@ -76,7 +76,7 @@ The following sample code explains the use [**Chart.chartDataRange(string, boole
             worksheet.cells.get("D3").value = 4;
             worksheet.cells.get("D4").value = 2;
 
-            // Create Column chart with easy way
+            // Create a column chart using the easy way
             const idx = worksheet.charts.add(ChartType.Column, 6, 5, 20, 13);
             const ch = worksheet.charts.get(idx);
             ch.chartDataRange = { range: "A1:D4", isVertical: true };

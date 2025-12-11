@@ -11,8 +11,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-The third stock chart we will look at is the Volume High Low Close chart.  Again, it is important to repeat that you must have the data in the correct order.  If you need to rearrange your data table, you should do it before you set up your chart.
-This chart includes a column for volume immediately after the first (category) column, and the charts include a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
+The third stock chart we will look at is the Volume High Low Close chart. Again, it is important to note that you must have the data in the correct order. If you need to rearrange your data table, you should do it before you set up your chart.  
+This chart includes a column for volume immediately after the first (category) column, and the chart includes a column chart on the primary axis showing this volume, while the prices are moved to the secondary axis.
 
 ![todo:image_alt_text](data.png)
 ## **Volume-High-Low-Close (VHLC) stock chart**
@@ -38,9 +38,9 @@ const worksheet = workbook.getWorksheets().get(0);
 const pieIdx = worksheet.getCharts().add(AsposeCells.ChartType.StockVolumeHighLowClose, 5, 6, 20, 12);
 // Retrieve the Chart object
 const chart = worksheet.getCharts().get(pieIdx);
-// Set the legend can be showed
+// Set the legend to be shown
 chart.setShowLegend(true);
-// Set the chart title name 
+// Set the chart title
 chart.getTitle().setText("Volume-High-Low-Close Stock");
 // Set the Legend at the bottom of the chart area
 chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
@@ -48,9 +48,9 @@ chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
 chart.setChartDataRange("A1:E9", true);
 // Set category data 
 chart.getNSeries().setCategoryData("A2:A9");
-// Set Color for the first series(Volume) data 
+// Set the color for the first series (Volume) data 
 chart.getNSeries().get(0).getArea().setForegroundColor(new AsposeCells.Color(79, 129, 189));
-// Fill the PlotArea area with nothing 
+// Fill the PlotArea with nothing 
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Save the Excel file
 workbook.save("out.xlsx");

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduction**
-A chart is a visual display of information. Aspose.Cells allows developers to visualize information in charts just as Microsoft Excel does. Presenting information in charts is always helpful to decision-makers for making quick and timely decisions. It's easier to quickly see comparisons, patterns, and trends in data with charts than raw numbers. Creating charts at runtime, based on the data in a spreadsheet, is one of Aspose.Cells' most powerful features.
+A chart is a visual display of information. Aspose.Cells allows developers to visualize information in charts just as Microsoft Excel does. Presenting information in charts is always helpful to decision‑makers for making quick and timely decisions. It's easier to quickly see comparisons, patterns, and trends in data with charts than raw numbers. Creating charts at runtime, based on the data in a spreadsheet, is one of Aspose.Cells' most powerful features.
 
 ## **Chart Types**
 Aspose.Cells supports almost all chart types supported in Microsoft Excel. Charts are categorized into two major categories:
@@ -157,7 +157,7 @@ The following surface 3D charts are supported in Aspose.Cells:
 - Wireframe contour chart
 
 #### **Bubble Charts**
-A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. A Bubble chart can be used instead of a scatter chart if your data has three data series, each of which contains a set of values. Bubble charts are mostly used to display financial data.
+A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. A bubble chart can be used instead of a scatter chart if your data contains three data series, each of which contains a set of values. Bubble charts are mostly used to display financial data.
 
 The following bubble charts are supported in Aspose.Cells:
 
@@ -165,14 +165,14 @@ The following bubble charts are supported in Aspose.Cells:
 - 3D bubble chart
 
 #### **Stock Charts**
-Stock charts are mostly used for stock price data, but can also be used for scientific data.
+Stock charts are mostly used for stock‑price data, but can also be used for scientific data.
 
 The following stock charts are supported in Aspose.Cells:
 
-- High-low-close stock chart
-- Open-high-low-close stock chart
-- Volume-high-low-close stock chart
-- Volume-open-high-low-close stock chart
+- High‑low‑close stock chart
+- Open‑high‑low‑close stock chart
+- Volume‑high‑low‑close stock chart
+- Volume‑open‑high‑low‑close stock chart
 
 #### **Cylinder Charts**
 These chart types use cylinder data markers to lend a dramatic effect to column, bar, and 3D column charts.
@@ -181,7 +181,7 @@ The following cylinder charts are supported in Aspose.Cells:
 
 - Simple cylinder chart
 - Stacked cylinder chart
-- 100% Stacked cylinder chart
+- 100% stacked cylinder chart
 - Cylindrical bar chart
 - Stacked cylindrical bar chart
 - 100% stacked cylindrical bar chart
@@ -214,19 +214,19 @@ The following pyramid charts are supported in Aspose.Cells:
 - 3D pyramid column chart
 
 #### **Treemap Chart**
-A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.
+A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub‑branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.
 
 The treemap chart is supported in Aspose.Cells.
 
 #### **Sunburst Chart**
-The sunburst chart is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy. A sunburst chart without any hierarchical data (one level of categories), looks similar to a doughnut chart. However, a sunburst chart with multiple levels of categories shows how the outer rings relate to the inner rings. The sunburst chart is most effective at showing how one ring is broken into its contributing pieces, while another type of hierarchical chart, the treemap chart, is ideal for comparing relative sizes.
+The sunburst chart is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy. A sunburst chart without any hierarchical data (one level of categories) looks similar to a doughnut chart. However, a sunburst chart with multiple levels of categories shows how the outer rings relate to the inner rings. The sunburst chart is most effective at showing how one ring is broken into its contributing pieces, while another type of hierarchical chart, the treemap chart, is ideal for comparing relative sizes.
 
 The sunburst chart is supported in Aspose.Cells.
 
 #### **Histogram Chart**
 A histogram is a column chart that shows frequency data.
 
-The following radar charts are supported in Aspose.Cells:
+The following histogram charts are supported in Aspose.Cells:
 
 - Histogram chart
 - Pareto chart
@@ -242,5 +242,5 @@ A waterfall chart shows a running total as values are added or subtracted. It's 
 The waterfall chart is supported in Aspose.Cells.
 
 ### **Custom Chart Types**
-Custom charts allow you to create charts with custom formatting that can be applied to other charts also. Here, we've only discussed the standard charts. If you want to know more details about custom charts then please read the Creating Custom Charts article which describes how to create custom charts.
+Custom charts allow you to create charts with custom formatting that can be applied to other charts also. Here, we've only discussed the standard charts. If you want more details about custom charts, then please read the **Creating Custom Charts** article, which describes how to create custom charts.
 {{< app/cells/assistant language="cpp" >}}

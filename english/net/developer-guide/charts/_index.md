@@ -21,12 +21,12 @@ It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Asp
 ## **Creating Charts**
 
 ### **Simply Creating a Chart**
-It’s simple to create a chart with Aspose.Cells with the following example codes:
+It’s simple to create a chart with Aspose.Cells using the following example code:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
 ### **Things to Know for Creating a Chart**
 
-Before creating charts it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
+Before creating charts, it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
 
 #### **Charting Objects**
 
@@ -63,97 +63,95 @@ Add any type of chart to a worksheet using the [**Charts**](https://reference.as
 
 **Steps:**
 
-1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
-   This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object.
-1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) enumeration.
-   For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.
-1. Access the new [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.
-1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart.
-   The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method. This will be used as the data source for the chart.  
+2. Add a chart to the worksheet by calling the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object.  
+3. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) enumeration. For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.  
+4. Access the new [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.  
+5. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart. The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
 
-When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
+When adding source data to a chart, the data source can be a range of cells (such as "A1:C3"), a sequence of non‑contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
 These general steps allow you to create any type of chart. Use different charting objects to create different charts.
 
-It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
+It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre‑defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
-The pre-defined chart types are:
+The pre‑defined chart types are:
 
-|**Chart Types**|**Description**|
+| **Chart Types** | **Description** |
 | :- | :- |
-|Column|Represents Clustered Column Chart|
-|ColumnStacked|Represents Stacked Column Chart|
-|Column100PercentStacked|Represents 100% Stacked Column Chart|
-|Column3DClustered|Represents 3D Clustered Column Chart|
-|Column3DStacked|Represents 3D Stacked Column Chart|
-|Column3D100PercentStacked|Represents 3D 100% Stacked Column Chart|
-|Column3D|Represents 3D Column Chart|
-|Bar|Represents Clustered Bar Chart|
-|BarStacked|Represents Stacked Bar Chart|
-|Bar100PercentStacked|Represents 100% Stacked Bar Chart|
-|Bar3DClustered|Represents 3D Clustered Bar Chart|
-|Bar3DStacked|Represents 3D Stacked Bar Chart|
-|Bar3D100PercentStacked|Represents 3D 100% Stacked Bar Chart|
-|Line|Represents Line Chart|
-|LineStacked|Represents Stacked Line Chart|
-|Line100PercentStacked|Represents 100% Stacked Line Chart|
-|LineWithDataMarkers|Represents Line Chart with data markers|
-|LineStackedWithDataMarkers|Represents Stacked Line Chart with data markers|
-|Line100PercentStackedWithDataMarkers|Represents 100% Stacked Line Chart with data markers|
-|Line3D|Represents 3D Line Chart|
-|Pie|Represents Pie Chart|
-|Pie3D|Represents 3D Pie Chart|
-|PiePie|Represents Pie of Pie Chart|
-|PieExploded|Represents Exploded Pie Chart|
-|Pie3DExploded|Represents 3D Exploded Pie Chart|
-|PieBar|Represents Bar of Pie Chart|
-|Scatter|Represents Scatter Chart|
-|ScatterConnectedByCurvesWithDataMarker|Represents Scatter Chart connected by curves, with data markers|
-|ScatterConnectedByCurvesWithoutDataMarker|Represents Scatter Chart connected by curves, without data markers|
-|ScatterConnectedByLinesWithDataMarker|Represents Scatter Chart connected by lines, with data markers|
-|ScatterConnectedByLinesWithoutDataMarker|Represents Scatter Chart connected by lines, without data markers|
-|Area|Represents Area Chart|
-|AreaStacked|Represents Stacked Area Chart|
-|Area100PercentStacked|Represents 100% Stacked Area Chart|
-|Area3D|Represents 3D Area Chart|
-|Area3DStacked|Represents 3D Stacked Area Chart|
-|Area3D100PercentStacked|Represents 3D 100% Stacked Area Chart|
-|Doughnut|Represents Doughnut Chart|
-|DoughnutExploded|Represents Exploded Doughnut Chart|
-|Radar|Represents Radar Chart|
-|RadarWithDataMarkers|Represents Radar Chart with data markers|
-|RadarFilled|Represents Filled Radar Chart|
-|Surface3D|Represents 3D Surface Chart|
-|SurfaceWireframe3D|Represents Wireframe 3D Surface Chart|
-|SurfaceContour|Represents Contour Chart|
-|SurfaceContourWireframe|Represents Wireframe Contour Chart|
-|Bubble|Represents Bubble Chart|
-|Bubble3D|Represents 3D Bubble Chart|
-|Cylinder|Represents Cylinder Chart|
-|CylinderStacked|Represents Stacked Cylinder Chart|
-|Cylinder100PercentStacked|Represents 100% Stacked Cylinder Chart|
-|CylindricalBar|Represents Cylindrical Bar Chart.|
-|CylindricalBarStacked|Represents Stacked Cylindrical Bar Chart|
-|CylindricalBar100PercentStacked|Represents 100% Stacked Cylindrical Bar Chart|
-|CylindricalColumn3D|Represents 3D Cylindrical Column Chart|
-|Cone|Represents Cone Chart|
-|ConeStacked|Represents Stacked Cone Chart|
-|Cone100PercentStacked|Represents 100% Stacked Cone Chart|
-|ConicalBar|Represents Conical Bar Chart|
-|ConicalBarStacked|Represents Stacked Conical Bar Chart|
-|ConicalBar100PercentStacked|Represents 100% Stacked Conical Bar Chart|
-|ConicalColumn3D|Represents 3D Conical Column Chart|
-|Pyramid|Represents Pyramid Chart|
-|PyramidStacked|Represents Stacked Pyramid Chart|
-|Pyramid100PercentStacked|Represents 100% Stacked Pyramid Chart|
-|PyramidBar|Represents Pyramid Bar Chart|
-|PyramidBarStacked|Represents Stacked Pyramid Bar Chart|
-|PyramidBar100PercentStacked|Represents 100% Stacked Pyramid Bar Chart|
-|PyramidColumn3D|Represents 3D Pyramid Column Chart|
+| Column | Represents a clustered column chart |
+| ColumnStacked | Represents a stacked column chart |
+| Column100PercentStacked | Represents a 100 % stacked column chart |
+| Column3DClustered | Represents a 3D clustered column chart |
+| Column3DStacked | Represents a 3D stacked column chart |
+| Column3D100PercentStacked | Represents a 3D 100 % stacked column chart |
+| Column3D | Represents a 3D column chart |
+| Bar | Represents a clustered bar chart |
+| BarStacked | Represents a stacked bar chart |
+| Bar100PercentStacked | Represents a 100 % stacked bar chart |
+| Bar3DClustered | Represents a 3D clustered bar chart |
+| Bar3DStacked | Represents a 3D stacked bar chart |
+| Bar3D100PercentStacked | Represents a 3D 100 % stacked bar chart |
+| Line | Represents a line chart |
+| LineStacked | Represents a stacked line chart |
+| Line100PercentStacked | Represents a 100 % stacked line chart |
+| LineWithDataMarkers | Represents a line chart with data markers |
+| LineStackedWithDataMarkers | Represents a stacked line chart with data markers |
+| Line100PercentStackedWithDataMarkers | Represents a 100 % stacked line chart with data markers |
+| Line3D | Represents a 3D line chart |
+| Pie | Represents a pie chart |
+| Pie3D | Represents a 3D pie chart |
+| PiePie | Represents a pie‑of‑pie chart |
+| PieExploded | Represents an exploded pie chart |
+| Pie3DExploded | Represents a 3D exploded pie chart |
+| PieBar | Represents a bar‑of‑pie chart |
+| Scatter | Represents a scatter chart |
+| ScatterConnectedByCurvesWithDataMarker | Represents a scatter chart connected by curves, with data markers |
+| ScatterConnectedByCurvesWithoutDataMarker | Represents a scatter chart connected by curves, without data markers |
+| ScatterConnectedByLinesWithDataMarker | Represents a scatter chart connected by lines, with data markers |
+| ScatterConnectedByLinesWithoutDataMarker | Represents a scatter chart connected by lines, without data markers |
+| Area | Represents an area chart |
+| AreaStacked | Represents a stacked area chart |
+| Area100PercentStacked | Represents a 100 % stacked area chart |
+| Area3D | Represents a 3D area chart |
+| Area3DStacked | Represents a 3D stacked area chart |
+| Area3D100PercentStacked | Represents a 3D 100 % stacked area chart |
+| Doughnut | Represents a doughnut chart |
+| DoughnutExploded | Represents an exploded doughnut chart |
+| Radar | Represents a radar chart |
+| RadarWithDataMarkers | Represents a radar chart with data markers |
+| RadarFilled | Represents a filled radar chart |
+| Surface3D | Represents a 3D surface chart |
+| SurfaceWireframe3D | Represents a wireframe 3D surface chart |
+| SurfaceContour | Represents a contour chart |
+| SurfaceContourWireframe | Represents a wireframe contour chart |
+| Bubble | Represents a bubble chart |
+| Bubble3D | Represents a 3D bubble chart |
+| Cylinder | Represents a cylinder chart |
+| CylinderStacked | Represents a stacked cylinder chart |
+| Cylinder100PercentStacked | Represents a 100 % stacked cylinder chart |
+| CylindricalBar | Represents a cylindrical bar chart |
+| CylindricalBarStacked | Represents a stacked cylindrical bar chart |
+| CylindricalBar100PercentStacked | Represents a 100 % stacked cylindrical bar chart |
+| CylindricalColumn3D | Represents a 3D cylindrical column chart |
+| Cone | Represents a cone chart |
+| ConeStacked | Represents a stacked cone chart |
+| Cone100PercentStacked | Represents a 100 % stacked cone chart |
+| ConicalBar | Represents a conical bar chart |
+| ConicalBarStacked | Represents a stacked conical bar chart |
+| ConicalBar100PercentStacked | Represents a 100 % stacked conical bar chart |
+| ConicalColumn3D | Represents a 3D conical column chart |
+| Pyramid | Represents a pyramid chart |
+| PyramidStacked | Represents a stacked pyramid chart |
+| Pyramid100PercentStacked | Represents a 100 % stacked pyramid chart |
+| PyramidBar | Represents a pyramid bar chart |
+| PyramidBarStacked | Represents a stacked pyramid bar chart |
+| PyramidBar100PercentStacked | Represents a 100 % stacked pyramid bar chart |
+| PyramidColumn3D | Represents a 3D pyramid column chart |
+
 {{% alert color="primary" %}}
 
-When you assign a range of cells as the data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
+When you assign a range of cells as the data source, you can only set the range from top‑left to bottom‑right. For example, "A1:C3" is valid while "C3:A1" is invalid.
 
 {{% /alert %}}
 
@@ -165,21 +163,21 @@ When the example code is executed, a pyramid chart is added to the worksheet.
 
 #### **Line Chart**
 
-In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
+In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. When the code is executed, a line chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+To create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) must be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) and a few extra properties such as **BubbleSizes**, **Values**, and **XValues** need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 
-In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
+To create a line chart with data markers, the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) must be set to *ChartType.LineWithDataMarkers* and a few extra properties such as background area, series markers, **Values**, and **XValues** must be set accordingly. Upon executing the following code, a line chart with data markers is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Read and Manipulate Excel 2016 Charts](/cells/net/read-and-manipulate-excel-2016-charts/)
 - [Manage Axes of Excel Charts](/cells/net/chart-axes/)
 - [Setting Chart Appearance](/cells/net/setting-chart-appearance/)

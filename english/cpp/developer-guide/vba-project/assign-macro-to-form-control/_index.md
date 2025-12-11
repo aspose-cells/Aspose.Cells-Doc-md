@@ -4,32 +4,30 @@ linktitle: Assign Macro to Form Control
 type: docs
 weight: 60
 url: /cpp/assign-macro-to-form-control/
-description: Learn how to assign a Macro Code to a Form Control like a Button using Aspose.Cells for C++.
+description: Learn how to assign a macro to a Form Control like a Button using Aspose.Cells for C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [**Shape.GetMacroName()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getmacroname/) property to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells allows you to assign a macro to a Form Control such as a Button. Please use the [**Shape.GetMacroName()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getmacroname/) property to assign a new macro to a Form Control inside the workbook.
 
 {{% /alert %}}
 
-The following sample code creates a new workbook, assigns a Macro Code to a Form Button, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel, you will see the following macro code.
+The following sample code creates a new workbook, assigns a macro to a Form Button, and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel, you will see the following macro code.
 
-{{< highlight java >}}
-
+{{< highlight vba >}}
  Sub ShowMessage()
 
     MsgBox "Welcome to Aspose!"
 
 End Sub
-
 {{< /highlight >}}
 
 ## **Assign Macro to Form Control in C++**
 
-Here is the sample code to generate the output XLSM file with Macro Code.
+Here is the sample code to generate the output XLSM file with macro code.
 
 ```c++
 #include <iostream>

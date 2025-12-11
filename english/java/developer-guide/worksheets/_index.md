@@ -14,7 +14,7 @@ Developers can easily create and manage worksheets in their Excel files programm
 
 {{% /alert %}}
 
-Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we will describe how can we:
+Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we will describe how we can:
 
 1. Create a new Excel file from scratch and add a worksheet to it
 1. Add worksheets to designer spreadsheets
@@ -24,7 +24,7 @@ Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we wi
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods to manage a worksheet. Let's see how can we make use of these basic set of APIs.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods to manage a worksheet. Let's see how we can make use of this basic set of APIs.
 
 ## **Adding Worksheets to a New Excel File**
 
@@ -34,7 +34,7 @@ To create a new Excel file programmatically, developers would need to create an 
 
 ## **Adding Worksheets to a Designer Spreadsheet**
 
-The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding a worksheet to it. A designer spreadsheet can be opened by passing the file path or stream while initializing the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class.
+The process of adding worksheets to a designer spreadsheet is entirely the same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding a worksheet to it. A designer spreadsheet can be opened by passing the file path or stream while initializing the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoDesignerSpreadsheet-AddingWorksheetstoDesignerSpreadsheet.java" >}}
 
@@ -58,7 +58,7 @@ Well, in such circumstances, developers can use an overloaded version of [**remo
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Activating Sheets and Activating a Cell in Worksheet](/cells/java/activating-sheets-and-activating-a-cell-in-worksheet/)
 - [Copy and Move Worksheets Within and Between Workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/)
 - [Copying and Moving Worksheets](/cells/java/copying-and-moving-worksheets/)

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells for Node.js via C++ allows you to stop the conversion of Workbook to various formats like PDF, HTML etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/nodejs-cpp/interruptmonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/nodejs-cpp/interruptmonitor) both for stopping conversion as well as to stop loading huge workbook. Please use [**Workbook.getInterruptMonitor()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getInterruptMonitor--) property for stopping conversion and [**LoadOptions.getInterruptMonitor()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getInterruptMonitor--) property for loading huge workbook.
+Aspose.Cells for Node.js via C++ allows you to stop the conversion of Workbook to various formats like PDF, HTML, etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/nodejs-cpp/interruptmonitor) object when it is taking too long. The conversion process is often both CPU- and memory‑intensive, and it is useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/nodejs-cpp/interruptmonitor) both for stopping conversion as well as for stopping the loading of a huge workbook. Please use [**Workbook.getInterruptMonitor()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getInterruptMonitor--) property for stopping conversion and [**LoadOptions.getInterruptMonitor()**](https://reference.aspose.com/cells/nodejs-cpp/loadoptions/#getInterruptMonitor--) property for loading a huge workbook.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
@@ -27,7 +27,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-As you see **J1000000** is quite a farther cell in XLSX file. However, the **waitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds and the program ends/terminates. Please use the following code to execute the sample code.
+As you can see, **J1000000** is a far cell in the XLSX file. However, the **waitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds and the program ends/terminates. Please use the following code to run the sample.
 
 {{< highlight javascript >}}
 
@@ -57,7 +57,7 @@ const monitorThread = threadObj;
 // Create a workbook object
 const wb = new AsposeCells.Workbook();
 
-// Assign it InterruptMonitor object
+// Assign it the InterruptMonitor object
 wb.setInterruptMonitor(this.im);
 
 // Access first worksheet

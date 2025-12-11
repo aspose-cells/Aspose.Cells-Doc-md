@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /net/aspose-cells-griddesktop/remove-a-worksheet/
 keywords: GridDesktop,remove,worksheet
-description: This article introduces how to remove worksheet in GridDesktop.
+description: This article introduces how to remove a worksheet in GridDesktop.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -17,10 +17,11 @@ This topic discusses removing worksheets using the Aspose.Cells.GridDesktop cont
 ## **Removing a Worksheet**
 To remove a worksheet using Aspose.Cells.GridDesktop control, please follow the steps below:
 
-1. Add the Aspose.Cells.GridDesktop control to a form.
-1. Call the Worksheets collection's Remove method in the GridDesktop control.
+1. Add the Aspose.Cells.GridDesktop control to a form.  
+2. Call the Worksheets collection's Remove method in the GridDesktop control.
+
 ### **Using Worksheet Index**
-In this approach, simply pass the worksheet index (in the worksheets collection of the grid) of the worksheet to be removed.
+In this approach, simply pass the worksheet index (in the Worksheets collection of the grid) of the worksheet to be removed.
 
 
 
@@ -34,6 +35,6 @@ If the name of the worksheet is known, it is possible to remove a specific works
 
 {{% alert color="primary" %}} 
 
-Remove is a method. Use it to remove a worksheet using its index (in the worksheets collection) or use RemoveAt method to remove the worksheet using its index/name.
+Remove is a method. Use it to remove a worksheet using its index (in the Worksheets collection) or use the RemoveAt method to remove the worksheet using its index/name.
 
 {{% /alert %}}

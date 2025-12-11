@@ -4,7 +4,7 @@ linktitle: Get Cells Range
 type: docs
 weight: 600
 url: /cpp/get-cells-range/
-description: Learn how to Get Cells Range through the Aspose.Cells for C++ API.
+description: Learn how to get a cells range through the Aspose.Cells for C++ API.
 keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -21,9 +21,9 @@ When you only need to manipulate some data on the worksheet, you need to know th
 ## **Get Cells Range using Aspose.Cells**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Get Cells [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/).
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Get Cells [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/).
 
 ```c++
 #include <iostream>

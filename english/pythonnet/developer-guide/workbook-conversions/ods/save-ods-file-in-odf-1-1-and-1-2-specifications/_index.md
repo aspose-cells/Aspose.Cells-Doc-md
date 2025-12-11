@@ -1,12 +1,12 @@
 ---
 title: Save ODS File in ODF 1.1 and 1.2 Specifications
-linktitle:  Save as ODF 1.1 and 1.2 
+linktitle: Save as ODF 1.1 and 1.2
 description: Convert Excel to ODF 1.1 and 1.2 Specifications with Aspose.Cells.
 type: docs
 weight: 230
 url: /python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/
-description: How to  Save ODS File in ODF 1.1 and 1.2 Specifications with Aspose.Cells for Python via .NET API.
-keywords: Python  Save ODS File in ODF 1.1 and 1.2 Specifications,  Save ODS File in ODF 1.1 and 1.2 Specifications Pyton via NET.
+description: How to Save ODS File in ODF 1.1 and 1.2 Specifications with Aspose.Cells for Python via .NET API.
+keywords: Python Save ODS File in ODF 1.1 and 1.2 Specifications, Save ODS File in ODF 1.1 and 1.2 Specifications Python via .NET.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -17,7 +17,7 @@ Aspose.Cells for Python via .NET supports saving an ODS file (**OpenDocument Spr
 
 {{% /alert %}}
 
-The sample code below creates a workbook object, adds some value to cell A1 on the first worksheet and then saves the ODS file in ODF 1.1 and 1.2 specifications. By default, the ODS file is saved in ODF 1.2 specification.
+The sample code below creates a workbook object, adds a value to cell A1 on the first worksheet, and then saves the ODS file in ODF 1.1 and 1.2 specifications. By default, the ODS file is saved in ODF 1.2 specification.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}
 {{< app/cells/assistant language="python-net" >}}

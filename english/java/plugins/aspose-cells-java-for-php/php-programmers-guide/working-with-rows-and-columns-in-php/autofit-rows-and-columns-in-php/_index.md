@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Autofit Rows and Columns**
 ### **Autofit Row**
-The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
+The most straightforward approach to auto-sizing the width and height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
 **PHP Code**
 
@@ -19,7 +19,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by the Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -35,7 +35,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
     # cells (from 1st to 9th column) within the row
 
-    #$worksheet->autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
+    #$worksheet->autoFitRow(2,0,8) # Uncomment this line if you want to do AutoFit Row in a range of cells. Also, comment line 288.
 
     # Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -47,7 +47,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
 {{< /highlight >}}
 ### **Autofit Column**
-The easiest way to auto-size the width and height of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
+The easiest way to auto-size the width and height of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
 
 **PHP Code**
 
@@ -57,7 +57,7 @@ The easiest way to auto-size the width and height of a column is to call the Wo
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by the Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -73,7 +73,7 @@ The easiest way to auto-size the width and height of a column is to call the Wo
 
     # cells (from 1st to 9th row) within the column
 
-    #$worksheet->autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
+    #$worksheet->autoFitColumn(3,0,8) # Uncomment this line if you want to do AutoFit Column in a range of cells. Also, comment line 310.
 
     # Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -85,6 +85,6 @@ The easiest way to auto-size the width and height of a column is to call the Wo
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Autofit Rows and Columns (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Autofit Rows and Columns (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

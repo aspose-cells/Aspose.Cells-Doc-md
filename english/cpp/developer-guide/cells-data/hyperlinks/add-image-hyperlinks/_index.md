@@ -4,7 +4,7 @@ linktitle: Add Image Hyperlinks
 type: docs
 weight: 140
 url: /cpp/add-image-hyperlinks/
-description: Learn how to Add Image Hyperlinks through the Aspose.Cells for C++ API.
+description: Learn how to add image hyperlinks through the Aspose.Cells for C++ API.
 keywords: Add Image Hyperlinks, Insert Image Hyperlinks
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Hyperlinks are useful for accessing information on other worksheets, or on websites. Microsoft Excel lets users add hyperlinks on text in cells, and on images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons, or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells.
+Hyperlinks are useful for accessing information on other worksheets or on websites. Microsoft Excel lets users add hyperlinks to text in cells and to images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells.
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ int main()
     // Get the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Insert a string value to a cell
+    // Insert a string value into a cell
     worksheet.GetCells().Get(u"C2").PutValue(u"Image Hyperlink");
 
     // Set the 4th row height

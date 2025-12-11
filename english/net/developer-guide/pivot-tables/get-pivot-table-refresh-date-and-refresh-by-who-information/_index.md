@@ -1,5 +1,5 @@
 ---
-title: Get Pivot Table refresh date and refresh by who information
+title: Get Pivot Table Refresh Date and Refresh‑By‑Who Information
 type: docs
 weight: 100
 url: /net/get-pivot-table-refresh-date-and-refresh-by-who-information/
@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports fetching the refresh date and refresh by who information from a workbook.
+Aspose.Cells now supports fetching the refresh date and refresh‑by‑who information from a workbook.
 
 {{% /alert %}}
 
-[**PivotTable.RefreshDate**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshdate) returns the date on which the PivotTable report was last refreshed. Similarly [**PivotTable.RefreshByWho**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshedbywho) property returns the name of the user who refreshed the report last time. Following example demonstrates this feature and sample file can be downloaded from the following link.
+[**PivotTable.RefreshDate**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshdate) returns the date on which the PivotTable report was last refreshed. Similarly, the [**PivotTable.RefreshByWho**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshedbywho) property returns the name of the user who last refreshed the report. The following example demonstrates this feature, and the sample file can be downloaded from the link below.
 
 [SourcePivotTable.xlsx](77496335.xlsx)
 

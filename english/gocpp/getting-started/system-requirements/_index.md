@@ -9,7 +9,7 @@ Aspose.Cells for Go via C++ is a native Go library that enables Go developers to
 
 ## Supported Operating Systems
 
-Aspose.Cells for Go supports the following 64-bit operating system and platforms:
+Aspose.Cells for Go supports the following 64-bit operating systems and platforms:
 
 <table>  
  <tr>
@@ -29,7 +29,7 @@ Aspose.Cells for Go supports the following 64-bit operating system and platforms
 
 ## Development Environment
 
-You can use Aspose.Cells for Go via C++ when developing applications for Windows, Linux.
+You can use Aspose.Cells for Go via C++ when developing applications for Windows and Linux.
 
 ### Windows
 
@@ -37,7 +37,7 @@ Aspose.Cells for Go via C++ can be used to develop applications in any developme
 
 ### Linux
 
-Aspose.Cells for Go via C++ can be used to develop application in the development environment which support Go 1.13 or higher, but the following compiler and tool are explicitly supported:
+Aspose.Cells for Go via C++ can be used to develop applications in a development environment that supports Go 1.13 or higher, but the following compiler and tool are explicitly supported:
 
 <table>  
  <tr>
@@ -50,9 +50,9 @@ Aspose.Cells for Go via C++ can be used to develop application in the developmen
 
 ### Additional Dependency on Linux
 
-Aspose.Cells for Go on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries both dynamic library and tool. Please install it before using:
+Aspose.Cells for Go on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries, both the dynamic library and the tool. Please install it before using:
 
 1. Installing fontconfig on Ubuntu or Debian<br>
-`sudo apt install libfontconfig fontconfig`
-1. Installing fontconfig on Fedora or CentOs<br>
-`sudo yum install fontconfig`
+   `sudo apt install libfontconfig fontconfig`
+2. Installing fontconfig on Fedora or CentOS<br>
+   `sudo yum install fontconfig`

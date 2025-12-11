@@ -9,7 +9,7 @@ description: Learn how to combine multiple workbooks into a single workbook usin
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few, simple lines of code using Aspose.Cells.
+Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few simple lines of code using Aspose.Cells.
 
 {{% /alert %}}
 
@@ -53,6 +53,6 @@ You can use any source workbooks. These images are just for illustration purpose
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-MergeWorkbooks.go" >}}
-## **Advance topics**
+## **Advanced topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/cpp/merge-files/)

@@ -17,7 +17,7 @@ Aspose.Cells for Python via .NET allows you to get merged cell areas in a worksh
 
 {{% /alert %}}
 
-The component provides the [**Cells.get_merged_areas()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/get_merged_areas) method which can get all merged cells. The following code sample shows you how to detect merged cells in a worksheet.
+The component provides the [**Cells.get_merged_areas()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/get_merged_areas) method, which can retrieve all merged cells. The following code sample shows you how to detect merged cells in a worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-DetectMergedCells-1.py" >}}
 

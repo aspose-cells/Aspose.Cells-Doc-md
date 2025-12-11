@@ -1,72 +1,73 @@
----
-title: Data Validation with C++
-linktitle: Data Validation
-type: docs
-weight: 90
-url: /cpp/data-validation/
-description: Learn how to add data validation through the Aspose.Cells for C++ API.
+---  
+title: Data Validation with C++  
+linktitle: Data Validation  
+type: docs  
+weight: 90  
+url: /cpp/data-validation/  
+description: Learn how to add data validation through the Aspose.Cells for C++ API.  
 keywords: Add Data Validation, Get Validation Value, Add Whole Number Data Validation, Add List Data Validation, Add Date Data Validation, Add Time Data Validation, Add Text Length Data Validation, Add CellArea to existing Validation, Check if validation in cell is dropdown, Add Custom Validation  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Microsoft Excel provides some good features to auto filter or validate worksheet data. Aspose.Cells fully supports Microsoft Excel's data validation and AutoFilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells.
+Microsoft Excel provides some good features to auto‑filter or validate worksheet data. Aspose.Cells fully supports Microsoft Excel's data validation and AutoFilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Data Validation Types and Execution**
+## **Data Validation Types and Execution**  
 
-Data validation is the ability to set rules pertaining to data entered on a worksheet. For example, use validation to ensure that a column labeled DATE contains only dates, or that another column contains only numbers. You could even ensure that a column labeled DATE contains only dates within a certain range. With data validation, you can control what is entered into cells in the worksheet.
+Data validation is the ability to set rules pertaining to data entered on a worksheet. For example, use validation to ensure that a column labeled DATE contains only dates, or that another column contains only numbers. You could even ensure that a column labeled DATE contains only dates within a certain range. With data validation, you can control what is entered into cells in the worksheet.  
 
-Microsoft Excel supports a number of different types of data validation. Each type is used to control what type of data is entered into a cell, or cell range. Below, code snippets illustrate how to validate that:
+Microsoft Excel supports a number of different types of data validation. Each type is used to control what type of data is entered into a cell or cell range. Below, code snippets illustrate how to validate that:  
 
-- Numbers are whole, that is, that they don't have a decimal part.
-- Decimal numbers follow the right structure. The code example defines that a range of cells should have two decimal spaces.
-- Values are restricted to a list of values. List validation defines a separate list of values that can be applied to a cell, or cell range.
-- Dates fall within a specific range.
-- A time is within a specific range.
-- A text is within a given character length.
+- Numbers are whole, i.e., they don't have a decimal part.  
+- Decimal numbers follow the correct structure. The code example defines that a range of cells should have two decimal places.  
+- Values are restricted to a list of values. List validation defines a separate list of values that can be applied to a cell or cell range.  
+- Dates fall within a specific range.  
+- A time is within a specific range.  
+- Text is within a given character length.  
 
-### **Data Validation with Microsoft Excel**
+### **Data Validation with Microsoft Excel**  
 
-To create validations using Microsoft Excel:
+To create validations using Microsoft Excel:  
 
-1. In a worksheet, select the cells to which you want to apply validation.
-1. From the **Data** menu, select **Validation**. The validation dialog will be displayed.
-1. Click the **Settings** tab and enter settings.
+1. In a worksheet, select the cells to which you want to apply validation.  
+2. From the **Data** menu, select **Validation**. The validation dialog will be displayed.  
+3. Click the **Settings** tab and enter settings.  
 
-### **Data Validation with Aspose.Cells**
+### **Data Validation with Aspose.Cells**  
 
-Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.
-In Aspose.Cells, each [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class has a [**GetValidations()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getvalidations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) class' properties as follows:
+Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.  
 
-- Type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/cpp/aspose.cells/validationtype/) enumeration.
-- Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/cpp/aspose.cells/operatortype/) enumeration.
-- Formula1 – represents the value or expression associated with the first part of the data validation.
-- Formula2 – represents the value or expression associated with the second part of the data validation.
+In Aspose.Cells, each [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class has a [**GetValidations()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getvalidations/) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) class' properties as follows:  
 
-When the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) object's properties have been configured, developers can use the [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) structure to store information about the cell range that will be validated using the created validation.
+- **Type** – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/cpp/aspose.cells/validationtype/) enumeration.  
+- **Operator** – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/cpp/aspose.cells/operatortype/) enumeration.  
+- **Formula1** – represents the value or expression associated with the first part of the data validation.  
+- **Formula2** – represents the value or expression associated with the second part of the data validation.  
 
-#### **Types of Data Validation**
+When the [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/) object's properties have been configured, developers can use the [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) structure to store information about the cell range that will be validated using the created validation.  
 
-The [**ValidationType**](https://reference.aspose.com/cells/cpp/aspose.cells/validationtype/) enumeration has the following members:
+#### **Types of Data Validation**  
 
-|**Member Name**|**Description**|
-| :- | :- |
-|AnyValue|Denotes a value of any type.|
-|WholeNumber|Denotes validation type for whole numbers.|
-|Decimal|Denotes validation type for decimal numbers.|
-|List|Denotes validation type for drop-down list.|
-|Date|Denotes validation type for dates.|
-|Time|Denotes validation type for time.|
-|TextLength|Denotes validation type for the length of the text.|
-|Custom|Denotes custom validation type.|
+The [**ValidationType**](https://reference.aspose.com/cells/cpp/aspose.cells/validationtype/) enumeration has the following members:  
 
-##### **Whole Number Data Validation**
+| **Member Name** | **Description** |  
+| :- | :- |  
+| AnyValue | Denotes a value of any type. |  
+| WholeNumber | Denotes validation type for whole numbers. |  
+| Decimal | Denotes validation type for decimal numbers. |  
+| List | Denotes validation type for drop‑down list. |  
+| Date | Denotes validation type for dates. |  
+| Time | Denotes validation type for time. |  
+| TextLength | Denotes validation type for the length of the text. |  
+| Custom | Denotes custom validation type. |  
 
-With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the WholeNumber validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.
+##### **Whole Number Data Validation**  
+
+With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the WholeNumber validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.  
 
 ```cpp
 #include <iostream>
@@ -131,13 +132,13 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-##### **List Data Validation**
+##### **List Data Validation**  
 
-This type of validation allows the user to enter values from a drop-down list. It provides a list: a series of rows that contain data. In the example, a second worksheet is added to hold the list source. Users can only select values from the list. The validation area is the cell range A1:A5 in the first worksheet.
+This type of validation allows the user to enter values from a drop‑down list. It provides a list: a series of rows that contain data. In the example, a second worksheet is added to hold the list source. Users can only select values from the list. The validation area is the cell range A1:A5 in the first worksheet.  
 
-It is important here that you set the [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property to **true**.
+It is important here that you set the [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property to **true**.  
 
 ```cpp
 #include <iostream>
@@ -195,7 +196,7 @@ int main()
     // Set the operator
     validation.SetOperator(OperatorType::None);
 
-    // Set the in cell drop down
+    // Set the in‑cell drop‑down
     validation.SetInCellDropDown(true);
 
     // Set the formula1
@@ -230,11 +231,11 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-##### **Date Data Validation**
+##### **Date Data Validation**  
 
-With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 to 1999. Here, the validation area is the B1 cell.
+With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 and 1999. Here, the validation area is the B1 cell.  
 
 ```cpp
 #include <iostream>
@@ -259,7 +260,7 @@ int main()
     Cells cells = worksheet.GetCells();
 
     // Put a string value into the A1 cell
-    cells.Get(u"A1").PutValue(u"Please enter Date b/w 1/1/1970 and 12/31/1999");
+    cells.Get(u"A1").PutValue(u"Please enter Date between 1/1/1970 and 12/31/1999");
 
     // Set row height and column width for the cells
     cells.SetRowHeight(0, 31);
@@ -297,11 +298,11 @@ int main()
     // Set the validation alert style
     validation.SetAlertStyle(ValidationAlertType::Stop);
 
-    // Set the title of the data-validation error dialog box
+    // Set the title of the data‑validation error dialog box
     validation.SetErrorTitle(u"Date Error");
 
     // Set the data validation error message
-    validation.SetErrorMessage(u"Enter a Valid Date");
+    validation.SetErrorMessage(u"Enter a valid date");
 
     // Set and enable the data validation input message
     validation.SetInputMessage(u"Date Validation Type");
@@ -326,11 +327,11 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-##### **Time Data Validation**
+##### **Time Data Validation**  
 
-With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 to 11:30 AM. Here, the validation area is the B1 cell.
+With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 and 11:30 o'clock. Here, the validation area is the B1 cell.  
 
 ```cpp
 #include <iostream>
@@ -354,7 +355,7 @@ int main()
     Cells cells = workbook.GetWorksheets().Get(0).GetCells();
 
     // Put a string value into A1 cell
-    cells.Get(u"A1").PutValue(u"Please enter Time b/w 09:00 and 11:30 'o Clock");
+    cells.Get(u"A1").PutValue(u"Please enter Time between 09:00 and 11:30 o'clock");
 
     // Set the row height and column width for the cells
     cells.SetRowHeight(0, 31);
@@ -391,11 +392,11 @@ int main()
     // Set the validation alert style
     validation.SetAlertStyle(ValidationAlertType::Information);
 
-    // Set the title of the data-validation error dialog box
+    // Set the title of the data‑validation error dialog box
     validation.SetErrorTitle(u"Time Error");
 
     // Set the data validation error message
-    validation.SetErrorMessage(u"Enter a Valid Time");
+    validation.SetErrorMessage(u"Enter a valid time");
 
     // Set and enable the data validation input message
     validation.SetInputMessage(u"Time Validation Type");
@@ -419,11 +420,11 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-##### **Text Length Data Validation**
+##### **Text Length Data Validation**  
 
-With this type of validation, users can enter text values of a specified length into the validated cells. In the example, the user is restricted to enter string values with no more than 5 characters. The validation area is the B1 cell.
+With this type of validation, users can enter text values of a specified length into the validated cells. In the example, the user is restricted to enter string values with no more than five characters. The validation area is the B1 cell.  
 
 ```cpp
 #include <iostream>
@@ -484,11 +485,11 @@ int main()
     // Set the validation alert style
     validation.SetAlertStyle(ValidationAlertType::Warning);
 
-    // Set the title of the data-validation error dialog box
+    // Set the title of the data‑validation error dialog box
     validation.SetErrorTitle(u"Text Length Error");
 
     // Set the data validation error message
-    validation.SetErrorMessage(u" Enter a Valid String");
+    validation.SetErrorMessage(u"Enter a valid string");
 
     // Set and enable the data validation input message
     validation.SetInputMessage(u"TextLength Validation Type");
@@ -513,13 +514,13 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-### **Data Validation Rules**
+### **Data Validation Rules**  
 
-When data validations are implemented, then validation can be checked by assigning different values in the cells. [**Cell.GetValidationValue**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidationvalue/) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
+When data validations are implemented, the validation can be checked by assigning different values to the cells. [**Cell.GetValidationValue**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getvalidationvalue/) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:  
 
-[sampleDataValidationRules.xlsx](77496339.xlsx)
+[sampleDataValidationRules.xlsx](77496339.xlsx)  
 
 ```cpp
 #include <iostream>
@@ -545,7 +546,7 @@ int main()
 
     // Access Cell C1
     // Cell C1 has the Decimal Validation applied on it.
-    // It can take only the values Between 10 and 20
+    // It can take only the values between 10 and 20
     Cell cell = worksheet.GetCells().Get(u"C1");
 
     // Enter 3 inside this cell
@@ -573,13 +574,13 @@ int main()
 
     return 0;
 }
-```
+```  
 
-## **Check if validation in cell is dropdown**
+## **Check if validation in cell is dropdown**  
 
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
+As we have seen, there are many types of validations that can be implemented within a cell. If you want to check whether validation is a dropdown or not, the [**Validation.GetInCellDropDown()**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/getincelldropdown/) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:  
 
-[sampleValidation.xlsx](79527947.xlsx)
+[sampleValidation.xlsx](79527947.xlsx)  
 
 ```cpp
 #include <iostream>
@@ -594,7 +595,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"sampleValidation.xlsx";
 
     // Create workbook
@@ -645,13 +646,13 @@ int main()
     Aspose::Cells::Cleanup();
     return 0;
 }
-```
+```  
 
-## **Add CellArea to existing Validation**
+## **Add CellArea to existing Validation**  
 
-There might be cases where you might want to add [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) to existing [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/). When you add [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) using [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/addarea/), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/addarea/) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter as **false**.
+There might be cases where you want to add a [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) to an existing [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/). When you add a CellArea using [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/addarea/), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.AddArea(CellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/addarea/) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** disables the checking of other areas. The *checkEdge* parameter indicates whether to check the edges of the applied areas. If the new area becomes the top‑left area, internal settings are rebuilt. If you are sure that the new area is not the top‑left area, you may set this parameter to **false**.  
 
-The following code snippet demonstrates the use of the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/addarea/) method to add new [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/) to existing [**Validation**](https://reference.aspose.com/cells/cpp/aspose.cells/validation/).
+The following code snippet demonstrates the use of the **Validation.AddArea(CellArea cellArea, bool checkIntersection, bool checkEdge)** method to add a new **CellArea** to an existing **Validation**.  
 
 ```cpp
 #include <iostream>
@@ -688,16 +689,17 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-The source and output excel files are attached for reference.
+The source and output Excel files are attached for reference.  
 
-[Source File](96928093.xlsx)
+[Source File](96928093.xlsx)  
 
-[Output File](96928220.xlsx)
+[Output File](96928220.xlsx)  
 
-## **Advance topics**
-- [Get Cell Validation in ODS Files](/cells/cpp/get-cell-validation-in-ods-files/)
-- [Get Validation Applied on a Cell](/cells/cpp/get-validation-applied-on-a-cell/)
-- [Verify that Cell Value Satisfies Data Validation Rules](/cells/cpp/verify-that-cell-value-satisfies-data-validation-rules/)
+## **Advanced topics**  
+- [Get Cell Validation in ODS Files](/cells/cpp/get-cell-validation-in-ods-files/)  
+- [Get Validation Applied on a Cell](/cells/cpp/get-validation-applied-on-a-cell/)  
+- [Verify that Cell Value Satisfies Data Validation Rules](/cells/cpp/verify-that-cell-value-satisfies-data-validation-rules/)  
+
 {{< app/cells/assistant language="cpp" >}}

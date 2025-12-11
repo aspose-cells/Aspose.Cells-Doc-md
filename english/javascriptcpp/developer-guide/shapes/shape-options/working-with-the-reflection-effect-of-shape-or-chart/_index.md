@@ -8,7 +8,7 @@ description: Learn how to work with the reflection effect of shapes or charts us
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells for JavaScript via C++ provides the [Shape.reflection](https://reference.aspose.com/cells/javascript-cpp/shape/#reflection--) property along with the [ReflectionEffect](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect) class to work with the reflection effect of shape or chart. The [ReflectionEffect](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect) class contains the following properties which can be set to achieve different results as per application requirements.
+Aspose.Cells for JavaScript via C++ provides the [Shape.reflection](https://reference.aspose.com/cells/javascript-cpp/shape/#reflection--) property along with the [ReflectionEffect](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect) class to work with the reflection effect of **shapes or charts**. The [ReflectionEffect](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect) class contains the following properties which can be set to achieve different results as per application requirements.
 
 - [ReflectionEffect.blur](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect/#blur--)
 - [ReflectionEffect.direction](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect/#direction--)
@@ -20,7 +20,7 @@ Aspose.Cells for JavaScript via C++ provides the [Shape.reflection](https://refe
 - [ReflectionEffect.type](https://reference.aspose.com/cells/javascript-cpp/reflectioneffect/#type--)
 
 ## **Working with the Reflection Effect of Shape or Chart**
-The following sample code loads the [source excel file](5115424.xlsx) and accesses the first shape in the default worksheet. It sets different properties of the [Shape.reflection](https://reference.aspose.com/cells/javascript-cpp/shape/#reflection--) and then saves the workbook in the [output excel file](5115423.xlsx).
+The following sample code loads the [source Excel file](5115424.xlsx) and accesses the first shape in the default worksheet. It sets different properties of the [Shape.reflection](https://reference.aspose.com/cells/javascript-cpp/shape/#reflection--) and then saves the workbook in the [output Excel file](5115423.xlsx).
 
 ```html
 <!DOCTYPE html>
@@ -64,10 +64,10 @@ The following sample code loads the [source excel file](5115424.xlsx) and access
             // Instantiating a Workbook object by loading the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Access first shape
+            // Access the first shape
             const shape = worksheet.shapes.get(0);
 
             // Set the reflection effect of the shape, set its Blur, Size, Transparency and Distance properties
@@ -77,7 +77,7 @@ The following sample code loads the [source excel file](5115424.xlsx) and access
             reflectionEffect.transparency = 0;
             reflectionEffect.distance = 80;
 
-            // Save the workbook in xlsx format
+            // Save the workbook in Xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

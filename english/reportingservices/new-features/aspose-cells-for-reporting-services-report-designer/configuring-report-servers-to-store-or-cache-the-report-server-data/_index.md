@@ -7,4 +7,4 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-The Aspose.Cells for Reporting Services Report Designer saves the current accessed report server URL. When you open the Report Server Manager dialog in the Aspose.Cells Report Designer again, the dialog form automatically loads the saved report server information.
+The Aspose.Cells for Reporting Services Report Designer saves the currently accessed report server URL. When you open the Report Server Manager dialog in the Aspose.Cells Report Designer, the dialog automatically loads the saved report server information.

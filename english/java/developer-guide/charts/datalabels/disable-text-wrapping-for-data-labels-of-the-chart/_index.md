@@ -17,7 +17,7 @@ Aspose.Cells provides the [**DataLabels.setTextWrapped()**](https://reference.a
 
 Similarly, use the [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#isTextWrapped--) method to find out if a data label is already wrapped.
 
-This screenshot shows a sample Microsoft Excel file containing a chart in which the text of the data labels are wrapped. As you can see, you can check or clear the **Wrap text in shape** option in the ALIGNMENT section of the Format Datalabels panel in Microsoft Excel 2013.
+This screenshot shows a sample Microsoft Excel file containing a chart in which the text of the data labels **is** wrapped. As you can see, you can check or clear the **Wrap text in shape** option in the ALIGNMENT section of the Format Datalabels panel in Microsoft Excel 2013.
 
 **Wrapping data labels**
 

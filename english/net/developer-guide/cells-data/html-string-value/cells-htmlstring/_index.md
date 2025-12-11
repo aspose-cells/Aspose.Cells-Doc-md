@@ -1,25 +1,25 @@
 ---
-title: Manage Cells Html String
+title: Manage Cells HTML String
 type: docs
 weight: 600
 url: /net/manage-cells-html-string/
-description: Learn how to Manage Cells Html String through the Aspose.Cells for .NET API.
-keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
+description: Learn how to manage cells HTML string using the Aspose.Cells for .NET API.
+keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells HTML String
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you need to set styled data for specific Cell, you can assign a html string to the Cell. Of course, you can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to set styled data for a specific cell, you can assign an HTML string to the cell. You can also obtain the HTML string of the cell. Aspose.Cells offers this feature. Aspose.Cells provides the following property to help you achieve your goals.
 - [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/htmlstring)
 
-## **Get and set html string using Aspose.Cells**
+## **Get and set HTML string using Aspose.Cells**
 This example shows how to:
 
-1. Create a workbook and add some data.
-1. Get the specific Cell in the first worksheet.
-1. Set html string to the Cell.
-1. Get html string of the Cell.
+1. Create a workbook and add some data.  
+2. Get the specific cell in the first worksheet.  
+3. Set HTML string to the cell.  
+4. Get HTML string of the cell.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-htmlstring.cs" >}}
 
@@ -27,5 +27,5 @@ This example shows how to:
 
 The following screenshot shows the output of the above sample code.
 
-![todo:image_alt_text](htmlstring.png)
+![HTML string output](htmlstring.png)
 {{< app/cells/assistant language="csharp" >}}

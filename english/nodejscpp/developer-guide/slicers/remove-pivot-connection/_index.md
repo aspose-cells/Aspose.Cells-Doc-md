@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-If you want to disassociate a slicer and pivot table in Excel, you need to right-click the slicer and select "Report Connections..." item. In the option list, you can operate on the checkbox. Similarly, if you want to disassociate a slicer and pivot table using the Aspose.Cells API programmatically, please use the [**Slicer.removePivotConnection(PivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#removePivotConnection-pivottable-) method. It will disassociate the slicer and pivot table.
+If you want to disassociate a slicer and pivot table in Excel, you need to right‑click the slicer and select the **"Report Connections..."** item. In the options list, you can check the appropriate box. Similarly, if you want to disassociate a slicer and pivot table using the Aspose.Cells API programmatically, please use the [**Slicer.removePivotConnection(PivotTable)**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#removePivotConnection-pivottable-) method. It will disassociate the slicer and the pivot table.
 
 ## **Disassociate slicer and pivot table**
 
-The following sample code loads the [sample Excel file](remove-pivot-connection.xlsx) that contains an existing slicer. It accesses the slicers and then disassociates the slicer and pivot table. Finally, it saves the workbook as [output Excel file](remove-pivot-connection-out.xlsx).
+The following sample code loads the [sample Excel file](remove-pivot-connection.xlsx) that contains an existing slicer. It accesses the slicers and then disassociates the slicer from the pivot table. Finally, it saves the workbook as the [output Excel file](remove-pivot-connection-out.xlsx).
 
 ## **Sample Code**
 

@@ -30,15 +30,15 @@ Paths are omitted for clarity. Add the actual path to **stsadm.exe** and/or solu
 
 {{% /alert %}}
 
-1. Run stsadm to add the solution to the SharePoint solution store:
-   stsadm.exe -o addsolution -filename Aspose.Cells.SharePoint.License.wsp
-1. Deploy the solution to all servers in the farm:
-   stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
-1. Execute administrative timer jobs to complete the deployment immediately:
-   stsadm.exe -o execadmsvcjobs
+1. Run stsadm to add the solution to the SharePoint solution store:  
+   `stsadm.exe -o addsolution -filename Aspose.Cells.SharePoint.License.wsp`
+2. Deploy the solution to all servers in the farm:  
+   `stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force`
+3. Execute administrative timer jobs to complete the deployment immediately:  
+   `stsadm.exe -o execadmsvcjobs`
 
 {{% alert color="primary" %}}
 
-You will receive a warning when running the deployment step if the Windows SharePoint Services Administration service has not been started. **Stsadm.exe** relies on this service and Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on your server farm, you may need to deploy the license separately to each server.
+You will receive a warning when running the deployment step if the Windows SharePoint Services Administration service has not been started. **stsadm.exe** relies on this service and the Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on your server farm, you may need to deploy the license separately to each server.
 
 {{% /alert %}}

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Please use [**HTMLLoadOptions.GetDeleteRedundantSpaces()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getdeleteredundantspaces/) property and set it **true** to delete all the redundant spaces coming after the line break tag. By default, this property is **false** and redundant spaces are preserved in the output Excel files.
+Please use [**HTMLLoadOptions.GetDeleteRedundantSpaces()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getdeleteredundantspaces/) property and set it **to true** to delete all the redundant spaces that come after the line‑break tag. By default, this property is **false**, and redundant spaces are preserved in the output Excel files.
 
 {{% /alert %}}
 
-## Effect of setting the HTMLLoadOptions.DeleteRedundantSpaces property to false and true
+## Effect of setting the HTMLLoadOptions.DeleteRedundantSpaces property to false and true
 
 The following screenshot shows the effect of setting this property to **false** and **true**.
 
@@ -25,7 +25,7 @@ The following screenshot shows the effect of setting this property to **false** 
 
 ### Programming Sample
 
-The following sample code shows the usage of the [**HTMLLoadOptions.GetDeleteRedundantSpaces()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getdeleteredundantspaces/) property. Please set it **true** or **false** to get the output as shown in the above screenshot.
+The following sample code shows the usage of the [**HTMLLoadOptions.GetDeleteRedundantSpaces()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getdeleteredundantspaces/) property. Please set it **to true** or **false** to obtain the output shown in the screenshot above.
 
 ```c++
 #include <iostream>

@@ -1,24 +1,24 @@
----
-title: Disable Text Wrapping for Data Labels of the Chart with C++
-linktitle: Disable Text Wrapping for Data Labels
-description: Learn how to disable text wrapping for data labels in charts using Aspose.Cells for C++. Our guide will show you how to prevent long labels from overlapping and provide more readable and clear chart displays.
-keywords: Aspose.Cells for C++, charting, data labels, text wrapping, overlapping, readability, displays.
-type: docs
-weight: 70
-url: /cpp/disable-text-wrapping-for-data-labels-of-the-chart/
+---  
+title: Disable Text Wrapping for Data Labels of the Chart with C++  
+linktitle: Disable Text Wrapping for Data Labels  
+description: Learn how to disable text wrapping for data labels in charts using Aspose.Cells for C++. Our guide will show you how to prevent long labels from overlapping and provide more readable and clear chart displays.  
+keywords: Aspose.Cells for C++, charting, data labels, text wrapping, overlapping, readability, displays.  
+type: docs  
+weight: 70  
+url: /cpp/disable-text-wrapping-for-data-labels-of-the-chart/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 allows users to wrap or unwrap text inside the Data Labels of the Chart. By default, the text inside the Data Labels of the Chart is in the wrapped state.
+Microsoft Excel 2013 allows users to wrap or unwrap text inside the data labels of a chart. By default, the text inside the data labels of a chart is in the wrapped state.
 
-Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/datalabels/istextwrapped/) property which you can set True or False to Enable or Disable Text Wrapping of Data Labels respectively.
+Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/datalabels/istextwrapped/) property which you can set to true or false to enable or disable text wrapping of data labels, respectively.
 
 {{% /alert %}}
 
-The below code sample shows how to disable text wrapping for the data labels of the chart.
+The code sample below shows how to disable text wrapping for the data labels of the chart.
 
 ```cpp
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
     // Access the first chart inside the worksheet
     Chart chart = worksheet.GetCharts().Get(0);
 
-    // Disable the Text Wrapping of Data Labels in all Series
+    // Disable text wrapping of data labels in all series
     chart.GetNSeries().Get(0).GetDataLabels().SetIsTextWrapped(false);
     chart.GetNSeries().Get(1).GetDataLabels().SetIsTextWrapped(false);
     chart.GetNSeries().Get(2).GetDataLabels().SetIsTextWrapped(false);
@@ -63,5 +63,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can use Aspose.Cells to export your worksheet or chart into an image with the desired width and height. It provides [**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/setdesiredsize/) method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.
+You can use Aspose.Cells to export your worksheet or chart into an image with the desired width and height. It provides the [**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/setdesiredsize/) method to set the desired width and height of the exported image. The width and height are specified **in pixels**.
 
 {{% /alert %}}
 
-The following code exports the worksheet into an image with 400x400 size.
+The following code exports the worksheet into an image with 400×400 size.
 
 ```c++
 #include <iostream>
@@ -54,5 +54,4 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
-
 {{< app/cells/assistant language="cpp" >}}

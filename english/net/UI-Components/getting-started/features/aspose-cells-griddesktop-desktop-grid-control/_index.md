@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /net/aspose-cells-griddesktop/features/
 keywords: GridDesktop,features,feature
-description: This article introduce features for GridDesktop .
+description: This article introduces the features for GridDesktop.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -37,11 +37,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - Insert or remove pictures.
 - Add or remove hyperlinks.
 - Add or remove validation rules.
-- Add or remove controls (like CheckBox, ComboBox etc.) in cells.
+- Add or remove controls (like CheckBox, ComboBox, etc.) in cells.
 - Keyboard navigation of cells.
 ### **Security Features**
 - Protect your cells by locking or hiding them.
-### **Advance Features**
+### **Advanced Features**
 - Supports creating and calculating formulas.
 - Perform your desired actions under different grid events.
 ### **Supported Microsoft Excel Versions**

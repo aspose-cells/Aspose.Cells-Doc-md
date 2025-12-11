@@ -3,7 +3,7 @@ title: Support for XAdES Signature
 type: docs
 weight: 110
 url: /python-net/support-for-xades-signature/
-description: This article describes Support for XAdES Signature using C# codes with Aspose.Cells for Python via .NET.
+description: This article describes support for XAdES Signature using C# code with Aspose.Cells for Python via .NET.
 keywords: Support for XAdES Signature, How to sign Excel with XAdES Signature, How to add XAdES signature.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,12 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-Aspose.Cells for Python via .NET provides supports signing workbooks with XAdES Signature. For this, the API provides [**DigitalSignature**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) class and [**XAdESType**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/xadestype) enumeration.
+Aspose.Cells for Python via .NET provides support for signing workbooks with XAdES Signature. For this, the API provides the [**DigitalSignature**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) class and the [**XAdESType**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/xadestype) enumeration.
 
 ## **How to Add XAdES Signature for Excel**
 
-The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) class to sign the [source](101089323.xlsx) workbook.
-
+The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/python-net/aspose.cells.digitalsignatures/digitalsignature) class to sign the source workbook (`101089323.xlsx`).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-XAdESSignatureSupport-1.py" >}}
 

@@ -12,9 +12,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.
+Sometimes you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.
 
-Aspose.Cells for Node.js via C++ supports copying and moving worksheets within or between workbooks. Worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.
+Aspose.Cells for Node.js via C++ supports copying and moving worksheets within or between workbooks. **Worksheets**, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.
 
 {{% /alert %}}
 
@@ -22,13 +22,13 @@ Aspose.Cells for Node.js via C++ supports copying and moving worksheets within o
 
 Following are the steps involved for copying and moving worksheets within or between workbooks in Microsoft Excel.
 
-1. To move or copy sheets to another workbook, open the workbook that will receive the sheets.
-1. Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.
-1. On the **Edit** menu, click **Move or Copy Sheet**.
-1. In the **To book** dialog, click the workbook to receive the sheets.
-1. To move or copy the selected sheets to a new workbook, click **New Book**.
-1. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.
-1. To copy the sheets instead of moving them, select the **Create a copy** checkbox.
+1. To move or copy sheets to another workbook, open the workbook that will receive the sheets.  
+2. Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.  
+3. On the **Edit** menu, click **Move or Copy Sheet**.  
+4. In the **To book** dialog, click the workbook to receive the sheets.  
+5. To move or copy the selected sheets to a new workbook, click **New Book**.  
+6. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.  
+7. To copy the sheets instead of moving them, select the **Create a copy** checkbox.
 
 ### **Copy Worksheets within a Workbook with Aspose.Cells for Node.js via C++**
 
@@ -104,12 +104,12 @@ const ws0 = excelWorkbook0.getWorksheets().get(0);
 
 // Put some data into header rows (A1:A4)
 for (let i = 0; i < 5; i++) {
-ws0.getCells().get(i, 0).putValue(`Header Row ${i}`);
+    ws0.getCells().get(i, 0).putValue(`Header Row ${i}`);
 }
 
 // Put some detail data (A5:A999)
 for (let i = 5; i < 1000; i++) {
-ws0.getCells().get(i, 0).putValue(`Detail Row ${i}`);
+    ws0.getCells().get(i, 0).putValue(`Detail Row ${i}`);
 }
 
 // Define a pagesetup object based on the first worksheet.
@@ -132,7 +132,7 @@ ws1.setName("MySheet");
 // first worksheet of the second workbook.
 ws1.copy(ws0);
 
-// Save the excel file.
+// Save the Excel file.
 excelWorkbook1.save(path.join(dataDir, "CopyWorksheetFromWorkbookToOther_out.xls"));
 ```
 
@@ -150,7 +150,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const inputPath = path.join(dataDir, "sample1.xlsx");
 
-// Open an existing excel file.
+// Open an existing Excel file.
 const wb = new AsposeCells.Workbook(inputPath);
 
 // Create a Worksheets object with reference to the sheets of the Workbook.
@@ -162,7 +162,7 @@ const worksheet = sheets.get(0);
 // Move the first sheet to the third position in the workbook.
 worksheet.moveTo(2);
 
-// Save the excel file.
+// Save the Excel file.
 wb.save(path.join(dataDir, "MoveWorksheet_out.xls"));
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

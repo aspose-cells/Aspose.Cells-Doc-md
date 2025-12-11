@@ -21,43 +21,41 @@ Aspose.Cells supports copying or moving worksheets within or between workbooks. 
 
 The initial steps are the same for all examples.
 
-1. Create two workbooks with some data in Microsoft Excel. For the purposes of this example, we created two new workbooks in Microsoft Excel and input some data into the worksheets.
+1. Create two workbooks with some data in Microsoft Excel. For the purposes of this example, we created two new workbooks in Microsoft Excel and entered some data into the worksheets.
 
 - FirstWorkbook.xlsx (3 worksheets).
 - SecondWorkbook.xlsx (1 worksheet).
 
 1. Download and install Aspose.Cells:
    1. [Download Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
-   1. Install it on your development computer.
-      All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
+   1. Install it on your development computer. All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 1. Create a project:
-   1. Start Visual Studio.Net.
+   1. Start Visual Studio .NET.
    1. Create a new console application.
 1. Add references:
-   1. Add a reference to Aspose.Cells to the project.
-      For example, add a reference to ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
-1. Copy the worksheet within a workbook
-   The first example copies the first worksheet (Copy) within FirstWorkbook.xlsx.
+   1. Add a reference to Aspose.Cells in the project. For example, add a reference to `...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll`
+1. Copy the worksheet within a workbook  
+   The first example copies the first worksheet (**Copy**) within **FirstWorkbook.xlsx**.
 
-When executing the code, the worksheet named Copy is copied within FirstWorkbook.xlsx with the name Last Sheet.
+When executing the code, the worksheet named **Copy** is copied within **FirstWorkbook.xlsx** with the name **Last Sheet**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-CopyWorksheets.cs" >}}
 
 ### **Moving a Worksheet within a Workbook**
 
-The code below shows how to move a worksheet from one position in a workbook to another. Executing the code moves the worksheet called Move from index 1 to index 2 in FirstWorkbook.xlsx.
+The code below shows how to move a worksheet from one position in a workbook to another. Executing the code moves the worksheet called **Move** from index 1 to index 2 in **FirstWorkbook.xlsx**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheets.cs" >}}
 
 ### **Copying a Worksheet between Workbooks**
 
-Executing the code copies the worksheet named Copy is to SecondWorkbook.xlsx with the name Sheet2.
+Executing the code copies the worksheet named **Copy** to **SecondWorkbook.xlsx** with the name **Sheet2**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-CopyWorksheetsBetweenWorkbooks.cs" >}}
 
 ### **Moving a Worksheet between Workbooks**
 
-Executing the code moves the worksheet named Move from FirstWorkbook.xlsx to SecondWorkbook.xlsx with the name Sheet3.
+Executing the code moves the worksheet named **Move** from **FirstWorkbook.xlsx** to **SecondWorkbook.xlsx** with the name **Sheet3**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CopyMoveWorksheets-MoveWorksheetsBetweenWorkbooks.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-In this topic, we will discuss about changing the font and font color of rows and columns of a worksheet. This is a basic level of formatting feature offered by Aspose.Cells.GridDesktop that empowers developers to customize the view of their worksheets for making them more presentable.
+In this topic, we will discuss changing the font and font color of rows and columns of a worksheet. This is a basic formatting feature offered by Aspose.Cells.GridDesktop that empowers developers to customize the view of their worksheets, making them more presentable.
 
 {{% /alert %}} 
 ## **Changing the Font & Color of a Column**
@@ -71,11 +71,11 @@ GridRow row = sheet.Rows[0];
 
 Font font = new Font("Arial", 10, FontStyle.Underline);
 
-//Setting the font of the column to the customized Font object
+//Setting the font of the row to the customized Font object
 
 row.SetFont(font);
 
-//Setting the font color of the column to Green
+//Setting the font color of the row to Green
 
 row.SetFontColor(Color.Green);
 

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Get OData Connection Information**
 
-There might be cases where developers need to extract OData information from the Excel file. Aspose.Cells for Node.js via C++ provides the [**Workbook.getDataMashup()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getDataMashup--) property which returns the DataMashup information present in the Excel file. This information is represented by the [**DataMashup**](https://reference.aspose.com/cells/nodejs-cpp/datamashup) class. The [**DataMashup**](https://reference.aspose.com/cells/nodejs-cpp/datamashup) class provides the [**DataMashup.getPowerQueryFormulas()**](https://reference.aspose.com/cells/nodejs-cpp/datamashup/#getPowerQueryFormulas--) property that returns the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulacollection) collection. From the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulacollection), you can get access to [**PowerQueryFormula**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformula) and [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulaitem).
+There might be cases where developers need to extract OData information from an **an** Excel file. Aspose.Cells for Node.js via C++ provides the [**Workbook.getDataMashup()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getDataMashup--) property which returns the DataMashup information present in the Excel file. This information is represented by the [**DataMashup**](https://reference.aspose.com/cells/nodejs-cpp/datamashup) class. The [**DataMashup**](https://reference.aspose.com/cells/nodejs-cpp/datamashup) class provides the [**DataMashup.getPowerQueryFormulas()**](https://reference.aspose.com/cells/nodejs-cpp/datamashup/#getPowerQueryFormulas--) property that returns the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulacollection) collection. From the [**PowerQueryFormulaCollection**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulacollection), you can get access to [**PowerQueryFormula**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformula) and [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/nodejs-cpp/powerqueryformulaitem).
 
 The following code snippet demonstrates the use of these classes to retrieve the OData information.
 
-The Source file used in the following code snippet is attached for your reference.
+The source file used in the following code snippet is attached for your reference.
 
 [Source File](96928098.xlsx)
 
@@ -33,22 +33,21 @@ const workbook = new AsposeCells.Workbook(filePath);
 const PQFcoll = workbook.getDataMashup().getPowerQueryFormulas();
 
 for (let i = 0; i < PQFcoll.getCount(); i++) {
-const PQF = PQFcoll.get(i);
-console.log("Connection Name: " + PQF.getName());
-const PQFIcoll = PQF.getPowerQueryFormulaItems();
+    const PQF = PQFcoll.get(i);
+    console.log("Connection Name: " + PQF.getName());
+    const PQFIcoll = PQF.getPowerQueryFormulaItems();
 
-for (let j = 0; j < PQFIcoll.getCount(); j++) {
-const PQFI = PQFIcoll.get(j);
-console.log("Name: " + PQFI.getName());
-console.log("Value: " + PQFI.getValue());
-}
+    for (let j = 0; j < PQFIcoll.getCount(); j++) {
+        const PQFI = PQFIcoll.get(j);
+        console.log("Name: " + PQFI.getName());
+        console.log("Value: " + PQFI.getValue());
+    }
 }
 ```
 
 ### **Console Output**
 
-{{< highlight java >}}
-
+{{< highlight javascript >}}
 Connection Name: Orders
 
 Name: Source
@@ -58,6 +57,5 @@ Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null
 Name: Orders_table
 
 Value: Source{[Name="Orders",Signature="table"]}[Data]
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

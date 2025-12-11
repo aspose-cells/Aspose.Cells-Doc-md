@@ -10,26 +10,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Why Accessing Array Element by Index**
 Accessing array elements by index in Smart Markers (a feature in programming tools or languages, often used for data binding or templating) is fundamental for precision, efficiency, and simplicity.
 
-1. Direct Positional Access: Arrays store elements in sequential memory locations. Indexing (e.g., array[0]) provides instant access to a specific position without scanning the entire array.
-2. Zero-Based Indexing Standard: Most programming languages (C, Java, JavaScript, etc.) use zero-based indexing. Adopting this convention ensures consistency across Smart Markers implementations.
-3. Iteration and Automation: Smart Markers often process arrays dynamically (e.g., generating UI components from data).
-4. Predictability in Data Binding: In templating systems (e.g., JSX, Angular, or custom Smart Markers), indices provide unambiguous references.
-5. Performance Optimization: Indexed access is O(1) time complexity – far faster than searching by value (O(n)).
-6. In summary, index-based access in Smart Markers balances speed, simplicity, and control – aligning with low-level computing principles while enabling high-level abstractions. 
+1. Direct Positional Access: Arrays store elements in sequential memory locations. Indexing (e.g., array[0]) provides instant access to a specific position without scanning the entire array.  
+2. Zero-Based Indexing Standard: Most programming languages (C, Java, JavaScript, etc.) use zero-based indexing. Adopting this convention ensures consistency across Smart Markers implementations.  
+3. Iteration and Automation: Smart Markers often process arrays dynamically (e.g., generating UI components from data).  
+4. Predictability in Data Binding: In templating systems (e.g., JSX, Angular, or custom Smart Markers), indices provide unambiguous references.  
+5. Performance Optimization: Indexed access is O(1) time complexity – far faster than searching by value (O(n)).  
+6. In summary, index‑based access in Smart Markers balances speed, simplicity, and control – aligning with low‑level computing principles while enabling high‑level abstractions.  
 
 ## **How to Import Array Element by Index into Excel With Smart Markers**
-Aspose.Cells supports accessing array element by index in smart markers. Please check [template file](ElementByIndex.xlsx), [json file](ElementByIndex.json) and the screenshot of the output excel file generated with the following code.
+Aspose.Cells supports accessing array elements by index in Smart Markers. Please check the [template file](ElementByIndex.xlsx), the [JSON file](ElementByIndex.json), and the screenshot of the output Excel file generated with the following code.
 
 |**The first worksheet of the smartmarker.xlsx file showing smart markers.**|
 | :- |
 |![todo:image_alt_text](ElementByIndex1.png)|
 
-|**The screenshot of the output excel file.**|
+|**The screenshot of the output Excel file.**|
 | :- |
 |![todo:image_alt_text](ElementByIndex2.png)|
 
-Json data as follows:
-```json data
+JSON data as follows:
+```json
 {
   "EntityCin": "EntityCin Test",
   "EntityName": "EntityName Test",
@@ -108,6 +108,7 @@ Json data as follows:
   ]
 }
 ```
+
 The example that follows shows how this works.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "SmartMarkers-AccessElementByIndex.cs" >}}

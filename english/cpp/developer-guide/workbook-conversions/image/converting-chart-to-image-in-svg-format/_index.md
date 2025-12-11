@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
+Scalable Vector Graphics (SVG) is an XML-based vector image format for two‑dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
 
 SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, but are more often created with drawing software.
 
-Aspose.Cells can save charts into images in various formats like BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.
+Aspose.Cells can save charts as images in various formats, such as BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save a chart to SVG format.
 
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ int main()
     ImageOrPrintOptions opts;
     opts.SetImageType(Aspose::Cells::Drawing::ImageType::Svg);
 
-    // Save the chart to svg format
+    // Save the chart to SVG format
     chart.ToImage(outDir + u"Image_out.svg", opts);
 
     std::cout << "Chart saved to SVG format successfully!" << std::endl;

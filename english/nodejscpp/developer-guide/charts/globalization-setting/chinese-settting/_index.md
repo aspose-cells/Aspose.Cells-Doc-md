@@ -12,104 +12,105 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-In this topic, we will show you how to set Chinese Region for a chart.  
+In this topic, we will show you how to set the Chinese region for a chart.  
 {{% /alert %}}  
 
-## **Defines an inheritance class**  
+## **Define an Inheritance Class**  
 
-First step, you need to define a class "ChartChineseSetttings" that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/).  
-Then, by rewriting the related functions, you can set the text of the chart elements in your own language.  
+First, define a class **ChartChineseSettings** that inherits from [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/nodejs-cpp/chartglobalizationsettings/).  
+Then, by overriding the related functions, you can set the text of the chart elements in your own language.  
 Code example:  
+
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 
 class ChartChineseSettings extends AsposeCells.ChartGlobalizationSettings {
-getAxisTitleName() {
-return "坐标轴标题";
-}
+    getAxisTitleName() {
+        return "坐标轴标题";
+    }
 
-getAxisUnitName(type) {
-switch (type) {
-case AsposeCells.DisplayUnitType.None:
-return '';
-case AsposeCells.DisplayUnitType.Hundreds:
-return '百';
-case AsposeCells.DisplayUnitType.Thousands:
-return '千';
-case AsposeCells.DisplayUnitType.TenThousands:
-return '万';
-case AsposeCells.DisplayUnitType.HundredThousands:
-return '十万';
-case AsposeCells.DisplayUnitType.Millions:
-return '百万';
-case AsposeCells.DisplayUnitType.TenMillions:
-return '千万';
-case AsposeCells.DisplayUnitType.HundredMillions:
-return '亿';
-case AsposeCells.DisplayUnitType.Billions:
-return '十亿';
-case AsposeCells.DisplayUnitType.Trillions:
-return '兆';
-default:
-return '';
-}
-}
+    getAxisUnitName(type) {
+        switch (type) {
+            case AsposeCells.DisplayUnitType.None:
+                return '';
+            case AsposeCells.DisplayUnitType.Hundreds:
+                return '百';
+            case AsposeCells.DisplayUnitType.Thousands:
+                return '千';
+            case AsposeCells.DisplayUnitType.TenThousands:
+                return '万';
+            case AsposeCells.DisplayUnitType.HundredThousands:
+                return '十万';
+            case AsposeCells.DisplayUnitType.Millions:
+                return '百万';
+            case AsposeCells.DisplayUnitType.TenMillions:
+                return '千万';
+            case AsposeCells.DisplayUnitType.HundredMillions:
+                return '亿';
+            case AsposeCells.DisplayUnitType.Billions:
+                return '十亿';
+            case AsposeCells.DisplayUnitType.Trillions:
+                return '兆';
+            default:
+                return '';
+        }
+    }
 
-getChartTitleName() {
-return "图表标题";
-}
+    getChartTitleName() {
+        return "图表标题";
+    }
 
-getLegendDecreaseName() {
-return "减少";
-}
+    getLegendDecreaseName() {
+        return "减少";
+    }
 
-getLegendIncreaseName() {
-return "增加";
-}
+    getLegendIncreaseName() {
+        return "增加";
+    }
 
-getLegendTotalName() {
-return "汇总";
-}
+    getLegendTotalName() {
+        return "汇总";
+    }
 
-getOtherName() {
-return "其他";
-}
+    getOtherName() {
+        return "其他";
+    }
 
-getSeriesName() {
-return "系列";
-}
+    getSeriesName() {
+        return "系列";
+    }
 }
 ```  
 
-## **Config Chinese Setting For Chart**  
+## **Configure Chinese Settings for Chart**  
 
-In this step, you will use the class "ChartChineseSetttings" you defined in the previous step.  
+In this step, you will use the **ChartChineseSettings** class you defined in the previous step.  
 Code example:  
 
-```javascript  
-const Workbook = require('aspose.cells');  
-const wb = new Workbook("Chinese.xls");  
-wb.settings.globalizationSettings.chartSettings = new ChartChineseSetttings();  
-const chart0 = wb.worksheets[0].charts[0];  
-chart0.toImage("Output.png");  
+```javascript
+const Workbook = require('aspose.cells');
+const wb = new Workbook("Chinese.xls");
+wb.settings.globalizationSettings.chartSettings = new ChartChineseSettings();
+const chart0 = wb.worksheets[0].charts[0];
+chart0.toImage("Output.png");
 ```  
 
-Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.  
+You will see the effect in the output image: the chart elements are rendered according to your settings.  
 
 ## **Conclusion**  
 
-In this example, if you do not set Chinese Region for a chart, the following chart elements may be rendered in the default language, such as English.  
-After the above operation, we can get an output chart picture with Chinese Region.  
+If you do not set the Chinese region for a chart, the following chart elements may be rendered in the default language (English).  
+After applying the steps above, you obtain an output chart image with Chinese region settings.  
 
-|**Supported elements**|**Value in this example**|**default value in the English environment**|  
-| :- | :- | :- |  
-|Axis Title Name|坐标轴标题|Axis Title|  
-|Axis Unit Name|百,千...|Hundreds, Thousands...|  
-|Chart Title Name|图表标题|Chart Title|  
-|Legend Increase Name|增加|Increase|  
-|Legend Decrease Name|减少|Decrease|  
-|Legend Total Name|汇总|Total|  
-|Other Name|其他|Other|  
-|Series Name|系列|Series|  
-  
+| **Supported elements** | **Value in this example** | **Default value in an English environment** |
+| :- | :- | :- |
+| Axis Title Name | 坐标轴标题 | Axis Title |
+| Axis Unit Name | 百,千… | Hundreds, Thousands… |
+| Chart Title Name | 图表标题 | Chart Title |
+| Legend Increase Name | 增加 | Increase |
+| Legend Decrease Name | 减少 | Decrease |
+| Legend Total Name | 汇总 | Total |
+| Other Name | 其他 | Other |
+| Series Name | 系列 | Series |
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

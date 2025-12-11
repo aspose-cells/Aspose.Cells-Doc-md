@@ -8,15 +8,15 @@ description: Learn how to convert JSON data to CSV using Aspose.Cells for Node.j
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
-  
+
 ## **Convert JSON to CSV**  
-  
+
 Aspose.Cells supports converting simple as well as nested JSON to CSV. For this, the API provides [**JsonLayoutOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility) classes. The [**JsonLayoutOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions) class provides the options for JSON layout like  [**JsonLayoutOptions.getArrayAsTable()**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions/#getArrayAsTable--) (processes the array as a table). The [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility) class processes the JSON using the layout options set with the [**JsonLayoutOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions) class.  
-  
-The following code sample demonstrates the use of [**JsonLayoutOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility) classes to load the [source JSON file](104398869.json) and generates the [output CSV file](104398870.csv).  
-  
+
+The following code sample demonstrates the use of [**JsonLayoutOptions**](https://reference.aspose.com/cells/nodejs-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/nodejs-cpp/jsonutility) classes to load the [source JSON file](104398869.json) and generate the [output CSV file](104398870.csv).  
+
 ### **Sample Code**  
-  
+
 ```javascript
 const fs = require("fs");
 const path = require("path");
@@ -51,5 +51,5 @@ AsposeCells.JsonUtility.importData(str, cells, 0, 0, importOptions);
 // Save Workbook
 workbook.save(outputDir + "SampleJson_out.csv");
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -21,17 +21,17 @@ It is also possible to generate a file dynamically and send it directly to a cli
 
 - Node.js response object.  
 - File name.  
-- [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/), the content-disposition type of the output file.  
-- [**SaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/saveoptions/), the file format type  
+- [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/), the content‑disposition type of the output file.  
+- [**SaveOptions**](https://reference.aspose.com/cells/nodejs-cpp/saveoptions/), the file format type.  
 
-The [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/) enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.  
+The [**ContentDisposition**](https://reference.aspose.com/cells/nodejs-cpp/contentdisposition/) enumeration determines whether the file being sent to the browser provides the option to open itself directly in the browser or in an application associated with *.xls*, *.xlsx*, or another extension.  
 
-The enumeration contains the following pre-defined save types:  
+The enumeration contains the following pre‑defined save types:  
 
-|**Type**|**Description**|  
+| **Type** | **Description** |  
 | :- | :- |  
-|Attachment|Sends the spreadsheet to the browser and opens in an application as an attachment associated with .xls/.xlsx or other extensions|  
-|Inline|Sends the document to the browser and presents an option to save the spreadsheet to disk or open inside the browser|  
+| Attachment | Sends the spreadsheet to the browser and opens in an application as an attachment associated with *.xls*, *.xlsx* or other extensions |  
+| Inline | Sends the document to the browser and presents an option to save the spreadsheet to disk or open inside the browser |  
 
 ### **XLS Files**  
 
@@ -47,9 +47,9 @@ const workbook = new AsposeCells.Workbook();
 let response = null;
 
 if (response != null) {
-// Save in Excel2003 XLS format
-workbook.save(response, path.join(dataDir, "output.xls"), AsposeCells.ContentDisposition.Inline, new AsposeCells.XlsSaveOptions());
-response.end();
+    // Save in Excel2003 XLS format
+    workbook.save(response, path.join(dataDir, "output.xls"), AsposeCells.ContentDisposition.Inline, new AsposeCells.XlsSaveOptions());
+    response.end();
 }
 ```  
 
@@ -58,38 +58,44 @@ response.end();
 ```javascript
 try 
 {
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-// Load your source workbook
-const workbook = new AsposeCells.Workbook();
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    // Load your source workbook
+    const workbook = new AsposeCells.Workbook();
 
-if (Response != null) {
-// Save in Xlsx format
-workbook.saveAsync(Response, path.join(dataDir, "output.xlsx"), AsposeCells.ContentDisposition.Attachment, new AsposeCells.OoxmlSaveOptions()).then(() => {
-Response.end();
+    if (Response != null) {
+        // Save in Xlsx format
+        workbook.saveAsync(Response, path.join(dataDir, "output.xlsx"), AsposeCells.ContentDisposition.Attachment, new AsposeCells.OoxmlSaveOptions()).then(() => {
+            Response.end();
+        });
+    }
+}
 ```  
 
 ### **PDF Files**  
 
 ```javascript
 try {
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "output.pdf");
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    const filePath = path.join(dataDir, "output.pdf");
 
-// Creating a Workbook object
-const workbook = new AsposeCells.Workbook();
+    // Creating a Workbook object
+    const workbook = new AsposeCells.Workbook();
 
-if (Response != null) {
-// Save in Pdf format
-workbook.saveAsync(Response, filePath, AsposeCells.ContentDisposition.Attachment, new AsposeCells.PdfSaveOptions()).then(() => {
-Response.end();
+    if (Response != null) {
+        // Save in Pdf format
+        workbook.saveAsync(Response, filePath, AsposeCells.ContentDisposition.Attachment, new AsposeCells.PdfSaveOptions()).then(() => {
+            Response.end();
+        });
+    }
+}
 ```  
 
 ### **Note**  
@@ -101,29 +107,28 @@ const path = require("path");
 const { Workbook, SaveFormat } = require("aspose.cells.node");
 
 async function downloadExcel(req, res) {
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "Book1.xlsx");
-// Load your source workbook
-const workbook = new Workbook(filePath);
-// Save the workbook to a memory stream
-const stream = workbook.save(null, SaveFormat.Xlsx);
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    const filePath = path.join(dataDir, "Book1.xlsx");
+    // Load your source workbook
+    const workbook = new Workbook(filePath);
+    // Save the workbook to a memory stream
+    const stream = workbook.save(null, SaveFormat.Xlsx);
 
-// Set the content type and file name
-const contentType = "application/octet-stream";
-const fileName = "output.xlsx";
+    // Set the content type and file name
+    const contentType = "application/octet-stream";
+    const fileName = "output.xlsx";
 
-// Set the response headers
-res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
-res.setHeader("Content-Type", contentType);
+    // Set the response headers
+    res.setHeader("Content-Disposition", `attachment; filename="${fileName}"`);
+    res.setHeader("Content-Type", contentType);
 
-// Write the file contents to the response body stream
-res.end(stream);
+    // Write the file contents to the response body stream
+    res.end(stream);
 
-// Return the response
-return;
+    // Return the response
+    return;
 }
 ```  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

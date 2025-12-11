@@ -511,8 +511,6 @@ If you encounter a *404* on the JSON load request, verify that the file name is 
 | **C** – Editing a cell (server side update) | ![Cell Edit](cell-edit.png) |
 | **D** – Downloading the modified file | ![Download Dialog](download.png) |
 
- 
-
 ---
 
 ## 7. Additional Resources
@@ -522,5 +520,3 @@ If you encounter a *404* on the JSON load request, verify that the file name is 
 - **GridJs‑spreadsheet NPM package** – <https://www.npmjs.com/package/gridjs-spreadsheet>
 - **Demo Source** – <https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/main/Examples.GridJs.Simple>
 - **Spring Boot Official Documentation** – <https://spring.io/projects/spring-boot>
-
----

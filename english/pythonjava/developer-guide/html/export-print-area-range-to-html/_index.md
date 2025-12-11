@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Export print area range to HTML**
-Aspose.Cells for Python via Java supports exporting only the print area i.e. selected range of cells instead of the entire she'st to HTML. For this, the API provides the [HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) property. Setting this property to **True** will only export the print area.
+Aspose.Cells for Python via Java supports exporting only the print area, i.e., a selected range of cells, instead of the entire sheet to HTML. For this, the API provides the [HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) property. Setting this property to **True** will only export the print area.
 
 The following sample code demonstrates the use of the [HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) property to export only the print area to HTML.
 

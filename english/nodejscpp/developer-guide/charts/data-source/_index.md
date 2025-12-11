@@ -1,27 +1,27 @@
 ---  
-title: Set Data source for the chart with Node.js via C++  
+title: Set Data Source for the Chart with Node.js via C++  
 description: Learn about the various data sources supported by Aspose.Cells for Node.js via C++. Our guide will walk you through the different types of data sources available and show you how to connect and retrieve data from them to populate your worksheets.  
 keywords: Aspose.Cells for Node.js via C++, charting, data formatting, labels, colors, fonts, appearance, usability.  
 linktitle: Data source  
 type: docs  
 weight: 10  
 url: /nodejs-cpp/data-formatting-in-charts/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
-In our previous topics, we have already provided many examples to demonstrate how you can set a data source for your chart but in this topic, we are going to provide more details about the types of data that can be set for a chart.
+In our previous topics, we have already provided many examples to demonstrate how you can set a data source for your chart, but in this topic, we are going to provide more details about the types of data that can be set for a chart.
 
 ## **Setting Chart Data**
 
-There are two types of data to deal with while working on charts using Aspose.Cells as follows:
+There are two types of data to deal with while working with charts using Aspose.Cells as follows:
 
-- Chart data.
+- Chart data.  
 - Category data.
 
 ### **Chart Data**
 
-Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) object's [**add(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/#add-string-boolean-) method.
+Chart data is the data that we use as a data source to build our charts. We can add a range of cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection) object's [**add(string, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/seriescollection/#add-string-boolean-) method.
 
 ```javascript
 const path = require("path");
@@ -120,7 +120,7 @@ chart.getNSeries().setCategoryData("C1:C4");
 workbook.save(path.join(dataDir, "output.xls"));
 ```
 
-## **Advance topics**  
+## **Advanced Topics**  
 - [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/nodejs-cpp/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)  
 - [Create Dynamic Charts](/cells/nodejs-cpp/create-dynamic-charts/)  
 - [Easy way for Chart Setup using Chart.SetChartDataRange method](/cells/nodejs-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  

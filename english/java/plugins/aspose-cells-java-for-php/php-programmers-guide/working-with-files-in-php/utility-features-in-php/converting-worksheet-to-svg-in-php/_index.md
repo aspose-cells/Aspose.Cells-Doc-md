@@ -8,56 +8,39 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Worksheet to SVG**
-To convert Worksheet to SVG using Aspose.Cells for Java in PHP, simply invoke worksheet_to_svg() method of Converter module.
+To convert a worksheet to SVG using Aspose.Cells for Java in PHP, simply invoke the `worksheet_to_svg()` method of the Converter module.
 
 **PHP Code**
 
 {{< highlight php >}}
-
- $saveFormat = new SaveFormat();
+$saveFormat = new SaveFormat();
 
 $path = $dataDir . "Template.xlsx";
 
-//Create a workbook object from the template file
-
+// Create a workbook object from the template file
 $workbook = new Workbook($path);
 
-//Convert each worksheet into svg format in a single page.
-
+// Convert each worksheet into SVG format in a single page.
 $imgOptions = new ImageOrPrintOptions();
-
 $imgOptions->setSaveFormat($saveFormat->SVG);
-
 $imgOptions->setOnePagePerSheet(true);
 
-//Convert each worksheet into svg format
-
+// Convert each worksheet into SVG format
 $sheetCount = $workbook->getWorksheets()->getCount();
 
-for($i=0; $i < $sheetCount; $i++)
-
-{
-
+for ($i = 0; $i < $sheetCount; $i++) {
     $sheet = $workbook->getWorksheets()->get($i);
-
     $sr = new SheetRender($sheet, $imgOptions);
-
     $pageCount = $sr->getPageCount();
 
-    for ($k = 0; $k < $pageCount; $k++)
-
-    {
-
-        //Output the worksheet into Svg image format
-
+    for ($k = 0; $k < $pageCount; $k++) {
+        // Output the worksheet into SVG image format
         $sr->toImage($k, $path . $sheet->getName() . $k . ".out.svg");
-
     }
-
 }
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Converting Worksheet to SVG (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Converting Worksheet to SVG (Aspose.Cells)** from any of the below‑mentioned social‑coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

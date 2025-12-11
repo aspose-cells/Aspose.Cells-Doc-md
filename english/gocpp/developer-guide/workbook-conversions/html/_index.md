@@ -13,13 +13,15 @@ The Aspose.Cells API provides support for exporting spreadsheets to HTML format.
 The code example below shows how to save a workbook as an HTML file using C++:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Html.go" >}}
+
 ## **Converting Excel Workbook to MHTML Files**
-MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. They are used for emails with the .mht file extension. Aspose.Cells supports reading and writing MHTML files.
+MHTML combines normal HTML with external resources (that is, content that is usually linked, like images, animations, audio, and so on) into one file. They are used for emails with the .mht file extension. Aspose.Cells supports reading and writing MHTML files.
 
 The code example below shows how to save a workbook as an MHTML file using C++:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Html-1.go" >}}
-## **Advance topics**
+
+## **Advanced topics**
 - [AutoFit Columns and Rows while loading HTML in Workbook](/cells/cpp/autofit-columns-and-rows-while-loading-html-in-workbook/)
 - [Avoid exponential notation of large numbers while importing from HTML](/cells/cpp/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 - [Change the HTML Link Target Type](/cells/cpp/change-the-html-link-target-type/)
@@ -46,5 +48,5 @@ The code example below shows how to save a workbook as an MHTML file using C++:
 - [Set column width to scalable unit like em or percent](/cells/cpp/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Set Default Font while rendering spreadsheet to HTML](/cells/cpp/set-default-font-while-rendering-spreadsheet-to/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
-- [Support the layout of DIV tags while loading HTML to excel workbook](/cells/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+- [Support the layout of DIV tags while loading HTML to Excel workbook](/cells/cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 - [Enable CSS Custom Properties while saving to HTML](/cells/cpp/enable-css-custom-properties-while-saving-to-html/)

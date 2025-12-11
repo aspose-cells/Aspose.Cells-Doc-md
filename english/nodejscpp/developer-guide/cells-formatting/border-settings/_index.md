@@ -24,18 +24,18 @@ Aspose.Cells provides the [**getStyle**](https://reference.aspose.com/cells/node
 
 #### **Adding Borders to a Cell**  
 
-Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection. The border type is passed as an index to the [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection. All border types are pre-defined in the [**BorderType**](https://reference.aspose.com/cells/nodejs-cpp/bordertype) enumeration.  
+Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object's [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection. The border type is passed as an index to the [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection. All border types are pre‑defined in the [**BorderType**](https://reference.aspose.com/cells/nodejs-cpp/bordertype) enumeration.  
 
 **Border enumeration**  
 
-|**Border Types**|**Description**|  
-| :- | :- |  
-|BottomBorder|A bottom border line|  
-|DiagonalDown|A diagonal line from top left to right bottom|  
-|DiagonalUp|A diagonal line from bottom left to right top|  
-|LeftBorder|A left border line|  
-|RightBorder|A right border line|  
-|TopBorder|A top border line|  
+| **Border Types** | **Description** |
+| :- | :- |
+| BottomBorder | A bottom border line |
+| DiagonalDown | A diagonal line from top left to bottom right |
+| DiagonalUp | A diagonal line from bottom left to top right |
+| LeftBorder | A left border line |
+| RightBorder | A right border line |
+| TopBorder | A top border line |
 
 The [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection stores all borders. Each border in the [**borders**](https://reference.aspose.com/cells/nodejs-cpp/style/#getBorders--) collection is represented by a [**Border**](https://reference.aspose.com/cells/nodejs-cpp/border) object which provides two properties, [**setColor**](https://reference.aspose.com/cells/nodejs-cpp/border/#setColor-color-) and [**setLineStyle**](https://reference.aspose.com/cells/nodejs-cpp/border/#setLineStyle-cellbordertype-) to set a border's line color and style respectively.  
 
@@ -45,22 +45,23 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 
 **CellBorderType enumeration**  
 
-|**Line Styles**|**Description**|  
-| :- | :- |  
-|DashDot|Thin dash-dotted line|  
-|DashDotDot|Thin dash-dot-dotted line|  
-|Dashed|Dashed line|  
-|Dotted|Dotted line|  
-|Double|Double line|  
-|Hair|Hairline|  
-|MediumDashDot|Medium dash-dotted line|  
-|MediumDashDotDot|Medium dash-dot-dotted line|  
-|MediumDashed|Medium dashed line|  
-|None|No line|  
-|Medium|Medium line|  
-|SlantedDashDot|Slanted medium dash-dotted line|  
-|Thick|Thick line|  
-|Thin|Thin line|  
+| **Line Styles** | **Description** |
+| :- | :- |
+| DashDot | Thin dash‑dotted line |
+| DashDotDot | Thin dash‑dot‑dotted line |
+| Dashed | Dashed line |
+| Dotted | Dotted line |
+| Double | Double line |
+| Hair | Hairline |
+| MediumDashDot | Medium dash‑dotted line |
+| MediumDashDotDot | Medium dash‑dot‑dotted line |
+| MediumDashed | Medium dashed line |
+| None | No line |
+| Medium | Medium line |
+| SlantedDashDot | Slanted medium dash‑dotted line |
+| Thick | Thick line |
+| Thin | Thin line |
+
 Select one of the line styles and then assign it to the [**Border**](https://reference.aspose.com/cells/nodejs-cpp/border) object's [**lineStyle**](https://reference.aspose.com/cells/nodejs-cpp/border/#setLineStyle-cellbordertype-) property.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AddBordersToCell.js" >}}
@@ -71,20 +72,19 @@ You should set both line style and color at the same time. The two diagonal bord
 
 #### **Adding Borders to a Range of Cells**  
 
-It is also possible to add borders to a range of cells rather than just a single cell. To do so, first, create a range of cells by calling the [**cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method. It takes the following parameters:  
+It is also possible to add borders to a range of cells rather than just a single cell. To do so, first create a range of cells by calling the [**cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection's [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method. It takes the following parameters:  
 
-- First Row, the first row of the range.  
-- First Column, represents the first column of the range.  
-- Number of Rows, the number of rows in the range.  
-- Number of Columns, the number of columns in the range.  
+- **First Row** – the first row of the range.  
+- **First Column** – the first column of the range.  
+- **Number of Rows** – the number of rows in the range.  
+- **Number of Columns** – the number of columns in the range.  
 
 The [**createRange**](https://reference.aspose.com/cells/nodejs-cpp/cells/#createRange-string-string-) method returns a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object, which contains the specified range of cells. The [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range) object provides a [**setOutlineBorder**](https://reference.aspose.com/cells/nodejs-cpp/range/#setOutlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:  
 
-- **Border Type**, the border type, selected from the [**BorderType**](https://reference.aspose.com/cells/nodejs-cpp/bordertype) enumeration.  
-- **Line Style**, the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/nodejs-cpp/cellbordertype) enumeration.  
-- **Color**, the line color, selected from the Color enumeration.  
+- **Border Type** – the border type, selected from the [**BorderType**](https://reference.aspose.com/cells/nodejs-cpp/bordertype) enumeration.  
+- **Line Style** – the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/nodejs-cpp/cellbordertype) enumeration.  
+- **Color** – the line color, selected from the Color enumeration.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-AddBordersToRange.js" >}}
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

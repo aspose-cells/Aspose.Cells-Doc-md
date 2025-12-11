@@ -14,7 +14,6 @@ Migrating Excel files involves converting them from one format to another or upd
 1. Load the Excel file using the [Workbook](https://reference.aspose.com/cells/go-cpp/workbook/) class.
 2. Use the [Save](https://reference.aspose.com/cells/go-cpp/workbook/save_string_saveformat/) method to save the file in the desired format.
 
-
 ### **Handling Differences**
 
 When comparing or migrating Excel files, you may encounter differences in data, formulas, or formatting. Aspose.Cells for C++ provides various methods to handle these differences effectively.
@@ -22,7 +21,6 @@ When comparing or migrating Excel files, you may encounter differences in data, 
 - Use the [GetFormula](https://reference.aspose.com/cells/go-cpp/cell/getformula/) method to retrieve and compare formulas.
 - Use the [Calculate](https://reference.aspose.com/cells/go-cpp/abstractcalculationengine/calculate/) method to recalculate formulas if needed.
 - Use the [Column](https://reference.aspose.com/cells/go-cpp/column/) class to manage column-specific differences.
-
 
 ### **Conclusion**
 

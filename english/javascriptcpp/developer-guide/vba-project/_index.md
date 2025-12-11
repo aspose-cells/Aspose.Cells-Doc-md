@@ -10,7 +10,7 @@ description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for JavaSc
 ## **Add a VBA Module in JavaScript via C++**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for JavaScript via C++. Please use the [**Workbook.add(Worksheet)**](https://reference.aspose.com/cells/javascript-cpp/vbamodulecollection/#add-worksheet-) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for JavaScript via C++. Please use the [**Workbook.add(Worksheet)**](https://reference.aspose.com/cells/javascript-cpp/vbamodulecollection/#add-worksheet-) method to add the new VBA Module inside the workbook.
 
 {{% /alert %}}
 
@@ -89,7 +89,7 @@ Sub ShowMessage() {
 
 {{% alert color="primary" %}} 
 
-You can modify VBA or Macro Code using Aspose.Cells for JavaScript via C++. Aspose.Cells has added the following module and classes to read and modify the VBA project in the Excel file.
+You can modify VBA or Macro Code using Aspose.Cells for JavaScript via C++. Aspose.Cells has added the following modules and classes to read and modify the VBA project in the Excel file.
 
 - Aspose.Cells.Vba
 - VbaProject
@@ -172,7 +172,7 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
             }
 
             const outputData = workbook.save(SaveFormat.Xlsm);
-            const blob = new Blob([outputData]);
+            const blob = new Blob([outputData], { type: "application/vnd.ms-excel.sheet.macroEnabled.12" });
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
             downloadLink.download = 'output_out.xlsm';
@@ -185,7 +185,7 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add a library reference to VBA project in workbook](/cells/javascript-cpp/add-a-library-reference-to-vba-project-in-workbook/)
 - [Assign Macro to Form Control](/cells/javascript-cpp/assign-macro-to-form-control/)
 - [Check if Digital Signature of VBA Code is Valid](/cells/javascript-cpp/check-if-digital-signature-of-vba-code-is-valid/)

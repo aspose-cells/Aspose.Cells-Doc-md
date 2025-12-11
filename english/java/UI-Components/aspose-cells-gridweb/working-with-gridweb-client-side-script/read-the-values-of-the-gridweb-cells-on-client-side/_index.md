@@ -8,14 +8,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-You can read the values of GridWeb cells on client side script using the gridwebinstance.getCellsArray() method. Once, you will call it, it will return the array of all the cells in active worksheet. You can then use the following methods to retrieve the value and other information of the cells.
+You can read the values of GridWeb cells on client‑side script using the gridwebinstance.getCellsArray() method. Once you call it, it will return the array of all the cells in the active worksheet. You can then use the following methods to retrieve the value and other information of the cells.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
 ## **Read the values of the GridWeb cells on Client Side**
-The following sample code retrieves all the cells and then prints their name, value, row and column. You can see its console output at the bottom of this article. The following screenshot shows the console output of the sample code on Google Chrome.
+The following sample code retrieves all the cells and then prints their name, value, row, and column. You can see its console output at the bottom of this article. The following screenshot shows the console output of the sample code on Google Chrome.
 ## **Screenshot**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
@@ -79,7 +79,7 @@ out.println(gridweb.getHTMLHead());
 
 		var cells = gridwebins.getCellsArray();
 
-		// Log cell name, values, row & column indexes in console
+		// Log cell name, value, row & column indexes in console
 
 		for (var j = 0; j < cells.length; j++)
 

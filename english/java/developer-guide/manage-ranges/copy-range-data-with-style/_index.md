@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-[Copy Range Data Only](/cells/java/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with formatting. This article explains how.
+[Copy Range Data Only](/cells/java/copy-range-data-only/) explains how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with its formatting. This article explains how.
 
 {{% /alert %}} 
 ## **Copy Range Data with Style**
@@ -23,7 +23,7 @@ This example:
 1. Creates a style object with specified formatting attributes.
 1. Applies the style to the data range.
 1. Creates a second range of cells.
-1. Copies data with the formatting from the first range to the second range.
+1. Copies the data with formatting from the first range to the second range.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
 

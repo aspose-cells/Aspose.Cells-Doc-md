@@ -20,7 +20,7 @@ Encrypting a Microsoft Excel File
 
         $ptr = new \COM('Aspose.Cells.Interop.InteropHelper');
 
-        // Opening through Path
+        // Opening through a path
 
         // Creating a Workbook object and opening an Excel file using its file path
 
@@ -44,6 +44,6 @@ Encrypting a Microsoft Excel File
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Encrypting Files (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Encrypting Files (Aspose.Cells)** from any of the below-mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

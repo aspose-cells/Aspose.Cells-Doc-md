@@ -12,15 +12,15 @@ url: /javascript-cpp/showing-cell-range-as-the-data-labels/
 In Microsoft Excel 2013, you can display a cell range for data labels. Aspose.Cells for JavaScript via C++ supports this feature.
 {{% /alert %}}
 
-## **Check-box to Show Cell Range as Data Labels**
+## **Checkbox to Show Cell Range as Data Labels**
 
 To show the cell range as data labels in Microsoft Excel:
 
-1. Select the series data labels and right-click to open the context menu.  
-1. Select **Format Data Labels**. Label options are displayed.  
-1. Select or clear the option **Label Contains - Value From Cells**.  
+1. Select the series data labels and right‑click to open the context menu.  
+2. Select **Format Data Labels**. Label options are displayed.  
+3. Select or clear the option **Label Contains - Value From Cells**.  
 
-The sample code below accesses a chart series data labels and sets the [**DataLabels.showCellRange**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#showCellRange--) property to **true** to select the **Label Contains - Value From Cells** option.  
+The sample code below accesses a chart series' data labels and sets the [**DataLabels.showCellRange**](https://reference.aspose.com/cells/javascript-cpp/datalabels/#showCellRange--) property to **true** to enable the **Label Contains - Value From Cells** option.  
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ The sample code below accesses a chart series data labels and sets the [**DataLa
             // Access the chart inside the worksheet
             const chart = worksheet.charts.get(0);
 
-            // Check the "Label Contains - Value From Cells"
+            // Enable the "Label Contains - Value From Cells" option
             const dataLabels = chart.nSeries.get(0).dataLabels;
             dataLabels.showCellRange = true;
 

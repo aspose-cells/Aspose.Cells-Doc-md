@@ -1,5 +1,5 @@
 ---
-title: Page Break Preview in Php
+title: Page Break Preview in PHP
 type: docs
 weight: 60
 url: /java/page-break-preview-in-php/
@@ -8,31 +8,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Page Break Preview**
-To set worksheet to page break preview using **Aspose.Cells Java for PHP**, simply invoke **PageBreakPreview** module.
+To set a worksheet to page break preview using **Aspose.Cells Java for PHP**, simply invoke the **PageBreakPreview** module.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiating a Excel object by excel file path
-
+// Instantiating an Excel object using the Excel file path
 $workbook = new Workbook($dataDir . "book1.xls");
 
-//Adding a new worksheet to the Workbook object
-
+// Adding a new worksheet to the Workbook object
 $worksheets = $workbook->getWorksheets();
 
 $worksheet = $worksheets->get(0);
 
-//Displaying the worksheet in page break preview
-
+// Displaying the worksheet in page break preview
 $worksheet->setPageBreakPreview(true);
 
-//Saving the modified Excel file in default format
-
+// Saving the modified Excel file in default format
 $workbook->save($dataDir . "output.xls");
-
 {{< /highlight >}}
+
 ## **Download Running Code**
 Download **Page Break Preview (Aspose.Cells)** from any of the below mentioned social coding sites:
 

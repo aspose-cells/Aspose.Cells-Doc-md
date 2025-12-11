@@ -1,15 +1,15 @@
----
-title: Setting Shadow of Text Effects of Shape or TextBox with JavaScript via C++
-linktitle: Setting Shadow of Text Effects of Shape or TextBox
-type: docs
-weight: 250
-url: /javascript-cpp/setting-shadow-of-text-effects-of-shape-or-textbox/
-description: Learn how to set the shadow of text effects for any shape or TextBox using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Setting Shadow of Text Effects of Shape or TextBox with JavaScript via C++  
+linktitle: Setting Shadow of Text Effects of Shape or TextBox  
+type: docs  
+weight: 250  
+url: /javascript-cpp/setting-shadow-of-text-effects-of-shape-or-textbox/  
+description: Learn how to set the shadow of text effects for any shape or TextBox using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}  
 
-You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please use the [**Shape.textBody**](https://reference.aspose.com/cells/javascript-cpp/shape/#textBody--) property. It presents the setting of the shape's text and returns [**FontSetting**](https://reference.aspose.com/cells/javascript-cpp/fontsetting) objects. After accessing it, please set the **Shadow** via [**FontSetting.presetType**](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#presetType--) property. This property is of the type [**PresetShadowType**](https://reference.aspose.com/cells/javascript-cpp/presetshadowtype) which has several values. Some of these are  
+You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please use the [**Shape.textBody**](https://reference.aspose.com/cells/javascript-cpp/shape/#textBody--) property. It represents the settings of the shape's text and returns [**FontSetting**](https://reference.aspose.com/cells/javascript-cpp/fontsetting) objects. After accessing it, please set the **Shadow** via the [**FontSetting.presetType**](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#presetType--) property. This property is of the type [**PresetShadowType**](https://reference.aspose.com/cells/javascript-cpp/presetshadowtype), which has several values. Some of these are  
 
 - OffsetDiagonalBottomRight  
 - OffsetBottom  
@@ -21,7 +21,7 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 
 {{% /alert %}}  
 
-The following code snippet demonstrates the use of [**FontSetting.presetType**](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#presetType--) property to set shadow of text effects of Shape or TextBox.  
+The following code snippet demonstrates the use of the [**FontSetting.presetType**](https://reference.aspose.com/cells/javascript-cpp/shadoweffect/#presetType--) property to set the shadow of text effects of a Shape or TextBox.  
 
 ```html
 <!DOCTYPE html>
@@ -65,7 +65,7 @@ The following code snippet demonstrates the use of [**FontSetting.presetType**](
             // Set the text of the textbox
             tb.text = "This text has the following settings.\n\nText Effects > Shadow > Offset Bottom";
 
-            // Set all the text runs shadow to preset offset bottom
+            // Set all the text runs' shadow to the preset offset bottom
             const textBody = tb.textBody;
             for (let i = 0; i < textBody.count; i++) {
                 const textRun = textBody.get(i);

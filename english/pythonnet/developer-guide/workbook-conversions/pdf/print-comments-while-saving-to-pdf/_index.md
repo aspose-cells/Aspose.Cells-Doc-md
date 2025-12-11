@@ -1,33 +1,33 @@
----
-title: Print Comments while saving to PDF
-type: docs
-weight: 10
-url: /python-net/print-comments-while-saving-to-pdf/
-description: Learn how to Print Comments while saving to PDF with Aspose.Cells for Python via .NET API.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
-ai_search_scope: cells_pythonnet
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Print Comments while saving to PDF  
+type: docs  
+weight: 10  
+url: /python-net/print-comments-while-saving-to-pdf/  
+description: Learn how to print comments while saving to PDF with Aspose.Cells for Python via .NET API.  
+keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in Python, Render Comments while saving Excel to PDF  
+ai_search_scope: cells_pythonnet  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask" 
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options
+Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options  
 
-- None
-- At end of sheet
-- As displayed on sheet
+- None  
+- At end of sheet  
+- As displayed on sheet  
 
-Aspose.Cells for Python via .NET provide the [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum has the following members
+Aspose.Cells for Python via .NET **provides** the [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum has the following members  
 
-- PrintNoComments
-- PrintInPlace
-- PrintSheetEnd
+- PrintNoComments  
+- PrintInPlace  
+- PrintSheetEnd  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **Print Comments while saving to PDF**
+## **Print Comments while saving to PDF**  
 
-The following sample code illustrates how to use [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) to print comments while saving to PDF.
+The following sample code illustrates how to use [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) to print comments while saving to PDF.  
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}  
 {{< app/cells/assistant language="python-net" >}}

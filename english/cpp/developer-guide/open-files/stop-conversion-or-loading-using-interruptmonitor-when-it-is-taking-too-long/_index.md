@@ -11,19 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to stop the conversion of Workbook to various formats like PDF, HTML, etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) object when it is taking too long. The conversion process is often both CPU and Memory intensive, and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) both for stopping conversion as well as to stop loading huge workbooks. Please use [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/getinterruptmonitor/) property for stopping conversion and [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getinterruptmonitor/) property for loading huge workbooks.
+Aspose.Cells allows you to stop the conversion of a Workbook to various formats like PDF, HTML, etc., using the [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) object when it is taking too long. The conversion process is often both CPU‑ and memory‑intensive, and it is useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) both for stopping conversion as well as for stopping the loading of huge workbooks. Please use the [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/getinterruptmonitor/) property for stopping conversion and the [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getinterruptmonitor/) property for loading huge workbooks.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
-The following sample code explains the usage of the [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e., *more than 30 seconds*) to get it converted because of these lines of code.
+The following sample code explains the usage of the [**InterruptMonitor**](https://reference.aspose.com/cells/cpp/aspose.cells/interruptmonitor/) object. The code converts a quite large Excel file to PDF. It will take several seconds (i.e., *more than 30 seconds*) to get it converted because of these lines of code.
 
 ```cpp
 // Access cell J1000000 and add some text inside it.
-auto cell = ws->GetCells()->GetObjectByIndex("J1000000");
-cell->PutValue("This is text.");
+auto cell = ws.GetCells().GetObjectByIndex("J1000000");
+cell.PutValue("This is text.");
 ```
 
-As you see, **J1000000** is quite a farther cell in the XLSX file. However, the **WaitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds, and the program ends/terminates. Please use the following code to execute the sample code.
+As you see, **J1000000** is quite a far cell in the XLSX file. However, the **WaitForWhileAndThenInterrupt()** method interrupts the conversion after 10 seconds, and the program ends/terminates. Please use the following code to execute the sample code.
 
 ```cpp
 new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
@@ -53,13 +53,13 @@ private:
 
     std::atomic<bool> conversionCompleted{false};
 
-    // This function will create workbook and convert it to Pdf format
+    // This function will create a workbook and convert it to PDF format
     void CreateWorkbookAndConvertItToPdfFormat()
     {
         // Create a workbook object
         Workbook wb;
 
-        // Assign it InterruptMonitor object
+        // Assign it an InterruptMonitor object
         wb.SetInterruptMonitor(im);
 
         // Access first worksheet
@@ -71,7 +71,7 @@ private:
 
         try
         {
-            // Save the workbook to Pdf format
+            // Save the workbook to PDF format
             wb.Save(outputDir + u"output_InterruptMonitor.pdf");
 
             // Show successful message
@@ -92,7 +92,7 @@ private:
         }
     }
 
-    // This function will interrupt the conversion process after 10s
+    // This function will interrupt the conversion process after 10 seconds
     void WaitForWhileAndThenInterrupt()
     {
         auto start = chrono::steady_clock::now();

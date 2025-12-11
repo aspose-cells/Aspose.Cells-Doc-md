@@ -26,7 +26,7 @@ A pivot chart is a visual representation of the data in a pivot table. Pivot cha
 1. Filtering: They provide filtering capabilities, allowing you to display only the data that meets certain criteria.
 
 <br>
-Pivot charts are commonly used in business intelligence and data analysis to provide a clear and concise visual summary of complex data sets. They are a powerful tool for making data-driven decisions.
+Pivot charts are commonly used in business intelligence and data analysis to provide a clear and concise visual summary of complex data sets. They are a powerful tool for making data‑driven decisions.
 
 ## How to add a PivotChart using Aspose.Cells
 

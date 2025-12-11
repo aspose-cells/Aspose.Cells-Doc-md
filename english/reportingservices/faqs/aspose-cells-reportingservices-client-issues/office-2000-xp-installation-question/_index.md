@@ -8,7 +8,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ##### **Description**
-When Microsoft Excel 2002 or Microsoft Excel 2000 loads Aspose.Cells.ReportingServices.Client add-ins, Microsoft Excel produces an automation error.
+When Microsoft Excel 2002 or Microsoft Excel 2000 loads the Aspose.Cells.ReportingServices.Client add‑ins, Microsoft Excel produces an automation error.
+
 ##### **Solution**
 {{% alert color="primary" %}} 
 

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns etc., named and stored as a set. When applied, all of the formatting in that style are applied.
+To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns, etc., named and stored as a set. When applied, all of the formatting in that style **is** applied.
 
-You can also use an existing style, save it with the workbook and use it to format information with the same attributes.
+You can also use an existing style, save it with the workbook, and use it to format information with the same attributes.
 
-When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.
+When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style, including Comma, Currency, and Percent.
 
 Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.
 
@@ -23,23 +23,23 @@ Aspose.Cells allows modifying any of these styles or any other style that you de
 
 ## **Using Microsoft Excel**
 
-To update a style in Microsoft Excel 97-2003:
+To update a style in Microsoft Excel 97‑2003:
 
-1. On the **Format** menu, click **Style**.
-1. Select the style you want to modify from the **Style name** list.
-1. Click **Modify**.
-1. Select the style options that you want using the tabs in the Format Cells dialog.
-1. Click **OK**.
-1. Under **Style includes**, specify the style features you want.
-1. Click **OK** to save the style and apply it to the selected range.
+1. On the **Format** menu, click **Style**.  
+2. Select the style you want to modify from the **Style name** list.  
+3. Click **Modify**.  
+4. Select the style options that you want using the tabs in the Format Cells dialog.  
+5. Click **OK**.  
+6. Under **Style includes**, specify the style features you want.  
+7. Click **OK** to save the style and apply it to the selected range.
 
 ## **Using Aspose.Cells**
 
-The following examples demonstrate how to use [**Style.Update**](https://reference.aspose.com/cells/cpp/aspose.cells/style/update/) method.
+The following examples demonstrate how to use the [**Style.Update**](https://reference.aspose.com/cells/cpp/aspose.cells/style/update/) method.
 
 ### **Creating and Modifying a Style**
 
-This example creates a [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object, applies it to a range of cells and modifies the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object. The modifications are automatically applied to the cell and the range the style was applied to.
+This example creates a [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object, applies it to a range of cells, and modifies the [**Style**](https://reference.aspose.com/cells/cpp/aspose.cells/style/) object. The modifications are automatically applied to the cell and the range to which the style was applied.
 
 ```c++
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
     // Set the number format.
     style.SetNumber(14);
 
-    // Set the font color to red color.
+    // Set the font color to red.
     style.GetFont().SetColor(Color::Red());
 
     // Name the style.
@@ -70,13 +70,13 @@ int main()
     // Get the first worksheet cells.
     Cells cells = workbook.GetWorksheets().Get(0).GetCells();
 
-    // Specify the style (described above) to A1 cell.
+    // Specify the style (described above) to the A1 cell.
     cells.Get(u"A1").SetStyle(style);
 
     // Create a range (B1:D1).
     Range range = cells.CreateRange(u"B1", u"D1");
 
-    // Initialize styleflag object.
+    // Initialize a StyleFlag object.
     StyleFlag flag;
 
     // Set all formatting attributes on.
@@ -89,10 +89,10 @@ int main()
     style.GetFont().SetColor(Color::Black());
 
     // Done! Since the named style (described above) has been set to a cell and range,
-    // The change would be reflected (new modification is implemented) to cell (A1) and range (B1:D1).
+    // the change will be reflected to the cell (A1) and the range (B1:D1).
     style.Update();
 
-    // Save the excel file.
+    // Save the Excel file.
     U16String dataDir(u"..\\Data\\02_OutputDirectory\\");
     workbook.Save(dataDir + u"book_styles.out.xls");
 
@@ -104,13 +104,13 @@ int main()
 
 ### **Modifying an Existing Style**
 
-This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:
+This example uses a simple template Excel file in which a style called **Percent** has already been applied to a range. The example:
 
-1. gets the style,
-1. creates a style object and
-1. modifies the style formatting.
+1. gets the style,  
+2. creates a style object, and  
+3. modifies the style formatting.
 
-The modifications are automatically applied to the range the style was applied to.
+The modifications are automatically applied to the range to which the style was applied.
 
 ```c++
 #include <iostream>
@@ -125,14 +125,14 @@ int main() {
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputPath = srcDir + u"book1.xlsx";
 
     /*
      * Create a workbook.
-     * Open a template file. 
-     * In the book1.xlsx file, we have applied Ms Excel's 
-     * Named style i.e., "Percent" to the range "A1:C8".
+     * Open a template file.
+     * In the book1.xlsx file, we have applied Microsoft Excel's named style,
+     * i.e., "Percent", to the range A1:C8.
     */
     Workbook workbook(inputPath);
 
@@ -146,10 +146,10 @@ int main() {
     Color redColor = Color::Red();
     style.GetFont().SetColor(redColor);
 
-    // Update the style. so, the style of range "A1:C8" will be changed too.
+    // Update the style, so the style of range A1:C8 will also be changed.
     style.Update();
 
-    // Save the excel file.	
+    // Save the Excel file.
     U16String outputPath = srcDir + u"book2.out.xlsx";
     workbook.Save(outputPath);
 

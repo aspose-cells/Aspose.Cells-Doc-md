@@ -19,9 +19,9 @@ Overall, Dynamic Charts in Excel provide flexibility and efficiency in data visu
 
 ## **Use Aspose.Cells to create Dynamic Chart**  
 We can use Aspose.Cells for JavaScript via C++ to create Dynamic Charts in Excel files.  
-In the Advance topics, we will show you how to use Aspose.Cells to create dynamic charts.  
+In the Advanced topics, we will show you how to use Aspose.Cells to create dynamic charts.  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Create Dynamic Rolling Chart using Aspose.Cells](/cells/javascript-cpp/create-dynamic-rolling-chart/)  
 - [Create Dynamic Scrolling Chart using Aspose.Cells](/cells/javascript-cpp/create-dynamic-scrolling-chart/)  
-- [Create Dynamic Chart with Dropdownlist using Aspose.Cells](/cells/javascript-cpp/create-dynamic-chart-with-dropdownlist/)
+- [Create Dynamic Chart with Dropdown list using Aspose.Cells](/cells/javascript-cpp/create-dynamic-chart-with-dropdownlist/)

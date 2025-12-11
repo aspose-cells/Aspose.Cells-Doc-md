@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 ## **1. Filtering out series to render a chart**
 
 ### **Steps to filter series from a chart in Excel**
@@ -65,10 +64,10 @@ Filtering your data is a great way to handle chart filters with a lot of data. W
 
 ### **Steps to use Data Filters to change the chart in Excel**
 
-1. Click inside your data range.
-2. Click the **Data** tab, and turn on Filters by clicking Filters. Your header row will have drop down arrows.
-3. Create a chart by going to **Insert** tab and selecting a columns chart.
-4. Now filter your data using the drop down arrows in the data. Don't use the Chart Filters.
+1. Click inside your data range.  
+2. Click the **Data** tab, and turn on Filters. Your header row will have drop‑down arrows.  
+3. Create a chart by going to the **Insert** tab and selecting a column chart.  
+4. Now filter your data using the drop‑down arrows in your data. Don't use the Chart Filters.
 
 ### **Sample Code**
 The following sample code shows the same feature using Aspose.Cells.
@@ -86,7 +85,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 
 // Create an instance of Worksheet
 const sheet = workbook.getWorksheets().get("Sheet1");
-// Add data into details cells.
+// Add data into detail cells.
 sheet.getCells().get(0, 0).putValue("Fruits Name");
 sheet.getCells().get(0, 1).putValue("Fruits Price");
 sheet.getCells().get(1, 0).putValue("Apples");
@@ -117,16 +116,16 @@ workbook.save("Autofilter.xlsx");
 
 ## **3. Filter the data using a Table and let the chart change**
 
-Using a Table is similar to Method 2, using a range, but you have advantages with tables over ranges. When you change your range to a Table and add data, the chart automatically updates. With a range, you will have to change the data source.
+Using a Table is similar to Method 2, which uses a range, but you have advantages with tables over ranges. When you change your range to a Table and add data, the chart automatically updates. With a range, you will have to change the data source.
 
-### **Format as table in Excel**
+### **Format as Table in Excel**
 
-Click inside your data and use **CTRL + T** or use the Home tab, **Format as Table**
+Click inside your data and use **CTRL + T** or use the Home tab, **Format as Table**
 
 ![todo:image_alt_text](Figure4.png)
 
 ### **Sample Code**
-The following sample code loads the [sample Excel file](TableFilters.xlsx) shows the same feature using Aspose.Cells.
+The following sample code loads the [sample Excel file](TableFilters.xlsx) which shows the same feature using Aspose.Cells.
 
 ```javascript
 const path = require("path");
@@ -156,7 +155,7 @@ listObject.setShowTotals(false);
 listObject.getAutoFilter().addFilter(0, "James");
 // Apply the filters
 listObject.getAutoFilter().refresh();
-// After adding new value the chart will change
+// After adding the new value, the chart will change
 listObject.putCellValue(7, 0, "Me");
 listObject.putCellValue(7, 1, 1000);
 // Check the changed images

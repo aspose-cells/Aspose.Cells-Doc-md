@@ -3,7 +3,7 @@ title: Load a Web Image from a URL into an Excel Worksheet
 type: docs
 weight: 30
 url: /python-net/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: How to convert an Image from URL to actual Excel image? This article demonstrates achieving this using Python and the simple to use Aspose.Cells for Python via .NET API.
+description: How to convert an Image from URL to an actual Excel image? This article demonstrates achieving this using Python and the simple-to-use Aspose.Cells for Python via .NET API.
 keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, Python, Excel
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Load an Image from a URL into an Excel Worksheet
 
-Aspose.Cells for Python via .NET API provides a simple and easy way to load images from URLs into Excel Worksheets. This article explains downloading the image data into a stream and then inserting it into the worksheet using the Aspose.Cells for Python via .NET API. Using this method, the images becomes a part of the excel file and are not downloaded every time the worksheet is opened.
+Aspose.Cells for Python via .NET API provides a simple and easy way to load images from URLs into Excel Worksheets. This article explains downloading the image data into a stream and then inserting it into the worksheet using the Aspose.Cells for Python via .NET API. Using this method, the images become a part of the Excel file and are not downloaded every time the worksheet is opened.
 
 ## Sample Code
 

@@ -1,9 +1,9 @@
 ---
-title: How to Format Number to Scientific
+title: How to Format Numbers to Scientific Notation
 type: docs
 weight: 10
 url: /javascript-cpp/how-to-format-number-to-scientific/
-description: This article will introduce how to Format Number to Scientificusing Aspose.Cells for JavaScript via C++ API.
+description: This article will introduce how to format numbers to scientific notation using Aspose.Cells for JavaScript via C++ API.
 keywords: Convert a numeral to its scientific notation representation, Transform a figure into the format of scientific notation, Change a number to be expressed in the form of scientific notation, Format a numeric value into its equivalent scientific notation, Adapt a quantity to be displayed in scientific notation format, Format Number to Scientific
 ---
 
@@ -27,15 +27,15 @@ Formatting numbers to scientific notation in Excel is useful for several reasons
 In summary, formatting numbers to scientific notation in Excel is a practical approach to handling, presenting, and analyzing data that includes numbers with very large or very small values. It enhances clarity, ensures precision, and facilitates communication of quantitative information.
 
 ## **How to Format Number to Scientific in Excel**
-To format numbers as scientific notation in Excel, you can use the built-in formatting options. Scientific notation is a way of expressing numbers that are too big or too small to be conveniently written in decimal form. It is commonly used by scientists, mathematicians, and engineers. In Excel, this can be particularly useful for handling very large or very small numbers in your data.
+To format numbers in scientific notation in Excel, you can use the built‑in formatting options. Scientific notation is a way of expressing numbers that are too big or too small to be conveniently written in decimal form. It is commonly used by scientists, mathematicians, and engineers. In Excel, this can be particularly useful for handling very large or very small numbers in your data.
 
 Here's how you can format numbers to scientific notation in Excel:
 
 ### Using the Ribbon
 
-1. **Select the Cells**: First, select the cells that you want to format. You can click and drag to select multiple cells, or use Ctrl+Click to select non-adjacent cells.
+1. **Select the Cells**: First, select the cells that you want to format. You can click and drag to select multiple cells, or use Ctrl+Click to select non‑adjacent cells.
 
-2. **Open Format Cells Dialog**: With the cells selected, right-click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can go to the Home tab on the Ribbon, click on the small arrow in the bottom-right corner of the Number group to open the Format Cells dialog.
+2. **Open the Format Cells Dialog**: With the cells selected, right‑click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can go to the Home tab on the Ribbon, click on the small arrow in the bottom‑right corner of the Number group to open the Format Cells dialog.
 
 3. **Choose Scientific Format**: In the Format Cells dialog, click on the `Number` tab if it's not already selected. In the Category list, click on `Scientific`.
 
@@ -61,7 +61,7 @@ For an even faster method, you can use a keyboard shortcut:
 
 1. **Select the Cells**: Highlight the cells you wish to format.
 
-2. **Open Format Cells Dialog**: Press `Ctrl` + `1` to open the Format Cells dialog.
+2. **Open the Format Cells Dialog**: Press `Ctrl` + `1` to open the Format Cells dialog.
 
 3. **Choose Scientific Format**: Then, follow the same steps as described above to apply the scientific notation.
 
@@ -72,7 +72,7 @@ Formatting numbers to scientific notation in Excel is straightforward and can be
 ## **How to Format Number to Scientific in Aspose.Cells for JavaScript via C++**
 To format numbers to scientific notation in Aspose.Cells for JavaScript via C++, you can use the `Style.custom` property of a cell. Aspose.Cells allows you to define custom formatting for the data in your worksheets, including scientific notation.
 
-Here's a step-by-step guide on how to do it:
+Here's a step‑by‑step guide on how to do it:
 
 ### Step 1: Install Aspose.Cells
 
@@ -96,7 +96,6 @@ After formatting the cells as needed, don't forget to save your workbook. This w
 
 ### Sample Code
 
-Here's a code snippet demonstrating these steps:
 ```html
 <!DOCTYPE html>
 <html>

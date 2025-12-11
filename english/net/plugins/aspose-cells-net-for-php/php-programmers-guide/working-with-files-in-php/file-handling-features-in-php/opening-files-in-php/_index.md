@@ -31,6 +31,6 @@ Simply open a Microsoft Excel file by referencing the file's path
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Opening Files (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Opening Files (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

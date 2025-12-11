@@ -9,31 +9,31 @@ keywords: Sort data in ascending or descending order, Sort data based on the bac
 
 {{% alert color="primary" %}}
 
-Data sorting is one of Microsoft Excel's many useful features. It allows users to order data to make it easier to scan. Aspose.Cells for JavaScript via C++ lets developers sort worksheet data alphabetically or numerically which works in the same way as Microsoft Excel does to sort data.
+Data sorting is one of Microsoft Excel's many useful features. It allows users to order data to make it easier to scan. Aspose.Cells for JavaScript via C++ lets developers sort worksheet data alphabetically or numerically, which works in the same way as Microsoft Excel does to sort data.
 
 {{% /alert %}}
 
 ## **Sorting Data in Microsoft Excel**
 
-To sort data in Microsoft Excel:
+To sort data in Microsoft Excel:
 
-1. Select **Data** from the **Sort** menu. The Sort dialog will be displayed.
-1. Select a sorting option.
+1. Select **Data** from the **Sort** menu. The Sort dialog will be displayed.  
+2. Select a sorting option.
 
-Generally, sorting is performed on a list - defined as a contiguous group of data where the data is displayed in columns.
+Generally, sorting is performed on a list — defined as a contiguous group of data where the data is displayed in columns.
 
 ## **Sorting Data with Aspose.Cells**
 
-Aspose.Cells for JavaScript via C++ provides the [**DataSorter**](https://reference.aspose.com/cells/javascript-cpp/datasorter) class used to sort data in ascending or descending order. The class has some important members, for example, properties like Key1 ... Key3 and Order1 ... Order3. These members are used to define sorted keys and specify the key sort order.
+Aspose.Cells for JavaScript via C++ provides the [**DataSorter**](https://reference.aspose.com/cells/javascript-cpp/datasorter) class used to sort data in ascending or descending order. The class has some important members, for example, properties like **Key1** … **Key3** and **Order1** … **Order3**. These members are used to define sorted keys and specify the key sort order.
 
-You have to define keys and set the sort order before implementing data sorting. The class provides the [**DataSorter.sort**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sort-cells-cellarea-) method used to perform data sorting based on the cell data in a worksheet.
+You have to define keys and set the sort order before performing data sorting. The class provides the [**DataSorter.sort**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sort-cells-cellarea-) method used to perform data sorting based on the cell data in a worksheet.
 
-The [**DataSorter.sort**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sort-cells-cellarea-) method accepts the following parameters:
+The [**DataSorter.sort**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sort-cells-cellarea-) method accepts the following parameters:
 
-- [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells), the cells for the underlying worksheet.
-- [**CellArea**](https://reference.aspose.com/cells/javascript-cpp/cellarea), the range of cells. Define the cell area before applying data sorting.
+- [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells): the cells of the underlying worksheet.  
+- [**CellArea**](https://reference.aspose.com/cells/javascript-cpp/cellarea): the range of cells. Define the cell area before applying data sorting.
 
-This example uses the template file "Book1.xls" created in Microsoft Excel. After executing the code below, data is sorted appropriately.
+This example uses the template file **Book1.xls** created in Microsoft Excel. After executing the code below, data is sorted appropriately.
 
 ```html
 <!DOCTYPE html>
@@ -77,14 +77,14 @@ This example uses the template file "Book1.xls" created in Microsoft Excel. Afte
             // Instantiate a Workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Get the workbook datasorter object.
+            // Get the workbook DataSorter object.
             const sorter = workbook.dataSorter;
 
-            // Set the first order for datasorter object.
+            // Set the first order for DataSorter object.
             sorter.order1 = AsposeCells.SortOrder.Descending;
             // Define the first key.
             sorter.key1 = 0;
-            // Set the second order for datasorter object.
+            // Set the second order for DataSorter object.
             sorter.order2 = AsposeCells.SortOrder.Ascending;
             // Define the second key.
             sorter.key2 = 1;
@@ -103,7 +103,7 @@ This example uses the template file "Book1.xls" created in Microsoft Excel. Afte
             // Sort data in the specified data range (A1:B14)
             sorter.sort(workbook.worksheets.get(0).cells, ca);
 
-            // Save the excel file.
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -120,15 +120,15 @@ This example uses the template file "Book1.xls" created in Microsoft Excel. Afte
 
 {{% alert color="primary" %}}
 
-If you want to sort *LeftToRight*, use the [**DataSorter.sortLeftToRight**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sortLeftToRight-boolean-) attribute.
+If you want to sort *LeftToRight*, use the [**DataSorter.sortLeftToRight**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#sortLeftToRight-boolean-) method.
 
 {{% /alert %}}
 
-### **Sorting data with background color**
+### **Sorting Data with Background Color**
 
-Excel provides features to sort data based on the background color. The same feature is provided using Aspose.Cells for JavaScript via C++ using DataSorter where [**SortOnType**](https://reference.aspose.com/cells/javascript-cpp/sortontype/).CellColor can be used in [**DataSorter.addKey**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#addColorKey-number-sortontype-sortorder-color-) to sort data based on the background color. All the cells which contain specified color in the [**DataSorter.addKey**](https://reference.aspose.com/cells/javascript-cpp/datasorter/#addColorKey-number-sortontype-sortorder-color-), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
+Excel provides a feature to sort data based on the background color. The same feature is provided using Aspose.Cells for JavaScript via C++ through **DataSorter**, where **SortOnType.CellColor** can be used in **DataSorter.addKey** to sort data based on the cell’s background color. All the cells that contain the specified color in the **DataSorter.addKey** function are placed on the top or bottom according to the **SortOrder** setting, and the order of the remaining cells is not changed at all.
 
-Following are the sample files which can be downloaded for testing this feature:
+Following are the sample files that can be downloaded for testing this feature:
 
 [sampleBackGroundFile.xlsx](81920906.xlsx)
 
@@ -176,7 +176,7 @@ Following are the sample files which can be downloaded for testing this feature:
             // Instantiate workbook from uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access the data sorter (converted from getDataSorter())
+            // Access the DataSorter (converted from getDataSorter())
             const sorter = workbook.dataSorter;
 
             // Add key for second column for red color
@@ -200,6 +200,6 @@ Following are the sample files which can be downloaded for testing this feature:
 </html>
 ```
 
-## **Advance topics**
+## **Advanced Topics**
 - [Sort Data in Column with Custom Sort List](/cells/javascript-cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/javascript-cpp/specifying-sort-warning-while-sorting-data/)

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-In Excel, you can select multiple cells with a mouse box selection; the set of selected cells is called "Range".
+In Excel, you can select multiple cells with a mouse‑box selection; the set of selected cells is called a **Range**.
 
-For example, you can click the left mouse button in Cell "A1" of Excel and then drag to cell "C4". The rectangular area you selected can also be easily created as an object by using Aspose.Cells for Node.js via C++.
+For example, you can click the left mouse button in cell **A1** of Excel and then drag to cell **C4**. The rectangular area you selected can also be easily created as an object by using Aspose.Cells for Node.js via C++.
 
-Here is how to create a range, put a value, set a style, and perform more operations on the "Range" object.
+Here is how to create a range, put a value, set a style, and perform more operations on the **Range** object.
 
 ## **Managing Ranges Using Aspose.Cells for Node.js via C++**
 
@@ -23,7 +23,7 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 ### **Create Range**
 
-When you want to create a rectangular area that extends over A1:C4, you can use the following code:
+When you want to create a rectangular area that extends over **A1:C4**, you can use the following code:
 
 ```javascript
 const path = require("path");
@@ -40,11 +40,11 @@ const cells = workbook.getWorksheets().get(0).getCells();
 const range = cells.createRange("A1:C4");
 ```
 
-### **Put value into the Cells of the Range**
+### **Put value into the cells of the range**
 
-Say you have a range of cells that extends over A1:C4. The matrix makes 4 * 3 = 12 cells. The individual range cells are arranged sequentially: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
+Say you have a range of cells that extends over **A1:C4**. The matrix makes 4 × 3 = 12 cells. The individual range cells are arranged sequentially: `Range[0,0]`, `Range[0,1]`, `Range[0,2]`, `Range[1,0]`, `Range[1,1]`, `Range[1,2]`, `Range[2,0]`, `Range[2,1]`, `Range[2,2]`, `Range[3,0]`, `Range[3,1]`, `Range[3,2]`.
 
-The following example shows how to input some values into the cells of the Range.
+The following example shows how to input some values into the cells of the range.
 
 ```javascript
 const path = require("path");
@@ -71,9 +71,9 @@ range.get(3, 2).setValue("C4");
 workbook.save(filePath);
 ```
 
-### **Set style of the Cells of the Range**
+### **Set style of the cells of the range**
 
-The following example shows how to set the style of the cells of the Range.
+The following example shows how to set the style of the cells of the range.
 
 ```javascript
 const path = require("path");
@@ -82,16 +82,16 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
-// Creates a Workbook
+// Create a Workbook
 const workbook = new AsposeCells.Workbook();
-// Gets Cells
+// Get Cells
 const cells = workbook.getWorksheets().get(0).getCells();
-// Creates Range
+// Create Range
 const range = cells.createRange("A1:C4");
-// Puts value
+// Put value
 range.get(0, 0).setValue("A1");
 range.get(3, 2).setValue("C4");
-// Sets Style
+// Set style
 let style00 = workbook.createStyle();
 style00.setPattern(AsposeCells.BackgroundType.Solid);
 style00.setForegroundColor(new AsposeCells.Color(255, 0, 0)); // Red
@@ -100,25 +100,26 @@ let style32 = workbook.createStyle();
 style32.setPattern(AsposeCells.BackgroundType.HorizontalStripe);
 style32.setForegroundColor(new AsposeCells.Color(0, 255, 0)); // Green
 range.get(3, 2).setStyle(style32);
-// Saves the Workbook
+// Save the Workbook
 workbook.save("RangeStyleTest.xlsx");
 ```
 
-### **Get CurrentRegion of the Range**
+### **Get CurrentRegion of the range**
 
-CurrentRegion is a property that returns a Range object that represents the current region. 
+`CurrentRegion` is a property that returns a **Range** object that represents the current region.  
 
-The current region is a range bounded by any combination of blank rows and blank columns. Read-only.
+The current region is a range bounded by any combination of blank rows and blank columns. It is read‑only.
 
-In Excel, you can get the CurrentRegion area by:
-1. Select an area (range1) with the mouse box.
-2. Click "Home - Editing - Find & Select - Go To Special - Current region", or use "Ctrl+Shift+*", you will see Excel automatically helps you select an area (range2). Now you made it, range2 is the CurrentRegion of range1.
+In Excel, you can get the **CurrentRegion** area by:
 
-Please download the following test file, open it in Excel, use the mouse box to select an area "A1:D7", then click "Ctrl+Shift+*", you will see area "A1:C3" selected.
+1. Selecting an area (range1) with the mouse box.  
+2. Clicking **Home → Editing → Find & Select → Go To Special → Current region**, or using **Ctrl + Shift + ***. Excel will automatically select an area (range2). Now you have made it; range2 is the **CurrentRegion** of range1.
+
+Please download the following test file, open it in Excel, use the mouse box to select an area **A1:D7**, then press **Ctrl + Shift + ***; you will see area **A1:C3** selected.
 
 [current_region.xlsx](current_region.xlsx)
 
-Now please run the following example to see how it works in Aspose.Cells:
+Now run the following example to see how it works in Aspose.Cells:
 
 ```javascript
 const path = require("path");
@@ -137,8 +138,7 @@ const src = cells.createRange("A1:D7");
 const A1C3 = src.getCurrentRegion();
 ```
 
-
-## **Advance topics**
+## **Advanced topics**
 - [AutoFill range of Excel file](/cells/nodejs-cpp/autofill-ranges/)
 - [Copy Ranges of Excel](/cells/nodejs-cpp/copy-ranges-of-Excel/)
 - [Copy Range Data Only](/cells/nodejs-cpp/copy-range-data-only/)

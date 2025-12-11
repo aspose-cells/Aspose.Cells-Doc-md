@@ -1,10 +1,10 @@
 ---
-title: Manage VBA codes of Excel Macro-Enabled workbook
+title: Manage VBA Codes of Excel Macro‑Enabled Workbook
 linktitle: Macro Project
 type: docs
 weight: 200
 url: /nodejs-cpp/manage-vba-project/
-description: Add VBA Module and Modify VBA or Macro with Aspose.Cells for Node.js via C++.
+description: Add VBA Module and modify VBA or macro with Aspose.Cells for Node.js via C++.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Add a VBA Module in Node.js**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells for Node.js via C++. Please use the [**Workbook.add(Worksheet)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#add-worksheet-) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA module and macro code using Aspose.Cells for Node.js via C++. Please use the [**Workbook.add(Worksheet)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#add-worksheet-) method to add the new VBA module inside the workbook.
 
 {{% /alert %}}
 
-The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named "TestModule" and inside it, you will see the following macro code.
+The following sample code creates a new workbook and adds a new VBA module and macro code and saves the output in the XLSM format. Once you open the output XLSM file in Microsoft Excel and click the **Developer > Visual Basic** menu commands, you will see a module named **TestModule** and inside it, you will see the following macro code.
 
 {{< highlight javascript >}}
 Sub ShowMessage() {
@@ -24,7 +24,7 @@ Sub ShowMessage() {
 }
 {{< /highlight >}}
 
-Here is the sample code to generate the output XLSM file with VBA Module and Macro Code.
+Here is the sample code to generate the output XLSM file with a VBA module and macro code.
 
 ```javascript
 const path = require("path");
@@ -58,18 +58,18 @@ workbook.save(path.join(dataDir, "output_out.xlsm"), AsposeCells.SaveFormat.Xlsm
 
 {{% alert color="primary" %}} 
 
-You can modify VBA or Macro Code using Aspose.Cells for Node.js via C++. Aspose.Cells has added the following module and classes to read and modify the VBA project in the Excel file.
+You can modify VBA or macro code using Aspose.Cells for Node.js via C++. Aspose.Cells has added the following modules and classes to read and modify the VBA project in the Excel file.
 
 - Aspose.Cells.Vba
 - VbaProject
 - VbaModuleCollection
 - VbaModule
 
-This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells.
+This article will show you how to change the VBA or macro code inside the source Excel file using Aspose.Cells.
 
 {{% /alert %}} 
 
-The following sample code loads the source Excel file which has the following VBA or Macro code inside it
+The following sample code loads the source Excel file which has the following VBA or macro code inside it:
 
 {{< highlight javascript >}}
 Sub Button1_Click() {
@@ -77,7 +77,7 @@ Sub Button1_Click() {
 }
 {{< /highlight >}}
 
-After the execution of Aspose.Cells sample code, the VBA or Macro code will be modified like this
+After the execution of the Aspose.Cells sample code, the VBA or macro code will be modified as follows:
 
 {{< highlight javascript >}}
 Sub Button1_Click() {
@@ -93,6 +93,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
+
 // Create workbook object from source Excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsm"));
 
@@ -100,21 +101,19 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "sample.xlsm"));
 const modules = workbook.getVbaProject().getModules();
 const moduleCount = modules.getCount();
 for (let i = 0; i < moduleCount; i++) {
-const module = modules.get(i);
-const code = module.getCodes();
-if (code.includes("This is test message.")) 
-{
-code = code.replace("This is test message.", "This is Aspose.Cells message.");
-module.setCodes(code);
+    const module = modules.get(i);
+    const code = module.getCodes();
+    if (code.includes("This is test message.")) {
+        const updatedCode = code.replace("This is test message.", "This is Aspose.Cells message.");
+        module.setCodes(updatedCode);
+    }
 }
-}
-
 
 // Save the output Excel file
 workbook.save(path.join(dataDir, "output_out.xlsm"));
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add a library reference to VBA project in workbook](/cells/nodejs-cpp/add-a-library-reference-to-vba-project-in-workbook/)
 - [Assign Macro to Form Control](/cells/nodejs-cpp/assign-macro-to-form-control/)
 - [Check if Digital Signature of VBA Code is Valid](/cells/nodejs-cpp/check-if-digital-signature-of-vba-code-is-valid/)

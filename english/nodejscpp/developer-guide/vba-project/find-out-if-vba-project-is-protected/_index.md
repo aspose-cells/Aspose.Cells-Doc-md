@@ -10,11 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Find out if VBA Project is Protected in Node.js**
 
-You can find if the VBA (Visual Basic Applications) Project of your Excel file is protected or not with Aspose.Cells using [**VbaProject.isProtected()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isProtected--) property.
+You can determine whether the VBA (Visual Basic for Applications) Project of your Excel file is protected using Aspose.Cells via the [**VbaProject.isProtected()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isProtected--) property.
 
 ## **Sample Code**
 
-The following sample code creates a workbook and then checks if its VBA project is protected or not. Then it protects the VBA project and again checks if its VBA project is protected or not. Please see its console output for a reference. Before protection, [**VbaProject.isProtected()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isProtected--) returns **false** but after protection, it returns **true**.
+The following sample code creates a workbook and then checks if its VBA project is protected. It then protects the VBA project and checks again. Please see the console output for reference. Before protection, [**VbaProject.isProtected()**](https://reference.aspose.com/cells/nodejs-cpp/vbaproject/#isProtected--) returns **false**, but after protection, it returns **true**.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -37,13 +37,12 @@ console.log("IsProtected - After Protecting VBA Project: " + vbaProj.isProtected
 
 ## **Console Output**
 
-This is the console output of the above sample code for a reference.
+This is the console output of the above sample code for reference.
 
-{{< highlight java >}}
-
+{{< highlight javascript >}}
 IsProtected - Before Protecting VBA Project: False
 
 IsProtected - After Protecting VBA Project: True
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

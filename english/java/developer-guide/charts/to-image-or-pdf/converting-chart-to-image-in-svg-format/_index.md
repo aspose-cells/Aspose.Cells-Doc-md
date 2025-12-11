@@ -27,7 +27,7 @@ The following screenshot shows the converted chart image in SVG format created w
 
 Because SVG is an XML-based format, you can also open the output chart image in a text editor like Notepad as shown in this screenshot.
 
-**Output SCG in a text editor** 
+**Output SVG in a text editor** 
 
 ![todo:image_alt_text](converting-chart-to-image-in-svg-format_2.png)
 

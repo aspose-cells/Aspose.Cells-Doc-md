@@ -7,7 +7,7 @@ url: /go-cpp/chart-rendering/
 
 ## **Creating Charts**
 
-Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](/cells/cpp/creating-and-customizing-charts/). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per following snippet.
+Aspose.Cells APIs support creating a variety of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](/cells/cpp/creating-and-customizing-charts/). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per the following snippet.
 
 {{< highlight cpp >}}
 
@@ -55,11 +55,11 @@ Aspose::Cells::Cleanup();
 
 ## **Rendering Charts**
 
-Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide the rendering support, the Chart class has exposed ToImage & ToPdf methods with a verity of overloads to best suit the application requirements.
+Aspose.Cells APIs support converting the Excel charts to images and PDF formats without requiring any additional tools or applications. To provide the rendering support, the Chart class has exposed ToImage & ToPdf methods with a variety of overloads to best suit the application requirements.
 
 ### **Rendering Charts to Images**
 
-The Chart.toImage method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you to use the Chart.toImage method as follow.
+The Chart.ToImage method has a variety of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the Chart.ToImage method as follows.
 
 {{< highlight cpp >}}
 
@@ -73,7 +73,7 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 ### **Rendering Chart to PDF**
 
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the Chart.ToPdf method with ability to store the resultant PDF on disc path or Stream.
+In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the Chart.ToPdf method with the ability to store the resultant PDF on a disc path or stream.
 
 {{< highlight cpp >}}
 
@@ -87,7 +87,7 @@ chart.ToPdf(outputPdfFile);
 
 ## **Supported Chart Types for Rendering**
 
-There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of below table.
+There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of the table below.
 
 |**Chart type**|**Chart sub-type**|**Supported**|
 | :- | :- | :- |
@@ -175,6 +175,6 @@ There are a few chart types that are currently not supported for rendering. Such
 
 {{% alert color="primary" %}}
 
-In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
+In case you try to render the non‑supported chart types to image or PDF, you may end up with zero‑sized images or a blank PDF.
 
 {{% /alert %}}

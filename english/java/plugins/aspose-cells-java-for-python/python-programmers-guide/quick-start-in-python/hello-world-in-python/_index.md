@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hello World**
-Hello World using Aspose.Cells Java in Python, simply invoke the HelloWorld() method of Document class and specify the second document to append at end.
+Hello World using Aspose.Cells for Java in Python. Simply invoke the HelloWorld() method of the Document class and specify the second document to append at the end.
 
 **Python Code**
 
@@ -29,7 +29,8 @@ workbook.save(self.dataDir + "HelloWorld.xls" , file_format_type.EXCEL_97_TO_200
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Hello World (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Hello World (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -9,7 +9,7 @@ keywords: JavaScript use excel built in styles, JavaScript programmatically appl
 ---
 
 {{% alert color="primary" %}}  
-Aspose.Cells provides a vast collection of re-usable styles to format a cell in spreadsheet document. We can use built-in styles in our workbook and also create custom styles.  
+Aspose.Cells provides a vast collection of reusable styles to format a cell in a spreadsheet document. You can use built‑in styles in your workbook and also create custom styles.  
 {{% /alert %}}  
 
 ## **How to use Built-in Styles**  

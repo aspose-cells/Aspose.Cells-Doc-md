@@ -3,7 +3,7 @@ title: Apply Superscript and Subscript Effects on Fonts
 type: docs
 weight: 30
 url: /java/apply-superscript-and-subscript-effects-on-fonts/
-description: How to apply superscript and subscript effect to text in excel with Java. This article provides the Java code to achieve just that with the use of Aspose.Cells for Java API.
+description: How to apply superscript and subscript effects to text in Excel with Java. This article provides the Java code to achieve this using Aspose.Cells for Java API.
 keywords: excel superscript java, excel subscript java, excel superscript and subscript java, insert subscript and superscript in excel java, add subscript and superscript in excel java, add superscript and subscript excel java, add superscript excel java, add subscript excel java
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -19,7 +19,7 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 Apply the superscript effect using the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#isSuperscript--) property. To apply subscript, use the [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#setSubscript-boolean-) method.
 
-The following code examples show how to apply super- and subscript to text.
+The following code examples show how to apply superscript and subscript to text.
 
 ### **Applying Superscript**
 

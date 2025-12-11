@@ -9,7 +9,7 @@ description: Learn how to retrieve the cell object by the display name of a pivo
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides the [**PivotTable::GetCellByDisplayName()**](https://reference.aspose.com/cells/go-cpp/pivottable/getcellbydisplayname/) method, which you can use to access the cell object by the display name of a pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of a data field and then apply formatting to it.
+Aspose.Cells provides the [**PivotTable::GetCellByDisplayName()**](https://reference.aspose.com/cells/go-cpp/pivottable/getcellbydisplayname/) method, which you can use to access the cell object by the display name of a pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of a pivot field and then apply formatting to it.
 
 {{% /alert %}}
 

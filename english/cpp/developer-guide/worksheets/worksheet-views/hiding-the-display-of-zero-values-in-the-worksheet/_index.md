@@ -5,7 +5,7 @@ type: docs
 weight: 50
 url: /cpp/hiding-the-display-of-zero-values-in-the-worksheet/
 description: This article will show you sample code explaining how to programmatically hide the zero values in an Excel spreadsheet using the C++ library or API.
-keywords: hide zero values of excel worksheet in C++
+keywords: hide zero values of Excel worksheet in C++
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -16,11 +16,11 @@ Sometimes, you need to hide zero values in a spreadsheet. It might be a personal
 
 {{% /alert %}} 
 
-To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Excel 2003):
+To hide zero values in a worksheet in Microsoft Excel (for example, Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**, and then select the **View** tab.
-1. Deselect the **Zero values** option.
-1. Click **OK**.
+2. Deselect the **Zero values** option.
+3. Click **OK**.
 
 Please see the following sample code that demonstrates hiding zeros using Aspose.Cells.
 
@@ -35,16 +35,16 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    //Source directory path
+    // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    //Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xlsx";
 
     // Create a new Workbook object
     Workbook workbook(inputFilePath);
 
-    // Get First worksheet of the workbook
+    // Get first worksheet of the workbook
     Worksheet sheet = workbook.GetWorksheets().Get(0);
 
     // Hide the zero values in the sheet

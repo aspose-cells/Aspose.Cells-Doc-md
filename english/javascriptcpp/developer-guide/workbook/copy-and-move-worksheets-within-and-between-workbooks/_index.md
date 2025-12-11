@@ -23,23 +23,24 @@ The initial steps are the same for all examples.
 
 1. Create two workbooks with some data in Microsoft Excel. For the purposes of this example, we created two new workbooks in Microsoft Excel and input some data into the worksheets.
 
-- FirstWorkbook.xlsx (3 worksheets).
+- FirstWorkbook.xlsx (3 worksheets).  
 - SecondWorkbook.xlsx (1 worksheet).
 
-1. Download and install Aspose.Cells:
-   1. [Download Aspose.Cells for JavaScript via C++](https://downloads.aspose.com/cells/javascript-cpp).
-   1. Install it on your development computer.
-      All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
-1. Create a project:
-   1. Start your development environment.
-   1. Create a new console application.
-1. Add references:
-   1. Add a reference to Aspose.Cells to the project.
-      For example, add a reference to ...\Program Files\Aspose\Aspose.Cells\Bin\NodeJs\Aspose.Cells.dll
-1. Copy the worksheet within a workbook
-   The first example copies the first worksheet (Copy) within FirstWorkbook.xlsx.
+2. Download and install Aspose.Cells:  
+   1. [Download Aspose.Cells for JavaScript via C++](https://downloads.aspose.com/cells/javascript-cpp).  
+   2. Install it on your development computer. All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 
-When executing the code, the worksheet named Copy is copied within FirstWorkbook.xlsx with the name Last Sheet.
+3. Create a project:  
+   1. Start your development environment.  
+   2. Create a new console application.
+
+4. Add references:  
+   1. Add a reference to Aspose.Cells to the project. For example, add a reference to `...\Program Files\Aspose\Aspose.Cells\Bin\NodeJs\Aspose.Cells.dll`.
+
+5. Copy the worksheet within a workbook.  
+   The first example copies the first worksheet (**Copy**) within **FirstWorkbook.xlsx**.
+
+When executing the code, the worksheet named **Copy** is copied within **FirstWorkbook.xlsx** with the name **Last Sheet**.
 
 ```html
 <!DOCTYPE html>
@@ -84,7 +85,7 @@ When executing the code, the worksheet named Copy is copied within FirstWorkbook
             // Opening the Excel file through the file stream
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Copy the first sheet of the first book within the workbook
+            // Copy the first sheet of the first workbook within the workbook
             workbook.worksheets.get(2).copy(workbook.worksheets.get("Copy"));
 
             // Saving the modified Excel file
@@ -104,7 +105,7 @@ When executing the code, the worksheet named Copy is copied within FirstWorkbook
 
 ### **Moving a Worksheet within a Workbook**
 
-The code below shows how to move a worksheet from one position in a workbook to another. Executing the code moves the worksheet called Move from index 1 to index 2 in FirstWorkbook.xlsx.
+The code below shows how to move a worksheet from one position in a workbook to another. Executing the code moves the worksheet called **Move** from index 1 to index 2 in **FirstWorkbook.xlsx**.
 
 ```html
 <!DOCTYPE html>
@@ -170,7 +171,7 @@ The code below shows how to move a worksheet from one position in a workbook to 
 
 ### **Copying a Worksheet between Workbooks**
 
-Executing the code copies the worksheet named Copy into SecondWorkbook.xlsx with the name Sheet2.
+Executing the code copies the worksheet named **Copy** into **SecondWorkbook.xlsx** with the name **Sheet2**.
 
 ```html
 <!DOCTYPE html>
@@ -210,10 +211,10 @@ Executing the code copies the worksheet named Copy into SecondWorkbook.xlsx with
             // Create source worksheet
             excelWorkbook3.worksheets.add("Copy");
 
-            // Add new worksheet into second Workbook
+            // Add a new worksheet into the second workbook
             excelWorkbook4.worksheets.add();
 
-            // Copy the first sheet of the first book into second book.
+            // Copy the first sheet of the first workbook into the second workbook.
             excelWorkbook4.worksheets.get(1).copy(excelWorkbook3.worksheets.get("Copy"));
 
             // Save the file.
@@ -233,7 +234,7 @@ Executing the code copies the worksheet named Copy into SecondWorkbook.xlsx with
 
 ### **Moving a Worksheet between Workbooks**
 
-Executing the code moves the worksheet named Move from FirstWorkbook.xlsx to SecondWorkbook.xlsx with the name Sheet3.
+Executing the code moves the worksheet named **Move** from **FirstWorkbook.xlsx** to **SecondWorkbook.xlsx** with the name **Sheet3**.
 
 ```html
 <!DOCTYPE html>
@@ -270,13 +271,13 @@ Executing the code moves the worksheet named Move from FirstWorkbook.xlsx to Sec
             const excelWorkbook5 = new Workbook();
             const excelWorkbook6 = new Workbook();
 
-            // Add New Worksheet
+            // Add a new worksheet to the second workbook
             excelWorkbook6.worksheets.add();
 
-            // Copy the sheet from first book into second book.
+            // Copy the sheet from the first workbook into the second workbook.
             excelWorkbook6.worksheets.get(0).copy(excelWorkbook5.worksheets.get(0));
 
-            // Remove the copied worksheet from first workbook
+            // Remove the copied worksheet from the first workbook
             excelWorkbook5.worksheets.removeAt(0);
 
             // Save the first workbook

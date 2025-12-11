@@ -4,14 +4,14 @@ linktitle: Timelines
 type: docs
 weight: 170
 url: /java/create-timeline/
-description: Learn how to create a timeline with Aspose.Cells For java.
+description: Learn how to create a timeline with Aspose.Cells for Java.
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Instead of adjusting filters to show dates, you can use a PivotTable Timeline——a dynamic filter option that lets you easily filter by date/time, and zoom in on the period you want with a slider control. Microsoft Excel allows you to create timeline by selecting a pivot table and then clicking the *Insert > Timeline*. Aspose.Cells for java also allows you to create timeline using the [**Worksheet.getTimelines.add()**] method.
+Instead of adjusting filters to show dates, you can use a PivotTable Timeline—a dynamic filter option that lets you easily filter by date/time and zoom in on the period you want with a slider control. Microsoft Excel allows you to create a timeline by selecting a pivot table and then clicking *Insert > Timeline*. Aspose.Cells for Java also allows you to create a timeline using the [**Worksheet.getTimelines.add()**] method.
 
 ## **Create Timeline to a Pivot Table**
 

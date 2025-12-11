@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Copying Rows and Columns**
 ### **Copying Rows**
-Aspose.Cells provides the copyRow method of the Cells class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.
+Aspose.Cells provides the copyRow method of the Cells class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.
 
-The copyRow method takes the following parameters:
+The copyRow method takes the following parameters:
 
-- the source Cells object,
+- the source Cells object,
 - the source row index, and
 - the destination row index.
 
@@ -25,7 +25,7 @@ The copyRow method takes the following parameters:
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -33,9 +33,9 @@ The copyRow method takes the following parameters:
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Copy the second row with data, formattings, images and drawing objects
+    # Copy the second row with data, formatting, images and drawing objects
 
-    # to the 12th row in the $worksheet->
+    # to the 12th row in the worksheet
 
     $worksheet->getCells()->copyRow($worksheet->getCells(),1,11);
 
@@ -49,11 +49,11 @@ The copyRow method takes the following parameters:
 
 {{< /highlight >}}
 ### **Copying Columns**
-Aspose.Cells provides the copyColumn method of the Cells class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
+Aspose.Cells provides the copyColumn method of the Cells class. This method copies all types of data, including formulas—with updated references—and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
 
-The copyColumn method takes the following parameters:
+The copyColumn method takes the following parameters:
 
-- the source Cells object,
+- the source Cells object,
 - source column index, and
 - the destination column index.
 
@@ -65,7 +65,7 @@ The copyColumn method takes the following parameters:
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by Excel file path
 
     $workbook = new Workbook();
 
@@ -128,6 +128,6 @@ The copyColumn method takes the following parameters:
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Copying Rows and Columns (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Copying Rows and Columns (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

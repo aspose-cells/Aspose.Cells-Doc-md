@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.8.3 to 8.9.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.8.3 to 8.9.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added HtmlSaveOptions.DefaultFontName Property**
-Aspose.Cells for .NET 8.9.0 has exposed the DefaultFontName property for the HtmlSaveOptions class that allows to specify the default font name while rendering spreadsheets to HTML format. The default font will be used only when the font of style does not exist. The default value of HtmlSaveOptions.DefaultFontName property is null that means, Aspose.Cells for .NET API will use the universal font which has the same family with the original font.
+Aspose.Cells for .NET 8.9.0 has exposed the DefaultFontName property for the HtmlSaveOptions class that allows specifying the default font name while rendering spreadsheets to HTML format. The default font will be used only when the font specified in the style does not exist. The default value of HtmlSaveOptions.DefaultFontName property is null, which means Aspose.Cells for .NET API will use a universal font that has the same family as the original font.
 
 {{% alert color="primary" %}} 
 
@@ -48,11 +48,11 @@ book.Save(dir + "output.html", options);
 
 
 ### **Added ImageOrPrintOptions.DefaultFont Property**
-Aspose.Cells for .NET 8.9.0 allows to set the default font name for the ImageOrPrintOptions class by exposing the DefaultFont property. The said property can be used when Unicode characters in the spreadsheet are not set with correct font in cell style therefore such characters may appear as blocks in the resultant images.
+Aspose.Cells for .NET 8.9.0 allows setting the default font name for the ImageOrPrintOptions class by exposing the DefaultFont property. The property can be used when Unicode characters in the spreadsheet are not assigned the correct font in the cell style; otherwise, such characters may appear as blocks in the resulting images.
 
 {{% alert color="primary" %}} 
 
-Set the DefaultFont property to MingLiu or MS Gothic to show Unicode characters. If the said property is not set, Aspose.Cells will use the system's default font to show Unicode characters.
+Set the DefaultFont property to MingLiu or MS Gothic to show Unicode characters. If the property is not set, Aspose.Cells will use the system's default font to show Unicode characters.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -94,7 +94,7 @@ render.ToImage(0, dir + "output.png");
 
 
 ### **Added PivotTable.IsExcel2003Compatible Property**
-Aspose.Cells for .NET API has exposed the Boolean type IsExcel2003Compatible property for the PivotTable class which allows to specify if the PivotTable is Excel 2003 compatible for refreshing purposes. The default value of IsExcel2003Compatible property is true, that means a string must be less than or equal to 255 characters. If the string is greater than 255 characters, it will be truncated. If false, the aforementioned restriction will not be imposed.
+Aspose.Cells for .NET API has exposed the Boolean-type IsExcel2003Compatible property for the PivotTable class, which allows specifying if the PivotTable is Excel 2003 compatible for refreshing purposes. The default value of the IsExcel2003Compatible property is true, which means a string must be less than or equal to 255 characters. If the string is greater than 255 characters, it will be truncated. If false, the aforementioned restriction will not be imposed.
 
 {{% alert color="primary" %}} 
 
@@ -130,5 +130,5 @@ pivot.CalculateData();
 
 
 ### **Added GridWeb.GetVersion Method**
-Aspose.Cells.GridWeb for .NET 8.9.0 has exposed the {GetVersion}} factory method which returns the release version of the GridWeb component.
+Aspose.Cells.GridWeb for .NET 8.9.0 has exposed the GetVersion() method which returns the release version of the GridWeb component.
 {{< app/cells/assistant language="csharp" >}}

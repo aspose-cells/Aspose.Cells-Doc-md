@@ -4,7 +4,7 @@ linktitle: How to Format Number to Scientific
 type: docs
 weight: 10
 url: /go-cpp/how-to-format-number-to-scientific/
-description: This article will introduce how to Format Number to Scientific using Aspose.Cells for C++ API.
+description: This article will introduce how to format a number to scientific notation using Aspose.Cells for C++ API.
 keywords: Convert a numeral to its scientific notation representation, Transform a figure into the format of scientific notation, Change a number to be expressed in the form of scientific notation, Format a numeric value into its equivalent scientific notation, Adapt a quantity to be displayed in scientific notation format, Format Number to Scientific
 ---
 
@@ -34,13 +34,13 @@ Here's how you can format numbers to scientific notation in Excel:
 
 ### Using the Ribbon
 
-1. **Select the Cells**: First, select the cells that you want to format. You can click and drag to select multiple cells, or use Ctrl+Click to select non-adjacent cells.
+1. **Select the Cells**: First, select the cells that you want to format. You can click and drag to select multiple cells, or use Ctrl+Click to select non‑adjacent cells.
 
-2. **Open Format Cells Dialog**: With the cells selected, right-click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can go to the Home tab on the Ribbon, click on the small arrow in the bottom-right corner of the Number group to open the Format Cells dialog.
+2. **Open Format Cells Dialog**: With the cells selected, right‑click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can go to the Home tab on the Ribbon, click on the small arrow in the bottom‑right corner of the Number group to open the Format Cells dialog.
 
 3. **Choose Scientific Format**: In the Format Cells dialog, click on the `Number` tab if it's not already selected. In the Category list, click on `Scientific`.
 
-4. **Specify Decimal Places**: You can specify the number of decimal places you want. For example, if you choose 2, numbers will be displayed in the format of 1.23E+03 for 1230.
+4. **Specify Decimal Places**: You can specify the number of decimal places you want. For example, if you choose 2, numbers will be displayed in the format `1.23E+03` for 1230.
 
 5. **Click OK**: After setting the number of decimal places, click `OK` to apply the scientific notation format to the selected cells.
 
@@ -52,7 +52,7 @@ For a quicker way, you can also use the Ribbon shortcut:
 
 2. **Go to the Home Tab**: On the Home tab, in the Number group, you'll find a dropdown menu for number formats.
 
-3. **Choose More Number Formats**: Click on the dropdown, and at the bottom, select `More Number Formats...` This will open the Format Cells dialog directly to the Number tab.
+3. **Choose More Number Formats**: Click on the dropdown, and at the bottom, select `More Number Formats...`. This will open the Format Cells dialog directly to the Number tab.
 
 4. **Select Scientific and Adjust**: Follow the same steps as above to select Scientific and adjust the decimal places as needed.
 
@@ -62,7 +62,7 @@ For an even faster method, you can use a keyboard shortcut:
 
 1. **Select the Cells**: Highlight the cells you wish to format.
 
-2. **Open Format Cells Dialog**: Press `Ctrl` + `1` to open the Format Cells dialog.
+2. **Open Format Cells Dialog**: Press `Ctrl` + `1` to open the Format Cells dialog.
 
 3. **Choose Scientific Format**: Then, follow the same steps as described above to apply the scientific notation.
 
@@ -77,12 +77,13 @@ Here's a step-by-step guide on how to do it:
 
 ### Step 1: Install Aspose.Cells
 
-First, ensure you have Aspose.Cells for C++ installed in your project. If you haven't installed it yet, you can get it via NuGet Package Manager. Run the following command in the Package Manager Console:
+First, ensure you have Aspose.Cells for C++ installed in your project. If you haven't installed it yet, you can get it via the NuGet Package Manager. Run the following command in the Package Manager Console:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToScientific.go" >}}
+
 ### Step 2: Create a New Workbook or Open an Existing One
 
-You can either create a new workbook or open an existing one. 
+You can either create a new workbook or open an existing one.
 
 ### Step 3: Access the Desired Worksheet
 
@@ -100,6 +101,7 @@ After formatting the cells as needed, don't forget to save your workbook. This w
 
 Here's a code snippet demonstrating these steps:
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-FormatNumberToScientific-1.go" >}}
+
 ### Conclusion
 
 By following these steps, you can format numbers to scientific notation in Aspose.Cells for C++. Remember, you can customize the format string (`"0.00E+00"`) as needed to adjust the number of decimal places or other aspects of the scientific notation display.

@@ -15,7 +15,7 @@ Aspose.Cells allows you to check if the VBA (Visual Basic for Applications) Proj
 
 ## **Sample Code**
 
-The following sample code loads the [sample Excel file](43352065.xlsm) and checks if the VBA (Visual Basic for Applications) Project of the Excel file is protected and locked for viewing. Please also see its Console Output for a reference.
+The following sample code loads the [sample Excel file](43352065.xlsm) and checks if the VBA (Visual Basic for Applications) Project of the Excel file is protected and locked for viewing. Please also see its console output as a reference.
 
 ```c++
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
     // Access the VBA project of the workbook
     VbaProject vbaProject = wb.GetVbaProject();
 
-    // Check if "Lock project for viewing" is true or not
+    // Check whether the "Lock project for viewing" setting is true
     std::cout << "Is VBA Project Locked for Viewing: " << vbaProject.GetIslockedForViewing() << std::endl;
 
     Aspose::Cells::Cleanup();
@@ -51,9 +51,7 @@ int main()
 
 This is the console output of the above sample code when executed with the provided [sample Excel file](43352065.xlsm).
 
-{{< highlight java >}}
-
+{{< highlight cpp >}}
 Is VBA Project Locked for Viewing: True
-
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}

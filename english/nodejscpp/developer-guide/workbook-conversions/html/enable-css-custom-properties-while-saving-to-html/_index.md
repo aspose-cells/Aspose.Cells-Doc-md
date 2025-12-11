@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant HTML can be improved. Please use [**HtmlSaveOptions.getEnableCssCustomProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getEnableCssCustomProperties--) property and set it **true** while saving to HTML.
+When you save your Excel file to HTML, in scenarios where there are multiple occurrences of the same base64 image, this custom property ensures that the image data needs to be saved only once, improving the performance of the resulting HTML. Please use [**HtmlSaveOptions.getEnableCssCustomProperties()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getEnableCssCustomProperties--) property and set it **true** while saving to HTML.
 ![todo:image_alt_text](enable-css-custom-properties-while-saving-to-html-1.jpg) 
  
 
@@ -35,7 +35,7 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "sampleEnableCssCus
 const opts = new AsposeCells.HtmlSaveOptions();
 opts.setExportImagesAsBase64(true);
 
-// Enable EnableCssCustomProperties
+// Enable CssCustomProperties
 opts.setEnableCssCustomProperties(true);
 
 // Save the workbook in HTML

@@ -1,15 +1,15 @@
 ---
 title: Line Breaks and Text Wrapping
 linktitle: Line Breaks and Text Wrapping
-description: How to implement text wrapping and word wrap using the Aspose.Cells library in JavaScript via C++. By using the Aspose.Cells library, you can easily insert text in cells and set the text wrapping method, such as manual word wrap, word wrap, etc. This document details how to implement these features and provides sample code for your reference.
-keywords: Aspose.Cells, line breaks, text wraps, text layout JavaScript via C++
+description: How to implement text wrapping and word wrap using the Aspose.Cells library in JavaScript via C++. By using the Aspose.Cells library, you can easily insert text in cells and set the text‑wrapping method, such as manual word wrap, word wrap, etc. This document details how to implement these features and provides sample code for your reference.
+keywords: Aspose.Cells, line breaks, text wrap, text layout JavaScript via C++
 type: docs
 weight: 60
 url: /javascript-cpp/line-breaks-and-text-wrapping/
 ---
 
 {{% alert color="primary" %}}
-To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.
+To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, while explicit line breaks insert breaks exactly where you want them.
 {{% /alert %}}
 
 ## **To Wrap Text in a Cell**
@@ -48,7 +48,7 @@ To wrap text in a cell, use the [**Aspose.Cells.Style.isTextWrapped(boolean)**](
             const fileInput = document.getElementById('fileInput');
 
             if (fileInput.files.length === 0) {
-                // No file selected - create a new workbook
+                // No file selected – create a new workbook
             }
 
             let wb;
@@ -60,28 +60,28 @@ To wrap text in a cell, use the [**Aspose.Cells.Style.isTextWrapped(boolean)**](
                 wb = new Workbook();
             }
 
-            // Open first Worksheet in the workbook
+            // Open first worksheet in the workbook
             const ws = wb.worksheets.get(0);
 
-            // Get Worksheet Cells Collection
+            // Get worksheet cells collection
             const cell = ws.cells;
 
-            // Increase the width of First Column Width
+            // Increase the width of the first column
             cell.columns.get(0).width = 35;
 
-            // Increase the height of first row
+            // Increase the height of the first row
             cell.rows.get(0).height = 36;
 
-            // Add Text to the First Cell
+            // Add text to the first cell
             const firstCell = cell.checkCell(0, 0);
             firstCell.value = "I am using the latest version of Aspose.Cells to test this functionality";
 
-            // Make Cell's Text wrap
+            // Make the cell's text wrap
             const style = firstCell.style;
             style.isTextWrapped = true;
             firstCell.style = style;
 
-            // Save Excel File
+            // Save Excel file
             const outputData = wb.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -137,32 +137,32 @@ You can use ‘\n’ in JavaScript to insert explicit line breaks in a cell.
                 const arrayBuffer = await file.arrayBuffer();
                 wb = new Workbook(new Uint8Array(arrayBuffer));
             } else {
-                // No file selected - create a new workbook
+                // No file selected – create a new workbook
                 wb = new Workbook();
             }
 
-            // Open first Worksheet in the workbook
+            // Open first worksheet in the workbook
             const ws = wb.worksheets.get(0);
 
-            // Get Worksheet Cells Collection
+            // Get worksheet cells collection
             const cells = ws.cells;
 
-            // Increase the width of First Column Width
+            // Increase the width of the first column
             cells.columns.get(0).width = 35;
 
-            // Increase the height of first row
+            // Increase the height of the first row
             cells.rows.get(0).height = 65;
 
-            // Add Text to the First Cell with Explicit Line Breaks
+            // Add text to the first cell with explicit line breaks
             const firstCell = cells.checkCell(0, 0);
             firstCell.putValue("I am using\nthe latest version of \nAspose.Cells to \ntest this functionality");
 
-            // Make Cell's Text wrap
+            // Make the cell's text wrap
             const style = firstCell.style;
             style.isTextWrapped = true;
             firstCell.style = style;
 
-            // Save Excel File
+            // Save Excel file
             const outputData = wb.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

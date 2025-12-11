@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cell for Python via .NET already supports read and write external connection of XLSX file but now, it also supports this feature for XLSB and XLS file. However, the code is the same for all types of formats.
+Aspose.Cells for Python via .NET already supports reading and writing external connections of XLSX files, but now it also supports this feature for XLSB and XLS files. However, the code is the same for all formats.
 
-## **Read and Write External Connection of XLS/XLSB file**
+## **Read and Write External Connections of XLS/XLSB Files**
 
-The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first External Connection which is actually a Microsoft Access DB Connection. It then modifies the [**DBConnection.name**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/name) property and saves it as output XLS/XLSB file. The screenshot shows the effect of code on [sample XLSB file](51740722.xlsb) and [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for a reference.
+The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first External Connection, which is actually a Microsoft Access DB Connection. It then modifies the [**DBConnection.name**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/name) property and saves it as an output XLS/XLSB file. The screenshot shows the effect of the code on [sample XLSB file](51740722.xlsb) and [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for reference.
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 

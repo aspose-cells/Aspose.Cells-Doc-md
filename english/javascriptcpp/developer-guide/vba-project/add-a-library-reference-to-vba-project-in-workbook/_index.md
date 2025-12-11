@@ -8,17 +8,17 @@ url: /javascript-cpp/add-a-library-reference-to-vba-project-in-workbook/
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells [**VbaProjectReferenceCollection.addRegisteredReference(string, string)**](https://reference.aspose.com/cells/javascript-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-string-) method.
+Sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells **VbaProjectReferenceCollection.addRegisteredReference(string, string)** method.
 
 {{% /alert %}}
 
-## **Add a library reference to VBA project in Microsoft Excel**
+## **Add a library reference to the VBA project in Microsoft Excel**
 
-In Microsoft Excel, you can add a library reference to the VBA project by clicking the **Tools > References...** manually.
+In Microsoft Excel, you can add a library reference to the VBA project by clicking **Tools > References...** manually.
 
 ## **Add a library reference to the VBA project in a workbook using Aspose.Cells for JavaScript via C++**
 
-The following sample code adds or registers two library references to the VBA project of the workbook using [**VbaProjectReferenceCollection.addRegisteredReference(string, string)**](https://reference.aspose.com/cells/javascript-cpp/vbaprojectreferencecollection/#addRegisteredReference-string-string-) method.
+The following sample code adds or registers two library references to the VBA project of the workbook using **VbaProjectReferenceCollection.addRegisteredReference(string, string)** method.
 
 ```html
 <!DOCTYPE html>

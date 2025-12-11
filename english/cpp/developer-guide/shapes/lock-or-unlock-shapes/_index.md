@@ -1,20 +1,20 @@
----
-title: Lock or unlock shapes
-linktitle: Lock or unlock shapes
-type: docs
-weight: 200
-url: /cpp/lock-or-unlock-shapes/
+---  
+title: Lock or unlock shapes  
+linktitle: Lock or unlock shapes  
+type: docs  
+weight: 200  
+url: /cpp/lock-or-unlock-shapes/  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 {{% alert color="primary" %}}
 
 Sometimes, you need to protect all shapes in certain worksheets to prevent them from being destroyed by unwanted situations. In this case, you need to lock all shapes in the specified worksheet.
 
-Sometimes, you need to be able to modify certain shapes in certain protected worksheets, in which case, you need to unlock these shapes.
+Sometimes, you need to be able to modify certain shapes in certain protected worksheets, in which case you need to unlock these shapes.
 
-This article will introduce in detail how to lock and unlock specified shapes.
+This article will describe in detail how to lock and unlock specified shapes.
 
 {{% /alert %}}
 

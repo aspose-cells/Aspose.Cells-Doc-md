@@ -9,9 +9,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows the users to extract Theme related data from an Excel file. For example, you can extract Theme Name applied to workbook and Theme Color applied to the cell or borders of the cell, etc.
+Aspose.Cells allows users to extract theme‑related data from an Excel file. For example, you can extract the theme name applied to the workbook and the theme color applied to a cell or its borders, etc.
 
-You can apply Theme to your workbook using Microsoft Excel via Page Layout > Themes command.
+You can apply a theme to your workbook using Microsoft Excel via the Page Layout > Themes command.
 
 {{% /alert %}}
 
@@ -24,12 +24,8 @@ You can apply Theme to your workbook using Microsoft Excel via Page Layout > The
 Here is a sample console output of the above code.
 
 {{< highlight java >}}
-
 Civic
-
 true
-
 true
-
 {{< /highlight >}}
 {{< app/cells/assistant language="java" >}}

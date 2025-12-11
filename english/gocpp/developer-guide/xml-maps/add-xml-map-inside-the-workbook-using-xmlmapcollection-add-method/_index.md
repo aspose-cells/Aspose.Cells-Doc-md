@@ -9,11 +9,11 @@ description: Add XML Map inside the workbook using XmlMapCollection.Add method w
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells provides [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/go-cpp/xmlmapcollection/add/) method which you can use to import your XML Map inside the workbook.
+Aspose.Cells provides [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/go-cpp/xmlmapcollection/add/) method that you can use to import your XML map into the workbook.
 
 ## **Add XML Map inside the Workbook using XmlMapCollection.Add method**
 
-The following sample code adds XML Map inside the workbook using the [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/go-cpp/xmlmapcollection/add/) method and saves it as [output excel file](5115434.xlsx). The screenshot shows the XML Map that has been imported from the [sample.xml](5115433.xml) inside the output excel file.
+The following sample code adds an XML map to the workbook using the [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/go-cpp/xmlmapcollection/add/) method and saves it as the [output Excel file](5115434.xlsx). The screenshot shows the XML map that has been imported from the [sample.xml](5115433.xml) into the output Excel file.
 
 ![add-xml-map](add-xml-map.png)
 

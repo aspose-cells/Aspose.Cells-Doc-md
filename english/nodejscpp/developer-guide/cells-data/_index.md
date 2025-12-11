@@ -20,14 +20,13 @@ In [Accessing Cells of a Worksheet](/cells/nodejs-cpp/accessing-cells-of-a-works
 
 Aspose.Cells for Node.js via C++ provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.
 
-Aspose.Cells allows developers to add data to the cells in worksheets by calling the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method. Aspose.Cells provides overloaded versions of the [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method that lets developers add different kinds of data to cells. Using these overloaded versions of the [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method, it is possible to add a Boolean, string, double, integer, or date/time, etc. values to the cell.
+Aspose.Cells allows developers to add data to the cells in worksheets by calling the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method. Aspose.Cells provides overloaded versions of the [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method that let developers add different kinds of data to cells. Using these overloaded versions of the [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method, it is possible to add a Boolean, string, double, integer, or date/time, etc., values to the cell.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-AddDataToCells.js" >}}
 
-
 ## **How to Improve Efficiency**
 
-If you use [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method to put a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
+If you use the [**putValue**](https://reference.aspose.com/cells/nodejs-cpp/cell/#putValue-boolean-) method to put a large amount of data in a worksheet, you should add values to the cells first by rows and then by columns. This approach greatly improves the efficiency of your applications.
 
 ## **How to Retrieve Data from Cells**
 
@@ -42,23 +41,22 @@ The [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class provide
 - [**getFloatValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFloatValue--): returns the float value of the cell.
 - [**getIntValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getIntValue--): returns the integer value of the cell.
 
-When a field is not filled, cells with [**getDoubleValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getDoubleValue--) or [**getFloatValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFloatValue--) throws an exception.
+When a field is not filled, cells with [**getDoubleValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getDoubleValue--) or [**getFloatValue()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFloatValue--) throw an exception.
 
-The type of data contained in a cell can also be checked by using the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getType()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getType--) method. In fact, the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getType()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getType--) method is based on the [**CellValueType**](https://reference.aspose.com/cells/nodejs-cpp/cellvaluetype) enumeration whose pre-defined values are listed below:
+The type of data contained in a cell can also be checked by using the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getType()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getType--) method. In fact, the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getType()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getType--) method is based on the [**CellValueType**](https://reference.aspose.com/cells/nodejs-cpp/cellvaluetype) enumeration whose pre‑defined values are listed below:
 
-|**Cell Value Types**|**Description**|
+| **Cell Value Types** | **Description** |
 | :- | :- |
-|IsBool|Specifies that cell value is Boolean.|
-|IsDateTime|Specifies that cell value is date/time.|
-|IsNull|Represents a blank cell.|
-|IsNumeric|Specifies that cell value is numeric.|
-|IsString|Specifies that cell value is a string.|
-|IsUnknown|Specifies that cell value is unknown.|
+| IsBool | Specifies that cell value is Boolean. |
+| IsDateTime | Specifies that cell value is date/time. |
+| IsNull | Represents a blank cell. |
+| IsNumeric | Specifies that cell value is numeric. |
+| IsString | Specifies that cell value is a string. |
+| IsUnknown | Specifies that cell value is unknown. |
 
-You can also use the above pre-defined cell value types to compare with the Type of data present in each cell.
+You can also use the above pre‑defined cell value types to compare with the type of data present in each cell.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-RetrieveDataFromCells.js" >}}
-
 
 {{% alert color="primary" %}}
 
@@ -66,7 +64,7 @@ While working on worksheets, users may add different types of data in the cells.
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Accessing Cells of a Worksheet](/cells/nodejs-cpp/accessing-cells-of-a-worksheet/)
 - [Convert Text Numeric Data to Number](/cells/nodejs-cpp/convert-text-numeric-data-to-number/)
 - [Creating Subtotals](/cells/nodejs-cpp/creating-subtotals/)

@@ -3,7 +3,7 @@ title: How to Format Number to Fraction
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-fraction/
-description: This article will introduce how to Format Number to Fractionusing Aspose.Cells for Python via .NET API.
+description: This article will introduce how to Format Number to Fraction using Aspose.Cells for Python via .NET API.
 keywords: Convert a numeral into a fraction representation, Transform a digit into its fractional equivalent, Change a number into its corresponding fraction form, Format a numeric value into a fraction, Express a number as a fraction, Format Number to Fraction
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -24,7 +24,7 @@ Formatting numbers to fractions in Excel is useful for several reasons, particul
 
 6. **Visual Appeal**: In some documents or presentations, fractions may be visually more appealing or appropriate than decimals. This can be particularly true in formal documents, reports, or when trying to match a specific formatting style.
 
-Excel makes it easy to format numbers as fractions, and it offers several fractional formats to choose from, including single-digit fractions, fractions up to two digits, and even as typed fractions. This flexibility allows users to present their data in the most appropriate and understandable way for their specific needs.
+Excel makes it easy to format numbers as fractions, and it offers several fractional formats to choose from, including single‑digit fractions, fractions up to two digits, and even typed fractions. This flexibility allows users to present their data in the most appropriate and understandable way for their specific needs.
 
 ## **How to Format Number to Fraction in Excel**
 Formatting numbers as fractions in Excel is a straightforward process that allows you to display your data in a more meaningful way, especially when dealing with quantities that are not whole numbers. Here's how you can format numbers as fractions in Excel:
@@ -33,11 +33,11 @@ Formatting numbers as fractions in Excel is a straightforward process that allow
 
 1. **Select the Cells**: First, select the cells that you want to format as fractions. You can click and drag to select multiple cells, or click on a single cell if you're only formatting one.
 
-2. **Open Format Cells Dialog**: With the cells selected, right-click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can press `Ctrl + 1` on your keyboard to open the Format Cells dialog box.
+2. **Open Format Cells Dialog**: With the cells selected, right‑click on one of the selected cells and choose `Format Cells` from the context menu. Alternatively, you can press `Ctrl + 1` on your keyboard to open the Format Cells dialog box.
 
 3. **Choose Fraction Format**: In the Format Cells dialog, go to the `Number` tab. On the left side, you will see a list of categories. Select `Fraction`.
 
-4. **Select Fraction Type**: On the right side, under the `Type` section, you'll see a variety of fraction formats. Excel offers several pre-defined fraction formats, including:
+4. **Select Fraction Type**: On the right side, under the `Type` section, you'll see a variety of fraction formats. Excel offers several pre‑defined fraction formats, including:
    - Up to one digit (1/4)
    - Up to two digits (21/25)
    - Up to three digits (312/943)
@@ -48,7 +48,7 @@ Formatting numbers as fractions in Excel is a straightforward process that allow
    - As tenths (3/10)
    - As hundredths (30/100)
 
-   Choose the one that best suits your data. If you're not sure, "Up to one digit (1/4)" is a good general choice for many applications.
+   Choose the one that best suits your data. If you're not sure, **Up to one digit (1/4)** is a good general choice for many applications.
 
 5. **Apply the Formatting**: After selecting the desired fraction format, click `OK` to apply the formatting to the selected cells.
 
@@ -62,25 +62,25 @@ Alternatively, you can use the Ribbon to quickly apply some fraction formats:
 
 3. **Open the Number Format Dropdown**: In the `Number` group, you'll find a dropdown for number formats. Click on it.
 
-4. **Choose Fraction**: You'll see a few common formats directly in the dropdown, including some fraction options. If you see the fraction format you want, you can select it directly here. If not, select `More Number Formats…` at the bottom of the list and follow the steps in the Format Cells Dialog section above.
+4. **Choose Fraction**: You'll see a few common formats directly in the dropdown, including some fraction options. If you see the fraction format you want, you can select it directly here. If not, select **More Number Formats…** at the bottom of the list and follow the steps in the **Format Cells Dialog** section above.
 
 ### Tips
 
-- **Custom Fractions**: If the pre-defined fraction formats don't meet your needs, you can create a custom fraction format by selecting `Custom` in the Format Cells dialog and entering your custom format code.
+- **Custom Fractions**: If the pre‑defined fraction formats don't meet your needs, you can create a custom fraction format by selecting `Custom` in the Format Cells dialog and entering your custom format code.
 - **Accuracy**: When you format a number as a fraction, Excel converts the number to the closest fraction based on the format you've chosen. This might not always be perfectly accurate for complex fractions or decimals with many digits.
 
 By following these steps, you can effectively format numbers as fractions in Excel, making your data easier to read and interpret.
 
-## **How to Format Number to Fraction in Aspose.Cells for Python via .NET**
+## **How to Format Numbers to Fractions in Aspose.Cells for Python via .NET**
 Formatting numbers to fractions in Aspose.Cells for Python via .NET is a straightforward process. Aspose.Cells for Python via .NET is a powerful library that allows you to work with Excel files in .NET applications without needing Microsoft Excel installed. It provides a wide range of features, including formatting numbers as fractions.
 
-Here's a step-by-step guide on how to format numbers to fractions in Aspose.Cells for Python via .NET:
+Here's a step‑by‑step guide on how to format numbers to fractions in Aspose.Cells for Python via .NET:
 
 ### Step 1: Install Aspose.Cells for Python via .NET
 
-First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily obtain it from PyPI with the following command.
 
-```powershell
+```bash
 $ pip install aspose-cells-python
 ```
 
@@ -88,14 +88,13 @@ $ pip install aspose-cells-python
 
 You can either create a new workbook or open an existing one.
 
-
 ### Step 3: Access the Worksheet
 
 You need to access the worksheet where you want to format numbers as fractions. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Apply Fractional Number Format
 
-To format a cell as a fraction, you need to set its `Style.Number` property to a specific number format code. Aspose.Cells supports various fraction formats, such as "1/2", "1/4", "2/4", etc.
+To format a cell as a fraction, you need to set its `Style.Number` property to a specific number format code. Aspose.Cells supports various fraction formats, such as `"1/2"`, `"1/4"`, `"2/4"`, etc.
 
 ### Step 5: Save the Workbook
 

@@ -19,16 +19,15 @@ For other sheet types, such as chart sheets, or charts, you can insert headers a
 
 ## **Getting Headers and Footers in MS Excel**
 1. Click the worksheet where you want to view or change headers or footers.
-2. On the View tab, in the Workbook Views group, click Page Layout.
+2. On the View tab, in the Workbook Views group, click Page Layout.  
    Excel displays the worksheet in Page Layout view.
-3. To view or edit a header or footer, click the left, center, or right header or footer text box at the top or the bottom of the worksheet page (under Header, or above Footer).
-
+3. To view or edit a header or footer, click the left, center, or right header or footer text box at the top or the bottom of the worksheet page (under Header or above Footer).
 
 ## **Getting Headers and Footers using Aspose.Cells for JavaScript via C++**
 With [**PageSetup.header(number)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#header-number-) and [**PageSetup.footer(number)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#footer-number-) methods, JavaScript developers can simply get headers or footers from the file.
 
 1. Construct a Workbook to open the file.
-2. Get the worksheet where you want to get headers or footer.
+2. Get the worksheet where you want to retrieve headers or footers.
 3. Get the header or footer with a specific section ID.
 
 ```html
@@ -106,16 +105,16 @@ With [**PageSetup.header(number)**](https://reference.aspose.com/cells/javascrip
 </html>
 ```
 
-## **Parse Headers and Footers to Command List**
+## **Parse Headers and Footers into a Command List**
 The header or footer text can contain special commands, for example, a placeholder for the page number, current date, or text formatting attributes.
 
 Special commands are represented by a single letter with a leading ampersand ("&").
 
-The header and footer strings are constructed using ABNF grammar. It's not easy to understand without a viewer.
+The header and footer strings are constructed using ABNF grammar. It is not easy to understand without a viewer.
 
 Aspose.Cells for JavaScript via C++ provides [**PageSetup.commands(string)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#commands-string-) method to parse headers and footers as a command list.
 
-The following codes show how to parse the header or footer as a command list and process commands:
+The following code shows how to parse the header or footer as a command list and process commands:
 
 ```html
 <!DOCTYPE html>

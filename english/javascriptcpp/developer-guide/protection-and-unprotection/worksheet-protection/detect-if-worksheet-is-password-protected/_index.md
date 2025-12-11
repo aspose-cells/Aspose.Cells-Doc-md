@@ -10,11 +10,11 @@ keywords: Detect Worksheet Password Protection JavaScript via C++, Check if Work
 
 {{% alert color="primary" %}}
 
-It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password-protected, however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password protected or not. This article demonstrates the usage of Aspose.Cells for JavaScript via C++ API to achieve the same.
+It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password‑protected; however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password‑protected or not. This article demonstrates the usage of Aspose.Cells for JavaScript via C++ API to achieve the same.
 
 {{% /alert %}}
 
-Aspose.Cells for JavaScript via C++ has exposed the [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/javascript-cpp/protection/#isProtectedWithPassword--) property to detect if a worksheet is password protected or not. Boolean type [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/javascript-cpp/protection/#isProtectedWithPassword--) property returns **true** if [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) is password-protected and **false** if not.
+Aspose.Cells for JavaScript via C++ has exposed the [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/javascript-cpp/protection/#isProtectedWithPassword--) property to detect if a worksheet is password‑protected or not. Boolean type [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/javascript-cpp/protection/#isProtectedWithPassword--) property returns **true** if the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) is password‑protected and **false** if not.
 
 ```html
 <!DOCTYPE html>

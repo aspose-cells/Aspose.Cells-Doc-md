@@ -7,14 +7,14 @@ url: /javascript-cpp/filtering-the-kind-of-data-while-loading-the-workbook-from-
 ---
 
 {{% alert color="primary" %}}
-Sometimes, you want to specify which kind of data should be loaded when building the workbook from the template file. Filtering loaded data can improve the performance for your special purpose, especially when using [LightCells APIs](/cells/javascript-cpp/using-lightcells-api/). Please use the [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property for this purpose.
+Sometimes, you want to specify which kind of data should be loaded when building the workbook from the template file. Filtering loaded data can improve performance for your specific purpose, especially when using [LightCells APIs](/cells/javascript-cpp/using-lightcells-api/). Please use the [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property for this purpose.
 {{% /alert %}}
 
-The following sample code loads only shape objects while loading the workbook from the [template file](5115552.xlsx) which you can download from the given link. The following screenshot shows the [template file](5115552.xlsx) contents and also explains that the data in Red color and Yellow background will not be loaded because [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property has been set to [**Shape**](https://reference.aspose.com/cells/javascript-cpp/shape/)
+The following sample code loads only shape objects while loading the workbook from the [template file](5115552.xlsx) which you can download from the given link. The following screenshot shows the [template file](5115552.xlsx) contents and also explains that the data in red color and yellow background will not be loaded because [**LoadOptions.loadFilter**](https://reference.aspose.com/cells/javascript-cpp/loadoptions/#loadFilter--) property has been set to [**Shape**](https://reference.aspose.com/cells/javascript-cpp/shape/)
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-The following screenshot shows the [output PDF](5115555.pdf) which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.
+The following screenshot shows the [output PDF](5115555.pdf) which you can download from the given link. Here you can see that the data in red color and yellow background is not present, but all shapes are there.
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 
@@ -57,14 +57,14 @@ The following screenshot shows the [output PDF](5115555.pdf) which you can downl
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Set the load options, we only want to load shapes and do not want to load data
+            // Set the load options; we only want to load shapes and not data
             const loadOptions = new LoadOptions(LoadFormat.Xlsx);
             loadOptions.loadFilter = new LoadFilter(LoadDataFilterOptions.All & ~LoadDataFilterOptions.Chart);
 
-            // Create workbook object from uploaded excel file using load options
+            // Create workbook object from uploaded Excel file using load options
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            // Save the output in pdf format
+            // Save the output in PDF format
             const outputData = workbook.save(SaveFormat.Pdf);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             const downloadLink = document.getElementById('downloadLink');
@@ -78,3 +78,4 @@ The following screenshot shows the [output PDF](5115555.pdf) which you can downl
     </script>
 </html>
 ```
+

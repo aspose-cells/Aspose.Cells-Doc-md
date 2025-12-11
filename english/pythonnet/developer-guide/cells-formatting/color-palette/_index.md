@@ -3,36 +3,36 @@ title: How to Use Color Palette
 type: docs
 weight: 80
 url: /python-net/excel-color-palette/
-description: Python code to add custom colors to the palette and use excel color palette with Aspose.Cells for Python via .NET API
-keywords: Python add custom colors to the palette, Python programmatically excel color palette, programmatically how to use color palette in workbook, Python how to use color palette in excel
+description: Python code to add custom colors to the palette and use Excel color palette with Aspose.Cells for Python via .NET API
+keywords: Python add custom colors to the palette, Python programmatically Excel color palette, programmatically how to use color palette in workbook, Python how to use color palette in Excel
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Colors and Palette**
 
-A palette is the number of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97-2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills and lines in a chart.
+A palette is the set of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97‑2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills, and lines in a chart.
 
-With Aspose.Cells for Python via .NET it is possible not only to use the palette's existing colors but also custom colors. Before using a custom color, add it to the palette first.
+With Aspose.Cells for Python via .NET it is possible not only to use the palette's existing colors but also to use custom colors. Before using a custom color, add it to the palette first.
 
 This topic discusses how to add custom colors to the palette.
 
 ## **Add Custom Colors to Palette**
 
-Aspose.Cells for Python via .NET supports Microsoft Excel's 56 color palette. To use a custom color that is not defined in the palette, add the color to the palette.
+Aspose.Cells for Python via .NET supports Microsoft Excel's 56‑color palette. To use a custom color that is not defined in the palette, add the color to the palette.
 
-Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class provides a [**change_palette**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/change_palette) method that takes the following parameters to add a custom color to modify the palette:
+Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class provides a [**change_palette**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/change_palette) method that takes the following parameters to add a custom color to the palette:
 
-- Custom Color, the custom color to be added.
-- Index, the index of the color in the palette that the custom color will replace. Should be between 0-55.
+- **Custom Color** – the custom color to be added.  
+- **Index** – the index of the color in the palette that the custom color will replace. Should be between 0‑55.
 
-The example below adds a custom color (Orchid) to the palette before applying it on a font.
+The example below adds a custom color (Orchid) to the palette before applying it to a font.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ColorsAndPalette-1.py" >}}
 
 {{% alert color="primary" %}}
 
-The palette only holds 56 colors. When you add a custom color to the palette, the palette is changed and any element in the file formatted with the previous color is changed. So, when you change the palette, please be very careful. Moreover, this is the limitation in XLS (Excel 97 - 2003) file format only as there is no such limitation for XLSX or other advanced MS Excel (2007/2010 or 2013) file formats.
+The palette holds only 56 colors. When you add a custom color to the palette, the palette is changed and any element in the file formatted with the previous color is also changed. Therefore, when you modify the palette, please be very careful. Moreover, this limitation exists only in XLS (Excel 97‑2003) file format; there is no such limitation for XLSX or other advanced Microsoft Excel (2007, 2010, or 2013) file formats.
 
 {{% /alert %}}
 

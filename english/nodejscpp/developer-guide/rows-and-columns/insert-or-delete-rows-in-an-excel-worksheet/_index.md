@@ -28,6 +28,7 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
+
 // Instantiate a Workbook object.
 // Load a template file.
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xlsx"));
@@ -35,14 +36,14 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xlsx"));
 // Get the first worksheet in the book.
 const sheet = workbook.getWorksheets().get(0);
 
-// Insert 10 rows at row index 2 (insertion starts at 3rd row)
+// Insert 10 rows at row index 2 (insertion starts at the 3rd row)
 sheet.getCells().insertRows(2, 10);
 
-// Delete 5 rows now. (8th row - 12th row)
+// Delete 5 rows now (8th row – 12th row)
 sheet.getCells().deleteRows(7, 5);
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "out_book1.out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

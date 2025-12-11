@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart::GetWorksheet**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getworksheet/) method which returns the reference of the worksheet that contains the chart.
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart::GetWorksheet**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getworksheet/) method which returns a reference to the worksheet that contains the chart.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ int main()
 }
 ```
 
-Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
+Below is the console output produced by the sample code. As you can see, it prints the same worksheet name both times.
 
 {{< highlight java >}}
 
@@ -62,3 +62,5 @@ Chart's Sheet Name: Portfolio
 
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}
+
+

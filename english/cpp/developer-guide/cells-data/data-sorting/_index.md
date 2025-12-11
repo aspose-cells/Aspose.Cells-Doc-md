@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Data sorting is one of Microsoft Excel's many useful features. It allows users to order data to make it easier to scan. Aspose.Cells lets developers sort worksheet data alphabetically or numerically which works in the same way as Microsoft Excel does to sort data.
+Data sorting is one of Microsoft Excel's many useful features. It allows users to order data to make it easier to scan. Aspose.Cells lets developers sort worksheet data alphabetically or numerically, which works in the same way as Microsoft Excel does to sort data.
 
 {{% /alert %}}
 
@@ -20,23 +20,23 @@ Data sorting is one of Microsoft Excel's many useful features. It allows users t
 
 To sort data in Microsoft Excel:
 
-1. Select **Data** from the **Sort** menu. The Sort dialog will be displayed.
-1. Select a sorting option.
+1. Select **Data** from the **Sort** menu. The Sort dialog will be displayed.  
+2. Select a sorting option.
 
-Generally, sorting is performed on a list - defined as a contiguous group of data where the data is displayed in columns.
+Generally, sorting is performed on a list — defined as a contiguous group of data where the data is displayed in columns.
 
 ## **Sorting Data with Aspose.Cells**
 
-Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/) class used to sort data in ascending or descending order. The class has some important members, for example, properties like Key1 ... Key3 and Order1 ... Order3. These members are used to define sorted keys and specify the key sort order.
+Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/) class used to sort data in ascending or descending order. The class has some important members, for example, properties like Key1 … Key3 and Order1 … Order3. These members are used to define sorted keys and specify the key sort order.
 
-You have to define keys and set the sort order before implementing data sorting. The class provides the [**Sort**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/sort/) method used to perform data sorting based on the cell data in a worksheet.
+You have to define keys and set the sort order before implementing data sorting. The class provides the [**Sort**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/sort/) method used to perform data sorting based on the cell data in a worksheet.
 
-The [**Sort**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/sort/) method accepts the following parameters:
+The **Sort** method accepts the following parameters:
 
-- [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/), the cells for the underlying worksheet.
+- [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/), the cells of the underlying worksheet.  
 - [**CellArea**](https://reference.aspose.com/cells/cpp/aspose.cells/cellarea/), the range of cells. Define the cell area before applying data sorting.
 
-This example uses the template file "Book1.xls" created in Microsoft Excel. After executing the code below, data is sorted appropriately.
+This example uses the template file *Book1.xls* created in Microsoft Excel. After executing the code below, data is sorted appropriately.
 
 ```c++
 #include <iostream>
@@ -53,25 +53,25 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xls";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"output.out.xls";
 
     // Create workbook
     Workbook workbook(inputFilePath);
 
-    // Get the workbook datasorter object
+    // Get the workbook DataSorter object
     DataSorter sorter = workbook.GetDataSorter();
 
-    // Set the first order for datasorter object
+    // Set the first order for the DataSorter object
     sorter.SetOrder1(SortOrder::Descending);
 
     // Define the first key
     sorter.SetKey1(0);
 
-    // Set the second order for datasorter object
+    // Set the second order for the DataSorter object
     sorter.SetOrder2(SortOrder::Ascending);
 
     // Define the second key
@@ -83,7 +83,7 @@ int main()
     // Sort data in the specified data range (A1:B14)
     sorter.Sort(workbook.GetWorksheets().Get(0).GetCells(), ca);
 
-    // Save the excel file
+    // Save the Excel file
     workbook.Save(outputFilePath);
 
     std::cout << "Data sorted successfully!" << std::endl;
@@ -94,15 +94,15 @@ int main()
 
 {{% alert color="primary" %}}
 
-If you want to sort *LeftToRight*, use the [**DataSorter.GetSortLeftToRight()**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/getsortlefttoright/) attribute.
+If you want to sort *LeftToRight*, use the [**DataSorter::GetSortLeftToRight()**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/getsortlefttoright/) method.
 
 {{% /alert %}}
 
-### **Sorting data with background color**
+### **Sorting Data with Background Color**
 
-Excel provides features to sort data based on the background color. The same feature is provided using Aspose.Cells using DataSorter where [**SortOnType**](https://reference.aspose.com/cells/cpp/aspose.cells/sortontype/).CellColor can be used in [**AddKey()**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/addkey/) to sort data based on the background color. All the cells which contain specified color in the [**AddKey()**](https://reference.aspose.com/cells/cpp/aspose.cells/datasorter/addkey/), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
+Excel provides a feature to sort data based on the background color. The same feature is available in Aspose.Cells through **DataSorter**, where `SortOnType::CellColor` can be used in **AddKey()** to sort data based on the background color. All the cells that contain the specified color in **AddKey()** are placed at the top or bottom according to the `SortOrder` setting, and the order of the remaining cells is not changed.
 
-Following are the sample files which can be downloaded for testing this feature:
+The following sample files can be downloaded to test this feature:
 
 [sampleBackGroundFile.xlsx](81920906.xlsx)
 
@@ -123,16 +123,16 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"CellsNet46500.xlsx";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"outputSortData_CustomSortList.xlsx";
 
     // Create a workbook object and load template file
     Workbook workbook(inputFilePath);
 
-    // Instantiate data sorter object
+    // Instantiate a DataSorter object
     DataSorter sorter = workbook.GetDataSorter();
 
     // Add key for second column for red color
@@ -150,7 +150,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced Topics**
 - [Sort Data in Column with Custom Sort List](/cells/cpp/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/cpp/specifying-sort-warning-while-sorting-data/)
 {{< app/cells/assistant language="cpp" >}}

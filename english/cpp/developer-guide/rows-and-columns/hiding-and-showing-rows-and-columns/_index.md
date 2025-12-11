@@ -21,7 +21,7 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 ### **Hiding Rows and Columns**
 
-Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hiderow/) and [**HideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**HideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hiderow/) and [**HideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/hidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take the row or column index as a parameter to hide the specific row or column.
 
 ```c++
 #include <iostream>
@@ -75,8 +75,8 @@ It is also possible to hide a row or column by setting the row height or column 
 
 Developers can show any hidden row or column by calling the [**UnhideRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhiderow/) and [**UnhideColumn**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/unhidecolumn/) methods of the [**Cells**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection respectively. Both methods take two parameters:
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.
 
 ```cpp
 #include <iostream>
@@ -90,7 +90,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xls";
 
     // Create workbook from file
@@ -119,7 +119,7 @@ int main()
 
 {{% alert color="primary" %}}
 
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: `worksheet.Cells.UnhideColumn(5, -1)`
+While making a hidden column visible, if you need to restore it to its previously assigned width or its original width, please unhide the column with a negative width. For example: `worksheet.Cells.UnhideColumn(5, -1)`
 
 {{% /alert %}}
 
@@ -159,7 +159,7 @@ int main()
     worksheet.GetCells().HideColumns(1, 2);
 
     // Save the modified Excel file
-    workbook.Save(outDir + u"outputxls");
+    workbook.Save(outDir + u"output.xls");
 
     std::cout << "Rows and columns hidden successfully!" << std::endl;
 

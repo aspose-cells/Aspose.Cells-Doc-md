@@ -9,7 +9,7 @@ keywords: Aspose.Cells for JavaScript Excel, Excel JavaScript library, Get Exter
 
 ## **How to Get External Connection Data Source of Pivot Table**
 
-Aspose.Cells for JavaScript via C++ provides the ability to get the external connection data source of the pivot table. For this, the API provides the [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--) property of the [**PivotTable**](https://reference.aspose.com/cells/javascript-cpp/pivottable/) class. The [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--)property returns the [**ExternalConnection**](https://reference.aspose.com/cells/javascript-cpp/externalconnection/) object. The following code snippet demonstrates the use of the [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--) property to get the external connection data source of the pivot table.
+Aspose.Cells for JavaScript via C++ provides the ability to get the external connection data source of the pivot table. For this, the API provides the [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--) property of the [**PivotTable**](https://reference.aspose.com/cells/javascript-cpp/pivottable/) class. The [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--) **property** returns the [**ExternalConnection**](https://reference.aspose.com/cells/javascript-cpp/externalconnection/) object. The following code snippet demonstrates the use of the [**externalConnectionDataSource**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#externalConnectionDataSource--) property to get the external connection data source of the pivot table.
 
 ## **Sample Code**
 
@@ -83,4 +83,4 @@ Aspose.Cells for JavaScript via C++ provides the ability to get the external con
 
 The source file used in the code snippet is attached for reference.
 
-[Source File](104398862.xlsx)
+[Source File](104398862.xlsx).

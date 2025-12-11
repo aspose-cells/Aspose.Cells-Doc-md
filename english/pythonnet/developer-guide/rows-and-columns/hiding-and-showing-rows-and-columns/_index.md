@@ -21,7 +21,7 @@ Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://refere
 
 ## **How to Hide Rows and Columns**
 
-Developers can hide a row or column by calling the [**hide_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/hide_row/) and [**hide_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/hide_column/) methods of the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**hide_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/hide_row/) and [**hide_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/hide_column/) methods of the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection respectively. Both methods take the row or column index as a parameter to hide the specific row or column.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Hiding-HidingRowsAndColumns-1.py" >}}
 
@@ -35,14 +35,14 @@ It is also possible to hide a row or column by setting the row height or column 
 
 Developers can show any hidden row or column by calling the [**unhide_row**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_row/) and [**unhide_column**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_column/) methods of the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection respectively. Both methods take two parameters:
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.  
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-Hiding-UnhidingRowsAndColumns-1.py" >}}
 
 {{% alert color="primary" %}}
 
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: worksheet.Cells.UnhideColumn(5, -1)
+While making a hidden column visible, if you need to restore it to its previously assigned width or to its original width, unhide the column with a negative width. For example: `worksheet.Cells.UnhideColumn(5, -1)`
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Developers can hide multiple rows or columns at once by calling the [**hide_rows
 
 {{% alert color="primary" %}}
 
-It is also possible to use the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) class' [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) and [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) methods to make multiple rows and columns visible.
+It is also possible to use the **Cells** class's [**unhide_rows**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_rows/) and [**unhide_columns**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/unhide_columns/) methods to make multiple rows and columns visible.
 
 {{% /alert %}}
 {{< app/cells/assistant language="python-net" >}}

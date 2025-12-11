@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-In this topic, we will discuss about changing the font and font color of rows and columns of a worksheet. This is a basic level of formatting feature offered by Aspose.Cells.GridDesktop that empowers developers to customize the view of their worksheets for making them more presentable.
+In this topic, we will discuss changing the font and font color of rows and columns of a worksheet. This is a basic formatting feature offered by Aspose.Cells.GridDesktop that empowers developers to customize the view of their worksheets to make them more presentable.
 
 {{% /alert %}} 
 ## **Applying Style on a Column**
@@ -23,7 +23,7 @@ To apply a custom style on a column using Aspose.Cells.GridDesktop, please follo
 - Set **Style** properties according to your custom needs
 - Finally, set **Style** of the **Column** with the updated one
 
-There are many useful properties and methods offered by **Style** object that can be used by developers to customize the style according to their requirements.
+There are many useful properties and methods offered by the **Style** object that can be used by developers to customize the style according to their requirements.
 
 
 
@@ -37,7 +37,7 @@ To apply a custom style on a row using Aspose.Cells.GridDesktop, please follow t
 - Set **Style** properties according to your custom needs
 - Finally, set **Style** of the **Row** with the updated one
 
-There are many useful properties and methods offered by **Style** object that can be used by developers to customize the style according to their requirements.
+There are many useful properties and methods offered by the **Style** object that can be used by developers to customize the style according to their requirements.
 
 
 

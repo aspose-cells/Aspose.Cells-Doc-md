@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 --- 
 
 ## **Possible Usage Scenarios** 
-The High-Low-Close (HLC) stock chart uses four columns of data. The first column is a category, usually a date but stock names can also be used. The next three columns in order are for high, low, and closing prices. The range of price for each category is indicated by a vertical line from low to high, and closing price is shown using a tickmark extending to the right of this line. 
+The High-Low-Close (HLC) stock chart uses four columns of data. The first column is a category, usually a date but stock names can also be used. The next three columns in order are for high, low, and closing prices. The range of price for each category is indicated by a vertical line from low to high, and the closing price is shown using a tickmark extending to the right of this line. 
 
 ![todo:image_alt_text](sample.png) 
 ## **Visibility improvements in the chart** 
@@ -42,10 +42,10 @@ int main()
     // Retrieve the Chart object
     Chart chart = worksheet.GetCharts().Get(pieIdx);
 
-    // Set the legend can be showed
+    // Set the legend to be shown
     chart.SetShowLegend(true);
 
-    // Set the chart title name 
+    // Set the chart title
     chart.GetTitle().SetText(u"High-Low-Close Stock");
 
     // Set the Legend at the bottom of the chart area
@@ -63,7 +63,7 @@ int main()
     chart.GetNSeries().Get(2).GetMarker().GetArea().SetFormatting(FormattingType::Custom);
     chart.GetNSeries().Get(2).GetMarker().GetArea().SetForegroundColor(Color::Maroon());
 
-    // Fill the PlotArea area with nothing 
+    // Fill the PlotArea with nothing 
     chart.GetPlotArea().GetArea().GetFillFormat().SetFillType(FillType::None);
 
     // Save the Excel file

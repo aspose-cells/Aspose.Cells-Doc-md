@@ -4,22 +4,22 @@ linktitle: Formatting Slicer
 type: docs  
 weight: 20  
 url: /nodejs-cpp/formatting-slicer/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
-  
+
 ## **Possible Usage Scenarios**  
-  
-You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells for Node.js via C++ also allows you to do this using the [**Slicer.getNumberOfColumns()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getNumberOfColumns--) and [**Slicer.getStyleType()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getStyleType--) properties.  
-  
+
+You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style, etc. Aspose.Cells for Node.js via C++ also allows you to do this using the [**Slicer.getNumberOfColumns()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getNumberOfColumns--) and [**Slicer.getStyleType()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#getStyleType--) properties.  
+
 ## **Formatting Slicer**  
-  
-Please see the following code, it loads the [sample Excel file](67338473.xlsx) that contains a slicer. It accesses the slicer and sets its number of columns and style type and saves it as [output Excel file](67338474.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.  
-  
+
+Please see the following code; it loads the [sample Excel file](67338473.xlsx) that contains a slicer, accesses the slicer, sets its number of columns and style type, and saves it as [output Excel file](67338474.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.  
+
 ![todo:image_alt_text](formatting-slicer_1.png)  
-  
+
 ## **Sample Code**  
-  
+
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
@@ -45,5 +45,5 @@ slicer.setStyleType(AsposeCells.SlicerStyleType.SlicerStyleLight6);
 // Save the workbook in output XLSX format.
 wb.save("outputFormattingSlicer.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

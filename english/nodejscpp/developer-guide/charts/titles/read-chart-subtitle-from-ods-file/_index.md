@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Read Chart Subtitle from ODS File**
 
-Aspose.Cells provides you with the ability to read chart subtitles in ODS files by using the [**Chart.getSubTitle()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getSubTitle--) property. The following sample code loads the [sample ODS file](89620481.ods) and reads the chart subtitle using the [**Chart.getSubTitle()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getSubTitle--) property and prints it in the Console Window. Please see the console output of the code given below for reference.
+Aspose.Cells provides you with the ability to read chart subtitles in ODS files by using the [**Chart.getSubTitle()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getSubTitle--) property. The following sample code loads the [sample ODS file](89620481.ods) and reads the chart subtitle using the [**Chart.getSubTitle()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getSubTitle--) property and prints it in the console window. Please see the console output of the code shown below for reference.
 
 ## **Sample Code**
 
@@ -38,8 +38,6 @@ console.log("Chart Subtitle: " + chart.getSubTitle().getText());
 ## **Console Output**
 
 {{< highlight javascript >}}
-
 Chart Subtitle: Sample Chart Subtitle
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

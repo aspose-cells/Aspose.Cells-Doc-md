@@ -3,7 +3,7 @@ title: Protect and Unprotect Workbook Structure
 type: docs
 weight: 40
 url: /python-net/protect-and-unprotect-workbook-structure/
-description: Protect and unprotect workbook structure of Excel files using CSharp codes.
+description: Protect and unprotect workbook structure of Excel files using C# code.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -18,15 +18,16 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 
 **![protect and unprotect workbook structure](protect-and-unprotect-workbook-structure.png)**
 
-1. Click **Review > Protect Workbook**.
-1. Enter a password in **the Password box**.
-1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
+1. Click **Review > Protect Workbook**.  
+2. Enter a password in the **Password** box.  
+3. Select **OK**, re‑enter the password to confirm it, and then select **OK** again.  
 
 
 ## **Protect Workbook Structure Using Aspose.Cells for Python via .NET**
-Only need the following simple lines of code to implement protecting workbook structure of Excel files.
+You only need the following simple lines of code to implement protection of the workbook structure of Excel files.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Protection-and-unprotection-Protect-Workbook-Structure.py" >}}
+
 
 ## **Unprotect Workbook Structure Using Aspose.Cells for Python via .NET**
 Unprotecting workbook structure is easy with Aspose.Cells for Python via .NET API.

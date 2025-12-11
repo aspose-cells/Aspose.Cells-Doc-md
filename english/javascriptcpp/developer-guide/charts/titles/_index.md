@@ -10,21 +10,21 @@ url: /javascript-cpp/chart-and-axis-titles/
 
 {{% alert color="primary" %}}
 
-In Excel charts, there are 2 kinds of title:
-1. Chart Title 
-1. Axis Titles
+In Excel charts, there are two kinds of titles:
+1. Chart Title  
+2. Axis Titles
 
 {{% /alert %}}
 
 ## **Title Options**
-Aspose.Cells for JavaScript via C++ also allows managing chart's titles at runtime. With the [Title](https://reference.aspose.com/cells/javascript-cpp/title/) object, you can change text, font, and fill format for titles.
+Aspose.Cells for JavaScript via C++ also allows managing charts' titles at runtime. With the [Title](https://reference.aspose.com/cells/javascript-cpp/title/) object, you can change text, font, and fill format for titles.
 
 |![todo:image_alt_text](chart_title.png)|
 
 ## **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for JavaScript via C++ also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/javascript-cpp/title/) property that can be used to set their titles as shown below in an example.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells for JavaScript via C++ also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/javascript-cpp/title/) property that can be used to set their titles as shown in the example below.
 
-The following code snippet demonstrates how to set titles to charts and axes.
+The following code snippet demonstrates how to set titles for charts and axes.
 
 ```html
 <!DOCTYPE html>
@@ -79,7 +79,7 @@ The following code snippet demonstrates how to set titles to charts and axes.
             // Accessing the instance of the newly added chart
             const chart = worksheet.charts.get(chartIndex);
             
-            // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+            // Adding SeriesCollection (chart data source) to the chart ranging from cells A1 to B3
             chart.nSeries.add("A1:B3", true);
             
             // Setting the foreground color of the plot area
@@ -103,10 +103,10 @@ The following code snippet demonstrates how to set titles to charts and axes.
             // Setting the font color of the chart title to blue
             chart.title.font.color = AsposeCells.Color.Blue;
             
-            // Setting the title of category axis of the chart
+            // Setting the title of the category axis of the chart
             chart.categoryAxis.title.text = "Category";
             
-            // Setting the title of value axis of the chart
+            // Setting the title of the value axis of the chart
             chart.valueAxis.title.text = "Value";
             
             // Saving the Excel file
@@ -124,5 +124,5 @@ The following code snippet demonstrates how to set titles to charts and axes.
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Read Chart Subtitle from ODS File](/cells/javascript-cpp/read-chart-subtitle-from-ods-file/)

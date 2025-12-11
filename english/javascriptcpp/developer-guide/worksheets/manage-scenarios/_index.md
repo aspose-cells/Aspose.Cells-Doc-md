@@ -10,7 +10,7 @@ keywords: create scenario worksheet JavaScript via C++, remove scenario excel wo
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to create, manipulate or delete scenarios in spreadsheets. A scenario is a named 'what if?' model that includes variable input cells linked by one or more formulas. Before creating a scenario, design the worksheet so that it contains at least one formula that depends on cells that different values can be inserted into. The following example shows how to create and remove scenarios from a worksheet in a workbook via Aspose.Cells APIs.
+Sometimes, you need to create, manipulate, or delete scenarios in spreadsheets. A scenario is a named “what‑if?” model that includes variable input cells linked by one or more formulas. Before creating a scenario, design the worksheet so that it contains at least one formula that depends on cells into which different values can be inserted. The following example shows how to create and remove scenarios from a worksheet in a workbook via Aspose.Cells APIs.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ Aspose.Cells provides some useful classes, for example, [**ScenarioCollection**]
             // Instantiate the Workbook by loading the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
             if (worksheet.scenarios.count > 0) {
@@ -76,7 +76,7 @@ Aspose.Cells provides some useful classes, for example, [**ScenarioCollection**]
             scenario.comment = "Test scenario is created.";
             // Get the input cells for the scenario
             const sic = scenario.inputCells;
-            // Add the scenario on B4 (as changing cell) with default value
+            // Add the scenario on B4 (as the changing cell) with default value
             sic.add(3, 1, "1100000");
 
             // Save the Excel file and provide download link

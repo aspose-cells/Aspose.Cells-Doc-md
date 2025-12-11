@@ -4,7 +4,7 @@ linktitle: Manage Scenarios
 type: docs
 weight: 190
 url: /net/create-manipulate-or-remove-scenarios-from-worksheets/
-description: In this article, you will learn how to create, manipulate or remove Scenarios from Excel Worksheets programmatically using C# Library with .NET API.
+description: In this article, you will learn how to create, manipulate, or remove scenarios from Excel worksheets programmatically using the C# library with the .NET API.
 keywords: create scenario worksheet c#, remove scenario excel worksheet c#, manipulate scenario worksheet c#
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to create, manipulate or delete scenarios in spreadsheets. A scenario is a named 'what if?' model that includes variable input cells linked by one or more formulas. Before creating a scenario, design the worksheet so that it contains at least one formula that depends on cells that different values can be inserted into. The following example shows how to create and remove scenarios from a worksheet in a workbook via Aspose.Cells APIs.
+Sometimes, you need to create, manipulate, or delete scenarios in spreadsheets. A scenario is a named “what‑if?” model that includes variable input cells linked by one or more formulas. Before creating a scenario, design the worksheet so that it contains at least one formula that depends on cells into which different values can be inserted. The following example shows how to create, manipulate, and remove scenarios from a worksheet in a workbook via Aspose.Cells APIs.
 
 {{% /alert %}}
 

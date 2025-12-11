@@ -16,7 +16,7 @@ Sometimes, you need to generate images of Conditional Formatting DataBars. You c
 
 {{% /alert %}}
 
-The following sample code generates the DataBar image of cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the [**DataBar**](https://reference.aspose.com/cells/cpp/aspose.cells/databar/) object and uses its [**ToImage()**](https://reference.aspose.com/cells/cpp/aspose.cells/databar/toimage/) method to generate the image of the cell. Finally, it saves the image on disk.
+The following sample code generates the DataBar image for cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the [**DataBar**](https://reference.aspose.com/cells/cpp/aspose.cells/databar/) object and uses its [**ToImage()**](https://reference.aspose.com/cells/cpp/aspose.cells/databar/toimage/) method to generate the image of the cell. Finally, it saves the image to disk.
 
 ```cpp
 #include <iostream>

@@ -1,15 +1,15 @@
 ---
-title: Replace text in smart art with Golang via C++
-linktitle: Replace text in smart art
+title: Replace text in SmartArt with Go via C++
+linktitle: Replace text in SmartArt
 type: docs
 weight: 1200
 url: /go-cpp/replace-text-in-smart-art/
-description: Learn how to update text in smart art using Aspose.Cells for C++ by setting the Shape.Text property.
+description: Learn how to update text in SmartArt using Aspose.Cells for C++ by setting the Shape.Text property.
 ---
 
 ## **Possible Usage Scenarios**
 
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provides this feature by setting the [**Shape.Text**](https://reference.aspose.com/cells/go-cpp/shape/gettext/) property.
+SmartArt is one of the major objects in a workbook. Often there is a need to update the text in SmartArt. Aspose.Cells provides this feature by setting the [**Shape.Text**](https://reference.aspose.com/cells/go-cpp/shape/gettext/) property.
 
 The sample source file can be downloaded from the following link:
 

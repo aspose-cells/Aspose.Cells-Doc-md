@@ -1,38 +1,38 @@
----
-title: Custom Slice or Sector Colors in Pie Chart with Node.js via C++
-linktitle: Custom Slice or Sector Colors in Pie Chart
-description: Learn how to use Aspose.Cells for Node.js via C++ to customize slice and sector colors in a pie chart. Our guide will demonstrate how to assign unique colors to each slice, sector, or legion for improved visual appeal and data representation.
-keywords: Aspose.Cells for Node.js via C++, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
-type: docs
-weight: 60
-url: /nodejs-cpp/custom-slice-or-sector-colors-in-pie-chart/
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Custom Slice or Sector Colors in Pie Chart with Node.js via C++  
+linktitle: Custom Slice or Sector Colors in Pie Chart  
+description: Learn how to use Aspose.Cells for Node.js via C++ to customize slice and sector colors in a pie chart. Our guide will demonstrate how to assign unique colors to each slice, sector, or legend for improved visual appeal and data representation.  
+keywords: Aspose.Cells for Node.js via C++, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.  
+type: docs  
+weight: 60  
+url: /nodejs-cpp/custom-slice-or-sector-colors-in-pie-chart/  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-This article explains how to add custom colors to pie chart slices/sectors. By default, pie charts use the Microsoft Excel default template. To use other colors, redefine the colors in the chart.
+This article explains how to add custom colors to pie chart slices/sectors. By default, pie charts use the Microsoft Excel default template. To use other colors, redefine the colors in the chart.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-To set a custom color for a pie chart's individual slices or sectors:
+To set a custom color for a pie chart's individual slices or sectors:  
 
-1. Access the [**Series**](https://reference.aspose.com/cells/nodejs-cpp/series) object’s [**ChartPoint**](https://reference.aspose.com/cells/nodejs-cpp/chartpoint).
-1. Assign the color of your choice using the [**ChartPoint.getForegroundColor()**](https://reference.aspose.com/cells/nodejs-cpp/area/#getForegroundColor--) property.
+1. Access the [**Series**](https://reference.aspose.com/cells/nodejs-cpp/series) object’s [**ChartPoint**](https://reference.aspose.com/cells/nodejs-cpp/chartpoint).  
+1. Assign the color of your choice using the [**ChartPoint.getForegroundColor()**](https://reference.aspose.com/cells/nodejs-cpp/area/#getForegroundColor--) property.  
 
-This article also explains how to:
+This article also explains how to:  
 
-- A chart's category data.
-- A chart title linked to a cell.
-- The chart title font settings.
-- The position of the legend.
+- A chart's category data.  
+- A chart title linked to a cell.  
+- The chart title font settings.  
+- The position of the legend.  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-[**ChartPoint.getForegroundColor()**](https://reference.aspose.com/cells/nodejs-cpp/area/#getForegroundColor--) is not specific to pie charts but it can be used for all types of charts.
+[**ChartPoint.getForegroundColor()**](https://reference.aspose.com/cells/nodejs-cpp/area/#getForegroundColor--) is not specific to pie charts, but it can be used for all types of charts.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
 ```javascript
 const path = require("path");
@@ -82,7 +82,7 @@ pie.getTitle().setLinkedSource("D2");
 // Set the legend position at the bottom.
 pie.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
 
-// Set the chart title's font name and color
+// Set the chart title's font name and size
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
 
@@ -103,5 +103,5 @@ worksheet.autoFitColumns();
 const outputPath = path.join(dataDir, "output.out.xlsx");
 // Save the workbook
 workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
-```
+```  
 {{< app/cells/assistant language="nodejs-cpp" >}}

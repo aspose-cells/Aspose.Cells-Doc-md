@@ -27,7 +27,7 @@ This section explains how Aspose.Cells for Python via .NET handles globalization
 ## **Locale Configuration**
 To set culture-specific formatting:
 1. Import the CultureInfo class
-2. Configure workbook locale settings
+2. Configure the workbook's locale settings
 3. Apply regional format patterns
 
 ```python

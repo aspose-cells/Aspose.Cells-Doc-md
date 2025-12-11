@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc. but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or more customization.
+A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc., but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or extensive customization.
 
 {{% /alert %}}
 
-Aspose.Cells APIs allows to create a waterfall chart with the help of line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.GetUpBars()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/getupbars/) & [**Series.GetDownBars()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/getdownbars/) properties.
+Aspose.Cells API allows you to create a waterfall chart with the help of a line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.GetUpBars()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/getupbars/) & [**Series.GetDownBars()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/getdownbars/) properties.
 
-Below provided code snippet demonstrates the usage of Aspose.Cells for C++ API to create a waterfall chart from scratch.
+The code snippet below demonstrates the usage of the Aspose.Cells for C++ API to create a waterfall chart from scratch.
 
 ```cpp
 #include <iostream>
@@ -67,7 +67,7 @@ int main()
     cells.Get(U16String(u"C5")).PutValue(7.5);
     cells.Get(U16String(u"C6")).PutValue(9.5);
 
-    // Add a Chart of type Waterfall in same worksheet as of data
+    // Add a chart of type Waterfall in the same worksheet as the data
     int idx = worksheet.GetCharts().Add(ChartType::Waterfall, 4, 4, 25, 13);
 
     // Retrieve the Chart object
@@ -86,11 +86,11 @@ int main()
     chart.GetNSeries().Get(0).GetUpBars().GetArea().SetForegroundColor(Color::Green());
     chart.GetNSeries().Get(0).GetDownBars().GetArea().SetForegroundColor(Color::Red());
 
-    // Make both Series Lines invisible
+    // Make both series lines invisible
     chart.GetNSeries().Get(0).GetBorder().SetIsVisible(false);
     chart.GetNSeries().Get(1).GetBorder().SetIsVisible(false);
 
-    // Set the Plot Area Formatting Automatic
+    // Set the plot area formatting to Automatic
     chart.GetPlotArea().GetArea().SetFormatting(FormattingType::Automatic);
 
     // Delete the Legend

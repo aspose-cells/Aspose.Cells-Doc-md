@@ -9,7 +9,7 @@ description: Learn how to set the line spacing of paragraphs in shapes or textbo
 
 {{% alert color="primary" %}}
 
-You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.lineSpace**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#lineSpace--), [**TextParagraph.spaceBefore**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#spaceBefore--), and [**TextParagraph.spaceAfter**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#spaceAfter--) properties of the [**TextParagraph**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/) class.
+You can set the line spacing of the paragraph, its space before, and its space after using the [**TextParagraph.lineSpace**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#lineSpace--), [**TextParagraph.spaceBefore**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#spaceBefore--), and [**TextParagraph.spaceAfter**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/#spaceAfter--) properties of the [**TextParagraph**](https://reference.aspose.com/cells/javascript-cpp/textparagraph/) class.
 
 {{% /alert %}}
 

@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes you need to search for and replace specific data in a range ignoring any cell values outside the desired range. Aspose.Cells for Node.js via C++ allows you to limit a search to a specific range. This article explains how.
+Sometimes you need to search for and replace specific data in a range, ignoring any cell values outside the desired range. Aspose.Cells for Node.js via C++ allows you to limit a search to a specific range. This article explains how.
 
 {{% /alert %}}
 
-Aspose.Cells for Node.js via C++ provides the [**FindOptions.setRange(CellArea)**](https://reference.aspose.com/cells/nodejs-cpp/findoptions/#setRange-cellarea-) method for specifying a range when searching for data. Below code sample searches and replaces data in a range.
+Aspose.Cells for Node.js via C++ provides the [**FindOptions.setRange(CellArea)**](https://reference.aspose.com/cells/nodejs-cpp/findoptions/#setRange-cellarea-) method for specifying a range when searching for data. The code sample below searches and replaces data in a range.
 
 ```javascript
 const path = require("path");
@@ -38,11 +38,11 @@ opts.setRange(area);
 let cell = null;
 
 do {
-cell = worksheet.getCells().find("search", cell, opts);
-if (cell === null || cell.isNull()) {
-break;
-}
-cell.putValue("replace");
+    cell = worksheet.getCells().find("search", cell, opts);
+    if (cell === null || cell.isNull()) {
+        break;
+    }
+    cell.putValue("replace");
 } while (true);
 
 workbook.save(path.join(dataDir, "output.out.xlsx"));

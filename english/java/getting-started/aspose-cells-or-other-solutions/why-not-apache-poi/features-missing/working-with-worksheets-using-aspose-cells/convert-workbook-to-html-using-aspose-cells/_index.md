@@ -1,41 +1,41 @@
----
-title: Convert Workbook to HTML using Aspose.Cells
-type: docs
-weight: 20
-url: /java/convert-workbook-to-html-using-aspose-cells/
+---  
+title: Convert Workbook to HTML using Aspose.Cells  
+type: docs  
+weight: 20  
+url: /java/convert-workbook-to-html-using-aspose-cells/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Convert Workbook to HTML**
-The Aspose.Cells APIs provides support for exporting spreadsheets to HTML format. For this purpose, **Aspose.Cells** uses the **HtmlSaveOptions** class which allows developers to control several aspects of the output HTML.
+## **Aspose.Cells - Convert Workbook to HTML**  
+The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, **Aspose.Cells** uses the **HtmlSaveOptions** class which allows developers to control several aspects of the output HTML.  
 
-**Java**
+**Java**  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
- //Specify the HTML Saving Options
+ //Specify the HTML Saving Options  
+HtmlSaveOptions save = new HtmlSaveOptions(SaveFormat.HTML);  
 
-HtmlSaveOptions save = new HtmlSaveOptions(SaveFormat.HTML);
+ //Instantiate a workbook and open the template XLS file  
+Workbook book = new Workbook(dataDir + "book1.xls");  
 
-//Instantiate a workbook and open the template XLSX file
+ //Save the HTML file  
+book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);  
 
-Workbook book = new Workbook(dataDir + "book1.xls");
+{{< /highlight >}}  
 
-//Save the HTML file
+## **Download Running Code**  
 
-book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)  
 
-{{< /highlight >}}
-## **Download Running Code**
+## **Download Sample Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeConvertToHTML.java)  
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeConvertToHTML.java)
+{{% alert color="primary" %}}  
 
-{{% alert color="primary" %}} 
+For more details, visit [Converting Excel Files to HTML](/cells/java/converting-workbook-to-different-formats/).  
 
-For more details, visit [Converting Excel Files to HTML](/cells/java/converting-workbook-to-different-formats/).
+{{% /alert %}}  
 
-{{% /alert %}}
 {{< app/cells/assistant language="java" >}}

@@ -1,21 +1,21 @@
----
-title: Combine Multiple Worksheets into a Single Worksheet with C++
-linktitle: Combine Multiple Worksheets into a Single Worksheet
-type: docs
-weight: 160
-url: /cpp/combine-multiple-worksheets-into-a-single-worksheet/
-description: Learn how to combine multiple worksheets into a single worksheet using Aspose.Cells with C++.
+---  
+title: Combine Multiple Worksheets into a Single Worksheet with C++  
+linktitle: Combine Multiple Worksheets into a Single Worksheet  
+type: docs  
+weight: 160  
+url: /cpp/combine-multiple-worksheets-into-a-single-worksheet/  
+description: Learn how to combine multiple worksheets into a single worksheet using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Sometimes, you need to combine multiple worksheets into a single worksheet. This can easily be achieved using Aspose.Cells API. This article will show you a code example that reads a source workbook and combines the data of all source worksheets into a single worksheet inside a destination workbook.
+Sometimes, you need to combine multiple worksheets into a single worksheet. This can easily be achieved using the Aspose.Cells API. This article will show you a code example that reads a source workbook and combines the data of all source worksheets into a single worksheet inside a destination workbook.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-The following code snippet shows you how to combine multiple worksheets into a single worksheet.
+The following code snippet shows you how to combine multiple worksheets into a single worksheet.  
 
 ```c++
 #include <iostream>
@@ -73,6 +73,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
-
+```  
 {{< app/cells/assistant language="cpp" >}}

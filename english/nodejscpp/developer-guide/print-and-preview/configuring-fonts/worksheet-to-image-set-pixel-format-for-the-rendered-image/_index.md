@@ -1,12 +1,12 @@
----  
-title: Worksheet to Image - Set Pixel Format for the Rendered Image with Node.js via C++  
-linktitle: Worksheet to Image - Set Pixel Format for the Rendered Image  
-type: docs  
-weight: 200  
-url: /nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/  
+---
+title: Worksheet to Image - Set Pixel Format for the Rendered Image with Node.js via C++
+linktitle: Worksheet to Image - Set Pixel Format for the Rendered Image
+type: docs
+weight: 200
+url: /nodejs-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----  
+---
 
 {{% alert color="primary" %}}  
 Sometimes you want to specify the pixel format when rendering a worksheet to image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.  
@@ -29,16 +29,16 @@ const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleSetPixelFo
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
-// Set the ImageOrPrintOptions with desired color depth (24 bits per pixel) and image format type
+// Set the ImageOrPrintOptions with desired color depth (24 bits per pixel) and image format
 const opts = new AsposeCells.ImageOrPrintOptions();
 opts.setTiffColorDepth(AsposeCells.ColorDepth.Format24bpp);
 opts.setImageType(AsposeCells.ImageType.Tiff);
 
-// Instantiate SheetRender object based on the first worksheet
+// Instantiate a SheetRender object based on the first worksheet
 const sheetRender = new AsposeCells.SheetRender(worksheet, opts);
 
 // Save the image (first page of the sheet) with the specified options
 sheetRender.toImage(0, path.join(outputDir, "outputSetPixelFormatRenderedImage.tiff"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -7,13 +7,14 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-**Formula calculation** engine is embedded in **Aspose.Cells**. It can not only re-calculate the formula imported from the designer file but also supports to calculate the results of formulas added at runtime.
+**Formula calculation** engine is embedded in **Aspose.Cells**. It can not only recalculate formulas imported from the designer file, but also supports calculating the results of formulas added at runtime.
+
 ## **Adding Formulas & Calculating Results**
-Aspose.Cells supports most of the formulas or functions that are the part of Microsoft Excel. Developers can use these formulas using API or Designer Spreadsheets. Aspose.Excel supports a huge set of Mathematical, String, Boolean, Date/Time, Statistical, Database, Lookup and Reference formulas.
+Aspose.Cells supports most of the formulas and functions that are part of Microsoft Excel. Developers can use these formulas using the API or Designer Spreadsheets. Aspose.Cells supports a huge set of Mathematical, String, Boolean, Date/Time, Statistical, Database, Lookup, and Reference formulas.
 
 Use the Cell class' Formula property to add a formula to a cell. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel. Use a comma (,) to delimit function parameters.
 
-To calclulate the results of the formulas, call the Excel class' CalculateFormula method which processes all the formulas embedded in an Excel file. Read the [url:list of functions supported by the CalculateFormula method](/cells/net/supported-formula-functions/).
+To calculate the results of the formulas, call the Workbook class's **CalculateFormula** method, which processes all the formulas embedded in an Excel file. Read the [url:list of functions supported by the CalculateFormula method](/cells/net/supported-formula-functions/).
 
 {{< highlight csharp >}}
 
@@ -58,13 +59,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
+
 ## **Calculating Formulas Once Only**
-When the user calls Workbook.CalculateFormula() to calculate the values of the formulas inside the workbook template, Aspose.Cells creates a calculating chain. It increases performance when formulas are calculated for the second or third time etc.
-However, if the user template contains lots of diverse formulas, then first time of formula calculation can consume lot of CPU processing time and memory.
+When the user calls **Workbook.CalculateFormula()** to calculate the values of the formulas inside the workbook template, Aspose.Cells creates a calculation chain. It increases performance when formulas are calculated for the second or third time, etc.
 
-Aspose.Cells allows you to turn off creating calculating chain which is useful in scenarios when you want to calculate formulas of your file only once.
+However, if the user template contains many diverse formulas, the first calculation can consume a lot of CPU processing time and memory.
 
-If you are seeking to improve performance of formula calculations by Aspose.Cells and you do not want to create formula calculating chain, then please set **FormulaSettings.EnableCalculationChain** as **false**. By default, it is set as **true**.
+Aspose.Cells allows you to turn off the creation of the calculation chain, which is useful in scenarios where you want to calculate the formulas in your file only once.
+
+If you are seeking to improve performance of formula calculations by Aspose.Cells and you do not want to create a calculation chain, then please set **FormulaSettings.EnableCalculationChain** to **false**. By default, it is set to **true**.
 
 {{< highlight csharp >}}
 
@@ -95,11 +98,13 @@ Console.WriteLine(DateTime.Now);
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Direct Calculation of Formula**
-Formula calculation engine is embedded in Aspose.Cells. Besides, re-calculating the formula imported from the designer file, Aspose.Cells also supports to calculate the results of formulas directly.
-Sometimes, you need to calculate the results of formulas directly without adding them actually in a worksheet. The values of the cells used in formula already exist in a worksheet and all you need is to find the result of those values based on some Ms-Excel formula without adding the formula in a worksheet.
 
-You can use Aspose.Cells Formula Calculation Engine API i.e **worksheet.Calculate(string formula)** to calculate the results of such formulas without actually adding them in worksheet.
+## **Direct Calculation of Formula**
+The formula calculation engine is embedded in Aspose.Cells. In addition to recalculating formulas imported from the designer file, Aspose.Cells also supports calculating the results of formulas directly.
+
+Sometimes, you need to calculate the results of formulas directly without actually adding them to a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on an Excel formula without adding the formula to the worksheet.
+
+You can use the Aspose.Cells Formula Calculation Engine API, i.e., **worksheet.Calculate(string formula)**, to calculate the results of such formulas without actually adding them to a worksheet.
 
 {{< highlight csharp >}}
 
@@ -139,9 +144,10 @@ Debug.WriteLine("Value of A2: " + cellA2.StringValue);
 
 Debug.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 
-workbook.Save("Calulate Any Formulae.xls");
+workbook.Save("CalculateAnyFormulas.xls");
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

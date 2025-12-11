@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-A digital signature provides assurance that a workbook file is valid and no one has altered it. You can create a personal digital signature by using the **Microsoft Selfcert.exe** or any other tool, or you can purchase a digital signature. After you create a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.
+A digital signature provides assurance that a workbook file is valid and no one **has not** altered it. You can create a personal digital signature by using the **Microsoft Selfcert.exe** or any other tool, or you can purchase a digital signature. After you create a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.
 
 {{% /alert %}}
 
@@ -28,9 +28,7 @@ Please see the following sample code that describes how you can perform the task
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-AssignAndValidateDigitalSignatures-AssignAndValidateDigitalSignatures.cs" >}}
 
-
-
-## **Advance topics**
+## **Advanced topics**
 - [Add Digital Signature to an already signed Excel file](/cells/net/add-digital-signature-to-an-already-signed-excel-file/)
 - [Add Signature line to the worksheet](/cells/net/add-signature-line/)
 - [Support for XAdES Signature](/cells/net/support-for-xades-signature/)

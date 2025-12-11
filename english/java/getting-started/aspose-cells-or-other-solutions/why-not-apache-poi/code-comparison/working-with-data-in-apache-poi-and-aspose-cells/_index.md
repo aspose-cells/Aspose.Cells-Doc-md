@@ -7,7 +7,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
- **This section includes the following topics:**
+**This section includes the following topics:**
 
 - [Getting Cell Contents](/cells/java/getting-cell-contents/)
 - [Insert Hyperlinks in Worksheet](/cells/java/insert-hyperlinks-in-worksheet/)

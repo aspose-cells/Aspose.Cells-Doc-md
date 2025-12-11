@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Possible Usage Scenarios
 
-If you want to read the color of the glow effect of any shape, then please use the [**Shape.getColor()**](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#getColor--) property. It will help you find the various properties relating to the color of the glow effect of the shape.
+If you want to read the color of the glow effect of any shape, please use the [**Shape.getColor()**](https://reference.aspose.com/cells/nodejs-cpp/gloweffect/#getColor--) property. It provides access to various properties related to the color of the shape's glow effect.
 
 ## Read Color of the Glow Effect of Shape
 
@@ -51,7 +51,6 @@ console.log("Type: " + color.getType());
 Here is the console output of the above sample code when executed with the provided [source excel file](22774108.xlsx).
 
 {{< highlight javascript >}}
-
 Color: Color [A=222, R=255, G=0, B=0]
 
 ColorIndex: 16711672
@@ -61,6 +60,5 @@ IsShapeColor: True
 Transparency: 0.13
 
 Type: RGB
-
 {{< /highlight >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

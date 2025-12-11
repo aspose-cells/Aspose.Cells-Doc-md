@@ -8,7 +8,6 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Since the release of Excel 2002 or XP, Microsoft has added many advanced protection settings.
@@ -38,7 +37,7 @@ To view the protection settings available in Excel XP:
 To view the protection settings available in Excel 2016:
 
 1. From the **File** menu, select **Protect Workbook** followed by **Protect Current Sheet**.
-1. Select the **Protect Sheet** in the **Review** menu.
+2. Select **Protect Sheet** in the **Review** menu.
 
 Following the steps mentioned above will show a dialog where you can allow or restrict worksheet features or apply a password to the worksheet.
 
@@ -54,76 +53,80 @@ Below is a small example application. It opens an Excel file and uses most of th
 
 ```javascript
 try {
-const path = require("path");
-const fs = require("fs");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const fs = require("fs");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "book1.xls");
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
+    const filePath = path.join(dataDir, "book1.xls");
 
-// Creating a file stream containing the Excel file to be opened
-const fstream = fs.createReadStream(filePath);
+    // Creating a file stream containing the Excel file to be opened
+    const fstream = fs.createReadStream(filePath);
 
-// Reading the file stream into a buffer
-const fileBuffer = [];
-fstream.on('data', chunk => fileBuffer.push(chunk));
-fstream.on('end', () => {
-const workbook = new AsposeCells.Workbook(Buffer.concat(fileBuffer));
+    // Reading the file stream into a buffer
+    const fileBuffer = [];
+    fstream.on('data', chunk => fileBuffer.push(chunk));
+    fstream.on('end', () => {
+        const workbook = new AsposeCells.Workbook(Buffer.concat(fileBuffer));
 
-// Accessing the first worksheet in the Excel file
-const worksheet = workbook.getWorksheets().get(0);
+        // Accessing the first worksheet in the Excel file
+        const worksheet = workbook.getWorksheets().get(0);
 
-// Restricting users to delete columns of the worksheet
-worksheet.getProtection().setAllowDeletingColumn(false);
+        // Restricting users from deleting columns of the worksheet
+        worksheet.getProtection().setAllowDeletingColumn(false);
 
-// Restricting users to delete row of the worksheet
-worksheet.getProtection().setAllowDeletingRow(false);
+        // Restricting users from deleting rows of the worksheet
+        worksheet.getProtection().setAllowDeletingRow(false);
 
-// Restricting users to edit contents of the worksheet
-worksheet.getProtection().setAllowEditingContent(false);
+        // Restricting users from editing contents of the worksheet
+        worksheet.getProtection().setAllowEditingContent(false);
 
-// Restricting users to edit objects of the worksheet
-worksheet.getProtection().setAllowEditingObject(false);
+        // Restricting users from editing objects of the worksheet
+        worksheet.getProtection().setAllowEditingObject(false);
 
-// Restricting users to edit scenarios of the worksheet
-worksheet.getProtection().setAllowEditingScenario(false);
+        // Restricting users from editing scenarios of the worksheet
+        worksheet.getProtection().setAllowEditingScenario(false);
 
-// Restricting users to filter
-worksheet.getProtection().setAllowFiltering(false);
+        // Restricting users from filtering
+        worksheet.getProtection().setAllowFiltering(false);
 
-// Allowing users to format cells of the worksheet
-worksheet.getProtection().setAllowFormattingCell(true);
+        // Allowing users to format cells of the worksheet
+        worksheet.getProtection().setAllowFormattingCell(true);
 
-// Allowing users to format rows of the worksheet
-worksheet.getProtection().setAllowFormattingRow(true);
+        // Allowing users to format rows of the worksheet
+        worksheet.getProtection().setAllowFormattingRow(true);
 
-// Allowing users to insert columns in the worksheet
-worksheet.getProtection().setAllowFormattingColumn(true);
+        // Allowing users to format columns of the worksheet
+        worksheet.getProtection().setAllowFormattingColumn(true);
 
-// Allowing users to insert hyperlinks in the worksheet
-worksheet.getProtection().setAllowInsertingHyperlink(true);
+        // Allowing users to insert hyperlinks in the worksheet
+        worksheet.getProtection().setAllowInsertingHyperlink(true);
 
-// Allowing users to insert rows in the worksheet
-worksheet.getProtection().setAllowInsertingRow(true);
+        // Allowing users to insert rows in the worksheet
+        worksheet.getProtection().setAllowInsertingRow(true);
 
-// Allowing users to select locked cells of the worksheet
-worksheet.getProtection().setAllowSelectingLockedCell(true);
+        // Allowing users to select locked cells of the worksheet
+        worksheet.getProtection().setAllowSelectingLockedCell(true);
 
-// Allowing users to select unlocked cells of the worksheet
-worksheet.getProtection().setAllowSelectingUnlockedCell(true);
+        // Allowing users to select unlocked cells of the worksheet
+        worksheet.getProtection().setAllowSelectingUnlockedCell(true);
 
-// Allowing users to sort
-worksheet.getProtection().setAllowSorting(true);
+        // Allowing users to sort
+        worksheet.getProtection().setAllowSorting(true);
 
-// Allowing users to use pivot tables in the worksheet
-worksheet.getProtection().setAllowUsingPivotTable(true);
+        // Allowing users to use pivot tables in the worksheet
+        worksheet.getProtection().setAllowUsingPivotTable(true);
 
-// Saving the modified Excel file
-workbook.save(path.join(dataDir, "output.xls"), AsposeCells.SaveFormat.Excel97To2003);
+        // Saving the modified Excel file
+        workbook.save(path.join(dataDir, "output.xls"), AsposeCells.SaveFormat.Excel97To2003);
 
-// Closing the file stream to free all resources
-fstream.close();
+        // Closing the file stream to free all resources
+        fstream.close();
+    });
+} catch (e) {
+    console.error(e);
+}
 ```
 
 {{% alert color="primary" %}}
@@ -149,6 +152,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "Book1.xlsx");
+
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
@@ -156,7 +160,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 const worksheet = workbook.getWorksheets().get(0);
 
 worksheet.getCells().get("A1").getStyle().setIsLocked(true);
-// Finally, Protect the sheet now.
+// Finally, protect the sheet now.
 worksheet.protect(AsposeCells.ProtectionType.All);
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```

@@ -1,22 +1,22 @@
----
-title: Render Worksheet to Graphic Context
-type: docs
-weight: 300
-url: /net/render-worksheet-to-graphic-context/
+---  
+title: Render Worksheet to Graphic Context  
+type: docs  
+weight: 300  
+url: /net/render-worksheet-to-graphic-context/  
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 {{% alert color="primary" %}}
 
-Aspose.Cells can now render worksheet to graphic context. Graphic context can be anything like image file, screen or printer etc. Please use one of the following two methods to render worksheet to graphic context.
+Aspose.Cells can now render a worksheet to a graphic context. A graphic context can be anything such as an image file, a screen, or a printer, etc. Please use one of the following two methods to render a worksheet to a graphic context.
 
-- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/1)
+- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/1)  
 - [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/2)
 
 {{% /alert %}}
 
-The following code illustrates how to use Aspose.Cells to render worksheet to graphic context. Once you will execute a code, it will print the entire worksheet and fill the leftover empty space with blue color in graphics context and save the image as **OutputImage_out_.png** file. You can use any source excel file to try this code. Please also read the comments inside the code for better understanding.
+The following code illustrates how to use Aspose.Cells to render a worksheet to a graphic context. Once you execute the code, it will print the entire worksheet and fill the leftover empty space with blue color in the graphic context, and save the image as **OutputImage_out_.png** file. You can use any source Excel file to try this code. Please also read the comments inside the code for better understanding.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}  
 {{< app/cells/assistant language="csharp" >}}

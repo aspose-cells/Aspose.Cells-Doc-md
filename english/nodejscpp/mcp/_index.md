@@ -60,7 +60,7 @@ npm install aspose.cells.mcp
 
 This **Excel MCP server** provides 15 comprehensive **Excel automation** tools:
 
-### [File and  Data Operations](/cells/nodejs-cpp/mcp/file-operations/)
+### [File and Data Operations](/cells/nodejs-cpp/mcp/file-operations/)
 - Create **Excel workbooks** and **worksheets**
 - Read/write **Excel data** with **AI-powered** precision
 
@@ -68,7 +68,7 @@ This **Excel MCP server** provides 15 comprehensive **Excel automation** tools:
 - Apply **Excel formulas** with **Excel Formula MCP**
 - Batch **Excel formula** automation
 
-### [Font and  Text Formatting](/cells/nodejs-cpp/mcp/font-formatting/)
+### [Font and Text Formatting](/cells/nodejs-cpp/mcp/font-formatting/)
 - **Excel font styling** with **AI Excel** precision
 - Batch **font formatting** operations
 
@@ -76,7 +76,7 @@ This **Excel MCP server** provides 15 comprehensive **Excel automation** tools:
 - **Excel cell formatting** through **Excel MCP**
 - Advanced **cell styling** automation
 
-### [Row and  Column Operations](/cells/nodejs-cpp/mcp/row-column-operations/)
+### [Row and Column Operations](/cells/nodejs-cpp/mcp/row-column-operations/)
 - **Excel row/column operations** with **AI Excel**
 - Layout management automation
 
@@ -90,7 +90,7 @@ This **Excel MCP server** provides 15 comprehensive **Excel automation** tools:
 - VS Code + GitHub Copilot
 - Cursor IDE
 - Claude Desktop
-- Windsurf
+- Windows
 - Qodo Gen
 
 For detailed examples and advanced usage, see our comprehensive documentation sections.

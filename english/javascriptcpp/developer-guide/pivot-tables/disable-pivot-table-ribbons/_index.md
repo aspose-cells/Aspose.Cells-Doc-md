@@ -1,21 +1,21 @@
----
-title: Disable Pivot Table Ribbons
-type: docs
-weight: 90
-url: /javascript-cpp/disable-pivot-table-ribbons/
-description: How to disable Pivot Table Ribbons with Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript via C++ library, Disable Pivot Table Ribbons Using Aspose.Cells for JavaScript via C++ Excel Library.
----
+---  
+title: Disable Pivot Table Ribbons  
+type: docs  
+weight: 90  
+url: /javascript-cpp/disable-pivot-table-ribbons/  
+description: How to disable Pivot Table Ribbons with Aspose.Cells for JavaScript via C++.  
+keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript via C++ library, Disable Pivot Table Ribbons Using Aspose.Cells for JavaScript via C++ Excel Library.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Pivot table based reports are useful but prone to error if target users do not have detailed knowledge of Excel to configure these reports. In these circumstances, organizations will want to restrict users from being able to change a pivot table based report. Common pivot table features like adding additional filters, slicers, fields, or changing the order of certain things in the report are mostly not recommended for every user. On the other hand, these users shall also be able to refresh the report and use existing filters or slicers. Aspose.Cells for JavaScript via C++ has provided this ability to developers for restricting users from changing these reports while creating these reports. For this purpose, Excel provides a feature to disable the pivot table ribbon and the same is provided by Aspose.Cells for JavaScript via C++, i.e. developer can disable the ribbon which contains controls to modify these reports.
+Pivot‑table‑based reports are useful but prone to error if target users do not have detailed knowledge of Excel to configure them. In these circumstances, organizations will want to restrict users from being able to change a pivot‑table report. Common pivot‑table features—such as adding additional filters, slicers, fields, or changing the order of items in the report—are generally not recommended for every user. At the same time, these users should also be able to refresh the report and use existing filters or slicers. Aspose.Cells for JavaScript via C++ provides this capability to developers, allowing them to prevent users from modifying these reports while the reports are being created. For this purpose, Excel offers a feature to disable the pivot‑table ribbon, and the same feature is exposed by Aspose.Cells for JavaScript via C++; developers can disable the ribbon that contains controls for modifying the reports.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **How to Disable Pivot Table Ribbon Using Aspose.Cells for JavaScript via C++**
+## **How to Disable Pivot Table Ribbon Using Aspose.Cells for JavaScript via C++**  
 
-Following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**enableWizard**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#enableWizard-boolean-) to **false**. Sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
+The following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**enableWizard**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#enableWizard-boolean-) to **false**. The sample pivot‑table file can be downloaded from this [link](pivot_table_test.xlsx).  
 
 ```html
 <!DOCTYPE html>

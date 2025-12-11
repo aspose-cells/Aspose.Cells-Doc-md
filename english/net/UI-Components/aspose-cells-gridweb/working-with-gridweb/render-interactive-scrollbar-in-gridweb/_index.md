@@ -10,11 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells for GridWeb can render interactive scroll bar control inside the GridWeb worksheet. User can interact with the scroll bar like they do in Microsoft Excel. In order to create interactive scroll bar, you must add the links for **jQuery** and **jQuery UI** libraries as shown below.
+Aspose.Cells for GridWeb can render an interactive scrollbar control inside a GridWeb worksheet. Users can interact with the scrollbar just as they do in Microsoft Excel. In order to create an interactive scrollbar, you must add the links to **jQuery** and **jQuery UI** libraries as shown below.
 
 {{< highlight java >}}
 
- <head runat="server">
+<head runat="server">
 
 	<link rel="stylesheet" href="/Scripts/jquery-ui.css">
 
@@ -25,8 +25,9 @@ Aspose.Cells for GridWeb can render interactive scroll bar control inside the Gr
 </head>
 
 {{< /highlight >}}
+
 ## **Render Interactive Scrollbar in GridWeb**
-The following sample code loads the [sample Excel file](61767764.xlsx) containing the scroll bar as shown in the following screenshot. The other screenshots show how the GridWeb renders interactive scroll bar and displays the value of scroll bar in cell B3. Whenever you scroll the scroll bar, the value of cell B3 shows the resulting value.
+The following sample code loads the [sample Excel file](61767764.xlsx) containing the scrollbar as shown in the screenshot below. The other screenshots show how GridWeb renders an interactive scrollbar and displays its value in cell **B3**. Whenever you scroll the scrollbar, the value of cell **B3** updates accordingly.
 
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
@@ -35,10 +36,11 @@ The following sample code loads the [sample Excel file](61767764.xlsx) containin
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
+
 ## **Sample Code**
 {{< highlight java >}}
 
- <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 
 <%@ Register TagPrefix="acw" Namespace="Aspose.Cells.GridWeb" Assembly="Aspose.Cells.GridWeb" %>
 
@@ -48,17 +50,13 @@ The following sample code loads the [sample Excel file](61767764.xlsx) containin
 
 <head runat="server">
 
-
-
 	<link rel="stylesheet" href="/Scripts/jquery-ui.css">
 
 	<script src="/Scripts/jquery-2.1.1.js"></script>
 
 	<script src="/Scripts/jquery-ui.js"></script>
 
-
-
-    <title>Test GridWeb</title>
+	<title>Test GridWeb</title>
 
 </head>
 
@@ -70,7 +68,7 @@ The following sample code loads the [sample Excel file](61767764.xlsx) containin
 
             <div>
 
-                <b>GridWeb Version:&nbsp </b>
+                <b>GridWeb Version:&nbsp;</b>
 
                 <asp:Label ID="lblVersion" runat="server" Text="Label"></asp:Label>
 
@@ -159,6 +157,5 @@ public partial class TestGridWeb : System.Web.UI.Page
     }
 
 }
-
 
 {{< /highlight >}}

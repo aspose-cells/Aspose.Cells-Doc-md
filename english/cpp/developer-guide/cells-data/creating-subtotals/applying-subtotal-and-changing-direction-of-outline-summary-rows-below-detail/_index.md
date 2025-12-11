@@ -4,27 +4,27 @@ linktitle: Applying Subtotal and Changing Direction of Outline Summary Rows belo
 type: docs
 weight: 100
 url: /cpp/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: Learn how to apply subtotal and change direction of outline summary Rows below Detail by using the Aspose.Cells for C++ API.
-keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
+description: Learn how to apply subtotal and change the direction of outline summary rows below detail by using the Aspose.Cells for C++ API.
+keywords: Apply subtotal, Add subtotal, change direction of outline summary rows below detail, change direction of outline summary columns to right of detail, Create subtotal and change direction of outline summary rows below detail
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-This article will explain how to apply Subtotal to data and change the direction of Outline Summary Rows below Detail.
+This article will explain how to apply Subtotal to data and change the direction of outline summary rows below detail.
 
 You can apply Subtotal to data using the [**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/subtotal/) method. It takes the following parameters:
 
-- **CellArea** - The range to apply subtotal on
-- **GroupBy** - The field to group by, as a zero-based integer offset
-- **Function** - The subtotal function.
-- **TotalList** - An array of zero-based field offsets, indicating the fields to which the subtotals are added.
-- **Replace** - Indicates whether to replace the current subtotals
-- **PageBreaks** - Indicates whether to add page break between groups
-- **SummaryBelowData** - Indicates whether to add summary below data.
+- **CellArea** – The range to apply subtotal on
+- **GroupBy** – The field to group by, as a zero-based integer offset
+- **Function** – The subtotal function.
+- **TotalList** – An array of zero-based field offsets, indicating the fields to which the subtotals are added.
+- **Replace** – Indicates whether to replace the current subtotals
+- **PageBreaks** – Indicates whether to add page break between groups
+- **SummaryBelowData** – Indicates whether to add summary below data.
 
-Also, you can control the direction of Outline **Summary rows below detail** as shown in the following screenshot using the `Worksheet.Outline.SummaryRowBelow` property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**.
+Also, you can control the direction of outline **summary rows below detail** as shown in the following screenshot using the `Worksheet.Outline.SummaryRowBelow` property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**.
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
@@ -32,7 +32,7 @@ Also, you can control the direction of Outline **Summary rows below detail** as 
 
 ## Images of source and output files
 
-The following screenshot shows the source Excel file used in the sample code below which contains some data in columns A and B.
+The following screenshot shows the source Excel file used in the sample code below, which contains some data in columns A and B.
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
@@ -68,16 +68,16 @@ int main()
     // Get the Cells collection in the first worksheet
     Cells cells = worksheet.GetCells();
 
-    // Create a cellarea i.e.., A2:B11
+    // Create a CellArea, i.e., A2:B11
     CellArea ca = CellArea::CreateCellArea(u"A2", u"B11");
 
-    // Apply subtotal, the consolidation function is Sum and it will applied to Second column (B) in the list
+    // Apply subtotal; the consolidation function is Sum and it will be applied to the second column (B) in the list
     cells.Subtotal(ca, 0, ConsolidationFunction::Sum, { 1 }, true, false, true);
 
     // Set the direction of outline summary
     worksheet.GetOutline().SetSummaryRowBelow(true);
 
-    // Save the excel file
+    // Save the Excel file
     workbook.Save(outDir + u"output_out.xlsx");
 
     std::cout << "Subtotal applied successfully!" << std::endl;

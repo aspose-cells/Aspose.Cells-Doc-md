@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ![todo:image_alt_text](Find_and_Replace.png)
 
-When we click on find button following is the code:
+When we click on the **Find** button, the following is the code:
 
 {{< highlight csharp >}}
 
@@ -57,7 +57,7 @@ When we click on find button following is the code:
 
 {{< /highlight >}}
 
-Clicking on Replace button following code is executed:
+When clicking on the **Replace** button, the following code is executed:
 
 {{< highlight csharp >}}
 
@@ -113,6 +113,6 @@ Clicking on Replace button following code is executed:
 
 ## **Download Sample Code**
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
 {{< app/cells/assistant language="csharp" >}}

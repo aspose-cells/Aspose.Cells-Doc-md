@@ -1,5 +1,5 @@
 ---
-title: Export similar Border Style when Border Style is not supported by Web Browsers
+title: Export Similar Border Style When Border Style Is Not Supported by Web Browsers
 type: docs
 weight: 70
 url: /net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel supports some type of dashed borders which are not supported by Web Browsers. When you convert such an Excel file into HTML using Aspose.Cells, such borders are removed. However, Aspose.Cells can also support to display such borders with [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle) property. Please set its value as **true** and the unsupported borders will also be exported to HTML file.
+Microsoft Excel supports some types of dashed borders that are not supported by web browsers. When you convert such an Excel file into HTML using Aspose.Cells, those borders are removed. However, Aspose.Cells can also display such borders with the **[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)** property. Please set its value to **true**, and the previously unsupported borders will be exported to the HTML file.
 
-## **Export similar Border Style when Border Style is not supported by Web Browsers**
+## **Export Similar Border Style When Border Style Is Not Supported by Web Browsers**
 
-The following sample code loads the [sample Excel file](64716806.xlsx) that contains some unsupported borders as shown in the following screenshot. The screenshot further illustrates the effect of [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle) property inside the [output HTML](64716804.zip).
+The following sample code loads the **[sample Excel file](64716806.xlsx)** that contains some unsupported borders, as shown in the screenshot below. The screenshot further illustrates the effect of **[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)** in the **[output HTML](64716804.zip)**.
 
 ![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 

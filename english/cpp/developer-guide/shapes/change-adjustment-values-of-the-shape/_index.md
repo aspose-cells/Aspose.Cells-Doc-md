@@ -13,12 +13,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Aspose.Cells provides [**Shape.Geometry.GetShapeAdjustValues**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/geometry/getshapeadjustvalues/) property to make changes to the adjustment points with shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:
 
-- Rounded Rectangle has an adjustment to change the arc
-- Triangle has an adjustment to change the location of the point
-- Trapezoid has an adjustment to change the width of the top
-- Arrows have two adjustments to change the shape of the head and tail
+- Rounded rectangle has an adjustment to change the arc.
+- Triangle has an adjustment to change the location of the point.
+- Trapezoid has an adjustment to change the width of the top.
+- Arrows have two adjustments to change the shape of the head and tail.
 
-This article will explain the use of [**Shape.Geometry.GetShapeAdjustValues**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/geometry/getshapeadjustvalues/) property to change the adjustment value of the different shapes.
+This article will explain the use of [**Shape.Geometry.GetShapeAdjustValues**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/geometry/getshapeadjustvalues/) property to change the adjustment values of the different shapes.
 
 {{% /alert %}}
 
@@ -42,7 +42,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Create workbook object from source excel file
+    // Create workbook object from source Excel file
     U16String inputFilePath = srcDir + u"source.xlsx";
     Workbook workbook(inputFilePath);
 
@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-## **How to set or change the RoundedRectangularCallout tip point in excel**
+## **How to set or change the RoundedRectangularCallout tip point in Excel**
 
 The following code example shows how to set or change a rounded rectangle callout tip point position in Excel.
 
@@ -91,10 +91,10 @@ int main()
     // Add a RoundedRectangularCallout to the worksheet
     Shape polygonShape = sheet.GetShapes().AddAutoShape(AutoShapeType::RoundedRectangularCallout, 0, 0, 0, 0, 0, 0);
 
-    polygonShape.SetY(200); // Shape Top properties
-    polygonShape.SetX(500); // Shape Left properties
-    polygonShape.SetWidth(200); // Shape Width
-    polygonShape.SetHeight(100); // Shape Height
+    polygonShape.SetY(200); // Shape top property
+    polygonShape.SetX(500); // Shape left property
+    polygonShape.SetWidth(200); // Shape width
+    polygonShape.SetHeight(100); // Shape height
 
     ShapeGuideCollection shapeGuides = polygonShape.GetGeometry().GetShapeAdjustValues();
     shapeGuides.Add(u"adj1", 1.02167); // The distance between the tip point and the center point

@@ -1,6 +1,6 @@
 ---
-title: Expanding text from right to left while exporting Excel file to HTML with JavaScript via C++
-linktitle: Expanding text from right to left while exporting Excel file to HTML
+title: Expanding Text from Right to Left while Exporting Excel File to HTML with JavaScript via C++
+linktitle: Expanding Text from Right to Left while Exporting Excel File to HTML
 type: docs
 weight: 60
 url: /javascript-cpp/expanding-text-from-right-to-left-while-exporting-excel-file-to/
@@ -8,23 +8,24 @@ url: /javascript-cpp/expanding-text-from-right-to-left-while-exporting-excel-fil
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports expanding text from right to left while exporting Excel file to HTML. This feature has been implemented since the v8.9.0.0. Now if your source excel file contains any text which expands from right to left, then Aspose.Cells will export it to HTML correctly.
+Aspose.Cells now supports expanding text from right to left while exporting an Excel file to HTML. This feature has been implemented since v8.9.0.0. Now, if your source Excel file contains any text that expands from right to left, Aspose.Cells will export it to HTML correctly.
 
 {{% /alert %}}
-## **Expanding text from right to left while exporting Excel file to HTML**
-The following sample code converts the [sample excel file](5115502.xlsx) into HTML. This screenshot shows how the sample excel looks like in Microsoft Excel 2013.
+## **Expanding Text from Right to Left while Exporting Excel File to HTML**
+
+The following sample code converts the [sample Excel file](5115502.xlsx) into HTML. This screenshot shows how the sample Excel looks in Microsoft Excel 2013.
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
-This screenshot shows the [output HTML generated with older version](5115509).
+This screenshot shows the [output HTML generated with the older version](5115509).
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
-This screenshot shows the [output HTML generated with newer version](5115508).
+This screenshot shows the [output HTML generated with the newer version](5115508).
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-As you can see in the screenshots, the newer version expands the right-aligned text to left correctly just like Microsoft Excel.
+As you can see in the screenshots, the newer version expands the right‑aligned text to the left correctly, just like Microsoft Excel.
 
 
 ```html
@@ -68,13 +69,13 @@ As you can see in the screenshots, the newer version expands the right-aligned t
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Load source excel file inside the workbook object
+            // Load source Excel file into the workbook object
             const wb = new Workbook(new Uint8Array(arrayBuffer));
 
             // Get CellsHelper version (converted from getVersion())
             const version = CellsHelper.version;
 
-            // Save workbook in html format
+            // Save the workbook in HTML format
             const outputData = wb.save(SaveFormat.Html);
             const blob = new Blob([outputData], { type: 'text/html' });
             const downloadLink = document.getElementById('downloadLink');

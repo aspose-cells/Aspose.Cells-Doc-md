@@ -9,7 +9,7 @@ description: Learn how to convert Gregorian dates to Japanese dates using Aspose
 
 {{% alert color="primary" %}}  
 
-In the Japanese** **Calendar, a new era begins with the reign of a new emperor. On 1st May 2019, a new emperor came into power with which the Heisei era ended and the Reiwa era began.  
+In the Japanese Calendar, a new era begins with the reign of a new emperor. On 1 May 2019, a new emperor came into power, which marked the end of the Heisei era and the beginning of the Reiwa era.  
 
 {{% /alert %}}  
 

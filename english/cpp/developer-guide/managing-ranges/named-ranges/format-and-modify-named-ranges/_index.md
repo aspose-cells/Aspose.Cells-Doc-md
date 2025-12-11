@@ -188,7 +188,7 @@ int main()
 
 ## **Rename a Named Range**
 
-Aspose.Cells allows you to rename a named range for your need. You may get the named range and rename it by using [**Name.GetText()**](https://reference.aspose.com/cells/cpp/aspose.cells/name/gettext/) attribute. The following example shows how to rename a named range.
+Aspose.Cells allows you to rename a named range to suit your needs. You may get the named range and rename it by using the **Name.SetText()** method. The following example shows how to rename a named range.
 
 ```cpp
 #include <iostream>
@@ -238,7 +238,7 @@ int main()
 
 ## **Union of Ranges**
 
-Aspose.Cells provides [**Range.UnionRang**](https://reference.aspose.com/cells/cpp/aspose.cells/range/unionrang/) method to take the union for ranges, the method returns a [*std::vector*](https://en.cppreference.com/w/cpp/container/vector) object. The following example shows how to take union for ranges.
+Aspose.Cells provides the **Range.UnionRange** method to take the union of ranges; the method returns a *std::vector* object. The following example shows how to take the union of ranges.
 
 ```c++
 #include <iostream>
@@ -283,7 +283,7 @@ int main()
 
 ## **Intersection of Ranges**
 
-Aspose.Cells provides the [**Range.Intersect**](https://reference.aspose.com/cells/cpp/aspose.cells/range/intersect/) method to intersect two ranges. The method returns a [**Range**](https://reference.aspose.com/cells/cpp/aspose.cells/range/) object. To check whether a range intersects another range, use the [**Range.Intersect**](https://reference.aspose.com/cells/cpp/aspose.cells/range/intersect/) method that returns a Boolean value. The following example shows how to intersect the ranges.
+Aspose.Cells provides the **Range.Intersect** method to intersect two ranges. The method returns a **Range** object. To check whether a range intersects another range, use the **Range.IsIntersect** method, which returns a Boolean value. The following example shows how to intersect the ranges.
 
 ```cpp
 #include <iostream>
@@ -353,7 +353,7 @@ int main()
 
 ## **Merge Cells in the Named Range**
 
-Aspose.Cells provides [**Range.Merge()**](https://reference.aspose.com/cells/cpp/aspose.cells/range/merge/) method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
+Aspose.Cells provides the **Range.Merge()** method to merge the cells in the range. The following example shows how to merge the individual cells of a named range.
 
 ```cpp
 #include <iostream>
@@ -397,7 +397,7 @@ int main()
 
     // Create a StyleFlag object
     StyleFlag flag;
-    // Make the relative style attribute ON
+    // Make the corresponding style attribute ON
     flag.SetHorizontalAlignment(true);
 
     // Apply the style to the range
@@ -417,7 +417,7 @@ int main()
 
 ## **Remove a Named Range**
 
-Aspose.Cells provides the [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/cpp/aspose.cells/namecollection/removeat/) method to erase the name of the range. To clear the contents of the range, use [**Cells.ClearRange()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/clearrange/) method. The following example shows how to remove a named range with its contents.
+Aspose.Cells provides the **NameCollection.RemoveAt()** method to erase the name of the range. To clear the contents of the range, use the **Cells.ClearRange()** method. The following example shows how to remove a named range along with its contents.
 
 ```c++
 #include <iostream>
@@ -456,7 +456,7 @@ int main()
     range1.SetOutlineBorder(BorderType::LeftBorder, CellBorderType::Medium, Color::AliceBlue());
     range1.SetOutlineBorder(BorderType::RightBorder, CellBorderType::Medium, Color::Red());
 
-    // Input some data with some formattings into a few cells in the range
+    // Input some data with some formatting into a few cells in the range
     range1.Get(0, 0).PutValue(u"Test");
     range1.Get(0, 4).PutValue(u"123");
 
@@ -479,4 +479,3 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
-{{< app/cells/assistant language="cpp" >}}

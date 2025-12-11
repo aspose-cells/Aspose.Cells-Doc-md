@@ -1,5 +1,5 @@
 ---
-title: Convert Excel workbook to Ods,Sxc and Fods (OpenOffice / LibreOffice calc) with C++
+title: Convert Excel workbook to Ods, Sxc and Fods (OpenOffice / LibreOffice Calc) with C++
 linktitle: Ods
 type: docs
 weight: 20
@@ -10,9 +10,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **About OpenDocument**
-The [OpenDocument format (ODF)](https://en.wikipedia.org/wiki/OpenDocument) is a free and open file format for electronic office documents originally developed by Sun for the Open Office suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.
+The [OpenDocument format (ODF)](https://en.wikipedia.org/wiki/OpenDocument) is a free and open file format for electronic office documents originally developed by Sun for the OpenOffice suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.
 
-## **Convert Ods (OpenOffice / LibreOffice calc) to Excel**
+## **Convert Ods (OpenOffice / LibreOffice Calc) to Excel**
 Aspose.Cells supports loading Ods, Sxc, and Fods which are supported by OpenOffice / LibreOffice Calc, and convert [Ods](book1.ods), [Sxc](book1.sxc), and [Fods](book1.fods) to Excel files.
 
 ```cpp
@@ -26,29 +26,29 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    // Load your source ods file
+    // Load your source ODS file
     U16String odsFilePath(u"book1.ods");
     std::shared_ptr<Workbook> workbook = std::make_shared<Workbook>(odsFilePath);
 
     // Save as xlsx file
     U16String xlsxOutputPath(u"ods_out.xlsx");
-    workbook->Save(xlsxOutputPath);
+    workbook.Save(xlsxOutputPath);
 
-    // Load your source sxc file
+    // Load your source SXC file
     U16String sxcFilePath(u"book1.sxc");
     workbook = std::make_shared<Workbook>(sxcFilePath);
 
     // Save as xls file
     U16String xlsOutputPath(u"sxc_out.xls");
-    workbook->Save(xlsOutputPath);
+    workbook.Save(xlsOutputPath);
 
-    // Load your source fods file
+    // Load your source FODS file
     U16String fodsFilePath(u"book1.fods");
     workbook = std::make_shared<Workbook>(fodsFilePath);
 
     // Save as xlsb file
     U16String xlsbOutputPath(u"fods_out.xlsb");
-    workbook->Save(xlsbOutputPath);
+    workbook.Save(xlsbOutputPath);
 
     std::cout << "Files converted successfully!" << std::endl;
 
@@ -73,13 +73,13 @@ int main()
     // Load your source workbook
     Workbook workbook(u"book1.xlsx");
 
-    // Save as ods file 
+    // Save as ods file
     workbook.Save(u"Out.ods");
 
-    // Save as sxc file 
+    // Save as sxc file
     workbook.Save(u"Out.sxc");
 
-    // Save as fods file 
+    // Save as fods file
     workbook.Save(u"Out.fods");
 
     std::cout << "Files saved successfully!" << std::endl;
@@ -88,7 +88,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Save ODS File in ODF 1.1 and 1.2 Specifications](/cells/cpp/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Working with Background in ODS Files](/cells/cpp/working-with-background-in-ods-files/)
 {{< app/cells/assistant language="cpp" >}}

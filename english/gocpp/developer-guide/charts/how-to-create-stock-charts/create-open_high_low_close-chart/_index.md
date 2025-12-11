@@ -1,5 +1,5 @@
 ---
-title: Create Open-High-Low-Close(OHLC) Stock Chart with Golang via C++
+title: Create Open-High-Low-Close (OHLC) Stock Chart with Golang via C++
 description: Learn how to create an open-high-low-close stock chart using Aspose.Cells for C++. Our guide will demonstrate how to plot stock market data, including the open, high, low, and close prices, onto a chart for better analysis and visualization.
 keywords: Aspose.Cells for C++, Open-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
 type: docs
@@ -15,7 +15,7 @@ The Open-High-Low-Close (OHLC) chart uses five columns of data, in order: catego
 ![todo:image_alt_text](sample.png)
 
 ## **Visibility improvements in the chart**
-We often use colors rather than black and white to indicate increasing and decreasing prices. In the first set of candlesticks below, red shows increasing and green decreasing prices.
+We often use colors rather than black and white to indicate increasing and decreasing prices. In the first set of candlesticks below, red indicates increasing and green indicates decreasing prices.
 
 ![todo:image_alt_text](sample2.png)
 

@@ -9,11 +9,11 @@ description: Learn how to update the Power Query Formula item data source in an 
 
 ## **Usage Scenario**
 
-There might be cases where the data source files are moved and the Excel file is unable to locate the file. In such cases, Aspose.Cells API provides the option to update the Power Query Formula item by using the [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/javascript-cpp/powerqueryformulaitem) class to update the location of the source file.
+There might be cases where the data source files are moved and the Excel file is unable to locate them. In such cases, Aspose.Cells API provides the option to update the Power Query Formula item by using the [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/javascript-cpp/powerqueryformulaitem) class to update the location of the source file.
 
 ## **Updating Power Query Formula Item**
 
-Aspose.Cells API provides the ability to update Power Query Formula Items. The following code snippet demonstrates updating the data source file location in the Excel file by using the [**PowerQueryFormulaItem.value**](https://reference.aspose.com/cells/javascript-cpp/powerqueryformulaitem/#value--) property. The source and output files attached for your reference.
+Aspose.Cells API provides the ability to update Power Query Formula Items. The following code snippet demonstrates updating the data source file location in the Excel file by using the [**PowerQueryFormulaItem.value**](https://reference.aspose.com/cells/javascript-cpp/powerqueryformulaitem/#value--) property. The source and output files are attached for your reference.
 
 - [Source File 1](106364953.xlsx)
 - [Source File 2](106364954.xlsx)
@@ -69,7 +69,7 @@ Aspose.Cells API provides the ability to update Power Query Formula Items. The f
             // Instantiating a Workbook object by loading the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Accessing the mashup data and power query formulas
+            // Accessing the mashup data and Power Query formulas
             const mashupData = workbook.dataMashup;
             const powerQueryFormulas = mashupData.powerQueryFormulas;
             const count = powerQueryFormulas.count;

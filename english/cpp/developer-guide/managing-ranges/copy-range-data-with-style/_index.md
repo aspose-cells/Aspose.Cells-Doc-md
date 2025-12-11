@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-[Copy Range Data Only](/cells/cpp/copy-range-data-only/) explained how to copy cell data between ranges. This article demonstrates how to copy cell ranges while preserving their formatting styles using Aspose.Cells for C++.
+[Copy Range Data Only](/cells/cpp/copy-range-data-only/) **explains** how to copy cell data between ranges. This article demonstrates how to copy cell ranges while preserving their formatting styles using Aspose.Cells for C++.
 
 {{% /alert %}}
 

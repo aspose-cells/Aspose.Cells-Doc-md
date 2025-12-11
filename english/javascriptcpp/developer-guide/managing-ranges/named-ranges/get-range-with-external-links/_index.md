@@ -20,7 +20,7 @@ A lot of times Excel files access data from other Excel files using external lin
 - [**ReferredArea.startColumn**](https://reference.aspose.com/cells/javascript-cpp/referredarea/#startColumn--): The start column of the area
 - [**ReferredArea.startRow**](https://reference.aspose.com/cells/javascript-cpp/referredarea/#startRow--): The start row of the area
 
-The sample code given below demonstrates the use of [**Name.referredAreas(boolean)**](https://reference.aspose.com/cells/javascript-cpp/name/#referredAreas-boolean-) method to get Ranges with external links.
+The sample code given below demonstrates the use of the [**Name.referredAreas(boolean)**](https://reference.aspose.com/cells/javascript-cpp/name/#referredAreas-boolean-) method to get ranges with external links.
 
 ## **Sample Code**
 

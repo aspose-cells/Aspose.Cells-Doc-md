@@ -1,6 +1,6 @@
 ---
-title: Excel Font and  Text Formatting
-linktitle: Font and  Text Formatting
+title: Excel Font and Text Formatting
+linktitle: Font and Text Formatting
 type: docs
 weight: 30
 url: /nodejs-cpp/mcp/font-formatting
@@ -10,14 +10,14 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-# Excel Font and  Text Formatting
+# Excel Font and Text Formatting
 
-Apply professional **Excel font formatting** with AI-powered automation. Style **Excel text** with fonts, colors, sizes, and special effects for polished spreadsheets.
+Apply professional **Excel font formatting** with AI‑powered automation. Style **Excel text** with fonts, colors, sizes, and special effects for polished spreadsheets.
 
 ## Available Tools
 
-- `font_settings` - **Excel font styling** (family, size, bold, italic, color, etc.) with **AI Excel** precision
-- `font_settings_batch` - Apply **Excel font settings** to multiple ranges in batch using **spreadsheet MCP**
+- `font_settings` – **Excel font styling** (family, size, bold, italic, color, etc.) with **AI Excel** precision  
+- `font_settings_batch` – Apply **Excel font settings** to multiple ranges in batch using **spreadsheet MCP**
 
 ## Single Font Operations
 
@@ -166,37 +166,37 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
 ## Font Parameters Reference
 
 ### Font Families
-- `"Arial"` - Clean, modern sans-serif
-- `"Calibri"` - Microsoft Office default
-- `"Times New Roman"` - Traditional serif
-- `"Arial Black"` - Bold display font
-- `"Courier New"` - Monospace font
+- `"Arial"` – Clean, modern sans‑serif  
+- `"Calibri"` – Microsoft Office default  
+- `"Times New Roman"` – Traditional serif  
+- `"Arial Black"` – Bold display font  
+- `"Courier New"` – Monospace font  
 
 ### Font Sizes
-- `8` - Very small text
-- `10` - Small text
-- `11` - Default size
-- `12` - Standard body text
-- `14` - Large text
-- `16` - Heading size
-- `18` - Large heading
+- `8` – Very small text  
+- `10` – Small text  
+- `11` – Default size  
+- `12` – Standard body text  
+- `14` – Large text  
+- `16` – Heading size  
+- `18` – Large heading  
 
 ### Font Colors (Hex Codes)
-- `"#000000"` - Black
-- `"#FFFFFF"` - White
-- `"#FF0000"` - Red
-- `"#0066CC"` - Blue
-- `"#006600"` - Green
-- `"#FF6600"` - Orange
-- `"#800080"` - Purple
+- `"#000000"` – Black  
+- `"#FFFFFF"` – White  
+- `"#FF0000"` – Red  
+- `"#0066CC"` – Blue  
+- `"#006600"` – Green  
+- `"#FF6600"` – Orange  
+- `"#800080"` – Purple  
 
 ### Text Effects
-- `bold: true` - Bold text
-- `italic: true` - Italic text
-- `underline: true` - Underlined text
-- `strikethrough: true` - Strikethrough text
-- `subscript: true` - Subscript text (H₂O)
-- `superscript: true` - Superscript text (x²)
+- `bold: true` – Bold text  
+- `italic: true` – Italic text  
+- `underline: true` – Underlined text  
+- `strikethrough: true` – Strikethrough text  
+- `subscript: true` – Subscript text (H₂O)  
+- `superscript: true` – Superscript text (x²)  
 
 ## Advanced Font Styling
 
@@ -229,7 +229,7 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
 }
 ```
 
-### Color-Coded Data
+### Color‑Coded Data
 ```json
 {
   "tool": "font_settings_batch",
@@ -259,28 +259,28 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
 
 ## Best Practices
 
-1. **Consistency**: Use consistent font families throughout reports
-2. **Hierarchy**: Use font sizes to create visual hierarchy
-3. **Readability**: Ensure adequate contrast between text and background
-4. **Effects**: Use text effects sparingly for emphasis
-5. **Professional**: Stick to standard business fonts for reports
+1. **Consistency** – Use consistent font families throughout reports.  
+2. **Hierarchy** – Use font sizes to create visual hierarchy.  
+3. **Readability** – Ensure adequate contrast between text and background.  
+4. **Effects** – Use text effects sparingly for emphasis.  
+5. **Professional** – Stick to standard business fonts for reports.  
 
 ## Common Use Cases
 
 ### Report Headers
-- Bold, larger font size
-- Contrasting colors
-- Professional font families
+- Bold, larger font size  
+- Contrasting colors  
+- Professional font families  
 
 ### Data Emphasis
-- Bold or italic for important values
-- Color coding for status indicators
-- Strikethrough for deprecated data
+- Bold or italic for important values  
+- Color coding for status indicators  
+- Strikethrough for deprecated data  
 
 ### Scientific Documents
-- Subscript for chemical formulas
-- Superscript for mathematical expressions
-- Monospace for code or data
+- Subscript for chemical formulas  
+- Superscript for mathematical expressions  
+- Monospace for code or data  
 
 ## Error Handling
 
@@ -296,7 +296,7 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
   }
 }
 ```
-**Result**: Falls back to default system font
+**Result**: Falls back to the default system font.
 
 ### Invalid Color Code
 ```json
@@ -310,5 +310,6 @@ Apply professional **Excel font formatting** with AI-powered automation. Style *
   }
 }
 ```
-**Result**: Uses default black color 
+**Result**: Uses the default black color.  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

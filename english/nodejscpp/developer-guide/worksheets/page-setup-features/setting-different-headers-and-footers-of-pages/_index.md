@@ -4,7 +4,7 @@ linktitle: Setting Different Headers and Footers For Different Pages
 type: docs
 weight: 35
 url: /nodejs-cpp/setting-different-headers-and-footers-for-pages-to-excel/
-description: This article provides sample code that shows how to programmatically set headers and footers of Excel worksheet Page Setup using Aspose.Cells for Node.js via C++. Set headers and footers for first, odd, and even pages.
+description: This article provides sample code that shows how to programmatically set headers and footers of an Excel worksheet Page Setup using Aspose.Cells for Node.js via C++. Set headers and footers for first, odd, and even pages.
 keywords: set excel header footer first page Node.js via C++, set excel header footer odd pages Node.js via C++, set excel header footer even pages Node.js via C++
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -21,15 +21,16 @@ Aspose.Cells for Node.js via C++ supports the same feature.
 
 **![Setting Different Headers and Footers](difpage.png)**
 
-1. Click **page Layout > Print Titles > Header/Footer**.
-1. Check **Different Odd and Even Pages** or **Different first page**.
-1. Enter different headers and footers.
+1. Click **page Layout > Print Titles > Header/Footer**.  
+2. Check **Different Odd and Even Pages** or **Different first page**.  
+3. Enter different headers and footers.
 
 ## **Setting Different Headers and Footers with Aspose.Cells for Node.js via C++**
 
 Aspose.Cells behaves the same as Excel.
-1. Sets the flags [PageSetup.isHFDiffOddEven()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffOddEven--) and [PageSetup.isHFDiffFirst()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffFirst--) 
-1. Enter different headers and footers.
+1. Set the flags [PageSetup.isHFDiffOddEven()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffOddEven--) and [PageSetup.isHFDiffFirst()](https://reference.aspose.com/cells/nodejs-cpp/pagesetup/#isHFDiffFirst--)  
+2. Enter different headers and footers.  
+
 ```javascript
 const path = require("path");
 const AsposeCells = require("aspose.cells.node");
@@ -40,7 +41,7 @@ const filePath = path.join(dataDir, "sample.xlsx");
 // Loads the workbook which contains hidden external links
 const wb = new AsposeCells.Workbook(filePath);
 
-// Gets the setting of page setup.
+// Gets the page setup settings.
 const pageSetup = wb.getWorksheets().get(0).getPageSetup();
 // Sets different odd and even pages
 pageSetup.setIsHFDiffOddEven(true);

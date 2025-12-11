@@ -27,7 +27,7 @@ These print options allow users to:
 - Print cell errors.
 - Define page ordering.
 
-Aspose.Cells for JavaScript via C++ supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class. How these properties are used is discussed below in more detail.
+Aspose.Cells for JavaScript via C++ supports all the print options offered by Microsoft Excel, and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class. How these properties are used is discussed below in more detail.
 
 ### **Set Print Area**
 
@@ -93,7 +93,7 @@ To select a specific print area, use the [**PageSetup**](https://reference.aspos
 
 Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class' [**PageSetup.printTitleColumns**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printTitleColumns--) and [**PageSetup.printTitleRows**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printTitleRows--) properties.
 
-The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
+The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
 ```html
 <!DOCTYPE html>
@@ -165,31 +165,31 @@ The rows or columns that will be repeated are defined by passing their row or co
 
 The [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class also provides several other properties to set general print options as follows:
 
-- [**PageSetup.printGridlines**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printGridlines--): a Boolean property that defines whether to print gridlines or not print.
-- [**PageSetup.printHeadings**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printHeadings--): a Boolean property that defines whether to print row and column headings or not.
-- [**PageSetup.blackAndWhite**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#blackAndWhite--): a Boolean property that defines whether to print the worksheet in black and white mode or not.
-- [**PageSetup.printComments**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printComments--): defines whether to display the print comments on the worksheet or at the end of the worksheet.
-- [**PageSetup.printDraft**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printDraft--): a boolean property that defines whether to print the sheet without graphics.
-- [**PageSetup.printErrors**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printErrors--): defines whether to print cell errors as displayed, blank, dash or N/A.
+- [**PageSetup.printGridlines**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printGridlines--): a Boolean property that defines whether to print gridlines or not.  
+- [**PageSetup.printHeadings**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printHeadings--): a Boolean property that defines whether to print row and column headings or not.  
+- [**PageSetup.blackAndWhite**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#blackAndWhite--): a Boolean property that defines whether to print the worksheet in black‑and‑white mode or not.  
+- [**PageSetup.printComments**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printComments--): defines whether to display the print comments on the worksheet or at the end of the worksheet.  
+- [**PageSetup.printDraft**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printDraft--): a Boolean property that defines whether to print the sheet without graphics.  
+- [**PageSetup.printErrors**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printErrors--): defines whether to print cell errors as displayed, blank, dash, or N/A.
 
-To set the [**PageSetup.printComments**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printComments--) and [**PageSetup.printErrors**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printErrors--) properties, Aspose.Cells for JavaScript via C++ also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/javascript-cpp/printcommentstype) and [**PrintErrorsType**](https://reference.aspose.com/cells/javascript-cpp/printerrorstype) that contain pre-defined values to be assigned to the [**PageSetup.printComments**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printComments--) and [**PageSetup.printErrors**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printErrors--) properties respectively.
+To set the [**PageSetup.printComments**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printComments--) and [**PageSetup.printErrors**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#printErrors--) properties, Aspose.Cells for JavaScript via C++ also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/javascript-cpp/printcommentstype) and [**PrintErrorsType**](https://reference.aspose.com/cells/javascript-cpp/printerrorstype), that contain pre‑defined values to be assigned to the corresponding properties.
 
-The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/javascript-cpp/printcommentstype) enumeration are listed below with their descriptions.
+The pre‑defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/javascript-cpp/printcommentstype) enumeration are listed below with their descriptions.
 
-|**Print Comments Types**|**Description**|
+| **Print Comments Types** | **Description** |
 | :- | :- |
-|PrintInPlace|Specifies to print comments as displayed on the worksheet.|
-|PrintNoComments|Specifies not to print comments.|
-|PrintSheetEnd|Specifies to print comments at the end of the worksheet.|
+| PrintInPlace | Specifies to print comments as displayed on the worksheet. |
+| PrintNoComments | Specifies not to print comments. |
+| PrintSheetEnd | Specifies to print comments at the end of the worksheet. |
 
-The pre-defined values of [**PrintErrorsType**](https://reference.aspose.com/cells/javascript-cpp/printerrorstype) enumeration are listed below with their descriptions.
+The pre‑defined values of the [**PrintErrorsType**](https://reference.aspose.com/cells/javascript-cpp/printerrorstype) enumeration are listed below with their descriptions.
 
-|**Print Errors Types**|**Description**|
+| **Print Errors Types** | **Description** |
 | :- | :- |
-|PrintErrorsBlank|Specifies not to print errors.|
-|PrintErrorsDash|Specifies to print errors as "--".|
-|PrintErrorsDisplayed|Specifies to print errors as displayed.|
-|PrintErrorsNA|Specifies to print errors as "#N/A".|
+| PrintErrorsBlank | Specifies not to print errors. |
+| PrintErrorsDash | Specifies to print errors as “--”. |
+| PrintErrorsDisplayed | Specifies to print errors as displayed. |
+| PrintErrorsNA | Specifies to print errors as “#N/A”. |
 
 ```html
 <!DOCTYPE html>
@@ -271,19 +271,19 @@ The pre-defined values of [**PrintErrorsType**](https://reference.aspose.com/cel
 
 ### **Set Page Order**
 
-The [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class provides the [**PageSetup.order**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#order--) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
+The [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup) class provides the [**PageSetup.order**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#order--) property that is used to order multiple pages of your worksheet for printing. There are two possibilities to order the pages as follows.
 
--  prints all the pages down before printing any pages to the right.
--  prints pages left to right before printing the pages below.
+- Prints all the pages down before printing any pages to the right.  
+- Prints pages left‑to‑right before printing the pages below.
 
-Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/javascript-cpp/printordertype) that contains all pre-defined order types.
+Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/javascript-cpp/printordertype) that contains all pre‑defined order types.
 
-The pre-defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/javascript-cpp/printordertype) enumeration are listed below.
+The pre‑defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/javascript-cpp/printordertype) enumeration are listed below.
 
-|**Print Order Types**|**Description**|
+| **Print Order Types** | **Description** |
 | :- | :- |
-|DownThenOver|Represents printing order as down then over.|
-|OverThenDown|Represents printing order as over then down.|
+| DownThenOver | Represents printing order as down then over. |
+| OverThenDown | Represents printing order as over then down. |
 
 ```html
 <!DOCTYPE html>

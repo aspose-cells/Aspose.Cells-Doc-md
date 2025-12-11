@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or width of columns. Sometimes, applying formatting to rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells developers can perform these operations at runtime. Indexes of rows and columns will start from 0.
+When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or the width of columns. Sometimes, applying formatting to rows or columns means that the current height or width needs to change to display the data properly. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. However, with Aspose.Cells, developers can perform these operations at runtime. Indexes of rows and columns start from 0.
 
 {{% /alert %}} 
 ## **Working with Rows**
@@ -17,33 +17,31 @@ When working with spreadsheets and adding data to rows or columns, you might nee
 Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection that represents all cells in the worksheet.
 
 The [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
+
 ### **Setting the Row Height**
 It is possible to set the height of a single row by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) method. The [setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight-int-double-) method takes the following parameters:
 
-- **Row index**, the index of the row that you're changing the height of.
-- **Row height**, the row height to apply on the row.
+- **Row index** – the index of the row whose height you want to change.
+- **Row height** – the height to apply to the row.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightOfRow-SettingHeightOfRow.java" >}}
+
 ### **Setting the Height of All Rows**
 To set the same row height for all rows in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setStandardHeight-double-) method.
 
-
-
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
+
 ## **Working with Columns**
 ### **Setting the Width of a Column**
 Set the width of a column by calling the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) method. The [setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth-int-double-) method takes the following parameters:
 
-- **Column index**, the index of the column that you're changing the width of.
-- **Column width**, the desired column width.
-
-
+- **Column index** – the index of the column whose width you want to change.
+- **Column width** – the desired column width.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfColumn-SettingWidthOfColumn.java" >}}
+
 ### **Setting the Width of All Columns**
 To set the same column width for all columns in a worksheet, use the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection's [setStandardWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setStandardWidth-double-) method.
-
-
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingWidthOfAllColumns-SettingWidthOfAllColumns.java" >}}
 {{< app/cells/assistant language="java" >}}

@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password-protected file) so it can't be read directly, or we should not read it. Aspose.Cells for Node.js via C++ provides the [**FileFormatUtil.detectFileFormat(Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/fileformatutil/#detectFileFormat-uint8array-) static method and some relevant APIs that you can use to process documents.  
+Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password‑protected file) so it can't be read directly, or you should not read it. Aspose.Cells for Node.js via C++ provides the [**FileFormatUtil.detectFileFormat(Uint8Array)**](https://reference.aspose.com/cells/nodejs-cpp/fileformatutil/#detectFileFormat-uint8array-) static method and some relevant APIs that you can use to process documents.  
 {{% /alert %}}  
 
 The following sample code illustrates how to detect a file format (using the file path) and check its extension. You can also determine whether the file is encrypted.  

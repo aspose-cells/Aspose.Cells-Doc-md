@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.get_result_of_smart_art()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/get_result_of_smart_art) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.get_grouped_shapes()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/groupshape/get_grouped_shapes) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.text**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text) property.
+Aspose.Cells can extract text from the Gear Type SmartArt shape. In order to do so, you should first convert the SmartArt shape to a Group shape using the [**Shape.get_result_of_smart_art()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/get_result_of_smart_art) method. Then you should get the array of all the individual shapes forming the Group shape using the [**GroupShape.get_grouped_shapes()**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/groupshape/get_grouped_shapes) method. Finally, you can iterate over all the individual shapes one by one in a loop and extract their text using the [**Shape.text**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text) property.
 
 ## **Extract Text from the Gear Type SmartArt Shape**
 
-The following sample code loads the [sample Excel file](67338483.xlsx) that contains Gear Type Smart Art Shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for a reference.
+The following sample code loads the [sample Excel file](67338483.xlsx) that contains a Gear Type SmartArt shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
 

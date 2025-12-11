@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-[Copy Range Data Only](/cells/nodejs-cpp/copy-range-data-only/) and [Copy Range Data with Style](/cells/nodejs-cpp/copy-range-data-with-style/) explained how to copy data from a range to another on its own or complete with formatting. It is also possible to copy only the formatting. This article shows how.
+[Copy Range Data Only](/cells/nodejs-cpp/copy-range-data-only/) and [Copy Range Data with Style](/cells/nodejs-cpp/copy-range-data-with-style/) **explain** how to copy data from one range to another on its own or **together** with formatting. It is also possible to copy only the formatting. This article shows how.
 
 {{% /alert %}} 
 
 This example creates a workbook, populates it with data and copies a range's style only.
 
-1. Create a range.
-1. Create a `Style` object with specified formatting attributes.
-1. Apply the style formatting to the range.
-1. Create a second range of cells.
-1. Copy the first range's formatting to the second range.
+1. Create a range.  
+2. Create a `Style` object with specified formatting attributes.  
+3. Apply the style formatting to the range.  
+4. Create a second range of cells.  
+5. Copy the first range's formatting to the second range.
 
 ```javascript
 const path = require("path");
@@ -39,10 +39,10 @@ const cells = workbook.getWorksheets().get(0).getCells();
 // Fill some sample data into the cells.
 for (let i = 0; i < 50; i++)
 {
-for (let j = 0; j < 10; j++) 
-{
-cells.get(i, j).putValue(i.toString() + "," + j.toString());
-}
+    for (let j = 0; j < 10; j++) 
+    {
+        cells.get(i, j).putValue(i.toString() + "," + j.toString());
+    }
 }
 
 // Create a range (A1:D3).
@@ -75,13 +75,13 @@ right.setColor(AsposeCells.Color.Blue);
 
 // Create the styleflag object.
 const flag1 = new AsposeCells.StyleFlag();
-// Implement font attribute
+// Implement font attribute.
 flag1.setFontName(true);
 // Implement the shading / fill color.
 flag1.setCellShading(true);
 // Implement border attributes.
 flag1.setBorders(true);
-// Set the Range style.
+// Set the range style.
 range.applyStyle(style, flag1);
 
 // Create a second range (C10:E13).
@@ -91,7 +91,7 @@ const range2 = cells.createRange("C10", "E13");
 range2.copyStyle(range);
 
 const outputFilePath = path.join(dataDir, "copyrangestyle.out.xls");
-// Save the excel file.
+// Save the Excel file.
 workbook.save(outputFilePath);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

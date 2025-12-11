@@ -8,20 +8,19 @@ url: /javascript-cpp/advanced-protection-settings-since-excel-xp/
 
 {{% alert color="primary" %}}
 
-Since the release of Excel 2002 or XP, Microsoft has added many advanced protection settings.
+Since the release of Excel 2002 (XP), Microsoft has added many advanced protection settings.
 
 {{% /alert %}}
-
 
 ## **Introduction**
 
 These protection settings restrict or allow users to:
 
-- Delete rows or columns.
-- Edit contents, objects, or scenarios.
-- Format cells, rows, or columns.
-- Insert rows, columns, or hyperlinks.
-- Select locked or unlocked cells.
+- Delete rows or columns.  
+- Edit contents, objects, or scenarios.  
+- Format cells, rows, or columns.  
+- Insert rows, columns, or hyperlinks.  
+- Select locked or unlocked cells.  
 - Use pivot tables and much more.
 
 Aspose.Cells for JavaScript via C++ supports all the advanced protection settings offered by Excel XP or later versions.
@@ -34,8 +33,8 @@ To view the protection settings available in Excel XP:
 
 To view the protection settings available in Excel 2016:
 
-1. From the **File** menu, select **Protect Workbook** followed by **Protect Current Sheet**.
-1. Select the **Protect Sheet** in the **Review** menu.
+1. From the **File** menu, select **Protect Workbook** followed by **Protect Current Sheet**.  
+2. Select **Protect Sheet** from the **Review** menu.
 
 Following the steps mentioned above will show a dialog where you can allow or restrict worksheet features or apply a password to the worksheet.
 
@@ -45,7 +44,7 @@ Aspose.Cells for JavaScript via C++ supports all of the advanced protection sett
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/javascript-cpp/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class.
 
-The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides the [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property that is used to apply these advanced protection settings. The [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/javascript-cpp/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides the [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property that is used to apply these advanced protection settings. The [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property is, in fact, an object of the [**Protection**](https://reference.aspose.com/cells/javascript-cpp/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
@@ -93,22 +92,22 @@ Below is a small example application. It opens an Excel file and uses most of th
             const worksheet = workbook.worksheets.get(0);
             const protection = worksheet.protection;
 
-            // Restricting users to delete columns of the worksheet
+            // Restricting users from deleting columns of the worksheet
             protection.allowDeletingColumn = false;
 
-            // Restricting users to delete row of the worksheet
+            // Restricting users from deleting rows of the worksheet
             protection.allowDeletingRow = false;
 
-            // Restricting users to edit contents of the worksheet
+            // Restricting users from editing contents of the worksheet
             protection.allowEditingContent = false;
 
-            // Restricting users to edit objects of the worksheet
+            // Restricting users from editing objects of the worksheet
             protection.allowEditingObject = false;
 
-            // Restricting users to edit scenarios of the worksheet
+            // Restricting users from editing scenarios of the worksheet
             protection.allowEditingScenario = false;
 
-            // Restricting users to filter
+            // Restricting users from filtering
             protection.allowFiltering = false;
 
             // Allowing users to format cells of the worksheet
@@ -117,7 +116,7 @@ Below is a small example application. It opens an Excel file and uses most of th
             // Allowing users to format rows of the worksheet
             protection.allowFormattingRow = true;
 
-            // Allowing users to insert columns in the worksheet
+            // Allowing users to format columns of the worksheet
             protection.allowFormattingColumn = true;
 
             // Allowing users to insert hyperlinks in the worksheet
@@ -154,7 +153,7 @@ Below is a small example application. It opens an Excel file and uses most of th
 
 {{% alert color="primary" %}}
 
-Please don't call the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class' [**protect(ProtectionType)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protect-protectiontype-) method when using the [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
+Please don't call the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class’s [**protect(ProtectionType)**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protect-protectiontype-) method when using the [**protection**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#protection--) property. Also, save the file to the Excel97To2003 or Xlsx format because the advanced protection settings are supported only by Excel XP and later versions.
 
 {{% /alert %}}
 
@@ -162,11 +161,11 @@ Please don't call the [**Worksheet**](https://reference.aspose.com/cells/javascr
 
 If you want to restrict users from editing cells, the cells must be locked before any protection settings are applied. Otherwise, the cells can be edited even if the worksheet is protected. In Microsoft Excel XP, cells can be locked through the following dialog:
 
-|**Dialog to lock cells in Excel XP**|
+| **Dialog to lock cells in Excel XP** |
 | :- |
-|![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
+| ![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png) |
 
-It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) formatting that contains a Boolean property, [**isLocked()**](https://reference.aspose.com/cells/javascript-cpp/style/#isLocked--). Set the [**isLocked()**](https://reference.aspose.com/cells/javascript-cpp/style/#isLocked--) property to **true** or **false** to lock or unlock the cell.
+It is also possible to lock cells using the Aspose.Cells API. Each cell can obtain a **Style** object that contains a Boolean property, **isLocked()**. Set the **isLocked()** property to **true** or **false** to lock or unlock the cell.
 
 ```html
 <!DOCTYPE html>
@@ -220,7 +219,7 @@ It is possible to lock cells using the Aspose.Cells API too. Each cell can get [
             // Protect the sheet now.
             worksheet.protect(ProtectionType.All);
 
-            // Saving the modified Excel file and provide download link
+            // Saving the modified Excel file and providing a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

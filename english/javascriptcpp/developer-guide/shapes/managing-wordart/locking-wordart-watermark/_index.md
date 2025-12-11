@@ -9,11 +9,11 @@ description: Learn how to lock WordArt watermarks in Aspose.Cells for JavaScript
 
 {{% alert color="primary" %}}  
 
-Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that the WordArt becomes an object that you can move and position on the worksheet. It is also possible to lock the WordArt object for any interaction such as editing, movement & selection. This article explains the usage of [**Shape.lockedProperty(ShapeLockType, boolean)**](https://reference.aspose.com/cells/javascript-cpp/shape/#lockedProperty-shapelocktype-boolean-) method to lock a few aspects of the watermark.
+Aspose.Cells APIs allow adding WordArt watermarks **to** the worksheet in a way that the WordArt becomes an object you can move and position on the sheet. It is also possible to lock the WordArt object for any interaction such as editing, moving, or selecting. This article explains the usage of [**Shape.lockedProperty(ShapeLockType, boolean)**](https://reference.aspose.com/cells/javascript-cpp/shape/#lockedProperty-shapelocktype-boolean-) method to lock several aspects of the watermark.
 
 {{% /alert %}}  
 
-Aspose.Cells APIs allow locking certain aspects of the watermark so that user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for JavaScript via C++ to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.  
+Aspose.Cells APIs allow locking certain aspects of the watermark so that user interaction can be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for JavaScript via C++ to lock selection, movement, editing, and resizing of the watermark by creating a spreadsheet from scratch.  
 
 ```html
 <!DOCTYPE html>

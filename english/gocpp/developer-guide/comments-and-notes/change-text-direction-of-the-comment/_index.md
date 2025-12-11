@@ -13,6 +13,6 @@ Microsoft Excel allows users to add comments to cells to add additional informat
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Shape.GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/shape/gettextdirection/) property to set text direction for a comment. The following sample code demonstrates the use of [**Shape.GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/shape/gettextdirection/) property to set text direction for a comment.
+Aspose.Cells provides a [**Shape.GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/shape/gettextdirection/) property to set text direction for a comment. The following sample code demonstrates the use of the [**Shape.GetTextDirection()**](https://reference.aspose.com/cells/go-cpp/shape/gettextdirection/) property to set the text direction for a comment.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeTextDirectionOfTheComment.go" >}}

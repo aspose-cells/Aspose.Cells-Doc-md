@@ -1,21 +1,21 @@
----
-title: Export Chart to SVG with viewBox attribute using JavaScript via C++
-linktitle: Export Chart to SVG with viewBox attribute
-type: docs
-weight: 280
-url: /javascript-cpp/export-chart-to-svg-with-viewbox-attribute/
-description: Learn how to export a chart to SVG format with the viewBox attribute using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Export Chart to SVG with viewBox attribute using JavaScript via C++  
+linktitle: Export Chart to SVG with viewBox attribute  
+type: docs  
+weight: 280  
+url: /javascript-cpp/export-chart-to-svg-with-viewbox-attribute/  
+description: Learn how to export a chart to SVG format with the viewBox attribute using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.svgFitToViewPort**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#svgFitToViewPort--) property which when set to **true** exports the chart to SVG with viewBox attribute.
+By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.svgFitToViewPort**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#svgFitToViewPort--) property, which when set to **true**, exports the chart to SVG with the viewBox attribute.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## Export Chart to SVG with viewBox attribute
+## Export Chart to SVG with viewBox attribute  
 
-The following sample code exports the chart to SVG format with the viewBox attribute.
+The following sample code exports the chart to SVG format with the viewBox attribute.  
 
 ```html
 <!DOCTYPE html>
@@ -65,12 +65,12 @@ The following sample code exports the chart to SVG format with the viewBox attri
             // Access first chart inside the worksheet
             const chart = worksheet.charts.get(0);
 
-            // Set image or print options with SVGFitToViewPort true
+            // Set image or print options with SVGFitToViewPort set to true
             const opts = new ImageOrPrintOptions();
             opts.imageType = ImageType.Svg;
             opts.svgFitToViewPort = true;
 
-            // Save the chart to svg format (returns data in browser)
+            // Save the chart to SVG format (returns data in the browser)
             const svgData = await chart.toImage(opts);
 
             // Create blob and download link for SVG
@@ -85,13 +85,13 @@ The following sample code exports the chart to SVG format with the viewBox attri
         });
     </script>
 </html>
-```
+```  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-If you open the chart's SVG in notepad, you will find the **viewBox** attribute similar to this.
+If you open the chart's SVG in Notepad, you will find the **viewBox** attribute as shown below.  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
  <svg xmlns="http://www.w3.org/2000/svg"
 
@@ -101,6 +101,6 @@ If you open the chart's SVG in notepad, you will find the **viewBox** attribute 
 
      viewBox="0 0 480 288">
 
-{{< /highlight >}}
+{{< /highlight >}}  
 
-{{% /alert %}}
+{{% /alert %}}  

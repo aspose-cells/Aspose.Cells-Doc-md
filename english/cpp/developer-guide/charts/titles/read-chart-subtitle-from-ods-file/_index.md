@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Read Chart Subtitle from ODS File**
 
-Aspose.Cells provides you with the ability to read chart subtitles in ODS files by using the [**Chart.SubTitle**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getsubtitle/) property. The following sample code loads the [sample ODS file](89620481.ods) and reads the chart subtitle using [**Chart.SubTitle**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getsubtitle/) property and prints it in the Console Window. Please see the console output of the code given below for reference.
+Aspose.Cells provides you with the ability to read chart subtitles in ODS files by using the [**Chart.SubTitle**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getsubtitle/) property. The following sample code loads the [sample ODS file](89620481.ods) and reads the chart subtitle using the [**Chart.SubTitle**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getsubtitle/) property, and prints it in the console window. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
 
@@ -30,7 +30,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Load excel file containing charts
+    // Load Excel file containing charts
     Workbook workbook(srcDir + u"SampleChart.ods");
 
     // Access first worksheet

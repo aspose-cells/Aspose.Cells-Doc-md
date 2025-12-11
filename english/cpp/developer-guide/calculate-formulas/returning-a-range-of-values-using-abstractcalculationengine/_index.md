@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) class which is used to implement user-defined or custom functions that are not supported by Microsoft Excel as built-in functions.
+Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) class, which is used to implement user‑defined or custom functions that are not supported by Microsoft Excel as built‑in functions.
 
 This article will explain how to return the range of values from [**AbstractCalculationEngine**](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/).
 
@@ -32,7 +32,7 @@ class CustomFunctionStaticValue : public AbstractCalculationEngine
 public:
     void Calculate(CalculationData& data) override
     {
-		Vector<Object> row1{Object(Date{2015, 6, 12, 10, 6, 30}) ,Object(2)};
+        Vector<Object> row1{Object(Date{2015, 6, 12, 10, 6, 30}) ,Object(2)};
         Vector<Object> row2{ Object(3.0) ,Object(U16String(u"Test")) };
 
         Vector<Vector<Object>> values{ row1 , row2 };
@@ -44,7 +44,6 @@ public:
         data.SetCalculatedValue(calculatedValue);
     }
 };
-
 ```
 
 Now use the above function in your program.

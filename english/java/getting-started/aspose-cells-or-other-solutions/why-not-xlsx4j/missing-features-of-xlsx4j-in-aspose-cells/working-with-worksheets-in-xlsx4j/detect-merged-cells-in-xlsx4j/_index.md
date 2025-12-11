@@ -8,51 +8,36 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Detect Merged Cells**
-In Microsoft Excel, several cells can be merged into one. This is often used to create complex tables, or to create a cell that holds a heading that spans several colums.
+In Microsoft Excel, several cells can be merged into one. This is often used to create complex tables or to create a cell that holds a heading that spans several columns.  
 Aspose.Cells allows you to identify merged cell areas in a worksheet. You can unmerge them too.
 
 **Java**
 
 {{< highlight java >}}
 
- //Get the merged cells list to put it into the arraylist object
-
+ // Get the merged cells list to put it into the ArrayList object
 ArrayList<CellArea> al = worksheet.getCells().getMergedCells();
 
-//Define cellarea
-
+// Define CellArea
 CellArea ca;
 
-//Define some variables
-
+// Define some variables
 int frow, fcol, erow, ecol;
 
-// Print Message
-
+// Print message
 System.out.println("Merged Areas: \n"+ al.toString());
 
-//Loop through the arraylist and get each cellarea to unmerge it
-
-for(int i = al.size()-1 ; i > -1; i--)
-
+// Loop through the ArrayList and get each CellArea to unmerge it
+for(int i = al.size() - 1; i > -1; i--)
 {
-
-	ca = new CellArea();
-
-	ca = (CellArea)al.get(i);
-
-	frow = ca.StartRow;
-
-	fcol = ca.StartColumn;
-
-	erow = ca.EndRow;
-
-	ecol = ca.EndColumn;
-
-	System.out.println((i+1) + ". [" + fcol +"," + frow +"] " + "[" + ecol +"," + erow +"]");
-
-	worksheet.getCells().unMerge(frow, fcol, erow, ecol);
-
+    ca = new CellArea();
+    ca = (CellArea)al.get(i);
+    frow = ca.StartRow;
+    fcol = ca.StartColumn;
+    erow = ca.EndRow;
+    ecol = ca.EndColumn;
+    System.out.println((i+1) + ". [" + fcol +"," + frow +"] " + "[" + ecol +"," + erow +"]");
+    worksheet.getCells().unMerge(frow, fcol, erow, ecol);
 }
 
 {{< /highlight >}}

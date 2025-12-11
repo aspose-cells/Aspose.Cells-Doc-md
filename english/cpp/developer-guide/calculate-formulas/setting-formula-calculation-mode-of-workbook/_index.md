@@ -16,7 +16,7 @@ Microsoft Excel allows you to set the formula calculation mode, that is, the way
 
 - Automatic - recalculate whenever something is changed, and every time a workbook is opened.
 - Automatic except for data tables - recalculate whenever something is changed, but leaving out data tables.
-- Manual - recalculate only when the user explicitly requests it by pressing F9 or CTRL+ALT+F9, or when the workbook is saved.
+- Manual - recalculate only when the user explicitly requests it by pressing F9 or CTRL+ALT+F9, or when the workbook is saved.
 
 {{% /alert %}}
 
@@ -25,7 +25,7 @@ To set the formula calculation mode in Microsoft Excel:
 1. Select **Formulas** and then **Calculation Options**.
 1. Select one of the options.
 
-Aspose.Cells also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.GetCalculationMode()**](https://reference.aspose.com/cells/cpp/aspose.cells/formulasettings/getcalculationmode/) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/cpp/aspose.cells/calcmodetype/) enumeration which has one of the following values:
+Aspose.Cells also allows you to set the **Formula Calculation Mode** using the [**FormulaSettings.GetCalculationMode()**](https://reference.aspose.com/cells/cpp/aspose.cells/formulasettings/getcalculationmode/) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/cpp/aspose.cells/calcmodetype/) enumeration which has one of the following values:
 
 - CalcModeType::Automatic
 - CalcModeType::AutomaticExceptTable
@@ -46,7 +46,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"output_out.xlsx";
 
     // Create a workbook

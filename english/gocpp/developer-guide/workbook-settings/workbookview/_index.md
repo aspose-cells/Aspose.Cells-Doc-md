@@ -9,7 +9,7 @@ keywords: How to Control Workbook View, Set Excel View, Operate Workbook View, S
 ---
 
 ## **Possible Usage Scenarios**
-When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide the workbook window, and so on. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
 
 - [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/go-cpp/workbooksettings/ishscrollbarvisible/)
 - [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/go-cpp/workbooksettings/isvscrollbarvisible/)
@@ -23,11 +23,11 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 ## **How to Control Workbook View using Aspose.Cells for C++**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Hide horizontal and vertical scrollbars of Workbook View.
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Hide the horizontal and vertical scrollbars of the workbook view.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-Workbookview.go" >}}
-Result file preview:
+Result file preview:  
 <br>
 <image src="result.png" width="70%" />

@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 You can digitally sign your VBA code project using Aspose.Cells with its [**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/sign/) method. Please follow these steps to check if your Excel file is digitally signed with a certificate.
 
 - Click **Visual Basic** from the **Developer** tab to open **Visual Basic for Applications IDE**.
-- Click **Tools** > **Digital Signatures...**  of **Visual Basic for Applications IDE**.
+- Click **Tools** > **Digital Signatures...** in the **Visual Basic for Applications IDE**.
 
 It will show the **Digital Signature Form** indicating whether the document is digitally signed with a certificate or not.
 
@@ -50,12 +50,12 @@ int main()
 
     std::time_t now = std::time(nullptr);
     std::tm* now_tm = std::localtime(&now);
-    int year = now_tm->tm_year + 1900;
-    int month = now_tm->tm_mon + 1;
-    int day = now_tm->tm_mday;
-    int hour = now_tm->tm_hour;
-    int minute = now_tm->tm_min;
-    int second = now_tm->tm_sec;
+    int year = now_tm.tm_year + 1900;
+    int month = now_tm.tm_mon + 1;
+    int day = now_tm.tm_mday;
+    int hour = now_tm.tm_hour;
+    int minute = now_tm.tm_min;
+    int second = now_tm.tm_sec;
 
     DigitalSignature digitalSignature(certData, password, comment, Date{year, month, day, hour, minute, second, 0});
 

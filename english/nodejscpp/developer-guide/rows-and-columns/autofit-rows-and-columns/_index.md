@@ -4,7 +4,7 @@ linktitle: AutoFit Rows and Columns
 type: docs  
 weight: 20  
 url: /nodejs-cpp/autofit-rows-and-columns/  
-description: This article shows how to autoFit rows, columns, rows of merged cells, and row in a range of cells using Aspose.Cells for Node.js via C++.  
+description: This article shows how to autoFit rows, columns, rows of merged cells, and rows in a range of cells using Aspose.Cells for Node.js via C++.  
 keywords: Autofit rows Node.js via C++, autofit columns Node.js via C++, autofit row in a range of cells Node.js via C++, autofit rows of merged cells Node.js via C++  
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -52,11 +52,11 @@ workbook.save(outputPath);
 
 A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the [**autoFitRow**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitRow-number-number-number-) method. It takes the following parameters:  
 
-- **Row index**, the index of the row about to be auto-fitted.  
+- **Row index**, the index of the row about to be auto‑fitted.  
 - **First column index**, the index of the row's first column.  
 - **Last column index**, the index of the row's last column.  
 
-The [**autoFitRow**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitRow-number-number-number-) method checks the contents of all the columns in the row and then auto-fits the row.  
+The [**autoFitRow**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitRow-number-number-number-) method checks the contents of all the columns in the row and then auto‑fits the row.  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -85,13 +85,13 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 
 ### **How to AutoFit Column in a Range of Cells**  
 
-A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method that takes the following parameters:  
+A column is composed of many rows. It is possible to auto‑fit a column based on the content in a range of cells in the column by calling an overloaded version of the [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method that takes the following parameters:  
 
-- **Column index**, the index of the column about to be auto-fitted.  
+- **Column index**, the index of the column about to be auto‑fitted.  
 - **First row index**, the index of the column's first row.  
 - **Last row index**, the index of the column's last row.  
 
-The [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method checks the contents of all rows in the column and then auto-fits the column.  
+The [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method checks the contents of all rows in the column and then auto‑fits the column.  
 
 ```javascript
 const path = require("path");
@@ -117,12 +117,12 @@ workbook.save(path.join(dataDir, "output.xlsx"));
 
 ### **How to AutoFit Rows for Merged Cells**  
 
-With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) class provides [**AutoFitterOptions.getAutoFitMergedCellsType()**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#getAutoFitMergedCellsType--) property that can be used to autofit rows for merged cells. [**AutoFitterOptions.getAutoFitMergedCellsType()**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions/#getAutoFitMergedCellsType--) accepts [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/nodejs-cpp/autofitmergedcellstype) enumerable which has the following members.  
+With Aspose.Cells, it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) API. The [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) class provides the `getAutoFitMergedCellsType()` method that can be used to autofit rows for merged cells. `getAutoFitMergedCellsType()` accepts the `AutoFitMergedCellsType` enumeration, which has the following members.  
 
 - None: Ignore merged cells.  
 - FirstLine: Only expands the height of the first row.  
 - LastLine: Only expands the height of the last row.  
-- EachLine: Only expands the height of each row.  
+- EachLine: Expands the height of each row.  
 
 ```javascript
 const path = require("path");
@@ -144,7 +144,7 @@ const range = worksheet.getCells().createRange(0, 0, 1, 2);
 // Merge the cells
 range.merge();
 
-// Insert value to the merged cell A1
+// Insert a value into the merged cell A1
 worksheet.getCells().get(0, 0).setValue("A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end");
 
 // Create a style object
@@ -159,7 +159,7 @@ worksheet.getCells().get(0, 0).setStyle(style);
 // Create an object for AutoFitterOptions
 const options = new AsposeCells.AutoFitterOptions();
 
-// Set auto-fit for merged cells
+// Set auto‑fit for merged cells
 options.setAutoFitMergedCellsType(AsposeCells.AutoFitMergedCellsType.EachLine);
 
 // Autofit rows in the sheet (including the merged cells)
@@ -170,7 +170,7 @@ wb.save(path.join(outputDir, "AutofitRowsforMergedCells.xlsx"));
 ```  
 
 {{% alert color="primary" %}}  
-You may also try to use the overloaded versions of [**autoFitRows**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitRows-number-number-AutoFitterOptions-) & [**autoFitColumns**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumns-number-number-AutoFitterOptions-) methods accepting a range of rows/columns and an instance of [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) to auto-fit the selected rows/columns with your desired [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) accordingly.  
+You may also try to use the overloaded versions of [**autoFitRows**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitRows-number-number-AutoFitterOptions-) & [**autoFitColumns**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumns-number-number-AutoFitterOptions-) methods accepting a range of rows/columns and an instance of [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) to auto‑fit the selected rows/columns with your desired [**AutoFitterOptions**](https://reference.aspose.com/cells/nodejs-cpp/autofitteroptions) accordingly.  
 
 The signatures of the aforesaid methods are as follows:  
 
@@ -181,10 +181,10 @@ The signatures of the aforesaid methods are as follows:
 ## **Important to Know**  
 
 {{% alert color="primary" %}}  
-If a cell is merged then the autoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the autofilter API. Moreover, if the text in a cell is wrapped, the [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method will not be applied either. Another thing you need to know is that the *autoFit* methods are time-consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.  
+If a cell is merged then the autoFit methods will not be applied, which is the same behavior as in Microsoft Excel. You can get around this by using the AutoFit API. Moreover, if the text in a cell is wrapped, the [**autoFitColumn**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#autoFitColumn-number-) method will not be applied either. Another thing you need to know is that the *autoFit* methods are time‑consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.  
 {{% /alert %}}  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [AutoFit Rows for Merged Cells](/cells/nodejs-cpp/autofit-rows-for-merged-cells/)  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

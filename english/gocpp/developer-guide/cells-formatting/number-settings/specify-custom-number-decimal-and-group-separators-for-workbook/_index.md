@@ -4,13 +4,13 @@ linktitle: Specify Custom Number Decimal and Group Separators
 type: docs
 weight: 110
 url: /go-cpp/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Change Number decimal and group separator in MS Excel and with Golang via C++ code by using the Aspose.Cells for C++ API.
+description: Change the number decimal and group separators in MS Excel using Golang via C++ code by using the Aspose.Cells for C++ API.
 keywords: specify custom decimal separator excel, specify custom decimal separator excel c++, specify custom group separator excel, specify custom group separator excel c++, specify custom decimal and group separator excel, specify custom decimal and group separator excel c++, change decimal and group separator excel c++, change decimal and group separator excel, change decimal separator excel, change decimal separator excel c++, change group separator excel, change group separator excel c++
 ---
 
 {{% alert color="primary" %}}
 
-In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the **Advanced Excel Options** as shown in the screenshot below.
+In Microsoft Excel, you can specify custom decimal and thousands separators instead of using the system separators from the **Advanced Excel Options**, as shown in the screenshot below.
 
 Aspose.Cells provides the [**WorkbookSettings.GetNumberDecimalSeparator()**](https://reference.aspose.com/cells/go-cpp/workbooksettings/getnumberdecimalseparator/) and [**WorkbookSettings.GetNumberGroupSeparator()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getnumbergroupseparator/) properties to set the custom separators for formatting/parsing numbers.
 
@@ -24,8 +24,8 @@ The following screenshot shows the **Advanced Excel Options** and highlights the
 
 ## **Specifying Custom Separators using Aspose.Cells**
 
-The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.
+The following sample code illustrates how to specify the custom separators using the Aspose.Cells API. It sets the custom number decimal and group separators to a dot and a space, respectively.
 
-### C++ code to specify custom Number Decimal and Group Separators
+### C++ code to specify custom number decimal and group separators
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SpecifyCustomNumberDecimalAndGroupSeparatorsForWorkbook.go" >}}

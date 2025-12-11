@@ -4,19 +4,17 @@ type: docs
 weight: 70
 url: /net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
 keywords: GridDesktop,copy,paste
-description: This article introduce copy and paste in GridDesktop .
+description: This article introduces copy and paste in GridDesktop.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}} 
 
-If you want to enable copy and paste rows in GridDesktop within the control or between control and excel, then please set the GridDesktop.ClipboardCopyPaste property to true. You can set this property in design time or in code. The default value of this property is false. Currently, it can only copy and paste cell values and it will not copy any other setting of the cell like format, border style and so on.
+If you want to enable copy and paste rows in GridDesktop within the control or between the control and Excel, then set the GridDesktop.ClipboardCopyPaste property to true. You can set this property at design time or in code. The default value of this property is false. Currently, it can only copy and paste cell values and it will not copy any other settings of the cell, such as format, border style, and so on.
 
 {{% /alert %}} 
 ## **Setting GridDesktop.ClipboardCopyPaste property in Design Mode and Run Time**
-The following sample code sets GridDesktop.ClipboardCopyPaste property in **Run Time**.
-
-
+The following sample code sets the GridDesktop.ClipboardCopyPaste property at **run time**.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-CopyAndPasteRows-1.cs" >}}

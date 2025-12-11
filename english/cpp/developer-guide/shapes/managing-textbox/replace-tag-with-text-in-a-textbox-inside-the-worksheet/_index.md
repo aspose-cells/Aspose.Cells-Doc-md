@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
+Text boxes can have tags that can be replaced with text at runtime to configure them according to requirements. Tags are labels enclosed in angle brackets '<' and '>'. Multiple tags can exist within a single textbox.
 
 ## **Sample Code**
-Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and '1'. Sample file for testing below code can be downloaded from the following link:
+The following sample code replaces the tags **TAG_1** and **TAG_2** with the texts **'ys'** and **'1'**, respectively. The sample file for testing the code can be downloaded from the link below:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

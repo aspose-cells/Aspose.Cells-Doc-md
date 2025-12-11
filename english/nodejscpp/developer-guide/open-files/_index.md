@@ -27,16 +27,16 @@ const dataDir = path.join(__dirname, "data");
 const licensePath = path.join(dataDir, "Aspose.Cells.lic");
 
 try {
-// Create a License object
-const license = new AsposeCells.License();
+    // Create a License object
+    const license = new AsposeCells.License();
 
-// Set the license of Aspose.Cells to avoid the evaluation limitations
-license.setLicense(licensePath);
+    // Set the license of Aspose.Cells to avoid the evaluation limitations
+    license.setLicense(licensePath);
 } catch (ex) {
-console.log(ex.message);
+    console.log(ex.message);
 }
 
-// Instantiate a Workbook object that represents Excel file.
+// Instantiate a Workbook object that represents an Excel file.
 const wb = new AsposeCells.Workbook();
 
 // When you create a new workbook, a default "Sheet1" is added to the workbook.
@@ -61,44 +61,53 @@ const AsposeCells = require("aspose.cells.node");
 
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
+
 // Opening through Path
 // Creating a Workbook object and opening an Excel file using its file path
 const workbook1 = new AsposeCells.Workbook(path.join(dataDir, "Book1.xlsx"));
+
 // Adding new sheet
 const sheet = workbook1.getWorksheets().add("MySheet");
+
 // Setting active sheet
 workbook1.getWorksheets().setActiveSheetIndex(1);
+
 // Setting values.
 const cells = sheet.getCells();
+
 // Setting text
 cells.get("A1").putValue("Hello!");
+
 // Setting number
 cells.get("A2").putValue(1000);
+
 // Setting Date Time
 const cell = cells.get("A3");
 cell.putValue(new Date());
 const style = cell.getStyle();
 style.setNumber(14);
 cell.setStyle(style);
+
 // Setting formula
 cells.get("A4").setFormula("=SUM(A1:A3)");
+
 // Saving the workbook to disk.
 workbook1.save(path.join(dataDir, "dest.xlsx"));
 ```
 
 ## **Advanced Topics**
 - [Different Ways to Open Files](/cells/nodejs-cpp/different-ways-to-open-files/)
-- [Filter Defined Names while loading Workbook](/cells/nodejs-cpp/filter-defined-names-while-loading-workbook/)
-- [Filter Objects while loading Workbook or Worksheet](/cells/nodejs-cpp/filter-objects-while-loading-workbook-or-worksheet/)
-- [Filtering the kind of data while loading the workbook from template file](/cells/nodejs-cpp/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)
+- [Filter Defined Names while loading a Workbook](/cells/nodejs-cpp/filter-defined-names-while-loading-workbook/)
+- [Filter Objects while loading a Workbook or Worksheet](/cells/nodejs-cpp/filter-objects-while-loading-workbook-or-worksheet/)
+- [Filtering the kind of data while loading the workbook from a template file](/cells/nodejs-cpp/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)
 - [Get Warnings while Loading Excel File](/cells/nodejs-cpp/get-warnings-while-loading-excel-file/)
 - [Load Source Excel File Without Charts](/cells/nodejs-cpp/load-source-excel-file-without-charts/)
 - [Load Specific Worksheets in a Workbook](/cells/nodejs-cpp/load-specific-worksheets-in-a-workbook/)
 - [Load Workbook with specified Printer Paper Size](/cells/nodejs-cpp/load-workbook-with-specified-printer-paper-size/)
-- [Opening Different Microsoft Excel Versions Files](/cells/nodejs-cpp/opening-different-microsoft-excel-versions-files/)
+- [Opening Different Microsoft Excel Version Files](/cells/nodejs-cpp/opening-different-microsoft-excel-versions-files/)
 - [Opening Files with Different Formats](/cells/nodejs-cpp/opening-files-with-different-formats/)
 - [Optimizing Memory Usage while Working with Big Files having Large Datasets](/cells/nodejs-cpp/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells](/cells/nodejs-cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Read Numbers Spreadsheets Developed by Apple Inc. using Aspose.Cells](/cells/nodejs-cpp/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Stop conversion or loading using InterruptMonitor when it is taking too long](/cells/nodejs-cpp/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Using LightCells API](/cells/nodejs-cpp/using-lightcells-api/)
 - [Convert CSV to JSON](/cells/nodejs-cpp/convert-csv-to-json/)

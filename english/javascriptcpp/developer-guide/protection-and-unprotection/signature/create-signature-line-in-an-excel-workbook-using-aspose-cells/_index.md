@@ -10,13 +10,13 @@ keywords: Create Signature Line in an Excel Workbook JavaScript via C++, How to 
 
 ## **Introduction**  
 
-Microsoft Excel provides a feature to add **Signature Line** in Excel workbooks. You can add a Signature Line by clicking the **Insert** Tab and then selecting **Signature Line** from the **Text** group.  
+Microsoft Excel provides a feature to add a **Signature Line** in Excel workbooks. You can add a Signature Line by clicking the **Insert** tab and then selecting **Signature Line** from the **Text** group.  
 
 ## **How to Create Signature Line for Excel**  
 
-Aspose.Cells for JavaScript via C++ also provides this feature and has exposed the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.  
+Aspose.Cells for JavaScript via C++ also provides this feature and exposes the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.  
 
-The following sample code adds a Signature Line using [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property and saves the workbook.  
+The following sample code adds a Signature Line using the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property and saves the workbook.  
 
 ```html
 <!DOCTYPE html>

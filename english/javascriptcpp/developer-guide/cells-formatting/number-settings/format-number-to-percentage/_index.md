@@ -3,7 +3,7 @@ title: How to Format Number to Percentage
 type: docs
 weight: 10
 url: /javascript-cpp/how-to-format-number-to-percentage/
-description: This article will introduce how to Format Number to Percentageusing Aspose.Cells for JavaScript via C++ API.
+description: This article will introduce how to format numbers to percentages using Aspose.Cells for JavaScript via C++ API.
 keywords: Convert a number into a percentage format, Transform numerical values into percentages, Change numbers to be displayed as percentages, Formatting numbers as percentages, Adjusting numerical figures to percentage representation, Format Number to Percentage
 ---
 
@@ -74,7 +74,6 @@ First, make sure you have Aspose.Cells for JavaScript via C++ referenced in your
 ### Step 2: Create a New Workbook or Open an Existing One
 
 You can either create a new workbook or open an existing one. 
-
 
 ### Step 3: Access the Worksheet
 

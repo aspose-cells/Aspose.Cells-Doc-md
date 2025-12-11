@@ -9,10 +9,9 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Create Style object using CellsFactory class**
-The following sample code creates [Style](https://reference.aspose.com/cells/python-net/aspose.cells/style) object using [CellsFactory](https://reference.aspose.com/cells/python-net/aspose.cells/cellsfactory) class and then sets the Default Style of the workbook. Please download the [output excel file](5115153.xlsx) to see the results of this code for your reference.
+## **Create a Style object using the CellsFactory class**
 
-
+The following sample code creates a [Style](https://reference.aspose.com/cells/python-net/aspose.cells/style) object using the [CellsFactory](https://reference.aspose.com/cells/python-net/aspose.cells/cellsfactory) class and then sets the default style of the workbook. Please download the [output Excel file](5115153.xlsx) to see the results of this code for your reference.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-UsingCellsFactory-1.py" >}}
 

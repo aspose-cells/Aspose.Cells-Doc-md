@@ -4,14 +4,13 @@ linktitle: Unfreeze panes
 type: docs
 weight: 190
 url: /javascript-cpp/unfreeze-rows-or-columns-of-excel-worksheet
-description: In this article, you will learn how to unfreeze rows, columns, or panes of Excel Worksheets programmatically using JavaScript API with C++.
-keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window JavaScript via C++.
+description: In this article, you will learn how to unfreeze rows, columns, or panes of Excel worksheets programmatically using the JavaScript API with C++.
+keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unfreeze window JavaScript via C++.
 ---
 
 ## **Introduction**
 
 In this article, we will learn how to unfreeze rows, columns, and panes. If worksheets in the Excel files are frozen, sometimes we want to unfreeze the worksheet or adjust frozen rows, columns, or panes.
-
 
 ## **In Excel**
 
@@ -19,14 +18,11 @@ In this article, we will learn how to unfreeze rows, columns, and panes. If work
 
 **![unfreeze panes in Excel](Unfreeze-Panes.png)**
 
-
-
-
 ## **Unfreeze Rows, Columns or Panes with Aspose.Cells for JavaScript via C++**
 It's simple to unfreeze panes with Aspose.Cells for JavaScript via C++. Please use the [**Worksheet.unFreezePanes()**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#unFreezePanes--) method to unfreeze panes.
 
-1. Construct Workbook to open the frozen file.
-2. Unfreeze panes with Worksheet.unFreezePanes() method.
+1. Construct a Workbook to open the frozen file.  
+2. Unfreeze panes using the Worksheet.unFreezePanes() method.  
 3. Save the file.
 
 ```html

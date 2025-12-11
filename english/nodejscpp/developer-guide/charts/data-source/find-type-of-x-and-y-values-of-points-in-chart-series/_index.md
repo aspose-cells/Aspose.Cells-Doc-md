@@ -11,10 +11,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 ## **Possible Usage Scenarios**  
-Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for Node.js via C++ provides `ChartPoint.XValueType` and `ChartPoint.YValueType` properties that can be used for this purpose. Please note, you will have to call `Chart.calculate()` method before you can use these properties effectively.  
+Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for Node.js via C++ provides `ChartPoint.XValueType` and `ChartPoint.YValueType` properties that can be used for this purpose. Please note that you will have to call the `Chart.calculate()` method before you can use these properties effectively.  
 
 ## **Find Type of X and Y Values of Points in Chart Series**  
-The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the `Chart.calculate()` method and finds the type of X and Y values of the first chart point and prints them in the console. Please see the console output shown below for a reference.  
+The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the `Chart.calculate()` method, finds the type of X and Y values of the first chart point, and prints them to the console. Please see the console output shown below for reference.  
 
 ## **Sample Code**  
 ```javascript
@@ -45,9 +45,8 @@ console.log("Y Value Type: " + point.getYValueType());
 
 ## **Console Output**  
 
-{{< highlight java >}}  
- X Value Type: IsString  
-
+{{< highlight javascript >}}  
+X Value Type: IsString  
 Y Value Type: IsNumeric  
 {{< /highlight >}}  
   

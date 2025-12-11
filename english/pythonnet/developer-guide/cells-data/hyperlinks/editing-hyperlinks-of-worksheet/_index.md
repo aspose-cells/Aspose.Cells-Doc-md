@@ -3,7 +3,7 @@ title: Editing Hyperlinks of Worksheet
 type: docs
 weight: 330
 url: /python-net/editing-hyperlinks-of-worksheet/
-description: Learn how to edit hyperlinks of Worksheet through the Aspose.Cells for Python via .NET API.
+description: Learn how to edit hyperlinks of a worksheet through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Edit Hyperlinks, Python Edit Hyperlinks of Worksheet, Python Edit hyperlink of Cell, Python Access all the hyperlinks of the worksheet.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -15,7 +15,7 @@ Aspose.Cells for Python via .NET allows you to access all the hyperlinks of the 
 
 {{% /alert %}}
 
-The following sample code accesses all the hyperlinks of the worksheet and changes their [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) property to the Aspose website.
+The following sample code accesses all the hyperlinks of the worksheet and changes their [**Hyperlink.address**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/address) property to the Aspose website.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-EditingHyperlinksOfWorksheet.py" >}}
 {{< app/cells/assistant language="python-net" >}}

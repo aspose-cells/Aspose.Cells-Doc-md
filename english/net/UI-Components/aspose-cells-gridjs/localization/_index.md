@@ -22,13 +22,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This tutorial will guide you through configuring multi-language support in your Aspose.Cells GridJs project. It covers both frontend and backend configurations.
 
-The tutorial is based on the [demo project](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs), please adjust according to the actual situation
+The tutorial is based on the [demo project](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs). Please adjust it according to your actual situation.
 
 ## Frontend Configuration
 
 In your frontend pages, set the interface language using the `local` option.
 
-In the demo project, you need to modify the [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) file
+In the demo project, you need to modify the [uidload.html](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/uidload.html) file.
 
 Here's an example:
 
@@ -48,13 +48,13 @@ const loadNormalContext = (sheet) => {
 
 ## Backend Configuration
 
-In the backend code, you need to set the appropriate CultureInfo before processing Excel data.
+In the backend code, you need to set the appropriate `CultureInfo` before processing Excel data.
 
-In the demo project, you need to modify the [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) file
+In the demo project, you need to modify the [Controller](https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/blob/master/Examples_GridJs/Controllers/GridJs2Controller.cs) file.
 
 ### Controller Configuration Points
 
-The following methods in your Controller need culture configuration:
+The following methods in your controller need culture configuration:
 
 #### UpdateCell Method
 
@@ -79,7 +79,7 @@ public ActionResult UpdateCell()
 
 #### DetailFileJsonWithUid Method
 
-Set region information when retrieving Excel JSON
+Set region information when retrieving Excel JSON:
 
 ```csharp
 public ActionResult DetailFileJsonWithUid(string filename, string uid)
@@ -104,7 +104,7 @@ public ActionResult DetailFileJsonWithUid(string filename, string uid)
 
 #### DetailStreamJsonWithUid Method
 
-Set region information when streaming Excel JSON
+Set region information when streaming Excel JSON:
 
 ```csharp
 public ActionResult DetailStreamJsonWithUid(string filename, string uid)
@@ -134,7 +134,7 @@ public ActionResult DetailStreamJsonWithUid(string filename, string uid)
 
 ## Important Notes
 
-1. Frontend and backend language settings must be consistent.
-2. CultureInfo must be set before processing Excel data.
-3. Supported languages: en(English), zh(Chinese), es(Spanish), pt(Portuguese), de(German), ru(Russian), nl(Dutch), pl(Polish).
-4. The example uses Polish (pl-PL), but you can change it to any other supported locale.
+1. Frontend and backend language settings must be consistent.  
+2. `CultureInfo` must be set before processing Excel data.  
+3. Supported languages: en (English), zh (Chinese), es (Spanish), pt (Portuguese), de (German), ru (Russian), nl (Dutch), pl (Polish).  
+4. The example uses Polish (`pl-PL`), but you can change it to any other supported locale.

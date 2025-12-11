@@ -9,10 +9,10 @@ url: /javascript-cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/
 ---
 
 ## **Possible Usage Scenarios**  
-Early versions of Aspose.Cells for JavaScript via C++ were not able to handle automatic units of the chart axis properly when the chart is rendered to image or PDF. Now, Aspose.Cells for JavaScript via C++ supports the handling of automatic units of the chart axis. There is no code change. Just convert your chart into an image or PDF and it will render the chart axis just like Microsoft Excel renders it.  
+Early versions of Aspose.Cells for JavaScript via C++ were not able to handle automatic units of the chart axis properly when the chart is rendered to images or PDFs. Now, Aspose.Cells for JavaScript via C++ supports the handling of automatic units of the chart axis. There is no code change. Just convert your chart into an image or PDF and it will render the chart axis just like Microsoft Excel renders it.  
 
 ## **Handle Automatic Units of Chart Axis like Microsoft Excel**  
-The following sample code loads the [sample Excel file](61767755.xlsx) and generates the [output PDF chart](61767752.pdf). The screenshot shows the automatic units of the chart axis in red rectangles and also compares the sample Excel file chart with the output PDF chart. Both are exactly similar.  
+The following sample code loads the [sample Excel file](61767755.xlsx) and generates the [output PDF chart](61767752.pdf). The screenshot shows the automatic units of the chart axis in red rectangles and also compares the sample Excel file chart with the output PDF chart. Both are exactly the same.  
 
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)  
 
@@ -24,7 +24,7 @@ The following sample code loads the [sample Excel file](61767755.xlsx) and gener
         <title>Aspose.Cells Example</title>
     </head>
     <body>
-        <h1>Handle Automatic Units Of Chart Axis Like Microsoft Excel</h1>
+        <h1>Handle Automatic Units of Chart Axis Like Microsoft Excel</h1>
         <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
         <button id="runExample">Run Example</button>
         <a id="downloadLink" style="display: none;">Download Result</a>
@@ -67,7 +67,7 @@ The following sample code loads the [sample Excel file](61767755.xlsx) and gener
             // Access first chart
             const chart = worksheet.charts.get(0);
 
-            // Render chart to pdf
+            // Render chart to PDF
             const outputData = await chart.toPdf();
 
             // Create download link for the generated PDF

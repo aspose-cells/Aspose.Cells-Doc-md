@@ -3,14 +3,13 @@ title: Embed Attachment to PDF
 type: docs
 weight: 380
 url: /net/embed-attachment-to-pdf/
-
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-In Excel, you can insert an Ole Object with source data([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)) . Double click the Ole Object, the embedded file will be opened.
+In Excel, you can insert an OLE object with source data (embedded-attachments-example.xlsx). Double‑click the OLE object, and the embedded file will be opened.
 
-Generally, while converting to pdf, the Ole Object will be rendered as an icon or a thumbnail without the Ole Object source data. With option [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/), you can embed the Ole Object source data as attachment in PDF. You can double click the icon or the thumbnail in PDF to open the source file of the Ole Object.
+Generally, when converting to PDF, the OLE object is rendered as an icon or a thumbnail without the OLE object's source data. By using the option [PdfSaveOptions.EmbedAttachments](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/embedattachments/), you can embed the OLE object's source data as an attachment in the PDF. You can double‑click the icon or the thumbnail in the PDF to open the source file of the OLE object.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-EmbedAttachmentToPdf.cs" >}}
 

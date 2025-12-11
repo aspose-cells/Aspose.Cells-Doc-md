@@ -12,12 +12,12 @@ keywords: page breaks JavaScript via C++, excel page breaks JavaScript via C++, 
 
 According to the definition, a page break is a place in a flow of text where one page ends and the next begins. Microsoft Excel lets users add page breaks into any selected cell of a worksheet.
 
-The location of the cell where the page break is added, the page is ended and the rest of the data after the page break is printed on the next page while printing. In simple words, page breaks divide your worksheet into multiple pages according to your specifications. You can also add page breaks to your worksheets at runtime using Aspose.Cells. Aspose.Cells allows developers to add two kinds of page breaks:
+When a page break is added at a cell, the page ends at that point and the remaining data after the break is printed on the next page. In simple words, page breaks divide your worksheet into multiple pages according to your specifications. You can also add page breaks to your worksheets at runtime using Aspose.Cells. Aspose.Cells allows developers to add two kinds of page breaks:
 
 - Horizontal page break
 - Vertical page break
 
-In the rest of the discussion, we will describe how can you add horizontal or vertical page breaks into your worksheets using Aspose.Cells.
+In the rest of the discussion, we will describe how you can add horizontal or vertical page breaks into your worksheets using Aspose.Cells.
 
 {{% /alert %}}
 
@@ -107,7 +107,7 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 ### **Removing Specific Page Break**
 
-To remove a specific page break, call the [**HorizontalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/javascript-cpp/horizontalpagebreakcollection/#removeAt-number-) and [**VerticalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/javascript-cpp/verticalpagebreakcollection/#removeAt-number-) methods. Each **removeAt** method takes the index of the page break about to be removed.
+To remove a specific page break, call the [**HorizontalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/javascript-cpp/horizontalpagebreakcollection/#removeAt-number-) and [**VerticalPageBreakCollection.removeAt(number)**](https://reference.aspose.com/cells/javascript-cpp/verticalpagebreakcollection/#removeAt-number-) methods. Each **removeAt** method takes the index of the page break to be removed.
 
 ```html
 <!DOCTYPE html>
@@ -173,6 +173,6 @@ To remove a specific page break, call the [**HorizontalPageBreakCollection.remov
 </html>
 ```
 
-## **Important to know**
+## **Important to Know**
 
-When you set **fitToPages** properties (that is [**PageSetup.fitToPagesTall**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#fitToPagesTall--) and [**PageSetup.fitToPagesWide**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#fitToPagesWide--)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+When you set **fitToPages** properties (that is [**PageSetup.fitToPagesTall**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#fitToPagesTall--) and [**PageSetup.fitToPagesWide**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#fitToPagesWide--)) in page setup settings, the page break settings are affected, so if you print the worksheet, the page break settings are ignored even though they remain set.

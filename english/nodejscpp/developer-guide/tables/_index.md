@@ -13,11 +13,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 One of the advantages of spreadsheets is that they allow you to create different types of lists, for example, phone lists, task lists, lists of transactions, assets or liabilities. Several users can work together to use, create and maintain various lists.
 
-Aspose.Cells supports creating and managing Lists.
+Aspose.Cells supports creating and managing lists.
 
 ### **Advantages of a List Object**
 
-There are quite a few advantages when you convert a list of data to an actual List Object
+There are quite a few advantages when you convert a list of data to an actual List Object:
 
 - New rows and columns are automatically included.
 - A total row at the bottom of your list can be easily added to display SUM, AVERAGE, COUNT, etc.
@@ -28,9 +28,9 @@ There are quite a few advantages when you convert a list of data to an actual Li
 
 ### **Creating a List Object using Microsoft Excel**
 
-- Selecting the data range for creating a List object
-- This displays the Create List dialog.
-- Implement the List object for the data and specify the total row (Select **Data**, then **List**, followed by **Total Row**).
+- Selecting the data range for creating a List object  
+- This displays the Create List dialog.  
+- Create the List object for the data and specify the total row (Select **Data**, then **List**, followed by **Total Row**).
 
 ### **Using Aspose.Cells API**
 
@@ -40,7 +40,7 @@ A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/c
 
 According to the specified range of cells, the List object is created by Aspose.Cells. Use attributes (for example, [**getShowTotals()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#getShowTotals--), [**getListColumns()**](https://reference.aspose.com/cells/nodejs-cpp/listobject/#getListColumns--), etc.) of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) class to control the list.
 
-In the example given below, we have created the same [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) using Aspose.Cells API as we created using Microsoft Excel in the above section.
+In the example given below, we have created the same [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) using Aspose.Cells API as we did using Microsoft Excel in the above section.
 
 ```javascript
 const path = require("path");
@@ -51,7 +51,7 @@ const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "book1.xls");
 
 // Create a Workbook object.
-// Open a template excel file.
+// Open a template Excel file.
 const workbook = new AsposeCells.Workbook(filePath);
 
 // Get the List objects collection in the first worksheet.
@@ -66,21 +66,21 @@ listObjects.get(0).setShowTotals(true);
 // Calculate the total of the last (5th) list column.
 listObjects.get(0).getListColumns().get(4).setTotalsCalculation(AsposeCells.TotalsCalculation.Sum);
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "output.xls"));
 ```
 
 ## **Format a Table**
 
-To manage and analyze a group of related data, it is possible to turn a range of cells into a list object (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your list object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the list object that provides a drop-down list of aggregate functions for each total row cell. Aspose.Cells provides options for creating and managing lists (or tables).
+To manage and analyze a group of related data, it is possible to turn a range of cells into a List Object (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your List Object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the List Object; this row provides a drop‑down list of aggregate functions for each total‑row cell. Aspose.Cells provides options for creating and managing lists (or tables).
 
 ### **Formatting a List Object**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**getWorksheets()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To create a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) in a worksheet, use the [**getListObjects()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getListObjects--) collection property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/nodejs-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method to add a List object and specify the range of cells it should encompass. According to the specified range of cells, a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) is created in the worksheet by Aspose.Cells. Use attributes (for example, [**TableStyleType**](https://reference.aspose.com/cells/nodejs-cpp/tablestyletype/)) of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) class to format the table for your requirement.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To create a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) in a worksheet, use the [**getListObjects()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getListObjects--) collection property of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/nodejs-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/nodejs-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method to add a List object and specify the range of cells it should encompass. According to the specified range of cells, a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) is created in the worksheet by Aspose.Cells. Use attributes (for example, [**TableStyleType**](https://reference.aspose.com/cells/nodejs-cpp/tablestyletype/)) of the [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) class to format the table to meet your requirements.
 
-The example below adds sample data to a worksheet, adds a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) and applies default styles to it. [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) styles are supported by Microsoft Excel 2007/2010.
+The example below adds sample data to a worksheet, adds a [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) and applies a default style to it. [**ListObject**](https://reference.aspose.com/cells/nodejs-cpp/listobject/) styles are supported by Microsoft Excel 2007/2010.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -92,13 +92,13 @@ const dataDir = path.join(__dirname, "data");
 // Create a workbook.
 const workbook = new AsposeCells.Workbook();
 
-// Obtaining the reference of the default(first) worksheet
+// Obtaining a reference to the default (first) worksheet
 const sheet = workbook.getWorksheets().get(0);
 
-// Obtaining Worksheet's cells collection
+// Obtaining the worksheet's cells collection
 const cells = sheet.getCells();
 
-// Setting the value to the cells
+// Setting values in the cells
 cells.get(1, 1).putValue("Employee");
 cells.get(1, 2).putValue("Quarter");
 cells.get(1, 3).putValue("Product");
@@ -200,7 +200,7 @@ const index = sheet.getListObjects().add("A1", "F15", true);
 
 const listObject = sheet.getListObjects().get(index);
 
-// Adding Default Style to the table
+// Adding default style to the table
 listObject.setTableStyleType(AsposeCells.TableStyleType.TableStyleMedium10);
 
 // Show Total
@@ -213,7 +213,7 @@ listObject.getListColumns().get(1).setTotalsCalculation(AsposeCells.TotalsCalcul
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert Table to ODS](/cells/nodejs-cpp/convert-table-to-ods/)
 - [Find Query Tables and List Objects related to External Data Connections](/cells/nodejs-cpp/find-query-tables-and-list-objects-related-to-external-data-connections/)
 - [Read and Write Table with Query Table Data Source](/cells/nodejs-cpp/read-and-write-table-with-query-table-data-source/)

@@ -24,7 +24,7 @@ WorksheetCollection worksheets = workbook.Worksheets;
 
 Worksheet sheet = worksheets[0];
 
-// Adding some sample value to cells
+// Adding some sample values to cells
 
 Cells cells = sheet.Cells;
 
@@ -60,7 +60,7 @@ int chartIndex = charts.Add(ChartType.Pyramid, 5, 0, 15, 5);
 
 Chart chart = charts[chartIndex];
 
-// Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+// Adding NSeries (chart data source) to the chart ranging from cell A1 to B3
 
 SeriesCollection serieses = chart.NSeries;
 
@@ -72,7 +72,7 @@ workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Create Charts** form any of the below mentioned social coding sites:
+Download **Create Charts** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 

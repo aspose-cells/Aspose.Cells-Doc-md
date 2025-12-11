@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Table Hide and Sort Data**
-Aspose.Cells supports hiding and sorting data in the pivot table. The following code snippet demonstrates this feature by sorting the Score column in descending order and then hiding the rows with a score less than 60.
+Aspose.Cells supports hiding and sorting data in pivot tables. The following code snippet demonstrates this feature by sorting the score column in descending order and then hiding the rows with a score less than 60.
 
 ```cpp
 #include <iostream>

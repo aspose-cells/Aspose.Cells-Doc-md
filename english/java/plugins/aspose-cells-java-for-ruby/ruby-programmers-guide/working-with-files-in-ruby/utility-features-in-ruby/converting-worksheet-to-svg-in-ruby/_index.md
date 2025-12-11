@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Converting Worksheet to SVG**
-To convert Worksheet to SVG using Aspose.Cells for Java in Ruby, simply invoke worksheet_to_svg() method of Converter module.
+To convert a worksheet to SVG using Aspose.Cells for Java in Ruby, simply invoke the `worksheet_to_svg()` method of the Converter module.
 
 **Ruby Code**
 
@@ -16,48 +16,49 @@ To convert Worksheet to SVG using Aspose.Cells for Java in Ruby, simply invoke w
 
  def worksheet_to_svg(workbook)
 
-    # Convert each worksheet into svg format in a single page.
+    # Convert each worksheet into SVG format in a single page.
 
-    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-    save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-    img_options.setSaveFormat(save_format.SVG)
+    img_options.setSaveFormat(save_format.SVG)
 
-    img_options.setOnePagePerSheet(true)
+    img_options.setOnePagePerSheet(true)
 
 
 
-    # Convert each worksheet into svg format
+    # Convert each worksheet into SVG format
 
-    sheet_count = workbook.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-    i=0
+    i=0
 
-    while i < sheet_count
+    while i < sheet_count
 
-        sheet = workbook.getWorksheets().get(i)
+        sheet = workbook.getWorksheets().get(i)
 
-        sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+        sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
 
-        k=0
+        k=0
 
-        while sr.getPageCount()
+        while sr.getPageCount()
 
-            # Output the worksheet into Svg image format
+            # Output the worksheet into SVG image format
 
-            sr.toImage(k, @data_dir + sheet.getName() + "#{k}.svg")
+            sr.toImage(k, @data_dir + sheet.getName() + "#{k}.svg")
 
-        end
+        end
 
-    end
+    end
 
-    puts "SVG saved successfully."
+    puts "SVG saved successfully."
 
-end 
+end 
 
 {{< /highlight >}}
-## **Download Running Code**
-Download **Converting Worksheet to SVG (Aspose.Cells)** from any of the below mentioned social coding sites:
+
+## **Download the Running Code**
+Download **Converting Worksheet to SVG (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

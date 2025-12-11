@@ -20,6 +20,6 @@ The following sample code loads the [sample Excel file](Test.xlsx) and generates
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "change-theme-colors-for-chart-series.java" >}}
 
-In this sample code, [ChartColorPaletteType.MonochromaticPalette6](https://reference.aspose.com/cells/java/com.aspose.cells/chartcolorpalettetype/) indicates the use of the sixth theme color in the drop-down box under the Excel interface.
+In this sample code, [ChartColorPaletteType.MonochromaticPalette6](https://reference.aspose.com/cells/java/com.aspose.cells/chartcolorpalettetype/) indicates the use of the sixth theme color in the drop‑down box in the Excel interface.
 
 {{< app/cells/assistant language="java" >}}

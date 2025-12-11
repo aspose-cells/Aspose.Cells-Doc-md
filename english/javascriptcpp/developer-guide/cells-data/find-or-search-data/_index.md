@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /javascript-cpp/find-or-search-data/
 description: Learn how to find or search cells in a worksheet that contains specified data through the Aspose.Cells for JavaScript via C++ API.
-keywords: Find data JavaScript via C++, Search data JavaScript via C++, Find Cells Containing a Formula JavaScript via C++, Search Cells Containing a Formula JavaScript via C++, Find Data or Formulas using FindOptions JavaScript via C++, Search Data or Formulas using FindOptions JavaScript via C++, Find or Search Cells Containing Specified String Value or Number JavaScript via C++, Find or Search cells contains specified data
+keywords: Find data JavaScript via C++, Search data JavaScript via C++, Find Cells Containing a Formula JavaScript via C++, Search Cells Containing a Formula JavaScript via C++, Find Data or Formulas using FindOptions JavaScript via C++, Search Data or Formulas using FindOptions JavaScript via C++, Find or Search Cells Containing Specified String Value or Number JavaScript via C++, Find or Search cells containing specified data
 ---
 
 {{% alert color="primary" %}}  
@@ -21,19 +21,19 @@ Here, we are looking for the value "Oranges". Aspose.Cells also allows developer
 
 ### **Using Aspose.Cells for JavaScript via C++**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**Workbook.worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#cells--) collection that represents all cells in the worksheet. The [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection provides several methods for finding cells in a worksheet containing user-specified data. A few of these methods are discussed below in more detail.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**Workbook.worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a [**cells**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#cells--) collection that represents all cells in the worksheet. The [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection provides several methods for finding cells in a worksheet containing user‑specified data. A few of these methods are discussed below in more detail.  
 
 {{% alert color="primary" %}}  
-All Find methods return the references of the cells containing the specified data to search.  
+All Find methods return references to the cells containing the specified data.  
 {{% /alert %}}  
 
 ## **Finding Cells Containing a Formula**  
 
 Developers can find a specified formula in the worksheet by calling the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection's [**find**](https://reference.aspose.com/cells/javascript-cpp/cells/#find-object-cell-findoptions-) method. Typically, the [**find**](https://reference.aspose.com/cells/javascript-cpp/cells/#find-object-cell-findoptions-) method accepts three parameters:  
 
--  The object to search for. The type should be int, double, DateTime, string, bool.  
--  Previous cell with the same object. This parameter can be set to null if searching from the start.  
--  Options for finding the required object.  
+- The object to search for. The type should be int, double, DateTime, string, or bool.  
+- Previous cell with the same object. This parameter can be set to null if searching from the start.  
+- Options for finding the required object.  
 
 The examples below use worksheet data for practicing find methods:  
 
@@ -95,7 +95,6 @@ The examples below use worksheet data for practicing find methods:
     </script>
 </html>
 ```  
-
 
 ## **Finding Data or Formulas using FindOptions**  
 
@@ -170,7 +169,7 @@ It is possible to find specified values using the [**Cells**](https://reference.
             findOptions.searchBackward = false;
             findOptions.searchOrderByRows = true;
 
-            // Set the lookintype, you may specify, values, formulas, comments etc.
+            // Set the lookintype, you may specify values, formulas, comments etc.
             findOptions.lookInType = LookInType.Values;
 
             // Set the lookattype, you may specify Match entire content, endswith, startswith etc.
@@ -189,12 +188,11 @@ It is possible to find specified values using the [**Cells**](https://reference.
 </html>
 ```  
 
-
 ## **Finding Cells Containing Specified String Value or Number**  
 
 It is possible to find specified string values by calling the same [**find**](https://reference.aspose.com/cells/javascript-cpp/cells/#find-object-cell-findoptions-) method found in the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection with various [**FindOptions**](https://reference.aspose.com/cells/javascript-cpp/findoptions).  
 
-Specify the [**FindOptions.lookInType**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#lookInType-lookintype-) and [**FindOptions.lookAtType**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#lookAtType-lookattype-) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.  
+Specify the [**FindOptions.lookInType**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#lookInType-lookintype-) and [**FindOptions.lookAtType**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#lookAtType-lookattype-) properties. The following example code illustrates how to use these properties to find cells with various numbers of strings at the **beginning**, **middle**, or **end** of the cell's string.  
 
 ```html
 <!DOCTYPE html>
@@ -281,9 +279,7 @@ Specify the [**FindOptions.lookInType**](https://reference.aspose.com/cells/java
 </html>
 ``` 
 
-
-
-## **Advance topics**  
+## **Advanced topics**  
 - [Find Cells with Specific Style](/cells/javascript-cpp/find-cells-with-specific-style/)  
 - [Find if the cell value starts with single quote mark](/cells/javascript-cpp/find-if-the-cell-value-starts-with-single-quote-mark/)  
 - [Search Data using Original Values](/cells/javascript-cpp/search-data-using-original-values/)

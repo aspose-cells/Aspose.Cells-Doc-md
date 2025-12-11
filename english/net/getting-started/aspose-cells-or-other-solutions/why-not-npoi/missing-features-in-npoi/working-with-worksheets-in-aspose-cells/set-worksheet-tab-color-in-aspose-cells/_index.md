@@ -8,12 +8,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Worksheet Tab Color**
-Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent from the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
+Aspose.Cells allows you to change the color of individual worksheet tabs to make them more prominent than the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
 ### **Setting Worksheet Tab Color with Microsoft Excel**
-1. Right-click a tab in the tab-sheet at the bottom of the current worksheet.
-1. Select **Tab color**.
-1. Select a color from the palette.
-1. Click **OK**.
+1. Right‑click a tab in the tab strip at the bottom of the current worksheet.  
+2. Select **Tab color**.  
+3. Select a color from the palette.  
+4. Click **OK**.
 
 **C#**
 
@@ -37,7 +37,7 @@ workbook.Save("AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Set Worksheet Tab Color** form any of the below mentioned social coding sites:
+Download **Set Worksheet Tab Color** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Worksheet.Tab.Color.Aspose.Cells.zip)
 

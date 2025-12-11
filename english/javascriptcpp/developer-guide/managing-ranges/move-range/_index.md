@@ -63,13 +63,13 @@ Please see the following generated file with range A1:B5 moved to C1:D5.
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiate the workbook object. Open the Excel file
+            // Instantiate the workbook object and open the Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             const cells = workbook.worksheets.get(0).cells;
 
             const range = cells.createRange("A1", "B5");
-            // move the range to right.
+            // Move the range to the right.
             range.moveTo(0, 2);
 
             const outputData = workbook.save(SaveFormat.Xlsx);

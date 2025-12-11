@@ -14,11 +14,11 @@ This document describes the changes to the Aspose.Cells API from version 8.3.2 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Mechanism to Modify the VBA/Macro Code in Spreadsheets**
-In order to provide the feature of [VBA/Macro Code Manipulation](/cells/java/modifying-vba-or-macro-code-using-aspose-cells/), the Aspose.Cells for Java 8.4.0 has exposed a series of new classes and properties in the com.aspose.cells.Vba package. A few of the important details of these new classes are as follow.
+In order to provide the feature of [VBA/Macro Code Manipulation](/cells/java/modifying-vba-or-macro-code-using-aspose-cells/), the Aspose.Cells for Java 8.4.0 has exposed a series of new classes and properties in the `com.aspose.cells.Vba` package. A few of the important details of these new classes are as follows.
 
-- VbaProject class can be used to fetch the VBA project from a given spreadsheet.
-- VbaModuleCollection class represents the collection of VBA modules that are part of a given VbaProject.
-- VbaModule class represents a single module from the VbaModuleCollection.
+- `VbaProject` class can be used to fetch the VBA project from a given spreadsheet.
+- `VbaModuleCollection` class represents the collection of VBA modules that are part of a given `VbaProject`.
+- `VbaModule` class represents a single module from the `VbaModuleCollection`.
 
 The following code snippet shows how to dynamically modify the VBA code segments.
 
@@ -60,12 +60,12 @@ workbook.save("output.xlsm");
 
 {{< /highlight >}}
 ### **Ability to Remove Pivot Table**
-Aspose.Cells for Java 8.4.0 has exposed two methods for the PivotTableCollection to provide the feature of Pivot Table removal from a given spreadsheet. The details of aforesaid methods are as follow.
+Aspose.Cells for Java 8.4.0 has exposed two methods for the `PivotTableCollection` to provide the feature of Pivot Table removal from a given spreadsheet. The details of the aforesaid methods are as follows.
 
-- PivotTableCollection.remove method accepts an object of PivotTable, and removes it from the collection.
-- PivotTableCollection.removeAt method accepts a zero index based integer value and removes the particular PivotTable from the collection.
+- `PivotTableCollection.remove` method accepts an object of `PivotTable` and removes it from the collection.
+- `PivotTableCollection.removeAt` method accepts a zero‑index‑based integer value and removes the particular PivotTable from the collection.
 
-The following code snippet shows how to remove the PivotTable using both above mentioned methods.
+The following code snippet shows how to remove the PivotTable using both the above‑mentioned methods.
 
 **Java**
 
@@ -97,15 +97,15 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Support for Different Pivot Table Layouts**
-Aspose.Cells for Java 8.4.0 provides the support for different predefined layouts for Pivot Tables. In order to provide this feature, the Aspose.Cells APIs have exposed three methods for the PivotTable class as detailed below.
+Aspose.Cells for Java 8.4.0 provides support for different predefined layouts for Pivot Tables. In order to provide this feature, the Aspose.Cells APIs have exposed three methods for the `PivotTable` class as detailed below.
 
-- PivotTable.showInCompactForm method renders the Pivot Table in Compact layout.
-- PivotTable.showInOutlineForm method renders the Pivot Table in Outline layout.
-- PivotTable.showInTabularForm method renders the Pivot Table in Tabular layout.
+- `PivotTable.showInCompactForm` method renders the Pivot Table in Compact layout.
+- `PivotTable.showInOutlineForm` method renders the Pivot Table in Outline layout.
+- `PivotTable.showInTabularForm` method renders the Pivot Table in Tabular layout.
 
 {{% alert color="primary" %}} 
 
-It is important to call the PivotTable.refreshData & PivotTable.calculateData after setting any of the above mentioned layouts. 
+It is important to call `PivotTable.refreshData` & `PivotTable.calculateData` after setting any of the above‑mentioned layouts. 
 
 {{% /alert %}} 
 
@@ -171,14 +171,14 @@ workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
 ### **Class TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy Added**
-Aspose.Cells for Java 8.4.0 has exposed the TxtLoadStyleStrategy class and TxtLoadOptions.LoadStyleStrategy property in order to specify the strategy to format the parsed values while converting string value to number or date time.
+Aspose.Cells for Java 8.4.0 has exposed the `TxtLoadStyleStrategy` class and `TxtLoadOptions.LoadStyleStrategy` property in order to specify the strategy to format the parsed values while converting string value to number or date‑time.
 ### **Added DataBar.ToImage Method**
-With the release of v8.4.0, the Aspose.Cells API has provided the DataBar.toImage method to save the conditionally formatted DataBar in image format. The {DataBar.toImage}} method accepts two parameters as detailed below.
+With the release of v8.4.0, the Aspose.Cells API has provided the `DataBar.toImage` method to save the conditionally formatted DataBar in image format. The `DataBar.toImage` method accepts two parameters as detailed below.
 
-- The first parameter is of type com.aspose.cells.Cell on which conditional formatting has been applied.
-- The second parameter is of type com.aspose.cells.rendering.ImageOrPrintOptions in order to set different parameters of the resultant image.
+- The first parameter is of type `com.aspose.cells.Cell` on which conditional formatting has been applied.
+- The second parameter is of type `com.aspose.cells.rendering.ImageOrPrintOptions` in order to set different parameters of the resultant image.
 
-The following sample code demonstrates the use of DataBar.toImage method to render the DataBar in image format.
+The following sample code demonstrates the use of `DataBar.toImage` method to render the DataBar in image format.
 
 **Java**
 
@@ -224,19 +224,19 @@ out.close();
 
 {{< /highlight >}}
 ### **Added Border.ThemeColor Property**
-Aspose.Cells APIs allow to extract theme related data from the spreadsheets. With the release of Aspose.Cells for Java 8.4.0, the API has exposed the Border.ThemeColor property that can be used to retrieve the theme color attributes of Cell borders.
+Aspose.Cells APIs allow extraction of theme‑related data from spreadsheets. With the release of Aspose.Cells for Java 8.4.0, the API has exposed the `Border.ThemeColor` property that can be used to retrieve the theme‑color attributes of cell borders.
 ### **Added DrawObject.ImageBytes Property**
-Aspose.Cells for Java 8.4.0 has exposed the DrawObject.ImageBytes property to get the image data from Chart or Shape.
+Aspose.Cells for Java 8.4.0 has exposed the `DrawObject.ImageBytes` property to get the image data from a chart or shape.
 ### **Added HtmlSaveOptions.ExportBogusRowData Property**
-Aspose.Cells for Java 8.4.0 has provided the {HtmlSaveOptions.ExportBogusRowData}} property. The Boolean type property determines if API will inject bogus bottom row data while exporting spreadsheet to HTML format. 
+Aspose.Cells for Java 8.4.0 has provided the `HtmlSaveOptions.ExportBogusRowData` property. The Boolean‑type property determines if the API will inject bogus bottom‑row data while exporting a spreadsheet to HTML format. 
 
 {{% alert color="primary" %}} 
 
-The default value is true.
+The default value is **true**.
 
 {{% /alert %}} 
 
-The following sample code illustrates the use of aforesaid property.
+The following sample code illustrates the use of the aforesaid property.
 
 **Java**
 
@@ -248,7 +248,7 @@ HtmlSaveOptions options = new HtmlSaveOptions();
 
 //Set the ExportBogusRowData to true
 
-options.ExportBogusRowData = true;
+options.setExportBogusRowData(true);
 
 //Create workbook object from source excel file
 
@@ -260,16 +260,16 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Added HtmlSaveOptions.CellCssPrefix Property**
-Newly added property HtmlSaveOptions.CellCssPrefix allows to set the prefix for the CSS files while exporting spreadsheets to HTML format.
+The newly added property `HtmlSaveOptions.CellCssPrefix` allows setting the prefix for the CSS files while exporting spreadsheets to HTML format.
 
 {{% alert color="primary" %}} 
 
-The default value is "" (empty string).
+The default value is an empty string (`""`).
 
 {{% /alert %}}
-## **Obseleted APIs**
+## **Obsolete APIs**
 ### **Obsoleted Cells.getCellByIndex & Row.getCellByIndex Methods**
-Use the getEnumerator method to iterate all cells instead.
+Use the `getEnumerator` method to iterate over all cells instead.
 ### **Obsoleted DrawObject.Image Property**
-Use the DrawObject.ImageBytes property to get image data instead.
+Use the `DrawObject.ImageBytes` property to get image data instead.
 {{< app/cells/assistant language="java" >}}

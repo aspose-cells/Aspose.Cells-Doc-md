@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Node.js via C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.getHasLeaderLines()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getHasLeaderLines--) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Node.js via C++ API. In Excel, the **'Show leader lines'** option is set by default, so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.getHasLeaderLines()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getHasLeaderLines--) property.
 
 {{% /alert %}}
 
@@ -97,9 +97,9 @@ dataLabels.setPosition(AsposeCells.LabelPositionType.OutsideEnd);
 dataLabels.setSeparatorType(AsposeCells.DataLabelsSeparatorType.Comma);
 ```
 
-So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note, to show the leader lines, we have to move the data labels a little.
+So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note that, to show the leader lines, we have to move the data labels slightly.
 
-The following piece of code turns on the leader lines, refresh the chart, and then calculates the data labels' positions to move them accordingly.
+The following piece of code turns on the leader lines, refreshes the chart, and then calculates the data labels' positions to move them accordingly.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -185,15 +185,15 @@ chart.getNSeries().get(0).setHasLeaderLines(true);
 // Calculate chart
 chart.calculate();
 
-// You need to move DataLabels a little leftward or rightward depending on their position to show leader lines
+// You need to move DataLabels slightly leftward or rightward depending on their position to show leader lines
 const DELTA = 100;
 for (let i = 0; i < chart.getNSeries().get(0).getPoints().getCount(); i++) {
-let X = chart.getNSeries().get(0).getPoints().get(i).getDataLabels().getX();
-// If it is greater than 2000, then move the X position a little right otherwise move the X position a little left
-if (X > 2000)
-chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X + DELTA);
-else
-chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X - DELTA);
+    let X = chart.getNSeries().get(0).getPoints().get(i).getDataLabels().getX();
+    // If it is greater than 2000, then move the X position a little right otherwise move the X position a little left
+    if (X > 2000)
+        chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X + DELTA);
+    else
+        chart.getNSeries().get(0).getPoints().get(i).getDataLabels().setX(X - DELTA);
 }
 ```
 
@@ -295,11 +295,11 @@ chart.toImage(path.join(dataDir, "output_out.png"), anOption);
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```
 
-|**Resultant Pie Chart**|
+| **Resultant Pie Chart** |
 | :- |
-|![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png)|
+| ![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png) |
 
-## **Advance topics**
+## **Advanced topics**
 - [Custom Slice or Sector Colors in Pie Chart](/cells/nodejs-cpp/custom-slice-or-sector-colors-in-pie-chart/)
 - [Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart](/cells/nodejs-cpp/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 

@@ -20,6 +20,6 @@ Some chart types in the SQL Server Reporting Services 2008 report definition fil
 - Range-BoxPlot
 - Shape-Funnel
 
-When rendering chart items that do not have equivalent options in Microsoft Excel, Aspose.Cells outputs them to images. 
+When rendering chart items that do not have equivalent options in Microsoft Excel, Aspose.Cells outputs them as images. 
 
 {{% /alert %}}

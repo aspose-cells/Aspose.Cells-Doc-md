@@ -1,14 +1,14 @@
 ---
-title: How to apply/set text alignment to textbox with JavaScript via C++
-linktitle: Apply/Set text alignment to textbox
+title: How to apply/set text alignment to TextBox with JavaScript via C++
+linktitle: Apply/Set text alignment to TextBox
 type: docs
 weight: 20
 url: /javascript-cpp/applying-text-alignment-to-partial-text-inside-the-textbox/
-description: How to apply/set text alignment to textbox in Aspose.Cells for JavaScript via C++.
+description: How to apply/set text alignment to TextBox in Aspose.Cells for JavaScript via C++.
 keywords: apply/set alignment TextBox Worksheet Excel Aspose JavaScript via C++
 ---
 
-TextBoxes can improve the expressiveness of our documents and diagrams, and applying different alignments to different parts of a TextBox can help highlight points of interest to readers. But the default alignment of TextBox does not meet all our needs. For this, you may need to adjust each TextBox to meet your target requirements. If you don't have a lot of TextBox objects to tweak, you're in luck. If there are so many TextBoxes to adjust, I think you will be in trouble. Don't worry now, [Aspose.Cells](https://products.aspose.com/cells/) provides such an API interface to help you do just that.
+TextBoxes can improve the expressiveness of our documents and diagrams, and applying different alignments to different parts of a TextBox can help highlight points of interest to readers. However, the default alignment of a TextBox does not meet all our needs. For this, you may need to adjust each TextBox to meet your target requirements. If you don't have many TextBox objects to tweak, you're in luck. If there are many TextBoxes to adjust, you will be in trouble. Don't worry, [Aspose.Cells](https://products.aspose.com/cells/) provides an API interface to help you do just that.
 
 The following sample code applies text alignment to a TextBox.
 
@@ -79,7 +79,7 @@ The following sample code applies text alignment to a TextBox.
 </html>
 ```
 
-You can also change the text alignment of some text inside a TextBox shape with the appropriate HTML text. The following sample code applies the text alignment to partial text inside the TextBox.
+You can also change the text alignment of some text inside a TextBox shape with the appropriate HTML text. The following sample code applies text alignment to partial text inside the TextBox.
 
 [source file](SampleTextboxExcel2016.xlsx)
 
@@ -125,22 +125,22 @@ You can also change the text alignment of some text inside a TextBox shape with 
             // Load source workbook from the selected file
             const sourceWb = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access the target textbox whose text is to be aligned
+            // Access the source TextBox whose text is to be aligned
             const sourceTextBox = sourceWb.worksheets.get(0).shapes.get(0);
 
-            // Create an object of the target workbook
+            // Create an object of the destination workbook
             const destWb = new Workbook();
 
             // Access the first worksheet from the collection
             const _sheet = destWb.worksheets.get(0);
 
-            // Create new textbox
+            // Create a new TextBox
             const _textBox = _sheet.shapes.addShape(MsoDrawingType.TextBox, 1, 0, 1, 0, 200, 200);
 
-            // Use Html string from a template file textbox
+            // Use the HTML string from a template file's TextBox
             _textBox.htmlText = sourceTextBox.htmlText;
 
-            // Save the workbook and provide download link
+            // Save the workbook and provide a download link
             const outputData = destWb.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

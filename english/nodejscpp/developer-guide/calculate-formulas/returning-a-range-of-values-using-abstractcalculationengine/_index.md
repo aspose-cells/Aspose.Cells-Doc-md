@@ -12,26 +12,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**AbstractCalculationEngine**](https://reference.aspose.com/cells/nodejs-cpp/abstractcalculationengine) class which is used to implement user-defined or custom functions that are not supported by Microsoft Excel as built-in functions.
+Aspose.Cells provides **the AbstractCalculationEngine** class, which is used to implement user‑defined or custom functions that are not supported by Microsoft Excel as built-in functions.
 
-This article will explain how to return the range of values from [**AbstractCalculationEngine**](https://reference.aspose.com/cells/nodejs-cpp/abstractcalculationengine).
+This article will explain how to return the range of values from **AbstractCalculationEngine**.
 
 {{% /alert %}}
 
-The following code demonstrates the use of the [**AbstractCalculationEngine**](https://reference.aspose.com/cells/nodejs-cpp/abstractcalculationengine) class and returns the range of values via its method.
+The following code demonstrates the use of the **AbstractCalculationEngine** class and returns the range of values via its method.
 
-Create a class with a function *calculateCustomFunction*. This class implements [**AbstractCalculationEngine**](https://reference.aspose.com/cells/nodejs-cpp/abstractcalculationengine).
+Create a class with a function *calculateCustomFunction*. This class implements **AbstractCalculationEngine**.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 
 class CustomFunctionStaticValue extends AsposeCells.AbstractCalculationEngine {
-calculate(data) {
-data.setCalculatedValue([
-[new Date(2015, 5, 12, 10, 6, 30), 2],
-[3.0, "Test"]
-]);
-}
+    calculate(data) {
+        data.setCalculatedValue([
+            [new Date(2015, 5, 12, 10, 6, 30), 2],
+            [3.0, "Test"]
+        ]);
+    }
 }
 ```
 
@@ -41,47 +41,47 @@ Now use the above function in your program
 const AsposeCells = require("aspose.cells.node");
 
 class CustomFunctionStaticValue extends AsposeCells.AbstractCalculationEngine {
-calculate(data) {
-data.setCalculatedValue([
-[new Date(2015, 5, 12, 10, 6, 30), 2],
-[3.0, "Test"]
-]);
-}
+    calculate(data) {
+        data.setCalculatedValue([
+            [new Date(2015, 5, 12, 10, 6, 30), 2],
+            [3.0, "Test"]
+        ]);
+    }
 }
 
 try {
-const path = require("path");
-const AsposeCells = require("aspose.cells.node");
+    const path = require("path");
+    const AsposeCells = require("aspose.cells.node");
 
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
+    // The path to the documents directory.
+    const dataDir = path.join(__dirname, "data");
 
-// Create workbook
-const workbook = new AsposeCells.Workbook();
-const cells = workbook.getWorksheets().get(0).getCells();
+    // Create workbook
+    const workbook = new AsposeCells.Workbook();
+    const cells = workbook.getWorksheets().get(0).getCells();
 
-// Set formula
-const cell = cells.get(0, 0);
-cell.setArrayFormula("=MYFUNC()", 2, 2);
+    // Set formula
+    const cell = cells.get(0, 0);
+    cell.setArrayFormula("=MYFUNC()", 2, 2);
 
-const style = cell.getStyle();
-style.setNumber(14);
-cell.setStyle(style);
+    const style = cell.getStyle();
+    style.setNumber(14);
+    cell.setStyle(style);
 
-// Set calculation options for formula
-const calculationOptions = new AsposeCells.CalculationOptions();
-calculationOptions.setCustomEngine(new CustomFunctionStaticValue());
-workbook.calculateFormula(calculationOptions);
+    // Set calculation options for formula
+    const calculationOptions = new AsposeCells.CalculationOptions();
+    calculationOptions.setCustomEngine(new CustomFunctionStaticValue());
+    workbook.calculateFormula(calculationOptions);
 
-// Save to xlsx by setting the calc mode to manual
-workbook.getSettings().getFormulaSettings().setCalculationMode(AsposeCells.CalcModeType.Manual);
-workbook.save(dataDir + "output_out.xlsx");
+    // Save to XLSX by setting the calculation mode to manual
+    workbook.getSettings().getFormulaSettings().setCalculationMode(AsposeCells.CalcModeType.Manual);
+    workbook.save(dataDir + "output_out.xlsx");
 
-// Save to pdf
-workbook.save(dataDir + "output_out.pdf");
+    // Save to PDF
+    workbook.save(dataDir + "output_out.pdf");
 } catch (error) {
-console.error(`Test failed: ${error.message}`);
-throw error;
+    console.error(`Test failed: ${error.message}`);
+    throw error;
 }
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

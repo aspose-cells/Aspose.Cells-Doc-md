@@ -28,8 +28,8 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "SampleInput.xlsx");
 
-// Instantiate a new Workbook
-// Open an existing excel file
+// Instantiate a new Workbook.
+ // Open an existing Excel file.
 const wkBook = new AsposeCells.Workbook(filePath);
 // Get a worksheet in the workbook
 const wkSheet = wkBook.getWorksheets().get("Sheet2");
@@ -39,29 +39,29 @@ wkSheet.getCells().clear();
 // Get merged areas
 const areas = wkSheet.getCells().getMergedAreas();
 
-// Check if areas is null or not
+// Check whether areas is null or empty
 if (!areas || areas.length === 0) {
-console.warn("No merged areas to unmerge.");
-return;
+  console.warn("No merged areas to unmerge.");
+  return;
 }
 
 // Define some variables
 let frow, fcol, erow, ecol, trows, tcols;
-// Loop through the arraylist and get each cellarea
-// To unmerge it
+// Loop through the array list and get each cell area
+// to unmerge it
 for (let i = 0; i < areas.length; i++) {
-frow = areas[i].startRow;
-fcol = areas[i].startColumn;
-erow = areas[i].endRow;
-ecol = areas[i].endColumn;
+  frow = areas[i].startRow;
+  fcol = areas[i].startColumn;
+  erow = areas[i].endRow;
+  ecol = areas[i].endColumn;
 
-trows = erow - frow + 1;
-tcols = ecol - fcol + 1;
-wkSheet.getCells().unMerge(frow, fcol, trows, tcols);
+  trows = erow - frow + 1;
+  tcols = ecol - fcol + 1;
+  wkSheet.getCells().unMerge(frow, fcol, trows, tcols);
 }
 
 const outputFilePath = path.join(dataDir, "MergeTrial.out.xlsx");
-// Save the excel file
+// Save the Excel file
 wkBook.save(outputFilePath);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

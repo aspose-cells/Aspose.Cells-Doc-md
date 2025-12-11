@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Using Aspose.Cells you can open files with different formats. **Aspose.Cells** can open a range of file formats such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files etc.
+Using Aspose.Cells you can open files with different formats. **Aspose.Cells** can open a range of file formats such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files, etc.
 
 If you need to know all supported file formats, please refer to the following pages:
 [Supported File Formats](https://docs.aspose.com/cells/python-java/supported-file-formats/)
@@ -25,66 +25,66 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 ### **Opening SpreadsheetML Files**
 
-SpreadsheetML files are XML representations of spreadsheets including all information about it, such as formatting, formulae etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
+SpreadsheetML files are XML representations of spreadsheets including all information about them, such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option has been added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenSpreadsheetMLFile.py" >}}
 
 ### **Opening HTML Files**
 
-Aspose.Cells allows you to open HTML file into Workbook object. The HTML file should Microsoft Excel oriented i.e MS-Excel should be able to open it.
+Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML file should be Microsoft Excel‑oriented, i.e., MS‑Excel should be able to open it.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenHTMLFile.py" >}}
 
 ### **Opening CSV Files**
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
+Comma‑Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double‑quote character. If a field value contains a double‑quote character it is escaped with a pair of double‑quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenCSVFile.py" >}}
 
-#### **Opening CSV files and replacing invalid characters**
+#### **Opening CSV Files and Replacing Invalid Characters**
 
-In Excel, when CSV file with special characters is opened, the characters are automatically replaced. The same is done by Aspose.Cells API which is demonstrated in the code example given below.
+In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API, which is demonstrated in the code example given below.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenCSVFileAndReplaceInvalidCharacters.py" >}}
 
-Sample source file can be downloaded from the following links for testing this feature.
+Sample source file can be downloaded from the following link for testing this feature.
 
 [InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **Opening Text Files with Custom Separator**
 
-Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.
+Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have customized delimiters.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenTextFilewithCustomSeparator.py" >}}
 
-Sample source file can be downloaded from the following links for testing this feature.
+Sample source file can be downloaded from the following link for testing this feature.
 
 [CustomSeparator.txt](CustomSeparator.txt)
 
 ### **Opening Tab Delimited Files**
 
-Tab delimited (Text) file contains spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.
+Tab‑delimited (text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain text file with a tab between each column.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenTabDelimitedFile.py" >}}
 
-Sample source file can be downloaded from the following links for testing this feature.
+Sample source file can be downloaded from the following link for testing this feature.
 
 [TabDelimited.txt](TabDelimited.txt)
 
-### **Opening Tab-Separated Values (TSV) Files**
+### **Opening Tab‑Separated Values (TSV) Files**
 
-Tab-separated values (TSV) file contains spreadsheet data but without any formatting. It is the same with Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.
+Tab‑separated values (TSV) files contain spreadsheet data but without any formatting. They are the same as Tab‑delimited files, where data is arranged in rows and columns like in tables and spreadsheets.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenTSVFile.py" >}}
 
 ### **Opening SXC Files**
 
-StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, functions, and macros. The spreadsheets created with this software are saved with the SXC extension. The SXC file is also used for OpenOffice.org Calc spreadsheet files. Aspose.Cells can read SXC files as demonstrated by the following code sample.
+StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, functions, and macros. The spreadsheets created with this software are saved with the SXC extension. The SXC file is also used for OpenOffice.org Calc spreadsheet files. Aspose.Cells can read SXC files as demonstrated by the following code sample.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenSXCFile.py" >}}
 
 ### **Opening FODS Files**
 
-FODS file is spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
+A FODS file is a spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFODSFile.py" >}}

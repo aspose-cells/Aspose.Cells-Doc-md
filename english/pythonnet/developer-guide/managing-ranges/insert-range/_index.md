@@ -3,7 +3,7 @@ title: Insert Ranges
 type: docs
 weight: 105
 url: /python-net/insert-ranges-to-excel/
-description: This article describes how to Insert Ranges with Aspose.Cells for Python via .NET library.
+description: This article describes how to insert ranges with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python Insert Ranges, Python Insert Ranges And Shift Cells Right, Python Insert Ranges And Shift Cells Down.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -21,13 +21,13 @@ Aspose.Cells for Python via .NET provides [Cells.insert_range](https://reference
 
 ## **How to Insert Ranges And Shift Cells Right**
 
-Insert a ranage and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells right using the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Insert-Range-Right.py" >}}
 
 ## **How to Insert Ranges And Shift Cells Down**
 
-Insert a ranage and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down using the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-Insert-Range-Down.py" >}}
 

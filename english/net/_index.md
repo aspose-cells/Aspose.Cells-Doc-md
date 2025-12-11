@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /net/
 is_root: true
-description: Aspose.Cells for .NET supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
+description: Aspose.Cells for .NET supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML and JSON file formats and allows exporting Excel files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
 keywords: Aspose.Cells for .NET create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats using C#, Aspose Excel C#
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -20,11 +20,9 @@ Aspose.Cells for .NET is a programming class library that allows software develo
 
 Combined with APIs and GUI controls, Aspose.Cells for .NET speeds up Microsoft Excel® programming and conversion.
 
-Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON，Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
-
+Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats you use every day. It also allows exporting Excel files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
 
 {{% /alert %}}
-
 
 <div class="row">
 	<div class="col-md-4">

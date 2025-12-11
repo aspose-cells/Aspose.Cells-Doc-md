@@ -11,17 +11,17 @@ url: /go-cpp/how-to-set-category-axis/
 ## **Possible Usage Scenarios**
 After you create a chart in a worksheet, you can set the category axis for it. In this article, we will show you how to set the category axis for an Excel chart using Aspose.Cells with sample code.
 
-## **The steps in sample code**
+## **The steps in the sample code**
 
-1. Create a new workbook.
+1. Create a new workbook.  
 
-2. Create a new chart in the first worksheet.
+2. Create a new chart in the first worksheet.  
 
-3. Add some values to cells in the first worksheet.
+3. Add some values to cells in the first worksheet.  
 
-4. Now you can set the category axis. There are two ways: using cell data or using strings directly, both of which are shown in the sample code.
+4. Now you can set the category axis. There are two ways: using cell data or using strings directly; both are shown in the sample code.  
 
-5. Set the value axis, save the workbook to view the result.
+5. Set the value axis and save the workbook to view the result.  
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetCategoryAxis.go" >}}

@@ -17,9 +17,9 @@ Sometimes, you need to present worksheet images in applications or web pages. Fo
 
 ## **Remove Whitespace around Data**
 
-The [**SheetRender**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
+The [**SheetRender**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/) API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
 
-When you use the sheet-to-image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, bottom, left, and right page setup margins for the source worksheet to 0 and specify [**ImageOrPrintOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) attributes accordingly.
+When you use the sheet‑to‑image feature, the output image has whitespace—that is, a border—around it by default. You can remove this by setting the top, bottom, left, and right page‑setup margins for the source worksheet to 0 and specifying the [**ImageOrPrintOptions**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) attributes accordingly.
 
 The following code snippet removes the whitespace around the data in the output image.
 
@@ -48,7 +48,7 @@ int main()
     LoadOptions options;
     options.SetLoadFilter(new LoadFilter(LoadDataFilterOptions::All));
 
-    // Specify your print area if you want
+    // Specify your print area if you wish
     // sheet.GetPageSetup().SetPrintArea(u"A1:H8");
 
     // To remove the white border around the image.
@@ -61,7 +61,7 @@ int main()
     ImageOrPrintOptions imgOptions;
     imgOptions.SetImageType(Aspose::Cells::Drawing::ImageType::Emf);
 
-    // Set only one page would be rendered for the image
+    // Set only one page to be rendered for the image
     imgOptions.SetOnePagePerSheet(true);
     imgOptions.SetPrintingPage(PrintingPageType::IgnoreBlank);
 

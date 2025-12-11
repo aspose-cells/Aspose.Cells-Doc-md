@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-If you assign invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/python-net/aspose.cells/style/custom) property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the [**Workbook.settings.check_custom_number_format**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/check_custom_number_format/) property to **true**.
+If you assign an invalid custom number format to the [**Style.custom**](https://reference.aspose.com/cells/python-net/aspose.cells/style/custom) property, Aspose.Cells will not throw any exception. However, if you want Aspose.Cells to check whether the assigned custom number format is valid, set the [**Workbook.settings.check_custom_number_format**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/check_custom_number_format/) property to **true**.
 
 ## **Check Custom Number Format when setting Style.Custom property**
 
-The following sample code assigns an invalid custom number format to [**Style.custom**](https://reference.aspose.com/cells/python-net/aspose.cells/style/custom) property. Since, we have already set [**Workbook.settings.check_custom_number_format**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/check_custom_number_format/) property to **true**, therefore it throws exception e.g. Invalid number format. Please read the comments inside the code for more help.
+The following sample code assigns an invalid custom number format to the [**Style.custom**](https://reference.aspose.com/cells/python-net/aspose.cells/style/custom) property. Since we have already set the [**Workbook.settings.check_custom_number_format**](https://reference.aspose.com/cells/python-net/aspose.cells/workbooksettings/check_custom_number_format/) property to **true**, it throws an exception, e.g., Invalid number format. Please read the comments inside the code for more help.
 
 ## **Sample Code**
 

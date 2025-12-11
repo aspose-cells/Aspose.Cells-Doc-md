@@ -9,16 +9,16 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Detect Hyperlink Type**
+## **Detect Hyperlink Type**
 
-An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells for Python via .NET supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype) Enumeration. The [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype) Enumeration has the following members.
+An Excel file can have different types of hyperlinks such as external, cell reference, file path, etc. Aspose.Cells for Python via .NET supports detecting the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype) Enumeration. The [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype) Enumeration has the following members.
 
-- EXTERNAL: External link
-- FILE_PATH: Local and full path to files\folders.
-- EMAIL: Email
-- CELL_REFERENCE: Link to cell or named range.
+- EXTERNAL: External link
+- FILE_PATH: Local and full path to files/folders.
+- EMAIL: Email
+- CELL_REFERENCE: Link to cell or named range.
 
-To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink) class provides a [**link_type**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/link_type/) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [**link_type**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/link_type/) property by using this [source excel file](94896195.xlsx).
+To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink) class provides a [**link_type**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/link_type/) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/python-net/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [**link_type**](https://reference.aspose.com/cells/python-net/aspose.cells/hyperlink/link_type/) property by using this [source Excel file](94896195.xlsx).
 
 ### Source Code
 

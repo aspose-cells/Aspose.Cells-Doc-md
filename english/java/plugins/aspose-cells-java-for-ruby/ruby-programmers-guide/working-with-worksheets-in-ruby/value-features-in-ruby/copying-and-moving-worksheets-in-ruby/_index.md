@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Copying and Moving Worksheets**
 ### **Copy Worksheets within a Workbook**
-To copy worksheet using **Aspose.Cells for Java in Ruby**, call **copy_worksheet** method of **copyworksheets** module. Below you can see code example.
+To copy a worksheet using **Aspose.Cells for Java in Ruby**, call **the copy_worksheet method** of **the copyworksheets module**. Below is a code example.
 
 **Ruby Code**
 
@@ -17,25 +17,25 @@ To copy worksheet using **Aspose.Cells for Java in Ruby**, call **copy_worksheet
 
  def copy_worksheet(workbook)
 
-    # Create a Worksheets object with reference to the sheets of the Workbook.
+    # Create a Worksheets object with reference to the sheets of the Workbook.
 
-    sheets = workbook.getWorksheets()
+    sheets = workbook.getWorksheets()
 
-    # Copy data to a new sheet from an existing sheet within the Workbook.
+    # Copy data to a new sheet from an existing sheet within the Workbook.
 
-    sheets.addCopy("Sheet1")
+    sheets.addCopy("Sheet1")
 
-    # Saving the modified Excel file in default (that is Excel 2003) format
+    # Saving the modified Excel file in the default (Excel 2003) format
 
-    workbook.save(@data_dir + "Copy Worksheet.xls")
+    workbook.save(@data_dir + "Copy Worksheet.xls")
 
-    puts "Copy worksheet, please check the output file."
+    puts "Copy worksheet completed; please check the output file."
 
-end 
+end 
 
 {{< /highlight >}}
 ### **Move Worksheets within a Workbook**
-To move worksheet using **Aspose.Cells for Java in Ruby**, call **move_worksheet** method of **copyworksheets** module. Below you can see code example.
+To move a worksheet using **Aspose.Cells for Java in Ruby**, call **the move_worksheet method** of **the copyworksheets module**. Below is a code example.
 
 **Ruby Code**
 
@@ -43,21 +43,21 @@ To move worksheet using **Aspose.Cells for Java in Ruby**, call **move_worksheet
 
  def move_worksheet(workbook)
 
-    # Get the first worksheet in the book.
+    # Get the first worksheet in the workbook.
 
-    sheet = workbook.getWorksheets().get(0)
+    sheet = workbook.getWorksheets().get(0)
 
-    # Move the first sheet to the third position in the workbook.
+    # Move the first sheet to the third position in the workbook.
 
-    sheet.moveTo(2)
+    sheet.moveTo(2)
 
-    # Saving the modified Excel file in default (that is Excel 2003) format
+    # Saving the modified Excel file in the default (Excel 2003) format
 
-    workbook.save(@data_dir + "Move Worksheet.xls")
+    workbook.save(@data_dir + "Move Worksheet.xls")
 
-    puts "Move worksheet, please check the output file."
+    puts "Move worksheet completed; please check the output file."
 
-end 
+end 
 
 {{< /highlight >}}
 ## **Download Running Code**

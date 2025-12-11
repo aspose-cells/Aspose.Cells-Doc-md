@@ -20,7 +20,7 @@ This article explains in detail how to group and ungroup shapes, pictures, or ot
 
 This use case demonstrates how to use Aspose.Cells to group individual shapes, pictures, or objects in a worksheet.
 
-This is the input file:[sample1.xlsx](sample1.xlsx)
+This is the input file: [sample1.xlsx](sample1.xlsx)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Group-Or-Ungroup-1.cs" >}}
 
@@ -28,7 +28,7 @@ This is the input file:[sample1.xlsx](sample1.xlsx)
 
 This use case demonstrates how to use Aspose.Cells to split a group in a worksheet into individual shapes, pictures, or objects.
 
-This is the input file:[sample2.xlsx](sample2.xlsx)
+This is the input file: [sample2.xlsx](sample2.xlsx)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Group-Or-Ungroup-2.cs" >}}
 

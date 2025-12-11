@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## How to set series invisible in Excel Chart
 
-In Excel chart, you can right-click a chart, click "Select Data", and in the pop-up window, you can set whether a series is visible by checking or unchecking it. You can download the following [sample file](SeriesFiltered.xlsx) and operate it in Excel as shown in the figure to achieve this function. Next, we will tell you how to achieve this using the Aspose.Cells library.
+In an Excel chart, you can right‑click a chart, click **Select Data**, and in the pop‑up window, you can set whether a series is visible by checking or unchecking it. You can download the following [sample file](SeriesFiltered.xlsx) and work with it in Excel as shown in the figure to achieve this function. Next, we will show you how to achieve this using the Aspose.Cells library.
 
 ![todo:image_alt_text](series-invisible.png)
 
@@ -39,8 +39,8 @@ nSeries.get(0).setIsColorVaried(true);
 workbook.save(path.join(dataDir, "output.xlsx"));
 ```
 
-You can get the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
+You can download the following [input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
 
-As shown in the figure below, the first two series which were originally visible, have become invisible in the output file.
+As shown in the figure below, the first two series that were originally visible have become invisible in the output file.
 ![todo:image_alt_text](output.png)
 {{< app/cells/assistant language="nodejs-cpp" >}}

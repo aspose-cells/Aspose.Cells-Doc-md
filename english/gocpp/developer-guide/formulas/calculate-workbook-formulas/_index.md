@@ -7,7 +7,7 @@ url: /go-cpp/calculate-workbook-formulas/
 
 ## **Calculate Workbook Formulas**
 
-Please use [Workbook.CalculateFormula()](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) method to calculate the formulas of your workbook. The following sample code explains the usage of this method.
+Please use [Workbook.CalculateFormula()](https://reference.aspose.com/cells/go-cpp/workbook/calculateformula/) method to calculate the formulas of your workbook. The following sample code explains the usage of this method.
 
 ## **Sample Code**
 

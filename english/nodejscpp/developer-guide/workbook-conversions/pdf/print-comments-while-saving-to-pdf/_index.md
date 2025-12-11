@@ -5,19 +5,19 @@ type: docs
 weight: 10  
 url: /nodejs-cpp/print-comments-while-saving-to-pdf/  
 description: Learn how to print comments when saving Excel documents to PDF using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
 
-Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options  
+Microsoft Excel allows you to print comments when printing or saving to PDF format, with the following options:  
 
 - None  
-- At end of sheet  
-- As displayed on sheet  
+- At the end of the sheet  
+- As displayed on the sheet  
 
-Aspose.Cells provide the [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) enum has the following members  
+Aspose.Cells provides the [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) enum to support the same feature. The [**PrintCommentsType**](https://reference.aspose.com/cells/nodejs-cpp/printcommentstype) enum has the following members:  
 
 - PrintNoComments  
 - PrintInPlace  
@@ -42,14 +42,14 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "SampleWorkbookWith
 const worksheet = workbook.getWorksheets().get(0);
 
 /*
-* For print no comments use "PrintCommentsType.PrintNoComments"
-* and for print the comments as displayed on sheet use "PrintCommentsType.PrintInPlace"
-* For Print the comments at the end of sheet we use "PrintCommentsType.PrintSheetEnd"
+* To print no comments, use "PrintCommentsType.PrintNoComments".
+* To print the comments as displayed on the sheet, use "PrintCommentsType.PrintInPlace".
+* To print the comments at the end of the sheet, use "PrintCommentsType.PrintSheetEnd".
 */
 worksheet.getPageSetup().setPrintComments(AsposeCells.PrintCommentsType.PrintSheetEnd);
 
-// Save workbook in pdf format
+// Save the workbook in PDF format
 workbook.save(path.join(dataDir, "PrintCommentWhileSavingToPdf_out.pdf"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

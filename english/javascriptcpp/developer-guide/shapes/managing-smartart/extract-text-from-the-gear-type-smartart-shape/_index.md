@@ -9,11 +9,11 @@ description: Learn how to extract text from the Gear Type SmartArt Shape using A
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.resultOfSmartArt**](https://reference.aspose.com/cells/javascript-cpp/shape/#resultOfSmartArt--) property. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.groupedShapes**](https://reference.aspose.com/cells/javascript-cpp/groupshape/#groupedShapes--) property. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.text**](https://reference.aspose.com/cells/javascript-cpp/shape/#text--) property.
+Aspose.Cells can extract text from the Gear Type SmartArt Shape. In order to do so, you should first convert the SmartArt shape to a Group Shape using the [**Shape.resultOfSmartArt**](https://reference.aspose.com/cells/javascript-cpp/shape/#resultOfSmartArt--) property. Then you should get the array of all the individual shapes forming the Group Shape using the [**GroupShape.groupedShapes**](https://reference.aspose.com/cells/javascript-cpp/groupshape/#groupedShapes--) property. Finally, you can iterate all of the individual shapes one by one in a loop and extract their text using the [**Shape.text**](https://reference.aspose.com/cells/javascript-cpp/shape/#text--) property.
 
 ## **Extract Text from the Gear Type SmartArt Shape**
 
-The following sample code loads the [sample Excel file](67338483.xlsx) that contains Gear Type Smart Art Shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for a reference.
+The following sample code loads the [sample Excel file](67338483.xlsx) that contains a Gear Type SmartArt Shape. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for a reference.
 
 ## **Sample Code**
 
@@ -65,13 +65,13 @@ The following sample code loads the [sample Excel file](67338483.xlsx) that cont
             // Access first shape.
             const shape = worksheet.shapes.get(0);
 
-            // Get the result of gear type smart art shape in the form of group shape.
+            // Get the result of the gear‑type SmartArt shape in the form of a group shape.
             const groupShape = shape.resultOfSmartArt;
 
-            // Get the list of individual shapes consisting of group shape.
+            // Get the list of individual shapes that constitute the group shape.
             const shapes = groupShape.groupedShapes;
 
-            // Extract the text of gear type shapes and display them.
+            // Extract the text of gear‑type shapes and display them.
             const results = [];
             for (let i = 0; i < shapes.count; i++) {
                 const s = shapes.get(i);

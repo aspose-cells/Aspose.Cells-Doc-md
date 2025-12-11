@@ -12,17 +12,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can create Data Table in Microsoft Excel using Data > What-If Analysis > Data Table.... Aspose.Cells for Python via .NET allows you to calculate the array formula of a data table. Please use [**workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/) as normal for calculating any type of formulas.
+You can create a data table in Microsoft Excel using **Data > What‑If Analysis > Data Table**. Aspose.Cells for Python via .NET allows you to calculate the array formula of a data table. Please use [**workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/) as usual for calculating any type of formulas.
 
 {{% /alert %}}
 
-In the following example, we use the [source excel file](5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table (highlighted in yellow) will update to 120 as shown in the screenshots below. The Python code generates this [output PDF](5115538.pdf).
+In the following example, we use the source Excel file (`5115535.xlsx`). If you change the value of cell **B1** to **100**, the values of the data table (highlighted in yellow) will update to **120**, as shown in the screenshots below. The Python code generates this output PDF (`5115538.pdf`).
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
-Below is the Python implementation demonstrating how to generate the [output PDF](5115538.pdf) from the [source excel file](5115535.xlsx):
+Below is the Python implementation demonstrating how to generate the [output PDF](5115538.pdf) from the source Excel file (`5115535.xlsx`):
 
 ```python
 import os
@@ -32,19 +32,19 @@ from aspose.cells import Workbook
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(current_dir, "data")
 
-# Create workbook from source excel file
+# Create workbook from source Excel file
 workbook = Workbook(os.path.join(data_dir, "DataTable.xlsx"))
 
 # Access first worksheet
 worksheet = workbook.worksheets[0]
 
-# When you will put 100 in B1, then all Data Table values formatted as Yellow will become 120
+# When you put 100 in B1, all data table values formatted in yellow will become 120
 worksheet.cells.get("B1").put_value(100)
 
-# Calculate formula, now it also calculates Data Table array formula
+# Calculate the formula; it now also calculates the data table array formula
 workbook.calculate_formula()
 
-# Save the workbook in pdf format
+# Save the workbook in PDF format
 workbook.save(os.path.join(data_dir, "output_out.pdf"))
 ```
 

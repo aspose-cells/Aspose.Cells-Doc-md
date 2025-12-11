@@ -1,5 +1,5 @@
 ---
-title: Create TextBox in which each line is having different Horizontal Alignment
+title: Create a TextBox in which each line has a different Horizontal Alignment
 type: docs
 weight: 310
 url: /python-net/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/

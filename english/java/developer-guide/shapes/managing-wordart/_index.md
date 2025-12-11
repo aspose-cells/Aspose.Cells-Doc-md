@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, and make the text fit a preset shape, or apply the text to an Excel sheet as A background watermark. The WordArt becomes an object that you can move or position in spreadsheets to add decoration.
+Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, and make the text fit a preset shape, or apply the text to an Excel sheet as a background watermark. The WordArt becomes an object that you can move or position in spreadsheets to add decoration.
 
 {{% /alert %}}
 
@@ -18,7 +18,7 @@ Use WordArt to add special text effects to spreadsheets. For example, stretch a 
 
 The following example shows how to add a WordArt shape to set a background watermark for a worksheet.
 
-After running the code the output file contains a pale red WordArt watermark.
+After running the code, the output file contains a pale red WordArt watermark.
 
 **The output file**
 
@@ -26,7 +26,7 @@ After running the code the output file contains a pale red WordArt watermark.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToWorksheet-AddWordArtWatermarkToWorksheet.java" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Word Art Text with Built-in Styles](/cells/java/add-word-art-text-with-built-in-styles/)
 - [Add WordArt Watermark to Chart](/cells/java/add-wordart-watermark-to-chart/)
 - [Locking WordArt Watermark](/cells/java/locking-wordart-watermark/)

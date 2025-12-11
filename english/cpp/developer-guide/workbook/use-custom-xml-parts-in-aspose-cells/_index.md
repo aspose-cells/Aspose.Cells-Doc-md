@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Using Custom XML Parts in Aspose.Cells
 
-Custom XML Parts are XML data stored by different applications like SharePoint inside an Excel file. This data is consumed by various applications that require it. Microsoft Excel does not use this data, so there is no GUI to add it. You can view this data by changing the extension of **.xlsx** to **.zip** and then opening it using **WinZip**. You can also open the ZIP file using any third-party Windows zip utility such as WinRAR or WinZip. The data is present inside the **customXml** folder.
+Custom XML Parts are XML data stored by different applications like SharePoint inside an Excel file. This data is consumed by various applications that require it. Microsoft Excel does not use this data, so there is no GUI to add it. You can view this data by changing the extension of **.xlsx** to **.zip** and then opening it using **WinZip**. You can also open the ZIP file using any third‑party Windows zip utility such as WinRAR or WinZip. The data is present inside the **customXml** folder.
 
 You can add custom XML parts using Aspose.Cells via the [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/cpp/aspose.cells.properties/contenttypepropertycollection/add/) method.
 
@@ -38,7 +38,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // The sample XML that will be injected to Workbook
+    // The sample XML that will be injected into Workbook
     U16String booksXML = uR"(<catalog>
    <book>
       <title>Complete C#</title>

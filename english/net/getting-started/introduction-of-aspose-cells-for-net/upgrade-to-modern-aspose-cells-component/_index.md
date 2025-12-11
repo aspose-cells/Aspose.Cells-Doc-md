@@ -9,17 +9,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-In order to assist the users for upgrading, we maintain a document describing information critical to existing users especially the ones who have been using the older Aspose.Excel and now, they want to upgrade to newer Aspose.Cells. These are intended to be brief notes, and you should be able to find more information checking all the sections of the **Programmer’s Guide** and **Aspose.Cells API Reference**.
+In order to assist users with upgrading, we maintain a document describing information critical to existing users, especially those who have been using the older Aspose.Excel and now want to upgrade to newer Aspose.Cells. These are intended to be brief notes, and you can find more information by checking all the sections of the **Programmer’s Guide** and **Aspose.Cells API Reference**.
 
 {{% /alert %}} 
 ## **Upgrading to Aspose.Cells**
-Sometimes the previous users (e.g., Aspose.Excel users) might contract an issue / problem or they found some features are missing in the version, alternatively, they need to to upgrade to the newer Aspose.Cells for their requirements. It is to be noted that Aspose.Excel has been renamed to become Aspose.Cells now, so, we cannot continue or make amendments with the older versions of Aspose.Excel component anymore. The new Aspose.Cells component is more reliable, stable and prosperous with enhanced and advanced functionality. We specially focus to optimize its performance for the most diverse scenarios. Just to emphasize, there is not much labor involved upgrading to Aspose.Cells component. However, when you upgrade to it.
+Sometimes previous users (e.g., Aspose.Excel users) might encounter an issue/problem or find that some features are missing in the version; alternatively, they need to upgrade to the newer Aspose.Cells for their requirements. It should be noted that Aspose.Excel has been renamed to Aspose.Cells, so we cannot continue to make amendments with the older Aspose.Excel component. The new Aspose.Cells component is more reliable, stable, and robust, with enhanced and advanced functionality. We specifically focus on optimizing its performance for a wide range of scenarios. Just to emphasize, there is not much effort involved in upgrading to the Aspense.Cells component.
 
 {{% alert color="primary" %}} 
 
-Some APIs (classes, struct, enumerations etc.) are added based on some advanced features that we now offer, the previous classes (with their members) are retained and optimised but a few classes are renamed, some additional members (properties, methods etc.) are also included for the classes with a very few excluded.
+Some APIs (classes, structs, enumerations, etc.) have been added based on the advanced features we now offer. The previous classes (with their members) are retained and optimized, but a few classes have been renamed. Some additional members (properties, methods, etc.) are also included for the classes, with a very few excluded.
 
-Following is the classes list which are renamed:
+The following is the list of classes that have been renamed:
 
 1. **Excel** class is replaced by **Workbook** class.
 

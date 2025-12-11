@@ -1,12 +1,12 @@
 ---
-title: How to export excel equations to other types of expressions
+title: How to export Excel equations to other types of expressions
 linktitle: export equation
 type: docs
 weight: 100
 url: /javascript-cpp/export-equation/
 ---
 
-Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs, then Aspose.Cells library can meet your needs. The following content introduces some methods on how to export Excel formulas to other formats, I hope these methods will be helpful to you.
+Sometimes you may need to export Excel formulas to other formats in your code to meet your work needs; the Aspose.Cells library can meet those needs. The following content introduces some methods for exporting Excel formulas to other formats. I hope these methods will be helpful to you.
 
 We have prepared sample code here to help you achieve your goals using Aspose.Cells. Necessary sample files are also provided.
 

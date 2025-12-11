@@ -17,7 +17,7 @@ Aspose.Cells provides the [**PivotTable::GetCellByDisplayName()**](https://refer
 
 ## **Get the Cell Object by DisplayName of PivotField of PivotTable**
 
-The following code accesses the first pivot table of the worksheet and then retrieves the cell by the display name of the second data field of the pivot table. It then changes the fill color and font color of the cell to light blue and black, respectively. Below are screenshots showing how the pivot table looks before and after the execution of the code.
+The following code accesses the first pivot table of the worksheet and then retrieves the cell by the display name of the **first** data field of the pivot table. It then changes the fill color and font color of the cell to light blue and black, respectively. Below are screenshots showing how the pivot table looks before and after the execution of the code.
 
 |**Pivot Table - Before**|
 | :- |

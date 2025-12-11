@@ -9,15 +9,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Microsoft Excel allows users to add data validation rules to worksheet cells. For instance, a decimal validation can be applied to restrict the numbers between 10 and 20. If any other number out of this specified range is entered, the Microsoft Excel shows an error message and prompts the user to reenter a number from the correct range. If user copy pastes a number, say 3, into the cell, Excel does not run the validation check or show an error message.
+Microsoft Excel allows users to add data validation rules to worksheet cells. For instance, a decimal validation can be applied to restrict the numbers between 10 and 20. If any other number out of this specified range is entered, Excel shows an error message and prompts the user to re‑enter a number from the correct range. If the user copy‑pastes a number, say 3, into the cell, Excel does not run the validation check or show an error message.
 
 {{% /alert %}}
 
 ## Verify that Cell Value Satisfies Data Validation Rules
 
-Sometimes, it is necessary to dynamically verify if a given value satisfies the data validation rules applied to the cell. For this purpose, the Aspose.Cells APIs provide the [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method. If the value in a cell does not satisfy the data validation rule applied to that cell, it returns **False**, else **True**.
+Sometimes, it is necessary to dynamically verify if a given value satisfies the data validation rules applied to the cell. For this purpose, the Aspose.Cells APIs provide the [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method. If the value in a cell does not satisfy the data validation rule applied to that cell, it returns **False**; otherwise, it returns **True**.
 
-The following sample Microsoft Excel file is used with the sample code below to test the [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method. As you can see in the snapshot that the cells **C1** has **decimal data validation** applied and will only accept values **between 10 and 20**. Whenever the value of the cell is between 10 and 20, [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method will return **True**, otherwise, it will return **False**.
+The following sample Microsoft Excel file is used with the sample code below to test the [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method. As you can see in the snapshot, the cell **C1** has **decimal data validation** applied and will only accept values **between 10 and 20**. Whenever the value of the cell is between 10 and 20, the [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) method will return **True**; otherwise, it will return **False**.
 
 ![todo:image_alt_text](verify-that-cell-value-satisfies-data-validation-rules_1.png)
 

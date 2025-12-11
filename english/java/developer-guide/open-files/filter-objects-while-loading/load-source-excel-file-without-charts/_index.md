@@ -1,5 +1,5 @@
 ---
-title: Load source excel file without charts
+title: Load source Excel file without charts
 type: docs
 weight: 750
 url: /java/load-source-excel-file-without-charts/
@@ -9,12 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells allows you to load your excel file without charts. Please use LoadOptions.LoadFilter property for this purpose.
+Aspose.Cells allows you to load your Excel file without charts. Please use LoadOptions.LoadFilter property for this purpose.
 
 {{% /alert %}} 
-## **Load source excel file without charts**
-The following sample code loads the sample excel file without charts and saves it in output pdf format.
-
+## **Load source Excel file without charts**
+The following sample code loads the sample Excel file without charts and saves it in the output PDF format.
 
 
 
@@ -41,7 +40,6 @@ workbook.save("LoadExcelFileWithoutChart_out.pdf", SaveFormat.PDF);
 
 
 
-
-
-
 {{< app/cells/assistant language="java" >}}
+
+

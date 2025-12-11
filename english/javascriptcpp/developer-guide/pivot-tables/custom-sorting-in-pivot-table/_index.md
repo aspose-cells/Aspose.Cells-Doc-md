@@ -1,25 +1,25 @@
----
-title: Custom sorting in Pivot Table
-type: docs
-weight: 130
-url: /javascript-cpp/custom-sorting-in-pivot-table/
-description: How to sort Pivot Tables on field values with Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, Sort Pivot Tables on field values Using Aspose.Cells for JavaScript via C++ Excel Library.
----
+---  
+title: Custom sorting in Pivot Table  
+type: docs  
+weight: 130  
+url: /javascript-cpp/custom-sorting-in-pivot-table/  
+description: How to sort Pivot Tables on field values with Aspose.Cells for JavaScript via C++.  
+keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, sort Pivot Tables on field values using Aspose.Cells for JavaScript via C++ Excel Library.  
+---  
 
-## **How to Set Custom Sorting in Pivot Table Using Aspose.Cells for JavaScript via C++ Library**
-By using the Aspose.Cells for JavaScript via C++ API, you can sort Pivot Tables on field values. The following code snippet loads the sample excel file and adds three pivot tables. The first pivot table is without custom sorting, the second pivot table is sorted on "SeaFood" row field values and the third pivot table is sorted on "28/07/2000" column field values.
+## **How to Set Custom Sorting in Pivot Table Using Aspose.Cells for JavaScript via C++ Library**  
+By using the Aspose.Cells for JavaScript via C++ API, you can sort Pivot Tables on field values. The following code snippet loads the sample Excel file and adds three pivot tables. The first pivot table is without custom sorting, the second pivot table is sorted on "Seafood" row‑field values, and the third pivot table is sorted on "28/07/2000" column‑field values.  
 
-Sample source file and output files can be downloaded from here for testing the sample code:
+Sample source file and output files can be downloaded from here for testing the sample code:  
 
-[Source Excel File](98107428.xlsx)
+[Source Excel File](98107428.xlsx)  
 
-[Output Excel File](98107429.xlsx)
+[Output Excel File](98107429.xlsx)  
 
-[Output PDF File](98107430.pdf)
+[Output PDF File](98107430.pdf)  
 
 
-## **Sample Code**
+## **Sample Code**  
 ```html
 <!DOCTYPE html>
 <html>
@@ -74,7 +74,7 @@ Sample source file and output files can be downloaded from here for testing the 
             let index = pivotTables.add("=Sheet1!A1:C10", "E3", "PivotTable2");
             // Accessing the instance of the newly added PivotTable
             let pivotTable = pivotTables.get(index);
-            // Unshowing grand totals for rows.
+            // Hiding grand totals for rows.
             pivotTable.rowGrand = false;
             pivotTable.columnGrand = false;
             // Dragging the first field to the row area.
@@ -94,7 +94,7 @@ Sample source file and output files can be downloaded from here for testing the 
             pivotTable.calculateData();
             // end of source PivotTable
 
-            // sort the PivotTable on "SeaFood" row field values
+            // sort the PivotTable on "Seafood" row field values
             index = pivotTables.add("=Sheet1!A1:C10", "E10", "PivotTable2");
             pivotTable = pivotTables.get(index);
             pivotTable.rowGrand = false;
@@ -136,7 +136,7 @@ Sample source file and output files can be downloaded from here for testing the 
             const xlsxData = workbook.save(SaveFormat.Xlsx);
             const xlsxBlob = new Blob([xlsxData], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
             downloadXlsxLink.href = URL.createObjectURL(xlsxBlob);
-            downloadXlsxLink.download = 'out_java.xlsx';
+            downloadXlsxLink.download = 'out_cpp.xlsx';
             downloadXlsxLink.style.display = 'inline-block';
             downloadXlsxLink.textContent = 'Download Modified Excel File';
 
@@ -146,7 +146,7 @@ Sample source file and output files can be downloaded from here for testing the 
             const pdfData = workbook.save(SaveFormat.Pdf, options);
             const pdfBlob = new Blob([pdfData], { type: "application/pdf" });
             downloadPdfLink.href = URL.createObjectURL(pdfBlob);
-            downloadPdfLink.download = 'out_java.pdf';
+            downloadPdfLink.download = 'out_cpp.pdf';
             downloadPdfLink.style.display = 'inline-block';
             downloadPdfLink.textContent = 'Download PDF File';
 

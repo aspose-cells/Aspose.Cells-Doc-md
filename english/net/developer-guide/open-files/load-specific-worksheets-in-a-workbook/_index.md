@@ -1,22 +1,22 @@
----
-title: Load Specific Worksheets in a Workbook
-type: docs
-weight: 100
-url: /net/load-specific-worksheets-in-a-workbook/
+---  
+title: Load Specific Worksheets in a Workbook  
+type: docs  
+weight: 100  
+url: /net/load-specific-worksheets-in-a-workbook/  
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to only load specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook made up of many worksheets.
+By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to load only specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook made up of many worksheets.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-1.cs" >}}  
 
-Here is the implementation of the CustomLoad class.
+Here is the implementation of the CustomLoad class.  
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-2.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-2.cs" >}}  
 
 {{< app/cells/assistant language="csharp" >}}

@@ -65,7 +65,7 @@ Aspose.Cells for JavaScript via C++ supports displaying the contents of a worksh
             const pic = workbook.worksheets.get(0).shapes.addPicture(0, 3, stream, 10, 10);
             // Specify the formula that refers to the source range of cells
             pic.formula = "A1:C10";
-            // Update the shapes selected value in the worksheet
+            // Update the shape's selected value in the worksheet
             workbook.worksheets.get(0).shapes.updateSelectedValue();
 
             // Saving the modified Excel file

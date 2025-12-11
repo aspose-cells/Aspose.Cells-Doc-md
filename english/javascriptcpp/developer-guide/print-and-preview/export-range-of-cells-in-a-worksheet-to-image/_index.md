@@ -1,18 +1,18 @@
----
-title: Export Range of Cells in a Worksheet to Image with JavaScript via C++
-linktitle: Export Range of Cells in a Worksheet to Image
-type: docs
-weight: 60
-url: /javascript-cpp/export-range-of-cells-in-a-worksheet-to-image/
----
+---  
+title: Export Range of Cells in a Worksheet to Image with JavaScript via C++  
+linktitle: Export Range of Cells in a Worksheet to Image  
+type: docs  
+weight: 60  
+url: /javascript-cpp/export-range-of-cells-in-a-worksheet-to-image/  
+---  
 
 ## **Possible Usage Scenarios**  
 
-You can make an image of a worksheet using Aspose.Cells for JavaScript via C++. However, sometimes you need to export only a range of cells in a worksheet to an image. This article explains how to achieve this.  
+You can **create** an image of a worksheet using Aspose.Cells for JavaScript via C++. However, sometimes you need to export only a range of cells in a worksheet to an image. This article explains how to achieve this.  
 
 ## **Export Range of Cells in a Worksheet to Image**  
 
-To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set [**ImageOrPrintOptions.onePagePerSheet**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#onePagePerSheet--) to **true**. The following code takes an image of the range D8:G16. Below is a screenshot of the [sample Excel file](47153160.xlsx) used in the code. You can try the code with any Excel file.  
+To take an image of a range, set the print area to the desired range and then set all margins to 0. **Also,** set [**ImageOrPrintOptions.onePagePerSheet**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#onePagePerSheet--) to **true**. The following code takes an image of the range D8:G16. Below is a screenshot of the [sample Excel file](47153160.xlsx) used in the code. You can try the code with any Excel file.  
 
 ## **Screenshot of Sample Excel File and its Exported Image**  
 
@@ -85,7 +85,7 @@ Executing the code creates an image of the range D8:G16 only.
             options.horizontalResolution = 200;
             options.verticalResolution = 200;
 
-            // Take the image of your worksheet
+            // Capture an image of your worksheet
             const sr = new SheetRender(worksheet, options);
             const outputData = sr.toImage(0);
 

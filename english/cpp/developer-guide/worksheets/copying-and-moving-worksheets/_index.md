@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.
 
-Aspose.Cells supports copying and moving worksheets within or between workbooks. A worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.
+Aspose.Cells supports copying and moving worksheets within or between workbooks. A worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, **is** copied with the highest degree of precision.
 
 {{% /alert %}} 
 ## **Moving or Copying Sheets using Microsoft Excel**

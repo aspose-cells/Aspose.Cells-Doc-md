@@ -1,21 +1,21 @@
----
-title: Change Adjustment Values of the Shape with JavaScript via C++
-linktitle: Change Adjustment Values of the Shape
-type: docs
-weight: 2000
-url: /javascript-cpp/change-adjustment-values-of-the-shape/
-description: Learn how to change adjustment values of shapes in Excel using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Change Adjustment Values of the Shape with JavaScript via C++  
+linktitle: Change Adjustment Values of the Shape  
+type: docs  
+weight: 2000  
+url: /javascript-cpp/change-adjustment-values-of-the-shape/  
+description: Learn how to change adjustment values of shapes in Excel using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}  
-Aspose.Cells provides [**Shape.geometry**](https://reference.aspose.com/cells/javascript-cpp/shape/#geometry--) property to make changes to the adjustment points with shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:  
+Aspose.Cells provides [**Shape.geometry**](https://reference.aspose.com/cells/javascript-cpp/shape/#geometry--) property to make changes to the adjustment points of shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:  
 
-- Rounded Rectangle has an adjustment to change the arc  
-- Triangle has an adjustment to change the location of the point  
-- Trapezoid has an adjustment to change the width of the top  
-- Arrows have two adjustments to change the shape of the head and tail  
+- Rounded Rectangle has an adjustment to change the arc.  
+- Triangle has an adjustment to change the location of the point.  
+- Trapezoid has an adjustment to change the width of the top.  
+- Arrows have two adjustments to change the shape of the head and tail.  
 
-This article will explain the use of [**Shape.geometry**](https://reference.aspose.com/cells/javascript-cpp/shape/#geometry--) property to change the adjustment value of the different shapes.  
+This article will explain the use of [**Shape.geometry**](https://reference.aspose.com/cells/javascript-cpp/shape/#geometry--) property to change the adjustment values of the different shapes.  
 {{% /alert %}}  
 
 ## **Change Adjustment Values**  
@@ -62,7 +62,7 @@ The below code sample shows how to change adjustment values of the shape.
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Create workbook object from source excel file
+            // Create workbook object from source Excel file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Access first worksheet
@@ -93,7 +93,7 @@ The below code sample shows how to change adjustment values of the shape.
 </html>
 ```  
 
-## **How to set or change the RoundedRectangularCallout tip point in excel**  
+## **How to Set or Change the RoundedRectangularCallout Tip Point in Excel**  
 
 The following code example shows how to set or change a rounded rectangle callout tip point position in Excel.  
 

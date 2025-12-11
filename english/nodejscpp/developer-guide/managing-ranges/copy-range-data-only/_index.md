@@ -18,12 +18,12 @@ This article provides a sample code that uses Aspose.Cells to copy a range of da
 This example shows how to:  
 
 1. Create a workbook.  
-1. Add data to cells in the first worksheet.  
-1. Create a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range).  
-1. Create a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object with specified formatting attributes.  
-1. Apply the style formatting to the range.  
-1. Create another range of cells.  
-1. Copy data of the first range to this second range.  
+2. Add data to cells in the first worksheet.  
+3. Create a [**Range**](https://reference.aspose.com/cells/nodejs-cpp/range).  
+4. Create a [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) object with specified formatting attributes.  
+5. Apply the style formatting to the range.  
+6. Create another range of cells.  
+7. Copy data of the first range to this second range.  
 
 ```javascript
 const path = require("path");
@@ -40,9 +40,9 @@ const cells = workbook.getWorksheets().get(0).getCells();
 
 // Fill some sample data into the cells.
 for (let i = 0; i < 50; i++) {
-for (let j = 0; j < 10; j++) {
-cells.get(i, j).putValue(`${i},${j}`);
-}
+    for (let j = 0; j < 10; j++) {
+        cells.get(i, j).putValue(`${i},${j}`);
+    }
 }
 
 // Create a range (A1:D3).
@@ -83,8 +83,8 @@ const range2 = cells.createRange("C10", "F12");
 range2.copyData(range);
 
 const outputFilePath = path.join(dataDir, "CopyRangeData.out.xlsx");
-// Save the excel file.
+// Save the Excel file.
 workbook.save(outputFilePath);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

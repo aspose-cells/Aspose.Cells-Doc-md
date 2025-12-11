@@ -4,13 +4,13 @@ linktitle: Setting Different Headers and Footers For Different Pages
 type: docs
 weight: 35
 url: /javascript-cpp/setting-different-headers-and-footers-for-pages-to-excel/
-description: This article provides sample code that shows how to programmatically set headers and footers of Excel worksheet Page Setup using Aspose.Cells for JavaScript via C++. Set headers and footers for first, odd, and even pages.
+description: This article provides sample code that shows how to programmatically set headers and footers of an Excel worksheet's Page Setup using Aspose.Cells for JavaScript via C++. Set headers and footers for the first, odd, and even pages.
 keywords: set excel header footer first page JavaScript via C++, set excel header footer odd pages JavaScript via C++, set excel header footer even pages JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
 
-MS Excel supports setting different headers and footers for the first page, odd pages, and even pages since Excel 2007.
+MS Excel supports setting different headers and footers for the first page, odd pages, and even pages since Excel 2007.  
 Aspose.Cells for JavaScript via C++ supports the same feature.
 
 {{% /alert %}}
@@ -19,15 +19,17 @@ Aspose.Cells for JavaScript via C++ supports the same feature.
 
 **![Setting Different Headers and Footers](difpage.png)**
 
-1. Click **page Layout > Print Titles > Header/Footer**.
-1. Check **Different Odd and Even Pages** or **Different first page**.
-1. Enter different headers and footers.
+1. Click **Page Layout > Print Titles > Header/Footer**.  
+2. Check **Different Odd and Even Pages** or **Different First Page**.  
+3. Enter different headers and footers.
 
 ## **Setting Different Headers and Footers with Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells behaves the same as Excel.
-1. Sets the flags [PageSetup.isHFDiffOddEven()](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#isHFDiffOddEven--) and [PageSetup.isHFDiffFirst()](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#isHFDiffFirst--) 
-1. Enter different headers and footers.
+Aspose.Cells behaves the same as Excel.  
+
+1. Set the flags [PageSetup.isHFDiffOddEven()](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#isHFDiffOddEven--) and [PageSetup.isHFDiffFirst()](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#isHFDiffFirst--)  
+2. Enter different headers and footers.
+
 ```html
 <!DOCTYPE html>
 <html>

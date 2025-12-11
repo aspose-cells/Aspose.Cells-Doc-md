@@ -19,7 +19,7 @@ Aspose.Cells for JavaScript via C++ provides a class, [**Workbook**](https://ref
 
 ### **Hiding Rows and Columns**
 
-Developers can hide a row or column by calling the [**hideRow(number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#hideRow-number-) and [**hideColumn(number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#hideColumn-number-) methods of the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
+Developers can hide a row or column by calling the [**hideRow(number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#hideRow-number-) and [**hideColumn(number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#hideColumn-number-) methods of the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection respectively. Both methods take a row or column index as a parameter to hide the specific row or column.
 
 ```html
 <!DOCTYPE html>
@@ -89,7 +89,7 @@ Developers can hide a row or column by calling the [**hideRow(number)**](https:/
 
 {{% alert color="primary" %}}
 
-It is also possible to hide a row or column by setting the row height or column width to 0 respectively.
+It is also possible to hide a row or column by setting the row height or column width to 0 respectively.
 
 {{% /alert %}}
 
@@ -97,8 +97,8 @@ It is also possible to hide a row or column by setting the row height or column 
 
 Developers can show any hidden row or column by calling the [**unhideRow(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideRow-number-number-) and [**unhideColumn(number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideColumn-number-number-) methods of the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) collection respectively. Both methods take two parameters:
 
-- **Row or column index** - the index of a row or column that is used to show the specific row or column.
-- **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
+- **Row or column index** – the index of a row or column that is used to show the specific row or column.  
+- **Row height or column width** – the row height or column width assigned to the row or column after unhiding.
 
 ```html
 <!DOCTYPE html>
@@ -168,7 +168,7 @@ Developers can show any hidden row or column by calling the [**unhideRow(number,
 
 {{% alert color="primary" %}}
 
-While making a hidden column visible, if you need to restore it to previously assigned width or to its original width, please unhide the column with a negative width. For example: worksheet.cells.unhideColumn(5, -1)
+While making a hidden column visible, if you need to restore it to its previously assigned width or to its original width, use a negative width. For example: `worksheet.cells.unhideColumn(5, -1)`
 
 {{% /alert %}}
 
@@ -222,10 +222,10 @@ Developers can hide multiple rows or columns at once by calling the [**hideRows(
             // Accessing the first worksheet in the Excel file
             const worksheet = workbook.worksheets.get(0);
             
-            // Hiding 3, 4, and 5 rows in the worksheet (rows are zero-based index)
+            // Hiding 3, 4, and 5 rows in the worksheet (rows are zero‑based index)
             worksheet.cells.hideRows(2, 3);
             
-            // Hiding 2 and 3 columns in the worksheet (columns are zero-based index)
+            // Hiding 2 and 3 columns in the worksheet (columns are zero‑based index)
             worksheet.cells.hideColumns(1, 2);
             
             // Saving the modified Excel file
@@ -245,6 +245,6 @@ Developers can hide multiple rows or columns at once by calling the [**hideRows(
 
 {{% alert color="primary" %}}
 
-It is also possible to use the [**Cells**](https://reference.aspose.com/cells/javascript-cpp/cells) class' [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideRows-number-number-number-) and [**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideColumns-number-number-number-) methods to make multiple rows and columns visible.
+It is also possible to use the **Cells** class’s [**unhideRows(number, number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideRows-number-number-number-) and [**unhideColumns(number, number, number)**](https://reference.aspose.com/cells/javascript-cpp/cells/#unhideColumns-number-number-number-) methods to make multiple rows and columns visible.
 
 {{% /alert %}}

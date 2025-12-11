@@ -1,20 +1,20 @@
 ---
-title: Get Pivot Table refresh date and refresh by who information
+title: Get Pivot Table Refresh Date and Refresh‑by‑Who Information
 type: docs
 weight: 100
 url: /javascript-cpp/get-pivot-table-refresh-date-and-refresh-by-who-information/
-description: How to get Pivot Table refresh date and refresh by who information with Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells for JavaScript Excel, Excel JavaScript library, Get Pivot Table refresh date and refresh by who information Using Aspose.Cells for JavaScript Excel Library.
+description: How to get Pivot Table refresh date and refresh‑by‑who information with Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells for JavaScript Excel, Excel JavaScript library, Get Pivot Table refresh date and refresh‑by‑who information using Aspose.Cells for JavaScript Excel Library.
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for JavaScript via C++ now supports fetching the refresh date and refresh by who information from a workbook.
+Aspose.Cells for JavaScript via C++ now supports fetching the refresh date and refresh‑by‑who information from a workbook.
 
 {{% /alert %}}
 
-## **How to Get Pivot Table Refresh Date and Refresh by Who information**
-[**PivotTable.refreshDate**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#refreshDate--) returns the date on which the PivotTable report was last refreshed. Similarly [**PivotTable.refreshedByWho**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#refreshedByWho--) property returns the name of the user who refreshed the report last time. Following example demonstrates this feature and sample file can be downloaded from the following link.
+## **How to Get Pivot Table Refresh Date and Refresh‑by‑Who Information**
+[**PivotTable.refreshDate**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#refreshDate--) returns the date on which the PivotTable report was last refreshed. Similarly, the [**PivotTable.refreshedByWho**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#refreshedByWho--) property returns the name of the user who last refreshed the report. The following example demonstrates this feature, and the sample file can be downloaded from the link below.
 
 [SourcePivotTable.xlsx](77496335.xlsx)
 
@@ -66,11 +66,11 @@ Aspose.Cells for JavaScript via C++ now supports fetching the refresh date and r
             const refreshedByWho = pivotTable.refreshedByWho;
             const refreshDate = pivotTable.refreshDate;
 
-            console.log("Pivot table refresh by who = " + refreshedByWho);
+            console.log("Pivot table refreshed by who = " + refreshedByWho);
             console.log("Pivot table refresh date = " + refreshDate);
 
             document.getElementById('result').innerHTML = `
-                <p>Pivot table refresh by who = ${refreshedByWho}</p>
+                <p>Pivot table refreshed by who = ${refreshedByWho}</p>
                 <p>Pivot table refresh date = ${refreshDate}</p>
             `;
         });

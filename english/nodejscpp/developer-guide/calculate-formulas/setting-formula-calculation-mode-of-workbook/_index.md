@@ -13,15 +13,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 {{% alert color="primary" %}}  
 Microsoft Excel allows you to set the formula calculation mode, that is, the way formulas are calculated. There are three possible values:  
 
-- Automatic - recalculate whenever something is changed, and every time a workbook is opened.  
-- Automatic except for data tables - recalculate whenever something is changed, but leaving out data tables.  
-- Manual - recalculate only when the user explicitly requests it by pressing F9 or CTRL+ALT+F9, or when the workbook is saved.  
+- Automatic – recalculate whenever something is changed, and every time a workbook is opened.  
+- Automatic except for data tables – recalculate whenever something is changed, but leaving out data tables.  
+- Manual – recalculate only when the user explicitly requests it by pressing F9 or Ctrl+Alt+F9, or when the workbook is saved.  
 {{% /alert %}}  
 
 To set the formula calculation mode in Microsoft Excel:  
 
 1. Select **Formulas** and then **Calculation Options**.  
-1. Select one of the options.  
+2. Select one of the options.  
 
 Aspose.Cells for Node.js via C++ also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.getCalculationMode()**](https://reference.aspose.com/cells/nodejs-cpp/formulasettings/#getCalculationMode--) mode property. You can assign it the [**CalcModeType**](https://reference.aspose.com/cells/nodejs-cpp/calcmodetype) enumeration which has one of the following values:  
 
@@ -44,5 +44,5 @@ workbook.getSettings().getFormulaSettings().setCalculationMode(AsposeCells.CalcM
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

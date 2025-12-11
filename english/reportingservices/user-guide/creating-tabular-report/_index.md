@@ -15,23 +15,23 @@ A table in an Aspose.Cells Report template consists of a header, table data rows
 
 ![todo:image_alt_text](creating-tabular-report_1.png)
 #### **Table Header**
-Table header normally contains the title for each table column and other text items such as static text, report parameters, global report variables and so on. The table header is optional. If using a header, the header tag should be placed to the left of the first column of table data to indicate that the row is a header.
+Table header normally contains the title for each table column and other text items such as static text, report parameters, global report variables, and so on. The table header is optional. If using a header, the header tag should be placed to the left of the first column of table data to indicate that the row is a header.
 #### **Table Data Row**
 A table data row is a row of cells that contain smart markers. A table can only contain a single data row.
 #### **Row Group**
 The row group follows closely after the table data row and comprises two parts: group tag and group data row. 
 
-The group tag should be placed to the left of the first table data column to indicate that the row is the row group's data row. The format of the group tag is ##group{GroupColumn}, for example ##group{SalesOrderNumber} where SalesOrderNumber is one of the data set' column names. A table can only contain one row group, but a row group can contain more than one group data row. The group tag may be placed only in the first data row, as shown in the sample above.
+The group tag should be placed to the left of the first table data column to indicate that the row is the row group's data row. The format of the group tag is ##group{GroupColumn}, for example ##group{SalesOrderNumber} where SalesOrderNumber is one of the dataset's column names. A table can only contain one row group, but a row group can contain more than one group data row. The group tag may be placed only in the first data row, as shown in the sample above.
 
 The group tag is removed from the output Microsoft Excel file at rendering time. Row groups are optional.
 #### **Footers**
-Footers come after the row group and includes three parts: footer tag, footer data row and footer text area. 
+Footers come after the row group and include three parts: footer tag, footer data row, and footer text area. 
 
-The footer tag should be placed on the left of the first column of the table data column that indicates the row is the table footer. A table can contain more than one footer data rows and each footer row has to be marked by a footer tag. 
+The footer tag should be placed to the left of the first column of the table data, indicating that the row is the table footer. A table can contain more than one footer data row and each footer row has to be marked by a footer tag. 
 
 The footer text area can contain static text, report parameters and global report variables, as shown in the sample above.
 
-The footer tag is removed from output Microsoft Excel file at rendering time. Footers are optional.
+The footer tag is removed from the output Microsoft Excel file at rendering time. Footers are optional.
 
 The output of the sample template is shown below.
 

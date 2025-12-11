@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.8.1 to 8.8.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.8.1 to 8.8.2 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Automatically Update References while Deleting Blank Rows & Columns**
-Aspose.Cells for Java 8.8.2 has exposed the overloaded versions of the Cells.deleteBlankRows & Cells.deleteBlankColumns methods. The new methods can accept an instance of DeleteOptions class and can be used to overcome the situations that could arise due to the broken references in formulas, chart series data and so on. The DeleteOptions class currently has only one member, a Boolean type property by the name UpdateReference. If the said property is set to true and the instance of DeleteOptions class is passed to the Cells.deleteBlankRows & Cells.deleteBlankColumns methods, the API will internally adjust the formula references (if any) to accommodate the changes. 
+Aspose.Cells for Java 8.8.2 has exposed the overloaded versions of the `Cells.deleteBlankRows` and `Cells.deleteBlankColumns` methods. The new methods can accept an instance of the `DeleteOptions` class and can be used to overcome situations that could arise due to broken references in formulas, chart series data, and so on. The `DeleteOptions` class currently has only one member, a Boolean‑type property named **UpdateReference**. If the property is set to true and an instance of the `DeleteOptions` class is passed to the `Cells.deleteBlankRows` and `Cells.deleteBlankColumns` methods, the API will internally adjust the formula references (if any) to accommodate the changes. 
 
 {{% alert color="primary" %}} 
 
@@ -26,8 +26,7 @@ Following is the simple usage scenario.
 
 **Java**
 
-{{< highlight csharp >}}
-
+{{< highlight java >}}
  //Create an instance of Workbook & load an existing spreadsheet
 
 Workbook book = new Workbook(dir + "sample.xlsx");
@@ -53,6 +52,5 @@ options.setUpdateReference(true);
 cells.deleteBlankColumns(options);
 
 cells.deleteBlankRows(options);
-
 {{< /highlight >}}
 {{< app/cells/assistant language="java" >}}

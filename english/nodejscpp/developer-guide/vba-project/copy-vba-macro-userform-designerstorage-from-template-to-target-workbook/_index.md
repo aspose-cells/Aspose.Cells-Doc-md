@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**  
 
-Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules i.e. Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
+Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules, i.e., Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
 
 - [**VbaModuleCollection.getDesignerStorage(string)**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#getDesignerStorage-string-)  
 - [**VbaModuleCollection.addDesignerStorage(string, number[])**](https://reference.aspose.com/cells/nodejs-cpp/vbamodulecollection/#addDesignerStorage-string-numberarray-)  
@@ -22,7 +22,7 @@ Please see the following sample code. It copies the VBA project from the [templa
 
 **![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**  
 
-The following screenshot shows the output Excel file and its contents which were copied from the template Excel file. When you click on the Button 1, it opens up the VBA User Form which itself has a command button that shows a message box on clicking.  
+The following screenshot shows the output Excel file and its contents that were copied from the template Excel file. When you click on **Button 1**, it opens the VBA User Form, which itself has a command button that shows a message box when clicked.  
 
 **![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)**  
 
@@ -39,66 +39,56 @@ const outputDir = path.join(__dirname, "output");
 // Create empty target workbook
 const target = new AsposeCells.Workbook();
 
-// Load the Excel file containing VBA-Macro Designer User Form
+// Load the Excel file containing VBA‑Macro Designer User Form
 const templateFile = new AsposeCells.Workbook(path.join(sourceDir, "sampleDesignerForm.xlsm"));
 
 // Copy all template worksheets to target workbook
 const sheets = templateFile.getWorksheets();
 const sheetCount = sheets.getCount();
 for (let i = 0; i < sheetCount; i++) {
-const ws = sheets.get(i);
-if (ws.getType() === AsposeCells.SheetType.Worksheet) 
-{
-const s = target.getWorksheets().add(ws.getName());
-s.copy(ws);
+    const ws = sheets.get(i);
+    if (ws.getType() === AsposeCells.SheetType.Worksheet) {
+        const s = target.getWorksheets().add(ws.getName());
+        s.copy(ws);
 
-// Put message in cell A2 of the target worksheet
-s.getCells().get("A2").putValue("VBA Macro and User Form copied from template to target.");
+        // Put message in cell A2 of the target worksheet
+        s.getCells().get("A2").putValue("VBA Macro and User Form copied from template to target.");
+    }
 }
-}
 
-
-// Copy the VBA-Macro Designer UserForm from Template to Target 
+// Copy the VBA‑macro Designer UserForm from template to target
 const modules = templateFile.getVbaProject().getModules();
 const moduleCount = modules.getCount();
 for (let i = 0; i < moduleCount; i++) {
-const vbaItem = modules.get(i);
-if (vbaItem.getName() === "ThisWorkbook") 
-{
-// Copy ThisWorkbook module code
-target.getVbaProject().getModules().get("ThisWorkbook").setCodes(vbaItem.getCodes());
-} 
-else 
-{
-console.log(vbaItem.getName());
+    const vbaItem = modules.get(i);
+    if (vbaItem.getName() === "ThisWorkbook") {
+        // Copy ThisWorkbook module code
+        target.getVbaProject().getModules().get("ThisWorkbook").setCodes(vbaItem.getCodes());
+    } else {
+        console.log(vbaItem.getName());
 
-let vbaMod = 0;
-const sheet = target.getWorksheets().getSheetByCodeName(vbaItem.getName());
-if (sheet.isNull()) 
-{
-vbaMod = target.getVbaProject().getModules().add(vbaItem.getType(), vbaItem.getName());
-} 
-else 
-{
-vbaMod = target.getVbaProject().getModules().add(sheet);
+        let vbaMod = 0;
+        const sheet = target.getWorksheets().getSheetByCodeName(vbaItem.getName());
+        if (sheet.isNull()) {
+            vbaMod = target.getVbaProject().getModules().add(vbaItem.getType(), vbaItem.getName());
+        } else {
+            vbaMod = target.getVbaProject().getModules().add(sheet);
+        }
+
+        target.getVbaProject().getModules().get(vbaMod).setCodes(vbaItem.getCodes());
+
+        if (vbaItem.getType() === AsposeCells.VbaModuleType.Designer) {
+            // Get the data of the user form, i.e., Designer Storage
+            const designerStorage = modules.getDesignerStorage(vbaItem.getName());
+
+            // Add the Designer Storage to target Vba Project
+            target.getVbaProject().getModules().addDesignerStorage(vbaItem.getName(), designerStorage);
+        }
+    }
 }
-
-target.getVbaProject().getModules().get(vbaMod).setCodes(vbaItem.getCodes());
-
-if (vbaItem.getType() === AsposeCells.VbaModuleType.Designer) 
-{
-// Get the data of the user form i.e. designer storage
-const designerStorage = modules.getDesignerStorage(vbaItem.getName());
-
-// Add the designer storage to target Vba Project
-target.getVbaProject().getModules().addDesignerStorage(vbaItem.getName(), designerStorage);
-}
-}
-}
-
 
 // Save the target workbook
 target.save(outputDir + "outputDesignerForm.xlsm", AsposeCells.SaveFormat.Xlsm);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,6 +1,6 @@
 ---
-title: Add Signature line to the worksheet with JavaScript via C++
-linktitle: Add Signature line to the worksheet
+title: Add Signature Line to the Worksheet with JavaScript via C++
+linktitle: Add Signature Line to the Worksheet
 type: docs
 weight: 200
 url: /javascript-cpp/add-signature-line/
@@ -10,11 +10,11 @@ keywords: Add Signature line to the worksheet JavaScript via C++, How to Add Sig
 
 ## **Introduction**
 
-Aspose.Cells provides the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property to add the signature line of the worksheet.
+Aspose.Cells provides the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property to add the signature line to the worksheet.
 
 ## **How to Add Signature Line to Worksheet**
 
-The following sample code demonstrates how to make use of [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property to add the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
+The following sample code demonstrates how to make use of the [**Picture.signatureLine**](https://reference.aspose.com/cells/javascript-cpp/picture/#signatureLine--) property to add the signature line to the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
 
 ![todo:image_alt_text](add-signature-line.png)
 
@@ -28,7 +28,7 @@ The following sample code demonstrates how to make use of [**Picture.signatureLi
     </head>
     <body>
         <h1>Signature Line Example</h1>
-        <p>Optional: select an existing Excel file to add the signature line to. Otherwise a new workbook will be created.</p>
+        <p>Optional: Select an existing Excel file to which the signature line will be added. Otherwise, a new workbook will be created.</p>
         <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
         <p>Select a PFX certificate file (required):</p>
         <input type="file" id="certInput" accept=".pfx" />

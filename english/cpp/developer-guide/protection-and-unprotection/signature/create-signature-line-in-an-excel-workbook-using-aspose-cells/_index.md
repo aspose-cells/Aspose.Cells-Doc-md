@@ -1,24 +1,24 @@
----
-title: Create Signature Line in an Excel Workbook with C++ using Aspose.Cells
-linktitle: Create Signature Line in an Excel Workbook
-type: docs
-weight: 150
-url: /cpp/create-signature-line-in-an-excel-workbook-using-aspose-cells/
-description: This article describes how to Create Signature Line in an Excel Workbook using C++ codes with Aspose.Cells for C++.
-keywords: Create Signature Line in an Excel Workbook, How to Create Signature Line in an Excel Workbook, How to Add Signature Line, How to Add Signature Line to Excel file.
+---  
+title: Create Signature Line in an Excel Workbook with C++ using Aspose.Cells  
+linktitle: Create Signature Line in an Excel Workbook  
+type: docs  
+weight: 150  
+url: /cpp/create-signature-line-in-an-excel-workbook-using-aspose-cells/  
+description: This article describes how to create a signature line in an Excel workbook using C++ code with Aspose.Cells for C++.  
+keywords: Create Signature Line in an Excel Workbook, How to Create Signature Line in an Excel Workbook, How to Add Signature Line, How to Add Signature Line to Excel file.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Introduction**
+## **Introduction**  
 
-Microsoft Excel provides a feature to add **Signature Line** in Excel workbooks. You can add a Signature Line by clicking the **Insert** Tab and then selecting **Signature Line** from the **Text** group.
+Microsoft Excel provides a feature to add **Signature Line** to Excel workbooks. You can add a Signature Line by clicking the **Insert** tab and then selecting **Signature Line** from the **Text** group.  
 
-## **How to Create Signature Line for Excel**
+## **How to Create a Signature Line in Excel**  
 
-Aspose.Cells also provides this feature and has exposed the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.
+Aspose.Cells also provides this feature and has exposed the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property for this purpose. This article will explain how to use this property to add a Signature Line using Aspose.Cells.  
 
-The following sample code adds a Signature Line using [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property and saves the workbook.
+The following sample code adds a Signature Line using the [**Picture.SignatureLine**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/signatureline/) property and saves the workbook.  
 
 ```cpp
 #include <iostream>

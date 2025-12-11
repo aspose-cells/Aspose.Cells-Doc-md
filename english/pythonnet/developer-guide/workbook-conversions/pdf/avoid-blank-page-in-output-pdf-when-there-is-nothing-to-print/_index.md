@@ -3,7 +3,7 @@ title: Avoid Blank Page in Output PDF when there is Nothing to Print
 type: docs
 weight: 30
 url: /python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
-description: Learn how to Avoid Blank Page in Output PDF when there is Nothing to Print with Aspose.Cells for Python via .NET API.
+description: Learn how to avoid a blank page in output PDF when there is nothing to print with Aspose.Cells for Python via .NET API.
 keywords: Python Avoid Blank Page in Output PDF when there is Nothing to Print
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Python via .NET, it renders a blank page in output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells for Python via .NET provides the [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) property to deal with this issue. If you will set it as **false**, then [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) will occur whenever there is nothing to print in the output PDF.
+When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Python via .NET, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells for Python via .NET provides the [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) property to deal with this issue. If you set it to **false**, then [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) will occur whenever there is nothing to print in the output PDF.
 
 ## **Avoid Blank Page in Output PDF when there is Nothing to Print**
 
-The following sample code creates an empty workbook and then saves it as PDF after setting the [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) property as **false**. Since there is nothing to print in the output PDF, the [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) occurs as shown below.
+The following sample code creates an empty workbook and then saves it as PDF after setting the [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) property to **false**. Since there is nothing to print in the output PDF, the [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) occurs, as shown below.
 
 ## **Sample Code**
 
@@ -24,18 +24,11 @@ The following sample code creates an empty workbook and then saves it as PDF aft
 ## **Exception**
 
 {{< highlight java >}}
-
- Aspose.Cells.CellsException was unhandled
-
-  HResult=-2146232832
-
-  Message=There is nothing to output/print.
-
-  Source=Aspose.Cells
-
-  StackTrace:
-
-       at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
-
+Aspose.Cells.CellsException was unhandled
+HResult=-2146232832
+Message=There is nothing to output/print.
+Source=Aspose.Cells
+StackTrace:
+    at Aspose.Cells.Workbook.Save(String fileName, SaveOptions saveOptions)
 {{< /highlight >}}
 {{< app/cells/assistant language="python-net" >}}

@@ -21,7 +21,7 @@ Aspose.Cells provides [Cells.DeleteRange](https://reference.aspose.com/cells/cpp
 
 ## **Delete Ranges And Shift Cells Left**
 
-Delete a range and shift cells left as the following codes with Aspose.Cells:
+Delete a range and shift cells left using the following code with Aspose.Cells:
 
 ```c++
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
 
 ## **Delete Ranges And Shift Cells Up**
 
-Delete a range and shift cells up as the following codes with Aspose.Cells:
+Delete a range and shift cells up using the following code with Aspose.Cells:
 
 ```c++
 #include <iostream>

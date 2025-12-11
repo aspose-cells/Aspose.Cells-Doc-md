@@ -1,7 +1,7 @@
 ---
 title: Manage Legend of Excel Charts with C++
 linktitle: Legend
-description: Learn how to utilize Aspose.Cells for C++ to effectively utilize and customize chart legends in Microsoft Excel. Our comprehensive guide explains the legend's functionality, how to access and modify it, as well as how to improve visualization and data understanding with legends.
+description: Learn how to utilize Aspose.Cells for C++ to effectively use and customize chart legends in Microsoft Excel. Our comprehensive guide explains the legend's functionality, how to access and modify it, as well as how to improve visualization and data understanding with legends.
 keywords: Aspose.Cells for C++, Chart Legends, Microsoft Excel, Visualization, Data Understanding.
 type: docs
 weight: 50
@@ -15,8 +15,8 @@ Aspose.Cells also allows you to manage a chart's legend at runtime. With the [Le
 
 |![todo:image_alt_text](chart_legend.png)|
 
-## **Setting the Legend of Chart**
-It's simple to manage the legend of a chart with Aspose.Cells [Legend](https://reference.aspose.com/cells/cpp/aspose.cells.charts/legend/).
+## **Setting the Legend of a Chart**
+It's simple to manage a chart's legend using Aspose.Cells' [Legend](https://reference.aspose.com/cells/cpp/aspose.cells.charts/legend/).
 
 The following code snippet demonstrates how to manage the legend:
 
@@ -52,7 +52,7 @@ int main() {
     // Accessing the instance of the newly added chart
     Chart chart = worksheet.GetCharts().Get(chartIndex);
 
-    // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+    // Adding SeriesCollection (chart data source) to the chart ranging from cell A1 to B3
     chart.GetNSeries().Add(u"A1:B3", true);
 
     // Setting the title of a chart
@@ -61,7 +61,7 @@ int main() {
     // Setting the font color of the chart title to blue
     chart.GetTitle().GetFont().SetColor(Color::Blue());
 
-    // Move the legend to left
+    // Move the legend to the left
     chart.GetLegend().SetPosition(LegendPositionType::Left);
 
     // Set font color of the legend

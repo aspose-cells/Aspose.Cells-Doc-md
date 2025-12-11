@@ -1,94 +1,96 @@
----
-title: Auto Fit Columns in Worksheet
-type: docs
-weight: 30
-url: /net/auto-fit-columns-in-worksheet/
-ai_search_scope: cells_net
+---  
+title: Auto Fit Columns in Worksheet  
+type: docs  
+weight: 30  
+url: /net/auto-fit-columns-in-worksheet/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Auto Fit Columns in Worksheet**
-**C#**
+## **Aspose.Cells - Auto Fit Columns in Worksheet**  
+**C#**  
 
-{{< highlight cs >}}
+{{< highlight cs >}}  
 
- //Instantiating a Workbook object
+ //Instantiating a Workbook object  
 
-Workbook workbook = new Workbook();
+Workbook workbook = new Workbook();  
 
-//Accessing the first worksheet in the Excel file
+//Accessing the first worksheet in the Excel file  
 
-Worksheet worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];  
 
-//Auto-fitting the 1st column of the worksheet
+//Auto-fitting the 1st column of the worksheet  
 
-//Adding a string value to the cell
+//Adding a string value to the cell  
 
-worksheet.Cells["A1"].PutValue("This is a test input");
+worksheet.Cells["A1"].PutValue("This is a test input");  
 
-//Adding a double value to the cell
+//Adding a double value to the cell  
 
-worksheet.Cells["B1"].PutValue(20.5);
+worksheet.Cells["B1"].PutValue(20.5);  
 
-//Adding an integer  value to the cell
+//Adding an integer value to the cell  
 
-worksheet.Cells["C1"].PutValue(15);
+worksheet.Cells["C1"].PutValue(15);  
 
-//Adding a boolean value to the cell
+//Adding a boolean value to the cell  
 
-worksheet.Cells["D1"].PutValue(true);
+worksheet.Cells["D1"].PutValue(true);  
 
-worksheet.AutoFitColumn(0);
+worksheet.AutoFitColumn(0);  
 
-worksheet.AutoFitColumn(1);
+worksheet.AutoFitColumn(1);  
 
-worksheet.AutoFitColumn(2);
+worksheet.AutoFitColumn(2);  
 
-worksheet.AutoFitColumn(3);
+worksheet.AutoFitColumn(3);  
 
-//Saving the modified Excel file in bin/debug folder
+//Saving the modified Excel file in bin/debug folder  
 
-workbook.Save("AutoFiltRowsandColumns.xls");
+workbook.Save("AutoFitRowsandColumns.xls");  
 
-{{< /highlight >}}
-## **NPOI - HSSF XSSF - Auto Fit Columns in Worksheet**
-**C#**
+{{< /highlight >}}  
 
-{{< highlight cs >}}
+## **NPOI - HSSF XSSF - Auto Fit Columns in Worksheet**  
+**C#**  
 
- HSSFWorkbook hssfworkbook = new HSSFWorkbook();
+{{< highlight cs >}}  
 
-ISheet sheet=hssfworkbook.CreateSheet("Sheet1");
+ HSSFWorkbook hssfworkbook = new HSSFWorkbook();  
 
-IRow row=sheet.CreateRow(0);
+ISheet sheet=hssfworkbook.CreateSheet("Sheet1");  
 
-row.CreateCell(0).SetCellValue("This is a test input");
+IRow row=sheet.CreateRow(0);  
 
-row.CreateCell(1).SetCellValue("Hello");
+row.CreateCell(0).SetCellValue("This is a test input");  
 
-row.CreateCell(2).SetCellValue("1234.0023");
+row.CreateCell(1).SetCellValue("Hello");  
 
-sheet.AutoSizeColumn(0);
+row.CreateCell(2).SetCellValue("1234.0023");  
 
-sheet.AutoSizeColumn(1);
+sheet.AutoSizeColumn(0);  
 
-sheet.AutoSizeColumn(2);
+sheet.AutoSizeColumn(1);  
 
-FileStream file = new FileStream(@"AutoFiltRowsandColumns(NPOI).xls", FileMode.Create);
+sheet.AutoSizeColumn(2);  
 
-hssfworkbook.Write(file);
+FileStream file = new FileStream(@"AutoFitRowsandColumns(NPOI).xls", FileMode.Create);  
 
-file.Close();
+hssfworkbook.Write(file);  
 
-{{< /highlight >}}
-## **Download Running Code**
-Download **Auto Fit Column** form any of the below mentioned social coding sites:
+file.Close();  
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
+{{< /highlight >}}  
 
-{{% alert color="primary" %}} 
+## **Download Running Code**  
+Download **Auto Fit Column** from any of the below mentioned social coding sites:  
 
-For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)  
 
-{{% /alert %}}
+{{% alert color="primary" %}}  
+
+For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).  
+
+{{% /alert %}}  
 {{< app/cells/assistant language="csharp" >}}

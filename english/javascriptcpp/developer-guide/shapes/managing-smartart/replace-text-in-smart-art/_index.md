@@ -1,15 +1,15 @@
 ---
-title: Replace text in smart art with JavaScript via C++
-linktitle: Replace text in smart art
+title: Replace text in SmartArt with JavaScript via C++
+linktitle: Replace text in SmartArt
 type: docs
 weight: 1200
 url: /javascript-cpp/replace-text-in-smart-art/
-description: Learn how to replace text in smart art using Aspose.Cells for JavaScript via C++.
+description: Learn how to replace text in SmartArt using Aspose.Cells for JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**  
 
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells for JavaScript via C++ provides this feature by setting the [**Shape.text**](https://reference.aspose.com/cells/javascript-cpp/shape/#text--) property.  
+SmartArt is one of the major objects in a workbook. Many times there is a need to update the text in SmartArt. Aspose.Cells for JavaScript via C++ provides this feature by setting the [**Shape.text**](https://reference.aspose.com/cells/javascript-cpp/shape/#text--) property.  
   
 The sample source file can be downloaded from the following link:  
   
@@ -69,7 +69,7 @@ The sample source file can be downloaded from the following link:
                     // Set alternative text using property assignment
                     shape.alternativeText = "ReplacedAlternativeText";
                     if (shape.isSmartArt()) {
-                        // Access smart art grouped shapes via properties
+                        // Access SmartArt grouped shapes via properties
                         const smartArtShapes = shape.resultOfSmartArt.groupedShapes;
                         for (let k = 0; k < smartArtShapes.length; k++) {
                             const smartart = smartArtShapes[k];

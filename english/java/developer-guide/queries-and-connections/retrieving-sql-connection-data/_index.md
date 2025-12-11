@@ -23,20 +23,13 @@ In Microsoft Excel, connect to a database by:
 
 ![todo:image_alt_text](retrieving-sql-connection-data_1.png)
 
-Aspose.Cells provides the Workbook.getDataConnections() method for retrieving external connections. It returns a collection of ExternalConnection objects in the workbook.
+Aspose.Cells provides the `Workbook.getDataConnections()` method for retrieving external connections. It returns a collection of `ExternalConnection` objects in the workbook.
 
-If the ExternalConnection object contains SQL connection data, it can be type-caste into a DBConnection object its properties used to retrieve database command, command type, connection description, connection info, credentials, and so on.
-
-
-
-
+If the `ExternalConnection` object contains SQL connection data, it can be type‑cast into a `DBConnection` object, and its properties can be used to retrieve the database command, command type, connection description, connection info, credentials, and so on.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RetrieveSQLConnectionData-RetrieveSQLConnectionData.java" >}}
-
-
-
 
 
 

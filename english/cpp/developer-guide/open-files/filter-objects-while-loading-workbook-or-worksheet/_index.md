@@ -10,9 +10,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.GetLoadFilter()](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getloadfilter/) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/startsheet/) method. Please provide appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/).
+Please use [LoadOptions.GetLoadFilter()](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getloadfilter/) property while filtering data from the workbook. However, if you want to filter data from individual worksheets, you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/startsheet/) method. Please provide an appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/cpp/aspose.cells/loadfilter/).
 
-The [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration has the following possible values.
+The [LoadDataFilterOptions](https://reference.aspose.com/cells/cpp/aspose.cells/loaddatafilteroptions/) enumeration has the following possible values.
 
 - All
 - BookSettings
@@ -83,13 +83,13 @@ int main()
 ```
 
 ## **Filter Objects while loading Worksheet**
-The following sample code loads the [source excel file](5115255.xlsx) and filters the following data from its worksheets using a custom filter.
+The following sample code loads the [source excel file](5115255.xlsx) and filters the following objects from its worksheets using a custom filter.
 
-- It filters Charts from worksheet named NoCharts.
-- It filters Shapes from worksheet named NoShapes.
-- It filters Conditional Formatting from worksheet named NoConditionalFormatting.
+- It filters charts from the worksheet named **NoCharts**.  
+- It filters shapes from the worksheet named **NoShapes**.  
+- It filters conditional formatting from the worksheet named **NoConditionalFormatting**.
 
-Once, it loads the [source excel file](5115255.xlsx) with a custom filter, it takes the images of all worksheets one by one. Here are the output images for your reference. As you can see, the first image does not have charts, the second image does not have shapes and the third image does not have conditional formatting.
+Once it loads the [source excel file](5115255.xlsx) with a custom filter, it takes images of all worksheets one by one. Here are the output images for your reference. As you can see, the first image does not have charts, the second image does not have shapes, and the third image does not have conditional formatting.
 
 - [NoCharts.png](5115254.png)
 - [NoShapes.png](5115256.png)
@@ -115,7 +115,7 @@ public:
         if (sheetName == u"NoShapes")
         {
             // Load everything and filter shapes
-            SetLoadDataFilterOptions(static_cast<LoadDataFilterOptions>(static_cast<int>(LoadDataFilterOptions::All) & ~static_cast<int>(LoadDataFilterOptions::Drawing)));
+            SetLoadDataFilterOptions(static_cast<LoadDataFilterOptions>(static_cast<int>(LoadDataFilterOptions::All) & ~static_cast<int>(LoadDataFilterOptions::Shape)));
         }
 
         if (sheetName == u"NoConditionalFormatting")
@@ -131,11 +131,10 @@ int main() {
     Aspose::Cells::Startup();
     Aspose::Cells::Cleanup();
     return 0;
-
 }
 ```
 
-This is how to use the CustomLoadFilter class as per worksheet names.
+This is how to use the `CustomLoadFilter` class according to worksheet names.
 
 ```cpp
 #include <iostream>

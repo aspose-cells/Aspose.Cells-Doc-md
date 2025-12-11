@@ -4,7 +4,7 @@ linktitle: Calculate Page Setup Scaling Factor
 type: docs
 weight: 300
 url: /nodejs-cpp/calculate-page-setup-scaling-factor/
-description: This article provides sample code explaining how to use the Node.js API with C++ to calculate Page Setup scaling factor using Fit to n page(s) wide by m tall option of Excel worksheet programmatically.
+description: This article provides sample code explaining how to use the Node.js API with C++ to calculate the page‑setup scaling factor using the **Fit to n page(s) wide by m tall** option of an Excel worksheet programmatically.
 keywords: Fit to n page wide by m tall excel Node.js via C++, calculate page setup scaling factor Node.js via C++
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property. This property returns a double value that can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
+When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property. This property returns a double value that can be converted to a percentage value. For example, if it returns 0.5, then it means the scaling factor is 50%.
 
 {{% /alert %}}
 
-The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property.
+The following sample code illustrates how to calculate the page‑setup scaling factor using [**SheetRender.getPageScale()**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#getPageScale--) property.
 
 ```javascript
 const path = require("path");
@@ -38,7 +38,7 @@ worksheet.getCells().get("S4").putValue("Test");
 // Set paper size
 worksheet.getPageSetup().setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 
-// Set fit to pages wide as 1
+// Set "Fit to pages wide" to 1
 worksheet.getPageSetup().setFitToPagesWide(1);
 
 // Calculate page scale via sheet render

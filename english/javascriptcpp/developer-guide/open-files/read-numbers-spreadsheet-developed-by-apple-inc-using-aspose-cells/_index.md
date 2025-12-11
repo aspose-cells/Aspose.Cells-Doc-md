@@ -9,11 +9,11 @@ description: Learn how to read Numbers spreadsheets developed by Apple Inc. usin
 
 ## **Possible Usage Scenarios**
 
-Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets, but it does not support writing to them. It can read Numbers spreadsheets' Data, Style, and Formulas.
+Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets, but it does not support writing to them. It can read the data, style, and formulas of Numbers spreadsheets.
 
 ## **Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells for JavaScript via C++**
 
-The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You will have to use the [**LoadOptions**](https://reference.aspose.com/cells/javascript-cpp/loadoptions) class and specify [**LoadFormat.Numbers**](https://reference.aspose.com/cells/javascript-cpp/loadformat) as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.
+The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You need to use the [**LoadOptions**](https://reference.aspose.com/cells/javascript-cpp/loadoptions) class and specify [**LoadFormat.Numbers**](https://reference.aspose.com/cells/javascript-cpp/loadformat) as a parameter in its constructor to load it successfully. Please download both files from the given links. You can try the code with any Numbers spreadsheet. Please also read the code comments for more help.
 
 ## **Sample Code**
 
@@ -59,7 +59,7 @@ The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersBy
             // Specify load options to load Numbers spreadsheet
             const opts = new LoadOptions(LoadFormat.Numbers);
 
-            // Load the Numbers spreadsheet in workbook with above load options
+            // Load the Numbers spreadsheet into a workbook with the above load options
             const wb = new Workbook(new Uint8Array(arrayBuffer), opts);
 
             // Save the workbook to PDF format

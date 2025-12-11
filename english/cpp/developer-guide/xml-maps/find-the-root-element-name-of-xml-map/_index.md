@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can find the *Root Element Name of Xml Map* using Aspose.Cells with [**XmlMap.GetRootElementName()**](https://reference.aspose.com/cells/cpp/aspose.cells/xmlmap/getrootelementname/) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
+You can find the *Root Element Name of XML Map* using Aspose.Cells with the [**XmlMap.GetRootElementName()**](https://reference.aspose.com/cells/cpp/aspose.cells/xmlmap/getrootelementname/) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
 
 ![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
 ## **Sample Code**
 
-The following sample code loads the [sample Excel file](55541789.xlsx) and accesses the first XML Map and prints its [**XmlMap.GetRootElementName()**](https://reference.aspose.com/cells/cpp/aspose.cells/xmlmap/getrootelementname/) property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541789.xlsx), accesses the first XML Map, and prints its root element name using the [**XmlMap.GetRootElementName()**](https://reference.aspose.com/cells/cpp/aspose.cells/xmlmap/getrootelementname/) property. Please see the console output of the sample code given below.
 
 ```c++
 #include <iostream>
@@ -36,13 +36,13 @@ int main()
     // Path of input excel file
     U16String inputFilePath = srcDir + u"sampleRootElementNameOfXmlMap.xlsx";
 
-    // Load sample Excel file having Xml Map
+    // Load sample Excel file containing an XML Map
     Workbook wb(inputFilePath);
 
-    // Access first Xml Map inside the Workbook
+    // Access the first XML Map in the workbook
     XmlMap xmap = wb.GetWorksheets().GetXmlMaps().Get(0);
 
-    // Print Root Element Name of Xml Map on Console
+    // Print the root element name of the XML Map to the console
     std::cout << "Root Element Name Of Xml Map: " << xmap.GetRootElementName().ToUtf8() << std::endl;
 
     Aspose::Cells::Cleanup();
@@ -51,7 +51,7 @@ int main()
 
 ## **Console Output**
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 Root Element Name Of Xml Map: MiscData
 

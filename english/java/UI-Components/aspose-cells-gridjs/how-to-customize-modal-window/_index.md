@@ -1,11 +1,10 @@
 ---
-title: how to customize UI appearence for modal window in GridJs  
+title: how to customize UI appearance for modal window in GridJs  
 type: docs
 weight: 250
 url: /java/aspose-cells-gridjs/how-to-customize-ui-window/
-description: This article describes how to customize UI appearence for modal window in GridJs.
-keywords: GridJs,customize,modal,UI,appearence,visual,window
-aliases:
+description: This article describes how to customize UI appearance for modal window in GridJs.
+keywords: GridJs,customize,modal,UI,appearance,visual,window
 aliases:
   - /java/aspose-cells-gridjs/customize-appearence/
   - /java/aspose-cells-gridjs/customize-ui-window/
@@ -20,7 +19,6 @@ aliases:
   - /java/aspose-cells-gridjs/customize-dialog-appearance/
   - /java/aspose-cells-gridjs/customize-popup-window/
   - /java/aspose-cells-gridjs/customize-modal-ui/
-
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -46,10 +44,10 @@ GridJs provides a powerful modal system with built-in support for custom styling
 
 ### Key Features
 
-- ✅ **Isolated Styling** - Each modal has unique CSS classes
-- ✅ **No Style Conflicts** - Styles only affect targeted modals
-- ✅ **Easy Customization** - Simple CSS overrides
-- ✅ **Theme Support** - Multiple themes per application
+- ✅ **Isolated Styling** – Each modal has unique CSS classes
+- ✅ **No Style Conflicts** – Styles only affect targeted modals
+- ✅ **Easy Customization** – Simple CSS overrides
+- ✅ **Theme Support** – Multiple themes per application
 
 ---
 
@@ -74,8 +72,6 @@ GridJs provides a powerful modal system with built-in support for custom styling
 | MoreNumberFormats | `more-number-formats` | `.x-spreadsheet-modal-more-number-formats` |
 | ValidationAlert | `validation-alert` | `.x-spreadsheet-modal-validation-alert` |
 | InsertDelete | `insert-delete` | `.x-spreadsheet-modal-insert-delete` |
-
- 
 
 ---
 
@@ -483,6 +479,7 @@ Suitable for business and corporate applications.
 ### 1. Use Specific Selectors
 
 ✅ **Good:**
+
 ```css
 .x-spreadsheet-modal-search .x-spreadsheet-buttons button {
     /* Styles only affect search modal buttons */
@@ -490,6 +487,7 @@ Suitable for business and corporate applications.
 ```
 
 ❌ **Bad:**
+
 ```css
 .x-spreadsheet-modal button {
     /* Affects all modals */
@@ -708,7 +706,3 @@ Suitable for business and corporate applications.
 - **Shadow Generator**: [Box Shadows](https://box-shadow.dev/)
 
 ---
- 
-
- 
- 

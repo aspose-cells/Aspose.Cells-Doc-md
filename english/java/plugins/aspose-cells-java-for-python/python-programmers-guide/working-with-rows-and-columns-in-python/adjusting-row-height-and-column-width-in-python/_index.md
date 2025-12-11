@@ -11,10 +11,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Excel Spreadsheets in Python - Adjusting Row Height and Column Width**
 ### **Setting the Row Height**
-With Aspose.Cells, it is possible to set the height of a single row in Python by calling the Cells collection's setRowHeight method. The setRowHeight method takes the folloing parameters:
+With Aspose.Cells, it is possible to set the height of a single row in Python by calling the Cells collection's setRowHeight method. The setRowHeight method takes the following parameters:
 
 - **Row index**, the index of the row that you're changing the height of.
-- **Row height**, the row height to apply on the row.
+- **Row height**, the row height to apply to the row.
 
 **Python Code**
 

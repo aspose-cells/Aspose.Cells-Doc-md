@@ -17,11 +17,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 When dealing with a spreadsheet file containing numerous worksheets, we can optimize the loading process by initially loading only the active worksheet.
 
-This strategy ensures that the server-side JSON response initially includes only the data pertaining to the actively selected worksheet. As a result, the initial web traffic is significantly reduced, enhancing the user experience by minimizing load times.
+This strategy ensures that the server‑side JSON response initially includes only the data pertaining to the actively selected worksheet. As a result, the initial web traffic is significantly reduced, enhancing the user experience by minimizing load times.
 
 Furthermore, GridJs is designed to dynamically respond to user interactions. Specifically, when a user clicks on a different worksheet, GridJs intelligently triggers a request to the server to fetch the data specifically for that worksheet.
 
-This on-demand loading mechanism not only further reduces unnecessary data transfers but also ensures that the user always has access to the most up-to-date information for the worksheet they are currently working on.
+This on‑demand loading mechanism not only further reduces unnecessary data transfers but also ensures that the user always has access to the most up‑to‑date information for the worksheet they are currently working on.
 
 By adopting this approach, we not only optimize the initial load time but also maintain a responsive and efficient application that scales well with the increasing number of worksheets in the spreadsheet file.
 
@@ -29,7 +29,7 @@ By adopting this approach, we not only optimize the initial load time but also m
 
 ### Step 1: Configure Lazy Loading in Startup.cs
 
-Set the lazy loading option either through [Config](https://reference.aspose.com/cells/net/aspose.cells.gridjs/config/) or [GridJsOptions](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridjsoptions/) - both have the same effect.
+Set the lazy loading option either through **Config** or **GridJsOptions** – both have the same effect.
 
 **Example using Config:**
 
@@ -50,7 +50,7 @@ services.Configure<GridJsOptions>(options =>
 
 ### Step 2: Set Action URL in Client File
 
-Configure the lazy loading URL in your client-side JavaScript file.
+Configure the lazy loading URL in your client‑side JavaScript file.
 
 **Example:**
 
@@ -59,12 +59,12 @@ const lazyLoadingUrl = "/GridJs2/LazyLoadingStreamJson";
 xs.setLazyLoadingUrl(lazyLoadingUrl);
 ```
 
-After the user clicks on a worksheet that is not the active one, the data query action will be triggered automatically by the spreadsheet application.
+After the user clicks on a worksheet that is not the active one, the data‑query action will be triggered automatically by the spreadsheet application.
 
 ### Step 3: Implement Lazy Loading Action in Controller
 
-Implement the lazy loading action on the server side.
-(If your controller extends from [GridJsControllerBase](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridjscontrollerbase/), you don't need to add this implementation as it is already provided in [GridJsControllerBase](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridjscontrollerbase/).)
+Implement the lazy loading action on the server side.  
+(If your controller extends from **GridJsControllerBase**, you don't need to add this implementation, as it is already provided in **GridJsControllerBase**.)
 
 **Example:**
 

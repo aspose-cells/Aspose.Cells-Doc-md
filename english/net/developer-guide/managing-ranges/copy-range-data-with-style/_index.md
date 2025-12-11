@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-[Copy Range Data Only](/cells/net/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Specifically, it process applied a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.
+[Copy Range Data Only](/cells/net/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Specifically, it processes the application of a new set of styles to the copied cells. Aspose.Cells can also copy a range complete with formatting. This article explains how.
 
 {{% /alert %}}
 

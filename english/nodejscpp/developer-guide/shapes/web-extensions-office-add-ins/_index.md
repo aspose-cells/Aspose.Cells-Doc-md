@@ -4,11 +4,11 @@ linktitle: Web Extensions - Office Add-ins
 type: docs  
 weight: 130  
 url: /nodejs-cpp/web-extensions-office-add-ins/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
-Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to Office client to improve the user experience and productivity.
+Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to the Office client to improve the user experience and productivity.
 
 Aspose.Cells also provides the ability to work with Web Extensions.
 
@@ -68,14 +68,14 @@ const workbook = new AsposeCells.Workbook(filePath);
 const taskPanes = workbook.getWorksheets().getWebExtensionTaskPanes();
 
 for (let i = 0; i < taskPanes.getCount(); i++) {
-const taskPane = taskPanes.get(i);
-console.log("Width: " + taskPane.getWidth());
-console.log("IsVisible: " + taskPane.isVisible());
-console.log("IsLocked: " + taskPane.isLocked());
-console.log("DockState: " + taskPane.getDockState());
-console.log("StoreName: " + taskPane.getWebExtension().getReference().getStoreName());
-console.log("StoreType: " + taskPane.getWebExtension().getReference().getStoreType());
-console.log("WebExtension.Id: " + taskPane.getWebExtension().getId());
+    const taskPane = taskPanes.get(i);
+    console.log("Width: " + taskPane.getWidth());
+    console.log("IsVisible: " + taskPane.isVisible());
+    console.log("IsLocked: " + taskPane.isLocked());
+    console.log("DockState: " + taskPane.getDockState());
+    console.log("StoreName: " + taskPane.getWebExtension().getReference().getStoreName());
+    console.log("StoreType: " + taskPane.getWebExtension().getReference().getStoreType());
+    console.log("WebExtension.Id: " + taskPane.getWebExtension().getId());
 }
 ```
 
@@ -83,19 +83,19 @@ console.log("WebExtension.Id: " + taskPane.getWebExtension().getId());
 
 {{< highlight javascript >}}
 
-Width: 350
+Width: 350  
 
-IsVisible: True
+IsVisible: True  
 
-IsLocked: False
+IsLocked: False  
 
-DockState: right
+DockState: right  
 
-StoreName: en-US
+StoreName: en-US  
 
-StoreType: OMEX
+StoreType: OMEX  
 
-WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF  
 
 {{< /highlight >}}  
   

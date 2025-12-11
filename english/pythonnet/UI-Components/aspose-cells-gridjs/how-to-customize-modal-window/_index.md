@@ -1,13 +1,13 @@
 ---
-title: how to customize UI appearence for modal window in GridJs  
+title: how to customize UI appearance for modal window in GridJs  
 type: docs
 weight: 250
 url: /python-net/aspose-cells-gridjs/how-to-customize-ui-window/
-description: This article describes how to customize UI appearence for modal window in GridJs.
-keywords: GridJs,customize,modal,UI,appearence,visual,window
+description: This article describes how to customize UI appearance for modal window in GridJs.
+keywords: GridJs,customize,modal,UI,appearance,visual,window
 aliases:
 aliases:
-  - /python-net/aspose-cells-gridjs/customize-appearence/
+  - /python-net/aspose-cells-gridjs/customize-appearance/
   - /python-net/aspose-cells-gridjs/customize-ui-window/
   - /python-net/aspose-cells-gridjs/customize-modal/
   - /python-net/aspose-cells-gridjs/customize-modal-window/
@@ -74,8 +74,6 @@ GridJs provides a powerful modal system with built-in support for custom styling
 | MoreNumberFormats | `more-number-formats` | `.x-spreadsheet-modal-more-number-formats` |
 | ValidationAlert | `validation-alert` | `.x-spreadsheet-modal-validation-alert` |
 | InsertDelete | `insert-delete` | `.x-spreadsheet-modal-insert-delete` |
-
- 
 
 ---
 
@@ -708,7 +706,3 @@ Suitable for business and corporate applications.
 - **Shadow Generator**: [Box Shadows](https://box-shadow.dev/)
 
 ---
- 
-
- 
- 

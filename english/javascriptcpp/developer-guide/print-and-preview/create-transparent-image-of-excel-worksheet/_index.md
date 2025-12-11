@@ -9,7 +9,7 @@ description: Learn how to generate a transparent image of an Excel worksheet usi
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to generate the image of your worksheet as a transparent image. You want to apply transparency to all cells which have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.transparent**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#transparent--) property to apply transparency to the worksheet image. When this property is **false**, then cells with no fill colors are drawn with white color and when it is **true**, cells with no fill colors are drawn transparent.
+Sometimes, you need to generate an image of your worksheet with transparency. You want to apply transparency to all cells that have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.transparent**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#transparent--) property to apply transparency to the worksheet image. When this property is **false**, cells with no fill colors are drawn with white color, and when it is **true**, cells with no fill colors are drawn as transparent.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ In the following worksheet image, transparency has not been applied. The cells w
 | :- |
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
 
-While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
+In the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
 
 |**Output with transparency enabled**|
 | :- |
@@ -72,7 +72,7 @@ The following sample code generates a transparent image from an Excel worksheet.
             // Access first worksheet
             const sheet = wb.worksheets.get(0);
 
-            // Apply different image or print options
+            // Apply image or print options
             const imgOption = new ImageOrPrintOptions();
             imgOption.imageType = ImageType.Png;
             imgOption.horizontalResolution = 200;
@@ -82,7 +82,7 @@ The following sample code generates a transparent image from an Excel worksheet.
             // Apply transparency to the output image
             imgOption.transparent = true;
 
-            // Create image after applying image or print options
+            // Create image after applying the options
             const sr = new SheetRender(sheet, imgOption);
             const outputData = await sr.toImage(0);
 

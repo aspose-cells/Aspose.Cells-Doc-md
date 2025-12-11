@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
+Sometimes, you need to add or register **a** library reference to the VBA project through code. You can do it using the Aspose.Cells [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
 
 {{% /alert %}}
 
-## **Add a library reference to VBA project in Microsoft Excel**
+## **Add a library reference to **a** VBA project in Microsoft Excel**
 
-In Microsoft Excel, you can add a library reference to the VBA project by clicking the **Tools > References...** manually.
+In Microsoft Excel, you can add a library reference to the VBA project by clicking **Tools > References...** manually.
 
 ## **Add a library reference to the VBA project in a workbook using Aspose.Cells**
 
-The following sample code adds or registers two library references to the VBA project of the workbook using [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
+The following sample code adds or registers two library references to the VBA project of the workbook using the [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
 
 ```c++
 #include <iostream>
@@ -38,7 +38,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputPath = outDir + u"Output_out.xlsm";
 
     // Create a new workbook

@@ -47,7 +47,7 @@ Aspose.Cells supports converting Excel files to Ods, Sxc, and Fods files. The co
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-WorkbookConversions-4.go" >}}
 ## **Converting Excel Workbook to MHTML Files**
 
-MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. They are used for emails with the .mht file extension.
+MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, etc.) into one file. It is used for emails with the .mht file extension.
 
 Aspose.Cells supports reading and writing MHTML files.
 
@@ -129,7 +129,7 @@ The Aspose.Cells API provides support for converting spreadsheets to AZW3 format
 The following code example demonstrates exporting the active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/go-cpp/saveformat/) enumeration member.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-WorkbookConversions-15.go" >}}
-## **Advance topics**
+## **Advanced topics**
 - [Convert Revision of XLSB to XLSM](/cells/cpp/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/cpp/convert-excel-to-html/)
 - [Image](/cells/cpp/convert-excel-to-image/)

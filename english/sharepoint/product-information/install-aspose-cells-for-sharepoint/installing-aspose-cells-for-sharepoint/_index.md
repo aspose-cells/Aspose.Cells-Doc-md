@@ -32,7 +32,7 @@ The setup program checks the following conditions before proceeding with install
 
 WSS Administration service and Timer service are needed because some setup actions rely on a timer job to propagate to all servers in the server farm. 
 #### **To install Aspose.Cells for SharePoint**
-1. Unpack Aspose.Cells.SharePoint zip to the local drive of the MOSS 7.0 or WSS 3.0 server.
+1. Unpack Aspose.Cells.SharePoint.zip to the local drive of the MOSS 7.0 or WSS 3.0 server.
 1. Run setup.exe and follow the instructions on the screen.
 
 The setup program performs the following actions:
@@ -43,38 +43,26 @@ The setup program performs the following actions:
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_1.png)
 
-
-
-
-1. Display End User License Agreement. The user must accept the agreement in order to proceed. 
+2. Display End User License Agreement. The user must accept the agreement in order to proceed. 
 
    **The EULA** 
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_2.png)
 
-
-
-
-1. Display deployment target selection dialog. The user selects web applications and site collections where the feature shall be activated. See the figure below. 
+3. Display deployment target selection dialog. The user selects web applications and site collections where the feature shall be activated. See the figure below. 
 
    **Deployment targets** 
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_3.png)
 
-
-
-
-1. Deploy the feature to the server farm. 
+4. Deploy the feature to the server farm. 
 
    **Running installation** 
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_4.png)
 
-
-
-
-1. Activate the feature for the selected site collections and configure their parent web applications.
-1. Display a list of web applications and site collections where the feature has been deployed and activated. 
+5. Activate the feature for the selected site collections and configure their parent web applications.
+6. Display a list of web applications and site collections where the feature has been deployed and activated. 
 
    **Installation complete** 
 

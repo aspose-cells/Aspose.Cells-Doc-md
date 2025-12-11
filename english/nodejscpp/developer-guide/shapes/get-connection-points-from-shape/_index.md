@@ -9,7 +9,7 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
-Aspose.Cells provides rich features to manage shapes in the spreadsheet. Sometimes there is a need to get the connection points of a shape for aligning or placing the shapes at the appropriate place. For this purpose, all the connection points are required. The following code can be used to get the list of connection points of a shape by using the [Shape.getConnectionPoints()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getConnectionPoints--) property.
+Aspose.Cells provides rich features to manage shapes in a spreadsheet. Sometimes there is a need to get the connection points of a shape for aligning or placing the shapes in the appropriate place. For this purpose, all the connection points are required. The following code can be used to get the list of connection points of a shape by using the [Shape.getConnectionPoints()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getConnectionPoints--) property.
 
 ```javascript
 try {
@@ -31,7 +31,7 @@ const worksheet = newWorkbook.getWorksheets().get(0);
 // Add a new textbox to the collection.
 const textboxIndex = worksheet.getTextBoxes().add(2, 1, 160, 200);
 
-// Access your text box which is also a shape object from shapes collection
+// Access the text box, which is also a shape object, from the shapes collection
 const shape = newWorkbook.getWorksheets().get(0).getShapes().get(0);
 
 // Get all the connection points in this shape
@@ -40,6 +40,7 @@ const connectionPoints = shape.getConnectionPoints();
 // Display all the shape points
 connectionPoints.forEach(pt => {
 console.log(`X = ${pt[0]}, Y = ${pt[1]}`);
+});
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

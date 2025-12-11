@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /net/aspose-cells-gridweb/add-worksheet/
 keywords: GridWeb,add,worksheet,add GridWorksheet
-description: This article introduces how to add worksheet (GridWorksheet ) in GridWeb.
+description: This article introduces how to add a worksheet (GridWorksheet) in GridWeb.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -16,34 +16,30 @@ Worksheets are an integral part of Aspose.Cells.GridWeb. All data is managed and
 {{% /alert %}} 
 ## **Adding a Worksheet**
 ### **Without Specifying Sheet Name**
-The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the GridWorksheetCollection collection's Add method in the GridWeb control. This creates worksheets that use default names (that is Sheet1, Sheet2, Sheet3 and so on) and adds them to the GridWeb control.
+The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the Add method of the GridWorksheetCollection in the GridWeb control. This creates worksheets that use default names (that is Sheet1, Sheet2, Sheet3 and so on) and adds them to the GridWeb control.
 
-**Output: a worksheet with default name has been added to GridWeb** 
+**Output: A worksheet with a default name has been added to GridWeb** 
 
 ![todo:image_alt_text](add-worksheets_1.png)
-
-
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddWorksheets.aspx-AddWorksheetWithoutName.cs" >}}
 
 {{% alert color="primary" %}} 
 
-The Add method returns the new worksheet's index which can be used to access the instance of this worksheet. For more details on how to access worksheets, read [Access Worksheets](/cells/net/aspose-cells-gridweb/access-worksheets/).
+The Add method returns the new worksheet's index, which can be used to access the instance of this worksheet. For more details on how to access worksheets, read [Access Worksheets](/cells/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
 ### **With Specified Sheet Name**
-To add a worksheet with a specific name to the GridWeb control instead of using the default naming scheme, call an overloaded version of the Add method that takes the specified SheetName. For an instance, the example below adds a worksheet named Invoice.
+To add a worksheet with a specific name to the GridWeb control instead of using the default naming scheme, call an overloaded version of the Add method that takes the specified sheet name. For instance, the example below adds a worksheet named Invoice.
 
-**Output: a worksheet with a specified name has been added to GridWeb** 
+**Output: A worksheet with a specified name has been added to GridWeb** 
 
 ![todo:image_alt_text](add-worksheets_2.png)
-
-
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddWorksheets.aspx-AddWorksheetWithName.cs" >}}
 
 {{% alert color="primary" %}} 
 
-The Add method accepting the worksheet name as string returns an instance of GridWorksheet.
+The Add method that accepts the worksheet name as a string returns an instance of GridWorksheet.
 
 {{% /alert %}}

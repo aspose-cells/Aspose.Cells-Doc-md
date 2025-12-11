@@ -12,25 +12,24 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-DataLabels are an important part of a chart.
-We can easily know the value, percentage, etc. of each series
+DataLabels are an important part of a chart.  
+We can easily know the value, percentage, etc. of each series.
 
 {{% /alert %}}
 
 ## **DataLabels Options**
-Aspose.Cells for Python via .NET also allows to manage chart's datalabels at runtime，with [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/) object, it's simple to move, update and format datalabels of the chart.
+Aspose.Cells for Python via .NET also allows you to manage a chart's DataLabels at runtime. With the [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/) object, it's simple to move, update, and format DataLabels of the chart.
 
 |![todo:image_alt_text](chart_datalabels.png)|
 
 ## **Manage the DataLabels of Chart**
-It's simple to manage datalabels of the chart with Aspose.Cells for Python via .NET [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/).
+It's simple to manage the DataLabels of a chart with Aspose.Cells for Python via .NET's [DataLabels](https://reference.aspose.com/cells/python-net/aspose.cells.charts/datalabels/).
 
-The following code snippet demonstrates how to manage DataLabels:
-
+The following code snippet demonstrates how to manage DataLabels:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-datalabels.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/python-net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/python-net/disable-text-wrapping-for-data-labels-of-the-chart/)
 - [Resize Chart's Data Label Shape To Fit Text](/cells/python-net/resize-chart-s-data-label-shape-to-fit-text/)

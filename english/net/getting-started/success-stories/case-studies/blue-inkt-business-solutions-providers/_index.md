@@ -8,13 +8,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Product Background**
-Blue Inkt is a Dutch company that develops web based software that can be applied to almost every business station and fitting any level of company's day-to-day business world wide. We provide a number of web based software applications, but the core business for us is TeleManager, Leadmanager and upcoming MarketingManager.
-## **Requirements Scenario**
-A few of our customers that use our software asked frequently for a solution for making export from LeadManager to Microsoft Excel. They use it to make an export by using the print screen button but the way it worked now wasn't efficient enough so we needed a solution for this issue. Another option was that we made an export from the database but this cost too much time because the data also contained a lot of data you did not need.
-## **Solution Implementation**
-We started looking for the right solution to solve this problem. After a few clicks on the website Google we saw that Aspose has a solution we needed. We tried the 30 days promo and were really excited about it. We build an extra button in our applications to make exports to Excel.
+Blue Inkt is a Dutch company that develops web‑based software that can be applied to almost every business sector and fits any level of a company's day‑to‑day operations worldwide. We provide a number of web‑based software applications, but the core business for us is TeleManager, LeadManager, and the upcoming MarketingManager.
 
-The result of this test was very good. If you have, for example 100 requests for an export that each takes 10 minutes. You don't have to be an expert to realize this really was the solution we needed.
+## **Requirements Scenario**
+A few of our customers that use our software frequently asked for a solution to export data from LeadManager to Microsoft Excel. They used the Print Screen button to export, but this method was inefficient, so we needed a better solution. Another option was to export directly from the database, but this took too much time because the data also included a lot of information that was unnecessary.
+
+## **Solution Implementation**
+We started looking for the right solution to address this problem. After a few clicks on Google we saw that Aspose offered the solution we needed. We tried the 30‑day trial and were really excited about it. We built an extra button in our applications to make exports to Excel.
+
+The result of this test was very good. For example, if you have 100 export requests that each take 10 minutes, you don’t have to be an expert to realize that this was indeed the solution we needed.
+
 ## **Conclusion**
 {{% alert color="primary" %}} 
 

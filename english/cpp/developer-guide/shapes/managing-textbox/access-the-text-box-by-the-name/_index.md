@@ -31,13 +31,13 @@ int main()
     // Create an object of the Workbook class
     Workbook workbook;
 
-    // Access first worksheet from the collection
+    // Access the first worksheet from the collection
     Worksheet sheet = workbook.GetWorksheets().Get(0);
 
     // Add the TextBox to the worksheet
     int idx = sheet.GetTextBoxes().Add(10, 10, 10, 10);
 
-    // Access newly created TextBox using its index & name it
+    // Access the newly created TextBox using its index and name it
     TextBox tb1 = sheet.GetTextBoxes().Get(idx);
     tb1.SetName(u"MyTextBox");
 

@@ -1,10 +1,10 @@
 ---
-title: Loading and Managing Excel, OpenOffice, Json, Csv, and Html Files with C++
+title: Loading and Managing Excel, OpenOffice, JSON, CSV, and HTML Files with C++
 linktitle: Open Files
 type: docs
 weight: 20
 url: /cpp/loading-saving-and-managing/
-description: With Aspose.Cells for C++, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, Json, XML, Pdf, Jpg, Tiff, Image, Mht, and XPS files.
+description: With Aspose.Cells for C++, it is simple to create, open, and manage Excel, CSV, TSV, ODS, HTML, Numbers, JSON, XML, PDF, JPG, TIFF, Image, MHT, and XPS files.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -44,7 +44,7 @@ int main()
         std::cerr << ex.what() << std::endl;
     }
 
-    // Instantiate a Workbook object that represents Excel file.
+    // Instantiate a Workbook object that represents an Excel file.
     Workbook wb;
 
     // When you create a new workbook, a default "Sheet1" is added to the workbook.
@@ -53,7 +53,7 @@ int main()
     // Access the "A1" cell in the sheet.
     Cell cell = sheet.GetCells().Get(u"A1");
 
-    // Input the "Hello World!" text into the "A1" cell
+    // Insert the "Hello World!" text into the "A1" cell
     cell.PutValue(u"Hello World!");
 
     // Save the Excel file.
@@ -108,7 +108,7 @@ int main()
     // Setting number
     cells.Get(u"A2").PutValue(1000);
 
-    // Setting Date Time
+    // Setting date and time
     Cell cell = cells.Get(u"A3");
     Date currentDate;
     currentDate.year = 2023; // Replace with actual current year
@@ -136,7 +136,7 @@ int main()
 }
 ```
 
-## **Advance Topics**
+## **Advanced Topics**
 - [Different Ways to Open Files](/cells/cpp/different-ways-to-open-files/)
 - [Filter Defined Names While Loading Workbook](/cells/cpp/filter-defined-names-while-loading-workbook/)
 - [Filter Objects While Loading Workbook or Worksheet](/cells/cpp/filter-objects-while-loading-workbook-or-worksheet/)
@@ -155,5 +155,5 @@ int main()
 - [Convert Excel to JSON](/cells/cpp/convert-excel-to-json/)
 - [Convert JSON to CSV](/cells/cpp/convert-json-to-csv/)
 - [Convert JSON to Excel](/cells/cpp/convert-json-to-excel/)
-- [Convert Excel to Html](/cells/cpp/convert-excel-to-html/)
+- [Convert Excel to HTML](/cells/cpp/convert-excel-to-html/)
 {{< app/cells/assistant language="cpp" >}}

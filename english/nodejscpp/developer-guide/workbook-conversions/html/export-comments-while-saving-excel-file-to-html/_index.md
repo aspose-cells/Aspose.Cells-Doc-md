@@ -1,24 +1,24 @@
----
-title: Export Comments while Saving Excel file to HTML with Node.js via C++
-linktitle: Export Comments while Saving Excel file to HTML
-type: docs
-weight: 40
-url: /nodejs-cpp/export-comments-while-saving-excel-file-to/
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Export Comments while Saving Excel file to HTML with Node.js via C++  
+linktitle: Export Comments while Saving Excel file to HTML  
+type: docs  
+weight: 40  
+url: /nodejs-cpp/export-comments-while-saving-excel-file-to/  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells for Node.js via C++ provides this feature using the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/nodejs-cpp/export-comments-while-saving-excel-file-to/) property. If you set it **true**, then HTML will also display comments present in your Excel file.
+When you save your Excel file to HTML, comments are not exported. However, Aspose.Cells for Node.js via C++ provides this feature using the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/nodejs-cpp/export-comments-while-saving-excel-file-to/) property. If you set it to **true**, the HTML will also display the comments present in your Excel file.  
 
-## **Export Comments while Saving Excel file to HTML**
+## **Export Comments while Saving Excel file to HTML**  
 
-The following sample code explains the usage of [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/nodejs-cpp/export-comments-while-saving-excel-file-to/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for a reference.
+The following sample code demonstrates the usage of the [**HtmlSaveOptions.isExportComments**](https://docs.aspose.com/cells/nodejs-cpp/export-comments-while-saving-excel-file-to/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for reference.  
 
-![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```javascript
 const path = require("path");

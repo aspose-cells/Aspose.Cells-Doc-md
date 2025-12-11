@@ -22,20 +22,20 @@ Aspose.Cells provides the [**style**](https://reference.aspose.com/cells/javascr
 
 #### **Adding Borders to a Cell**
 
-Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection. The border type is passed as an index to the [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection. All border types are pre-defined in the [**BorderType**](https://reference.aspose.com/cells/javascript-cpp/bordertype) enumeration.
+Developers can add borders to a cell by using the [**Style**](https://reference.aspose.com/cells/javascript-cpp/style) object's [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection. The border type is passed as an index to the [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection. All border types are pre‑defined in the [**BorderType**](https://reference.aspose.com/cells/javascript-cpp/bordertype) enumeration.
 
 **Border enumeration**
 
 |**Border Types**|**Description**|
 | :- | :- |
 |BottomBorder|A bottom border line|
-|DiagonalDown|A diagonal line from top left to right bottom|
-|DiagonalUp|A diagonal line from bottom left to right top|
+|DiagonalDown|A diagonal line from top left to bottom right|
+|DiagonalUp|A diagonal line from bottom left to top right|
 |LeftBorder|A left border line|
 |RightBorder|A right border line|
 |TopBorder|A top border line|
 
-The [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection stores all borders. Each border in the [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection is represented by a [**Border**](https://reference.aspose.com/cells/javascript-cpp/border) object which provides two properties, [**color**](https://reference.aspose.com/cells/javascript-cpp/border/#color-color-) and [**lineStyle**](https://reference.aspose.com/cells/javascript-cpp/border/#lineStyle-cellbordertype-) to set a border's line color and style respectively.
+The [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection stores all borders. Each border in the [**borders**](https://reference.aspose.com/cells/javascript-cpp/style/#borders--) collection is represented by a [**Border**](https://reference.aspose.com/cells/javascript-cpp/border) object, which provides two properties, [**color**](https://reference.aspose.com/cells/javascript-cpp/border/#color-color-) and [**lineStyle**](https://reference.aspose.com/cells/javascript-cpp/border/#lineStyle-cellbordertype-) to set a border's line color and style respectively.
 
 To set a border's line color, select a color using the Color enumeration (part of JavaScript) and assign it to the Border object's color property.
 
@@ -45,20 +45,21 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 
 |**Line Styles**|**Description**|
 | :- | :- |
-|DashDot|Thin dash-dotted line|
-|DashDotDot|Thin dash-dot-dotted line|
+|DashDot|Thin dash‑dotted line|
+|DashDotDot|Thin dash‑dot‑dotted line|
 |Dashed|Dashed line|
 |Dotted|Dotted line|
 |Double|Double line|
 |Hair|Hairline|
-|MediumDashDot|Medium dash-dotted line|
-|MediumDashDotDot|Medium dash-dot-dotted line|
+|MediumDashDot|Medium dash‑dotted line|
+|MediumDashDotDot|Medium dash‑dot‑dotted line|
 |MediumDashed|Medium dashed line|
 |None|No line|
 |Medium|Medium line|
-|SlantedDashDot|Slanted medium dash-dotted line|
+|SlantedDashDot|Slanted medium dash‑dotted line|
 |Thick|Thick line|
 |Thin|Thin line|
+
 Select one of the line styles and then assign it to the [**Border**](https://reference.aspose.com/cells/javascript-cpp/border) object's [**lineStyle**](https://reference.aspose.com/cells/javascript-cpp/border/#lineStyle-cellbordertype-) property.
 
 ```html
@@ -103,10 +104,10 @@ Select one of the line styles and then assign it to the [**Border**](https://ref
             // Accessing the "A1" cell from the worksheet
             const cell = worksheet.cells.get("A1");
 
-            // Adding some value to the "A1" cell
+            // Adding a value to the "A1" cell
             cell.value = "Visit Aspose!";
 
-            // Create a style object
+            // Creating a style object
             const style = cell.style;
 
             // Setting the line style and color of the top border
@@ -156,7 +157,7 @@ It is also possible to add borders to a range of cells rather than just a single
 - Number of Rows, the number of rows in the range.
 - Number of Columns, the number of columns in the range.
 
-The [**createRange**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-) method returns a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object, which contains the specified range of cells. The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object provides a [**outlineBorder**](https://reference.aspose.com/cells/javascript-cpp/range/#outlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:
+The [**createRange**](https://reference.aspose.com/cells/javascript-cpp/cells/#createRange-string-string-) method returns a [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object, which contains the specified range of cells. The [**Range**](https://reference.aspose.com/cells/javascript-cpp/range) object provides an [**outlineBorder**](https://reference.aspose.com/cells/javascript-cpp/range/#outlineBorder-bordertype-cellbordertype-cellscolor-) method that takes the following parameters to add a border to the range of cells:
 
 - **Border Type**, the border type, selected from the [**BorderType**](https://reference.aspose.com/cells/javascript-cpp/bordertype) enumeration.
 - **Line Style**, the border line style, selected from the [**CellBorderType**](https://reference.aspose.com/cells/javascript-cpp/cellbordertype) enumeration.

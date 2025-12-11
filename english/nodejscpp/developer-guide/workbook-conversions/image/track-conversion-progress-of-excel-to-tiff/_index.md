@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells for Node.js via C++ supports tracking document conversion process by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface provides [**pageStartSaving(PageStartSavingArgs)**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback/#pageStartSaving-pagestartsavingargs-) and [**pageEndSaving(PageEndSavingArgs)**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback/#pageEndSaving-pageendsavingargs-) methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the *TestPageSavingCallback* custom class.
+Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells for Node.js via C++ supports tracking the document conversion process by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface provides [**pageStartSaving(PageStartSavingArgs)**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback/#pageStartSaving-pagestartsavingargs-) and [**pageEndSaving(PageEndSavingArgs)**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback/#pageEndSaving-pageendsavingargs-) methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the *TestTiffPageSavingCallback* custom class.
 
 ## **Track Conversion Progress of Excel to TIFF**
 
-The following code sample loads the [source excel file](95584311.xlsx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface. The output file generated is attached for your reference.
+The following code sample loads the **source Excel file** ([95584311.xlsx](95584311.xlsx)) and prints its conversion progress in the console by using the *TestTiffPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/nodejs-cpp/ipagesavingcallback) interface. The output file generated is attached for your reference.
 
 [Output File](95584312.tiff)
 
@@ -37,7 +37,7 @@ const opts = new AsposeCells.ImageOrPrintOptions();
 
 // Define TestTiffPageSavingCallback
 class TestTiffPageSavingCallback {
-// Implement required methods for the callback here
+    // Implement required methods for the callback here
 }
 
 opts.setPageSavingCallback(new TestTiffPageSavingCallback());
@@ -53,23 +53,23 @@ The following is the code for the *TestTiffPageSavingCallback* custom class.
 const AsposeCells = require("aspose.cells.node");
 
 class TestTiffPageSavingCallback {
-pageStartSaving(args) {
-console.log(`Start saving page index ${args.pageIndex} of pages ${args.pageCount}`);
+    pageStartSaving(args) {
+        console.log(`Start saving page index ${args.pageIndex} of pages ${args.pageCount}`);
 
-// Don't output pages before page index 2.
-if (args.pageIndex < 2) {
-args.setIsToOutput(false);
-}
-}
+        // Don't output pages before page index 2.
+        if (args.pageIndex < 2) {
+            args.setIsToOutput(false);
+        }
+    }
 
-pageEndSaving(args) {
-console.log(`End saving page index ${args.pageIndex} of pages ${args.pageCount}`);
+    pageEndSaving(args) {
+        console.log(`End saving page index ${args.pageIndex} of pages ${args.pageCount}`);
 
-// Don't output pages after page index 8.
-if (args.pageIndex >= 8) {
-args.setHasMorePages(false);
-}
-}
+        // Don't output pages after page index 8.
+        if (args.pageIndex >= 8) {
+            args.setHasMorePages(false);
+        }
+    }
 }
 ```
 

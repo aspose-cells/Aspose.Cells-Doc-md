@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-In the Japanese** **Calendar, a new era begins with the reign of a new emperor. On 1st May 2019, a new emperor came into power with which the Heisei era ended and the Reiwa era began.  
+In the Japanese Calendar, a new era begins with the reign of a new emperor. On 1st May 2019, a new emperor came into power, ending the Heisei era and beginning the Reiwa era.  
 
 {{% /alert %}}  
 
@@ -36,5 +36,5 @@ options.setRegion(AsposeCells.CountryCode.Japan);
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "JapaneseDates.xlsx"), options);
 workbook.save(outputDir + "JapaneseDates.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

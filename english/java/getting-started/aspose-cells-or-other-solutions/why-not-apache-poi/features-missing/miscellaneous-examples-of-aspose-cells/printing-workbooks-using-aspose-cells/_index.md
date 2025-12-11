@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Printing Workbooks**
-After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your need. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection.
+After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your needs. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection.
 
 Printing Worksheet
 
@@ -20,7 +20,7 @@ Printing Worksheet
 
 Workbook book = new Workbook(dataDir + "AsposeDataInput.xls");
 
-//Create an object for ImageOptions
+//Create an ImageOptions object
 
 ImageOrPrintOptions  imgOptions = new ImageOrPrintOptions ();
 

@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Working with Fonts**
-Aspose.Cells provides a class, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) class. Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) class.
+Aspose.Cells provides a class, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) class. **The** Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) class.
 
 **Java**
 
@@ -43,6 +43,7 @@ font.setStrikeout(true);
 cell.setStyle(style);
 
 {{< /highlight >}}
+
 ## **Apache POI SS - HSSF XSSF - Working with Fonts**
 Apache POI SS provides Font class to set various Font settings.
 
@@ -62,7 +63,7 @@ font.setItalic(true);
 
 font.setStrikeout(true);
 
-// Fonts are set into a style so create a new one to use.
+// Fonts are set into a style, so create a new one to use.
 
 CellStyle style = wb.createCellStyle();
 
@@ -77,8 +78,10 @@ cell.setCellValue("This is a test of fonts");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
+
 ## **Download Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/fonts)
 

@@ -10,7 +10,7 @@ url: /javascript-cpp/get-icon-sets-data-bars-or-color-scales-objects-used-in-con
 
 {{% alert color="primary" %}}  
 
-Sometimes, you need to retrieve icon sets that are used in the conditional formatting of a cell or a range of cells and you want to create an image file based on it. You might require to read the data bars or color scales used in the conditional formatting. Aspose.Cells supports this feature.
+Sometimes, you need to retrieve icon sets that are used in the conditional formatting of a cell or a range of cells and you want to create an image file based on them. You might need to read the data bars or color scales used in the conditional formatting. Aspose.Cells supports this feature.
 
 {{% /alert %}}  
 

@@ -17,9 +17,9 @@ Sample file: [Sample.xlsx](Sample.xlsx)
 
 ## **Export Equations as LaTeX Expressions**
 
-To export equations in Excel as LaTeX expressions, use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method.
+To export equations in Excel as LaTeX expressions, use the [to_la_te_x()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method.
 
-The following sample code demonstrates how to use the [to_latex()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method and insert the generated results into HTML:
+The following sample code demonstrates how to use the [to_la_te_x()](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.equations/accentequationnode/to_la_te_x/) method and insert the generated results into HTML:
 
 ### Python Code
 
@@ -43,7 +43,7 @@ html_content = [
     "        MathJax.Hub.Config({",
     "            tex2jax: {",
     "                inlineMath: [['$','$'], ['\\\\(','\\\\)']],",
-    "                processEscapes: true",
+    "                processEscapes: true,",
     "            }",
     "        });",
     "    </script>",
@@ -52,7 +52,7 @@ html_content = [
 ]
 
 textboxes = workbook.worksheets[0].text_boxes
-text_box = textboxes[0] # Assuming first shape is TextBox
+text_box = textboxes[0]  # Assuming first shape is TextBox
 math_node = text_box.get_equation_paragraph().get_child(0)
 latex_expression = math_node.to_la_te_x()
 html_content.append(f"<p>${latex_expression}$</p>")
@@ -77,7 +77,7 @@ from aspose.cells import Workbook
 from typing import List
 
 dir_path = "testcase/data/"
-        
+
 workbook = Workbook(os.path.join(dir_path, "Sample_equation.xlsx"))
 
 html_builder = [

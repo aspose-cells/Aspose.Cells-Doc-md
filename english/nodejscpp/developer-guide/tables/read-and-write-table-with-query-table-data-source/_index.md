@@ -10,7 +10,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Read and Write Table with Query Table Data Source**
-With Aspose.Cells for Node.js via C++, you can read and write a table which has a QueryTable as a data source. The support for this feature also exists for XLS files. The following code snippet demonstrates reading and writing such a table by first reading the table and then modifying it to add the totals row.
+
+With Aspose.Cells for Node.js via C++, you can read and write a table that has a QueryTable as its data source. Support for this feature also exists for XLS files. The following code snippet demonstrates reading and writing such a table by first reading the table and then modifying it to add the totals row.
 
 ```javascript
 const path = require("path");
@@ -27,16 +28,16 @@ const worksheet = workbook.getWorksheets().get(0);
 
 const table = worksheet.getListObjects().get(0);
 
-// Check the data source type if it is query table
+// Check the data source type to see if it is a query table
 if (table.getDataSourceType() === AsposeCells.TableDataSourceType.QueryTable) {
-table.setShowTotals(true);
+    table.setShowTotals(true);
 }
 
 // Save the file
 workbook.save(path.join(outputDir, "SampleTableWithQueryTable_out.xls"));
 ```
 
-The source and output excel files are attached for reference.
+The source and output Excel files are attached for reference.
 
 [Source File](96928091.xls)
 

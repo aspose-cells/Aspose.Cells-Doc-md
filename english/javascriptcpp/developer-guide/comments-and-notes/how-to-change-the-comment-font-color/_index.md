@@ -1,16 +1,16 @@
 ---
-title: How to change the Comment Font Color with JavaScript via C++
-linktitle: How to change the Comment Font Color
+title: How to Change the Comment Font Color with JavaScript via C++
+linktitle: How to Change the Comment Font Color
 type: docs
 weight: 180
 url: /javascript-cpp/how-to-change-the-comment-font-color/
 ---
 
 {{% alert color="primary" %}}  
-Microsoft Excel allows users to add comments to cells to add additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction, Font Color, etc. Aspose.Cells for JavaScript via C++ provides APIs to accomplish the task.  
+Microsoft Excel allows users to add comments to cells to provide additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction, font color, etc. Aspose.Cells for JavaScript via C++ provides APIs to accomplish this task.  
 {{% /alert %}}  
 
-Aspose.Cells for JavaScript via C++ provides a [**Shape.textBody**](https://reference.aspose.com/cells/javascript-cpp/shape/#textBody--) property to set the font color of the comment. The following sample code demonstrates the use of [**Shape.textBody**](https://reference.aspose.com/cells/javascript-cpp/shape/#textBody--) property to set text direction for a comment.  
+Aspose.Cells for JavaScript via C++ provides a [**Shape.textBody**](https://reference.aspose.com/cells/javascript-cpp/shape/#textBody--) property to set the font color of a comment. The following sample code demonstrates the use of the **Shape.textBody** property to set the font color for a comment.  
 
 ```html
 <!DOCTYPE html>
@@ -67,8 +67,8 @@ Aspose.Cells for JavaScript via C++ provides a [**Shape.textBody**](https://refe
             // Set its vertical alignment setting            
             comment.commentShape.textVerticalAlignment = TextAlignmentType.Center;
 
-            // Set the Comment note
-            comment.note = "This is my Comment Text. This is Test.";
+            // Set the comment note
+            comment.note = "This is my comment text. This is a test.";
 
             const shape = worksheet.comments.get("A1").commentShape;
 

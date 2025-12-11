@@ -3,7 +3,7 @@ title: Get Cells Range
 type: docs
 weight: 600
 url: /javascript-cpp/get-cells-range/
-description: Learn how to Get Cells Range through the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to get cells range through the Aspose.Cells for JavaScript via C++ API.
 keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
 ---
 
@@ -18,9 +18,9 @@ When you only need to manipulate some data on the worksheet, you need to know th
 ## **Get Cells Range using Aspose.Cells for JavaScript via C++**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Get Cells [**Range**](https://reference.aspose.com/cells/javascript-cpp/range).
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Get cells **Range**.
 
 ```html
 <!DOCTYPE html>
@@ -56,7 +56,7 @@ This example shows how to:
             const workbook = new Workbook(FileFormatType.Xlsx);
             const cells = workbook.worksheets.get(0).cells;
 
-            // Setting the value to the cells
+            // Setting values to the cells
             let cell = cells.get("A1");
             cell.putValue("Fruit");
             cell = cells.get("B1");
@@ -99,16 +99,16 @@ This example shows how to:
             // Get max display range of worksheet
             var range = cells.maxDisplayRange;
 
-            //get maximum row index of cell which contains data or style.
+            // Get maximum row index of cells which contain data or style.
             var maxRow = cells.maxRow;
 
-            //get maximum row index of cell which contains data.
+            // Get maximum row index of cells which contain data.
             var maxDataRow = cells.maxDataRow;
 
-            //get maximum column index of cell which contains data or style.
+            // Get maximum column index of cells which contain data or style.
             var maxColumn = cells.maxColumn;
 
-            //get maximum column index of cell which contains data.
+            // Get maximum column index of cells which contain data.
             var maxDataColumn = cells.maxDataColumn;
 
             // Prepare result display

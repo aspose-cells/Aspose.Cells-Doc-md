@@ -11,14 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you create a chart from worksheet data that uses dates, and the dates are plotted along the horizontal (category) axis in the chart, Aspose.Cells automatically changes the category axis to a date (time-scale) axis.
-A date axis displays dates in chronological order at specific intervals or base units, such as the number of days, months, or years, even if the dates on the worksheet are not in sequential order or in the same base units.
-By default, Aspose.Cells determines the base units for the date axis based on the smallest difference between any two dates in the worksheet data.  For example, if you have data for stock prices where the smallest difference between dates is seven days, Aspose.Cells sets the base unit to days, but you can change the base unit to months or years if you want to see the performance of the stock over a longer period of time.
+When you create a chart from worksheet data that uses dates, and the dates are plotted along the horizontal (category) axis in the chart, Aspose.Cells automatically changes the category axis to a date (time‑scale) axis.  
+A date axis displays dates in chronological order at specific intervals or base units, such as the number of days, months, or years, even if the dates on the worksheet are not in sequential order or in the same base units.  
+By default, Aspose.Cells determines the base units for the date axis based on the smallest difference between any two dates in the worksheet data. For example, if you have data for stock prices where the smallest difference between dates is seven days, Aspose.Cells sets the base unit to days, but you can change the base unit to months or years if you want to see the performance of the stock over a longer period of time.
 
-## **Handle Date Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. 
-Then we add a chart and set the type of the [**Axis**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/) 
-to [**TimeScale**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/categorytype/) and then set the base units to Days.
+## **Handle Date Axis Like Microsoft Excel**
+Please see the following sample code, which creates a new Excel file and places the chart data in the first worksheet. Then we add a chart and set the type of the [**Axis**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/) to [**TimeScale**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/categorytype/) and then set the base units to Days.
 
 ![todo:image_alt_text](excel.png)
 
@@ -45,7 +43,7 @@ int main() {
     Style style = worksheet.GetCells().GetStyle();
     style.SetNumber(14);
 
-    // Put values to cells for creating chart
+    // Put values into the cells for creating the chart
     worksheet.GetCells().Get(u"A2").SetStyle(style);
     worksheet.GetCells().Get(u"A2").PutValue(Date{2022, 6, 26, 0, 0, 0, 0});
 
@@ -69,7 +67,7 @@ int main() {
     // Add SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
     chart.SetChartDataRange(u"A1:B4", true);
 
-    // Set the Axis type to Date time
+    // Set the Axis type to DateTime
     chart.GetCategoryAxis().SetCategoryType(CategoryType::TimeScale);
 
     // Set the base unit for CategoryAxis to days
@@ -78,7 +76,7 @@ int main() {
     // Set the direction for the axis text to be vertical
     chart.GetCategoryAxis().GetTickLabels().SetDirectionType(ChartTextDirectionType::Vertical);
 
-    // Fill the PlotArea area with nothing
+    // Fill the PlotArea with nothing
     chart.GetPlotArea().GetArea().GetFillFormat().SetFillType(FillType::None);
 
     // Set max value of Y axis

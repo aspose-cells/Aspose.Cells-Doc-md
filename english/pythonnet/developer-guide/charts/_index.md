@@ -21,13 +21,13 @@ It is possible to add a variety of charts to spreadsheets with Aspose.Cells for 
 ## **Creating Charts**
 
 ### **Simply Creating a Chart**
-It’s simple to create a chart with Aspose.Cells for Python via .NET with the following example codes:
+It’s simple to create a chart with Aspose.Cells for Python via .NET with the following example code:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ManipulateChart-HowToCreateColumnChart-1.py" >}}
 
 ### **Things to Know for Creating a Chart**
 
-Before creating charts it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells for Python via .NET.
+Before creating charts, it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells for Python via .NET.
 
 #### **Charting Objects**
 
@@ -64,22 +64,19 @@ Add any type of chart to a worksheet using the [**charts**](https://reference.as
 
 **Steps:**
 
-1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) object's [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value) method.
-   This will be used as the data source for the chart.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) object's [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value) method. This will be used as the data source for the chart.
 1. Add a chart to the worksheet by calling the [**charts**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartcollection) collection's [**add**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartcollection/add) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet) object.
-1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) enumeration.
-   For example, the example below uses the [**ChartType.PYRAMID**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype/) value as the chart type.
+1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) enumeration. For example, the example below uses the [**ChartType.PYRAMID**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype/) value as the chart type.
 1. Access the new [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) object from the [**charts**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartcollection) collection by passing its index.
-1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) object to manage the chart.
-   The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
+1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) object to manage the chart. The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
 
-When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
+When adding source data to **a** chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non‑contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
 These general steps allow you to create any type of chart. Use different charting objects to create different charts.
 
-It is possible to create many different types of charts with Aspose.Cells for Python via .NET. All standard charts supported by Aspose.Cells for Python via .NET are pre-defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype).
+It is possible to create many different types of charts with Aspose.Cells for Python via .NET. All standard charts supported by Aspose.Cells for Python via .NET are pre‑defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype).
 
-The pre-defined chart types are:
+The pre‑defined chart types are:
 
 |**Chart Types**|**Description**|
 | :- | :- |
@@ -166,21 +163,21 @@ When the example code is executed, a pyramid chart is added to the worksheet.
 
 #### **Line Chart**
 
-In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
+In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. **When** the code is executed, a line chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ManipulateChart-HowToCreateLineChart-1.py" >}}
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) and **a** few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 
-In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
+In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and **a** few extra properties such as background area, **Series Markers**, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateLineWithDataMarkerChart-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Read and Manipulate Excel 2016 Charts](/cells/python-net/read-and-manipulate-excel-2016-charts/)
 - [Manage Axes of Excel Charts](/cells/python-net/chart-axes/)
 - [Setting Chart Appearance](/cells/python-net/setting-chart-appearance/)

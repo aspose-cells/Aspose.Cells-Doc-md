@@ -1,21 +1,21 @@
----
-title: Saving File to Response Object with Python.NET
-linktitle: Saving File to Response Object
-type: docs
-weight: 50
-url: /python-net/saving-file-to-response-object/
-description: Learn how to save Excel files directly to HTTP response streams using Aspose.Cells for Python via .NET.
-ai_search_scope: cells_pythonnet
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Saving File to Response Object with Python.NET  
+linktitle: Saving File to Response Object  
+type: docs  
+weight: 50  
+url: /python-net/saving-file-to-response-object/  
+description: Learn how to save Excel files directly to HTTP response streams using Aspose.Cells for Python via .NET.  
+ai_search_scope: cells_pythonnet  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask" 
+---  
 
-{{% alert color="primary" %}}
-Aspose.Cells for Python via .NET enables dynamic file generation and direct delivery to client browsers. This article explains different approaches for saving files to response streams.
-{{% /alert %}}
+{{% alert color="primary" %}}  
+Aspose.Cells for Python via .NET enables dynamic file generation and direct delivery to client browsers. This article explains different approaches for saving files to response streams.  
+{{% /alert %}}  
 
-## **Saving File to Response Stream**
+## **Saving File to Response Stream**  
 
-### **XLS Files**
+### **XLS Files**  
 ```python
 import os
 from aspose.cells import Workbook, XlsSaveOptions
@@ -39,12 +39,11 @@ if Response is not None:
     Response.set_header("Content-Disposition", "inline; filename=\"output.xls\"")
     Response.set_content_type("application/vnd.ms-excel")
     Response.end()
-```
+```  
 
-**Python.NET Equivalent:**
+**Python.NET Equivalent:**  
 
-
-### **XLSX Files**
+### **XLSX Files**  
 ```python
 import os
 from aspose.cells import Workbook, OoxmlSaveOptions
@@ -59,7 +58,7 @@ Response = None
 workbook = Workbook()
 
 if Response is not None:
-    # Save in Xlsx format
+    # Save in XLSX format
     save_options = OoxmlSaveOptions()
     buffer = io.BytesIO()
     workbook.save(buffer, save_options)
@@ -68,15 +67,15 @@ if Response is not None:
     Response.set_header('Content-Disposition', 'attachment; filename="output.xlsx"')
     Response.write(buffer.getvalue())
     Response.end()
-```
+```  
 
-**Python.NET Equivalent:**
+**Python.NET Equivalent:**  
 ```python
-# Using same approach as XLS example with different format
+# Using the same approach as the XLS example with a different format
 workbook.save(stream, SaveFormat.XLSX, ContentDisposition.INLINE, "report.xlsx")
-```
+```  
 
-### **PDF Files**
+### **PDF Files**  
 ```python
 import os
 from aspose.cells import Workbook, PdfSaveOptions
@@ -91,21 +90,21 @@ Response = None
 workbook = Workbook()
 
 if Response is not None:
-    # Save in Pdf format
+    # Save in PDF format
     save_options = PdfSaveOptions()
     workbook.save(Response, os.path.join(data_dir, "output.pdf"), content_disposition="attachment")
     Response.end()
-```
+```  
 
-**Python.NET Equivalent:**
+**Python.NET Equivalent:**  
 ```python
 from Aspose.Cells import PdfSaveOptions
 
 options = PdfSaveOptions()
 workbook.save(stream, options, ContentDisposition.ATTACHMENT, "output.pdf")
-```
+```  
 
-## **Stream Handling in Python.NET**
+## **Stream Handling in Python.NET**  
 ```python
 import os
 from io import BytesIO
@@ -137,9 +136,9 @@ async def download_excel():
         media_type=content_type,
         headers=headers
     )
-```
+```  
 
-**Python.NET Implementation:**
+**Python.NET Implementation:**  
 ```python
 def save_to_response(workbook, filename, format):
     stream = MemoryStream()
@@ -156,11 +155,11 @@ def save_to_response(workbook, filename, format):
 # Usage example:
 # output = save_to_response(workbook, "report", "xlsx")
 # HttpResponse(output, content_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
-```
+```  
 
-**Important Notes:**
-1. Use `MemoryStream` for in-memory file generation
-2. Always reset stream position with `seek(0)` before reading
-3. Set appropriate MIME types in response headers
-4. For web frameworks like Django/Flask, use framework-specific response handlers
+**Important Notes:**  
+1. Use `MemoryStream` for in‑memory file generation.  
+2. Always reset the stream position with `seek(0)` before reading.  
+3. Set appropriate MIME types in response headers.  
+4. For web frameworks like Django/Flask, use framework‑specific response handlers.  
 {{< app/cells/assistant language="python-net" >}}

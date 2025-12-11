@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Microsoft Excel allows users to define named ranges with two different scopes: workbook (also known as global scope) and worksheet.
 
 - Named ranges with a workbook scope can be accessed from any worksheet within that workbook by simply using its name.
-- Worksheet scoped named ranges are accessed with the reference of the particular worksheet in which it was created.
+- Worksheet‑scoped named ranges are accessed using the reference of the particular worksheet in which they were created.
 
-Aspose.Cells provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet scoped named range.
+Aspose.Cells provides the same functionality as Microsoft Excel for adding workbook‑ and worksheet‑scoped named ranges. When creating a worksheet‑scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet‑scoped named range.
 
 {{% /alert %}}
 
-The following code samples show how to create workbook and worksheet scoped name ranges by using the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) class.
+The following code samples show how to create workbook and worksheet‑scoped named ranges by using the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) class.
 
 ## **Adding a Named Range with Workbook Scope**
 
@@ -26,5 +26,5 @@ The following code samples show how to create workbook and worksheet scoped name
 
 ## **Adding a Named Range with Worksheet Scope**
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorksheetScope.java" >}}
 {{< app/cells/assistant language="java" >}}

@@ -39,7 +39,7 @@ This shows the Performance section as it is by default.
 
 {{< /highlight >}}
 ### **Performance Parameters**
-- LimitCellsNumberForMerged – The default value of the parameter is 1000000. The parameter value is set by the client and is not effected by the performance parameter's switch. Please refer to the following configuration. 
+- LimitCellsNumberForMerged – The default value of the parameter is 1000000. The parameter value is set by the client and is not affected by the performance parameter's switch. Please refer to the following configuration. 
 
 **XML**
 
@@ -54,7 +54,7 @@ This shows the Performance section as it is by default.
 - IsAutoRowFit – Can be either true or false: 
   - When the Performance parameter is set to ‘off’, the default value is false.
   - When the Performance parameter is set to ‘on’, the default value is true.
-  - When the Performance parameter is set to ‘on’, a sub-element report can re-set the report’s AutoRowFile paramter.
+  - When the Performance parameter is set to ‘on’, a sub‑element report can re‑set the report’s AutoRowFit parameter.  
     Please refer to the following configuration. 
 
 **XML**
@@ -63,17 +63,17 @@ This shows the Performance section as it is by default.
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
-    	<Report name="Test">
+        <Report name="Test">
 
-      	<AutoRowFit value="False"/>
+          <AutoRowFit value="False"/>
 
-      	<SetStyle value="True"/>
+          <SetStyle value="True"/>
 
-      	<Merged value="True"/>
+          <Merged value="True"/>
 
-      	<ConditionalFormatting value="True"/>
+          <ConditionalFormatting value="True"/>
 
-      	</Report>
+          </Report>
 
 </Performance>
 
@@ -84,7 +84,7 @@ This shows the Performance section as it is by default.
 - IsMerged – Can be either true or false: 
   - When the Performance parameter is set to ‘off’, the default value is false.
   - When the Performance parameter is set to ‘on’, the default value is true.
-  - When the Performance parameter is set to ‘on’, a sub-element report can re-set the report’s AutoRowFile paramter.
+  - When the Performance parameter is set to ‘on’, a sub‑element report can re‑set the report’s AutoRowFit parameter.  
     Please refer to the following configuration. 
 
 **XML**
@@ -114,7 +114,7 @@ This shows the Performance section as it is by default.
 - IsSetStyle – Can be either true or false: 
   - When the Performance parameter is set to ‘off’, the default value is false.
   - When the Performance parameter is set to ‘on’, the default value is true.
-  - When the Performance parameter is set to ‘on’, a sub-element report can re-set the report’s AutoRowFile paramter.
+  - When the Performance parameter is set to ‘on’, a sub‑element report can re‑set the report’s AutoRowFit parameter.  
     Please refer to the following configuration. 
 
 **XML**
@@ -144,8 +144,8 @@ This shows the Performance section as it is by default.
 - IsConditionalFormatting – Can be either true or false: 
   - When the Performance parameter is set to ‘off’, the default value is false.
   - When the Performance parameter is set to ‘on’, the default value is true.
-  - When the Performance parameter is set to ‘on’, sub-element report can re-set point report’s AutoRowFile paramter.
-  - When the IsSetStyle parameter is set to false, the value of the Performance parameter is invalid.
+  - When the Performance parameter is set to ‘on’, a sub‑element report can re‑set the report’s AutoRowFit parameter.
+  - When the IsSetStyle parameter is set to false, the Performance parameter value is invalid.  
     Please refer to the following configuration. 
 
 **XML**

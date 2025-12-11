@@ -45,7 +45,7 @@ To connect to a database, you can use the connection string relevant to your dat
             console.log("Aspose.Cells initialized");
         });
 
-        // Simulated createConnection for browser environment
+        // Simulated createConnection for a browser environment
         // (JavaScript `require('node-sqlite')` cannot be used in browser)
         function createConnection(databasePath) {
             return {
@@ -73,7 +73,7 @@ To connect to a database, you can use the connection string relevant to your dat
             //
             // db.connect(err => { ... });
             //
-            // to browser-compatible simulation:
+            // to a browser‑compatible simulation:
 
             const db = createConnection(dbPathInput);
 

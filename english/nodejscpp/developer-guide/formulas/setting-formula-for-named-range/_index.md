@@ -51,7 +51,7 @@ book.save(path.join(dataDir, "output_out.xlsx"));
 ```
 
 ### **Setting a Complex Formula for Named Range**
-A complex formula could be anything such as a dynamic range or a formula spanning over multiple cells in different worksheets. The following example creates a dynamic range using the INDEX function to get the value from a list based on its location.
+A complex formula could be anything, such as a dynamic range or a formula spanning over multiple cells in different worksheets. The following example creates a dynamic range using the INDEX function to get the value from a list based on its location.
 
 ```javascript
 const path = require("path");
@@ -60,6 +60,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
+
 // Loads the workbook which contains hidden external links
 const book = new AsposeCells.Workbook();
 
@@ -73,7 +74,7 @@ worksheets.getNames().add("data");
 // Access the newly created Named Range from the collection
 const data = worksheets.getNames().get(index);
 
-// Set RefersTo property of the Named Range to a cell range in same worksheet
+// Set RefersTo property of the Named Range to a cell range in the same worksheet
 data.setRefersTo("=Sheet1!$A$1:$A$10");
 
 // Add another Named Range with name "range"
@@ -90,7 +91,7 @@ range.setRefersTo("=INDEX(data,Sheet1!$A$1,1):INDEX(data,Sheet1!$A$1,9)");
 book.save(path.join(dataDir, "output_out.xlsx"));
 ```
 
-Here is another example that uses a named range to sum values from 2 cells in different worksheets.
+Here is another example that uses a named range to sum values from two cells in different worksheets.
 
 ```javascript
 const path = require("path");
@@ -120,7 +121,7 @@ const range = worksheets.getNames().get(index);
 // Set RefersTo property of the Named Range to a SUM function
 range.setRefersTo("=SUM(Sheet1!$A$1,Sheet2!$A$1)");
 
-// Insert the Named Range as formula to 3rd worksheet
+// Insert the Named Range as a formula to the 3rd worksheet
 worksheets.get(worksheets.add()).getCells().get("A1").setFormula("range");
 
 // Calculate formulas

@@ -4,19 +4,17 @@ linktitle: Sparklines
 type: docs
 weight: 160
 url: /javascript-cpp/creating-sparklines/
-description: Create sparkline for Excel using Aspose.Cells for JavaScript via C++.
+description: Create a sparkline for Excel using Aspose.Cells for JavaScript via C++.
 ---
 
 ## **Insert a sparkline**
 {{% alert color="primary" %}} 
 
-Sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of Sparkline: Line, Column and Stacked.
+Sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of sparklines: Line, Column, and Stacked.
 
 {{% /alert %}} 
 
-It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ with the following example codes:
-
-
+It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ using the following example code:
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +56,7 @@ It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ wit
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from uploaded file
+            // Instantiate a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
             // Accessing the first worksheet in the Excel file
@@ -79,12 +77,12 @@ It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ wit
             const group = sheet.sparklineGroups.get(idx);
             group.sparklines.add(`${sheet.name}!A1:D1`, 0, 4);
             
-            // Customize Sparklines
+            // Customize sparklines
             const clr = workbook.createCellsColor();
             clr.color = Color.Orange;
             group.seriesColor = clr;
             
-            // Set the high points are colored green and the low points are colored red
+            // Set the high points to be colored green and the low points to be colored red
             group.showHighPoint = true;
             group.showLowPoint = true;
             group.highPointColor.color = Color.Green;
@@ -92,7 +90,7 @@ It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ wit
             // Set line weight 
             group.lineWeight = 1.0;
             
-            // Saving the Excel file and providing download link
+            // Save the Excel file and provide a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -107,5 +105,5 @@ It’s simple to create a sparkline with Aspose.Cells for JavaScript via C++ wit
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Using Sparklines and Settings 3D Format](/cells/javascript-cpp/using-sparklines-and-settings-3d-format/)

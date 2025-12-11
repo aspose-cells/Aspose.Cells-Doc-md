@@ -1,6 +1,6 @@
 ---
-title: Expanding text from right to left while exporting Excel file to HTML with C++
-linktitle: Expanding text from right to left while exporting Excel file to HTML
+title: Expanding text from right to left while exporting Excel files to HTML with C++
+linktitle: Expanding text from right to left while exporting Excel files to HTML
 type: docs
 weight: 60
 url: /cpp/expanding-text-from-right-to-left-while-exporting-excel-file-to/
@@ -15,7 +15,7 @@ Aspose.Cells for C++ now supports expanding text from right to left while export
 
 {{% /alert %}} 
 
-## **Expanding text from right to left while exporting Excel file to HTML**
+## **Expanding text from right to left while exporting Excel files to HTML**
 
 The following sample code converts the [sample Excel file](5115502.xlsx) into HTML. This screenshot shows how the sample Excel file looks in Microsoft Excel 2013.
 
@@ -29,7 +29,7 @@ This screenshot shows the [output HTML generated with the newer version](5115508
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-As you can see in the screenshots, the newer version expands the right-aligned text to the left correctly, just like Microsoft Excel.
+As you can see in the screenshots, the newer version expands the right‑aligned text to the left correctly, just like Microsoft Excel.
 
 ```c++
 #include <iostream>
@@ -43,10 +43,10 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Load source excel file inside the workbook object
+    // Load source Excel file into the workbook object
     Workbook wb(srcDir + u"sample.xlsx");
 
-    // Save workbook in html format
+    // Save workbook in HTML format
     U16String outputPath = srcDir + u"ExpandTextFromRightToLeft_out_" + CellsHelper::GetVersion() + u".html";
     wb.Save(outputPath, SaveFormat::Html);
 

@@ -1,27 +1,27 @@
 ---
-title: Measure the Width and Height of the Cell Value in Unit of Pixels
+title: Measure the Width and Height of the Cell Value in Units of Pixels
 linktitle: Measure the Size
 type: docs
 weight: 260
 url: /net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
-description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for .NET API.
-keywords: Measure the Width of the Cell Value in Unit of Pixels, Measure the Height of the Cell Value in Unit of Pixels, Get the Width of the Cell Value in Unit of Pixels, Get the Height of the Cell Value in Unit of Pixels
+description: Learn how to measure the width and height of the cell value in units of pixels using the Aspose.Cells for .NET API.
+keywords: Measure the Width of the Cell Value in Units of Pixels, Measure the Height of the Cell Value in Units of Pixels, Get the Width of the Cell Value in Units of Pixels, Get the Height of the Cell Value in Units of Pixels
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Sometimes you need to calculate the width and height of cell value to fit the cell value inside the cell. Aspose.Cells provides [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) methods for this purpose. By using these methods you can calculate width and height of the cell value and then set the width of the column and height of the row of that cell respectively and this will then adjust or fit the cell value inside the cell.
+Sometimes you need to calculate the width and height of a cell value to fit the value inside the cell. Aspose.Cells provides [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) methods for this purpose. By using these methods, you can calculate the width and height of the cell value, then set the column width and row height of that cell respectively, which will adjust the cell to fit the value.
 
-Alternatively, you can also [autofit rows and columns of your cell or range of cells](/cells/net/autofit-rows-and-columns/) using Aspose.Cells APIs.
+Alternatively, you can also [autofit rows and columns of your cells or a range of cells](/cells/net/autofit-rows-and-columns/) using Aspose.Cells APIs.
 
 {{% /alert %}}
 
-The following code explains the use of [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) methods.
+The following code demonstrates the use of [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) methods.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-CalculateWidthAndHeight-CalculateWidthAndHeightOfCellValueInUnitOfPixel.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Get Text Width of Cell Value](/cells/net/get-text-width-of-cell-value/)
 {{< app/cells/assistant language="csharp" >}}

@@ -13,7 +13,7 @@ You can add custom labels to data points in the series of the chart. Aspose.Cell
 
 {{% /alert %}} 
 ## **Adding Custom Labels to Data Points in the Series of the Chart**
-The following code creates Scatter Chart Connected By Lines With Data Markers and then adds Custom Labels to the Data Points in the Series of the Chart. Each custom label shows Series Name and Point Name. You can use any other text instead of it. After the execution of the code, the following Excel file is created. As you can see inside the Chart, each DataPoint has Custom Label set.
+The following code creates a scatter chart connected by lines with data markers and then adds custom labels to the data points in the series of the chart. Each custom label shows the series name and point name. You can use any other text instead of it. After executing the code, the following Excel file is created. As you can see in the chart, each data point has a custom label set.
 
 ![todo:image_alt_text](adding-custom-labels-to-data-points-in-the-series-of-the-chart_1.png)
 

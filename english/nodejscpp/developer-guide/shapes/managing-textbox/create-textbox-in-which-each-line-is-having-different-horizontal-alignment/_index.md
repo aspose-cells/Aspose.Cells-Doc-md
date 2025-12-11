@@ -1,19 +1,19 @@
----
-title: Create TextBox in which each line has a different Horizontal Alignment with Node.js via C++
-linktitle: Create TextBox in which each line is having different Horizontal Alignment
-type: docs
-weight: 310
-url: /nodejs-cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
-description: Learn how to create a TextBox in which each line can have a different horizontal alignment using Aspose.Cells for Node.js via C++.
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Create TextBox in which each line has a different Horizontal Alignment with Node.js via C++  
+linktitle: Create TextBox in which each line has a different Horizontal Alignment  
+type: docs  
+weight: 310  
+url: /nodejs-cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/  
+description: Learn how to create a TextBox in which each line can have a different horizontal alignment using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-{{% alert color="primary" %}}
-You can set the horizontal alignment of your paragraph text using the [**TextParagraph.getAlignmentType()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getAlignmentType--) property.
-{{% /alert %}}
+{{% alert color="primary" %}}  
+You can set the horizontal alignment of your paragraph text using the [**TextParagraph.getAlignmentType()**](https://reference.aspose.com/cells/nodejs-cpp/textparagraph/#getAlignmentType--) property.  
+{{% /alert %}}  
 
-The following sample code creates three lines and sets the horizontal alignment of each of them.
+The following sample code creates three lines and sets the horizontal alignment of each of them.  
 
 ```javascript
 const path = require("path");
@@ -35,19 +35,19 @@ ws.getShapes().addTextBox(2, 0, 2, 0, 80, 400);
 const shape = ws.getShapes().get(0);
 shape.setText("Sign up for your free phone number.\nCall and text online for free.\nCall your friends and family.");
 
-// Access the first paragraph and set its horizontal alignment to left.
+// Access the first paragraph and set its horizontal alignment to the left.
 let p = shape.getTextBody().getTextParagraphs().get(0);
 p.setAlignmentType(AsposeCells.TextAlignmentType.Left);
 
-// Access the second paragraph and set its horizontal alignment to center.
+// Access the second paragraph and set its horizontal alignment to the center.
 p = shape.getTextBody().getTextParagraphs().get(1);
 p.setAlignmentType(AsposeCells.TextAlignmentType.Center);
 
-// Access the third paragraph and set its horizontal alignment to right.
+// Access the third paragraph and set its horizontal alignment to the right.
 p = shape.getTextBody().getTextParagraphs().get(2);
 p.setAlignmentType(AsposeCells.TextAlignmentType.Right);
 
 // Save the workbook in xlsx format.
 wb.save(path.join(dataDir, "output_out.xlsx"), AsposeCells.SaveFormat.Xlsx);
-```
+```  
 {{< app/cells/assistant language="nodejs-cpp" >}}

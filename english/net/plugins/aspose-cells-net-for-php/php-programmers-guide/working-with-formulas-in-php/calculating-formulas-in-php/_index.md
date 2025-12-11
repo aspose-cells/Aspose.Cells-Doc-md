@@ -68,6 +68,6 @@ Calculating Formulas
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Calculating Formulas (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Calculating Formulas (Aspose.Cells)** from any of the below-mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

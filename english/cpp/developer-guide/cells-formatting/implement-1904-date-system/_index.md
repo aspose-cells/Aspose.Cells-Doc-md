@@ -16,11 +16,11 @@ Microsoft Excel supports two date systems: 1900 date system (the default date sy
 
 {{% /alert %}}
 
-To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 2003):
+To implement the 1904 date system in Microsoft Excel (for example, Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**, and select the **Calculation** tab.
-1. Select the **1904 date system** option.
-1. Click **OK**.
+2. Select the **1904 date system** option.
+3. Click **OK**.
 
 |**Selecting 1904 date system in Microsoft Excel**|
 | :- |

@@ -11,7 +11,7 @@ Aspose.Cells supports converting XLS files (that contain images, charts, etc.) t
 {{% /alert %}}  
 
 ## **Save Each Worksheet to a Different PDF File**  
-If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to set one sheet index to [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/javascript-cpp/pdfs%20saveoptions/#sheetSet) option at a time to render to PDF.  
+If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You can set a single sheet index in the [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/javascript-cpp/pdfs%20saveoptions/#sheetSet) option at a time to render to PDF.  
 
 ```html
 <!DOCTYPE html>
@@ -107,5 +107,5 @@ If you need to save each worksheet in your template Excel file to generate diffe
 ```  
 
 {{% alert color="primary" %}}  
-If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.  
+If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF. Doing so will ensure that the formula‑dependent values are recalculated and the correct values are rendered in the PDF.  
 {{% /alert %}}

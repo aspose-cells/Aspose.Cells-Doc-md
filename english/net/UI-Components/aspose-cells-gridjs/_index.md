@@ -9,16 +9,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 
 
-
-
 - [Basics of GridJs](/cells/net/aspose-cells-gridjs/basics/)
-- [Step By Step Example](/cells/net/aspose-cells-gridjs/step-by-step-example/)
-- [Working with GridJs Server Side](/cells/net/aspose-cells-gridjs/how-to-use-api/)
-- [Working with GridJs Client Side Script](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
+- [Step-by-Step Example](/cells/net/aspose-cells-gridjs/step-by-step-example/)
+- [Working with GridJs Server-Side](/cells/net/aspose-cells-gridjs/how-to-use-api/)
+- [Working with GridJs Client-Side Script](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
 - [Working with GridJs Highlight Feature](/cells/net/aspose-cells-gridjs/how-to-use-highlight-api/)
 - [Working with GridJs Storage](/cells/net/aspose-cells-gridjs/storage/)
 - [Working with Custom Calculation Engine](/cells/net/aspose-cells-gridjs/how-to-use-custom-calculation-engine/)
-- [Working with GridJs in Mobile](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/)
+- [Working with GridJs on Mobile](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-in-mobile/)
 - [Run GridJs in Docker](/cells/net/aspose-cells-gridjs/how-to-build-online-excel-editor/)
 - [Settings for GridJs](/cells/net/aspose-cells-gridjs/settings/)
 - [Syntax Checking & Spell Correction](/cells/net/aspose-cells-gridjs/how-to-do-syntax-checking/)

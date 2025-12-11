@@ -6,26 +6,26 @@ linktitle: Axes
 type: docs  
 weight: 50  
 url: /nodejs-cpp/chart-axes/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
 
-In Excel charts, there are 3 kinds of Axes:  
-1. Horizontal(Category) Axis : X Axis  
-1. Vertical(Value) Axis : Y Axis  
-1. Depth(Series) Axis : Z Axis  
+In Excel charts, there are 3 kinds of axes:  
+1. Horizontal (Category) Axis: X Axis  
+2. Vertical (Value) Axis: Y Axis  
+3. Depth (Series) Axis: Z Axis  
 
 {{% /alert %}}  
 
 ## **Axis Options**  
-Aspose.Cells for Node.js via C++ also allows you to manage chart's axes at runtime. With the [Axis](https://reference.aspose.com/cells/nodejs-cpp/axis/) object, you can change all options of Axis as done in Excel.  
+Aspose.Cells for Node.js via C++ also allows you to manage chart axes at runtime. With the [Axis](https://reference.aspose.com/cells/nodejs-cpp/axis/) object, you can change all options of an axis as done in Excel.  
 
 |![todo:image_alt_text](chart_axes.png)|  
 
 ## **Manage X and Y Axes**  
-In Excel chart, horizontal and vertical axes are the two most popular axes to use.  
+In an Excel chart, horizontal and vertical axes are the two most popular axes to use.  
 
 The following code snippet demonstrates how to set the options of X and Y axes.  
 
@@ -61,13 +61,13 @@ const chartIndex = worksheet.getCharts().add(AsposeCells.ChartType.Column, 5, 0,
 
 // Accessing the instance of the newly added chart
 const chart = worksheet.getCharts().get(chartIndex);
-// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
+// Adding SeriesCollection (chart data source) to the chart with a range from cell A1 to B4
 chart.setChartDataRange("A1:B4", true);
 
 // Hiding X axis
 chart.getCategoryAxis().setIsVisible(false);
 
-// Setting max value of Y axis
+// Setting maximum value of Y axis
 chart.getValueAxis().setMaxValue(200);
 // Setting major unit
 chart.getValueAxis().setMajorUnit(50);
@@ -76,11 +76,11 @@ chart.getValueAxis().setMajorUnit(50);
 workbook.save(filePath);
 ```  
 
-## **Advance topics**  
+## **Advanced Topics**  
 - [Change Tick Label Direction](/cells/nodejs-cpp/change-tick-label-direction/)  
-- [Determine which Axis exists in the Chart](/cells/nodejs-cpp/determine-which-axis-exists-in-the-chart/)  
-- [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/nodejs-cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)  
-- [Read Axis Labels after Calculating the Chart](/cells/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
-- [How to Set Category Axis in Excel Chart](/cells/nodejs-cpp/how-to-set-category-axis/)  
-  
+- [Determine which axis exists in the chart](/cells/nodejs-cpp/determine-which-axis-exists-in-the-chart/)  
+- [Handle automatic units of chart axis like Microsoft Excel](/cells/nodejs-cpp/handle-automatic-units-of-chart-axis-like-microsoft-excel/)  
+- [Read axis labels after calculating the chart](/cells/nodejs-cpp/read-axis-labels-after-calculating-the-chart/)  
+- [How to set category axis in Excel chart](/cells/nodejs-cpp/how-to-set-category-axis/)  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

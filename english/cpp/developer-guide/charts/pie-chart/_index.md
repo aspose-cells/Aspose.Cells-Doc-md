@@ -1,5 +1,5 @@
 ---
-title: Creating Pie Chart with Leader Lines with C++
+title: Creating a Pie Chart with Leader Lines using C++
 linktitle: Pie Chart
 description: Learn how to use Aspose.Cells for C++ to create a pie chart with leader lines in Microsoft Excel. Our guide will demonstrate how to add leader lines that connect data points to the legend and enhance the overall clarity of your chart.
 keywords: Aspose.Cells for C++, Pie Chart, Leader Lines, Microsoft Excel, Data Visualization, Chart Customization.
@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for C++ API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.GetHasLeaderLines()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/gethasleaderlines/) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for C++ API. In Excel, the 'Show leader lines' option is set by default, so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.GetHasLeaderLines()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/gethasleaderlines/) property.
 
 {{% /alert %}}
 
@@ -113,9 +113,9 @@ int main()
 }
 ```
 
-So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note, to show the leader lines, we have to move the data labels a little.
+So far we have created a pie chart and set its different aspects. Now we are going to turn on the leader lines for the chart. Please note that to show the leader lines, we have to move the data labels a little.
 
-The following piece of code turns on the leader lines, refresh the chart, and then calculates the data labels' positions to move them accordingly.
+The following piece of code turns on the leader lines, refreshes the chart, and then calculates the data labels' positions to move them accordingly.
 
 ```cpp
 #include <iostream>
@@ -164,7 +164,7 @@ int main()
     worksheet.GetCells().Get(u"B11").PutValue(3.6);
     worksheet.GetCells().Get(u"B12").PutValue(2.8);
     worksheet.GetCells().Get(u"B13").PutValue(7.8);
-    worksheet.GetCells().Get(u"B14").PutValue(2.4);
+    worksheet GetCells().Get(u"B14").PutValue(2.4);
     worksheet.GetCells().Get(u"B15").PutValue(1.8);
     worksheet.GetCells().Get(u"B16").PutValue(10.1);
 
@@ -251,7 +251,7 @@ int main()
     worksheet.GetCells().Get(u"A6").PutValue(u"Other Products");
     worksheet.GetCells().Get(u"A7").PutValue(u"Wholesale");
     worksheet.GetCells().Get(u"A8").PutValue(u"Land Transport");
-    worksheet.GetCells().Get(u"A9").PutValue(u"Air Transport");
+    worksheet GetCells().Get(u"A9").PutValue(u"Air Transport");
     worksheet.GetCells().Get(u"A10").PutValue(u"Electric Appliances");
     worksheet.GetCells().Get(u"A11").PutValue(u"Securities");
     worksheet.GetCells().Get(u"A12").PutValue(u"Textiles & Apparel");
@@ -265,17 +265,17 @@ int main()
     worksheet.GetCells().Get(u"B3").PutValue(6.4);
     worksheet.GetCells().Get(u"B4").PutValue(10.4);
     worksheet.GetCells().Get(u"B5").PutValue(7.9);
-    worksheet.GetCells().Get(u"B6").PutValue(4.1);
+    worksheet GetCells().Get(u"B6").PutValue(4.1);
     worksheet.GetCells().Get(u"B7").PutValue(3.5);
     worksheet.GetCells().Get(u"B8").PutValue(5.7);
     worksheet.GetCells().Get(u"B9").PutValue(3);
-    worksheet.GetCells().Get(u"B10").PutValue(14.7);
+    worksheet GetCells().Get(u"B10").PutValue(14.7);
     worksheet.GetCells().Get(u"B11").PutValue(3.6);
-    worksheet.GetCells().Get(u"B12").PutValue(2.8);
+    worksheet GetCells().Get(u"B12").PutValue(2.8);
     worksheet.GetCells().Get(u"B13").PutValue(7.8);
-    worksheet.GetCells().Get(u"B14").PutValue(2.4);
+    worksheet GetCells().Get(u"B14").PutValue(2.4);
     worksheet.GetCells().Get(u"B15").PutValue(1.8);
-    worksheet.GetCells().Get(u"B16").PutValue(10.1);
+    worksheet GetCells().Get(u"B16").PutValue(10.1);
 
     // Create a pie chart and add it to the collection of charts
     int id = worksheet.GetCharts().Add(ChartType::Pie, 3, 3, 23, 13);
@@ -331,7 +331,7 @@ int main()
 | :- |
 |![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png)|
 
-## **Advance topics**
+## **Advanced topics**
 - [Custom Slice or Sector Colors in Pie Chart](/cells/cpp/custom-slice-or-sector-colors-in-pie-chart/)
 - [Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart](/cells/cpp/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 

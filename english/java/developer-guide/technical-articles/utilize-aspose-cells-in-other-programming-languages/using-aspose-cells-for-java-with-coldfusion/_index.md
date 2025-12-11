@@ -9,17 +9,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This article gives the basic information and code segment that ColdFusion developers need to use Aspose.Cells for Java in there ColdFusion application.
+This article gives the basic information and code segment that ColdFusion developers need to use Aspose.Cells for Java in **their** ColdFusion application.
 
-This article shows how to create a simple web page using ColdFusion and use Aspose.Cells for Java to generate a simple Excel File.
+This article shows how to create a simple web page using ColdFusion and use **Aspose.Cells** for Java to generate a simple Excel file.
 
 {{% /alert %}}
 
 ## **Aspose.Cells: The Real Product**
 
-With Aspose.Cells developers can export data, format spreadsheets in every detail and at every level, import images, import charts, create charts, manipulate charts, stream Microsoft Excel data, save in various formats including XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrated) and many more.
+With Aspose.Cells developers can export data, format spreadsheets in every detail and at every level, import images, import charts, create charts, manipulate charts, stream Microsoft Excel data, save in various formats including XLS, CSV, SpreadsheetML, Tab-Delimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrated) and many more.
 
-To find out more about the product information, features and for a programmer's guide, refer to the Aspose.Cells documentation and online featured [demos](https://github.com/aspose-cells/Aspose.Cells-for-Java). You can [download](https://downloads.aspose.com/cells/java) and evaluate it for free.
+To find out more about the product information, features and a programmer's guide, refer to the Aspose.Cells documentation and online **demos**. You can [download](https://downloads.aspose.com/cells/java) and evaluate it for free.
 
 ### **Prerequisites**
 
@@ -80,4 +80,3 @@ Aspose.Cells offers great flexibility and provides outstanding speed, efficiency
 We welcome queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}
-{{< app/cells/assistant language="java" >}}

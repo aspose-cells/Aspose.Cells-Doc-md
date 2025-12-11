@@ -19,7 +19,7 @@ Aspose.Cells for Python via .NET provides you with the ability to change the cha
 - ROTATE270
 - STACKED
 
-The following image compares the source and output files
+The following **images** compare the source and output files
 
 ### **Source file image**
 

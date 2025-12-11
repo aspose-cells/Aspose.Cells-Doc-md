@@ -25,7 +25,7 @@ To apply some formatting to a large range of cells in a worksheet:
 
 {{% alert color="primary" %}}
 
-Because the [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) approach uses a lot less memory, and is efficient, the older Cell.Style property which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.
+Because the Cell.GetStyle/Cell.SetStyle approach uses far less memory and is more efficient, the older Cell.Style property, which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.
 
 {{% /alert %}}
 {{< app/cells/assistant language="csharp" >}}

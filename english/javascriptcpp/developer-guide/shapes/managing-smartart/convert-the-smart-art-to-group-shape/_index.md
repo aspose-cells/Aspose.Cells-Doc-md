@@ -8,11 +8,11 @@ url: /javascript-cpp/convert-the-smart-art-to-group-shape/
 
 ## **Possible Usage Scenarios**
 
-You can convert Smart Art Shape into Group Shape using the [**Shape.resultOfSmartArt**](https://reference.aspose.com/cells/javascript-cpp/shape/#resultOfSmartArt--) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
+You can convert a Smart Art shape into a Group shape using the [**Shape.resultOfSmartArt**](https://reference.aspose.com/cells/javascript-cpp/shape/#resultOfSmartArt--) method. It will enable you to handle the Smart Art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
 
 ## **Convert the Smart Art to Group Shape**
 
-The following sample code loads the [sample Excel file](55541793.xlsx) containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the Shape.isGroup property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541793.xlsx) containing a Smart Art shape as shown in this screenshot. It then converts the Smart Art shape into a Group shape and prints the `Shape.isGroup` property. Please see the console output of the sample code given below.
 
 ![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
@@ -22,10 +22,10 @@ The following sample code loads the [sample Excel file](55541793.xlsx) containin
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Aspose.Cells Example - Get Result Of SmartArt</title>
+        <title>Aspose.Cells Example - Get Result of SmartArt</title>
     </head>
     <body>
-        <h1>Get Result Of SmartArt Example</h1>
+        <h1>Get Result of SmartArt Example</h1>
         <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
         <button id="runExample">Run Example</button>
         <a id="downloadLink" style="display: none;">Download Result</a>
@@ -67,13 +67,13 @@ The following sample code loads the [sample Excel file](55541793.xlsx) containin
             // Accessing the first shape
             const shape = worksheet.shapes.get(0);
 
-            // Determine if shape is smart art (property access, not method)
+            // Determine if shape is Smart Art (property access, not method)
             const isSmartArt = shape.isSmartArt;
 
-            // Determine if shape is group shape (property access)
+            // Determine if shape is a group shape (property access)
             const isGroup = shape.isGroup;
 
-            // Convert smart art shape into group shape result and check if group (getResultOfSmartArt -> resultOfSmartArt property)
+            // Convert Smart Art shape into group shape result and check if group (getResultOfSmartArt → resultOfSmartArt property)
             const resultOfSmartArtIsGroup = shape.resultOfSmartArt.isGroup;
 
             const html = [
@@ -91,11 +91,7 @@ The following sample code loads the [sample Excel file](55541793.xlsx) containin
 ## **Console Output**
 
 {{< highlight javascript >}}
-
 Is Smart Art Shape: True
-
 Is Group Shape: False
-
 Is Group Shape: True
-
 {{< /highlight >}}

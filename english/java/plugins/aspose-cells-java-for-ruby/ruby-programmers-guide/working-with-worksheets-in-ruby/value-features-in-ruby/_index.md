@@ -11,3 +11,4 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 - [Copying and Moving Worksheets in Ruby](/cells/java/copying-and-moving-worksheets-in-ruby/)
 - [Managing Page Breaks in Ruby](/cells/java/managing-page-breaks-in-ruby/)
+

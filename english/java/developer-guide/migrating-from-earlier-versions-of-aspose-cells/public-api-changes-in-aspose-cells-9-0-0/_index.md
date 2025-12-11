@@ -9,14 +9,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.9.2 to 9.0.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.9.2 to 9.0.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added Shape.TextOptions Property**
 Aspose.Cells for Java has exposed the TextOptions property for the Shape class in order to control the appearance of textual parts of a Shape.
 
-Here is simple usage scenario of Shape.TextOptions property.
+Here is a simple usage scenario of the Shape.TextOptions property.
 
 **Java**
 
@@ -54,11 +54,11 @@ textbox.getTextOptions().setBold(true);
 ### **Added ChartPoint.IsInSecondaryPlot Property**
 Aspose.Cells for Java has exposed the ChartPoint.IsInSecondaryPlot property which can be used to detect if a ChartPoint resides on a secondary plot of a Pie or Bar chart.
 
-Here is simple usage scenario of Shape.Line property.
+Here is a simple usage scenario of the Shape.Line property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Finding a DataPoint resides on the Second Plot](/cells/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+Check the detailed article on [Finding a DataPoint that resides on the Second Plot](/cells/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 

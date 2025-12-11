@@ -9,7 +9,7 @@ description: Learn how to copy a VBA project, including Designer Storage, from o
 
 ## **Possible Usage Scenarios**  
 
-Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules i.e. Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
+Aspose.Cells allows you to copy a VBA project from one Excel file into another Excel file. A VBA project consists of various types of modules, e.g., Document, Procedural, Designer, etc. All modules can be copied with simple code, but for the Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.  
 
 - [**VbaModuleCollection.designerStorage(string)**](https://reference.aspose.com/cells/javascript-cpp/vbamodulecollection/#designerStorage-string-)  
 - [**VbaModuleCollection.addDesignerStorage(string, number[])**](https://reference.aspose.com/cells/javascript-cpp/vbamodulecollection/#addDesignerStorage-string-numberarray-)  
@@ -20,7 +20,7 @@ Please see the following sample code. It copies the VBA project from the [templa
 
 **![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**  
 
-The following screenshot shows the output Excel file and its contents which were copied from the template Excel file. When you click on the Button 1, it opens up the VBA User Form which itself has a command button that shows a message box on clicking.  
+The following screenshot shows the output Excel file and its contents, which were copied from the template Excel file. When you click Button 1, it opens the VBA User Form, which contains a command button that shows a message box when clicked.  
 
 **![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)**  
 
@@ -86,7 +86,7 @@ The following screenshot shows the output Excel file and its contents which were
                 }
             }
 
-            // Copy the VBA-Macro Designer UserForm from Template to Target 
+            // Copy the VBA-Macro Designer UserForm from the template to the target workbook
             const modules = templateFile.vbaProject.modules;
             const moduleCount = modules.count;
             for (let i = 0; i < moduleCount; i++) {
@@ -108,7 +108,7 @@ The following screenshot shows the output Excel file and its contents which were
                     target.vbaProject.modules.get(vbaMod).codes = vbaItem.codes;
 
                     if (vbaItem.type === AsposeCells.VbaModuleType.Designer) {
-                        // Get the data of the user form i.e. designer storage
+                        // Get the data of the user form i.e., designer storage
                         const designerStorage = modules.getDesignerStorage(vbaItem.name);
                         
                         // Add the designer storage to target Vba Project
@@ -117,7 +117,7 @@ The following screenshot shows the output Excel file and its contents which were
                 }
             }
 
-            // Saving the modified Excel file
+            // Save the modified Excel file
             const outputData = target.save(SaveFormat.Xlsm);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

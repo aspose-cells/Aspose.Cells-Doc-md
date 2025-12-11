@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getWorksheet--) property which returns the reference of the worksheet that contains the chart.
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the **Chart.getWorksheet()** property, which returns the reference of the worksheet that contains the chart.
 
 {{% /alert %}}
 
-The following example shows how to use the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getWorksheet--) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.getWorksheet()**](https://reference.aspose.com/cells/nodejs-cpp/chart/#getWorksheet--) property.
+The following example shows how to use the **Chart.getWorksheet()** property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the **Chart.getWorksheet()** property.
 
 ```javascript
 const path = require("path");
@@ -37,22 +37,21 @@ console.log("Sheet Name: " + worksheet.getName());
 // Access the first chart inside this worksheet
 const charts = worksheet.getCharts();
 if (charts.getCount() > 0) {
-const chart = charts.get(0);
+    const chart = charts.get(0);
 
-// Access the chart's sheet and display its name again
-console.log("Chart's Sheet Name: " + chart.getWorksheet().getName());
+    // Access the chart's sheet and display its name again
+    console.log("Chart's Sheet Name: " + chart.getWorksheet().getName());
 } else {
-console.log("No charts available in the worksheet.");
+    console.log("No charts available in the worksheet.");
 }
 ```
 
-Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
+Below is the console output that the sample code produces. As you can see, it prints the same worksheet name both times.
 
 {{< highlight javascript >}}
-
 Sheet Name: Portfolio
 
 Chart's Sheet Name: Portfolio
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.5.0 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added Workbook.Dispose Method**
-Workbook object now implements the System.IDisposable interface which has a single Dispose method. You can either directly call the Workbook.Dispose method or create a Workbook object in a Using structure to call this method automatically.
+Workbook object now implements the System.IDisposable interface, which has a single Dispose method. You can either directly call the Workbook.Dispose method or create a Workbook object in a using statement to call this method automatically.
 
 **C#**
 
@@ -28,30 +28,29 @@ Workbook book = new Workbook();
 
 book.Dispose();
 
-//Call Dispose method via Using statement
+//Call Dispose method via using statement
 
 using (Workbook book = new Workbook())
-
 {
-
     //do processing
-
 }
 
 {{< /highlight >}}
 
 
 ### **Added Cell.GetHeightOfValue Method**
-Aspose.Cells for .NET 8.5.1 has exposed the Cell.GetHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+Aspose.Cells for .NET 8.5.1 has exposed the Cell.GetHeightOfValue method to get the height of a cell's value. By using this method you can calculate the height of the cell value and then set the height of the row of that cell accordingly. Check the detailed article on [how to calculate the cell height & width](/cells/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+
 ### **Added TableDataSourceType Enumeration**
-Aspose.Cells for .NET 8.5.1 has exposed the enumeration Aspose.Cells.Tables.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields.
+Aspose.Cells for .NET 8.5.1 has exposed the enumeration Aspose.Cells.Tables.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration has the following fields:
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
 1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
+
 ### **Added ListObject.DataSourceType Property**
-With the release of v8.5.1, the Aspose.Cells API has exposed the readonly ListObject.DataSourceType property that can be used to detect the data source type of a ListObject.
+With the release of v8.5.1, the Aspose.Cells API has exposed the read‑only ListObject.DataSourceType property that can be used to detect the data source type of a ListObject.
 
 Here is the simplest usage scenario.
 
@@ -59,42 +58,25 @@ Here is the simplest usage scenario.
 
 {{< highlight csharp >}}
 
- Workbook book = new Workbook("D:/book1.xlsx");
-
+Workbook book = new Workbook("D:/book1.xlsx");
 Worksheet sheet = book.Worksheets[0];
-
 ListObject listObject = sheet.ListObjects[0];
 
 if (listObject.DataSourceType == Aspose.Cells.Tables.TableDataSourceType.QueryTable)
-
 {
-
     Console.WriteLine("Data Source Type is Query Table");
-
 }
-
 else if (listObject.DataSourceType == Aspose.Cells.Tables.TableDataSourceType.SharePoint)
-
 {
-
     Console.WriteLine("Data Source Type is SharePoint Linked List");
-
 }
-
 else if (listObject.DataSourceType == Aspose.Cells.Tables.TableDataSourceType.Worksheet)
-
 {
-
     Console.WriteLine("Data Source Type is Excel Worksheet Table");
-
 }
-
 else if (listObject.DataSourceType == Aspose.Cells.Tables.TableDataSourceType.XML)
-
 {
-
     Console.WriteLine("Data Source Type is XML");
-
 }
 
 {{< /highlight >}}

@@ -3,7 +3,7 @@ title: How to Format Number to Special
 type: docs
 weight: 10
 url: /python-net/how-to-format-number-to-special/
-description: This article will introduce how to Format Number to Specialusing Aspose.Cells for Python via .NET API.
+description: This article will introduce how to format number to special using Aspose.Cells for Python via .NET API.
 keywords: Format a number to a special pattern, Apply a specific pattern to format numbers, Customize number formatting to a unique style, Adjust the presentation of numbers to a distinct format, Transform numbers to follow a particular formatting rule, Format Number to Special
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -49,7 +49,7 @@ If the built-in special formats don't meet your needs, you can create a custom f
 2. **Open Format Cells Dialog**: Right-click and choose "Format Cells," or press `Ctrl` + `1`.
 3. **Go to Custom**: In the Format Cells dialog, select the "Number" tab, then choose "Custom" from the Category list.
 4. **Enter Custom Format**: In the Type box, enter the custom format code. For example:
-   - To format a 10-digit phone number, you might use: `(###) ###-####`
+   - To format a 10‑digit phone number, you might use: `(###) ###-####`
    - For a product code that starts with two letters followed by three numbers: `"XX"###`
 5. **Apply and OK**: Click "OK" to apply your custom format.
 
@@ -76,7 +76,7 @@ Here's a step-by-step guide on how to format a number to a special format using 
 
 ### Step 1: Add Aspose.Cells to Your Project
 
-First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from pypi with the following command.
+First, ensure you have Aspose.Cells for Python via .NET installed in your project. You can easily use Aspose.Cells for Python via .NET from PyPI with the following command.
 
 ```powershell
 $ pip install aspose-cells-python
@@ -89,10 +89,10 @@ You can either create a new workbook or open an existing one.
 You need to access the worksheet where you want to format numbers to special. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Format the Number to a Special Format
-To format a cell to display its number in special notation, you'll need to set its custom format.
+To format a cell to display its number in a special format, you'll need to set its custom format.
 
 ### Step 5: Save the Workbook
-After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in scientific notation as specified.
+After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in the special format you specified.
 
 ### Custom Number Formats
 

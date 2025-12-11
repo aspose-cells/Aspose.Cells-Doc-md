@@ -15,25 +15,22 @@ Sometimes, when working with your data, you may want to enlarge the contents on 
 
 In Microsoft Excel, a zoom slider is available for zooming in and out of documents quickly and easily. The zoom slider is usually in the lower right corner of the software window.
 
-Aspose.Cells also allows developers to set the worksheet's zoom factor, so the contents should be appeared as per your desired percentage value.
+Aspose.Cells also allows developers to set the worksheet's zoom factor, so the contents should appear as per your desired percentage value.
 
 {{% /alert %}} 
+
 ## **Zooming In or Out Using Aspose.Cells.GridDesktop**
-Aspose.Cells provides Aspose.Cells.GridDesktop.Worksheet class that has a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the Worksheet class' Zoom property. The zoom factor is set by assigned a numeric (integer) value to the Zoom property.
 
-We build an MS Excel like zoom slider using TrackBar (.NET) control. In a WinForm project, we place the Aspose.Cells.GridDesktop control from Toolbox to the form and specify some properties to set its name, size or other aspects accordingly. Now, we place the TrackBar control @ lower right corner below the GridDesktop control, we also put a Label control that would show the percentage value you specify via TrackBar control's handle. We add relative lines of code in TrackBar's Scroll event, so when you scroll the Trackbar control, GridDesktop should zoom in or out to show the data/ contents in it.
+Aspose.Cells provides the **Aspose.Cells.GridDesktop.Worksheet** class that has a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the Worksheet class's **Zoom** property. The zoom factor is set by assigning a numeric (integer) value to the **Zoom** property.
 
-A complete example is given below that demonstrates how to use the Zoom property to set the zoom factor of the active worksheet of GridDesktop. We first import a template Excel file to GridDesktop.
+We build an MS Excel‑like zoom slider using a TrackBar (.NET) control. In a WinForm project, we place the Aspose.Cells.GridDesktop control from the Toolbox onto the form and specify some properties to set its name, size, or other aspects accordingly. Now, we place the TrackBar control at the lower right corner below the GridDesktop control; we also put a Label control that shows the percentage value you specify via the TrackBar control's handle. We add relevant lines of code in the TrackBar's **Scroll** event, so when you scroll the TrackBar control, GridDesktop should zoom in or out to show the data/contents in it.
 
-Write below code in the Load event of form to set the template Excel file in GridDesktop and trackbar value.
+A complete example is given below that demonstrates how to use the **Zoom** property to set the zoom factor of the active worksheet of GridDesktop. We first import a template Excel file to GridDesktop.
 
-
+Write the following code in the **Load** event of the form to set the template Excel file in GridDesktop and the TrackBar value.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ZoomingInOut-LoadEvent.cs" >}}
 
-
-Now copy below code inside track scroll event and run the application. You will notice that moving track bar will change the zoom property of worksheet.
-
-
+Now copy the following code inside the TrackBar's **Scroll** event and run the application. You will notice that moving the track bar will change the zoom property of the worksheet.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ZoomingInOut-ZoomInOut.cs" >}}

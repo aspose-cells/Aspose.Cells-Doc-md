@@ -121,7 +121,7 @@ To achieve this, Aspose.Cells provides the [**Chart.plotArea**](https://referen
             chart.title.font.isBold = true;
             chart.title.font.size = 12;
 
-            // Set properties of nseries
+            // Set properties of nSeries
             chart.nSeries.add("Data!B2:B8", true);
             chart.nSeries.categoryData = "Data!A2:A8";
             chart.nSeries.isColorVaried = true;
@@ -143,3 +143,4 @@ To achieve this, Aspose.Cells provides the [**Chart.plotArea**](https://referen
     </script>
 </html>
 ```
+

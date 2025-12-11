@@ -7,10 +7,10 @@ url: /javascript-cpp/worksheet-to-image-set-pixel-format-for-the-rendered-image/
 ---
 
 {{% alert color="primary" %}}  
-Sometimes you want to specify the pixel format when rendering a worksheet to image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.  
+Sometimes you want to specify the pixel format when rendering a worksheet to an image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.  
 {{% /alert %}}  
 
-Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the sheets.  
+Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the **sheet**.  
 
 ```html
 <!DOCTYPE html>

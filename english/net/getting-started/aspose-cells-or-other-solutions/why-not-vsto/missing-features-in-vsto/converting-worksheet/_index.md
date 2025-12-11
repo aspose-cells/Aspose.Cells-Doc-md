@@ -7,7 +7,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section has following topics:
+This section has the following topics:
 
 - [Converting Worksheet to Image File By Page](/cells/net/converting-worksheet-to-image-file-by-page/)
 - [Converting Worksheet to Image in Aspose.Cells](/cells/net/converting-worksheet-to-image-in-aspose-cells/)

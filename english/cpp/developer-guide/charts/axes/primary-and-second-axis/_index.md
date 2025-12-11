@@ -1,6 +1,6 @@
 ---
-title: Primary and Second Axis with C++
-linktitle: Primary and Second Axis
+title: Primary and Secondary Axis with C++
+linktitle: Primary and Secondary Axis
 description: Learn how to understand and work with primary and secondary axes in Aspose.Cells for C++. Our guide will help you understand the differences between primary and secondary axes, and how to configure and use them effectively in your charts.
 keywords: Aspose.Cells for C++, primary axes, secondary axes, understanding, differences, configuration, usage.
 type: docs
@@ -11,11 +11,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When the numbers in a chart vary widely from data series to data series, or when you have mixed types of data (price and volume), plot one or more data series on a secondary vertical (value) axis.  The scale of the secondary vertical axis shows the values for the associated data series.  A secondary axis works well in a chart that shows a combination of column and line charts.
+When the numbers in a chart vary widely from data series to data series, or when you have mixed types of data (price and volume), plot one or more data series on a secondary vertical (value) axis. The scale of the secondary vertical axis shows the values for the associated data series. A secondary axis works well in a chart that shows a combination of column and line charts.
 
-## **Handle Primary and Second Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. 
-Then we add a chart and show the second-axis.
+## **Handle Primary and Secondary Axis like Microsoft Excel**
+Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. Then we add a chart and show the secondary axis.
 
 ![todo:image_alt_text](excel.png)
 
@@ -61,10 +60,10 @@ int main() {
     // Set the category data
     chart.GetNSeries().SetCategoryData(u"=Sheet1!$A$2:$A$4");
 
-    // Set the Second-Axis
+    // Set the secondary axis
     chart.GetNSeries().Get(1).SetPlotOnSecondAxis(true);
 
-    // Show the Second-Axis
+    // Show the secondary axis
     chart.GetSecondValueAxis().SetIsVisible(true);
 
     // Set the second series ChartType to line

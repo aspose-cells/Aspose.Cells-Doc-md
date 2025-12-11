@@ -11,7 +11,7 @@ description: Learn how to convert JSON data to CSV using Aspose.Cells for JavaSc
 
 Aspose.Cells for JavaScript via C++ supports converting simple as well as nested JSON to CSV. For this, the API provides [**JsonLayoutOptions**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility) classes. The [**JsonLayoutOptions**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions) class provides the options for JSON layout like [**JsonLayoutOptions.arrayAsTable**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions/#arrayAsTable--) (processes the array as a table). The [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility) class processes the JSON using the layout options set with the [**JsonLayoutOptions**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions) class.
 
-The following code sample demonstrates the use of [**JsonLayoutOptions**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility) classes to load the [source JSON file](104398869.json) and generates the [output CSV file](104398870.csv).
+The following code sample demonstrates the use of [**JsonLayoutOptions**](https://reference.aspose.com/cells/javascript-cpp/jsonlayoutoptions) and [**JsonUtility**](https://reference.aspose.com/cells/javascript-cpp/jsonutility) classes to load the [source JSON file](104398869.json) and generate the [output CSV file](104398870.csv).
 
 ### **Sample Code**
 

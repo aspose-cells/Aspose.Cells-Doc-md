@@ -2,15 +2,14 @@
 title: How to create Combo chart with Golang via C++  
 linktitle: How to create Combo chart  
 description: Learn how to create a combo chart using Aspose.Cells for C++. Our comprehensive guide will demonstrate how to combine different chart types into one combo chart for a more effective data presentation.  
-keywords: Aspose.Cells for C++, Combo Chart, Combining Chart Types, Data Presentation, Effective Visualization.  
+keywords: Aspose.Cells for C++, Combo Chart, Combining Chart Types, Data Presentation, Effective Visualization  
 type: docs  
 weight: 73  
 url: /go-cpp/create-combo-chart/  
 ---  
 
 ## **Possible Usage Scenarios**  
-Combo charts in Excel let you avail of this option because you can easily combine two or more chart types to make your data understandable. Combo charts are helpful when your data contains multiple kinds of values including price and volume. Moreover, Combo charts are feasible when your data numbers change widely from series to series.  
-
+Combo charts in Excel allow you to combine two or more chart types easily, making your data more understandable. Combo charts are helpful when your data contains multiple kinds of values, including price and volume. Moreover, Combo charts are useful when your data values vary widely from series to series.  
 
 ![todo:image_alt_text](sample.png)  
 ## **Combo chart**  

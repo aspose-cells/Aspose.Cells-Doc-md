@@ -69,7 +69,7 @@ The following example shows how to add a linked picture from a web address to a 
             // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Insert a linked picture (from Web Address) to B2 Cell.
+            // Insert a linked picture (from Web Address) to the B2 cell.
             const pic = worksheet.shapes.addLinkedPicture(1, 1, 100, 100, "http://www.aspose.com/Images/aspose-logo.jpg");
 
             // Set the height and width of the inserted image.

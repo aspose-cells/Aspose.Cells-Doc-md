@@ -110,7 +110,7 @@ There are two possible ways to control the positioning of pictures using Aspose.
 
 ### **Proportional Positioning**
 
-Developers can position the pictures proportional to row height and column width using the [**upperDeltaX**](https://reference.aspose.com/cells/javascript-cpp/shape/#upperDeltaX--) and [**upperDeltaY**](https://reference.aspose.com/cells/javascript-cpp/shape/#upperDeltaY--) properties of the [**Picture**](https://reference.aspose.com/cells/javascript-cpp/picture/) object. A [**Picture**](https://reference.aspose.com/cells/javascript-cpp/picture/) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/javascript-cpp/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
+Developers can position the pictures proportionally to row height and column width using the [**upperDeltaX**](https://reference.aspose.com/cells/javascript-cpp/shape/#upperDeltaX--) and [**upperDeltaY**](https://reference.aspose.com/cells/javascript-cpp/shape/#upperDeltaY--) properties of the [**Picture**](https://reference.aspose.com/cells/javascript-cpp/picture/) object. A [**Picture**](https://reference.aspose.com/cells/javascript-cpp/picture/) object can be obtained from the [**Pictures**](https://reference.aspose.com/cells/javascript-cpp/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ Developers can also position the pictures absolutely by using the [**left**](htt
             // Accessing the newly added picture
             const picture = worksheet.pictures.get(pictureIndex);
 
-            // Absolute positioning of the picture in unit of pixels
+            // Absolute positioning of the picture in units of pixels
             picture.left = 60;
             picture.top = 10;
 
@@ -276,7 +276,7 @@ Developers can also position the pictures absolutely by using the [**left**](htt
 
 ## **Inserting a Picture Based on Cell Reference**
 
-Aspose.Cells lets you display the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell, or cell range, is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object.
+Aspose.Cells lets you display the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data you want to display. Since the cell, or cell range, is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object.
 
 Add a picture to the worksheet by calling the [**ShapeCollection.addPicture(number, number, number, number, Uint8Array)**](https://reference.aspose.com/cells/javascript-cpp/shapecollection/#addPicture-number-number-number-number-uint8array-) method of the [**ShapeCollection**](https://reference.aspose.com/cells/javascript-cpp/shapecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) object). Specify the cell range by using the [**formula**](https://reference.aspose.com/cells/javascript-cpp/picture/#formula--) attribute of the [**Picture**](https://reference.aspose.com/cells/javascript-cpp/picture/) object.
 
@@ -348,7 +348,7 @@ Add a picture to the worksheet by calling the [**ShapeCollection.addPicture(numb
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Conditional Icons Set with the Cell Text](/cells/javascript-cpp/add-conditional-icons-set-with-the-cell-text/)
 - [Insert a Linked Picture from Web Address](/cells/javascript-cpp/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture Based on Cell Reference](/cells/javascript-cpp/insert-a-picture-based-on-cell-reference/)

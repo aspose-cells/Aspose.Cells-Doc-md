@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Printing Workbooks**
-After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your need. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection.
+After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your needs. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection.
 
 Printing Worksheet
 
@@ -38,7 +38,7 @@ sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Printing Workbooks** form any of the below mentioned social coding sites:
+Download **Printing Workbooks** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 

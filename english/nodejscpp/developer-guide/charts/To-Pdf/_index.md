@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Rendering Chart to PDF**
 
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toPdf-string-) method with the ability to store the resultant PDF on disk path or Stream.
+In order to render the chart to PDF format, the Aspose.Cells APIs expose the [**Chart.toPdf(string)**](https://reference.aspose.com/cells/nodejs-cpp/chart/#toPdf-string-) method with the ability to store the resultant PDF on a disk path or a stream.
 
 ```javascript
 const path = require("path");
@@ -48,9 +48,10 @@ chart.toPdf(path.join(dataDir, "chartPDF_out.pdf"));
 ```
 
 ## **Create Chart PDF with Desired Page Size**  
-You can create chart Pdf with your desired page size using Aspose.Cells and specify how you want to align the chart inside the page as top, bottom, center, left, right etc. Besides, the output chart can be created in stream or on disk. Please see the following sample code that loads the [sample Excel file](64716906.xlsx), accesses the first chart inside the worksheet and then converts it into [output Pdf](64716907.pdf) with desired page size. The following screenshot shows that the page size in the output Pdf is 7x7 as specified inside the code and chart is center aligned both horizontally as well as vertically.
+You can create chart PDF with your desired page size using Aspose.Cells and specify how you want to align the chart inside the page—as top, bottom, center, left, right, etc. Besides, the output chart can be created in a stream or on disk. Please see the following sample code that loads the [sample Excel file](64716906.xlsx), accesses the first chart inside the worksheet, and then converts it into [output PDF](64716907.pdf) with the desired page size. The following screenshot shows that the page size in the output PDF is 7 × 7 as specified inside the code and the chart is center‑aligned both horizontally and vertically.
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)  
+
 ## **Sample Code**  
 ```javascript
 const path = require("path");
@@ -69,9 +70,14 @@ const worksheet = workbook.getWorksheets().get(0);
 // Access first chart inside the worksheet.
 const chart = worksheet.getCharts().get(0);
 
-// Create chart pdf with desired page size.
-chart.toPdf(path.join(outputDir, "outputCreateChartPDFWithDesiredPageSize.pdf"), 7, 7, AsposeCells.PageLayoutAlignmentType.Center, AsposeCells.PageLayoutAlignmentType.Center);
+// Create chart PDF with desired page size.
+chart.toPdf(
+    path.join(outputDir, "outputCreateChartPDFWithDesiredPageSize.pdf"),
+    7,
+    7,
+    AsposeCells.PageLayoutAlignmentType.Center,
+    AsposeCells.PageLayoutAlignmentType.Center
+);
 ```  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

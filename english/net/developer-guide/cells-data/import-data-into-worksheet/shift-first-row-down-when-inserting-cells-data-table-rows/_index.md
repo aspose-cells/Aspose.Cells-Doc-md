@@ -1,9 +1,9 @@
 ---
-title: Shift First Row down when inserting Cells Data Table Rows
+title: Shift First Row Down When Inserting Cells Data Table Rows
 type: docs
 weight: 270
 url: /net/shift-first-row-down-when-inserting-cells-data-table-rows/
-description: Learn how to shift first row down when inserting Cells Data Table Rows through the Aspose.Cells for .NET API.
+description: Learn how to shift the first row down when inserting Cells Data Table rows through the Aspose.Cells for .NET API.
 keywords: C# shift the first row down when inserting a table into the worksheet, shift first row down, shift first row down when adding a table into worksheet
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,15 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to shift the first row down when inserting a table into the worksheet. This document explains how you may accomplish the task using Aspose.Cells APIs.
+Aspose.Cells allows you to shift the first row down when inserting a table into the worksheet. This document explains how you can accomplish the task using Aspose.Cells APIs.
 
-## **Shift First Row down when inserting Cells Data Table Rows**
+## **Shift First Row Down When Inserting Cells Data Table Rows**
 
-The following sample code illustrates how to shift the first row down when inserting a table into the worksheet. We use a simple template Excel file in code to demonstrate the feature. You can exercise the feature by setting the boolean [**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/shiftfirstrowdown) attribute to **True**/**False** to better understand it. Please see the [sample Excel file](45056031.xlsx), [output Excel False file](45056032.xlsx), and [output Excel True file](45056033.xlsx) for your reference.
+The following sample code illustrates how to shift the first row down when inserting a table into the worksheet. We use a simple template Excel file in code to demonstrate the feature. You can exercise the feature by setting the boolean **ImportTableOptions.ShiftFirstRowDown** attribute to **True** or **False** to better understand its effect. Please see the [sample Excel file](45056031.xlsx), the [output Excel (False) file](45056032.xlsx), and the [output Excel (True) file](45056033.xlsx) for your reference.
 
 ## **Screenshot**
 
-![todo:image_alt_text](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+![Shift First Row Down when Inserting Cells Data Table Rows](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **Sample Code**
 

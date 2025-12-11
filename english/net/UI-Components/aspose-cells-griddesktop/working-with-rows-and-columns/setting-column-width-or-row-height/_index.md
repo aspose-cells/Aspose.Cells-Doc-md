@@ -17,17 +17,17 @@ This topic discusses setting the column width and row height using the Aspose.Ce
 ## **How to Set Column Width**
 To set the width of a column using Aspose.Cells.GridDesktop:
 
-1. Access a worksheet.
-1. Access the column you want to change the width of.
-1. Set the column width.
+1. Access the worksheet.  
+2. Access the column whose width you want to change.  
+3. Set the column width.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetColumnWidth.cs" >}}
 
 ## **How to Set Row Height**
 To set the height of a row using Aspose.Cells.GridDesktop, please follow the steps below:
 
-1. Access any desired worksheet.
-1. Access the row you want to change the height of.
-1. Set the row height.
+1. Access the worksheet.  
+2. Access the row whose height you want to change.  
+3. Set the row height.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetRowHeight.cs" >}}

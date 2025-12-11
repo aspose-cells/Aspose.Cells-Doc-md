@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to load your excel file without charts. Please use [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) property for this purpose.
+Aspose.Cells allows you to load your **Excel** file without charts. Please use [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) property for this purpose.
 
 {{% /alert %}}
 
 ## **Load Spreadsheet Without Charts**
 
-The following sample code loads the sample excel file without charts and saves it in output PDF format.
+The following sample code loads the sample **Excel** file without charts and saves it in output PDF format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

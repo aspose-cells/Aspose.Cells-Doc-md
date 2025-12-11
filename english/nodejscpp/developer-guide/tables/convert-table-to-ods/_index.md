@@ -4,12 +4,12 @@ linktitle: Convert Table to ODS
 type: docs  
 weight: 70  
 url: /nodejs-cpp/convert-table-to-ods/  
-description: Learn how to convert an Excel file with table to ODS format using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: Learn how to convert an Excel file with a table to ODS format using Aspose.Cells for Node.js via C++.  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
-Aspose.Cells supports converting an Excel file with a table to ODS file. You simply have to save the file in ODS format and the generated ODS file will have a functioning table.
+Aspose.Cells supports converting an Excel file with a table to an ODS file. You simply have to save the file in ODS format, and the generated ODS file will have a functioning table.
 
 ## Sample Code
 

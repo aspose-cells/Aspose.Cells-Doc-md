@@ -1,49 +1,52 @@
----
-title: Set Worksheet Tab Color in xlsx4j
-type: docs
-weight: 60
-url: /java/set-worksheet-tab-color-in-xlsx4j/
+---  
+title: Set Worksheet Tab Color in Xlsx4j  
+type: docs  
+weight: 60  
+url: /java/set-worksheet-tab-color-in-xlsx4j/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Set Worksheet Tab Color**
-Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent from the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
-### **Setting Worksheet Tab Color with Microsoft Excel**
-1. Right-click a tab in the tab-sheet at the bottom of the current worksheet.
-1. Select **Tab color**.
-1. Select a color from the palette.
-1. Click **OK**.
+## **Aspose.Cells - Set Worksheet Tab Color**  
+Aspose.Cells allows you to change the color of individual worksheet tabs to make them more prominent than the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.  
 
-**Java**
+### **Setting Worksheet Tab Color with Microsoft Excel**  
+1. Right‑click a tab in the tab‑sheet at the bottom of the current worksheet.  
+2. Select **Tab color**.  
+3. Select a color from the palette.  
+4. Click **OK**.  
 
-{{< highlight java >}}
+**Java**  
 
- //Instantiate a new Workbook
+{{< highlight java >}}  
 
-Workbook workbook = new Workbook(dataDir + "workbook.xls");
+ //Instantiate a new Workbook  
 
-//Get the first worksheet in the book
+Workbook workbook = new Workbook(dataDir + "workbook.xls");  
 
-Worksheet worksheet = workbook.getWorksheets().get(0);
+//Get the first worksheet in the book  
 
-//Set the tab color
+Worksheet worksheet = workbook.getWorksheets().get(0);  
 
-worksheet.setTabColor(Color.getRed());
+//Set the tab color  
 
-//Save the Excel file
+worksheet.setTabColor(Color.getRed());  
 
-workbook.save(dataDir + "AsposeColoredTab_Out.xls");
+//Save the Excel file  
 
-{{< /highlight >}}
-## **Download Running Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/settabcolor/AsposeSetWorksheetTabColor.java)
+workbook.save(dataDir + "AsposeColoredTab_Out.xls");  
 
-{{% alert color="primary" %}} 
+{{< /highlight >}}  
 
-For more details, visit [Set Worksheet Tab Color](/java/set-worksheet-tab-color).
+## **Download Running Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)  
 
-{{% /alert %}}
+## **Download Sample Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/settabcolor/AsposeSetWorksheetTabColor.java)  
+
+{{% alert color="primary" %}}  
+
+For more details, visit [Set Worksheet Tab Color](/java/set-worksheet-tab-color).  
+
+{{% /alert %}}  
 {{< app/cells/assistant language="java" >}}

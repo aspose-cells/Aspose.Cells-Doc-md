@@ -7,7 +7,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
- **This section includes the following topics:**
+**This section includes the following topics:**
 - [Auto Fit Row and Column](/cells/java/auto-fit-row-and-column/)
 - [Cell Alignment Settings](/cells/java/cell-alignment-settings/)
 - [Hide and Unhide Cells](/cells/java/hide-and-unhide-cells/)

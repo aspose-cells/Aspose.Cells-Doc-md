@@ -1,23 +1,23 @@
----
-title: Link Cells to XML Map Elements with C++
-linktitle: Link Cells to XML Map Elements
-type: docs
-weight: 50
-url: /cpp/link-cells-to-xml-map-elements/
-description: Learn how to link cells to XML Map elements using Aspose.Cells with C++.
+---  
+title: Link Cells to XML Map Elements with C++  
+linktitle: Link Cells to XML Map Elements  
+type: docs  
+weight: 50  
+url: /cpp/link-cells-to-xml-map-elements/  
+description: Learn how to link cells to XML Map elements using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
 ## **Possible Usage Scenarios**
 
 You can link your cells to XML Map elements using Aspose.Cells. Please use the [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/linktoxmlmap/) method for this purpose.
 
-## **Link Cells to Xml Map Elements**
+## **Link Cells to XML Map Elements**
 
-The following sample code loads the [source excel file](5115471.xlsx) which contains XML Map and then links cells A1, B2, C3, D4, E5, and F6 to XML Map elements FIELD1, FIELD2, FIELD4, FIELD5, FIELD7, and FIELD8 respectively and then saves the workbook in [output excel file](5115467.xlsx).
+The following sample code loads the [source Excel file](5115471.xlsx) which contains an XML Map, then links cells A1, B2, C3, D4, E5, and F6 to XML Map elements FIELD1, FIELD2, FIELD4, FIELD5, FIELD7, and FIELD8 respectively, and finally saves the workbook in the [output Excel file](5115467.xlsx).
 
-If you open the [output excel file](5115467.xlsx) and click the Developer > Source button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
+If you open the [output Excel file](5115467.xlsx) and click the Developer > Source button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
 
 ```cpp
 #include <iostream>
@@ -38,7 +38,7 @@ int main()
     // Load sample workbook
     Workbook wb(srcDir + u"sample.xlsx");
 
-    // Access the Xml Map inside it
+    // Access the XML Map inside it
     XmlMap map = wb.GetWorksheets().GetXmlMaps().Get(0);
 
     // Access first worksheet

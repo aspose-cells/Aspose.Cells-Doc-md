@@ -8,10 +8,10 @@ url: /javascript-cpp/z-axis/
 ---
 
 ## **Possible Usage Scenarios**
-For some 3-D charts such as 3-D column, 3-D cone, or 3-D pyramid which has a depth (series) axis, also known as the Z axis, that you can change. You can specify the interval between tick marks, axis labels and other operations.
+For some 3‑D charts such as 3‑D column, 3‑D cone, or 3‑D pyramid, which have a depth (series) axis—also known as the Z axis—that you can modify, you can specify the interval between tick marks, axis labels, and other settings.
 
 ## **Handle Primary and Secondary Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. Then we add a chart and set the chart type to Column3D, then you can see the Z Axis also called Depth Axis. 
+Please see the following sample code that creates a new Excel file and puts chart values in the first worksheet. Then we add a chart, set the chart type to Column3D, and you can see the Z Axis, also called the Depth Axis. 
 
 ![todo:image_alt_text](excel.png)
 
@@ -55,7 +55,7 @@ Please see the following sample code that creates a new Excel file and puts valu
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
             // Get the first worksheet
@@ -80,9 +80,9 @@ Please see the following sample code that creates a new Excel file and puts valu
             chart.calculate();
             // Add SeriesCollection (chart data source) to the chart ranging from "A2" cell to "C3"
             chart.setChartDataRange("A2:C3", true);
-            // Hide the CategoryAxis axis
+            // Hide the Category Axis
             chart.categoryAxis.isVisible = false;
-            // Hide the ValueAxis axis
+            // Hide the Value Axis
             chart.valueAxis.isVisible = false;
             
             // Save the file and provide download link

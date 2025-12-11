@@ -9,15 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. **An** HTML link looks like this:
 
 {{< highlight java >}}
-
- <a href="http://www.aspose.com/" target="_self">
-
+<a href="http://www.aspose.com/" target="_self">
 {{< /highlight >}}
 
-As you can see the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) enum which has the following values.
+As you can see, the target attribute in the above HTML link is **_self**. You can control this target attribute using the [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) property. This property takes the [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) enum which has the following values.
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
@@ -26,7 +24,7 @@ As you can see the target attribute in the above HTML link is **_self**. You can
 
 {{% /alert %}}
 
-The following code illustrates the usage of [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) property. It changes the link target type to **blank**. By default, it is the **parent**.
+The following code illustrates the usage of [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) property. It changes the link target type to **blank**. By default, it is the **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

@@ -3,7 +3,7 @@ title: Inserting and Deleting Rows and Columns in PHP
 type: docs
 weight: 60
 url: /java/inserting-and-deleting-rows-and-columns-in-php/
-description: Learn how to Insert and Delete Rows and Columns through the Aspose.Cells for PHP via Java APIs.
+description: Learn how to insert and delete rows and columns through the Aspose.Cells for PHP via Java APIs.
 keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Managing Rows/Columns**
 ### **Inserting a Row**
-Insert a row into at any location by calling the insertRows method of the Cells collection. The insertRows method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
+Insert a row at any location by calling the `insertRows` method of the `Cells` collection. The `insertRows` method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
 
 **PHP Code**
 
@@ -21,7 +21,7 @@ Insert a row into at any location by calling the insertRows method of the Cel
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -29,7 +29,7 @@ Insert a row into at any location by calling the insertRows method of the Cel
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Inserting a row into the worksheet at 3rd position
+    # Inserting a row into the worksheet at the 3rd position
 
     $worksheet->getCells()->insertRows(2,1);
 
@@ -39,11 +39,11 @@ Insert a row into at any location by calling the insertRows method of the Cel
 
     print "Insert Row Successfully." . PHP_EOL;
 
-}  
+}    
 
 {{< /highlight >}}
 ### **Inserting Multiple Rows**
-To insert multiple rows into the worksheet, call the insertRows method of the Cells collection. The InsertRows method takes two parameters:
+To insert multiple rows into the worksheet, call the `insertRows` method of the `Cells` collection. The `InsertRows` method takes two parameters:
 
 - Row index, the index of the row from where the new rows will be inserted.
 - Number of rows, total number of rows that need to be inserted.
@@ -56,7 +56,7 @@ To insert multiple rows into the worksheet, call the insertRows method of the�
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -64,7 +64,7 @@ To insert multiple rows into the worksheet, call the insertRows method of the�
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Inserting a row into the worksheet at 3rd position
+    # Inserting rows into the worksheet at the 3rd position
 
     $worksheet->getCells()->insertRows(2,10);
 
@@ -78,7 +78,7 @@ To insert multiple rows into the worksheet, call the insertRows method of the�
 
 {{< /highlight >}}
 ### **Deleting a Row**
-To delete a row at any location, call the deleteRows method of the Cells collection. The DeleteRows method takes two parameters:
+To delete a row at any location, call the `deleteRows` method of the `Cells` collection. The `DeleteRows` method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
 - Number of rows, total number of rows that need to be deleted.
@@ -91,7 +91,7 @@ To delete a row at any location, call the deleteRows method of the Cells col
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -99,7 +99,7 @@ To delete a row at any location, call the deleteRows method of the Cells col
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Deleting 3rd row from the worksheet
+    # Deleting the 3rd row from the worksheet
 
     $worksheet->getCells()->deleteRows(2,1,true);
 
@@ -113,7 +113,7 @@ To delete a row at any location, call the deleteRows method of the Cells col
 
 {{< /highlight >}}
 ### **Deleting Multiple Rows**
-To delete multiple rows from a worksheet, call the deleteRows method of the Cells collection. The DeleteRows method takes two parameters:
+To delete multiple rows from a worksheet, call the `deleteRows` method of the `Cells` collection. The `DeleteRows` method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
 - Number of rows, total number of rows that need to be deleted.
@@ -126,7 +126,7 @@ To delete multiple rows from a worksheet, call the deleteRows method of the C
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -134,7 +134,7 @@ To delete multiple rows from a worksheet, call the deleteRows method of the C
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Deleting 10 rows from the worksheet starting from 3rd row
+    # Deleting 10 rows from the worksheet starting from the 3rd row
 
     $worksheet->getCells()->deleteRows(2,10,true);
 
@@ -148,10 +148,10 @@ To delete multiple rows from a worksheet, call the deleteRows method of the C
 
 {{< /highlight >}}
 ### **Inserting a Column**
-Developers can also insert a column into the worksheet at any location by calling the insertColumns method of the Cells collection. insertColumns method takes two parameters:
+Developers can also insert a column into the worksheet at any location by calling the `insertColumns` method of the `Cells` collection. `insertColumns` method takes two parameters:
 
-- Column index, the index of the column from where the column will be inserted
-- Number of columns, total number of columns that need to be inserted
+- Column index, the index of the column from where the column will be inserted.
+- Number of columns, total number of columns that need to be inserted.
 
 **PHP Code**
 
@@ -161,7 +161,7 @@ Developers can also insert a column into the worksheet at any location by callin
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -169,7 +169,7 @@ Developers can also insert a column into the worksheet at any location by callin
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Inserting a column into the worksheet at 2nd position
+    # Inserting a column into the worksheet at the 2nd position
 
     $worksheet->getCells()->insertColumns(1,1);
 
@@ -183,7 +183,7 @@ Developers can also insert a column into the worksheet at any location by callin
 
 {{< /highlight >}}
 ### **Deleting a Column**
-To delete a column from the worksheet at any location, call the deleteColumns method of the Cells collection. The deleteColumns method takes the following parameters:
+To delete a column from the worksheet at any location, call the `deleteColumns` method of the `Cells` collection. The `deleteColumns` method takes the following parameters:
 
 - Column index, the index of the column from where the column will be deleted.
 - Number of columns, total number of columns that need to be deleted.
@@ -197,7 +197,7 @@ To delete a column from the worksheet at any location, call the deleteColumns 
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object by an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -205,7 +205,7 @@ To delete a column from the worksheet at any location, call the deleteColumns 
 
     $worksheet = $workbook->getWorksheets()->get(0);
 
-    # Deleting a column from the worksheet at 2nd position
+    # Deleting a column from the worksheet at the 2nd position
 
     $worksheet->getCells()->deleteColumns(1,1,true);
 
@@ -215,10 +215,10 @@ To delete a column from the worksheet at any location, call the deleteColumns 
 
     print "Delete Column Successfully." . PHP_EOL;
 
-}  
+}    
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Managing Rows/Columns (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Managing Rows/Columns (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

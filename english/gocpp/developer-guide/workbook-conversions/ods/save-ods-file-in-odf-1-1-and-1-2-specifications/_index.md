@@ -13,6 +13,6 @@ Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the O
 
 {{% /alert %}}
 
-The sample code below creates a workbook object, adds some value to cell A1 on the first worksheet and then saves the ODS file in ODF 1.1, 1.2 and 1.3 specifications. By default, the ODS file is saved in ODF 1.2 specification.
+The sample code below creates a workbook object, adds a value to cell A1 on the first worksheet, and then saves the ODS file in ODF 1.1, 1.2 and 1.3 specifications. By default, the ODS file is saved in ODF 1.2 specification.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SaveOdsFileInOdf11And12Specifications.go" >}}

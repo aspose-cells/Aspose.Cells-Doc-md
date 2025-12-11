@@ -1,50 +1,48 @@
-
----
-title: Workbook Related Settings for GridJs
-type: docs
-weight: 250
-url: /net/aspose-cells-gridjs/settings/
-description: This article describes the workbook settings for GridJs.
-keywords: GridJs,settings,GridWorkbookSettings,workbook_settings
-aliases:
-  - /net/aspose-cells-gridjs/how-to-use-settings/
-  - /net/aspose-cells-gridjs/work-with-settings/
-  - /net/aspose-cells-gridjs/work-with-workbook-settings/
-ai_search_scope: cells_net
+---  
+title: Workbook Related Settings for GridJs  
+type: docs  
+weight: 250  
+url: /net/aspose-cells-gridjs/settings/  
+description: This article describes the workbook settings for GridJs.  
+keywords: GridJs,settings,GridWorkbookSettings,workbook_settings  
+aliases:  
+  - /net/aspose-cells-gridjs/how-to-use-settings/  
+  - /net/aspose-cells-gridjs/work-with-settings/  
+  - /net/aspose-cells-gridjs/work-with-workbook-settings/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-# Settings for GridJs
+# Settings for GridJs  
 
-## Overview
+## Overview  
 
-GridJs provides comprehensive configuration options through the `GridWorkbookSettings` class. These settings allow developers to customize various aspects of Excel file processing, including calculation behavior, metadata management, and performance optimization.
+GridJs provides comprehensive configuration options through the `GridWorkbookSettings` class. These settings allow developers to customize various aspects of Excel file processing, including calculation behavior, metadata management, and performance optimization.  
 
-## GridWorkbookSettings Class
+## GridWorkbookSettings Class  
 
-The [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings) class serves as the central configuration hub for GridJs operations.
+The [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings) class serves as the central configuration hub for GridJs operations.  
 
-### Key Configuration Areas
+### Key Configuration Areas  
 
-- **Calculation Settings**: Control formula recalculation behavior
-- **Metadata Management**: Set file properties and author information
-- **Performance Optimization**: Configure caching and resource management
+- **Calculation Settings**: Control formula recalculation behavior  
+- **Metadata Management**: Set file properties and author information  
+- **Performance Optimization**: Configure caching and resource management  
 
+## Basic Usage Examples  
 
-## Basic Usage Examples
-
-### Disabling Recalculation on File Open
+### Disabling Recalculation on File Open  
 
 ```csharp
 GridJsWorkbook gw = new GridJsWorkbook();
 GridWorkbookSettings gws = new GridWorkbookSettings();
-// Do not re-calculate all formulas on opening the file
+// Do not re‑calculate all formulas on opening the file
 gws.ReCalculateOnOpen = false;
 gw.Settings = gws;
 gw.ImportExcelFile(@"c:\test.xlsx");
-```
+```  
 
-### Setting File Metadata
+### Setting File Metadata  
 
 ```csharp
 GridJsWorkbook gw = new GridJsWorkbook();
@@ -53,31 +51,30 @@ GridWorkbookSettings gws = new GridWorkbookSettings();
 gws.Author = "peter";
 gw.Settings = gws;
 gw.ImportExcelFile(@"c:\test.xlsx");
-```
+```  
 
-## Common Settings Reference
+## Common Settings Reference  
 
-### Calculation-Related Settings
+### Calculation‑Related Settings  
 
-- `ReCalculateOnOpen`: Controls whether formulas are recalculated when opening files,default is true.
-- `ForceFullCalculate`: Enables forced full calculation cycles
-- `CreateCalcChain`:  Controls whether create calculated formulas chain,default is false.
-- `Iteration`:  Controls whether use iteration to resolve circular references,default is true.
-- `MaxIteration`: Set the maximum number of iterations to resolve a circular reference, the default value is 100.
+- `ReCalculateOnOpen`: Controls whether formulas are recalculated when opening files; default is true.  
+- `ForceFullCalculate`: Enables forced full calculation cycles.  
+- `CreateCalcChain`: Controls whether to create a calculated formulas chain; default is false.  
+- `Iteration`: Controls whether to use iteration to resolve circular references; default is true.  
+- `MaxIteration`: Sets the maximum number of iterations to resolve circular references; the default value is 100.  
 
-### Metadata Settings
+### Metadata Settings  
 
-- `Author`: Specifies the file author
+- `Author`: Specifies the file author.  
 
+### Performance Settings  
 
-### Performance Settings
+- `CheckCustomNumberFormat`: Validates custom number format when setting `Style.Custom`.  
+- `CheckExcelRestriction`: Controls whether to check restrictions of the Excel file when the user modifies cell‑related objects.  
 
-- `CheckCustomNumberFormat`: Validates custom number format when setting Style.Custom
-- `CheckExcelRestriction`: Controls Whether check restriction of excel file when user modify cells related objects
+## Advanced Configuration  
 
-## Advanced Configuration
-
-### Batch Settings Application
+### Batch Settings Application  
 
 ```csharp
 GridJsWorkbook gw = new GridJsWorkbook();
@@ -90,18 +87,15 @@ gws.CheckCustomNumberFormat = true;
 gws.CheckExcelRestriction = true;
 gw.Settings = gws;
 gw.ImportExcelFile(@"c:\test.xlsx");
-```
+```  
 
-## Demo and Examples
+## Demo and Examples  
 
-For comprehensive implementation examples and detailed usage scenarios, refer to the official demo repository:
+For comprehensive implementation examples and detailed usage scenarios, refer to the official demo repository:  
 
-<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/main/Examples_GridJs>  
 
-## Additional Resources
+## Additional Resources  
 
-- [GridJs Server API Documentation](https://reference.aspose.com/cells/net/aspose.cells.gridjs)
-- [GridJs Client API Documentation](https://docs.aspose.com/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api)
-
----
-
+- [GridJs Server API Documentation](https://reference.aspose.com/cells/net/aspose.cells.gridjs)  
+- [GridJs Client API Documentation](https://docs.aspose.com/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api)  

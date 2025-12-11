@@ -1,10 +1,10 @@
----
-title: Get the Version Number of the Application that Created the Excel Document with JavaScript via C++
-linktitle: Get the Version Number of the Application that Created the Excel Document
-type: docs
-weight: 210
-url: /javascript-cpp/get-the-version-number-of-the-application-that-created-the-excel-document/
----
+---  
+title: Get the Version Number of the Application that Created the Excel Document with JavaScript via C++  
+linktitle: Get the Version Number of the Application that Created the Excel Document  
+type: docs  
+weight: 210  
+url: /javascript-cpp/get-the-version-number-of-the-application-that-created-the-excel-document/  
+---  
 
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ Often you need to know the version number of the application that created a Micr
 
 {{% /alert %}}
 
-The following sample code demonstrates the use of the [**Workbook.builtInDocumentProperties**](https://reference.aspose.com/cells/javascript-cpp/workbook/#builtInDocumentProperties--) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.
+The following sample code demonstrates the use of the [**Workbook.builtInDocumentProperties**](https://reference.aspose.com/cells/javascript-cpp/workbook/#builtInDocumentProperties--) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010, and 2013, and prints the version number of the application that created these Excel documents.
 
 ```html
 <!DOCTYPE html>
@@ -55,9 +55,9 @@ The following sample code demonstrates the use of the [**Workbook.builtInDocumen
             let outputHtml = '<h2>File Versions</h2><ul>';
             for (const file of fileInput.files) {
                 const arrayBuffer = await file.arrayBuffer();
-                // Instantiating a Workbook object from the uploaded file
+                // Instantiate a Workbook object from the uploaded file
                 const workbook = new Workbook(new Uint8Array(arrayBuffer));
-                // Access built-in document properties and read version
+                // Access the built‑in document properties and read the version
                 const version = workbook.builtInDocumentProperties.version;
                 console.log(file.name + " Version: " + version);
                 outputHtml += `<li><strong>${file.name}</strong>: ${version}</li>`;

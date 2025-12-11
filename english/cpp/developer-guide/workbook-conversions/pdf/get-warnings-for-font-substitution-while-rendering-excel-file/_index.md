@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, when rendering a Microsoft Excel file to PDF, Aspose.Cells substitutes fonts. Aspose.Cells provides a feature that lets developers know what particular font has been substituted by firing a warning. This is a useful feature that can help you identify why an Aspose.Cells rendered PDF looks different from the original Microsoft Excel file so you can take appropriate actions. For example, installing the missing fonts so that rendering results look the same.
+Sometimes, when rendering a Microsoft Excel file to PDF, Aspose.Cells substitutes fonts. Aspose.Cells provides a feature that lets developers know which particular font has been substituted by firing a warning. This is a useful feature that can help you identify why an Aspose.Cells rendered PDF looks different from the original Microsoft Excel file so you can take appropriate actions. For example, installing the missing fonts so that rendering results look the same.
 
 {{% /alert %}}
 
 To get warnings for font substitution when rendering Excel files to PDF, implement the `IWarningCallback` interface and set the `PdfSaveOptions.WarningCallback` property with your implemented interface.
 
-The screenshot below shows a source Excel file that we will use in the following code. It has some text in the cells A6 and A7 in fonts that are not rendered fine by Microsoft Excel.
+The screenshot below shows a source Excel file that we will use in the following code. It has some text in the cells A6 and A7 in fonts that are not rendered correctly by Microsoft Excel.
 
 |**Not all fonts are rendered correctly**|
 | :- |
@@ -36,7 +36,7 @@ You can download the source Excel file and the output PDF from the following lin
 - [output.pdf](5112616.pdf)
 
 ## **Code**
-The following code implements the `IWarningCallback` and sets the `PdfSaveOptions.WarningCallback` property with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the `WarningCallback.Warning()` method.
+The following code implements the `IWarningCallback` and sets the `PdfSaveOptions.WarningCallback` property with the implemented interface. Now, whenever any font is substituted in any cell, Aspose.Cells will fire a warning inside the `WarningCallback.Warning()` method.
 
 ```c++
 #include <iostream>
@@ -86,7 +86,7 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call `Workbook.CalculateFormula` method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula-dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call `Workbook.CalculateFormula` method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="cpp" >}}

@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can check if your VBA project is signed or not using Microsoft Excel via **Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/issigned).
+You can check if your VBA project is signed or not using Microsoft Excel via **the Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/issigned).
 
 {{% /alert %}}
 
-## **Check if VBA project in a Workbook is Signed in C++**
+## **Check if a VBA project in a workbook is signed in C++**
 
-The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/issigned) property. The property will return **true** if the project is signed otherwise it will return **false**.
+The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/issigned) property. The property will return **true** if the project is signed, otherwise it will return **false**.
 
 ```c++
 #include <iostream>

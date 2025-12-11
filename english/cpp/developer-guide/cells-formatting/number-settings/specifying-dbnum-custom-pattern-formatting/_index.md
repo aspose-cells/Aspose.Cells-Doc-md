@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom formatting as [DBNum2][$-804]General then it will be displayed like 壹佰贰拾叁. You can specify your custom formatting of the cell using [**Cell.GetStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/) method and [**Style.Custom**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getcustom/) property.
+Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom format as `[DBNum2][$-804]General`, it will be displayed as **壹佰贰拾叁**. You can specify the custom format of the cell using the [**Cell.GetStyle()**](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstyle/) method and the [**Style.Custom**](https://reference.aspose.com/cells/cpp/aspose.cells/style/getcustom/) property.
 
 ## **Sample Code**
 

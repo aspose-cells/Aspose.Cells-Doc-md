@@ -15,9 +15,9 @@ Aspose.Cells allows you to set a gradient, texture, pattern or picture as fill e
 
 {{% /alert %}}
 
-To achieve this, Aspose.Cells provides the [**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) property. The following code sample demonstrates the use of [**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) property to set a picture as a background fill in the chart.
+To achieve this, Aspose.Cells provides the [**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) property. The following code sample demonstrates the use of the [**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) property to set a picture as a background fill in the chart.
 
-## C# code to set picture as background fill in the chart
+## C# code to set a picture as background fill in the chart
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

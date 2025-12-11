@@ -1,34 +1,35 @@
----
-title: Display or Hide Tabs in Php
-type: docs
-weight: 30
-url: /java/display-or-hide-tabs-in-php/
+---  
+title: Display or Hide Tabs in PHP  
+type: docs  
+weight: 30  
+url: /java/display-or-hide-tabs-in-php/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Display or Hide Tabs**
-### **Hiding Tabs**
-To hide tabs using **Aspose.Cells Java for PHP**, call **displayhidetabs** module.
+## **Aspose.Cells - Display or Hide Tabs**  
+### **Hiding Tabs**  
+To hide tabs using **Aspose.Cells Java for PHP**, call the **displayhidetabs** module.  
 
-**PHP Code**
+**PHP Code**  
 
-{{< highlight php >}}
+{{< highlight php >}}  
 
- //Instantiating a Workbook object by excel file path
+// Instantiating a Workbook object by Excel file path  
 
-$workbook = new Workbook($dataDir . "book1.xls");
+$workbook = new Workbook($dataDir . "book1.xls");  
 
-//Hiding the tabs of the Excel file
+// Hiding the tabs of the Excel file  
 
-$workbook->getSettings()->setShowTabs(false);
+$workbook->getSettings()->setShowTabs(false);  
 
-//Saving the modified Excel file in default (that is Excel 2003) format
+// Saving the modified Excel file in the default (i.e., Excel 2003) format  
 
-$workbook->save($dataDir + "output.xls");
+$workbook->save($dataDir . "output.xls");  
 
-{{< /highlight >}}
-## **Download Running Code**
-Download **Hide or Display or Hide Tabs (Aspose.Cells)** from any of the below mentioned social coding sites:
+{{< /highlight >}}  
+
+## **Download Running Code**  
+Download **Hide or Display Tabs (Aspose.Cells)** from any of the below‑mentioned social coding sites:  
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

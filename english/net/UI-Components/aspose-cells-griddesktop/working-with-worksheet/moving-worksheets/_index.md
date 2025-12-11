@@ -4,7 +4,7 @@ type: docs
 weight: 150
 url: /net/aspose-cells-griddesktop/move-worksheets/
 keywords: GridDesktop,move,worksheet
-description: This article introduces how to work with worksheet in GridDesktop.
+description: This article introduces how to work with worksheets in GridDesktop.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -15,7 +15,7 @@ Aspose.Cells.GridDesktop supports moving worksheets within the workbook.
 
 {{% /alert %}} 
 ## **Move Worksheets within a Workbook**
-Aspose.Cells.GridDesktop provides a method, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), that is used to move a worksheet to the specified index. It takes the indexes (zero-based) of the source worksheet and destination worksheet as parameters. It is basically used to move a worksheet to another location in the same spreadsheet.
+Aspose.Cells.GridDesktop provides a method, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), that is used to move a worksheet to the specified index. It takes the indexes (zero‑based) of the source worksheet and destination worksheet as parameters. It is used to move a worksheet to another location in the same spreadsheet.
 
 The following example shows how to move a worksheet to another location within the workbook.
 

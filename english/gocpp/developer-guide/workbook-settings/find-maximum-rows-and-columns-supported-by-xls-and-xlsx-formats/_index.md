@@ -1,5 +1,5 @@
 ---
-title: Find Maximum Rows and Columns supported by XLS and XLSX formats with Golang via C++
+title: Find the Maximum Rows and Columns Supported by XLS and XLSX Formats with Go via C++
 linktitle: Find Maximum Rows and Columns
 type: docs
 weight: 20
@@ -9,11 +9,11 @@ description: Learn how to find the maximum rows and columns supported by XLS and
 
 ## **Possible Usage Scenarios**
 
-There are different numbers of rows and columns supported by Excel formats. For example, XLS supports 65536 rows and 256 columns while XLSX supports 1048576 rows and 16384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**GetMaxRow()**](https://reference.aspose.com/cells/go-cpp/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties.
+Excel formats support different numbers of rows and columns. For example, XLS supports 65,536 rows and 256 columns, while XLSX supports 1,048,576 rows and 16,384 columns. If you want to know how many rows and columns are supported by a given format, you can use [**GetMaxRow()**](https://reference.aspose.com/cells/go-cpp/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties.
 
-## **Find Maximum Rows and Columns supported by XLS and XLSX formats**
+## **Find Maximum Rows and Columns Supported by XLS and XLSX Formats**
 
-The following sample code creates a workbook first in XLS and then in XLSX format. After creation, it prints the values of [**GetMaxRow()**](https://reference.aspose.com/cells/go-cpp/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties. Please see the console output of the code given below for your reference.
+The following sample code creates a workbook first in XLS format and then in XLSX format. After creation, it prints the values of the [**GetMaxRow()**](https://reference.aspose.com/cells/go-cpp/workbooksettings/getmaxrow/) and [**GetMaxColumn()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbooksettings/getmaxcolumn/) properties. Please see the console output provided below for your reference.
 
 ## **Sample Code**
 
@@ -22,13 +22,13 @@ The following sample code creates a workbook first in XLS and then in XLSX forma
 
 {{< highlight java >}}
 
-Maximum Rows and Columns supported by XLS format.
+Maximum rows and columns supported by XLS format.
 
 Maximum Rows: 65536
 
 Maximum Columns: 256
 
-Maximum Rows and Columns supported by XLSX format.
+Maximum rows and columns supported by XLSX format.
 
 Maximum Rows: 1048576
 

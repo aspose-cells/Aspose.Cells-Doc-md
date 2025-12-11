@@ -11,21 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells for Python via .NET provides the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property which returns the reference of the worksheet that contains the chart.
+Sometimes you want to access the worksheet from a chart reference. Aspose.Cells for Python via .NET provides the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property, which returns a reference to the worksheet that contains the chart.
 
 {{% /alert %}}
 
-The following example shows how to use the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property.
+The following example shows how to use the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.worksheet**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/worksheet) property.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-GetWorksheetOfTheChart.py" >}}
 
-Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
+Below is the console output that the sample code produces. As you can see, it prints the same worksheet name both times.
 
 {{< highlight java >}}
-
 Sheet Name: Portfolio
 
 Chart's Sheet Name: Portfolio
-
 {{< /highlight >}}
 {{< app/cells/assistant language="python-net" >}}

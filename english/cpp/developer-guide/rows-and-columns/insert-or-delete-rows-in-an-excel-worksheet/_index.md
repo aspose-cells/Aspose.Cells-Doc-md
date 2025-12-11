@@ -1,26 +1,26 @@
----
-title: Insert or Delete Rows in an Excel Worksheet with C++
-linktitle: Insert or Delete Rows
-type: docs
-weight: 20
-url: /cpp/insert-or-delete-rows-in-an-excel-worksheet/
-description: This article provides the C++ code to insert and delete rows in an Excel worksheet.
-keywords: c++ insert or delete rows in excel worksheet, c++ insert or delete rows in excel, c++ insert rows in excel, c++ delete rows in excel, insert or delete rows in excel worksheet with c++, insert or delete rows in excel with c++, insert rows in excel with c++, delete rows in excel with c++
+---  
+title: Insert or Delete Rows in an Excel Worksheet with C++  
+linktitle: Insert or Delete Rows  
+type: docs  
+weight: 20  
+url: /cpp/insert-or-delete-rows-in-an-excel-worksheet/  
+description: This article provides the C++ code to insert and delete rows in an Excel worksheet.  
+keywords: c++ insert or delete rows in excel worksheet, c++ insert or delete rows in excel, c++ insert rows in excel, c++ delete rows in excel, insert or delete rows in excel worksheet with c++, insert or delete rows in excel with c++, insert rows in excel with c++, delete rows in excel with c++  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-When creating a new worksheet, or working with an existing worksheet, you might need to add extra rows or columns to accommodate data. At other times, you might need to delete rows or columns from specified positions in the worksheet.
+When creating a new worksheet, or working with an existing worksheet, you might need to add extra rows or columns to accommodate data. At other times, you might need to delete rows or columns from specified positions in the worksheet.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-Aspose.Cells offers two methods for inserting and deleting rows: [**Cells.InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) and [**Cells.DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/). These methods are optimized for performance and do the job very quickly.
+Aspose.Cells offers two methods for inserting and deleting rows: [**Cells.InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) and [**Cells.DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/). These methods are optimized for performance and do the job very quickly.  
 
-To insert or remove a number of rows, we recommend that you always use the [**Cells.InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) and [**Cells.DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) methods instead of using the [**Cells.InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) or [**DeleteRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterow/) methods in a loop.
+To insert or remove a number of rows, we recommend that you use the [**Cells.InsertRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) and [**Cells.DeleteRows**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) methods instead of using the [**Cells.InsertRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) or [**DeleteRow**](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterow/) methods in a loop.  
 
-Aspose.Cells works in the same way as Microsoft Excel does. When rows or columns are added, the worksheet content is shifted down and to the right. When rows or columns are removed, the worksheet content is shifted up or to the left. Any references in other worksheets and cells are updated when rows are added or removed.
+Aspose.Cells works in the same way as Microsoft Excel does. When rows or columns are added, the worksheet content is shifted down and to the right. When rows or columns are removed, the worksheet content is shifted up or to the left. Any references in other worksheets and cells are updated when rows are added or removed.  
 
 ```cpp
 #include <iostream>
@@ -38,10 +38,10 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"book1.xlsx";
 
-    // Path of output excel file
+    // Path of output Excel file
     U16String outputFilePath = outDir + u"out_book1.out.xlsx";
 
     // Create workbook
@@ -56,12 +56,12 @@ int main()
     // Delete 5 rows now. (8th row - 12th row)
     sheet.GetCells().DeleteRows(7, 5);
 
-    // Save the excel file
+    // Save the Excel file
     workbook.Save(outputFilePath);
 
     std::cout << "Rows inserted and deleted successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

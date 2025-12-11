@@ -12,9 +12,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Possible Usage Scenarios**
 When the numbers in a chart vary widely from data series to data series, or when you have mixed types of data (price and volume), plot one or more data series on a secondary vertical (value) axis.  The scale of the secondary vertical axis shows the values for the associated data series.  A secondary axis works well in a chart that shows a combination of column and line charts.
 
-## **Handle Primary and Second Axis like Microsoft Excel**
-Please see the following sample code that creates a new Excel file and puts values of the chart in the first worksheet. 
-Then we add a chart and show the second-axis.
+## **Handle Primary and Secondary Axis like Microsoft Excel**
+Please see the following sample code that creates a new Excel file and puts the values of the chart in the first worksheet. Then we add a chart and show the secondary axis.
 
 ![todo:image_alt_text](excel.png)
 
@@ -33,7 +32,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access the first worksheet.
 const worksheet = workbook.getWorksheets().get(0);
 
-// Put the sample values used in a chart
+// Put the sample values used in the chart
 worksheet.getCells().get("A1").putValue("Region");
 worksheet.getCells().get("A2").putValue("Peking");
 worksheet.getCells().get("A3").putValue("New York");
@@ -55,9 +54,9 @@ const chart = worksheet.getCharts().get(pieIdx);
 chart.getNSeries().add("B2:C4", true);
 // Set the category data
 chart.getNSeries().setCategoryData("=Sheet1!$A$2:$A$4");
-// Set the Second-Axis
+// Set the secondary axis
 chart.getNSeries().get(1).setPlotOnSecondAxis(true);
-// Show the Second-Axis
+// Show the secondary axis
 chart.getSecondValueAxis().setIsVisible(true);
 // Set the second series ChartType to line
 chart.getNSeries().get(1).setType(AsposeCells.ChartType.Line);
@@ -66,7 +65,7 @@ chart.getNSeries().get(0).setName("Sales Volume");
 chart.getNSeries().get(1).setName("Growth Rate");
 // Set the Legend at the bottom of the chart area
 chart.getLegend().setPosition(AsposeCells.LegendPositionType.Bottom);
-// Fill the PlotArea area with nothing
+// Fill the PlotArea area with no fill
 chart.getPlotArea().getArea().getFillFormat().setFillType(AsposeCells.FillType.None);
 // Save the file
 workbook.save("PrimaryandSecondaryAxis.xlsx");

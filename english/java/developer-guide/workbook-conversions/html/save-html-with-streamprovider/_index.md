@@ -9,9 +9,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-When converting excel fiels which contain images and shapes to html files, we offen face the following two issues:
-1. Where should we save the images and shapes when saving excel file to html stream.
-1. Replace the default path with excepted path.
+When converting Excel files which contain images and shapes to HTML files, we often face the following two issues:
+1. Where should we save the images and shapes when saving an Excel file to an HTML stream?
+2. Replace the default path with the expected path.
 
 This article explains how to implement [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) interface for setting the [**HtmlSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#setStreamProvider-com.aspose.cells.IStreamProvider-) property. By implementing this interface, you will be able to save the created resources during HTML generation to your specific locations or memory streams.
 

@@ -15,3 +15,5 @@ Aspose.Cells provides comprehensive tools for working with Smart Art shapes in E
 
 {{% /alert %}}
 {{< app/cells/assistant language="cpp" >}}
+
+

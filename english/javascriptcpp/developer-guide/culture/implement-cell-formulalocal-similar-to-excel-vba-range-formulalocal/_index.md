@@ -4,16 +4,16 @@ linktitle: Implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal
 type: docs
 weight: 30
 url: /javascript-cpp/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/
-description: Learn how to implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal using Aspose.Cells for JavaScript via C++. 
+description: Learn how to implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal using Aspose.Cells for JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**
 
-Microsoft Excel Formulas may have different names in different locales or regions or languages. For example, **SUM** function is called **SUMME** in German. Aspose.Cells cannot work with non-English function names. In Microsoft Excel VBA, there is **Range.FormulaLocal** property that returns the name of the function as per its language or region. Aspose.Cells for JavaScript via C++ also provides [**Cell.formulaLocal**](https://reference.aspose.com/cells/javascript-cpp/cell/#formulaLocal--) property for this purpose. However, this property will only work when you implement [**GlobalizationSettings.localFunctionName(standardName)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#localFunctionName-string-) method.
+Microsoft Excel formulas may have different names in different locales, regions, or languages. For example, **SUM** function is called **SUMME** in German. Aspose.Cells cannot work with non‑English function names. In Microsoft Excel VBA, there is **Range.FormulaLocal** property that returns the name of the function according to its language or region. Aspose.Cells for JavaScript via C++ also provides [**Cell.formulaLocal**](https://reference.aspose.com/cells/javascript-cpp/cell/#formulaLocal--) property for this purpose. However, this property will only work when you implement the [**GlobalizationSettings.localFunctionName(standardName)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#localFunctionName-string-) method.
 
 ## **Implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal**
 
-The following sample code explains how to implement [**GlobalizationSettings.localFunctionName(standardName)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#localFunctionName-string-) method. The method returns the local name of the standard function. If the standard function name is **SUM**, it returns **UserFormulaLocal_SUM**. You can change the code as per your needs and return the correct local function names e.g. **SUM** is **SUMME** in German and **TEXT** is **ТЕКСТ** in Russian. Please also see the console output of the sample code given below for reference.
+The following sample code explains how to implement the [**GlobalizationSettings.localFunctionName(standardName)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#localFunctionName-string-) method. The method returns the local name of the standard function. If the standard function name is **SUM**, it returns **UserFormulaLocal_SUM**. You can change the code as per your needs and return the correct local function names—for example, **SUM** is **SUMME** in German and **TEXT** is **ТЕКСТ** in Russian. Please also see the console output of the sample code given below for reference.
 
 ## **Sample Code**
 
@@ -78,11 +78,11 @@ The following sample code explains how to implement [**GlobalizationSettings.loc
             // Access some cell
             const cell = ws.cells.get("C4");
 
-            // Assign SUM formula and get its FormulaLocal
+            // Assign the SUM formula and get its FormulaLocal
             cell.formula = "SUM(A1:A2)";
             const formulaLocal1 = cell.formulaLocal;
 
-            // Assign AVERAGE formula and get its FormulaLocal
+            // Assign the AVERAGE formula and get its FormulaLocal
             cell.formula = "=AVERAGE(B1:B2, B5)";
             const formulaLocal2 = cell.formulaLocal;
 

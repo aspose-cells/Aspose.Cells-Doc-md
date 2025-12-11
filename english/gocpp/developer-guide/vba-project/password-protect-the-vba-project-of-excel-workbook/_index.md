@@ -7,7 +7,7 @@ url: /go-cpp/password-protect-the-vba-project-of-excel-workbook/
 description: Learn how to password protect the VBA Project of an Excel workbook using Aspose.Cells with Golang via C++.
 ---
 
-## **Password Protect the VBA Project of Excel Workbook in C++**
+## **Password-Protect the VBA Project of Excel Workbook in C++**
 
 You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells using the [**VbaProject.Protect()**](https://reference.aspose.com/cells/go-cpp/vbaproject/protect/) method.
 

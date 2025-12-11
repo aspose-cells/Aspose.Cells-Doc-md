@@ -65,8 +65,8 @@ wb = Workbook(os.path.join(file_path, "SampleSheet.xlsx"))
 worksheet = wb.worksheets[0]
 chart = worksheet.charts.get("Graphiq5")
 
-# Set some points as total column
-# In this example, we set points 0, 4, 8, 12 as total
+# Set some points as total columns
+# In this example, we set points 0, 4, 8, 12 as totals
 chart.n_series[0].layout_properties.subtotals = [0, 4, 8, 12]
 wb.save(os.path.join(file_path, "output.xlsx"))
 ```

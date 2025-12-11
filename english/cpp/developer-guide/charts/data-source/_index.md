@@ -21,7 +21,7 @@ There are two types of data to deal with while working on charts using Aspose.Ce
 
 ### **Chart Data**
 
-Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/) object's [**Add**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/add/) method.
+Chart data is the data that we use as a data source to build our charts. We can add a range of cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/) object's [**Add**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/seriescollection/add/) method.
 
 ```cpp
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
     // Accessing the instance of the newly added chart
     Chart chart = worksheet.GetCharts().Get(chartIndex);
 
-    // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
+    // Adding SeriesCollection (chart data source) to the chart ranging from "A1" cells to "B4"
     chart.GetNSeries().Add(u"A1:B4", true);
 
     // Saving the Excel file
@@ -133,7 +133,7 @@ int main()
     // Access the instance of the newly added chart
     Chart chart = worksheet.GetCharts().Get(chartIndex);
 
-    // Add SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B4"
+    // Add SeriesCollection (chart data source) to the chart ranging from "A1" to "B4"
     chart.GetNSeries().Add(u"A1:B4", true);
 
     // Set the data source for the category data of SeriesCollection
@@ -148,7 +148,7 @@ int main()
 }
 ```
 
-## **Advance Topics**
+## **Advanced Topics**
 - [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/cpp/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
 - [Create Dynamic Charts](/cells/cpp/create-dynamic-charts/)
 - [Easy way for Chart Setup using Chart.SetChartDataRange method](/cells/cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)

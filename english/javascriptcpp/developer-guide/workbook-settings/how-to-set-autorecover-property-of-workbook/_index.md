@@ -8,12 +8,12 @@ description: Learn how to set the AutoRecover property of a workbook using Aspos
 ---
 
 {{% alert color="primary" %}}  
-You can use Aspose.Cells to set the AutoRecover property of the workbook. The default value of this property is **true**. When you set it **false** on a workbook, Microsoft Excel disables AutoRecover (Autosave) on that Excel file.  
+You can use Aspose.Cells to set the AutoRecover property of the workbook. The default value of this property is **true**. When you set it to **false** on a workbook, Microsoft Excel disables AutoRecover (Autosave) on that Excel file.  
 
 Aspose.Cells provides [**Workbook.autoRecover**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#autoRecover--) property to enable or disable this option.  
 {{% /alert %}}  
 
-The following code explains how to use [**Workbook.autoRecover**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#autoRecover--) property of the workbook. The code first reads the default value of this property which is **true**, then it sets it as **false** and saves the workbook. Then it reads the workbook again and reads the value of this property which is **false** at this time.  
+The following code demonstrates how to use the [**Workbook.autoRecover**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#autoRecover--) property of the workbook. The code first reads the default value of this property, which is **true**, then it sets it to **false** and saves the workbook. Afterwards, it reads the workbook again and obtains the value of this property, which is **false** at this time.  
 
 ## JavaScript code to set the AutoRecover property of Workbook  
 
@@ -81,8 +81,6 @@ The following code explains how to use [**Workbook.autoRecover**](https://refere
 ```  
 
 ## **Output**  
-
-
 
 {{< highlight java >}}  
 AutoRecover: True  

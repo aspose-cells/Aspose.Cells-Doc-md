@@ -4,8 +4,8 @@ linktitle: Convert CSV, TSV and TXT to Excel
 type: docs  
 weight: 30  
 url: /nodejs-cpp/convert-csv-tsv-and-txt-to-excel/  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
@@ -14,7 +14,7 @@ Using Aspose.Cells, you can convert CSV files to Excel, OpenOffice, PDF, JSON, a
 
 ## **Opening CSV Files**  
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.  
+Comma‑separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double‑quote character. If a field value contains a double‑quote character, it is escaped with a pair of double‑quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.  
 
 ```javascript
 const path = require("path");
@@ -29,9 +29,9 @@ const wbCSV = new AsposeCells.Workbook(path.join(dataDir, "Book_CSV.csv"), loadO
 console.log("CSV file opened successfully!");
 ```  
 
-## **Opening CSV files and replacing invalid characters**  
+## **Opening CSV Files and Replacing Invalid Characters**  
 
-In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API which is demonstrated in the code example given below.  
+In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same behavior is provided by the Aspose.Cells API, as demonstrated in the code example below.  
 
 ```javascript
 const path = require("path");
@@ -55,10 +55,9 @@ console.log(workbook.getWorksheets().get(0).getName().length); // 31
 console.log("CSV file opened successfully!");
 ```  
 
-
 ### **Opening Text Files with Custom Separator**  
 
-Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.  
+Text files are used to hold spreadsheet data without formatting. They are plain‑text files that can have customized delimiters.  
 
 ```javascript
 const path = require("path");
@@ -86,7 +85,7 @@ wb.save(path.join(dataDir, "output.txt"));
 
 ### **Opening Tab Delimited Files**  
 
-Tab delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.  
+Tab‑delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain‑text file with a tab between each column.  
 
 ```javascript
 const path = require("path");
@@ -103,9 +102,9 @@ const wbTabDelimited = new AsposeCells.Workbook(path.join(dataDir, "Book1TabDeli
 console.log("Tab delimited file opened successfully!");
 ```  
 
-### **Opening Tab-Separated Values (TSV) Files**  
+### **Opening Tab‑Separated Values (TSV) Files**  
 
-Tab-separated values (TSV) files contain spreadsheet data but without any formatting. It is the same as a Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.  
+Tab‑separated values (TSV) files contain spreadsheet data but without any formatting. They are the same as a Tab‑delimited file, where data is arranged in rows and columns like in tables and spreadsheets.  
 
 ```javascript
 const path = require("path");
@@ -129,9 +128,8 @@ const cell = worksheet.getCells().get("C3");
 console.log("Cell Name: " + cell.getName() + " Value: " + cell.getStringValue());
 ```  
 
-## **Advance topics**  
+## **Advanced Topics**  
 - [Load or Import CSV file with Formulas](/cells/nodejs-cpp/load-or-import-csv-file-with-formulas/)  
 - [Reading CSV File with Multiple Encodings](/cells/nodejs-cpp/reading-csv-file-with-multiple-encodings/)  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

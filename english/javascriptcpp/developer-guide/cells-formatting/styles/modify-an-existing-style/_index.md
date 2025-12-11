@@ -1,7 +1,7 @@
 ---
 title: Modify an Existing Style
 linktitle: Modify an Existing Style
-description: Aspose.Cells is a JavaScript via C++ library for working with spreadsheet files that allows users to modify existing cell styles. This article will introduce how to modify an existing cell style with the Aspose.Cells library so that users can change the appearance of the cells as they need.
+description: Aspose.Cells is a JavaScript via C++ library for working with spreadsheet files that allows users to modify existing cell styles. This article introduces how to modify an existing cell style with the Aspose.Cells library so that users can change the appearance of the cells as they need.
 keywords: Modify existing styles, customize the look and feel of your application, guides, tutorials, help documentation, development documentation, API references, sample code, downloads, support.
 type: docs
 weight: 90
@@ -10,11 +10,11 @@ url: /javascript-cpp/modify-an-existing-style/
 
 {{% alert color="primary" %}}
 
-To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns etc., named and stored as a set. When applied, all of the formatting in that style are applied.
+To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns, etc., named and stored as a set. When applied, all of the formatting in that style is applied.
 
-You can also use an existing style, save it with the workbook and use to format information with the same attributes.
+You can also use an existing style, save it with the workbook, and use it to format information with the same attributes.
 
-When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.
+When cells aren't explicitly formatted, the **Normal** style (the workbook's default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style, including Comma, Currency, and Percent.
 
 Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.
 
@@ -24,17 +24,17 @@ Aspose.Cells allows modifying any of these styles or any other style that you de
 
 To update a style in Microsoft Excel 97-2003:
 
-1. On the **Format** menu, click **Style**.
-1. Select the style you want to modify from the **Style name** list.
-1. Click **Modify**.
-1. Select the style options that you want using the tabs in the Format Cells dialog.
-1. Click **OK**.
-1. Under **Style includes**, specify the style features you want.
-1. Click **OK** to save the style and apply it to the selected range.
+1. On the **Format** menu, click **Style**.  
+2. Select the style you want to modify from the **Style name** list.  
+3. Click **Modify**.  
+4. Select the style options that you want using the tabs in the **Format Cells** dialog.  
+5. Click **OK**.  
+6. Under **Style includes**, specify the style features you want.  
+7. Click **OK** to save the style and apply it to the selected range.
 
 ## **Using Aspose.Cells for JavaScript via C++**
 
-The following examples demonstrate how to use [**Style.update()**](https://reference.aspose.com/cells/javascript-cpp/style/#update--) method.
+The following examples demonstrate how to use the [**Style.update()**](https://reference.aspose.com/cells/javascript-cpp/style/#update--) method.
 
 ### **Creating and Modifying a Style**
 
@@ -91,23 +91,23 @@ This example creates a [**Style**](https://reference.aspose.com/cells/javascript
             // Set the number format.
             style.number = 14;
 
-            // Set the font color to red color.
+            // Set the font color to red.
             style.font.color = AsposeCells.Color.Red;
 
             // Name the style.
             style.name = "Date1";
 
-            // Get the first worksheet cells.
+            // Get the cells of the first worksheet.
             const cells = workbook.worksheets.get(0).cells;
 
-            // Specify the style (described above) to A1 cell.
+            // Apply the style (described above) to cell A1.
             const cellA1 = cells.get("A1");
             cellA1.style = style;
 
             // Create a range (B1:D1).
             const range = cells.createRange("B1", "D1");
 
-            // Initialize styleflag object.
+            // Initialize a StyleFlag object.
             const flag = new AsposeCells.StyleFlag();
 
             // Set all formatting attributes on.
@@ -119,12 +119,12 @@ This example creates a [**Style**](https://reference.aspose.com/cells/javascript
             // Modify the style (described above) and change the font color from red to black.
             style.font.color = AsposeCells.Color.Black;
 
-            // Done! Since the named style (described above) has been set to a cell and range, 
-            // The change would be reflected(new modification is implemented) to cell(A1) and 
-            // Range (B1:D1).
+            // Done! Since the named style (described above) has been set to a cell and a range,
+            // the change is reflected (the new modification is implemented) to cell A1 and
+            // range B1:D1.
             style.update();
 
-            // Save the excel file. 
+            // Save the Excel file.
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -142,11 +142,11 @@ This example creates a [**Style**](https://reference.aspose.com/cells/javascript
 
 ### **Modifying an Existing Style**
 
-This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:
+This example uses a simple template Excel file in which a style called **Percent** has already been applied to a range. The example:
 
-1. gets the style,
-1. creates a style object and
-1. modifies the style formatting.
+1. Gets the style.  
+2. (Optionally) creates a style object.  
+3. Modifies the style formatting.
 
 The modifications are automatically applied to the range the style was applied to.
 

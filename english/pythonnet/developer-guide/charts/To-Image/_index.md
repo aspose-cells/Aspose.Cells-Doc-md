@@ -12,21 +12,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Rendering Charts**
 
-Aspose.Cells for Python via .NET APIs support to convert the Excel Charts to images formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) class has exposed [**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) methods with a verity of overloads to best suit the application requirements.
+Aspose.Cells for Python via .NET APIs support converting Excel charts to image formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) class has exposed [**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) methods with a variety of overloads to best suit the application requirements.
 
 ### **Rendering Charts to Images**
 
-The [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method as follow.
+The [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method has a variety of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method as follows.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChartRendering-ChartRenderingChartToImage.py" >}}
 
-It is also possible to render the charts to images with advanced settings. Aspose.Cells for Python via .NET APIs have exposed an overload version of [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method that could accept an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/), while allowing to specify parameters such as resolution, smoothing mode, image format and so on.
+It is also possible to render the charts to images with advanced settings. Aspose.Cells for Python via .NET APIs have exposed an overload version of [**Chart.to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/to_image) method that can accept an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/), allowing you to specify parameters such as resolution, smoothing mode, image format, and so on.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.py" >}}
 
 ## **Supported Chart Types for Rendering**
 
-There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of the below table.
+There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of the table below.
 
 |**Chart type**|**Chart sub-type**|**Supported**|
 | :- | :- | :- |
@@ -114,10 +114,10 @@ There are a few chart types that are currently not supported for rendering. Such
 
 {{% alert color="primary" %}}
 
-In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
+In case you try to render the unsupported chart types to an image or PDF, you may end up with zero‑sized images or a blank PDF.
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert Chart to PDF](/cells/python-net/chart-to-pdf/)
 {{< app/cells/assistant language="python-net" >}}

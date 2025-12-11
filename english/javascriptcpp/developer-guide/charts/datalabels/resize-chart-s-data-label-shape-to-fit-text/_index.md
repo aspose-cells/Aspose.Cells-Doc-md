@@ -14,11 +14,11 @@ Excel application provides the **Resize shape to fit text** option for Chart's D
 
 ## **How to Resize Chart's Data Label Shape To Fit Text in Microsoft Excel**  
 
-This option can be accessed on the Excel interface by selecting any of the data labels on the chart. Right-click and select the **Format DataLabels** menu. On **Size & Properties** tab, expand **Alignment** to reveal the related properties including the **Resize shape to fix text** option.  
+This option can be accessed on the Excel interface by selecting any of the data labels on the chart. Right‑click and select the **Format DataLabels** menu. On the **Size & Properties** tab, expand **Alignment** to reveal the related properties, including the **Resize shape to fit text** option.  
 
 ## **How to Resize Chart's Data Label Shape To Fit Text Using Aspose.Cells for JavaScript via C++**  
 
-In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.isResizeShapeToFitText()**](https://reference.aspose.com/cells/javascript-cpp/charttextframe/#isResizeShapeToFitText--) property. The following piece of code shows the simple usage scenario of [**DataLabels.isResizeShapeToFitText()**](https://reference.aspose.com/cells/javascript-cpp/charttextframe/#isResizeShapeToFitText--) property.  
+In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs expose the Boolean property **DataLabels.isResizeShapeToFitText**. The following piece of code shows a simple usage scenario of this property.  
 
 ```html
 <!DOCTYPE html>

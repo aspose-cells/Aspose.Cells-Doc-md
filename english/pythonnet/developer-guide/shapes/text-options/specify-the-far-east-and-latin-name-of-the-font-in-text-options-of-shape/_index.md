@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells for Python via .NET provides [**TextOptions.far_east_name**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.latin_name**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.texts/textoptions/latin_name) property.
+Sometimes you want to display text in Far‑East language fonts, e.g., Japanese, Chinese, Thai, etc. Aspose.Cells for Python via .NET provides the [**TextOptions.far_east_name**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) property, which can be used to specify the font name for Far‑East languages. In addition, you can also specify the Latin font name using the [**TextOptions.latin_name**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing.texts/textoptions/latin_name) property.
 
 ## **Specify the Far East and Latin Name of the Font in Text Options of Shape**
 
-The following sample code creates a text box and adds some Japanese text inside it. It then specifies the Latin and Far East font names of the text and saves the workbook as [output Excel file](67338274.xlsx). The following screenshot shows the Latin and Far East font names of the output text box in Microsoft Excel.
+The following sample code creates a text box and adds some Japanese text inside it. It then specifies the Latin and Far‑East font names of the text and saves the workbook as the [output Excel file](67338274.xlsx). The screenshot below shows the Latin and Far‑East font names of the resulting text box in Microsoft Excel.
 
 ![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 

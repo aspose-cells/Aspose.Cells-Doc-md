@@ -1,19 +1,19 @@
----
-title: Verify Password Used to Protect the Worksheet with JavaScript via C++
-linktitle: Verify Password Used to Protect the Worksheet
-type: docs
-weight: 370
-url: /javascript-cpp/verify-password-used-to-protect-the-worksheet/
-description: Learn how to verify the password used to protect a worksheet using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Verify Password Used to Protect the Worksheet with JavaScript via C++  
+linktitle: Verify Password Used to Protect the Worksheet  
+type: docs  
+weight: 370  
+url: /javascript-cpp/verify-password-used-to-protect-the-worksheet/  
+description: Learn how to verify the password used to protect a worksheet using Aspose.Cells for JavaScript via C++.  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells APIs have enhanced the [**Protection**](https://reference.aspose.com/cells/javascript-cpp/protection) class by introducing some useful properties & methods. One such method is the [**Protection.verifyPassword(string)**](https://reference.aspose.com/cells/javascript-cpp/protection/#verifyPassword-string-) which allows specifying a password as an instance of *string* and verifies if the same password has been used to protect the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet).
+Aspose.Cells APIs have enhanced the **Protection** class by introducing useful properties and methods. One such method is **Protection.verifyPassword(string)**, which allows specifying a password as an instance of a *string* and verifies whether the same password has been used to protect the **worksheet**.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The [**Protection.verifyPassword(string)**](https://reference.aspose.com/cells/javascript-cpp/protection/#verifyPassword-string-) method returns **true** if the specified password matches the password used to protect the given worksheet and **false** if the specified password does not match. Following piece of code uses the [**Protection.verifyPassword(string)**](https://reference.aspose.com/cells/javascript-cpp/protection/#verifyPassword-string-) method in conjunction with [**Protection.isProtectedWithPassword()**](https://reference.aspose.com/cells/javascript-cpp/protection/#isProtectedWithPassword--) property to detect the password protection, and verifies the password.
+The **Protection.verifyPassword(string)** method returns **true** if the specified password matches the password used to protect the given worksheet and **false** if it does not match. The following piece of code uses the **Protection.verifyPassword(string)** method in conjunction with the **Protection.isProtectedWithPassword()** property to detect password protection and verify the password.  
 
 ```html
 <!DOCTYPE html>
@@ -62,13 +62,13 @@ The [**Protection.verifyPassword(string)**](https://reference.aspose.com/cells/j
             // Access the first worksheet in the Excel file
             const sheet = workbook.worksheets.get(0);
 
-            // Check if Worksheet is password protected
+            // Check if the worksheet is password protected
             if (sheet.protection.isProtectedWithPassword()) {
-                // Verify the password used to protect the Worksheet
+                // Verify the password used to protect the worksheet
                 if (sheet.protection.verifyPassword("1234")) {
-                    resultDiv.innerHTML = '<p style="color: green;">Specified password has matched</p>';
+                    resultDiv.innerHTML = '<p style="color: green;">Specified password matches</p>';
                 } else {
-                    resultDiv.innerHTML = '<p style="color: red;">Specified password has not matched</p>';
+                    resultDiv.innerHTML = '<p style="color: red;">Specified password does not match</p>';
                 }
             } else {
                 resultDiv.innerHTML = '<p style="color: blue;">Worksheet is not password protected</p>';

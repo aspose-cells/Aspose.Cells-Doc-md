@@ -17,9 +17,9 @@ In Excel, you can select a range, then delete it and shift other data left or up
 
 Aspose.Cells provides [Cells.deleteRange(number, number, number, number, ShiftType)](https://reference.aspose.com/cells/javascript-cpp/cells/#deleteRange-number-number-number-number-shifttype-) method to delete a range.  
 
-## **Delete Ranges And Shift Cells Left**  
+## **Delete Ranges and Shift Cells Left**  
 
-Delete a range and shift cells left as the following codes with Aspose.Cells for JavaScript via C++:  
+Delete a range and shift cells left using the following code with Aspose.Cells for JavaScript via C++:  
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ Delete a range and shift cells left as the following codes with Aspose.Cells for
                 // Gets cells.
                 const cells = worksheet.cells;
 
-                // Input some data with some formattings into a few cells in the range.
+                // Input some data with some formatting into a few cells in the range.
                 cells.get("C2").value = "C2";
                 cells.get("C3").value = "C3";
 
@@ -100,9 +100,9 @@ Delete a range and shift cells left as the following codes with Aspose.Cells for
 </html>
 ```  
 
-## **Delete Ranges And Shift Cells Up**  
+## **Delete Ranges and Shift Cells Up**  
 
-Delete a range and shift cells up as the following codes with Aspose.Cells for JavaScript via C++:  
+Delete a range and shift cells up using the following code with Aspose.Cells for JavaScript via C++:  
 
 ```html
 <!DOCTYPE html>
@@ -158,8 +158,8 @@ Delete a range and shift cells up as the following codes with Aspose.Cells for J
             // Gets cells.
             const cells = worksheet.cells;
 
-            // Input some data with some formattings into
-            // A few cells in the range.
+            // Input some data with some formatting into
+            // a few cells in the range.
             const cellB4 = cells.get("B4");
             cellB4.value = "B4";
             const cellB5 = cells.get("B5");

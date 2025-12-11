@@ -13,17 +13,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 {{% alert color="primary" %}}  
 
 DataLabels are an important part of a chart.  
-We can easily know the value, percentage, etc. of each series  
+We can easily know the value, percentage, etc., of each series.  
 
 {{% /alert %}}  
 
 ## **DataLabels Options**  
-Aspose.Cells for Node.js via C++ also allows managing chart's datalabels at runtime, with the [DataLabels](https://reference.aspose.com/cells/nodejs-cpp/datalabels/) object, it's simple to move, update and format datalabels of the chart.  
+Aspose.Cells for Node.js via C++ also allows managing a chart's data labels at runtime. With the [DataLabels](https://reference.aspose.com/cells/nodejs-cpp/datalabels/) object, it is simple to move, update, and format the chart's data labels.  
 
 |![todo:image_alt_text](chart_datalabels.png)|  
 
 ## **Manage the DataLabels of Chart**  
-It's simple to manage datalabels of the chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/nodejs-cpp/datalabels/).  
+It is simple to manage the data labels of a chart with Aspose.Cells [DataLabels](https://reference.aspose.com/cells/nodejs-cpp/datalabels/).  
 
 The following code snippet demonstrates how to manage DataLabels:  
 
@@ -72,7 +72,7 @@ chart.getNSeries().get(1).getDataLabels().setPosition(AsposeCells.LabelPositionT
 workbook.save("chart_datalabels.xlsx");
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/nodejs-cpp/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)  
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/nodejs-cpp/disable-text-wrapping-for-data-labels-of-the-chart/)  
 - [Resize Chart's Data Label Shape To Fit Text](/cells/nodejs-cpp/resize-chart-s-data-label-shape-to-fit-text/)  

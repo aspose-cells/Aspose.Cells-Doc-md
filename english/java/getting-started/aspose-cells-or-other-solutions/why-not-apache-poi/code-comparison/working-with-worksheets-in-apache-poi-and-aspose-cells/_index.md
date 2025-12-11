@@ -7,13 +7,13 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
- **This section includes the following topics:**
+**This section includes the following topics:**
 
 - [Create New Worksheet](/cells/java/create-new-worksheet)
-- [Add Images in Worksheet](/cells/java/add-images-in-worksheet/)
+- [Add Images to Worksheet](/cells/java/add-images-in-worksheet/)
 - [Convert Worksheet to CSV](/cells/java/convert-worksheet-to-csv/)
 - [Copy Sheet Within Workbook](/cells/java/copy-sheet-within-workbook/)
-- [Re-Order Sheets Within Workbook](/cells/java/re-order-sheets-within-workbook/)
+- [Reorder Sheets Within Workbook](/cells/java/re-order-sheets-within-workbook/)
 - [Header and Footers](/cells/java/header-and-footers/)
 - [Zoom Factor using Apache POI and Aspose.Cells](/cells/java/zoom-factor-using-apache-poi-and-aspose-cells/)
 {{< app/cells/assistant language="java" >}}

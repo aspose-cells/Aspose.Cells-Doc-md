@@ -1,6 +1,6 @@
 ---
-title: Specify how to cross string in output HTML using HtmlCrossType with Node.js via C++
-linktitle: Specify how to cross string in output HTML using HtmlCrossType
+title: Specify how to cross a string in output HTML using HtmlCrossType with Node.js via C++
+linktitle: Specify how to cross a string in output HTML using HtmlCrossType
 type: docs
 weight: 140
 url: /nodejs-cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
@@ -11,21 +11,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When a cell contains text or string but it is larger than the width of the cell, the string overflows if the next cell in the next column is null or empty. When you save your Excel file into HTML, you can control this overflow by specifying the cross type using the [**HtmlCrossType**](https://reference.aspose.com/cells/nodejs-cpp/htmlcrosstype) enumeration. It has the following values:
+When a cell contains text or a string that is larger than the width of the cell, the string overflows if the next cell in the adjacent column is empty. When you save your Excel file as HTML, you can control this overflow by specifying the cross type using the [**HtmlCrossType**](https://reference.aspose.com/cells/nodejs-cpp/htmlcrosstype) enumeration. It has the following values:
 
-- **HtmlCrossType.Default**: Display like MS Excel; depends on the next cell. If the next cell is null, the string will cross or it will be truncated.
+- **HtmlCrossType.Default**: Displays like MS Excel; behavior depends on the next cell. If the next cell is empty, the string will cross, otherwise it will be truncated.
 
-- **HtmlCrossType.MSExport**: Display the string like MS Excel exporting HTML.
+- **HtmlCrossType.MSExport**: Displays the string as MS Excel exports HTML.
 
-- **HtmlCrossType.Cross**: Display HTML cross string; the performance for creating large HTML files will be more than ten times faster than setting the value to Default or FitToCell.
+- **HtmlCrossType.Cross**: Displays an HTML cross string; performance when creating large HTML files will be more than ten times faster than when the value is set to **Default** or **FitToCell**.
 
-- **HtmlCrossType.FitToCell**: Only display the string within the width of the cell.
+- **HtmlCrossType.FitToCell**: Displays only the string within the width of the cell.
 
-## **Specify how to cross string in output HTML using HtmlCrossType**
+## **Specify how to cross a string in output HTML using HtmlCrossType**
 
-The following sample code loads the [sample Excel file](51740732.xlsx) and saves it to HTML format by specifying different [**HtmlCrossType**](https://reference.aspose.com/cells/nodejs-cpp/htmlcrosstype). Please download the [output HTMLs](51740734.zip) generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the [**HtmlCrossType**](https://reference.aspose.com/cells/nodejs-cpp/htmlcrosstype) values on output HTML.
+The following sample code loads the [sample Excel file](51740732.xlsx) and saves it to HTML format by specifying different [**HtmlCrossType**](https://reference.aspose.com/cells/nodejs-cpp/htmlcrosstype) values. Please download the [output HTML files](51740734.zip) generated with this code. The sample Excel file contains an image bordered in red, as shown in this screenshot, which demonstrates the effect of the **HtmlCrossType** values on the output HTML.
 
-![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+![Screenshot showing the effect of HtmlCrossType on output HTML](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **Sample Code**
 
@@ -47,7 +47,7 @@ opts.setHtmlCrossStringType(AsposeCells.HtmlCrossType.MSExport);
 opts.setHtmlCrossStringType(AsposeCells.HtmlCrossType.Cross);
 opts.setHtmlCrossStringType(AsposeCells.HtmlCrossType.FitToCell);
 
-// Output Html
+// Output HTML
 workbook.save("out" + opts.getHtmlCrossStringType() + ".htm", opts);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

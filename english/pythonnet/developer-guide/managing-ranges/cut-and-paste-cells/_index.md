@@ -3,7 +3,7 @@ title: Cut and Paste Range
 type: docs
 weight: 130
 url: /python-net/cut-and-paste-cells/
-description: This article describes how to Cut and Paste Range with Aspose.Cells for Python via .NET library.
+description: This article describes how to cut and paste a range with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to Cut and Paste Range, Python How to Cut and Paste Cells.
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Cut and Paste Cells**
 
-Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**insert_cut_cells **](https://reference.aspose.com/cells/python-net/aspose.cells/cells/insert_cut_cells/) method of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection. The [**insert_cut_cells **](https://reference.aspose.com/cells/python-net/aspose.cells/cells/insert_cut_cells/) accepts the following parameters.
+Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the [**insert_cut_cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/insert_cut_cells/) method of the [**Cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells) collection. The **insert_cut_cells** method accepts the following parameters.
 
 - [**Range**](https://reference.aspose.com/cells/python-net/aspose.cells/range): The range of cells to be cut.
 - Row Index: The index of the row to insert cells.

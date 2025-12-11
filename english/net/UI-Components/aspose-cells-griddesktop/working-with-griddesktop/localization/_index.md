@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-If we need to do localization for all the menus/message tips etc. in GridDesktop,We can define the resource file ,and use GridDesktop.SetCustomResourceManager to load this resource.
+If we need to do localization for all the menus, message tips, etc. in GridDesktop, we can define the resource file, and use `GridDesktop.SetCustomResourceManager` to load this resource.
 
 {{% /alert %}} 
-## **example**
 
-first add a new resource file: customtest.resx
+## Example
 
+First, add a new resource file: `customtest.resx`
 
 ![custom-resource](managing-griddesktops-custom-res.png)
 
@@ -26,12 +26,11 @@ first add a new resource file: customtest.resx
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.resx" >}}
 
 ```csharp
-//suppose your application with name space: myapp
-   ResourceManager rm = new ResourceManager("myapp.customtest", Assembly.GetExecutingAssembly());
-   gridDesktop1.SetCustomResourceManager(rm);
+// Suppose your application has the namespace: myapp
+ResourceManager rm = new ResourceManager("myapp.customtest", Assembly.GetExecutingAssembly());
+gridDesktop1.SetCustomResourceManager(rm);
 ```
 
-After executing the above code,   menu items shows:
+After executing the above code, the menu items show:
 
 ![show menu](managing-griddesktops-show-custom.png)
- 

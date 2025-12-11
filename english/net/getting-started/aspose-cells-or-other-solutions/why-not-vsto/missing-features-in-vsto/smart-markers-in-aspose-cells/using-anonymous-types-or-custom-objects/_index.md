@@ -7,55 +7,40 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells also supports anonymous types or custom objects in smart markers. In below example Product class is need to be defined before use.
+Aspose.Cells also supports anonymous types or custom objects in smart markers. In the example below, the Product class needs to be defined before use.
 
 {{< highlight csharp >}}
 
- string FilePath = @"..\..\..\Sample Files\";
+string FilePath = @"..\..\..\Sample Files\";
 
 string FileName = FilePath + "Using Custom Objects.xlsx";
 
-//Instantiate the workbookdesigner object.
-
+// Instantiate the WorkbookDesigner object.
 WorkbookDesigner report = new WorkbookDesigner();
 
-//Get the first worksheet(default sheet) in the workbook.
-
+// Get the first worksheet (default sheet) in the workbook.
 Aspose.Cells.Worksheet w = report.Workbook.Worksheets[0];
 
-//Input some markers to the cells.
-
+// Input some markers to the cells.
 w.Cells["A1"].PutValue("Test");
-
 w.Cells["A2"].PutValue("&=MyProduct.Name");
-
 w.Cells["B2"].PutValue("&=MyProduct.Age");
 
-//Instantiate the list collection based on the custom class.
-
+// Instantiate the list collection based on the custom class.
 IList<MyProduct> list = new List<MyProduct>();
 
-//Provide values for the markers using the custom class object.
-
+// Provide values for the markers using the custom class object.
 list.Add(new MyProduct("Simon", 30));
-
 list.Add(new MyProduct("Johnson", 33));
 
-//Set the data source.
-
+// Set the data source.
 report.SetDataSource("MyProduct", list);
 
-//Process the markers.
-
+// Process the markers.
 report.Process(false);
 
-//Save the excel file.
-
+// Save the Excel file.
 report.Workbook.Save(FileName);
-
-}
-
-}
 
 {{< /highlight >}}
 ## **Download Sample Code**

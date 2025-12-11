@@ -12,11 +12,11 @@ keywords: C++ Disable Compatibility Checker, Excel Disable Compatibility Checker
 
 {{% alert color="primary" %}}
 
-Microsoft Excel's Compatibility Checker flags when saving a file in an earlier file format might cause functionality issues or loss of fidelity. The Compatibility Checker is a feature of Microsoft Office Excel 2007 and Microsoft Excel 2010.
+Microsoft Excel's Compatibility Checker flags that saving a file in an earlier file format might cause functionality issues or loss of fidelity. The Compatibility Checker is a feature of Microsoft Office Excel 2007 and Microsoft Excel 2010.
 
 When you save a workbook in a previous version, Excel 97 through Excel 2003, from Excel 2007 or Excel 2010, the Compatibility Checker scans the workbook to see if it contains features that are not supported by the earlier version. To help you make decisions about how to handle compatibility issues, the Compatibility Checker displays dialog boxes with options. It can also be used to create a report on any issues in the workbook, or disable the feature.
 
-Sometimes, you need to disable the Compatibility Checker for a particular spreadsheet. With Aspose.Cells' APIs you can do this programmatically so that users don't get frustrated or confused by the Compatibility Checker dialog box popping up when they re-save the file in Microsoft Excel manually.
+Sometimes, you need to disable the Compatibility Checker for a particular spreadsheet. With Aspose.Cells APIs you can do this programmatically so that users don't get frustrated or confused by the Compatibility Checker dialog box popping up when they re‑save the file in Microsoft Excel manually.
 
 {{% /alert %}}
 

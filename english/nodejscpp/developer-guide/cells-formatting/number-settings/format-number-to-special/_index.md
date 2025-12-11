@@ -3,7 +3,7 @@ title: How to Format Number to Special
 type: docs
 weight: 10
 url: /nodejs-cpp/how-to-format-number-to-special/
-description: This article will introduce how to Format Number to Specialusing Aspose.Cells for Node.js via C++ API.
+description: This article will introduce how to Format Number to Special using Aspose.Cells for Node.js via C++ API.
 keywords: Format a number to a special pattern, Apply a specific pattern to format numbers, Customize number formatting to a unique style, Adjust the presentation of numbers to a distinct format, Transform numbers to follow a particular formatting rule, Format Number to Special
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -36,7 +36,7 @@ Formatting numbers to a special format in Excel allows you to display numbers in
 ### Using Built-in Special Formats
 
 1. **Select the Cells**: Click on the cell or range of cells that you want to format.
-2. **Open Format Cells Dialog**: Right-click on the selected cells and choose "Format Cells," or press `Ctrl` + `1` on your keyboard to open the Format Cells dialog box.
+2. **Open the Format Cells Dialog**: Right-click on the selected cells and choose "Format Cells," or press `Ctrl` + `1` on your keyboard to open the Format Cells dialog box.
 3. **Choose Special**: In the Format Cells dialog, go to the "Number" tab, and in the Category list, select "Special."
 4. **Select a Format**: You will see a list of predefined special formats such as Zip Code, Phone Number, and Social Security Number (depending on your region). Click on the one that suits your needs.
 5. **Apply and OK**: Click "OK" to apply the selected format.
@@ -46,10 +46,10 @@ Formatting numbers to a special format in Excel allows you to display numbers in
 If the built-in special formats don't meet your needs, you can create a custom format:
 
 1. **Select the Cells**: Highlight the cell or range of cells you want to format.
-2. **Open Format Cells Dialog**: Right-click and choose "Format Cells," or press `Ctrl` + `1`.
+2. **Open the Format Cells Dialog**: Right-click and choose "Format Cells," or press `Ctrl` + `1`.
 3. **Go to Custom**: In the Format Cells dialog, select the "Number" tab, then choose "Custom" from the Category list.
 4. **Enter Custom Format**: In the Type box, enter the custom format code. For example:
-   - To format a 10-digit phone number, you might use: `(###) ###-####`
+   - To format a 10‑digit phone number, you might use: `(###) ###-####`
    - For a product code that starts with two letters followed by three numbers: `"XX"###`
 5. **Apply and OK**: Click "OK" to apply your custom format.
 
@@ -85,10 +85,10 @@ You can either create a new workbook or open an existing one.
 You need to access the worksheet where you want to format numbers to special. If you're working with a new workbook, you'll likely be working with the first worksheet.
 
 ### Step 4: Format the Number to a Special Format
-To format a cell to display its number in special notation, you'll need to set its custom format.
+To format a cell to display its number in a special notation, you'll need to set its custom format.
 
 ### Step 5: Save the Workbook
-After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in scientific notation as specified.
+After formatting the cells as needed, don't forget to save your workbook. This will save your workbook with the cells formatted in the special format as specified.
 
 ### Custom Number Formats
 

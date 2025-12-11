@@ -19,9 +19,9 @@ In this article, we compare how to add and remove comments from cells using VSTO
 
 To add comments to cells:
 
-1. Open an existing Excel file.
-1. Add a comment to a cell.
-1. Save the file.
+1. Open an existing Excel file.  
+2. Add a comment to a cell.  
+3. Save the file.
 
 To remove the comments, the process is similar, with the exception that the comment is removed.
 
@@ -40,56 +40,38 @@ These code snippets show how to add a comment to a cell first with [VSTO](/cells
  .......
 
 using Microsoft.VisualStudio.Tools.Applications.Runtime;
-
 using Excel = Microsoft.Office.Interop.Excel;
-
 using Office = Microsoft.Office.Core;
-
 using System.Reflection;
 
 .......
 
-//Instantiate the Application object.
-
+// Instantiate the Application object.
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Specify the template excel file path.
+// Specify the template Excel file path.
+string myPath = @"d:\test\Book1.xls";
 
-string myPath=@"d:\test\Book1.xls";
-
-//Open the excel file.
-
+// Open the Excel file.
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value,
+    Missing.Value, Missing.Value);
 
-Missing.Value, Missing.Value,
+// Get the A1 cell.
+Excel.Range rng1 = excelApp.get_Range("A1", Missing.Value);
 
-Missing.Value, Missing.Value,
-
-Missing.Value, Missing.Value,
-
-Missing.Value, Missing.Value,
-
-Missing.Value, Missing.Value,
-
-Missing.Value, Missing.Value);
-
-//Get the A1 cell.
-
-Excel.Range rng1=excelApp.get_Range("A1", Missing.Value);
-
-//Add the comment with text.
-
+// Add the comment with text.
 rng1.AddComment("This is my comment");
 
-//Save the file.
-
+// Save the file.
 excelApp.ActiveWorkbook.Save();
 
-//Quit the Application.
-
+// Quit the Application.
 excelApp.Quit();
-
-
 
 {{< /highlight >}}
 
@@ -102,36 +84,25 @@ excelApp.Quit();
  .......
 
 using Aspose.Cells;
-
 .......
 
-//Specify the template excel file path.
+// Specify the template Excel file path.
+string myPath = @"d:\test\Book1.xls";
 
-string myPath=@"d:\test\Book1.xls";
-
-//Instantiate a new Workbook.
-
-//Open the excel file.
-
+// Instantiate a new Workbook and open the Excel file.
 Workbook workbook = new Workbook(myPath);
 
-//Add a Comment to A1 cell.
+// Add a comment to the A1 cell.
+int commentIndex = workbook.Worksheets[0].Comments.Add("A1");
 
-int commentIndex=workbook.Worksheets[0].Comments.Add("A1");
+// Access the newly added comment.
+Comment comment = workbook.Worksheets[0].Comments[commentIndex];
 
-//Accessing the newly added comment
+// Set the comment note.
+comment.Note = "This is my comment";
 
-Comment comment=workbook.Worksheets[0].Comments[commentIndex];
-
-//Setting the comment note
-
-comment.Note="This is my comment";
-
-//Save As the excel file.
-
+// Save the Excel file.
 workbook.Save(@"d:\test\Book1.xls");
-
-
 
 {{< /highlight >}}
 
@@ -145,11 +116,8 @@ To remove a comment from a cell, use the following lines of code for [VSTO](/cel
 
 {{< highlight csharp >}}
 
- //Remove the comment.
-
-rng1.Comment.Delete();    
-
-
+ // Remove the comment.
+ rng1.Comment.Delete();
 
 {{< /highlight >}}
 
@@ -159,9 +127,8 @@ rng1.Comment.Delete();    
 
 {{< highlight csharp >}}
 
- //Remove the comment.
-
-workbook.Worksheets[0].Comments.RemoveAt("A1");
+ // Remove the comment.
+ workbook.Worksheets[0].Comments.RemoveAt("A1");
 
 {{< /highlight >}}
 {{< app/cells/assistant language="csharp" >}}

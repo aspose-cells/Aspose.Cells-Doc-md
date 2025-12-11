@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Introduction**
 
-In Excel, you can select a range, then insert a range and shift other data right or down.
+In Excel, you can select a range, then insert a range and shift other data to the right or down.
 
 **![Shift options](InsertRange.png)**
 
 ## **Insert Ranges Using Aspose.Cells**
 
-Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrange/) method to insert a range.
+Aspose.Cells provides the [Cells.InsertRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrange/) method to insert a range.
 
 ## **Insert Ranges And Shift Cells Right**
 
-Insert a range and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells to the right using the following code with Aspose.Cells:
 
 ```c++
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
     // Create a range of cells.
     Range sourceRange = worksheet.GetCells().CreateRange(u"A1", u"A2");
 
-    // Input some data with some formattings into a few cells in the range.
+    // Input some data with some formatting into a few cells in the range.
     sourceRange.Get(0, 0).PutValue(u"Test");
     sourceRange.Get(1, 0).PutValue(u"123");
     
@@ -59,7 +59,7 @@ int main()
 
 ## **Insert Ranges And Shift Cells Down**
 
-Insert a range and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down using the following code with Aspose.Cells:
 
 ```c++
 #include <iostream>

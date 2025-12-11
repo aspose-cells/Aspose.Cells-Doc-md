@@ -13,9 +13,9 @@ This article is designed to provide a detailed understanding of how to add condi
 
 Conditional formatting is an advanced feature in Microsoft Excel that allows you to apply formats to a range of cells, and have that formatting change depending on the value of the cell or the value of a formula. For example, the background of a cell may be red to highlight a negative value, or the text color might be green for a positive value. When the value of the cell meets the format condition, the format is applied. If the value of the cell does not meet the format condition, the cell's default formatting is used.
 
-It's possible to apply conditional formatting with Microsoft Office Automation but that has its drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed. The main reason for finding another solution is that Microsoft themselves strongly recommends against Office Automation for software solutions.
+It's possible to apply conditional formatting with Microsoft Office Automation, but that has its drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed. The main reason for finding another solution is that Microsoft itself strongly recommends against Office Automation for software solutions.
 
-This article shows how to create a console application, add conditional formatting on cells with a few simplest lines of code using the Aspose.Cells API.
+This article shows how to create a console application, add conditional formatting on cells with a few simple lines of code using the Aspose.Cells API.
 
 {{% /alert %}}
 
@@ -33,15 +33,15 @@ This article works through the following tasks:
    1. Unzip it on your development computer.
       All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and only injects watermarks into produced documents.
 1. **Create a project**.
-   Either create a project using an Java Editor such as Eclipse or create a simple program using a text editor.
+   Either create a project using a Java editor such as Eclipse or create a simple program using a text editor.
 1. **Add class path**.
-   To set a Class Path using Eclipse, please perform the following steps:
+   To set a class path using Eclipse, please perform the following steps:
    1. Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.
-   1. Set the classpath of project in Eclipse:
+   1. Set the classpath of the project in Eclipse:
       1. Select your project in Eclipse and then select **Properties** from the **Project** menu.
       1. Select "Java Build Path" to the left of the dialog.
-      1. On the **Libraries** tab, select **Add JARs** or **Add External JARs** to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into build paths.
-   1. Write application to invoke APIs of Aspose's components.
+      1. On the **Libraries** tab, select **Add JARs** or **Add External JARs** to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into the build path.
+   1. Write an application to invoke APIs of Aspose's components.
       Or you may set the path at runtime on a DOS prompt in Windows.
 
 {{< highlight java >}}
@@ -55,7 +55,7 @@ This article works through the following tasks:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
-When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied. Please see the following screenshots of the generated XLS file.
+When the above code is executed, conditional formatting is applied to cell “A1” in the first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the value of A1 is between 50 and 100, the background color is red due to the conditional formatting applied. Please see the following screenshots of the generated XLS file.
 
 **Output Excel file with A1 value less than 50**
 
@@ -67,12 +67,12 @@ When the above code is executed, conditional formatting is applied to cell “A1
 
 ### **Task 2: Using Aspose.Cells to Apply Conditional Formatting Based on a Formula**
 
-1. **Apply conditional formatting depending on formula**.
+1. **Apply conditional formatting based on a formula**.
    Below is the actual code used by the component to accomplish the task. It applies conditional formatting on “B3”.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
-When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 & B2. Please see the following screenshots of the generated XLS file.
+When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as the sum of B1 and B2. Please see the following screenshots of the generated XLS file.
 
 **Output Excel file with B3 value less than 100**
 
@@ -86,7 +86,7 @@ When the above code is executed, conditional formatting is applied to cell “B3
 
 {{% alert color="primary" %}}
 
-This article shows how to apply conditional formatting to cells in a worksheet with the Aspose.Cells API. Hopefully, it will gives you some insight so you can use these options in your own scenarios.
+This article shows how to apply conditional formatting to cells in a worksheet with the Aspose.Cells API. Hopefully, it will give you some insight so you can use this functionality in your own scenarios.
 
 Aspose.Cells offers great flexibility for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. Aspose.Cells benefits from years of research, design and careful tuning.
 

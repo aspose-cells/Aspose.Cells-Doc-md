@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This section has the following topics:
 
-- [Add Comment In Worksheet](/cells/net/add-comment-in-worksheet/)
+- [Add Comment in Worksheet](/cells/net/add-comment-in-worksheet/)
 - [Add Image in Worksheet](/cells/net/add-image-in-worksheet/)
 - [Auto Fit Columns in Worksheet](/cells/net/auto-fit-columns-in-worksheet/)
 - [Copy Worksheet](/cells/net/copy-worksheet/)

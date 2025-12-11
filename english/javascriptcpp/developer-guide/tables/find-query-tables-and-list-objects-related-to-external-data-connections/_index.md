@@ -9,11 +9,11 @@ description: Learn how to find Query Tables and List Objects related to External
 
 {{% alert color="primary" %}} 
 
-Sometimes, you need to find out Query Tables and List Objects related to some External Data Connection. Query Tables are related to External Data Connection object with Connection Id, while List Objects are related to a Query Table.
+Sometimes, you need to find out Query Tables and List Objects related to an External Data Connection. Query Tables are related to an External Data Connection object with a Connection Id, while List Objects are related to a Query Table.
 
 {{% /alert %}} 
 ## **Find Query Tables and List Objects related to External Data Connections**
-The following sample codes with [sample excel file](5115493.xlsm) explain how to find Query Tables and List Objects related to External Data Connection.
+The following sample code with [sample Excel file](5115493.xlsm) explains how to find Query Tables and List Objects related to External Data Connections.
 
 ```html
 <!DOCTYPE html>
@@ -55,7 +55,7 @@ The following sample codes with [sample excel file](5115493.xlsm) explain how to
 
                     // Check if query table is related to this external connection
                     if (externalConnection.id === qt.connectionId && qt.connectionId >= 0) {
-                        // Print the query table name and print its refersto range
+                        // Print the query table name and its refersTo range
                         console.log("querytable " + qt.name);
                         const n = qt.name.replace(/\+/g, '_').replace(/=/g, '_');
                         const names = workbook.worksheets.names;
@@ -74,14 +74,14 @@ The following sample codes with [sample excel file](5115493.xlsm) explain how to
                 for (let k = 0; k < worksheet.listObjects.count; k++) {
                     const table = worksheet.listObjects.get(k);
 
-                    // Check the data source type if it is query table
+                    // Check the data source type if it is a query table
                     if (table.dataSourceType === TableDataSourceType.QueryTable) {
                         // Access the query table related to list object
                         const qt = table.queryTable;
 
                         // Check if query table is related to this external connection
                         if (externalConnection.id === qt.connectionId && qt.connectionId >= 0) {
-                            // Print the query table name and print its refersto range
+                            // Print the query table name and its refersTo range
                             console.log("querytable " + qt.name);
                             console.log("Table " + table.displayName);
                             console.log("refersto: " + worksheet.name + "!" + CellsHelper.cellIndexToName(table.startRow, table.startColumn) + ":" + CellsHelper.cellIndexToName(table.endRow, table.endColumn));
@@ -122,11 +122,11 @@ The following sample codes with [sample excel file](5115493.xlsm) explain how to
 ```
 
 
-The following is the console output of running the above sample codes with this [sample excel file](5115493.xlsm).
+The following is the console output of running the above sample code with this [sample Excel file](5115493.xlsm).
 
 {{< highlight java >}}
 
- connection: AAPL Connection
+connection: AAPL Connection
 
 querytable hp?s=AAPL+Historical+Prices
 

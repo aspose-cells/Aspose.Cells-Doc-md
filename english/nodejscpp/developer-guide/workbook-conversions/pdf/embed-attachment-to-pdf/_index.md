@@ -4,14 +4,14 @@ linktitle: Embed Attachment to PDF
 type: docs  
 weight: 380  
 url: /nodejs-cpp/embed-attachment-to-pdf/  
-description: Learn how to embed an Ole Object as an attachment in a PDF using Aspose.Cells for Node.js via C++.  
+description: Learn how to embed an OLE object as an attachment in a PDF using Aspose.Cells for Node.js via C++.  
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
-In Excel, you can insert an Ole Object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double click the Ole Object, and the embedded file will be opened.
+In Excel, you can insert an OLE object with source data ([embedded-attachments-example.xlsx](embedded-attachments-example.xlsx)). Double‑click the OLE object, and the embedded file will be opened.
 
-Generally, while converting to PDF, the Ole Object will be rendered as an icon or a thumbnail without the Ole Object source data. With option [PdfSaveOptions.getEmbedAttachments()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getEmbedAttachments--) you can embed the Ole Object source data as an attachment in PDF. You can double-click the icon or the thumbnail in PDF to open the source file of the Ole Object.
+Generally, when converting to PDF, the OLE object is rendered as an icon or a thumbnail without the source data. With the option [PdfSaveOptions.getEmbedAttachments()](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getEmbedAttachments--) you can embed the OLE object source data as an attachment in the PDF. You can double‑click the icon or the thumbnail in the PDF to open the source file of the OLE object.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -24,11 +24,11 @@ const filePath = path.join(dataDir, "embedded-attachments-example.xlsx");
 // Open the template file
 const wb = new AsposeCells.Workbook(filePath);
 
-// Set to embed Ole Object attachment.
+// Set to embed OLE object attachment.
 const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setEmbedAttachments(true);
 
-// Save the pdf file with PdfSaveOptions
+// Save the PDF file with PdfSaveOptions
 wb.save("output.pdf", pdfSaveOptions);
 ```
 

@@ -45,14 +45,14 @@ int main() {
     Cell c1 = ws.GetCells().Get(u"C1");
     c1.SetFormula(u"=Sum(A1,A2)");
 
-    // Add cell C1 into cell watches by name
+    // Add cell C1 to cell watches by name
     ws.GetCellWatches().Add(c1.GetName());
 
     // Access cell E1 and set its formula
     Cell e1 = ws.GetCells().Get(u"E1");
     e1.SetFormula(u"=A2*A1");
 
-    // Add cell E1 into cell watches by its row and column indices
+    // Add cell E1 to cell watches by its row and column indices
     ws.GetCellWatches().Add(e1.GetRow(), e1.GetColumn());
 
     // Save workbook to output XLSX format

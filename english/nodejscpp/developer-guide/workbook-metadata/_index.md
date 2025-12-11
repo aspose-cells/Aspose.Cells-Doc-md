@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Aspose.Cells allows you to load a light-weight version of a workbook into memory to edit its metadata information. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class to load the workbook.  
+Aspose.Cells allows you to load a lightweight version of a workbook into memory to edit its metadata information. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class to load the workbook.  
 {{% /alert %}}  
 
-The following sample code uses the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class to edit custom document properties of a workbook. Once you open the workbook using the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class, you will be able to read the document properties. Here is a sample code using the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class.  
+The following sample code uses the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class to edit custom document properties of a workbook. Once you open the workbook using the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class, you will be able to read the document properties. Here is sample code using the [**WorkbookMetadata**](https://reference.aspose.com/cells/nodejs-cpp/workbookmetadata) class.  
 
 ```javascript
 const path = require("path");
@@ -22,14 +22,14 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Open Workbook metadata
+// Open workbook metadata
 const options = new AsposeCells.MetadataOptions(AsposeCells.MetadataType.Document_Properties);
 const meta = new AsposeCells.WorkbookMetadata(path.join(dataDir, "Sample1.xlsx"), options);
 
 // Set some properties
 meta.getCustomDocumentProperties().add("test", "test");
 
-// Save the metadata info
+// Save the metadata information
 meta.save(path.join(dataDir, "Sample2.out.xlsx"));
 
 // Open the workbook

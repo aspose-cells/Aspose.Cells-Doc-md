@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells features missing in Apache POI SS - HSSF and XSSF
+title: Aspose.Cells features missing in Apache POI SS - HSSF and XPDF
 type: docs
 weight: 20
 url: /java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
@@ -9,13 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This section shows the features that are only available in Aspose.Cells and not in Apache POI SS - HSSF and XSSF API.
 
-It is very helpful for the developers who want to migrate from Apache POI SS to Aspose.Cells.
+It is very helpful for developers who want to migrate from Apache POI SS to Aspose.Cells.
 
-This includes following abundant features of Aspose.Cells as compared to Apache POI SS:
+This includes the following abundant features of Aspose.Cells compared to Apache POI SS:
 
 - [Data Handling Features using Aspose.Cells](/cells/java/data-handling-features-using-aspose-cells/)
   - [Find Value in Cells using Aspose.Cells](/cells/java/find-value-in-cells-using-aspose-cells/)
-  - [Calculate Sub Totals using Aspose.Cells](/cells/java/calculate-sub-totals-using-aspose-cells/)
+  - [Calculate Subtotals using Aspose.Cells](/cells/java/calculate-sub-totals-using-aspose-cells/)
   - [Import Data to Worksheets using Aspose.Cells](/cells/java/import-data-to-worksheets-using-aspose-cells/)
   - [Export Data from Worksheets](/cells/java/export-data-from-worksheets/)
   - [Formula Calculation Engine in Aspose.Cells](/cells/java/formula-calculation-engine-in-aspose-cells/)
@@ -26,9 +26,9 @@ This includes following abundant features of Aspose.Cells as compared to Apache 
   - [Convert Workbook to HTML using Aspose.Cells](/cells/java/convert-workbook-to-html-using-aspose-cells/)
   - [Detect Merged Cells using Aspose.Cells](/cells/java/detect-merged-cells-using-aspose-cells/)
   - [Display and Hide Scrollbars of Workbooks](/cells/java/display-and-hide-scrollbars-of-workbooks/)
-  - [Display and Hide Tabs of Workbook using Aspose.Cells](/cells/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
+  - [Display and Hide Tabs of Workbooks using Aspose.Cells](/cells/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
   - [Encrypt Workbook using Aspose.Cells](/cells/java/encrypt-workbook-using-aspose-cells/)
-  - [Read CSV File With Multiple Encodings](/cells/java/read-csv-file-with-multiple-encodings/)
+  - [Read CSV File with Multiple Encodings](/cells/java/read-csv-file-with-multiple-encodings/)
   - [Save Each Worksheet to Different PDF using Aspose.Cells](/cells/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
   - [Set Worksheet Tab Color in Aspose.Cells](/cells/java/set-worksheet-tab-color-in-aspose-cells/)
 - [Working with Charts in Aspose.Cells](/cells/java/working-with-charts-in-aspose-cells/)
@@ -41,5 +41,5 @@ This includes following abundant features of Aspose.Cells as compared to Apache 
   - [Printing Workbooks using Aspose.Cells](/cells/java/printing-workbooks-using-aspose-cells/)
   - [Convert Spreadsheet to PDF using Aspose.Cells](/cells/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
-**Note:** Many more examples are yet to be available soon.
+**Note:** Many more examples will be available soon.
 {{< app/cells/assistant language="java" >}}

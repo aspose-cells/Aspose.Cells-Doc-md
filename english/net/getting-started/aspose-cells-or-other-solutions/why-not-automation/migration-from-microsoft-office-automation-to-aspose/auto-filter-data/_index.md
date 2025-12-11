@@ -9,9 +9,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-To get an understanding of what data is in a range, it is often easier to sort and filter the data than to look at columns of unordered data. Sorting organizes data in either ascending or descending order, making it easier to find specific values. Filtering the data, allows you to show only certain values. It helps focus in on particular items in sales records, for example.
+To get an understanding of what data is in a range, it is often easier to sort and filter the data than to look at columns of unordered data. Sorting organizes data in either ascending or descending order, making it easier to find specific values. Filtering the data allows you to show only certain values. It helps focus on particular items in sales records, for example.
 
-Users of Microsoft Excel can apply auto-filtering to columns. Auto-filtering adds a menu to the top of the column, from which you can sort of filter column data. This feature is also available to developers who work with Excel spreadsheets, either through VSTO or Aspose.Cells for .NET.
+Users of Microsoft Excel can apply auto-filtering to columns. Auto-filtering adds a menu to the top of the column, from which you can sort or filter column data. This feature is also available to developers who work with Excel spreadsheets, either through VSTO or Aspose.Cells for .NET.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ To apply auto-filtering to a column:
 1. Auto-fit columns to make the display attractive.
 1. Save the spreadsheet.
 
-The code samples in this article show how to perform these steps using [VSTO](/cells/net/auto-filter-data/) with either C# or Visual Basic, or using [Apose.Cells](/cells/net/auto-filter-data/), again with either C# or Visual Basic.
+The code samples in this article show how to perform these steps using [VSTO](/cells/net/auto-filter-data/) with either C# or Visual Basic, or using [Aspose.Cells](/cells/net/auto-filter-data/), again with either C# or Visual Basic.
 
 ### **Auto-filtering Data with VSTO**
 
@@ -104,7 +104,7 @@ sheet.get_Range("B1", "B5").EntireColumn.AutoFit();
 
 
 
-//Save the copy of workbook as .xlsx file.
+//Save a copy of the workbook as a .xlsx file.
 
 objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
@@ -128,7 +128,7 @@ Workbook objBook = new Workbook();
 
 
 
-//Get the First sheet.
+//Get the first sheet.
 
 Worksheet sheet = objBook.Worksheets["Sheet1"];
 
@@ -164,7 +164,7 @@ sheet.AutoFilter.Range = "A1:B5";
 
 sheet.AutoFitColumn(1,0,4);
 
-//Save the copy of workbook as .xlsx file.
+//Save a copy of the workbook as a .xlsx file.
 
 objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 

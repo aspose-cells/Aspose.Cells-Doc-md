@@ -8,6 +8,8 @@ description: Supported excel functions for reading/setting/calculating formulas
 keywords: formula function calculate
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

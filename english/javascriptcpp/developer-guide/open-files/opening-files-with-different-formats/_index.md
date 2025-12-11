@@ -4,7 +4,7 @@ linktitle: Opening Files with Different Formats
 type: docs
 weight: 30
 url: /javascript-cpp/opening-files-with-different-formats/
-description: Aspose.Cells for JavaScript via C++ API allows you to open/read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+description: Aspose.Cells for JavaScript via C++ API allows you to open or read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
 
@@ -23,7 +23,7 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 ### **Opening SpreadsheetML Files**
 
-SpreadsheetML files are XML representations of spreadsheets including all information about it, such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
+SpreadsheetML files are XML representations of spreadsheets including all information about them, such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option has been added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ SpreadsheetML files are XML representations of spreadsheets including all inform
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (!fileInput.files.length) {
-                document.getElementById('result').innerHTML = '<p style="color: red;">Please select an SpreadsheetML (.xml) file.</p>';
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select a SpreadsheetML (.xml) file.</p>';
                 return;
             }
 
@@ -70,8 +70,8 @@ SpreadsheetML files are XML representations of spreadsheets including all inform
             // Create a Workbook object and open the file from the uploaded data
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            document.getElementById('result').innerHTML = '<p style="color: green;">SpreadSheetML file opened successfully!</p>';
-            console.log("SpreadSheetML file opened successfully!");
+            document.getElementById('result').innerHTML = '<p style="color: green;">SpreadsheetML file opened successfully!</p>';
+            console.log("SpreadsheetML file opened successfully!");
         });
     </script>
 </html>
@@ -79,7 +79,7 @@ SpreadsheetML files are XML representations of spreadsheets including all inform
 
 ### **Opening HTML Files**
 
-Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML file should be Microsoft Excel oriented i.e., MS-Excel should be able to open it.
+Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML file should be Microsoft Excel‑oriented, i.e., MS‑Excel should be able to open it.
 
 ```html
 <!DOCTYPE html>
@@ -124,7 +124,7 @@ Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML fi
             // Instantiate LoadOptions specified by the LoadFormat.
             const loadOptions = new HtmlLoadOptions(LoadFormat.Html);
 
-            // Create a Workbook object and opening the file from the uploaded file data
+            // Create a Workbook object and open the file from the uploaded file data
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
             // Save the XLSX file
@@ -144,7 +144,7 @@ Aspose.Cells allows you to open an HTML file into a Workbook object. The HTML fi
 
 ### **Opening CSV Files**
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character, it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
+Comma‑Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double‑quote character. If a field value contains a double‑quote character, it is escaped with a pair of double‑quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
 
 ```html
 <!DOCTYPE html>
@@ -186,10 +186,10 @@ Comma Separated Values (CSV) files contain records where the values are separate
             const arrayBuffer = await file.arrayBuffer();
 
             // Instantiate LoadOptions specified by the LoadFormat.
-            const loadOptions4 = new LoadOptions(LoadFormat.Csv);
+            const loadOptions = new LoadOptions(LoadFormat.Csv);
 
             // Create a Workbook object and open the file from the uploaded data
-            const wbCSV = new Workbook(new Uint8Array(arrayBuffer), loadOptions4);
+            const wbCSV = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
             document.getElementById('result').innerHTML = '<p style="color: green;">CSV file opened successfully!</p>';
         });
@@ -197,9 +197,9 @@ Comma Separated Values (CSV) files contain records where the values are separate
 </html>
 ```
 
-#### **Opening CSV files and replacing invalid characters**
+#### **Opening CSV Files and Replacing Invalid Characters**
 
-In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API which is demonstrated in the code example given below.
+In Excel, when a CSV file with special characters is opened, the characters are automatically replaced. The same is done by the Aspose.Cells API and is demonstrated in the code example given below.
 
 ```html
 <!DOCTYPE html>
@@ -265,7 +265,7 @@ In Excel, when a CSV file with special characters is opened, the characters are 
 
 ### **Opening Text Files with Custom Separator**
 
-Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.
+Text files are used to hold spreadsheet data without formatting. The file is a kind of plain‑text file that can have some customized delimiters.
 
 ```html
 <!DOCTYPE html>
@@ -306,7 +306,7 @@ Text files are used to hold spreadsheet data without formatting. The file is a k
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiate Text File's LoadOptions
+            // Instantiate the text file's LoadOptions
             const txtLoadOptions = new TxtLoadOptions();
 
             // Specify the separator
@@ -333,9 +333,9 @@ Text files are used to hold spreadsheet data without formatting. The file is a k
 </html>
 ```
 
-### **Opening Tab Delimited Files**
+### **Opening Tab‑Delimited Files**
 
-Tab delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.
+Tab‑delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain‑text file with a tab between each column.
 
 ```html
 <!DOCTYPE html>
@@ -369,7 +369,7 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
         document.getElementById('runExample').addEventListener('click', async () => {
             const fileInput = document.getElementById('fileInput');
             if (!fileInput.files.length) {
-                document.getElementById('result').innerHTML = '<p style="color: red;">Please select a tab-delimited (.txt/.tsv) file.</p>';
+                document.getElementById('result').innerHTML = '<p style="color: red;">Please select a tab‑delimited (.txt/.tsv) file.</p>';
                 return;
             }
 
@@ -382,15 +382,15 @@ Tab delimited (Text) files contain spreadsheet data but without any formatting. 
             // Create a Workbook object and open the file from the uploaded file buffer
             const wbTabDelimited = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            document.getElementById('result').innerHTML = '<p style="color: green;">Tab delimited file opened successfully!</p>';
+            document.getElementById('result').innerHTML = '<p style="color: green;">Tab‑delimited file opened successfully!</p>';
         });
     </script>
 </html>
 ```
 
-### **Opening Tab-Separated Values (TSV) Files**
+### **Opening Tab‑Separated Values (TSV) Files**
 
-Tab-separated values (TSV) file contains spreadsheet data but without any formatting. It is the same as a Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.
+A Tab‑Separated Values (TSV) file contains spreadsheet data but without any formatting. It is the same as a Tab‑Delimited file where data is arranged in rows and columns like in tables and spreadsheets.
 
 ```html
 <!DOCTYPE html>
@@ -434,13 +434,13 @@ Tab-separated values (TSV) file contains spreadsheet data but without any format
             // Instantiate LoadOptions specified by the LoadFormat.
             const loadOptions = new LoadOptions(LoadFormat.Tsv);
 
-            // Create a Workbook object and opening the file from the uploaded file stream
+            // Create a Workbook object and open the file from the uploaded file stream
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            // Using the Sheet 1 in Workbook
+            // Using the first worksheet in the workbook
             const worksheet = workbook.worksheets.get(0);
 
-            // Accessing a cell using its name
+            // Access a cell using its name
             const cell = worksheet.cells.get("C3");
 
             // Display cell name and value
@@ -501,10 +501,10 @@ StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, fun
             // Create a Workbook object and open the file from the uploaded data
             const workbook = new Workbook(new Uint8Array(arrayBuffer), loadOptions);
 
-            // Using the first worksheet in Workbook
+            // Using the first worksheet in the workbook
             const worksheet = workbook.worksheets.get(0);
 
-            // Accessing a cell using its name
+            // Access a cell using its name
             const cell = worksheet.cells.get("C3");
 
             // Display cell name and string value
@@ -516,7 +516,7 @@ StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, fun
 
 ### **Opening FODS Files**
 
-FODS file is a spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
+A FODS file is a spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
 
 ```html
 <!DOCTYPE html>

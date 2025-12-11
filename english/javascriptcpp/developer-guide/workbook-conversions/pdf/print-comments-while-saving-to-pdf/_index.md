@@ -1,15 +1,15 @@
----
-title: Print Comments while saving to PDF with JavaScript via C++
-linktitle: Print Comments while saving to PDF
-type: docs
-weight: 10
-url: /javascript-cpp/print-comments-while-saving-to-pdf/
-description: Learn how to print comments when saving Excel documents to PDF using Aspose.Cells for JavaScript via C++.
----
+---  
+title: Print Comments while saving to PDF with JavaScript via C++  
+linktitle: Print Comments while saving to PDF  
+type: docs  
+weight: 10  
+url: /javascript-cpp/print-comments-while-saving-to-pdf/  
+description: Learn how to print comments when saving Excel documents to PDF using Aspose.Cells for JavaScript via C++.  
+---  
 
 {{% alert color="primary" %}}  
 
-Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options  
+Microsoft Excel allows you to print comments when printing or saving to PDF format with the following options  
 
 - None  
 - At end of sheet  

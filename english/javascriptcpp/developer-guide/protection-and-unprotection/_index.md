@@ -9,12 +9,11 @@ description: This snippet introduces how to encrypt and decrypt Excel files, pro
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for JavaScript via C++ offers a wide range of protection and unprotection from file to data level like MS Excel:
+Aspose.Cells for JavaScript via C++ offers a wide range of protection and unprotection from file to data level, as in MS Excel:
 {{% /alert %}}
 
-
 ## [**Encrypt and decrypt Excel files**](/cells/javascript-cpp/encrypt-and-decrypt-excel-files/)
-To prevent others from accessing data in Excel files, protect Excel file with a password.
+To prevent others from accessing data in Excel files, protect an Excel file with a password.
 
 ## [**Protect and unprotect workbook**](/cells/javascript-cpp/protect-and-unprotect-workbook-structure/)
 To prevent other users from viewing hidden worksheets, adding, moving, deleting, or hiding worksheets, and renaming worksheets, you can protect the structure of your Excel workbook with a password.
@@ -28,7 +27,7 @@ Protect and unprotect the shared workbook.
 ## [**Add or remove a digital signature in Office files**](/cells/javascript-cpp/assign-and-validate-digital-signatures/)
 Protect the authenticity of a document's content; you can add a digital signature.
 
-## **Advance topics**
+## **Advanced topics**
 - [Check Password to modify using Aspose.Cells](/cells/javascript-cpp/check-password-to-modify-using-aspose-cells/)
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/javascript-cpp/encrypting-excel-files/)

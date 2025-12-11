@@ -4,17 +4,16 @@ linktitle: Implementing Non-Sequential Ranges
 type: docs
 weight: 700
 url: /javascript-cpp/implementing-non-sequential-ranges/
-description: Learn how to create named non-sequential ranges with Aspose.Cells for JavaScript via C++. Use non-adjacent cell ranges effectively.
+description: Learn how to create named non‑sequential ranges with Aspose.Cells for JavaScript via C++. Use non‑adjacent cell ranges effectively.
 ---
 
 {{% alert color="primary" %}} 
 
-Normally, named ranges are rectangular with cells continuous and adjacent to each other. But sometimes, you may need to use a non-sequential cell range in which cells are not adjacent. Aspose.Cells for JavaScript via C++ supports creating a named range with non-adjacent cells.
+Normally, named ranges are rectangular with cells continuous and adjacent to each other. But sometimes, you may need to use a non‑sequential cell range in which cells are not adjacent. Aspose.Cells for JavaScript via C++ supports creating a named range with non‑adjacent cells.
 
 {{% /alert %}} 
 
-The code sample below shows how to create a named non-sequential range with Aspose.Cells for JavaScript via C++.
-
+The code sample below shows how to create a named non‑sequential range with Aspose.Cells for JavaScript via C++.
 
 ```html
 <!DOCTYPE html>
@@ -49,12 +48,12 @@ The code sample below shows how to create a named non-sequential range with Aspo
             // Creating a new Workbook object
             const workbook = new Workbook();
 
-            // Adding a Name for non sequenced range
+            // Adding a name for a non‑sequenced range
             const index = workbook.worksheets.names.add("NonSequencedRange");
 
             const name = workbook.worksheets.names.get(index);
 
-            // Creating a non sequence range of cells
+            // Creating a non‑sequenced range of cells
             name.refersTo = "=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6";
 
             // Saving the workbook and providing a download link

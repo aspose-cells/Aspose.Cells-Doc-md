@@ -30,6 +30,6 @@ The example code below shows how to add a copy of a worksheet to the GridWeb con
 
 {{% alert color="primary" %}} 
 
-The AddCopy method returns the newly added worksheet's index which can be used to access the worksheet instance. For more details on how to access worksheets, read [Access Worksheets](/cells/net/aspose-cells-gridweb/access-worksheets/).
+The AddCopy method returns the newly added worksheet's index, which can be used to access the worksheet instance. For more details on how to access worksheets, read [Access Worksheets](/cells/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}}

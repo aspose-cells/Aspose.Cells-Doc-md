@@ -9,7 +9,7 @@ url: /javascript-cpp/setting-chart-appearance/
 ---
 
 ## **Setting Chart Appearance**
-In How to Create a Chart we gave a brief introduction to the types of charts and charting objects offered by Aspose.Cells, and described how to create one. This article discusses how to customize the appearance of charts by setting their properties:
+In *How to Create a Chart*, we gave a brief introduction to the types of charts and charting objects offered by Aspose.Cells, and described how to create one. This article discusses how to customize the appearance of charts by setting their properties:
 
 - Setting the chart area.
 - Setting chart lines.
@@ -18,7 +18,7 @@ In How to Create a Chart we gave a brief introduction to the types of charts and
 - Working with gridlines.
 
 ### **Setting Chart Area**
-There are different kinds of areas in a chart and Aspose.Cells provides the flexibility to modify the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color, and fill format etc.
+There are different kinds of areas in a chart, and Aspose.Cells provides the flexibility to modify the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color, and fill format, etc.
 
 In the example given below, we have applied different formatting settings on different kinds of areas of a chart. These areas include:
 
@@ -124,7 +124,7 @@ The following code snippet demonstrates how to set the chart area.
 ```
 
 ### **Setting Chart Lines**
-Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/javascript-cpp/seriescollection/). The following code snippet demonstrates how to set chart lines using Aspose.Cells API.
+Developers can also apply different kinds of styles to the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/javascript-cpp/seriescollection/). The following code snippet demonstrates how to set chart lines using the Aspose.Cells API.
 
 ```html
 <!DOCTYPE html>
@@ -301,7 +301,7 @@ Developers can apply different Microsoft Excel themes/colors to [SeriesCollectio
 ```
 
 ### **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/javascript-cpp/title/) property that can be used to set their titles as shown below in an example.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/javascript-cpp/title/) property that can be used to set their titles, as shown below in an example.
 
 The following code snippet demonstrates how to set titles to charts and axes.
 
@@ -409,7 +409,7 @@ It is possible to customize the look of major gridlines. Hide or show gridlines,
 #### **Hiding Major Gridlines**
 Developers can control the visibility of major gridlines by setting the [isVisible()](https://reference.aspose.com/cells/javascript-cpp/line/#isVisible--) property of the [Line](https://reference.aspose.com/cells/javascript-cpp/line/) object to **true** or **false**.
 
-The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart will be added to the worksheet will have not gridlines.
+The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart added to the worksheet will not have gridlines.
 
 ```html
 <!DOCTYPE html>
@@ -504,7 +504,7 @@ The following code snippet demonstrates how to hide major gridlines. After hidin
 ```
 
 #### **Changing Major Gridlines Settings**
-Developers cannot only control the visibility of major gridlines but also other properties including its color etc.
+Developers can not only control the visibility of major gridlines but also other properties, including its color, etc.
 
 The following code snippet demonstrates how to change the major gridlines' color. After setting the color of the major gridlines, a column chart will be added to the worksheet with modified gridlines.
 
@@ -600,6 +600,6 @@ The following code snippet demonstrates how to change the major gridlines' color
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Set the Values Format Code of Chart Series](/cells/javascript-cpp/set-the-values-format-code-of-chart-series/)
 - [Set Picture as Background Fill in the Chart](/cells/javascript-cpp/set-picture-as-background-fill-in-the-chart/)

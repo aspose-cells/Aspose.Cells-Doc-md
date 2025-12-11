@@ -4,16 +4,16 @@ type: docs
 weight: 10
 url: /net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ai_search_scope: cells_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_endpoint: "https://docsearch.api.aspose.com/ask"
 ---
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells provides [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) method which you can use to import your XML Map inside the workbook.
+Aspose.Cells provides the [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) method, which you can use to import an XML map into the workbook.
 
 ## **Add XML Map inside the Workbook using XmlMapCollection.Add method**
 
-The following sample code adds XML Map inside the workbook using the [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) method and saves it as [output excel file](5115434.xlsx). The screenshot shows the XML Map that has been imported from the [sample.xml](5115433.xml) inside the output excel file.
+The following sample code adds an XML map into the workbook using the [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) method and saves it as an [output Excel file](5115434.xlsx). The screenshot shows the XML map that has been imported from the [sample.xml](5115433.xml) into the output Excel file.
 
 ![add-xml-map](add-xml-map.png)
 

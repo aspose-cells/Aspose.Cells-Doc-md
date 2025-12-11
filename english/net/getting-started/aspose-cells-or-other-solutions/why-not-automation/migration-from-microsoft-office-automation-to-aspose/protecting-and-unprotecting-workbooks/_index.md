@@ -11,9 +11,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 To prevent someone from accidentally or deliberately changing, moving, or deleting worksheets, you can protect workbook elements with or without a password. To protect a workbook's structure so that worksheets in the workbook can't be moved, deleted, hidden, unhidden, or renamed, and new worksheets can't be inserted, specify the ProtectionType as Structure.
 
-To protect Windows so that they are the same size and position each time the workbook is opened, specify the ProtectionType as Windows. In this article, we show how to [protect](/cells/net/protecting-and-unprotecting-workbooks/) and [unprotect](/cells/net/protecting-and-unprotecting-workbooks/) workbooks using VSTO and Aspose.Cells for .NET to let you compare the two methods.
+To protect windows so that they retain the same size and position each time the workbook is opened, specify the ProtectionType as Windows. In this article, we show how to [protect](/cells/net/protecting-and-unprotecting-workbooks/) and [unprotect](/cells/net/protecting-and-unprotecting-workbooks/) workbooks using VSTO and Aspose.Cells for .NET to let you compare the two methods.
 
-Aspose.Cells works independently of Microsoft Office Automation and is developed to be easy to use and produce neat code.
+Aspose.Cells works independently of Microsoft Office Automation and is developed to be easy to use and to produce neat code.
 
 Protecting a workbook does not stop users from editing cells. To protect the data, you must protect the worksheets.
 
@@ -43,11 +43,11 @@ using System.Reflection;
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Specify the template excel file path.
+//Specify the template Excel file path.
 
 string myPath = @"d:\test\MyBook.xls";
 
-//Open the excel file.
+//Open the Excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
@@ -76,7 +76,6 @@ excelApp.ActiveWorkbook.Save();
 excelApp.Quit();
 
 
-
 {{< /highlight >}}
 
 
@@ -91,14 +90,13 @@ using Aspose.Cells;
 
 .......
 
-
-//Specify the template excel file path.
+//Specify the template Excel file path.
 
 string myPath = @"d:\test\MyBook.xls";
 
 //Instantiate a new Workbook.
 
-//Open the excel file.
+//Open the Excel file.
 
 Workbook workbook = new Workbook(myPath);
 
@@ -106,10 +104,9 @@ Workbook workbook = new Workbook(myPath);
 
 workbook.Protect(ProtectionType.All,"007");
 
-//Save As the excel file.
+//Save the Excel file.
 
 workbook.Save(@"d:\test\MyBook.xls");
-
 
 
 {{< /highlight >}}
@@ -125,7 +122,6 @@ To unprotect a workbook, use the following lines of code for VSTO (C#, VB) and A
 excelApp.ActiveWorkbook.Unprotect("007");
 
 
-
 {{< /highlight >}}
 
 
@@ -137,7 +133,6 @@ excelApp.ActiveWorkbook.Unprotect("007");
  //Unprotect the workbook specifying its password.
 
 workbook.Unprotect("007");
-
 
 
 {{< /highlight >}}

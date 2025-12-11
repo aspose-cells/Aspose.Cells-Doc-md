@@ -17,10 +17,8 @@ Sometimes, you need to know the absolute position of a shape in a worksheet. Asp
 
 The following sample code displays the absolute position of the first shape in the worksheet in pixels. The sample code displays the following console output:
 
-{{< highlight java >}}
-
-Absolute Position of this Shape is (320 , 183)
-
+{{< highlight cpp >}}
+Absolute Position of this Shape is (320, 183)
 {{< /highlight >}}
 
 ```c++
@@ -36,8 +34,8 @@ int main()
 
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
-    // Load the sample Excel file inside the workbook object
+
+    // Load the sample Excel file into the workbook object
     Workbook workbook(srcDir + u"sample.xlsx");
 
     // Access the first worksheet
@@ -47,10 +45,9 @@ int main()
     Shape shape = worksheet.GetShapes().Get(0);
 
     // Displays the absolute position of the shape
-    std::wcout << L"Absolute Position of this Shape is (" << shape.GetLeftToCorner() << L" , " << shape.GetTopToCorner() << L")" << std::endl;
+    std::wcout << L"Absolute Position of this Shape is (" << shape.GetLeftToCorner() << L", " << shape.GetTopToCorner() << L")" << std::endl;
 
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
-{{< app/cells/assistant language="cpp" >}}

@@ -7,7 +7,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section includes the following topics
+This section includes the following topics:
 
 - [Convert charts to images](/cells/net/convert-charts-to-images/)
 - [Print spreadsheets](/cells/net/print-spreadsheets/)

@@ -9,7 +9,7 @@ description: Learn how to combine multiple workbooks into a single workbook usin
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to combine workbooks with various content like images, charts and data into a single workbook. Aspose.Cells for JavaScript via C++ supports this feature. This article shows how to create a console application and combine workbooks with a few, simple lines of code using Aspose.Cells.
+Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells for JavaScript via C++ supports this feature. This article shows how to create a console application and combine workbooks with a few simple lines of code using Aspose.Cells.
 
 {{% /alert %}}
 
@@ -32,23 +32,23 @@ Below are screenshots of the source and output workbooks.
 
 {{% alert color="primary" %}}
 
-You can use any source workbooks. These images are just for illustration purposes.
+You can use any source workbook. These images are just for illustration purposes.
 
 {{% /alert %}}
 
-**The first worksheet of the charts workbook - stacked** 
+**The first worksheet of the charts workbook – stacked** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Second worksheet of charts workbook - line** 
+**The second worksheet of the charts workbook – line** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**First worksheet of the picture workbook - picture** 
+**The first worksheet of the picture workbook – picture** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**All three worksheets in the combined workbook - stacked, line, picture** 
+**All three worksheets in the combined workbook – stacked, line, picture** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
@@ -98,10 +98,10 @@ You can use any source workbooks. These images are just for illustration purpose
             const arrayBuffer1 = await file1.arrayBuffer();
             const arrayBuffer2 = await file2.arrayBuffer();
 
-            // Open the first excel file.
+            // Open the first Excel file.
             const sourceBook1 = new Workbook(new Uint8Array(arrayBuffer1));
 
-            // Open the second excel file.
+            // Open the second Excel file.
             const sourceBook2 = new Workbook(new Uint8Array(arrayBuffer2));
 
             // Combining the two workbooks
@@ -122,6 +122,6 @@ You can use any source workbooks. These images are just for illustration purpose
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/javascript-cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/javascript-cpp/merge-files/)

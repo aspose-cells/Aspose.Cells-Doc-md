@@ -7,13 +7,13 @@ url: /javascript-cpp/autofit-rows-for-rendering/
 description: Learn how to auto-fit rows for rendering in Excel using Aspose.Cells for JavaScript via C++. Prevent text clipping in saved PDF files.
 ---
 
-Generally, when you want to display all the text in a cell, you can auto-fit the row in Normal view with 100% zoom in Microsoft Excel. This allows the text to be fully visible in Normal view, and even when you print or save the file as a PDF, the text will be displayed correctly.
+Generally, when you want to display all the text in a cell, you can auto‑fit the row in Normal view with 100% zoom in Microsoft Excel. This allows the text to be fully visible in Normal view, and even when you print or save the file as a PDF, the text will be displayed correctly.
 
-However, in some cases, auto-fitting the row works fine in Normal view, but when you switch to print view or save the file as a PDF, the text gets clipped. Please check the source file [Book1.xlsx](Book1.xlsx) and screenshots.
+However, in some cases, auto‑fitting the row works fine in Normal view, but when you switch to Print view or save the file as a PDF, the text gets clipped. Please check the source file [Book1.xlsx](Book1.xlsx) and screenshots.
 
-![text is clipped in printview](text_clipped_in_printview.png)
+![Text is clipped in Print view](text_clipped_in_printview.png)
 
-If you want to prevent text from being clipped in the saved PDF file, you can auto-fit the row with the [AutoFitterOptions.forRendering](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#forRendering--) option.
+If you want to prevent text from being clipped in the saved PDF file, you can auto‑fit the row with the [AutoFitterOptions.forRendering](https://reference.aspose.com/cells/javascript-cpp/autofitteroptions/#forRendering--) option.
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ If you want to prevent text from being clipped in the saved PDF file, you can au
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Init workbook instance from uploaded file.
+            // Initialize workbook instance from uploaded file.
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Set autofit options for rendering.
@@ -65,7 +65,7 @@ If you want to prevent text from being clipped in the saved PDF file, you can au
             const worksheet = workbook.worksheets.get(0);
             worksheet.autoFitRows(autoFitterOptions);
 
-            // Save to pdf.
+            // Save to PDF.
             const outputData = workbook.save(SaveFormat.Pdf);
             const blob = new Blob([outputData], { type: 'application/pdf' });
             const downloadLink = document.getElementById('downloadLink');
@@ -82,4 +82,4 @@ If you want to prevent text from being clipped in the saved PDF file, you can au
 
 Now, the text is not clipped in the output PDF file.
 
-![text is not clipped in saved pdf](text_not_clipped_in_saved_pdf.png)
+![Text is not clipped in saved PDF](text_not_clipped_in_saved_pdf.png)

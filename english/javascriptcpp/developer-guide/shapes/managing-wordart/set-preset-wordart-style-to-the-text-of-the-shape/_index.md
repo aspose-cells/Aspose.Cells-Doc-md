@@ -11,7 +11,7 @@ description: Learn how to set a preset WordArt style to the text of a shape usin
 You can set a preset WordArt style to the text of the shape using Aspose.Cells for JavaScript via C++. Please use [FontSetting.wordArtStyle(PresetWordArtStyle)](https://reference.aspose.com/cells/javascript-cpp/fontsetting/#wordArtStyle-presetwordartstyle-) or [FontSettingCollection.wordArtStyle(PresetWordArtStyle)](https://reference.aspose.com/cells/javascript-cpp/fontsettingcollection/#wordArtStyle-presetwordartstyle-) methods for this purpose.
 
 ## **Set preset WordArt style to the text of the shape**
-The following sample code creates a text box with some text and then sets the preset WordArt style of its text using [FontSetting.wordArtStyle(PresetWordArtStyle)](https://reference.aspose.com/cells/javascript-cpp/fontsetting/#wordArtStyle-presetwordartstyle-) method. This is how the [output excel file](5115445.xlsx) looks in Microsoft Excel.
+The following sample code creates a text box with some text and then sets the preset WordArt style of its text using [FontSetting.wordArtStyle(PresetWordArtStyle)](https://reference.aspose.com/cells/javascript-cpp/fontsetting/#wordArtStyle-presetwordartstyle-) method. This is how the [output Excel file](5115445.xlsx) looks in Microsoft Excel.
 
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 
@@ -58,7 +58,7 @@ The following sample code creates a text box with some text and then sets the pr
             textbox.text = "Aspose File Format APIs";
             textbox.font.size = 44;
 
-            // Sets preset WordArt style to the text of the shape.
+            // Set preset WordArt style to the text of the shape.
             const fntSetting = textbox.richFormattings[0];
             fntSetting.wordArtStyle = AsposeCells.PresetWordArtStyle.WordArtStyle3;
 

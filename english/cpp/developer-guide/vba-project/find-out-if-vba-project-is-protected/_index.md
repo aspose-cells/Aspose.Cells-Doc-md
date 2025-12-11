@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Find out if VBA Project is Protected in C++**
 
-You can find if the VBA (Visual Basic Applications) Project of your Excel file is protected or not with Aspose.Cells using [**VbaProject.IsProtected**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/isprotected/) property.
+You can determine whether the VBA (Visual Basic for Applications) project of your Excel file is protected using Aspose.Cells via the [**VbaProject.IsProtected**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/isprotected/) property.
 
 ## **Sample Code**
 
-The following sample code creates a workbook and then checks if its VBA project is protected or not. Then it protects the VBA project and again checks if its VBA project is protected or not. Please see its console output for a reference. Before protection, [**VbaProject.IsProtected**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/isprotected/) returns **false** but after protection, it returns **true**.
+The following sample code creates a workbook, checks if its VBA project is protected, then protects the VBA project and checks again. Please see its console output for reference. Before protection, [**VbaProject.IsProtected**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/isprotected/) returns **false**, but after protection, it returns **true**.
 
 ```c++
 #include <iostream>
@@ -49,9 +49,9 @@ int main()
 
 ## **Console Output**
 
-This is the console output of the above sample code for a reference.
+This is the console output of the above sample code as a reference.
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
 IsProtected - Before Protecting VBA Project: False
 

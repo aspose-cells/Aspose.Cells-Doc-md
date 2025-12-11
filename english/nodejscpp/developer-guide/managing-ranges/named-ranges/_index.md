@@ -14,12 +14,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Microsoft Excel allows users to define named ranges with two different scopes: workbook (also known as global scope) and worksheet.
 
 - Named ranges with a workbook scope can be accessed from any worksheet within that workbook by simply using its name.
-- Worksheet scoped named ranges are accessed with the reference of the particular worksheet in which it was created.
+- Worksheet‑scoped named ranges are accessed with the reference of the particular worksheet in which they were created.
 
-Aspose.Cells for Node.js via C++ provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet scoped named range.
+Aspose.Cells for Node.js via C++ provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet‑scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet‑scoped named range.
 
 {{% /alert %}} 
-## **Adding a Named Range with Workbook Scoped**
+## **Adding a Named Range with Workbook Scope**
 
 
 ```javascript
@@ -75,7 +75,7 @@ localRange.setName("Sheet1!local");
 workbook.save(path.join(dataDir, "output.out.xls"));
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Create Access and Copy Named Ranges](/cells/nodejs-cpp/create-access-and-copy-named-ranges/)
 - [Format and Modify Named Ranges](/cells/nodejs-cpp/format-and-modify-named-ranges/)
 - [Get Range with External Links](/cells/nodejs-cpp/get-range-with-external-links/)

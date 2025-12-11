@@ -9,7 +9,7 @@ description: Learn how to find the root element name of an XML map in Excel usin
 
 ## **Possible Usage Scenarios**
 
-You can find the *Root Element Name of Xml Map* using Aspose.Cells for JavaScript via C++ with the [**XmlMap.rootElementName**](https://reference.aspose.com/cells/javascript-cpp/xmlmap/#rootElementName--) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
+You can find the *Root Element Name of the XML Map* using Aspose.Cells for JavaScript via C++ with the [**XmlMap.rootElementName**](https://reference.aspose.com/cells/javascript-cpp/xmlmap/#rootElementName--) property. The following screenshot shows the root element name of the XML Map in Microsoft Excel.
 
 ![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
@@ -24,7 +24,7 @@ The following sample code loads the [sample Excel file](55541789.xlsx) and acces
         <title>Aspose.Cells Example</title>
     </head>
     <body>
-        <h1>Get Root Element Name Of Xml Map</h1>
+        <h1>Get Root Element Name of XML Map</h1>
         <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
         <button id="runExample">Get Root Element Name</button>
         <a id="downloadLink" style="display: none;">Download Result</a>
@@ -60,15 +60,15 @@ The following sample code loads the [sample Excel file](55541789.xlsx) and acces
             // Instantiating a Workbook object using the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first Xml Map inside the Workbook
+            // Access first XML Map inside the Workbook
             const xmap = workbook.worksheets.xmlMaps.get(0);
 
-            // Get Root Element Name of Xml Map
+            // Get Root Element Name of XML Map
             const rootName = xmap.rootElementName;
 
             // Display result
-            resultDiv.innerHTML = `<p>Root Element Name Of Xml Map: ${rootName}</p>`;
-            console.log("Root Element Name Of Xml Map: " + rootName);
+            resultDiv.innerHTML = `<p>Root Element Name of XML Map: ${rootName}</p>`;
+            console.log("Root Element Name of XML Map: " + rootName);
         });
     </script>
 </html>
@@ -76,8 +76,6 @@ The following sample code loads the [sample Excel file](55541789.xlsx) and acces
 
 ## **Console Output**
 
-{{< highlight java >}}
-
-Root Element Name Of Xml Map: MiscData
-
+{{< highlight plaintext >}}
+Root Element Name of XML Map: MiscData
 {{< /highlight >}}

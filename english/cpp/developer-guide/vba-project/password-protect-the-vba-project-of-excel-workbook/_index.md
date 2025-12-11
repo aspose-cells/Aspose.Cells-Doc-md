@@ -1,5 +1,5 @@
 ---
-title: Password Protect the VBA Project of Excel Workbook with C++
+title: Password Protect the VBA Project of an Excel Workbook with C++
 linktitle: Password Protect the VBA Project of Excel Workbook
 type: docs
 weight: 10
@@ -9,13 +9,13 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Password Protect the VBA Project of Excel Workbook in C++**
+## **Password Protect the VBA Project of an Excel Workbook in C++**
 
-You can password protect the VBA (Visual Basic for Applications) Project of a workbook with Aspose.Cells using the [**VbaProject.Protect()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/protect/) method.
+You can password protect the VBA (Visual Basic for Applications) project of a workbook with Aspose.Cells using the [**VbaProject.Protect()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaproject/protect/) method.
 
 ## **Sample Code**
 
-The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA Project, and protects it with a password. Finally, it saves it as the [output Excel file](43352068.xlsm).
+The following sample code loads the [sample Excel file](43352067.xlsm), accesses its VBA project, and protects it with a password. Finally, it saves it as the [output Excel file](43352068.xlsm).
 
 ```c++
 #include <iostream>

@@ -11,20 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
 {{% alert color="primary" %}}  
-Reusing style objects can save memory and make a program faster.  
+Reusing style objects can save memory and make a program run faster.  
 {{% /alert %}}  
 
 To apply some formatting to a large range of cells in a worksheet:
 
-1. Create a style object.
-1. Specify the attributes.
-1. Apply the style to the cells in the range.
+1. Create a style object.  
+2. Specify the attributes.  
+3. Apply the style to the cells in the range.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-ReusingStyleObjects.js" >}}
 
-
 {{% alert color="primary" %}}  
-Because the [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) approach uses a lot less memory, and is efficient, the older Cell.style property which consumed a lot of unnecessary memory was removed with the release of Aspose.Cells 7.1.0.  
+Because the [**Cell.getStyle()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) / [**Cell.setStyle(Style)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) approach uses much less memory and is efficient, the older `Cell.style` property, which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.  
 {{% /alert %}}  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

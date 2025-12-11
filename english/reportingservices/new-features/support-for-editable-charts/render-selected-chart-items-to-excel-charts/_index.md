@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-To render only some charts in a report to Excel charts:
+To render only some charts in a report as Excel charts:
 
-1. Open the **Aspose.Cells.ReportingServices.xml** file.
-1. Modify the configuration parameters of the **Aspose.Cells.ReportingServices.xml** file.
-1. Add the desired report configuration information.
-1. Add the information for the chart items you don’t want to export as editable charts. These items are exported as static images.
+1. Open the **Aspose.Cells.ReportingServices.xml** file.  
+2. Modify the configuration parameters of the **Aspose.Cells.ReportingServices.xml** file.  
+3. Add the desired report configuration information.  
+4. Add the information for the chart items you don’t want to export as editable charts. These items are exported as static images.
 
 For example:
 
@@ -22,7 +22,7 @@ For example:
 
  <Chart >
 
-<Report name= "Employee Sales Summary 2008">
+<Report name="Employee Sales Summary 2008">
 
 <ChartItem name="Chart1" type="image"/>
 

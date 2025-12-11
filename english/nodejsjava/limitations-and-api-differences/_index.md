@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /nodejs-java/limitations-and-api-differences/
 keywords: "nodejs, excel, limitation, api, differences"
-description: "Aspose.Cells for Node.js via Java limitations and api differences."
+description: "Aspose.Cells for Node.js via Java limitations and API differences."
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -74,11 +74,11 @@ aspose.cells = require("aspose.cells.java");
 
 {{< highlight java >}}
 
- InputStream inputstream = new FileInputStream(“Book1.xlsx”);
+ InputStream inputStream = new FileInputStream("Book1.xlsx");
 
-Workbook workbook = new Workbook(inputstream);
+Workbook workbook = new Workbook(inputStream);
 
-workbook.save(“result.xlsx”);
+workbook.save("result.xlsx");
 
 {{< /highlight >}}
 
@@ -98,22 +98,21 @@ var readStream = fs.createReadStream("Book1.xlsx");
 
 aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, err) {
 
-    if (err) {
+    if (err) {
 
-        console.log("open workbook error");
+        console.log("open workbook error");
 
-        return;
+        return;
 
-    }
+    }
 
-   workbook.save('result.xlsx');
+   workbook.save('result.xlsx');
 
-    console.log('saved to file');
+    console.log('saved to file');
 
 });
 
 {{< /highlight >}}
 ## **Other Limitations of Aspose.Cells for Node.js via Java API compared to Aspose.Cells for Java API**
-1. Importing/exporting data from an Array, ArrayList, ResultSet etc. is not supported.
-1. Printing is not supported.
-
+1. Importing/exporting data from an Array, an ArrayList, a ResultSet, etc., is not supported.
+2. Printing is not supported.

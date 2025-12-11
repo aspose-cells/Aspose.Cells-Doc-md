@@ -10,7 +10,7 @@ url: /go-cpp/change-tick-label-direction/
 
 ## **Change Tick Label Direction**
 
-Aspose.Cells provides you with the ability to change the chart tick label direction by using the [**TickLabels.GetDirectionType()**](https://reference.aspose.com/cells/go-cpp/ticklabels/getdirectiontype/) property. The [**TickLabels.GetDirectionType()**](https://reference.aspose.com/cells/go-cpp/ticklabels/getdirectiontype/) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttextdirectiontype) enumeration provides the following members:
+Aspose.Cells provides the ability to change the chart tick label direction by using the [**TickLabels.GetDirectionType()**](https://reference.aspose.com/cells/go-cpp/ticklabels/getdirectiontype/) property. The [**TickLabels.GetDirectionType()**](https://reference.aspose.com/cells/go-cpp/ticklabels/getdirectiontype/) property accepts the [**ChartTextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttextdirectiontype) enumeration value. The [**ChartTextDirectionType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttextdirectiontype) enumeration provides the following members:
 
 - Horizontal
 - Vertical
@@ -33,6 +33,7 @@ The following code snippet changes the tick label direction from Rotate90 to Hor
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangeTickLabelDirection.go" >}}
+
 The source and output files can be downloaded from the following links.
 
 [Source File](105480221.xlsx)

@@ -1,21 +1,21 @@
 ---
-title: Get Pivot Table refresh date and refresh by who information with C++
-linktitle: Get Pivot Table Refresh Date and Refresh By Who Information
+title: Get Pivot Table refresh date and refresh‑by‑who information with C++
+linktitle: Get Pivot Table Refresh Date and Refresh‑by‑Who Information
 type: docs
 weight: 100
 url: /cpp/get-pivot-table-refresh-date-and-refresh-by-who-information/
-description: Learn how to fetch the refresh date and refresh by who information from a workbook using Aspose.Cells with C++.
+description: Learn how to fetch the refresh date and refresh‑by‑who information from a workbook using Aspose.Cells with C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports fetching the refresh date and refresh by who information from a workbook.
+Aspose.Cells now supports fetching the refresh date and refresh‑by‑who information from a workbook.
 
 {{% /alert %}}
 
-[**PivotTable.GetRefreshDate()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/getrefreshdate/) returns the date on which the PivotTable report was last refreshed. Similarly, [**PivotTable.GetRefreshedByWho()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/getrefreshedbywho/) property returns the name of the user who refreshed the report last time. The following example demonstrates this feature, and the sample file can be downloaded from the following link.
+[**PivotTable.GetRefreshDate()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/getrefreshdate/) returns the date on which the PivotTable report was last refreshed. Similarly, the [**PivotTable.GetRefreshedByWho()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/getrefreshedbywho/) property returns the name of the user who last refreshed the report. The following example demonstrates this feature, and the sample file can be downloaded via the link below.
 
 [SourcePivotTable.xlsx](77496335.xlsx)
 

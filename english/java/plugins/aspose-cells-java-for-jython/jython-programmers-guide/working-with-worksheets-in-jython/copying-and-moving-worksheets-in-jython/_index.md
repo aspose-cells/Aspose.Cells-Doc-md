@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Copying And Moving Worksheets**
-To append documents using **Aspose.Cells Java for Jython**. Here you can see example code.
+To copy and move worksheets using **Aspose.Cells for Java with Jython**. Here you can see example code.
 
 **Jython Code**
 
@@ -43,7 +43,7 @@ class CopyingAndMovingWorksheets:
 
 
 
-         # Instantiating a Workbook object by excel file path
+         # Instantiating a Workbook object by Excel file path
 
         workbook = Workbook(dataDir + "Book1.xls")
 
@@ -73,7 +73,7 @@ class CopyingAndMovingWorksheets:
 
 
 
-         # Instantiating a Workbook object by excel file path
+         # Instantiating a Workbook object by Excel file path
 
         workbook = Workbook(dataDir + "Book1.xls")
 
@@ -101,6 +101,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding 
+Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

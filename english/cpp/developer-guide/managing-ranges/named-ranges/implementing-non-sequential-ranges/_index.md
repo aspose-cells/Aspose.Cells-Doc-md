@@ -36,19 +36,19 @@ int main()
     // Create a new workbook
     Workbook workbook;
 
-    // Adding a Name for non sequenced range
+    // Adding a name for a non‑sequential range
     int index = workbook.GetWorksheets().GetNames().Add(u"NonSequencedRange");
 
     // Get the added name
     Name name = workbook.GetWorksheets().GetNames().Get(index);
 
-    // Creating a non sequence range of cells
+    // Creating a non‑sequential range of cells
     name.SetRefersTo(u"=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
 
     // Save the workbook
     workbook.Save(outDir + u"Output.out.xlsx");
 
-    std::cout << "Workbook saved successfully with non-sequenced range!" << std::endl;
+    std::cout << "Workbook saved successfully with a non‑sequential range!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }

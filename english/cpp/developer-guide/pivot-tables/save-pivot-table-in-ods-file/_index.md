@@ -96,7 +96,7 @@ int main()
     // Access the newly added pivot table
     PivotTable pivotTable = pivotTables.Get(index);
 
-    // Unshow grand totals for rows
+    // Hide grand totals for rows
     pivotTable.SetRowGrand(false);
 
     // Add fields to the pivot table

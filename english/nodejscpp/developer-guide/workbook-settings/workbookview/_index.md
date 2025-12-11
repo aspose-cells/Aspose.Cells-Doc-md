@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells for Node.js via C++ offers this feature. Aspose.Cells for Node.js via C++ provides the following properties and methods to help you to achieve your goals.
+When you need to adjust the display of Excel worksheets, you must know how to control each component, such as the horizontal and vertical scrollbars, whether to hide the workbook, and so on. Aspose.Cells for Node.js via C++ offers this feature. Aspose.Cells for Node.js via C++ provides the following properties and methods to help you achieve your goals.
 
 - [**WorkbookSettings.isHScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isHScrollBarVisible--)
 - [**WorkbookSettings.isVScrollBarVisible()**](https://reference.aspose.com/cells/nodejs-cpp/workbooksettings/#isVScrollBarVisible--)
@@ -25,9 +25,9 @@ When you need to adjust the display of Excel pages, you need to know how to cont
 ## **How to Control Workbook View using Aspose.Cells for Node.js via C++**
 This example shows how to:
 
-1. Create a workbook.
-1. Add data to cells in the first worksheet.
-1. Hide horizontal and vertical scrollbars of Workbook View.
+1. Create a workbook.  
+2. Add data to cells in the first worksheet.  
+3. Hide horizontal and vertical scrollbars of Workbook View.
 
 ```javascript
 const path = require("path");
@@ -37,7 +37,7 @@ const AsposeCells = require("aspose.cells.node");
 const dataDir = path.join(__dirname, "data");
 const filePath = path.join(dataDir, "sample.xlsx");
 
-// Instantiating an Workbook object
+// Instantiating a Workbook object
 const workbook = new AsposeCells.Workbook();
 // Obtaining the reference of the newly added worksheet
 const ws = workbook.getWorksheets().get(0);

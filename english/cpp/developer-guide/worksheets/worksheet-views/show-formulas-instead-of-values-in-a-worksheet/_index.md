@@ -15,7 +15,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Worksheet.GetShowFormulas()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getshowformulas/) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells provides a [**Worksheet.GetShowFormulas()**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getshowformulas/) property. Set this to **true** to make Microsoft Excel display formulas.
 
 ```cpp
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
     // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String filePath = srcDir + u"source.xlsx";
 
     // Load the source workbook
@@ -42,7 +42,7 @@ int main()
     // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Show formulas of the worksheet
+    // Show formulas on the worksheet
     worksheet.SetShowFormulas(true);
 
     // Save the workbook

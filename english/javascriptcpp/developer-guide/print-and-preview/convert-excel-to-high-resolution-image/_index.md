@@ -4,10 +4,10 @@ linktitle: Convert Excel to High-Resolution Image
 type: docs
 weight: 100
 url: /javascript-cpp/convert-excel-to-high-resolution-image/
-description: Learn how to convert Excel files to high-resolution images using Aspose.Cells for JavaScript via C++.
+description: Learn how to convert Excel files to high‑resolution images using Aspose.Cells for JavaScript via C++.
 ---
 
-With the increasing prevalence of high-resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high-resolution screens, it's essential to generate images at a higher DPI. Aspose.Cells for JavaScript via C++ offers the functionality to set [**ImageOrPrintOptions.horizontalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#horizontalResolution--) and [**ImageOrPrintOptions.verticalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#verticalResolution--), allowing you to create high-quality images from Excel files that look sharp on high-resolution displays.  
+With the increasing prevalence of high‑resolution screens, images generated at the default 96 DPI often appear blurry and unclear. To ensure clarity on high‑resolution screens, it is essential to generate images at a higher DPI. Aspose.Cells for JavaScript via C++ provides the functionality to set [**ImageOrPrintOptions.horizontalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#horizontalResolution--) and [**ImageOrPrintOptions.verticalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#verticalResolution--), allowing you to create high‑quality images from Excel files that look sharp on high‑resolution displays.  
 
 ```html
 <!DOCTYPE html>
@@ -63,7 +63,7 @@ With the increasing prevalence of high-resolution screens, images generated at t
             // Create SheetRender instance
             const render = new SheetRender(sheet, options);
 
-            // Generate image for the first page/index (0)
+            // Generate an image for the first page/index (0)
             const imageData = render.toImage(0);
 
             // Create blob and provide download link

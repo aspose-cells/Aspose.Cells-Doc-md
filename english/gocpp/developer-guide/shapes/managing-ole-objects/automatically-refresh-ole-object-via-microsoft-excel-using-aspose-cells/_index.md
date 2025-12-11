@@ -13,6 +13,6 @@ Aspose.Cells provides the [**OleObject.GetAutoLoad()**](https://reference.aspose
 
 {{% /alert %}}
 
-The following sample code loads the [sample Excel file](5115231.xlsx) which has a non-real OLE image. The OLE object is actually a Microsoft Word document, but the sample Excel file shows the animal image instead of the Microsoft Word image. However, if you open the [output Excel file](5115225.xlsx), you will see Microsoft Excel displays the correct OLE image.
+The following sample code loads the sample Excel file (5115231.xlsx), which has a non‑real OLE image. The OLE object is actually a Microsoft Word document, but the sample Excel file shows the animal image instead of the Microsoft Word image. However, if you open the output Excel file (5115225.xlsx), you will see Microsoft Excel displays the correct OLE image.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-AutomaticallyRefreshOleObjectViaMicrosoftExcelUsingAsposeCells.go" >}}

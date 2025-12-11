@@ -8,46 +8,42 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Convert Worksheet to Image**
-Convert a Microsoft Excel Worksheet to Image File
+Convert a Microsoft Excel worksheet to an image file.
 
 **PHP Code**
 
 {{< highlight php >}}
+$dataDir = '';
 
-         $dataDir = '';
+// Create Aspose.Cells helper object
+$ptr = new \COM('Aspose.Cells.Interop.InteropHelper');
 
-        // Create Aspose.Cells Helper Object
+// Opening through a path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr->New("Aspose.Cells.Workbook", array($dataDir . '/MyTestBook1.xls'));
 
-        $ptr = new \COM('Aspose.Cells.Interop.InteropHelper');
+$worksheets = $ptr->Get($workbook, "Worksheets", array());
 
-        // Opening through Path
+$sheet = $ptr->Get($worksheets, 'Item', array(0));
 
-        // Creating a Workbook object and opening an Excel file using its file path
+$imgOptions = $ptr->New("Aspose.Cells.Rendering.ImageOrPrintOptions", array());
 
-        $workbook = $ptr->New("Aspose.Cells.Workbook",array($dataDir . '/MyTestBook1.xls'));
+$imageFormat = new \DOTNET('mscorlib', 'System.Drawing.Imaging.ImageFormat');
 
-        $worksheets = $ptr->Get($workbook,"Worksheets",array());
+$ptr->Set($imgOptions, 'ImageFormat', $imageFormat->Jpeg, array());
 
-        $sheet = $ptr->Get($worksheets,'Item',array(0));
+$ptr->Set($imgOptions, 'OnePagePerSheet', true, array());
 
-        $imgOptions = $ptr->New("Aspose.Cells.Rendering.ImageOrPrintOptions",array());
+$sr = $ptr->New("Aspose.Cells.Rendering.SheetRender", array($sheet, $imgOptions));
 
-        $imageFormat = new \DOTNET('mscorlib', 'System.Drawing.Imaging.ImageFormat');
+$bitmap = new \DOTNET("mscorlib", "System.Drawing.Bitmap");
 
-        $ptr->Set($imgOptions,'ImageFormat',$imageFormat->Jpeg,array());
+$bitmap->Save($dataDir . "./SheetImage.jpg");
 
-        $ptr->Set($imgOptions,'OnePagePerSheet',true,array());
-
-        $sr = $ptr->New("Aspose.Cells.Rendering.SheetRender",array($sheet,$imgOptions));
-
-        $bitmap = new \DOTNET("mscorlib", "System.Drawing.Bitmap");
-
-        $bitmap->Save($dataDir . "./SheetImage.jpg");
-
-        print "Conversion to Image(s) completed!" . PHP_EOL;
-
+print "Conversion to Image(s) completed!" . PHP_EOL;
 {{< /highlight >}}
-## **Download Running Code**
-Download **Worksheet to Image (Aspose.Cells)** from any of the below mentioned social coding sites:
+
+## **Download Sample Code**
+Download **Worksheet to Image (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

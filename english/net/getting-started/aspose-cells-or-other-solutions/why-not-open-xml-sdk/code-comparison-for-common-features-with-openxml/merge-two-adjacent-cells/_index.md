@@ -1,13 +1,13 @@
----
-title: Merge two adjacent cells
-type: docs
-weight: 90
-url: /net/merge-two-adjacent-cells/
-ai_search_scope: cells_net
+---  
+title: Merge two adjacent cells  
+type: docs  
+weight: 90  
+url: /net/merge-two-adjacent-cells/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **OpenXML Excel**
+## **OpenXML Excel**  
 {{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
@@ -25,8 +25,7 @@ MergeTwoCells(FileName, sheetName, cell1Name, cell2Name);
 // Given a document name, a worksheet name, and the names of two adjacent cells, merges the two cells.
 
 // When two cells are merged, only the content from one cell is preserved:
-
-// the upper-left cell for left-to-right languages or the upper-right cell for right-to-left languages.
+// the upper‑left cell for left‑to‑right languages or the upper‑right cell for right‑to‑left languages.
 
 private static void MergeTwoCells(string docName, string sheetName, string cell1Name, string cell2Name)
 
@@ -48,7 +47,7 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 
         }
 
-        // Verify if the specified cells exist, and if they do not exist, create them.
+        // Verify whether the specified cells exist, and if they do not, create them.
 
         CreateSpreadsheetCellIfNotExist(worksheet, cell1Name);
 
@@ -159,7 +158,6 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 }
 
 // Given a Worksheet and a cell name, verifies that the specified cell exists.
-
 // If it does not exist, creates a new cell. 
 
 private static void CreateSpreadsheetCellIfNotExist(Worksheet worksheet, string cellName)
@@ -173,7 +171,6 @@ private static void CreateSpreadsheetCellIfNotExist(Worksheet worksheet, string 
     IEnumerable<Row> rows = worksheet.Descendants<Row>().Where(r => r.RowIndex.Value == rowIndex);
 
     // If the Worksheet does not contain the specified row, create the specified row.
-
     // Create the specified cell in that row, and insert the row into the Worksheet.
 
     if (rows.Count() == 0)
@@ -260,7 +257,7 @@ private static uint GetRowIndex(string cellName)
 
 {
 
-    // Create a regular expression to match the row index portion the cell name.
+    // Create a regular expression to match the row index portion of the cell name.
 
     Regex regex = new Regex(@"\d+");
 
@@ -270,8 +267,9 @@ private static uint GetRowIndex(string cellName)
 
 }
 
-{{< /highlight >}}
-## **Aspose.Cells**
+{{< /highlight >}}  
+
+## **Aspose.Cells**  
 {{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
@@ -290,31 +288,32 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 
 {
 
-    //Instantiating a Workbook object
+    // Instantiating a Workbook object
 
     Workbook workbook = new Workbook(docName);
 
-    //Obtaining the reference of the worksheet by passing its Name
+    // Obtaining the reference of the worksheet by passing its name
 
     Worksheet worksheet = workbook.Worksheets[sheetName];
 
-    //Get the range of cells i.e.., A1:C1.
+    // Get the range of cells, i.e., A1:C1.
 
-    Range range = worksheet.Cells.CreateRange(cell1Name,cell2Name);
+    Range range = worksheet.Cells.CreateRange(cell1Name, cell2Name);
 
-    //Merge the cells.
+    // Merge the cells.
 
     range.Merge();
 
-    //Saving the Excel file
+    // Saving the Excel file
 
     workbook.Save(docName);
 
 }
 
-{{< /highlight >}}
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip)
+{{< /highlight >}}  
+
+## **Download Sample Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)  
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/download)  
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip)  
 {{< app/cells/assistant language="csharp" >}}

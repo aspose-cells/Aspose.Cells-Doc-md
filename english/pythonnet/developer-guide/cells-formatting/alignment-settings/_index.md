@@ -17,7 +17,7 @@ Anyone who has used Microsoft Excel to format cells will be familiar with the al
 
 As you can see from the above figure, there are different kinds of alignment options:
 
-- Text alignment(horizontal & vertical)
+- Text alignment (horizontal & vertical)
 - Indentation.
 - Orientation.
 - Text control.
@@ -31,7 +31,7 @@ Aspose.Cells for Python via .NET provides a class, [**Workbook**](https://refere
 
 Aspose.Cells for Python via .NET provides [**get_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/get_style) and [**set_style**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/set_style) methods for the [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) class that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) class provides useful properties for configuring alignment settings.
 
-Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/python-net/aspose.cells/textalignmenttype) enumeration. The pre-defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/python-net/aspose.cells/textalignmenttype) enumeration are:
+Select any text alignment type using the [**TextAlignmentType**](https://reference.aspose.com/cells/python-net/aspose.cells/textalignmenttype) enumeration. The pre‑defined text alignment types in the [**TextAlignmentType**](https://reference.aspose.com/cells/python-net/aspose.cells/textalignmenttype) enumeration are:
 
 |**Text Alignment Types**|**Description**|
 | :- | :- |
@@ -80,7 +80,7 @@ Set the orientation (rotation) of the text in a cell with the [**Style**](https:
 
 #### **Text Control**
 
-The following section discusses how to control text by setting text wrapping, shrink to fit and other formatting options.
+The following section discusses how to control text by setting text wrapping, shrink‑to‑fit and other formatting options.
 
 ##### **Wrapping Text**
 
@@ -90,7 +90,7 @@ Wrapping text in a cell makes it easier to read: the height of the cell adjusts 
 
 ##### **Shrinking to Fit**
 
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object's [**is_text_wrapped**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_text_wrapped) property to **true**.
+An alternative to wrapping text in a cell is to shrink the text size to fit the cell's dimensions. This is done by setting the [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object's [**is_shrink_to_fit**](https://reference.aspose.com/cells/python-net/aspose.cells/style/is_shrink_to_fit) property to **true**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.py" >}}
 
@@ -98,8 +98,8 @@ An option to wrapping text in a field is to shrink the text size to fit a cell's
 
 Like Microsoft Excel, Aspose.Cells for Python via .NET supports merging several cells into one. Aspose.Cells for Python via .NET provides two approaches to this task. One way is to call the [**cells**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/) collection's [**merge**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/merge) method. The [**merge**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/merge) method takes the following parameters to merge the cells:
 
-- First row: the first row from where to start merging.
-- First column: the first column from where to start merging.
+- First row: the first row from which to start merging.
+- First column: the first column from which to start merging.
 - Number of rows: the number of rows to merge.
 - Number of columns: the number of columns to merge.
 
@@ -109,9 +109,9 @@ The other way is to first call the [**cells**](https://reference.aspose.com/cell
 
 ##### **Text Direction**
 
-It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
+It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words, etc. are displayed. For example, English is a left‑to‑right language while Arabic is a right‑to‑left language.
 
-The reading order is set with the [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object's [**text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells/style/text_direction) property. Aspose.Cells for Python via .NET provides pre-defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/python-net/aspose.cells/textdirectiontype) enumeration.
+The reading order is set with the [**Style**](https://reference.aspose.com/cells/python-net/aspose.cells/style) object's [**text_direction**](https://reference.aspose.com/cells/python-net/aspose.cells/style/text_direction) property. Aspose.Cells for Python via .NET provides pre‑defined text direction types in the [**TextDirectionType**](https://reference.aspose.com/cells/python-net/aspose.cells/textdirectiontype) enumeration.
 
 |**Text Direction Types**|**Description**|
 | :- | :- |
@@ -121,7 +121,7 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Formatting-ChangeTextDirection-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/python-net/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/python-net/line-breaks-and-text-wrapping/)
 

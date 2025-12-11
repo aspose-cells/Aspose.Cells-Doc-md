@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to load your Excel file without charts. Please use [**LoadOptions.GetLoadFilter()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getloadfilter/) property for this purpose.
+Aspose.Cells allows you to load an Excel file without charts. Please use the **LoadOptions.GetLoadFilter()** property for this purpose.
 
 {{% /alert %}}
 
 ## **Load Spreadsheet Without Charts**
 
-The following sample code loads the sample Excel file without charts and saves it in output PDF format.
+The following sample code loads the sample Excel file without charts and saves it in the output PDF format.
 
 ```c++
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
     // Include everything except charts
     options.SetLoadFilter(new LoadFilter(LoadDataFilterOptions::All & ~LoadDataFilterOptions::Chart));
 
-    // Path of input excel file
+    // Path of input Excel file
     U16String inputFilePath = srcDir + u"chart.xlsx";
 
     // Load the workbook with specified load options

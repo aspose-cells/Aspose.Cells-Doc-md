@@ -1,9 +1,9 @@
 ---
-title: how to build a collaborative Excel editor with GridJs
+title: How to Build a Collaborative Excel Editor with GridJs
 type: docs
 weight: 260
 url: /java/aspose-cells-gridjs/how-to-build-collaborative-excel-editor/
-keywords: GridJs,collaborative,excel editor,spreadsheet,java
+keywords: GridJs, collaborative, excel editor, spreadsheet, java
 description: This article introduces how to build a collaborative Excel editor using Aspose.Cells.GridJs for Java.
 aliases:
   - /java/aspose-cells-gridjs/collaborative-editor/
@@ -17,8 +17,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Architecture Overview
 
-The following diagram shows how GridJs enables collaborative editing with multiple users, 
-a Spring Boot backend, WebSocket communication, and a MySQL database for state management.
+The following diagram shows how GridJs enables collaborative editing with multiple users, a Spring Boot backend, WebSocket communication, and a MySQL database for state management.
 
 ![GridJs Collaborative Architecture](gridjs_collaborative_architecture.png)
 
@@ -47,7 +46,7 @@ cd Aspose.Cells-for-Java/Examples.GridJs.Collaborative
 
 ## Step 2: Configure Collaborative Mode
 
-Open the [`src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties) file and adjust the settings:
+Open the [`src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/resources/application.properties) file and adjust the settings:
 
 ```properties
 # Directory containing spreadsheet files
@@ -60,7 +59,7 @@ testconfig.CachePath=/app/grid_cache
 testconfig.AsposeLicensePath=/app/license
 
 # Enable collaborative mode
-gridjs.iscollabrative=true
+gridjs.iscollaborative=true
 
 # Database connection (example: MySQL)
 spring.datasource.url=jdbc:mysql://localhost:3306/gridjsdemodb?createDatabaseIfNotExist=true&useUnicode=true&serverTimezone=UTC&useSSL=false
@@ -84,7 +83,7 @@ mvn spring-boot:run
 
 Or directly from the main class:
 
-```
+```text
 src/main/java/com/aspose/gridjsdemo/usermanagement/UserManagementApplication.java
 ```
 
@@ -97,19 +96,19 @@ Open your browser and navigate to:
 
 Steps:
 
-1. A login page appears. Click **Create User** to register User1 and log in. You will then see the file list.  
+1. A login page appears. Click **Create User** to register **User1** and log in. You will then see the file list.  
 2. Open a file from the list. The spreadsheet editor will load.  
-3. Copy the same URL into another browser window. It will redirect to the login page. Create User2 and log in.  
+3. Copy the same URL into another browser window. It will redirect to the login page. Create **User2** and log in.  
 4. Both users now see the same spreadsheet.  
-5. If User1 edits the spreadsheet, User2 will see the changes in real time.  
-6. If User2 edits, User1 will see the changes as well.  
+5. If **User1** edits the spreadsheet, **User2** will see the changes in real time.  
+6. If **User2** edits, **User1** will see the changes as well.  
 7. Users can also download and save the file.  
 
 ---
 
 ## Step 5: Run in Docker (Optional)
 
-If running in Docker, edit line 10 of [`docker-compose.yml`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/docker-compose.yml) to map the license file.  
+If running in Docker, edit line 10 of [`docker-compose.yml`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/docker-compose.yml) to map the license file.
 
 For example, if your license file is at `C:/license/aspose.lic`:
 
@@ -135,19 +134,19 @@ Access the app at:
 
 ### 1. Enable Collaborative Mode
 
-In [`/src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/application.properties):
+In [`/src/main/resources/application.properties`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/resources/application.properties):
 
 ```properties
-gridjs.iscollabrative=true
+gridjs.iscollaborative=true
 ```
 
-In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
+In server‑side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
 
 ```java
 @Bean
 public GridJsOptions gridJsOptions() {
     //..... other options
-    //here we shall set true for collaborative mode
+    // here we set true for collaborative mode
     options.setCollaborative(true);
     return options;
 }
@@ -159,28 +158,24 @@ Or globally:
 Config.setCollaborative(true);
 ```
 
-In client-side load options [`/src/main/resources/templates/file/index.html`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/resources/templates/file/index.html):
+In client‑side load options [`/src/main/resources/templates/file/index.html`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/resources/templates/file/index.html):
 
 ```js
 const option = {
     //..... other options
-    //here we shall set true for collaborative mode
+    // here we set true for collaborative mode
     isCollaborative: true
     //..... other options
 };
 ```
 
----
-
 ### 2. User System Integration
 
-The demo uses **Spring Security** for a simple user system.  
+The demo uses **Spring Security** for a simple user system.
 
 You must provide a `CoWorkUserProvider` implementation to connect GridJs with your user system:
 
-In server-side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
-
-For example: here we defined MyCustomUser to implement all the interfaces in CoWorkUserProvider.
+In server‑side config [`/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/java/com/aspose/gridjsdemo/filemanagement/FileConfig.java):
 
 ```java
 @Bean
@@ -189,24 +184,23 @@ public CoWorkUserProvider currentUserProvider() {
 }
 ```
 
-
-In [`/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java):
+In [`/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/java/com/aspose/gridjsdemo/filemanagement/MyCustomUser.java):
 
 ```java
 public class MyCustomUser implements CoWorkUserProvider {
-    //Get the current login user name
+    // Get the current login user name
     @Override
     public String getCurrentUserName() {
         return getCurrentUser().getUsername();
     }
 
-    //Get the current login user Id
+    // Get the current login user ID
     @Override
     public Long getCurrentUserId() {
         return getCurrentUser().getUserId();
     }
 
-    //Get the current login user permission
+    // Get the current login user permission
     @Override
     public CoWorkUserPermission getPermission() {
         return CoWorkUserPermission.EDITABLE;
@@ -222,15 +216,13 @@ public class MyCustomUser implements CoWorkUserProvider {
 }
 ```
 
----
-
 ### 3. WebSocket Configuration
 
-The demo uses **Spring WebSocket** with STOMP.  
+The demo uses **Spring WebSocket** with STOMP.
 
 Example config:
 
-In [`/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java):
+In [`/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/java/com/aspose/gridjsdemo/messages/WebSocketConfig.java):
 
 ```java
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
@@ -250,7 +242,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 }
 ```
 
-GridJs expects `messageTopic` to match "/topic/opr" which is the default:
+GridJs expects `messageTopic` to match `"/topic/opr"` which is the default:
 
 ```java
 com.aspose.gridjs.Config.setMessageTopic("/topic/opr");
@@ -260,12 +252,12 @@ Or:
 
 ```java
 @Bean
-    public GridJsOptions gridJsOptions() {
-	//.... other options
-    	options.setMessageTopic("/topic/opr");
-    	//.... other options
-        return options;
-    }
+public GridJsOptions gridJsOptions() {
+    //.... other options
+    options.setMessageTopic("/topic/opr");
+    //.... other options
+    return options;
+}
 ```
 
 On the client side:
@@ -275,7 +267,7 @@ xs.setCollaborativeSetting('/GridJs2/msg','/ws','/app/opr','/user/queue','/topic
 ```
 
 Here, `/GridJs2/msg` corresponds to the route path defined in  
-[`src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collabrative/src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java):
+[`src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java`](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/blob/master/Examples.GridJs.Collaborative/src/main/java/com/aspose/gridjsdemo/filemanagement/controller/GridJsOprController.java):
 
 ```java
 @RequestMapping("/GridJs2/msg")
@@ -314,13 +306,13 @@ com.aspose.gridjs.Config.setMessageTopic("/topic_gridjs/opr");
 or
 
 ```java
-    @Bean
-    public GridJsOptions gridJsOptions() {
-	//.... other option
-    	options.setMessageTopic("/topic_gridjs/opr");
-    	//.... other option
-        return options;
-    }
+@Bean
+public GridJsOptions gridJsOptions() {
+    //.... other options
+    options.setMessageTopic("/topic_gridjs/opr");
+    //.... other options
+    return options;
+}
 ```
 
 **Client side**:
@@ -329,10 +321,9 @@ or
 xs.setCollaborativeSetting('/GridJs2/msg','/ws_gridjs','/app_gridjs/opr','/user_gridjs/queue','/topic_gridjs/opr');
 ```
 
-the detail doc for setCollaborativeSetting can be find [here](https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
+The detailed documentation for `setCollaborativeSetting` can be found [here](https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api/).
 
-> ⚠️ Note: By default, the demo configuration works out-of-the-box.  
-Extra configuration is only required if your app customizes WebSocket endpoints.  
+> ⚠️ **Note:** By default, the demo configuration works out‑of‑the‑box. Extra configuration is only required if your app customizes WebSocket endpoints.
 
 Also remember: collaborative mode does **not** support lazy loading.  
 Do not enable `Config.setLazyLoading(true)`.
@@ -341,8 +332,7 @@ Do not enable `Config.setLazyLoading(true)`.
 
 ## Additional Notes
 
-
-- We can add **file uploads** to load and edit spreadsheet file from upload directory.  
+- You can add **file uploads** to load and edit spreadsheet files from an upload directory.  
 - Integrate with **cloud storage** like AWS S3 or Azure Blob.  
 
 ---
@@ -350,7 +340,7 @@ Do not enable `Config.setLazyLoading(true)`.
 ## Conclusion
 
 With Aspose.Cells.GridJs, you can quickly build a powerful **collaborative Excel editor**.  
-The combination of Java backend, GridJs frontend, SQL storage, and WebSocket messaging ensures reliable real-time spreadsheet editing.
+The combination of a Java backend, GridJs frontend, SQL storage, and WebSocket messaging ensures reliable real‑time spreadsheet editing.
 
 ---
 

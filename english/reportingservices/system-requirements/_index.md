@@ -9,18 +9,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services (including the Aspose.Cells.ReportingServices client, add-ins to Microsoft Excel and Aspose.Cells.ReportingServices Server) needs to be installed properly. Moreover, Microsoft SQL Server should be installed prior to installing Aspose.Cells for Reporting Services.
+Aspose.Cells for Reporting Services (including the Aspose.Cells.ReportingServices client, add‑ins to Microsoft Excel and Aspose.Cells.ReportingServices Server) needs to be installed properly. Moreover, Microsoft SQL Server should be installed prior to installing Aspose.Cells for Reporting Services.
 
 {{% /alert %}} 
 ### **Office System**
-The following Microsoft Excel versions are supported. Moreover, you need to install additional patches to overcome some possible issues for Microsoft Office 2000, 2002, XP, or 2003.
+The following Microsoft Excel versions are supported. Moreover, you need to install additional patches to overcome possible issues for Microsoft Office 2000, 2002, XP, or 2003.
 
-- Microsoft Excel 2000
+- Microsoft Excel 2000  
   Install the **lockbackRegKey.msi** to fix a CLR issue on Microsoft Office machines older than Office 2003.
-- Microsoft Excel 2002
+- Microsoft Excel 2002  
   Install **lockbackRegKey.msi** to fix a CLR issue on Microsoft Office machines older than Office 2003.
-- Microsoft Excel 2003
-  Always Update to Office 2003 (KB907417). This update corrects a potential problem in which an add-in, a smart tag, or a smart document may not load if it uses the Microsoft .NET Framework 2.0.
+- Microsoft Excel 2003  
+  Always update to Office 2003 (KB907417). This update corrects a potential problem in which an add‑in, a smart tag, or a smart document may not load if it uses the Microsoft .NET Framework 2.0.
 - Microsoft Excel 2007
 - Microsoft Excel 2010
 - Microsoft Excel 2013
@@ -36,6 +36,7 @@ The following Microsoft Excel versions are supported. Moreover, you need to inst
 - Microsoft SQL Server Reporting Services 2014
 - Microsoft SQL Server Reporting Services 2016
 - Microsoft SQL Server Reporting Services 2019
+
 ### **Visual Studio**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -43,6 +44,7 @@ The following Microsoft Excel versions are supported. Moreover, you need to inst
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+
 ### **Operating System**
 The following Microsoft Windows operating systems are supported:
 
@@ -64,6 +66,6 @@ The following Microsoft Windows operating systems are supported:
 ### **Supported .NET Framework Versions**
 The following .NET Framework versions are supported:
 
-- NET Framework 2.0
+- .NET Framework 2.0
 - .NET Framework 3.5
 - .NET Framework 4.x

@@ -1,20 +1,20 @@
----
-title: Get Worksheet of the Chart with JavaScript via C++
-linktitle: Get Worksheet of the Chart
-description: Learn how to retrieve the worksheet associated with an Excel chart using Aspose.Cells for JavaScript via C++. Access and manipulate the underlying data of the chart efficiently.
-keywords: Aspose.Cells for JavaScript, Excel charts, worksheets, data manipulation, underlying data, operations, JavaScript via C++
-type: docs
-weight: 1000
-url: /javascript-cpp/get-worksheet-of-the-chart/
----
+---  
+title: Get Worksheet of the Chart with JavaScript via C++  
+linktitle: Get Worksheet of the Chart  
+description: Learn how to retrieve the worksheet associated with an Excel chart using Aspose.Cells for JavaScript via C++. Access and manipulate the underlying data of the chart efficiently.  
+keywords: Aspose.Cells for JavaScript, Excel charts, worksheets, data manipulation, underlying data, operations, JavaScript via C++  
+type: docs  
+weight: 1000  
+url: /javascript-cpp/get-worksheet-of-the-chart/  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property which returns the reference of the worksheet that contains the chart.
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property, which returns the reference of the worksheet that contains the chart.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following example shows how to use the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property.
+The following example shows how to use the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.worksheet**](https://reference.aspose.com/cells/javascript-cpp/chart/#worksheet--) property.  
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ The following example shows how to use the [**Chart.worksheet**](https://referen
             // Accessing the first worksheet in the Excel file
             const worksheet = workbook.worksheets.get(0);
             
-            // Print worksheet name
+            // Print the worksheet name
             const sheetName = worksheet.name;
             let outputHtml = `<p>Sheet Name: ${sheetName}</p>`;
             
@@ -81,14 +81,14 @@ The following example shows how to use the [**Chart.worksheet**](https://referen
         });
     </script>
 </html>
-```
+```  
 
-Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
+Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.  
 
-{{< highlight javascript >}}
+{{< highlight javascript >}}  
 
-Sheet Name: Portfolio
+Sheet Name: Portfolio  
 
-Chart's Sheet Name: Portfolio
+Chart's Sheet Name: Portfolio  
 
 {{< /highlight >}}

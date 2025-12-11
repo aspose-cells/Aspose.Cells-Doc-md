@@ -4,17 +4,17 @@ linktitle: Calculate Page Setup Scaling Factor
 type: docs
 weight: 300
 url: /javascript-cpp/calculate-page-setup-scaling-factor/
-description: This article provides sample code explaining how to use the JavaScript API via C++ to calculate Page Setup scaling factor using Fit to n page(s) wide by m tall option of Excel worksheet programmatically.
+description: This article provides sample code explaining how to use the JavaScript API via C++ to calculate Page Setup scaling factor using the Fit to n page(s) wide by m tall option of an Excel worksheet programmatically.
 keywords: Fit to n page wide by m tall excel JavaScript via C++, calculate page setup scaling factor JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
 
-When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using [**SheetRender.pageScale**](https://reference.aspose.com/cells/javascript-cpp/sheetrender/#pageScale--) property. This property returns a double value that can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.
+When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same value using [**SheetRender.pageScale**](https://reference.aspose.com/cells/javascript-cpp/sheetrender/#pageScale--) property. This property returns a double value that can be converted to a percentage value. For example, if it returns 0.5, then it means the scaling factor is 50%.
 
 {{% /alert %}}
 
-The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.pageScale**](https://reference.aspose.com/cells/javascript-cpp/sheetrender/#pageScale--) property.
+The following sample code illustrates how to calculate Page Setup scaling factor using [**SheetRender.pageScale**](https://reference.aspose.com/cells/javascript-cpp/sheetrender/#pageScale--) property.
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ The following sample code illustrates how to calculate page setup scaling factor
             // Opening the Excel file through the file stream
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet
+            // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
             // Put some data in these cells

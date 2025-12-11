@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-For some 3-D charts such as 3-D column, 3-D cone, or 3-D pyramid which has a depth (series) axis, also known as the Z axis, that you can change. You can specify the interval between tick marks, axis labels and other operation.
+For some 3‑D charts such as 3‑D column, 3‑D cone, or 3‑D pyramid, which have a depth (series) axis—also known as the Z axis—you can change it. You can specify the interval between tick marks, axis labels, and other operations.
 
-## **Handle Primary and Second Axis like Microsoft Excel**
-Please see the following sample code that create a new Excel file and put values of the chart in the first worksheet. Then we add a chart and set the chart type to Column3D,then you can see the Z Axis also called Depth Axis. 
+## **Handle Primary and Secondary Axis like Microsoft Excel**
+Please see the following sample code that creates a new Excel file and places the chart data in the first worksheet. Then we add a chart and set the chart type to Column3D, after which you can see the Z Axis, also called the Depth Axis. 
 
 ![todo:image_alt_text](excel.png)
 

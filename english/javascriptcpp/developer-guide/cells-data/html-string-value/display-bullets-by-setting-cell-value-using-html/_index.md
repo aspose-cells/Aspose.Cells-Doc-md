@@ -3,19 +3,19 @@ title: Display Bullets by setting Cell Value using HTML
 type: docs
 weight: 130
 url: /javascript-cpp/display-bullets-by-setting-cell-value-using/
-description: Add bullets to Excel Cells using HTML with the easy to use Aspose.Cells for JavaScript via C++ API.
+description: Add bullets to Excel cells using HTML with the easy‑to‑use Aspose.Cells for JavaScript via C++ API.
 keywords: add bullets in excel JavaScript via C++, display bullets in excel JavaScript via C++, add bullets in excel with html JavaScript via C++, display bullets in excel with html JavaScript via C++, add bullets in excel using html JavaScript via C++
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.htmlString(string)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-string-) method to set the cell value with our HTML.
+Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting a cell value using HTML. We will use the [**Cell.htmlString(string)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-string-) method to set the cell value with our HTML.
 
 {{% /alert %}}
 
-## JavaScript code to display Bullets by setting Cell value using HTML
+## JavaScript code to display bullets by setting cell value using HTML
 
-The following code uses the HTML code to set the cell value. Once, you run this code, you will get the output as shown in the image below.
+The following code uses HTML to set the cell value. Once you run this code, you will get the output as shown in the image below.
 
 ```html
 <!DOCTYPE html>
@@ -68,7 +68,7 @@ The following code uses the HTML code to set the cell value. Once, you run this 
             // Set the HTML string (converted from setHtmlString -> htmlString property)
             cell.htmlString = "<font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'>Text 1 </font><font style='font-family:Wingdings;font-size:8.0pt;color:#009DD9;mso-font-charset:2;'>l</font><font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'> Text 2 </font><font style='font-family:Wingdings;font-size:8.0pt;color:#009DD9;mso-font-charset:2;'>l</font><font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'> Text 3 </font><font style='font-family:Wingdings;font-size:8.0pt;color:#009DD9;mso-font-charset:2;'>l</font><font style='font-family:Arial;font-size:10pt;color:#666666;vertical-align:top;text-align:left;'> Text 4 </font>";
 
-            // Auto fit the Columns
+            // Auto‑fit the columns
             worksheet.autoFitColumns();
 
             // Save the workbook to a Blob and provide a download link

@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 
 ## **Possible Usage Scenarios**
-There are scenarios where you might need to add, update, or manipulate TextBox objects within an Excel worksheet. This can be useful for adding annotations, guiding texts, or any supplementary information that assists in data presentation. Aspose.Cells for Node.js via C++ provides robust functionality to manage TextBox in Excel documents. 
+There are scenarios where you might need to add, update, or manipulate TextBox objects within an Excel worksheet. This can be useful for adding annotations, guiding **text**, or any supplementary information that assists in data presentation. Aspose.Cells for Node.js via C++ provides robust functionality to manage TextBox **objects** in Excel documents. 
 
 ## **Managing TextBox using Aspose.Cells for Node.js via C++**
 This example shows how to:

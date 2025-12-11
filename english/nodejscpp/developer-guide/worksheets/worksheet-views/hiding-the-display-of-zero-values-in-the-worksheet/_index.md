@@ -16,11 +16,11 @@ Sometimes, you need to hide zero values in a spreadsheet. It might be a personal
 
 {{% /alert %}} 
 
-To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Excel 2003):
+To hide zero values in a worksheet in Microsoft Excel (for example, Microsoft Excel 2003):
 
-1. From the **Tools** menu, select **Options**, and then select the **View** tab.
-1. Deselect the **Zero values** option.
-1. Click **OK**.
+1. From the **Tools** menu, select **Options**, and then select the **View** tab.  
+2. Deselect the **Zero values** option.  
+3. Click **OK**.
 
 Please see the following sample code that demonstrates hiding zeros using Aspose.Cells for Node.js via C++.
 
@@ -37,7 +37,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Get First worksheet of the workbook
 const sheet = workbook.getWorksheets().get(0);
 
-// Hide the zero values in the sheet
+// Hide zero values in the sheet
 sheet.setDisplayZeros(false);
 
 // Save the workbook

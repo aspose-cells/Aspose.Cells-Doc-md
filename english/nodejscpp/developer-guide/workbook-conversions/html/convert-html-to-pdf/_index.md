@@ -22,14 +22,14 @@ This article explains how to <b>convert HTML to PDF</b>. It covers the following
 </ul>
 
 ## **HTML to PDF Conversion in Node.js**
-How to convert HTML to PDF? With [Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/) library, you can easily convert HTML to PDF programmatically with a few lines of code. Aspose.Cells for Node.js via C++ is capable of building cross-platform applications with the ability to generate, modify, convert, render and print all Excel files.
+How do you convert HTML to PDF? With [Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/) library, you can easily convert HTML to PDF programmatically with a few lines of code. Aspose.Cells for Node.js via C++ is capable of building cross‑platform applications with the ability to generate, modify, convert, render and print all Excel files.
 
 ## **JavaScript Convert HTML to PDF**
 The following JavaScript code sample shows how to convert an HTML document to a PDF using [Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/).
 
 1. Create an instance of the [HtmlLoadOptions](https://reference.aspose.com/cells/nodejs-cpp/htmlloadoptions/) class.
 1. Initialize [Workbook](https://reference.aspose.com/cells/nodejs-cpp/workbook/) object.
-1. Save output PDF document by calling Workbook.save() method.
+1. Save the output PDF document by calling the `Workbook.save()` method.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -47,7 +47,7 @@ book.save("out.pdf");
 
 ## **Try to convert HTML to PDF online**
 
-[Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML to PDF”</a>, where you may try to investigate the functionality and quality it works.
+[Aspose.Cells for Node.js via C++](https://releases.aspose.com/cells/nodejs-cpp/) presents you with an online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML to PDF”</a>, where you can try the functionality and see its quality.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>
 {{< app/cells/assistant language="nodejs-cpp" >}}

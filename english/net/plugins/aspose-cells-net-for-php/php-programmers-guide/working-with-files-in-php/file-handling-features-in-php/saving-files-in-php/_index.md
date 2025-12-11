@@ -1,19 +1,19 @@
----
-title: Saving Files in PHP
-type: docs
-weight: 20
-url: /net/saving-files-in-php/
-ai_search_scope: cells_net
+---  
+title: Saving Files in PHP  
+type: docs  
+weight: 20  
+url: /net/saving-files-in-php/  
+ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Save Excel Files**
-### **Opening through Path**
-Saving a Microsoft Excel file by referencing the file's path
+## **Aspose.Cells - Save Excel Files**  
+### **Opening through Path**  
+Saving a Microsoft Excel file by referencing the file's path  
 
-**PHP Code**
+**PHP Code**  
 
-{{< highlight php >}}
+{{< highlight php >}}  
 
          $dataDir = '';
 
@@ -27,14 +27,15 @@ Saving a Microsoft Excel file by referencing the file's path
 
         $workbook = $ptr->New("Aspose.Cells.Workbook",array());
 
-        //Your Code goes here for any workbook related operations
+        // Your code goes here for any workbook‑related operations
 
         $ptr->Call($workbook,"Save",array($dataDir.'/book1.xls'));
 
         print "File saved successfully!" . PHP_EOL;
 
-{{< /highlight >}}
-## **Download Running Code**
-Download **Saving Files (Aspose.Cells)** from any of the below mentioned social coding sites:
+{{< /highlight >}}  
+
+## **Download Running Code**  
+Download **Saving Files (Aspose.Cells)** from any of the below‑mentioned social coding sites:  
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

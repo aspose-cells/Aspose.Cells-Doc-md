@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells supports the rendering of timeline shape without using office 2013, office 2016, office 2019 and office 365. If you convert your worksheet into an image or you save your workbook to PDF or HTML formats, you will see, timelines are rendered properly.
+Aspose.Cells supports the rendering of timeline shapes without requiring Office 2013, Office 2016, Office 2019, or Office 365. If you convert your worksheet into an image or you save your workbook to PDF or HTML formats, you will see that timelines are rendered properly.
 
-## **Rendering Timeline**
-The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. Get the shape object according to the name of timeline, and then render it into a picture through the Shape.ToImage() method. The flowing image is the [output image](out.png) that shows the rendered timeline. As you can see, timeline has been rendered properly and it looks the same as in the sample Excel file.
+## **Rendering Timeline**
+The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. Get the shape object by the name of the timeline, and then render it into a picture through the `Shape.ToImage()` method. The following image is the [output image](out.png) that shows the rendered timeline. As you can see, the timeline has been rendered properly and it looks the same as in the sample Excel file.
 
 ![todo:image_alt_text](out.png)
 ### **Sample Code**

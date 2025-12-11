@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Earlier, you had to change the culture info of the entire thread to deal with numbers and dates in a particular culture format, but now Aspose.Cells for Node.js via C++ provides the `LoadOptions.CultureInfo` property which you can use to load your workbook with specific culture info without changing the culture info of the entire thread.
+Earlier, you had to change the culture info of the entire thread to deal with numbers and dates in a particular culture format, but now Aspose.Cells for Node.js via C++ provides the `LoadOptions.CultureInfo` property, which you can use to load your workbook with specific culture info without changing the culture info of the entire thread.
 
 ## **Load the Workbook with specific System Culture Info**
 The following sample code shows how to load the workbook with specific system culture info to deal with dates.

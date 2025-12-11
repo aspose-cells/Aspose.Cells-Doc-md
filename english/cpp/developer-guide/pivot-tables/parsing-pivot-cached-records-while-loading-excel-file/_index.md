@@ -11,9 +11,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held inside the memory of Microsoft Excel. You cannot see it but that is the data the Pivot Table references when you build your Pivot Table or change a Slicer selection or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data so it makes sense that your file size will be potentially double.
+When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held **in** the memory of Microsoft Excel. You cannot see it, but that is the data the Pivot Table references when you build your Pivot Table, change a slicer selection, or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table, but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data, so it makes sense that your file size could potentially be double.
 
-When you load your Excel file inside the Workbook object, you can decide whether you also want to load the records of Pivot Cache or not, using the [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getparsingpivotcachedrecords/) property. The default value of this property is **false**. If Pivot Cache is quite big, it can increase the performance. But if you also want to load the records of Pivot Cache, you should set this property as **true**.
+When you load your Excel file **into** the Workbook object, you can decide whether you also want to load the records of the Pivot Cache or not, using the [**LoadOptions.GetParsingPivotCachedRecords()**](https://reference.aspose.com/cells/cpp/aspose.cells/loadoptions/getparsingpivotcachedrecords/) property. The default value of this property is **false**. If the Pivot Cache is quite big, it can increase performance. But if you also want to load the records of the Pivot Cache, you should set this property **to** true.
 
 ## **Parsing Pivot Cached Records while loading Excel file**
 
@@ -40,7 +40,7 @@ int main()
     // Create load options
     LoadOptions options;
 
-    // Set ParsingPivotCachedRecords true, default value is false
+    // Set ParsingPivotCachedRecords **to** true; default value is false
     options.SetParsingPivotCachedRecords(true);
 
     // Load the sample Excel file containing pivot table cached records
@@ -53,14 +53,14 @@ int main()
     // Access first pivot table
     PivotTable pt = ws.GetPivotTables().Get(0);
 
-    // Set refresh data flag true
+    // Set refresh data flag **to** true
     pt.SetRefreshDataFlag(true);
 
     // Refresh and calculate pivot table
     pt.RefreshData();
     pt.CalculateData();
 
-    // Set refresh data flag false
+    // Set refresh data flag **to** false
     pt.SetRefreshDataFlag(false);
 
     // Save the output Excel file

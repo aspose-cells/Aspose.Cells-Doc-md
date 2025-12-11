@@ -40,9 +40,9 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 ISheet sheet2 = wb.CreateSheet("Second Sheet");
 
 
-// Note that sheet name is Excel must not exceed 31 characters
+// Note that a sheet name in Excel must not exceed 31 characters
 
-// and must not contain any of the any of the following characters:
+// and must not contain any of the following characters:
 
 // 0x0000
 
@@ -54,7 +54,7 @@ ISheet sheet2 = wb.CreateSheet("Second Sheet");
 
 // asterisk (*)
 
-// question mark (?)
+// question mark ()
 
 // forward slash (/)
 
@@ -62,7 +62,7 @@ ISheet sheet2 = wb.CreateSheet("Second Sheet");
 
 // closing square bracket (])
 
-// You can use org.apache.poi.ss.util.WorkbookUtil#createSafeSheetName(String nameProposal)}
+// You can use org.apache.poi.ss.util.WorkbookUtil#createSafeSheetName(String nameProposal)
 
 // for a safe way to create valid names, this utility replaces invalid characters with a space (' ')
 
@@ -78,7 +78,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Create New Worksheet** form any of the below mentioned social coding sites:
+Download **Create New Worksheet** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 

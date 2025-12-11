@@ -65,7 +65,7 @@ Aspose.Cells for JavaScript via C++ provides a [**Shape.textDirection**](https:/
             comment.commentShape.textOrientationType = TextDirectionType.RightToLeft;
 
             // Set the Comment note
-            comment.note = "This is my Comment Text. This is test";
+            comment.note = "This is my Comment Text. This is a test";
 
             // Saving the modified Excel file
             const outputData = wb.save(SaveFormat.Xlsx);

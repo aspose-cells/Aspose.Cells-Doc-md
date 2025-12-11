@@ -9,13 +9,13 @@ description: Insert, resize, edit, delete, and format tables of Excel files usin
 
 ## **Create Table**
 
-One of the advantages of spreadsheets is that they allow you to create different types of lists, for example, phone lists, task lists, lists of transactions, assets or liabilities. Several users can work together to use, create and maintain various lists.
+One of the advantages of spreadsheets is that they allow you to create different types of lists, for example, phone lists, task lists, lists of transactions, assets, or liabilities. Several users can work together to use, create, and maintain various lists.
 
 Aspose.Cells supports creating and managing Lists.
 
 ### **Advantages of a List Object**
 
-There are quite a few advantages when you convert a list of data to an actual List Object
+There are quite a few advantages when you convert a list of data to an actual List Object.
 
 - New rows and columns are automatically included.
 - A total row at the bottom of your list can be easily added to display SUM, AVERAGE, COUNT, etc.
@@ -26,19 +26,19 @@ There are quite a few advantages when you convert a list of data to an actual Li
 
 ### **Creating a List Object using Microsoft Excel**
 
-- Selecting the data range for creating a List object
+- Selecting the data range for creating a List object.
 - This displays the Create List dialog.
 - Implement the List object for the data and specify the total row (Select **Data**, then **List**, followed by **Total Row**).
 
 ### **Using Aspose.Cells API**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a wide range of properties and methods for managing a worksheet. To create a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) in a worksheet, use the [**listObjects**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#listObjects--) collection property of the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method for adding a List object and specifying a range of cells for the list.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The **Worksheet** class provides a wide range of properties and methods for managing a worksheet. To create a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) in a worksheet, use the [**listObjects**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#listObjects--) collection property of the **Worksheet** class. Each **ListObject** is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method for adding a List object and specifying a range of cells for the list.
 
-According to the specified range of cells, the List object is created by Aspose.Cells. Use attributes (for example, [**showTotals**](https://reference.aspose.com/cells/javascript-cpp/listobject/#showTotals--), [**listColumns**](https://reference.aspose.com/cells/javascript-cpp/listobject/#listColumns--), etc.) of the [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) class to control the list.
+According to the specified range of cells, the List object is created by Aspose.Cells. Use attributes (for example, [**showTotals**](https://reference.aspose.com/cells/javascript-cpp/listobject/#showTotals--), [**listColumns**](https://reference.aspose.com/cells/javascript-cpp/listobject/#listColumns--), etc.) of the **ListObject** class to control the list.
 
-In the example given below, we have created the same [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) using Aspose.Cells API as we created using Microsoft Excel in the above section.
+In the example given below, we have created the same **ListObject** using the Aspose.Cells API as we created using Microsoft Excel in the above section.
 
 ```html
 <!DOCTYPE html>
@@ -105,15 +105,15 @@ In the example given below, we have created the same [**ListObject**](https://re
 
 ## **Format a Table**
 
-To manage and analyze a group of related data, it is possible to turn a range of cells into a list object (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your list object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the list object that provides a drop-down list of aggregate functions for each total row cell. Aspose.Cells provides options for creating and managing lists (or tables).
+To manage and analyze a group of related data, it is possible to turn a range of cells into a ListObject (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your ListObject data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the ListObject; this row provides a drop‑down list of aggregate functions for each total‑row cell. Aspose.Cells provides options for creating and managing lists (or tables).
 
 ### **Formatting a List Object**
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a [**worksheets**](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--) collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets. To create a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) in a worksheet, use the [**listObjects**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#listObjects--) collection property of the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. Each [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method to add a List object and specify the range of cells it should encompass. According to the specified range of cells, a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) is created in the worksheet by Aspose.Cells. Use attributes (for example, [**TableStyleType**](https://reference.aspose.com/cells/javascript-cpp/tablestyletype/)) of the [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) class to format the table for your requirement.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The **Worksheet** class provides a wide range of properties and methods for managing worksheets. To create a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) in a worksheet, use the [**listObjects**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#listObjects--) collection property of the **Worksheet** class. Each **ListObject** is, in fact, an object of the [**ListObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/) class, which further provides the [**add(number, number, number, number, boolean)**](https://reference.aspose.com/cells/javascript-cpp/listobjectcollection/#add-number-number-number-number-boolean-) method to add a List object and specify the range of cells it should encompass. According to the specified range of cells, a **ListObject** is created in the worksheet by Aspose.Cells. Use attributes (for example, [**TableStyleType**](https://reference.aspose.com/cells/javascript-cpp/tablestyletype/)) of the **ListObject** class to format the table for your requirement.
 
-The example below adds sample data to a worksheet, adds a [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) and applies default styles to it. [**ListObject**](https://reference.aspose.com/cells/javascript-cpp/listobject/) styles are supported by Microsoft Excel 2007/2010.
+The example below adds sample data to a worksheet, adds a **ListObject**, and applies a default style to it. **ListObject** styles are supported by Microsoft Excel 2007/2010.
 
 ```html
 <!DOCTYPE html>
@@ -148,7 +148,7 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
             // This example does not require an input file; it creates a new workbook
             const workbook = new Workbook();
 
-            // Obtaining the reference of the default(first) worksheet
+            // Obtaining the reference of the default (first) worksheet
             const sheet = workbook.worksheets.get(0);
 
             // Obtaining Worksheet's cells collection
@@ -176,6 +176,7 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
             cells.get(13, 1).value = "Miya";
             cells.get(14, 1).value = "Miya";
             cells.get(15, 1).value = "Miya";
+
             cells.get(2, 2).value = 1;
             cells.get(3, 2).value = 2;
             cells.get(4, 2).value = 3;
@@ -251,7 +252,7 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
             cells.get(14, 6).value = 500;
             cells.get(15, 6).value = 900;
 
-            // Adding a new List Object to the worksheet
+            // Adding a new ListObject to the worksheet
             const index = sheet.listObjects.add("A1", "F15", true);
 
             const listObject = sheet.listObjects.get(index);
@@ -259,7 +260,7 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
             // Adding Default Style to the table (converted setter -> property)
             listObject.tableStyleType = AsposeCells.TableStyleType.TableStyleMedium10;
 
-            // Show Total
+            // Show totals
             listObject.showTotals = true;
 
             // Set the Quarter field's calculation type (converted getter/setter -> property)
@@ -280,7 +281,7 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert Table to ODS](/cells/javascript-cpp/convert-table-to-ods/)
 - [Find Query Tables and List Objects related to External Data Connections](/cells/javascript-cpp/find-query-tables-and-list-objects-related-to-external-data-connections/)
 - [Read and Write Table with Query Table Data Source](/cells/javascript-cpp/read-and-write-table-with-query-table-data-source/)

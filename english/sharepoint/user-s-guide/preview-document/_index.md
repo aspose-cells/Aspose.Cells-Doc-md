@@ -15,8 +15,6 @@ To preview a Microsoft Excel document in the document library:
 
 ![todo:image_alt_text](preview-document_1.png)
 
-
-
 **Document preview** 
 
 ![todo:image_alt_text](preview-document_2.png)

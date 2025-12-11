@@ -7,34 +7,28 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-If all values in the columns of a worksheet are not strongly typed (that means the values in a column may have the different data types) then we can export the worksheet content by calling the **ExportDataTableAsString** method of the Cells class. **ExportDataTableAsString** method takes the same set of parameters as that of **ExportDataTable** method to export worksheet data as **DataTable** object.
+If the values in the columns of a worksheet are not strongly typed (that means the values in a column may have different data types), then we can export the worksheet content by calling the **ExportDataTableAsString** method of the Cells class. The **ExportDataTableAsString** method takes the same set of parameters as the **ExportDataTable** method to export worksheet data as a DataTable object.
 
 {{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
-
 FileStream fstream = new FileStream(FOD_OpenFile.FileName, FileMode.Open);
 
-//Instantiating a Workbook object
+ //Instantiating a Workbook object
 
-//Opening the Excel file through the file stream
-
+ //Opening the Excel file through the file stream
 Workbook workbook = new Workbook(fstream);
 
-//Accessing the first worksheet in the Excel file
-
+ //Accessing the first worksheet in the Excel file
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Exporting the contents of 2 rows and 2 columns starting from 1st cell to DataTable
-
+ //Exporting the contents of 2 rows and 2 columns starting from the first cell to a DataTable
 DataTable dataTable = worksheet.Cells.ExportDataTableAsString(0, 0, 2, 2, true);
 
-//Binding the DataTable with DataGrid
-
+ //Binding the DataTable with DataGrid
 dataGridView2.DataSource = dataTable;
 
-//Closing the file stream to free all resources
-
+ //Closing the file stream to free all resources
 fstream.Close();
 
 {{< /highlight >}}

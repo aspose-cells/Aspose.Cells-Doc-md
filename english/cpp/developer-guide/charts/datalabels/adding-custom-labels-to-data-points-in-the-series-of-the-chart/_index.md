@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can add custom labels to data points in the series of the chart. Aspose.Cells provides [**DataLabel::getText()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/datalabels/gettext/) method to add these custom labels. This article will explain how to use this method to add custom labels to data points in the series of the chart.
+You can add custom labels to data points in the series of the chart. Aspose.Cells provides the **DataLabel::getText()** method to add these custom labels. This article will explain how to use this method to add custom labels to data points in the series of the chart.
 
 {{% /alert %}}
 

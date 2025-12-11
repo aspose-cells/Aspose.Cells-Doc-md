@@ -10,7 +10,7 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-TextBoxes can improve the expressiveness of our documents and diagrams, and applying different alignments to different parts of a TextBox can help highlight points of interest to readers. But the default alignment of TextBox does not meet all our needs. For this, you may need to adjust each TextBox to meet your target requirements. If you don't have a lot of TextBox objects to tweak, you're in luck. If there are so many TextBoxes to adjust, I think you will be in trouble. Don't worry now, [Aspose.Cells](https://products.aspose.com/cells/) provides such an API interface to help you do just that.
+TextBoxes can improve the expressiveness of our documents and diagrams, and applying different alignments to different parts of a TextBox can help highlight points of interest to readers. But the default alignment of a TextBox does not meet all our needs. For this, you may need to adjust each TextBox to meet your target requirements. If you don't have a lot of TextBox objects to tweak, you're in luck. If there are many TextBoxes to adjust, you will be in trouble. Don't worry, [Aspose.Cells](https://products.aspose.com/cells/) provides an API interface to help you do just that.
 
 The following sample code applies text alignment to a TextBox.
 
@@ -64,10 +64,10 @@ const _sheet = destWb.getWorksheets().get(0);
 // Create new textbox
 const _textBox = _sheet.getShapes().addShape(AsposeCells.MsoDrawingType.TextBox, 1, 0, 1, 0, 200, 200);
 
-// Alternatively text box can be added using the following line as well
+// Alternatively, the text box can be added using the following line as well
 // const _textBox = _sheet.getShapes().addTextBox(1, 0, 1, 0, 200, 200);
 
-// Use Html string from a template file textbox
+// Use the HTML string from the template file textbox
 _textBox.setHtmlText(sourceTextBox.getHtmlText());
 
 // Save the workbook on disk

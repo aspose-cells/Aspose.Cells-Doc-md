@@ -18,7 +18,7 @@ You can use Aspose.Cells to merge or split a range of cells. Aspose.Cells provid
 
 ## **Example**
 
-The following sample code first creates a range - A1:D4 - then merges the cells in the range into a single cell using the [**Range.merge()**](https://reference.aspose.com/cells/nodejs-cpp/range/#merge--) method. Similarly, you can split cells by creating a range and calling the [**Range.unMerge()**](https://reference.aspose.com/cells/nodejs-cpp/range/#unMerge--) method.
+The following sample code first creates a range (A1:D4) and then merges the cells in the range into a single cell using the [**Range.merge()**](https://reference.aspose.com/cells/nodejs-cpp/range/#merge--) method. Similarly, you can unmerge cells by creating a range and calling the [**Range.unMerge()**](https://reference.aspose.com/cells/nodejs-cpp/range/#unMerge--) method.
 
 ```javascript
 const path = require("path");

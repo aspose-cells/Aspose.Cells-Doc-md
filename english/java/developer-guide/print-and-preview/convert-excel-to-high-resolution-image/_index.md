@@ -2,7 +2,7 @@
 title: Convert Excel to High-Resolution Image
 type: docs
 weight: 100
-url: /java/convert-excle-to-high-resolution-image/
+url: /java/convert-excel-to-high-resolution-image/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

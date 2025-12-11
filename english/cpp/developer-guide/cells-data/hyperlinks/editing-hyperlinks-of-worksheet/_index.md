@@ -4,7 +4,7 @@ linktitle: Editing Hyperlinks of Worksheet
 type: docs
 weight: 330
 url: /cpp/editing-hyperlinks-of-worksheet/
-description: Learn how to edit hyperlinks of Worksheet through the Aspose.Cells for C++ API.
+description: Learn how to edit hyperlinks of a worksheet through the Aspose.Cells for C++ API.
 keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -16,7 +16,7 @@ Aspose.Cells allows you to access all the hyperlinks of the worksheet using the 
 
 {{% /alert %}}
 
-The following sample code accesses all the hyperlinks of the worksheet and changes their [**GetAddress()**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/getaddress/) property to the Aspose website.
+The following sample code accesses all the hyperlinks of the worksheet and changes its [**GetAddress()**](https://reference.aspose.com/cells/cpp/aspose.cells/hyperlink/getaddress/) property to the Aspose website.
 
 ```c++
 #include <iostream>

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you save your Excel file to HTML, Aspose.Cells reveals Downlevel Conditional Comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern web browsers. You can read about them in detail at the following link.
+When you save your Excel file to HTML, Aspose.Cells reveals downlevel conditional comments. These conditional comments are mostly relevant to older versions of Internet Explorer and are irrelevant to modern web browsers. You can read about them in detail at the following link.
 
 - [Conditional comment - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-Aspose.Cells for Node.js via C++ allows you to eliminate these Downlevel Revealed Comments by setting the [**HtmlSaveOptions.getDisableDownlevelRevealedComments()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getDisableDownlevelRevealedComments--) property to **true**.
+Aspose.Cells for Node.js via C++ allows you to eliminate these downlevel revealed comments by setting the [**HtmlSaveOptions.getDisableDownlevelRevealedComments()**](https://reference.aspose.com/cells/nodejs-cpp/htmlsaveoptions/#getDisableDownlevelRevealedComments--) property to **true**.
 
 ## **Disable Downlevel Revealed Comments while saving to HTML**
 
@@ -36,11 +36,11 @@ const outputDir = path.join(__dirname, "output");
 // Load sample workbook
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleDisableDownlevelRevealedComments.xlsx"));
 
-// Disable DisableDownlevelRevealedComments
+// Disable Downlevel Revealed Comments
 const opts = new AsposeCells.HtmlSaveOptions();
 opts.setDisableDownlevelRevealedComments(true);
 
-// Save the workbook in html
+// Save the workbook as HTML
 workbook.save(path.join(outputDir, "outputDisableDownlevelRevealedComments_true.html"), opts);
 ```
 {{< app/cells/assistant language="nodejs-cpp" >}}

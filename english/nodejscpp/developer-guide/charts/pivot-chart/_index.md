@@ -9,24 +9,24 @@ keywords: PivotChart Node.js via C++
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-## What is PivotChart
+## What is a PivotChart
 
 A pivot chart is a visual representation of the data in a pivot table. Pivot charts provide a way to summarize, analyze, explore, and present summary data. Here are some key features and aspects of pivot charts:
 
-1. Dynamic Data Representation: Pivot charts automatically update to reflect changes in the pivot table. If you add or remove fields in the pivot table, the pivot chart updates accordingly.
+1. **Dynamic Data Representation:** Pivot charts automatically update to reflect changes in the pivot table. If you add or remove fields in the pivot table, the pivot chart updates accordingly.
 
-1. Interactive: Pivot charts are interactive, allowing users to filter, sort, and drill down into data. This makes it easy to explore different aspects of the data set.
+2. **Interactive:** Pivot charts are interactive, allowing users to filter, sort, and drill down into data. This makes it easy to explore different aspects of the data set.
 
-1. Flexible Layout: Users can change the layout of the pivot chart by dragging and dropping fields, which offers flexibility in how data is visualized.
+3. **Flexible Layout:** Users can change the layout of the pivot chart by dragging and dropping fields, which offers flexibility in how data is visualized.
 
-1. Various Chart Types: Pivot charts can be created using various chart types such as bar charts, line charts, pie charts, and more, depending on the nature of the data and the insights you wish to gain.
+4. **Various Chart Types:** Pivot charts can be created using various chart types such as bar charts, line charts, pie charts, and more, depending on the nature of the data and the insights you wish to gain.
 
-1. Summarization: Pivot charts summarize large amounts of data and can show totals, averages, counts, or other summary statistics.
+5. **Summarization:** Pivot charts summarize large amounts of data and can show totals, averages, counts, or other summary statistics.
 
-1. Filtering: They provide filtering capabilities, allowing you to display only the data that meets certain criteria.
+6. **Filtering:** They provide filtering capabilities, allowing you to display only the data that meets certain criteria.
 
 <br>
-Pivot charts are commonly used in business intelligence and data analysis to provide a clear and concise visual summary of complex data sets. They are a powerful tool for making data-driven decisions.
+Pivot charts are commonly used in business intelligence and data analysis to provide a clear and concise visual summary of complex data sets. They are a powerful tool for making data‑driven decisions.
 
 ## How to add a PivotChart using Aspose.Cells for Node.js via C++
 
@@ -34,9 +34,9 @@ Pivot charts are commonly used in business intelligence and data analysis to pro
 
 To create a pivot table using Aspose.Cells for Node.js via C++:
 
-1. Add some data to a worksheet using a Cell object's `putValue` method. You can also use a template file already filled with data. The data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the `add` method of the `PivotTables` collection.
-1. Access the new PivotTable object from the `PivotTables` collection by passing its index. Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
+1. Add some data to a worksheet using a Cell object's `putValue` method. You can also use a template file already filled with data. The data will be used as the pivot table's data source.  
+2. Add a pivot table to the worksheet by calling the `add` method of the `PivotTables` collection.  
+3. Access the new PivotTable object from the `PivotTables` collection by passing its index. Use any of the pivot‑table objects encapsulated in the PivotTable object to manage the table.
 
 Code examples are given below.
 
@@ -84,10 +84,10 @@ const namesAndValues = [
 ["Miya", 6, "Ikuru", "Europe", "Italy", 1350],
 ["Miya", 7, "Ikuru", "Europe", "France", 300],
 ["Miya", 8, "Ikuru", "Europe", "Italy", 500],
-["Miya", 9, "Ikuru", "America", "New Zealand", 1000],
+["Miya", 9, "Ikuru", "America", "New Zealand", 1000],
 ["Miya", 10, "Ipoh Coffee", "Oceania", "Australia", 1500],
 ["Miya", 11, "Chocolade", "Oceania", "Australia", 500],
-["Miya", 12, "Chocolade", "Oceania", "New Zealand", 1500],
+["Miya", 12, "Chocolade", "Oceania", "New Zealand", 1500],
 ["Miya", 13, "Chocolade", "Oceania", "S.Africa", 1600],
 ["Miya", 14, "Chocolade", "Africa", "Egypt", 1000],
 ["Miya", 15, "Chocolade", "Africa", "Egypt", 1200],
@@ -102,15 +102,16 @@ cells.get(`C${rowIndex}`).putValue(item[2]);
 cells.get(`D${rowIndex}`).putValue(item[3]);
 cells.get(`E${rowIndex}`).putValue(item[4]);
 cells.get(`F${rowIndex}`).putValue(item[5]);
+});
 ```
 
 ### **Adding a Pivot Chart**
 
 To create a PivotChart using Aspose.Cells for Node.js via C++:
 
-1. Add a chart.
-1. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.
-1. Set other attributes.
+1. Add a chart.  
+2. Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.  
+3. Set other attributes.
 
 ```javascript
 const path = require("path");
@@ -119,8 +120,8 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Instantiating an Workbook object
-// Opening the excel file
+// Instantiating a Workbook object
+// Opening the Excel file
 const workbook = new AsposeCells.Workbook(path.join(dataDir, "pivotTable_test.xlsx"));
 // Adding a new sheet
 const sheetIndex = workbook.getWorksheets().add(AsposeCells.SheetType.Chart);

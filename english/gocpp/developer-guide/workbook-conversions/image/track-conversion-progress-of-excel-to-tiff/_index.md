@@ -13,7 +13,7 @@ Sometimes converting large Excel files can take some time. During this time, you
 
 ## **Track Conversion Progress of Excel to TIFF**
 
-The following code sample loads the [source Excel file](95584311.xlsx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/go-cpp/ipagesavingcallback/) interface. The output file generated is attached for your reference.
+The following code sample loads the [source Excel file](95584311.xlsx) and prints its conversion progress in the console using the *TestPageSavingCallback* custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/go-cpp/ipagesavingcallback/) interface. The output file generated is attached for your reference.
 
 [Output File](95584312.tiff)
 

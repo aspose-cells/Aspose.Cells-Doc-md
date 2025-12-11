@@ -9,18 +9,18 @@ description: Learn how to manage OLE objects in Aspose.Cells for JavaScript via 
 
 ## **Introduction**  
 
-OLE (Object Linking and Embedding) is a framework for compound document technology. Briefly, a compound document is something like a display desktop that can contain visual and information objects of all kinds: text, calendars, animations, sound, motion video, 3D, continually updated news, controls, and so forth. Each desktop object is an independent program entity that can interact with a user and also communicate with other objects on the desktop.  
+OLE (Object Linking and Embedding) is a framework for compound‑document technology. Briefly, a compound document is something like a desktop that can contain visual and informational objects of all kinds: text, calendars, animations, sound, motion video, 3D, continually updated news, controls, and so forth. Each desktop object is an independent program entity that can interact with a user and also communicate with other objects on the desktop.  
 
 OLE is supported by many different programs and is used to make content created in one program available in another. For example, you can insert a Microsoft Word document into Microsoft Excel. To see what types of content you can insert, click **Object** on the **Insert** menu. Only programs that are installed on the computer and that support OLE objects appear in the **Object type** box.  
 
 ### **Inserting OLE Objects into the Worksheet**  
 
-Aspose.Cells for JavaScript via C++ supports adding, extracting, and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/oleobjectcollection) class, used to add a new OLE Object to the collection. Another class, [**OleObject**](https://reference.aspose.com/cells/javascript-cpp/oleobject), represents an OLE Object. It has some important members:  
+Aspose.Cells for JavaScript via C++ supports adding, extracting, and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/javascript-cpp/oleobjectcollection) class, used to add a new OLE object to the collection. Another class, [**OleObject**](https://reference.aspose.com/cells/javascript-cpp/oleobject), represents an OLE object. It has some important members:  
 
-- The [**imageData**](https://reference.aspose.com/cells/javascript-cpp/oleobject/#imageData--) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.  
-- The [**objectData**](https://reference.aspose.com/cells/javascript-cpp/oleobject/#objectData--) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.  
+- The [**imageData**](https://reference.aspose.com/cells/javascript-cpp/oleobject/#imageData--) property specifies the image (icon) data of byte‑array type. The image will be displayed to show the OLE object in the worksheet.  
+- The [**objectData**](https://reference.aspose.com/cells/javascript-cpp/oleobject/#objectData--) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double‑click on the OLE object icon.  
 
-The following example shows how to add an OLE Object(s) into a worksheet.  
+The following example shows how to add OLE object(s) to a worksheet.  
 
 ```html
 <!DOCTYPE html>
@@ -84,14 +84,14 @@ The following example shows how to add an OLE Object(s) into a worksheet.
             // Get the first worksheet.
             const sheet = workbook.worksheets.get(0);
 
-            // Add an Ole object into the worksheet with the image shown in MS Excel.
+            // Add an OLE object into the worksheet with the image shown in MS Excel.
             // Position: row 14, column 3, width 200, height 220 (same as JavaScript example)
             sheet.oleObjects.add(14, 3, 200, 220, new Uint8Array(imageBuffer));
 
-            // Set embedded ole object data (converted setter to property assignment)
+            // Set embedded OLE object data (converted setter to property assignment)
             sheet.oleObjects.get(0).objectData = new Uint8Array(objectBuffer);
 
-            // Save the excel file (Excel97To2003 format to match .xls)
+            // Save the Excel file (Excel97To2003 format to match .xls)
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -108,9 +108,9 @@ The following example shows how to add an OLE Object(s) into a worksheet.
 
 ### **Extracting OLE Objects in the Workbook**  
 
-The following example shows how to extract OLE Objects in a Workbook. The example gets different OLE objects from an existing XLS file and saves different files (DOC, XLS, PPT, PDF, etc.) based on the OLE object’s file format type.  
+The following example shows how to extract OLE objects in a workbook. The example gets different OLE objects from an existing XLS file and saves different files (DOC, XLS, PPT, PDF, etc.) based on the OLE object’s file‑format type.  
 
-After running the code, we can save different files based on their respective OLE Objects format types.  
+After running the code, we can save different files based on their respective OLE object format types.  
 
 ```html
 <!DOCTYPE html>
@@ -159,18 +159,18 @@ After running the code, we can save different files based on their respective OL
             // Instantiating a Workbook object from uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Get the OleObject Collection in the first worksheet.
+            // Get the OleObject collection in the first worksheet.
             const worksheet = workbook.worksheets.get(0);
             const oles = worksheet.oleObjects;
 
-            // Loop through all the oleobjects and extract each object.
+            // Loop through all the OLE objects and extract each one.
             for (let i = 0; i < oles.count; i++) {
                 const ole = oles.get(i);
 
                 // Specify the output filename.
                 let ext = 'jpg';
 
-                // Specify each file format based on the oleobject format type.
+                // Specify each file format based on the OLE object format type.
                 switch (ole.fileFormatType) {
                     case AsposeCells.FileFormatType.Doc:
                         ext = "doc";
@@ -194,7 +194,7 @@ After running the code, we can save different files based on their respective OL
 
                 const fileName = `ole_${i}.${ext}`;
 
-                // Save the oleobject as a new excel file if the object type is xlsx.
+                // Save the OLE object as a new Excel file if the object type is Xlsx.
                 if (ole.fileFormatType === AsposeCells.FileFormatType.Xlsx) {
                     const ms = new Uint8Array(ole.objectData);
                     const oleBook = new Workbook(ms);
@@ -208,7 +208,7 @@ After running the code, we can save different files based on their respective OL
                     link.style.display = 'block';
                     downloadContainer.appendChild(link);
                 } else {
-                    // Create the files based on the oleobject format types.
+                    // Create the files based on the OLE object format types.
                     const data = ole.objectData;
                     const blob = new Blob([data]);
                     const link = document.createElement('a');
@@ -228,7 +228,7 @@ After running the code, we can save different files based on their respective OL
 
 ### **Extracting Embedded MOL File**  
 
-Aspose.Cells for JavaScript via C++ supports extracting objects of uncommon types like MOL (Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting an embedded MOL file and saving it to disk by using this [sample excel file](94896196.xlsx).  
+Aspose.Cells for JavaScript via C++ supports extracting objects of uncommon types like MOL (molecular‑data file containing information about atoms and bonds). The following code snippet demonstrates extracting an embedded MOL file and saving it to disk by using this [sample Excel file](94896196.xlsx).  
 
 ```html
 <!DOCTYPE html>
@@ -311,9 +311,9 @@ Aspose.Cells for JavaScript via C++ supports extracting objects of uncommon type
 </html>
 ```  
 
-## **Advance topics**  
-- [Access and Modify the Display Label of the Linked Ole Object](/cells/javascript-cpp/access-and-modify-the-display-label-of-the-linked-ole-object/)  
+## **Advanced topics**  
+- [Access and Modify the Display Label of the Linked OLE Object](/cells/javascript-cpp/access-and-modify-the-display-label-of-the-linked-ole-object/)  
 - [Automatically refresh OLE object via Microsoft Excel using Aspose.Cells](/cells/javascript-cpp/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)  
 - [Extract OLE Objects from Workbook](/cells/javascript-cpp/extract-ole-objects-from-workbook/)  
 - [Get or Set the Class Identifier of the Embedded OLE Object](/cells/javascript-cpp/get-or-set-the-class-identifier-of-the-embedded-ole-object/)  
-- [Inserting a WAV file as an Ole Object](/cells/javascript-cpp/inserting-a-wav-file-as-an-ole-object/)
+- [Inserting a WAV file as an OLE Object](/cells/javascript-cpp/inserting-a-wav-file-as-an-ole-object/)

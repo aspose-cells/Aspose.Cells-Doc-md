@@ -7,6 +7,8 @@ url: /cpp/update-activex-combobox-control/
 description: Learn how to read or write values of ActiveX ComboBox Control using Aspose.Cells with C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**

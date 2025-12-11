@@ -1,31 +1,31 @@
 ---
-title: Loading and managing Excel,OpenOffice,Json, Csv and Html files
+title: Loading and managing Excel, OpenOffice, JSON, CSV, and HTML files
 linktitle: Open Files
 type: docs
 weight: 20
 url: /net/loading-saving-and-managing/
-description: With Aspose.Cells, it is simple to create,open and manage Excel,CSV,TSV,ODS,HTML,Numbers,Json,XML,Pdf,Jpg,Tiff,Image,Mht and XPS files.
+description: With Aspose.Cells, it is simple to create, open and manage Excel, CSV, TSV, ODS, HTML, Numbers, JSON, XML, PDF, JPG, TIFF, Image, MHT, and XPS files.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 
-With Aspose.Cells, it is simple to create,open and manage Excel files, for example, to retrieve data, or to use a designer template to speed up the development process.
+With Aspose.Cells, it is simple to create, open, and manage Excel files, for example to retrieve data or to use a designer template to speed up the development process.
 
 {{% /alert %}}
 
 ## **Creating a New Workbook**
-The following example creates a new workbook from the scratch.
+The following example creates a new workbook from scratch.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
 ## **Opening and saving a File**
-With Aspose.Cells, it is simple to open, save and mange Excel files.
+With Aspose.Cells, it is simple to open, save, and manage Excel files.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Open-Save-Workbook-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Different Ways to Open Files](/cells/net/different-ways-to-open-files/)
 - [Filter Defined Names while loading Workbook](/cells/net/filter-defined-names-while-loading-workbook/)
 - [Filter Objects while loading Workbook or Worksheet](/cells/net/filter-objects-while-loading-workbook-or-worksheet/)

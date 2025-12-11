@@ -3,7 +3,7 @@ title: Applying Subtotal and Changing Direction of Outline Summary Rows below De
 type: docs
 weight: 100
 url: /python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: Learn how to apply subtotal and change direction of outline summary Rows below Detail by using the Aspose.Cells for Python via .NET API.
+description: Learn how to apply subtotal and change the direction of outline summary rows below detail by using the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.
+This article will explain how to apply Subtotal to data and change the direction of Outline Summary Rows below Detail.
 
 You can apply Subtotal to data using [**Worksheet.cells.subtotal()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/subtotal/#aspose.cells.CellArea-int-aspose.cells.ConsolidationFunction-list-bool-bool-bool) method. It takes the following parameters.
 
@@ -19,11 +19,11 @@ You can apply Subtotal to data using [**Worksheet.cells.subtotal()**](https://re
 - **group_by** - The field to group by, as a zero-based integer offset
 - **function** - The subtotal function.
 - **total_list** - An array of zero-based field offsets, indicating the fields to which the subtotals are added.
-- **replace** - Indicates whether replace the current subtotals
-- **page_breaks** - Indicates whether add page break between groups
-- **summary_below_data** - Indicates whether add summary below data.
+- **replace** - Indicates whether to replace the current subtotals
+- **page_breaks** - Indicates whether to add a page break between groups
+- **summary_below_data** - Indicates whether to add summary below data.
 
-Also, you can control the direction of Outline **Summary rows below detail** as shown in the following screenshot using Worksheet.Outline.SummaryRowBelow property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**
+Also, you can control the direction of Outline **Summary rows below detail**, as shown in the following screenshot, using Worksheet.Outline.SummaryRowBelow property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**
 
 ![todo:image_alt_text](1.png)
 
@@ -31,7 +31,7 @@ Also, you can control the direction of Outline **Summary rows below detail** as 
 
 ## **Images of source and output files**
 
-The following screenshot shows the source Excel file used in the sample code below which contains some data in columns A and B.
+The following screenshot shows the source Excel file used in the sample code below, which contains some data in columns A and B.
 
 ![todo:image_alt_text](2.png)
 

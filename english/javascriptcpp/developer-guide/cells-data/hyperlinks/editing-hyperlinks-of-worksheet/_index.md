@@ -3,7 +3,7 @@ title: Editing Hyperlinks of Worksheet
 type: docs
 weight: 330
 url: /javascript-cpp/editing-hyperlinks-of-worksheet/
-description: Learn how to edit hyperlinks of Worksheet through the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to edit hyperlinks of a worksheet using Aspose.Cells for JavaScript via the C++ API.
 keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
 ---
 
@@ -11,7 +11,7 @@ keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell,
 Aspose.Cells allows you to access all the hyperlinks of the worksheet using the [**Worksheet.hyperlinks**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#hyperlinks--) collection. You can access each hyperlink from this collection one by one and edit its properties.  
 {{% /alert %}}  
 
-The following sample code accesses all the hyperlinks of the worksheet and uses their [**Hyperlink.address**](https://reference.aspose.com/cells/javascript-cpp/hyperlink/#address-string-) method to set the Aspose website.  
+The following sample code accesses all the hyperlinks of the worksheet and uses their [**Hyperlink.address**](https://reference.aspose.com/cells/javascript-cpp/hyperlink/#address-string-) method to set the hyperlink address to the Aspose website.  
 
 ```html
 <!DOCTYPE html>

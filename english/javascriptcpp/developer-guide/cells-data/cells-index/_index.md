@@ -3,37 +3,36 @@ title: Get Cells Index
 type: docs
 weight: 600
 url: /javascript-cpp/get-cells-index/
-description: Learn how to get row or column in by the name of row , column or cells. Convert the name of the cell to row and column index zero-based using Aspose.Cells for JavaScript via C++.
-keywords: Get Row index and Column index by the name of the cell, Get Column index by the name of the column, Get Row index by the name of the row, Get the index by the name of cell. 
+description: Learn how to get a row or column by the name of the row, column, or cell. Convert the name of the cell to row and column index (zero‑based) using Aspose.Cells for JavaScript via C++.
+keywords: Get Row index and Column index by the name of the cell, Get Column index by the name of the column, Get Row index by the name of the row, Get the index by the name of a cell.
 ---
 
 {{% alert color="primary" %}}
-The default view of Excel is A1 style reference，each column is defined as A, B, C.... , and the cells are named as A1, B2, C3... and so on.
-You may want to know which row and column is this cell in.
-
+The default view of Excel is A1‑style reference, each column is defined as A, B, C..., and the cells are named A1, B2, C3, and so on.  
+You may want to know which row and column this cell is in.
 {{% /alert %}}
 
-
 ## **Possible Usage Scenarios**
-When you only need to manipulate a specific data on the worksheet by row and column index, you need to know the column and column indexes of that specific cell. 
-Aspose.Cells for JavaScript via C++ offers this feature to get row and column index by the name of the row, column and cell. 
+When you only need to manipulate specific data on the worksheet by row and column index, you need to know the row and column indexes of that specific cell.  
+Aspose.Cells for JavaScript via C++ offers this feature to get row and column index by the name of the row, column, and cell.  
 Aspose.Cells for JavaScript via C++ provides the following properties and methods to help you achieve your goals.
+
 - [**CellsHelper.cellNameToIndex(string)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#cellNameToIndex-string-)
 - [**CellsHelper.columnIndexToName**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#columnIndexToName-number-)
 - [**CellsHelper.columnNameToIndex**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#columnNameToIndex-string-)
 - [**CellsHelper.rowIndexToName**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#rowIndexToName-number-)
 - [**CellsHelper.rowNameToIndex**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#rowNameToIndex-string-)
 
-Note: The indexing is zero-based in Aspose.Cells for JavaScript via C++, but the id of Row is one-based in MS Excel.
+Note: The indexing is zero‑based in Aspose.Cells for JavaScript via C++, but the row index is one‑based in MS Excel.
 
 ## **Get Cells Indexes using Aspose.Cells for JavaScript via C++**
 This example shows how to:
 
-1. Create a workbook and add some data.
-1. Find the specific cell in the first worksheet.
-1. Get Row index and Column index by the name of the cell.
-1. Get Column index by the name of the column.
-1. Get Row index by the name of the row.
+1. Create a workbook and add some data.  
+2. Find the specific cell in the first worksheet.  
+3. Get row index and column index by the name of the cell.  
+4. Get column index by the name of the column.  
+5. Get row index by the name of the row.
 
 ```html
 <!DOCTYPE html>
@@ -111,21 +110,21 @@ This example shows how to:
             // Current cell name
             const currentCellName = curr.name;
             
-            // get row and column index of current cell
+            // Get row and column index of current cell
             const rowCol = CellsHelper.cellNameToIndex(curr.name);
             const currRow = rowCol[0];
             const currCol = rowCol[1];
             
-            // get column name by column index
+            // Get column name by column index
             const columnName = CellsHelper.columnIndexToName(currCol);
             
-            // get row name by row index
+            // Get row name by row index
             const rowName = CellsHelper.rowIndexToName(currRow);
             
-            // get column index by column name
+            // Get column index by column name
             const columnIndex = CellsHelper.columnNameToIndex(columnName);
             
-            // get row index by row name
+            // Get row index by row name
             const rowIndex = CellsHelper.rowNameToIndex(rowName);
             
             const outputs = [];

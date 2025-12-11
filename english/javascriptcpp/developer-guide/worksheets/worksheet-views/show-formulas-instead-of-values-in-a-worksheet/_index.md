@@ -13,7 +13,7 @@ It is possible to show formulas instead of calculated values in Microsoft Excel 
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Worksheet.showFormulas**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#showFormulas--) property. Set this to **true** to set Microsoft Excel to display formulas.
+Aspose.Cells provides a [**Worksheet.showFormulas**](https://reference.aspose.com/cells/javascript-cpp/worksheet/#showFormulas--) property. Set this to **true** to make Microsoft Excel display formulas.
 
 ```html
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ Aspose.Cells provides a [**Worksheet.showFormulas**](https://reference.aspose.co
             // Access the first worksheet
             const worksheet = workbook.worksheets.get(0);
 
-            // Show formulas of the worksheet
+            // Show formulas for the worksheet
             worksheet.showFormulas = true;
 
             // Save the workbook

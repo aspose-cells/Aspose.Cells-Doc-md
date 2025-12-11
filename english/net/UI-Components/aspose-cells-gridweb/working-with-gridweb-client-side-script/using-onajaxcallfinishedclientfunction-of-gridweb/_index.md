@@ -3,20 +3,24 @@ title: Using OnAjaxCallFinishedClientFunction of GridWeb
 type: docs
 weight: 20
 url: /net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
-keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
-description: This article introduces how to work with OnAjaxCallFinishedClientFunction  in GridWeb.
+keywords: GridWeb,ajaxcall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: This article introduces how to work with OnAjaxCallFinishedClientFunction in GridWeb.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-OnAjaxCallFinishedClientFunction is a client side function which is called when user copies some data to GridWeb worksheet. This function is helpful when bulk of cells are updated and you want to keep the track of those updated cells at client side (i.e. in web browsers like FireFox, Google Chrome etc.).
+OnAjaxCallFinishedClientFunction is a client-side function that is called when the user copies some data to a GridWeb worksheet. This function is helpful when the bulk of cells are updated and you want to keep track of those updated cells on the client side (i.e., in web browsers like Firefox, Google Chrome, etc.).
+
 ## **Using OnAjaxCallFinishedClientFunction of GridWeb**
-The following sample code explains how to make use of OnAjaxCallFinishedClientFunction client function. The screenshots show the console output in Google Chrome and FireFox when the code is executed. Once, you execute the code, please copy/paste some data spanning multiple cells inside the GridWeb worksheet and then check the Web Browser Console as shown in screenshots.
+The following sample code explains how to make use of the OnAjaxCallFinishedClientFunction client function. The screenshots show the console output in Google Chrome and Firefox when the code is executed. Once you execute the code, please copy/paste some data spanning multiple cells inside the GridWeb worksheet and then check the Web Browser Console as shown in the screenshots.
+
 ## **Google Chrome Console Output**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox Console Output**
+
+## **Firefox Console Output**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+
 ## **Sample Code**
 {{< highlight java >}}
 

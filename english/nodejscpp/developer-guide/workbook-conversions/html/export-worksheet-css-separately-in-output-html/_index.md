@@ -5,8 +5,8 @@ type: docs
 weight: 80  
 url: /nodejs-cpp/export-worksheet-css-separately-in-output/  
 description: Learn how to export worksheet CSS separately when converting an Excel file to HTML using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 ## **Possible Usage Scenarios**
@@ -52,7 +52,7 @@ wb.save("outputExportWorksheetCSSSeparately.html", opts);
 
 ## **Export single sheet workbook to HTML**
 
-When a workbook with multiple sheets is converted to HTML using Aspose.Cells for Node.js via C++, it creates an HTML file along with a folder containing CSS and multiple HTML files. When this HTML file is opened in the browser, the tabs are visible. The same behavior is required for a workbook with a single worksheet when it is converted to HTML. Earlier, no separate folder was created for single sheet workbooks, and only an HTML file was created. Such an HTML file does not show tabs when opened in the browser. MS Excel creates a proper folder and HTML for a single sheet also, and hence the same behavior is implemented using Aspose.Cells APIs. The sample file can be downloaded from the following link for use in the sample code below:
+When a workbook with multiple sheets is converted to HTML using Aspose.Cells for Node.js via C++, it creates an HTML file along with a folder containing CSS and multiple HTML files. When this HTML file is opened in the browser, the tabs are visible. The same behavior is required for a workbook with a single worksheet when it is converted to HTML. Previously, no separate folder was created for single‑sheet workbooks, and only an HTML file was generated. Such an HTML file does not show tabs when opened in the browser. MS Excel creates a proper folder and HTML for a single sheet as well, and therefore the same behavior is implemented using Aspose.Cells APIs. The sample file can be downloaded from the following link for use in the sample code below:
 
 [sampleSingleSheet.xlsx](79527937.xlsx)
 

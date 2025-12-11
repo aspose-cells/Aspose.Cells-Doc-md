@@ -5,16 +5,16 @@ type: docs
 weight: 70
 url: /javascript-cpp/implement-custom-paper-size-of-worksheet-for-rendering/
 description: This article explains how to use the JavaScript API via C++ to set a custom paper size for your desired worksheets when rendering an Excel file to PDF format programmatically.
-keywords: set custom paper size while rendering excel to pdf JavaScript via C++
+keywords: set custom paper size while rendering Excel to PDF JavaScript via C++
 ---
 
 ## **Possible Usage Scenarios**  
 
-There is no direct option available to create custom paper sizes in MS Excel, however, you can set a custom paper size of your desired worksheets when rendering an Excel file to PDF format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.  
+There is no direct option available to create custom paper sizes in MS Excel; however, you can set a custom paper size for your desired worksheets when rendering an Excel file to PDF format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.  
 
 ## **Implement Custom Paper Size of Worksheet for Rendering**  
 
-Aspose.Cells allows you to implement your desired paper size of the worksheet. You may use the [**PageSetup.customPaperSize(number, number)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#customPaperSize-number-number-) method of the [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/) class to specify a custom page size. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056028.pdf) generated with the following code for reference.  
+Aspose.Cells allows you to set your desired paper size for the worksheet. You may use the [**PageSetup.customPaperSize(number, number)**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/#customPaperSize-number-number-) method of the [**PageSetup**](https://reference.aspose.com/cells/javascript-cpp/pagesetup/) class to specify a custom page size. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the [output PDF](45056028.pdf) generated with the following code for reference.  
 
 ## **Screenshot**  
 

@@ -7,7 +7,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section has following topics:
+This section has the following topics:
 
 - [Export data from document](/cells/net/export-data-from-document/)
   - [Columns Containing Non-Strongly Typed Data](/cells/net/columns-containing-non-strongly-typed-data/)

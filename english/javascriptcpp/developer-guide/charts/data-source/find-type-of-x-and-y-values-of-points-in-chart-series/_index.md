@@ -9,7 +9,7 @@ url: /javascript-cpp/find-type-of-x-and-y-values-of-points-in-chart-series/
 ---
 
 ## **Possible Usage Scenarios**  
-Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for JavaScript via C++ provides `ChartPoint.XValueType` and `ChartPoint.YValueType` properties that can be used for this purpose. Please note, you will have to call `Chart.calculate()` method before you can use these properties effectively.  
+Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for JavaScript via C++ provides `ChartPoint.XValueType` and `ChartPoint.YValueType` properties that can be used for this purpose. Please note that you will have to call the `Chart.calculate()` method before you can use these properties effectively.  
 
 ## **Find Type of X and Y Values of Points in Chart Series**  
 The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the `Chart.calculate()` method and finds the type of X and Y values of the first chart point and prints them in the console. Please see the console output shown below for a reference.  
@@ -57,19 +57,19 @@ The following sample code loads the [sample Excel file](64716905.xlsx) and acces
             // Instantiating a Workbook object using the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const worksheet = workbook.worksheets.get(0);
 
-            // Access first chart.
+            // Access the first chart.
             const chart = worksheet.charts.get(0);
 
             // Calculate chart data.
             chart.calculate();
 
-            // Access first chart point in the first series.
+            // Access the first chart point in the first series.
             const point = chart.nSeries.get(0).points.get(0);
 
-            // Get the types of X and Y values of chart point.
+            // Get the types of X and Y values of the chart point.
             const xValueType = point.xValueType;
             const yValueType = point.yValueType;
 

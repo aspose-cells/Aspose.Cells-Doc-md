@@ -1,5 +1,5 @@
 ---  
-title: Insert Ranges to Excel with Golang via C++  
+title: Insert Ranges into Excel with Golang via C++  
 linktitle: Insert Ranges  
 type: docs  
 weight: 105  
@@ -9,21 +9,22 @@ description: Learn how to insert ranges into Excel files using Aspose.Cells with
 
 ## **Introduction**
 
-In Excel, you can select a range, then insert a range and shift other data right or down.
+In Excel, you can select a range, then insert a range and shift other data to the right or down.
 
 **![Shift options](InsertRange.png)**
 
 ## **Insert Ranges Using Aspose.Cells**
 
-Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/go-cpp/cells/insertrange_cellarea_int_shifttype_bool/) method to insert a range.
+Aspose.Cells provides the [Cells.InsertRange](https://reference.aspose.com/cells/go-cpp/cells/insertrange_cellarea_int_shifttype_bool/) method to insert a range.
 
 ## **Insert Ranges And Shift Cells Right**
 
-Insert a range and shift cells right as the following codes with Aspose.Cells:
+Insert a range and shift cells to the right using the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-InsertRange.go" >}}
+
 ## **Insert Ranges And Shift Cells Down**
 
-Insert a range and shift cells down as the following codes with Aspose.Cells:
+Insert a range and shift cells down using the following code with Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-InsertRange-1.go" >}}

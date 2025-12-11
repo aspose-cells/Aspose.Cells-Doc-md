@@ -9,7 +9,7 @@ keywords: Excel file digital signature, Add digital signature for Excel JavaScri
 ---
 
 {{% alert color="primary" %}}  
-A digital signature provides assurance that a workbook file is valid and no one has altered it. You can create a personal digital signature by using the **Microsoft Selfcert.exe** or any other tool, or you can purchase a digital signature. After you create a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.  
+A digital signature provides assurance that a workbook file is valid and that no one has altered it. You can create a personal digital signature by using **Microsoft Selfcert.exe** or any other tool, or you can purchase a digital signature. After you create a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.  
 {{% /alert %}}  
 
 ## **Introduction**  
@@ -18,7 +18,7 @@ Use the Digital Signature dialog to attach a digital signature. The Digital Sign
 
 ## **How to Add Digital Signature for Excel**  
 
-Aspose.Cells provides the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature/) module to perform the job (assign and validate digital signatures). The module has some useful features for adding and validating digital signatures.  
+Aspose.Cells provides the [**DigitalSignature**](https://reference.aspose.com/cells/javascript-cpp/digitalsignature/) module to perform the job (assign and validate digital signatures). The module has useful features for adding and validating digital signatures.  
 
 Please see the following sample code that describes how you can perform the task using the Aspose.Cells for JavaScript via C++ API.  
 
@@ -79,7 +79,7 @@ Please see the following sample code that describes how you can perform the task
             const pfxArrayBuffer = await pfxFile.arrayBuffer();
             const pfxBytes = new Uint8Array(pfxArrayBuffer);
 
-            // dsc is signature collection that contains one or more signatures needed to sign
+            // The dsc is a signature collection that contains one or more signatures needed to sign
             const dsc = new DigitalSignatureCollection();
 
             // Cert must contain a private key, constructed from the PFX bytes
@@ -89,7 +89,7 @@ Please see the following sample code that describes how you can perform the task
             // Create a new workbook
             const wb = new Workbook();
 
-            // wb.setDigitalSignature signs all signatures in dsc -> converted to property assignment
+            // wb.digitalSignature signs all signatures in dsc (property assignment)
             wb.digitalSignature = dsc;
 
             // Saving the modified Excel file
@@ -136,7 +136,7 @@ Please see the following sample code that describes how you can perform the task
 </html>
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Add Digital Signature to an already signed Excel file](/cells/javascript-cpp/add-digital-signature-to-an-already-signed-excel-file/)  
 - [Add Signature line to the worksheet](/cells/javascript-cpp/add-signature-line/)  
 - [Support for XAdES Signature](/cells/javascript-cpp/support-for-xades-signature/)

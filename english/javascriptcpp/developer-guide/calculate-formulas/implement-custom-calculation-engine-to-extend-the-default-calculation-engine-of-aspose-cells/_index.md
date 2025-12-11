@@ -10,7 +10,7 @@ url: /javascript-cpp/implement-custom-calculation-engine-to-extend-the-default-c
 
 ## **Implement Custom Calculation Engine**
 
-Aspose.Cells has a powerful calculation engine that can calculate almost all of the Microsoft Excel formulas. Despite this, it also allows you to extend the default calculation engine which provides you greater power and flexibility.
+Aspose.Cells has a powerful calculation engine that can calculate almost all of the Microsoft Excel formulas. Nevertheless, it also allows you to extend the default calculation engine, which provides you greater power and flexibility.
 
 The following property and classes are used in implementing this feature.
 
@@ -18,7 +18,7 @@ The following property and classes are used in implementing this feature.
 - [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine)
 - [**CalculationData**](https://reference.aspose.com/cells/javascript-cpp/calculationdata)
 
-The following code implements the Custom Calculation Engine. It implements the interface [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine) which has a [**calculate(CalculationData data)**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine/#calculate-calculationdata-) method. This method is called against all of your formulas. Inside this method, we capture the **TODAY** function and add one day to the system date. So if the current date is 27/07/2023, then the custom engine will calculate TODAY() as 28/07/2023.
+The following code implements the Custom Calculation Engine. It implements the interface [**AbstractCalculationEngine**](https://reference.aspose.com/cells/javascript-cpp/abstractcalculationengine), which has a **calculate(CalculationData data)** method. This method is called for all of your formulas. Inside this method, we intercept the **TODAY** function and add one day to the system date. So if the current date is 27/07/2023, then the custom engine will calculate TODAY() as 28/07/2023.
 
 ### **Programming Sample**
 
@@ -60,11 +60,11 @@ The following code implements the Custom Calculation Engine. It implements the i
                 this.processBuiltInFunctions = true;
             }
 
-            // Override the Calculate method with custom logic
+            // Override the calculate method with custom logic
             calculate(data) {
                 // Check the formula name and change the implementation
                 if (data.functionName.toUpperCase() === "TODAY") {
-                    // Assign the CalculationData.CalculatedValue: add one day offset for the date
+                    // Assign to the CalculationData.CalculatedValue: add a one‑day offset to the date
                     data.calculatedValue = CellsHelper.getDoubleFromDateTime(new Date(), false) + 1.0;
                 }
             }
@@ -75,10 +75,10 @@ The following code implements the Custom Calculation Engine. It implements the i
                 // Create an instance of Workbook
                 const workbook = new Workbook();
 
-                // Access first Worksheet from the collection
+                // Access the first worksheet from the collection
                 const sheet = workbook.worksheets.get(0);
 
-                // Access Cell A1 and put a formula to sum values of B1 to B2
+                // Access cell A1 and set a formula
                 const a1 = sheet.cells.get("A1");
                 const style = a1.style;
                 style.number = 14;
@@ -89,7 +89,7 @@ The following code implements the Custom Calculation Engine. It implements the i
                 // Calculate all formulas in the Workbook 
                 workbook.calculateFormula();
 
-                // The result of A1 with default calculation engine
+                // The result of A1 with the default calculation engine
                 console.log("The value of A1 with default calculation engine: " + a1.stringValue);
 
                 // Create an instance of CustomEngine
@@ -101,10 +101,10 @@ The following code implements the Custom Calculation Engine. It implements the i
                 // Assign the CalculationOptions.CustomEngine property to the instance of CustomEngine
                 opts.customEngine = engine;
 
-                // Recalculate all formulas in Workbook using the custom calculation engine
+                // Recalculate all formulas in the Workbook using the custom calculation engine
                 workbook.calculateFormula(opts);
 
-                // The result of A1 with custom calculation engine
+                // The result of A1 with the custom calculation engine
                 console.log("The value of A1 with custom calculation engine: " + a1.stringValue);
 
                 console.log("Press any key to continue...");

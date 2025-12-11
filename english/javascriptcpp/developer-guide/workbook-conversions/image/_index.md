@@ -14,7 +14,7 @@ Aspose.Cells allows you to export a worksheet from the workbook and convert it i
 
 An Excel file can contain multiple sheets with multiple pages. [**WorkbookRender**](https://reference.aspose.com/cells/javascript-cpp/workbookrender) allows you to convert Excel to TIFF with multiple pages. Also, you can control multiple options for TIFF, like [ImageOrPrintOptions.tiffCompression](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#tiffCompression--), [ImageOrPrintOptions.tiffColorDepth](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#tiffColorDepth--), Resolution([ImageOrPrintOptions.horizontalResolution](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#horizontalResolution--), [ImageOrPrintOptions.verticalResolution](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#verticalResolution--)).  
 
-The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-mulitiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-mulitiple-pages.tiff) are attached for your reference.  
+The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-multiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-multiple-pages.tiff) are attached for your reference.  
 
 ```html
 <!DOCTYPE html>
@@ -74,7 +74,7 @@ The following code snippet shows how to convert Excel to TIFF with multiple page
             const blob = new Blob([outputData], { type: "image/tiff" });
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'workbook-to-tiff-with-mulitiple-pages.tiff';
+            downloadLink.download = 'workbook-to-tiff-with-multiple-pages.tiff';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download TIFF File';
 
@@ -90,8 +90,8 @@ Worksheets contain data that you want to analyze. For example, a worksheet can c
 
 As a developer, you might need to present worksheets as images. For example, a worksheet can be used as an image in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.  
 
-[**SheetRender**](https://reference.aspose.com/cells/javascript-cpp/sheetrender)
-[**ImageOrPrintOptions**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions)
+[**SheetRender**](https://reference.aspose.com/cells/javascript-cpp/sheetrender)  
+[**ImageOrPrintOptions**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions)  
 [**WorkbookRender**](https://reference.aspose.com/cells/javascript-cpp/workbookrender)
 
 The [**SheetRender**](https://reference.aspose.com/cells/javascript-cpp/sheetrender) class represents a worksheet to render as images. It has an overloaded method, [**SheetRender.toImage(number, string)**](https://reference.aspose.com/cells/javascript-cpp/sheetrender/#toImage-number-string-), that can convert a worksheet to image file(s) with different attributes or options. It returns a Buffer object and you can save an image file to disk or stream. Several image formats are supported, for example BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.  
@@ -190,9 +190,9 @@ At present, the API for converting worksheets to images does not support 3D bubb
 
 ## **Converting Worksheet to SVG**  
 
-SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.  
+SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two‑dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.  
 
-Aspose.Cells for JavaScript via C++ has been able to convert worksheets to SVG image since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.  
+Aspose.Cells for JavaScript via C++ has been able to convert worksheets to SVG images since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.  
 
 ```html
 <!DOCTYPE html>
@@ -239,7 +239,7 @@ Aspose.Cells for JavaScript via C++ has been able to convert worksheets to SVG i
             // Set currently active sheet index to 1 i.e. Sheet2
             workbook.worksheets.activeSheetIndex = 1;
 
-            // Save workbook to SVG. It shall render the active sheet only to SVG
+            // Save workbook to SVG. It will render only the active sheet to SVG
             const outputData = workbook.save(SaveFormat.Svg);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -254,7 +254,7 @@ Aspose.Cells for JavaScript via C++ has been able to convert worksheets to SVG i
 </html>
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Convert an Excel Chart to Image](/cells/javascript-cpp/convert-an-excel-chart-to-image/)  
 - [Converting Chart to Image in SVG Format](/cells/javascript-cpp/converting-chart-to-image-in-svg-format/)  
 - [Export Chart to SVG with viewBox attribute](/cells/javascript-cpp/export-chart-to-svg-with-viewbox-attribute/)  

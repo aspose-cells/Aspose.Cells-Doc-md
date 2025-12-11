@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /python-net/setting-print-options/
 description: This article demonstrates how to programmatically set the Print Options of the Excel Worksheet Page Setup feature using the Aspose.Cells for Python via .NET API. You can set the Print Area, Print Titles and Page Order.
-keywords: Python Excel Library, Python set excel print area, Python set exce print titles, Python how to set excel page order, Python How to Set Print Options, Python How to Set Print Area, Python How to Set Print Titles. 
+keywords: Python Excel Library, Python set excel print area, Python set excel print titles, Python how to set excel page order, Python How to Set Print Options, Python How to Set Print Area, Python How to Set Print Titles. 
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -50,16 +50,16 @@ The rows or columns that will be repeated are defined by passing their row or co
 
 The [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup) class also provides several other properties to set general print options as follows:
 
-- [**print_grid_lines**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_gridlines/): a Boolean property that defines whether to print gridlines or not print.
+- [**print_grid_lines**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_gridlines/): a Boolean property that defines whether to print gridlines or not.
 - [**print_headings**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_headings/): a Boolean property that defines whether to print row and column headings or not.
 - [**black_and_white**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/black_and_white/): a Boolean property that defines whether to print the worksheet in black and white mode or not.
 - [**print_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_comments/): defines whether to display the print comments on the worksheet or at the end of the worksheet.
-- [**print_draft**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_draft/): a boolean property that defines whether to print the sheet without graphics..
+- [**print_draft**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_draft/): a Boolean property that defines whether to print the sheet without graphics.
 - [**print_errors**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_errors): defines whether to print cell errors as displayed, blank, dash or N/A.
 
-To set the [**print_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_comments/) and [**print_errors**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_errors) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype) , and [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) that contain pre-defined values to be assigned to the [**print_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_comments/) and [**print_errors**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_errors) properties respectively.
+To set the [**print_comments**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_comments/) and [**print_errors**](https://reference.aspose.com/cells/python-net/aspose.cells/pagesetup/print_errors) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype), and [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) that contain pre‑defined values to be assigned to the respective properties.
 
-The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype) enumeration are listed below with their descriptions.
+The pre‑defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype) enumeration are listed below with their descriptions.
 
 |**Print Comments Types**|**Description**|
 | :- | :- |
@@ -67,16 +67,14 @@ The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.c
 |PRINT_NO_COMMENTS|Specifies not to print comments.|
 |PRINT_SHEET_END|Specifies to print comments at the end of the worksheet.|
 
-The pre-defined values of [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) enumeration are listed below with their descriptions.
-
-
+The pre‑defined values of the [**PrintErrorsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printerrorstype) enumeration are listed below with their descriptions.
 
 |**Print Errors Types**|**Description**|
 | :- | :- |
 |PRINT_ERRORS_BLANK|Specifies not to print errors.|
-|PRINT_ERRORS_DASH|Specifies to print errors as "--".|
+|PRINT_ERRORS_DASH|Specifies to print errors as “--”.|
 |PRINT_ERRORS_DISPLAYED|Specifies to print errors as displayed.|
-|PRINT_ERRORS_NA|Specifies to print errors as "#N/A".|
+|PRINT_ERRORS_NA|Specifies to print errors as “#N/A”.|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-PageSetupFeatures-OtherPrintOptions-1.py" >}}
 
@@ -87,9 +85,9 @@ The [**PageSetup**](https://reference.aspose.com/cells/python-net/aspose.cells/p
 - **Down then over:** prints all the pages down before printing any pages to the right.
 - **Over then down:** prints pages left to right before printing the pages below.
 
-Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/python-net/aspose.cells/printordertype) that contains all pre-defined order types.
+Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/python-net/aspose.cells/printordertype) that contains all pre‑defined order types.
 
-The pre-defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/python-net/aspose.cells/printordertype) enumeration are listed below.
+The pre‑defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/python-net/aspose.cells/printordertype) enumeration are listed below.
 
 |**Print Order Types**|**Description**|
 | :- | :- |

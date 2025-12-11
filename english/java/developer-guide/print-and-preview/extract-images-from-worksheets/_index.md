@@ -15,7 +15,5 @@ Microsoft Excel users can add images to spreadsheets. With Aspose.Cells, it's po
 
 The sample code below shows how to extract images from an Excel file and save them.
 
-
-
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExtractImagesfromWorksheets-1.java" >}}
 {{< app/cells/assistant language="java" >}}

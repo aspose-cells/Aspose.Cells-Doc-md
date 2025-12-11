@@ -20,9 +20,9 @@ The [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/wo
 ```python
 from aspose.cells import Workbook
 
-# Create workbook object
-    with aspose.cells.Workbook() as wb:
-         wb.save("dispose.xlsx")
-         pass
+# Create a workbook object
+with Workbook() as wb:
+    wb.save("dispose.xlsx")
 ```
+
 {{< app/cells/assistant language="python-net" >}}

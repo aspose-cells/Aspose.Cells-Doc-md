@@ -18,7 +18,7 @@ Aspose.Cells provides you with the ability to change the chart tick label direct
 - Rotate270
 - Stacked
 
-The following image compares the source and output files
+The following image compares the source and output files.
 
 ### **Source file image**
 
@@ -84,7 +84,7 @@ The following code snippet changes the tick label direction from Rotate90 to Hor
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'outputChangeChartDataLableDirection.xlsx';
+            downloadLink.download = 'outputChangeChartDataLabelDirection.xlsx';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Excel File';
 

@@ -12,127 +12,119 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 # Working With GridJs Storage
-##  the general file process 
+## The General File Process
 
-After import a spread sheet file ,
+After importing a spreadsheet file, GridJs will create a cache file with the specified UID according to the `GridCacheForStream` implementation, with the format of [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat").
 
-GridJs will create a cache file with the specified uid according GridCacheForStream implementation,
+GridJs will also save all shapes/images to a zip archive file in the cache folder for later display in the client UI.
 
-with the format of [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+After every update operation in the client UI, for example, set cell value, set cell style, etc., GridJs client‑side JavaScript will trigger a controller action to perform an update operation.
 
-GridJs will also saves all shapes/images to a zip archive file in the  cache folder for later display shapes/images in the client UI.
+In this action, a save back to the cache file occurs during the `UpdateCell` method.
 
-and after every update operation in the client UI,
-
-for example set cell value,set cell style,etc. ,
-
-GridJs  client side js will trigger  controller action to do a update operation.
-
-In this action a save back to the cache file  will occur during the  UpdateCell method.
-```C#   
-        // post: /GridJs/UpdateCell
-        [HttpPost] 
-        public ActionResult UpdateCell( )
-        {
-            string p = HttpContext.Request.Form["p"];
-            string uid = HttpContext.Request.Form["uid"];
-            GridJsWorkbook gwb = new GridJsWorkbook();
-            String ret = gwb.UpdateCell(p, uid);
-            return Content(ret, "text/plain", System.Text.Encoding.UTF8);
-        }
+```csharp
+// post: /GridJs/UpdateCell
+[HttpPost] 
+public ActionResult UpdateCell()
+{
+    string p = HttpContext.Request.Form["p"];
+    string uid = HttpContext.Request.Form["uid"];
+    GridJsWorkbook gwb = new GridJsWorkbook();
+    string ret = gwb.UpdateCell(p, uid);
+    return Content(ret, "text/plain", System.Text.Encoding.UTF8);
+}
 ```
-###  where is the cache file actually 
 
-A. If you implement GridCacheForStream youself.
-for example in the below code we can just put and get the cache file from  **"D:\temp"**
-```C#
-Config.FileCacheDirectory=@"D:\temp";
-GridJsWorkbook.CacheImp=new LocalFileCache();
-public class LocalFileCache  : GridCacheForStream
+### Where Is the Cache File Actually
+
+**A.** If you implement `GridCacheForStream` yourself, for example, in the code below you can store and retrieve the cache file from **`"D:\temp"`**:
+
+```csharp
+Config.FileCacheDirectory = @"D:\temp";
+GridJsWorkbook.CacheImp = new LocalFileCache();
+
+public class LocalFileCache : GridCacheForStream
+{
+    public LocalFileCache()
     {
-         
-        public LocalFileCache()
+        string streampath = Config.FileCacheDirectory;
+        if (!Directory.Exists(streampath))
         {
-            string streampath = Config.FileCacheDirectory;
-            if (!Directory.Exists(streampath))
-            {
-                
-                Directory.CreateDirectory(streampath);
-                
-            }
+            Directory.CreateDirectory(streampath);
         }
-        /// <summary>
-        /// Implement this method to savecache,save the stream to the cache object with the key id.
-        /// </summary>
-        /// <param name="s">the source stream </param>
-        /// <param name="uid">the key id.</param>
-        public override void SaveStream(Stream s, String uid)
-        {//make sure the directory exist
-            String filepath = Path.Combine(Config.FileCacheDirectory, uid);
-            using (FileStream fs = new FileStream(filepath, FileMode.Create)) 
-            {
-                s.Position = 0;
-                s.CopyTo(fs);
-            }
+    }
 
-        }
-
-        /// <summary>
-        /// Implement this method to loadcache with the key uid,return the stream from the cache object.
-        /// </summary>
-        /// <param name="uid">the key id</param>
-        /// <returns>the stream from  the cache</returns>
-        public override Stream LoadStream(String uid)
-        {//make sure the directory is exist
-            String filepath = Path.Combine(Config.FileCacheDirectory, uid);;
-            FileStream fs = new FileStream(filepath, FileMode.Open);
-            return fs;
-        }
-...
-```
-B.If you do not set GridJsWorkbook.CacheImp, 
-
-GridJs already implement a default one.
-
-GridJs will create and do save cache file within the path: **`Config.FileCacheDirectory/streamcache`** .
-
-###  how to get the updated result file
-#### 1. create a specified uid for the file 
-Make sure a specified maping correspondence  between the file and the uid, 
-
-For example 
-
-```C#
- 
-...     
-        //generte a uid for the file
-        String uid = GridJsWorkbook.GetUidForFile(filename)
-...
-        //get JSON result which will be used in client ui for the file by filename and uid
-        public ActionResult DetailFileJsonWithUid(string filename,string uid)
+    /// <summary>
+    /// Implement this method to save cache, save the stream to the cache object with the key ID.
+    /// </summary>
+    /// <param name="s">The source stream.</param>
+    /// <param name="uid">The key ID.</param>
+    public override void SaveStream(Stream s, string uid)
+    {
+        // Make sure the directory exists
+        string filepath = Path.Combine(Config.FileCacheDirectory, uid);
+        using (FileStream fs = new FileStream(filepath, FileMode.Create))
         {
-            String file = Path.Combine(TestConfig.ListDir, filename);
-            GridJsWorkbook wbj = new GridJsWorkbook();
-            //check if already in cache
-           StringBuilder sb= wbj.GetJsonByUid(uid, filename);
-            if(sb==null)
-            {
-                Workbook wb = new Workbook(file);
-                wbj.ImportExcelFile(uid, wb);
-                sb = wbj.ExportToJsonStringBuilder(filename);
-            }
-            return Content(sb.ToString(), "text/plain", System.Text.Encoding.UTF8);
+            s.Position = 0;
+            s.CopyTo(fs);
         }
+    }
+
+    /// <summary>
+    /// Implement this method to load cache with the key UID, return the stream from the cache object.
+    /// </summary>
+    /// <param name="uid">The key ID.</param>
+    /// <returns>The stream from the cache.</returns>
+    public override Stream LoadStream(string uid)
+    {
+        // Make sure the directory exists
+        string filepath = Path.Combine(Config.FileCacheDirectory, uid);
+        FileStream fs = new FileStream(filepath, FileMode.Open);
+        return fs;
+    }
+    // ...
+}
 ```
 
-        
-#### 2. get the file from cache by the uid
-for example :in the download action,you can just get it from the cache directory by uid and filename.
-```C#
-	 Stream fileStream = GridJsWorkbook.CacheImp.LoadStream(uid + "/" + filename);
+**B.** If you do not set `GridJsWorkbook.CacheImp`, GridJs already implements a default one. GridJs will create and save the cache file within the path **`Config.FileCacheDirectory/streamcache`**.
+
+### How to Get the Updated Result File
+
+#### 1. Create a Specified UID for the File  
+Make sure there is a specific mapping correspondence between the file and the UID.
+
+For example:
+
+```csharp
+// ...     
+// Generate a UID for the file
+string uid = GridJsWorkbook.GetUidForFile(filename);
+
+// Get JSON result which will be used in the client UI for the file by filename and UID
+public ActionResult DetailFileJsonWithUid(string filename, string uid)
+{
+    string file = Path.Combine(TestConfig.ListDir, filename);
+    GridJsWorkbook wbj = new GridJsWorkbook();
+
+    // Check if already in cache
+    StringBuilder sb = wbj.GetJsonByUid(uid, filename);
+    if (sb == null)
+    {
+        Workbook wb = new Workbook(file);
+        wbj.ImportExcelFile(uid, wb);
+        sb = wbj.ExportToJsonStringBuilder(filename);
+    }
+    return Content(sb.ToString(), "text/plain", System.Text.Encoding.UTF8);
+}
 ```
 
-For more detail info ,you can check the example here:
+#### 2. Get the File from Cache by the UID  
+For example, in the download action you can retrieve it from the cache directory by UID and filename:
+
+```csharp
+Stream fileStream = GridJsWorkbook.CacheImp.LoadStream(uid + "/" + filename);
+```
+
+For more detailed information, you can check the example here:  
 <https://github.com/aspose-cells/Aspose.Cells.Grid-for-.NET/tree/master/Examples_GridJs>

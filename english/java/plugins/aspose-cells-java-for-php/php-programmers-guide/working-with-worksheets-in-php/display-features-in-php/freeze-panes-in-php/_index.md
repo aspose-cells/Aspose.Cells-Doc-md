@@ -1,5 +1,5 @@
 ---
-title: Freeze Panes in Php
+title: Freeze Panes in PHP
 type: docs
 weight: 40
 url: /java/freeze-panes-in-php/
@@ -8,13 +8,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Freeze Panes**
-To Freeze Panes in the Spreadsheet Document using **Aspose.Cells Java for PHP**, simply invoke **FreezePanes** module.
+To freeze panes in a spreadsheet document using **Aspose.Cells Java for PHP**, simply invoke the **FreezePanes** method.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiating a Excel object by excel file path
+ //Instantiating an Excel object by Excel file path
 
 $workbook = new Workbook($dataDir . "book.xls");
 
@@ -34,6 +34,6 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Freeze Panes (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Freeze Pans (Aspose.Cells)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

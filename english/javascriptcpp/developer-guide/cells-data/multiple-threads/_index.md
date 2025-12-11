@@ -14,15 +14,14 @@ Needing to read cell values in multiple threads simultaneously is a common requi
 
 {{% /alert %}}
 
-To read cell values in more than one thread simultaneously, set [**Cells.multiThreadReading(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cells/#multiThreadReading-boolean-) to **true**. If you do not, you might get the wrong cell values.
+To read cell values in more than one thread simultaneously, set [**Cells.multiThreadReading(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cells/#multiThreadReading-boolean-) to **true**. If you do not set it, you might get incorrect cell values.
 
 The following code:
 
 1. Creates a workbook.
-1. Adds a worksheet.
-1. Populates the worksheet with string values.
-1. It then creates two threads that simultaneously read values from random cells.
-   If the values read are correct, nothing happens. If the values read are incorrect, then a message is displayed.
+2. Adds a worksheet.
+3. Populates the worksheet with string values.
+4. It then creates two threads that simultaneously read values from random cells. If the values read are correct, nothing happens. If the values read are incorrect, a message is displayed.
 
 If you comment this line:
 
@@ -38,12 +37,12 @@ then the following message is displayed:
 
 if (s !== "R" + row + "C" + col)
 {
-    console.log("This message box will show up when cells read values are incorrect.");
+    console.log("This message box will show up when cell values are incorrect.");
 }
 
 {{< /highlight >}}
 
-Otherwise, the program runs without showing any message which means all values read from cells are correct.
+Otherwise, the program runs without showing any message, which means all values read from cells are correct.
 
 ```html
 <!DOCTYPE html>
@@ -83,7 +82,7 @@ Otherwise, the program runs without showing any message which means all values r
                 const col = Math.floor(random() * 100);
                 const s = testWorkbook.worksheets.get(0).cells.get(row, col).stringValue;
                 if (s !== "R" + row + "C" + col) {
-                    console.log("This message will show up when cells read values are incorrect.");
+                    console.log("This message will show up when cell values are incorrect.");
                 }
             }
         };
@@ -99,7 +98,7 @@ Otherwise, the program runs without showing any message which means all values r
                 }
             }
 
-            // Uncommenting this line will enable multi-threaded reading    
+            // Uncommenting this line will enable multithreaded reading    
             //testWorkbook.worksheets.get(0).cells.setMultiThreadReading(true);
 
             const myThread1 = setInterval(threadLoop, 0);
@@ -108,13 +107,13 @@ Otherwise, the program runs without showing any message which means all values r
             setTimeout(() => {
                 clearInterval(myThread1);
                 clearInterval(myThread2);
-                document.getElementById('result').innerHTML = '<p style="color: green;">Multi-threading read test completed.</p>';
+                document.getElementById('result').innerHTML = '<p style="color: green;">Multithreaded read test completed.</p>';
             }, 5 * 1000);
         };
 
         document.getElementById('runExample').addEventListener('click', async () => {
             await readyPromise;
-            document.getElementById('result').innerHTML = '<p style="color: green;">Starting multi-threading read test. This will run for 5 seconds.</p>';
+            document.getElementById('result').innerHTML = '<p style="color: green;">Starting multithreaded read test. This will run for 5 seconds.</p>';
             testMultiThreadingRead();
         });
     </script>

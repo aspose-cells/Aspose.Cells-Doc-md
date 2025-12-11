@@ -9,11 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Microsoft Excel allows users to add comments to cells to add additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction Font Color, etc. Aspose.Cells for Python via .NET provides APIs to accomplish the task.
+Microsoft Excel allows users to add comments to cells to provide additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction, font color, etc. Aspose.Cells for Python via .NET provides APIs to accomplish this task.
 
 {{% /alert %}}
 
-Aspose.Cells for Python via .NET provides a [**Shape.text_body**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_body) property to the font color of the comment. The following sample code demonstrates the use of [**Shape.text_body**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_body) property to set text direction for a comment.
+Aspose.Cells for Python via .NET provides a [**Shape.text_body**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/text_body) property to set the font color of the comment. The following sample code demonstrates the use of the **Shape.text_body** property to set the font color for a comment.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Comments-ChangeCommentFontColor-1.py" >}}
 

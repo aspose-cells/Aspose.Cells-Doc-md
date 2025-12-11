@@ -11,26 +11,26 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Scaling a worksheet can be useful for various reasons, depending on the context in which you are working. Here are a few common reasons for scaling a worksheet:
-1. **Fit to Page**: To ensure that all content fits on a single page or specific number of pages when printing.
-1. **Presentation**: To create organized and professional-looking worksheets for sharing.
-1. **Readability**: To adjust text and element sizes for better visual accessibility.
-1. **Space Management**: To optimize worksheet layout and minimize unnecessary white space.
-1. **Data Visualization**: To properly size charts and graphs within available space.
-1. **Consistency**: To maintain uniform appearance across multiple worksheets or documents.
+Scaling a worksheet can be useful for various reasons, depending on the context in which you are working. Here are a few common reasons to scale a worksheet:
+1. **Fit to Page**: To ensure that all content fits on a single page or a specific number of pages when printing.  
+2. **Presentation**: To create organized and professional‑looking worksheets for sharing.  
+3. **Readability**: To adjust text and element sizes for better visual accessibility.  
+4. **Space Management**: To optimize worksheet layout and minimize unnecessary white space.  
+5. **Data Visualization**: To properly size charts and graphs within the available space.  
+6. **Consistency**: To maintain a uniform appearance across multiple worksheets or documents.  
 
 ## **How to Scale a Worksheet in Excel**
 Scaling a worksheet in Excel helps fit content onto specified pages when printing. Follow these steps:
 
-1. Open your worksheet in Excel
-1. Navigate to **Page Layout** > **Scale to Fit** group
-1. Adjust **Width** and **Height** for page count requirements
-1. Set custom scaling percentage if needed
+1. Open your worksheet in Excel.  
+2. Navigate to **Page Layout** > **Scale to Fit** group.  
+3. Adjust **Width** and **Height** for page‑count requirements.  
+4. Set a custom scaling percentage if needed.  
 <br>
 <img src="1.png" width=60% />
 
 ## **How to Scale a Worksheet Using Python.NET**
-Aspose.Cells for Python.NET provides comprehensive worksheet scaling capabilities. Use these approaches to scale worksheets programmatically:
+Aspose.Cells for Python.NET provides comprehensive worksheet‑scaling capabilities. Use these approaches to scale worksheets programmatically:
 
 ### **Fit to Page Example**
 Adjust print settings to fit content on specified pages:
@@ -57,7 +57,7 @@ workbook.save("output_fit_to_page.xlsx")
 <img src="3.png" width=60% />
 
 ### **Scale to Percentage Example**
-Apply custom scaling percentage to worksheet contents:
+Apply a custom scaling percentage to worksheet contents:
 ```python
 from aspose.cells import Workbook
 

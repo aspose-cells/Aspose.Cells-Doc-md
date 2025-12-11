@@ -15,7 +15,7 @@ You can change the character spacing of an Excel textbox or shape using the [**T
 
 {{% /alert %}}
 
-The following sample code changes the character spacing of the text box in an Excel file to point 4 and then saves it on disk.
+The following sample code changes the character spacing of the text box in an Excel file to **4 points** and then saves it on disk.
 
 ```javascript
 const path = require("path");
@@ -30,7 +30,7 @@ const outputDir = path.join(__dirname, "output");
 // Load your excel file inside a workbook object
 const workbook = new AsposeCells.Workbook(path.join(sourceDir, "sampleChangeTextBoxOrShapeCharacterSpacing.xlsx"));
 
-// Access your text box which is also a shape object from shapes collection
+// Access your text box, which is also a shape object, from the shapes collection
 const shape = workbook.getWorksheets().get(0).getShapes().get(0);
 
 // Access the first font setting object via getRichFormattings() method
@@ -49,7 +49,7 @@ const { Workbook } = require('aspose.cells');
 // Create a workbook
 const workbook = new Workbook(); 
 
-// Access first worksheet
+// Access the first worksheet
 const worksheet = workbook.getWorksheets().get(0); 
 
 // Add a textbox to the worksheet

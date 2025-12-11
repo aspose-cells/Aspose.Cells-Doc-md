@@ -9,13 +9,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or range value against them. Aspose.Cells provides this feature and this document explains how to use it.
+Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or a range value against them. Aspose.Cells provides this feature, and this document explains how to use it.
 
 {{% /alert %}} 
 
 The sample code below shows how to include external files in formulas.
-
-
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-SetExternalLinksInFormulas-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

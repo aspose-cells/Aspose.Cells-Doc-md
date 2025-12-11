@@ -77,18 +77,18 @@ After you create a chart in a worksheet, you can set the category axis for it. I
             worksheet.cells.get("B5").putValue(4);
             worksheet.cells.get("B6").putValue(5);
 
-            // Some values in string
+            // Some values as strings
             const Sales = "100,150,130,160,150";
             const Days = "1,2,3,4,5";
 
-            // Set Category Axis Data with string
+            // Set Category Axis data with a string
             chart.nSeries.categoryData = `{${Days}}`;
-            // Or you can set Category Axis Data with data in cells
+            // Or you can set Category Axis data with data in cells
             // chart.nSeries.categoryData = "B2:B6";
 
             // Add Series to the chart
             chart.nSeries.add("Demand1", true);
-            // Set value axis with string 
+            // Set value axis with a string 
             chart.nSeries.get(0).values = `{${Sales}}`;
             chart.nSeries.add("Demand2", true);
             // Set value axis with data in cells

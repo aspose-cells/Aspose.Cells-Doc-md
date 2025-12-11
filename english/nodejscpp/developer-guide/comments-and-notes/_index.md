@@ -34,7 +34,7 @@ const sheetIndex = workbook.getWorksheets().add();
 // Obtaining the reference of the newly added worksheet by passing its sheet index
 const worksheet = workbook.getWorksheets().get(sheetIndex);
 
-// Adding a comment to "F5" cell
+// Adding a comment to the "F5" cell
 const commentIndex = worksheet.getComments().add("F5");
 
 // Accessing the newly added comment
@@ -68,7 +68,7 @@ const sheetIndex = workbook.getWorksheets().add();
 // Obtaining the reference of the newly added worksheet by passing its sheet index
 const worksheet = workbook.getWorksheets().get(sheetIndex);
 
-// Adding a comment to "F5" cell
+// Adding a comment to the "F5" cell
 const commentIndex = worksheet.getComments().add("F5");
 
 // Accessing the newly added comment
@@ -83,10 +83,10 @@ comment.getFont().setSize(14);
 // Setting the font of a comment to bold
 comment.getFont().setIsBold(true);
 
-// Setting the height of the font to 10
+// Setting the height of the comment to 10
 comment.setHeightCM(10);
 
-// Setting the width of the font to 2
+// Setting the width of the comment to 2
 comment.setWidthCM(2);
 
 // Saving the Excel file
@@ -97,17 +97,17 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 
 With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (They suppose that you have already added a cell comment.)
 
-1. Right-click the cell that contains the comment.
-1. Select **Show/Hide Comments**, and clear any text from the comment.
-1. Click on the border of the comment to select it.
-1. Select **Format**, then **Comment**.
-1. On the **Colors and Lines** tab, expand the **Color** list.
-1. Click **Fill Effects**.
-1. On the **Picture** tab, click **Select Picture**.
-1. Locate and select the picture.
-1. Click **OK** until all dialogs have closed.
+1. Right-click the cell that contains the comment.  
+2. Select **Show/Hide Comments**, and clear any text from the comment.  
+3. Click on the border of the comment to select it.  
+4. Select **Format**, then **Comment**.  
+5. On the **Colors and Lines** tab, expand the **Color** list.  
+6. Click **Fill Effects**.  
+7. On the **Picture** tab, click **Select Picture**.  
+8. Locate and select the picture.  
+9. Click **OK** until all dialogs have closed.  
 
-Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
+Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell **A1** with a picture set as its background.
 
 ```javascript
 const path = require("path");
@@ -120,7 +120,7 @@ const dataDir = path.join(__dirname, "data");
 // Instantiate a Workbook
 const workbook = new AsposeCells.Workbook();
 
-// Get a reference of comments collection with the first sheet
+// Get a reference to the comments collection of the first sheet
 const comments = workbook.getWorksheets().get(0).getComments();
 
 // Add a comment to cell A1
@@ -129,7 +129,7 @@ const comment = comments.get(commentIndex);
 comment.setNote("First note.");
 comment.getFont().setName("Times New Roman");
 
-// Load an image into stream
+// Load an image into a stream
 const bmpPath = path.join(dataDir, "logo.jpg");
 const bmpData = fs.readFileSync(bmpPath);
 
@@ -140,7 +140,7 @@ comment.getCommentShape().getFill().setImageData(bmpData);
 workbook.save(path.join(dataDir, "book1.out.xlsx"), AsposeCells.SaveFormat.Xlsx);
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Text Direction of the Comment](/cells/nodejs-cpp/change-text-direction-of-the-comment/)
 - [How to change the Comment Font Color](/cells/nodejs-cpp/how-to-change-the-comment-font-color/)
 - [How to set comment background](/cells/nodejs-cpp/how-to-set-comment-background/)

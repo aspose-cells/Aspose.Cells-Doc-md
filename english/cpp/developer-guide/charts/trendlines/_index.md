@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose.Cells provides [**Trendline.GetText()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/datalabels/gettext/) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.Calculate()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/calculate/) method.
+You can retrieve the equation text of a chart trendline using Aspose.Cells. Aspose.Cells provides the **Trendline.GetText()** property, which returns the equation text of a chart trendline. To make use of this property, you must first call the **Chart.Calculate()** method.
 
 {{% /alert %}}
 
-The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [**Trendline.GetText()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/datalabels/gettext/) property in the following sample code.
+The following screenshot shows a chart with a trendline, and its equation text is displayed in red. We will retrieve this text using the **Trendline.GetText()** property in the following sample code.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
@@ -45,13 +45,13 @@ int main()
     // Access the first chart inside the worksheet
     Chart chart = worksheet.GetCharts().Get(0);
 
-    // Calculate the Chart first to get the Equation Text of Trendline
+    // Calculate the chart first to get the equation text of the trendline
     chart.Calculate();
 
-    // Access the Trendline
+    // Access the trendline
     Trendline trendLine = chart.GetNSeries().Get(0).GetTrendLines().Get(0);
 
-    // Read the Equation Text of Trendline
+    // Read the equation text of the trendline
     std::cout << "Equation Text: " << trendLine.GetDataLabels().GetText().ToUtf8() << std::endl;
 
     Aspose::Cells::Cleanup();
@@ -62,9 +62,8 @@ int main()
 
 This is the console output of the above sample code.
 
-{{< highlight java >}}
-
+{{< highlight cpp >}}
 Equation Text: y = 8.1333x + 5
-
 {{< /highlight >}}
+
 {{< app/cells/assistant language="cpp" >}}

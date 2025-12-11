@@ -1,23 +1,21 @@
----
-title: Add Conditional Icons Set with the Cell Text using Node.js via C++
-linktitle: Add Conditional Icons Set with the Cell Text
-type: docs
-weight: 160
-url: /nodejs-cpp/add-conditional-icons-set-with-the-cell-text/
-description: Learn how to add conditional icons next to the cell text using Aspose.Cells for Node.js via C++. Enhancing the meaning of data through icons.
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
+title: Add Conditional Icons Set with the Cell Text using Node.js via C++  
+linktitle: Add Conditional Icons Set with the Cell Text  
+type: docs  
+weight: 160  
+url: /nodejs-cpp/add-conditional-icons-set-with-the-cell-text/  
+description: Learn how to add conditional icons next to the cell text using Aspose.Cells for Node.js via C++. Enhancing the meaning of data through icons.  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells for Node.js via C++ supports this feature.
+Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional‑formatting icon types without applying conditional formatting to the cells. Aspose.Cells for Node.js via C++ supports this feature.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-The following code sample shows how to add conditional icons set with the Cell Text.
-
-
+The following code sample shows how to add a conditional icons set with the cell text.  
 
 ```javascript
 try {
@@ -33,12 +31,12 @@ const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 // Get the cells
 const cells = worksheet.getCells();
-// Set the columns widths (A, B and C)
+// Set the column widths (A, B, and C)
 worksheet.getCells().setColumnWidth(0, 24);
 worksheet.getCells().setColumnWidth(1, 24);
 worksheet.getCells().setColumnWidth(2, 24);
 
-// Input date into the cells
+// Input data into the cells
 cells.get("A1").putValue("KPIs");
 cells.get("A2").putValue(19551794);
 cells.get("A3").putValue(11.8070745566204);

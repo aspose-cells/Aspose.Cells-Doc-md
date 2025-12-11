@@ -1,8 +1,8 @@
 ---
 title: How to set Series invisible with JavaScript via C++
 linktitle: How to set Series invisible
-description: Learn how to set series invisible in Excel chart using Aspose.Cells for JavaScript via C++. 
-keywords: Excel chart, Series, Invisible, IsFiltered JavaScript via C++.
+description: Learn how to set a series invisible in an Excel chart using Aspose.Cells for JavaScript via C++.
+keywords: Excel chart, Series, Invisible, IsFiltered, JavaScript via C++.
 type: docs
 weight: 74
 url: /javascript-cpp/how-to-set-series-invisible/
@@ -10,7 +10,7 @@ url: /javascript-cpp/how-to-set-series-invisible/
 
 ## How to set series invisible in Excel Chart
 
-In Excel chart, you can right-click a chart, click "Select Data", and in the pop-up window, you can set whether a series is visible by checking or unchecking it. You can download the following [sample file](SeriesFiltered.xlsx) and operate it in Excel as shown in the figure to achieve this function. Next, we will tell you how to achieve this using the Aspose.Cells library.
+In an Excel chart, you can right‑click a chart, click **Select Data**, and in the pop‑up window, you can set whether a series is visible by checking or unchecking it. You can download the following [sample file](SeriesFiltered.xlsx) and operate it in Excel as shown in the figure to achieve this function. Next, we will tell you how to achieve this using the Aspose.Cells library.
 
 ![todo:image_alt_text](series-invisible.png)
 
@@ -87,7 +87,8 @@ We use the following code to set series invisible using Aspose.Cells:
 </html>
 ```
 
-You can get the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
+You can download the following [Input file](SeriesFiltered.xlsx) and [output file](output.xlsx).
 
-As shown in the figure below, the first two series which were originally visible, have become invisible in the output file.
+As shown in the figure below, the first two series, which were originally visible, have become invisible in the output file.  
 ![todo:image_alt_text](output.png)
+

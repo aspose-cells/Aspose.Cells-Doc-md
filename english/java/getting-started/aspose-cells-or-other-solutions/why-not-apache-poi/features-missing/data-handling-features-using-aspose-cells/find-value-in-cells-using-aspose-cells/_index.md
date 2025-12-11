@@ -1,55 +1,52 @@
----
-title: Find Value in Cells using Aspose.Cells
-type: docs
-weight: 10
-url: /java/find-value-in-cells-using-aspose-cells/
+---  
+title: Find Value in Cells using Aspose.Cells  
+type: docs  
+weight: 10  
+url: /java/find-value-in-cells-using-aspose-cells/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Find Value in Cells**
-In Microsoft Excel, users can search for cells that contain specific data. For example, clicking **Edit** and then **Find** opens the Search dialog. Users enters a value and clicks **OK** to search for it. Excel highlights matching fields.
+## **Aspose.Cells - Find Value in Cells**  
+In Microsoft Excel, users can search for cells that contain specific data. For example, clicking **Edit** and then **Find** opens the Search dialog. Users enter a value and click **OK** to search for it. Excel highlights matching cells.  
 
-**Java**
+**Java**  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
- //Instantiating a Workbook object
+ //Instantiating a Workbook object  
+Workbook workbook = new Workbook("workbook.xls");  
 
-Workbook workbook = new Workbook("workbook.xls");
+//Accessing the first worksheet in the Excel file  
+Worksheet worksheet = workbook.getWorksheets().get(0);  
 
-//Accessing the first worksheet in the Excel file
+//Finding the cell containing the specified formula  
+Cells cells = worksheet.getCells();  
 
-Worksheet worksheet = workbook.getWorksheets().get(0);
+//Instantiate FindOptions  
+FindOptions findOptions = new FindOptions();  
 
-//Finding the cell containing the specified formula
+//Finding the cell containing a string value that starts with "Or"  
+findOptions.setLookAtType(LookAtType.START_WITH);  
+Cell cell = cells.find("SH",null,findOptions);  
 
-Cells cells = worksheet.getCells();
+//Printing the name of the cell found after searching the worksheet  
+System.out.println("Name of the cell containing String: " + cell.getName());  
 
-//Instantiate FindOptions
+{{< /highlight >}}  
 
-FindOptions findOptions = new FindOptions();
+## **Download Running Code**  
 
-//Finding the cell containing a string value that starts with "Or"
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)  
 
-findOptions.setLookAtType(LookAtType.START_WITH);
+## **Download Sample Code**  
 
-Cell cell = cells.find("SH",null,findOptions);
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)  
 
-//Printing the name of the cell found after searching worksheet
+{{% alert color="primary" %}}  
 
-System.out.println("Name of the cell containing String: " + cell.getName());
+For more details, visit [Find or Search Data](/cells/java/find-or-search-data).  
 
-{{< /highlight >}}
-## **Download Running Code**
+{{% /alert %}}  
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Find or Search Data](/cells/java/find-or-search-data).
-
-{{% /alert %}}
 {{< app/cells/assistant language="java" >}}

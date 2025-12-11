@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Adjusting Row Height and Column Width**
 ### **Setting the Row Height**
-It is possible to set the height of a single row by calling the Cells collection's setRowHeight method. The setRowHeight method takes the folloing parameters:
+It is possible to set the height of a single row by calling the Cells collection's setRowHeight method. The setRowHeight method takes the following parameters:
 
 - **Row index**, the index of the row that you're changing the height of.
 - **Row height**, the row height to apply on the row.
@@ -22,7 +22,7 @@ It is possible to set the height of a single row by calling the Cells collecti
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object from an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -59,7 +59,7 @@ Set the width of a column by calling the Cells collection's setColumnWidth m
 
 {
 
-    # Instantiating a Workbook object by excel file path
+    # Instantiating a Workbook object from an Excel file path
 
     $workbook = new Workbook($dataDir . 'Book1.xls');
 
@@ -83,6 +83,6 @@ Set the width of a column by calling the Cells collection's setColumnWidth m
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Adjusting Row Height and Column Width (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Adjusting Row Height and Column Width (Aspose.Cells)** from any of the below‑mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

@@ -15,42 +15,39 @@ There are times when you want to create Microsoft Excel reports with pivot table
 
 ### **Changing a Pivot Table's Source Data**
 
-1. Creating a new designer template.
-   1. Create a new designer template file as in the screenshot below.
-   1. Then define a named range, **DataSource**, which refers to this range of cells.
+1. Creating a new designer template.  
+   1. Create a new designer template file as shown in the screenshot below.  
+   1. Then define a named range, **DataSource**, which refers to this range of cells.  
 
-      **Creating a designer template & defining a named range, DataSource** 
+   **Creating a designer template & defining a named range, DataSource**  
 
-![todo:image_alt_text](pivot-table-and-source-data_1.png)
-   
-1. Creating a Pivot Table Based on this named range.
-   1. In Microsoft Excel, choose **Data**, then **PivotTable** and **PivotChart Report**.
-   1. Create a pivot table based on the named range created in the first step.
+   ![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-      **Creating a pivot table based on the named range, DataSource** 
+2. Creating a Pivot Table Based on this named range.  
+   1. In Microsoft Excel, choose **Data**, then **PivotTable**, and **PivotChart Report**.  
+   1. Create a pivot table based on the named range created in the first step.  
 
-![todo:image_alt_text](pivot-table-and-source-data_2.png)
+   **Creating a pivot table based on the named range, DataSource**  
 
-   
-   1. Drag the corresponding field to pivot table row and column, then create the resulting pivot table as in the screenshot below.
+   ![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
-   **Creating a pivot table based on a corresponding field** 
+   1. Drag the appropriate fields to the pivot table rows and columns, then create the resulting pivot table as shown in the screenshot below.  
 
-![todo:image_alt_text](pivot-table-and-source-data_3.png)
+   **Creating a pivot table based on a corresponding field**  
 
-   
-1. Right-click the pivot table and select **Table Options**.
-   1. Check **Refresh on open** in **Data options** settings.
+   ![todo:image_alt_text](pivot-table-and-source-data_3.png)
 
-      **Setting the pivot table options** 
+3. Right‑click the pivot table and select **Table Options**.  
+   1. Check **Refresh on open** in **Data options** settings.  
 
-![todo:image_alt_text](pivot-table-and-source-data_4.png)
+   **Setting the pivot table options**  
 
+   ![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 Now, you can save this file as your designer template file.
 
-1. Populating new data and changing source data of a pivot table.
-   1. Once the designer template is created, use the following code to change the source data of the pivot table.
+4. Populating new data and changing the source data of a pivot table.  
+   1. Once the designer template is created, use the following code to change the source data of the pivot table.  
 
 Executing the example code below changes the source data of the pivot table.
 
@@ -72,19 +69,19 @@ int main()
     // Create workbook
     Workbook workbook(inputFilePath);
 
-    // Accessing the first worksheet in the Excel file
+    // Access the first worksheet in the Excel file
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Populating new data to the worksheet cells
+    // Populate new data into the worksheet cells
     worksheet.GetCells().Get(u"A9").PutValue(u"Golf");
     worksheet.GetCells().Get(u"B9").PutValue(u"Qtr4");
     worksheet.GetCells().Get(u"C9").PutValue(7000);
 
-    // Changing named range "DataSource"
+    // Change named range "DataSource"
     Range range = worksheet.GetCells().CreateRange(0, 0, 9, 3);
     range.SetName(u"DataSource");
 
-    // Saving the modified Excel file
+    // Save the modified Excel file
     U16String outputFilePath = srcDir + u"output.xls";
     workbook.Save(outputFilePath);
 

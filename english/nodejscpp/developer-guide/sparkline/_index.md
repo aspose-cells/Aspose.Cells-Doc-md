@@ -4,7 +4,7 @@ linktitle: Sparklines
 type: docs
 weight: 160
 url:  /nodejs-cpp/creating-sparklines/
-description: Create sparkline for Excel using Aspose.Cells for Node.js via C++.
+description: Create a sparkline for Excel using Aspose.Cells for Node.js via C++.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -12,13 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Insert a sparkline**
 {{% alert color="primary" %}} 
 
-Sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of Sparkline: Line, Column and Stacked.
+A sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of sparkline: Line, Column, and Stacked.
 
 {{% /alert %}} 
 
-It’s simple to create a sparkline with Aspose.Cells for Node.js via C++ with the following example codes:
-
-
+It’s simple to create a sparkline with Aspose.Cells for Node.js via C++ with the following example code:
 
 ```javascript
 const path = require("path");
@@ -51,7 +49,7 @@ const clr = book.createCellsColor();
 clr.setColor(AsposeCells.Color.Orange);
 group.setSeriesColor(clr);
 
-// Set the high points are colored green and the low points are colored red
+// Set the high points to be colored green and the low points to be colored red
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.getHighPointColor().setColor(AsposeCells.Color.Green);
@@ -63,6 +61,6 @@ group.setLineWeight(1.0);
 book.save(path.join(dataDir, "output.xlsx"));
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Using Sparklines and Settings 3D Format](/cells/nodejs-cpp/using-sparklines-and-settings-3d-format/)
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -19,7 +19,7 @@ This article provides compact instructions on how to find and then unmerge merge
 
 ## **Demonstration**
 
-This example uses a template Microsoft Excel file called **MergeTrial**. It has some merged cell areas in a sheet also called Merge Trial.
+This example uses a template Microsoft Excel file called **MergeTrial**. It has some merged cell areas in a sheet also called **Merge Trial**.
 
 **The template file**
 
@@ -27,7 +27,7 @@ This example uses a template Microsoft Excel file called **MergeTrial**. It has 
 
 Aspose.Cells provides the [**Cells.getMergedCells()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells/#getMergedCells--) method which is used to get all merged cells.
 
-When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again.
+When the code below is executed, it clears the contents of the sheet and unmerges all merged cell areas before saving the file again.
 
 **The Output File**
 
@@ -35,7 +35,7 @@ When the code below is executed, it clears the contents of the sheet and unmerge
 
 ## **Code Example**
 
-Please see the following sample code to find how to identify merged cell areas in a worksheet and unmerge them.
+Please see the following sample code to see how to identify merged cell areas in a worksheet and unmerge them.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectMergedCells-DetectMergedCells.java" >}}
 

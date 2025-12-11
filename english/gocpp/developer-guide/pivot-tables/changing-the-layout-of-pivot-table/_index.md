@@ -9,16 +9,16 @@ description: Learn how to change the layout of a Pivot Table in Compact, Outline
 
 {{% alert color="primary" %}}
 
-Microsoft Excel allows you to change the Layout of Pivot Table using *PivotTable Tools > Design > Report Layout* menu commands. You can change the Layout in these three forms:
+Microsoft Excel allows you to change the layout of a Pivot Table using *PivotTable Tools > Design > Report Layout* menu commands. You can change the layout in these three forms:
 
 - Show in Compact Form
 - Show in Outline Form
 - Show in Tabular Form
 
-Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://reference.aspose.com/cells/go-cpp/pivottable/showincompactform/), [**PivotTable.ShowInOutlineForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showinoutlineform/), and [**PivotTable.ShowInTabularForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showintabularform/) methods to change the layout of pivot table in these three forms.
+Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://reference.aspose.com/cells/go-cpp/pivottable/showincompactform/), [**PivotTable.ShowInOutlineForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showinoutlineform/), and [**PivotTable.ShowInTabularForm()**](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/showintabularform/) methods to change the layout of the Pivot Table in these three forms.
 
 {{% /alert %}}
 
-The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form**, and lastly, it shows the Pivot Table in **Tabular Form**.
+The following sample code first shows the Pivot Table in **Compact Form**, then shows it in **Outline Form**, and finally shows it in **Tabular Form**.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ChangingTheLayoutOfPivotTable.go" >}}

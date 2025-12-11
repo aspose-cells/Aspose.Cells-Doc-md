@@ -20,7 +20,7 @@ private static void CreateSpreadsheetWorkbook(string filepath)
 
 {
 
-    // Create a spreadsheet document by supplying the filepath.
+    // Create a spreadsheet document by supplying the file path.
 
     // By default, AutoSave = true, Editable = true, and Type = xlsx.
 
@@ -73,7 +73,6 @@ private static void CreateSpreadsheetWorkbook(string filepath)
 }
 
 }
-
 {{< /highlight >}}
 ## **Aspose.Cells**
 {{< highlight csharp >}}

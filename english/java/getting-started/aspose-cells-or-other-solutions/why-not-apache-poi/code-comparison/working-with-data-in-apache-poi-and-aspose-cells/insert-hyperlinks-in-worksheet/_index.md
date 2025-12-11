@@ -16,7 +16,7 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 
 {{< highlight java >}}
 
- //Obtaining the reference of the first worksheet.
+ //Obtaining a reference to the first worksheet.
 
 WorksheetCollection worksheets = workbook.getWorksheets();
 
@@ -24,13 +24,13 @@ Worksheet sheet = worksheets.get(0);
 
 HyperlinkCollection hyperlinks = sheet.getHyperlinks();
 
-//Adding a hyperlink to a URL at "A1" cell
+//Adding a hyperlink to a URL at the "A1" cell
 
 hyperlinks.add("A1",1,1,"http://www.aspose.com");
 
 //============ Link to Cell =================
 
-//Setting a value to the "A1" cell
+//Setting a value to the "A2" cell
 
 Cells cells = sheet.getCells();
 
@@ -55,16 +55,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 It is possible to add hyperlinks to external Excel files by calling the Hyperlinks collection's Add method. The Add method takes the following parameters:
 
-- Cell name, the name of the cell the hyperlink will be added to.
-- Number of rows, the number of rows in this hyperlink range.
-- Number of columns, the number of columns in this hyperlink range.
-- URL, the address of the target, external Excel file.
+- Cell name – the name of the cell to which the hyperlink will be added.
+- Number of rows – the number of rows in this hyperlink range.
+- Number of columns – the number of columns in this hyperlink range.
+- URL – the address of the target external Excel file.
 
 **Java**
 
 {{< highlight java >}}
 
- cell = cells.get("A3");
+cell = cells.get("A3");
 
 cell.setValue("External Link");
 
@@ -82,7 +82,7 @@ hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< highlight java >}}
 
- CellStyle hlink_style = wb.createCellStyle();
+CellStyle hlink_style = wb.createCellStyle();
 
 Font hlink_font = wb.createFont();
 
@@ -132,7 +132,7 @@ cell.setCellValue("Email Link");
 
 link = createHelper.createHyperlink(Hyperlink.LINK_EMAIL);
 
-//note, if subject contains white spaces, make sure they are url-encoded
+// Note: if the subject contains whitespace, make sure it is URL‑encoded
 
 link.setAddress("mailto:poi@apache.org?subject=Hyperlinks");
 

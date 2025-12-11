@@ -8,11 +8,11 @@ url: /javascript-cpp/removing-slicer/
 
 ## **Possible Usage Scenarios**
 
-If you want to remove a slicer in Excel, just select it and press the *Delete* button. Similarly, if you want to remove it using Aspose.Cells API programmatically, please use the [**SlicerCollection.remove(Slicer)**](https://reference.aspose.com/cells/javascript-cpp/slicercollection/#remove-slicer-) method. It will remove the slicer from the worksheet.
+If you want to remove a slicer in Excel, just select it and press the *Delete* button. Similarly, if you want to remove it using the Aspose.Cells API programmatically, please use the [**SlicerCollection.remove(Slicer)**](https://reference.aspose.com/cells/javascript-cpp/slicercollection/#remove-slicer-) method. It will remove the slicer from the worksheet.
 
 ## **Removing Slicer**
 
-The following sample code loads the [sample Excel file](67338478.xlsx) that contains an existing slicer. It accesses the slicers and then removes it. Finally, it saves the workbook as [output Excel file](67338477.xlsx). The following screenshot shows the slicer that will be removed after the execution of the sample code.
+The following sample code loads the [sample Excel file](67338478.xlsx) that contains an existing slicer. It accesses the slicer collection and then removes it. Finally, it saves the workbook as [output Excel file](67338477.xlsx). The following screenshot shows the slicer that will be removed after executing the sample code.
 
 ![todo:image_alt_text](removing-slicer_1.png)
 
@@ -59,16 +59,16 @@ The following sample code loads the [sample Excel file](67338478.xlsx) that cont
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
-            // Access first worksheet.
+            // Access the first worksheet.
             const worksheet = workbook.worksheets.get(0);
             
             // Access the first slicer inside the slicer collection.
             const slicer = worksheet.slicers.get(0);
             
-            // Remove slicer.
+            // Remove the slicer.
             worksheet.slicers.remove(slicer);
             
             // Save the workbook in output XLSX format.

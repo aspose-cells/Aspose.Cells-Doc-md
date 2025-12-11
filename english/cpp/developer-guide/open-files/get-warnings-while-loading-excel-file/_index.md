@@ -15,7 +15,7 @@ Sometimes the user tries to load a workbook that is somewhat corrupt but still l
 
 ## **Get Warnings while Loading Excel File**
 
-The following sample code explains how to get warnings while loading an Excel file. The code loads the [sample excel file](sampleDuplicateDefinedName.xlsx), which throws a [**DuplicateDefinedName**](https://reference.aspose.com/cells/cpp/aspose.cells/warningtype/) warning on loading. This warning is then caught by the [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/cpp/aspose.cells/iwarningcallback/warning/) method, which prints the warning messages on the console. The code then saves the workbook as an [output excel file](outputDuplicateDefinedName.xlsx). If you open the sample Excel file in Microsoft Excel, it will also display this warning, as shown in the screenshot below. Please also check the console output of the code given below for more understanding.
+The following sample code explains how to get warnings while loading an Excel file. The code loads the [sample Excel file](sampleDuplicateDefinedName.xlsx), which throws a **DuplicateDefinedName** warning on loading. This warning is then caught by the [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/cpp/aspose.cells/iwarningcallback/warning/) method, which prints the warning messages on the console. The code then saves the workbook as an [output Excel file](outputDuplicateDefinedName.xlsx). If you open the sample Excel file in Microsoft Excel, it will also display this warning, as shown in the screenshot below. Please also check the console output of the code given below for better understanding.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -60,7 +60,7 @@ int main() {
 
 ## **Console Output**
 
-Here is the console output of the above code when executed with the provided [sample excel file](sampleDuplicateDefinedName.xlsx).
+Here is the console output of the above code when executed with the provided [sample Excel file](sampleDuplicateDefinedName.xlsx).
 
 {{< highlight java >}}
 

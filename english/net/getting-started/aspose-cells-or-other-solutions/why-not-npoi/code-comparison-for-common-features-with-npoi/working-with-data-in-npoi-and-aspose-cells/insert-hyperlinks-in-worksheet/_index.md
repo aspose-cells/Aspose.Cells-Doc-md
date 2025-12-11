@@ -71,7 +71,7 @@ workbook.Save("test.xlsx");
 
 It is possible to add hyperlinks to cells in the same Excel file by calling the Hyperlink collection's Add method. The Add method works for both internal and external hyperlinks. One version of the overloaded method takes the following parameters:
 
-- Cell name,the name of the cell the hyperlink will be added to.
+- Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.
 - Number of columns, the number of columns in this hyperlink range.
 - URL, the address of the target cell.
@@ -84,21 +84,22 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 
 Workbook workbook = new Workbook();
 
-//Obtaining the reference of the first (default) worksheet
+ //Obtaining the reference of the first (default) worksheet
 
 Worksheet worksheet = workbook.Worksheets[0];
 
-//Adding an internal hyperlink to the "B9" cell of the other worksheet "Sheet2" in
+ //Adding an internal hyperlink to the "B9" cell of the other worksheet "Sheet2" in
 
-//the same Excel file
+ //the same Excel file
 
 worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 
-//Saving the Excel file
+ //Saving the Excel file
 
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
+
 ## **NPOI - HSSF XSSF - Insert Hyperlinks in Worksheet**
 **C#**
 
@@ -108,7 +109,7 @@ workbook.Save("C:\\book1.xls");
 
 ////cell style for hyperlinks
 
-////by default hyperlinks are blue and underlined
+////By default hyperlinks are blue and underlined
 
 ICellStyle hlink_style = workbook.CreateCellStyle();
 
@@ -195,8 +196,9 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Insert Hyperlinks in Worksheet** form any of the below mentioned social coding sites:
+Download **Insert Hyperlinks in Worksheet** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 

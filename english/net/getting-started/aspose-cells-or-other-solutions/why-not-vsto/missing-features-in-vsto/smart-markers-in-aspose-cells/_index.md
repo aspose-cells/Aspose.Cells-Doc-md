@@ -7,7 +7,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-This section has following topics:
+This section has the following topics:
 
 - [Grouping Data](/cells/net/grouping-data/)
 - [Image Markers](/cells/net/image-markers/)

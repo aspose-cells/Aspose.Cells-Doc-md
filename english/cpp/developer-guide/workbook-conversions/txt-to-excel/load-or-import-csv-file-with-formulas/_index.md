@@ -15,10 +15,10 @@ CSV files mostly contain textual data and do not typically include any formulas.
 
 {{% /alert %}} 
 
-The following code illustrates how you can load and import a CSV file with formulas. You can use any CSV file. For illustration purposes, we use the [simple csv file](5115034.csv) which contains this data. As you see, it contains a formula.
+The following code illustrates how you can load and import a CSV file with formulas. You can use any CSV file. For illustration purposes, we use the [simple CSV file](5115034.csv) which contains this data. As you can see, it contains a formula.
 
 {{< highlight cpp >}}
- 300,500,=Sum(A1:B1)
+300,500,=Sum(A1:B1)
 {{< /highlight >}}
 
 ```c++
@@ -50,7 +50,7 @@ int main()
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.GetCells().ImportCSV(srcDir + u"sample.csv", opts, 3, 3);
 
-    // Save the workbook in Xlsx format
+    // Save the workbook in XLSX format
     workbook.Save(outDir + u"output_out.xlsx");
 
     std::cout << "CSV file loaded and saved successfully!" << std::endl;
@@ -59,7 +59,7 @@ int main()
 }
 ```
 
-The code first loads the CSV file, then imports it again at cell D4. Finally, it saves the workbook object in XLSX format. The [output XLSX file](5115052.xlsx) looks like this. As you see, cell C3 and F4 contain formulas and their result is 800.
+The code first loads the CSV file, then imports it again at cell D4. Finally, it saves the workbook object in XLSX format. The [output XLSX file](5115052.xlsx) looks like this. As you can see, cells C3 and F4 contain formulas, and their result is 800.
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |

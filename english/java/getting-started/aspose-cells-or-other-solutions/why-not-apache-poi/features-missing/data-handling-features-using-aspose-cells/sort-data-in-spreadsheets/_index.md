@@ -1,80 +1,82 @@
----
-title: Sort Data in Spreadsheets
-type: docs
-weight: 70
-url: /java/sort-data-in-spreadsheets/
+---  
+title: Sort Data in Spreadsheets  
+type: docs  
+weight: 70  
+url: /java/sort-data-in-spreadsheets/  
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Aspose.Cells - Sort Data in Spreadsheets**
-{{% alert color="primary" %}} 
+## **Aspose.Cells - Sort Data in Spreadsheets**  
+{{% alert color="primary" %}}  
 
-To sort data in spreadsheet using Aspose.Cells, simply invoke the DataSorter.sorter() method after setting few easy to set properties of cell area.
+To sort data in spreadsheets using Aspose.Cells, simply invoke the `DataSorter.sorter()` method after setting a few easy‑to‑set properties of the cell area.  
 
-Java code is mentioned below.
+Java code is mentioned below.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-Sort Data using Aspose.Cells
+Sort Data using Aspose.Cells  
 
-**Java**
+**Java**  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
- //Obtain the DataSorter object in the workbook
+ //Obtain the DataSorter object in the workbook  
 
-DataSorter sorter = workbook.getDataSorter();
+DataSorter sorter = workbook.getDataSorter();  
 
-//Set the first order
+//Set the first order  
 
-sorter.setOrder1(SortOrder.ASCENDING);
+sorter.setOrder1(SortOrder.ASCENDING);  
 
-//Define the first key.
+//Define the first key.  
 
-sorter.setKey1(0);
+sorter.setKey1(0);  
 
-//Set the second order
+//Set the second order  
 
-sorter.setOrder2(SortOrder.ASCENDING);
+sorter.setOrder2(SortOrder.ASCENDING);  
 
-//Define the second key
+//Define the second key  
 
-sorter.setKey2(1);
+sorter.setKey2(1);  
 
-//Create a cells area (range).
+//Create a cell area (range).  
 
-CellArea ca = new CellArea();
+CellArea ca = new CellArea();  
 
-//Specify the start row index.
+//Specify the start row index.  
 
-ca.StartRow = 1;
+ca.StartRow = 1;  
 
-//Specify the start column index.
+//Specify the start column index.  
 
-ca.StartColumn = 0;
+ca.StartColumn = 0;  
 
-//Specify the last row index.
+//Specify the last row index.  
 
-ca.EndRow = 9;
+ca.EndRow = 9;  
 
-//Specify the last column index.
+//Specify the last column index.  
 
-ca.EndColumn = 2;
+ca.EndColumn = 2;  
 
-//Sort data in the specified data range (A2:C10)
+//Sort data in the specified data range (A2:C10)  
 
-sorter.sort(cells, ca);
+sorter.sort(cells, ca);  
 
-{{< /highlight >}}
-## **Download Running Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Download Sample Code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
+{{< /highlight >}}  
 
-{{% alert color="primary" %}} 
+## **Download Running Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)  
 
-For more details, visit [Sort Data](/java/sort-data), or [Data Sorting](/cells/java/data-sorting).
+## **Download Sample Code**  
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)  
 
-{{% /alert %}}
+{{% alert color="primary" %}}  
+
+For more details, visit [Sort Data](/java/sort-data), or [Data Sorting](/cells/java/data-sorting).  
+
+{{% /alert %}}  
 {{< app/cells/assistant language="java" >}}

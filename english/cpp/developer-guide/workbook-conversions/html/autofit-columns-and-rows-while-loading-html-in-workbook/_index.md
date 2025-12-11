@@ -1,25 +1,25 @@
----
-title: AutoFit Columns and Rows while loading HTML in Workbook with C++
-linktitle: AutoFit Columns and Rows while loading HTML in Workbook
-type: docs
-weight: 120
-url: /cpp/autofit-columns-and-rows-while-loading-html-in-workbook/
-description: Learn how to autofit columns and rows while loading HTML into a Workbook using Aspose.Cells for C++.
+---  
+title: AutoFit Columns and Rows while loading HTML in Workbook with C++  
+linktitle: AutoFit Columns and Rows while loading HTML in Workbook  
+type: docs  
+weight: 120  
+url: /cpp/autofit-columns-and-rows-while-loading-html-in-workbook/  
+description: Learn how to autofit columns and rows while loading HTML into a Workbook using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-You can autofit columns and rows while loading your HTML file inside the Workbook object. Please set the [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property to **true** for this purpose.
+You can autofit columns and rows while loading your HTML file inside the Workbook object. Please set the [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property to **true** for this purpose.  
 
-## **AutoFit Columns and Rows while loading HTML in Workbook**
+## **AutoFit Columns and Rows while loading HTML in Workbook**  
 
-The following sample code first loads the sample HTML into Workbook without any load options and saves it in XLSX format. It then again loads the sample HTML into Workbook but this time, it loads the HTML after setting the [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property to **true** and saves it in XLSX format. Please download both the output excel files i.e.[Output Excel File Without AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) and [Output Excel File With AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). The following screenshot shows the effect of [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property on both output excel files.
+The following sample code first loads the sample HTML into a Workbook without any load options and saves it in XLSX format. It then loads the sample HTML into a Workbook again, but this time it loads the HTML after setting the [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property to **true** and saves it in XLSX format. Please download both output Excel files, i.e., [Output Excel File Without AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) and [Output Excel File With AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). The following screenshot shows the effect of [**HtmlLoadOptions.GetAutoFitColsAndRows()**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlloadoptions/getautofitcolsandrows/) property on both output Excel files.  
 
-![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```cpp
 #include <iostream>
@@ -50,11 +50,11 @@ int main()
     // Save the workbook in xlsx format
     wb.Save(outDir + u"outputWithout_AutoFitColsAndRows.xlsx");
 
-    // Specify the HTMLLoadOptions and set AutoFitColsAndRows = true
+    // Specify the HtmlLoadOptions and set AutoFitColsAndRows = true
     HtmlLoadOptions opts;
     opts.SetAutoFitColsAndRows(true);
 
-    // Load memory stream into workbook with the above HTMLLoadOptions
+    // Load memory stream into workbook with the above HtmlLoadOptions
     Workbook wbWithOptions(ms, opts);
 
     // Save the workbook in xlsx format
@@ -64,5 +64,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

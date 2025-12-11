@@ -9,42 +9,38 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Aspose.Cells - Display or Hide Tabs**
 ### **Hiding Tabs**
-To hide tabs using **Aspose.Cells Java for Ruby**, call **displayhidetabs** module.
+To hide tabs using **Aspose.Cells Java for Ruby**, call the **displayhidetabs** module.
 
 **Ruby Code**
 
 {{< highlight ruby >}}
 
- data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
-\# Instantiating a Workbook object by excel file path
-
+# Instantiating a Workbook object by Excel file path
 workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
-\# Hiding the tabs of the Excel file
-
+# Hiding the tabs of the Excel file
 workbook.getSettings().setShowTabs(false)
 
-\# Saving the modified Excel file in default (that is Excel 2003) format
-
+# Saving the modified Excel file in default (that is Excel 2003) format
 workbook.save(data_dir + "output.xls")
 
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **Making Tabs Visible**
-Make tabs visible with the Workbook class' setSheetTabBarHidden(false) method.
+Make tabs visible with the Workbook class's **setShowTabs(true)** method.
 
 **Ruby Code**
 
 {{< highlight ruby >}}
 
- # Displaying the tabs of the Excel file
-
-workbook.getSettings().setSowTabs(true)
+# Displaying the tabs of the Excel file
+workbook.getSettings().setShowTabs(true)
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Hide or Display or Hide Tabs (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Hide or Display Tabs (Aspose.Cells)** from any of the below-mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

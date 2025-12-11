@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-FormulaText is an Excel 2013 and later function. It is not supported by previous versions like Excel 2010 or 2007 etc. As its name suggests, it prints the text of the formula which is present in a given cell. This article will show you how to make use of this function using Aspose.Cells for Node.js via C++.
+FormulaText is an Excel 2013 and later function. It is not supported by previous versions like Excel 2010 or 2007, etc. As its name suggests, it prints the text of the formula which is present in a given cell. This article will show you how to make use of this function using Aspose.Cells for Node.js via C++.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Access first worksheet
 const worksheet = workbook.getWorksheets().get(0);
 
-// Put some formula in cell A1
+// Put a formula in cell A1
 const cellA1 = worksheet.getCells().get("A1");
 cellA1.setFormula("=Sum(B1:B10)");
 
@@ -43,7 +43,7 @@ cellA2.setFormula("=FormulaText(A1)");
 // Calculate the workbook
 workbook.calculateFormula();
 
-// Print the results of A2, It will now print the text of the formula inside cell A1
+// Print the result of A2; it will now print the text of the formula inside cell A1
 console.log(cellA2.getStringValue());
 ```
 ## **Console Output**

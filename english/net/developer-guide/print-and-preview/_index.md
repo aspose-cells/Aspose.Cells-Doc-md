@@ -1,10 +1,10 @@
 ---
-title: Print and Preview workbook
+title: Print and Preview Workbook
 linktitle: Print and Preview
 type: docs
 weight: 70
 url: /net/workbook-and-worksheet-print-preview/
-description: Aspose.Cells supports printing and previewing Excel files without Microsoft Excel intallation.
+description: Aspose.Cells supports printing and previewing Excel files without Microsoft Excel installation.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -17,7 +17,7 @@ After creating a worksheet, you often want to print a hard copy of it. This arti
 
 ## **Print Introduction**
 
-Microsoft Excel assumes that you want to print the entire worksheet area unless you specify a selection. To print using Aspose.Cells, first import the Aspose.Cells.Rendering namespace to the program. It has several useful classes, for example, [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) and [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender).
+Microsoft Excel assumes that you want to print the entire worksheet area unless you specify a selection. To print using Aspose.Cells, first import the Aspose.Cells.Rendering namespace into the program. It has several useful classes, for example, [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) and [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender).
 
 ### **Print Using SheetRender**
 
@@ -41,9 +41,9 @@ Aspose.Cells also provides overloads for the [**WorkbookRender.ToPrinter()**](ht
 
 There may be cases where Excel files with millions of pages need to be converted to PDF or images. Processing such files will consume a lot of time and resources. In such cases, the Workbook and Worksheet Print Preview feature might prove to be useful. Before converting such files, the user can check the total number of pages and then decide whether the file is to be converted or not. This article focuses on using the [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) and [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) classes to find out the total number of pages.
 
-Aspose.Cells provides the print preview feature. For this, the API provides [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) and [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) classes. To create the print preview of the whole workbook, create an instance of the [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class by passing [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) objects to the constructor. The [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class provides an [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview/properties/evaluatedpagecount) method which returns the number of pages in the generated preview. Similar to [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class, the [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class is used to generate a print preview for a specific worksheet. To create the print preview of a worksheet, create an instance of the [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class by passing [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) objects to the constructor. The [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class also provides an [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview/properties/evaluatedpagecount) method which returns the number of pages in the generated preview.
+Aspose.Cells provides the print preview feature. For this, the API provides [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) and [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) classes. To create the print preview of the whole workbook, create an instance of the [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class by passing [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) objects to the constructor. The [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class provides an [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview/properties/evaluatedpagecount) property which returns the number of pages in the generated preview. Similar to [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) class, the [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class is used to generate a print preview for a specific worksheet. To create the print preview of a worksheet, create an instance of the [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class by passing [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) objects to the constructor. The [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) class also provides an [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview/properties/evaluatedpagecount) property which returns the number of pages in the generated preview.
 
-The following code snippet demonstrates the use of both [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) and [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) classes by using the [sample excel file](94896177.xlsx).
+The following code snippet demonstrates the use of both [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) and [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) classes by using the [sample Excel file](94896177.xlsx).
 
 ### **Sample Code**
 
@@ -60,7 +60,7 @@ Worksheet page count: 1
 
 {{< /highlight >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Configuring Fonts for Rendering Spreadsheets](/cells/net/configuring-fonts-for-rendering-spreadsheets/)
 - [Convert Worksheet to Image - Remove whitespace around data](/cells/net/convert-worksheet-to-image-remove-whitespace-around-data/)
 - [Converting Worksheet to Image and Worksheet to Image by Page](/cells/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

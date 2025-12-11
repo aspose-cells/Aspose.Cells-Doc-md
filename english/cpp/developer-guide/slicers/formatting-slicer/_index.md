@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells also allows you to do this using the [**Slicer.GetNumberOfColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/getnumberofcolumns/) and [**Slicer.GetStyleType()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/getstyletype/) properties.
+You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style, etc. Aspose.Cells also allows you to do this using the [**Slicer.GetNumberOfColumns()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/getnumberofcolumns/) and [**Slicer.GetStyleType()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/getstyletype/) properties.
 
 ## **Formatting Slicer**
 
-Please see the following code; it loads the [sample Excel file](67338473.xlsx) that contains a slicer. It accesses the slicer and sets its number of columns and style type and saves it as [output Excel file](67338474.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.
+Please see the following code; it loads the sample Excel file that contains a slicer. It accesses the slicer, sets its number of columns and style type, and saves it as an output Excel file. The screenshot shows how the slicer looks after the execution of the sample code.
 
 ![todo:image_alt_text](formatting-slicer_1.png)
 
@@ -32,7 +32,7 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    // Load sample Excel file containing slicer.
+    // Load the sample Excel file containing a slicer.
     Workbook workbook(u"sampleFormattingSlicer.xlsx");
 
     // Access first worksheet.

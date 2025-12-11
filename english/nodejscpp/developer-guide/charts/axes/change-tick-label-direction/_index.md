@@ -54,7 +54,7 @@ const chart = worksheet.getCharts().get(0);
 chart.getCategoryAxis().getTickLabels().setDirectionType(AsposeCells.ChartTextDirectionType.Horizontal);
 
 // Output the file
-workbook.save(path.join(outputDir, "outputChangeChartDataLableDirection.xlsx"));
+workbook.save(path.join(outputDir, "outputChangeChartDataLabelDirection.xlsx"));
 ```
 
 The source and output files can be downloaded from the following links.

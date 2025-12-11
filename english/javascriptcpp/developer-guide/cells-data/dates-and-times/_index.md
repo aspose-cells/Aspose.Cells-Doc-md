@@ -15,7 +15,7 @@ To display a number as a date and time, apply the required date and time format 
 <br>  
 <image src="1.png" width="70%" />  
 
-## **How to switch two date systems in Aspose.Cells**  
+## **How to switch between two date systems in Aspose.Cells**  
 MS-Excel stores dates as numbers that are called serial values. A serial value is an integer that is the number of elapsed days from the first day in the date system. Excel supports the following date systems for serial values:  
 
 1. The 1900 date system. The first date is January 1, 1900, and its serial value is 1. The last date is December 31, 9999, and its serial value is 2,958,465. This date system is used in the workbook by default.  
@@ -118,8 +118,8 @@ use The 1904 date system====================
 A2 is Numeric Value: 43791  
 ```  
 
-## **How to Set DateTime Value in Aspose.Cells**  
-This example sets a DateTime value in cell A1 and A2, sets custom format of A1 and number format of A2, and then outputs the value types.  
+## **How to Set a DateTime Value in Aspose.Cells**  
+This example sets a DateTime value in cell A1 and A2, sets a custom format for A1 and a number format for A2, and then outputs the value types.  
 
 ```html
 <!DOCTYPE html>
@@ -182,7 +182,7 @@ This example sets a DateTime value in cell A1 and A2, sets custom format of A1 a
             }
 
             let a1Style = a1.style;
-            // Set custom Datetime style
+            // Set custom DateTime style
             a1Style.custom = "mm-dd-yy hh:mm:ss";
             a1.style = a1Style;
 
@@ -238,8 +238,8 @@ A2 is Numeric Value: True
 Cell A2 contains a DateTime value.  
 ```  
 
-## **How to Get DateTime Value in Aspose.Cells**  
-This example sets a DateTime value in cell A1 and A2, sets custom format of A1 and number format of A2, checks the value types of two cells, and then outputs the DateTime value and formatted string.  
+## **How to Get a DateTime Value in Aspose.Cells**  
+This example sets a DateTime value in cell A1 and A2, sets a custom format for A1 and a number format for A2, checks the value types of the two cells, and then outputs the DateTime value and formatted string.  
 
 ```html
 <!DOCTYPE html>
@@ -304,7 +304,7 @@ This example sets a DateTime value in cell A1 and A2, sets custom format of A1 a
             }
 
             let a1Style = a1.style;
-            // Set custom Datetime style
+            // Set custom DateTime style
             a1Style.custom = "mm-dd-yy hh:mm:ss";
             a1.style = a1Style;
 

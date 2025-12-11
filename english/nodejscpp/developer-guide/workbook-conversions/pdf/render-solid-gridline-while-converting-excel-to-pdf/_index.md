@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 For compatibility with older versions, Aspose.Cells renders gridlines as dotted lines by default while converting Excel to PDF. However, modern Excel renders gridlines as solid lines today.
 
-With option [PdfSaveOptions.gridlineTypes](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions) , Aspose.Cells for Node.js via C++ can also render gridlines as solid lines.
+With option [PdfSaveOptions.gridlineTypes](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions), Aspose.Cells for Node.js via C++ can also render gridlines as solid lines.
 
 ```javascript
 const path = require("path");
@@ -30,14 +30,14 @@ const wb = new AsposeCells.Workbook();
 // Prepare data
 wb.getWorksheets().get(0).getCells().get("D9").putValue("gridline");
 
-// Enable to print gridline
+// Enable printing of gridlines
 wb.getWorksheets().get(0).getPageSetup().setPrintGridlines(true);
 
-// Set to render gridline as solid line
+// Set to render gridlines as solid lines
 const pdfSaveOptions = new AsposeCells.PdfSaveOptions();
 pdfSaveOptions.setGridlineType(AsposeCells.GridlineType.Hair);
 
-// Save the pdf file with PdfSaveOptions
+// Save the PDF file with PdfSaveOptions
 wb.save(path.join(dataDir, "test_Cs.pdf"), pdfSaveOptions);
 ```
 

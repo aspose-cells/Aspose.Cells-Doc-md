@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 16.12.0
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for Excel 2016 Charts**
-Aspose.Cells APIs have added the support for a few Excel 2016 charts by enhancing the ChartType enumeration. Following new fields have been added with the release of Aspose.Cells 17.1.0.
+Aspose.Cells APIs have added support for a few Excel 2016 charts by enhancing the ChartType enumeration. The following new fields have been added with the release of Aspose.Cells 17.1.0.
 
 - ChartType.BOX_WHISKER: The series is laid out as box and whisker.
 - ChartType.FUNNEL: The series is laid out as a funnel.
@@ -30,7 +30,7 @@ Check the detailed article on [Reading Excel 2016 Chart Types](/cells/java/read-
 
 {{% /alert %}} 
 ### **Added Setter for LoadFilter.LoadDataFilterOptions Property**
-Aspose.Cells 17.1.0 has added setter for the LoadFilter.LoadDataFilterOptions property to replace the m_LoadDataFilterOptions instance variable. Users may change the LoadDataFilterOptions property in their own implementation of LoadFilter class to change the behavior of loading template files.
+Aspose.Cells 17.1.0 has added a setter for the LoadFilter.LoadDataFilterOptions property to replace the m_LoadDataFilterOptions instance variable. Users may change the LoadDataFilterOptions property in their own implementation of the LoadFilter class to change the behavior of loading template files.
 
 Here is a simple usage scenario.
 
@@ -52,7 +52,7 @@ Check the detailed article on [Custom Template Filtering](/cells/java/filter-obj
 
 			//Load everything and filter charts
 
-			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL& ~LoadDataFilterOptions.CHART);
+			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CHART);
 
 		}
 
@@ -60,7 +60,7 @@ Check the detailed article on [Custom Template Filtering](/cells/java/filter-obj
 
 			//Load everything and filter shapes
 
-			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL& ~LoadDataFilterOptions.SHAPE);
+			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.SHAPE);
 
 		}
 
@@ -68,7 +68,7 @@ Check the detailed article on [Custom Template Filtering](/cells/java/filter-obj
 
 			//Load everything and filter conditional formatting
 
-			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL& ~LoadDataFilterOptions.CONDITIONAL_FORMATTING);
+			this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CONDITIONAL_FORMATTING);
 
 		}
 
@@ -78,9 +78,9 @@ Check the detailed article on [Custom Template Filtering](/cells/java/filter-obj
 
 {{< /highlight >}}
 ### **Added CellsHelper.SignificantDigits Property**
-Aspose.Cells 17.1.0 has exposed the SignificantDigits property from the CellsHelper class which allows to get or set the number of significant digits for numeric values in a spreadsheet. The default value of CellsHelper.SignificantDigits property is 17 whereas it is applicable only if the result has to be stored in XLSX file format.
+Aspose.Cells 17.1.0 has exposed the SignificantDigits property from the CellsHelper class, which allows you to get or set the number of significant digits for numeric values in a spreadsheet. The default value of the CellsHelper.SignificantDigits property is 17, whereas it is applicable only if the result has to be stored in XLSX file format.
 
-Here is a simple scenario to demonstrate the usage of CellsHelper.SignificantDigits property.
+Here is a simple scenario to demonstrate the usage of the CellsHelper.SignificantDigits property.
 
 {{% alert color="primary" %}} 
 
@@ -98,9 +98,9 @@ CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
 ### **Added GlowEffect.Color Property**
-Aspose.Cells 17.1.0 has added GlowEffect.Color property which can be used to retrieve the color of the glow effect.
+Aspose.Cells 17.1.0 has added the GlowEffect.Color property, which can be used to retrieve the color of the glow effect.
 
-The following snippet make use of the GlowEffect.Color property.
+The following snippet makes use of the GlowEffect.Color property.
 
 {{% alert color="primary" %}} 
 
@@ -131,7 +131,7 @@ CellsColor color = glow.getColor();
 
 {{< /highlight >}}
 ### **Added PageSetup.PaperWidth & PaperHeight Properties**
-Aspose.Cells 17.1.0 has exposed PaperWidth & PaperHeight properties for the PageSetup class. The PageSetup.PaperWidth & PageSetup.PaperHeight properties are of type double representing the paper width & height in the unit of inches while considering the page orientation.
+Aspose.Cells 17.1.0 has exposed PaperWidth and PaperHeight properties for the PageSetup class. The PageSetup.PaperWidth and PageSetup.PaperHeight properties are of type double, representing the paper width and height in inches while considering the page orientation.
 
 {{% alert color="primary" %}} 
 
@@ -139,11 +139,11 @@ Check the detailed article on [Retrieving Worksheet's Paper Size](/cells/java/ge
 
 {{% /alert %}} 
 ### **Added WorkbookSettings.CheckCustomNumberFormat Property**
-Aspose.Cells 17.1.0 has added the CheckCustomNumberFormat property to the WorkbookSettings class. The CheckCustomNumberFormat is useful in checking if the Style.Custom property has been set properly or not. In case the Style.Custom property has been set improperly, that is; the value does not correspond to valid pattern then the Aspose.Cells APIs will throw CellsException with appropriate message.
+Aspose.Cells 17.1.0 has added the CheckCustomNumberFormat property to the WorkbookSettings class. The CheckCustomNumberFormat property is useful for checking if the Style.Custom property has been set properly. In case the Style.Custom property has been set improperly—that is, the value does not correspond to a valid pattern—the Aspose.Cells APIs will throw a CellsException with an appropriate message.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Verifying Custom Forma](/cells/java/check-custom-number-format-when-setting-style-custom-property/)
+Check the detailed article on [Verifying Custom Format](/cells/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 

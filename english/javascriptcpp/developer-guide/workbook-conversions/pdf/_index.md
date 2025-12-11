@@ -18,23 +18,23 @@ PDF files are widely used to exchange documents between organizations, governmen
 Aspose.Cells supports converting Excel files to PDF and maintains high visual fidelity in the conversion.
 
 {{% alert color="primary" %}}
-Aspose.Cells for JavaScript via C++ directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for JavaScript via C++ populates **PDF Producer** field with value, e.g 'Aspose.Cells v23.2'.
+Aspose.Cells for JavaScript via C++ directly writes information about the API and version number in output documents. For example, upon rendering a document to PDF, Aspose.Cells for JavaScript via C++ populates the **PDF Producer** field with a value, e.g., 'Aspose.Cells v23.2'.
 
-Please note that you can change this information in output Documents by [**PdfSaveOptions.producer**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#producer--) property.
+Please note that you can change this information in output documents by the [**PdfSaveOptions.producer**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#producer--) property.
 {{% /alert %}}
 
 ### **Direct Conversion**
 
-Aspose.Cells for JavaScript via C++ supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class' [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method. The [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method provides the [**SaveFormat.Pdf**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member that converts the native Excel files to PDF format.
+Aspose.Cells for JavaScript via C++ supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class's [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method. The [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method provides the [**SaveFormat.Pdf**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member that converts the native Excel files to PDF format.
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class by calling its empty constructor.
-1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
-1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class' [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method to save the spreadsheet.
+1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class by calling its empty constructor.  
+2. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.  
+3. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.  
+4. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class's [**save(string, SaveFormat)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveformat-) method to save the spreadsheet.
 
-The file format should be PDF so select *Pdf* (a pre-defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration to generate the final PDF document.
+The file format should be PDF, so select *Pdf* (a pre‑defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration to generate the final PDF document.
 
 ```html
 <!DOCTYPE html>
@@ -95,13 +95,13 @@ The file format should be PDF so select *Pdf* (a pre-defined value) from the [*
 
 ### **Advanced Conversion**
 
-You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. 
+You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. 
 
-The most important property is [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#compliance--) which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+The most important property is [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#compliance--) which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-3b, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
-#### **Saving Workbook to PDF/A Complied Files**
+#### **Saving Workbook to PDF/A Compliant Files**
 
-The below-provided code snippet demonstrates how to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class to save Excel files to PDF/A compliant PDF format.
+The below‑provided code snippet demonstrates how to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class to save Excel files to PDF/A compliant PDF format.
 
 ```html
 <!DOCTYPE html>
@@ -161,12 +161,12 @@ The below-provided code snippet demonstrates how to use the [**PdfSaveOptions**]
 ```
 
 {{% alert color="primary" %}}
-Please note, the [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#compliance--) property was added with the release of Aspose.Cells for JavaScript via C++ 5.3.0.
+Please note, the [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#compliance--) property was added with the release of Aspose.Cells for JavaScript via C++ 5.3.0.
 {{% /alert %}}
 
 #### **Set the PDF Creation Time**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can get or set the PDF creation time. The following code demonstrates the use of [**PdfSaveOptions.createdTime**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#createdTime--) property to set the creation time of the PDF file.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can get or set the PDF creation time. The following code demonstrates the use of [**PdfSaveOptions.createdTime**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#createdTime--) property to set the creation time of the PDF file.
 
 ```html
 <!DOCTYPE html>
@@ -231,7 +231,7 @@ With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/
 
 #### **Set ContentCopyForAccessibility option**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can get or set the PDF [**PdfSecurityOptions.accessibilityExtractContent**](https://reference.aspose.com/cells/javascript-cpp/pdfsecurityoptions/#accessibilityExtractContent--) option to control the content access in the converted PDF.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can get or set the PDF **PdfSecurityOptions.accessibilityExtractContent** option to control the content access in the converted PDF.
 
 ```html
 <!DOCTYPE html>
@@ -306,7 +306,7 @@ With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp
 
 #### **Export Custom properties to PDF**
 
-With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/javascript-cpp/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. The [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/javascript-cpp/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on **File** and then **Properties** as shown in the following image. Template file **sourceWithCustProps.xlsx** can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file **outSourceWithCustProps.pdf** is available [here](outSourceWithCustProps.pdf) for analysis.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -376,9 +376,9 @@ With the [**PdfSaveOptions**](https://reference.aspose.com/cells/javascript-cpp
 
 ### **Conversion Attributes**
 
-We work to enhance the conversion features with each new release. Aspose.Cell's Excel to PDF conversion still has a couple of limitations. MapChart is not supported when converting to PDF format. Also, some drawing objects are not supported well.
+We work to enhance the conversion features with each new release. Aspose.Cells' Excel to PDF conversion still has a couple of limitations. MapChart is not supported when converting to PDF format. Also, some drawing objects are not supported well.
 
-The table that follows lists all features that are fully or partially supported when exporting to PDF using Aspose.Cells. This table is not final and does not cover all the spreadsheet attributes but it does identify those features that are not supported or partially supported for conversion to PDF.
+The table that follows lists all features that are fully or partially supported when exporting to PDF using Aspose.Cells. This table is not final and does not cover all the spreadsheet attributes, but it does identify those features that are not supported or partially supported for conversion to PDF.
 
 |**Document Element**|**Attribute**|**Supported**|**Notes**|
 | :- | :- | :- | :- |
@@ -391,12 +391,12 @@ The table that follows lists all features that are fully or partially supported 
 |Comments| |Yes| |
 |Conditional Formatting| |Yes| |
 |Document Properties| |Yes| |
-|Drawing Objects| |Partially|Shadow and 3-D effects for drawing objects are not supported well; WordArt and SmartArt are partially supported.|
+|Drawing Objects| |Partially|Shadow and 3‑D effects for drawing objects are not supported well; WordArt and SmartArt are partially supported.|
 |Font|Size|Yes| |
 |Font|Color|Yes| |
 |Font|Style|Yes| |
 |Font|Underline|Yes| |
-|Font|Effects|Yes||
+|Font|Effects|Yes| |
 |Images| |Yes| |
 |Hyperlink| |Yes| |
 |Charts| |Partially|MapChart is not supported.|
@@ -413,10 +413,10 @@ The table that follows lists all features that are fully or partially supported 
 |RTL (Right to Left) Language| |Yes| |
 
 {{% alert color="primary" %}}
-If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/javascript-cpp/workbook/#calculateFormula--) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add PDF Bookmarks with Named Destinations](/cells/javascript-cpp/add-pdf-bookmarks-with-named-destinations/)
 - [Avoid Blank Page in Output PDF when there is Nothing to Print](/cells/javascript-cpp/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [Change the Font on just the specific Unicode characters while saving to PDF](/cells/javascript-cpp/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)

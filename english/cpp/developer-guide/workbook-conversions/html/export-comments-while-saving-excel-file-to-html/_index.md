@@ -1,6 +1,6 @@
 --- 
-title: Export Comments while Saving Excel file to HTML with C++ 
-linktitle: Export Comments while Saving Excel file to HTML 
+title: Export Comments while Saving Excel files to HTML with C++ 
+linktitle: Export Comments while Saving Excel files to HTML 
 type: docs 
 weight: 40 
 url: /cpp/export-comments-while-saving-excel-file-to/ 
@@ -13,9 +13,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 When you save your Excel file into HTML, comments are not exported. However, Aspose.Cells provides this feature using the [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/isexportcomments/) property. If you set it to **true**, then HTML will also display comments present in your Excel file.
 
-## **Export Comments while Saving Excel file to HTML**
+## **Export Comments while Saving Excel files to HTML**
 
-The following sample code explains the usage of [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/isexportcomments/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for a reference.
+The following sample code explains the usage of [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/isexportcomments/) property. The screenshot shows the effect of the code on the HTML when it is set to **true**. Please download the [sample Excel file](50528260.xlsx) and the [generated HTML](5052826.txt) for reference.
 
 ![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 

@@ -4,7 +4,7 @@ linktitle: Load Specific Worksheets in a Workbook
 type: docs
 weight: 100
 url: /nodejs-cpp/load-specific-worksheets-in-a-workbook/
-description: Learn how to load specific worksheets in a workbook using Aspose.Cells for Node.js via C++. Improve performance and reduce memory consumption.
+description: Learn how to load specific worksheets in a workbook using Aspose.Cells for Node.js via C++. Improves performance and reduces memory consumption.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -44,15 +44,15 @@ Here is the implementation of the CustomLoad class.
 const AsposeCells = require("aspose.cells.node");
 
 class CustomLoad extends AsposeCells.LoadFilter {
-startSheet(sheet) {
-if (sheet.getName() === "Sheet2") {
-// Load everything from worksheet "Sheet2"
-this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.All);
-} else {
-// Load nothing
-this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.Structure);
-}
-}
+  startSheet(sheet) {
+    if (sheet.getName() === "Sheet2") {
+      // Load everything from worksheet "Sheet2"
+      this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.All);
+    } else {
+      // Load nothing
+      this.setLoadDataFilterOptions(AsposeCells.LoadDataFilterOptions.Structure);
+    }
+  }
 }
 ```
 

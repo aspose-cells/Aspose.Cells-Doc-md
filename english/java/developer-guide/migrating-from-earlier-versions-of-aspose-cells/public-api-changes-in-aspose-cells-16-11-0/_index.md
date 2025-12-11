@@ -9,12 +9,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 16.10.0 to 16.11.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added & removed classes etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 16.10.0 to 16.11.0 that may be of interest to module/application developers. It includes not only new and updated public methods, added and removed classes, etc., but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for Globalization Settings**
-Aspose.Cells 16.11.0 has exposed the GlobalizationSettings class along with WorkbookSettings.GlobalizationSettings property in order to enforce the Aspose.Cells APIs to use custom labels for Subtotals. The GlobalizationSettings class has the following methods which can be overridden in the custom implementation to give desired names to the labels **Total** & **Grand Total**.
+Aspose.Cells 16.11.0 has exposed the GlobalizationSettings class along with WorkbookSettings.GlobalizationSettings property in order to enforce the Aspose.Cells APIs to use custom labels for Subtotals. The GlobalizationSettings class has the following methods which can be overridden in the custom implementation to give desired names to the labels **Total** and **Grand Total**.
 
 - GlobalizationSettings.getTotalName: Gets the total name of the function.
 - GlobalizationSettings.getGrandTotalName: Gets the grand total name of the function.
@@ -82,40 +82,31 @@ Following snippet loads an existing spreadsheet and adds the Subtotal of type Av
 {{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
-
 Workbook book = new Workbook(dir + "sample.xlsx");
 
 //Assigns the GlobalizationSettings property of the WorkbookSettings class
-
 //to the class created in first step
-
 book.getSettings().setGlobalizationSettings(new CustomSettings());
 
 //Accesses the 1st worksheet from the collection which contains data
-
 //Data resides in the cell range A2:B9
-
 Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
-
 sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
-//Calculates Formulas
-
+//Calculates formulas
 book.calculateFormula();
 
-//Auto fits all columns
-
+//Auto-fits all columns
 sheet.autoFitColumns();
 
 //Saves the workbook on disc
-
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-The GlobalizationSettings class also offers the getOtherName method which is useful to get the name of "Other" labels for Pie charts. Here is a simple usage scenario of GlobalizationSettings.getOtherName method.
+The GlobalizationSettings class also offers the getOtherName method, which is useful to get the name of “Other” labels for Pie charts. Here is a simple usage scenario of GlobalizationSettings.getOtherName method.
 
 **Java**
 
@@ -170,29 +161,22 @@ The following snippet loads an existing spreadsheet containing a Pie chart, and 
 {{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
-
 Workbook book = new Workbook(dir + "sample.xlsx");
 
 //Assigns the GlobalizationSettings property of the WorkbookSettings class
-
 //to the class created in first step
-
 book.getSettings().setGlobalizationSettings(new CustomSettings());
 
 //Accesses the 1st worksheet from the collection which contains pie chart
-
 Worksheet sheet = book.getWorksheets().get(0);
 
 //Accesses the 1st chart from the collection
-
 Chart chart = sheet.getCharts().get(0);
 
 //Refreshes the chart
-
 chart.calculate();
 
 //Renders the chart to image
-
 chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
@@ -206,22 +190,20 @@ Here is simple usage scenario of CellsFactory.createStyle method.
 {{< highlight csharp >}}
 
  //Initializes the CellsFactory class
-
 CellsFactory factory = new CellsFactory();
 
 //Creates an instance of Style
-
 Style style = factory.createStyle();
 
 {{< /highlight >}}
 ### **Added Workbook.AbsolutePath Property**
-Aspose.Cells 16.11.0 has exposed the Workbook.AbsolutePath property allows to get or set the absolute workbook path stored in workbook.xml file. This property is useful while updating the external links only.
+Aspose.Cells 16.11.0 has exposed the Workbook.AbsolutePath property which allows to get or set the absolute workbook path stored in workbook.xml file. This property is useful while updating the external links only.
 ### **Added GridHyperlinkCollection.getHyperlink Method**
-Aspose.Cells.GridWeb 16.11.0 has exposed getHyperlink method to the GridHyperlinkCollection class that allows to get the instance of GridHyperlink by either passing an instance GridCell or a pair of integers corresponding to the row column indices.
+Aspose.Cells.GridWeb 16.11.0 has exposed getHyperlink method to the GridHyperlinkCollection class that allows to get the instance of GridHyperlink by either passing an instance GridCell or a pair of integers corresponding to the row and column indices.
 
 {{% alert color="primary" %}} 
 
-In case no hyperlink has been found on the specified cell then the getHyperlink method would return null.
+In case no hyperlink has been found on the specified cell, then the getHyperlink method would return null.
 
 {{% /alert %}} 
 
@@ -232,19 +214,15 @@ Here is simple usage scenario of getHyperlink method.
 {{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
-
 GridWorksheet sheet = gridWeb1.getWorkSheets().get(gridWeb1.getActiveSheetIndex());
 
 //Accesses the GridHyperlinkCollection
-
 GridHyperlinkCollection links = sheet.getHyperlinks();
 
 //Gets hyperlink from cell A1
-
 GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 
 //Gets hyperlink from cell D1
-
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
@@ -252,14 +230,14 @@ link = links.getHyperlink(0, 3);
 ### **Obsoleted Style Constructor**
 Please use cellsFactory.createStyle method as an alternative.
 ## **Deleted APIs**
-### **Deleted Cell.getConditionalStyle Method**
+### **Deleted Cell.getConditionalStyle method**
 Please use Cell.getConditionalFormattingResult method instead.
-### **Deleted Cells.getMaxDataRowInColumn(int column) Method**
+### **Deleted Cells.getMaxDataRowInColumn(int column) method**
 Please use Cells.getLastDataRow(int) method as an alternative.
-### **Deleted PageSetup.Draft Property**
+### **Deleted PageSetup.Draft property**
 It is advised to use the PageSetup.PrintDraft property instead.
-### **Deleted AutoFilter.FilterColumnCollection Property**
+### **Deleted AutoFilter.FilterColumnCollection property**
 Please consider using AutoFilter.FilterColumns property to achieve the same goal.
-### **Deleted TickLabels.Rotation Property**
+### **Deleted TickLabels.Rotation property**
 Please use TickLabels.RotationAngle property instead.
 {{< app/cells/assistant language="java" >}}

@@ -1,5 +1,5 @@
 ---
-title: Create TextBox in which each line is having different Horizontal Alignment with Golang via C++
+title: Create a TextBox in which each line has a different Horizontal Alignment with Golang via C++
 linktitle: Create TextBox with Different Horizontal Alignment
 type: docs
 weight: 310

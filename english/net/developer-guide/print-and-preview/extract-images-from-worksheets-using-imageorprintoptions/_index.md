@@ -15,7 +15,5 @@ Microsoft Excel users can add images to spreadsheets. With Aspose.Cells, it's po
 
 The sample code below shows how to extract images from an Excel file and save them.
 
-
-
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractImagesFromWorksheets-1.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

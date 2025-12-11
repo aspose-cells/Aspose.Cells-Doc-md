@@ -3,22 +3,22 @@ title: Changing the Layout of Pivot Table
 type: docs
 weight: 10
 url: /javascript-cpp/changing-the-layout-of-pivot-table/
-description: How to change the Layout of Pivot Table with Aspose.Cells for JavaScript via C++.
+description: How to change the layout of a Pivot Table with Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, Change the Layout of Pivot Table Using Aspose.Cells for JavaScript via C++ Excel Library.
 ---
 
-## **How to Change the Layout of Pivot Table in MS-Excel**
-Microsoft Excel allows you to change the Layout of Pivot Table using *PivotTable Tools > Design > Report Layout* menu commands. You can change the Layout in these three forms
+## **How to Change the Layout of Pivot Table in MS Excel**
+Microsoft Excel allows you to change the layout of a pivot table using *PivotTable Tools > Design > Report Layout* menu commands. You can change the layout in these three forms:
 
 - Show in Compact Form
 - Show in Outline Form
 - Show in Tabular Form
 
 ## **How to Change the Layout of Pivot Table Using Aspose.Cells for JavaScript via C++**
-Aspose.Cells for JavaScript via C++ library also provides [**PivotTable.showInCompactForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInCompactForm--), [**PivotTable.showInOutlineForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInOutlineForm--) and [**PivotTable.showInTabularForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInTabularForm--) methods to change the layout of pivot table in these three forms.
+Aspose.Cells for JavaScript via C++ library also provides [**PivotTable.showInCompactForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInCompactForm--), [**PivotTable.showInOutlineForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInOutlineForm--) and [**PivotTable.showInTabularForm()**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#showInTabularForm--) methods to change the layout of a pivot table in these three forms.
 
 ## **Sample Code**
-The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form** and lastly it shows Pivot Table in **Tabular Form**.
+The following sample code first shows the pivot table in **Compact Form**, then it shows it in **Outline Form**, and finally in **Tabular Form**.
 
 ```html
 <!DOCTYPE html>

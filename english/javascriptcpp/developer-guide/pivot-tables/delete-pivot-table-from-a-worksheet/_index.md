@@ -1,21 +1,21 @@
----
-title: Delete Pivot Table from a Worksheet
-type: docs
-weight: 60
-url: /javascript-cpp/delete-pivot-table-from-a-worksheet/
-description: Aspose.Cells for JavaScript via C++ code to remove PivotTable for Excel Worksheets
-keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, remove pivot table from worksheet, remove pivot table from excel, how to delete pivot table with Aspose.Cells for JavaScript via C++, delete pivot table, delete pivot table from excel, delete pivot table, Aspose.Cells for JavaScript via C++ remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
----
+---  
+title: Delete Pivot Table from a Worksheet  
+type: docs  
+weight: 60  
+url: /javascript-cpp/delete-pivot-table-from-a-worksheet/  
+description: Aspose.Cells for JavaScript via C++ code to remove PivotTable for Excel Worksheets  
+keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, remove pivot table from worksheet, remove pivot table from excel, how to delete pivot table with Aspose.Cells for JavaScript via C++, delete pivot table, delete pivot table from excel, delete pivot table, Aspose.Cells for JavaScript via C++ remove pivot table, remove pivot table, delete pivot table, how to delete pivot table  
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-Aspose.Cells for JavaScript via C++ provides a feature to delete or remove Pivot Table from a Worksheet. You can delete the pivot table using pivot table object or pivot table position. Please use the [**Worksheet.pivotTables.remove(pivotTable)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#remove-pivottable-) method to delete the pivot table using pivot table object and [**Worksheet.pivotTables.removeAt(index, keepData)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#removeAt-number-boolean-) method to delete pivot table object using its position inside the pivot table collection.
+Aspose.Cells for JavaScript via C++ provides a feature to delete or remove a pivot table from a worksheet. You can delete the pivot table using a pivot‑table object or its position. Please use the [**Worksheet.pivotTables.remove(pivotTable)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#remove-pivottable-) method to delete the pivot table using a pivot‑table object and the [**Worksheet.pivotTables.removeAt(index, keepData)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#removeAt-number-boolean-) method to delete the pivot table using its position inside the pivot‑table collection.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-## **How to Delete Pivot Table from Worksheet Using Aspose.Cells for JavaScript via C++**
+## **How to Delete Pivot Table from Worksheet Using Aspose.Cells for JavaScript via C++**  
 
-The following sample code deletes two pivot tables from the worksheet. First it removes pivot table using [**Worksheet.pivotTables.remove(pivotTable)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#remove-pivottable-) method and then it removes pivot table using [**Worksheet.pivotTables.removeAt(index, keepData)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#removeAt-number-boolean-) method
+The following sample code deletes two pivot tables from the worksheet. First it removes the pivot table using the [**Worksheet.pivotTables.remove(pivotTable)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#remove-pivottable-) method, and then it removes the pivot table using the [**Worksheet.pivotTables.removeAt(index, keepData)**](https://reference.aspose.com/cells/javascript-cpp/pivottablecollection/#removeAt-number-boolean-) method.  
 
 ```html
 <!DOCTYPE html>

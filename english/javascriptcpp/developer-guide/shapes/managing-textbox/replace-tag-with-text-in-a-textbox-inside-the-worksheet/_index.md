@@ -4,14 +4,14 @@ linktitle: Replace tag with text in a textbox inside the Worksheet
 type: docs
 weight: 1100
 url: /javascript-cpp/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
-description: Learn how to replace tags with text in a textbox within a worksheet using Aspose.Cells for JavaScript via C++. 
+description: Learn how to replace tags with text in a textbox within a worksheet using Aspose.Cells for JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**
-Text boxes can have tags which can be replaced with some text at runtime to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
+Text boxes can have tags that can be replaced with text at runtime to configure them as required. Tags are labels enclosed in angle brackets `<` and `>`. Multiple tags may exist within a single textbox.
 
 ## **Sample Code**
-Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and '1'. Sample file for testing the below code can be downloaded from the following link:
+The following sample code replaces tags `TAG_1` and `TAG_2` with the text values `ys` and `1`, respectively. The sample file for testing the code can be downloaded from the link below:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 
@@ -58,7 +58,7 @@ Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and 
             const tag = "TAG_2$TAG_1";
             const replace = "1$ys";
 
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Perform replacements
@@ -125,7 +125,7 @@ Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and 
                 // Replace within sheet cells/contents
                 sheet.replace(finding, sReplace);
 
-                // Replace within page setup headers and footers (indices 0..2)
+                // Replace within page‑setup headers and footers (indices 0..2)
                 for (let j = 0; j < 3; j++) {
                     const headerVal = sheet.pageSetup.header(j);
                     if (headerVal != null) {
@@ -150,16 +150,16 @@ Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and 
 
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
-            // Loading workbook from uploaded file
+            // Loading workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             const sFind = document.getElementById('findText').value;
             const sReplace = document.getElementById('replaceText').value;
 
-            // Perform find and replace across workbook
+            // Perform find and replace across the workbook
             sheetReplace(workbook, sFind, sReplace);
 
-            // Save modified workbook and provide download link
+            // Save the modified workbook and provide a download link
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

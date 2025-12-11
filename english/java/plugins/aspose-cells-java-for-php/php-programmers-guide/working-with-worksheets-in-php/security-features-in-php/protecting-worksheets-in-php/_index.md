@@ -1,5 +1,5 @@
 ---
-title: Protecting Worksheets in Php
+title: Protecting Worksheets in PHP
 type: docs
 weight: 10
 url: /java/protecting-worksheets-in-php/
@@ -8,13 +8,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Protecting Worksheets**
-To protect worksheet using **Aspose.Cells Java for PHP**, call **protect_worksheet** method of **protection** module.
+To protect a worksheet using **Aspose.Cells for Java in PHP**, call the **protect_worksheet** method of the **protection** module.
 
 **PHP Code**
 
 {{< highlight php >}}
 
- //Instantiating a Excel object by excel file path
+ //Instantiating an Excel object by Excel file path
 
 $excel = new Workbook($dataDir . "book1.xls");
 
@@ -40,10 +40,11 @@ $protection->setPassword("1234");
 
 //Saving the modified Excel file in default format
 
-$excel->save($dataDir . "output.xls");  
+$excel->save($dataDir . "output.xls");    
 
 {{< /highlight >}}
+
 ## **Download Running Code**
-Download **Protecting Worksheets (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Protecting Worksheets (Aspose.Cells)** from any of the social coding sites listed below:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

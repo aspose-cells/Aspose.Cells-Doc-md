@@ -8,13 +8,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Display and Hide Tabs of Workbook**
-Aspose.Cells provides a class, Workbook, that represents a Microsoft Excel file. The Workbook class provides a wide range of properties and methods for managing an Excel file. To control the visibility of tabs in an Excel file, developers can use the Workbook class' setShowTabs method.
+Aspose.Cells provides a class, Workbook, that represents a Microsoft Excel file. The Workbook class provides a wide range of properties and methods for managing an Excel file. To control the visibility of tabs in an Excel file, developers can use the Workbook class's **setShowTabs** method.
 
 **Java**
 
 {{< highlight java >}}
 
- //Instantiating a Workbook object by excel file path
+ //Instantiating a Workbook object by Excel file path
 
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -22,7 +22,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 workbook.getSettings().setShowTabs(false);
 
-//Saving the modified Excel file in default (that is Excel 2003) format
+//Saving the modified Excel file in the default (that is, Excel 2003) format
 
 workbook.save(dataDir + "AsposeHideTabs.xls");
 
@@ -32,7 +32,7 @@ workbook.save(dataDir + "AsposeHideTabs.xls");
 
 workbook.getSettings().setShowTabs(true);
 
-//Saving the modified Excel file in default (that is Excel 2003) format
+//Saving the modified Excel file in the default (that is, Excel 2003) format
 
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 

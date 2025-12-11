@@ -7,4 +7,4 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-When installed, Aspose.Cells for Reporting Services is registered as a 32-bit component by default. It cannot correctly load Excel add-ins in Microsoft Excel x64. So you need re-register the Aspose.Cells.ReportingServices.dll as a 64-bit component(s).
+When installed, Aspose.Cells for Reporting Services is registered as a 32-bit component by default. It cannot correctly load Excel add‑ins in Microsoft Excel x64. Therefore, you need to re‑register the Aspose.Cells.ReportingServices.dll as a 64-bit component.

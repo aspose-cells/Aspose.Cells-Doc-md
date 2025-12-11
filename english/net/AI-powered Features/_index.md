@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /net/ai-powered-features/
 keywords: AI,spreadsheet,AI features,AI power,Excel AI,OpenAI,Cells AI.
-description: This article is a Step-by-Step guide to use AI-powered features for processing spreadsheet files.
+description: This article is a step-by-step guide to using AI-powered features for processing spreadsheet files.
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -15,12 +15,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Welcome to Cells AI! This guide will walk you through the basic steps to configure and use the Cells AI library.
 
 ## Table of Contents
-1. [Configure AI Model](#configure-ai-model)
-2. [Create AI Instance](#create-ai-instance)
-3. [Process Files with AI](#process-files-with-ai)
-4. [Using Proxy Settings](#use-proxy-settings-if-you-can-not-access-the-ai-server-directly)
+1. [Configure AI Model](#configure-ai-model)  
+2. [Create AI Instance](#create-ai-instance)  
+3. [Process Files with AI](#process-files-with-ai)  
+4. [Using Proxy Settings](#use-proxy-settings-if-you-cannot-access-the-ai-server-directly)
 
 ---
+
 
 ## Prerequisites
 
@@ -62,9 +63,9 @@ CellsAI cellsAI = new CellsAI(FullAPIRootUrl, true, APIKey);
 
 ## Process Files with AI
 
-Once you have configured the AI model and created an AI instance, you can use the AI's capabilities to process spreadsheets files.
+Once you have configured the AI model and created an AI instance, you can use the AI's capabilities to process spreadsheet files.
 
-### Summarize a Spreadsheet::
+### Summarize a Spreadsheet:
 #### Get summary of the spreadsheet
 ```csharp
 // Get summary of the spreadsheet
@@ -73,16 +74,18 @@ string summary = cellsAI.SpreadsheetSummarize("c:/student.xlsx");
 
 #### You can also output the summary to a TextWriter:
 ```csharp
-// Use TextWriter way, Output summary to a TextWriter (Console)
+// Use the TextWriter approach, output summary to a TextWriter (Console)
 TextWriter writer = Console.Out;
 await cellsAI.SpreadsheetSummarize("c:/student.xlsx", writer);
 ```
+
 ### Ask Questions About a Spreadsheet:
 #### You can ask questions about the content of a spreadsheet:
 ```csharp
 // Ask a question about the spreadsheet
 await cellsAI.SpreadsheetQuestion("c:/student.xlsx", "Who is the best student?", writer);
 ```
+
 ### Build a Spreadsheet Based on User Requests:
 #### Example:
 
@@ -92,16 +95,16 @@ await cellsAI.BuildSpreadsheet("Provide weekly daily three-meal recipes, includi
 ```
 
 You can also forecast sales based on historical data:
-
 ```csharp
-await cellsAI.BuildSpreadsheet("Based on the sales history data from row 3 to row 10, predict the sales situation for the next year. Add it in row 11.", "c:/Sales Report Year.xlsx", "c:/Sales Report Forcast.xlsx");
-
+await cellsAI.BuildSpreadsheet("Based on the sales history data from row 3 to row 10, predict the sales situation for the next year. Add it in row 11.", "c:/Sales Report Year.xlsx", "c:/Sales Report Forecast.xlsx");
 ```
+
 Or, update student scores with a ranking:
 ```csharp
 await cellsAI.BuildSpreadsheet("Add a new column named \"Ranking\" and fill in the content of this column based on the students' total scores ranking", "c:\\student_score.xlsx", "c:\\student_score_with_rank.xlsx");
 ```
-Using AI Model with Localized Requests:
+
+#### Using AI Model with Localized Requests:
 
 You can use Alibaba's Qianwen AI model or other localized AI models. Here's how you can specify a locale:
 ```csharp
@@ -115,7 +118,6 @@ string userRequest = "增加新的一列,列名称是\"排名\" 并根据学生�
 string outfile = "D:\\学生排行.xlsx";
 string inputfile = "D:\\student_score_zh.xlsx";
 await cellsAI.BuildSpreadsheet(userRequest, inputfile, outfile);
-
 ```
 
 ### Getting Excel Formulas:
@@ -124,7 +126,8 @@ await cellsAI.BuildSpreadsheet(userRequest, inputfile, outfile);
 // Get formula from the spreadsheet
 string formula = cellsAI.GetExcelFormula("c:/student.xlsx", "get the total score for Xiaomin");
 ```
-## Use Proxy Settings if You Can not Access the AI Server Directly
+
+## Use Proxy Settings if You Cannot Access the AI Server Directly
 
 If you are working behind a proxy, you can configure proxy settings to allow Cells AI to connect to the server.
 
@@ -133,7 +136,7 @@ If you are working behind a proxy, you can configure proxy settings to allow Cel
 string proxyAddress = "http://127.0.0.1:58591";
 WebProxy proxy = new WebProxy(proxyAddress)
 {
-    BypassProxyOnLocal = false,  
+    BypassProxyOnLocal = false,
     UseDefaultCredentials = false,
 };
 
@@ -141,12 +144,14 @@ WebProxy proxy = new WebProxy(proxyAddress)
 cellsAI.Proxy = proxy;
 ```
 
-##  Additional Features and Customizations
+## Additional Features and Customizations
+
 Cells AI allows various customizations, such as adjusting the AI model, setting locales, and modifying data outputs. Make sure to explore the API and experiment with different configurations for your specific use case.
 
 ## Conclusion
-Cells AI empowers you to process spreadsheets, automate tasks, and leverage AI for your Excel-based applications.  
 
-For further details, refer to the  [api documentation](https://reference.aspose.com/cells/net/aspose.cells.ai/) or the [support forum](https://forum.aspose.com/c/cells/9).
+Cells AI empowers you to process spreadsheets, automate tasks, and leverage AI for your Excel‑based applications.
+
+For further details, refer to the [API documentation](https://reference.aspose.com/cells/net/aspose.cells.ai/) or the [support forum](https://forum.aspose.com/c/cells/9).
 
 Happy coding!

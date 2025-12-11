@@ -17,11 +17,11 @@ To prevent other users from accidentally or deliberately changing, moving, or de
 
 1. Click **Review > Protect Worksheet**.  
 1. Enter a password in **the Password box**.  
-1. Select **allow** options.  
+1. Select **the Allow** options.  
 1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.  
 
 ## **Protect Worksheet Using Aspose.Cells for JavaScript via C++**  
-Only need the following simple lines of code to implement protecting workbook structure of Excel files.  
+You only need the following simple lines of code to protect the workbook structure of Excel files.  
 
 ```html
 <!DOCTYPE html>
@@ -81,7 +81,7 @@ Only need the following simple lines of code to implement protecting workbook st
 ```  
 
 ## **Unprotect Worksheet Using Aspose.Cells for JavaScript via C++**  
-Unprotecting the worksheet is easy with Aspose.Cells API. If the worksheet is password-protected, a correct password is required.  
+Unprotecting the worksheet is easy with the Aspose.Cells API. If the worksheet is password‑protected, the correct password is required.  
 
 ```html
 <!DOCTYPE html>
@@ -146,7 +146,7 @@ Unprotecting the worksheet is easy with Aspose.Cells API. If the worksheet is pa
 </html>
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Advanced Protection Settings since Excel XP](/cells/javascript-cpp/advanced-protection-settings-since-excel-xp/)  
 - [Detect if Worksheet is Password Protected](/cells/javascript-cpp/detect-if-worksheet-is-password-protected/)  
 - [Protecting Worksheets](/cells/javascript-cpp/protecting-worksheets/)  

@@ -9,15 +9,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel allows you to print range of pages of workbook or worksheet. The following screenshot shows the Microsoft Excel interface to specify the range of pages.
+Microsoft Excel allows you to print **a** range of pages of **a** workbook or worksheet. The following screenshot shows the Microsoft Excel interface to specify the range of pages.
 
-Aspose.Cells provides the WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) and SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) methods for this purpose.
+Aspose.Cells provides the `WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` and `SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` methods for this purpose.
 
 {{% /alert %}} 
-## **Microsoft Excel Interface to specify the Range of Pages to Print**
-The following sample code illustrates the use of WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) and SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) methods. It prints the pages 2-5 of the workbook and worksheet.
-
-
+## **Microsoft Excel Interface to Specify the Range of Pages to Print**
+The following sample code illustrates the use of `WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` and `SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` methods. It prints pages 2‑5 of both the workbook and the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingRangeOfPages-PrintingSpecificRangeOfPages.cs" >}}
 {{< app/cells/assistant language="csharp" >}}

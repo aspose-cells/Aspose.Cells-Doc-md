@@ -36,7 +36,7 @@ Console.WriteLine(properties.Version);
 
 
 ### **Added Chart.Worksheet Property**
-Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the instance of the Worksheet from a Chart object it holds. Aspose.Cells 8.2.2 has filled up this gap by providing the Chart.Worksheet property.
+Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the Worksheet instance that a Chart object holds. Aspose.Cells 8.2.2 has filled this gap by providing the Chart.Worksheet property.
 
 {{% alert color="primary" %}} 
 

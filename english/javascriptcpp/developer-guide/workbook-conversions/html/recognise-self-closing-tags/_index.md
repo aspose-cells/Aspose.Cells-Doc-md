@@ -1,18 +1,18 @@
----
-title: Recognise Self Closing Tags with JavaScript via C++
-linktitle: Recognise Self Closing Tags
-type: docs
-weight: 120
-url: /javascript-cpp/recognise-self-closing-tags/
----
+---  
+title: Recognise Self Closing Tags with JavaScript via C++  
+linktitle: Recognise Self Closing Tags  
+type: docs  
+weight: 120  
+url: /javascript-cpp/recognise-self-closing-tags/  
+---  
 
-HTML can have a variety of tag formatting for empty tags like `<td></td>` or `<td/>`. Aspose.Cells for JavaScript via C++ supports both these formats now whereas earlier it was supporting only `<td></td>` like tags. This feature can be tested by converting the attached sample HTML file to an Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.
+HTML can have a variety of tag formatting for empty tags like `<td></td>` or `<td/>`. Aspose.Cells for JavaScript via C++ supports both formats now, whereas earlier it only supported `<td></td>`-like tags. This feature can be tested by converting the attached sample HTML file to an Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.  
 
-[sampleSelfClosingTags.html](sampleSelfClosingTags)
+[sampleSelfClosingTags.html](sampleSelfClosingTags)  
 
-[outsampleSelfClosingTags.xlsx](73990156.xlsx)
+[outsampleSelfClosingTags.xlsx](73990156.xlsx)  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```html
 <!DOCTYPE html>
@@ -53,7 +53,7 @@ HTML can have a variety of tag formatting for empty tags like `<td></td>` or `<t
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Set Html load options and keep precision true
+            // Set HTML load options and keep precision true
             const loadOptions = new HtmlLoadOptions(LoadFormat.Html);
 
             // Instantiating a Workbook object by loading the HTML file stream with load options

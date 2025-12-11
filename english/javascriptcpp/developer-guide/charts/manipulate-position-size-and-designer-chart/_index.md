@@ -98,7 +98,7 @@ The following example explains the usage of the above APIs; it loads the existin
 There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formatting can be preserved with accuracy.
 
 ### **Manipulating Designer Charts in Template Files**
-To manipulate designer charts in template files, use the chart-related API. For example, you may use the Worksheet.charts property to get the existing charts collection in the template file.
+To manipulate designer charts in template files, use the chart‑related API. For example, you may use the `Worksheet.charts` property to get the existing charts collection in the template file.
 
 #### **Creating a Chart**
 The following example shows how to create a pyramid chart. We will manipulate this chart later on.
@@ -177,7 +177,7 @@ The following example shows how to create a pyramid chart. We will manipulate th
 ```
 
 #### **Manipulating the Chart**
-The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the date label of one data point has been set to 'United Kingdom, 30K'.
+The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the **data label** of one data point has been set to “United Kingdom, 30K”.
 
 ```html
 <!DOCTYPE html>
@@ -229,7 +229,7 @@ The following example shows how to manipulate the existing chart. In this exampl
             const dataLabels = chart.nSeries.get(0).points.get(2).dataLabels;
 
             // Change the text of the label.
-            dataLabels.text = "Unided Kingdom, 400K ";
+            dataLabels.text = "United Kingdom, 400K";
 
             // Save the modified Excel file
             const outputData = workbook.save(SaveFormat.Excel97To2003);
@@ -304,16 +304,16 @@ In this example, we will manipulate a line chart. We will add some data series t
             // Plot the fourth data series on the second axis.
             chart.nSeries.get(3).plotOnSecondAxis = true;
 
-            // Change the Border color of the second data series.
+            // Change the border color of the second data series.
             chart.nSeries.get(1).border.color = AsposeCells.Color.Green;
 
-            // Change the Border color of the third data series.
+            // Change the border color of the third data series.
             chart.nSeries.get(2).border.color = AsposeCells.Color.Red;
 
             // Make the second value axis visible.
             chart.secondValueAxis.isVisible = true;
 
-            // Save the excel file and provide download link
+            // Save the Excel file and provide download link
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

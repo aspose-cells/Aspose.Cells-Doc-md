@@ -8,7 +8,7 @@ description: Learn how to set ScaleCrop and LinksUpToDate properties of built-in
 ---
 
 ## **Possible Usage Scenarios**
-[BuiltInDocumentPropertyCollection.scaleCrop](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#scaleCrop--) and [BuiltInDocumentPropertyCollection.linksUpToDate](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#linksUpToDate--) are two extended built-in document properties defined inside the OpenXml format. The purpose of these properties are following.
+[BuiltInDocumentPropertyCollection.scaleCrop](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#scaleCrop--) and [BuiltInDocumentPropertyCollection.linksUpToDate](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#linksUpToDate--) are two extended built-in document properties defined inside the OpenXml format. The purpose of these properties is as follows.
 
 ## **1) ScaleCrop**
 This element indicates the display mode of the document thumbnail. Set this element to **TRUE** to enable scaling of the document thumbnail to the display. Set this element to **FALSE** to enable cropping of the document thumbnail to show only sections that fit the display.
@@ -16,7 +16,7 @@ This element indicates the display mode of the document thumbnail. Set this elem
 The possible values for this element are defined by the W3C XML Schema boolean datatype.
 
 ## **2) LinksUpToDate**
-This element indicates whether hyperlinks in a document are up-to-date. Set this element to **TRUE** to indicate that hyperlinks are updated. Set this element to **FALSE** to indicate that hyperlinks are outdated.
+This element indicates whether hyperlinks in a document are up‑to‑date. Set this element to **TRUE** to indicate that hyperlinks are updated. Set this element to **FALSE** to indicate that hyperlinks are outdated.
 
 The possible values for this element are defined by the W3C XML Schema boolean datatype.
 
@@ -24,7 +24,7 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 ![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
 
 ## **Setting ScaleCrop and LinksUpToDate properties of Built-In Document Properties**
-The following sample code sets the [BuiltInDocumentPropertyCollection.scaleCrop](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#scaleCrop--) and [BuiltInDocumentPropertyCollection.linksUpToDate](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#linksUpToDate--) extended built-in document properties of the workbook. Please check the [output excel file](5115500.xlsx) generated with this code, change its extension to .zip and extract its contents and view the app.xml as shown in the screenshot above.
+The following sample code sets the [BuiltInDocumentPropertyCollection.scaleCrop](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#scaleCrop--) and [BuiltInDocumentPropertyCollection.linksUpToDate](https://reference.aspose.com/cells/javascript-cpp/builtindocumentpropertycollection/#linksUpToDate--) extended built-in document properties of the workbook. Please check the [output excel file](5115500.xlsx) generated with this code, change its extension to .zip, extract its contents, and view the app.xml as shown in the screenshot above.
 
 ```html
 <!DOCTYPE html>

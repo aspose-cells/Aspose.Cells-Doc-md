@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Consolidation function**
 
-Aspose.Cells for Python via .NET can be used to apply ConsolidationFunction to data fields (or value fields) of the pivot table. In Microsoft Excel, you can right-click the value field and then select **Value Field Settings...** option and then select the tab **Summarize Values By**. From there, you can select any ConsolidationFunction of your choice like Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
+Aspose.Cells for Python via .NET can be used to apply ConsolidationFunction to data fields (or value fields) of a pivot table. In Microsoft Excel, you can right‑click the value field and then select the **Value Field Settings...** option and then the **Summarize Values By** tab. From there, you can select any ConsolidationFunction of your choice, such as Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
 
 Aspose.Cells for Python via .NET provides [**ConsolidationFunction**](https://reference.aspose.com/cells/python-net/aspose.cells/consolidationfunction/) enumeration to support the following consolidation functions.
 

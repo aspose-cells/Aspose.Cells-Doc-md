@@ -10,11 +10,11 @@ keywords: javascript search and replace data in excel, javascript search data in
 
 {{% alert color="primary" %}}
 
-Sometimes you need to search for and replace specific data in a range ignoring any cell values outside the desired range. Aspose.Cells for JavaScript via C++ allows you to limit a search to a specific range. This article explains how.
+Sometimes you need to search for and replace specific data in a range, ignoring any cell values outside the desired range. Aspose.Cells for JavaScript via C++ allows you to limit a search to a specific range. This article explains how.
 
 {{% /alert %}}
 
-Aspose.Cells for JavaScript via C++ provides the [**FindOptions.range(CellArea)**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#range-cellarea-) method for specifying a range when searching for data. Below code sample searches and replaces data in a range.
+Aspose.Cells for JavaScript via C++ provides the [**FindOptions.range(CellArea)**](https://reference.aspose.com/cells/javascript-cpp/findoptions/#range-cellarea-) method for specifying a range when searching for data. The code sample below searches and replaces data in a range.
 
 ```html
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ Aspose.Cells for JavaScript via C++ provides the [**FindOptions.range(CellArea)*
                 if (cell === null || cell.isNull()) {
                     break;
                 }
-                // Replace found cell's value
+                // Replace the found cell's value
                 cell.value = "replace";
             } while (true);
 
@@ -90,7 +90,7 @@ Aspose.Cells for JavaScript via C++ provides the [**FindOptions.range(CellArea)*
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download Modified Excel File';
 
-            document.getElementById('result').innerHTML = '<p style="color: green;">Find and replace completed successfully! Click the download link to get the modified file.</p>';
+            document.getElementById('result').innerHTML = '<p style="color: green;">Find and replace completed successfully. Click the download link to get the modified file.</p>';
         });
     </script>
 </html>

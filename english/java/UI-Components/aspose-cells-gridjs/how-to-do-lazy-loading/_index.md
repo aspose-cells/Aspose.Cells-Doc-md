@@ -23,7 +23,7 @@ Furthermore, GridJs is designed to dynamically respond to user interactions. Spe
 
 This on‑demand loading mechanism not only further reduces unnecessary data transfers but also ensures that the user always has access to the most up‑to‑date information for the worksheet they are currently working on.
 
-By adopting this approach, we not only optimise the initial load time but also maintain a responsive and efficient application that scales well with the increasing number of worksheets in the spreadsheet file.
+By adopting this approach, we not only **optimize** the initial load time but also maintain a responsive and efficient application that scales well with the increasing number of worksheets in the spreadsheet file.
 
 ## Implementation Steps  
 
@@ -74,8 +74,6 @@ After the user clicks on a worksheet that is not the active one, the data‑quer
 
 ### Step 3: Implement Lazy‑Loading Action in a Spring MVC Controller  
 
- 
-
 ```java
 package com.myapp.gridjs;
 
@@ -111,22 +109,18 @@ public class GridJsLazyLoadingController {
 }
 ```
 
-or If your Controller extends from **[`GridJsControllerBase`](https://reference.aspose.com/cells/java/com.aspose.gridjs/gridjscontrollerbase/)**.
+or if your controller extends **[`GridJsControllerBase`](https://reference.aspose.com/cells/java/com.aspose.gridjs/gridjscontrollerbase/)**.
 
 ```java
-
 @PostMapping("/LazyLoadingStreamJson")
-    public void lazyLoadingStreamJson(
-            @RequestParam(value = "name", required = false) String sheetName,
-            @RequestParam(value = "uid", required = false) String uid,
-            HttpServletResponse response) throws IOException {
+public void lazyLoadingStreamJson(
+        @RequestParam(value = "name", required = false) String sheetName,
+        @RequestParam(value = "uid", required = false) String uid,
+        HttpServletResponse response) throws IOException {
 
-
-         super.lazyLoadingStreamJson(sheetName,uid,response);
-
-    }
+    super.lazyLoadingStreamJson(sheetName, uid, response);
+}
 ```
-
 
 ## Demo and Examples  
 
@@ -138,4 +132,4 @@ For a complete, runnable example, refer to the official Java demo repository:
 ## Additional Resources  
 
 * **GridJs Server API Documentation** – <https://reference.aspose.com/cells/java/com.aspose.gridjs>  
-* **GridJs Client API Documentation** – <https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api>  
+* **GridJs Client API Documentation** – <https://docs.aspose.com/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api>

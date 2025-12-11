@@ -8,11 +8,11 @@ description: Convert Excel files to Word, Excel, PowerPoint, PDF, CSV, JPG, HTML
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells supports conversion between many formats. Technically, conversion means to load a workbook in one file format and save it into another.
+Aspose.Cells supports conversion between many formats. Technically, conversion means loading a workbook in one file format and saving it into another.
 {{% /alert %}}
 
 ## **Convert Excel Workbook to PDF**
-PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.
+PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format, and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.
 
 Aspose.Cells supports converting Excel files to PDF and maintains high visual fidelity in the conversion.
 
@@ -218,11 +218,11 @@ Aspose.Cells supports converting Excel files to images. The code example below s
 ## **Converting Excel Workbook to XPS**
 The XPS document format consists of structured XML markup that defines the layout of a document and the visual appearance of each page, along with rendering rules for distributing, archiving, rendering, processing, and printing documents.
 
-The markup language for XPS is a subset of XAML which allows it to incorporate vector graphics elements in documents, using XAML to mark up the Windows Presentation Foundation (WPF) primitives. The elements used are described in terms of paths and other geometrical primitives.
+The markup language for XPS is a subset of XAML, which allows it to incorporate vector‑graphics elements in documents, using XAML to mark up the Windows Presentation Foundation (WPF) primitives. The elements used are described in terms of paths and other geometrical primitives.
 
-An XPS file is, in fact, a unicode ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application that supports ZIP files.
+An XPS file is, in fact, a **Unicode** ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2‑D vector graphics, as well as digital‑rights‑management information. The contents of an XPS file can be examined simply by opening it in an application that supports ZIP files.
 
-From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
+From Aspose.Cells version 6.0.0, Microsoft Excel to XPS conversion is supported.
 
 ```html
 <!DOCTYPE html>
@@ -302,8 +302,8 @@ From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
 </html>
 ```
 
-## **Convert Excel to Ods, Sxc and Fods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The code example below shows how to convert the [template](book1.xlsx) to Ods, Sxc and Fods file.
+## **Convert Excel to ODS, SXC and FODS (OpenOffice / LibreOffice Calc)**
+Aspose.Cells supports converting Excel files to ODS, SXC and FODS files. The code example below shows how to convert the [template](book1.xlsx) to ODS, SXC and FODS files.
 
 ```html
 <!DOCTYPE html>
@@ -352,7 +352,7 @@ Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The cod
             // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Save as ods file
+            // Save as ODS file
             const outputOds = workbook.save(SaveFormat.Ods);
             const blobOds = new Blob([outputOds]);
             const downloadLinkOds = document.getElementById('downloadLinkOds');
@@ -361,7 +361,7 @@ Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The cod
             downloadLinkOds.style.display = 'inline-block';
             downloadLinkOds.textContent = 'Download ODS File';
 
-            // Save as sxc file
+            // Save as SXC file
             const outputSxc = workbook.save(SaveFormat.Sxc);
             const blobSxc = new Blob([outputSxc]);
             const downloadLinkSxc = document.getElementById('downloadLinkSxc');
@@ -370,7 +370,7 @@ Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The cod
             downloadLinkSxc.style.display = 'inline-block';
             downloadLinkSxc.textContent = 'Download SXC File';
 
-            // Save as fods file
+            // Save as FODS file
             const outputFods = workbook.save(SaveFormat.Fods);
             const blobFods = new Blob([outputFods]);
             const downloadLinkFods = document.getElementById('downloadLinkFods');
@@ -386,7 +386,7 @@ Aspose.Cells supports converting Excel files to Ods, Sxc and Fods files. The cod
 ```
 
 ## **Converting Excel Workbook to MHTML Files**
-MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. They are used for emails with the .mht file extension.
+MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. It is used for emails with the *.mht* file extension.
 
 Aspose.Cells supports reading and writing MHTML files.
 
@@ -462,7 +462,7 @@ The code example below shows how to save a workbook as an MHTML file.
 ```
 
 ## **Converting Excel Workbook to HTML**
-The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the [**HtmlSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions) class to provide the flexibility to control several aspects of the output HTML.
+The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the **HtmlSaveOptions** class to provide flexibility in controlling several aspects of the output HTML.
 
 The code example below shows how to save a workbook as an HTML file.
 
@@ -506,7 +506,7 @@ The code example below shows how to save a workbook as an HTML file.
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Load your sample excel file in a workbook object
+            // Load your sample Excel file in a workbook object
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Save it in HTML format
@@ -526,21 +526,21 @@ The code example below shows how to save a workbook as an HTML file.
 ```
 
 ## **Setting the Image Preferences for HTML**
-Starting from 8.0.2, Aspose.Cells has exposed [**imageOptions**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#imageOptions--) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions) class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
+Starting from 8.0.2, Aspose.Cells has exposed **imageOptions** for the **HtmlSaveOptions** class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
 
-Below are details of some of the image settings that can be applied,
+Below are details of some of the image settings that can be applied:
 
-- [**ImageType**](https://reference.aspose.com/cells/javascript-cpp/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- [**quality**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#quality--): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/javascript-cpp/imagetype/) is specified as Jpeg.
-- [**verticalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#verticalResolution--): Gets or sets the vertical resolution of the image in dots per inch.
-- [**horizontalResolution**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#horizontalResolution--): Gets or sets the horizontal resolution of the image in dots per inch.
-- [**TiffCompression**](https://reference.aspose.com/cells/javascript-cpp/tiffcompression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/javascript-cpp/imagetype/) is specified as Tiff.
-- [**transparent**](https://reference.aspose.com/cells/javascript-cpp/imageorprintoptions/#transparent--): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- **ImageType**: Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.  
+- **quality**: Specifies the quality of the image between 0 and 100, when **ImageType** is specified as JPEG.  
+- **verticalResolution**: Gets or sets the vertical resolution of the image in dots per inch.  
+- **horizontalResolution**: Gets or sets the horizontal resolution of the image in dots per inch.  
+- **TiffCompression**: Gets or sets the compression type for the images when **ImageType** is specified as TIFF.  
+- **transparent**: Indicates if the background of an image should be transparent when the image format is PNG.
 
 ## **Convert Excel Workbook to Markdown**
-The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass [**SaveFormat.Markdown**](https://reference.aspose.com/cells/javascript-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveoptions-) method. You may also use [**MarkdownSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/markdownsaveoptions) class to specify additional settings for exporting worksheet to Markdown.
+The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass **SaveFormat.Markdown** as the second parameter of **Workbook.save(string, SaveOptions)**. You may also use **MarkdownSaveOptions** to specify additional settings for exporting the worksheet to Markdown.
 
-The following code example demonstrates exporting active worksheet to Markdown by using [**SaveFormat.Markdown**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
+The following code example demonstrates exporting the active worksheet to Markdown. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
 
 ```html
 <!DOCTYPE html>
@@ -600,9 +600,9 @@ The following code example demonstrates exporting active worksheet to Markdown b
 ```
 
 ## **Convert Excel Workbook to JSON**
-Aspose.Cells supports converting a workbook to Json (JavaScript Object Notation) file.
+Aspose.Cells supports converting a workbook to JSON (JavaScript Object Notation) file.
 
-The following code example demonstrates exporting active worksheet to Json by using [**SaveFormat.Json**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member. Please see the code to convert [source file](Book1.xlsx) to the [output Json file](Book1.Json) generated by the code for reference.
+The following code example demonstrates exporting the active worksheet to JSON by using **SaveFormat.Json**. Please see the code to convert the [source file](Book1.xlsx) to the [output JSON file](Book1.json) generated by the code for reference.
 
 ```html
 <!DOCTYPE html>
@@ -736,7 +736,7 @@ Aspose.Cells supports converting a workbook to Excel 2003 Spreadsheet XML and pl
 ```
 
 ## **Convert Excel Workbook to TIFF**
-Aspose.Cells supports converting a workbook to TIFF file.
+Aspose.Cells supports converting a workbook to a TIFF file.
 
 The code snippet below shows how to convert Excel to TIFF:
 
@@ -799,9 +799,9 @@ The code snippet below shows how to convert Excel to TIFF:
 ```
 
 ## **Convert Excel Workbook to DOCX**
-The Aspose.Cells API provides support for converting spreadsheets to DOCX format. To export the workbook to DOCX, pass [**SaveFormat.Docx**](https://reference.aspose.com/cells/javascript-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveoptions-) method. You may also use [**DocxSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/docxsaveoptions) class to specify additional settings for exporting worksheet to DOCX.
+The Aspose.Cells API provides support for converting spreadsheets to DOCX format. To export the workbook to DOCX, pass **SaveFormat.Docx** as the second parameter of **Workbook.save(string, SaveOptions)**. You may also use **DocxSaveOptions** to specify additional settings for exporting the worksheet to DOCX.
 
-The following code example demonstrates exporting active worksheet to DOCX by using [**SaveFormat.Docx**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member. Please see the [output DOCX file](Book1.docx) generated by the code for reference.
+The following code example demonstrates exporting the active worksheet to DOCX.
 
 ```html
 <!DOCTYPE html>
@@ -845,14 +845,14 @@ The following code example demonstrates exporting active worksheet to DOCX by us
             // Instantiate Workbook from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Save as DOCX (Markdown/Docx conversion per original code)
+            // Save as DOCX
             const outputData = workbook.save(SaveFormat.Docx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
             downloadLink.download = 'Book1.docx';
             downloadLink.style.display = 'block';
-            downloadLink.textContent = 'Download Docx File';
+            downloadLink.textContent = 'Download DOCX File';
 
             document.getElementById('result').innerHTML = '<p style="color: green;">File converted successfully! Click the download link to get the DOCX file.</p>';
         });
@@ -861,9 +861,9 @@ The following code example demonstrates exporting active worksheet to DOCX by us
 ```
 
 ## **Convert Excel Workbook to PPTX**
-The Aspose.Cells API provides support for converting spreadsheets to PPTX format. To export the workbook to PPTX, pass [**SaveFormat.Pptx**](https://reference.aspose.com/cells/javascript-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveoptions-) method. You may also use [**PptxSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/pptxsaveoptions) class to specify additional settings for exporting worksheet to PPTX.
+The Aspose.Cells API provides support for converting spreadsheets to PPTX format. To export the workbook to PPTX, pass **SaveFormat.Pptx** as the second parameter of **Workbook.save(string, SaveOptions)**. You may also use **PptxSaveOptions** to specify additional settings for exporting the worksheet to PPTX.
 
-The following code example demonstrates exporting active worksheet to PPTX by using [**SaveFormat.Pptx**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member. Please see the [output PPTX file](Book1.pptx) generated by the code for reference.
+The following code example demonstrates exporting the active worksheet to PPTX.
 
 ```html
 <!DOCTYPE html>
@@ -924,9 +924,9 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 ```
 
 ## **Convert Excel Workbook to EPUB**
-The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass [**SaveFormat.Epub**](https://reference.aspose.com/cells/javascript-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/ebooksaveoptions) class to specify additional settings for exporting worksheet to Epub.
+The Aspose.Cells API provides support for converting spreadsheets to EPUB format. To export the workbook to EPUB, pass **SaveFormat.Epub** as the second parameter of **Workbook.save(string, SaveOptions)**. You may also use **EBookSaveOptions** to specify additional settings for exporting the worksheet to EPUB.
 
-The following code example demonstrates exporting active worksheet to EPUB by using [**SaveFormat.Epub**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member.
+The following code example demonstrates exporting the active worksheet to EPUB.
 
 ```html
 <!DOCTYPE html>
@@ -969,7 +969,7 @@ The following code example demonstrates exporting active worksheet to EPUB by us
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Load your sample excel file in a workbook object
+            // Load your sample Excel file in a workbook object
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Save it in EPUB format
@@ -989,9 +989,9 @@ The following code example demonstrates exporting active worksheet to EPUB by us
 ```
 
 ## **Convert Excel Workbook to AZW3**
-The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass [**SaveFormat.Azw3**](https://reference.aspose.com/cells/javascript-cpp/saveformat) as the second parameter of [**Workbook.save(string, SaveOptions)**](https://reference.aspose.com/cells/javascript-cpp/workbook/#save-string-saveoptions-) method. You may also use [**EBookSaveOptions**](https://reference.aspose.com/cells/javascript-cpp/ebooksaveoptions) class to specify additional settings for exporting worksheet to AZW3.
+The Aspose.Cells API provides support for converting spreadsheets to AZW3 format. To export the workbook to AZW3, pass **SaveFormat.Azw3** as the second parameter of **Workbook.save(string, SaveOptions)**. You may also use **EBookSaveOptions** to specify additional settings for exporting the worksheet to AZW3.
 
-The following code example demonstrates exporting active worksheet to AZW3 by using [**SaveFormat.Azw3**](https://reference.aspose.com/cells/javascript-cpp/saveformat) enumeration member.
+The following code example demonstrates exporting the active worksheet to AZW3.
 
 ```html
 <!DOCTYPE html>
@@ -1000,7 +1000,7 @@ The following code example demonstrates exporting active worksheet to AZW3 by us
         <title>Aspose.Cells Convert to AZW3 Example</title>
     </head>
     <body>
-        <h1>Convert Excel to AZW3 (EPUB) Example</h1>
+        <h1>Convert Excel to AZW3 Example</h1>
         <input type="file" id="fileInput" accept=".xls,.xlsx" />
         <button id="runExample">Convert to AZW3</button>
         <a id="downloadLink" style="display: none;">Download Result</a>
@@ -1032,7 +1032,7 @@ The following code example demonstrates exporting active worksheet to AZW3 by us
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Load your sample excel file in a workbook object
+            // Load your sample Excel file in a workbook object
             const wb = new Workbook(new Uint8Array(arrayBuffer));
 
             // Save it in AZW3 format
@@ -1041,7 +1041,7 @@ The following code example demonstrates exporting active worksheet to AZW3 by us
 
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = 'ConvertingToEPUBFiles_out.azw3';
+            downloadLink.download = 'ConvertingToAZW3_out.azw3';
             downloadLink.style.display = 'block';
             downloadLink.textContent = 'Download AZW3 File';
 
@@ -1051,13 +1051,13 @@ The following code example demonstrates exporting active worksheet to AZW3 by us
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Convert Revision of XLSB to XLSM](/cells/javascript-cpp/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/javascript-cpp/convert-excel-to-html/)
 - [Image](/cells/javascript-cpp/convert-excel-to-image/)
-- [Json](/cells/javascript-cpp/convert-workbook-to-json/)
-- [Convert Excel workbook to Ods, Sxc and Fods (OpenOffice / LibreOffice calc).](/cells/javascript-cpp/convert-excel-to-ods/)
-- [Pdf](/cells/javascript-cpp/convert-excel-workbook-to-pdf/)
-- [Convert Excel to CSV, TSV and Txt](/cells/javascript-cpp/convert-excel-to-csv-tsv-and-txt/)
+- [JSON](/cells/javascript-cpp/convert-workbook-to-json/)
+- [Convert Excel workbook to ODS, SXC and FODS (OpenOffice / LibreOffice Calc)](/cells/javascript-cpp/convert-excel-to-ods/)
+- [PDF](/cells/javascript-cpp/convert-excel-workbook-to-pdf/)
+- [Convert Excel to CSV, TSV and TXT](/cells/javascript-cpp/convert-excel-to-csv-tsv-and-txt/)
 - [Track Document Conversion Progress](/cells/javascript-cpp/track-document-conversion-progress/)
 - [Convert CSV, TSV and TXT to Excel](/cells/javascript-cpp/convert-csv-tsv-and-txt-to-excel/)

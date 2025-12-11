@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Normal Unicode characters are 2-bytes long while Unicode Supplementary characters are 4-bytes long. Aspose.Cells now supports rendering of these 4-bytes Unicode characters.
+Normal Unicode characters are 2 bytes long, while Unicode Supplementary characters are 4 bytes long. Aspose.Cells now supports rendering these 4‑byte Unicode characters.
 
 In the Unicode Character Standard, Supplementary Characters are the characters assigned code points from U+10000 to U+10FFFF. In other words, these are the Unicode characters greater than U+FFFF.
 
@@ -20,7 +20,7 @@ In the Unicode Character Standard, Supplementary Characters are the characters a
 
 ## Render Unicode Supplementary characters in output PDF by Aspose.Cells
 
-The following screenshot shows how Aspose.Cells rendered the [source excel file](5115563.xlsx) into the [output PDF](5115564.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly same as done by Microsoft Excel.
+The following screenshot shows how Aspose.Cells rendered the [source excel file](5115563.xlsx) into the [output PDF](5115564.pdf). As you can see, all three Unicode Supplementary characters have been rendered exactly the same as in Microsoft Excel.
 
 ![todo:image_alt_text](output.png)
 

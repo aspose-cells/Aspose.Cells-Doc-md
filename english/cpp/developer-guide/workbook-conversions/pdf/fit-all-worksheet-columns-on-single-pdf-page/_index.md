@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes you want to generate a PDF file that fits all a worksheet's columns onto one page. The [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF are handled internally and are based on the data in the worksheet.
+Sometimes you want to generate a PDF file that fits all of a worksheet's columns onto one page. The [**PdfSaveOptions.PaginatedSaveOptions(PaginatedSaveOptions_Impl* impl)**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/~paginatedsaveoptions/) property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF are handled internally and are based on the data in the worksheet.
 
 {{% /alert %}}
 
@@ -34,11 +34,11 @@ int main()
 
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
-    
+
     // Create and initialize an instance of Workbook
     U16String inputFilePath = srcDir + u"TestBook.xlsx";
     Workbook book(inputFilePath);
-    
+
     // Create and initialize an instance of PdfSaveOptions
     PdfSaveOptions saveOptions;
 
@@ -58,11 +58,11 @@ int main()
 
 {{% alert color="primary" %}}
 
-When a given worksheet has many columns, the rendered PDF file may show the content in a very small size. It is still readable when scaled up in a viewing application such as Acrobat Reader.
+When a given worksheet has many columns, the rendered PDF file may show the content at a very small size. It is still readable when scaled up in a viewing application such as Acrobat Reader.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="cpp" >}}

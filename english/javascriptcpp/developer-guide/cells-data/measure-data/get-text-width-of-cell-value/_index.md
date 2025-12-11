@@ -3,15 +3,15 @@ title: Get Text Width of Cell Value
 type: docs
 weight: 50
 url: /javascript-cpp/get-text-width-of-cell-value/
-description: Learn how to Get Text Width of Cell Value through Aspose.Cells for JavaScript via C++ API.
+description: Learn how to get the text width of a cell value through Aspose.Cells for JavaScript via C++ API.
 keywords: Get Text Width of Cell Value JavaScript via C++, Obtain Text Width of Cell Value JavaScript via C++
 ---
 
 ## **Get Text Width of Cell Value**
 
-Sometimes, developers might need to calculate the width of the cell's value for arranging data in some layout. Aspose.Cells for JavaScript via C++ provides the [**CellsHelper.textWidth(string, Font, number)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#textWidth-string-font-number-) method, which allows developers to get the text width of the cell's value. The following sample code illustrates how to use [**CellsHelper.textWidth(string, Font, number)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#textWidth-string-font-number-) to access the text width of the cell's value.
+Sometimes, developers might need to calculate the width of a cell's value for arranging data in a layout. Aspose.Cells for JavaScript via C++ provides the [**CellsHelper.textWidth(string, Font, number)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#textWidth-string-font-number-) method, which allows developers to obtain the text width of the cell's value. The following sample code illustrates how to use [**CellsHelper.textWidth(string, Font, number)**](https://reference.aspose.com/cells/javascript-cpp/cellshelper/#textWidth-string-font-number-) to access the text width of the cell's value.
 
-The Source file used in the following code snippet is attached for your reference.
+The source file used in the following code snippet is attached for your reference.
 
 [Source File](96928090.xlsx)
 
@@ -57,7 +57,7 @@ The Source file used in the following code snippet is attached for your referenc
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
             
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
             
             // Accessing the first worksheet and A1 cell

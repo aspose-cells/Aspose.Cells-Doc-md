@@ -27,11 +27,11 @@ Simply call the [**add**](https://reference.aspose.com/cells/python-net/aspose.c
 There are two possible ways to control the positioning of pictures using Aspose.Cells for Python via .NET:
 
 - Proportional positioning: define a position proportional to the row height and width.
-- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20pixels below the edge of the cell.
+- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20 pixels below the edge of the cell.
 
 ### **Proportional Positioning**
 
-Developers can position the pictures proportional to row height and column width using the [**upper_delta_x**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/upper_delta_x) and [**upper_delta_y**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/upper_delta_y) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picture) object can be obtained from the [**pictures**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
+Developers can position the pictures proportionally to row height and column width using the [**upper_delta_x**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/upper_delta_x) and [**upper_delta_y**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/shape/upper_delta_y) properties of the [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picture) object. A [**Picture**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picture) object can be obtained from the [**pictures**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.py" >}}
 
@@ -49,7 +49,7 @@ Add a picture to the worksheet by calling the [**add_picture**](https://referenc
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Shapes-DrawingObjects-Pictures-PictureCellReference-1.py" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Conditional Icons Set with the Cell Text](/cells/python-net/add-conditional-icons-set-with-the-cell-text/)
 - [Insert a Linked Picture from Web Address](/cells/python-net/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture Based on Cell Reference](/cells/python-net/insert-a-picture-based-on-cell-reference/)

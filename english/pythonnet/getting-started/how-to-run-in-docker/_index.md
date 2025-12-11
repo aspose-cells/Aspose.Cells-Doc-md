@@ -1,5 +1,5 @@
 ---
-title: How to Run Aspose.Cells for python via .NET in Docker
+title: How to Run Aspose.Cells for Python via .NET in Docker
 type: docs
 description: "Run Aspose.Cells in a Docker container for Linux"
 weight: 140
@@ -14,12 +14,12 @@ More and more users are using our company's various products in Docker, and they
 
 ## Example:
 
-We illustrate the usage with a simple example. In this case, the functionality is very straightforward, just opening an Excel file containing Japanese text in aspose_test.py. Here, we use python:3.11 as the base image, and the corresponding Dockerfile is as follows:
+We illustrate the usage with a simple example. In this case, the functionality is straightforward: just opening an Excel file containing Japanese text in `aspose_test.py`. Here, we use `python:3.11` as the base image, and the corresponding Dockerfile is as follows:
 
 {{< highlight plain >}}
 FROM python:3.11 AS base
 
-# For drawing,e.g. convert to PDF
+# For drawing, e.g., convert to PDF
 RUN apt-get update && apt-get install -y libgdiplus
 
 # Install ICU version supported by .NET Core 3.1
@@ -31,6 +31,7 @@ CMD ["python", "aspose_test.py"]
 {{< /highlight >}}
 
 Then, when we run the following command, we obtain the final result:
+
 - Build Docker Image
 
 {{< highlight plain >}}
@@ -45,8 +46,7 @@ docker run python_test
 
 ## Note:
 
-To support opening Excel files containing various languages, we need to install ICU. Considering that the Python via .NET wrapper is based on .NET Core 3.1, and .NET Core 3.1 has specific version requirements for ICU, which should not exceed version 70, we need to install a specific version of ICU.
-
+To support opening Excel files containing various languages, we need to install ICU. Considering that the Python via .NET wrapper is based on .NET Core 3.1, and .NET Core 3.1 has specific version requirements for ICU (which should not exceed version 70), we need to install a specific version of ICU.
 
 ## See Also
 

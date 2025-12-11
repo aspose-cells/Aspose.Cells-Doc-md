@@ -57,20 +57,20 @@ Select the physical paper size for the output. The available options correspond 
 ### **3. Scale**
 Scaling is critical for fitting spreadsheet data onto physical pages.
 *   **No Scaling:** (Default) Prints the data at 100% size. Data that doesn't fit will spill over to subsequent pages.
-*   **Fit Sheet on One Page:** Shrinks the entire worksheet (width and height) to fit on a single sheet of paper. *Note: For very large datasets, this may make the text unreadably small.*
+*   **Fit Sheet on One Page:** Shrinks the entire worksheet (width and height) to fit on a single sheet of paper. *Note: For very large datasets, this may make the text unreadably small.* 
 *   **Fit All Columns on One Page:** Scales the width of the data to fit the page width. Rows will spill over to subsequent pages as needed. This is the most common setting for wide tables.
 *   **Fit All Rows on One Page:** Scales the height of the data to fit the page height. Columns will spill over to horizontal pages.
 
 ### **4. Page Order**
 When a worksheet is too large to fit on a single page (and scaling is not set to fit on one page), it is split into multiple pages. The **Order** setting determines the sequence in which these pages are printed.
 
-*   **Down, then over:** (Default) Prints pages from top to bottom first, then moves to the right to print the remaining columns. (N-pattern).
-*   **Over, then down:** Prints pages from left to right first, then moves down to print the remaining rows. (Z-pattern).
+*   **Down, then over:** (Default) Prints pages from top to bottom first, then moves to the right to print the remaining columns. (N‑pattern).
+*   **Over, then down:** Prints pages from left to right first, then moves down to print the remaining rows. (Z‑pattern).
 
 ### **5. Images/Shapes**
 Controls the visibility of floating objects like charts, inserted images, and shapes during printing.
 *   **Show:** (Default) All images and shapes are included in the print output.
-*   **Hide:** Images and shapes are excluded, printing only the cell data and grid styles. This is useful for saving ink or producing data-only reports.
+*   **Hide:** Images and shapes are excluded, printing only the cell data and grid styles. This is useful for saving ink or producing data‑only reports.
 
 ## **How it Works**
 
@@ -81,5 +81,4 @@ When the user confirms the settings in the `ModalPrint` dialog, the following in
 3.  **Rendering:**
     *   If **Scale** is set to `fitsheet`, `fitcolumns`, or `fitrows`, a transformation matrix is applied to the canvas to reduce the content size.
     *   If **Images/Shapes** is set to `hide`, the rendering loop skips drawing the `fabObjects` (fabric.js objects) on the canvas.
-4.  **System Print:** The component triggers the browser's native `window.print()` method or opens a new window with the generated canvas image, allowing the user to select their physical printer or "Save as PDF".
-
+4.  **System Print:** The component triggers the browser's native `window.print()` method or opens a new window with the generated canvas image, allowing the user to select their physical printer or “Save as PDF”.

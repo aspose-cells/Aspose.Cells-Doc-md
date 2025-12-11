@@ -1,23 +1,23 @@
----
-title: Track Document Conversion Progress with C++
-linktitle: Track Document Conversion Progress
-type: docs
-weight: 970
-url: /cpp/track-document-conversion-progress/
-description: Learn how to track document conversion progress in C++ using Aspose.Cells to enhance application usability.
+---  
+title: Track Document Conversion Progress with C++  
+linktitle: Track Document Conversion Progress  
+type: docs  
+weight: 970  
+url: /cpp/track-document-conversion-progress/  
+description: Learn how to track document conversion progress in C++ using Aspose.Cells to enhance application usability.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-## **Possible Usage Scenarios**
+## **Possible Usage Scenarios**  
 
-Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion progress by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface provides [**PageStartSaving**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/pagestartsaving/) and [**PageEndSaving**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/pageendsaving/) methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the `TestPageSavingCallback` custom class.
+Sometimes converting large Excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion progress by providing the [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface. The [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface provides [**PageStartSaving**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/pagestartsaving/) and [**PageEndSaving**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/pageendsaving/) methods that you can implement in your custom class. You may also control which pages are rendered, as demonstrated in the `TestPageSavingCallback` custom class.  
 
-## **Track Document Conversion Progress**
+## **Track Document Conversion Progress**  
 
-The following code sample loads the [source Excel file](94896151.xlsx) and prints its conversion progress in the console by using the `TestPageSavingCallback` custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface.
+The following code sample loads the [source Excel file](94896151.xlsx) and prints its conversion progress in the console, using the `TestPageSavingCallback` custom class that implements the [**IPageSavingCallback**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/ipagesavingcallback/) interface.  
 
-## **Sample Code**
+## **Sample Code**  
 
 ```cpp
 #include <iostream>
@@ -59,9 +59,9 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 
-The following is the code for the `TestPageSavingCallback` custom class.
+The following is the code for the `TestPageSavingCallback` custom class.  
 
 ```c++
 #include <iostream>
@@ -95,30 +95,30 @@ public:
         }
     }
 };
-```
+```  
 
-## **Console Output**
+## **Console Output**  
 
-{{< highlight java >}}
+{{< highlight java >}}  
 
-Start saving page index 0 of pages 11</br>
-End saving page index 0 of pages 11</br>
-Start saving page index 1 of pages 11</br>
-End saving page index 1 of pages 11</br>
-Start saving page index 2 of pages 11</br>
-End saving page index 2 of pages 11</br>
-Start saving page index 3 of pages 11</br>
-End saving page index 3 of pages 11</br>
-Start saving page index 4 of pages 11</br>
-End saving page index 4 of pages 11</br>
-Start saving page index 5 of pages 11</br>
-End saving page index 5 of pages 11</br>
-Start saving page index 6 of pages 11</br>
-End saving page index 6 of pages 11</br>
-Start saving page index 7 of pages 11</br>
-End saving page index 7 of pages 11</br>
-Start saving page index 8 of pages 11</br>
-End saving page index 8 of pages 11
+Start saving page index 0 of pages 11</br>  
+End saving page index 0 of pages 11</br>  
+Start saving page index 1 of pages 11</br>  
+End saving page index 1 of pages 11</br>  
+Start saving page index 2 of pages 11</br>  
+End saving page index 2 of pages 11</br>  
+Start saving page index 3 of pages 11</br>  
+End saving page index 3 of pages 11</br>  
+Start saving page index 4 of pages 11</br>  
+End saving page index 4 of pages 11</br>  
+Start saving page index 5 of pages 11</br>  
+End saving page index 5 of pages 11</br>  
+Start saving page index 6 of pages 11</br>  
+End saving page index 6 of pages 11</br>  
+Start saving page index 7 of pages 11</br>  
+End saving page index 7 of pages 11</br>  
+Start saving page index 8 of pages 11</br>  
+End saving page index 8 of pages 11  
 
-{{< /highlight >}}
-{{< app/cells/assistant language="cpp" >}}
+{{< /highlight >}}  
+{{< app/cells/assistant language="cpp" >}}  

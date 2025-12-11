@@ -9,7 +9,7 @@ description: Learn how to avoid blank pages in output PDF when there is nothing 
 
 ## **Possible Usage Scenarios**
 
-When the Excel file is empty and the user saves it to PDF using Aspose.Cells for JavaScript via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.outputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#outputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then an exception will occur whenever there is nothing to print in the output PDF.
+When the Excel file is empty and the user saves it to PDF using Aspose.Cells for JavaScript via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.outputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/javascript-cpp/pdfsaveoptions/#outputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then an exception will be thrown when there is nothing to print in the output PDF.
 
 ## **Avoid Blank Page in Output PDF when there is Nothing to Print**
 
@@ -70,7 +70,7 @@ The following sample code creates an empty workbook and then saves it as PDF aft
             const opts = new PdfSaveOptions();
 
             // Default value of OutputBlankPageWhenNothingToPrint is true.
-            // Setting false means - Do not output blank page when there is nothing to print.
+            // Setting it to false means do not output a blank page when there is nothing to print.
             opts.outputBlankPageWhenNothingToPrint = false;
 
             // Save workbook to Pdf format.

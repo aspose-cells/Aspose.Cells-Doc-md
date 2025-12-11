@@ -7,6 +7,8 @@ url: /cpp/remove-activex-control/
 description: Learn how to remove ActiveX Control from workbooks using Aspose.Cells for C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Remove ActiveX Control**

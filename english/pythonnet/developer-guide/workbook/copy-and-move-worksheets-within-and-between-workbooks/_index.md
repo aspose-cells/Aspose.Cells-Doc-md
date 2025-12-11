@@ -46,7 +46,7 @@ The code below shows how to move a worksheet from one position in a workbook to 
 
 ### **Copying a Worksheet between Workbooks**
 
-Executing the code copies the worksheet named Copy is to SecondWorkbook.xlsx with the name Sheet2.
+Executing the code copies the worksheet named Copy to SecondWorkbook.xlsx with the name Sheet2.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Workbook-CopyMoveWorksheets-CopyWorksheetsBetweenWorkbooks.py" >}}
 

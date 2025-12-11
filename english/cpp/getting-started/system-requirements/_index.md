@@ -7,11 +7,11 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application.
+Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate, and convert spreadsheets programmatically without requiring Office Automation or the Microsoft Excel application.
 
 ## Supported Operating Systems
 
-Aspose.Cells for C++ supports the following 64-bit or 32-bit operating system and platforms:
+Aspose.Cells for C++ supports the following 64‑bit or 32‑bit operating systems and platforms:
 
 <table>  
 	<tr>
@@ -20,26 +20,26 @@ Aspose.Cells for C++ supports the following 64-bit or 32-bit operating system an
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> ---> 
 			<td><ul><li>Windows x86</li><li>Windows x86_64</li></ul></td>
   </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux for ARM (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li>---><li>Linux for ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>macOS</td>
-			<td><ul><li>macOS 11 or later(arm64, x86_64)</li></ul></td>
+			<td><ul><li>macOS 11 or later (arm64, x86_64)</li></ul></td>
 		</tr>
 </table>
 
 ## Development Environment
 
-You can use Aspose.Cells for C++ when developing applications for Windows, Linux or macOS.
+You can use Aspose.Cells for C++ when developing applications for Windows, Linux, or macOS.
 
 ### Windows
 
-Aspose.Cells for C++ can be used to develop applications in any development environment which supports [Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), but the environments listed in the following table are explicitly supported:
+Aspose.Cells for C++ can be used to develop applications in any development environment that supports [Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), but the environments listed in the following table are explicitly supported:
 
 <table>  
 	<tr>
@@ -52,7 +52,7 @@ Aspose.Cells for C++ can be used to develop applications in any development envi
 
 ### Linux
 
-Aspose.Cells for C++ can be used to develop application in the development environment which support C++11 or higher, but the following compiler and tool are explicitly supported:
+Aspose.Cells for C++ can be used to develop applications in a development environment that supports C++11 or higher, but the following compilers and tools are explicitly supported:
 
 <table>  
 	<tr>
@@ -64,15 +64,15 @@ Aspose.Cells for C++ can be used to develop application in the development envir
 </table>
 
 ### Additional Dependency on Linux
-Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries both dynamic library and tool. Please install it before using:
+Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries, both the dynamic library and the tool. Please install them before using:
 
-1. Installing fontconfig on Ubuntu or Debian<br>
-`sudo apt install libfontconfig fontconfig`
-1. Installing fontconfig on Fedora or CentOs<br>
-`sudo yum install fontconfig`
+1. Installing fontconfig on Ubuntu or Debian  
+   `sudo apt install libfontconfig fontconfig`
+2. Installing fontconfig on Fedora or CentOS  
+   `sudo yum install fontconfig`
 
 ### macOS 
-Aspose.Cells for C++ can be used to develop application in the following development environments:
+Aspose.Cells for C++ can be used to develop applications in the following development environments:
 * Xcode 12.5.1 or later
 * Clang and libc++ (which are shipped by default with Xcode)
 {{< app/cells/assistant language="cpp" >}}

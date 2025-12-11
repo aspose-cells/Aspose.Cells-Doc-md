@@ -4,7 +4,7 @@ linktitle: Sparklines
 type: docs
 weight: 160
 url: /cpp/creating-sparklines/
-description: Create sparkline for Excel using Aspose.Cells with C++.
+description: Create sparkline for Excel using Aspise.Cells with C++.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Insert a sparkline**
 {{% alert color="primary" %}} 
 
-Sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of Sparkline: Line, Column, and Stacked.
+A sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact. There are three types of sparklines: Line, Column, and Stacked.
 
 {{% /alert %}} 
 
-It’s simple to create a sparkline with Aspose.Cells with the following example codes:
+It’s simple to create a sparkline with Aspose.Cells using the following example code:
 
 ```cpp
 #include <iostream>
@@ -81,6 +81,6 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Using Sparklines and Settings 3D Format](/cells/cpp/using-sparklines-and-settings-3d-format/)
 {{< app/cells/assistant language="cpp" >}}

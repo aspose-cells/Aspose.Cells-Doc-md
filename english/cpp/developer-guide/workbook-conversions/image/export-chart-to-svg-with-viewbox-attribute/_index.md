@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.GetSVGFitToViewPort()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getsvgfittoviewport/) property which when set to **true** exports the chart to SVG with viewBox attribute.
+By default, when the chart is exported to SVG format, the **viewBox** attribute is not included in its XML. However, Aspose.Cells provides [**ImageOrPrintOptions.GetSVGFitToViewPort()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/getsvgfittoviewport/) property, which, when set to **true**, exports the chart to SVG with the viewBox attribute.
 
 {{% /alert %}}
 
@@ -48,7 +48,7 @@ int main()
     opts.SetImageType(ImageType::Svg);
     opts.SetSVGFitToViewPort(true);
 
-    // Save the chart to svg format
+    // Save the chart to SVG format
     U16String outputSvg = srcDir + u"Image_out.svg";
     chart.ToImage(outputSvg, opts);
 
@@ -60,18 +60,13 @@ int main()
 
 {{% alert color="primary" %}}
 
-If you open the chart's SVG in notepad, you will find the **viewBox** attribute similar to this.
+If you open the chart's SVG in Notepad, you will find the **viewBox** attribute similar to this.
 
-{{< highlight java >}}
-
- <svg xmlns="http://www.w3.org/2000/svg"
-
+{{< highlight xml >}}
+<svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-
      width="100%" height="100%"
-
      viewBox="0 0 480 288">
-
 {{< /highlight >}}
 
 {{% /alert %}}

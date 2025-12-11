@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-You can read axis labels of your chart after calculating its values using the [**Chart.Calculate()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/calculate/) method. Please use the [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/getaxistexts/) method for this purpose that will return the list of axis labels.
+You can read axis labels of your chart after calculating its values using the [**Chart.Calculate()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/calculate/) method. Please use the [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/axis/getaxistexts/) method for this purpose, which will return the list of axis labels.
 
 ## **Read Axis Labels after Calculating the Chart**
 
-Please see the following sample code that loads the [sample Excel file](ReadAxisLabels.xlsx) and reads the category axis labels of the chart in the first worksheet. It then prints the values of the axis labels on the console. Please see the console output of the sample code given below for a reference.
+Please see the following sample code that loads the [sample Excel file](ReadAxisLabels.xlsx) and reads the category axis labels of the chart in the first worksheet. It then prints the values of the axis labels on the console. Refer to the console output of the sample code given below for reference.
 
 ## **Sample Code**
 
@@ -58,18 +58,12 @@ int main()
 
 {{< highlight cpp >}}
 
- Category Axis Labels:
-
-\---------------------
-
+Category Axis Labels:
+---------------------
 Iran
-
 China
-
 USA
-
 Brazil
-
 England
 
 {{< /highlight >}}

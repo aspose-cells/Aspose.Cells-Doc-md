@@ -1,27 +1,26 @@
 ---
-title: Using GlobalizationSettings Class for Custom Subtotal Labels and Other Label of Pie Chart with JavaScript via C++
-linktitle: Using GlobalizationSettings Class for Custom Subtotal Labels and Other Label of Pie Chart
+title: Using GlobalizationSettings Class for Custom Subtotal Labels and Other Labels of Pie Charts with JavaScript via C++
+linktitle: Using GlobalizationSettings Class for Custom Subtotal Labels and Other Labels of Pie Charts
 type: docs
 weight: 70
 url: /javascript-cpp/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
-description: Learn how to customize subtotal labels and other labels of pie charts using GlobalizationSettings class in Aspose.Cells for JavaScript via C++.
+description: Learn how to customize subtotal labels and other labels of pie charts using the GlobalizationSettings class in Aspose.Cells for JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells APIs have exposed the [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class in order to deal with the scenarios where the user wishes to use custom labels for Subtotals in a spreadsheet. Moreover, the [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class can also be used to modify the **Other** label for the Pie chart while rendering worksheet or chart.
+Aspose.Cells APIs have exposed the [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class in order to deal with scenarios where the user wishes to use custom labels for subtotals in a spreadsheet. Moreover, the [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class can also be used to modify the **Other** label for a pie chart while rendering a worksheet or chart.
 
 ## **Introduction to GlobalizationSettings Class**
 
-The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class currently offers the following 3 methods which can be overridden in a custom class to get desired labels for the Subtotals or to render custom text for the **Other** label of a Pie chart.
+The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class currently offers the following methods which can be overridden in a custom class to get desired labels for the subtotals or to render custom text for the **Other** label of a pie chart.
 
-1. [**GlobalizationSettings.totalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#totalName-consolidationfunction-): Gets the total name of the function.
-1. [**GlobalizationSettings.grandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#grandTotalName-consolidationfunction-): Gets the grand total name of the function.
-
+1. [**GlobalizationSettings.totalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#totalName-consolidationfunction-): Gets the total name of the function.  
+2. [**GlobalizationSettings.grandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#grandTotalName-consolidationfunction-): Gets the grand total name of the function.
 
 ### **Custom Labels for Subtotals**
 
-The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [**GlobalizationSettings.totalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#totalName-consolidationfunction-) & [**GlobalizationSettings.grandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#grandTotalName-consolidationfunction-) methods as demonstrated ahead.
+The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class can be used to customize the subtotal labels by overriding the [**GlobalizationSettings.totalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#totalName-consolidationfunction-) & [**GlobalizationSettings.grandTotalName(ConsolidationFunction)**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings/#grandTotalName-consolidationfunction-) methods as demonstrated below.
 
 ```html
 <!DOCTYPE html>
@@ -110,7 +109,7 @@ The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cp
 </html>
 ```
 
-In order to inject custom labels, it is required to assign the [**WorkbookSettings.globalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/workbooksettings/#globalizationSettings--) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
+In order to inject custom labels, you need to assign the `WorkbookSettings.globalizationSettings` property to an instance of the **CustomSettings** class defined above before adding the subtotals to the worksheet.
 
 ```html
 <!DOCTYPE html>
@@ -143,7 +142,7 @@ In order to inject custom labels, it is required to assign the [**WorkbookSettin
 
         // Defines a custom class derived from GlobalizationSettings class
         class CustomSettings extends AsposeCells.GlobalizationSettings {
-            // Overrides the TotalName method (converted from getTotalName)
+            // Overrides the totalName method (converted from getTotalName)
             totalName(functionType) {
                 // Checks the function type used to add the subtotals
                 switch (functionType) {
@@ -156,7 +155,7 @@ In order to inject custom labels, it is required to assign the [**WorkbookSettin
                 }
             }
 
-            // Overrides the GrandTotalName method (converted from getGrandTotalName)
+            // Overrides the grandTotalName method (converted from getGrandTotalName)
             grandTotalName(functionType) {
                 // Checks the function type used to add the subtotals
                 switch (functionType) {
@@ -215,6 +214,6 @@ In order to inject custom labels, it is required to assign the [**WorkbookSettin
 
 {{% alert color="primary" %}}
 
-The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class only works for adding new Subtotals. If a spreadsheet already contains Subtotals, their labels cannot be modified.
+The [**GlobalizationSettings**](https://reference.aspose.com/cells/javascript-cpp/globalizationsettings) class only works for adding new subtotals. If a spreadsheet already contains subtotals, their labels cannot be modified.
 
 {{% /alert %}}

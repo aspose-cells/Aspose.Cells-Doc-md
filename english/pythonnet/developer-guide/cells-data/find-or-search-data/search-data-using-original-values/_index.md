@@ -3,7 +3,7 @@ title: Search Data using Original Values
 type: docs
 weight: 380
 url: /python-net/search-data-using-original-values/
-description: Learn how to Search Data using Original Values through the Aspose.Cells for Python via .NET API.
+description: Learn how to search data using original values through the Aspose.Cells for Python via .NET API.
 keywords: Python Excel Library, Python Search Data using Original Values, Python Find Data using Original Values, Python Search Data by Original Values, Python Find Data by Original Values
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has formula =Sum(A1:A2) and its value is 20 but it is formatted as ---, then the value 20 is hidden and cannot be found using Microsoft Excel find options. However, you can find it using Aspose.Cells for Python via .NET using [**LookInType.ORIGINAL_VALUES**](https://reference.aspose.com/cells/python-net/aspose.cells/lookintype).
+Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has the formula `=SUM(A1:A2)` and its value is 20, but it is formatted as ---. In that case, the value 20 is hidden and cannot be found using Microsoft Excel's Find options. However, you can find it using Aspose.Cells for Python via .NET with **LookInType.ORIGINAL_VALUES**.
 
 {{% /alert %}}
 
-The following sample code illustrates the above point. It finds cell D4 which cannot be found using Microsoft Excel find options but Aspose.Cells can find it using [**LookInType.ORIGINAL_VALUES**](https://reference.aspose.com/cells/python-net/aspose.cells/lookintype). Please read the comments inside the code for more information.
+The following sample code illustrates the above point. It finds cell D4, which cannot be found using Microsoft Excel's Find options, but Aspose.Cells can locate it using **LookInType.ORIGINAL_VALUES**. Please read the comments inside the code for more information.
 
 ## Python code to search data using original values
 

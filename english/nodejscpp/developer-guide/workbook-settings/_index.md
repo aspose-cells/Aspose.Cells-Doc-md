@@ -9,7 +9,6 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 ## **Workbook Settings Overview**
 Working with Excel files involves various settings that can be manipulated programmatically using Aspose.Cells for Node.js via C++. This document outlines how to manage these settings effectively.
 
@@ -23,7 +22,7 @@ The following scenarios illustrate when you might need to manage workbook settin
 This example demonstrates how to manage workbook settings such as calculation options and display settings.
 
 1. Create a new workbook or load an existing one.
-2. Modify workbook settings as per your requirements.
+2. Modify workbook settings according to your requirements.
 3. Save the workbook to persist the changes.
 
 ### **Example Code**

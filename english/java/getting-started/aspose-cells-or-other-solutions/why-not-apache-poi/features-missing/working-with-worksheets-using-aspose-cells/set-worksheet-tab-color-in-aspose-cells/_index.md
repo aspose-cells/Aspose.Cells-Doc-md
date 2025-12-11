@@ -8,31 +8,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Set Worksheet Tab Color**
-Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent from the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
+Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent **compared to** the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.
 #### **Setting Worksheet Tab Color with Microsoft Excel**
-1. Right-click a tab in the tab-sheet at the bottom of the current worksheet.
-1. Select **Tab color**.
-1. Select a color from the palette.
-1. Click **OK**.
+1. Right‑click a tab in the tab‑sheet at the bottom of the current worksheet.  
+2. Select **Tab Color**.  
+3. Select a color from the palette.  
+4. Click **OK**.
 
 **Java**
 
 {{< highlight java >}}
 
- //Instantiate a new Workbook
-
+ // Instantiate a new workbook
 Workbook workbook = new Workbook(dataPath + "workbook.xls");
 
-//Get the first worksheet in the book
-
+// Get the first worksheet in the book
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Set the tab color
-
+// Set the tab color
 worksheet.setTabColor(Color.getRed());
 
-//Save the Excel file
-
+// Save the Excel file
 workbook.save(dataPath + "AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}

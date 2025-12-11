@@ -9,19 +9,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-While setting the **DefaultFont** property of [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions), you might expect that saving to PDF or image would set that DefaultFont to all the text in a workbook that has a missing (not installed) font.
+While setting the **DefaultFont** property of [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) and [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions), you might expect that saving to PDF or image would apply that DefaultFont to all the text in a workbook that uses a missing (not installed) font.
 
-Generally, when saving to PDF or image, Aspose.Cells for Python via .NET will first try to set Workbook's default font (i.e., Workbook.DefaultStyle.Font). If workbook's default font still cannot show/render text properly, then Aspose.Cells for Python via .NET will try to render with font mentioned against DefaultFont attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions).
+Generally, when saving to PDF or image, Aspose.Cells for Python via .NET will first try to set the workbook's default font (i.e., `Workbook.DefaultStyle.Font`). If the workbook's default font still cannot display/render the text properly, Aspose.Cells for Python via .NET will try to render with the font specified by the **DefaultFont** attribute in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) / [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions).
 
-To cope with your expectation, we have a Boolean property named "**check_workbook_default_font**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions). You can set it to **false** to disable trying workbook's default font or let the **default_font** setting in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions) to have priority.
+To meet your expectation, we have a Boolean property named **check_workbook_default_font** in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) / [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions). You can set it to **false** to disable checking the workbook's default font, or let the **default_font** setting in [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) / [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions) have priority.
 
 ## **Set DefaultFont property of PdfSaveOptions/ImageOrPrintOptions**
 
-The following sample code opens an Excel file. The A1 cell (in the first worksheet) has a text set to "Christmas Time Font text". The font name is "Christmas Time Personal Use" that is not installed on the machine. We set ***default_font*** attribute of [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions) to "Times New Roman". We also set **check_workbook_default_font** Boolean property to **"false"** which ensures that the text of A1 cell is rendered with "Times New Roman" font and should not use the default font of the workbook ("Calibri" in this case). The code renders the first worksheet to PNG and TIFF image formats. It finally renders to a PDF file format.
+The following sample code opens an Excel file. The A1 cell (in the first worksheet) contains the text “Christmas Time Font text”. The font name is “Christmas Time Personal Use”, which is not installed on the machine. We set the **default_font** attribute of [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) / [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions) to “Times New Roman”. We also set the **check_workbook_default_font** Boolean property to **false**, which ensures that the text in cell A1 is rendered with the “Times New Roman” font and does not use the workbook’s default font (“Calibri” in this case). The code renders the first worksheet to PNG and TIFF image formats and finally to a PDF file.
 
 {{% alert color="primary" %}}
 
-The default value of ***CheckWorkbookDefaultFont*** attribute is **true**.
+The default value of **CheckWorkbookDefaultFont** attribute is **true**.
 
 {{% /alert %}}
 
@@ -29,13 +29,13 @@ This is the screenshot of the [template file](49446913.xlsx) used in the example
 
 ![todo:image_alt_text](1.png)
 
-This is the output PNG image after setting the [**ImageOrPrintOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/default_font) property to "Times New Roman".
+This is the output PNG image after setting the [**ImageOrPrintOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/default_font) property to “Times New Roman”.
 
 ![todo:image_alt_text](2.png)
 
-See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/default_font) property to "Times New Roman".
+See the output [TIFF](48496672.tiff) image after setting the [**ImageOrPrintOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/default_font) property to “Times New Roman”.
 
-See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/default_font/) property to "Times New Roman".
+See the output [PDF](48496673.pdf) file after setting the [**PdfSaveOptions.default_font**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/default_font/) property to “Times New Roman”.
 
 ## **Sample Code**
 

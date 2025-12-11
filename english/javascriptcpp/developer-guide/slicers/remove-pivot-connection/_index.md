@@ -4,17 +4,17 @@ linktitle: Remove Pivot Connection
 type: docs
 weight: 30
 url: /javascript-cpp/remove-pivot-connection/
-description: Learn how to remove pivot connection using Aspose.Cells for JavaScript via C++.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365 JavaScript via C++.
+description: Learn how to remove a pivot connection using Aspose.Cells for JavaScript via C++.
+keywords: Remove pivot connection without Office 2013, Office 2016, Office 2019, and Office 365 JavaScript via C++.
 ---
 
 ## **Possible Usage Scenarios**
 
-If you want to disassociate a slicer and pivot table in Excel, you need to right-click the slicer and select "Report Connections..." item. In the option list, you can operate on the checkbox. Similarly, if you want to disassociate a slicer and pivot table using the Aspose.Cells for JavaScript via C++ API programmatically, please use the [**Slicer.removePivotConnection(PivotTable)**](https://reference.aspose.com/cells/javascript-cpp/slicer/#removePivotConnection-pivottable-) method. It will disassociate the slicer and pivot table.
+If you want to disassociate a slicer from a pivot table in Excel, you need to right‑click the slicer and select the **“Report Connections…”** item. In the options list, you can toggle the checkbox. Similarly, if you want to disassociate a slicer from a pivot table using the Aspose.Cells for JavaScript via C++ API programmatically, please use the [**Slicer.removePivotConnection(PivotTable)**](https://reference.aspose.com/cells/javascript-cpp/slicer/#removePivotConnection-pivottable-) method. It will disassociate the slicer from the pivot table.
 
-## **Disassociate slicer and pivot table**
+## **Disassociate a slicer and a pivot table**
 
-The following sample code loads the [sample Excel file](remove-pivot-connection.xlsx) that contains an existing slicer. It accesses the slicers and then disassociates the slicer and pivot table. Finally, it saves the workbook as [output Excel file](remove-pivot-connection-out.xlsx).
+The following sample code loads the [sample Excel file](remove-pivot-connection.xlsx) that contains an existing slicer. It accesses the slicers and then disassociates the slicer from the pivot table. Finally, it saves the workbook as the [output Excel file](remove-pivot-connection-out.xlsx).
 
 ## **Sample Code**
 
@@ -57,10 +57,10 @@ The following sample code loads the [sample Excel file](remove-pivot-connection.
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiating a Workbook object from uploaded file
+            // Instantiating a Workbook object from the uploaded file
             const workbook = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const worksheet = workbook.worksheets.get(0);
 
             // Access the first PivotTable inside the PivotTable collection.
@@ -69,10 +69,10 @@ The following sample code loads the [sample Excel file](remove-pivot-connection.
             // Access the first slicer inside the slicer collection.
             const slicer = worksheet.slicers.get(0);
 
-            // Remove PivotTable connection.
+            // Remove the PivotTable connection.
             slicer.removePivotConnection(pivotTable);
 
-            // Save the workbook in output XLSX format.
+            // Save the workbook in the output XLSX format.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

@@ -48,7 +48,7 @@ const workbook = new AsposeCells.Workbook(filePath);
 workbook.save("out.mht");
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [AutoFit Columns and Rows while loading HTML in Workbook](/cells/nodejs-cpp/autofit-columns-and-rows-while-loading-html-in-workbook/)
 - [Avoid exponential notation of large numbers while importing from HTML](/cells/nodejs-cpp/avoid-exponential-notation-of-large-numbers-while-importing/)
 - [Change the HTML Link Target Type](/cells/nodejs-cpp/change-the-html-link-target-type/)
@@ -60,7 +60,7 @@ workbook.save("out.mht");
 - [Excel to HTML - Use PresentationPreference Option for Better Layout](/cells/nodejs-cpp/excel-to-html-use-presentationpreference-option-for-better-layout/)
 - [Exclude Unused Styles during Excel to HTML conversion](/cells/nodejs-cpp/exclude-unused-styles-during-excel-to-html-conversion/)
 - [Expanding text from right to left while exporting Excel file to HTML](/cells/nodejs-cpp/expanding-text-from-right-to-left-while-exporting-excel-file-to/)
-- [Export DataBar, ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion](/cells/nodejs-cpp/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/)
+- [Export DataBar, ColorScale, and IconSet Conditional Formatting while Excel to HTML Conversion](/cells/nodejs-cpp/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/)
 - [Export Comments while Saving Excel file to HTML](/cells/nodejs-cpp/export-comments-while-saving-excel-file-to/)
 - [Export Document Workbook and Worksheet Properties in Excel to HTML conversion](/cells/nodejs-cpp/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
 - [Export Excel to HTML with GridLines](/cells/nodejs-cpp/export-excel-to-html-with-gridlines/)
@@ -70,13 +70,13 @@ workbook.save("out.mht");
 - [Hiding Overlaid Content with CrossHideRight while saving to HTML](/cells/nodejs-cpp/hiding-overlaid-content-with-crosshideright-while-saving-to/)
 - [Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property](/cells/nodejs-cpp/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Prevent Exporting Hidden Worksheet Contents on Saving to HTML](/cells/nodejs-cpp/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
-- [Provide exported worksheet html file path via IFilePathProvider interface](/cells/nodejs-cpp/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/)
-- [Recognise Self Closing Tags](/cells/nodejs-cpp/recognise-self-closing-tags/)
+- [Provide exported worksheet HTML file path via IFilePathProvider interface](/cells/nodejs-cpp/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/)
+- [Recognize Self-Closing Tags](/cells/nodejs-cpp/recognise-self-closing-tags/)
 - [Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML](/cells/nodejs-cpp/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/)
 - [Set column width to scalable unit like em or percent](/cells/nodejs-cpp/set-column-width-to-scalable-unit-like-em-or-percent/)
 - [Set Default Font while rendering spreadsheet to HTML](/cells/nodejs-cpp/set-default-font-while-rendering-spreadsheet-to/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/nodejs-cpp/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
-- [Support the layout of DIV tags while loading HTML to excel workbook](/cells/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
+- [Support the layout of DIV tags while loading HTML to Excel workbook](/cells/nodejs-cpp/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 
 - [Enable CSS Custom Properties while saving to HTML](/cells/nodejs-cpp/enable-css-custom-properties-while-saving-to-html/)
 {{< app/cells/assistant language="nodejs-cpp" >}}

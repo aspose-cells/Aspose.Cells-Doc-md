@@ -15,7 +15,7 @@ Microsoft Excel files may contain many unused styles. When you export the Excel 
 
 ## **Exclude Unused Styles during Excel to HTML conversion**  
 
-The following sample code creates a workbook and also creates an unused named style. Since the [**HtmlSaveOptions.excludeUnusedStyles**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#excludeUnusedStyles--) is set to **true**, this unused named style will not be exported to [output HTML](61767778.zip). But if you set it to **false**, then this unused style will be present inside the output HTML which you can then see in HTML markup as shown in the above screenshot.  
+The following sample code creates a workbook and also creates an unused named style. Since the [**HtmlSaveOptions.excludeUnusedStyles**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#excludeUnusedStyles--) is set to **true**, this unused named style will not be exported to the output HTML (61767778.zip). But if you set it to **false**, then this unused style will be present inside the output HTML, which you can then see in the HTML markup as shown in the screenshot above.  
 
 ## **Sample Code**  
 
@@ -77,12 +77,12 @@ The following sample code creates a workbook and also creates an unused named st
             const cell = ws.cells.get("C7");
             cell.value = "This is sample text.";
 
-            // Specify html save options, we want to exclude unused styles
+            // Specify HTML save options; we want to exclude unused styles
             const opts = new HtmlSaveOptions();
             // Comment this line to include unused styles
             opts.excludeUnusedStyles = true;
 
-            // Save the workbook in html format
+            // Save the workbook in HTML format
             const outputData = wb.save(SaveFormat.Html, opts);
             const blob = new Blob([outputData], { type: "text/html" });
             const downloadLink = document.getElementById('downloadLink');

@@ -45,7 +45,7 @@ workbook.save(path.join(dataDir, "out.txt"), opts);
 
 ## **Saving Text Files with Custom Separator**
 
-Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters between its data.
+Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some custom delimiters between its data.
 
 ```javascript
 const path = require("path");
@@ -69,7 +69,7 @@ wb.save(path.join(dataDir, "output.csv"), options);
 ```
 
 
-## **Advance topics**
+## **Advanced topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/nodejs-cpp/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/nodejs-cpp/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 {{< app/cells/assistant language="nodejs-cpp" >}}

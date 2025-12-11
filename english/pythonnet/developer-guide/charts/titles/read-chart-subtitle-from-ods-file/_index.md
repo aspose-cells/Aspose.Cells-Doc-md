@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Read Chart Subtitle from ODS File**
 
-Aspose.Cells for Python via .NET provides you with the ability to read chart subtitles in ODS files by using the [**Chart.sub_title**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/sub_title) property. The following sample code loads the [sample ODS file](89620481.ods) and reads the chart subtitle using [**Chart.sub_title**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/sub_title) property and prints it in the Console Window. Please see the console output of the code given below for reference.
+Aspose.Cells for Python via .NET provides you with the ability to read chart subtitles in ODS files by using the [**Chart.sub_title**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/sub_title) property. The following sample code loads the [sample ODS file](89620481.ods), reads the chart subtitle using the [**Chart.sub_title**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/sub_title) property, and prints it in the console window. Please see the console output of the code given below for reference.
 
 ## **Sample Code**
 

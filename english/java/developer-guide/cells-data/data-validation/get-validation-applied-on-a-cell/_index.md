@@ -3,7 +3,7 @@ title: Get Validation Applied on a Cell
 type: docs
 weight: 80
 url: /java/get-validation-applied-on-a-cell/
-description: This article show how to apply validation on a Cell with Java
+description: This article shows how to apply validation on a cell with Java
 keywords: apply cell validation in excel with java, apply validation on a cell in excel with java, apply validation in excel with java, cell validation in excel with java, java apply cell validation in excel, java apply validation on a cell in excel, java cell validation in excel, java cell validation
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -28,21 +28,13 @@ The sample code below gets the validation applied to C1 and reads its various pr
 Here is the console output from the sample code executed with the sample file shown in the snapshot above.
 
 {{< highlight java >}}
-
 Reading Properties of Validation
-
-\--------------------------------
-
+--------------------------------
 Type: 2
-
 Operator: 0
-
 Formula1: =10
-
 Formula2: =20
-
 Ignore blank: true
-
 {{< /highlight >}}
 
 ## Related Articles

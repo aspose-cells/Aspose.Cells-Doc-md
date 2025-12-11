@@ -15,7 +15,7 @@ Using Aspose.Cells for C++, you can convert CSV files to Excel, OpenOffice, PDF,
 
 ## **Opening CSV Files**
 
-Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character, it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
+Comma‑Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double‑quote character. If a field value contains a double‑quote character, it is escaped with a pair of double‑quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-TxtToExcel.go" >}}
 ## **Opening CSV Files and Replacing Invalid Characters**
@@ -34,19 +34,19 @@ Sample source file and output files can be downloaded from the following links f
 [outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-TxtToExcel-2.go" >}}
-### **Opening Text Files with Custom Separator**
+### **Opening Text Files with a Custom Separator**
 
 Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-TxtToExcel-3.go" >}}
 ### **Opening Tab-Delimited Files**
 
-Tab-delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab-delimited file is a special kind of plain text file with a tab between each column.
+Tab‑delimited (Text) files contain spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab‑delimited file is a special kind of plain text file with a tab between each column.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-TxtToExcel-4.go" >}}
 ### **Opening Tab-Separated Values (TSV) Files**
 
-Tab-separated values (TSV) files contain spreadsheet data but without any formatting. It is the same as a tab-delimited file where data is arranged in rows and columns like in tables and spreadsheets.
+Tab‑separated values (TSV) files contain spreadsheet data but without any formatting. They are the same as a tab‑delimited file, where data is arranged in rows and columns like in tables and spreadsheets.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-TxtToExcel-5.go" >}}
 ## **Advanced Topics**

@@ -18,7 +18,8 @@ The top level structure of the Aspose.Cells object model is shown below in a hie
 |**Top level structure of Aspose.Cells Object Model**|
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_1.png)|
-As you can see from the above figure that the root of the object model is the Workbook object. A brief description of few of the objects is provided below for the introductory purposes.
+
+As you can see from the above figure, the root of the object model is the Workbook object. A brief description of a few of the objects is provided below for introductory purposes.
 
 ## **WorksheetCollection/Worksheet**
 
@@ -35,11 +36,11 @@ Each Worksheet object contains a Cells object that represents the collection of 
 |**Cells & Cell objects**|
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_3.png)|
-You can use the Cell object to get and set the value, style, formula and other properties of a single cell.
+You can use the Cell object to get and set the value, style, formula, and other properties of a single cell.
 
 ## **ChartCollection/Chart**
 
-Charts object represents a collection of all the Chart objects in a Worksheet. Each Chart object is comprised of several other objects that work together to create and manage charts. The Chart structure in Aspose.Cells is shown in the diagram below:
+The Charts object represents a collection of all the Chart objects in a Worksheet. Each Chart object is comprised of several other objects that work together to create and manage charts. The Chart structure in Aspose.Cells is shown in the diagram below:
 
 |**Object model of the Chart**|
 | :- |
@@ -70,7 +71,7 @@ A Worksheet object also contains a HyperlinkCollection that represents a collect
 |**Hyperlinks & Hyperlink objects**|
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_7.png)|
-A Hyperlink object represents a hyperlink in the worksheet. Developers can set hyperlink address and other related properties using Hyperlink object.
+A Hyperlink object represents a hyperlink in the worksheet. Developers can set the hyperlink address and other related properties using a Hyperlink object.
 
 ## **PictureCollection/Picture**
 
@@ -79,7 +80,7 @@ Each Worksheet object contains a PictureCollection object that represents a coll
 |**Pictures & Picture objects**|
 | :- |
 |![todo:image_alt_text](aspose-cells-object-model_8.png)|
-A Picture object represents a picture in the worksheet. Using Picture object, developers cannot only add pictures into their worksheets but also position these pictures at any location. It is also possible to set borders or other properties of the pictures.
+A Picture object represents a picture in the worksheet. Using the Picture object, developers can not only add pictures to their worksheets but also position these pictures at any location. It is also possible to set borders or other properties of the pictures.
 
 ## **VerticalPageBreakCollection/VerticalPageBreak**
 

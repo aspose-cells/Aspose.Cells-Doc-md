@@ -12,25 +12,24 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes you need to insert drawing objects like labels, text boxes, pictures and so on into a chart. Aspose.Cells can add the controls to a chart at runtime.
+Sometimes you need to insert drawing objects like labels, text boxes, pictures, etc., into a chart. Aspose.Cells can add controls to a chart at runtime.
 
 {{% /alert %}}
 
 ## **Adding Label Control to the Chart**
 
-Labels provide a means for giving information to users about a spreadsheet's content.
-Aspose.Cells allows you to add and manipulate labels even into charts.
+Labels provide a means for giving information to users about a spreadsheet's content. Aspose.Cells allows you to add and manipulate labels even within charts.
 
 The [**Aspose::Cells::Drawing::ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddLabelInChart**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addlabelinchart/), used to add a label control to a chart. Below is a list of the parameters used for the method:
 
-- **top** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
-- **height** – the height of the label, in units of 1/4000 of the chart area.
-- **width** – the width of label, in units of 1/4000 of the chart area.
+- **top** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.  
+- **left** – the horizontal offset of the label from the upper left corner in units of 1/4000 of the chart area.  
+- **height** – the height of the label, in units of 1/4000 of the chart area.  
+- **width** – the width of the label, in units of 1/4000 of the chart area.
 
 The method returns [**Aspose::Cells::Drawing::Label**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/label/) object. The [**Label**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/label/) class represents a label in the chart. It has some important members:
 
-- [**Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettext/) (property) – specifies a label's caption string.
+- [**Text**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettext/) (property) – specifies a label's caption string.  
 - [**Fill**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getfill/) (property) – specifies the fill color attributes.
 
 The following example shows how to add a label to the chart. The example uses a designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert a label into the chart. Below is the original code for adding a label to the chart. The following output is generated when executing the code.
@@ -70,7 +69,7 @@ int main()
     // Set the caption of the label
     label.SetText(u"A Label In Chart");
 
-    // Set the Placement Type, the way the Label is attached to the cells
+    // Set the Placement Type, the way the label is attached to the cells
     label.SetPlacement(PlacementType::FreeFloating);
 
     // Save the excel file
@@ -86,14 +85,14 @@ int main()
 
 One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**Aspose::Cells::Drawing::ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddTextBoxInChart**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addtextboxinchart/), which is used to add a text box control to a chart. Following is the parameters list used for the method:
 
-- **top** – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of text box from the upper left corner in units of 1/4000 of the chart area.
-- **height** – the height of text box, in units of 1/4000 of the chart area.
+- **top** – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.  
+- **left** – the horizontal offset of the text box from the upper left corner in units of 1/4000 of the chart area.  
+- **height** – the height of the text box, in units of 1/4000 of the chart area.  
 - **width** – the width of the text box, in units of 1/4000 of the chart area.
 
 The method returns [**Aspose::Cells::Drawing::TextBox**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/textbox/) object. The [**TextBox**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/textbox/) class represents a text box in the chart.
 
-The following example shows how to add a text box to a chart. The example uses the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert a text box into the chart to show the chart title. Below is the original code for adding text box to the chart.
+The following example shows how to add a text box to a chart. The example uses the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert a text box into the chart to show the chart title. Below is the original code for adding a text box to the chart.
 
 ```cpp
 #include <iostream>
@@ -124,7 +123,7 @@ int main()
     Worksheet sheet = workbook.GetWorksheets().Get(1);
     Aspose::Cells::Charts::Chart chart = sheet.GetCharts().Get(0);
 
-    // Add a new textbox to the chart
+    // Add a new text box to the chart
     TextBox textbox0 = chart.GetShapes().AddTextBoxInChart(100, 1100, 350, 2550);
 
     // Fill the text
@@ -142,10 +141,10 @@ int main()
     // Set font attribute to italic
     textbox0.GetFont().SetIsItalic(true);
 
-    // Get the fill format of the textbox
+    // Get the fill format of the text box
     FillFormat fillformat = textbox0.GetFill();
 
-    // Get the line format type of the textbox
+    // Get the line format type of the text box
     LineFormat lineformat = textbox0.GetLine();
 
     // Set the line weight
@@ -169,15 +168,15 @@ Aspose.Cells allows you to insert images into a chart. For example, add a pictur
 
 The [**Aspose::Cells::Drawing::ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) class provides a method named [**AddPictureInChart**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addpictureinchart/), which is used to add a picture object to the chart. Following is the parameters list used for the method:
 
-- **top** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.
-- **stream** – a stream object which contains the image data.
-- **widthScale** – the scale of image width, a percentage value.
+- **top** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.  
+- **left** – the horizontal offset of the picture from the upper left corner in units of 1/4000 of the chart area.  
+- **stream** – a stream object which contains the image data.  
+- **widthScale** – the scale of image width, a percentage value.  
 - **heightScale** – the scale of image height, a percentage value.
 
 The method returns an [**Aspose::Cells::Drawing::Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) object. The [**Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) class represents a picture object in the chart.
 
-The following example shows how to add a picture to the chart. The example utilizes the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert an image into the chart. Below is the original code for adding picture to the chart.
+The following example shows how to add a picture to the chart. The example utilizes the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert an image into the chart. Below is the original code for adding a picture to the chart.
 
 ```c++
 #include <iostream>
@@ -206,7 +205,7 @@ int main() {
 
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
-
+    
     Workbook workbook(srcDir + u"chart.xls");
     std::vector<uint8_t> imageData = ReadFileData(srcDir + u"logo.jpg");
 
@@ -229,7 +228,7 @@ int main() {
 
 ## **Adding Checkbox in the Chart**
 
-Aspose.Cells allows you to insert checkboxes into a chart sheet by using [**MsoDrawingType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msodrawingtype/) enumeration. The following example demonstrates adding a checkbox to a chart sheet.
+Aspose.Cells allows you to insert checkboxes into a chart sheet by using the [**MsoDrawingType**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/msodrawingtype/) enumeration. The following example demonstrates adding a checkbox to a chart sheet.
 
 The following image shows the chart sheet with the checkbox in the output file.
 
@@ -248,7 +247,7 @@ int main()
 {
     Aspose::Cells::Startup();
 
-    // Source directory path
+    // Output directory path
     U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
     // Create a new workbook
@@ -281,6 +280,6 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add WordArt Watermark to Chart](/cells/cpp/add-wordart-watermark-to-chart/)
 {{< app/cells/assistant language="cpp" >}}

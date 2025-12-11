@@ -11,13 +11,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few, simple lines of code using Aspose.Cells.
+Sometimes, you need to combine workbooks with various content like images, charts, and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few simple lines of code using Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Combining Workbooks with Images and Charts**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the [**Workbook::Combine()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/combine/) method to combine them and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the [**Workbook::Combine()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/combine/) method to combine them, and saves the output workbook.
 
 ### **Source Workbooks**
 
@@ -38,19 +38,19 @@ You can use any source workbooks. These images are just for illustration purpose
 
 {{% /alert %}}
 
-**The first worksheet of the charts workbook - stacked** 
+**The first worksheet of the charts workbook – stacked** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Second worksheet of charts workbook - line** 
+**The second worksheet of the charts workbook – line** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**First worksheet of the picture workbook - picture** 
+**The first worksheet of the picture workbook – picture** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**All three worksheets in the combined workbook - stacked, line, picture** 
+**All three worksheets in the combined workbook – stacked, line, picture** 
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
@@ -68,25 +68,25 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of the first source excel file
+    // Path of the first source Excel file
     U16String sourceFile1 = srcDir + u"SampleChart.xlsx";
     
-    // Path of the second source excel file
+    // Path of the second source Excel file
     U16String sourceFile2 = srcDir + u"SampleImage.xlsx";
 
-    // Open the first excel file.
+    // Open the first Excel file.
     Workbook sourceBook1(sourceFile1);
 
-    // Open the second excel file.
+    // Open the second Excel file.
     Workbook sourceBook2(sourceFile2);
 
-    // Combining the two workbooks
+    // Combine the two workbooks
     sourceBook1.Combine(sourceBook2);
 
     // Define the output file path
     U16String outputFilePath = srcDir + u"Combined.out.xlsx";
 
-    // Save the target book file.
+    // Save the target workbook file.
     sourceBook1.Save(outputFilePath);
 
     std::cout << "Workbooks combined and saved successfully!" << std::endl;
@@ -95,7 +95,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Combine Multiple Worksheets into a Single Worksheet](/cells/cpp/combine-multiple-worksheets-into-a-single-worksheet/)
 - [Merge Files](/cells/cpp/merge-files/)
 {{< app/cells/assistant language="cpp" >}}

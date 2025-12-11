@@ -1,21 +1,21 @@
----
-title: Set Line Spacing of the Paragraph in a Shape or Textbox with C++
-linktitle: Set Line Spacing of the Paragraph
-type: docs
-weight: 290
-url: /cpp/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
-description: Learn how to set line spacing, space before, and space after in a paragraph within a shape or textbox using Aspose.Cells for C++.
+---  
+title: Set Line Spacing of the Paragraph in a Shape or Textbox with C++  
+linktitle: Set Line Spacing of the Paragraph  
+type: docs  
+weight: 290  
+url: /cpp/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/  
+description: Learn how to set line spacing, space before, and space after in a paragraph within a shape or textbox using Aspose.Cells for C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-You can set the line space of the paragraph, its space before and space after using the [**TextParagraph.GetLineSpace()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getlinespace/), [**TextParagraph.GetSpaceBefore()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspacebefore/) and [**TextParagraph.GetSpaceAfter()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspaceafter/) properties of the [**TextParagraph**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/) class.
+You can set the line spacing of the paragraph, its space before, and its space after using the [**TextParagraph.GetLineSpace()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getlinespace/), [**TextParagraph.GetSpaceBefore()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspacebefore/) and [**TextParagraph.GetSpaceAfter()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getspaceafter/) properties of the [**TextParagraph**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/) class.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following sample code explains the usage of the mentioned properties.
+The following sample code explains the usage of the mentioned properties.  
 
 ```cpp
 #include <iostream>
@@ -41,17 +41,17 @@ int main()
     // Access first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
 
-    // Add text box inside the sheet
+    // Add a text box inside the sheet
     ws.GetShapes().AddTextBox(2, 0, 2, 0, 100, 200);
 
-    // Access first shape which is a text box and set its text
+    // Access the first shape, which is a text box, and set its text
     Shape shape = ws.GetShapes().Get(0);
     shape.SetText(u"Sign up for your free phone number.\nCall and text online for free.");
 
     // Access the first paragraph
     TextParagraph p = shape.GetTextBody().GetTextParagraphs().Get(1);
 
-    // Set the line space
+    // Set the line spacing
     p.SetLineSpaceSizeType(LineSpaceSizeType::Points);
     p.SetLineSpace(20);
 
@@ -70,5 +70,5 @@ int main()
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

@@ -158,7 +158,7 @@ Perform advanced **Excel cell operations** with AI-powered automation. Merge cel
 ## Operation Types Reference
 
 ### Merge Operations
-- `merge_cells` - Merge cells into single cell
+- `merge_cells` - Merge cells into a single cell
 - `unmerge_cells` - Split merged cells back to individual cells
 - `merge_across` - Merge cells across rows while keeping separate rows
 
@@ -379,7 +379,7 @@ Perform advanced **Excel cell operations** with AI-powered automation. Merge cel
 ## Best Practices
 
 1. **Merge Strategically**: Use merging for headers and titles, not data areas
-2. **Copy Before Paste**: Always copy source range before pasting operations
+2. **Copy Before Paste**: Always copy source range before pasting
 3. **Clear Appropriately**: Choose the right clear operation for your needs
 4. **Cross-Sheet Planning**: Plan multi-sheet operations to avoid conflicts
 5. **Batch Operations**: Group related operations for better performance

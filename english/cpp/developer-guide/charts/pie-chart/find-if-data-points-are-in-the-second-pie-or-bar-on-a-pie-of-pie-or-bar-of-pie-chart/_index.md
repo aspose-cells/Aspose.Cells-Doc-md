@@ -11,12 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-You can find if data points of series are in the second pie on *Pie of Pie* chart or in the bar of *Bar of Pie* chart using Aspose.Cells. Please use the [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/isinsecondaryplot/) property to determine it.
+You can find if data points of a series are in the second pie on *Pie of Pie* chart or in the bar of *Bar of Pie* chart using Aspose.Cells. Please use the [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/isinsecondaryplot/) property to determine it.
 
-Please download the [sample excel file](5115193.xlsx) used in the following sample code and see its console output. If you open the [sample excel file](5115193.xlsx), you will find, all the data points which are less than 10 are inside the bar of *Bar of Pie* chart as also shown by console output.
+Please download the [sample Excel file](5115193.xlsx) used in the following sample code and see its console output. If you open the [sample Excel file](5115193.xlsx), you will find that all the data points which are less than 10 are inside the bar of *Bar of Pie* chart as also shown in the console output.
 
 ## **Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart**
-The following sample code shows how to find if data points are in the second pie or bar on a *Pie of Pie* or *Bar of Pie* chart.
+The following sample code shows how to find if data points are in the second pie or bar on a *Pie of Pie* or *Bar of Pie* chart.
 
 ```c++
 #include <iostream>
@@ -58,9 +58,9 @@ int main()
 ```
 
 ## **Console Output**
-Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [IsInSecondaryPlot](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/isinsecondaryplot/) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.
+Please see the following console output generated after the execution of the above sample code with the [sample Excel file](5115193.xlsx). If [IsInSecondaryPlot](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chartpoint/isinsecondaryplot/) is **false**, the data point is inside the Pie; if it is **true**, then the data point is inside the Bar.
 
-{{< highlight java >}}
+{{< highlight cpp >}}
 
  Value: 15
 

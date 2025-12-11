@@ -4,7 +4,7 @@ linktitle: Utilize Sheet.SheetId property of OpenXml using Aspose.Cells
 type: docs
 weight: 200
 url: /javascript-cpp/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: This article demonstrates how to utilize Sheet.SheetId property of OpenXml using Excel manipulation with Aspose.Cells for JavaScript via C++ programmatically.
+description: This article demonstrates how to utilize the Sheet.SheetId property of OpenXml using Excel manipulation with Aspose.Cells for JavaScript via C++ programmatically.
 keywords: sheet id property of openxml JavaScript via C++, sheet id excel worksheet JavaScript via C++
 ---
 
@@ -16,7 +16,7 @@ keywords: sheet id property of openxml JavaScript via C++, sheet id excel worksh
 
 ## **Utilize Sheet.SheetId property of OpenXml using Aspose.Cells for JavaScript via C++**
 
-The following sample code loads the [sample Excel file](51740716.xlsx), reads its Sheet or Tab Id, then assigns it new Tab Id and saves it as [output Excel file](51740717.xlsx). Please also see the console output of the code given below for a reference.
+The following sample code loads the [sample Excel file](51740716.xlsx), reads its Sheet or Tab Id, then assigns it a new Tab Id and saves it as [output Excel file](51740717.xlsx). Please also see the console output of the code given below for reference.
 
 ## **Sample Code**
 

@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.
 
-This article explains how to add pictures, and how to insert an image that shows the content of certain cells.
+This article explains how to add pictures and insert an image that shows the content of certain cells.
 
 ## **Adding Pictures**
 
@@ -60,7 +60,7 @@ int main()
 
 There are two possible ways to control the positioning of pictures using Aspose.Cells:
 
-- Proportional positioning: define a position proportional to the row height and width.
+- Proportional positioning: define a position proportional to the row height and column width.
 - Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20 pixels below the edge of the cell.
 
 ### **Proportional Positioning**
@@ -153,9 +153,9 @@ int main()
 
 ## **Inserting a Picture Based on Cell Reference**
 
-Aspose.Cells lets you display the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell, or cell range, is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object.
+Aspose.Cells lets you display the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data you want to display. Since the cell—or cell range—is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object.
 
-Add a picture to the worksheet by calling the [**AddPicture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addpicture/) method of the [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) object). Specify the cell range by using the [**GetFormula**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/getformula/) attribute of the [**Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) object.
+Add a picture to the worksheet by calling the [**AddPicture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/addpicture/) method of the [**ShapeCollection**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shapecollection/) (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) object). Specify the cell range by using the [**GetFormula**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/getformula/) property of the [**Picture**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/picture/) object.
 
 ```c++
 #include <iostream>
@@ -200,7 +200,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Conditional Icons Set with the Cell Text](/cells/cpp/add-conditional-icons-set-with-the-cell-text/)
 - [Insert a Linked Picture from Web Address](/cells/cpp/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture Based on Cell Reference](/cells/cpp/insert-a-picture-based-on-cell-reference/)

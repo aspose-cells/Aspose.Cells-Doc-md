@@ -48,7 +48,7 @@ int main()
     // Create a range of Cells from Cell A1 to C10
     Range workbookScope = cells.CreateRange(u"A1", u"C10");
 
-    // Assign the name to workbook scope named range
+    // Assign a name to the workbook‑scoped named range
     workbookScope.SetName(u"workbookScope");
 
     // Save the workbook
@@ -85,7 +85,7 @@ int main()
     // Create a range of Cells
     Range localRange = cells.CreateRange(u"A1", u"C10");
 
-    // Assign name to range with sheet reference
+    // Assign a name to the range with a sheet reference
     localRange.SetName(u"Sheet1!local");
 
     // Save the workbook
@@ -98,7 +98,7 @@ int main()
 }
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Create Access and Copy Named Ranges](/cells/cpp/create-access-and-copy-named-ranges/)
 - [Format and Modify Named Ranges](/cells/cpp/format-and-modify-named-ranges/)
 - [Get Range with External Links](/cells/cpp/get-range-with-external-links/)

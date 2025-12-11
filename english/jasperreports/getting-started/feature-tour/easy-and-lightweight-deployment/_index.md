@@ -13,6 +13,6 @@ Aspose.Cells for JasperReports is an external exporter for [JasperReports](https
 
 Aspose.Cells for JasperReports is provided as a single JAR file and can be easily installed on computers running JasperReports. [Download it to start a trial](https://downloads.aspose.com/cells/jasperreports).
 
-[To install the exporter](/cells/jasperreports/installation/), **aspose.cells.jasperreports.jar** should be copied to the **JasperReports\lib** directory.
+To install the exporter, **aspose.cells.jasperreports.jar** should be copied to the **JasperReports\lib** directory.
 
 {{% /alert %}}

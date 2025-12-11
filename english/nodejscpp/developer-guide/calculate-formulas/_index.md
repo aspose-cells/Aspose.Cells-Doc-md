@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Adding Formulas & Calculating Results**
 
-Aspose.Cells has an embedded formula calculation engine. Not only can it re-calculate formulas imported from designer templates, but it also supports calculating the results of formulas added at runtime.
+Aspose.Cells has an embedded formula calculation engine. Not only can it re‑calculate formulas imported from designer templates, but it also supports calculating the results of formulas added at runtime.
 
 Aspose.Cells supports most of the formulas or functions that are part of Microsoft Excel (Read [a list of the functions supported by the calculation engine](/cells/nodejs-cpp/supported-formula-functions/)). Those functions can be used through the APIs or designer spreadsheets. Aspose.Cells supports a huge set of mathematical, string, boolean, date/time, statistical, database, lookup, and reference formulas.
 
 Use the [**getFormula()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getFormula--) property or [**setFormula(string, object)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setFormula-string-object-) methods of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-To calculate the results of formulas, the user may call the [**calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class which processes all formulas embedded in an Excel file. Or, the user may call the [**calculateFormula(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-) method of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class which processes all formulas embedded in a sheet. Or, the user may also call the [**calculate(CalculationOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#calculate-calculationoptions-) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class which processes the formula of one Cell:
+To calculate the results of formulas, the user may call the [**calculateFormula()**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#calculateFormula--) method of the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class which processes all formulas embedded in an Excel file. Or, the user may call the [**calculateFormula(string)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-) method of the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class which processes all formulas embedded in a sheet. Or, the user may also call the [**calculate(CalculationOptions)**](https://reference.aspose.com/cells/nodejs-cpp/cell/#calculate-calculationoptions-) method of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class which processes the formula of one cell:
 
 ```javascript
 const path = require("path");
@@ -73,7 +73,7 @@ Aspose.Cells has an embedded formula calculation engine. As well as calculating 
 
 Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
 
-You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) to [**calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#calculateFormula-string-formulaparseoptions-calculationoptions-number-number-calculationdata-) the results of such formulas without adding them to the worksheet:
+You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) to `calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)` **to obtain** the results of such formulas without adding them to the worksheet:
 
 ```javascript
 const path = require("path");
@@ -112,7 +112,7 @@ Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-## **How to Calculate Formulas repeatedly**
+## **How to Calculate Formulas Repeatedly**
 
 When there are lots of formulas in the workbook, and the user needs to calculate them repeatedly while modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**formulaSettings.getEnableCalculationChain()**](https://reference.aspose.com/cells/nodejs-cpp/formulasettings/#getEnableCalculationChain--).
 
@@ -128,7 +128,7 @@ const workbook = new AsposeCells.Workbook(path.join(dataDir, "book1.xls"));
 // Print the time before formula calculation
 console.log(new Date());
 
-// Set the CreateCalcChain as true
+// Set the CreateCalcChain flag to true
 workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
 
 // Calculate the workbook formulas
@@ -140,7 +140,7 @@ console.log(new Date());
 // Change the value of one cell
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("newvalue");
 
-// Re-calculate those formulas which depend on cell A1
+// Re‑calculate those formulas which depend on cell A1
 workbook.calculateFormula();
 ```
 
@@ -152,7 +152,7 @@ By default, the calculation chain is disabled. Because creating the chain also n
 
 {{% /alert %}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Add Cells to Microsoft Excel Formula Watch Window](/cells/nodejs-cpp/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Calculating IFNA function using Aspose.Cells](/cells/nodejs-cpp/calculating-ifna-function-using-aspose-cells/)
 - [Calculation of Array Formula of Data Tables](/cells/nodejs-cpp/calculation-of-array-formula-of-data-tables/)

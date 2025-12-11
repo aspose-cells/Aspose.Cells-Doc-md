@@ -10,10 +10,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Sometime, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for Python via .NET provides [**ChartPoint.x_value_type**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/x_value_type/) and [**ChartPoint.y_value_type**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/y_value_type/) properties that can be used for this purpose. Please note, you will have to call [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate/#) method before you could use these properties effectively.
+Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells for Python via .NET provides [**ChartPoint.x_value_type**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/x_value_type/) and [**ChartPoint.y_value_type**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartpoint/y_value_type/) properties that can be used for this purpose. Please note that you will have to call [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate/#) method before you can use these properties effectively.
 
 ## **Find Type of X and Y Values of Points in Chart Series**
-The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate/#) method and finds the type of X and Y values of first chart point and prints them on console. Please see the console output shown below for a reference.
+The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate/#) method, finds the type of X and Y values of the first chart point, and prints them to the console. Please see the console output shown below for a reference.
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-FindTypeOfXandYValuesOfPointsInChartSeries.py" >}}
@@ -21,10 +21,8 @@ The following sample code loads the [sample Excel file](64716905.xlsx) and acces
 ## **Console Output**
 
 {{< highlight java >}}
-
  X Value Type: IsString
 
 Y Value Type: IsNumeric
-
 {{< /highlight >}}
 {{< app/cells/assistant language="python-net" >}}

@@ -11,12 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-If you want to export your Excel file into HTML with GridLines, then please use the [HtmlSaveOptions.GetExportGridLines()](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportgridlines/) property and set it **true**.
+If you want to export your Excel file into HTML with GridLines, then please use the [HtmlSaveOptions.GetExportGridLines()](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportgridlines/) property and set it **to true**.
 
 {{% /alert %}} 
 
 ## **Export Excel to HTML with GridLines**
-The following sample code creates a workbook and fills its worksheet with some values and then saves it in HTML format after setting the [HtmlSaveOptions.GetExportGridLines()](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportgridlines/) to **true**.
+The following sample code creates a workbook and fills its worksheet with some values and then saves it in HTML format after setting the [HtmlSaveOptions.GetExportGridLines()](https://reference.aspose.com/cells/cpp/aspose.cells/htmlsaveoptions/getexportgridlines/) **property to true**.
 
 ```cpp
 #include <iostream>

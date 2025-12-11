@@ -7,4 +7,4 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-When Aspose.Cells for Reporting Services Report Designer opens a report definition file, it can import report items into a Microsoft Excel file.
+When Aspose.Cells for Reporting Services Report Designer opens a report definition file, it can import the report items into a Microsoft Excel file.

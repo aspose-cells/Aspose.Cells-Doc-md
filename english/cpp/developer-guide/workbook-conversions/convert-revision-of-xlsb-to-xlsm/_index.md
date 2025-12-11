@@ -11,9 +11,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells now supports the full conversion of revisions of XLSB files into XLSM files. Revisions are found inside the path \xl\revisions. You can view them by changing your XLSB file extension to ZIP. The \xl\revisions path contains files ending with .bin extensions.
+Aspose.Cells now supports the full conversion of revisions of XLSB files into XLSM files. Revisions are found inside the path `\xl\revisions`. You can view them by changing the XLSB file extension to **.zip**. The `\xl\revisions` path contains files ending with `.bin` extensions.
 
-When you convert your XLSB file into XLSM file using Aspose.Cells, these .bin files successfully convert to .xml files as shown in these two screenshots.
+When you convert your XLSB file into an **XLSM** file using Aspose.Cells, these `.bin` files are successfully converted to `.xml` files, as shown in the two screenshots.
 
 {{% /alert %}} 
 

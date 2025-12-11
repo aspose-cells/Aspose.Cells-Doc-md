@@ -30,7 +30,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Path of input excel file
+    // Path of the input Excel file
     U16String filePath = srcDir + u"input.xlsx";
 
     // Create workbook
@@ -43,7 +43,7 @@ int main()
     // Here the range is E9:H15
     CellArea area = CellArea::CreateCellArea(u"E9", u"H15");
 
-    // Specify Find options
+    // Specify find options
     FindOptions opts;
     opts.SetLookInType(LookInType::Values);
     opts.SetLookAtType(LookAtType::EntireContent);
@@ -52,14 +52,14 @@ int main()
     Cell cell;
     do
     {
-        // Search the cell with value search within range
+        // Search for cells with the value "search" within the range
         cell = worksheet.GetCells().Find(u"search", cell, opts);
 
-        // If no such cell found, then break the loop
+        // If no such cell is found, break the loop
         if (!cell)
             break;
 
-        // Replace the cell with value replace
+        // Replace the cell value with "replace"
         cell.PutValue(u"replace");
 
     } while (true);

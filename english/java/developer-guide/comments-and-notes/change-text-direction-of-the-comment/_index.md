@@ -17,7 +17,7 @@ Microsoft Excel users can add comments to cells in spreadsheets to add additiona
 
 Aspose.Cells provides a [**Shape.setTextDirection()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setTextDirection-int-) method to set the desired text direction for a comment.
 
-The following image shows the comment with its format settings in Microsoft Excel. The output file is obtained after running the below code segment.
+The following image shows the comment with its format settings in Microsoft Excel. The output file is obtained after running the code segment below.
 
 **Comment with right-to-left text direction**
 

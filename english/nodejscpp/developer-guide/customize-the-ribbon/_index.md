@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Microsoft Office replaced menus and toolbars with a Ribbon at the top of the application window since office 2007. The Ribbon is customizable. 
+Microsoft Office has replaced menus and toolbars with a Ribbon at the top of the application window since Office 2007. The Ribbon is customizable. 
 Aspose.Cells for Node.js via C++ allows you to
 
 - Keep Ribbon XML without parsing it,

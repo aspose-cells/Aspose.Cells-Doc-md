@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Setting Formula for Named Range**
-Like Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range while using its [GetRefersTo()](https://reference.aspose.com/cells/cpp/aspose.cells/range/getrefersto/) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follow.
+Like the Excel application, Aspose.Cells APIs provide the ability to specify a formula for a named range using its [GetRefersTo()](https://reference.aspose.com/cells/cpp/aspose.cells/range/getrefersto/) property. There could be numerous usability scenarios for this feature, a few of which are detailed as follows.
 
 ### **Setting a Simple Formula for Named Range**
 A simple formula could be a reference to another cell in the same (or different) worksheet. The following example creates a named range in a new spreadsheet and sets its reference to another cell.
@@ -42,10 +42,10 @@ int main()
     // Access the newly created Named Range
     Name name = worksheets.GetNames().Get(index);
 
-    // Set RefersTo property of the Named Range to a formula. Formula references another cell in the same worksheet
+    // Set RefersTo property of the Named Range to a formula that references another cell in the same worksheet
     name.SetRefersTo(u"=Sheet1!$A$3");
 
-    // Set the formula in the cell A1 to the newly created Named Range
+    // Set the formula in cell A1 to refer to the newly created Named Range
     worksheets.Get(0).GetCells().Get(u"A1").SetFormula(u"NewNamedRange");
 
     // Insert the value in cell A3 which is being referenced in the Named Range
@@ -64,7 +64,7 @@ int main()
 ```
 
 ### **Setting a Complex Formula for Named Range**
-A complex formula could be anything such as a dynamic range or a formula spanning over multiple cells in different worksheets. The following example creates a dynamic range using the INDEX function to get the value from a list based on its location.
+A complex formula could be a dynamic range or a formula spanning multiple cells in different worksheets. The following example creates a dynamic range using the `INDEX` function to get a value from a list based on its location.
 
 ```cpp
 #include <iostream>
@@ -93,7 +93,7 @@ int main()
     // Access the newly created Named Range from the collection
     Name data = worksheets.GetNames().Get(index);
 
-    // Set RefersTo property of the Named Range to a cell range in same worksheet
+    // Set RefersTo property of the Named Range to a cell range in the same worksheet
     data.SetRefersTo(u"=Sheet1!$A$1:$A$10");
 
     // Add another Named Range with name "range"
@@ -102,7 +102,7 @@ int main()
     // Access the newly created Named Range from the collection
     Name range = worksheets.GetNames().Get(index);
 
-    // Set RefersTo property to a formula using the Named Range data
+    // Set RefersTo property to a formula that uses the Named Range data
     range.SetRefersTo(u"=INDEX(data,Sheet1!$A$1,1):INDEX(data,Sheet1!$A$1,9)");
 
     // Save the workbook
@@ -114,7 +114,7 @@ int main()
 }
 ```
 
-Here is another example that uses a named range to sum values from 2 cells in different worksheets.
+Here is another example that uses a named range to sum values from two cells in different worksheets.
 
 ```cpp
 #include <iostream>
@@ -153,7 +153,7 @@ int main()
     // Set RefersTo property of the Named Range to a SUM function
     range.SetRefersTo(u"=SUM(Sheet1!$A$1,Sheet2!$A$1)");
 
-    // Insert the Named Range as formula to 3rd worksheet
+    // Insert the named range as a formula into the third worksheet
     worksheets.Get(worksheets.Add()).GetCells().Get(u"A1").SetFormula(u"range");
 
     // Calculate formulas

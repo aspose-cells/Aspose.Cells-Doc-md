@@ -11,18 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-You can use the following client side functions to select a range or to get the selected range in a GridWeb using JavaScript.
+You can use the following client‑side functions to select a range or to get the selected range in a GridWeb using JavaScript.
 
 - getSelectRange()
 - setSelectRange()
 - clearSelections()
 
-getSelectRange() returns the last selected range. setSelectRange() selects the given range. clearSelections() clears all selection excluding current active cell.
+`getSelectRange()` returns the last selected range. `setSelectRange()` selects the given range. `clearSelections()` clears all selections, excluding the currently active cell.
 
 {{% /alert %}} 
-## **Using client side functions to select a range or to get the selected range in a GridWeb using JavaScript**
+
+## Using client‑side functions to select a range or get the selected range in a GridWeb using JavaScript
 The following code explains the usage of these functions.
-
-
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-UsingClientSideRangeFunctions-UsingRangeFunctions.aspx" >}}

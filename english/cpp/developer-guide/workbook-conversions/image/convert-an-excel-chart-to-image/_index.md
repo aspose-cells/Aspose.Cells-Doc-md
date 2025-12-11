@@ -64,7 +64,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Open the existing excel file which contains the pie chart.
+    // Open the existing Excel file that contains the pie chart.
     Workbook workbook(srcDir + u"PieChart.xlsx");
 
     // Get the designer chart (first chart) in the first worksheet of the workbook.
@@ -98,7 +98,7 @@ First, create a column chart in Microsoft Excel and convert it to an image file,
 |![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|
 
 1. Set up a project, with references, as described above.
-1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
+1. Convert the chart to an image dynamically. The code used by the component to accomplish the task is similar to the previous one:
 
 ```c++
 #include <iostream>
@@ -114,7 +114,7 @@ int main()
     // Source directory path
     U16String srcDir(u"..\\Data\\01_SourceDirectory\\");
 
-    // Open the existing excel file which contains the column chart.
+    // Open the existing Excel file that contains the column chart.
     U16String inputFilePath = srcDir + u"ColumnChart.xlsx";
     Workbook workbook(inputFilePath);
 

@@ -4,7 +4,7 @@ linktitle: Access the Text Box by the Name
 type: docs
 weight: 230
 url: /nodejs-cpp/access-the-text-box-by-the-name/
-description: Learn how to access a text box by name from the collection in Aspose.Cells for Node.js via C++. 
+description: Learn how to access a text box by name from the collection in Aspose.Cells for Node.js via C++.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -13,7 +13,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Earlier, text boxes were accessed by index from the [**Worksheet.getTextBoxes()**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getTextBoxes--) collection, but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
 
-The following sample code first creates a text box and assigns it some text and name. Then in the next lines, we access the same text box by its name and print its text.
+The following sample code first creates a text box and assigns it some text and a name. Then, in the following lines, we access the same text box by its name and print its text.
 
 ### Node.js code to access the text box by name
 
@@ -27,13 +27,13 @@ const filePath = path.join(dataDir, "sample.xlsx");
 // Loads the workbook which contains hidden external links
 const workbook = new AsposeCells.Workbook(filePath);
 
-// Access first worksheet from the collection
+// Access the first worksheet from the collection
 const sheet = workbook.getWorksheets().get(0);
 
 // Add the TextBox to the worksheet
 const idx = sheet.getTextBoxes().add(10, 10, 10, 10);
 
-// Access newly created TextBox using its index & name it
+// Access the newly created TextBox using its index and set its name
 const tb1 = sheet.getTextBoxes().get(idx);
 tb1.setName("MyTextBox");
 

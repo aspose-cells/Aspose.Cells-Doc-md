@@ -3,13 +3,13 @@ title: Apply Advanced Filter of Microsoft Excel to Display Records Meeting Compl
 type: docs
 weight: 280
 url: /javascript-cpp/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: Learn how to apply advanced filter of Microsoft Excel to display records meeting complex criteria by using the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to apply the advanced filter of Microsoft Excel to display records meeting complex criteria by using the Aspose.Cells for JavaScript via C++ API.
 keywords: Apply Advanced Filter JavaScript via C++, Set Advanced Filter JavaScript via C++, Add Advanced Filter JavaScript via C++, Create Advanced Filter JavaScript via C++, How to add Advanced Filter to a range JavaScript via C++
 ---
 
 ## **Possible Usage Scenarios**  
 
-Microsoft Excel allows you to apply *Advanced Filter* on worksheet data to display records that meet complex criteria. You can apply Advanced Filter with Microsoft Excel via its *Data > Advanced* command as shown in this screenshot.  
+Microsoft Excel allows you to apply *Advanced Filter* on worksheet data to display records that meet complex criteria. You can apply Advanced Filter with Microsoft Excel via its *Data > Advanced* command as shown in this screenshot.  
 
 ![todo:image_alt_text](1.png)  
 
@@ -17,7 +17,7 @@ Aspose.Cells for JavaScript via C++ also allows you to apply the Advanced Filter
 
 **isFilter**  
 
-Indicates whether filtering the list in place.  
+Indicates whether to filter the list in place.  
 
 **listRange**  
 
@@ -29,15 +29,15 @@ The criteria range.
 
 **copyTo**  
 
-The range where copying data to.  
+The range to which data will be copied.  
 
 **uniqueRecordOnly**  
 
-Only displaying or copying unique rows.  
+Specifies whether to display or copy only unique rows.  
 
 ## **Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria**  
 
-The following sample code applies the advanced filter on the [Sample Excel File](48496692.xlsx) and generates the [Output Excel File](48496691.xlsx). The screenshot shows both files for comparison. As you can see inside the screenshot, data has been filtered inside the output Excel file according to complex criteria.  
+The following sample code applies the advanced filter to the [Sample Excel File](48496692.xlsx) and generates the [Output Excel File](48496691.xlsx). The screenshot shows both files for comparison. As you can see in the screenshot, the data has been filtered in the output Excel file according to the complex criteria.  
 
 ![todo:image_alt_text](2.png)  
 

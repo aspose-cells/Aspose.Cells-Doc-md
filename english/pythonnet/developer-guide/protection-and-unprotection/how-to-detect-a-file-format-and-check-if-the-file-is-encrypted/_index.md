@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password-protected file) so it can't be read it directly, or we should not read it. Aspose.Cells for Python via .NET provides the [**FileFormatUtil.detect_file_format()**](https://reference.aspose.com/cells/python-net/aspose.cells/fileformatutil/detect_file_format) static method and some relevant APIs that you can use to process documents.
+Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password‑protected file), so it can't be read directly, or we should not read it. Aspose.Cells for Python via .NET provides the **[FileFormatUtil.detect_file_format()](https://reference.aspose.com/cells/python-net/aspose.cells/fileformatutil/detect_file_format)** static method and some relevant APIs that you can use to process documents.
 
 {{% /alert %}}
 

@@ -20,7 +20,7 @@ Aspose.Cells provides powerful features to manage shape text options in Excel fi
 Aspose.Cells allows you to customize the text within shapes in Excel files. The [**Shape**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/) class provides methods and properties to manage text options such as alignment, orientation, and formatting.
 
 ### **Setting Text Alignment**
-You can set the horizontal and vertical alignment of text within a shape using the [**GetTextHorizontalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettexthorizontalalignment/) and [**GetTextVerticalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettextverticalalignment/) properties.
+You can set the horizontal and vertical alignment of text within a shape using the [**GetTextHorizontalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettexthorizontalalignment/) and [**GetTextVerticalAlignment()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/gettextverticalalignment/) **methods**.
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -46,7 +46,7 @@ void SetTextAlignment() {
 ```
 
 ### **Setting Text Orientation**
-You can also set the orientation of the text within a shape using the [**TextOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells/textorientationtype/) property.
+You can also set the orientation of the text within a shape using the **SetTextOrientationType** method with the [**TextOrientationType**](https://reference.aspose.com/cells/cpp/aspose.cells/textorientationtype/) enumeration.
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -59,7 +59,7 @@ void SetTextOrientation() {
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
     TextBox textbox = worksheet.GetTextBoxes().Get(0);
-    textbox.SetTextOrientationType(TextOrientationType::ClockWise);
+    textbox.SetTextOrientationType(TextOrientationType::Clockwise);
 
     workbook.Save("output.xlsx");
 }

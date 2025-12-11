@@ -5,18 +5,18 @@ type: docs
 weight: 60  
 url: /nodejs-cpp/draw-timeline-while-rendering-excel-to-pdf/  
 description: Manage timelines of Excel files with Aspose.Cells for Node.js via C++.  
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365 Node.js via C++  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+keywords: Rendering timeline to PDF without Office 2013, Office 2016, Office 2019, and Office 365 Node.js via C++  
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
-  
+
 ## **Draw Timeline while rendering Excel to PDF**  
-If you have an Excel file which has a timeline applied to it and you want to export the Excel to PDF with the timeline settings, Aspose.Cells for Node.js via C++ now supports this by default. You simply export the Excel file with a timeline to PDF, and the generated PDF will show the timeline applied.  
-  
+If you have an Excel file **that** has a timeline applied to it and you want to export **the Excel file** to PDF with the timeline settings, Aspose.Cells for Node.js via C++ now supports this by default. You simply export the Excel file **containing** a timeline to PDF, and the generated PDF will show the timeline applied.  
+
 The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. It then saves the workbook as [output PDF file](out.pdf). The following screenshot compares the source Excel file and the generated PDF file.  
-  
+
 <img src="out.png" width="60%">  
-  
+
 ## **Sample Code**  
 ```javascript
 const path = require("path");
@@ -30,5 +30,5 @@ const workbook = new AsposeCells.Workbook(filePath);
 // Save file to pdf
 workbook.save("out.pdf", AsposeCells.SaveFormat.Pdf);
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

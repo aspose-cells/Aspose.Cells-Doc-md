@@ -15,14 +15,14 @@ A PivotChart in Excel is a graphical representation of data created from a Pivot
 
 ## How to manage PivotChart with PivotOptions
 
-By using Aspose.Cells, you can use [**PivotOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotoptions/) to manage PivotChart.
+By using Aspose.Cells, you can use [**PivotOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotoptions/) to manage a PivotChart.
 
 Sample file and code:
 [Sample File](Sample.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotOptions.java" >}}
 
-With the example code above, you can check the result file with the following effect, as shown in the figure:
+With the example code above, you can view the resulting file, as shown in the figure below:
 
 **![Output](Output.png)**
 {{< app/cells/assistant language="java" >}}

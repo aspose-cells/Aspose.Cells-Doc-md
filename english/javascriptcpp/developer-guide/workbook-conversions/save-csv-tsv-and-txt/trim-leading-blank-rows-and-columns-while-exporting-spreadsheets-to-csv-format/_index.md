@@ -9,7 +9,7 @@ description: Learn how to trim leading blank rows and columns when exporting spr
 
 ## **Possible Usage Scenarios**
 
-Sometimes, your Excel or CSV file has leading blank columns or rows. For example, consider this line
+Sometimes, your Excel or CSV file has leading blank columns or rows. For example, consider this line:
 
 {{< highlight javascript >}}
 
@@ -17,19 +17,19 @@ Sometimes, your Excel or CSV file has leading blank columns or rows. For example
 
 {{< /highlight >}}
 
-Here the first three cells or columns are blank. When you open such a CSV file in Microsoft Excel, then Microsoft Excel discards these leading blank rows and columns.
+Here the first three cells (or columns) are blank. When you open such a CSV file in Microsoft Excel, it discards these leading blank rows and columns.
 
-By default, Aspose.Cells for JavaScript via C++ does not discard leading blank columns and rows on saving but if you want to remove them just like Microsoft Excel does, then Aspose.Cells provides [**TxtSaveOptions.trimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--) property. Please set it to **true** and then all the leading blank rows and columns will be discarded on saving.
+By default, Aspose.Cells for JavaScript via C++ does not discard leading blank columns and rows on saving, but if you want to remove them just as Microsoft Excel does, set Aspose.Cells' **[TxtSaveOptions.trimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--)** property to **true**. All the leading blank rows and columns will then be discarded on saving.
 
 {{% alert color="primary" %}}
 
-Prior to the release of Aspose.Cells for JavaScript via C++ 20.4, the default value of [**TxtSaveOptions.trimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--) was **false**. Since the 20.4 release, the default value of [**TxtSaveOptions.trimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--) is **true.**
+Prior to the release of Aspose.Cells for JavaScript via C++ 20.4, the default value of **[TxtSaveOptions.trimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--)** was **false**. Since the 20.4 release, the default value of **[TxtSaveOptions.trimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--)** is **true**.
 
 {{% /alert %}}
 
 ## **Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format**
 
-The following sample code loads the [source excel file](sampleTrimBlankColumns.xlsx) which has two leading blank columns. It first saves the excel file in CSV format without any changes and then it sets [**TxtSaveOptions.trimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--) property to **true** and saves it again. The screenshot shows the [source excel file](sampleTrimBlankColumns.xlsx), [output CSV file without trimming](outputWithoutTrimBlankColumns.csv), and the [output CSV file with trimming](outputTrimBlankColumns.csv).
+The following sample code loads the **source Excel file** ([sampleTrimBlankColumns.xlsx](sampleTrimBlankColumns.xlsx)) that has two leading blank columns. It first saves the Excel file in CSV format without any changes, then sets **[TxtSaveOptions.trimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/javascript-cpp/txtsaveoptions/#trimLeadingBlankRowAndColumn--)** to **true** and saves it again. The screenshot shows the source Excel file, the output CSV file without trimming, and the output CSV file with trimming.
 
 ![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
@@ -79,7 +79,7 @@ The following sample code loads the [source excel file](sampleTrimBlankColumns.x
             // Load source workbook
             const wb = new Workbook(new Uint8Array(arrayBuffer));
 
-            // Save in csv format (without trimming)
+            // Save in CSV format (without trimming)
             const outputData1 = wb.save(SaveFormat.Csv);
             const blob1 = new Blob([outputData1]);
             const downloadLink1 = document.getElementById('downloadLink1');
@@ -88,11 +88,11 @@ The following sample code loads the [source excel file](sampleTrimBlankColumns.x
             downloadLink1.style.display = 'inline-block';
             downloadLink1.textContent = 'Download CSV Without Trimming';
 
-            // Now save again with TrimLeadingBlankRowAndColumn as true
+            // Now save again with TrimLeadingBlankRowAndColumn set to true
             const opts = new TxtSaveOptions();
             opts.trimLeadingBlankRowAndColumn = true;
 
-            // Save in csv format (with trimming)
+            // Save in CSV format (with trimming)
             const outputData2 = wb.save(opts);
             const blob2 = new Blob([outputData2]);
             const downloadLink2 = document.getElementById('downloadLink2');

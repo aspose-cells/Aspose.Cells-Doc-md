@@ -4,7 +4,7 @@ linktitle: Copy Page Setup Settings
 type: docs
 weight: 80
 url: /cpp/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: This article explains how to use the C++ API or Library sample code to copy Page Setup settings from source Worksheet into destination Worksheet programmatically.
+description: This article explains how to use the C++ API or library sample code to copy Page Setup settings from a source worksheet into a destination worksheet programmatically.
 keywords: copy page setup settings c++, copy page setup settings to target worksheet c++
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,11 +12,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When you add a new sheet to a workbook, it contains the default *Page Setup settings*. There may be times when you need to transfer the settings ([**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/)) from one worksheet to another worksheet. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.
+When you add a new sheet to a workbook, it contains the default *Page Setup settings*. There may be times when you need to transfer the settings ([**PageSetup**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/)) from one worksheet to another. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.
 
 ## **Copy Page Setup Settings from Source Worksheet into Destination Worksheet**
 
-The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using [**PageSetup.Copy()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/copy/) method. Please see the following sample code and its console output for a reference.
+The following sample code illustrates how to copy *Page Setup settings* from one worksheet to another using the [**PageSetup.Copy()**](https://reference.aspose.com/cells/cpp/aspose.cells/pagesetup/copy/) method. Please refer to the sample code and its console output for reference.
 
 ## **Sample Code**
 
@@ -58,8 +58,7 @@ int main()
 
 ## **Console Output**
 
-{{< highlight java >}}
-
+{{< highlight cpp >}}
 Before Paper Size: PaperA3ExtraTransverse
 
 Before Paper Size: PaperLetter
@@ -67,6 +66,5 @@ Before Paper Size: PaperLetter
 After Paper Size: PaperA3ExtraTransverse
 
 After Paper Size: PaperA3ExtraTransverse
-
 {{< /highlight >}}
 {{< app/cells/assistant language="cpp" >}}

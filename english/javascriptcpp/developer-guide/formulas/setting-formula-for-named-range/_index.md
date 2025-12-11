@@ -55,13 +55,13 @@ A simple formula could be a reference to another cell in the same (or different)
             // Access the newly created Named Range
             const name = worksheets.names.get(index);
 
-            // Set RefersTo property of the Named Range to a formula. Formula references another cell in the same worksheet
+            // Set the RefersTo property of the named range to a formula that references another cell in the same worksheet
             name.refersTo = "=Sheet1!$A$3";
 
-            // Set the formula in the cell A1 to the newly created Named Range
+            // Set the formula in cell A1 to the newly created Named Range
             worksheets.get(0).cells.get("A1").formula = "NewNamedRange";
 
-            // Insert the value in cell A3 which is being referenced in the Named Range
+            // Insert the value in cell A3, which is referenced by the Named Range
             worksheets.get(0).cells.get("A3").value = "This is the value of A3";
 
             // Calculate formulas
@@ -143,7 +143,7 @@ A complex formula could be anything such as a dynamic range or a formula spannin
             // Access the newly created Named Range from the collection
             const data = worksheets.names.get(index);
 
-            // Set RefersTo property of the Named Range to a cell range in same worksheet
+            // Set RefersTo property of the Named Range to a cell range in the same worksheet
             data.refersTo = "=Sheet1!$A$1:$A$10";
 
             // Add another Named Range with name "range"
@@ -170,7 +170,7 @@ A complex formula could be anything such as a dynamic range or a formula spannin
 </html>
 ```
 
-Here is another example that uses a named range to sum values from 2 cells in different worksheets.
+Here is another example that uses a named range to sum values from two cells in different worksheets.
 
 ```html
 <!DOCTYPE html>
@@ -226,7 +226,7 @@ Here is another example that uses a named range to sum values from 2 cells in di
             // Set RefersTo property of the Named Range to a SUM function
             range.refersTo = "=SUM(Sheet1!$A$1,Sheet2!$A$1)";
 
-            // Insert the Named Range as formula to 3rd worksheet
+            // Insert the named range as a formula into the third worksheet
             const newIndex2 = worksheets.add();
             worksheets.get(newIndex2).cells.get("A1").formula = "range";
 

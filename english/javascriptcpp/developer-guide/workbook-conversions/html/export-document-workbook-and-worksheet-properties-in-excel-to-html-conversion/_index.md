@@ -9,7 +9,7 @@ description: Learn how to export Document, Workbook, and Worksheet properties in
 
 ## **Possible Usage Scenarios**  
 
-When a Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Cells for JavaScript via C++, it also exports various types of Document, Workbook, and Worksheet properties as shown in the following screenshot. You can avoid exporting these properties by setting the [**HtmlSaveOptions.exportDocumentProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportDocumentProperties--), [**HtmlSaveOptions.exportWorkbookProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportWorkbookProperties--) and [**HtmlSaveOptions.exportWorksheetProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportWorksheetProperties--) as **false**. The default value of these properties is **true**. The following screenshot shows how these properties look like in exported HTML.  
+When a Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Cells for JavaScript via C++, it also exports various types of Document, Workbook, and Worksheet properties as shown in the following screenshot. You can avoid exporting these properties by setting the [**HtmlSaveOptions.exportDocumentProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportDocumentProperties--), [**HtmlSaveOptions.exportWorkbookProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportWorkbookProperties--) and [**HtmlSaveOptions.exportWorksheetProperties**](https://reference.aspose.com/cells/javascript-cpp/htmlsaveoptions/#exportWorksheetProperties--) to **false**. The default value of these properties is **true**. The following screenshot shows how these properties look in the exported HTML.  
 
 ![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)  
 
@@ -70,7 +70,7 @@ The following sample code loads the [sample Excel file](61767776.xlsx) and conve
             options.exportWorkbookProperties = false;
             options.exportWorksheetProperties = false;
 
-            // Export the Excel file to Html with Html Save Options
+            // Export the Excel file to HTML with Html Save Options
             const outputData = workbook.save(SaveFormat.Html, options);
             const blob = new Blob([outputData], { type: 'text/html' });
             const downloadLink = document.getElementById('downloadLink');

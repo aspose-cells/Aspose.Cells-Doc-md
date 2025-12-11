@@ -3,8 +3,8 @@ title: Limit the Number of Pages Generated - Excel to PDF Conversion
 type: docs
 weight: 180
 url: /python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
-description: Learn how to Limit the Number of Pages Generated while Rendering Excel to PDF with Aspose.Cells for Python via .NET API.
-keywords: Python Limit the Number of Pages Generated while Rendering Excel to PDF, Limit the Number of Pages Generated while saving Excel to PDF using Python, Python Set the Number of Pages Generated while converting Excel to PDF, Control the Number of Pages Generated for Excel to PDF in python
+description: Learn how to limit the number of pages generated while rendering Excel to PDF with Aspose.Cells for Python via .NET API.
+keywords: Python limit the number of pages generated while rendering Excel to PDF, limit the number of pages generated while saving Excel to PDF using Python, Python set the number of pages generated while converting Excel to PDF, control the number of pages generated for Excel to PDF in python
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -23,7 +23,7 @@ The following example shows how to render a range of pages (3 and 4) in a Micros
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) method just before rendering it to PDF. Doing ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.
+If the spreadsheet contains formulas, it is best to call [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) method just before rendering it to PDF. Doing so ensures that formula‑dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}
 {{< app/cells/assistant language="python-net" >}}

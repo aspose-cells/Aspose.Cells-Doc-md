@@ -12,13 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc., but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or more customization.
+A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc., but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little to no customization.
 
 {{% /alert %}} 
 
-Aspose.Cells APIs allow creating a waterfall chart with the help of the line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.getUpBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getUpBars--) & [**Series.getDownBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getDownBars--) properties.
+Aspose.Cells APIs allow creating a waterfall chart with the help of a line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.getUpBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getUpBars--) & [**Series.getDownBars()**](https://reference.aspose.com/cells/nodejs-cpp/series/#getDownBars--) properties.
 
-Below provided code snippet demonstrates the usage of Aspose.Cells for Node.js via C++ to create a waterfall chart from scratch.
+The code snippet below demonstrates the usage of Aspose.Cells for Node.js via C++ to create a waterfall chart from scratch.
 
 ```javascript
 const path = require("path");
@@ -58,7 +58,7 @@ cells.get("C4").putValue(9.5);
 cells.get("C5").putValue(7.5);
 cells.get("C6").putValue(9.5);
 
-// Add a Chart of type Waterfall in same worksheet as of data
+// Add a chart of type Waterfall in the same worksheet as the data
 const idx = worksheet.getCharts().add(AsposeCells.ChartType.Waterfall, 4, 4, 25, 13);
 
 // Retrieve the Chart object
@@ -70,7 +70,7 @@ chart.getNSeries().add("$B$1:$C$6", true);
 // Add Category Data
 chart.getNSeries().setCategoryData("$A$1:$A$6");
 
-// Series has Up Down Bars
+// Series has Up/Down Bars
 chart.getNSeries().get(0).setHasUpDownBars(true);
 
 // Set the colors of Up and Down Bars
@@ -81,7 +81,7 @@ chart.getNSeries().get(0).getDownBars().getArea().setForegroundColor(AsposeCells
 chart.getNSeries().get(0).getBorder().setIsVisible(false);
 chart.getNSeries().get(1).getBorder().setIsVisible(false);
 
-// Set the Plot Area Formatting Automatic
+// Set the Plot Area formatting to Automatic
 chart.getPlotArea().getArea().setFormatting(AsposeCells.FormattingType.Automatic);
 
 // Delete the Legend

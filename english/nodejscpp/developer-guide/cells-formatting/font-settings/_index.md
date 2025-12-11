@@ -16,20 +16,20 @@ The look and feel of a text can be controlled by changing font settings. The fon
 
 ## **Configuring Font Settings**  
 
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/nodejs-cpp/workbook/#getWorksheets--) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#getCells--) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/nodejs-cpp/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class.  
+Aspose.Cells provides a class **Workbook** that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **Cells** collection. Each item in the **Cells** collection represents an object of the **Cell** class.  
 
-Aspose.Cells provides the [**Cell**](https://reference.aspose.com/cells/nodejs-cpp/cell) class' [**getStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getStyle--) and [**setStyle**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setStyle-style-) methods which are used to get and set a cell's formatting style. The [**Style**](https://reference.aspose.com/cells/nodejs-cpp/style) class provides properties for configuring font settings.  
+Aspose.Cells provides the **Cell** class's **getStyle** and **setStyle** methods, which are used to get and set a cell's formatting style. The **Style** class provides properties for configuring font settings.  
 
 ### **Setting Font Name**  
 
-Developers can apply any font to text inside a cell by using the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [setName](https://reference.aspose.com/cells/nodejs-cpp/font/#setName-string-) method.  
+Developers can apply any font to text inside a cell by using the **Font** object's **setName** method.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontName.js" >}}
 
 
 ### **Setting Font Style to Bold**  
 
-Developers can make text bold by setting the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setIsBold**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsBold-boolean-) method to **true**.   
+Developers can make text bold by setting the **Font** object's **setIsBold** method to **true**.   
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetBoldStyle.js" >}}
 
@@ -37,44 +37,43 @@ Developers can make text bold by setting the [**Font**](https://reference.aspose
 
 ### **Setting Font Size**  
 
-Set the font size with the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setSize**](https://reference.aspose.com/cells/nodejs-cpp/font/#setSize-number-) method.  
+Set the font size with the **Font** object's **setSize** method.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontSize.js" >}}
 
 
 ### **Setting Font Color**  
 
-Use the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setColor**](https://reference.aspose.com/cells/nodejs-cpp/font/#setColor-color-) method to set the font color. Select any color from the Color enumeration (part of Node.js) and assign it to the [**setColor**](https://reference.aspose.com/cells/nodejs-cpp/font/#setColor-color-) method.  
+Use the **Font** object's **setColor** method to set the font color. Select any color from the Color enumeration (part of Node.js) and assign it to the **setColor** method.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontColor.js" >}}
 
 
 ### **Setting Font Underline Type**  
 
-Use the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setUnderline**](https://reference.aspose.com/cells/nodejs-cpp/font/#setUnderline-fontunderlinetype-) method to underline text. Aspose.Cells offers various pre-defined font underline types in the [**FontUnderlineType**](https://reference.aspose.com/cells/nodejs-cpp/fontunderlinetype) enumeration.  
+Use the **Font** object's **setUnderline** method to underline text. Aspose.Cells offers various pre‑defined font underline types in the **FontUnderlineType** enumeration.  
 
-|**Font Underline Types**|**Description**|  
-| :- | :- |  
-|Accounting|A single accounting underline|  
-|Double|Double underline|  
-|DoubleAccounting|Double accounting underline|  
-|None|No underline|  
-|Single|A single underline|  
+| **Font Underline Types** | **Description** |
+| :- | :- |
+| Accounting | A single accounting underline |
+| Double | Double underline |
+| DoubleAccounting | Double accounting underline |
+| None | No underline |
+| Single | A single underline |
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontUnderline.js" >}}
 
 
 ### **Setting Strikeout Effect**  
 
-Apply strikeout by setting the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setIsStrikeout**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsStrikeout-boolean-) method to **true**.  
+Apply strikeout by setting the **Font** object's **setIsStrikeout** method to **true**.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontStrikeout.js" >}}
 
 
 ### **Setting Subscript Effect**  
 
-Apply subscript by setting the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object's [**setIsSubscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSubscript-boolean-) method to **true**.  
-
+Apply subscript by setting the **Font** object's **setIsSubscript** method to **true**.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetFontStrikeout.js" >}}
 
@@ -82,14 +81,13 @@ Apply subscript by setting the [**Font**](https://reference.aspose.com/cells/nod
 
 ### **Setting Superscript Effect on Font**  
 
-Developers can apply the superscript effect on the font by setting the [**setIsSuperscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSuperscript-boolean-) method of the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/style/#getFont--) object to **true**.  
+Developers can apply the superscript effect on the font by setting the **Font** object's **setIsSuperscript** method to **true**.  
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-SetSuperscript.js" >}}
 
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Apply Superscript and Subscript Effects on Fonts](/cells/nodejs-cpp/apply-superscript-and-subscript-effects-on-fonts/)  
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/nodejs-cpp/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)  
 
-  
 {{< app/cells/assistant language="nodejs-cpp" >}}

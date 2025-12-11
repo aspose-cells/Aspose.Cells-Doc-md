@@ -7,7 +7,7 @@ url: /javascript-cpp/setting-pivot-table-option-for-empty-cells-show/
 
 {{% alert color="primary" %}}
 
-You can set different pivot table options using Aspose.Cells for JavaScript via C++. One such option is "For empty cells show". By setting this option, all empty cells in a pivot table are displayed as a specified string.
+You can set different pivot table options using Aspose.Cells for JavaScript via C++. One such option is **“For empty cells show.”** By setting this option, all empty cells in a pivot table are displayed as a specified string.
 
 {{% /alert %}}
 
@@ -15,14 +15,14 @@ You can set different pivot table options using Aspose.Cells for JavaScript via 
 
 To find and set this option in Microsoft Excel:
 
-1. Select a pivot table and right-click.
-1. Select **PivotTable Options**.
-1. Select the **Layout & Format** tab.
-1. Select the **For empty cells show** option and specify a string.
+1. Select a pivot table and right‑click it.  
+2. Select **PivotTable Options**.  
+3. Select the **Layout & Format** tab.  
+4. Select the **For empty cells show** option and specify a string.
 
 ## **Setting Pivot Table Option Using Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells for JavaScript via C++ provides the [**PivotTable.displayNullString**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#displayNullString-boolean-) and [**PivotTable.nullString**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#nullString-string-) properties for setting the "For empty cells show" pivot table option.
+Aspose.Cells for JavaScript via C++ provides the [**PivotTable.displayNullString**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#displayNullString-boolean-) and [**PivotTable.nullString**](https://reference.aspose.com/cells/javascript-cpp/pivottable/#nullString-string-) properties for setting the **“For empty cells show”** pivot table option.
 
 ```html
 <!DOCTYPE html>
@@ -73,7 +73,7 @@ Aspose.Cells for JavaScript via C++ provides the [**PivotTable.displayNullString
             const worksheet = workbook.worksheets.get(0);
             const pt = worksheet.pivotTables.get(0);
 
-            // Indicating if or not display the empty cell value
+            // Indicating whether or not to display the empty cell value
             pt.displayNullString = true;
             // Indicating the null string
             pt.nullString = "null";
@@ -81,7 +81,7 @@ Aspose.Cells for JavaScript via C++ provides the [**PivotTable.displayNullString
             // Recalculate pivot table data
             pt.calculateData();
 
-            // Do not refresh data on opening file
+            // Do not refresh data when opening the file
             pt.refreshDataOnOpeningFile = false;
 
             // Saving the modified Excel file

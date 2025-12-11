@@ -1,34 +1,34 @@
----
-title: Insert Background Image to Excel with C++
-linktitle: Insert Background Image to Excel
-type: docs
-weight: 90
-url: /cpp/insert-background-image-to-excel/
-description: "How to insert background image to Excel using Aspose.Cells for C++."
+---  
+title: Insert Background Image to Excel with C++  
+linktitle: Insert Background Image to Excel  
+type: docs  
+weight: 90  
+url: /cpp/insert-background-image-to-excel/  
+description: "How to insert a background image into Excel using Aspose.Cells for C++."  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}  
 
-You can make a worksheet more appealing by adding a picture as a worksheet background. This feature can be quite effective if you have a special corporate graphic that adds a hint of the background without obscuring the data on the sheet. You can set background picture for a sheet using Aspose.Cells API.
+You can make a worksheet more appealing by adding a picture as a worksheet background. This feature can be quite effective if you have a special corporate graphic that adds a hint of background without obscuring the data on the sheet. You can set a background picture for a sheet using the Aspose.Cells API.  
 
-{{% /alert %}} 
+{{% /alert %}}  
 
-## **Setting Sheet Background in Microsoft Excel**
+## **Setting Sheet Background in Microsoft Excel**  
 
-To set a sheet's background image in Microsoft Excel (for example, Microsoft Excel 2019):
+To set a sheet's background image in Microsoft Excel (for example, Microsoft Excel 2019):  
 
-1. From the **Page Layout** menu, find the **Page Setup** option, and then click the **Background** option.
-1. Select a picture to set the sheet's background picture.
+1. From the **Page Layout** menu, find the **Page Setup** option, and then click the **Background** option.  
+1. Select a picture to set the sheet's background.  
 
-   **Setting a sheet background**
+   **Setting a sheet background**  
 
-![todo:image_alt_text](insert-background-to-excel.jpg)
+![todo:image_alt_text](insert-background-to-excel.jpg)  
 
-## **Setting Sheet Background with Aspose.Cells**
+## **Setting Sheet Background with Aspose.Cells**  
 
-The code below sets a background image using an image from a stream.
+The code below sets a background image using an image from a stream.  
 
 ```c++
 #include <iostream>
@@ -39,62 +39,62 @@ using namespace Aspose::Cells;
 
 Vector<uint8_t> GetDataFromFile(const U16String& file)
 {
-	std::string f = file.ToUtf8();
-	// open a file 
-	std::ifstream fileStream(f, std::ios::binary);
+    std::string f = file.ToUtf8();
+    // Open a file 
+    std::ifstream fileStream(f, std::ios::binary);
 
-	if (!fileStream.is_open()) {
-		std::cerr << "Failed to open the file." << std::endl;
-		return 1;
-	}
+    if (!fileStream.is_open()) {
+        std::cerr << "Failed to open the file." << std::endl;
+        return 1;
+    }
 
-	// Get file size
-	fileStream.seekg(0, std::ios::end);
-	std::streampos fileSize = fileStream.tellg();
-	fileStream.seekg(0, std::ios::beg);
+    // Get file size
+    fileStream.seekg(0, std::ios::end);
+    std::streampos fileSize = fileStream.tellg();
+    fileStream.seekg(0, std::ios::beg);
 
-	// Read file contents into uint8_t array
-	uint8_t* buffer = new uint8_t[fileSize];
-	fileStream.read(reinterpret_cast<char*>(buffer), fileSize);
-	fileStream.close();
+    // Read file contents into uint8_t array
+    uint8_t* buffer = new uint8_t[fileSize];
+    fileStream.read(reinterpret_cast<char*>(buffer), fileSize);
+    fileStream.close();
 
-	Vector<uint8_t>data(buffer, fileSize);
-	delete[] buffer;
+    Vector<uint8_t> data(buffer, fileSize);
+    delete[] buffer;
 
-	return data;
+    return data;
 }
 
 using namespace Aspose::Cells;
 
 int main()
 {
-	Aspose::Cells::Startup();
+    Aspose::Cells::Startup();
 
-	// Create a new Workbook
-	Workbook workbook;
+    // Create a new Workbook
+    Workbook workbook;
 
-	// Get the first worksheet
-	Worksheet sheet = workbook.GetWorksheets().Get(0);
+    // Get the first worksheet
+    Worksheet sheet = workbook.GetWorksheets().Get(0);
 
-	Vector<uint8_t> buffer = GetDataFromFile(U16String(u"background.jpg"));
+    Vector<uint8_t> buffer = GetDataFromFile(U16String(u"background.jpg"));
 
-	// Set the background image for the worksheet
-	sheet.SetBackgroundImage(buffer);
+    // Set the background image for the worksheet
+    sheet.SetBackgroundImage(buffer);
 
-	// Save the Excel file
-	workbook.Save(u"outputBackImageSheet.xlsx");
+    // Save the Excel file
+    workbook.Save(u"outputBackImageSheet.xlsx");
 
-	// Save the HTML file
-	workbook.Save(u"outputBackImageSheet.html", SaveFormat::Html);
+    // Save the HTML file
+    workbook.Save(u"outputBackImageSheet.html", SaveFormat::Html);
 
-	std::cout << "Files saved successfully." << std::endl;
+    std::cout << "Files saved successfully." << std::endl;
 
-	Aspose::Cells::Cleanup();
-	return 0;
+    Aspose::Cells::Cleanup();
+    return 0;
 }
-```
+```  
 
-## Related Articles
+## Related Articles  
 
-- [Working with Background in ODS Files](/cells/cpp/working-with-background-in-ods-files/)
+- [Working with Background in ODS Files](/cells/cpp/working-with-background-in-ods-files/)  
 {{< app/cells/assistant language="cpp" >}}

@@ -9,7 +9,7 @@ description: Learn how to specify Far East and Latin font names in text options 
 
 ## **Possible Usage Scenarios**  
 
-Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells for JavaScript via C++ provides [**TextOptions.farEastName**](https://reference.aspose.com/cells/javascript-cpp/textoptions/#farEastName--) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.latinName**](https://reference.aspose.com/cells/javascript-cpp/textoptions/#latinName--) property.  
+Sometimes you want to display text in a Far East language font, e.g., Japanese, Chinese, Thai, etc. Aspose.Cells for JavaScript via C++ provides the **TextOptions.farEastName** property, which can be used to specify the font name for Far East languages. Additionally, you can specify the Latin font name using the **TextOptions.latinName** property.  
 
 ## **Specify the Far East and Latin Name of the Font in Text Options of Shape**  
 
@@ -49,13 +49,13 @@ The following sample code creates a text box and adds some Japanese text inside 
         });
 
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Create empty workbook.
+            // Create an empty workbook.
             const wb = new Workbook();
 
-            // Access first worksheet.
+            // Access the first worksheet.
             const ws = wb.worksheets.get(0);
 
-            // Add textbox inside the worksheet.
+            // Add a textbox inside the worksheet.
             const idx = ws.textBoxes.add(5, 5, 50, 200);
             const tb = ws.textBoxes.get(idx);
 

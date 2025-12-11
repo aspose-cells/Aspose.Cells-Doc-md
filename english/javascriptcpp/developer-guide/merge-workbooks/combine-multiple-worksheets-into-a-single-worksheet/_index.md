@@ -4,12 +4,12 @@ linktitle: Combine Multiple Worksheets into a Single Worksheet
 type: docs
 weight: 160
 url: /javascript-cpp/combine-multiple-worksheets-into-a-single-worksheet/
-description: Learn how to combine multiple worksheets into a single worksheet using Aspose.Cells for JavaScript via C++. 
+description: Learn how to combine multiple worksheets into a single worksheet using Aspose.Cells for JavaScript via C++.
 ---
 
 {{% alert color="primary" %}} 
 
-Sometimes, you need to combine multiple worksheets into a single worksheet. This can easily be achieved using Aspose.Cells API. This article will show you a code example that reads a source workbook and combines the data of all source worksheets into a single worksheet inside a destination workbook.
+Sometimes, you need to combine multiple worksheets into a single worksheet. This can easily be achieved using the Aspose.Cells API. This article will show you a code example that reads a source workbook and combines the data of all source worksheets into a single worksheet inside a destination workbook.
 
 {{% /alert %}} 
 

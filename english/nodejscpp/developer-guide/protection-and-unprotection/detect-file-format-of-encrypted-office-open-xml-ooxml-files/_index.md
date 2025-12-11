@@ -5,17 +5,17 @@ type: docs
 weight: 340  
 url: /nodejs-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/  
 description: Learn how to detect the file format of encrypted OOXML files using Aspose.Cells for Node.js via C++.  
-ai_search_scope: cells_nodejscpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: cells_nodejscpp  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
 ---  
 
 {{% alert color="primary" %}}  
 
-**Office Open XML** (also known as **OOXML** or **Microsoft Open XML** (MOX)) is an XML-based file format developed by Microsoft for representing office documents like spreadsheets, charts, presentations, and word processing documents.  
+**Office Open XML** (also known as **OOXML** or **Microsoft Open XML** (MOX)) is an XML-based file format developed by Microsoft for representing office documents like spreadsheets, charts, presentations, and word‑processing documents.  
 
 {{% /alert %}}  
 
-Aspose.Cells provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.detectFileFormat(Uint8Array)](https://reference.aspose.com/cells/nodejs-cpp/fileformatutil/#detectFileFormat-uint8array-) method as shown below in the code example.  
+Aspose.Cells provides a way to detect the file format of encrypted **Microsoft Open XML** files. To identify the file type, use the [FileFormatUtil.detectFileFormat(Uint8Array)](https://reference.aspose.com/cells/nodejs-cpp/fileformatutil/#detectFileFormat-uint8array-) method as shown in the code example below.  
 
 ```javascript
 const fs = require("fs");
@@ -33,5 +33,5 @@ const fileFormatInfo = AsposeCells.FileFormatUtil.detectFileFormat(stream);
 
 console.log("File Format: " + fileFormatInfo.getFileFormatType());
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

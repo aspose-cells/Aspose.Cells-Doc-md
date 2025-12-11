@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.GetChartObject()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getchartobject/) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.GetChartObject()](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/getchartobject/) property to achieve this. You can use its sub‑properties to resize the chart with new **height** and **width** or reposition it with new **X** and **Y** coordinates.
 
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
@@ -21,7 +21,7 @@ To change the chart's position (X, Y coordinates) or size (height, width), use t
 1. [Chart.GetHeight()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getheight/)
 1. [Chart.GetWidth()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/shape/getwidth/)
 
-The following example explains the usage of the above APIs, it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
+The following example explains the usage of the above APIs; it loads an existing workbook that contains a chart in its first worksheet, then resizes and repositions the chart using Aspose.Cells.
 
 ```cpp
 #include <iostream>
@@ -72,10 +72,10 @@ int main()
 ```
 
 ## **Manipulating Designer Charts**
-There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formattings can be preserved with accuracy.
+There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formatting can be preserved with accuracy.
 
 ### **Manipulating Designer Charts in Template Files**
-To manipulate designer charts in template files, use the chart related API. For example, you may use the Worksheet.Charts property to get the existing charts collection in the template file.
+To manipulate designer charts in template files, use the chart‑related API. For example, you may use the `Worksheet.Charts` property to get the existing charts collection in the template file.
 
 #### **Creating a Chart**
 The following example shows how to create a pyramid chart. We will manipulate this chart later on.
@@ -118,7 +118,7 @@ int main()
 ```
 
 #### **Manipulating the Chart**
-The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the date label of one data point has been set to 'United Kingdom, 30K'.
+The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the data label of one data point has been set to **United Kingdom, 400K**.
 
 ```cpp
 #include <iostream>
@@ -154,7 +154,7 @@ int main()
     DataLabels datalabels = chart.GetNSeries().Get(0).GetPoints().Get(2).GetDataLabels();
 
     // Change the text of the label
-    datalabels.SetText(u"Unided Kingdom, 400K ");
+    datalabels.SetText(u"United Kingdom, 400K ");
 
     // Save the excel file
     workbook.Save(outputFilePath);
@@ -206,10 +206,10 @@ int main()
     // Plot the fourth data series on the second axis
     chart.GetNSeries().Get(3).SetPlotOnSecondAxis(true);
 
-    // Change the Border color of the second data series
+    // Change the border color of the second data series
     chart.GetNSeries().Get(1).GetBorder().SetColor(Color::Green());
 
-    // Change the Border color of the third data series
+    // Change the border color of the third data series
     chart.GetNSeries().Get(2).GetBorder().SetColor(Color::Red());
 
     // Make the second value axis visible

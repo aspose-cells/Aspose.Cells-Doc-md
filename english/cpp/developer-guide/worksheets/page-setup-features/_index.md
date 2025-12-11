@@ -273,7 +273,7 @@ void SetPrintHeadings() {
 
 ### **Setting Print Black and White**
 
-You can control whether the worksheet is printed in black and white using the `PageSetup` class. The following example demonstrates how to enable black and white printing:
+You can control whether the worksheet is printed in black and white using the `PageSetup` class. The following example demonstrates how to enable black‑and‑white printing:
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -287,7 +287,7 @@ void SetPrintBlackAndWhite() {
     // Access the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-    // Enable black and white printing
+    // Enable black‑and‑white printing
     PageSetup pageSetup = worksheet.GetPageSetup();
     pageSetup.SetBlackAndWhite(true);
 
@@ -334,7 +334,7 @@ void SetPrintComments() {
 
 ### **Setting Print Errors**
 
-You can control how errors are printed using the `PageSetup` class. The following example demonstrates how to set the error printing option:
+You can control how errors are printed using the `PageSetup` class. The following example demonstrates how to set the error‑printing option:
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -352,7 +352,7 @@ void SetPrintErrors() {
 
 ### **Setting Print Area Fit to Pages**
 
-You can control whether the print area is scaled to fit a specific number of pages using the `PageSetup` class. The following example demonstrates how to set the print area to fit to one page wide and one page tall:
+You can control whether the print area is scaled to fit a specific number of pages using the `PageSetup` class. The following example demonstrates how to set the print area to fit one page wide and one page tall:
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -378,7 +378,7 @@ void SetPrintAreaFitToPages() {
 
 ### **Setting Print Scale**
 
-You can set the print scale for a worksheet using the `PageSetup` class. The following example demonstrates how to set the print scale to 50%:
+You can set the print scale for a worksheet using the `PageSetup` class. The following example demonstrates how to set the print scale to 50 %:
 
 ```cpp
 #include <Aspose.Cells.h>
@@ -461,7 +461,7 @@ You can control whether the page number is printed using the `PageSetup` class. 
 
 using namespace Aspose::Cells;
 
-void SetPrintPrintPageNumber() {
+void SetPrintPageNumber() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     PageSetup pageSetup = worksheet.GetPageSetup();
@@ -487,5 +487,8 @@ void SetPrintPageOrder() {
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
     // Set the page order to "Down, then Over"
-    PageSetup
-{{< app/cells/assistant language="cpp" >}}
+    PageSetup pageSetup = worksheet.GetPageSetup();
+    pageSetup.SetOrder(PrintOrderType::DownThenOver);
+    workbook.Save("PrintPageOrder.xlsx");
+}
+```

@@ -9,11 +9,11 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
-By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option, you can save specified worksheets to a PDF file. e.g., you can save the active worksheet to PDF, save all worksheets (both visible and hidden worksheets) to PDF, or save custom multiple worksheets to PDF.
+By default, Aspose.Cells saves all **visible** worksheets in a workbook to a PDF file. With the [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option, you can save specified worksheets to a PDF file. For example, you can save the active worksheet to PDF, save all worksheets (both visible and hidden) to PDF, or save custom multiple worksheets to PDF.
 
 ## **Save Active Worksheet to PDF**
 
-If you want to only export the active sheet to PDF, you can achieve this by passing [**SheetSet.GetActive()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getactive/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+If you want to export only the active sheet to PDF, you can achieve this by passing [**SheetSet.GetActive()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getactive/) to the [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 The sheet `Sheet2` is the active sheet of the source file [sheetset-example.xlsx](sheetset-example.xlsx).
 
@@ -28,14 +28,14 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    // Open the template excel file
+    // Open the template Excel file
     Workbook workbook(u"sheetset-example.xlsx");
 
     // Set active sheet to output
     PdfSaveOptions pdfSaveOptions;
     pdfSaveOptions.SetSheetSet(SheetSet::GetActive());
 
-    // Save the pdf file with PdfSaveOptions
+    // Save the PDF file with PdfSaveOptions
     workbook.Save(u"output.pdf", pdfSaveOptions);
 
     std::cout << "PDF file saved successfully!" << std::endl;
@@ -46,9 +46,9 @@ int main()
 
 ## **Save All Worksheets to PDF**
 
-[**SheetSet.GetVisible()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getvisible/) indicates visible sheets in a workbook, and [**SheetSet.GetAll()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) indicates all sheets including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can just pass [**SheetSet.GetAll**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+[**SheetSet.GetVisible()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getvisible/) indicates visible sheets in a workbook, and [**SheetSet.GetAll()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) indicates all sheets, including both visible sheets and hidden/invisible sheets in a workbook. If you want to export all sheets to PDF, you can simply pass [**SheetSet.GetAll()**](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetset/getall/) to the [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
-The source file [sheetset-example.xlsx](sheetset-example.xlsx) contains all four sheets with hidden sheet `Sheet3`.
+The source file [sheetset-example.xlsx](sheetset-example.xlsx) contains all four sheets, with hidden sheet `Sheet3`.
 
 ```c++
 #include <iostream>
@@ -82,7 +82,7 @@ int main()
 
 ## **Save Specified Worksheets to PDF**
 
-If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+If you want to export desired/custom multiple sheets to PDF, you can achieve this by passing multiple sheet indices to the [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 ```c++
 #include <iostream>
@@ -123,7 +123,7 @@ int main()
 
 ## **Reorder Worksheets to PDF**
 
-If you want to reorder sheets (e.g., in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
+If you want to reorder sheets (e.g., in reverse order) to PDF without modifying the source file, you can achieve this by passing reordered sheet indices to the [**PdfSaveOptions.GetSheetSet()**](https://reference.aspose.com/cells/cpp/aspose.cells/paginatedsaveoptions/getsheetset/) option.
 
 ```c++
 #include <iostream>
@@ -136,7 +136,7 @@ int main()
 
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-C
 
-    // Open the template excel file
+    // Open the template Excel file
     Workbook workbook(u"sheetset-example.xlsx");
 
     // Reorder sheets (Sheet1, Sheet2, Sheet3, Sheet4) to (Sheet4, Sheet3, Sheet2, Sheet1)
@@ -147,7 +147,7 @@ int main()
     PdfSaveOptions pdfSaveOptions;
     pdfSaveOptions.SetSheetSet(sheetSet);
 
-    // Save the pdf file with PdfSaveOptions
+    // Save the PDF file with PdfSaveOptions
     workbook.Save(u"output.pdf", pdfSaveOptions);
 
     std::cout << "PDF saved successfully!" << std::endl;
@@ -158,7 +158,7 @@ int main()
 
 {{% alert color="primary" %}} 
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/calculateformula/) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula‑dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 {{< app/cells/assistant language="cpp" >}}

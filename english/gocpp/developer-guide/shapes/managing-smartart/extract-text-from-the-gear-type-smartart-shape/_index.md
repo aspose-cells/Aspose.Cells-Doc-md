@@ -10,7 +10,7 @@ description: Learn how to extract text from Gear Type SmartArt shapes in Excel u
 ## **Possible Usage Scenarios**
 
 Aspose.Cells for C++ can extract text from the Gear Type SmartArt Shape. To achieve this, follow these steps:
-1. Convert SmartArt Shape to Group Shape using the [**Shape::GetResultOfSmartArt()**](https://reference.aspose.com/cells/go-cpp/) method.
+1. Convert the SmartArt Shape to a Group Shape using the [**Shape::GetResultOfSmartArt()**](https://reference.aspose.com/cells/go-cpp/) method.
 2. Retrieve all individual shapes forming the Group Shape using the [**GroupShape::GetGroupedShapes()**](https://reference.aspose.com/cells/go-cpp/) method.
 3. Iterate through each individual shape and extract text using the [**GetText()**](https://reference.aspose.com/cells/go-cpp/) method.
 
@@ -21,6 +21,7 @@ The following sample code loads a [sample Excel file](67338483.xlsx) containing 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-ExtractTextFromTheGearTypeSmartartShape.go" >}}
+
 ## **Console Output**
 
 {{< highlight java >}}

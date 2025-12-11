@@ -15,11 +15,11 @@ Sometimes, you need to hide zero values in a spreadsheet. It might be a personal
 
 {{% /alert %}} 
 
-To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Excel 2003):
+To hide zero values in a worksheet in Microsoft Excel (for example, Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**, and then select the **View** tab.
-1. Deselect the **Zero values** option.
-1. Click **OK**.
+2. Deselect the **Zero values** option.
+3. Click **OK**.
 
 Please see the following sample code that demonstrates hiding zeros using Aspose.Cells.
 

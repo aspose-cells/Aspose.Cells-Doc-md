@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-This article describes Aspose.Cells.GridWeb's different modes. These modes are differentiated logically due to their different features and behaviors. We have identified several types of mode:
+This article describes Aspose.Cells.GridWeb's different modes. These modes are differentiated logically because of their distinct features and behaviors. We have identified several types of modes:
 
 - Edit Mode
 - View Mode
@@ -30,7 +30,7 @@ By default, the Aspose.Cells.GridWeb control is in Edit mode. In Edit mode, you 
 - Undoing or discarding previous actions.
 - Managing rows and columns.
 - Cutting, copying or pasting data.
-- Formatting cells etc.
+- Formatting cells, etc.
 
 **GridWeb control in Edit Mode** 
 
@@ -40,8 +40,6 @@ Developers can also switch to Edit mode programmatically by setting the EditMode
 
 The below example shows how to enable edit mode programmatically.
 
-
-
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyEditModes.aspx-ApplyEditMode.cs" >}}
 
 {{% alert color="primary" %}} 
@@ -50,17 +48,15 @@ Whenever a user clicks the **Undo** button, it brings the GridWeb to its previou
 
 {{% /alert %}} 
 ## **View Mode**
-When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right-clicking only contains the **Copy** option.
+When the GridWeb control is in View mode, users cannot edit or modify the grid content, which means that users can only view the grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right‑clicking only contains the **Copy** option.
 
 **GridWeb control in View Mode** 
 
 ![todo:image_alt_text](enable-different-gridweb-modes_1.png)
 
-If developers would like their users to only view data then they can switch to View mode programmatically by setting the GridWeb control's EditMode property to false.
+If developers would like their users to only view data, they can switch to View mode programmatically by setting the GridWeb control's EditMode property to false.
 
-The below example shows how to enable view mode programmatically
-
-
+The below example shows how to enable view mode programmatically.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyEditModes.aspx-ApplyViewMode.cs" >}}
 
@@ -70,27 +66,23 @@ Even in View mode, users can change the height and width of rows and columns.
 
 {{% /alert %}} 
 ## **Session Mode**
-The Aspose.Cells.GridWeb control holds sheet data in the User Session of the web server between each requests of a web user. It means that GridWeb control always works in Session mode by default. However, if you're not working in Session mode, switch it on by setting GridWEb control#s SessionMode property to SessionMode.Session.
+The Aspose.Cells.GridWeb control holds sheet data in the user session of the web server between each request of a web user. It means that the GridWeb control always works in Session mode by default. However, if you're not working in Session mode, switch it on by setting the GridWeb control's SessionMode property to `SessionMode.Session`.
 
-The below example shows how to enable session mode programmatically
+The below example shows how to enable session mode programmatically.
 
-
-
-{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplySessionModes.aspx-ApplySesionMode.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplySessionModes.aspx-ApplySessionMode.cs" >}}
 ## **Sessionless Mode**
-We have already discussed that Session mode approach provides the best performance by using a user session to load and store sheet data. It does, however, consume server memory. So, if there are large number of concurrent users then memory problems may arise. To save server memory and support large number of concurrent users, consider the Sessionless mode.
+We have already discussed that the Session mode approach provides the best performance by using a user session to load and store sheet data. It does, however, consume server memory. So, if there are a large number of concurrent users, memory problems may arise. To save server memory and support a large number of concurrent users, consider the Sessionless mode.
 
-Sessionless mode can be turned on by setting the GridWeb control's SessionMode property to SessionMode.ViewState.
+Sessionless mode can be turned on by setting the GridWeb control's SessionMode property to `SessionMode.ViewState`.
 
-The below example shows how to enable sessionless mode programmatically
+The below example shows how to enable sessionless mode programmatically.
 
-
-
-{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplySessionModes.aspx-ApplySesionlessMode.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplySessionModes.aspx-ApplySessionlessMode.cs" >}}
 
 {{% alert color="primary" %}} 
 
-IMPORTANT: When the GridWeb's SessionMode property is set to SessionMode.ViewState, the grid stores data in the page's ViewState. That means the rendered page is larger, and consumes more network traffic.
+IMPORTANT: When the GridWeb's SessionMode property is set to `SessionMode.ViewState`, the grid stores data in the page's ViewState. That means the rendered page is larger and consumes more network traffic.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

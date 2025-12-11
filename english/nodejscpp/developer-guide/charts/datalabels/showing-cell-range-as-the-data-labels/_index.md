@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 In Microsoft Excel 2013, you can display a cell range for data labels. Aspose.Cells for Node.js supports this feature.  
 {{% /alert %}}  
 
-## **Check-box to Show Cell Range as Data Labels**  
+## **Check box to Show Cell Range as Data Labels**  
 
 To show the cell range as data labels in Microsoft Excel:  
 
@@ -22,7 +22,7 @@ To show the cell range as data labels in Microsoft Excel:
 1. Select **Format Data Labels**. Label options are displayed.  
 1. Select or clear the option **Label Contains - Value From Cells**.  
 
-The sample code below accesses a chart series data labels and sets the [**DataLabels.getShowCellRange()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getShowCellRange--) property to **true** to select the **Label Contains - Value From Cells** option.  
+The sample code below accesses the chart series' data labels and sets the [**DataLabels.getShowCellRange()**](https://reference.aspose.com/cells/nodejs-cpp/datalabels/#getShowCellRange--) property to **true** to select the **Label Contains - Value From Cells** option.  
 
 ```javascript
 const path = require("path");
@@ -48,5 +48,5 @@ dataLabels.setShowCellRange(true);
 // Save the workbook
 workbook.save(path.join(dataDir, "output_out.xlsx"));
 ```  
-  
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

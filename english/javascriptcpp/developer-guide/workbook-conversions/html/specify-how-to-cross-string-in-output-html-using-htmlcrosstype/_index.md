@@ -9,11 +9,11 @@ description: Learn how to control string overflow in HTML output by specifying H
 
 ## **Possible Usage Scenarios**
 
-When a cell contains text or string but it is larger than the width of the cell, the string overflows if the next cell in the next column is null or empty. When you save your Excel file into HTML, you can control this overflow by specifying the cross type using the [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype) enumeration. It has the following values:
+When a cell contains text or a string that is larger than the width of the cell, the string overflows if the next cell in the next column is null or empty. When you save your Excel file into HTML, you can control this overflow by specifying the cross type using the [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype) enumeration. It has the following values:
 
-- **HtmlCrossType.Default**: Display like MS Excel; depends on the next cell. If the next cell is null, the string will cross or it will be truncated.
+- **HtmlCrossType.Default**: Display like MS Excel; depends on the next cell. If the next cell is null, the string will cross; otherwise, it will be truncated.
 
-- **HtmlCrossType.MSExport**: Display the string like MS Excel exporting HTML.
+- **HtmlCrossType.MSExport**: Display the string as MS Excel does when exporting to HTML.
 
 - **HtmlCrossType.Cross**: Display HTML cross string; the performance for creating large HTML files will be more than ten times faster than setting the value to Default or FitToCell.
 
@@ -21,7 +21,7 @@ When a cell contains text or string but it is larger than the width of the cell,
 
 ## **Specify how to cross string in output HTML using HtmlCrossType**
 
-The following sample code loads the [sample Excel file](51740732.xlsx) and saves it to HTML format by specifying different [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype). Please download the [output HTMLs](51740734.zip) generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype) values on output HTML.
+The following sample code loads the [sample Excel file](51740732.xlsx) and saves it to HTML format by specifying different [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype). Please download the [output HTML files](51740734.zip) generated with this code. The sample Excel file contains the image bordered in red, as shown in the screenshot, which demonstrates the effect of the [**HtmlCrossType**](https://reference.aspose.com/cells/javascript-cpp/htmlcrosstype) values on output HTML.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 

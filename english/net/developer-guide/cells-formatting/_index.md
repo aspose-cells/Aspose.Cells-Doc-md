@@ -24,18 +24,18 @@ Apply different kinds of formatting styles on cells to set background or foregro
 
 ### **How to Use the GetStyle and SetStyle Methods**
 
-If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) of the cell using [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) method, specify the style attributes and then apply the formatting using [**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) method. An example is given below to demonstrate this approach to apply various formatting on a cell.
+If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) of the cell using [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) method, specify the style attributes and then apply the formatting using [**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) method. An example is given below to demonstrate this approach to apply various formatting to a cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
 ### **How to Use Style Object to Format Different Cells**
 
-If developers need to apply the Same formatting style to different cells then they can use [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. Please follow the steps below to use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object:
+If developers need to apply the same formatting style to different cells then they can use a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. Please follow the steps below to use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object:
 
-1. Add a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object by calling the [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) method of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class
-1. Access the newly added [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object
-1. Set the desired properties/attributes of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to apply desired formatting settings
-1. Assign the configured [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to your desired cells
+1. Add a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object by calling the [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) method of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class  
+1. Access the newly added [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object  
+1. Set the desired properties/attributes of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to apply the required formatting settings  
+1. Assign the configured [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to your desired cells  
 
 This approach can greatly improve the efficiency of your applications and save memory too.
 
@@ -47,13 +47,11 @@ If you need to apply different formatting styles for Microsoft Excel 2007, apply
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
-
-
 ## **How to Format Selected Characters in a Cell**
 
 Dealing with Font Settings explains how to format text in cells, but it only explains how to format all of the cell content. What if you want to format only selected characters?
 
-Aspose.Cells supports this feature too. This topic explains how to we use this feature effectively.
+Aspose.Cells supports this feature too. This topic explains how to use this feature effectively.
 
 ### **How to Format Selected Characters**
 
@@ -61,22 +59,22 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 The [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class provides the [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) method that takes the following parameters to select a range of characters inside a cell:
 
-- **Start Index**, the index of the character that the selection starts from.
+- **Start Index**, the index of the character where the selection starts.  
 - **Number of Characters**, the number of characters to select.
 
-The [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) method returns an instance of the [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) class that allows developers to format the characters in the same way as they would a cell as shown below in the code example. In the output file, in the A1 cell, the word 'Visit' will be formatted with the default font but 'Aspose!' is bold and blue.
+The [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) method returns an instance of the [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) class that allows developers to format the characters in the same way they would format a cell, as shown below in the code example. In the output file, in the A1 cell, the word **Visit** will be formatted with the default font but **Aspose!** is bold and blue.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormattingSelectedCharacters-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-If you are interested in formatting a portion of Rich Text in a cell, consider using the [**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) methods. The [[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) method is to be used to access the portions of the text and then amendments can be done using the [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) method whereas the **Get** method returns an array of [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc. and **Set** method can be used to apply the changes.
+If you are interested in formatting a portion of Rich Text in a cell, consider using the [**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) methods. The **Cell.GetCharacters** method is used to access the portions of the text and then amendments can be done using the **Cell.SetCharacters** method, whereas the **Get** method returns an array of [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc., and the **Set** method can be used to apply the changes.
 
 {{% /alert %}}
 
 ## **How to Format Rows and Columns**
 
-Sometimes, developers need to apply the same formatting on rows or columns. Applying formatting on cells one by one often takes longer and is not a good solution.
+Sometimes, developers need to apply the same formatting on rows or columns. Applying formatting on cells one by one often takes longer and is not a good solution.  
 To address this issue, Aspose.Cells provides a simple, fast way discussed in detail in this article.
 
 ### **Formatting Rows & Columns**
@@ -87,9 +85,9 @@ Aspose.Cells provides a class, the [**Workbook**](https://reference.aspose.com/c
 
 Each item in the [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) collection represents a [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object. The [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object offers the [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) method used to set the row's formatting. To apply the same formatting to a row, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. The steps below show how to use it.
 
-1. Add a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class by calling its [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) method.
-1. Set the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's properties to apply formatting settings.
-1. Make the relevant attributes ON for the [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) object.
+1. Add a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class by calling its [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) method.  
+1. Set the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's properties to apply formatting settings.  
+1. Make the relevant attributes **on** for the [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) object.  
 1. Assign the configured [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to the [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
@@ -100,7 +98,7 @@ The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/pr
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 
-## **Advance topics**
+## **Advanced topics**
 - [Alignment Settings](/cells/net/cells-alignment-settings/)
 - [Border Settings](/cells/net/cells-border-settings/)
 - [Set Conditional Formats of Excel and ODS files.](/cells/net/conditional-formatting/)

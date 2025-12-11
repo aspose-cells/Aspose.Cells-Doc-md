@@ -5,4 +5,3 @@ weight: 40
 url: /go-cpp/formulas/
 ---
 
-

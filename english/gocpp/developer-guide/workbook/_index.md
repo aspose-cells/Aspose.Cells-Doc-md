@@ -1,10 +1,10 @@
 ---
-title: Manage Workbook with Golang via C++
+title: Manage Workbooks with Go via C++
 linktitle: Workbook
 type: docs
 weight: 60
 url: /go-cpp/managing-workbooks-and-worksheets/
-description: Learn how to Manage Workbook through the Aspose.Cells for C++ APIs.
+description: Learn how to manage workbooks through the Aspose.Cells for C++ APIs.
 keywords: How to Manage Workbook in C++, Manage Workbook and worksheets using C++, Operate workbook and worksheets in C++.
 ---
 

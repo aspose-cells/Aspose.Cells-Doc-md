@@ -8,19 +8,19 @@ description: Learn how to check if a password to modify matches using Aspose.Cel
 ---
 
 {{% alert color="primary" %}}  
-Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells provides the `WorkbookSettings.writeProtection.validatePassword()` method which you can use to check if the given Password to modify is correct or not.  
+Sometimes, you need to check if the given password matches the **Password to modify** programmatically. Aspose.Cells provides the `WorkbookSettings.writeProtection.validatePassword()` method which you can use to check if the given Password to modify is correct or not.  
 {{% /alert %}}  
 
 ## **Check Password to modify in Microsoft Excel**  
 
-You can assign **Password to open** and **Password to modify** while creating your workbooks in Microsoft Excel. Please see this screenshot which shows the interface Microsoft Excel provides to specify these passwords.  
+You can assign **Password to open** and **Password to modify** while creating your workbooks in Microsoft Excel. Please see the screenshot which shows the interface Microsoft Excel provides to specify these passwords.  
 
 |![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|  
 | :- |  
 
 ## **Check Password to modify using Aspose.Cells for JavaScript via C++**  
 
-The following sample codes load the [source Excel](5112232.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is the correct Password to modify and it returns false, and then it checks if 5678 is the Password to modify and it returns true.  
+The following sample code loads the [source Excel](5112232.xlsx) file. It has a Password to open set to **1234** and a Password to modify set to **5678**. The code first checks if **567** is the correct Password to modify; it returns false. Then it checks if **5678** is the Password to modify; it returns true.  
 
 ```html
 <!DOCTYPE html>
@@ -83,8 +83,6 @@ The following sample codes load the [source Excel](5112232.xlsx) file. It has a 
 ```  
 
 ### **Console Output**  
-
-
 
 {{< highlight java >}}  
 Is 567 correct Password to modify: False  

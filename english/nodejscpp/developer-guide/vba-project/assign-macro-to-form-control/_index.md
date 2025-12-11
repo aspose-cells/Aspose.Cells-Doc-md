@@ -4,7 +4,7 @@ linktitle: Assign Macro to Form Control
 type: docs
 weight: 60
 url: /nodejs-cpp/assign-macro-to-form-control/
-description: Learn how to assign a Macro Code to a Form Control like a Button using Aspose.Cells for Node.js via C++. 
+description: Learn how to assign a macro code to a Form Control like a Button using Aspose.Cells for Node.js via C++. 
 keywords: Assign Macro to Form Control Node.js via C++, Macro Code for Form Control Node.js via C++, Integrated Macro in XLSM Node.js via C++
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -28,7 +28,7 @@ End Sub
 
 {{< /highlight >}}
 
-## **Assign Macro to Form Control in Node.js**
+## **Assign a Macro to Form Control in Node.js**
 
 Here is the sample code to generate the output XLSM file with Macro Code.
 
@@ -39,7 +39,7 @@ const AsposeCells = require("aspose.cells.node");
 // The path to the documents directory.
 const dataDir = path.join(__dirname, "data");
 
-// Loads the workbook which contains hidden external links
+// Creates a new workbook.
 const workbook = new AsposeCells.Workbook();
 const sheet = workbook.getWorksheets().get(0);
 

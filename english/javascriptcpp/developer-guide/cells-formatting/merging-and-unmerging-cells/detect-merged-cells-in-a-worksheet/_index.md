@@ -59,7 +59,7 @@ The component provides the [**Cells.mergedAreas**](https://reference.aspose.com/
             const file = fileInput.files[0];
             const arrayBuffer = await file.arrayBuffer();
 
-            // Instantiate a new Workbook by opening the uploaded excel file
+            // Instantiate a new Workbook by opening the uploaded Excel file
             const wkBook = new Workbook(new Uint8Array(arrayBuffer));
 
             // Get a worksheet in the workbook
@@ -71,7 +71,7 @@ The component provides the [**Cells.mergedAreas**](https://reference.aspose.com/
             // Get merged areas
             const areas = wkSheet.cells.mergedAreas;
 
-            // Check if areas is null or not
+            // Check if areas are null or empty
             if (!areas || areas.length === 0) {
                 console.warn("No merged areas to unmerge.");
                 resultDiv.innerHTML = '<p style="color: orange;">No merged areas to unmerge.</p>';
@@ -80,8 +80,7 @@ The component provides the [**Cells.mergedAreas**](https://reference.aspose.com/
 
             // Define some variables
             let frow, fcol, erow, ecol, trows, tcols;
-            // Loop through the arraylist and get each cellarea
-            // To unmerge it
+            // Loop through the array list and get each cell area to unmerge it
             for (let i = 0; i < areas.length; i++) {
                 frow = areas[i].startRow;
                 fcol = areas[i].startColumn;
@@ -93,7 +92,7 @@ The component provides the [**Cells.mergedAreas**](https://reference.aspose.com/
                 wkSheet.cells.unMerge(frow, fcol, trows, tcols);
             }
 
-            // Saving the modified Excel file and provide download link
+            // Saving the modified Excel file and providing a download link
             const outputData = wkBook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

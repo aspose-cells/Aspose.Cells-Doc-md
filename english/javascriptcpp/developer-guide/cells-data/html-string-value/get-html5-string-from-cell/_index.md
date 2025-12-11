@@ -3,17 +3,17 @@ title: Get HTML5 string from Cell
 type: docs
 weight: 90
 url: /javascript-cpp/get-html5-string-from-cell/
-description: Learn how to get HTML5 string from Cell through the Aspose.Cells for JavaScript via C++ API.
+description: Learn how to get an HTML5 string from a cell through the Aspose.Cells for JavaScript via C++ API.
 keywords: Get HTML5 string from Cell JavaScript via C++, Obtain HTML5 string from Cell JavaScript via C++, Manage HTML5 string of Cell JavaScript via C++
 ---
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells returns the HTML string of the cell using the [**Cell.htmlString(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-boolean-) method which accepts a boolean parameter. If you pass **false** as a parameter, it will return Normal HTML but if you pass **true** as a parameter, it will return HTML5 string.
+Aspose.Cells returns the HTML string of the cell using the [**Cell.htmlString(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-boolean-) method, which accepts a boolean parameter. If you pass **false** as a parameter, it will return standard HTML, but if you pass **true**, it will return an HTML5 string.
 
 ## **Get HTML5 string from Cell**
 
-The following sample code creates a workbook object and adds some text in cell A1 of the first worksheet. It then gets the Normal HTML and HTML5 string from cell A1 using the [**Cell.htmlString(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-boolean-) method and prints them on the console.
+The following sample code creates a workbook object and adds some text in cell A1 of the first worksheet. It then gets the normal HTML and HTML5 string from cell A1 using the [**Cell.htmlString(boolean)**](https://reference.aspose.com/cells/javascript-cpp/cell/#htmlString-boolean-) method and prints them on the console.
 
 ## **Sample Code**
 
@@ -61,12 +61,12 @@ The following sample code creates a workbook object and adds some text in cell A
 
             console.log("Normal:\r\n" + strNormal);
             console.log();
-            console.log("Html5:\r\n" + strHtml5);
+            console.log("HTML5:\r\n" + strHtml5);
 
             document.getElementById('result').innerHTML =
                 '<h2>Results</h2>' +
                 '<p><strong>Normal:</strong></p><pre>' + escapeHtml(strNormal) + '</pre>' +
-                '<p><strong>Html5:</strong></p><pre>' + escapeHtml(strHtml5) + '</pre>' +
+                '<p><strong>HTML5:</strong></p><pre>' + escapeHtml(strHtml5) + '</pre>' +
                 '<p style="color: green;">Operation completed successfully!</p>';
         });
 
@@ -83,7 +83,6 @@ The following sample code creates a workbook object and adds some text in cell A
 </html>
 ```
 
-
 ## **Console Output**
 
 {{< highlight javascript >}}
@@ -92,7 +91,7 @@ The following sample code creates a workbook object and adds some text in cell A
 
 <Font Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">This is some text.</Font>
 
-Html5:
+HTML5:
 
 <div Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">This is some text.</div>
 

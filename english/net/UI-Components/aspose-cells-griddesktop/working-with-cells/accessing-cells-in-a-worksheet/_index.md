@@ -11,19 +11,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-We have discussed about working with worksheets, rows and columns so far but this is the time to go more deeper and talk about cells. So, in this topic, we would start our discussion about cells with a basic feature of accessing cells.
+We have discussed working with worksheets, rows, and columns so far, but now it's time to go deeper and talk about cells. So, in this topic, we would start our discussion about cells with a basic feature of accessing cells.
 
 {{% /alert %}} 
-## **Accessing Cell in a Worksheet**
-We can access any cell of a worksheet using the API of Aspose.Cells.GridDesktop. There could be three possible ways to access cell as follows:
+
+## **Accessing Cells in a Worksheet**
+We can access any cell of a worksheet using the API of Aspose.Cells.GridDesktop. There are three possible ways to access a cell, as follows:
 
 - **Using Cell Name**
 - **Using Row & Column Indices**
 - **Getting Focused Cell**
 
-Let's discuss all above three approaches one by one.
+Let's discuss all three approaches one by one.
+
 ### **Using Cell Name**
-All cells in a worksheet have a unique name. For example, A1, A2, B1, B2 etc. Aspose.Cells.GridDesktop allows developers to access any desired cell by using its cell name. All we have to do is to just pass the cell name (as an index) to the **Cells** collection of the **Worksheet**.
+All cells in a worksheet have a unique name, for example, A1, A2, B1, B2, etc. Aspose.Cells.GridDesktop allows developers to access any desired cell by using its cell name. All we have to do is simply pass the cell name (as an index) to the **Cells** collection of the **Worksheet**.
 
 
 
@@ -31,24 +33,25 @@ All cells in a worksheet have a unique name. For example, A1, A2, B1, B2 etc. As
 
 **Notice**
 
-Access GridCell using cells[cellName] may consume more memory.it will always create a new cell (GridCell) object no matter whether the the cell is null.
+Accessing a GridCell using `cells[cellName]` may consume more memory. It will always create a new cell (GridCell) object regardless of whether the cell is null.
 
 ### **Using Cell's Row and Column Indices**
 
 **Best Practices**:
 
-if we want to get the cell value or cell style and do not want to do the update operation,we can use **CheckCell** method which will return null if the cell does not exist.this will **save memory**.
-~~~C#
+If we want to get the cell value or cell style and do not want to perform an update operation, we can use the **CheckCell** method, which will return null if the cell does not exist. This will **save memory**.
+
+```csharp
 Worksheet sheet = gridDesktop1.GetActiveWorksheet();
 // Accessing a cell using its row and column indices
 GridCell cell = sheet.Cells.CheckCell(1, 1);
-   if(cell!=null)
-   {
+if (cell != null)
+{
     Console.WriteLine(cell.ToString());
-   }
-~~~
+}
+```
 
-A cell in a worksheet can also be recognized using its location in terms of its row and column indices. All we have to do is to just pass the row and column indices of the cell to the **Cells** collection of the **Worksheet**.
+A cell in a worksheet can also be recognized using its location in terms of its row and column indices. All we have to do is simply pass the row and column indices of the cell to the **Cells** collection of the **Worksheet**.
 
 
 
@@ -56,11 +59,10 @@ A cell in a worksheet can also be recognized using its location in terms of its 
 
 **Notice**
 
-Access GridCell using cells[rowIndex, columnIndex] may consume more memory.it will always create a new cell (GridCell) object no matter whether the the cell is null.
-
+Accessing a GridCell using `cells[rowIndex, columnIndex]` may consume more memory. It will always create a new cell (GridCell) object regardless of whether the cell is null.
 
 ### **Getting Focused Cell**
-If you don't know accurately that which cell is to be accessed. Then Aspose.Cells.GridDesktop also allows you to access a cell that is currently in the focus of a user. Using this feature, you can allow a user to select any cell and then you can access that cell at the backend. It can simply be achieved by using **GetFocusedCell** method of the **Worksheet**.
+If you don't know exactly which cell is to be accessed, Aspose.Cells.GridDesktop also allows you to access the cell that is currently in focus for the user. Using this feature, you can let a user select any cell and then access that cell on the backend. It can simply be achieved by using the **GetFocusedCell** method of the **Worksheet**.
 
 
 
@@ -68,25 +70,27 @@ If you don't know accurately that which cell is to be accessed. Then Aspose.Cell
 
 **Best Practices**:
 ### Iterate over the cells
-if we want to access all the cells in the worksheet one by one, we can use **iterators** to  traverse the existed cells. this will **save memory**.
-~~~C#
-   Worksheet sheet = gridDesktop1.GetActiveWorksheet();
- 
-   GridCells cells = sheet.Cells;
-   foreach (GridCell c in cells)
-  {
-      Console.WriteLine(c.ToString());
-   }
-~~~
-compare the below code which is **bad**  ,this will create all the cells object no matter whether it is null,thus will cause memory issues,so please **do not** use this way
-~~~C#
- Worksheet sheet = gridDesktop1.GetActiveWorksheet();
- for(int r=0;r< sheet.RowsCount;r++)
- {
-     for(int c=0;c< sheet.ColumnsCount; c++)
-     {
-         Console.WriteLine(sheet.Cells[r,c].ToString());
-     }
- }
-~~~
- 
+If we want to access all the cells in the worksheet one by one, we can use **iterators** to traverse the existing cells. This will **save memory**.
+
+```csharp
+Worksheet sheet = gridDesktop1.GetActiveWorksheet();
+
+GridCells cells = sheet.Cells;
+foreach (GridCell c in cells)
+{
+    Console.WriteLine(c.ToString());
+}
+```
+
+Compare the code below, which is **bad**; it will create all cell objects regardless of whether they are null, thus causing memory issues, so please **do not** use this approach.
+
+```csharp
+Worksheet sheet = gridDesktop1.GetActiveWorksheet();
+for (int r = 0; r < sheet.RowsCount; r++)
+{
+    for (int c = 0; c < sheet.ColumnsCount; c++)
+    {
+        Console.WriteLine(sheet.Cells[r, c].ToString());
+    }
+}
+```

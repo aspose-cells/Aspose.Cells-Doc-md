@@ -1,6 +1,6 @@
 ---
-title: Manipulate Position Size and Designer Chart with Node.js via C++
-linktitle: Manipulate Position Size and Designer Chart
+title: Manipulate Position, Size, and Designer Chart with Node.js via C++
+linktitle: Manipulate Position, Size, and Designer Chart
 description: Learn how to use Aspose.Cells for Node.js via C++ to effectively manipulate the position, size, and designer chart in Microsoft Excel. Our guide will demonstrate how to adjust these properties for improved layout and visualization.
 keywords: Aspose.Cells for Node.js via C++, Position, Size, Designer Chart, Microsoft Excel, Layout, Visualization.
 type: docs
@@ -11,17 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.getChartObject()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getChartObject--) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of a new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.getChartObject()](https://reference.aspose.com/cells/nodejs-cpp/chart/#getChartObject--) property to achieve this. You can use its sub‑properties to resize the chart with new **height** and **width** or reposition it with new **X** and **Y** coordinates.
 
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
 
 1. [Shape.getX()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getX--)
-1. [Shape.getY()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getY--)
-1. [Shape.getHeight()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getHeight--)
-1. [Shape.getWidth()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getWidth--)
+2. [Shape.getY()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getY--)
+3. [Shape.getHeight()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getHeight--)
+4. [Shape.getWidth()](https://reference.aspose.com/cells/nodejs-cpp/shape/#getWidth--)
 
-The following example explains the usage of the above APIs; it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
+The following example explains the usage of the above APIs; it loads an existing workbook that contains a chart in its first worksheet, then resizes and repositions the chart using Aspose.Cells.
 
 ```javascript
 const path = require("path");
@@ -54,7 +54,7 @@ workbook.save(path.join(dataDir, "chart.out.xls"));
 There are times when you need to manipulate or modify charts in designer template files. Aspose.Cells fully supports manipulating designer chart contents and elements. The data, chart contents, background image, and formatting can be preserved with accuracy.
 
 ### **Manipulating Designer Charts in Template Files**
-To manipulate designer charts in template files, use the chart-related API. For example, you may use the Worksheet.charts property to get the existing charts collection in the template file.
+To manipulate designer charts in template files, use the chart‑related API. For example, you may use the `Worksheet.getCharts()` property to get the existing charts collection in the template file.
 
 #### **Creating a Chart**
 The following example shows how to create a pyramid chart. We will manipulate this chart later on.
@@ -97,7 +97,7 @@ workbook.save(path.join(dataDir, "book1.out.xls"));
 ```
 
 #### **Manipulating the Chart**
-The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the date label of one data point has been set to 'United Kingdom, 30K'.
+The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the data label of one data point has been set to “United Kingdom, 30K”.
 
 ```javascript
 const path = require("path");
@@ -118,9 +118,9 @@ const chart = sheet.getCharts().get(0);
 const dataLabels = chart.getNSeries().get(0).getPoints().get(2).getDataLabels();
 
 // Change the text of the label.
-dataLabels.setText("Unided Kingdom, 400K ");
+dataLabels.setText("United Kingdom, 400K");
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "output.xls"));
 ```
 
@@ -148,16 +148,16 @@ chart.getNSeries().add("{0.3, 0.7, 1.2}", true);
 // Plot the fourth data series on the second axis.
 chart.getNSeries().get(3).setPlotOnSecondAxis(true);
 
-// Change the Border color of the second data series.
+// Change the border color of the second data series.
 chart.getNSeries().get(1).getBorder().setColor(AsposeCells.Color.Green);
 
-// Change the Border color of the third data series.
+// Change the border color of the third data series.
 chart.getNSeries().get(2).getBorder().setColor(AsposeCells.Color.Red);
 
 // Make the second value axis visible.
 chart.getSecondValueAxis().setIsVisible(true);
 
-// Save the excel file.
+// Save the Excel file.
 workbook.save(path.join(dataDir, "output.xls"));
 ```
 

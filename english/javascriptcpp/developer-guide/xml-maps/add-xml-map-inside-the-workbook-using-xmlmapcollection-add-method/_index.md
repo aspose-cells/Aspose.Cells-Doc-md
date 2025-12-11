@@ -1,21 +1,21 @@
 ---
-title: Add XML Map inside the Workbook using XmlMapCollection.Add method with JavaScript via C++  
-linktitle: Add XML Map inside the Workbook using XmlMapCollection.Add method  
-type: docs  
-weight: 10  
-url: /javascript-cpp/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/  
-description: Learn how to add XML Map inside the workbook using XmlMapCollection.Add method with Aspose.Cells for JavaScript via C++.  
----  
+title: Add XML Map into the Workbook using XmlMapCollection.Add method with JavaScript via C++
+linktitle: Add XML Map into the Workbook using XmlMapCollection.Add method
+type: docs
+weight: 10
+url: /javascript-cpp/add-xml-map-into-the-workbook-using-xmlmapcollection-add-method/
+description: Learn how to add an XML map into the workbook using the XmlMapCollection.Add method with Aspose.Cells for JavaScript via C++.
+---
 
-## **Possible Usage Scenarios**  
+## **Possible Usage Scenarios**
 
-Aspose.Cells provides [**XmlMapCollection.add(string)**](https://reference.aspose.com/cells/javascript-cpp/xmlmapcollection/#add-string-) method which you can use to import your XML Map inside the workbook.  
+Aspose.Cells provides [**XmlMapCollection.add(string)**](https://reference.aspose.com/cells/javascript-cpp/xmlmapcollection/#add-string-) method, which you can use to import your XML map into the workbook.
 
-## **Add XML Map inside the Workbook using XmlMapCollection.Add method**  
+## **Add XML Map into the Workbook using XmlMapCollection.Add method**
 
-The following sample code adds XML Map inside the workbook using the [**XmlMapCollection.add(string)**](https://reference.aspose.com/cells/javascript-cpp/xmlmapcollection/#add-string-) method and saves it as [output excel file](5115434.xlsx). The screenshot shows the XML Map that has been imported from the [sample.xml](5115433.xml) inside the output excel file.  
+The following sample code adds an XML map into the workbook using the [**XmlMapCollection.add(string)**](https://reference.aspose.com/cells/javascript-cpp/xmlmapcollection/#add-string-) method and saves it as an output Excel file (**5115434.xlsx**). The screenshot shows the XML map that has been imported from **sample.xml** into the output Excel file.
 
-![add-xml-map](add-xml-map.png)  
+![add-xml-map](add-xml-map.png)
 
 ```html
 <!DOCTYPE html>
@@ -60,11 +60,11 @@ The following sample code adds XML Map inside the workbook using the [**XmlMapCo
             // Create workbook object
             const wb = new Workbook();
 
-            // Add xml map found inside the uploaded sample.xml into the workbook
+            // Add XML map found inside the uploaded sample.xml into the workbook
             // Note: converted getter/setter usage to property access per universal conversion rules
             wb.worksheets.xmlMaps.add(xmlString);
 
-            // Save the workbook in xlsx format and provide download link
+            // Save the workbook in XLSX format and provide download link
             const outputData = wb.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

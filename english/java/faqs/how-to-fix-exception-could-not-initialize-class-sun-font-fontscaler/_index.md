@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-This article will explain how to fix exception - Could not initialize class sun.font.FontScaler. The exception looks something similar to this
+This article explains how to fix the exception **Could not initialize class sun.font.FontScaler**. The exception looks similar to this:
 
 {{< highlight java >}}
 
@@ -31,8 +31,9 @@ at sun.font.FontDesignMetrics.(FontDesignMetrics.java:350) [rt.jar:1.7.0_17]
 at sun.font.FontDesignMetrics.getMetrics(FontDesignMetrics.java:302) [rt.jar:1.7.0_17]
 
 {{< /highlight >}}
+
 ## **System Environment**
-The system environment could be something like this
+The system environment could be something like this:
 
 {{< highlight java >}}
 
@@ -43,12 +44,13 @@ Java™ SE Runtime Environment (build 1.7.0_17-b02)
 Java HotSpot™ 64-Bit Server VM (build 23.7-b01, mixed mode)
 
 {{< /highlight >}}
+
 ## **Possible Solution**
-You are likely to resolve the problem by integrating the following JAR into your classpath:
+You can resolve the problem by adding the following JAR to your classpath:
 
 - ae-awt.jar
+
 ## **Download Link of the ae-awt.jar**
 - <http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip>
-
 
 {{< app/cells/assistant language="java" >}}

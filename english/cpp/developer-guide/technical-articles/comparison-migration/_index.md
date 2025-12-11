@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Migrating Excel Files**
 
-Migrating Excel files involves converting them from one format to another or updating them to a newer version. Aspose.Cells for C++ simplifies this process.
+Migrating Excel files involves converting them from one format to another or updating them to a newer version. Aspose.Cells for C++ simplifies the process.
 
 1. Load the Excel file using the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class.
 2. Use the [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method to save the file in the desired format.

@@ -14,9 +14,9 @@ Aspose.Cells allows you to export a worksheet from the workbook and convert it i
 
 ## Converting Workbook to TIFF  
 
-An Excel file can contain multiple sheets with multiple pages. [**WorkbookRender**](https://reference.aspose.com/cells/nodejs-cpp/workbookrender) allows you to convert Excel to TIFF with multiple pages. Also, you can control multiple options for TIFF, like [ImageOrPrintOptions.getTiffCompression()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTiffCompression--), [ImageOrPrintOptions.getTiffColorDepth()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTiffColorDepth--), Resolution([ImageOrPrintOptions.getHorizontalResolution()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getHorizontalResolution--), [ImageOrPrintOptions.getVerticalResolution()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getVerticalResolution--)).  
+An Excel file can contain multiple sheets with multiple pages. [**WorkbookRender**](https://reference.aspose.com/cells/nodejs-cpp/workbookrender) allows you to convert Excel to TIFF with multiple pages. Also, you can control multiple options for TIFF, such as [ImageOrPrintOptions.getTiffCompression()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTiffCompression--), [ImageOrPrintOptions.getTiffColorDepth()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getTiffColorDepth--), Resolution([ImageOrPrintOptions.getHorizontalResolution()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getHorizontalResolution--), [ImageOrPrintOptions.getVerticalResolution()](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions/#getVerticalResolution--)).  
 
-The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-mulitiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-mulitiple-pages.tiff) are attached for your reference.  
+The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-multiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-multiple-pages.tiff) are attached for your reference.  
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -49,11 +49,11 @@ Worksheets contain data that you want to analyze. For example, a worksheet can c
 
 As a developer, you might need to present worksheets as images. For example, you might need to use an image of a worksheet in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.  
 
-[**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender)
-[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions)
-[**WorkbookRender**](https://reference.aspose.com/cells/nodejs-cpp/workbookrender)
+[**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender)  
+[**ImageOrPrintOptions**](https://reference.aspose.com/cells/nodejs-cpp/imageorprintoptions)  
+[**WorkbookRender**](https://reference.aspose.com/cells/nodejs-cpp/workbookrender)  
 
-The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender) class represents a worksheet to render as images. It has an overloaded method, [**SheetRender.toImage(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#toImage-number-string-), that can convert a worksheet to image file(s) with different attributes or options. It returns a Buffer object and you can save an image file to disk or stream. Several image formats are supported, for example BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.  
+The [**SheetRender**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender) class represents a worksheet to render as images. It has an overloaded method, [**SheetRender.toImage(number, string)**](https://reference.aspose.com/cells/nodejs-cpp/sheetrender/#toImage-number-string-), that can convert a worksheet to image file(s) with different attributes or options. It returns a Buffer object and you can save an image file to disk or stream. Several image formats are supported, for example BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.  
 
 The following code snippet shows how to convert a worksheet in an Excel file to an image file.  
 
@@ -93,7 +93,7 @@ At present, the API for converting worksheets to images does not support 3D bubb
 
 SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.  
 
-Aspose.Cells for Node.js via C++ has been able to convert worksheets to SVG image since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.  
+Aspose.Cells for Node.js via C++ has been able to convert worksheets to SVG images since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.  
 
 ```javascript
 const path = require("path");
@@ -122,7 +122,7 @@ workbook.getWorksheets().setActiveSheetIndex(1);
 workbook.save(path.join(outputDir, "ConvertWorksheetToSVG_out.svg"));
 ```  
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Convert an Excel Chart to Image](/cells/nodejs-cpp/convert-an-excel-chart-to-image/)  
 - [Converting Chart to Image in SVG Format](/cells/nodejs-cpp/converting-chart-to-image-in-svg-format/)  
 - [Export Chart to SVG with viewBox attribute](/cells/nodejs-cpp/export-chart-to-svg-with-viewbox-attribute/)  

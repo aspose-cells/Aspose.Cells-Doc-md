@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has formula =Sum(A1:A2) and its value is 20 but it is formatted as ---, then the value 20 is hidden and cannot be found using Microsoft Excel find options. However, you can find it using Aspose.Cells using [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype)
+Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has the formula =SUM(A1:A2) and its value is 20, but it is formatted as ---; then the value 20 is hidden and cannot be found using Microsoft Excel's Find options. However, you can find it using Aspose.Cells with [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype).
 
 {{% /alert %}}
 
-The following sample code illustrates the above point. It finds cell D4 which cannot be found using Microsoft Excel find options but Aspose.Cells can find it using [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype). Please read the comments inside the code for more information.
+The following sample code illustrates the above point. It finds cell D4, which cannot be found using Microsoft Excel's Find options, but Aspose.Cells can find it using [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype). Please read the comments inside the code for more information.
 
 ## C# code to search data using original values
 

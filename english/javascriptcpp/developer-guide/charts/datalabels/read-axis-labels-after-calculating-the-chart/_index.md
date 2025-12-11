@@ -10,7 +10,7 @@ url: /javascript-cpp/read-axis-labels-after-calculating-the-chart/
 
 ## **Possible Usage Scenarios**
 
-You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/javascript-cpp/chart/#calculate--) method. Please use the [**Axis.axisTexts**](https://reference.aspose.com/cells/javascript-cpp/axis/#axisTexts--) property for this purpose that will return the list of axis labels.
+You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/javascript-cpp/chart/#calculate--) method. Please use the [**Axis.axisTexts**](https://reference.aspose.com/cells/javascript-cpp/axis/#axisTexts--) property for this purpose, which will return the list of axis labels.
 
 ## **Read Axis Labels after Calculating the Chart**
 
@@ -97,9 +97,9 @@ Please see the following sample code that loads the [sample Excel file](ReadAxi
 ## **Console Output**
 
 {{< highlight javascript >}}  
- Category Axis Labels:  
+Category Axis Labels:  
 
-\---------------------  
+---------------------  
 
 Iran  
 

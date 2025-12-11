@@ -13,7 +13,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Preview Document](/cells/sharepoint/preview-document/)
 - [Preview Multiple Documents](/cells/sharepoint/preview-multiple-documents/)
 - [Searching in a Document](/cells/sharepoint/searching-in-a-document/)
-- [Add Watermark to a document](/cells/sharepoint/add-watermark-to-a-document/)
-- [Add Footer to a document](/cells/sharepoint/add-footer-to-a-document/)
-- [Add Footer to multiple documents](/cells/sharepoint/add-footer-to-multiple-documents/)
-- [Add Watermark to multiple documents](/cells/sharepoint/add-watermark-to-multiple-documents/)
+- [Add Watermark to a Document](/cells/sharepoint/add-watermark-to-a-document/)
+- [Add Footer to a Document](/cells/sharepoint/add-footer-to-a-document/)
+- [Add Footer to Multiple Documents](/cells/sharepoint/add-footer-to-multiple-documents/)
+- [Add Watermark to Multiple Documents](/cells/sharepoint/add-watermark-to-multiple-documents/)
+

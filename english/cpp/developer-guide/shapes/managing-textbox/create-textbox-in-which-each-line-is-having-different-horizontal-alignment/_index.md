@@ -1,21 +1,21 @@
----
-title: Create TextBox in which each line is having different Horizontal Alignment with C++
-linktitle: Create TextBox with Different Horizontal Alignment
-type: docs
-weight: 310
-url: /cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
-description: Learn how to create a TextBox with different horizontal alignment for each line using Aspose.Cells with C++.
+---  
+title: Create a TextBox in which each line has a different Horizontal Alignment with C++  
+linktitle: Create TextBox with Different Horizontal Alignment  
+type: docs  
+weight: 310  
+url: /cpp/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/  
+description: Learn how to create a TextBox with different horizontal alignment for each line using Aspose.Cells with C++.  
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----
+---  
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}}  
 
-You can set the horizontal alignment of your paragraph text using the [**TextParagraph.GetAlignmentType()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getalignmenttype/) property.
+You can set the horizontal alignment of your paragraph text using the [**TextParagraph.GetAlignmentType()**](https://reference.aspose.com/cells/cpp/aspose.cells.drawing.texts/textparagraph/getalignmenttype/) property.  
 
-{{% /alert %}}
+{{% /alert %}}  
 
-The following sample code creates three lines and sets the horizontal alignment of each of them.
+The following sample code creates three lines and sets the horizontal alignment of each of them.  
 
 ```cpp
 #include <iostream>
@@ -32,13 +32,13 @@ int main()
     // Create a workbook
     Workbook wb;
 
-    // Access first worksheet
+    // Access the first worksheet
     Worksheet ws = wb.GetWorksheets().Get(0);
 
-    // Add text box inside the sheet
+    // Add a text box inside the sheet
     ws.GetShapes().AddTextBox(2, 0, 2, 0, 80, 400);
 
-    // Access first shape which is a text box and set its text
+    // Access the first shape, which is a text box, and set its text
     Shape shape = ws.GetShapes().Get(0);
     shape.SetText(u"Sign up for your free phone number.\nCall and text online for free.\nCall your friends and family.");
 
@@ -54,12 +54,12 @@ int main()
     p = shape.GetTextBody().GetTextParagraphs().Get(2);
     p.SetAlignmentType(TextAlignmentType::Right);
 
-    // Save the workbook in xlsx format
+    // Save the workbook in XLSX format
     wb.Save(outDir + u"output_out.xlsx", SaveFormat::Xlsx);
 
     std::cout << "Workbook saved successfully!" << std::endl;
 
     Aspose::Cells::Cleanup();
 }
-```
+```  
 {{< app/cells/assistant language="cpp" >}}

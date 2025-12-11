@@ -20,14 +20,13 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 Apply the superscript effect by setting the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**setIsSuperscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSuperscript-boolean-) method to **true**. To apply subscript, set the [**Font**](https://reference.aspose.com/cells/nodejs-cpp/font) object's [**setIsSubscript**](https://reference.aspose.com/cells/nodejs-cpp/font/#setIsSubscript-boolean-) method to **true**.
 
-The following code examples show how to apply super and subscript to text.
+The following code examples show how to apply superscript and subscript to text.
 
-### Node.js code to Apply Superscript effect on text
+### Node.js code to apply superscript effect on text
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySuperscript.js" >}}
 
-
-### Node.js code to Apply Subscript effect on text
+### Node.js code to apply subscript effect on text
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Formatting-FontSettings-ApplySubscript.js" >}}
 {{< app/cells/assistant language="nodejs-cpp" >}}

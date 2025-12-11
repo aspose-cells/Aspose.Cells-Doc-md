@@ -4,7 +4,7 @@ linktitle: Load a Web Image from a URL into an Excel Worksheet
 type: docs
 weight: 30
 url: /javascript-cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: How to convert an Image from URL to actual Excel image using Aspose.Cells for JavaScript via C++.
+description: How to convert an image from a URL to an actual Excel image using Aspose.Cells for JavaScript via C++.
 keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, JavaScript, Excel
 ---
 
@@ -95,5 +95,5 @@ Aspose.Cells for JavaScript via C++ provides a simple and easy way to load image
 ```
 
 {{% alert color="primary" %}}
-There might be cases where you always want the updated image from a URL. To achieve this, you may follow the instructions given in the [Insert a Linked Picture from Web Address](/cells/javascript-cpp/insert-a-linked-picture-from-web-address/) article. By following this method, the image is loaded from the URL each time the worksheet is opened.
+There may be cases where you want the image to be updated from a URL each time the worksheet is opened. To achieve this, you may follow the instructions given in the [Insert a Linked Picture from Web Address](/cells/javascript-cpp/insert-a-linked-picture-from-web-address/) article. By following this method, the image is loaded from the URL each time the worksheet is opened.
 {{% /alert %}}

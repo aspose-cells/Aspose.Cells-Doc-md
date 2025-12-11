@@ -11,19 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Sometimes you need to insert drawing objects like labels, text boxes, pictures and so on into a chart. Aspose.Cells can add the controls to a chart at runtime.
+Sometimes you need to insert drawing objects like labels, text boxes, pictures and so on into a chart. Aspose.Cells can add controls to a chart at runtime.
 {{% /alert %}}
 
 ## **Adding Label Control to the Chart**
 
-Labels provide a means for giving information to users about a spreadsheet's content. Aspose.Cells allows you to add and manipulate labels even into charts.
+Labels provide a means for giving information to users about a spreadsheet's content. Aspose.Cells allows you to add and manipulate labels even in charts.
 
 The [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/) class provides a method named [**addLabelInChart(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addLabelInChart-number-number-number-number-), used to add a label control to a chart. Below is a list of the parameters used for the method:
 
 - **top** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.
+- **left** – the horizontal offset of the label from the upper left corner in units of 1/4000 of the chart area.
 - **height** – the height of the label, in units of 1/4000 of the chart area.
-- **width** – the width of label, in units of 1/4000 of the chart area.
+- **width** – the width of the label, in units of 1/4000 of the chart area.
 
 The method returns [**Label**](https://reference.aspose.com/cells/nodejs-cpp/label/) object. The [**Label**](https://reference.aspose.com/cells/nodejs-cpp/label/) class represents a label in the chart. It has some important members:
 
@@ -61,16 +61,16 @@ workbook.save(path.join(dataDir, "chart.out.xls"));
 
 ## **Adding TextBox Control to the Chart**
 
-One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/) class provides a method named [**addTextBoxInChart(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addTextBoxInChart-number-number-number-number-), which is used to add a text box control to a chart. Following is the parameters list used for the method:
+One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/) class provides a method named [**addTextBoxInChart(number, number, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addTextBoxInChart-number-number-number-number-), which is used to add a text box control to a chart. The following is the parameters list used for the method:
 
 - **top** – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of text box from the upper left corner in units of 1/4000 of the chart area.
-- **height** – the height of text box, in units of 1/4000 of the chart area.
+- **left** – the horizontal offset of the text box from the upper left corner in units of 1/4000 of the chart area.
+- **height** – the height of the text box, in units of 1/4000 of the chart area.
 - **width** – the width of the text box, in units of 1/4000 of the chart area.
 
 The method returns [**TextBox**](https://reference.aspose.com/cells/nodejs-cpp/textbox/) object. The [**TextBox**](https://reference.aspose.com/cells/nodejs-cpp/textbox/) class represents a text box in the chart.
 
-The following example shows how to add a text box to a chart. The example uses the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert a text box into the chart to show the chart title. Below is the original code for adding text box to the chart.
+The following example shows how to add a text box to a chart. The example uses the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert a text box into the chart to show the chart title. Below is the original code for adding a text box to the chart.
 
 ```javascript
 const path = require("path");
@@ -130,17 +130,17 @@ workbook.save(path.join(dataDir, "chart.out.xls"));
 
 Aspose.Cells allows you to insert images into a chart. For example, add a picture to emphasize or give more meaning to a chart or its contents, or insert a brand image file.
 
-The [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/) class provides a method named [**addPictureInChart(number, number, Uint8Array, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addPictureInChart-number-number-uint8array-number-number-), which is used to add a picture object to the chart. Following is the parameters list used for the method:
+The [**ShapeCollection**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/) class provides a method named [**addPictureInChart(number, number, Uint8Array, number, number)**](https://reference.aspose.com/cells/nodejs-cpp/shapecollection/#addPictureInChart-number-number-uint8array-number-number-), which is used to add a picture object to the chart. The following is the parameters list used for the method:
 
 - **top** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.
-- **left** – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.
+- **left** – the horizontal offset of the picture from the upper left corner in units of 1/4000 of the chart area.
 - **stream** – a stream object which contains the image data.
 - **widthScale** – the scale of image width, a percentage value.
 - **heightScale** – the scale of image height, a percentage value.
 
 The method returns an [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/picture/) object. The [**Picture**](https://reference.aspose.com/cells/nodejs-cpp/picture/) class represents a picture object in the chart.
 
-The following example shows how to add a picture to the chart. The example utilizes the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert an image into the chart. Below is the original code for adding picture to the chart.
+The following example shows how to add a picture to the chart. The example utilizes the previous designer file (**exp_piechart.xls**) which has a chart in it. We use this file to insert an image into the chart. Below is the original code for adding a picture to the chart.
 
 ```javascript
 const fs = require("fs");
@@ -163,7 +163,7 @@ const chart = sheet.getCharts().get(0);
 // Add a new picture to the chart.
 const pic0 = chart.getShapes().addPictureInChart(50, 50, stream, 40, 40);
 
-// Get the lineformat type of the picture.
+// Get the line format type of the picture.
 const lineformat = pic0.getLine();          
 
 // Set the dash style.
@@ -178,7 +178,7 @@ workbook.save(path.join(dataDir, "chart.out.xls"));
 
 ## **Adding Checkbox in the Chart**
 
-Aspose.Cells allows you to insert checkboxes into a chart sheet by using [**MsoDrawingType**](https://reference.aspose.com/cells/nodejs-cpp/msodrawingtype/) enumeration. The following example demonstrates adding a checkbox to a chart sheet.
+Aspose.Cells allows you to insert checkboxes into a chart sheet by using the [**MsoDrawingType**](https://reference.aspose.com/cells/nodejs-cpp/msodrawingtype/) enumeration. The following example demonstrates adding a checkbox to a chart sheet.
 
 The following image shows the chart sheet with the checkbox in the output file.
 
@@ -209,10 +209,10 @@ sheet.getCharts().get(0).getShapes().addShapeInChart(AsposeCells.MsoDrawingType.
 sheet.getCharts().get(0).getShapes().get(0).setText("CheckBox 1");
 
 // Save the excel file.
-workbook.save(outputDir +"InsertCheckboxInChartSheet_out.xlsx");
+workbook.save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Add WordArt Watermark to Chart](/cells/nodejs-cpp/add-wordart-watermark-to-chart/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

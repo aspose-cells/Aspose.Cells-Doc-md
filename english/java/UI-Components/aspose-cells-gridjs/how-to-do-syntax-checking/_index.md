@@ -3,7 +3,7 @@ title: syntax checking & spell correction for GridJs
 type: docs
 weight: 250
 url: /java/aspose-cells-gridjs/how-to-do-syntax-checking/
-description: This article describes how to add syntax  checking & spell correction for GridJs.
+description: This article describes how to add syntax checking & spell correction for GridJs.
 keywords: GridJs,syntax checking,spell correction,syntax,spell,Grammar Checking,Grammar
 aliases:
   - /java/aspose-cells-gridjs/syntax-checking/
@@ -14,30 +14,32 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
- 
-# To perform syntax checking  & spell correction on user input ,the steps are
+# To perform syntax checking & spell correction on user input, the steps are
+
 ## Set load options.
-for example:
+For example:
 ```javascript
  const option = {
      ...
-     //set showCheckSyntaxButton to true
+     // set showCheckSyntaxButton to true
     showCheckSyntaxButton:true,
-    //set checkSyntax to true
+    // set checkSyntax to true
     checkSyntax:true,
  };
   xs = x_spreadsheet('#gridjs-demo', option)
 ```
-## Set action URL for syntax  checking & spell correction.
-for example:
+
+## Set action URL for syntax checking & spell correction.
+For example:
 ```javascript
  const checkurl = "/GridJs2/CheckSyntax";  
  xs.setSyntaxCheckUrl(checkurl);
 ```
-After a user enters text content in a cell, the action of syntax checking wil be triggered automatically by the spreadsheet application 
 
-## Implement syntax  checking & spell correction action API in Controller  in serverside .
-for example:
+After a user enters text content in a cell, the action of syntax checking will be triggered automatically by the spreadsheet application.
+
+## Implement syntax checking & spell correction action API in the controller on the server side.
+For example:
 ```java
     @PostMapping("/CheckSyntax")  
     public ResponseEntity<?> checkSyntax(  
@@ -50,7 +52,7 @@ for example:
             return ResponseEntity.ok(Map.of("success", false, "v", ""));  
         }  
   
-        // Call the syntax correction logic, which could be a third-party library or custom code  
+        // Call the syntax correction logic, which could be a third‑party library or custom code  
         // This is a placeholder method that should be replaced with actual logic  
         String correctedContent = correctSyntax(textInput, locale);  
   
@@ -66,8 +68,3 @@ for example:
         return text; // Replace this with the actual syntax correction  
     }  
 ```
-
-
-
-
- 

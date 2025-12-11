@@ -17,60 +17,59 @@ Export Data from CRM to Excel
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
- fileDialog.DefaultExt = ".xlsx";
+  fileDialog.DefaultExt = ".xlsx";
 
- fileDialog.FileName = "Aspose ImportTool Export.xlsx";
+  fileDialog.FileName = "Aspose ImportTool Export.xlsx";
 
- if (fileDialog.ShowDialog().Value)
+  if (fileDialog.ShowDialog().Value)
 
- {
+  {
 
-    string FileName = fileDialog.FileName;
+      string FileName = fileDialog.FileName;
 
-    Workbook workbook = new Workbook();
+      Workbook workbook = new Workbook();
 
-    workbook.Worksheets.Add("Aspose Export");
+      workbook.Worksheets.Add("Aspose Export");
 
-    Worksheet MyWorksheet = workbook.Worksheets["Aspose Export"];
+      Worksheet MyWorksheet = workbook.Worksheets["Aspose Export"];
 
-    int i = 0;
+      int i = 0;
 
-    foreach (string attrib in SelectedAttributes)
+      foreach (string attrib in SelectedAttributes)
 
-    MyWorksheet.Cells[0, i++].Value = attrib;
+          MyWorksheet.Cells[0, i++].Value = attrib;
 
-    int Row = 1,cell=0;
+      int Row = 1, cell = 0;
 
-    foreach (Entity record in Result.Entities)
+      foreach (Entity record in Result.Entities)
 
-    {
+      {
 
-       cell = 0;
+          cell = 0;
 
-       foreach (string attribute in SelectedAttributes)
-
-       {
-
-          if (record.Contains(attribute))
+          foreach (string attribute in SelectedAttributes)
 
           {
 
-             MyWorksheet.Cells[Row,cell].Value = record[attribute].ToString();
+              if (record.Contains(attribute))
+
+              {
+
+                  MyWorksheet.Cells[Row, cell].Value = record[attribute].ToString();
+
+              }
+
+              cell++;
 
           }
 
-          cell++;
+          Row++;
 
-       }
+      }
 
-       Row++;
+      workbook.Save(FileName, SaveFormat.Xlsx);
 
-     }
-
-     workbook.Save(FileName, SaveFormat.Xlsx);
-
-}
-
+  }
 
 {{< /highlight >}}
 
@@ -80,57 +79,56 @@ Import Data from Excel to CRM
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 
- {
+  {
 
-    CrmServiceClient svcClient = ctrl.CrmConnectionMgr.CrmSvc;
+      CrmServiceClient svcClient = ctrl.CrmConnectionMgr.CrmSvc;
 
-    if (svcClient.IsReady)
+      if (svcClient.IsReady)
 
-    {
+      {
 
-        OpenFileDialog fileDialog = new OpenFileDialog();
+          OpenFileDialog fileDialog = new OpenFileDialog();
 
-        fileDialog.DefaultExt = ".xlsx";
+          fileDialog.DefaultExt = ".xlsx";
 
-        if (fileDialog.ShowDialog().Value)
+          if (fileDialog.ShowDialog().Value)
 
-        {
+          {
 
-           string FileName = fileDialog.FileName;
+              string FileName = fileDialog.FileName;
 
-           Workbook workbook = new Workbook(FileName);
+              Workbook workbook = new Workbook(FileName);
 
-           Worksheet MyWorksheet = workbook.Worksheets["Aspose Export"];
+              Worksheet MyWorksheet = workbook.Worksheets["Aspose Export"];
 
-           DataTable dt = MyWorksheet.Cells.ExportDataTable(0, 0, MyWorksheet.Cells.Rows.Count, MyWorksheet.Cells.Columns.Count, true);
+              DataTable dt = MyWorksheet.Cells.ExportDataTable(0, 0, MyWorksheet.Cells.Rows.Count, MyWorksheet.Cells.Columns.Count, true);
 
-           foreach (DataRow dr in dt.Rows)
+              foreach (DataRow dr in dt.Rows)
 
-           {
+              {
 
-               Entity CrmRecord = new Entity(SelectedEntity);
+                  Entity CrmRecord = new Entity(SelectedEntity);
 
-               foreach (DataColumn th in dt.Columns)
+                  foreach (DataColumn th in dt.Columns)
 
-               {
+                  {
 
-                  CrmRecord.Attributes.Add(th.ColumnName, dr[th.ColumnName].ToString());
+                      CrmRecord.Attributes.Add(th.ColumnName, dr[th.ColumnName].ToString());
 
-               }
+                  }
 
-               CreateRequest req = new CreateRequest();
+                  CreateRequest req = new CreateRequest();
 
-               req.Target = CrmRecord;
+                  req.Target = CrmRecord;
 
-               CreateResponse res = (CreateResponse)svcClient.OrganizationServiceProxy.Execute(req);
+                  CreateResponse res = (CreateResponse)svcClient.OrganizationServiceProxy.Execute(req);
 
-            }
+              }
 
-        }
+          }
 
-    }
+      }
 
- }
-
+  }
 
 {{< /highlight >}}

@@ -11,8 +11,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Create Style object using CellsFactory class**
-The following sample code creates [Style](https://reference.aspose.com/cells/nodejs-cpp/style) object using [CellsFactory](https://reference.aspose.com/cells/nodejs-cpp/cellsfactory) class and then sets the Default Style of the workbook. Please download the [output excel file](5115153.xlsx) to see the results of this code for your reference.
 
+The following sample code creates a [Style](https://reference.aspose.com/cells/nodejs-cpp/style) object using the [CellsFactory](https://reference.aspose.com/cells/nodejs-cpp/cellsfactory) class and then sets the default style of the workbook. Please download the [output Excel file](5115153.xlsx) to see the results of this code for reference.
 
 {{< gist "aspose-cells-gists" "c7b55cbeb75eaaae989115230a7619eb" "Cells-Data-Styles-CreateStyleUsingCellsFactory.js" >}}
 

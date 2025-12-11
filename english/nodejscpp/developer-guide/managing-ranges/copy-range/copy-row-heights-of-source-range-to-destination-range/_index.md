@@ -32,7 +32,7 @@ const srcSheet = workbook.getWorksheets().get(0);
 // Add destination worksheet
 const dstSheet = workbook.getWorksheets().add("Destination Sheet");
 
-// Set the row height of the 4th row. This row height will be copied to destination range
+// Set the row height of the 4th row. This row height will be copied to the destination range
 srcSheet.getCells().setRowHeight(3, 50);
 
 // Create source range to be copied

@@ -81,7 +81,7 @@ Add a comment to a cell by calling the [**Comments**](https://reference.aspose.c
 
 ## **Comment Formatting**
 
-It is also possible to format comments' appearance by configuring their height, width and font settings.
+It is also possible to format comments' appearance by configuring their height, width, and font settings.
 
 ```html
 <!DOCTYPE html>
@@ -137,10 +137,10 @@ It is also possible to format comments' appearance by configuring their height, 
             // Setting the font of a comment to bold
             comment.font.isBold = true;
 
-            // Setting the height of the font to 10
+            // Setting the height of the comment to 10 cm
             comment.heightCM = 10;
 
-            // Setting the width of the font to 2
+            // Setting the width of the comment to 2 cm
             comment.widthCM = 2;
 
             // Saving the Excel file
@@ -160,19 +160,19 @@ It is also possible to format comments' appearance by configuring their height, 
 
 ## **Add an Image to Comment**
 
-With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (They suppose that you have already added a cell comment.)
+With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by following these steps (they assume that you have already added a cell comment).
 
-1. Right-click the cell that contains the comment.
-1. Select **Show/Hide Comments**, and clear any text from the comment.
-1. Click on the border of the comment to select it.
-1. Select **Format**, then **Comment**.
-1. On the **Colors and Lines** tab, expand the **Color** list.
-1. Click **Fill Effects**.
-1. On the **Picture** tab, click **Select Picture**.
-1. Locate and select the picture.
-1. Click **OK** until all dialogs have closed.
+1. Right‑click the cell that contains the comment.  
+2. Select **Show/Hide Comments**, and clear any text from the comment.  
+3. Click on the border of the comment to select it.  
+4. Select **Format**, then **Comment**.  
+5. On the **Colors and Lines** tab, expand the **Color** list.  
+6. Click **Fill Effects**.  
+7. On the **Picture** tab, click **Select Picture**.  
+8. Locate and select the picture.  
+9. Click **OK** until all dialogs have closed.
 
-Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
+Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell **A1** with a picture set as its background.
 
 ```html
 <!DOCTYPE html>
@@ -252,7 +252,7 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
             // Set image data to the shape associated with the comment
             comment.commentShape.fill.imageData = imgUint8;
 
-            // Save the workbook to browser-downloadable file
+            // Save the workbook to a browser‑downloadable file
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
             const downloadLink = document.getElementById('downloadLink');
@@ -267,7 +267,7 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
 </html>
 ```
 
-## **Advance topics**
+## **Advanced topics**
 - [Change Text Direction of the Comment](/cells/javascript-cpp/change-text-direction-of-the-comment/)
 - [How to change the Comment Font Color](/cells/javascript-cpp/how-to-change-the-comment-font-color/)
 - [How to set comment background](/cells/javascript-cpp/how-to-set-comment-background/)

@@ -8,7 +8,7 @@ weight: 10
 url: /javascript-cpp/data-formatting-in-charts/
 ---
 
-In our previous topics, we have already provided many examples to demonstrate how you can set a data source for your chart but in this topic, we are going to provide more details about the types of data that can be set for a chart.
+In our previous topics, we have already provided many examples to demonstrate how you can set a data source for your chart, but in this topic we are going to provide more details about the types of data that can be set for a chart.
 
 ## **Setting Chart Data**
 
@@ -194,7 +194,7 @@ Category data is used for the labeling of chart data and can be added to [**Seri
 </html>
 ```
 
-## **Advance topics**  
+## **Advanced topics**  
 - [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/javascript-cpp/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)  
 - [Create Dynamic Charts](/cells/javascript-cpp/create-dynamic-charts/)  
 - [Easy way for Chart Setup using Chart.chartDataRange method](/cells/javascript-cpp/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)  

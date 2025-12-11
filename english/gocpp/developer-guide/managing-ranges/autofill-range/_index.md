@@ -9,11 +9,11 @@ description: Learn how to perform an autofill operation in a specified range of 
 
 ## **Perform an Autofill in the Specified Range in Excel**
 
-In Excel, select a range, move the mouse to the right-bottom corner, and drag the "+" to autofill data.
+In Excel, select a range, move the mouse to the lower‑right corner, and drag the “+” handle to autofill data.
 
-## **Auto Fill Ranges with Aspose.Cells**
+## **AutoFill Ranges with Aspose.Cells**
 
-The following example shows how to perform an AutoFill operation on a Range. Here is the sample file which can be downloaded for testing this feature:
+The following example shows how to perform an AutoFill operation on a range. Here is the sample file that can be downloaded to test this feature:
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

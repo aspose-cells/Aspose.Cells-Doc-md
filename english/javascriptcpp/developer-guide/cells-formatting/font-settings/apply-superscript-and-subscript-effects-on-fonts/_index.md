@@ -18,9 +18,9 @@ Aspose.Cells provides the functionality to apply superscript (text above the bas
 
 Apply the superscript effect by setting the [**Font**](https://reference.aspose.com/cells/javascript-cpp/font) object's [**isSuperscript**](https://reference.aspose.com/cells/javascript-cpp/font/#isSuperscript-boolean-) property to **true**. To apply subscript, set the [**Font**](https://reference.aspose.com/cells/javascript-cpp/font) object's [**isSubscript**](https://reference.aspose.com/cells/javascript-cpp/font/#isSubscript-boolean-) property to **true**.
 
-The following code examples show how to apply super and subscript to text.
+The following code examples show how to apply superscript and subscript to text.
 
-### JavaScript code to Apply Superscript effect on text
+### JavaScript code to apply superscript effect to text
 
 ```html
 <!DOCTYPE html>
@@ -67,7 +67,7 @@ The following code examples show how to apply super and subscript to text.
             // Adding some value to the "A1" cell
             cell.value = "Hello";
 
-            // Setting the font Superscript
+            // Setting the font to superscript
             const style = cell.style;
             style.font.isSuperscript = true;
             cell.style = style;
@@ -87,8 +87,7 @@ The following code examples show how to apply super and subscript to text.
 </html>
 ```
 
-
-### JavaScript code to Apply Subscript effect on text
+### JavaScript code to apply subscript effect to text
 
 ```html
 <!DOCTYPE html>
@@ -135,7 +134,7 @@ The following code examples show how to apply super and subscript to text.
             // Adding some value to the "A1" cell
             cell.value = "Hello";
 
-            // Setting the font Subscript
+            // Setting the font to subscript
             const style = cell.style;
             style.font.isSubscript = true;
             cell.style = style;

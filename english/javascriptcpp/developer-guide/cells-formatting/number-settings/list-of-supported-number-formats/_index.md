@@ -9,7 +9,7 @@ url: /javascript-cpp/list-of-supported-number-formats/
 ---
 
 ## **Aspose.Cells**
-Aspose.Cells component offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the **Number** property of the **Style** object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the *Number* property of the **Style** object and hence the display format is applied. This approach is more faster. The built-in number formats supported by Aspose.Cells component are given below:
+Aspose.Cells component offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the **Number** property of the **Style** object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the *Number* property of the **Style** object and hence the display format is applied. This approach is faster. The built-in number formats supported by Aspose.Cells component are given below:
 
 |**Value**|**Type**|**Format String**|
 | :- | :- | :- |
@@ -51,13 +51,13 @@ Aspose.Cells component offers some built-in number formats to configure the disp
 |49 |Text |@ |
 
 ## **Aspose.Cells Grid Suite**
-As we know that there are two Aspose.Cells Grid controls: Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Both controls support a large number of number formats, which are divided into two sections with respect to each control as follows:
+As we know, there are two Aspose.Cells Grid controls: Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Both controls support a large number of number formats, which are divided into two sections with respect to each control as follows:
 
 - Number Formats Supported in Aspose.Cells.GridDesktop
 - Number Formats Supported in Aspose.Cells.GridWeb
 
 ### **Number Formats Supported in Aspose.Cells.GridDesktop**
-Aspose.Cells.GridWeb also supports 59 types of number formats which are listed below:
+Aspose.Cells.GridDesktop also supports 59 types of number formats which are listed below:
 
 |**Index**|**Number Formats**|
 | :- | :- |
@@ -101,10 +101,10 @@ Aspose.Cells.GridWeb also supports 59 types of number formats which are listed b
 |37 |_(#,##0 );(#,##0) |
 |38 |_(#,##0.00 );(#,##0.00) |
 |39 |_(#,##0.00 );(#,##0.00) |
-|40 |*(\"$\"* ***#,##0** **);*** **(\"$\"** *_(#,##0);* (\"$\"*\"-\" *);* (@_) |
-|41 |*(* ***#,##0** **);*** **(** *_(#,##0);* (*-\" *);* (@_) |
-|42 |*(* ***#,##0.00** **);*** **(** *_(#,##0.00);* (*-\"?? *);* (@_) |
-|43 |*(\"$\"* ***#,##0.00** **);*** **(\"$\"** *_(#,##0.00);* (\"$\"*\"-\"?? *);* (@_) |
+|40 |*("$"* ***#,##0** **);*** **("$"* _(#,##0);* ("$"*"-" *);* (@_) |
+|41 |*(* ***#,##0** **);*** **(* ** _(#,##0);* (*-" *);* (@_) |
+|42 |*(* ***#,##0.00** **);*** **(* ** _(#,##0.00);* (*-"?? *);* (@_) |
+|43 |*("$"* ***#,##0.00** **);*** **("$"* _(#,##0.00);* ("$"*"-"?? *);* (@_) |
 |44 |mm:ss |
 |45 |h:mm:ss |
 |46 |mm:ss.0 |
@@ -123,7 +123,7 @@ Aspose.Cells.GridWeb also supports 59 types of number formats which are listed b
 
 {{% alert color="primary" %}} 
 
-In some number formats, you might notice some characters like 月. These are infact chinese characters and can be used in Chinese and Japanese versions of MS Excel.
+In some number formats, you might notice characters like 月. These are in fact Chinese characters and can be used in Chinese and Japanese versions of MS Excel.
 
 {{% /alert %}} 
 
