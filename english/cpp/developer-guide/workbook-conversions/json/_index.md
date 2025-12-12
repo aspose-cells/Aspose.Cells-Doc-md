@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports converting a workbook to **a** JSON (JavaScript Object Notation) file.
+Aspose.Cells supports converting a workbook to a JSON (JavaScript Object Notation) file.
 
 {{% /alert %}}
 

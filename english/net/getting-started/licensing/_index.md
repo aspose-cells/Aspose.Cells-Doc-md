@@ -25,7 +25,7 @@ There are two common methods to apply a license, from file or stream, or as an e
 
 ### **How to Apply a License from Disk or Stream**
 
-The easiest way to set a license, is to put the license file in the same folder as that of Aspose.Cells.dll and specify just the file name without its path.
+The easiest way to set a license is to put the license file in the same folder as Aspose.Cells.dll and specify just the file name without its path.
 
 {{< highlight csharp >}}
 
@@ -57,9 +57,9 @@ license.SetLicense(myStream);
 
 ### **How to Apply Metered License**
 
-Aspose.Cells allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.  
+Aspose.Cells allows developers to to apply a metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.  
 
-A new class [Metered](https://reference.aspose.com/cells/net/aspose.cells/metered) has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private key.
+A new class [Metered](https://reference.aspose.com/cells/net/aspose.cells/metered) has been introduced to apply a metered key. Following is the sample code demonstrating how to set metered public and private key.
 
 {{< highlight csharp >}}
 
@@ -67,7 +67,7 @@ A new class [Metered](https://reference.aspose.com/cells/net/aspose.cells/meter
 
 Metered metered = new Metered();
 
-//Access the setMeteredKey property and pass public and private keys as parameters
+//Access the setMeteredKey method and pass public and private keys as parameters
 
 metered.SetMeteredKey("*************", "*************");
 

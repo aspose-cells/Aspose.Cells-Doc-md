@@ -39,7 +39,7 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}  
 
 ### **Added VbaModuleCollection.Add Method**  
-Aspose.Cells for .NET 8.4.2 has exposed the `VbaModuleCollection.Add` method to add a new VBA module to the instance of **Workbook**. The `VbaModuleCollection.Add` method accepts a parameter of type **Worksheet** to add a worksheet‑specific module.  
+Aspose.Cells for .NET 8.4.2 has exposed the `VbaModuleCollection.Add` method to add a new VBA module to the instance of **Workbook**. The `VbaModuleCollection.Add` method accepts a parameter of type [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to add a worksheet‑specific module.  
 
 The following code snippet shows how to use the `VbaModuleCollection.Add` method.  
 

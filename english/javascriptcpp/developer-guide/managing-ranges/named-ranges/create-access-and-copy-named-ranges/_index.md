@@ -29,7 +29,7 @@ You cannot name a cell while you are changing the contents of the cell.
 ## **Working with Named Ranges Using Aspose.Cells**  
 
 Here, we use the Aspose.Cells API to accomplish the task.  
-Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The **Workbook** class contains a **worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The **Worksheet** class provides a **cells** collection.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a **worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a **cells** collection.  
 
 ### **Create Named Range**  
 

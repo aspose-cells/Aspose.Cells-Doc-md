@@ -19,8 +19,8 @@ Similar to one of our previous topics, this topic describes the feature of addin
 To add a new row to the worksheet, please follow the steps below:
 
 - Add Aspose.Cells.GridDesktop control to your **Form**  
-- Access any desired **Worksheet**  
-- Add **Row** to the **Worksheet**  
+- Access any desired [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)  
+- Add **Row** to the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)  
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertRow-AddRow.cs" >}}  
 
@@ -28,8 +28,8 @@ To add a new row to the worksheet, please follow the steps below:
 To insert a new row into a worksheet at a specified position, please follow the steps below:
 
 - Add Aspose.Cells.GridDesktop control to your **Form**  
-- Access any desired **Worksheet**  
-- Insert **Row** into **Worksheet** (at a specific position by specifying the index of the row where to insert it)  
+- Access any desired [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)  
+- Insert **Row** into [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) (at a specific position by specifying the index of the row where to insert it)  
 
 {{< highlight java >}}  
 

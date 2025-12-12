@@ -122,7 +122,7 @@ This release of Aspose.Cells for C++ has exposed the GetFormula & SetFormula met
 ### **Added GetCheckCompatibility & SetCheckCompatibility Methods**
 This release of Aspose.Cells for C++ has exposed the GetCheckCompatibility & **SetCheckCompatibility** methods for the IWorkbookSettings class. These methods are useful to get or set the compatibility‑check property indicating if the API should check compatibility when saving a workbook. The default value is true and can be set to false if the application requirement is not to check compatibility.
 ### **Added GetILightCellsDataHandler & SetILightCellsDataHandler Methods**
-Aspose.Cells for C++ has now exposed the GetILightCellsDataHandler & SetILightCellsDataHandler methods for the ILoadOptions class. These methods **denote** the data handler for processing cells data while reading **a** template file.
+Aspose.Cells for C++ has now exposed the GetILightCellsDataHandler & SetILightCellsDataHandler methods for the ILoadOptions class. These methods **denote** the data handler for processing cells data while reading a template file.
 ### **Added GetCultureInfo & SetCultureInfo Methods**
 Aspose.Cells for C++ has exposed the GetCultureInfo & SetCultureInfo methods for the ILoadOptions class. These methods can get or set the system culture info **when** file loading.
 ## **Removed APIs**

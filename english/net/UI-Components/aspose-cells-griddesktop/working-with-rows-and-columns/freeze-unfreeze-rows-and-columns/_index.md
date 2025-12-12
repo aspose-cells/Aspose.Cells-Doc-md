@@ -27,7 +27,7 @@ To freeze columns of a worksheet using Aspose.Cells.GridDesktop, please follow t
 To unfreeze columns of a worksheet using Aspose.Cells.GridDesktop, please follow the steps below:
 
 - Access any desired **Worksheet**
-- Set the number of **Frozen Columns** in the **Worksheet** to zero (0). This will unfreeze the columns
+- Set the number of **Frozen Columns** in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to zero (0). This will unfreeze the columns
 
 
 
@@ -45,7 +45,7 @@ To freeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow the 
 To unfreeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow the steps below:
 
 - Access any desired **Worksheet**
-- Set the number of **Frozen Rows** in the **Worksheet** to zero (0). This will unfreeze the rows
+- Set the number of **Frozen Rows** in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to zero (0). This will unfreeze the rows
 
 
 

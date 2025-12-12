@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up **a** chart easily. Using this method, you will now not need to add series and category axis data separately.  
+Aspose.Cells now provides [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/chart/setchartdatarange/) method to set up a chart easily. Using this method, you will now not need to add series and category axis data separately.  
 
 {{% /alert %}}  
 

@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Introduction**
 
 ### **Rjb - Ruby Java Bridge**
-RJB is a bridge program that **connects** between Ruby and Java with Java Native Interface. Rake + RJB is **a** more powerful and useful build tool than both Maven and Ant. You can test your Java business logic class itself with RJB's mock. It helps **migrate** Struts's Model Object into your RoR application. But beware **when building Swing applications**, Ruby (and RJB) doesn't consider the JVM's native thread handling...
+RJB is a bridge program that **connects** between Ruby and Java with Java Native Interface. Rake + RJB is a more powerful and useful build tool than both Maven and Ant. You can test your Java business logic class itself with RJB's mock. It helps **migrate** Struts's Model Object into your RoR application. But beware **when building Swing applications**, Ruby (and RJB) doesn't consider the JVM's native thread handling...
 
 ### **Aspose.Cells for Java**
 Aspose.Cells for Java is an award‑winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.

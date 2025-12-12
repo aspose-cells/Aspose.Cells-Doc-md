@@ -16,6 +16,6 @@ Aspose.Cells allows you to set a gradient, texture, pattern, or picture as fill 
 
 To achieve this, Aspose.Cells provides the [**Chart.GetImageData()**](https://reference.aspose.com/cells/go-cpp/fillformat/getimagedata/) property. The following code sample demonstrates the use of the [**Chart.GetImageData()**](https://reference.aspose.com/cells/go-cpp/fillformat/getimagedata/) property to set a picture as a background fill in the chart.
 
-## C++ code to set **a** picture as background fill in the chart
+## C++ code to set a picture as background fill in the chart
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SetPictureAsBackgroundFillInTheChart.go" >}}

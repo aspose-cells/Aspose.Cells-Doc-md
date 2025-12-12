@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.7.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Extended the Default Calculation Engine**
-Aspose.Cells APIs have **a** powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you** to extend the default calculation engine to meet custom calculation requirements of any application.
+Aspose.Cells APIs have a powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you** to extend the default calculation engine to meet custom calculation requirements of any application.
 
 **Following APIs have been added with the release of Aspose.Cells for .NET 8.7.2.**
 
@@ -24,7 +24,7 @@ Aspose.Cells APIs have **a** powerful calculation engine that can calculate almo
 
 {{% alert color="primary" %}} 
 
-**Above-mentioned** APIs allow **you** to implement **a** custom calculation engine for all functions (including Excel's native functions) with more flexibility.
+**Above-mentioned** APIs allow **you** to implement a custom calculation engine for all functions (including Excel's native functions) with more flexibility.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

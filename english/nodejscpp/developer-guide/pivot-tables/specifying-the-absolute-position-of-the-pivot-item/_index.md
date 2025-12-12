@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, **a** user needs to specify the absolute position of the pivot items. Aspose.Cells for Node.js via C++ API has exposed **a** few new properties and a method to **meet the user's requirements**.
+Sometimes, a user needs to specify the absolute position of the pivot items. Aspose.Cells for Node.js via C++ API has exposed a few new properties and a method to **meet the user's requirements**.
 
 - Added the **PivotItem.setPosition** property, which can be used to specify the position index among all the PivotItems regardless of the parent node. Added the **PivotItem.setPositionInSameParentNode** property, which can be used to specify the position index among the PivotItems under the same parent node.  
 - Added the **PivotItem.move** method in order to move the item up or down based on the count value, where **count** is the number of **positions** to move the PivotItem up or down. If the count value is less than zero, the item will be moved up, **whereas** if the count value is larger than zero, the PivotItem will move down. The Boolean‑type **isSameParent** parameter **specifies** whether the moving operation has to be performed in the same parent node or not.  

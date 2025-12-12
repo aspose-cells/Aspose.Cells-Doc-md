@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.7.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Extended the Default Calculation Engine**
-Aspose.Cells APIs have **a** powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you to** extend the default calculation engine to meet custom calculation requirements of any application.
+Aspose.Cells APIs have a powerful calculation engine that can calculate almost all of the Microsoft Excel functions. Moreover, the Aspose.Cells APIs now allow **you to** extend the default calculation engine to meet custom calculation requirements of any application.
 
 **The** following APIs have been added with the release of Aspose.Cells for Java 8.7.2.
 
@@ -64,7 +64,7 @@ Following is the simple usage scenario.
 
 {{< /highlight >}}
 ### **Added Overloaded Indexer for TextBoxCollection**
-Aspose.Cells for Java 8.7.2 has exposed **an** overloaded indexer for the TextBoxCollection class in order to access **an** instance of TextBox using its name as **a** string.
+Aspose.Cells for Java 8.7.2 has exposed an overloaded indexer for the TextBoxCollection class in order to access an instance of TextBox using its name as a string.
 
 {{% alert color="primary" %}} 
 

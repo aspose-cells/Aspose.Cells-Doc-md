@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to generate an image of your worksheet as a transparent image. You want to apply transparency to all cells **that** have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) property to apply transparency to the worksheet image. When this property is **false**, cells with no fill colors are drawn with **a** white color, and when it is **true**, cells with no fill colors are drawn **as** transparent.
+Sometimes, you need to generate an image of your worksheet as a transparent image. You want to apply transparency to all cells **that** have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) property to apply transparency to the worksheet image. When this property is **false**, cells with no fill colors are drawn with a white color, and when it is **true**, cells with no fill colors are drawn **as** transparent.
 
 {{% /alert %}} 
 

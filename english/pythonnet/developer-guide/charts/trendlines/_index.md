@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of a chart trendline using Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET provides **a** property which returns the Equation Text of a chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate) method.
+You can retrieve the Equation Text of a chart trendline using Aspose.Cells for Python via .NET. Aspose.Cells for Python via .NET provides a property which returns the Equation Text of a chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart/calculate) method.
 
 {{% /alert %}}
 

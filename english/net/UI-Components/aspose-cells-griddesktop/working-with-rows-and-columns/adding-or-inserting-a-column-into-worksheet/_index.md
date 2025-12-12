@@ -29,7 +29,7 @@ To insert a new column into a worksheet at a specified position, please follow t
 
 - Add Aspose.Cells.GridDesktop control to your **Form**
 - Access any desired **Worksheet**
-- Insert **Column** into **Worksheet** (at a specific position by specifying the index of the column where to insert it)
+- Insert **Column** into [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) (at a specific position by specifying the index of the column where to insert it)
 
 {{< highlight java >}}
 

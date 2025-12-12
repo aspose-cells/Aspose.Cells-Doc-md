@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells can now render **a** worksheet to a graphic context. A graphic context can be anything such as an image file, screen, or printer, etc. Please **use** the following method to render a worksheet to a graphic context.
+Aspose.Cells can now render a worksheet to a graphic context. A graphic context can be anything such as an image file, screen, or printer, etc. Please **use** the following method to render a worksheet to a graphic context.
 
 - SheetRender.toImage(int pageIndex, Graphics2D graphic)
 

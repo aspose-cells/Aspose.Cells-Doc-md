@@ -41,7 +41,7 @@ Aspose.Cells for Node.js via C++ provides a special set of classes used to creat
 To create a pivot table using Aspose.Cells for Node.js via C++:
 
 1. Add some data to a worksheet's cells using a **Cell** object's `put_value` method. You can also use a template file that is already filled with data. The data will be used as the pivot table's data source.  
-2. Add a pivot table to the worksheet by calling the **PivotTables** collection's `add` method (encapsulated in the **Worksheet** object).  
+2. Add a pivot table to the worksheet by calling the **PivotTables** collection's `add` method (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) object).  
 3. Access the new **PivotTable** object from the **PivotTables** collection by passing its index. Use any of the pivot table objects encapsulated in the **PivotTable** object to manage the table.
 
 Code examples are given below.

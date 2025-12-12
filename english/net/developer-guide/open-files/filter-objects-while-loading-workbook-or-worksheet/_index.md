@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet) method. Please provide **an** appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
+Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override the [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet) method. Please provide an appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
 The [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) enumeration has the following possible values.
 

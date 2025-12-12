@@ -21,7 +21,7 @@ Some APIs (classes, structs, enumerations, etc.) have been added based on the ad
 
 The following is the list of classes that have been renamed:
 
-1. **Excel** class is replaced by **Workbook** class.
+1. **Excel** class is replaced by [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.
 
 2. **ExcelDesigner** class is replaced by **WorkbookDesigner** class.
 

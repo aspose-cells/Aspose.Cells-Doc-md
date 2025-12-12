@@ -16,7 +16,7 @@ The look and feel of a text can be controlled by changing font settings. The fon
 
 ## **Configuring Font Settings**  
 
-Aspose.Cells provides a class **Workbook** that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **Cells** collection. Each item in the **Cells** collection represents an object of the **Cell** class.  
+Aspose.Cells provides a class [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a **Worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a **Cells** collection. Each item in the **Cells** collection represents an object of the **Cell** class.  
 
 Aspose.Cells provides the **Cell** class's **getStyle** and **setStyle** methods, which are used to get and set a cell's formatting style. The **Style** class provides properties for configuring font settings.  
 

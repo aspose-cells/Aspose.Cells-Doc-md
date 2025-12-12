@@ -18,7 +18,7 @@ All examples of Aspose.Cells for Go via C++ are hosted on [GitHub](https://githu
 
 - You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-cells/aspose.cells-go-cpp-examples/archive/master.zip).
 - Extract the contents of the ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
-- Open the solution file in **a** text editor or IDE and build the project.
+- Open the solution file in a text editor or IDE and build the project.
 - **The Data** folder at the root of **Examples** contains input files. It is mandatory that you download the **Data** folder along with the examples project.
 - Open **main.go**; all the examples are called from there.
 - Uncomment the examples you want to run from within the file.

@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Hello World**
-To set **a** worksheet to page break preview using **Aspose.Cells Java for Python**, simply invoke **PageBreakPreview** module.
+To set a worksheet to page break preview using **Aspose.Cells Java for Python**, simply invoke **PageBreakPreview** module.
 
 **Python Code**
 

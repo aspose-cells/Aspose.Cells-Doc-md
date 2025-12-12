@@ -17,7 +17,7 @@ Here is how to create a range, put a value, set a style, and perform more operat
 
 ## **Managing Ranges Using Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells provides a class, **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)**, that represents a Microsoft Excel file. The **Workbook** class contains a **Workbook.worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **Worksheet** class provides a **cells** collection.
+Aspose.Cells provides a class, **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)**, that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a **Workbook.worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a **cells** collection.
 
 ### **Create Range**
 

@@ -23,7 +23,7 @@ To add a hyperlink to a cell using Aspose.Cells.GridDesktop, please follow the s
 - Add some value to the cell to be hyperlinked
 - Add **Hyperlink** to the worksheet by specifying the cell name on which the hyperlink would be applied
 
-**Hyperlinks** collection in the **Worksheet** object provides an overloaded **Add** method. Developers can use any overloaded version of the **Add** method according to their specific needs.
+**Hyperlinks** collection in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object provides an overloaded **Add** method. Developers can use any overloaded version of the **Add** method according to their specific needs.
 
 The code below will add a hyperlink to **B2** and **C3** cells of the worksheet.
 
@@ -31,13 +31,13 @@ The code below will add a hyperlink to **B2** and **C3** cells of the worksheet.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AddHyperlink.cs" >}}
 ## **Accessing Hyperlinks**
-Once a hyperlink has been added to a cell, it may also be required to access and modify the hyperlink at runtime. To do so, developers can simply access the hyperlink from the **Hyperlinks** collection of the **Worksheet** by specifying the cell (using cell name or its location in terms of row and column number) to which the hyperlink is added. Once the hyperlink is accessed, developers can modify its URL at runtime.
+Once a hyperlink has been added to a cell, it may also be required to access and modify the hyperlink at runtime. To do so, developers can simply access the hyperlink from the **Hyperlinks** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell (using cell name or its location in terms of row and column number) to which the hyperlink is added. Once the hyperlink is accessed, developers can modify its URL at runtime.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
 ## **Removing Hyperlinks**
-To remove an existing hyperlink, developers can simply access a desired worksheet and then remove the hyperlink from the **Hyperlinks** collection of the **Worksheet** by specifying the hyperlinked cell (using its name or row & column number).
+To remove an existing hyperlink, developers can simply access a desired worksheet and then remove the hyperlink from the **Hyperlinks** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the hyperlinked cell (using its name or row & column number).
 
 
 

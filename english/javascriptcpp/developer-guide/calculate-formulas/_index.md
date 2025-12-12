@@ -16,7 +16,7 @@ Aspose.Cells supports most of the formulas or functions that are part of Microso
 
 Use the **formula** property or **formula(string, object)** methods of the **Cell** class to add a formula to a cell. When applying a formula, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-To calculate the results of formulas, the user may call the **calculateFormula()** method of the **Workbook** class, which processes all formulas embedded in an Excel file. Or the user may call the **calculateFormula(string)** method of the **Worksheet** class, which processes all formulas embedded in a sheet. Or the user may also call the **calculate(CalculationOptions)** method of the **Cell** class, which processes the formula of a single cell:
+To calculate the results of formulas, the user may call the **calculateFormula()** method of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class, which processes all formulas embedded in an Excel file. Or the user may call the **calculateFormula(string)** method of the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class, which processes all formulas embedded in a sheet. Or the user may also call the **calculate(CalculationOptions)** method of the **Cell** class, which processes the formula of a single cell:
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ To calculate the results of formulas, the user may call the **calculateFormula()
 
 {{% alert color="primary" %}}
 
-The **Formula** property and **formula(...)** methods of the **Cell** class work differently from the **calculate** methods of the **Workbook**, **Worksheet**, and **Cell** classes. The **Formula** property and **formula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call the **calculate** methods.
+The **Formula** property and **formula(...)** methods of the **Cell** class work differently from the **calculate** methods of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet), and **Cell** classes. The **Formula** property and **formula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call the **calculate** methods.
 
 {{% /alert %}}
 
@@ -108,7 +108,7 @@ Aspose.Cells has an embedded formula calculation engine. As well as calculating 
 
 Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet, and all you need is to find the result of those values based on a Microsoft Excel formula without adding the formula to the worksheet.
 
-You can use Aspose.Cells' formula calculation engine APIs for **Worksheet** to calculate the results of such formulas without adding them to the worksheet by calling **calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**:
+You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) to calculate the results of such formulas without adding them to the worksheet by calling **calculateFormula(string, FormulaParseOptions, CalculationOptions, number, number, CalculationData)**:
 
 ```html
 <!DOCTYPE html>

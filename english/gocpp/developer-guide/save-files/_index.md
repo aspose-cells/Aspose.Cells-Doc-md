@@ -41,7 +41,7 @@ The file format that the file is saved to is decided by the [**SaveFormat**](htt
 
 ## **How to Save File to Different Formats**
 
-To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the [**SaveFormat**](https://reference.aspose.com/cells/go-cpp/saveformat/) enumeration) when calling the [**Workbook**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) object's [**Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method.
+To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the [**SaveFormat**](https://reference.aspose.com/cells/go-cpp/saveformat/) enumeration) when calling the [**Workbook**](https://reference.aspose.com/cells/go-cpp/workbook/) object's [**Save**](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) method.
 
 {{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-SaveFiles.go" >}}
 ## **How to Save Workbook to PDF**

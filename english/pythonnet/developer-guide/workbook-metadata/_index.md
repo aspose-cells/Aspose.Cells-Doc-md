@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to load a light-weight version of **a** workbook into memory to edit its metadata information. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/python-net/aspose.cells.metadata/workbookmetadata) class to load the workbook.
+Aspose.Cells allows you to load a light-weight version of a workbook into memory to edit its metadata information. Please use the [**WorkbookMetadata**](https://reference.aspose.com/cells/python-net/aspose.cells.metadata/workbookmetadata) class to load the workbook.
 
 {{% /alert %}}
 

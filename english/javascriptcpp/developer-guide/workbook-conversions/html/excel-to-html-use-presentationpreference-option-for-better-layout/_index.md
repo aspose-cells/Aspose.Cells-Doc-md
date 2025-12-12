@@ -8,7 +8,7 @@ url: /javascript-cpp/excel-to-html-use-presentationpreference-option-for-better-
 
 {{% alert color="primary" %}}  
 
-Aspose.Cells provides a useful **HtmlSaveOptions.presentationPreference** property for developers who need to render **a** better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is **false**. We recommend setting this property to **true** to get a more attractive presentation of Excel reports.  
+Aspose.Cells provides a useful **HtmlSaveOptions.presentationPreference** property for developers who need to render a better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is **false**. We recommend setting this property to **true** to get a more attractive presentation of Excel reports.  
 
 {{% /alert %}}  
 

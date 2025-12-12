@@ -48,6 +48,6 @@ If your file system is NTFS, you should grant read‑access permission to the **
 {{% /alert %}}  
 
 ### **Import from Stream**  
-As well as opening Excel files from **a** file, the Aspose.Cells.GridWeb control can load Excel files from a stream. Using a file as a stream is a better approach to avoid any file‑access or sharing‑violation problems because this approach ensures that all connections to the files are closed by closing the stream.  
+As well as opening Excel files from a file, the Aspose.Cells.GridWeb control can load Excel files from a stream. Using a file as a stream is a better approach to avoid any file‑access or sharing‑violation problems because this approach ensures that all connections to the files are closed by closing the stream.  
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ImportExportFileFromStream.aspx-LoadExcelFileFromStream.cs" >}}  

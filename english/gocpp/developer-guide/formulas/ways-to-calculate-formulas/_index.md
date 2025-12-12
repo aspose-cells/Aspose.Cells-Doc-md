@@ -29,7 +29,7 @@ However, if the template contains lots of formulas, the first time the **formula
 
 Aspose.Cells allows you to turn off creating a **calculation chain**, which is useful when you want to calculate formulas only once.
 
-Please call `Workbook.GetISettings().SetCreateCalcChain()` with **a** false parameter. You can use the [provided Excel file](38109186.xlsx) to test this code.
+Please call `Workbook.GetISettings().SetCreateCalcChain()` with a false parameter. You can use the [provided Excel file](38109186.xlsx) to test this code.
 
 **Sample Code**
 

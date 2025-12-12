@@ -179,7 +179,7 @@ Aspose.Cells supports this feature too. This topic explains how to use it effect
 
 ### **How to Format Selected Characters**  
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains the **getWorksheets()** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **getCells()** collection. Each item in the **getCells()** collection represents an object of the **Cell** class.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains the **getWorksheets()** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a **getCells()** collection. Each item in the **getCells()** collection represents an object of the **Cell** class.  
 
 The **Cell** class provides the **characters(number, number)** method that takes the following parameters to select a range of characters inside a cell:  
 
@@ -231,13 +231,13 @@ To address this issue, Aspose.Cells provides a simple, fast way discussed in det
 
 ### **Formatting Rows & Columns**  
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **getWorksheets()** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **getCells()** collection. The **getCells()** collection provides a **getRows()** collection.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a **getWorksheets()** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides a **getCells()** collection. The **getCells()** collection provides a **getRows()** collection.  
 
 ### **How to Format a Row**  
 
 Each item in the **getRows()** collection represents a **Row** object. The **Row** object offers the **applyStyle(Style, StyleFlag)** method used to set the row's formatting. To apply the same formatting to a row, use the **Style** object. The steps below show how to use it.  
 
-1. Add a **Style** object to the **Workbook** class by calling its **createStyle()** method.  
+1. Add a **Style** object to the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class by calling its **createStyle()** method.  
 2. Set the **Style** object's properties to apply formatting settings.  
 3. Turn the relevant attributes **ON** for the **StyleFlag** object.  
 4. Assign the configured **Style** object to the **Row** object.  

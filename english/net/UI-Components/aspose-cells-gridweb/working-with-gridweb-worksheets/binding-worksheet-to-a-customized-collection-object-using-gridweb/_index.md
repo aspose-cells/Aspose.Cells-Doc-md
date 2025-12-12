@@ -154,7 +154,7 @@ Then create and add `MyCustomRecord` objects to the `MyCollection` object.
 
 {{% alert color="primary" %}} 
 
-Are you wondering why there wasn't a method in the `MyCollection` class for adding **a** `MyCustomRecord` object to the collection? Take another look at the above code and you'll notice that the `MyCollection` class inherits from the `CollectionBase` class (which implements the `IList` interface and provides an `Add` method for adding an object to the collection). Use the `IList` class's `Add` method by up‑casting the `MyCollection` object to `IList`.
+Are you wondering why there wasn't a method in the `MyCollection` class for adding a `MyCustomRecord` object to the collection? Take another look at the above code and you'll notice that the `MyCollection` class inherits from the `CollectionBase` class (which implements the `IList` interface and provides an `Add` method for adding an object to the collection). Use the `IList` class's `Add` method by up‑casting the `MyCollection` object to `IList`.
 
 {{% /alert %}} 
 

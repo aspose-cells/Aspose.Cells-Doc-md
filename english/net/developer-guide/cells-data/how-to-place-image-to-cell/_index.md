@@ -57,7 +57,7 @@ You can easily switch from **Picture over Cells** to **Picture in Cell**. Please
 ## **How to Insert Picture in Cell Using C#**
 Insert a picture in a cell using Aspose.Cells. Please see the following sample code. After executing the example code, a picture will be inserted into a cell.
 
-1. Instantiate a **Workbook** object.  
+1. Instantiate a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) object.  
 2. Get the cell where you want to insert the picture.  
 3. Set the **Cell.EmbeddedImage** property.  
 4. Finally, it saves the workbook in the [output XLSX](out.xlsx) format.  

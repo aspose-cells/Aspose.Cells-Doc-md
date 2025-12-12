@@ -32,7 +32,7 @@ To add any kind of validation to a worksheet cell, please follow the steps below
 
 - Add Aspose.Cells.GridDesktop control to your **Form**
 - Access any desired **Worksheet**
-- Add a desired validation to the **Validations** collection of the **Worksheet** to specify which validation would be applied to which cell.
+- Add a desired validation to the **Validations** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to specify which validation would be applied to which cell.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ValidationInWorksheets-AddingValidation.cs" >}}
 
@@ -71,6 +71,6 @@ The **Validations** collection has two indexers. One indexer (used in the exampl
 To remove a specific validation from the worksheet, please follow the steps below:
 
 - Access a desired **Worksheet**
-- Remove a specific **Validation** from the **Worksheet** by specifying the cell name on which the validation was applied
+- Remove a specific **Validation** from the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell name on which the validation was applied
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ValidationInWorksheets-RemoveValidation.cs" >}}

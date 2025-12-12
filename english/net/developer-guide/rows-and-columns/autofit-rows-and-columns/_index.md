@@ -17,11 +17,11 @@ Microsoft Excel lets users auto‑size the width and height of cells according
 
 ## **Auto Fitting**
 
-Aspose.Cells provides a **Workbook** class that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a wide range of properties and methods for managing a worksheet. This article looks at using the **Worksheet** class to auto‑fit rows or columns.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a **Worksheets** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing a worksheet. This article looks at using the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class to auto‑fit rows or columns.
 
 ### **AutoFit Row – Simple**
 
-The most straightforward approach to auto‑sizing the height of a row is to call the **Worksheet** class **AutoFitRow** method. The **AutoFitRow** method takes a row index (the row to be resized) as a parameter.
+The most straightforward approach to auto‑sizing the height of a row is to call the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class **AutoFitRow** method. The **AutoFitRow** method takes a row index (the row to be resized) as a parameter.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 

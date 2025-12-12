@@ -37,7 +37,7 @@ Insert a row into the worksheet at any location by calling the [**InsertRow**](h
 
 ### **How to Insert Multiple Rows**
 
-To insert multiple rows into a worksheet, call the [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method takes two parameters:
+Compared to inserting one row at a time, the InsertRows method allows you to insert multiple rows at once, which greatly improves row insertion performance. As multiple rows are inserted, elements such as formulas, shapes, data and charts will move accordingly. To insert multiple rows into a worksheet, call the [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method takes two parameters:
 
 - Row index – the index of the row from where the new rows will be inserted.  
 - Number of rows – the total number of rows that need to be inserted.

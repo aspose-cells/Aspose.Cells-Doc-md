@@ -22,7 +22,7 @@ To merge cells into a single large cell, please follow the steps below:
 - Create a **Range of Cells** to be merged
 - **Merge** the range of cells into a large cell
 
-You can use **the Merge** method of **Worksheet** to merge cells. However, a range of cells can be defined using **a CellRange** object.
+You can use **the Merge** method of [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to merge cells. However, a range of cells can be defined using **a CellRange** object.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
 ## **Unmerge Cells**
@@ -32,7 +32,7 @@ To unmerge a large cell into many cells, please follow the steps below:
 - Access the merged cell that needs to be unmerged
 - **Unmerge** the large cell into many cells using the location of the merged cell
 
-You can use **the Unmerge** method of **Worksheet** to unmerge a cell using its location.
+You can use **the Unmerge** method of [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to unmerge a cell using its location.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-UnMergeCells.cs" >}}
 

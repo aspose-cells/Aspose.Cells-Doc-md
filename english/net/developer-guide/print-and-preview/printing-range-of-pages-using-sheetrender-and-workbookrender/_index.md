@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel allows you to print **a** range of pages of **a** workbook or worksheet. The following screenshot shows the Microsoft Excel interface to specify the range of pages.
+Microsoft Excel allows you to print a range of pages of a workbook or worksheet. The following screenshot shows the Microsoft Excel interface to specify the range of pages.
 
 Aspose.Cells provides the `WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` and `SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)` methods for this purpose.
 

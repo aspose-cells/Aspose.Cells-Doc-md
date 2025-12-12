@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **System Requirements**
-Aspose.Cells for Python via Java is **a** platform‑independent API and can be used on any platform (Windows, Linux, and macOS) where [Python](https://www.python.org/downloads/) is installed. The machine must have Java 8 or higher installed before proceeding with the installation.
+Aspose.Cells for Python via Java is a platform‑independent API and can be used on any platform (Windows, Linux, and macOS) where [Python](https://www.python.org/downloads/) is installed. The machine must have Java 8 or higher installed before proceeding with the installation.
 
 ## **Python Version**
 - Python 3.5 or higher

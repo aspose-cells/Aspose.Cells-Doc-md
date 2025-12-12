@@ -28,15 +28,15 @@ The code below will add comments to the **b2** and **b4** cells of the worksheet
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AddingComments.cs" >}}
 
 
-**Comments** collection in the **Worksheet** object provides an overloaded **Add** method. Developers can use any overloaded version of the **Add** method according to their specific needs.
+**Comments** collection in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object provides an overloaded **Add** method. Developers can use any overloaded version of the **Add** method according to their specific needs.
 ## **Accessing Comments**
-To access and modify an existing comment in the worksheet, developers can access the comment from the **Comments** collection of the **Worksheet** by specifying the cell (using cell name or its location in terms of row and column number) in which the comment is inserted. Once the comment is accessed, developers can modify its Text at runtime.
+To access and modify an existing comment in the worksheet, developers can access the comment from the **Comments** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell (using cell name or its location in terms of row and column number) in which the comment is inserted. Once the comment is accessed, developers can modify its Text at runtime.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AccessingComments.cs" >}}
 ## **Removing Comments**
-To remove an existing comment, developers can simply access a desired worksheet and then **Remove** the comment from the **Comments** collection of the **Worksheet** by specifying the cell (using its name or row & column number) containing the comment.
+To remove an existing comment, developers can simply access a desired worksheet and then **Remove** the comment from the **Comments** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell (using its name or row & column number) containing the comment.
 
 
 

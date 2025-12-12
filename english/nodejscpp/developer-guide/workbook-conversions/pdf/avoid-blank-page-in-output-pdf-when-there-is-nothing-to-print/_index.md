@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Node.js via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then **an** exception will occur whenever there is nothing to print in the output PDF.
+When the Excel file is empty and the user saves it to PDF using Aspose.Cells for Node.js via C++, it renders a blank page in the output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the [**PdfSaveOptions.getOutputBlankPageWhenNothingToPrint()**](https://reference.aspose.com/cells/nodejs-cpp/pdfsaveoptions/#getOutputBlankPageWhenNothingToPrint--) property to handle this issue. If you set it to **false**, then an exception will occur whenever there is nothing to print in the output PDF.
 
 ## **Avoid Blank Page in Output PDF when there is Nothing to Print**
 

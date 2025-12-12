@@ -20,15 +20,15 @@ Normal view is a worksheet's default view. Page break preview is an editing view
 
 Aspose.Cells provides a **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)** class that represents a Microsoft Excel file. The **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)** class contains a **[workbook.worksheets](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--)** collection that allows access to each worksheet in an Excel file.  
 
-A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the **Worksheet** class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property. **Worksheet.isPageBreakPreview()** is a Boolean property, which means that it can only store a **true** or a **false** value.  
+A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property. **Worksheet.isPageBreakPreview()** is a Boolean property, which means that it can only store a **true** or a **false** value.  
 
 #### **Enabling Normal View**  
 
-Set a worksheet to normal view by setting the **Worksheet** class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property to **false**.  
+Set a worksheet to normal view by setting the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property to **false**.  
 
 #### **Enabling Page Break Preview**  
 
-Set any worksheet to page break preview by setting the **Worksheet** class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property to **true**. Doing so switches the worksheet from normal view to page break preview.  
+Set any worksheet to page break preview by setting the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property to **true**. Doing so switches the worksheet from normal view to page break preview.  
 
 A complete example is given below that demonstrates how to use the **[Worksheet.isPageBreakPreview()](https://reference.aspose.com/cells/javascript-cpp/worksheet/#isPageBreakPreview--)** property to enable page break preview mode for the first worksheet of an Excel file.  
 
@@ -108,7 +108,7 @@ Microsoft Excel provides a feature that lets users set a worksheet's zoom or sca
 Aspose.Cells allows developers to set the worksheet zoom factor.  
 Aspose.Cells provides a **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)** class that represents a Microsoft Excel file. The **[Workbook](https://reference.aspose.com/cells/javascript-cpp/workbook)** class contains a **[workbook.worksheets](https://reference.aspose.com/cells/javascript-cpp/workbook/#worksheets--)** collection that allows access to each worksheet in an Excel file.  
 
-A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the **Worksheet** class's **[Worksheet.zoom](https://reference.aspose.com/cells/javascript-cpp/worksheet/#zoom--)** property. The zoom factor is set by assigning a numeric (integer) value to the **[Worksheet.zoom](https://reference.aspose.com/cells/javascript-cpp/worksheet/#zoom--)** property.  
+A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class. The **[Worksheet](https://reference.aspose.com/cells/javascript-cpp/worksheet)** class provides a wide range of properties and methods for managing worksheets. To set a worksheet's zoom factor, use the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class's **[Worksheet.zoom](https://reference.aspose.com/cells/javascript-cpp/worksheet/#zoom--)** property. The zoom factor is set by assigning a numeric (integer) value to the **[Worksheet.zoom](https://reference.aspose.com/cells/javascript-cpp/worksheet/#zoom--)** property.  
 
 A complete example is given below that demonstrates how to use the **[Worksheet.zoom](https://reference.aspose.com/cells/javascript-cpp/worksheet/#zoom--)** property to set the zoom factor of the first worksheet of the Excel file.  
 
@@ -196,7 +196,7 @@ A worksheet is represented by the **[Worksheet](https://reference.aspose.com/cel
 - **Frozen rows** – the number of visible rows in the top pane.  
 - **Frozen columns** – the number of visible columns in the left pane.  
 
-The *book1.xls* file is opened by calling the **Workbook** class constructor while instantiating it, and a few rows and columns are frozen in the first worksheet. The modified file is saved as *output.xls*.  
+The *book1.xls* file is opened by calling the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class constructor while instantiating it, and a few rows and columns are frozen in the first worksheet. The modified file is saved as *output.xls*.  
 
 A complete example is given below that shows how to use the **[Worksheet.freezePanes(number, number, number, number)](https://reference.aspose.com/cells/javascript-cpp/worksheet/#freezePanes-number-number-number-number-)** method to freeze rows and columns (starting from C4, represented by the 4th row and 3rd column, where rows and columns start from the 0 index) of the first worksheet of the Excel file.  
 

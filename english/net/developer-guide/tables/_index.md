@@ -34,9 +34,9 @@ There are quite a few advantages when you convert a list of data to an actual Li
 
 ### **Using Aspose.Cells API**
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a wide range of properties and methods for managing a worksheet. To create a **ListObject** in a worksheet, use the **ListObjects** collection property of the **Worksheet** class. Each **ListObject** is, in fact, an object of the **ListObjectCollection** class, which further provides the **Add** method for adding a List object and specifying a range of cells for the list.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing a worksheet. To create a **ListObject** in a worksheet, use the **ListObjects** collection property of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. Each **ListObject** is, in fact, an object of the **ListObjectCollection** class, which further provides the **Add** method for adding a List object and specifying a range of cells for the list.
 
 Based on the specified range of cells, the List object is created by Aspose.Cells. Use attributes (for example, **ShowTotals**, **ListColumns**, etc.) of the **ListObject** class to control the list.
 
@@ -50,9 +50,9 @@ To manage and analyze a group of related data, it is possible to turn a range of
 
 ### **Formatting a List Object**
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a **Worksheets** collection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a wide range of properties and methods for managing worksheets. To create a **ListObject** in a worksheet, use the **ListObjects** collection property of the **Worksheet** class. Each **ListObject** is, in fact, an object of the **ListObjectCollection** class, which further provides the **Add** method to add a List object and specify the range of cells it should encompass. Based on the specified range of cells, a **ListObject** is created in the worksheet by Aspose.Cells. Use attributes (for example, **TableStyleType**) of the **ListObject** class to format the table according to your requirements.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To create a **ListObject** in a worksheet, use the **ListObjects** collection property of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. Each **ListObject** is, in fact, an object of the **ListObjectCollection** class, which further provides the **Add** method to add a List object and specify the range of cells it should encompass. Based on the specified range of cells, a **ListObject** is created in the worksheet by Aspose.Cells. Use attributes (for example, **TableStyleType**) of the **ListObject** class to format the table according to your requirements.
 
 The example below adds sample data to a worksheet, adds a **ListObject**, and applies default styles to it. **ListObject** styles are supported by Microsoft Excel 2007/2010.
 

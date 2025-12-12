@@ -18,7 +18,7 @@ This is a basic topic for developers that simply describes the easiest approach 
 To remove a column from the worksheet, please follow the steps below:
 
 - Access any desired **Worksheet**
-- Remove **Column** from the **Worksheet** by specifying the index of the column to be removed
+- Remove **Column** from the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the index of the column to be removed
 
 
 

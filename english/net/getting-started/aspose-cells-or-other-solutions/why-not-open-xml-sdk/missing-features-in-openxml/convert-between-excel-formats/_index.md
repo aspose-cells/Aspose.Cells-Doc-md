@@ -22,10 +22,10 @@ Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently
 
 **To convert files to PDF:**  
 
-1. Instantiate an object of the **Workbook** class by calling its empty constructor.  
+1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class by calling its empty constructor.  
 2. You may **open/load** an existing template file or skip this step if you are creating the workbook from scratch.  
 3. Perform your desired work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells’ APIs.  
-4. When the spreadsheet processing is complete, call the **Workbook** class’s **Save** method to save the spreadsheet. The file format should be PDF, so select **Pdf** (a predefined value) from the **SaveFormat** enumeration to generate the final PDF document.  
+4. When the spreadsheet processing is complete, call the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class’s **Save** method to save the spreadsheet. The file format should be PDF, so select **Pdf** (a predefined value) from the **SaveFormat** enumeration to generate the final PDF document.  
 
 {{< highlight csharp >}}  
 Workbook workbook = new Workbook(openFileDialog1.FileName);  

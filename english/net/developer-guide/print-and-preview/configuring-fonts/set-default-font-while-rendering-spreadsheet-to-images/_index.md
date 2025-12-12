@@ -15,7 +15,7 @@ Please use the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.co
 
 ## Set Default Font while rendering spreadsheet to images
 
-The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to **an** invalid or non‑existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Times New Roman*.
+The following sample code creates a workbook, adds some text in cell A4 of the first worksheet, and sets its font to an invalid or non‑existent font. Then, it takes two images of the worksheet. The first image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New* and the second image is taken by setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Times New Roman*.
 
 This is the output image after setting the [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property to *Courier New*.
 

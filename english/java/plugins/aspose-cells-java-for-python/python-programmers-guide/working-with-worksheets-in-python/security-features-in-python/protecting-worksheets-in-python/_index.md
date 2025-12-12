@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Aspose.Cells - Protecting Worksheets**
-To protect **a** worksheet using **Aspose.Cells Java for Python**, call the **protect_worksheet** method of the **protection** module.
+To protect a worksheet using **Aspose.Cells Java for Python**, call the **protect_worksheet** method of the **protection** module.
 
 **Python Code**
 

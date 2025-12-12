@@ -15,7 +15,7 @@ Create a new Excel file from scratch and add **worksheets** to it.
 - Access worksheets using the sheet name.
 - Remove a worksheet from an Excel file using its sheet name.
 - Remove a worksheet from an Excel file using its sheet index.
-- Aspose.Cells provides a class **Workbook** that represents an Excel file. The Workbook class contains a Worksheets collection that allows **access to** each worksheet in the Excel file.
+- Aspose.Cells provides a class [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The Workbook class contains a Worksheets collection that allows **access to** each worksheet in the Excel file.
 
 A worksheet is represented by the Worksheet class. The Worksheet class provides a wide range of properties and methods for managing worksheets.
 

@@ -41,7 +41,7 @@ The processing of Smart Markers is quite simple, as demonstrated by the followin
 
 {{% alert color="primary" %}}
 
-The above code snippet uses the existing instance of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class created in the first step. If you already have the designer spreadsheet file on disk or in memory, you can create an instance of the **Workbook** class by loading the existing designer spreadsheet.
+The above code snippet uses the existing instance of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class created in the first step. If you already have the designer spreadsheet file on disk or in memory, you can create an instance of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class by loading the existing designer spreadsheet.
 
 {{% /alert %}}
 

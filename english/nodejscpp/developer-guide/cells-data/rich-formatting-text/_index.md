@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}  
 
-Aspose.Cells for Node.js via C++ allows you to access and update the portions of the rich text of a cell. For this purpose, you can use [**Cell.getCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getCharacters--) and [**Cell.setCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setCharacters-fontsettingarray-) methods. These methods will return and accept **an** array of [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects, which you can use to access and update various properties of the font, such as font name, font color, boldness, etc.  
+Aspose.Cells for Node.js via C++ allows you to access and update the portions of the rich text of a cell. For this purpose, you can use [**Cell.getCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#getCharacters--) and [**Cell.setCharacters()**](https://reference.aspose.com/cells/nodejs-cpp/cell/#setCharacters-fontsettingarray-) methods. These methods will return and accept an array of [**FontSetting**](https://reference.aspose.com/cells/nodejs-cpp/fontsetting) objects, which you can use to access and update various properties of the font, such as font name, font color, boldness, etc.  
 
 {{% /alert %}}  
 

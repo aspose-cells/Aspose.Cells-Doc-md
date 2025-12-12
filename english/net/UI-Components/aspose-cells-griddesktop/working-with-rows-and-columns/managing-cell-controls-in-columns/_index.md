@@ -27,6 +27,6 @@ To remove an existing cell control, developers can simply access the desired wor
 
 {{% alert color="primary" %}} 
 
-Each column in the **Columns** collection of the **Worksheet** is represented by an instance of the **Aspose.Cells.GridDesktop.Data.GridColumn** class.
+Each column in the **Columns** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) is represented by an instance of the **Aspose.Cells.GridDesktop.Data.GridColumn** class.
 
 {{% /alert %}}

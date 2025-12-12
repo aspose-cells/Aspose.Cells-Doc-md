@@ -22,10 +22,10 @@ Excel tables are referred to as ListObjects in Aspose.Cells' perspective; theref
 
 ListObjects provide built‑in functionality to sort and filter the data upon user interaction. Both sorting and filtering options are provided through the drop‑down lists that are automatically added to the header row of the **ListObject**. Due to these features, the **ListObject** seems to be the perfect candidate to serve as the data source for a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be updated to reflect the current state of the **ListObject**.  
 
-To keep the demonstration simple to understand, we will create the **Workbook** from scratch and move forward step by step as outlined below.  
+To keep the demonstration simple to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) from scratch and move forward step by step as outlined below.  
 
 1. Create an empty **Workbook**.  
-1. Access the **Cells** of the first **Worksheet** in the **Workbook**.  
+1. Access the **Cells** of the first [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) in the **Workbook**.  
 1. Insert some data into the cells.  
 1. Create a **ListObject** based on the inserted data.  
 1. Create a **Chart** based on the data range of the **ListObject**.  
@@ -155,10 +155,10 @@ To keep the demonstration simple to understand, we will create the **Workbook** 
 
 If you do not wish to use the **ListObject** as a data source for the dynamic chart, another option is to use Excel functions (formulas) to create a dynamic range of data, and a control (such as a ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of the ComboBox. When the selection is changed, the VLOOKUP function refreshes the cell value. If a range of cells uses the VLOOKUP function, the whole range can be refreshed upon user interaction, so it can serve as a source for the dynamic chart.  
 
-To keep the demonstration simple to understand, we will create the **Workbook** from scratch and move forward step by step as outlined below.  
+To keep the demonstration simple to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) from scratch and move forward step by step as outlined below.  
 
 1. Create an empty **Workbook**.  
-1. Access the **Cells** of the first **Worksheet** in the **Workbook**.  
+1. Access the **Cells** of the first [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) in the **Workbook**.  
 1. Insert some data into the cells by creating a named range. This data will serve as a series for the dynamic chart.  
 1. Create a **ComboBox** based on the named range created in the previous step.  
 1. Insert additional data into the cells that will serve as a source for the VLOOKUP function.  

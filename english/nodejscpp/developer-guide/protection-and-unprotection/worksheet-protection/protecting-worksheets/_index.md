@@ -29,9 +29,9 @@ Protected worksheets don't hide or protect sensitive data, so they're different 
   
 ### **Protect a Worksheet**  
   
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **getWorksheets()** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the **Worksheet** class.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class contains a **getWorksheets()** collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class.  
   
-The **Worksheet** class provides the **protect(ProtectionType)** method that is used to apply protection to the worksheet. The **protect(ProtectionType)** method accepts the following parameters:  
+The [**Worksheet**](https://reference.aspose.com/cells/nodejs-cpp/worksheet) class provides the **protect(ProtectionType)** method that is used to apply protection to the worksheet. The **protect(ProtectionType)** method accepts the following parameters:  
   
 - **Protection Type** – the type of protection to apply to the worksheet. The protection type is applied with the help of the **ProtectionType** enumeration.  
 - **New Password** – the new password used to protect the worksheet.  

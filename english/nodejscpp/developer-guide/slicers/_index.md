@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-A slicer is used to filter data quickly. It can be used to filter data both in a table **and** a pivot table. Microsoft Excel allows you to create **a** slicer by selecting a table or pivot table and then clicking *Insert > Slicer*. Aspose.Cells for Node.js via C++ also allows you to create **a** slicer using the [**Worksheet.getSlicers().add()**](https://reference.aspose.com/cells/nodejs-cpp/slicercollection/#add-pivottable-string-string-) method.
+A slicer is used to filter data quickly. It can be used to filter data both in a table **and** a pivot table. Microsoft Excel allows you to create a slicer by selecting a table or pivot table and then clicking *Insert > Slicer*. Aspose.Cells for Node.js via C++ also allows you to create a slicer using the [**Worksheet.getSlicers().add()**](https://reference.aspose.com/cells/nodejs-cpp/slicercollection/#add-pivottable-string-string-) method.
 
 ## **Create Slicer to a Pivot Table**
 

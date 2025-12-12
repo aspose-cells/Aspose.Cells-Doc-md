@@ -21,7 +21,7 @@ When you use **Aspose.Cells** to open an Excel file, all data in the file is aut
 - **DataReader**
 - **GridView**
 
-Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The Worksheet class provides a Cells collection.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents an Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The Worksheet class provides a Cells collection.
 
 The Cells collection provides very useful methods for importing data from different data sources.
 

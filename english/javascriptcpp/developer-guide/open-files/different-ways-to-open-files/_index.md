@@ -385,6 +385,6 @@ An exception will be thrown if you try to open non‑native Excel files or other
 
 {{% alert color="primary" %}}  
 
-There is a fair chance that the **Workbook** constructor may throw *OutOfMemoryError* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into memory; therefore, the spreadsheet has to be loaded while enabling the Memory Preferences.  
+There is a fair chance that the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) constructor may throw *OutOfMemoryError* while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into memory; therefore, the spreadsheet has to be loaded while enabling the Memory Preferences.  
 
 {{% /alert %}}

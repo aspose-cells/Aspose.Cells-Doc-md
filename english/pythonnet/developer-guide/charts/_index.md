@@ -70,7 +70,7 @@ Add any type of chart to a worksheet using the [**charts**](https://reference.as
 1. Access the new [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) object from the [**charts**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chartcollection) collection by passing its index.
 1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/chart) object to manage the chart. The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
 
-When adding source data to **a** chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non‑contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
+When adding source data to a chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non‑contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
 These general steps allow you to create any type of chart. Use different charting objects to create different charts.
 
@@ -169,11 +169,11 @@ In the above example, simply changing the [**ChartType**](https://reference.aspo
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) and **a** few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) and a few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 
-In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and **a** few extra properties such as background area, **Series Markers**, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
+In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/python-net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and a few extra properties such as background area, **Series Markers**, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-CreateLineWithDataMarkerChart-1.py" >}}
 

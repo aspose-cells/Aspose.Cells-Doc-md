@@ -13,7 +13,7 @@ Aspose.Cells provides ways to control the visibility of rows, columns, and scrol
 
 ## **Show and Hide Rows and Columns**  
 
-Aspose.Cells for JavaScript via C++ provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **worksheets** collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **cells** collection that represents all cells in the worksheet. The **cells** collection provides several methods for managing rows or columns in a worksheet. A few of these are discussed below.  
+Aspose.Cells for JavaScript via C++ provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a **worksheets** collection that allows developers to access each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a **cells** collection that represents all cells in the worksheet. The **cells** collection provides several methods for managing rows or columns in a worksheet. A few of these are discussed below.  
 
 ### **Show Rows and Columns**  
 
@@ -237,15 +237,15 @@ Microsoft Excel also provides horizontal and vertical scroll bars so that users 
 
 ### **Controlling the Visibility of Scroll Bars**  
 
-Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The **Workbook** class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the **WorkbookSettings.isVScrollBarVisible** and **WorkbookSettings.isHScrollBarVisible** properties. These are Boolean properties, which means that they can only store **true** or **false** values.  
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the **WorkbookSettings.isVScrollBarVisible** and **WorkbookSettings.isHScrollBarVisible** properties. These are Boolean properties, which means that they can only store **true** or **false** values.  
 
 #### **Making Scroll Bars Visible**  
 
-Make scroll bars visible by setting the **Workbook** class's **WorkbookSettings.isVScrollBarVisible** or **WorkbookSettings.isHScrollBarVisible** property to **true**.  
+Make scroll bars visible by setting the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class's **WorkbookSettings.isVScrollBarVisible** or **WorkbookSettings.isHScrollBarVisible** property to **true**.  
 
 #### **Hiding Scroll Bars**  
 
-Hide scroll bars by setting the **Workbook** class's **WorkbookSettings.isVScrollBarVisible** or **WorkbookSettings.isHScrollBarVisible** property to **false**.  
+Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class's **WorkbookSettings.isVScrollBarVisible** or **WorkbookSettings.isHScrollBarVisible** property to **false**.  
 
 **Sample Code**  
 

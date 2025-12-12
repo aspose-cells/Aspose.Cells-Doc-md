@@ -17,7 +17,7 @@ In this topic, we will discuss changing the font and font color of a cell in Gri
 ## **Changing the Font & Color of a Cell**  
 To change the font and color of a cell using Aspose.Cells.GridDesktop, please follow the steps below:
 
-- Access any desired **Worksheet**  
+- Access any desired [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)  
 - Access a **Cell** whose font and color are to be changed  
 - Create a customized **Font**  
 - Set the **Font** of the **Cell** to the customized one  

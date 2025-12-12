@@ -42,9 +42,9 @@ Users manually filter their worksheet data in Microsoft Excel using these option
 
 ### **Autofilter with Aspose.Cells for JavaScript via C++**
 
-Aspose.Cells provides the **Workbook** class that represents an Excel file. The Workbook class contains a **Worksheets** collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class that represents an Excel file. The Workbook class contains a **Worksheets** collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the **Worksheet** class. The Worksheet class provides a wide range of properties and methods to manage worksheets. To create an autofilter, use the **AutoFilter** property of the Worksheet class. The **AutoFilter** property is an object of the **AutoFilter** class, which provides the **Range** property for specifying the range of cells that make up a heading row. An autofilter is applied to the range of cells that is the heading row.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The Worksheet class provides a wide range of properties and methods to manage worksheets. To create an autofilter, use the **AutoFilter** property of the Worksheet class. The **AutoFilter** property is an object of the **AutoFilter** class, which provides the **Range** property for specifying the range of cells that make up a heading row. An autofilter is applied to the range of cells that is the heading row.
 
 In each worksheet, you can only specify one filter range. This limitation is imposed by Microsoft Excel. For custom data filtering, use the **AutoFilter.Custom** method.
 

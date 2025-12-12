@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Possible Usage Scenarios
-In some scenarios, when you are using **an** Excel chart, you may need to get the position of the objects in the chart. You can easily achieve this requirement with Aspose.Cells.
+In some scenarios, when you are using an Excel chart, you may need to get the position of the objects in the chart. You can easily achieve this requirement with Aspose.Cells.
 
 ## Example: Get object position in chart
 
@@ -24,7 +24,7 @@ The output is shown in the following picture, where one shape is placed in the t
 
 ## Unit explanation and conversion
 
-There are three units for the position of **objects** in **a** chart:
+There are three units for the position of **objects** in a chart:
 
 1. Units expressed as a ratio of the chart area.  
 

@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possible Usage Scenarios**
-When you want to set the border for **a** range, you don't need to set each cell individually. You can set the border on the range. Aspose.Cells offers this feature.  
+When you want to set the border for a range, you don't need to set each cell individually. You can set the border on the range. Aspose.Cells offers this feature.  
 This article provides a sample code that uses Aspose.Cells to set range border.
 
 ## **Set Range Border in Excel**

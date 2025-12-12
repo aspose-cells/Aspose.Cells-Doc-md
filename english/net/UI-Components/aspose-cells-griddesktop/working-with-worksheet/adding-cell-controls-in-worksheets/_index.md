@@ -38,7 +38,7 @@ To add a button to the worksheet using Aspose.Cells.GridDesktop, please follow t
 While adding a **Button**, we can specify the cell's location (where to display it), width and height, and the caption of the button.
 
 #### **Event Handling for the Button**
-We have discussed adding a **Button** control to the **Worksheet**, but what is the advantage of just having a button in the worksheet if we cannot use it? Therefore, event handling for the button is necessary.
+We have discussed adding a **Button** control to the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet), but what is the advantage of just having a button in the worksheet if we cannot use it? Therefore, event handling for the button is necessary.
 
 To handle the **Click** event of the **Button** control, Aspose.Cells.GridDesktop provides the **CellButtonClick** event that should be implemented by developers according to their needs. For instance, we have displayed a message when the button is clicked, as shown below:
 
@@ -73,7 +73,7 @@ To add a ComboBox to the worksheet using Aspose.Cells.GridDesktop, please follow
 - Add Aspose.Cells.GridDesktop control to your **Form**
 - Access any desired **Worksheet**
 - Create an array of items (or values) that will be added to **ComboBox**
-- Add **ComboBox** to the **Controls** collection of the **Worksheet** by specifying the cell location (where the ComboBox will be displayed) and the items/values that will appear when the ComboBox is clicked
+- Add **ComboBox** to the **Controls** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell location (where the ComboBox will be displayed) and the items/values that will appear when the ComboBox is clicked
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCombobox.cs" >}}
 

@@ -30,7 +30,7 @@ Check the detailed article on [Reading Excel 2016 Chart Types](/cells/net/read
 
 {{% /alert %}} 
 ### **Added Setter for LoadFilter.LoadDataFilterOptions Property**
-Aspose.Cells 17.1.0 has added **a** setter for the `LoadFilter.LoadDataFilterOptions` property to replace the `m_LoadDataFilterOptions` instance variable. Users may change the `LoadDataFilterOptions` property in their own implementation of the `LoadFilter` class to alter the behavior of loading template files.
+Aspose.Cells 17.1.0 has added a setter for the `LoadFilter.LoadDataFilterOptions` property to replace the `m_LoadDataFilterOptions` instance variable. Users may change the `LoadDataFilterOptions` property in their own implementation of the `LoadFilter` class to alter the behavior of loading template files.
 
 Here is a simple usage scenario.
 

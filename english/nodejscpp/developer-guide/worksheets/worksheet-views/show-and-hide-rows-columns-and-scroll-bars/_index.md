@@ -134,11 +134,11 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 #### **Making Scroll Bars Visible**  
 
-Make scroll bars visible by setting the **Workbook** class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **true**.  
+Make scroll bars visible by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **true**.  
 
 #### **Hiding Scroll Bars**  
 
-Hide scroll bars by setting the **Workbook** class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **false**.  
+Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) class' **WorkbookSettings.isVScrollBarVisible()** or **WorkbookSettings.isHScrollBarVisible()** property to **false**.  
 
 **Sample Code**  
 

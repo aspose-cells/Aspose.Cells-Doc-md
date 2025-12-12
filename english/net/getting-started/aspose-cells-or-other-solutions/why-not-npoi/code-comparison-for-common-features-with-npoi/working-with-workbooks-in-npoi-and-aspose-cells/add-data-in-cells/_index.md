@@ -10,7 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **How to Add Data in Cells Using Aspose.Cells for .NET**
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **WorksheetCollection** that allows access to each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **Cells collection**. Each item in the **Cells** collection represents an object of the **Cell** class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a **WorksheetCollection** that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a **Cells collection**. Each item in the **Cells** collection represents an object of the **Cell** class.
 
 **C#**
 

@@ -11,11 +11,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to add or register **a** library reference to the VBA project through code. You can do it using the Aspose.Cells [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
+Sometimes, you need to add or register a library reference to the VBA project through code. You can do it using the Aspose.Cells [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/cpp/aspose.cells.vba/vbaprojectreferencecollection/addregisteredreference/) method.
 
 {{% /alert %}}
 
-## **Add a library reference to **a** VBA project in Microsoft Excel**
+## **Add a library reference to a VBA project in Microsoft Excel**
 
 In Microsoft Excel, you can add a library reference to the VBA project by clicking **Tools > References...** manually.
 

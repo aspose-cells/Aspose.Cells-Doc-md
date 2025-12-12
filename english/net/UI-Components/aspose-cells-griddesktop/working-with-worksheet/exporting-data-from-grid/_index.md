@@ -19,7 +19,7 @@ In our previous topic, we talked about importing the contents of a DataTable int
 To export the Grid contents to a specific DataTable object, please follow the steps below: Add Aspose.Cells.GridDesktop control to your **form**.
 
 - Create a specific DataTable object according to your needs.
-- Export the data of a selected **Worksheet** to your specified DataTable object.
+- Export the data of a selected [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to your specified DataTable object.
 
 In the example given below, we have created a specific DataTable object having four columns. Finally, we exported worksheet data (starting from the first cell, containing 69 rows and 4 columns) to the DataTable object already created by us.
 

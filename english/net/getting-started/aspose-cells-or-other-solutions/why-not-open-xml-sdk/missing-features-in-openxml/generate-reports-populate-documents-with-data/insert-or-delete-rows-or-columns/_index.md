@@ -12,7 +12,7 @@ Whether we are creating a new worksheet from scratch or we are working on an exi
 ## **Managing Rows/Columns**
 **Aspose.Cells** provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows **you** to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
 
-**Cells** collection provides several methods to manage rows or columns in a worksheet, **a** few of these are discussed below in more detail.
+**Cells** collection provides several methods to manage rows or columns in a worksheet, a few of these are discussed below in more detail.
 
 ## **Inserting a Row**
 Developers can insert a row into the worksheet at any location by calling the InsertRow method of the Cells collection. **InsertRow** method takes the index of the row where the new row will be inserted.

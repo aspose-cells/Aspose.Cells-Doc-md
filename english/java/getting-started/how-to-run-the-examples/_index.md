@@ -22,7 +22,7 @@ Each example is provided as a separate runnable class. Right-click the file and 
 
 {{% alert color="primary" %}} 
 
-Examples are in the form of **an** Eclipse Project. Please open the Examples in Eclipse using the **File > Open Projects from File System...** menu command and follow the steps. **You should now be able to run the examples successfully.**
+Examples are in the form of an Eclipse Project. Please open the Examples in Eclipse using the **File > Open Projects from File System...** menu command and follow the steps. **You should now be able to run the examples successfully.**
 
 {{% /alert %}} 
 ## **Run the Example**

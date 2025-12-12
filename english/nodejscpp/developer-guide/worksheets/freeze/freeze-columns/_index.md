@@ -32,7 +32,7 @@ Freeze columns let you view long data without the hassle of keeping track of the
 ## **Freeze Columns with Aspose.Cells for Node.js via C++**  
 It’s simple to freeze the first column(s) with Aspose.Cells for Node.js via C++.  
 Please use the **[Worksheet.freezePanes(number, number, number, number)](https://reference.aspose.com/cells/nodejs-cpp/worksheet/#freezePanes-number-number-number-number-)** method to freeze column(s) at the selected position.  
-1. Construct a **Workbook** to open an existing file or create a new workbook.  
+1. Construct a [**Workbook**](https://reference.aspose.com/cells/nodejs-cpp/workbook) to open an existing file or create a new workbook.  
 2. Freeze the first column with the **Worksheet.freezePanes()** method.  
 3. Save the file.  
 

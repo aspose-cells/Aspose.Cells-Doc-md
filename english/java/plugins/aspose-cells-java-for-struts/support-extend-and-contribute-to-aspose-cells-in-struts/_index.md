@@ -17,4 +17,4 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 
 ## **Extend and Contribute**
-Aspose.Cells Java for Struts 1.3 is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding **a** new feature or improving the existing ones, so that others could also benefit from it.
+Aspose.Cells Java for Struts 1.3 is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding a new feature or improving the existing ones, so that others could also benefit from it.

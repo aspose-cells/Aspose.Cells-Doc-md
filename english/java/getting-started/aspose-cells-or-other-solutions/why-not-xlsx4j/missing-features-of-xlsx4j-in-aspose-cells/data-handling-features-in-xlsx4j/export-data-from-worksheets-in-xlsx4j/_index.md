@@ -23,7 +23,7 @@ Workbook workbook = new Workbook(fstream);
 //Accessing the first worksheet in the Excel file
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Exporting the contents of 7 rows and 2 columns starting from 1st cell to **an** array.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to an array.
 Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
 for (int i = 0 ; i < dataTable.length ; i++)

@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Sometimes you need to read and write large Microsoft Excel files with **a** huge list of data or contents in the worksheet. The LightCells API is useful for creating huge Excel spreadsheets: with it, you need **less** memory and get better performance and efficiency.
+Sometimes you need to read and write large Microsoft Excel files with a huge list of data or contents in the worksheet. The LightCells API is useful for creating huge Excel spreadsheets: with it, you need **less** memory and get better performance and efficiency.
 
 {{% /alert %}}
 
@@ -25,11 +25,11 @@ In both procedures, one Cell object is processed and then discarded, the Workboo
 
 Even though the LightCells API processes the cells in the same way for XLSX and XLS files (it does not actually load all cells in memory but processes one cell and then discards it), it saves memory more effectively for XLSX files than XLS files because of the different data models and structures of the two formats.
 
-However, **for XLS files**, to save more memory, developers can specify a temporary location for saving temporary data generated during the Save process. Commonly, **using LightCells API to save **an** XLSX file may save 50% or more memory** than using the common way, **saving XLS may save about 20‑40% of memory**.
+However, **for XLS files**, to save more memory, developers can specify a temporary location for saving temporary data generated during the Save process. Commonly, **using LightCells API to save an XLSX file may save 50% or more memory** than using the common way, **saving XLS may save about 20‑40% of memory**.
 
 ### **Writing Large Excel Files**
 
-Aspose.Cells provides an interface, LightCellsDataProvider, that needs to be implemented in your program. The interface represents **a** data provider for saving large spreadsheet files in light‑weight mode.
+Aspose.Cells provides an interface, LightCellsDataProvider, that needs to be implemented in your program. The interface represents a data provider for saving large spreadsheet files in light‑weight mode.
 
 When saving a workbook by this mode, startSheet(int) is checked when saving every worksheet in the workbook. For one sheet, if startSheet(int) is true, then all the data and properties of rows and cells of this sheet to be saved is provided by this implementation. In the first place, nextRow() is called to get the next row index to be saved. If a valid row index is returned (the row index must be in ascending order for the rows to be saved), then a Row object representing this row is provided for implementation to set its properties by startRow(Row).
 

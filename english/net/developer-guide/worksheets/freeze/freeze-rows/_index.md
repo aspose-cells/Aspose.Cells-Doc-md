@@ -34,7 +34,7 @@ Freeze rows let you view your large data without having to keep track of row lab
 It's simple to freeze row(s) with Aspose.Cells for .Net.  
 Please use the [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) method to freeze row(s) at the selected row.
 
-1. Construct a **Workbook** to open the file or create an empty file.  
+1. Construct a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) to open the file or create an empty file.  
 2. Freeze the first row with the **Worksheet.FreezePanes()** method.  
 3. Save the file.
 

@@ -46,9 +46,9 @@ Users manually filter their worksheet data in Microsoft Excel using these option
 
 ### **Autofilter with Aspose.Cells**
 
-Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents an Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the **Worksheet** class. The Worksheet class provides a wide range of properties and methods to manage worksheets. To create an autofilter, use the **AutoFilter** property of the Worksheet class. The AutoFilter property is an object of the **AutoFilter** class, which provides the **Range** property for specifying the range of cells that make up a heading row. An autofilter is applied to the range of cells that is the heading row.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The Worksheet class provides a wide range of properties and methods to manage worksheets. To create an autofilter, use the **AutoFilter** property of the Worksheet class. The AutoFilter property is an object of the **AutoFilter** class, which provides the **Range** property for specifying the range of cells that make up a heading row. An autofilter is applied to the range of cells that is the heading row.
 
 In each worksheet, you can only specify one filter range. This is limited by Microsoft Excel. For custom data filtering, use the **AutoFilter.Custom** method.
 

@@ -18,7 +18,7 @@ This is another basic topic for developers that explains a basic approach to rem
 To remove a row from the worksheet, please follow the steps below:
 
 - Access any desired **Worksheet**
-- Remove **Row** from the **Worksheet** by specifying the index of the row to be removed
+- Remove **Row** from the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the index of the row to be removed
 
 Code sample below shows you how to remove a row from the worksheet.
 

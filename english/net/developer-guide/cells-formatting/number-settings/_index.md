@@ -23,7 +23,7 @@ To set display formats in Microsoft Excel:
 
 On the left side of the dialog, there are many categories of values like **General**, **Number**, **Currency**, **Accounting**, **Date**, **Time**, **Percentage**, etc. Aspose.Cells supports all of these display formats.
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **Worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **Cells** collection. Each item in the **Cells** collection represents an object of the **Cell** class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a **Worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a **Cells** collection. Each item in the **Cells** collection represents an object of the **Cell** class.
 
 Aspose.Cells provides **GetStyle** and **SetStyle** methods for the **Cell** class. These methods are used to get and set a cell's formatting. The **Style** class provides some useful properties for dealing with the display formats of numbers and dates.
 

@@ -15,7 +15,7 @@ This topic discusses some important concepts about managing cell controls using 
 
 {{% /alert %}} 
 ## **Accessing Cell Controls**
-To access and modify an existing cell control in the worksheet, developers can access a specific cell control from the **Controls** collection of the **Worksheet** by specifying the cell (using its name or its location in terms of row and column numbers) where the cell control is displayed. Once a cell control is accessed, developers can modify its properties at runtime. For instance, in the example given below, we have accessed an existing **CheckBox** cell control from the **Worksheet** and modified its Checked property.
+To access and modify an existing cell control in the worksheet, developers can access a specific cell control from the **Controls** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell (using its name or its location in terms of row and column numbers) where the cell control is displayed. Once a cell control is accessed, developers can modify its properties at runtime. For instance, in the example given below, we have accessed an existing **CheckBox** cell control from the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) and modified its Checked property.
 
 **IMPORTANT:** **Controls** collection contains all types of cell controls in the form of **CellControl** objects. So, if you need to access a specific type of cell control, say **CheckBox**, then you will have to typecast the **CellControl** object to the **CheckBox** class.
 
@@ -23,7 +23,7 @@ To access and modify an existing cell control in the worksheet, developers can a
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingCellControls-AccessCheckbox.cs" >}}
 ## **Removing Cell Controls**
-To remove an existing cell control, developers can simply access a desired worksheet and then **remove** the cell control from the **Controls** collection of the **Worksheet** by specifying the cell (using its name or row & column number) containing the cell control.
+To remove an existing cell control, developers can simply access a desired worksheet and then **remove** the cell control from the **Controls** collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) by specifying the cell (using its name or row & column number) containing the cell control.
 
 
 

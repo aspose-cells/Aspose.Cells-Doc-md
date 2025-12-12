@@ -46,7 +46,7 @@ Aspose.Cells supports displaying the contents of a cell or range in an image sha
 Here's a basic example of how to use the Camera function using the [sample file](camera.xlsx) in Aspose.Cells for .NET:
 
 1. Load the sample file using the [Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class.  
-2. Add a picture to the worksheet by calling the **AddPicture** method of the **ShapeCollection** collection (encapsulated in the **Worksheet** object).  
+2. Add a picture to the worksheet by calling the **AddPicture** method of the **ShapeCollection** collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object).  
 3. Specify the cell range by using the **Formula** attribute of the **Picture** object.  
 4. Update the shape's selected value in the worksheet.
 

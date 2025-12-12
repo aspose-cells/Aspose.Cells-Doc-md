@@ -11,19 +11,19 @@ description: Add, remove, and activate worksheets using Aspose.Cells for JavaScr
 Developers can easily create and manage worksheets in Microsoft Excel files programmatically using Aspose.Cells' flexible API. This topic describes approaches for adding and removing worksheets in Microsoft Excel files.
 {{% /alert %}}
 
-Aspose.Cells provides a class, **Workbook**, that represents an Excel file. The **Workbook** class contains a **worksheets** collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a **worksheets** collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a wide range of properties and methods for managing worksheets.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a wide range of properties and methods for managing worksheets.
 
 ## **Adding Worksheets to a New Excel File**
 
 To create a new Excel file programmatically:
 
-1. Create an object of the **Workbook** class.  
+1. Create an object of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.  
 2. Call the **WorksheetCollection.add(SheetType)** method of the **WorksheetCollection** class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the **worksheets** collection.  
 3. Obtain a worksheet reference.  
 4. Perform work on the worksheet.  
-5. Save the new Excel file with the new worksheets by calling the **Workbook.save(string, SaveFormat)** method of the **Workbook** class.
+5. Save the new Excel file with the new worksheets by calling the **Workbook.save(string, SaveFormat)** method of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.
 
 ```html
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ To create a new Excel file programmatically:
 
 ## **Adding Worksheets to a Designer Spreadsheet**
 
-The process of adding worksheets to a designer spreadsheet is the same as adding a new worksheet, except that the Excel file already exists and should be opened before worksheets are added. A designer spreadsheet can be opened by the **Workbook** class.
+The process of adding worksheets to a designer spreadsheet is the same as adding a new worksheet, except that the Excel file already exists and should be opened before worksheets are added. A designer spreadsheet can be opened by the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.
 
 ```html
 <!DOCTYPE html>

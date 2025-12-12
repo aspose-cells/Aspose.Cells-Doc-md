@@ -121,7 +121,7 @@ If developers need to apply different formatting styles to different cells, then
 
 If developers need to apply the same formatting style to different cells, they can use the **Style** object. Please follow the steps below to use the **Style** object:
 
-1. Add a **Style** object by calling the **createStyle()** method of the **Workbook** class.
+1. Add a **Style** object by calling the **createStyle()** method of the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class.
 2. Access the newly added **Style** object.
 3. Set the desired properties/attributes of the **Style** object to apply the required formatting settings.
 4. Assign the configured **Style** object to your desired cells.
@@ -288,7 +288,7 @@ Aspose.Cells supports this feature too. This topic explains how to use it effect
 
 ### **How to Format Selected Characters**
 
-Aspose.Cells provides a class, **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains the **worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **cells** collection. Each item in the **cells** collection represents an object of the **Cell** class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains the **worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a **cells** collection. Each item in the **cells** collection represents an object of the **Cell** class.
 
 The **Cell** class provides the **characters(number, number)** method that takes the following parameters to select a range of characters inside a cell:
 
@@ -381,13 +381,13 @@ Sometimes, developers need to apply the same formatting to rows or columns. Appl
 
 ### **Formatting Rows & Columns**
 
-Aspose.Cells provides a class, the **Workbook**, that represents a Microsoft Excel file. The **Workbook** class contains a **worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the **Worksheet** class. The **Worksheet** class provides a **cells** collection. The **cells** collection provides a **rows** collection.
+Aspose.Cells provides a class, the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class contains a **worksheets** collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/javascript-cpp/worksheet) class provides a **cells** collection. The **cells** collection provides a **rows** collection.
 
 ### **How to Format a Row**
 
 Each item in the **rows** collection represents a **Row** object. The **Row** object offers the **applyStyle(Style, StyleFlag)** method used to set the row's formatting. To apply the same formatting to a row, use a **Style** object. The steps below show how to use it.
 
-1. Add a **Style** object to the **Workbook** class by calling its **createStyle()** method.  
+1. Add a **Style** object to the [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) class by calling its **createStyle()** method.  
 2. Set the **Style** object's properties to apply formatting settings.  
 3. Enable the relevant attributes in a **StyleFlag** object.  
 4. Assign the configured **Style** object to the **Row** object.

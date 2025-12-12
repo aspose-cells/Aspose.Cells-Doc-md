@@ -33,7 +33,7 @@ Freeze panes let you view your large data without having to keep track of row or
 
 It's simple to freeze panes with Aspose.Cells for .NET. Please use the [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) method to freeze panes at the selected cell.
 
-1. Construct a **Workbook** to open a file or create an empty file.  
+1. Construct a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) to open a file or create an empty file.  
 2. Freeze panes with the **Worksheet.FreezePanes()** method.  
 3. Save the file.
 

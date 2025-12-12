@@ -69,7 +69,7 @@ Once installed you can **easily** launch and use the interactive plugin as descr
 
 ![todo:image_alt_text](aspose-cells-visual-studio-plugin_3)
 
-**2.** The first time you open the plugin you see the API selection dialog as shown below. It will take **a** few minutes to download the latest API and their libraries from **NuGet** and the latest examples source code from **GitHub**.
+**2.** The first time you open the plugin you see the API selection dialog as shown below. It will take a few minutes to download the latest API and their libraries from **NuGet** and the latest examples source code from **GitHub**.
 
 ![todo:image_alt_text](aspose-cells-visual-studio-plugin_4)
 

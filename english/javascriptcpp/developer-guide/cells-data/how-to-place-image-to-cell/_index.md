@@ -61,7 +61,7 @@ You can easily switch from **Picture over Cells** to **Picture in Cell**. Please
 ## **How to Insert Picture in Cell Using Aspose.Cells for JavaScript via C++**
 Insert a picture in a cell using Aspose.Cells. Please see the following sample code. After executing the example code, a picture will be inserted into a cell.
 
-1. Instantiate a **Workbook** object.  
+1. Instantiate a [**Workbook**](https://reference.aspose.com/cells/javascript-cpp/workbook) object.  
 2. Get the cell where you want to insert the picture.  
 3. Set the cell’s **EmbeddedImage** property.  
 4. Finally, save the workbook in the [output XLSX](out.xlsx) format.  

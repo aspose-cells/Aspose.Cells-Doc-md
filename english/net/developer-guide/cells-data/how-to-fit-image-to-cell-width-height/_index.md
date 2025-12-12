@@ -58,7 +58,7 @@ Due to variations in the width and height of rows and columns depending on langu
 ### **How to Fit Image to Cell Width and Height Using Place in Cell**
 Insert a picture in a cell using Aspose.Cells. Please see the following sample code. After executing the example code, a picture will be inserted into a cell.
 
-1. Instantiate a **Workbook** object.  
+1. Instantiate a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) object.  
 2. Get the cell where you want to insert the picture.  
 3. Set the **Cell.EmbeddedImage** property.  
 4. Finally, save the workbook in [output XLSX](out.xlsx) format.
@@ -70,7 +70,7 @@ Insert a picture in a cell using Aspose.Cells. Please see the following sample c
 
 ### **How to Fit Image to Cell Width and Height Using Place over Cells**
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:  
-Simply call the **Add** method of the **Pictures** collection (encapsulated in the **Worksheet** object). Then adjust the width and height of the image based on the width and height of the cells. Finally, save the file to [output XLSX](out_net.xlsx) format. The **Add** method takes the following parameters:
+Simply call the **Add** method of the **Pictures** collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object). Then adjust the width and height of the image based on the width and height of the cells. Finally, save the file to [output XLSX](out_net.xlsx) format. The **Add** method takes the following parameters:
 
 - **Upper left row index** – the index of the upper‑left row.  
 - **Upper left column index** – the index of the upper‑left column.  
