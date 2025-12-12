@@ -29,7 +29,7 @@ repositories {
 dependencies {
     ...
     ...
-    compile (group: 'com.aspose', name: 'aspose-cells', version: '25.9', classifier: 'android.via.java')
+    compile (group: 'com.aspose', name: 'aspose-cells', version: '25.12', classifier: 'android.via.java')
 }
 {{< /highlight >}}
 
