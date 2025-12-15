@@ -20,7 +20,7 @@ Both the installer and the DLL are available for free download at the Aspose.Cel
 
 Using the installer has a couple of advantages:
 
-1. It makes all the necessary entries into the system registry to expose Microsoft Excel to COM applications.
-2. It contains the demo projects that allow you to obtain code samples.
+1. It makes all necessary entries into the system registry to expose Microsoft Excel to COM applications.
+1. It contains the demo projects that allow you to obtain code samples.
 
 {{% /alert %}}

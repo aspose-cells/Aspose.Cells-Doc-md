@@ -7,14 +7,36 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-{{% alert color="primary" %}} 
+## Overview
 
-Some effective characteristics of Aspose.Cells for Reporting Services are listed below
+Aspose.Cells for Reporting Services extends the native functionality of Microsoft Reporting Services with a rich set of features that make designing, publishing, and maintaining Excel‑based reports faster and more flexible. Below is a concise list of the most valuable capabilities you can leverage when building reports with this product.
 
-- Aspose.Cells for Reporting Services supports tables with grouped rows and footers. The grouping of rows and footers can be set up at design time like other report items.
-- Aspose.Cells for Reporting Services supports parameters and global variables as the report data sources.
-- Users can use Microsoft Query to create data sources and queries. Microsoft Query is a widely used tool that most users should be familiar with.
-- Aspose.Cells for Reporting Services supports both report‑specific data sources and shared data sources created on Report Server in advance. What’s more, it is possible to use report‑specific data sources at design time and specify shared data sources as report data sources while publishing a report.
-- Aspose.Cells for Reporting Services is integrated with Microsoft Reporting Services seamlessly, and so users can take full advantage of Reporting Services' report management, security, and delivery options.
+## **Key Benefits of Aspose.Cells for Reporting Services**
 
-{{% /alert %}}
+- **Support for grouped rows and footers** – Create tables that contain hierarchical row groups and automatic footers. Grouping can be defined at design‑time just like any other report item, allowing you to build complex, multi‑level reports without extra code.
+
+- **Parameters and global variables as data sources** – Use report parameters or global variables directly as the source of data for a cell range. This enables dynamic, user‑driven content without the need for additional datasets.
+
+- **Microsoft Query integration** – Build data sources and queries with Microsoft Query, a familiar tool for most users. The familiar UI reduces the learning curve and speeds up data‑source creation.
+
+- **Flexible data‑source handling** –
+  - *Report‑specific data sources* can be defined during design for quick testing.
+  - *Shared data sources* created on the Report Server can be swapped in at publish time, allowing you to maintain a single source of truth across many reports.
+
+## Detailed Feature Breakdown
+
+### 1. Grouped Tables with Footers
+
+- Define row groups in the Excel template.
+- Automatic calculation of subtotals and grand totals in footers.
+- Works with both static and dynamic data sets.
+
+### 2. Parameters & Global Variables
+
+- Bind a cell range to a report parameter (`@StartDate`, `@Region`, …).
+- Use built‑in global variables such as `User!UserID` for personalization.
+
+### 3. Microsoft Query Support
+
+- Drag‑and‑drop tables, apply filters, and generate SQL without writing code.
+- Export the generated query directly to an SSRS dataset.

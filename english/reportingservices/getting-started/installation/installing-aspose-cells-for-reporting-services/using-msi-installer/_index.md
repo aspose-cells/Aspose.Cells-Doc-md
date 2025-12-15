@@ -7,37 +7,56 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-- If you have a previous version of Aspose.Cells for Reporting Services installed, please uninstall it first. See [Uninstalling Aspose.Cells for Reporting Services](/cells/reportingservices/uninstalling-aspose-cells-for-reporting-services/) topic on how to remove the component.
-- [Visit the Aspose.Cells for Reporting Services download page](https://downloads.aspose.com/cells/reportingservices) and download the Aspose.Cells for Reporting Services MSI installer with the latest version of the component.
-    - Aspose.Cells for Reporting Services MSI only supports Microsoft SQL Server 2008 Reporting Services and later products.
-- Run the downloaded file and follow the installer instructions.
+- If you have a previous version of **Aspose.Cells for Reporting Services** installed, uninstall it first. See the **[Uninstalling Aspose.Cells for Reporting Services](/cells/reportingservices/uninstalling-aspose-cells-for-reporting-services/)** topic for detailed instructions.  
+- Download the latest MSI installer from the **[Aspose.Cells for Reporting Services download page](https://releases.aspose.com/cells/reportingservices/)**.  
+  - The MSI package supports **Microsoft SQL Server 2008 Reporting Services and later**.  
+- Run the downloaded file and follow the installer wizard.
 
-{{% /alert %}} 
-**Installation Process**
-To install Aspose.Cells using the MSI installer:
+{{% /alert %}}
 
-1. The Welcome Screen is the first screen in the installation. Click **Next**.
+## Installation Process
 
-![todo:image_alt_text](using-msi-installer_1.png)
+The installation wizard consists of a series of screens. Follow the steps below to complete the installation.
 
-1. Read and accept the license agreement and click **Next**.
+### 1. Welcome Screen  
 
-![todo:image_alt_text](using-msi-installer_2.png)
+Click **Next** to start the wizard.
 
-1. Select the installation folder and click **Next**. 
+![Aspose.Cells MSI installer – Welcome screen](using-msi-installer_1.png)
 
-![todo:image_alt_text](using-msi-installer_3.png)
+### 2. License Agreement  
 
-1. Confirm that you want to install Aspose.Cells for Reporting Services by clicking **Install**. 
+Read the End‑User License Agreement (EULA), select **I accept the terms in the license agreement**, and click **Next**.
 
-![todo:image_alt_text](using-msi-installer_4.png)
+![Aspose.Cells MSI installer – License agreement](using-msi-installer_2.png)
 
-The installation progress is shown on screen. 
+### 3. Choose Installation Folder  
 
-![todo:image_alt_text](using-msi-installer_5.png)
+Select the destination folder where the component will be installed (the default path is usually fine) and click **Next**.
 
-1. Once the installation is complete, click **Finish** to close the installer.
+![Aspose.Cells MSI installer – Select installation folder](using-msi-installer_3.png)
 
-![todo:image_alt_text](using-msi-installer_6.png)
+### 4. Confirm Installation  
+
+Review the summary and click **Install** to begin copying files.
+
+![Aspose.Cells MSI installer – Confirm installation](using-msi-installer_4.png)
+
+### 5. Installation Progress  
+
+The installer displays a progress bar while the files are being copied.
+
+![Aspose.Cells MSI installer – Installation progress](using-msi-installer_5.png)
+
+### 6. Completion  
+
+When the process finishes, click **Finish** to close the wizard.
+
+![Aspose.Cells MSI installer – Installation complete](using-msi-installer_6.png)
+
+## Post‑Installation Checklist
+
+- **Verify the installation**: Open **SQL Server Reporting Services** and confirm that the Aspose.Cells extension appears under the **Extensions** tab.  
+- **Verify Excel Add-ins** (if required) Open Excel and check if the Aspose.Cells Report Designer add-in is installed.
