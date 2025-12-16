@@ -7,53 +7,73 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-{{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services is available as a free, time‑unlimited evaluation from the [Download Page](https://downloads.aspose.com/cells/reportingservices). The evaluation and licensed versions of the product are the same.
+{{% alert color="primary" %}}  
+**Aspose.Cells for Reporting Services** is available as a free, time‑unlimited evaluation from the [Download Page](https://downloads.aspose.com/cells/reportingservices). The evaluation and licensed versions of the product are identical.
 
-When you are happy with the evaluation version, buy a license. Make sure you understand and agree to the subscription terms and conditions.
+When you are satisfied with the evaluation, purchase a license. Be sure you understand and agree to the subscription terms and conditions.  
+{{% /alert %}}
 
-{{% /alert %}} 
-### **Getting and Using the License**
-The license will be available for download from the order page when the order is paid.
+## Getting and Using the License
 
-The license file is a clear‑text, digitally signed XML file. The license file contains information such as the client name, the purchased product, and the license type. Do not modify the content of the license file, as doing so invalidates it.
+1. **Obtain the license file** – After your order is paid, the license file will be available for download on the order page.  
+2. **Copy the file** to one of the following folders (use the exact path for your environment):
 
-Download the license to your computer and copy it to a folder that must be one of the following:
+   ```text
+   <Installation Folder>\License\
+   <MSSQL Server Reporting Services>\ReportServer\Bin\
+   <MSSQL Server Reporting Services>\ReportServer\
+   ```
 
-- $[Installation Folder]\License\
-- $[MSSQL Server Reporting Services]\ReportServer\Bin\
-- $[MSSQL Server Reporting Services]\ReportServer\
+   > **Note:** The folder name is case‑insensitive on Windows, but keep the back‑slashes as shown.
 
-The name of the license file can be one of the following based on your subscription type:
+3. **License file name** – The name depends on the subscription you bought. Acceptable names include:
 
-- Aspose.Cells.Reporting.Services.lic
-- Aspose.Total.ReportingServices.lic
-- Aspose.Custom.lic
-- Aspose.Total.lic
-- Aspose.Cells.Reporting.Services - Developer Site Subscription.lic
-- Aspose.Cells.Reporting.Services - Developer Subscription.lic
-- Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic
-- Aspose.Cells.Reporting.Services - Single Server Deployment Subscription.lic
+   - `Aspose.Cells.Reporting.Services.lic`
+   - `Aspose.Total.ReportingServices.lic`
+   - `Aspose.Custom.lic`
+   - `Aspose.Total.lic`
+   - `Aspose.Cells.Reporting.Services - Developer Site Subscription.lic`
+   - `Aspose.Cells.Reporting.Services - Developer Subscription.lic`
+   - `Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic`
+   - `Aspose.Cells.Reporting.Services - Single Server Deployment Subscription.lic`
 
-To test whether the license file was installed correctly, export any report as a Microsoft Excel workbook. If the workbook contains no watermark worksheet at the end, the license file was activated successfully.
+4. **Verify the installation** – Export any report as a Microsoft Excel workbook.
 
-Aspose.Cells for Reporting Services injects an evaluation watermark worksheet when working in evaluation mode. When a valid license file is present, for example when **Aspose.Cells.ReportingServices.lic** is in the $[Installation Folder]\License\ folder, there is no evaluation watermark worksheet.
+   - If the workbook **does not contain** a watermark worksheet at the end, the license file was activated successfully.  
+   - If a watermark worksheet appears, the product is still running in evaluation mode.
 
-**A file created in evaluation mode. Note the second worksheet.** 
+### What the watermark looks like
 
-![todo:image_alt_text](licensing_1.png)
+**Evaluation mode (watermark worksheet added):**  
 
-**A file created with a full license** 
+![Evaluation watermark worksheet – the second sheet contains the Aspose watermark](/images/licensing_1.png)
 
-![todo:image_alt_text](licensing_2.png)
+**Full license (no watermark):**  
 
-{{% alert color="primary" %}} 
+![Workbook created with a full license – only the intended worksheets are present](/images/licensing_2.png)
 
-If there is any problem with the license file, the error message will be included in the generated report.
+{{% alert color="primary" %}}  
+If a problem occurs with the license file, an error message will be inserted into the generated report.  
+{{% /alert %}}
 
-{{% /alert %}} 
+**Example of a licensing error message:**  
 
-**Error message indicating licensing issue** 
+![Error message displayed in the generated Excel report indicating a licensing issue](/images/licensing_3.png)
 
-![todo:image_alt_text](licensing_3.png)
+
+### Quick troubleshooting checklist
+
+| ✅ Step | Description |
+|--------|-------------|
+| **1** | Confirm the license file is placed in one of the three allowed folders. |
+| **2** | Verify the file name matches exactly one of the supported names. |
+| **3** | Ensure the file has not been edited – it must remain the original, digitally‑signed XML. |
+| **4** | Re‑export a report to Excel and check for the watermark worksheet. |
+| **5** | If an error appears, open the generated report and read the message for clues (e.g., “License file not found” or “Invalid license signature”). |
+
+If the issue persists, contact **Aspose.Support@aspose.com** with the following details:
+
+* Product name and version  
+* Full path of the license file  
+* The exact error message shown in the report  

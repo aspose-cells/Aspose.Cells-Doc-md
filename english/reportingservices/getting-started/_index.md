@@ -7,36 +7,64 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells for Reporting Services is comprised of **two parts** as follows:
+## Getting Started with Aspose.Cells for Reporting Services
 
-- ***Aspose.Cells.Report.Designer***
-  
-&nbsp;&nbsp;&nbsp;&nbsp;This is a report designer tool that is integrated with MS Excel in an Add‑ins form. With Aspose.Cells.Report.Designer, users can design a report template in MS Excel instead of Visual Studio. The report template is then embedded into a Reporting Services RDL file and can be published to the Report Server. Users can also preview and export the report in Aspose.Cells.Report.Designer.
+Aspose.Cells for Reporting Services consists of **two components** that work together to let you design and render reports directly from Microsoft Excel.
 
-- ***Aspose.Cells.Renderer for Reporting Services***
-  
-&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services is actually an implementation of the Microsoft Reporting Services Rendering Extension. It can render RDL reports designed by both Visual Studio and Aspose.Cells.Report.Designer.
+### 1. Aspose.Cells Report Designer  
 
-**How to get Aspose.Cells for Reporting Services.**  
+*An Excel add‑in that serves as a visual report designer.*
 
-- [Download](https://downloads.aspose.com/cells/reportingservices/)
+- Design report templates **inside Microsoft Excel** – no need to switch to Visual Studio.  
+- Embed the Excel template into an RDL file, which can then be published to a Report Server.  
+- Preview and export reports directly from the designer.
 
-**How to install Aspose.Cells for Reporting Services.**
+### 2. Aspose.Cells Renderer for Reporting Services  
 
-- [MSI Installation](/cells/reportingservices/using-msi-installer/)
-- [Manual Installation](/cells/reportingservices/using-dll-only/)
+*The rendering extension that integrates with Microsoft Reporting Services.*
 
-**What are the features in Aspose.Cells for Reporting Services.**
+- Implements the native **Reporting Services Rendering Extension**.  
+- Renders RDL reports created with **both** Visual Studio and Aspose.Cells Report Designer.
 
-- [Supported File Formats](/cells/reportingservices/supported-file-formats/)
-- [Support Composite Markers](/cells/reportingservices/composite-markers/)
-- [Support Digital Signatures](/cells/reportingservices/support-for-digital-signatures/)
-- [More Features](/cells/reportingservices/features/)
+## How to Get Aspose.Cells for Reporting Services  
 
-**This section includes the following topics:**
+- **Download the latest version** from the official Aspose portal:  
+  <https://downloads.aspose.com/cells/reportingservices/>
 
-- [Product Overview](/cells/reportingservices/product-overview/)
-- [Edition Types](/cells/reportingservices/edition-types/)
-- [Comparisons](/cells/reportingservices/comparisons/)
-- [Licensing](/cells/reportingservices/licensing/)
-- [Evaluate Aspose.Cells](/cells/reportingservices/evaluate-aspose-cells/)
+## Installation Options  
+
+Choose the method that best fits your environment.
+
+### MSI Installation  
+
+Follow the step‑by‑step guide:  
+[MSI Installation](/cells/reportingservices/using-msi-installer/)
+
+### Manual (DLL‑Only) Installation  
+
+If you prefer a lightweight setup, use the DLL‑only approach:  
+[Manual Installation](/cells/reportingservices/using-dll-only/)
+
+## Core Features  
+
+- **Supported File Formats** – Export to XLSX, CSV, PDF, HTML, and more.  
+  [/cells/reportingservices/supported-file-formats/](/cells/reportingservices/supported-file-formats/)  
+- **Composite Markers** – Combine text, images, and charts inside a single placeholder.  
+  [/cells/reportingservices/composite-markers/](/cells/reportingservices/composite-markers/)  
+- **Digital Signatures** – Secure your reports with industry‑standard signing.  
+  [/cells/reportingservices/support-for-digital-signatures/](/cells/reportingservices/support-for-digital-signatures/)  
+- **Additional Features** – See the full feature list for a complete overview.  
+  [/cells/reportingservices/features/](/cells/reportingservices/features/)
+
+## Further Reading  
+
+- **Product Overview** – Understand the overall architecture and benefits.  
+  [/cells/reportingservices/product-overview/](/cells/reportingservices/product-overview/)  
+- **Edition Types** – Compare Free, Professional, and Enterprise editions.  
+  [/cells/reportingservices/edition-types/](/cells/reportingservices/edition-types/)  
+- **Comparisons** – Feature‑by‑feature comparison with competing solutions.  
+  [/cells/reportingservices/comparisons/](/cells/reportingservices/comparisons/)  
+- **Licensing** – Learn how to activate and manage licenses.  
+  [/cells/reportingservices/licensing/](/cells/reportingservices/licensing/)  
+- **Evaluate Aspose.Cells** – Try the product with a 30‑day free trial.  
+  [/cells/reportingservices/evaluate-aspose-cells/](/cells/reportingservices/evaluate-aspose-cells/)
