@@ -73,7 +73,7 @@ xs.sheet.table.render();
 
 
 
-### Relevant functions (for reference only)
+### Relevant functions
 
 | Function | Description | Parameters | Returns |
 |----------|-------------|------------|---------|
