@@ -21,6 +21,6 @@ A matrix (also known as a *crosstab*) lets you display data in a two‑dimension
 - Pivot‑style reporting without writing complex SQL.  
 - Providing drill‑down capabilities in SSRS reports.
 
-**## Visual Guide - A matrix report item**  
+## **Visual Guide - A matrix report item**  
 
 ![todo:image_alt_text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)  
