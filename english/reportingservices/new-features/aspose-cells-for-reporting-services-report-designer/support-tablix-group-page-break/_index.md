@@ -1,5 +1,6 @@
 ---
 title: Support Tablix Group Page Break
+linktitle: Group Page Break
 type: docs
 weight: 40
 url: /reportingservices/support-tablix-group-page-break/

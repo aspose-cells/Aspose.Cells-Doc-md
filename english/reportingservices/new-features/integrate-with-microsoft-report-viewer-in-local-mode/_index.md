@@ -1,13 +1,14 @@
 ---
 title: Integrate with Microsoft Report Viewer in Local Mode
 type: docs
+linktitle: Microsoft Report Viewer
 weight: 30
 url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Microsoft Report Viewer is a powerful .NET control that allows RDL and RDLC reports to be used in WinForms and ASP.NET applications. It enables users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2005 and 2008, and is also available as a free download from Microsoft.
 
@@ -16,32 +17,29 @@ Report Viewer can generate reports independently using a built-in engine (known 
 - In remote mode, Report Viewer can export reports to all formats installed on the Report Server to which it is connected. Therefore, to export reports to more Microsoft Excel formats you only need to install Aspose.Cells for Reporting Services on the server.
 - In local mode however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only a few built-in formats.
 
-By installing Aspose.Cells for Reporting Services on a development machine and following the steps below, you can export to more Microsoft Excel formats from Report Viewer working in local mode. 
+By installing Aspose.Cells for Reporting Services on a development machine and following the steps below, you can export to more Microsoft Excel formats from Report Viewer working in local mode.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ### **Working with Aspose.Cells in Local Mode**
-1. Reference **Aspose.Cells.ReportingServices.dll** in the project: 
+
+1. Reference **Aspose.Cells.ReportingServices.dll** in the project:
    1. Open the project in Visual Studio.
    1. Right-click the **References** folder and select **Add Reference**.
    1. Select the **Browse** tab and browse to the following assembly:
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
-      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services. 
+      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services.
 
-      **Adding a reference to Aspose.Cells.ReportingServices.dll to a project** 
+      **Adding a reference to Aspose.Cells.ReportingServices.dll to a project**
 
 ![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
-
-
-
 1. Copy and paste the following AddExtension method into the project.
-   This method adds the specified rendering extension to the list of supported extensions in Microsoft Report Viewer using private reflection. 
+   This method adds the specified rendering extension to the list of supported extensions in Microsoft Report Viewer using private reflection.
 
 **C#**
 
 {{< highlight csharp >}}
-
-
 
 using System.Collections;
 
@@ -58,10 +56,6 @@ using Microsoft.Reporting.WinForms;
 // -- or --
 
 // using Microsoft.Reporting.WebForms;
-
-
-
-
 
 /// <summary>
 
@@ -137,18 +131,11 @@ extensions.Add(instance);
 
 }
 
-
-
 {{< /highlight >}}
-
-
-
 
 **VB .NET**
 
 {{< highlight csharp >}}
-
-
 
 Imports System.Collections
 
@@ -165,10 +152,6 @@ Imports Microsoft.Reporting.WinForms
 // -- or --
 
 // Imports Microsoft.Reporting.WebForms
-
-
-
-
 
 '' Adds the specified rendering extension to the specified ReportViewer instance.
 
@@ -244,32 +227,26 @@ Private Shared Sub AddExtension(ByVal viewer As ReportViewer, ByVal formatName A
 
 End Sub
 
-
-
 {{< /highlight >}}
 
-1. Invoke the AddExtension method from the code. 
+1. Invoke the AddExtension method from the code.
    - You can call AddExtension (shown in the previous step) whenever you need to add Aspose.Cells for Reporting Services export formats to a Report Viewer control instance. Consider calling from the Form_Load or Page_Load event handler of a WinForms or ASP .NET application.
    - You can add all or only some export Aspose.Cells for Reporting Services export formats. You can specify any display name for the formats to appear in Report Viewer.
-     To add Aspose.Cells for Reporting Services export formats to Microsoft Report Viewer in local mode, use the following code: 
+     To add Aspose.Cells for Reporting Services export formats to Microsoft Report Viewer in local mode, use the following code:
 
 **C#**
 
 {{< highlight csharp >}}
 
-
-
             AddExtension(reportViewer1, "Xls - Xls via Aspose.Cells",    typeof(Aspose.Cells.ReportingServices.XlsRenderer));
 
             AddExtension(reportViewer1, "Xlsx - Xlsx via Aspose.Cells", typeof(Aspose.Cells.ReportingServices.Excel2007XlsxRenderer));
 
-			AddExtension(reportViewer1, "CSV - CSV via Aspose.Cells",    typeof(Aspose.Cells.ReportingServices.CSVRenderer));
+   AddExtension(reportViewer1, "CSV - CSV via Aspose.Cells",    typeof(Aspose.Cells.ReportingServices.CSVRenderer));
 
             AddExtension(reportViewer1, "SpreadsheetML - SpreadsheetML via Aspose.Cells", typeof(Aspose.Cells.ReportingServices.SpreadsheetMLRenderer));
 
             AddExtension(reportViewer1, "Txt - TabDelimited text via Aspose.Cells", typeof(Aspose.Cells.ReportingServices.TabDelimitedRenderer)); 
-
-
 
 {{< /highlight >}}
 
@@ -281,22 +258,20 @@ End Sub
 
             AddExtension(reportViewer1, "Xlsx - Xlsx via Aspose.Cells", GetType (Aspose.Cells.ReportingServices.Excel2007XlsxRenderer));
 
-			AddExtension(reportViewer1, "CSV - CSV via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.CSVRenderer));
+   AddExtension(reportViewer1, "CSV - CSV via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.CSVRenderer));
 
             AddExtension(reportViewer1, "SpreadsheetML - SpreadsheetML via Aspose.Cells", GetType (Aspose.Cells.ReportingServices.SpreadsheetMLRenderer));
 
             AddExtension(reportViewer1, "Txt - TabDelimited text via Aspose.Cells", GetType (Aspose.Cells.ReportingServices.TabDelimitedRenderer));
 
-
-
 {{< /highlight >}}
 
-1. Test the new export formats. 
+1. Test the new export formats.
    1. Run your application.
-      You should notice a number of new export formats available in the **Export** menu in Report Viewer. 
+      You should notice a number of new export formats available in the **Export** menu in Report Viewer.
    1. Select one of the formats and run export.
    1. Verify that the document is created the way you expected.
 
-**New export formats appear in Report Viewer running in local mode** 
+**New export formats appear in Report Viewer running in local mode**
 
 ![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

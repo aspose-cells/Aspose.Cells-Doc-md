@@ -1,5 +1,6 @@
 ---
 title: Render Selected Chart Items to Excel Charts
+linktitle: Render Selected Chart Items
 type: docs
 weight: 30
 url: /reportingservices/render-selected-chart-items-to-excel-charts/
@@ -7,37 +8,40 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-{{% alert color="primary" %}} 
 
-To render only some charts in a report as Excel charts:
+## How to export only specific charts as editable Excel charts
 
-1. Open the **Aspose.Cells.ReportingServices.xml** file.  
-2. Modify the configuration parameters of the **Aspose.Cells.ReportingServices.xml** file.  
-3. Add the desired report configuration information.  
-4. Add the information for the chart items you don’t want to export as editable charts. These items are exported as static images.
+When you need a mix of **editable Excel charts** and **static images** in the same report, follow these steps:
 
-For example:
+1. **Open** the `Aspose.Cells.ReportingServices.xml` configuration file.  
+2. **Locate** the `<Chart>` section (or add it if it doesn’t exist).  
+3. **Add** a `<Report>` node for the report you want to customize.  
+4. **Specify** each chart you want to render as an image by setting `type="image"`.  
+   All charts **not** listed will be exported as editable Excel charts.
 
-{{< highlight java >}}
+## Example configuration
 
- <Chart >
+```xml
+<Chart>
+    <Report name="Employee Sales Summary 2008">
+        <!-- This chart will be exported as a static image -->
+        <ChartItem name="Chart1" type="image"/>
+    </Report>
+</Chart>
+```
 
-<Report name="Employee Sales Summary 2008">
+### Result
 
-<ChartItem name="Chart1" type="image"/>
+- **Chart rendered as an image**
 
-</Report >
+  ![Chart exported as a static image](render-selected-chart-items-to-excel-charts_1.png)
 
-</Chart> 
+- **Chart rendered as an editable Excel chart**
 
-{{< /highlight >}}
+  ![Chart exported as an editable Excel chart](render-selected-chart-items-to-excel-charts_2.png)
 
-**A chart exported as an image** 
+## Additional Tips
 
-![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
-
-**A chart exported as an editable Excel chart** 
-
-![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
-
-{{% /alert %}}
+- **Multiple charts**: Add a `<ChartItem>` entry for each chart you want to treat as an image.
+- **Case‑sensitivity**: Ensure the `name` attribute matches the exact chart name defined in the SSRS report.
+- **Testing**: After updating the XML, regenerate the Excel export to verify that the correct charts are rendered as images.
