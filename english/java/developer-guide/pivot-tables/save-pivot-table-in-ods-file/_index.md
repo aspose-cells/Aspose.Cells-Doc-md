@@ -7,7 +7,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Aspose.Cells provides the ability to save a pivot table in ODS files. For this, you just convert a workbook with an existing pivot table or create a new pivot table and save the file in the ODS format. Be sure to call [**PivotTable.CalculateData()**](https://reference.aspose.com/cells/java/com.aspose.cells.pivottable#calculateData--) before saving to ensure that the pivot table is rendered in the output ODS file. The following code snippet demonstrates saving a pivot table in an ODS file.
+Aspose.Cells provides the ability to save a pivot table in ODS files. For this, you just convert a workbook with an existing pivot table or create a new pivot table and save the file in the ODS format. Be sure to call [**PivotTable.CalculateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData--) before saving to ensure that the pivot table is rendered in the output ODS file. The following code snippet demonstrates saving a pivot table in an ODS file.
 
 ## Sample Code
 
