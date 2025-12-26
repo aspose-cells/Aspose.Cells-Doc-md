@@ -14,7 +14,7 @@ In Excel, you can select multiple cells with a mouse‑box selection; the set of
 
 For example, you can click the left mouse button in cell **A1** of Excel and then drag to cell **C4**. The rectangular area you selected can also be easily created as an object by using Aspose.Cells.
 
-Here is how to create a range, put values, set styles, and perform more operations on the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range) object.
+Here is how to create a range, put values, set styles, and perform more operations on the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range) object.
 
 ## **Managing Ranges Using Aspose.Cells**
 
@@ -42,7 +42,7 @@ The following example shows how to set the style of the cells of the range.
 
 ### **Get CurrentRegion of the Range**
 
-**CurrentRegion** is a property that returns a [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range) object that represents the current region.  
+**CurrentRegion** is a property that returns a [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range) object that represents the current region.  
 
 The current region is a range bounded by any combination of blank rows and blank columns. It is read‑only.
 
