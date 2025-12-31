@@ -10,6 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 
 - [Basics of GridJs](/cells/python-net/aspose-cells-gridjs/basics/)
+- [Step-by-Step Example](/cells/python-net/aspose-cells-gridjs/step-by-step-example/)  
 - [Working with GridJs Server-side](/cells/python-net/aspose-cells-gridjs/server/)
 - [Working with GridJs Client-side script](/cells/python-net/aspose-cells-gridjs/client/)
 - [Working with GridJs Highlight feature](/cells/python-net/aspose-cells-gridjs/highlight/)
