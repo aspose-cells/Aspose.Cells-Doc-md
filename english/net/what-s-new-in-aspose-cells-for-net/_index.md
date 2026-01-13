@@ -15,6 +15,10 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Enhance inserting cut range
 * Improve performance of converting Excel to html
 * Improve the compatibility for WPS
+* Enhance calculation engine for Lambda functions with complicated parameters chain
+* Enhance calculation engine for spilling dynamic array formulas
+* Enhance number formatting for custom pattern with fraction
+* Enhance number formatting for custom pattern with optional placeholders
 
 ## Aspose.Cells for .NET 25.12
 * Adds API for importing LaTeX format strings in Aspose equation objects
