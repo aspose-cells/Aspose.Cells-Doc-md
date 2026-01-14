@@ -10,6 +10,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 26.1
+* Enhance refreshing slicers with pivot table data source
+* Enhance inserting cut range
+* Improve performance of converting Excel to html
+* Improve the compatibility for WPS
+* Enhance calculation engine for Lambda functions with complicated parameters chain
+* Enhance calculation engine for spilling dynamic array formulas
+* Enhance number formatting for custom pattern with fraction
+* Enhance number formatting for custom pattern with optional placeholders
+
 ## Aspose.Cells for Java 25.12
 * Adds API for importing LaTeX format strings in Aspose equation objects
 * Support public API to get data values from chart
