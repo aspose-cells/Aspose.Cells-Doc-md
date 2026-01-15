@@ -11,6 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 - [Basics of GridJs](/cells/net/aspose-cells-gridjs/basics/)
 - [Step-by-Step Example](/cells/net/aspose-cells-gridjs/step-by-step-example/)
+- [User Guide](/cells/net/aspose-cells-gridjs/user-guide/)
 - [Working with GridJs Server-Side](/cells/net/aspose-cells-gridjs/how-to-use-api/)
 - [Working with GridJs Client-Side Script](/cells/net/aspose-cells-gridjs/how-to-use-gridjs-client-api/)
 - [Working with GridJs Highlight Feature](/cells/net/aspose-cells-gridjs/how-to-use-highlight-api/)
@@ -21,6 +22,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Settings for GridJs](/cells/net/aspose-cells-gridjs/settings/)
 - [Syntax Checking & Spell Correction](/cells/net/aspose-cells-gridjs/how-to-do-syntax-checking/)
 - [Show Formula Explanation](/cells/net/aspose-cells-gridjs/how-to-show-formula-explanation/)
+- [Show Translate](/cells/net/aspose-cells-gridjs/how-to-show-translate/)
 - [Lazy Loading](/cells/net/aspose-cells-gridjs/how-to-do-lazy-loading/)
 - [Localization](/cells/net/aspose-cells-gridjs/localization/)
 - [Custom Context Menu](/cells/net/aspose-cells-gridjs/how-to-custom-context-menu/)
