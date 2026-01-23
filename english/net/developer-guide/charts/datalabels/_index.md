@@ -197,6 +197,65 @@ namespace AsposeCellsPointLabelDemo
 * Each `ChartPoint` has its own `DataLabel` object; you can enable it independently of the series label.
 * Number formats such as `"0%"`, `"\$"#,##0.00`, or `"mm/dd/yyyy"` are fully supported.
 
+## **About the NumberFormatLinked attribute of the DataLabels**
+**Important Notes**
+* The default value of `DataLabels.NumberFormatLinked` is True, this attribute describes if the number format is linked to the cells. 
+But for chart types after Excel 2016 (e.g., Waterfall, Funnel charts), their data labels display the number format as the Category Data starting cells when NumberFormatLinked is set to True.
+Sample code:
+```csharp
+            strint path = "./";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add headers
+            cells["A1"].Value = "Category";
+            cells["B1"].Value = "Value";
+
+            // Sample data for waterfall chart
+            String[] categories = { "Start", "Q1 Growth", "Q2 Loss", "Q3 Growth", "Q4 Loss" };
+            double[] values = { 15000000, 2500000, 1800000, 32000000, 9500000 };
+
+            // Populate data with compact formatting
+            for (int i = 0; i < categories.Length; i++)
+            {
+                cells[i + 2, 0].Value = categories[i];
+                cells[i + 2, 1].Value = values[i];
+
+                Style style = cells[i + 2, 1].GetStyle();
+                style.Custom = "#,##0,,.0\"B\";[>=1000000]#,##0,.0\"M\";#,##0";
+                cells[i + 2, 1].SetStyle(style);
+            }
+
+            // Create waterfall chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Waterfall, 8, 2, 20, 12);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set data range for chart
+            chart.NSeries.Add("B2:B7", true);
+            chart.NSeries.CategoryData = ("A2:A7");
+
+            // Configure chart appearance
+            chart.Title.Text = "Simple Waterfall Chart";
+            chart.ShowLegend = (false);
+
+            // Show data labels
+            chart.NSeries[0].DataLabels.ShowValue = true;
+            chart.NSeries[0].DataLabels.NumberFormatLinked = true;
+
+            // Save the workbook
+            workbook.Save(path + "simple_waterfall_chart.xlsx", SaveFormat.Xlsx);
+```
+The above code creates a waterfall chart, and since the starting cell B2 is empty, the NumberFormat displayed by datalabels is also empty. If want the NumberFormat configuration of cell B3 to take effect to the datalabels, you need to modify the code to:
+```csharp
+            // Set data range for chart
+            chart.NSeries.Add("B3:B7", true);
+            chart.NSeries.CategoryData = ("A3:A7");
+```
+Since the starting cell has changed, the NumberFormat of the datalabels of the waterfall chart will also be changed.
 
 ## **Advanced Topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
