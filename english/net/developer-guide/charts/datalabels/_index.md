@@ -29,6 +29,175 @@ The following code snippet demonstrates how to manage DataLabels:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_datalabels.cs" >}}
 
+Often you need the data labels to show values, percentages, or custom-formatted numbers directly on the chart. With Aspose.Cells you can programmatically:
+
+* Enable data labels for a series.
+* Apply font, color, and background settings to data labels.
+* Set a custom numeric format (e.g., currency, percentage, custom date/time).
+* Override the formatting of a single point's data label.
+
+The following sections demonstrate these tasks with complete, ready-to-run C# code samples.
+
+---
+
+## **Formatting Data Labels for a Series**
+**Creating a Chart and Enabling Series Data Labels**
+The example below creates a simple column chart, adds a data series, turns on data labels for the whole series, and applies a custom number format and styling.
+
+```csharp
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsChartDataLabelDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Path to the directory where output will be saved.
+            string dataDir = "./";
+
+            // Ensure the directory exists.
+            if (!System.IO.Directory.Exists(dataDir))
+                System.IO.Directory.CreateDirectory(dataDir);
+
+            // 1. Create a new workbook and get the first worksheet.
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // 2. Populate some sample data that will be used by the chart.
+            //    A1:A5 - Categories, B1:B5 - Values.
+            sheet.Cells["A1"].PutValue("Q1");
+            sheet.Cells["A2"].PutValue("Q2");
+            sheet.Cells["A3"].PutValue("Q3");
+            sheet.Cells["A4"].PutValue("Q4");
+            sheet.Cells["A5"].PutValue("Q5");
+
+            sheet.Cells["B1"].PutValue(12000);
+            sheet.Cells["B2"].PutValue(15000);
+            sheet.Cells["B3"].PutValue(18000);
+            sheet.Cells["B4"].PutValue(13000);
+            sheet.Cells["B5"].PutValue(17000);
+
+            // 3. Add a column chart to the worksheet.
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 7, 0, 22, 10);
+            Chart chart = sheet.Charts[chartIndex];
+
+            // 4. Add a series that uses the data we entered.
+            int seriesIndex = chart.NSeries.Add("B1:B5", true);
+            // Set the category (X) axis labels.
+            chart.NSeries.CategoryData = "A1:A5";
+
+            // 5. Enable value, CategoryName of data labels for the whole series.
+            chart.NSeries[seriesIndex].DataLabels.ShowValue = true;
+            chart.NSeries[seriesIndex].DataLabels.ShowCategoryName = true;
+
+            // 6. Access the data label object to apply formatting.
+            DataLabels label = chart.NSeries[seriesIndex].DataLabels;
+            // Show the actual value.
+            label.ShowValue = true;
+            // Set a custom number format - currency with no decimal places.
+            label.NumberFormat = "\"$\"#,##0";
+
+            // 7. Apply font styling.
+            label.Font.Color = Color.DarkBlue;
+            label.Font.Size = 12;
+            label.Font.IsBold = true;
+            label.Font.Name = "Arial";
+
+            // 8. Save the workbook.
+            workbook.Save(dataDir + "SeriesDataLabels.xlsx");
+        }
+    }
+}
+```
+
+**Key Points**
+
+* `NumberFormat` follows the same pattern as Excel's custom number-format strings.
+
+---
+
+## **Formatting a Data Label for an Individual Point**
+Sometimes a single point needs a different label (e.g., highlighting a peak value). The code below demonstrates how to locate a specific point and customize its label independently of the series settings.
+
+```csharp
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsPointLabelDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            string dataDir = "./";
+            if (!System.IO.Directory.Exists(dataDir))
+                System.IO.Directory.CreateDirectory(dataDir);
+
+            // Create a workbook with the same data as the previous example.
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+
+            // Populate data.
+            string[] categories = { "Jan", "Feb", "Mar", "Apr", "May" };
+            double[] values = { 5000, 8000, 12000, 9000, 15000 };
+            for (int i = 0; i < categories.Length; i++)
+            {
+                ws.Cells[i, 0].PutValue(categories[i]); // A column
+                ws.Cells[i, 1].PutValue(values[i]);    // B column
+            }
+
+            // Add a line chart.
+            int chartIdx = ws.Charts.Add(ChartType.Line, 7, 0, 22, 10);
+            Chart chart = ws.Charts[chartIdx];
+            int seriesIdx = chart.NSeries.Add("B1:B5", true);
+            chart.NSeries.CategoryData = "A1:A5";
+
+            // Show data labels for the whole series (default formatting).
+            chart.NSeries[seriesIdx].DataLabels.ShowValue = true;
+
+            // ----- Customising the data label for the 3rd point (index 2) -----
+            // Access the specific point in the series.
+            ChartPoint point = chart.NSeries[seriesIdx].Points[2]; // March value
+
+            // Enable a data label only for this point.
+            point.DataLabels.ShowValue = true;
+            // Enable the CategoryName for March value
+            point.DataLabels.ShowCategoryName = true;
+            DataLabels pointLabel = point.DataLabels;
+
+            // Set a percentage format (example purpose).
+            pointLabel.NumberFormat = "0.0%"; // Displays as 0.0%
+
+            // Apply distinct styling to make it stand out.
+            pointLabel.Font.Color = Color.Red;
+            pointLabel.Font.IsBold = true;
+            pointLabel.Font.Size = 14;
+            pointLabel.Font.Name = "Calibri";
+
+            // Optional: add a custom text instead of the value.
+            pointLabel = chart.NSeries[seriesIdx].Points[3].DataLabels; //Apr point
+            pointLabel.ShowValue = false; // Hide original value
+
+            // Save the result.
+            wb.Save(dataDir + "PointDataLabel.xlsx");
+        }
+    }
+}
+```
+
+**Important Notes**
+
+* Each `ChartPoint` has its own `DataLabel` object; you can enable it independently of the series label.
+* Number formats such as `"0%"`, `"\$"#,##0.00`, or `"mm/dd/yyyy"` are fully supported.
+
+
 ## **Advanced Topics**
 - [Adding Custom Labels to Data Points in the Series of the Chart](/cells/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
 - [Disable Text Wrapping for Data Labels of the Chart](/cells/net/disable-text-wrapping-for-data-labels-of-the-chart/)
