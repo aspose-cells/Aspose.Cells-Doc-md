@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
 ## Aspose.Cells for .NET 26.2
-* Support getting script of python formula for Cell
+* Support getting python script from cell that uses python formula
 * Allow user to calculate defined LAMBDA function in custom calculation engine
 * Add support for .NET 4.8
 * Support ODF 1.4
