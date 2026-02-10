@@ -1,6 +1,6 @@
 ---
-title: Create Workbook and Worksheet Scoped Named Ranges
-linktitle: Named Range
+title: Defines Workbook and Worksheet Scoped Names
+linktitle: Manage defined names
 type: docs
 weight: 40
 url: /net/create-workbook-and-worksheet-scoped-named-ranges/
@@ -18,10 +18,10 @@ Microsoft Excel allows users to define named ranges with two different scopes: w
 Aspose.Cells provides the same functionality as Microsoft Excel for adding workbook‑ and worksheet‑scoped named ranges. When creating a worksheet‑scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet‑scoped named range.
 
 {{% /alert %}} 
-## **Adding a Named Range with Workbook Scope**
+## **Defines a name with Workbook Scope**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-AddWorkbookScopedNamedRange-1.cs" >}}
-## **Adding a Named Range with Worksheet Scope**
+## **Defines a name with Worksheet Scope**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-WorksheetNamedRange-1.cs" >}}
 
