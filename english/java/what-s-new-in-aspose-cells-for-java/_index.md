@@ -10,6 +10,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 26.2
+* Support getting python script from cell that uses python formula
+* Allow user to calculate defined LAMBDA function in custom calculation engine
+* Support ODF 1.4
+* Support whether to include table names when importing Numbers
+* Support copying shapes when copying columns
+* Support simply getting all pictures which are placed in or over cells.
+* Support R/W pivotOptions since Excel 2016
+* Support pdf object stream while converting workbook to pdf
+* Workbook links are not working in .xlsm or .xlsx file
+
 ## Aspose.Cells for Java 26.1
 * Enhance refreshing slicers with pivot table data source
 * Enhance inserting cut range
