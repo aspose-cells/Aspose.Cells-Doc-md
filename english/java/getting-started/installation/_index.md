@@ -56,7 +56,7 @@ Then define Aspose.Cells for Java API dependency in your `pom.xml` as follows (
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>26.1</version>
+            <version>26.2</version>
 
         </dependency>
 
@@ -66,7 +66,7 @@ Then define Aspose.Cells for Java API dependency in your `pom.xml` as follows (
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>26.1</version>
+            <version>26.2</version>
 
             <classifier>javadoc</classifier>
 

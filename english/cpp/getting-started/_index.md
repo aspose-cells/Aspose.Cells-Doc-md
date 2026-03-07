@@ -82,3 +82,6 @@ The following example opens an existing Microsoft Excel template file, gets a ce
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}
 {{< app/cells/assistant language="cpp" >}}
+
+### **Initialize and Clean up**
+The Startup method must be invoked before using the library and only needs to be invoked once. Like the Startup function, the Cleanup method only needs to be called once when the program ends.
