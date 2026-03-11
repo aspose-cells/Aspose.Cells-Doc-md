@@ -217,6 +217,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |GEOMEAN|**Statistical**: Returns the geometric mean
 |GESTEP|**Engineering**: Tests whether a number is greater than a threshold value
 |GETPIVOTDATA|**Lookup and reference**: Returns data stored in a PivotTable report
+|GROUPBY|**Lookup and reference**: Helps a user group, aggregate, sort, and filter data based on the fields you specify
 |GROWTH|**Statistical**: Returns values along an exponential trend
 
 ###### **H**

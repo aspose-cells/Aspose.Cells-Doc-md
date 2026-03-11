@@ -10,6 +10,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.3
+* Enhancement for saving some advanced functions in formula for XLSB
+* Support to parse legend tag when importing HTML
+* Support to parse label tag when importing HTML
+* Enhancement for copying rich value to other workbooks
+* Support GROUPBY function
+
 ## Aspose.Cells for .NET 26.2
 * Support getting python script from cell that uses python formula
 * Allow user to calculate defined LAMBDA function in custom calculation engine
