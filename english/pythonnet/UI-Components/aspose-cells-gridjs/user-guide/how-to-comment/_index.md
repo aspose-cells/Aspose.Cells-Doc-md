@@ -4,7 +4,7 @@ description: Add, edit, remove, and navigate cell comments, with a marker on the
 keywords: Comment, Edit comment, Remove comment, Previous comment, Next comment, insertComment, newComment, comments
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-comment
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-comment/
 aliases:
 
 - /python-net/aspose-cells-gridjs/how-to-use-comment

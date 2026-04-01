@@ -4,7 +4,7 @@ description: Learn how to change horizontal and vertical text alignment in the s
 keywords: text alignment, horizontal alignment, vertical alignment, spreadsheet, format cells, GridJs API
 type: docs
 weight: 10
-url: /java/aspose-cells-gridjs/text-alignment
+url: /java/aspose-cells-gridjs/user-guide/set-text-alignment/
 aliases:
 - /java/aspose-cells-gridjs/alignment
 - /java/aspose-cells-gridjs/format-cells/alignment

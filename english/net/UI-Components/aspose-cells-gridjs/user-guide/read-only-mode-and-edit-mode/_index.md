@@ -4,7 +4,7 @@ description: Configure GridJs with read-only or edit mode, and understand exactl
 keywords: mode, read, edit, GridInput, formulaInput, bottombar, contextmenu, autofill
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/read-only-mode-and-edit-mode
+url: /net/aspose-cells-gridjs/user-guide/read-only-mode-and-edit-mode/
 aliases:
 - /net/aspose-cells-gridjs/read-only-mode-and-edit-mode/
 ---

@@ -4,7 +4,7 @@ description: Add Text Box, Combo Box, Check Box, Spin Button, and Option Button 
 keywords: Insert Controls, Text Box, Combo Box, Check Box, Spin Button, Option Button, insertControl
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-insert-controls
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-insert-controls/
 aliases:
 - /python-net/aspose-cells-gridjs/how-to-insert-text-box
 - /python-net/aspose-cells-gridjs/how-to-insert-combo-box

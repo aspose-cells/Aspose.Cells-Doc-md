@@ -5,7 +5,7 @@ keywords: Search, Find what, Replace, Replace All, Look in, Match entire content
 Comments
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-search
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-search/
 aliases:
 
 - /python-net/aspose-cells-gridjs/how-to-find

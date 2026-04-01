@@ -4,7 +4,7 @@ description: Toggle formula display mode so formula cells show their formula exp
 keywords: Show Formulas, showformulas, showFormulas, formula display, toolbar, GridJs
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/how-to-show-formulas
+url: /java/aspose-cells-gridjs/user-guide/how-to-show-formulas/
 aliases:
 - /java/aspose-cells-gridjs/how-to-use-show-formulas
 - /java/aspose-cells-gridjs/how-to-toggle-show-formulas

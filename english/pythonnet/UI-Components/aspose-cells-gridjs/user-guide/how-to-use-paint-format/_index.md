@@ -4,7 +4,7 @@ description: Copy the formatting from the current selection and apply it once to
 keywords: Paint format, Format painter, paste format, copy format, clear format, toolbar
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-use-paint-format
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-use-paint-format/
 aliases:
 - /python-net/aspose-cells-gridjs/how-to-use-format-painter
 - /python-net/aspose-cells-gridjs/how-to-copy-format

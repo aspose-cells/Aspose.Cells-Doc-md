@@ -4,7 +4,7 @@ description: Learn how to turn on text wrapping for cells so long text stays vis
 keywords: text wrap, wrap text, cell formatting, GridJS, spreadsheet
 type: docs
 weight: 10
-url: /net/aspose-cells-gridjs/set-text-wrap
+url: /net/aspose-cells-gridjs/user-guide/set-text-wrap/
 aliases:
 - /net/aspose-cells-gridjs/wrap-text
 - /net/aspose-cells-gridjs/text-wrap

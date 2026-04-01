@@ -4,7 +4,7 @@ description: Configure Data Validation rules for selected cells, including crite
 keywords: Data Validation,Data Validations,allowtype,operatorfull,ignoreblank,showinput,showerror,alertstyle,ismultiple
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-set-data-validations-settings
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-set-data-validations-settings/
 aliases:
 - /python-net/aspose-cells-gridjs/how-to-configure-data-validations
 - /python-net/aspose-cells-gridjs/how-to-set-gridjs-data-validation-rules

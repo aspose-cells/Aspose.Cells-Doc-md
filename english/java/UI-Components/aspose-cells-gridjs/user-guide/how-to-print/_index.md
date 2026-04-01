@@ -4,7 +4,7 @@ description: Learn how to configure print settings in the GridJs, including page
 keywords: GridJs, print settings, page layout, orientation, scaling, paper size, print order
 type: docs
 weight: 195
-url: /java/aspose-cells-gridjs/how-to-print/
+url: /java/aspose-cells-gridjs/user-guide/how-to-print/
 aliases:
   - /java/aspose-cells-gridjs/print-settings/
   - /java/aspose-cells-gridjs/printing/

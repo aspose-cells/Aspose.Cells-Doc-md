@@ -4,7 +4,7 @@ description: Learn how to rotate text in Aspose.Cells.GridJs including predefine
 keywords: Text Rotate, Toolbar, GridJs, Aspose Cells, Spreadsheet, Rotation, UI
 type: docs
 weight: 200
-url: /net/aspose-cells-gridjs/text-rotate-setting/
+url: /net/aspose-cells-gridjs/user-guide/text-rotate-setting/
 aliases:
   - /net/aspose-cells-gridjs/text-rotate/
   - /net/aspose-cells-gridjs/toolbar-text-rotate-feature/

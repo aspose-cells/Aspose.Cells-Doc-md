@@ -4,7 +4,7 @@ description: Guide to applying and previewing cell background colors in Aspose.C
 keywords: GridJS, Cell Background, Fill Color, Color Picker, UI, JavaScript API
 type: docs
 weight: 200
-url: /java/aspose-cells-gridjs/cell-background-color-settings/
+url: /java/aspose-cells-gridjs/user-guide/cell-background-color-settings/
 aliases:
   - /java/aspose-cells-gridjs/gridjs-cell-background-configuration/
   - /java/aspose-cells-gridjs/cell-background-configuration/

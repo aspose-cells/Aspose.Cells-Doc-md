@@ -4,7 +4,7 @@ description: Learn how to add pictures to your spreadsheet cells quickly using t
 keywords: insert image, add picture, spreadsheet, Gridjs, toolbar, image insertion
 type: docs
 weight: 210
-url: /net/aspose-cells-gridjs/insert-image
+url: /net/aspose-cells-gridjs/user-guide/insert-image/
 aliases:
 - /net/aspose-cells-gridjs/add-image
 - /net/aspose-cells-gridjs/picture

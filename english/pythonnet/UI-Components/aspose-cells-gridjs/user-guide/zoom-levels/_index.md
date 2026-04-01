@@ -4,7 +4,7 @@ description: Use the GridJs Zoom control to switch between preset levels in the 
 keywords: zoom-size, zoomlevel, setZoomLevel, setzoom, DropdownZoomSize, pinch, toolbar
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/zoom-levels
+url: /python-net/aspose-cells-gridjs/user-guide/zoom-levels/
 aliases:
 - /python-net/aspose-cells-gridjs/zoom-levels/
 ---

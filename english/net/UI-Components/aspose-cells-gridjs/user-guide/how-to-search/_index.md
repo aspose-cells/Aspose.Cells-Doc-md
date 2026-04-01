@@ -5,7 +5,7 @@ keywords: Search, Find what, Replace, Replace All, Look in, Match entire content
 Comments
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-search
+url: /net/aspose-cells-gridjs/user-guide/how-to-search/
 aliases:
 
 - /net/aspose-cells-gridjs/how-to-find

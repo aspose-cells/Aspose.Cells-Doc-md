@@ -4,7 +4,7 @@ description: Add Text Box, Combo Box, Check Box, Spin Button, and Option Button 
 keywords: Insert Controls, Text Box, Combo Box, Check Box, Spin Button, Option Button, insertControl
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/how-to-insert-controls
+url: /java/aspose-cells-gridjs/user-guide/how-to-insert-controls/
 aliases:
 - /java/aspose-cells-gridjs/how-to-insert-text-box
 - /java/aspose-cells-gridjs/how-to-insert-combo-box

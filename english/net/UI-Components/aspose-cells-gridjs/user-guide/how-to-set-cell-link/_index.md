@@ -4,7 +4,7 @@ description: Add, edit, open, and remove links for selected cells using the Link
 keywords: Link,Hyperlink,contextmenu.link,ModalLink,hyperlinks,setHyperlinkStyle,GridJS
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-set-cell-link
+url: /net/aspose-cells-gridjs/user-guide/how-to-set-cell-link/
 aliases:
 - /net/aspose-cells-gridjs/how-to-set-cell-hyperlink
 - /net/aspose-cells-gridjs/how-to-add-link-to-cell

@@ -4,7 +4,7 @@ description: Protect the current sheet with a password and permission options, o
 keywords: Protect Sheet, Protect Workbook, Unprotect Sheet, Unprotect Workbook, password, allowSort, allowFilter, locked cells
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-protect-sheet-and-workbook
+url: /net/aspose-cells-gridjs/user-guide/how-to-protect-sheet-and-workbook/
 aliases:
 - /net/aspose-cells-gridjs/how-to-protect-sheet
 - /net/aspose-cells-gridjs/how-to-unprotect-sheet

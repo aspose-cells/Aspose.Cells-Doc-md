@@ -5,7 +5,7 @@ multi-level sorting on the selection.
 keywords: AutoFilter, Sort, SortFilter, Sort A -> Z, Sort Z -> A, Filter results visible to me only
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-autofilter-and-sort
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-insert-sort-and-autoFilter/
 aliases:
 - /python-net/aspose-cells-gridjs/how-to-use-autofilter
 - /python-net/aspose-cells-gridjs/how-to-use-sort

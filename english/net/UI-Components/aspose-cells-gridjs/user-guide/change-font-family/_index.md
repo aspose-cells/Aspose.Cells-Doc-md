@@ -4,7 +4,7 @@ description: Guide to change the font family of cells in the Aspose.Cells GridJs
 keywords: GridJs, Aspose.Cells, Font Family, Toolbar, Spreadsheet, Front‑end, Cell Styling
 type: docs
 weight: 200
-url: /net/aspose-cells-gridjs/change-font-family/
+url: /net/aspose-cells-gridjs/user-guide/change-font-family/
 aliases:
   - /net/aspose-cells-gridjs/font-family/
   - /net/aspose-cells-gridjs/change-font/

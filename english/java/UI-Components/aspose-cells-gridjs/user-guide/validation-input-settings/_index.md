@@ -4,7 +4,7 @@ description: This guide explains how to configure data validation rules in Aspos
 keywords: GridJs, Data Validation, Input Message, Error Alert, Validation Rules, Front‑end, Spreadsheet
 type: docs
 weight: 210
-url: /java/aspose-cells-gridjs/validation-input-settings/
+url: /java/aspose-cells-gridjs/user-guide/validation-input-settings/
 aliases:
   - /java/aspose-cells-gridjs/gridjs-validation-settings/
   - /java/aspose-cells-gridjs/data-validation-settings/

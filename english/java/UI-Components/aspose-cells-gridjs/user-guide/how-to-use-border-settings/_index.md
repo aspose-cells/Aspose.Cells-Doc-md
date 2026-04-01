@@ -4,7 +4,7 @@ description: Open the Border tab in Format Cells to choose a line style, pick a 
 keywords: Border, Borders, Format Cells, border_style, border_color, outside, inside, horizontal, vertical
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/how-to-use-border-settings
+url: /java/aspose-cells-gridjs/user-guide/how-to-use-border-settings/
 aliases:
 - /java/aspose-cells-gridjs/how-to-use-border-settings/
 ---

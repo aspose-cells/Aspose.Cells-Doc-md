@@ -4,7 +4,7 @@ description: Apply built-in number formats from the format dropdown, then use th
 keywords: Number Formats,More Number Formats,Format Cells,Number,Alignment,Font,Border,Fill,formatUpdate,border,merge,modalMoreNumberFormats
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/how-to-use-number-formats-and-more-number-formats
+url: /java/aspose-cells-gridjs/user-guide/how-to-use-number-formats-and-more-number-formats/
 aliases:
 - /java/aspose-cells-gridjs/how-to-use-number-formats
 - /java/aspose-cells-gridjs/how-to-open-more-number-formats

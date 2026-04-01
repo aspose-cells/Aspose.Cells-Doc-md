@@ -4,7 +4,7 @@ description: Drag the GridJs fill handle to autofill a target range, then choose
 keywords: AutofillOption, autofill, Copy Cell, Fill Series, Fill Formatting Only, Fill Without Formatting, copyCell, series, format, withoutFormat
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/autofill-options
+url: /java/aspose-cells-gridjs/user-guide/autofill-options/
 aliases:
 - /java/aspose-cells-gridjs/autofill-options/
 ---

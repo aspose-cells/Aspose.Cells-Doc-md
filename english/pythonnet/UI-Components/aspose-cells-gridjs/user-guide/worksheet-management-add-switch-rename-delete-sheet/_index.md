@@ -4,7 +4,7 @@ description: Use the GridJs bottom bar to add worksheets, switch tabs, rename a 
 keywords: worksheet management, addSheet, deleteSheet, renameSheet, setActiveSheetByName, bottombar, deleteSheet, renameItemAct
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/worksheet-management-add-switch-rename-delete-sheet
+url: /python-net/aspose-cells-gridjs/user-guide/worksheet-management-add-switch-rename-delete-sheet/
 aliases:
 - /python-net/aspose-cells-gridjs/worksheet-management-add-switch-rename-delete-sheet/
 ---

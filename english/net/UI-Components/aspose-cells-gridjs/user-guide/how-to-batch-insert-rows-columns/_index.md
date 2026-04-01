@@ -4,7 +4,7 @@ description: Batch insert rows/columns from the context menu, and batch append r
 keywords: batch insert, insert rows above, insert rows below, insert columns left, insert columns right, row appender, insertRows, insertColumns
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-batch-insert-rows-columns
+url: /net/aspose-cells-gridjs/user-guide/how-to-batch-insert-rows-columns/
 aliases:
 - /net/aspose-cells-gridjs/how-to-batch-insert-rows
 - /net/aspose-cells-gridjs/how-to-batch-insert-columns

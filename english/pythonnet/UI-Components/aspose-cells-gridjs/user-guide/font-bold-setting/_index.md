@@ -4,7 +4,7 @@ description: Guide to using the Bold button on the Aspose.Cells GridJs toolbar, 
 keywords: Aspose Cells, GridJs, Toolbar, Bold, Font Style, Formatting, Shortcut, UI
 type: docs
 weight: 200
-url: /python-net/aspose-cells-gridjs/toolbar-bold-button/
+url: /python-net/aspose-cells-gridjs/user-guide/font-bold-setting/
 aliases:
   - /python-net/aspose-cells-gridjs/bold-toolbar/
   - /python-net/aspose-cells-gridjs/toolbar-bold/

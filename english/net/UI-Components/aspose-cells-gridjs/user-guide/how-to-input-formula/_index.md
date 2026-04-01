@@ -4,7 +4,7 @@ description: Enter formulas from the editor or formula bar, use function suggest
 keywords: input formula, formula bar, Functions, setCellText, setSelectedCellAttr, GridJs
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-input-formula
+url: /net/aspose-cells-gridjs/user-guide/how-to-input-formula/
 aliases:
 - /net/aspose-cells-gridjs/how-to-enter-formula
 - /net/aspose-cells-gridjs/how-to-type-formula

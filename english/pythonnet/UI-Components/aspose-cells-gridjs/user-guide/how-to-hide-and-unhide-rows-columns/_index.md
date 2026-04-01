@@ -4,7 +4,7 @@ description: Hide entire rows or columns from the context menu, and unhide them 
 keywords: Hide,Unhide,Rows,Columns,contextmenu,entireRow,entireColumn,hideRows,hideColumns,unhideRows,unhideColumns
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/how-to-hide-and-unhide-rows-columns
+url: /python-net/aspose-cells-gridjs/user-guide/how-to-hide-and-unhide-rows-columns/
 aliases:
 - /python-net/aspose-cells-gridjs/how-to-hide-rows
 - /python-net/aspose-cells-gridjs/how-to-hide-columns

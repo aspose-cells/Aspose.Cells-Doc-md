@@ -4,7 +4,7 @@ description: Use the Paste Special submenu in GridJs to paste only cell text or 
 keywords: Paste Special, Paste values only, Paste format only, paste-value, paste-format, pasteFromInternal, pasteFromText, pasteFromHTML
 type: docs
 weight: 1
-url: /python-net/aspose-cells-gridjs/paste-special-paste-values-paste-formats
+url: /python-net/aspose-cells-gridjs/user-guide/paste-special-paste-values-paste-formats/
 aliases:
 - /python-net/aspose-cells-gridjs/paste-special-paste-values-paste-formats/
 ---

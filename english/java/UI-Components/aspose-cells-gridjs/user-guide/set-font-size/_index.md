@@ -4,7 +4,7 @@ description: Guide to changing the font size of cells in the Aspose.Cells Grid
 keywords: GridJs, Font Size, Spreadsheet, Toolbar, Menubar, UI, Client-side
 type: docs
 weight: 200
-url: /java/aspose-cells-gridjs/set-font-size/
+url: /java/aspose-cells-gridjs/user-guide/set-font-size/
 aliases:
   - /java/aspose-cells-gridjs/font-size/
   - /java/aspose-cells-gridjs/adjust-font-size/

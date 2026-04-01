@@ -4,7 +4,7 @@ description: Learn how to change font colors in Aspose.Cells GridJs using the to
 keywords: GridJs, Font Color, Text Color, Toolbar, Color Picker, UI, Front‑end
 type: docs
 weight: 210
-url: /java/aspose-cells-gridjs/font-color-settings/
+url: /java/aspose-cells-gridjs/user-guide/font-color-settings/
 aliases:
   - /java/aspose-cells-gridjs/gridjs-font-color-configuration/
   - /java/aspose-cells-gridjs/font-color-configuration/

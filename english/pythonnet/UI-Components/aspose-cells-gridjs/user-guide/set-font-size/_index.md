@@ -4,7 +4,7 @@ description: Guide to changing the font size of cells in the Aspose.Cells Grid
 keywords: GridJs, Font Size, Spreadsheet, Toolbar, Menubar, UI, Client-side
 type: docs
 weight: 200
-url: /python-net/aspose-cells-gridjs/set-font-size/
+url: /python-net/aspose-cells-gridjs/user-guide/set-font-size/
 aliases:
   - /python-net/aspose-cells-gridjs/font-size/
   - /python-net/aspose-cells-gridjs/adjust-font-size/

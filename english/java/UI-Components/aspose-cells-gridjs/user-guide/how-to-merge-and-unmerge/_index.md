@@ -4,7 +4,7 @@ description: Learn how to merge and unmerge cells in Aspose.Cells.GridJs UI and 
 keywords: Aspose,Cells,GridJs, merge cells, unmerge cells
 type: docs
 weight: 190
-url: /java/aspose-cells-gridjs/how-to-merge-and-unmerge/
+url: /java/aspose-cells-gridjs/user-guide/how-to-merge-and-unmerge/
 aliases:
   - /java/aspose-cells-gridjs/merge-and-unmerge/
   - /java/aspose-cells-gridjs/how-to-merge-cells/

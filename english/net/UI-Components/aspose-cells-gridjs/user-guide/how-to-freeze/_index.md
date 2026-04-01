@@ -4,7 +4,7 @@ description: Freeze rows and columns based on the selected cell, then toggle Fre
 keywords: Freeze, Freeze cell, freeze, setFreeze, freezeIsActive, GridJs
 type: docs
 weight: 1
-url: /net/aspose-cells-gridjs/how-to-freeze
+url: /net/aspose-cells-gridjs/user-guide/how-to-freeze/
 aliases:
 - /net/aspose-cells-gridjs/how-to-use-freeze
 - /net/aspose-cells-gridjs/how-to-freeze-rows-and-columns
