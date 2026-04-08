@@ -1,5 +1,5 @@
 ---
-title: Worksheet Management: add / switch / rename / delete sheet
+title: How to add switch rename and delete worksheets
 description: Use the GridJs bottom bar to add worksheets, switch tabs, rename a sheet inline, and delete a sheet from the tab context menu.
 keywords: worksheet management, addSheet, deleteSheet, renameSheet, setActiveSheetByName, bottombar, deleteSheet, renameItemAct
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Paste Special: Paste values only and Paste format only
+title: How to paste values only and paste format only
 description: Use the Paste Special submenu in GridJs to paste only cell text or only cell formatting from the internal GridJs clipboard.
 keywords: Paste Special, Paste values only, Paste format only, paste-value, paste-format, pasteFromInternal, pasteFromText, pasteFromHTML
 type: docs
