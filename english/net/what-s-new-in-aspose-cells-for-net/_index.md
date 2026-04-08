@@ -10,6 +10,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.4
+* Support new functions: REGEXTEST, REGEXEXTRACT, REGEXREPLACE
+* Support to expend table when copying ranges
+* Support to format cell with cell rich value of formatted number
+* Support to copy one rich value from another workbook
+* Shift formulas after insert cut ranges
+* Support to format a whole row or column of pivot table
+* Support to export total label of table column to xls file
+* Support to decrypt encrypted ods with odf 1.4 specification in .NetFramwork4.8, .net6, .net8 or above
+
 ## Aspose.Cells for .NET 26.3
 * Enhancement for saving some advanced functions in formula for XLSB
 * Support to parse legend tag when importing HTML

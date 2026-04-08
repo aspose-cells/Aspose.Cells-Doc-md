@@ -424,6 +424,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |RATE|**Financial**: Returns the interest rate per period of an annuity
 |RECEIVED|**Financial**: Returns the amount received at maturity for a fully invested security
 |REDUCE|**Logical**: Reduces an array to an accumulated value by applying a LAMBDA to each value and returning the total value in the accumulator
+|REGEXEXTRACT|**Text**: Extracts strings within the provided text that matches the pattern
+|REGEXREPLACE|**Text**: Replaces strings within the provided text that matches the pattern with replacement
+|REGEXTEST|**Text**: Determines whether any part of text matches the pattern
 |REPLACE|**Text**: Replaces characters within text
 |REPLACEB|**Text**: Replaces characters within text
 |REPT|**Text**: Repeats text a given number of times
