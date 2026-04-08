@@ -44,3 +44,5 @@ This section provides practical guides for common GridJs operations such as form
 - [Font Color Settings](/cells/python-net/aspose-cells-gridjs/user-guide/font-color-settings/)
 - [Insert Image](/cells/python-net/aspose-cells-gridjs/user-guide/insert-image/)
 - [Validation Input Settings](/cells/python-net/aspose-cells-gridjs/user-guide/validation-input-settings/)
+- [How to Download](/cells/python-net/aspose-cells-gridjs/user-guide/download-export-from-file-menu/)
+- [How to Send By Email](/cells/python-net/aspose-cells-gridjs/user-guide/send-by-email/)

@@ -44,3 +44,5 @@ This section provides practical guides for common GridJs operations such as form
 - [Font Color Settings](/cells/java/aspose-cells-gridjs/user-guide/font-color-settings/)
 - [Insert Image](/cells/java/aspose-cells-gridjs/user-guide/insert-image/)
 - [Validation Input Settings](/cells/java/aspose-cells-gridjs/user-guide/validation-input-settings/)
+- [How to Download](/cells/java/aspose-cells-gridjs/user-guide/download-export-from-file-menu/)
+- [How to Send By Email](/cells/java/aspose-cells-gridjs/user-guide/send-by-email/)
