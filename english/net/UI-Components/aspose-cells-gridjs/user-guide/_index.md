@@ -49,3 +49,5 @@ This section provides practical guides for common GridJs operations such as form
 - [How to Send By Email](/cells/net/aspose-cells-gridjs/user-guide/send-by-email/)
 - [How to configure token authentication](/cells/net/aspose-cells-gridjs/user-guide/how-to-configure-token-authentication/)
 - [How to paste from Excel and HTML](/cells/net/aspose-cells-gridjs/user-guide/how-to-paste-from-excel-and-html/)
+- [How to enable and disable keyboard events](/cells/net/aspose-cells-gridjs/user-guide/how-to-enable-and-disable-keyboard-events/)
+- [How to show and hide menubar](/cells/net/aspose-cells-gridjs/user-guide/how-to-show-and-hide-menubar/)
