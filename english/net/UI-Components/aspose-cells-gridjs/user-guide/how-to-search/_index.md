@@ -1,4 +1,4 @@
-———
+---
 title: How to use Search
 description: Open the Search dialog to find values, formulas, or comments, then navigate or replace matches.
 keywords: Search, Find what, Replace, Replace All, Look in, Match entire contents, Case Sensitive, Values, Formulas,
@@ -14,8 +14,7 @@ aliases:
 - /net/aspose-cells-gridjs/how-to-search-comments
 - /net/aspose-cells-gridjs/how-to-search-formulas
 
-———
-
+---
 ## Introduction
 
 Search opens a dialog that lets you find text across Values, Formulas, or Comments, with options like Case Sensitive and

@@ -1,4 +1,4 @@
-———
+---
 title: How to use Comment
 description: Add, edit, remove, and navigate cell comments, with a marker on the cell and a hover tip showing the note.
 keywords: Comment, Edit comment, Remove comment, Previous comment, Next comment, insertComment, newComment, comments
@@ -12,8 +12,7 @@ aliases:
 - /java/aspose-cells-gridjs/how-to-edit-comment
 - /java/aspose-cells-gridjs/how-to-remove-comment
 - /java/aspose-cells-gridjs/how-to-navigate-comments
-———
-
+---
 ## Introduction
 
 Comments are stored per cell and rendered as an indicator on the cell's top-right corner. Hovering a commented cell shows a

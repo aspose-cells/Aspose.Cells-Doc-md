@@ -1,19 +1,19 @@
-———
+---
 title: How to use AutoFilter and Sort
 description: Enable AutoFilter on a selected range to apply per-column sort and filtering, or open the Sort dialog to run
 multi-level sorting on the selection.
 keywords: AutoFilter, Sort, SortFilter, Sort A -> Z, Sort Z -> A, Filter results visible to me only
 type: docs
 weight: 1
-url: /java/aspose-cells-gridjs/user-guide/how-to-insert-sort-and-autoFilter/
+url: /java/aspose-cells-gridjs/user-guide/how-to-insert-sort-and-autofilter/
 aliases:
+- /java/aspose-cells-gridjs/user-guide/how-to-insert-sort-and-autoFilter/
 - /java/aspose-cells-gridjs/how-to-use-autofilter
 - /java/aspose-cells-gridjs/how-to-use-sort
 - /java/aspose-cells-gridjs/how-to-sort-and-filter
 - /java/aspose-cells-gridjs/how-to-autofilter-sort
 - /java/aspose-cells-gridjs/how-to-apply-autofilter
-———
-
+---
 ## Introduction
 
 AutoFilter lets you toggle filtering for the current selection range and provides a per-column Sort/Filter panel from the

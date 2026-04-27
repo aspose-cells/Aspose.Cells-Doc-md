@@ -1,4 +1,4 @@
----  
+---
 title: How to Merge and Unmerge  
 description: Learn how to merge and unmerge cells in Aspose.Cells.GridJs UI and JavaScript API. This guide covers UI actions and JavaScript calls.  
 keywords: Aspose, Cells, GridJs, merge cells, unmerge cells  
@@ -13,8 +13,7 @@ aliases:
   - /net/aspose-cells-gridjs/merge-unmerge-cells/  
 ai_search_scope: cells_net  
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
----  
-
+---
 {{% alert color="primary" %}}  
 **Cell Merge and Unmerge** lets you combine a rectangular range of cells into a single larger cell or split a previously merged cell back into its original grid. This is useful for titles, section headers, summary rows, or any layout where a value should span multiple columns or rows.  
 {{% /alert %}}  
@@ -27,8 +26,7 @@ Merging creates one visual cell that spans several columns and/or rows while pre
 - Combine cells for a total row that should be visually distinct.  
 - Split a merged area when the layout needs to change.  
 
----  
-
+---
 ## 2. Client‑side Usage  
 
 ### 2.1 UI Operations  
@@ -45,8 +43,7 @@ Follow these steps directly in the GridJs spreadsheet UI.
 
 The spreadsheet automatically redraws the affected area, showing a single merged cell or the restored individual cells.  
 
----  
-
+---
 ### 2.2 JavaScript API  
 
 Below is a complete GridJs initialization followed by the exact calls you need to merge or unmerge cells programmatically.  
