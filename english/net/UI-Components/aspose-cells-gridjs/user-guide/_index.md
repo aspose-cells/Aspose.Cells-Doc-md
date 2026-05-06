@@ -53,3 +53,5 @@ This section provides practical guides for common GridJs operations such as form
 - [How to show and hide menubar](/cells/net/aspose-cells-gridjs/user-guide/how-to-show-and-hide-menubar/)
 - [How to add and manage hyperlinks](/cells/net/aspose-cells-gridjs/user-guide/how-to-add-and-manage-hyperlinks/)
 - [How to rename files](/cells/net/aspose-cells-gridjs/user-guide/how-to-rename-files/)
+- [How to highlight formula referenced ranges](/cells/net/aspose-cells-gridjs/user-guide/how-to-highlight-formula-referenced-ranges/)
+- [How to use date and time pickers](/cells/net/aspose-cells-gridjs/user-guide/how-to-use-date-and-time-pickers/)
