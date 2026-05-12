@@ -10,6 +10,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.5
+* Support multiple aggregations for GROUPBY function
+* Support new Workbook() with environment variables and default values
+* Upgrade version of the referenced SkiaSharp to 3.119.0 for .net9/10 target framework
+* Provide a new method to set VerticalAxisMaxValueType and VerticalAxisMaxValue of SparklineGroup together
+* Enhance to add pivot filter field with pagination
+* Support to refresh the format of pivot table view with indent setting
+* Support PivotTable.MergeLabels when calcuating style of pivot table view
+* Support to merge inserted blank rows of pivot table
+* Support converting workbook to OFD(Open Fixed-layout Document)
+
 ## Aspose.Cells for .NET 26.4
 * Support new functions: REGEXTEST, REGEXEXTRACT, REGEXREPLACE
 * Support to expend table when copying ranges
