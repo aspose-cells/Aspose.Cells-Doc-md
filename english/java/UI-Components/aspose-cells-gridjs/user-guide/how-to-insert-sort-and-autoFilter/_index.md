@@ -1,7 +1,6 @@
 ---
 title: How to use AutoFilter and Sort
-description: Enable AutoFilter on a selected range to apply per-column sort and filtering, or open the Sort dialog to run
-multi-level sorting on the selection.
+description: Enable AutoFilter on a selected range to apply per-column sort and filtering, or open the Sort dialog to run multi-level sorting on the selection.
 keywords: AutoFilter, Sort, SortFilter, Sort A -> Z, Sort Z -> A, Filter results visible to me only
 type: docs
 weight: 1
