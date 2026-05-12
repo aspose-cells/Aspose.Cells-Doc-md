@@ -384,7 +384,6 @@ await xs.clearRedactionClient(['Sheet1', 'Sheet2', 'Sheet3'], true);
 - When `isSyncToServer` is `true`,the clear operations will batch-synced to the server
 
 
-{{% /alert %}}
 ---
 
 ## Redaction‑Related Events
