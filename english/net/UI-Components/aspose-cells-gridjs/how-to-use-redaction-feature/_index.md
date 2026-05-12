@@ -53,6 +53,59 @@ const option = {
     'Confidential',
     'Legal Privilege',
     'Trade Secret',],
+    onRedactionAddReason:       // optional ,customize popup window for adding redaction reason
+    (existingReasons) => {
+              return new Promise((resolve) => {
+                  // create popup window 
+                  const overlay = document.createElement('div');
+                  overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.4);z-index:9999;display:flex;align-items:center;justify-content:center;';
+                  const dialog = document.createElement('div');
+                  dialog.style.cssText = 'background:#fff;padding:24px;border-radius:8px;width:360px;box-shadow:0 4px 16px rgba(0,0,0,0.2);';
+                  dialog.innerHTML = 
+                   `<h3 style="margin:0 0 16px;font-size:16px;">Add Redaction Reason</h3>
+                    <input id="custom-reason-input" type="text" placeholder="Enter reason"
+                      style="width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;" />
+                    <div id="custom-reason-error" style="color:red;font-size:12px;margin-top:4px;display:none;"></div>
+                    <div style="margin-top:16px;text-align:right;">
+                      <button id="custom-reason-cancel" style="padding:6px 16px;margin-right:8px;cursor:pointer;">Cancel</button>
+                      <button id="custom-reason-ok" style="padding:6px 16px;background:#1890ff;color:#fff;border:none;border-radius:4px;cursor:pointer;">OK</button>
+                    </div>`;
+                  overlay.appendChild(dialog);
+                  document.body.appendChild(overlay);
+
+                  const input = document.getElementById('custom-reason-input');
+                  const error = document.getElementById('custom-reason-error');
+                  input.focus();
+
+                  const cleanup = () => document.body.removeChild(overlay);
+
+                  document.getElementById('custom-reason-cancel').onclick = () => {
+                      cleanup();
+                      resolve(null); // cancel button
+                  };
+
+                  document.getElementById('custom-reason-ok').onclick = () => {
+                      const value = input.value.trim();
+                      if (!value) {
+                          error.textContent = 'Reason cannot be empty';
+                          error.style.display = 'block';
+                          return;
+                      }
+                      if (existingReasons.includes(value)) {
+                          error.textContent = 'This reason already exists';
+                          error.style.display = 'block';
+                          return;
+                      }
+                      cleanup();
+                      resolve(value); // ok button add new reason
+                  };
+
+                  input.addEventListener('keydown', (e) => {
+                      if (e.key === 'Enter') document.getElementById('custom-reason-ok').click();
+                      if (e.key === 'Escape') { cleanup(); resolve(null); }
+                  });
+              });
+          },
 };
 
 let xs = x_spreadsheet('#gridjs-demo-div', option);
@@ -185,6 +238,7 @@ await xs.removeRedaction('42', 'Sheet2');
 
 ---
 
+
 ### 4. `syncRedactionOprClient(historyOprArray, isSyncToServer)`
 
 Batch synchronizes redaction operations to the client, used for replaying add/delete/update operations from history records.
@@ -294,8 +348,43 @@ Clear cell range content and target shape covered  by redaction shapes,and lock 
  xs.burnAllRedactions()
 
 ```
-{{% /alert %}}
 
+
+---
+
+### 6. `clearRedactionClient(sheetNameOrArray, isSyncToServer)`
+
+Clear all redactions on a specified sheet or sheets array.
+
+**Parameters:**
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `sheetNameOrArray` | `string \| Array<string> \| null` | No | Sheet name or array of names. Pass `null` or omit to clear the current active sheet |
+| `isSyncToServer` | `boolean` | No | Whether to sync the clear operation to the server, defaults to `false` |
+
+**Returns:** `void`
+
+**Examples:**
+
+```javascript
+// Clear all redactions on the current active sheet just in client
+await xs.clearRedactionClient();
+
+// Clear all redactions on a specific sheet and sync to server
+await xs.clearRedactionClient('Sheet2', true);
+
+// Batch clear redactions on multiple sheets and sync to server
+await xs.clearRedactionClient(['Sheet1', 'Sheet2', 'Sheet3'], true);
+```
+
+**Notes:**
+- Lazy loading is triggered automatically if the sheet is not yet loaded
+- Supports a single sheet name string, or an array of sheet names
+- When `isSyncToServer` is `true`,the clear operations will batch-synced to the server
+
+
+{{% /alert %}}
 ---
 
 ## Redaction‑Related Events
@@ -310,6 +399,7 @@ Listen to events via `xs.on(eventName, callback)`.
 | `redaction-burned` | After `burnAllRedactions()` finishes | *none* |
 | `redactionReason-inserted` | When a new reason is added via the UI dropdown | `reason` |
 | `redactionReason-cleared` | When all reasons are cleared via the UI dropdown | *none* |
+| `redactionTransparency-toggled` | When transparency toggled | `isTransparent` |
 
 
 ### `redaction-inserted`
@@ -348,7 +438,7 @@ Triggered when a Redaction is deleted. Usually occurs after `removeRedaction` or
 **Example:**
 
 ```javascript
-xs.sheet.on('redaction-deleted', (sheetName, redactionShape) => {
+xs.on('redaction-deleted', (sheetName, redactionShape) => {
   console.log(`Redaction removed from ${sheetName}, id: ${redactionShape.id}`);
 });
 ```
@@ -369,7 +459,7 @@ Triggered when a Redaction's properties are updated. Usually after moving, scali
 **Example:**
 
 ```javascript
-xs.sheet.on('redaction-updated', (sheetName, shape) => {
+xs.on('redaction-updated', (sheetName, shape) => {
   console.log(`Redaction updated on ${sheetName}, id: ${shape.id}`);
 });
 ```
@@ -385,7 +475,7 @@ Triggered after `burnAllRedactions()` completes. Indicates that all redactions h
 **Example:**
 
 ```javascript
-xs.sheet.on('redaction-burned', () => {
+xs.on('redaction-burned', () => {
   console.log('All redactions have been permanently burned');
 });
 ```
@@ -405,7 +495,7 @@ Triggered when a new Redaction Reason is added via the redaction reasons dropdow
 **Example:**
 
 ```javascript
-xs.sheet.on('redactionReason-inserted', (reason) => {
+xs.on('redactionReason-inserted', (reason) => {
   console.log(`New redaction reason added: ${reason}`);
 });
 ```
@@ -421,8 +511,28 @@ Triggered when all redaction reasons are cleared via the redaction reasons dropd
 **Example:**
 
 ```javascript
-xs.sheet.on('redactionReason-cleared', () => {
+xs.on('redactionReason-cleared', () => {
   console.log('All redaction reasons have been cleared');
+});
+```
+
+---
+
+### `redactionTransparency-toggled`
+
+Triggered when the redaction transparency mode is toggled via the toolbar.
+
+**Callback arguments:**
+
+| Argument | Type | Description |
+|----------|------|-------------|
+| `isTransparent` | `boolean` | The transparency mode state after toggling, `true` for transparent, `false` for opaque |
+
+**Example:**
+
+```javascript
+xs.sheet.on('redactionTransparency-toggled', (isTransparent) => {
+  console.log(`Redaction transparency mode: ${isTransparent ? 'ON' : 'OFF'}`);
 });
 ```
 

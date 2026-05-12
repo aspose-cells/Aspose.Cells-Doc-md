@@ -46,6 +46,7 @@ the parameters for load options:
 | --- | --- | --- | --- |
 | `allowSelectTextInTextBoxInReadMode` | Whether to allow text selection in TextBox controls when in read-only mode.<br>The default value is `false`. | `false` | Yes |
 | `checkSyntax` | Whether to perform syntax checking and spell correction for user input in text content.<br>Works with `setSyntaxCheckUrl`.<br>The default value is `false`. | `false` | Yes |
+| `enableRedactionShape` | Whether to enable the readaction feature. | `false` | Yes |
 | `isCollaborative` | Whether to enable collaborative mode. | `false` | Yes |
 | `loadingGif` | The URL of the loading GIF to display when loading images or shapes.<br>The default value is `content/img/updating.gif`. | `content/img/updating.gif` | Yes |
 | `locale` | Sets localization information for menus and toolbars, supporting multiple languages.<br>Possible values include:<br>- `en`, `zh`, `es`, `pt`(for English, Chinese, Spanish, Portuguese)<br>- `de`, `ru`, `nl`, `pl` (for German, Russian, Dutch, Polish)<br>- `ar`, `fr`, `id`, `it`, `ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko`, `th`, `tr`, `vi`, `cht` (for Korean, Thai, Turkish, Vietnamese, Traditional Chinese) | `en` | Yes |
