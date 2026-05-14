@@ -1,7 +1,7 @@
 ---
 title: Smart Marker Parameters
 type: docs
-weight: 30
+weight: 10
 url: /net/smart-marker-parameters/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -37,6 +37,16 @@ The following parameters are allowed:
 - **numeric** – Convert text to number if possible.  
 - **shift** – Shift down or right, creating extra rows or columns to fit data. The shift parameter works the same way as in Microsoft Excel. For example, in Microsoft Excel, when you select a range of cells, right‑click and select **Insert** and specify **shift cells down**, **shift cells right** and other options. In short, the **shift** parameter serves the same function for vertical/normal (top‑to‑bottom) or horizontal (left‑to‑right) smart markers.  
 - **copystyle** – Copy the base cell's style to all the cells in that column.
+- **formula** – Sets formula to the cell.
+- **arrayformula** – Sets array formula to the cell.
+- **html** – Sets html string to the cell.
+- **bean** – The data is java bean object.
+- **picture** – Adds pictures to worksheet.
+- **group** – Group data table by the field with different layout.
+- **range** – Indicates that smartmakers in this area need to be processed together, otherwise line by line or column by column.
+- **arrayassingle** – Export JSON Array as a single value.
+- **extradelimiter** – Sets delimiter of each value when exporting JSON Array as a single value.
+
 
 The parameters **noadd** and **skip** can be combined to insert data on alternating rows. Because the template is processed from bottom to top, you should add **noadd** on the first row to avoid extra rows from being inserted before the alternate row.
 

@@ -1,7 +1,7 @@
 ---
 title: Getting Notifications while Merging Data with Smart Markers
 type: docs
-weight: 20
+weight: 200
 url: /net/getting-notifications-while-merging-data-with-smart-markers/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -19,7 +19,7 @@ The following piece of code demonstrates the usage of the [ISmartMarkerCallBack]
 
 The rest of the process includes loading the designer spreadsheet containing the Smart Markers with **WorkbookDesigner** and processing it by setting the data source. In order to keep the example simple, we used a predefined designer spreadsheet containing only two Smart Markers, as shown in the snapshot below, where the data source is created dynamically to merge the data according to the specified Smart Markers.
 
-| ![Getting notifications while merging data with Smart Markers](/images/getting-notifications-while-merging-data-with-smart-markers_1.png) |
+| ![Getting notifications while merging data with Smart Markers](getting-notifications-while-merging-data-with-smart-markers_1.png) |
 | :- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}

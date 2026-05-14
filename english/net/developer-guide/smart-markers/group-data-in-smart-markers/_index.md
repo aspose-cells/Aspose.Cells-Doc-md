@@ -31,6 +31,10 @@ For example, `&=Employees.EmployeeID(group:normal,skip:1)`
 
 ### **subtotalN**
 Performs a summary operation for a specified field’s data related to a group‑by field. The **N** represents numbers between 1 and 11 which specify the function used when calculating subtotals within a list of data (1 = AVERAGE, 2 = COUNT, 3 = COUNTA, 4 = MAX, 5 = MIN, … 9 = SUM, etc.). Refer to the Subtotal reference in Microsoft Excel’s help for further details.
+- **Label** – Custom the special label of "total"
+- **LabelPosition** – Sets left and right offset relative to the current position for total label,
+- **labelstyle** – Indciates use which cell style as total label's style.
+- **rangeborder** – Indicates whether the borders should be applied to range.
 
 The format is: `subtotalN:Ref`, where **Ref** refers to the group‑by column.
 

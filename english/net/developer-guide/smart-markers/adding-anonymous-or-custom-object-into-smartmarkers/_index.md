@@ -1,7 +1,7 @@
 ---
 title: Adding an Anonymous or Custom Object into SmartMarkers
 type: docs
-weight: 10
+weight: 80
 url: /net/adding-anonymous-or-custom-object-into-smartmarkers/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
