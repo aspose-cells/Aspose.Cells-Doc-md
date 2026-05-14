@@ -49,7 +49,7 @@ First, create a .NET 6 (or greater) application with VS2022, then choose one o
    In this way, you will use **System.Drawing.Common** as a dependency on your Windows system for a .NET 6 (or greater) project. The drawing result is closer to .NET Core 3.1 or earlier.
 
 4. Locate the **net6.0** subdirectory, add the **Aspose.Cells.dll** in it to your .NET 6 application, and manually add the following NuGet packages to your .NET 6 project:  
-   - SkiaSharp, 3.116.1.  
+   - SkiaSharp, 2.88.9.  
    - System.Security.Cryptography.Pkcs, 6.0.5.  
    - System.Text.Encoding.CodePages, 4.7.0.
 
@@ -73,9 +73,9 @@ You need to perform the following additional operations to ensure proper use of 
    apk update && apk add fontconfig
    ```
 
-2. Add the NuGet package **SkiaSharp.NativeAssets.Linux 3.116.1** to your .NET 6 (or greater) project.
+2. Add the NuGet package **SkiaSharp.NativeAssets.Linux** to your .NET 6 (or greater) project.
 
-3. Or you can choose to add the NuGet package **SkiaSharp.NativeAssets.Linux.NoDependencies 3.116.1** to your .NET 6 (or greater) project, instead of the two steps above.
+3. Or you can choose to add the NuGet package **SkiaSharp.NativeAssets.Linux.NoDependencies** to your .NET 6 (or greater) project, instead of the two steps above.
 
 *Please note, the version of the added package **SkiaSharp.NativeAssets.Linux** or **SkiaSharp.NativeAssets.Linux.NoDependencies** should correspond to the version of **SkiaSharp** referenced by Aspose.Cells for .NET. The versions of Aspose.Cells for .NET and the corresponding referenced **SkiaSharp** versions are described as follows:*
 
@@ -85,11 +85,12 @@ You need to perform the following additional operations to ensure proper use of 
 | >= 22.12 && <= 23.9   | 2.88.3 |
 | >= 23.10 && <= 24.12  | 2.88.6 |
 | = 25.1.1              | 3.116.1 |
-| >= 25.1.2             | 2.88.9 (.NET 6.0, .NET 8.0), 3.116.1 (.NET 9.0) |
+| >= 25.1.2 && <= 26.4  | 2.88.9 (.NET 6.0, .NET 8.0), 3.116.1 (.NET 9.0) |
+| >= 26.5.1             | 2.88.9 (.NET 6.0, .NET 8.0), 3.119.0 (.NET 9.0, .NET 10.0) |
 
 ### Example Dockerfile for Ubuntu
 
-1. Add the NuGet package **SkiaSharp.NativeAssets.Linux 3.116.1** to your .NET 6 (or greater) project.
+1. Add the NuGet package **SkiaSharp.NativeAssets.Linux** to your .NET 6 (or greater) project.
 
 2. Use the following Dockerfile:
 
@@ -126,7 +127,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Example Dockerfile for Alpine
 
-1. Add the NuGet package **SkiaSharp.NativeAssets.Linux 3.116.1** to your .NET 6 (or greater) project.
+1. Add the NuGet package **SkiaSharp.NativeAssets.Linux** to your .NET 6 (or greater) project.
 
 2. Use the following Dockerfile:
 
