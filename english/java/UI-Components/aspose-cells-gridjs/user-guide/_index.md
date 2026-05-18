@@ -56,3 +56,5 @@ This section provides practical guides for common GridJs operations such as form
 - [How to use date and time pickers](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-date-and-time-pickers/)
 - [How to insert shapes](/cells/java/aspose-cells-gridjs/user-guide/how-to-insert-shapes/)
 - [How to use formula and content suggestions](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-formula-and-content-suggestions/)
+- [How to increase and decrease font size](/cells/java/aspose-cells-gridjs/user-guide/how-to-increase-and-decrease-font-size/)
+- [How to set italic strike and underline](/cells/java/aspose-cells-gridjs/user-guide/how-to-set-italic-strike-and-underline/)
