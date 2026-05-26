@@ -59,3 +59,5 @@ This section provides practical guides for common GridJs operations such as form
 - [How to use formula and content suggestions](/cells/net/aspose-cells-gridjs/user-guide/how-to-use-formula-and-content-suggestions/)
 - [How to increase and decrease font size](/cells/net/aspose-cells-gridjs/user-guide/how-to-increase-and-decrease-font-size/)
 - [How to set italic strike and underline](/cells/net/aspose-cells-gridjs/user-guide/how-to-set-italic-strike-and-underline/)
+- [How to filter worksheet data](/cells/net/aspose-cells-gridjs/user-guide/how-to-filter-worksheet-data/)
+- [How to set dropdown data validation](/cells/net/aspose-cells-gridjs/user-guide/how-to-set-dropdown-data-validation/)
