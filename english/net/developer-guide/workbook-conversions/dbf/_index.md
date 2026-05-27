@@ -3,7 +3,7 @@ title: Reading and Writing DBF Files
 description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports reading and writing dBASE III and IV (DBF) files. This article explains how to import data from and export data to DBF files using Aspose.Cells, including file format details, supported features, and step-by-step code examples.
 keywords: Aspose.Cells, .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
-weight: 210
+weight: 800
 url: /net/reading-and-writing-dbf-files/
 ---
 
@@ -94,16 +94,6 @@ To ensure compatibility and correct DBF file generation, follow these best pract
   - Use `bool` for logical fields — Aspose.Cells converts `true`/`false` to `.T.`/`.F.` in the DBF file.
 - **Text Length**: If text exceeds the field size (default or inferred), it will be truncated silently.
 - **Blank Rows/Columns**: Avoid blank columns in the middle of data — Aspose.Cells infers structure from contiguous data.
-
-### Known Limitations
-- ❌ **No memo field support** beyond string truncation (e.g., memo content is stored as plain text and may be truncated to ~254 or ~255 bytes per cell).
-- ❌ **No support for indexes**, **primary keys**, or **foreign keys** — DBF is treated as a flat table.
-- ❌ Field names are **automatically converted to uppercase** in the output file.
-- ❌ DBF files do not preserve cell formatting (e.g., fonts, colors) — only raw data.
-
-> {{% alert color="primary" %}}  
-> If you encounter unexpected data truncation or field-type mismatches, validate your input data types and column header lengths before writing the file.  
-> {{% /alert %}}
 
 ## Related Articles
 - [Importing Data from Spreadsheet Files](/net/importing-data-from-spreadsheet-files/)
