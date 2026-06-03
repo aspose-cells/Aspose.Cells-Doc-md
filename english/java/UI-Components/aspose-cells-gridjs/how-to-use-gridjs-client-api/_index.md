@@ -61,6 +61,11 @@ the parameters for load options:
 | `showFormulaTip` | Whether to show the existing formula applied to this cell when the mouse hovers over it.<br>The default value is `false`. | `false` | Yes |
 | `showNonEditableSymbolInCell` | Whether to show a client-side non-editable symbol in the cell.<br>If set to `true`, after clicking the "Disable editing" option in the context menu, the selected area that disables editing will show the symbol.<br>The default value is `false`. | `false` | Yes |
 | `showRowAppenderToolbar` | Whether to show the batch row appender toolbar.<br>The default value is `true`. | `true` | Yes |
+| `datepicker` | Date picker configuration object for date panel behavior. | None | Yes |
+| `datepicker.minDate` | Minimum selectable date (`yyyy-mm-dd`). Earlier date/day/month/year entries are disabled. | None | Yes |
+| `datepicker.maxDate` | Maximum selectable date (`yyyy-mm-dd`). Later date/day/month/year entries are disabled. | None | Yes |
+| `datepicker.defaultViewDate` | Initial year/month shown when opening the date panel (`yyyy-mm`). Does not write to the cell value. | None | Yes |
+| `batchInsertAutoScrollToBottom` | Whether to auto-scroll to the last row after batch row insertion.<br>The default value is `false`. | `false` | Yes |
 | `showToolbar` | Whether to show the toolbar. | `true` | Yes |
 | `token` | Sets the authentication token. When the token is not `null`, the `Authorization: Bearer {token}` header will be automatically added to the request headers. You can use `xs.refreshToken(token)` to set a new token. | None | Yes |
 | `updateMode` | The update mode. Currently, only `server` is supported. | `server` | No |

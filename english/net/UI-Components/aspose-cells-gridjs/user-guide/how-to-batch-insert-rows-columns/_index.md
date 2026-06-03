@@ -37,6 +37,8 @@ Method 2: Row Appender batch insert (rows only).
 In edit mode, scroll near the bottom until the Row Appender appears, enter row count, then click **Add**.
 ![](row-appender-add.png)
 
+To automatically jump to the last row after batch row insertion, set `batchInsertAutoScrollToBottom: true` in the GridJs load option.
+
 ## JavaScript API
 ```js
 xs = x_spreadsheet('#gridjs-demo-uid', option);
@@ -63,6 +65,7 @@ xs.on('columns-inserted', (start, count) => {
 // Optional: enable/disable bottom Row Appender toolbar.
 const xsWithAppender = x_spreadsheet('#gridjs-demo-uid-2', {
   showRowAppenderToolbar: true,
+  batchInsertAutoScrollToBottom: true,
 });
 ```
 
@@ -74,6 +77,7 @@ const xsWithAppender = x_spreadsheet('#gridjs-demo-uid-2', {
 | `sheet.insertColumns(start, n, raiseServerOpr = true)` | Batch inserts columns at the given start column index. | `start` (column index), `n` (count), `raiseServerOpr` (optional boolean) | `void` |
 | `data.insert('row' | 'column', n, raiseServerOpr)` | Internal insert operation used by sheet insert flow; updates data structures and triggers insert events. | `type`, `n`, `raiseServerOpr` | `void` |
 | `showRowAppenderToolbar` (option) | Controls whether the bottom Row Appender toolbar is created (default enabled). | `true` / `false` | N/A |
+| `batchInsertAutoScrollToBottom` (option) | When set to `true`, GridJs scrolls to the bottom after batch row insertion. | `true` / `false` | N/A |
 | `xs.on(eventName, handler)` | Binds event handler; insert flow triggers `rows-inserted` and `columns-inserted`. | `eventName`, `handler` | `xs` |
 
 Context menu mapping for batch insert:
@@ -98,3 +102,6 @@ A: No. In read mode, the context menu is reduced to copy-only behavior.
 
 Q: Where is the insertion anchor for above/below/left/right?
 A: It uses the current selected range: `sri`/`eri` for rows and `sci`/`eci` for columns, with below/right using `+1` as insertion start.
+
+Q: How can I auto-scroll to the last row after batch inserting rows?
+A: Set `batchInsertAutoScrollToBottom: true` in the GridJs initialization option. The default value is `false`.
