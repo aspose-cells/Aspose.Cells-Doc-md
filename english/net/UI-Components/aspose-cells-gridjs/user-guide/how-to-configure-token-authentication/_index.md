@@ -1,12 +1,14 @@
 ---
 title: How to configure token authentication
-description: Configure a GridJs token so supported server requests add an Authorization Bearer header, and refresh the token on the spreadsheet instance when it changes.
-keywords: token, authToken, refreshToken, Authorization, Bearer, AjaxTask, setLazyLoadingUrl, setImageInfo, setFileDownloadInfo
+description: Configure a GridJs token so supported server requests add an Authorization
+  Bearer header, and refresh the token on the spreadsheet instance when it changes.
+keywords: token, authToken, refreshToken, Authorization, Bearer, AjaxTask, setLazyLoadingUrl,
+  setImageInfo, setFileDownloadInfo
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/how-to-configure-token-authentication/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/how-to-configure-token-authentication/
+- /net/aspose-cells-gridjs/how-to-set-auth-token/
 ---
 
 ## Introduction

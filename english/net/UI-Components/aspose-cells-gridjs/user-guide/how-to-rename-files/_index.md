@@ -1,12 +1,14 @@
 ---
 title: How to rename files
-description: Rename the current GridJs file from the editable file name bar or set the file name through the GridJs implementation API.
-keywords: filename, fileName, showFileName, setFileName, Filenamebar, Banner, File Name, download, getReloadUrl
+description: Rename the current GridJs file from the editable file name bar or set
+  the file name through the GridJs implementation API.
+keywords: filename, fileName, showFileName, setFileName, Filenamebar, Banner, File
+  Name, download, getReloadUrl
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/how-to-rename-files/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/how-to-rename-files/
+- /net/aspose-cells-gridjs/how-to-rename-current-file/
 ---
 
 ## Introduction

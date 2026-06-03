@@ -1,12 +1,14 @@
 ---
 title: How to increase and decrease font size
-description: Increase or decrease the font size of selected GridJs cells with the toolbar font size buttons.
-keywords: FontSizeIncrease, FontSizeDecrease, font-size-increase, font-size-decrease, increase-font-size, decrease-font-size, font-size, fontSizes
+description: Increase or decrease the font size of selected GridJs cells with the
+  toolbar font size buttons.
+keywords: FontSizeIncrease, FontSizeDecrease, font-size-increase, font-size-decrease,
+  increase-font-size, decrease-font-size, font-size, fontSizes
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/how-to-increase-and-decrease-font-size/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/how-to-increase-and-decrease-font-size/
+- /net/aspose-cells-gridjs/how-to-change-font-size/
 ---
 
 ## Introduction

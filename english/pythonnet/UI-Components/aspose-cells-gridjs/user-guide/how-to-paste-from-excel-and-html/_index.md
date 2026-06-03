@@ -1,12 +1,14 @@
 ---
 title: How to paste from Excel and HTML
-description: Paste tabular content from Excel or HTML into GridJs through the clipboard, including supported cell text and style properties parsed from HTML table content.
-keywords: Paste, Excel, HTML, clipboard, text/html, pasteFromHTML, pasteFromText, getCellsFromHTML, pasteCellsWithStyle
+description: Paste tabular content from Excel or HTML into GridJs through the clipboard,
+  including supported cell text and style properties parsed from HTML table content.
+keywords: Paste, Excel, HTML, clipboard, text/html, pasteFromHTML, pasteFromText,
+  getCellsFromHTML, pasteCellsWithStyle
 type: docs
 weight: 1
 url: /python-net/aspose-cells-gridjs/user-guide/how-to-paste-from-excel-and-html/
 aliases:
-- /python-net/aspose-cells-gridjs/user-guide/how-to-paste-from-excel-and-html/
+- /python-net/aspose-cells-gridjs/how-to-paste-excel-and-html/
 ---
 
 ## Introduction

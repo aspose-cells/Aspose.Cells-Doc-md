@@ -1,12 +1,14 @@
 ---
 title: How to set italic strike and underline
-description: Set italic, strike, and underline formatting for selected GridJs cells from the toolbar, keyboard shortcuts, or the More Number Formats dialog.
-keywords: font-italic, underline, strike, Font italic, Underline, Strike, Strikethrough, formatUpdate, setSelectedCellAttr
+description: Set italic, strike, and underline formatting for selected GridJs cells
+  from the toolbar, keyboard shortcuts, or the More Number Formats dialog.
+keywords: font-italic, underline, strike, Font italic, Underline, Strike, Strikethrough,
+  formatUpdate, setSelectedCellAttr
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-set-italic-strike-and-underline/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-set-italic-strike-and-underline/
+- /java/aspose-cells-gridjs/how-to-format-italic-strike-and-underline/
 ---
 
 ## Introduction

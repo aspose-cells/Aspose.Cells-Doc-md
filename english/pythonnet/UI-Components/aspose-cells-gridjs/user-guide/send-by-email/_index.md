@@ -1,12 +1,14 @@
 ---
 title: How to Send By Email
-description: Use the GridJs Send By Email menu item to open the email modal and pass the receiver and file type to a configured send callback.
-keywords: Send By Email, email, ModalEmail, setEmailSendCallFunction, emailSendCallFunc, receiver, fileType, xlsx, pdf, html
+description: Use the GridJs Send By Email menu item to open the email modal and pass
+  the receiver and file type to a configured send callback.
+keywords: Send By Email, email, ModalEmail, setEmailSendCallFunction, emailSendCallFunc,
+  receiver, fileType, xlsx, pdf, html
 type: docs
 weight: 1
 url: /python-net/aspose-cells-gridjs/user-guide/send-by-email/
 aliases:
-- /python-net/aspose-cells-gridjs/user-guide/send-by-email/
+- /python-net/aspose-cells-gridjs/how-to-send-files-by-email/
 ---
 
 ## Introduction

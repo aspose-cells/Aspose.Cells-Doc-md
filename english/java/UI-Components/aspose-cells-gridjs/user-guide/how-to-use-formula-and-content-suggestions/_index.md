@@ -1,12 +1,14 @@
 ---
 title: How to use formula and content suggestions
-description: Use GridJs formula suggestions in the editor and content suggestions from syntax checking.
-keywords: Suggest, ModalInputSuggest, inputsuggest, syntaxstatus, setSyntaxCheckUrl, checkSyntax, formula
+description: Use GridJs formula suggestions in the editor and content suggestions
+  from syntax checking.
+keywords: Suggest, ModalInputSuggest, inputsuggest, syntaxstatus, setSyntaxCheckUrl,
+  checkSyntax, formula
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-use-formula-and-content-suggestions/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-use-formula-and-content-suggestions/
+- /java/aspose-cells-gridjs/how-to-use-formula-and-content-autocomplete/
 ---
 
 ## Introduction

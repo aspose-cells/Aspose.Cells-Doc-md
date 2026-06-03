@@ -1,12 +1,14 @@
 ---
 title: How to show and hide menubar
-description: Show or hide the GridJs menubar at startup with the toolbar display settings, and use the built-in menubar toggle button while the spreadsheet is running.
-keywords: menubar, showToolbar, showPartToolbar, showFileName, menu-display-hide, menu-display-show, Banner, Menubar
+description: Show or hide the GridJs menubar at startup with the toolbar display settings,
+  and use the built-in menubar toggle button while the spreadsheet is running.
+keywords: menubar, showToolbar, showPartToolbar, showFileName, menu-display-hide,
+  menu-display-show, Banner, Menubar
 type: docs
 weight: 1
 url: /python-net/aspose-cells-gridjs/user-guide/how-to-show-and-hide-menubar/
 aliases:
-- /python-net/aspose-cells-gridjs/user-guide/how-to-show-and-hide-menubar/
+- /python-net/aspose-cells-gridjs/how-to-toggle-menubar/
 ---
 
 ## Introduction

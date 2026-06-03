@@ -1,12 +1,14 @@
 ---
 title: How to highlight formula referenced ranges
-description: Highlight cell and range references while editing GridJs formulas in the cell editor or formula bar.
-keywords: formula, FormulaBar, setSelectorsByLocates, formulaRangeEl, editFormula, extractCellReferences, selector
+description: Highlight cell and range references while editing GridJs formulas in
+  the cell editor or formula bar.
+keywords: formula, FormulaBar, setSelectorsByLocates, formulaRangeEl, editFormula,
+  extractCellReferences, selector
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/how-to-highlight-formula-referenced-ranges/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/how-to-highlight-formula-referenced-ranges/
+- /net/aspose-cells-gridjs/how-to-highlight-formula-references/
 ---
 
 ## Introduction

@@ -1,12 +1,15 @@
 ---
 title: How to enable and disable keyboard events
-description: Enable or disable GridJs sheet keyboard event handling through the public enableKeyEvent method and understand the shortcut operations handled by the inspected code.
-keywords: enableKeyEvent, keyboard events, keydown, shortcut, copy, paste, undo, redo, selectorMove
+description: Enable or disable GridJs sheet keyboard event handling through the public
+  enableKeyEvent method and understand the shortcut operations handled by the inspected
+  code.
+keywords: enableKeyEvent, keyboard events, keydown, shortcut, copy, paste, undo, redo,
+  selectorMove
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-enable-and-disable-keyboard-events/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-enable-and-disable-keyboard-events/
+- /java/aspose-cells-gridjs/how-to-toggle-keyboard-events/
 ---
 
 ## Introduction

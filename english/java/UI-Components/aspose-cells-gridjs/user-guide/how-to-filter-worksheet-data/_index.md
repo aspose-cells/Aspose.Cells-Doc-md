@@ -1,12 +1,14 @@
 ---
 title: How to filter worksheet data
-description: Apply and clear worksheet filters from GridJs autofilter headers and the filter popup.
-keywords: autofilter, AutoFilter, SortFilter, setAutoFilter, filteredRows, exceptRowSet, filterSearch, filter.meOnly
+description: Apply and clear worksheet filters from GridJs autofilter headers and
+  the filter popup.
+keywords: autofilter, AutoFilter, SortFilter, setAutoFilter, filteredRows, exceptRowSet,
+  filterSearch, filter.meOnly
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-filter-worksheet-data/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-filter-worksheet-data/
+- /java/aspose-cells-gridjs/how-to-filter-sheet-data/
 ---
 
 ## Introduction

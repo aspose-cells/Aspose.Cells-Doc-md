@@ -1,12 +1,14 @@
 ---
 title: How to insert shapes
-description: Insert AutoShape-based shapes from the GridJs toolbar and draw them on the worksheet canvas.
-keywords: InsertShape, insert-shape, DropdownInsertShape, AutoShapeType, shapeSVG, drawShape, uploadImg
+description: Insert AutoShape-based shapes from the GridJs toolbar and draw them on
+  the worksheet canvas.
+keywords: InsertShape, insert-shape, DropdownInsertShape, AutoShapeType, shapeSVG,
+  drawShape, uploadImg
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-insert-shapes/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-insert-shapes/
+- /java/aspose-cells-gridjs/how-to-add-shapes/
 ---
 
 ## Introduction

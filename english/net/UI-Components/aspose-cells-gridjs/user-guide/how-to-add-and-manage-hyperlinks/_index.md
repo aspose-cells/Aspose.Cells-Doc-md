@@ -1,12 +1,14 @@
 ---
 title: How to add and manage hyperlinks
-description: Add, open, edit, and remove GridJs hyperlinks for web pages, document locations, and email addresses from the toolbar or context menu.
-keywords: hyperlink, hyperlinks, Link, Edit Link, Open Link, Remove Link, Web Page, This Document, E-mail Address, ModalLink
+description: Add, open, edit, and remove GridJs hyperlinks for web pages, document
+  locations, and email addresses from the toolbar or context menu.
+keywords: hyperlink, hyperlinks, Link, Edit Link, Open Link, Remove Link, Web Page,
+  This Document, E-mail Address, ModalLink
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/how-to-add-and-manage-hyperlinks/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/how-to-add-and-manage-hyperlinks/
+- /net/aspose-cells-gridjs/how-to-use-hyperlinks/
 ---
 
 ## Introduction

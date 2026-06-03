@@ -1,12 +1,13 @@
 ---
 title: How to set dropdown data validation
 description: Configure List data validation and use the in-cell dropdown list in GridJs.
-keywords: data-validation, List, Source, ismultiple, getListValue, validator.values, selector-dropdown-button
+keywords: data-validation, List, Source, ismultiple, getListValue, validator.values,
+  selector-dropdown-button
 type: docs
 weight: 1
 url: /java/aspose-cells-gridjs/user-guide/how-to-set-dropdown-data-validation/
 aliases:
-- /java/aspose-cells-gridjs/user-guide/how-to-set-dropdown-data-validation/
+- /java/aspose-cells-gridjs/how-to-create-dropdown-validation/
 ---
 
 ## Introduction

@@ -1,12 +1,16 @@
 ---
 title: How to Download
-description: Use the GridJs File menu download entries to export the workbook as the original file, XLSX, PDF, or HTML, or route the export through a custom download callback.
-keywords: Download, export, download_Original, download_XLSX, download_PDF, download_HTML, download_GOOGLE, download_DROPBOX, setFileDownloadInfo, setFileDownloadCallFunction, beforeSaveFunc
+description: Use the GridJs File menu download entries to export the workbook as the
+  original file, XLSX, PDF, or HTML, or route the export through a custom download
+  callback.
+keywords: Download, export, download_Original, download_XLSX, download_PDF, download_HTML,
+  download_GOOGLE, download_DROPBOX, setFileDownloadInfo, setFileDownloadCallFunction,
+  beforeSaveFunc
 type: docs
 weight: 1
 url: /net/aspose-cells-gridjs/user-guide/download-export-from-file-menu/
 aliases:
-- /net/aspose-cells-gridjs/user-guide/download-export-from-file-menu/
+- /net/aspose-cells-gridjs/how-to-download-files/
 ---
 
 ## Introduction
