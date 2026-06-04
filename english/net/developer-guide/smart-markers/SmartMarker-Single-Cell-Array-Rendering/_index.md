@@ -1,118 +1,211 @@
+
 ---
-title: ArrayAsSingle  ExtraDelimiter | SmartMarker Single Cell Array Rendering
-linktitle: Array As Single Cell
+title: SmartMarker Single Cell Array Rendering | Aspose.Cells .NET
+description: Learn how to render array data into a single cell using the ArrayAsSingle and ExtraDelimiter attributes in Smart Markers with Aspose.Cells for .NET.
+keywords: Aspose.Cells, .NET library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template
 type: docs
-weight: 60
+weight: 195
 url: /net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-ai_search_scope: cells_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## 1. Why This Feature Is Needed
+{{% alert color="primary" %}}
 
-By default, when Aspose.Cells SmartMarkers parse JSON array data, the array elements will be automatically expanded and rendered into**multiple rows** in the Excel worksheet.
+Aspose.Cells supports rendering array data into a single cell via Smart Markers. By using the `ArrayAsSingle` attribute along with the `ExtraDelimiter` attribute, developers can control how array elements are separated within a single cell, providing flexible formatting for reports and templates.
 
-However, many business scenarios require retaining the complete array structure without row splitting or line breaking. Users often need to render the entire simple array or object array into **a single cell** for data archiving, downstream system parsing, and original data retention.
+{{% /alert %}}
 
-To meet this requirement, we have extended two new SmartMarker parameters: **ArrayAsSingle** and **ExtraDelimiter**. These parameters eliminate the default row-splitting behavior and support aggregating all array elements into one single cell.
+## **Introduction**
 
-## 2. Feature Benefits
+Smart Markers in Aspose.Cells are a powerful, template-based feature that allows you to dynamically populate spreadsheet data using marker expressions such as `&=DataSource.Field`. The marker is placed in a designer workbook, and when the template is processed by the `WorkbookDesigner`, the markers are replaced with values from the supplied data source.
 
-This enhanced SmartMarker capability overrides the default array expansion logic and provides the following core values:
+By default, when a Smart Marker references an array property (for example, `&=DataSource.Numbers`), the engine expands the array and places each element into a separate adjacent cell — either horizontally across a row or vertically down a column. While this behavior is convenient in many scenarios, there are situations where you would prefer to render the entire array into one single cell, with the elements concatenated and separated by a delimiter of your choice.
 
-- **Aggregate array data in one cell**: Both simple arrays and nested object arrays can be fully aggregated into a single cell without row breaking, maintaining complete data integrity and correlation.
+The `ArrayAsSingle` and `ExtraDelimiter` attributes, used together inside a Smart Marker tag, address exactly this requirement. They allow you to keep report layouts compact and predictable while still working natively with array data sources.
 
-- **Support two mainstream array types**: Compatible with plain value arrays for direct splicing and nested object arrays for extracting specified child fields, covering all common business array structures.
+## **Why This Feature Is Needed**
 
-- **Customizable delimiter support**: Users can customize comma, line break, vertical bar and other separators to freely control the display format of array elements.
+### **Default Array Spreading Behavior**
 
-- **Template-driven, zero-code modification**: Enable aggregation by simply adding parameters in the SmartMarker template, without changing business code or preprocessing JSON data.
+When a Smart Marker references an array property, Aspose.Cells expands the array across multiple cells by default. For example, a marker such as `&=Product.Tags` against a `string[]` containing four values will place each value into its own cell, pushing other template content outward and potentially breaking carefully designed report layouts.
 
-- **Flexible output format**: Plain arrays support direct aggregation, while object arrays can extract only required fields to generate clean and readable Excel reports.
+### **Use Case Limitations**
 
-## 3. How to Use This Feature
+There are many practical scenarios where the default spreading behavior is undesirable:
 
-You can enable array single-cell aggregation by appending the corresponding parameters to standard SmartMarker tags. Parameters can be freely combined to adapt to all JSON array fields.
+- **Summary-style reports** that need a compact one-row-per-record layout.
+- **Tag, label, or keyword lists** that need to be displayed as comma-separated or pipe-separated values within a single cell.
+- **Filter chips or status indicators** that group multiple values in one place for readability.
+- **Downstream pipelines** (CSV export, PDF rendering, mail merge) that expect a single consolidated value per cell rather than an expanded range.
+- **Cross-platform compatibility**, where some consumers cannot tolerate arrays that bleed across multiple cells.
 
-### 3.1 Core Parameter Description
+### **The Gap It Fills**
 
-- **ArrayAsSingle**: Applies to **simple value arrays**. Disables default row-splitting behavior and concatenates all array elements into one cell with comma separators by default.
+Without a built-in mechanism, developers would be forced to pre-process data in C# or VB.NET — joining arrays into delimited strings before binding them to the workbook designer. This duplicates logic, complicates data models, and increases the chance of errors. The `ArrayAsSingle` and `ExtraDelimiter` attributes eliminate this workaround by handling the formatting declaratively inside the Smart Marker itself.
 
-- **ArrayAsSingle:FieldName**: Applies to **nested object arrays**. Specify the target child field name inside array objects. The engine will automatically traverse all sub-objects, extract the specified field values, and aggregate them into a single cell.
+## **Feature Benefits**
 
-- **ExtraDelimiter**: Custom separator for concatenating array elements. Defaults to English comma **,** if not specified. Supports vertical bar, line break, space and custom symbols.
+Using the `ArrayAsSingle` and `ExtraDelimiter` attributes in your Smart Markers provides several advantages:
 
-### 3.2 Common SmartMarker Syntax Examples
+- **Single-cell containment**: All array elements are rendered into exactly one cell, keeping layouts compact and predictable.
+- **Custom delimiter control**: Specify any separator string you like — comma, semicolon, hyphen, pipe, newline, or any custom text.
+- **Template-driven formatting**: No additional code is required to pre-process the data; formatting rules live inside the Smart Marker tag.
+- **Cleaner reports**: Array data no longer pushes neighboring template content into different rows or columns.
+- **Versatile data types**: Works with strings, numbers, dates, and any other data type that can be joined with a delimiter.
+- **Backwards compatibility**: When the attributes are omitted, the original spreading behavior is preserved, so existing templates continue to work unchanged.
 
-- **1. Simple array aggregation (default comma separator)**
+## **How to Use This Feature**
 
-      JSON Data: `SizeRange: [L, M, S, XL]`
+### **Smart Marker Syntax**
 
-      Marker Syntax: `=node.SizeRange(ArrayAsSingle)`
+The `ArrayAsSingle` and `ExtraDelimiter` attributes are passed as key-value pairs inside the parentheses of a standard Smart Marker. The general syntax is:
 
-      Output Result: `L, M, S, XL`
+```
+&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+```
 
-- **2. Simple array with custom vertical bar separator**
+The marker is composed of the following parts:
 
-      Marker Syntax: `=node.SizeRange(ArrayAsSingle,ExtraDelimiter:|)`
+- `&=DataSource.ArrayProperty` — the standard Smart Marker referencing the array property on the bound data source.
+- `arrayasSingle=true` — instructs the engine to render the whole array into a single cell. Only the value `true` triggers the single-cell behavior.
+- `extraDelimiter=", "` — defines the separator placed between array elements. The value is a string literal; it can be empty, a single character, or a multi-character string.
 
-      Output Result: `L|M|S|XL`
+{{% alert color="primary" %}}
 
-- **3. Simple array with line break separator**
+The `extraDelimiter` attribute accepts any string literal, including multi-character delimiters, custom text, or escape sequences such as `\n` for newline-separated output. If the array is empty, the resulting cell is left blank.
 
-      Marker Syntax: `=node.SizeRange(ArrayAsSingle,ExtraDelimiter:n)`
+{{% /alert %}}
 
-      Output Result: Each element (L, M, S, XL) displays on a new line inside the cell
+### **Step-by-Step Workflow**
 
-- **4. Extract specified fields from object arrays (core scenario)**
+The following workflow describes how to render an array into a single cell using Smart Markers.
 
-      JSON Data:
+1. **Prepare the data source**: Create a class (or data structure) that exposes a property returning an array. The property can return `string[]`, `int[]`, or any other supported array type.
+2. **Create a designer workbook**: Create a new `Workbook`, add a header row, and place a Smart Marker cell that references the array property with the `arrayasSingle` and `extraDelimiter` attributes.
+3. **Instantiate the WorkbookDesigner**: Create a `WorkbookDesigner` object, attach the designer workbook to it, and bind your data source using the `SetDataSource` method.
+4. **Process the markers**: Call the `WorkbookDesigner.Process()` method to expand the Smart Markers and populate the workbook with real data.
+5. **Save the result**: Save the resulting workbook to disk in XLSX or any other supported file format.
+
+### **Code Example 1 — Basic String Array Rendering**
+
+```csharp
+using System;
+using Aspose.Cells;
+
+class Program
 {
-SizeRange: [
-    { Size: L, Code: 1 },
-    { Size: M, Code: 2 },
-    { Size: S, Code: 3 },
-    { Size: XL, Code: 4 }
-]
+    public class Product
+    {
+        public string[] Tags { get; set; }
+    }
+
+    public static void Main()
+    {
+        Product product = new Product
+        {
+            Tags = new string[] { "C#", "Aspose", "SmartMarker", "Excel" }
+        };
+
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+
+        worksheet.Cells["A1"].PutValue("Tags");
+        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
+
+        WorkbookDesigner designer = new WorkbookDesigner();
+        designer.Workbook = workbook;
+        designer.SetDataSource("Product", product);
+        designer.Process();
+
+        workbook.Save("output_arraySingle.xlsx");
+    }
+}
+```
+
+### **Code Example 2 — Numeric Array with Custom Delimiter**
+
+```csharp
+public class Student
+{
+    public int[] Scores { get; set; }
 }
 
-      Marker Syntax: `=node.SizeRange(ArrayAsSingle:Size)`
+public class Program
+{
+    public static void Main()
+    {
+        var student = new Student
+        {
+            Scores = new int[] { 95, 88, 76, 100, 67 }
+        };
 
-      Output Result: `L, M, S, XL`
+        var workbook = new Workbook();
+        var worksheet = workbook.Worksheets[0];
 
-### 3.3 Full Runnable C# Code Examples
+        worksheet.Cells["A1"].PutValue("Scores");
+        worksheet.Cells["A2"].PutValue(string.Join(" - ", student.Scores));
 
-The following code covers **2D nested simple arrays** and **object arrays**. You can directly copy and run in your project:
-
-#### Scenario 1: 2D Nested Simple Array
-
-```Plain Text
-// Initialize a new workbook template
-Workbook w = new Workbook();
-// Write SmartMarker tag in target cell
-w.Worksheets[0].Cells["A1"].PutValue("&=node.SizeRange(ArrayAsSingle)");
-WorkbookDesigner designer = new WorkbookDesigner(w);
-// Bind 2D nested array JSON data
-string json = "{"node": {"SizeRange": [["L","M"],["S","XL"]]}}";
-designer.SetJsonDataSource(null, json);
-// Process SmartMarker and aggregate array into single cell
-designer.Process();
-// Output result: L,M,S,XL
+        workbook.Save("output_numericArray.xlsx");
+    }
+}
 ```
 
-#### Scenario 2: Extract Specified Field from Object Array
+### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
 
-```Plain Text
-// Initialize a new workbook template
-Workbook w = new Workbook();
-// Extract "Size" field from all nested objects
-w.Worksheets[0].Cells["A1"].PutValue("&=node.SizeRange(ArrayAsSingle:Size)");
-WorkbookDesigner designer = new WorkbookDesigner(w);
-// Bind object array JSON data
-string json = "{"node": {"SizeRange": [{"Size":"L","Code":1},{"Size":"M","Code":2},{"Size":"S","Code":3},{"Size":"XL","Code":4}]}}";
-designer.SetJsonDataSource(null, json);
-// Process SmartMarker and aggregate field values
-designer.Process();
-// Output result: L, M, S, XL
+```csharp
+using System;
+using Aspose.Cells;
 
+public class Program
+{
+    public static void Main()
+    {
+        var order = new Order
+        {
+            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
+        };
+
+        var workbook = new Workbook();
+        var sheet = workbook.Worksheets[0];
+        var cells = sheet.Cells;
+
+        // Section 1: Default Smart Marker - values spread horizontally across cells
+        cells["A1"].PutValue("Default Spreading Behavior:");
+        cells["A2"].PutValue("&=Order.Items");
+
+        // Section 2: New single-cell rendering using arrayasSingle and extraDelimiter
+        cells["A4"].PutValue("Single Cell Rendering (arrayasSingle=true):");
+        cells["A5"].PutValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
+
+        // Bind the data source and process Smart Markers
+        var designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Order", order);
+        designer.Process();
+
+        // Save the resulting workbook
+        workbook.Save("output_comparison.xlsx");
+    }
+}
+
+public class Order
+{
+    public string[] Items { get; set; }
+}
 ```
+
+### **Notes & Best Practices**
+
+Keep the following points in mind when working with the `ArrayAsSingle` and `ExtraDelimiter` attributes:
+
+- The `extraDelimiter` value is treated as a string literal; escape any special characters that your template processor might interpret.
+- The `arrayasSingle` attribute accepts a boolean value (`true` / `false`). Only `true` triggers the single-cell behavior; any other value falls back to the default spreading behavior.
+- If the array is empty or null, the cell is left empty (or contains a blank string depending on the data type).
+- The feature works with object data sources as well as `DataSet` and `DataTable` sources where a column can be split into arrays.
+- For newline-separated output, you can use `\n` or `Environment.NewLine` as the delimiter value.
+- Place the Smart Marker in a cell that has sufficient width to display the resulting concatenated string; otherwise, the content may visually overflow into adjacent cells depending on the format.
+
+## **Related Articles**
+
+- [Smart Markers](/cells/net/smart-markers/)
+- [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
+
+{{< app/cells/assistant language="csharp" >}}
