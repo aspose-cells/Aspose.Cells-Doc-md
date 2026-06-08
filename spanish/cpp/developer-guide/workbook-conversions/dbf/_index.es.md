@@ -1,6 +1,6 @@
 ---
 title: Leer y Escribir Archivos DBF
-description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo, que admite la lectura y escritura de archivos dBASE III y IV (DBF). Este artículo explica cómo importar datos desde y exportar datos a archivos DBF usando Aspose.Cells, incluidos los detalles del formato de archivo, las características admitidas y ejemplos paso a paso.
+description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo, que admite la lectura y escritura de archivos dBASE III y IV (DBF). Este artículo explica cómo importar datos desde y exportar datos a archivos DBF usando Aspose.Cells, incluyendo detalles del formato de archivo, características compatibles y ejemplos paso a paso.
 keywords: Aspose.Cells, biblioteca C++, DBF, dBASE, leer DBF, escribir DBF, importar DBF, exportar DBF, formato de archivo, .dbf
 type: docs
 weight: 200
@@ -9,55 +9,55 @@ url: /es/cpp/reading-and-writing-dbf-files/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells ofrece soporte completo para leer y escribir archivos DBF (dBASE). Puede cargar archivos dBASE III y dBASE IV existentes en un objeto Workbook, manipular los datos mediante la rica API de Aspose.Cells y guardar el libro de vuelta en formato DBF para su uso con aplicaciones de bases de datos heredadas.
+Aspose.Cells ofrece soporte completo para leer y escribir archivos DBF (dBASE). Puede cargar archivos dBASE III y dBASE IV existentes en un objeto Workbook, manipular los datos usando la rica API de Aspose.Cells, y guardar el libro de trabajo nuevamente en formato DBF para su uso con aplicaciones de bases de datos legacy.
 
 {{% /alert %}}
 
 ## **Introducción**
 
-DBF (DataBase File) es un formato de archivo de base de datos heredado introducido originalmente por dBASE a principios de la década de 1980. A pesar de la antigüedad del formato, los archivos DBF siguen siendo ampliamente utilizados en muchas industrias para almacenar datos estructurados, particularmente en contabilidad, SIG y otras aplicaciones especializadas. Aspose.Cells le permite integrar estos archivos heredados en los flujos de trabajo modernos de hojas de cálculo en C++ sin problemas.
+DBF (DataBase File) es un formato de archivo de base de datos legacy introducido originalmente por dBASE a principios de la década de 1980. A pesar de la antigüedad del formato, los archivos DBF todavía se utilizan ampliamente en muchas industrias para almacenar datos estructurados, particularmente en contabilidad, SIG y otras aplicaciones especializadas. Aspose.Cells le permite integrar estos archivos legacy en flujos de trabajo modernos de hojas de cálculo en C++ de forma transparente.
 
-La biblioteca admite tanto la lectura como la escritura de archivos DBF, lo que le brinda la capacidad de:
+La biblioteca admite tanto la lectura como la escritura de archivos DBF, lo que le permite:
 
 - Importar datos desde archivos DBF existentes a objetos Workbook de Aspose.Cells para su posterior procesamiento o conversión a otros formatos.
 - Crear nuevos archivos DBF desde cero o transformando datos desde otros formatos de hojas de cálculo.
-- Mantener las definiciones de campos, tipos de datos y estructuras de registros al transferir datos dentro y fuera del formato DBF.
+- Mantener las definiciones de campos, tipos de datos y estructuras de registros al transferir datos hacia y desde el formato DBF.
 
-Los archivos DBF también se pueden abrir directamente en Microsoft Excel y otras aplicaciones de hojas de cálculo, lo que los convierte en un puente conveniente entre los sistemas heredados y las herramientas modernas de hojas de cálculo.
+Los archivos DBF también se pueden abrir directamente en Microsoft Excel y otras aplicaciones de hojas de cálculo, lo que los convierte en un puente conveniente entre sistemas legacy y herramientas modernas de hojas de cálculo.
 
-## **Versiones y Características de DBF Admitidas**
+## **Versiones de DBF Compatibles y Características**
 
 Aspose.Cells admite las siguientes versiones del formato DBF:
 
-- **dBASE III** — La variante original y más ampliamente admitida del formato DBF.
+- **dBASE III** — La variante original y más ampliamente compatible del formato DBF.
 - **dBASE IV** — Una versión extendida que admite tipos de datos adicionales y tamaños de campo más grandes.
 
-### Características Admitidas
+### Características Compatibles
 
 La biblioteca proporciona soporte integral para las siguientes operaciones:
 
-- Lectura de datos DBF en un objeto Workbook, con todos los registros y definiciones de campos conservados.
-- Escritura de datos del libro de vuelta al formato DBF para exportar a aplicaciones compatibles con dBASE.
-- Manejo de tipos de datos comunes utilizados en archivos DBF, incluidos campos de carácter, numéricos, de fecha y lógicos.
-- Preservación de definiciones de campos como el nombre, tipo y longitud del campo durante las operaciones de lectura/escritura.
+- Lectura de datos DBF en un objeto Workbook, con todos los registros y definiciones de campos preservados.
+- Escritura de datos del libro de trabajo de vuelta al formato DBF para exportar a aplicaciones compatibles con dBASE.
+- Manejo de tipos de datos comunes utilizados en archivos DBF, incluyendo campos de caracteres, numéricos, de fecha y lógicos.
+- Preservación de definiciones de campos como nombre de campo, tipo y longitud durante operaciones de lectura/escritura.
 
 ### Limitaciones y Consideraciones
 
-Al trabajar con archivos DBF, tenga en cuenta las siguientes restricciones:
+Cuando trabaje con archivos DBF, tenga en cuenta las siguientes restricciones:
 
 - El número máximo de campos por archivo es **128**.
 - El tamaño máximo de registro es **4000 bytes**.
 - Los nombres de campo están limitados a **10 caracteres**, deben estar en mayúsculas y no pueden contener espacios.
-- Los valores de fecha en archivos DBF se almacenan en formato `YYYYMMDD`.
-- La codificación de caracteres puede variar según la aplicación de origen (comúnmente Windows-1252 o páginas de códigos OEM).
+- Los valores de fecha en los archivos DBF se almacenan en formato `YYYYMMDD`.
+- La codificación de caracteres puede variar dependiendo de la aplicación de origen (comúnmente Windows-1252 o páginas de código OEM).
 
 ## **Leer un Archivo DBF**
 
-Aspose.Cells facilita la carga de datos desde un archivo DBF en un objeto Workbook. La biblioteca utiliza la clase `LoadOptions` para especificar el formato de origen, asegurando que los datos se interpreten correctamente durante el proceso de carga.
+Aspose.Cells hace que sea sencillo cargar datos desde un archivo DBF en un objeto Workbook. La biblioteca utiliza la clase `LoadOptions` para especificar el formato de origen, asegurando que los datos se interpreten correctamente durante el proceso de carga.
 
 ### Leer un Archivo DBF con Aspose.Cells
 
-Para leer un archivo DBF, necesita crear una instancia de `LoadOptions`, establecer su propiedad `LoadFormat` en `LoadFormat.Dbf` y pasarla al constructor de `Workbook` junto con la ruta del archivo. Una vez cargado, los datos son accesibles a través de la colección `Worksheets`, donde puede iterar a través de las celdas, extraer valores o manipular los datos según sea necesario.
+Para leer un archivo DBF, necesita crear una instancia de `LoadOptions`, establecer su propiedad `LoadFormat` en `LoadFormat.Dbf`, y pasarla al constructor `Workbook` junto con la ruta del archivo. Una vez cargado, los datos se vuelven accesibles a través de la colección `Worksheets`, donde puede iterar a través de las celdas, extraer valores o manipular los datos según sea necesario.
 
 El siguiente ejemplo demuestra cómo cargar un archivo DBF existente en Aspose.Cells, acceder a su primera hoja de cálculo y leer los valores de las celdas.
 
@@ -125,8 +125,8 @@ Escribir datos en un archivo DBF sigue un patrón similar al de guardar cualquie
 Para crear un archivo DBF, siga estos pasos:
 
 1. Cree una nueva instancia de `Workbook`.
-2. Acceda a la primera hoja de cálculo de la colección `Worksheets`.
-3. Rellene la hoja de cálculo con sus datos, incluyendo los encabezados en la primera fila y los registros en las filas siguientes.
+2. Acceda a la primera hoja de cálculo desde la colección `Worksheets`.
+3. Rellene la hoja de cálculo con sus datos, incluyendo encabezados en la primera fila y registros en las filas subsiguientes.
 4. Llame al método `Workbook.Save`, pasando la ruta del archivo y `SaveFormat.Dbf` como parámetros.
 
 El siguiente ejemplo demuestra cómo crear un nuevo archivo DBF desde cero. Rellena una hoja de cálculo con datos de muestra que contienen diferentes tipos de datos (cadenas, números y fechas) para ilustrar cómo se manejan los tipos de campo al exportar al formato DBF.
@@ -199,7 +199,7 @@ int main() {
     Date hireDate5{2022, 5, 30, 0, 0, 0, 0};
     cells.Get(5, 4).PutValue(hireDate5);
 
-    // Establecer anchos de columna para una mejor legibilidad
+    // Establecer anchos de columna para mejor legibilidad
     worksheet.GetCells().SetColumnWidth(0, 8);
     worksheet.GetCells().SetColumnWidth(1, 20);
     worksheet.GetCells().SetColumnWidth(2, 20);
@@ -215,45 +215,45 @@ int main() {
 
 {{% alert color="primary" %}}
 
-Al escribir datos en un archivo DBF, asegúrese de que sus datos cumplan con las limitaciones del formato. Los nombres de campo no deben tener más de 10 caracteres y no deben contener espacios. Los registros que excedan 4000 bytes en total no se guardarán correctamente. Las fechas deben ser valores de fecha válidos que puedan representarse en el formato YYYYMMDD.
+Al escribir datos en un archivo DBF, asegúrese de que sus datos cumplan con las limitaciones del formato. Los nombres de campo no deben tener más de 10 caracteres y no deben contener espacios. Los registros que excedan los 4000 bytes en total no se guardarán correctamente. Las fechas deben ser valores de fecha válidos que puedan representarse en el formato YYYYMMDD.
 
 {{% /alert %}}
 
 ## **Consideraciones sobre Tipos de Datos y Formato**
 
-Al transferir datos entre Aspose.Cells y el formato DBF, es importante comprender cómo se asignan los tipos de datos entre los dos sistemas para garantizar la integridad de los datos.
+Al transferir datos entre Aspose.Cells y el formato DBF, es importante comprender cómo se mapean los tipos de datos entre los dos sistemas para garantizar la integridad de los datos.
 
-### Tipos de Celda a Tipos de Campo DBF
+### Tipos de Celdas a Tipos de Campos DBF
 
 Los valores de celda de Aspose.Cells se convierten automáticamente a los tipos de campo DBF apropiados al guardar:
 
-- Las **cadenas** se asignan a campos de carácter (C).
-- Los **valores numéricos** (enteros y decimales) se asignan a campos numéricos (N).
-- Los **valores de fecha** se asignan a campos de fecha (D) en formato `YYYYMMDD`.
-- Los **valores booleanos** se asignan a campos lógicos (L).
+- **Cadenas** se asignan a campos de caracteres (C).
+- **Valores numéricos** (enteros y decimales) se asignan a campos numéricos (N).
+- **Valores de fecha** se asignan a campos de fecha (D) en formato `YYYYMMDD`.
+- **Valores booleanos** se asignan a campos lógicos (L).
 
 ### Codificación
 
-Los archivos DBF pueden usar diferentes codificaciones de caracteres según la aplicación que los haya creado. Aspose.Cells maneja la codificación de forma transparente en la mayoría de los casos, pero si encuentra problemas de visualización de caracteres, es posible que deba verificar la codificación del archivo de origen.
+Los archivos DBF pueden usar diferentes codificaciones de caracteres dependiendo de la aplicación que los creó. Aspose.Cells maneja la codificación de forma transparente en la mayoría de los casos, pero si encuentra problemas de visualización de caracteres, puede que necesite verificar la codificación del archivo de origen.
 
 ### Reglas de Nombres de Campo
 
 Los nombres de campo DBF deben cumplir con las siguientes reglas:
 
 - Longitud máxima de 10 caracteres.
-- Deben comenzar con una letra.
-- No pueden contener espacios ni caracteres especiales.
-- Se almacenan en mayúsculas independientemente del caso utilizado en la entrada.
+- Debe comenzar con una letra.
+- No puede contener espacios ni caracteres especiales.
+- Almacenado en mayúsculas independientemente del caso utilizado en la entrada.
 
-### Verificación del Resultado
+### Verificando el Resultado
 
-Después de escribir un archivo DBF, puede verificar el resultado abriéndolo en Microsoft Excel o cualquier aplicación compatible con dBASE. Los datos deben aparecer en un diseño tabular con los nombres de campo como encabezados de columna, y los registros completados de acuerdo con los datos que proporcionó.
+Después de escribir un archivo DBF, puede verificar el resultado abriéndolo en Microsoft Excel o cualquier aplicación compatible con dBASE. Los datos deben aparecer en un diseño tabular con los nombres de campo como encabezados de columna, y los registros completados según los datos proporcionados.
 
-## **Conversión Entre DBF y Otros Formatos**
+## **Conversión entre DBF y Otros Formatos**
 
-Uno de los casos de uso más prácticos para leer y escribir archivos DBF con Aspose.Cells es convertir datos entre el formato DBF y formatos de hojas de cálculo modernos como XLSX, XLS o CSV. Dado que Aspose.Cells admite una amplia gama de formatos, puede cargar fácilmente un archivo DBF y volver a guardarlo en cualquier otro formato admitido, o viceversa.
+Uno de los casos de uso más prácticos para leer y escribir archivos DBF con Aspose.Cells es la conversión de datos entre el formato DBF y formatos modernos de hojas de cálculo como XLSX, XLS o CSV. Dado que Aspose.Cells admite una amplia gama de formatos, puede cargar fácilmente un archivo DBF y volverlo a guardar en cualquier otro formato compatible, o viceversa.
 
-Por ejemplo, puede leer un archivo DBF, aplicar formato o cálculos usando la API de Aspose.Cells y luego guardar el resultado como un archivo XLSX para distribuirlo a usuarios que trabajan con aplicaciones modernas de hojas de cálculo. Por el contrario, puede tomar datos de un archivo XLSX o CSV y exportarlos al formato DBF para su integración con sistemas heredados.
+Por ejemplo, puede leer un archivo DBF, aplicar formato o cálculos usando la API de Aspose.Cells y luego guardar el resultado como un archivo XLSX para distribuir a usuarios que trabajan con aplicaciones modernas de hojas de cálculo. Por el contrario, puede tomar datos de un archivo XLSX o CSV y exportarlos al formato DBF para su integración con sistemas legacy.
 
 
 

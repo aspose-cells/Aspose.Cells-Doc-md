@@ -1,6 +1,6 @@
 ---
 title: Läsa och skriva DBF-filer
-description: Aspose.Cells for Aspose.Cells for Node.js via Java är ett bibliotek för att arbeta med kalkylbladsfiler, vilket stöder läsning och skrivning av dBASE III- och IV-filer (DBF). Den här artikeln förklarar hur man importerar data från och exporterar data till DBF-filer med Aspose.Cells, inklusive detaljer om filformat, stödda funktioner och steg-för-steg-exempel.
+description: Aspose.Cells for Node.js via Java är ett bibliotek för att arbeta med kalkylbladsfiler, vilket stöder läsning och skrivning av dBASE III- och IV-filer (DBF). Den här artikeln förklarar hur man importerar data från och exporterar data till DBF-filer med Aspose.Cells, inklusive detaljer om filformat, stödda funktioner och steg-för-steg-exempel.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, DBF, dBASE, läs DBF, skriv DBF, importera DBF, exportera DBF, filformat, .dbf
 type: docs
 weight: 200
