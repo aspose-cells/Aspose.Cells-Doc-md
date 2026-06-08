@@ -136,18 +136,6 @@ workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```"
 
-Hmm, this is an HTML comment. According to the rules, code blocks should not be translated. This is an HTML comment, not a code block. But it's a technical instruction for code. I'll leave it as is since it's instructing code behavior.
-
-Wait, but the content is in English and it's not a code block per se. Let me re-read the rules:
-"Code Examples: ALL code inside ```csharp blocks or {{< gist ... >}} shortcodes must remain in English exactly as-is. Do NOT translate code."
-
-This is an HTML comment, not a code block. However, it's describing code behavior. I think it's safer to translate it to French since it's prose text, not actual code. Actually, looking more carefully, these are code generation instructions for the platform. I'll translate them as they are descriptive text.
-
-Actually, on reflection, these are code comments/descriptions for the code block that follows. They're not "code" in the traditional sense - they're descriptive text. I'll translate them to French.
-
-"You can open DBF files directly in Microsoft Excel by selecting the file in the Open dialog. Excel will treat the DBF file as a spreadsheet, displaying its records in a tabular layout. This is useful for quickly verifying the data after reading or writing it with Aspose.Cells."
-"Vous pouvez ouvrir les fichiers DBF directement dans Microsoft Excel en sélectionnant le fichier dans la boîte de dialogue Ouvrir. Excel traitera le fichier DBF comme une feuille de calcul, affichant ses enregistrements dans une disposition tabulaire. Ceci est utile pour vérifier rapidement les données après les avoir lues ou écrites avec Aspose.Cells."
-
 "## **Writing a DBF File**" -> "## **Écriture d'un fichier DBF**"
 
 "Writing data to a DBF file follows a similar pattern to saving any other spreadsheet format with Aspose.Cells. You create or load a Workbook, populate the worksheet with data, and then call the `save` method while specifying `SaveFormat.Dbf` as the target format."
