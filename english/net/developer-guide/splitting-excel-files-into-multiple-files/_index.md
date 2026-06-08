@@ -1,3 +1,4 @@
+
 ---
 title: Splitting Excel Files into Multiple Files
 description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports splitting a single Excel file into multiple files. This article will introduce how to split Excel files by copying each worksheet to a separate workbook and by copying specific cell ranges to other workbooks.
