@@ -1,4 +1,3 @@
-
 ---
 title: Reading and Writing DBF Files
 description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports reading and writing dBASE III and IV (DBF) files. This article explains how to import data from and export data to DBF files using Aspose.Cells, including file format details, supported features, and step-by-step examples.
