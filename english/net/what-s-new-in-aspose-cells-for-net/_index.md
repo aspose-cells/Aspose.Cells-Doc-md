@@ -15,7 +15,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Support to show or hide data type icons
 * Support to set how the application displays shapes in this workbook
 * Preserve original data of calculation chain when re-saving a Workbook without changing cells data
-* Reconstruct long text concated by _LONGTEXT() function into single string parameter of formula
+* Reconstruct long text concated by `_LONGTEXT()` function into single string parameter of formula
 
 ## Aspose.Cells for .NET 26.5
 * Support multiple aggregations for GROUPBY function
