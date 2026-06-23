@@ -61,3 +61,5 @@ This section provides practical guides for common GridJs operations such as form
 - [Validation Input Settings](/cells/java/aspose-cells-gridjs/user-guide/validation-input-settings/)
 - [How to add switch rename and delete worksheets](/cells/java/aspose-cells-gridjs/user-guide/worksheet-management-add-switch-rename-delete-sheet/)
 - [Zoom Levels](/cells/java/aspose-cells-gridjs/user-guide/zoom-levels/)
+- [How to extract and filter text](/cells/java/aspose-cells-gridjs/user-guide/how-to-extract-and-filter-text/)
+- [How to reorder worksheet tabs](/cells/java/aspose-cells-gridjs/user-guide/how-to-reorder-worksheet-tabs/)
