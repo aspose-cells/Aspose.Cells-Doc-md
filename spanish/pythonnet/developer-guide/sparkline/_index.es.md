@@ -1,7 +1,7 @@
 ---
 title: Sparklines in Aspose.Cells for Python via .NET
 linktitle: Sparklines
-description: Aspose.Cells es una biblioteca de Python para trabajar con archivos de hojas de cálculo que admite la creación de sparklines: minigráficos colocados dentro de las celdas de la hoja de cálculo. Este artículo explica cómo agregar y personalizar sparklines de línea, columna y victoria/derrota utilizando la biblioteca Aspose.Cells.
+description: Aspose.Cells es una biblioteca de Python para trabajar con archivos de hojas de cálculo que admite la creación de sparklines, minigráficos colocados dentro de las celdas de la hoja de cálculo. Este artículo explica cómo agregar y personalizar sparklines de línea, columna y victoria/derrota utilizando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca Python, hoja de cálculo, sparklines, sparkline de línea, sparkline de columna, sparkline de victoria/derrota, SparklineGroup, SparklineType
 type: docs
 weight: 195
