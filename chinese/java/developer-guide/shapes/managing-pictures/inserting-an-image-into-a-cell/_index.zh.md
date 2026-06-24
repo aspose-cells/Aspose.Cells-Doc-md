@@ -1,6 +1,6 @@
 ---
 title: 将图片插入单元格
-description: Aspose.Cells 是一个用于处理电子表格文件的 Java 库。本文介绍如何通过两种不同的方式将图片精确地适应单个单元格大小：将浮动图片放置在单元格上方，或者将图片直接嵌入到单元格中。
+description: Aspose.Cells 是一个用于处理电子表格文件的 Java 库。本文介绍如何通过两种不同的方式将图片精确地适应单个单元格大小，将浮动图片放置在单元格上方，或者将图片直接嵌入到单元格中。
 keywords: Aspose.Cells, Java 库, 电子表格, 插入图片, 嵌入图片, 单元格中的图片, 图片适应单元格, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

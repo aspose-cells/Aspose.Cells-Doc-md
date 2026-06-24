@@ -1,6 +1,6 @@
 ---
 title: Infoga en bild i en cell
-description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enda cellstorlek med två olika metoder: placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enda cellstorlek med två olika metoder, placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
 keywords: Aspose.Cells, NET library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

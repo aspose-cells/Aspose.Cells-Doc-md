@@ -1,6 +1,6 @@
 ---
 title: Inserimento di un'immagine in una cella
-description: Aspose.Cells è una libreria Node.js tramite Java per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare esattamente un'immagine alla dimensione di una singola cella utilizzando due approcci diversi: posizionare un'immagine mobile sopra la cella oppure incorporare l'immagine direttamente nella cella.
+description: Aspose.Cells è una libreria Node.js tramite Java per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare esattamente un'immagine alla dimensione di una singola cella utilizzando due approcci diversi, posizionare un'immagine mobile sopra la cella oppure incorporare l'immagine direttamente nella cella.
 keywords: Aspose.Cells, libreria Node.js tramite Java, foglio di calcolo, inserisci immagine, incorpora immagine, immagine nella cella, adatta immagine alla cella, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

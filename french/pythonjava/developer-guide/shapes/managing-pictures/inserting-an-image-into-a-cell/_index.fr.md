@@ -1,6 +1,6 @@
 ---
 title: Insertion d'une image dans une cellule
-description: Aspose.Cells for Python via Java est une bibliothèque permettant de travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes : placer une image flottante sur la cellule, ou intégrer l'image directement dans la cellule.
+description: Aspose.Cells for Python via Java est une bibliothèque permettant de travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes, placer une image flottante sur la cellule, ou intégrer l'image directement dans la cellule.
 keywords: Aspose.Cells, Python via Java library, tableur, insérer image, intégrer image, image dans cellule, ajuster image à cellule, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

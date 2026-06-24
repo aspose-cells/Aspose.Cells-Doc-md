@@ -1,6 +1,6 @@
 ---
 title: Inserimento di un'immagine in una cella
-description: Aspose.Cells è una libreria C++ per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare un'immagine esattamente alla dimensione di una singola cella utilizzando due approcci diversi: posizionare un'immagine mobile sopra la cella oppure incorporare l'immagine direttamente nella cella.
+description: Aspose.Cells è una libreria C++ per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare un'immagine esattamente alla dimensione di una singola cella utilizzando due approcci diversi, posizionare un'immagine mobile sopra la cella oppure incorporare l'immagine direttamente nella cella.
 keywords: Aspose.Cells, libreria C++, foglio di calcolo, inserire immagine, incorporare immagine, immagine in cella, adattare immagine a cella, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

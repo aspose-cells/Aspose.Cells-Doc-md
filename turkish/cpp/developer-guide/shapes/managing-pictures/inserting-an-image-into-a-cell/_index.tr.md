@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Görüntü Ekleme
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir C++ kütüphanesidir. Bu makale, resmi tek bir hücre boyutuna tam olarak sığdırmak için iki farklı yaklaşımı açıklar: hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücrenin içine gömmek.
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir C++ kütüphanesidir. Bu makale, resmi tek bir hücre boyutuna tam olarak sığdırmak için iki farklı yaklaşımı açıklar, hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücrenin içine gömmek.
 keywords: Aspose.Cells, C++ kütüphanesi, elektronik tablo, görüntü ekleme, görüntü gömme, hücredeki resim, resmi hücreye sığdırma, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

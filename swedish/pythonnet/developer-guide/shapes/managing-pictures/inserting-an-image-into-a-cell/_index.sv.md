@@ -1,6 +1,6 @@
 ---
 title: Infoga en bild i en cell
-description: Aspose.Cells är ett Python-bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enda cellstorlek med två olika metoder: placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
+description: Aspose.Cells är ett Python-bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enda cellstorlek med två olika metoder, placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
 keywords: Aspose.Cells, Python-bibliotek, kalkylark, infoga bild, bädda in bild, bild i cell, anpassa bild till cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

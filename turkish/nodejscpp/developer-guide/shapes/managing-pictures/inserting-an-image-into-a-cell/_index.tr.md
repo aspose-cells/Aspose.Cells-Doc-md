@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Resim Ekleme
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir Node.js via C++ kütüphanesidir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklamaktadır: hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücreye gömmek.
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir Node.js via C++ kütüphanesidir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklamaktadır, hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücreye gömmek.
 keywords: Aspose.Cells, Node.js via C++ kütüphanesi, elektronik tablo, resim ekle, resim göm, hücredeki resim, resmi hücreye sığdır, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

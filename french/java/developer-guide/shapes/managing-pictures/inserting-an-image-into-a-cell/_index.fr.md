@@ -1,6 +1,6 @@
 ---
 title: Insertion d'une image dans une cellule
-description: Aspose.Cells est une bibliothèque Java pour travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes : placer une image flottante sur la cellule, ou intégrer l'image directement dans la cellule.
+description: Aspose.Cells est une bibliothèque Java pour travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes, placer une image flottante sur la cellule, ou intégrer l'image directement dans la cellule.
 keywords: Aspose.Cells, Java library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

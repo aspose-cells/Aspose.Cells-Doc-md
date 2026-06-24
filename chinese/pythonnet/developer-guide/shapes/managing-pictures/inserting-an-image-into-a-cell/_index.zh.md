@@ -1,6 +1,6 @@
 ---
 title: 在单元格中插入图像
-description: Aspose.Cells 是用于处理电子表格文件的 Python 库。本文介绍了通过两种不同方法将图片精确适配到单个单元格大小：放置一个浮动图片覆盖在单元格上，或直接将图像嵌入到单元格中。
+description: Aspose.Cells 是用于处理电子表格文件的 Python 库。本文介绍了通过两种不同方法将图片精确适配到单个单元格大小，放置一个浮动图片覆盖在单元格上，或直接将图像嵌入到单元格中。
 keywords: Aspose.Cells, Python 库, 电子表格, 插入图像, 嵌入图像, 单元格中的图片, 适配图像到单元格, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

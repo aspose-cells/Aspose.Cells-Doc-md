@@ -1,6 +1,6 @@
 ---
 title: Einfügen eines Bildes in eine Zelle
-description: Aspose.Cells for Python via Java ist eine Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild genau auf eine einzelne Zellengröße angepasst wird, und zwar mit zwei verschiedenen Ansätzen: Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
+description: Aspose.Cells for Python via Java ist eine Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild genau auf eine einzelne Zellengröße angepasst wird, und zwar mit zwei verschiedenen Ansätzen, Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
 keywords: Aspose.Cells, Python via Java Bibliothek, Tabellenkalkulation, Bild einfügen, Bild einbetten, Bild in Zelle, Bild an Zelle anpassen, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

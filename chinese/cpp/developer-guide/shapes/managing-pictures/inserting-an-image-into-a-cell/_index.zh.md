@@ -1,6 +1,6 @@
 ---
 title: 在单元格中插入图片
-description: Aspose.Cells 是一个用于处理电子表格文件的 C++ 库。本文介绍如何使用两种不同的方法使图片精确地适应单个单元格的大小：将浮动图片放置在单元格上方，或将图片直接嵌入到单元格中。
+description: Aspose.Cells 是一个用于处理电子表格文件的 C++ 库。本文介绍如何使用两种不同的方法使图片精确地适应单个单元格的大小，将浮动图片放置在单元格上方，或将图片直接嵌入到单元格中。
 keywords: Aspose.Cells, C++ 库, 电子表格, 插入图片, 嵌入图片, 单元格中的图片, 图片适应单元格, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

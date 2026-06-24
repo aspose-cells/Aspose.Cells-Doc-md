@@ -1,6 +1,6 @@
 ---
 title: إدراج صورة في خلية
-description: Aspose.Cells هي مكتبة Java للعمل مع ملفات جداول البيانات. تشرح هذه المقالة كيفية ضبط صورة لتتناسب تمامًا مع حجم خلية واحدة باستخدام طريقتين مختلفتين: وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرةً داخل الخلية.
+description: Aspose.Cells هي مكتبة Java للعمل مع ملفات جداول البيانات. تشرح هذه المقالة كيفية ضبط صورة لتتناسب تمامًا مع حجم خلية واحدة باستخدام طريقتين مختلفتين، وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرةً داخل الخلية.
 keywords: Aspose.Cells, Java library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

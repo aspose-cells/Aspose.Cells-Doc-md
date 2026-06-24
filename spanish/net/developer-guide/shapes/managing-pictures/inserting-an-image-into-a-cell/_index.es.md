@@ -1,6 +1,6 @@
 ---
 title: Insertar una imagen en una celda
-description: Aspose.Cells es una biblioteca .NET para trabajar con archivos de hojas de cálculo. Este artículo explica cómo ajustar una imagen exactamente al tamaño de una sola celda utilizando dos enfoques diferentes: colocar una imagen flotante sobre la celda o incrustar la imagen directamente en la celda.
+description: Aspose.Cells es una biblioteca .NET para trabajar con archivos de hojas de cálculo. Este artículo explica cómo ajustar una imagen exactamente al tamaño de una sola celda utilizando dos enfoques diferentes, colocar una imagen flotante sobre la celda o incrustar la imagen directamente en la celda.
 keywords: Aspose.Cells, biblioteca NET, hoja de cálculo, insertar imagen, incrustar imagen, imagen en celda, ajustar imagen a celda, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

@@ -1,6 +1,6 @@
 ---
 title: Inserimento di un'immagine in una cella
-description: Aspose.Cells for Python via Java è una libreria per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare esattamente un'immagine alle dimensioni di una singola cella utilizzando due approcci diversi: posizionare un'immagine mobile sopra la cella o incorporare l'immagine direttamente nella cella.
+description: Aspose.Cells for Python via Java è una libreria per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare esattamente un'immagine alle dimensioni di una singola cella utilizzando due approcci diversi, posizionare un'immagine mobile sopra la cella o incorporare l'immagine direttamente nella cella.
 keywords: Aspose.Cells, libreria Python via Java, foglio di calcolo, inserire immagine, incorporare immagine, immagine nella cella, adattare immagine alla cella, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

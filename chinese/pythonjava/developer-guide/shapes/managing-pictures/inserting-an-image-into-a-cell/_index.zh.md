@@ -1,6 +1,6 @@
 ---
 title: 在单元格中插入图片
-description: Aspose.Cells for Python via Java 是一个用于处理电子表格文件的库。本文介绍如何通过两种不同的方法将图片精确地适配到单个单元格大小：在单元格上方放置浮动图片，或将图片直接嵌入单元格中。
+description: Aspose.Cells for Python via Java 是一个用于处理电子表格文件的库。本文介绍如何通过两种不同的方法将图片精确地适配到单个单元格大小，在单元格上方放置浮动图片，或将图片直接嵌入单元格中。
 keywords: Aspose.Cells, Python via Java 库, 电子表格, 插入图片, 嵌入图片, 单元格中的图片, 图片适配单元格, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

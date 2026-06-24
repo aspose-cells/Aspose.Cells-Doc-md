@@ -1,6 +1,6 @@
 ---
 title: Infoga en bild i en cell
-description: Aspose.Cells är ett Node.js via Java-bibliotek för att arbeta med kalkylbladsfiler. Denna artikel förklarar hur man anpassar en bild exakt till en enskild cellstorlek med två olika metoder: placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
+description: Aspose.Cells är ett Node.js via Java-bibliotek för att arbeta med kalkylbladsfiler. Denna artikel förklarar hur man anpassar en bild exakt till en enskild cellstorlek med två olika metoder, placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
 keywords: Aspose.Cells, Node.js via Java-bibliotek, kalkylblad, infoga bild, bädda in bild, bild i cell, anpassa bild till cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

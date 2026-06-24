@@ -1,6 +1,6 @@
 ---
 title: Infoga en bild i en cell
-description: Aspose.Cells är ett C++-bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enskild cells storlek med hjälp av två olika metoder: placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
+description: Aspose.Cells är ett C++-bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man anpassar en bild exakt till en enskild cells storlek med hjälp av två olika metoder, placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
 keywords: Aspose.Cells, C++-bibliotek, kalkylblad, infoga bild, bädda in bild, bild i cell, anpassa bild till cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

@@ -1,6 +1,6 @@
 ---
 title: Inserting an Image into a Cell
-description: Aspose.Cells for Python via Java is a library for working with spreadsheet files. This article explains how to fit a picture exactly to a single cell size using two different approaches: placing a floating picture over the cell, or embedding the image directly into the cell.
+description: Aspose.Cells for Python via Java is a library for working with spreadsheet files. This article explains how to fit a picture exactly to a single cell, either by placing a floating picture over the cell or by embedding the image directly into the cell.
 keywords: Aspose.Cells, Python via Java library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

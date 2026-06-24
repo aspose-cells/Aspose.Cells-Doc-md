@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Resim Ekleme
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir Java kütüphanesidir. Bu makale, bir resmi iki farklı yaklaşımla tam olarak tek bir hücre boyutuna sığdırmayı açıklar: hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücrenin içine gömmek.
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir Java kütüphanesidir. Bu makale, bir resmi iki farklı yaklaşımla tam olarak tek bir hücre boyutuna sığdırmayı açıklar, hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücrenin içine gömmek.
 keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, resim ekleme, resmi gömme, hücredeki resim, resmi hücreye sığdırma, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

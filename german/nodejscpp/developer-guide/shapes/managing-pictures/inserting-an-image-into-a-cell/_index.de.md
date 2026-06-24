@@ -1,6 +1,6 @@
 ---
 title: Einfügen eines Bildes in eine Zelle
-description: Aspose.Cells ist eine Node.js-via-C++-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild genau an die Größe einer einzelnen Zelle angepasst werden kann, indem zwei verschiedene Ansätze verwendet werden: Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
+description: Aspose.Cells ist eine Node.js-via-C++-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild genau an die Größe einer einzelnen Zelle angepasst werden kann, indem zwei verschiedene Ansätze verwendet werden, Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
 keywords: Aspose.Cells, Node.js-via-C++-Bibliothek, Tabellenkalkulation, Bild einfügen, Bild einbetten, Bild in Zelle, Bild an Zelle anpassen, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

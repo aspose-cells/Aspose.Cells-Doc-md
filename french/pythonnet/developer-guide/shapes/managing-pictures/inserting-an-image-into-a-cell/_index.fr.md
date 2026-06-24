@@ -1,6 +1,6 @@
 ---
 title: Insertion d'une image dans une cellule
-description: Aspose.Cells est une bibliothèque Python permettant de travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes : placer une image flottante par-dessus la cellule, ou intégrer l'image directement dans la cellule.
+description: Aspose.Cells est une bibliothèque Python permettant de travailler avec des fichiers de tableur. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes, placer une image flottante par-dessus la cellule, ou intégrer l'image directement dans la cellule.
 keywords: Aspose.Cells, Python library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

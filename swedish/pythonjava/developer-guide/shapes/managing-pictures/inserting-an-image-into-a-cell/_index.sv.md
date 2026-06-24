@@ -1,6 +1,6 @@
 ---
 title: Infoga en bild i en cell
-description: Aspose.Cells for Python via Java är ett bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man passar in en bild exakt i en enda cellstorlek med hjälp av två olika metoder: antingen placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
+description: Aspose.Cells for Python via Java är ett bibliotek för att arbeta med kalkylarksfiler. Den här artikeln förklarar hur man passar in en bild exakt i en enda cellstorlek med hjälp av två olika metoder, antingen placera en flytande bild över cellen, eller bädda in bilden direkt i cellen.
 keywords: Aspose.Cells, Python via Java-bibliotek, kalkylark, infoga bild, bädda in bild, bild i cell, passa bild till cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

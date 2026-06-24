@@ -1,6 +1,6 @@
 ---
 title: Inserimento di un'immagine in una cella
-description: Aspose.Cells è una libreria Java per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare un'immagine esattamente alle dimensioni di una singola cella utilizzando due approcci diversi: posizionare un'immagine mobile sopra la cella o incorporare l'immagine direttamente nella cella.
+description: Aspose.Cells è una libreria Java per lavorare con file di fogli di calcolo. Questo articolo spiega come adattare un'immagine esattamente alle dimensioni di una singola cella utilizzando due approcci diversi, posizionare un'immagine mobile sopra la cella o incorporare l'immagine direttamente nella cella.
 keywords: Aspose.Cells, libreria Java, foglio di calcolo, inserisci immagine, incorpora immagine, immagine nella cella, adatta immagine alla cella, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

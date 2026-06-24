@@ -1,6 +1,6 @@
 ---
 title: Einfügen eines Bildes in eine Zelle
-description: Aspose.Cells ist eine C++-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erläutert, wie ein Bild mithilfe zweier verschiedener Ansätze genau an die Größe einer einzelnen Zelle angepasst werden kann: durch Platzieren eines schwebenden Bildes über der Zelle oder durch direktes Einbetten des Bildes in die Zelle.
+description: Aspose.Cells ist eine C++-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erläutert, wie ein Bild mithilfe zweier verschiedener Ansätze genau an die Größe einer einzelnen Zelle angepasst werden kann, durch Platzieren eines schwebenden Bildes über der Zelle oder durch direktes Einbetten des Bildes in die Zelle.
 keywords: Aspose.Cells, C++-Bibliothek, Tabellenkalkulation, Bild einfügen, Bild einbetten, Bild in Zelle, Bild an Zelle anpassen, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

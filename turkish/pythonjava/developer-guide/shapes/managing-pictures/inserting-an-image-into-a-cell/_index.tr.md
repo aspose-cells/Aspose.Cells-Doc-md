@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Görüntü Ekleme
-description: Aspose.Cells for Python via Java, elektronik tablo dosyalarıyla çalışmak için bir kütüphanedir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar: hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücrenin içine gömmek.
+description: Aspose.Cells for Python via Java, elektronik tablo dosyalarıyla çalışmak için bir kütüphanedir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar, hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücrenin içine gömmek.
 keywords: Aspose.Cells, Python via Java kütüphanesi, elektronik tablo, görüntü ekleme, görüntü gömme, hücredeki resim, resmi hücreye sığdırma, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

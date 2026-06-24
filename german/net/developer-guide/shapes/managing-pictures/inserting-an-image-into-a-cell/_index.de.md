@@ -1,6 +1,6 @@
 ---
 title: Einfügen eines Bildes in eine Zelle
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild mithilfe zweier verschiedener Ansätze exakt an die Größe einer einzelnen Zelle angepasst werden kann: Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
+description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Dieser Artikel erklärt, wie ein Bild mithilfe zweier verschiedener Ansätze exakt an die Größe einer einzelnen Zelle angepasst werden kann, Platzieren eines schwebenden Bildes über der Zelle oder direktes Einbetten des Bildes in die Zelle.
 keywords: Aspose.Cells, NET-Bibliothek, Tabellenkalkulation, Bild einfügen, Bild einbetten, Bild in Zelle, Bild an Zelle anpassen, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

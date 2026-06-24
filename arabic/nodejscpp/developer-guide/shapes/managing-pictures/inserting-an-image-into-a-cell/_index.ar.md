@@ -1,6 +1,6 @@
 ---
 title: إدراج صورة في خلية
-description: Aspose.Cells هي مكتبة Node.js عبر C++ للعمل مع ملفات جداول البيانات. توضح هذه المقالة كيفية ضبط صورة بدقة لتناسب حجم خلية واحدة باستخدام طريقتين مختلفتين: وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرة في الخلية.
+description: Aspose.Cells هي مكتبة Node.js عبر C++ للعمل مع ملفات جداول البيانات. توضح هذه المقالة كيفية ضبط صورة بدقة لتناسب حجم خلية واحدة باستخدام طريقتين مختلفتين، وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرة في الخلية.
 keywords: Aspose.Cells, Node.js via C++ library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

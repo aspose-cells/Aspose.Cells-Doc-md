@@ -1,6 +1,6 @@
 ---
 title: إدراج صورة في خلية
-description: Aspose.Cells for Python via Java هي مكتبة للعمل مع ملفات جداول البيانات. تشرح هذه المقالة كيفية ضبط صورة بدقة لتطابق حجم خلية واحدة باستخدام طريقتين مختلفتين: وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرة في الخلية.
+description: Aspose.Cells for Python via Java هي مكتبة للعمل مع ملفات جداول البيانات. تشرح هذه المقالة كيفية ضبط صورة بدقة لتطابق حجم خلية واحدة باستخدام طريقتين مختلفتين، وضع صورة عائمة فوق الخلية، أو تضمين الصورة مباشرة في الخلية.
 keywords: Aspose.Cells, Python via Java library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

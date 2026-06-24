@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Resim Ekleme
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir Python kütüphanesidir. Bu makale, bir resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar: hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücreye gömmek.
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir Python kütüphanesidir. Bu makale, bir resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar, hücrenin üzerine kayan bir resim yerleştirmek veya resmi doğrudan hücreye gömmek.
 keywords: Aspose.Cells, Python kütüphanesi, elektronik tablo, resim ekleme, resim gömme, hücrede resim, resmi hücreye sığdırma, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

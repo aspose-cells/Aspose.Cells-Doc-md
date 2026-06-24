@@ -1,6 +1,6 @@
 ---
 title: セルへの画像の挿入
-description: Aspose.Cells は、Node.js via Java ライブラリで、スプレッドシートファイルの操作に使用されます。この記事では、画像を単一セルサイズに正確に合わせる2つの異なる方法を説明します: セル上にフローティング画像を配置する方法と、画像をセルに直接埋め込む方法です。
+description: Aspose.Cells は、Node.js via Java ライブラリで、スプレッドシートファイルの操作に使用されます。この記事では、画像を単一セルサイズに正確に合わせる2つの異なる方法を説明します、セル上にフローティング画像を配置する方法と、画像をセルに直接埋め込む方法です。
 keywords: Aspose.Cells, Node.js via Java ライブラリ, スプレッドシート, 画像挿入, 画像埋め込み, セル内画像, セルに画像を合わせる, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

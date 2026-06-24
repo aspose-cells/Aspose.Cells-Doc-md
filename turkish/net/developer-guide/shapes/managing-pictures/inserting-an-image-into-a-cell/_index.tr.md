@@ -1,6 +1,6 @@
 ---
 title: Bir Hücreye Görüntü Ekleme
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar: hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücreye gömmek.
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir. Bu makale, resmi tam olarak tek bir hücre boyutuna sığdırmayı iki farklı yaklaşımla açıklar, hücrenin üzerine kayan bir resim yerleştirmek veya görüntüyü doğrudan hücreye gömmek.
 keywords: Aspose.Cells, .NET kütüphanesi, elektronik tablo, görüntü ekleme, görüntü gömme, hücrede resim, resmi hücreye sığdırma, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

@@ -1,6 +1,6 @@
 ---
 title: Insertion d'une image dans une cellule
-description: Aspose.Cells est une bibliothèque .NET pour travailler avec des fichiers de feuilles de calcul. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes : placer une image flottante au-dessus de la cellule, ou intégrer l'image directement dans la cellule.
+description: Aspose.Cells est une bibliothèque .NET pour travailler avec des fichiers de feuilles de calcul. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes, placer une image flottante au-dessus de la cellule, ou intégrer l'image directement dans la cellule.
 keywords: Aspose.Cells, NET library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

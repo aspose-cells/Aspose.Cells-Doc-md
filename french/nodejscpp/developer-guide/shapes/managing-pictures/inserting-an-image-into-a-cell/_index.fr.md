@@ -1,6 +1,6 @@
 ---
 title: Insertion d'une image dans une cellule
-description: Aspose.Cells est une bibliothèque Node.js via C++ pour travailler avec des fichiers de feuilles de calcul. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes : placer une image flottante sur la cellule ou intégrer l'image directement dans la cellule.
+description: Aspose.Cells est une bibliothèque Node.js via C++ pour travailler avec des fichiers de feuilles de calcul. Cet article explique comment ajuster une image exactement à la taille d'une seule cellule en utilisant deux approches différentes, placer une image flottante sur la cellule ou intégrer l'image directement dans la cellule.
 keywords: Aspose.Cells, bibliothèque Node.js via C++, feuille de calcul, insérer image, intégrer image, image dans cellule, ajuster image à cellule, PictureCollection, EmbeddedImage
 type: docs
 weight: 80

@@ -1,6 +1,6 @@
 ---
 title: 在单元格中插入图片
-description: Aspose.Cells 是一个通过 Java 使用的 Node.js 库，用于处理电子表格文件。本文介绍如何通过两种不同的方法将图片精确适配到单个单元格大小：将浮动图片放置在单元格上方，或将图片直接嵌入到单元格中。
+description: Aspose.Cells 是一个通过 Java 使用的 Node.js 库，用于处理电子表格文件。本文介绍如何通过两种不同的方法将图片精确适配到单个单元格大小，将浮动图片放置在单元格上方，或将图片直接嵌入到单元格中。
 keywords: Aspose.Cells, Node.js via Java 库, 电子表格, 插入图片, 嵌入图片, 单元格中的图片, 图片适配单元格, PictureCollection, EmbeddedImage
 type: docs
 weight: 80
