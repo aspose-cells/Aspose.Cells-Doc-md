@@ -80,21 +80,24 @@ the parameters for load options:
 
 -  load with json data
 ```javascript
-xs.loadData(data)
-// the parameters is:
+xs.loadData(data,activeSheetName)
+// the parameters are:
 	data: the json data which describ the data structure for the worksheets
+	activeSheetName: the name of the active worksheet, it is optional, if not set,you can call setActiveSheetByName/setActiveSheet to specify the active sheet later
 ```
 -  set active sheet by sheetname
 ```javascript
-xs.setActiveSheetByName(sheetname)
-// the parameters is:
-	sheetname: the sheet name 
+xs.setActiveSheetByName(sheetName,isReActive)
+// the parameters are:
+	sheetName: the sheet name 
+	isReActive: force re-activate of the sheet, regardless of its current activation state
 ```
 -  set active sheet by id
 ```javascript
-xs.setActiveSheet(id)
-// the parameters is:
-	sheetname: the sheet id 
+xs.setActiveSheet(id,isReActive)
+// the parameters are:
+	id: the index of the sheet
+	isReActive: force re-activate of the sheet, regardless of its current activation state
 ```
 
 -  set active cell
