@@ -10,6 +10,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 26.7
+* Support LET function which uses LAMBDA function as "name_value"
+* Support converting HTML Table into Excel
+* Support filter of timeline
+* Support parsing text-transform:capitalize, text-transform:full-width when importing HTML
+* Support selecting and unselecting item of slicer
+* Enhancement to get slicer items with Table source
+
 ## Aspose.Cells for Java 26.6
 * Support long text exceeding 256 characters in formula
 * Support to show or hide data type icons
