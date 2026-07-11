@@ -63,3 +63,7 @@ This section provides practical guides for common GridJs operations such as form
 - [Zoom Levels](/cells/java/aspose-cells-gridjs/user-guide/zoom-levels/)
 - [How to extract and filter text](/cells/java/aspose-cells-gridjs/user-guide/how-to-extract-and-filter-text/)
 - [How to reorder worksheet tabs](/cells/java/aspose-cells-gridjs/user-guide/how-to-reorder-worksheet-tabs/)
+- [How to use GridJs in Angular](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-gridjs-in-angular/)
+- [How to use GridJs in React](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-gridjs-in-react/)
+- [How to use GridJs in Vue](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-gridjs-in-vue/)
+- [How to use GridJs with Vanilla HTML](/cells/java/aspose-cells-gridjs/user-guide/how-to-use-gridjs-with-vanilla-html/)
