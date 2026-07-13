@@ -110,7 +110,6 @@ C++を使用したAspose.Cells for JavaScriptでExcelファイルに計算フィ
             pivotTable.addFieldToArea(PivotFieldType.Row, 0);
             // Adding a calculated field to PivotTable and drag it to data area.
             pivotTable.addCalculatedField("total", "=Count*Price", true);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file

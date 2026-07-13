@@ -68,7 +68,6 @@ Aspose.Cells for JavaScript через C++ поддерживает скрыти
             field.isAutoSort = true;
             field.isAscendSort = false;
             field.autoSortField = 0;
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Hiding rows with score less than 60
@@ -81,7 +80,6 @@ Aspose.Cells for JavaScript через C++ поддерживает скрыти
                 currentRow = currentRow + 1;
             }
 
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file and providing download link

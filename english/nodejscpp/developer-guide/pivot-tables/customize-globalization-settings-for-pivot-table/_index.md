@@ -131,7 +131,6 @@ async function run() {
     // Access the pivot table, refresh it, and calculate its data
     const pt = ws.getPivotTables().get(0);
     pt.setRefreshDataFlag(true);
-    pt.refreshData();
     pt.calculateData();
     pt.setRefreshDataFlag(false);
 

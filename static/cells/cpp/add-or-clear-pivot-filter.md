@@ -70,7 +70,6 @@ field.SetAutoSortField(0);
 // Add top10 filter
 PivotField filterField = pivotTable.GetRowFields().Get(0);
 filterField.FilterTop10(0, PivotFilterType::Count, false, 5);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 // Save the workbook
 workbook.Save(u"filterout.xlsx");
@@ -149,12 +148,10 @@ field.SetAutoSortField(0);
 // Add top10 filter
 PivotField filterField = pivotTable.GetRowFields().Get(0);
 filterField.FilterTop10(0, PivotFilterType::Count, false, 5);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save(u"out_add.xlsx");
 // Clear PivotFilter from the specific PivotField
 pivotTable.GetPivotFilters().ClearFilter(field.GetBaseIndex());
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save(u"out_delete.xlsx");
 Aspose::Cells::Cleanup();

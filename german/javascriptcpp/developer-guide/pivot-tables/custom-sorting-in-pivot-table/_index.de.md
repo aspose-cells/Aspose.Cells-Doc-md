@@ -90,7 +90,6 @@ Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden
             colField.isAscendSort = true;
             // Dragging the third field to the data area.
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
             // end of source PivotTable
 
@@ -110,7 +109,6 @@ Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden
             colField.isAscendSort = true;
             colField.autoSortField = 0;
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // sort the PivotTable on "28/07/2000" column field values
@@ -129,7 +127,6 @@ Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden
             colField.isAutoSort = true;
             colField.isAscendSort = true;
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the Excel file (XLSX)

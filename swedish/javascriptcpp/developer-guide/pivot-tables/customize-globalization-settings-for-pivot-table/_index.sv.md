@@ -162,7 +162,6 @@ Följande exempelkod visar hur man anpassar globaliseringsinställningar för pi
             // Access the pivot table, refresh and calculate its data
             const pt = ws.pivotTables.get(0);
             pt.refreshDataFlag = true;
-            pt.refreshData();
             pt.calculateData();
             pt.refreshDataFlag = false;
 

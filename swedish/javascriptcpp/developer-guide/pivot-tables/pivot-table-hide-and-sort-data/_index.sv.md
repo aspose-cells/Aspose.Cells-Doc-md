@@ -68,7 +68,6 @@ Aspose.Cells for JavaScript via C++ stöder att dölja och sortera data i pivott
             field.isAutoSort = true;
             field.isAscendSort = false;
             field.autoSortField = 0;
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Hiding rows with score less than 60
@@ -81,7 +80,6 @@ Aspose.Cells for JavaScript via C++ stöder att dölja och sortera data i pivott
                 currentRow = currentRow + 1;
             }
 
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file and providing download link

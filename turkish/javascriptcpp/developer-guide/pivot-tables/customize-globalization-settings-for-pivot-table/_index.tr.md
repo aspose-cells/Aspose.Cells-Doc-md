@@ -162,7 +162,6 @@ Aşağıdaki örnek kod, pivot tablosu için globalizasyon ayarlarını nasıl �
             // Access the pivot table, refresh and calculate its data
             const pt = ws.pivotTables.get(0);
             pt.refreshDataFlag = true;
-            pt.refreshData();
             pt.calculateData();
             pt.refreshDataFlag = false;
 

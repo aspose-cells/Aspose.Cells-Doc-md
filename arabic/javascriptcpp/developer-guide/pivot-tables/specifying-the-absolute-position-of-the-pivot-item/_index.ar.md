@@ -94,7 +94,6 @@ url: /ar/javascript-cpp/specifying-the-absolute-position-of-the-pivot-item/
              * before using PivotItem.setPosition,
              * PivotItem.setPositionInSameParentNode and PivotItem.move methods.
             */
-            pvtTable.refreshData();
             pvtTable.calculateData();
 
             pvtTable.rowFields.get("Item").pivotItems.get("4H12").positionInSameParentNode = 0;

@@ -162,7 +162,6 @@ Il codice di esempio seguente spiega come personalizzare le impostazioni di glob
             // Access the pivot table, refresh and calculate its data
             const pt = ws.pivotTables.get(0);
             pt.refreshDataFlag = true;
-            pt.refreshData();
             pt.calculateData();
             pt.refreshDataFlag = false;
 

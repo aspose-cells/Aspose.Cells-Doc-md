@@ -162,7 +162,6 @@ Le code d'exemple ci-dessous explique comment personnaliser les paramètres de g
             // Access the pivot table, refresh and calculate its data
             const pt = ws.pivotTables.get(0);
             pt.refreshDataFlag = true;
-            pt.refreshData();
             pt.calculateData();
             pt.refreshDataFlag = false;
 

@@ -90,7 +90,6 @@ keywords: 通过C++的Excel、Excel JavaScript库使用Aspose.Cells for JavaScri
             colField.isAscendSort = true;
             // Dragging the third field to the data area.
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
             // end of source PivotTable
 
@@ -110,7 +109,6 @@ keywords: 通过C++的Excel、Excel JavaScript库使用Aspose.Cells for JavaScri
             colField.isAscendSort = true;
             colField.autoSortField = 0;
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // sort the PivotTable on "28/07/2000" column field values
@@ -129,7 +127,6 @@ keywords: 通过C++的Excel、Excel JavaScript库使用Aspose.Cells for JavaScri
             colField.isAutoSort = true;
             colField.isAscendSort = true;
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 2);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the Excel file (XLSX)

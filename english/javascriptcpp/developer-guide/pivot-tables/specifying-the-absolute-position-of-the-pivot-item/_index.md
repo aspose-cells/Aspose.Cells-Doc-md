@@ -94,7 +94,6 @@ The following sample code creates a Pivot Table and then specifies the Pivot Ite
              * before using PivotItem.position,
              * PivotItem.positionInSameParentNode and PivotItem.move methods.
             */
-            pvtTable.refreshData();
             pvtTable.calculateData();
 
             pvtTable.rowFields.get("Item").pivotItems.get("4H12").positionInSameParentNode = 0;

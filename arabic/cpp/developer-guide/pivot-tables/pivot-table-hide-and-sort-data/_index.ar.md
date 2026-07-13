@@ -42,7 +42,6 @@ int main()
     field.SetIsAscendSort(false);
     field.SetAutoSortField(0);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Hiding rows with score less than 60
@@ -57,7 +56,6 @@ int main()
         currentRow++;
     }
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Save the Excel file

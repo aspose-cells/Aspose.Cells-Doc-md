@@ -94,7 +94,6 @@ Der folgende Beispielcode erstellt ein Pivot-Table und legt dann die Positionen 
              * before using PivotItem.setPosition,
              * PivotItem.setPositionInSameParentNode and PivotItem.move methods.
             */
-            pvtTable.refreshData();
             pvtTable.calculateData();
 
             pvtTable.rowFields.get("Item").pivotItems.get("4H12").positionInSameParentNode = 0;

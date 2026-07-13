@@ -69,7 +69,6 @@ int main()
     // Drag the third field to the data area
     pivotTable.AddFieldToArea(PivotFieldType::Data, 2);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
     // End of source PivotTable
 
@@ -101,7 +100,6 @@ int main()
     // Drag the third field to the data area
     pivotTable.AddFieldToArea(PivotFieldType::Data, 2);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
     // End of sorting the PivotTable on "Seafood" row field values
 
@@ -133,7 +131,6 @@ int main()
     // Drag the third field to the data area
     pivotTable.AddFieldToArea(PivotFieldType::Data, 2);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
     // End of sorting the PivotTable on "28/07/2000" column field values
 

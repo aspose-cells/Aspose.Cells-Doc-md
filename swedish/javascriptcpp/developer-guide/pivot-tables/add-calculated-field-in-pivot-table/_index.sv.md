@@ -110,7 +110,6 @@ Lägg till beräknat fält till Excel-fil med Aspose.Cells for JavaScript via C+
             pivotTable.addFieldToArea(PivotFieldType.Row, 0);
             // Adding a calculated field to PivotTable and drag it to data area.
             pivotTable.addCalculatedField("total", "=Count*Price", true);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file

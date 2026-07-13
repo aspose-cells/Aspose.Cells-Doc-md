@@ -70,7 +70,6 @@ int main()
     pvtTable.SetShowColumnGrandTotals(false);
 
     // Refresh and calculate data before modifying pivot items
-    pvtTable.RefreshData();
     pvtTable.CalculateData();
 
     // Set positions for specific pivot items

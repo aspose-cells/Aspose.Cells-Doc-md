@@ -107,7 +107,6 @@ Se följande exempelkod. Den anger datan och skapar en pivot-tabell baserad på 
             const filter = pivotTable.pivotFilters.get(index);
             filter.autoFilter.filterTop10(0, true, false, 5);
 
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file

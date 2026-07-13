@@ -120,7 +120,6 @@ Den Filter in Pivot-Tabellen mit Aspose.Cells for JavaScript via C++ löschen. B
             const index = pivotTable.pivotFilters.add(field.baseIndex, AsposeCells.PivotFilterType.Count);
             const filter = pivotTable.pivotFilters.get(index);
             filter.autoFilter.filterTop10(0, true, false, 5);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Save workbook after adding pivot/filter
@@ -136,7 +135,6 @@ Den Filter in Pivot-Tabellen mit Aspose.Cells for JavaScript via C++ löschen. B
 
             // Clear PivotFilter from the specific PivotField
             pivotTable.pivotFilters.clearFilter(field.baseIndex);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Save workbook after clearing filter

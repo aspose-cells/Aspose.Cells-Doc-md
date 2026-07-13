@@ -164,7 +164,6 @@ The code loads the [source Excel file](40468488.xlsx) that contains the pivot ta
             // Access the pivot table, refresh and calculate its data
             const pt = ws.pivotTables.get(0);
             pt.refreshDataFlag = true;
-            pt.refreshData();
             pt.calculateData();
             pt.refreshDataFlag = false;
 

@@ -94,7 +94,6 @@ Aşağıdaki örnek kod, bir Pivot Tablo oluşturur ve ardından aynı ebeveyn d
              * before using PivotItem.setPosition,
              * PivotItem.setPositionInSameParentNode and PivotItem.move methods.
             */
-            pvtTable.refreshData();
             pvtTable.calculateData();
 
             pvtTable.rowFields.get("Item").pivotItems.get("4H12").positionInSameParentNode = 0;

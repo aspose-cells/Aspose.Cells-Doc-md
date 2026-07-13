@@ -111,7 +111,6 @@ Add a calculated field to an Excel file using Aspose.Cells for JavaScript via C+
             pivotTable.addFieldToArea(PivotFieldType.Row, 0);
             // Adding a calculated field to the PivotTable and dragging it to the data area.
             pivotTable.addCalculatedField("total", "=Count*Price", true);
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file

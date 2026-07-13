@@ -110,7 +110,6 @@ int main() {
     PivotTable pt = ws.GetPivotTables().Get(0);
 
     pt.SetRefreshDataFlag(true);
-    pt.RefreshData();
     pt.CalculateData();
     pt.SetRefreshDataFlag(false);
 

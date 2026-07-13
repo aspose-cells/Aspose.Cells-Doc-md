@@ -107,7 +107,6 @@ keywords: Aspose.Cells for JavaScript для Excel на C++, библиотек�
             const filter = pivotTable.pivotFilters.get(index);
             filter.autoFilter.filterTop10(0, true, false, 5);
 
-            pivotTable.refreshData();
             pivotTable.calculateData();
 
             // Saving the modified Excel file

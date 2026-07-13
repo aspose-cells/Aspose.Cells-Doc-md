@@ -97,7 +97,6 @@ int main()
     PivotField filterField = pivotTable.GetRowFields().Get(0);
     filterField.FilterTop10(0, PivotFilterType::Count, false, 5);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Save the workbook
@@ -197,14 +196,12 @@ int main() {
     PivotField filterField = pivotTable.GetRowFields().Get(0);
     filterField.FilterTop10(0, PivotFilterType::Count, false, 5);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"out_add.xlsx");
 
     // Clear PivotFilter from the specific PivotField
     pivotTable.GetPivotFilters().ClearFilter(field.GetBaseIndex());
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"out_delete.xlsx");

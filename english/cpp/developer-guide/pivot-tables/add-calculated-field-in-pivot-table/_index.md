@@ -110,7 +110,6 @@ int main()
     // Adding a calculated field to the PivotTable and dragging it to the data area
     pivotTable.AddCalculatedField(u"total", u"=Count*Price", true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"out.xlsx");

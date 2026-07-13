@@ -42,13 +42,7 @@ int main()
     sheet.GetCells().Get(u"D2").PutValue(20);
 
     // Refresh and calculate all the pivot tables inside this sheet
-    PivotTableCollection pivotTables = sheet.GetPivotTables();
-    for (int32_t i = 0; i < pivotTables.GetCount(); ++i)
-    {
-        PivotTable pt = pivotTables.Get(i);
-        pt.RefreshData();
-        pt.CalculateData();
-    }
+    workbook.RefreshAll();
 
     // Save the workbook in output PDF
     U16String outputFilePath = srcDir + u"RefreshAndCalculateItems_out.pdf";

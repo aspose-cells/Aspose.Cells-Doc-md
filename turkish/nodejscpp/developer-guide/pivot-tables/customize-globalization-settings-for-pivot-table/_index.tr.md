@@ -129,7 +129,6 @@ const ws = workbook.getWorksheets().get(1);
 // Access the pivot table, refresh and calculate its data
 const pt = ws.getPivotTables().get(0);
 pt.setRefreshDataFlag(true);
-pt.refreshData();
 pt.calculateData();
 pt.setRefreshDataFlag(false);
 
