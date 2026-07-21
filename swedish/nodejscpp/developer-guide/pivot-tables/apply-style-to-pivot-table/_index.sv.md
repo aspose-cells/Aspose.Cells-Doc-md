@@ -11,6 +11,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
+{{% alert color="primary" %}}
+
 Aspose.Cells stöder tillämpning av både äldre pivot-autoformat (avsedda för `.xls`-filer) och moderna namngivna eller anpassade pivottabellstilar (avsedda för `.xlsx`-, `.xlsm`- och `.xlsb`-filer). Vilken API du bör anropa beror på filformatet som arbetsboken sparas till, inte formatet den laddades från.
 
 {{% /alert %}}

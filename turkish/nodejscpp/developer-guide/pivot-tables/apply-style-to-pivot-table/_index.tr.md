@@ -11,6 +11,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
+{{% alert color="primary" %}}
+
 Aspose.Cells, hem eski özet tablo otomatik biçimlerini (`.xls` dosyaları için tasarlanmış) hem de modern adlandırılmış veya özel özet tablo stillerini (`.xlsx`, `.xlsm` ve `.xlsb` dosyaları için tasarlanmış) uygulamayı destekler. Çağırmanız gereken API, çalışma kitabının kaydedildiği dosya biçimine bağlıdır, yüklendiği biçime değil.
 
 {{% /alert %}}

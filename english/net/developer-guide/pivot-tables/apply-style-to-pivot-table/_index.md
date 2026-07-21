@@ -45,7 +45,7 @@ The following example loads a fresh workbook, populates the Fruit/Year/Amount sa
 
 **Why no column fields?** Report-series autoformats (`Report1` through `Report10`, `Table1` through `Table10`) were designed in classic Excel for **single-dimension pivot tables** with row fields and values only — they have no built-in styling for column-field headers. If your pivot needs column fields, use the modern `PivotTableStyleType` presets from [Scenario 2](#apply-a-modern-named-preset-pivot-table-style) instead, which are designed for the two-dimensional layout modern Excel uses.
 
-{{% alert %}}
+{{% /alert %}}
 ```csharp
 using System;
 using Aspose.Cells;
