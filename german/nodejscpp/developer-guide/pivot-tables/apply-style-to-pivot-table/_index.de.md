@@ -42,6 +42,12 @@ Darüber hinaus ist `PivotTable.FormatAll(Style)` eine Verknüpfung, die ein ein
 
 Das folgende Beispiel lädt eine neue Arbeitsmappe, befüllt die Beispieldaten Fruit/Year/Amount, fügt eine Pivot-Tabelle hinzu, wendet `PivotTableAutoFormatType.Report5` an und speichert das Ergebnis als `.xls`.
 
+{{% alert color="primary" %}}
+
+**Warum keine Spaltenfelder?** Die Autoformate der Report-Serie (`Report1` bis `Report10`, `Table1` bis `Table10`) wurden im klassischen Excel für **eindimensionale Pivot-Tabellen** mit nur Zeilenfeldern und Werten entworfen — sie haben keine integrierte Formatierung für Spaltenfeld-Überschriften. Wenn Ihre Pivot-Tabelle Spaltenfelder benötigt, verwenden Sie stattdessen die modernen `PivotTableStyleType`-Voreinstellungen aus Szenario 2 unten, die für das zweidimensionale Layout moderner Excel-Versionen entwickelt wurden.
+
+{{% /alert %}}
+
 ```javascript
 const AsposeCells = require("aspose.cells");
 

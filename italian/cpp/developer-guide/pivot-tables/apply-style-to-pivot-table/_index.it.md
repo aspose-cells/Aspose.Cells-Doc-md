@@ -41,6 +41,12 @@ Inoltre, `PivotTable.FormatAll(Style)` è una scorciatoia che applica un singolo
 
 L'esempio seguente carica una nuova cartella di lavoro, popola i dati di esempio Frutta/Anno/Quantità, aggiunge una tabella pivot, applica `PivotTableAutoFormatType.Report5` e salva il risultato come `.xls`.
 
+{{% alert color="primary" %}}
+
+**Perché nessun campo colonna?** Gli autoformati della serie Report (`Report1` fino a `Report10`, `Table1` fino a `Table10`) erano progettati in Excel classico per **tabelle pivot monodimensionali** con soli campi riga e valori — non hanno uno stile integrato per le intestazioni dei campi colonna. Se la tua tabella pivot richiede campi colonna, usa i preset moderni `PivotTableStyleType` dello Scenario 2 qui sotto, progettati per il layout bidimensionale usato da Excel moderno.
+
+{{% /alert %}}
+
 ```cpp
 #include "Aspose.Cells.h"
 

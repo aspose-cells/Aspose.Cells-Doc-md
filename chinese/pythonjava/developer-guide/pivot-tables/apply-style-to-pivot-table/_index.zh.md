@@ -41,6 +41,12 @@ Aspose.Cells 为数据透视表提供了两套并行的样式 API。它们之间
 
 以下示例加载一个新的工作簿，填充 Fruit/Year/Amount 示例数据，添加一个数据透视表，应用 `PivotTableAutoFormatType.REPORT_5`，并将结果保存为 `.xls`。
 
+{{% alert color="primary" %}}
+
+**为什么没有列字段？** Report 系列自动格式（`Report1` 到 `Report10`、`Table1` 到 `Table10`）是在经典 Excel 中为**单维度数据透视表**设计的——只有行字段和值，没有为列字段标题提供内置样式。如果透视表需要列字段，请改用下方场景 2 中的现代 `PivotTableStyleType` 预设样式，它们专为现代 Excel 的二维布局而设计。
+
+{{% /alert %}}
+
 ```python
 import jpype
 import asposecells

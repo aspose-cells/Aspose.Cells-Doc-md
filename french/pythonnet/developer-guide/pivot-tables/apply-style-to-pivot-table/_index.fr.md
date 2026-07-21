@@ -41,6 +41,12 @@ De plus, `PivotTable.format_all(Style)` est un raccourci qui applique un seul ob
 
 L'exemple suivant charge un nouveau classeur, remplit les données d'exemple Fruit/Année/Montant, ajoute un tableau croisé dynamique, applique `PivotTableAutoFormatType.REPORT_5` et enregistre le résultat au format `.xls`.
 
+{{% alert color="primary" %}}
+
+**Pourquoi pas de champs de colonne ?** Les autoformats de la série Report (`Report1` à `Report10`, `Table1` à `Table10`) ont été conçus dans Excel classique pour des **tableaux croisés dynamiques à une dimension** avec uniquement des champs de ligne et des valeurs — ils n'ont pas de style intégré pour les en-têtes de champs de colonne. Si votre tableau croisé dynamique nécessite des champs de colonne, utilisez plutôt les préréglages modernes `PivotTableStyleType` du Scénario 2 ci-dessous, qui sont conçus pour la disposition bidimensionnelle qu'utilise Excel moderne.
+
+{{% /alert %}}
+
 ```python
 import aspose.cells as ac
 

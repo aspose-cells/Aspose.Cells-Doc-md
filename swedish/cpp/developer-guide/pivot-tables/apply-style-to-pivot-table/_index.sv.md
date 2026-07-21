@@ -41,6 +41,12 @@ Dessutom är `PivotTable.FormatAll(Style)` en genväg som tillämpar ett enda `S
 
 Följande exempel laddar en ny arbetsbok, fyller i exempeldata för Fruit/Year/Amount, lägger till en pivottabell, tillämpar `PivotTableAutoFormatType.Report5` och sparar resultatet som `.xls`.
 
+{{% alert color="primary" %}}
+
+**Varför inga kolumnfält?** Autoformaten i Report-serien (`Report1` till `Report10`, `Table1` till `Table10`) designades i klassiska Excel för **endimensionella pivottabeller** med endast radfält och värden — de har ingen inbyggd formatering för kolumnfält-rubriker. Om din pivottabell behöver kolumnfält, använd de moderna `PivotTableStyleType`-förinställningarna från Scenario 2 nedan istället, som är designade för den tvådimensionella layout som moderna Excel använder.
+
+{{% /alert %}}
+
 ```cpp
 #include "Aspose.Cells.h"
 

@@ -11,6 +11,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
+{{% alert color="primary" %}}
+
+Aspose.Cells prend en charge l'application à la fois des anciens autoformats de tableau croisé dynamique (destinés aux fichiers `.xls`) et des styles modernes nommés ou personnalisés de tableau croisé dynamique (destinés aux fichiers `.xlsx`, `.xlsm` et `.xlsb`). L'API à appeler dépend du format de fichier dans lequel le classeur est enregistré, et non du format à partir duquel il a été chargé.
+
+{{% /alert %}}
+
 ## **Introduction**
 
 Aspose.Cells expose deux API de style parallèles pour les tableaux croisés dynamiques. Le choix entre elles dépend du format de fichier dans lequel vous enregistrez le classeur, et non du format à partir duquel vous le lisez. Un classeur chargé à partir d'un fichier `.xls` peut être réenregistré en `.xlsx`, et dans ce cas c'est l'API de style moderne qui s'applique, plutôt que l'API héritée.
@@ -35,6 +41,12 @@ De plus, `PivotTable.FormatAll(Style)` est un raccourci qui applique un seul obj
 {{% /alert %}}
 
 L'exemple suivant charge un nouveau classeur, renseigne les données d'exemple Fruit/Année/Montant, ajoute un tableau croisé dynamique, applique `PivotTableAutoFormatType.Report5`, puis enregistre le résultat au format `.xls`.
+
+{{% alert color="primary" %}}
+
+**Pourquoi pas de champs de colonne ?** Les autoformats de la série Report (`Report1` à `Report10`, `Table1` à `Table10`) ont été conçus dans Excel classique pour des **tableaux croisés dynamiques à une dimension** avec uniquement des champs de ligne et des valeurs — ils n'ont pas de style intégré pour les en-têtes de champs de colonne. Si votre tableau croisé dynamique nécessite des champs de colonne, utilisez plutôt les préréglages modernes `PivotTableStyleType` du Scénario 2 ci-dessous, qui sont conçus pour la disposition bidimensionnelle qu'utilise Excel moderne.
+
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");

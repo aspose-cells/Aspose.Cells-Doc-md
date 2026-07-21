@@ -41,6 +41,12 @@ Aspose.Cells は、ピボットテーブル向けに 2 つの並列スタイル 
 
 次の例では、新しいワークブックを読み込み、Fruit/Year/Amount のサンプル データを入力し、ピボットテーブルを追加して `PivotTableAutoFormatType.REPORT_5` を適用し、結果を `.xls` として保存します。
 
+{{% alert color="primary" %}}
+
+**列フィールドがないのはなぜですか？** Report シリーズの自動書式（`Report1`〜`Report10`、`Table1`〜`Table10`）は、従来の Excel で**単一次元のピボットテーブル**（行フィールドと値のみ）のために設計されたものであり、列フィールドのヘッダーに対する組み込みのスタイル設定はありません。ピボットテーブルに列フィールドが必要な場合は、代わりに下のシナリオ 2 のモダンな `PivotTableStyleType` プリセットを使用してください。これらはモダンな Excel が使用する二次元レイアウト向けに設計されています。
+
+{{% /alert %}}
+
 ```java
 import com.aspose.cells.*;
 

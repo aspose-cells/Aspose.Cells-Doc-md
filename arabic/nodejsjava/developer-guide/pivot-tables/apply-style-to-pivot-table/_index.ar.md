@@ -41,6 +41,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 يحمّل المثال التالي مصنفًا جديدًا، ويملأ بيانات نموذج Fruit/Year/Amount، ويضيف جدولًا محوريًا، ويطبق `PivotTableAutoFormatType.Report5`، ويحفظ النتيجة بصيغة `.xls`.
 
+{{% alert color="primary" %}}
+
+**لماذا لا توجد حقول أعمدة؟** تم تصميم التنسيقات التلقائية من سلسلة Report (`Report1` إلى `Report10`، `Table1` إلى `Table10`) في Excel الكلاسيكي لـ **جداول محورية أحادية البُعد** تحتوي على حقول صفوف وقيم فقط — وليس لديها تنسيق مدمج لرؤوس حقول الأعمدة. إذا احتاج الجدول المحوري إلى حقول أعمدة، فاستخدم الإعدادات المسبقة الحديثة `PivotTableStyleType` من السيناريو 2 أدناه بدلاً من ذلك، وهي مصممة للتخطيط ثنائي الأبعاد الذي يستخدمه Excel الحديث.
+
+{{% /alert %}}
+
 ```javascript
 let workbook = new AsposeCells.Workbook();
 

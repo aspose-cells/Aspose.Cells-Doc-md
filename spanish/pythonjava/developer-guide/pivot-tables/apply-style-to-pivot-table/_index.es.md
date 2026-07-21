@@ -41,6 +41,12 @@ El método `setAutoFormatType` en una tabla dinámica acepta un valor de la enum
 
 El siguiente ejemplo carga un libro de trabajo nuevo, completa los datos de muestra de Fruta/Año/Cantidad, añade una tabla dinámica, aplica `PivotTableAutoFormatType.REPORT_5` y guarda el resultado como `.xls`.
 
+{{% alert color="primary" %}}
+
+**¿Por qué no hay campos de columna?** Los autoformatos de la serie Report (`Report1` a `Report10`, `Table1` a `Table10`) se diseñaron en el Excel clásico para **tablas dinámicas unidimensionales** con solo campos de fila y valores — no tienen estilo integrado para los encabezados de campos de columna. Si tu tabla dinámica necesita campos de columna, usa los preajustes modernos `PivotTableStyleType` del Escenario 2 a continuación, que están diseñados para el diseño bidimensional que usa el Excel moderno.
+
+{{% /alert %}}
+
 ```python
 import jpype
 import asposecells

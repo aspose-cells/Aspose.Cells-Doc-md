@@ -41,6 +41,12 @@ Además, `PivotTable.FormatAll(Style)` es un acceso directo que aplica un único
 
 El siguiente ejemplo carga un libro nuevo, rellena los datos de muestra de Fruta/Año/Importe, añade una tabla dinámica, aplica `PivotTableAutoFormatType.Report5` y guarda el resultado como `.xls`.
 
+{{% alert color="primary" %}}
+
+**¿Por qué no hay campos de columna?** Los autoformatos de la serie Report (`Report1` a `Report10`, `Table1` a `Table10`) se diseñaron en el Excel clásico para **tablas dinámicas unidimensionales** con solo campos de fila y valores — no tienen estilo integrado para los encabezados de campos de columna. Si tu tabla dinámica necesita campos de columna, usa los preajustes modernos `PivotTableStyleType` del Escenario 2 a continuación, que están diseñados para el diseño bidimensional que usa el Excel moderno.
+
+{{% /alert %}}
+
 ```csharp
 using System;
 using Aspose.Cells;
