@@ -1,0 +1,412 @@
+---
+title: Application de styles aux tableaux croisés dynamiques
+linktitle: Application de styles aux tableaux croisés dynamiques
+description: Apprenez à appliquer des styles intégrés et personnalisés aux tableaux croisés dynamiques dans Aspose.Cells for Java, couvrant les autoformats XLS hérités, les styles nommés modernes d'Excel 2007+, les styles personnalisés de tableau croisé dynamique et le raccourci FormatAll.
+keywords: Aspose.Cells Java style de tableau croisé dynamique, PivotTableStyleType, AutoFormatType, FormatAll, style personnalisé, PivotTableStyleName, TableStyles
+type: docs
+weight: 200
+url: /fr/java/apply-style-to-pivot-table/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+---
+
+{{% alert color="primary" %}}
+
+Aspose.Cells prend en charge l'application des anciens autoformats de tableaux croisés dynamiques (destinés aux fichiers `.xls`) ainsi que des styles nommés ou personnalisés modernes pour les tableaux croisés dynamiques (destinés aux fichiers `.xlsx`, `.xlsm` et `.xlsb`). L'API que vous devez appeler dépend du format de fichier dans lequel le classeur est enregistré, et non du format à partir duquel il a été chargé.
+
+{{% /alert %}}
+
+## **Introduction**
+
+Aspose.Cells expose deux API de style parallèles pour les tableaux croisés dynamiques. Le choix entre elles dépend du format de fichier dans lequel vous enregistrez le classeur, et non du format à partir duquel vous le lisez. Un classeur chargé depuis un fichier `.xls` peut être réenregistré en tant que `.xlsx`, et dans ce cas c'est l'API de style moderne qui s'applique plutôt que l'ancienne.
+
+Pour la sortie `.xls` héritée, utilisez la propriété `PivotTable.AutoFormatType` conjointement avec l'énumération `com.aspose.cells.PivotTableAutoFormatType`. Cette API correspond au sélecteur d'autoformat que l'Excel classique proposait pour les tableaux croisés dynamiques.
+
+Pour les sorties modernes `.xlsx`, `.xlsm` et `.xlsb`, deux variantes d'API de style sont disponibles :
+
+- `PivotTable.PivotTableStyleType` sélectionne l'un des styles nommés intégrés (thèmes clairs et sombres, y compris les styles ajoutés dans Excel 2017). Ces préréglages sont en lecture seule.
+- `PivotTable.PivotTableStyleName` sélectionne un style personnalisé que vous définissez vous-même via `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(...)`. Les styles personnalisés sont nécessaires chaque fois que vous souhaitez modifier les couleurs, les bordures ou les polices au-delà de ce que les préréglages offrent.
+
+De plus, `PivotTable.formatAll(Style)` est un raccourci qui applique un objet `Style` unique à chaque cellule du tableau croisé dynamique, en remplaçant tout ce qui a été défini via l'une ou l'autre des API de nom de style ci-dessus. Ceci est utile lorsqu'une apparence uniforme est requise indépendamment du thème sous-jacent.
+
+## **Appliquer un autoformat prédéfini XLS hérité**
+
+`PivotTable.AutoFormatType` accepte une valeur issue de l'énumération `com.aspose.cells.PivotTableAutoFormatType`. Les valeurs disponibles sont `REPORT_1` à `REPORT_10`, `CLASSIC`, et `TABLE_1` à `TABLE_10`.
+
+{{% alert color="primary" %}}
+
+`AutoFormatType` n'est pris en compte que lorsque le classeur est enregistré en tant que `.xls`. Lorsque le même classeur est enregistré en tant que `.xlsx`, `.xlsm` ou `.xlsb`, Excel ignore cette propriété et se rabat sur les paramètres `PivotTableStyleType` et `PivotTableStyleName`.
+
+{{% /alert %}}
+
+L'exemple suivant charge un nouveau classeur, remplit les données d'exemple Fruit/Année/Montant, ajoute un tableau croisé dynamique, applique `PivotTableAutoFormatType.REPORT_5`, et enregistre le résultat en tant que `.xls`.
+
+```java
+import com.aspose.cells.*;
+
+// Scénario 1 : Appliquer un autoformat prédéfini XLS hérité
+// API utilisée : PivotTable.AutoFormatType
+// Format de fichier cible : .xls (héritant)
+// Pour des exemples complets et des fichiers de données, veuillez aller sur https://github.com/aspose-cells/Aspose.Cells-for-.NET
+
+// Créer un nouveau classeur
+Workbook workbook = new Workbook();
+
+// Obtenir la première feuille de calcul
+Worksheet sheet = workbook.getWorksheets().get(0);
+
+// Remplir les données sources avec une ligne d'en-tête (Fruit, Année, Montant)
+// et 9 lignes de données couvrant raisin, myrtille, kiwi, cerise à travers 2020 et 2021
+sheet.getCells().get(0, 0).putValue("Fruit");
+sheet.getCells().get(0, 1).putValue("Year");
+sheet.getCells().get(0, 2).putValue("Amount");
+
+sheet.getCells().get(1, 0).putValue("grape");
+sheet.getCells().get(1, 1).putValue(2020);
+sheet.getCells().get(1, 2).putValue(50);
+
+sheet.getCells().get(2, 0).putValue("blueberry");
+sheet.getCells().get(2, 1).putValue(2020);
+sheet.getCells().get(2, 2).putValue(30);
+
+sheet.getCells().get(3, 0).putValue("kiwi");
+sheet.getCells().get(3, 1).putValue(2020);
+sheet.getCells().get(3, 2).putValue(25);
+
+sheet.getCells().get(4, 0).putValue("cherry");
+sheet.getCells().get(4, 1).putValue(2020);
+sheet.getCells().get(4, 2).putValue(40);
+
+sheet.getCells().get(5, 0).putValue("grape");
+sheet.getCells().get(5, 1).putValue(2021);
+sheet.getCells().get(5, 2).putValue(60);
+
+sheet.getCells().get(6, 0).putValue("blueberry");
+sheet.getCells().get(6, 1).putValue(2021);
+sheet.getCells().get(6, 2).putValue(35);
+
+sheet.getCells().get(7, 0).putValue("kiwi");
+sheet.getCells().get(7, 1).putValue(2021);
+sheet.getCells().get(7, 2).putValue(28);
+
+sheet.getCells().get(8, 0).putValue("cherry");
+sheet.getCells().get(8, 1).putValue(2021);
+sheet.getCells().get(8, 2).putValue(45);
+
+sheet.getCells().get(9, 0).putValue("grape");
+sheet.getCells().get(9, 1).putValue(2020);
+sheet.getCells().get(9, 2).putValue(45);
+
+// Ajouter un tableau croisé dynamique à la cellule de destination E3, nommé "Pivot1", en utilisant la plage source A1:C10
+int pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+
+// Assigner les champs : Fruit -> Lignes, Année -> Colonnes, Montant -> Données
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+
+// Appliquer l'autoformat prédéfini XLS hérité "Report5"
+// Note : Cette propriété n'a de sens que lors de l'enregistrement en .xls.
+// Lors de l'enregistrement en .xlsx/.xlsm/.xlsb, Excel ignore AutoFormatType
+// et utilise ce que spécifie PivotTableStyleType / PivotTableStyleName.
+pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5);
+
+// Enregistrer le classeur au format .xls hérité
+workbook.save("output.xls");
+```
+
+## **Appliquer un style de tableau croisé dynamique prédéfini nommé moderne**
+
+`PivotTable.PivotTableStyleType` accepte une valeur issue de l'énumération `com.aspose.cells.PivotTableStyleType`. L'énumération couvre les thèmes clairs `PIVOT_TABLE_STYLE_LIGHT_1` à `PIVOT_TABLE_STYLE_LIGHT_28` et les thèmes sombres `PIVOT_TABLE_STYLE_DARK_1` à `PIVOT_TABLE_STYLE_DARK_28`. Les styles ajoutés dans Excel 2017 (la deuxième vague de thèmes clairs et sombres) sont accessibles via la même énumération.
+
+C'est l'API recommandée pour tout format de fichier moderne. Contrairement à l'autoformat hérité, le style sélectionné ici est rendu fidèlement par Excel et survit aux aller-retours via d'autres outils Office.
+
+L'exemple suivant utilise les mêmes données Fruit/Année/Montant, crée un tableau croisé dynamique identique, applique `PIVOT_TABLE_STYLE_DARK_1`, et enregistre le classeur en tant que `.xlsx`.
+
+```java
+import com.aspose.cells.*;
+
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+
+// Ligne d'en-tête : Fruit / Année / Montant
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+
+// 9 lignes de données de Fruit / Année / Montant
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+
+// Ajouter un tableau croisé dynamique à E3 nommé "Pivot1", sourcé depuis A1:C10
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+
+// Assigner les champs du tableau croisé dynamique : Fruit -> zone Ligne, Année -> zone Colonne, Montant -> zone Données
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+
+// Appliquer un style de tableau croisé dynamique prédéfini nommé moderne d'Excel 2007+.
+// PivotTableStyleType est l'API correcte pour les fichiers .xlsx / .xlsm / .xlsb ; AutoFormatType
+// est ignoré par Excel pour ces formats. PivotTableStyleDark1 appartient à la famille
+// du thème sombre (PivotTableStyleDark1..PivotTableStyleDark28), et la même énumération expose également
+// les nouveaux thèmes clair/sombre d'Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+
+// Enregistrer au format moderne .xlsx - c'est le format pour lequel PivotTableStyleType a un sens.
+workbook.save("output.xlsx");
+```
+
+## **Définir et appliquer un style personnalisé de tableau croisé dynamique**
+
+Les préréglages intégrés ne peuvent pas être modifiés. Chaque fois que vous devez remplacer les couleurs, les bordures ou les polices, vous devez définir un style personnalisé de tableau croisé dynamique. Le flux de travail comporte trois étapes :
+
+1. Ajoutez un style personnalisé à la collection `TableStyles` du classeur via `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Cela renvoie l'index du style nouvellement créé.
+2. Configurez le style en ajoutant des éléments (tels que `WholeTable` ou `GrandTotalRow`) via `TableStyle.getTableStyleElements().add(TableStyleElementType)`, puis attribuez un `Style` à chaque élément via `TableStyleElement.setElementStyle(Style)`.
+3. Appliquez le style personnalisé au tableau croisé dynamique en définissant `PivotTable.PivotTableStyleName` avec le nom du style. N'utilisez pas `PivotTableStyleType` ici, car cette propriété sélectionne des préréglages intégrés.
+
+{{% alert color="primary" %}}
+
+`PivotTableStyleName` et `PivotTableStyleType` ne sont pas interchangeables. Utilisez `PivotTableStyleType` pour les préréglages intégrés, et `PivotTableStyleName` pour les styles personnalisés que vous avez définis via `addPivotTableStyle`. Définir les deux est sans danger, mais seul celui qui correspond à la source prévue est rendu.
+
+{{% /alert %}}
+
+Les valeurs `TableStyleElementType` disponibles incluent `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` et `PAGE_FIELD_VALUES`.
+
+L'exemple suivant définit un style personnalisé de tableau croisé dynamique avec une bordure noire fine sur `WholeTable` et une police rouge en gras sur `GrandTotalRow`, puis l'applique via `PivotTableStyleName` et enregistre en tant que `.xlsx`.
+
+```java
+import com.aspose.cells.*;
+
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+
+// Remplir les données sources : ligne d'en-tête + 9 lignes de données (A1:C10)
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(200);
+
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(300);
+
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(400);
+
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(500);
+
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(600);
+
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(700);
+
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(800);
+
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(900);
+
+// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré à E3, nommé "Pivot1"
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+
+// Étape 1 : enregistrer un nouveau style de tableau croisé dynamique personnalisé et capturer son index
+int styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
+TableStyle tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
+
+// Étape 2 : ajouter un élément WholeTable et appliquer des bordures noires fines sur les quatre côtés
+int wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE);
+TableStyleElement wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
+Style wholeTableStyle = workbook.createStyle();
+BorderCollection borders = wholeTableStyle.getBorders();
+Border borderTop = borders.getByBorderType(BorderType.TOP_BORDER);
+borderTop.setLineStyle(CellBorderType.THIN);
+borderTop.setColor(Color.getBlack());
+Border borderBottom = borders.getByBorderType(BorderType.BOTTOM_BORDER);
+borderBottom.setLineStyle(CellBorderType.THIN);
+borderBottom.setColor(Color.getBlack());
+Border borderLeft = borders.getByBorderType(BorderType.LEFT_BORDER);
+borderLeft.setLineStyle(CellBorderType.THIN);
+borderLeft.setColor(Color.getBlack());
+Border borderRight = borders.getByBorderType(BorderType.RIGHT_BORDER);
+borderRight.setLineStyle(CellBorderType.THIN);
+borderRight.setColor(Color.getBlack());
+wholeTableElement.setElementStyle(wholeTableStyle);
+
+// Étape 3 : ajouter un élément GrandTotalRow et appliquer une police rouge en gras
+int grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW);
+TableStyleElement grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
+Style grandTotalStyle = workbook.createStyle();
+grandTotalStyle.getFont().setBold(true);
+grandTotalStyle.getFont().setColor(Color.getRed());
+grandTotalElement.setElementStyle(grandTotalStyle);
+
+// Étape 4 : appliquer le style personnalisé par son nom (PAS par PivotTableStyleType, qui est réservé aux préréglages intégrés)
+pivotTable.setPivotTableStyleName("CustomPivotStyle");
+
+workbook.save("output.xlsx");
+```
+
+## **Appliquer un seul style à chaque cellule du tableau croisé dynamique avec FormatAll**
+
+`PivotTable.formatAll(Style)` est un raccourci qui applique un objet `Style` unique à chaque cellule du tableau croisé dynamique, y compris la zone de données, les en-têtes de lignes et de colonnes, ainsi que les totaux. Tout ce qui a été précédemment défini via `PivotTableStyleType` ou `PivotTableStyleName` est remplacé.
+
+{{% alert color="primary" %}}
+
+`FormatAll` remplace à la fois `PivotTableStyleType` et `PivotTableStyleName`. Utilisez-le uniquement lorsqu'une apparence uniforme, indépendante du thème, est requise sur l'ensemble du tableau croisé dynamique.
+
+{{% /alert %}}
+
+L'exemple suivant crée un `Style` avec un remplissage uni jaune, une police bleu foncé en gras et des bordures noires fines sur tous les côtés, puis l'applique avec `formatAll` et enregistre en tant que `.xlsx`.
+
+```java
+import com.aspose.cells.*;
+
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+
+// Remplir les données sources : ligne d'en-tête (ligne 1) + 9 lignes de données (lignes 2-10)
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(5000);
+
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(3000);
+
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(4000);
+
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(2000);
+
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(6000);
+
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(3500);
+
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(4500);
+
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(2500);
+
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(5500);
+
+// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom "Pivot1"
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+
+// Affecter les champs du tableau croisé dynamique : Fruit -> zone Lignes, Year -> zone Colonnes, Amount -> zone Données
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+
+// Construire un Style qui sera appliqué à chaque cellule du tableau croisé dynamique
+Style style = workbook.createStyle();
+style.setForegroundColor(Color.getYellow());
+style.setPattern(BackgroundType.SOLID);
+style.getFont().setBold(true);
+style.getFont().setColor(Color.getDarkBlue());
+
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN);
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setColor(Color.getBlack());
+
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN);
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setColor(Color.getBlack());
+
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN);
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack());
+
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack());
+
+// Appliquer formatAll : impose ce style unique sur chaque cellule du tableau croisé dynamique,
+// en remplaçant tout PivotTableStyleType / PivotTableStyleName précédemment défini
+pivotTable.formatAll(style);
+
+// Enregistrer le classeur au format moderne .xlsx
+workbook.save("output.xlsx");
+```
+
+## **Quelle API de style dois-je utiliser ?**
+
+Le choix de l'API de style dépend du format de fichier dans lequel vous enregistrez. Utilisez le tableau ci-dessous comme référence rapide.
+
+| Format de fichier cible | API à utiliser | Remarques |
+|---|---|---|
+| `.xls` (hérité) | `PivotTable.AutoFormatType` | Valeurs issues de `com.aspose.cells.PivotTableAutoFormatType` (par ex. `REPORT_1`–`REPORT_10`, `CLASSIC`, `TABLE_1`–`TABLE_10`). Ignorée lors de l'enregistrement dans des formats modernes. |
+| `.xlsx` / `.xlsm` / `.xlsb` (moderne, style intégré) | `PivotTable.PivotTableStyleType` | Valeurs issues de `com.aspose.cells.PivotTableStyleType` (thèmes clairs/sombres, y compris les ajouts d'Excel 2017). |
+| `.xlsx` / `.xlsm` / `.xlsb` (moderne, style personnalisé) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | À utiliser lorsque les préréglages intégrés ne suffisent pas. Configurez via `TableStyleElement.setElementStyle(...)`. |
+| Tout format (substitution uniforme) | `PivotTable.formatAll(Style)` | Raccourci qui remplace tous les autres paramètres de style sur l'ensemble du tableau croisé dynamique. |
+
+En cas de doute, enregistrez en tant que `.xlsx` et utilisez `PivotTableStyleType` pour les thèmes intégrés, ou `PivotTableStyleName` pour les thèmes personnalisés.
+
+{{< app/cells/assistant language="java" >}}
