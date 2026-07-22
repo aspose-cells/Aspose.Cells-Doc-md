@@ -1,10 +1,13 @@
 ---
 title: SmartMarker-Einzelzell-Array-Darstellung | Aspose.Cells C++
+linktitle: SmartMarker-Einzelzell-Array-Darstellung | Aspose.Cells
 description: Erfahren Sie, wie Sie Array-Daten mithilfe der Attribute ArrayAsSingle und ExtraDelimiter in Smart Markers in eine einzelne Zelle rendern können mit Aspose.Cells for C++.
 keywords: Aspose.Cells, C++ Bibliothek, Tabellenkalkulation, Smart Markers, ArrayAsSingle, ExtraDelimiter, Einzelzell-Array, Array-Darstellung, Vorlage
 type: docs
 weight: 195
 url: /de/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

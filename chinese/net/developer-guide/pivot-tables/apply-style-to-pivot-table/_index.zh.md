@@ -1,6 +1,6 @@
 ---
 title: 将样式应用于数据透视表
-linktitle: 将样式应用于数据透视表
+linktitle: 样式应用
 description: 了解如何在 Aspose.Cells for .NET 中将内置样式和自定义样式应用于数据透视表，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells .NET pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

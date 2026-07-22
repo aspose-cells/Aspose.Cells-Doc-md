@@ -1,10 +1,13 @@
 ---
 title: Рендеринг массива в одной ячейке SmartMarker | Aspose.Cells .NET
+linktitle: Рендеринг массива в одной ячейке SmartMarker | Aspose.Cells
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в Smart Markers с Aspose.Cells for .NET.
 keywords: Aspose.Cells, библиотека .NET, электронная таблица, Smart Markers, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
 url: /ru/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

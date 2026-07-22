@@ -1,6 +1,6 @@
 ---
 title: Sparklines in Aspose.Cells for C++
-linktitle: Sparklines
+linktitle: Sparkline
 description: Aspose.Cells è una libreria C++ per lavorare con file di fogli di calcolo che supporta la creazione di sparklines — piccoli grafici inseriti all'interno delle celle del foglio di lavoro. Questo articolo spiega come aggiungere e personalizzare sparklines a linee, colonne e win/loss utilizzando la libreria Aspose.Cells.
 keywords: Aspose.Cells, libreria C++, foglio di calcolo, sparklines, sparkline a linee, sparkline a colonne, sparkline win/loss, SparklineGroup, SparklineType
 type: docs

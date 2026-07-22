@@ -141,11 +141,11 @@ Los flujos de trabajo anteriores se basan en un pequeño conjunto de APIs de Asp
 
 ## **Artículos Relacionados**
 
-- [Minigráficos en Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/sparkline/)
+- [Minigráficos en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/sparkline/)
 - [Insertar una imagen en una celda](/cells/es/nodejs-java/inserting-an-image-into-a-cell/)
-- [Renderizado de arreglo de celda única de SmartMarker | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [Renderizado de arreglo de celda única de SmartMarker | Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
-{{< app/cells/assistant language="javascript" >}}javascript
+javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 
@@ -208,8 +208,6 @@ let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
 workbook.save("sparklines.html", htmlOptions);
-```
-
 El código anterior toma el libro de trabajo con minigráficos del Flujo de Trabajo 1 y lo convierte en un archivo HTML portátil. Los minigráficos se conservan como SVG en línea o como renderizaciones PNG dentro del HTML generado, según el modo de exportación, de modo que los usuarios finales puedan ver las tendencias en cualquier navegador moderno sin necesidad de tener Excel instalado. Al establecer `ExportActiveWorksheetOnly` a `true`, evita publicar accidentalmente hojas ocultas o datos auxiliares: solo se exporta la hoja de cálculo actualmente visible para el usuario.
 
 {{% alert color="primary" %}}
@@ -229,8 +227,8 @@ Los flujos de trabajo anteriores se basan en un pequeño conjunto de APIs de Asp
 
 ## **Artículos Relacionados**
 
-- [Minigráficos en Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/sparkline/)
+- [Minigráficos en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/sparkline/)
 - [Insertar una imagen en una celda](/cells/es/nodejs-java/inserting-an-image-into-a-cell/)
-- [Renderizado de arreglos de celda única con SmartMarker | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [Renderizado de arreglos de celda única con SmartMarker | Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

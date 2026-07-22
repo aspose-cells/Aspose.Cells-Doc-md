@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java での Aspose.Cells におけるスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells は、ワークシートセル内に配置されるミニチュアチャートであるスパークラインの作成をサポートする、スプレッドシートファイルを扱うための Node.js via Java ライブラリです。この記事では、Aspose.Cells ライブラリを使用して、ライン、列、勝敗の各スパークラインを追加およびカスタマイズする方法について説明します。
 keywords: Aspose.Cells, Node.js via Java ライブラリ, スプレッドシート, スパークライン, ラインスパークライン, 列スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs
@@ -290,7 +290,7 @@ workbook.save("output_all.xlsx");
 
 
 
-{{< app/cells/assistant language="javascript" >}}javascript
+javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -464,8 +464,6 @@ stackedGroup.setSeriesColor(stackedColor);
 
 // ステップ6: ワークブックを保存する
 workbook.save("output_all.xlsx");
-```
-
 {{% alert color="primary" %}}
 
 1 つのワークシートで複数のスパークライングループを組み合わせる場合、各グループは独立しています。同じソース範囲を共有することも、異なるソース範囲を使用することもでき、独立してスタイルを設定できます。これにより、既存のワークシート内に直接、セルの視覚化の小さな「ダッシュボード」を簡単に構築できます。

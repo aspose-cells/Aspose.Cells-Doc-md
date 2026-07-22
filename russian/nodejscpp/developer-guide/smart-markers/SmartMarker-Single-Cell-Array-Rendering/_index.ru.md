@@ -1,10 +1,13 @@
 ---
 title: Рендеринг массива в одной ячейке SmartMarker | Aspose.Cells for Node.js via C++
+linktitle: Рендеринг массива в одной ячейке SmartMarker | Aspose.Cells
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в смарт-маркерах с Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells, библиотека Node.js, электронная таблица, смарт-маркеры, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
 url: /ru/nodejs-cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

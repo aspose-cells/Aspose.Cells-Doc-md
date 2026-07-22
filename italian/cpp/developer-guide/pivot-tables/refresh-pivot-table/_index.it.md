@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells fornisce un'API di aggiornamento stratificata che consente di ricaricare i dati delle pivot in quattro ambiti diversi — dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Aspose.Cells for C++ v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
+Aspose.Cells fornisce un'API di aggiornamento stratificata che consente di ricaricare i dati delle pivot in quattro ambiti diversi — dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for C++ v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
 
 {{% /alert %}}
 
@@ -484,7 +484,7 @@ int main() {
 
 ## Migrazione dall'Obsoleto `PivotTable.RefreshData()`
 
-Prima di Aspose.Cells for Aspose.Cells for C++ v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` su ogni tabella pivot individualmente. A partire da v26.7, quel metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
+Prima di Aspose.Cells for C++ v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` su ogni tabella pivot individualmente. A partire da v26.7, quel metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
 
 Ci sono due motivi per cui l'approccio `RefreshData()` per tabella è problematico nelle cartelle di lavoro reali:
 

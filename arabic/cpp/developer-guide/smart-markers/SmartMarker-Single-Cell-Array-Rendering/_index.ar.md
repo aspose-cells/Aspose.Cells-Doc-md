@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells C++
+linktitle: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells
 description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle وExtraDelimiter في Smart Markers مع Aspose.Cells for C++.
 keywords: Aspose.Cells, مكتبة C++, جدول بيانات, العلامات الذكية, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
 type: docs
 weight: 195
 url: /ar/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

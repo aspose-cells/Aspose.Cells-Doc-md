@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller i Aspose.Cells for .NET
-linktitle: Uppdatera pivottabeller i Aspose.Cells for .NET
+linktitle: Uppdatera pivottabeller
 description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for .NET med hjälp av v26.7+ pivot-uppdaterings-API,et. Den här artikeln täcker RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData och GetPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, .NET, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

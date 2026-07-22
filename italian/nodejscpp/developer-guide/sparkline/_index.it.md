@@ -1,6 +1,6 @@
 ---
 title: Sparklines in Aspose.Cells for Node.js via C++
-linktitle: Sparklines
+linktitle: Sparkline
 description: Aspose.Cells è una libreria Node.js per lavorare con file di fogli di calcolo che supporta la creazione di sparkline — mini grafici inseriti all'interno delle celle del foglio di lavoro. Questo articolo spiega come aggiungere e personalizzare sparkline a linee, colonne e vittoria/sconfitta utilizzando la libreria Aspose.Cells.
 keywords: Aspose.Cells, libreria Node.js, foglio di calcolo, sparkline, sparkline a linee, sparkline a colonne, sparkline vittoria/sconfitta, SparklineGroup, SparklineType
 type: docs

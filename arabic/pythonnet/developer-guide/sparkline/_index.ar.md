@@ -1,6 +1,6 @@
 ---
 title: خطوط المؤشر في Aspose.Cells for Python via .NET
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells هي مكتبة Python للعمل مع ملفات جداول البيانات التي تدعم إنشاء خطوط المؤشر - وهي رسوم بيانية صغيرة الحجم توضع داخل خلايا ورقة العمل. تشرح هذه المقالة كيفية إضافة وتخصيص خطوط المؤشر الخطية والعمودية والفوز/الخسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, مكتبة Python, جدول بيانات, خطوط المؤشر, خط مؤشر خطي, خط مؤشر عمودي, خط مؤشر فوز/خسارة, SparklineGroup, SparklineType
 type: docs

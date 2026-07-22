@@ -1,10 +1,13 @@
 ---
 title: DBF ファイルの読み取りと書き込み
+linktitle: DBF ファイルの読み取りと書き込み
 description: Aspose.Cells はスプレッドシートファイルを扱うための .NET ライブラリであり、dBASE III および IV (DBF) ファイルの読み取りと書き込みをサポートしています。この記事では、ファイルフォーマットの詳細、サポートされている機能、ステップごとの例を含めて、Aspose.Cells を使用して DBF ファイルからデータをインポートし、データをエクスポートする方法を説明します。
 keywords: Aspose.Cells, .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /ja/net/reading-and-writing-dbf-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

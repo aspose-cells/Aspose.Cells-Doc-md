@@ -1,10 +1,13 @@
 ---
 title: تقسيم ملفات Excel إلى ملفات متعددة
+linktitle: تقسيم ملفات Excel إلى ملفات
 description: Aspose.Cells هي مكتبة Python عبر .NET للعمل مع ملفات جداول البيانات، تدعم تقسيم ملف Excel واحد إلى ملفات متعددة. ستقدم هذه المقالة كيفية تقسيم ملفات Excel عن طريق نسخ كل ورقة عمل إلى مصنف منفصل ونسخ نطاقات خلايا محددة إلى مصنفات أخرى.
 keywords: Aspose.Cells, مكتبة Python عبر .NET, جدول بيانات, تقسيم ملف Excel, نسخ ورقة عمل, نسخ نطاق, مصنفات متعددة, حفظ كملفات منفصلة
 type: docs
 weight: 195
 url: /ar/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

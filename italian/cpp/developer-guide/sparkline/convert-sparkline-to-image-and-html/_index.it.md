@@ -151,7 +151,7 @@ I flussi di lavoro sopra si basano su un piccolo insieme di API di Aspose.Cells 
 
 ## **Articoli Correlati**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for C++](/cells/it/cpp/sparkline/)
+- [Sparklines in Aspose.Cells for C++](/cells/it/cpp/sparkline/)
 - [Inserimento di un'Immagine in una Cella](/cells/it/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/it/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

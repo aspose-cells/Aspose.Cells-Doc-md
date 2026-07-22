@@ -383,6 +383,6 @@ workbook.save("output.xlsx");
 
 ## **関連記事**
 
-- [Refreshing Pivot Tables in Aspose.Cells for Aspose.Cells for Node.js via C++](/cells/ja/nodejs-cpp/refresh-pivot-table/)
+- [Refreshing Pivot Tables in Aspose.Cells for Node.js via C++](/cells/ja/nodejs-cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="javascript" >}}

@@ -1,6 +1,6 @@
 ---
 title: الخطوط البيانية المصغرة في Aspose.Cells for Java
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells هي مكتبة Java للعمل مع ملفات جداول البيانات تدعم إنشاء خطوط بيانية مصغرة — رسوم بيانية صغيرة موضوعة داخل خلايا أوراق العمل. تشرح هذه المقالة كيفية إضافة وتخصيص الخطوط البيانية المصغرة الخطية والعمودية وخطوط الفوز/الخسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, مكتبة Java, جداول البيانات, خطوط بيانية مصغرة, خط بياني مصغر خطي, خط بياني مصغر عمودي, خط بياني مصغر للفوز/الخسارة, SparklineGroup, SparklineType
 type: docs
@@ -290,7 +290,7 @@ workbook.save("output_all.xlsx");
 
 
 
-{{< app/cells/assistant language="java" >}}`java
+`java
 public class CodeRunner {
     public static void main(String[] args) {
         try {
@@ -641,8 +641,6 @@ stackedGroup.setSeriesColor(stackedColor);
 
 // الخطوة 6: حفظ المصنف
 workbook.save("output_all.xlsx");
-```
-
 {{% alert color="primary" %}}
 
 عندما تجمع بين مجموعات خطوط بيانية مصغرة متعددة في ورقة عمل واحدة، تكون كل مجموعة مستقلة. يمكنها مشاركة نفس نطاق المصدر أو استخدام نطاقات مصدر مختلفة، ويمكن تنسيقها بشكل مستقل. وهذا يجعل من السهل بناء "لوحة معلومات" صغيرة من التصورات داخل الخلايا مباشرة داخل ورقة عمل موجودة.

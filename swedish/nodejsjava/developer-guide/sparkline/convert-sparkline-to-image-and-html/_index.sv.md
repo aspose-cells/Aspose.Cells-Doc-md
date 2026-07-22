@@ -141,8 +141,8 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklines i Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/sparkline/)
+- [Sparklines i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/nodejs-java/inserting-an-image-into-a-cell/)
-- [SmartMarker-rendering av enstaka cellmatris | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker-rendering av enstaka cellmatris | Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

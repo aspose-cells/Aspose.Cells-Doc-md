@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells 提供了一个分层刷新 API，允许您在四个不同的范围内重新加载透视数据 —— 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Aspose.Cells for Python via Java v26.7** 开始，旧方法 `PivotTable.refreshData()` 被标记为已过时，应替换为本文中描述的更高效的、支持缓存感知的 API。
+Aspose.Cells 提供了一个分层刷新 API，允许您在四个不同的范围内重新加载透视数据 —— 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Python via Java v26.7** 开始，旧方法 `PivotTable.refreshData()` 被标记为已过时，应替换为本文中描述的更高效的、支持缓存感知的 API。
 
 {{% /alert %}}
 
@@ -469,7 +469,7 @@ jpype.shutdownJVM()
 
 ## 从已过时的 `PivotTable.refreshData()` 迁移
 
-在 Aspose.Cells for Aspose.Cells for Python via Java v26.7 之前，刷新数据透视表的标准方式是对每个数据透视表单独调用 `PivotTable.refreshData()`。从 v26.7 开始，该方法被标记为**已过时**，应替换为上述支持缓存感知的 API。
+在 Aspose.Cells for Python via Java v26.7 之前，刷新数据透视表的标准方式是对每个数据透视表单独调用 `PivotTable.refreshData()`。从 v26.7 开始，该方法被标记为**已过时**，应替换为上述支持缓存感知的 API。
 
 在现实工作簿中，逐表 `refreshData()` 方法存在两个问题：
 

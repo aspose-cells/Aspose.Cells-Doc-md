@@ -1,10 +1,13 @@
 ---
 title: Leer y Escribir Archivos DBF
+linktitle: Leer y Escribir Archivos
 description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo, que admite la lectura y escritura de archivos dBASE III y IV (DBF). Este artículo explica cómo importar datos desde y exportar datos a archivos DBF usando Aspose.Cells, incluyendo detalles del formato de archivo, características compatibles y ejemplos paso a paso.
 keywords: Aspose.Cells, biblioteca C++, DBF, dBASE, leer DBF, escribir DBF, importar DBF, exportar DBF, formato de archivo, .dbf
 type: docs
 weight: 200
 url: /es/cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,10 +1,13 @@
 ---
 title: Rendu de tableau dans une seule cellule avec SmartMarker | Aspose.Cells C++
+linktitle: Rendu de tableau dans une seule cellule avec SmartMarker | Aspose.Cells
 description: Apprenez à restituer des données de tableau dans une seule cellule à l'aide des attributs ArrayAsSingle et ExtraDelimiter dans les Smart Markers avec Aspose.Cells for C++.
 keywords: Aspose.Cells, bibliothèque C++, feuille de calcul, Smart Markers, ArrayAsSingle, ExtraDelimiter, tableau à cellule unique, rendu de tableau, modèle
 type: docs
 weight: 195
 url: /fr/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

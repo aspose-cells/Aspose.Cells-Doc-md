@@ -135,7 +135,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 ## **相关文章**
 
-- [Aspose.Cells for Aspose.Cells for Java 中的迷你图](/cells/zh/java/sparkline/)
+- [Aspose.Cells for Java 中的迷你图](/cells/zh/java/sparkline/)
 - [将图像插入到单元格中](/cells/zh/java/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells Java](/cells/zh/java/SmartMarker-Single-Cell-Array-Rendering/)
 

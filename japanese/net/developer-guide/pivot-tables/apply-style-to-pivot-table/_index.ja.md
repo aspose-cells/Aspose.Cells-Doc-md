@@ -1,6 +1,6 @@
 ---
 title: ピボットテーブルへのスタイルの適用
-linktitle: ピボットテーブルへのスタイルの適用
+linktitle: ピボットテーブルへ
 description: Aspose.Cells for .NETでピボットテーブルに組み込みスタイルおよびカスタムスタイルを適用する方法を学びます。レガシーXLSの自動書式、モダンExcel 2007+の名前付きスタイル、カスタムピボットテーブルスタイル、FormatAllショートカットについて解説します。
 keywords: Aspose.Cells .NET ピボットテーブル スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Minigráficos en Aspose.Cells para Aspose.Cells for Java
-linktitle: Sparklines
+linktitle: Minigráficos
 description: Aspose.Cells es una biblioteca Java para trabajar con archivos de hojas de cálculo que admite la creación de minigráficos, pequeños gráficos colocados dentro de celdas de hojas de cálculo. Este artículo explica cómo agregar y personalizar minigráficos de línea, columna y victorias/derrotas utilizando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca Java, hoja de cálculo, minigráficos, minigráfico de línea, minigráfico de columna, minigráfico de victorias/derrotas, SparklineGroup, SparklineType
 type: docs

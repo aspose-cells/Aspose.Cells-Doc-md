@@ -1,10 +1,13 @@
 ---
 title: Dividir archivos de Excel en múltiples archivos
+linktitle: Dividir archivos de Excel
 description: Aspose.Cells es una biblioteca de Node.js para trabajar con archivos de hojas de cálculo, que admite dividir un único archivo de Excel en varios archivos. Este artículo presentará cómo dividir archivos de Excel copiando cada hoja de cálculo a un libro de trabajo separado y copiando rangos de celdas específicos a otros libros de trabajo.
 keywords: Aspose.Cells, biblioteca de Node.js, hoja de cálculo, dividir archivo de Excel, copiar hoja de cálculo, copiar rango, múltiples libros de trabajo, guardar como archivos separados
 type: docs
 weight: 195
 url: /es/nodejs-cpp/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

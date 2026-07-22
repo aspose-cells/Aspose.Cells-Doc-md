@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET'te Mini Grafikler (Sparklines)
-linktitle: Sparklines
+linktitle: Mini Grafikler
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışan ve çalışma sayfası hücrelerine yerleştirilen küçük grafikler olan mini grafikleri (sparklines) oluşturmayı destekleyen bir Python kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kaybetme mini grafiklerinin nasıl ekleneceğini ve özelleştirileceğini açıklamaktadır.
 keywords: Aspose.Cells, Python kütüphanesi, elektronik tablo, mini grafikler, sparklines, çizgi mini grafik, sütun mini grafik, kazanma/kaybetme mini grafik, SparklineGroup, SparklineType
 type: docs

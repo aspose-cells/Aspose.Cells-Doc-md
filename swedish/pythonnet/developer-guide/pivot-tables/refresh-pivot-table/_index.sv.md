@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells tillhandahåller ett lagerindelat uppdaterings-API som låter dig läsa in pivotdata på fyra olika nivåer — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Aspose.Cells for Python via .NET v26.7** är den äldre metoden `PivotTable.refresh_data()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:erna som beskrivs i den här artikeln.
+Aspose.Cells tillhandahåller ett lagerindelat uppdaterings-API som låter dig läsa in pivotdata på fyra olika nivåer — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Python via .NET v26.7** är den äldre metoden `PivotTable.refresh_data()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:erna som beskrivs i den här artikeln.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx")
 
 ## Migrera från den föråldrade `PivotTable.refresh_data()`
 
-Före Aspose.Cells for Aspose.Cells for Python via .NET v26.7 var standardsättet att uppdatera en pivottabell att anropa `PivotTable.refresh_data()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:erna som beskrivs ovan.
+Före Aspose.Cells for Python via .NET v26.7 var standardsättet att uppdatera en pivottabell att anropa `PivotTable.refresh_data()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:erna som beskrivs ovan.
 
 Det finns två anledningar till att `refresh_data()`-metoden per tabell är problematisk i verkliga arbetsböcker:
 

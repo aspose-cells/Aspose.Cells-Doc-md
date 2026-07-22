@@ -135,7 +135,7 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 
 ## **İlgili Makaleler**
 
-- [Aspose.Cells for Aspose.Cells for Java'da Sparklines](/cells/tr/java/sparkline/)
+- [Aspose.Cells for Java'da Sparklines](/cells/tr/java/sparkline/)
 - [Bir Hücreye Resim Ekleme](/cells/tr/java/inserting-an-image-into-a-cell/)
 - [SmartMarker Tek Hücre Dizi İşleme | Aspose.Cells Java](/cells/tr/java/SmartMarker-Single-Cell-Array-Rendering/)
 

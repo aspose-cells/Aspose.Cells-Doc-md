@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET のスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells は、ワークシートセル内に配置されるミニチュアグラフであるスパークラインの作成をサポートする、スプレッドシートファイルを扱うための Python ライブラリです。この記事では、Aspose.Cells ライブラリを使用して、折れ線、縦棒、勝敗のスパークラインを追加およびカスタマイズする方法について説明します。
 keywords: Aspose.Cells, Python ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 縦棒スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs

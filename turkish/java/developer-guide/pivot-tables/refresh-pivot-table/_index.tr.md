@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tablosuna kadar — pivot verilerini yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Aspose.Cells for Java v26.7** sürümünden itibaren, eski `PivotTable.refreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
+Aspose.Cells, dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tablosuna kadar — pivot verilerini yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Java v26.7** sürümünden itibaren, eski `PivotTable.refreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx");
 
 ## Kullanımdan Kaldırılan `PivotTable.refreshData()` Yönteminden Geçiş
 
-Aspose.Cells for Aspose.Cells for Java v26.7 öncesinde, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.refreshData()` yöntemini çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
+Aspose.Cells for Java v26.7 öncesinde, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.refreshData()` yöntemini çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
 
 Tablo başına `refreshData()` yaklaşımının gerçek dünya çalışma kitaplarında sorunlu olmasının iki nedeni vardır:
 

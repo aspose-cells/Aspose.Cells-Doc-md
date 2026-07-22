@@ -1,10 +1,13 @@
 ---
 title: Aufteilen von Excel-Dateien in mehrere Dateien
+linktitle: Aufteilen von Excel-Dateien
 description: Aspose.Cells ist eine Python via .NET-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien, die das Aufteilen einer einzelnen Excel-Datei in mehrere Dateien unterstützt. Dieser Artikel beschreibt, wie Excel-Dateien aufgeteilt werden, indem jedes Arbeitsblatt in eine separate Arbeitsmappe kopiert wird und indem bestimmte Zellbereiche in andere Arbeitsmappen kopiert werden.
 keywords: Aspose.Cells, Python via .NET-Bibliothek, Tabellenkalkulation, Excel-Datei aufteilen, Arbeitsblatt kopieren, Bereich kopieren, mehrere Arbeitsmappen, als separate Dateien speichern
 type: docs
 weight: 195
 url: /de/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

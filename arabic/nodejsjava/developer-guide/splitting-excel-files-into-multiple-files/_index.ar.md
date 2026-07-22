@@ -1,10 +1,13 @@
 ---
 title: تقسيم ملفات Excel إلى ملفات متعددة
+linktitle: تقسيم ملفات Excel إلى ملفات
 description: Aspose.Cells for Node.js via Java هي مكتبة Aspose.Cells للعمل مع ملفات جداول البيانات، تدعم تقسيم ملف Excel واحد إلى ملفات متعددة. ستقدم هذه المقالة كيفية تقسيم ملفات Excel عن طريق نسخ كل ورقة عمل إلى مصنف منفصل وعن طريق نسخ نطاقات خلايا محددة إلى مصنفات أخرى.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, جدول بيانات, تقسيم ملف Excel, نسخ ورقة عمل, نسخ نطاق, مصنفات متعددة, حفظ كملفات منفصلة
 type: docs
 weight: 195
 url: /ar/nodejs-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

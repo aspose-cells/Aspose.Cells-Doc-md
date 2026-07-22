@@ -1,10 +1,13 @@
 ---
 title: Excel ファイルを複数のファイルに分割する
+linktitle: Excel ファイルを複数のファイルに分割する
 description: Aspose.Cells はスプレッドシートファイルを扱うための C++ ライブラリであり、単一の Excel ファイルを複数のファイルに分割することをサポートしています。この記事では、各ワークシートを別のワークブックにコピーする方法と、特定のセル範囲を他のワークブックにコピーする方法によって Excel ファイルを分割する方法を紹介します。
 keywords: Aspose.Cells, C++ ライブラリ, スプレッドシート, Excel ファイルの分割, ワークシートのコピー, 範囲のコピー, 複数のワークブック, 個別のファイルとして保存
 type: docs
 weight: 195
 url: /ja/cpp/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

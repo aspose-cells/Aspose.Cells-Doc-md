@@ -1,10 +1,13 @@
 ---
 title: DBF Dosyalarını Okuma ve Yazma
+linktitle: DBF Dosyalarını Okuma ve
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir C++ kütüphanesidir ve dBASE III ve IV (DBF) dosyalarını okuma ve yazma desteği sunar. Bu makale, Aspose.Cells kullanarak DBF dosyalarından veri içe aktarma ve bu dosyalara veri dışa aktarma işlemlerini, dosya biçimi ayrıntılarını, desteklenen özellikleri ve adım adım örnekleri açıklamaktadır.
 keywords: Aspose.Cells, C++ kütüphanesi, DBF, dBASE, DBF okuma, DBF yazma, DBF içe aktarma, DBF dışa aktarma, dosya biçimi, .dbf
 type: docs
 weight: 200
 url: /tr/cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再ロードできる階層型の更新 API を提供します。**Aspose.Cells for Aspose.Cells for Java v26.7** 以降、従来のメソッド `PivotTable.refreshData()` は非推奨となり、本記事で説明するより効率的でキャッシュを認識する API に置き換える必要があります。
+Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再ロードできる階層型の更新 API を提供します。**Aspose.Cells for Java v26.7** 以降、従来のメソッド `PivotTable.refreshData()` は非推奨となり、本記事で説明するより効率的でキャッシュを認識する API に置き換える必要があります。
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx");
 
 ## 非推奨の `PivotTable.refreshData()` からの移行
 
-Aspose.Cells for Aspose.Cells for Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **非推奨** とされ、上記で説明したキャッシュを認識する API に置き換える必要があります。
+Aspose.Cells for Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **非推奨** とされ、上記で説明したキャッシュを認識する API に置き換える必要があります。
 
 実際のワークブックでは、テーブルごとの `refreshData()` アプローチに問題がある理由は 2 つあります。
 
@@ -522,6 +522,6 @@ workbook.save("output.xlsx");
 - [セルへの画像の挿入](/cells/ja/java/inserting-an-image-into-a-cell/)
 - [DBF ファイルの読み取りと書き込み](/cells/ja/java/dbf/)
 - [Excel ファイルの複数ファイルへの分割](/cells/ja/java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Aspose.Cells for Java でのスパークライン](/cells/ja/java/sparkline/)
+- [Aspose.Cells for Java でのスパークライン](/cells/ja/java/sparkline/)
 
 {{< app/cells/assistant language="java" >}}

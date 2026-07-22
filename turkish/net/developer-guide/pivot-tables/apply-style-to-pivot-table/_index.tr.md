@@ -1,6 +1,6 @@
 ---
 title: Özet Tablolara Stil Uygulama
-linktitle: Özet Tablolara Stil Uygulama
+linktitle: Stil Uygulama
 description: Aspose.Cells for .NET'te hem yerleşik hem de özel stilleri özet tablolara nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel özet tablo stilleri ve FormatAll kısayolu.
 keywords: Aspose.Cells .NET özet tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs

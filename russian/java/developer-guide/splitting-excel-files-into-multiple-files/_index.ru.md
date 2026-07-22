@@ -1,10 +1,13 @@
 ---
 title: Разделение файлов Excel на несколько файлов
+linktitle: Разделение файлов Excel на несколько
 description: Aspose.Cells — это Java-библиотека для работы с файлами электронных таблиц, которая поддерживает разделение одного файла Excel на несколько файлов. В этой статье будет показано, как разделить файлы Excel путём копирования каждого рабочего листа в отдельную рабочую книгу и путём копирования определённых диапазонов ячеек в другие рабочие книги.
 keywords: Aspose.Cells, Java-библиотека, электронная таблица, разделение файла Excel, копирование рабочего листа, копирование диапазона, несколько рабочих книг, сохранение в отдельные файлы
 type: docs
 weight: 195
 url: /ru/java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

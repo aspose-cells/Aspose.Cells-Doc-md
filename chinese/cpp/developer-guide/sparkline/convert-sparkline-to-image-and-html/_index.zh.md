@@ -151,7 +151,7 @@ int main() {
 
 ## **相关文章**
 
-- [Aspose.Cells for Aspose.Cells for C++ 中的迷你图](/cells/zh/cpp/sparkline/)
+- [Aspose.Cells for C++ 中的迷你图](/cells/zh/cpp/sparkline/)
 - [在单元格中插入图像](/cells/zh/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells for C++](/cells/zh/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

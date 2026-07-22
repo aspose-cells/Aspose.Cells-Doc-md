@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells tillhandahåller ett lagerbaserat uppdaterings-API som låter dig läsa in pivotdata på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Aspose.Cells for C++ v26.7** är den äldre metoden `PivotTable.RefreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
+Aspose.Cells tillhandahåller ett lagerbaserat uppdaterings-API som låter dig läsa in pivotdata på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for C++ v26.7** är den äldre metoden `PivotTable.RefreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
 
 {{% /alert %}}
 
@@ -484,7 +484,7 @@ int main() {
 
 ## Migrera från den föråldrade `PivotTable.RefreshData()`
 
-Före Aspose.Cells for Aspose.Cells for C++ v26.7 var standardsättet att uppdatera en pivottabell att anropa `PivotTable.RefreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
+Före Aspose.Cells for C++ v26.7 var standardsättet att uppdatera en pivottabell att anropa `PivotTable.RefreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
 
 Det finns två anledningar till att metoden med `RefreshData()` per tabell är problematisk i verkliga arbetsböcker:
 

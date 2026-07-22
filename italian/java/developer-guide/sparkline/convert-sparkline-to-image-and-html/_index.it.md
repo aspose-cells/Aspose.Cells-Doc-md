@@ -135,7 +135,7 @@ I flussi di lavoro sopra si basano su un piccolo insieme di API di Aspose.Cells 
 
 ## **Articoli Correlati**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Java](/cells/it/java/sparkline/)
+- [Sparklines in Aspose.Cells for Java](/cells/it/java/sparkline/)
 - [Inserimento di un'Immagine in una Cella](/cells/it/java/inserting-an-image-into-a-cell/)
 - [Rendering di Array a Cella Singola con SmartMarker | Aspose.Cells Java](/cells/it/java/SmartMarker-Single-Cell-Array-Rendering/)
 

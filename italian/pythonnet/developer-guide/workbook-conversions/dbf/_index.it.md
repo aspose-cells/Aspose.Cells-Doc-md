@@ -1,10 +1,13 @@
 ---
 title: Lettura e scrittura di file DBF
+linktitle: Lettura e scrittura di file
 description: Aspose.Cells è una libreria per Python tramite .NET per lavorare con file di fogli di calcolo, che supporta la lettura e la scrittura di file dBASE III e IV (DBF). Questo articolo spiega come importare dati da ed esportare dati verso file DBF utilizzando Aspose.Cells, inclusi i dettagli del formato di file, le funzionalità supportate ed esempi passo-passo.
 keywords: Aspose.Cells, libreria Python tramite .NET, DBF, dBASE, leggere DBF, scrivere DBF, importare DBF, esportare DBF, formato di file, .dbf
 type: docs
 weight: 200
 url: /it/python-net/reading-and-writing-dbf-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

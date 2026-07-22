@@ -141,8 +141,8 @@ Die oben beschriebenen Workflows stützen sich auf eine kleine Reihe von Aspose.
 
 ## **Verwandte Artikel**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/sparkline/)
+- [Sparklines in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/sparkline/)
 - [Einfügen eines Bildes in eine Zelle](/cells/de/nodejs-java/inserting-an-image-into-a-cell/)
-- [SmartMarker Einzelzell-Array-Rendering | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Einzelzell-Array-Rendering | Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

@@ -1,10 +1,13 @@
 ---
 title: Рендеринг массива смарт-маркера в одной ячейке | Aspose.Cells Python via Java
+linktitle: Рендеринг массива смарт-маркера в одной ячейке | Aspose.Cells Python
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в смарт-маркерах с Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, библиотека Python via Java, электронная таблица, смарт-маркеры, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
 url: /ru/python-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

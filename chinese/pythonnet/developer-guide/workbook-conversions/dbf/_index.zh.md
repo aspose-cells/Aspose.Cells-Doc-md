@@ -1,10 +1,13 @@
 ---
 title: 读取和写入 DBF 文件
+linktitle: 读取和写入 DBF
 description: Aspose.Cells 是一个通过 .NET 为 Python 提供的电子表格文件处理库，支持读取和写入 dBASE III 和 IV (DBF) 文件。本文介绍如何使用 Aspose.Cells 从 DBF 文件导入数据以及将数据导出到 DBF 文件，包括文件格式详细信息、支持的功能以及分步骤的示例。
 keywords: Aspose.Cells, Python via .NET 库, DBF, dBASE, 读取 DBF, 写入 DBF, 导入 DBF, 导出 DBF, 文件格式, .dbf
 type: docs
 weight: 200
 url: /zh/python-net/reading-and-writing-dbf-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

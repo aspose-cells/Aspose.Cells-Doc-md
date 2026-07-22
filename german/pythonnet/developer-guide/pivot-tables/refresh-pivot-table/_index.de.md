@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells stellt eine mehrstufige Refresh-API bereit, mit der Sie Pivot-Daten in vier verschiedenen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Ab **Aspose.Cells for Aspose.Cells for Python via .NET v26.7** ist die ältere Methode `PivotTable.refresh_data()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
+Aspose.Cells stellt eine mehrstufige Refresh-API bereit, mit der Sie Pivot-Daten in vier verschiedenen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Ab **Aspose.Cells for Python via .NET v26.7** ist die ältere Methode `PivotTable.refresh_data()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx")
 
 ## Migration von der veralteten Methode `PivotTable.refresh_data()`
 
-Vor Aspose.Cells for Aspose.Cells for Python via .NET v26.7 war die Standardmethode zum Aktualisieren einer Pivot-Tabelle der Aufruf von `PivotTable.refresh_data()` für jede Pivot-Tabelle einzeln. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
+Vor Aspose.Cells for Python via .NET v26.7 war die Standardmethode zum Aktualisieren einer Pivot-Tabelle der Aufruf von `PivotTable.refresh_data()` für jede Pivot-Tabelle einzeln. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 
 Es gibt zwei Gründe, warum der tabellenweise `refresh_data()`-Ansatz in realen Arbeitsmappen problematisch ist:
 

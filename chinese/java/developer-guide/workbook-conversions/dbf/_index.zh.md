@@ -1,10 +1,13 @@
 ---
 title: 读取和写入 DBF 文件
+linktitle: 读取和写入 DBF
 description: Aspose.Cells 是一个用于处理电子表格文件的 Java 库，支持读取和写入 dBASE III 和 IV (DBF) 文件。本文介绍如何使用 Aspose.Cells 从 DBF 文件导入数据以及将数据导出到 DBF 文件，包括文件格式详细信息、支持的功能以及分步示例。
 keywords: Aspose.Cells, Java 库, DBF, dBASE, 读取 DBF, 写入 DBF, 导入 DBF, 导出 DBF, 文件格式, .dbf
 type: docs
 weight: 200
 url: /zh/java/reading-and-writing-dbf-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

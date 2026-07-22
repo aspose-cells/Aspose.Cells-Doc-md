@@ -1,6 +1,6 @@
 ---
 title: الشرارات في Aspose.Cells for Python via Java
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells for Python via Java هي مكتبة Python عبر Java للعمل مع ملفات جداول البيانات، تدعم إنشاء شرارات — وهي رسوم بيانية صغيرة الحجم تُوضع داخل خلايا ورقة العمل. توضح هذه المقالة كيفية إضافة وتخصيص شرارات الخط والعمود والفوز/الخسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, مكتبة Python عبر Java, جدول بيانات, شرارات, شرارة خط, شرارة عمود, شرارة فوز/خسارة, SparklineGroup, SparklineType
 type: docs

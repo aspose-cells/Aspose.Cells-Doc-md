@@ -1,10 +1,13 @@
 ---
 title: SmartMarker Tek Hücre Dizi Oluşturma | Aspose.Cells Java
+linktitle: SmartMarker Tek Hücre Dizi Oluşturma | Aspose.Cells
 description: Aspose.Cells for Java ile Smart Markers'da ArrayAsSingle ve ExtraDelimiter özniteliklerini kullanarak dizi verilerini tek bir hücreye nasıl işleyeceğinizi öğrenin.
 keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, Smart Markers, ArrayAsSingle, ExtraDelimiter, tek hücre dizisi, dizi oluşturma, şablon
 type: docs
 weight: 195
 url: /tr/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

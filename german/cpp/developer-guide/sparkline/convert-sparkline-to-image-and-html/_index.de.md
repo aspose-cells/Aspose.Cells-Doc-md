@@ -151,7 +151,7 @@ Die oben beschriebenen Arbeitsabläufe beruhen auf einer kleinen Reihe von Aspos
 
 ## **Verwandte Artikel**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for C++](/cells/de/cpp/sparkline/)
+- [Sparklines in Aspose.Cells for C++](/cells/de/cpp/sparkline/)
 - [Bild in eine Zelle einfügen](/cells/de/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Einzelzellen-Array-Rendering | Aspose.Cells for C++](/cells/de/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

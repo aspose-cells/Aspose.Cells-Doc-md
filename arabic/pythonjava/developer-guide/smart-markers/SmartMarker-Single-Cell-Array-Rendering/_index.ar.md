@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells Python عبر Java
+linktitle: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells Python عبر
 description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle و ExtraDelimiter في Smart Markers مع Aspose.Cells for Python عبر Java.
 keywords: Aspose.Cells, Python via Java library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template
 type: docs
 weight: 195
 url: /ar/python-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

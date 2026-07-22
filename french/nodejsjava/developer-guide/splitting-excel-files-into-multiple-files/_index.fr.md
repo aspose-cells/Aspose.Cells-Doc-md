@@ -1,10 +1,13 @@
 ---
 title: Fractionner des fichiers Excel en plusieurs fichiers
+linktitle: Fractionner des fichiers Excel
 description: Aspose.Cells est une bibliothèque Aspose.Cells for Node.js via Java destinée à travailler avec des fichiers de feuilles de calcul, qui prend en charge le fractionnement d'un fichier Excel unique en plusieurs fichiers. Cet article explique comment fractionner des fichiers Excel en copiant chaque feuille de calcul dans un classeur distinct et en copiant des plages de cellules spécifiques vers d'autres classeurs.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, feuille de calcul, fractionner un fichier Excel, copier une feuille de calcul, copier une plage, plusieurs classeurs, enregistrer en tant que fichiers distincts
 type: docs
 weight: 195
 url: /fr/nodejs-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

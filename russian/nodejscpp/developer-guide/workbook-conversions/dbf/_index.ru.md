@@ -1,10 +1,13 @@
 ---
 title: Чтение и запись файлов DBF
+linktitle: Чтение и запись файлов
 description: Aspose.Cells for Node.js via C++ — это библиотека для работы с файлами электронных таблиц, которая поддерживает чтение и запись файлов dBASE III и IV (DBF). В этой статье объясняется, как импортировать данные из файлов DBF и экспортировать данные в файлы DBF с помощью Aspose.Cells, включая сведения о формате файлов, поддерживаемые функции и пошаговые примеры.
 keywords: Aspose.Cells, Node.js via C++, DBF, dBASE, чтение DBF, запись DBF, импорт DBF, экспорт DBF, формат файла, .dbf
 type: docs
 weight: 200
 url: /ru/nodejs-cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

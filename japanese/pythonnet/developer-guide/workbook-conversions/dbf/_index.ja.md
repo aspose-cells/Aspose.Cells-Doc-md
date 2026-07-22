@@ -1,10 +1,13 @@
 ---
 title: DBF ファイルの読み取りと書き込み
+linktitle: DBF ファイルの読み取りと書き込み
 description: Aspose.Cells は、Python via .NET でスプレッドシートファイルを扱うためのライブラリであり、dBASE III および IV (DBF) ファイルの読み取りと書き込みをサポートしています。この記事では、Aspose.Cells を使用して DBF ファイルからデータをインポートしたり、DBF ファイルにデータをエクスポートしたりする方法について、ファイル形式の詳細、サポートされる機能、ステップバイステップの例とともに説明します。
 keywords: Aspose.Cells, Python via .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /ja/python-net/reading-and-writing-dbf-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

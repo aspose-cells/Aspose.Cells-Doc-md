@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells .NET
+linktitle: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells
 description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle وExtraDelimiter في العلامات الذكية مع Aspose.Cells لـ .NET.
 keywords: Aspose.Cells, مكتبة .NET, جدول بيانات, علامات ذكية, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفات, قالب
 type: docs
 weight: 195
 url: /ar/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

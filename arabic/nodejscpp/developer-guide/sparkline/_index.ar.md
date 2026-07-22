@@ -1,6 +1,6 @@
 ---
 title: خطوط المؤشر في Aspose.Cells for Node.js via C++
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells هي مكتبة Node.js للعمل مع ملفات جداول البيانات تدعم إنشاء خطوط المؤشر (Sparklines) — وهي رسوم بيانية مصغرة تُوضع داخل خلايا ورقة العمل. تشرح هذه المقالة كيفية إضافة وتخصيص خطوط المؤشر الخطية والعمودية وفوز/خسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, Node.js library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

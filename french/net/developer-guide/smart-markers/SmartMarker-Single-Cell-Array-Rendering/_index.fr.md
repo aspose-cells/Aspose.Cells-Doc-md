@@ -1,10 +1,13 @@
 ---
 title: Rendu de tableau à cellule unique SmartMarker | Aspose.Cells .NET
+linktitle: Rendu de tableau
 description: Apprenez à rendre des données de tableau dans une seule cellule à l'aide des attributs ArrayAsSingle et ExtraDelimiter dans les Smart Markers avec Aspose.Cells for .NET.
 keywords: Aspose.Cells, bibliothèque .NET, feuille de calcul, Smart Markers, ArrayAsSingle, ExtraDelimiter, tableau à cellule unique, rendu de tableau, modèle
 type: docs
 weight: 195
 url: /fr/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,10 +1,13 @@
 ---
 title: Renderización de matriz en una sola celda con SmartMarker | Aspose.Cells .NET
+linktitle: Renderización de matriz
 description: Aprenda a renderizar datos de matriz en una sola celda utilizando los atributos ArrayAsSingle y ExtraDelimiter en Smart Markers con Aspose.Cells for .NET.
 keywords: Aspose.Cells, biblioteca .NET, hoja de cálculo, Smart Markers, ArrayAsSingle, ExtraDelimiter, matriz en una sola celda, renderización de matriz, plantilla
 type: docs
 weight: 195
 url: /es/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,10 +1,13 @@
 ---
 title: DBF Dosyalarını Okuma ve Yazma
+linktitle: DBF Dosyalarını Okuma ve
 description: Aspose.Cells, Python via .NET aracılığıyla elektronik tablo dosyalarıyla çalışmak için kullanılan ve dBASE III ve IV (DBF) dosyalarını okumayı ve yazmayı destekleyen bir kütüphanedir. Bu makale, Aspose.Cells kullanarak DBF dosyalarından veri içe aktarma ve bu dosyalara veri dışa aktarma işlemlerini, dosya biçimi ayrıntılarını, desteklenen özellikleri ve adım adım örnekleri açıklamaktadır.
 keywords: Aspose.Cells, Python via .NET kütüphanesi, DBF, dBASE, DBF okuma, DBF yazma, DBF içe aktarma, DBF dışa aktarma, dosya biçimi, .dbf
 type: docs
 weight: 200
 url: /tr/python-net/reading-and-writing-dbf-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

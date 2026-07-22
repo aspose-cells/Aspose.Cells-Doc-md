@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells for Python via .NET
+linktitle: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells
 description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle وExtraDelimiter في العلامات الذكية مع Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template
 type: docs
 weight: 195
 url: /ar/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

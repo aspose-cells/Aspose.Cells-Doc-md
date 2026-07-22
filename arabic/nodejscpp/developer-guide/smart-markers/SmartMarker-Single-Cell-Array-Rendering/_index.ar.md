@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells for Node.js via C++
+linktitle: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells
 description: تعرف على كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمات ArrayAsSingle و ExtraDelimiter في Smart Markers مع Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells, مكتبة Node.js, جدول بيانات, Smart Markers, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
 type: docs
 weight: 195
 url: /ar/nodejs-cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

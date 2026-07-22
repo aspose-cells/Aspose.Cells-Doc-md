@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц в четырёх различных областях — от всей рабочей книги до одной сводной таблицы. Начиная с версии **Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7**, устаревший метод `PivotTable.RefreshData()` помечен как устаревший и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в данной статье.
+Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц в четырёх различных областях — от всей рабочей книги до одной сводной таблицы. Начиная с версии **Aspose.Cells for Node.js via C++ v26.7**, устаревший метод `PivotTable.RefreshData()` помечен как устаревший и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в данной статье.
 
 {{% /alert %}}
 
@@ -429,7 +429,7 @@ workbook.save("output.xlsx");
 
 ## Миграция с устаревшего `PivotTable.RefreshData()`
 
-До версии Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` для каждой сводной таблицы отдельно. Начиная с версии 26.7, этот метод помечен как **устаревший** и должен быть заменён описанными выше API, учитывающими кэш.
+До версии Aspose.Cells for Node.js via C++ v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` для каждой сводной таблицы отдельно. Начиная с версии 26.7, этот метод помечен как **устаревший** и должен быть заменён описанными выше API, учитывающими кэш.
 
 Существуют две причины, по которым подход с `RefreshData()` для каждой таблицы проблематичен в реальных рабочих книгах:
 
@@ -527,6 +527,6 @@ workbook.save("output.xlsx");
 - [Вставка изображения в ячейку](/cells/ru/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/nodejs-cpp/dbf/)
 - [Разделение Excel-файлов на несколько файлов](/cells/ru/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/sparkline/)
+- [Спарклайны в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/sparkline/)
 
 {{< app/cells/assistant language="javascript" >}}

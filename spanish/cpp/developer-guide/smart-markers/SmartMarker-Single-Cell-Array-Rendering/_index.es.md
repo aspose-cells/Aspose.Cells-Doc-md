@@ -1,10 +1,13 @@
 ---
 title: Renderizado de Matriz en Celda Única con SmartMarker | Aspose.Cells C++
+linktitle: Renderizado de Matriz
 description: Aprenda a renderizar datos de matriz en una sola celda utilizando los atributos ArrayAsSingle y ExtraDelimiter en Smart Markers con Aspose.Cells for Aspose.Cells for C++.
 keywords: Aspose.Cells, biblioteca C++, hoja de cálculo, Smart Markers, ArrayAsSingle, ExtraDelimiter, matriz de celda única, renderizado de matriz, plantilla
 type: docs
 weight: 195
 url: /es/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

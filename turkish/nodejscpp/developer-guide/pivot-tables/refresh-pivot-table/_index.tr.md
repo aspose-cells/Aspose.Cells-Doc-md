@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, pivot verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir pivot tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7** sürümünden itibaren, eski `PivotTable.RefreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
+Aspose.Cells, pivot verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir pivot tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Node.js via C++ v26.7** sürümünden itibaren, eski `PivotTable.RefreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 
 {{% /alert %}}
 
@@ -428,7 +428,7 @@ workbook.save("output.xlsx");
 
 ## Kullanımdan Kaldırılan `PivotTable.RefreshData()`'dan Geçiş
 
-Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7'den önce, bir pivot tablosunu yenilemenin standart yolu her pivot tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
+Aspose.Cells for Node.js via C++ v26.7'den önce, bir pivot tablosunu yenilemenin standart yolu her pivot tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 
 Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
 

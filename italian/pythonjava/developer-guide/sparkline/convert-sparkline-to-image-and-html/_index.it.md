@@ -161,7 +161,7 @@ I flussi di lavoro sopra si basano su un piccolo insieme di API di Aspose.Cells 
 
 ## **Articoli correlati**
 
-- [Sparkline in Aspose.Cells for Aspose.Cells for Python via Java](/cells/it/python-java/sparkline/)
+- [Sparkline in Aspose.Cells for Python via Java](/cells/it/python-java/sparkline/)
 - [Inserimento di un'Immagine in una Cella](/cells/it/python-java/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="python" >}}

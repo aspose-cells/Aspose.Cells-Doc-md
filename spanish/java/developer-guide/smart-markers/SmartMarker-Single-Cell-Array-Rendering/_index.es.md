@@ -1,10 +1,13 @@
 ---
 title: Representación de matriz en celda única de SmartMarker | Aspose.Cells Java
+linktitle: Representación de matriz
 description: Aprenda cómo representar datos de matriz en una sola celda utilizando los atributos ArrayAsSingle y ExtraDelimiter en Smart Markers con Aspose.Cells for Java.
 keywords: Aspose.Cells, biblioteca Java, hoja de cálculo, Smart Markers, ArrayAsSingle, ExtraDelimiter, matriz en celda única, representación de matriz, plantilla
 type: docs
 weight: 195
 url: /es/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

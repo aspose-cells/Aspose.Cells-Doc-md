@@ -1,10 +1,13 @@
 ---
 title: Рендеринг массива в одну ячейку SmartMarker | Aspose.Cells for Python via .NET
+linktitle: Рендеринг массива в одну ячейку SmartMarker | Aspose.Cells
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в смарт-маркерах с Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template
 type: docs
 weight: 195
 url: /ru/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

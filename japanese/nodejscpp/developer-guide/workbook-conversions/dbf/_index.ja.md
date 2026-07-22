@@ -1,10 +1,13 @@
 ---
 title: DBFファイルの読み取りと書き込み
+linktitle: DBFファイルの読み取りと書き込み
 description: Aspose.Cellsはスプレッドシートファイルを操作するためのAspose.Cells for Node.js via C++ライブラリで、dBASE IIIおよびIV (DBF)ファイルの読み取りと書き込みをサポートしています。この記事では、ファイル形式の詳細、サポートされている機能、ステップバイステップの例を含め、Aspose.Cellsを使用してDBFファイルからデータをインポートしたりDBFファイルにデータをエクスポートしたりする方法を説明します。
 keywords: Aspose.Cells, Aspose.Cells for Node.js via C++ library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /ja/nodejs-cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

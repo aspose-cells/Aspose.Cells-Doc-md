@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona una API de actualización en capas que le permite recargar datos de tablas dinámicas en cuatro alcances diferentes, desde todo el libro de trabajo hasta una sola tabla dinámica. A partir de **Aspose.Cells for Aspose.Cells for Python via .NET v26.7**, el método heredado `PivotTable.refresh_data()` está marcado como obsoleto y debe reemplazarse por las APIs más eficientes y conscientes del caché descritas en este artículo.
+Aspose.Cells proporciona una API de actualización en capas que le permite recargar datos de tablas dinámicas en cuatro alcances diferentes, desde todo el libro de trabajo hasta una sola tabla dinámica. A partir de **Aspose.Cells for Python via .NET v26.7**, el método heredado `PivotTable.refresh_data()` está marcado como obsoleto y debe reemplazarse por las APIs más eficientes y conscientes del caché descritas en este artículo.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx")
 
 ## Migración desde el método obsoleto `PivotTable.refresh_data()`
 
-Antes de Aspose.Cells for Aspose.Cells for Python via .NET v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refresh_data()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse por las APIs conscientes del caché descritas anteriormente.
+Antes de Aspose.Cells for Python via .NET v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refresh_data()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse por las APIs conscientes del caché descritas anteriormente.
 
 Hay dos razones por las que el enfoque por tabla `refresh_data()` es problemático en libros de trabajo del mundo real:
 

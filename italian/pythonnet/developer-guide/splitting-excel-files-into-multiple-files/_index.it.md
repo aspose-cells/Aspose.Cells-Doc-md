@@ -1,10 +1,13 @@
 ---
 title: Divisione di file Excel in più file
+linktitle: Divisione di file Excel
 description: Aspose.Cells è una libreria Python tramite .NET per lavorare con file di fogli di calcolo, che supporta la divisione di un singolo file Excel in più file. Questo articolo spiega come dividere i file Excel copiando ciascun foglio di lavoro in una cartella di lavoro separata e copiando specifici intervalli di celle in altre cartelle di lavoro.
 keywords: Aspose.Cells, libreria Python tramite .NET, foglio di calcolo, dividere file Excel, copiare foglio di lavoro, copiare intervallo, più cartelle di lavoro, salvare come file separati
 type: docs
 weight: 195
 url: /it/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

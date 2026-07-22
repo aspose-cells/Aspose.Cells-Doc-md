@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells fournit une API d'actualisation en couches qui vous permet de recharger les données des tableaux croisés dynamiques à quatre niveaux différents — du classeur entier jusqu'à un seul tableau croisé dynamique. À partir de la version **Aspose.Cells for Aspose.Cells for Python via Java v26.7**, la méthode héritée `PivotTable.refreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces et conscientes du cache décrites dans cet article.
+Aspose.Cells fournit une API d'actualisation en couches qui vous permet de recharger les données des tableaux croisés dynamiques à quatre niveaux différents — du classeur entier jusqu'à un seul tableau croisé dynamique. À partir de la version **Aspose.Cells for Python via Java v26.7**, la méthode héritée `PivotTable.refreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces et conscientes du cache décrites dans cet article.
 
 {{% /alert %}}
 
@@ -470,7 +470,7 @@ jpype.shutdownJVM()
 
 ## Migration depuis l'obsolète `PivotTable.refreshData()`
 
-Avant Aspose.Cells for Aspose.Cells for Python via Java v26.7, la méthode standard pour actualiser un tableau croisé dynamique consistait à appeler `PivotTable.refreshData()` sur chaque tableau croisé dynamique individuellement. Depuis la version v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API conscientes du cache décrites ci-dessus.
+Avant Aspose.Cells for Python via Java v26.7, la méthode standard pour actualiser un tableau croisé dynamique consistait à appeler `PivotTable.refreshData()` sur chaque tableau croisé dynamique individuellement. Depuis la version v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API conscientes du cache décrites ci-dessus.
 
 Il y a deux raisons pour lesquelles l'approche `refreshData()` par tableau est problématique dans les classeurs du monde réel :
 

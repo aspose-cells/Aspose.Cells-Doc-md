@@ -447,6 +447,6 @@ jpype.shutdownJVM()
 
 ## **Связанные статьи**
 
-- [Обновление сводных таблиц в Aspose.Cells for Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
+- [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

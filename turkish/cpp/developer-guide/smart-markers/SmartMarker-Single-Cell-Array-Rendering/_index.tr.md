@@ -1,10 +1,13 @@
 ---
 title: SmartMarker Tek Hücreli Dizi Oluşturma | Aspose.Cells C++
+linktitle: SmartMarker Tek Hücreli Dizi Oluşturma | Aspose.Cells
 description: Aspose.Cells for C++ ile Akıllı İşaretçiler'de ArrayAsSingle ve ExtraDelimiter özniteliklerini kullanarak dizi verilerini tek bir hücreye nasıl oluşturacağınızı öğrenin.
 keywords: Aspose.Cells, C++ kütüphanesi, elektronik tablo, Akıllı İşaretçiler, ArrayAsSingle, ExtraDelimiter, tek hücreli dizi, dizi oluşturma, şablon
 type: docs
 weight: 195
 url: /tr/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

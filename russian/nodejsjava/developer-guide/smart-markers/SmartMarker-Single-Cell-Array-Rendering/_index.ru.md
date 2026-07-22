@@ -1,10 +1,13 @@
 ---
 title: Отрисовка массива в одной ячейке в SmartMarker | Aspose.Cells for Node.js via Java
+linktitle: Отрисовка массива в одной ячейке в SmartMarker | Aspose.Cells
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в Smart Markers с использованием Aspose.Cells for Node.js via Java.
 keywords: Aspose.Cells, библиотека Node.js via Java, электронная таблица, Smart Markers, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, отрисовка массива, шаблон
 type: docs
 weight: 195
 url: /ru/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

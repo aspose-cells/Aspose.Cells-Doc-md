@@ -135,7 +135,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 ## **مقالات ذات صلة**
 
-- [Sparklines في Aspose.Cells for Aspose.Cells for Java](/cells/ar/java/sparkline/)
+- [Sparklines في Aspose.Cells for Java](/cells/ar/java/sparkline/)
 - [إدراج صورة في خلية](/cells/ar/java/inserting-an-image-into-a-cell/)
 - [عرض مصفوفة الخلية الواحدة لـ SmartMarker | Aspose.Cells Java](/cells/ar/java/SmartMarker-Single-Cell-Array-Rendering/)
 

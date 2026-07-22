@@ -1,10 +1,13 @@
 ---
 title: Divisione di file Excel in più file
+linktitle: Divisione di file Excel
 description: Aspose.Cells è una libreria Aspose.Cells for Node.js via Java per lavorare con file di fogli di calcolo, che supporta la divisione di un singolo file Excel in più file. Questo articolo illustrerà come dividere i file Excel copiando ciascun foglio di lavoro in una cartella di lavoro separata e copiando intervalli di celle specifici in altre cartelle di lavoro.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, foglio di calcolo, dividere file Excel, copiare foglio di lavoro, copiare intervallo, più cartelle di lavoro, salvare come file separati
 type: docs
 weight: 195
 url: /it/nodejs-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

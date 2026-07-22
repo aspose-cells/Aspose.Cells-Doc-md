@@ -1,10 +1,13 @@
 ---
 title: Разделение файлов Excel на несколько файлов
+linktitle: Разделение файлов Excel на несколько
 description: Aspose.Cells — это библиотека Python через .NET для работы с файлами электронных таблиц, которая поддерживает разделение одного файла Excel на несколько файлов. В этой статье рассказывается, как разделить файлы Excel путём копирования каждого рабочего листа в отдельную рабочую книгу и путём копирования определённых диапазонов ячеек в другие рабочие книги.
 keywords: Aspose.Cells, библиотека Python через .NET, электронная таблица, разделение файла Excel, копирование рабочего листа, копирование диапазона, несколько рабочих книг, сохранение в отдельные файлы
 type: docs
 weight: 195
 url: /ru/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

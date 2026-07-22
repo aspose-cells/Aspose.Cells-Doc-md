@@ -1,6 +1,6 @@
 ---
 title: Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET
-linktitle: Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET
+linktitle: Actualisation des tableaux croisés dynamiques
 description: Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for .NET à l'aide de l'API d'actualisation des tableaux croisés dynamiques v26.7+. Cet article couvre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData et GetPivotTables avec des exemples de code pratiques.
 keywords: Aspose.Cells, .NET, tableau croisé dynamique, actualisation, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells 提供了一个分层刷新 API，允许您在四个不同的范围内重新加载透视数据 —— 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Aspose.Cells for Node.js via Java v26.7** 开始，旧版方法 `PivotTable.RefreshData()` 已被标记为过时，应替换为本文中介绍的更高效、支持缓存的 API。
+Aspose.Cells 提供了一个分层刷新 API，允许您在四个不同的范围内重新加载透视数据 —— 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Node.js via Java v26.7** 开始，旧版方法 `PivotTable.RefreshData()` 已被标记为过时，应替换为本文中介绍的更高效、支持缓存的 API。
 
 {{% /alert %}}
 
@@ -432,7 +432,7 @@ workbook.save("output.xlsx");
 
 ## 从已过时的 `PivotTable.RefreshData()` 迁移
 
-在 Aspose.Cells for Aspose.Cells for Node.js via Java v26.7 之前，刷新数据透视表的标准方法是对每个数据透视表单独调用 `PivotTable.RefreshData()`。从 v26.7 开始，该方法被标记为**过时**，应替换为上文所述的支持缓存的 API。
+在 Aspose.Cells for Node.js via Java v26.7 之前，刷新数据透视表的标准方法是对每个数据透视表单独调用 `PivotTable.RefreshData()`。从 v26.7 开始，该方法被标记为**过时**，应替换为上文所述的支持缓存的 API。
 
 在真实工作簿中，按表调用 `RefreshData()` 方法存在两个问题：
 

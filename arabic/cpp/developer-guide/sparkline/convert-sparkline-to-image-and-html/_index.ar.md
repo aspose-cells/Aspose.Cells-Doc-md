@@ -151,7 +151,7 @@ int main() {
 
 ## **مقالات ذات صلة**
 
-- [السباركلاين في Aspose.Cells for Aspose.Cells for C++](/cells/ar/cpp/sparkline/)
+- [السباركلاين في Aspose.Cells for C++](/cells/ar/cpp/sparkline/)
 - [إدراج صورة في خلية](/cells/ar/cpp/inserting-an-image-into-a-cell/)
 - [عرض مصفوفة خلية واحدة من SmartMarker | Aspose.Cells for C++](/cells/ar/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET'te Mini Grafikler
-linktitle: Sparklines
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen küçük grafikler olan mini grafikler oluşturmayı destekleyen bir .NET kütüphanesidir. Bu makale, Aspose.Cells kütüphanesi kullanılarak çizgi, sütun ve kazanma/kayıp mini grafiklerinin nasıl ekleneceğini ve özelleştirileceğini açıklamaktadır.
 keywords: Aspose.Cells, .NET library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

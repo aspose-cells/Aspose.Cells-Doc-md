@@ -431,6 +431,6 @@ int main() {
 
 ## **Связанные статьи**
 
-- [Обновление сводных таблиц в Aspose.Cells for Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
+- [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

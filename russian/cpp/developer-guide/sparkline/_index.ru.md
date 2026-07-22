@@ -1,6 +1,6 @@
 ---
 title: Спарклайны в Aspose.Cells for C++
-linktitle: Sparklines
+linktitle: Спарклайны
 description: Aspose.Cells — это библиотека C++ для работы с файлами электронных таблиц, которая поддерживает создание спарклайнов — миниатюрных диаграмм, размещаемых внутри ячеек рабочего листа. В этой статье объясняется, как добавлять и настраивать линейные, столбчатые спарклайны и спарклайны выигрышей/проигрышей с помощью библиотеки Aspose.Cells.
 keywords: Aspose.Cells, C++ library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

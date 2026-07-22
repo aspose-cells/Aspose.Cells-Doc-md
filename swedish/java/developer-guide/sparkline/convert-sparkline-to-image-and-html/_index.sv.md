@@ -135,7 +135,7 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Java](/cells/sv/java/sparkline/)
+- [Sparklines in Aspose.Cells for Java](/cells/sv/java/sparkline/)
 - [Inserting an Image into a Cell](/cells/sv/java/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells Java](/cells/sv/java/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -1,10 +1,13 @@
 ---
 title: SmartMarker 单单元格数组渲染 | Aspose.Cells C++
+linktitle: SmartMarker 单单元格数组渲染 | Aspose.Cells
 description: 学习如何在 Aspose.Cells for C++ 的 Smart Markers 中使用 ArrayAsSingle 和 ExtraDelimiter 属性将数组数据渲染到单个单元格。
 keywords: Aspose.Cells, C++ 库, 电子表格, Smart Markers, ArrayAsSingle, ExtraDelimiter, 单单元格数组, 数组渲染, 模板
 type: docs
 weight: 195
 url: /zh/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

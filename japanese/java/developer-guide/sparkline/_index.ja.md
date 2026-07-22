@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java のスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells はスプレッドシートファイルを操作するための Java ライブラリで、ワークシートセル内に配置されるミニチュアグラフであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して折れ線、列、勝敗のスパークラインを追加およびカスタマイズする方法を説明します。
 keywords: Aspose.Cells, Java ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 列スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs

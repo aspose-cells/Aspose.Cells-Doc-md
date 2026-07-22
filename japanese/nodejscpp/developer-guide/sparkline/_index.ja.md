@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++ の Aspose.Cells におけるスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells は、スプレッドシート ファイルを扱うための Node.js ライブラリであり、ワークシート セル内に配置されるミニチュア グラフであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して折れ線、縦棒、勝敗の各スパークラインを追加およびカスタマイズする方法について説明します。
 keywords: Aspose.Cells, Node.js ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 縦棒スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs

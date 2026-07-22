@@ -1,10 +1,13 @@
 ---
 title: Rendu de tableau dans une cellule unique avec SmartMarker | Aspose.Cells Python via Java
+linktitle: Rendu de tableau dans une cellule unique avec SmartMarker | Aspose.Cells Python
 description: Apprenez à rendre les données de tableau dans une seule cellule à l'aide des attributs ArrayAsSingle et ExtraDelimiter dans les Smart Markers avec Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, bibliothèque Python via Java, feuille de calcul, Smart Markers, ArrayAsSingle, ExtraDelimiter, tableau cellule unique, rendu de tableau, modèle
 type: docs
 weight: 195
 url: /fr/python-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,6 +1,6 @@
 ---
 title: Sparkline in Aspose.Cells for Python via .NET
-linktitle: Sparklines
+linktitle: Sparkline
 description: Aspose.Cells è una libreria Python per lavorare con file di fogli di calcolo che supporta la creazione di sparkline — grafici in miniatura posizionati all'interno delle celle del foglio di lavoro. Questo articolo spiega come aggiungere e personalizzare sparkline a linea, colonna e vincita/perdita utilizzando la libreria Aspose.Cells.
 keywords: Aspose.Cells, libreria Python, foglio di calcolo, sparkline, sparkline a linea, sparkline a colonna, sparkline vincita/perdita, SparklineGroup, SparklineType
 type: docs

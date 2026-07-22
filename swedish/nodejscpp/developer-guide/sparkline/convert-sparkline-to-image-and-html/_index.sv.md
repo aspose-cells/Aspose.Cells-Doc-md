@@ -141,7 +141,7 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklines i Aspose.Cells for Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/sparkline/)
+- [Sparklines i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells Node.js via C++](/cells/sv/nodejs-cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET'te Özet Tabloları Yenileme
-linktitle: Aspose.Cells for .NET'te Özet Tabloları Yenileme
+linktitle: Özet Tabloları Yenileme
 description: Aspose.Cells for .NET'te v26.7+ pivot-refresh API'sini kullanarak özet tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables API'lerini pratik kod örnekleriyle ele almaktadır.
 keywords: Aspose.Cells, .NET, pivot tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

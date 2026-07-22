@@ -1,6 +1,6 @@
 ---
 title: Minigráficos en Aspose.Cells for Node.js via C++
-linktitle: Sparklines
+linktitle: Minigráficos
 description: Aspose.Cells es una biblioteca de Node.js para trabajar con archivos de hojas de cálculo que admite la creación de minigráficos (sparklines), gráficos en miniatura colocados dentro de las celdas de la hoja de cálculo. Este artículo explica cómo agregar y personalizar minigráficos de líneas, columnas y de ganar/perder usando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca de Node.js, hoja de cálculo, minigráficos, minigráfico de línea, minigráfico de columna, minigráfico de ganar/perder, SparklineGroup, SparklineType
 type: docs

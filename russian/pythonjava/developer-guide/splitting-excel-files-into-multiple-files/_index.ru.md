@@ -1,10 +1,13 @@
 ---
 title: Разделение файлов Excel на несколько файлов
+linktitle: Разделение файлов Excel на несколько
 description: Aspose.Cells — это библиотека Python через Java для работы с файлами электронных таблиц, которая поддерживает разделение одного файла Excel на несколько файлов. В этой статье будет рассказано, как разделить файлы Excel путём копирования каждого рабочего листа в отдельную рабочую книгу и путём копирования определённых диапазонов ячеек в другие рабочие книги.
 keywords: Aspose.Cells, Python через Java библиотека, электронная таблица, разделить файл Excel, копировать рабочий лист, копировать диапазон, несколько рабочих книг, сохранить как отдельные файлы
 type: docs
 weight: 195
 url: /ru/python-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

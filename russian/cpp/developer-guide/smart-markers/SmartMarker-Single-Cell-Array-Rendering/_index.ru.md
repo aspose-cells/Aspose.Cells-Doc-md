@@ -1,10 +1,13 @@
 ---
 title: Рендеринг массивов SmartMarker в одну ячейку | Aspose.Cells C++
+linktitle: Рендеринг массивов SmartMarker в одну ячейку | Aspose.Cells
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в Smart Markers с Aspose.Cells for Aspose.Cells for C++.
 keywords: Aspose.Cells, C++ библиотека, электронные таблицы, Smart Markers, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
 url: /ru/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

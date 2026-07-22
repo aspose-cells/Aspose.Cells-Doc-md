@@ -151,7 +151,7 @@ Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Asp
 
 ## **Artículos relacionados**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for C++](/cells/es/cpp/sparkline/)
+- [Sparklines in Aspose.Cells for C++](/cells/es/cpp/sparkline/)
 - [Inserting an Image into a Cell](/cells/es/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/es/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

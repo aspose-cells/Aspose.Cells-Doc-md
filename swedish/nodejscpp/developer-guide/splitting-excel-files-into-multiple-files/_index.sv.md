@@ -1,10 +1,13 @@
 ---
 title: Dela upp Excel-filer i flera filer
+linktitle: Dela upp Excel-filer
 description: Aspose.Cells är ett Node.js-bibliotek för att arbeta med kalkylbladsfiler, vilket stöder uppdelning av en enskild Excel-fil i flera filer. Denna artikel kommer att introducera hur man delar upp Excel-filer genom att kopiera varje kalkylblad till en separat arbetsbok och genom att kopiera specifika cellintervall till andra arbetsböcker.
 keywords: Aspose.Cells, Node.js-bibliotek, kalkylblad, dela upp Excel-fil, kopiera kalkylblad, kopiera intervall, flera arbetsböcker, spara som separata filer
 type: docs
 weight: 195
 url: /sv/nodejs-cpp/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

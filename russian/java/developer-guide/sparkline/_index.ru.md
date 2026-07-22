@@ -1,6 +1,6 @@
 ---
 title: Спарклайны в Aspose.Cells for Java
-linktitle: Sparklines
+linktitle: Спарклайны
 description: Aspose.Cells — это Java-библиотека для работы с файлами электронных таблиц, которая поддерживает создание спарклайнов — миниатюрных диаграмм, размещаемых внутри ячеек рабочего листа. В этой статье объясняется, как добавлять и настраивать линейные, столбцовые спарклайны и спарклайны «выигрыш/проигрыш» с помощью библиотеки Aspose.Cells.
 keywords: Aspose.Cells, Java library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

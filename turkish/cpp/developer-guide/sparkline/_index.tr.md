@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++'da Sparkline'lar
-linktitle: Sparklines
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen minik grafikler olan sparkline'lar oluşturmayı destekleyen, elektronik tablo dosyalarıyla çalışmak için kullanılan bir C++ kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kaybetme sparkline'larının nasıl ekleneceğini ve özelleştirileceğini açıklar.
 keywords: Aspose.Cells, C++ kütüphanesi, elektronik tablo, sparkline'lar, çizgi sparkline, sütun sparkline, kazanma/kaybetme sparkline, SparklineGroup, SparklineType
 type: docs

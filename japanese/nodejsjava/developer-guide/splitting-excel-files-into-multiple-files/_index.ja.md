@@ -1,10 +1,13 @@
 ---
 title: Excel ファイルを複数のファイルに分割する
+linktitle: Excel ファイルを複数のファイルに分割する
 description: Aspose.Cells はスプレッドシートファイルを操作するための Aspose.Cells for Node.js via Java ライブラリであり、単一の Excel ファイルを複数のファイルに分割することをサポートしています。この記事では、ソースワークブックの各ワークシートを別のワークブックにコピーする方法と、特定のセル範囲を他のワークブックにコピーすることによって、Excel ファイルを分割する方法について紹介します。
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, スプレッドシート, Excel ファイルの分割, ワークシートのコピー, 範囲のコピー, 複数のワークブック, 個別のファイルとして保存
 type: docs
 weight: 195
 url: /ja/nodejs-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

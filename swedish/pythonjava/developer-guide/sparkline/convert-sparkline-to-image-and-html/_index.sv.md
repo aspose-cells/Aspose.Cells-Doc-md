@@ -161,7 +161,7 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklinjer i Aspose.Cells for Aspose.Cells for Python via Java](/cells/sv/python-java/sparkline/)
+- [Sparklinjer i Aspose.Cells for Python via Java](/cells/sv/python-java/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/python-java/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="python" >}}

@@ -1,6 +1,6 @@
 ---
 title: Спарклайны в Aspose.Cells for .NET
-linktitle: Sparklines
+linktitle: Спарклайны
 description: Aspose.Cells — это библиотека для .NET для работы с файлами электронных таблиц, которая поддерживает создание спарклайнов — миниатюрных диаграмм, размещаемых внутри ячеек рабочего листа. В этой статье объясняется, как добавлять и настраивать линейные, столбцовые и спарклайны «выигрыш/проигрыш» с помощью библиотеки Aspose.Cells.
 keywords: Aspose.Cells, .NET library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

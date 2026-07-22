@@ -141,8 +141,8 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 
 ## **İlgili Makaleler**
 
-- [Aspose.Cells for Aspose.Cells for Node.js via Java'da Sparkline'lar](/cells/tr/nodejs-java/sparkline/)
+- [Aspose.Cells for Node.js via Java'da Sparkline'lar](/cells/tr/nodejs-java/sparkline/)
 - [Bir Hücreye Resim Ekleme](/cells/tr/nodejs-java/inserting-an-image-into-a-cell/)
-- [SmartMarker Tek Hücre Dizi İşleme | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/tr/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Tek Hücre Dizi İşleme | Aspose.Cells for Node.js via Java](/cells/tr/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

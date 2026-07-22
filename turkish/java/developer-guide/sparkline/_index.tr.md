@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java'da Mini Grafikler
-linktitle: Sparklines
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen küçük grafikler olan mini grafikler oluşturmayı destekleyen, elektronik tablo dosyalarıyla çalışmak için bir Java kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kaybetme mini grafiklerinin nasıl ekleneceğini ve özelleştirileceğini açıklar.
 keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, mini grafikler, çizgi mini grafiği, sütun mini grafiği, kazanma/kaybetme mini grafiği, SparklineGroup, SparklineType
 type: docs

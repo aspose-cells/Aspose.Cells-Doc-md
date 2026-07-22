@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層化された更新 API を提供します。**Aspose.Cells for Aspose.Cells for Node.js via Java v26.7** 以降、従来の `PivotTable.RefreshData()` メソッドは非推奨となり、この記事で説明するより効率的なキャッシュ対応 API に置き換える必要があります。
+Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層化された更新 API を提供します。**Aspose.Cells for Node.js via Java v26.7** 以降、従来の `PivotTable.RefreshData()` メソッドは非推奨となり、この記事で説明するより効率的なキャッシュ対応 API に置き換える必要があります。
 
 {{% /alert %}}
 
@@ -432,7 +432,7 @@ workbook.save("output.xlsx");
 
 ## 非推奨の `PivotTable.RefreshData()` からの移行
 
-Aspose.Cells for Aspose.Cells for Node.js via Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.RefreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **非推奨** とマークされ、上記のキャッシュ対応 API に置き換える必要があります。
+Aspose.Cells for Node.js via Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.RefreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **非推奨** とマークされ、上記のキャッシュ対応 API に置き換える必要があります。
 
 実際のワークブックでは、テーブルごとの `RefreshData()` アプローチに問題がある理由は 2 つあります。
 
@@ -530,6 +530,6 @@ workbook.save("output.xlsx");
 - [Inserting an Image into a Cell](/cells/ja/nodejs-java/inserting-an-image-into-a-cell/)
 - [Reading and Writing DBF Files](/cells/ja/nodejs-java/dbf/)
 - [Splitting Excel Files into Multiple Files](/cells/ja/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/ja/nodejs-java/sparkline/)
+- [Sparklines in Aspose.Cells for Node.js via Java](/cells/ja/nodejs-java/sparkline/)
 
 {{< app/cells/assistant language="javascript" >}}

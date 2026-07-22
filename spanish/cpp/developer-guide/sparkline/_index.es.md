@@ -1,6 +1,6 @@
 ---
 title: Sparklines en Aspose.Cells for C++
-linktitle: Sparklines
+linktitle: Minigráficos
 description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo que admite la creación de sparklines (minigráficos) colocados dentro de las celdas de la hoja de cálculo. Este artículo explica cómo agregar y personalizar sparklines de línea, columna y ganancia/pérdida usando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca de C++, hoja de cálculo, sparklines, sparkline de línea, sparkline de columna, sparkline de ganancia/pérdida, SparklineGroup, SparklineType
 type: docs

@@ -1,10 +1,13 @@
 ---
 title: Excel Dosyalarını Birden Çok Dosyaya Bölme
+linktitle: Excel Dosyalarını Birden Çok Dosyaya
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir Python via .NET kütüphanesidir ve tek bir Excel dosyasını birden çok dosyaya bölmeyi destekler. Bu makale, her çalışma sayfasını ayrı bir çalışma kitabına kopyalayarak ve belirli hücre aralıklarını diğer çalışma kitaplarına kopyalayarak Excel dosyalarının nasıl bölüneceğini anlatacaktır.
 keywords: Aspose.Cells, Python via .NET kütüphanesi, elektronik tablo, Excel dosyasını böl, çalışma sayfasını kopyala, aralığı kopyala, birden çok çalışma kitabı, ayrı dosyalar olarak kaydet
 type: docs
 weight: 195
 url: /tr/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,10 +1,13 @@
 ---
 title: 智能标记单单元格数组渲染 | Aspose.Cells Java
+linktitle: 智能标记单单元格数组渲染 | Aspose.Cells
 description: 了解如何通过 Smart Markers 中的 ArrayAsSingle 和 ExtraDelimiter 属性，使用 Aspose.Cells for Aspose.Cells for Java 将数组数据渲染到单个单元格中。
 keywords: Aspose.Cells, Java 库, 电子表格, Smart Markers, ArrayAsSingle, ExtraDelimiter, 单单元格数组, 数组渲染, 模板
 type: docs
 weight: 195
 url: /zh/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

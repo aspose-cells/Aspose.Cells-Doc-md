@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET でのスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells はスプレッドシートファイルを扱うための .NET ライブラリであり、ワークシートセル内に配置するミニチュアチャートであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して、折れ線、列、勝敗の各スパークラインを追加しカスタマイズする方法について説明します。
 keywords: Aspose.Cells, .NET library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

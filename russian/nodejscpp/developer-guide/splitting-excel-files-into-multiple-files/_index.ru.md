@@ -1,10 +1,13 @@
 ---
 title: Разделение Excel-файлов на несколько файлов
+linktitle: Разделение Excel-файлов на несколько
 description: Aspose.Cells — это библиотека Node.js для работы с электронными таблицами, которая поддерживает разделение одного Excel-файла на несколько файлов. В этой статье рассказывается, как разделить Excel-файлы путём копирования каждого рабочего листа в отдельную рабочую книгу, а также путём копирования определённых диапазонов ячеек в другие рабочие книги.
 keywords: Aspose.Cells, Node.js library, spreadsheet, split Excel file, copy worksheet, copy range, multiple workbooks, save as separate files
 type: docs
 weight: 195
 url: /ru/nodejs-cpp/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

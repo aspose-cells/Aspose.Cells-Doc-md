@@ -1,10 +1,13 @@
 ---
 title: Excelファイルを複数のファイルに分割する
+linktitle: Excelファイルを複数のファイルに分割する
 description: Aspose.Cellsはスプレッドシートファイルを操作するためのJavaライブラリで、単一のExcelファイルを複数のファイルに分割することをサポートしています。この記事では、各ワークシートを別のワークブックにコピーする方法と、特定のセル範囲を他のワークブックにコピーすることによってExcelファイルを分割する方法について紹介します。
 keywords: Aspose.Cells, Java library, spreadsheet, split Excel file, copy worksheet, copy range, multiple workbooks, save as separate files
 type: docs
 weight: 195
 url: /ja/java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

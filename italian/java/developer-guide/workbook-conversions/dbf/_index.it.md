@@ -1,10 +1,13 @@
 ---
 title: Lettura e scrittura di file DBF
+linktitle: Lettura e scrittura di file
 description: Aspose.Cells è una libreria Java per lavorare con file di fogli di calcolo, che supporta la lettura e la scrittura di file dBASE III e IV (DBF). Questo articolo spiega come importare dati da ed esportare dati verso file DBF utilizzando Aspose.Cells, inclusi i dettagli del formato file, le funzionalità supportate e esempi passo-passo.
 keywords: Aspose.Cells, libreria Java, DBF, dBASE, leggere DBF, scrivere DBF, importare DBF, esportare DBF, formato file, .dbf
 type: docs
 weight: 200
 url: /it/java/reading-and-writing-dbf-files/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

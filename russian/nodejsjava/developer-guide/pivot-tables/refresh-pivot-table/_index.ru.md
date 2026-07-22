@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводной таблицы на четырёх различных уровнях — от всей рабочей книги до одной сводной таблицы. Начиная с версии **Aspose.Cells for Aspose.Cells for Node.js via Java v26.7**, устаревший метод `PivotTable.RefreshData()` помечен как obsolete (устаревший) и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в данной статье.
+Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводной таблицы на четырёх различных уровнях — от всей рабочей книги до одной сводной таблицы. Начиная с версии **Aspose.Cells for Node.js via Java v26.7**, устаревший метод `PivotTable.RefreshData()` помечен как obsolete (устаревший) и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в данной статье.
 
 {{% /alert %}}
 
@@ -432,7 +432,7 @@ workbook.save("output.xlsx");
 
 ## Миграция с устаревшего `PivotTable.RefreshData()`
 
-До версии Aspose.Cells for Aspose.Cells for Node.js via Java v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` на каждой сводной таблице по отдельности. Начиная с версии 26.7, этот метод помечен как **obsolete** (устаревший) и должен быть заменён API, учитывающими кэш, которые описаны выше.
+До версии Aspose.Cells for Node.js via Java v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` на каждой сводной таблице по отдельности. Начиная с версии 26.7, этот метод помечен как **obsolete** (устаревший) и должен быть заменён API, учитывающими кэш, которые описаны выше.
 
 Есть две причины, почему подход с отдельным вызовом `RefreshData()` для каждой таблицы проблематичен в реальных рабочих книгах:
 
@@ -531,6 +531,6 @@ workbook.save("output.xlsx");
 - [Вставка изображения в ячейку](/cells/ru/nodejs-java/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/nodejs-java/dbf/)
 - [Разделение файлов Excel на несколько файлов](/cells/ru/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)
+- [Спарклайны в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)
 
 {{< app/cells/assistant language="javascript" >}}

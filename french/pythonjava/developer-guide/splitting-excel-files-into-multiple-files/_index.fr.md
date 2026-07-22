@@ -1,10 +1,13 @@
 ---
 title: Fractionner des fichiers Excel en plusieurs fichiers
+linktitle: Fractionner des fichiers Excel
 description: Aspose.Cells est une bibliothèque Python via Java permettant de travailler avec des fichiers de tableur, qui prend en charge le fractionnement d'un fichier Excel unique en plusieurs fichiers. Cet article explique comment fractionner des fichiers Excel en copiant chaque feuille de calcul dans un classeur séparé et en copiant des plages de cellules spécifiques vers d'autres classeurs.
 keywords: Aspose.Cells, bibliothèque Python via Java, tableur, fractionner un fichier Excel, copier une feuille de calcul, copier une plage, plusieurs classeurs, enregistrer en fichiers séparés
 type: docs
 weight: 195
 url: /fr/python-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

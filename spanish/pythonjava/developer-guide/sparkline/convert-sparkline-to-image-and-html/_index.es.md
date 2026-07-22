@@ -161,7 +161,7 @@ Los flujos de trabajo anteriores se basan en un pequeño conjunto de APIs de Asp
 
 ## **Artículos Relacionados**
 
-- [Minigráficos en Aspose.Cells for Aspose.Cells for Python via Java](/cells/es/python-java/sparkline/)
+- [Minigráficos en Aspose.Cells for Python via Java](/cells/es/python-java/sparkline/)
 - [Insertar una Imagen en una Celda](/cells/es/python-java/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="python" >}}

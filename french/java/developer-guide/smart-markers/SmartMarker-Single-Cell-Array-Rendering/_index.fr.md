@@ -1,10 +1,13 @@
 ---
 title: Rendu de tableau à cellule unique SmartMarker | Aspose.Cells Java
+linktitle: Rendu de tableau
 description: Apprenez à rendre les données d'un tableau dans une seule cellule en utilisant les attributs ArrayAsSingle et ExtraDelimiter dans les Smart Markers avec Aspose.Cells for Java.
 keywords: Aspose.Cells, bibliothèque Java, feuille de calcul, Smart Markers, ArrayAsSingle, ExtraDelimiter, tableau à cellule unique, rendu de tableau, modèle
 type: docs
 weight: 195
 url: /fr/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

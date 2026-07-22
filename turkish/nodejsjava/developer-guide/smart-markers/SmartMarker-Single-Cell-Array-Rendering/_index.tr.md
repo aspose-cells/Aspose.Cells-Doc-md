@@ -1,10 +1,13 @@
 ---
 title: SmartMarker Tek Hücre Dizi Oluşturma | Aspose.Cells for Node.js via Java
+linktitle: SmartMarker Tek Hücre Dizi Oluşturma | Aspose.Cells
 description: Aspose.Cells for Node.js via Java ile Smart Markers'da ArrayAsSingle ve ExtraDelimiter özniteliklerini kullanarak dizi verilerini tek bir hücreye nasıl aktaracağınızı öğrenin.
 keywords: Aspose.Cells, Node.js via Java kütüphanesi, elektronik tablo, Smart Markers, ArrayAsSingle, ExtraDelimiter, tek hücre dizi, dizi oluşturma, şablon
 type: docs
 weight: 195
 url: /tr/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

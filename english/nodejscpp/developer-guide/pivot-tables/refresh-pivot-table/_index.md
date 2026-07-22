@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides a layered refresh API that lets you reload pivot data at four different scopes — from the entire workbook down to a single pivot table. Starting with **Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7**, the legacy method `PivotTable.RefreshData()` is marked obsolete and should be replaced with the more efficient, cache-aware APIs described in this article.
+Aspose.Cells provides a layered refresh API that lets you reload pivot data at four different scopes — from the entire workbook down to a single pivot table. Starting with **Aspose.Cells for Node.js via C++ v26.7**, the legacy method `PivotTable.RefreshData()` is marked obsolete and should be replaced with the more efficient, cache-aware APIs described in this article.
 
 {{% /alert %}}
 
@@ -429,7 +429,7 @@ workbook.save("output.xlsx");
 
 ## Migrating from the Obsolete `PivotTable.RefreshData()`
 
-Prior to Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7, the standard way to refresh a pivot table was to call `PivotTable.RefreshData()` on each pivot table individually. As of v26.7, that method is marked **obsolete** and should be replaced with the cache-aware APIs described above.
+Prior to Aspose.Cells for Node.js via C++ v26.7, the standard way to refresh a pivot table was to call `PivotTable.RefreshData()` on each pivot table individually. As of v26.7, that method is marked **obsolete** and should be replaced with the cache-aware APIs described above.
 
 There are two reasons the per-table `RefreshData()` approach is problematic in real-world workbooks:
 

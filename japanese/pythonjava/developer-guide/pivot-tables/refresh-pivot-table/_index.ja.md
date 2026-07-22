@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells はレイヤード更新 API を提供しており、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできます。**Aspose.Cells for Aspose.Cells for Python via Java v26.7** 以降、従来のメソッド `PivotTable.refreshData()` は廃止予定となり、この記事で説明するより効率的でキャッシュ対応の API に置き換える必要があります。
+Aspose.Cells はレイヤード更新 API を提供しており、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできます。**Aspose.Cells for Python via Java v26.7** 以降、従来のメソッド `PivotTable.refreshData()` は廃止予定となり、この記事で説明するより効率的でキャッシュ対応の API に置き換える必要があります。
 
 {{% /alert %}}
 
@@ -470,7 +470,7 @@ jpype.shutdownJVM()
 
 ## 廃止予定の `PivotTable.refreshData()` からの移行
 
-Aspose.Cells for Aspose.Cells for Python via Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 の時点で、そのメソッドは **廃止予定** とマークされており、上記のキャッシュ対応 API に置き換える必要があります。
+Aspose.Cells for Python via Java v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 の時点で、そのメソッドは **廃止予定** とマークされており、上記のキャッシュ対応 API に置き換える必要があります。
 
 実際のワークブックでは、テーブルごとの `refreshData()` アプローチに問題がある理由は 2 つあります。
 
@@ -577,6 +577,6 @@ jpype.shutdownJVM()
 - [セルへの画像の挿入](/cells/ja/python-java/inserting-an-image-into-a-cell/)
 - [DBF ファイルの読み取りと書き込み](/cells/ja/python-java/dbf/)
 - [Excel ファイルを複数のファイルに分割する](/cells/ja/python-java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Aspose.Cells for Python via Java のスパークライン](/cells/ja/python-java/sparkline/)
+- [Aspose.Cells for Python via Java のスパークライン](/cells/ja/python-java/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

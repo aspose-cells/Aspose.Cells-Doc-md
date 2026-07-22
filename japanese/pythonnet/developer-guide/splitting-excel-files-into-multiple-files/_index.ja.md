@@ -1,10 +1,13 @@
 ---
 title: Excel ファイルを複数のファイルに分割する
+linktitle: Excel ファイルを複数のファイルに分割する
 description: Aspose.Cells は Python via .NET ライブラリで、スプレッドシートファイルの操作に使用でき、単一の Excel ファイルを複数のファイルに分割することをサポートします。この記事では、各ワークシートを別のワークブックにコピーする方法と、特定のセル範囲を他のワークブックにコピーする方法によって、Excel ファイルを分割する方法を紹介します。
 keywords: Aspose.Cells, Python via .NET ライブラリ, スプレッドシート, Excel ファイルの分割, ワークシートのコピー, 範囲のコピー, 複数のワークブック, 個別のファイルとして保存
 type: docs
 weight: 195
 url: /ja/python-net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

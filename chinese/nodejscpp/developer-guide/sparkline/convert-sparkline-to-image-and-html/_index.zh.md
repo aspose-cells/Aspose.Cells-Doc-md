@@ -141,7 +141,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 ## **相关文章**
 
-- [Aspose.Cells for Aspose.Cells for Node.js via C++ 中的迷你图](/cells/zh/nodejs-cpp/sparkline/)
+- [Aspose.Cells for Node.js via C++ 中的迷你图](/cells/zh/nodejs-cpp/sparkline/)
 - [在单元格中插入图片](/cells/zh/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells Node.js via C++](/cells/zh/nodejs-cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -1,6 +1,6 @@
 ---
 title: Minigráficos en Aspose.Cells for .NET
-linktitle: Sparklines
+linktitle: Minigráficos
 description: Aspose.Cells es una biblioteca .NET para trabajar con archivos de hojas de cálculo que admite la creación de minigráficos, pequeños gráficos colocados dentro de las celdas de la hoja de cálculo. Este artículo explica cómo agregar y personalizar minigráficos de línea, columna y ganancia/pérdida usando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca .NET, hoja de cálculo, minigráficos, minigráfico de línea, minigráfico de columna, minigráfico de ganancia/pérdida, SparklineGroup, SparklineType
 type: docs

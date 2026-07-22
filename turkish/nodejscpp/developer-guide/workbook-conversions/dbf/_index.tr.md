@@ -1,10 +1,13 @@
 ---
 title: DBF Dosyalarını Okuma ve Yazma
+linktitle: DBF Dosyalarını Okuma ve
 description: Aspose.Cells for Node.js via C++, elektronik tablo dosyalarıyla çalışmak için kullanılan ve dBASE III ve IV (DBF) dosyalarını okuma ve yazmayı destekleyen bir kütüphanedir. Bu makale, Aspose.Cells kullanarak DBF dosyalarından veri içe aktarma ve dışa aktarma işlemlerini, dosya biçimi ayrıntılarını, desteklenen özellikleri ve adım adım örnekleri açıklamaktadır.
 keywords: Aspose.Cells, Node.js via C++, DBF, dBASE, DBF oku, DBF yaz, DBF içe aktar, DBF dışa aktar, dosya biçimi, .dbf
 type: docs
 weight: 200
 url: /tr/nodejs-cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

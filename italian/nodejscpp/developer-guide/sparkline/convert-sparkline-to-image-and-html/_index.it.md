@@ -141,7 +141,7 @@ I flussi di lavoro sopra si basano su un piccolo insieme di API Aspose.Cells che
 
 ## **Articoli correlati**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/sparkline/)
+- [Sparklines in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/sparkline/)
 - [Inserimento di un'immagine in una cella](/cells/it/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Rendering di array a cella singola SmartMarker | Aspose.Cells Node.js via C++](/cells/it/nodejs-cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

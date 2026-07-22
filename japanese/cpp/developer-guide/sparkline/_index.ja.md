@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++ でのスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells はスプレッドシートファイルを扱うための C++ ライブラリで、ワークシートのセル内に配置するミニチュアグラフであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して、折れ線、縦棒、勝敗の各スパークラインを追加およびカスタマイズする方法を説明します。
 keywords: Aspose.Cells, C++ ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 縦棒スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs

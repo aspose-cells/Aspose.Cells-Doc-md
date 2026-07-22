@@ -1,6 +1,6 @@
 ---
 title: تحديث الجداول المحورية في Aspose.Cells for .NET
-linktitle: تحديث الجداول المحورية في Aspose.Cells for .NET
+linktitle: تحديث الجداول المحورية
 description: تعلّم كيفية تحديث الجداول المحورية في Aspose.Cells for .NET باستخدام واجهة برمجة التطبيقات للتحديث v26.7+. يغطي هذا المقال RefreshAll و RefreshPivotTables و PivotCache.Refresh و CalculateData و GetPivotTables مع أمثلة عملية على الكود.
 keywords: Aspose.Cells, .NET, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

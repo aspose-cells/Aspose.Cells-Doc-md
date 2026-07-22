@@ -1,6 +1,6 @@
 ---
 title: Sparklines in Aspose.Cells per Aspose.Cells per Java
-linktitle: Sparklines
+linktitle: Sparkline
 description: Aspose.Cells è una libreria Java per lavorare con file di fogli di calcolo che supporta la creazione di sparkline — mini grafici inseriti all'interno delle celle del foglio di lavoro. Questo articolo spiega come aggiungere e personalizzare sparkline a linea, colonna e win/loss utilizzando la libreria Aspose.Cells.
 keywords: Aspose.Cells, libreria Java, foglio di calcolo, sparkline, sparkline a linea, sparkline a colonna, sparkline win/loss, SparklineGroup, SparklineType
 type: docs

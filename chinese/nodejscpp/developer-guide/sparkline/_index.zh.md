@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++ 中的迷你图
-linktitle: Sparklines
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 Node.js 库,支持创建迷你图——放置在工作表单元格中的小型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义线条、柱形和盈亏迷你图。
 keywords: Aspose.Cells, Node.js 库, 电子表格, 迷你图, 线条迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
 type: docs

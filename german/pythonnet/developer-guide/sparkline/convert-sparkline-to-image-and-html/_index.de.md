@@ -146,8 +146,8 @@ Die obigen Workflows stützen sich auf eine kleine Auswahl von Aspose.Cells-APIs
 
 ## **Verwandte Artikel**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Python via .NET](/cells/de/python-net/sparkline/)
+- [Sparklines in Aspose.Cells for Python via .NET](/cells/de/python-net/sparkline/)
 - [Einfügen eines Bildes in eine Zelle](/cells/de/python-net/inserting-an-image-into-a-cell/)
-- [SmartMarker Einzelzellen-Array-Rendering | Aspose.Cells for Aspose.Cells for Python via .NET](/cells/de/python-net/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Einzelzellen-Array-Rendering | Aspose.Cells for Python via .NET](/cells/de/python-net/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="python" >}}

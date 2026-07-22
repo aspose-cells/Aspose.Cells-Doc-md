@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц на четырёх различных уровнях — от всей рабочей книги до одной сводной таблицы. Начиная с **Aspose.Cells for Aspose.Cells for Python via .NET v26.7**, устаревший метод `PivotTable.refresh_data()` помечен как obsolete (устаревший) и должен быть заменён более эффективными API с поддержкой кэша, описанными в данной статье.
+Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц на четырёх различных уровнях — от всей рабочей книги до одной сводной таблицы. Начиная с **Aspose.Cells for Python via .NET v26.7**, устаревший метод `PivotTable.refresh_data()` помечен как obsolete (устаревший) и должен быть заменён более эффективными API с поддержкой кэша, описанными в данной статье.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx")
 
 ## Миграция с устаревшего `PivotTable.refresh_data()`
 
-До версии Aspose.Cells for Aspose.Cells for Python via .NET v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.refresh_data()` для каждой сводной таблицы отдельно. Начиная с версии v26.7, этот метод помечен как **устаревший** (obsolete) и должен быть заменён описанными выше API с поддержкой кэша.
+До версии Aspose.Cells for Python via .NET v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.refresh_data()` для каждой сводной таблицы отдельно. Начиная с версии v26.7, этот метод помечен как **устаревший** (obsolete) и должен быть заменён описанными выше API с поддержкой кэша.
 
 Есть две причины, почему подход `refresh_data()` для каждой таблицы по отдельности проблематичен в реальных рабочих книгах:
 
@@ -538,6 +538,6 @@ workbook.save("output.xlsx")
 
 ## Связанные статьи
 
-- [Спарклайны в Aspose.Cells for Aspose.Cells for Python via .NET](/cells/ru/python-net/sparkline/)
+- [Спарклайны в Aspose.Cells for Python via .NET](/cells/ru/python-net/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

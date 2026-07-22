@@ -1,10 +1,13 @@
 ---
 title: Dela upp Excel-filer i flera filer
+linktitle: Dela upp Excel-filer
 description: Aspose.Cells är ett Python via Java-bibliotek för att arbeta med kalkylarksfiler, som stöder delning av en enda Excel-fil i flera filer. Den här artikeln beskriver hur man delar upp Excel-filer genom att kopiera varje kalkylblad till en separat arbetsbok och genom att kopiera specifika cellintervall till andra arbetsböcker.
 keywords: Aspose.Cells, Python via Java-bibliotek, kalkylark, dela Excel-fil, kopiera kalkylblad, kopiera intervall, flera arbetsböcker, spara som separata filer
 type: docs
 weight: 195
 url: /sv/python-java/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

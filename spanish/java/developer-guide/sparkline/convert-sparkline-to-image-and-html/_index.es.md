@@ -135,7 +135,7 @@ Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Asp
 
 ## **Artículos relacionados**
 
-- [Minigráficos en Aspose.Cells for Aspose.Cells for Java](/cells/es/java/sparkline/)
+- [Minigráficos en Aspose.Cells for Java](/cells/es/java/sparkline/)
 - [Insertar una imagen en una celda](/cells/es/java/inserting-an-image-into-a-cell/)
 - [Renderizado de matrices en una sola celda con SmartMarker | Aspose.Cells Java](/cells/es/java/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -1,10 +1,13 @@
 ---
 title: Lecture et écriture de fichiers DBF
+linktitle: Lecture et écriture de fichiers
 description: Aspose.Cells est une bibliothèque Python via Java permettant de travailler avec des fichiers de feuilles de calcul, qui prend en charge la lecture et l'écriture de fichiers dBASE III et IV (DBF). Cet article explique comment importer des données depuis et exporter des données vers des fichiers DBF en utilisant Aspose.Cells, y compris les détails du format de fichier, les fonctionnalités prises en charge et des exemples étape par étape.
 keywords: Aspose.Cells, Python via Java library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /fr/python-java/reading-and-writing-dbf-files/
+ai_search_scope: cells_pythonjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

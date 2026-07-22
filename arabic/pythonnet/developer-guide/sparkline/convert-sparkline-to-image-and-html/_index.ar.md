@@ -146,8 +146,8 @@ workbook.save("sparklines.html", html_options)
 
 ## **مقالات ذات صلة**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Python via .NET](/cells/ar/python-net/sparkline/)
+- [Sparklines in Aspose.Cells for Python via .NET](/cells/ar/python-net/sparkline/)
 - [Inserting an Image into a Cell](/cells/ar/python-net/inserting-an-image-into-a-cell/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Aspose.Cells for Python via .NET](/cells/ar/python-net/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Python via .NET](/cells/ar/python-net/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="python" >}}

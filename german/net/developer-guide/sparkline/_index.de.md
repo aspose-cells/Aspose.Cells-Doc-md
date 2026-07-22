@@ -10,57 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Alert 1 translation: keep "Aspose.Cells" as-is, translate rest.
-
-Now the body content - let me translate section by section.
-
-"## **Introduction**" -> "## **Einführung**"
-
-"In Aspose.Cells, every sparkline you add is created through `worksheet.SparklineGroups.Add(...)`" - keep code references in English.
-
-"This article walks through each of the three sparkline types supported by Aspose.Cells — **Line**, **Column**, and **Win/Loss** — and shows how to add them, customize their colors, and save the resulting workbook."
-
-Let me translate to German:
-"Dieser Artikel behandelt jeden der drei Sparkline-Typen, die von Aspose.Cells unterstützt werden — **Linie**, **Spalte** und **Gewinn/Verlust** — und zeigt, wie sie hinzugefügt, ihre Farben angepasst und die resultierende Arbeitsmappe gespeichert werden."
-
-## **Line Sparklines** -> ## **Linien-Sparklines**
-
-Let me continue translating...
-
-I need to be careful with:
-- "workbook" -> "Arbeitsmappe"
-- "worksheet" -> "Arbeitsblatt"
-- "CellArea" - keep as-is
-- "SparklineGroup" - keep as-is
-
-For German technical documentation style, I'll use formal Sie form or general terms. Since this is technical documentation, I'll keep it neutral/formal.
-
-Let me also check the "Related Articles" section - these are links that should not be translated in terms of URL, but I could potentially translate the link text. Actually, looking at the rules, URLs must remain unchanged. The link text "Accessing Cells of a Worksheet" could potentially be translated, but looking at the rules more carefully, this seems to be a navigation section. I'll translate the link text to be consistent.
-
-Actually, looking more carefully at the rules:
-- "10. **URLs and Paths**: All URLs, file paths, and directory paths must remain unchanged."
-
-The URLs should remain unchanged, but link text is generally translatable. However, for technical accuracy, link text often refers to the exact article titles, so I should probably keep them as-is or translate them carefully. Let me translate them to match the article titles in German, but keep the URLs in English.
-
-Wait - actually for "Related Articles" links, these are likely existing articles with their own titles. If the actual article pages have English titles, the link text should match. But since these are likely existing articles that have been translated, the link text might also be in German. To be safe, I'll translate them since these are typically UI/link text that can be translated.
-
-Let me also check the assistant shortcode at the end - this needs to stay exactly as-is.
-
-Let me now write the complete translation:
-
-Actually, I should also consider that "win/loss" is often translated as "Gewinn/Verlust" in German, and "stacked" as "gestapelt". But the code references `SparklineType.Stacked` which must stay as-is.
-
-Let me finalize the translation. I'll be careful to:
-1. Keep all product names exactly
-2. Keep all code, namespace, API references exactly
-3. Keep all shortcodes exactly
-4. Keep all CODE_BLOCK placeholders exactly
-5. Keep all URLs exactly
-6. Translate the rest to proper German technical style
-
-Let me write this out now.</think>
-
-
 {{% alert color="primary" %}}
 
 Aspose.Cells unterstützt das Erstellen von Sparklines innerhalb von Arbeitsblattzellen. Sparklines sind Miniaturdiagramme, die in eine einzelne Zelle passen und eine schnelle visuelle Darstellung von Datentrends bieten. Aspose.Cells unterstützt Linien-, Spalten- und Gewinn/Verlust-Sparklines, die jeweils in Bezug auf Farbe, Linienstärke, Höchst-/Tiefstpunkte und Markierungen angepasst werden können.

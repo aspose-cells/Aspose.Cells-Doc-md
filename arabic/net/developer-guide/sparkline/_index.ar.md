@@ -1,6 +1,6 @@
 ---
 title: خطوط المؤشر في Aspose.Cells for .NET
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات تدعم إنشاء خطوط المؤشر — وهي رسوم بيانية مصغرة تُوضع داخل خلايا ورقة العمل. تشرح هذه المقالة كيفية إضافة وتخصيص خطوط المؤشر من النوع الخطي والعمودي والفوز/الخسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, مكتبة .NET, جدول بيانات, خطوط المؤشر, خط مؤشر خطي, خط مؤشر عمودي, خط مؤشر فوز/خسارة, SparklineGroup, SparklineType
 type: docs

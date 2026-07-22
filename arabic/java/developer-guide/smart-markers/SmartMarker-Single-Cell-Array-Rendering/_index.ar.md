@@ -1,10 +1,13 @@
 ---
 title: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells Java
+linktitle: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells
 description: تعرف على كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle و ExtraDelimiter في العلامات الذكية مع Aspose.Cells for Java.
 keywords: Aspose.Cells, مكتبة Java, جدول بيانات, العلامات الذكية, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
 type: docs
 weight: 195
 url: /ar/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

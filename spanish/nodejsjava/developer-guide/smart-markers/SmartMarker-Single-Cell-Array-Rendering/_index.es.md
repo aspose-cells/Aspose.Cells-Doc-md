@@ -1,10 +1,13 @@
 ---
 title: Renderización de matriz de una sola celda con SmartMarker | Aspose.Cells for Node.js via Java
+linktitle: Renderización de matriz de una sola celda
 description: Aprenda cómo renderizar datos de matriz en una sola celda utilizando los atributos ArrayAsSingle y ExtraDelimiter en Smart Markers con Aspose.Cells for Node.js via Java.
 keywords: Aspose.Cells, biblioteca Node.js via Java, hoja de cálculo, Smart Markers, ArrayAsSingle, ExtraDelimiter, matriz de una sola celda, renderización de matriz, plantilla
 type: docs
 weight: 195
 url: /es/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

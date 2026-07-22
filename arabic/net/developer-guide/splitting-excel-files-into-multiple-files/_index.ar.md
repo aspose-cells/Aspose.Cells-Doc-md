@@ -1,10 +1,13 @@
 ---
 title: تقسيم ملفات Excel إلى ملفات متعددة
+linktitle: تقسيم ملفات Excel إلى ملفات
 description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات، وتدعم تقسيم ملف Excel واحد إلى ملفات متعددة. ستقدم هذه المقالة كيفية تقسيم ملفات Excel عن طريق نسخ كل ورقة عمل إلى مصنف منفصل وعن طريق نسخ نطاقات خلايا محددة إلى مصنفات أخرى.
 keywords: Aspose.Cells, .NET library, spreadsheet, split Excel file, copy worksheet, copy range, multiple workbooks, save as separate files
 type: docs
 weight: 195
 url: /ar/net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

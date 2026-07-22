@@ -1,10 +1,13 @@
 ---
 title: Fractionner des fichiers Excel en plusieurs fichiers
+linktitle: Fractionner des fichiers Excel
 description: Aspose.Cells est une bibliothèque .NET permettant de travailler avec des fichiers de feuilles de calcul, qui prend en charge le fractionnement d'un seul fichier Excel en plusieurs fichiers. Cet article expliquera comment fractionner des fichiers Excel en copiant chaque feuille de calcul dans un classeur distinct et en copiant des plages de cellules spécifiques vers d'autres classeurs.
 keywords: Aspose.Cells, bibliothèque .NET, feuille de calcul, fractionner fichier Excel, copier feuille de calcul, copier plage, plusieurs classeurs, enregistrer en fichiers distincts
 type: docs
 weight: 195
 url: /fr/net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java におけるスパークライン
-linktitle: Sparklines
+linktitle: スパークライン
 description: Aspose.Cells はスプレッドシートファイルを扱うための Python via Java ライブラリであり、ワークシートセル内に配置されるミニチュアチャートであるスパークラインの作成をサポートします。この記事では、Aspose.Cells ライブラリを使用して、折れ線、縦棒、勝敗のスパークラインを追加およびカスタマイズする方法について説明します。
 keywords: Aspose.Cells, Python via Java ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 縦棒スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: مخططات Sparklines في Aspose.Cells لـ Aspose.Cells for Node.js via Java
-linktitle: Sparklines
+linktitle: خطوط المؤشر
 description: Aspose.Cells هي مكتبة Node.js via Java للعمل مع ملفات جداول البيانات تدعم إنشاء مخططات Sparklines — وهي مخططات مصغرة تُوضع داخل خلايا ورقة العمل. تشرح هذه المقالة كيفية إضافة وتخصيص مخططات Sparklines الخطية والعمودية والفوز/الخسارة باستخدام مكتبة Aspose.Cells.
 keywords: Aspose.Cells, Node.js via Java library, spreadsheet, sparklines, line sparkline, column sparkline, win/loss sparkline, SparklineGroup, SparklineType
 type: docs

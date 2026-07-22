@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells fournit une API d'actualisation en couches qui vous permet de recharger les données du pivot à quatre portées différentes, de l'ensemble du classeur jusqu'à un seul tableau croisé dynamique. À partir d'**Aspose.Cells for Aspose.Cells for C++ v26.7**, la méthode héritée `PivotTable.RefreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces, conscientes du cache, décrites dans cet article.
+Aspose.Cells fournit une API d'actualisation en couches qui vous permet de recharger les données du pivot à quatre portées différentes, de l'ensemble du classeur jusqu'à un seul tableau croisé dynamique. À partir d'**Aspose.Cells for C++ v26.7**, la méthode héritée `PivotTable.RefreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces, conscientes du cache, décrites dans cet article.
 
 {{% /alert %}}
 
@@ -484,7 +484,7 @@ int main() {
 
 ## Migration depuis l'obsolète `PivotTable.RefreshData()`
 
-Avant Aspose.Cells for Aspose.Cells for C++ v26.7, la méthode standard pour actualiser un tableau croisé dynamique était d'appeler `PivotTable.RefreshData()` sur chaque tableau croisé dynamique individuellement. À partir de la v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API conscientes du cache décrites ci-dessus.
+Avant Aspose.Cells for C++ v26.7, la méthode standard pour actualiser un tableau croisé dynamique était d'appeler `PivotTable.RefreshData()` sur chaque tableau croisé dynamique individuellement. À partir de la v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API conscientes du cache décrites ci-dessus.
 
 Il y a deux raisons pour lesquelles l'approche `RefreshData()` par tableau est problématique dans les classeurs réels :
 

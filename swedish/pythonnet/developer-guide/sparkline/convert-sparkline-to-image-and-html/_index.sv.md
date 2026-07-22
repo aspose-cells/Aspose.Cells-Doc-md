@@ -146,8 +146,8 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklines i Aspose.Cells for Aspose.Cells for Python via .NET](/cells/sv/python-net/sparkline/)
+- [Sparklines i Aspose.Cells for Python via .NET](/cells/sv/python-net/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/python-net/inserting-an-image-into-a-cell/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Aspose.Cells for Python via .NET](/cells/sv/python-net/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Python via .NET](/cells/sv/python-net/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="python" >}}

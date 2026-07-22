@@ -1,6 +1,6 @@
 ---
 title: Minigráficos en Aspose.Cells for Python via Java
-linktitle: Sparklines
+linktitle: Minigráficos
 description: Aspose.Cells es una biblioteca de Python via Java para trabajar con archivos de hojas de cálculo que admite la creación de minigráficos, gráficos en miniatura colocados dentro de celdas de hojas de cálculo. Este artículo explica cómo añadir y personalizar minigráficos de líneas, columnas y victorias/derrotas usando la biblioteca Aspose.Cells.
 keywords: Aspose.Cells, biblioteca de Python via Java, hoja de cálculo, minigráficos, minigráfico de líneas, minigráfico de columnas, minigráfico de victorias/derrotas, SparklineGroup, SparklineType
 type: docs

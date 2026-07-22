@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona una API de actualización por capas que le permite recargar datos de tablas dinámicas en cuatro niveles diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe sustituirse por las APIs más eficientes y conscientes del caché que se describen en este artículo.
+Aspose.Cells proporciona una API de actualización por capas que le permite recargar datos de tablas dinámicas en cuatro niveles diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Node.js via C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe sustituirse por las APIs más eficientes y conscientes del caché que se describen en este artículo.
 
 {{% /alert %}}
 
@@ -429,7 +429,7 @@ workbook.save("output.xlsx");
 
 ## Migración desde el obsoleto `PivotTable.RefreshData()`
 
-Antes de Aspose.Cells for Aspose.Cells for Node.js via C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe sustituirse por las APIs conscientes del caché descritas anteriormente.
+Antes de Aspose.Cells for Node.js via C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe sustituirse por las APIs conscientes del caché descritas anteriormente.
 
 Hay dos razones por las que el enfoque `RefreshData()` por tabla es problemático en libros del mundo real:
 

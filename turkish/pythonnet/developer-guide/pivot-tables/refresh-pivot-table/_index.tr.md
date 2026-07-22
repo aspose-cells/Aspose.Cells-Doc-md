@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, pivot verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir pivot tabloya kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Aspose.Cells for Python via .NET v26.7** ile başlayarak, eski `PivotTable.refresh_data()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
+Aspose.Cells, pivot verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir pivot tabloya kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Python via .NET v26.7** ile başlayarak, eski `PivotTable.refresh_data()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
 
 {{% /alert %}}
 
@@ -439,7 +439,7 @@ workbook.save("output.xlsx")
 
 ## Kullanımdan Kaldırılan `PivotTable.refresh_data()` Yönteminden Geçiş (Migration)
 
-Aspose.Cells for Aspose.Cells for Python via .NET v26.7 öncesinde, bir pivot tabloyu yenilemenin standart yolu her pivot tabloda ayrı ayrı `PivotTable.refresh_data()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiş olup yukarıda açıklanan önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
+Aspose.Cells for Python via .NET v26.7 öncesinde, bir pivot tabloyu yenilemenin standart yolu her pivot tabloda ayrı ayrı `PivotTable.refresh_data()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiş olup yukarıda açıklanan önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
 
 Gerçek dünya çalışma kitaplarında tablo başına `refresh_data()` yaklaşımının sorunlu olmasının iki nedeni vardır:
 

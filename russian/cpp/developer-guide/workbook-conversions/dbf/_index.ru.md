@@ -1,10 +1,13 @@
 ---
 title: Чтение и запись файлов DBF
+linktitle: Чтение и запись файлов
 description: Aspose.Cells — это библиотека C++ для работы с файлами электронных таблиц, которая поддерживает чтение и запись файлов dBASE III и IV (DBF). В этой статье объясняется, как импортировать и экспортировать данные в файлы DBF с помощью Aspose.Cells, включая сведения о формате файлов, поддерживаемые функции и пошаговые примеры.
 keywords: Aspose.Cells, C++ library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /ru/cpp/reading-and-writing-dbf-files/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

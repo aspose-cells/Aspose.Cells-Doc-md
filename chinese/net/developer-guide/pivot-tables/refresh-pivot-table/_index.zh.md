@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for .NET 中刷新数据透视表
-linktitle: 在 Aspose.Cells for .NET 中刷新数据透视表
+linktitle: 数据透视表刷新
 description: 了解如何使用 v26.7+ 的 pivot-refresh API 在 Aspose.Cells for .NET 中刷新数据透视表。本文涵盖 RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData 和 GetPivotTables，并提供实用的代码示例。
 keywords: Aspose.Cells, .NET, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

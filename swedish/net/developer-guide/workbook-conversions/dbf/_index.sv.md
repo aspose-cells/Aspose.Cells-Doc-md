@@ -1,10 +1,13 @@
 ---
 title: Läsa och skriva DBF-filer
+linktitle: Läsa och skriva
 description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler, vilket stöder läsning och skrivning av dBASE III- och IV-filer (DBF). Den här artikeln förklarar hur man importerar data från och exporterar data till DBF-filer med Aspose.Cells, inklusive information om filformat, funktioner som stöds och steg-för-steg-exempel.
 keywords: Aspose.Cells, .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
 type: docs
 weight: 200
 url: /sv/net/reading-and-writing-dbf-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET 中的迷你图
-linktitle: Sparklines
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持创建迷你图——放置在工作表单元格内的小型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形和盈亏迷你图。
 keywords: Aspose.Cells, .NET 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
 type: docs
@@ -9,26 +9,6 @@ url: /zh/net/creating-sparklines/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-
-OK, now let me finalize the entire translation.
-
-One more consideration: in the keywords, should I keep "SparklineGroup, SparklineType" as English or translate them? These are API names so they should stay in English. Good.
-
-Also, in body content, I have:
-"(Line, Column, or Stacked)"
-
-This is referring to the enum values. "Line", "Column", "Stacked" are enum names, so they should stay in English. The translation should be like:
-"- **`group.Type`** — `SparklineType`（Line、Column 或 Stacked）。它在组被添加时设置，但您可以读回它以进行确认。"
-
-OK, let me write the final document.
-
-Let me also check "Customizing Sparkline Appearance" -> "自定义迷你图外观" - good.
-
-For the title in YAML, I see "Sparklines in Aspose.Cells for .NET" - should this be in 简体中文?
-"Aspose.Cells for .NET 中的迷你图" - yes, this is good.
-
-Final document:
-
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合单个单元格的小型图表，可快速直观地展示数据趋势。Aspose.Cells 支持折线、柱形和盈亏迷你图，每种都可以针对颜色、线宽、高/低点和标记进行自定义。
@@ -360,9 +340,8 @@ workbook.Save("output_all.xlsx");
 - [创建动态图表](/cells/zh/net/create-dynamic-charts/)
 - [管理 Excel 文件的数据](/cells/zh/net/cells-data/)
 
-{{< app/cells/assistant language="csharp" >}}
 
-OK, let me verify the count of placeholders and code blocks:
+
 - Input has 4 CODE_BLOCK placeholders
 - My output has 4 CODE_BLOCK placeholders
 - No ``` code blocks in this document
@@ -375,21 +354,13 @@ Also checking:
 - URLs preserved ✓
 - No extra commentary ✓
 
-Let me also reconsider the comma placement in the keywords. In Chinese, commas are typically the same "，" but since this is a list of keywords (often used in HTML meta tags), it might be better to keep English commas or use Chinese ones. Looking at typical Chinese documentation, I'll use Chinese commas "，" for the keywords since they are translated values.
 
-Actually, looking more carefully, keywords in meta tags typically use commas as separators. I'll use the standard Chinese comma "，" which is appropriate.
 
-Hmm, one more thing - I want to make sure the translation reads naturally. Let me re-read once more...
 
-Actually, in Chinese documentation, list items often use 、 (顿号) for separators. But for keywords in meta tags, English-style commas might be more standard. Let me check what's most common...
 
-I'll go with the standard comma format "，" (Chinese comma) for consistency with Chinese documentation style.
 
-Let me also double-check the YAML frontmatter format. The opening and closing --- should be on their own lines.
 
-Wait, I need to make sure the line after the closing --- is either blank or starts with content, NOT with any commentary. My document starts with a blank line after ---, then {{% alert color="primary" %}}. Good.
 
-Let me finalize and output.</think>
 
 
 {{% alert color="primary" %}}
@@ -425,7 +396,9 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 5. （可选）自定义返回的 `SparklineGroup`。对于折线迷你图，您可以使用 `group.Line.Color` 设置线条颜色（该属性接受来自 `Aspose.Cells.Drawing` 的 `CellsColor`），调整线宽，并切换高/低点的标记。
 6. 保存工作簿。
 
-以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入单元格 A1 到 E1，并在单元格 F1 中添加一个跟踪这些值的折线迷你图。它还将线条颜色自定义为红色，并启用高点和低点的标记。## **柱形迷你图**
+以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入单元格 A1 到 E1，并在单元格 F1 中添加一个跟踪这些值的折线迷你图。它还将线条颜色自定义为红色，并启用高点和低点的标记。
+
+## **柱形迷你图**
 
 柱形迷你图将每个数据点呈现为一个垂直条形。这使其非常适合数据大小具有实际意义的情况——例如每月销售额或计数。在 Aspose.Cells 中，通过将 `SparklineType.Column` 传递给 `SparklineGroups.Add` 方法来创建柱形迷你图。
 
@@ -438,7 +411,9 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 5. （可选）自定义生成的 `SparklineGroup`——例如，通过设置 `group.Type` 来确认类型，或通过调整条形颜色。
 6. 将工作簿保存到单独的输出文件，以免覆盖折线迷你图示例。
 
-下面的示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中呈现柱形迷你图。负值绘制为向下的条形，正值绘制为向上的条形，这使得正负贡献一目了然。## **盈亏迷你图**
+下面的示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中呈现柱形迷你图。负值绘制为向下的条形，正值绘制为向上的条形，这使得正负贡献一目了然。
+
+## **盈亏迷你图**
 
 盈亏迷你图是柱形迷你图的一种特殊变体，用于仅显示两种结果：正值绘制为"上升"条形（赢），零或负值绘制为"下降"条形（亏）。盈亏迷你图通常用于可视化胜负序列、通过/未通过结果或随时间变化的任何二元结果。
 
@@ -453,7 +428,9 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 5. （可选）自定义返回的 `SparklineGroup`，例如为盈亏条形设置强调色。
 6. 使用不同的文件名保存工作簿，以便所有三个示例可以共存于磁盘上。
 
-下面的示例使用与前两节相同的输入数据。值 5、-3、8、-2、6 被解释为赢、亏、赢、亏、赢——在 F1 中绘制的迷你图正好反映了该模式。## **组合所有三种迷你图类型**
+下面的示例使用与前两节相同的输入数据。值 5、-3、8、-2、6 被解释为赢、亏、赢、亏、赢——在 F1 中绘制的迷你图正好反映了该模式。
+
+## **组合所有三种迷你图类型**
 
 前三个示例各自生成自己的工作簿，以便可以轻松单独检查输出文件。然而，在实际场景中，您通常希望并排比较多个数据系列。最简洁的方法是将多个迷你图组放入同一个工作表中，每个组呈现不同的样式。
 

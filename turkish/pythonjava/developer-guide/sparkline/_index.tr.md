@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java'da Sparkline'lar
-linktitle: Sparklines
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerine yerleştirilen küçük grafikler olan sparkline'lar oluşturmayı destekleyen Python via Java kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kaybetme sparkline'larının nasıl ekleneceğini ve özelleştirileceğini açıklamaktadır.
 keywords: Aspose.Cells, Python via Java kütüphanesi, çalışma sayfası, sparkline'lar, çizgi sparkline, sütun sparkline, kazanma/kaybetme sparkline, SparklineGroup, SparklineType
 type: docs

@@ -141,8 +141,8 @@ workbook.save("sparklines.html", htmlOptions);
 
 ## **مقالات ذات صلة**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/sparkline/)
+- [Sparklines in Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/sparkline/)
 - [Inserting an Image into a Cell](/cells/ar/nodejs-java/inserting-an-image-into-a-cell/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

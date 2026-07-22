@@ -402,6 +402,6 @@ workbook.save("output.xlsx");
 
 ## **Связанные статьи**
 
-- [Обновление сводных таблиц в Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
+- [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
 
 {{< app/cells/assistant language="javascript" >}}

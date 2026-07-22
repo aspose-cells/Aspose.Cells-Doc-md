@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells ofrece una API de actualización en capas que le permite recargar datos de pivote en cuatro alcances diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Aspose.Cells for Python via Java v26.7**, el método heredado `PivotTable.refreshData()` está marcado como obsoleto y debe reemplazarse con las APIs más eficientes y conscientes de la caché descritas en este artículo.
+Aspose.Cells ofrece una API de actualización en capas que le permite recargar datos de pivote en cuatro alcances diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Python via Java v26.7**, el método heredado `PivotTable.refreshData()` está marcado como obsoleto y debe reemplazarse con las APIs más eficientes y conscientes de la caché descritas en este artículo.
 
 {{% /alert %}}
 
@@ -489,7 +489,7 @@ jpype.shutdownJVM()
 
 ## Migración desde el Obsoleto `PivotTable.refreshData()`
 
-Antes de Aspose.Cells for Aspose.Cells for Python via Java v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse con las APIs conscientes de la caché descritas anteriormente.
+Antes de Aspose.Cells for Python via Java v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse con las APIs conscientes de la caché descritas anteriormente.
 
 Hay dos razones por las que el enfoque `refreshData()` por tabla es problemático en libros del mundo real:
 

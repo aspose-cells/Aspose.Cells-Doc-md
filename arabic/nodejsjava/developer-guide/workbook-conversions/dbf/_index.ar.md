@@ -1,10 +1,13 @@
 ---
 title: قراءة وكتابة ملفات DBF
+linktitle: قراءة وكتابة ملفات
 description: Aspose.Cells هي مكتبة Node.js للعمل مع ملفات جداول البيانات، تدعم قراءة وكتابة ملفات dBASE III وIV (DBF). توضح هذه المقالة كيفية استيراد البيانات من وتصدير البيانات إلى ملفات DBF باستخدام Aspose.Cells، بما في ذلك تفاصيل تنسيق الملف والميزات المدعومة والأمثلة خطوة بخطوة.
 keywords: Aspose.Cells, Node.js library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf, Java
 type: docs
 weight: 200
 url: /ar/nodejs-java/reading-and-writing-dbf-files/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

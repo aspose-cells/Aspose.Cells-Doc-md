@@ -141,8 +141,8 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 
 ## **Related Articles**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/nodejs-java/sparkline/)
+- [Sparklines in Aspose.Cells for Node.js via Java](/cells/nodejs-java/sparkline/)
 - [Inserting an Image into a Cell](/cells/nodejs-java/inserting-an-image-into-a-cell/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Aspose.Cells for Node.js via Java](/cells/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
+- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Node.js via Java](/cells/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="javascript" >}}

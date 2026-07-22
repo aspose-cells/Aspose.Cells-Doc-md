@@ -151,7 +151,7 @@ int main() {
 
 ## **関連記事**
 
-- [Sparklines in Aspose.Cells for Aspose.Cells for C++](/cells/ja/cpp/sparkline/)
+- [Sparklines in Aspose.Cells for C++](/cells/ja/cpp/sparkline/)
 - [Inserting an Image into a Cell](/cells/ja/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/ja/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 

@@ -12,7 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells tillhandahåller ett lagerbaserat uppdaterings-API som låter dig läsa in pivotdata igen på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Aspose.Cells for Java v26.7** är den äldre metoden `PivotTable.refreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
+Aspose.Cells tillhandahåller ett lagerbaserat uppdaterings-API som låter dig läsa in pivotdata igen på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Java v26.7** är den äldre metoden `PivotTable.refreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
 
 {{% /alert %}}
 
@@ -440,7 +440,7 @@ workbook.save("output.xlsx");
 
 ## Migrera från den föråldrade `PivotTable.refreshData()`
 
-Före Aspose.Cells for Aspose.Cells for Java v26.7 var standardmetoden för att uppdatera en pivottabell att anropa `PivotTable.refreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
+Före Aspose.Cells for Java v26.7 var standardmetoden för att uppdatera en pivottabell att anropa `PivotTable.refreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
 
 Det finns två skäl till att metoden `refreshData()` per tabell är problematisk i verkliga arbetsböcker:
 

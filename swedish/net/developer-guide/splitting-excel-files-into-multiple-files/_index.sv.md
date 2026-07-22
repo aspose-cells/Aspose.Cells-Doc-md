@@ -1,10 +1,13 @@
 ---
 title: Dela upp Excel-filer i flera filer
+linktitle: Dela upp Excel-filer
 description: Aspose.Cells är ett .NET-bibliotek för arbete med kalkylarksfiler, som stöder delning av en enda Excel-fil i flera filer. Den här artikeln introducerar hur man delar Excel-filer genom att kopiera varje kalkylblad till en separat arbetsbok och genom att kopiera specifika cellintervall till andra arbetsböcker.
 keywords: Aspose.Cells, .NET-bibliotek, kalkylark, dela Excel-fil, kopiera kalkylblad, kopiera intervall, flera arbetsböcker, spara som separata filer
 type: docs
 weight: 195
 url: /sv/net/splitting-excel-files-into-multiple-files/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}

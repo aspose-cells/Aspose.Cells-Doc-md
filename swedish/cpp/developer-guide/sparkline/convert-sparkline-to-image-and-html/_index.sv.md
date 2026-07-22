@@ -151,7 +151,7 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 
 ## **Relaterade artiklar**
 
-- [Sparklines i Aspose.Cells for Aspose.Cells for C++](/cells/sv/cpp/sparkline/)
+- [Sparklines i Aspose.Cells for C++](/cells/sv/cpp/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/sv/cpp/SmartMarker-Single-Cell-Array-Rendering/)
 
