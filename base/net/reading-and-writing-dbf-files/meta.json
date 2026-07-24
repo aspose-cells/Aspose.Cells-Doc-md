@@ -1,0 +1,12 @@
+{
+  "Topic": "reading-and-writing-dbf-files",
+  "PlatformId": "net",
+  "UrlPrefix": "english/net/developer-guide/workbook-conversions/dbf",
+  "SourcePlatform": null,
+  "Requirement": "Create documentation for \u0022Reading and Writing DBF Files\u0022\nDescription: Aspose.Cells is a .NET library for working with spreadsheet files, which supports reading and writing dBASE III and IV (DBF) files. This article explains how to import data from and export data to DBF files using Aspose.Cells, including file format details, supported features, and step-by-step code examples.\nKeywords: Aspose.Cells, .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf\nTopics: Introduction, Supported DBF Versions and Features, Reading a DBF File, Writing a DBF File, Formatting and Data Considerations, Related Articles\n\nIMPORTANT: The document URL must be: /net/reading-and-writing-dbf-files/",
+  "OutputPath": "D:\\recruitize.ai\\Simon Zhao\\cellsdocumentagent\\output\\english/net/developer-guide/workbook-conversions/dbf\\_index.md",
+  "CodeBlockCount": 2,
+  "LanguageExtension": ".cs",
+  "DirectoryPath": "developer-guide/workbook-conversions/dbf",
+  "CreatedAt": "2026-06-02T16:30:01.5162829Z"
+}

@@ -1,0 +1,12 @@
+{
+  "Topic": "smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter",
+  "PlatformId": "nodejscpp",
+  "UrlPrefix": "english/nodejscpp/developer-guide/smart-markers/SmartMarker-Single-Cell-Array-Rendering",
+  "SourcePlatform": "net",
+  "Requirement": "Create documentation for \u0022ArrayAsSingle  ExtraDelimiter | SmartMarker Single Cell Array Rendering\u0022\nTopics: 1. Why This Feature Is Needed, 2. Feature Benefits, 3. How to Use This Feature\n\nIMPORTANT: The document URL must be: /net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/",
+  "OutputPath": "D:\\recruitize.ai\\Simon Zhao\\cellsdocumentagent\\output\\english/nodejscpp/developer-guide/smart-markers/SmartMarker-Single-Cell-Array-Rendering/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter\\_index.md",
+  "CodeBlockCount": 3,
+  "LanguageExtension": ".js",
+  "DirectoryPath": "developer-guide/smart-markers/SmartMarker-Single-Cell-Array-Rendering",
+  "CreatedAt": "2026-06-04T03:09:59.0556452Z"
+}

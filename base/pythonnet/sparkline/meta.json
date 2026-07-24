@@ -1,0 +1,12 @@
+{
+  "Topic": "sparkline",
+  "PlatformId": "pythonnet",
+  "UrlPrefix": "english/pythonnet/developer-guide",
+  "SourcePlatform": "net",
+  "Requirement": "Create documentation for \u0022Sparklines in Aspose.Cells for .NET\u0022",
+  "OutputPath": "D:\\recruitize.ai\\Simon Zhao\\cellsdocumentagent\\output\\english/pythonnet/developer-guide/sparkline\\_index.md",
+  "CodeBlockCount": 4,
+  "LanguageExtension": ".py",
+  "DirectoryPath": "developer-guide",
+  "CreatedAt": "2026-06-21T04:10:00.9942328Z"
+}

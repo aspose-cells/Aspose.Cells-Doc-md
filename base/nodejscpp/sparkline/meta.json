@@ -1,0 +1,12 @@
+{
+  "Topic": "sparkline",
+  "PlatformId": "nodejscpp",
+  "UrlPrefix": "english/nodejscpp/developer-guide",
+  "SourcePlatform": "net",
+  "Requirement": "Create documentation for \u0022Sparklines in Aspose.Cells for .NET\u0022",
+  "OutputPath": "D:\\recruitize.ai\\Simon Zhao\\cellsdocumentagent\\output\\english/nodejscpp/developer-guide/sparkline\\_index.md",
+  "CodeBlockCount": 4,
+  "LanguageExtension": ".js",
+  "DirectoryPath": "developer-guide",
+  "CreatedAt": "2026-06-21T06:17:06.2587938Z"
+}

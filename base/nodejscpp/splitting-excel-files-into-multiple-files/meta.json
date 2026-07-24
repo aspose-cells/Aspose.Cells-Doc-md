@@ -1,0 +1,12 @@
+{
+  "Topic": "splitting-excel-files-into-multiple-files",
+  "PlatformId": "nodejscpp",
+  "UrlPrefix": "english/nodejscpp/developer-guide",
+  "SourcePlatform": "net",
+  "Requirement": "Create documentation for splitting Excel file to different fil with Aspose.Cells for .Net.\n                1,copy each worksheet to other workbook, 2, copy range to other workbook to split Excel file. ",
+  "OutputPath": "D:\\recruitize.ai\\Simon Zhao\\cellsdocumentagent\\output\\english/nodejscpp/developer-guide/splitting-excel-files-into-multiple-files\\_index.md",
+  "CodeBlockCount": 2,
+  "LanguageExtension": ".js",
+  "DirectoryPath": null,
+  "CreatedAt": "2026-06-03T07:46:47.7045347Z"
+}
