@@ -19,9 +19,4 @@ Aspose.Cells 提供 [PivotTable.getCellByDisplayName()](https://reference.aspose
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellObject-GetCellObject.java" >}}
 
-
-
-
-
-
 {{< app/cells/assistant language="java" >}}

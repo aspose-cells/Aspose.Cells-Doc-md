@@ -182,9 +182,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Bu üç senaryo birlikte, varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir pivota kadar Aspose.Cells for Node.js via C++ içinde değer alanı manipülasyonunun her yönünü kapsar.
-## İlgili Makaleler
-- [Pivot Tablo Satır ve Sütun Alanları in Aspose.Cells for Node.js via C++](/cells/tr/nodejs-cpp/row-and-column-fields/)
-- [Pivot Tablolarda Sayfa Alanları](/cells/tr/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Node.js via C++ içinde Pivot Tabloları Yenileme](/cells/tr/nodejs-cpp/refresh-pivot-table/)
-- [Pivot Tablolarına Stil Uygulama](/cells/tr/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

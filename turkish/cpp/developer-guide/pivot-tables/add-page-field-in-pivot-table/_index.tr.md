@@ -356,6 +356,4 @@ Aşağıdaki tablo, her senaryoyu ayrıntılı olarak okumadan doğru kombinasyo
 Çoklu seçim filtrelemeyi yapılandırırken görünürlük kısıtını her zaman hatırlayın. Çoklu seçim filtre alanındaki her `PivotItem` gizlenmişse Excel açılırken çöker veya boş bir pivot oluşturur. Beyaz listenizi kaynak verilerinize göre oluşturun, böylece en az bir öğe görünür kalsın ve kaydedilen çalışma kitaplarınız her makinede güvenilir şekilde açılsın.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="cpp" >}}

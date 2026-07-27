@@ -144,9 +144,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 Ensemble, ces trois scénarios couvrent tous les aspects de la manipulation des champs de valeurs dans Aspose.Cells for Python via Java, d'un seul champ de données avec la `Sum` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
-## Articles connexes
-- [Champs de ligne et de colonne de tableau croisé dynamique dans Aspose.Cells for Python via Java](/cells/fr/python-java/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/python-java/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Python via Java](/cells/fr/python-java/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

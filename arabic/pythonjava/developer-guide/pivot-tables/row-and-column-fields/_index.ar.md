@@ -253,6 +253,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وهيكل الجدول المحوري. الفرق الوحيد بينها هو استدعاء `setSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكّر قاعدة الحقلين: لا يوجد لدى حقل واحد في منطقة ما ما يمكن الإجمالي الفرعي بينه وبين غيره، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لاستدعاء `setSubtotals` تأثير مرئي.
@@ -262,4 +263,5 @@ jpype.shutdownJVM()
 - [حقول الصفحات في الجداول المحورية](/cells/ar/python-java/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Python via Java](/cells/ar/python-java/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

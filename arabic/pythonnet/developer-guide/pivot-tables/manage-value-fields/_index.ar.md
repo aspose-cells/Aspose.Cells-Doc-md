@@ -177,9 +177,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 معًا، تغطّي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقل القيم في Aspose.Cells for Python via .NET، بدءًا من حقل بيانات واحد بالـ `Sum` الافتراضي وصولاً إلى جدول محوري متعدد المقاييس يتحكم فيه `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
-## مقالات ذات صلة
-- [حقول الصفوف والأعمدة في الجدول المحوري في Aspose.Cells for Python via .NET](/cells/ar/python-net/row-and-column-fields/)
-- [حقول الصفحات في الجداول المحورية](/cells/ar/python-net/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for Python via .NET](/cells/ar/python-net/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

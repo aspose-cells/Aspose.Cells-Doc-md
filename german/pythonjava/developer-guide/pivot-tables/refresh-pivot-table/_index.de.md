@@ -439,4 +439,6 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Quelldaten für einen Cache geändert | `pivotTable.getPivotCache().refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem geteilten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.calculateData()` | Überspringt unnötige Quellrundreise. |
 | Alle Pivot-Tabellen auf einem geteilten Cache auflisten | `pivotCache.getPivotTables()` | Vor Massenaktualisierung zum Auflisten verwenden. |
-In der Praxis sollten Sie die cache-basierten APIs der veralteten Methode `refreshData()` pro Tabelle vorziehen. Sie kennen geteilte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Bereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="python" >}}
+In der Praxis sollten Sie die cache-basierten APIs der veralteten Methode `refreshData()` pro Tabelle vorziehen. Sie kennen geteilte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Bereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
+
+{{< app/cells/assistant language="python" >}}

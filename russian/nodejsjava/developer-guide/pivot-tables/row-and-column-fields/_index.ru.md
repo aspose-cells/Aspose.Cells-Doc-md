@@ -235,6 +235,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **Резюме**
 
 Три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — вызов `setSubtotals`, применяемый к внешнему полю строки `Category`. Помните правило двух полей: одно поле в области не имеет ничего для подведения промежуточных итогов между ними, поэтому всегда размещайте как минимум два поля в области строк или столбцов, если вы хотите, чтобы `setSubtotals` имел видимый эффект.
@@ -244,4 +245,5 @@ workbook.save("output_custom.xlsx");
 - [Поля страниц в сводных таблицах](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

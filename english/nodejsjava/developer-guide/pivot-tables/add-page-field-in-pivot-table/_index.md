@@ -310,6 +310,4 @@ The table below summarizes when to use each API and mode so you can pick the rig
 Always remember the visibility constraint when configuring multi-select filtering. If every `PivotItem` in a multi-select filter field is hidden, Excel crashes on open or renders a blank pivot. Build your whitelist against your source data so at least one item stays visible, and your saved workbooks will open reliably on every machine.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="javascript" >}}

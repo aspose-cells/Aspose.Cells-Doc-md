@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 В совокупности эти три сценария охватывают все аспекты работы с полями значений в Aspose.Cells for Java — от единственного поля данных с `SUM` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением на оси строк или столбцов.
-## Связанные статьи
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for Java](/cells/ru/java/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/java/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for Java](/cells/ru/java/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

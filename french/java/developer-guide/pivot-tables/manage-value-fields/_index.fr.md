@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Ensemble, ces trois scénarios couvrent tous les aspects de la manipulation des champs de valeur dans Aspose.Cells for Java, depuis un seul champ de données avec le `SUM` par défaut jusqu'à un tableau croisé dynamique à mesures multiples dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
-## Articles connexes
-- [Champs Ligne et Colonne d'un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/java/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Java](/cells/fr/java/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

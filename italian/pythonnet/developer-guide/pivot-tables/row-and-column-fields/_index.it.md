@@ -247,4 +247,5 @@ I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di 
 - [Campi Pagina nelle Tabelle Pivot](/cells/it/python-net/add-page-field-in-pivot-table/)
 - [Aggiornamento delle Tabelle Pivot in Aspose.Cells for Python via .NET](/cells/it/python-net/refresh-pivot-table/)
 - [Applicazione di Stili alle Tabelle Pivot](/cells/it/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

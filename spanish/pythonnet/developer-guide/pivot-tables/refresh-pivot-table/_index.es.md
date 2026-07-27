@@ -464,4 +464,6 @@ La tabla siguiente resume las API de actualización disponibles y cuándo elegir
 | Solo cambió la configuración de vista/diseño | `pivot_table.calculate_data()` | Omite la ida y vuelta innecesaria al origen. |
 | Listar todas las tablas dinámicas de una caché compartida | `pivot_cache.get_pivot_tables()` | Úselo para enumerar antes de una actualización masiva. |
 
-En la práctica, prefiera las API basadas en caché sobre el método obsoleto `refresh_data()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el ámbito más pequeño que satisface su requisito de actualización.{{< app/cells/assistant language="python" >}}
+En la práctica, prefiera las API basadas en caché sobre el método obsoleto `refresh_data()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el ámbito más pequeño que satisface su requisito de actualización.
+
+{{< app/cells/assistant language="python" >}}

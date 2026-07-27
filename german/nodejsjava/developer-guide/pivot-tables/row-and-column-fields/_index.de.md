@@ -247,6 +247,7 @@ Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Piv
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/refresh-pivot-table/)
 - [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/nodejs-java/apply-style-to-pivot-table/)
 `javascript
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -311,7 +312,8 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
-``javascript
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -355,7 +357,8 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
-``javascript
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -422,7 +425,8 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
-`javascript
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -486,7 +490,9 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 pivotTable.refreshData();
 pivotTable.calculateData();
 
-workbook.save("output_automatic.xlsx");javascript
+workbook.save("output_automatic.xlsx");
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -529,7 +535,9 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
 pivotTable.refreshData();
 pivotTable.calculateData();
 
-workbook.save("output_none.xlsx");javascript
+workbook.save("output_none.xlsx");
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -607,4 +615,5 @@ Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Piv
 - [Seitenfelder in Pivot-Tabellen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/refresh-pivot-table/)
 - [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

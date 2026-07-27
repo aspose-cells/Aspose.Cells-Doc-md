@@ -323,5 +323,4 @@ Die folgende Tabelle fasst zusammen, wann welche API und welcher Modus verwendet
 Denken Sie immer an die Sichtbarkeitsbedingung, wenn Sie die Mehrfachauswahl-Filterung konfigurieren. Wenn jedes `PivotItem` in einem Mehrfachauswahl-Filterfeld ausgeblendet ist, stürzt Excel beim Öffnen ab oder rendert eine leere Pivot-Tabelle. Erstellen Sie Ihre Whitelist anhand Ihrer Quelldaten, sodass mindestens ein Element sichtbar bleibt, und Ihre gespeicherten Arbeitsmappen werden auf jedem Rechner zuverlässig geöffnet.
 {{% /alert %}}
 
-
 {{< app/cells/assistant language="python" >}}

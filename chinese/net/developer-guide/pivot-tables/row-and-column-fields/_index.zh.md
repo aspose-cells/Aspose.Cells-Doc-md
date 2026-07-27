@@ -258,4 +258,5 @@ workbook.Save("output_custom.xlsx");
 - [数据透视表中的页面字段](/cells/zh/net/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for .NET 中刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
 - [向数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

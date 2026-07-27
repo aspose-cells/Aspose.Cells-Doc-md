@@ -258,4 +258,5 @@ workbook.Save("output_custom.xlsx");
 - [حقول الصفحات في الجداول المحورية](/cells/ar/net/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for .NET](/cells/ar/net/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

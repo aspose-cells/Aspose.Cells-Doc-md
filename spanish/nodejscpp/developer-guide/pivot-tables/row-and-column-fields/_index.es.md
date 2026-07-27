@@ -233,6 +233,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **Resumen**
 
 Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `SetSubtotals` aplicada al campo de fila exterior `Category`. Recuerde la regla de los dos campos: un solo campo en una región no tiene nada entre lo que calcular un subtotal, así que coloque siempre al menos dos campos en la región de fila o columna cuando quiera que `SetSubtotals` tenga un efecto visible.
@@ -242,4 +243,5 @@ Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma e
 - [Campos de página en tablas dinámicas](/cells/es/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Actualización de tablas dinámicas en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/refresh-pivot-table/)
 - [Aplicar estilos a tablas dinámicas](/cells/es/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

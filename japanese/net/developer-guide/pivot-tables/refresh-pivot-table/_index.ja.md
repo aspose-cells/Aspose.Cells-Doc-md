@@ -473,4 +473,6 @@ workbook.Save("output.xlsx");
 | 表示/レイアウト設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースへのラウンドトリップをスキップします。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
 
-実際には、廃止予定のテーブルごとの `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。{{< app/cells/assistant language="csharp" >}}
+実際には、廃止予定のテーブルごとの `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。
+
+{{< app/cells/assistant language="csharp" >}}

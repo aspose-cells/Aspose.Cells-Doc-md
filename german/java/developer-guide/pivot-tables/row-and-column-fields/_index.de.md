@@ -252,4 +252,5 @@ Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Piv
 - [Seitenfelder in Pivot-Tabellen](/cells/de/java/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/refresh-pivot-table/)
 - [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

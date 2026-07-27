@@ -104,11 +104,4 @@ Con dos campos de datos en su lugar, `PivotTable.getValuesField()` se vuelve uti
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Node.js via Java, desde un único campo de datos con el `SUM` predeterminado hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla la disposición en el eje de Filas o Columnas.
 
-## Artículos Relacionados
-
-- [Campos de Fila y Columna de Tabla Dinámica en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/row-and-column-fields/)
-- [Campos de Página en Tablas Dinámicas](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
-- [Actualizar Tablas Dinámicas en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/refresh-pivot-table/)
-- [Aplicar Estilos a Tablas Dinámicas](/cells/es/nodejs-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

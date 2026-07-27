@@ -255,4 +255,5 @@ workbook.Save("output_custom.xlsx");
 - [Page Fields in Pivot Tables](/cells/net/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/net/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

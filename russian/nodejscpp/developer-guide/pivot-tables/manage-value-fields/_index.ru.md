@@ -182,9 +182,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Вместе эти три сценария охватывают все аспекты работы с полями значений в Aspose.Cells for Node.js via C++ — от одного поля данных с функцией `Sum` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет компоновкой на оси строк или столбцов.
-## Связанные статьи
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

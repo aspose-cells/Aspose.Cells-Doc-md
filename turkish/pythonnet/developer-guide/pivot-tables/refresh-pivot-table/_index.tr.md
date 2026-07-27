@@ -409,4 +409,6 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilece
 | Tek bir önbelleğin kaynak verileri değişti | `pivot_table.pivot_cache.refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivot_table.calculate_data()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivot_cache.get_pivot_tables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="python" >}}
+Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+
+{{< app/cells/assistant language="python" >}}

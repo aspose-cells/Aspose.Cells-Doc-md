@@ -455,4 +455,6 @@ La tabla a continuación resume las API de actualización disponibles y cuándo 
 | Solo cambiaron la configuración de vista/diseño | `pivotTable.CalculateData()` | Omite el viaje de ida y vuelta innecesario al origen. |
 | Listar todas las tablas dinámicas en una caché compartida | `pivotCache.GetPivotTables()` | Úselo para enumerar antes de la actualización masiva. |
 
-En la práctica, prefiera las API basadas en caché sobre el `RefreshData()` obsoleto por tabla. Son conscientes de las cachés compartidas, evitan obtenciones redundantes del origen y le permiten elegir el ámbito más pequeño que satisfaga su requisito de actualización.{{< app/cells/assistant language="javascript" >}}
+En la práctica, prefiera las API basadas en caché sobre el `RefreshData()` obsoleto por tabla. Son conscientes de las cachés compartidas, evitan obtenciones redundantes del origen y le permiten elegir el ámbito más pequeño que satisfaga su requisito de actualización.
+
+{{< app/cells/assistant language="javascript" >}}

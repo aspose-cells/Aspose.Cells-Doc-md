@@ -195,9 +195,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 这三个场景共同涵盖了 Aspose.Cells for .NET 中值字段操作的各个方面，从使用默认 `Sum` 的单个数据字段，到由虚拟 `ValuesField` 控制行轴或列轴布局的多度量值数据透视表。
-## 相关文章
-- [Aspose.Cells for .NET 中的数据透视表行和列字段](/cells/zh/net/row-and-column-fields/)
-- [数据透视表中的页面字段](/cells/zh/net/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for .NET 中刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
-- [对数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

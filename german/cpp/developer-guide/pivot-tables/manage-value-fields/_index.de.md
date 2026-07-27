@@ -154,9 +154,5 @@ int main() {
 }
 ```
 Zusammen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for C++ ab, von einem einzelnen Datenfeld mit dem Standardwert `Sum` bis zu einer PivotTable mit mehreren Kennzahlen, bei der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
-## Verwandte Artikel
-- [Zeilen- und Spaltenfelder in PivotTables in Aspose.Cells for C++](/cells/de/cpp/row-and-column-fields/)
-- [Seitenfelder in PivotTables](/cells/de/cpp/add-page-field-in-pivot-table/)
-- [Aktualisieren von PivotTables in Aspose.Cells for C++](/cells/de/cpp/refresh-pivot-table/)
-- [Anwenden von Stilen auf PivotTables](/cells/de/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

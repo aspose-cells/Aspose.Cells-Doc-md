@@ -174,11 +174,4 @@ int main() {
 
 Ensemble, ces trois scénarios couvrent chaque aspect de la manipulation des champs de valeur dans Aspose.Cells for C++, d'un seul champ de données avec le `Sum` par défaut jusqu'à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
 
-## Articles connexes
-
-- [Champs Ligne et Colonne du tableau croisé dynamique dans Aspose.Cells for C++](/cells/fr/cpp/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/cpp/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for C++](/cells/fr/cpp/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/cpp/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="cpp" >}}

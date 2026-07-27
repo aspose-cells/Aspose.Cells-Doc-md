@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% /alert %}}
 
+```python
 import jpype
 import asposecells
 jpype.startJVM()
@@ -500,12 +501,5 @@ jpype.shutdownJVM()
 | سرد جميع الجداول المحورية على ذاكرة تخزين مؤقت مشتركة | `pivotCache.getPivotTables()` | استخدمه للتعداد قبل التحديث المجمع. |
 
 عمليًا، أعطِ الأولوية لواجهات برمجة التطبيقات القائمة على ذاكرة التخزين المؤقت على `refreshData()` القديمة لكل جدول. إنها مدركة لذاكرة التخزين المؤقت المشتركة، وتتجنب عمليات جلب المصدر المكررة، وتتيح لك اختيار أصغر نطاق يلبي متطلب التحديث لديك.
-
-## **مقالات ذات صلة**
-
-- [إدراج صورة في خلية](/cells/ar/python-java/inserting-an-image-into-a-cell/)
-- [قراءة وكتابة ملفات DBF](/cells/ar/python-java/dbf/)
-- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/python-java/splitting-excel-files-into-multiple-files/)
-- [الخطوط البيانية المصغرة في Aspose.Cells for Python via Java](/cells/ar/python-java/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

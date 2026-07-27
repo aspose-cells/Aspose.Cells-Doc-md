@@ -154,9 +154,5 @@ int main() {
 }
 ```
 总之，这三个场景涵盖了 Aspose.Cells for C++ 中值字段操作的方方面面，从使用默认 `Sum` 的单个数据字段，到使用虚拟 `ValuesField` 控制行轴或列轴上布局的多度量数据透视表。
-## 相关文章
-- [Pivot Table Row and Column Fields in Aspose.Cells for C++](/cells/zh/cpp/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/zh/cpp/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for C++](/cells/zh/cpp/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/zh/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

@@ -14,4 +14,5 @@ url: /ar/net/save-pivot-table-in-ods-file/
 تم إرفاق الملف الناتج المولوظ بالكود أعلاه للرجوع إليه.
 
 [ملف ODS الناتج](PivotTableSaveInODS_out.ods)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -144,9 +144,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 В совокупности эти три сценария охватывают все аспекты работы с полями значений в Aspose.Cells for Python via Java — от единственного поля данных с `Sum` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением по оси строк или столбцов.
-## Связанные статьи
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for Python via Java](/cells/ru/python-java/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/python-java/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

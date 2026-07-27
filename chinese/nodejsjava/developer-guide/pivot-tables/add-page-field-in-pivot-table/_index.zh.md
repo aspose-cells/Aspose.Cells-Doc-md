@@ -317,5 +317,4 @@ workbook.save("output.xlsx");
 配置多选过滤时，请始终记住可见性约束。如果多选筛选字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时崩溃或呈现空白的数据透视表。根据源数据构建您的白名单，使至少一项保持可见，这样您保存的工作簿将在每台机器上可靠地打开。
 {{% /alert %}}
 
-
 {{< app/cells/assistant language="javascript" >}}

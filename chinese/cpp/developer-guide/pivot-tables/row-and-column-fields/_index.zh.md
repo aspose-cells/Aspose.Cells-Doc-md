@@ -274,4 +274,5 @@ int main() {
 - [数据透视表中的页字段](/cells/zh/cpp/add-page-field-in-pivot-table/)
 - [刷新 Aspose.Cells for C++ 中的数据透视表](/cells/zh/cpp/refresh-pivot-table/)
 - [向数据透视表应用样式](/cells/zh/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

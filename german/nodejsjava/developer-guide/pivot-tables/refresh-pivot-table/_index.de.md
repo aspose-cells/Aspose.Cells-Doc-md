@@ -483,4 +483,5 @@ In der Praxis sind die cache-basierten APIs dem veralteten `RefreshData()` pro T
 - [Lesen und Schreiben von DBF-Dateien](/cells/de/nodejs-java/dbf/)
 - [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/nodejs-java/splitting-excel-files-into-multiple-files/)
 - [Sparklines in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/sparkline/)
+
 {{< app/cells/assistant language="javascript" >}}

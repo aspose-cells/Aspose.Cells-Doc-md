@@ -20,8 +20,7 @@ Varje fält som placeras i dataområdet är internt inpackat som en `PivotField`
 
 {{% alert color="primary" %}}
 Att ändra `Function` påverkar bara aggregeringen, källkolumnen ändras inte.
-{{% alert %}}
-
+{{% /alert %}}
 Du kan därför låta ett datafält vara `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
 
 ## Placera värdefält på Rad- eller Kolumn-axeln
@@ -30,8 +29,7 @@ När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cel
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% alert %}}
-
+{{% /alert %}}
 Scenarierna nedan går igenom tre kompletta exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
 
 ## Scenario 1 — Dra ett basfält till värdeområdet
@@ -200,12 +198,5 @@ workbook.save("output_plot.xlsx");
 ```
 
 Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for Java, från ett enskilt datafält med standardvärdet `SUM` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på Rad- eller Kolumn-axeln.
-
-## Relaterade artiklar
-
-- [Pivottabellrad- och kolumnfält i Aspose.Cells for Java](/cells/sv/java/row-and-column-fields/)
-- [Sidfält i pivottabeller](/cells/sv/java/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Java](/cells/sv/java/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="java" >}}

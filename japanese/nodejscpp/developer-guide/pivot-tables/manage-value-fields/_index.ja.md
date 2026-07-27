@@ -18,6 +18,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `getFunction()` プロパティは `ConsolidationFunction` 列挙型の値を返します。同じ `setFunction()` セッターを使用すると、`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` などの利用可能な集計を切り替えることができます。
 
 集計関数の変更は集計結果のみに影響し、ソース列は変更されません。
+{{% alert color="primary" %}}
 {{% /alert %}}
 
 したがって、1 つのデータフィールドを `Sum` のままにして、同じソース列を対象とするが `Count` または `Average` を使用する 2 つ目のデータフィールドを、単一のピボット内で追加することができます。
@@ -88,7 +89,9 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
 pivotTable.calculateData();
-workbook.save("output_drag.xlsx");javascript
+workbook.save("output_drag.xlsx");
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -139,7 +142,9 @@ countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
 pivotTable.calculateData();
 
-workbook.save("output_function.xlsx");javascript
+workbook.save("output_function.xlsx");
+```
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -184,10 +189,4 @@ workbook.save("output_plot.xlsx");
 
 これらの 3 つのシナリオを合わせると、デフォルトの `Sum` を持つ単一のデータフィールドから、仮想 `ValuesField` が行軸または列軸のレイアウトを制御する複数メジャーのピボットまで、Aspose.Cells for Node.js via C++ における値フィールド操作のすべての側面をカバーしています。
 
-## 関連記事
-
-- [Aspose.Cells for Node.js via C++ におけるピボットテーブルの行と列のフィールド](/cells/ja/nodejs-cpp/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Node.js via C++ におけるピボットテーブルの更新](/cells/ja/nodejs-cpp/refresh-pivot-table/)
-- [ピボットテーブルへのスタイルの適用](/cells/ja/nodejs-cpp/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="javascript" >}}

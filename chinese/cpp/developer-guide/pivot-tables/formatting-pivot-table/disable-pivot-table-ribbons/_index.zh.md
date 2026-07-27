@@ -56,4 +56,5 @@ int main()
     Aspose::Cells::Cleanup();
 }
 ```
+
 {{< app/cells/assistant language="cpp" >}}

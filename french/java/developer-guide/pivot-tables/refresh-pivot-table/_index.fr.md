@@ -445,4 +445,6 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 | Seuls les paramètres de vue/disposition ont changé | `pivotTable.calculateData()` | Évite un aller-retour inutile vers la source. |
 | Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivotCache.getPivotTables()` | À utiliser pour énumérer avant une actualisation en masse. |
 
-En pratique, préférez les API basées sur le cache plutôt que l'obsolète `refreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations redondantes depuis la source, et elles vous permettent de choisir le plus petit scope qui satisfait votre exigence d'actualisation.{{< app/cells/assistant language="java" >}}
+En pratique, préférez les API basées sur le cache plutôt que l'obsolète `refreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations redondantes depuis la source, et elles vous permettent de choisir le plus petit scope qui satisfait votre exigence d'actualisation.
+
+{{< app/cells/assistant language="java" >}}

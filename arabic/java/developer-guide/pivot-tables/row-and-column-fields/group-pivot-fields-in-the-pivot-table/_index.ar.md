@@ -18,4 +18,5 @@ url: /ar/java/group-pivot-fields-in-the-pivot-table/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-GroupPivotFieldsInPivotTable.java" >}}
+
 {{< app/cells/assistant language="java" >}}

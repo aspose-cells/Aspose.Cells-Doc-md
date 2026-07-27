@@ -164,11 +164,4 @@ workbook.save("output_plot.xlsx")
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Python via Java, desde un único campo de datos con el `Sum` por defecto hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla el diseño en el eje de Filas o Columnas.
 
-## Artículos Relacionados
-
-- [Campos de Fila y Columna de Tablas Dinámicas en Aspose.Cells for Python via Java](/cells/es/python-java/row-and-column-fields/)
-- [Campos de Página en Tablas Dinámicas](/cells/es/python-java/add-page-field-in-pivot-table/)
-- [Actualizar Tablas Dinámicas en Aspose.Cells for Python via Java](/cells/es/python-java/refresh-pivot-table/)
-- [Aplicar Estilos a Tablas Dinámicas](/cells/es/python-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

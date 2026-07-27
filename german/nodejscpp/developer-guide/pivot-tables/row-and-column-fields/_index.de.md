@@ -205,4 +205,5 @@ Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Piv
 - [Seitenfelder in PivotTable](/cells/de/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aktualisieren von PivotTable in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/refresh-pivot-table/)
 - [Anwenden von Stilen auf PivotTable](/cells/de/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

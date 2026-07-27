@@ -24,4 +24,5 @@ Aspose.Cells also provides [**PivotTable.showInCompactForm()**](https://referenc
 The following sample code first shows the PivotTable in **Compact Form**, then it shows the PivotTable in **Outline Form**, and finally it shows the PivotTable in **Tabular Form**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}
+
 {{< app/cells/assistant language="java" >}}

@@ -252,4 +252,5 @@ workbook.save("output_custom.xlsx");
 - [Поля страниц в сводных таблицах](/cells/ru/java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Java](/cells/ru/java/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

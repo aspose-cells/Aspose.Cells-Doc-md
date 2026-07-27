@@ -403,4 +403,6 @@ workbook.save("output.xlsx")
 | 一个缓存的源数据已更改 | `pivot_table.pivot_cache.refresh()` | 刷新该共享缓存上的所有数据透视表。 |
 | 仅视图/布局设置已更改 | `pivot_table.calculate_data()` | 跳过不必要的源回溯。 |
 | 列出共享缓存上的所有数据透视表 | `pivot_cache.get_pivot_tables()` | 用于在批量刷新前枚举。 |
-在实践中，应优先使用基于缓存的 API，而不是过时的按表 `refresh_data()`。它们了解共享缓存，避免冗余的源获取，并允许您选择满足刷新要求的最小范围。{{< app/cells/assistant language="python" >}}
+在实践中，应优先使用基于缓存的 API，而不是过时的按表 `refresh_data()`。它们了解共享缓存，避免冗余的源获取，并允许您选择满足刷新要求的最小范围。
+
+{{< app/cells/assistant language="python" >}}

@@ -419,4 +419,6 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 | Données sources modifiées pour un cache | `pivotTable.GetPivotCache().Refresh()` | Actualise TOUS les tableaux croisés dynamiques sur ce cache partagé. |
 | Seuls les paramètres de vue/mise en page ont changé | `pivotTable.CalculateData()` | Évite l'aller-retour source inutile. |
 | Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivotCache.GetPivotTables()` | À utiliser pour énumérer avant une actualisation en masse. |
-En pratique, préférez les API basées sur le cache par rapport à l'obsolète `RefreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations source redondantes et elles vous permettent de choisir la plus petite portée qui satisfait votre besoin d'actualisation.{{< app/cells/assistant language="cpp" >}}
+En pratique, préférez les API basées sur le cache par rapport à l'obsolète `RefreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations source redondantes et elles vous permettent de choisir la plus petite portée qui satisfait votre besoin d'actualisation.
+
+{{< app/cells/assistant language="cpp" >}}

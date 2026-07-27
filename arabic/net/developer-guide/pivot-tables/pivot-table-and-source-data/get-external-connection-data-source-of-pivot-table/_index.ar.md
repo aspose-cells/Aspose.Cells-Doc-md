@@ -16,4 +16,5 @@ url: /ar/net/get-external-connection-data-source-of-pivot-table/
 الملف المصدر المستخدم في مقتطف الشفرة مرفق للرجوع إليه.
 
 [ملف المصدر](104398862.xlsx)
+
 {{< app/cells/assistant language="csharp" >}}

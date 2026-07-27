@@ -56,4 +56,5 @@ Aspose.Cells для Python via .NET предоставляет специаль�
 - [Сохранение сводной таблицы в файле ODS](/cells/ru/python-net/save-pivot-table-in-ods-file/)
 - [Опция отображения страниц фильтров отчета](/cells/ru/python-net/show-report-filter-pages-option/)
 - [Работа с форматами отображения данных DataField в сводной таблице](/cells/ru/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+
 {{< app/cells/assistant language="python-net" >}}

@@ -253,6 +253,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **Резюме**
 
 Три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — это вызов `setSubtotals`, применяемый к внешнему полю строки `Category`. Помните о правиле двух полей: одно поле в области не даёт ничего значимого для расчёта промежуточного итога между группами, поэтому всегда размещайте как минимум два поля в области строк или столбцов, когда хотите, чтобы `setSubtotals` оказывал видимый эффект.
@@ -262,4 +263,5 @@ jpype.shutdownJVM()
 - [Поля страниц в сводных таблицах](/cells/ru/python-java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

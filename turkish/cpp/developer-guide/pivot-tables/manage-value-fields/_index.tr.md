@@ -174,11 +174,4 @@ int main() {
 
 Bu üç senaryo birlikte, varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çok ölçümlü bir pivota kadar Aspose.Cells for C++'ta değer alanı işlemenin her yönünü kapsar.
 
-## İlgili Makaleler
-
-- [Aspose.Cells for C++'ta Pivot Tablosu Satır ve Sütun Alanları](/cells/tr/cpp/row-and-column-fields/)
-- [Pivot Tablolarında Sayfa Alanları](/cells/tr/cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for C++'ta Pivot Tablolarını Yenileme](/cells/tr/cpp/refresh-pivot-table/)
-- [Pivot Tablolarına Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="cpp" >}}

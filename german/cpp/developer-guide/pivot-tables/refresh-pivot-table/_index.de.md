@@ -565,4 +565,6 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und wa
 | Quelldaten für einen Cache geändert | `pivotTable.GetPivotCache().Refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem gemeinsam genutzten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.CalculateData()` | Überspringt unnötigen Quellrundgang. |
 | Alle Pivot-Tabellen auf einem gemeinsam genutzten Cache auflisten | `pivotCache.GetPivotTables()` | Verwenden Sie dies zur Auflistung vor einer Massenaktualisierung. |
-In der Praxis sind die cache-basierten APIs der veralteten pro-Tabelle `RefreshData()` vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderungen erfüllt.{{< app/cells/assistant language="cpp" >}}
+In der Praxis sind die cache-basierten APIs der veralteten pro-Tabelle `RefreshData()` vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderungen erfüllt.
+
+{{< app/cells/assistant language="cpp" >}}

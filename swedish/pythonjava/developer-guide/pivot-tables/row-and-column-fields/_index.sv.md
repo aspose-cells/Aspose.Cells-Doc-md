@@ -263,6 +263,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg tvåfältsregeln: ett enskilt fält i en region har inget att beräkna delsummor mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
@@ -314,6 +315,7 @@ No colons in this translation. Good.
 - All HTML comments: ✓
 - All URLs: ✓
 
+```python
 import jpype
 import asposecells
 jpype.startJVM()
@@ -504,6 +506,7 @@ jpype.shutdownJVM()These must be preserved exactly as-is.
 
 Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radregionen visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnregionen visas horisontellt överst. Den här artikeln visar hur man lägger till basfält i dessa regioner programmatiskt och hur man styr delsummorna som renderas mellan fältgrupper med hjälp av metoden `PivotField.setSubtotals`.
 
+```
 ## **Lägga till ett fält i rad- eller kolumnregionen**
 
 Metoden `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` flyttar ett basfält från källdatan till en av de fyra pivotregionerna. Argumentet `fieldType` accepterar ett av följande `PivotFieldType`-värden.
@@ -555,4 +558,5 @@ De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda sk
 - [Page Fields in Pivot Tables](/cells/sv/python-java/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Python via Java](/cells/sv/python-java/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/sv/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

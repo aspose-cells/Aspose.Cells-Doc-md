@@ -17,4 +17,5 @@ url: /ar/nodejs-cpp/pivot-table-hide-and-sort-data/
 [ملف المصدر](96928093.xlsx)
 
 [ملف الناتج](96928094.xlsx)
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

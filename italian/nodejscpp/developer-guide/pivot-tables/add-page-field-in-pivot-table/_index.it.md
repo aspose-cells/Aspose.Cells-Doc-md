@@ -310,6 +310,4 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità, così p
 Ricorda sempre il vincolo di visibilità quando configuri il filtraggio a selezione multipla. Se ogni `PivotItem` in un campo filtro a selezione multipla è nascosto, Excel si blocca all'apertura oppure renderizza una pivot vuota. Costruisci la tua whitelist sui tuoi dati di origine in modo che almeno un elemento rimanga visibile, e le tue cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="javascript" >}}

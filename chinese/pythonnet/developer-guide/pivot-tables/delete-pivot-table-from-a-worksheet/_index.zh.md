@@ -18,4 +18,5 @@ Aspose.Cells for Python via .NET 提供了从工作表中删除数据透视表�
 以下示例代码从工作表中删除了两个数据透视表。首先使用[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/)方法移除数据透视表，然后使用[**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)方法移除数据透视表。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}
+
 {{< app/cells/assistant language="python-net" >}}

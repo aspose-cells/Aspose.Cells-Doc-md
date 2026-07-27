@@ -195,9 +195,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 معًا، تغطي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقول القيم في Aspose.Cells for .NET، من حقل بيانات واحد بالـ `Sum` الافتراضي إلى جدول محوري متعدد المقاييس يتحكم فيه `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
-## Related Articles
-- [Pivot Table Row and Column Fields in Aspose.Cells for .NET](/cells/ar/net/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/ar/net/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/ar/net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/ar/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

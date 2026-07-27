@@ -258,4 +258,5 @@ Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma e
 - [Campos de página en tablas dinámicas](/cells/es/net/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for .NET](/cells/es/net/refresh-pivot-table/)
 - [Aplicar estilos a las tablas dinámicas](/cells/es/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

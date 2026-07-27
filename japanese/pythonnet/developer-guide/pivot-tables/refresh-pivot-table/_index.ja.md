@@ -404,4 +404,6 @@ workbook.save("output.xlsx")
 | 1 つのキャッシュのソースデータが変更された | `pivot_table.pivot_cache.refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | 表示やレイアウトの設定のみが変更された | `pivot_table.calculate_data()` | 不要なソースへのラウンドトリップを回避します。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivot_cache.get_pivot_tables()` | 一括更新の前に列挙するために使用します。 |
-実際には、非推奨のテーブルごとの `refresh_data()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。{{< app/cells/assistant language="python" >}}
+実際には、非推奨のテーブルごとの `refresh_data()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。
+
+{{< app/cells/assistant language="python" >}}

@@ -195,9 +195,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 Birlikte ele alındığında, bu üç senaryo Aspose.Cells for .NET'te değer alanı manipülasyonunun tüm yönlerini kapsar; varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çok ölçümlü bir özet tabloya kadar.
-## İlgili Makaleler
-- [Aspose.Cells for .NET'te Özet Tablo Satır ve Sütun Alanları](/cells/tr/net/row-and-column-fields/)
-- [Özet Tablolardaki Sayfa Alanları](/cells/tr/net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for .NET'te Özet Tabloları Yenileme](/cells/tr/net/refresh-pivot-table/)
-- [Özet Tablolarına Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

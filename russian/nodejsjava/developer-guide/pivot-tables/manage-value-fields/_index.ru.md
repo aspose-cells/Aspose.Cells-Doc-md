@@ -104,11 +104,4 @@ workbook.save("output_drag.xlsx");
 
 Все три сценария в совокупности охватывают все аспекты работы с полями значений в Aspose.Cells for Node.js via Java — от единственного поля данных с функцией `SUM` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением по оси строк или столбцов.
 
-## Связанные статьи
-
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

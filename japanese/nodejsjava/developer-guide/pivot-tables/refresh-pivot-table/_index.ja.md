@@ -397,4 +397,6 @@ workbook.save("output.xlsx");
 | 1 つのキャッシュのソースデータが変更された | `pivotTable.PivotCache.Refresh()` | 共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | 表示やレイアウトの設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースへのラウンドトリップを回避します。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
-実際には、非推奨のテーブル単位の `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、不要なソースフェッチを避け、更新要件を満たす最小のスコープを選択できるようにしてくれます。{{< app/cells/assistant language="javascript" >}}
+実際には、非推奨のテーブル単位の `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、不要なソースフェッチを避け、更新要件を満たす最小のスコープを選択できるようにしてくれます。
+
+{{< app/cells/assistant language="javascript" >}}

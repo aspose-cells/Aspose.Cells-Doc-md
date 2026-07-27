@@ -186,11 +186,4 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-## Related Articles
-
-- [Pivot Table Row and Column Fields in Aspose.Cells for Java](/cells/java/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/java/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Java](/cells/java/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="java" >}}

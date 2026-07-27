@@ -253,6 +253,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **まとめ**
 
 上記の3つのシナリオは、同じデータセットとピボットテーブル構造を共有しています。シナリオ間の唯一の違いは、外側の `Category` 行フィールドに適用される `setSubtotals` 呼び出しです。2つのフィールドのルールを覚えておいてください。領域に単一のフィールドがある場合、その間に小計を行う対象がないため、`setSubtotals` が視覚的な効果を持つようにする必要があるときは、常に行領域または列領域に少なくとも2つのフィールドを配置してください。
@@ -262,4 +263,5 @@ jpype.shutdownJVM()
 - [ピボットテーブルのページフィールド](/cells/ja/python-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via Java でのピボットテーブルの更新](/cells/ja/python-java/refresh-pivot-table/)
 - [ピボットテーブルへのスタイルの適用](/cells/ja/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

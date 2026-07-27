@@ -247,4 +247,5 @@ workbook.save("output_custom.xlsx")
 - [Поля страниц в сводных таблицах](/cells/ru/python-net/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Python via .NET](/cells/ru/python-net/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

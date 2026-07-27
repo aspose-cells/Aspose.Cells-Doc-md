@@ -49,4 +49,5 @@ keywords: إضافة فلتر في جدول الدوران دون مكتب 2013 
 
 ### **الكود المثالي**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Clear-filter-in-PivotTable.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

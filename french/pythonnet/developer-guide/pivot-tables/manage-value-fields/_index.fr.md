@@ -177,9 +177,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 Ensemble, ces trois scénarios couvrent chaque aspect de la manipulation des champs de valeur dans Aspose.Cells for Python via .NET, d'un seul champ de données avec le `Sum` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
-## Articles connexes
-- [Champs Ligne et Colonne d'un tableau croisé dynamique dans Aspose.Cells for Python via .NET](/cells/fr/python-net/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/python-net/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Python via .NET](/cells/fr/python-net/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

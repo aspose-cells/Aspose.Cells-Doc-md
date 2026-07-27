@@ -454,4 +454,6 @@ La tabella seguente riassume le API di aggiornamento disponibili e quando scegli
 | Solo le impostazioni di vista/layout sono cambiate | `pivotTable.CalculateData()` | Evita l'inutile round-trip all'origine. |
 | Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.GetPivotTables()` | Utilizzare per enumerare prima dell'aggiornamento in blocco. |
 
-In pratica, preferire le API basate sulla cache rispetto all'obsoleto `RefreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il requisito di aggiornamento.{{< app/cells/assistant language="javascript" >}}
+In pratica, preferire le API basate sulla cache rispetto all'obsoleto `RefreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il requisito di aggiornamento.
+
+{{< app/cells/assistant language="javascript" >}}

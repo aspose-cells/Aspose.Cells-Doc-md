@@ -182,9 +182,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 معًا، تغطي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقل القيم في Aspose.Cells for Node.js via C++، بدءًا من حقل بيانات واحد بالقيمة الافتراضية `Sum` وصولاً إلى جدول محوري متعدد المقاييس يتحكم فيه حقل `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
-## مقالات ذات صلة
-- [Pivot Table Row and Column Fields in Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/ar/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

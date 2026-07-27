@@ -84,4 +84,5 @@ Microsoft Excel 2013仅支持去重计数合并功能。
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ConsolidationFunctions-ConsolidationFunctions.java" >}}
+
 {{< app/cells/assistant language="java" >}}

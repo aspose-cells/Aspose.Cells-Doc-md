@@ -201,11 +201,4 @@ workbook.save("output_plot.xlsx");
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Node.js via C++, da un singolo campo dati con il valore predefinito `Sum` a una pivot multi-misura in cui il `ValuesField` virtuale controlla il layout sull'asse Riga o Colonna.
 
-## Articoli correlati
-
-- [Campi Riga e Colonna della tabella pivot in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/row-and-column-fields/)
-- [Campi pagina nelle tabelle pivot](/cells/it/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Aggiornamento delle tabelle pivot in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/refresh-pivot-table/)
-- [Applicazione di stili alle tabelle pivot](/cells/it/nodejs-cpp/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

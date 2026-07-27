@@ -274,4 +274,5 @@ int main() {
 - [Поля страниц в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

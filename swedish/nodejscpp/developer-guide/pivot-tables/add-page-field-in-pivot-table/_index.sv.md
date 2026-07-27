@@ -310,6 +310,4 @@ Tabellen nedan sammanfattar när du ska använda varje API och läge så att du 
 Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervals-filterfält är dolt, kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker kommer att öppnas tillförlitligt på varje maskin.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="javascript" >}}

@@ -215,11 +215,4 @@ workbook.Save("output_plot.xlsx");
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for .NET, da un singolo campo dati con il valore predefinito `Sum` fino a una tabella pivot con più misure in cui il virtuale `ValuesField` controlla il layout sull'asse Riga o Colonna.
 
-## Articoli Correlati
-
-- [Campi Riga e Colonna delle Tabelle Pivot in Aspose.Cells for .NET](/cells/it/net/row-and-column-fields/)
-- [Campi Pagina nelle Tabelle Pivot](/cells/it/net/add-page-field-in-pivot-table/)
-- [Aggiornamento delle Tabelle Pivot in Aspose.Cells for .NET](/cells/it/net/refresh-pivot-table/)
-- [Applicazione degli Stili alle Tabelle Pivot](/cells/it/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

@@ -201,11 +201,4 @@ workbook.save("output_plot.xlsx");
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valores en Aspose.Cells for Java, desde un único campo de datos con el `SUM` predeterminado hasta una tabla dinámica con varias medidas en la que el `ValuesField` virtual controla el diseño en el eje de filas o columnas.
 
-## Artículos relacionados
-
-- [Campos de fila y columna de tablas dinámicas en Aspose.Cells for Java](/cells/es/java/row-and-column-fields/)
-- [Campos de página en tablas dinámicas](/cells/es/java/add-page-field-in-pivot-table/)
-- [Actualización de tablas dinámicas en Aspose.Cells for Java](/cells/es/java/refresh-pivot-table/)
-- [Aplicación de estilos a tablas dinámicas](/cells/es/java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="java" >}}

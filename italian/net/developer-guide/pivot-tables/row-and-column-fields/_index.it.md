@@ -258,4 +258,5 @@ I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di 
 - [Campi Pagina nelle Tabelle Pivot](/cells/it/net/add-page-field-in-pivot-table/)
 - [Aggiornamento delle Tabelle Pivot in Aspose.Cells for .NET](/cells/it/net/refresh-pivot-table/)
 - [Applicazione degli Stili alle Tabelle Pivot](/cells/it/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

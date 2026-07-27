@@ -26,4 +26,5 @@ Aspose.Cells for Node.js via C++提供[**PivotTable.getCellByDisplayName(string)
 |**透视表 - 在之后**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

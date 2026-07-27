@@ -195,9 +195,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 Zusammengenommen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for .NET ab, von einem einzelnen Datenfeld mit der Standardeinstellung `Sum` bis zu einer PivotTable mit mehreren Measures, in der das virtuelle Feld `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
-## Verwandte Artikel
-- [Pivot Table Row and Column Fields in Aspose.Cells for .NET](/cells/de/net/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/de/net/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/de/net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/de/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

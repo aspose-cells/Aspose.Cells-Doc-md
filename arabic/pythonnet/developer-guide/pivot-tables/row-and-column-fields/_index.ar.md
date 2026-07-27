@@ -247,4 +247,5 @@ workbook.save("output_custom.xlsx")
 - [حقول الصفحات في الجداول المحورية](/cells/ar/python-net/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Python via .NET](/cells/ar/python-net/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

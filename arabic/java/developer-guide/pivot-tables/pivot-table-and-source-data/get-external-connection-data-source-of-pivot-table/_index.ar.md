@@ -16,4 +16,5 @@ Aspose.Cells توفر القدرة على الحصول على مصدر بيان�
 الملف المصدر المستخدم في مقتطف الشفرة مرفق للرجوع إليه.
 
 [ملف المصدر](SamplePivotTableExternalConnection.xlsx)
+
 {{< app/cells/assistant language="java" >}}

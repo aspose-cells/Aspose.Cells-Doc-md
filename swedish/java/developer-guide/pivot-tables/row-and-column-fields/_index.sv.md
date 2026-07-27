@@ -252,4 +252,5 @@ De tre scenarierna ovan delar samma datamängd och pivottabellstruktur. Den enda
 - [Sidfält i pivottabeller](/cells/sv/java/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Java](/cells/sv/java/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -177,9 +177,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 これら 3 つのシナリオを合わせると、Aspose.Cells for Python via .NET での値フィールド操作のすべての側面をカバーします。デフォルトの `Sum` を持つ単一データフィールドから、仮想 `ValuesField` が Row または Column 軸のレイアウトを制御する複数メジャーのピボットまでを対象とします。
-## 関連記事
-- [Aspose.Cells for Python via .NET のピボットテーブルの行と列フィールド](/cells/ja/python-net/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/python-net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Python via .NET のピボットテーブルの更新](/cells/ja/python-net/refresh-pivot-table/)
-- [ピボットテーブルへのスタイルの適用](/cells/ja/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

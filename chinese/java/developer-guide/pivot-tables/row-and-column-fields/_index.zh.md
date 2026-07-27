@@ -252,4 +252,5 @@ workbook.save("output_custom.xlsx");
 - [数据透视表中的页面字段](/cells/zh/java/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Java 中刷新数据透视表](/cells/zh/java/refresh-pivot-table/)
 - [向数据透视表应用样式](/cells/zh/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

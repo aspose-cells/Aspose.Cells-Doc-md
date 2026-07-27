@@ -273,4 +273,5 @@ Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma e
 - [Campos de Página en Tablas Dinámicas](/cells/es/python-net/add-page-field-in-pivot-table/)
 - [Actualizar Tablas Dinámicas en Aspose.Cells for Python via .NET](/cells/es/python-net/refresh-pivot-table/)
 - [Aplicar Estilos a Tablas Dinámicas](/cells/es/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

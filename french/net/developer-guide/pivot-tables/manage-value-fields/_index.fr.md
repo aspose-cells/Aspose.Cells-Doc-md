@@ -194,9 +194,5 @@ pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
-## Articles connexes
-- [Champs de lignes et de colonnes du tableau croisé dynamique dans Aspose.Cells for .NET](/cells/fr/net/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/net/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

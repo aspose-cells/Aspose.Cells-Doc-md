@@ -246,4 +246,5 @@ Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma e
 - [Campos de página en tablas dinámicas](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
 - [Actualización de tablas dinámicas en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/refresh-pivot-table/)
 - [Aplicación de estilos a tablas dinámicas](/cells/es/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

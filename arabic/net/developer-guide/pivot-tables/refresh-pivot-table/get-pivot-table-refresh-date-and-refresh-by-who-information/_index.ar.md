@@ -18,4 +18,5 @@ Aspose.Cells الآن تدعم الحصول على تاريخ التحديث و�
 **كود عينة**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetPivotTableRefreshDate-1.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

@@ -252,4 +252,5 @@ I tre scenari precedenti condividono lo stesso dataset e la stessa struttura del
 - [Campi pagina nelle tabelle pivot](/cells/it/java/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for Java](/cells/it/java/refresh-pivot-table/)
 - [Applicazione di stili alle tabelle pivot](/cells/it/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

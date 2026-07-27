@@ -329,10 +329,4 @@ In practice, prefer the cache-based APIs over the obsolete per-table `RefreshDat
 - **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.Refresh()` is unnecessary and slow. Call `pivotTable.CalculateData()` to re-render from the existing cache.
 - **External source not supported by `PivotCache.Refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.Refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
-## Related Articles
-
-- [Add Pivot Table Row and Column Fields in Aspose.Cells for .NET](/cells/net/pivot-table-add-row-column-fields/)
-- [Filter Fields in Pivot Tables](/cells/net/add-filter-field-in-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for .NET](/cells/net/pivot-table-manage-value-fields/)
-- [Applying Styles to Pivot Tables](/cells/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

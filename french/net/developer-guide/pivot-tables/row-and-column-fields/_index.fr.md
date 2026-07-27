@@ -258,4 +258,5 @@ Les trois scénarios ci-dessus partagent le même jeu de données et la même st
 - [Champs de page dans les tableaux croisés dynamiques](/cells/fr/net/add-page-field-in-pivot-table/)
 - [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)
 - [Application de styles aux tableaux croisés dynamiques](/cells/fr/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

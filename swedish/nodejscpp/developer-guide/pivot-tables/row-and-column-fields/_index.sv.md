@@ -234,6 +234,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `SetSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i ett område har inget att subtotalera mellan, så placera alltid minst två fält i rad- eller kolumnområdet när du vill att `SetSubtotals` ska ha en synlig effekt.
@@ -243,4 +244,5 @@ De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda sk
 - [Sidfält i pivottabeller](/cells/sv/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

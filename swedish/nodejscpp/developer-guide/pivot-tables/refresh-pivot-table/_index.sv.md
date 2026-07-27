@@ -456,4 +456,6 @@ Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du s
 | Endast vy-/layoutinställningar har ändrats | `pivotTable.CalculateData()` | Hoppar över onödig källhämtning. |
 | Lista alla pivottabeller på en delad cache | `pivotCache.GetPivotTables()` | Använd för att räkna upp innan bulkuppdatering. |
 
-I praktiken, föredra de cachebaserade API:erna framför den föråldrade tabell-för-tabell-metoden `RefreshData()`. De är medvetna om delade cachar, de undviker redundanta källhämtningar, och de låter dig välja den minsta omfattningen som uppfyller ditt uppdateringskrav.{{< app/cells/assistant language="javascript" >}}
+I praktiken, föredra de cachebaserade API:erna framför den föråldrade tabell-för-tabell-metoden `RefreshData()`. De är medvetna om delade cachar, de undviker redundanta källhämtningar, och de låter dig välja den minsta omfattningen som uppfyller ditt uppdateringskrav.
+
+{{< app/cells/assistant language="javascript" >}}

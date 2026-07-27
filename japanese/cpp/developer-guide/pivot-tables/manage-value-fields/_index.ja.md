@@ -154,9 +154,5 @@ int main() {
 }
 ```
 これら 3 つのシナリオを合わせると、Aspose.Cells for C++ における値フィールド操作のあらゆる側面をカバーします。既定の `Sum` を使用した単一のデータフィールドから、仮想 `ValuesField` が行軸や列軸のレイアウトを制御する複数メジャーのピボットまでを網羅しています。
-## 関連記事
-- [Aspose.Cells for C++ におけるピボットテーブルの行と列のフィールド](/cells/ja/cpp/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for C++ でピボットテーブルを更新する](/cells/ja/cpp/refresh-pivot-table/)
-- [ピボットテーブルにスタイルを適用する](/cells/ja/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

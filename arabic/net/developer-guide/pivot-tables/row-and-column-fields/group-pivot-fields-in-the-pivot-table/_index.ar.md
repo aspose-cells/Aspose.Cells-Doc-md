@@ -18,4 +18,5 @@ url: /ar/net/group-pivot-fields-in-the-pivot-table/
 ## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

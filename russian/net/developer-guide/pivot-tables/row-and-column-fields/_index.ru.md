@@ -258,4 +258,5 @@ workbook.Save("output_custom.xlsx");
 - [Поля страниц в сводных таблицах](/cells/ru/net/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for .NET](/cells/ru/net/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

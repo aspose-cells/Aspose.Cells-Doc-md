@@ -190,11 +190,4 @@ workbook.save("output_plot.xlsx")
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Python via .NET, from a single data field with the default `Sum` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
-## Related Articles
-
-- [Pivot Table Row and Column Fields in Aspose.Cells for Python via .NET](/cells/python-net/row-and-column-fields/)
-- [Page Fields in Pivot Tables](/cells/python-net/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/python-net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/python-net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

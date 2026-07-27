@@ -16,13 +16,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `getFunction()` プロパティは `ConsolidationFunction` 列挙型の値を返します。同じ `setFunction(...)` セッターを使用すると、`SUM`、`COUNT`、`AVERAGE`、`MAX`、`MIN`、`PRODUCT`、`STD_DEV`、`STD_DEVP`、`VAR`、`VARP` などの利用可能な集計関数を切り替えることができます。
 {{% alert color="primary" %}}
 `Function` の変更は集計にのみ影響し、ソース列は変更されません。
-{{% alert %}}
+{{% /alert %}}
 そのため、1 つのデータフィールドを `SUM` のままにして、同じソース列を対象とするが `COUNT` または `AVERAGE` を使用する 2 番目のデータフィールドを追加することも、すべて単一のピボット内で行うことができます。
 ## 値フィールドの Row または Column 軸へのプロット
 ピボットテーブルに 2 つ以上のデータフィールドが含まれる場合、Aspose.Cells は `PivotTable.getValuesField()` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。これをベースピボットフィールドとして Row または Column 領域にドラッグすることができ、複数のメジャーを並べてレイアウトする場合に便利です。
 {{% alert color="primary" %}}
 値フィールドが存在しないか 1 つしかない場合、`PivotTable.getValuesField()` は機能しません。
-{{% alert %}}
+{{% /alert %}}
 以下のシナリオでは、上記で説明した各機能を同じピボット構造に対して実証する 3 つのエンドツーエンドの例を紹介します。
 ## シナリオ 1 — 値領域へのベースフィールドのドラッグ
 このシナリオでは、単一のベースフィールド(`Amount`)を既存のピボットテーブルのデータ領域に配置する方法を示します。共有されるピボット構造は、`Category` と `Item` を Row 軸に、`Year` を Column 軸に配置します。操作後、`Amount` はデータ領域に表示され、デフォルトで `Amount` の `Sum` として計算されます。
@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 これら 3 つのシナリオを合わせることで、デフォルトの `SUM` を持つ単一のデータフィールドから、仮想 `ValuesField` が Row または Column 軸のレイアウトを制御するマルチメジャーピボットまで、Aspose.Cells for Java における値フィールド操作のあらゆる側面を網羅しています。
-## 関連記事
-- [Aspose.Cells for Java のピボットテーブル Row および Column フィールド](/cells/ja/java/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Java でピボットテーブルを更新する](/cells/ja/java/refresh-pivot-table/)
-- [ピボットテーブルへのスタイルの適用](/cells/ja/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

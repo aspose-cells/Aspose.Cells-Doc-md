@@ -494,4 +494,6 @@ Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du s
 | Endast vy-/layoutinställningar har ändrats | `pivotTable.calculateData()` | Hoppar över onödig källturstur. |
 | Lista alla pivottabeller på en delad cache | `pivotCache.getPivotTables()` | Använd för att räkna upp före bulkuppdatering. |
 
-I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade per tabell `refreshData()`. De är medvetna om delade cacher, undviker redundanta källhämtningar och låter dig välja det minsta omfånget som uppfyller ditt uppdateringskrav.{{< app/cells/assistant language="python" >}}
+I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade per tabell `refreshData()`. De är medvetna om delade cacher, undviker redundanta källhämtningar och låter dig välja det minsta omfånget som uppfyller ditt uppdateringskrav.
+
+{{< app/cells/assistant language="python" >}}

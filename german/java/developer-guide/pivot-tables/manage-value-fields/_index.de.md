@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Zusammengenommen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Java ab, von einem einzelnen Datenfeld mit der Standardfunktion `SUM` bis hin zu einer Multi-Measure-PivotTable, in der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
-## Verwandte Artikel
-- [Zeilen- und Spaltenfelder in Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/row-and-column-fields/)
-- [Seitenfelder in Pivot-Tabellen](/cells/de/java/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

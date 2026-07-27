@@ -414,9 +414,5 @@ int main() {
 | تغيرت إعدادات العرض/التخطيط فقط | `pivotTable.CalculateData()` | تتجنب رحلة المصدر غير الضرورية. |
 | سرد جميع الجداول المحورية على ذاكرة مؤقتة مشتركة | `pivotCache.GetPivotTables()` | استخدمها للتعداد قبل التحديث بالجملة. |
 عمليًا، يُفضل استخدام واجهات برمجة التطبيقات القائمة على الذاكرة المؤقتة على `RefreshData()` المهجور لكل جدول. إنها مطلعة على الذواكر المؤقتة المشتركة، وتتجنب جلب المصدر الزائد، وتتيح لك اختيار أصغر نطاق يلبي متطلب التحديث لديك.
-## مقالات ذات صلة
-- [إدراج صورة في خلية](/cells/ar/cpp/inserting-an-image-into-a-cell/)
-- [قراءة وكتابة ملفات DBF](/cells/ar/cpp/dbf/)
-- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/cpp/splitting-excel-files-into-multiple-files/)
-- [خطوط المؤشرات في Aspose.Cells for C++](/cells/ar/cpp/sparkline/)
+
 {{< app/cells/assistant language="cpp" >}}

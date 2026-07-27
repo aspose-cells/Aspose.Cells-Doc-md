@@ -26,4 +26,5 @@ keywords: Aspose.Cells لـ Python، مكتبة Python الخاصة بالإكس
 |**جدول مفصلي - بعد**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+
 {{< app/cells/assistant language="python-net" >}}

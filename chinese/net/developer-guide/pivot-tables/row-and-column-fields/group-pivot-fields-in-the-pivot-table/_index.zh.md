@@ -18,4 +18,5 @@ Microsoft Excel允许您对透视表的透视字段进行分组。当与透视�
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

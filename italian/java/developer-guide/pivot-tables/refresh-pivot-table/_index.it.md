@@ -445,4 +445,6 @@ La tabella seguente riassume le API di aggiornamento disponibili e quando scegli
 | Sono cambiate solo le impostazioni di vista/layout | `pivotTable.calculateData()` | Evita il round-trip non necessario verso l'origine. |
 | Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.getPivotTables()` | Utilizzare per enumerare prima dell'aggiornamento in blocco. |
 
-In pratica, preferire le API basate sulla cache rispetto al metodo obsoleto `refreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il requisito di aggiornamento.{{< app/cells/assistant language="java" >}}
+In pratica, preferire le API basate sulla cache rispetto al metodo obsoleto `refreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il requisito di aggiornamento.
+
+{{< app/cells/assistant language="java" >}}

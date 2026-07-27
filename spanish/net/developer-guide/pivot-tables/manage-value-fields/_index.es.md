@@ -215,11 +215,4 @@ workbook.Save("output_plot.xlsx");
 
 En conjunto, estos tres escenarios abarcan todos los aspectos de la manipulación de campos de valor en Aspose.Cells for .NET, desde un único campo de datos con la `Sum` por defecto hasta una tabla dinámica con varias medidas en la que el `ValuesField` virtual controla el diseño en el eje de fila o columna.
 
-## Artículos relacionados
-
-- [Campos de fila y columna de tabla dinámica en Aspose.Cells for .NET](/cells/es/net/row-and-column-fields/)
-- [Campos de página en tablas dinámicas](/cells/es/net/add-page-field-in-pivot-table/)
-- [Actualizar tablas dinámicas en Aspose.Cells for .NET](/cells/es/net/refresh-pivot-table/)
-- [Aplicar estilos a tablas dinámicas](/cells/es/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

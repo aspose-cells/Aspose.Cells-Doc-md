@@ -202,11 +202,4 @@ workbook.save("output_plot.xlsx");
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Node.js via C++, desde un único campo de datos con el `Sum` por defecto hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla el diseño en el eje de fila o columna.
 
-## Artículos relacionados
-
-- [Campos de fila y columna de la tabla dinámica en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/row-and-column-fields/)
-- [Campos de página en tablas dinámicas](/cells/es/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Actualización de tablas dinámicas en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/refresh-pivot-table/)
-- [Aplicar estilos a tablas dinámicas](/cells/es/nodejs-cpp/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

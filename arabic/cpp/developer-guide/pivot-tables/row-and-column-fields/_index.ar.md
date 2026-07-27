@@ -274,4 +274,5 @@ int main() {
 - [حقول الصفحات في الجداول المحورية](/cells/ar/cpp/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -243,4 +243,5 @@ workbook.save("output_custom.xlsx");
 - [Page Fields in Pivot Tables](/cells/nodejs-java/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Node.js via Java](/cells/nodejs-java/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

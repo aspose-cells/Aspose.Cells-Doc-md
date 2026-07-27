@@ -492,4 +492,6 @@ jpype.shutdownJVM()
 | 仅视图/布局设置已更改 | `pivotTable.calculateData()` | 跳过不必要的源数据往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.getPivotTables()` | 用于在批量刷新前进行枚举。 |
 
-在实际应用中，建议优先使用基于缓存的 API，而不是已过时的按表调用 `refreshData()`。这些 API 感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小作用域。{{< app/cells/assistant language="python" >}}
+在实际应用中，建议优先使用基于缓存的 API，而不是已过时的按表调用 `refreshData()`。这些 API 感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小作用域。
+
+{{< app/cells/assistant language="python" >}}

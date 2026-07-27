@@ -21,4 +21,5 @@ url: /ar/net/format-pivot-table-cells/
 
 - [تنسيق جدول الجدول المحوري](/cells/ar/net/formatting-pivot-table/)
 - [العمل مع تنسيقات عرض البيانات لحقل البيانات في الجدول المحوري](/cells/ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

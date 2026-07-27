@@ -20,8 +20,7 @@ Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-inst
 
 {{% alert color="primary" %}}
 Att ändra `Function` påverkar bara aggregatet, källkolumnen ändras inte.
-{{% alert %}}
-
+{{% /alert %}}
 Du kan därför lämna ett datafält som `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
 
 ## Visa värdefält på rad- eller kolumnaxeln
@@ -30,8 +29,7 @@ När en pivottabell innehåller två eller flera datafält exponerar Aspose.Cell
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` fungerar inte om det inte finns något eller endast ett värdefält.
-{{% alert %}}
-
+{{% /alert %}}
 Scenarierna nedan går igenom tre heltäckande exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
 
 ## Scenario 1 — Dra ett basfält till värdeområdet
@@ -163,12 +161,5 @@ workbook.save("output_plot.xlsx")
 ```
 
 Tillsammans täcker dessa tre scenarion varje aspekt av värdefältsmanipulation i Aspose.Cells for Python via Java, från ett enskilt datafält med standardvärdet `Sum` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
-
-## Relaterade artiklar
-
-- [Pivottabellens rad- och kolumnfält i Aspose.Cells for Python via Java](/cells/sv/python-java/row-and-column-fields/)
-- [Sidfält i pivottabeller](/cells/sv/python-java/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Python via Java](/cells/sv/python-java/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

@@ -253,6 +253,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel à `setSubtotals` appliqué au champ de ligne externe `Category`. Rappelez-vous la règle des deux champs : un champ unique dans une zone n'a rien à sous-totaliser entre les groupes, donc placez toujours au moins deux champs dans la zone de ligne ou de colonne lorsque vous souhaitez que `setSubtotals` ait un effet visible.
@@ -262,4 +263,5 @@ Les trois scénarios ci-dessus partagent le même jeu de données et la même st
 - [Champs de page dans les tableaux croisés dynamiques](/cells/fr/python-java/add-page-field-in-pivot-table/)
 - [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Python via Java](/cells/fr/python-java/refresh-pivot-table/)
 - [Application de styles aux tableaux croisés dynamiques](/cells/fr/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

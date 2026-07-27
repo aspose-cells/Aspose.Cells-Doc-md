@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Bu üç senaryo bir arada, varsayılan `SUM` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir özet tabloya kadar Aspose.Cells for Java'da değer alanı manipülasyonunun her yönünü kapsar.
-## İlgili Makaleler
-- [Aspose.Cells for Java'da Özet Tablo Satır ve Sütun Alanları](/cells/tr/java/row-and-column-fields/)
-- [Özet Tablolarda Sayfa Alanları](/cells/tr/java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Java'da Özet Tabloları Yenileme](/cells/tr/java/refresh-pivot-table/)
-- [Özet Tablolarına Stil Uygulama](/cells/tr/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

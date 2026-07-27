@@ -144,9 +144,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 综上所述，这三个场景涵盖了 Aspose.Cells for Python via Java 中值字段操作的方方面面，从具有默认 `Sum` 的单个数据字段，到虚拟 `ValuesField` 控制行或列轴布局的多度量透视表。
-## 相关文章
-- [Aspose.Cells for Python via Java 中的数据透视表行和列字段](/cells/zh/python-java/row-and-column-fields/)
-- [数据透视表中的页面字段](/cells/zh/python-java/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Python via Java 中刷新数据透视表](/cells/zh/python-java/refresh-pivot-table/)
-- [将样式应用于数据透视表](/cells/zh/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

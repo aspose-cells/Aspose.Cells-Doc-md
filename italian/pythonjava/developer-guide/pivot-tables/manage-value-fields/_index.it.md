@@ -164,11 +164,4 @@ workbook.save("output_plot.xlsx")
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Python via Java, da un singolo campo dati con il `Sum` predefinito a una tabella pivot multi-misura in cui il `ValuesField` virtuale controlla il layout sull'asse Riga o Colonna.
 
-## Articoli Correlati
-
-- [Campi Riga e Colonna delle Tabelle Pivot in Aspose.Cells for Python via Java](/cells/it/python-java/row-and-column-fields/)
-- [Campi Pagina nelle Tabelle Pivot](/cells/it/python-java/add-page-field-in-pivot-table/)
-- [Aggiornamento delle Tabelle Pivot in Aspose.Cells for Python via Java](/cells/it/python-java/refresh-pivot-table/)
-- [Applicazione di Stili alle Tabelle Pivot](/cells/it/python-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

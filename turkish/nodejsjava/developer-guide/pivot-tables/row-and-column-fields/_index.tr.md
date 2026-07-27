@@ -235,6 +235,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın arasında alt toplanacak bir şey yoktur; bu nedenle `setSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde, satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
@@ -244,4 +245,5 @@ Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaş
 - [Pivot Tablolarda Sayfa Alanları](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Node.js via Java'da Pivot Tabloları Yenileme](/cells/tr/nodejs-java/refresh-pivot-table/)
 - [Pivot Tablolarına Stil Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -258,4 +258,5 @@ Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaş
 - [Pivot Tablolardaki Sayfa Alanları](/cells/tr/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET'te Pivot Tabloları Yenileme](/cells/tr/net/refresh-pivot-table/)
 - [Pivot Tablolara Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

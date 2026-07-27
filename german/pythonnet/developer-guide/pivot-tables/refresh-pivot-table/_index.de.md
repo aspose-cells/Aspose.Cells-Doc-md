@@ -408,4 +408,6 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Quelldaten für einen Cache geändert | `pivot_table.pivot_cache.refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem gemeinsam genutzten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivot_table.calculate_data()` | Überspringt unnötigen Quellrückgriff. |
 | Alle Pivot-Tabellen auf einem gemeinsam genutzten Cache auflisten | `pivot_cache.get_pivot_tables()` | Vor Massenaktualisierung zur Aufzählung verwenden. |
-In der Praxis sind die cache-basierten APIs dem veralteten `refresh_data()` pro Tabelle vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="python" >}}
+In der Praxis sind die cache-basierten APIs dem veralteten `refresh_data()` pro Tabelle vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
+
+{{< app/cells/assistant language="python" >}}

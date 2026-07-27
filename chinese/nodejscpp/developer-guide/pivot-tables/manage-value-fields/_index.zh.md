@@ -67,59 +67,7 @@ Alert: "`PivotTable.getValuesField()` does not work if there is no or only one v
 → "共享的数据透视表结构将 `Category` 和 `Item` 放在行轴上,将 `Year` 放在列轴上。"
 
 "After the operation, `Amount` appears in the data region and is computed as the `Sum` of `Amount` by default."
-→ "操作完成后,`Amount` 会出现在数据区域中,并默认按 `Sum` 对 `Amount` 进行计算。"
-
-## Related Articles
-→ ## 相关文章
-
-Links:
-- "Pivot Table Row and Column Fields in Aspose.Cells for Node.js via C++" → "Aspose.Cells for Node.js via C++ 中数据透视表的行字段和列字段"
-- "Page Fields in Pivot Tables" → "数据透视表中的页面字段"
-- "Refreshing Pivot Tables in Aspose.Cells for Node.js via C++" → "在 Aspose.Cells for Node.js via C++ 中刷新数据透视表"
-- "Applying Styles to Pivot Tables" → "为数据透视表应用样式"
-
-1. ✓ Product names kept as-is (Aspose.Cells for Node.js via C++ appears once per phrase)
-2. ✓ No doubling
-3. ✓ API names in English (Workbook, PivotFieldType, etc.)
-4. ✓ Code block placeholders (3 of them: 0, 1, 2) preserved exactly
-5. ✓ YAML frontmatter structure preserved with keys in English
-6. ✓ No dual-language paragraphs
-7. ✓ Hugo shortcodes preserved
-8. ✓ URLs preserved
-9. ✓ Only translated document output, no commentary
-
-"学习如何向 Aspose.Cells for Node.js via C++ 数据透视表的数据区域添加基础字段,通过 PivotField.Function 更改汇总函数,并将值字段绘制到行轴或列轴。"
-No colon. ✓
-
-Original: "Learn how to add base fields to the data region of a pivot table, change the summary function with PivotField.Function, and plot the value field onto the Row or Column axis in Aspose.Cells for Node.js via C++."
-
-Counts: one occurrence of "Aspose.Cells for Node.js via C++". ✓
-
-Also, regarding "bare LLM thinking patterns" - I should not include any meta-text or thinking.
-
-keywords: Aspose.Cells, Node.js via C++, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
-
-I should keep technical/API terms in English:
-keywords: Aspose.Cells, Node.js via C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
-
-One concern: in the body, "Aspose.Cells" appears many times. Each instance is just "Aspose.Cells" (the bare product name), so it's fine. I just need to make sure I don't accidentally insert "Aspose.Cells for Node.js via C++" twice in a row, which would create the doubling pattern.
-
-- "在 Aspose.Cells for Node.js via C++ 中" - appears multiple times but each is separate phrase
-- "Aspose.Cells 公开了" - just "Aspose.Cells"
-
-I should be careful about phrases like:
-- "Aspose.Cells for Node.js via C++ 中数据透视表的" - single occurrence ✓
-- "Aspose.Cells for Node.js via C++ 中的值字段" - in title, single occurrence ✓
-
-Actually I want to reconsider the title. The original title is:
-"Value Fields in Aspose.Cells for Node.js via C++"
-
-This translates naturally to:
-"Aspose.Cells for Node.js via C++ 中的值字段"
-
-值字段是每个数据透视表的核心,是用于汇总源数据的数值聚合。在 Aspose.Cells for Node.js via C++ 中,数据透视表的数据区域通过 `PivotTable.addFieldToArea` 添加基础字段进行填充,放置在该区域中的每个字段都可以拥有自己的汇总函数。当存在两个或更多数据字段时,Aspose.Cells 公开了一个特殊的聚合字段 `PivotTable.getValuesField`,它可以作为基础字段绘制到行轴或列轴上,从而让您更精细地控制值字段在布局中的呈现方式。
-
-## 向数据区域添加字段
+→ "操作完成后,`Amount` 会出现在数据区域中,并默认按 `Sum` 对 `Amount` 进行计算。"## 向数据区域添加字段
 
 向数据(值)区域添加基础字段是塑造数据透视表如何聚合源数据的第一步。Aspose.Cells 公开了 `PivotTable.addFieldToArea(PivotFieldType, string)`,这是一个重载方法,接受常量 `PivotFieldType.Data` 和源列名称。一旦字段被添加到数据区域,API 会通过 `PivotTable.getDataFields()` 集合暴露它,顺序与字段添加的顺序一致。默认情况下,数值型源列使用 `ConsolidationFunction.Sum` 进行汇总,而非数值型列默认使用 `Count`。
 
@@ -311,10 +259,4 @@ workbook.save("output_plot.xlsx");
 
 这三个场景涵盖了 Aspose.Cells for Node.js via C++ 中值字段操作的方方面面,从具有默认 `Sum` 的单个数据字段,到由虚拟 `ValuesField` 控制行轴或列轴布局的多度量数据透视表。
 
-## 相关文章
-
-- [Aspose.Cells for Node.js via C++ 中数据透视表的行字段与列字段](/cells/zh/nodejs-cpp/row-and-column-fields/)
-- [数据透视表中的页面字段](/cells/zh/nodejs-cpp/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Node.js via C++ 中刷新数据透视表](/cells/zh/nodejs-cpp/refresh-pivot-table/)
-- [为数据透视表应用样式](/cells/zh/nodejs-cpp/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="javascript" >}}

@@ -178,10 +178,4 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 
-## Related Articles
-
-- [Add Pivot Table Row and Column Fields in Aspose.Cells for .NET](/cells/net/pivot-table-add-row-column-fields/)
-- [Filter Fields in Pivot Tables](/cells/net/add-filter-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

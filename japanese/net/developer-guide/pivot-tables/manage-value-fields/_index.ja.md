@@ -195,9 +195,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 これら 3 つのシナリオをまとめると、Aspose.Cells for .NET における値フィールド操作のあらゆる側面を網羅しています。デフォルトの `Sum` を用いた単一のデータフィールドから、仮想 `ValuesField` が行軸または列軸のレイアウトを制御する複数メジャーのピボットまでを取り扱います。
-## 関連記事
-- [Aspose.Cells for .NET のピボットテーブル行フィールドと列フィールド](/cells/ja/net/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for .NET でピボットテーブルを更新する](/cells/ja/net/refresh-pivot-table/)
-- [ピボットテーブルにスタイルを適用する](/cells/ja/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

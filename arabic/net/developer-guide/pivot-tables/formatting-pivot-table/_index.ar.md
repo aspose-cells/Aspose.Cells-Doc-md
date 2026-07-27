@@ -63,4 +63,5 @@ url: /ar/net/formatting-pivot-table/
 يظهر الكود العيني أدناه كيفية مسح جميع حقول الجدول المفصلي في مجال البيانات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

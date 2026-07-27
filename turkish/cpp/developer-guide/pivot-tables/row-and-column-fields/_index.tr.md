@@ -274,4 +274,5 @@ Yukarıdaki üç senaryo aynı veri kümesini ve özet tablo yapısını paylaş
 - [Özet Tablolardaki Sayfa Alanları](/cells/tr/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++'da Özet Tabloları Yenileme](/cells/tr/cpp/refresh-pivot-table/)
 - [Özet Tablolarına Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

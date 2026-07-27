@@ -177,9 +177,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 Zusammen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Python via .NET ab, von einem einzelnen Datenfeld mit der Standardeinstellung `Sum` bis hin zu einer PivotTable mit mehreren Measures, bei der das virtuelle Feld `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
-## Verwandte Artikel
-- [Zeilen- und Spaltenfelder von PivotTables in Aspose.Cells for Python via .NET](/cells/de/python-net/row-and-column-fields/)
-- [Seitenfelder in PivotTables](/cells/de/python-net/add-page-field-in-pivot-table/)
-- [Aktualisieren von PivotTables in Aspose.Cells for Python via .NET](/cells/de/python-net/refresh-pivot-table/)
-- [Anwenden von Stilen auf PivotTables](/cells/de/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

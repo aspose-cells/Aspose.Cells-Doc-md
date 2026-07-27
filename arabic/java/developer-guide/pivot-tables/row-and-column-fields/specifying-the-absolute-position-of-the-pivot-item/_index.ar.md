@@ -22,4 +22,5 @@ url: /ar/java/specifying-the-absolute-position-of-the-pivot-item/
 يقوم الكود العينة التالي بإنشاء جدول إحصائيات محوري ومن ثم يُحدد مواقع عناصر الجدول المحوري في نفس العقدة الأم.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.java" >}}
+
 {{< app/cells/assistant language="java" >}}

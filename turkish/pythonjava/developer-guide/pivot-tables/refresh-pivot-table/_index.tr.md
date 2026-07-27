@@ -493,4 +493,6 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilmes
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.calculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan bir önbellekteki tüm özet tablolarını listeleme | `pivotCache.getPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
 
-Pratikte, kullanımdan kaldırılan tablo başına `refreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="python" >}}
+Pratikte, kullanımdan kaldırılan tablo başına `refreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+
+{{< app/cells/assistant language="python" >}}

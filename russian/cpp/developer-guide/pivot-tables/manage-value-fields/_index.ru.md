@@ -154,9 +154,5 @@ int main() {
 }
 ```
 В совокупности эти три сценария охватывают все аспекты работы с полями значений в Aspose.Cells for C++ — от единственного поля данных с `Sum` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением на оси строк или столбцов.
-## Связанные статьи
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for C++](/cells/ru/cpp/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

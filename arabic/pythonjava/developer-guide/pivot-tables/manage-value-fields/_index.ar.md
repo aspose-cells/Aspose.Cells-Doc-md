@@ -20,8 +20,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 لا يؤثّر تغيير `Function` إلا على التجميع، بينما يظل عمود المصدر دون تغيير.
-{{% alert %}}
-
+{{% /alert %}}
 يمكنك بالتالي الإبقاء على حقل بيانات واحد كـ `Sum` بينما تُضيف حقل بيانات ثانٍ يستهدف عمود المصدر نفسه لكنه يستخدم `Count` أو `Average`، وذلك جميعه ضمن جدول محوري واحد.
 
 ## عرض حقول القيم على محور الصفوف أو الأعمدة
@@ -30,8 +29,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 لا يعمل `PivotTable.ValuesField` إذا لم يكن هناك أي حقل قيمة أو إذا كان هناك حقل قيمة واحد فقط.
-{{% alert %}}
-
+{{% /alert %}}
 تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة تُوضّح كل قدرة من القدرات الموصوفة أعلاه على نفس بنية الجدول المحوري.
 
 ## السيناريو 1 — سحب حقل أساسي إلى منطقة القيم
@@ -163,12 +161,5 @@ workbook.save("output_plot.xlsx")
 ```
 
 معًا، تغطي هذه السيناريوهات الثلاثة جميع جوانب التعامل مع حقول القيم في Aspose.Cells for Python via Java، بدءًا من حقل بيانات واحد مع `Sum` الافتراضية، وصولًا إلى جدول محوري متعدد المقاييس يتحكم فيه حقل `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
-
-## مقالات ذات صلة
-
-- [حقول الصفوف والأعمدة في الجدول المحوري في Aspose.Cells for Python via Java](/cells/ar/python-java/row-and-column-fields/)
-- [حقول الصفحات في الجداول المحورية](/cells/ar/python-java/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for Python via Java](/cells/ar/python-java/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

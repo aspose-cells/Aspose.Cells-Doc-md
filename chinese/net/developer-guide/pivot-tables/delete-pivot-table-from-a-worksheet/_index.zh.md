@@ -16,4 +16,5 @@ Aspose.Cells提供了一个功能，用于删除或移除工作表中的数据�
 以下示例代码从工作表中删除了两个数据透视表。首先使用[**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove)方法移除数据透视表，然后使用[**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)方法移除数据透视表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

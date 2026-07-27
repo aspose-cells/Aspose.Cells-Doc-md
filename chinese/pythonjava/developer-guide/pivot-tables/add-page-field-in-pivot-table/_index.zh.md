@@ -353,6 +353,4 @@ jpype.shutdownJVM()
 在配置多选筛选时，请始终牢记可见性约束。如果多选筛选字段中每个 `PivotItem` 都被隐藏，Excel 在打开时会崩溃或渲染一个空白的数据透视表。请根据源数据构建白名单，使至少一项保持可见，这样保存的工作簿就能在每台机器上可靠打开。
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="python" >}}

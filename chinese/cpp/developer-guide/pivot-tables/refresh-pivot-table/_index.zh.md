@@ -414,4 +414,6 @@ int main() {
 | 一个缓存的源数据已更改 | `pivotTable.GetPivotCache().Refresh()` | 刷新该共享缓存上的所有数据透视表。 |
 | 仅视图/布局设置已更改 | `pivotTable.CalculateData()` | 跳过不必要的源数据往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新之前进行枚举。 |
-实际上，请优先使用基于缓存的 API，而不是过时的每表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小粒度。{{< app/cells/assistant language="cpp" >}}
+实际上，请优先使用基于缓存的 API，而不是过时的每表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小粒度。
+
+{{< app/cells/assistant language="cpp" >}}

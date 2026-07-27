@@ -22,4 +22,5 @@ url: /ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 [ملف إكسل الإخراج](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableDataDisplayFormatRanking-1.cs" >}}
+
 {{< app/cells/assistant language="csharp" >}}

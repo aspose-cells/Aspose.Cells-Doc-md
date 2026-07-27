@@ -266,6 +266,7 @@ pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 
 jpype.shutdownJVM()
+```
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın ara toplam yapacak bir şeyi yoktur, dolayısıyla `setSubtotals`'ın görünür bir etki yaratmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
@@ -344,4 +345,5 @@ Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaş
 - [Pivot Tablolarda Sayfa Alanları](/cells/tr/python-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via Java'da Pivot Tabloları Yenileme](/cells/tr/python-java/refresh-pivot-table/)
 - [Pivot Tablolarına Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

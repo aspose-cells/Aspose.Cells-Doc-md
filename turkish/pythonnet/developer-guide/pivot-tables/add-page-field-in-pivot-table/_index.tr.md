@@ -323,5 +323,4 @@ Aşağıdaki tablo, her API'yi ve modu ne zaman kullanacağınızı özetler, b�
 Çoklu seçim filtrelemesini yapılandırırken görünürlük kısıtlamasını her zaman hatırlayın. Çoklu seçim filtre alanındaki her `PivotItem` gizlenmişse, Excel açılırken çöker veya boş bir özet tablo işler. Beyaz listenizi kaynak verilerinize göre oluşturun, böylece en az bir öğe görünür kalır ve kaydedilen çalışma kitaplarınız her makinede güvenilir bir şekilde açılır.
 {{% /alert %}}
 
-
 {{< app/cells/assistant language="python" >}}

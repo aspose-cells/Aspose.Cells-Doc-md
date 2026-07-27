@@ -354,4 +354,5 @@ When in doubt, save as `.xlsx` and use `PivotTableStyleType` for built-in themes
 - [Filter Fields in Pivot Tables](/cells/net/add-filter-field-in-pivot-table/)
 - [Manage Pivot Table Value Fields in Aspose.Cells for .NET](/cells/net/pivot-table-manage-value-fields/)
 - [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/net/refresh-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -22,4 +22,5 @@ Aspose.Cells提供了设置数据透视表字段显示格式选项的功能。�
 [输出Excel文件](PivotTableDataDisplayFormatRanking_out.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableDataDisplayFormatRanking-1.java" >}}
+
 {{< app/cells/assistant language="java" >}}

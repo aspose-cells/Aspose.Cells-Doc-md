@@ -397,9 +397,5 @@ workbook.save("output.xlsx");
 | تغيرت إعدادات العرض/التخطيط فقط | `pivotTable.CalculateData()` | يتجنب رحلة غير ضرورية إلى المصدر. |
 | سرد جميع الجداول المحورية على ذاكرة تخزين مؤقت مشتركة | `pivotCache.GetPivotTables()` | استخدم للتعداد قبل التحديث المجمّع. |
 عمليًا، يُفضل استخدام واجهات برمجة التطبيقات المبنية على أساس ذاكرة التخزين المؤقت على `RefreshData()` المهمل لكل جدول. إنها على دراية بذاكرات التخزين المؤقت المشتركة، وتتجنب عمليات جلب المصدر الزائدة عن الحاجة، وتتيح لك اختيار أصغر نطاق يلبي متطلبات التحديث لديك.
-## المقالات ذات الصلة
-- [إدراج صورة في خلية](/cells/ar/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [قراءة وكتابة ملفات DBF](/cells/ar/nodejs-cpp/dbf/)
-- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [الرسوم البيانية المصغرة في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/sparkline/)
+
 {{< app/cells/assistant language="javascript" >}}

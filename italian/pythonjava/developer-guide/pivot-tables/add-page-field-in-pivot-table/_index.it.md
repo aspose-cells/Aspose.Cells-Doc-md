@@ -354,6 +354,4 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità così da
 Ricordare sempre il vincolo di visibilità quando si configura il filtraggio multi-selezione. Se ogni `PivotItem` in un campo filtro multi-selezione è nascosto, Excel si arresta in modo anomalo all'apertura oppure rende una tabella pivot vuota. Costruire la whitelist sui dati di origine in modo che almeno un elemento rimanga visibile e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="python" >}}

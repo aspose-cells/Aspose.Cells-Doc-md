@@ -154,9 +154,5 @@ int main() {
 }
 ```
 معًا، تغطي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقول القيم في Aspose.Cells for C++، بدءًا من حقل بيانات واحد مع `Sum` الافتراضي وحتى جدول محوري متعدد المقاييس يتحكم فيه `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
-## مقالات ذات صلة
-- [حقول الصفوف والأعمدة في الجدول المحوري في Aspose.Cells for C++](/cells/ar/cpp/row-and-column-fields/)
-- [حقول الصفحات في الجداول المحورية](/cells/ar/cpp/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

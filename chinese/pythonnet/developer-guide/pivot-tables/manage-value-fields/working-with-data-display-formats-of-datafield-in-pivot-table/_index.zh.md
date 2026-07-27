@@ -24,4 +24,5 @@ Aspose.Cells for Python via .NET提供了设置数据透视表字段的显示格
 【输出 Excel 文件】（101089333.xlsx）
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableDataDisplayFormatRanking-1.py" >}}
+
 {{< app/cells/assistant language="python-net" >}}

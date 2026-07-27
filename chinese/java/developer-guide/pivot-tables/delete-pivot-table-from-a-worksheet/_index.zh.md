@@ -16,4 +16,5 @@ Aspose.Cells 提供了删除工作表中数据透视表的功能。您可以使�
 下面的示例代码从工作表中删除了两个数据透视表。首先，它使用 [**Worksheet.getPivotTables().remove()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#remove-com.aspose.cells.PivotTable-) 方法删除数据透视表，然后使用 [**Worksheet.getPivotTables().removeAt()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#removeAt-int-) 方法删除数据透视表对象。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletePivotTableFromWorksheet-DeletePivotTableFromWorksheet.java" >}}
+
 {{< app/cells/assistant language="java" >}}

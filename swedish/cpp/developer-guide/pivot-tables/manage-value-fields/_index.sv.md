@@ -16,13 +16,13 @@ Att lägga till ett basfält i data- (värde-) regionen är det första steget f
 Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-instans, och dess `Function`-egenskap returnerar ett värde från enumerationen `ConsolidationFunction`. Samma `Function`-sättare låter dig växla mellan de tillgängliga aggregaten, inklusive `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` och `Varp`.
 {{% alert color="primary" %}}
 Att ändra `Function` påverkar bara aggregatet, källkolumnen ändras inte.
-{{% alert %}}
+{{% /alert %}}
 Du kan därför lämna ett datafält som `Sum` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `Count` eller `Average`, allt i en enda pivot.
 ## Placera värdefält på rad- eller kolumnaxeln
 När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cells ett ytterligare virtuellt fält kallat `PivotTable.ValuesField`. Detta virtuella fält representerar aggregatet av varje datafält som finns i dataregionen. Du kan dra det till rad- eller kolumnregionen som ett baspivotfält, vilket är användbart för att placera flera mått sida vid sida.
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% alert %}}
+{{% /alert %}}
 Scenarierna nedan går igenom tre kompletta exempel som visar varje funktion som beskrivs ovan mot samma pivotstruktur.
 ## Scenario 1 — Dra ett basfält till värdeområdet
 Detta scenario visar hur man placerar ett enda basfält (`Amount`) i dataregionen för en befintlig pivottabell. Den delade pivotstrukturen placerar `Category` och `Item` på radaxeln och `Year` på kolumnaxeln. Efter operationen visas `Amount` i dataregionen och beräknas som `Sum` av `Amount` som standard.
@@ -154,9 +154,5 @@ int main() {
 }
 ```
 Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for C++, från ett enskilt datafält med standardvärdet `Sum` till en pivot med flera mått där den virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
-## Relaterade artiklar
-- [Pivottabellens rad- och kolumnfält i Aspose.Cells for C++](/cells/sv/cpp/row-and-column-fields/)
-- [Sidfält i pivottabeller](/cells/sv/cpp/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for C++](/cells/sv/cpp/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="cpp" >}}

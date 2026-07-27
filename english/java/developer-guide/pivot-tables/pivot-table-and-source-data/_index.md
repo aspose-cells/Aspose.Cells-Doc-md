@@ -52,4 +52,5 @@ Executing the example code below changes the source data of the pivot table, and
 ![todo:image_alt_text](pivot-table-and-source-data_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ChangeSourceData-ChangeSourceData.java" >}}
+
 {{< app/cells/assistant language="java" >}}

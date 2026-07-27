@@ -353,9 +353,5 @@ workbook.Save("output.xlsx");
 | تغيرت إعدادات العرض/التخطيط فقط | `pivotTable.CalculateData()` | تتجنب رحلة غير ضرورية إلى المصدر. |
 | سرد جميع الجداول المحورية على ذاكرة تخزين مؤقت مشتركة | `pivotCache.GetPivotTables()` | استخدم للتعداد قبل التحديث المجمع. |
 عمليًا، يُفضل استخدام واجهات برمجة التطبيقات المستندة إلى ذاكرة التخزين المؤقت على `RefreshData()` المهجور لكل جدول. إنها مدرِكة لذاكرة التخزين المؤقت المشتركة، وتتجنب جلب المصدر الزائد عن الحاجة، وتتيح لك اختيار أصغر نطاق يلبي متطلبات التحديث لديك.
-## مقالات ذات صلة
-- [إدراج صورة في خلية](/cells/ar/net/inserting-an-image-into-a-cell/)
-- [قراءة وكتابة ملفات DBF](/cells/ar/net/dbf/)
-- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/net/splitting-excel-files-into-multiple-files/)
-- [الرسوم البيانية المصغرة في Aspose.Cells for .NET](/cells/ar/net/sparkline/)
+
 {{< app/cells/assistant language="csharp" >}}

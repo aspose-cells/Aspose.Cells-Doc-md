@@ -518,4 +518,5 @@ In pratica, preferire le API basate sulla cache rispetto all'obsoleto `refreshDa
 - [Lettura e scrittura di file DBF](/cells/it/python-java/dbf/)
 - [Divisione di file Excel in più file](/cells/it/python-java/splitting-excel-files-into-multiple-files/)
 - [Sparkline in Aspose.Cells for Python via Java](/cells/it/python-java/sparkline/)
+
 {{< app/cells/assistant language="python" >}}

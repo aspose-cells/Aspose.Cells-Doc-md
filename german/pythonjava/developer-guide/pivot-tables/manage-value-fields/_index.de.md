@@ -164,11 +164,4 @@ workbook.save("output_plot.xlsx")
 
 Zusammen decken diese drei Szenarien alle Aspekte der Manipulation von Wertefeldern in Aspose.Cells for Python via Java ab, von einem einzelnen Datenfeld mit der Standard-`Summe` bis hin zu einer Multi-Measure-Pivot, bei der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
-## Verwandte Artikel
-
-- [PivotTable-Zeilen- und Spaltenfelder in Aspose.Cells for Python via Java](/cells/de/python-java/row-and-column-fields/)
-- [Seitenfelder in PivotTables](/cells/de/python-java/add-page-field-in-pivot-table/)
-- [PivotTables in Aspose.Cells for Python via Java aktualisieren](/cells/de/python-java/refresh-pivot-table/)
-- [Anwenden von Stilen auf PivotTables](/cells/de/python-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

@@ -274,4 +274,5 @@ I tre scenari precedenti condividono lo stesso set di dati e la stessa struttura
 - [Campi pagina nelle tabelle pivot](/cells/it/cpp/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for C++](/cells/it/cpp/refresh-pivot-table/)
 - [Applicazione di stili alle tabelle pivot](/cells/it/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

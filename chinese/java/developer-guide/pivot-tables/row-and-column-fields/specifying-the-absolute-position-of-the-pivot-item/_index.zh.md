@@ -22,4 +22,5 @@ url: /zh/java/specifying-the-absolute-position-of-the-pivot-item/
 以下示例代码创建一个数据透视表，然后指定相同父节点中数据透视表项的位置。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.java" >}}
+
 {{< app/cells/assistant language="java" >}}

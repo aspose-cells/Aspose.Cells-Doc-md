@@ -164,10 +164,4 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-## Related Articles
-
-- [Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET](/cells/net/pivot-table-add-row-column-fields/)
-- [Aggiungere campi filtro a una tabella pivot in Aspose.Cells per .NET](/cells/net/add-filter-field-in-pivot-table/)
-- [Aggiornare tabelle pivot e cache pivot in Aspose.Cells per .NET](/cells/net/refresh-pivot-table/)
-- [Applicare stili alle tabelle pivot in Aspose.Cells per .NET](/cells/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="java" >}}

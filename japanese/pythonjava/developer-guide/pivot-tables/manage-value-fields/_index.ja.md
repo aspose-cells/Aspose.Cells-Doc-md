@@ -144,9 +144,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 これら 3 つのシナリオを合わせることで、Aspose.Cells for Python via Java における値フィールド操作のすべての側面をカバーします。デフォルトの `Sum` を持つ単一のデータフィールドから、仮想 `ValuesField` が Row 軸または Column 軸のレイアウトを制御する複数メジャーのピボットまで対応します。
-## 関連記事
-- [Aspose.Cells for Python via Java のピボットテーブルの行フィールドと列フィールド](/cells/ja/python-java/row-and-column-fields/)
-- [ピボットテーブルのページフィールド](/cells/ja/python-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Python via Java でピボットテーブルを更新する](/cells/ja/python-java/refresh-pivot-table/)
-- [ピボットテーブルにスタイルを適用する](/cells/ja/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

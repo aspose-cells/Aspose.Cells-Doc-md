@@ -144,9 +144,5 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 Birlikte, bu üç senaryo Aspose.Cells for Python via Java'daki değer alanı manipülasyonunun tüm yönlerini kapsar; varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir pivota kadar.
-## İlgili Makaleler
-- [Aspose.Cells for Python via Java'da Pivot Tablo Satır ve Sütun Alanları](/cells/tr/python-java/row-and-column-fields/)
-- [Pivot Tablolardaki Sayfa Alanları](/cells/tr/python-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Python via Java'da Pivot Tabloları Yenileme](/cells/tr/python-java/refresh-pivot-table/)
-- [Pivot Tablolara Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

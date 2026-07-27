@@ -323,5 +323,4 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en sélection multiple. Si chaque `PivotItem` d'un champ de filtre à sélection multiple est masqué, Excel plante à l'ouverture ou affiche un tableau croisé dynamique vide. Construisez votre liste d'autorisation à partir de vos données source afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur toutes les machines.
 {{% /alert %}}
 
-
 {{< app/cells/assistant language="python" >}}

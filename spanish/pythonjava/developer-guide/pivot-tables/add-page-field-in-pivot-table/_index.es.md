@@ -354,6 +354,4 @@ La tabla siguiente resume cuándo usar cada API y modo para que pueda elegir la 
 Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si cada `PivotItem` en un campo de filtro de selección múltiple está oculto, Excel se bloquea al abrir o renderiza una tabla dinámica en blanco. Construya su lista blanca contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros guardados se abrirán de forma fiable en cualquier máquina.
 {{% /alert %}}
 
-
-
 {{< app/cells/assistant language="python" >}}

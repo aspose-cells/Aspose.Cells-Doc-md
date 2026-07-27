@@ -246,6 +246,7 @@ workbook.save("output_custom.xlsx")
 - [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/ja/python-net/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/ja/python-net/apply-style-to-pivot-table/)
 
+```java
 import aspose.cells as ac
 
 workbook = ac.Workbook()
@@ -429,4 +430,5 @@ workbook.save("output_custom.xlsx")
 - [Page Fields in Pivot Tables](/cells/ja/python-net/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/ja/python-net/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/ja/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

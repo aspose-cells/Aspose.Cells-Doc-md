@@ -194,9 +194,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for .NET, från ett enskilt datafält med standardvärdet `Sum` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
-## Relaterade artiklar
-- [Pivottabellens rad- och kolumnfält i Aspose.Cells for .NET](/cells/sv/net/row-and-column-fields/)
-- [Sidfält i pivottabeller](/cells/sv/net/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for .NET](/cells/sv/net/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

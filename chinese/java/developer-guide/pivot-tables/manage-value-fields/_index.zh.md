@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 综合来看，这三个场景涵盖了 Aspose.Cells for Java 中值字段操作的各个方面，从具有默认 `SUM` 的单个数据字段，到虚拟 `ValuesField` 控制行轴或列轴上布局的多度量数据透视表。
-## 相关文章
-- [Aspose.Cells for Java 中数据透视表的行和列字段](/cells/zh/java/row-and-column-fields/)
-- [数据透视表中的页面字段](/cells/zh/java/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Java 中刷新数据透视表](/cells/zh/java/refresh-pivot-table/)
-- [对数据透视表应用样式](/cells/zh/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

@@ -16,6 +16,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ...
 {{% /alert %}}
 
+```javascript
 const AsposeCells = require("aspose.cells");
 
 const workbook = new AsposeCells.Workbook("input.xlsx");
@@ -520,4 +521,5 @@ In pratica, preferire le API basate sulla cache rispetto all'obsoleto `RefreshDa
 - [Lettura e scrittura di file DBF](/cells/it/nodejs-java/dbf/)
 - [Divisione di file Excel in più file](/cells/it/nodejs-java/splitting-excel-files-into-multiple-files/)
 - [Sparkline in Aspose.Cells for Node.js via Java](/cells/it/nodejs-java/sparkline/)
+
 {{< app/cells/assistant language="javascript" >}}

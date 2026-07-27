@@ -57,4 +57,5 @@ int main()
 |**Pivot Table - After**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+
 {{< app/cells/assistant language="cpp" >}}

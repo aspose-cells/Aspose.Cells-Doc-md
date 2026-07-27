@@ -20,4 +20,5 @@ The following sample code explains the usage of [**LoadOptions.ParsingPivotCac
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.java" >}}
+
 {{< app/cells/assistant language="java" >}}

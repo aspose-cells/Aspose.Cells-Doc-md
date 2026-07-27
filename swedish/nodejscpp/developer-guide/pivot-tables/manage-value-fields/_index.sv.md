@@ -181,9 +181,5 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 Tillsammans täcker dessa tre scenarier alla aspekter av värdefältsmanipulation i Aspose.Cells for Node.js via C++, från ett enskilt datafält med standardvärdet `Sum` till en pivottabell med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
-## Relaterade artiklar
-- [Pivottabell rad- och kolumnfält i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/row-and-column-fields/)
-- [Sidfält i pivottabeller](/cells/sv/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

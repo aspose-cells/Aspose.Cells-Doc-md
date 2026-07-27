@@ -60,4 +60,5 @@ int main()
     return 0;
 }
 ```
+
 {{< app/cells/assistant language="cpp" >}}

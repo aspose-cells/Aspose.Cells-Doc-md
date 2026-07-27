@@ -394,4 +394,6 @@ workbook.save("output.xlsx");
 | 一个缓存的源数据已更改 | `pivotTable.PivotCache.Refresh()` | 刷新该共享缓存上的**所有**数据透视表。 |
 | 仅视图/布局设置发生更改 | `pivotTable.CalculateData()` | 跳过不必要的源回溯。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新之前枚举。 |
-在实际使用中，应优先选择基于缓存的 API，而非过时的逐表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源获取，并允许您选择满足刷新需求的最小作用范围。{{< app/cells/assistant language="javascript" >}}
+在实际使用中，应优先选择基于缓存的 API，而非过时的逐表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源获取，并允许您选择满足刷新需求的最小作用范围。
+
+{{< app/cells/assistant language="javascript" >}}

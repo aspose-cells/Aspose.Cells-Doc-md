@@ -85,9 +85,5 @@ Ce scénario part de la même structure de tableau croisé dynamique que le scé
 ## Scénario 3 — Tracer les champs de valeur sur l'axe Ligne ou Colonne
 Avec deux champs de données en place, `PivotTable.getValuesField()` devient utilisable. Ce scénario fait glisser ce champ virtuel d'agrégat dans la zone Colonne, de sorte que chaque mesure de la zone de données apparaisse comme son propre bloc de colonnes à côté de `Year`.
 Ensemble, ces trois scénarios couvrent tous les aspects de la manipulation des champs de valeur dans Aspose.Cells for Node.js via Java, d'un seul champ de données avec le `SUM` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
-## Articles connexes
-- [Champs de ligne et de colonne du tableau croisé dynamique dans Aspose.Cells for Node.js via Java](/cells/fr/nodejs-java/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/nodejs-java/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Node.js via Java](/cells/fr/nodejs-java/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

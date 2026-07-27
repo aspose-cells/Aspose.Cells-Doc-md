@@ -22,4 +22,5 @@ keywords: Aspose.Cells لمكتبة Excel بلغة Python، مكتبة Excel ب�
 يظهر الرمز البريدي العيني التالي جدول البيانات المحوري أولاً في **النموذج المضغوط**، ثم يظهر جدول البيانات المحوري في **النموذج المخطط** وأخيرًا يظهر جدول البيانات المحوري في **النموذج الجدولي**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}
+
 {{< app/cells/assistant language="python-net" >}}

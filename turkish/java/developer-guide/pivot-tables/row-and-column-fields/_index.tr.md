@@ -252,4 +252,5 @@ Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaş
 - [Pivot Tablolardaki Sayfa Alanları](/cells/tr/java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Java'da Pivot Tabloları Yenileme](/cells/tr/java/refresh-pivot-table/)
 - [Pivot Tablolara Stil Uygulama](/cells/tr/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

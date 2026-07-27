@@ -234,6 +234,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **まとめ**
 
 上記の 3 つのシナリオは、データセットとピボットテーブルの構造が共通しています。相違点は、外側の `Category` 行フィールドに適用する `SetSubtotals` 呼び出しだけです。「2 フィールドルール」を忘れないでください。領域にフィールドが 1 つしかない場合は小計を挟む対象が存在しないため、`SetSubtotals` の効果を視覚的に確認したいときは、行領域または列領域に必ず 2 つ以上のフィールドを配置してください。
@@ -243,4 +244,5 @@ workbook.save("output_custom.xlsx");
 - [Page Fields in Pivot Tables](/cells/ja/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Node.js via C++](/cells/ja/nodejs-cpp/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/ja/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -194,9 +194,5 @@ pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
 В совокупности эти три сценария охватывают все аспекты работы с полями значений в Aspose.Cells for .NET, от одного поля данных со значением по умолчанию `Sum` до сводной таблицы с несколькими мерами, в которой виртуальное `ValuesField` управляет макетом по оси строк или столбцов.
-## Связанные статьи
-- [Поля строк и столбцов сводной таблицы в Aspose.Cells for .NET](/cells/ru/net/row-and-column-fields/)
-- [Поля страниц в сводных таблицах](/cells/ru/net/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for .NET](/cells/ru/net/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

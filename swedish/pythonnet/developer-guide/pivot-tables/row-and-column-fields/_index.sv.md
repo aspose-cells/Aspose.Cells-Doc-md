@@ -247,4 +247,5 @@ De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda sk
 - [Sidfält i pivottabeller](/cells/sv/python-net/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Python via .NET](/cells/sv/python-net/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

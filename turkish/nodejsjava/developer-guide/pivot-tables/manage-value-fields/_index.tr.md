@@ -85,9 +85,5 @@ Bu senaryo, Senaryo 1'deki aynı pivot yapısından başlar, ancak `Amount` alan
 ## Senaryo 3 — Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
 İki veri alanı yerinde olduğunda `PivotTable.getValuesField()` kullanılabilir hale gelir. Bu senaryo, bu toplam sanal alanını Sütun bölgesine sürükler, böylece veri bölgesindeki her ölçüm `Year` alanının yanında kendi sütun bloğu olarak görünür.
 Bir araya getirildiğinde, bu üç senaryo Aspose.Cells for Node.js via Java'da değer alanı yönetiminin her yönünü kapsar; varsayılan `SUM` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çok ölçümlü bir pivota kadar uzanır.
-## İlgili Makaleler
-- [Aspose.Cells for Node.js via Java'da Pivot Tablo Satır ve Sütun Alanları](/cells/tr/nodejs-java/row-and-column-fields/)
-- [Pivot Tablolarda Sayfa Alanları](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Node.js via Java'da Pivot Tabloları Yenileme](/cells/tr/nodejs-java/refresh-pivot-table/)
-- [Pivot Tablolarına Stiller Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

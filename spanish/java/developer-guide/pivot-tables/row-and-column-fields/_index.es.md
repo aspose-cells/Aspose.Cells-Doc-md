@@ -252,4 +252,5 @@ Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma e
 - [Campos de página en tablas dinámicas](/cells/es/java/add-page-field-in-pivot-table/)
 - [Actualización de tablas dinámicas en Aspose.Cells for Java](/cells/es/java/refresh-pivot-table/)
 - [Aplicar estilos a tablas dinámicas](/cells/es/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

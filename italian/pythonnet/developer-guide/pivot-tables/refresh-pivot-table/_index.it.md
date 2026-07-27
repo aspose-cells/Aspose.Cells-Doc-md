@@ -464,4 +464,6 @@ La tabella seguente riassume le API di aggiornamento disponibili e quando scegli
 | Solo le impostazioni di vista/layout sono cambiate | `pivot_table.calculate_data()` | Evita il round-trip non necessario all'origine. |
 | Elencare tutte le tabelle pivot su una cache condivisa | `pivot_cache.get_pivot_tables()` | Da usare per enumerare prima dell'aggiornamento in blocco. |
 
-In pratica, preferire le API basate sulla cache rispetto all'obsoleto `refresh_data()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il proprio requisito di aggiornamento.{{< app/cells/assistant language="python" >}}
+In pratica, preferire le API basate sulla cache rispetto all'obsoleto `refresh_data()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il proprio requisito di aggiornamento.
+
+{{< app/cells/assistant language="python" >}}

@@ -234,6 +234,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وبنية الجدول المحوري. الاختلاف الوحيد بينها هو استدعاء `SetSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكّر قاعدة الحقلين: حقل منفرد واحد في منطقة ما لا يوفّر ما يمكن حساب إجمالي فرعي له بين المجموعات، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لاستدعاء `SetSubtotals` تأثير مرئي.
@@ -243,4 +244,5 @@ workbook.save("output_custom.xlsx");
 - [حقول الصفحات في الجداول المحورية](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -234,6 +234,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **总结**
 
 上述三个场景共享相同的数据集和透视表结构。它们之间唯一的区别是应用于外部 `Category` 行字段的 `SetSubtotals` 调用。请记住两个字段的规则：区域中只有一个字段时没有内容可供小计，因此当您希望 `SetSubtotals` 产生可见效果时，请始终在行或列区域中放置至少两个字段。
@@ -243,4 +244,5 @@ workbook.save("output_custom.xlsx");
 - [透视表中的页面字段](/cells/zh/nodejs-cpp/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Node.js via C++ 中刷新透视表](/cells/zh/nodejs-cpp/refresh-pivot-table/)
 - [对透视表应用样式](/cells/zh/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -274,4 +274,5 @@ int main() {
 - [ピボットテーブル内のページフィールド](/cells/ja/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++ におけるピボットテーブルの更新](/cells/ja/cpp/refresh-pivot-table/)
 - [ピボットテーブルへのスタイルの適用](/cells/ja/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

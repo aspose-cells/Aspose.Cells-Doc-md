@@ -104,11 +104,4 @@ Wenn zwei Datenfelder vorhanden sind, wird `PivotTable.getValuesField()` verwend
 
 Zusammen decken diese drei Szenarien jeden Aspekt der Wertefeldmanipulation in Aspose.Cells for Node.js via Java ab — von einem einzelnen Datenfeld mit der standardmäßigen `SUM` bis hin zu einer Multi-Measure-PivotTable, in der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
-## Verwandte Artikel
-
-- [Zeilen- und Spaltenfelder der PivotTable in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/row-and-column-fields/)
-- [Seitenfelder in PivotTables](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
-- [PivotTables in Aspose.Cells for Node.js via Java aktualisieren](/cells/de/nodejs-java/refresh-pivot-table/)
-- [Anwenden von Stilen auf PivotTables](/cells/de/nodejs-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

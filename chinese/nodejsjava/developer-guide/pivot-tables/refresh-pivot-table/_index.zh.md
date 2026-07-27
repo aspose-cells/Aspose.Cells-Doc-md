@@ -9,9 +9,7 @@ url: /zh/nodejs-java/refresh-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-
-
-- ```javascript
+```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 
@@ -66,7 +64,7 @@ worksheet.refreshPivotTables();
 
 workbook.save("output.xlsx");
 ```
-- ```javascript
+```javascript
 const AsposeCells = require("aspose.cells");
 
 // 创建一个新工作簿并访问第一个工作表
@@ -143,7 +141,7 @@ pivotTable1.getPivotCache().refresh();
 // 保存工作簿
 workbook.save("output.xlsx");
 ```
-- ```javascript
+```javascript
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 
@@ -155,8 +153,8 @@ worksheet.getCells().get("C1").putValue("Amount");
 // 写入 8 行数据（第 2-9 行，匹配源数据范围 A1:C9）
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
-
-- ```javascript
+```javascript
+```javascript
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 
@@ -561,4 +559,6 @@ workbook.save("output.xlsx");
 | 仅视图/布局设置已更改 | `pivotTable.CalculateData()` | 跳过不必要的源往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新之前进行枚举。 |
 
-在实践中，应优先选择基于缓存的 API，而不是过时的按表调用 `RefreshData()`。它们能够感知共享缓存，避免冗余的源获取，并允许您选择满足刷新需求的最小范围。{{< app/cells/assistant language="javascript" >}}
+在实践中，应优先选择基于缓存的 API，而不是过时的按表调用 `RefreshData()`。它们能够感知共享缓存，避免冗余的源获取，并允许您选择满足刷新需求的最小范围。
+
+{{< app/cells/assistant language="javascript" >}}

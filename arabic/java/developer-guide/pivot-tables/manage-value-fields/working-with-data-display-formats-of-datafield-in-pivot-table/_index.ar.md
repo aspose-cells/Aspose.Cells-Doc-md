@@ -22,4 +22,5 @@ url: /ar/java/working-with-data-display-formats-of-datafield-in-pivot-table/
 [ملف Excel الإخراج](PivotTableDataDisplayFormatRanking_out.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableDataDisplayFormatRanking-1.java" >}}
+
 {{< app/cells/assistant language="java" >}}

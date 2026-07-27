@@ -16,4 +16,5 @@ url: /ar/java/delete-pivot-table-from-a-worksheet/
 تقوم الشفرة النموذجية التالية بحذف جدولي محوريين من ورقة العمل. أولاً، يزيل الجدول المحوري باستخدام [**Worksheet.getPivotTables().remove()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#remove-com.aspose.cells.PivotTable-) ومن ثم يزيل الجدول المحوري باستخدام [**Worksheet.getPivotTables().removeAt()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#removeAt-int-)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletePivotTableFromWorksheet-DeletePivotTableFromWorksheet.java" >}}
+
 {{< app/cells/assistant language="java" >}}

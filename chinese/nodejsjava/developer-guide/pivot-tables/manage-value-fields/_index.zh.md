@@ -104,11 +104,4 @@ workbook.save("output_drag.xlsx");
 
 综上所述，这三个场景涵盖了 Aspose.Cells for Node.js via Java 中值字段操作的方方面面，从使用默认 `SUM` 的单个数据字段，到由虚拟 `ValuesField` 控制行或列轴布局的多度量值数据透视表。
 
-## 相关文章
-
-- [Aspose.Cells for Node.js via Java 中的数据透视表行和列字段](/cells/zh/nodejs-java/row-and-column-fields/)
-- [数据透视表中的页面字段](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Node.js via Java 中刷新数据透视表](/cells/zh/nodejs-java/refresh-pivot-table/)
-- [向数据透视表应用样式](/cells/zh/nodejs-java/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="javascript" >}}

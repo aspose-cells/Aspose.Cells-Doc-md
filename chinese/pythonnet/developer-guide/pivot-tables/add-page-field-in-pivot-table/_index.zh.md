@@ -323,5 +323,4 @@ workbook.save("output.xlsx")
 配置多选过滤时，请务必牢记可见性约束。如果多选页字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时会崩溃，或渲染出空白透视表。请根据源数据构建白名单，确保至少有一项保持可见，这样保存的工作簿才能在每台机器上可靠打开。
 {{% /alert %}}
 
-
 {{< app/cells/assistant language="python" >}}

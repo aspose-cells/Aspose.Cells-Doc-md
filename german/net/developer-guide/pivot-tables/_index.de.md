@@ -55,4 +55,5 @@ Beim Zuweisen eines Zellenbereichs als Datenquelle muss der Bereich von oben lin
 - [Pivot-Tabelle in ODS-Datei speichern](/cells/de/net/save-pivot-table-in-ods-file/)
 - [Option für Berichtsfilterseiten anzeigen](/cells/de/net/show-report-filter-pages-option/)
 - [Arbeiten mit Datenanzeigeformaten von DataField im Pivot-Table](/cells/de/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

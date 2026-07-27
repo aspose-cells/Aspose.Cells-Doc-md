@@ -464,4 +464,6 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 | Seuls les paramètres d'affichage/de mise en page ont changé | `pivot_table.calculate_data()` | Évite les allers-retours inutiles vers la source. |
 | Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivot_cache.get_pivot_tables()` | À utiliser pour énumérer avant une actualisation en masse. |
 
-En pratique, préférez les API basées sur le cache à la méthode obsolète `refresh_data()` par table. Elles sont conscientes des caches partagés, évitent les récupérations redondantes depuis la source et vous permettent de choisir le plus petit périmètre qui satisfait votre besoin d'actualisation.{{< app/cells/assistant language="python" >}}
+En pratique, préférez les API basées sur le cache à la méthode obsolète `refresh_data()` par table. Elles sont conscientes des caches partagés, évitent les récupérations redondantes depuis la source et vous permettent de choisir le plus petit périmètre qui satisfait votre besoin d'actualisation.
+
+{{< app/cells/assistant language="python" >}}

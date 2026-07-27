@@ -181,9 +181,5 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValue
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-## Articles connexes
-- [Champs de ligne et de colonne d'un tableau croisé dynamique dans Aspose.Cells for Node.js via C++](/cells/fr/nodejs-cpp/row-and-column-fields/)
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Node.js via C++](/cells/fr/nodejs-cpp/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/nodejs-cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="javascript" >}}

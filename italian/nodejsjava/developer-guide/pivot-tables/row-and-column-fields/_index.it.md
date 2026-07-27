@@ -235,6 +235,7 @@ categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
+```
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di tabella pivot. L'unica differenza tra essi è la chiamata a `setSubtotals` applicata al campo riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in un'area non ha nulla da subtotalizzare tra un gruppo e l'altro, quindi posiziona sempre almeno due campi nell'area riga o colonna quando desideri che `setSubtotals` abbia un effetto visibile.
@@ -244,4 +245,5 @@ I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di 
 - [Campi pagina nelle tabelle pivot](/cells/it/nodejs-java/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for Node.js via Java](/cells/it/nodejs-java/refresh-pivot-table/)
 - [Applicazione di stili alle tabelle pivot](/cells/it/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

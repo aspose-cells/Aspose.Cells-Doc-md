@@ -197,11 +197,4 @@ workbook.save("output_plot.xlsx")
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Python via .NET, da un singolo campo dati con il `Sum` predefinito a una tabella pivot multi-misura in cui il virtuale `ValuesField` controlla il layout sull'asse Riga o Colonna.
 
-## Articoli correlati
-
-- [Campi Riga e Colonna delle tabelle pivot in Aspose.Cells for Python via .NET](/cells/it/python-net/row-and-column-fields/)
-- [Campi pagina nelle tabelle pivot](/cells/it/python-net/add-page-field-in-pivot-table/)
-- [Aggiornamento delle tabelle pivot in Aspose.Cells for Python via .NET](/cells/it/python-net/refresh-pivot-table/)
-- [Applicazione di stili alle tabelle pivot](/cells/it/python-net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

@@ -494,4 +494,6 @@ La tabla siguiente resume las API de actualización disponibles y cuándo elegir
 | Solo cambió la configuración de vista/diseño | `pivotTable.calculateData()` | Omite el viaje de ida y vuelta al origen innecesario. |
 | Listar todas las tablas dinámicas de una caché compartida | `pivotCache.getPivotTables()` | Úselo para enumerar antes de una actualización masiva. |
 
-En la práctica, prefiera las API basadas en caché frente al obsoleto `refreshData()` por tabla. Son conscientes de las cachés compartidas, evitan recuperaciones redundantes del origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.{{< app/cells/assistant language="python" >}}
+En la práctica, prefiera las API basadas en caché frente al obsoleto `refreshData()` por tabla. Son conscientes de las cachés compartidas, evitan recuperaciones redundantes del origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.
+
+{{< app/cells/assistant language="python" >}}

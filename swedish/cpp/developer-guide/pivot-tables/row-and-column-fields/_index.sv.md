@@ -274,4 +274,5 @@ De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda sk
 - [Sidfält i pivottabeller](/cells/sv/cpp/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for C++](/cells/sv/cpp/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/cpp/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}
