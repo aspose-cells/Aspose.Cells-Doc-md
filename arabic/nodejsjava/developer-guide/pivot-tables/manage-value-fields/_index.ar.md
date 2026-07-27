@@ -6,7 +6,6 @@ keywords: Aspose.Cells, Node.js via Java, جدول محوري, حقل القيم
 type: docs
 weight: 230
 url: /ar/nodejs-java/pivot-table-manage-value-fields/
-/ar/nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

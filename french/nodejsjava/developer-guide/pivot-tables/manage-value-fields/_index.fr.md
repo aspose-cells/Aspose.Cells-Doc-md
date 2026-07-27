@@ -6,7 +6,6 @@ keywords: Aspose.Cells, Node.js via Java, tableau croisé dynamique, champ de va
 type: docs
 weight: 230
 url: /fr/nodejs-java/pivot-table-manage-value-fields/
-/fr/nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

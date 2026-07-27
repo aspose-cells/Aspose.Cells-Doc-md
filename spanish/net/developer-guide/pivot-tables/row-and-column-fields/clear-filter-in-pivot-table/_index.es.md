@@ -1,0 +1,31 @@
+---
+title: Borrar filtro en tabla dinámica
+type: docs
+weight: 130
+url: /es/net/clear-filter-in-pivot-table/
+description: Cómo borrar PivotFilter del campo de tabla dinámica específico con Aspose.Cells.
+keywords: Borrar PivotFilter en tabla dinámica.
+---
+
+## **Escenarios de uso posibles**
+Cuando creas una tabla dinámica con datos conocidos y quieres filtrar la tabla dinámica, necesitas aprender y usar filtro. Puede ayudarte a filtrar efectivamente los datos que deseas. Al utilizar la API de Aspose.Cells, puedes operar el filtro en los valores de campo en las Tablas Dinámicas. 
+
+## **Limpiar filtro en Tabla Dinámica en Excel**
+Limpiar filtro en Tabla Dinámica en Excel, sigue estos pasos:
+
+1. Selecciona la Tabla Dinámica de la que deseas eliminar el filtro. 
+2. Haz clic en la flecha desplegable para el filtro que deseas borrar en la tabla dinámica.
+3. Selecciona "Limpiar filtro" en el menú desplegable.
+<img src="1.png" width=80% />
+4. Si deseas borrar todos los filtros de la tabla dinámica, también puedes hacer clic en el botón "Limpiar filtros" en la pestaña Analizar tabla dinámica en la cinta de Excel.
+<img src="2.png" width=80% />
+
+## **Eliminar filtro en tabla dinámica usando C#**
+Eliminar filtro en tabla dinámica usando Aspose.Cells. Por favor, consulta el siguiente código de ejemplo. 
+1. Establece los datos y crea una tabla dinámica basada en ellos. 
+2. Agrega un filtro en el campo de fila de la tabla dinámica. 
+3. Guarda el libro en formato XLSX de salida. Después de ejecutar el código de ejemplo, se añade un filtro top10 a la hoja de cálculo. 
+4. Elimina el filtro en un campo de la tabla dinámica específico. Después de ejecutar el código para eliminar el filtro, se eliminará el filtro en el campo de la tabla dinámica específico. Por favor, revisa el XLSX de salida.
+
+## **Código de muestra**
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Clear-filter-in-PivotTable.cs" >}}

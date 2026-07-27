@@ -6,7 +6,6 @@ keywords: Aspose.Cells, Node.js via Java, tabla dinámica, campo de valor, Pivot
 type: docs
 weight: 230
 url: /es/nodejs-java/pivot-table-manage-value-fields/
-/es/nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
