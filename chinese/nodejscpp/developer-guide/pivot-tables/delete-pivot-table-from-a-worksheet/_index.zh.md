@@ -1,7 +1,7 @@
 ---
 title: 从工作表中删除数据透视表
 type: docs
-weight: 60
+weight: 700
 url: /zh/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Aspose.Cells for Node.js via C++ 代码，用于删除Excel工作表中的数据透视表
 keywords: Aspose.Cells for Node.js via C++ Excel，Excel Node.js 库，从工作表中移除数据透视表，从Excel中删除数据透视表，如何用Aspose.Cells for Node.js via C++删除数据透视表，删除数据透视表，删除Excel中的数据透视表，删除数据透视表，Aspose.Cells for Node.js via C++移除数据透视表，移除数据透视表，删除数据透视表，如何删除数据透视表

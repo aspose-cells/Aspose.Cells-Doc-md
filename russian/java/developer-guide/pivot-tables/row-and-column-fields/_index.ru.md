@@ -1,11 +1,11 @@
 ---
-title: Поля строк и столбцов в Aspose.Cells for Java
+title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
 linktitle: Поля строк и столбцов
 description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять промежуточными итогами полей сводной таблицы с помощью PivotField.setSubtotals в Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, сводная таблица, поле строки, поле столбца, PivotField, setSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/java/row-and-column-fields/
+url: /ru/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

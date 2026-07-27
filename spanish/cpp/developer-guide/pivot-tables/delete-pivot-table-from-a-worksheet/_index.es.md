@@ -2,7 +2,7 @@
 title: Eliminar tabla dinámica de una hoja de trabajo con C++
 linktitle: Eliminar tabla dinámica
 type: docs
-weight: 60
+weight: 700
 url: /es/cpp/delete-pivot-table-from-a-worksheet/
 description: Código C++ para eliminar la tabla dinámica en hojas de Excel usando Aspose.Cells.
 keywords: c++ elimina la tabla dinámica de la hoja de trabajo, c++ elimina la tabla dinámica de Excel, cómo eliminar la tabla dinámica con c++, elimina la tabla dinámica con c++, elimina la tabla dinámica de Excel con c++, c++ eliminar tabla dinámica, c++ eliminar tabla dinámica, elimina tabla dinámica, elimina la tabla dinámica, cómo eliminar la tabla dinámica

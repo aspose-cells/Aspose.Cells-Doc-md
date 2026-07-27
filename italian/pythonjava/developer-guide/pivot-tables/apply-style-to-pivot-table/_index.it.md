@@ -1,6 +1,6 @@
 ---
-title: Applicazione di stili alle tabelle pivot
-linktitle: Applicazione di stili alle tabelle pivot
+title: Applicare stili alle tabelle pivot in Aspose.Cells per .NET
+linktitle: Applicare stili alle tabelle pivot
 description: Scopri come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for Python via Java, coprendo autoformati XLS legacy, stili denominati moderni di Excel 2007+, stili personalizzati per tabelle pivot e la scorciatoia FormatAll.
 keywords: Aspose.Cells Python via Java stile tabella pivot, PivotTableStyleType, AutoFormatType, FormatAll, stile personalizzato, PivotTableStyleName, TableStyles
 type: docs

@@ -1,34 +1,34 @@
 ---
-title: Champs de page dans les tableaux croisés dynamiques
-description: Apprenez à ajouter et configurer des champs de page dans des tableaux croisés dynamiques à l'aide de Aspose.Cells for Java, notamment l'ajout de champs de page, le filtrage mono-sélection et le filtrage multi-sélection.
-keywords: Aspose.Cells, Java, tableau croisé dynamique, champ de page, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
+title: Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET
+description: Apprenez à ajouter et configurer des champs de filtre dans des tableaux croisés dynamiques à l'aide de Aspose.Cells for Java, notamment l'ajout de champs de filtre, le filtrage mono-sélection et le filtrage multi-sélection.
+keywords: Aspose.Cells, Java, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/java/page-fields/
+url: /fr/java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: \"https://docsearch.api.aspose.cloud/ask\"
-linktitle: Champs de page
+linktitle: Ajouter des champs de filtre
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells prend en charge le cycle de vie complet des champs de page dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de page via une API de haut niveau pratique ou via la collection de bas niveau `PageFields`, et vous pouvez piloter le filtre de page en mode mono-sélection, le désactiver pour afficher tous les éléments de la page, ou basculer le champ en multi-sélection afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois via l'interface à cases à cocher dans Excel.
+Aspose.Cells prend en charge le cycle de vie complet des champs de filtre dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de filtre via une API de haut niveau pratique ou via la collection de bas niveau `PageFields`, et vous pouvez piloter le filtre en mode mono-sélection, le désactiver pour afficher tous les éléments de la page, ou basculer le champ en multi-sélection afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois via l'interface à cases à cocher dans Excel.
 {{% /alert %}}
 
 ## **Introduction**
 
-Un champ de page est un champ croisé dynamique qui contrôle *quel sous-ensemble* des données sources le corps du tableau croisé dynamique affiche. L'utilisateur final le voit comme une liste déroulante en haut d'un tableau croisé dynamique affiché dans Excel, et la sélection de l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page soient synthétisés. Un champ croisé dynamique devient un champ de page lorsqu'il est enregistré en tant que `PivotFieldType.Page` plutôt que `PivotFieldType.Row`, `PivotFieldType.Column` ou `PivotFieldType.Data`.
+Un champ de filtre est un champ croisé dynamique qui contrôle *quel sous-ensemble* des données sources le corps du tableau croisé dynamique affiche. L'utilisateur final le voit comme une liste déroulante en haut d'un tableau croisé dynamique affiché dans Excel, et la sélection de l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page soient synthétisés. Un champ croisé dynamique devient un champ de filtre lorsqu'il est enregistré en tant que `PivotFieldType.Page` plutôt que `PivotFieldType.Row`, `PivotFieldType.Column` ou `PivotFieldType.Data`.
 
-Un champ de page peut fonctionner selon deux comportements. Dans le comportement par défaut de **mono-sélection**, un seul élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique synthétise exactement un sous-ensemble. Dans le comportement de **multi-sélection**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique synthétise l'union de tous les éléments de page cochés. Le même champ source peut être déplacé d'un comportement à l'autre en basculant une seule propriété.
+Un champ de filtre peut fonctionner selon deux comportements. Dans le comportement par défaut de **mono-sélection**, un seul élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique synthétise exactement un sous-ensemble. Dans le comportement de **multi-sélection**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique synthétise l'union de tous les éléments de page cochés. Le même champ source peut être déplacé d'un comportement à l'autre en basculant une seule propriété.
 
-Aspose.Cells for Java expose deux façons équivalentes d'enregistrer un champ de page. L'API de haut niveau est `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.PageFields.add(PivotField)`, qui est utilisée lorsque vous disposez déjà d'une référence `PivotField` et que vous souhaitez ajouter la même instance de champ à la zone de page. Les deux API finissent par alimenter la même collection `PageFields`, et la suite de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
+Aspose.Cells for Java expose deux façons équivalentes d'enregistrer un champ de filtre. L'API de haut niveau est `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.PageFields.add(PivotField)`, qui est utilisée lorsque vous disposez déjà d'une référence `PivotField` et que vous souhaitez ajouter la même instance de champ à la zone de filtre. Les deux API finissent par alimenter la même collection `PageFields`, et la suite de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
 
-## **Ajout d'un champ de page**
+## **Ajout d'un champ de filtre**
 
-Il existe deux façons d'enregistrer un champ croisé dynamique dans la zone de page. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque la même instance de champ doit être réutilisée dans plusieurs zones du tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.PageFields`, après quoi il apparaît comme liste déroulante de page en haut du tableau croisé dynamique affiché.
+Il existe deux façons d'enregistrer un champ croisé dynamique dans la zone de filtre. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque la même instance de champ doit être réutilisée dans plusieurs zones du tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.PageFields`, après quoi il apparaît comme liste déroulante de page en haut du tableau croisé dynamique affiché.
 
-### Ajout d'un champ de page avec addFieldToArea
+### Ajout d'un champ de filtre avec addFieldToArea
 
-L'exemple suivant construit un petit jeu de données Fruit / Year / Amount, place un tableau croisé dynamique à la cellule E3 avec `Fruit` dans la zone des lignes, `Amount` dans la zone des données, et `Year` dans la zone de page, actualise le tableau croisé dynamique, puis enregistre le classeur.
+L'exemple suivant construit un petit jeu de données Fruit / Year / Amount, place un tableau croisé dynamique à la cellule E3 avec `Fruit` dans la zone des lignes, `Amount` dans la zone des données, et `Year` dans la zone de filtre, actualise le tableau croisé dynamique, puis enregistre le classeur.
 
 ```java
 import com.aspose.cells.*;
@@ -81,9 +81,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### Ajout d'un champ de page avec PageFields.add
+### Ajout d'un champ de filtre avec PageFields.add
 
-Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.PageFields.add`. Le tableau croisé dynamique et le champ de page sont construits exactement comme dans le scénario précédent ; seul l'enregistrement final de la zone de page est remplacé par l'appel d'API de bas niveau.
+Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.PageFields.add`. Le tableau croisé dynamique et le champ de filtre sont construits exactement comme dans le scénario précédent ; seul l'enregistrement final de la zone de filtre est remplacé par l'appel d'API de bas niveau.
 
 ```java
 import com.aspose.cells.*;
@@ -136,11 +136,11 @@ workbook.save("output.xlsx");
 
 ## **Filtrage en mono-sélection (affichage d'un seul élément de page)**
 
-Dans le comportement par défaut en mono-sélection, le champ de page est rendu sous la forme d'une liste déroulante unique et l'entier `PivotField.CurrentPageItem` sélectionne quel élément de page pilote le corps du tableau croisé dynamique. L'assignation d'un index spécifique choisit cet élément unique ; l'assignation de la sentinelle spéciale `0x7FFD` (32765 en décimal) désactive le filtre afin que tous les éléments de la page soient synthétisés d'un coup. La mono-sélection est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
+Dans le comportement par défaut en mono-sélection, le champ de filtre est rendu sous la forme d'une liste déroulante unique et l'entier `PivotField.CurrentPageItem` sélectionne quel élément de page pilote le corps du tableau croisé dynamique. L'assignation d'un index spécifique choisit cet élément unique ; l'assignation de la sentinelle spéciale `0x7FFD` (32765 en décimal) désactive le filtre afin que tous les éléments de la page soient synthétisés d'un coup. La mono-sélection est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
 
 ### Affichage de tous les éléments
 
-Définir `CurrentPageItem` à la valeur magique `0x7FFD` équivaut à désactiver le filtre de page : le corps du tableau croisé dynamique synthétise tous les éléments de la page comme si aucun filtre n'était appliqué.
+Définir `CurrentPageItem` à la valeur magique `0x7FFD` équivaut à désactiver le filtre : le corps du tableau croisé dynamique synthétise tous les éléments de la page comme si aucun filtre n'était appliqué.
 
 ```java
 import com.aspose.cells.*;
@@ -194,7 +194,7 @@ workbook.save("output.xlsx");
 
 ### Affichage d'un élément spécifique
 
-Définir `CurrentPageItem` à un index réel sélectionne uniquement cet élément de page. L'index correspond à la position de l'élément dans la liste triée des éléments du champ de page ; ainsi, par exemple, `1` sélectionne le deuxième élément après le tri.
+Définir `CurrentPageItem` à un index réel sélectionne uniquement cet élément de page. L'index correspond à la position de l'élément dans la liste triée des éléments du champ de filtre ; ainsi, par exemple, `1` sélectionne le deuxième élément après le tri.
 
 ```java
 import com.aspose.cells.*;
@@ -249,7 +249,7 @@ workbook.save("output.xlsx");
 
 Le filtrage en multi-sélection transforme la liste déroulante de page en une liste de cases à cocher et permet à l'utilisateur final de sélectionner plusieurs éléments de page simultanément. Aspose.Cells expose deux propriétés qui fonctionnent ensemble. `PivotField.IsMultipleItemSelectionAllowed` doit être défini à `true` pour que l'interface multi-sélection prenne effet. Une fois activée, `PivotItem.IsHidden` contrôle quels éléments apparaissent dans la liste de cases à cocher, ce qui vous permet soit d'afficher tous les éléments, soit de n'inclure en liste blanche que des éléments spécifiques.
 
-Le code ci-dessous active la multi-sélection sur le même champ de page Year construit dans le scénario 1a, puis montre deux schémas : la Partie A révèle chaque élément de page en laissant `IsHidden` à `false` pour chaque entrée, tandis que la Partie B met en liste blanche uniquement les valeurs sources que vous choisissez et masque tout le reste via un bloc `switch (pivotItems[i].getStringValue())`.
+Le code ci-dessous active la multi-sélection sur le même champ de filtre Year construit dans le scénario 1a, puis montre deux schémas : la Partie A révèle chaque élément de page en laissant `IsHidden` à `false` pour chaque entrée, tandis que la Partie B met en liste blanche uniquement les valeurs sources que vous choisissez et masque tout le reste via un bloc `switch (pivotItems[i].getStringValue())`.
 
 ```java
 import com.aspose.cells.*;
@@ -332,15 +332,15 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 
 | Scénario / Cas d'utilisation | API recommandée | Propriété utilisée | Notes |
 |---|---|---|---|
-| Ajouter un champ de page par le nom de la colonne source (le plus courant) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | De haut niveau, en une seule ligne. Utilisez cette option sauf si vous avez besoin d'une référence `PivotField`. |
-| Ajouter un champ de page lorsque vous disposez déjà d'un objet `PivotField` | `PivotTable.PageFields.add(PivotField)` | n/a | À utiliser lorsque l'objet du champ a été obtenu ailleurs ou doit être réutilisé. |
+| Ajouter un champ de filtre par le nom de la colonne source (le plus courant) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | De haut niveau, en une seule ligne. Utilisez cette option sauf si vous avez besoin d'une référence `PivotField`. |
+| Ajouter un champ de filtre lorsque vous disposez déjà d'un objet `PivotField` | `PivotTable.PageFields.add(PivotField)` | n/a | À utiliser lorsque l'objet du champ a été obtenu ailleurs ou doit être réutilisé. |
 | Filtrer sur un seul élément de page (mode par défaut) | `PivotField.CurrentPageItem` | définie à un index spécifique | Par exemple, `1` affiche le deuxième élément dans la liste triée. |
-| Afficher tous les éléments / désactiver le filtre de page | `PivotField.CurrentPageItem` | définie à `0x7FFD` | La valeur magique `0x7FFD` (32765 en décimal) est la sentinelle pour « tous les éléments ». |
+| Afficher tous les éléments / désactiver le filtre | `PivotField.CurrentPageItem` | définie à `0x7FFD` | La valeur magique `0x7FFD` (32765 en décimal) est la sentinelle pour « tous les éléments ». |
 | Activer l'interface multi-sélection dans Excel | `PivotField.IsMultipleItemSelectionAllowed` | définie à `true` | Requis avant que les appels à `IsHidden` ne prennent effet. |
 | Masquer / afficher des éléments individuels dans une liste multi-sélection | `PivotItem.IsHidden` | définie par élément | Au moins un élément doit rester visible (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en multi-sélection. Si chaque `PivotItem` d'un champ de page en multi-sélection est masqué, Excel plante à l'ouverture du fichier ou affiche un tableau croisé dynamique vide. Construisez votre liste blanche à partir de vos données sources afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur n'importe quelle machine.
+N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en multi-sélection. Si chaque `PivotItem` d'un champ de filtre en multi-sélection est masqué, Excel plante à l'ouverture du fichier ou affiche un tableau croisé dynamique vide. Construisez votre liste blanche à partir de vos données sources afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur n'importe quelle machine.
 {{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

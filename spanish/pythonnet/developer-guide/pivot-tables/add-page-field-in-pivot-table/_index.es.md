@@ -1,34 +1,34 @@
 ---
-title: Campos de página en tablas dinámicas
-linktitle: Campos de página en tablas dinámicas
-description: Aprenda a agregar y configurar campos de página en tablas dinámicas con Aspose.Cells for Python via .NET, incluyendo la adición de campos de página, el filtrado de selección única y el filtrado de selección múltiple.
-keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de página, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+title: Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET
+linktitle: Agregar campos de filtro
+description: Aprenda a agregar y configurar campos de filtro en tablas dinámicas con Aspose.Cells for Python via .NET, incluyendo la adición de campos de filtro, el filtrado de selección única y el filtrado de selección múltiple.
+keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /es/python-net/add-page-field-in-pivot-table/
+url: /es/python-net/add-filter-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells admite el ciclo de vida completo de los campos de página en las tablas dinámicas. Puede agregar un campo de página mediante una API de conveniencia de alto nivel o a través de la colección de bajo nivel `page_fields`, y puede controlar el filtro de página en modo de selección única, limpiarlo para mostrar todos los elementos de página, o cambiar el campo a selección múltiple para que los usuarios puedan elegir varios elementos de página a la vez a través de la interfaz de casillas de verificación en Excel.
+Aspose.Cells admite el ciclo de vida completo de los campos de filtro en las tablas dinámicas. Puede agregar un campo de filtro mediante una API de conveniencia de alto nivel o a través de la colección de bajo nivel `page_fields`, y puede controlar el filtro de página en modo de selección única, limpiarlo para mostrar todos los elementos de página, o cambiar el campo a selección múltiple para que los usuarios puedan elegir varios elementos de página a la vez a través de la interfaz de casillas de verificación en Excel.
 {{% /alert %}}
 
 ## **Introducción**
 
-Un campo de página es un campo dinámico que controla *qué subconjunto* de los datos de origen muestra el cuerpo de la tabla dinámica. Los usuarios finales lo ven como un menú desplegable en la parte superior de una tabla dinámica renderizada en Excel, y al seleccionar uno de los elementos de página disponibles, el cuerpo de la tabla dinámica se reconstruye de modo que solo se resumen los registros que pertenecen a ese elemento de página. Un campo dinámico se convierte en un campo de página cuando se registra como `PivotFieldType.PAGE` en lugar de `PivotFieldType.ROW`, `PivotFieldType.COLUMN`, o `PivotFieldType.DATA`.
+Un campo de filtro es un campo dinámico que controla *qué subconjunto* de los datos de origen muestra el cuerpo de la tabla dinámica. Los usuarios finales lo ven como un menú desplegable en la parte superior de una tabla dinámica renderizada en Excel, y al seleccionar uno de los elementos de página disponibles, el cuerpo de la tabla dinámica se reconstruye de modo que solo se resumen los registros que pertenecen a ese elemento de página. Un campo dinámico se convierte en un campo de filtro cuando se registra como `PivotFieldType.PAGE` en lugar de `PivotFieldType.ROW`, `PivotFieldType.COLUMN`, o `PivotFieldType.DATA`.
 
-Un campo de página puede operar con dos comportamientos. En el comportamiento predeterminado de **selección única**, solo un elemento de página es visible a la vez, por lo que el cuerpo de la tabla dinámica resume exactamente un subconjunto. En el comportamiento de **selección múltiple**, el campo expone una lista de casillas de verificación, y el cuerpo de la tabla dinámica resume la unión de cada elemento de página marcado. La misma fuente de campo puede moverse de un lado a otro entre estos comportamientos alternando una sola propiedad.
+Un campo de filtro puede operar con dos comportamientos. En el comportamiento predeterminado de **selección única**, solo un elemento de página es visible a la vez, por lo que el cuerpo de la tabla dinámica resume exactamente un subconjunto. En el comportamiento de **selección múltiple**, el campo expone una lista de casillas de verificación, y el cuerpo de la tabla dinámica resume la unión de cada elemento de página marcado. La misma fuente de campo puede moverse de un lado a otro entre estos comportamientos alternando una sola propiedad.
 
-Aspose.Cells for Python via .NET expone dos formas equivalentes de registrar un campo de página. La API de alto nivel es `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")`, que toma el nombre de la columna de origen y agrega el campo en una sola llamada. La API de bajo nivel es `PivotTable.page_fields.add(PivotField)`, que se utiliza cuando ya tiene una referencia a `PivotField` y desea agregar la misma instancia de campo al área de página. Ambas API terminan poblando la misma colección `page_fields`, y el resto de este artículo demuestra cómo elegir entre ellas y cómo controlar cada modo de filtrado.
+Aspose.Cells for Python via .NET expone dos formas equivalentes de registrar un campo de filtro. La API de alto nivel es `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")`, que toma el nombre de la columna de origen y agrega el campo en una sola llamada. La API de bajo nivel es `PivotTable.page_fields.add(PivotField)`, que se utiliza cuando ya tiene una referencia a `PivotField` y desea agregar la misma instancia de campo al área de filtro. Ambas API terminan poblando la misma colección `page_fields`, y el resto de este artículo demuestra cómo elegir entre ellas y cómo controlar cada modo de filtrado.
 
-## **Agregar un campo de página**
+## **Agregar un campo de filtro**
 
-Hay dos formas de registrar un campo dinámico en el área de página. La llamada de alto nivel toma el nombre de la columna de origen como una cadena de texto y es la ruta más común. La llamada de bajo nivel acepta una instancia existente de `PivotField` y es conveniente cuando el mismo objeto de campo debe reutilizarse en múltiples áreas dinámicas. Ambas llamadas colocan el campo en `PivotTable.page_fields`, tras lo cual aparece como el menú desplegable de página en la parte superior de la tabla dinámica renderizada.
+Hay dos formas de registrar un campo dinámico en el área de filtro. La llamada de alto nivel toma el nombre de la columna de origen como una cadena de texto y es la ruta más común. La llamada de bajo nivel acepta una instancia existente de `PivotField` y es conveniente cuando el mismo objeto de campo debe reutilizarse en múltiples áreas dinámicas. Ambas llamadas colocan el campo en `PivotTable.page_fields`, tras lo cual aparece como el menú desplegable de página en la parte superior de la tabla dinámica renderizada.
 
-### Agregar un campo de página con add_field_to_area
+### Agregar un campo de filtro con add_field_to_area
 
-El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de página, actualiza la tabla dinámica y guarda el libro de trabajo.
+El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de filtro, actualiza la tabla dinámica y guarda el libro de trabajo.
 
 ```python
 import aspose.cells as ac
@@ -78,9 +78,9 @@ pivot_table.calculate_data()
 workbook.save("pageFieldSample.xlsx")
 ```
 
-### Agregar un campo de página con page_fields.add
+### Agregar un campo de filtro con page_fields.add
 
-Cuando ya trabaja con una instancia de `PivotField`, puede pasarla directamente a `PivotTable.page_fields.add`. La tabla dinámica y el campo de página se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de página con la llamada a la API de bajo nivel.
+Cuando ya trabaja con una instancia de `PivotField`, puede pasarla directamente a `PivotTable.page_fields.add`. La tabla dinámica y el campo de filtro se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de filtro con la llamada a la API de bajo nivel.
 
 ```python
 import aspose.cells as ac
@@ -133,7 +133,7 @@ workbook.save("output.xlsx")
 
 ## **Filtrado de selección única (mostrando un elemento de página)**
 
-En el comportamiento predeterminado de selección única, el campo de página se renderiza como un único menú desplegable y el entero `PivotField.current_page_item` selecciona qué elemento de página controla el cuerpo de la tabla dinámica. Asignar un índice específico selecciona ese único elemento; asignar el centinela especial `0x7FFD` (decimal 32765) borra el filtro para que todos los elementos de página se resuman a la vez. La selección única es el valor predeterminado; no necesita habilitarla explícitamente.
+En el comportamiento predeterminado de selección única, el campo de filtro se renderiza como un único menú desplegable y el entero `PivotField.current_page_item` selecciona qué elemento de página controla el cuerpo de la tabla dinámica. Asignar un índice específico selecciona ese único elemento; asignar el centinela especial `0x7FFD` (decimal 32765) borra el filtro para que todos los elementos de página se resuman a la vez. La selección única es el valor predeterminado; no necesita habilitarla explícitamente.
 
 ### Mostrar todos los elementos
 
@@ -187,7 +187,7 @@ workbook.save("output.xlsx")
 
 ### Mostrar un elemento específico
 
-Establecer `current_page_item` a un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista ordenada de elementos del campo de página, por lo que, por ejemplo, `1` selecciona el segundo elemento después de ordenar.
+Establecer `current_page_item` a un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista ordenada de elementos del campo de filtro, por lo que, por ejemplo, `1` selecciona el segundo elemento después de ordenar.
 
 ```python
 import aspose.cells as ac
@@ -242,7 +242,7 @@ workbook.save("output.xlsx")
 
 El filtrado de selección múltiple convierte el menú desplegable de página en una lista de casillas de verificación y permite al usuario final elegir varios elementos de página simultáneamente. Aspose.Cells expone dos propiedades que trabajan juntas. `PivotField.is_multiple_item_selection_allowed` debe establecerse en `True` antes de que la interfaz de selección múltiple surta efecto. Después de habilitarla, `PivotItem.is_hidden` controla qué elementos aparecen en la lista de casillas de verificación, por lo que puede mostrar todos los elementos o crear una lista blanca solo con elementos específicos.
 
-El código a continuación habilita la selección múltiple en el mismo campo de página Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A muestra cada elemento de página dejando `is_hidden` establecido en `False` para cada entrada, mientras que la Parte B crea una lista blanca solo con los valores de origen que elija y oculta todo lo demás mediante un bloque `if` / `elif` que evalúa `pivot_items[i].get_string_value()`.
+El código a continuación habilita la selección múltiple en el mismo campo de filtro Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A muestra cada elemento de página dejando `is_hidden` establecido en `False` para cada entrada, mientras que la Parte B crea una lista blanca solo con los valores de origen que elija y oculta todo lo demás mediante un bloque `if` / `elif` que evalúa `pivot_items[i].get_string_value()`.
 
 ```python
 import aspose.cells as ac
@@ -317,15 +317,15 @@ La tabla a continuación resume cuándo usar cada API y modo para que pueda eleg
 
 | Escenario / Caso de uso | API recomendada | Propiedad utilizada | Notas |
 |---|---|---|---|
-| Agregar un campo de página por nombre de columna de origen (lo más común) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")` | n/a | Alto nivel, una sola línea. Use esto a menos que necesite una referencia a `PivotField`. |
-| Agregar un campo de página cuando ya tiene un objeto `PivotField` | `PivotTable.page_fields.add(PivotField)` | n/a | Úselo cuando el objeto de campo se obtuvo en otro lugar o necesita reutilizarse. |
+| Agregar un campo de filtro por nombre de columna de origen (lo más común) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")` | n/a | Alto nivel, una sola línea. Use esto a menos que necesite una referencia a `PivotField`. |
+| Agregar un campo de filtro cuando ya tiene un objeto `PivotField` | `PivotTable.page_fields.add(PivotField)` | n/a | Úselo cuando el objeto de campo se obtuvo en otro lugar o necesita reutilizarse. |
 | Filtrar a un único elemento de página (modo predeterminado) | `PivotField.current_page_item` | establecer a un índice específico | Por ejemplo, `1` muestra el segundo elemento en la lista ordenada. |
 | Mostrar todos los elementos / borrar el filtro de página | `PivotField.current_page_item` | establecer a `0x7FFD` | El valor mágico `0x7FFD` (decimal 32765) es el centinela para "todos los elementos". |
 | Habilitar la interfaz de selección múltiple en Excel | `PivotField.is_multiple_item_selection_allowed` | establecer a `True` | Requerido antes de que cualquier llamada a `is_hidden` surta efecto. |
 | Ocultar / mostrar elementos individuales en una lista de selección múltiple | `PivotItem.is_hidden` | establecer por elemento | Al menos un elemento debe permanecer visible (`is_hidden == False`). |
 
 {{% alert color="primary" %}}
-Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si todos los `PivotItem` de un campo de página de selección múltiple están ocultos, Excel se bloquea al abrir o renderiza una tabla dinámica en blanco. Construya su lista blanca contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros de trabajo guardados se abrirán de forma confiable en cualquier máquina.
+Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si todos los `PivotItem` de un campo de filtro de selección múltiple están ocultos, Excel se bloquea al abrir o renderiza una tabla dinámica en blanco. Construya su lista blanca contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros de trabajo guardados se abrirán de forma confiable en cualquier máquina.
 {{% /alert %}}
 
 

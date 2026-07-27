@@ -1,7 +1,7 @@
 ---
 title: Pivot Tabellen
 type: docs
-weight: 110
+weight: 160
 url: /de/python-java/pivot-tables/
 ---
 

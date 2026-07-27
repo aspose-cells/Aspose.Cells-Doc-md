@@ -1,7 +1,7 @@
 ---
 title: Eliminar la tabla dinámica de una hoja de cálculo
 type: docs
-weight: 50
+weight: 700
 url: /es/java/delete-pivot-table-from-a-worksheet/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 从工作表中删除数据透视表
 type: docs
-weight: 50
+weight: 700
 url: /zh/java/delete-pivot-table-from-a-worksheet/
 ---
 

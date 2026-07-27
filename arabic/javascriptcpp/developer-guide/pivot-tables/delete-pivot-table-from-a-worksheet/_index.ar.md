@@ -1,7 +1,7 @@
 ---
 title: حذف جدول الدوران من ورقة العمل
 type: docs
-weight: 60
+weight: 700
 url: /ar/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: استخدام رمز Aspose.Cells for Javaنص برمجي عبر C++ لإزالة الجدول المحوري من أوراق العمل Excel
 keywords: Aspose.Cells for Javaنص برمجي عبر C++ إكسل، مكتبة جافا سكريبت إكسل، إزالة الجدول المحوري من ورقة العمل، حذف الجدول المحوري من إكسل، كيفية حذف الجدول المحوري باستخدام Aspose.Cells for Javaنص برمجي عبر C++، حذف الجدول المحوري، حذف الجدول المحوري من إكسل، حذف الجدول المحوري، Aspose.Cells for Javaنص برمجي عبر C++ يزيل الجدول المحوري، إزالته، حذفه، كيفية حذفه

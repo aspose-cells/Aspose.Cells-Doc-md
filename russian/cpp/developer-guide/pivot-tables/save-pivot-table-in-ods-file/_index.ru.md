@@ -2,7 +2,7 @@
 title: Сохранить сводную таблицу в файле ODS с помощью C++
 linktitle: Сохранить сводную таблицу в файле ODS
 type: docs
-weight: 150
+weight: 800
 url: /ru/cpp/save-pivot-table-in-ods-file/
 description: Узнайте, как сохранять сводные таблицы в файлах ODS с помощью Aspose.Cells for C++.
 ---

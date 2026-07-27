@@ -1,7 +1,7 @@
 ---
 title: Создание сводной таблицы
 type: docs
-weight: 10
+weight: 160
 url: /ru/java/create-pivot-table/
 ---
 

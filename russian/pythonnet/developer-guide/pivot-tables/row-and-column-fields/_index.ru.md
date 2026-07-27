@@ -1,11 +1,11 @@
 ---
-title: Поля строк и столбцов в Aspose.Cells for Python via .NET
+title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
 linktitle: Поля строк и столбцов
 description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять промежуточными итогами полей сводки с помощью PivotField.set_subtotals в Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, сводная таблица, поле строки, поле столбца, PivotField, set_subtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/python-net/row-and-column-fields/
+url: /ru/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

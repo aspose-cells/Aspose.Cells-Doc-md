@@ -1,7 +1,7 @@
 ---
 title: Delete Pivot Table from a Worksheet
 type: docs
-weight: 60
+weight: 700
 url: /net/delete-pivot-table-from-a-worksheet/
 description: C# code to remove PivotTable for Excel Worksheets
 keywords: c# remove pivot table from worksheet, c# remove pivot table from excel, how to delete pivot table with c#, delete pivot table with c#, delete pivot table from excel with c#, c# delete pivot table, c# remove pivot table, remove pivot table, delete pivot table, how to delete pivot table

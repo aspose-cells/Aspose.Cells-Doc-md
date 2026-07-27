@@ -1,6 +1,6 @@
 ---
-title: Refreshing Pivot Tables in Aspose.Cells for Python via .NET
-linktitle: Refreshing Pivot Tables
+title: Refresh Pivot Tables and Pivot Caches in Aspose.Cells for .NET
+linktitle: Refresh Pivot Tables
 description: Learn how to refresh pivot tables in Aspose.Cells for Python via .NET using the v26.7+ pivot-refresh API. This article covers RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData, and GetPivotTables with practical code examples.
 keywords: Aspose.Cells, Python via .NET, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
@@ -41,6 +41,20 @@ Because of this chain, there are two fundamental refresh paths in Aspose.Cells:
 - **`PivotTable.calculate_data()`** — recalculates one `PivotTable`'s display from already-cached data, with no round-trip back to the data source.
 
 All scenarios in this article use worksheet-cell source data, so the source type is `Sheet` and refresh operations behave as described.
+
+## Quick Start
+
+If you just need the shortest possible code that refreshes every pivot in the workbook, a single call is enough:
+
+```csharp
+using Aspose.Cells;
+
+Workbook workbook = new Workbook("input.xlsx");
+workbook.RefreshAll();
+workbook.Save("output.xlsx");
+```
+
+Everything else in this article explains when to choose a narrower API instead.
 
 ## Required Imports
 
@@ -534,5 +548,14 @@ The table below summarizes the available refresh APIs and when to choose each on
 | List all pivot tables on a shared cache | `pivot_cache.get_pivot_tables()` | Use to enumerate before bulk refresh. |
 
 In practice, prefer the cache-based APIs over the obsolete per-table `refresh_data()`. They are aware of shared caches, they avoid redundant source fetches, and they let you choose the smallest scope that satisfies your refresh requirement.
+
+
+
+## Common Pitfalls
+
+- **Forgetting to refresh before saving.** A pivot table only writes its rendered values into the worksheet when its data chain is refreshed. If you modify source cells, call `PivotCache.Refresh()` (or `Workbook.RefreshAll()`) before `Workbook.Save()`, otherwise the saved file still contains the old aggregated values.
+- **Calling the obsolete `RefreshData()` per table.** In v26.7, `PivotTable.RefreshData()` is marked obsolete and re-fetches the source for every call. With multiple pivot tables sharing a cache this means N redundant source fetches. Replace with a single `PivotCache.Refresh()` followed by `CalculateData()` per table.
+- **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.Refresh()` is unnecessary and slow. Call `pivotTable.CalculateData()` to re-render from the existing cache.
+- **External source not supported by `PivotCache.Refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.Refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
 {{< app/cells/assistant language="python" >}}

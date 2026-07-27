@@ -1,6 +1,6 @@
 ---
-title: Actualiser les tableaux croisés dynamiques dans Aspose.Cells for Java
-linktitle: Actualiser les tableaux croisés dynamiques dans Aspose.Cells for Java
+title: Actualiser les tableaux croisés dynamiques et les caches de tableau croisé dans Aspose.Cells pour .NET
+linktitle: Actualiser les tableaux croisés dynamiques
 description: Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for Java en utilisant l'API de rafraîchissement des pivots v26.7+. Cet article couvre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData et GetPivotTables avec des exemples de code pratiques.
 keywords: Aspose.Cells, Java, tableau croisé dynamique, actualiser, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

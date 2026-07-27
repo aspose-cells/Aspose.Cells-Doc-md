@@ -2,7 +2,7 @@
 title: Pivot Tabelle im ODS Format mit C++ speichern
 linktitle: Pivot Tabelle im ODS Format speichern
 type: docs
-weight: 150
+weight: 800
 url: /de/cpp/save-pivot-table-in-ods-file/
 description: Erfahren Sie, wie Sie Pivot Tabellen mit Aspose.Cells for C++ im ODS Format speichern.
 ---

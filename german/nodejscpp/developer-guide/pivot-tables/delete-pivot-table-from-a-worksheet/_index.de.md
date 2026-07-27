@@ -1,7 +1,7 @@
 ---
 title: Pivot Tabelle aus einem Arbeitsblatt löschen
 type: docs
-weight: 60
+weight: 700
 url: /de/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Aspose.Cells for Node.js via C++ Code zum Entfernen von PivotTable für Excel Arbeitsblätter
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js Bibliothek, Pivot Tabelle aus Arbeitsblatt entfernen, Pivot Tabelle aus Excel entfernen, wie man Pivot Tabelle mit Aspose.Cells for Node.js via C++ löscht, Pivot Tabelle löschen, Pivot Tabelle aus Excel löschen, Pivot Tabelle löschen, Aspose.Cells for Node.js via C++ Entfernen der Pivot Tabelle, Pivot Tabelle entfernen, Pivot Tabelle löschen, wie man Pivot Tabelle löscht

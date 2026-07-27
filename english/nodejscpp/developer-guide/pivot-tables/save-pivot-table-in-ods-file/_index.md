@@ -1,7 +1,7 @@
 ---
 title: Save Pivot Table in ODS file
 type: docs
-weight: 150
+weight: 800
 url: /nodejs-cpp/save-pivot-table-in-ods-file/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"

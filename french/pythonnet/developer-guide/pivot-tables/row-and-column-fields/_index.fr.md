@@ -1,11 +1,11 @@
 ---
-title: Champs de ligne et de colonne dans Aspose.Cells for Python via .NET
+title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells pour .NET
 linktitle: Champs de ligne et de colonne
 description: Apprenez à ajouter des champs de base aux zones de ligne et de colonne d'un tableau croisé dynamique et à contrôler les sous-totaux des champs croisés à l'aide de PivotField.set_subtotals dans Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, set_subtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/python-net/row-and-column-fields/
+url: /fr/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

@@ -1,7 +1,7 @@
 ---
 title: Удалить сводную таблицу из листа
 type: docs
-weight: 60
+weight: 700
 url: /ru/python-net/delete-pivot-table-from-a-worksheet/
 description: Код Python via .NET для удаления сводной таблицы из электронных таблиц Excel
 keywords: Aspose.Cells для Python Excel, библиотека Excel Python, Python via .NET удалить сводную таблицу из электронной таблицы, Python via .NET удалить сводную таблицу из Excel, как удалить сводную таблицу с использованием Python via .NET, удалить сводную таблицу с использованием Python via .NET, удалить сводную таблицу из Excel с использованием Python via .NET, Python via .NET удалить сводную таблицу, Python via .NET удалить сводную таблицу, удалить сводную таблицу, удалить сводную таблицу, как удалить сводную таблицу

@@ -1,7 +1,7 @@
 ---
 title: Actualización de tablas dinámicas en Aspose.Cells for Node.js via C++
 linktitle: Actualización de tablas dinámicas en Aspose.Cells for Node.js via C++
-description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells for Node.js via C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
+description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells for Node.js via C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos de código prácticos.
 keywords: Aspose.Cells, Node.js via C++, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -12,48 +12,48 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona una API de actualización por capas que le permite recargar datos de tablas dinámicas en cuatro niveles diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Node.js via C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe sustituirse por las APIs más eficientes y conscientes del caché que se describen en este artículo.
+Aspose.Cells ofrece una API de actualización por capas que permite recargar los datos de tablas dinámicas en cuatro alcances diferentes, desde todo el libro de trabajo hasta una sola tabla dinámica. A partir de **Aspose.Cells for Node.js via C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe reemplazarse por las API más eficientes y conscientes de la caché descritas en este artículo.
 
 {{% /alert %}}
 
 ## Introducción
 
-Actualizar una tabla dinámica rara vez es una operación única. Entre bastidores, Aspose.Cells mantiene una cadena de datos en capas que conecta sus datos de origen originales con los valores renderizados que ve en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cada situación.
+Actualizar una tabla dinámica rara vez es una operación única. En segundo plano, Aspose.Cells mantiene una cadena de datos por capas que conecta los datos de origen originales con los valores renderizados que se ven en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cualquier situación.
 
 La cadena de datos de cuatro capas es:
 
-1. **Fuente de datos** — los rangos originales de la hoja de cálculo, la consulta a la base de datos o el rango de consolidación donde se encuentran los valores sin procesar.
-2. **PivotCache** — la instantánea en memoria de los datos de origen. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y se agregan todos los datos.
+1. **Fuente de datos** — los rangos originales de la hoja de cálculo, la consulta a la base de datos o el rango de consolidación donde residen los valores sin procesar.
+2. **PivotCache** — la instantánea en memoria de los datos de origen. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y agregan todos los datos.
 3. **PivotTable** — el objeto de vista que define los campos de fila, columna, valor y filtro. Una `PivotTable` lee *solo* desde su `PivotCache`, nunca directamente desde la fuente de datos.
-4. **Cells** — las `Cells` de la hoja de cálculo en las que la `PivotTable` renderiza sus valores calculados y estilos.
+4. **Cells** — los `Cells` de la hoja de cálculo en los que la `PivotTable` renderiza sus valores calculados y estilos.
 
-Un concepto particularmente importante es el **caché compartido**. Cuando varias tablas dinámicas en un libro hacen referencia al mismo rango de origen, comparten *una* instancia de `PivotCache`. Una sola `PivotCache` puede ser referenciada por muchas tablas dinámicas, y actualizar ese caché actualiza todas las `PivotTable` dependientes a la vez.
+Un concepto particularmente importante es la **caché compartida**. Cuando varias tablas dinámicas en un libro de trabajo hacen referencia al mismo rango de origen, comparten *una* instancia de `PivotCache`. Una sola `PivotCache` puede ser referenciada por muchas tablas dinámicas, y actualizar esa caché actualiza cada `PivotTable` dependiente a la vez.
 
 {{% alert color="primary" %}}
 
-`PivotCache.SourceType` (enum `PivotTableSourceType`) indica de dónde provienen los datos del caché. A partir de la v26.7, `PivotCache.Refresh()` solo admite los tipos de origen **`Sheet`** y **`Consolidation`**; es decir, datos que se encuentran en rangos de hojas de cálculo. Las fuentes externas (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) indica de dónde provienen los datos de la caché. A partir de la v26.7, `PivotCache.Refresh()` solo admite los tipos de origen **`Sheet`** y **`Consolidation`**, es decir, datos que residen en rangos de hojas de cálculo. Las fuentes externas (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
 
 {{% /alert %}}
 
 Debido a esta cadena, existen dos rutas de actualización fundamentales en Aspose.Cells:
 
 - **`PivotCache.Refresh()`** — recarga origen → caché Y recalcula todas las `PivotTable` dependientes en una sola operación.
-- **`PivotTable.CalculateData()`** — recalcula la visualización de una `PivotTable` a partir de datos ya almacenados en caché, sin volver a la fuente de datos.
+- **`PivotTable.CalculateData()`** — recalcula la visualización de una `PivotTable` a partir de los datos ya en caché, sin necesidad de volver a la fuente de datos.
 
-Todos los escenarios de este artículo utilizan datos de origen en celdas de la hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
+Todos los escenarios de este artículo utilizan datos de origen de celdas de hojas de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
 
 ## Importaciones requeridas
 
-Todos los ejemplos de JavaScript de este artículo asumen que el módulo Aspose.Cells for Node.js via C++ se ha cargado y que los tipos de tablas dinámicas se encuentran en el espacio de nombres `Aspose.Cells.Pivot`. Una configuración típica es:
+Todos los ejemplos de JavaScript en este artículo asumen que el módulo Aspose.Cells for Node.js via C++ ha sido cargado y que los tipos de tablas dinámicas residen en el namespace `Aspose.Cells.Pivot`. Una configuración típica es:
 
 - `const AsposeCells = require("aspose.cells.node");`
 - `const { PivotFieldType } = AsposeCells;` (o acceder mediante `AsposeCells.Pivot.PivotFieldType`)
 
-## Actualizar todas las tablas dinámicas del libro
+## Actualizar todas las tablas dinámicas del libro de trabajo
 
-Cuando necesite asegurarse de que cada caché de tablas dinámicas y cada tabla dinámica del libro refleje los últimos datos de origen, la API más sencilla y completa es `Workbook.RefreshAll()`. Una sola llamada recorre todo el libro: actualiza cada `PivotCache` desde su origen y luego recalcula cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales de documentos completos donde el rendimiento no es una preocupación.
+Cuando necesita asegurarse de que cada caché de tablas dinámicas y cada tabla dinámica del libro de trabajo reflejen los datos de origen más recientes, la API más simple y completa es `Workbook.RefreshAll()`. Una sola llamada recorre todo el libro de trabajo, actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales de documentos completos donde el rendimiento no es una preocupación.
 
-El siguiente ejemplo crea un libro con un rango de origen Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores de origen y luego utiliza `RefreshAll()` para actualizar todo en una sola llamada.
+El siguiente ejemplo crea un libro de trabajo con un rango de origen Fruit/Year/Amount, crea una tabla dinámica, modifica algunos valores de origen y luego utiliza `RefreshAll()` para actualizar todo en una sola llamada.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -64,7 +64,7 @@ worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// Escribir filas de datos en las celdas A2:C9 (8 filas de datos de frutas entre 2020 y 2021)
+// Escribir filas de datos en las celdas A2:C9 (8 filas de datos de frutas en 2020 y 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -120,11 +120,11 @@ workbook.save("output.xlsx");
 
 ## Actualizar todas las tablas dinámicas en una sola hoja de cálculo
 
-A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica, por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben tocarse. Para este caso, Aspose.Cells proporciona `Worksheet.RefreshPivotTables()`, que está limitado a una sola instancia de `Worksheet`.
+A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica, por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben modificarse. Para este caso, Aspose.Cells proporciona `Worksheet.RefreshPivotTables()`, que tiene como alcance una sola instancia de `Worksheet`.
 
-Esto es más selectivo que `Workbook.RefreshAll()`: solo se actualizan las tablas dinámicas en la hoja de cálculo objetivo, dejando intactas las tablas dinámicas en otras hojas de cálculo.
+Esto es más selectivo que `Workbook.RefreshAll()`: solo se actualizan las tablas dinámicas de la hoja de cálculo objetivo, dejando intactas las tablas dinámicas de otras hojas de cálculo.
 
-El siguiente ejemplo rellena los mismos datos de origen Fruta/Año/Cantidad, agrega una tabla dinámica en la primera hoja de cálculo, modifica algunos valores de origen y luego actualiza solo las tablas dinámicas en esa hoja de cálculo.
+El siguiente ejemplo completa los mismos datos de origen Fruit/Year/Amount, añade una tabla dinámica en la primera hoja de cálculo, modifica algunos valores de origen y luego actualiza solo las tablas dinámicas en esa hoja de cálculo.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -184,19 +184,19 @@ workbook.save("output.xlsx");
 
 ## Actualizar una sola tabla dinámica
 
-Cuando desee un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente haya cambiado: los datos de origen subyacentes, o solo la configuración de la vista o el diseño de la tabla dinámica.
+Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente haya cambiado: los datos de origen subyacentes o solo la configuración de vista/diseño de la tabla dinámica.
 
-### Los datos de origen cambiaron — Use `PivotCache.Refresh()`
+### Datos de origen modificados — Use `PivotCache.Refresh()`
 
-Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.PivotCache.Refresh()`. Esta llamada vuelve a leer los datos de origen en el caché y luego recalcula cada `PivotTable` que depende de ese caché.
+Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.PivotCache.Refresh()`. Esta llamada vuelve a leer los datos de origen en la caché y luego recalcula cada `PivotTable` que depende de esa caché.
 
 {{% alert color="primary" %}}
 
-Dado que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.Refresh()` recalcula **todas** las tablas dinámicas construidas sobre ese mismo caché, no solo la que usted referencia. Si dos tablas dinámicas comparten el mismo rango de origen, actualizar un caché actualiza ambas.
+Dado que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.Refresh()` recalcula **todas** las tablas dinámicas construidas sobre esa misma caché, no solo aquella a la que hace referencia. Si dos tablas dinámicas comparten el mismo rango de origen, actualizar una caché actualiza ambas.
 
 {{% /alert %}}
 
-El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen para demostrar este comportamiento de caché compartido, modifica algunos valores de origen y luego actualiza a través de una referencia de caché.
+El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen para demostrar este comportamiento de caché compartida, modifica algunos valores de origen y luego actualiza a través de una referencia de caché.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -205,12 +205,12 @@ const AsposeCells = require("aspose.cells");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 
-// Escribir la fila de encabezados: Fruta / Año / Cantidad
+// Escribir la fila de encabezado: Fruta / Año / Cantidad
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// Escribir aproximadamente 9 filas de datos (uva / arándano / kiwi / cereza en 2020-2021)
+// Escribir aproximadamente 9 filas de datos (uva / arándano / kiwi / cereza entre 2020-2021)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -268,7 +268,7 @@ worksheet.getCells().get("C4").putValue(350);
 worksheet.getCells().get("C7").putValue(650);
 
 // Refrescar el PivotCache compartido.
-// Debido a que Pivot1 y Pivot2 comparten el mismo PivotCache, esta única llamada
+// Como Pivot1 y Pivot2 comparten el mismo PivotCache, esta única llamada
 // refresca AMBAS tablas dinámicas (datos + estilo) desde el origen actualizado.
 pivotTable1.getPivotCache().refresh();
 
@@ -278,17 +278,17 @@ workbook.save("output.xlsx");
 
 ### Solo cambió la vista/diseño — Use `CalculateData()`
 
-Si los datos de origen *no* han cambiado pero solo se han modificado la configuración de la vista o el diseño de la tabla dinámica (por ejemplo, un campo se ha movido a un área diferente, o se ha activado una configuración de actualización al abrir), no es necesario volver a la fuente de datos. El caché ya contiene los datos correctos; solo se necesita recalcular la `PivotTable` renderizada. En este caso, `pivotTable.CalculateData()` es la elección correcta.
+Si los datos de origen *no* han cambiado pero solo se ha modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente, o se ha activado una configuración de actualización al abrir), no es necesario volver a la fuente de datos. La caché ya contiene los datos correctos; solo es necesario recalcular la `PivotTable` renderizada. En este caso, `pivotTable.CalculateData()` es la opción correcta.
 
-Esto evita la recuperación innecesaria del origen y es significativamente más rápido cuando muchas tablas dinámicas comparten el mismo caché.
+Esto evita la búsqueda innecesaria en el origen y es significativamente más rápido cuando muchas tablas dinámicas comparten la misma caché.
 
-El siguiente ejemplo modifica una propiedad que no es del origen de la tabla dinámica y luego llama a `CalculateData()` para volver a renderizarla desde el caché existente.
+El siguiente ejemplo modifica una propiedad que no es de origen de la tabla dinámica y luego llama a `CalculateData()` para volver a renderizarla desde la caché existente.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 
-// Escribir fila de encabezado Fruta / Año / Cantidad
+// Escribir la fila de encabezado Fruta / Año / Cantidad
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -326,22 +326,22 @@ worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
 
-// Agregar una tabla dinámica llamada "Pivot1" colocada en la celda de destino E3, con origen en A1:C9
+// Agregar una tabla dinámica llamada "Pivot1" ubicada en la celda de destino E3, con origen en A1:C9
 var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
-// Asignar campos: Fruta a Fila, Año a Columna, Cantidad a Datos
+// Asignar campos: Fruit a Fila, Year a Columna, Amount a Datos
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
 // Modificar una propiedad de vista/diseño — este es un cambio solo de presentación,
-// por lo que NO requiere releer los datos de origen a través de PivotCache.Refresh().
+// por lo que NO requiere volver a leer los datos de origen a través de PivotCache.Refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
 
-// CalculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
-// datos ya almacenados en el PivotCache. Debido a que los datos de origen no cambiaron,
-// no se realiza un viaje de ida y vuelta al origen — solo se recalculan los valores en caché
+// calculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
+// datos ya almacenados en el PivotCache. Dado que los datos de origen no cambiaron,
+// no se realiza ningún viaje de ida y vuelta al origen — solo se recalculan los valores en caché
 // en las celdas de la hoja de cálculo.
 pivotTable.calculateData();
 
@@ -351,11 +351,11 @@ workbook.save("output.xlsx");
 
 ## Obtener todas las tablas dinámicas que comparten el mismo PivotCache
 
-Un libro a menudo contiene muchas tablas dinámicas que se asientan sobre un único caché compartido. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes o para diagnosticar el impacto del caché compartido, use `PivotCache.GetPivotTables()`. Este método devuelve la colección de cada `PivotTable` que depende del caché dado.
+Un libro de trabajo a menudo contiene muchas tablas dinámicas que se asientan sobre una caché compartida. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes o para diagnosticar el impacto de la caché compartida, use `PivotCache.GetPivotTables()`. Este método devuelve la colección de cada `PivotTable` que depende de la caché dada.
 
-Esta es también la forma más directa de confirmar que dos tablas dinámicas efectivamente comparten la misma instancia de `PivotCache`: puede comparar las referencias del caché o simplemente iterar la colección devuelta por `GetPivotTables()` y observar qué tablas dinámicas aparecen en ella.
+Esta es también la forma más directa de confirmar que dos tablas dinámicas realmente comparten la misma instancia de `PivotCache`: puede comparar las referencias de caché, o simplemente iterar la colección devuelta por `GetPivotTables()` y observar qué tablas dinámicas aparecen en ella.
 
-El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas del caché.
+El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas de la caché.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -429,20 +429,20 @@ workbook.save("output.xlsx");
 
 ## Migración desde el obsoleto `PivotTable.RefreshData()`
 
-Antes de Aspose.Cells for Node.js via C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe sustituirse por las APIs conscientes del caché descritas anteriormente.
+Antes de Aspose.Cells for Node.js via C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse por las API conscientes de la caché descritas anteriormente.
 
-Hay dos razones por las que el enfoque `RefreshData()` por tabla es problemático en libros del mundo real:
+Hay dos razones por las que el enfoque `RefreshData()` por tabla es problemático en libros de trabajo del mundo real:
 
-- Vuelve a obtener datos del origen *cada* vez que se llama, incluso cuando el origen no ha cambiado.
-- Cada llamada actualiza todo el caché compartido. Cuando muchas tablas dinámicas comparten un caché, llamar repetidamente a `RefreshData()` por tabla dinámica hace que el mismo caché se vuelva a obtener una y otra vez, lo cual es muy lento.
+- Recupera datos del origen *cada* vez que se llama, incluso cuando el origen no ha cambiado.
+- Cada llamada actualiza toda la caché compartida. Cuando muchas tablas dinámicas comparten una caché, llamar repetidamente a `RefreshData()` por cada tabla dinámica hace que la misma caché se recupere una y otra vez, lo cual es muy lento.
 
 Los reemplazos recomendados son:
 
-- **Actualizar TODAS las tablas dinámicas del libro** → use `workbook.refreshAll();`
-- **Actualizar ALGUNAS de ellas** → use `pivotTable.PivotCache.Refresh();` para un caché. Debido a que el caché es compartido, esta única llamada actualiza cada tabla dinámica construida sobre ese caché. Otras tablas dinámicas que se asientan sobre un caché ya actualizado se pueden omitir de forma segura.
-- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivotTable.CalculateData();` para volver a renderizar desde el caché existente sin volver al origen.
+- **Actualizar TODAS las tablas dinámicas del libro de trabajo** → use `workbook.refreshAll();`
+- **Actualizar ALGUNAS de ellas** → use `pivotTable.PivotCache.Refresh();` para una caché. Debido a que la caché es compartida, esta sola llamada actualiza cada tabla dinámica construida sobre esa caché. Otras tablas dinámicas que se asientan sobre una caché ya actualizada pueden omitirse de forma segura.
+- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivotTable.CalculateData();` para volver a renderizar desde la caché existente sin ningún viaje al origen.
 
-El siguiente ejemplo demuestra el nuevo patrón eficiente para libros con múltiples tablas dinámicas que comparten un único caché.
+El siguiente ejemplo demuestra el nuevo patrón eficiente para libros de trabajo con múltiples tablas dinámicas que comparten una sola caché.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -469,12 +469,12 @@ pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// --- Agregar la SEGUNDA tabla dinámica (Pivot2) en el MISMO rango de origen ---
+// --- Agregar la SEGUNDA tabla dinámica (Pivot2) sobre el MISMO rango de origen ---
 // Tanto Pivot1 como Pivot2 comparten UN único PivotCache subyacente.
-// Este es exactamente el escenario donde el patrón heredado por tabla
-// RefreshData() se vuelve ineficiente: al refrescar una tabla se vuelve
-// a obtener todo el caché compartido, por lo que refrescar N tablas
-// realiza la misma obtención costosa N veces.
+// Este es exactamente el escenario donde el enfoque antiguo de RefreshData()
+// por tabla se vuelve ineficiente: refrescar una tabla vuelve a obtener
+// todo el caché compartido, por lo que refrescar N tablas realiza la misma
+// obtención costosa N veces.
 let idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
 let pivotTable2 = sheet.getPivotTables().get(idx2);
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
@@ -482,28 +482,28 @@ pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 // --- Modificar varios valores de Cantidad en los datos de origen ---
-sheet.getCells().get("C2").putValue(5000);   // Grape  2020
-sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
-sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
+sheet.getCells().get("C2").putValue(5000);   // Uva    2020
+sheet.getCells().get("C5").putValue(7500);   // Cereza 2020
+sheet.getCells().get("C9").putValue(9500);   // Cereza 2021
 
 // --- Patrón OBSOLETO (anterior a 26.7) — PivotTable.RefreshData() ---
-// pivotTable1.RefreshData();  // vuelve a obtener datos del origen, refresca todo el caché
+// pivotTable1.RefreshData();  // vuelve a obtener desde el origen, refresca todo el caché
 // pivotTable2.RefreshData();  // vuelve a obtener DE NUEVO — ¡el caché ya está actualizado!
 // Cada llamada reconstruye el caché compartido, por lo que N tablas = N obtenciones redundantes.
 
 // --- NUEVO patrón v26.7+: refrescar el caché UNA VEZ, luego re-renderizar según sea necesario ---
-// Una sola llamada a PivotCache.Refresh() extrae los valores modificados
-// en el caché compartido Y recalcula la visualización de CADA tabla dinámica
-// que hace referencia a él. Debido a que Pivot1 y Pivot2 comparten un PivotCache,
-// esta única llamada actualiza ambas tablas — no se requiere un segundo viaje al origen.
+// Una llamada a PivotCache.Refresh() extrae los valores modificados al caché
+// compartido Y recalcula la visualización de CADA tabla dinámica que lo referencia.
+// Debido a que Pivot1 y Pivot2 comparten un único PivotCache, esta única llamada
+// actualiza ambas tablas — no se requiere un segundo viaje de ida y vuelta al origen.
 pivotTable1.getPivotCache().refresh();
 
-// CalculateData() solo vuelve a renderizar la visualización de una tabla
-// dinámica (datos + estilo) a partir de los datos ya contenidos en el caché
-// — NO toca el origen. Lo llamamos en Pivot2 aquí puramente para demostrar
-// la API: después de que el caché se haya refrescado una vez, cualquier tabla
-// dependiente se puede re-renderizar sin volver al origen. Use CalculateData()
-// por sí solo cuando solo haya cambiado la vista/diseño de la tabla dinámica
+// CalculateData() solo re-renderiza la visualización de una tabla dinámica
+// (datos + estilo) a partir de los datos ya contenidos en el caché — NO toca
+// el origen. Lo llamamos en Pivot2 aquí puramente para demostrar la API:
+// después de que el caché se ha refrescado una vez, cualquier tabla dependiente
+// puede re-renderizarse sin volver al origen. Use CalculateData() por sí solo
+// cuando solo la configuración de vista/diseño de la tabla dinámica haya cambiado
 // y el caché esté actualizado.
 pivotTable2.calculateData();
 
@@ -512,16 +512,23 @@ workbook.save("output.xlsx");
 
 ## ¿Qué API de actualización debo usar?
 
-La tabla a continuación resume las APIs de actualización disponibles y cuándo elegir cada una.
+La siguiente tabla resume las API de actualización disponibles y cuándo elegir cada una.
 
 | Objetivo | API recomendada | Notas |
 |------|-----------------|-------|
-| Actualizar todo en el libro | `Workbook.RefreshAll()` | Una llamada; cubre todos los cachés y tablas. |
-| Actualizar solo las tablas dinámicas en una sola hoja | `Worksheet.RefreshPivotTables()` | Limitado a una hoja de cálculo. |
-| Los datos de origen cambiaron para un caché | `pivotTable.PivotCache.Refresh()` | Actualiza TODAS las tablas dinámicas en ese caché compartido. |
-| Solo cambió la configuración de la vista/diseño | `pivotTable.CalculateData()` | Omite el viaje innecesario al origen. |
-| Listar todas las tablas dinámicas en un caché compartido | `pivotCache.GetPivotTables()` | Úselo para enumerar antes de una actualización masiva. |
+| Actualizar todo en el libro de trabajo | `Workbook.RefreshAll()` | Una llamada; cubre todas las cachés y tablas. |
+| Actualizar solo las tablas dinámicas en una sola hoja | `Worksheet.RefreshPivotTables()` | Con alcance en una hoja de cálculo. |
+| Los datos de origen cambiaron para una caché | `pivotTable.PivotCache.Refresh()` | Actualiza TODAS las tablas dinámicas en esa caché compartida. |
+| Solo cambió la configuración de vista/diseño | `pivotTable.CalculateData()` | Omite el viaje innecesario al origen. |
+| Listar todas las tablas dinámicas en una caché compartida | `pivotCache.GetPivotTables()` | Use para enumerar antes de la actualización por lotes. |
 
-En la práctica, prefiera las APIs basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de los cachés compartidos, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisface su requisito de actualización.
+En la práctica, prefiera las API basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.
+
+## Artículos relacionados
+
+- [Insertar una imagen en una celda](/cells/es/nodejs-cpp/inserting-an-image-into-a-cell/)
+- [Leer y escribir archivos DBF](/cells/es/nodejs-cpp/dbf/)
+- [Dividir archivos Excel en varios archivos](/cells/es/nodejs-cpp/splitting-excel-files-into-multiple-files/)
+- [Minigráficos en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/sparkline/)
 
 {{< app/cells/assistant language="javascript" >}}

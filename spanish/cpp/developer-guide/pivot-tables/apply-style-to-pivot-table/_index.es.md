@@ -1,5 +1,5 @@
 ---
-title: Aplicar estilos a tablas dinámicas
+title: Aplicar estilos a tablas dinámicas en Aspose.Cells para .NET
 linktitle: Aplicar estilos a tablas dinámicas
 description: Aprenda a aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for C++, que cubre autoformatos XLS heredados, estilos con nombre modernos de Excel 2007+, estilos personalizados de tabla dinámica y el atajo FormatAll.
 keywords: Aspose.Cells C++ pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles

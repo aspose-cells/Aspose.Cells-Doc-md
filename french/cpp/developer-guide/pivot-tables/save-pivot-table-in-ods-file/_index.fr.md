@@ -2,7 +2,7 @@
 title: Enregistrer le tableau croisé dynamique dans un fichier ODS avec C++
 linktitle: Enregistrer le tableau croisé dynamique dans un fichier ODS
 type: docs
-weight: 150
+weight: 800
 url: /fr/cpp/save-pivot-table-in-ods-file/
 description: Apprenez comment enregistrer des tableaux croisés dynamiques dans des fichiers ODS en utilisant Aspose.Cells for C++.
 ---

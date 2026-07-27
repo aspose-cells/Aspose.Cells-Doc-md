@@ -1,6 +1,6 @@
 ---
-title: Application de styles aux tableaux croisés dynamiques
-linktitle: Application de styles aux tableaux croisés dynamiques
+title: Appliquer des styles aux tableaux croisés dynamiques dans Aspose.Cells pour .NET
+linktitle: Appliquer des styles aux tableaux croisés dynamiques
 description: Apprenez à appliquer des styles intégrés et personnalisés aux tableaux croisés dynamiques dans Aspose.Cells for Java, couvrant les autoformats XLS hérités, les styles nommés modernes d'Excel 2007+, les styles personnalisés de tableau croisé dynamique et le raccourci FormatAll.
 keywords: Aspose.Cells Java style de tableau croisé dynamique, PivotTableStyleType, AutoFormatType, FormatAll, style personnalisé, PivotTableStyleName, TableStyles
 type: docs

@@ -2,7 +2,7 @@
 title: Delete Pivot Table from a Worksheet with Golang via C++
 linktitle: Delete Pivot Table
 type: docs
-weight: 60
+weight: 700
 url: /go-cpp/delete-pivot-table-from-a-worksheet/
 description: C++ code to remove PivotTable for Excel Worksheets using Aspose.Cells.
 keywords: c++ remove pivot table from worksheet, c++ remove pivot table from excel, how to delete pivot table with c++, delete pivot table with c++, delete pivot table from excel with c++, c++ delete pivot table, c++ remove pivot table, remove pivot table, delete pivot table, how to delete pivot table

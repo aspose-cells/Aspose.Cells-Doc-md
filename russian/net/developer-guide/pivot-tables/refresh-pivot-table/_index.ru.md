@@ -1,6 +1,6 @@
 ---
-title: Обновление сводных таблиц в Aspose.Cells for .NET
-linktitle: Обновление сводных таблиц
+title: Обновить сводные таблицы и кэши сводных таблиц в Aspose.Cells для .NET
+linktitle: Обновить сводные таблицы
 description: Узнайте, как обновлять сводные таблицы в Aspose.Cells for .NET с помощью API обновления сводных таблиц v26.7+. В этой статье рассматриваются RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData и GetPivotTables с практическими примерами кода.
 keywords: Aspose.Cells, .NET, сводная таблица, обновление, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

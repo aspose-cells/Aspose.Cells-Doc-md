@@ -1,7 +1,7 @@
 ---
 title: 从工作表中删除数据透视表
 type: docs
-weight: 60
+weight: 700
 url: /zh/net/delete-pivot-table-from-a-worksheet/
 description: 用于在Excel工作表中删除数据透视表的C#代码
 keywords: c#删除工作表中的数据透视表，c#删除Excel中的数据透视表，如何使用c#删除数据透视表，删除Excel数据透视表的c#，c#删除数据透视表，c#移除数据透视表，移除数据透视表，删除数据透视表，如何删除数据透视表

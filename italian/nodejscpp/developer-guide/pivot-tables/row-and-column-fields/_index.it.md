@@ -1,11 +1,11 @@
 ---
-title: Row and Column Fields in Aspose.Cells for Node.js via C++
-linktitle: Campi di riga e colonna
+title: Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET
+linktitle: Campi riga e colonna
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /it/nodejs-cpp/row-and-column-fields/
+url: /it/nodejs-cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

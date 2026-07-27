@@ -1,7 +1,7 @@
 ---
 title: Eliminar la tabla dinámica de una hoja de cálculo
 type: docs
-weight: 60
+weight: 700
 url: /es/net/delete-pivot-table-from-a-worksheet/
 description: Código de C# para eliminar Tabla Dinámica de las hojas de cálculo de Excel
 keywords: c# eliminar tabla dinámica de hoja de cálculo, c# eliminar tabla dinámica de Excel, cómo eliminar tabla dinámica con c#, eliminar tabla dinámica con c#, eliminar tabla dinámica de Excel con c#, c# eliminar tabla dinámica, c# quitar tabla dinámica, quitar tabla dinámica, eliminar tabla dinámica, cómo eliminar tabla dinámica

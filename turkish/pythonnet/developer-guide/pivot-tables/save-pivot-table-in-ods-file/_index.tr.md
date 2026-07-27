@@ -1,7 +1,7 @@
 ---
 title: Özet Tabloyu ODS Dosyasına Kaydetme
 type: docs
-weight: 150
+weight: 800
 url: /tr/python-net/save-pivot-table-in-ods-file/
 description: Aspose.Cells for Python via .NET ile pivot tablosunun ODS dosyasına nasıl kaydedileceği gösterilmektedir.
 keywords: Aspose.Cells, Python için Excel, Excel Python kütüphanesi, Aspose.Cells ile Python Excel Kütüphanesi kullanarak ODS dosyasında özet tabloyu kaydetme.

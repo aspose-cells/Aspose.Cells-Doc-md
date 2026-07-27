@@ -1,34 +1,34 @@
 ---
-title: 数据透视表中的页面字段
-linktitle: 数据透视表中的页面字段
-description: 学习如何使用 Aspose.Cells for Node.js via Java 在数据透视表中添加和配置页面字段，包括添加页面字段、单选过滤和多选过滤。
-keywords: Aspose.Cells, Node.js via Java, 数据透视表, 页面字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 过滤
+title: 在 Aspose.Cells for .NET 中向数据透视表添加筛选字段
+linktitle: 添加筛选字段
+description: 学习如何使用 Aspose.Cells for Node.js via Java 在数据透视表中添加和配置筛选字段，包括添加筛选字段、单选过滤和多选过滤。
+keywords: Aspose.Cells, Node.js via Java, 数据透视表, 筛选字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 过滤
 type: docs
 weight: 250
-url: /zh/nodejs-java/add-page-field-in-pivot-table/
+url: /zh/nodejs-java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells 支持数据透视表中页面字段的完整生命周期。您可以通过高级便捷 API 或通过低级别的 `PageFields` 集合来添加页面字段，并且可以以单选模式驱动页面过滤器、清除它以显示每个页面项，或者将字段切换为多选模式，以便用户能够通过 Excel 中的复选框 UI 一次选择多个页面项。
+Aspose.Cells 支持数据透视表中筛选字段的完整生命周期。您可以通过高级便捷 API 或通过低级别的 `PageFields` 集合来添加筛选字段，并且可以以单选模式驱动页面过滤器、清除它以显示每个筛选项，或者将字段切换为多选模式，以便用户能够通过 Excel 中的复选框 UI 一次选择多个筛选项。
 {{% /alert %}}
 
 ## **介绍**
 
-页面字段是一种数据透视字段，它控制数据透视表主体显示源数据的*哪个子集*。最终用户在 Excel 中将其视为已渲染数据透视表顶部的下拉列表，选择可用的页面项之一后，数据透视表主体会重新构建，以便仅汇总属于该页面项的记录。当数据透视字段注册为 `PivotFieldType.Page` 而非 `PivotFieldType.Row`、`PivotFieldType.Column` 或 `PivotFieldType.Data` 时，它就成为页面字段。
+筛选字段是一种数据透视字段，它控制数据透视表主体显示源数据的*哪个子集*。最终用户在 Excel 中将其视为已渲染数据透视表顶部的下拉列表，选择可用的筛选项之一后，数据透视表主体会重新构建，以便仅汇总属于该筛选项的记录。当数据透视字段注册为 `PivotFieldType.Page` 而非 `PivotFieldType.Row`、`PivotFieldType.Column` 或 `PivotFieldType.Data` 时，它就成为筛选字段。
 
-页面字段可以以两种行为运行。在默认的**单选**行为下，一次仅显示一个页面项，因此数据透视表主体仅汇总一个子集。在**多选**行为下，该字段显示一个复选框列表，数据透视表主体汇总所有已勾选页面项的并集。通过切换单个属性，相同的源字段可以在这些行为之间来回切换。
+筛选字段可以以两种行为运行。在默认的**单选**行为下，一次仅显示一个筛选项，因此数据透视表主体仅汇总一个子集。在**多选**行为下，该字段显示一个复选框列表，数据透视表主体汇总所有已勾选筛选项的并集。通过切换单个属性，相同的源字段可以在这些行为之间来回切换。
 
-Aspose.Cells for Node.js via Java 提供了两种等效的方式来注册页面字段。高级 API 是 `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`，它接受源列名并在单次调用中添加该字段。低级 API 是 `pivotTable.getPageFields().add(PivotField)`，当您已经持有 `PivotField` 引用并希望将同一字段实例添加到页面区域时使用。这两个 API 最终都会填充相同的 `PageFields` 集合，本文的其余部分将演示如何在这两者之间进行选择以及如何驱动每种过滤模式。
+Aspose.Cells for Node.js via Java 提供了两种等效的方式来注册筛选字段。高级 API 是 `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`，它接受源列名并在单次调用中添加该字段。低级 API 是 `pivotTable.getPageFields().add(PivotField)`，当您已经持有 `PivotField` 引用并希望将同一字段实例添加到筛选区域时使用。这两个 API 最终都会填充相同的 `PageFields` 集合，本文的其余部分将演示如何在这两者之间进行选择以及如何驱动每种过滤模式。
 
-## **添加页面字段**
+## **添加筛选字段**
 
-有两种方法可以在页面区域中注册数据透视字段。高级调用接受源列名称作为字符串，是最常用的路径。低级调用接受现有的 `PivotField` 实例，当必须在多个数据透视区域中重用同一字段对象时非常方便。这两个调用都会将字段放入 `pivotTable.getPageFields()`，之后该字段将作为已渲染数据透视表顶部的页面下拉列表显示。
+有两种方法可以在筛选区域中注册数据透视字段。高级调用接受源列名称作为字符串，是最常用的路径。低级调用接受现有的 `PivotField` 实例，当必须在多个数据透视区域中重用同一字段对象时非常方便。这两个调用都会将字段放入 `pivotTable.getPageFields()`，之后该字段将作为已渲染数据透视表顶部的页面下拉列表显示。
 
-### 使用 addFieldToArea 添加页面字段
+### 使用 addFieldToArea 添加筛选字段
 
-以下示例构建一个小的 Fruit / Year / Amount 数据集，在 E3 单元格处放置一个数据透视表，其中 `Fruit` 位于行区域，`Amount` 位于数据区域，`Year` 位于页面区域，刷新数据透视表并保存工作簿。
+以下示例构建一个小的 Fruit / Year / Amount 数据集，在 E3 单元格处放置一个数据透视表，其中 `Fruit` 位于行区域，`Amount` 位于数据区域，`Year` 位于筛选区域，刷新数据透视表并保存工作簿。
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -77,9 +77,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### 使用 getPageFields().add 添加页面字段
+### 使用 getPageFields().add 添加筛选字段
 
-当您已经使用 `PivotField` 实例时，可以将其直接传递给 `pivotTable.getPageFields().add`。数据透视表和页面字段的构造方式与前面的场景完全相同；仅最终的页面区域注册被替换为低级 API 调用。
+当您已经使用 `PivotField` 实例时，可以将其直接传递给 `pivotTable.getPageFields().add`。数据透视表和筛选字段的构造方式与前面的场景完全相同；仅最终的筛选区域注册被替换为低级 API 调用。
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -121,13 +121,13 @@ pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
 
-## **单选过滤（显示一个页面项）**
+## **单选过滤（显示一个筛选项）**
 
-在默认的单选行为下，页面字段呈现为单个下拉列表，`PivotField.CurrentPageItem` 整数选择哪个页面项驱动数据透视表主体。分配特定索引会选取该单项；分配特殊哨兵值 `0x7FFD`（十进制 32765）会清除过滤器，从而一次性汇总每个页面项。单选是默认行为；您无需显式启用它。
+在默认的单选行为下，筛选字段呈现为单个下拉列表，`PivotField.CurrentPageItem` 整数选择哪个筛选项驱动数据透视表主体。分配特定索引会选取该单项；分配特殊哨兵值 `0x7FFD`（十进制 32765）会清除过滤器，从而一次性汇总每个筛选项。单选是默认行为；您无需显式启用它。
 
 ### 显示所有项
 
-将 `CurrentPageItem` 设置为魔术值 `0x7FFD` 等同于清除页面过滤器，数据透视表主体将汇总每个页面项，就好像没有应用过滤器一样。
+将 `CurrentPageItem` 设置为魔术值 `0x7FFD` 等同于清除页面过滤器，数据透视表主体将汇总每个筛选项，就好像没有应用过滤器一样。
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -176,7 +176,7 @@ workbook.save("output.xlsx");
 
 ### 显示一个特定项
 
-将 `CurrentPageItem` 设置为实际索引会仅选取该单个页面项。该索引是项目在页面字段排序项列表中的位置，因此例如 `1` 选择排序后的第二项。
+将 `CurrentPageItem` 设置为实际索引会仅选取该单个筛选项。该索引是项目在筛选字段排序项列表中的位置，因此例如 `1` 选择排序后的第二项。
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -226,9 +226,9 @@ workbook.save("output.xlsx");
 
 ## **多选过滤**
 
-多选过滤将页面下拉列表转换为复选框列表，并允许最终用户同时选择多个页面项。Aspose.Cells 公开了两个协同工作的属性。必须先将 `PivotField.IsMultipleItemSelectionAllowed` 设置为 `true`，多选 UI 才会生效。启用后，`PivotItem.IsHidden` 控制哪些项出现在复选框列表中，因此您可以显示每个项或仅将特定项加入白名单。
+多选过滤将页面下拉列表转换为复选框列表，并允许最终用户同时选择多个筛选项。Aspose.Cells 公开了两个协同工作的属性。必须先将 `PivotField.IsMultipleItemSelectionAllowed` 设置为 `true`，多选 UI 才会生效。启用后，`PivotItem.IsHidden` 控制哪些项出现在复选框列表中，因此您可以显示每个项或仅将特定项加入白名单。
 
-以下代码在场景 1a 中构建的同一 Year 页面字段上启用多选，然后展示两种模式：Part A 通过将每个条目的 `IsHidden` 设置为 `false` 来显示每个页面项，而 Part B 通过 `switch (pivotItems[i].getStringValue())` 块仅将您选择的源值加入白名单并隐藏其他所有项。
+以下代码在场景 1a 中构建的同一 Year 筛选字段上启用多选，然后展示两种模式：Part A 通过将每个条目的 `IsHidden` 设置为 `false` 来显示每个筛选项，而 Part B 通过 `switch (pivotItems[i].getStringValue())` 块仅将您选择的源值加入白名单并隐藏其他所有项。
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -311,15 +311,15 @@ workbook.save("output.xlsx");
 
 | 场景 / 用例 | 推荐 API | 使用的属性 | 备注 |
 |---|---|---|---|
-| 按源列名添加页面字段（最常见） | `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | 高级单行 API。除非需要 `PivotField` 引用，否则请使用此方法。 |
-| 在已拥有 `PivotField` 对象时添加页面字段 | `pivotTable.getPageFields().add(PivotField)` | n/a | 当字段对象是从其他位置获取或需要重用时使用。 |
-| 过滤到单个页面项（默认模式） | `PivotField.CurrentPageItem` | 设置为特定索引 | 例如，`1` 显示排序列表中的第二项。 |
+| 按源列名添加筛选字段（最常见） | `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | 高级单行 API。除非需要 `PivotField` 引用，否则请使用此方法。 |
+| 在已拥有 `PivotField` 对象时添加筛选字段 | `pivotTable.getPageFields().add(PivotField)` | n/a | 当字段对象是从其他位置获取或需要重用时使用。 |
+| 过滤到单个筛选项（默认模式） | `PivotField.CurrentPageItem` | 设置为特定索引 | 例如，`1` 显示排序列表中的第二项。 |
 | 显示所有项 / 清除页面过滤器 | `PivotField.CurrentPageItem` | 设置为 `0x7FFD` | 魔术值 `0x7FFD`（十进制 32765）是 "所有项" 的哨兵值。 |
 | 在 Excel 中启用多选 UI | `PivotField.IsMultipleItemSelectionAllowed` | 设置为 `true` | 在任何 `IsHidden` 调用生效之前必需。 |
 | 在多选列表中隐藏 / 显示各个项 | `PivotItem.IsHidden` | 按项设置 | 至少必须保留一项可见（`IsHidden == false`）。 |
 
 {{% alert color="primary" %}}
-配置多选过滤时，请始终记住可见性约束。如果多选页面字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时崩溃或呈现空白的数据透视表。根据源数据构建您的白名单，使至少一项保持可见，这样您保存的工作簿将在每台机器上可靠地打开。
+配置多选过滤时，请始终记住可见性约束。如果多选筛选字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时崩溃或呈现空白的数据透视表。根据源数据构建您的白名单，使至少一项保持可见，这样您保存的工作簿将在每台机器上可靠地打开。
 {{% /alert %}}
 
 

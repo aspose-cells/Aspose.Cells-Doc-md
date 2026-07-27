@@ -1,7 +1,7 @@
 ---
 title: Удалить сводную таблицу из листа
 type: docs
-weight: 60
+weight: 700
 url: /ru/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Код Скрипта Aspose.Cells for Java через C++, чтобы удалить сводную таблицу на рабочих листах Excel
 keywords: Скрипт Aspose.Cells for Java через C++, библиотека Excel, Excel JavaScript, удаление сводной таблицы из листа, удаление сводной таблицы из Excel, как удалить сводную таблицу с помощью Скрипта Aspose.Cells for Java через C++, удаление сводной таблицы, удаление сводной таблицы из Excel, как удалить сводную таблицу, удаление сводной таблицы, Aspose.Cells for JavaScript через C++ удаляет сводную таблицу, удаление сводной таблицы, как удалить сводную таблицу

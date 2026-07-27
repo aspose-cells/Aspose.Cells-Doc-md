@@ -1,61 +1,40 @@
 ---
-title: Aspose.Cells for Python via .NET'te Pivot Tabloları Yenileme
-linktitle: Aspose.Cells for Python via .NET'te Pivot Tabloları Yenileme
-description: Aspose.Cells for Python via .NET'te v26.7+ pivot-yenileme API'sini kullanarak pivot tabloları nasıl yenileyeceğinizi öğrenin. Bu makale RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables API'lerini pratik kod örnekleriyle ele almaktadır.
-keywords: Aspose.Cells, Python via .NET, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Aspose.Cells for Python via .NET'te Özet Tabloları Yenileme
+linktitle: Aspose.Cells for Python via .NET'te Özet Tabloları Yenileme
+description: Aspose.Cells for Python via .NET'te v26.7+ pivot-yenileme API'sini kullanarak özet tabloları nasıl yenileyeceğinizi öğrenin. Bu makale RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
+keywords: Aspose.Cells, Python via .NET, özet tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /tr/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-
 {{% alert color="primary" %}}
-
-Aspose.Cells, pivot verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir pivot tabloya kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Python via .NET v26.7** ile başlayarak, eski `PivotTable.refresh_data()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
-
+Aspose.Cells, özet tablo verilerini dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tabloya kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Python via .NET v26.7** sürümünden itibaren eski `PivotTable.refresh_data()` yöntemi kullanımdan kaldırılmış olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
 {{% /alert %}}
-
 ## Giriş
-
-Bir pivot tabloyu yenileme nadiren tek bir işlemdir. Sahne arkasında Aspose.Cells, orijinal kaynak verilerinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri tutar. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
-
+Bir özet tablosunu yenileme nadiren tek bir işlemdir. Sahne arkasında Aspose.Cells, orijinal kaynak verilerinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri tutar. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
 Dört katmanlı veri zinciri şudur:
-
-1. **Veri Kaynağı** — ham değerlerin bulunduğu orijinal çalışma sayfası aralıkları, veritabanı sorgusu veya konsolidasyon aralığı.
-2. **PivotCache** — kaynak verilerin bellek içi anlık görüntüsü. Her pivot tablo bir `PivotCache` üzerine inşa edilir; tüm veriler burada toplanır ve özetlenir.
-3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` *yalnızca* kendi `PivotCache`'inden okur, doğrudan veri kaynağından asla okumaz.
-4. **Cells** — `PivotTable`'in hesaplanan değerlerini ve stillerini işlediği çalışma sayfası `Cells` koleksiyonu.
-
-Özellikle önemli bir kavram **paylaşılan önbellek (shared cache)**'tir. Bir çalışma kitabındaki birden fazla pivot tablo aynı kaynak aralığa başvurduğunda, *tek bir* `PivotCache` örneğini paylaşırlar. Tek bir `PivotCache`'e birçok pivot tablo tarafından başvurulabilir ve bu önbelleği yenilemek, ona bağlı her `PivotTable`'ı bir anda yeniler.
-
+1. **Veri Kaynağı** — ham değerlerin bulunduğu orijinal çalışma sayfası aralıkları, veritabanı sorgusu veya birleştirme aralığı.
+2. **PivotCache** — kaynak verinin bellek içi anlık görüntüsü. Her özet tablo bir `PivotCache` üzerine inşa edilir; tüm veriler burada toplanır ve gruplanır.
+3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` yalnızca kendi `PivotCache`'inden okur, doğrudan veri kaynağından asla okumaz.
+4. **Hücreler** — `PivotTable`'ın hesaplanmış değerlerini ve stillerini işlediği çalışma sayfası `Cells` koleksiyonu.
+Özellikle önemli bir kavram **paylaşılan önbellek**tir. Bir çalışma kitabındaki birden fazla özet tablo aynı kaynak aralığa başvurduğunda, *tek bir* `PivotCache` örneğini paylaşırlar. Tek bir `PivotCache`'e birçok özet tablo başvurabilir ve o önbelleği yenilemek, ona bağlı her `PivotTable`'ı bir defada yeniler.
 {{% alert color="primary" %}}
-
-`PivotCache.source_type` (`PivotTableSourceType` enum'u) önbellek verilerinin nereden geldiğini belirtir. v26.7 itibarıyla, `PivotCache.refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler — yani çalışma sayfası aralıklarında bulunan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) henüz önbellek API'si aracılığıyla yenilenemez.
-
+`PivotCache.source_type` (enum `PivotTableSourceType`) önbellek verilerinin nereden geldiğini belirtir. v26.7 sürümü itibarıyla, `PivotCache.refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler — yani çalışma sayfası aralıklarında yaşayan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) henüz önbellek API'si aracılığıyla yenilenemez.
 {{% /alert %}}
-
 Bu zincir nedeniyle Aspose.Cells'te iki temel yenileme yolu vardır:
-
-- **`PivotCache.refresh()`** — kaynaktan önbelleğe yeniden yükler VE tek bir işlemde ona bağlı tüm `PivotTable`'ları yeniden hesaplar.
-- **`PivotTable.calculate_data()`** — veri kaynağına geri dönmeden, zaten önbelleğe alınmış verilerden tek bir `PivotTable`'ın görüntüsünü yeniden hesaplar.
-
-Bu makaledeki tüm senaryolarda çalışma sayfası hücresi kaynak verileri kullanılır, dolayısıyla kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı gibi çalışır.
-
-## Gerekli İçe Aktarmalar (Imports)
-
-Bu makaledeki tüm Python örnekleri, pivot türlerinin `aspose.cells.pivot` namespace'inde bulunması nedeniyle aşağıdaki üç içe aktarma ifadesi ile başlar:
-
+- **`PivotCache.refresh()`** — kaynak → önbelleği yeniden yükler VE tek bir işlemde ona bağlı tüm `PivotTable`'ları yeniden hesaplar.
+- **`PivotTable.calculate_data()`** — veri kaynağına geri dönmeden, zaten önbelleğe alınmış verilerden tek bir `PivotTable` görüntüsünü yeniden hesaplar.
+Bu makaledeki tüm senaryolarda çalışma sayfası hücresi kaynak verileri kullanılır, dolayısıyla kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı şekilde çalışır.
+## Gerekli İçe Aktarmalar
+Bu makaledeki tüm Python örnekleri, pivot türlerinin `aspose.cells.pivot` namespace'inde bulunması nedeniyle aşağıdaki üç içe aktarma ifadesiyle başlar:
 - `import sys`
 - `import aspose.cells`
 - `import aspose.cells.pivot`
-
-## Çalışma Kitabındaki Tüm Pivot Tabloları Yenileme
-
-Çalışma kitabındaki her pivot önbelleğinin ve her pivot tablosunun en son kaynak verileri yansıttığından emin olmanız gerektiğinde, en basit ve en kapsamlı API `Workbook.refresh_all()` yöntemidir. Tek bir çağrı tüm çalışma kitabını dolaşır — her `PivotCache`'i kaynağından yeniler ve ardından ona bağlı her `PivotTable`'ı yeniden hesaplar. Bu, performansın endişe olmadığı genel, tam belge yenilemeleri için önerilen yaklaşımdır.
-
-Aşağıdaki örnek, Fruit/Year/Amount kaynak aralığına sahip bir çalışma kitabı oluşturur, bir pivot tablo oluşturur, bazı kaynak değerlerini değiştirir ve ardından her şeyi tek bir çağrıda güncel hale getirmek için `refresh_all()` kullanır.
-
+## Çalışma Kitabındaki Tüm Özet Tablolarını Yenileme
+Çalışma kitabındaki her pivot önbelleğinin ve her özet tablosunun en son kaynak verileri yansıtmasını sağlamanız gerektiğinde, en basit ve en kapsamlı API `Workbook.refresh_all()` yöntemidir. Tek bir çağrı tüm çalışma kitabını dolaşır — her `PivotCache`'i kendi kaynağından yeniler ve ardından ona bağlı her `PivotTable`'ı yeniden hesaplar. Performansın kritik olmadığı genel, tam belge yenilemeleri için önerilen yaklaşım budur.
+Aşağıdaki örnek, bir Fruit/Year/Amount kaynak aralığıyla bir çalışma kitabı oluşturur, bir özet tablosu ekler, bazı kaynak değerlerini değiştirir ve ardından her şeyi tek bir çağrıyla güncellemek için `refresh_all()` yöntemini kullanır.
 ```python
 import aspose.cells as ac
 
@@ -68,7 +47,7 @@ worksheet.cells["A1"].put_value("Fruit")
 worksheet.cells["B1"].put_value("Year")
 worksheet.cells["C1"].put_value("Amount")
 
-# A2:C9 hücrelerine veri satırları yaz (2020 ve 2021 yıllarına dağıtılmış 8 satır meyve verisi)
+# A2:C9 hücrelerine veri satırları yaz (2020 ve 2021 yılları arasında 8 satır meyve verisi)
 worksheet.cells["A2"].put_value("grape")
 worksheet.cells["B2"].put_value(2020)
 worksheet.cells["C2"].put_value(50)
@@ -101,16 +80,16 @@ worksheet.cells["A9"].put_value("cherry")
 worksheet.cells["B9"].put_value(2021)
 worksheet.cells["C9"].put_value(120)
 
-# Bir pivot tablo ekle: kaynak aralık "A1:C9", hedef hücre "E3", ad "Pivot1"
+# Bir pivot tablo ekle: kaynak aralığı "A1:C9", hedef hücre "E3", ad "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 
-# Pivot alanlarını ata: Satırlar'a Fruit, Sütunlar'a Year, Veri'ye Amount
+# Pivot alanlarını ata: Fruit Satırlara, Year Sütunlara, Amount Veriye
 pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Değişiklikleri simüle etmek için kaynak verideki birkaç Amount değerini değiştir
+# Değişiklikleri simüle etmek için kaynak verilerdeki birkaç Amount değerini değiştir
 worksheet.cells["C2"].put_value(55)
 worksheet.cells["C5"].put_value(85)
 worksheet.cells["C9"].put_value(125)
@@ -121,15 +100,10 @@ workbook.refresh_all()
 # Çalışma kitabını kaydet
 workbook.save("output.xlsx")
 ```
-
-## Tek Bir Çalışma Sayfasındaki Tüm Pivot Tabloları Yenileme
-
-Bazen yalnızca belirli bir çalışma sayfasında bulunan pivot tabloları yenilemeniz gerekir — örneğin, diğer çalışma sayfalarındaki pivot tabloların ilgisiz olduğu bilindiğinde ve bunlara dokunulmaması gerektiğinde. Bu durum için Aspose.Cells, tek bir `Worksheet` örneğiyle sınırlı olan `Worksheet.refresh_pivot_tables()` yöntemini sağlar.
-
-Bu, `Workbook.refresh_all()` yönteminden daha seçicidir: yalnızca hedeflenen çalışma sayfasındaki pivot tablolar yenilenir, diğer çalışma sayfalarındaki pivot tablolara dokunulmaz.
-
-Aşağıdaki örnek aynı Fruit/Year/Amount kaynak verilerini doldurur, ilk çalışma sayfasına bir pivot tablo ekler, bazı kaynak değerlerini değiştirir ve ardından yalnızca o çalışma sayfasındaki pivot tabloları yeniler.
-
+## Tek Bir Çalışma Sayfasındaki Tüm Özet Tablolarını Yenileme
+Bazen yalnızca belirli bir çalışma sayfasında bulunan özet tablolarını yenilemeniz gerekir — örneğin, diğer çalışma sayfalarındaki özet tablolarının ilgisiz olduğu bilindiğinde ve bunlara dokunulmaması gerektiğinde. Bu durum için Aspose.Cells, tek bir `Worksheet` örneğiyle sınırlı olan `Worksheet.refresh_pivot_tables()` yöntemini sunar.
+Bu yöntem `Workbook.refresh_all()` yönteminden daha seçicidir: yalnızca hedeflenen çalışma sayfasındaki özet tabloları yenilenir, diğer çalışma sayfalarındaki özet tablolarına dokunulmaz.
+Aşağıdaki örnek aynı Fruit/Year/Amount kaynak verilerini doldurur, ilk çalışma sayfasına bir özet tablosu ekler, bazı kaynak değerlerini değiştirir ve ardından yalnızca o çalışma sayfasındaki özet tablolarını yeniler.
 ```python
 import aspose.cells as ac
 
@@ -187,36 +161,27 @@ worksheet.refresh_pivot_tables()
 
 workbook.save("output.xlsx")
 ```
-
-## Tek Bir Pivot Tabloyu Yenileme
-
-Tek bir pivot tablo üzerinde ayrıntılı kontrol istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, aslında neyin değiştiğine bağlıdır: altta yatan kaynak veriler mi, yoksa yalnızca pivot tablonun kendisinin görünüm/düzen ayarları mı.
-
+## Tek Bir Özet Tablosunu Yenileme
+Tek bir özet tablosu üzerinde ayrıntılı kontrol istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, gerçekte neyin değiştiğine bağlıdır: temel kaynak veriler mi yoksa yalnızca özet tablosunun görünüm/düzen ayarları mı.
 ### Kaynak Veriler Değişti — `PivotCache.refresh()` Kullanın
-
-Altta yatan kaynak veriler değiştiyse, doğru giriş noktası `pivot_table.pivot_cache.refresh()` yöntemidir. Bu çağrı kaynak verilerini önbelleğe yeniden okur ve ardından o önbelleğe bağlı her `PivotTable`'ı yeniden hesaplar.
-
+Temel kaynak veriler değiştiyse, doğru giriş noktası `pivot_table.pivot_cache.refresh()` yöntemidir. Bu çağrı, kaynak verileri önbelleğe yeniden okur ve ardından o önbelleğe bağlı her `PivotTable`'ı yeniden hesaplar.
 {{% alert color="primary" %}}
-
-Pivot tablolar tek bir `PivotCache` örneğini paylaştığından, `PivotCache.refresh()` çağrısı aynı önbellek üzerine inşa edilmiş **tüm** pivot tabloları yeniden hesaplar — yalnızca başvurduğunuz pivot tabloyu değil. İki pivot tablo aynı kaynak aralığı paylaşıyorsa, bir önbelleği yenilemek ikisini birden yeniler.
-
+Özet tabloları tek bir `PivotCache` örneğini paylaştığı için, `PivotCache.refresh()` çağrısı yalnızca başvurduğunuz özet tablosunu değil, aynı önbellek üzerine inşa edilmiş **tüm** özet tablolarını yeniden hesaplar. İki özet tablosu aynı kaynak aralığını paylaşıyorsa, bir önbelleği yenilemek her ikisini de yeniler.
 {{% /alert %}}
-
-Aşağıdaki örnek, bu paylaşılan önbellek davranışını göstermek için aynı kaynak aralığı üzerinde iki pivot tablo oluşturur, bazı kaynak değerlerini değiştirir ve ardından bir önbellek başvurusu üzerinden yenileme yapar.
-
+Aşağıdaki örnek, bu paylaşılan önbellek davranışını göstermek için aynı kaynak aralığında iki özet tablosu oluşturur, bazı kaynak değerlerini değiştirir ve ardından tek bir önbellek başvurusu üzerinden yenileme yapar.
 ```python
-import aspose.cells as ac
+ac
 
 # Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 
-# Başlık satırını yaz: Meyve / Yıl / Miktar
+# Başlık satırını yaz: Fruit / Year / Amount
 worksheet.cells["A1"].put_value("Fruit")
 worksheet.cells["B1"].put_value("Year")
 worksheet.cells["C1"].put_value("Amount")
 
-# Yaklaşık 9 veri satırı yaz (üzüm / yaban mersini / kivi / kiraz, 2020-2021 yılları arasında)
+# Yaklaşık 9 veri satırı yaz (2020-2021 arası grape / blueberry / kiwi / cherry)
 worksheet.cells["A2"].put_value("Grape")
 worksheet.cells["B2"].put_value(2020)
 worksheet.cells["C2"].put_value(100)
@@ -249,7 +214,7 @@ worksheet.cells["A9"].put_value("Cherry")
 worksheet.cells["B9"].put_value(2021)
 worksheet.cells["C9"].put_value(800)
 
-# E3 hücresine bağlı "Pivot1" adlı ilk özet tabloyu ekle, kaynak aralığı A1:C9
+# E3 hücresine sabitlenmiş, kaynak aralığı A1:C9 olan ilk pivot tablo "Pivot1" ekle
 pivotIndex1 = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivotTable1 = worksheet.pivot_tables[pivotIndex1]
 
@@ -258,8 +223,8 @@ pivotTable1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivotTable1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivotTable1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Aynı kaynak aralığı A1:C9 kullanarak E15'e bağlı "Pivot2" adlı İKİNCİ bir özet tablo ekle
-# Hem Pivot1 hem de Pivot2, kaynak aralıkları aynı olduğu için tek bir PivotCache'i paylaşır.
+# AYNI A1:C9 kaynak aralığını kullanarak E15'e sabitlenmiş İKİNCİ pivot tablo "Pivot2" ekle
+# Pivot1 ve Pivot2, kaynak aralığı aynı olduğu için tek bir PivotCache'i paylaşır.
 pivotIndex2 = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
 pivotTable2 = worksheet.pivot_tables[pivotIndex2]
 
@@ -268,28 +233,22 @@ pivotTable2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivotTable2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivotTable2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Veri değişikliğini simüle etmek için kaynak verilerdeki birkaç Miktar hücresi değerini değiştir
+# Veri değişikliğini simüle etmek için kaynak verideki birkaç Amount hücre değerini değiştir
 worksheet.cells["C2"].put_value(150)
 worksheet.cells["C4"].put_value(350)
 worksheet.cells["C7"].put_value(650)
 
 # Paylaşılan PivotCache'i yenile.
-# Pivot1 ve Pivot2 aynı PivotCache'i paylaştığı için bu tek çağrı
-# güncellenmiş kaynaktan HER İKİ özet tabloyu da (veri + stil) yeniler.
+# Pivot1 ve Pivot2 aynı PivotCache'i paylaştığı için, bu tek çağrı güncellenmiş kaynaktan HER İKİ pivot tabloyu da (veri + stil) yeniler.
 pivotTable1.pivot_cache.refresh()
 
 # Çalışma kitabını kaydet
 workbook.save("output.xlsx")
 ```
-
 ### Yalnızca Görünüm/Düzen Değişti — `calculate_data()` Kullanın
-
-Kaynak veriler değişmediyse ancak yalnızca pivot tablonun görünüm veya düzen ayarları değiştirildiyse (örneğin, bir alan farklı bir alana taşındıysa veya açılışta yenileme ayarı değiştirildiyse), veri kaynağına geri dönmek gerekmez. Önbellek zaten doğru verileri tutuyor; yalnızca işlenmiş `PivotTable`'ın yeniden hesaplanması gerekiyor. Bu durumda `pivot_table.calculate_data()` doğru seçimdir.
-
-Bu, gereksiz kaynak getirme işlemini önler ve birçok pivot tablo aynı önbelleği paylaştığında önemli ölçüde daha hızlıdır.
-
-Aşağıdaki örnek pivot tablonun kaynak olmayan bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `calculate_data()` çağırır.
-
+Kaynak veriler değişmediyse, ancak yalnızca özet tablosunun görünüm veya düzen ayarları değiştirildiyse (örneğin, bir alan farklı bir bölgeye taşındıysa veya açılışta yenileme ayarı değiştirildiyse), veri kaynağına geri dönmek gerekmez. Önbellek zaten doğru verileri tutuyor; yalnızca işlenmiş `PivotTable`'ın yeniden hesaplanması gerekiyor. Bu durumda `pivot_table.calculate_data()` doğru seçimdir.
+Bu yaklaşım, gereksiz kaynak getirme işleminden kaçınır ve birçok özet tablosu aynı önbelleği paylaştığında önemli ölçüde daha hızlıdır.
+Aşağıdaki örnek, özet tablosunun kaynak olmayan bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `calculate_data()` yöntemini çağırır.
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
@@ -297,12 +256,12 @@ import aspose.cells.pivot as acp
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 
-# Fruit / Yıl / Tutar başlık satırını yaz
+# Fruit / Year / Amount başlık satırını yaz
 worksheet.cells["A1"].put_value("Fruit")
 worksheet.cells["B1"].put_value("Year")
 worksheet.cells["C1"].put_value("Amount")
 
-# 8 veri satırı yaz (2-9. satırlar, A1:C9 kaynak aralığına uygun)
+# 8 veri satırı yaz (2-9. satırlar, kaynak aralığı A1:C9'a uyuyor)
 worksheet.cells["A2"].put_value("Grape")
 worksheet.cells["B2"].put_value(2020)
 worksheet.cells["C2"].put_value(100)
@@ -335,7 +294,7 @@ worksheet.cells["A9"].put_value("Cherry")
 worksheet.cells["B9"].put_value(2021)
 worksheet.cells["C9"].put_value(450)
 
-# Hedef hücre E3'e yerleştirilen, A1:C9'dan kaynak alan "Pivot1" adında bir pivot tablo ekle
+# E3 hücresine yerleştirilen, A1:C9'dan beslenen "Pivot1" adlı bir pivot tablo ekle
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 
@@ -344,28 +303,23 @@ pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(acp.PivotFieldType.DATA, "Amount")
 
-# Bir görünüm/düzen özelliğini değiştir — bu yalnızca sunum amaçlı bir değişikliktir,
-# bu nedenle PivotCache.Refresh() aracılığıyla kaynak verilerin yeniden okunmasını gerektirmez.
+# Bir görünüm/düzen özelliğini değiştir — bu yalnızca sunumla ilgili bir değişikliktir,
+# dolayısıyla PivotCache.Refresh() aracılığıyla kaynak verilerin yeniden okunmasını GEREKTİRMEZ.
 pivot_table.refresh_data_on_opening_file = False
 
-# CalculateData() bu pivot tablonun görüntüsünü (veri + stil) PivotCache'te
+# CalculateData(), BU pivot tablosunun görüntüsünü (veri + stil) PivotCache'de
 # zaten tutulan verilerden yeniden oluşturur. Kaynak veriler değişmediği için
-# kaynağa geri dönüş yapılmaz — yalnızca önbelleğe alınmış değerler
-# çalışma sayfası hücrelerine yeniden hesaplanır.
+# kaynağa geri dönüş yapılmaz — yalnızca önbelleğe alınmış değerler çalışma sayfası
+# hücrelerine yeniden hesaplanır.
 pivot_table.calculate_data()
 
 # Çalışma kitabını diske kaydet
 workbook.save("output.xlsx")
 ```
-
-## Aynı PivotCache'i Paylaşan Tüm Pivot Tabloları Alma
-
-Bir çalışma kitabı sıklıkla tek bir paylaşılan önbellek üzerinde oturan birçok pivot tablo içerir. Bunları numaralandırmak için — örneğin, toplu yenileme yapmadan önce veya paylaşılan önbellek etkisini tanılamak için — `PivotCache.get_pivot_tables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
-
-Bu aynı zamanda iki pivot tablonun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `get_pivot_tables()` tarafından döndürülen koleksiyonu yineleyerek hangi pivot tabloların onun içinde göründüğünü gözlemleyebilirsiniz.
-
-Aşağıdaki örnek aynı kaynak aralığı üzerinde iki pivot tablo oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin pivot tablolarını numaralandırır.
-
+## Aynı PivotCache'i Paylaşan Tüm Özet Tablolarını Alma
+Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde oturan birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin toplu yenileme yapmadan önce veya paylaşılan önbellek etkisini teşhis etmek için — `PivotCache.get_pivot_tables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı her `PivotTable`'ın koleksiyonunu döndürür.
+Bu aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `get_pivot_tables()` tarafından döndürülen koleksiyon üzerinde yineleyerek hangi özet tablolarının bu koleksiyonda göründüğünü gözlemleyebilirsiniz.
+Aşağıdaki örnek, aynı kaynak aralığında iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
 ```python
 import aspose.cells as ac
 
@@ -436,26 +390,18 @@ for pt in shared_pivot_tables:
 
 workbook.save("output.xlsx")
 ```
-
-## Kullanımdan Kaldırılan `PivotTable.refresh_data()` Yönteminden Geçiş (Migration)
-
-Aspose.Cells for Python via .NET v26.7 öncesinde, bir pivot tabloyu yenilemenin standart yolu her pivot tabloda ayrı ayrı `PivotTable.refresh_data()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiş olup yukarıda açıklanan önbellek-farkındalığına sahip API'ler ile değiştirilmelidir.
-
-Gerçek dünya çalışma kitaplarında tablo başına `refresh_data()` yaklaşımının sorunlu olmasının iki nedeni vardır:
-
-- Kaynak değişmemiş olsa bile *her* çağrıldığında verileri kaynaktan yeniden getirir.
-- Her çağrı tüm paylaşılan önbelleği yeniler. Birçok pivot tablo tek bir önbelleği paylaştığında, pivot tablo başına tekrar tekrar `refresh_data()` çağırmak aynı önbelleğin sürekli olarak yeniden getirilmesine neden olur ve bu çok yavaştır.
-
-Önerilen alternatifler şunlardır:
-
-- **Çalışma kitabındaki TÜM pivot tabloları yenileme** → `workbook.refresh_all();` kullanın.
-- **Bazılarını yenileme** → tek bir önbellek için `pivot_table.pivot_cache.refresh();` kullanın. Önbellek paylaşıldığından, bu tek çağrı o önbellek üzerine inşa edilmiş her pivot tabloyu günceller. Zaten yenilenmiş bir önbellek üzerinde oturan diğer pivot tablolar güvenle atlanabilir.
-- **Yalnızca pivot görünümü/düzeni değişti** → kaynak verilerine geri dönmeden mevcut önbellekten yeniden işlemek için `pivot_table.calculate_data();` kullanın.
-
-Aşağıdaki örnek, tek bir önbelleği paylaşan birden fazla pivot tabloya sahip çalışma kitapları için yeni verimli kalıbı (pattern) göstermektedir.
-
+## Kullanımdan Kaldırılan `PivotTable.refresh_data()` Yönteminden Geçiş
+Aspose.Cells for Python via .NET v26.7 sürümünden önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.refresh_data()` çağırmaktı. v26.7 itibarıyla bu yöntem **kullanımdan kaldırılmış** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
+Tablo başına `refresh_data()` yaklaşımının gerçek dünya çalışma kitaplarında sorunlu olmasının iki nedeni vardır:
+- Kaynaktan veriyi *her çağrıldığında*, kaynak değişmemiş olsa bile yeniden getirir.
+- Her çağrı tüm paylaşılan önbelleği yeniler. Birçok özet tablosu tek bir önbelleği paylaştığında, özet tablosu başına sürekli `refresh_data()` çağırmak aynı önbelleğin tekrar tekrar yeniden getirilmesine neden olur, bu da çok yavaştır.
+Önerilen değiştirmeler şunlardır:
+- **Çalışma kitabındaki TÜM özet tablolarını yenileme** → `workbook.refresh_all();` kullanın
+- **Bazılarını yenileme** → tek bir önbellek için `pivot_table.pivot_cache.refresh();` kullanın. Önbellek paylaşıldığı için bu tek çağrı, o önbelleğin üzerine inşa edilmiş her özet tablosunu günceller. Zaten yenilenmiş bir önbelleğin üzerinde oturan diğer özet tabloları güvenle atlanabilir.
+- **Yalnızca pivot görünümü/düzeni değişti** → kaynağa herhangi bir geri dönüş olmadan mevcut önbellekten yeniden işlemek için `pivot_table.calculate_data();` kullanın.
+Aşağıdaki örnek, tek bir önbelleği paylaşan birden fazla özet tablosuna sahip çalışma kitapları için yeni ve verimli kalıbı göstermektedir.
 ```python
-import aspose.cells as ac
+.cells as ac
 
 # Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş
 workbook = ac.Workbook()
@@ -475,19 +421,19 @@ sheet.cells["A7"].put_value("Blueberry")  ; sheet.cells["B7"].put_value(2021); s
 sheet.cells["A8"].put_value("Kiwi")       ; sheet.cells["B8"].put_value(2021); sheet.cells["C8"].put_value(2200)
 sheet.cells["A9"].put_value("Cherry")     ; sheet.cells["B9"].put_value(2021); sheet.cells["C9"].put_value(2700)
 
-# --- E3 hedef hücresine ilk pivot tablosunu (Pivot1) ekle ---
+# --- İlk pivot tablosunu (Pivot1) E3 hedef hücresine ekle ---
 idx1 = sheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table1 = sheet.pivot_tables[idx1]
 pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# --- AYNI kaynak aralığa İKİNCİ pivot tablosunu (Pivot2) ekle ---
-# Hem Pivot1 hem Pivot2 TEK bir PivotCache'i paylaşır.
-# Bu, eski tablo başına RefreshData() yaklaşımının verimsiz hale geldiği
-# tam olarak senaryodur: bir tabloyu yenilemek tüm paylaşılan önbelleği
-# yeniden çeker, dolayısıyla N tabloyu yenilemek aynı pahalı çekme işlemini
-# N kez yapar.
+# --- İKİNCİ pivot tablosunu (Pivot2) AYNI kaynak aralığa ekle ---
+# Hem Pivot1 hem de Pivot2 TEK bir alttaki PivotCache'i paylaşır.
+# Bu tam olarak eski tablo başına RefreshData() yaklaşımının
+# verimsiz hale geldiği senaryodur: bir tabloyu yenilemek tüm paylaşılan
+# önbelleği yeniden çeker, dolayısıyla N tabloyu yenilemek aynı pahalı
+# çekme işlemini N kez yapar.
 idx2 = sheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
 pivot_table2 = sheet.pivot_tables[idx2]
 pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
@@ -499,41 +445,39 @@ sheet.cells["C2"].put_value(5000)   # Grape  2020
 sheet.cells["C5"].put_value(7500)   # Cherry 2020
 sheet.cells["C9"].put_value(9500)   # Cherry 2021
 
-# --- ESKİMİŞ örüntü (26.7 öncesi) — PivotTable.RefreshData() ---
+# --- ESKİ (26.7 öncesi) kalıp — PivotTable.RefreshData() ---
 # pivot_table1.refresh_data();  # kaynaktan yeniden çeker, tüm önbelleği yeniler
 # pivot_table2.refresh_data();  # TEKRAR yeniden çeker — önbellek zaten taze!
 # Her çağrı paylaşılan önbelleği yeniden oluşturur, dolayısıyla N tablo = N gereksiz çekme.
 
-# --- YENİ v26.7+ örüntü: önbelleği BİR KEZ yenile, sonra gerektiğinde yeniden oluştur ---
+# --- YENİ v26.7+ kalıbı: önbelleği BİR KEZ yenile, ardından gerektiğinde yeniden oluştur ---
 # PivotCache.Refresh() için tek bir çağrı, değiştirilen değerleri paylaşılan
 # önbelleğe çeker VE onu referans alan HER pivot tablosunun görüntüsünü yeniden hesaplar.
-# Pivot1 ve Pivot2 bir PivotCache'i paylaştığından, bu tek çağrı her iki tabloyu da
-# günceller — ikinci bir kaynak gidip gelmesi gerekmez.
+# Pivot1 ve Pivot2 tek bir PivotCache'i paylaştığından, bu tek çağrı her iki
+# tabloyu da günceller — ikinci bir kaynak gidiş-dönüşü gerekmez.
 pivot_table1.pivot_cache.refresh()
 
-# CalculateData() yalnızca bir pivot tablosunun görüntüsünü (veri + stil) önbellekte
-# zaten bulunan verilerden yeniden oluşturur — kaynağa DOKUNMAZ.
-# CalculateData() işlevini burada Pivot2 üzerinde yalnızca API'yi göstermek için çağırıyoruz:
-# önbellek bir kez yenilendikten sonra, kaynağa geri dönmeden herhangi bir bağımlı tablo
-# yeniden oluşturulabilir. Yalnızca pivot tablosunun görünüm/düzen ayarları değiştiğinde ve
-# önbellek güncel olduğunda CalculateData() işlevini tek başına kullanın.
+# CalculateData() yalnızca bir pivot tablosunun görüntüsünü (veri + stil)
+# önbellekte zaten tutulan veriden yeniden oluşturur — kaynağa DOKUNMAZ.
+# Burada Pivot2 üzerinde yalnızca API'yi göstermek için çağrıyoruz: önbellek
+# bir kez yenilendikten sonra, bağımlı herhangi bir tablo kaynağa geri
+# dönmeden yeniden oluşturulabilir. CalculateData()'yı yalnızca pivot
+# tablosunun görünüm/düzen ayarları değiştiğinde ve önbellek güncel olduğunda
+# kendi başına kullanın.
 pivot_table2.calculate_data()
 
 workbook.save("output.xlsx")
 ```
-
 ## Hangi Yenileme API'sini Kullanmalıyım?
-
-Aşağıdaki tablo mevcut yenileme API'lerini özetlemekte ve her birinin ne zaman seçileceğini göstermektedir.
-
-| Hedef | Önerilen API | Notlar |
-|------|-----------------|-------|
+Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçileceğini özetlemektedir.
+| Amaç | Önerilen API | Notlar |
+|------|--------------|--------|
 | Çalışma kitabındaki her şeyi yenileme | `Workbook.refresh_all()` | Tek çağrı; tüm önbellekleri ve tabloları kapsar. |
-| Yalnızca tek bir sayfadaki pivot tabloları yenileme | `Worksheet.refresh_pivot_tables()` | Tek bir çalışma sayfasıyla sınırlı. |
-| Bir önbellek için kaynak verileri değişti | `pivot_table.pivot_cache.refresh()` | O paylaşılan önbellek üzerindeki TÜM pivot tabloları yeniler. |
-| Yalnızca görünüm/düzen ayarları değişti | `pivot_table.calculate_data()` | Gereksiz kaynak veri gidiş-dönüşünü atlar. |
-| Paylaşılan önbellek üzerindeki tüm pivot tabloları listeleme | `pivot_cache.get_pivot_tables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-
-Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmeleri önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-
+| Yalnızca tek bir sayfadaki özet tablolarını yenileme | `Worksheet.refresh_pivot_tables()` | Tek bir çalışma sayfasıyla sınırlıdır. |
+| Tek bir önbelleğin kaynak verileri değişti | `pivot_table.pivot_cache.refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
+| Yalnızca görünüm/düzen ayarları değişti | `pivot_table.calculate_data()` | Gereksiz kaynak geri dönüşünü atlar. |
+| Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivot_cache.get_pivot_tables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
+Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+## İlgili Makaleler
+- [Aspose.Cells for Python via .NET'te Mini Grafikler](/cells/tr/python-net/sparkline/)
 {{< app/cells/assistant language="python" >}}

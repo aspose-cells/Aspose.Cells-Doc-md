@@ -1,11 +1,11 @@
 ---
-title: حقول الصفوف والأعمدة في Aspose.Cells لـ .NET
+title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
 linktitle: حقول الصفوف والأعمدة
 description: تعلم كيفية إضافة الحقول الأساسية إلى مناطق الصفوف والأعمدة في الجدول المحوري والتحكم في الإجماليات الفرعية لـ PivotField باستخدام PivotField.SetSubtotals مع PivotFieldSubtotalType في Aspose.Cells لـ .NET
 keywords: Aspose.Cells, .NET, PivotTable, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, الإجماليات الفرعية, C#, Excel pivot table
 type: docs
 weight: 220
-url: /ar/net/row-and-column-fields/
+url: /ar/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

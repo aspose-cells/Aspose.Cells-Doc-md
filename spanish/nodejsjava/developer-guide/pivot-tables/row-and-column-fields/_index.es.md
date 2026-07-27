@@ -1,11 +1,11 @@
 ---
-title: Campos de fila y columna en Aspose.Cells for Node.js via Java
+title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
 linktitle: Campos de fila y columna
 description: Aprenda a agregar campos base a las regiones de fila y columna de una tabla dinámica y a controlar los subtotales de los campos dinámicos mediante PivotField.setSubtotals en Aspose.Cells for Node.js via Java
 keywords: Aspose.Cells, Node.js, Java, tabla dinámica, campo de fila, campo de columna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/nodejs-java/row-and-column-fields/
+url: /es/nodejs-java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

@@ -1,7 +1,7 @@
 ---
 title: Create Pivot Table
 type: docs
-weight: 10
+weight: 160
 url: /java/create-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"

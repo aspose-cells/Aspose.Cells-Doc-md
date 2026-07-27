@@ -1,6 +1,6 @@
 ---
-title: Anwenden von Stilen auf Pivot-Tabellen
-linktitle: Anwenden von Stilen auf Pivot-Tabellen
+title: Stile auf PivotTables in Aspose.Cells für .NET anwenden
+linktitle: PivotTable-Stile anwenden
 description: Erfahren Sie, wie Sie integrierte und benutzerdefinierte Stile auf Pivot-Tabellen in Aspose.Cells for Java anwenden, einschließlich Legacy-XLS-Autoformaten, modernen benannten Stilen seit Excel 2007+, benutzerdefinierten Pivot-Tabellen-Stilen und der FormatAll-Verknüpfung.
 keywords: Aspose.Cells Java Pivot-Tabellen-Stil, PivotTableStyleType, AutoFormatType, FormatAll, benutzerdefinierter Stil, PivotTableStyleName, TableStyles
 type: docs

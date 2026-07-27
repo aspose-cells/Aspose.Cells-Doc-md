@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for Java における行フィールドと列フィールド
+title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: Aspose.Cells for Java でピボットテーブルの行領域と列領域に基本フィールドを追加する方法、および PivotField.setSubtotals を使用してピボットフィールドの小計を制御する方法を説明します。
 keywords: Aspose.Cells, Java, ピボットテーブル, 行フィールド, 列フィールド, PivotField, setSubtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
-url: /ja/java/row-and-column-fields/
+url: /ja/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

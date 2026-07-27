@@ -1,7 +1,7 @@
 ---
 title: Supprimer le tableau croisé dynamique d une feuille de calcul
 type: docs
-weight: 50
+weight: 700
 url: /fr/java/delete-pivot-table-from-a-worksheet/
 ---
 

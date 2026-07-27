@@ -1,11 +1,11 @@
 ---
-title: Champs de ligne et de colonne dans Aspose.Cells for C++
+title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells pour .NET
 linktitle: Champs de ligne et de colonne
 description: Apprenez à ajouter des champs de base aux régions de ligne et de colonne d'un tableau croisé dynamique et à contrôler les sous-totaux des champs croisés à l'aide de PivotField.SetSubtotals dans Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, SetSubtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/cpp/row-and-column-fields/
+url: /fr/cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

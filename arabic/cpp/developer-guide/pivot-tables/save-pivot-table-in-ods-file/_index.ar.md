@@ -2,7 +2,7 @@
 title: حفظ جدول Pivot في ملف ODS باستخدام C++
 linktitle: حفظ جدول Pivot في ملف ODS
 type: docs
-weight: 150
+weight: 800
 url: /ar/cpp/save-pivot-table-in-ods-file/
 description: تعلم كيفية حفظ جداول Pivot في ملفات ODS باستخدام Aspose.Cells for C++.
 ---

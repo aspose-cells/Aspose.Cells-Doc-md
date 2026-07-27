@@ -1,6 +1,6 @@
 ---
-title: Применение стилей к сводным таблицам
-linktitle: Применение стилей к сводным таблицам
+title: Применить стили к сводным таблицам в Aspose.Cells для .NET
+linktitle: Применить стили к сводным таблицам
 description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Node.js via Java, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и быстрый метод FormatAll.
 keywords: Aspose.Cells for Node.js via Java стиль сводной таблицы, PivotTableStyleType, AutoFormatType, FormatAll, пользовательский стиль, PivotTableStyleName, TableStyles
 type: docs

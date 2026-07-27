@@ -1,7 +1,7 @@
 ---
 title: Guardar tabla dinámica en archivo ODS
 type: docs
-weight: 150
+weight: 800
 url: /es/python-net/save-pivot-table-in-ods-file/
 description: Este artículo muestra cómo guardar una tabla dinámica en un archivo ODS con Aspose.Cells para Python via .NET.
 keywords: Aspose.Cells for Python Excel, biblioteca de Excel para Python, guardar tabla dinámica en archivo ODS utilizando la Biblioteca de Excel de Aspose.Cells para Python.

@@ -1,7 +1,7 @@
 ---
 title: Supprimer le tableau croisé dynamique d une feuille de calcul
 type: docs
-weight: 60
+weight: 700
 url: /fr/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Code Aspose.Cells for Node.js via C++ pour supprimer un tableau croisé dynamique pour les feuilles Excel
 keywords: Aspose.Cells for Node.js via C++ Excel, bibliothèque Excel Node.js, supprimer un tableau croisé dynamique d une feuille de calcul, supprimer un tableau croisé dynamique d Excel, comment supprimer un tableau croisé dynamique avec Aspose.Cells for Node.js via C++, supprimer un pivot, supprimer un tableau croisé dynamique d Excel, supprimer un tableau croisé dynamique, Aspose.Cells for Node.js via C++ supprimer tableau croisé dynamique, supprimer tableau croisé dynamique, supprimer un tableau croisé dynamique, comment supprimer un tableau croisé dynamique

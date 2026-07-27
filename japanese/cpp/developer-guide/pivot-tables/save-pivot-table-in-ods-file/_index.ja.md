@@ -2,7 +2,7 @@
 title: ピボットテーブルをODSファイルに保存（C++）
 linktitle: ピボットテーブルをODSファイルに保存
 type: docs
-weight: 150
+weight: 800
 url: /ja/cpp/save-pivot-table-in-ods-file/
 description: Aspose.Cells for C++を使用してODSファイルにピボットテーブルを保存する方法を学びます。
 ---

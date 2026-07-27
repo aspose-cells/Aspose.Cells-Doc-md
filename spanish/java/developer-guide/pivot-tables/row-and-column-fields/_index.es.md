@@ -1,11 +1,11 @@
 ---
-title: Campos de fila y columna en Aspose.Cells for Java
+title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
 linktitle: Campos de fila y columna
 description: Aprenda cómo agregar campos base a las regiones de fila y columna de una tabla dinámica y cómo controlar los subtotales de los campos dinámicos usando PivotField.setSubtotals en Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, tabla dinámica, campo de fila, campo de columna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/java/row-and-column-fields/
+url: /es/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

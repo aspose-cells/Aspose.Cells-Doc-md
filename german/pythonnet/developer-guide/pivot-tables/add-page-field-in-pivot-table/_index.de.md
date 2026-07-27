@@ -1,34 +1,34 @@
 ---
-title: Seitenfelder in Pivot-Tabellen
-linktitle: Seitenfelder in Pivot-Tabellen
-description: Erfahren Sie, wie Sie mit Aspose.Cells for Python via .NET Seitenfelder in Pivot-Tabellen hinzufügen und konfigurieren, einschließlich des Hinzufügens von Seitenfeldern, Einzelauswahl-Filterung und Mehrfachauswahl-Filterung.
-keywords: Aspose.Cells, Python via .NET, Pivot-Tabelle, Seitenfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
+title: Filterfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen
+linktitle: Filterfelder hinzufügen
+description: Erfahren Sie, wie Sie mit Aspose.Cells for Python via .NET Filterfelder in Pivot-Tabellen hinzufügen und konfigurieren, einschließlich des Hinzufügens von Filterfeldern, Einzelauswahl-Filterung und Mehrfachauswahl-Filterung.
+keywords: Aspose.Cells, Python via .NET, Pivot-Tabelle, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
 type: docs
 weight: 250
-url: /de/python-net/add-page-field-in-pivot-table/
+url: /de/python-net/add-filter-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells unterstützt den gesamten Lebenszyklus von Seitenfeldern in Pivot-Tabellen. Sie können ein Seitenfeld über eine komfortable High-Level-API oder über die Low-Level-Sammlung `page_fields` hinzufügen, und Sie können den Seitenfilter im Einzelauswahl-Modus steuern, ihn löschen, um alle Seitenelemente anzuzeigen, oder das Feld auf Mehrfachauswahl umschalten, sodass Benutzer mehrere Seitenelemente gleichzeitig über die Checkbox-Benutzeroberfläche in Excel auswählen können.
+Aspose.Cells unterstützt den gesamten Lebenszyklus von Filterfeldern in Pivot-Tabellen. Sie können ein Filterfeld über eine komfortable High-Level-API oder über die Low-Level-Sammlung `page_fields` hinzufügen, und Sie können den Filter im Einzelauswahl-Modus steuern, ihn löschen, um alle Seitenelemente anzuzeigen, oder das Feld auf Mehrfachauswahl umschalten, sodass Benutzer mehrere Seitenelemente gleichzeitig über die Checkbox-Benutzeroberfläche in Excel auswählen können.
 {{% /alert %}}
 
 ## **Einführung**
 
-Ein Seitenfeld ist ein Pivot-Feld, das steuert, *welche Teilmenge* der Quelldaten der Pivot-Bereich anzeigt. Endbenutzer sehen es als Dropdown-Liste am oberen Rand einer gerenderten Pivot-Tabelle in Excel. Die Auswahl eines der verfügbaren Seitenelemente baut den Pivot-Bereich neu auf, sodass nur die Datensätze zusammengefasst werden, die zu diesem Seitenelement gehören. Ein Pivot-Feld wird zu einem Seitenfeld, wenn es als `PivotFieldType.PAGE` registriert wird, anstatt als `PivotFieldType.ROW`, `PivotFieldType.COLUMN` oder `PivotFieldType.DATA`.
+Ein Filterfeld ist ein Pivot-Feld, das steuert, *welche Teilmenge* der Quelldaten der Pivot-Bereich anzeigt. Endbenutzer sehen es als Dropdown-Liste am oberen Rand einer gerenderten Pivot-Tabelle in Excel. Die Auswahl eines der verfügbaren Seitenelemente baut den Pivot-Bereich neu auf, sodass nur die Datensätze zusammengefasst werden, die zu diesem Seitenelement gehören. Ein Pivot-Feld wird zu einem Filterfeld, wenn es als `PivotFieldType.PAGE` registriert wird, anstatt als `PivotFieldType.ROW`, `PivotFieldType.COLUMN` oder `PivotFieldType.DATA`.
 
-Ein Seitenfeld kann in zwei Verhaltensweisen arbeiten. Im Standardverhalten **Einzelauswahl** ist jeweils nur ein Seitenelement sichtbar, sodass der Pivot-Bereich genau eine Teilmenge zusammenfasst. Im Verhalten **Mehrfachauswahl** zeigt das Feld eine Checkbox-Liste an, und der Pivot-Bereich fasst die Vereinigung aller markierten Seitenelemente zusammen. Dasselbe Quellfeld kann zwischen diesen Verhaltensweisen hin- und hergeschaltet werden, indem eine einzige Eigenschaft umgeschaltet wird.
+Ein Filterfeld kann in zwei Verhaltensweisen arbeiten. Im Standardverhalten **Einzelauswahl** ist jeweils nur ein Seitenelement sichtbar, sodass der Pivot-Bereich genau eine Teilmenge zusammenfasst. Im Verhalten **Mehrfachauswahl** zeigt das Feld eine Checkbox-Liste an, und der Pivot-Bereich fasst die Vereinigung aller markierten Seitenelemente zusammen. Dasselbe Quellfeld kann zwischen diesen Verhaltensweisen hin- und hergeschaltet werden, indem eine einzige Eigenschaft umgeschaltet wird.
 
-Aspose.Cells for Python via .NET bietet zwei gleichwertige Möglichkeiten, ein Seitenfeld zu registrieren. Die High-Level-API ist `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")`, die den Namen der Quellspalte übernimmt und das Feld in einem einzigen Aufruf hinzufügt. Die Low-Level-API ist `PivotTable.page_fields.add(PivotField)`, die verwendet wird, wenn Sie bereits eine Referenz auf ein `PivotField` besitzen und dieselbe Feldinstanz zum Seitenbereich hinzufügen möchten. Beide APIs füllen letztlich dieselbe Sammlung `page_fields`, und der Rest dieses Artikels zeigt, wie Sie zwischen ihnen wählen und wie Sie jeden Filtermodus steuern.
+Aspose.Cells for Python via .NET bietet zwei gleichwertige Möglichkeiten, ein Filterfeld zu registrieren. Die High-Level-API ist `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")`, die den Namen der Quellspalte übernimmt und das Feld in einem einzigen Aufruf hinzufügt. Die Low-Level-API ist `PivotTable.page_fields.add(PivotField)`, die verwendet wird, wenn Sie bereits eine Referenz auf ein `PivotField` besitzen und dieselbe Feldinstanz zum Filterbereich hinzufügen möchten. Beide APIs füllen letztlich dieselbe Sammlung `page_fields`, und der Rest dieses Artikels zeigt, wie Sie zwischen ihnen wählen und wie Sie jeden Filtermodus steuern.
 
-## **Hinzufügen eines Seitenfelds**
+## **Hinzufügen eines Filterfelds**
 
-Es gibt zwei Möglichkeiten, ein Pivot-Feld im Seitenbereich zu registrieren. Der High-Level-Aufruf nimmt den Namen der Quellspalte als Zeichenkette entgegen und ist der häufigste Weg. Der Low-Level-Aufruf akzeptiert eine vorhandene `PivotField`-Instanz und ist praktisch, wenn dasselbe Feldobjekt in mehreren Pivot-Bereichen wiederverwendet werden muss. Beide Aufrufe platzieren das Feld in `PivotTable.page_fields`, wonach es als Seiten-Dropdown am oberen Rand der gerenderten Pivot-Tabelle erscheint.
+Es gibt zwei Möglichkeiten, ein Pivot-Feld im Filterbereich zu registrieren. Der High-Level-Aufruf nimmt den Namen der Quellspalte als Zeichenkette entgegen und ist der häufigste Weg. Der Low-Level-Aufruf akzeptiert eine vorhandene `PivotField`-Instanz und ist praktisch, wenn dasselbe Feldobjekt in mehreren Pivot-Bereichen wiederverwendet werden muss. Beide Aufrufe platzieren das Feld in `PivotTable.page_fields`, wonach es als Seiten-Dropdown am oberen Rand der gerenderten Pivot-Tabelle erscheint.
 
-### Hinzufügen eines Seitenfelds mit add_field_to_area
+### Hinzufügen eines Filterfelds mit add_field_to_area
 
-Das folgende Beispiel erstellt einen kleinen Datensatz mit Fruit / Year / Amount, platziert eine Pivot-Tabelle in Zelle E3 mit `Fruit` im Zeilenbereich, `Amount` im Datenbereich und `Year` im Seitenbereich, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+Das folgende Beispiel erstellt einen kleinen Datensatz mit Fruit / Year / Amount, platziert eine Pivot-Tabelle in Zelle E3 mit `Fruit` im Zeilenbereich, `Amount` im Datenbereich und `Year` im Filterbereich, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 
 ```python
 import aspose.cells as ac
@@ -78,9 +78,9 @@ pivot_table.calculate_data()
 workbook.save("pageFieldSample.xlsx")
 ```
 
-### Hinzufügen eines Seitenfelds mit page_fields.add
+### Hinzufügen eines Filterfelds mit page_fields.add
 
-Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese direkt an `PivotTable.page_fields.add` übergeben. Die Pivot-Tabelle und das Seitenfeld werden genau wie im vorherigen Szenario konstruiert; nur die abschließende Registrierung im Seitenbereich wird durch den Low-Level-API-Aufruf ersetzt.
+Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese direkt an `PivotTable.page_fields.add` übergeben. Die Pivot-Tabelle und das Filterfeld werden genau wie im vorherigen Szenario konstruiert; nur die abschließende Registrierung im Filterbereich wird durch den Low-Level-API-Aufruf ersetzt.
 
 ```python
 import aspose.cells as ac
@@ -133,11 +133,11 @@ workbook.save("output.xlsx")
 
 ## **Einzelauswahl-Filterung (Anzeigen eines Seitenelements)**
 
-Im Standardverhalten der Einzelauswahl wird das Seitenfeld als einfaches Dropdown dargestellt, und die Ganzzahl `PivotField.current_page_item` wählt aus, welches Seitenelement den Pivot-Bereich steuert. Das Zuweisen eines bestimmten Index wählt dieses eine Element aus; das Zuweisen des speziellen Sentinel-Werts `0x7FFD` (Dezimal 32765) löscht den Filter, sodass alle Seitenelemente gleichzeitig zusammengefasst werden. Die Einzelauswahl ist die Standardeinstellung; Sie müssen sie nicht explizit aktivieren.
+Im Standardverhalten der Einzelauswahl wird das Filterfeld als einfaches Dropdown dargestellt, und die Ganzzahl `PivotField.current_page_item` wählt aus, welches Seitenelement den Pivot-Bereich steuert. Das Zuweisen eines bestimmten Index wählt dieses eine Element aus; das Zuweisen des speziellen Sentinel-Werts `0x7FFD` (Dezimal 32765) löscht den Filter, sodass alle Seitenelemente gleichzeitig zusammengefasst werden. Die Einzelauswahl ist die Standardeinstellung; Sie müssen sie nicht explizit aktivieren.
 
 ### Anzeigen aller Elemente
 
-Das Setzen von `current_page_item` auf den magischen Wert `0x7FFD` entspricht dem Löschen des Seitenfilters: Der Pivot-Bereich fasst alle Seitenelemente zusammen, als wäre kein Filter angewendet worden.
+Das Setzen von `current_page_item` auf den magischen Wert `0x7FFD` entspricht dem Löschen des Filters: Der Pivot-Bereich fasst alle Seitenelemente zusammen, als wäre kein Filter angewendet worden.
 
 ```python
 import aspose.cells as ac
@@ -187,7 +187,7 @@ workbook.save("output.xlsx")
 
 ### Anzeigen eines bestimmten Elements
 
-Das Setzen von `current_page_item` auf einen echten Index wählt nur dieses eine Seitenelement aus. Der Index ist die Position des Elements in der sortierten Elementliste des Seitenfelds, sodass beispielsweise `1` das zweite Element nach dem Sortieren auswählt.
+Das Setzen von `current_page_item` auf einen echten Index wählt nur dieses eine Seitenelement aus. Der Index ist die Position des Elements in der sortierten Elementliste des Filterfelds, sodass beispielsweise `1` das zweite Element nach dem Sortieren auswählt.
 
 ```python
 import aspose.cells as ac
@@ -242,7 +242,7 @@ workbook.save("output.xlsx")
 
 Die Mehrfachauswahl-Filterung verwandelt das Seiten-Dropdown in eine Checkbox-Liste und ermöglicht es dem Endbenutzer, mehrere Seitenelemente gleichzeitig auszuwählen. Aspose.Cells stellt zwei Eigenschaften bereit, die zusammenarbeiten. `PivotField.is_multiple_item_selection_allowed` muss auf `True` gesetzt werden, bevor die Mehrfachauswahl-Benutzeroberfläche überhaupt wirksam wird. Nach der Aktivierung steuert `PivotItem.is_hidden`, welche Elemente in der Checkbox-Liste erscheinen, sodass Sie entweder alle Elemente anzeigen oder nur bestimmte Elemente auf eine Whitelist setzen können.
 
-Der folgende Code aktiviert die Mehrfachauswahl für dasselbe Year-Seitenfeld, das in Szenario 1a erstellt wurde, und zeigt dann zwei Muster: Teil A zeigt jedes Seitenelement an, indem `is_hidden` für jeden Eintrag auf `False` belassen wird, während Teil B nur die von Ihnen gewählten Quellwerte auf eine Whitelist setzt und alles andere durch einen `if` / `elif`-Block ausblendet, der `pivot_items[i].get_string_value()` prüft.
+Der folgende Code aktiviert die Mehrfachauswahl für dasselbe Year-Filterfeld, das in Szenario 1a erstellt wurde, und zeigt dann zwei Muster: Teil A zeigt jedes Seitenelement an, indem `is_hidden` für jeden Eintrag auf `False` belassen wird, während Teil B nur die von Ihnen gewählten Quellwerte auf eine Whitelist setzt und alles andere durch einen `if` / `elif`-Block ausblendet, der `pivot_items[i].get_string_value()` prüft.
 
 ```python
 import aspose.cells as ac
@@ -317,15 +317,15 @@ Die folgende Tabelle fasst zusammen, wann welche API und welcher Modus verwendet
 
 | Szenario / Anwendungsfall | Empfohlene API | Verwendete Eigenschaft | Hinweise |
 |---|---|---|---|
-| Seitenfeld nach Quellspaltennamen hinzufügen (häufigster Fall) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")` | n/a | High-Level, einzeilig. Verwenden Sie dies, es sei denn, Sie benötigen eine `PivotField`-Referenz. |
-| Seitenfeld hinzufügen, wenn Sie bereits ein `PivotField`-Objekt haben | `PivotTable.page_fields.add(PivotField)` | n/a | Verwenden Sie dies, wenn das Feldobjekt woanders erhalten wurde oder wiederverwendet werden muss. |
+| Filterfeld nach Quellspaltennamen hinzufügen (häufigster Fall) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "field_name")` | n/a | High-Level, einzeilig. Verwenden Sie dies, es sei denn, Sie benötigen eine `PivotField`-Referenz. |
+| Filterfeld hinzufügen, wenn Sie bereits ein `PivotField`-Objekt haben | `PivotTable.page_fields.add(PivotField)` | n/a | Verwenden Sie dies, wenn das Feldobjekt woanders erhalten wurde oder wiederverwendet werden muss. |
 | Nach einem einzelnen Seitenelement filtern (Standardmodus) | `PivotField.current_page_item` | auf einen bestimmten Index setzen | Beispielsweise zeigt `1` das zweite Element in der sortierten Liste an. |
-| Alle Elemente anzeigen / Seitenfilter löschen | `PivotField.current_page_item` | auf `0x7FFD` setzen | Der magische Wert `0x7FFD` (Dezimal 32765) ist der Sentinel für "alle Elemente". |
+| Alle Elemente anzeigen / Filter löschen | `PivotField.current_page_item` | auf `0x7FFD` setzen | Der magische Wert `0x7FFD` (Dezimal 32765) ist der Sentinel für "alle Elemente". |
 | Mehrfachauswahl-Benutzeroberfläche in Excel aktivieren | `PivotField.is_multiple_item_selection_allowed` | auf `True` setzen | Erforderlich, bevor `is_hidden`-Aufrufe wirksam werden. |
 | Einzelne Elemente in einer Mehrfachauswahl-Liste ausblenden / anzeigen | `PivotItem.is_hidden` | pro Element setzen | Mindestens ein Element muss sichtbar bleiben (`is_hidden == False`). |
 
 {{% alert color="primary" %}}
-Denken Sie immer an die Sichtbarkeitsbedingung, wenn Sie die Mehrfachauswahl-Filterung konfigurieren. Wenn jedes `PivotItem` in einem Mehrfachauswahl-Seitenfeld ausgeblendet ist, stürzt Excel beim Öffnen ab oder rendert eine leere Pivot-Tabelle. Erstellen Sie Ihre Whitelist anhand Ihrer Quelldaten, sodass mindestens ein Element sichtbar bleibt, und Ihre gespeicherten Arbeitsmappen werden auf jedem Rechner zuverlässig geöffnet.
+Denken Sie immer an die Sichtbarkeitsbedingung, wenn Sie die Mehrfachauswahl-Filterung konfigurieren. Wenn jedes `PivotItem` in einem Mehrfachauswahl-Filterfeld ausgeblendet ist, stürzt Excel beim Öffnen ab oder rendert eine leere Pivot-Tabelle. Erstellen Sie Ihre Whitelist anhand Ihrer Quelldaten, sodass mindestens ein Element sichtbar bleibt, und Ihre gespeicherten Arbeitsmappen werden auf jedem Rechner zuverlässig geöffnet.
 {{% /alert %}}
 
 

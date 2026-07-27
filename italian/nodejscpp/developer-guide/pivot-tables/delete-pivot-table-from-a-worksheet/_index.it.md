@@ -1,7 +1,7 @@
 ---
 title: Elimina la tabella pivot da un foglio di lavoro
 type: docs
-weight: 60
+weight: 700
 url: /it/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Codice Aspose.Cells for Node.js via C++ per rimuovere le tabelle pivot da fogli di lavoro Excel
 keywords: Excel Aspose.Cells for Node.js via C++, libreria Excel Node.js, rimuovere la tabella pivot dal foglio di lavoro, eliminare la tabella pivot da Excel, come eliminare la tabella pivot con Aspose.Cells for Node.js via C++, eliminare la tabella pivot, eliminare la tabella pivot da Excel, rimuovere la tabella pivot, Aspose.Cells for Node.js via C++ rimuove la tabella pivot, rimuovere la tabella pivot, eliminare la tabella pivot, come eliminare la tabella pivot

@@ -2,7 +2,7 @@
 title: Supprimer un tableau croisé dynamique d une feuille de calcul avec C++
 linktitle: Supprimer le tableau croisé dynamique
 type: docs
-weight: 60
+weight: 700
 url: /fr/cpp/delete-pivot-table-from-a-worksheet/
 description: Code C++ pour supprimer un tableau croisé dynamique des feuilles Excel en utilisant Aspose.Cells.
 keywords: c++ supprimer le tableau croisé dynamique de la feuille, c++ supprimer le tableau croisé dynamique d Excel, comment supprimer un tableau croisé dynamique avec c++, supprimer le tableau croisé dynamique avec c++, supprimer un tableau croisé dynamique d’Excel avec c++, c++ supprimer tableau croisé dynamique, c++ retirer tableau croisé dynamique, retirer tableau croisé dynamique, supprimer tableau croisé dynamique, comment supprimer un tableau croisé dynamique

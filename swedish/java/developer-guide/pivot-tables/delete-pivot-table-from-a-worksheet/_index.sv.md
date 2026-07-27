@@ -1,7 +1,7 @@
 ---
 title: Ta bort pivottabell från ett arbetsblad
 type: docs
-weight: 50
+weight: 700
 url: /sv/java/delete-pivot-table-from-a-worksheet/
 ---
 

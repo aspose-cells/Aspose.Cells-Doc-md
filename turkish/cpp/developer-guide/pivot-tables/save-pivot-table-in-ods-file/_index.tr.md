@@ -2,7 +2,7 @@
 title: Pivot Tabloyu ODS Dosyasına Kaydetme C++ ile
 linktitle: Pivot Tabloyu ODS Dosyasına Kaydet
 type: docs
-weight: 150
+weight: 800
 url: /tr/cpp/save-pivot-table-in-ods-file/
 description: Aspose.Cells for C++ kullanarak pivot tablolarını ODS dosyalarında kaydetmeyi öğrenin.
 ---

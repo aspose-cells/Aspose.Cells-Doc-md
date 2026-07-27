@@ -1,7 +1,7 @@
 ---
 title: Pivot Tabelle aus einem Arbeitsblatt löschen
 type: docs
-weight: 60
+weight: 700
 url: /de/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Aspose.Cells for JavaSkript via C++ Code, um PivotTable für Excel Arbeitsblätter zu entfernen
 keywords: Aspose.Cells for JavaSkript via C++ Excel, Excel JavaScript Bibliothek, Pivot Tabelle aus Arbeitsblatt entfernen, Pivot Tabelle aus Excel entfernen, wie man Pivot Tabelle mit Aspose.Cells for JavaSkript via C++ löscht, Pivot Tabelle löschen, Pivot Tabelle aus Excel löschen, Pivot Tabelle löschen, Aspose.Cells for JavaSkript via C++ entfernt Pivot Tabelle, Pivot Tabelle entfernen, Pivot Tabelle löschen, wie man Pivot Tabelle löscht

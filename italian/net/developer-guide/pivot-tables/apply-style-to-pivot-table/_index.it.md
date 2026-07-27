@@ -1,6 +1,6 @@
 ---
-title: Applicazione degli stili alle tabelle pivot
-linktitle: Applicazione degli stili
+title: Applicare stili alle tabelle pivot in Aspose.Cells per .NET
+linktitle: Applicare stili alle tabelle pivot
 description: Scopri come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for .NET, coprendo autoformati legacy XLS, stili denominati moderni di Excel 2007+, stili personalizzati per tabelle pivot e la scorciatoia FormatAll.
 keywords: Aspose.Cells .NET stile tabella pivot, PivotTableStyleType, AutoFormatType, FormatAll, stile personalizzato, PivotTableStyleName, TableStyles
 type: docs

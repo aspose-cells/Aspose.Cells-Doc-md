@@ -2,7 +2,7 @@
 title: 用 C++ 从工作表中删除数据透视表
 linktitle: 删除数据透视表
 type: docs
-weight: 60
+weight: 700
 url: /zh/cpp/delete-pivot-table-from-a-worksheet/
 description: 使用 Aspose.Cells 的 C++ 代码删除 Excel 工作表中的数据透视表。
 keywords: C++ 从工作表中删除数据透视表，C++ 删除 Excel 数据透视表，如何用 C++ 删除数据透视表，删除数据透视表，删除 Excel 中的数据透视表，C++ 删除数据透视表，C++ 移除数据透视表，移除数据透视表，删除数据透视表，如何删除数据透视表

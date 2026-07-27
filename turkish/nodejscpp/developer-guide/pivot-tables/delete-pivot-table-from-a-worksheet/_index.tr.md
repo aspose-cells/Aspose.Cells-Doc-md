@@ -1,7 +1,7 @@
 ---
 title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
-weight: 60
+weight: 700
 url: /tr/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Excel Sayfalarına PivotTable Kaldırmak İçin Aspose.Cells for Node.js via C++ Kodu
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js kütüphanesi, çalışma sayfasından pivot tablo kaldırma, excel den pivot tablo kaldırma, Aspose.Cells for Node.js via C++ ile pivot tablo nasıl silinir, pivot tablo sil, excel den pivot tablo sil, pivot tablo sil, Aspose.Cells for Node.js via C++ pivot tablo kaldırma, pivot tablo kaldır, pivot tablo silme, pivot tablo nasıl silinir? 

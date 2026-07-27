@@ -1,6 +1,6 @@
 ---
-title: 为数据透视表应用样式
-linktitle: 为数据透视表应用样式
+title: 在 Aspose.Cells for .NET 中应用数据透视表样式
+linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for C++ 中为数据透视表应用内置和自定义样式，包括旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells, C++, 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs

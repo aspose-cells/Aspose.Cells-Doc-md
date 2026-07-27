@@ -1,7 +1,7 @@
 ---
 title: Skapa Pivot tabel
 type: docs
-weight: 10
+weight: 160
 url: /sv/cpp/create-pivot-table/
 ---
 

@@ -1,34 +1,34 @@
 ---
-title: Campos de página en tablas dinámicas
-linktitle: Campos de página en tablas dinámicas
-description: Aprenda cómo agregar y configurar campos de página en tablas dinámicas usando Aspose.Cells for Node.js via C++, incluyendo cómo agregar campos de página, filtrado de selección única y filtrado de selección múltiple.
-keywords: Aspose.Cells, Node.js via C++, tabla dinámica, campo de página, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+title: Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET
+linktitle: Agregar campos de filtro
+description: Aprenda cómo agregar y configurar campos de filtro en tablas dinámicas usando Aspose.Cells for Node.js via C++, incluyendo cómo agregar campos de filtro, filtrado de selección única y filtrado de selección múltiple.
+keywords: Aspose.Cells, Node.js via C++, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /es/nodejs-cpp/add-page-field-in-pivot-table/
+url: /es/nodejs-cpp/add-filter-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells admite el ciclo de vida completo de los campos de página en las tablas dinámicas. Puede agregar un campo de página mediante una API de conveniencia de alto nivel o mediante la colección de bajo nivel `PageFields`, y puede controlar el filtro de página en modo de selección única, limpiarlo para mostrar todos los elementos de la página o cambiar el campo a selección múltiple para que los usuarios puedan elegir varios elementos de página a la vez a través de la interfaz de casillas de verificación en Excel.
+Aspose.Cells admite el ciclo de vida completo de los campos de filtro en las tablas dinámicas. Puede agregar un campo de filtro mediante una API de conveniencia de alto nivel o mediante la colección de bajo nivel `PageFields`, y puede controlar el filtro de página en modo de selección única, limpiarlo para mostrar todos los elementos de la página o cambiar el campo a selección múltiple para que los usuarios puedan elegir varios elementos de página a la vez a través de la interfaz de casillas de verificación en Excel.
 {{% /alert %}}
 
 ## **Introducción**
 
-Un campo de página es un campo dinámico que controla *qué subconjunto* de los datos de origen muestra el cuerpo de la tabla dinámica. Los usuarios finales lo ven como una lista desplegable en la parte superior de una tabla dinámica renderizada en Excel, y al seleccionar uno de los elementos de página disponibles, el cuerpo de la tabla dinámica se reconstruye de manera que solo se resumen los registros que pertenecen a ese elemento de página. Un campo dinámico se convierte en un campo de página cuando se registra como `PivotFieldType.Page` en lugar de `PivotFieldType.Row`, `PivotFieldType.Column` o `PivotFieldType.Data`.
+Un campo de filtro es un campo dinámico que controla *qué subconjunto* de los datos de origen muestra el cuerpo de la tabla dinámica. Los usuarios finales lo ven como una lista desplegable en la parte superior de una tabla dinámica renderizada en Excel, y al seleccionar uno de los elementos de página disponibles, el cuerpo de la tabla dinámica se reconstruye de manera que solo se resumen los registros que pertenecen a ese elemento de página. Un campo dinámico se convierte en un campo de filtro cuando se registra como `PivotFieldType.Page` en lugar de `PivotFieldType.Row`, `PivotFieldType.Column` o `PivotFieldType.Data`.
 
-Un campo de página puede operar en dos comportamientos. En el comportamiento predeterminado de **selección única**, solo un elemento de página es visible a la vez, por lo que el cuerpo de la tabla dinámica resume exactamente un subconjunto. En el comportamiento de **selección múltiple**, el campo expone una lista de casillas de verificación, y el cuerpo de la tabla dinámica resume la unión de cada elemento de página marcado. El mismo campo de origen puede moverse hacia adelante y hacia atrás entre estos comportamientos alternando una sola propiedad.
+Un campo de filtro puede operar en dos comportamientos. En el comportamiento predeterminado de **selección única**, solo un elemento de página es visible a la vez, por lo que el cuerpo de la tabla dinámica resume exactamente un subconjunto. En el comportamiento de **selección múltiple**, el campo expone una lista de casillas de verificación, y el cuerpo de la tabla dinámica resume la unión de cada elemento de página marcado. El mismo campo de origen puede moverse hacia adelante y hacia atrás entre estos comportamientos alternando una sola propiedad.
 
-Aspose.Cells for Node.js via C++ expone dos formas equivalentes de registrar un campo de página. La API de alto nivel es `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`, que toma el nombre de la columna de origen y agrega el campo en una sola llamada. La API de bajo nivel es `PivotTable.pageFields.add(PivotField)`, que se utiliza cuando ya tiene una referencia `PivotField` y desea agregar la misma instancia de campo al área de página. Ambas APIs terminan poblando la misma colección `PageFields`, y el resto de este artículo demuestra cómo elegir entre ellas y cómo controlar cada modo de filtrado.
+Aspose.Cells for Node.js via C++ expone dos formas equivalentes de registrar un campo de filtro. La API de alto nivel es `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`, que toma el nombre de la columna de origen y agrega el campo en una sola llamada. La API de bajo nivel es `PivotTable.pageFields.add(PivotField)`, que se utiliza cuando ya tiene una referencia `PivotField` y desea agregar la misma instancia de campo al área de filtro. Ambas APIs terminan poblando la misma colección `PageFields`, y el resto de este artículo demuestra cómo elegir entre ellas y cómo controlar cada modo de filtrado.
 
-## **Agregar un campo de página**
+## **Agregar un campo de filtro**
 
-Hay dos formas de registrar un campo dinámico en el área de página. La llamada de alto nivel toma el nombre de la columna de origen como una cadena y es la ruta más común. La llamada de bajo nivel acepta una instancia existente de `PivotField` y es conveniente cuando la misma instancia de campo debe reutilizarse en múltiples áreas dinámicas. Ambas llamadas colocan el campo en `PivotTable.pageFields`, tras lo cual aparece como la lista desplegable de página en la parte superior de la tabla dinámica renderizada.
+Hay dos formas de registrar un campo dinámico en el área de filtro. La llamada de alto nivel toma el nombre de la columna de origen como una cadena y es la ruta más común. La llamada de bajo nivel acepta una instancia existente de `PivotField` y es conveniente cuando la misma instancia de campo debe reutilizarse en múltiples áreas dinámicas. Ambas llamadas colocan el campo en `PivotTable.pageFields`, tras lo cual aparece como la lista desplegable de página en la parte superior de la tabla dinámica renderizada.
 
-### Agregar un campo de página con addFieldToArea
+### Agregar un campo de filtro con addFieldToArea
 
-El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de página, actualiza la tabla dinámica y guarda el libro de trabajo.
+El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de filtro, actualiza la tabla dinámica y guarda el libro de trabajo.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -77,9 +77,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### Agregar un campo de página con pageFields.add
+### Agregar un campo de filtro con pageFields.add
 
-Cuando ya trabaja con una instancia `PivotField`, puede pasarla directamente a `PivotTable.pageFields.add`. La tabla dinámica y el campo de página se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de página con la llamada API de bajo nivel.
+Cuando ya trabaja con una instancia `PivotField`, puede pasarla directamente a `PivotTable.pageFields.add`. La tabla dinámica y el campo de filtro se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de filtro con la llamada API de bajo nivel.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -123,7 +123,7 @@ workbook.save("output.xlsx");
 
 ## **Filtrado de selección única (mostrar un elemento de página)**
 
-En el comportamiento predeterminado de selección única, el campo de página se renderiza como una sola lista desplegable y el entero `PivotField.currentPageItem` selecciona qué elemento de página controla el cuerpo de la tabla dinámica. Asignar un índice específico elige ese único elemento; asignar el centinela especial `0x7FFD` (decimal 32765) limpia el filtro para que todos los elementos de página se resuman a la vez. La selección única es el valor predeterminado; no necesita habilitarla explícitamente.
+En el comportamiento predeterminado de selección única, el campo de filtro se renderiza como una sola lista desplegable y el entero `PivotField.currentPageItem` selecciona qué elemento de página controla el cuerpo de la tabla dinámica. Asignar un índice específico elige ese único elemento; asignar el centinela especial `0x7FFD` (decimal 32765) limpia el filtro para que todos los elementos de página se resuman a la vez. La selección única es el valor predeterminado; no necesita habilitarla explícitamente.
 
 ### Mostrar todos los elementos
 
@@ -176,7 +176,7 @@ workbook.save("output.xlsx");
 
 ### Mostrar un elemento específico
 
-Establecer `currentPageItem` en un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista de elementos ordenada del campo de página, por lo que, por ejemplo, `1` selecciona el segundo elemento después de ordenar.
+Establecer `currentPageItem` en un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista de elementos ordenada del campo de filtro, por lo que, por ejemplo, `1` selecciona el segundo elemento después de ordenar.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -228,7 +228,7 @@ workbook.save("output.xlsx");
 
 El filtrado de selección múltiple convierte la lista desplegable de la página en una lista de casillas de verificación y permite al usuario final elegir varios elementos de página simultáneamente. Aspose.Cells expone dos propiedades que funcionan juntas. `PivotField.isMultipleItemSelectionAllowed` debe establecerse en `true` antes de que la interfaz de selección múltiple surta efecto. Una vez habilitada, `PivotItem.isHidden` controla qué elementos aparecen en la lista de casillas de verificación, por lo que puede mostrar todos los elementos o permitir solo elementos específicos.
 
-El código a continuación habilita la selección múltiple en el mismo campo de página Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A revela cada elemento de página al dejar `isHidden` establecido en `false` para cada entrada, mientras que la Parte B permite solo los valores de origen que elija y oculta todo lo demás mediante un bloque `switch (pivotItems[i].getStringValue())`.
+El código a continuación habilita la selección múltiple en el mismo campo de filtro Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A revela cada elemento de página al dejar `isHidden` establecido en `false` para cada entrada, mientras que la Parte B permite solo los valores de origen que elija y oculta todo lo demás mediante un bloque `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -304,15 +304,15 @@ La tabla a continuación resume cuándo usar cada API y modo para que pueda eleg
 
 | Escenario / Caso de uso | API recomendada | Propiedad utilizada | Notas |
 |---|---|---|---|
-| Agregar un campo de página por nombre de columna de origen (lo más común) | `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Alto nivel, una sola línea. Use esto a menos que necesite una referencia `PivotField`. |
-| Agregar un campo de página cuando ya tiene un objeto `PivotField` | `PivotTable.pageFields.add(PivotField)` | n/a | Use cuando el objeto de campo se obtuvo en otro lugar o necesita reutilizarse. |
+| Agregar un campo de filtro por nombre de columna de origen (lo más común) | `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Alto nivel, una sola línea. Use esto a menos que necesite una referencia `PivotField`. |
+| Agregar un campo de filtro cuando ya tiene un objeto `PivotField` | `PivotTable.pageFields.add(PivotField)` | n/a | Use cuando el objeto de campo se obtuvo en otro lugar o necesita reutilizarse. |
 | Filtrar a un solo elemento de página (modo predeterminado) | `PivotField.currentPageItem` | establecer en un índice específico | Por ejemplo, `1` muestra el segundo elemento en la lista ordenada. |
 | Mostrar todos los elementos / limpiar el filtro de página | `PivotField.currentPageItem` | establecer en `0x7FFD` | El valor mágico `0x7FFD` (decimal 32765) es el centinela para "todos los elementos". |
 | Habilitar la interfaz de selección múltiple en Excel | `PivotField.isMultipleItemSelectionAllowed` | establecer en `true` | Requerido antes de que cualquier llamada a `isHidden` surta efecto. |
 | Ocultar / mostrar elementos individuales en una lista de selección múltiple | `PivotItem.isHidden` | establecer por elemento | Al menos un elemento debe permanecer visible (`isHidden == false`). |
 
 {{% alert color="primary" %}}
-Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si todos los `PivotItem` en un campo de página de selección múltiple están ocultos, Excel se bloquea al abrir o renderiza una tabla dinámica en blanco. Construya su lista permitida contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros de trabajo guardados se abrirán de manera confiable en cualquier máquina.
+Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si todos los `PivotItem` en un campo de filtro de selección múltiple están ocultos, Excel se bloquea al abrir o renderiza una tabla dinámica en blanco. Construya su lista permitida contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros de trabajo guardados se abrirán de manera confiable en cualquier máquina.
 {{% /alert %}}
 
 

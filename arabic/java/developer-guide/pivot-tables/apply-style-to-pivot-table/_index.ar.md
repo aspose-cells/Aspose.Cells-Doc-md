@@ -1,6 +1,6 @@
 ---
-title: تطبيق الأنماط على الجداول المحورية
-linktitle: تطبيق الأنماط على الجداول المحورية
+title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells لـ .NET
+linktitle: تطبيق أنماط الجداول المحورية
 description: تعلم كيفية تطبيق الأنماط المضمنة والمخصصة على الجداول المحورية في Aspose.Cells for Java، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، والأنماط الحديثة المسماة في Excel 2007+، وأنماط الجداول المحورية المخصصة، واختصار FormatAll.
 keywords: Aspose.Cells Java نمط الجدول المحوري, PivotTableStyleType, AutoFormatType, FormatAll, نمط مخصص, PivotTableStyleName, TableStyles
 type: docs

@@ -1,8 +1,8 @@
 ---
 title: Actualización de tablas dinámicas en Aspose.Cells for C++
 linktitle: Actualización de tablas dinámicas en Aspose.Cells for C++
-description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
-keywords: Aspose.Cells, C++, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells for C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
+keywords: Aspose.Cells, C++, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /es/cpp/refresh-pivot-table/
@@ -12,50 +12,50 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells ofrece una API de actualización por capas que permite recargar datos de tablas dinámicas en cuatro niveles diferentes — desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe reemplazarse con las APIs más eficientes y conscientes del caché descritas en este artículo.
+Aspose.Cells ofrece una API de actualización por capas que le permite recargar datos de tablas dinámicas en cuatro niveles diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for C++ v26.7**, el método heredado `PivotTable.RefreshData()` queda marcado como obsoleto y debe reemplazarse por las APIs más eficientes y conscientes de la caché que se describen en este artículo.
 
 {{% /alert %}}
 
 ## Introducción
 
-Actualizar una tabla dinámica rara vez es una sola operación. Tras bambalinas, Aspose.Cells mantiene una cadena de datos en capas que conecta sus datos de origen originales con los valores renderizados que ve en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cualquier situación.
+Actualizar una tabla dinámica rara vez es una operación única. Entre bastidores, Aspose.Cells mantiene una cadena de datos por capas que conecta los datos de origen originales con los valores renderizados que ve en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cualquier situación.
 
 La cadena de datos de cuatro capas es:
 
-1. **Origen de datos** — los rangos originales de la hoja de cálculo, la consulta a la base de datos o el rango de consolidación donde residen los valores brutos.
-2. **PivotCache** — la instantánea en memoria de los datos de origen. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y agregan todos los datos.
-3. **PivotTable** — el objeto de vista que define los campos de filas, columnas, valores y filtros. Una `PivotTable` lee *solo* de su `PivotCache`, nunca directamente del origen de datos.
-4. **Celdas** — las `Cells` de la hoja de cálculo en las que la `PivotTable` renderiza sus valores calculados y estilos.
+1. **Fuente de datos** — los rangos originales de la hoja de cálculo, consulta a base de datos o rango de consolidación donde viven los valores sin procesar.
+2. **PivotCache** — la instantánea en memoria de los datos de origen. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y se agregan todos los datos.
+3. **PivotTable** — el objeto de vista que define los campos de fila, columna, valor y filtro. Un `PivotTable` lee *solo* desde su `PivotCache`, nunca directamente desde la fuente de datos.
+4. **Celdas** — las `Cells` de la hoja de cálculo en las que el `PivotTable` renderiza sus valores calculados y estilos.
 
-Un concepto particularmente importante es el **caché compartido**. Cuando varias tablas dinámicas en un libro hacen referencia al mismo rango de origen, comparten *una* instancia de `PivotCache`. Un solo `PivotCache` puede ser referenciado por muchas tablas dinámicas, y actualizar ese caché actualiza cada `PivotTable` dependiente a la vez.
+Un concepto particularmente importante es la **caché compartida**. Cuando varias tablas dinámicas en un libro hacen referencia al mismo rango de origen, comparten *una* instancia de `PivotCache`. Una sola `PivotCache` puede ser referenciada por muchas tablas dinámicas, y al actualizar esa caché se actualizan todas las `PivotTable` dependientes a la vez.
 
 {{% alert color="primary" %}}
 
-`PivotCache.SourceType` (enum `PivotTableSourceType`) indica de dónde provienen los datos del caché. A partir de v26.7, `PivotCache.Refresh()` admite solo los tipos de origen **`Sheet`** y **`Consolidation`** — es decir, datos que residen en rangos de hojas de cálculo. Los orígenes externos (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API del caché.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) indica de dónde provienen los datos de la caché. A partir de v26.7, `PivotCache.Refresh()` solo admite los tipos de origen **`Sheet`** y **`Consolidation`**, es decir, datos que viven en rangos de hojas de cálculo. Las fuentes externas (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
 
 {{% /alert %}}
 
 Debido a esta cadena, hay dos rutas fundamentales de actualización en Aspose.Cells:
 
-- **`PivotCache.Refresh()`** — recarga el origen → caché Y recalcula todas las `PivotTable` dependientes en una sola operación.
-- **`PivotTable.CalculateData()`** — recalcula la visualización de una `PivotTable` a partir de datos ya en caché, sin hacer un viaje de ida y vuelta al origen de datos.
+- **`PivotCache.Refresh()`** — recarga origen → caché Y recalcula todas las `PivotTable` dependientes en una sola operación.
+- **`PivotTable.CalculateData()`** — recalcula la visualización de una sola `PivotTable` desde los datos ya almacenados en caché, sin volver a la fuente de datos.
 
-Todos los escenarios de este artículo utilizan datos de origen de celdas de hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
+Todos los escenarios de este artículo utilizan datos de origen en celdas de la hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
 
-## Directivas Include Requeridas
+## Directivas de inclusión requeridas
 
-Todos los ejemplos de C++ en este artículo comienzan con las siguientes directivas de inclusión de cabeceras y de espacio de nombres porque los tipos de tablas dinámicas viven en el espacio de nombres `Aspose::Cells::Pivot`:
+Todos los ejemplos en C++ de este artículo comienzan con las siguientes directivas de inclusión de cabecera y espacio de nombres porque los tipos de tablas dinámicas se encuentran en el espacio de nombres `Aspose::Cells::Pivot`:
 
 - `#include <system/object.h>`
 - `#include "Aspose.Cells.h"`
 - `using namespace Aspose::Cells;`
 - `using namespace Aspose::Cells::Pivot;`
 
-## Actualizar Todas las Tablas Dinámicas en el Libro
+## Actualizar todas las tablas dinámicas del libro
 
-Cuando necesita asegurarse de que cada caché de tabla dinámica y cada tabla dinámica en el libro refleje los últimos datos de origen, la API más simple y completa es `Workbook.RefreshAll()`. Una sola llamada recorre todo el libro — actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales de documentos completos donde el rendimiento no es una preocupación.
+Cuando necesite asegurarse de que cada caché de tabla dinámica y cada tabla dinámica del libro reflejen los datos de origen más recientes, la API más sencilla y completa es `Workbook.RefreshAll()`. Una sola llamada recorre todo el libro, actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales y completas del documento cuando el rendimiento no es un problema.
 
-El siguiente ejemplo crea un libro con un rango de origen Fruit/Year/Amount, crea una tabla dinámica, modifica algunos valores de origen y luego usa `RefreshAll()` para actualizar todo en una sola llamada.
+El siguiente ejemplo crea un libro con un rango de origen Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores de origen y luego utiliza `RefreshAll()` para actualizarlo todo en una sola llamada.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -127,13 +127,13 @@ int main() {
 }
 ```
 
-## Actualizar Todas las Tablas Dinámicas en una Sola Hoja de Cálculo
+## Actualizar todas las tablas dinámicas en una sola hoja de cálculo
 
-A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica — por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben tocarse. Para este caso, Aspose.Cells proporciona `Worksheet.RefreshPivotTables()`, que está limitado a una sola instancia de `Worksheet`.
+A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica; por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas no están relacionadas y no deben modificarse. Para este caso, Aspose.Cells proporciona `Worksheet.RefreshPivotTables()`, que está limitado a una sola instancia de `Worksheet`.
 
-Esto es más selectivo que `Workbook.RefreshAll()`: solo se actualizan las tablas dinámicas en la hoja de cálculo objetivo, dejando intactas las tablas dinámicas en otras hojas de cálculo.
+Esto es más selectivo que `Workbook.RefreshAll()`: solo se actualizan las tablas dinámicas de la hoja de cálculo objetivo, dejando intactas las tablas dinámicas en otras hojas.
 
-El siguiente ejemplo completa los mismos datos de origen Fruit/Year/Amount, agrega una tabla dinámica en la primera hoja de cálculo, modifica algunos valores de origen y luego actualiza solo las tablas dinámicas en esa hoja de cálculo.
+El siguiente ejemplo rellena los mismos datos de origen Fruta/Año/Cantidad, agrega una tabla dinámica en la primera hoja de cálculo, modifica algunos valores de origen y luego actualiza solo las tablas dinámicas de esa hoja.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -202,21 +202,21 @@ int main() {
 }
 ```
 
-## Actualizar una Sola Tabla Dinámica
+## Actualizar una sola tabla dinámica
 
-Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente cambió: los datos de origen subyacentes, o solo la configuración de vista/diseño de la tabla dinámica en sí.
+Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente cambió: los datos de origen subyacentes, o solo la configuración de vista/diseño de la propia tabla dinámica.
 
-### Cambiaron los Datos de Origen — Use `PivotCache.Refresh()`
+### Cambiaron los datos de origen: use `PivotCache.Refresh()`
 
-Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.GetPivotCache().Refresh()`. Esta llamada vuelve a leer los datos de origen en el caché y luego recalcula cada `PivotTable` que depende de ese caché.
+Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.GetPivotCache().Refresh()`. Esta llamada vuelve a leer los datos de origen en la caché y luego recalcula cada `PivotTable` que depende de esa caché.
 
 {{% alert color="primary" %}}
 
-Debido a que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.Refresh()` recalcula **todas** las tablas dinámicas construidas sobre ese mismo caché — no solo la que usted referencia. Si dos tablas dinámicas comparten el mismo rango de origen, actualizar un caché actualiza ambas.
+Dado que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.Refresh()` recalcula **todas** las tablas dinámicas construidas sobre esa misma caché, no solo aquella a la que hace referencia. Si dos tablas dinámicas comparten el mismo rango de origen, actualizar una caché actualiza ambas.
 
 {{% /alert %}}
 
-El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen para demostrar este comportamiento de caché compartido, modifica algunos valores de origen y luego actualiza a través de una referencia de caché.
+El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango de origen para demostrar este comportamiento de caché compartida, modifica algunos valores de origen y luego actualiza mediante una referencia a la caché.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -291,7 +291,7 @@ int main() {
     cells.Get(u"C4").PutValue(350);
     cells.Get(u"C7").PutValue(650);
 
-    // Actualizar el PivotCache compartido refrescando los datos de la tabla dinámica
+    // Actualizar el PivotCache compartido actualizando los datos de la tabla dinámica
     pivotTable1.RefreshData();
 
     // Guardar el libro
@@ -302,13 +302,13 @@ int main() {
 }
 ```
 
-### Solo Cambió la Vista/Diseño — Use `CalculateData()`
+### Solo cambió la vista/diseño: use `CalculateData()`
 
-Si los datos de origen *no* han cambiado pero solo se han modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente, o se ha alternado la configuración de actualización al abrir), no es necesario hacer un viaje de ida y vuelta al origen de datos. El caché ya contiene los datos correctos; solo la `PivotTable` renderizada necesita recalcularse. En este caso, `pivotTable.CalculateData()` es la opción correcta.
+Si los datos de origen *no* han cambiado pero solo se han modificado los ajustes de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente o se ha alternado un ajuste de actualización al abrir), no es necesario volver a la fuente de datos. La caché ya contiene los datos correctos; solo es necesario recalcular el `PivotTable` renderizado. En este caso, `pivotTable.CalculateData()` es la elección correcta.
 
-Esto evita la búsqueda innecesaria al origen y es significativamente más rápido cuando muchas tablas dinámicas comparten el mismo caché.
+Esto evita la obtención innecesaria de datos del origen y es significativamente más rápido cuando muchas tablas dinámicas comparten la misma caché.
 
-El siguiente ejemplo modifica una propiedad que no es de origen de la tabla dinámica y luego llama a `CalculateData()` para volver a renderizarla desde el caché existente.
+El siguiente ejemplo modifica una propiedad que no es de origen de la tabla dinámica y luego llama a `CalculateData()` para volver a renderizarla desde la caché existente.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -363,22 +363,22 @@ int main() {
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
 
-    // Asignar campos: Fruta a Fila, Año a Columna, Cantidad a Datos
+    // Asignar campos: Fruit a Fila, Year a Columna, Amount a Datos
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
     // Modificar una propiedad de vista/diseño — este es un cambio solo de presentación,
-    // por lo que NO requiere volver a leer los datos de origen a través de PivotCache.Refresh().
+    // por lo que NO requiere volver a leer los datos de origen mediante PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
 
-    // CalculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
-    // datos ya contenidos en el PivotCache. Debido a que los datos de origen no cambiaron,
-    // no se realiza un viaje de ida y vuelta al origen — solo los valores en caché se recalculan
-    // en las celdas de la hoja de cálculo.
+    // CalculateData() vuelve a renderizar la visualización (datos + estilo) de ESTA tabla dinámica
+    // a partir de los datos ya contenidos en PivotCache. Dado que los datos de origen no cambiaron,
+    // no se realiza un ida y vuelta al origen — solo se recalculan los valores en caché
+    // hacia las celdas de la hoja de cálculo.
     pivotTable.CalculateData();
 
-    // Guardar el libro de trabajo en disco
+    // Guardar el libro en disco
     workbook.Save(u"output.xlsx");
 
     Aspose::Cells::Cleanup();
@@ -386,13 +386,13 @@ int main() {
 }
 ```
 
-## Obtener Todas las Tablas Dinámicas que Comparten el Mismo PivotCache
+## Obtener todas las tablas dinámicas que comparten la misma PivotCache
 
-Un libro a menudo contiene muchas tablas dinámicas que se asientan sobre un caché compartido. Para enumerarlas — por ejemplo, antes de realizar una actualización por lotes, o para diagnosticar el impacto del caché compartido — use `PivotCache.GetPivotTables()`. Este método devuelve la colección de cada `PivotTable` que depende del caché dado.
+Un libro a menudo contiene muchas tablas dinámicas que se asientan sobre una caché compartida. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes, o para diagnosticar el impacto de la caché compartida, utilice `PivotCache.GetPivotTables()`. Este método devuelve la colección de cada `PivotTable` que depende de la caché dada.
 
-Esta es también la forma más directa de confirmar que dos tablas dinámicas comparten efectivamente la misma instancia de `PivotCache`: puede comparar referencias de caché, o simplemente iterar la colección devuelta por `GetPivotTables()` y observar qué tablas dinámicas aparecen en ella.
+Esta es también la forma más directa de confirmar que dos tablas dinámicas efectivamente comparten la misma instancia de `PivotCache`: puede comparar referencias de caché, o simplemente iterar la colección devuelta por `GetPivotTables()` y observar qué tablas dinámicas aparecen en ella.
 
-El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas del caché.
+El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas de la caché.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -463,7 +463,7 @@ int main() {
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
     // En Aspose.Cells, las tablas dinámicas creadas desde el mismo rango de origen
-    // comparten automáticamente el mismo PivotCache
+    // comparten automáticamente la misma PivotCache
     std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
 
     // Obtener todas las tablas dinámicas en la hoja de cálculo (que comparten el caché)
@@ -482,22 +482,22 @@ int main() {
 }
 ```
 
-## Migrando desde el Obsoleto `PivotTable.RefreshData()`
+## Migración desde el obsoleto `PivotTable.RefreshData()`
 
-Antes de Aspose.Cells for C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de v26.7, ese método está marcado como **obsoleto** y debe reemplazarse con las APIs conscientes del caché descritas anteriormente.
+Antes de Aspose.Cells for C++ v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.RefreshData()` en cada tabla dinámica individualmente. A partir de v26.7, ese método queda marcado como **obsoleto** y debe reemplazarse por las APIs conscientes de la caché descritas anteriormente.
 
-Hay dos razones por las que el enfoque `RefreshData()` por tabla es problemático en libros del mundo real:
+Hay dos razones por las que el enfoque `RefreshData()` por tabla es problemático en libros reales:
 
 - Vuelve a obtener datos del origen *cada* vez que se llama, incluso cuando el origen no ha cambiado.
-- Cada llamada actualiza todo el caché compartido. Cuando muchas tablas dinámicas comparten un caché, llamar repetidamente a `RefreshData()` por tabla dinámica hace que el mismo caché se vuelva a obtener una y otra vez, lo cual es muy lento.
+- Cada llamada actualiza toda la caché compartida. Cuando muchas tablas dinámicas comparten una caché, llamar repetidamente a `RefreshData()` por tabla dinámica hace que la misma caché se vuelva a obtener una y otra vez, lo cual es muy lento.
 
 Los reemplazos recomendados son:
 
-- **Actualizar TODAS las tablas dinámicas en el libro** → use `workbook.RefreshAll();`
-- **Actualizar ALGUNAS de ellas** → use `pivotTable.GetPivotCache().Refresh();` para un caché. Debido a que el caché es compartido, esta sola llamada actualiza cada tabla dinámica construida sobre ese caché. Otras tablas dinámicas que se asientan sobre un caché ya actualizado se pueden omitir de forma segura.
-- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivotTable.CalculateData();` para volver a renderizar desde el caché existente sin ningún viaje al origen.
+- **Actualizar TODAS las tablas dinámicas del libro** → use `workbook.RefreshAll();`
+- **Actualizar ALGUNAS de ellas** → use `pivotTable.GetPivotCache().Refresh();` para una caché. Debido a que la caché está compartida, esta única llamada actualiza todas las tablas dinámicas construidas sobre esa caché. Otras tablas dinámicas que se asientan sobre una caché ya actualizada se pueden omitir de forma segura.
+- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivotTable.CalculateData();` para volver a renderizar desde la caché existente sin ningún viaje de ida y vuelta al origen.
 
-El siguiente ejemplo demuestra el nuevo patrón eficiente para libros con múltiples tablas dinámicas que comparten un solo caché.
+El siguiente ejemplo demuestra el nuevo patrón eficiente para libros con varias tablas dinámicas que comparten una sola caché.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -551,18 +551,25 @@ int main() {
 }
 ```
 
-## ¿Qué API de Actualización Debo Usar?
+## ¿Qué API de actualización debo usar?
 
 La tabla a continuación resume las APIs de actualización disponibles y cuándo elegir cada una.
 
-| Objetivo | API Recomendada | Notas |
+| Objetivo | API recomendada | Notas |
 |------|-----------------|-------|
-| Actualizar todo en el libro | `Workbook.RefreshAll()` | Una sola llamada; cubre todos los cachés y tablas. |
+| Actualizar todo en el libro | `Workbook.RefreshAll()` | Una sola llamada; cubre todas las cachés y tablas. |
 | Actualizar solo las tablas dinámicas en una sola hoja | `Worksheet.RefreshPivotTables()` | Limitado a una hoja de cálculo. |
-| Cambiaron los datos de origen para un caché | `pivotTable.GetPivotCache().Refresh()` | Actualiza TODAS las tablas dinámicas en ese caché compartido. |
-| Solo cambió la configuración de vista/diseño | `pivotTable.CalculateData()` | Omite el viaje innecesario al origen. |
-| Listar todas las tablas dinámicas en un caché compartido | `pivotCache.GetPivotTables()` | Úselo para enumerar antes de la actualización masiva. |
+| Cambiaron los datos de origen para una caché | `pivotTable.GetPivotCache().Refresh()` | Actualiza TODAS las tablas dinámicas en esa caché compartida. |
+| Solo cambiaron los ajustes de vista/diseño | `pivotTable.CalculateData()` | Evita viajes innecesarios al origen. |
+| Listar todas las tablas dinámicas en una caché compartida | `pivotCache.GetPivotTables()` | Úselo para enumerar antes de una actualización masiva. |
 
-En la práctica, prefiera las APIs basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de los cachés compartidos, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisface su requisito de actualización.
+En la práctica, prefiera las APIs basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de las cachés compartidas, evitan obtenciones redundantes del origen y le permiten elegir el alcance más pequeño que satisface su requisito de actualización.
+
+## Artículos relacionados
+
+- [Insertar una imagen en una celda](/cells/es/cpp/inserting-an-image-into-a-cell/)
+- [Lectura y escritura de archivos DBF](/cells/es/cpp/dbf/)
+- [División de archivos Excel en varios archivos](/cells/es/cpp/splitting-excel-files-into-multiple-files/)
+- [Minigráficos en Aspose.Cells for C++](/cells/es/cpp/sparkline/)
 
 {{< app/cells/assistant language="cpp" >}}

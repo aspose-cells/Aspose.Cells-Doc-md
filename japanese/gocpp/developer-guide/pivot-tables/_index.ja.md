@@ -1,6 +1,6 @@
 ---
 title: ピボットテーブル
 type: docs
-weight: 50
+weight: 160
 url: /ja/go-cpp/pivot-tables/
 ---

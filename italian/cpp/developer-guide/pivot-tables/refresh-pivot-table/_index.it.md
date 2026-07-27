@@ -1,7 +1,7 @@
 ---
 title: Aggiornamento delle tabelle pivot in Aspose.Cells for C++
 linktitle: Aggiornamento delle tabelle pivot
-description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for C++ utilizzando l'API di aggiornamento delle pivot v26.7+. Questo articolo tratta RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi pratici di codice.
+description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for C++ utilizzando l'API di refresh delle pivot introdotta nella v26.7+. Questo articolo copre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi di codice pratici.
 keywords: Aspose.Cells, C++, tabella pivot, aggiornamento, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -12,50 +12,50 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells fornisce un'API di aggiornamento stratificata che consente di ricaricare i dati delle pivot in quattro ambiti diversi — dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for C++ v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
+Aspose.Cells fornisce un'API di aggiornamento stratificata che consente di ricaricare i dati delle pivot a quattro livelli diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for C++ v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
 
 {{% /alert %}}
 
 ## Introduzione
 
-L'aggiornamento di una tabella pivot è raramente una singola operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati stratificata che collega i dati originali di origine ai valori renderizzati che vedi nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
+L'aggiornamento di una tabella pivot è raramente una singola operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati stratificata che collega i dati originali ai valori visualizzati nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
 
-La catena di dati a quattro livelli è:
+La catena dei dati a quattro livelli è:
 
-1. **Origine dati** — gli intervalli originali del foglio di lavoro, la query del database o l'intervallo di consolidamento in cui risiedono i valori grezzi.
-2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita sopra un `PivotCache`; qui tutti i dati vengono raccolti e aggregati.
-3. **PivotTable** — l'oggetto vista che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *solo* dal suo `PivotCache`, mai direttamente dall'origine dati.
+1. **Origine dati** — gli intervalli del foglio di lavoro originali, la query del database o l'intervallo di consolidamento in cui risiedono i valori grezzi.
+2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita sopra un `PivotCache`; è qui che tutti i dati vengono raccolti e aggregati.
+3. **PivotTable** — l'oggetto vista che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *esclusivamente* dal proprio `PivotCache`, mai direttamente dall'origine dati.
 4. **Cells** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i valori calcolati e gli stili.
 
-Un concetto particolarmente importante è la **cache condivisa**. Quando più tabelle pivot in una cartella di lavoro fanno riferimento allo stesso intervallo di origine, condividono *una* singola istanza di `PivotCache`. Un singolo `PivotCache` può essere referenziato da molte tabelle pivot, e l'aggiornamento di quella cache aggiorna immediatamente ogni `PivotTable` dipendente.
+Un concetto particolarmente importante è la **cache condivisa**. Quando più tabelle pivot nella cartella di lavoro fanno riferimento allo stesso intervallo di origine, condividono *una* sola istanza di `PivotCache`. Un singolo `PivotCache` può essere referenziato da molte tabelle pivot, e aggiornare quella cache aggiorna contemporaneamente ogni `PivotTable` dipendente.
 
 {{% alert color="primary" %}}
 
-`PivotCache.SourceType` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire da v26.7, `PivotCache.Refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`** — cioè dati che risiedono negli intervalli del foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.Refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`**, ovvero dati che risiedono in intervalli del foglio di lavoro. Origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
 
 {{% /alert %}}
 
-A causa di questa catena, ci sono due percorsi di aggiornamento fondamentali in Aspose.Cells:
+A causa di questa catena, esistono due percorsi fondamentali di aggiornamento in Aspose.Cells:
 
 - **`PivotCache.Refresh()`** — ricarica origine → cache E ricalcola tutte le `PivotTable` dipendenti in una singola operazione.
-- **`PivotTable.CalculateData()`** — ricalcola la visualizzazione di una singola `PivotTable` dai dati già memorizzati nella cache, senza tornare all'origine dati.
+- **`PivotTable.CalculateData()`** — ricalcola la visualizzazione di una `PivotTable` dai dati già memorizzati nella cache, senza tornare all'origine dati.
 
-Tutti gli scenari di questo articolo utilizzano dati di origine da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
+Tutti gli scenari in questo articolo utilizzano dati di origine provenienti da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
 
 ## Direttive Include Richieste
 
-Tutti gli esempi C++ di questo articolo iniziano con le seguenti direttive di inclusione dell'intestazione e di namespace perché i tipi pivot si trovano nel namespace `Aspose::Cells::Pivot`:
+Tutti gli esempi C++ di questo articolo iniziano con le seguenti direttive di inclusione degli header e di namespace perché i tipi delle pivot risiedono nel namespace `Aspose::Cells::Pivot`:
 
 - `#include <system/object.h>`
 - `#include "Aspose.Cells.h"`
 - `using namespace Aspose::Cells;`
 - `using namespace Aspose::Cells::Pivot;`
 
-## Aggiorna Tutte le Tabelle Pivot nella Cartella di Lavoro
+## Aggiornare tutte le tabelle pivot nella cartella di lavoro
 
-Quando hai bisogno di garantire che ogni cache pivot e ogni tabella pivot nella cartella di lavoro riflettano i dati di origine più recenti, l'API più semplice e completa è `Workbook.RefreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro — aggiornando ogni `PivotCache` dalla sua origine e poi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per aggiornamenti generali e completi del documento dove le prestazioni non sono un problema.
+Quando è necessario garantire che ogni cache pivot e ogni tabella pivot nella cartella di lavoro riflettano i dati di origine più recenti, l'API più semplice e completa è `Workbook.RefreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla propria origine e ricalcolando poi ogni `PivotTable` dipendente. Questo è l'approccio consigliato per gli aggiornamenti generali e completi del documento, quando le prestazioni non sono un problema.
 
-L'esempio seguente costruisce una cartella di lavoro con un intervallo di origine Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori di origine, e poi utilizza `RefreshAll()` per portare tutto aggiornato in una singola chiamata.
+L'esempio seguente crea una cartella di lavoro con un intervallo di origine Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori di origine e poi utilizza `RefreshAll()` per portare tutto aggiornato in una singola chiamata.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -127,13 +127,13 @@ int main() {
 }
 ```
 
-## Aggiorna Tutte le Tabelle Pivot su un Singolo Foglio di Lavoro
+## Aggiornare tutte le tabelle pivot su un singolo foglio di lavoro
 
-A volte hai solo bisogno di aggiornare le tabelle pivot che si trovano su uno specifico foglio di lavoro — ad esempio, quando le tabelle pivot su altri fogli di lavoro sono note per essere non correlate e non devono essere toccate. Per questo caso, Aspose.Cells fornisce `Worksheet.RefreshPivotTables()`, che è limitato a una singola istanza di `Worksheet`.
+A volte è necessario aggiornare solo le tabelle pivot che si trovano su un foglio di lavoro specifico, ad esempio quando le tabelle pivot presenti su altri fogli di lavoro non sono correlate e non devono essere toccate. Per questo caso, Aspose.Cells fornisce `Worksheet.RefreshPivotTables()`, che ha come ambito una singola istanza di `Worksheet`.
 
-Questo è più selettivo rispetto a `Workbook.RefreshAll()`: vengono aggiornate solo le tabelle pivot sul foglio di lavoro di destinazione, lasciando intatte le tabelle pivot su altri fogli di lavoro.
+Questo è più selettivo rispetto a `Workbook.RefreshAll()`: vengono aggiornate solo le tabelle pivot presenti sul foglio di lavoro interessato, lasciando inalterate le tabelle pivot sugli altri fogli.
 
-L'esempio seguente popola gli stessi dati di origine Frutto/Anno/Importo, aggiunge una tabella pivot sul primo foglio di lavoro, modifica alcuni valori di origine, e poi aggiorna solo le tabelle pivot su quel foglio di lavoro.
+L'esempio seguente popola gli stessi dati di origine Frutto/Anno/Importo, aggiunge una tabella pivot sul primo foglio di lavoro, modifica alcuni valori di origine e poi aggiorna solo le tabelle pivot presenti su quel foglio.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -202,21 +202,21 @@ int main() {
 }
 ```
 
-## Aggiorna una Singola Tabella Pivot
+## Aggiornare una singola tabella pivot
 
-Quando desideri un controllo granulare su una singola tabella pivot, l'API basata sulla cache ti offre due opzioni. La scelta tra esse dipende da cosa è effettivamente cambiato: i dati di origine sottostanti, o solo le impostazioni di vista/layout della tabella pivot stessa.
+Quando si desidera un controllo a granularità fine su una singola tabella pivot, l'API basata sulla cache offre due opzioni. La scelta tra esse dipende da cosa è effettivamente cambiato: i dati di origine sottostanti, oppure solo le impostazioni di vista/layout della tabella pivot stessa.
 
-### Dati di Origine Modificati — Usa `PivotCache.Refresh()`
+### Dati di origine modificati — Usare `PivotCache.Refresh()`
 
-Se i dati di origine sottostanti sono cambiati, il giusto punto di ingresso è `pivotTable.GetPivotCache().Refresh()`. Questa chiamata rilegge i dati di origine nella cache e poi ricalcola ogni `PivotTable` che dipende da quella cache.
+Se i dati di origine sottostanti sono cambiati, il punto di ingresso corretto è `pivotTable.GetPivotCache().Refresh()`. Questa chiamata rilegge i dati di origine nella cache e poi ricalcola ogni `PivotTable` che dipende da quella cache.
 
 {{% alert color="primary" %}}
 
-Poiché le tabelle pivot condividono una singola istanza di `PivotCache`, la chiamata di `PivotCache.Refresh()` ricalcola **tutte** le tabelle pivot costruite su quella stessa cache — non solo quella a cui fai riferimento. Se due tabelle pivot condividono lo stesso intervallo di origine, l'aggiornamento di una cache aggiorna entrambe.
+Poiché le tabelle pivot condividono una singola istanza di `PivotCache`, chiamare `PivotCache.Refresh()` ricalcola **tutte** le tabelle pivot costruite su quella stessa cache, non solo quella a cui si fa riferimento. Se due tabelle pivot condividono lo stesso intervallo di origine, aggiornare una cache aggiorna entrambe.
 
 {{% /alert %}}
 
-L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine per dimostrare questo comportamento di cache condivisa, modifica alcuni valori di origine, e poi aggiorna tramite un riferimento di cache.
+L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine per dimostrare questo comportamento di cache condivisa, modifica alcuni valori di origine e poi aggiorna tramite un riferimento a una cache.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -230,7 +230,7 @@ int main() {
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
 
-    // Riga di intestazione: Frutto / Anno / Importo
+    // Riga di intestazione: Frutta / Anno / Importo
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -286,7 +286,7 @@ int main() {
     pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // Modifica diversi valori delle celle Importo nei dati di origine per simulare un cambio di dati
+    // Modifica diversi valori delle celle Importo nei dati di origine per simulare una modifica dei dati
     cells.Get(u"C2").PutValue(150);
     cells.Get(u"C4").PutValue(350);
     cells.Get(u"C7").PutValue(650);
@@ -302,11 +302,11 @@ int main() {
 }
 ```
 
-### Solo Vista/Layout Modificato — Usa `CalculateData()`
+### È cambiata solo la vista/layout — Usare `CalculateData()`
 
-Se i dati di origine *non* sono cambiati ma sono state modificate solo le impostazioni di vista o layout della tabella pivot (ad esempio, un campo è stato spostato in un'area diversa, o un'impostazione di aggiornamento all'apertura è stata attivata/disattivata), non c'è bisogno di tornare all'origine dati. La cache contiene già i dati corretti; deve essere ricalcolata solo la `PivotTable` renderizzata. In questo caso, `pivotTable.CalculateData()` è la scelta giusta.
+Se i dati di origine *non* sono cambiati ma sono state modificate solo le impostazioni di vista o layout della tabella pivot (ad esempio, un campo è stato spostato in un'area diversa, o un'impostazione di aggiornamento all'apertura è stata attivata/disattivata), non è necessario tornare all'origine dati. La cache contiene già i dati corretti; deve essere ricalcolata solo la `PivotTable` visualizzata. In questo caso, `pivotTable.CalculateData()` è la scelta giusta.
 
-Questo evita l'inutile recupero dall'origine ed è significativamente più veloce quando molte tabelle pivot condividono la stessa cache.
+In questo modo si evita un recupero non necessario dei dati di origine ed è significativamente più veloce quando molte tabelle pivot condividono la stessa cache.
 
 L'esempio seguente modifica una proprietà non di origine della tabella pivot e poi chiama `CalculateData()` per renderizzarla di nuovo dalla cache esistente.
 
@@ -326,7 +326,7 @@ int main() {
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
 
-    // Scrivi 8 righe di dati (righe 2-9, adattandosi all'intervallo sorgente A1:C9)
+    // Scrivi 8 righe di dati (righe 2-9, adattandosi all'intervallo di origine A1:C9)
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(100);
@@ -368,13 +368,13 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // Modifica una proprietà di visualizzazione/layout — questo è un cambio solo di presentazione,
-    // quindi NON richiede la rilettura dei dati sorgente tramite PivotCache.Refresh().
+    // Modifica una proprietà di visualizzazione/layout — si tratta di una modifica solo di presentazione,
+    // quindi NON richiede la rilettura dei dati di origine tramite PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
 
     // CalculateData() ridisegna la visualizzazione di QUESTA tabella pivot (dati + stile) dai
-    // dati già contenuti nella PivotCache. Poiché i dati sorgente non sono cambiati,
-    // non viene eseguito alcun ritorno alla sorgente — solo i valori memorizzati nella cache vengono ricalcolati
+    // dati già presenti nella PivotCache. Poiché i dati di origine non sono cambiati,
+    // non viene eseguito alcun round-trip all'origine — vengono ricalcolati solo i valori memorizzati nella cache
     // nelle celle del foglio di lavoro.
     pivotTable.CalculateData();
 
@@ -386,13 +386,13 @@ int main() {
 }
 ```
 
-## Ottieni Tutte le Tabelle Pivot che Condividono lo Stesso PivotCache
+## Ottenere tutte le tabelle pivot che condividono la stessa PivotCache
 
-Una cartella di lavoro spesso contiene molte tabelle pivot che si trovano tutte sopra una cache condivisa. Per enumerarle — ad esempio, prima di eseguire un aggiornamento in batch, o per diagnosticare l'impatto della cache condivisa — usa `PivotCache.GetPivotTables()`. Questo metodo restituisce la raccolta di ogni `PivotTable` che dipende dalla cache data.
+Una cartella di lavoro spesso contiene molte tabelle pivot che si appoggiano tutte a una cache condivisa. Per enumerarle, ad esempio prima di eseguire un aggiornamento in batch, o per diagnosticare l'impatto della cache condivisa, utilizzare `PivotCache.GetPivotTables()`. Questo metodo restituisce l'insieme di ogni `PivotTable` che dipende dalla cache fornita.
 
-Questo è anche il modo più diretto per confermare che due tabelle pivot effettivamente condividono la stessa istanza di `PivotCache`: puoi confrontare i riferimenti di cache, o semplicemente iterare la raccolta restituita da `GetPivotTables()` e osservare quali tabelle pivot appaiono in essa.
+Questo è anche il modo più diretto per confermare che due tabelle pivot condividono effettivamente la stessa istanza di `PivotCache`: è possibile confrontare i riferimenti alla cache, oppure semplicemente iterare l'insieme restituito da `GetPivotTables()` e osservare quali tabelle pivot vi compaiono.
 
-L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine, verifica che condividano la stessa istanza di cache, e poi enumera le tabelle pivot della cache.
+L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine, verifica che condividano la stessa istanza di cache e poi enumera le tabelle pivot della cache.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -463,7 +463,7 @@ int main() {
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
     // In Aspose.Cells, le tabelle pivot create dalla stessa origine dati
-    // condividono automaticamente la stessa PivotCache
+    // condividono automaticamente lo stesso PivotCache
     std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
 
     // Ottieni tutte le tabelle pivot nel foglio di lavoro (che condividono la cache)
@@ -482,22 +482,22 @@ int main() {
 }
 ```
 
-## Migrazione dall'Obsoleto `PivotTable.RefreshData()`
+## Migrazione dal metodo obsoleto `PivotTable.RefreshData()`
 
-Prima di Aspose.Cells for C++ v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` su ogni tabella pivot individualmente. A partire da v26.7, quel metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
+Prima di Aspose.Cells for C++ v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` su ogni tabella pivot individualmente. A partire dalla v26.7, quel metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
 
-Ci sono due motivi per cui l'approccio `RefreshData()` per tabella è problematico nelle cartelle di lavoro reali:
+Ci sono due motivi per cui l'approccio per tabella `RefreshData()` è problematico nelle cartelle di lavoro reali:
 
 - Recupera i dati dall'origine *ogni* volta che viene chiamato, anche quando l'origine non è cambiata.
-- Ogni chiamata aggiorna l'intera cache condivisa. Quando molte tabelle pivot condividono una cache, chiamare ripetutamente `RefreshData()` per ogni tabella pivot causa il recupero ripetuto della stessa cache, il che è molto lento.
+- Ogni chiamata aggiorna l'intera cache condivisa. Quando molte tabelle pivot condividono una cache, chiamare ripetutamente `RefreshData()` per ogni tabella pivot fa sì che la stessa cache venga recuperata più e più volte, il che è molto lento.
 
 Le sostituzioni consigliate sono:
 
-- **Aggiorna TUTTE le tabelle pivot nella cartella di lavoro** → usa `workbook.RefreshAll();`
-- **Aggiorna ALCUNE di esse** → usa `pivotTable.GetPivotCache().Refresh();` per una cache. Poiché la cache è condivisa, questa singola chiamata aggiorna ogni tabella pivot costruita sopra quella cache. Altre tabelle pivot che si trovano su una cache già aggiornata possono essere tranquillamente saltate.
-- **Solo la vista/layout della pivot è cambiato** → usa `pivotTable.CalculateData();` per renderizzare di nuovo dalla cache esistente senza alcun ritorno all'origine.
+- **Aggiornare TUTTE le tabelle pivot nella cartella di lavoro** → usare `workbook.RefreshAll();`
+- **Aggiornarne ALCUNE** → usare `pivotTable.GetPivotCache().Refresh();` per una cache. Poiché la cache è condivisa, questa singola chiamata aggiorna ogni tabella pivot costruita sopra quella cache. Le altre tabelle pivot che si appoggiano a una cache già aggiornata possono essere tranquillamente saltate.
+- **È cambiata solo la vista/layout della pivot** → usare `pivotTable.CalculateData();` per renderizzare di nuovo dalla cache esistente senza alcun round-trip verso l'origine.
 
-L'esempio seguente dimostra il nuovo pattern efficiente per le cartelle di lavoro con più tabelle pivot che condividono una singola cache.
+L'esempio seguente dimostra il nuovo schema efficiente per cartelle di lavoro con più tabelle pivot che condividono una singola cache.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -551,18 +551,25 @@ int main() {
 }
 ```
 
-## Quale API di Aggiornamento Dovrei Usare?
+## Quale API di aggiornamento dovrei usare?
 
 La tabella seguente riassume le API di aggiornamento disponibili e quando scegliere ciascuna di esse.
 
-| Obiettivo | API Consigliata | Note |
+| Obiettivo | API consigliata | Note |
 |------|-----------------|-------|
-| Aggiorna tutto nella cartella di lavoro | `Workbook.RefreshAll()` | Una chiamata; copre tutte le cache e tabelle. |
-| Aggiorna solo le tabelle pivot su un singolo foglio | `Worksheet.RefreshPivotTables()` | Limitato a un singolo foglio di lavoro. |
+| Aggiornare tutto nella cartella di lavoro | `Workbook.RefreshAll()` | Una sola chiamata; copre tutte le cache e tutte le tabelle. |
+| Aggiornare solo le tabelle pivot su un singolo foglio | `Worksheet.RefreshPivotTables()` | Ambito limitato a un foglio di lavoro. |
 | Dati di origine modificati per una cache | `pivotTable.GetPivotCache().Refresh()` | Aggiorna TUTTE le tabelle pivot su quella cache condivisa. |
-| Solo le impostazioni di vista/layout sono cambiate | `pivotTable.CalculateData()` | Salta l'inutile round-trip verso l'origine. |
-| Elenca tutte le tabelle pivot su una cache condivisa | `pivotCache.GetPivotTables()` | Usa per enumerare prima dell'aggiornamento in blocco. |
+| Sono cambiate solo le impostazioni di vista/layout | `pivotTable.CalculateData()` | Evita il round-trip non necessario verso l'origine. |
+| Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.GetPivotTables()` | Da usare per enumerare prima di un aggiornamento massivo. |
 
-In pratica, preferisci le API basate sulla cache rispetto all'obsoleto `RefreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine, e ti permettono di scegliere l'ambito più piccolo che soddisfa il tuo requisito di aggiornamento.
+In pratica, preferire le API basate sulla cache rispetto al metodo obsoleto per tabella `RefreshData()`. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dei dati di origine e consentono di scegliere il più piccolo ambito che soddisfi la propria esigenza di aggiornamento.
+
+## Articoli Correlati
+
+- [Inserimento di un'immagine in una cella](/cells/it/cpp/inserting-an-image-into-a-cell/)
+- [Lettura e scrittura di file DBF](/cells/it/cpp/dbf/)
+- [Divisione di file Excel in più file](/cells/it/cpp/splitting-excel-files-into-multiple-files/)
+- [Sparkline in Aspose.Cells for C++](/cells/it/cpp/sparkline/)
 
 {{< app/cells/assistant language="cpp" >}}

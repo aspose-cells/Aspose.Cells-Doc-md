@@ -1,34 +1,34 @@
 ---
-title: Sidfält i pivottabeller
-linktitle: Sidfält i pivottabeller
-description: Lär dig hur du lägger till och konfigurerar sidfält i pivottabeller med Aspose.Cells for Node.js via C++, inklusive att lägga till sidfält, enkelvalfiltrering och flervalsfiltrering.
-keywords: Aspose.Cells, Node.js via C++, pivottabell, sidfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
+title: Lägga till filterfält i en pivottabell i Aspose.Cells för .NET
+linktitle: Lägga till filterfält
+description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for Node.js via C++, inklusive att lägga till filterfält, enkelvalfiltrering och flervalsfiltrering.
+keywords: Aspose.Cells, Node.js via C++, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/nodejs-cpp/add-page-field-in-pivot-table/
+url: /sv/nodejs-cpp/add-filter-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells stöder hela livscykeln för sidfält i pivottabeller. Du kan lägga till ett sidfält via ett högnivå-API eller via den lägre nivåns `PageFields`-samling, och du kan styra sidfiltret i enkelvalsläge, rensa det för att visa varje sidobjekt, eller växla fältet till flerval så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
+Aspose.Cells stöder hela livscykeln för filterfält i pivottabeller. Du kan lägga till ett filterfält via ett högnivå-API eller via den lägre nivåns `PageFields`-samling, och du kan styra sidfiltret i enkelvalsläge, rensa det för att visa varje sidobjekt, eller växla fältet till flerval så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
 {{% /alert %}}
 
 ## **Introduktion**
 
-Ett sidfält är ett pivotfält som styr *vilken delmängd* av källdatan pivotens innehåll visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivot i Excel, och att välja ett av de tillgängliga sidobjekten bygger om pivotens innehåll så att endast posterna som tillhör det sidobjektet sammanfattas. Ett pivotfält blir ett sidfält när det registreras som `PivotFieldType.Page` snarare än `PivotFieldType.Row`, `PivotFieldType.Column` eller `PivotFieldType.Data`.
+Ett filterfält är ett pivotfält som styr *vilken delmängd* av källdatan pivotens innehåll visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivot i Excel, och att välja ett av de tillgängliga sidobjekten bygger om pivotens innehåll så att endast posterna som tillhör det sidobjektet sammanfattas. Ett pivotfält blir ett filterfält när det registreras som `PivotFieldType.Page` snarare än `PivotFieldType.Row`, `PivotFieldType.Column` eller `PivotFieldType.Data`.
 
-Ett sidfält kan fungera i två beteenden. I standardbeteendet **enkelval** är endast ett sidobjekt synligt åt gången, så pivotens innehåll sammanfattar exakt en delmängd. I beteendet **flerval** exponerar fältet en kryssrutelista, och pivotens innehåll sammanfattar unionen av varje markerat sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enskild egenskap.
+Ett filterfält kan fungera i två beteenden. I standardbeteendet **enkelval** är endast ett sidobjekt synligt åt gången, så pivotens innehåll sammanfattar exakt en delmängd. I beteendet **flerval** exponerar fältet en kryssrutelista, och pivotens innehåll sammanfattar unionen av varje markerat sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enskild egenskap.
 
-Aspose.Cells for Node.js via C++ exponerar två likvärdiga sätt att registrera ett sidfält. Det högnivå-API är `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`, som tar källkolumnnamnet och lägger till fältet i ett enda anrop. Det lägre nivåns API är `PivotTable.pageFields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i sidområdet. Båda API:erna fyller slutligen samma `PageFields`-samling, och resten av denna artikel demonstrerar hur man väljer mellan dem och hur man styr varje filtreringsläge.
+Aspose.Cells for Node.js via C++ exponerar två likvärdiga sätt att registrera ett filterfält. Det högnivå-API är `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`, som tar källkolumnnamnet och lägger till fältet i ett enda anrop. Det lägre nivåns API är `PivotTable.pageFields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i filterområdet. Båda API:erna fyller slutligen samma `PageFields`-samling, och resten av denna artikel demonstrerar hur man väljer mellan dem och hur man styr varje filtreringsläge.
 
-## **Lägga till ett sidfält**
+## **Lägga till ett filterfält**
 
-Det finns två sätt att registrera ett pivotfält i sidområdet. Det högnivå-anropet tar källkolumnnamnet som en sträng och är den vanligaste vägen. Det lägre nivåns anrop accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas över flera pivotområden. Båda anropen placerar fältet i `PivotTable.pageFields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivoten.
+Det finns två sätt att registrera ett pivotfält i filterområdet. Det högnivå-anropet tar källkolumnnamnet som en sträng och är den vanligaste vägen. Det lägre nivåns anrop accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas över flera pivotområden. Båda anropen placerar fältet i `PivotTable.pageFields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivoten.
 
-### Lägga till ett sidfält med addFieldToArea
+### Lägga till ett filterfält med addFieldToArea
 
-Följande exempel bygger ett litet Fruit / Year / Amount-dataset, placerar en pivottabell vid cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i sidområdet, uppdaterar pivoten och sparar arbetsboken.
+Följande exempel bygger ett litet Fruit / Year / Amount-dataset, placerar en pivottabell vid cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i filterområdet, uppdaterar pivoten och sparar arbetsboken.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -77,9 +77,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### Lägga till ett sidfält med pageFields.add
+### Lägga till ett filterfält med pageFields.add
 
-När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.pageFields.add`. Pivottabellen och sidfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i sidområdet ersätts med det lägre nivåns API-anrop.
+När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.pageFields.add`. Pivottabellen och filterfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i filterområdet ersätts med det lägre nivåns API-anrop.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -123,7 +123,7 @@ workbook.save("output.xlsx");
 
 ## **Enkelvalsfiltrering (Visa ett sidobjekt)**
 
-I standardbeteendet enkelval renderas sidfältet som en enda rullgardinsmeny och heltalsvärdet `PivotField.currentPageItem` väljer vilket sidobjekt som styr pivotens innehåll. Att tilldela ett specifikt index väljer det objektet; att tilldela den speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt sammanfattas samtidigt. Enkelval är standard; du behöver inte aktivera det explicit.
+I standardbeteendet enkelval renderas filterfältet som en enda rullgardinsmeny och heltalsvärdet `PivotField.currentPageItem` väljer vilket sidobjekt som styr pivotens innehåll. Att tilldela ett specifikt index väljer det objektet; att tilldela den speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt sammanfattas samtidigt. Enkelval är standard; du behöver inte aktivera det explicit.
 
 ### Visa alla objekt
 
@@ -176,7 +176,7 @@ workbook.save("output.xlsx");
 
 ### Visa ett specifikt objekt
 
-Att sätta `currentPageItem` till ett riktigt index väljer bara det sidobjektet. Indexet är positionen för objektet i sidfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
+Att sätta `currentPageItem` till ett riktigt index väljer bara det sidobjektet. Indexet är positionen för objektet i filterfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -228,7 +228,7 @@ workbook.save("output.xlsx");
 
 Flervalsfiltrering förvandlar sidans rullgardinsmeny till en kryssrutelista och låter slutanvändaren välja flera sidobjekt samtidigt. Aspose.Cells exponerar två egenskaper som fungerar tillsammans. `PivotField.isMultipleItemSelectionAllowed` måste sättas till `true` innan flervalsgränssnittet över huvud taget aktiveras. När det är aktiverat styr `PivotItem.isHidden` vilka objekt som visas i kryssrutelistan, så du kan antingen visa varje objekt eller vitlista endast specifika objekt.
 
-Koden nedan aktiverar flerval på samma Year-sidfält som byggdes i Scenario 1a, och visar sedan två mönster: Del A avslöjar alla sidobjekt genom att låta `isHidden` vara satt till `false` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat genom ett `switch (pivotItems[i].getStringValue())`-block.
+Koden nedan aktiverar flerval på samma Year-filterfält som byggdes i Scenario 1a, och visar sedan två mönster: Del A avslöjar alla sidobjekt genom att låta `isHidden` vara satt till `false` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat genom ett `switch (pivotItems[i].getStringValue())`-block.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -304,15 +304,15 @@ Tabellen nedan sammanfattar när du ska använda varje API och läge så att du 
 
 | Scenario / Användningsfall | Rekommenderat API | Använd egenskap | Anteckningar |
 |---|---|---|---|
-| Lägg till ett sidfält via källkolumnnamn (vanligast) | `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Högnivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
-| Lägg till ett sidfält när du redan har ett `PivotField`-objekt | `PivotTable.pageFields.add(PivotField)` | n/a | Använd när fältobjektet erhölls någon annanstans eller behöver återanvändas. |
+| Lägg till ett filterfält via källkolumnnamn (vanligast) | `PivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Högnivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
+| Lägg till ett filterfält när du redan har ett `PivotField`-objekt | `PivotTable.pageFields.add(PivotField)` | n/a | Använd när fältobjektet erhölls någon annanstans eller behöver återanvändas. |
 | Filtrera till ett enskilt sidobjekt (standardläge) | `PivotField.currentPageItem` | sätt till ett specifikt index | Till exempel visar `1` det andra objektet i den sorterade listan. |
 | Visa alla objekt / rensa sidfiltret | `PivotField.currentPageItem` | sätt till `0x7FFD` | Det magiska värdet `0x7FFD` (decimalt 32765) är sentinelvärdet för "alla objekt". |
 | Aktivera flervalsgränssnitt i Excel | `PivotField.isMultipleItemSelectionAllowed` | sätt till `true` | Krävs innan några `isHidden`-anrop får effekt. |
 | Dölj / visa enskilda objekt i en flervalslista | `PivotItem.isHidden` | sätt per objekt | Minst ett objekt måste förbli synligt (`isHidden == false`). |
 
 {{% alert color="primary" %}}
-Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervals-sidfält är dolt, kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker kommer att öppnas tillförlitligt på varje maskin.
+Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervals-filterfält är dolt, kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker kommer att öppnas tillförlitligt på varje maskin.
 {{% /alert %}}
 
 

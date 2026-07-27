@@ -1,7 +1,7 @@
 ---  
 title: Delete Pivot Table from a Worksheet  
 type: docs  
-weight: 60  
+weight: 700  
 url: /javascript-cpp/delete-pivot-table-from-a-worksheet/  
 description: Aspose.Cells for JavaScript via C++ code to remove PivotTable for Excel Worksheets  
 keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript library, remove pivot table from worksheet, remove pivot table from excel, how to delete pivot table with Aspose.Cells for JavaScript via C++, delete pivot table, delete pivot table from excel, delete pivot table, Aspose.Cells for JavaScript via C++ remove pivot table, remove pivot table, delete pivot table, how to delete pivot table  

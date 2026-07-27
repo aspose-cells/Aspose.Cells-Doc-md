@@ -1,7 +1,7 @@
 ---
 title: Ta bort pivottabell från ett arbetsblad
 type: docs
-weight: 60
+weight: 700
 url: /sv/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Aspose.Cells for Node.js via C++ kod för att ta bort Pivot tabell för Excel Arbetsblad
 keywords: Aspose.Cells for Node.js via C++ Excel, Excel Node.js bibliotek, ta bort pivot tabell från kalkylblad, ta bort pivot tabell från excel, hur man tar bort pivot tabell med Aspose.Cells for Node.js via C++, radera pivot tabell, ta bort pivot tabell, radera pivot tabell

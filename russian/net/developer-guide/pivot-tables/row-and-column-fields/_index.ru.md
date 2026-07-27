@@ -1,11 +1,11 @@
 ---
-title: Поля строк и столбцов в Aspose.Cells for .NET
+title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
 linktitle: Поля строк и столбцов
 description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять промежуточными итогами полей сводной таблицы с помощью PivotField.SetSubtotals в Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/net/row-and-column-fields/
+url: /ru/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

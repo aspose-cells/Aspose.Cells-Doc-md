@@ -1,34 +1,34 @@
 ---
-title: Sidfält i pivottabeller
-linktitle: Sidfält i pivottabeller
-description: Lär dig hur du lägger till och konfigurerar sidfält i pivottabeller med Aspose.Cells for Python via Java, inklusive att lägga till sidfält, enkelvalfiltrering och flervalsfiltrering.
-keywords: Aspose.Cells, Python, Java, pivottabell, sidfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
+title: Lägga till filterfält i en pivottabell i Aspose.Cells för .NET
+linktitle: Lägga till filterfält
+description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for Python via Java, inklusive att lägga till filterfält, enkelvalfiltrering och flervalsfiltrering.
+keywords: Aspose.Cells, Python, Java, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/python-java/add-page-field-in-pivot-table/
+url: /sv/python-java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells stöder hela livscykeln för sidfält i pivottabeller. Du kan lägga till ett sidfält via ett högnivå-API eller via den underliggande `page_fields`-samlingen, och du kan driva sidfiltret i enkelvalsläge, rensa det för att visa alla sidobjekt, eller växla fältet till flerval så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
+Aspose.Cells stöder hela livscykeln för filterfält i pivottabeller. Du kan lägga till ett filterfält via ett högnivå-API eller via den underliggande `page_fields`-samlingen, och du kan driva sidfiltret i enkelvalsläge, rensa det för att visa alla sidobjekt, eller växla fältet till flerval så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
 {{% /alert %}}
 
 ## **Introduktion**
 
-Ett sidfält är ett pivotfält som styr *vilken delmängd* av källdatan som pivotkroppen visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivot i Excel, och val av ett av de tillgängliga sidobjekten bygger om pivotkroppen så att endast posterna som tillhör det sidobjektet sammanfattas. Ett pivotfält blir ett sidfält när det registreras som `PivotFieldType.PAGE` snarare än `PivotFieldType.ROW`, `PivotFieldType.COLUMN` eller `PivotFieldType.DATA`.
+Ett filterfält är ett pivotfält som styr *vilken delmängd* av källdatan som pivotkroppen visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivot i Excel, och val av ett av de tillgängliga sidobjekten bygger om pivotkroppen så att endast posterna som tillhör det sidobjektet sammanfattas. Ett pivotfält blir ett filterfält när det registreras som `PivotFieldType.PAGE` snarare än `PivotFieldType.ROW`, `PivotFieldType.COLUMN` eller `PivotFieldType.DATA`.
 
-Ett sidfält kan fungera i två beteenden. I standardbeteendet **enkelval** är endast ett sidobjekt synligt åt gången, så pivotkroppen sammanfattar exakt en delmängd. I beteendet **flerval** exponerar fältet en kryssrutelista, och pivotkroppen sammanfattar unionen av varje ikryssat sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enskild egenskap.
+Ett filterfält kan fungera i två beteenden. I standardbeteendet **enkelval** är endast ett sidobjekt synligt åt gången, så pivotkroppen sammanfattar exakt en delmängd. I beteendet **flerval** exponerar fältet en kryssrutelista, och pivotkroppen sammanfattar unionen av varje ikryssat sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enskild egenskap.
 
-Aspose.Cells for Python via Java exponerar två likvärdiga sätt att registrera ett sidfält. Det högnivå-API:et är `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")`, som tar källkolonnens namn och lägger till fältet i ett enda anrop. Det underliggande API:et är `PivotTable.page_fields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i sidområdet. Båda API:erna fyller slutligen samma `page_fields`-samling, och resten av denna artikel visar hur du väljer mellan dem och hur du driver varje filtreringsläge.
+Aspose.Cells for Python via Java exponerar två likvärdiga sätt att registrera ett filterfält. Det högnivå-API:et är `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")`, som tar källkolonnens namn och lägger till fältet i ett enda anrop. Det underliggande API:et är `PivotTable.page_fields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i filterområdet. Båda API:erna fyller slutligen samma `page_fields`-samling, och resten av denna artikel visar hur du väljer mellan dem och hur du driver varje filtreringsläge.
 
-## **Lägga till ett sidfält**
+## **Lägga till ett filterfält**
 
-Det finns två sätt att registrera ett pivotfält i sidområdet. Det högnivåanropet tar källkolonnens namn som en sträng och är den vanligaste vägen. Det underliggande anropet accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas i flera pivotområden. Båda anropen placerar fältet i `PivotTable.page_fields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivoten.
+Det finns två sätt att registrera ett pivotfält i filterområdet. Det högnivåanropet tar källkolonnens namn som en sträng och är den vanligaste vägen. Det underliggande anropet accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas i flera pivotområden. Båda anropen placerar fältet i `PivotTable.page_fields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivoten.
 
-### Lägga till ett sidfält med add_field_to_area
+### Lägga till ett filterfält med add_field_to_area
 
-Följande exempel bygger en liten Fruit / Year / Amount-dataset, placerar en pivottabell i cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i sidområdet, uppdaterar pivoten och sparar arbetsboken.
+Följande exempel bygger en liten Fruit / Year / Amount-dataset, placerar en pivottabell i cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i filterområdet, uppdaterar pivoten och sparar arbetsboken.
 
 ```python
 import jpype
@@ -84,9 +84,9 @@ workbook.save("pageFieldSample.xlsx")
 jpype.shutdownJVM()
 ```
 
-### Lägga till ett sidfält med page_fields.add
+### Lägga till ett filterfält med page_fields.add
 
-När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.page_fields.add`. Pivottabellen och sidfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i sidområdet ersätts med det underliggande API-anropet.
+När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.page_fields.add`. Pivottabellen och filterfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i filterområdet ersätts med det underliggande API-anropet.
 
 ```python
 import jpype
@@ -144,7 +144,7 @@ jpype.shutdownJVM()
 
 ## **Enkelvalsfiltrering (Visa ett sidobjekt)**
 
-I standardbeteendet för enkelval renderas sidfältet som en enda rullgardinsmeny och heltalet `PivotField.current_page_item` väljer vilket sidobjekt som driver pivotkroppen. Att tilldela ett specifikt index väljer det ena objektet; att tilldela det speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt sammanfattas på en gång. Enkelval är standard; du behöver inte aktivera det explicit.
+I standardbeteendet för enkelval renderas filterfältet som en enda rullgardinsmeny och heltalet `PivotField.current_page_item` väljer vilket sidobjekt som driver pivotkroppen. Att tilldela ett specifikt index väljer det ena objektet; att tilldela det speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt sammanfattas på en gång. Enkelval är standard; du behöver inte aktivera det explicit.
 
 ### Visa alla objekt
 
@@ -204,7 +204,7 @@ jpype.shutdownJVM()
 
 ### Visa ett specifikt objekt
 
-Att sätta `current_page_item` till ett verkligt index väljer bara det ena sidobjektet. Indexet är positionen för objektet i sidfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
+Att sätta `current_page_item` till ett verkligt index väljer bara det ena sidobjektet. Indexet är positionen för objektet i filterfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
 
 ```python
 import jpype
@@ -265,7 +265,7 @@ jpype.shutdownJVM()
 
 Flervalsfiltrering förvandlar sidans rullgardinsmeny till en kryssrutelista och låter slutanvändaren välja flera sidobjekt samtidigt. Aspose.Cells exponerar två egenskaper som fungerar tillsammans. `PivotField.is_multiple_item_selection_allowed` måste sättas till `True` innan flervalsgränssnittet överhuvudtaget får effekt. När det är aktiverat styr `PivotItem.is_hidden` vilka objekt som visas i kryssrutelistan, så du kan antingen visa varje objekt eller vitlista endast specifika objekt.
 
-Koden nedan aktiverar flerval på samma Year-sidfält som byggdes i Scenario 1a, och visar sedan två mönster: Del A visar varje sidobjekt genom att lämna `is_hidden` satt till `False` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat via ett `switch (pivot_items[i].get_string_value())`-block.
+Koden nedan aktiverar flerval på samma Year-filterfält som byggdes i Scenario 1a, och visar sedan två mönster: Del A visar varje sidobjekt genom att lämna `is_hidden` satt till `False` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat via ett `switch (pivot_items[i].get_string_value())`-block.
 
 ```python
 import jpype
@@ -348,15 +348,15 @@ Tabellen nedan sammanfattar när du ska använda varje API och läge så att du 
 
 | Scenario / Användningsfall | Rekommenderat API | Egenskap som används | Anteckningar |
 |---|---|---|---|
-| Lägg till ett sidfält efter källkolonnnamn (vanligast) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")` | n/a | Högnivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
-| Lägg till ett sidfält när du redan har ett `PivotField`-objekt | `PivotTable.page_fields.add(PivotField)` | n/a | Använd när fältobjektet erhölls annorstädes eller behöver återanvändas. |
+| Lägg till ett filterfält efter källkolonnnamn (vanligast) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")` | n/a | Högnivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
+| Lägg till ett filterfält när du redan har ett `PivotField`-objekt | `PivotTable.page_fields.add(PivotField)` | n/a | Använd när fältobjektet erhölls annorstädes eller behöver återanvändas. |
 | Filtrera till ett enskilt sidobjekt (standardläge) | `PivotField.current_page_item` | sätt till ett specifikt index | Till exempel visar `1` det andra objektet i den sorterade listan. |
 | Visa alla objekt / rensa sidfiltret | `PivotField.current_page_item` | sätt till `0x7FFD` | Det magiska värdet `0x7FFD` (decimalt 32765) är sentinelvärdet för "alla objekt". |
 | Aktivera flervalsgränssnitt i Excel | `PivotField.is_multiple_item_selection_allowed` | sätt till `True` | Krävs innan några `is_hidden`-anrop får effekt. |
 | Dölj / visa enskilda objekt i en flervalslista | `PivotItem.is_hidden` | sätt per objekt | Minst ett objekt måste förbli synligt (`is_hidden == False`). |
 
 {{% alert color="primary" %}}
-Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervalssidfält är dolt kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker kommer att öppnas tillförlitligt på varje maskin.
+Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervalsfilterfält är dolt kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker kommer att öppnas tillförlitligt på varje maskin.
 {{% /alert %}}
 
 

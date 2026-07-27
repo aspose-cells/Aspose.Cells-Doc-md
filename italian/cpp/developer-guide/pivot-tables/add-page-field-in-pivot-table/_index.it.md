@@ -1,32 +1,32 @@
 ---
-title: Campi pagina nelle tabelle pivot
-linktitle: Campi pagina nelle tabelle pivot
-description: Scopri come aggiungere e configurare i campi pagina nelle tabelle pivot utilizzando Aspose.Cells for C++, inclusi l'aggiunta di campi pagina, il filtro a selezione singola e il filtro a selezione multipla.
-keywords: Aspose.Cells, C++, tabella pivot, campo pagina, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+title: Aggiungere campi filtro a una tabella pivot in Aspose.Cells per .NET
+linktitle: Aggiungere campi filtro
+description: Scopri come aggiungere e configurare i campi filtro nelle tabelle pivot utilizzando Aspose.Cells for C++, inclusi l'aggiunta di campi filtro, il filtro a selezione singola e il filtro a selezione multipla.
+keywords: Aspose.Cells, C++, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/cpp/add-page-field-in-pivot-table/
+url: /it/cpp/add-filter-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells supporta l'intero ciclo di vita dei campi pagina nelle tabelle pivot. È possibile aggiungere un campo pagina tramite un'API di alto livello di comodo utilizzo oppure tramite la raccolta di livello inferiore `PageFields`, ed è possibile gestire il filtro pagina in modalità a selezione singola, cancellarlo per mostrare ogni elemento della pagina, oppure commutare il campo in selezione multipla in modo che gli utenti possano selezionare più elementi di pagina contemporaneamente tramite l'interfaccia utente con caselle di controllo in Excel.
+Aspose.Cells supporta l'intero ciclo di vita dei campi filtro nelle tabelle pivot. È possibile aggiungere un campo filtro tramite un'API di alto livello di comodo utilizzo oppure tramite la raccolta di livello inferiore `PageFields`, ed è possibile gestire il filtro pagina in modalità a selezione singola, cancellarlo per mostrare ogni elemento della pagina, oppure commutare il campo in selezione multipla in modo che gli utenti possano selezionare più elementi di pagina contemporaneamente tramite l'interfaccia utente con caselle di controllo in Excel.
 {{% /alert %}}
 
 ## **Introduzione**
 
-Un campo pagina è un campo pivot che controlla *quale sottoinsieme* dei dati di origine viene visualizzato nel corpo della tabella pivot. Gli utenti finali lo vedono come un menu a discesa nella parte superiore di una tabella pivot renderizzata in Excel, e selezionando uno degli elementi di pagina disponibili il corpo della tabella pivot viene ricostruito in modo che vengano riepilogati solo i record appartenenti a quell'elemento di pagina. Un campo pivot diventa un campo pagina quando viene registrato come `PivotFieldType.Page` anziché `PivotFieldType.Row`, `PivotFieldType.Column` o `PivotFieldType.Data`.
+Un campo filtro è un campo pivot che controlla *quale sottoinsieme* dei dati di origine viene visualizzato nel corpo della tabella pivot. Gli utenti finali lo vedono come un menu a discesa nella parte superiore di una tabella pivot renderizzata in Excel, e selezionando uno degli elementi di pagina disponibili il corpo della tabella pivot viene ricostruito in modo che vengano riepilogati solo i record appartenenti a quell'elemento di pagina. Un campo pivot diventa un campo filtro quando viene registrato come `PivotFieldType.Page` anziché `PivotFieldType.Row`, `PivotFieldType.Column` o `PivotFieldType.Data`.
 
-Un campo pagina può operare in due modalità. Nella modalità predefinita **a selezione singola**, solo un elemento di pagina è visibile alla volta, quindi il corpo della tabella pivot riassume esattamente un sottoinsieme. Nella modalità **a selezione multipla**, il campo espone un elenco di caselle di controllo e il corpo della tabella pivot riassume l'unione di ogni elemento di pagina selezionato. Lo stesso campo di origine può essere spostato avanti e indietro tra queste modalità attivando/disattivando una singola proprietà.
+Un campo filtro può operare in due modalità. Nella modalità predefinita **a selezione singola**, solo un elemento di pagina è visibile alla volta, quindi il corpo della tabella pivot riassume esattamente un sottoinsieme. Nella modalità **a selezione multipla**, il campo espone un elenco di caselle di controllo e il corpo della tabella pivot riassume l'unione di ogni elemento di pagina selezionato. Lo stesso campo di origine può essere spostato avanti e indietro tra queste modalità attivando/disattivando una singola proprietà.
 
-Aspose.Cells for C++ espone due modi equivalenti per registrare un campo pagina. L'API di alto livello è `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")`, che prende il nome della colonna di origine e aggiunge il campo in una singola chiamata. L'API di livello inferiore è `PivotTable.PageFields.Add(PivotField)`, che viene utilizzata quando si possiede già un riferimento `PivotField` e si desidera aggiungere la stessa istanza del campo all'area della pagina. Entrambe le API finiscono per popolare la stessa raccolta `PageFields`, e il resto di questo articolo dimostra come scegliere tra di esse e come gestire ciascuna modalità di filtraggio.
+Aspose.Cells for C++ espone due modi equivalenti per registrare un campo filtro. L'API di alto livello è `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")`, che prende il nome della colonna di origine e aggiunge il campo in una singola chiamata. L'API di livello inferiore è `PivotTable.PageFields.Add(PivotField)`, che viene utilizzata quando si possiede già un riferimento `PivotField` e si desidera aggiungere la stessa istanza del campo all'area della pagina. Entrambe le API finiscono per popolare la stessa raccolta `PageFields`, e il resto di questo articolo dimostra come scegliere tra di esse e come gestire ciascuna modalità di filtraggio.
 
-## **Aggiunta di un campo pagina**
+## **Aggiunta di un campo filtro**
 
 Ci sono due modi per registrare un campo pivot nell'area della pagina. La chiamata di alto livello prende il nome della colonna di origine come stringa ed è il percorso più comune. La chiamata di livello inferiore accetta un'istanza esistente di `PivotField` ed è comoda quando lo stesso oggetto campo deve essere riutilizzato su più aree pivot. Entrambe le chiamate inseriscono il campo in `PivotTable.PageFields`, dopodiché appare come menu a discesa della pagina nella parte superiore della tabella pivot renderizzata.
 
-### Aggiunta di un campo pagina con AddFieldToArea
+### Aggiunta di un campo filtro con AddFieldToArea
 
 L'esempio seguente crea un piccolo dataset Frutto / Anno / Importo, posiziona una tabella pivot alla cella E3 con `Fruit` nell'area delle righe, `Amount` nell'area dei dati e `Year` nell'area della pagina, aggiorna la tabella pivot e salva la cartella di lavoro.
 
@@ -84,9 +84,9 @@ int main() {
 }
 ```
 
-### Aggiunta di un campo pagina con PageFields.Add
+### Aggiunta di un campo filtro con PageFields.Add
 
-Quando si lavora già con un'istanza di `PivotField`, è possibile passarla direttamente a `PivotTable.PageFields.Add`. La tabella pivot e il campo pagina sono costruiti esattamente come nello scenario precedente; solo la registrazione finale dell'area della pagina viene sostituita con la chiamata API di livello inferiore.
+Quando si lavora già con un'istanza di `PivotField`, è possibile passarla direttamente a `PivotTable.PageFields.Add`. La tabella pivot e il campo filtro sono costruiti esattamente come nello scenario precedente; solo la registrazione finale dell'area della pagina viene sostituita con la chiamata API di livello inferiore.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -151,7 +151,7 @@ int main() {
 
 ## **Filtro a selezione singola (mostrare un elemento di pagina)**
 
-Nella modalità predefinita a selezione singola, il campo pagina viene renderizzato come un singolo menu a discesa e l'intero `PivotField.CurrentPageItem` seleziona quale elemento di pagina guida il corpo della tabella pivot. Assegnando un indice specifico si seleziona quell'unico elemento; assegnando il valore sentinella speciale `0x7FFD` (decimale 32765) si cancella il filtro in modo che ogni elemento di pagina venga riepilogato contemporaneamente. La selezione singola è l'impostazione predefinita; non è necessario abilitarla esplicitamente.
+Nella modalità predefinita a selezione singola, il campo filtro viene renderizzato come un singolo menu a discesa e l'intero `PivotField.CurrentPageItem` seleziona quale elemento di pagina guida il corpo della tabella pivot. Assegnando un indice specifico si seleziona quell'unico elemento; assegnando il valore sentinella speciale `0x7FFD` (decimale 32765) si cancella il filtro in modo che ogni elemento di pagina venga riepilogato contemporaneamente. La selezione singola è l'impostazione predefinita; non è necessario abilitarla esplicitamente.
 
 ### Mostrare tutti gli elementi
 
@@ -205,7 +205,7 @@ int main() {
 
 ### Mostrare un elemento specifico
 
-Impostando `CurrentPageItem` su un indice reale si seleziona solo quell'unico elemento di pagina. L'indice è la posizione dell'elemento nell'elenco ordinato degli elementi del campo pagina, quindi ad esempio `1` seleziona il secondo elemento dopo l'ordinamento.
+Impostando `CurrentPageItem` su un indice reale si seleziona solo quell'unico elemento di pagina. L'indice è la posizione dell'elemento nell'elenco ordinato degli elementi del campo filtro, quindi ad esempio `1` seleziona il secondo elemento dopo l'ordinamento.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -263,7 +263,7 @@ int main() {
 
 Il filtro a selezione multipla trasforma il menu a discesa della pagina in un elenco di caselle di controllo e consente all'utente finale di selezionare più elementi di pagina contemporaneamente. Aspose.Cells espone due proprietà che lavorano insieme. `PivotField.IsMultipleItemSelectionAllowed` deve essere impostato su `true` prima che l'interfaccia utente a selezione multipla abbia effetto. Dopo che è stato abilitato, `PivotItem.IsHidden` controlla quali elementi appaiono nell'elenco delle caselle di controllo, quindi è possibile mostrare ogni elemento oppure consentire solo elementi specifici.
 
-Il codice seguente abilita la selezione multipla sullo stesso campo pagina Year costruito nello Scenario 1a, e poi mostra due pattern: la Parte A rivela ogni elemento di pagina lasciando `IsHidden` impostato su `false` per ogni voce, mentre la Parte B consente solo i valori di origine scelti e nasconde tutto il resto tramite un blocco `switch (pivotItems[i].GetStringValue())`.
+Il codice seguente abilita la selezione multipla sullo stesso campo filtro Year costruito nello Scenario 1a, e poi mostra due pattern: la Parte A rivela ogni elemento di pagina lasciando `IsHidden` impostato su `false` per ogni voce, mentre la Parte B consente solo i valori di origine scelti e nasconde tutto il resto tramite un blocco `switch (pivotItems[i].GetStringValue())`.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -350,15 +350,15 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità, in modo
 
 | Scenario / Caso d'uso | API consigliata | Proprietà utilizzata | Note |
 |---|---|---|---|
-| Aggiungere un campo pagina tramite il nome della colonna di origine (caso più comune) | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | n/d | Alto livello, una sola riga. Utilizzare questa opzione a meno che non sia necessario un riferimento `PivotField`. |
-| Aggiungere un campo pagina quando si possiede già un oggetto `PivotField` | `PivotTable.PageFields.Add(PivotField)` | n/d | Utilizzare quando l'oggetto campo è stato ottenuto altrove o deve essere riutilizzato. |
+| Aggiungere un campo filtro tramite il nome della colonna di origine (caso più comune) | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | n/d | Alto livello, una sola riga. Utilizzare questa opzione a meno che non sia necessario un riferimento `PivotField`. |
+| Aggiungere un campo filtro quando si possiede già un oggetto `PivotField` | `PivotTable.PageFields.Add(PivotField)` | n/d | Utilizzare quando l'oggetto campo è stato ottenuto altrove o deve essere riutilizzato. |
 | Filtrare un singolo elemento di pagina (modalità predefinita) | `PivotField.CurrentPageItem` | impostare su un indice specifico | Ad esempio, `1` mostra il secondo elemento nell'elenco ordinato. |
 | Mostrare tutti gli elementi / cancellare il filtro della pagina | `PivotField.CurrentPageItem` | impostare su `0x7FFD` | Il valore magico `0x7FFD` (decimale 32765) è la sentinella per "tutti gli elementi". |
 | Abilitare l'interfaccia utente a selezione multipla in Excel | `PivotField.IsMultipleItemSelectionAllowed` | impostare su `true` | Richiesto prima che qualsiasi chiamata a `IsHidden` abbia effetto. |
 | Nascondere / mostrare singoli elementi in un elenco a selezione multipla | `PivotItem.IsHidden` | impostare per ciascun elemento | Almeno un elemento deve rimanere visibile (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-Ricordare sempre il vincolo di visibilità quando si configura il filtro a selezione multipla. Se ogni `PivotItem` in un campo pagina a selezione multipla è nascosto, Excel si blocca all'apertura oppure renderizza una tabella pivot vuota. Costruire la whitelist a partire dai dati di origine in modo che almeno un elemento rimanga visibile, e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
+Ricordare sempre il vincolo di visibilità quando si configura il filtro a selezione multipla. Se ogni `PivotItem` in un campo filtro a selezione multipla è nascosto, Excel si blocca all'apertura oppure renderizza una tabella pivot vuota. Costruire la whitelist a partire dai dati di origine in modo che almeno un elemento rimanga visibile, e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
 

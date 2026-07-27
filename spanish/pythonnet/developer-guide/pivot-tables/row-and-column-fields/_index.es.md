@@ -1,11 +1,11 @@
 ---
-title: Campos de Fila y Columna en Aspose.Cells for Python via .NET
+title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
 linktitle: Campos de fila y columna
 description: Aprenda a añadir campos base a las regiones de fila y columna de una tabla dinámica y a controlar los subtotales de campos dinámicos usando PivotField.set_subtotals en Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de fila, campo de columna, PivotField, set_subtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/python-net/row-and-column-fields/
+url: /es/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

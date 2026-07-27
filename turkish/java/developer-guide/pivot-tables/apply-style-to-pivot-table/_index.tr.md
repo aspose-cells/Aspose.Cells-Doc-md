@@ -1,6 +1,6 @@
 ---
-title: Pivot Tablolara Stil Uygulama
-linktitle: Pivot Tablolara Stil Uygulama
+title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for Java'da pivot tablolara yerleşik ve özel stillerin nasıl uygulanacağını öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu dahil.
 keywords: Aspose.Cells Java pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs

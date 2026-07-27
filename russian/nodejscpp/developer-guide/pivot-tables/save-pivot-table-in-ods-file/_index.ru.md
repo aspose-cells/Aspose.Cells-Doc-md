@@ -1,7 +1,7 @@
 ---
 title: Сохранить сводную таблицу в файле ODS
 type: docs
-weight: 150
+weight: 800
 url: /ru/nodejs-cpp/save-pivot-table-in-ods-file/
 ---
 

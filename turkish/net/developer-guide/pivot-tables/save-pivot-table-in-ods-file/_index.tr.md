@@ -1,7 +1,7 @@
 ---
 title: Özet Tabloyu ODS Dosyasına Kaydetme
 type: docs
-weight: 150
+weight: 800
 url: /tr/net/save-pivot-table-in-ods-file/
 ---
 

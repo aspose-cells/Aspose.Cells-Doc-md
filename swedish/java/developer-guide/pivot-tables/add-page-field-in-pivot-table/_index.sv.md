@@ -1,34 +1,34 @@
 ---
-title: Sidfält i pivottabeller
-linktitle: Sidfält i pivottabeller
-description: Lär dig hur du lägger till och konfigurerar sidfält i pivottabeller med Aspose.Cells for Java, inklusive att lägga till sidfält, single-select-filtrering och multi-select-filtrering.
-keywords: Aspose.Cells, Java, pivottabell, sidfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
+title: Lägga till filterfält i en pivottabell i Aspose.Cells för .NET
+linktitle: Lägga till filterfält
+description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for Java, inklusive att lägga till filterfält, single-select-filtrering och multi-select-filtrering.
+keywords: Aspose.Cells, Java, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/java/add-page-field-in-pivot-table/
+url: /sv/java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells stöder hela livscykeln för sidfält i pivottabeller. Du kan lägga till ett sidfält via ett bekvämlighets-API på hög nivå eller via den lägre nivåns `PageFields`-samling, och du kan styra sidfiltret i single-select-läge, rensa det för att visa alla sidobjekt, eller växla fältet till multi-select så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
+Aspose.Cells stöder hela livscykeln för filterfält i pivottabeller. Du kan lägga till ett filterfält via ett bekvämlighets-API på hög nivå eller via den lägre nivåns `PageFields`-samling, och du kan styra sidfiltret i single-select-läge, rensa det för att visa alla sidobjekt, eller växla fältet till multi-select så att användare kan välja flera sidobjekt samtidigt via kryssrutegränssnittet i Excel.
 {{% /alert %}}
 
 ## **Introduktion**
 
-Ett sidfält är ett pivotfält som styr *vilken delmängd* av källdatan som pivotkroppen visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivottabell i Excel, och att välja ett av de tillgängliga sidobjekten bygger om pivotkroppen så att endast posterna som tillhör det sidobjektet summeras. Ett pivotfält blir ett sidfält när det registreras som `PivotFieldType.Page` snarare än `PivotFieldType.Row`, `PivotFieldType.Column` eller `PivotFieldType.Data`.
+Ett filterfält är ett pivotfält som styr *vilken delmängd* av källdatan som pivotkroppen visar. Slutanvändare ser det som en rullgardinsmeny överst i en renderad pivottabell i Excel, och att välja ett av de tillgängliga sidobjekten bygger om pivotkroppen så att endast posterna som tillhör det sidobjektet summeras. Ett pivotfält blir ett filterfält när det registreras som `PivotFieldType.Page` snarare än `PivotFieldType.Row`, `PivotFieldType.Column` eller `PivotFieldType.Data`.
 
-Ett sidfält kan fungera i två beteenden. I standardbeteendet **single-select** är endast ett sidobjekt synligt åt gången, så pivotkroppen summerar exakt en delmängd. I beteendet **multi-select** exponerar fältet en kryssrutelista, och pivotkroppen summerar unionen av alla ikryssade sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enda egenskap.
+Ett filterfält kan fungera i två beteenden. I standardbeteendet **single-select** är endast ett sidobjekt synligt åt gången, så pivotkroppen summerar exakt en delmängd. I beteendet **multi-select** exponerar fältet en kryssrutelista, och pivotkroppen summerar unionen av alla ikryssade sidobjekt. Samma källfält kan flyttas fram och tillbaka mellan dessa beteenden genom att växla en enda egenskap.
 
-Aspose.Cells for Java exponerar två likvärdiga sätt att registrera ett sidfält. Det högnivå-API är `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, som tar källkolonnnamnet och lägger till fältet i ett enda anrop. Det lägre nivå-API är `PivotTable.PageFields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i sidområdet. Båda API:er slutar med att fylla samma `PageFields`-samling, och resten av denna artikel visar hur du väljer mellan dem och hur du styr varje filtreringsläge.
+Aspose.Cells for Java exponerar två likvärdiga sätt att registrera ett filterfält. Det högnivå-API är `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, som tar källkolonnnamnet och lägger till fältet i ett enda anrop. Det lägre nivå-API är `PivotTable.PageFields.add(PivotField)`, som används när du redan har en `PivotField`-referens och vill lägga till samma fältinstans i filterområdet. Båda API:er slutar med att fylla samma `PageFields`-samling, och resten av denna artikel visar hur du väljer mellan dem och hur du styr varje filtreringsläge.
 
-## **Lägga till ett sidfält**
+## **Lägga till ett filterfält**
 
-Det finns två sätt att registrera ett pivotfält i sidområdet. Det högnivåanropet tar källkolonnnamnet som en sträng och är den vanligaste vägen. Det lägre nivåanropet accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas över flera pivotområden. Båda anropen placerar fältet i `PivotTable.PageFields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivottabellen.
+Det finns två sätt att registrera ett pivotfält i filterområdet. Det högnivåanropet tar källkolonnnamnet som en sträng och är den vanligaste vägen. Det lägre nivåanropet accepterar en befintlig `PivotField`-instans och är bekvämt när samma fältobjekt måste återanvändas över flera pivotområden. Båda anropen placerar fältet i `PivotTable.PageFields`, varefter det visas som sidans rullgardinsmeny överst i den renderade pivottabellen.
 
-### Lägga till ett sidfält med addFieldToArea
+### Lägga till ett filterfält med addFieldToArea
 
-Följande exempel bygger ett litet dataset med Frukt / År / Belopp, placerar en pivottabell i cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i sidområdet, uppdaterar pivottabellen och sparar arbetsboken.
+Följande exempel bygger ett litet dataset med Frukt / År / Belopp, placerar en pivottabell i cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i filterområdet, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```java
 import com.aspose.cells.*;
@@ -81,9 +81,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### Lägga till ett sidfält med PageFields.add
+### Lägga till ett filterfält med PageFields.add
 
-När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.PageFields.add`. Pivottabellen och sidfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i sidområdet ersätts med anropet på lägre nivå.
+När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.PageFields.add`. Pivottabellen och filterfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i filterområdet ersätts med anropet på lägre nivå.
 
 ```java
 import com.aspose.cells.*;
@@ -136,7 +136,7 @@ workbook.save("output.xlsx");
 
 ## **Single-select-filtrering (visa ett sidobjekt)**
 
-I standardbeteendet single-select renderas sidfältet som en enskild rullgardinsmeny och `PivotField.CurrentPageItem`-heltalet väljer vilket sidobjekt som styr pivotkroppen. Att tilldela ett specifikt index väljer det objektet; att tilldela det speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt summeras på en gång. Single-select är standard; du behöver inte aktivera det explicit.
+I standardbeteendet single-select renderas filterfältet som en enskild rullgardinsmeny och `PivotField.CurrentPageItem`-heltalet väljer vilket sidobjekt som styr pivotkroppen. Att tilldela ett specifikt index väljer det objektet; att tilldela det speciella sentinelvärdet `0x7FFD` (decimalt 32765) rensar filtret så att alla sidobjekt summeras på en gång. Single-select är standard; du behöver inte aktivera det explicit.
 
 ### Visa alla objekt
 
@@ -194,7 +194,7 @@ workbook.save("output.xlsx");
 
 ### Visa ett specifikt objekt
 
-Att sätta `CurrentPageItem` till ett verkligt index väljer bara det sidobjektet. Indexet är positionen för objektet i sidfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
+Att sätta `CurrentPageItem` till ett verkligt index väljer bara det sidobjektet. Indexet är positionen för objektet i filterfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
 
 ```java
 import com.aspose.cells.*;
@@ -249,7 +249,7 @@ workbook.save("output.xlsx");
 
 Multi-select-filtrering förvandlar sidans rullgardinsmeny till en kryssrutelista och låter slutanvändaren välja flera sidobjekt samtidigt. Aspose.Cells exponerar två egenskaper som fungerar tillsammans. `PivotField.IsMultipleItemSelectionAllowed` måste sättas till `true` innan multi-select-gränssnittet överhuvudtaget får effekt. Efter att det är aktiverat styr `PivotItem.IsHidden` vilka objekt som visas i kryssrutelistan, så du kan antingen visa alla objekt eller vitlista endast specifika objekt.
 
-Koden nedan aktiverar multi-select på samma Year-sidfält som byggdes i Scenario 1a och visar sedan två mönster: Del A visar alla sidobjekt genom att lämna `IsHidden` satt till `false` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat via ett `switch (pivotItems[i].getStringValue())`-block.
+Koden nedan aktiverar multi-select på samma Year-filterfält som byggdes i Scenario 1a och visar sedan två mönster: Del A visar alla sidobjekt genom att lämna `IsHidden` satt till `false` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat via ett `switch (pivotItems[i].getStringValue())`-block.
 
 ```java
 import com.aspose.cells.*;
@@ -332,15 +332,15 @@ Tabellen nedan sammanfattar när du ska använda varje API och läge så att du 
 
 | Scenario / Användningsfall | Rekommenderat API | Använd egenskap | Anteckningar |
 |---|---|---|---|
-| Lägg till ett sidfält efter källkolonnnamn (vanligast) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | Hög nivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
-| Lägg till ett sidfält när du redan har ett `PivotField`-objekt | `PivotTable.PageFields.add(PivotField)` | n/a | Använd när fältobjektet erhölls på annan plats eller behöver återanvändas. |
+| Lägg till ett filterfält efter källkolonnnamn (vanligast) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | Hög nivå, en rad. Använd detta om du inte behöver en `PivotField`-referens. |
+| Lägg till ett filterfält när du redan har ett `PivotField`-objekt | `PivotTable.PageFields.add(PivotField)` | n/a | Använd när fältobjektet erhölls på annan plats eller behöver återanvändas. |
 | Filtrera till ett enskilt sidobjekt (standardläge) | `PivotField.CurrentPageItem` | sätt till ett specifikt index | Till exempel visar `1` det andra objektet i den sorterade listan. |
 | Visa alla objekt / rensa sidfiltret | `PivotField.CurrentPageItem` | sätt till `0x7FFD` | Magivärdet `0x7FFD` (decimalt 32765) är sentinelvärdet för "alla objekt". |
 | Aktivera multi-select-gränssnitt i Excel | `PivotField.IsMultipleItemSelectionAllowed` | sätt till `true` | Krävs innan några `IsHidden`-anrop får effekt. |
 | Dölj / visa enskilda objekt i en multi-select-lista | `PivotItem.IsHidden` | sätt per objekt | Minst ett objekt måste förbli synligt (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-Kom alltid ihåg synlighetsbegränsningen när du konfigurerar multi-select-filtrering. Om varje `PivotItem` i ett multi-select-sidfält är dolt kraschar Excel vid öppning eller renderar en tom pivottabell. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker öppnas tillförlitligt på varje maskin.
+Kom alltid ihåg synlighetsbegränsningen när du konfigurerar multi-select-filtrering. Om varje `PivotItem` i ett multi-select-filterfält är dolt kraschar Excel vid öppning eller renderar en tom pivottabell. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker öppnas tillförlitligt på varje maskin.
 {{% /alert %}}
 
 

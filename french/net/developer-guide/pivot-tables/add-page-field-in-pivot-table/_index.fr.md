@@ -1,34 +1,34 @@
 ---
-title: Champs de page dans les tableaux croisés dynamiques
-linktitle: Champs de page
-description: Apprenez à ajouter et configurer des champs de page dans des tableaux croisés dynamiques avec Aspose.Cells for .NET, y compris l'ajout de champs de page, le filtrage en sélection unique et le filtrage en sélection multiple.
-keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de page, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
+title: Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET
+linktitle: Ajouter des champs de filtre
+description: Apprenez à ajouter et configurer des champs de filtre dans des tableaux croisés dynamiques avec Aspose.Cells for .NET, y compris l'ajout de champs de filtre, le filtrage en sélection unique et le filtrage en sélection multiple.
+keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/net/add-page-field-in-pivot-table/
+url: /fr/net/add-filter-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells prend en charge le cycle de vie complet des champs de page dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de page via une API pratique de haut niveau ou via la collection `PageFields` de bas niveau, et vous pouvez piloter le filtre de page en mode sélection unique, le réinitialiser pour afficher tous les éléments de page, ou basculer le champ vers la sélection multiple afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois grâce à l'interface à cases à cocher d'Excel.
+Aspose.Cells prend en charge le cycle de vie complet des champs de filtre dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de filtre via une API pratique de haut niveau ou via la collection `PageFields` de bas niveau, et vous pouvez piloter le filtre en mode sélection unique, le réinitialiser pour afficher tous les éléments de page, ou basculer le champ vers la sélection multiple afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois grâce à l'interface à cases à cocher d'Excel.
 {{% /alert %}}
 
 ## **Introduction**
 
-Un champ de page est un champ de tableau croisé dynamique qui contrôle *quel sous-ensemble* des données source le corps du tableau croisé dynamique affiche. L'utilisateur final le voit comme une liste déroulante en haut d'un tableau croisé dynamique rendu dans Excel, et sélectionner l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page soient synthétisés. Un champ de tableau croisé dynamique devient un champ de page lorsqu'il est enregistré en tant que `PivotFieldType.Page` plutôt que `PivotFieldType.Row`, `PivotFieldType.Column` ou `PivotFieldType.Data`.
+Un champ de filtre est un champ de tableau croisé dynamique qui contrôle *quel sous-ensemble* des données source le corps du tableau croisé dynamique affiche. L'utilisateur final le voit comme une liste déroulante en haut d'un tableau croisé dynamique rendu dans Excel, et sélectionner l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page soient synthétisés. Un champ de tableau croisé dynamique devient un champ de filtre lorsqu'il est enregistré en tant que `PivotFieldType.Page` plutôt que `PivotFieldType.Row`, `PivotFieldType.Column` ou `PivotFieldType.Data`.
 
-Un champ de page peut fonctionner selon deux comportements. Dans le comportement par défaut en **sélection unique**, seul un élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique synthétise exactement un sous-ensemble. Dans le comportement en **sélection multiple**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique synthétise l'union de tous les éléments de page cochés. Le même champ source peut basculer entre ces comportements en activant ou désactivant une seule propriété.
+Un champ de filtre peut fonctionner selon deux comportements. Dans le comportement par défaut en **sélection unique**, seul un élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique synthétise exactement un sous-ensemble. Dans le comportement en **sélection multiple**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique synthétise l'union de tous les éléments de page cochés. Le même champ source peut basculer entre ces comportements en activant ou désactivant une seule propriété.
 
-Aspose.Cells for .NET expose deux façons équivalentes d'enregistrer un champ de page. L'API de haut niveau est `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.PageFields.Add(PivotField)`, qui est utilisée lorsque vous détenez déjà une référence `PivotField` et souhaitez ajouter la même instance de champ à la zone de page. Les deux API finissent par remplir la même collection `PageFields`, et la suite de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
+Aspose.Cells for .NET expose deux façons équivalentes d'enregistrer un champ de filtre. L'API de haut niveau est `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.PageFields.Add(PivotField)`, qui est utilisée lorsque vous détenez déjà une référence `PivotField` et souhaitez ajouter la même instance de champ à la zone de filtre. Les deux API finissent par remplir la même collection `PageFields`, et la suite de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
 
-## **Ajout d'un champ de page**
+## **Ajout d'un champ de filtre**
 
-Il existe deux façons d'enregistrer un champ de tableau croisé dynamique dans la zone de page. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque le même objet champ doit être réutilisé dans plusieurs zones du tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.PageFields`, après quoi il apparaît comme la liste déroulante de page en haut du tableau croisé dynamique rendu.
+Il existe deux façons d'enregistrer un champ de tableau croisé dynamique dans la zone de filtre. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque le même objet champ doit être réutilisé dans plusieurs zones du tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.PageFields`, après quoi il apparaît comme la liste déroulante de page en haut du tableau croisé dynamique rendu.
 
-### Ajout d'un champ de page avec AddFieldToArea
+### Ajout d'un champ de filtre avec AddFieldToArea
 
-L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, place un tableau croisé dynamique dans la cellule E3 avec `Fruit` dans la zone de ligne, `Amount` dans la zone de données, et `Year` dans la zone de page, actualise le tableau croisé dynamique, et enregistre le classeur.
+L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, place un tableau croisé dynamique dans la cellule E3 avec `Fruit` dans la zone de ligne, `Amount` dans la zone de données, et `Year` dans la zone de filtre, actualise le tableau croisé dynamique, et enregistre le classeur.
 
 ```csharp
 using System;
@@ -84,9 +84,9 @@ pivotTable.CalculateData();
 workbook.Save("pageFieldSample.xlsx");
 ```
 
-### Ajout d'un champ de page avec PageFields.Add
+### Ajout d'un champ de filtre avec PageFields.Add
 
-Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.PageFields.Add`. Le tableau croisé dynamique et le champ de page sont construits exactement comme dans le scénario précédent ; seule l'enregistrement final dans la zone de page est remplacé par l'appel d'API de bas niveau.
+Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.PageFields.Add`. Le tableau croisé dynamique et le champ de filtre sont construits exactement comme dans le scénario précédent ; seule l'enregistrement final dans la zone de filtre est remplacé par l'appel d'API de bas niveau.
 
 ```csharp
 using System;
@@ -141,11 +141,11 @@ workbook.Save("output.xlsx");
 
 ## **Filtrage en sélection unique (affichage d'un seul élément de page)**
 
-Dans le comportement par défaut en sélection unique, le champ de page s'affiche sous forme de liste déroulante unique et l'entier `PivotField.CurrentPageItem` sélectionne l'élément de page qui pilote le corps du tableau croisé dynamique. Attribuer un index spécifique sélectionne cet élément ; attribuer la valeur sentinelle spéciale `0x7FFD` (décimale 32765) réinitialise le filtre de sorte que tous les éléments de page soient synthétisés en même temps. La sélection unique est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
+Dans le comportement par défaut en sélection unique, le champ de filtre s'affiche sous forme de liste déroulante unique et l'entier `PivotField.CurrentPageItem` sélectionne l'élément de page qui pilote le corps du tableau croisé dynamique. Attribuer un index spécifique sélectionne cet élément ; attribuer la valeur sentinelle spéciale `0x7FFD` (décimale 32765) réinitialise le filtre de sorte que tous les éléments de page soient synthétisés en même temps. La sélection unique est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
 
 ### Afficher tous les éléments
 
-Définir `CurrentPageItem` sur la valeur magique `0x7FFD` revient à effacer le filtre de page : le corps du tableau croisé dynamique synthétise tous les éléments de page comme si aucun filtre n'était appliqué.
+Définir `CurrentPageItem` sur la valeur magique `0x7FFD` revient à effacer le filtre : le corps du tableau croisé dynamique synthétise tous les éléments de page comme si aucun filtre n'était appliqué.
 
 ```csharp
 using System;
@@ -208,7 +208,7 @@ class Program
 
 ### Afficher un élément spécifique
 
-Définir `CurrentPageItem` sur un index réel ne sélectionne que cet élément de page. L'index correspond à la position de l'élément dans la liste triée des éléments du champ de page ; par exemple, `1` sélectionne le deuxième élément après le tri.
+Définir `CurrentPageItem` sur un index réel ne sélectionne que cet élément de page. L'index correspond à la position de l'élément dans la liste triée des éléments du champ de filtre ; par exemple, `1` sélectionne le deuxième élément après le tri.
 
 ```csharp
 using System;
@@ -265,7 +265,7 @@ workbook.Save("output.xlsx");
 
 Le filtrage en sélection multiple transforme la liste déroulante de page en une liste de cases à cocher et permet à l'utilisateur final de sélectionner simultanément plusieurs éléments de page. Aspose.Cells expose deux propriétés qui fonctionnent ensemble. `PivotField.IsMultipleItemSelectionAllowed` doit être définie sur `true` pour que l'interface de sélection multiple prenne effet. Une fois activée, `PivotItem.IsHidden` contrôle quels éléments apparaissent dans la liste de cases à cocher, ce qui vous permet soit d'afficher tous les éléments, soit d'autoriser uniquement des éléments spécifiques.
 
-Le code ci-dessous active la sélection multiple sur le même champ de page Year construit dans le scénario 1a, puis montre deux schémas : la partie A révèle tous les éléments de page en laissant `IsHidden` défini sur `false` pour chaque entrée, tandis que la partie B autorise uniquement les valeurs source que vous choisissez et masque tout le reste via un bloc `switch (pivotItems[i].GetStringValue())`.
+Le code ci-dessous active la sélection multiple sur le même champ de filtre Year construit dans le scénario 1a, puis montre deux schémas : la partie A révèle tous les éléments de page en laissant `IsHidden` défini sur `false` pour chaque entrée, tandis que la partie B autorise uniquement les valeurs source que vous choisissez et masque tout le reste via un bloc `switch (pivotItems[i].GetStringValue())`.
 
 ```csharp
 using System;
@@ -355,15 +355,15 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 
 | Scénario / Cas d'utilisation | API recommandée | Propriété utilisée | Remarques |
 |---|---|---|---|
-| Ajouter un champ de page par nom de colonne source (le plus courant) | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Haut niveau, une seule ligne. Utilisez ceci sauf si vous avez besoin d'une référence `PivotField`. |
-| Ajouter un champ de page lorsque vous avez déjà un objet `PivotField` | `PivotTable.PageFields.Add(PivotField)` | n/a | À utiliser lorsque l'objet champ a été obtenu ailleurs ou doit être réutilisé. |
+| Ajouter un champ de filtre par nom de colonne source (le plus courant) | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Haut niveau, une seule ligne. Utilisez ceci sauf si vous avez besoin d'une référence `PivotField`. |
+| Ajouter un champ de filtre lorsque vous avez déjà un objet `PivotField` | `PivotTable.PageFields.Add(PivotField)` | n/a | À utiliser lorsque l'objet champ a été obtenu ailleurs ou doit être réutilisé. |
 | Filtrer sur un seul élément de page (mode par défaut) | `PivotField.CurrentPageItem` | définir sur un index spécifique | Par exemple, `1` affiche le deuxième élément de la liste triée. |
-| Afficher tous les éléments / effacer le filtre de page | `PivotField.CurrentPageItem` | définir sur `0x7FFD` | La valeur magique `0x7FFD` (décimale 32765) est la sentinelle pour « tous les éléments ». |
+| Afficher tous les éléments / effacer le filtre | `PivotField.CurrentPageItem` | définir sur `0x7FFD` | La valeur magique `0x7FFD` (décimale 32765) est la sentinelle pour « tous les éléments ». |
 | Activer l'interface de sélection multiple dans Excel | `PivotField.IsMultipleItemSelectionAllowed` | définir sur `true` | Requis avant que tout appel à `IsHidden` ne prenne effet. |
 | Masquer / afficher des éléments individuels dans une liste à sélection multiple | `PivotItem.IsHidden` | définir par élément | Au moins un élément doit rester visible (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en sélection multiple. Si chaque `PivotItem` d'un champ de page à sélection multiple est masqué, Excel plante à l'ouverture ou affiche un tableau croisé dynamique vide. Construisez votre liste autorisée à partir de vos données source afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur toutes les machines.
+N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en sélection multiple. Si chaque `PivotItem` d'un champ de filtre à sélection multiple est masqué, Excel plante à l'ouverture ou affiche un tableau croisé dynamique vide. Construisez votre liste autorisée à partir de vos données source afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur toutes les machines.
 {{% /alert %}}
 
 

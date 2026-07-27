@@ -1,11 +1,11 @@
 ---
-title: Campi Riga e Colonna in Aspose.Cells for .NET
-linktitle: Campi di riga e colonna
+title: Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET
+linktitle: Campi riga e colonna
 description: Impara come aggiungere campi di base alle aree righe e colonne di una tabella pivot e controllare i subtotali dei campi pivot usando PivotField.SetSubtotals in Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, tabella pivot, campo riga, campo colonna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/net/row-and-column-fields/
+url: /it/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

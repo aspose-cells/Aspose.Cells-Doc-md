@@ -1,34 +1,34 @@
 ---
-title: Pivot Tablolarında Sayfa Alanları
-linktitle: Pivot Tablolarında Sayfa Alanları
-description: Aspose.Cells for Node.js via Java kullanarak pivot tablolarda sayfa alanları eklemeyi ve yapılandırmayı öğrenin; sayfa alanı ekleme, tek seçimli filtreleme ve çoklu seçim filtreleme dahil.
-keywords: Aspose.Cells, Node.js via Java, pivot tablosu, sayfa alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
+title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+linktitle: Filtre Alanları Ekleme
+description: Aspose.Cells for Node.js via Java kullanarak pivot tablolarda filtre alanları eklemeyi ve yapılandırmayı öğrenin; filtre alanı ekleme, tek seçimli filtreleme ve çoklu seçim filtreleme dahil.
+keywords: Aspose.Cells, Node.js via Java, pivot tablosu, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /tr/nodejs-java/add-page-field-in-pivot-table/
+url: /tr/nodejs-java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells, pivot tablolarındaki sayfa alanlarının tüm yaşam döngüsünü destekler. Üst düzey bir kolaylık API'si veya daha düşük seviyeli `PageFields` koleksiyonu aracılığıyla bir sayfa alanı ekleyebilir, sayfa filtresini tek seçim modunda çalıştırabilir, her sayfa öğesini göstermek için temizleyebilir veya Excel'deki onay kutusu kullanıcı arayüzü aracılığıyla kullanıcıların aynı anda birkaç sayfa öğesi seçebilmesi için alanı çoklu seçime geçirebilirsiniz.
+Aspose.Cells, pivot tablolarındaki filtre alanlarının tüm yaşam döngüsünü destekler. Üst düzey bir kolaylık API'si veya daha düşük seviyeli `PageFields` koleksiyonu aracılığıyla bir filtre alanı ekleyebilir, filtreni tek seçim modunda çalıştırabilir, her sayfa öğesini göstermek için temizleyebilir veya Excel'deki onay kutusu kullanıcı arayüzü aracılığıyla kullanıcıların aynı anda birkaç sayfa öğesi seçebilmesi için alanı çoklu seçime geçirebilirsiniz.
 {{% /alert %}}
 
 ## **Giriş**
 
-Bir sayfa alanı, pivot gövdesinin kaynak verilerin *hangi alt kümesini* görüntüleyeceğini kontrol eden bir pivot alanıdır. Son kullanıcılar bunu Excel'de işlenmiş bir pivot tablonun üst kısmında bir açılır menü olarak görür ve kullanılabilir sayfa öğelerinden birini seçmek, yalnızca o sayfa öğesine ait kayıtların özetlenmesi için pivot gövdesini yeniden oluşturur. Bir pivot alanı, `PivotFieldType.Row`, `PivotFieldType.Column` veya `PivotFieldType.Data` yerine `PivotFieldType.Page` olarak kaydedildiğinde bir sayfa alanı haline gelir.
+Bir filtre alanı, pivot gövdesinin kaynak verilerin *hangi alt kümesini* görüntüleyeceğini kontrol eden bir pivot alanıdır. Son kullanıcılar bunu Excel'de işlenmiş bir pivot tablonun üst kısmında bir açılır menü olarak görür ve kullanılabilir sayfa öğelerinden birini seçmek, yalnızca o sayfa öğesine ait kayıtların özetlenmesi için pivot gövdesini yeniden oluşturur. Bir pivot alanı, `PivotFieldType.Row`, `PivotFieldType.Column` veya `PivotFieldType.Data` yerine `PivotFieldType.Page` olarak kaydedildiğinde bir filtre alanı haline gelir.
 
-Bir sayfa alanı iki davranışta çalışabilir. Varsayılan **tek seçim** davranışında aynı anda yalnızca bir sayfa öğesi görünür; bu nedenle pivot gövdesi tam olarak bir alt kümeyi özetler. **Çoklu seçim** davranışında ise alan bir onay kutusu listesi sunar ve pivot gövdesi işaretlenen her sayfa öğesinin birleşimini özetler. Aynı kaynak alanı, tek bir özellik değiştirilerek bu davranışlar arasında ileri geri taşınabilir.
+Bir filtre alanı iki davranışta çalışabilir. Varsayılan **tek seçim** davranışında aynı anda yalnızca bir sayfa öğesi görünür; bu nedenle pivot gövdesi tam olarak bir alt kümeyi özetler. **Çoklu seçim** davranışında ise alan bir onay kutusu listesi sunar ve pivot gövdesi işaretlenen her sayfa öğesinin birleşimini özetler. Aynı kaynak alanı, tek bir özellik değiştirilerek bu davranışlar arasında ileri geri taşınabilir.
 
-Aspose.Cells for Node.js via Java, bir sayfa alanını kaydetmek için iki eşdeğer yol sunar. Üst düzey API, `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` yöntemidir; bu yöntem kaynak sütun adını alır ve alanı tek bir çağrıda ekler. Daha düşük seviyeli API ise `pivotTable.getPageFields().add(PivotField)` yöntemidir; bu yöntem, zaten bir `PivotField` referansına sahip olduğunuzda ve aynı alan örneğini sayfa alanına eklemek istediğinizde kullanılır. Her iki API de aynı `PageFields` koleksiyonunu doldurur ve bu makalenin devamı, aralarında nasıl seçim yapılacağını ve her filtreleme modunun nasıl yönlendirileceğini göstermektedir.
+Aspose.Cells for Node.js via Java, bir filtre alanını kaydetmek için iki eşdeğer yol sunar. Üst düzey API, `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` yöntemidir; bu yöntem kaynak sütun adını alır ve alanı tek bir çağrıda ekler. Daha düşük seviyeli API ise `pivotTable.getPageFields().add(PivotField)` yöntemidir; bu yöntem, zaten bir `PivotField` referansına sahip olduğunuzda ve aynı alan örneğini filtre alanına eklemek istediğinizde kullanılır. Her iki API de aynı `PageFields` koleksiyonunu doldurur ve bu makalenin devamı, aralarında nasıl seçim yapılacağını ve her filtreleme modunun nasıl yönlendirileceğini göstermektedir.
 
-## **Sayfa Alanı Ekleme**
+## **filtre alanı Ekleme**
 
-Bir pivot alanını sayfa alanına kaydetmenin iki yolu vardır. Üst düzey çağrı, kaynak sütun adını bir dize olarak alır ve en yaygın yoldur. Daha düşük seviyeli çağrı, mevcut bir `PivotField` örneğini kabul eder ve aynı alan nesnesinin birden çok pivot alanında yeniden kullanılması gerektiğinde kullanışlıdır. Her iki çağrı da alanı `pivotTable.getPageFields()` içine yerleştirir; ardından alan, işlenmiş pivot tablonun üst kısmında sayfa açılır menüsü olarak görünür.
+Bir pivot alanını filtre alanına kaydetmenin iki yolu vardır. Üst düzey çağrı, kaynak sütun adını bir dize olarak alır ve en yaygın yoldur. Daha düşük seviyeli çağrı, mevcut bir `PivotField` örneğini kabul eder ve aynı alan nesnesinin birden çok pivot alanında yeniden kullanılması gerektiğinde kullanışlıdır. Her iki çağrı da alanı `pivotTable.getPageFields()` içine yerleştirir; ardından alan, işlenmiş pivot tablonun üst kısmında sayfa açılır menüsü olarak görünür.
 
-### addFieldToArea ile Sayfa Alanı Ekleme
+### addFieldToArea ile filtre alanı Ekleme
 
-Aşağıdaki örnek, küçük bir Meyve / Yıl / Tutar veri kümesi oluşturur, E3 hücresinde `Fruit` satır alanında, `Amount` veri alanında ve `Year` sayfa alanında bir pivot tablo yerleştirir, pivotu yeniler ve çalışma kitabını kaydeder.
+Aşağıdaki örnek, küçük bir Meyve / Yıl / Tutar veri kümesi oluşturur, E3 hücresinde `Fruit` satır alanında, `Amount` veri alanında ve `Year` filtre alanında bir pivot tablo yerleştirir, pivotu yeniler ve çalışma kitabını kaydeder.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -77,9 +77,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### getPageFields().add ile Sayfa Alanı Ekleme
+### getPageFields().add ile filtre alanı Ekleme
 
-Zaten bir `PivotField` örneğiyle çalışıyorsanız, onu doğrudan `pivotTable.getPageFields().add` yöntemine geçirebilirsiniz. Pivot tablo ve sayfa alanı, önceki senaryodaki ile tam olarak aynı şekilde oluşturulur; yalnızca son sayfa alanı kaydı, daha düşük seviyeli API çağrısıyla değiştirilir.
+Zaten bir `PivotField` örneğiyle çalışıyorsanız, onu doğrudan `pivotTable.getPageFields().add` yöntemine geçirebilirsiniz. Pivot tablo ve filtre alanı, önceki senaryodaki ile tam olarak aynı şekilde oluşturulur; yalnızca son filtre alanı kaydı, daha düşük seviyeli API çağrısıyla değiştirilir.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -123,11 +123,11 @@ workbook.save("output.xlsx");
 
 ## **Tek Seçim Filtreleme (Bir Sayfa Öğesi Gösterme)**
 
-Varsayılan tek seçim davranışında, sayfa alanı tek bir açılır menü olarak işlenir ve `PivotField.CurrentPageItem` tamsayısı, pivot gövdesini hangi sayfa öğesinin yönlendireceğini seçer. Belirli bir dizin atamak o öğeyi seçer; özel gösterge değeri olan `0x7FFD` (ondalık 32765) atamak ise filtreyi temizler, böylece her sayfa öğesi aynı anda özetlenir. Tek seçim varsayılandır; bunu açıkça etkinleştirmeniz gerekmez.
+Varsayılan tek seçim davranışında, filtre alanı tek bir açılır menü olarak işlenir ve `PivotField.CurrentPageItem` tamsayısı, pivot gövdesini hangi sayfa öğesinin yönlendireceğini seçer. Belirli bir dizin atamak o öğeyi seçer; özel gösterge değeri olan `0x7FFD` (ondalık 32765) atamak ise filtreyi temizler, böylece her sayfa öğesi aynı anda özetlenir. Tek seçim varsayılandır; bunu açıkça etkinleştirmeniz gerekmez.
 
 ### Tüm Öğeleri Gösterme
 
-`CurrentPageItem` öğesini sihirli değer olan `0x7FFD` olarak ayarlamak, sayfa filtresini temizlemeye eşdeğerdir; pivot gövdesi, hiçbir filtre uygulanmamış gibi her sayfa öğesini özetler.
+`CurrentPageItem` öğesini sihirli değer olan `0x7FFD` olarak ayarlamak, filtreni temizlemeye eşdeğerdir; pivot gövdesi, hiçbir filtre uygulanmamış gibi her sayfa öğesini özetler.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -176,7 +176,7 @@ workbook.save("output.xlsx");
 
 ### Belirli Bir Öğeyi Gösterme
 
-`CurrentPageItem` öğesini gerçek bir dizine ayarlamak yalnızca o sayfa öğesini seçer. Dizin, sayfa alanının sıralanmış öğe listesindeki konumdur; dolayısıyla örneğin `1` sıralamadan sonra ikinci öğeyi seçer.
+`CurrentPageItem` öğesini gerçek bir dizine ayarlamak yalnızca o sayfa öğesini seçer. Dizin, filtre alanının sıralanmış öğe listesindeki konumdur; dolayısıyla örneğin `1` sıralamadan sonra ikinci öğeyi seçer.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
@@ -228,7 +228,7 @@ workbook.save("output.xlsx");
 
 Çoklu seçim filtreleme, sayfa açılır menüsünü bir onay kutusu listesine dönüştürür ve son kullanıcının aynı anda birkaç sayfa öğesi seçmesine olanak tanır. Aspose.Cells, birlikte çalışan iki özellik sunar. Çoklu seçim kullanıcı arayüzünün geçerli olabilmesi için `PivotField.IsMultipleItemSelectionAllowed` öğesinin önce `true` olarak ayarlanması gerekir. Etkinleştirildikten sonra, `PivotItem.IsHidden` onay kutusu listesinde hangi öğelerin görüneceğini kontrol eder; böylece her öğeyi gösterebilir veya yalnızca belirli öğeleri beyaz listeye alabilirsiniz.
 
-Aşağıdaki kod, Senaryo 1a'da oluşturulan aynı Year sayfa alanında çoklu seçimi etkinleştirir ve ardından iki model gösterir: Bölüm A, her girdi için `IsHidden` değerini `false` olarak bırakarak her sayfa öğesini gösterir; Bölüm B ise `switch (pivotItems[i].getStringValue())` bloğu aracılığıyla yalnızca seçtiğiniz kaynak değerleri beyaz listeye alır ve diğer her şeyi gizler.
+Aşağıdaki kod, Senaryo 1a'da oluşturulan aynı Year filtre alanında çoklu seçimi etkinleştirir ve ardından iki model gösterir: Bölüm A, her girdi için `IsHidden` değerini `false` olarak bırakarak her sayfa öğesini gösterir; Bölüm B ise `switch (pivotItems[i].getStringValue())` bloğu aracılığıyla yalnızca seçtiğiniz kaynak değerleri beyaz listeye alır ve diğer her şeyi gizler.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -311,15 +311,15 @@ Aşağıdaki tablo, her API'nin ve modun ne zaman kullanılacağını özetler; 
 
 | Senaryo / Kullanım Durumu | Önerilen API | Kullanılan Özellik | Notlar |
 |---|---|---|---|
-| Sayfa alanını kaynak sütun adına göre ekleme (en yaygın) | `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | yok | Üst düzey, tek satır. Bir `PivotField` referansına ihtiyacınız yoksa bunu kullanın. |
-| Zaten bir `PivotField` nesneniz olduğunda sayfa alanı ekleme | `pivotTable.getPageFields().add(PivotField)` | yok | Alan nesnesi başka bir yerden alındığında veya yeniden kullanılması gerektiğinde kullanın. |
+| filtre alanını kaynak sütun adına göre ekleme (en yaygın) | `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | yok | Üst düzey, tek satır. Bir `PivotField` referansına ihtiyacınız yoksa bunu kullanın. |
+| Zaten bir `PivotField` nesneniz olduğunda filtre alanı ekleme | `pivotTable.getPageFields().add(PivotField)` | yok | Alan nesnesi başka bir yerden alındığında veya yeniden kullanılması gerektiğinde kullanın. |
 | Tek bir sayfa öğesine filtreleme (varsayılan mod) | `PivotField.CurrentPageItem` | belirli bir dizine ayarlayın | Örneğin, `1` sıralanmış listedeki ikinci öğeyi gösterir. |
-| Tüm öğeleri gösterme / sayfa filtresini temizleme | `PivotField.CurrentPageItem` | `0x7FFD` olarak ayarlayın | Sihirli değer `0x7FFD` (ondalık 32765), "tüm öğeler" için gösterge değeridir. |
+| Tüm öğeleri gösterme / filtreni temizleme | `PivotField.CurrentPageItem` | `0x7FFD` olarak ayarlayın | Sihirli değer `0x7FFD` (ondalık 32765), "tüm öğeler" için gösterge değeridir. |
 | Excel'de çoklu seçim kullanıcı arayüzünü etkinleştirme | `PivotField.IsMultipleItemSelectionAllowed` | `true` olarak ayarlayın | Herhangi bir `IsHidden` çağrısının geçerli olabilmesi için gereklidir. |
 | Çoklu seçim listesindeki tek tek öğeleri gizleme / gösterme | `PivotItem.IsHidden` | öğe bazında ayarlayın | En az bir öğe görünür kalmalıdır (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-Çoklu seçim filtrelemesini yapılandırırken görünürlük kısıtlamasını her zaman aklınızda bulundurun. Çoklu seçim sayfa alanındaki her `PivotItem` gizliyse, Excel dosyayı açarken çöker veya boş bir pivot işler. Beyaz listenizi, en az bir öğenin görünür kalacağı şekilde kaynak verilerinize göre oluşturun; böylece kaydedilen çalışma kitaplarınız her makinede güvenilir şekilde açılır.
+Çoklu seçim filtrelemesini yapılandırırken görünürlük kısıtlamasını her zaman aklınızda bulundurun. Çoklu seçim filtre alanındaki her `PivotItem` gizliyse, Excel dosyayı açarken çöker veya boş bir pivot işler. Beyaz listenizi, en az bir öğenin görünür kalacağı şekilde kaynak verilerinize göre oluşturun; böylece kaydedilen çalışma kitaplarınız her makinede güvenilir şekilde açılır.
 {{% /alert %}}
 
 

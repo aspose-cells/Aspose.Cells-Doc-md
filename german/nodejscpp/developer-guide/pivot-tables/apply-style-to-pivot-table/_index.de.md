@@ -1,6 +1,6 @@
 ---
-title: Anwenden von Stilen auf Pivot-Tabellen
-linktitle: Anwenden von Stilen auf Pivot-Tabellen
+title: Stile auf PivotTables in Aspose.Cells für .NET anwenden
+linktitle: PivotTable-Stile anwenden
 description: Erfahren Sie, wie Sie in Aspose.Cells for Node.js via C++ integrierte und benutzerdefinierte Stile auf Pivot-Tabellen anwenden, einschließlich Legacy-XLS-Autoformaten, modernen benannten Excel 2007+ Stilen, benutzerdefinierten Pivot-Tabellenstilen und der FormatAll-Verknüpfung.
 keywords: Aspose.Cells Node.js via C++ Pivot-Tabellenstil, PivotTableStyleType, AutoFormatType, FormatAll, benutzerdefinierter Stil, PivotTableStyleName, TableStyles
 type: docs

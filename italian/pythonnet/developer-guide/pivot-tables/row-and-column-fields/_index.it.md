@@ -1,11 +1,11 @@
 ---
-title: Campi Riga e Colonna in Aspose.Cells for Python via .NET
-linktitle: Campi di riga e colonna
+title: Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET
+linktitle: Campi riga e colonna
 description: Scopri come aggiungere campi di base alle aree righe e colonne di una tabella pivot e controllare i subtotali dei campi pivot utilizzando PivotField.set_subtotals in Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, tabella pivot, campo riga, campo colonna, PivotField, set_subtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/python-net/row-and-column-fields/
+url: /it/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

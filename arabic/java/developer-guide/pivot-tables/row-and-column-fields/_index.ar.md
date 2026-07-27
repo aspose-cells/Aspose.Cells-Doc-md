@@ -1,11 +1,11 @@
 ---
-title: الحقول الصفية والعمودية في Aspose.Cells for Java
+title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
 linktitle: حقول الصفوف والأعمدة
 description: تعلّم كيفية إضافة حقول أساسية إلى منطقتي الصفوف والأعمدة في الجدول المحوري وكيفية التحكم في المجاميع الفرعية لحقول المحور باستخدام PivotField.setSubtotals في Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, جدول محوري, حقل صف, حقل عمود, PivotField, setSubtotals, PivotFieldSubtotalType, مجاميع فرعية
 type: docs
 weight: 220
-url: /ar/java/row-and-column-fields/
+url: /ar/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

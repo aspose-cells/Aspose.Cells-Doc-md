@@ -1,6 +1,6 @@
 ---
-title: Anwenden von Stilen auf Pivot-Tabellen
-linktitle: Anwenden von Stilen auf Pivot-Tabellen
+title: Stile auf PivotTables in Aspose.Cells für .NET anwenden
+linktitle: PivotTable-Stile anwenden
 description: Erfahren Sie, wie Sie in Aspose.Cells for Python via .NET integrierte und benutzerdefinierte Stile auf Pivot-Tabellen anwenden, einschließlich Legacy-XLS-Autoformaten, modernen benannten Stilen ab Excel 2007, benutzerdefinierten Pivot-Tabellenstilen und der FormatAll-Kurzanwendung.
 keywords: Aspose.Cells Python via .NET Pivot-Tabellenstil, PivotTableStyleType, AutoFormatType, FormatAll, benutzerdefinierter Stil, PivotTableStyleName, TableStyles
 type: docs

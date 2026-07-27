@@ -1,7 +1,7 @@
 ---
 title: Ta bort pivottabell från ett arbetsblad
 type: docs
-weight: 60
+weight: 700
 url: /sv/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Aspose.Cells for JavaScript via C++ kod för att ta bort pivottabell för Excel ark
 keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript bibliotek, ta bort pivottabell från kalkylblad, ta bort pivottabell från Excel, hur man tar bort pivottabell med Aspose.Cells for JavaScript via C++, ta bort pivottabell, ta bort pivottabell från Excel, ta bort pivottabell, Aspose.Cells for JavaScript via C++ tar bort pivottabell, ta bort pivottabell, ta bort pivottabell, hur man tar bort pivottabell

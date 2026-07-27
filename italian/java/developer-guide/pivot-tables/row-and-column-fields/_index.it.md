@@ -1,11 +1,11 @@
 ---
-title: Campi di riga e colonna in Aspose.Cells for Java
-linktitle: Campi di riga e colonna
+title: Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET
+linktitle: Campi riga e colonna
 description: Scopri come aggiungere campi di base alle aree di riga e colonna di una tabella pivot e come controllare i subtotali dei campi pivot utilizzando PivotField.setSubtotals in Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, tabella pivot, campo di riga, campo di colonna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/java/row-and-column-fields/
+url: /it/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

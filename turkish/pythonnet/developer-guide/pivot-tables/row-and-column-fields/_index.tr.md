@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for Python via .NET'te Satır ve Sütun Alanları
+title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for Python via .NET'te pivot tablonun satır ve sütun bölgelerine temel alanların nasıl ekleneceğini ve PivotField.set_subtotals kullanılarak pivot alanı ara toplamlarının nasıl denetleneceğini öğrenin.
 keywords: Aspose.Cells, Python via .NET, özet tablo, satır alanı, sütun alanı, PivotField, set_subtotals, PivotFieldSubtotalType, ara toplamlar
 type: docs
 weight: 220
-url: /tr/python-net/row-and-column-fields/
+url: /tr/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

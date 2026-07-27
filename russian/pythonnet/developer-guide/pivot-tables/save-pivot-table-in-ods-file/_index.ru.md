@@ -1,7 +1,7 @@
 ---
 title: Сохранить сводную таблицу в файле ODS
 type: docs
-weight: 150
+weight: 800
 url: /ru/python-net/save-pivot-table-in-ods-file/
 description: Эта статья показывает, как сохранить сводную таблицу в файле ODS с помощью Aspose.Cells для Python via .NET.
 keywords: Aspose.Cells для Python Excel, библиотека Excel Python, Сохранить сводную таблицу в файле ODS с использованием Aspose.Cells для Python Excel Library.

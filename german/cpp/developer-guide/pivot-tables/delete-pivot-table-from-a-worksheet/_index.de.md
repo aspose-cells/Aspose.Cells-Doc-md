@@ -2,7 +2,7 @@
 title: Pivot Tabelle aus einem Arbeitsblatt mit C++ löschen
 linktitle: Pivot Tabelle löschen
 type: docs
-weight: 60
+weight: 700
 url: /de/cpp/delete-pivot-table-from-a-worksheet/
 description: C++ Code zum Entfernen von PivotTabellen in Excel Arbeitsblättern mit Aspose.Cells.
 keywords: c++ pivot tabelle aus arbeitsblatt entfernen, c++ pivot tabelle löschen, wie man pivot tabelle mit c++ löscht, pivot tabelle mit c++ entfernen, c++ pivot tabelle löschen, c++ pivot tabelle entfernen, pivot tabelle entfernen, pivot tabelle löschen, wie man pivot tabelle löscht

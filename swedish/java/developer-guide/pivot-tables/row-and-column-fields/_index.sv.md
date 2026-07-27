@@ -1,11 +1,11 @@
 ---
-title: Rad- och kolumnfält i Aspose.Cells for Java
+title: Lägga till rad- och kolumnfält i en pivottabell i Aspose.Cells för .NET
 linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till basfält i rad- och kolumnområdena i en pivottabell och styr pivotfältets delsummor med PivotField.setSubtotals i Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/java/row-and-column-fields/
+url: /sv/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

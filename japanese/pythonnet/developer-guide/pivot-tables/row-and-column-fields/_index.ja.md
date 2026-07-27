@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for Python via .NET における行フィールドと列フィールド
+title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: Aspose.Cells for Python via .NET を使用して、ピボットテーブルの行領域および列領域に基本フィールドを追加し、PivotField.set_subtotals でピボットフィールドの小計を制御する方法を説明します。
 keywords: Aspose.Cells, Python via .NET, ピボットテーブル, 行フィールド, 列フィールド, PivotField, set_subtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
-url: /ja/python-net/row-and-column-fields/
+url: /ja/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

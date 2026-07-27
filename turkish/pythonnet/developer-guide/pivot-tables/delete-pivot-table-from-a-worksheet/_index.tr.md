@@ -1,7 +1,7 @@
 ---
 title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
-weight: 60
+weight: 700
 url: /tr/python-net/delete-pivot-table-from-a-worksheet/
 description: Excel Çalışma Sayfaları İçin Python via .NET Kodunu Kullanarak PivotTablosunu Kaldırma
 keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Python via .NET çalışma sayfasından pivot tablosunu kaldırma, Python via .NET çalışma sayfasından pivot tablosunu kaldırma, Python via .NET ile pivot tablosunu nasıl silinir, Python via .NET ile pivot tablosunu silme, pivot tablosunu excel den Python via .NET ile silme, Python via .NET pivot tablosu silme, Python via .NET ile pivot tablosunu kaldırma, pivot tablosunu silme, pivot tablosunu nasıl silinir

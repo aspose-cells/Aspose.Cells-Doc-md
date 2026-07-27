@@ -1,7 +1,7 @@
 ---
 title: Pivot Tabelle in ODS Datei speichern
 type: docs
-weight: 150
+weight: 800
 url: /de/python-net/save-pivot-table-in-ods-file/
 description: In diesem Artikel wird gezeigt, wie Sie mithilfe von Aspose.Cells für Python via .NET eine Pivot Tabelle in einer ODS Datei speichern können.
 keywords: Aspose.Cells für Python Excel, Excel Python Bibliothek, Pivot Tabelle in ODS Datei speichern mit Aspose.Cells für Python Excel Bibliothek.

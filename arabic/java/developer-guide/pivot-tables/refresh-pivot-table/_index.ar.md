@@ -1,6 +1,6 @@
 ---
-title: تحديث الجداول المحورية في Aspose.Cells for Java
-linktitle: تحديث الجداول المحورية في Aspose.Cells for Java
+title: تحديث الجداول المحورية وذاكرة التخزين المؤقتة في Aspose.Cells لـ .NET
+linktitle: تحديث الجداول المحورية
 description: تعلّم كيفية تحديث الجداول المحورية في Aspose.Cells for Java باستخدام واجهة برمجة التطبيقات v26.7+ الخاصة بتحديث الجداول المحورية. تغطي هذه المقالة RefreshAll وRefreshPivotTables وPivotCache.Refresh وCalculateData وGetPivotTables مع أمثلة عملية على التعليمات البرمجية.
 keywords: Aspose.Cells, Java, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

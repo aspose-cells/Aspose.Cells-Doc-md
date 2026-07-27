@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for C++'da Satır ve Sütun Alanları
+title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for C++'da bir özet tablonun satır ve sütun bölgelerine temel alanlar eklemeyi ve PivotField.SetSubtotals kullanarak özet tablo alanı ara toplamlarını kontrol etmeyi öğrenin.
 keywords: Aspose.Cells, C++, özet tablo, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, ara toplamlar
 type: docs
 weight: 220
-url: /tr/cpp/row-and-column-fields/
+url: /tr/cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

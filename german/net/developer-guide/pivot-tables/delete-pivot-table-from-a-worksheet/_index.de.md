@@ -1,7 +1,7 @@
 ---
 title: Pivot Tabelle aus einem Arbeitsblatt löschen
 type: docs
-weight: 60
+weight: 700
 url: /de/net/delete-pivot-table-from-a-worksheet/
 description: C# Code zum Entfernen von PivotTable für Excel Arbeitsblätter
 keywords: c# Pivot Tabelle aus Arbeitsblatt entfernen, c# Pivot Tabelle aus Excel entfernen, wie man Pivot Tabelle mit c# löscht, Pivot Tabelle mit c# löschen, Pivot Tabelle aus Excel mit c# löschen, c# Pivot Tabelle löschen, c# Pivot Tabelle entfernen, Pivot Tabelle entfernen, Pivot Tabelle löschen, wie man Pivot Tabelle löscht

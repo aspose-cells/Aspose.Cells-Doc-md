@@ -1,11 +1,11 @@
 ---
-title: Pivot Table Row and Column Fields in Aspose.Cells for .NET
+title: Add Pivot Table Row and Column Fields in Aspose.Cells for .NET
 linktitle: Row and Column Fields
 description: Learn how to add row and column pivot fields to a pivot table and control pivot field subtotals using PivotField.SetSubtotals with PivotFieldSubtotalType in Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals, C#, Excel pivot table
 type: docs
 weight: 220
-url: /net/row-and-column-fields/
+url: /net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

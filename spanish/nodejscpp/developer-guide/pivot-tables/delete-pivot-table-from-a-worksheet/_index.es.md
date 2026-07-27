@@ -1,7 +1,7 @@
 ---
 title: Eliminar la tabla dinámica de una hoja de cálculo
 type: docs
-weight: 60
+weight: 700
 url: /es/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Código de Aspose.Cells for Node.js via C++ para eliminar una tabla dinámica de hojas de Excel.
 keywords: Aspose.Cells for Node.js via C++ Excel, biblioteca de Node.js para Excel, eliminar tabla dinámica de la hoja, eliminar tabla dinámica de Excel, cómo eliminar una tabla dinámica con Aspose.Cells for Node.js via C++, eliminar tabla dinámica, eliminar tabla dinámica de Excel, eliminar tabla dinámica, Aspose.Cells for Node.js via C++ eliminar tabla dinámica, eliminar tabla dinámica, eliminar tabla dinámica, cómo eliminar una tabla dinámica

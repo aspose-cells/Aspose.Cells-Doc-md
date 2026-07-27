@@ -1,7 +1,7 @@
 ---
-title: Actualización de tablas dinámicas en Aspose.Cells for Python via .NET
-linktitle: Actualización de tablas dinámicas en Aspose.Cells for Python via .NET
-description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells for Python via .NET utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
+title: Actualizar tablas dinámicas en Aspose.Cells for Python via .NET
+linktitle: Actualizar tablas dinámicas en Aspose.Cells for Python via .NET
+description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Python via .NET utilizando la API de actualización de tablas dinámicas de la versión 26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos de código prácticos.
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -12,49 +12,49 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona una API de actualización en capas que le permite recargar datos de tablas dinámicas en cuatro alcances diferentes, desde todo el libro de trabajo hasta una sola tabla dinámica. A partir de **Aspose.Cells for Python via .NET v26.7**, el método heredado `PivotTable.refresh_data()` está marcado como obsoleto y debe reemplazarse por las APIs más eficientes y conscientes del caché descritas en este artículo.
+Aspose.Cells ofrece una API de actualización en capas que le permite recargar datos dinámicos en cuatro ámbitos diferentes, desde todo el libro hasta una sola tabla dinámica. A partir de **Aspose.Cells for Python via .NET v26.7**, el método heredado `PivotTable.refresh_data()` está marcado como obsoleto y debe reemplazarse por las API más eficientes y conscientes de la caché descritas en este artículo.
 
 {{% /alert %}}
 
 ## Introducción
 
-Actualizar una tabla dinámica rara vez es una operación única. Detrás de escena, Aspose.Cells mantiene una cadena de datos en capas que conecta sus datos fuente originales con los valores renderizados que ve en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cualquier situación.
+Actualizar una tabla dinámica rara vez es una operación única. Detrás de escena, Aspose.Cells mantiene una cadena de datos en capas que conecta los datos de origen originales con los valores representados que se ven en la hoja de cálculo. Comprender esta cadena es la clave para elegir la API de actualización adecuada para cualquier situación.
 
 La cadena de datos de cuatro capas es:
 
-1. **Fuente de datos**: los rangos de hojas de cálculo originales, la consulta de base de datos o el rango de consolidación donde residen los valores sin procesar.
-2. **PivotCache**: la instantánea en memoria de los datos fuente. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y agregan todos los datos.
-3. **PivotTable**: el objeto de vista que define los campos de fila, columna, valor y filtro. Una `PivotTable` lee *solamente* desde su `PivotCache`, nunca directamente desde la fuente de datos.
-4. **Celdas**: las `Cells` de la hoja de cálculo en las que la `PivotTable` renderiza sus valores calculados y estilos.
+1. **Origen de datos** — los rangos de la hoja de cálculo originales, la consulta de base de datos o el rango de consolidación donde residen los valores sin procesar.
+2. **PivotCache** — la instantánea en memoria de los datos de origen. Cada tabla dinámica se construye sobre un `PivotCache`; aquí es donde se recopilan y agregan todos los datos.
+3. **PivotTable** — el objeto de vista que define los campos de fila, columna, valor y filtro. Una `PivotTable` lee *solo* de su `PivotCache`, nunca directamente del origen de datos.
+4. **Cells** — las `Cells` de la hoja de cálculo en las que la `PivotTable` representa sus valores calculados y estilos.
 
-Un concepto particularmente importante es el **caché compartido**. Cuando múltiples tablas dinámicas en un libro de trabajo hacen referencia al mismo rango fuente, comparten *una* instancia de `PivotCache`. Un solo `PivotCache` puede ser referenciado por muchas tablas dinámicas, y actualizar ese caché actualiza cada `PivotTable` dependiente a la vez.
+Un concepto particularmente importante es la **caché compartida**. Cuando varias tablas dinámicas en un libro hacen referencia al mismo rango de origen, comparten *una* instancia de `PivotCache`. Una sola `PivotCache` puede ser referenciada por muchas tablas dinámicas, y al actualizar esa caché se actualizan todas las `PivotTable` dependientes a la vez.
 
 {{% alert color="primary" %}}
 
-`PivotCache.source_type` (enum `PivotTableSourceType`) indica de dónde provienen los datos del caché. A partir de la v26.7, `PivotCache.refresh()` admite solo los tipos de fuente **`Sheet`** y **`Consolidation`**, es decir, datos que residen en rangos de hojas de cálculo. Las fuentes externas (bases de datos, conexiones externas, etc.) aún no se pueden actualizar a través de la API de caché.
+`PivotCache.source_type` (enum `PivotTableSourceType`) indica de dónde provienen los datos de la caché. A partir de la versión 26.7, `PivotCache.refresh()` admite solo los tipos de origen **`Sheet`** y **`Consolidation`**; es decir, datos que residen en rangos de hojas de cálculo. Los orígenes externos (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
 
 {{% /alert %}}
 
-Debido a esta cadena, hay dos rutas de actualización fundamentales en Aspose.Cells:
+Debido a esta cadena, existen dos rutas fundamentales de actualización en Aspose.Cells:
 
-- **`PivotCache.refresh()`**: recarga fuente → caché Y recalcula todas las `PivotTable`s dependientes en una sola operación.
-- **`PivotTable.calculate_data()`**: recalcula la visualización de una `PivotTable` a partir de los datos ya almacenados en caché, sin volver a la fuente de datos.
+- **`PivotCache.refresh()`** — recarga el origen a la caché Y recalcula todas las `PivotTable` dependientes en una sola operación.
+- **`PivotTable.calculate_data()`** — recalcula la visualización de una `PivotTable` a partir de los datos ya almacenados en caché, sin volver al origen de datos.
 
-Todos los escenarios en este artículo utilizan datos fuente de celdas de hoja de cálculo, por lo que el tipo de fuente es `Sheet` y las operaciones de actualización se comportan como se describe.
+Todos los escenarios de este artículo utilizan datos de origen de celdas de la hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
 
 ## Importaciones requeridas
 
-Todos los ejemplos de Python en este artículo comienzan con las siguientes tres declaraciones de importación porque los tipos de tablas dinámicas viven en el namespace `aspose.cells.pivot`:
+Todos los ejemplos de Python en este artículo comienzan con las siguientes tres sentencias de importación porque los tipos de tablas dinámicas se encuentran en el namespace `aspose.cells.pivot`:
 
 - `import sys`
 - `import aspose.cells`
 - `import aspose.cells.pivot`
 
-## Actualizar todas las tablas dinámicas en el libro de trabajo
+## Actualizar todas las tablas dinámicas del libro
 
-Cuando necesita asegurarse de que cada caché de tabla dinámica y cada tabla dinámica en el libro de trabajo refleje los últimos datos fuente, la API más sencilla y completa es `Workbook.refresh_all()`. Una sola llamada recorre todo el libro de trabajo, actualizando cada `PivotCache` desde su fuente y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales y completas de documentos donde el rendimiento no es una preocupación.
+Cuando necesita asegurarse de que cada caché de tabla dinámica y cada tabla dinámica del libro refleje los datos de origen más recientes, la API más sencilla y completa es `Workbook.refresh_all()`. Una sola llamada recorre todo el libro, actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales y completas del documento cuando el rendimiento no es una preocupación.
 
-El siguiente ejemplo crea un libro de trabajo con un rango fuente de Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores fuente y luego utiliza `refresh_all()` para poner todo al día en una sola llamada.
+El siguiente ejemplo crea un libro con un rango de origen Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores de origen y luego utiliza `refresh_all()` para actualizar todo en una sola llamada.
 
 ```python
 import aspose.cells as ac
@@ -101,7 +101,7 @@ worksheet.cells["A9"].put_value("cherry")
 worksheet.cells["B9"].put_value(2021)
 worksheet.cells["C9"].put_value(120)
 
-# Agregar una tabla dinámica: rango fuente "A1:C9", celda de destino "E3", nombre "Pivot1"
+# Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 
@@ -110,25 +110,25 @@ pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Modificar varios valores de Amount en los datos fuente para simular cambios
+# Modificar varios valores de Amount en los datos de origen para simular cambios
 worksheet.cells["C2"].put_value(55)
 worksheet.cells["C5"].put_value(85)
 worksheet.cells["C9"].put_value(125)
 
-# Actualizar todas las tablas dinámicas / caché dinámico en el libro de trabajo
+# Actualizar todas las tablas dinámicas / caché dinámica en el libro de trabajo
 workbook.refresh_all()
 
 # Guardar el libro de trabajo
 workbook.save("output.xlsx")
 ```
 
-## Actualizar todas las tablas dinámicas en una sola hoja de cálculo
+## Actualizar todas las tablas dinámicas de una sola hoja de cálculo
 
-A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica, por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben tocarse. Para este caso, Aspose.Cells proporciona `Worksheet.refresh_pivot_tables()`, que está limitado a una sola instancia de `Worksheet`.
+A veces solo necesita actualizar las tablas dinámicas que se encuentran en una hoja de cálculo específica; por ejemplo, cuando se sabe que las tablas dinámicas de otras hojas de cálculo no están relacionadas y no deben modificarse. Para este caso, Aspose.Cells proporciona `Worksheet.refresh_pivot_tables()`, que está limitado a una sola instancia de `Worksheet`.
 
-Esto es más selectivo que `Workbook.refresh_all()`: solo se actualizan las tablas dinámicas en la hoja de cálculo objetivo, dejando intactas las tablas dinámicas en otras hojas de cálculo.
+Esto es más selectivo que `Workbook.refresh_all()`: solo se actualizan las tablas dinámicas de la hoja de cálculo objetivo, dejando intactas las tablas dinámicas de otras hojas de cálculo.
 
-El siguiente ejemplo completa los mismos datos fuente de Fruta/Año/Cantidad, agrega una tabla dinámica en la primera hoja de cálculo, modifica algunos valores fuente y luego actualiza solo las tablas dinámicas en esa hoja de cálculo.
+El siguiente ejemplo rellena los mismos datos de origen Fruta/Año/Cantidad, agrega una tabla dinámica en la primera hoja de cálculo, modifica algunos valores de origen y luego actualiza solo las tablas dinámicas de esa hoja de cálculo.
 
 ```python
 import aspose.cells as ac
@@ -190,19 +190,19 @@ workbook.save("output.xlsx")
 
 ## Actualizar una sola tabla dinámica
 
-Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente cambió: los datos fuente subyacentes, o solo la configuración de vista/diseño de la propia tabla dinámica.
+Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de lo que realmente haya cambiado: los datos de origen subyacentes, o solo la configuración de vista/diseño de la propia tabla dinámica.
 
-### Datos fuente cambiados — Usar `PivotCache.refresh()`
+### Cambiaron los datos de origen — Utilice `PivotCache.refresh()`
 
-Si los datos fuente subyacentes han cambiado, el punto de entrada correcto es `pivot_table.pivot_cache.refresh()`. Esta llamada vuelve a leer los datos fuente en el caché y luego recalcula cada `PivotTable` que depende de ese caché.
+Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivot_table.pivot_cache.refresh()`. Esta llamada vuelve a leer los datos de origen en la caché y luego recalcula cada `PivotTable` que depende de esa caché.
 
 {{% alert color="primary" %}}
 
-Dado que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.refresh()` recalcula **todas** las tablas dinámicas construidas sobre ese mismo caché, no solo la que usted referencia. Si dos tablas dinámicas comparten el mismo rango fuente, actualizar un caché actualiza ambas.
+Dado que las tablas dinámicas comparten una sola instancia de `PivotCache`, llamar a `PivotCache.refresh()` recalcula **todas** las tablas dinámicas construidas sobre esa misma caché, no solo la que usted referencia. Si dos tablas dinámicas comparten el mismo rango de origen, al actualizar una caché se actualizan ambas.
 
 {{% /alert %}}
 
-El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango fuente para demostrar este comportamiento de caché compartido, modifica algunos valores fuente y luego actualiza a través de una referencia de caché.
+El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango de origen para demostrar este comportamiento de caché compartida, modifica algunos valores de origen y luego actualiza a través de una referencia de caché.
 
 ```python
 import aspose.cells as ac
@@ -249,7 +249,7 @@ worksheet.cells["A9"].put_value("Cherry")
 worksheet.cells["B9"].put_value(2021)
 worksheet.cells["C9"].put_value(800)
 
-# Agregar la primera tabla dinámica "Pivot1" anclada en la celda E3, rango fuente A1:C9
+# Agregar la primera tabla dinámica "Pivot1" anclada en la celda E3, rango de origen A1:C9
 pivotIndex1 = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivotTable1 = worksheet.pivot_tables[pivotIndex1]
 
@@ -258,8 +258,8 @@ pivotTable1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivotTable1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivotTable1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Agregar una SEGUNDA tabla dinámica "Pivot2" anclada en E15 usando el MISMO rango fuente A1:C9
-# Tanto Pivot1 como Pivot2 comparten un único PivotCache porque el rango fuente es idéntico.
+# Agregar una SEGUNDA tabla dinámica "Pivot2" anclada en E15 usando el MISMO rango de origen A1:C9
+# Tanto Pivot1 como Pivot2 comparten un único PivotCache porque el rango de origen es idéntico.
 pivotIndex2 = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
 pivotTable2 = worksheet.pivot_tables[pivotIndex2]
 
@@ -268,27 +268,27 @@ pivotTable2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
 pivotTable2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivotTable2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
-# Modificar varios valores de celda de Cantidad en los datos fuente para simular un cambio de datos
+# Modificar varios valores de celdas de Cantidad en los datos de origen para simular un cambio de datos
 worksheet.cells["C2"].put_value(150)
 worksheet.cells["C4"].put_value(350)
 worksheet.cells["C7"].put_value(650)
 
-# Actualizar el PivotCache compartido.
+# Refrescar el PivotCache compartido.
 # Debido a que Pivot1 y Pivot2 comparten el mismo PivotCache, esta única llamada
-# actualiza AMBAS tablas dinámicas (datos + estilo) desde la fuente actualizada.
+# refresca AMBAS tablas dinámicas (datos + estilo) desde el origen actualizado.
 pivotTable1.pivot_cache.refresh()
 
 # Guardar el libro de trabajo
 workbook.save("output.xlsx")
 ```
 
-### Solo cambió la vista/diseño — Usar `calculate_data()`
+### Solo cambió la vista/diseño — Utilice `calculate_data()`
 
-Si los datos fuente *no* han cambiado pero solo se han modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente, o se ha activado/desactivado una configuración de actualización al abrir), no es necesario volver a la fuente de datos. El caché ya contiene los datos correctos; solo es necesario recalcular la `PivotTable` renderizada. En este caso, `pivot_table.calculate_data()` es la elección correcta.
+Si los datos de origen *no* han cambiado pero solo se han modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente o se ha cambiado una configuración de actualización al abrir), no es necesario volver al origen de datos. La caché ya contiene los datos correctos; solo es necesario recalcular la `PivotTable` representada. En este caso, `pivot_table.calculate_data()` es la opción correcta.
 
-Esto evita la obtención innecesaria de la fuente y es significativamente más rápido cuando muchas tablas dinámicas comparten el mismo caché.
+Esto evita la recuperación innecesaria del origen y es significativamente más rápido cuando muchas tablas dinámicas comparten la misma caché.
 
-El siguiente ejemplo modifica una propiedad no relacionada con la fuente de la tabla dinámica y luego llama a `calculate_data()` para volver a renderizarla desde el caché existente.
+El siguiente ejemplo modifica una propiedad que no es de origen de la tabla dinámica y luego llama a `calculate_data()` para volver a representarla desde la caché existente.
 
 ```python
 import aspose.cells as ac
@@ -297,7 +297,7 @@ import aspose.cells.pivot as acp
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 
-# Escribir fila de encabezado Fruit / Year / Amount
+# Escribir fila de encabezado Fruta / Año / Cantidad
 worksheet.cells["A1"].put_value("Fruit")
 worksheet.cells["B1"].put_value("Year")
 worksheet.cells["C1"].put_value("Amount")
@@ -339,18 +339,18 @@ worksheet.cells["C9"].put_value(450)
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 
-# Asignar campos: Fruit a Fila, Year a Columna, Amount a Datos
+# Asignar campos: Fruta a Fila, Año a Columna, Cantidad a Datos
 pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(acp.PivotFieldType.DATA, "Amount")
 
-# Modificar una propiedad de vista/diseño — este es un cambio solo de presentación,
-# por lo que NO requiere volver a leer los datos de origen a través de PivotCache.Refresh().
+# Modificar una propiedad de vista/disposición — este es un cambio solo de presentación,
+# por lo que NO requiere volver a leer los datos de origen mediante PivotCache.Refresh().
 pivot_table.refresh_data_on_opening_file = False
 
-# ¡CalculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
-# datos ya almacenados en el PivotCache. Debido a que los datos de origen no cambiaron,
-# no se realiza un viaje de ida y vuelta al origen — solo los valores en caché se recalculan
+# CalculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
+# datos ya almacenados en el PivotCache. Como los datos de origen no cambiaron,
+# no se realiza un viaje de ida y vuelta al origen — solo se recalculan los valores en caché
 # en las celdas de la hoja de cálculo.
 pivot_table.calculate_data()
 
@@ -358,13 +358,13 @@ pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
 
-## Obtener todas las tablas dinámicas que comparten el mismo PivotCache
+## Obtener todas las tablas dinámicas que comparten la misma PivotCache
 
-Un libro de trabajo a menudo contiene muchas tablas dinámicas que se asientan sobre un caché compartido. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes o para diagnosticar el impacto del caché compartido, use `PivotCache.get_pivot_tables()`. Este método devuelve la colección de todas las `PivotTable` que dependen del caché dado.
+Un libro a menudo contiene muchas tablas dinámicas que se asientan sobre una caché compartida. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes o para diagnosticar el impacto de la caché compartida, utilice `PivotCache.get_pivot_tables()`. Este método devuelve la colección de cada `PivotTable` que depende de la caché indicada.
 
-Esta es también la forma más directa de confirmar que dos tablas dinámicas realmente comparten la misma instancia de `PivotCache`: puede comparar referencias de caché o simplemente iterar la colección devuelta por `get_pivot_tables()` y observar qué tablas dinámicas aparecen en ella.
+Esta es también la forma más directa de confirmar que dos tablas dinámicas realmente comparten la misma instancia de `PivotCache`: puede comparar referencias de caché, o simplemente iterar la colección devuelta por `get_pivot_tables()` y observar qué tablas dinámicas aparecen en ella.
 
-El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango fuente, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas del caché.
+El siguiente ejemplo crea dos tablas dinámicas sobre el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas de la caché.
 
 ```python
 import aspose.cells as ac
@@ -439,20 +439,20 @@ workbook.save("output.xlsx")
 
 ## Migración desde el método obsoleto `PivotTable.refresh_data()`
 
-Antes de Aspose.Cells for Python via .NET v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refresh_data()` en cada tabla dinámica individualmente. A partir de la v26.7, ese método está marcado como **obsoleto** y debe reemplazarse por las APIs conscientes del caché descritas anteriormente.
+Antes de Aspose.Cells for Python via .NET v26.7, la forma estándar de actualizar una tabla dinámica era llamar a `PivotTable.refresh_data()` en cada tabla dinámica individualmente. A partir de la versión 26.7, ese método está marcado como **obsoleto** y debe reemplazarse por las API conscientes de la caché descritas anteriormente.
 
-Hay dos razones por las que el enfoque por tabla `refresh_data()` es problemático en libros de trabajo del mundo real:
+Hay dos razones por las que el enfoque `refresh_data()` por tabla es problemático en libros del mundo real:
 
-- Recupera datos de la fuente *cada* vez que se llama, incluso cuando la fuente no ha cambiado.
-- Cada llamada actualiza todo el caché compartido. Cuando muchas tablas dinámicas comparten un caché, llamar repetidamente a `refresh_data()` por tabla dinámica hace que el mismo caché se recupere una y otra vez, lo cual es muy lento.
+- Vuelve a obtener datos del origen *cada* vez que se llama, incluso cuando el origen no ha cambiado.
+- Cada llamada actualiza toda la caché compartida. Cuando muchas tablas dinámicas comparten una caché, llamar repetidamente a `refresh_data()` por tabla dinámica hace que la misma caché se vuelva a obtener una y otra vez, lo cual es muy lento.
 
 Los reemplazos recomendados son:
 
-- **Actualizar TODAS las tablas dinámicas en el libro de trabajo** → use `workbook.refresh_all();`
-- **Actualizar ALGUNAS de ellas** → use `pivot_table.pivot_cache.refresh();` para un caché. Debido a que el caché es compartido, esta sola llamada actualiza cada tabla dinámica construida sobre ese caché. Otras tablas dinámicas que se asientan sobre un caché ya actualizado se pueden omitir de forma segura.
-- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivot_table.calculate_data();` para volver a renderizar desde el caché existente sin ningún viaje de ida y vuelta a la fuente.
+- **Actualizar TODAS las tablas dinámicas del libro** → use `workbook.refresh_all();`
+- **Actualizar ALGUNAS de ellas** → use `pivot_table.pivot_cache.refresh();` para una caché. Dado que la caché es compartida, esta única llamada actualiza cada tabla dinámica construida sobre esa caché. Otras tablas dinámicas que se asientan sobre una caché ya actualizada se pueden omitir de forma segura.
+- **Solo cambió la vista/diseño de la tabla dinámica** → use `pivot_table.calculate_data();` para volver a representar desde la caché existente sin ninguna ida y vuelta al origen.
 
-El siguiente ejemplo demuestra el nuevo patrón eficiente para libros de trabajo con múltiples tablas dinámicas que comparten un solo caché.
+El siguiente ejemplo demuestra el nuevo patrón eficiente para libros con varias tablas dinámicas que comparten una sola caché.
 
 ```python
 import aspose.cells as ac
@@ -483,10 +483,10 @@ pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
 # --- Agregar la SEGUNDA tabla dinámica (Pivot2) en el MISMO rango de origen ---
-# Tanto Pivot1 como Pivot2 comparten UN PivotCache subyacente.
-# Este es exactamente el escenario donde el método heredado por tabla RefreshData()
-# se vuelve ineficiente: al actualizar una tabla se vuelve a obtener todo el
-# caché compartido, por lo que actualizar N tablas realiza la misma costosa obtención N veces.
+# Tanto Pivot1 como Pivot2 comparten UN único PivotCache subyacente.
+# Este es exactamente el escenario donde el enfoque heredado por tabla RefreshData()
+# se vuelve ineficiente: al actualizar una tabla se vuelve a obtener todo
+# el caché compartido, por lo que actualizar N tablas realiza la misma obtención costosa N veces.
 idx2 = sheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
 pivot_table2 = sheet.pivot_tables[idx2]
 pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
@@ -494,28 +494,28 @@ pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
 pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 
 # --- Modificar varios valores de Cantidad en los datos de origen ---
-sheet.cells["C2"].put_value(5000)   # Uva  2020
+sheet.cells["C2"].put_value(5000)   # Uva 2020
 sheet.cells["C5"].put_value(7500)   # Cereza 2020
 sheet.cells["C9"].put_value(9500)   # Cereza 2021
 
-# --- Patrón OBSOLETO (pre-26.7) — PivotTable.RefreshData() ---
+# --- Patrón OBSOLETO (anterior a 26.7) — PivotTable.RefreshData() ---
 # pivot_table1.refresh_data();  # vuelve a obtener datos del origen, actualiza todo el caché
-# pivot_table2.refresh_data();  # vuelve a obtener datos OTRA VEZ — ¡el caché ya está actualizado!
+# pivot_table2.refresh_data();  # vuelve a obtener datos DE NUEVO — ¡el caché ya está actualizado!
 # Cada llamada reconstruye el caché compartido, por lo que N tablas = N obtenciones redundantes.
 
-# --- Patrón NUEVO v26.7+: actualizar el caché UNA VEZ y luego volver a renderizar según sea necesario ---
-# Una llamada a PivotCache.Refresh() extrae los valores modificados al caché compartido
+# --- NUEVO patrón v26.7+: actualizar el caché UNA VEZ, luego volver a renderizar según sea necesario ---
+# Una sola llamada a PivotCache.Refresh() extrae los valores modificados en el caché compartido
 # Y recalcula la visualización de TODAS las tablas dinámicas que lo referencian.
-# Dado que Pivot1 y Pivot2 comparten un PivotCache, esta única llamada actualiza
-# ambas tablas — no se requiere un segundo viaje de ida y vuelta al origen.
+# Dado que Pivot1 y Pivot2 comparten un único PivotCache, esta única llamada actualiza
+# ambas tablas — no se requiere un segundo viaje al origen.
 pivot_table1.pivot_cache.refresh()
 
-# CalculateData() solo vuelve a renderizar la visualización de una tabla dinámica (datos + estilo)
-# a partir de los datos ya almacenados en el caché — NO toca el origen.
-# La llamamos en Pivot2 aquí puramente para demostrar la API: después de que el caché
-# se ha actualizado una vez, cualquier tabla dependiente se puede volver a renderizar sin
+# CalculateData() solo vuelve a renderizar la visualización (datos + estilo) de una tabla dinámica
+# a partir de los datos ya contenidos en el caché — NO toca el origen.
+# Lo llamamos en Pivot2 aquí puramente para demostrar la API: después de que el caché
+# se haya actualizado una vez, cualquier tabla dependiente se puede volver a renderizar sin
 # volver al origen. Use CalculateData() por sí solo cuando solo la
-# configuración de vista/diseño de la tabla dinámica haya cambiado y el caché esté actualizado.
+# configuración de vista/disposición de la tabla dinámica haya cambiado y el caché esté actualizado.
 pivot_table2.calculate_data()
 
 workbook.save("output.xlsx")
@@ -523,16 +523,20 @@ workbook.save("output.xlsx")
 
 ## ¿Qué API de actualización debo usar?
 
-La siguiente tabla resume las APIs de actualización disponibles y cuándo elegir cada una.
+La tabla siguiente resume las API de actualización disponibles y cuándo elegir cada una.
 
 | Objetivo | API recomendada | Notas |
 |------|-----------------|-------|
-| Actualizar todo en el libro de trabajo | `Workbook.refresh_all()` | Una sola llamada; cubre todos los cachés y tablas. |
-| Actualizar solo las tablas dinámicas en una sola hoja | `Worksheet.refresh_pivot_tables()` | Limitado a una hoja de cálculo. |
-| Los datos fuente cambiaron para un caché | `pivot_table.pivot_cache.refresh()` | Actualiza TODAS las tablas dinámicas en ese caché compartido. |
-| Solo cambió la configuración de vista/diseño | `pivot_table.calculate_data()` | Omite el viaje innecesario a la fuente. |
-| Listar todas las tablas dinámicas en un caché compartido | `pivot_cache.get_pivot_tables()` | Use para enumerar antes de la actualización masiva. |
+| Actualizar todo el libro | `Workbook.refresh_all()` | Una sola llamada; cubre todas las cachés y tablas. |
+| Actualizar solo las tablas dinámicas de una sola hoja | `Worksheet.refresh_pivot_tables()` | Limitado a una hoja de cálculo. |
+| Cambiaron los datos de origen de una caché | `pivot_table.pivot_cache.refresh()` | Actualiza TODAS las tablas dinámicas de esa caché compartida. |
+| Solo cambió la configuración de vista/diseño | `pivot_table.calculate_data()` | Omite la ida y vuelta innecesaria al origen. |
+| Listar todas las tablas dinámicas de una caché compartida | `pivot_cache.get_pivot_tables()` | Úselo para enumerar antes de una actualización masiva. |
 
-En la práctica, prefiera las APIs basadas en caché sobre el método obsoleto `refresh_data()` por tabla. Son conscientes de los cachés compartidos, evitan obtenciones redundantes de la fuente y le permiten elegir el alcance más pequeño que satisface su requisito de actualización.
+En la práctica, prefiera las API basadas en caché sobre el método obsoleto `refresh_data()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el ámbito más pequeño que satisface su requisito de actualización.
+
+## Artículos relacionados
+
+- [Minigráficos en Aspose.Cells for Python via .NET](/cells/es/python-net/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

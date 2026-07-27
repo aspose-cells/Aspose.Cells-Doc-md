@@ -1,6 +1,6 @@
 ---
-title: 向数据透视表应用样式
-linktitle: 向数据透视表应用样式
+title: 在 Aspose.Cells for .NET 中应用数据透视表样式
+linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for Node.js via Java 中向数据透视表应用内置和自定义样式，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells Node.js via Java pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

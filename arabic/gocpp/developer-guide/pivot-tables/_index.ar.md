@@ -1,6 +1,6 @@
 ---
 title: جداول الدوران
 type: docs
-weight: 50
+weight: 160
 url: /ar/go-cpp/pivot-tables/
 ---

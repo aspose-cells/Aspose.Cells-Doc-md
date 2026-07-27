@@ -1,62 +1,37 @@
 ---
-title: Aspose.Cells for C++ でのピボットテーブルの更新
-linktitle: Aspose.Cells for C++ でのピボットテーブルの更新
-description: Aspose.Cells for C++ で v26.7+ のピボット更新 API を使用してピボットテーブルを更新する方法を学びます。この記事では、RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTables を実用的なコード例とともに解説します。
-keywords: Aspose.Cells, C++, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Aspose.Cells for C++でピボットテーブルを更新する
+linktitle: Aspose.Cells for C++でピボットテーブルを更新する
+description: Aspose.Cells for C++でv26.7以上のピボット更新APIを使用してピボットテーブルを更新する方法を学びます。この記事ではRefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTablesを実用的なコード例とともに解説します。
+keywords: Aspose.Cells, C++, ピボットテーブル, 更新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /ja/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-
 {{% alert color="primary" %}}
-
-Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層型の更新 API を提供します。**Aspose.Cells for C++ v26.7** 以降、従来のメソッド `PivotTable.RefreshData()` は廃止予定となり、この記事で説明するより効率的でキャッシュ対応の API に置き換える必要があります。
-
+Aspose.Cellsは、ワークブック全体から単一のピボットテーブルまで、4つの異なるスコープでピボットデータを再読み込みできる階層化された更新APIを提供します。**Aspose.Cells for C++ v26.7**以降、レガシーメソッドの`PivotTable.RefreshData()`は廃止予定（非推奨）となり、この記事で説明するより効率的でキャッシュ対応のAPIに置き換える必要があります。
 {{% /alert %}}
-
 ## はじめに
-
-ピボットテーブルの更新は、単一の操作であることはまれです。舞台裏では、Aspose.Cells は元のソースデータとワークシートに表示されるレンダリングされた値を結ぶ階層化されたデータチェーンを維持しています。このチェーンを理解することが、あらゆる状況に対して適切な更新 API を選択する鍵となります。
-
-4 層のデータチェーンは次のとおりです。
-
-1. **データソース** — 生の値が格納されている元のワークシート範囲、データベースクエリ、または統合範囲。
-2. **PivotCache** — ソースデータのメモリ内スナップショット。すべてのピボットテーブルは `PivotCache` の上に構築されます。すべてのデータはこの場所で収集および集計されます。
-3. **PivotTable** — 行、列、値、フィルタのフィールドを定義するビューオブジェクト。`PivotTable` はデータソースからではなく、`PivotCache` からのみ読み取ります。
-4. **Cells** — `PivotTable` が計算された値とスタイルをレンダリングする先のワークシートの `Cells`。
-
-特に重要な概念は **共有キャッシュ** です。ワークブック内の複数のピボットテーブルが同じソース範囲を参照している場合、それらは *1 つの* `PivotCache` インスタンスを共有します。1 つの `PivotCache` は多くのピボットテーブルから参照でき、そのキャッシュを更新すると、依存するすべての `PivotTable` が一度に更新されます。
-
+ピボットテーブルの更新は、単一の操作であることはほとんどありません。舞台裏では、Aspose.Cellsは元のソースデータをワークシートに表示されるレンダリング値に接続する階層化されたデータチェーンを維持しています。このチェーンを理解することが、あらゆる状況で適切な更新APIを選択する鍵となります。
+四層データチェーンは次のとおりです：
+1. **データソース（Data Source）** — 元のワークシート範囲、データベースクエリ、または生の値が存在する統合範囲。
+2. **PivotCache** — ソースデータのインメモリスナップショット。すべてのピボットテーブルは`PivotCache`の上に構築されます。ここですべてのデータが集約・集計されます。
+3. **PivotTable** — 行、列、値、フィルタフィールドを定義するビューオブジェクト。`PivotTable`はその`PivotCache`からの*み*読み取り、データソースから直接読み取ることは決してありません。
+4. **Cells** — `PivotTable`が計算された値とスタイルを描画するワークシートの`Cells`。
+特に重要な概念は**共有キャッシュ**です。ワークブック内の複数のピボットテーブルが同じソース範囲を参照している場合、それらは*1つの*`PivotCache`インスタンスを共有します。1つの`PivotCache`を多くのピボットテーブルから参照でき、そのキャッシュを更新すると、依存するすべての`PivotTable`が一度に更新されます。
 {{% alert color="primary" %}}
-
-`PivotCache.SourceType`（列挙型 `PivotTableSourceType`）は、キャッシュデータの取得元を示します。v26.7 現在、`PivotCache.Refresh()` は **`Sheet`** と **`Consolidation`** のソースタイプのみをサポートしています。つまり、ワークシート範囲に存在するデータのみです。外部ソース（データベース、外部接続など）は、キャッシュ API を通じてはまだ更新できません。
-
+`PivotCache.SourceType`（列挙型`PivotTableSourceType`）はキャッシュデータの取得元を示します。v26.7時点で、`PivotCache.Refresh()`は**`Sheet`**および**`Consolidation`**ソースタイプ、つまりワークシート範囲に存在するデータのみをサポートします。外部ソース（データベースや外部接続など）は、まだキャッシュAPI経由で更新できません。
 {{% /alert %}}
-
-このチェーンのため、Aspose.Cells には 2 つの基本的な更新パスがあります。
-
-- **`PivotCache.Refresh()`** — ソースからキャッシュへの再読み込みと、それに依存するすべての `PivotTable` の再計算を単一の操作で行います。
-- **`PivotTable.CalculateData()`** — すでにキャッシュされているデータから 1 つの `PivotTable` の表示を再計算します。データソースへのラウンドトリップはありません。
-
-この記事のすべてのシナリオではワークシートセルのソースデータを使用しているため、ソースタイプは `Sheet` であり、更新操作は前述のとおりに動作します。
-
+このチェーンのため、Aspose.Cellsには2つの基本的な更新パスがあります：
+- **`PivotCache.Refresh()`** — ソースからキャッシュへの再読み込み、およびそれに依存するすべての`PivotTable`の再計算を1回の操作で行います。
+- **`PivotTable.CalculateData()`** — すでにキャッシュされているデータから、1つの`PivotTable`の表示を再計算します。データソースへのラウンドトリップはありません。
+この記事のすべてのシナリオではワークシートセルソースデータを使用しているため、ソースタイプは`Sheet`であり、更新操作は記載どおりに動作します。
 ## 必要なインクルードディレクティブ
-
-この記事のすべての C++ の例では、ピボット型が `Aspose::Cells::Pivot` 名前空間に存在するため、次のヘッダーインクルードと名前空間ディレクティブから始まります。
-
-- `#include <system/object.h>`
-- `#include "Aspose.Cells.h"`
-- `using namespace Aspose::Cells;`
-- `using namespace Aspose::Cells::Pivot;`
-
+この記事のすべてのC++の例は、ピボットタイプが`Aspose::Cells::Pivot`名前空間に存在するため、以下のヘッダーインクルードと名前空間ディレクティブから始まります：
 ## ワークブック内のすべてのピボットテーブルを更新する
-
-ワークブック内のすべてのピボットキャッシュとすべてのピボットテーブルが最新のソースデータを反映するようにする必要がある場合、最もシンプルで包括的な API は `Workbook.RefreshAll()` です。1 回の呼び出しでワークブック全体を走査し、各 `PivotCache` をソースから更新してから、依存するすべての `PivotTable` を再計算します。これは、パフォーマンスが問題にならない一般的なフルドキュメント更新の推奨アプローチです。
-
-次の例では、Fruit/Year/Amount のソース範囲を含むワークブックを作成し、1 つのピボットテーブルを作成し、一部のソース値を変更し、`RefreshAll()` を使用してすべてを 1 回の呼び出しで最新状態にします。
-
+ワークブック内のすべてのピボットキャッシュとすべてのピボットテーブルが最新のソースデータを反映していることを確認する必要がある場合、最もシンプルで包括的なAPIは`Workbook.RefreshAll()`です。1回の呼び出しでワークブック全体を横断し、各`PivotCache`をソースから更新し、依存するすべての`PivotTable`を再計算します。これは、パフォーマンスが気にならない一般的な、ドキュメント全体の更新に対して推奨されるアプローチです。
+次の例では、Fruit/Year/Amountソース範囲を持つワークブックを作成し、1つのピボットテーブルを作成し、いくつかのソース値を変更し、`RefreshAll()`を使用して単一の呼び出しですべてを最新の状態にします。
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -126,15 +101,10 @@ int main() {
     return 0;
 }
 ```
-
-## 単一のワークシート上のすべてのピボットテーブルを更新する
-
-特定のワークシート上にあるピボットテーブルだけを更新する必要がある場合があります。たとえば、他のワークシートのピボットテーブルが関連していないことがわかっており、触れたくない場合です。このケースのために、Aspose.Cells は `Worksheet.RefreshPivotTables()` を提供します。これは単一の `Worksheet` インスタンスにスコープされます。
-
-これは `Workbook.RefreshAll()` よりも選択的です。対象のワークシート上のピボットテーブルのみが更新され、他のワークシートのピボットテーブルはそのまま残されます。
-
-次の例では、同じ Fruit/Year/Amount のソースデータを入力し、最初のワークシートにピボットテーブルを追加し、一部のソース値を変更し、そのワークシートのピボットテーブルのみを更新します。
-
+## 単一ワークシート上のすべてのピボットテーブルを更新する
+時には、特定の1つのワークシート上にあるピボットテーブルだけを更新する必要がある場合があります（例えば、他のワークシート上のピボットテーブルは無関係で、触るべきではないと分かっている場合）。この場合、Aspose.Cellsは単一の`Worksheet`インスタンスにスコープされた`Worksheet.RefreshPivotTables()`を提供します。
+これは`Workbook.RefreshAll()`よりも選択的です。対象ワークシート上のピボットテーブルのみが更新され、他のワークシート上のピボットテーブルはそのまま残ります。
+次の例では、同じFruit/Year/Amountソースデータを格納し、最初のワークシートにピボットテーブルを追加し、いくつかのソース値を変更した後、そのワークシート上のピボットテーブルだけを更新します。
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -201,23 +171,14 @@ int main() {
     return 0;
 }
 ```
-
 ## 単一のピボットテーブルを更新する
-
-単一のピボットテーブルをきめ細かく制御したい場合、キャッシュベースの API には 2 つのオプションがあります。どちらを選択するかは、実際に変更された内容、つまり基になるソースデータか、ピボットテーブル自体のビュー/レイアウト設定かによって異なります。
-
-### ソースデータが変更された — `PivotCache.Refresh()` を使用
-
-基になるソースデータが変更された場合、正しいエントリポイントは `pivotTable.GetPivotCache().Refresh()` です。この呼び出しはソースデータをキャッシュに再読み込みし、そのキャッシュに依存するすべての `PivotTable` を再計算します。
-
+単一のピボットテーブルに対して細かい制御を行いたい場合、キャッシュベースのAPIは2つのオプションを提供します。どちらを選択するかは、実際に何が変わったかによって異なります：基礎となるソースデータか、ピボットテーブル自体の表示/レイアウト設定かだけです。
+### ソースデータが変更された — `PivotCache.Refresh()`を使用
+基礎となるソースデータが変更された場合、正しいエントリポイントは`pivotTable.GetPivotCache().Refresh()`です。この呼び出しはソースデータをキャッシュに再読み込みし、そのキャッシュに依存するすべての`PivotTable`を再計算します。
 {{% alert color="primary" %}}
-
-ピボットテーブルは単一の `PivotCache` インスタンスを共有するため、`PivotCache.Refresh()` を呼び出すと、参照しているピボットテーブルだけでなく、そのキャッシュ上に構築された **すべての** ピボットテーブルが再計算されます。2 つのピボットテーブルが同じソース範囲を共有している場合、一方のキャッシュを更新すると両方が更新されます。
-
+ピボットテーブルは単一の`PivotCache`インスタンスを共有するため、`PivotCache.Refresh()`を呼び出すと、参照しているピボットテーブルだけでなく、その同じキャッシュ上に構築された**すべての**ピボットテーブルが再計算されます。2つのピボットテーブルが同じソース範囲を共有している場合、1つのキャッシュを更新すると両方が更新されます。
 {{% /alert %}}
-
-次の例では、同じソース範囲に 2 つのピボットテーブルを作成し、この共有キャッシュの動作を示し、一部のソース値を変更してから、1 つのキャッシュ参照を通じて更新します。
-
+次の例では、同じソース範囲上に2つのピボットテーブルを作成し、この共有キャッシュの動作を実証し、いくつかのソース値を変更した後、1つのキャッシュ参照を通して更新します。
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -230,7 +191,7 @@ int main() {
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
 
-    // ヘッダー行: 果物 / 年 / 数量
+    // ヘッダー行: 果物 / 年 / 金額
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -268,7 +229,7 @@ int main() {
     cells.Get(u"B9").PutValue(2021);
     cells.Get(u"C9").PutValue(800);
 
-    // セル E3 を基準に、最初のピボットテーブル "Pivot1" を追加する。ソース範囲は A1:C9
+    // セルE3に固定された最初のピボットテーブル "Pivot1" を追加、ソース範囲は A1:C9
     int pivotIndex1 = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable1 = worksheet.GetPivotTables().Get(pivotIndex1);
 
@@ -277,39 +238,34 @@ int main() {
     pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // 同じソース範囲 A1:C9 を使用し、E15 を基準に 2 つ目のピボットテーブル "Pivot2" を追加する
+    // 同じソース範囲 A1:C9 を使用して、セルE15に固定された2番目のピボットテーブル "Pivot2" を追加
     int pivotIndex2 = worksheet.GetPivotTables().Add(u"A1:C9", u"E15", u"Pivot2");
     PivotTable pivotTable2 = worksheet.GetPivotTables().Get(pivotIndex2);
 
-    // Pivot2 にも同じフィールドを割り当てる
+    // Pivot2 に同じフィールドを割り当てる
     pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // データ変更をシミュレートするため、ソースデータの数量セルの値をいくつか変更する
+    // データ変更をシミュレートするために、ソースデータのいくつかの Amount セルの値を変更する
     cells.Get(u"C2").PutValue(150);
     cells.Get(u"C4").PutValue(350);
     cells.Get(u"C7").PutValue(650);
 
-    // ピボットテーブルのデータを更新して、共有ピボットキャッシュを更新する
+    // ピボットテーブルのデータを更新して共有 PivotCache を更新する
     pivotTable1.RefreshData();
 
-    // ワークブックを保存する
+    // ブックを保存する
     workbook.Save(u"output.xlsx");
 
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
-
-### ビュー/レイアウトのみが変更された — `CalculateData()` を使用
-
-ソースデータは変更されておらず、ピボットテーブルのビューまたはレイアウト設定のみが変更された場合（たとえば、フィールドが別のエリアに移動された場合や、ファイルを開いたときに更新する設定が切り替えられた場合）、データソースへのラウンドトリップは必要ありません。キャッシュにはすでに正しいデータが保持されており、レンダリングされた `PivotTable` のみが再計算を必要とします。この場合、`pivotTable.CalculateData()` が正しい選択です。
-
-これにより、不要なソースフェッチが回避され、多くのピボットテーブルが同じキャッシュを共有している場合、大幅に高速になります。
-
-次の例では、ピボットテーブルのソース以外のプロパティを変更し、`CalculateData()` を呼び出して既存のキャッシュから再レンダリングします。
-
+### 表示/レイアウトのみが変更された — `CalculateData()`を使用
+ソースデータが変更されておらず、ピボットテーブルの表示やレイアウト設定のみが変更された場合（例えば、フィールドが別のエリアに移動された、またはファイルを開くときに更新する設定が切り替えられたなど）、データソースへのラウンドトリップは必要ありません。キャッシュにはすでに正しいデータが保持されており、レンダリングされた`PivotTable`を再計算するだけで済みます。この場合、`pivotTable.CalculateData()`が正しい選択です。
+これにより、不要なソースフェッチが回避され、多くのピボットテーブルが同じキャッシュを共有している場合に大幅な高速化が実現します。
+次の例では、ピボットテーブルのソース以外のプロパティを変更し、`CalculateData()`を呼び出して既存のキャッシュから再レンダリングします。
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -326,7 +282,7 @@ int main() {
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
 
-    // 8 つのデータ行を書き込む (2～9 行目、ソース範囲 A1:C9 に適合)
+    // 8 行のデータ行を書き込む(2 ～ 9 行目、ソース範囲 A1:C9 に適合)
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(100);
@@ -359,23 +315,23 @@ int main() {
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
 
-    // 宛先セル E3 に配置される "Pivot1" という名前のピボットテーブルを追加し、A1:C9 をソースとする
+    // "Pivot1" という名前のピボットテーブルを追加し、配置先はセル E3、ソースは A1:C9
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
 
-    // フィールドを割り当てる: Fruit を行へ、Year を列へ、Amount をデータへ
+    // フィールドを割り当てる: Fruit を Row、Year を Column、Amount を Data に
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // 表示/レイアウトのプロパティを変更する — これは表示のみの変更であるため、
-    // PivotCache.Refresh() を通じてソースデータを再読み込みする必要はない。
+    // 表示 / レイアウトプロパティを変更する — これは表示のみの変更であり、
+    // PivotCache.Refresh() でソースデータを再読み込みする必要はない。
     pivotTable.SetRefreshDataOnOpeningFile(false);
 
-    // CalculateData() は PivotCache に既に保持されているデータから、
-    // このピボットテーブルの表示 (データ + スタイル) を再レンダリングする。ソースデータが変更されていないため、
-    // ソースへのラウンドトリップは行われず — キャッシュされた値のみが再計算され、
-    // ワークシートのセルに反映される。
+    // CalculateData() は、PivotCache に保持されているデータから
+    // このピボットテーブルの表示(データとスタイル)を再レンダリングする。
+    // ソースデータが変更されていないため、ソースへのラウンドトリップは行われず、
+    // キャッシュされた値がワークシートのセルに再計算されるだけである。
     pivotTable.CalculateData();
 
     // ワークブックをディスクに保存する
@@ -385,15 +341,10 @@ int main() {
     return 0;
 }
 ```
-
-## 同じ PivotCache を共有するすべてのピボットテーブルを取得する
-
-ワークブックには、1 つの共有キャッシュの上にすべて存在する多くのピボットテーブルが含まれていることがよくあります。それらを列挙するには（たとえば、一括更新を実行する前や、共有キャッシュの影響を診断するために）、`PivotCache.GetPivotTables()` を使用します。このメソッドは、指定されたキャッシュに依存するすべての `PivotTable` のコレクションを返します。
-
-これは、2 つのピボットテーブルが実際に同じ `PivotCache` インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較したり、`GetPivotTables()` によって返されたコレクションを反復処理してどのピボットテーブルが表示されるかを観察したりできます。
-
-次の例では、同じソース範囲に 2 つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認してから、キャッシュのピボットテーブルを列挙します。
-
+## 同じPivotCacheを共有するすべてのピボットテーブルを取得する
+ワークブックには、多くの場合、1つの共有キャッシュの上に存在する多数のピボットテーブルが含まれています。これらを列挙するには（例えば、一括更新を実行する前や、共有キャッシュの影響を診断する場合など）、`PivotCache.GetPivotTables()`を使用します。このメソッドは、指定されたキャッシュに依存するすべての`PivotTable`のコレクションを返します。
+これは、2つのピボットテーブルが実際に同じ`PivotCache`インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較するか、あるいは単に`GetPivotTables()`によって返されるコレクションを反復処理して、どのピボットテーブルがそこに出現するかを観察することができます。
+次の例では、同じソース範囲上に2つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認し、キャッシュのピボットテーブルを列挙します。
 ```cpp
 #include "Aspose.Cells.h"
 #include <iostream>
@@ -462,11 +413,11 @@ int main() {
     pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    // Aspose.Cellsでは、同じソース範囲から作成されたピボットテーブルは
-    // 自動的に同じPivotCacheを共有します
+    // Aspose.Cells では、同じソース範囲から作成されたピボットテーブルは
+    // 自動的に同じ PivotCache を共有します
     std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
 
-    // ワークシート上のすべてのピボットテーブルを取得する(キャッシュを共有している)
+    // ワークシート上のすべてのピボットテーブルを取得します（キャッシュを共有している）
     PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
     std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
 
@@ -481,24 +432,16 @@ int main() {
     return 0;
 }
 ```
-
-## 廃止予定の `PivotTable.RefreshData()` からの移行
-
-Aspose.Cells for C++ v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルで個別に `PivotTable.RefreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **廃止予定** とマークされており、上記のキャッシュ対応 API に置き換える必要があります。
-
-実際のワークブックでは、テーブルごとの `RefreshData()` アプローチに問題がある理由は 2 つあります。
-
+## 廃止予定の`PivotTable.RefreshData()`からの移行
+Aspose.Cells for C++ v26.7より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に`PivotTable.RefreshData()`を呼び出すことでした。v26.7時点で、そのメソッドは**廃止予定（非推奨）**となり、上記のキャッシュ対応APIに置き換える必要があります。
+実世界のワークブックでテーブルごとの`RefreshData()`アプローチに問題がある理由は2つあります：
 - ソースが変更されていない場合でも、呼び出されるたびにソースからデータを再取得します。
-- 呼び出しごとに共有キャッシュ全体が更新されます。多くのピボットテーブルが 1 つのキャッシュを共有している場合、ピボットテーブルごとに `RefreshData()` を繰り返し呼び出すと、同じキャッシュが何度も再フェッチされるため、非常に低速になります。
-
-推奨される代替方法は次のとおりです。
-
-- **ワークブック内のすべてのピボットテーブルを更新** → `workbook.RefreshAll();` を使用
-- **一部を更新** → 1 つのキャッシュに対して `pivotTable.GetPivotCache().Refresh();` を使用。キャッシュは共有されるため、この 1 回の呼び出しでそのキャッシュ上に構築されたすべてのピボットテーブルが更新されます。すでに更新されたキャッシュ上に存在する他のピボットテーブルは、安全にスキップできます。
-- **ピボットビュー/レイアウトのみが変更された** → ソースのラウンドトリップなしで既存のキャッシュから再レンダリングするには、`pivotTable.CalculateData();` を使用します。
-
-次の例では、単一のキャッシュを共有する複数のピボットテーブルを含むワークブックの新しい効率的なパターンを示します。
-
+- 各呼び出しは共有キャッシュ全体を更新します。多くのピボットテーブルが1つのキャッシュを共有している場合、ピボットテーブルごとに`RefreshData()`を繰り返し呼び出すと、同じキャッシュが何度も再取得されることになり、非常に低速になります。
+推奨される置き換えは次のとおりです：
+- **ワークブック内のすべてのピボットテーブルを更新する** → `workbook.RefreshAll();`を使用します。
+- **その一部を更新する** → 1つのキャッシュに対して`pivotTable.GetPivotCache().Refresh();`を使用します。キャッシュは共有されているため、この1回の呼び出しでそのキャッシュ上に構築されたすべてのピボットテーブルが更新されます。すでに更新されたキャッシュ上に存在する他のピボットテーブルは、安全にスキップできます。
+- **ピボットビュー/レイアウトのみが変更された** → ソースへのラウンドトリップなしで既存のキャッシュから再レンダリングするには、`pivotTable.CalculateData();`を使用します。
+次の例では、単一のキャッシュを共有する複数のピボットテーブルを持つワークブックの新しい効率的なパターンを示します。
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -550,26 +493,19 @@ int main() {
     return 0;
 }
 ```
-
-## どの更新 API を使用すべきか？
-
-次の表は、利用可能な更新 API とそれぞれを選択するタイミングをまとめたものです。
-
-| 目標 | 推奨 API | 備考 |
+## どの更新APIを使用すべきか？
+以下の表は、利用可能な更新APIとそれぞれを選択するタイミングをまとめたものです。
+| 目的 | 推奨API | メモ |
 |------|-----------------|-------|
-| ワークブック内のすべてを更新 | `Workbook.RefreshAll()` | 1 回の呼び出しですべてのキャッシュとテーブルをカバー。 |
-| 単一シートのピボットテーブルのみを更新 | `Worksheet.RefreshPivotTables()` | 1 つのワークシートにスコープ。 |
-| 1 つのキャッシュのソースデータが変更された | `pivotTable.GetPivotCache().Refresh()` | 共有キャッシュ上のすべてのピボットテーブルを更新します。 |
-| ビュー/レイアウト設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースのラウンドトリップをスキップします。 |
-| 共有キャッシュ上のすべてのピボットテーブルを一覧表示 | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用。 |
-
-実際には、廃止予定のテーブルごとの `RefreshData()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。
-
+| ワークブック内のすべてを更新する | `Workbook.RefreshAll()` | 1回の呼び出しで、すべてのキャッシュとテーブルを対象とします。 |
+| 単一シート上のピボットテーブルのみを更新する | `Worksheet.RefreshPivotTables()` | 1つのワークシートにスコープされます。 |
+| 1つのキャッシュのソースデータが変更された | `pivotTable.GetPivotCache().Refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
+| 表示/レイアウト設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースラウンドトリップをスキップします。 |
+| 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
+実際には、廃止予定のテーブルごとの`RefreshData()`よりもキャッシュベースのAPIを優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小のスコープを選択できるようにします。
 ## 関連記事
-
 - [セルへの画像の挿入](/cells/ja/cpp/inserting-an-image-into-a-cell/)
-- [DBF ファイルの読み取りと書き込み](/cells/ja/cpp/dbf/)
-- [Excel ファイルの複数ファイルへの分割](/cells/ja/cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for C++ のスパークライン](/cells/ja/cpp/sparkline/)
-
+- [DBFファイルの読み書き](/cells/ja/cpp/dbf/)
+- [Excelファイルを複数のファイルに分割する](/cells/ja/cpp/splitting-excel-files-into-multiple-files/)
+- [Aspose.Cells for C++のスパークライン](/cells/ja/cpp/sparkline/)
 {{< app/cells/assistant language="cpp" >}}

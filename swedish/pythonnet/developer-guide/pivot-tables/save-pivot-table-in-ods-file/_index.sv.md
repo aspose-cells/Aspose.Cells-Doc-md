@@ -1,7 +1,7 @@
 ---
 title: Spara pivottabell i ODS fil
 type: docs
-weight: 150
+weight: 800
 url: /sv/python-net/save-pivot-table-in-ods-file/
 description: Den här artikeln visar hur du sparar en pivottabell i en ODS fil med Aspose.Cells för Python via .NET.
 keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Spara pivottabell i ODS fil med hjälp av Aspose.Cells för Python Excel bibliotek.

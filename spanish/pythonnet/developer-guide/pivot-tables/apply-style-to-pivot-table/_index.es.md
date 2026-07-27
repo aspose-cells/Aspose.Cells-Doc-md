@@ -1,5 +1,5 @@
 ---
-title: Aplicar estilos a tablas dinámicas
+title: Aplicar estilos a tablas dinámicas en Aspose.Cells para .NET
 linktitle: Aplicar estilos a tablas dinámicas
 description: Aprenda cómo aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for Python via .NET, incluyendo autoformatos heredados de XLS, estilos con nombre modernos de Excel 2007+, estilos personalizados de tablas dinámicas y el acceso directo FormatAll.
 keywords: Aspose.Cells Python via .NET estilo de tabla dinámica, PivotTableStyleType, AutoFormatType, FormatAll, estilo personalizado, PivotTableStyleName, TableStyles

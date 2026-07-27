@@ -1,7 +1,7 @@
 ---
 title: 创建数据透视表
 type: docs
-weight: 10
+weight: 160
 url: /zh/cpp/create-pivot-table/
 ---
 

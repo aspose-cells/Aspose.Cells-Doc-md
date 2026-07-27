@@ -1,6 +1,6 @@
 ---
-title: Applying Styles to Pivot Tables
-linktitle: Applying Styles to Pivot Tables
+title: Apply Styles to Pivot Tables in Aspose.Cells for .NET
+linktitle: Apply Pivot Table Styles
 description: Learn how to apply built-in and custom styles to pivot tables in Aspose.Cells for C++, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the FormatAll shortcut.
 keywords: Aspose.Cells C++ pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

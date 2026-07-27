@@ -1,7 +1,7 @@
 ---
 title: Create Pivot Table
 type: docs
-weight: 10
+weight: 160
 url: /cpp/create-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"

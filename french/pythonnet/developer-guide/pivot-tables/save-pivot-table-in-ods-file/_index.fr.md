@@ -1,7 +1,7 @@
 ---
 title: Enregistrer un tableau croisé dynamique dans un fichier ODS
 type: docs
-weight: 150
+weight: 800
 url: /fr/python-net/save-pivot-table-in-ods-file/
 description: Cet article montre comment enregistrer un tableau croisé dynamique dans un fichier ODS avec Aspose.Cells pour Python via .NET.
 keywords: Aspose.Cells for Python Excel, bibliothèque Excel en Python, enregistrer un tableau croisé dynamique dans un fichier ODS à l aide de la bibliothèque Aspose.Cells pour Excel en Python.

@@ -1,11 +1,11 @@
 ---
-title: Champs de ligne et de colonne dans Aspose.Cells for .NET
+title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells pour .NET
 linktitle: Champs de ligne et de colonne
 description: Apprenez à ajouter des champs de base aux zones des lignes et des colonnes d'un tableau croisé dynamique et à contrôler les sous-totaux des champs du tableau croisé à l'aide de PivotField.SetSubtotals avec PivotFieldSubtotalType dans Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, SetSubtotals, PivotFieldSubtotalType, sous-totaux, C#, Excel pivot table
 type: docs
 weight: 220
-url: /fr/net/row-and-column-fields/
+url: /fr/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

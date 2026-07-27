@@ -2,7 +2,7 @@
 title: Ta bort PivotTabell från ett Kalkylblad med C++
 linktitle: Ta bort PivotTabell
 type: docs
-weight: 60
+weight: 700
 url: /sv/cpp/delete-pivot-table-from-a-worksheet/
 description: C++ kod för att ta bort PivotTabell för Excel Ark
 keywords: c++ ta bort pivot tabell från kalkylblad, c++ ta bort pivot tabell från excel, hur man raderar pivot tabell med c++, ta bort pivot tabell med c++, ta bort pivot tabell från excel med c++, c++ radera pivot tabell, c++ ta bort pivot tabell, ta bort pivot tabell, radera pivot tabell, hur man tar bort pivot tabell

@@ -1,7 +1,7 @@
 ---
 title: Crear tabla dinámica
 type: docs
-weight: 10
+weight: 160
 url: /es/java/create-pivot-table/
 ---
 

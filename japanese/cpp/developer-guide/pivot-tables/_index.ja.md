@@ -1,7 +1,7 @@
 ---
 title: ピボットテーブルを作成する
 type: docs
-weight: 10
+weight: 160
 url: /ja/cpp/create-pivot-table/
 ---
 

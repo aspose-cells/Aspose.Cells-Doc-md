@@ -1,7 +1,7 @@
 ---
 title: Pivot Tablosu Oluştur
 type: docs
-weight: 10
+weight: 160
 url: /tr/cpp/create-pivot-table/
 ---
 

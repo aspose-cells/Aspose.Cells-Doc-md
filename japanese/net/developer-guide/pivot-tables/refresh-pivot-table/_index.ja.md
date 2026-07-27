@@ -1,6 +1,6 @@
 ---
-title: Aspose.Cells for .NET でのピボットテーブルの更新
-linktitle: ピボットテーブルの更新
+title: Aspose.Cells for .NET でピボットテーブルとピボットキャッシュを更新する
+linktitle: ピボットテーブルを更新
 description: Aspose.Cells for .NET で v26.7+ のピボット更新 API を使用してピボットテーブルを更新する方法を学びます。本記事では RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTables を実用的なコード例とともに解説します。
 keywords: Aspose.Cells, .NET, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

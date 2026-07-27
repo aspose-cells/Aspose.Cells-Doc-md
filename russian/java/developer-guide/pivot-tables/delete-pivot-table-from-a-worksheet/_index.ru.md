@@ -1,7 +1,7 @@
 ---
 title: Удалить сводную таблицу из листа
 type: docs
-weight: 50
+weight: 700
 url: /ru/java/delete-pivot-table-from-a-worksheet/
 ---
 

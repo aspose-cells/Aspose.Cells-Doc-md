@@ -1,34 +1,34 @@
 ---
-title: Campi pagina nelle tabelle pivot
-linktitle: Campi pagina nelle tabelle pivot
-description: Scopri come aggiungere e configurare i campi pagina nelle tabelle pivot utilizzando Aspose.Cells for Java, inclusi l'aggiunta di campi pagina, il filtro a selezione singola e il filtro a selezione multipla.
-keywords: Aspose.Cells, Java, tabella pivot, campo pagina, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+title: Aggiungere campi filtro a una tabella pivot in Aspose.Cells per .NET
+linktitle: Aggiungere campi filtro
+description: Scopri come aggiungere e configurare i campi filtro nelle tabelle pivot utilizzando Aspose.Cells for Java, inclusi l'aggiunta di campi filtro, il filtro a selezione singola e il filtro a selezione multipla.
+keywords: Aspose.Cells, Java, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/java/add-page-field-in-pivot-table/
+url: /it/java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells supporta l'intero ciclo di vita dei campi pagina nelle tabelle pivot. È possibile aggiungere un campo pagina tramite un'API di alto livello o tramite la raccolta di livello inferiore `PageFields`, ed è possibile gestire il filtro pagina in modalità a selezione singola, cancellarlo per mostrare ogni voce di pagina, oppure commutare il campo sulla selezione multipla così che gli utenti possano selezionare più voci di pagina contemporaneamente tramite l'interfaccia utente delle caselle di controllo in Excel.
+Aspose.Cells supporta l'intero ciclo di vita dei campi filtro nelle tabelle pivot. È possibile aggiungere un campo filtro tramite un'API di alto livello o tramite la raccolta di livello inferiore `PageFields`, ed è possibile gestire il filtro pagina in modalità a selezione singola, cancellarlo per mostrare ogni voce di pagina, oppure commutare il campo sulla selezione multipla così che gli utenti possano selezionare più voci di pagina contemporaneamente tramite l'interfaccia utente delle caselle di controllo in Excel.
 {{% /alert %}}
 
 ## **Introduzione**
 
-Un campo pagina è un campo pivot che controlla *quale sottoinsieme* dei dati di origine viene visualizzato dal corpo della pivot. Gli utenti finali lo vedono come un menu a discesa nella parte superiore di una pivot resa in Excel, e selezionando una delle voci di pagina disponibili il corpo della pivot viene ricostruito in modo che vengano riepilogati solo i record appartenenti a quella voce di pagina. Un campo pivot diventa un campo pagina quando viene registrato come `PivotFieldType.Page` anziché come `PivotFieldType.Row`, `PivotFieldType.Column`, o `PivotFieldType.Data`.
+Un campo filtro è un campo pivot che controlla *quale sottoinsieme* dei dati di origine viene visualizzato dal corpo della pivot. Gli utenti finali lo vedono come un menu a discesa nella parte superiore di una pivot resa in Excel, e selezionando una delle voci di pagina disponibili il corpo della pivot viene ricostruito in modo che vengano riepilogati solo i record appartenenti a quella voce di pagina. Un campo pivot diventa un campo filtro quando viene registrato come `PivotFieldType.Page` anziché come `PivotFieldType.Row`, `PivotFieldType.Column`, o `PivotFieldType.Data`.
 
-Un campo pagina può operare in due modalità. Nella modalità predefinita **selezione singola** solo una voce di pagina è visibile alla volta, quindi il corpo della pivot riepiloga esattamente un sottoinsieme. Nella modalità **selezione multipla** il campo espone un elenco di caselle di controllo e il corpo della pivot riepiloga l'unione di ogni voce di pagina selezionata. Lo stesso campo di origine può essere spostato avanti e indietro tra queste modalità attivando/disattivando una singola proprietà.
+Un campo filtro può operare in due modalità. Nella modalità predefinita **selezione singola** solo una voce di pagina è visibile alla volta, quindi il corpo della pivot riepiloga esattamente un sottoinsieme. Nella modalità **selezione multipla** il campo espone un elenco di caselle di controllo e il corpo della pivot riepiloga l'unione di ogni voce di pagina selezionata. Lo stesso campo di origine può essere spostato avanti e indietro tra queste modalità attivando/disattivando una singola proprietà.
 
-Aspose.Cells for Java espone due modi equivalenti per registrare un campo pagina. L'API di alto livello è `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, che accetta il nome della colonna di origine e aggiunge il campo in un'unica chiamata. L'API di livello inferiore è `PivotTable.PageFields.add(PivotField)`, che viene utilizzata quando si possiede già un riferimento `PivotField` e si desidera aggiungere la stessa istanza di campo all'area pagina. Entrambe le API finiscono per popolare la stessa raccolta `PageFields`, e il resto di questo articolo mostra come scegliere tra esse e come gestire ciascuna modalità di filtro.
+Aspose.Cells for Java espone due modi equivalenti per registrare un campo filtro. L'API di alto livello è `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")`, che accetta il nome della colonna di origine e aggiunge il campo in un'unica chiamata. L'API di livello inferiore è `PivotTable.PageFields.add(PivotField)`, che viene utilizzata quando si possiede già un riferimento `PivotField` e si desidera aggiungere la stessa istanza di campo all'area filtro. Entrambe le API finiscono per popolare la stessa raccolta `PageFields`, e il resto di questo articolo mostra come scegliere tra esse e come gestire ciascuna modalità di filtro.
 
-## **Aggiunta di un campo pagina**
+## **Aggiunta di un campo filtro**
 
-Esistono due modi per registrare un campo pivot nell'area pagina. La chiamata di alto livello accetta il nome della colonna di origine come stringa ed è il percorso più comune. La chiamata di livello inferiore accetta un'istanza esistente di `PivotField` ed è comoda quando lo stesso oggetto campo deve essere riutilizzato su più aree pivot. Entrambe le chiamate inseriscono il campo in `PivotTable.PageFields`, dopodiché appare come menu a discesa della pagina nella parte superiore della pivot resa.
+Esistono due modi per registrare un campo pivot nell'area filtro. La chiamata di alto livello accetta il nome della colonna di origine come stringa ed è il percorso più comune. La chiamata di livello inferiore accetta un'istanza esistente di `PivotField` ed è comoda quando lo stesso oggetto campo deve essere riutilizzato su più aree pivot. Entrambe le chiamate inseriscono il campo in `PivotTable.PageFields`, dopodiché appare come menu a discesa della pagina nella parte superiore della pivot resa.
 
-### Aggiunta di un campo pagina con addFieldToArea
+### Aggiunta di un campo filtro con addFieldToArea
 
-L'esempio seguente crea un piccolo set di dati Frutto / Anno / Importo, posiziona una tabella pivot alla cella E3 con `Fruit` nell'area righe, `Amount` nell'area dati, e `Year` nell'area pagina, aggiorna la pivot e salva la cartella di lavoro.
+L'esempio seguente crea un piccolo set di dati Frutto / Anno / Importo, posiziona una tabella pivot alla cella E3 con `Fruit` nell'area righe, `Amount` nell'area dati, e `Year` nell'area filtro, aggiorna la pivot e salva la cartella di lavoro.
 
 ```java
 import com.aspose.cells.*;
@@ -81,9 +81,9 @@ pivotTable.calculateData();
 workbook.save("pageFieldSample.xlsx");
 ```
 
-### Aggiunta di un campo pagina con PageFields.add
+### Aggiunta di un campo filtro con PageFields.add
 
-Quando si lavora già con un'istanza di `PivotField`, è possibile passarla direttamente a `PivotTable.PageFields.add`. La tabella pivot e il campo pagina vengono costruiti esattamente come nello scenario precedente; solo la registrazione finale dell'area pagina viene sostituita con la chiamata API di livello inferiore.
+Quando si lavora già con un'istanza di `PivotField`, è possibile passarla direttamente a `PivotTable.PageFields.add`. La tabella pivot e il campo filtro vengono costruiti esattamente come nello scenario precedente; solo la registrazione finale dell'area filtro viene sostituita con la chiamata API di livello inferiore.
 
 ```java
 - La tabella pivot e il campo pagina sono costruiti esattamente come nello
@@ -134,7 +134,7 @@ workbook.save("output.xlsx");
 
 ## **Filtro a selezione singola (visualizzazione di una voce di pagina)**
 
-Nella modalità predefinita a selezione singola, il campo pagina viene reso come un singolo menu a discesa e l'intero `PivotField.CurrentPageItem` seleziona quale voce di pagina guida il corpo della pivot. Assegnando un indice specifico viene selezionata solo quella voce; assegnando il valore sentinella speciale `0x7FFD` (decimale 32765) il filtro viene cancellato così che ogni voce di pagina venga riepilogata immediatamente. La selezione singola è la modalità predefinita; non è necessario abilitarla esplicitamente.
+Nella modalità predefinita a selezione singola, il campo filtro viene reso come un singolo menu a discesa e l'intero `PivotField.CurrentPageItem` seleziona quale voce di pagina guida il corpo della pivot. Assegnando un indice specifico viene selezionata solo quella voce; assegnando il valore sentinella speciale `0x7FFD` (decimale 32765) il filtro viene cancellato così che ogni voce di pagina venga riepilogata immediatamente. La selezione singola è la modalità predefinita; non è necessario abilitarla esplicitamente.
 
 ### Visualizzazione di tutte le voci
 
@@ -192,7 +192,7 @@ workbook.save("output.xlsx");
 
 ### Visualizzazione di una voce specifica
 
-Impostare `CurrentPageItem` su un indice reale seleziona solo quella voce di pagina. L'indice è la posizione della voce nell'elenco ordinato delle voci del campo pagina, quindi ad esempio `1` seleziona la seconda voce dopo l'ordinamento.
+Impostare `CurrentPageItem` su un indice reale seleziona solo quella voce di pagina. L'indice è la posizione della voce nell'elenco ordinato delle voci del campo filtro, quindi ad esempio `1` seleziona la seconda voce dopo l'ordinamento.
 
 ```java
 import com.aspose.cells.*;
@@ -247,7 +247,7 @@ workbook.save("output.xlsx");
 
 Il filtro a selezione multipla trasforma il menu a discesa della pagina in un elenco di caselle di controllo e consente all'utente finale di selezionare più voci di pagina contemporaneamente. Aspose.Cells espone due proprietà che lavorano insieme. `PivotField.IsMultipleItemSelectionAllowed` deve essere impostato su `true` prima che l'interfaccia utente a selezione multipla abbia qualsiasi effetto. Dopo averlo abilitato, `PivotItem.IsHidden` controlla quali voci compaiono nell'elenco delle caselle di controllo, quindi è possibile mostrare ogni voce oppure includere nella whitelist solo voci specifiche.
 
-Il codice seguente abilita la selezione multipla sullo stesso campo pagina Year costruito nello Scenario 1a, e poi mostra due schemi: la Parte A rivela ogni voce di pagina lasciando `IsHidden` impostato su `false` per ogni voce, mentre la Parte B include nella whitelist solo i valori di origine scelti e nasconde tutto il resto tramite un blocco `switch (pivotItems[i].getStringValue())`.
+Il codice seguente abilita la selezione multipla sullo stesso campo filtro Year costruito nello Scenario 1a, e poi mostra due schemi: la Parte A rivela ogni voce di pagina lasciando `IsHidden` impostato su `false` per ogni voce, mentre la Parte B include nella whitelist solo i valori di origine scelti e nasconde tutto il resto tramite un blocco `switch (pivotItems[i].getStringValue())`.
 
 ```java
 import com.aspose.cells.*;
@@ -330,15 +330,15 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità così ch
 
 | Scenario / Caso d'uso | API consigliata | Proprietà utilizzata | Note |
 |---|---|---|---|
-| Aggiungere un campo pagina tramite il nome della colonna di origine (caso più comune) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | Alto livello, una sola riga. Usare questa opzione a meno che non sia necessario un riferimento `PivotField`. |
-| Aggiungere un campo pagina quando si ha già un oggetto `PivotField` | `PivotTable.PageFields.add(PivotField)` | n/a | Usare quando l'oggetto campo è stato ottenuto altrove o deve essere riutilizzato. |
+| Aggiungere un campo filtro tramite il nome della colonna di origine (caso più comune) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | Alto livello, una sola riga. Usare questa opzione a meno che non sia necessario un riferimento `PivotField`. |
+| Aggiungere un campo filtro quando si ha già un oggetto `PivotField` | `PivotTable.PageFields.add(PivotField)` | n/a | Usare quando l'oggetto campo è stato ottenuto altrove o deve essere riutilizzato. |
 | Filtrare su una singola voce di pagina (modalità predefinita) | `PivotField.CurrentPageItem` | impostare su un indice specifico | Ad esempio, `1` mostra la seconda voce nell'elenco ordinato. |
 | Mostrare tutte le voci / cancellare il filtro pagina | `PivotField.CurrentPageItem` | impostare su `0x7FFD` | Il valore magico `0x7FFD` (decimale 32765) è il valore sentinella per "tutte le voci". |
 | Abilitare l'interfaccia utente a selezione multipla in Excel | `PivotField.IsMultipleItemSelectionAllowed` | impostare su `true` | Richiesto prima che qualsiasi chiamata `IsHidden` abbia effetto. |
 | Nascondere / mostrare singole voci in un elenco a selezione multipla | `PivotItem.IsHidden` | impostare per voce | Almeno una voce deve rimanere visibile (`IsHidden == false`). |
 
 {{% alert color="primary" %}}
-Ricordare sempre il vincolo di visibilità quando si configura il filtro a selezione multipla. Se ogni `PivotItem` in un campo pagina a selezione multipla è nascosto, Excel si arresta in modo anomalo all'apertura oppure rende una pivot vuota. Costruire la whitelist in base ai propri dati di origine in modo che almeno una voce rimanga visibile, e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
+Ricordare sempre il vincolo di visibilità quando si configura il filtro a selezione multipla. Se ogni `PivotItem` in un campo filtro a selezione multipla è nascosto, Excel si arresta in modo anomalo all'apertura oppure rende una pivot vuota. Costruire la whitelist in base ai propri dati di origine in modo che almeno una voce rimanga visibile, e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
 

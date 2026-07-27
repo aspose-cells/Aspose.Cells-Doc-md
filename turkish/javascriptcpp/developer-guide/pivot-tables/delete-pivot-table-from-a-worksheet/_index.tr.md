@@ -1,7 +1,7 @@
 ---
 title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
-weight: 60
+weight: 700
 url: /tr/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Excel Sayfalarında PivotTable’ı Kaldırmak için Aspose.Cells for JavaScript C++ kodu
 keywords: Aspose.Cells for JavaScript C++ Excel, Excel JavaScript kütüphanesi ile pivot tabloyu sayfadan kaldırma, pivot tabloyu silme, pivot tabloyu kaldırma, nasıl silinir, kaldırılır, c++ ile pivot tabloyu silme, pivot tabloyu kaldırma, silme

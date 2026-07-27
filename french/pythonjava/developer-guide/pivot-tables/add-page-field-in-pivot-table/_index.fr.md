@@ -1,34 +1,34 @@
 ---
-title: Champs de page dans les tableaux croisés dynamiques
-linktitle: Champs de page dans les tableaux croisés dynamiques
-description: Apprenez à ajouter et configurer des champs de page dans les tableaux croisés dynamiques à l'aide d'Aspose.Cells for Python via Java, y compris l'ajout de champs de page, le filtrage à sélection unique et le filtrage à sélection multiple.
-keywords: Aspose.Cells, Python, Java, tableau croisé dynamique, champ de page, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
+title: Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET
+linktitle: Ajouter des champs de filtre
+description: Apprenez à ajouter et configurer des champs de filtre dans les tableaux croisés dynamiques à l'aide d'Aspose.Cells for Python via Java, y compris l'ajout de champs de filtre, le filtrage à sélection unique et le filtrage à sélection multiple.
+keywords: Aspose.Cells, Python, Java, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/python-java/add-page-field-in-pivot-table/
+url: /fr/python-java/add-filter-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells prend en charge le cycle de vie complet des champs de page dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de page via une API de haut niveau pratique ou via la collection de bas niveau `page_fields`, et vous pouvez piloter le filtre de page en mode sélection unique, le réinitialiser pour afficher chaque élément de page, ou basculer le champ vers la sélection multiple afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois via l'interface à cases à cocher dans Excel.
+Aspose.Cells prend en charge le cycle de vie complet des champs de filtre dans les tableaux croisés dynamiques. Vous pouvez ajouter un champ de filtre via une API de haut niveau pratique ou via la collection de bas niveau `page_fields`, et vous pouvez piloter le filtre en mode sélection unique, le réinitialiser pour afficher chaque élément de page, ou basculer le champ vers la sélection multiple afin que les utilisateurs puissent choisir plusieurs éléments de page à la fois via l'interface à cases à cocher dans Excel.
 {{% /alert %}}
 
 ## **Introduction**
 
-Un champ de page est un champ de tableau croisé dynamique qui contrôle *quel sous-ensemble* des données sources le corps du tableau croisé dynamique affiche. Les utilisateurs finaux le voient comme une liste déroulante en haut d'un tableau croisé dynamique rendu dans Excel, et la sélection de l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page sont résumés. Un champ de tableau croisé dynamique devient un champ de page lorsqu'il est enregistré en tant que `PivotFieldType.PAGE` plutôt que `PivotFieldType.ROW`, `PivotFieldType.COLUMN` ou `PivotFieldType.DATA`.
+Un champ de filtre est un champ de tableau croisé dynamique qui contrôle *quel sous-ensemble* des données sources le corps du tableau croisé dynamique affiche. Les utilisateurs finaux le voient comme une liste déroulante en haut d'un tableau croisé dynamique rendu dans Excel, et la sélection de l'un des éléments de page disponibles reconstruit le corps du tableau croisé dynamique de sorte que seuls les enregistrements appartenant à cet élément de page sont résumés. Un champ de tableau croisé dynamique devient un champ de filtre lorsqu'il est enregistré en tant que `PivotFieldType.PAGE` plutôt que `PivotFieldType.ROW`, `PivotFieldType.COLUMN` ou `PivotFieldType.DATA`.
 
-Un champ de page peut fonctionner selon deux comportements. Dans le comportement par défaut de **sélection unique**, un seul élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique résume exactement un sous-ensemble. Dans le comportement de **sélection multiple**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique résume l'union de chaque élément de page coché. Le même champ source peut être basculé d'avant en arrière entre ces comportements en activant une seule propriété.
+Un champ de filtre peut fonctionner selon deux comportements. Dans le comportement par défaut de **sélection unique**, un seul élément de page est visible à la fois, de sorte que le corps du tableau croisé dynamique résume exactement un sous-ensemble. Dans le comportement de **sélection multiple**, le champ expose une liste de cases à cocher, et le corps du tableau croisé dynamique résume l'union de chaque élément de page coché. Le même champ source peut être basculé d'avant en arrière entre ces comportements en activant une seule propriété.
 
-Aspose.Cells for Python via Java expose deux manières équivalentes d'enregistrer un champ de page. L'API de haut niveau est `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.page_fields.add(PivotField)`, qui est utilisée lorsque vous détenez déjà une référence `PivotField` et souhaitez ajouter la même instance de champ à la zone de page. Les deux API finissent par alimenter la même collection `page_fields`, et le reste de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
+Aspose.Cells for Python via Java expose deux manières équivalentes d'enregistrer un champ de filtre. L'API de haut niveau est `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")`, qui prend le nom de la colonne source et ajoute le champ en un seul appel. L'API de bas niveau est `PivotTable.page_fields.add(PivotField)`, qui est utilisée lorsque vous détenez déjà une référence `PivotField` et souhaitez ajouter la même instance de champ à la zone de filtre. Les deux API finissent par alimenter la même collection `page_fields`, et le reste de cet article montre comment choisir entre elles et comment piloter chaque mode de filtrage.
 
-## **Ajout d'un champ de page**
+## **Ajout d'un champ de filtre**
 
-Il existe deux manières d'enregistrer un champ de tableau croisé dynamique dans la zone de page. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne de caractères et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque le même objet de champ doit être réutilisé dans plusieurs zones de tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.page_fields`, après quoi il apparaît comme la liste déroulante de page en haut du tableau croisé dynamique rendu.
+Il existe deux manières d'enregistrer un champ de tableau croisé dynamique dans la zone de filtre. L'appel de haut niveau prend le nom de la colonne source sous forme de chaîne de caractères et constitue le chemin le plus courant. L'appel de bas niveau accepte une instance `PivotField` existante et est pratique lorsque le même objet de champ doit être réutilisé dans plusieurs zones de tableau croisé dynamique. Les deux appels placent le champ dans `PivotTable.page_fields`, après quoi il apparaît comme la liste déroulante de page en haut du tableau croisé dynamique rendu.
 
-### Ajout d'un champ de page avec add_field_to_area
+### Ajout d'un champ de filtre avec add_field_to_area
 
-L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, place un tableau croisé dynamique à la cellule E3 avec `Fruit` sur la zone de lignes, `Amount` sur la zone de données et `Year` sur la zone de page, actualise le tableau croisé dynamique et enregistre le classeur.
+L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, place un tableau croisé dynamique à la cellule E3 avec `Fruit` sur la zone de lignes, `Amount` sur la zone de données et `Year` sur la zone de filtre, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```python
 import jpype
@@ -84,9 +84,9 @@ workbook.save("pageFieldSample.xlsx")
 jpype.shutdownJVM()
 ```
 
-### Ajout d'un champ de page avec page_fields.add
+### Ajout d'un champ de filtre avec page_fields.add
 
-Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.page_fields.add`. Le tableau croisé dynamique et le champ de page sont construits exactement comme dans le scénario précédent ; seul l'enregistrement final dans la zone de page est remplacé par l'appel d'API de bas niveau.
+Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la passer directement à `PivotTable.page_fields.add`. Le tableau croisé dynamique et le champ de filtre sont construits exactement comme dans le scénario précédent ; seul l'enregistrement final dans la zone de filtre est remplacé par l'appel d'API de bas niveau.
 
 ```python
 import jpype
@@ -144,11 +144,11 @@ jpype.shutdownJVM()
 
 ## **Filtrage à sélection unique (affichage d'un élément de page)**
 
-Dans le comportement par défaut de sélection unique, le champ de page est rendu sous forme de liste déroulante unique et l'entier `PivotField.current_page_item` sélectionne quel élément de page pilote le corps du tableau croisé dynamique. L'assignation d'un index spécifique sélectionne cet élément unique ; l'assignation de la valeur sentinelle spéciale `0x7FFD` (32765 en décimal) réinitialise le filtre de sorte que chaque élément de page soit résumé simultanément. La sélection unique est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
+Dans le comportement par défaut de sélection unique, le champ de filtre est rendu sous forme de liste déroulante unique et l'entier `PivotField.current_page_item` sélectionne quel élément de page pilote le corps du tableau croisé dynamique. L'assignation d'un index spécifique sélectionne cet élément unique ; l'assignation de la valeur sentinelle spéciale `0x7FFD` (32765 en décimal) réinitialise le filtre de sorte que chaque élément de page soit résumé simultanément. La sélection unique est le mode par défaut ; vous n'avez pas besoin de l'activer explicitement.
 
 ### Affichage de tous les éléments
 
-Définir `current_page_item` sur la valeur magique `0x7FFD` équivaut à effacer le filtre de page : le corps du tableau croisé dynamique résume chaque élément de page comme si aucun filtre n'était appliqué.
+Définir `current_page_item` sur la valeur magique `0x7FFD` équivaut à effacer le filtre : le corps du tableau croisé dynamique résume chaque élément de page comme si aucun filtre n'était appliqué.
 
 ```python
 import jpype
@@ -204,7 +204,7 @@ jpype.shutdownJVM()
 
 ### Affichage d'un élément spécifique
 
-Définir `current_page_item` sur un index réel sélectionne uniquement cet élément de page. L'index est la position de l'élément dans la liste triée des éléments du champ de page, donc par exemple `1` sélectionne le deuxième élément après le tri.
+Définir `current_page_item` sur un index réel sélectionne uniquement cet élément de page. L'index est la position de l'élément dans la liste triée des éléments du champ de filtre, donc par exemple `1` sélectionne le deuxième élément après le tri.
 
 ```python
 import jpype
@@ -265,7 +265,7 @@ jpype.shutdownJVM()
 
 Le filtrage à sélection multiple transforme la liste déroulante de page en une liste de cases à cocher et permet à l'utilisateur final de sélectionner simultanément plusieurs éléments de page. Aspose.Cells expose deux propriétés qui fonctionnent ensemble. `PivotField.is_multiple_item_selection_allowed` doit être défini sur `True` avant que l'interface de sélection multiple ne prenne effet. Une fois activée, `PivotItem.is_hidden` contrôle quels éléments apparaissent dans la liste de cases à cocher, de sorte que vous pouvez soit afficher tous les éléments, soit autoriser uniquement certains éléments spécifiques.
 
-Le code ci-dessous active la sélection multiple sur le même champ de page Year construit dans le scénario 1a, puis montre deux modèles : la partie A révèle chaque élément de page en laissant `is_hidden` défini sur `False` pour chaque entrée, tandis que la partie B n'autorise que les valeurs sources que vous choisissez et masque tout le reste via un bloc `switch (pivot_items[i].get_string_value())`.
+Le code ci-dessous active la sélection multiple sur le même champ de filtre Year construit dans le scénario 1a, puis montre deux modèles : la partie A révèle chaque élément de page en laissant `is_hidden` défini sur `False` pour chaque entrée, tandis que la partie B n'autorise que les valeurs sources que vous choisissez et masque tout le reste via un bloc `switch (pivot_items[i].get_string_value())`.
 
 ```python
 import jpype
@@ -348,15 +348,15 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 
 | Scénario / Cas d'utilisation | API recommandée | Propriété utilisée | Notes |
 |---|---|---|---|
-| Ajouter un champ de page par nom de colonne source (le plus courant) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")` | n/a | Haut niveau, une seule ligne. Utilisez ceci sauf si vous avez besoin d'une référence `PivotField`. |
-| Ajouter un champ de page lorsque vous avez déjà un objet `PivotField` | `PivotTable.page_fields.add(PivotField)` | n/a | À utiliser lorsque l'objet de champ a été obtenu ailleurs ou doit être réutilisé. |
+| Ajouter un champ de filtre par nom de colonne source (le plus courant) | `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")` | n/a | Haut niveau, une seule ligne. Utilisez ceci sauf si vous avez besoin d'une référence `PivotField`. |
+| Ajouter un champ de filtre lorsque vous avez déjà un objet `PivotField` | `PivotTable.page_fields.add(PivotField)` | n/a | À utiliser lorsque l'objet de champ a été obtenu ailleurs ou doit être réutilisé. |
 | Filtrer sur un seul élément de page (mode par défaut) | `PivotField.current_page_item` | définir sur un index spécifique | Par exemple, `1` affiche le deuxième élément dans la liste triée. |
-| Afficher tous les éléments / effacer le filtre de page | `PivotField.current_page_item` | définir sur `0x7FFD` | La valeur magique `0x7FFD` (32765 en décimal) est la sentinelle pour « tous les éléments ». |
+| Afficher tous les éléments / effacer le filtre | `PivotField.current_page_item` | définir sur `0x7FFD` | La valeur magique `0x7FFD` (32765 en décimal) est la sentinelle pour « tous les éléments ». |
 | Activer l'interface de sélection multiple dans Excel | `PivotField.is_multiple_item_selection_allowed` | définir sur `True` | Requis avant que tout appel à `is_hidden` ne prenne effet. |
 | Masquer / afficher des éléments individuels dans une liste à sélection multiple | `PivotItem.is_hidden` | définir par élément | Au moins un élément doit rester visible (`is_hidden == False`). |
 
 {{% alert color="primary" %}}
-N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage à sélection multiple. Si chaque `PivotItem` dans un champ de page à sélection multiple est masqué, Excel plante à l'ouverture ou rend un tableau croisé dynamique vide. Construisez votre liste autorisée à partir de vos données sources afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur chaque machine.
+N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage à sélection multiple. Si chaque `PivotItem` dans un champ de filtre à sélection multiple est masqué, Excel plante à l'ouverture ou rend un tableau croisé dynamique vide. Construisez votre liste autorisée à partir de vos données sources afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur chaque machine.
 {{% /alert %}}
 
 

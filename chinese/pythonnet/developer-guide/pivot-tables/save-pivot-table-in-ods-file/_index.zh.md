@@ -1,7 +1,7 @@
 ---
 title: 将数据透视表保存为ODS文件
 type: docs
-weight: 150
+weight: 800
 url: /zh/python-net/save-pivot-table-in-ods-file/
 description: 本文介绍如何使用Aspose.Cells for Python via .NET在ODS文件中保存数据透视表。
 keywords: Aspose.Cells for Python Excel库使用Aspose.Cells for Python Excel库可以保存ODS文件中的数据透视表。

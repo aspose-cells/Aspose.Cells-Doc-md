@@ -1,6 +1,6 @@
 ---
-title: Tillämpa stilar på pivottabeller
-linktitle: Tillämpa stilar på pivottabeller
+title: Tillämpa stilar på pivottabeller i Aspose.Cells för .NET
+linktitle: Tillämpa pivottabellstilar
 description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller i Aspose.Cells for Node.js via Java, inklusive äldre XLS-autoformat, moderna namngivna stilar från Excel 2007+, anpassade pivottabellstilar och genvägen FormatAll.
 keywords: Aspose.Cells Node.js via Java pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

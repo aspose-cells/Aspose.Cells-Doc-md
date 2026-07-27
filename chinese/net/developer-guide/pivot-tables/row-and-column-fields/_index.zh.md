@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET 中数据透视表的行字段和列字段
+title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: 了解如何在 Aspose.Cells for .NET 中将基本字段添加到数据透视表的行区域和列区域，以及如何使用 PivotField.SetSubtotals 与 PivotFieldSubtotalType 控制数据透视字段的小计。
 keywords: Aspose.Cells, .NET, 数据透视表, 行字段, 列字段, PivotField, SetSubtotals, PivotFieldSubtotalType, 小计, C#, Excel 数据透视表
 type: docs
 weight: 220
-url: /zh/net/row-and-column-fields/
+url: /zh/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

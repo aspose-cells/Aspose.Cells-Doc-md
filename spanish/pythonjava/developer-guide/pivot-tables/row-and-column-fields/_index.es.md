@@ -1,11 +1,11 @@
 ---
-title: Row and Column Fields in Aspose.Cells for Python via Java
+title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
 linktitle: Campos de fila y columna
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /es/python-java/row-and-column-fields/
+url: /es/python-java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

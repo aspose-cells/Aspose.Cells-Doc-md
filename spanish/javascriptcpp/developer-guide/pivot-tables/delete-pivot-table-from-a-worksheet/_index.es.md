@@ -1,7 +1,7 @@
 ---
 title: Eliminar la tabla dinámica de una hoja de cálculo
 type: docs
-weight: 60
+weight: 700
 url: /es/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Código Script via C++ para eliminar una tabla dinámica de hojas de cálculo de Excel
 keywords: Script via C++ para Excel, biblioteca de Excel JavaScript, eliminar tabla dinámica de la hoja de cálculo, eliminar tabla dinámica de Excel, cómo eliminar una tabla dinámica con Script via C++, eliminar tabla dinámica, eliminar tabla dinámica de Excel, eliminar tabla dinámica, Script via C++ para eliminar tabla dinámica, eliminar tabla dinámica, eliminar tabla dinámica, cómo eliminar una tabla dinámica

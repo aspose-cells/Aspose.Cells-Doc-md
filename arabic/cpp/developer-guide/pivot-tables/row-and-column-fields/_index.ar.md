@@ -1,11 +1,11 @@
 ---
-title: حقول الصفوف والأعمدة في Aspose.Cells for C++
+title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
 linktitle: حقول الصفوف والأعمدة
 description: تعلّم كيفية إضافة حقول أساسية إلى منطقتي الصفوف والأعمدة في الجدول المحوري والتحكم في الإجماليات الفرعية لحقول الجدول المحوري باستخدام PivotField.SetSubtotals في Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, الإجماليات الفرعية
 type: docs
 weight: 220
-url: /ar/cpp/row-and-column-fields/
+url: /ar/cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

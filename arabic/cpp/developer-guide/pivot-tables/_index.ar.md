@@ -1,7 +1,7 @@
 ---
 title: إنشاء جدول معالجة محوري
 type: docs
-weight: 10
+weight: 160
 url: /ar/cpp/create-pivot-table/
 ---
 

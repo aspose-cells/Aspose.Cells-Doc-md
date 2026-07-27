@@ -1,7 +1,7 @@
 ---
 title: 从工作表中删除数据透视表
 type: docs
-weight: 60
+weight: 700
 url: /zh/python-net/delete-pivot-table-from-a-worksheet/
 description: Python via .NET 代码用于删除 Excel 工作表中的数据透视表
 keywords: Aspose.Cells for Python Excel，Excel Python库，Python via .NET从工作表中删除数据透视表，Python via .NET从Excel中删除数据透视表，如何使用Python via .NET删除数据透视表，使用Python via .NET删除Excel中的数据透视表，删除Python via .NET中的数据透视表，删除Python via .NET，删除数据透视表，如何删除数据透视表

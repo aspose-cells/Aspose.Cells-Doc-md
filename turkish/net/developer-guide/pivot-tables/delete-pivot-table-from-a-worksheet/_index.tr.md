@@ -1,7 +1,7 @@
 ---
 title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
-weight: 60
+weight: 700
 url: /tr/net/delete-pivot-table-from-a-worksheet/
 description: Excel Çalışma Sayfaları için PivotTablo nun kaldırılması için C# kodu
 keywords: c# çalışma sayfasından pivot tablosu kaldır, c# excel den pivot tablosu kaldır, c# ile pivot tablosu nasıl silinir, c# ile pivot tablosunu sil, excel den c# ile pivot tablosu silme, c# pivot tablosunu silme, c# pivot tablosu kaldırma, pivot tablosunu silme, pivot tablosunu silme

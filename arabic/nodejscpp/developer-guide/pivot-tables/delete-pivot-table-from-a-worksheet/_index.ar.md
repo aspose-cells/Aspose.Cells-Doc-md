@@ -1,7 +1,7 @@
 ---
 title: حذف جدول الدوران من ورقة العمل
 type: docs
-weight: 60
+weight: 700
 url: /ar/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: كود Aspose.Cells for Node.js via C++ لإزالة جدول محوري من أوراق إكسل
 keywords: Aspose.Cells for Node.js via C++ إكسل، مكتبة إكسل Node.js، إزالة جدول محوري من ورقة العمل، حذف الجدول المحوري من إكسل، كيفية حذف جدول محوري باستخدام Aspose.Cells for Node.js via C++، حذف الجدول المحوري، حذف الجدول من إكسل، حذف الجدول المحوري، Aspose.Cells for Node.js via C++ حذف الجدول المحوري، إزالة الجدول المحوري، حذف الجدول المحوري، كيفية حذف الجدول المحوري

@@ -2,7 +2,7 @@
 title: 用 Golang 通过 C++ 将数据透视表保存为 ODS 文件。
 linktitle: 在 ODS 文件中保存数据透视表
 type: docs
-weight: 150
+weight: 800
 url: /zh/go-cpp/save-pivot-table-in-ods-file/
 description: 学习如何使用 Aspose.Cells for C++ 在 ODS 文件中保存数据透视表。
 ---

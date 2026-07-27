@@ -1,11 +1,11 @@
 ---
-title: Rad- och kolumnfält i Aspose.Cells for .NET
+title: Lägga till rad- och kolumnfält i en pivottabell i Aspose.Cells för .NET
 linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till basfält i rad- och kolumnregionerna i en pivottabell och styr pivotfältets delsummor med PivotField.SetSubtotals i Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/net/row-and-column-fields/
+url: /sv/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

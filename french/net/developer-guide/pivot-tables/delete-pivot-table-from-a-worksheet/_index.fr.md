@@ -1,7 +1,7 @@
 ---
 title: Supprimer le tableau croisé dynamique d une feuille de calcul
 type: docs
-weight: 60
+weight: 700
 url: /fr/net/delete-pivot-table-from-a-worksheet/
 description: Code C# pour supprimer le tableau croisé dynamique des feuilles de calcul Excel
 keywords: c# supprimer un tableau croisé dynamique d une feuille de calcul, c# supprimer un tableau croisé dynamique d Excel, comment supprimer un tableau croisé dynamique avec c#, supprimer un tableau croisé dynamique avec c#, supprimer un tableau croisé dynamique d Excel avec c#, c# supprimer un tableau croisé dynamique, c# supprimer un tableau croisé dynamique, supprimer un tableau croisé dynamique, comment supprimer un tableau croisé dynamique

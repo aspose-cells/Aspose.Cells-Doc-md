@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for Java 中的行和列字段
+title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: 学习如何在 Aspose.Cells for Java 中向数据透视表的行和列区域添加基础字段，并使用 PivotField.setSubtotals 控制数据透视字段的小计。
 keywords: Aspose.Cells, Java, 数据透视表, 行字段, 列字段, PivotField, setSubtotals, PivotFieldSubtotalType, 小计
 type: docs
 weight: 220
-url: /zh/java/row-and-column-fields/
+url: /zh/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

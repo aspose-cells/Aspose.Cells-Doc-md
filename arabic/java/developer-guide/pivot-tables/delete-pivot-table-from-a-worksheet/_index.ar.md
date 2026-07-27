@@ -1,7 +1,7 @@
 ---
 title: حذف جدول الدوران من ورقة العمل
 type: docs
-weight: 50
+weight: 700
 url: /ar/java/delete-pivot-table-from-a-worksheet/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Salva tabella pivot nel file ODS
 type: docs
-weight: 150
+weight: 800
 url: /it/python-net/save-pivot-table-in-ods-file/
 description: Questo articolo mostra come salvare la tabella pivot nel file ODS con Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells for Python Excel, libreria Excel Python, Salva tabella pivot nel file ODS utilizzando la libreria Aspose.Cells for Python Excel.

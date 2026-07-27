@@ -1,5 +1,5 @@
 ---
-title: Aplicar estilos a tablas dinámicas
+title: Aplicar estilos a tablas dinámicas en Aspose.Cells para .NET
 linktitle: Aplicar estilos a tablas dinámicas
 description: Aprenda a aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for Node.js via C++, incluyendo autoformatos XLS heredados, estilos con nombre de Excel 2007+, estilos personalizados para tablas dinámicas y el acceso directo FormatAll.
 keywords: Aspose.Cells Node.js via C++ estilo de tabla dinámica, PivotTableStyleType, AutoFormatType, FormatAll, estilo personalizado, PivotTableStyleName, TableStyles

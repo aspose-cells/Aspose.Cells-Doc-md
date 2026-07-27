@@ -1,6 +1,6 @@
 ---
-title: Applying Styles to Pivot Tables
-linktitle: Applying Styles to Pivot Tables
+title: Apply Styles to Pivot Tables in Aspose.Cells for .NET
+linktitle: Apply Pivot Table Styles
 description: Learn how to apply built-in and custom styles to pivot tables in Aspose.Cells for .NET, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the FormatAll shortcut.
 keywords: Aspose.Cells .NET pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs
@@ -427,4 +427,11 @@ The choice of style API depends on the file format you are saving to. Use the ta
 
 When in doubt, save as `.xlsx` and use `PivotTableStyleType` for built-in themes, or `PivotTableStyleName` for custom themes.
 
+
+## Related Articles
+
+- [Add Pivot Table Row and Column Fields in Aspose.Cells for .NET](/cells/net/pivot-table-add-row-column-fields/)
+- [Filter Fields in Pivot Tables](/cells/net/add-filter-field-in-pivot-table/)
+- [Manage Pivot Table Value Fields in Aspose.Cells for .NET](/cells/net/pivot-table-manage-value-fields/)
+- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/net/refresh-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

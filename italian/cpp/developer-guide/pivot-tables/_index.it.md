@@ -1,7 +1,7 @@
 ---
 title: Creare tabella pivot
 type: docs
-weight: 10
+weight: 160
 url: /it/cpp/create-pivot-table/
 ---
 

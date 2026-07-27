@@ -2,7 +2,7 @@
 title: حفظ جدول محوري في ملف ODS باستخدام Golang عبر C++
 linktitle: حفظ جدول Pivot في ملف ODS
 type: docs
-weight: 150
+weight: 800
 url: /ar/go-cpp/save-pivot-table-in-ods-file/
 description: تعلم كيفية حفظ جداول Pivot في ملفات ODS باستخدام Aspose.Cells for C++.
 ---

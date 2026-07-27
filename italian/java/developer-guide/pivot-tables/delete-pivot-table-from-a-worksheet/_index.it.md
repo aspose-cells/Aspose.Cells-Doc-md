@@ -1,7 +1,7 @@
 ---
 title: Elimina la tabella pivot da un foglio di lavoro
 type: docs
-weight: 50
+weight: 700
 url: /it/java/delete-pivot-table-from-a-worksheet/
 ---
 

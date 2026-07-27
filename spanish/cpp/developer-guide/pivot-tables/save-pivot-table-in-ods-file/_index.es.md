@@ -2,7 +2,7 @@
 title: Guardar la tabla dinámica en archivo ODS con C++
 linktitle: Guardar la tabla dinámica en archivo ODS
 type: docs
-weight: 150
+weight: 800
 url: /es/cpp/save-pivot-table-in-ods-file/
 description: Aprenda cómo guardar tablas dinámicas en archivos ODS usando Aspose.Cells for C++.
 ---

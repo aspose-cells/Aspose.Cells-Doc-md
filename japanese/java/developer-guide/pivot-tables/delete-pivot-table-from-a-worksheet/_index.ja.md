@@ -1,7 +1,7 @@
 ---
 title: ワークシートからのピボットテーブルの削除
 type: docs
-weight: 50
+weight: 700
 url: /ja/java/delete-pivot-table-from-a-worksheet/
 ---
 

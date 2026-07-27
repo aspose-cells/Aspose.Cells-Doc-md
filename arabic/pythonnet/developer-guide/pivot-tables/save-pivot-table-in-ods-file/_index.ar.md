@@ -1,7 +1,7 @@
 ---
 title: حفظ الجدول الدوري في ملف ODS
 type: docs
-weight: 150
+weight: 800
 url: /ar/python-net/save-pivot-table-in-ods-file/
 description: يظهر هذا المقال كيفية حفظ جدول الدوران في ملف ODS باستخدام Aspose.Cells لـ Python via .NET.
 keywords: Aspose.Cells لـ Python Excel، مكتبة Excel Python، حفظ جدول الدوران في ملف ODS باستخدام Aspose.Cells لـ Python Excel Library.

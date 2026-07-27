@@ -1,7 +1,7 @@
 ---
 title: Aggiornamento delle tabelle pivot in Aspose.Cells for Java
 linktitle: Aggiornamento delle tabelle pivot
-description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for Java utilizzando l'API di aggiornamento delle pivot v26.7+. Questo articolo tratta RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi di codice pratici.
+description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for Java utilizzando l'API di aggiornamento delle pivot introdotta nella v26.7+. Questo articolo illustra RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi pratici di codice.
 keywords: Aspose.Cells, Java, tabella pivot, aggiornamento, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -12,39 +12,39 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells fornisce un'API di aggiornamento a più livelli che consente di ricaricare i dati delle pivot in quattro ambiti diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Java v26.7**, il metodo legacy `PivotTable.refreshData()` è contrassegnato come obsoleto e dovrebbe essere sostituito con le API più efficienti, consapevoli della cache, descritte in questo articolo.
+Aspose.Cells offre un'API di aggiornamento a più livelli che consente di ricaricare i dati delle pivot in quattro ambiti diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Java v26.7**, il metodo legacy `PivotTable.refreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
 
 {{% /alert %}}
 
 ## Introduzione
 
-L'aggiornamento di una tabella pivot è raramente una singola operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati a più livelli che collega i dati sorgente originali ai valori renderizzati che vedi nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
+L'aggiornamento di una tabella pivot raramente è una singola operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati a più livelli che collega i dati di origine originali ai valori visualizzati nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
 
 La catena di dati a quattro livelli è:
 
 1. **Origine dati** — gli intervalli del foglio di lavoro originali, la query del database o l'intervallo di consolidamento in cui risiedono i valori grezzi.
-2. **PivotCache** — l'istantanea in memoria dei dati sorgente. Ogni tabella pivot è costruita sopra un `PivotCache`; è qui che tutti i dati vengono raccolti e aggregati.
+2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita sopra un `PivotCache`; è qui che tutti i dati vengono raccolti e aggregati.
 3. **PivotTable** — l'oggetto vista che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *solo* dal suo `PivotCache`, mai direttamente dall'origine dati.
-4. **Cells** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i valori calcolati e gli stili.
+4. **Celle** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i valori calcolati e gli stili.
 
-Un concetto particolarmente importante è la **cache condivisa**. Quando più tabelle pivot in una cartella di lavoro fanno riferimento allo stesso intervallo sorgente, condividono *una* sola istanza di `PivotCache`. Un singolo `PivotCache` può essere referenziato da molte tabelle pivot, e l'aggiornamento di quella cache aggiorna ogni `PivotTable` dipendente in una sola volta.
+Un concetto particolarmente importante è la **cache condivisa**. Quando più tabelle pivot in una cartella di lavoro fanno riferimento allo stesso intervallo di origine, condividono *una* sola istanza di `PivotCache`. Una singola `PivotCache` può essere referenziata da molte tabelle pivot e l'aggiornamento di tale cache aggiorna ogni `PivotTable` dipendente contemporaneamente.
 
 {{% alert color="primary" %}}
 
-`PivotCache.getSourceType()` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`**, cioè dati che risiedono in intervalli del foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
+`PivotCache.getSourceType()` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`**, ovvero dati che risiedono in intervalli di fogli di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
 
 {{% /alert %}}
 
-A causa di questa catena, ci sono due percorsi fondamentali di aggiornamento in Aspose.Cells:
+A causa di questa catena, in Aspose.Cells esistono due percorsi di aggiornamento fondamentali:
 
-- **`PivotCache.refresh()`** — ricarica sorgente → cache E ricalcola tutte le `PivotTable` dipendenti in una singola operazione.
+- **`PivotCache.refresh()`** — ricarica l'origine → cache E ricalcola tutte le `PivotTable` dipendenti in un'unica operazione.
 - **`PivotTable.calculateData()`** — ricalcola la visualizzazione di una `PivotTable` dai dati già memorizzati nella cache, senza tornare all'origine dati.
 
-Tutti gli scenari di questo articolo utilizzano dati di origine da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
+Tutti gli scenari di questo articolo utilizzano dati di origine provenienti da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
 
-## Istruzioni di importazione richieste
+## Istruzioni di importazione necessarie
 
-Tutti gli esempi Java in questo articolo iniziano con le seguenti istruzioni di importazione perché i tipi pivot risiedono nel package `com.aspose.cells.pivot`:
+Tutti gli esempi Java in questo articolo iniziano con le seguenti istruzioni di importazione perché i tipi pivot si trovano nel package `com.aspose.cells.pivot`:
 
 - `import java.lang.System;`
 - `import com.aspose.cells.Workbook;`
@@ -52,9 +52,9 @@ Tutti gli esempi Java in questo articolo iniziano con le seguenti istruzioni di 
 
 ## Aggiornare tutte le tabelle pivot nella cartella di lavoro
 
-Quando hai bisogno di garantire che ogni pivot cache e ogni tabella pivot nella cartella di lavoro riflettano i dati sorgente più recenti, l'API più semplice e completa è `Workbook.refreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla sua origine e quindi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per aggiornamenti generali e completi del documento, dove le prestazioni non sono un problema.
+Quando è necessario garantire che ogni cache pivot e ogni tabella pivot nella cartella di lavoro rifletta i dati di origine più recenti, l'API più semplice e completa è `Workbook.refreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla propria origine e poi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per aggiornamenti generali e completi del documento, laddove le prestazioni non siano un problema.
 
-L'esempio seguente costruisce una cartella di lavoro con un intervallo sorgente Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori sorgente e quindi utilizza `refreshAll()` per portare tutto aggiornato in una singola chiamata.
+L'esempio seguente crea una cartella di lavoro con un intervallo di origine Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori di origine e quindi utilizza `refreshAll()` per portare tutto aggiornato in un'unica chiamata.
 
 ```java
 import com.aspose.cells.*;
@@ -105,12 +105,12 @@ worksheet.getCells().get("C9").putValue(120);
 int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
-// Assegna i campi pivot: Frutta a Righe, Anno a Colonne, Quantità a Dati
+// Assegna i campi pivot: Fruit alle Righe, Year alle Colonne, Amount ai Dati
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-// Modifica diversi valori di Quantità nei dati di origine per simulare le modifiche
+// Modifica diversi valori di Amount nei dati di origine per simulare delle modifiche
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
@@ -124,11 +124,11 @@ workbook.save("output.xlsx");
 
 ## Aggiornare tutte le tabelle pivot su un singolo foglio di lavoro
 
-A volte hai bisogno solo di aggiornare le tabelle pivot che si trovano su uno specifico foglio di lavoro, ad esempio quando le tabelle pivot su altri fogli di lavoro sono note per essere non correlate e non dovrebbero essere toccate. Per questo caso, Aspose.Cells fornisce `Worksheet.refreshPivotTables()`, che è limitato a una singola istanza di `Worksheet`.
+A volte è necessario aggiornare solo le tabelle pivot che si trovano su un foglio di lavoro specifico, ad esempio quando le tabelle pivot su altri fogli di lavoro non sono correlate e non devono essere toccate. Per questo caso, Aspose.Cells fornisce `Worksheet.refreshPivotTables()`, che è limitato a una singola istanza di `Worksheet`.
 
-Questo è più selettivo di `Workbook.refreshAll()`: vengono aggiornate solo le tabelle pivot sul foglio di lavoro di destinazione, lasciando intatte le tabelle pivot su altri fogli di lavoro.
+Questo è più selettivo rispetto a `Workbook.refreshAll()`: vengono aggiornate solo le tabelle pivot sul foglio di lavoro di destinazione, lasciando intatte le tabelle pivot sugli altri fogli di lavoro.
 
-L'esempio seguente popola gli stessi dati sorgente Frutto/Anno/Importo, aggiunge una tabella pivot sul primo foglio di lavoro, modifica alcuni valori sorgente e quindi aggiorna solo le tabelle pivot su quel foglio di lavoro.
+L'esempio seguente popola gli stessi dati di origine Frutto/Anno/Importo, aggiunge una tabella pivot sul primo foglio di lavoro, modifica alcuni valori di origine e quindi aggiorna solo le tabelle pivot su quel foglio di lavoro.
 
 ```java
 import com.aspose.cells.*;
@@ -190,19 +190,19 @@ workbook.save("output.xlsx");
 
 ## Aggiornare una singola tabella pivot
 
-Quando vuoi un controllo a grana fine su una singola tabella pivot, l'API basata sulla cache ti offre due opzioni. La scelta tra di esse dipende da cosa è effettivamente cambiato: i dati sorgente sottostanti, o solo le impostazioni di vista/layout della tabella pivot stessa.
+Quando si desidera un controllo capillare su una singola tabella pivot, l'API basata sulla cache offre due opzioni. La scelta tra di esse dipende da ciò che è effettivamente cambiato: i dati di origine sottostanti, oppure solo le impostazioni di vista/layout della tabella pivot stessa.
 
-### Dati sorgente modificati — Usa `PivotCache.refresh()`
+### Dati di origine modificati — Usare `PivotCache.refresh()`
 
-Se i dati sorgente sottostanti sono cambiati, il punto di ingresso giusto è `pivotTable.getPivotCache().refresh()`. Questa chiamata rilegge i dati sorgente nella cache e quindi ricalcola ogni `PivotTable` che dipende da quella cache.
+Se i dati di origine sottostanti sono cambiati, il punto di ingresso corretto è `pivotTable.getPivotCache().refresh()`. Questa chiamata rilegge i dati di origine nella cache e poi ricalcola ogni `PivotTable` che dipende da quella cache.
 
 {{% alert color="primary" %}}
 
-Poiché le tabelle pivot condividono una singola istanza di `PivotCache`, chiamare `PivotCache.refresh()` ricalcola **tutte** le tabelle pivot costruite su quella stessa cache, non solo quella a cui fai riferimento. Se due tabelle pivot condividono lo stesso intervallo sorgente, l'aggiornamento di una cache aggiorna entrambe.
+Poiché le tabelle pivot condividono una singola istanza di `PivotCache`, chiamare `PivotCache.refresh()` ricalcola **tutte** le tabelle pivot costruite su quella stessa cache, non solo quella a cui si fa riferimento. Se due tabelle pivot condividono lo stesso intervallo di origine, l'aggiornamento di una cache aggiorna entrambe.
 
 {{% /alert %}}
 
-L'esempio seguente crea due tabelle pivot sullo stesso intervallo sorgente per dimostrare questo comportamento di cache condivisa, modifica alcuni valori sorgente e quindi aggiorna tramite un riferimento a una cache.
+L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine per dimostrare questo comportamento di cache condivisa, modifica alcuni valori di origine e quindi aggiorna tramite un riferimento alla cache.
 
 ```java
 import com.aspose.cells.*;
@@ -216,7 +216,7 @@ worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// Scrivi circa 9 righe di dati (uva / mirtillo / kiwi / ciliegia tra 2020-2021)
+// Scrivi circa 9 righe di dati (uva / mirtillo / kiwi / ciliegia negli anni 2020-2021)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -259,7 +259,7 @@ pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 // Aggiungi una SECONDA tabella pivot "Pivot2" ancorata a E15 utilizzando lo STESSO intervallo di origine A1:C9
-// Sia Pivot1 che Pivot2 condividono un singolo PivotCache perché l'intervallo di origine è identico.
+// Sia Pivot1 che Pivot2 condividono un unico PivotCache perché l'intervallo di origine è identico.
 int pivotIndex2 = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
 PivotTable pivotTable2 = worksheet.getPivotTables().get(pivotIndex2);
 
@@ -282,13 +282,13 @@ pivotTable1.refreshData();
 workbook.save("output.xlsx");
 ```
 
-### Solo vista/layout modificato — Usa `calculateData()`
+### Solo vista/layout modificati — Usare `calculateData()`
 
-Se i dati sorgente *non* sono cambiati ma solo le impostazioni di vista o layout della tabella pivot sono state modificate (ad esempio, un campo è stato spostato in un'area diversa, o un'impostazione di aggiornamento all'apertura è stata attivata/disattivata), non c'è bisogno di tornare all'origine dati. La cache contiene già i dati corretti; solo la `PivotTable` renderizzata ha bisogno di ricalcolo. In questo caso, `pivotTable.calculateData()` è la scelta giusta.
+Se i dati di origine *non* sono cambiati ma sono state modificate solo le impostazioni di vista o di layout della tabella pivot (ad esempio, un campo è stato spostato in un'area diversa, o è stata attivata/disattivata un'impostazione di aggiornamento all'apertura), non è necessario tornare all'origine dati. La cache contiene già i dati corretti; deve essere ricalcolata solo la `PivotTable` visualizzata. In questo caso, `pivotTable.calculateData()` è la scelta giusta.
 
-Questo evita l'inutile recupero dall'origine ed è significativamente più veloce quando molte tabelle pivot condividono la stessa cache.
+Ciò evita il recupero non necessario dei dati di origine ed è significativamente più veloce quando molte tabelle pivot condividono la stessa cache.
 
-L'esempio seguente modifica una proprietà non legata alla sorgente della tabella pivot e quindi chiama `calculateData()` per renderizzarla di nuovo dalla cache esistente.
+L'esempio seguente modifica una proprietà non relativa all'origine della tabella pivot e quindi chiama `calculateData()` per ridisegnarla dalla cache esistente.
 
 ```java
 import com.aspose.cells.*;
@@ -301,37 +301,37 @@ worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// Scrivi 8 righe di dati (righe 2-9, adattandosi all'intervallo di origine A1:C9)
+// Scrivi 8 righe di dati (righe 2-9, adattandosi all'intervallo sorgente A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("B2").putValue(2020);.
 worksheet.getCells().get("C2").putValue(100);
 
 worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("B3").putValue(2020);.
 worksheet.getCells().get("C3").putValue(200);
 
 worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("B4").putValue(2020);.
 worksheet.getCells().get("C4").putValue(300);
 
 worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("B5").putValue(2020);.
 worksheet.getCells().get("C5").putValue(400);
 
 worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("B6").putValue(2021);.
 worksheet.getCells().get("C6").putValue(150);
 
 worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("B7").putValue(2021);.
 worksheet.getCells().get("C7").putValue(250);
 
 worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("B8").putValue(2021);.
 worksheet.getCells().get("C8").putValue(350);
 
 worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("B9").putValue(2021);.
 worksheet.getCells().get("C9").putValue(450);
 
 // Aggiungi una tabella pivot denominata "Pivot1" posizionata nella cella di destinazione E3, con origine da A1:C9
@@ -343,13 +343,13 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-// Modifica una proprietà di visualizzazione/layout -- questa è una modifica solo di presentazione,
-// quindi NON richiede la rilettura dei dati di origine tramite PivotCache.Refresh().
+// Modifica una proprietà di visualizzazione/layout -- questa è una modifica solo di presentazione.
+// quindi NON richiede la rilettura dei dati sorgente tramite PivotCache.Refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
 
-// calculateData() ridisegna la visualizzazione di QUESTA tabella pivot (dati + stile) dai
-// dati già contenuti nel PivotCache. Poiché i dati di origine non sono cambiati,
-// non viene eseguito alcun ritorno all'origine -- solo i valori memorizzati nella cache vengono ricalcolati
+// calculateData() ri-renderizza la visualizzazione di QUESTA tabella pivot (dati + stile) dai dati
+// già presenti nella PivotCache. Poiché i dati sorgente non sono cambiati.
+// non viene eseguito alcun round-trip verso la sorgente -- vengono solo ricalcolati i valori memorizzati nella cache
 // nelle celle del foglio di lavoro.
 pivotTable.calculateData();
 
@@ -359,11 +359,11 @@ workbook.save("output.xlsx");
 
 ## Ottenere tutte le tabelle pivot che condividono la stessa PivotCache
 
-Una cartella di lavoro spesso contiene molte tabelle pivot che poggiano tutte su una cache condivisa. Per enumerarle, ad esempio prima di eseguire un aggiornamento in batch o per diagnosticare l'impatto della cache condivisa, usa `PivotCache.getPivotTables()`. Questo metodo restituisce la raccolta di ogni `PivotTable` che dipende dalla cache data.
+Una cartella di lavoro spesso contiene molte tabelle pivot che poggiano tutte su una cache condivisa. Per enumerarle, ad esempio prima di eseguire un aggiornamento in batch o per diagnosticare l'impatto della cache condivisa, utilizzare `PivotCache.getPivotTables()`. Questo metodo restituisce la raccolta di tutte le `PivotTable` che dipendono dalla cache specificata.
 
-Questo è anche il modo più diretto per confermare che due tabelle pivot condividono effettivamente la stessa istanza di `PivotCache`: puoi confrontare i riferimenti alla cache (usando l'operatore `==`), o semplicemente iterare la raccolta restituita da `getPivotTables()` e osservare quali tabelle pivot appaiono in essa.
+Questo è anche il modo più diretto per verificare che due tabelle pivot condividano effettivamente la stessa istanza di `PivotCache`: è possibile confrontare i riferimenti alla cache (usando l'operatore `==`) oppure semplicemente scorrere la raccolta restituita da `getPivotTables()` e osservare quali tabelle pivot vi compaiono.
 
-L'esempio seguente crea due tabelle pivot sullo stesso intervallo sorgente, verifica che condividano la stessa istanza di cache e quindi enumera le tabelle pivot della cache.
+L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine, verifica che condividano la stessa istanza di cache e quindi enumera le tabelle pivot della cache.
 
 ```java
 import com.aspose.cells.*;
@@ -438,9 +438,9 @@ for (PivotTable pt : sharedPivotTables)
 workbook.save("output.xlsx");
 ```
 
-## Migrazione dall'obsoleto `PivotTable.refreshData()`
+## Migrazione dal metodo obsoleto `PivotTable.refreshData()`
 
-Prima di Aspose.Cells for Java v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.refreshData()` su ogni tabella pivot individualmente. A partire dalla v26.7, quel metodo è contrassegnato come **obsoleto** e dovrebbe essere sostituito con le API consapevoli della cache descritte sopra.
+Prima di Aspose.Cells for Java v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.refreshData()` su ciascuna tabella pivot individualmente. A partire dalla v26.7, tale metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
 
 Ci sono due motivi per cui l'approccio `refreshData()` per tabella è problematico nelle cartelle di lavoro reali:
 
@@ -449,11 +449,11 @@ Ci sono due motivi per cui l'approccio `refreshData()` per tabella è problemati
 
 Le sostituzioni consigliate sono:
 
-- **Aggiorna TUTTE le tabelle pivot nella cartella di lavoro** → usa `workbook.refreshAll();`
-- **Aggiorna ALCUNE di esse** → usa `pivotTable.getPivotCache().refresh();` per una cache. Poiché la cache è condivisa, questa singola chiamata aggiorna ogni tabella pivot costruita sopra quella cache. Altre tabelle pivot che poggiano su una cache già aggiornata possono essere tranquillamente saltate.
-- **Solo la vista/layout della pivot è cambiato** → usa `pivotTable.calculateData();` per renderizzare di nuovo dalla cache esistente senza alcun round-trip verso l'origine.
+- **Aggiornare TUTTE le tabelle pivot nella cartella di lavoro** → utilizzare `workbook.refreshAll();`
+- **Aggiornarne ALCUNE** → utilizzare `pivotTable.getPivotCache().refresh();` per una cache. Poiché la cache è condivisa, questa singola chiamata aggiorna ogni tabella pivot costruita sopra quella cache. Altre tabelle pivot che poggiano su una cache già aggiornata possono essere tranquillamente saltate.
+- **Solo la vista/layout della pivot è cambiato** → utilizzare `pivotTable.calculateData();` per ridisegnare dalla cache esistente senza alcun round-trip verso l'origine.
 
-L'esempio seguente dimostra il nuovo pattern efficiente per le cartelle di lavoro con più tabelle pivot che condividono una singola cache.
+L'esempio seguente mostra il nuovo schema efficiente per le cartelle di lavoro con più tabelle pivot che condividono una singola cache.
 
 ```java
 import com.aspose.cells.*;
@@ -462,7 +462,7 @@ import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 
-// --- Costruisci i dati di origine: Frutto / Anno / Importo (intestazione + 9 righe) ---
+// --- Costruisci i dati di origine: Frutta / Anno / Importo (intestazione + 9 righe) ---
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -491,14 +491,14 @@ pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
 
 // --- Modifica diversi valori di Importo nei dati di origine ---
-sheet.getCells().get("C2").putValue(5000);   // Grape  2020
-sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
-sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
+sheet.getCells().get("C2").putValue(5000);   // Uva 2020
+sheet.getCells().get("C5").putValue(7500);   // Ciliegia 2020
+sheet.getCells().get("C9").putValue(9500);   // Ciliegia 2021
 
-// --- NUOVO schema v26.7+: aggiorna la cache UNA VOLTA, quindi ri-renderizza secondo necessità ---
+// --- NUOVO schema v26.7+: aggiorna la cache UNA VOLTA, quindi rirenderizza secondo necessità ---
 pivotTable1.getPivotCache().refresh();
 
-// Ri‑renderizza la vista/layout della seconda tabella pivot senza toccare l'origine
+// Rirenderizza la vista/layout della seconda tabella pivot senza toccare l'origine
 pivotTable2.calculateData();
 
 workbook.save("output.xlsx");
@@ -510,12 +510,19 @@ La tabella seguente riassume le API di aggiornamento disponibili e quando scegli
 
 | Obiettivo | API consigliata | Note |
 |------|-----------------|-------|
-| Aggiornare tutto nella cartella di lavoro | `Workbook.refreshAll()` | Una sola chiamata; copre tutte le cache e tabelle. |
-| Aggiornare solo le tabelle pivot su un singolo foglio | `Worksheet.refreshPivotTables()` | Limitato a un foglio di lavoro. |
-| Dati sorgente modificati per una cache | `pivotTable.getPivotCache().refresh()` | Aggiorna TUTTE le tabelle pivot su quella cache condivisa. |
-| Solo le impostazioni di vista/layout sono cambiate | `pivotTable.calculateData()` | Salta l'inutile round-trip verso l'origine. |
-| Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.getPivotTables()` | Usa per enumerare prima dell'aggiornamento in blocco. |
+| Aggiornare tutto nella cartella di lavoro | `Workbook.refreshAll()` | Una sola chiamata; copre tutte le cache e le tabelle. |
+| Aggiornare solo le tabelle pivot su un singolo foglio | `Worksheet.refreshPivotTables()` | Limitato a un singolo foglio di lavoro. |
+| Dati di origine cambiati per una cache | `pivotTable.getPivotCache().refresh()` | Aggiorna TUTTE le tabelle pivot su quella cache condivisa. |
+| Sono cambiate solo le impostazioni di vista/layout | `pivotTable.calculateData()` | Evita il round-trip non necessario verso l'origine. |
+| Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.getPivotTables()` | Utilizzare per enumerare prima dell'aggiornamento in blocco. |
 
-In pratica, preferisci le API basate sulla cache rispetto all'obsoleto `refreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e ti permettono di scegliere l'ambito più piccolo che soddisfa la tua esigenza di aggiornamento.
+In pratica, preferire le API basate sulla cache rispetto al metodo obsoleto `refreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e consentono di scegliere l'ambito più piccolo che soddisfa il requisito di aggiornamento.
+
+## Articoli correlati
+
+- [Inserimento di un'immagine in una cella](/cells/it/java/inserting-an-image-into-a-cell/)
+- [Lettura e scrittura di file DBF](/cells/it/java/dbf/)
+- [Divisione dei file Excel in più file](/cells/it/java/splitting-excel-files-into-multiple-files/)
+- [Sparkline in Aspose.Cells for Java](/cells/it/java/sparkline/)
 
 {{< app/cells/assistant language="java" >}}

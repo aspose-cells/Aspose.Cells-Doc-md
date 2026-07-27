@@ -2,7 +2,7 @@
 title: Golang ile C++ kullanarak Pivot Tablo yu ODS Dosyası olarak Kaydet
 linktitle: Pivot Tabloyu ODS Dosyasına Kaydet
 type: docs
-weight: 150
+weight: 800
 url: /tr/go-cpp/save-pivot-table-in-ods-file/
 description: Aspose.Cells for C++ kullanarak pivot tablolarını ODS dosyalarında kaydetmeyi öğrenin.
 ---

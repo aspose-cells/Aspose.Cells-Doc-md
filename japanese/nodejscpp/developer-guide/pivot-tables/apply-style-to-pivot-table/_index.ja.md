@@ -1,6 +1,6 @@
 ---
-title: ピボットテーブルへのスタイルの適用
-linktitle: ピボットテーブルへのスタイルの適用
+title: Aspose.Cells for .NET でピボットテーブルにスタイルを適用する
+linktitle: ピボットテーブルにスタイルを適用
 description: Aspose.Cells for Node.js via C++でピボットテーブルに組み込みスタイルおよびカスタムスタイルを適用する方法を学びます。レガシーXLSの自動書式、モダンExcel 2007+の名前付きスタイル、カスタムピボットテーブルスタイル、FormatAllショートカットについて解説します。
 keywords: Aspose.Cells Node.js via C++ ピボットテーブル スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
 type: docs

@@ -1,11 +1,11 @@
 ---
-title: Campos de fila y columna en Aspose.Cells for .NET
+title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
 linktitle: Campos de fila y columna
 description: Aprenda a agregar campos base a las regiones de fila y columna de una tabla dinámica y a controlar los subtotales de los campos dinámicos con PivotField.SetSubtotals en Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/net/row-and-column-fields/
+url: /es/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

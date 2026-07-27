@@ -1,11 +1,11 @@
 ---
-title: PivotTable-Zeilen- und Spaltenfelder in Aspose.Cells for .NET
+title: Zeilen- und Spaltenfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen
 linktitle: Zeilen- und Spaltenfelder
 description: Erfahren Sie, wie Sie Zeilen- und Spaltenfelder zu einer PivotTable hinzufügen und PivotField-Zwischensummen mit PivotField.SetSubtotals und PivotFieldSubtotalType in Aspose.Cells for .NET steuern.
 keywords: Aspose.Cells, .NET, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen, C#, Excel-PivotTable
 type: docs
 weight: 220
-url: /de/net/row-and-column-fields/
+url: /de/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

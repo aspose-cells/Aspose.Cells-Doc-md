@@ -1,7 +1,7 @@
 ---
 title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
-weight: 50
+weight: 700
 url: /tr/java/delete-pivot-table-from-a-worksheet/
 ---
 

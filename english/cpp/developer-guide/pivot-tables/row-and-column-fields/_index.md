@@ -1,11 +1,11 @@
 ---
-title: Row and Column Fields in Aspose.Cells for C++
+title: Add Pivot Table Row and Column Fields in Aspose.Cells for .NET
 linktitle: Row and Column Fields
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /cpp/row-and-column-fields/
+url: /cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

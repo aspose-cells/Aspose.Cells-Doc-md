@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te Satır ve Sütun Alanları
+title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for .NET'te PivotField.SetSubtotals kullanarak bir pivot tablosunun satır ve sütun bölgelerine temel alanların nasıl ekleneceğini ve pivot alanı alt toplamlarının nasıl kontrol edileceğini öğrenin.
 keywords: Aspose.Cells, .NET, pivot tablo, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs
 weight: 220
-url: /tr/net/row-and-column-fields/
+url: /tr/net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

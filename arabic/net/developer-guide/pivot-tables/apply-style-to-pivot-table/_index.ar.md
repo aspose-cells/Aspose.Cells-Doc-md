@@ -1,6 +1,6 @@
 ---
-title: تطبيق الأنماط على الجداول المحورية
-linktitle: تطبيق الأنماط
+title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells لـ .NET
+linktitle: تطبيق أنماط الجداول المحورية
 description: تعرّف على كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية في Aspose.Cells for .NET، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، وأنماط Excel 2007+ الحديثة المُسماة، وأنماط الجداول المحورية المخصصة، واختصار FormatAll.
 keywords: Aspose.Cells .NET pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

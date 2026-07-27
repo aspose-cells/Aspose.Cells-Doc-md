@@ -2,7 +2,7 @@
 title: Spara pivottabell i ODS fil med C++
 linktitle: Spara pivottabell i ODS fil
 type: docs
-weight: 150
+weight: 800
 url: /sv/cpp/save-pivot-table-in-ods-file/
 description: Lär dig hur man sparar pivottabeller i ODS filer med Aspose.Cells for C++.
 ---

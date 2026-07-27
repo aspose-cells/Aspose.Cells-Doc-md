@@ -1,11 +1,11 @@
 ---
-title: حقول الصفوف والأعمدة في Aspose.Cells for Python via .NET
+title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
 linktitle: حقول الصفوف والأعمدة
 description: تعرّف على كيفية إضافة حقول أساسية إلى منطقتي الصفوف والأعمدة في الجدول المحوري والتحكم في الإجماليات الفرعية لحقول المحور باستخدام PivotField.set_subtotals في Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, pivot table, row field, column field, PivotField, set_subtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /ar/python-net/row-and-column-fields/
+url: /ar/python-net/pivot-table-add-row-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

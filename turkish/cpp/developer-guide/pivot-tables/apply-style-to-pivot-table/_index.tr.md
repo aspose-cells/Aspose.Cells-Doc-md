@@ -1,6 +1,6 @@
 ---
-title: Pivot Tablolarına Stil Uygulama
-linktitle: Pivot Tablolarına Stil Uygulama
+title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for C++ içinde yerleşik ve özel stillerin pivot tablolara nasıl uygulanacağını öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu dahil.
 keywords: Aspose.Cells C++ pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs

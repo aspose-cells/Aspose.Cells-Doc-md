@@ -1,6 +1,6 @@
 ---
 title: Pivot Tabloları
 type: docs
-weight: 50
+weight: 160
 url: /tr/go-cpp/pivot-tables/
 ---

@@ -1,6 +1,6 @@
 ---
-title: تطبيق الأنماط على الجداول المحورية
-linktitle: تطبيق الأنماط على الجداول المحورية
+title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells لـ .NET
+linktitle: تطبيق أنماط الجداول المحورية
 description: تعرف على كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية في Aspose.Cells for Node.js via Java، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS وأنماط Excel 2007+ الحديثة المسماة وأنماط الجداول المحورية المخصصة والاختصار FormatAll.
 keywords: Aspose.Cells Node.js via Java pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs

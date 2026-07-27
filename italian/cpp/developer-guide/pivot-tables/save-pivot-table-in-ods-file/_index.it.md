@@ -2,7 +2,7 @@
 title: Salva la tabella pivot in file ODS con C++
 linktitle: Salva la tabella pivot in file ODS
 type: docs
-weight: 150
+weight: 800
 url: /it/cpp/save-pivot-table-in-ods-file/
 description: Impara come salvare le tabelle pivot in file ODS usando Aspose.Cells for C++.
 ---

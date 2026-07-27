@@ -1,7 +1,7 @@
 ---
 title: Удалить сводную таблицу из листа
 type: docs
-weight: 60
+weight: 700
 url: /ru/nodejs-cpp/delete-pivot-table-from-a-worksheet/
 description: Код Aspose.Cells for Node.js via C++ для удаления сводной таблицы из рабочих листов Excel
 keywords: Aspose.Cells for Node.js via C++ Excel, библиотека Excel Node.js, удаление сводной таблицы с листа, удаление сводной таблицы из Excel, как удалить сводную таблицу с помощью Aspose.Cells for Node.js via C++, удаление сводной таблицы, удаление сводной таблицы из Excel, удаляет сводную таблицу, Aspose.Cells for Node.js via C++ удаляет сводную таблицу, удалить сводную таблицу, удалить сводную таблицу, как удалить сводную таблицу

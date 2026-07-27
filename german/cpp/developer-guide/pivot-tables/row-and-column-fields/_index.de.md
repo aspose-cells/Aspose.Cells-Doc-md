@@ -1,11 +1,11 @@
 ---
-title: Zeilen- und Spaltenfelder in Aspose.Cells for C++
+title: Zeilen- und Spaltenfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen
 linktitle: Zeilen- und Spaltenfelder
 description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereichen einer PivotTable hinzufügen und PivotField-Zwischensummen mit PivotField.SetSubtotals in Aspose.Cells for C++ steuern.
 keywords: Aspose.Cells, C++, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
-url: /de/cpp/row-and-column-fields/
+url: /de/cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

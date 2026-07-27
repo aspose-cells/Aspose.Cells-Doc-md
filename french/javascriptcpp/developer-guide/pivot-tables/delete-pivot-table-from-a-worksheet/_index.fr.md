@@ -1,7 +1,7 @@
 ---
 title: Supprimer le tableau croisé dynamique d une feuille de calcul
 type: docs
-weight: 60
+weight: 700
 url: /fr/javascript-cpp/delete-pivot-table-from-a-worksheet/
 description: Utiliser le code Script via C++ pour supprimer un tableau croisé dynamique dans des feuilles Excel
 keywords: Script via C++ pour Excel, bibliothèque JavaScript Excel, supprimer un tableau croisé dynamique d’une feuille, comment supprimer un tableau croisé dynamique avec Script via C++, supprimer un tableau croisé dynamique, supprimer un tableau croisé dynamique d’Excel, supprimer un tableau croisé dynamique, Script via C++ pour supprimer un tableau croisé dynamique, supprimer un tableau croisé dynamique, comment supprimer un tableau croisé dynamique

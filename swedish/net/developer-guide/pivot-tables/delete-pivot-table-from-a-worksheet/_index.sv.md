@@ -1,7 +1,7 @@
 ---
 title: Ta bort pivottabell från ett arbetsblad
 type: docs
-weight: 60
+weight: 700
 url: /sv/net/delete-pivot-table-from-a-worksheet/
 description: C# kod för att ta bort PivotTable för Excel ark
 keywords: c# ta bort pivottabell från arbetsblad, c# ta bort pivottabell från excel, hur man tar bort pivottabell med c#, ta bort pivottabell med c#, ta bort pivottabell från excel med c#, c# ta bort pivottabell, c# ta bort pivottabell, ta bort pivottabell, ta bort pivottabell, hur man tar bort pivottabell

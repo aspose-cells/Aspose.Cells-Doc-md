@@ -1,7 +1,7 @@
 ---
 title: Elimina la tabella pivot da un foglio di lavoro
 type: docs
-weight: 60
+weight: 700
 url: /it/net/delete-pivot-table-from-a-worksheet/
 description: Codice C# per rimuovere le tabelle pivot dai fogli di calcolo di Excel
 keywords: c# rimuovere tabella pivot dal foglio di lavoro, c# rimuovere tabella pivot da excel, come eliminare la tabella pivot con c#, eliminare la tabella pivot con c#, eliminare la tabella pivot da excel con c#, c# eliminare tabella pivot, c# rimuovere tabella pivot, rimuovere tabella pivot, eliminare tabella pivot, come eliminare la tabella pivot

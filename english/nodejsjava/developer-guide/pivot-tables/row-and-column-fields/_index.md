@@ -1,11 +1,11 @@
 ---
-title: Row and Column Fields in Aspose.Cells for Node.js via Java
+title: Add Pivot Table Row and Column Fields in Aspose.Cells for .NET
 linktitle: Row and Column Fields
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via Java
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /nodejs-java/row-and-column-fields/
+url: /nodejs-java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

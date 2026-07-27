@@ -2,7 +2,7 @@
 title: 用 C++ 在 ODS 文件中保存数据透视表
 linktitle: 在 ODS 文件中保存数据透视表
 type: docs
-weight: 150
+weight: 800
 url: /zh/cpp/save-pivot-table-in-ods-file/
 description: 学习如何使用 Aspose.Cells for C++ 在 ODS 文件中保存数据透视表。
 ---

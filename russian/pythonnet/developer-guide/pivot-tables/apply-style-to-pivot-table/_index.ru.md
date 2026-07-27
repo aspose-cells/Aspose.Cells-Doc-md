@@ -1,6 +1,6 @@
 ---
-title: Применение стилей к сводным таблицам
-linktitle: Применение стилей к сводным таблицам
+title: Применить стили к сводным таблицам в Aspose.Cells для .NET
+linktitle: Применить стили к сводным таблицам
 description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Python via .NET, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и удобный метод FormatAll.
 keywords: Aspose.Cells Python via .NET стиль сводной таблицы, PivotTableStyleType, AutoFormatType, FormatAll, пользовательский стиль, PivotTableStyleName, TableStyles
 type: docs

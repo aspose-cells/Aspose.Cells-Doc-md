@@ -1,6 +1,6 @@
 ---
-title: Actualización de tablas dinámicas en Aspose.Cells for .NET
-linktitle: Actualización de tablas dinámicas
+title: Actualizar tablas dinámicas y memorias caché de tablas dinámicas en Aspose.Cells para .NET
+linktitle: Actualizar tablas dinámicas
 description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells for .NET usando la API de actualización de tablas dinámicas de v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
 keywords: Aspose.Cells, .NET, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

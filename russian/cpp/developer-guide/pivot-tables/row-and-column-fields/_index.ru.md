@@ -1,11 +1,11 @@
 ---
-title: Поля строк и столбцов в Aspose.Cells for C++
+title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
 linktitle: Поля строк и столбцов
 description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять промежуточными итогами полей сводной таблицы с помощью PivotField.SetSubtotals в Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/cpp/row-and-column-fields/
+url: /ru/cpp/pivot-table-add-row-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

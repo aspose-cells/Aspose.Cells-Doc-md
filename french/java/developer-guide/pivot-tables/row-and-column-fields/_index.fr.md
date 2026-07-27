@@ -1,11 +1,11 @@
 ---
-title: Champs de ligne et de colonne dans Aspose.Cells for Java
+title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells pour .NET
 linktitle: Champs de ligne et de colonne
 description: Découvrez comment ajouter des champs de base aux zones de ligne et de colonne d'un tableau croisé dynamique et contrôler les sous-totaux des champs croisés dynamiques à l'aide de PivotField.setSubtotals dans Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, setSubtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/java/row-and-column-fields/
+url: /fr/java/pivot-table-add-row-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

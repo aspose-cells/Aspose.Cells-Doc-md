@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for Node.js via Java'da Pivot Tablolarını Yenileme
-linktitle: Aspose.Cells for Node.js via Java'da Pivot Tablolarını Yenileme
-description: Aspose.Cells for Node.js via Java'da v26.7+ pivot yenileme API'sini kullanarak pivot tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale, RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
-keywords: Aspose.Cells, Node.js, Java, pivot tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Aspose.Cells for Node.js via Java'da Özet Tabloları Yenileme
+linktitle: Aspose.Cells for Node.js via Java'da Özet Tabloları Yenileme
+description: Aspose.Cells for Node.js via Java'da v26.7+ pivot yenileme API'sini kullanarak özet tabloları yenilemeyi öğrenin. Bu makale RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
+keywords: Aspose.Cells, Node.js, Java, özet tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /tr/nodejs-java/refresh-pivot-table/
@@ -12,62 +12,62 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, pivot verilerini dört farklı kapsamda — çalışma kitabının tamamından tek bir pivot tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sağlar. **Aspose.Cells for Node.js via Java v26.7** ile başlayarak, eski `PivotTable.RefreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
+Aspose.Cells, özet verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir özet tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sağlar. **Aspose.Cells for Node.js via Java v26.7** sürümünden itibaren, eski yöntem olan `PivotTable.RefreshData()` kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli ve önbellek farkındaki (cache-aware) API'lerle değiştirilmelidir.
 
 {{% /alert %}}
 
 ## Giriş
 
-Bir pivot tablosunu yenileme nadiren tek bir işlemdir. Sahnenin arkasında Aspose.Cells, orijinal kaynak verilerinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri tutar. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
+Bir özet tablosunu yenileme nadiren tek bir işlemdir. Sahne arkasında Aspose.Cells, orijinal kaynak verilerinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri tutar. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
 
-Dört katmanlı veri zinciri şöyledir:
+Dört katmanlı veri zinciri şudur:
 
-1. **Veri Kaynağı** — ham değerlerin bulunduğu orijinal çalışma sayfası aralıkları, veritabanı sorgusu veya konsolidasyon aralığı.
-2. **PivotCache** — kaynak verilerin bellek içi anlık görüntüsü. Her pivot tablo bir `PivotCache` üzerine inşa edilir; tüm veriler burada toplanır ve toplanır (aggregate).
-3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` yalnızca kendi `PivotCache`'inden okur, doğrudan veri kaynağından değil.
-4. **Cells** — `PivotTable`'ın hesaplanan değerlerini ve stillerini işlediği çalışma sayfası `Cells` koleksiyonu.
+1. **Veri Kaynağı** — ham değerlerin yaşadığı orijinal çalışma sayfası aralıkları, veritabanı sorgusu veya konsolidasyon aralığı.
+2. **PivotCache** — kaynak verilerin bellek içi anlık görüntüsü. Her özet tablosu bir `PivotCache` üzerine kuruludur; tüm veriler burada toplanır ve toplanır (aggregate).
+3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` yalnızca kendi `PivotCache`'inden okur, doğrudan veri kaynağından asla okumaz.
+4. **Cells** — `PivotTable`'ın hesaplanmış değerlerini ve stillerini işlediği çalışma sayfası `Cells` hücreleri.
 
-Özellikle önemli bir kavram **paylaşılan önbellek (shared cache)** kavramıdır. Bir çalışma kitabındaki birden çok pivot tablo aynı kaynak aralığa başvurduğunda, bunlar *tek bir* `PivotCache` örneğini paylaşır. Tek bir `PivotCache`'e birçok pivot tablo tarafından başvurulabilir ve bu önbelleği yenilemek, ona bağlı olan her `PivotTable`'ı bir defada yeniler.
+Özellikle önemli bir kavram **paylaşılan önbellek**tir. Bir çalışma kitabındaki birden çok özet tablosu aynı kaynak aralığa başvurduğunda, *tek bir* `PivotCache` örneğini paylaşırlar. Tek bir `PivotCache`'e birçok özet tablosu başvurabilir ve bu önbelleği yenilemek, ona bağlı olan her `PivotTable`'ı aynı anda yeniler.
 
 {{% alert color="primary" %}}
 
-`PivotCache.SourceType` (enum `PivotTableSourceType`), önbellek verilerinin nereden geldiğini belirtir. v26.7 itibarıyla, `PivotCache.Refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler — yani çalışma sayfası aralıklarında bulunan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) henüz önbellek API'si aracılığıyla yenilenemez.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) önbellek verilerinin nereden geldiğini belirtir. v26.7 itibarıyla, `PivotCache.Refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler — yani çalışma sayfası aralıklarında yaşayan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) henüz önbellek API'si aracılığıyla yenilenebilir değildir.
 
 {{% /alert %}}
 
-Bu zincir nedeniyle Aspose.Cells'te iki temel yenileme yolu vardır:
+Bu zincir nedeniyle Aspose.Cells'de iki temel yenileme yolu vardır:
 
-- **`PivotCache.Refresh()`** — kaynak → önbellek verilerini yeniden yükler VE tek bir işlemde ona bağlı tüm `PivotTable`'ları yeniden hesaplar.
-- **`PivotTable.CalculateData()`** — veri kaynağına geri dönüş olmadan, zaten önbelleğe alınmış verilerden tek bir `PivotTable`'ın görüntüsünü yeniden hesaplar.
+- **`PivotCache.Refresh()`** — kaynaktan önbelleğe yeniden yükler VE tek bir işlemde tüm bağımlı `PivotTable`'ları yeniden hesaplar.
+- **`PivotTable.CalculateData()`** — önbelleğe alınmış verilerden tek bir `PivotTable`'ın görüntüsünü yeniden hesaplar; veri kaynağına geri dönmez.
 
-Bu makaledeki tüm senaryolar çalışma sayfası hücresi kaynak verilerini kullandığından, kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı gibi çalışır.
+Bu makaledeki tüm senaryolar çalışma sayfası hücresi kaynak verilerini kullanır, dolayısıyla kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı gibi çalışır.
 
 ## Gerekli İçe Aktarmalar
 
-Bu makaledeki tüm JavaScript örnekleri Aspose.Cells for Node.js via Java modülünü gerektirir. Pivot türleri, aynı modülün parçası olan `Aspose.Cells.Pivot` namespace'inde bulunur:
+Bu makaledeki tüm JavaScript örnekleri Aspose.Cells for Node.js via Java modülünü gerektirir. Pivot türleri aynı modülün parçası olan `Aspose.Cells.Pivot` namespace'inde yaşar:
 
 - `const aspose = require('aspose.cells');`
 - Veya belirli içe aktarmalar için: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
-## Çalışma Kitabındaki Tüm Pivot Tablolarını Yenileme
+## Çalışma Kitabındaki Tüm Özet Tablolarını Yenileme
 
-Çalışma kitabındaki her pivot önbelleğinin ve her pivot tablosunun en güncel kaynak verileri yansıtmasını sağlamanız gerektiğinde, en basit ve en kapsamlı API `Workbook.RefreshAll()` yöntemidir. Tek bir çağrı çalışma kitabının tamamını dolaşır — her `PivotCache`'i kendi kaynağından yeniler ve ardından ona bağlı her `PivotTable`'ı yeniden hesaplar. Bu, performansın sorun olmadığı genel, tam belge yenilemeleri için önerilen yaklaşımdır.
+Çalışma kitabındaki her pivot önbelleğinin ve her özet tablosunun en son kaynak verileri yansıtmasını sağlamanız gerektiğinde, en basit ve en kapsamlı API `Workbook.RefreshAll()` yöntemidir. Tek bir çağrı tüm çalışma kitabını dolaşır — her `PivotCache`'i kaynağından yeniler ve ardından bağımlı olan her `PivotTable`'ı yeniden hesaplar. Performansın önemli olmadığı genel, tam belge yenilemeleri için önerilen yaklaşım budur.
 
-Aşağıdaki örnek, Fruit/Year/Amount kaynak aralığına sahip bir çalışma kitabı oluşturur, bir pivot tablo oluşturur, bazı kaynak değerlerini değiştirir ve ardından her şeyi tek bir çağrıda güncel hale getirmek için `RefreshAll()` yöntemini kullanır.
+Aşağıdaki örnek, bir Fruit/Year/Amount kaynak aralığına sahip bir çalışma kitabı oluşturur, bir özet tablosu oluşturur, bazı kaynak değerleri değiştirir ve ardından her şeyi tek bir çağrıda güncel hale getirmek için `RefreshAll()` yöntemini kullanır.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
 
-// Yeni bir çalışma kitabı oluştur
+// Create a new workbook
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 
-// A1:C1 hücrelerine başlık satırı yaz
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// A2:C9 hücrelerine veri satırları yaz (2020 ve 2021 yıllarına ait 8 satır meyve verisi)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -100,34 +100,34 @@ worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
 
-// Özet tablo ekle: kaynak aralık "A1:C9", hedef hücre "E3", ad "Pivot1"
+// Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
 const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
-// Özet tablo alanlarını ata: Satırlar'a Fruit, Sütunlar'a Year, Veri'ye Amount
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// Değişiklikleri simüle etmek için kaynak verilerdeki birkaç Amount değerini değiştir
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
 
-// Çalışma kitabındaki tüm özet tabloları / özet önbelleklerini yenile
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
 
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
-## Tek Bir Çalışma Sayfasındaki Tüm Pivot Tablolarını Yenileme
+## Tek Bir Çalışma Sayfasındaki Tüm Özet Tablolarını Yenileme
 
-Bazen yalnızca tek bir çalışma sayfasında bulunan pivot tablolarını yenilemeniz gerekir — örneğin, diğer çalışma sayfalarındaki pivot tablolarının ilgisiz olduğu biliniyorsa ve bunlara dokunulmaması gerektiğinde. Bu durum için Aspose.Cells, tek bir `Worksheet` örneğiyle sınırlı olan `Worksheet.RefreshPivotTables()` yöntemini sağlar.
+Bazen yalnızca belirli bir çalışma sayfasında yaşayan özet tablolarını yenilemeniz gerekir — örneğin, diğer çalışma sayfalarındaki özet tablolarının ilgisiz olduğu biliniyorsa ve bunlara dokunulmaması gerektiğinde. Bu durum için Aspose.Cells, tek bir `Worksheet` örneğine kapsamlandırılmış `Worksheet.RefreshPivotTables()` yöntemini sağlar.
 
-Bu, `Workbook.RefreshAll()` yönteminden daha seçicidir: yalnızca hedeflenen çalışma sayfasındaki pivot tabloları yenilenir, diğer çalışma sayfalarındaki pivot tablolarına dokunulmaz.
+Bu, `Workbook.RefreshAll()` yönteminden daha seçicidir: yalnızca hedeflenen çalışma sayfasındaki özet tabloları yenilenir, diğer çalışma sayfalarındaki özet tablolarına dokunulmaz.
 
-Aşağıdaki örnek aynı Fruit/Year/Amount kaynak verilerini doldurur, ilk çalışma sayfasına bir pivot tablo ekler, bazı kaynak değerlerini değiştirir ve ardından yalnızca o çalışma sayfasındaki pivot tablolarını yeniler.
+Aşağıdaki örnek aynı Fruit/Year/Amount kaynak verilerini doldurur, ilk çalışma sayfasına bir özet tablosu ekler, bazı kaynak değerleri değiştirir ve ardından yalnızca o çalışma sayfasındaki özet tablolarını yeniler.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -185,35 +185,35 @@ worksheet.refreshPivotTables();
 workbook.save("output.xlsx");
 ```
 
-## Tek Bir Pivot Tablosunu Yenileme
+## Tek Bir Özet Tablosunu Yenileme
 
-Tek bir pivot tablosu üzerinde ayrıntılı kontrol istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, aslında neyin değiştiğine bağlıdır: altta yatan kaynak veriler mi, yoksa yalnızca pivot tablosunun görünüm/düzen ayarları mı.
+Tek bir özet tablosu üzerinde ayrıntılı kontrol istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, aslında neyin değiştiğine bağlıdır: altta yatan kaynak veriler mi, yoksa yalnızca özet tablosunun görünüm/düzen ayarları mı.
 
 ### Kaynak Veriler Değişti — `PivotCache.Refresh()` Kullanın
 
-Altta yatan kaynak veriler değiştiyse, doğru giriş noktası `pivotTable.PivotCache.Refresh()` yöntemidir. Bu çağrı, kaynak verileri önbelleğe yeniden okur ve ardından o önbelleğe bağlı olan her `PivotTable`'ı yeniden hesaplar.
+Altta yatan kaynak veriler değiştiyse, doğru giriş noktası `pivotTable.PivotCache.Refresh()` yöntemidir. Bu çağrı, kaynak verileri önbelleğe yeniden okur ve ardından bu önbelleğe bağımlı olan her `PivotTable`'ı yeniden hesaplar.
 
 {{% alert color="primary" %}}
 
-Pivot tabloları tek bir `PivotCache` örneğini paylaştığı için, `PivotCache.Refresh()` çağrısı, başvurduğunuz tek tabloyu değil, aynı önbellek üzerine inşa edilmiş **tüm** pivot tabloları yeniden hesaplar. Eğer iki pivot tablo aynı kaynak aralığını paylaşıyorsa, bir önbelleği yenilemek her ikisini de yeniler.
+Özet tabloları tek bir `PivotCache` örneğini paylaştığından, `PivotCache.Refresh()` çağrısı o önbellek üzerine kurulmuş **tüm** özet tablolarını yeniden hesaplar — yalnızca başvurduğunuzu değil. İki özet tablosu aynı kaynak aralığını paylaşıyorsa, bir önbelleği yenilemek her ikisini de yeniler.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bu paylaşılan önbellek davranışını göstermek için aynı kaynak aralığında iki pivot tablo oluşturur, bazı kaynak değerlerini değiştirir ve ardından tek bir önbellek başvurusu üzerinden yenileme yapar.
+Aşağıdaki örnek, bu paylaşılan önbellek davranışını göstermek için aynı kaynak aralığında iki özet tablosu oluşturur, bazı kaynak değerleri değiştirir ve ardından bir önbellek başvurusu üzerinden yenileme yapar.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
 
-// Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş
+// Create a new workbook and access the first worksheet
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 
-// Başlık satırını yaz: Meyve / Yıl / Miktar
+// Write header row: Fruit / Year / Amount
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// Yaklaşık 9 veri satırı yaz (üzüm / yaban mersini / kivi / kiraz 2020-2021 arasında)
+// Write approximately 9 data rows (grape / blueberry / kiwi / cherry across 2020-2021)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -246,57 +246,57 @@ worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(800);
 
-// E3 hücresine bağlı ilk pivot tablosu "Pivot1" ekle, kaynak aralığı A1:C9
+// Add the first pivot table "Pivot1" anchored at cell E3, source range A1:C9
 const pivotIndex1 = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 const pivotTable1 = worksheet.getPivotTables().get(pivotIndex1);
 
-// Pivot1 için alanları ata
+// Assign fields for Pivot1
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// AYNI A1:C9 kaynak aralığını kullanarak E15'e bağlı İKİNCİ pivot tablosu "Pivot2" ekle
-// Pivot1 ve Pivot2, kaynak aralığı aynı olduğu için tek bir PivotCache'i paylaşır.
+// Add a SECOND pivot table "Pivot2" anchored at E15 using the SAME source range A1:C9
+// Both Pivot1 and Pivot2 share a single PivotCache because the source range is identical.
 const pivotIndex2 = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
 const pivotTable2 = worksheet.getPivotTables().get(pivotIndex2);
 
-// Pivot2 için aynı alanları ata
+// Assign the same fields for Pivot2
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// Veri değişikliğini simüle etmek için kaynak verideki birkaç Miktar hücresi değerini değiştir
+// Modify several Amount cell values in the source data to simulate a data change
 worksheet.getCells().get("C2").putValue(150);
 worksheet.getCells().get("C4").putValue(350);
 worksheet.getCells().get("C7").putValue(650);
 
-// Paylaşılan PivotCache'i yenile.
-// Pivot1 ve Pivot2 aynı PivotCache'i paylaştığı için, bu tek çağrı
-// güncellenmiş kaynaktan HER İKİ pivot tablosunu da (veri + stil) yeniler.
+// Refresh the shared PivotCache.
+// Because Pivot1 and Pivot2 share the same PivotCache, this single call
+// refreshes BOTH pivot tables (data + style) from the updated source.
 pivotTable1.getPivotCache().refresh();
 
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
 ### Yalnızca Görünüm/Düzen Değişti — `CalculateData()` Kullanın
 
-Kaynak veriler değişmediyse, ancak yalnızca pivot tablosunun görünüm veya düzen ayarları değiştirildiyse (örneğin, bir alan farklı bir alana taşındıysa veya açılışta yenileme ayarı değiştirildiyse), veri kaynağına geri dönüş gerekmez. Önbellek zaten doğru verileri tutuyor; yalnızca işlenmiş `PivotTable`'ın yeniden hesaplanması gerekir. Bu durumda `pivotTable.CalculateData()` doğru seçimdir.
+Kaynak veriler değişmemişse, ancak yalnızca özet tablosunun görünüm veya düzen ayarları değiştirilmişse (örneğin, bir alan farklı bir alana taşınmış veya açılışta yenileme ayarı değiştirilmişse), veri kaynağına geri dönmek gerekmez. Önbellek zaten doğru verileri tutar; yalnızca işlenmiş `PivotTable`'ın yeniden hesaplanması gerekir. Bu durumda, `pivotTable.CalculateData()` doğru seçimdir.
 
-Bu, gereksiz kaynak getirme işlemini önler ve birçok pivot tablo aynı önbelleği paylaştığında önemli ölçüde daha hızlıdır.
+Bu, gereksiz kaynak alımını önler ve birçok özet tablosu aynı önbelleği paylaştığında önemli ölçüde daha hızlıdır.
 
-Aşağıdaki örnek, pivot tablosunun kaynakla ilgili olmayan bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `CalculateData()` yöntemini çağırır.
+Aşağıdaki örnek, özet tablosunun kaynakla ilgisi olmayan bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `CalculateData()` yöntemini çağırır.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 
-// Meyve / Yıl / Miktar başlık satırını yaz
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
 
-// 8 veri satırı yaz (satır 2-9, kaynak aralığı A1:C9'a uyuyor)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -329,36 +329,36 @@ worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
 
-// Hedef hücre E3'e yerleştirilen, A1:C9'dan kaynak alan "Pivot1" adlı bir pivot tablo ekle
+// Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
 var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
-// Alanları ata: Satır'a Meyve, Sütun'a Yıl, Veri'ye Miktar
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// Bir görünüm/düzen özelliğini değiştir — bu yalnızca sunum amaçlı bir değişikliktir,
-// bu nedenle PivotCache.Refresh() aracılığıyla kaynak verilerin yeniden okunmasını gerektirmez.
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
 
-// CalculateData(), BU pivot tablosunun görüntüsünü (veri + stil) PivotCache'te
-// zaten tutulan verilerden yeniden oluşturur. Kaynak veri değişmediği için
-// kaynağa gidiş-dönüş yapılmaz — yalnızca önbelleğe alınmış değerler yeniden hesaplanarak
-// çalışma sayfası hücrelerine yazılır.
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
 
-// Çalışma kitabını diske kaydet
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 
-## Aynı PivotCache'i Paylaşan Tüm Pivot Tablolarını Alma
+## Aynı PivotCache'i Paylaşan Tüm Özet Tablolarını Alma
 
-Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde oturan birçok pivot tablosu içerir. Bunları numaralandırmak için — örneğin, toplu yenileme gerçekleştirmeden önce veya paylaşılan önbellek etkisini tanılamak için — `PivotCache.GetPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
+Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerine oturan birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin, toplu yenileme yapmadan önce veya paylaşılan önbellek etkisini tanılamak için — `PivotCache.GetPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağımlı olan her `PivotTable`'ın koleksiyonunu döndürür.
 
-Bu, iki pivot tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya basitçe `GetPivotTables()` tarafından döndürülen koleksiyonu yineleyerek hangi pivot tablolarının onda göründüğünü gözlemleyebilirsiniz.
+Bu, aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `GetPivotTables()` tarafından döndürülen koleksiyonu yineleyerek hangi özet tablolarının göründüğünü gözlemleyebilirsiniz.
 
-Aşağıdaki örnek, aynı kaynak aralığında iki pivot tablo oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin pivot tablolarını numaralandırır.
+Aşağıdaki örnek, aynı kaynak aralığında iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -430,28 +430,28 @@ for (let pt of sharedPivotTables) {
 workbook.save("output.xlsx");
 ```
 
-## Kullanımdan Kaldırılan `PivotTable.RefreshData()` Yönteminden Geçiş
+## Eski `PivotTable.RefreshData()` Yönteminden Geçiş
 
-Aspose.Cells for Node.js via Java v26.7'den önce, bir pivot tablosunu yenilemenin standart yolu her pivot tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
+Aspose.Cells for Node.js via Java v26.7'den önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiş olup yukarıda açıklanan önbellek farkındaki API'lerle değiştirilmelidir.
 
 Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
 
-- Kaynak değişmemiş olsa bile, her çağrıldığında verileri kaynaktan yeniden getirir.
-- Her çağrı tüm paylaşılan önbelleği yeniler. Birçok pivot tablo tek bir önbelleği paylaştığında, pivot tablo başına sürekli `RefreshData()` çağrısı yapmak, aynı önbelleğin tekrar tekrar yeniden getirilmesine neden olur ve bu çok yavaştır.
+- Kaynak değişmemiş olsa bile *her* çağrıldığında verileri kaynaktan yeniden alır.
+- Her çağrı tüm paylaşılan önbelleği yeniler. Birçok özet tablosu tek bir önbelleği paylaştığında, özet tablosu başına `RefreshData()` çağrısının tekrarlanması aynı önbelleğin sürekli olarak yeniden alınmasına neden olur; bu da çok yavaştır.
 
 Önerilen değiştirmeler şunlardır:
 
-- **Çalışma kitabındaki TÜM pivot tablolarını yenileyin** → `workbook.refreshAll();` kullanın
-- **Bir kısmını yenileyin** → tek bir önbellek için `pivotTable.getPivotCache().refresh();` kullanın. Önbellek paylaşıldığından, bu tek çağrı o önbellek üzerine inşa edilmiş her pivot tablosunu günceller. Zaten yenilenmiş bir önbellek üzerinde oturan diğer pivot tabloları güvenle atlanabilir.
-- **Yalnızca pivot görünümü/düzeni değişti** → kaynaktan herhangi bir geri dönüş olmadan mevcut önbellekten yeniden işlemek için `pivotTable.calculateData();` kullanın.
+- **Çalışma kitabındaki TÜM özet tablolarını yenileyin** → `workbook.refreshAll();` kullanın
+- **Bazılarını yenileyin** → tek bir önbellek için `pivotTable.getPivotCache().refresh();` kullanın. Önbellek paylaşıldığından, bu tek çağrı o önbelleğin üzerine kurulmuş her özet tablosunu günceller. Zaten yenilenmiş bir önbelleğin üzerine oturan diğer özet tabloları güvenle atlanabilir.
+- **Yalnızca özet tablosunun görünümü/düzeni değişti** → kaynağa herhangi bir geri dönüş olmadan mevcut önbellekten yeniden işlemek için `pivotTable.calculateData();` kullanın.
 
-Aşağıdaki örnek, tek bir önbelleği paylaşan birden çok pivot tablosuna sahip çalışma kitapları için yeni verimli kalıbı göstermektedir.
+Aşağıdaki örnek, tek bir önbelleği paylaşan birden çok özet tablosuna sahip çalışma kitapları için yeni verimli kalıbı gösterir.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 
-// --- Kaynak verileri oluştur: Meyve / Yıl / Miktar (başlık + 9 satır) ---
+// --- Build the source data: Fruit / Year / Amount (header + 9 rows) ---
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -465,48 +465,47 @@ sheet.getCells().get("A7").putValue("Blueberry");  sheet.getCells().get("B7").pu
 sheet.getCells().get("A8").putValue("Kiwi");       sheet.getCells().get("B8").putValue(2021); sheet.getCells().get("C8").putValue(2200);
 sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700);
 
-// --- Hedef hücre E3'e ilk pivot tablosunu (Pivot1) ekle ---
+// --- Add the first pivot table (Pivot1) at destination cell E3 ---
 let idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 let pivotTable1 = sheet.getPivotTables().get(idx1);
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// --- İKİNCİ pivot tablosunu (Pivot2) AYNI kaynak aralığa ekle ---
-// Hem Pivot1 hem de Pivot2 TEK bir temel PivotCache'i paylaşır.
-// Bu, eski tablo başına RefreshData() yaklaşımının verimsiz hale geldiği
-// tam olarak senaryodur: bir tabloyu yenilemek tüm paylaşılan önbelleği
-// yeniden getirir, dolayısıyla N tabloyu yenilemek aynı pahalı getirme
-// işlemini N kez yapar.
+// --- Add the SECOND pivot table (Pivot2) on the SAME source range ---
+// Both Pivot1 and Pivot2 share ONE underlying PivotCache.
+// This is exactly the scenario where the legacy per-table RefreshData()
+// approach becomes inefficient: refreshing one table re-fetches the whole
+// shared cache, so refreshing N tables does the same expensive fetch N times.
 let idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
 let pivotTable2 = sheet.getPivotTables().get(idx2);
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// --- Kaynak verideki birkaç Miktar değerini değiştir ---
-sheet.getCells().get("C2").putValue(5000);   // Üzüm   2020
-sheet.getCells().get("C5").putValue(7500);   // Kiraz  2020
-sheet.getCells().get("C9").putValue(9500);   // Kiraz  2021
+// --- Modify several Amount values in the source data ---
+sheet.getCells().get("C2").putValue(5000);   // Grape  2020
+sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
+sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
 
-// --- ESKİ (26.7 öncesi) kalıp — PivotTable.RefreshData() ---
-// pivotTable1.refreshData();  // kaynaktan yeniden getirir, tüm önbelleği yeniler
-// pivotTable2.refreshData();  // TEKRAR yeniden getirir — önbellek zaten taze!
-// Her çağrı paylaşılan önbelleği yeniden oluşturur, dolayısıyla N tablo = N gereksiz getirme.
+// --- OBSOLETE pattern (pre-26.7) — PivotTable.RefreshData() ---
+// pivotTable1.refreshData();  // re-fetches from source, refreshes whole cache
+// pivotTable2.refreshData();  // re-fetches AGAIN — the cache is already fresh!
+// Each call rebuilds the shared cache, so N tables = N redundant fetches.
 
-// --- YENİ v26.7+ kalıbı: önbelleği BİR KEZ yenile, ardından gerektiğinde yeniden işle ---
-// PivotCache.Refresh() için yapılan tek çağrı, değiştirilen değerleri paylaşılan
-// önbelleğe çeker VE ona başvuran HER pivot tablosunun görüntüsünü yeniden hesaplar.
-// Pivot1 ve Pivot2 bir PivotCache'i paylaştığından, bu tek çağrı her iki tabloyu da
-// günceller — ikinci bir kaynak gidiş-dönüşü gerekmez.
+// --- NEW v26.7+ pattern: refresh the cache ONCE, then re-render as needed ---
+// One call to PivotCache.Refresh() pulls the modified values into the shared
+// cache AND recalculates the display of EVERY pivot table that references it.
+// Because Pivot1 and Pivot2 share one PivotCache, this single call updates
+// both tables — no second source round-trip is required.
 pivotTable1.getPivotCache().refresh();
 
-// CalculateData() yalnızca bir pivot tablosunun görüntüsünü (veri + stil) önbellekte
-// zaten bulunan verilerden yeniden işler — kaynağa DOKUNMAZ. Burada Pivot2 üzerinde
-// çağırıyoruz yalnızca API'yi göstermek için: önbellek bir kez yenilendikten sonra,
-// bağımlı herhangi bir tablo kaynağa geri dönmeden yeniden işlenebilir. CalculateData()'yı
-// yalnızca pivot tablosunun görünüm/düzen ayarları değiştiğinde ve önbellek güncel olduğunda
-// kendi başına kullanın.
+// CalculateData() only re-renders a pivot table's display (data + style)
+// from the data already held in the cache — it does NOT touch the source.
+// We call it on Pivot2 here purely to demonstrate the API: after the cache
+// has been refreshed once, any dependent table can be re-rendered without
+// going back to the source. Use CalculateData() on its own when only the
+// pivot table's view/layout settings have changed and the cache is current.
 pivotTable2.calculateData();
 
 workbook.save("output.xlsx");
@@ -514,16 +513,23 @@ workbook.save("output.xlsx");
 
 ## Hangi Yenileme API'sini Kullanmalıyım?
 
-Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçileceğini özetlemektedir.
+Aşağıdaki tablo mevcut yenileme API'lerini özetler ve her birinin ne zaman seçileceğini gösterir.
 
-| Hedef | Önerilen API | Notlar |
-|------|-----------------|-------|
+| Amaç | Önerilen API | Notlar |
+|------|--------------|--------|
 | Çalışma kitabındaki her şeyi yenileyin | `Workbook.RefreshAll()` | Tek çağrı; tüm önbellekleri ve tabloları kapsar. |
-| Yalnızca tek bir sayfadaki pivot tablolarını yenileyin | `Worksheet.RefreshPivotTables()` | Tek bir çalışma sayfasıyla sınırlıdır. |
-| Bir önbellek için kaynak veriler değişti | `pivotTable.PivotCache.Refresh()` | O paylaşılan önbellekteki TÜM pivot tablolarını yeniler. |
+| Yalnızca tek bir sayfadaki özet tablolarını yenileyin | `Worksheet.RefreshPivotTables()` | Tek bir çalışma sayfasına kapsamlı. |
+| Tek önbellek için kaynak veriler değişti | `pivotTable.PivotCache.Refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
-| Paylaşılan bir önbellekteki tüm pivot tablolarını listeleyin | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
+| Paylaşılan önbellekteki tüm özet tablolarını listeleyin | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
 
-Uygulamada, kullanımdan kaldırılan tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+Uygulamada, eski tablo başına `RefreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+
+## İlgili Makaleler
+
+- [Bir Hücreye Görüntü Ekleme](/cells/tr/nodejs-java/inserting-an-image-into-a-cell/)
+- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/nodejs-java/dbf/)
+- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/nodejs-java/splitting-excel-files-into-multiple-files/)
+- [Aspose.Cells for Node.js via Java'da Mini Grafikler](/cells/tr/nodejs-java/sparkline/)
 
 {{< app/cells/assistant language="javascript" >}}

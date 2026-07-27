@@ -1,6 +1,6 @@
 ---
 title: Tablas dinámicas
 type: docs
-weight: 50
+weight: 160
 url: /es/go-cpp/pivot-tables/
 ---
