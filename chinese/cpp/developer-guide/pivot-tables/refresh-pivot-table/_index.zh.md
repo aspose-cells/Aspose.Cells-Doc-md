@@ -9,6 +9,7 @@ url: /zh/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells 提供了一套分层的刷新 API，可让您按四种不同的粒度重新加载数据透视表数据——从整个工作簿到单个数据透视表。从 **Aspose.Cells for C++ v26.7** 起，旧方法 `PivotTable.RefreshData()` 已标记为过时，应替换为本文介绍的更高效、感知缓存的 API。
 {{% /alert %}}
@@ -92,7 +93,6 @@ int main() {
     cells.Get(u"C5").PutValue(85);
     cells.Get(u"C9").PutValue(125);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output.xlsx");
@@ -344,93 +344,7 @@ int main() {
 工作簿通常包含许多数据透视表，它们都位于一个共享缓存之上。要枚举它们——例如，在执行批量刷新之前，或诊断共享缓存的影响——请使用 `PivotCache.GetPivotTables()`。此方法返回依赖于给定缓存的每个 `PivotTable` 的集合。
 这也是确认两个数据透视表确实共享同一 `PivotCache` 实例的最直接方法：您可以比较缓存引用，或简单地遍历 `GetPivotTables()` 返回的集合并观察其中出现的数据透视表。
 下面的示例在同一源区域上创建两个数据透视表，验证它们共享同一缓存实例，然后枚举该缓存的数据透视表。
-```cpp
-#include "Aspose.Cells.h"
-#include <iostream>
 
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
-
-int main() {
-    Aspose::Cells::Startup();
-
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Sheet1");
-
-    Cells cells = worksheet.GetCells();
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-    cells.Get(u"B1").PutValue(U16String("Year"));
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("Grape"));
-    cells.Get(u"B2").PutValue(2020);
-    cells.Get(u"C2").PutValue(100);
-
-    cells.Get(u"A3").PutValue(U16String("Blueberry"));
-    cells.Get(u"B3").PutValue(2020);
-    cells.Get(u"C3").PutValue(200);
-
-    cells.Get(u"A4").PutValue(U16String("Kiwi"));
-    cells.Get(u"B4").PutValue(2020);
-    cells.Get(u"C4").PutValue(300);
-
-    cells.Get(u"A5").PutValue(U16String("Cherry"));
-    cells.Get(u"B5").PutValue(2020);
-    cells.Get(u"C5").PutValue(400);
-
-    cells.Get(u"A6").PutValue(U16String("Grape"));
-    cells.Get(u"B6").PutValue(2021);
-    cells.Get(u"C6").PutValue(500);
-
-    cells.Get(u"A7").PutValue(U16String("Blueberry"));
-    cells.Get(u"B7").PutValue(2021);
-    cells.Get(u"C7").PutValue(600);
-
-    cells.Get(u"A8").PutValue(U16String("Kiwi"));
-    cells.Get(u"B8").PutValue(2021);
-    cells.Get(u"C8").PutValue(700);
-
-    cells.Get(u"A9").PutValue(U16String("Cherry"));
-    cells.Get(u"B9").PutValue(2021);
-    cells.Get(u"C9").PutValue(800);
-
-    cells.Get(u"A10").PutValue(U16String("Grape"));
-    cells.Get(u"B10").PutValue(2021);
-    cells.Get(u"C10").PutValue(900);
-
-    PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivot1Index = pivotTables.Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = pivotTables.Get(pivot1Index);
-    pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    int pivot2Index = pivotTables.Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = pivotTables.Get(pivot2Index);
-    pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    // 在 Aspose.Cells 中,从同一数据源范围创建的数据透视表
-    // 自动共享同一个 PivotCache(数据透视表缓存)
-    std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
-
-    // 获取工作表上所有共享缓存的数据透视表
-    PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
-    std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
-
-    for (int i = 0; i < sharedPivotTables.GetCount(); ++i) {
-        PivotTable pt = sharedPivotTables.Get(i);
-        std::cout << "Pivot table name: " << pt.GetName().ToUtf8() << std::endl;
-    }
-
-    workbook.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-    return 0;
-}
-```
 ## 从已过时的 `PivotTable.RefreshData()` 进行迁移
 在 Aspose.Cells for C++ v26.7 之前，刷数据透视表的标准方法是对每个数据透视表单独调用 `PivotTable.RefreshData()`。自 v26.7 起，该方法被标记为**过时**，应替换为上文介绍的感知缓存的 API。
 在真实的工作簿中，每表 `RefreshData()` 方法存在两个问题：
@@ -482,7 +396,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -501,10 +414,4 @@ int main() {
 | 一个缓存的源数据已更改 | `pivotTable.GetPivotCache().Refresh()` | 刷新该共享缓存上的所有数据透视表。 |
 | 仅视图/布局设置已更改 | `pivotTable.CalculateData()` | 跳过不必要的源数据往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新之前进行枚举。 |
-实际上，请优先使用基于缓存的 API，而不是过时的每表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小粒度。
-## 相关文章
-- [将图像插入到单元格中](/cells/zh/cpp/inserting-an-image-into-a-cell/)
-- [读写 DBF 文件](/cells/zh/cpp/dbf/)
-- [将 Excel 文件拆分为多个文件](/cells/zh/cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for C++ 中的迷你图](/cells/zh/cpp/sparkline/)
-{{< app/cells/assistant language="cpp" >}}
+实际上，请优先使用基于缓存的 API，而不是过时的每表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小粒度。{{< app/cells/assistant language="cpp" >}}

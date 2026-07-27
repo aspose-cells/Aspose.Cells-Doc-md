@@ -73,7 +73,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
     // Actualiser et calculer les données du tableau croisé dynamique
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Enregistrer le classeur
@@ -139,7 +138,6 @@ int main() {
     }
 
     // Actualiser pour que le nouveau champ de page soit reflété dans le classeur enregistré
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -191,7 +189,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(0x7FFD);
@@ -249,7 +246,6 @@ int main() {
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(1);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -332,7 +328,6 @@ int main() {
         }
     }
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");

@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Satır ve sütun alanları, bir pivot tablonun yapı taşlarıdır. Satır bölgesine yerleştirilen bir alan, pivot tablonun solunda dikey olarak görünürken, sütun bölgesine yerleştirilen bir alan ise en üstte yatay olarak görünür. Bu makale, bu bölgelere programlı olarak temel alanların nasıl ekleneceğini ve `PivotField.set_subtotals` yöntemi kullanılarak alan grupları arasında görüntülenen ara toplamların nasıl denetleneceğini gösterir.
-
 ## **Satır veya Sütun Bölgesine Alan Ekleme**
 
 `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` yöntemi, kaynak verilerden bir temel alanı dört pivot bölgesinden birine taşır. `field_type` bağımsız değişkeni, aşağıdaki `PivotFieldType` değerlerinden birini kabul eder.
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,7 +233,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

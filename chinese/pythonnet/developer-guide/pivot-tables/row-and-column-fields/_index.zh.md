@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-行和列字段是数据透视表的构建块。放置在行区域的字段会垂直显示在数据透视表的左侧，而放置在列区域的字段会水平显示在顶部。本文演示了如何以编程方式将基本字段添加到这些区域，以及如何使用 `PivotField.set_subtotals` 方法控制在各字段组之间呈现的小计。
-
 ## **向行或列区域添加字段**
 
 `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` 方法可将一个基本字段从源数据移动到四个数据透视区域之一。`field_type` 参数接受以下 `PivotFieldType` 值之一。
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,7 +233,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

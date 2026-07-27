@@ -9,72 +9,13 @@ url: /it/nodejs-java/refresh-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
+
+
 {{% alert color="primary" %}}
 ...
 {{% /alert %}}
-```
 
-Yes, there should be a blank line between the closing --- and the first content. Got it.
-
-Let me also check that I'm not adding any extra commentary. I'll just output the translated markdown.
-
-Let me also reconsider one more time - the rule about "Aspose.Cells for Node.js via Java" - this is a doubling defect. I need to fix it to "Aspose.Cells for Node.js via Java". I'll do this consistently throughout my translation.
-
-Actually, let me re-read the rule one more time: "The product name appears EXACTLY ONCE per phrase. NEVER write ... CORRECT forms (each product name appears once): 'Aspose.Cells for Java', 'starting from Aspose.Cells for C++ v26.7', 'Aspose.Cells'"
-
-OK so "Aspose.Cells for Node.js via Java" is the correct form. The English source has the doubled version (which is a defect that the user should fix), and I should output the corrected single form.
-
-Let me finalize the translation.
-
-One more consideration - some terms should be left in English but with Italian articles:
-- "API" stays as "API" - "l'API", "un'API"
-- "PivotTable" stays as "PivotTable" but with Italian articles
-- "PivotCache" stays as "PivotCache" but with Italian articles
-- "Worksheet" stays as "Worksheet" but with Italian articles
-
-Let me make sure I'm using the correct Italian articles and prepositions.
-
-OK, I'll write out the final translation now. Letme be thorough.</think>
-
-
-{{% alert color="primary" %}}
-
-Aspose.Cells fornisce un'API di aggiornamento stratificata che consente di ricaricare i dati delle tabelle pivot a quattro diversi livelli — dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Node.js via Java v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e dovrebbe essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
-
-{{% /alert %}}
-
-## Introduzione
-
-L'aggiornamento di una tabella pivot è raramente un'unica operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati stratificata che collega i dati di origine originali ai valori visualizzati nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
-
-La catena di dati a quattro livelli è:
-
-1. **Origine dati** — gli intervalli originali del foglio di lavoro, le query al database o gli intervalli di consolidamento in cui risiedono i valori grezzi.
-2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita sopra un `PivotCache`; qui tutti i dati vengono raccolti e aggregati.
-3. **PivotTable** — l'oggetto vista che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *solo* dal suo `PivotCache`, mai direttamente dall'origine dati.
-4. **Celle** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i suoi valori calcolati e gli stili.
-
-Un concetto particolarmente importante è la **cache condivisa**. Quando più tabelle pivot in una cartella di lavoro fanno riferimento allo stesso intervallo di origine, condividono *una* singola istanza di `PivotCache`. Un singolo `PivotCache` può essere referenziato da molte tabelle pivot, e l'aggiornamento di quella cache aggiorna immediatamente ogni `PivotTable` dipendente.
-
-{{% alert color="primary" %}}
-
-`PivotCache.SourceType` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.Refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`** — cioè, dati che risiedono negli intervalli del foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
-
-{{% /alert %}}
-
-A causa di questa catena, ci sono due percorsi di aggiornamento fondamentali in Aspose.Cells:
-
-- **`PivotCache.Refresh()`** — ricarica l'origine → cache E ricalcola tutte le `PivotTable` dipendenti in un'unica operazione.
-- **`PivotTable.CalculateData()`** — ricalcola la visualizzazione di una `PivotTable` dai dati già memorizzati nella cache, senza round-trip verso l'origine dati.
-
-Tutti gli scenari in questo articolo utilizzano dati di origine da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
-
-
-## Avvio rapido
-
-Se hai solo bisogno del codice più breve per aggiornare ogni tabella pivot nella cartella di lavoro, basta una singola chiamata:
-
-```javascript
 const AsposeCells = require("aspose.cells");
 
 const workbook = new AsposeCells.Workbook("input.xlsx");
@@ -460,7 +401,6 @@ pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
 
 let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
 console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);

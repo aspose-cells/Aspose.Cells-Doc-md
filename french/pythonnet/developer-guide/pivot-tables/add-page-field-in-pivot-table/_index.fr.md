@@ -71,7 +71,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
 # Actualiser et calculer les données du tableau croisé dynamique
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Enregistrer le classeur
@@ -125,7 +124,6 @@ year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
 
 # Actualise pour que le nouveau champ de page soit reflété dans le classeur enregistré
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -174,7 +172,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Effacer le filtre de page pour que chaque élément du champ de page soit visible.
@@ -232,7 +229,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
 pivot_table.page_fields[0].current_page_item = 1  # 1 = deuxième élément dans l'ordre trié (par ex. "2021")
 
 # Actualiser et calculer le tableau croisé dynamique
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -303,7 +299,6 @@ for i in range(pivot_items.count):
     else:
         pivot_items[i].is_hidden = True
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")

@@ -9,6 +9,7 @@ url: /ja/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cellsは、ワークブック全体から単一のピボットテーブルまで、4つの異なるスコープでピボットデータを再読み込みできる階層化された更新APIを提供します。**Aspose.Cells for C++ v26.7**以降、レガシーメソッドの`PivotTable.RefreshData()`は廃止予定（非推奨）となり、この記事で説明するより効率的でキャッシュ対応のAPIに置き換える必要があります。
 {{% /alert %}}
@@ -92,7 +93,6 @@ int main() {
     cells.Get(u"C5").PutValue(85);
     cells.Get(u"C9").PutValue(125);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output.xlsx");
@@ -345,93 +345,7 @@ int main() {
 ワークブックには、多くの場合、1つの共有キャッシュの上に存在する多数のピボットテーブルが含まれています。これらを列挙するには（例えば、一括更新を実行する前や、共有キャッシュの影響を診断する場合など）、`PivotCache.GetPivotTables()`を使用します。このメソッドは、指定されたキャッシュに依存するすべての`PivotTable`のコレクションを返します。
 これは、2つのピボットテーブルが実際に同じ`PivotCache`インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較するか、あるいは単に`GetPivotTables()`によって返されるコレクションを反復処理して、どのピボットテーブルがそこに出現するかを観察することができます。
 次の例では、同じソース範囲上に2つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認し、キャッシュのピボットテーブルを列挙します。
-```cpp
-#include "Aspose.Cells.h"
-#include <iostream>
 
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
-
-int main() {
-    Aspose::Cells::Startup();
-
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Sheet1");
-
-    Cells cells = worksheet.GetCells();
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-    cells.Get(u"B1").PutValue(U16String("Year"));
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("Grape"));
-    cells.Get(u"B2").PutValue(2020);
-    cells.Get(u"C2").PutValue(100);
-
-    cells.Get(u"A3").PutValue(U16String("Blueberry"));
-    cells.Get(u"B3").PutValue(2020);
-    cells.Get(u"C3").PutValue(200);
-
-    cells.Get(u"A4").PutValue(U16String("Kiwi"));
-    cells.Get(u"B4").PutValue(2020);
-    cells.Get(u"C4").PutValue(300);
-
-    cells.Get(u"A5").PutValue(U16String("Cherry"));
-    cells.Get(u"B5").PutValue(2020);
-    cells.Get(u"C5").PutValue(400);
-
-    cells.Get(u"A6").PutValue(U16String("Grape"));
-    cells.Get(u"B6").PutValue(2021);
-    cells.Get(u"C6").PutValue(500);
-
-    cells.Get(u"A7").PutValue(U16String("Blueberry"));
-    cells.Get(u"B7").PutValue(2021);
-    cells.Get(u"C7").PutValue(600);
-
-    cells.Get(u"A8").PutValue(U16String("Kiwi"));
-    cells.Get(u"B8").PutValue(2021);
-    cells.Get(u"C8").PutValue(700);
-
-    cells.Get(u"A9").PutValue(U16String("Cherry"));
-    cells.Get(u"B9").PutValue(2021);
-    cells.Get(u"C9").PutValue(800);
-
-    cells.Get(u"A10").PutValue(U16String("Grape"));
-    cells.Get(u"B10").PutValue(2021);
-    cells.Get(u"C10").PutValue(900);
-
-    PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivot1Index = pivotTables.Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = pivotTables.Get(pivot1Index);
-    pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    int pivot2Index = pivotTables.Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = pivotTables.Get(pivot2Index);
-    pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    // Aspose.Cells では、同じソース範囲から作成されたピボットテーブルは
-    // 自動的に同じ PivotCache を共有します
-    std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
-
-    // ワークシート上のすべてのピボットテーブルを取得します（キャッシュを共有している）
-    PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
-    std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
-
-    for (int i = 0; i < sharedPivotTables.GetCount(); ++i) {
-        PivotTable pt = sharedPivotTables.Get(i);
-        std::cout << "Pivot table name: " << pt.GetName().ToUtf8() << std::endl;
-    }
-
-    workbook.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-    return 0;
-}
-```
 ## 廃止予定の`PivotTable.RefreshData()`からの移行
 Aspose.Cells for C++ v26.7より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に`PivotTable.RefreshData()`を呼び出すことでした。v26.7時点で、そのメソッドは**廃止予定（非推奨）**となり、上記のキャッシュ対応APIに置き換える必要があります。
 実世界のワークブックでテーブルごとの`RefreshData()`アプローチに問題がある理由は2つあります：
@@ -483,7 +397,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -502,10 +415,4 @@ int main() {
 | 1つのキャッシュのソースデータが変更された | `pivotTable.GetPivotCache().Refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | 表示/レイアウト設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースラウンドトリップをスキップします。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
-実際には、廃止予定のテーブルごとの`RefreshData()`よりもキャッシュベースのAPIを優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小のスコープを選択できるようにします。
-## 関連記事
-- [セルへの画像の挿入](/cells/ja/cpp/inserting-an-image-into-a-cell/)
-- [DBFファイルの読み書き](/cells/ja/cpp/dbf/)
-- [Excelファイルを複数のファイルに分割する](/cells/ja/cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for C++のスパークライン](/cells/ja/cpp/sparkline/)
-{{< app/cells/assistant language="cpp" >}}
+実際には、廃止予定のテーブルごとの`RefreshData()`よりもキャッシュベースのAPIを優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小のスコープを選択できるようにします。{{< app/cells/assistant language="cpp" >}}

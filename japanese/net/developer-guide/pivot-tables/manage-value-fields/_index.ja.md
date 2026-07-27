@@ -9,7 +9,7 @@ url: /ja/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-値フィールドはすべてのピボットテーブルの中心であり、ソースデータを集計する数値の集計値です。Aspose.Cells for .NET では、ピボットテーブルのデータ領域は `PivotTable.AddFieldToArea` を通じてベースフィールドを追加することで構成され、その領域に配置された各フィールドは独自の集計関数を持つことができます。データフィールドが 2 つ以上存在する場合、Aspose.Cells は `PivotTable.ValuesField` という特殊な集計フィールドを公開しており、これをベースフィールドとして行軸または列軸にプロットすることで、値フィールドのレイアウトを細かく制御できます。
+
 ## データ領域へのフィールド追加
 ベースフィールドをデータ（値）領域に追加することは、ピボットテーブルがソースデータを集計する方法を形成する最初のステップです。Aspose.Cells は `PivotTable.AddFieldToArea(PivotFieldType, string)` を提供しており、定数 `PivotFieldType.Data` とソース列名を受け取るオーバーロードです。データ領域にフィールドが追加されると、API はそれを `PivotTable.DataFields` コレクションに追加順に公開します。デフォルトでは、数値のソース列は `ConsolidationFunction.Sum` で集計され、数値以外の列のデフォルトは `Count` になります。
 ## 集計関数の変更
@@ -84,7 +84,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -143,7 +142,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -193,7 +191,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

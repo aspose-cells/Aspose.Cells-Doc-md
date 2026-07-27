@@ -10,6 +10,7 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 Aspose.Cells fornisce un'API di aggiornamento a più livelli che consente di ricaricare i dati delle tabelle pivot in quattro ambiti diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Python via Java v26.7**, il metodo legacy `PivotTable.refreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
 {{% /alert %}}
@@ -399,83 +400,6 @@ Questo è anche il modo più diretto per verificare che due tabelle pivot condiv
 
 L'esempio seguente crea due tabelle pivot sullo stesso intervallo di origine, verifica che condividano la stessa istanza di cache e quindi enumera le tabelle pivot della cache.
 
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotFieldType
-
-# codice portato qui
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Sheet1")
-
-worksheet.getCells().get("A1").putValue("Fruit")
-worksheet.getCells().get("B1").putValue("Year")
-worksheet.getCells().get("C1").putValue("Amount")
-
-worksheet.getCells().get("A2").putValue("Grape")
-worksheet.getCells().get("B2").putValue(2020)
-worksheet.getCells().get("C2").putValue(100)
-
-worksheet.getCells().get("A3").putValue("Blueberry")
-worksheet.getCells().get("B3").putValue(2020)
-worksheet.getCells().get("C3").putValue(200)
-
-worksheet.getCells().get("A4").putValue("Kiwi")
-worksheet.getCells().get("B4").putValue(2020)
-worksheet.getCells().get("C4").putValue(300)
-
-worksheet.getCells().get("A5").putValue("Cherry")
-worksheet.getCells().get("B5").putValue(2020)
-worksheet.getCells().get("C5").putValue(400)
-
-worksheet.getCells().get("A6").putValue("Grape")
-worksheet.getCells().get("B6").putValue(2021)
-worksheet.getCells().get("C6").putValue(500)
-
-worksheet.getCells().get("A7").putValue("Blueberry")
-worksheet.getCells().get("B7").putValue(2021)
-worksheet.getCells().get("C7").putValue(600)
-
-worksheet.getCells().get("A8").putValue("Kiwi")
-worksheet.getCells().get("B8").putValue(2021)
-worksheet.getCells().get("C8").putValue(700)
-
-worksheet.getCells().get("A9").putValue("Cherry")
-worksheet.getCells().get("B9").putValue(2021)
-worksheet.getCells().get("C9").putValue(800)
-
-worksheet.getCells().get("A10").putValue("Grape")
-worksheet.getCells().get("B10").putValue(2021)
-worksheet.getCells().get("C10").putValue(900)
-
-pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.getPivotTables().get(pivot1Index)
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.getPivotTables().get(pivot2Index)
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
-
-sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
-print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))
-
-for pt in sharedPivotTables:
-    print("Pivot table name: " + pt.getName())
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 
 ## Migrazione dall'obsoleto `PivotTable.refreshData()`
 

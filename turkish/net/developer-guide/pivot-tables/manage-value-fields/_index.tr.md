@@ -9,7 +9,7 @@ url: /tr/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Değer alanları her özet tablonun kalbidir; kaynak verileri özetleyen sayısal toplamlardır. Aspose.Cells for .NET'te, bir özet tablonun veri bölgesi `PivotTable.AddFieldToArea` aracılığıyla bu bölgeye temel alanlar eklenerek doldurulur ve bu bölgeye yerleştirilen her alan kendi özet fonksiyonuna sahip olabilir. İki veya daha fazla veri alanı olduğunda, Aspose.Cells özel bir toplam alanı olan `PivotTable.ValuesField`'ı kullanıma sunar; bu alan, Satır veya Sütun eksenine bir temel alan olarak yerleştirilebilir ve değer alanlarının düzende nasıl görüneceği üzerinde daha ayrıntılı kontrol sağlar.
+
 ## Veri Bölgesine Alan Ekleme
 Veri (değer) bölgesine bir temel alan eklemek, özet tablonun kaynak verilerinizi nasıl toplayacağını şekillendirmenin ilk adımıdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak-sütun adını kabul eden `PivotTable.AddFieldToArea(PivotFieldType, string)` aşırı yüklemesini kullanıma sunar. Bir alan veri bölgesine eklendikten sonra, API bu alanı `PivotTable.DataFields` koleksiyonu aracılığıyla, alanların eklendiği sırayla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun `Count` ile özetlenir.
 ## Özet Fonksiyonunu Değiştirme
@@ -84,7 +84,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -143,7 +142,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -193,7 +191,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

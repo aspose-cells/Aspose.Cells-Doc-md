@@ -75,7 +75,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # Özet tablo verilerini yenile ve hesapla
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Çalışma kitabını kaydet
@@ -134,7 +133,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # Yeni sayfa alanının kaydedilen çalışma kitabına yansıtılması için yenile
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -188,7 +186,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür olsun.
@@ -252,7 +249,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = sıralı listedeki ikinci öğe (ör. "2021")
 
 # Özet tabloyu yenile ve hesapla
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -331,7 +327,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

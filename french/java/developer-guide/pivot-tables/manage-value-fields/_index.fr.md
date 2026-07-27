@@ -9,7 +9,7 @@ url: /fr/java/manage-value-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Les champs de valeur constituent le cœur de chaque tableau croisé dynamique, les agrégats numériques qui résument les données sources. Dans Aspose.Cells for Java, la zone de données d'un tableau croisé dynamique est remplie en y ajoutant des champs de base via `PivotTable.addFieldToArea`, et chaque champ placé dans cette zone peut disposer de sa propre fonction de synthèse. Lorsque deux champs de données ou plus existent, Aspose.Cells expose un champ agrégé spécial, `PivotTable.getValuesField()`, qui peut être tracé sur l'axe Ligne ou Colonne en tant que champ de base, vous offrant un contrôle plus fin sur la manière dont les champs de valeur apparaissent dans la mise en page.
+
 ## Ajout d'un champ à la zone de données
 L'ajout d'un champ de base à la zone de données (valeur) constitue la première étape pour façonner la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.addFieldToArea(PivotFieldType, String)`, une surcharge qui accepte la constante `PivotFieldType.DATA` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.getDataFields()`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est agrégée avec `ConsolidationFunction.SUM`, tandis qu'une colonne non numérique utilise par défaut `COUNT`.
 ## Modification de la fonction de synthèse
@@ -82,7 +82,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -131,7 +130,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -179,7 +177,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

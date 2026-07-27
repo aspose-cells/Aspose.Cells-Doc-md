@@ -11,21 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
-Value fields are the heart of every pivot table, the numeric aggregates that summarise the source data. In Aspose.Cells for Node.js via Java, the data region of a pivot table is populated by adding base fields to it through `PivotTable.addFieldToArea`, and each field placed in that region can have its own summary function. When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.getValuesField()`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout.
-
 ## Adding a Field to the Data Region
 
 Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.addFieldToArea(PivotFieldType, string)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.getDataFields()` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `COUNT`.
 
 ## Changing the Summary Function
 
-Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `getFunction()` property returns a value from the `ConsolidationFunction` enum. The same `setFunction()` setter lets you switch between the available aggregates, including `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR`, and `VARP`.
-
 {{% alert color="primary" %}}
 Changing `Function` only affects the aggregate, the source column does not change.
 {{% /alert %}}
-
-You can therefore leave one data field as `SUM` while you add a second data field that targets the same source column but uses `COUNT` or `AVERAGE`, all in a single pivot.
 
 ## Plotting Value Fields to Row or Column Axis
 
@@ -90,20 +84,15 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
 ## **Changing the Summary Function**
 
-<!-- CODE_BLOCK:1:Build a complete end-to-end sample that imports the Aspose.Cells namespace, then creates a new Workbook instance, gets worksheets.get(0), assigns worksheet.setName("Data"), and writes the same 4-column 9-row dataset (Category, Item, Year, Amount) using individual cells.get(i, j).putValue(...) calls for each cell, iterating row index i from 1 to 8 inclusive and column index j from 0 to 3 in nested loops, branching on j to pick the correct value, so A1:D1 contains the headers and A2:D9 contains the eight data rows. Add a pivot table by calling worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1"), place "Category" and "Item" on Row, place "Year" on Column, then call pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount") twice so that pivotTable.getDataFields() contains two fields. Retrieve the second data field via pivotTable.getDataFields().get(1) and assign countField.setFunction(ConsolidationFunction.COUNT) to change its summary function from the default SUM to COUNT; the first data field remains Sum of Amount. Demonstrate that the setFunction setter can also be assigned ConsolidationFunction.AVERAGE, MAX, MIN, etc. Call pivotTable.refreshData() and pivotTable.calculateData() and save the workbook with workbook.save("output_function.xlsx"). -->
-
 ## **Plotting Value Fields to Row or Column Axis**
 
 With two data fields in place, `PivotTable.getValuesField()` becomes usable. This scenario drags that aggregate virtual field onto the Column region so that every measure in the data region appears as its own column block next to `Year`.
-
-<!-- CODE_BLOCK:2:Build a complete end-to-end sample that imports the Aspose.Cells namespace, then creates a new Workbook instance, gets worksheets.get(0), assigns worksheet.setName("Data"), and writes the same 4-column 9-row dataset (Category, Item, Year, Amount) using individual cells.get(i, j).putValue(...) calls for each cell, iterating row index i from 1 to 8 inclusive and column index j from 0 to 3 in nested loops, branching on j to pick the correct value, so A1:D1 contains the headers and A2:D9 contains the eight data rows. Add a pivot table by calling worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1"), place "Category" and "Item" on Row, place "Year" on Column, then call pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount") twice. Assign pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT) so the second data field becomes COUNT while the first remains SUM. Finally call pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName()) to plot the value fields onto the Column axis. Call pivotTable.refreshData() and pivotTable.calculateData() and save the workbook with workbook.save("output_plot.xlsx"). The final layout has Row region (Category, Item), Column region (Year + ValuesField), and Data region (Sum-of-Amount, Count-of-Amount). -->
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Node.js via Java, from a single data field with the default `SUM` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 

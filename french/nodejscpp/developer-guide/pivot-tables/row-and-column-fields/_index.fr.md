@@ -10,9 +10,6 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-Les champs de ligne et de colonne sont les éléments constitutifs d'un tableau croisé dynamique. Un champ placé dans la région de ligne apparaît verticalement à gauche du tableau croisé dynamique, tandis qu'un champ placé dans la région de colonne apparaît horizontalement en haut. Cet article montre comment ajouter des champs de base à ces régions par programmation et comment contrôler les sous-totaux qui s'affichent entre les groupes de champs en utilisant la méthode `PivotField.SetSubtotals`.
-
 ## **Ajout d'un champ à la région de ligne ou de colonne**
 
 La méthode `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` déplace un champ de base des données source vers l'une des quatre régions du tableau croisé dynamique. L'argument `fieldType` accepte l'une des valeurs `PivotFieldType` suivantes.
@@ -114,7 +111,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -163,7 +159,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 const categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -236,7 +231,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

@@ -10,6 +10,7 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells, özet verilerini dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sağlar. **Aspose.Cells for Python via Java v26.7** sürümünden itibaren, eski `PivotTable.refreshData()` yöntemi artık kullanımdan kaldırılmış (obsolete) olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
@@ -389,83 +390,6 @@ Bu aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini p
 
 Aşağıdaki örnek, aynı kaynak aralığa sahip iki özet tablo oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
 
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotFieldType
-
-# buraya taşınmış kod
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Sheet1")
-
-worksheet.getCells().get("A1").putValue("Fruit")
-worksheet.getCells().get("B1").putValue("Year")
-worksheet.getCells().get("C1").putValue("Amount")
-
-worksheet.getCells().get("A2").putValue("Grape")
-worksheet.getCells().get("B2").putValue(2020)
-worksheet.getCells().get("C2").putValue(100)
-
-worksheet.getCells().get("A3").putValue("Blueberry")
-worksheet.getCells().get("B3").putValue(2020)
-worksheet.getCells().get("C3").putValue(200)
-
-worksheet.getCells().get("A4").putValue("Kiwi")
-worksheet.getCells().get("B4").putValue(2020)
-worksheet.getCells().get("C4").putValue(300)
-
-worksheet.getCells().get("A5").putValue("Cherry")
-worksheet.getCells().get("B5").putValue(2020)
-worksheet.getCells().get("C5").putValue(400)
-
-worksheet.getCells().get("A6").putValue("Grape")
-worksheet.getCells().get("B6").putValue(2021)
-worksheet.getCells().get("C6").putValue(500)
-
-worksheet.getCells().get("A7").putValue("Blueberry")
-worksheet.getCells().get("B7").putValue(2021)
-worksheet.getCells().get("C7").putValue(600)
-
-worksheet.getCells().get("A8").putValue("Kiwi")
-worksheet.getCells().get("B8").putValue(2021)
-worksheet.getCells().get("C8").putValue(700)
-
-worksheet.getCells().get("A9").putValue("Cherry")
-worksheet.getCells().get("B9").putValue(2021)
-worksheet.getCells().get("C9").putValue(800)
-
-worksheet.getCells().get("A10").putValue("Grape")
-worksheet.getCells().get("B10").putValue(2021)
-worksheet.getCells().get("C10").putValue(900)
-
-pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.getPivotTables().get(pivot1Index)
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.getPivotTables().get(pivot2Index)
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
-
-sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
-print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))
-
-for pt in sharedPivotTables:
-    print("Pivot table name: " + pt.getName())
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 
 ## Kullanımdan Kaldırılan `PivotTable.refreshData()` Yönteminden Geçiş
 
@@ -569,13 +493,4 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilmes
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.calculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan bir önbellekteki tüm özet tablolarını listeleme | `pivotCache.getPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
 
-Pratikte, kullanımdan kaldırılan tablo başına `refreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-
-## İlgili Makaleler
-
-- [Bir Hücreye Resim Ekleme](/cells/tr/python-java/inserting-an-image-into-a-cell/)
-- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/python-java/dbf/)
-- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/python-java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Python via Java'da Mini Grafikler](/cells/tr/python-java/sparkline/)
-
-{{< app/cells/assistant language="python" >}}
+Pratikte, kullanımdan kaldırılan tablo başına `refreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="python" >}}

@@ -9,7 +9,7 @@ url: /de/python-net/pivot-table-manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Wertfelder sind das Herzstück jeder PivotTable, die numerischen Aggregate, die die Quelldaten zusammenfassen. In Aspose.Cells for Python via .NET wird der Datenbereich einer PivotTable befüllt, indem Basisfelder über `PivotTable.add_field_to_area` hinzugefügt werden, und jedes in diesem Bereich platzierte Feld kann eine eigene Zusammenfassungsfunktion besitzen. Wenn zwei oder mehr Datenfelder vorhanden sind, stellt Aspose.Cells ein spezielles Aggregatfeld `PivotTable.values_field` bereit, das als Basisfeld auf der Zeilen- oder Spaltenachse angezeigt werden kann, sodass Sie eine feinere Kontrolle darüber erhalten, wie Wertfelder im Layout erscheinen.
+
 ## Hinzufügen eines Felds zum Datenbereich
 Das Hinzufügen eines Basisfelds zum Daten-(Werte-)Bereich ist der erste Schritt bei der Gestaltung der Aggregation Ihrer Quelldaten durch die PivotTable. Aspose.Cells stellt `PivotTable.add_field_to_area(PivotFieldType, str)` bereit, eine Überladung, die die Konstante `PivotFieldType.DATA` und den Namen der Quellspalte akzeptiert. Sobald ein Feld zum Datenbereich hinzugefügt wurde, wird es über die Sammlung `PivotTable.data_fields` in der Reihenfolge des Hinzufügens verfügbar gemacht. Standardmäßig wird eine numerische Quellspalte mit `ConsolidationFunction.SUM` zusammengefasst, während eine nicht numerische Spalte standardmäßig `Count` verwendet.
 ## Ändern der Zusammenfassungsfunktion
@@ -83,7 +83,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -128,7 +127,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 count_field = pivot_table.data_fields[1]
 count_field.function = ac.ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
@@ -174,7 +172,6 @@ pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 # Die Wertefelder auf der Spaltenachse darstellen.
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")

@@ -10,6 +10,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells 提供了一个分层级的刷新 API，允许您在四个不同的范围内重新加载透视数据 — 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Java v26.7** 起，旧的方法 `PivotTable.refreshData()` 已被标记为过时，应替换为本文介绍的更高效的、具备缓存感知能力的 API。
@@ -365,78 +366,6 @@ workbook.save("output.xlsx");
 
 以下示例在同一源区域上创建两个数据透视表，验证它们共享同一缓存实例，然后枚举该缓存的数据透视表。
 
-```java
-import com.aspose.cells.*;
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## 从过时的 `PivotTable.refreshData()` 迁移
 

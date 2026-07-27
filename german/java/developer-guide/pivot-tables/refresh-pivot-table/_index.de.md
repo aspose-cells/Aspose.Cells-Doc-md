@@ -9,6 +9,7 @@ url: /de/java/refresh-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells bietet eine mehrschichtige Aktualisierungs-API, mit der Sie Pivot-Daten in vier verschiedenen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Ab **Aspose.Cells for Java v26.7** ist die alte Methode `PivotTable.refreshData()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 {{% /alert %}}
@@ -328,80 +329,7 @@ workbook.save("output.xlsx");
 Eine Arbeitsmappe enthält oft viele Pivot-Tabellen, die alle auf einem gemeinsamen Cache aufsetzen. Um sie aufzulisten – beispielsweise vor einer Batch-Aktualisierung oder um die Auswirkungen des gemeinsamen Caches zu diagnostizieren – verwenden Sie `PivotCache.getPivotTables()`. Diese Methode gibt die Sammlung jeder `PivotTable` zurück, die von dem gegebenen Cache abhängt.
 Dies ist auch der direkteste Weg, um zu bestätigen, dass zwei Pivot-Tabellen tatsächlich dieselbe `PivotCache`-Instanz gemeinsam nutzen: Sie können Cache-Referenzen vergleichen (mit dem Operator `==`) oder einfach die von `getPivotTables()` zurückgegebene Sammlung durchlaufen und beobachten, welche Pivot-Tabellen darin erscheinen.
 Das folgende Beispiel erstellt zwei Pivot-Tabellen auf demselben Quellbereich, überprüft, dass sie dieselbe Cache-Instanz gemeinsam nutzen, und listet dann die Pivot-Tabellen des Caches auf.
-```java
-import java.lang.System;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.pivot.*;
 
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Migration von der veralteten Methode `PivotTable.refreshData()`
 Vor Aspose.Cells for Java v26.7 bestand die Standardmethode zur Aktualisierung einer Pivot-Tabelle darin, `PivotTable.refreshData()` für jede Pivot-Tabelle einzeln aufzurufen. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 Es gibt zwei Gründe, warum der `refreshData()`-Ansatz pro Tabelle in realen Arbeitsmappen problematisch ist:
@@ -470,10 +398,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und wa
 | Quelldaten für einen Cache geändert | `pivotTable.getPivotCache().refresh()` | Aktualisiert ALLE Pivot-Tabellen in diesem gemeinsamen Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.calculateData()` | Überspringt unnötigen Round-Trip zur Quelle. |
 | Alle Pivot-Tabellen in einem gemeinsamen Cache auflisten | `pivotCache.getPivotTables()` | Vor einer Massenaktualisierung verwenden. |
-In der Praxis sind die cache-basierten APIs der veralteten `refreshData()` pro Tabelle vorzuziehen. Sie kennen gemeinsame Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
-## Verwandte Artikel
-- [Einfügen eines Bildes in eine Zelle](/cells/de/java/inserting-an-image-into-a-cell/)
-- [Lesen und Schreiben von DBF-Dateien](/cells/de/java/dbf/)
-- [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/java/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for Java](/cells/de/java/sparkline/)
-{{< app/cells/assistant language="java" >}}
+In der Praxis sind die cache-basierten APIs der veralteten `refreshData()` pro Tabelle vorzuziehen. Sie kennen gemeinsame Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="java" >}}

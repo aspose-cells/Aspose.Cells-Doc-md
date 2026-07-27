@@ -10,8 +10,6 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-I campi valore sono il cuore di ogni tabella pivot, ovvero le aggregazioni numeriche che riassumono i dati di origine. In Aspose.Cells for C++, l'area dati di una tabella pivot viene popolata aggiungendovi campi base tramite `PivotTable.AddFieldToArea`, e ogni campo posizionato in quell'area può avere la propria funzione di riepilogo. Quando esistono due o più campi dati, Aspose.Cells espone un campo di aggregazione speciale, `PivotTable.ValuesField`, che può essere tracciato sull'asse Riga o Colonna come campo base, offrendoti un controllo più preciso su come i campi valore appaiono nel layout.
-
 ## Aggiunta di un campo all'area dati
 
 Aggiungere un campo base all'area dati (valore) è il primo passo per definire il modo in cui una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.AddFieldToArea(PivotFieldType, string)`, un overload che accetta la costante `PivotFieldType.Data` e il nome della colonna di origine. Una volta che un campo viene aggiunto all'area dati, l'API lo espone attraverso la raccolta `PivotTable.DataFields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.Sum`, mentre una colonna non numerica utilizza `Count` come valore predefinito.
@@ -104,7 +102,6 @@ int main() {
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
- pivotTable.RefreshData();
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
 
@@ -141,7 +138,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
  countField->SetFunction(ConsolidationFunction_Count);
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_function.xlsx");
 }
@@ -171,7 +167,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
  pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

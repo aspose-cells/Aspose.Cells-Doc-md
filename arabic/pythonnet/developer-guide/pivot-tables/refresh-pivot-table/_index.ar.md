@@ -9,6 +9,7 @@ url: /ar/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 يوفّر Aspose.Cells واجهة برمجة تطبيقات للتحديث بشكل متعدد الطبقات تتيح لك إعادة تحميل بيانات الجدول المحوري ضمن أربعة نطاقات مختلفة — من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءاً من **Aspose.Cells for Python via .NET الإصدار v26.7**، تم وضع علامة "مهجور" على الطريقة القديمة `PivotTable.refresh_data()`، ويُستحسن استبدالها بواجهات البرمجة الأكثر كفاءة واعتماداً على ذاكرة التخزين المؤقت الموضحة في هذه المقالة.
 {{% /alert %}}
@@ -322,77 +323,7 @@ workbook.save("output.xlsx")
 غالباً ما يحتوي المصنف على جداول محورية عديدة جميعها مبنية فوق ذاكرة تخزين مؤقت مشتركة واحدة. لتعدادها — على سبيل المثال، قبل إجراء تحديث دفعي، أو لتشخيص تأثير ذاكرة التخزين المؤقت المشتركة — استخدم `PivotCache.get_pivot_tables()`. تُرجع هذه الطريقة مجموعة كل `PivotTable` التي تعتمد على ذاكرة التخزين المؤقت المعطاة.
 هذه هي أيضاً الطريقة الأكثر مباشرة للتأكد من أن جدولين محوريين يتشاركان فعلاً في نفس نسخة `PivotCache`: يمكنك مقارنة مراجع ذاكرة التخزين المؤقت، أو ببساطة تكرار المجموعة التي تُرجعها `get_pivot_tables()` ولاحظة أي الجداول المحورية تظهر فيها.
 يُنشئ المثال التالي جدولين محوريين على نطاق المصدر نفسه، ويتحقق من أنهما يتشاركان نسخة ذاكرة التخزين المؤقت نفسها، ثم يعدّد الجداول المحورية لذاكرة التخزين المؤقت تلك.
-```python
-import sys
-import aspose.cells as ac
 
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 ## الانتقال من `PivotTable.refresh_data()` المهجورة
 قبل Aspose.Cells for Python via .NET الإصدار v26.7، كانت الطريقة المعيارية لتحديث جدول محوري هي استدعاء `PivotTable.refresh_data()` على كل جدول محوري على حدة. اعتباراً من الإصدار v26.7، تم وضع علامة **مهجور** على هذه الطريقة، ويجب استبدالها بواجهات البرمجة المعتمدة على ذاكرة التخزين المؤقت الموضحة أعلاه.
 هناك سببان يجعلان نهج `refresh_data()` لكل جدول على حدة إشكالياً في المصنفات الواقعية:

@@ -10,9 +10,6 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-行和列字段是数据透视表的构建块。放置在行区域中的字段在数据透视表的左侧垂直显示，而放置在列区域中的字段在顶部水平显示。本文介绍如何以编程方式向这些区域添加基础字段，以及如何通过使用 `PivotField.SetSubtotals` 方法控制字段组之间呈现的小计。
-
 ## **向行或列区域添加字段**
 
 `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` 方法将一个基础字段从源数据移动到四个透视区域之一。`fieldType` 参数接受以下 `PivotFieldType` 值之一。
@@ -114,7 +111,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -163,7 +159,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 const categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -236,7 +231,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

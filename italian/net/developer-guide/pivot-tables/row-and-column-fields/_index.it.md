@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-I campi riga e colonna sono gli elementi fondamentali di una tabella pivot. Un campo posizionato nell'area righe appare verticalmente a sinistra della pivot, mentre un campo posizionato nell'area colonne appare orizzontalmente nella parte superiore. Questo articolo mostra come aggiungere campi di base a queste aree a livello di codice e come controllare i subtotali visualizzati tra i gruppi di campi utilizzando il metodo `PivotField.SetSubtotals`.
-
 ## **Aggiungere un Campo all'Area Righe o Colonne**
 
 Il metodo `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` sposta un campo di base dai dati di origine in una delle quattro aree della pivot. L'argomento `fieldType` accetta uno dei seguenti valori di `PivotFieldType`.
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

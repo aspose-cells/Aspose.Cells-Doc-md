@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Los campos de fila y columna son los componentes básicos de una tabla dinámica. Un campo colocado en la región de fila aparece verticalmente a la izquierda de la tabla dinámica, mientras que un campo colocado en la región de columna aparece horizontalmente en la parte superior. Este artículo muestra cómo agregar campos base a esas regiones mediante programación y cómo controlar los subtotales que se representan entre los grupos de campos utilizando el método `PivotField.setSubtotals`.
-
 ## **Agregar un campo a la región de fila o columna**
 
 El método `PivotTable.addFieldToArea(int fieldType, String fieldName)` mueve un campo base desde los datos de origen a una de las cuatro regiones de la tabla dinámica. El argumento `fieldType` acepta uno de los siguientes valores de `PivotFieldType`.
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

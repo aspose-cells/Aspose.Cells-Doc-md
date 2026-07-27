@@ -9,6 +9,7 @@ url: /ar/nodejs-cpp/refresh-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 يوفر Aspose.Cells واجهة برمجة تطبيقات متعددة الطبقات للتحديث تتيح لك إعادة تحميل بيانات الجدول المحوري بأربعة نطاقات مختلفة، بدءًا من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Node.js via C++ v26.7**، تم وضع علامة على الطريقة القديمة `PivotTable.RefreshData()` باعتبارها مهملة، ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والمبنية على أساس ذاكرة التخزين المؤقت الموضحة في هذه المقالة.
 {{% /alert %}}
@@ -312,75 +313,7 @@ workbook.save("output.xlsx");
 غالبًا ما يحتوي المصنف على العديد من الجداول المحورية التي تقع جميعها فوق ذاكرة تخزين مؤقت مشتركة واحدة. لتعدادها، على سبيل المثال، قبل تنفيذ تحديث دفعة واحدة، أو لتشخيص تأثير ذاكرة التخزين المؤقت المشتركة، استخدم `PivotCache.GetPivotTables()`. تُرجع هذه الطريقة مجموعة كل `PivotTable` يعتمد على ذاكرة التخزين المؤقت المعطاة.
 هذه أيضًا الطريقة الأكثر directe للتأكد من أن جدولين محوريين يتشاركان بالفعل في نفس مثيل `PivotCache`: يمكنك مقارنة مراجع ذاكرة التخزين المؤقت، أو ببساطة تكرار المجموعة التي تم إرجاعها بواسطة `GetPivotTables()` ومراقبة الجداول المحورية التي تظهر فيها.
 ينشئ المثال التالي جدولين محوريين على نفس نطاق المصدر، ويتحقق من أنهما يشتركان في نفس مثيل ذاكرة التخزين المؤقت، ثم يعدد جداول ذاكرة التخزين المؤقت.
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## الانتقال من `PivotTable.RefreshData()` المهمل
 قبل Aspose.Cells for Node.js via C++ v26.7، كانت الطريقة القياسية لتحديث الجدول المحوري هي استدعاء `PivotTable.RefreshData()` على كل جدول محوري على حدة. اعتبارًا من الإصدار v26.7، تم وضع علامة على هذه الطريقة باعتبارها **مهملة** ويجب استبدالها بواجهات برمجة التطبيقات المبنية على أساس ذاكرة التخزين المؤقت الموضحة أعلاه.
 هناك سببان يجعلان نهج `RefreshData()` لكل جدول يمثل مشكلة في المصنفات الواقعية:

@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejs_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Aspose.Cells は、レガシーのピボットテーブル自動書式（`.xls` ファイル向け）と、モダンな名前付きまたはカスタムのピボットテーブルスタイル（`.xlsx`、`.xlsm`、`.xlsb` ファイル向け）の両方を適用することをサポートします。呼び出すべき API は、ワークブックの読み込み元のフォーマットではなく、保存先のファイルフォーマットによって決まります。

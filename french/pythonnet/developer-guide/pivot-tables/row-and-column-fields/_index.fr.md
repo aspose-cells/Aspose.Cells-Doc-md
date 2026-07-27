@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Les champs de ligne et de colonne sont les éléments constitutifs d'un tableau croisé dynamique. Un champ placé dans la zone de ligne apparaît verticalement à gauche du tableau croisé, tandis qu'un champ placé dans la zone de colonne apparaît horizontalement en haut. Cet article montre comment ajouter des champs de base à ces zones par programmation et comment contrôler les sous-totaux qui s'affichent entre les groupes de champs à l'aide de la méthode `PivotField.set_subtotals`.
-
 ## **Ajout d'un champ à la zone de ligne ou de colonne**
 
 La méthode `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` déplace un champ de base depuis les données sources vers l'une des quatre zones du tableau croisé dynamique. L'argument `field_type` accepte l'une des valeurs `PivotFieldType` suivantes.
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,7 +233,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

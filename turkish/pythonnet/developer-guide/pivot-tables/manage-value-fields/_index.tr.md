@@ -11,21 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
-Value fields are the heart of every pivot table, the numeric aggregates that summarise the source data. In Aspose.Cells for Python via .NET, the data region of a pivot table is populated by adding base fields to it through `PivotTable.add_field_to_area`, and each field placed in that region can have its own summary function. When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.values_field`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout.
-
 ## Adding a Field to the Data Region
 
 Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.add_field_to_area(PivotFieldType, str)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.data_fields` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `Count`.
 
 ## Changing the Summary Function
 
-Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `function` property returns a value from the `ConsolidationFunction` enum. The same `function` setter lets you switch between the available aggregates, including `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp`.
-
 {{% alert color="primary" %}}
 Changing `function` only affects the aggregate, the source column does not change.
 {{% /alert %}}
-
-You can therefore leave one data field as `Sum` while you add a second data field that targets the same source column but uses `Count` or `Average`, all in a single pivot.
 
 ## Plotting Value Fields to Row or Column Axis
 
@@ -34,8 +28,6 @@ When a pivot table contains two or more data fields, Aspose.Cells exposes an add
 {{% alert color="primary" %}}
 `PivotTable.values_field` does not work if there is no or only one value field.
 {{% /alert %}}
-
-The scenarios below walk through three end-to-end examples that demonstrate each capability described above against the same pivot structure.
 
 ## Scenario 1 — Dragging a Base Field into the Value Region
 
@@ -98,14 +90,11 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
 ## Scenario 2 — Changing the Summary Function
-
-This scenario starts from the same pivot structure as Scenario 1 but adds the `Amount` field to the data region twice. Both data fields reference the same source column, however the second field is overridden using the `PivotField.function` setter so that it becomes `Count` instead of the default `Sum`.
 
 ```python
 import aspose.cells as ac
@@ -146,7 +135,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 count_field = pivot_table.data_fields[1]
 count_field.function = ac.ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
@@ -195,7 +183,6 @@ pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 # Plot the value fields onto the Column axis.
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")

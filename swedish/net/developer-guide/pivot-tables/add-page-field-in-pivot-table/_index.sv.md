@@ -77,7 +77,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
 // Uppdatera och beräkna pivottabellens data
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 // Spara arbetsboken
@@ -133,7 +132,6 @@ PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
 
 // Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -193,7 +191,6 @@ class Program
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
-        pivotTable.RefreshData();
         pivotTable.CalculateData();
 
         // Rensa sidfiltret så att alla objekt i sidfältet syns.
@@ -255,7 +252,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = andra objektet i sorterad ordning (t.ex. "2021")
 
 // Uppdatera och beräkna pivottabell
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -341,7 +337,6 @@ for (int i = 0; i < pivotItems.Count; i++)
     }
 }
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");

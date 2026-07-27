@@ -9,7 +9,7 @@ url: /ru/nodejs-cpp/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Поля значений — это основа любой сводной таблицы, числовые агрегаты, которые обобщают исходные данные. В Aspose.Cells for Node.js via C++ область данных сводной таблицы заполняется путём добавления в неё базовых полей через `PivotTable.addFieldToArea`, и каждое поле, помещённое в эту область, может иметь собственную функцию итогов. Когда существуют два или более полей данных, Aspose.Cells предоставляет специальное агрегатное поле, `PivotTable.getValuesField`, которое можно разместить на оси строк или столбцов в качестве базового поля, что даёт более точный контроль над тем, как поля значений отображаются в макете.
+
 ## Добавление поля в область данных
 Добавление базового поля в область данных (значений) — это первый шаг в формировании того, как сводная таблица агрегирует исходные данные. Aspose.Cells предоставляет метод `PivotTable.addFieldToArea(PivotFieldType, string)`, перегрузку, которая принимает константу `PivotFieldType.Data` и имя исходного столбца. После добавления поля в область данных API предоставляет к нему доступ через коллекцию `PivotTable.getDataFields()` в порядке добавления полей. По умолчанию числовой исходный столбец агрегируется функцией `ConsolidationFunction.Sum`, а нечисловой — `Count`.
 ## Изменение функции итогов
@@ -79,7 +79,6 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -134,7 +133,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let countField = pivotTable.getDataFields().get(1);
 countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
@@ -180,7 +178,6 @@ pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

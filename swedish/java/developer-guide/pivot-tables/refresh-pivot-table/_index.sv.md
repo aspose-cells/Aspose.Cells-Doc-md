@@ -10,6 +10,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells tillhandahåller ett lagerindelat uppdaterings-API som låter dig läsa in pivotdata igen på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for Java v26.7** är den äldre metoden `PivotTable.refreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
@@ -365,78 +366,6 @@ Detta är också det mest direkta sättet att bekräfta att två pivottabeller v
 
 Följande exempel skapar två pivottabeller på samma källintervall, verifierar att de delar samma cache-instans och räknar sedan upp cachens pivottabeller.
 
-```java
-com.aspose.cells.*;
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## Migrera från den föråldrade `PivotTable.refreshData()`
 
@@ -516,13 +445,4 @@ Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du s
 | Endast vy-/layoutinställningar har ändrats | `pivotTable.calculateData()` | Hoppar över onödig källhämtning. |
 | Lista alla pivottabeller på en delad cache | `pivotCache.getPivotTables()` | Använd för att räkna upp före bulk-uppdatering. |
 
-I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade per-tabell-metoden `refreshData()`. De är medvetna om delade cacher, de undviker redundanta källhämtningar och de låter dig välja det minsta omfång som uppfyller ditt uppdateringskrav.
-
-## Relaterade artiklar
-
-- [Infoga en bild i en cell](/cells/sv/java/inserting-an-image-into-a-cell/)
-- [Läsa och skriva DBF-filer](/cells/sv/java/dbf/)
-- [Dela upp Excel-filer i flera filer](/cells/sv/java/splitting-excel-files-into-multiple-files/)
-- [Sparkline-diagram i Aspose.Cells for Java](/cells/sv/java/sparkline/)
-
-{{< app/cells/assistant language="java" >}}
+I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade per-tabell-metoden `refreshData()`. De är medvetna om delade cacher, de undviker redundanta källhämtningar och de låter dig välja det minsta omfång som uppfyller ditt uppdateringskrav.{{< app/cells/assistant language="java" >}}

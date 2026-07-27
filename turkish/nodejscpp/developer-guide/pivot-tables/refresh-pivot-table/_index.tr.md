@@ -9,6 +9,7 @@ url: /tr/nodejs-cpp/refresh-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells, tüm çalışma kitabından tek bir özet tablosuna kadar dört farklı kapsamda pivot verilerini yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Node.js via C++ v26.7** ile başlayarak, eski `PivotTable.RefreshData()` yöntemi kullanımdan kaldırılmış olarak işaretlenmiş olup bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 {{% /alert %}}
@@ -312,75 +313,7 @@ workbook.save("output.xlsx");
 Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerine kurulmuş birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin, toplu yenileme yapmadan önce veya paylaşılan önbellek etkisini teşhis etmek için — `PivotCache.GetPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
 Bu, aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `GetPivotTables()` tarafından döndürülen koleksiyonu yineleyip hangi özet tablolarının onda göründüğünü gözlemleyebilirsiniz.
 Aşağıdaki örnek, aynı kaynak aralığında iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Kullanımdan Kaldırılan `PivotTable.RefreshData()` Yönteminden Geçiş
 Aspose.Cells for Node.js via C++ v26.7'den önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla bu yöntem **kullanımdan kaldırılmış** olarak işaretlenmiş olup yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
@@ -463,10 +396,4 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilmes
 | Tek bir önbellek için kaynak veriler değişti | `pivotTable.PivotCache.Refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak dönüşünü atlar. |
 | Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılan tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-## İlgili Makaleler
-- [Bir Hücreye Resim Ekleme](/cells/tr/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/nodejs-cpp/dbf/)
-- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Node.js via C++'da Mini Grafikler](/cells/tr/nodejs-cpp/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+Uygulamada, kullanımdan kaldırılan tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="javascript" >}}

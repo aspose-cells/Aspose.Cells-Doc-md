@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Поля значений — это ядро любой сводной таблицы, числовые агрегаты, которые обобщают исходные данные. В Aspose.Cells for Node.js via Java область данных сводной таблицы заполняется путём добавления в неё базовых полей через `PivotTable.addFieldToArea`, и каждое поле, размещённое в этой области, может иметь собственную итоговую функцию. Когда существуют два или более полей данных, Aspose.Cells предоставляет специальное агрегатное поле `PivotTable.getValuesField()`, которое можно разместить на оси строк или столбцов как базовое поле, что даёт более точный контроль над тем, как поля значений отображаются в макете.
 
 ## Добавление поля в область данных
 
@@ -91,7 +90,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -100,13 +98,9 @@ workbook.save("output_drag.xlsx");
 
 Этот сценарий начинается с той же структуры сводной таблицы, что и в сценарии 1, но добавляет поле `Amount` в область данных дважды. Оба поля данных ссылаются на один и тот же исходный столбец, однако для второго поля с помощью сеттера `PivotField.setFunction()` переопределяется итоговая функция, так что оно становится `COUNT` вместо `SUM` по умолчанию.
 
-<!-- CODE_BLOCK:1:Build a complete end-to-end sample that imports the Aspose.Cells namespace, then creates a new Workbook instance, gets worksheets.get(0), assigns worksheet.setName("Data"), and writes the same 4-column 9-row dataset (Category, Item, Year, Amount) using individual cells.get(i, j).putValue(...) calls for each cell, iterating row index i from 1 to 8 inclusive and column index j from 0 to 3 in nested loops, branching on j to pick the correct value, so A1:D1 contains the headers and A2:D9 contains the eight data rows. Add a pivot table by calling worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1"), place "Category" and "Item" on Row, place "Year" on Column, then call pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount") twice so that pivotTable.getDataFields() contains two fields. Retrieve the second data field via pivotTable.getDataFields().get(1) and assign countField.setFunction(ConsolidationFunction.COUNT) to change its summary function from the default SUM to COUNT; the first data field remains Sum of Amount. Demonstrate that the setFunction setter can also be assigned ConsolidationFunction.AVERAGE, MAX, MIN, etc. Call pivotTable.refreshData() and pivotTable.calculateData() and save the workbook with workbook.save("output_function.xlsx"). -->
-
 ## Сценарий 3 — размещение полей значений на оси строк или столбцов
 
 При наличии двух полей данных `PivotTable.getValuesField()` становится доступным для использования. Этот сценарий перетаскивает данное агрегатное виртуальное поле в область столбцов так, чтобы каждая мера в области данных отображалась как отдельный блок столбцов рядом с `Year`.
-
-<!-- CODE_BLOCK:2:Build a complete end-to-end sample that imports the Aspose.Cells namespace, then creates a new Workbook instance, gets worksheets.get(0), assigns worksheet.setName("Data"), and writes the same 4-column 9-row dataset (Category, Item, Year, Amount) using individual cells.get(i, j).putValue(...) calls for each cell, iterating row index i from 1 to 8 inclusive and column index j from 0 to 3 in nested loops, branching on j to pick the correct value, so A1:D1 contains the headers and A2:D9 contains the eight data rows. Add a pivot table by calling worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1"), place "Category" and "Item" on Row, place "Year" on Column, then call pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount") twice. Assign pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT) so the second data field becomes COUNT while the first remains SUM. Finally call pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName()) to plot the value fields onto the Column axis. Call pivotTable.refreshData() and pivotTable.calculateData() and save the workbook with workbook.save("output_plot.xlsx"). The final layout has Row region (Category, Item), Column region (Year + ValuesField), and Data region (Sum-of-Amount, Count-of-Amount). -->
 
 Все три сценария в совокупности охватывают все аспекты работы с полями значений в Aspose.Cells for Node.js via Java — от единственного поля данных с функцией `SUM` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением по оси строк или столбцов.
 

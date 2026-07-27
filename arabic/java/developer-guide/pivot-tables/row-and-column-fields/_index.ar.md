@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-تُعد الحقول الصفية والعمودية اللبنات الأساسية للجدول المحوري. يظهر الحقل الموضوع في منطقة الصفوف عموديًا على يسار المحور، بينما يظهر الحقل الموضوع في منطقة الأعمدة أفقيًا عبر الأعلى. توضح هذه المقالة كيفية إضافة الحقول الأساسية إلى تلك المناطق برمجيًا وكيفية التحكم في المجاميع الفرعية التي تظهر بين مجموعات الحقول باستخدام الطريقة `PivotField.setSubtotals`.
-
 ## **إضافة حقل إلى منطقة الصفوف أو الأعمدة**
 
 تقوم الطريقة `PivotTable.addFieldToArea(int fieldType, String fieldName)` بنقل حقل أساسي من البيانات المصدر إلى إحدى مناطق المحور الأربع. تقبل الوسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

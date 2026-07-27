@@ -10,8 +10,6 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Satır ve sütun alanları, bir özet tablonun yapı taşlarıdır. Satır bölgesine yerleştirilen bir alan, özet tablonun solunda dikey olarak görünürken; sütun bölgesine yerleştirilen bir alan üst kısımda yatay olarak görünür. Bu makale, bu bölgelere programlı olarak temel alanların nasıl ekleneceğini ve `PivotField.SetSubtotals` yöntemi kullanılarak alan grupları arasında görüntülenen ara toplamların nasıl kontrol edileceğini göstermektedir.
-
 ## **Satır veya Sütun Bölgesine Alan Ekleme**
 
 `PivotTable.AddFieldToArea(PivotFieldType fieldType, intrusive_ptr<Aspose::Cells::Systems::String> fieldName)` yöntemi, kaynak verilerdeki bir temel alanı dört özet tablo bölgesinden birine taşır. `fieldType` argümanı aşağıdaki `PivotFieldType` değerlerinden birini kabul eder.
@@ -120,7 +118,6 @@ int main() {
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Automatic, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_automatic.xlsx");
@@ -175,7 +172,6 @@ int main() {
 
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::None, true);
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output_none.xlsx");
@@ -260,7 +256,6 @@ int main() {
     categoryField.SetSubtotals(PivotFieldSubtotalType::Sum, true);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Average, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_custom.xlsx");

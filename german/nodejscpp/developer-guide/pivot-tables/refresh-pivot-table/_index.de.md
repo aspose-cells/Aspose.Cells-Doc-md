@@ -9,6 +9,7 @@ url: /de/nodejs-cpp/refresh-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells stellt eine abgestufte Aktualisierungs-API bereit, mit der Sie Pivot-Daten in vier verschiedenen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen PivotTable. Ab **Aspose.Cells for Node.js via C++ v26.7** ist die Legacy-Methode `PivotTable.RefreshData()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 {{% /alert %}}
@@ -312,75 +313,7 @@ workbook.save("output.xlsx");
 Eine Arbeitsmappe enthält häufig viele Pivot-Tabellen, die alle auf einem gemeinsam genutzten Cache aufbauen. Um sie aufzulisten – beispielsweise vor der Durchführung einer Batch-Aktualisierung oder um die Auswirkungen des freigegebenen Caches zu diagnostizieren – verwenden Sie `PivotCache.GetPivotTables()`. Diese Methode gibt die Sammlung jeder `PivotTable` zurück, die von dem angegebenen Cache abhängt.
 Dies ist auch der direkteste Weg, um zu bestätigen, dass zwei Pivot-Tabellen tatsächlich dieselbe `PivotCache`-Instanz gemeinsam nutzen: Sie können Cache-Referenzen vergleichen oder einfach die von `GetPivotTables()` zurückgegebene Sammlung durchlaufen und beobachten, welche Pivot-Tabellen darin erscheinen.
 Das folgende Beispiel erstellt zwei Pivot-Tabellen auf demselben Quellbereich, überprüft, dass sie dieselbe Cache-Instanz gemeinsam nutzen, und listet anschließend die Pivot-Tabellen des Caches auf.
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Migration von der veralteten Methode `PivotTable.RefreshData()`
 Vor Aspose.Cells for Node.js via C++ v26.7 bestand die Standardmethode zum Aktualisieren einer Pivot-Tabelle darin, `PivotTable.RefreshData()` für jede PivotTable einzeln aufzurufen. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 Es gibt zwei Gründe, warum der `RefreshData()`-Ansatz pro Tabelle in realen Arbeitsmappen problematisch ist:
@@ -392,14 +325,22 @@ Die empfohlenen Ersetzungen sind:
 - **Nur die Ansicht/das Layout der PivotTable hat sich geändert** → verwenden Sie `pivotTable.CalculateData();` um aus dem vorhandenen Cache ohne Round-Trip zur Quelle neu zu rendern.
 Das folgende Beispiel demonstriert das neue effiziente Muster für Arbeitsmappen mit mehreren Pivot-Tabellen, die sich einen einzigen Cache teilen.
 ```javascript
-let workbook = new AsposeCells.Workbook();
-let sheet = workbook.getWorksheets().get(0);
-
-// --- Quelldaten aufbauen: Frucht / Jahr / Betrag (Kopfzeile + 9 Zeilen) ---
-sheet.getCells().get("A1").putValue("Fruit");
-sheet.getCells().get("B1").putValue("Year");
-sheet.getCells().get("C1").putValue("Amount");
-
+let workbook = new AsposeCells.Workbook();
+
+let sheet = workbook.getWorksheets().get(0);
+
+
+
+// --- Quelldaten aufbauen: Frucht / Jahr / Betrag (Kopfzeile + 9 Zeilen) ---
+
+sheet.getCells().get("A1").putValue("Fruit");
+
+sheet.getCells().get("B1").putValue("Year");
+
+sheet.getCells().get("C1").putValue("Amount");
+
+
+
 sheet.getCells().get("A2").putValue("Grape");      sheet.getCells().get("B2").putValue(2020); sheet.getCells().get("C2").putValue(1000);
 sheet.getCells().get("A3").putValue("Blueberry");  sheet.getCells().get("B3").putValue(2020); sheet.getCells().get("C3").putValue(2000);
 sheet.getCells().get("A4").putValue("Kiwi");       sheet.getCells().get("B4").putValue(2020); sheet.getCells().get("C4").putValue(1500);
@@ -407,10 +348,14 @@ sheet.getCells().get("A5").putValue("Cherry");     sheet.getCells().get("B5").pu
 sheet.getCells().get("A6").putValue("Grape");      sheet.getCells().get("B6").putValue(2021); sheet.getCells().get("C6").putValue(3000);
 sheet.getCells().get("A7").putValue("Blueberry");  sheet.getCells().get("B7").putValue(2021); sheet.getCells().get("C7").putValue(1800);
 sheet.getCells().get("A8").putValue("Kiwi");       sheet.getCells().get("B8").putValue(2021); sheet.getCells().get("C8").putValue(2200);
-sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700);
-
-// --- Die erste Pivot-Tabelle (Pivot1) an der Zielzelle E3 hinzufügen ---
-let idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
+sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700);
+
+
+
+// --- Die erste Pivot-Tabelle (Pivot1) an der Zielzelle E3 hinzufügen ---
+
+let idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
+
 let pivotTable1 = sheet.getPivotTables().get(idx1);
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -422,37 +367,61 @@ pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 // Tabelle ineffizient wird: Das Aktualisieren einer Tabelle ruft den gesamten
 // gemeinsamen Cache erneut ab, sodass N Aktualisierungen N teure Abrufe
 // verursachen.
-let idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
+let idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
+
 let pivotTable2 = sheet.getPivotTables().get(idx2);
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-// --- Mehrere Betragswerte in den Quelldaten ändern ---
-sheet.getCells().get("C2").putValue(5000);   // Grape  2020
-sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
-sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
-
-// --- VERALTETES Muster (vor 26.7) — PivotTable.RefreshData() ---
+// --- Mehrere Betragswerte in den Quelldaten ändern ---
+
+sheet.getCells().get("C2").putValue(5000);   // Grape  2020
+
+sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
+
+sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
+
+
+
+// --- VERALTETES Muster (vor 26.7) — PivotTable.RefreshData() ---
+
 // pivotTable1.RefreshData();  // ruft erneut aus der Quelle ab, aktualisiert den gesamten Cache
 // pivotTable2.RefreshData();  // ruft ERNEUT ab — der Cache ist bereits aktuell!
-// Jeder Aufruf baut den gemeinsamen Cache neu auf, also N Tabellen = N redundante Abrufe.
-
-// --- NEUES Muster ab v26.7: Den Cache EINMAL aktualisieren, dann nach Bedarf neu rendern ---
-// Ein einziger Aufruf von PivotCache.Refresh() holt die geänderten Werte in den
-// gemeinsamen Cache UND berechnet die Anzeige JEDER Pivot-Tabelle neu, die darauf
-// verweist. Da Pivot1 und Pivot2 einen PivotCache gemeinsam nutzen, aktualisiert
-// dieser eine Aufruf beide Tabellen — kein zweiter Quell-Roundtrip ist erforderlich.
-pivotTable1.getPivotCache().refresh();
-
-// CalculateData() rendert nur die Anzeige einer Pivot-Tabelle (Daten + Stil) aus den
-// bereits im Cache vorhandenen Daten neu — es greift NICHT auf die Quelle zu.
-// Wir rufen es hier auf Pivot2 nur auf, um die API zu demonstrieren: Nachdem der Cache
-// einmal aktualisiert wurde, kann jede abhängige Tabelle neu gerendert werden, ohne
-// zur Quelle zurückzugehen. Verwenden Sie CalculateData() eigenständig, wenn nur die
-// Ansichts-/Layout-Einstellungen der Pivot-Tabelle geändert wurden und der Cache aktuell ist.
-pivotTable2.calculateData();
-
+// Jeder Aufruf baut den gemeinsamen Cache neu auf, also N Tabellen = N redundante Abrufe.
+
+
+
+// --- NEUES Muster ab v26.7: Den Cache EINMAL aktualisieren, dann nach Bedarf neu rendern ---
+
+// Ein einziger Aufruf von PivotCache.Refresh() holt die geänderten Werte in den
+
+// gemeinsamen Cache UND berechnet die Anzeige JEDER Pivot-Tabelle neu, die darauf
+
+// verweist. Da Pivot1 und Pivot2 einen PivotCache gemeinsam nutzen, aktualisiert
+
+// dieser eine Aufruf beide Tabellen — kein zweiter Quell-Roundtrip ist erforderlich.
+
+pivotTable1.getPivotCache().refresh();
+
+
+
+// CalculateData() rendert nur die Anzeige einer Pivot-Tabelle (Daten + Stil) aus den
+
+// bereits im Cache vorhandenen Daten neu — es greift NICHT auf die Quelle zu.
+
+// Wir rufen es hier auf Pivot2 nur auf, um die API zu demonstrieren: Nachdem der Cache
+
+// einmal aktualisiert wurde, kann jede abhängige Tabelle neu gerendert werden, ohne
+
+// zur Quelle zurückzugehen. Verwenden Sie CalculateData() eigenständig, wenn nur die
+
+// Ansichts-/Layout-Einstellungen der Pivot-Tabelle geändert wurden und der Cache aktuell ist.
+
+pivotTable2.calculateData();
+
+
+
 workbook.save("output.xlsx");
 ```
 ## Welche Aktualisierungs-API sollte ich verwenden?
@@ -464,10 +433,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Quelldaten für einen Cache geändert | `pivotTable.PivotCache.Refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem freigegebenen Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.CalculateData()` | Überspringt unnötigen Round-Trip zur Quelle. |
 | Alle Pivot-Tabellen auf einem freigegebenen Cache auflisten | `pivotCache.GetPivotTables()` | Vor der Massenaktualisierung zur Aufzählung verwenden. |
-In der Praxis sind die cache-basierten APIs der veralteten Methode `RefreshData()` pro Tabelle vorzuziehen. Sie kennen freigegebene Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
-## Verwandte Artikel
-- [Einfügen eines Bildes in eine Zelle](/cells/de/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [Lesen und Schreiben von DBF-Dateien](/cells/de/nodejs-cpp/dbf/)
-- [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+In der Praxis sind die cache-basierten APIs der veralteten Methode `RefreshData()` pro Tabelle vorzuziehen. Sie kennen freigegebene Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="javascript" >}}

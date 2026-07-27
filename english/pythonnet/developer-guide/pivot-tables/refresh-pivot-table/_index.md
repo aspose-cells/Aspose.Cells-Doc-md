@@ -10,6 +10,7 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells provides a layered refresh API that lets you reload pivot data at four different scopes — from the entire workbook down to a single pivot table. Starting with **Aspose.Cells for Python via .NET v26.7**, the legacy method `PivotTable.refresh_data()` is marked obsolete and should be replaced with the more efficient, cache-aware APIs described in this article.
@@ -26,8 +27,6 @@ The four-layer data chain is:
 2. **PivotCache** — the in-memory snapshot of the source data. Every pivot table is built on top of a `PivotCache`; this is where all data is gathered and aggregated.
 3. **PivotTable** — the view object that defines row, column, value, and filter fields. A `PivotTable` reads *only* from its `PivotCache`, never directly from the data source.
 4. **Cells** — the worksheet `Cells` that the `PivotTable` renders its computed values and styles into.
-
-A particularly important concept is the **shared cache**. When multiple pivot tables in a workbook reference the same source range, they share *one* `PivotCache` instance. A single `PivotCache` can be referenced by many pivot tables, and refreshing that cache refreshes every dependent `PivotTable` at once.
 
 {{% alert color="primary" %}}
 
@@ -142,8 +141,6 @@ Sometimes you only need to refresh the pivot tables that live on one specific wo
 
 This is more selective than `Workbook.refresh_all()`: only the pivot tables on the targeted worksheet are refreshed, leaving any pivot tables on other worksheets untouched.
 
-The following example populates the same Fruit/Year/Amount source data, adds a pivot table on the first worksheet, modifies some source values, and then refreshes only the pivot tables on that worksheet.
-
 ```python
 import aspose.cells as ac
 
@@ -212,95 +209,11 @@ If the underlying source data has changed, the right entry point is `pivot_table
 
 {{% alert color="primary" %}}
 
-Because pivot tables share a single `PivotCache` instance, calling `PivotCache.refresh()` recalculates **all** pivot tables built on that same cache — not just the one you reference. If two pivot tables share the same source range, refreshing one cache refreshes both.
-
 {{% /alert %}}
-
-The following example creates two pivot tables on the same source range to demonstrate this shared-cache behavior, modifies some source values, and then refreshes through one cache reference.
-
-```python
-import aspose.cells as ac
-
-# Create a new workbook and access the first worksheet
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-
-# Write header row: Fruit / Year / Amount
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-# Write approximately 9 data rows (grape / blueberry / kiwi / cherry across 2020-2021)
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-# Add the first pivot table "Pivot1" anchored at cell E3, source range A1:C9
-pivotIndex1 = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.pivot_tables[pivotIndex1]
-
-# Assign fields for Pivot1
-pivotTable1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivotTable1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivotTable1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-# Add a SECOND pivot table "Pivot2" anchored at E15 using the SAME source range A1:C9
-# Both Pivot1 and Pivot2 share a single PivotCache because the source range is identical.
-pivotIndex2 = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.pivot_tables[pivotIndex2]
-
-# Assign the same fields for Pivot2
-pivotTable2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivotTable2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivotTable2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-# Modify several Amount cell values in the source data to simulate a data change
-worksheet.cells["C2"].put_value(150)
-worksheet.cells["C4"].put_value(350)
-worksheet.cells["C7"].put_value(650)
-
-# Refresh the shared PivotCache.
-# Because Pivot1 and Pivot2 share the same PivotCache, this single call
-# refreshes BOTH pivot tables (data + style) from the updated source.
-pivotTable1.pivot_cache.refresh()
-
-# Save the workbook
-workbook.save("output.xlsx")
-```
 
 ### Only View/Layout Changed — Use `calculate_data()`
 
 If the source data has *not* changed but only the pivot table's view or layout settings have been modified (for example, a field has been moved to a different area, or a refresh-on-open setting has been toggled), there is no need to round-trip back to the data source. The cache already holds the right data; only the rendered `PivotTable` needs recalculation. In this case, `pivot_table.calculate_data()` is the right choice.
-
-This avoids the unnecessary source fetch and is significantly faster when many pivot tables share the same cache.
 
 The following example modifies a non-source property of the pivot table and then calls `calculate_data()` to re-render it from the existing cache.
 
@@ -372,84 +285,7 @@ pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
 
-## Get All Pivot Tables Sharing the Same PivotCache
-
 A workbook often contains many pivot tables that all sit on top of one shared cache. To enumerate them — for example, before performing a batch refresh, or to diagnose shared-cache impact — use `PivotCache.get_pivot_tables()`. This method returns the collection of every `PivotTable` that depends on the given cache.
-
-This is also the most direct way to confirm that two pivot tables indeed share the same `PivotCache` instance: you can compare cache references, or simply iterate the collection returned by `get_pivot_tables()` and observe which pivot tables appear in it.
-
-The following example creates two pivot tables on the same source range, verifies that they share the same cache instance, and then enumerates the cache's pivot tables.
-
-```python
-import aspose.cells as ac
-
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 
 ## Migrating from the Obsolete `PivotTable.refresh_data()`
 
@@ -458,7 +294,6 @@ Prior to Aspose.Cells for Python via .NET v26.7, the standard way to refresh a p
 There are two reasons the per-table `refresh_data()` approach is problematic in real-world workbooks:
 
 - It re-fetches data from the source *every* time it is called, even when the source has not changed.
-- Each call refreshes the entire shared cache. When many pivot tables share one cache, repeatedly calling `refresh_data()` per pivot table causes the same cache to be re-fetched over and over again, which is very slow.
 
 The recommended replacements are:
 
@@ -468,72 +303,6 @@ The recommended replacements are:
 
 The following example demonstrates the new efficient pattern for workbooks with multiple pivot tables sharing a single cache.
 
-```python
-import aspose.cells as ac
-
-# Create a new workbook and access the first worksheet
-workbook = ac.Workbook()
-sheet = workbook.worksheets[0]
-
-# --- Build the source data: Fruit / Year / Amount (header + 9 rows) ---
-sheet.cells["A1"].put_value("Fruit")
-sheet.cells["B1"].put_value("Year")
-sheet.cells["C1"].put_value("Amount")
-
-sheet.cells["A2"].put_value("Grape")      ; sheet.cells["B2"].put_value(2020); sheet.cells["C2"].put_value(1000)
-sheet.cells["A3"].put_value("Blueberry")  ; sheet.cells["B3"].put_value(2020); sheet.cells["C3"].put_value(2000)
-sheet.cells["A4"].put_value("Kiwi")       ; sheet.cells["B4"].put_value(2020); sheet.cells["C4"].put_value(1500)
-sheet.cells["A5"].put_value("Cherry")     ; sheet.cells["B5"].put_value(2020); sheet.cells["C5"].put_value(2500)
-sheet.cells["A6"].put_value("Grape")      ; sheet.cells["B6"].put_value(2021); sheet.cells["C6"].put_value(3000)
-sheet.cells["A7"].put_value("Blueberry")  ; sheet.cells["B7"].put_value(2021); sheet.cells["C7"].put_value(1800)
-sheet.cells["A8"].put_value("Kiwi")       ; sheet.cells["B8"].put_value(2021); sheet.cells["C8"].put_value(2200)
-sheet.cells["A9"].put_value("Cherry")     ; sheet.cells["B9"].put_value(2021); sheet.cells["C9"].put_value(2700)
-
-# --- Add the first pivot table (Pivot1) at destination cell E3 ---
-idx1 = sheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = sheet.pivot_tables[idx1]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-# --- Add the SECOND pivot table (Pivot2) on the SAME source range ---
-# Both Pivot1 and Pivot2 share ONE underlying PivotCache.
-# This is exactly the scenario where the legacy per-table RefreshData()
-# approach becomes inefficient: refreshing one table re-fetches the whole
-# shared cache, so refreshing N tables does the same expensive fetch N times.
-idx2 = sheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = sheet.pivot_tables[idx2]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-# --- Modify several Amount values in the source data ---
-sheet.cells["C2"].put_value(5000)   # Grape  2020
-sheet.cells["C5"].put_value(7500)   # Cherry 2020
-sheet.cells["C9"].put_value(9500)   # Cherry 2021
-
-# --- OBSOLETE pattern (pre-26.7) — PivotTable.RefreshData() ---
-# pivot_table1.refresh_data();  # re-fetches from source, refreshes whole cache
-# pivot_table2.refresh_data();  # re-fetches AGAIN — the cache is already fresh!
-# Each call rebuilds the shared cache, so N tables = N redundant fetches.
-
-# --- NEW v26.7+ pattern: refresh the cache ONCE, then re-render as needed ---
-# One call to PivotCache.Refresh() pulls the modified values into the shared
-# cache AND recalculates the display of EVERY pivot table that references it.
-# Because Pivot1 and Pivot2 share one PivotCache, this single call updates
-# both tables — no second source round-trip is required.
-pivot_table1.pivot_cache.refresh()
-
-# CalculateData() only re-renders a pivot table's display (data + style)
-# from the data already held in the cache — it does NOT touch the source.
-# We call it on Pivot2 here purely to demonstrate the API: after the cache
-# has been refreshed once, any dependent table can be re-rendered without
-# going back to the source. Use CalculateData() on its own when only the
-# pivot table's view/layout settings have changed and the cache is current.
-pivot_table2.calculate_data()
-
-workbook.save("output.xlsx")
-```
 
 ## Which Refresh API Should I Use?
 

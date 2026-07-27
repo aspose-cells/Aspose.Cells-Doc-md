@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Värdefält är kärnan i varje pivottabell, de numeriska aggregeringar som sammanfattar källdatan. I Aspose.Cells for Java fylls dataområdet i en pivottabell genom att lägga till basfält i det via `PivotTable.addFieldToArea`, och varje fält som placeras i det området kan ha sin egen sammanfattningsfunktion. När två eller flera datafält finns, exponerar Aspose.Cells ett speciellt aggregeringsfält, `PivotTable.getValuesField()`, som kan placeras på Rad- eller Kolumn-axeln som ett basfält, vilket ger dig finare kontroll över hur värdefält visas i layouten.
-
 ## Lägga till ett fält i dataområdet
 
 Att lägga till ett basfält i data- (värde-) området är det första steget i att forma hur en pivottabell aggregerar din källdata. Aspose.Cells exponerar `PivotTable.addFieldToArea(PivotFieldType, String)`, en överlagring som accepterar konstanten `PivotFieldType.DATA` och namnet på källkolumnen. När ett fält har lagts till i dataområdet exponeras det via samlingen `PivotTable.getDataFields()`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.SUM`, medan en icke-numerisk kolumn som standard blir `COUNT`.
@@ -96,7 +94,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -148,7 +145,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -199,7 +195,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

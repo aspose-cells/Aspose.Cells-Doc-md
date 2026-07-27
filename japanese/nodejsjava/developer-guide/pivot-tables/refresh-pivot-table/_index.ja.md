@@ -9,6 +9,7 @@ url: /ja/nodejs-java/refresh-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells は、ワークブック全体から単一のピボットテーブルに至るまで、4 つの異なるスコープでピボットデータを再読み込みできる階層的な更新 API を提供します。**Aspose.Cells for Node.js via Java v26.7** 以降、レガシーメソッドである `PivotTable.RefreshData()` は非推奨となり、本記事で説明するより効率的でキャッシュ対応の API に置き換える必要があります。
 {{% /alert %}}
@@ -313,75 +314,7 @@ workbook.save("output.xlsx");
 ワークブックには、1 つの共有キャッシュ上に構築された多くのピボットテーブルが含まれることがよくあります。それらを列挙する必要がある場合（たとえば一括更新を行う前や、共有キャッシュの影響を診断するために）、`PivotCache.GetPivotTables()` を使用します。このメソッドは、指定したキャッシュに依存するすべての `PivotTable` のコレクションを返します。
 これは、2 つのピボットテーブルが実際に同じ `PivotCache` インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較するか、`GetPivotTables()` が返すコレクションを反復処理し、どのピボットテーブルが含まれるかを観察するだけで確認できます。
 次の例では、同じソース範囲上に 2 つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認し、キャッシュのピボットテーブルを列挙します。
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## 非推奨となった `PivotTable.RefreshData()` からの移行
 Aspose.Cells for Node.js via Java v26.7 より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.RefreshData()` を呼び出すことでした。v26.7 以降、このメソッドは **非推奨** とされ、上記のキャッシュ対応 API に置き換える必要があります。
 テーブルごとの `RefreshData()` アプローチが実際のワークブックで問題になる理由は 2 つあります。
@@ -464,10 +397,4 @@ workbook.save("output.xlsx");
 | 1 つのキャッシュのソースデータが変更された | `pivotTable.PivotCache.Refresh()` | 共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | 表示やレイアウトの設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースへのラウンドトリップを回避します。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
-実際には、非推奨のテーブル単位の `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、不要なソースフェッチを避け、更新要件を満たす最小のスコープを選択できるようにしてくれます。
-## 関連記事
-- [Inserting an Image into a Cell](/cells/ja/nodejs-java/inserting-an-image-into-a-cell/)
-- [Reading and Writing DBF Files](/cells/ja/nodejs-java/dbf/)
-- [Splitting Excel Files into Multiple Files](/cells/ja/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for Node.js via Java](/cells/ja/nodejs-java/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+実際には、非推奨のテーブル単位の `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、不要なソースフェッチを避け、更新要件を満たす最小のスコープを選択できるようにしてくれます。{{< app/cells/assistant language="javascript" >}}

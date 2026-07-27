@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-I campi valore sono il cuore di ogni tabella pivot — i valori aggregati che riassumono i dati di origine. In Aspose.Cells per Java, l'area dati di una tabella pivot viene popolata aggiungendo campi base tramite PivotTable.addFieldToArea, e ogni campo collocato in quell'area può avere la propria funzione di riepilogo. Quando esistono due o più campi dati, Aspose.Cells espone un campo aggregato speciale, PivotTable.getValuesField, che può essere tracciato sugli assi Riga o Colonna come campo base, offrendo un controllo più fine su come I campi valore appaiono nel layout.
-
 ## Aggiungere un campo all'area dati
 
 Aggiungere un campo base all'area dati (dei valori) è il primo passo per modellare il modo in cui una tabella pivot aggrega i dati di origine. Aspose.Cells espone PivotTable.addFieldToArea(PivotFieldType, string), un overload che accetta la costante PivotFieldType.DATA e il nome della colonna di origine. Una volta aggiunto un campo all'area dati, l'API lo espone attraverso la collezione PivotTable.getDataFields, nell'ordine in cui I campi sono stati aggiunti. Per impostazionè predefinita, una colonna numerica viene riepilogata con Sum, mentre una colonna non numerica è predefinita su Count.
@@ -54,7 +52,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -109,7 +106,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -164,7 +160,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

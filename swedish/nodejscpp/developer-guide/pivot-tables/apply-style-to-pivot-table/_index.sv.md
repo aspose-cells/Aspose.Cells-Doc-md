@@ -11,6 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells stöder tillämpning av både äldre pivot-autoformat (avsedda för `.xls`-filer) och moderna namngivna eller anpassade pivottabellstilar (avsedda för `.xlsx`-, `.xlsm`- och `.xlsb`-filer). Vilken API du bör anropa beror på filformatet som arbetsboken sparas till, inte formatet den laddades från.
@@ -187,64 +188,6 @@ worksheet.getCells().get("B2").putValue(2020);
 
 Följande exempel skapar en `Style` med gul solid fyllning, ett fetstilt mörkblått teckensnitt och tunna svarta kantlinjer på alla sidor, tillämpar den sedan med `FormatAll` och sparar som `.xlsx`.
 
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-
-// Fyll i källdata: rubrikrad (rad 1) + 9 datarader (raderna 2-10)
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(5000);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(3000);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(4000);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(2000);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(6000);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(3500);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(4500);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(2500);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(5500);
-
-// Lägg till pivottabell: källintervall A1:C10, målcell E3, namn "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
-// Tilldela pivotfält: Fruit -> Rad-område, Year -> Kolumn-område, Amount -> Data-område
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-// Bygg en stil som kommer att tvingas på varje cell i pivottabellen
-let style = workbook.createStyle();
-style.setForegroundColor(AsposeCells.Color.Yellow);</think>
-```
 
 ## **Vilket stil-API ska jag använda?**
 

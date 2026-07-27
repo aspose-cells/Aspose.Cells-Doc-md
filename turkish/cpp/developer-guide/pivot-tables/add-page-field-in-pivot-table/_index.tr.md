@@ -73,7 +73,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
     // Pivot tablo verilerini yenile ve hesapla
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Çalışma kitabını kaydet
@@ -139,7 +138,6 @@ int main() {
     }
 
     // Yeni sayfa alanının kaydedilen çalışma kitabına yansıtılması için yenile
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -191,7 +189,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(0x7FFD);
@@ -249,7 +246,6 @@ int main() {
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(1);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -332,7 +328,6 @@ int main() {
         }
     }
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");

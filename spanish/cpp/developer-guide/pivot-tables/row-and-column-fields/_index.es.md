@@ -10,8 +10,6 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Los campos de fila y columna son los bloques de construcción de una tabla dinámica. Un campo colocado en la región de fila aparece verticalmente a la izquierda de la tabla dinámica, mientras que un campo colocado en la región de columna aparece horizontalmente en la parte superior. Este artículo muestra cómo agregar campos base a esas regiones mediante programación y cómo controlar los subtotales que se renderizan entre los grupos de campos utilizando el método `PivotField.SetSubtotals`.
-
 ## **Agregar un campo a la región de fila o columna**
 
 El método `PivotTable.AddFieldToArea(PivotFieldType fieldType, intrusive_ptr<Aspose::Cells::Systems::String> fieldName)` mueve un campo base desde los datos de origen a una de las cuatro regiones de la tabla dinámica. El argumento `fieldType` acepta uno de los siguientes valores de `PivotFieldType`.
@@ -120,7 +118,6 @@ int main() {
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Automatic, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_automatic.xlsx");
@@ -175,7 +172,6 @@ int main() {
 
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::None, true);
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output_none.xlsx");
@@ -260,7 +256,6 @@ int main() {
     categoryField.SetSubtotals(PivotFieldSubtotalType::Sum, true);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Average, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_custom.xlsx");

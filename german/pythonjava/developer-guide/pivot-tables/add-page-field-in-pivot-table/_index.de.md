@@ -75,7 +75,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # Pivot-Tabellen-Daten aktualisieren und berechnen
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Arbeitsmappe speichern
@@ -135,7 +134,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # Aktualisieren, damit das neue Seitenfeld in der gespeicherten Arbeitsmappe widergespiegelt wird
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -189,7 +187,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Den Seitenfilter löschen, damit jeder Eintrag im Seitenfeld sichtbar ist.
@@ -253,7 +250,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = zweites Element in sortierter Reihenfolge (z. B. "2021")
 
 # Pivot-Tabelle aktualisieren und berechnen
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -332,7 +328,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

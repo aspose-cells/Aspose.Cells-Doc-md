@@ -10,6 +10,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells supports applying both legacy pivot autoformats (intended for `.xls` files) and modern named or custom pivot table styles (intended for `.xlsx`, `.xlsm`, and `.xlsb` files). The API you should call depends on the file format the workbook is saved to, not the format it was loaded from.
@@ -34,8 +35,6 @@ In addition, `PivotTable.FormatAll(Style)` is a shortcut that applies a single `
 `PivotTable.AutoFormatType` accepts a value from the `Aspose.Cells.Pivot.PivotTableAutoFormatType` enumeration. The available values are `Report1` through `Report10`, `Classic`, and `Table1` through `Table10`.
 
 {{% alert color="primary" %}}
-
-`AutoFormatType` is only honored when the workbook is saved as `.xls`. When the same workbook is saved as `.xlsx`, `.xlsm`, or `.xlsb`, Excel ignores this property and falls back to the `PivotTableStyleType` and `PivotTableStyleName` settings.
 
 {{% /alert %}}
 
@@ -124,86 +123,7 @@ workbook.Save("output.xls");
 
 ## **Apply a Modern Named Preset Pivot Table Style**
 
-`PivotTable.PivotTableStyleType` accepts a value from the `Aspose.Cells.PivotTableStyleType` enumeration. The enumeration covers light themes `PivotTableStyleLight1` through `PivotTableStyleLight28` and dark themes `PivotTableStyleDark1` through `PivotTableStyleDark28`. The styles added in Excel 2017 (the second wave of light and dark themes) are reachable through the same enumeration.
-
 This is the recommended API for any modern file format. Unlike the legacy autoformat, the style selected here is rendered faithfully by Excel and survives round-trips through other Office tooling.
-
-The following example uses the same Fruit/Year/Amount data, creates an identical pivot table, applies `PivotTableStyleDark1`, and saves the workbook as `.xlsx`.
-
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Pivot;
-
-// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
-// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
-// (not in Aspose.Cells.Pivot) — that is why we do not need any extra using for it.
-// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-
-// Header row: Fruit / Year / Amount
-worksheet.Cells["A1"].PutValue("Fruit");
-worksheet.Cells["B1"].PutValue("Year");
-worksheet.Cells["C1"].PutValue("Amount");
-
-// 9 data rows of Fruit / Year / Amount
-worksheet.Cells["A2"].PutValue("Grape");
-worksheet.Cells["B2"].PutValue(2020);
-worksheet.Cells["C2"].PutValue(100);
-
-worksheet.Cells["A3"].PutValue("Blueberry");
-worksheet.Cells["B3"].PutValue(2020);
-worksheet.Cells["C3"].PutValue(150);
-
-worksheet.Cells["A4"].PutValue("Kiwi");
-worksheet.Cells["B4"].PutValue(2020);
-worksheet.Cells["C4"].PutValue(200);
-
-worksheet.Cells["A5"].PutValue("Cherry");
-worksheet.Cells["B5"].PutValue(2020);
-worksheet.Cells["C5"].PutValue(180);
-
-worksheet.Cells["A6"].PutValue("Grape");
-worksheet.Cells["B6"].PutValue(2021);
-worksheet.Cells["C6"].PutValue(120);
-
-worksheet.Cells["A7"].PutValue("Blueberry");
-worksheet.Cells["B7"].PutValue(2021);
-worksheet.Cells["C7"].PutValue(170);
-
-worksheet.Cells["A8"].PutValue("Kiwi");
-worksheet.Cells["B8"].PutValue(2021);
-worksheet.Cells["C8"].PutValue(210);
-
-worksheet.Cells["A9"].PutValue("Cherry");
-worksheet.Cells["B9"].PutValue(2021);
-worksheet.Cells["C9"].PutValue(190);
-
-worksheet.Cells["A10"].PutValue("Grape");
-worksheet.Cells["B10"].PutValue(2021);
-worksheet.Cells["C10"].PutValue(130);
-
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
-pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
-pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-
-// Apply a modern Excel 2007+ named preset pivot style.
-// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
-// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
-// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
-// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
-pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
-
-// Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
-workbook.Save("output.xlsx");
-```
 
 ## **Define and Apply a Custom Pivot Table Style**
 

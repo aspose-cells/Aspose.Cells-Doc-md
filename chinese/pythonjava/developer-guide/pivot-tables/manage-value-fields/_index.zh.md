@@ -9,7 +9,7 @@ url: /zh/python-java/manage-value-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-值字段是每个数据透视表的核心，用于汇总源数据的数值聚合。在 Aspose.Cells for Python via Java 中，数据透视表的数据区域是通过 `PivotTable.addFieldToArea` 向其添加基础字段来填充的，放置在该区域中的每个字段都可以拥有自己的汇总函数。当存在两个或更多数据字段时，Aspose.Cells 公开一个特殊的聚合字段 `PivotTable.ValuesField`，它可以作为基础字段绘制到行或列轴上，让您可以更精细地控制值字段在布局中的显示方式。
+
 ## 向数据区域添加字段
 将基础字段添加到数据（值）区域是塑造数据透视表如何聚合源数据的第一步。Aspose.Cells 公开 `PivotTable.addFieldToArea(PivotFieldType, string)`，这是一个接受常量 `PivotFieldType.DATA` 和源列名称的重载。一旦字段被添加到数据区域，API 会通过 `PivotTable.DataFields` 集合按字段添加顺序公开它们。默认情况下，数值型源列使用 `ConsolidationFunction.SUM` 进行汇总，而非数值列默认为 `COUNT`。
 ## 更改汇总函数
@@ -59,7 +59,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -100,7 +99,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -142,7 +140,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

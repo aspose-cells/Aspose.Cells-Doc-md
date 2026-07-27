@@ -10,9 +10,6 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-Поля строк и столбцов являются строительными блоками сводной таблицы. Поле, помещённое в область строк, отображается вертикально слева в сводной таблице, тогда как поле, помещённое в область столбцов, отображается горизонтально в верхней части. В этой статье показано, как программно добавлять базовые поля в эти области и как управлять промежуточными итогами, которые отображаются между группами полей, с помощью метода `PivotField.setSubtotals`.
-
 ## **Добавление поля в область строк или столбцов**
 
 Метод `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
@@ -114,7 +111,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -164,7 +160,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -237,7 +232,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

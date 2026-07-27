@@ -75,7 +75,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # 刷新并计算数据透视表数据
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # 保存工作簿
@@ -134,7 +133,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # 刷新数据，使新添加的页面字段在保存的工作簿中生效
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -188,7 +186,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # 清除页面筛选，以便页面字段中的每一项都可见。
@@ -252,7 +249,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = 排序顺序中的第二项（例如 "2021"）
 
 # 刷新并计算数据透视表
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -331,7 +327,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

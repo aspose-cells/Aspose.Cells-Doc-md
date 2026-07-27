@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Zeilen- und Spaltenfelder sind die Bausteine einer PivotTable. Ein Feld, das im Zeilenbereich platziert wird, erscheint vertikal auf der linken Seite der Pivot-Tabelle, während ein Feld im Spaltenbereich horizontal über die Oberseite angezeigt wird. Dieser Artikel zeigt, wie Sie Basisfelder programmatisch zu diesen Bereichen hinzufügen und wie Sie die Zwischensummen steuern, die zwischen Feldgruppen angezeigt werden, indem Sie die Methode `PivotField.setSubtotals` verwenden.
-
 ## **Hinzufügen eines Felds zum Zeilen- oder Spaltenbereich**
 
 Die Methode `PivotTable.addFieldToArea(int fieldType, String fieldName)` verschiebt ein Basisfeld aus den Quelldaten in einen der vier Pivot-Bereiche. Das Argument `fieldType` akzeptiert einen der folgenden `PivotFieldType`-Werte.
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

@@ -9,7 +9,7 @@ url: /nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Value fields are the heart of every pivot table — the numeric aggregates that summarise the source data. In Aspose.Cells, the data region of a pivot table is populated by adding base fields through `PivotTable.AddFieldToArea`, and each field placed in that region can have its own summary function. When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.ValuesField`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout.
+
 
 ## Adding a Field to the Data Region
 
@@ -50,17 +50,14 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
 ## Changing the Summary Function
 
-Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `Function` property returns a value from the `ConsolidationFunction` enum. The same `Function` setter lets you switch between the available aggregates, including `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp`.
-
 {{% alert color="primary" %}}
-Changing `Function` only affects the aggregate; the source column does not change. You can therefore leave one data field as `Sum` while a second data field targets the same source column but uses `Count` or `Average`, all in a single pivot.
+
 {{% /alert %}}
 
 ```javascript
@@ -100,7 +97,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -151,7 +147,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

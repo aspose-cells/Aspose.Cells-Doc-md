@@ -70,7 +70,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
 // Pivot tablo verilerini yenile ve hesapla
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Çalışma kitabını kaydet
@@ -115,7 +114,6 @@ let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // Yeni sayfa alanının kaydedilen çalışma kitabında yansıtılması için yenile
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -163,7 +161,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür.
@@ -218,7 +215,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = sıralanmış listedeki ikinci öğe (ör. "2021")
 
 // Pivot tabloyu yenile ve hesapla
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -290,7 +286,6 @@ for (let i = 0; i < pivotItems.getCount(); i++) {
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

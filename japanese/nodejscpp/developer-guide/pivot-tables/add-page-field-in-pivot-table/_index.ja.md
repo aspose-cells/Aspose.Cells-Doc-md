@@ -70,7 +70,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
 // ピボットテーブルのデータを更新して計算する
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // ワークブックを保存する
@@ -115,7 +114,6 @@ let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // 新しいページフィールドが保存されたワークブックに反映されるようにリフレッシュ
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -163,7 +161,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // ページフィールドのフィルターをクリアし、ページフィールドの全項目を表示可能にする。
@@ -218,7 +215,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = ソート順の2番目の項目（例：「2021」）
 
 // ピボットテーブルを更新して計算
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -290,7 +286,6 @@ for (let i = 0; i < pivotItems.getCount(); i++) {
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

@@ -77,7 +77,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
 // Actualiser et calculer les données du tableau croisé dynamique
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 // Enregistrer le classeur
@@ -133,7 +132,6 @@ PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
 
 // Actualiser pour que le nouveau champ de page soit reflété dans le classeur enregistré
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -193,7 +191,6 @@ class Program
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
-        pivotTable.RefreshData();
         pivotTable.CalculateData();
 
         // Effacer le filtre de page afin que chaque élément du champ de page soit visible.
@@ -255,7 +252,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = deuxième élément dans l'ordre trié (par ex. "2021")
 
 // Actualiser et calculer le tableau croisé dynamique
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -341,7 +337,6 @@ for (int i = 0; i < pivotItems.Count; i++)
     }
 }
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -371,9 +366,6 @@ N'oubliez jamais la contrainte de visibilité lors de la configuration du filtra
 ## **Articles connexes**
 
 - [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)
-- [Splitting Excel Files into Multiple Files](/cells/fr/net/splitting-excel-files-into-multiple-files/)
 - [Applying Styles to Pivot Tables](/cells/fr/net/apply-style-to-pivot-table/)
-- [Converting Excel to OFD Format](/cells/fr/net/ofd/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells .NET](/cells/fr/net/SmartMarker-Single-Cell-Array-Rendering/)
 
 {{< app/cells/assistant language="csharp" >}}

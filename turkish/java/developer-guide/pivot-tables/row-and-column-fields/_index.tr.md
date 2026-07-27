@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Satır ve sütun alanları, bir pivot tablosunun yapı taşlarıdır. Satır bölgesine yerleştirilen bir alan pivotun sol tarafında dikey olarak görünürken, sütun bölgesine yerleştirilen bir alan üst kısımda yatay olarak görünür. Bu makale, bu bölgelere programlı olarak temel alanların nasıl ekleneceğini ve `PivotField.setSubtotals` yöntemi kullanılarak alan grupları arasında görüntülenen alt toplamların nasıl kontrol edileceğini göstermektedir.
-
 ## **Satır veya Sütun Bölgesine Alan Ekleme**
 
 `PivotTable.addFieldToArea(int fieldType, String fieldName)` yöntemi, kaynak verilerden bir temel alanı dört pivot bölgesinden birine taşır. `fieldType` argümanı aşağıdaki `PivotFieldType` değerlerinden birini kabul eder.
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

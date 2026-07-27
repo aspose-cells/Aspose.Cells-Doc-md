@@ -10,9 +10,6 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radregionen visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnregionen visas horisontellt överst. Den här artikeln visar hur du lägger till basfält i dessa regioner programmatiskt och hur du styr delsummorna som renderas mellan fältgrupper med metoden `PivotField.setSubtotals`.
-
 ## **Lägga till ett fält i rad- eller kolumnregionen**
 
 Metoden `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` flyttar ett basfält från källdatan till en av de fyra pivotregionerna. Argumentet `fieldType` accepterar ett av följande `PivotFieldType`-värden.
@@ -114,7 +111,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -164,7 +160,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -237,7 +232,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

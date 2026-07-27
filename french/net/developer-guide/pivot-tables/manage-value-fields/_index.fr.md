@@ -9,7 +9,7 @@ url: /fr/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Les champs de valeur constituent le cœur de chaque tableau croisé dynamique, les agrégats numériques qui résument les données sources. Dans Aspose.Cells for .NET, la zone de données d'un tableau croisé dynamique est remplie en y ajoutant des champs de base via `PivotTable.AddFieldToArea`, et chaque champ placé dans cette zone peut disposer de sa propre fonction de synthèse. Lorsqu'il existe au moins deux champs de données, Aspose.Cells expose un champ agrégé spécial, `PivotTable.ValuesField`, qui peut être tracé sur l'axe des lignes ou des colonnes en tant que champ de base, vous offrant un contrôle plus fin sur l'apparence des champs de valeur dans la disposition.
+
 ## Ajout d'un champ à la zone de données
 L'ajout d'un champ de base à la zone de données (valeur) constitue la première étape pour définir la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.AddFieldToArea(PivotFieldType, string)`, une surcharge qui accepte la constante `PivotFieldType.Data` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.DataFields`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est résumée avec `ConsolidationFunction.Sum`, tandis qu'une colonne non numérique utilise par défaut `Count`.
 ## Modification de la fonction de synthèse
@@ -84,7 +84,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -143,7 +142,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -193,7 +191,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

@@ -9,7 +9,7 @@ url: /tr/java/manage-value-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Değer alanları, her özet tablonun kalbidir; kaynak verileri özetleyen sayısal toplamalardır. Aspose.Cells for Java'da, bir özet tablonun veri bölgesi, `PivotTable.addFieldToArea` aracılığıyla temel alanlar eklenerek doldurulur ve bu bölgeye yerleştirilen her alanın kendi özet işlevi olabilir. İki veya daha fazla veri alanı mevcut olduğunda, Aspose.Cells, Satır veya Sütun eksenine temel alan olarak yerleştirilebilen özel bir toplama alanı olan `PivotTable.getValuesField()` öğesini kullanıma sunar; bu da değer alanlarının düzende nasıl görüneceği üzerinde daha ayrıntılı kontrol sağlar.
+
 ## Veri Bölgesine Alan Ekleme
 Veri (değer) bölgesine temel alan eklemek, bir özet tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.DATA` sabitini ve kaynak-sütun adını kabul eden bir aşırı yükleme olan `PivotTable.addFieldToArea(PivotFieldType, String)` öğesini kullanıma sunar. Bir alan veri bölgesine eklendiğinde, API onu alanların eklenme sırasıyla `PivotTable.getDataFields()` koleksiyonu aracılığıyla kullanıma sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.SUM` ile özetlenirken, sayısal olmayan bir sütun `COUNT` varsayılanına sahip olur.
 ## Özet İşlevini Değiştirme
@@ -82,7 +82,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -131,7 +130,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -179,7 +177,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

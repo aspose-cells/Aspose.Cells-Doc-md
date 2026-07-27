@@ -75,7 +75,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # Actualiser et calculer les données du tableau croisé dynamique
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Enregistrer le classeur
@@ -135,7 +134,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # Actualiser pour que le nouveau champ de page soit reflété dans le classeur enregistré
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -189,7 +187,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Effacer le filtre de page afin que chaque élément du champ de page soit visible.
@@ -253,7 +250,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = deuxième élément dans l'ordre trié (par ex. "2021")
 
 # Actualiser et calculer le tableau croisé dynamique
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -332,7 +328,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

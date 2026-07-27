@@ -9,7 +9,7 @@ url: /sv/nodejs-cpp/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Värdefält är hjärtat i varje pivottabell, de numeriska aggregaten som sammanfattar källdatan. I Aspose.Cells for Node.js via C++ fylls dataregionen i en pivottabell genom att lägga till basfält i den via `PivotTable.addFieldToArea`, och varje fält som placeras i den regionen kan ha sin egen summeringsfunktion. När två eller flera datafält finns, exponerar Aspose.Cells ett särskilt aggregatfält, `PivotTable.getValuesField`, som kan placeras på rad- eller kolumnaxeln som ett basfält, vilket ger dig finare kontroll över hur värdefält visas i layouten.
+
 ## Lägga till ett fält i dataregionen
 Att lägga till ett basfält i data-(värde)regionen är det första steget i att forma hur en pivottabell aggregerar din källdata. Aspose.Cells exponerar `PivotTable.addFieldToArea(PivotFieldType, string)`, en överlagring som accepterar konstanten `PivotFieldType.Data` och källkolumnens namn. När ett fält har lagts till i dataregionen, exponeras det via samlingen `PivotTable.getDataFields()`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.Sum`, medan en icke-numerisk kolumn som standard blir `Count`.
 ## Ändra summeringsfunktionen
@@ -79,7 +79,6 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -133,7 +132,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let countField = pivotTable.getDataFields().get(1);
 countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
@@ -179,7 +177,6 @@ pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

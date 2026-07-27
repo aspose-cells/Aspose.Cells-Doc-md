@@ -9,6 +9,7 @@ url: /ar/nodejs-java/refresh-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 توفّر Aspose.Cells واجهة برمجة تطبيقات تحديث متعددة الطبقات تتيح لك إعادة تحميل بيانات الجداول المحورية بأربعة نطاقات مختلفة — من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Node.js via Java v26.7**، تم وضع علامة على الطريقة القديمة `PivotTable.RefreshData()` على أنها قديمة، ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والواعية بالذاكرة المؤقتة الموضحة في هذه المقالة.
 {{% /alert %}}
@@ -248,114 +249,79 @@ workbook.save("output.xlsx");
 يتجنّب ذلك جلب المصدر غير الضروري، وهو أسرع بكثير عندما تتشارك عدة جداول محورية في نفس الذاكرة المؤقتة.
 يُعدّل المثال التالي خاصية غير مصدرية للجدول المحوري ثم يستدعي `CalculateData()` لإعادة عرضه من الذاكرة المؤقتة الموجودة.
 ```javascript
-var workbook = new AsposeCells.Workbook();
-var worksheet = workbook.getWorksheets().get(0);
-
-// كتابة صف العناوين: الفاكهة / السنة / المبلغ
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-// كتابة 8 صفوف من البيانات (الصفوف من 2 إلى 9، لتطابق نطاق المصدر A1:C9)
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020); \nworksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020); \nworksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020); \nworksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020); \nworksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021); \nworksheet.getCells().get("C6").putValue(150);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021); \nworksheet.getCells().get("C7").putValue(250);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021); \nworksheet.getCells().get("C8").putValue(350);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021); \nworksheet.getCells().get("C9").putValue(450);
-
+var workbook = new AsposeCells.Workbook();
+
+var worksheet = workbook.getWorksheets().get(0);
+
+
+
+// كتابة صف العناوين: الفاكهة / السنة / المبلغ
+
+worksheet.getCells().get("A1").putValue("Fruit");
+
+worksheet.getCells().get("B1").putValue("Year");
+
+worksheet.getCells().get("C1").putValue("Amount");
+
+
+
+// كتابة 8 صفوف من البيانات (الصفوف من 2 إلى 9، لتطابق نطاق المصدر A1:C9)
+
+worksheet.getCells().get("A2").putValue("Grape");
+
+worksheet.getCells().get("B2").putValue(2020); \nworksheet.getCells().get("C2").putValue(100);
+
+
+
+worksheet.getCells().get("A3").putValue("Blueberry");
+
+worksheet.getCells().get("B3").putValue(2020); \nworksheet.getCells().get("C3").putValue(200);
+
+
+
+worksheet.getCells().get("A4").putValue("Kiwi");
+
+worksheet.getCells().get("B4").putValue(2020); \nworksheet.getCells().get("C4").putValue(300);
+
+
+
+worksheet.getCells().get("A5").putValue("Cherry");
+
+worksheet.getCells().get("B5").putValue(2020); \nworksheet.getCells().get("C5").putValue(400);
+
+
+
+worksheet.getCells().get("A6").putValue("Grape");
+
+worksheet.getCells().get("B6").putValue(2021); \nworksheet.getCells().get("C6").putValue(150);
+
+
+
+worksheet.getCells().get("A7").putValue("Blueberry");
+
+worksheet.getCells().get("B7").putValue(2021); \nworksheet.getCells().get("C7").putValue(250);
+
+
+
+worksheet.getCells().get("A8").putValue("Kiwi");
+
+worksheet.getCells().get("B8").putValue(2021); \nworksheet.getCells().get("C8").putValue(350);
+
+
+
+worksheet.getCells().get("A9").putValue("Cherry");
+
+worksheet.getCells().get("B9").putValue(2021); \nworksheet.getCells().get("C9").putValue(450);
+
+
+
 // إضافة جدول محوري باسم "Pivot1" موضوع في خلية الوجهة E3، يستقي بياناته من النطاق A1:C9\nvar pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");\nvar pivotTable = worksheet.getPivotTables().get(pivotIndex);\n\n// تعيين الحقول: الفاكهة إلى الصفوف، السنة إلى الأعمدة، المبلغ إلى البيانات\npivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");\npivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");\npivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");\n\n// تعديل خاصية عرض/تخطيط - هذا تغيير يتعلق بالعرض فقط،\n// لذلك لا يتطلب إعادة قراءة بيانات المصدر عبر PivotCache.Refresh().\npivotTable.setRefreshDataOnOpeningFile(false);\n\n// CalculateData() يعيد عرض هذا الجدول المحوري (البيانات + النمط) من\n// البيانات المخزنة بالفعل في PivotCache. ولأن بيانات المصدر لم تتغير،\n// لا يتم إجراء أي رحلة ذهاب وإياب إلى المصدر - يتم فقط إعادة حساب القيم المخزنة مؤقتًا\n// في خلايا ورقة العمل.\npivotTable.calculateData();\n\n// حفظ المصنف على القرص\nworkbook.save("output.xlsx");
 ```
 ## الحصول على جميع الجداول المحورية التي تتشارك نفس PivotCache
 غالبًا ما يحتوي المصنف على جداول محورية عديدة جميعها مبنية فوق ذاكرة مؤقتة مشتركة واحدة. لتعدادها — على سبيل المثال، قبل إجراء تحديث دفعة، أو لتشخيص تأثير الذاكرة المؤقتة المشتركة — استخدم `PivotCache.GetPivotTables()`. تُرجع هذه الطريقة مجموعة كل `PivotTable` يعتمد على الذاكرة المؤقتة المعطاة.
 هذه أيضًا هي الطريقة المباشرة الأكثر تأكيدًا على أن جدولين محوريين يتشاركان فعلاً نفس نسخة `PivotCache`: يمكنك مقارنة مراجع الذاكرة المؤقتة، أو ببساطة تكرار المجموعة التي تُرجعها `GetPivotTables()` ومراقبة الجداول المحورية التي تظهر فيها.
 يُنشئ المثال التالي جدولين محوريين على نفس نطاق المصدر، ويتحقق من أنهما يتشاركان نفس نسخة الذاكرة المؤقتة، ثم يُعدّد جداول الذاكرة المؤقتة.
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## الترحيل من `PivotTable.RefreshData()` القديمة
 قبل Aspose.Cells for Node.js via Java v26.7، كانت الطريقة المعيارية لتحديث جدول محوري هي استدعاء `PivotTable.RefreshData()` على كل جدول محوري على حدة. اعتبارًا من الإصدار v26.7، تم وضع علامة على هذه الطريقة على أنها **قديمة** ويجب استبدالها بواجهات برمجة التطبيقات الواعية بالذاكرة المؤقتة الموضحة أعلاه.
 هناك سببان يجعل أسلوب `RefreshData()` لكل جدول يمثل مشكلة في المصنفات الواقعية:

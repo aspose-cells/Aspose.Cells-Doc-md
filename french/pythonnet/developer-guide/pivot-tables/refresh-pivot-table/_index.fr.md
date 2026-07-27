@@ -9,11 +9,6 @@ url: /fr/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-```
-
-The title says "Aspose.Cells for Python via .NET" - I should keep this exact form.
-
-OK, now let me write the complete translated document.</think>
 
 
 {{% alert color="primary" %}}
@@ -372,76 +367,6 @@ C'est également le moyen le plus direct de confirmer que deux tableaux croisés
 
 L'exemple suivant crée deux tableaux croisés dynamiques sur la même plage source, vérifie qu'ils partagent la même instance de cache, puis énumère les tableaux croisés dynamiques du cache.
 
-```python
-import aspose.cells as ac
-
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 
 ## Migration depuis la méthode obsolète `PivotTable.refresh_data()`
 
@@ -539,10 +464,4 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 | Seuls les paramètres d'affichage/de mise en page ont changé | `pivot_table.calculate_data()` | Évite les allers-retours inutiles vers la source. |
 | Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivot_cache.get_pivot_tables()` | À utiliser pour énumérer avant une actualisation en masse. |
 
-En pratique, préférez les API basées sur le cache à la méthode obsolète `refresh_data()` par table. Elles sont conscientes des caches partagés, évitent les récupérations redondantes depuis la source et vous permettent de choisir le plus petit périmètre qui satisfait votre besoin d'actualisation.
-
-## Articles connexes
-
-- [Sparklines dans Aspose.Cells for Python via .NET](/cells/fr/python-net/sparkline/)
-
-{{< app/cells/assistant language="python" >}}
+En pratique, préférez les API basées sur le cache à la méthode obsolète `refresh_data()` par table. Elles sont conscientes des caches partagés, évitent les récupérations redondantes depuis la source et vous permettent de choisir le plus petit périmètre qui satisfait votre besoin d'actualisation.{{< app/cells/assistant language="python" >}}

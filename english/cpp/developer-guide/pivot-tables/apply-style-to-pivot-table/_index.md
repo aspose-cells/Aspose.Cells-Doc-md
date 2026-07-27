@@ -10,6 +10,7 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells supports applying both legacy pivot autoformats (intended for `.xls` files) and modern named or custom pivot table styles (intended for `.xlsx`, `.xlsm`, and `.xlsb` files). The API you should call depends on the file format the workbook is saved to, not the format it was loaded from.
@@ -34,8 +35,6 @@ In addition, `PivotTable.FormatAll(Style)` is a shortcut that applies a single `
 `PivotTable.AutoFormatType` accepts a value from the `Aspose.Cells.Pivot.PivotTableAutoFormatType` enumeration. The available values are `Report1` through `Report10`, `Classic`, and `Table1` through `Table10`.
 
 {{% alert color="primary" %}}
-
-`AutoFormatType` is only honored when the workbook is saved as `.xls`. When the same workbook is saved as `.xlsx`, `.xlsm`, or `.xlsb`, Excel ignores this property and falls back to the `PivotTableStyleType` and `PivotTableStyleName` settings.
 
 {{% /alert %}}
 
@@ -123,11 +122,7 @@ int main() {
 
 ## **Apply a Modern Named Preset Pivot Table Style**
 
-`PivotTable.PivotTableStyleType` accepts a value from the `Aspose.Cells.PivotTableStyleType` enumeration. The enumeration covers light themes `PivotTableStyleLight1` through `PivotTableStyleLight28` and dark themes `PivotTableStyleDark1` through `PivotTableStyleDark28`. The styles added in Excel 2017 (the second wave of light and dark themes) are reachable through the same enumeration.
-
 This is the recommended API for any modern file format. Unlike the legacy autoformat, the style selected here is rendered faithfully by Excel and survives round-trips through other Office tooling.
-
-The following example uses the same Fruit/Year/Amount data, creates an identical pivot table, applies `PivotTableStyleDark1`, and saves the workbook as `.xlsx`.
 
 ```cpp
 #include "Aspose.Cells.h"

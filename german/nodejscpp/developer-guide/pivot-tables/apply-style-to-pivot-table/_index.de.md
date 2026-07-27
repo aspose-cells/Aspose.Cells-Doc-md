@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejs_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Aspose.Cells unterstützt die Anwendung sowohl älterer Pivot-Autoformate (für `.xls`-Dateien vorgesehen) als auch moderner benannter oder benutzerdefinierter PivotTable-Formatvorlagen (für `.xlsx`-, `.xlsm`- und `.xlsb`-Dateien vorgesehen). Welche API Sie aufrufen sollten, hängt vom Dateiformat ab, in dem die Arbeitsmappe gespeichert wird, und nicht vom Format, aus dem sie geladen wurde.

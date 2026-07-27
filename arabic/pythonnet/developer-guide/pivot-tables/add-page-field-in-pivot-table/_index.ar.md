@@ -71,7 +71,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
 # تحديث وحساب بيانات الجدول المحوري
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # حفظ المصنف
@@ -125,7 +124,6 @@ year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
 
 # قم بالتحديث حتى ينعكس حقل الصفحة الجديد في المصنف المحفوظ
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -174,7 +172,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # مسح مرشح الصفحة بحيث يكون كل عنصر في حقل الصفحة مرئياً.
@@ -232,7 +229,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
 pivot_table.page_fields[0].current_page_item = 1  # 1 = العنصر الثاني بالترتيب (مثلاً "2021")
 
 # تحديث وحساب الجدول المحوري
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -303,7 +299,6 @@ for i in range(pivot_items.count):
     else:
         pivot_items[i].is_hidden = True
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")

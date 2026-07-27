@@ -75,7 +75,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # Uppdatera och beräkna pivottabellens data
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Spara arbetsboken
@@ -135,7 +134,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -189,7 +187,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Rensa sidfiltret så att alla objekt i sidfältet syns.
@@ -253,7 +250,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = andra objektet i sorterad ordning (t.ex. "2021")
 
 # Uppdatera och beräkna pivottabell
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -332,7 +328,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-I campi valore sono il cuore di ogni tabella pivot, gli aggregati numerici che riassumono i dati di origine. In Aspose.Cells for Python via .NET, l'area dati di una tabella pivot viene popolata aggiungendovi campi di base tramite `PivotTable.add_field_to_area`, e ogni campo posizionato in quell'area può avere una propria funzione di riepilogo. Quando esistono due o più campi dati, Aspose.Cells espone uno speciale campo aggregato, `PivotTable.values_field`, che può essere visualizzato sull'asse Riga o Colonna come campo di base, offrendo un controllo più preciso su come i campi valore appaiono nel layout.
-
 ## Aggiunta di un campo all'area dati
 
 L'aggiunta di un campo di base all'area dati (valore) è il primo passo per definire come una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.add_field_to_area(PivotFieldType, str)`, un overload che accetta la costante `PivotFieldType.DATA` e il nome della colonna di origine. Una volta aggiunto un campo all'area dati, l'API lo espone tramite la raccolta `PivotTable.data_fields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.SUM`, mentre una colonna non numerica utilizza `Count` come valore predefinito.
@@ -97,7 +95,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -145,7 +142,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 count_field = pivot_table.data_fields[1]
 count_field.function = ac.ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
@@ -194,7 +190,6 @@ pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 # Traccia i campi valore sull'asse delle colonne.
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")

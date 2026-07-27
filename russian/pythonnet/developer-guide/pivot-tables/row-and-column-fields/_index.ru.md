@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Поля строк и столбцов являются строительными блоками сводной таблицы. Поле, размещённое в области строк, отображается вертикально слева в сводной таблице, тогда как поле, размещённое в области столбцов, отображается горизонтально сверху. В этой статье показано, как программно добавлять базовые поля в эти области и как управлять промежуточными итогами, которые отображаются между группами полей, с помощью метода `PivotField.set_subtotals`.
-
 ## **Добавление поля в область строк или столбцов**
 
 Метод `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `field_type` принимает одно из следующих значений `PivotFieldType`.
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,7 +233,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

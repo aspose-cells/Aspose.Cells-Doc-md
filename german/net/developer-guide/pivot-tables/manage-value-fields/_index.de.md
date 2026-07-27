@@ -9,7 +9,7 @@ url: /de/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Wertfelder sind das Herzstück jeder PivotTable, die numerischen Aggregate, die die Quelldaten zusammenfassen. In Aspose.Cells for .NET wird der Datenbereich einer PivotTable durch das Hinzufügen von Basisfeldern über `PivotTable.AddFieldToArea` befüllt, und jedes in diesem Bereich platzierte Feld kann über eine eigene Zusammenfassungsfunktion verfügen. Wenn zwei oder mehr Datenfelder vorhanden sind, stellt Aspose.Cells ein spezielles Aggregatfeld `PivotTable.ValuesField` bereit, das als Basisfeld auf die Zeilen- oder Spaltenachse abgelegt werden kann, sodass Sie eine feinere Kontrolle darüber haben, wie Wertfelder im Layout angezeigt werden.
+
 ## Hinzufügen eines Felds zum Datenbereich
 Das Hinzufügen eines Basisfelds zum Daten- (Wert-)Bereich ist der erste Schritt bei der Gestaltung der Aggregation Ihrer Quelldaten durch eine PivotTable. Aspose.Cells stellt `PivotTable.AddFieldToArea(PivotFieldType, string)` bereit, eine Überladung, die die Konstante `PivotFieldType.Data` und den Namen der Quellspalte akzeptiert. Sobald ein Feld zum Datenbereich hinzugefügt wurde, stellt die API es über die Auflistung `PivotTable.DataFields` in der Reihenfolge bereit, in der die Felder hinzugefügt wurden. Standardmäßig wird eine numerische Quellspalte mit `ConsolidationFunction.Sum` zusammengefasst, während eine nicht-numerische Spalte standardmäßig `Count` verwendet.
 ## Ändern der Zusammenfassungsfunktion
@@ -84,7 +84,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -143,7 +142,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -193,7 +191,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

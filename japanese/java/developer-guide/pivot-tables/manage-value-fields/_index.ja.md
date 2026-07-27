@@ -9,7 +9,7 @@ url: /ja/java/manage-value-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-値フィールドはすべてのピボットテーブルの中心であり、ソースデータを集計する数値集計です。Aspose.Cells for Java では、`PivotTable.addFieldToArea` を通じてベースフィールドを追加することでピボットテーブルのデータ領域が構築され、その領域に配置された各フィールドは独自の集計関数を持つことができます。2 つ以上のデータフィールドが存在する場合、Aspose.Cells は特別な集計フィールドである `PivotTable.getValuesField()` を公開しており、これをベースフィールドとして Row または Column 軸にプロットすることで、レイアウト内での値フィールドの表示方法をより細かく制御できます。
+
 ## データ領域へのフィールドの追加
 データ(値)領域にベースフィールドを追加することは、ピボットテーブルがソースデータを集計する方法を形作る最初のステップです。Aspose.Cells は `PivotTable.addFieldToArea(PivotFieldType, String)` を提供しており、定数 `PivotFieldType.DATA` とソース列名を受け取るオーバーロードを使用できます。フィールドがデータ領域に追加されると、API はそれを `PivotTable.getDataFields()` コレクションを通じて、フィールドが追加された順に公開します。デフォルトでは、数値ソース列は `ConsolidationFunction.SUM` で集計され、非数値列のデフォルトは `COUNT` となります。
 ## 集計関数の変更
@@ -82,7 +82,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -131,7 +130,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -179,7 +177,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

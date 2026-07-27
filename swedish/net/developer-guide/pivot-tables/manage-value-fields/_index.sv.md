@@ -9,7 +9,7 @@ url: /sv/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Värdefält är kärnan i varje pivottabell, de numeriska aggregaten som sammanfattar källdata. I Aspose.Cells for .NET fylls dataområdet i en pivottabell genom att lägga till basfält via `PivotTable.AddFieldToArea`, och varje fält som placeras i det området kan ha sin egen summeringsfunktion. När två eller flera datafält finns, exponerar Aspose.Cells ett särskilt aggregatfält, `PivotTable.ValuesField`, som kan ritas på rad- eller kolumnaxeln som ett basfält, vilket ger dig finare kontroll över hur värdefält visas i layouten.
+
 ## Lägga till ett fält i dataområdet
 Att lägga till ett basfält i data- (värde-) området är det första steget för att forma hur en pivottabell aggregerar dina källdata. Aspose.Cells exponerar `PivotTable.AddFieldToArea(PivotFieldType, string)`, en överlagring som accepterar konstanten `PivotFieldType.Data` och källkolonnens namn. När ett fält har lagts till i dataområdet exponerar API:et det genom samlingen `PivotTable.DataFields`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.Sum`, medan en icke-numerisk kolumn som standard blir `Count`.
 ## Ändra summeringsfunktionen
@@ -83,7 +83,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -142,7 +141,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -192,7 +190,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

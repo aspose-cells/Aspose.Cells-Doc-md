@@ -71,7 +71,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
 # Pivot tablo verilerini yenile ve hesapla
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Çalışma kitabını kaydet
@@ -125,7 +124,6 @@ year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
 
 # Yeni sayfa alanının kaydedilen çalışma kitabına yansıtılması için yenile
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -174,7 +172,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür olsun.
@@ -232,7 +229,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
 pivot_table.page_fields[0].current_page_item = 1  # 1 = sıralanmış listedeki ikinci öğe (ör. "2021")
 
 # Pivot tabloyu yenile ve hesapla
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -303,7 +299,6 @@ for i in range(pivot_items.count):
     else:
         pivot_items[i].is_hidden = True
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")

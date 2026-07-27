@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Les champs de ligne et de colonne sont les éléments constitutifs d'un tableau croisé dynamique. Un champ placé dans la zone des lignes apparaît verticalement à gauche du tableau croisé dynamique, tandis qu'un champ placé dans la zone des colonnes apparaît horizontalement en haut. Cet article montre comment ajouter des champs de base à ces zones par programmation et comment contrôler les sous-totaux qui s'affichent entre les groupes de champs à l'aide de la méthode `PivotField.SetSubtotals`.
-
 ## **Ajout d'un champ à la zone des lignes ou des colonnes**
 
 La méthode `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` déplace un champ de base des données source vers l'une des quatre zones du tableau croisé dynamique. L'argument `fieldType` accepte l'une des valeurs `PivotFieldType` suivantes.
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

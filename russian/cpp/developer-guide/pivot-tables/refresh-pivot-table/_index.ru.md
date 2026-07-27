@@ -117,7 +117,6 @@ int main() {
     cells.Get(u"C5").PutValue(85);
     cells.Get(u"C9").PutValue(125);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output.xlsx");
@@ -540,7 +539,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -563,13 +561,4 @@ int main() {
 | Изменились только параметры представления/макета | `pivotTable.CalculateData()` | Пропускает ненужное обращение к источнику. |
 | Получить список всех сводных таблиц на общем кэше | `pivotCache.GetPivotTables()` | Используйте для перечисления перед массовым обновлением. |
 
-На практике предпочтительнее использовать API на основе кэша вместо устаревшего вызова `RefreshData()` для каждой таблицы. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать минимальную область, удовлетворяющую вашим требованиям к обновлению.
-
-## Связанные статьи
-
-- [Вставка изображения в ячейку](/cells/ru/cpp/inserting-an-image-into-a-cell/)
-- [Чтение и запись файлов DBF](/cells/ru/cpp/dbf/)
-- [Разделение файлов Excel на несколько файлов](/cells/ru/cpp/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for C++](/cells/ru/cpp/sparkline/)
-
-{{< app/cells/assistant language="cpp" >}}
+На практике предпочтительнее использовать API на основе кэша вместо устаревшего вызова `RefreshData()` для каждой таблицы. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать минимальную область, удовлетворяющую вашим требованиям к обновлению.{{< app/cells/assistant language="cpp" >}}

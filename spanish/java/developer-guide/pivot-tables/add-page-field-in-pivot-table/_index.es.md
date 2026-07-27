@@ -74,7 +74,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 
 // Actualizar y calcular los datos de la tabla dinámica
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Guardar el libro de trabajo
@@ -128,7 +127,6 @@ PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // Actualizar para que el nuevo campo de página se refleje en el libro guardado
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -181,7 +179,6 @@ pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 
-pivot.refreshData();
 pivot.calculateData();
 
 // Borrar el filtro de página para que cada elemento en el campo de página sea visible.
@@ -239,7 +236,6 @@ pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = segundo elemento en orden ordenado (por ejemplo, "2021")
 
 // Actualizar y calcular tabla dinámica
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -318,7 +314,6 @@ for (int i = 0; i < pivotItems.getCount(); i++)
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

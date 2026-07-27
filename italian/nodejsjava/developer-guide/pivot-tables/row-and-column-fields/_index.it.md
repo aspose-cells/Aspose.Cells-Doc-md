@@ -10,9 +10,6 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-I campi riga e colonna sono gli elementi fondamentali di una tabella pivot. Un campo inserito nell'area riga appare verticalmente sulla sinistra della pivot, mentre un campo inserito nell'area colonna appare orizzontalmente nella parte superiore. Questo articolo mostra come aggiungere campi di base a tali aree tramite codice e come controllare i subtotali che vengono visualizzati tra i gruppi di campi utilizzando il metodo `PivotField.setSubtotals`.
-
 ## **Aggiungere un campo all'area Riga o Colonna**
 
 Il metodo `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` sposta un campo di base dai dati di origine in una delle quattro aree della pivot. L'argomento `fieldType` accetta uno dei seguenti valori di `PivotFieldType`.
@@ -114,7 +111,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -164,7 +160,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -237,7 +232,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

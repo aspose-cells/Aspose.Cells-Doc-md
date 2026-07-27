@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-行和列字段是数据透视表的基础组成部分。放置在行区域中的字段会垂直显示在数据透视表的左侧，而放置在列区域中的字段则会水平显示在顶部。本文介绍如何以编程方式向这些区域添加基础字段，以及如何通过使用 `PivotField.setSubtotals` 方法来控制在字段组之间呈现的小计。
-
 ## **向行或列区域添加字段**
 
 `PivotTable.addFieldToArea(int fieldType, String fieldName)` 方法可将基础字段从源数据移至四个数据透视区域之一。`fieldType` 参数接受以下 `PivotFieldType` 值之一。
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

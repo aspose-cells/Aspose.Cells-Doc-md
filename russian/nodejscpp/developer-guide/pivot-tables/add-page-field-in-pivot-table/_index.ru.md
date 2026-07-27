@@ -70,7 +70,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
 // Обновляем и вычисляем данные сводной таблицы
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Сохраняем книгу
@@ -115,7 +114,6 @@ let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // Обновить, чтобы новое поле страницы отразилось в сохранённой книге
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -163,7 +161,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Сброс фильтра страницы, чтобы каждый элемент поля страницы был виден.
@@ -218,7 +215,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = второй элемент в отсортированном порядке (например, "2021")
 
 // Обновляем и пересчитываем сводную таблицу
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -290,7 +286,6 @@ for (let i = 0; i < pivotItems.getCount(); i++) {
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

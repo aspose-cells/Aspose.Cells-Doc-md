@@ -10,7 +10,18 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Satır ve sütun alanları, bir pivot tablosunun yapı taşlarıdır. Satır bölgesine yerleştirilen bir alan pivotun solunda dikey olarak görünürken, sütun bölgesine yerleştirilen bir alan üstte yatay olarak görünür. Bu makale, bu bölgelere programatik olarak temel alanların nasıl ekleneceğini ve `PivotField.setSubtotals` yöntemi kullanılarak alan grupları arasında görüntülenen ara toplamların nasıl kontrol edileceğini gösterir.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## **Satır veya Sütun Bölgesine Alan Ekleme**
 
@@ -119,7 +130,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_automatic.xlsx")
@@ -171,7 +181,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_none.xlsx")
@@ -252,7 +261,6 @@ categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
 categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_custom.xlsx")
@@ -277,7 +285,6 @@ Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaş
 8. ✅ Frontmatter structure preserved
 9. ✅ All 3 CODE_BLOCK placeholders preserved
 
-One thing to verify - the description in my translation:
 "Aspose.Cells for Python via Java kullanarak bir pivot tablosunun satır ve sütun bölgelerine temel alanların nasıl ekleneceğini ve PivotField.setSubtotals kullanılarak pivot alanı ara toplamlarının nasıl kontrol edileceğini öğrenin."
 
 No colons, good.

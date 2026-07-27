@@ -9,6 +9,7 @@ url: /de/python-java/refresh-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells stellt eine geschichtete Aktualisierungs-API bereit, mit der Sie Pivot-Daten in vier verschiedenen Bereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Ab **Aspose.Cells for Python via Java v26.7** ist die Legacy-Methode `PivotTable.refreshData()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 {{% /alert %}}
@@ -344,82 +345,7 @@ jpype.shutdownJVM()
 Eine Arbeitsmappe enthält häufig viele Pivot-Tabellen, die alle auf einem einzigen geteilten Cache aufbauen. Um sie aufzulisten – beispielsweise vor einer Batch-Aktualisierung oder um die Auswirkungen des geteilten Caches zu diagnostizieren – verwenden Sie `PivotCache.getPivotTables()`. Diese Methode gibt die Sammlung jeder `PivotTable` zurück, die von dem angegebenen Cache abhängt.
 Dies ist auch der direkteste Weg, um zu bestätigen, dass zwei Pivot-Tabellen tatsächlich dieselbe `PivotCache`-Instanz teilen: Sie können Cache-Referenzen vergleichen oder einfach die von `getPivotTables()` zurückgegebene Sammlung durchlaufen und beobachten, welche Pivot-Tabellen darin erscheinen.
 Das folgende Beispiel erstellt zwei Pivot-Tabellen auf demselben Quellbereich, überprüft, dass sie dieselbe Cache-Instanz teilen, und listet dann die Pivot-Tabellen des Caches auf.
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotFieldType
 
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Sheet1")
-
-worksheet.getCells().get("A1").putValue("Fruit")
-worksheet.getCells().get("B1").putValue("Year")
-worksheet.getCells().get("C1").putValue("Amount")
-
-worksheet.getCells().get("A2").putValue("Grape")
-worksheet.getCells().get("B2").putValue(2020)
-worksheet.getCells().get("C2").putValue(100)
-
-worksheet.getCells().get("A3").putValue("Blueberry")
-worksheet.getCells().get("B3").putValue(2020)
-worksheet.getCells().get("C3").putValue(200)
-
-worksheet.getCells().get("A4").putValue("Kiwi")
-worksheet.getCells().get("B4").putValue(2020)
-worksheet.getCells().get("C4").putValue(300)
-
-worksheet.getCells().get("A5").putValue("Cherry")
-worksheet.getCells().get("B5").putValue(2020)
-worksheet.getCells().get("C5").putValue(400)
-
-worksheet.getCells().get("A6").putValue("Grape")
-worksheet.getCells().get("B6").putValue(2021)
-worksheet.getCells().get("C6").putValue(500)
-
-worksheet.getCells().get("A7").putValue("Blueberry")
-worksheet.getCells().get("B7").putValue(2021)
-worksheet.getCells().get("C7").putValue(600)
-
-worksheet.getCells().get("A8").putValue("Kiwi")
-worksheet.getCells().get("B8").putValue(2021)
-worksheet.getCells().get("C8").putValue(700)
-
-worksheet.getCells().get("A9").putValue("Cherry")
-worksheet.getCells().get("B9").putValue(2021)
-worksheet.getCells().get("C9").putValue(800)
-
-worksheet.getCells().get("A10").putValue("Grape")
-worksheet.getCells().get("B10").putValue(2021)
-worksheet.getCells().get("C10").putValue(900)
-
-pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.getPivotTables().get(pivot1Index)
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.getPivotTables().get(pivot2Index)
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
-
-sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
-print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))
-
-for pt in sharedPivotTables:
-    print("Pivot table name: " + pt.getName())
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 ## Migration von der veralteten `PivotTable.refreshData()`
 Vor Aspose.Cells for Python via Java v26.7 bestand die Standardmethode zum Aktualisieren einer Pivot-Tabelle darin, `PivotTable.refreshData()` für jede Pivot-Tabelle einzeln aufzurufen. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 Es gibt zwei Gründe, warum der Ansatz `refreshData()` pro Tabelle in realen Arbeitsmappen problematisch ist:
@@ -513,10 +439,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Quelldaten für einen Cache geändert | `pivotTable.getPivotCache().refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem geteilten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.calculateData()` | Überspringt unnötige Quellrundreise. |
 | Alle Pivot-Tabellen auf einem geteilten Cache auflisten | `pivotCache.getPivotTables()` | Vor Massenaktualisierung zum Auflisten verwenden. |
-In der Praxis sollten Sie die cache-basierten APIs der veralteten Methode `refreshData()` pro Tabelle vorziehen. Sie kennen geteilte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Bereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
-## Verwandte Artikel
-- [Einfügen eines Bildes in eine Zelle](/cells/de/python-java/inserting-an-image-into-a-cell/)
-- [Lesen und Schreiben von DBF-Dateien](/cells/de/python-java/dbf/)
-- [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/python-java/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for Python via Java](/cells/de/python-java/sparkline/)
-{{< app/cells/assistant language="python" >}}
+In der Praxis sollten Sie die cache-basierten APIs der veralteten Methode `refreshData()` pro Tabelle vorziehen. Sie kennen geteilte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Bereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="python" >}}

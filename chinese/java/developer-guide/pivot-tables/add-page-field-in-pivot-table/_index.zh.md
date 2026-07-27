@@ -74,7 +74,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 
 // 刷新并计算数据透视表数据
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // 保存工作簿
@@ -128,7 +127,6 @@ PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // 刷新以使新的页面字段在保存的工作簿中生效
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -181,7 +179,6 @@ pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 
-pivot.refreshData();
 pivot.calculateData();
 
 // 清除页面筛选器，以便页面字段中的每个项目都可见。
@@ -239,7 +236,6 @@ pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = 排序顺序中的第二项（例如 "2021"）
 
 // 刷新并计算数据透视表
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -318,7 +314,6 @@ for (int i = 0; i < pivotItems.getCount(); i++)
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

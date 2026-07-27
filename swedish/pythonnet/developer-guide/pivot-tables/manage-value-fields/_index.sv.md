@@ -9,7 +9,7 @@ url: /sv/python-net/pivot-table-manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Värdefält är kärnan i varje pivottabell, de numeriska aggregaten som sammanfattar källdata. I Aspose.Cells for Python via .NET fylls dataregionen i en pivottabell genom att lägga till basfält via `PivotTable.add_field_to_area`, och varje fält som placeras i den regionen kan ha sin egen summeringsfunktion. När två eller fler datafält finns exponerar Aspose.Cells ett särskilt aggregatfält, `PivotTable.values_field`, som kan placeras på rad- eller kolumnaxeln som ett basfält, vilket ger dig finare kontroll över hur värdefälten visas i layouten.
+
 ## Lägga till ett fält i dataregionen
 Att lägga till ett basfält i data- (värde-)regionen är det första steget för att forma hur en pivottabell aggregerar dina källdata. Aspose.Cells exponerar `PivotTable.add_field_to_area(PivotFieldType, str)`, en överlagring som accepterar konstanten `PivotFieldType.DATA` och källkolumnens namn. När ett fält har lagts till i dataregionen exponerar API:et det via samlingen `PivotTable.data_fields`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.SUM`, medan en icke-numerisk kolumn som standard blir `Count`.
 ## Ändra summeringsfunktionen
@@ -83,7 +83,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -128,7 +127,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 count_field = pivot_table.data_fields[1]
 count_field.function = ac.ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
@@ -174,7 +172,6 @@ pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 # Plotta värdefälten på kolumnaxeln.
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")

@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-حقول القيم هي جوهر كل جدول محوري، وهي القيم العددية المجمّعة التي تلخّص البيانات المصدرية. في Aspose.Cells for Java، يتم ملء منطقة البيانات في الجدول المحوري عن طريق إضافة الحقول الأساسية إليها من خلال `PivotTable.addFieldToArea`، ويمكن أن يكون لكل حقل موضوع في تلك المنطقة دالة تلخيص خاصة به. عندما يوجد حقلا بيانات أو أكثر، يعرض Aspose.Cells حقلاً مجمّعاً خاصاً، `PivotTable.getValuesField()`، يمكن رسمه على محور الصفوف أو الأعمدة كحقل أساسي، مما يمنحك تحكماً أدق في كيفية ظهور حقول القيم في التخطيط.
-
 ## إضافة حقل إلى منطقة البيانات
 
 تعد إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبياناتك المصدرية. يعرض Aspose.Cells الأسلوب `PivotTable.addFieldToArea(PivotFieldType, String)`، وهو نسخة محمّلة تقبل الثابت `PivotFieldType.DATA` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، يعرضه واجهة برمجة التطبيقات من خلال مجموعة `PivotTable.getDataFields()`، بالترتيب الذي تمت إضافة الحقول به. افتراضياً، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.SUM`، بينما يكون العمود غير الرقمي افتراضياً على `COUNT`.
@@ -96,7 +94,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -148,7 +145,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -199,7 +195,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

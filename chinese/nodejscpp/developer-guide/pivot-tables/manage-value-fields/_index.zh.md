@@ -8,18 +8,8 @@ url: /zh/nodejs-cpp/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-```
 
-Now the body. Let me translate carefully:
 
-"Value fields are the heart of every pivot table, the numeric aggregates that summarise the source data."
-→ "值字段是每个数据透视表的核心,用于汇总源数据的数值聚合。"
-
-"In Aspose.Cells for Node.js via C++, the data region of a pivot table is populated by adding base fields to it through `PivotTable.addFieldToArea`, and each field placed in that region can have its own summary function."
-→ "在 Aspose.Cells for Node.js via C++ 中,通过 `PivotTable.addFieldToArea` 向数据透视表的数据区域添加基础字段来填充该区域,放置在该区域中的每个字段都可以拥有自己的汇总函数。"
-
-"When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.getValuesField`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout."
-→ "当存在两个或更多数据字段时,Aspose.Cells 公开了一个特殊的聚合字段 `PivotTable.getValuesField`,它可以作为基础字段绘制到行轴或列轴上,从而让您更精细地控制值字段在布局中的显示方式。"
 
 ## Adding a Field to the Data Region
 → ## 向数据区域添加字段
@@ -42,13 +32,11 @@ Now the body. Let me translate carefully:
 "Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `getFunction()` property returns a value from the `ConsolidationFunction` enum."
 → "放置在数据区域中的每个字段在内部被包装为 `PivotField` 实例,其 `getFunction()` 属性返回 `ConsolidationFunction` 枚举中的一个值。"
 
-"The same `setFunction()` setter lets you switch between the available aggregates, including `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp`."
 → "同一个 `setFunction()` setter 可让您在可用的聚合之间切换,包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`。"
 
 Alert: "Changing the summary function only affects the aggregate, the source column does not change."
 → "更改汇总函数只会影响聚合结果,源列不会改变。"
 
-"You can therefore leave one data field as `Sum` while you add a second data field that targets the same source column but uses `Count` or `Average`, all in a single pivot."
 → "因此,您可以在单个数据透视表中将一个数据字段保留为 `Sum`,同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段。"
 
 ## Plotting Value Fields to Row or Column Axis
@@ -90,8 +78,6 @@ Links:
 - "Refreshing Pivot Tables in Aspose.Cells for Node.js via C++" → "在 Aspose.Cells for Node.js via C++ 中刷新数据透视表"
 - "Applying Styles to Pivot Tables" → "为数据透视表应用样式"
 
-Let me verify all the rules:
-
 1. ✓ Product names kept as-is (Aspose.Cells for Node.js via C++ appears once per phrase)
 2. ✓ No doubling
 3. ✓ API names in English (Workbook, PivotFieldType, etc.)
@@ -102,41 +88,22 @@ Let me verify all the rules:
 8. ✓ URLs preserved
 9. ✓ Only translated document output, no commentary
 
-Let me count the placeholders in input: 3 (CODE_BLOCK:0, 1, 2). Output: 3. ✓
-
-Let me also verify the description has no colons. My translation:
 "学习如何向 Aspose.Cells for Node.js via C++ 数据透视表的数据区域添加基础字段,通过 PivotField.Function 更改汇总函数,并将值字段绘制到行轴或列轴。"
 No colon. ✓
 
-Wait, I need to reconsider. The original description is one sentence, but with the product name "Aspose.Cells for Node.js via C++" appearing at the end. Let me ensure my translation only has ONE occurrence.
-
 Original: "Learn how to add base fields to the data region of a pivot table, change the summary function with PivotField.Function, and plot the value field onto the Row or Column axis in Aspose.Cells for Node.js via C++."
-
-Translation: "学习如何向 Aspose.Cells for Node.js via C++ 数据透视表的数据区域添加基础字段,通过 PivotField.Function 更改汇总函数,并将值字段绘制到行轴或列轴。"
 
 Counts: one occurrence of "Aspose.Cells for Node.js via C++". ✓
 
-Let me also verify my translation doesn't have a full-width colon (：). I used Chinese comma (，). Good.
-
-Now let me finalize the output.
-
-One more thing - I need to make sure the alert blocks preserve their content correctly. The English text inside alert blocks is allowed to be translated.
-
 Also, regarding "bare LLM thinking patterns" - I should not include any meta-text or thinking.
 
-Let me also double-check the keywords. Original:
 keywords: Aspose.Cells, Node.js via C++, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
 
 I should keep technical/API terms in English:
 keywords: Aspose.Cells, Node.js via C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 
-That looks good.
-
-Let me also check the shortcode - I should keep it exactly as-is.
-
 One concern: in the body, "Aspose.Cells" appears many times. Each instance is just "Aspose.Cells" (the bare product name), so it's fine. I just need to make sure I don't accidentally insert "Aspose.Cells for Node.js via C++" twice in a row, which would create the doubling pattern.
 
-Looking at my translation:
 - "在 Aspose.Cells for Node.js via C++ 中" - appears multiple times but each is separate phrase
 - "Aspose.Cells 公开了" - just "Aspose.Cells"
 
@@ -144,18 +111,11 @@ I should be careful about phrases like:
 - "Aspose.Cells for Node.js via C++ 中数据透视表的" - single occurrence ✓
 - "Aspose.Cells for Node.js via C++ 中的值字段" - in title, single occurrence ✓
 
-Good. Let me finalize.
-
 Actually I want to reconsider the title. The original title is:
 "Value Fields in Aspose.Cells for Node.js via C++"
 
 This translates naturally to:
 "Aspose.Cells for Node.js via C++ 中的值字段"
-
-In Chinese, it's more natural to put the product name at the beginning. But let me check if this creates any doubling issue... no, "Aspose.Cells for Node.js via C++" appears once. Good.
-
-Final output:</think>
-
 
 值字段是每个数据透视表的核心,是用于汇总源数据的数值聚合。在 Aspose.Cells for Node.js via C++ 中,数据透视表的数据区域通过 `PivotTable.addFieldToArea` 添加基础字段进行填充,放置在该区域中的每个字段都可以拥有自己的汇总函数。当存在两个或更多数据字段时,Aspose.Cells 公开了一个特殊的聚合字段 `PivotTable.getValuesField`,它可以作为基础字段绘制到行轴或列轴上,从而让您更精细地控制值字段在布局中的呈现方式。
 
@@ -240,7 +200,6 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -298,7 +257,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let countField = pivotTable.getDataFields().get(1);
 countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
@@ -347,7 +305,6 @@ pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-تُعدّ حقول القيم جوهر كل جدول محوري، فهي التجميعات الرقمية التي تُلخّص بيانات المصدر. في Aspose.Cells for Python via Java، يتم ملء منطقة البيانات في الجدول المحوري عبر إضافة الحقول الأساسية إليها باستخدام `PivotTable.addFieldToArea`، ويمكن أن يكون لكل حقل موضوع في تلك المنطقة دالة تلخيص خاصة به. عند وجود حقلين أو أكثر من حقول البيانات، يوفّر Aspose.Cells حقلًا تجميعيًا خاصًا، وهو `PivotTable.ValuesField`، يمكن عرضه على محور الصفوف أو الأعمدة باعتباره حقلًا أساسيًا، مما يمنحك تحكمًا أدق في كيفية ظهور حقول القيم في التخطيط.
-
 ## إضافة حقل إلى منطقة البيانات
 
 تُعدّ إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يوفّر Aspose.Cells الحمل الزائد `PivotTable.addFieldToArea(PivotFieldType, string)` الذي يقبل الثابت `PivotFieldType.DATA` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، يكشف لك الـ API عنه من خلال مجموعة `PivotTable.DataFields`، وذلك وفق الترتيب الذي أُضيفت به الحقول. افتراضيًا، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.SUM`، بينما يكون العمود غير الرقمي افتراضيًا على `COUNT`.
@@ -73,7 +71,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -117,7 +114,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -162,7 +158,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

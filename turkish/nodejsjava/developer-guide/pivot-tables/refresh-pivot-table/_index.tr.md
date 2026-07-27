@@ -10,6 +10,7 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells, özet verilerini dört farklı kapsamda — tüm çalışma kitabından tek bir özet tablosuna kadar — yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sağlar. **Aspose.Cells for Node.js via Java v26.7** sürümünden itibaren, eski yöntem olan `PivotTable.RefreshData()` kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede açıklanan daha verimli ve önbellek farkındaki (cache-aware) API'lerle değiştirilmelidir.
@@ -201,83 +202,6 @@ Altta yatan kaynak veriler değiştiyse, doğru giriş noktası `pivotTable.Pivo
 
 Aşağıdaki örnek, bu paylaşılan önbellek davranışını göstermek için aynı kaynak aralığında iki özet tablosu oluşturur, bazı kaynak değerleri değiştirir ve ardından bir önbellek başvurusu üzerinden yenileme yapar.
 
-```javascript
-const AsposeCells = require("aspose.cells");
-
-// Create a new workbook and access the first worksheet
-const workbook = new AsposeCells.Workbook();
-const worksheet = workbook.getWorksheets().get(0);
-
-// Write header row: Fruit / Year / Amount
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-// Write approximately 9 data rows (grape / blueberry / kiwi / cherry across 2020-2021)
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-// Add the first pivot table "Pivot1" anchored at cell E3, source range A1:C9
-const pivotIndex1 = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable1 = worksheet.getPivotTables().get(pivotIndex1);
-
-// Assign fields for Pivot1
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-// Add a SECOND pivot table "Pivot2" anchored at E15 using the SAME source range A1:C9
-// Both Pivot1 and Pivot2 share a single PivotCache because the source range is identical.
-const pivotIndex2 = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-const pivotTable2 = worksheet.getPivotTables().get(pivotIndex2);
-
-// Assign the same fields for Pivot2
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-// Modify several Amount cell values in the source data to simulate a data change
-worksheet.getCells().get("C2").putValue(150);
-worksheet.getCells().get("C4").putValue(350);
-worksheet.getCells().get("C7").putValue(650);
-
-// Refresh the shared PivotCache.
-// Because Pivot1 and Pivot2 share the same PivotCache, this single call
-// refreshes BOTH pivot tables (data + style) from the updated source.
-pivotTable1.getPivotCache().refresh();
-
-// Save the workbook
-workbook.save("output.xlsx");
-```
 
 ### Yalnızca Görünüm/Düzen Değişti — `CalculateData()` Kullanın
 
@@ -360,75 +284,6 @@ Bu, aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini 
 
 Aşağıdaki örnek, aynı kaynak aralığında iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
 
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## Eski `PivotTable.RefreshData()` Yönteminden Geçiş
 
@@ -447,69 +302,6 @@ Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşı
 
 Aşağıdaki örnek, tek bir önbelleği paylaşan birden çok özet tablosuna sahip çalışma kitapları için yeni verimli kalıbı gösterir.
 
-```javascript
-let workbook = new AsposeCells.Workbook();
-let sheet = workbook.getWorksheets().get(0);
-
-// --- Build the source data: Fruit / Year / Amount (header + 9 rows) ---
-sheet.getCells().get("A1").putValue("Fruit");
-sheet.getCells().get("B1").putValue("Year");
-sheet.getCells().get("C1").putValue("Amount");
-
-sheet.getCells().get("A2").putValue("Grape");      sheet.getCells().get("B2").putValue(2020); sheet.getCells().get("C2").putValue(1000);
-sheet.getCells().get("A3").putValue("Blueberry");  sheet.getCells().get("B3").putValue(2020); sheet.getCells().get("C3").putValue(2000);
-sheet.getCells().get("A4").putValue("Kiwi");       sheet.getCells().get("B4").putValue(2020); sheet.getCells().get("C4").putValue(1500);
-sheet.getCells().get("A5").putValue("Cherry");     sheet.getCells().get("B5").putValue(2020); sheet.getCells().get("C5").putValue(2500);
-sheet.getCells().get("A6").putValue("Grape");      sheet.getCells().get("B6").putValue(2021); sheet.getCells().get("C6").putValue(3000);
-sheet.getCells().get("A7").putValue("Blueberry");  sheet.getCells().get("B7").putValue(2021); sheet.getCells().get("C7").putValue(1800);
-sheet.getCells().get("A8").putValue("Kiwi");       sheet.getCells().get("B8").putValue(2021); sheet.getCells().get("C8").putValue(2200);
-sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700);
-
-// --- Add the first pivot table (Pivot1) at destination cell E3 ---
-let idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = sheet.getPivotTables().get(idx1);
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-// --- Add the SECOND pivot table (Pivot2) on the SAME source range ---
-// Both Pivot1 and Pivot2 share ONE underlying PivotCache.
-// This is exactly the scenario where the legacy per-table RefreshData()
-// approach becomes inefficient: refreshing one table re-fetches the whole
-// shared cache, so refreshing N tables does the same expensive fetch N times.
-let idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = sheet.getPivotTables().get(idx2);
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-// --- Modify several Amount values in the source data ---
-sheet.getCells().get("C2").putValue(5000);   // Grape  2020
-sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
-sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
-
-// --- OBSOLETE pattern (pre-26.7) — PivotTable.RefreshData() ---
-// pivotTable1.refreshData();  // re-fetches from source, refreshes whole cache
-// pivotTable2.refreshData();  // re-fetches AGAIN — the cache is already fresh!
-// Each call rebuilds the shared cache, so N tables = N redundant fetches.
-
-// --- NEW v26.7+ pattern: refresh the cache ONCE, then re-render as needed ---
-// One call to PivotCache.Refresh() pulls the modified values into the shared
-// cache AND recalculates the display of EVERY pivot table that references it.
-// Because Pivot1 and Pivot2 share one PivotCache, this single call updates
-// both tables — no second source round-trip is required.
-pivotTable1.getPivotCache().refresh();
-
-// CalculateData() only re-renders a pivot table's display (data + style)
-// from the data already held in the cache — it does NOT touch the source.
-// We call it on Pivot2 here purely to demonstrate the API: after the cache
-// has been refreshed once, any dependent table can be re-rendered without
-// going back to the source. Use CalculateData() on its own when only the
-// pivot table's view/layout settings have changed and the cache is current.
-pivotTable2.calculateData();
-
-workbook.save("output.xlsx");
-```
 
 ## Hangi Yenileme API'sini Kullanmalıyım?
 
@@ -523,13 +315,4 @@ Aşağıdaki tablo mevcut yenileme API'lerini özetler ve her birinin ne zaman s
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan önbellekteki tüm özet tablolarını listeleyin | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
 
-Uygulamada, eski tablo başına `RefreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-
-## İlgili Makaleler
-
-- [Bir Hücreye Görüntü Ekleme](/cells/tr/nodejs-java/inserting-an-image-into-a-cell/)
-- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/nodejs-java/dbf/)
-- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Node.js via Java'da Mini Grafikler](/cells/tr/nodejs-java/sparkline/)
-
-{{< app/cells/assistant language="javascript" >}}
+Uygulamada, eski tablo başına `RefreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="javascript" >}}

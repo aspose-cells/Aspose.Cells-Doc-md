@@ -9,7 +9,7 @@ url: /fr/python-java/manage-value-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Les champs de valeurs sont le cœur de chaque tableau croisé dynamique, les agrégats numériques qui résument les données sources. Dans Aspose.Cells for Python via Java, la zone des données d'un tableau croisé dynamique est remplie en y ajoutant des champs de base via `PivotTable.addFieldToArea`, et chaque champ placé dans cette zone peut disposer de sa propre fonction de synthèse. Lorsque deux champs de données ou plus existent, Aspose.Cells expose un champ d'agrégat spécial, `PivotTable.ValuesField`, qui peut être placé sur l'axe Ligne ou Colonne en tant que champ de base, vous offrant un contrôle plus fin sur l'apparence des champs de valeurs dans la disposition.
+
 ## Ajouter un champ à la zone des données
 L'ajout d'un champ de base à la zone des données (valeurs) est la première étape pour façonner la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.addFieldToArea(PivotFieldType, string)`, une surcharge qui accepte la constante `PivotFieldType.DATA` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone des données, l'API l'expose via la collection `PivotTable.DataFields`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est synthétisée avec `ConsolidationFunction.SUM`, tandis qu'une colonne non numérique est définie par défaut sur `COUNT`.
 ## Modifier la fonction de synthèse
@@ -59,7 +59,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -100,7 +99,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -142,7 +140,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

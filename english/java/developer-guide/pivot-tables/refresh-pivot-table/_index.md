@@ -10,6 +10,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells provides a layered refresh API that lets you reload pivot data at four different scopes — from the entire workbook down to a single pivot table. Starting with **Aspose.Cells for Java v26.7**, the legacy method `PivotTable.refreshData()` is marked obsolete and should be replaced with the more efficient, cache-aware APIs described in this article.
@@ -26,8 +27,6 @@ The four-layer data chain is:
 2. **PivotCache** — the in-memory snapshot of the source data. Every pivot table is built on top of a `PivotCache`; this is where all data is gathered and aggregated.
 3. **PivotTable** — the view object that defines row, column, value, and filter fields. A `PivotTable` reads *only* from its `PivotCache`, never directly from the data source.
 4. **Cells** — the worksheet `Cells` that the `PivotTable` renders its computed values and styles into.
-
-A particularly important concept is the **shared cache**. When multiple pivot tables in a workbook reference the same source range, they share *one* `PivotCache` instance. A single `PivotCache` can be referenced by many pivot tables, and refreshing that cache refreshes every dependent `PivotTable` at once.
 
 {{% alert color="primary" %}}
 
@@ -142,8 +141,6 @@ Sometimes you only need to refresh the pivot tables that live on one specific wo
 
 This is more selective than `Workbook.refreshAll()`: only the pivot tables on the targeted worksheet are refreshed, leaving any pivot tables on other worksheets untouched.
 
-The following example populates the same Fruit/Year/Amount source data, adds a pivot table on the first worksheet, modifies some source values, and then refreshes only the pivot tables on that worksheet.
-
 ```java
 import com.aspose.cells.*;
 
@@ -212,95 +209,11 @@ If the underlying source data has changed, the right entry point is `pivotTable.
 
 {{% alert color="primary" %}}
 
-Because pivot tables share a single `PivotCache` instance, calling `PivotCache.refresh()` recalculates **all** pivot tables built on that same cache — not just the one you reference. If two pivot tables share the same source range, refreshing one cache refreshes both.
-
 {{% /alert %}}
-
-The following example creates two pivot tables on the same source range to demonstrate this shared-cache behavior, modifies some source values, and then refreshes through one cache reference.
-
-```java
-import com.aspose.cells.*;
-
-// Create a new workbook and access the first worksheet
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-
-// Write header row: Fruit / Year / Amount
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-// Write approximately 9 data rows (grape / blueberry / kiwi / cherry across 2020-2021)
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-// Add the first pivot table "Pivot1" anchored at cell E3, source range A1:C9
-int pivotIndex1 = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivotIndex1);
-
-// Assign fields for Pivot1
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount");
-
-// Add a SECOND pivot table "Pivot2" anchored at E15 using the SAME source range A1:C9
-// Both Pivot1 and Pivot2 share a single PivotCache because the source range is identical.
-int pivotIndex2 = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivotIndex2);
-
-// Assign the same fields for Pivot2
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount");
-
-// Modify several Amount cell values in the source data to simulate a data change
-worksheet.getCells().get("C2").putValue(150);
-worksheet.getCells().get("C4").putValue(350);
-worksheet.getCells().get("C7").putValue(650);
-
-// Refresh the shared PivotCache.
-// Because Pivot1 and Pivot2 share the same PivotCache, this single call
-// refreshes BOTH pivot tables (data + style) from the updated source.
-pivotTable1.refreshData();
-
-// Save the workbook
-workbook.save("output.xlsx");
-```
 
 ### Only View/Layout Changed — Use `calculateData()`
 
 If the source data has *not* changed but only the pivot table's view or layout settings have been modified (for example, a field has been moved to a different area, or a refresh-on-open setting has been toggled), there is no need to round-trip back to the data source. The cache already holds the right data; only the rendered `PivotTable` needs recalculation. In this case, `pivotTable.calculateData()` is the right choice.
-
-This avoids the unnecessary source fetch and is significantly faster when many pivot tables share the same cache.
 
 The following example modifies a non-source property of the pivot table and then calls `calculateData()` to re-render it from the existing cache.
 
@@ -371,86 +284,7 @@ pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
 
-## Get All Pivot Tables Sharing the Same PivotCache
-
 A workbook often contains many pivot tables that all sit on top of one shared cache. To enumerate them — for example, before performing a batch refresh, or to diagnose shared-cache impact — use `PivotCache.getPivotTables()`. This method returns the collection of every `PivotTable` that depends on the given cache.
-
-This is also the most direct way to confirm that two pivot tables indeed share the same `PivotCache` instance: you can compare cache references (using the `==` operator), or simply iterate the collection returned by `getPivotTables()` and observe which pivot tables appear in it.
-
-The following example creates two pivot tables on the same source range, verifies that they share the same cache instance, and then enumerates the cache's pivot tables.
-
-```java
-import com.aspose.cells.*;
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## Migrating from the Obsolete `PivotTable.refreshData()`
 
@@ -459,7 +293,6 @@ Prior to Aspose.Cells for Java v26.7, the standard way to refresh a pivot table 
 There are two reasons the per-table `refreshData()` approach is problematic in real-world workbooks:
 
 - It re-fetches data from the source *every* time it is called, even when the source has not changed.
-- Each call refreshes the entire shared cache. When many pivot tables share one cache, repeatedly calling `refreshData()` per pivot table causes the same cache to be re-fetched over and over again, which is very slow.
 
 The recommended replacements are:
 
@@ -469,54 +302,6 @@ The recommended replacements are:
 
 The following example demonstrates the new efficient pattern for workbooks with multiple pivot tables sharing a single cache.
 
-```java
-import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
-
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.getWorksheets().get(0);
-
-// --- Build the source data: Fruit / Year / Amount (header + 9 rows) ---
-sheet.getCells().get("A1").putValue("Fruit");
-sheet.getCells().get("B1").putValue("Year");
-sheet.getCells().get("C1").putValue("Amount");
-
-sheet.getCells().get("A2").putValue("Grape");      sheet.getCells().get("B2").putValue(2020); sheet.getCells().get("C2").putValue(1000);
-sheet.getCells().get("A3").putValue("Blueberry");  sheet.getCells().get("B3").putValue(2020); sheet.getCells().get("C3").putValue(2000);
-sheet.getCells().get("A4").putValue("Kiwi");       sheet.getCells().get("B4").putValue(2020); sheet.getCells().get("C4").putValue(1500);
-sheet.getCells().get("A5").putValue("Cherry");     sheet.getCells().get("B5").putValue(2020); sheet.getCells().get("C5").putValue(2500);
-sheet.getCells().get("A6").putValue("Grape");      sheet.getCells().get("B6").putValue(2021); sheet.getCells().get("C6").putValue(3000);
-sheet.getCells().get("A7").putValue("Blueberry");  sheet.getCells().get("B7").putValue(2021); sheet.getCells().get("C7").putValue(1800);
-sheet.getCells().get("A8").putValue("Kiwi");       sheet.getCells().get("B8").putValue(2021); sheet.getCells().get("C8").putValue(2200);
-sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700);
-
-// --- Add the first pivot table (Pivot1) at destination cell E3 ---
-int idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = sheet.getPivotTables().get(idx1);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-// --- Add the SECOND pivot table (Pivot2) on the SAME source range ---
-int idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = sheet.getPivotTables().get(idx2);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-// --- Modify several Amount values in the source data ---
-sheet.getCells().get("C2").putValue(5000);   // Grape  2020
-sheet.getCells().get("C5").putValue(7500);   // Cherry 2020
-sheet.getCells().get("C9").putValue(9500);   // Cherry 2021
-
-// --- NEW v26.7+ pattern: refresh the cache ONCE, then re-render as needed ---
-pivotTable1.getPivotCache().refresh();
-
-// Re‑render the second pivot table's view/layout without touching the source
-pivotTable2.calculateData();
-
-workbook.save("output.xlsx");
-```
 
 ## Which Refresh API Should I Use?
 

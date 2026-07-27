@@ -10,7 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Value fields are the heart of every pivot table, the numeric aggregates that summarise the source data. In Aspose.Cells for Java, the data region of a pivot table is populated by adding base fields to it through `PivotTable.addFieldToArea`, and each field placed in that region can have its own summary function. When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.getValuesField()`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout.
 
 ## Adding a Field to the Data Region
 
@@ -18,13 +17,9 @@ Adding a base field to the data (value) region is the first step in shaping how 
 
 ## Changing the Summary Function
 
-Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `getFunction()` property returns a value from the `ConsolidationFunction` enum. The same `setFunction(...)` setter lets you switch between the available aggregates, including `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR`, and `VARP`.
-
 {{% alert color="primary" %}}
 Changing `Function` only affects the aggregate, the source column does not change.
 {{% /alert %}}
-
-You can therefore leave one data field as `SUM` while you add a second data field that targets the same source column but uses `COUNT` or `AVERAGE`, all in a single pivot.
 
 ## Plotting Value Fields to Row or Column Axis
 
@@ -94,7 +89,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -142,7 +136,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -189,7 +182,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

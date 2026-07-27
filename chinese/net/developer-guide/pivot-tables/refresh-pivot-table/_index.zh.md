@@ -9,6 +9,7 @@ url: /zh/net/refresh-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells 提供了一套分层刷新 API，允许您在四个不同的层级重新加载数据透视数据——从整个工作簿到单个数据透视表。从 **Aspose.Cells for .NET v26.7** 开始，旧版方法 `PivotTable.RefreshData()` 已被标记为过时，应替换为本文介绍的更高效的、感知缓存的 API。
 {{% /alert %}}
@@ -339,80 +340,7 @@ workbook.Save("output.xlsx");
 - **刷新其中部分数据透视表** → 对一个缓存使用 `pivotTable.PivotCache.Refresh();`。由于缓存是共享的，此单次调用将更新基于该缓存构建的所有数据透视表。可以安全地跳过基于已刷新缓存的其他数据透视表。
 - **仅数据透视视图/布局已更改** → 使用 `pivotTable.CalculateData();` 从现有缓存重新渲染，无需任何源数据往返。
 下面的示例演示了针对多个共享单个缓存的数据透视表工作簿的新的高效模式。
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Pivot;
 
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-worksheet.Name = "Sheet1";
-
-worksheet.Cells["A1"].PutValue("Fruit");
-worksheet.Cells["B1"].PutValue("Year");
-worksheet.Cells["C1"].PutValue("Amount");
-
-worksheet.Cells["A2"].PutValue("Grape");
-worksheet.Cells["B2"].PutValue(2020);
-worksheet.Cells["C2"].PutValue(100);
-
-worksheet.Cells["A3"].PutValue("Blueberry");
-worksheet.Cells["B3"].PutValue(2020);
-worksheet.Cells["C3"].PutValue(200);
-
-worksheet.Cells["A4"].PutValue("Kiwi");
-worksheet.Cells["B4"].PutValue(2020);
-worksheet.Cells["C4"].PutValue(300);
-
-worksheet.Cells["A5"].PutValue("Cherry");
-worksheet.Cells["B5"].PutValue(2020);
-worksheet.Cells["C5"].PutValue(400);
-
-worksheet.Cells["A6"].PutValue("Grape");
-worksheet.Cells["B6"].PutValue(2021);
-worksheet.Cells["C6"].PutValue(500);
-
-worksheet.Cells["A7"].PutValue("Blueberry");
-worksheet.Cells["B7"].PutValue(2021);
-worksheet.Cells["C7"].PutValue(600);
-
-worksheet.Cells["A8"].PutValue("Kiwi");
-worksheet.Cells["B8"].PutValue(2021);
-worksheet.Cells["C8"].PutValue(700);
-
-worksheet.Cells["A9"].PutValue("Cherry");
-worksheet.Cells["B9"].PutValue(2021);
-worksheet.Cells["C9"].PutValue(800);
-
-worksheet.Cells["A10"].PutValue("Grape");
-worksheet.Cells["B10"].PutValue(2021);
-worksheet.Cells["C10"].PutValue(900);
-
-int pivot1Index = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.PivotTables[pivot1Index];
-pivotTable1.AddFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.AddFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.AddFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.PivotTables.Add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.PivotTables[pivot2Index];
-pivotTable2.AddFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.AddFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.AddFieldToArea(PivotFieldType.Data, "Amount");
-
-bool sameCache = object.ReferenceEquals(pivotTable1.PivotCache, pivotTable2.PivotCache);
-Console.WriteLine("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.PivotCache.GetPivotTables();
-Console.WriteLine("Number of pivot tables sharing the cache: " + sharedPivotTables.Length);
-
-foreach (PivotTable pt in sharedPivotTables)
-{
-    Console.WriteLine("Pivot table name: " + pt.Name);
-}
-
-workbook.Save("output.xlsx");
-```
 ## 应该使用哪种刷新 API？
 下表总结了可用的刷新 API 以及每种 API 的适用场景。
 | 目标 | 推荐 API | 备注 |
@@ -422,10 +350,4 @@ workbook.Save("output.xlsx");
 | 一个缓存的源数据已更改 | `pivotTable.PivotCache.Refresh()` | 刷新该共享缓存上的所有数据透视表。 |
 | 仅视图/布局设置已更改 | `pivotTable.CalculateData()` | 跳过不必要的源数据往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新前枚举。 |
-在实际应用中，应优先使用基于缓存的 API，而非过时的按表 `RefreshData()`。它们能够感知共享缓存、避免冗余的源数据获取，并允许您选择满足刷新需求的最小范围。
-## 相关文章
-- [在单元格中插入图片](/cells/zh/net/inserting-an-image-into-a-cell/)
-- [读写 DBF 文件](/cells/zh/net/dbf/)
-- [将 Excel 文件拆分为多个文件](/cells/zh/net/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for .NET 中的迷你图](/cells/zh/net/sparkline/)
-{{< app/cells/assistant language="csharp" >}}
+在实际应用中，应优先使用基于缓存的 API，而非过时的按表 `RefreshData()`。它们能够感知共享缓存、避免冗余的源数据获取，并允许您选择满足刷新需求的最小范围。{{< app/cells/assistant language="csharp" >}}

@@ -70,7 +70,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
 // Actualizar y calcular los datos de la tabla dinámica
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Guardar el libro
@@ -115,7 +114,6 @@ let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // Actualizar para que el nuevo campo de página se refleje en el libro guardado
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -163,7 +161,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Limpiar el filtro de página para que cada elemento del campo de página sea visible.
@@ -218,7 +215,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = segundo elemento en orden de clasificación (por ejemplo, "2021")
 
 // Actualizar y calcular la tabla dinámica
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -290,7 +286,6 @@ for (let i = 0; i < pivotItems.getCount(); i++) {
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

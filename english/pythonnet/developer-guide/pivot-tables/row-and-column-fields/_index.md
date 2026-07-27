@@ -10,7 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Row and column fields are the building blocks of a pivot table. A field placed in the row region appears vertically on the left of the pivot, while a field placed in the column region appears horizontally across the top. This article shows how to add base fields to those regions programmatically and how to control the subtotals that render between field groups by using the `PivotField.set_subtotals` method.
 
 ## **Adding a Field to the Row or Column Region**
 
@@ -20,8 +19,6 @@ The `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)`
 - `COLUMN` — fields placed horizontally across the top
 - `DATA` — fields whose values are aggregated
 - `PAGE` — fields used as report filters
-
-After fields are added, you can access them through the `PivotTable.row_fields` and `PivotTable.column_fields` properties. Each property returns a `PivotFieldCollection`. The field at index 0 of `row_fields` is the outermost row field, and subsequent indices represent fields nested inside it. The same indexing convention applies to `column_fields`.
 
 Field nesting order matters. Adding `Category` to the row region first and then `Item` produces a pivot whose outer grouping is `Category` and whose inner grouping is `Item`. Reversing the order reverses the hierarchy.
 
@@ -115,7 +112,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +158,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,15 +232,12 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")
 ```
 
 ## **Recap**
-
-The three scenarios above share the same dataset and pivot table structure. The only difference between them is the `set_subtotals` call applied to the outer `Category` row field. Remember the two-fields rule: a single field in a region has nothing to subtotal between, so always place at least two fields in the row or column region when you want `set_subtotals` to have a visible effect.
 
 ## **Related Articles**
 

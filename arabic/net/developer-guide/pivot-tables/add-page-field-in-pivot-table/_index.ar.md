@@ -77,7 +77,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
 // تحديث وحساب بيانات الجدول المحوري
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 // حفظ المصنف
@@ -133,7 +132,6 @@ PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
 
 // قم بالتحديث حتى ينعكس حقل الصفحة الجديد في المصنف المحفوظ
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -193,7 +191,6 @@ class Program
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
-        pivotTable.RefreshData();
         pivotTable.CalculateData();
 
         // مسح مرشح الصفحة بحيث تكون كل العناصر في حقل الصفحة مرئية.
@@ -255,7 +252,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = العنصر الثاني بالترتيب الفرز (مثلاً "2021")
 
 // تحديث وحساب الجدول المحوري
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -341,7 +337,6 @@ for (int i = 0; i < pivotItems.Count; i++)
     }
 }
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");

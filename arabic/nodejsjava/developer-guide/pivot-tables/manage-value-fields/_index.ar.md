@@ -9,7 +9,7 @@ url: /ar/nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-تُعدّ حقول القيم جوهر كل جدول محوري، وهي التجمّعات الرقمية التي تُلخّص البيانات المصدرية. في Aspose.Cells for Node.js via Java، يتم ملء منطقة البيانات في الجدول المحوري بإضافة الحقول الأساسية إليها عبر `PivotTable.addFieldToArea`، ويمكن لكل حقل يُوضع في تلك المنطقة أن تكون له دالة تلخيص خاصة به. عند وجود حقلَي بيانات أو أكثر، يعرض Aspose.Cells حقل تجميع خاص، وهو `PivotTable.getValuesField()`، يمكن رسمه على محور الصفوف أو الأعمدة كحقل أساسي، مما يمنحك تحكمًا أدق في كيفية ظهور حقول القيم في التخطيط.
+
 ## إضافة حقل إلى منطقة البيانات
 تُعدّ إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبياناتك المصدرية. يُوفّر Aspose.Cells حمولة زائدة للدالة `PivotTable.addFieldToArea(PivotFieldType, string)` تقبل الثابت `PivotFieldType.DATA` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، تتيح لك الواجهة البرمجية الوصول إليه من خلال مجموعة `PivotTable.getDataFields()`، بالترتيب الذي أُضيفت به الحقول. افتراضيًا، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.SUM`، بينما يكون العمود غير الرقمي افتراضيًا `COUNT`.
 ## تغيير دالة التلخيص
@@ -77,7 +77,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -91,8 +90,5 @@ workbook.save("output_drag.xlsx");
 - [حقول الصفحات في الجداول المحورية](/cells/ar/nodejs-java/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/refresh-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية](/cells/ar/nodejs-java/apply-style-to-pivot-table/)
-{{% /alert %}}
-{{% /alert %}}
-{{% /alert %}}
-{{% /alert %}}
+
 {{< app/cells/assistant language="javascript" >}}

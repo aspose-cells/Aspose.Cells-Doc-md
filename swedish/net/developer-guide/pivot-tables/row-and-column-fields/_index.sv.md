@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radregionen visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnregionen visas horisontellt överst. Den här artikeln visar hur du lägger till basfält i dessa regioner programmässigt och hur du styr delsummorna som renderas mellan fältgrupper med hjälp av metoden `PivotField.SetSubtotals`.
-
 ## **Lägga till ett fält i rad- eller kolumnregionen**
 
 Metoden `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` flyttar ett basfält från källdatan till en av de fyra pivotregionerna. Argumentet `fieldType` accepterar ett av följande `PivotFieldType`-värden.
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

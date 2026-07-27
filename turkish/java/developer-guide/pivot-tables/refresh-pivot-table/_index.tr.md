@@ -9,6 +9,7 @@ url: /tr/java/refresh-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells, pivot verilerini dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tablosuna kadar — yeniden yüklemenizi sağayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Java v26.7** sürümünden itibaren eski `PivotTable.refreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup, bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 {{% /alert %}}
@@ -105,60 +106,104 @@ Bazen yalnızca belirli bir çalışma sayfasında bulunan özet tablolarını y
 Bu yöntem `Workbook.refreshAll()` yönteminden daha seçicidir: yalnızca hedeflenen çalışma sayfasındaki özet tabloları yenilenir, diğer çalışma sayfalarındaki özet tablolarına dokunulmaz.
 Aşağıdaki örnek aynı Fruit/Year/Amount kaynak verilerini doldurur, ilk çalışma sayfasına bir özet tablosu ekler, bazı kaynak değerleri değiştirir ve ardından yalnızca o çalışma sayfasındaki özet tablolarını yeniler.
 ```java
-import com.aspose.cells.*;
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("grape");
+import com.aspose.cells.*;
+
+
+
+Workbook workbook = new Workbook();
+
+Worksheet worksheet = workbook.getWorksheets().get(0);
+
+
+
+worksheet.getCells().get("A1").putValue("Fruit");
+
+worksheet.getCells().get("B1").putValue("Year");
+
+worksheet.getCells().get("C1").putValue("Amount");
+
+
+
+worksheet.getCells().get("A2").putValue("grape");
+
 worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("blueberry");
+worksheet.getCells().get("C2").putValue(100);
+
+
+
+worksheet.getCells().get("A3").putValue("blueberry");
+
 worksheet.getCells().get("B3").putValue(2021);
-worksheet.getCells().get("C3").putValue(150);
-
-worksheet.getCells().get("A4").putValue("kiwi");
+worksheet.getCells().get("C3").putValue(150);
+
+
+
+worksheet.getCells().get("A4").putValue("kiwi");
+
 worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(200);
-
-worksheet.getCells().get("A5").putValue("cherry");
+worksheet.getCells().get("C4").putValue(200);
+
+
+
+worksheet.getCells().get("A5").putValue("cherry");
+
 worksheet.getCells().get("B5").putValue(2021);
-worksheet.getCells().get("C5").putValue(120);
-
-worksheet.getCells().get("A6").putValue("grape");
+worksheet.getCells().get("C5").putValue(120);
+
+
+
+worksheet.getCells().get("A6").putValue("grape");
+
 worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(180);
-
-worksheet.getCells().get("A7").putValue("blueberry");
+worksheet.getCells().get("C6").putValue(180);
+
+
+
+worksheet.getCells().get("A7").putValue("blueberry");
+
 worksheet.getCells().get("B7").putValue(2020);
-worksheet.getCells().get("C7").putValue(130);
-
-worksheet.getCells().get("A8").putValue("kiwi");
+worksheet.getCells().get("C7").putValue(130);
+
+
+
+worksheet.getCells().get("A8").putValue("kiwi");
+
 worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(220);
-
-worksheet.getCells().get("A9").putValue("cherry");
+worksheet.getCells().get("C8").putValue(220);
+
+
+
+worksheet.getCells().get("A9").putValue("cherry");
+
 worksheet.getCells().get("B9").putValue(2020);
-worksheet.getCells().get("C9").putValue(140);
-
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
-pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
-pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
+worksheet.getCells().get("C9").putValue(140);
+
+
+
+int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
+
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+
+
+
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+
+
+
 worksheet.getCells().get("C2").putValue(300);
 worksheet.getCells().get("C5").putValue(250);
-worksheet.getCells().get("C9").putValue(400);
-
-worksheet.refreshPivotTables();
-
+worksheet.getCells().get("C9").putValue(400);
+
+
+
+worksheet.refreshPivotTables();
+
+
+
 workbook.save("output.xlsx");
 ```
 ## Tek Bir Özet Tablosunu Yenileme
@@ -320,78 +365,7 @@ workbook.save("output.xlsx");
 Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde oturan birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin, toplu yenileme gerçekleştirmeden önce veya paylaşılan önbellek etkisini teşhis etmek için — `PivotCache.getPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
 Bu aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir (`==` operatörünü kullanarak) veya `getPivotTables()` tarafından döndürülen koleksiyonu yineleyerek hangi özet tablolarının bu koleksiyonda göründüğünü gözlemleyebilirsiniz.
 Aşağıdaki örnek, aynı kaynak aralığı üzerinde iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
-```java
-import com.aspose.cells.*;
 
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Kullanımdan Kaldırılan `PivotTable.refreshData()` Yönteminden Geçiş
 Aspose.Cells for Java v26.7 sürümünden önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.refreshData()` çağırmaktı. v26.7 sürümünden itibaren bu yöntem **kullanımdan kaldırılmış** (obsolete) olarak işaretlenmiş olup yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
 Gerçek dünya çalışma kitaplarında tablo başına `refreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
@@ -459,10 +433,4 @@ Aşağıdaki tablo mevcut yenileme API'lerini özetlemekte ve her birinin ne zam
 | Bir önbellek için kaynak veriler değişti | `pivotTable.getPivotCache().refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.calculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivotCache.getPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılan tablo başına `refreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-## İlgili Makaleler
-- [Bir Hücreye Görsel Ekleme](/cells/tr/java/inserting-an-image-into-a-cell/)
-- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/java/dbf/)
-- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Java'da Mini Grafikler](/cells/tr/java/sparkline/)
-{{< app/cells/assistant language="java" >}}
+Uygulamada, kullanımdan kaldırılan tablo başına `refreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="java" >}}

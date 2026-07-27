@@ -9,7 +9,7 @@ url: /fr/nodejs-cpp/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Les champs de valeur sont le cœur de chaque tableau croisé dynamique, ce sont les agrégats numériques qui résument les données sources. Dans Aspose.Cells for Node.js via C++, la zone de données d'un tableau croisé dynamique est renseignée en y ajoutant des champs de base via `PivotTable.addFieldToArea`, et chaque champ placé dans cette zone peut disposer de sa propre fonction de synthèse. Lorsqu'au moins deux champs de données existent, Aspose.Cells expose un champ d'agrégat spécial, `PivotTable.getValuesField`, qui peut être tracé sur l'axe Ligne ou Colonne en tant que champ de base, vous offrant un contrôle plus fin sur la manière dont les champs de valeur apparaissent dans la disposition.
+
 ## Ajout d'un champ à la zone de données
 L'ajout d'un champ de base à la zone de données (valeur) est la première étape pour définir la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.addFieldToArea(PivotFieldType, string)`, une surcharge qui accepte la constante `PivotFieldType.Data` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.getDataFields()`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est synthétisée avec `ConsolidationFunction.Sum`, tandis qu'une colonne non numérique utilise `Count` par défaut.
 ## Modification de la fonction de synthèse
@@ -79,7 +79,6 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -134,7 +133,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let countField = pivotTable.getDataFields().get(1);
 countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
@@ -180,7 +178,6 @@ pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

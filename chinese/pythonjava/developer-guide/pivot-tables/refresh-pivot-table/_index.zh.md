@@ -10,6 +10,7 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells 提供了一套分层刷新 API，使您能够在四个不同的作用域内重新加载透视数据 — 从整个工作簿到单个数据透视表。从 **Aspose.Cells for Python via Java v26.7** 起，旧版方法 `PivotTable.refreshData()` 已被标记为过时，应替换为本文中介绍的更高效、感知缓存的 API。
@@ -388,83 +389,6 @@ jpype.shutdownJVM()
 
 以下示例在同一源区域上创建两个数据透视表，验证它们共享同一个缓存实例，然后枚举该缓存下的数据透视表。
 
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotFieldType
-
-# 移植的代码
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Sheet1")
-
-worksheet.getCells().get("A1").putValue("Fruit")
-worksheet.getCells().get("B1").putValue("Year")
-worksheet.getCells().get("C1").putValue("Amount")
-
-worksheet.getCells().get("A2").putValue("Grape")
-worksheet.getCells().get("B2").putValue(2020)
-worksheet.getCells().get("C2").putValue(100)
-
-worksheet.getCells().get("A3").putValue("Blueberry")
-worksheet.getCells().get("B3").putValue(2020)
-worksheet.getCells().get("C3").putValue(200)
-
-worksheet.getCells().get("A4").putValue("Kiwi")
-worksheet.getCells().get("B4").putValue(2020)
-worksheet.getCells().get("C4").putValue(300)
-
-worksheet.getCells().get("A5").putValue("Cherry")
-worksheet.getCells().get("B5").putValue(2020)
-worksheet.getCells().get("C5").putValue(400)
-
-worksheet.getCells().get("A6").putValue("Grape")
-worksheet.getCells().get("B6").putValue(2021)
-worksheet.getCells().get("C6").putValue(500)
-
-worksheet.getCells().get("A7").putValue("Blueberry")
-worksheet.getCells().get("B7").putValue(2021)
-worksheet.getCells().get("C7").putValue(600)
-
-worksheet.getCells().get("A8").putValue("Kiwi")
-worksheet.getCells().get("B8").putValue(2021)
-worksheet.getCells().get("C8").putValue(700)
-
-worksheet.getCells().get("A9").putValue("Cherry")
-worksheet.getCells().get("B9").putValue(2021)
-worksheet.getCells().get("C9").putValue(800)
-
-worksheet.getCells().get("A10").putValue("Grape")
-worksheet.getCells().get("B10").putValue(2021)
-worksheet.getCells().get("C10").putValue(900)
-
-pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.getPivotTables().get(pivot1Index)
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.getPivotTables().get(pivot2Index)
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
-
-sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
-print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))
-
-for pt in sharedPivotTables:
-    print("Pivot table name: " + pt.getName())
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 
 ## 从过时的 `PivotTable.refreshData()` 迁移
 
@@ -568,13 +492,4 @@ jpype.shutdownJVM()
 | 仅视图/布局设置已更改 | `pivotTable.calculateData()` | 跳过不必要的源数据往返。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.getPivotTables()` | 用于在批量刷新前进行枚举。 |
 
-在实际应用中，建议优先使用基于缓存的 API，而不是已过时的按表调用 `refreshData()`。这些 API 感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小作用域。
-
-## 相关文章
-
-- [向单元格中插入图像](/cells/zh/python-java/inserting-an-image-into-a-cell/)
-- [读取和写入 DBF 文件](/cells/zh/python-java/dbf/)
-- [将 Excel 文件拆分为多个文件](/cells/zh/python-java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Python via Java 中的迷你图](/cells/zh/python-java/sparkline/)
-
-{{< app/cells/assistant language="python" >}}
+在实际应用中，建议优先使用基于缓存的 API，而不是已过时的按表调用 `refreshData()`。这些 API 感知共享缓存，可避免冗余的源数据获取，并允许您选择满足刷新需求的最小作用域。{{< app/cells/assistant language="python" >}}

@@ -9,6 +9,7 @@ url: /de/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells bietet eine geschichtete Aktualisierungs-API, mit der Sie Pivot-Daten in vier verschiedenen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Beginnend mit **Aspose.Cells for C++ v26.7** ist die legacy Methode `PivotTable.RefreshData()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 {{% /alert %}}
@@ -37,112 +38,217 @@ Alle C++-Beispiele in diesem Artikel beginnen mit den folgenden Header-Includes 
 Wenn Sie sicherstellen müssen, dass jeder Pivot-Cache und jede Pivot-Tabelle in der Arbeitsmappe die neuesten Quelldaten widerspiegelt, ist die einfachste und umfassendste API `Workbook.RefreshAll()`. Ein einziger Aufruf durchläuft die gesamte Arbeitsmappe — er aktualisiert jeden `PivotCache` aus seiner Quelle und berechnet dann jede abhängige `PivotTable` neu. Dies ist der empfohlene Ansatz für allgemeine, umfassende Dokumentaktualisierungen, bei denen die Leistung keine Rolle spielt.
 Das folgende Beispiel erstellt eine Arbeitsmappe mit einem Fruit/Year/Amount-Quellbereich, erstellt eine Pivot-Tabelle, ändert einige Quellwerte und verwendet dann `RefreshAll()`, um alles in einem einzigen Aufruf auf den neuesten Stand zu bringen.
 ```cpp
-#include "Aspose.Cells.h"
-
-using namespace Aspose::Cells;
-
-int main() {
-
-    Aspose::Cells::Startup();
-
-    Workbook wb;
-
-    Worksheet ws = wb.GetWorksheets().Get(0);
-
-    Cells cells = ws.GetCells();
-
-    //Erstellen von Beispieldaten in die Tabelle.
-
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-
-    cells.Get(u"B1").PutValue(U16String("Year"));
-
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("grape"));
-
-    cells.Get(u"B2").PutValue(2020);
-
-    cells.Get(u"C2").PutValue(50);
-
-    cells.Get(u"A3").PutValue(U16String("blueberry"));
-
-    cells.Get(u"B3").PutValue(2020);
-
-    cells.Get(u"C3").PutValue(60);
-
-    cells.Get(u"A4").PutValue(U16String("kiwi"));
-
-    cells.Get(u"B4").PutValue(2020);
-
-    cells.Get(u"C4").PutValue(70);
-
-    cells.Get(u"A5").PutValue(U16String("cherry"));
-
-    cells.Get(u"B5").PutValue(2020);
-
-    cells.Get(u"C5").PutValue(80);
-
-    cells.Get(u"A6").PutValue(U16String("grape"));
-
-    cells.Get(u"B6").PutValue(2021);
-
-    cells.Get(u"C6").PutValue(90);
-
-    cells.Get(u"A7").PutValue(U16String("blueberry"));
-
-    cells.Get(u"B7").PutValue(2021);
-
-    cells.Get(u"C7").PutValue(100);
-
-    cells.Get(u"A8").PutValue(U16String("kiwi"));
-
-    cells.Get(u"B8").PutValue(2021);
-
-    cells.Get(u"C8").PutValue(110);
-
-    cells.Get(u"A9").PutValue(U16String("cherry"));
-
-    cells.Get(u"B9").PutValue(2021);
-
-    cells.Get(u"C9").PutValue(120);
-
-    //Eine Pivot-Tabelle hinzufügen.
-
-    int idx = ws.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
-
-    PivotTable pt = ws.GetPivotTables().Get(idx);
-
-    //Zeilen-, Spalten- und Datenfelder zur Pivot-Tabelle hinzufügen.
-
-    pt.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-
-    pt.AddFieldToArea(PivotFieldType::Column, u"Year");
-
-    pt.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    //Daten in der Quelldaten-Tabelle ändern.
-
-    cells.Get(u"C2").PutValue(55);
-
-    cells.Get(u"C5").PutValue(85);
-
-    cells.Get(u"C9").PutValue(125);
-
-    //Pivot-Tabelle aktualisieren und berechnen.
-
-    pt.RefreshData();
-
-    pt.CalculateData();
-
-    //Arbeitsmappe speichern.
-
-    wb.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-
-    return 0;
-
+#include "Aspose.Cells.h"
+
+
+
+using namespace Aspose::Cells;
+
+
+
+int main() {
+
+
+
+    Aspose::Cells::Startup();
+
+
+
+    Workbook wb;
+
+
+
+    Worksheet ws = wb.GetWorksheets().Get(0);
+
+
+
+    Cells cells = ws.GetCells();
+
+
+
+    //Erstellen von Beispieldaten in die Tabelle.
+
+
+
+    cells.Get(u"A1").PutValue(U16String("Fruit"));
+
+
+
+    cells.Get(u"B1").PutValue(U16String("Year"));
+
+
+
+    cells.Get(u"C1").PutValue(U16String("Amount"));
+
+
+
+    cells.Get(u"A2").PutValue(U16String("grape"));
+
+
+
+    cells.Get(u"B2").PutValue(2020);
+
+
+
+    cells.Get(u"C2").PutValue(50);
+
+
+
+    cells.Get(u"A3").PutValue(U16String("blueberry"));
+
+
+
+    cells.Get(u"B3").PutValue(2020);
+
+
+
+    cells.Get(u"C3").PutValue(60);
+
+
+
+    cells.Get(u"A4").PutValue(U16String("kiwi"));
+
+
+
+    cells.Get(u"B4").PutValue(2020);
+
+
+
+    cells.Get(u"C4").PutValue(70);
+
+
+
+    cells.Get(u"A5").PutValue(U16String("cherry"));
+
+
+
+    cells.Get(u"B5").PutValue(2020);
+
+
+
+    cells.Get(u"C5").PutValue(80);
+
+
+
+    cells.Get(u"A6").PutValue(U16String("grape"));
+
+
+
+    cells.Get(u"B6").PutValue(2021);
+
+
+
+    cells.Get(u"C6").PutValue(90);
+
+
+
+    cells.Get(u"A7").PutValue(U16String("blueberry"));
+
+
+
+    cells.Get(u"B7").PutValue(2021);
+
+
+
+    cells.Get(u"C7").PutValue(100);
+
+
+
+    cells.Get(u"A8").PutValue(U16String("kiwi"));
+
+
+
+    cells.Get(u"B8").PutValue(2021);
+
+
+
+    cells.Get(u"C8").PutValue(110);
+
+
+
+    cells.Get(u"A9").PutValue(U16String("cherry"));
+
+
+
+    cells.Get(u"B9").PutValue(2021);
+
+
+
+    cells.Get(u"C9").PutValue(120);
+
+
+
+    //Eine Pivot-Tabelle hinzufügen.
+
+
+
+    int idx = ws.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
+
+
+
+    PivotTable pt = ws.GetPivotTables().Get(idx);
+
+
+
+    //Zeilen-, Spalten- und Datenfelder zur Pivot-Tabelle hinzufügen.
+
+
+
+    pt.AddFieldToArea(PivotFieldType::Row, u"Fruit");
+
+
+
+    pt.AddFieldToArea(PivotFieldType::Column, u"Year");
+
+
+
+    pt.AddFieldToArea(PivotFieldType::Data, u"Amount");
+
+
+
+    //Daten in der Quelldaten-Tabelle ändern.
+
+
+
+    cells.Get(u"C2").PutValue(55);
+
+
+
+    cells.Get(u"C5").PutValue(85);
+
+
+
+    cells.Get(u"C9").PutValue(125);
+
+
+
+    //Pivot-Tabelle aktualisieren und berechnen.
+
+
+
+
+
+
+    pt.CalculateData();
+
+
+
+    //Arbeitsmappe speichern.
+
+
+
+    wb.Save(u"output.xlsx");
+
+
+
+    Aspose::Cells::Cleanup();
+
+
+
+    return 0;
+
+
+
 }
 ```
 ## Alle Pivot-Tabellen auf einem einzelnen Arbeitsblatt aktualisieren
@@ -389,93 +495,7 @@ int main() {
 Eine Arbeitsmappe enthält oft viele Pivot-Tabellen, die alle auf einem gemeinsam genutzten Cache sitzen. Um sie aufzulisten — zum Beispiel vor einer Stapelaktualisierung oder um die Auswirkungen des gemeinsam genutzten Caches zu diagnostizieren — verwenden Sie `PivotCache.GetPivotTables()`. Diese Methode gibt die Sammlung jeder `PivotTable` zurück, die von dem angegebenen Cache abhängt.
 Dies ist auch der direkteste Weg, um zu bestätigen, dass zwei Pivot-Tabellen tatsächlich dieselbe `PivotCache`-Instanz gemeinsam nutzen: Sie können Cache-Referenzen vergleichen oder einfach die von `GetPivotTables()` zurückgegebene Sammlung durchlaufen und beobachten, welche Pivot-Tabellen darin erscheinen.
 Das folgende Beispiel erstellt zwei Pivot-Tabellen auf demselben Quellbereich, überprüft, dass sie dieselbe Cache-Instanz gemeinsam nutzen, und listet dann die Pivot-Tabellen des Caches auf.
-```cpp
-#include "Aspose.Cells.h"
-#include <iostream>
 
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
-
-int main() {
-    Aspose::Cells::Startup();
-
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Sheet1");
-
-    Cells cells = worksheet.GetCells();
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-    cells.Get(u"B1").PutValue(U16String("Year"));
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("Grape"));
-    cells.Get(u"B2").PutValue(2020);
-    cells.Get(u"C2").PutValue(100);
-
-    cells.Get(u"A3").PutValue(U16String("Blueberry"));
-    cells.Get(u"B3").PutValue(2020);
-    cells.Get(u"C3").PutValue(200);
-
-    cells.Get(u"A4").PutValue(U16String("Kiwi"));
-    cells.Get(u"B4").PutValue(2020);
-    cells.Get(u"C4").PutValue(300);
-
-    cells.Get(u"A5").PutValue(U16String("Cherry"));
-    cells.Get(u"B5").PutValue(2020);
-    cells.Get(u"C5").PutValue(400);
-
-    cells.Get(u"A6").PutValue(U16String("Grape"));
-    cells.Get(u"B6").PutValue(2021);
-    cells.Get(u"C6").PutValue(500);
-
-    cells.Get(u"A7").PutValue(U16String("Blueberry"));
-    cells.Get(u"B7").PutValue(2021);
-    cells.Get(u"C7").PutValue(600);
-
-    cells.Get(u"A8").PutValue(U16String("Kiwi"));
-    cells.Get(u"B8").PutValue(2021);
-    cells.Get(u"C8").PutValue(700);
-
-    cells.Get(u"A9").PutValue(U16String("Cherry"));
-    cells.Get(u"B9").PutValue(2021);
-    cells.Get(u"C9").PutValue(800);
-
-    cells.Get(u"A10").PutValue(U16String("Grape"));
-    cells.Get(u"B10").PutValue(2021);
-    cells.Get(u"C10").PutValue(900);
-
-    PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivot1Index = pivotTables.Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = pivotTables.Get(pivot1Index);
-    pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    int pivot2Index = pivotTables.Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = pivotTables.Get(pivot2Index);
-    pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    // In Aspose.Cells teilen Pivot-Tabellen, die aus demselben Quellbereich erstellt wurden,
-    // automatisch denselben PivotCache
-    std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
-
-    // Alle Pivot-Tabellen auf dem Arbeitsblatt abrufen (die den Cache teilen)
-    PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
-    std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
-
-    for (int i = 0; i < sharedPivotTables.GetCount(); ++i) {
-        PivotTable pt = sharedPivotTables.Get(i);
-        std::cout << "Pivot table name: " << pt.GetName().ToUtf8() << std::endl;
-    }
-
-    workbook.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-    return 0;
-}
-```
 ## Migration von der veralteten `PivotTable.RefreshData()`
 Vor Aspose.Cells for C++ v26.7 war die Standardmethode zum Aktualisieren einer Pivot-Tabelle der Aufruf von `PivotTable.RefreshData()` für jede Pivot-Tabelle einzeln. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 Es gibt zwei Gründe, warum der pro-Tabelle-Ansatz `RefreshData()` in realen Arbeitsmappen problematisch ist:
@@ -527,7 +547,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -546,10 +565,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und wa
 | Quelldaten für einen Cache geändert | `pivotTable.GetPivotCache().Refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem gemeinsam genutzten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivotTable.CalculateData()` | Überspringt unnötigen Quellrundgang. |
 | Alle Pivot-Tabellen auf einem gemeinsam genutzten Cache auflisten | `pivotCache.GetPivotTables()` | Verwenden Sie dies zur Auflistung vor einer Massenaktualisierung. |
-In der Praxis sind die cache-basierten APIs der veralteten pro-Tabelle `RefreshData()` vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderungen erfüllt.
-## Verwandte Artikel
-- [Einfügen eines Bildes in eine Zelle](/cells/de/cpp/inserting-an-image-into-a-cell/)
-- [Lesen und Schreiben von DBF-Dateien](/cells/de/cpp/dbf/)
-- [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/cpp/splitting-excel-files-into-multiple-files/)
-- [Sparklines in Aspose.Cells for C++](/cells/de/cpp/sparkline/)
-{{< app/cells/assistant language="cpp" >}}
+In der Praxis sind die cache-basierten APIs der veralteten pro-Tabelle `RefreshData()` vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderungen erfüllt.{{< app/cells/assistant language="cpp" >}}

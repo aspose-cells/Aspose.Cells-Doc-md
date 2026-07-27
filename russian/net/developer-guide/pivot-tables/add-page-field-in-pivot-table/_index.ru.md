@@ -77,7 +77,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
 // Обновить и вычислить данные сводной таблицы
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 // Сохранить рабочую книгу
@@ -133,7 +132,6 @@ PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
 
 // Обновляем, чтобы новое поле страницы отразилось в сохранённой книге
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -193,7 +191,6 @@ class Program
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 
-        pivotTable.RefreshData();
         pivotTable.CalculateData();
 
         // Очистка фильтра страницы, чтобы каждый элемент поля страницы был виден.
@@ -255,7 +252,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
 pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = второй элемент в отсортированном порядке (например, "2021")
 
 // Обновить и вычислить сводную таблицу
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");
@@ -341,7 +337,6 @@ for (int i = 0; i < pivotItems.Count; i++)
     }
 }
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output.xlsx");

@@ -9,7 +9,7 @@ url: /tr/nodejs-java/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Değer alanları, her pivot tablonun kalbidir; kaynak verileri özetleyen sayısal toplamlardır. Aspose.Cells for Node.js via Java'da bir pivot tablonun veri bölgesi, `PivotTable.addFieldToArea` aracılığıyla temel alanlar eklenerek doldurulur ve bu bölgeye yerleştirilen her alan kendi özet fonksiyonuna sahip olabilir. İki veya daha fazla veri alanı mevcut olduğunda, Aspose.Cells özel bir toplam alanı olan `PivotTable.getValuesField()` öğesini sunar; bu alan, bir temel alan gibi Satır veya Sütun eksenine yerleştirilebilir ve değer alanlarının düzende nasıl görüneceği üzerinde daha ayrıntılı kontrol sağlar.
+
 ## Veri Bölgesine Alan Ekleme
 Temel bir alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.DATA` sabitini ve kaynak sütun adını kabul eden `PivotTable.addFieldToArea(PivotFieldType, string)` aşırı yüklemesini sunar. Bir alan veri bölgesine eklendikten sonra, API bunu alanların eklendiği sırayla `PivotTable.getDataFields()` koleksiyonu aracılığıyla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.SUM` ile özetlenirken, sayısal olmayan bir sütun `COUNT` varsayılan değerini alır.
 ## Özet Fonksiyonunu Değiştirme
@@ -77,7 +77,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```

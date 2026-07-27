@@ -9,7 +9,7 @@ url: /ar/cpp/manage-value-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-حقول القيم هي جوهر كل جدول محوري، وهي التجمّعات الرقمية التي تلخّص بيانات المصدر. في Aspose.Cells for C++، يتم ملء منطقة البيانات في الجدول المحوري عن طريق إضافة الحقول الأساسية إليها من خلال `PivotTable.AddFieldToArea`، ويمكن لكل حقل موضوع في تلك المنطقة أن تكون له دالة التلخيص الخاصة به. عندما يوجد حقلا بيانات أو أكثر، يعرض Aspose.Cells حقل تجميع خاص هو `PivotTable.ValuesField`، يمكن رسمه على محور الصفوف أو الأعمدة كحقل أساسي، مما يمنحك تحكمًا أدق في كيفية ظهور حقول القيم في التخطيط.
+
 ## إضافة حقل إلى منطقة البيانات
 تُعدّ إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يعرض Aspose.Cells `PivotTable.AddFieldToArea(PivotFieldType, string)`، وهي صيغة محمّلة تقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، تعرضه واجهة البرمجة من خلال مجموعة `PivotTable.DataFields` بالترتيب الذي أُضيفت به الحقول. افتراضيًا، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.Sum`، بينما يكون العمود غير الرقمي افتراضيًا `Count`.
 ## تغيير دالة التلخيص
@@ -90,7 +90,6 @@ int main() {
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
- pivotTable.RefreshData();
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
 
@@ -124,7 +123,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
  countField->SetFunction(ConsolidationFunction_Count);
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_function.xlsx");
 }
@@ -151,7 +149,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
  pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

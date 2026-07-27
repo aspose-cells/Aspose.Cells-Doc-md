@@ -73,7 +73,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
     // Actualizar y calcular los datos de la tabla dinámica
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     // Guardar el libro de trabajo
@@ -139,7 +138,6 @@ int main() {
     }
 
     // Actualizar para que el nuevo campo de página se refleje en el libro guardado
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -191,7 +189,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(0x7FFD);
@@ -249,7 +246,6 @@ int main() {
 
     pivotTable.GetPageFields().Get(0).SetCurrentPageItem(1);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");
@@ -332,7 +328,6 @@ int main() {
         }
     }
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output.xlsx");

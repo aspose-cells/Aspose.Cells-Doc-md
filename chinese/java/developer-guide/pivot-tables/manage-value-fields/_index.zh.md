@@ -9,7 +9,7 @@ url: /zh/java/manage-value-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-值字段是每个数据透视表的核心，是源数据的数值汇总形式。在 Aspose.Cells for Java 中，通过 `PivotTable.addFieldToArea` 将基础字段添加到数据透视表的数据区域，添加到该区域的每个字段都可以拥有自己的汇总函数。当存在两个或更多数据字段时，Aspose.Cells 会公开一个特殊的聚合字段 `PivotTable.getValuesField()`，该字段可以作为基础字段绘制到行轴或列轴上，从而让您可以更精细地控制值字段在布局中的显示方式。
+
 ## 将字段添加到数据区域
 将基础字段添加到数据（值）区域是塑造数据透视表如何汇总源数据的第一步。Aspose.Cells 公开了 `PivotTable.addFieldToArea(PivotFieldType, String)` 重载方法，该方法接受常量 `PivotFieldType.DATA` 和源列名称作为参数。字段被添加到数据区域后，API 会通过 `PivotTable.getDataFields()` 集合按字段添加的顺序将其公开。默认情况下，数值型源列使用 `ConsolidationFunction.SUM` 进行汇总，而非数值型列默认使用 `COUNT`。
 ## 更改汇总函数
@@ -82,7 +82,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -131,7 +130,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -179,7 +177,6 @@ pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

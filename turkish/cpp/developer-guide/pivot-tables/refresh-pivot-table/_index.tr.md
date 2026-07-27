@@ -9,6 +9,7 @@ url: /tr/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells, veriyi dört farklı kapsamda — tüm çalışma kitabından tek bir özet tablosuna kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for C++ v26.7** ile başlayarak, eski yöntem olan `PivotTable.RefreshData()` artık kullanımdan kaldırılmış (obsolete) olarak işaretlenmiş olup bu makalede anlatılan daha verimli, önbellek farkında (cache-aware) API'lerle değiştirilmelidir.
 {{% /alert %}}
@@ -96,7 +97,6 @@ int main() {
     cells.Get(u"C5").PutValue(85);
     cells.Get(u"C9").PutValue(125);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output.xlsx");
@@ -349,92 +349,7 @@ int main() {
 Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde duran birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin, toplu bir yenileme gerçekleştirmeden önce veya paylaşılan önbellek etkisini teşhis etmek için — `PivotCache.GetPivotTables()` kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
 Bu, iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `GetPivotTables()` tarafından döndürülen koleksiyonu yineleyerek hangi özet tablolarının onun içinde göründüğünü gözlemleyebilirsiniz.
 Aşağıdaki örnek, aynı kaynak aralığına iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
-```cpp
-#include "Aspose.Cells.h"
-#include <iostream>
 
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
-
-int main() {
-    Aspose::Cells::Startup();
-
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Sheet1");
-
-    Cells cells = worksheet.GetCells();
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-    cells.Get(u"B1").PutValue(U16String("Year"));
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("Grape"));
-    cells.Get(u"B2").PutValue(2020);
-    cells.Get(u"C2").PutValue(100);
-
-    cells.Get(u"A3").PutValue(U16String("Blueberry"));
-    cells.Get(u"B3").PutValue(2020);
-    cells.Get(u"C3").PutValue(200);
-
-    cells.Get(u"A4").PutValue(U16String("Kiwi"));
-    cells.Get(u"B4").PutValue(2020);
-    cells.Get(u"C4").PutValue(300);
-
-    cells.Get(u"A5").PutValue(U16String("Cherry"));
-    cells.Get(u"B5").PutValue(2020);
-    cells.Get(u"C5").PutValue(400);
-
-    cells.Get(u"A6").PutValue(U16String("Grape"));
-    cells.Get(u"B6").PutValue(2021);
-    cells.Get(u"C6").PutValue(500);
-
-    cells.Get(u"A7").PutValue(U16String("Blueberry"));
-    cells.Get(u"B7").PutValue(2021);
-    cells.Get(u"C7").PutValue(600);
-
-    cells.Get(u"A8").PutValue(U16String("Kiwi"));
-    cells.Get(u"B8").PutValue(2021);
-    cells.Get(u"C8").PutValue(700);
-
-    cells.Get(u"A9").PutValue(U16String("Cherry"));
-    cells.Get(u"B9").PutValue(2021);
-    cells.Get(u"C9").PutValue(800);
-
-    cells.Get(u"A10").PutValue(U16String("Grape"));
-    cells.Get(u"B10").PutValue(2021);
-    cells.Get(u"C10").PutValue(900);
-
-    PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivot1Index = pivotTables.Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = pivotTables.Get(pivot1Index);
-    pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    int pivot2Index = pivotTables.Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = pivotTables.Get(pivot2Index);
-    pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    // Aspose.Cells'de, aynı kaynak aralığından oluşturulan pivot tablolar otomatik olarak aynı PivotCache'i paylaşır
-    std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
-
-    // Çalışma sayfasındaki tüm pivot tabloları al (önbelleği paylaşan)
-    PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
-    std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
-
-    for (int i = 0; i < sharedPivotTables.GetCount(); ++i) {
-        PivotTable pt = sharedPivotTables.Get(i);
-        std::cout << "Pivot table name: " << pt.GetName().ToUtf8() << std::endl;
-    }
-
-    workbook.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-    return 0;
-}
-```
 ## Kullanımdan Kaldırılan `PivotTable.RefreshData()`'dan Geçiş
 Aspose.Cells for C++ v26.7'den önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla, bu yöntem **kullanımdan kaldırılmış** (obsolete) olarak işaretlenmiş olup yukarıda anlatılan önbellek farkında (cache-aware) API'lerle değiştirilmelidir.
 Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
@@ -486,7 +401,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -505,10 +419,4 @@ Aşağıdaki tablo mevcut yenileme API'lerini özetlemekte ve her birinin ne zam
 | Bir önbellek için kaynak veriler değişti | `pivotTable.GetPivotCache().Refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak round-trip'ini atlar. |
 | Paylaşılan bir önbellekteki tüm özet tablolarını listeleme | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılmış tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-## İlgili Makaleler
-- [Hücreye Resim Ekleme](/cells/tr/cpp/inserting-an-image-into-a-cell/)
-- [DBF Dosyalarını Okuma ve Yazma](/cells/tr/cpp/dbf/)
-- [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for C++'da Sparkline'lar](/cells/tr/cpp/sparkline/)
-{{< app/cells/assistant language="cpp" >}}
+Uygulamada, kullanımdan kaldırılmış tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="cpp" >}}

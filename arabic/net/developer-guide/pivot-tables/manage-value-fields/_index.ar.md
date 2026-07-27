@@ -9,7 +9,7 @@ url: /ar/net/pivot-table-manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-حقول القيم هي جوهر كل جدول محوري، وهي التجميعات العددية التي تلخص بيانات المصدر. في Aspose.Cells for .NET، يتم ملء منطقة البيانات في الجدول المحوري عن طريق إضافة الحقول الأساسية إليها من خلال `PivotTable.AddFieldToArea`، ويمكن أن يكون لكل حقل موضوع في تلك المنطقة دالة تلخيص خاصة به. عندما يوجد حقلا بيانات أو أكثر، يعرض Aspose.Cells حقل تجميع خاص، وهو `PivotTable.ValuesField`، يمكن رسمه على محور الصفوف أو الأعمدة كحقل أساسي، مما يمنحك تحكمًا أدق في كيفية ظهور حقول القيم في التخطيط.
+
 ## إضافة حقل إلى منطقة البيانات
 تُعد إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يعرض Aspose.Cells الدالة `PivotTable.AddFieldToArea(PivotFieldType, string)`، وهي طريقة محملة تقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، تعرضه واجهة برمجة التطبيقات من خلال مجموعة `PivotTable.DataFields`، بالترتيب الذي تمت إضافة الحقول به. بشكل افتراضي، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.Sum`، بينما يكون عمود المصدر غير الرقمي افتراضيًا `Count`.
 ## تغيير دالة التلخيص
@@ -84,7 +84,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -143,7 +142,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -193,7 +191,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

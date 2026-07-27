@@ -74,7 +74,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 
 // Actualiser et calculer les données du tableau croisé dynamique
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 // Enregistrer le classeur
@@ -128,7 +127,6 @@ PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
 
 // Actualiser pour que le nouveau champ de page soit reflété dans le classeur enregistré
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -181,7 +179,6 @@ pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 
-pivot.refreshData();
 pivot.calculateData();
 
 // Effacer le filtre de page afin que chaque élément du champ de page soit visible.
@@ -239,7 +236,6 @@ pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = deuxième élément dans l'ordre trié (par exemple "2021")
 
 // Actualiser et calculer le tableau croisé dynamique
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");
@@ -318,7 +314,6 @@ for (int i = 0; i < pivotItems.getCount(); i++)
     }
 }
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output.xlsx");

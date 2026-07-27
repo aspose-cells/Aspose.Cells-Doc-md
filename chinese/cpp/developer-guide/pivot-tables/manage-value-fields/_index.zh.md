@@ -9,7 +9,7 @@ url: /zh/cpp/manage-value-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-值字段是每个数据透视表的核心，是对源数据进行数值汇总的聚合。在 Aspose.Cells for C++ 中，通过 `PivotTable.AddFieldToArea` 向数据透视表的数据区域添加基础字段来填充该区域，放置在该区域中的每个字段都可以有自己的汇总函数。当存在两个或更多数据字段时，Aspose.Cells 会公开一个特殊的聚合字段 `PivotTable.ValuesField`，可以将其作为基础字段绘制到行轴或列轴上，从而更精细地控制值字段在布局中的显示方式。
+
 ## 将字段添加到数据区域
 将基础字段添加到数据（值）区域是塑造数据透视表如何聚合源数据的第一步。Aspose.Cells 公开了 `PivotTable.AddFieldToArea(PivotFieldType, string)` 重载，该重载接受常量 `PivotFieldType.Data` 和源列名称。字段添加到数据区域后，API 会通过 `PivotTable.DataFields` 集合公开它，按添加字段的顺序排列。默认情况下，数值型源列使用 `ConsolidationFunction.Sum` 进行汇总，而非数值型列默认使用 `Count`。
 ## 更改汇总函数
@@ -90,7 +90,6 @@ int main() {
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
- pivotTable.RefreshData();
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
 
@@ -124,7 +123,6 @@ int main() {
 	pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
 	intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
 	countField->SetFunction(ConsolidationFunction_Count);
-	pivotTable->RefreshData();
 	pivotTable->CalculateData();
 	workbook->Save("output_function.xlsx");
 }
@@ -151,7 +149,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
  pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

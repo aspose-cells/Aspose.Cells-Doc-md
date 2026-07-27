@@ -9,7 +9,7 @@ url: /ru/python-java/manage-value-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Поля значений — это основа любой сводной таблицы, числовые агрегаты, которые обобщают исходные данные. В Aspose.Cells for Python via Java область данных сводной таблицы заполняется путём добавления в неё базовых полей через `PivotTable.addFieldToArea`, и каждое поле, помещённое в эту область, может иметь собственную итоговую функцию. При наличии двух или более полей данных Aspose.Cells предоставляет специальное агрегатное поле `PivotTable.ValuesField`, которое можно разместить на оси строк или столбцов как базовое поле, что даёт более точный контроль над тем, как поля значений отображаются в макете.
+
 ## Добавление поля в область данных
 Добавление базового поля в область данных (значений) — это первый шаг в формировании того, как сводная таблица агрегирует исходные данные. Aspose.Cells предоставляет перегрузку `PivotTable.addFieldToArea(PivotFieldType, string)`, которая принимает константу `PivotFieldType.DATA` и имя исходного столбца. После добавления поля в область данных API предоставляет его через коллекцию `PivotTable.DataFields` в порядке добавления полей. По умолчанию числовой исходный столбец обобщается с помощью `ConsolidationFunction.SUM`, а для нечислового столбца по умолчанию используется `COUNT`.
 ## Изменение итоговой функции
@@ -59,7 +59,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -100,7 +99,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -142,7 +140,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

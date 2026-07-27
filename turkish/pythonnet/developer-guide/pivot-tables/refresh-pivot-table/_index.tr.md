@@ -9,6 +9,7 @@ url: /tr/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells, özet tablo verilerini dört farklı kapsamda — çalışma kitabının tamamından tek bir özet tabloya kadar — yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for Python via .NET v26.7** sürümünden itibaren eski `PivotTable.refresh_data()` yöntemi kullanımdan kaldırılmış olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
 {{% /alert %}}
@@ -320,76 +321,7 @@ workbook.save("output.xlsx")
 Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde oturan birçok özet tablosu içerir. Bunları numaralandırmak için — örneğin toplu yenileme yapmadan önce veya paylaşılan önbellek etkisini teşhis etmek için — `PivotCache.get_pivot_tables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı her `PivotTable`'ın koleksiyonunu döndürür.
 Bu aynı zamanda iki özet tablosunun gerçekten aynı `PivotCache` örneğini paylaştığını doğrulamanın en doğrudan yoludur: önbellek başvurularını karşılaştırabilir veya `get_pivot_tables()` tarafından döndürülen koleksiyon üzerinde yineleyerek hangi özet tablolarının bu koleksiyonda göründüğünü gözlemleyebilirsiniz.
 Aşağıdaki örnek, aynı kaynak aralığında iki özet tablosu oluşturur, aynı önbellek örneğini paylaştıklarını doğrular ve ardından önbelleğin özet tablolarını numaralandırır.
-```python
-import aspose.cells as ac
 
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 ## Kullanımdan Kaldırılan `PivotTable.refresh_data()` Yönteminden Geçiş
 Aspose.Cells for Python via .NET v26.7 sürümünden önce, bir özet tablosunu yenilemenin standart yolu her özet tablosunda ayrı ayrı `PivotTable.refresh_data()` çağırmaktı. v26.7 itibarıyla bu yöntem **kullanımdan kaldırılmış** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'ler ile değiştirilmelidir.
 Tablo başına `refresh_data()` yaklaşımının gerçek dünya çalışma kitaplarında sorunlu olmasının iki nedeni vardır:
@@ -477,7 +409,4 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilece
 | Tek bir önbelleğin kaynak verileri değişti | `pivot_table.pivot_cache.refresh()` | O paylaşılan önbellekteki TÜM özet tablolarını yeniler. |
 | Yalnızca görünüm/düzen ayarları değişti | `pivot_table.calculate_data()` | Gereksiz kaynak geri dönüşünü atlar. |
 | Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivot_cache.get_pivot_tables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
-## İlgili Makaleler
-- [Aspose.Cells for Python via .NET'te Mini Grafikler](/cells/tr/python-net/sparkline/)
-{{< app/cells/assistant language="python" >}}
+Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.{{< app/cells/assistant language="python" >}}

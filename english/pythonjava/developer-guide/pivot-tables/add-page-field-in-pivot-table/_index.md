@@ -10,6 +10,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 linktitle: Add Filter Fields
 ---
 
+
 {{% alert color="primary" %}}
 Aspose.Cells supports the full lifecycle of filter fields in pivot tables. You can add a filter field through a high-level convenience API or through the lower-level `page_fields` collection, and you can drive the filter in single-select mode, clear it to show every filter item, or switch the field to multi-select so users can pick several filter items at once through the checkbox UI in Excel.
 {{% /alert %}}
@@ -18,13 +19,7 @@ Aspose.Cells supports the full lifecycle of filter fields in pivot tables. You c
 
 A filter field is a pivot field that controls *which subset* of the source data the pivot body displays. End users see it as a dropdown at the top of a rendered pivot in Excel, and selecting one of the available filter items rebuilds the pivot body so that only the records belonging to that filter item are summarized. A pivot field becomes a filter field when it is registered as `PivotFieldType.PAGE` rather than `PivotFieldType.ROW`, `PivotFieldType.COLUMN`, or `PivotFieldType.DATA`.
 
-A filter field can operate in two behaviors. In the default **single-select** behavior only one filter item is visible at a time, so the pivot body summarizes exactly one subset. In the **multi-select** behavior the field exposes a checkbox list, and the pivot body summarizes the union of every checked filter item. The same source field can be moved back and forth between these behaviors by toggling a single property.
-
-Aspose.Cells for Python via Java exposes two equivalent ways to register a filter field. The high-level API is `PivotTable.add_field_to_area(PivotFieldType.PAGE, "fieldName")`, which takes the source-column name and adds the field in a single call. The lower-level API is `PivotTable.page_fields.add(PivotField)`, which is used when you already hold a `PivotField` reference and want to add the same field instance to the filter area. Both APIs end up populating the same `page_fields` collection, and the remainder of this article demonstrates how to choose between them and how to drive each filtering mode.
-
 ## **Adding a Filter Field**
-
-There are two ways to register a pivot field in the filter area. The high-level call takes the source-column name as a string and is the most common path. The lower-level call accepts an existing `PivotField` instance and is convenient when the same field object must be reused across multiple pivot areas. Both calls place the field into `PivotTable.page_fields`, after which it appears as the filter dropdown at the top of the rendered pivot.
 
 ### Adding a Filter Field with add_field_to_area
 
@@ -75,7 +70,6 @@ pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 
 # Refresh and calculate the pivot table data
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Save the workbook
@@ -135,7 +129,6 @@ yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
 
 # Refresh so the new page field is reflected in the saved workbook
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -189,7 +182,6 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 # Clear the page filter so every item in the page field is visible.
@@ -253,7 +245,6 @@ pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = second item in sorted order (e.g. "2021")
 
 # Refresh and calculate pivot table
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")
@@ -264,8 +255,6 @@ jpype.shutdownJVM()
 ## **Multi-Select Filtering**
 
 Multi-select filtering turns the filter dropdown into a checkbox list and lets the end user pick several filter items simultaneously. Aspose.Cells exposes two properties that work together. `PivotField.is_multiple_item_selection_allowed` must be set to `True` before the multi-select UI takes effect at all. After it is enabled, `PivotItem.is_hidden` controls which items appear in the checkbox list, so you can either show every item or whitelist only specific items.
-
-The code below enables multi-select on the same Year filter field built in Scenario 1a, and then shows two patterns: Part A reveals every filter item by leaving `is_hidden` set to `False` for every entry, while Part B whitelists only the source values you choose and hides everything else through a `switch (pivot_items[i].get_string_value())` block.
 
 ```python
 import jpype
@@ -332,7 +321,6 @@ for i in range(pivotItems.getCount()):
     else:
         pivotItems.get(i).setHidden(True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output.xlsx")

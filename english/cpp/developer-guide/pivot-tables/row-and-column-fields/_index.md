@@ -10,7 +10,6 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Row and column fields are the building blocks of a pivot table. A field placed in the row region appears vertically on the left of the pivot, while a field placed in the column region appears horizontally across the top. This article shows how to add base fields to those regions programmatically and how to control the subtotals that render between field groups by using the `PivotField.SetSubtotals` method.
 
 ## **Adding a Field to the Row or Column Region**
 
@@ -20,8 +19,6 @@ The `PivotTable.AddFieldToArea(PivotFieldType fieldType, intrusive_ptr<Aspose::C
 - `Column` — fields placed horizontally across the top
 - `Data` — fields whose values are aggregated
 - `Page` — fields used as report filters
-
-After fields are added, you can access them through the `PivotTable.RowFields` and `PivotTable.ColumnFields` properties. Each property returns a `PivotFieldCollection`. The field at index 0 of `RowFields` is the outermost row field, and subsequent indices represent fields nested inside it. The same indexing convention applies to `ColumnFields`.
 
 Field nesting order matters. Adding `Category` to the row region first and then `Item` produces a pivot whose outer grouping is `Category` and whose inner grouping is `Item`. Reversing the order reverses the hierarchy.
 
@@ -120,7 +117,6 @@ int main() {
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Automatic, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_automatic.xlsx");
@@ -175,7 +171,6 @@ int main() {
 
     PivotField categoryField = pivotTable.GetRowFields().Get(0);
     categoryField.SetSubtotals(PivotFieldSubtotalType::None, true);
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output_none.xlsx");
@@ -260,7 +255,6 @@ int main() {
     categoryField.SetSubtotals(PivotFieldSubtotalType::Sum, true);
     categoryField.SetSubtotals(PivotFieldSubtotalType::Average, true);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     workbook.Save(u"output_custom.xlsx");
@@ -271,8 +265,6 @@ int main() {
 ```
 
 ## **Recap**
-
-The three scenarios above share the same dataset and pivot table structure. The only difference between them is the `SetSubtotals` call applied to the outer `Category` row field. Remember the two-fields rule: a single field in a region has nothing to subtotal between, so always place at least two fields in the row or column region when you want `SetSubtotals` to have a visible effect.
 
 ## **Related Articles**
 

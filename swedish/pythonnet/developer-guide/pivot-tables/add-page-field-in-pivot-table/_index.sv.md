@@ -71,7 +71,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
 # Uppdatera och beräkna pivottabellens data
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Spara arbetsboken
@@ -125,7 +124,6 @@ year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
 
 # Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -174,7 +172,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
 pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
 pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 # Rensa sidfiltret så att alla objekt i sidfältet visas.
@@ -232,7 +229,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
 pivot_table.page_fields[0].current_page_item = 1  # 1 = andra objektet i sorterad ordning (t.ex. "2021")
 
 # Uppdatera och beräkna pivottabell
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")
@@ -303,7 +299,6 @@ for i in range(pivot_items.count):
     else:
         pivot_items[i].is_hidden = True
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output.xlsx")

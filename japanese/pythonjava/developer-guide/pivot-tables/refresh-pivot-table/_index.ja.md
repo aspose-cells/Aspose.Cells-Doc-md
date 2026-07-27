@@ -9,6 +9,7 @@ url: /ja/python-java/refresh-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層的な更新 API を提供します。**Aspose.Cells for Python via Java v26.7** 以降、旧メソッド `PivotTable.refreshData()` は非推奨となり、本記事で紹介するより効率的でキャッシュを認識する API に置き換える必要があります。
 {{% /alert %}}
@@ -341,83 +342,7 @@ jpype.shutdownJVM()
 ワークブックには、1 つの共有キャッシュ上に存在する多くのピボットテーブルが含まれていることがよくあります。これらを列挙するには (たとえば、バッチ更新を実行する前や、共有キャッシュの影響を診断するために)、`PivotCache.getPivotTables()` を使用します。このメソッドは、指定されたキャッシュに依存するすべての `PivotTable` のコレクションを返します。
 これは、2 つのピボットテーブルが実際に同じ `PivotCache` インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較したり、`getPivotTables()` によって返されたコレクションを反復処理し、どのピボットテーブルがそれに含まれるかを観察したりすることができます。
 次の例では、同じソース範囲上に 2 つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認し、キャッシュのピボットテーブルを列挙します。
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotFieldType
 
-# ここに移植されたコード
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Sheet1")
-
-worksheet.getCells().get("A1").putValue("Fruit")
-worksheet.getCells().get("B1").putValue("Year")
-worksheet.getCells().get("C1").putValue("Amount")
-
-worksheet.getCells().get("A2").putValue("Grape")
-worksheet.getCells().get("B2").putValue(2020)
-worksheet.getCells().get("C2").putValue(100)
-
-worksheet.getCells().get("A3").putValue("Blueberry")
-worksheet.getCells().get("B3").putValue(2020)
-worksheet.getCells().get("C3").putValue(200)
-
-worksheet.getCells().get("A4").putValue("Kiwi")
-worksheet.getCells().get("B4").putValue(2020)
-worksheet.getCells().get("C4").putValue(300)
-
-worksheet.getCells().get("A5").putValue("Cherry")
-worksheet.getCells().get("B5").putValue(2020)
-worksheet.getCells().get("C5").putValue(400)
-
-worksheet.getCells().get("A6").putValue("Grape")
-worksheet.getCells().get("B6").putValue(2021)
-worksheet.getCells().get("C6").putValue(500)
-
-worksheet.getCells().get("A7").putValue("Blueberry")
-worksheet.getCells().get("B7").putValue(2021)
-worksheet.getCells().get("C7").putValue(600)
-
-worksheet.getCells().get("A8").putValue("Kiwi")
-worksheet.getCells().get("B8").putValue(2021)
-worksheet.getCells().get("C8").putValue(700)
-
-worksheet.getCells().get("A9").putValue("Cherry")
-worksheet.getCells().get("B9").putValue(2021)
-worksheet.getCells().get("C9").putValue(800)
-
-worksheet.getCells().get("A10").putValue("Grape")
-worksheet.getCells().get("B10").putValue(2021)
-worksheet.getCells().get("C10").putValue(900)
-
-pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = worksheet.getPivotTables().get(pivot1Index)
-pivotTable1.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = worksheet.getPivotTables().get(pivot2Index)
-pivotTable2.addFieldToArea(PivotFieldType.ROW, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
-
-sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
-
-sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
-print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))
-
-for pt in sharedPivotTables:
-    print("Pivot table name: " + pt.getName())
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 ## 非推奨の `PivotTable.refreshData()` からの移行
 Aspose.Cells for Python via Java v26.7 より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 以降、そのメソッドは **非推奨** としてマークされており、上記のキャッシュを認識する API に置き換える必要があります。
 実際のワークブックでテーブルごとの `refreshData()` アプローチに問題がある理由は 2 つあります。
@@ -428,78 +353,7 @@ Aspose.Cells for Python via Java v26.7 より前は、ピボットテーブル�
 - **一部のピボットテーブルを更新する** → 1 つのキャッシュに対して `pivotTable.getPivotCache().refresh();` を使用します。キャッシュは共有されているため、この 1 回の呼び出しで、そのキャッシュ上に構築されたすべてのピボットテーブルが更新されます。すでに更新されたキャッシュ上に存在する他のピボットテーブルは、安全にスキップできます。
 - **ピボットビュー/レイアウトのみが変更された** → ソースへのラウンドトリップなしで既存のキャッシュから再レンダリングするには `pivotTable.calculateData();` を使用します。
 次の例では、単一のキャッシュを共有する複数のピボットテーブルを持つワークブックの新しい効率的なパターンを示します。
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 
-# Create a new workbook and access the first worksheet
-workbook = Workbook()
-sheet = workbook.getWorksheets().get(0)
-
-# --- Build the source data: Fruit / Year / Amount (header + 9 rows) ---
-sheet.getCells().get("A1").putValue("Fruit")
-sheet.getCells().get("B1").putValue("Year")
-sheet.getCells().get("C1").putValue("Amount")
-
-sheet.getCells().get("A2").putValue("Grape");      sheet.getCells().get("B2").putValue(2020); sheet.getCells().get("C2").putValue(1000)
-sheet.getCells().get("A3").putValue("Blueberry");  sheet.getCells().get("B3").putValue(2020); sheet.getCells().get("C3").putValue(2000)
-sheet.getCells().get("A4").putValue("Kiwi");       sheet.getCells().get("B4").putValue(2020); sheet.getCells().get("C4").putValue(1500)
-sheet.getCells().get("A5").putValue("Cherry");     sheet.getCells().get("B5").putValue(2020); sheet.getCells().get("C5").putValue(2500)
-sheet.getCells().get("A6").putValue("Grape");      sheet.getCells().get("B6").putValue(2021); sheet.getCells().get("C6").putValue(3000)
-sheet.getCells().get("A7").putValue("Blueberry");  sheet.getCells().get("B7").putValue(2021); sheet.getCells().get("C7").putValue(1800)
-sheet.getCells().get("A8").putValue("Kiwi");       sheet.getCells().get("B8").putValue(2021); sheet.getCells().get("C8").putValue(2200)
-sheet.getCells().get("A9").putValue("Cherry");     sheet.getCells().get("B9").putValue(2021); sheet.getCells().get("C9").putValue(2700)
-
-# --- Add the first pivot table (Pivot1) at destination cell E3 ---
-idx1 = sheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable1 = sheet.getPivotTables().get(idx1)
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount")
-
-# --- Add the SECOND pivot table (Pivot2) on the SAME source range ---
-# Both Pivot1 and Pivot2 share ONE underlying PivotCache.
-# This is exactly the scenario where the legacy per-table RefreshData()
-# approach becomes inefficient: refreshing one table re-fetches the whole
-# shared cache, so refreshing N tables does the same expensive fetch N times.
-idx2 = sheet.getPivotTables().add("A1:C9", "E15", "Pivot2")
-pivotTable2 = sheet.getPivotTables().get(idx2)
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount")
-
-# --- Modify several Amount values in the source data ---
-sheet.getCells().get("C2").putValue(5000)   # Grape  2020
-sheet.getCells().get("C5").putValue(7500)   # Cherry 2020
-sheet.getCells().get("C9").putValue(9500)   # Cherry 2021
-
-# --- OBSOLETE pattern (pre-26.7) — PivotTable.RefreshData() ---
-# pivotTable1.RefreshData();  // re-fetches from source, refreshes whole cache
-# pivotTable2.RefreshData();  // re-fetches AGAIN — the cache is already fresh!
-# Each call rebuilds the shared cache, so N tables = N redundant fetches.
-
-# --- NEW v26.7+ pattern: refresh the cache ONCE, then re-render as needed ---
-# One call to PivotCache.Refresh() pulls the modified values into the shared
-# cache AND recalculates the display of EVERY pivot table that references it.
-# Because Pivot1 and Pivot2 share one PivotCache, this single call updates
-# both tables — no second source round-trip is required.
-pivotTable1.getPivotCache().refresh()
-
-# CalculateData() only re-renders a pivot table's display (data + style)
-# from the data already held in the cache — it does NOT touch the source.
-# We call it on Pivot2 here purely to demonstrate the API: after the cache
-# has been refreshed once, any dependent table can be re-rendered without
-# going back to the source. Use CalculateData() on its own when only the
-# pivot table's view/layout settings have changed and the cache is current.
-pivotTable2.calculateData()
-
-workbook.save("output.xlsx")
-
-jpype.shutdownJVM()
-```
 ## どの更新 API を使用すべきか?
 次の表は、利用可能な更新 API と、それぞれをいつ選択すべきかをまとめたものです。
 | 目標 | 推奨される API | 備考 |
@@ -509,10 +363,4 @@ jpype.shutdownJVM()
 | 1 つのキャッシュのソースデータが変更された | `pivotTable.getPivotCache().refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | ビュー/レイアウト設定のみが変更された | `pivotTable.calculateData()` | 不要なソースへのラウンドトリップをスキップします。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.getPivotTables()` | 一括更新の前に列挙するために使用します。 |
-実際には、非推奨のテーブルごとの `refreshData()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小のスコープを選択できるようにします。
-## 関連記事
-- [セルに画像を挿入する](/cells/ja/python-java/inserting-an-image-into-a-cell/)
-- [DBF ファイルの読み取りと書き込み](/cells/ja/python-java/dbf/)
-- [Excel ファイルを複数のファイルに分割する](/cells/ja/python-java/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Python via Java のスパークライン](/cells/ja/python-java/sparkline/)
-{{< app/cells/assistant language="python" >}}
+実際には、非推奨のテーブルごとの `refreshData()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小のスコープを選択できるようにします。{{< app/cells/assistant language="python" >}}

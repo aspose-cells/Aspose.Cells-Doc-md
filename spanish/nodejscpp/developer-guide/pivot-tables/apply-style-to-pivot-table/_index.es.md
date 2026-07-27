@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejs_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Aspose.Cells admite la aplicación tanto de autoformatos heredados de tablas dinámicas (diseñados para archivos `.xls`) como de estilos modernos con nombre o personalizados para tablas dinámicas (diseñados para archivos `.xlsx`, `.xlsm` y `.xlsb`). La API que debe llamar depende del formato de archivo en el que se guarda el libro, no del formato desde el que se cargó.

@@ -9,6 +9,7 @@ url: /ru/java/refresh-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц на четырёх различных уровнях — от всей рабочей книги до отдельной сводной таблицы. Начиная с версии **Aspose.Cells for Java v26.7**, устаревший метод `PivotTable.refreshData()` помечен как нерекомендуемый и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в этой статье.
 {{% /alert %}}
@@ -170,19 +171,32 @@ workbook.save("output.xlsx");
 {{% /alert %}}
 Следующий пример создаёт две сводные таблицы на одном и том же исходном диапазоне, чтобы продемонстрировать это поведение общего кэша, изменяет некоторые исходные значения, а затем выполняет обновление через ссылку на один кэш.
 ```java
-import com.aspose.cells.*;
-
-// Создать новую книгу и получить доступ к первому рабочему листу
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-
-// Записать строку заголовков: Фрукт / Год / Количество
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-// Записать примерно 9 строк данных (виноград / черника / киви / вишня за 2020-2021 годы)
-worksheet.getCells().get("A2").putValue("Grape");
+import com.aspose.cells.*;
+
+
+
+// Создать новую книгу и получить доступ к первому рабочему листу
+
+Workbook workbook = new Workbook();
+
+Worksheet worksheet = workbook.getWorksheets().get(0);
+
+
+
+// Записать строку заголовков: Фрукт / Год / Количество
+
+worksheet.getCells().get("A1").putValue("Fruit");
+
+worksheet.getCells().get("B1").putValue("Year");
+
+worksheet.getCells().get("C1").putValue("Amount");
+
+
+
+// Записать примерно 9 строк данных (виноград / черника / киви / вишня за 2020-2021 годы)
+
+worksheet.getCells().get("A2").putValue("Grape");
+
 worksheet.getCells().get("B2").putValue(2020)        // MISSING SEMICOLON HERE!
 worksheet.getCells().get("C2").putValue(100);        // ERROR: extra ) here? No actually it looks like missing semicolon and continuation
 
@@ -268,78 +282,7 @@ workbook.save("output.xlsx");
 Рабочая книга часто содержит множество сводных таблиц, которые все построены поверх одного общего кэша. Чтобы перечислить их — например, перед выполнением пакетного обновления или для диагностики влияния общего кэша — используйте `PivotCache.getPivotTables()`. Этот метод возвращает коллекцию всех `PivotTable`, зависящих от данного кэша.
 Это также самый прямой способ убедиться, что две сводные таблицы действительно совместно используют один и тот же экземпляр `PivotCache`: вы можете сравнить ссылки на кэш (используя оператор `==`) или просто перебрать коллекцию, возвращённую `getPivotTables()`, и увидеть, какие сводные таблицы в ней присутствуют.
 Следующий пример создаёт две сводные таблицы на одном и том же исходном диапазоне, проверяет, что они совместно используют один и тот же экземпляр кэша, а затем перечисляет сводные таблицы этого кэша.
-```java
-import com.aspose.cells.*;
 
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-int pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(PivotFieldType.Data, "Amount");
-
-boolean sameCache = pivotTable1.getPivotCache() == pivotTable2.getPivotCache();
-System.out.println("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-System.out.println("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (PivotTable pt : sharedPivotTables)
-{
-    System.out.println("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Миграция с устаревшего `PivotTable.refreshData()`
 До версии Aspose.Cells for Java v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.refreshData()` для каждой сводной таблицы по отдельности. Начиная с версии 26.7, этот метод помечен как **нерекомендуемый** и должен быть заменён описанными выше API, учитывающими кэш.
 Есть две причины, по которым подход с `refreshData()` для каждой таблицы по отдельности является проблематичным в реальных рабочих книгах:
@@ -407,10 +350,4 @@ workbook.save("output.xlsx");
 | Исходные данные изменились для одного кэша | `pivotTable.getPivotCache().refresh()` | Обновляет ВСЕ сводные таблицы на этом общем кэше. |
 | Изменились только настройки представления/макета | `pivotTable.calculateData()` | Пропускает ненужное обращение к источнику. |
 | Список всех сводных таблиц на общем кэше | `pivotCache.getPivotTables()` | Используется для перечисления перед массовым обновлением. |
-На практике предпочтительнее использовать API на основе кэша вместо устаревшего `refreshData()` для каждой таблицы по отдельности. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать наименьшую область, удовлетворяющую вашим требованиям к обновлению.
-## Связанные статьи
-- [Вставка изображения в ячейку](/cells/ru/java/inserting-an-image-into-a-cell/)
-- [Чтение и запись файлов DBF](/cells/ru/java/dbf/)
-- [Разделение файлов Excel на несколько файлов](/cells/ru/java/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for Java](/cells/ru/java/sparkline/)
-{{< app/cells/assistant language="java" >}}
+На практике предпочтительнее использовать API на основе кэша вместо устаревшего `refreshData()` для каждой таблицы по отдельности. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать наименьшую область, удовлетворяющую вашим требованиям к обновлению.{{< app/cells/assistant language="java" >}}

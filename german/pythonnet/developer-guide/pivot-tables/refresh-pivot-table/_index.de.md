@@ -9,6 +9,7 @@ url: /de/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells stellt eine mehrstufige Aktualisierungs-API bereit, mit der Sie Pivot-Daten in vier unterschiedlichen Geltungsbereichen neu laden können – von der gesamten Arbeitsmappe bis hin zu einer einzelnen Pivot-Tabelle. Ab **Aspose.Cells for Python via .NET v26.7** ist die Legacy-Methode `PivotTable.refresh_data()` als veraltet markiert und sollte durch die effizienteren, cache-bewussten APIs ersetzt werden, die in diesem Artikel beschrieben werden.
 {{% /alert %}}
@@ -321,76 +322,7 @@ workbook.save("output.xlsx")
 Eine Arbeitsmappe enthält häufig viele Pivot-Tabellen, die alle auf einem gemeinsam genutzten Cache sitzen. Um sie aufzulisten — zum Beispiel vor einer Massenaktualisierung oder um die Auswirkungen des gemeinsam genutzten Caches zu diagnostizieren — verwenden Sie `PivotCache.get_pivot_tables()`. Diese Methode gibt die Sammlung jeder `PivotTable` zurück, die von dem angegebenen Cache abhängt.
 Dies ist auch der direkteste Weg, um zu bestätigen, dass zwei Pivot-Tabellen tatsächlich dieselbe `PivotCache`-Instanz gemeinsam nutzen: Sie können Cache-Referenzen vergleichen oder einfach die von `get_pivot_tables()` zurückgegebene Sammlung durchlaufen und beobachten, welche Pivot-Tabellen darin erscheinen.
 Das folgende Beispiel erstellt zwei Pivot-Tabellen auf demselben Quellbereich, überprüft, dass sie dieselbe Cache-Instanz gemeinsam nutzen, und zählt dann die Pivot-Tabellen des Caches auf.
-```python
-import aspose.cells as ac
 
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 ## Migration von der veralteten `PivotTable.refresh_data()`
 Vor Aspose.Cells for Python via .NET v26.7 war die Standardmethode zum Aktualisieren einer Pivot-Tabelle der Aufruf von `PivotTable.refresh_data()` für jede Pivot-Tabelle einzeln. Ab v26.7 ist diese Methode als **veraltet** markiert und sollte durch die oben beschriebenen cache-bewussten APIs ersetzt werden.
 Es gibt zwei Gründe, warum der `refresh_data()`-Ansatz pro Tabelle in realen Arbeitsmappen problematisch ist:
@@ -476,7 +408,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Quelldaten für einen Cache geändert | `pivot_table.pivot_cache.refresh()` | Aktualisiert ALLE Pivot-Tabellen auf diesem gemeinsam genutzten Cache. |
 | Nur Ansichts-/Layouteinstellungen geändert | `pivot_table.calculate_data()` | Überspringt unnötigen Quellrückgriff. |
 | Alle Pivot-Tabellen auf einem gemeinsam genutzten Cache auflisten | `pivot_cache.get_pivot_tables()` | Vor Massenaktualisierung zur Aufzählung verwenden. |
-In der Praxis sind die cache-basierten APIs dem veralteten `refresh_data()` pro Tabelle vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
-## Verwandte Artikel
-- [Sparklines in Aspose.Cells for Python via .NET](/cells/de/python-net/sparkline/)
-{{< app/cells/assistant language="python" >}}
+In der Praxis sind die cache-basierten APIs dem veralteten `refresh_data()` pro Tabelle vorzuziehen. Sie kennen gemeinsam genutzte Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.{{< app/cells/assistant language="python" >}}

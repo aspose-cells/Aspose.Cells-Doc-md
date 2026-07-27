@@ -10,8 +10,6 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Değer alanları her pivot tablonun kalbidir; kaynak verileri özetleyen sayısal toplamalardır. Aspose.Cells for C++'ta bir pivot tablonun veri bölgesi, `PivotTable.AddFieldToArea` ile temel alanlar eklenerek doldurulur ve bu bölgeye yerleştirilen her alan kendi özetleme fonksiyonuna sahip olabilir. İki veya daha fazla veri alanı mevcut olduğunda, Aspose.Cells özel bir toplama alanı olan `PivotTable.ValuesField`'ı sunar; bu alan bir temel alan olarak Satır veya Sütun eksenine yerleştirilebilir ve değer alanlarının düzende nasıl görüneceği üzerinde daha ayrıntılı kontrol sağlar.
-
 ## Veri Bölgesine Alan Ekleme
 
 Bir temel alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak sütun adını kabul eden bir aşırı yükleme olan `PivotTable.AddFieldToArea(PivotFieldType, string)` yöntemini sunar. Bir alan veri bölgesine eklendikten sonra API, onu alanların eklenme sırasıyla `PivotTable.DataFields` koleksiyonu aracılığıyla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun varsayılan olarak `Count` olur.
@@ -104,7 +102,6 @@ int main() {
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
- pivotTable.RefreshData();
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
 
@@ -141,7 +138,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
  countField->SetFunction(ConsolidationFunction_Count);
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_function.xlsx");
 }
@@ -171,7 +167,6 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
  pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
- pivotTable->RefreshData();
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

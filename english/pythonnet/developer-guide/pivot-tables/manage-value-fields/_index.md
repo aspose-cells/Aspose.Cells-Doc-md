@@ -9,7 +9,7 @@ url: /python-net/pivot-table-manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Value fields are the heart of every pivot table — the numeric aggregates that summarise the source data. In Aspose.Cells, the data region of a pivot table is populated by adding base fields through `PivotTable.AddFieldToArea`, and each field placed in that region can have its own summary function. When two or more data fields exist, Aspose.Cells exposes a special aggregate field, `PivotTable.ValuesField`, that can be plotted onto the Row or Column axis as a base field, giving you finer control over how value fields appear in the layout.
+
 
 ## Adding a Field to the Data Region
 
@@ -48,17 +48,14 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
 ## Changing the Summary Function
 
-Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `Function` property returns a value from the `ConsolidationFunction` enum. The same `Function` setter lets you switch between the available aggregates, including `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp`.
-
 {{% alert color="primary" %}}
-Changing `Function` only affects the aggregate; the source column does not change. You can therefore leave one data field as `Sum` while a second data field targets the same source column but uses `Count` or `Average`, all in a single pivot.
+
 {{% /alert %}}
 
 ```python
@@ -96,7 +93,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -145,7 +141,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

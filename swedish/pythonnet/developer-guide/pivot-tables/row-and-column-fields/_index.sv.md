@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radområdet visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnområdet visas horisontellt överst. Denna artikel visar hur du lägger till basfält i dessa områden programmatiskt och hur du styr delsummorna som visas mellan fältgrupper med hjälp av metoden `PivotField.set_subtotals`.
-
 ## **Lägga till ett fält i rad- eller kolumnområdet**
 
 Metoden `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` flyttar ett basfält från källdata till ett av de fyra pivotområdena. Argumentet `field_type` accepterar ett av följande `PivotFieldType`-värden.
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -237,7 +233,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

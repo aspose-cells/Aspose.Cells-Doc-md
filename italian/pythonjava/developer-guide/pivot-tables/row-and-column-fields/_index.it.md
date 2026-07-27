@@ -10,9 +10,6 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-I campi di riga e colonna sono gli elementi fondamentali di una tabella pivot. Un campo posizionato nella regione di riga appare verticalmente a sinistra della pivot, mentre un campo posizionato nella regione di colonna appare orizzontalmente nella parte superiore. Questo articolo mostra come aggiungere campi base a queste regioni in modo programmatico e come controllare i subtotali visualizzati tra i gruppi di campi utilizzando il metodo `PivotField.setSubtotals`.
-
 ## **Aggiungere un campo alla regione di riga o colonna**
 
 Il metodo `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` sposta un campo base dai dati di origine in una delle quattro regioni della pivot. L'argomento `fieldType` accetta uno dei seguenti valori di `PivotFieldType`.
@@ -120,7 +117,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_automatic.xlsx")
@@ -172,7 +168,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_none.xlsx")
@@ -253,7 +248,6 @@ categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
 categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_custom.xlsx")

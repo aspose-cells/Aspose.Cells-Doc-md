@@ -9,6 +9,7 @@ url: /fr/cpp/refresh-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells propose une API d'actualisation en couches qui vous permet de recharger les données de tableau croisé dynamique à quatre niveaux différents — du classeur entier jusqu'à un seul tableau croisé dynamique. À partir de **Aspose.Cells for C++ v26.7**, la méthode héritée `PivotTable.RefreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces, conscientes du cache, décrites dans cet article.
 {{% /alert %}}
@@ -96,7 +97,6 @@ int main() {
     cells.Get(u"C5").PutValue(85);
     cells.Get(u"C9").PutValue(125);
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
 
     wb.Save(u"output.xlsx");
@@ -349,93 +349,7 @@ int main() {
 Un classeur contient souvent de nombreux tableaux croisés dynamiques qui reposent tous sur un cache partagé. Pour les énumérer — par exemple, avant d'effectuer une actualisation par lots, ou pour diagnostiquer l'impact du cache partagé — utilisez `PivotCache.GetPivotTables()`. Cette méthode renvoie la collection de tous les `PivotTable` qui dépendent du cache donné.
 C'est également le moyen le plus direct de confirmer que deux tableaux croisés dynamiques partagent bien la même instance de `PivotCache` : vous pouvez comparer les références du cache, ou simplement parcourir la collection renvoyée par `GetPivotTables()` et observer quels tableaux croisés dynamiques y apparaissent.
 L'exemple suivant crée deux tableaux croisés dynamiques sur la même plage source, vérifie qu'ils partagent la même instance de cache, puis énumère les tableaux croisés dynamiques du cache.
-```cpp
-#include "Aspose.Cells.h"
-#include <iostream>
 
-using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
-
-int main() {
-    Aspose::Cells::Startup();
-
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Sheet1");
-
-    Cells cells = worksheet.GetCells();
-    cells.Get(u"A1").PutValue(U16String("Fruit"));
-    cells.Get(u"B1").PutValue(U16String("Year"));
-    cells.Get(u"C1").PutValue(U16String("Amount"));
-
-    cells.Get(u"A2").PutValue(U16String("Grape"));
-    cells.Get(u"B2").PutValue(2020);
-    cells.Get(u"C2").PutValue(100);
-
-    cells.Get(u"A3").PutValue(U16String("Blueberry"));
-    cells.Get(u"B3").PutValue(2020);
-    cells.Get(u"C3").PutValue(200);
-
-    cells.Get(u"A4").PutValue(U16String("Kiwi"));
-    cells.Get(u"B4").PutValue(2020);
-    cells.Get(u"C4").PutValue(300);
-
-    cells.Get(u"A5").PutValue(U16String("Cherry"));
-    cells.Get(u"B5").PutValue(2020);
-    cells.Get(u"C5").PutValue(400);
-
-    cells.Get(u"A6").PutValue(U16String("Grape"));
-    cells.Get(u"B6").PutValue(2021);
-    cells.Get(u"C6").PutValue(500);
-
-    cells.Get(u"A7").PutValue(U16String("Blueberry"));
-    cells.Get(u"B7").PutValue(2021);
-    cells.Get(u"C7").PutValue(600);
-
-    cells.Get(u"A8").PutValue(U16String("Kiwi"));
-    cells.Get(u"B8").PutValue(2021);
-    cells.Get(u"C8").PutValue(700);
-
-    cells.Get(u"A9").PutValue(U16String("Cherry"));
-    cells.Get(u"B9").PutValue(2021);
-    cells.Get(u"C9").PutValue(800);
-
-    cells.Get(u"A10").PutValue(U16String("Grape"));
-    cells.Get(u"B10").PutValue(2021);
-    cells.Get(u"C10").PutValue(900);
-
-    PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivot1Index = pivotTables.Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = pivotTables.Get(pivot1Index);
-    pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    int pivot2Index = pivotTables.Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = pivotTables.Get(pivot2Index);
-    pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
-    pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
-    // Dans Aspose.Cells, les tableaux croisés dynamiques créés à partir de la même plage source
-    // partagent automatiquement le même PivotCache
-    std::cout << "Pivot1 and Pivot2 share the same PivotCache: True" << std::endl;
-
-    // Obtenir tous les tableaux croisés dynamiques de la feuille de calcul (qui partagent le cache)
-    PivotTableCollection sharedPivotTables = worksheet.GetPivotTables();
-    std::cout << "Number of pivot tables sharing the cache: " << sharedPivotTables.GetCount() << std::endl;
-
-    for (int i = 0; i < sharedPivotTables.GetCount(); ++i) {
-        PivotTable pt = sharedPivotTables.Get(i);
-        std::cout << "Pivot table name: " << pt.GetName().ToUtf8() << std::endl;
-    }
-
-    workbook.Save(u"output.xlsx");
-
-    Aspose::Cells::Cleanup();
-    return 0;
-}
-```
 ## Migration depuis l'obsolète `PivotTable.RefreshData()`
 Avant Aspose.Cells for C++ v26.7, la méthode standard pour actualiser un tableau croisé dynamique consistait à appeler `PivotTable.RefreshData()` sur chaque tableau croisé dynamique individuellement. Depuis la v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API conscientes du cache décrites ci-dessus.
 L'approche par table `RefreshData()` pose problème dans les classeurs réels pour deux raisons :
@@ -487,7 +401,6 @@ int main() {
     sheet.GetCells().Get(u"C5").PutValue(7500);
     sheet.GetCells().Get(u"C9").PutValue(9500);
 
-    pivotTable1.RefreshData();
 
     pivotTable2.CalculateData();
 
@@ -506,10 +419,4 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 | Données sources modifiées pour un cache | `pivotTable.GetPivotCache().Refresh()` | Actualise TOUS les tableaux croisés dynamiques sur ce cache partagé. |
 | Seuls les paramètres de vue/mise en page ont changé | `pivotTable.CalculateData()` | Évite l'aller-retour source inutile. |
 | Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivotCache.GetPivotTables()` | À utiliser pour énumérer avant une actualisation en masse. |
-En pratique, préférez les API basées sur le cache par rapport à l'obsolète `RefreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations source redondantes et elles vous permettent de choisir la plus petite portée qui satisfait votre besoin d'actualisation.
-## Articles connexes
-- [Insertion d'une image dans une cellule](/cells/fr/cpp/inserting-an-image-into-a-cell/)
-- [Lecture et écriture de fichiers DBF](/cells/fr/cpp/dbf/)
-- [Fractionnement de fichiers Excel en plusieurs fichiers](/cells/fr/cpp/splitting-excel-files-into-multiple-files/)
-- [Sparklines dans Aspose.Cells for C++](/cells/fr/cpp/sparkline/)
-{{< app/cells/assistant language="cpp" >}}
+En pratique, préférez les API basées sur le cache par rapport à l'obsolète `RefreshData()` par table. Elles sont conscientes des caches partagés, elles évitent les récupérations source redondantes et elles vous permettent de choisir la plus petite portée qui satisfait votre besoin d'actualisation.{{< app/cells/assistant language="cpp" >}}

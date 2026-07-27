@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Row and column fields are the building blocks of a pivot table. A field placed in the row region appears vertically on the left of the pivot, while a field placed in the column region appears horizontally across the top. This article shows how to add base fields to those regions programmatically and how to control the subtotals that render between field groups by using the `PivotField.setSubtotals` method.
 
 ## **Adding a Field to the Row or Column Region**
 
@@ -20,8 +19,6 @@ The `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` meth
 - `COLUMN` — fields placed horizontally across the top
 - `DATA` — fields whose values are aggregated
 - `PAGE` — fields used as report filters
-
-After fields are added, you can access them through the `PivotTable.getRowFields()` and `PivotTable.getColumnFields()` properties. Each property returns a `PivotFieldCollection`. The field at index 0 of `RowFields` is the outermost row field, and subsequent indices represent fields nested inside it. The same indexing convention applies to `ColumnFields`.
 
 Field nesting order matters. Adding `Category` to the row region first and then `Item` produces a pivot whose outer grouping is `Category` and whose inner grouping is `Item`. Reversing the order reverses the hierarchy.
 
@@ -113,7 +110,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -163,7 +159,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -236,15 +231,12 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
 ```
 
 ## **Recap**
-
-The three scenarios above share the same dataset and pivot table structure. The only difference between them is the `setSubtotals` call applied to the outer `Category` row field. Remember the two-fields rule: a single field in a region has nothing to subtotal between, so always place at least two fields in the row or column region when you want `setSubtotals` to have a visible effect.
 
 ## **Related Articles**
 

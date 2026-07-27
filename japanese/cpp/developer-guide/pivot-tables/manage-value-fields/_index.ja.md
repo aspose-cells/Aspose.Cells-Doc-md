@@ -9,7 +9,7 @@ url: /ja/cpp/manage-value-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-値フィールドはすべてのピボットテーブルの中核をなす要素であり、ソースデータを集計する数値的な集計値です。Aspose.Cells for C++ では、`PivotTable.AddFieldToArea` を通じて基本フィールドをデータ領域に追加することで、ピボットテーブルのデータ領域を構築します。また、その領域に配置された各フィールドは、それぞれ独自の集計関数を持つことができます。2 つ以上のデータフィールドが存在する場合、Aspose.Cells は特別な集計フィールドである `PivotTable.ValuesField` を提供します。これを基本フィールドとして行軸や列軸に配置することができ、レイアウト内での値フィールドの表示方法をより細かく制御できます。
+
 ## データ領域へのフィールド追加
 データ (値) 領域に基本フィールドを追加することは、ソースデータの集計方法を形作る最初のステップです。Aspose.Cells は `PivotTable.AddFieldToArea(PivotFieldType, string)` を提供します。このオーバーロードは、定数 `PivotFieldType.Data` とソース列名を受け取ります。データ領域にフィールドを追加すると、API はそのフィールドを `PivotTable.DataFields` コレクションに追加された順序で公開します。既定では、数値型のソース列は `ConsolidationFunction.Sum` で集計され、非数値型の列は `Count` が既定値となります。
 ## 集計関数の変更
@@ -90,7 +90,6 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
 
-    pivotTable.RefreshData();
     pivotTable.CalculateData();
     workbook.Save(u"output_drag.xlsx");
 
@@ -124,7 +123,6 @@ int main() {
     pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
     intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
     countField->SetFunction(ConsolidationFunction_Count);
-    pivotTable->RefreshData();
     pivotTable->CalculateData();
     workbook->Save("output_function.xlsx");
 }
@@ -151,7 +149,6 @@ int main() {
     pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
     pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
     pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
-    pivotTable->RefreshData();
     pivotTable->CalculateData();
     workbook->Save("output_plot.xlsx");
 }

@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Поля строк и столбцов являются основой сводной таблицы. Поле, размещённое в области строк, отображается вертикально слева в сводной таблице, а поле, размещённое в области столбцов, отображается горизонтально сверху. В этой статье показано, как программно добавлять базовые поля в эти области, и как управлять промежуточными итогами, которые отображаются между группами полей, с помощью метода `PivotField.SetSubtotals`.
-
 ## **Добавление поля в область строк или столбцов**
 
 Метод `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

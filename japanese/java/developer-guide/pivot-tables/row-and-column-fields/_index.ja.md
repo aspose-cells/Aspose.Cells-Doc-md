@@ -10,8 +10,6 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-行フィールドと列フィールドは、ピボットテーブルの構成要素です。行領域に配置されたフィールドはピボットの左側に垂直に表示され、列領域に配置されたフィールドは上部に水平に表示されます。この記事では、これらの領域に基本フィールドをプログラムで追加する方法と、`PivotField.setSubtotals` メソッドを使用してフィールドグループ間にレンダリングされる小計を制御する方法について説明します。
-
 ## **行領域または列領域へのフィールドの追加**
 
 `PivotTable.addFieldToArea(int fieldType, String fieldName)` メソッドは、ソースデータから基本フィールドを 4 つのピボット領域のいずれかに移動します。`fieldType` 引数には、次の `PivotFieldType` 値のいずれかを指定します。
@@ -115,7 +113,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -167,7 +164,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 
 PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -242,7 +238,6 @@ PivotField categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(PivotFieldSubtotalType.SUM, true);
 categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");

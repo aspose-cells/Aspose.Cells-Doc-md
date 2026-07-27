@@ -9,6 +9,7 @@ url: /ru/nodejs-cpp/refresh-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells предоставляет многоуровневый API обновления, который позволяет перезагружать данные сводных таблиц на четырёх различных уровнях — от всей рабочей книги до одной сводной таблицы. Начиная с **Aspose.Cells for Node.js via C++ v26.7**, устаревший метод `PivotTable.RefreshData()` помечен как нерекомендуемый и должен быть заменён более эффективными API, учитывающими кэш, которые описаны в этой статье.
 {{% /alert %}}
@@ -312,75 +313,7 @@ workbook.save("output.xlsx");
 Рабочая книга часто содержит множество сводных таблиц, которые все построены поверх одного общего кэша. Чтобы перечислить их — например, перед выполнением пакетного обновления или для диагностики влияния общего кэша — используйте `PivotCache.GetPivotTables()`. Этот метод возвращает коллекцию всех `PivotTable`, зависящих от данного кэша.
 Это также самый прямой способ убедиться, что две сводные таблицы действительно используют один и тот же экземпляр `PivotCache`: вы можете сравнить ссылки на кэши или просто перебрать коллекцию, возвращаемую `GetPivotTables()`, и увидеть, какие сводные таблицы в ней присутствуют.
 В следующем примере создаются две сводные таблицы на одном исходном диапазоне, проверяется, что они используют один и тот же экземпляр кэша, а затем перечисляются сводные таблицы этого кэша.
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## Миграция с устаревшего `PivotTable.RefreshData()`
 До Aspose.Cells for Node.js via C++ v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` для каждой сводной таблицы отдельно. Начиная с версии 26.7 этот метод помечен как **нерекомендуемый** и должен быть заменён описанными выше API, учитывающими кэш.
 Есть две причины, по которым подход с вызовом `RefreshData()` для каждой таблицы по отдельности является проблематичным в реальных рабочих книгах:
@@ -464,10 +397,4 @@ workbook.save("output.xlsx");
 | Изменились исходные данные для одного кэша | `pivotTable.PivotCache.Refresh()` | Обновляет ВСЕ сводные таблицы на этом общем кэше. |
 | Изменились только параметры представления/макета | `pivotTable.CalculateData()` | Пропускает ненужное обращение к источнику. |
 | Получить список всех сводных таблиц на общем кэше | `pivotCache.GetPivotTables()` | Используйте для перечисления перед массовым обновлением. |
-На практике отдавайте предпочтение API на основе кэша, а не устаревшему `RefreshData()` для каждой таблицы отдельно. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать минимальную область, удовлетворяющую вашим требованиям к обновлению.
-## Связанные статьи
-- [Вставка изображения в ячейку](/cells/ru/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [Чтение и запись файлов DBF](/cells/ru/nodejs-cpp/dbf/)
-- [Разделение файлов Excel на несколько файлов](/cells/ru/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+На практике отдавайте предпочтение API на основе кэша, а не устаревшему `RefreshData()` для каждой таблицы отдельно. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать минимальную область, удовлетворяющую вашим требованиям к обновлению.{{< app/cells/assistant language="javascript" >}}

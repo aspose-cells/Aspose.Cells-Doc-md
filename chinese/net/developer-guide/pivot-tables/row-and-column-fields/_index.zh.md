@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-行字段和列字段是数据透视表的基本组成部分。放置在行区域的字段会垂直显示在数据透视表的左侧，而放置在列区域的字段会水平显示在顶部。本文介绍如何以编程方式将基本字段添加到这些区域，以及如何通过使用 `PivotField.SetSubtotals` 方法控制在字段组之间呈现的小计。
-
 ## **向行区域或列区域添加字段**
 
 `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` 方法将基本字段从源数据移动到四个数据透视表区域之一。`fieldType` 参数接受以下 `PivotFieldType` 值之一。
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

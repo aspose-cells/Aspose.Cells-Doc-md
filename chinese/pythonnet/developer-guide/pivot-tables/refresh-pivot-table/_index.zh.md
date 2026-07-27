@@ -9,6 +9,7 @@ url: /zh/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells 提供了一个分层刷新 API，允许您在四个不同的范围内重新加载透视数据——从整个工作簿到单个数据透视表。从 **Aspose.Cells for Python via .NET v26.7** 开始，旧方法 `PivotTable.refresh_data()` 被标记为过时，应替换为本文描述的更高效、感知缓存的 API。
 {{% /alert %}}
@@ -316,76 +317,7 @@ workbook.save("output.xlsx")
 一个工作簿通常包含许多都基于同一共享缓存的数据透视表。要枚举它们——例如，在执行批量刷新之前，或诊断共享缓存的影响——请使用 `PivotCache.get_pivot_tables()`。此方法返回依赖于给定缓存的每个 `PivotTable` 的集合。
 这也是确认两个数据透视表确实共享同一 `PivotCache` 实例的最直接方法：您可以比较缓存引用，或简单地遍历 `get_pivot_tables()` 返回的集合，观察其中出现的数据透视表。
 以下示例在同一源区域上创建两个数据透视表，验证它们共享同一缓存实例，然后枚举缓存的数据透视表。
-```python
-import aspose.cells as ac
 
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 ## 从过时的 `PivotTable.refresh_data()` 迁移
 在 Aspose.Cells for Python via .NET v26.7 之前，刷新数据透视表的标准方法是对每个数据透视表单独调用 `PivotTable.refresh_data()`。从 v26.7 开始，该方法被标记为**过时**，应替换为上述感知缓存的 API。
 在真实工作簿中，按表调用的 `refresh_data()` 方法存在两个问题：
@@ -471,7 +403,4 @@ workbook.save("output.xlsx")
 | 一个缓存的源数据已更改 | `pivot_table.pivot_cache.refresh()` | 刷新该共享缓存上的所有数据透视表。 |
 | 仅视图/布局设置已更改 | `pivot_table.calculate_data()` | 跳过不必要的源回溯。 |
 | 列出共享缓存上的所有数据透视表 | `pivot_cache.get_pivot_tables()` | 用于在批量刷新前枚举。 |
-在实践中，应优先使用基于缓存的 API，而不是过时的按表 `refresh_data()`。它们了解共享缓存，避免冗余的源获取，并允许您选择满足刷新要求的最小范围。
-## 相关文章
-- [Aspose.Cells for Python via .NET 中的迷你图](/cells/zh/python-net/sparkline/)
-{{< app/cells/assistant language="python" >}}
+在实践中，应优先使用基于缓存的 API，而不是过时的按表 `refresh_data()`。它们了解共享缓存，避免冗余的源获取，并允许您选择满足刷新要求的最小范围。{{< app/cells/assistant language="python" >}}

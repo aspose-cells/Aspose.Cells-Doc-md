@@ -9,6 +9,7 @@ url: /ja/python-net/refresh-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層的な更新 API を提供します。**Aspose.Cells for Python via .NET v26.7** 以降、従来の `PivotTable.refresh_data()` メソッドは非推奨となり、この記事で説明するより効率的でキャッシュを認識する API に置き換える必要があります。
 {{% /alert %}}
@@ -317,76 +318,7 @@ workbook.save("output.xlsx")
 ワークブックには、1 つの共有キャッシュ上に存在する多くのピボットテーブルが含まれていることがよくあります。これらを列挙するには（たとえば、一括更新を行う前や、共有キャッシュの影響を診断するために）、`PivotCache.get_pivot_tables()` を使用します。このメソッドは、指定されたキャッシュに依存するすべての `PivotTable` のコレクションを返します。
 これは、2 つのピボットテーブルが実際に同じ `PivotCache` インスタンスを共有していることを確認する最も直接的な方法でもあります。キャッシュ参照を比較するか、`get_pivot_tables()` が返すコレクションを単純に反復処理し、どのピボットテーブルがそこに含まれているかを観察することができます。
 次の例では、同じソース範囲上に 2 つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認し、キャッシュのピボットテーブルを列挙します。
-```python
-import aspose.cells as ac
 
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Sheet1"
-
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
-
-pivot1_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table1 = worksheet.pivot_tables[pivot1_index]
-pivot_table1.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table1.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table1.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-pivot2_index = worksheet.pivot_tables.add("A1:C9", "E15", "Pivot2")
-pivot_table2 = worksheet.pivot_tables[pivot2_index]
-pivot_table2.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table2.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table2.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-
-same_cache = pivot_table1.pivot_cache is pivot_table2.pivot_cache
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(same_cache))
-
-shared_pivot_tables = pivot_table1.pivot_cache.get_pivot_tables()
-print("Number of pivot tables sharing the cache: " + str(len(shared_pivot_tables)))
-
-for pt in shared_pivot_tables:
-    print("Pivot table name: " + pt.name)
-
-workbook.save("output.xlsx")
-```
 ## 非推奨の `PivotTable.refresh_data()` からの移行
 Aspose.Cells for Python via .NET v26.7 より前では、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refresh_data()` を呼び出すことでした。v26.7 以降、このメソッドは**非推奨**となり、上記で説明したキャッシュを認識する API に置き換える必要があります。
 実際のワークブックでテーブルごとの `refresh_data()` アプローチに問題がある理由は 2 つあります。
@@ -472,7 +404,4 @@ workbook.save("output.xlsx")
 | 1 つのキャッシュのソースデータが変更された | `pivot_table.pivot_cache.refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
 | 表示やレイアウトの設定のみが変更された | `pivot_table.calculate_data()` | 不要なソースへのラウンドトリップを回避します。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivot_cache.get_pivot_tables()` | 一括更新の前に列挙するために使用します。 |
-実際には、非推奨のテーブルごとの `refresh_data()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。
-## 関連記事
-- [Sparklines in Aspose.Cells for Python via .NET](/cells/ja/python-net/sparkline/)
-{{< app/cells/assistant language="python" >}}
+実際には、非推奨のテーブルごとの `refresh_data()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。{{< app/cells/assistant language="python" >}}

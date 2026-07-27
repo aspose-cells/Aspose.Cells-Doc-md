@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-行フィールドと列フィールドは、ピボットテーブルの構成要素です。行領域に配置されたフィールドはピボットの左側に縦方向に表示され、列領域に配置されたフィールドは上部に横方向に表示されます。この記事では、プログラムによってこれらの領域に基本フィールドを追加する方法と、`PivotField.set_subtotals` メソッドを使用してフィールドグループ間に表示される小計を制御する方法を説明します。
-
 ## **行領域または列領域へのフィールドの追加**
 
 `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` メソッドは、基本フィールドをソースデータから 4 つのピボット領域のいずれかに移動します。`field_type` 引数は、次の `PivotFieldType` 値のいずれかを受け入れます。
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -162,7 +159,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -235,7 +231,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

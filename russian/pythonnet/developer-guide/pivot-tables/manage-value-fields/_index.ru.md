@@ -9,7 +9,7 @@ url: /ru/python-net/pivot-table-manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-Поля значений являются ядром каждой сводной таблицы — это числовые агрегаты, которые обобщают исходные данные. В Aspose.Cells for Python via .NET область данных сводной таблицы заполняется путём добавления в неё базовых полей через `PivotTable.add_field_to_area`, и каждое поле, размещённое в этой области, может иметь собственную функцию итогов. Когда существуют два или более полей данных, Aspose.Cells предоставляет специальное агрегатное поле `PivotTable.values_field`, которое можно разместить на оси строк или столбцов как базовое поле, что даёт более точный контроль над тем, как поля значений отображаются в макете.
+
 ## Добавление поля в область данных
 Добавление базового поля в область данных (значений) — это первый шаг в формировании того, как сводная таблица агрегирует исходные данные. Aspose.Cells предоставляет метод `PivotTable.add_field_to_area(PivotFieldType, str)`, перегрузку, которая принимает константу `PivotFieldType.DATA` и имя исходного столбца. Как только поле добавлено в область данных, API предоставляет к нему доступ через коллекцию `PivotTable.data_fields` в порядке добавления полей. По умолчанию числовой исходный столбец агрегируется с помощью `ConsolidationFunction.SUM`, а для нечислового столбца по умолчанию используется `Count`.
 ## Изменение функции итогов
@@ -83,7 +83,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -128,7 +127,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 count_field = pivot_table.data_fields[1]
 count_field.function = ac.ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
@@ -174,7 +172,6 @@ pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 # Построить поля значений по оси столбцов.
 pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")

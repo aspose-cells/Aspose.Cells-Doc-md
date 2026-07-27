@@ -10,6 +10,7 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells ofrece una API de actualización por capas que permite recargar los datos de tablas dinámicas en cuatro alcances diferentes, desde todo el libro de trabajo hasta una sola tabla dinámica. A partir de **Aspose.Cells for Node.js via C++ v26.7**, el método heredado `PivotTable.RefreshData()` está marcado como obsoleto y debe reemplazarse por las API más eficientes y conscientes de la caché descritas en este artículo.
@@ -357,75 +358,6 @@ Esta es también la forma más directa de confirmar que dos tablas dinámicas re
 
 El siguiente ejemplo crea dos tablas dinámicas en el mismo rango de origen, verifica que comparten la misma instancia de caché y luego enumera las tablas dinámicas de la caché.
 
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## Migración desde el obsoleto `PivotTable.RefreshData()`
 
@@ -522,13 +454,4 @@ La siguiente tabla resume las API de actualización disponibles y cuándo elegir
 | Solo cambió la configuración de vista/diseño | `pivotTable.CalculateData()` | Omite el viaje innecesario al origen. |
 | Listar todas las tablas dinámicas en una caché compartida | `pivotCache.GetPivotTables()` | Use para enumerar antes de la actualización por lotes. |
 
-En la práctica, prefiera las API basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.
-
-## Artículos relacionados
-
-- [Insertar una imagen en una celda](/cells/es/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [Leer y escribir archivos DBF](/cells/es/nodejs-cpp/dbf/)
-- [Dividir archivos Excel en varios archivos](/cells/es/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Minigráficos en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/sparkline/)
-
-{{< app/cells/assistant language="javascript" >}}
+En la práctica, prefiera las API basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.{{< app/cells/assistant language="javascript" >}}

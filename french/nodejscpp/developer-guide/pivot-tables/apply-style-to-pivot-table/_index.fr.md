@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejs_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Aspose.Cells prend en charge l'application à la fois des anciens autoformats de tableau croisé dynamique (destinés aux fichiers `.xls`) et des styles modernes nommés ou personnalisés de tableau croisé dynamique (destinés aux fichiers `.xlsx`, `.xlsm` et `.xlsb`). L'API à appeler dépend du format de fichier dans lequel le classeur est enregistré, et non du format à partir duquel il a été chargé.

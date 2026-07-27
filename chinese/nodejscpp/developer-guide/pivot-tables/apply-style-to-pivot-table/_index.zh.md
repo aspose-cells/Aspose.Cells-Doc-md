@@ -10,7 +10,6 @@ ai_search_scope: cells_nodejs_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 {{% alert color="primary" %}}
 
 Aspose.Cells 支持应用旧式数据透视表自动格式（适用于 `.xls` 文件）以及现代命名或自定义数据透视表样式（适用于 `.xlsx`、`.xlsm` 和 `.xlsb` 文件）。您应调用的 API 取决于工作簿保存为的文件格式，而不是加载时的文件格式。

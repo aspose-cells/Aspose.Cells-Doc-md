@@ -9,7 +9,7 @@ url: /ja/python-java/manage-value-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-値フィールドはすべてのピボットテーブルの中心であり、ソースデータを集約する数値集計です。Aspose.Cells for Python via Java では、ピボットテーブルのデータ領域は `PivotTable.addFieldToArea` を通じて基本フィールドを追加することで構築され、その領域に配置された各フィールドは独自の集計関数を持つことができます。2 つ以上のデータフィールドが存在する場合、Aspose.Cells は特別な集計フィールド `PivotTable.ValuesField` を公開します。これは基本フィールドとして Row 軸または Column 軸にプロットでき、レイアウトにおける値フィールドの表示方法をより細かく制御できます。
+
 ## データ領域へのフィールドの追加
 基本フィールドをデータ（値）領域に追加することが、ピボットテーブルがソースデータを集計する方法を形作る最初のステップです。Aspose.Cells は `PivotTable.addFieldToArea(PivotFieldType, string)` を公開しています。これは定数 `PivotFieldType.DATA` とソース列名を受け取るオーバーロードです。フィールドがデータ領域に追加されると、API はそれを `PivotTable.DataFields` コレクションを通じて、フィールドが追加された順序で公開します。デフォルトでは、数値ソース列は `ConsolidationFunction.SUM` で集計され、非数値列のデフォルトは `COUNT` になります。
 ## 集計関数の変更
@@ -59,7 +59,6 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
@@ -100,7 +99,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
@@ -142,7 +140,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

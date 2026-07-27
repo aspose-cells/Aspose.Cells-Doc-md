@@ -10,6 +10,7 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
+
 {{% alert color="primary" %}}
 
 Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層的な更新 API を提供します。**Aspose.Cells for .NET v26.7** 以降、従来のメソッド `PivotTable.RefreshData()` は obsolete（廃止予定）となり、本記事で説明するより効率的でキャッシュ対応の API に置き換える必要があります。
@@ -372,80 +373,6 @@ workbook.Save("output.xlsx");
 
 次の例では、同じソース範囲上に 2 つのピボットテーブルを作成し、それらが同じキャッシュインスタンスを共有していることを確認してから、キャッシュのピボットテーブルを列挙しています。
 
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Pivot;
-
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-worksheet.Name = "Sheet1";
-
-worksheet.Cells["A1"].PutValue("Fruit");
-worksheet.Cells["B1"].PutValue("Year");
-worksheet.Cells["C1"].PutValue("Amount");
-
-worksheet.Cells["A2"].PutValue("Grape");
-worksheet.Cells["B2"].PutValue(2020);
-worksheet.Cells["C2"].PutValue(100);
-
-worksheet.Cells["A3"].PutValue("Blueberry");
-worksheet.Cells["B3"].PutValue(2020);
-worksheet.Cells["C3"].PutValue(200);
-
-worksheet.Cells["A4"].PutValue("Kiwi");
-worksheet.Cells["B4"].PutValue(2020);
-worksheet.Cells["C4"].PutValue(300);
-
-worksheet.Cells["A5"].PutValue("Cherry");
-worksheet.Cells["B5"].PutValue(2020);
-worksheet.Cells["C5"].PutValue(400);
-
-worksheet.Cells["A6"].PutValue("Grape");
-worksheet.Cells["B6"].PutValue(2021);
-worksheet.Cells["C6"].PutValue(500);
-
-worksheet.Cells["A7"].PutValue("Blueberry");
-worksheet.Cells["B7"].PutValue(2021);
-worksheet.Cells["C7"].PutValue(600);
-
-worksheet.Cells["A8"].PutValue("Kiwi");
-worksheet.Cells["B8"].PutValue(2021);
-worksheet.Cells["C8"].PutValue(700);
-
-worksheet.Cells["A9"].PutValue("Cherry");
-worksheet.Cells["B9"].PutValue(2021);
-worksheet.Cells["C9"].PutValue(800);
-
-worksheet.Cells["A10"].PutValue("Grape");
-worksheet.Cells["B10"].PutValue(2021);
-worksheet.Cells["C10"].PutValue(900);
-
-int pivot1Index = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable1 = worksheet.PivotTables[pivot1Index];
-pivotTable1.AddFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable1.AddFieldToArea(PivotFieldType.Column, "Year");
-pivotTable1.AddFieldToArea(PivotFieldType.Data, "Amount");
-
-int pivot2Index = worksheet.PivotTables.Add("A1:C9", "E15", "Pivot2");
-PivotTable pivotTable2 = worksheet.PivotTables[pivot2Index];
-pivotTable2.AddFieldToArea(PivotFieldType.Row, "Fruit");
-pivotTable2.AddFieldToArea(PivotFieldType.Column, "Year");
-pivotTable2.AddFieldToArea(PivotFieldType.Data, "Amount");
-
-bool sameCache = object.ReferenceEquals(pivotTable1.PivotCache, pivotTable2.PivotCache);
-Console.WriteLine("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-PivotTable[] sharedPivotTables = pivotTable1.PivotCache.GetPivotTables();
-Console.WriteLine("Number of pivot tables sharing the cache: " + sharedPivotTables.Length);
-
-foreach (PivotTable pt in sharedPivotTables)
-{
-    Console.WriteLine("Pivot table name: " + pt.Name);
-}
-
-workbook.Save("output.xlsx");
-```
 
 ## 廃止予定の `PivotTable.RefreshData()` からの移行
 
@@ -546,13 +473,4 @@ workbook.Save("output.xlsx");
 | 表示/レイアウト設定のみが変更された | `pivotTable.CalculateData()` | 不要なソースへのラウンドトリップをスキップします。 |
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
 
-実際には、廃止予定のテーブルごとの `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。
-
-## 関連記事
-
-- [セルに画像を挿入する](/cells/ja/net/inserting-an-image-into-a-cell/)
-- [DBF ファイルの読み取りと書き込み](/cells/ja/net/dbf/)
-- [Excel ファイルを複数のファイルに分割する](/cells/ja/net/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for .NET のスパークライン](/cells/ja/net/sparkline/)
-
-{{< app/cells/assistant language="csharp" >}}
+実際には、廃止予定のテーブルごとの `RefreshData()` よりも、キャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。{{< app/cells/assistant language="csharp" >}}

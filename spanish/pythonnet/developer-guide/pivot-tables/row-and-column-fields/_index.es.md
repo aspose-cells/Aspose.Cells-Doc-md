@@ -10,8 +10,6 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-Los campos de fila y columna son los componentes básicos de una tabla dinámica. Un campo colocado en la región de filas aparece verticalmente a la izquierda del pivote, mientras que un campo colocado en la región de columnas aparece horizontalmente en la parte superior. Este artículo muestra cómo añadir campos base a esas regiones mediante programación y cómo controlar los subtotales que se muestran entre los grupos de campos utilizando el método `PivotField.set_subtotals`.
-
 ## **Añadir un Campo a la Región de Fila o Columna**
 
 El método `PivotTable.add_field_to_area(PivotFieldType field_type, string field_name)` mueve un campo base desde los datos de origen a una de las cuatro regiones del pivote. El argumento `field_type` acepta uno de los siguientes valores de `PivotFieldType`.
@@ -115,7 +113,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")
@@ -188,7 +185,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.NONE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")
@@ -263,7 +259,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")

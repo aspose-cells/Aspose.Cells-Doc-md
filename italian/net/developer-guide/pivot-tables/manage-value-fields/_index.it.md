@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-I campi valore sono il cuore di ogni tabella pivot, le aggregazioni numeriche che riassumono i dati di origine. In Aspose.Cells for .NET, l'area dati di una tabella pivot viene popolata aggiungendovi campi base tramite `PivotTable.AddFieldToArea`, e ogni campo posizionato in quell'area può avere la propria funzione di riepilogo. Quando sono presenti due o più campi dati, Aspose.Cells espone uno speciale campo aggregato, `PivotTable.ValuesField`, che può essere posizionato sull'asse Riga o Colonna come campo base, offrendoti un controllo più preciso su come i campi valore appaiono nel layout.
-
 ## Aggiungere un Campo all'Area Dati
 
 Aggiungere un campo base all'area dati (valore) è il primo passo per definire come una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.AddFieldToArea(PivotFieldType, string)`, un overload che accetta la costante `PivotFieldType.Data` e il nome della colonna di origine. Una volta che un campo è stato aggiunto all'area dati, l'API lo espone attraverso la raccolta `PivotTable.DataFields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.Sum`, mentre una colonna non numerica utilizza `Count` come valore predefinito.
@@ -98,7 +96,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
@@ -160,7 +157,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
@@ -213,7 +209,6 @@ pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
 
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

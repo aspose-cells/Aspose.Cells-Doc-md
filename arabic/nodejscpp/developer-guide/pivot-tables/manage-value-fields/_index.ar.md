@@ -9,7 +9,7 @@ url: /ar/nodejs-cpp/pivot-table-manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-تُعد حقول القيم جوهر كل جدول محوري، وهي التجميعات الرقمية التي تلخص بيانات المصدر. في Aspose.Cells for Node.js via C++، يتم ملء منطقة البيانات في الجدول المحوري عن طريق إضافة الحقول الأساسية إليها من خلال `PivotTable.addFieldToArea`، ويمكن أن يكون لكل حقل يوضع في تلك المنطقة دالة تلخيص خاصة به. عند وجود حقلَي بيانات أو أكثر، يعرض Aspose.Cells حقلًا تجميعيًا خاصًا، `PivotTable.getValuesField`، يمكن رسمه على محور الصفوف أو الأعمدة كحقل أساسي، مما يمنحك تحكمًا أدق في كيفية ظهور حقول القيم في التخطيط.
+
 ## إضافة حقل إلى منطقة البيانات
 تُعد إضافة حقل أساسي إلى منطقة البيانات (القيم) هي الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يعرض Aspose.Cells الطريقة `PivotTable.addFieldToArea(PivotFieldType, string)`، وهي نسخة محمّلة تقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، تكشفه الواجهة البرمجية من خلال مجموعة `PivotTable.getDataFields()`، بالترتيب الذي تمت به إضافة الحقول. افتراضيًا، يتم تلخيص عمود رقمي في المصدر باستخدام `ConsolidationFunction.Sum`، بينما يكون العمود غير الرقمي افتراضيًا على `Count`.
 ## تغيير دالة التلخيص
@@ -79,7 +79,6 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -134,7 +133,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let countField = pivotTable.getDataFields().get(1);
 countField.setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
@@ -180,7 +178,6 @@ pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

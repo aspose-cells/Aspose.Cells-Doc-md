@@ -10,9 +10,6 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-تُعدّ حقول الصفوف والأعمدة اللبنات الأساسية للجدول المحوري. يظهر الحقل الموضوع في منطقة الصفوف عموديًا على يسار الجدول المحوري، بينما يظهر الحقل الموضوع في منطقة الأعمدة أفقيًا عبر الجزء العلوي. توضح هذه المقالة كيفية إضافة الحقول الأساسية إلى تلك المناطق برمجيًا وكيفية التحكم في الإجماليات الفرعية التي تظهر بين مجموعات الحقول باستخدام أسلوب `PivotField.setSubtotals`.
-
 ## **إضافة حقل إلى منطقة الصفوف أو الأعمدة**
 
 ينقل أسلوب `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` حقلًا أساسيًا من بيانات المصدر إلى إحدى مناطق الجدول المحوري الأربع. تقبل وسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
@@ -120,7 +117,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_automatic.xlsx")
@@ -172,7 +168,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_none.xlsx")
@@ -253,7 +248,6 @@ categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
 categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_custom.xlsx")

@@ -10,8 +10,6 @@ ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-حقول الصفوف والأعمدة هي اللبنات الأساسية للجدول المحوري. يظهر الحقل الموضوع في منطقة الصفوف عموديًا على يسار المحور، بينما يظهر الحقل الموضوع في منطقة الأعمدة أفقيًا عبر الأعلى. توضح هذه المقالة كيفية إضافة الحقول الأساسية إلى تلك المناطق برمجيًا وكيفية التحكم في الإجماليات الفرعية التي تظهر بين مجموعات الحقول باستخدام طريقة `PivotField.SetSubtotals`.
-
 ## **إضافة حقل إلى منطقة الصفوف أو الأعمدة**
 
 تنقل طريقة `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` حقلًا أساسيًا من البيانات المصدر إلى إحدى مناطق المحور الأربع. تقبل وسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
@@ -117,7 +115,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_automatic.xlsx");
@@ -171,7 +168,6 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 
 PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.None, true);
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_none.xlsx");
@@ -248,7 +244,6 @@ PivotField categoryField = pivotTable.RowFields[0];
 categoryField.SetSubtotals(PivotFieldSubtotalType.Sum, true);
 categoryField.SetSubtotals(PivotFieldSubtotalType.Average, true);
 
-pivotTable.RefreshData();
 pivotTable.CalculateData();
 
 workbook.Save("output_custom.xlsx");

@@ -9,61 +9,6 @@ url: /ru/nodejs-java/refresh-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-- "legacy method" -> "устаревший метод"
-- "cache-aware APIs" -> "API с поддержкой кэша"
-- "data chain" -> "цепочка данных"
-- "shared cache" -> "общий кэш"
-- "data source" -> "источник данных"
-- "obsolete" -> "устаревший"
-- "round-trip" -> "обращение к источнику"
-
-"`PivotCache.SourceType` (enum `PivotTableSourceType`) indicates where the cache data came from. As of v26.7, `PivotCache.Refresh()` supports only the **`Sheet`** and **`Consolidation`** source types — that is, data that lives in worksheet ranges. External sources (databases, external connections, etc.) are not yet refreshable through the cache API."
-
-Translation:
-"`PivotCache.SourceType` (перечисление `PivotTableSourceType`) указывает, откуда были получены данные кэша. Начиная с версии v26.7, `PivotCache.Refresh()` поддерживает только источники типов **`Sheet`** и **`Consolidation`** — то есть данные, расположенные в диапазонах рабочих листов. Внешние источники (базы данных, внешние подключения и т.д.) пока не могут быть обновлены через API кэша."
-
-
-For "Required Imports" - "Необходимые импорты" 
-
-For "JavaScript examples in this article require the Aspose.Cells for Node.js via Java module" - "Все примеры JavaScript в этой статье требуют модуль Aspose.Cells for Node.js via Java"
-
-For "The pivot types live in the Aspose.Cells.Pivot namespace" - "Типы сводных таблиц находятся в пространстве имён Aspose.Cells.Pivot"
-
-
-For "Refresh All Pivot Tables in the Workbook" -> "Обновление всех сводных таблиц в рабочей книге"
-
-For "When you need to ensure that every pivot cache and every pivot table in the workbook reflects the latest source data" - "Когда необходимо обеспечить, чтобы каждый кэш сводной таблицы и каждая сводная таблица в рабочей книге отражали самые последние исходные данные"
-
-For "the simplest and most comprehensive API is `Workbook.RefreshAll()`" - "самым простым и комплексным API является `Workbook.RefreshAll()`"
-
-For "A single call traverses the entire workbook — refreshing each `PivotCache` from its source and then recalculating every dependent `PivotTable`" - "Один вызов проходит по всей рабочей книге — обновляя каждый `PivotCache` из его источника и затем пересчитывая каждую зависимую `PivotTable`"
-
-For "This is the recommended approach for general, full-document refreshes where performance is not a concern." - "Это рекомендуемый подход для общих полных обновлений документа, когда производительность не является проблемой."
-
-
-"Prior to Aspose.Cells for Node.js via Java v26.7, the standard way to refresh a pivot table was to call `PivotTable.RefreshData()` on each pivot table individually."
-
-Translation:
-"До Aspose.Cells for Node.js via Java v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` для каждой сводной таблицы отдельно."
-
-(Notice: I fixed the doubled product name)
-
-- Goal -> Цель
-- Recommended API -> Рекомендуемый API
-- Notes -> Примечания
-
-1. Fix doubled product names everywhere
-2. Keep API names in English
-3. Translate appropriately
-4. Preserve HTML placeholders
-5. Preserve YAML structure
-
-
-One more thing - the related articles section has one URL with the doubled name. I need to fix that link text too:
-"[Sparklines in Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)"
-->
-"[Спарклайны в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)"
-
 
 
 {{% alert color="primary" %}}
@@ -431,75 +376,6 @@ workbook.save("output.xlsx");
 
 В следующем примере создаются две сводные таблицы на одном и том же исходном диапазоне, проверяется, что они совместно используют один и тот же экземпляр кэша, а затем перечисляются сводные таблицы этого кэша.
 
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
-
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 
 ## Миграция с устаревшего `PivotTable.RefreshData()`
 
@@ -595,12 +471,4 @@ workbook.save("output.xlsx");
 | Изменились только параметры представления/макета | `pivotTable.CalculateData()` | Пропускает ненужное обращение к источнику. |
 | Получить список всех сводных таблиц на общем кэше | `pivotCache.GetPivotTables()` | Используйте для перечисления перед массовым обновлением. |
 
-На практике отдавайте предпочтение API на основе кэша, а не устаревшему `RefreshData()` для каждой таблицы отдельно. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать наименьшую область действия, удовлетворяющую вашим требованиям к обновлению.
-
-## Связанные статьи
-
-- [Вставка изображения в ячейку](/cells/ru/nodejs-java/inserting-an-image-into-a-cell/)
-- [Чтение и запись файлов DBF](/cells/ru/nodejs-java/dbf/)
-- [Разделение файлов Excel на несколько файлов](/cells/ru/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Спарклайны в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+На практике отдавайте предпочтение API на основе кэша, а не устаревшему `RefreshData()` для каждой таблицы отдельно. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать наименьшую область действия, удовлетворяющую вашим требованиям к обновлению.{{< app/cells/assistant language="javascript" >}}

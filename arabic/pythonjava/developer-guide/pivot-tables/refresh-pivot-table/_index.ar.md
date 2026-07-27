@@ -9,198 +9,16 @@ url: /ar/python-java/refresh-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
-```
 
-Wait, I need to be careful with the colon rule. The description says: "Learn how to refresh pivot tables in Aspose.Cells for Python via Java using the v26.7+ pivot-refresh API. This article covers RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData, and GetPivotTables with practical code examples."
 
-There are two periods here, not colons. So no need to replace. But the rule says: "The description: value MUST NOT contain a colon (: or fullwidth ：). If the English source has a colon, replace it with a comma in your translation."
 
-There are no colons in the original description, so I just need to make sure my Arabic translation doesn't have colons.
 
-Now let me work through the body content carefully.
-
-The first alert:
-"Aspose.Cells provides a layered refresh API that lets you reload pivot data at four different scopes — from the entire workbook down to a single pivot table. Starting with Aspose.Cells for Python via Java v26.7, the legacy method PivotTable.refreshData() is marked obsolete and should be replaced with the more efficient, cache-aware APIs described in this article."
-
-The doubled name needs to be fixed to "Aspose.Cells for Python via Java v26.7".
-
-Translation: "توفر Aspose.Cells واجهة برمجة تطبيقات تحديث متطبقة تتيح لك إعادة تحميل بيانات الجدول المحوري ضمن أربعة نطاقات مختلفة — من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءًا من Aspose.Cells for Python via Java v26.7، تم وضع علامة على الطريقة القديمة PivotTable.refreshData() كطريقة قديمة ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والمبنية على ذاكرة التخزين المؤقت الموضحة في هذه المقالة."
-
-Let me continue with each section...
-
-This is going to be a very long translation. Let me make sure I follow all the rules carefully:
-
-1. ✅ Product names preserved
-2. ✅ No doubled product names
-3. ✅ API names preserved
-4. ✅ Code blocks preserved
-5. ✅ HTML comments preserved
-6. ✅ YAML structure preserved
-7. ✅ No dual-language paragraphs
-8. ✅ Arabic with technical terms in English
-
-Let me write the complete translation now.
-
-For technical Arabic terms:
-- workbook -> مصنف
-- worksheet -> ورقة عمل
-- cell(s) -> خلية (خلايا)
-- pivot table -> جدول محوري
-- pivot cache -> ذاكرة التخزين المؤقت المحورية (or just keep PivotCache in English)
-- refresh -> تحديث
-- refreshData -> keep in English
-- refreshAll -> keep in English
-- refreshPivotTables -> keep in English
-- calculateData -> keep in English
-- getPivotTables -> keep in English
-- field -> حقل
-- row -> صف
-- column -> عمود
-- data -> بيانات
-- source -> مصدر
-- range -> نطاق
-- view -> عرض
-- layout -> تخطيط
-
-Let me now write the full translation. I'll be careful to:
-- Replace "Aspose.Cells for Python via Java" with "Aspose.Cells for Python via Java"
-- Keep code block placeholders exactly as they are
-- Not include dual-language paragraphs
-- Use proper Arabic punctuation
-
-Here's the complete translation:
-
-```yaml
-```
-
-Wait, the description rule says "If the English source has a colon, replace it with a comma in your translation." The English doesn't have a colon in the description, but I should make sure my Arabic doesn't add one. Let me check my translation - no colons, good.
-
-Let me continue with the rest:
-
-```
 {{% alert color="primary" %}}
 
 توفر Aspose.Cells واجهة برمجة تطبيقات تحديث متطبقة تتيح لك إعادة تحميل بيانات الجدول المحوري ضمن أربعة نطاقات مختلفة — من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Python via Java v26.7**، تم وضع علامة على الطريقة القديمة `PivotTable.refreshData()` كطريقة قديمة ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والمدركة لذاكرة التخزين المؤقت الموضحة في هذه المقالة.
 
 {{% /alert %}}
-```
 
-I need to fix the doubled product name here: "Aspose.Cells for Python via Java v26.7" -> "Aspose.Cells for Python via Java v26.7"
-
-Let me continue the full translation. I'll be very careful about product names and structure.
-
-For section headings, I should translate them:
-- "Introduction" -> "مقدمة"
-- "Required Imports" -> "الواردات المطلوبة"
-- "Refresh All Pivot Tables in the Workbook" -> "تحديث جميع الجداول المحورية في المصنف"
-- etc.
-
-Let me now write the full document. I'll be thorough but careful.
-
-Actually, let me re-read the rules about heading translations once more:
-"Keep only the translated heading"
-
-So headings should be ONLY in Arabic, not both. Good.
-
-Let me draft the complete translation now.
-
-I need to handle the description carefully. The original description has two sentences separated by a period, with "API." being the end of the first sentence. There's no colon in the original description. Let me check again...
-
-"Learn how to refresh pivot tables in Aspose.Cells for Python via Java using the v26.7+ pivot-refresh API. This article covers RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData, and GetPivotTables with practical code examples."
-
-Right, no colons. So my translation should just be a natural Arabic translation.
-
-Let me now write the complete document.
-
-For "The four-layer data chain is:" - I should translate this but keep the list structure.
-
-For the "particularly important concept" paragraph, I should keep it as one paragraph in Arabic.
-
-Let me work through the whole document now.
-
-I notice in the original document there's an instance of "Aspose.Cells for Python via Java v26.7" in the Migrating section. I need to fix that.
-
-Let me carefully go through every instance:
-
-1. Title: "Aspose.Cells for Python via Java" - OK
-2. First alert: "Aspose.Cells for Python via Java v26.7" - DOUBLE - needs fix
-3. PivotCache source type alert: "Aspose.Cells" - OK (just one)
-4. "Because of this chain, there are two fundamental refresh paths in Aspose.Cells" - OK
-5. Migrating section: "Aspose.Cells for Python via Java v26.7" - DOUBLE - needs fix
-6. Related Articles: "Aspose.Cells for Python via Java" - DOUBLE - needs fix
-
-OK, I have 3 places to fix the doubling.
-
-Let me now write the complete translation. I'll work through it section by section.
-
-Actually, looking at this more carefully, I realize the "Aspose.Cells for Python via Java" is the correct product name format. So when the source says "Aspose.Cells for Python via Java", the correct translation should be "Aspose.Cells for Python via Java" (single product name).
-
-Let me now write the full translation in my final output. I'll be very thorough.
-
-One more thing - the {{% alert ... %}} shortcodes should be preserved exactly as-is, including their attributes. The Arabic content goes inside them.
-
-Let me also make sure I don't add any colons to my Arabic description.
-
-OK, let me write the final translation now.
-
-For the table at the end:
-| Goal | Recommended API | Notes |
-|------|-----------------|-------|
-| Refresh everything in the workbook | `Workbook.refreshAll()` |One call; covers all caches and tables. |
-
-I should translate the Goal and Notes columns, but keep API names in code-style backticks.
-
-Let me finalize the translation now.</think>
-
-
-{{% alert color="primary" %}}
-
-توفر Aspose.Cells واجهة برمجة تطبيقات تحديث متطبقة تتيح لك إعادة تحميل بيانات الجدول المحوري ضمن أربعة نطاقات مختلفة — من المصنف بأكمله وصولاً إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Python via Java v26.7**، تم وضع علامة **قديمة** على الطريقة التقليدية `PivotTable.refreshData()` ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والمدركة لذاكرة التخزين المؤقت الموضحة في هذه المقالة.
-
-{{% /alert %}}
-
-## **مقدمة**
-
-نادرًا ما يكون تحديث الجدول المحوري عملية واحدة. خلف الكواليس، تحتفظ Aspose.Cells بسلسلة بيانات متطبقة تربط بيانات المصدر الأصلية بالقيم المعروضة التي تراها في ورقة العمل. يُعد فهم هذه السلسلة هو المفتاح لاختيار واجهة برمجة تطبيقات التحديث المناسبة لأي موقف.
-
-سلسلة البيانات ذات الأربع طبقات هي:
-
-1. **مصدر البيانات** — نطاقات ورقة العمل الأصلية، أو استعلام قاعدة البيانات، أو نطاق التجميع حيث توجد القيم الخام.
-2. **PivotCache** — اللقطة الموجودة في الذاكرة لبيانات المصدر. كل جدول محوري مبني فوق `PivotCache`؛ حيث يتم جمع وتجميع جميع البيانات هنا.
-3. **PivotTable** — كائن العرض الذي يحدد حقول الصفوف والأعمدة والقيم والفلاتر. يقرأ `PivotTable` من `PivotCache` الخاص به **فقط**، وليس مباشرةً من مصدر البيانات.
-4. **Cells** — خلايا ورقة العمل `Cells` التي يعرض إليها `PivotTable` قيمه وأنماطه المحسوبة.
-
-من المفاهيم المهمة بشكل خاص مفهوم **ذاكرة التخزين المؤقت المشتركة**. عندما تشير جداول محورية متعددة في مصنف إلى نفس نطاق المصدر، فإنها تشترك في **مثيل واحد** من `PivotCache`. يمكن الإشارة إلى `PivotCache` واحد بواسطة جداول محورية متعددة، وتؤدي إعادة تحميل ذاكرة التخزين المؤقت هذه إلى تحديث كل `PivotTable` تابع لها في وقت واحد.
-
-{{% alert color="primary" %}}
-
-يشير `PivotCache.getSourceType()` (تعداد `PivotTableSourceType`) إلى مصدر بيانات ذاكرة التخزين المؤقت. اعتبارًا من الإصدار v26.7، تدعم `PivotCache.refresh()` أنواع مصادر **`SHEET`** و**`CONSOLIDATION`** فقط — أي البيانات الموجودة في نطاقات ورقة العمل. لا يمكن حتى الآن تحديث المصادر الخارجية (قواعد البيانات، الاتصالات الخارجية، إلخ) من خلال واجهة برمجة تطبيقات ذاكرة التخزين المؤقت.
-
-{{% /alert %}}
-
-نظرًا لهذه السلسلة، يوجد مساران أساسيان للتحديث في Aspose.Cells:
-
-- **`PivotCache.refresh()`** — يعيد تحميل المصدر إلى ذاكرة التخزين المؤقت **و** يعيد حساب جميع `PivotTable` التابعة في عملية واحدة.
-- **`PivotTable.calculateData()`** — يعيد حساب عرض `PivotTable` واحد من البيانات المخزنة مؤقتًا بالفعل، دون أي رحلة ذهاب وإياب إلى مصدر البيانات.
-
-تستخدم جميع السيناريوهات في هذه المقالة بيانات مصدر لخلايا ورقة العمل، لذا فإن نوع المصدر هو `SHEET` وتعمل عمليات التحديث كما هو موضح.
-
-## **الواردات المطلوبة**
-
-تعتمد جميع أمثلة Python في هذه المقالة على الواردات التالية لأن أنواع الجدول المحوري توجد في مساحة الاسم `aspose.cells.pivot`:
-
-- `import jpype`
-- `import aspose.cells as cells`
-
-تُستخدم وحدة `jpype` لتشغيل JVM، بينما تعرض `aspose.cells` أنواع المصنف/ورقة العمل/الخلية/الجدول المحوري المستخدمة في جميع أنحاء المقالة.
-
-## **تحديث جميع الجداول المحورية في المصنف**
-
-عندما تحتاج إلى ضمان أن تعكس كل ذاكرة تخزين مؤقت محورية وكل جدول محوري في المصنف أحدث بيانات المصدر، فإن أبسط واجهة برمجة تطبيقات وأكثرها شمولًا هي `Workbook.refreshAll()`. تتجاوز استدعاءة واحدة المصنف بأكمله — حيث تقوم بتحديث كل `PivotCache` من مصدره ثم تعيد حساب كل `PivotTable` تابع. هذه هي الطريقة الموصى بها لعمليات التحديث العامة والشاملة للمستند حيث لا تكون الأداء مصدر قلق.
-
-يبني المثال التالي مصنفًا بنطاق مصدر Fruit/Year/Amount، وينشئ جدولًا محوريًا واحدًا، ويُعدّل بعض قيم المصدر، ثم يستخدم `refreshAll()` لتحديث كل شيء في استدعاء واحد.
-
-```python
 import jpype
 import asposecells
 jpype.startJVM()
@@ -587,7 +405,6 @@ pivotTable2.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable2.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 sameCache = pivotTable1.getPivotCache() is pivotTable2.getPivotCache()
-print("Pivot1 and Pivot2 share the same PivotCache: " + str(sameCache))
 
 sharedPivotTables = pivotTable1.getPivotCache().getPivotTables()
 print("Number of pivot tables sharing the cache: " + str(len(sharedPivotTables)))

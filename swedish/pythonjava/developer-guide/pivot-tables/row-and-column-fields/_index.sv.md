@@ -11,7 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
-Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radregionen visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnregionen visas horisontellt överst. Den här artikeln visar hur man lägger till basfält i dessa regioner programmatiskt och hur man styr delsummorna som renderas mellan fältgrupper med hjälp av metoden `PivotField.setSubtotals`.
+
+
+
+
+
+
+
+
+
 
 ## **Lägga till ett fält i rad- eller kolumnregionen**
 
@@ -120,7 +128,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_automatic.xlsx")
@@ -171,7 +178,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_none.xlsx")
@@ -252,7 +258,6 @@ categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
 categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_custom.xlsx")
@@ -271,10 +276,6 @@ Looking at the original document carefully:
 
 The CODE_BLOCK comments are HTML comment placeholders with descriptions. The instruction says: "HTML Comment Placeholders (CRITICAL): The document contains `<!-- CODE_BLOCK:N:... -->` HTML comments. These are CODE BLOCK PLACEHOLDERS — you MUST preserve them EXACTLY as-is in your translation. Do NOT remove, modify, or translate them."
 
-
-
-Also, I need to make sure the assistant shortcode is preserved exactly: ``
-
 The title is: "Row and Column Fields in Aspose.Cells for Python via Java"
 This contains the product name "Aspose.Cells for Python via Java" which must be preserved exactly.
 
@@ -285,10 +286,6 @@ That's correct - I'm not translating it because it contains the product name whi
 "ONLY translate the VALUES of title, description, and keywords."
 
 But also: "The following product names must appear EXACTLY as-is throughout the document"
-
-These don't conflict. I should translate the parts that aren't product names. So "Row and Column Fields" can be translated.
-
-
 
 But the title contains the product name. If I translate "Row and Column Fields" to "Rad- och kolumnfält", then I'd have:
 "Rad- och kolumnfält in Aspose.Cells for Python via Java"
@@ -383,7 +380,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_automatic.xlsx")
@@ -427,7 +423,6 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 
 categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_none.xlsx")
@@ -501,7 +496,6 @@ categoryField = pivotTable.getRowFields().get(0)
 categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
 categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
 
-pivotTable.refreshData()
 pivotTable.calculateData()
 
 workbook.save("output_custom.xlsx")

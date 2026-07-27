@@ -9,6 +9,7 @@ url: /zh/nodejs-cpp/refresh-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
+
 {{% alert color="primary" %}}
 Aspose.Cells 提供了一个分层的刷新 API，允许您在四个不同的范围内重新加载透视数据——从整个工作簿到单个数据透视表。从 **Aspose.Cells for Node.js via C++ v26.7** 开始，旧版方法 `PivotTable.RefreshData()` 已标记为过时，应替换为本文介绍的更高效、支持缓存的 API。
 {{% /alert %}}
@@ -310,75 +311,7 @@ workbook.save("output.xlsx");
 工作簿中常常包含许多数据透视表，它们都构建在一个共享缓存之上。若要枚举它们——例如，在执行批量刷新之前，或诊断共享缓存的影响——可以使用 `PivotCache.GetPivotTables()`。此方法返回依赖于该缓存的所有 `PivotTable` 的集合。
 这也是确认两个数据透视表确实共享同一个 `PivotCache` 实例的最直接方式：您可以比较缓存引用，或简单地遍历 `GetPivotTables()` 返回的集合，观察其中包含哪些数据透视表。
 以下示例在同一源区域上创建两个数据透视表，验证它们共享同一个缓存实例，然后枚举该缓存的数据透视表。
-```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
-worksheet.setName("Sheet1");
 
-worksheet.getCells().get("A1").putValue("Fruit");
-worksheet.getCells().get("B1").putValue("Year");
-worksheet.getCells().get("C1").putValue("Amount");
-
-worksheet.getCells().get("A2").putValue("Grape");
-worksheet.getCells().get("B2").putValue(2020);
-worksheet.getCells().get("C2").putValue(100);
-
-worksheet.getCells().get("A3").putValue("Blueberry");
-worksheet.getCells().get("B3").putValue(2020);
-worksheet.getCells().get("C3").putValue(200);
-
-worksheet.getCells().get("A4").putValue("Kiwi");
-worksheet.getCells().get("B4").putValue(2020);
-worksheet.getCells().get("C4").putValue(300);
-
-worksheet.getCells().get("A5").putValue("Cherry");
-worksheet.getCells().get("B5").putValue(2020);
-worksheet.getCells().get("C5").putValue(400);
-
-worksheet.getCells().get("A6").putValue("Grape");
-worksheet.getCells().get("B6").putValue(2021);
-worksheet.getCells().get("C6").putValue(500);
-
-worksheet.getCells().get("A7").putValue("Blueberry");
-worksheet.getCells().get("B7").putValue(2021);
-worksheet.getCells().get("C7").putValue(600);
-
-worksheet.getCells().get("A8").putValue("Kiwi");
-worksheet.getCells().get("B8").putValue(2021);
-worksheet.getCells().get("C8").putValue(700);
-
-worksheet.getCells().get("A9").putValue("Cherry");
-worksheet.getCells().get("B9").putValue(2021);
-worksheet.getCells().get("C9").putValue(800);
-
-worksheet.getCells().get("A10").putValue("Grape");
-worksheet.getCells().get("B10").putValue(2021);
-worksheet.getCells().get("C10").putValue(900);
-
-let pivot1Index = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable1 = worksheet.getPivotTables().get(pivot1Index);
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable1.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let pivot2Index = worksheet.getPivotTables().add("A1:C9", "E15", "Pivot2");
-let pivotTable2 = worksheet.getPivotTables().get(pivot2Index);
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable2.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
-let sameCache = pivotTable1.getPivotCache() === pivotTable2.getPivotCache();
-console.log("Pivot1 and Pivot2 share the same PivotCache: " + sameCache);
-
-let sharedPivotTables = pivotTable1.getPivotCache().getPivotTables();
-console.log("Number of pivot tables sharing the cache: " + sharedPivotTables.length);
-
-for (let pt of sharedPivotTables) {
-    console.log("Pivot table name: " + pt.getName());
-}
-
-workbook.save("output.xlsx");
-```
 ## 从过时的 `PivotTable.RefreshData()` 迁移
 在 Aspose.Cells for Node.js via C++ v26.7 之前，刷新数据透视表的标准方式是对每个数据透视表分别调用 `PivotTable.RefreshData()`。从 v26.7 起，该方法被标记为**过时**，应替换为上文介绍的缓存感知型 API。
 在真实业务工作簿中，对每个表分别调用 `RefreshData()` 的方式存在两个问题：
@@ -461,10 +394,4 @@ workbook.save("output.xlsx");
 | 一个缓存的源数据已更改 | `pivotTable.PivotCache.Refresh()` | 刷新该共享缓存上的**所有**数据透视表。 |
 | 仅视图/布局设置发生更改 | `pivotTable.CalculateData()` | 跳过不必要的源回溯。 |
 | 列出共享缓存上的所有数据透视表 | `pivotCache.GetPivotTables()` | 用于在批量刷新之前枚举。 |
-在实际使用中，应优先选择基于缓存的 API，而非过时的逐表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源获取，并允许您选择满足刷新需求的最小作用范围。
-## 相关文章
-- [向单元格中插入图片](/cells/zh/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [读写 DBF 文件](/cells/zh/nodejs-cpp/dbf/)
-- [将 Excel 文件拆分为多个文件](/cells/zh/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Aspose.Cells for Node.js via C++ 中的迷你图（Sparkline）](/cells/zh/nodejs-cpp/sparkline/)
-{{< app/cells/assistant language="javascript" >}}
+在实际使用中，应优先选择基于缓存的 API，而非过时的逐表 `RefreshData()`。它们能够感知共享缓存，可避免冗余的源获取，并允许您选择满足刷新需求的最小作用范围。{{< app/cells/assistant language="javascript" >}}
