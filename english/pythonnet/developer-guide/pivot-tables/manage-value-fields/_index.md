@@ -1,11 +1,11 @@
 ---
-title: Manage Pivot Table Value Fields in Aspose.Cells for .NET
+title: Manage Pivot Table Value Fields in Aspose.Cells for Python via .NET
 linktitle: Value Fields
 description: Learn how to add base fields to the data region of a pivot table, change the summary function with PivotField.function, and plot the value field onto the Row or Column axis in Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, pivot table, value field, PivotField, PivotField.function, data field, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /python-net/pivot-table-manage-value-fields/
+url: /python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -145,4 +145,4 @@ pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

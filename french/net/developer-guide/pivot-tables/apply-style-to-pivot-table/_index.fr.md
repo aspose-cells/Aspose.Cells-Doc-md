@@ -228,7 +228,6 @@ L'exemple suivant définit un style personnalisé de tableau croisé dynamique a
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

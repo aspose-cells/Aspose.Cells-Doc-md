@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zum Datenbereich einer PivotTable
 keywords: Aspose.Cells, .NET, PivotTable, Wertfeld, PivotField, PivotField.Function, Datenfeld, PivotTable.ValuesField, Summe, Mittelwert
 type: docs
 weight: 230
-url: /de/net/pivot-table-manage-value-fields/
+url: /de/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

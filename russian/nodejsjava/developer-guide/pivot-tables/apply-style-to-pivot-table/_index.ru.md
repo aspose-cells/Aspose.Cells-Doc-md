@@ -399,9 +399,4 @@ workbook.save("output.xlsx");
 | Любой формат (единообразное переопределение) | `PivotTable.formatAll(Style)` | Быстрый метод, который переопределяет любые другие настройки стилей по всей сводной таблице. |
 
 В случае сомнений сохраняйте в формате `.xlsx` и используйте `pivotTableStyleType` для встроенных тем или `pivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -5,7 +5,7 @@ description: تعرّف على كيفية إضافة حقول أساسية إل�
 keywords: Aspose.Cells, Python via .NET, pivot table, row field, column field, PivotField, set_subtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /ar/python-net/pivot-table-add-row-column-fields/
+url: /ar/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -241,11 +241,4 @@ workbook.save("output_custom.xlsx")
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وهيكل الجدول المحوري. الفرق الوحيد بينها هو استدعاء `set_subtotals` المطبق على حقل الصف الخارجي `Category`. تذكر قاعدة الحقلين: الحقل الواحد في المنطقة لا يوجد لديه شيء للتجميع الفرعي بينه، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لـ `set_subtotals` تأثير مرئي.
-
-## **مقالات ذات صلة**
-
-- [حقول الصفحات في الجداول المحورية](/cells/ar/python-net/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for Python via .NET](/cells/ar/python-net/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -228,7 +228,6 @@ L'esempio seguente definisce uno stile pivot personalizzato con un bordo nero so
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

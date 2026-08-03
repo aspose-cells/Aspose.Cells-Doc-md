@@ -2,7 +2,9 @@
 title: Create Pivot Table
 type: docs
 weight: 160
-url: /cpp/create-pivot-table/
+url: /cpp/pivot-tables/
+description: Create and format Pivot Table with Aspose.Cells for Python via .NET.
+keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

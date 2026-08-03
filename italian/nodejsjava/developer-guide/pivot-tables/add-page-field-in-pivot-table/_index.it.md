@@ -5,7 +5,7 @@ description: Scopri come aggiungere e configurare i campi filtro nelle tabelle p
 keywords: Aspose.Cells, Node.js via Java, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/nodejs-java/add-filter-field-in-pivot-table/
+url: /it/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità, in modo
 Ricordare sempre il vincolo di visibilità quando si configura il filtro a selezione multipla. Se ogni `PivotItem` in un campo filtro a selezione multipla è nascosto, Excel si blocca all'apertura oppure visualizza una tabella pivot vuota. Costruire la lista di elementi consentiti basandosi sui dati di origine in modo che almeno un elemento rimanga visibile, e le cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

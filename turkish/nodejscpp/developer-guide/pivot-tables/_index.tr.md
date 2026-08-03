@@ -3,8 +3,11 @@ title: Pivot Tablo Ekle
 linktitle: Pivot Tabloları
 type: docs
 weight: 160
-url: /tr/nodejs-cpp/create-pivot-table/
+url: /tr/nodejs-cpp/pivot-tables/
 description: Excel elek tablo dosyalarının pivot tablolarını oluşturun ve biçimlendirin.
+keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Tablosu Oluştur**

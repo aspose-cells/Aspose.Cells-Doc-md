@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
+title: Aspose.Cells for Java'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for Java'da PivotField.setSubtotals kullanarak bir pivot tablosunun satır ve sütun bölgelerine temel alanlar eklemeyi ve pivot alanı alt toplamlarını kontrol etmeyi öğrenin.
 keywords: Aspose.Cells, Java, pivot tablosu, satır alanı, sütun alanı, PivotField, setSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs
 weight: 220
-url: /tr/java/pivot-table-add-row-column-fields/
+url: /tr/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek alanın aralarında alt toplam yapılacak bir şey yoktur; bu nedenle `setSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde, satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Pivot Tablolardaki Sayfa Alanları](/cells/tr/java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Java'da Pivot Tabloları Yenileme](/cells/tr/java/refresh-pivot-table/)
-- [Pivot Tablolara Stil Uygulama](/cells/tr/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

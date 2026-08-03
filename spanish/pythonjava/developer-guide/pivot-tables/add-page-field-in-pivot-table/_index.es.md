@@ -5,7 +5,7 @@ description: Aprenda a añadir y configurar campos de filtro en tablas dinámica
 keywords: Aspose.Cells, Python, Java, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /es/python-java/add-filter-field-in-pivot-table/
+url: /es/python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

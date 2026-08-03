@@ -561,4 +561,4 @@ workbook.save("output.xlsx");
 
 在实践中，应优先选择基于缓存的 API，而不是过时的按表调用 `RefreshData()`。它们能够感知共享缓存，避免冗余的源获取，并允许您选择满足刷新需求的最小范围。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

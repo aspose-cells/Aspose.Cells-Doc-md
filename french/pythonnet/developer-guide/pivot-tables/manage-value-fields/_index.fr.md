@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base à la zone de données d'un 
 keywords: Aspose.Cells, Python via .NET, tableau croisé dynamique, champ de valeur, PivotField, PivotField.function, champ de données, PivotTable.values_field, Somme, Moyenne
 type: docs
 weight: 230
-url: /fr/python-net/pivot-table-manage-value-fields/
+url: /fr/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 Ensemble, ces trois scénarios couvrent chaque aspect de la manipulation des champs de valeur dans Aspose.Cells for Python via .NET, d'un seul champ de données avec le `Sum` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

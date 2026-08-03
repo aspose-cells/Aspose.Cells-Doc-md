@@ -3,7 +3,9 @@ title: ピボットテーブルを挿入する
 linktitle: ピボットテーブル
 type: docs
 weight: 160
-url: /ja/python-net/create-pivot-table/
+url: /ja/python-net/pivot-tables/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Aspose.Cells for Python via .NETでピボットテーブルを作成し、書式を設定する。
 keywords: ピボットテーブルを作成し、ピボットテーブルを挿入し、ピボットテーブルを書式設定します。
 ---

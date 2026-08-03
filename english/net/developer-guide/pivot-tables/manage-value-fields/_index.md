@@ -5,7 +5,7 @@ description: Learn how to add base fields to the data region of a pivot table, c
 keywords: Aspose.Cells, .NET, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /net/pivot-table-manage-value-fields/
+url: /net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

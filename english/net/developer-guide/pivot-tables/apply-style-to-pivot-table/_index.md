@@ -147,7 +147,6 @@ The following example defines a custom pivot style with a thin black border on `
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

@@ -1,11 +1,11 @@
 ---
-title: Add Pivot Table Row and Column Fields in Aspose.Cells for .NET
+title: Add Pivot Table Row and Column Fields in Aspose.Cells for Java
 linktitle: Row and Column Fields
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Java.
 keywords: Aspose.Cells, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /java/pivot-table-add-row-column-fields/
+url: /java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -250,4 +250,4 @@ workbook.save("output_custom.xlsx");
 - [Refreshing Pivot Tables in Aspose.Cells for Java](/cells/java/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/java/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

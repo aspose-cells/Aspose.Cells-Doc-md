@@ -5,7 +5,7 @@ description: Узнайте, как добавлять базовые поля �
 keywords: Aspose.Cells, Python via .NET, сводная таблица, поле значений, PivotField, PivotField.function, поле данных, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /ru/python-net/pivot-table-manage-value-fields/
+url: /ru/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 Все эти три сценария совокупно охватывают все аспекты работы с полями значений в Aspose.Cells for Python via .NET — от единственного поля данных с функцией `Sum` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением на оси строк или столбцов.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

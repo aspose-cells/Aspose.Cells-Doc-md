@@ -5,7 +5,7 @@ description: Aprenda cómo agregar campos base a las regiones de fila y columna 
 keywords: Aspose.Cells, Java, tabla dinámica, campo de fila, campo de columna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/java/pivot-table-add-row-column-fields/
+url: /es/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Resumen**
 
 Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `setSubtotals` aplicada al campo de fila `Category` externo. Recuerde la regla de los dos campos: un único campo en una región no tiene nada entre lo que calcular subtotales, así que coloque siempre al menos dos campos en la región de fila o columna cuando desee que `setSubtotals` tenga un efecto visible.
-
-## **Artículos relacionados**
-
-- [Campos de página en tablas dinámicas](/cells/es/java/add-page-field-in-pivot-table/)
-- [Actualización de tablas dinámicas en Aspose.Cells for Java](/cells/es/java/refresh-pivot-table/)
-- [Aplicar estilos a tablas dinámicas](/cells/es/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

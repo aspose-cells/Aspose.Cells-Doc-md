@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+title: Aspose.Cells for Python via .NET'te PivotTable'lara stil uygulama
 linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for Python via .NET'te yerleşik ve özel stillerin pivot tablolara nasıl uygulanacağını öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu dahil.
 keywords: Aspose.Cells Python via .NET pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
@@ -420,4 +420,4 @@ Stil API'si seçimi, kaydettiğiniz dosya formatına bağlıdır. Hızlı bir ba
 
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `pivot_table_style_type`, özel temalar için `pivot_table_style_name` kullanın.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

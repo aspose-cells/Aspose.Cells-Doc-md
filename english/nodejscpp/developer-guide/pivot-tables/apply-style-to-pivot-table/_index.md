@@ -1,12 +1,12 @@
 ---
-title: Apply Styles to Pivot Tables in Aspose.Cells for .NET
+title: Apply Styles to Pivot Tables in Aspose.Cells for Node.js via C++
 linktitle: Apply Pivot Table Styles
 description: Learn how to apply built-in and custom styles to pivot tables using Aspose.Cells for Node.js via C++, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the FormatAll shortcut.
 keywords: Aspose.Cells Node.js via C++ pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
 url: /nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -327,4 +327,4 @@ The choice of style API depends on the file format you are saving to. Use the ta
 
 When in doubt, save as `.xlsx` and use `PivotTableStyleType` for built-in themes, or `PivotTableStyleName` for custom themes.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

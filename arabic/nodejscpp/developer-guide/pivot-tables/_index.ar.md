@@ -3,8 +3,11 @@ title: إدراج جدول محوري
 linktitle: جداول الدوران
 type: docs
 weight: 160
-url: /ar/nodejs-cpp/create-pivot-table/
+url: /ar/nodejs-cpp/pivot-tables/
 description: إنشاء وتنسيق جداول الدوران في ملفات جداول البيانات في Excel.
+keywords: إنشاء جدول دوران، إدراج جدول دوران، تنسيق جدول دوران.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **إنشاء جدول محوري**

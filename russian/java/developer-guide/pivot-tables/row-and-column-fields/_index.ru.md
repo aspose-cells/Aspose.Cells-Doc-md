@@ -5,7 +5,7 @@ description: Узнайте, как добавлять базовые поля �
 keywords: Aspose.Cells, Java, сводная таблица, поле строки, поле столбца, PivotField, setSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/java/pivot-table-add-row-column-fields/
+url: /ru/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Краткое резюме**
 
 Три приведённых выше сценария используют один и тот же набор данных и одинаковую структуру сводной таблицы. Единственное различие между ними — это вызов `setSubtotals`, применяемый к внешнему полю строки `Category`. Помните о правиле двух полей: у одного поля в области нечего суммировать между группами, поэтому всегда размещайте как минимум два поля в области строк или столбцов, если хотите, чтобы `setSubtotals` оказывал видимый эффект.
-
-## **Связанные статьи**
-
-- [Поля страниц в сводных таблицах](/cells/ru/java/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for Java](/cells/ru/java/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

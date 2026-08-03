@@ -5,7 +5,7 @@ description: 了解如何在 Aspose.Cells for .NET 中将基本字段添加到�
 keywords: Aspose.Cells, .NET, 数据透视表, 行字段, 列字段, PivotField, SetSubtotals, PivotFieldSubtotalType, 小计, C#, Excel 数据透视表
 type: docs
 weight: 220
-url: /zh/net/pivot-table-add-row-column-fields/
+url: /zh/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **小结**
 
 上述三个场景使用相同的数据集和数据透视表结构。它们之间唯一的区别是对最外层 `Category` 行字段应用的 `SetSubtotals` 调用。请记住两字段规则：区域中单个字段之间没有内容可进行小计，因此当您希望 `SetSubtotals` 产生可见效果时，始终在行或列区域中放置至少两个字段。
-
-## **相关文章**
-
-- [数据透视表中的页面字段](/cells/zh/net/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for .NET 中刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
-- [向数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

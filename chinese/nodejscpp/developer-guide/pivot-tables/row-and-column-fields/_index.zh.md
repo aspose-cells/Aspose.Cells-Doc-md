@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for Node.js via C++ 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /zh/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /zh/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -238,11 +238,4 @@ workbook.save("output_custom.xlsx");
 ## **总结**
 
 上述三个场景共享相同的数据集和透视表结构。它们之间唯一的区别是应用于外部 `Category` 行字段的 `SetSubtotals` 调用。请记住两个字段的规则：区域中只有一个字段时没有内容可供小计，因此当您希望 `SetSubtotals` 产生可见效果时，请始终在行或列区域中放置至少两个字段。
-
-## **相关文章**
-
-- [透视表中的页面字段](/cells/zh/nodejs-cpp/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Node.js via C++ 中刷新透视表](/cells/zh/nodejs-cpp/refresh-pivot-table/)
-- [对透视表应用样式](/cells/zh/nodejs-cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

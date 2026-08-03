@@ -1,11 +1,11 @@
 ---
-title: Manage Pivot Table Value Fields in Aspose.Cells for .NET
+title: Manage Pivot Table Value Fields in Aspose.Cells for Python via Java
 linktitle: Value Fields
 description: Learn how to add base fields to the data region of a pivot table, change the summary function with PivotField.Function, and plot the value field onto the Row or Column axis in Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /python-java/pivot-table-manage-value-fields/
+url: /python-java/manage-value-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

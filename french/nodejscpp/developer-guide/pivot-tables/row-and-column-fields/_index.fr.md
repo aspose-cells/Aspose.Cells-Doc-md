@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /fr/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /fr/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -238,11 +238,4 @@ workbook.save("output_custom.xlsx");
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même ensemble de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel `SetSubtotals` appliqué au champ de ligne `Category` externe. Rappelez-vous la règle des deux champs : un seul champ dans une région n'a rien à sous-totaliser entre les valeurs, donc placez toujours au moins deux champs dans la région de ligne ou de colonne lorsque vous souhaitez que `SetSubtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Node.js via C++](/cells/fr/nodejs-cpp/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/nodejs-cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

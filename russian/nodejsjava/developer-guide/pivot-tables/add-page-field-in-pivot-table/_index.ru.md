@@ -5,7 +5,7 @@ description: Узнайте, как добавлять и настраивать
 keywords: Aspose.Cells, Node.js via Java, сводная таблица, поле фильтра, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, фильтр
 type: docs
 weight: 250
-url: /ru/nodejs-java/add-filter-field-in-pivot-table/
+url: /ru/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ workbook.save("output.xlsx");
 Всегда помните об ограничении видимости при настройке фильтрации с множественным выбором. Если каждый `PivotItem` в поле фильтра с множественным выбором скрыт, Excel аварийно завершает работу при открытии или отображает пустую сводную таблицу. Создавайте свой белый список на основе исходных данных так, чтобы как минимум один элемент оставался видимым, и ваши сохранённые рабочие книги будут надёжно открываться на любом компьютере.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

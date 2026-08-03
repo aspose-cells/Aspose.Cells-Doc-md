@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Aspose.Cells for Node.js via Java Filterf
 keywords: Aspose.Cells, Node.js via Java, Pivot-Tabelle, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
 type: docs
 weight: 250
-url: /de/nodejs-java/add-filter-field-in-pivot-table/
+url: /de/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ Die folgende Tabelle fasst zusammen, wann Sie welche API und welchen Modus verwe
 Denken Sie immer an die Sichtbarkeitsbeschränkung, wenn Sie die Mehrfachauswahl-Filterung konfigurieren. Wenn jedes `PivotItem` in einem Mehrfachauswahl-Filterfeld ausgeblendet ist, stürzt Excel beim Öffnen ab oder rendert eine leere Pivot-Tabelle. Erstellen Sie Ihre Whitelist anhand Ihrer Quelldaten, sodass mindestens ein Element sichtbar bleibt, und Ihre gespeicherten Arbeitsmappen werden auf jedem Computer zuverlässig geöffnet.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

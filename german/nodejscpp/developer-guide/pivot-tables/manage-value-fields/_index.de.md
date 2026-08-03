@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zum Datenbereich einer PivotTable
 keywords: Aspose.Cells, Node.js via C++, PivotTable, Wertfeld, PivotField, PivotField.Function, Datenfeld, PivotTable.ValuesField, Summe, Mittelwert
 type: docs
 weight: 230
-url: /de/nodejs-cpp/pivot-table-manage-value-fields/
+url: /de/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -183,4 +183,4 @@ workbook.save("output_plot.xlsx");
 ```
 Zusammen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Node.js via C++ ab, von einem einzelnen Datenfeld mit dem Standardwert `Sum` bis hin zu einer Multi-Measure-PivotTable, bei der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

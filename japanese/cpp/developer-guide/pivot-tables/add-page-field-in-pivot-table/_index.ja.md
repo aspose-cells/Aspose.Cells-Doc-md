@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルにフィルターフィールドを追加する
+title: Aspose.Cells for C++ でピボットテーブルにフィルターフィールドを追加する
 linktitle: フィルターフィールドを追加
 description: Aspose.Cells for C++ を使用して、ピボットテーブル内のフィルターフィールドの追加と設定（フィルターフィールドの追加、単一選択フィルタリング、複数選択フィルタリングを含む）について学びます。
 keywords: Aspose.Cells, C++, ピボットテーブル, フィルターフィールド, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, フィルター
 type: docs
 weight: 250
-url: /ja/cpp/add-filter-field-in-pivot-table/
+url: /ja/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

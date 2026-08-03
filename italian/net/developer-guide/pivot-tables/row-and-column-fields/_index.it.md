@@ -5,7 +5,7 @@ description: Impara come aggiungere campi di base alle aree righe e colonne di u
 keywords: Aspose.Cells, .NET, tabella pivot, campo riga, campo colonna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/net/pivot-table-add-row-column-fields/
+url: /it/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di tabella pivot. L'unica differenza tra loro è la chiamata a `SetSubtotals` applicata al campo riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in un'area non ha nulla tra cui calcolare un subtotale, quindi posiziona sempre almeno due campi nell'area righe o colonne quando desideri che `SetSubtotals` abbia un effetto visibile.
-
-## **Articoli Correlati**
-
-- [Campi Pagina nelle Tabelle Pivot](/cells/it/net/add-page-field-in-pivot-table/)
-- [Aggiornamento delle Tabelle Pivot in Aspose.Cells for .NET](/cells/it/net/refresh-pivot-table/)
-- [Applicazione degli Stili alle Tabelle Pivot](/cells/it/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

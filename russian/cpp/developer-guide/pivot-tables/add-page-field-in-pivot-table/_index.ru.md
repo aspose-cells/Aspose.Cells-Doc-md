@@ -5,7 +5,7 @@ description: Узнайте, как добавлять и настраивать
 keywords: Aspose.Cells, C++, сводная таблица, поле фильтра, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, фильтр
 type: docs
 weight: 250
-url: /ru/cpp/add-filter-field-in-pivot-table/
+url: /ru/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

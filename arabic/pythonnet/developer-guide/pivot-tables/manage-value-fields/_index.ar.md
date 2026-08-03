@@ -5,7 +5,7 @@ description: تعلّم كيفية إضافة الحقول الأساسية إل
 keywords: Aspose.Cells, Python via .NET, جدول محوري, حقل قيمة, PivotField, PivotField.function, حقل بيانات, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /ar/python-net/pivot-table-manage-value-fields/
+url: /ar/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 معًا، تغطّي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقل القيم في Aspose.Cells for Python via .NET، بدءًا من حقل بيانات واحد بالـ `Sum` الافتراضي وصولاً إلى جدول محوري متعدد المقاييس يتحكم فيه `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi di base alle aree di riga e colonna di
 keywords: Aspose.Cells, Java, tabella pivot, campo di riga, campo di colonna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/java/pivot-table-add-row-column-fields/
+url: /it/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso dataset e la stessa struttura della tabella pivot. L'unica differenza tra essi è la chiamata a `setSubtotals` applicata al campo di riga esterno `Category`. Ricordare la regola dei due campi: un singolo campo in un'area non ha elementi tra cui calcolare i subtotali, quindi inserire sempre almeno due campi nell'area delle righe o delle colonne quando si desidera che `setSubtotals` abbia un effetto visibile.
-
-## **Articoli correlati**
-
-- [Campi pagina nelle tabelle pivot](/cells/it/java/add-page-field-in-pivot-table/)
-- [Aggiornamento delle tabelle pivot in Aspose.Cells for Java](/cells/it/java/refresh-pivot-table/)
-- [Applicazione di stili alle tabelle pivot](/cells/it/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

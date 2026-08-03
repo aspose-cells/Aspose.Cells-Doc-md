@@ -6,7 +6,7 @@ keywords: Aspose.Cells Node.js via C++ style tableau croisé dynamique, PivotTab
 type: docs
 weight: 200
 url: /fr/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -400,4 +400,4 @@ Le choix de l'API de style dépend du format de fichier dans lequel vous enregis
 
 En cas de doute, enregistrez au format `.xlsx` et utilisez `PivotTableStyleType` pour les thèmes intégrés, ou `PivotTableStyleName` pour les thèmes personnalisés.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

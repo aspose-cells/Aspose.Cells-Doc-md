@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi di base all'area dati di una tabella p
 keywords: Aspose.Cells, Node.js via C++, tabella pivot, campo valore, PivotField, PivotField.Function, campo dati, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /it/nodejs-cpp/pivot-table-manage-value-fields/
+url: /it/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -201,4 +201,4 @@ workbook.save("output_plot.xlsx");
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Node.js via C++, da un singolo campo dati con il valore predefinito `Sum` a una pivot multi-misura in cui il `ValuesField` virtuale controlla il layout sull'asse Riga o Colonna.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,8 +1,13 @@
 ---
 title: Crear tabla dinámica
+linktitle: Crear tabla dinámica
 type: docs
 weight: 160
-url: /es/java/create-pivot-table/
+url: /es/java/pivot-tables/
+description: Crear y formatear tabla dinámica con Aspose.Cells for Python via .NET.
+keywords: Crear tabla dinámica, insertar tabla dinámica, formatear tabla dinámica.
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Crear tabla dinámica**

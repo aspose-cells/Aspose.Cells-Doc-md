@@ -1,8 +1,13 @@
 ---
 title: Pivot Tablosu Oluştur
+linktitle: Pivot Tablosu Oluştur
 type: docs
 weight: 160
-url: /tr/cpp/create-pivot-table/
+url: /tr/cpp/pivot-tables/
+description: Aspose.Cells for Python via .NET ile Pivot Tablosu oluşturma ve biçimlendirme.
+keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Giriş**

@@ -458,4 +458,4 @@ Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du s
 
 I praktiken, föredra de cachebaserade API:erna framför den föråldrade tabell-för-tabell-metoden `RefreshData()`. De är medvetna om delade cachar, de undviker redundanta källhämtningar, och de låter dig välja den minsta omfattningen som uppfyller ditt uppdateringskrav.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

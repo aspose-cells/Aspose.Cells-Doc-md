@@ -5,7 +5,7 @@ description: Узнайте, как добавлять базовые поля �
 keywords: Aspose.Cells, Node.js via Java, сводная таблица, поле значений, PivotField, PivotField.Function, поле данных, PivotTable.ValuesField, Сумма, Среднее
 type: docs
 weight: 230
-url: /ru/nodejs-java/pivot-table-manage-value-fields/
+url: /ru/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -104,4 +104,4 @@ workbook.save("output_drag.xlsx");
 
 Все три сценария в совокупности охватывают все аспекты работы с полями значений в Aspose.Cells for Node.js via Java — от единственного поля данных с функцией `SUM` по умолчанию до сводной таблицы с несколькими мерами, в которой виртуальное поле `ValuesField` управляет расположением по оси строк или столбцов.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

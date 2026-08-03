@@ -3,7 +3,7 @@ title: Insert Pivot Table
 linktitle: Pivot Tables
 type: docs
 weight: 160
-url: /python-net/create-pivot-table/
+url: /python-net/pivot-tables/
 description: Create and format Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.
 ai_search_scope: cells_pythonnet

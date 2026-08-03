@@ -400,4 +400,4 @@ La elección de la API de estilos depende del formato de archivo en el que está
 
 En caso de duda, guarde como `.xlsx` y use `pivotTableStyleType` para temas integrados, o `pivotTableStyleName` para temas personalizados.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

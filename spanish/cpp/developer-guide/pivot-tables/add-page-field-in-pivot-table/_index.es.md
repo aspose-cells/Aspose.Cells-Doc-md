@@ -5,7 +5,7 @@ description: Aprenda a agregar y configurar campos de filtro en tablas dinámica
 keywords: Aspose.Cells, C++, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /es/cpp/add-filter-field-in-pivot-table/
+url: /es/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

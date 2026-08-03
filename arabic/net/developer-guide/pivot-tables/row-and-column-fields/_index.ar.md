@@ -5,7 +5,7 @@ description: تعلم كيفية إضافة الحقول الأساسية إلى
 keywords: Aspose.Cells, .NET, PivotTable, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, الإجماليات الفرعية, C#, Excel pivot table
 type: docs
 weight: 220
-url: /ar/net/pivot-table-add-row-column-fields/
+url: /ar/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وبنية الجدول المحوري. الفرق الوحيد بينها هو استدعاء `SetSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكر قاعدة الحقلين: الحقل الواحد في المنطقة لا يوجد شيء ذو معنى لحساب إجمالي فرعي بينه، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لاستدعاء `SetSubtotals` تأثير مرئي.
-
-## **مقالات ذات صلة**
-
-- [حقول الصفحات في الجداول المحورية](/cells/ar/net/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for .NET](/cells/ar/net/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base aux régions de ligne et de 
 keywords: Aspose.Cells, C++, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, SetSubtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/cpp/pivot-table-add-row-column-fields/
+url: /fr/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel à `SetSubtotals` appliqué au champ de ligne externe `Category`. Rappelez-vous la règle des deux champs : un champ unique dans une région n'a rien à sous-totaliser entre les groupes. Placez donc toujours au moins deux champs dans la région de ligne ou de colonne lorsque vous souhaitez que `SetSubtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/cpp/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for C++](/cells/fr/cpp/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

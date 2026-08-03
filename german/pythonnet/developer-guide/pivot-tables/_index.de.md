@@ -3,7 +3,9 @@ title: Pivot Tabelle einfügen
 linktitle: Pivot Tabellen
 type: docs
 weight: 160
-url: /de/python-net/create-pivot-table/
+url: /de/python-net/pivot-tables/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Erstellen und Formatieren einer Pivot Tabelle mit Aspose.Cells für Python via .NET.
 keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.
 ---

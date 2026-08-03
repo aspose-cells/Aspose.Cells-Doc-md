@@ -3,8 +3,11 @@ title: Infoga pivot tabell
 linktitle: Pivot tabeller
 type: docs
 weight: 160
-url: /sv/nodejs-cpp/create-pivot-table/
+url: /sv/nodejs-cpp/pivot-tables/
 description: Skapa och formatera pivottabeller i Excel kalkylbladsfiler.
+keywords: Skapa pivot tabell, Infoga pivot tabell, Formatera pivot tabell.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Skapa Pivottabell**

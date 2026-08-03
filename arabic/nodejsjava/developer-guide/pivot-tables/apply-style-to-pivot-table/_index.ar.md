@@ -400,4 +400,4 @@ workbook.save("output.xlsx");
 
 في حالة الشك، احفظ بصيغة `.xlsx` واستخدم `pivotTableStyleType` للنسق المدمج، أو `pivotTableStyleName` للنسق المخصص.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

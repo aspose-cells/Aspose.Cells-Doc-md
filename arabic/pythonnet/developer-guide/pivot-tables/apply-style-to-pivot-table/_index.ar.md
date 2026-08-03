@@ -420,4 +420,4 @@ workbook.save("output.xlsx")
 
 في حالة الشك، احفظ بصيغة `.xlsx` واستخدم `pivot_table_style_type` للسمات المضمنة، أو `pivot_table_style_name` للسمات المخصصة.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

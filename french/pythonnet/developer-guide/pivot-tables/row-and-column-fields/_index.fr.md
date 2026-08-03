@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base aux zones de ligne et de col
 keywords: Aspose.Cells, Python via .NET, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, set_subtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/python-net/pivot-table-add-row-column-fields/
+url: /fr/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -241,11 +241,4 @@ workbook.save("output_custom.xlsx")
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel à `set_subtotals` appliqué au champ de ligne externe `Category`. Rappelez-vous la règle des deux champs : un seul champ dans une zone n'a rien à sous-totaliser, donc placez toujours au moins deux champs dans la zone de ligne ou de colonne lorsque vous souhaitez que `set_subtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/python-net/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Python via .NET](/cells/fr/python-net/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

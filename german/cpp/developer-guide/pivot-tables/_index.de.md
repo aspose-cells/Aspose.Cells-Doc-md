@@ -1,8 +1,13 @@
 ---
 title: Pivot Tabelle erstellen
+linktitle: Pivot Tabelle erstellen
 type: docs
 weight: 160
-url: /de/cpp/create-pivot-table/
+url: /de/cpp/pivot-tables/
+description: Erstellen und Formatieren einer Pivot Tabelle mit Aspose.Cells für Python via .NET.
+keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Einführung**

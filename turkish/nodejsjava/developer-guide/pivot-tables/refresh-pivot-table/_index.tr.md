@@ -317,4 +317,4 @@ Aşağıdaki tablo mevcut yenileme API'lerini özetler ve her birinin ne zaman s
 
 Uygulamada, eski tablo başına `RefreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak alımlarını önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

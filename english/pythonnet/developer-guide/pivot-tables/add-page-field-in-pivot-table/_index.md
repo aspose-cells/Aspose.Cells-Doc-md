@@ -1,10 +1,10 @@
 ---
-title: Add Filter Fields to a Pivot Table in Aspose.Cells for .NET
+title: Add Filter Fields to a Pivot Table in Aspose.Cells for Python via .NET
 description: Learn how to add and configure filter fields in pivot tables using Aspose.Cells for Python via .NET, including adding filter fields, single-select filtering, and multi-select filtering.
 keywords: Aspose.Cells, Python via .NET, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /python-net/add-filter-field-in-pivot-table/
+url: /python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 linktitle: Add Filter Fields
@@ -316,4 +316,4 @@ The table below summarizes when to use each API and mode so you can pick the rig
 Always remember the visibility constraint when configuring multi-select filtering. If every `PivotItem` in a multi-select filter field is hidden, Excel crashes on open or renders a blank pivot. Build your whitelist against your source data so at least one item stays visible, and your saved workbooks will open reliably on every machine.
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

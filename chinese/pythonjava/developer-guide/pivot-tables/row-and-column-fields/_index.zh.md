@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for Python via Java 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /zh/python-java/pivot-table-add-row-column-fields/
+url: /zh/python-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -257,11 +257,4 @@ jpype.shutdownJVM()
 ## **小结**
 
 上述三个场景共享相同的数据集和数据透视表结构。它们之间唯一的区别是应用于外层 `Category` 行字段的 `setSubtotals` 调用。请记住"两个字段"规则:区域中的单个字段没有可供小计的内容,因此当您希望 `setSubtotals` 产生可见效果时,务必在行或列区域中至少放置两个字段。
-
-## **相关文章**
-
-- [数据透视表中的页字段](/cells/zh/python-java/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Python via Java 中刷新数据透视表](/cells/zh/python-java/refresh-pivot-table/)
-- [向数据透视表应用样式](/cells/zh/python-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python" >}}

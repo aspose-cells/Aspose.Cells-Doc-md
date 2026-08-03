@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
+title: Aspose.Cells for Node.js via C++ でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /ja/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /ja/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -245,4 +245,4 @@ workbook.save("output_custom.xlsx");
 - [Refreshing Pivot Tables in Aspose.Cells for Node.js via C++](/cells/ja/nodejs-cpp/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/ja/nodejs-cpp/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

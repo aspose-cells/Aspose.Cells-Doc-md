@@ -5,7 +5,7 @@ description: Découvrez comment ajouter des champs de base aux zones de ligne et
 keywords: Aspose.Cells, Java, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, setSubtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
-url: /fr/java/pivot-table-add-row-column-fields/
+url: /fr/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel à `setSubtotals` appliqué au champ de ligne extérieur `Category`. Rappelez-vous la règle des deux champs : un seul champ dans une zone n'a rien à sous-totaliser entre les groupes, donc placez toujours au moins deux champs dans la zone de ligne ou de colonne lorsque vous voulez que `setSubtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/java/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Java](/cells/fr/java/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

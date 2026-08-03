@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
+title: Aspose.Cells for C++ でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: ピボットテーブルの行領域および列領域に基本フィールドを追加し、`PivotField.SetSubtotals` を使用してピボットフィールドの小計を制御する方法を学びます。
 keywords: Aspose.Cells, C++, ピボットテーブル, 行フィールド, 列フィールド, PivotField, SetSubtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
-url: /ja/cpp/pivot-table-add-row-column-fields/
+url: /ja/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -275,4 +275,4 @@ int main() {
 - [Aspose.Cells for C++ におけるピボットテーブルの更新](/cells/ja/cpp/refresh-pivot-table/)
 - [ピボットテーブルへのスタイルの適用](/cells/ja/cpp/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -1,10 +1,10 @@
 ---
-title: Add Filter Fields to a Pivot Table in Aspose.Cells for .NET
+title: Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java
 description: Learn how to add and configure filter fields in pivot tables using Aspose.Cells for Python via Java, including adding filter fields, single-select filtering, and multi-select filtering.
 keywords: Aspose.Cells, Python, Java, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /python-java/add-filter-field-in-pivot-table/
+url: /python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 linktitle: Add Filter Fields

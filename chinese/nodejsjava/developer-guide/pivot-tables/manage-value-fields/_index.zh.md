@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中管理数据透视表的值字段
+title: 在 Aspose.Cells for Node.js via Java 中管理数据透视表的值字段
 linktitle: 值字段
 description: 了解如何在 Aspose.Cells for Node.js via Java 中将基本字段添加到数据透视表的数据区域，使用 PivotField.Function 更改汇总函数，以及将值字段绘制到行或列轴。
 keywords: Aspose.Cells, Node.js via Java, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, 求和, 平均值
 type: docs
 weight: 230
-url: /zh/nodejs-java/pivot-table-manage-value-fields/
+url: /zh/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -104,4 +104,4 @@ workbook.save("output_drag.xlsx");
 
 综上所述，这三个场景涵盖了 Aspose.Cells for Node.js via Java 中值字段操作的方方面面，从使用默认 `SUM` 的单个数据字段，到由虚拟 `ValuesField` 控制行或列轴布局的多度量值数据透视表。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

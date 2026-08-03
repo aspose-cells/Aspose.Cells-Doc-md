@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /sv/python-java/pivot-table-add-row-column-fields/
+url: /sv/python-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -267,12 +267,6 @@ jpype.shutdownJVM()
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg tvåfältsregeln: ett enskilt fält i en region har inget att beräkna delsummor mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Page Fields in Pivot Tables](/cells/sv/python-java/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Python via Java](/cells/sv/python-java/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/sv/python-java/apply-style-to-pivot-table/)
 Looking at the original document carefully:
 
 The CODE_BLOCK comments are HTML comment placeholders with descriptions. The instruction says: "HTML Comment Placeholders (CRITICAL): The document contains `<!-- CODE_BLOCK:N:... -->` HTML comments. These are CODE BLOCK PLACEHOLDERS — you MUST preserve them EXACTLY as-is in your translation. Do NOT remove, modify, or translate them."
@@ -552,11 +546,4 @@ Att anropa `setSubtotals(PivotFieldSubtotalType.NONE, true)` tar bort varje dels
 Du är inte begränsad till en enskild delsummatyp. Varje `setSubtotals`-anrop verkar oberoende på en typ, så att anropa metoden två gånger — en gång med `SUM` och en gång med `AVERAGE` — skapar en anpassad delmängd av två delsummarader för varje `Category`-grupp.## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg tvåfältsregeln: ett enskilt fält i en region har inget att beräkna delsummor mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Page Fields in Pivot Tables](/cells/sv/python-java/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Python via Java](/cells/sv/python-java/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/sv/python-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python" >}}

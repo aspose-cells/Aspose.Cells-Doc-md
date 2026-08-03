@@ -435,4 +435,4 @@ Die folgende Tabelle fasst die verfügbaren Aktualisierungs-APIs zusammen und gi
 | Alle Pivot-Tabellen auf einem freigegebenen Cache auflisten | `pivotCache.GetPivotTables()` | Vor der Massenaktualisierung zur Aufzählung verwenden. |
 In der Praxis sind die cache-basierten APIs der veralteten Methode `RefreshData()` pro Tabelle vorzuziehen. Sie kennen freigegebene Caches, vermeiden redundante Quellabrufe und ermöglichen es Ihnen, den kleinsten Geltungsbereich zu wählen, der Ihre Aktualisierungsanforderung erfüllt.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

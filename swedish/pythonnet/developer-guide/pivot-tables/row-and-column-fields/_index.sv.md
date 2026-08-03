@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i rad- och kolumnområdena i 
 keywords: Aspose.Cells, Python via .NET, pivottabell, radfält, kolumnfält, PivotField, set_subtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/python-net/pivot-table-add-row-column-fields/
+url: /sv/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -241,11 +241,4 @@ workbook.save("output_custom.xlsx")
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är anropet till `set_subtotals` som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i ett område saknar meningsfull grund för delsummor, så placera alltid minst två fält i rad- eller kolumnområdet när du vill att `set_subtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/python-net/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Python via .NET](/cells/sv/python-net/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

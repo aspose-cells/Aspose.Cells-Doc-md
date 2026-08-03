@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+title: Aspose.Cells for Java'te PivotTable'a filtre alanları ekleme
 linktitle: Filtre Alanları Ekleme
 description: Java için Aspose.Cells kullanarak pivot tablolara filtre alanları eklemeyi ve yapılandırmayı öğrenin; filtre alanları ekleme, tekli seçim filtrelemesi ve çoklu seçim filtrelemesi dahil.
 keywords: Aspose.Cells, Java, pivot tablo, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /tr/java/add-filter-field-in-pivot-table/
+url: /tr/java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

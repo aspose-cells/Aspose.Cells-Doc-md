@@ -428,9 +428,4 @@ int main() {
 | Любой формат (единообразное переопределение) | `PivotTable.FormatAll(Style)` | Сокращение, которое переопределяет все остальные настройки стилей по всей сводной таблице. |
 
 В случае сомнений сохраняйте в формате `.xlsx` и используйте `PivotTableStyleType` для встроенных тем или `PivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
-
 {{< app/cells/assistant language="cpp" >}}

@@ -5,7 +5,7 @@ description: Aspose.Cells for .NET を使用してピボットテーブルの行
 keywords: Aspose.Cells, .NET, ピボットテーブル, 行フィールド, 列フィールド, PivotField, SetSubtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
-url: /ja/net/pivot-table-add-row-column-fields/
+url: /ja/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

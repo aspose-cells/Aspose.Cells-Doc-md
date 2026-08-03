@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base à la zone de données d'un 
 keywords: Aspose.Cells, Node.js via C++, tableau croisé dynamique, champ de valeur, PivotField, PivotField.Function, champ de données, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /fr/nodejs-cpp/pivot-table-manage-value-fields/
+url: /fr/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -182,4 +182,4 @@ pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

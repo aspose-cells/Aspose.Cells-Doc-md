@@ -5,7 +5,7 @@ description: Узнайте, как добавлять базовые поля �
 keywords: Aspose.Cells, C++, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/cpp/pivot-table-add-row-column-fields/
+url: /ru/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Резюме**
 
 Все три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — вызов `SetSubtotals`, применённый к внешнему полю строки `Category`. Помните о правиле двух полей: у одного поля в области нет ничего, между чем подводить итог, поэтому всегда размещайте как минимум два поля в области строк или столбцов, если хотите, чтобы `SetSubtotals` давал видимый эффект.
-
-## **Связанные статьи**
-
-- [Поля страниц в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

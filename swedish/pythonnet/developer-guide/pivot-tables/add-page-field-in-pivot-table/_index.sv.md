@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till och konfigurerar filterfält i pivotta
 keywords: Aspose.Cells, Python via .NET, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/python-net/add-filter-field-in-pivot-table/
+url: /sv/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ Tabellen nedan sammanfattar när du ska använda varje API och läge så att du 
 Kom alltid ihåg synlighetsbegränsningen när du konfigurerar flervalsfiltrering. Om varje `PivotItem` i ett flervalsfilterfält är dolt kraschar Excel vid öppning eller renderar en tom pivot. Bygg din vitlista mot din källdata så att minst ett objekt förblir synligt, och dina sparade arbetsböcker öppnas tillförlitligt på varje maskin.
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

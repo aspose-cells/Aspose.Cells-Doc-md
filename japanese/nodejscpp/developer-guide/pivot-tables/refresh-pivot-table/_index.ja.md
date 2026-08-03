@@ -398,4 +398,4 @@ workbook.save("output.xlsx");
 | 共有キャッシュ上にあるすべてのピボットテーブルを一覧表示する | `pivotCache.GetPivotTables()` | 一括更新の前に列挙するために使用します。 |
 実際には、非推奨のテーブルごとの`RefreshData()`よりもキャッシュベースのAPIを優先してください。これらは共有キャッシュを認識しており、冗長なソースフェッチを回避し、更新要件を満たす最小限のスコープを選択できるようにします。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+title: Aspose.Cells for Node.js via Java'te PivotTable'lara stil uygulama
 linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for Node.js via Java'da pivot tablolarına yerleşik ve özel stilleri nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu.
 keywords: Aspose.Cells Node.js via Java pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
@@ -398,4 +398,4 @@ Stil API'si seçimi, kaydettiğiniz dosya formatına bağlıdır. Hızlı bir ba
 
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `pivotTableStyleType` veya özel temalar için `pivotTableStyleName` kullanın.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till och konfigurerar filterfält i pivotta
 keywords: Aspose.Cells, Python, Java, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/python-java/add-filter-field-in-pivot-table/
+url: /sv/python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

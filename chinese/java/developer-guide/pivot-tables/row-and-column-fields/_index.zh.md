@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for Java 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: 学习如何在 Aspose.Cells for Java 中向数据透视表的行和列区域添加基础字段，并使用 PivotField.setSubtotals 控制数据透视字段的小计。
 keywords: Aspose.Cells, Java, 数据透视表, 行字段, 列字段, PivotField, setSubtotals, PivotFieldSubtotalType, 小计
 type: docs
 weight: 220
-url: /zh/java/pivot-table-add-row-column-fields/
+url: /zh/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **回顾**
 
 上述三个场景共享相同的数据集和数据透视表结构。它们之间唯一的区别是应用于外层 `Category` 行字段的 `setSubtotals` 调用。请记住双字段规则：区域中的单个字段之间没有可供小计的内容，因此，当您希望 `setSubtotals` 产生可见效果时，请始终在行或列区域中放置至少两个字段。
-
-## **相关文章**
-
-- [数据透视表中的页面字段](/cells/zh/java/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for Java 中刷新数据透视表](/cells/zh/java/refresh-pivot-table/)
-- [向数据透视表应用样式](/cells/zh/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

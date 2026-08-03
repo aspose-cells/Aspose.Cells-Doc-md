@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable değer alanlarını yönetme
+title: Aspose.Cells for Node.js via C++'te PivotTable değer alanlarını yönetme
 linktitle: Değer Alanları
 description: Aspose.Cells for Node.js via C++ içinde temel alanları pivot tablonun veri bölgesine eklemeyi, PivotField.Function ile özetleme işlevini değiştirmeyi ve değer alanını Satır veya Sütun eksenine yerleştirmeyi öğrenin.
 keywords: Aspose.Cells, Node.js via C++, pivot tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /tr/nodejs-cpp/pivot-table-manage-value-fields/
+url: /tr/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -183,4 +183,4 @@ workbook.save("output_plot.xlsx");
 ```
 Bu üç senaryo birlikte, varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir pivota kadar Aspose.Cells for Node.js via C++ içinde değer alanı manipülasyonunun her yönünü kapsar.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

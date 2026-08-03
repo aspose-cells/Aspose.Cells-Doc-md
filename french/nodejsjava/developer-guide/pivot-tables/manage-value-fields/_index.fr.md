@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base à la zone de données d'un 
 keywords: Aspose.Cells, Node.js via Java, tableau croisé dynamique, champ de valeur, PivotField, PivotField.Function, champ de données, PivotTable.ValuesField, Somme, Moyenne
 type: docs
 weight: 230
-url: /fr/nodejs-java/pivot-table-manage-value-fields/
+url: /fr/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -86,4 +86,4 @@ Ce scénario part de la même structure de tableau croisé dynamique que le scé
 Avec deux champs de données en place, `PivotTable.getValuesField()` devient utilisable. Ce scénario fait glisser ce champ virtuel d'agrégat dans la zone Colonne, de sorte que chaque mesure de la zone de données apparaisse comme son propre bloc de colonnes à côté de `Year`.
 Ensemble, ces trois scénarios couvrent tous les aspects de la manipulation des champs de valeur dans Aspose.Cells for Node.js via Java, d'un seul champ de données avec le `SUM` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

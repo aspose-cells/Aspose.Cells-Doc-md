@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
+title: Aspose.Cells for C++'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for C++'da bir özet tablonun satır ve sütun bölgelerine temel alanlar eklemeyi ve PivotField.SetSubtotals kullanarak özet tablo alanı ara toplamlarını kontrol etmeyi öğrenin.
 keywords: Aspose.Cells, C++, özet tablo, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, ara toplamlar
 type: docs
 weight: 220
-url: /tr/cpp/pivot-table-add-row-column-fields/
+url: /tr/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve özet tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `SetSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın ara toplam oluşturacak bir şeyi yoktur; dolayısıyla `SetSubtotals` öğesinin görünür bir etkiye sahip olmasını istediğinizde, satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Özet Tablolardaki Sayfa Alanları](/cells/tr/cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for C++'da Özet Tabloları Yenileme](/cells/tr/cpp/refresh-pivot-table/)
-- [Özet Tablolarına Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

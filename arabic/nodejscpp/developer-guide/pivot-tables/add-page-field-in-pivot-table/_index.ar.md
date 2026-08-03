@@ -5,7 +5,7 @@ description: تعلم كيفية إضافة وتكوين حقول التصفية
 keywords: Aspose.Cells, Node.js via C++, جدول محوري, حقل صفحة, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
 type: docs
 weight: 250
-url: /ar/nodejs-cpp/add-filter-field-in-pivot-table/
+url: /ar/nodejs-cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -310,4 +310,4 @@ workbook.save("output.xlsx");
 تذكر دائماً قيد الرؤية عند تكوين التصفية متعددة الاختيارات. إذا تم إخفاء كل `PivotItem` في حقل صفحة متعدد الاختيارات، فإن Excel يتعطل عند الفتح أو يعرض جدولاً محورياً فارغاً. أنشئ قائمة السماح الخاصة بك بناءً على بيانات المصدر بحيث يظل عنصر واحد على الأقل مرئياً، وستفتح المصنفات المحفوظة لديك بشكل موثوق على كل جهاز.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

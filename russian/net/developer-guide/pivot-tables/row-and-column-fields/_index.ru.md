@@ -5,7 +5,7 @@ description: Узнайте, как добавлять базовые поля �
 keywords: Aspose.Cells, .NET, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
-url: /ru/net/pivot-table-add-row-column-fields/
+url: /ru/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Резюме**
 
 Три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — это вызов `SetSubtotals`, применяемый к внешнему полю строки `Category`. Помните о правиле двух полей: одно поле в области не имеет ничего для расчёта промежуточного итога, поэтому всегда размещайте как минимум два поля в области строк или столбцов, если хотите, чтобы `SetSubtotals` оказывал видимый эффект.
-
-## **Связанные статьи**
-
-- [Поля страниц в сводных таблицах](/cells/ru/net/add-page-field-in-pivot-table/)
-- [Обновление сводных таблиц в Aspose.Cells for .NET](/cells/ru/net/refresh-pivot-table/)
-- [Применение стилей к сводным таблицам](/cells/ru/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

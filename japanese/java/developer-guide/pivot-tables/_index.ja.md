@@ -1,8 +1,13 @@
 ---
 title: ピボットテーブルを作成する
+linktitle: ピボットテーブルを作成する
 type: docs
 weight: 160
-url: /ja/java/create-pivot-table/
+url: /ja/java/pivot-tables/
+description: Aspose.Cells for Python via .NETでピボットテーブルを作成し、書式を設定する。
+keywords: ピボットテーブルを作成し、ピボットテーブルを挿入し、ピボットテーブルを書式設定します。
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **ピボットテーブルの作成**

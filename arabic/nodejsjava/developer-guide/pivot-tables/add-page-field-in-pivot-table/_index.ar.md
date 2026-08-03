@@ -5,7 +5,7 @@ description: تعلّم كيفية إضافة وتكوين حقول الصفحة
 keywords: Aspose.Cells, Node.js via Java, الجدول المحوري, حقل التصفية, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
 type: docs
 weight: 250
-url: /ar/nodejs-java/add-filter-field-in-pivot-table/
+url: /ar/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ workbook.save("output.xlsx");
 تذكر دائماً قيد الرؤية عند تكوين التصفية متعددة التحديد. إذا تم إخفاء كل `PivotItem` في حقل صفحة متعدد التحديد، فإن Excel يتعطل عند الفتح أو يعرض محوراً فارغاً. أنشئ قائمتك البيضاء مقابل بيانات المصدر بحيث يظل عنصر واحد على الأقل مرئياً، وستفتح المصنفات المحفوظة لديك بشكل موثوق على كل جهاز.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

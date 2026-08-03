@@ -5,7 +5,7 @@ description: Aspose.Cells for .NET'te özet tablonun veri bölgesine temel alanl
 keywords: Aspose.Cells, .NET, özet tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /tr/net/pivot-table-manage-value-fields/
+url: /tr/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

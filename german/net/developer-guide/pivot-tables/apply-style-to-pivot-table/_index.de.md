@@ -228,7 +228,6 @@ Das folgende Beispiel definiert einen benutzerdefinierten Pivot-Stil mit einem d
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

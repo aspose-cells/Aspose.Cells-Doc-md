@@ -228,7 +228,6 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlığa ve `GrandTota
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

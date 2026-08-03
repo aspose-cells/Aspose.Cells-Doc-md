@@ -5,7 +5,7 @@ description: Aprenda a añadir campos base a la región de datos de una tabla di
 keywords: Aspose.Cells, Node.js via Java, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Suma, Promedio
 type: docs
 weight: 230
-url: /es/nodejs-java/pivot-table-manage-value-fields/
+url: /es/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -104,4 +104,4 @@ Con dos campos de datos en su lugar, `PivotTable.getValuesField()` se vuelve uti
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Node.js via Java, desde un único campo de datos con el `SUM` predeterminado hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla la disposición en el eje de Filas o Columnas.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

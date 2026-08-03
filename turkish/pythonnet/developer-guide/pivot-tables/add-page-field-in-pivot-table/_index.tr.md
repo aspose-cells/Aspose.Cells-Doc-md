@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+title: Aspose.Cells for Python via .NET'te PivotTable'a filtre alanları ekleme
 linktitle: Filtre Alanları Ekleme
 description: Aspose.Cells for Python via .NET kullanarak özet tablolarda filtre alanlarını nasıl ekleyeceğinizi ve yapılandıracağınızı, filtre alanı ekleme, tekli seçim filtreleme ve çoklu seçim filtreleme dahil öğrenin.
 keywords: Aspose.Cells, Python via .NET, özet tablo, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /tr/python-net/add-filter-field-in-pivot-table/
+url: /tr/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ Aşağıdaki tablo, her API'yi ve modu ne zaman kullanacağınızı özetler, b�
 Çoklu seçim filtrelemesini yapılandırırken görünürlük kısıtlamasını her zaman hatırlayın. Çoklu seçim filtre alanındaki her `PivotItem` gizlenmişse, Excel açılırken çöker veya boş bir özet tablo işler. Beyaz listenizi kaynak verilerinize göre oluşturun, böylece en az bir öğe görünür kalır ve kaydedilen çalışma kitaplarınız her makinede güvenilir bir şekilde açılır.
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

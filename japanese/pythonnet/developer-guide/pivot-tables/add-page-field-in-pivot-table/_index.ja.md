@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルにフィルターフィールドを追加する
+title: Aspose.Cells for Python via .NET でピボットテーブルにフィルターフィールドを追加する
 linktitle: フィルターフィールドを追加
 description: Aspose.Cells for Python via .NET を使用してピボットテーブルのフィルターフィールドを追加および構成する方法を学習します。フィルターフィールドの追加、単一選択フィルタリング、および複数選択フィルタリングを含みます。
 keywords: Aspose.Cells, Python via .NET, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter, ピボットテーブル, フィルターフィールド
 type: docs
 weight: 250
-url: /ja/python-net/add-filter-field-in-pivot-table/
+url: /ja/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ workbook.save("output.xlsx")
 複数選択フィルタリングを構成するときは、表示制約を常に覚えておいてください。複数選択フィルターフィールドのすべての `PivotItem` が非表示になっていると、Excel は開くときにクラッシュするか、空のピボットをレンダリングします。少なくとも 1 つのアイテムが表示されたままになるように、ソースデータに対してホワイトリストを構築してください。そうすれば、保存したワークブックはすべてのマシンで確実に開きます。
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

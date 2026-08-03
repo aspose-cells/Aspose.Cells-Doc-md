@@ -466,4 +466,4 @@ La tabla siguiente resume las API de actualización disponibles y cuándo elegir
 
 En la práctica, prefiera las API basadas en caché sobre el método obsoleto `refresh_data()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el ámbito más pequeño que satisface su requisito de actualización.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

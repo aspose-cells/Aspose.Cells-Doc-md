@@ -420,4 +420,4 @@ La elección de la API de estilo depende del formato de archivo en el que está 
 
 En caso de duda, guarde como `.xlsx` y use `pivot_table_style_type` para los temas integrados, o `pivot_table_style_name` para los temas personalizados.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

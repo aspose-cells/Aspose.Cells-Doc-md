@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルにスタイルを適用する
+title: Aspose.Cells for Node.js via Java でピボットテーブルにスタイルを適用する
 linktitle: ピボットテーブルにスタイルを適用
 description: Aspose.Cells for Node.js via Java でピボットテーブルに組み込みスタイルおよびカスタムスタイルを適用する方法を学びます。従来の XLS オートフォーマット、Excel 2007 以降の名前付きスタイル、カスタムピボットテーブルスタイル、FormatAll ショートカットについて解説します。
 keywords: Aspose.Cells Node.js via Java, ピボットテーブル, スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
@@ -404,4 +404,4 @@ workbook.save("output.xlsx");
 
 - [Aspose.Cells for Node.js via Java でのピボットテーブルの更新](/cells/ja/nodejs-java/refresh-pivot-table/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -106,8 +106,8 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 
 int main() {
- intrusive_ptr<Workbook> workbook = new Workbook();
- intrusive_ptr<Worksheet> ws = workbook->GetWorksheets()->Get(0);
+ Workbook workbook;
+ Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
@@ -115,13 +115,13 @@ int main() {
  Vector<Vector<Object*>> data;
  // Daten ausfüllen ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
- intrusive_ptr<PivotTable> pivotTable = ws->GetPivotTables()->Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType_Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
+ PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
+ pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ PivotField countField = pivotTable.GetDataFields().Get(1);
  countField->SetFunction(ConsolidationFunction_Count);
  pivotTable->CalculateData();
  workbook->Save("output_function.xlsx");
@@ -136,19 +136,19 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 
 int main() {
- intrusive_ptr<Workbook> workbook = new Workbook();
- intrusive_ptr<Worksheet> ws = workbook->GetWorksheets()->Get(0);
+ Workbook workbook;
+ Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  // ... Daten aufbauen ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
- intrusive_ptr<PivotTable> pivotTable = ws->GetPivotTables()->Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType_Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
+ PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
+ pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
- pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
+ pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField()->GetName());
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for C++ 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: 了解如何在数据透视表的行区域和列区域添加基础字段，并使用 Aspose.Cells for C++ 中的 PivotField.SetSubtotals 控制数据透视字段的小计。
 keywords: Aspose.Cells, C++, 数据透视表, 行字段, 列字段, PivotField, SetSubtotals, PivotFieldSubtotalType, 小计
 type: docs
 weight: 220
-url: /zh/cpp/pivot-table-add-row-column-fields/
+url: /zh/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **总结**
 
 上述三个场景使用相同的数据集和透视表结构。它们之间唯一的区别是应用于外层 `Category` 行字段的 `SetSubtotals` 调用。请记住双字段规则：单个字段在某区域内没有可小计的内容，因此当您希望 `SetSubtotals` 产生可见效果时，请始终在行区域或列区域放置至少两个字段。
-
-## **相关文章**
-
-- [数据透视表中的页字段](/cells/zh/cpp/add-page-field-in-pivot-table/)
-- [刷新 Aspose.Cells for C++ 中的数据透视表](/cells/zh/cpp/refresh-pivot-table/)
-- [向数据透视表应用样式](/cells/zh/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

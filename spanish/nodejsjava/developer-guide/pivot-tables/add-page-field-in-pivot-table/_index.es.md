@@ -5,7 +5,7 @@ description: Aprenda a añadir y configurar campos de filtro en tablas dinámica
 keywords: Aspose.Cells, Node.js via Java, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /es/nodejs-java/add-filter-field-in-pivot-table/
+url: /es/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ La tabla a continuación resume cuándo usar cada API y modo para que pueda eleg
 Recuerde siempre la restricción de visibilidad al configurar el filtrado de selección múltiple. Si cada `PivotItem` en un campo de filtro de selección múltiple está oculto, Excel se bloqueará al abrirlo o renderizará una tabla dinámica en blanco. Construya su lista blanca contra sus datos de origen para que al menos un elemento permanezca visible, y sus libros de trabajo guardados se abrirán de forma fiable en cualquier máquina.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

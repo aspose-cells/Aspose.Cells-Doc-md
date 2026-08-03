@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i dataregionen i en pivottabe
 keywords: Aspose.Cells, Node.js via Java, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Summa, Medelvärde
 type: docs
 weight: 230
-url: /sv/nodejs-java/pivot-table-manage-value-fields/
+url: /sv/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -104,4 +104,4 @@ Med två datafält på plats blir `PivotTable.getValuesField()` användbar. Dett
 
 Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for Node.js via Java, från ett enskilt datafält med standardvärdet `SUM` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

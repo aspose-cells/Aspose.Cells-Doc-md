@@ -513,10 +513,5 @@ In pratica, preferire le API basate sulla cache rispetto all'obsoleto `refreshDa
 - **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.refresh()` is unnecessary and slow. Call `calculateData()` to re-render from the existing cache.
 - **External source not supported by `PivotCache.refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
-
-- [Inserimento di un'immagine in una cella](/cells/it/python-java/inserting-an-image-into-a-cell/)
-- [Lettura e scrittura di file DBF](/cells/it/python-java/dbf/)
-- [Divisione di file Excel in più file](/cells/it/python-java/splitting-excel-files-into-multiple-files/)
-- [Sparkline in Aspose.Cells for Python via Java](/cells/it/python-java/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの値フィールドを管理する
+title: Aspose.Cells for Python via .NET でピボットテーブルの値フィールドを管理する
 linktitle: 値フィールド
 description: Aspose.Cells for Python via .NET で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.function を使用して集計関数を変更する方法、値フィールドを Row または Column 軸にプロットする方法を学習します。
 keywords: Aspose.Cells, Python via .NET, pivot table, value field, PivotField, PivotField.function, data field, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /ja/python-net/pivot-table-manage-value-fields/
+url: /ja/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 これら 3 つのシナリオを合わせると、Aspose.Cells for Python via .NET での値フィールド操作のすべての側面をカバーします。デフォルトの `Sum` を持つ単一データフィールドから、仮想 `ValuesField` が Row または Column 軸のレイアウトを制御する複数メジャーのピボットまでを対象とします。
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -5,7 +5,7 @@ description: Apprenez à ajouter et configurer des champs de filtre dans des tab
 keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/net/add-filter-field-in-pivot-table/
+url: /fr/net/add-page-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -304,7 +304,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivots[pivotIndex];
 
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
@@ -360,12 +360,4 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 {{% alert color="primary" %}}
 N'oubliez jamais la contrainte de visibilité lors de la configuration du filtrage en sélection multiple. Si chaque `PivotItem` d'un champ de filtre à sélection multiple est masqué, Excel plante à l'ouverture ou affiche un tableau croisé dynamique vide. Construisez votre liste autorisée à partir de vos données source afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur toutes les machines.
 {{% /alert %}}
-
-
-
-## **Articles connexes**
-
-- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/fr/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

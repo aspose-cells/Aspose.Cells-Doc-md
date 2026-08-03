@@ -6,7 +6,7 @@ keywords: Aspose.Cells Node.js via C++ Pivot-Tabellenstil, PivotTableStyleType, 
 type: docs
 weight: 200
 url: /de/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -400,4 +400,4 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden `PivotTableStyleType` für integrierte Designs oder `PivotTableStyleName` für benutzerdefinierte Designs.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

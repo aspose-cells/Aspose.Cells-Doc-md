@@ -406,4 +406,4 @@ workbook.save("output.xlsx")
 | 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivot_cache.get_pivot_tables()` | 一括更新の前に列挙するために使用します。 |
 実際には、非推奨のテーブルごとの `refresh_data()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識し、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

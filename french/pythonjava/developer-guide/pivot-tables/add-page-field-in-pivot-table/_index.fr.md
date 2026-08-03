@@ -5,7 +5,7 @@ description: Apprenez à ajouter et configurer des champs de filtre dans les tab
 keywords: Aspose.Cells, Python, Java, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/python-java/add-filter-field-in-pivot-table/
+url: /fr/python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

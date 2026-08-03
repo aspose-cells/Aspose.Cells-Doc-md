@@ -1,8 +1,13 @@
 ---
 title: 创建数据透视表
+linktitle: 创建数据透视表
 type: docs
 weight: 160
-url: /zh/java/create-pivot-table/
+url: /zh/java/pivot-tables/
+description: 使用Aspose.Cells for Python via .NET创建和格式化数据透视表。
+keywords: 创建数据透视表，插入数据透视表，格式化数据透视表。
+ai_search_scope: cells_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **创建数据透视表**

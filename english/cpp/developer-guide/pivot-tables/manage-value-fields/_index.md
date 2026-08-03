@@ -1,11 +1,11 @@
 ---
-title: Manage Pivot Table Value Fields in Aspose.Cells for .NET
+title: Manage Pivot Table Value Fields in Aspose.Cells for C++
 linktitle: Value Fields
 description: Learn how to add base fields to the data region of a pivot table, change the summary function with PivotField.Function, and plot the value field onto the Row or Column axis in Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /cpp/pivot-table-manage-value-fields/
+url: /cpp/manage-value-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -112,8 +112,8 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 
 int main() {
- intrusive_ptr<Workbook> workbook = new Workbook();
- intrusive_ptr<Worksheet> ws = workbook->GetWorksheets()->Get(0);
+ Workbook workbook;
+ Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
@@ -121,13 +121,13 @@ int main() {
  Vector<Vector<Object*>> data;
  // Fill data ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
- intrusive_ptr<PivotTable> pivotTable = ws->GetPivotTables()->Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType_Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- intrusive_ptr<PivotField> countField = pivotTable->GetDataFields()->Get(1);
+ PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
+ pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ PivotField countField = pivotTable.GetDataFields().Get(1);
  countField->SetFunction(ConsolidationFunction_Count);
  pivotTable->CalculateData();
  workbook->Save("output_function.xlsx");
@@ -141,19 +141,19 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 
 int main() {
- intrusive_ptr<Workbook> workbook = new Workbook();
- intrusive_ptr<Worksheet> ws = workbook->GetWorksheets()->Get(0);
+ Workbook workbook;
+ Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  // ... build data ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
- intrusive_ptr<PivotTable> pivotTable = ws->GetPivotTables()->Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType_Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType_Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType_Data, "Amount");
+ PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
+ pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
+ pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
+ pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
- pivotTable->AddFieldToArea(PivotFieldType_Column, pivotTable->GetValuesField()->GetName());
+ pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField()->GetName());
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

@@ -3,8 +3,11 @@ title: Pivot Tablo Ekle
 linktitle: Pivot Tabloları
 type: docs
 weight: 160
-url: /tr/net/create-pivot-table/
+url: /tr/net/pivot-tables/
 description: Excel elek tablo dosyalarının pivot tablolarını oluşturun ve biçimlendirin.
+keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot Tablosu Oluştur**

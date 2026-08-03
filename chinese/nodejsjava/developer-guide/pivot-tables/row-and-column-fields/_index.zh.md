@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for Node.js via Java 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via Java
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /zh/nodejs-java/pivot-table-add-row-column-fields/
+url: /zh/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -239,11 +239,4 @@ workbook.save("output_custom.xlsx");
 ## **回顾**
 
 上述三个场景共享相同的数据集和数据透视表结构。它们之间唯一的区别是对外部 `Category` 行字段应用的 `setSubtotals` 调用。请记住两个字段的规则:区域中的单个字段之间没有内容可以小计,因此当您希望 `setSubtotals` 具有可见效果时,请始终在行或列区域中放置至少两个字段。
-
-## **相关文章**
-
-- [Page Fields in Pivot Tables](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Node.js via Java](/cells/zh/nodejs-java/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/zh/nodejs-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

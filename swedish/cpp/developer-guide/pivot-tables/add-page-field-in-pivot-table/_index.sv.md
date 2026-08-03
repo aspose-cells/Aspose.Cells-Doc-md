@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till och konfigurerar filterfält i pivotta
 keywords: Aspose.Cells, C++, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/cpp/add-filter-field-in-pivot-table/
+url: /sv/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

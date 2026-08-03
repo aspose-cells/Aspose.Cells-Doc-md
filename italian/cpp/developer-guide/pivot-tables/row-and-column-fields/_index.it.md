@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi base alle regioni di riga e colonna di
 keywords: Aspose.Cells, C++, tabella pivot, campo riga, campo colonna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/cpp/pivot-table-add-row-column-fields/
+url: /it/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso set di dati e la stessa struttura della tabella pivot. L'unica differenza tra essi è la chiamata a `SetSubtotals` applicata al campo di riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in una regione non ha nulla tra cui calcolare i subtotali, quindi posiziona sempre almeno due campi nella regione di riga o di colonna quando desideri che `SetSubtotals` abbia un effetto visibile.
-
-## **Articoli correlati**
-
-- [Campi pagina nelle tabelle pivot](/cells/it/cpp/add-page-field-in-pivot-table/)
-- [Aggiornamento delle tabelle pivot in Aspose.Cells for C++](/cells/it/cpp/refresh-pivot-table/)
-- [Applicazione di stili alle tabelle pivot](/cells/it/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

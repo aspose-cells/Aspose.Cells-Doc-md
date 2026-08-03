@@ -3,7 +3,9 @@ title: Pivot Tablo Ekle
 linktitle: Pivot Tabloları
 type: docs
 weight: 160
-url: /tr/python-net/create-pivot-table/
+url: /tr/python-net/pivot-tables/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Aspose.Cells for Python via .NET ile Pivot Tablosu oluşturma ve biçimlendirme.
 keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.
 ---

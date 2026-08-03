@@ -228,7 +228,6 @@ Följande exempel definierar en anpassad pivotstil med en tunn svart kantlinje p
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

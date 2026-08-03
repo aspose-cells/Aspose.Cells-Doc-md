@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi base all'area dati di una tabella pivo
 keywords: Aspose.Cells, .NET, tabella pivot, campo valore, PivotField, PivotField.Function, campo dati, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /it/net/pivot-table-manage-value-fields/
+url: /it/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

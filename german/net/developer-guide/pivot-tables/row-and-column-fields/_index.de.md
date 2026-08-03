@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Zeilen- und Spaltenfelder zu einer PivotTable
 keywords: Aspose.Cells, .NET, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen, C#, Excel-PivotTable
 type: docs
 weight: 220
-url: /de/net/pivot-table-add-row-column-fields/
+url: /de/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der `SetSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Denken Sie an die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat nichts, wofür eine Zwischensumme gebildet werden kann. Platzieren Sie also immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `SetSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/net/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for .NET](/cells/de/net/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

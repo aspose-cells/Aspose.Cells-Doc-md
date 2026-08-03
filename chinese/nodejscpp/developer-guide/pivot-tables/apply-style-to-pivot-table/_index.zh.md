@@ -1,12 +1,12 @@
 ---
-title: 在 Aspose.Cells for .NET 中应用数据透视表样式
+title: 在 Aspose.Cells for Node.js via C++ 中应用数据透视表样式
 linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for Node.js via C++ 中将内置样式和自定义样式应用于数据透视表，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells Node.js via C++ pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
 url: /zh/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -400,4 +400,4 @@ workbook.save("output.xlsx");
 
 如有疑问，请保存为 `.xlsx`，并对内置主题使用 `PivotTableStyleType`，对自定义主题使用 `PivotTableStyleName`。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

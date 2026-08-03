@@ -3,8 +3,9 @@ title: Insert Pivot Table
 linktitle: Pivot Tables
 type: docs
 weight: 160
-url: /nodejs-cpp/create-pivot-table/
+url: /nodejs-cpp/pivot-tables/
 description: Create and format pivot tables of Excel spreadsheet files.
+keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

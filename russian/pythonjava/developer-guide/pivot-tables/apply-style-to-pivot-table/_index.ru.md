@@ -444,9 +444,4 @@ jpype.shutdownJVM()
 | Любой формат (равномерное переопределение) | `pivotTable.formatAll(Style)` | Вспомогательный метод, переопределяющий все остальные настройки стилей по всей сводной таблице. |
 
 При возникновении сомнений сохраняйте в формате `.xlsx` и используйте `setPivotTableStyleType` для встроенных тем или `setPivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
-
 {{< app/cells/assistant language="python" >}}

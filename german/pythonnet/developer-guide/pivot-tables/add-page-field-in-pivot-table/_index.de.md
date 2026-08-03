@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Aspose.Cells for Python via .NET Filterfe
 keywords: Aspose.Cells, Python via .NET, Pivot-Tabelle, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
 type: docs
 weight: 250
-url: /de/python-net/add-filter-field-in-pivot-table/
+url: /de/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ Die folgende Tabelle fasst zusammen, wann welche API und welcher Modus verwendet
 Denken Sie immer an die Sichtbarkeitsbedingung, wenn Sie die Mehrfachauswahl-Filterung konfigurieren. Wenn jedes `PivotItem` in einem Mehrfachauswahl-Filterfeld ausgeblendet ist, stürzt Excel beim Öffnen ab oder rendert eine leere Pivot-Tabelle. Erstellen Sie Ihre Whitelist anhand Ihrer Quelldaten, sodass mindestens ein Element sichtbar bleibt, und Ihre gespeicherten Arbeitsmappen werden auf jedem Rechner zuverlässig geöffnet.
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

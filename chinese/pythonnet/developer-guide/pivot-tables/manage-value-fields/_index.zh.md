@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中管理数据透视表的值字段
+title: 在 Aspose.Cells for Python via .NET 中管理数据透视表的值字段
 linktitle: 值字段
 description: 了解如何在 Aspose.Cells for Python via .NET 中向数据透视表的数据区域添加基础字段，使用 PivotField.function 更改汇总函数，以及将值字段绘制到行或列轴上。
 keywords: Aspose.Cells, Python via .NET, 数据透视表, 值字段, PivotField, PivotField.function, 数据字段, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /zh/python-net/pivot-table-manage-value-fields/
+url: /zh/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -190,4 +190,4 @@ workbook.save("output_plot.xlsx")
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Python via .NET, from a single data field with the default `Sum` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

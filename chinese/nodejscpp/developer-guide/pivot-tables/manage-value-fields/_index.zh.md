@@ -1,10 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中管理数据透视表的值字段
+title: 在 Aspose.Cells for Node.js via C++ 中管理数据透视表的值字段
+linktitle: 在 Aspose.Cells for Node.js via C++ 中管理数据透视表的值字段
 description: 学习如何向 Aspose.Cells for Node.js via C++ 数据透视表的数据区域添加基础字段,通过 PivotField.Function 更改汇总函数,并将值字段绘制到行轴或列轴。
 keywords: Aspose.Cells, Node.js via C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /zh/nodejs-cpp/pivot-table-manage-value-fields/
+url: /zh/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -259,4 +260,4 @@ workbook.save("output_plot.xlsx");
 
 这三个场景涵盖了 Aspose.Cells for Node.js via C++ 中值字段操作的方方面面,从具有默认 `Sum` 的单个数据字段,到由虚拟 `ValuesField` 控制行轴或列轴布局的多度量数据透视表。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

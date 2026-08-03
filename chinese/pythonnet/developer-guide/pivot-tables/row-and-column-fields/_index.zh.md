@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中添加数据透视表的行字段和列字段
+title: 在 Aspose.Cells for Python via .NET 中添加数据透视表的行字段和列字段
 linktitle: 行字段和列字段
 description: 了解如何在 Aspose.Cells for Python via .NET 中将基本字段添加到数据透视表的行区域和列区域，以及如何使用 PivotField.set_subtotals 控制数据透视字段小计。
 keywords: Aspose.Cells, Python via .NET, 数据透视表, 行字段, 列字段, PivotField, set_subtotals, PivotFieldSubtotalType, 小计
 type: docs
 weight: 220
-url: /zh/python-net/pivot-table-add-row-column-fields/
+url: /zh/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -241,11 +241,4 @@ workbook.save("output_custom.xlsx")
 ## **总结**
 
 上述三个场景共享相同的数据集和数据透视表结构。它们之间唯一的区别是应用于外层 `Category` 行字段的 `set_subtotals` 调用。请记住两条字段规则：区域中只有一个字段时没有任何内容可供小计，因此当您希望 `set_subtotals` 产生可见效果时，请始终在行或列区域中至少放置两个字段。
-
-## **相关文章**
-
-- [Page Fields in Pivot Tables](/cells/zh/python-net/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/zh/python-net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/zh/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

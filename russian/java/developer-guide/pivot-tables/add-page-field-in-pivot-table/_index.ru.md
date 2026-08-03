@@ -5,7 +5,7 @@ description: Узнайте, как добавлять и настраивать
 keywords: Aspose.Cells, Java, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /ru/java/add-filter-field-in-pivot-table/
+url: /ru/java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

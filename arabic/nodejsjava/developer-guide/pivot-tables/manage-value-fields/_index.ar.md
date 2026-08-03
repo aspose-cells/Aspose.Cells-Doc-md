@@ -5,7 +5,7 @@ description: تعلّم كيفية إضافة حقول أساسية إلى من�
 keywords: Aspose.Cells, Node.js via Java, جدول محوري, حقل القيم, PivotField, PivotField.Function, حقل البيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /ar/nodejs-java/pivot-table-manage-value-fields/
+url: /ar/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -86,4 +86,4 @@ workbook.save("output_drag.xlsx");
 مع وجود حقلَي بيانات في مكانهما، يصبح `PivotTable.getValuesField()` قابلاً للاستخدام. يسحب هذا السيناريو حقل التجميع الافتراضي هذا إلى منطقة الأعمدة بحيث يظهر كل مقياس في منطقة البيانات كمجموعة أعمدة خاصة به بجانب `Year`.
 معًا، تغطي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقول القيم في Aspose.Cells for Node.js via Java، من حقل بيانات واحد بالـ `SUM` الافتراضي إلى جدول محوري متعدد المقاييس يتحكم فيه حقل `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

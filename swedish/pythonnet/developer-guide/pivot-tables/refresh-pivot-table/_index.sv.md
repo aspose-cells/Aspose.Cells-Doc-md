@@ -466,4 +466,4 @@ Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du b
 
 I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade tabellvisa `refresh_data()`. De är medvetna om delade cachar, de undviker redundanta källhämtningar, och de låter dig välja det minsta omfång som uppfyller ditt uppdateringskrav.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

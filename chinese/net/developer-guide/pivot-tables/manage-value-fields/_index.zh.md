@@ -5,7 +5,7 @@ description: 了解如何在 Aspose.Cells for .NET 中将基础字段添加到�
 keywords: Aspose.Cells, .NET, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /zh/net/pivot-table-manage-value-fields/
+url: /zh/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

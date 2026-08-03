@@ -5,7 +5,7 @@ description: تعلم كيفية إضافة الحقول الأساسية إلى
 keywords: Aspose.Cells, Node.js via C++, جدول محوري, حقل قيمة, PivotField, PivotField.Function, حقل بيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /ar/nodejs-cpp/pivot-table-manage-value-fields/
+url: /ar/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -183,4 +183,4 @@ workbook.save("output_plot.xlsx");
 ```
 معًا، تغطي هذه السيناريوهات الثلاثة كل جانب من جوانب معالجة حقل القيم في Aspose.Cells for Node.js via C++، بدءًا من حقل بيانات واحد بالقيمة الافتراضية `Sum` وصولاً إلى جدول محوري متعدد المقاييس يتحكم فيه حقل `ValuesField` الافتراضي في التخطيط على محور الصفوف أو الأعمدة.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

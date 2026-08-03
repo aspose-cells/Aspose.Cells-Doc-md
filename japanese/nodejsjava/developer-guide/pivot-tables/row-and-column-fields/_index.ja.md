@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
+title: Aspose.Cells for Node.js via Java でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via Java
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /ja/nodejs-java/pivot-table-add-row-column-fields/
+url: /ja/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,4 +246,4 @@ workbook.save("output_custom.xlsx");
 - [Aspose.Cells for Node.js via Java でのピボットテーブルの更新](/cells/ja/nodejs-java/refresh-pivot-table/)
 - [ピボットテーブルへのスタイルの適用](/cells/ja/nodejs-java/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

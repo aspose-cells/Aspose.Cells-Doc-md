@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの値フィールドを管理する
+title: Aspose.Cells for Node.js via Java でピボットテーブルの値フィールドを管理する
 linktitle: 値フィールド
 description: Aspose.Cells for Node.js via Java で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.Function を使用して集計関数を変更する方法、値フィールドを行または列軸にプロットする方法を学習します。
 keywords: Aspose.Cells, Node.js via Java, ピボットテーブル, 値フィールド, PivotField, PivotField.Function, データフィールド, PivotTable.ValuesField, 合計, 平均
 type: docs
 weight: 230
-url: /ja/nodejs-java/pivot-table-manage-value-fields/
+url: /ja/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -96,4 +96,4 @@ With two data fields in place, `PivotTable.getValuesField()` becomes usable. Thi
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Node.js via Java, from a single data field with the default `SUM` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

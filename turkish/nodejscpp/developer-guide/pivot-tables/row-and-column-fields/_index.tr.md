@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
+title: Aspose.Cells for Node.js via C++'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /tr/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /tr/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -238,11 +238,4 @@ workbook.save("output_custom.xlsx");
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `SetSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek alanın alt toplam alacak bir şeyi yoktur, dolayısıyla `SetSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Pivot Tablolardaki Sayfa Alanları](/cells/tr/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Node.js via C++'da Pivot Tabloları Yenileme](/cells/tr/nodejs-cpp/refresh-pivot-table/)
-- [Pivot Tablolara Stil Uygulama](/cells/tr/nodejs-cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

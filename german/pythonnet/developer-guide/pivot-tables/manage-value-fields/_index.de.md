@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zum Datenbereich einer PivotTable
 keywords: Aspose.Cells, Python via .NET, PivotTable, Wertfeld, PivotField, PivotField.function, Datenfeld, PivotTable.values_field, Summe, Mittelwert
 type: docs
 weight: 230
-url: /de/python-net/pivot-table-manage-value-fields/
+url: /de/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 Zusammen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Python via .NET ab, von einem einzelnen Datenfeld mit der Standardeinstellung `Sum` bis hin zu einer PivotTable mit mehreren Measures, bei der das virtuelle Feld `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

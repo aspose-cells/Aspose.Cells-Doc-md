@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /ar/nodejs-java/pivot-table-add-row-column-fields/
+url: /ar/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -239,11 +239,4 @@ workbook.save("output_custom.xlsx");
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وهيكل الجدول المحوري. الفرق الوحيد بينها هو استدعاء `setSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكر قاعدة الحقلين: الحقل الواحد في المنطقة ليس لديه ما يمكن حساب مجموع فرعي له بينه، لذا ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لـ `setSubtotals` تأثير مرئي.
-
-## **مقالات ذات صلة**
-
-- [حقول الصفحات في الجداول المحورية](/cells/ar/nodejs-java/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/nodejs-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

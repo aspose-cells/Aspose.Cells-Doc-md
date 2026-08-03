@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base aux zones des lignes et des 
 keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, SetSubtotals, PivotFieldSubtotalType, sous-totaux, C#, Excel pivot table
 type: docs
 weight: 220
-url: /fr/net/pivot-table-add-row-column-fields/
+url: /fr/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel `SetSubtotals` appliqué au champ de ligne externe `Category`. Rappelez-vous la règle des deux champs : un seul champ dans une zone n'a rien à sous-totaliser entre, donc placez toujours au moins deux champs dans la zone des lignes ou des colonnes lorsque vous souhaitez que `SetSubtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/net/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

@@ -228,7 +228,6 @@ El siguiente ejemplo define un estilo personalizado para tablas dinámicas con u
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();

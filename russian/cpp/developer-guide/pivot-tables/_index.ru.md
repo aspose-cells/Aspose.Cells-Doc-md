@@ -1,8 +1,13 @@
 ---
 title: Создание сводной таблицы
+linktitle: Создание сводной таблицы
 type: docs
 weight: 160
-url: /ru/cpp/create-pivot-table/
+url: /ru/cpp/pivot-tables/
+description: Создание и форматирование сводной таблицы с помощью Aspose.Cells для Python via .NET.
+keywords: Создание сводной таблицы, вставка сводной таблицы, форматирование сводной таблицы.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Введение**

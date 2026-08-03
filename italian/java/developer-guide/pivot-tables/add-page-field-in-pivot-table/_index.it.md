@@ -5,7 +5,7 @@ description: Scopri come aggiungere e configurare i campi filtro nelle tabelle p
 keywords: Aspose.Cells, Java, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/java/add-filter-field-in-pivot-table/
+url: /it/java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

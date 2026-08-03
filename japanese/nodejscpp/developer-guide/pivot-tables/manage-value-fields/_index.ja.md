@@ -1,10 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの値フィールドを管理する
+title: Aspose.Cells for Node.js via C++ でピボットテーブルの値フィールドを管理する
+linktitle: Aspose.Cells for Node.js via C++ でピボットテーブルの値フィールドを管理する
 description: Aspose.Cells for Node.js via C++ で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.Function で集計関数を変更する方法、値フィールドを Row または Column 軸にプロットする方法を学習します。
 keywords: Aspose.Cells, Node.js via C++, ピボットテーブル, 値フィールド, PivotField, PivotField.Function, データフィールド, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /ja/nodejs-cpp/pivot-table-manage-value-fields/
+url: /ja/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -189,4 +190,4 @@ workbook.save("output_plot.xlsx");
 
 これらの 3 つのシナリオを合わせると、デフォルトの `Sum` を持つ単一のデータフィールドから、仮想 `ValuesField` が行軸または列軸のレイアウトを制御する複数メジャーのピボットまで、Aspose.Cells for Node.js via C++ における値フィールド操作のすべての側面をカバーしています。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

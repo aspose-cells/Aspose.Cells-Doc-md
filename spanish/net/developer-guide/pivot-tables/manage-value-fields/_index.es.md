@@ -5,7 +5,7 @@ description: Aprenda a agregar campos base a la región de datos de una tabla di
 keywords: Aspose.Cells, .NET, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Suma, Promedio
 type: docs
 weight: 230
-url: /es/net/pivot-table-manage-value-fields/
+url: /es/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

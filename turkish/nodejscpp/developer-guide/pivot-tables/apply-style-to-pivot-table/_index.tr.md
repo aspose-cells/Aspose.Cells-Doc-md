@@ -1,12 +1,12 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+title: Aspose.Cells for Node.js via C++'te PivotTable'lara stil uygulama
 linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for Node.js via C++'te hem yerleşik hem de özel stilleri özet tablolara nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel özet tablo stilleri ve FormatAll kısayolu.
 keywords: Aspose.Cells Node.js via C++ özet tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
 url: /tr/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -391,4 +391,4 @@ Stil API'si seçimi, kaydettiğiniz dosya biçimine bağlıdır. Hızlı bir ba�
 
 Şüpheye düştüğünüzde, `.xlsx` olarak kaydedin ve yerleşik temalar için `PivotTableStyleType`, özel temalar için `PivotTableStyleName` kullanın.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

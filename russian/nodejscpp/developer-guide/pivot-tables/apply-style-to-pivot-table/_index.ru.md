@@ -6,7 +6,7 @@ keywords: Aspose.Cells Node.js via C++ стиль сводной таблицы,
 type: docs
 weight: 200
 url: /ru/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -399,9 +399,4 @@ workbook.save("output.xlsx");
 | Любой формат (единообразное переопределение) | `PivotTable.FormatAll(Style)` | Сокращение, переопределяющее все остальные настройки стилей во всей сводной таблице. |
 
 В случае сомнений сохраняйте как `.xlsx` и используйте `PivotTableStyleType` для встроенных тем или `PivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells для Aspose.Cells для Node.js через C++](/cells/ru/nodejs-cpp/refresh-pivot-table/)
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

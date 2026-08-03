@@ -5,7 +5,7 @@ description: Apprenez à ajouter et configurer des champs de filtre dans des tab
 keywords: Aspose.Cells, Node.js via Java, tableau croisé dynamique, champ de filtre, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /fr/nodejs-java/add-filter-field-in-pivot-table/
+url: /fr/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ Le tableau ci-dessous résume quand utiliser chaque API et chaque mode afin que 
 Gardez toujours à l'esprit la contrainte de visibilité lors de la configuration du filtrage à sélection multiple. Si chaque `PivotItem` d'un champ de filtre à sélection multiple est masqué, Excel plante à l'ouverture ou affiche un tableau croisé dynamique vide. Construisez votre liste d'éléments autorisés à partir de vos données source afin qu'au moins un élément reste visible, et vos classeurs enregistrés s'ouvriront de manière fiable sur chaque machine.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

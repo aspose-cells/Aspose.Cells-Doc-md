@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Aspose.Cells for C++ Filterfelder in Pivo
 keywords: Aspose.Cells, C++, Pivot-Tabelle, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
 type: docs
 weight: 250
-url: /de/cpp/add-filter-field-in-pivot-table/
+url: /de/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

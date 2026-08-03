@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i rad- och kolumnregionerna i
 keywords: Aspose.Cells, .NET, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/net/pivot-table-add-row-column-fields/
+url: /sv/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `SetSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg tvåfältsregeln: ett enskilt fält i en region har inget att subtotala mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `SetSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/net/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for .NET](/cells/sv/net/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

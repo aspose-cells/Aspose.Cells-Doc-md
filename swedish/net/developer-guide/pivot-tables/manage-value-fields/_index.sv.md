@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i dataområdet för en pivott
 keywords: Aspose.Cells, .NET, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /sv/net/pivot-table-manage-value-fields/
+url: /sv/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

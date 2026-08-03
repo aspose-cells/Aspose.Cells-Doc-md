@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルにフィルターフィールドを追加する
+title: Aspose.Cells for Node.js via C++ でピボットテーブルにフィルターフィールドを追加する
 linktitle: フィルターフィールドを追加
 description: Aspose.Cells for Node.js via C++ を使用してピボットテーブルのフィルターフィールドを追加および構成する方法について説明します。フィルターフィールドの追加、単一選択フィルタリング、複数選択フィルタリングを含みます。
 keywords: Aspose.Cells, Node.js via C++, ピボットテーブル, フィルターフィールド, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, フィルター
 type: docs
 weight: 250
-url: /ja/nodejs-cpp/add-filter-field-in-pivot-table/
+url: /ja/nodejs-cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -310,4 +310,4 @@ workbook.save("output.xlsx");
 複数選択フィルタリングを構成するときは、常に可視性の制約を覚えておいてください。複数選択フィルターフィールドのすべての `PivotItem` が非表示になっている場合、Excel は開くときにクラッシュするか、空のピボットをレンダリングします。ソースデータに対してホワイトリストを構築し、少なくとも 1 つの項目が表示されたままになるようにし、保存されたワークブックがすべてのマシンで確実に開けるようにしてください。
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

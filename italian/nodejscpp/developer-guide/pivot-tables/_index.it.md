@@ -3,8 +3,11 @@ title: Inserisci tabella pivot
 linktitle: Tabelle Pivot
 type: docs
 weight: 160
-url: /it/nodejs-cpp/create-pivot-table/
+url: /it/nodejs-cpp/pivot-tables/
 description: Creare e formattare tabelle pivot di file di fogli di calcolo di Excel.
+keywords: Creare Tabella Pivot, Inserire Tabella Pivot, Formattare Tabella Pivot.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Creare tabella pivot**

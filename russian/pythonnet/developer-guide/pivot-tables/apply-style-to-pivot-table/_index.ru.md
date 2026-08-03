@@ -419,9 +419,4 @@ workbook.save("output.xlsx")
 | Любой формат (единообразное переопределение) | `PivotTable.format_all(Style)` | Удобный метод, который переопределяет все остальные настройки стилей для всей сводной таблицы. |
 
 В случае сомнений сохраняйте в формате `.xlsx` и используйте `pivot_table_style_type` для встроенных тем или `pivot_table_style_name` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for Python via .NET](/cells/ru/python-net/refresh-pivot-table/)
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

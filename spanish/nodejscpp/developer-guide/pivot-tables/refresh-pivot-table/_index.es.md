@@ -456,4 +456,4 @@ La siguiente tabla resume las API de actualización disponibles y cuándo elegir
 
 En la práctica, prefiera las API basadas en caché sobre el obsoleto `RefreshData()` por tabla. Son conscientes de las cachés compartidas, evitan búsquedas redundantes en el origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

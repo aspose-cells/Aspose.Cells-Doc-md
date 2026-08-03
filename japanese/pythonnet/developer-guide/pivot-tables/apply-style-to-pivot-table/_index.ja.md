@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルにスタイルを適用する
+title: Aspose.Cells for Python via .NET でピボットテーブルにスタイルを適用する
 linktitle: ピボットテーブルにスタイルを適用
 description: Aspose.Cells for Python via .NET でレガシー XLS 自動書式からモダン Excel 2007+ の名前付きスタイル、カスタム ピボットテーブル スタイル、FormatAll ショートカットまで、ピボットテーブルに組み込みおよびカスタム スタイルを適用する方法を学習します。
 keywords: Aspose.Cells Python via .NET ピボットテーブル スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタム スタイル, PivotTableStyleName, TableStyles
@@ -424,4 +424,4 @@ workbook.save("output.xlsx")
 
 - [Aspose.Cells for Python via .NET でピボットテーブルを更新する](/cells/ja/python-net/refresh-pivot-table/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

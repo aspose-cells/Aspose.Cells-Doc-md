@@ -442,10 +442,5 @@ I praktiken bör du föredra de cache-baserade API:erna framför den föråldrad
 - **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.refresh()` is unnecessary and slow. Call `calculateData()` to re-render from the existing cache.
 - **External source not supported by `PivotCache.refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
-
-- [Infoga en bild i en cell](/cells/sv/nodejs-java/inserting-an-image-into-a-cell/)
-- [Läsa och skriva DBF-filer](/cells/sv/nodejs-java/dbf/)
-- [Dela upp Excel-filer i flera filer](/cells/sv/nodejs-java/splitting-excel-files-into-multiple-files/)
-- [Sparklines i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/sparkline/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

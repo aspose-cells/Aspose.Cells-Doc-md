@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till och konfigurerar filterfält i pivotta
 keywords: Aspose.Cells, .NET, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /sv/net/add-filter-field-in-pivot-table/
+url: /sv/net/add-page-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -304,7 +304,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivots[pivotIndex];
 
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");

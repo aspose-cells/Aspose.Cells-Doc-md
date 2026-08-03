@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中向数据透视表添加筛选字段
+title: 在 Aspose.Cells for Java 中向数据透视表添加筛选字段
 linktitle: 添加筛选字段
 description: 学习如何使用 Aspose.Cells for Java 在数据透视表中添加和配置筛选字段，包括添加筛选字段、单选过滤和多选过滤。
 keywords: Aspose.Cells, Java, 数据透视表, 筛选字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 过滤
 type: docs
 weight: 250
-url: /zh/java/add-filter-field-in-pivot-table/
+url: /zh/java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

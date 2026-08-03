@@ -420,4 +420,4 @@ Valet av stil-API beror på det filformat du sparar till. Använd tabellen nedan
 
 Vid tveksamhet, spara som `.xlsx` och använd `pivot_table_style_type` för inbyggda teman, eller `pivot_table_style_name` för anpassade teman.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

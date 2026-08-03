@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a satır ve sütun alanları ekleme
+title: Aspose.Cells for Python via Java'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for Python via Java kullanarak bir pivot tablosunun satır ve sütun bölgelerine temel alanların nasıl ekleneceğini ve PivotField.setSubtotals kullanılarak pivot alanı ara toplamlarının nasıl kontrol edileceğini öğrenin.
 keywords: Aspose.Cells, Python via Java, pivot tablo, satır alanı, sütun alanı, PivotField, setSubtotals, PivotFieldSubtotalType, ara toplamlar
 type: docs
 weight: 220
-url: /tr/python-java/pivot-table-add-row-column-fields/
+url: /tr/python-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -270,12 +270,6 @@ jpype.shutdownJVM()
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın ara toplam yapacak bir şeyi yoktur, dolayısıyla `setSubtotals`'ın görünür bir etki yaratmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Pivot Tablolarda Sayfa Alanları](/cells/tr/python-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Python via Java'da Pivot Tabloları Yenileme](/cells/tr/python-java/refresh-pivot-table/)
-- [Pivot Tablolarına Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
 1. ✅ Product names: "Aspose.Cells for Python via Java" appears correctly
 2. ✅ No doubling of product names
 3. ✅ All API names kept in English
@@ -339,11 +333,4 @@ Ara toplamlar yalnızca satır bölgesinde (veya sütun bölgesinde) iki veya da
 Tek bir ara toplam türüyle sınırlı değilsiniz. Her `setSubtotals` çağrısı bir tür üzerinde bağımsız olarak çalışır, dolayısıyla yöntemi iki kez çağırmak — bir kez `SUM` ve bir kez `AVERAGE` ile — her `Category` grubu için iki ara toplam satırından oluşan özel bir alt küme üretir.## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın ara toplam yapacak bir şeyi yoktur, dolayısıyla `setSubtotals`'ın görünür bir etki yaratmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Pivot Tablolarda Sayfa Alanları](/cells/tr/python-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Python via Java'da Pivot Tabloları Yenileme](/cells/tr/python-java/refresh-pivot-table/)
-- [Pivot Tablolarına Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python" >}}

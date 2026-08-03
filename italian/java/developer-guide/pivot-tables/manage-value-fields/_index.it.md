@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi base all'area dati di una tabella pivo
 keywords: Aspose.Cells, Java, tabella pivot, campo valore, PivotField, PivotField.Function, campo dati, PivotTable.getValuesField, Sum, Average
 type: docs
 weight: 230
-url: /it/java/pivot-table-manage-value-fields/
+url: /it/java/manage-value-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

@@ -5,7 +5,7 @@ description: Learn how to add value fields to a pivot table in Aspose.Cells for 
 keywords: Aspose.Cells, Node.js via Java, pivot table, value field, PivotField, PivotField.Function, data field, Sum, Average
 type: docs
 weight: 230
-url: /it/nodejs-java/pivot-table-manage-value-fields/
+url: /it/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -96,4 +96,4 @@ With two data fields in place, `PivotTable.getValuesField()` becomes usable. Thi
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Node.js via Java, from a single data field with the default `SUM` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

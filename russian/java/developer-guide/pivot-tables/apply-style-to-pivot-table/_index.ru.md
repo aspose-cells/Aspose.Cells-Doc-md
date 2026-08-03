@@ -429,9 +429,4 @@ workbook.save("output.xlsx");
 | Любой формат (единообразное переопределение) | `PivotTable.formatAll(Style)` | Ярлык, который переопределяет все остальные настройки стилей для всей сводной таблицы. |
 
 В случае сомнений сохраняйте как `.xlsx` и используйте `PivotTableStyleType` для встроенных тем либо `PivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for Java](/cells/ru/java/refresh-pivot-table/)
-
 {{< app/cells/assistant language="java" >}}

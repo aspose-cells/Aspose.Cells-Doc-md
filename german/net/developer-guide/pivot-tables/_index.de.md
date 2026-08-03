@@ -3,8 +3,11 @@ title: Pivot Tabelle einfügen
 linktitle: Pivot Tabellen
 type: docs
 weight: 160
-url: /de/net/create-pivot-table/
+url: /de/net/pivot-tables/
 description: Erstellen und Formatieren von Pivot Tabellen in Excel Tabellendateien.
+keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Pivot-Tabelle erstellen**

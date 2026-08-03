@@ -5,7 +5,7 @@ description: تعرّف على كيفية إضافة وتكوين حقول ال�
 keywords: Aspose.Cells, C++, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /ar/cpp/add-filter-field-in-pivot-table/
+url: /ar/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

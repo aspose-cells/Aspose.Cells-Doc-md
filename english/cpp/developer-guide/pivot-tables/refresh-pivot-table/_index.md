@@ -1,5 +1,5 @@
 ---
-title: Refresh Pivot Tables and Pivot Caches in Aspose.Cells for .NET
+title: Refresh Pivot Tables and Pivot Caches in Aspose.Cells for C++
 linktitle: Refresh Pivot Tables
 description: Learn how to refresh pivot tables in Aspose.Cells for C++ using the v26.7+ pivot-refresh API. This article covers RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData, and GetPivotTables with practical code examples.
 keywords: Aspose.Cells, C++, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7

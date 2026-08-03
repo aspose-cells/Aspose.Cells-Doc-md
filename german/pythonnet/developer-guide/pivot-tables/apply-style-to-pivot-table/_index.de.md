@@ -420,4 +420,4 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden Sie `pivot_table_style_type` für integrierte Designs oder `pivot_table_style_name` für benutzerdefinierte Designs.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

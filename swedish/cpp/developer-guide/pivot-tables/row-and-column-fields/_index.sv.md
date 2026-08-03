@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i rad- och kolumnområdena i 
 keywords: Aspose.Cells, C++, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/cpp/pivot-table-add-row-column-fields/
+url: /sv/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `SetSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i ett område har inget att göra delsummor mellan, så placera alltid minst två fält i rad- eller kolumnområdet när du vill att `SetSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/cpp/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for C++](/cells/sv/cpp/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

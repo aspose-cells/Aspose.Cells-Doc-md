@@ -5,7 +5,7 @@ description: 学习如何使用 Aspose.Cells for .NET 在数据透视表中添�
 keywords: Aspose.Cells, .NET, 数据透视表, 筛选字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 过滤
 type: docs
 weight: 250
-url: /zh/net/add-filter-field-in-pivot-table/
+url: /zh/net/add-page-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -304,7 +304,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivots[pivotIndex];
 
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
@@ -360,12 +360,4 @@ workbook.Save("output.xlsx");
 {{% alert color="primary" %}}
 在配置多选过滤时，请始终记住可见性约束。如果多选筛选字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时会崩溃或呈现空白的数据透视表。针对您的源数据构建白名单，确保至少有一个项保持可见，这样保存的工作簿将在每台机器上可靠打开。
 {{% /alert %}}
-
-
-
-## **相关文章**
-
-- [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/zh/net/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/zh/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

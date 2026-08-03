@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET でピボットテーブルの行フィールドと列フィールドを追加する
+title: Aspose.Cells for Python via .NET でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: 行フィールドと列フィールド
 description: Aspose.Cells for Python via .NET を使用して、ピボットテーブルの行領域および列領域に基本フィールドを追加し、PivotField.set_subtotals でピボットフィールドの小計を制御する方法を説明します。
 keywords: Aspose.Cells, Python via .NET, ピボットテーブル, 行フィールド, 列フィールド, PivotField, set_subtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
-url: /ja/python-net/pivot-table-add-row-column-fields/
+url: /ja/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -309,7 +309,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_automatic.xlsx")python
@@ -349,7 +348,6 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
 for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_none.xlsx")python
@@ -415,7 +413,6 @@ category_field = pivot_table.row_fields[0]
 category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
 category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
 
-pivot_table.refresh_data()
 pivot_table.calculate_data()
 
 workbook.save("output_custom.xlsx")
@@ -431,4 +428,4 @@ workbook.save("output_custom.xlsx")
 - [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/ja/python-net/refresh-pivot-table/)
 - [Applying Styles to Pivot Tables](/cells/ja/python-net/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

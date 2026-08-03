@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereich
 keywords: Aspose.Cells, C++, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
-url: /de/cpp/pivot-table-add-row-column-fields/
+url: /de/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **Zusammenfassung**
 
 Die drei oben beschriebenen Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der `SetSubtotals`-Aufruf, der auf das äußere `Category`-Zeilenfeld angewendet wird. Denken Sie an die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine Grundlage für eine Zwischensumme. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn `SetSubtotals` eine sichtbare Wirkung haben soll.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/cpp/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for C++](/cells/de/cpp/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

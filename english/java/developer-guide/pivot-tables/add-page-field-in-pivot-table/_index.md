@@ -1,10 +1,10 @@
 ---
-title: Add Filter Fields to a Pivot Table in Aspose.Cells for .NET
+title: Add Filter Fields to a Pivot Table in Aspose.Cells for Java
 description: Learn how to add and configure filter fields in pivot tables using Aspose.Cells for Java, including adding filter fields, single-select filtering, and multi-select filtering.
 keywords: Aspose.Cells, Java, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
 weight: 250
-url: /java/add-filter-field-in-pivot-table/
+url: /java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 linktitle: Add Filter Fields

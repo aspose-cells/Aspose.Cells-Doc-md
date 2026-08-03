@@ -5,7 +5,7 @@ description: تعلم كيفية إضافة الحقول الأساسية إلى
 keywords: Aspose.Cells, .NET, جدول محوري, حقل القيم, PivotField, PivotField.Function, حقل البيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /ar/net/pivot-table-manage-value-fields/
+url: /ar/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

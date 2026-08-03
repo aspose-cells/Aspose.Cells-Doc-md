@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi di base all'area dati di una tabella p
 keywords: Aspose.Cells, Python via .NET, tabella pivot, campo valore, PivotField, PivotField.function, campo dati, PivotTable.values_field, Somma, Media
 type: docs
 weight: 230
-url: /it/python-net/pivot-table-manage-value-fields/
+url: /it/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -197,4 +197,4 @@ workbook.save("output_plot.xlsx")
 
 Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Python via .NET, da un singolo campo dati con il `Sum` predefinito a una tabella pivot multi-misura in cui il virtuale `ValuesField` controlla il layout sull'asse Riga o Colonna.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

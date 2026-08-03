@@ -5,7 +5,7 @@ description: Aprenda a añadir campos base a la región de datos de una tabla di
 keywords: Aspose.Cells, Node.js via C++, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /es/nodejs-cpp/pivot-table-manage-value-fields/
+url: /es/nodejs-cpp/manage-value-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -202,4 +202,4 @@ workbook.save("output_plot.xlsx");
 
 En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Node.js via C++, desde un único campo de datos con el `Sum` por defecto hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla el diseño en el eje de fila o columna.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Filterfelder in PivotTables mit Aspose.Cells 
 keywords: Aspose.Cells, Python, Java, PivotTable, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
 type: docs
 weight: 250
-url: /de/python-java/add-filter-field-in-pivot-table/
+url: /de/python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

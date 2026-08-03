@@ -5,7 +5,7 @@ description: Aprenda a añadir campos base a las regiones de fila y columna de u
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de fila, campo de columna, PivotField, set_subtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/python-net/pivot-table-add-row-column-fields/
+url: /es/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -267,11 +267,4 @@ workbook.save("output_custom.xlsx")
 ## **Resumen**
 
 Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `set_subtotals` aplicada al campo de fila externo `Category`. Recuerde la regla de los dos campos: un solo campo en una región no tiene nada entre qué calcular un subtotal, así que coloque siempre al menos dos campos en la región de filas o columnas cuando desee que `set_subtotals` tenga un efecto visible.
-
-## **Artículos Relacionados**
-
-- [Campos de Página en Tablas Dinámicas](/cells/es/python-net/add-page-field-in-pivot-table/)
-- [Actualizar Tablas Dinámicas en Aspose.Cells for Python via .NET](/cells/es/python-net/refresh-pivot-table/)
-- [Aplicar Estilos a Tablas Dinámicas](/cells/es/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

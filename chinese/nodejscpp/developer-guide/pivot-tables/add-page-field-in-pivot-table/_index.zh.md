@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中向数据透视表添加筛选字段
+title: 在 Aspose.Cells for Node.js via C++ 中向数据透视表添加筛选字段
 linktitle: 添加筛选字段
 description: 学习如何使用 Aspose.Cells for Node.js via C++ 在数据透视表中添加和配置筛选字段，包括添加筛选字段、单选筛选以及多选筛选。
 keywords: Aspose.Cells, Node.js via C++, 数据透视表, 筛选字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 筛选
 type: docs
 weight: 250
-url: /zh/nodejs-cpp/add-filter-field-in-pivot-table/
+url: /zh/nodejs-cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -310,4 +310,4 @@ workbook.save("output.xlsx");
 在配置多选筛选时，请始终牢记可见性约束。如果多选筛选字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时会崩溃或渲染空白的数据透视表。请根据源数据构建白名单，以确保至少有一个项保持可见，这样您保存的工作簿将在每台机器上可靠地打开。
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

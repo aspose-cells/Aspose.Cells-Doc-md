@@ -411,4 +411,4 @@ Aşağıdaki tablo, mevcut yenileme API'lerini ve her birinin ne zaman seçilece
 | Paylaşılan önbellekteki tüm özet tablolarını listeleme | `pivot_cache.get_pivot_tables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
 Uygulamada, kullanımdan kaldırılmış tablo başına `refresh_data()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerinden kaçınır ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

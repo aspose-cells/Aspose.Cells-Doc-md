@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i dataregionen i en pivottabe
 keywords: Aspose.Cells, Python via .NET, pivottabell, värdefält, PivotField, PivotField.function, datafält, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /sv/python-net/pivot-table-manage-value-fields/
+url: /sv/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -178,4 +178,4 @@ workbook.save("output_plot.xlsx")
 ```
 Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for Python via .NET, från ett enskilt datafält med standardvärdet `Sum` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

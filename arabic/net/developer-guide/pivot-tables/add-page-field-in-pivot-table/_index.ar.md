@@ -5,7 +5,7 @@ description: تعرف على كيفية إضافة وتكوين حقول الت�
 keywords: Aspose.Cells, .NET, جدول محوري, حقل صفحة, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
 type: docs
 weight: 250
-url: /ar/net/add-filter-field-in-pivot-table/
+url: /ar/net/add-page-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -304,7 +304,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivots[pivotIndex];
 
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
@@ -360,13 +360,4 @@ workbook.Save("output.xlsx");
 {{% alert color="primary" %}}
 تذكر دائماً قيد الرؤية عند تكوين التصفية بتحديد متعدد. إذا تم إخفاء كل `PivotItem` في حقل صفحة متعدد التحديد، فإن Excel يتعطل عند الفتح أو يُقدِّم جدولاً محورياً فارغاً. أنشئ قائمتك المسموح بها مقابل بياناتك المصدر بحيث يظل عنصر واحد على الأقل مرئياً، وستفتح مصنفاتك المحفوظة بشكل موثوق على كل جهاز.
 {{% /alert %}}
-
-## **مقالات ذات صلة**
-
-- [تحديث الجداول المحورية في Aspose.Cells for .NET](/cells/ar/net/refresh-pivot-table/)
-- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/net/splitting-excel-files-into-multiple-files/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/net/apply-style-to-pivot-table/)
-- [تحويل Excel إلى تنسيق OFD](/cells/ar/net/ofd/)
-- [عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells .NET](/cells/ar/net/SmartMarker-Single-Cell-Array-Rendering/)
-
 {{< app/cells/assistant language="csharp" >}}

@@ -1,5 +1,5 @@
 ---
-title: Apply Styles to Pivot Tables in Aspose.Cells for .NET
+title: Apply Styles to Pivot Tables in Aspose.Cells for Python via .NET
 linktitle: Apply Pivot Table Styles
 description: Learn how to apply built-in and custom styles to pivot tables in Aspose.Cells for Python via .NET, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the FormatAll shortcut.
 keywords: Aspose.Cells Python via .NET pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
@@ -341,4 +341,4 @@ The choice of style API depends on the file format you are saving to. Use the ta
 
 When in doubt, save as `.xlsx` and use `pivot_table_style_type` for built-in themes, or `pivot_table_style_name` for custom themes.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

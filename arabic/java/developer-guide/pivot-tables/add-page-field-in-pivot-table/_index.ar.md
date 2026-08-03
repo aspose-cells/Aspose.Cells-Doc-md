@@ -5,7 +5,7 @@ description: تعلّم كيفية إضافة وتكوين حقول التصفي
 keywords: Aspose.Cells, Java, جدول محوري, حقل صفحة, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
 type: docs
 weight: 250
-url: /ar/java/add-filter-field-in-pivot-table/
+url: /ar/java/add-page-field-in-pivot-table/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

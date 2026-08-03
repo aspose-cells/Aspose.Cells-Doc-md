@@ -400,4 +400,4 @@ Valet av stil-API beror på det filformat du sparar till. Använd tabellen nedan
 
 Vid tveksamhet, spara som `.xlsx` och använd `pivotTableStyleType` för inbyggda teman, eller `pivotTableStyleName` för anpassade teman.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

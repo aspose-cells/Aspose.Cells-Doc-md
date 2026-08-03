@@ -457,4 +457,4 @@ Le tableau ci-dessous résume les API d'actualisation disponibles et quand chois
 
 En pratique, préférez les API basées sur le cache à l'obsolète `RefreshData()` par tableau. Elles sont conscientes des caches partagés, évitent les récupérations redondantes depuis la source, et vous permettent de choisir la plus petite portée qui satisfait votre besoin d'actualisation.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

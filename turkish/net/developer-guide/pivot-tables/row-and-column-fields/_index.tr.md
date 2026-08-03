@@ -5,7 +5,7 @@ description: Aspose.Cells for .NET'te PivotField.SetSubtotals kullanarak bir piv
 keywords: Aspose.Cells, .NET, pivot tablo, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs
 weight: 220
-url: /tr/net/pivot-table-add-row-column-fields/
+url: /tr/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Özet**
 
 Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `SetSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek alanın arasında toplanacak bir şey yoktur, dolayısıyla `SetSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
-
-## **İlgili Makaleler**
-
-- [Pivot Tablolardaki Sayfa Alanları](/cells/tr/net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for .NET'te Pivot Tabloları Yenileme](/cells/tr/net/refresh-pivot-table/)
-- [Pivot Tablolara Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

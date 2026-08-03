@@ -5,7 +5,7 @@ description: Узнайте, как добавлять и настраивать
 keywords: Aspose.Cells, Python via .NET, сводная таблица, поле фильтра, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, фильтр
 type: docs
 weight: 250
-url: /ru/python-net/add-filter-field-in-pivot-table/
+url: /ru/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ workbook.save("output.xlsx")
 Всегда помните об ограничении видимости при настройке фильтрации с множественным выбором. Если каждый `PivotItem` в поле фильтра с множественным выбором скрыт, Excel аварийно завершает работу при открытии или отображает пустую сводную таблицу. Создавайте свой белый список на основе исходных данных так, чтобы хотя бы один элемент оставался видимым, и ваши сохранённые книги будут надёжно открываться на любом компьютере.
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

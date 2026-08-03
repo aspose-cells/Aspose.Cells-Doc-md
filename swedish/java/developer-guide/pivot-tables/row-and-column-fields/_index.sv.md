@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till basfält i rad- och kolumnområdena i 
 keywords: Aspose.Cells, Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
-url: /sv/java/pivot-table-add-row-column-fields/
+url: /sv/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma datamängd och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i ett område saknar underlag för delsummor, så placera alltid minst två fält i rad- eller kolumnområdet när du vill att `setSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/java/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Java](/cells/sv/java/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

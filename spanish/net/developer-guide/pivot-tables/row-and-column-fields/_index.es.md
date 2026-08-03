@@ -5,7 +5,7 @@ description: Aprenda a agregar campos base a las regiones de fila y columna de u
 keywords: Aspose.Cells, .NET, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
-url: /es/net/pivot-table-add-row-column-fields/
+url: /es/net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -252,11 +252,4 @@ workbook.Save("output_custom.xlsx");
 ## **Resumen**
 
 Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `SetSubtotals` aplicada al campo de fila `Category` externo. Recuerde la regla de los dos campos: un solo campo en una región no tiene nada entre lo que calcular un subtotal, así que coloque siempre al menos dos campos en la región de fila o de columna cuando desee que `SetSubtotals` tenga un efecto visible.
-
-## **Artículos relacionados**
-
-- [Campos de página en tablas dinámicas](/cells/es/net/add-page-field-in-pivot-table/)
-- [Actualizar tablas dinámicas en Aspose.Cells for .NET](/cells/es/net/refresh-pivot-table/)
-- [Aplicar estilos a las tablas dinámicas](/cells/es/net/apply-style-to-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

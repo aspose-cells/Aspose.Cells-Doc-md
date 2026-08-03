@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable değer alanlarını yönetme
+title: Aspose.Cells for Node.js via Java'te PivotTable değer alanlarını yönetme
 linktitle: Değer Alanları
 description: Aspose.Cells for Node.js via Java'da bir pivot tablonun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özet fonksiyonunun nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
 keywords: Aspose.Cells, Node.js via Java, pivot tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /tr/nodejs-java/pivot-table-manage-value-fields/
+url: /tr/nodejs-java/manage-value-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -86,4 +86,4 @@ Bu senaryo, Senaryo 1'deki aynı pivot yapısından başlar, ancak `Amount` alan
 İki veri alanı yerinde olduğunda `PivotTable.getValuesField()` kullanılabilir hale gelir. Bu senaryo, bu toplam sanal alanını Sütun bölgesine sürükler, böylece veri bölgesindeki her ölçüm `Year` alanının yanında kendi sütun bloğu olarak görünür.
 Bir araya getirildiğinde, bu üç senaryo Aspose.Cells for Node.js via Java'da değer alanı yönetiminin her yönünü kapsar; varsayılan `SUM` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çok ölçümlü bir pivota kadar uzanır.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

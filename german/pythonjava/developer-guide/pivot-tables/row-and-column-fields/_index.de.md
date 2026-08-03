@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereich
 keywords: Aspose.Cells, Python via Java, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, setSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
-url: /de/python-java/pivot-table-add-row-column-fields/
+url: /de/python-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -258,11 +258,4 @@ jpype.shutdownJVM()
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der `setSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Beachten Sie die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine Zwischensumme dazwischen. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `setSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/python-java/add-page-field-in-pivot-table/)
-- [Pivot-Tabellen in Aspose.Cells for Python via Java aktualisieren](/cells/de/python-java/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/python-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python" >}}

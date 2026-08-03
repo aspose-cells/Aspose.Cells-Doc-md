@@ -6,7 +6,7 @@ keywords: Aspose.Cells Node.js via C++ pivot table style, PivotTableStyleType, A
 type: docs
 weight: 200
 url: /ar/nodejs-cpp/apply-style-to-pivot-table/
-ai_search_scope: cells_nodejs_cpp
+ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
@@ -397,4 +397,4 @@ workbook.save("output.xlsx");
 
 عند الشك، احفظ بصيغة `.xlsx` واستخدم `PivotTableStyleType` للسمات المضمنة، أو `PivotTableStyleName` للسمات المخصصة.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

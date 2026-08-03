@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /fr/nodejs-java/pivot-table-add-row-column-fields/
+url: /fr/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -239,11 +239,4 @@ workbook.save("output_custom.xlsx");
 ## **Récapitulatif**
 
 Les trois scénarios ci-dessus partagent le même jeu de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel à `setSubtotals` appliqué au champ de ligne externe `Category`. Rappelez-vous la règle des deux champs : un seul champ dans une région n'a rien à sous-totaliser, alors placez toujours au moins deux champs dans la région des lignes ou des colonnes lorsque vous souhaitez que `setSubtotals` ait un effet visible.
-
-## **Articles connexes**
-
-- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/nodejs-java/add-page-field-in-pivot-table/)
-- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Node.js via Java](/cells/fr/nodejs-java/refresh-pivot-table/)
-- [Application de styles aux tableaux croisés dynamiques](/cells/fr/nodejs-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

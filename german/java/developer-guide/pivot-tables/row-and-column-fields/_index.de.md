@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereich
 keywords: Aspose.Cells, Java, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, setSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
-url: /de/java/pivot-table-add-row-column-fields/
+url: /de/java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -246,11 +246,4 @@ workbook.save("output_custom.xlsx");
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der `setSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Denken Sie an die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine Zwischensumme. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `setSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/java/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="java" >}}

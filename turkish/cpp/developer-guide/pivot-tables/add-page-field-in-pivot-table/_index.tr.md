@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+title: Aspose.Cells for C++'te PivotTable'a filtre alanları ekleme
 linktitle: Filtre Alanları Ekleme
 description: Aspose.Cells for C++ kullanarak pivot tablolarda filtre alanlarını nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin, filtre alanı ekleme, tek seçimli filtreleme ve çoklu seçim filtreleme dahil.
 keywords: Aspose.Cells, C++, pivot tablosu, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /tr/cpp/add-filter-field-in-pivot-table/
+url: /tr/cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

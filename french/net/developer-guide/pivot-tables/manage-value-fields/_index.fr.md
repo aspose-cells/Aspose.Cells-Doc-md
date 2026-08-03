@@ -5,7 +5,7 @@ description: Apprenez à ajouter des champs de base à la zone de données d'un 
 keywords: Aspose.Cells, .NET, tableau croisé dynamique, champ de valeur, PivotField, PivotField.Function, champ de données, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
-url: /fr/net/pivot-table-manage-value-fields/
+url: /fr/net/manage-value-fields/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

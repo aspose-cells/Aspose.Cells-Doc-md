@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /es/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /es/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -237,11 +237,4 @@ workbook.save("output_custom.xlsx");
 ## **Resumen**
 
 Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `SetSubtotals` aplicada al campo de fila exterior `Category`. Recuerde la regla de los dos campos: un solo campo en una región no tiene nada entre lo que calcular un subtotal, así que coloque siempre al menos dos campos en la región de fila o columna cuando quiera que `SetSubtotals` tenga un efecto visible.
-
-## **Artículos relacionados**
-
-- [Campos de página en tablas dinámicas](/cells/es/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Actualización de tablas dinámicas en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/refresh-pivot-table/)
-- [Aplicar estilos a tablas dinámicas](/cells/es/nodejs-cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

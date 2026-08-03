@@ -228,7 +228,6 @@ workbook.Save("output.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-using Aspose.Cells.Tables;
 using System.Drawing;
 
 Workbook workbook = new Workbook();
@@ -427,9 +426,4 @@ workbook.Save("output.xlsx");
 | Любой формат (единообразное переопределение) | `PivotTable.FormatAll(Style)` | Сокращение, которое переопределяет все остальные настройки стилей по всей сводной таблице. |
 
 В случае сомнений сохраняйте в формате `.xlsx` и используйте `PivotTableStyleType` для встроенных тем или `PivotTableStyleName` для пользовательских тем.
-
-## **Связанные статьи**
-
-- [Обновление сводных таблиц в Aspose.Cells for .NET](/cells/ru/net/refresh-pivot-table/)
-
 {{< app/cells/assistant language="csharp" >}}

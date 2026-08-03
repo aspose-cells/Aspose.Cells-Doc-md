@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /de/nodejs-java/pivot-table-add-row-column-fields/
+url: /de/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -240,12 +240,6 @@ workbook.save("output_custom.xlsx");
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Pivot-Tabellenstruktur. Der einzige Unterschied zwischen ihnen ist der `setSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Denken Sie an die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine Möglichkeit zur Zwischensummenbildung dazwischen. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `setSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/nodejs-java/apply-style-to-pivot-table/)
 `javascript
 ```javascript
 let workbook = new AsposeCells.Workbook();
@@ -308,7 +302,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -353,7 +346,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -421,7 +413,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
@@ -487,7 +478,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_automatic.xlsx");
@@ -532,7 +522,6 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_none.xlsx");
@@ -600,7 +589,6 @@ let categoryField = pivotTable.getRowFields().get(0);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
 categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
 
-pivotTable.refreshData();
 pivotTable.calculateData();
 
 workbook.save("output_custom.xlsx");
@@ -609,11 +597,4 @@ workbook.save("output_custom.xlsx");
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe Pivot-Tabellenstruktur. Der einzige Unterschied zwischen ihnen ist der `setSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Denken Sie an die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine sinnvolle Möglichkeit zur Zwischensummenbildung dazwischen. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `setSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in Pivot-Tabellen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
-- [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/refresh-pivot-table/)
-- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/nodejs-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

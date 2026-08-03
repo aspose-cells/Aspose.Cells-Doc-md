@@ -3,7 +3,9 @@ title: Infoga pivot tabell
 linktitle: Pivot tabeller
 type: docs
 weight: 160
-url: /sv/python-net/create-pivot-table/
+url: /sv/python-net/pivot-tables/
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Skapa och formatera pivot tabell med Aspose.Cells för Python via .NET.
 keywords: Skapa pivot tabell, Infoga pivot tabell, Formatera pivot tabell.
 ---

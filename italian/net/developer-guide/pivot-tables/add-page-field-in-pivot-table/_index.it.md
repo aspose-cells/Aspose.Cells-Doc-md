@@ -5,7 +5,7 @@ description: Scopri come aggiungere e configurare i campi filtro nelle tabelle p
 keywords: Aspose.Cells, .NET, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/net/add-filter-field-in-pivot-table/
+url: /it/net/add-page-field-in-pivot-table/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -304,7 +304,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivots[pivotIndex];
 
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");

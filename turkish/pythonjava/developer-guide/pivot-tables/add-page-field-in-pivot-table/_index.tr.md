@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+title: Aspose.Cells for Python via Java'te PivotTable'a filtre alanları ekleme
 linktitle: Filtre Alanları Ekleme
 description: Aspose.Cells for Python via Java kullanarak özet tablolarda filtre alanlarını eklemeyi ve yapılandırmayı öğrenin; filtre alanı ekleme, tekli seçim filtreleme ve çoklu seçim filtreleme dahil.
 keywords: Aspose.Cells, Python, Java, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter, özet tablo, filtre alanı, filtreleme
 type: docs
 weight: 250
-url: /tr/python-java/add-filter-field-in-pivot-table/
+url: /tr/python-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

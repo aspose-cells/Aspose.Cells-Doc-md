@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'lara stil uygulama
+title: Aspose.Cells for Python via Java'te PivotTable'lara stil uygulama
 linktitle: PivotTable Stillerini Uygulama
 description: Aspose.Cells for Python via Java'da pivot tablolara yerleşik ve özel stillerin nasıl uygulanacağını öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu ele alınmaktadır.
 keywords: Aspose.Cells Python via Java pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles

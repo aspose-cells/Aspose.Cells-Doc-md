@@ -1,11 +1,11 @@
 ---
-title: 在 Aspose.Cells for .NET 中向数据透视表添加筛选字段
+title: 在 Aspose.Cells for Python via .NET 中向数据透视表添加筛选字段
 linktitle: 添加筛选字段
 description: 学习如何使用 Aspose.Cells for Python via .NET 在数据透视表中添加和配置页字段，包括添加页字段、单选过滤和多选过滤。
 keywords: Aspose.Cells, Python via .NET, 数据透视表, 页字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 过滤
 type: docs
 weight: 250
-url: /zh/python-net/add-filter-field-in-pivot-table/
+url: /zh/python-net/add-page-field-in-pivot-table/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -323,4 +323,4 @@ workbook.save("output.xlsx")
 配置多选过滤时，请务必牢记可见性约束。如果多选页字段中的每个 `PivotItem` 都被隐藏，Excel 在打开时会崩溃，或渲染出空白透视表。请根据源数据构建白名单，确保至少有一项保持可见，这样保存的工作簿才能在每台机器上可靠打开。
 {{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

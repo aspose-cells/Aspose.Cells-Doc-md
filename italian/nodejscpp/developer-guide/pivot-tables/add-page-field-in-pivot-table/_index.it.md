@@ -5,7 +5,7 @@ description: Impara come aggiungere e configurare i campi filtro nelle tabelle p
 keywords: Aspose.Cells, Node.js via C++, tabella pivot, campo filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
-url: /it/nodejs-cpp/add-filter-field-in-pivot-table/
+url: /it/nodejs-cpp/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -310,4 +310,4 @@ La tabella seguente riassume quando utilizzare ciascuna API e modalità, così p
 Ricorda sempre il vincolo di visibilità quando configuri il filtraggio a selezione multipla. Se ogni `PivotItem` in un campo filtro a selezione multipla è nascosto, Excel si blocca all'apertura oppure renderizza una pivot vuota. Costruisci la tua whitelist sui tuoi dati di origine in modo che almeno un elemento rimanga visibile, e le tue cartelle di lavoro salvate si apriranno in modo affidabile su ogni macchina.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,5 +1,5 @@
 ---
-title: 在 Aspose.Cells for .NET 中应用数据透视表样式
+title: 在 Aspose.Cells for Python via .NET 中应用数据透视表样式
 linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for Python via .NET 中为透视表应用内置和自定义样式,涵盖传统 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells Python via .NET pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
@@ -420,4 +420,4 @@ workbook.save("output.xlsx")
 
 如有疑问,请保存为 `.xlsx`,并对内置主题使用 `pivot_table_style_type`,对自定义主题使用 `pivot_table_style_name`。
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

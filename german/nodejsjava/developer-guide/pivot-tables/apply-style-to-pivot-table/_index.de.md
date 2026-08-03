@@ -400,4 +400,4 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden Sie `pivotTableStyleType` für integrierte Designs oder `pivotTableStyleName` für benutzerdefinierte Designs.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

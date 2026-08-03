@@ -5,7 +5,7 @@ description: Scopri come aggiungere campi di base alle aree righe e colonne di u
 keywords: Aspose.Cells, Python via .NET, tabella pivot, campo riga, campo colonna, PivotField, set_subtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
-url: /it/python-net/pivot-table-add-row-column-fields/
+url: /it/python-net/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -241,11 +241,4 @@ workbook.save("output_custom.xlsx")
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di tabella pivot. L'unica differenza tra di essi è la chiamata a `set_subtotals` applicata al campo riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in un'area non ha nulla da subtotalizzare, quindi è sempre necessario inserire almeno due campi nell'area righe o colonne quando si desidera che `set_subtotals` abbia un effetto visibile.
-
-## **Articoli correlati**
-
-- [Campi Pagina nelle Tabelle Pivot](/cells/it/python-net/add-page-field-in-pivot-table/)
-- [Aggiornamento delle Tabelle Pivot in Aspose.Cells for Python via .NET](/cells/it/python-net/refresh-pivot-table/)
-- [Applicazione di Stili alle Tabelle Pivot](/cells/it/python-net/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python-net" >}}

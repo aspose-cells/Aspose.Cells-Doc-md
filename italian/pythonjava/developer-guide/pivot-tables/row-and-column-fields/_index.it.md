@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /it/python-java/pivot-table-add-row-column-fields/
+url: /it/python-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -257,11 +257,4 @@ jpype.shutdownJVM()
 ## **Riepilogo**
 
 I tre scenari precedenti condividono lo stesso set di dati e la stessa struttura di tabella pivot. L'unica differenza tra essi è la chiamata a `setSubtotals` applicata al campo di riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in una regione non ha nulla da subtotalizzare, quindi posiziona sempre almeno due campi nella regione di riga o colonna quando desideri che `setSubtotals` abbia un effetto visibile.
-
-## **Articoli correlati**
-
-- [Campi pagina nelle tabelle pivot](/cells/it/python-java/add-page-field-in-pivot-table/)
-- [Aggiornamento delle tabelle pivot in Aspose.Cells for Python via Java](/cells/it/python-java/refresh-pivot-table/)
-- [Applicazione di stili alle tabelle pivot](/cells/it/python-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="python" >}}

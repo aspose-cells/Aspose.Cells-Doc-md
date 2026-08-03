@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereich
 keywords: Aspose.Cells, Node.js, C++, PivotTable, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
-url: /de/nodejs-cpp/pivot-table-add-row-column-fields/
+url: /de/nodejs-cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -199,11 +199,4 @@ workbook.save("output_custom.xlsx");
 ## **Zusammenfassung**
 
 Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der Aufruf von `SetSubtotals`, der auf das äußere Zeilenfeld `Category` angewendet wird. Denken Sie an die Regel mit den zwei Feldern: Ein einzelnes Feld in einem Bereich hat keine Grundlage für eine Zwischensumme. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `SetSubtotals` eine sichtbare Wirkung hat.
-
-## **Verwandte Artikel**
-
-- [Seitenfelder in PivotTable](/cells/de/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Aktualisieren von PivotTable in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/refresh-pivot-table/)
-- [Anwenden von Stilen auf PivotTable](/cells/de/nodejs-cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

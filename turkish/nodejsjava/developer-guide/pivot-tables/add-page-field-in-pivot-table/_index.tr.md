@@ -1,11 +1,11 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme
+title: Aspose.Cells for Node.js via Java'te PivotTable'a filtre alanları ekleme
 linktitle: Filtre Alanları Ekleme
 description: Aspose.Cells for Node.js via Java kullanarak pivot tablolarda filtre alanları eklemeyi ve yapılandırmayı öğrenin; filtre alanı ekleme, tek seçimli filtreleme ve çoklu seçim filtreleme dahil.
 keywords: Aspose.Cells, Node.js via Java, pivot tablosu, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
-url: /tr/nodejs-java/add-filter-field-in-pivot-table/
+url: /tr/nodejs-java/add-page-field-in-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -317,4 +317,4 @@ Aşağıdaki tablo, her API'nin ve modun ne zaman kullanılacağını özetler; 
 Çoklu seçim filtrelemesini yapılandırırken görünürlük kısıtlamasını her zaman aklınızda bulundurun. Çoklu seçim filtre alanındaki her `PivotItem` gizliyse, Excel dosyayı açarken çöker veya boş bir pivot işler. Beyaz listenizi, en az bir öğenin görünür kalacağı şekilde kaynak verilerinize göre oluşturun; böylece kaydedilen çalışma kitaplarınız her makinede güvenilir şekilde açılır.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

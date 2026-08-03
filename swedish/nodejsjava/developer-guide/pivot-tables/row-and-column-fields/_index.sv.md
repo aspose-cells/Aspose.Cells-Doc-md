@@ -5,7 +5,7 @@ description: Learn how to add base fields to the row and column regions of a piv
 keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
 type: docs
 weight: 220
-url: /sv/nodejs-java/pivot-table-add-row-column-fields/
+url: /sv/nodejs-java/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -239,22 +239,6 @@ workbook.save("output_custom.xlsx");
 ## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i en region har inget att summera mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/nodejs-java/apply-style-to-pivot-table/)
-- The product name appears correctly: "Aspose.Cells for Node.js via Java" (only once in each phrase)
-- All CODE_BLOCK placeholders are preserved with same numbers (0, 1, 2)
-- YAML structure is correct with --- delimiters
-- Keys are in English: title, description, keywords, type, weight, url
-- linktitle key preserved
-- The shortcode at the end preserved as-is
-- The alert block translated
-- API names preserved(PivotField, PivotFieldType, PivotFieldSubtotalType, etc.)
-
-
 Rad- och kolumnfält är byggstenarna i en pivottabell. Ett fält som placeras i radregionen visas vertikalt till vänster i pivottabellen, medan ett fält som placeras i kolumnregionen visas horisontellt överst. Den här artikeln visar hur du lägger till basfält i dessa regioner programmatiskt och hur du styr delsummorna som renderas mellan fältgrupper med metoden `PivotField.setSubtotals`.
 
 ## **Lägga till ett fält i rad- eller kolumnregionen**
@@ -302,11 +286,4 @@ Att anropa `setSubtotals(PivotFieldSubtotalType.NONE, true)` tar bort alla delsu
 Du är inte begränsad till en enda delsummatyp. Varje `setSubtotals`-anrop fungerar oberoende på en typ, så att anropa metoden två gånger — en gång med `SUM` och en gång med `AVERAGE` — skapar en anpassad delmängd av två delsummerader för varje `Category`-grupp.## **Sammanfattning**
 
 De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i en region har inget att summera mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
-
-## **Relaterade artiklar**
-
-- [Sidfält i pivottabeller](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
-- [Uppdatera pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/refresh-pivot-table/)
-- [Tillämpa stilar på pivottabeller](/cells/sv/nodejs-java/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

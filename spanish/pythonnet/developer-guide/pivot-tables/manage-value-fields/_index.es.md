@@ -5,7 +5,7 @@ description: Aprenda a agregar campos base a la región de datos de una tabla di
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de valor, PivotField, PivotField.function, campo de datos, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
-url: /es/python-net/pivot-table-manage-value-fields/
+url: /es/python-net/manage-value-fields/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -190,4 +190,4 @@ workbook.save("output_plot.xlsx")
 
 Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Python via .NET, from a single data field with the default `Sum` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

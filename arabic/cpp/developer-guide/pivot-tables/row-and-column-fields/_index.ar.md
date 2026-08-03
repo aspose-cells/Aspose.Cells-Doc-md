@@ -5,7 +5,7 @@ description: تعلّم كيفية إضافة حقول أساسية إلى من�
 keywords: Aspose.Cells, C++, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, الإجماليات الفرعية
 type: docs
 weight: 220
-url: /ar/cpp/pivot-table-add-row-column-fields/
+url: /ar/cpp/pivot-table-add-row-and-column-fields/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
@@ -268,11 +268,4 @@ int main() {
 ## **ملخص**
 
 تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات ونفس بنية الجدول المحوري. الاختلاف الوحيد بينها هو استدعاء `SetSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكّر قاعدة الحقلين: الحقل الواحد في منطقة ما لا يوجد ما يمكن حساب إجمالي فرعي بينه وبين غيره، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لـ `SetSubtotals` تأثير مرئي.
-
-## **مقالات ذات صلة**
-
-- [حقول الصفحات في الجداول المحورية](/cells/ar/cpp/add-page-field-in-pivot-table/)
-- [تحديث الجداول المحورية في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)
-- [تطبيق الأنماط على الجداول المحورية](/cells/ar/cpp/apply-style-to-pivot-table/)
-
-{{< app/cells/assistant language="csharp" >}}
+{{< app/cells/assistant language="cpp" >}}

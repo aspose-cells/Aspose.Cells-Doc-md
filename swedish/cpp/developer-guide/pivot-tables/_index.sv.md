@@ -1,8 +1,13 @@
 ---
 title: Skapa Pivot tabel
+linktitle: Skapa Pivot tabel
 type: docs
 weight: 160
-url: /sv/cpp/create-pivot-table/
+url: /sv/cpp/pivot-tables/
+description: Skapa och formatera pivot tabell med Aspose.Cells för Python via .NET.
+keywords: Skapa pivot tabell, Infoga pivot tabell, Formatera pivot tabell.
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Introduktion**
