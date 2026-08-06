@@ -109,8 +109,6 @@ int main() {
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
 
     // 刷新并重新计算数据透视表以使筛选器生效
-    pivotTable.RefreshData();
-
     // 保存工作簿
     workbook.Save(U16String(outputPath.c_str()));
 
@@ -155,8 +153,6 @@ int main() {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
 
-    pivotTable.RefreshData();
-
     wb.Save(u"output.xlsx");
 
     Aspose::Cells::Cleanup();
@@ -198,8 +194,6 @@ int main() {
     int valueFieldIndex = 0;
 
     rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
-
-    pivotTable.RefreshData();
 
     workbook.Save(outputPath);
 

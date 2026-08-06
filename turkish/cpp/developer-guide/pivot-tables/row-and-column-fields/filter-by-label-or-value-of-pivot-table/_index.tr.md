@@ -130,8 +130,6 @@ int main() {
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
 
     // Filtrenin geçerli olması için pivot tablosunu yenile ve yeniden hesapla
-    pivotTable.RefreshData();
-
     // Çalışma kitabını kaydet
     workbook.Save(U16String(outputPath.c_str()));
 
@@ -180,8 +178,6 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
-
-    pivotTable.RefreshData();
 
     wb.Save(u"output.xlsx");
 
@@ -232,8 +228,6 @@ int main() {
     int valueFieldIndex = 0;
 
     rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
-
-    pivotTable.RefreshData();
 
     workbook.Save(outputPath);
 

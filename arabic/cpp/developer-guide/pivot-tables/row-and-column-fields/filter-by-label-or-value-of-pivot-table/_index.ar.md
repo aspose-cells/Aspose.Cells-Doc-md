@@ -151,8 +151,6 @@ int main() {
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
 
     // تحديث وإعادة حساب الجدول المحوري حتى يسري المرشح
-    pivotTable.RefreshData();
-
     // حفظ ملف العمل
     workbook.Save(U16String(outputPath.c_str()));
 
@@ -201,8 +199,6 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
-
-    pivotTable.RefreshData();
 
     wb.Save(u"output.xlsx");
 
@@ -253,8 +249,6 @@ int main() {
     int valueFieldIndex = 0;
 
     rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
-
-    pivotTable.RefreshData();
 
     workbook.Save(outputPath);
 

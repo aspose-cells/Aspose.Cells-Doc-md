@@ -128,8 +128,6 @@ int main() {
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
 
     // Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
-    pivotTable.RefreshData();
-
     // Enregistrer le classeur
     workbook.Save(U16String(outputPath.c_str()));
 
@@ -178,8 +176,6 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
-
-    pivotTable.RefreshData();
 
     wb.Save(u"output.xlsx");
 
@@ -230,8 +226,6 @@ int main() {
     int valueFieldIndex = 0;
 
     rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
-
-    pivotTable.RefreshData();
 
     workbook.Save(outputPath);
 
