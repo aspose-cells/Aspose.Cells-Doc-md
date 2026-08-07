@@ -47,6 +47,15 @@ the parameters for load options:
 | `allowSelectTextInTextBoxInReadMode` | Whether to allow text selection in TextBox controls when in read-only mode.<br>The default value is `false`. | `false` | Yes |
 | `checkSyntax` | Whether to perform syntax checking and spell correction for user input in text content.<br>Works with `setSyntaxCheckUrl`.<br>The default value is `false`. | `false` | Yes |
 | `enableRedactionShape` | Whether to enable the readaction feature. | `false` | Yes |
+| `headerFont` | The font settings object for rendering both the column headers (A, B, C, ...) and the row headers (1, 2, 3, ...) in the canvas.<br>The sub-properties are `name`, `size`, `weight`, `bold`, `italic`, `color`, they are all optional.<br>For example: `headerFont: {'name':'Arial', 'size':14, 'bold':true, 'color':'#333333'}` | `{'name':'Source Sans Pro', 'size':12, 'weight':500, 'color':'#585757'}` | Yes |
+| `headerFont.name` | The font family name for the header text. | `Source Sans Pro` | Yes |
+| `headerFont.size` | The font size (in px) for the header text. | `12` | Yes |
+| `headerFont.weight` | The font weight for the header text, can be a number such as `400`, `500`, or a keyword such as `bold`.<br>If not set and `bold` is `true`, the weight `bold` is used. | `500` | Yes |
+| `headerFont.bold` | Whether to use bold header text, a shorthand for `weight:'bold'`. | `false` | Yes |
+| `headerFont.italic` | Whether to use italic header text. | `false` | Yes |
+| `headerFont.color` | The text color for the headers. | `#585757` | Yes |
+| `colHeaderFont` | The font settings object for rendering only the column headers (A, B, C, ...) in the canvas.<br>It has the same sub-properties as `headerFont`; the provided sub-properties override the corresponding values in `headerFont` field by field.<br>For example, with `headerFont: {'size':14}` and `colHeaderFont: {'bold':true}`, the column headers use size 14 and bold, while the row headers use size 14 only. | None | Yes |
+| `rowHeaderFont` | The font settings object for rendering only the row headers (1, 2, 3, ...) in the canvas.<br>It has the same sub-properties as `headerFont`; the provided sub-properties override the corresponding values in `headerFont` field by field. | None | Yes |
 | `isCollaborative` | Whether to enable collaborative mode. | `false` | Yes |
 | `loadingGif` | The URL of the loading GIF to display when loading images or shapes.<br>The default value is `content/img/updating.gif`. | `content/img/updating.gif` | Yes |
 | `locale` | Sets localization information for menus and toolbars, supporting multiple languages.<br>Possible values include:<br>- `en`, `zh`, `es`, `pt`(for English, Chinese, Spanish, Portuguese)<br>- `de`, `ru`, `nl`, `pl` (for German, Russian, Dutch, Polish)<br>- `ar`, `fr`, `id`, `it`, `ja` (for Arabic, French, Indonesian, Italian, Japanese)<br>- `ko`, `th`, `tr`, `vi`, `cht` (for Korean, Thai, Turkish, Vietnamese, Traditional Chinese) | `en` | Yes |
