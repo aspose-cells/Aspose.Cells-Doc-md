@@ -10,28 +10,9 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 ## Adding a Field to the Data Region
 
 Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.add_field_to_area(PivotFieldType, str)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.data_fields` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `Count`.
-
-## Changing the Summary Function
-
-{{% alert color="primary" %}}
-Changing `function` only affects the aggregate, the source column does not change.
-{{% /alert %}}
-
-## Plotting Value Fields to Row or Column Axis
-
-When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.values_field`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
-
-{{% alert color="primary" %}}
-`PivotTable.values_field` does not work if there is no or only one value field.
-{{% /alert %}}
-
-## Scenario 1 — Dragging a Base Field into the Value Region
-
-This scenario shows how to put a single base field (`Amount`) into the data region of an existing pivot table. The shared pivot structure places `Category` and `Item` on the Row axis and `Year` on the Column axis. After the operation, `Amount` appears in the data region and is computed as the `Sum` of `Amount` by default.
 
 ```python
 from aspose.cells.pivot import PivotFieldType
@@ -94,7 +75,11 @@ pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
-## Scenario 2 — Changing the Summary Function
+## Changing the Summary Function
+
+{{% alert color="primary" %}}
+Changing `function` only affects the aggregate, the source column does not change.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -140,9 +125,13 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Scenario 3 — Plotting Value Fields to Row or Column Axis
+## Plotting Value Fields to Row or Column Axis
 
-With two data fields in place, `PivotTable.values_field` becomes usable. This scenario drags that aggregate virtual field onto the Column region so that every measure in the data region appears as its own column block next to `Year`.
+When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.values_field`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
+
+{{% alert color="primary" %}}
+`PivotTable.values_field` does not work if there is no or only one value field.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -187,7 +176,5 @@ pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")
 ```
-
-Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Python via .NET, from a single data field with the default `Sum` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
 
 {{< app/cells/assistant language="python-net" >}}

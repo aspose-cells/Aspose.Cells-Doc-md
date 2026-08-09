@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Ajout d'un champ à la zone de données
 L'ajout d'un champ de base à la zone de données (valeur) est la première étape pour façonner la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.add_field_to_area(PivotFieldType, str)`, une surcharge qui accepte la constante `PivotFieldType.DATA` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.data_fields`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est résumée avec `ConsolidationFunction.SUM`, tandis qu'une colonne non numérique utilise `Count` par défaut.
-## Modification de la fonction de synthèse
-Chaque champ placé dans la zone de données est encapsulé en interne sous forme d'instance `PivotField`, et sa propriété `function` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `function` vous permet de basculer entre les agrégats disponibles, notamment `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` et `Varp`.
-{{% alert color="primary" %}}
-La modification de `function` affecte uniquement l'agrégat, la colonne source ne change pas.
-{{% /alert %}}
-Vous pouvez donc laisser un champ de données en `Sum` tout en ajoutant un second champ de données ciblant la même colonne source mais utilisant `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
-## Tracer les champs de valeur sur l'axe Ligne ou Colonne
-Lorsqu'un tableau croisé dynamique contient au moins deux champs de données, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.values_field`. Ce champ virtuel représente l'agrégat de chaque champ de données présent dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ pivot de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
-{{% alert color="primary" %}}
-`PivotTable.values_field` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
-{{% /alert %}}
-Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque fonctionnalité décrite ci-dessus sur la même structure de tableau croisé dynamique.
-## Scénario 1 — Glisser un champ de base dans la zone Valeur
-Ce scénario montre comment placer un seul champ de base (`Amount`) dans la zone de données d'un tableau croisé dynamique existant. La structure de tableau croisé dynamique partagée place `Category` et `Item` sur l'axe Ligne et `Year` sur l'axe Colonne. Après l'opération, `Amount` apparaît dans la zone de données et est calculé comme la `Sum` de `Amount` par défaut.
+
 ```python
 from aspose.cells.pivot import PivotFieldType
 
@@ -86,8 +73,14 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
-## Scénario 2 — Modification de la fonction de synthèse
-Ce scénario démarre à partir de la même structure de tableau croisé dynamique que le Scénario 1, mais ajoute le champ `Amount` deux fois à la zone de données. Les deux champs de données font référence à la même colonne source, toutefois le second champ est remplacé à l'aide du setter `PivotField.function` afin qu'il devienne `Count` au lieu du `Sum` par défaut.
+
+## Modification de la fonction de synthèse
+Chaque champ placé dans la zone de données est encapsulé en interne sous forme d'instance `PivotField`, et sa propriété `function` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `function` vous permet de basculer entre les agrégats disponibles, notamment `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` et `Varp`.
+{{% alert color="primary" %}}
+La modification de `function` affecte uniquement l'agrégat, la colonne source ne change pas.
+{{% /alert %}}
+Vous pouvez donc laisser un champ de données en `Sum` tout en ajoutant un second champ de données ciblant la même colonne source mais utilisant `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
+
 ```python
 import aspose.cells as ac
 
@@ -131,8 +124,14 @@ pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
 ```
-## Scénario 3 — Tracer les champs de valeur sur l'axe Ligne ou Colonne
-Avec deux champs de données en place, `PivotTable.values_field` devient utilisable. Ce scénario fait glisser ce champ virtuel agrégé sur la zone Colonne afin que chaque mesure de la zone de données apparaisse comme son propre bloc de colonnes à côté de `Year`.
+
+## Tracer les champs de valeur sur l'axe Ligne ou Colonne
+Lorsqu'un tableau croisé dynamique contient au moins deux champs de données, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.values_field`. Ce champ virtuel représente l'agrégat de chaque champ de données présent dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ pivot de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
+{{% alert color="primary" %}}
+`PivotTable.values_field` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
+{{% /alert %}}
+Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque fonctionnalité décrite ci-dessus sur la même structure de tableau croisé dynamique.
+
 ```python
 import aspose.cells as ac
 
@@ -176,6 +175,5 @@ pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")
 ```
-Ensemble, ces trois scénarios couvrent chaque aspect de la manipulation des champs de valeur dans Aspose.Cells for Python via .NET, d'un seul champ de données avec le `Sum` par défaut à un tableau croisé dynamique multi-mesures dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
 
 {{< app/cells/assistant language="python-net" >}}

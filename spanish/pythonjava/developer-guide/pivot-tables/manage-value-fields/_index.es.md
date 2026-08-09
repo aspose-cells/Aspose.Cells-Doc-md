@@ -14,30 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Añadir un campo base a la región de datos (valor) es el primer paso para dar forma a cómo una tabla dinámica agrega sus datos de origen. Aspose.Cells expone `PivotTable.addFieldToArea(PivotFieldType, string)`, una sobrecarga que acepta la constante `PivotFieldType.DATA` y el nombre de la columna de origen. Una vez que se añade un campo a la región de datos, la API lo expone a través de la colección `PivotTable.DataFields`, en el orden en que se añadieron los campos. Por defecto, una columna de origen numérica se resume con `ConsolidationFunction.SUM`, mientras que una columna no numérica utiliza `COUNT` por defecto.
 
-## Cambiar la Función de Resumen
-
-Cada campo colocado en la región de datos se envuelve internamente como una instancia de `PivotField`, y su propiedad `Function` devuelve un valor de la enumeración `ConsolidationFunction`. El mismo setter `Function` le permite cambiar entre los agregados disponibles, incluyendo `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` y `VARP`.
-
-{{% alert color="primary" %}}
-Cambiar `Function` solo afecta al agregado, la columna de origen no cambia.
-{{% /alert %}}
-
-Por lo tanto, puede dejar un campo de datos como `SUM` mientras añade un segundo campo de datos que apunte a la misma columna de origen pero use `COUNT` o `AVERAGE`, todo en una sola tabla dinámica.
-
-## Colocar Campos de Valor en el Eje de Filas o Columnas
-
-Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells expone un campo virtual adicional llamado `PivotTable.ValuesField`. Este campo virtual representa el agregado de cada campo de datos que reside en la región de datos. Puede arrastrarlo a la región de Filas o Columnas como un campo dinámico base, lo cual resulta útil para disponer múltiples medidas una junto a otra.
-
-{{% alert color="primary" %}}
-`PivotTable.ValuesField` no funciona si no hay ningún campo de valor o si solo hay uno.
-{{% /alert %}}
-
-Los escenarios a continuación recorren tres ejemplos de extremo a extremo que demuestran cada capacidad descrita anteriormente contra la misma estructura de tabla dinámica.
-
-## Escenario 1 — Arrastrar un Campo Base a la Región de Valor
-
-Este escenario muestra cómo colocar un único campo base (`Amount`) en la región de datos de una tabla dinámica existente. La estructura compartida de la tabla dinámica coloca `Category` e `Item` en el eje de Filas y `Year` en el eje de Columnas. Tras la operación, `Amount` aparece en la región de datos y se calcula como la `Sum` de `Amount` por defecto.
-
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
@@ -75,9 +51,15 @@ pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
-## Escenario 2 — Cambiar la Función de Resumen
+## Cambiar la Función de Resumen
 
-Este escenario parte de la misma estructura de tabla dinámica que el Escenario 1 pero añade el campo `Amount` a la región de datos dos veces. Ambos campos de datos hacen referencia a la misma columna de origen, sin embargo, el segundo campo se sobrescribe usando el setter `PivotField.Function` para que se convierta en `Count` en lugar del `Sum` por defecto.
+Cada campo colocado en la región de datos se envuelve internamente como una instancia de `PivotField`, y su propiedad `Function` devuelve un valor de la enumeración `ConsolidationFunction`. El mismo setter `Function` le permite cambiar entre los agregados disponibles, incluyendo `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` y `VARP`.
+
+{{% alert color="primary" %}}
+Cambiar `Function` solo afecta al agregado, la columna de origen no cambia.
+{{% /alert %}}
+
+Por lo tanto, puede dejar un campo de datos como `SUM` mientras añade un segundo campo de datos que apunte a la misma columna de origen pero use `COUNT` o `AVERAGE`, todo en una sola tabla dinámica.
 
 ```python
 import aspose.cells as ac
@@ -118,9 +100,15 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Escenario 3 — Colocar Campos de Valor en el Eje de Filas o Columnas
+## Colocar Campos de Valor en el Eje de Filas o Columnas
 
-Con dos campos de datos en su lugar, `PivotTable.ValuesField` pasa a ser utilizable. Este escenario arrastra ese campo virtual agregado a la región de Columnas de modo que cada medida en la región de datos aparezca como su propio bloque de columnas junto a `Year`.
+Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells expone un campo virtual adicional llamado `PivotTable.ValuesField`. Este campo virtual representa el agregado de cada campo de datos que reside en la región de datos. Puede arrastrarlo a la región de Filas o Columnas como un campo dinámico base, lo cual resulta útil para disponer múltiples medidas una junto a otra.
+
+{{% alert color="primary" %}}
+`PivotTable.ValuesField` no funciona si no hay ningún campo de valor o si solo hay uno.
+{{% /alert %}}
+
+Los escenarios a continuación recorren tres ejemplos de extremo a extremo que demuestran cada capacidad descrita anteriormente contra la misma estructura de tabla dinámica.
 
 ```python
 import aspose.cells as ac
@@ -161,7 +149,5 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.na
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
-
-En conjunto, estos tres escenarios cubren todos los aspectos de la manipulación de campos de valor en Aspose.Cells for Python via Java, desde un único campo de datos con el `Sum` por defecto hasta una tabla dinámica con múltiples medidas en la que el `ValuesField` virtual controla el diseño en el eje de Filas o Columnas.
 
 {{< app/cells/assistant language="python" >}}

@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## 将字段添加到数据区域
 将基础字段添加到数据（值）区域是塑造数据透视表如何汇总源数据的第一步。Aspose.Cells 公开了 `PivotTable.addFieldToArea(PivotFieldType, String)` 重载方法，该方法接受常量 `PivotFieldType.DATA` 和源列名称作为参数。字段被添加到数据区域后，API 会通过 `PivotTable.getDataFields()` 集合按字段添加的顺序将其公开。默认情况下，数值型源列使用 `ConsolidationFunction.SUM` 进行汇总，而非数值型列默认使用 `COUNT`。
-## 更改汇总函数
-数据区域中的每个字段在内部都被包装为 `PivotField` 实例，其 `getFunction()` 属性返回 `ConsolidationFunction` 枚举中的一个值。同一 `setFunction(...)` setter 允许您在可用的汇总函数之间切换，包括 `SUM`、`COUNT`、`AVERAGE`、`MAX`、`MIN`、`PRODUCT`、`STD_DEV`、`STD_DEVP`、`VAR` 和 `VARP`。
-{{% alert color="primary" %}}
-更改 `Function` 仅影响汇总方式，源列不会改变。
-{{% /alert %}}
-因此，您可以在同一个数据透视表中保留一个 `SUM` 的数据字段，同时添加第二个针对同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段。
-## 将值字段绘制到行轴或列轴
-当数据透视表包含两个或更多数据字段时，Aspose.Cells 会公开一个名为 `PivotTable.getValuesField()` 的额外虚拟字段。该虚拟字段表示数据区域中每个数据字段的汇总。您可以将其作为基础数据透视字段拖到行区域或列区域，这对于并排排列多个度量值非常有用。
-{{% alert color="primary" %}}
-如果没有值字段或仅有一个值字段，`PivotTable.getValuesField()` 不起作用。
-{{% /alert %}}
-以下场景通过三个端到端示例演示了上述每个功能，这些示例都针对相同的数据透视结构。
-## 场景 1 — 将基础字段拖动到值区域
-此场景演示如何将单个基础字段（`Amount`）放入现有数据透视表的数据区域。共享的数据透视结构将 `Category` 和 `Item` 放在行轴上，将 `Year` 放在列轴上。操作完成后，`Amount` 将出现在数据区域中，默认按 `Amount` 的 `Sum` 进行计算。
+
 ```java
 import com.aspose.cells.*;
 
@@ -85,8 +72,14 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
-## 场景 2 — 更改汇总函数
-此场景从与场景 1 相同的数据透视结构开始，但将 `Amount` 字段添加到数据区域两次。两个数据字段都引用相同的源列，但第二个字段使用 `PivotField.setFunction(...)` setter 进行重写，使其变为 `COUNT` 而不是默认的 `SUM`。
+
+## 更改汇总函数
+数据区域中的每个字段在内部都被包装为 `PivotField` 实例，其 `getFunction()` 属性返回 `ConsolidationFunction` 枚举中的一个值。同一 `setFunction(...)` setter 允许您在可用的汇总函数之间切换，包括 `SUM`、`COUNT`、`AVERAGE`、`MAX`、`MIN`、`PRODUCT`、`STD_DEV`、`STD_DEVP`、`VAR` 和 `VARP`。
+{{% alert color="primary" %}}
+更改 `Function` 仅影响汇总方式，源列不会改变。
+{{% /alert %}}
+因此，您可以在同一个数据透视表中保留一个 `SUM` 的数据字段，同时添加第二个针对同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段。
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -133,8 +126,14 @@ countField.setFunction(ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
-## 场景 3 — 将值字段绘制到行轴或列轴
-在放置两个数据字段后，`PivotTable.getValuesField()` 就可以使用了。此场景将该聚合虚拟字段拖到列区域，以便数据区域中的每个度量值作为独立的列块显示在 `Year` 旁边。
+
+## 将值字段绘制到行轴或列轴
+当数据透视表包含两个或更多数据字段时，Aspose.Cells 会公开一个名为 `PivotTable.getValuesField()` 的额外虚拟字段。该虚拟字段表示数据区域中每个数据字段的汇总。您可以将其作为基础数据透视字段拖到行区域或列区域，这对于并排排列多个度量值非常有用。
+{{% alert color="primary" %}}
+如果没有值字段或仅有一个值字段，`PivotTable.getValuesField()` 不起作用。
+{{% /alert %}}
+以下场景通过三个端到端示例演示了上述每个功能，这些示例都针对相同的数据透视结构。
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -180,6 +179,5 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().get
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-综合来看，这三个场景涵盖了 Aspose.Cells for Java 中值字段操作的各个方面，从具有默认 `SUM` 的单个数据字段，到虚拟 `ValuesField` 控制行轴或列轴上布局的多度量数据透视表。
 
 {{< app/cells/assistant language="java" >}}

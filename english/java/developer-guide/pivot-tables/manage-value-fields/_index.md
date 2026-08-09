@@ -10,28 +10,9 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
 ## Adding a Field to the Data Region
 
 Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.addFieldToArea(PivotFieldType, String)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.getDataFields()` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `COUNT`.
-
-## Changing the Summary Function
-
-{{% alert color="primary" %}}
-Changing `Function` only affects the aggregate, the source column does not change.
-{{% /alert %}}
-
-## Plotting Value Fields to Row or Column Axis
-
-When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.getValuesField()`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
-
-{{% alert color="primary" %}}
-`PivotTable.getValuesField()` does not work if there is no or only one value field.
-{{% /alert %}}
-
-## **Dragging a Base Field into the Value Region**
-
-This scenario shows how to put a single base field (`Amount`) into the data region of an existing pivot table. The shared pivot structure places `Category` and `Item` on the Row axis and `Year` on the Column axis. After the operation, `Amount` appears in the data region and is computed as the `Sum` of `Amount` by default.
 
 ```java
 import com.aspose.cells.*;
@@ -93,6 +74,12 @@ pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
+## Changing the Summary Function
+
+{{% alert color="primary" %}}
+Changing `Function` only affects the aggregate, the source column does not change.
+{{% /alert %}}
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -139,6 +126,14 @@ countField.setFunction(ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
+
+## Plotting Value Fields to Row or Column Axis
+
+When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.getValuesField()`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
+
+{{% alert color="primary" %}}
+`PivotTable.getValuesField()` does not work if there is no or only one value field.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;

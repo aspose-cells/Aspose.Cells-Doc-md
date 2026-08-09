@@ -14,28 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Att lägga till ett basfält i data- (värde-) området är det första steget i att forma hur en pivottabell aggregerar din källdata. Aspose.Cells exponerar `PivotTable.addFieldToArea(PivotFieldType, String)`, en överlagring som accepterar konstanten `PivotFieldType.DATA` och namnet på källkolumnen. När ett fält har lagts till i dataområdet exponeras det via samlingen `PivotTable.getDataFields()`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.SUM`, medan en icke-numerisk kolumn som standard blir `COUNT`.
 
-## Ändra sammanfattningsfunktionen
-
-Varje fält som placeras i dataområdet är internt inpackat som en `PivotField`-instans, och dess `getFunction()`-egenskap returnerar ett värde från `ConsolidationFunction`-uppräkningen. Samma `setFunction(...)`-setter låter dig växla mellan de tillgängliga aggregeringarna, inklusive `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` och `VARP`.
-
-{{% alert color="primary" %}}
-Att ändra `Function` påverkar bara aggregeringen, källkolumnen ändras inte.
-{{% /alert %}}
-Du kan därför låta ett datafält vara `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
-
-## Placera värdefält på Rad- eller Kolumn-axeln
-
-När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cells ett ytterligare virtuellt fält som heter `PivotTable.getValuesField()`. Detta virtuella fält representerar aggregeringen av varje datafält som finns i dataområdet. Du kan dra det till Rad- eller Kolumn-området som ett pivotbasfält, vilket är användbart för att lägga ut flera mått sida vid sida.
-
-{{% alert color="primary" %}}
-`PivotTable.getValuesField()` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% /alert %}}
-Scenarierna nedan går igenom tre kompletta exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
-
-## Scenario 1 — Dra ett basfält till värdeområdet
-
-Detta scenario visar hur man placerar ett enskilt basfält (`Amount`) i dataområdet för en befintlig pivottabell. Den delade pivotstrukturen placerar `Category` och `Item` på Rad-axeln och `Year` på Kolumn-axeln. Efter operationen visas `Amount` i dataområdet och beräknas som `Sum` av `Amount` som standard.
-
 ```java
 import com.aspose.cells.*;
 
@@ -96,9 +74,14 @@ pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
-## Scenario 2 — Ändra sammanfattningsfunktionen
+## Ändra sammanfattningsfunktionen
 
-Detta scenario börjar från samma pivotstruktur som Scenario 1 men lägger till fältet `Amount` i dataområdet två gånger. Båda datafälten refererar till samma källkolumn, men det andra fältet skrivs över med `PivotField.setFunction(...)`-settern så att det blir `COUNT` istället för standardvärdet `SUM`.
+Varje fält som placeras i dataområdet är internt inpackat som en `PivotField`-instans, och dess `getFunction()`-egenskap returnerar ett värde från `ConsolidationFunction`-uppräkningen. Samma `setFunction(...)`-setter låter dig växla mellan de tillgängliga aggregeringarna, inklusive `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` och `VARP`.
+
+{{% alert color="primary" %}}
+Att ändra `Function` påverkar bara aggregeringen, källkolumnen ändras inte.
+{{% /alert %}}
+Du kan därför låta ett datafält vara `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
 
 ```java
 import com.aspose.cells.*;
@@ -147,9 +130,14 @@ pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
 
-## Scenario 3 — Placera värdefält på Rad- eller Kolumn-axeln
+## Placera värdefält på Rad- eller Kolumn-axeln
 
-Med två datafält på plats blir `PivotTable.getValuesField()` användbart. Detta scenario drar det aggregerade virtuella fältet till Kolumn-området så att varje mått i dataområdet visas som ett eget kolumnblock bredvid `Year`.
+När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cells ett ytterligare virtuellt fält som heter `PivotTable.getValuesField()`. Detta virtuella fält representerar aggregeringen av varje datafält som finns i dataområdet. Du kan dra det till Rad- eller Kolumn-området som ett pivotbasfält, vilket är användbart för att lägga ut flera mått sida vid sida.
+
+{{% alert color="primary" %}}
+`PivotTable.getValuesField()` fungerar inte om det inte finns något eller bara ett värdefält.
+{{% /alert %}}
+Scenarierna nedan går igenom tre kompletta exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
 
 ```java
 import com.aspose.cells.*;
@@ -196,7 +184,5 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().get
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-
-Tillsammans täcker dessa tre scenarier varje aspekt av värdefältsmanipulation i Aspose.Cells for Java, från ett enskilt datafält med standardvärdet `SUM` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på Rad- eller Kolumn-axeln.
 
 {{< app/cells/assistant language="java" >}}

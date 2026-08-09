@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Hinzufügen eines Felds zum Datenbereich
 Das Hinzufügen eines Basisfelds zum Daten- (Wert-) Bereich ist der erste Schritt bei der Gestaltung der Aggregation Ihrer Quelldaten durch eine PivotTable. Aspose.Cells stellt `PivotTable.addFieldToArea(PivotFieldType, String)` bereit, eine Überladung, die die Konstante `PivotFieldType.DATA` und den Namen der Quellspalte akzeptiert. Sobald ein Feld zum Datenbereich hinzugefügt wurde, wird es über die Sammlung `PivotTable.getDataFields()` in der Reihenfolge verfügbar gemacht, in der die Felder hinzugefügt wurden. Standardmäßig wird eine numerische Quellspalte mit `ConsolidationFunction.SUM` zusammengefasst, während eine nicht numerische Spalte standardmäßig `COUNT` verwendet.
-## Ändern der Zusammenfassungsfunktion
-Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekapselt, und die Eigenschaft `getFunction()` gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Mit dem Setter `setFunction(...)` können Sie zwischen den verfügbaren Aggregaten wechseln, einschließlich `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` und `VARP`.
-{{% alert color="primary" %}}
-Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
-{{% /alert %}}
-Sie können daher ein Datenfeld als `SUM` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `COUNT` oder `AVERAGE` verwendet, alles in einer einzigen PivotTable.
-## Anordnen von Wertfeldern auf der Zeilen- oder Spaltenachse
-Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.getValuesField()` bereit. Dieses virtuelle Feld stellt das Aggregat aller Datenfelder dar, die sich im Datenbereich befinden. Sie können es als Basis-Pivotfeld in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Kennzahlen nebeneinander anzuordnen.
-{{% alert color="primary" %}}
-`PivotTable.getValuesField()` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
-{{% /alert %}}
-Die folgenden Szenarien erläutern drei durchgängige Beispiele, die jede oben beschriebene Funktion anhand derselben Pivot-Struktur demonstrieren.
-## Szenario 1 — Ziehen eines Basisfelds in den Wertebereich
-Dieses Szenario zeigt, wie ein einzelnes Basisfeld (`Amount`) in den Datenbereich einer bestehenden PivotTable eingefügt wird. Die gemeinsame Pivot-Struktur platziert `Category` und `Item` auf der Zeilenachse und `Year` auf der Spaltenachse. Nach dem Vorgang erscheint `Amount` im Datenbereich und wird standardmäßig als `Sum` von `Amount` berechnet.
+
 ```java
 import com.aspose.cells.*;
 
@@ -85,8 +72,14 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
-## Szenario 2 — Ändern der Zusammenfassungsfunktion
-Dieses Szenario beginnt mit derselben Pivot-Struktur wie Szenario 1, fügt jedoch das Feld `Amount` zweimal zum Datenbereich hinzu. Beide Datenfelder verweisen auf dieselbe Quellspalte, jedoch wird das zweite Feld mithilfe des Setters `PivotField.setFunction(...)` überschrieben, sodass es `COUNT` anstelle der Standardeinstellung `SUM` wird.
+
+## Ändern der Zusammenfassungsfunktion
+Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekapselt, und die Eigenschaft `getFunction()` gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Mit dem Setter `setFunction(...)` können Sie zwischen den verfügbaren Aggregaten wechseln, einschließlich `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` und `VARP`.
+{{% alert color="primary" %}}
+Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
+{{% /alert %}}
+Sie können daher ein Datenfeld als `SUM` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `COUNT` oder `AVERAGE` verwendet, alles in einer einzigen PivotTable.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -133,8 +126,14 @@ countField.setFunction(ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
-## Szenario 3 — Anordnen von Wertfeldern auf der Zeilen- oder Spaltenachse
-Sind zwei Datenfelder vorhanden, wird `PivotTable.getValuesField()` nutzbar. Dieses Szenario zieht dieses virtuelle Aggregatfeld in den Spaltenbereich, sodass jede Kennzahl im Datenbereich als eigener Spaltenblock neben `Year` erscheint.
+
+## Anordnen von Wertfeldern auf der Zeilen- oder Spaltenachse
+Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.getValuesField()` bereit. Dieses virtuelle Feld stellt das Aggregat aller Datenfelder dar, die sich im Datenbereich befinden. Sie können es als Basis-Pivotfeld in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Kennzahlen nebeneinander anzuordnen.
+{{% alert color="primary" %}}
+`PivotTable.getValuesField()` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
+{{% /alert %}}
+Die folgenden Szenarien erläutern drei durchgängige Beispiele, die jede oben beschriebene Funktion anhand derselben Pivot-Struktur demonstrieren.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -180,6 +179,5 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().get
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-Zusammengenommen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Java ab, von einem einzelnen Datenfeld mit der Standardfunktion `SUM` bis hin zu einer Multi-Measure-PivotTable, in der das virtuelle `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
 {{< app/cells/assistant language="java" >}}

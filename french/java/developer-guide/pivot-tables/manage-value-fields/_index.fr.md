@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Ajout d'un champ à la zone de données
 L'ajout d'un champ de base à la zone de données (valeur) constitue la première étape pour façonner la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.addFieldToArea(PivotFieldType, String)`, une surcharge qui accepte la constante `PivotFieldType.DATA` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.getDataFields()`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est agrégée avec `ConsolidationFunction.SUM`, tandis qu'une colonne non numérique utilise par défaut `COUNT`.
-## Modification de la fonction de synthèse
-Chaque champ placé dans la zone de données est encapsulé en interne en tant qu'instance de `PivotField`, et sa propriété `getFunction()` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `setFunction(...)` vous permet de basculer entre les agrégats disponibles, notamment `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` et `VARP`.
-{{% alert color="primary" %}}
-La modification de `Function` n'affecte que l'agrégat, la colonne source ne change pas.
-{{% /alert %}}
-Vous pouvez donc conserver un champ de données avec la fonction `SUM` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `COUNT` ou `AVERAGE`, le tout dans un seul tableau croisé dynamique.
-## Tracé des champs de valeur sur l'axe Ligne ou Colonne
-Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.getValuesField()`. Ce champ virtuel représente l'agrégat de chaque champ de données résidant dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ de pivot de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
-{{% alert color="primary" %}}
-`PivotTable.getValuesField()` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
-{{% /alert %}}
-Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus sur la même structure de tableau croisé dynamique.
-## Scénario 1 — Glissement d'un champ de base dans la zone Valeur
-Ce scénario montre comment placer un seul champ de base (`Amount`) dans la zone de données d'un tableau croisé dynamique existant. La structure partagée du tableau croisé dynamique place `Category` et `Item` sur l'axe Ligne et `Year` sur l'axe Colonne. Après l'opération, `Amount` apparaît dans la zone de données et est calculé en tant que `Sum` de `Amount` par défaut.
+
 ```java
 import com.aspose.cells.*;
 
@@ -85,8 +72,14 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
-## Scénario 2 — Modification de la fonction de synthèse
-Ce scénario part de la même structure de tableau croisé dynamique que le Scénario 1, mais ajoute le champ `Amount` deux fois à la zone de données. Les deux champs de données référencent la même colonne source, cependant le second champ est redéfini à l'aide du setter `PivotField.setFunction(...)` afin qu'il devienne `COUNT` au lieu du `SUM` par défaut.
+
+## Modification de la fonction de synthèse
+Chaque champ placé dans la zone de données est encapsulé en interne en tant qu'instance de `PivotField`, et sa propriété `getFunction()` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `setFunction(...)` vous permet de basculer entre les agrégats disponibles, notamment `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` et `VARP`.
+{{% alert color="primary" %}}
+La modification de `Function` n'affecte que l'agrégat, la colonne source ne change pas.
+{{% /alert %}}
+Vous pouvez donc conserver un champ de données avec la fonction `SUM` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `COUNT` ou `AVERAGE`, le tout dans un seul tableau croisé dynamique.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -133,8 +126,14 @@ countField.setFunction(ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
-## Scénario 3 — Tracé des champs de valeur sur l'axe Ligne ou Colonne
-Avec deux champs de données en place, `PivotTable.getValuesField()` devient utilisable. Ce scénario fait glisser ce champ virtuel agrégé sur la zone Colonne afin que chaque mesure de la zone de données apparaisse comme son propre bloc de colonne à côté de `Year`.
+
+## Tracé des champs de valeur sur l'axe Ligne ou Colonne
+Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.getValuesField()`. Ce champ virtuel représente l'agrégat de chaque champ de données résidant dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ de pivot de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
+{{% alert color="primary" %}}
+`PivotTable.getValuesField()` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
+{{% /alert %}}
+Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus sur la même structure de tableau croisé dynamique.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -180,6 +179,5 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().get
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-Ensemble, ces trois scénarios couvrent tous les aspects de la manipulation des champs de valeur dans Aspose.Cells for Java, depuis un seul champ de données avec le `SUM` par défaut jusqu'à un tableau croisé dynamique à mesures multiples dans lequel le `ValuesField` virtuel contrôle la disposition sur l'axe Ligne ou Colonne.
 
 {{< app/cells/assistant language="java" >}}

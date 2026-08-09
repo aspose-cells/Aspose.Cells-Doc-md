@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## データ領域へのフィールド追加
 データ (値) 領域に基本フィールドを追加することは、ソースデータの集計方法を形作る最初のステップです。Aspose.Cells は `PivotTable.AddFieldToArea(PivotFieldType, string)` を提供します。このオーバーロードは、定数 `PivotFieldType.Data` とソース列名を受け取ります。データ領域にフィールドを追加すると、API はそのフィールドを `PivotTable.DataFields` コレクションに追加された順序で公開します。既定では、数値型のソース列は `ConsolidationFunction.Sum` で集計され、非数値型の列は `Count` が既定値となります。
-## 集計関数の変更
-データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `Function` プロパティは `ConsolidationFunction` 列挙体の値を返します。同じ `Function` セッターで、利用可能な集計 (`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` など) を切り替えられます。
-{{% alert color="primary" %}}
-`Function` を変更しても集計にのみ影響し、ソース列は変更されません。
-{{% /alert %}}
-したがって、1 つのデータフィールドを `Sum` のままにしておきながら、同じソース列を対象とする 2 番目のデータフィールドを `Count` や `Average` で追加することが、すべて 1 つのピボット内で行えます。
-## 値フィールドを行軸または列軸に配置する
-ピボットテーブルに 2 つ以上のデータフィールドが含まれている場合、Aspose.Cells は `PivotTable.ValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。これを基本ピボットフィールドとして行領域または列領域にドラッグすることができ、複数のメジャーを並べてレイアウトする場合に役立ちます。
-{{% alert color="primary" %}}
-値フィールドが存在しない場合や 1 つしかない場合、`PivotTable.ValuesField` は機能しません。
-{{% /alert %}}
-以下のシナリオでは、同じピボット構造に対して上記の各機能を示す 3 つのエンドツーエンドの例を順に説明します。
-## シナリオ 1 — 基本フィールドを値領域にドラッグする
-このシナリオでは、既存ピボットテーブルのデータ領域に 1 つの基本フィールド (`Amount`) を配置する方法を示します。共有されるピボット構造では、`Category` と `Item` を行軸に、`Year` を列軸に配置します。操作後、`Amount` はデータ領域に表示され、既定で `Amount` の `Sum` として計算されます。
+
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -97,8 +84,14 @@ int main() {
     return 0;
 }
 ```
-## シナリオ 2 — 集計関数の変更
-このシナリオは、シナリオ 1 と同じピボット構造から始まり、データ領域に `Amount` フィールドを 2 回追加します。両方のデータフィールドは同じソース列を参照しますが、`PivotField.Function` セッターを使用して 2 番目のフィールドを既定の `Sum` から `Count` に変更します。
+
+## 集計関数の変更
+データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `Function` プロパティは `ConsolidationFunction` 列挙体の値を返します。同じ `Function` セッターで、利用可能な集計 (`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` など) を切り替えられます。
+{{% alert color="primary" %}}
+`Function` を変更しても集計にのみ影響し、ソース列は変更されません。
+{{% /alert %}}
+したがって、1 つのデータフィールドを `Sum` のままにしておきながら、同じソース列を対象とする 2 番目のデータフィールドを `Count` や `Average` で追加することが、すべて 1 つのピボット内で行えます。
+
 ```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
@@ -127,8 +120,14 @@ int main() {
     workbook->Save("output_function.xlsx");
 }
 ```
-## シナリオ 3 — 値フィールドを行軸または列軸に配置する
-2 つのデータフィールドが配置されると、`PivotTable.ValuesField` が利用可能になります。このシナリオでは、その集計仮想フィールドを列領域にドラッグし、データ領域の各メジャーが `Year` の隣に独自の列ブロックとして表示されるようにします。
+
+## 値フィールドを行軸または列軸に配置する
+ピボットテーブルに 2 つ以上のデータフィールドが含まれている場合、Aspose.Cells は `PivotTable.ValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。これを基本ピボットフィールドとして行領域または列領域にドラッグすることができ、複数のメジャーを並べてレイアウトする場合に役立ちます。
+{{% alert color="primary" %}}
+値フィールドが存在しない場合や 1 つしかない場合、`PivotTable.ValuesField` は機能しません。
+{{% /alert %}}
+以下のシナリオでは、同じピボット構造に対して上記の各機能を示す 3 つのエンドツーエンドの例を順に説明します。
+
 ```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
@@ -153,6 +152,5 @@ int main() {
     workbook->Save("output_plot.xlsx");
 }
 ```
-これら 3 つのシナリオを合わせると、Aspose.Cells for C++ における値フィールド操作のあらゆる側面をカバーします。既定の `Sum` を使用した単一のデータフィールドから、仮想 `ValuesField` が行軸や列軸のレイアウトを制御する複数メジャーのピボットまでを網羅しています。
 
 {{< app/cells/assistant language="cpp" >}}

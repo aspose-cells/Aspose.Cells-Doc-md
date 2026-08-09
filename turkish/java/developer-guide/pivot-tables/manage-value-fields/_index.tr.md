@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Veri Bölgesine Alan Ekleme
 Veri (değer) bölgesine temel alan eklemek, bir özet tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.DATA` sabitini ve kaynak-sütun adını kabul eden bir aşırı yükleme olan `PivotTable.addFieldToArea(PivotFieldType, String)` öğesini kullanıma sunar. Bir alan veri bölgesine eklendiğinde, API onu alanların eklenme sırasıyla `PivotTable.getDataFields()` koleksiyonu aracılığıyla kullanıma sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.SUM` ile özetlenirken, sayısal olmayan bir sütun `COUNT` varsayılanına sahip olur.
-## Özet İşlevini Değiştirme
-Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarılır ve `getFunction()` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `setFunction(...)` ayarlayıcısı, `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` ve `VARP` dahil mevcut toplamalar arasında geçiş yapmanızı sağlar.
-{{% alert color="primary" %}}
-`Function` değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-Bu nedenle, tek bir özet tablo içinde bir veri alanını `SUM` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı ekleyebilirsiniz.
-## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells, `PivotTable.getValuesField()` adı verilen ek bir sanal alanı kullanıma sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Bunu temel bir özet alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz; bu, birden fazla ölçüyü yan yana düzenlemek için kullanışlıdır.
-{{% alert color="primary" %}}
-Hiç değer alanı yoksa veya yalnızca bir tane varsa `PivotTable.getValuesField()` çalışmaz.
-{{% /alert %}}
-Aşağıdaki senaryolar, aynı özet tablo yapısına karşı yukarıda açıklanan her bir yeteneği gösteren üç uçtan uca örnekten geçer.
-## Senaryo 1 — Bir Temel Alanı Değer Bölgesine Sürükleme
-Bu senaryo, tek bir temel alanın (`Amount`) mevcut bir özet tablonun veri bölgesine nasıl yerleştirileceğini gösterir. Paylaşılan özet tablo yapısı, `Category` ve `Item` öğelerini Satır eksenine, `Year` öğesini ise Sütun eksenine yerleştirir. İşlemden sonra, `Amount` veri bölgesinde görünür ve varsayılan olarak `Amount` değerinin `Sum`ı olarak hesaplanır.
+
 ```java
 import com.aspose.cells.*;
 
@@ -85,8 +72,14 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
-## Senaryo 2 — Özet İşlevini Değiştirme
-Bu senaryo, Senaryo 1 ile aynı özet tablo yapısından başlar, ancak `Amount` alanını veri bölgesine iki kez ekler. Her iki veri alanı da aynı kaynak sütuna başvurur, ancak ikinci alan `PivotField.setFunction(...)` ayarlayıcısı kullanılarak geçersiz kılınır, böylece varsayılan `SUM` yerine `COUNT` olur.
+
+## Özet İşlevini Değiştirme
+Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarılır ve `getFunction()` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `setFunction(...)` ayarlayıcısı, `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` ve `VARP` dahil mevcut toplamalar arasında geçiş yapmanızı sağlar.
+{{% alert color="primary" %}}
+`Function` değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
+{{% /alert %}}
+Bu nedenle, tek bir özet tablo içinde bir veri alanını `SUM` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı ekleyebilirsiniz.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -133,8 +126,14 @@ countField.setFunction(ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
-## Senaryo 3 — Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-İki veri alanı yerinde olduğunda, `PivotTable.getValuesField()` kullanılabilir hale gelir. Bu senaryo, bu toplama sanal alanını Sütun bölgesine sürükler, böylece veri bölgesindeki her ölçü `Year` öğesinin yanında kendi sütun bloğu olarak görünür.
+
+## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
+Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells, `PivotTable.getValuesField()` adı verilen ek bir sanal alanı kullanıma sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Bunu temel bir özet alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz; bu, birden fazla ölçüyü yan yana düzenlemek için kullanışlıdır.
+{{% alert color="primary" %}}
+Hiç değer alanı yoksa veya yalnızca bir tane varsa `PivotTable.getValuesField()` çalışmaz.
+{{% /alert %}}
+Aşağıdaki senaryolar, aynı özet tablo yapısına karşı yukarıda açıklanan her bir yeteneği gösteren üç uçtan uca örnekten geçer.
+
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
@@ -180,6 +179,5 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().get
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-Bu üç senaryo bir arada, varsayılan `SUM` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir özet tabloya kadar Aspose.Cells for Java'da değer alanı manipülasyonunun her yönünü kapsar.
 
 {{< app/cells/assistant language="java" >}}

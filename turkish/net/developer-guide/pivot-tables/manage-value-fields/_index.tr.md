@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Veri Bölgesine Alan Ekleme
 Veri (değer) bölgesine bir temel alan eklemek, özet tablonun kaynak verilerinizi nasıl toplayacağını şekillendirmenin ilk adımıdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak-sütun adını kabul eden `PivotTable.AddFieldToArea(PivotFieldType, string)` aşırı yüklemesini kullanıma sunar. Bir alan veri bölgesine eklendikten sonra, API bu alanı `PivotTable.DataFields` koleksiyonu aracılığıyla, alanların eklendiği sırayla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun `Count` ile özetlenir.
-## Özet Fonksiyonunu Değiştirme
-Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarılır ve onun `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` dahil olmak üzere kullanılabilir toplamlar arasında geçiş yapmanızı sağlar.
-{{% alert color="primary" %}}
-`Function`'ı değiştirmek yalnızca toplamı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-Bu nedenle, tek bir özet içinde, bir veri alanını `Sum` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanı ekleyebilirsiniz.
-## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adlı ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu Satır veya Sütun bölgesine temel bir özet alanı olarak sürükleyebilirsiniz; bu, birden çok ölçümü yan yana düzenlemek için kullanışlıdır.
-{{% alert color="primary" %}}
-`PivotTable.ValuesField`, hiç değer alanı yoksa veya yalnızca bir değer alanı varsa çalışmaz.
-{{% /alert %}}
-Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı özet yapısı üzerinde gösteren uçtan uca üç örnek üzerinden ilerler.
-## Senaryo 1 — Temel Bir Alanı Değer Bölgesine Sürükleme
-Bu senaryo, tek bir temel alanın (`Amount`) mevcut bir özet tablonun veri bölgesine nasıl yerleştirileceğini gösterir. Paylaşılan özet yapısı, `Category` ve `Item` alanlarını Satır eksenine, `Year` alanını ise Sütun eksenine yerleştirir. İşlemden sonra, `Amount` veri bölgesinde görünür ve varsayılan olarak `Amount` değerinin `Sum` olarak hesaplanır.
+
 ```csharp
 using System;
 using Aspose.Cells;
@@ -87,8 +74,14 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
-## Senaryo 2 — Özet Fonksiyonunu Değiştirme
-Bu senaryo, Senaryo 1 ile aynı özet yapısından başlar, ancak `Amount` alanını veri bölgesine iki kez ekler. Her iki veri alanı da aynı kaynak sütuna başvurur; ancak ikinci alan, `PivotField.Function` ayarlayıcısı kullanılarak varsayılan `Sum` yerine `Count` olacak şekilde geçersiz kılınır.
+
+## Özet Fonksiyonunu Değiştirme
+Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarılır ve onun `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` dahil olmak üzere kullanılabilir toplamlar arasında geçiş yapmanızı sağlar.
+{{% alert color="primary" %}}
+`Function`'ı değiştirmek yalnızca toplamı etkiler, kaynak sütun değişmez.
+{{% /alert %}}
+Bu nedenle, tek bir özet içinde, bir veri alanını `Sum` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanı ekleyebilirsiniz.
+
 ```csharp
 using System;
 using Aspose.Cells;
@@ -146,8 +139,14 @@ pivotTable.CalculateData();
 
 workbook.Save("output_function.xlsx");
 ```
-## Senaryo 3 — Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-İki veri alanı yerinde olduğunda, `PivotTable.ValuesField` kullanılabilir hale gelir. Bu senaryo, bu toplam sanal alanını Sütun bölgesine sürükler, böylece veri bölgesindeki her ölçüm `Year` alanının yanında kendi sütun bloku olarak görünür.
+
+## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
+Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adlı ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu Satır veya Sütun bölgesine temel bir özet alanı olarak sürükleyebilirsiniz; bu, birden çok ölçümü yan yana düzenlemek için kullanışlıdır.
+{{% alert color="primary" %}}
+`PivotTable.ValuesField`, hiç değer alanı yoksa veya yalnızca bir değer alanı varsa çalışmaz.
+{{% /alert %}}
+Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı özet yapısı üzerinde gösteren uçtan uca üç örnek üzerinden ilerler.
+
 ```csharp
 using System;
 using Aspose.Cells;
@@ -194,6 +193,5 @@ pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
-Birlikte ele alındığında, bu üç senaryo Aspose.Cells for .NET'te değer alanı manipülasyonunun tüm yönlerini kapsar; varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çok ölçümlü bir özet tabloya kadar.
 
 {{< app/cells/assistant language="csharp" >}}

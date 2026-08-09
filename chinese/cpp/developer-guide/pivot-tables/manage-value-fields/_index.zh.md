@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## 将字段添加到数据区域
 将基础字段添加到数据（值）区域是塑造数据透视表如何聚合源数据的第一步。Aspose.Cells 公开了 `PivotTable.AddFieldToArea(PivotFieldType, string)` 重载，该重载接受常量 `PivotFieldType.Data` 和源列名称。字段添加到数据区域后，API 会通过 `PivotTable.DataFields` 集合公开它，按添加字段的顺序排列。默认情况下，数值型源列使用 `ConsolidationFunction.Sum` 进行汇总，而非数值型列默认使用 `Count`。
-## 更改汇总函数
-放置在数据区域中的每个字段在内部都被包装为 `PivotField` 实例，其 `Function` 属性返回 `ConsolidationFunction` 枚举中的值。同一个 `Function` setter 允许您在可用的聚合之间切换，包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`。
-{{% alert color="primary" %}}
-更改 `Function` 仅影响聚合，源列不会改变。
-{{% /alert %}}
-因此，您可以将一个数据字段保留为 `Sum`，同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段，所有这些都在单个数据透视表中完成。
-## 将值字段绘制到行轴或列轴
-当数据透视表包含两个或更多数据字段时，Aspose.Cells 会公开一个额外的虚拟字段，称为 `PivotTable.ValuesField`。此虚拟字段表示数据区域中每个数据字段的聚合。您可以将其作为基础数据透视字段拖到行区域或列区域，这对于将多个度量并排排列非常有用。
-{{% alert color="primary" %}}
-如果没有值字段或只有一个值字段，则 `PivotTable.ValuesField` 不起作用。
-{{% /alert %}}
-以下场景通过三个端到端示例演示了针对同一数据透视结构上述每项功能。
-## 场景 1 — 将基础字段拖入值区域
-此场景演示如何将单个基础字段（`Amount`）放入现有数据透视表的数据区域。共享的数据透视结构将 `Category` 和 `Item` 放在行轴上，将 `Year` 放在列轴上。操作完成后，`Amount` 出现在数据区域中，默认按 `Amount` 的 `Sum` 进行计算。
+
 ```cpp
 #include "Aspose.Cells.h"
 
@@ -97,8 +84,14 @@ int main() {
  return 0;
 }
 ```
-## 场景 2 — 更改汇总函数
-此场景从与场景 1 相同的数据透视结构开始，但将 `Amount` 字段添加到数据区域两次。两个数据字段都引用同一源列，但是使用 `PivotField.Function` setter 覆盖第二个字段，使其变为 `Count` 而不是默认的 `Sum`。
+
+## 更改汇总函数
+放置在数据区域中的每个字段在内部都被包装为 `PivotField` 实例，其 `Function` 属性返回 `ConsolidationFunction` 枚举中的值。同一个 `Function` setter 允许您在可用的聚合之间切换，包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`。
+{{% alert color="primary" %}}
+更改 `Function` 仅影响聚合，源列不会改变。
+{{% /alert %}}
+因此，您可以将一个数据字段保留为 `Sum`，同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段，所有这些都在单个数据透视表中完成。
+
 ```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
@@ -127,8 +120,14 @@ int main() {
 	workbook->Save("output_function.xlsx");
 }
 ```
-## 场景 3 — 将值字段绘制到行轴或列轴
-有了两个数据字段，`PivotTable.ValuesField` 就变得可用了。此场景将该聚合虚拟字段拖到列区域，以便数据区域中的每个度量都作为其自己的列块出现在 `Year` 旁边。
+
+## 将值字段绘制到行轴或列轴
+当数据透视表包含两个或更多数据字段时，Aspose.Cells 会公开一个额外的虚拟字段，称为 `PivotTable.ValuesField`。此虚拟字段表示数据区域中每个数据字段的聚合。您可以将其作为基础数据透视字段拖到行区域或列区域，这对于将多个度量并排排列非常有用。
+{{% alert color="primary" %}}
+如果没有值字段或只有一个值字段，则 `PivotTable.ValuesField` 不起作用。
+{{% /alert %}}
+以下场景通过三个端到端示例演示了针对同一数据透视结构上述每项功能。
+
 ```cpp
 #include <iostream>
 #include "Aspose.Cells.h"
@@ -153,6 +152,5 @@ int main() {
  workbook->Save("output_plot.xlsx");
 }
 ```
-总之，这三个场景涵盖了 Aspose.Cells for C++ 中值字段操作的方方面面，从使用默认 `Sum` 的单个数据字段，到使用虚拟 `ValuesField` 控制行轴或列轴上布局的多度量数据透视表。
 
 {{< app/cells/assistant language="cpp" >}}

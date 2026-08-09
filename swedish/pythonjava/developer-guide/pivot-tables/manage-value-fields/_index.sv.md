@@ -14,28 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Att lägga till ett basfält i data- (värde-)regionen är det första steget i att forma hur en pivottabell aggregerar din källdata. Aspose.Cells exponerar `PivotTable.addFieldToArea(PivotFieldType, string)`, en överlagring som accepterar konstanten `PivotFieldType.DATA` och källkolonnens namn. När ett fält har lagts till i dataregionen exponerar API:t det via samlingen `PivotTable.DataFields`, i den ordning som fälten lades till. Som standard sammanfattas en numerisk källkolumn med `ConsolidationFunction.SUM`, medan en icke-numerisk kolumn som standard blir `COUNT`.
 
-## Ändra sammanfattningsfunktionen
-
-Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-instans, och dess `Function`-egenskap returnerar ett värde från enum `ConsolidationFunction`. Samma `Function`-setter låter dig växla mellan tillgängliga aggregat, inklusive `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` och `VARP`.
-
-{{% alert color="primary" %}}
-Att ändra `Function` påverkar bara aggregatet, källkolumnen ändras inte.
-{{% /alert %}}
-Du kan därför lämna ett datafält som `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
-
-## Visa värdefält på rad- eller kolumnaxeln
-
-När en pivottabell innehåller två eller flera datafält exponerar Aspose.Cells ett ytterligare virtuellt fält kallat `PivotTable.ValuesField`. Detta virtuella fält representerar aggregatet av alla datafält som finns i dataregionen. Du kan dra det till rad- eller kolumnregionen som ett baspivotfält, vilket är användbart för att lägga ut flera mått sida vid sida.
-
-{{% alert color="primary" %}}
-`PivotTable.ValuesField` fungerar inte om det inte finns något eller endast ett värdefält.
-{{% /alert %}}
-Scenarierna nedan går igenom tre heltäckande exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
-
-## Scenario 1 — Dra ett basfält till värdeområdet
-
-Detta scenario visar hur man placerar ett enskilt basfält (`Amount`) i dataregionen för en befintlig pivottabell. Den delade pivotstrukturen placerar `Category` och `Item` på radaxeln och `Year` på kolumnaxeln. Efter operationen visas `Amount` i dataregionen och beräknas som `Sum` av `Amount` som standard.
-
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
@@ -73,9 +51,14 @@ pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
-## Scenario 2 — Ändra sammanfattningsfunktionen
+## Ändra sammanfattningsfunktionen
 
-Detta scenario utgår från samma pivotstruktur som Scenario 1 men lägger till fältet `Amount` i dataregionen två gånger. Båda datafälten refererar till samma källkolumn, men det andra fältet åsidosätts med `PivotField.Function`-settern så att det blir `Count` istället för standardvärdet `Sum`.
+Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-instans, och dess `Function`-egenskap returnerar ett värde från enum `ConsolidationFunction`. Samma `Function`-setter låter dig växla mellan tillgängliga aggregat, inklusive `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` och `VARP`.
+
+{{% alert color="primary" %}}
+Att ändra `Function` påverkar bara aggregatet, källkolumnen ändras inte.
+{{% /alert %}}
+Du kan därför lämna ett datafält som `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
 
 ```python
 import aspose.cells as ac
@@ -116,9 +99,14 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Scenario 3 — Visa värdefält på rad- eller kolumnaxeln
+## Visa värdefält på rad- eller kolumnaxeln
 
-Med två datafält på plats blir `PivotTable.ValuesField` användbart. Detta scenario drar det aggregerade virtuella fältet till kolumnregionen så att varje mått i dataregionen visas som sitt eget kolumnblock bredvid `Year`.
+När en pivottabell innehåller två eller flera datafält exponerar Aspose.Cells ett ytterligare virtuellt fält kallat `PivotTable.ValuesField`. Detta virtuella fält representerar aggregatet av alla datafält som finns i dataregionen. Du kan dra det till rad- eller kolumnregionen som ett baspivotfält, vilket är användbart för att lägga ut flera mått sida vid sida.
+
+{{% alert color="primary" %}}
+`PivotTable.ValuesField` fungerar inte om det inte finns något eller endast ett värdefält.
+{{% /alert %}}
+Scenarierna nedan går igenom tre heltäckande exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
 
 ```python
 import aspose.cells as ac
@@ -159,7 +147,5 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.na
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
-
-Tillsammans täcker dessa tre scenarion varje aspekt av värdefältsmanipulation i Aspose.Cells for Python via Java, från ett enskilt datafält med standardvärdet `Sum` till en pivot med flera mått där det virtuella `ValuesField` styr layouten på rad- eller kolumnaxeln.
 
 {{< app/cells/assistant language="python" >}}

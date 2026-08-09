@@ -1,7 +1,7 @@
 ---
-title: Aspose.Cells for Node.js via Java でピボットテーブルの値フィールドを管理する
-linktitle: 値フィールド
-description: Aspose.Cells for Node.js via Java で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.Function を使用して集計関数を変更する方法、値フィールドを行または列軸にプロットする方法を学習します。
+title: Aspose.Cells for Node.js via Java における値フィールド
+linktitle: Aspose.Cells for Node.js via Java における値フィールド
+description: Aspose.Cells for Node.js via Java における、ピボットテーブルのデータ領域へのベースフィールドの追加、PivotField.Function による集計関数の変更、行または列の軸への値フィールドのプロット方法について学びます。
 keywords: Aspose.Cells, Node.js via Java, ピボットテーブル, 値フィールド, PivotField, PivotField.Function, データフィールド, PivotTable.ValuesField, 合計, 平均
 type: docs
 weight: 230
@@ -10,75 +10,40 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-
-## Adding a Field to the Data Region
-
-Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.addFieldToArea(PivotFieldType, string)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.getDataFields()` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `COUNT`.
-
-## Changing the Summary Function
-
-{{% alert color="primary" %}}
-Changing `Function` only affects the aggregate, the source column does not change.
-{{% /alert %}}
-
-## Plotting Value Fields to Row or Column Axis
-
-When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.getValuesField()`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
-
-{{% alert color="primary" %}}
-`PivotTable.getValuesField()` does not work if there is no or only one value field.
-{{% /alert %}}
-
-## **Dragging a Base Field into the Value Region**
-
-This scenario shows how to put a single base field (`Amount`) into the data region of an existing pivot table. The shared pivot structure places `Category` and `Item` on the Row axis and `Year` on the Column axis. After the operation, `Amount` appears in the data region and is computed as the `Sum` of `Amount` by default.
+値フィールドは、すべてのピボットテーブルの中核をなす存在であり、ソースデータを集計する数値的な集計値です。Aspose.Cells for Node.js via Java では、`PivotTable.addFieldToArea` を使ってベースフィールドを追加することでピボットテーブルのデータ領域が構成され、その領域に配置された各フィールドは独自の集計関数を持つことができます。2 つ以上のデータフィールドが存在する場合、Aspose.Cells は特別な集計フィールド `PivotTable.getValuesField()` を公開し、これをベースフィールドとして行または列の軸にプロットすることで、レイアウト内での値フィールドの表示方法をより細かく制御できます。
+## データ領域へのフィールドの追加
+ベースフィールドをデータ（値）領域に追加することは、ピボットテーブルがソースデータを集計する方法を形作るための最初のステップです。Aspose.Cells は `PivotTable.addFieldToArea(PivotFieldType, string)` を提供しており、定数 `PivotFieldType.DATA` とソース列名を受け取るオーバーロードになっています。フィールドがデータ領域に追加されると、API はそのフィールドを `PivotTable.getDataFields()` コレクションに追加順に公開します。デフォルトでは、数値型のソース列は `ConsolidationFunction.SUM` で集計され、非数値型の列は `COUNT` が既定値となります。
 
 ```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
+const AsposeCells = require("aspose.cells");
+
+const workbook = new AsposeCells.Workbook();
+const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
 
-// Headers in A1:D1
-worksheet.getCells().get(0, 0).putValue("Category");
-worksheet.getCells().get(0, 1).putValue("Item");
-worksheet.getCells().get(0, 2).putValue("Year");
-worksheet.getCells().get(0, 3).putValue("Amount");
-
-// Data rows A2:D9 using nested loops branching on j
-for (let i = 1; i <= 8; i++) {
- for (let j = 0; j < 4; j++) {
- switch (j) {
- case 0:
- worksheet.getCells().get(i, j).putValue(i <= 4 ? "Fruit" : "Vegetable");
- break;
- case 1:
- if (i == 1 || i == 2) worksheet.getCells().get(i, j).putValue("Apple");
- else if (i == 3 || i == 4) worksheet.getCells().get(i, j).putValue("Banana");
- else if (i == 5 || i == 6) worksheet.getCells().get(i, j).putValue("Carrot");
- else worksheet.getCells().get(i, j).putValue("Daikon");
- break;
- case 2:
- worksheet.getCells().get(i, j).putValue(2020 + ((i - 1) % 2));
- break;
- case 3:
- if (i == 1) worksheet.getCells().get(i, j).putValue(100);
- else if (i == 2) worksheet.getCells().get(i, j).putValue(150);
- else if (i == 3) worksheet.getCells().get(i, j).putValue(80);
- else if (i == 4) worksheet.getCells().get(i, j).putValue(90);
- else if (i == 5) worksheet.getCells().get(i, j).putValue(50);
- else if (i == 6) worksheet.getCells().get(i, j).putValue(60);
- else if (i == 7) worksheet.getCells().get(i, j).putValue(40);
- else worksheet.getCells().get(i, j).putValue(45);
- break;
- }
- }
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
 }
 
-// Add pivot table at F3 with name PivotTable1
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
 
-// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -88,12 +53,101 @@ pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
-## **Changing the Summary Function**
+## 集計関数の変更
+データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされており、その `getFunction()` プロパティは `ConsolidationFunction` 列挙体の値を返します。同じ `setFunction()` セッターを使用すると、利用可能な集計関数（`SUM`、`COUNT`、`AVERAGE`、`MAX`、`MIN`、`PRODUCT`、`STD_DEV`、`STD_DEVP`、`VAR`、`VARP` など）を切り替えることができます。
+{{% alert color="primary" %}}
+`Function` を変更しても影響するのは集計のみであり、ソース列は変更されません。
+{{% /alert %}}
+したがって、一方のデータフィールドを `SUM` のままにして、同じソース列を対象とするものの `COUNT` や `AVERAGE` を使用する 2 つ目のデータフィールドを、1 つのピボット内で追加することができます。
 
-## **Plotting Value Fields to Row or Column Axis**
+```javascript
+const AsposeCells = require("aspose.cells");
 
-With two data fields in place, `PivotTable.getValuesField()` becomes usable. This scenario drags that aggregate virtual field onto the Column region so that every measure in the data region appears as its own column block next to `Year`.
+const workbook = new AsposeCells.Workbook();
+const worksheet = workbook.getWorksheets().get(0);
+worksheet.setName("Data");
 
-Together, these three scenarios cover every aspect of value-field manipulation in Aspose.Cells for Node.js via Java, from a single data field with the default `SUM` to a multi-measure pivot in which the virtual `ValuesField` controls the layout on the Row or Column axis.
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
+}
 
-{{< app/cells/assistant language="nodejs-java" >}}
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
+
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+
+pivotTable.calculateData();
+workbook.save("output_function.xlsx");
+```
+
+## 行または列の軸への値フィールドのプロット
+ピボットテーブルに 2 つ以上のデータフィールドが含まれる場合、Aspose.Cells は `PivotTable.getValuesField()` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。ベースピボットフィールドとして行領域または列領域にドラッグすることができ、複数のメジャーを並べて配置する場合に便利です。
+{{% alert color="primary" %}}
+`PivotTable.getValuesField()` は、値フィールドが 0 個または 1 個しかない場合は機能しません。
+{{% /alert %}}
+以下のシナリオでは、上記の各機能を同じピボット構造に対して段階的に示す 3 つのエンドツーエンドの例を紹介します。
+
+```javascript
+const AsposeCells = require("aspose.cells");
+
+const workbook = new AsposeCells.Workbook();
+const worksheet = workbook.getWorksheets().get(0);
+worksheet.setName("Data");
+
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
+}
+
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
+
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
+
+pivotTable.calculateData();
+workbook.save("output_plot.xlsx");
+```
+
+{{< app/cells/assistant language="javascript" >}}

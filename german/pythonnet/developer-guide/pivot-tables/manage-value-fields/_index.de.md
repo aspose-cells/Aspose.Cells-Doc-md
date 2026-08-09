@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Hinzufügen eines Felds zum Datenbereich
 Das Hinzufügen eines Basisfelds zum Daten-(Werte-)Bereich ist der erste Schritt bei der Gestaltung der Aggregation Ihrer Quelldaten durch die PivotTable. Aspose.Cells stellt `PivotTable.add_field_to_area(PivotFieldType, str)` bereit, eine Überladung, die die Konstante `PivotFieldType.DATA` und den Namen der Quellspalte akzeptiert. Sobald ein Feld zum Datenbereich hinzugefügt wurde, wird es über die Sammlung `PivotTable.data_fields` in der Reihenfolge des Hinzufügens verfügbar gemacht. Standardmäßig wird eine numerische Quellspalte mit `ConsolidationFunction.SUM` zusammengefasst, während eine nicht numerische Spalte standardmäßig `Count` verwendet.
-## Ändern der Zusammenfassungsfunktion
-Jedes im Datenbereich platzierte Feld wird intern als Instanz von `PivotField` umschlossen, und seine Eigenschaft `function` gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Über denselben Setter `function` können Sie zwischen den verfügbaren Aggregaten wechseln, darunter `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` und `Varp`.
-{{% alert color="primary" %}}
-Das Ändern von `function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
-{{% /alert %}}
-Sie können daher ein Datenfeld als `Sum` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `Count` oder `Average` verwendet, und das alles in einer einzigen PivotTable.
-## Wertfelder auf die Zeilen- oder Spaltenachse anwenden
-Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.values_field` bereit. Dieses virtuelle Feld repräsentiert das Aggregat aller im Datenbereich vorhandenen Datenfelder. Sie können es als Basisfeld einer PivotTable in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Measures nebeneinander anzuordnen.
-{{% alert color="primary" %}}
-`PivotTable.values_field` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
-{{% /alert %}}
-Die folgenden Szenarien durchlaufen drei durchgängige Beispiele, die jede der oben beschriebenen Funktionen anhand derselben PivotTable-Struktur demonstrieren.
-## Szenario 1 — Ziehen eines Basisfelds in den Wertebereich
-Dieses Szenario zeigt, wie ein einzelnes Basisfeld (`Amount`) in den Datenbereich einer bestehenden PivotTable eingefügt wird. Die gemeinsame PivotTable-Struktur platziert `Category` und `Item` auf der Zeilenachse und `Year` auf der Spaltenachse. Nach der Operation erscheint `Amount` im Datenbereich und wird standardmäßig als `Sum` von `Amount` berechnet.
+
 ```python
 from aspose.cells.pivot import PivotFieldType
 
@@ -86,8 +73,14 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
-## Szenario 2 — Ändern der Zusammenfassungsfunktion
-Dieses Szenario beginnt mit derselben PivotTable-Struktur wie Szenario 1, fügt jedoch das Feld `Amount` zweimal zum Datenbereich hinzu. Beide Datenfelder verweisen auf dieselbe Quellspalte, jedoch wird das zweite Feld mithilfe des Setters `PivotField.function` überschrieben, sodass es `Count` anstelle der Standardeinstellung `Sum` wird.
+
+## Ändern der Zusammenfassungsfunktion
+Jedes im Datenbereich platzierte Feld wird intern als Instanz von `PivotField` umschlossen, und seine Eigenschaft `function` gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Über denselben Setter `function` können Sie zwischen den verfügbaren Aggregaten wechseln, darunter `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` und `Varp`.
+{{% alert color="primary" %}}
+Das Ändern von `function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
+{{% /alert %}}
+Sie können daher ein Datenfeld als `Sum` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `Count` oder `Average` verwendet, und das alles in einer einzigen PivotTable.
+
 ```python
 import aspose.cells as ac
 
@@ -131,8 +124,14 @@ pivot_table.calculate_data()
 
 workbook.save("output_function.xlsx")
 ```
-## Szenario 3 — Wertfelder auf die Zeilen- oder Spaltenachse anwenden
-Wenn zwei Datenfelder vorhanden sind, wird `PivotTable.values_field` nutzbar. Dieses Szenario zieht dieses virtuelle Aggregatfeld in den Spaltenbereich, sodass jedes Measure im Datenbereich als eigener Spaltenblock neben `Year` erscheint.
+
+## Wertfelder auf die Zeilen- oder Spaltenachse anwenden
+Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.values_field` bereit. Dieses virtuelle Feld repräsentiert das Aggregat aller im Datenbereich vorhandenen Datenfelder. Sie können es als Basisfeld einer PivotTable in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Measures nebeneinander anzuordnen.
+{{% alert color="primary" %}}
+`PivotTable.values_field` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
+{{% /alert %}}
+Die folgenden Szenarien durchlaufen drei durchgängige Beispiele, die jede der oben beschriebenen Funktionen anhand derselben PivotTable-Struktur demonstrieren.
+
 ```python
 import aspose.cells as ac
 
@@ -176,6 +175,5 @@ pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")
 ```
-Zusammen decken diese drei Szenarien jeden Aspekt der Wertfeldmanipulation in Aspose.Cells for Python via .NET ab, von einem einzelnen Datenfeld mit der Standardeinstellung `Sum` bis hin zu einer PivotTable mit mehreren Measures, bei der das virtuelle Feld `ValuesField` das Layout auf der Zeilen- oder Spaltenachse steuert.
 
 {{< app/cells/assistant language="python-net" >}}

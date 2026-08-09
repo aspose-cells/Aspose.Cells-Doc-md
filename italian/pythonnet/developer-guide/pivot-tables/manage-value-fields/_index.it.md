@@ -14,30 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 L'aggiunta di un campo di base all'area dati (valore) è il primo passo per definire come una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.add_field_to_area(PivotFieldType, str)`, un overload che accetta la costante `PivotFieldType.DATA` e il nome della colonna di origine. Una volta aggiunto un campo all'area dati, l'API lo espone tramite la raccolta `PivotTable.data_fields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.SUM`, mentre una colonna non numerica utilizza `Count` come valore predefinito.
 
-## Modifica della funzione di riepilogo
-
-Ogni campo posizionato nell'area dati è incapsulato internamente come istanza di `PivotField` e la sua proprietà `function` restituisce un valore dall'enum `ConsolidationFunction`. Lo stesso setter `function` consente di passare tra gli aggregati disponibili, tra cui `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` e `Varp`.
-
-{{% alert color="primary" %}}
-La modifica di `function` influisce solo sull'aggregato, la colonna di origine non cambia.
-{{% /alert %}}
-
-È quindi possibile lasciare un campo dati come `Sum` mentre si aggiunge un secondo campo dati che ha come destinazione la stessa colonna di origine ma utilizza `Count` o `Average`, il tutto in un'unica tabella pivot.
-
-## Visualizzazione dei campi valore sull'asse Riga o Colonna
-
-Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un campo virtuale aggiuntivo chiamato `PivotTable.values_field`. Questo campo virtuale rappresenta l'aggregato di ogni campo dati presente nell'area dati. È possibile trascinarlo nell'area Riga o Colonna come campo pivot di base, utile per disporre più misure affiancate.
-
-{{% alert color="primary" %}}
-`PivotTable.values_field` non funziona se non ci sono campi valore o se ne è presente solo uno.
-{{% /alert %}}
-
-Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna delle funzionalità descritte sopra sulla stessa struttura di tabella pivot.
-
-## Scenario 1 — Trascinamento di un campo di base nell'area Valore
-
-Questo scenario mostra come inserire un singolo campo di base (`Amount`) nell'area dati di una tabella pivot esistente. La struttura di tabella pivot condivisa posiziona `Category` e `Item` sull'asse Riga e `Year` sull'asse Colonna. Dopo l'operazione, `Amount` appare nell'area dati e viene calcolato come `Sum` di `Amount` per impostazione predefinita.
-
 ```python
 from aspose.cells.pivot import PivotFieldType
 
@@ -99,9 +75,15 @@ pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
-## Scenario 2 — Modifica della funzione di riepilogo
+## Modifica della funzione di riepilogo
 
-Questo scenario parte dalla stessa struttura di tabella pivot dello Scenario 1 ma aggiunge il campo `Amount` all'area dati due volte. Entrambi i campi dati fanno riferimento alla stessa colonna di origine, tuttavia il secondo campo viene sovrascritto utilizzando il setter `PivotField.function` in modo che diventi `Count` invece del `Sum` predefinito.
+Ogni campo posizionato nell'area dati è incapsulato internamente come istanza di `PivotField` e la sua proprietà `function` restituisce un valore dall'enum `ConsolidationFunction`. Lo stesso setter `function` consente di passare tra gli aggregati disponibili, tra cui `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` e `Varp`.
+
+{{% alert color="primary" %}}
+La modifica di `function` influisce solo sull'aggregato, la colonna di origine non cambia.
+{{% /alert %}}
+
+È quindi possibile lasciare un campo dati come `Sum` mentre si aggiunge un secondo campo dati che ha come destinazione la stessa colonna di origine ma utilizza `Count` o `Average`, il tutto in un'unica tabella pivot.
 
 ```python
 import aspose.cells as ac
@@ -147,9 +129,15 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Scenario 3 — Visualizzazione dei campi valore sull'asse Riga o Colonna
+## Visualizzazione dei campi valore sull'asse Riga o Colonna
 
-Con due campi dati in posizione, `PivotTable.values_field` diventa utilizzabile. Questo scenario trascina tale campo virtuale aggregato nell'area Colonna in modo che ogni misura nell'area dati appaia come un proprio blocco di colonna accanto a `Year`.
+Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un campo virtuale aggiuntivo chiamato `PivotTable.values_field`. Questo campo virtuale rappresenta l'aggregato di ogni campo dati presente nell'area dati. È possibile trascinarlo nell'area Riga o Colonna come campo pivot di base, utile per disporre più misure affiancate.
+
+{{% alert color="primary" %}}
+`PivotTable.values_field` non funziona se non ci sono campi valore o se ne è presente solo uno.
+{{% /alert %}}
+
+Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna delle funzionalità descritte sopra sulla stessa struttura di tabella pivot.
 
 ```python
 import aspose.cells as ac
@@ -194,7 +182,5 @@ pivot_table.calculate_data()
 
 workbook.save("output_plot.xlsx")
 ```
-
-Insieme, questi tre scenari coprono ogni aspetto della manipolazione dei campi valore in Aspose.Cells for Python via .NET, da un singolo campo dati con il `Sum` predefinito a una tabella pivot multi-misura in cui il virtuale `ValuesField` controlla il layout sull'asse Riga o Colonna.
 
 {{< app/cells/assistant language="python-net" >}}

@@ -14,28 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 基本フィールドをデータ（値）領域に追加することは、ピボットテーブルがソースデータをどのように集計するかを形作る最初のステップです。Aspose.Cells は `PivotTable.addFieldToArea(PivotFieldType, string)` を提供しており、これは定数 `PivotFieldType.Data` とソース列名を受け取るオーバーロードです。フィールドがデータ領域に追加されると、API は `PivotTable.getDataFields()` コレクションを通じてそれを公開し、フィールドが追加された順序で並びます。デフォルトでは、数値ソース列は `ConsolidationFunction.Sum` で集計され、非数値列は `Count` がデフォルトとなります。
 
-## 集計関数の変更
-
-データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `getFunction()` プロパティは `ConsolidationFunction` 列挙型の値を返します。同じ `setFunction()` セッターを使用すると、`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` などの利用可能な集計を切り替えることができます。
-
-集計関数の変更は集計結果のみに影響し、ソース列は変更されません。
-{{% alert color="primary" %}}
-{{% /alert %}}
-
-したがって、1 つのデータフィールドを `Sum` のままにして、同じソース列を対象とするが `Count` または `Average` を使用する 2 つ目のデータフィールドを、単一のピボット内で追加することができます。
-
-## 値フィールドを行または列の軸にプロットする
-
-ピボットテーブルに 2 つ以上のデータフィールドが含まれている場合、Aspose.Cells は `PivotTable.getValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。これを基本ピボットフィールドとして行領域または列領域にドラッグでき、複数のメジャーを並べて配置する場合に便利です。
-
-`PivotTable.getValuesField()` は、値フィールドが存在しないか 1 つしかない場合は機能しません。
-
-以下のシナリオでは、上記で説明した各機能を同じピボット構造に対して実証する 3 つのエンドツーエンドの例を順に紹介します。
-
-## シナリオ 1 — 基本フィールドを値領域にドラッグする
-
-このシナリオでは、単一の基本フィールド (`Amount`) を既存のピボットテーブルのデータ領域に配置する方法を示します。共有されるピボット構造は、`Category` と `Item` を行軸に配置し、`Year` を列軸に配置します。操作の後、`Amount` はデータ領域に表示され、デフォルトで `Amount` の `Sum` として計算されます。
-
 ```javascript
 const AsposeCells = require("aspose.cells");
 
@@ -92,6 +70,17 @@ pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
+
+## 集計関数の変更
+
+データ領域に配置された各フィールドは内部的に `PivotField` インスタンスとしてラップされ、その `getFunction()` プロパティは `ConsolidationFunction` 列挙型の値を返します。同じ `setFunction()` セッターを使用すると、`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` などの利用可能な集計を切り替えることができます。
+
+集計関数の変更は集計結果のみに影響し、ソース列は変更されません。
+{{% alert color="primary" %}}
+{{% /alert %}}
+
+したがって、1 つのデータフィールドを `Sum` のままにして、同じソース列を対象とするが `Count` または `Average` を使用する 2 つ目のデータフィールドを、単一のピボット内で追加することができます。
+
 ```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
@@ -145,6 +134,15 @@ pivotTable.calculateData();
 
 workbook.save("output_function.xlsx");
 ```
+
+## 値フィールドを行または列の軸にプロットする
+
+ピボットテーブルに 2 つ以上のデータフィールドが含まれている場合、Aspose.Cells は `PivotTable.getValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に存在するすべてのデータフィールドの集計を表します。これを基本ピボットフィールドとして行領域または列領域にドラッグでき、複数のメジャーを並べて配置する場合に便利です。
+
+`PivotTable.getValuesField()` は、値フィールドが存在しないか 1 つしかない場合は機能しません。
+
+以下のシナリオでは、上記で説明した各機能を同じピボット構造に対して実証する 3 つのエンドツーエンドの例を順に紹介します。
+
 ```javascript
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
@@ -187,7 +185,5 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValue
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
-
-これらの 3 つのシナリオを合わせると、デフォルトの `Sum` を持つ単一のデータフィールドから、仮想 `ValuesField` が行軸または列軸のレイアウトを制御する複数メジャーのピボットまで、Aspose.Cells for Node.js via C++ における値フィールド操作のすべての側面をカバーしています。
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

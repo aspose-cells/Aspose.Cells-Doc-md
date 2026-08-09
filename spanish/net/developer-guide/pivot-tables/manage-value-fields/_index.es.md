@@ -14,30 +14,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 Agregar un campo base a la región de datos (valor) es el primer paso para dar forma a cómo una tabla dinámica agrega los datos de origen. Aspose.Cells expone `PivotTable.AddFieldToArea(PivotFieldType, string)`, una sobrecarga que acepta la constante `PivotFieldType.Data` y el nombre de la columna de origen. Una vez que se agrega un campo a la región de datos, la API lo expone a través de la colección `PivotTable.DataFields`, en el orden en que se agregaron los campos. Por defecto, una columna de origen numérica se resume con `ConsolidationFunction.Sum`, mientras que una columna no numérica toma por defecto `Count`.
 
-## Cambiar la función de resumen
-
-Cada campo colocado en la región de datos se envuelve internamente como una instancia de `PivotField`, y su propiedad `Function` devuelve un valor de la enumeración `ConsolidationFunction`. El mismo setter de `Function` le permite cambiar entre los agregados disponibles, incluidos `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` y `Varp`.
-
-{{% alert color="primary" %}}
-Cambiar `Function` solo afecta al agregado, la columna de origen no cambia.
-{{% /alert %}}
-
-Por lo tanto, puede dejar un campo de datos como `Sum` mientras agrega un segundo campo de datos que apunte a la misma columna de origen pero que use `Count` o `Average`, todo en una sola tabla dinámica.
-
-## Representar campos de valor en el eje de fila o columna
-
-Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells expone un campo virtual adicional llamado `PivotTable.ValuesField`. Este campo virtual representa el agregado de cada campo de datos que se encuentra en la región de datos. Puede arrastrarlo a la región de fila o columna como un campo dinámico base, lo que resulta útil para disponer varias medidas una al lado de la otra.
-
-{{% alert color="primary" %}}
-`PivotTable.ValuesField` no funciona si no hay ningún campo de valor o si solo hay uno.
-{{% /alert %}}
-
-Los escenarios a continuación recorren tres ejemplos completos que demuestran cada capacidad descrita anteriormente sobre la misma estructura de tabla dinámica.
-
-## Escenario 1 — Arrastrar un campo base a la región de valor
-
-Este escenario muestra cómo colocar un único campo base (`Amount`) en la región de datos de una tabla dinámica existente. La estructura compartida de la tabla dinámica sitúa `Category` e `Item` en el eje de fila y `Year` en el eje de columna. Tras la operación, `Amount` aparece en la región de datos y se calcula como la `Sum` de `Amount` por defecto.
-
 ```csharp
 using System;
 using Aspose.Cells;
@@ -100,9 +76,15 @@ pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
 
-## Escenario 2 — Cambiar la función de resumen
+## Cambiar la función de resumen
 
-Este escenario parte de la misma estructura de tabla dinámica que el Escenario 1, pero agrega el campo `Amount` a la región de datos dos veces. Ambos campos de datos hacen referencia a la misma columna de origen; sin embargo, el segundo campo se sobrescribe mediante el setter `PivotField.Function` para que pase a ser `Count` en lugar del `Sum` por defecto.
+Cada campo colocado en la región de datos se envuelve internamente como una instancia de `PivotField`, y su propiedad `Function` devuelve un valor de la enumeración `ConsolidationFunction`. El mismo setter de `Function` le permite cambiar entre los agregados disponibles, incluidos `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` y `Varp`.
+
+{{% alert color="primary" %}}
+Cambiar `Function` solo afecta al agregado, la columna de origen no cambia.
+{{% /alert %}}
+
+Por lo tanto, puede dejar un campo de datos como `Sum` mientras agrega un segundo campo de datos que apunte a la misma columna de origen pero que use `Count` o `Average`, todo en una sola tabla dinámica.
 
 ```csharp
 using System;
@@ -162,9 +144,15 @@ pivotTable.CalculateData();
 workbook.Save("output_function.xlsx");
 ```
 
-## Escenario 3 — Representar campos de valor en el eje de fila o columna
+## Representar campos de valor en el eje de fila o columna
 
-Con dos campos de datos en su lugar, `PivotTable.ValuesField` pasa a ser utilizable. Este escenario arrastra ese campo virtual agregado a la región de columna para que cada medida de la región de datos aparezca como su propio bloque de columnas junto a `Year`.
+Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells expone un campo virtual adicional llamado `PivotTable.ValuesField`. Este campo virtual representa el agregado de cada campo de datos que se encuentra en la región de datos. Puede arrastrarlo a la región de fila o columna como un campo dinámico base, lo que resulta útil para disponer varias medidas una al lado de la otra.
+
+{{% alert color="primary" %}}
+`PivotTable.ValuesField` no funciona si no hay ningún campo de valor o si solo hay uno.
+{{% /alert %}}
+
+Los escenarios a continuación recorren tres ejemplos completos que demuestran cada capacidad descrita anteriormente sobre la misma estructura de tabla dinámica.
 
 ```csharp
 using System;
@@ -212,7 +200,5 @@ pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```
-
-En conjunto, estos tres escenarios abarcan todos los aspectos de la manipulación de campos de valor en Aspose.Cells for .NET, desde un único campo de datos con la `Sum` por defecto hasta una tabla dinámica con varias medidas en la que el `ValuesField` virtual controla el diseño en el eje de fila o columna.
 
 {{< app/cells/assistant language="csharp" >}}

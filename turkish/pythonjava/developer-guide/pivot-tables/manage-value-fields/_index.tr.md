@@ -12,20 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## Veri Bölgesine Alan Ekleme
 Bir temel alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.DATA` sabitini ve kaynak sütun adını kabul eden `PivotTable.addFieldToArea(PivotFieldType, string)` aşırı yüklemesini kullanıma sunar. Bir alan veri bölgesine eklendikten sonra, API bu alanı, alanların eklenme sırasına göre `PivotTable.DataFields` koleksiyonu aracılığıyla kullanıma sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.SUM` ile özetlenirken, sayısal olmayan bir sütun için varsayılan değer `COUNT`'tur.
-## Özet Fonksiyonunu Değiştirme
-Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarmalanır ve `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` ve `VARP` dahil olmak üzere kullanılabilir toplamalar arasında geçiş yapmanıza olanak tanır.
-{{% alert color="primary" %}}
-`Function`'ı değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-Bu nedenle, aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı eklerken tek bir veri alanını `SUM` olarak bırakabilirsiniz; tümü tek bir pivot içinde gerçekleşir.
-## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adında ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu, birden çok ölçüyü yan yana düzenlemek için kullanışlı bir temel pivot alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz.
-{{% alert color="primary" %}}
-`PivotTable.ValuesField`, değer alanı yoksa veya yalnızca bir tane varsa çalışmaz.
-{{% /alert %}}
-Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek üzerinden ilerler.
-## Senaryo 1 — Bir Temel Alanı Değer Bölgesine Sürükleme
-Bu senaryo, tek bir temel alanın (`Amount`) mevcut bir pivot tablonun veri bölgesine nasıl yerleştirileceğini gösterir. Paylaşılan pivot yapısı, `Category` ve `Item`'ı Satır eksenine, `Year`'ı ise Sütun eksenine yerleştirir. İşlemden sonra `Amount` veri bölgesinde görünür ve varsayılan olarak `Amount` değerlerinin toplamı (`Sum`) olarak hesaplanır.
+
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
@@ -62,8 +49,14 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
-## Senaryo 2 — Özet Fonksiyonunu Değiştirme
-Bu senaryo, Senaryo 1 ile aynı pivot yapısından başlar, ancak `Amount` alanını veri bölgesine iki kez ekler. Her iki veri alanı da aynı kaynak sütuna başvurur, ancak ikinci alan, varsayılan `Sum` yerine `Count` olacak şekilde `PivotField.Function` ayarlayıcısı kullanılarak geçersiz kılınır.
+
+## Özet Fonksiyonunu Değiştirme
+Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarmalanır ve `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` ve `VARP` dahil olmak üzere kullanılabilir toplamalar arasında geçiş yapmanıza olanak tanır.
+{{% alert color="primary" %}}
+`Function`'ı değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
+{{% /alert %}}
+Bu nedenle, aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı eklerken tek bir veri alanını `SUM` olarak bırakabilirsiniz; tümü tek bir pivot içinde gerçekleşir.
+
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
@@ -102,8 +95,14 @@ pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
-## Senaryo 3 — Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-İki veri alanı yerinde olduğunda, `PivotTable.ValuesField` kullanılabilir hale gelir. Bu senaryo, o toplama sanal alanını Sütun bölgesine sürükler, böylece veri bölgesindeki her ölçü, `Year`'ın yanında kendi sütun bloğu olarak görünür.
+
+## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
+Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adında ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu, birden çok ölçüyü yan yana düzenlemek için kullanışlı bir temel pivot alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz.
+{{% alert color="primary" %}}
+`PivotTable.ValuesField`, değer alanı yoksa veya yalnızca bir tane varsa çalışmaz.
+{{% /alert %}}
+Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek üzerinden ilerler.
+
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
@@ -143,6 +142,5 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.na
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```
-Birlikte, bu üç senaryo Aspose.Cells for Python via Java'daki değer alanı manipülasyonunun tüm yönlerini kapsar; varsayılan `Sum` ile tek bir veri alanından, sanal `ValuesField`'ın Satır veya Sütun eksenindeki düzeni kontrol ettiği çoklu ölçülü bir pivota kadar.
 
 {{< app/cells/assistant language="python" >}}
