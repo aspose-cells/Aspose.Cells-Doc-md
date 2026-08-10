@@ -32,6 +32,7 @@ Aspose.Cells supports both 32‑bit and 64‑bit environments. When you install 
 |net6.0|Contains assemblies to use with .NET 6.0.|
 |net8.0|Contains assemblies to use with .NET 8.0.|
 |net9.0|Contains assemblies to use with .NET 9.0.|
+|net10.0|Contains assemblies to use with .NET 10.0.|
 
 {{% alert color="primary" %}} 
 
