@@ -60,7 +60,7 @@ for (int i = 1; i <= 8; i++)
 }
 
 // 在 F3 处添加名称为 PivotTable1 的数据透视表
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 // 数据透视表布局：Category 和 Item 作为行，Year 作为列，Amount 作为数据字段
@@ -110,7 +110,7 @@ for (int i = 0; i < data.length; i++) {
  }
 }
 
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
@@ -164,7 +164,7 @@ for (int i = 0; i < data.length; i++) {
  }
 }
 
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
@@ -174,7 +174,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField());
 
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");

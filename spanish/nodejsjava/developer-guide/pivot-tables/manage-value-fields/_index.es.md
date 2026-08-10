@@ -44,7 +44,7 @@ for (let i = 0; i < data.length; i++) {
     }
 }
 
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
@@ -93,7 +93,7 @@ for (let i = 0; i < data.length; i++) {
     }
 }
 
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
@@ -144,7 +144,7 @@ for (let i = 0; i < data.length; i++) {
     }
 }
 
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
@@ -152,7 +152,7 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
 
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");

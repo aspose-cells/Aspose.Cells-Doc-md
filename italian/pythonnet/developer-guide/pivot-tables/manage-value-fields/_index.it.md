@@ -62,7 +62,7 @@ for i in range(1, 9):
                 worksheet.cells[i, j].put_value(45)
 
 # Aggiungi tabella pivot in F3 con nome PivotTable1
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 # Layout pivot: Categoria e Articolo su Riga, Anno su Colonna, Importo come campo dati
@@ -111,7 +111,7 @@ for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells[i + 1, j].put_value(data[i][j])
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
@@ -165,7 +165,7 @@ for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells[i + 1, j].put_value(data[i][j])
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
@@ -176,7 +176,7 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 
 # Traccia i campi valore sull'asse delle colonne.
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
+pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field)
 
 pivot_table.calculate_data()
 

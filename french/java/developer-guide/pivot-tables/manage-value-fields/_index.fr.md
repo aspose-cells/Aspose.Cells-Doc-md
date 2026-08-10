@@ -60,7 +60,7 @@ for (int i = 1; i <= 8; i++)
 }
 
 // Ajouter un tableau croisé dynamique à F3 avec le nom PivotTable1
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 // Disposition du tableau croisé dynamique : Category et Item en ligne, Year en colonne, Amount comme champ de données
@@ -110,7 +110,7 @@ for (int i = 0; i < data.length; i++) {
  }
 }
 
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
@@ -164,7 +164,7 @@ for (int i = 0; i < data.length; i++) {
  }
 }
 
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
@@ -174,7 +174,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
 
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField().getName());
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField());
 
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");

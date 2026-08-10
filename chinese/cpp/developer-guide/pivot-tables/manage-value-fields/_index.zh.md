@@ -68,7 +68,7 @@ int main() {
  }
 
  // 在 F3 位置添加名为 PivotTable1 的数据透视表
- int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
+ int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
 
  // 数据透视表布局：Category 和 Item 作为行，Year 作为列，Amount 作为数据字段
@@ -107,7 +107,7 @@ int main() {
 
 	Vector<Vector<Object*>> data;
 	// 填充数据 ...
-	int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
+	int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
 	PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
 	pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
 	pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
@@ -139,7 +139,7 @@ int main() {
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  // ... 构建数据 ...
- int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
+ int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
  PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
@@ -147,7 +147,7 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
- pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField()->GetName());
+ pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField());
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }

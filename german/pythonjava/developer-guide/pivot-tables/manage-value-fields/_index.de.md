@@ -40,7 +40,7 @@ for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
@@ -87,7 +87,7 @@ for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
@@ -136,7 +136,7 @@ for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
@@ -144,7 +144,7 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field.name)
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
 
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")

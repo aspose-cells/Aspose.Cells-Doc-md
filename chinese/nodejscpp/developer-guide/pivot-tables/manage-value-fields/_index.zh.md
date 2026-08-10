@@ -69,7 +69,7 @@ for (let i = 1; i <= 8; i++) {
 }
 
 // 在 F3 位置添加名为 PivotTable1 的数据透视表
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 // 数据透视表布局：Category 和 Item 放在行，Year 放在列，Amount 作为数据字段
@@ -131,7 +131,7 @@ for (let i = 1; i <= 8; i++)
  }
 }
 
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
@@ -193,7 +193,7 @@ for (let i = 1; i <= 8; i++)
  }
 }
 
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
+let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
 
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
@@ -204,7 +204,7 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 
 pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
 
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField().getName());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
 
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");

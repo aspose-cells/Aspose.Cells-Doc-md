@@ -61,7 +61,7 @@ for i in range(1, 9):
                 worksheet.cells[i, j].put_value(45)
 
 # Ajouter un tableau croisé dynamique à F3 avec le nom PivotTable1
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 # Disposition du tableau croisé : Category et Item en Ligne, Year en Colonne, Amount comme champ de données
@@ -107,7 +107,7 @@ for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells[i + 1, j].put_value(data[i][j])
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
@@ -158,7 +158,7 @@ for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells[i + 1, j].put_value(data[i][j])
 
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
+pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 
 pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
@@ -169,7 +169,7 @@ pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ac.ConsolidationFunction.COUNT
 
 # Tracer les champs de valeurs sur l'axe des colonnes.
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field.name)
+pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, pivot_table.values_field)
 
 pivot_table.calculate_data()
 

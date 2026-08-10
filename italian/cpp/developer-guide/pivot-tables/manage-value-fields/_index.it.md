@@ -69,7 +69,7 @@ int main() {
  }
 
  // Aggiungi tabella pivot in F3 con nome PivotTable1
- int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
+ int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
 
  // Layout pivot: Categoria e Articolo su Riga, Anno su Colonna, Importo come campo dati
@@ -111,7 +111,7 @@ int main() {
 
  Vector<Vector<Object*>> data;
  // Riempi dati ...
- int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
+ int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
  PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
@@ -146,7 +146,7 @@ int main() {
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  // ... costruisci dati ...
- int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1");
+ int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
  PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
  pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
@@ -154,7 +154,7 @@ int main() {
  pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
  pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
- pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField()->GetName());
+ pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField());
  pivotTable->CalculateData();
  workbook->Save("output_plot.xlsx");
 }
