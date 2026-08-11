@@ -390,6 +390,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |PERCENTRANK|**Compatibility**: Returns the percentage rank of a value in a data set
 |PERMUT|**Statistical**: Returns the number of permutations for a given number of objects
 |PI|**Math and trigonometry**: Returns the value of pi
+|PIVOTBY|**Lookup and reference**: Helps a user group, aggregate, sort, and filter data based on the row and column fields that you specify
 |PMT|**Financial**: Returns the periodic payment for an annuity
 |POISSON.DIST|**Statistical**: Returns the Poisson distribution
 |POISSON|**Compatibility**: Returns the Poisson distribution

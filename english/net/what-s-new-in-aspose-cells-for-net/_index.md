@@ -10,6 +10,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.8
+* Support calculating PIVOTBY function
+* Support phonetic text while converting to pdf/xps
+* Support calculating BYROW/BYCOL with functions other than LAMBDA
+* Improve reading and writing phonetic settings for xls and xlsb
+* Simplify subtotal setting of pivot field
+* Support saving pivot alignment format setting of pivot table for xlsb
+* Support calculating style of pivot table with outline border setting
+
 ## Aspose.Cells for .NET 26.7
 * Support LET function which uses LAMBDA function as "name_value"
 * Support converting HTML Table into Excel
