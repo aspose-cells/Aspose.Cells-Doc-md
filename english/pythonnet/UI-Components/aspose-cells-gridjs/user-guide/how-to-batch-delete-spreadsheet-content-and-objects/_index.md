@@ -1,11 +1,7 @@
 ---
 title: How to batch delete spreadsheet content and objects
-description: Use GridJs Batch Delete to remove blank worksheets, blank rows, spaces,
-  text at specified positions, zero or non-numeric values, comments, hyperlinks, and
-  objects.
-keywords: Batch Delete, blankSheets, blankRows, leadingSpaces, allSpaces, trailingSpaces,
-  leadingText, middleText, trailingText, zeroValues, nonNumericValues, comments, hyperlinks,
-  objects
+description: Use GridJs Batch Delete to remove blank worksheets, blank rows, spaces, text at specified positions, zero or non-numeric values, comments, hyperlinks, and objects.
+keywords: Batch Delete, blankSheets, blankRows, leadingSpaces, allSpaces, trailingSpaces, leadingText, middleText, trailingText, zeroValues, nonNumericValues, comments, hyperlinks, objects
 type: docs
 weight: 1
 url: /python-net/aspose-cells-gridjs/user-guide/how-to-batch-delete-spreadsheet-content-and-objects/
