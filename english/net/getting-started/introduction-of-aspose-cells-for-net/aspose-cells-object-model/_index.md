@@ -13,11 +13,50 @@ Aspose.Cells Object Model provides information about the structural relationship
 
 {{% /alert %}} 
 
-The top‑level structure of the Aspose.Cells object model is shown below in a hierarchical manner.
+The top level structure of the Aspose.Cells object model is shown below in a hierarchical manner.
 
-|**Top level structure of Aspose.Cells Object Model**|
-| :- |
-|![todo:image_alt_text](aspose-cells-object-model_1.png)|
+**Top level structure of Aspose.Cells Object Model**
+
+```mermaid
+flowchart TD
+    Workbook --> Worksheets
+    Worksheets --> Worksheet
+    Worksheet --> AutoFilter
+    Worksheet --> Cells
+    Cells --> Cell
+    Cells --> Ranges
+    Ranges --> Range
+    Cells --> Rows
+    Rows --> Row
+    Cells --> Columns
+    Columns --> Column
+    Worksheet --> Charts
+    Charts --> Chart
+    Worksheet --> Comments
+    Comments --> Comment
+    Worksheet --> HPageBreaks
+    HPageBreaks --> HPageBreak
+    Worksheet --> VPageBreaks
+    VPageBreaks --> VPageBreak
+    Worksheet --> Hyperlinks
+    Hyperlinks --> Hyperlink
+    Worksheet --> PageSetup
+    Worksheet --> Pictures
+    Pictures --> Picture
+    Worksheet --> Protection
+    Worksheet --> PivotTables
+    PivotTables --> PivotTable
+    Worksheet --> Timelines
+    Timelines --> Timeline
+    Worksheet --> Slicers
+    Slicers --> Slicer
+    Worksheet --> ListObjects
+    ListObjects --> ListObject
+    Worksheet --> Shapes
+    Shapes --> Shape
+    Worksheet --> SparklineGroups
+    SparklineGroups --> SparklineGroup
+```
 
 As you can see from the above figure, the root of the object model is the Workbook object. A brief description of a few of the objects is provided below for introductory purposes.
 
