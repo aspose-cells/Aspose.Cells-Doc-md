@@ -10,6 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 26.9
+* Support saving XLS with long ODBC connection command
+* Support automatically group pivot field without any settings
+* Support grouping pivot field with interval days
+
 ## Aspose.Cells for Java 26.8
 * Support calculating PIVOTBY function
 * Support phonetic text while converting to pdf/xps
