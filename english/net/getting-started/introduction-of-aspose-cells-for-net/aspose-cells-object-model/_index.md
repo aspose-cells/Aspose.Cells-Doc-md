@@ -17,56 +17,45 @@ The top level structure of the Aspose.Cells object model is shown below in a hie
 
 **Top level structure of Aspose.Cells Object Model**
 
-```
-+----------+
-| Workbook |
-+----+-----+
-     |
-     v
-+------------+
-| Worksheets |
-+----+-------+
-     |
-     v
-+----------+
-| Worksheet|
-+----+-----+
-     |
-     +--- AutoFilter
-     |
-     +--- Cells -------> Cell
-     |       |
-     |       +--- Ranges --> Range
-     |       +--- Rows ----> Row
-     |       +--- Columns -> Column
-     |
-     +--- Charts -------> Chart
-     |
-     +--- Comments -----> Comment
-     |
-     +--- HPageBreaks --> HPageBreak
-     |
-     +--- VPageBreaks --> VPageBreak
-     |
-     +--- Hyperlinks ---> Hyperlink
-     |
-     +--- PageSetup
-     |
-     +--- Pictures -----> Picture
-     |
-     +--- Protection
-     |
-     +--- PivotTables --> PivotTable
-     |
-     +--- Timelines ----> Timeline
-     |
-     +--- Slicers ------> Slicer
-     |
-     +--- ListObjects --> ListObject
-     |
-     +--- Shapes -------> Shape
-     |
-     +--- SparklineGroups -> SparklineGroup
+```mermaid
+flowchart TD
+    Workbook --> Worksheets
+    Worksheets --> Worksheet
+    Worksheet --> AutoFilter
+    Worksheet --> Cells
+    Cells --> Cell
+    Cells --> Ranges
+    Ranges --> Range
+    Cells --> Rows
+    Rows --> Row
+    Cells --> Columns
+    Columns --> Column
+    Worksheet --> Charts
+    Charts --> Chart
+    Worksheet --> Comments
+    Comments --> Comment
+    Worksheet --> HPageBreaks
+    HPageBreaks --> HPageBreak
+    Worksheet --> VPageBreaks
+    VPageBreaks --> VPageBreak
+    Worksheet --> Hyperlinks
+    Hyperlinks --> Hyperlink
+    Worksheet --> PageSetup
+    Worksheet --> Pictures
+    Pictures --> Picture
+    Worksheet --> Protection
+    Worksheet --> PivotTables
+    PivotTables --> PivotTable
+    Worksheet --> Timelines
+    Timelines --> Timeline
+    Worksheet --> Slicers
+    Slicers --> Slicer
+    Worksheet --> ListObjects
+    ListObjects --> ListObject
+    Worksheet --> Shapes
+    Shapes --> Shape
+    Worksheet --> SparklineGroups
+    SparklineGroups --> SparklineGroup
 ```
 
 As you can see from the above figure, the root of the object model is the Workbook object. A brief description of a few of the objects is provided below for introductory purposes.
