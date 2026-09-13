@@ -7,28 +7,28 @@ ai_search_scope: cells_reportingservices
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-**Using Aspose.Cells for Reporting Services – DLL‑Only Installation**  
+**Using Aspose.Cells for Reporting Services – DLL‑Only Installation**
 
-This guide explains how to install **Aspose.Cells for Reporting Services** when you want to work only with the DLL files (no MSI/Setup packages).  
+This guide explains how to install **Aspose.Cells for Reporting Services** when you want to work only with the DLL files (no MSI/Setup packages).
 
-## 📦 1. Download the Component  
+## 📦 1. Download the Component
 
-1. Open the [Aspose.Cells for Reporting Services download page](https://downloads.aspose.com/cells/reportingservices).  
-2. Download the **Aspose.Cells for Reporting Services (zip)** archive – it contains the latest DLLs and documentation.  
+1. Open the [Aspose.Cells for Reporting Services download page](https://downloads.aspose.com/cells/reportingservices).
+2. Download the **Aspose.Cells for Reporting Services (zip)** archive – it contains the latest DLLs and documentation.
 
-### Supported DLL packages  
+### Supported DLL packages
 
-| Folder (inside the ZIP) | SSRS version supported |
-|--------------------------|------------------------|
-| `SSRS2005`               | SQL Server 2005 Reporting Services |
-| `SSRS2008`               | SQL Server 2008 Reporting Services |
-| `SSRS2008R2`             | SQL Server 2008 R2 / 2012 / 2014 Reporting Services |
-| `SSRS2016`               | SQL Server 2016 / 2017 / 2019 Reporting Services |
-| `PBIRS`                  | Power BI Report Server |
+| Folder (inside the ZIP) | SSRS version supported                              |
+| ----------------------- | --------------------------------------------------- |
+| `SSRS2005`              | SQL Server 2005 Reporting Services                  |
+| `SSRS2008`              | SQL Server 2008 Reporting Services                  |
+| `SSRS2008R2`            | SQL Server 2008 R2 / 2012 / 2014 Reporting Services |
+| `SSRS2016`              | SQL Server 2016 / 2017 / 2019 Reporting Services    |
+| `PBIRS`                 | Power BI Report Server                              |
 
 > **Tip:** Choose the folder that matches the SSRS version you are using. The DLL inside each folder is named `Aspose.Cells.ReportingServices.dll`.
 
-## 📁 2. Extract the Archive  
+## 📁 2. Extract the Archive
 
 Extract the ZIP to a folder of your choice, e.g.:
 
@@ -36,11 +36,11 @@ Extract the ZIP to a folder of your choice, e.g.:
 C:\Aspose\CellsReportingServices\
 ```
 
-## 🛠️ 3. Install the Report Designer Add‑in (Excel)  
+## 🛠️ 3. Install the Report Designer Add‑in (Excel)
 
 The Designer add‑in lets you design reports directly from Excel.
 
-1. Open a **Developer Command Prompt** (run as Administrator).  
+1. Open a **Developer Command Prompt** (run as Administrator).
 2. Register the client assembly with **RegAsm.exe**:
 
 ```powershell
@@ -50,12 +50,12 @@ The Designer add‑in lets you design reports directly from Excel.
 
 > **Note:** Use the 64‑bit `RegAsm.exe` (`Framework64`) if your Office installation is 64‑bit.
 
-3. Open Excel → **File → Options → Add‑Ins** → **COM Add‑ins → Go…**  
+3. Open Excel → **File → Options → Add‑Ins** → **COM Add‑ins → Go…**
 4. Check **Aspose.Cells Reporting Services Designer** and click **OK**.
 
-## 📂 4. Deploy the Rendering Extension to SSRS  
+## 📂 4. Deploy the Rendering Extension to SSRS
 
-### 4.1 Copy the renderer DLL  
+### 4.1 Copy the renderer DLL
 
 Copy the version‑specific `Aspose.Cells.ReportingServices.dll` to the SSRS **bin** folder:
 
@@ -63,9 +63,9 @@ Copy the version‑specific `Aspose.Cells.ReportingServices.dll` to the SSRS **b
 %ProgramFiles%\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\bin
 ```
 
-*(Path varies with SSRS version – replace `MSRS13.MSSQLSERVER` with your instance name.)*
+_(Path varies with SSRS version – replace `MSRS13.MSSQLSERVER` with your instance name.)_
 
-### 4.2 Register the renderer in `rsreportserver.config`  
+### 4.2 Register the renderer in `rsreportserver.config`
 
 Edit the file:
 
@@ -78,10 +78,10 @@ Locate the `<Render>` element and insert the following entries **inside** it (ke
 ```xml
 <!-- Aspose.Cells for Reporting Services renderers -->
 <Extension Name="ACXLS"       Type="Aspose.Cells.ReportingServices.XlsRenderer, Aspose.Cells.ReportingServices" />
-<Extension Name="ACXLSX"      Type="Aspose.Cells.ReportingServices.Excel2007XlsxRenderer, Aspose.Cells.ReportingServices" />
-<Extension Name="ACXLSX(Data Only)" Type="Aspose.Cells.ReportingServices.Excel2007SimpleXlsxRenderer, Aspose.Cells.ReportingServices" />
+<Extension Name="ACXLSX"      Type="Aspose.Cells.ReportingServices.XlsxRenderer, Aspose.Cells.ReportingServices" />
+<Extension Name="ACXLSX(Data Only)" Type="Aspose.Cells.ReportingServices.SimpleXlsxRenderer, Aspose.Cells.ReportingServices" />
 <Extension Name="ACXLSB"      Type="Aspose.Cells.ReportingServices.XlsbRenderer, Aspose.Cells.ReportingServices" />
-<Extension Name="ACXLSM"      Type="Aspose.Cells.ReportingServices.Excel2007XlsmRenderer, Aspose.Cells.ReportingServices" />
+<Extension Name="ACXLSM"      Type="Aspose.Cells.ReportingServices.XlsmRenderer, Aspose.Cells.ReportingServices" />
 <Extension Name="ACXML"       Type="Aspose.Cells.ReportingServices.SpreadsheetMLRenderer, Aspose.Cells.ReportingServices" />
 <Extension Name="ACHTML"      Type="Aspose.Cells.ReportingServices.HtmlRenderer, Aspose.Cells.ReportingServices" />
 <Extension Name="ACCSV"       Type="Aspose.Cells.ReportingServices.CSVRenderer, Aspose.Cells.ReportingServices" />
@@ -101,7 +101,7 @@ Locate the `<Render>` element and insert the following entries **inside** it (ke
 
 > **Tip:** Preserve the original indentation and line‑break style to keep the file readable.
 
-### 4.3 Grant Full‑Trust to the assembly  
+### 4.3 Grant Full‑Trust to the assembly
 
 Edit **`rssrvpolicy.config`** (same folder as `rsreportserver.config`) and add a new `CodeGroup` that grants **FullTrust** to the Aspose.Cells assembly.
 
@@ -122,30 +122,30 @@ Locate the outer `<CodeGroup>` with `PermissionSetName="Execution"` and insert t
 
 ---
 
-## ✅ 5. Verify the Installation  
+## ✅ 5. Verify the Installation
 
-1. Open **Report Manager** (default URL: `http://<ServerName>/Reports`).  
-2. Navigate to any report and click **Export** → **Select Format**.  
-3. You should see a list of new formats prefixed with **“AC”** (e.g., **ACXLS – Excel Workbook via Aspose.Cells**).  
-4. Choose a format (e.g., **ACXLSX**) and click **Export**.  
+1. Open **Report Manager** (default URL: `http://<ServerName>/Reports`).
+2. Navigate to any report and click **Export** → **Select Format**.
+3. You should see a list of new formats prefixed with **“AC”** (e.g., **ACXLS – Excel Workbook via Aspose.Cells**).
+4. Choose a format (e.g., **ACXLSX**) and click **Export**.
 5. The report is generated and downloaded. Open it in Microsoft Excel to confirm the output.
 
 If the new formats are missing, double‑check:
 
-* The DLL is in the correct `ReportServer\bin` folder.  
-* The `<Extension>` entries are inside the `<Render>` element (no stray tags).  
-* The `CodeGroup` was added correctly and the XML is well‑formed.  
-* IIS/SSRS service was restarted (or simply run `net stop ReportServer && net start ReportServer`).
+- The DLL is in the correct `ReportServer\bin` folder.
+- The `<Extension>` entries are inside the `<Render>` element (no stray tags).
+- The `CodeGroup` was added correctly and the XML is well‑formed.
+- IIS/SSRS service was restarted (or simply run `net stop ReportServer && net start ReportServer`).
 
 ## Verify that Aspose.Cells for Reporting Services is installed successfully
 
-   1. Open the Report Manager and check the list of available export types for a report. Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
-   1. Select one of the reports on the server and open the **Select Format** list.
-      You should see the list of export formats provided by Aspose.Cells for Reporting Services.
-   1. Select **XLS – Excel Workbook via Aspose.Cells**.
-   1. Click **Export**.
-      The report is generated in the selected format.
-   1. Send it to the client and open it in an appropriate application. In this case, the report opens in Microsoft Excel.
+1.  Open the Report Manager and check the list of available export types for a report. Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
+1.  Select one of the reports on the server and open the **Select Format** list.
+    You should see the list of export formats provided by Aspose.Cells for Reporting Services.
+1.  Select **XLS – Excel Workbook via Aspose.Cells**.
+1.  Click **Export**.
+    The report is generated in the selected format.
+1.  Send it to the client and open it in an appropriate application. In this case, the report opens in Microsoft Excel.
 
 Congratulations, you’ve successfully installed Aspose.Cells for Reporting Services and generated a report as a Microsoft Excel file!
 
