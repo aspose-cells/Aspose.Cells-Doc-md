@@ -1,9 +1,10 @@
 ---
 title: Create Pivot Table
+linktitle: Create Pivot Table
+description: Create and format Pivot Table with Aspose.Cells for Python via .NET.
+url: /cpp/pivot-tables/
 type: docs
 weight: 160
-url: /cpp/pivot-tables/
-description: Create and format Pivot Table with Aspose.Cells for Python via .NET.
 keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -14,10 +15,10 @@ Please use [PivotTableCollection.Add()](https://reference.aspose.com/cells/cpp/a
 
 ## **Create Pivot Table**
 The following sample code shows how to create a pivot table and work with it. Please check the [output Excel file](23167010.xlsx) generated with this code and the following screenshot showing the output Excel file in Microsoft Excel.
-
 ![todo:image_alt_text](create-pivot-table_1.png)
 
 ## **Sample Code**
+
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-CreatePivotTable-new.cpp" >}}
 
 {{< app/cells/assistant language="cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Wertfelder in Aspose.Cells for C++
-linktitle: Wertfelder
 description: Erfahren Sie, wie Sie Basisfelder zum Datenbereich einer PivotTable hinzufügen, die Zusammenfassungsfunktion mit PivotField.Function ändern und das Wertfeld auf die Zeilen- oder Spaltenachse in Aspose.Cells for C++ setzen.
+linktitle: Wertfelder
 keywords: Aspose.Cells, C++, PivotTable, Wertfeld, PivotField, PivotField.Function, Datenfeld, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -15,25 +15,19 @@ Das Hinzufügen eines Basisfelds zum Daten- (Wert-) Bereich ist der erste Schrit
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Aspose::Cells::Startup();
-
  Workbook workbook;
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
-
  Cells cells = worksheet.GetCells();
-
  // Überschriften in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
-
  // Datenzeilen A2:D9 mit verschachtelten Schleifen, die nach j verzweigen
  for (int i = 1; i <= 8; i++)
  {
@@ -66,20 +60,16 @@ int main() {
  }
  }
  }
-
  // Pivot-Tabelle bei F3 mit dem Namen PivotTable1 hinzufügen
  int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-
  // Pivot-Layout: Kategorie und Element in Zeile, Jahr in Spalte, Betrag als Datenfeld
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
-
  Aspose::Cells::Cleanup();
  return 0;
 }
@@ -87,9 +77,11 @@ int main() {
 
 ## Ändern der Zusammenfassungsfunktion
 Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekapselt, und seine `Function`-Eigenschaft gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Über denselben `Function`-Setter können Sie zwischen den verfügbaren Aggregaten wechseln, einschließlich `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` und `Varp`.
+
 {{% alert color="primary" %}}
 Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
 {{% /alert %}}
+
 Sie können daher ein Datenfeld als `Sum` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `Count` oder `Average` verwendet, alles in einer einzigen PivotTable.
 
 ```cpp
@@ -97,14 +89,12 @@ Sie können daher ein Datenfeld als `Sum` belassen, während Sie ein zweites Dat
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
-
  Vector<Vector<Object*>> data;
  // Daten ausfüllen ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
@@ -123,9 +113,11 @@ int main() {
 
 ## Wertfelder auf die Zeilen- oder Spaltenachse setzen
 Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.ValuesField` bereit. Dieses virtuelle Feld stellt das Aggregat jedes Datenfelds dar, das sich im Datenbereich befindet. Sie können es als Basisfeld in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Kennzahlen nebeneinander anzuordnen.
+
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
 {{% /alert %}}
+
 Die folgenden Szenarien durchlaufen drei durchgängige Beispiele, die jede der oben beschriebenen Funktionen anhand derselben PivotTable-Struktur demonstrieren.
 
 ```cpp
@@ -133,7 +125,6 @@ Die folgenden Szenarien durchlaufen drei durchgängige Beispiele, die jede der o
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);

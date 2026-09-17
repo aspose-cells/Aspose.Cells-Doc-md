@@ -1,71 +1,55 @@
 ---
 title: セルへの画像の挿入
-description: Aspose.Cells はスプレッドシートファイルを操作するための C++ ライブラリです。この記事では、フローティングピクチャをセル上に配置する方法と、画像をセルに直接埋め込む方法という 2 つの異なるアプローチを使用して、画像を単一セルサイズにぴったり合わせる方法について説明します。
-keywords: Aspose.Cells, C++ ライブラリ, スプレッドシート, 画像挿入, 画像埋め込み, セル内のピクチャ, セルに画像を合わせる, PictureCollection, EmbeddedImage
+linktitle: セルへの画像の挿入
+description: Aspose.Cellsは、スプレッドシートファイルを扱うためのC++ライブラリです。この記事では、セル上にフローティング画像を配置する方法と、画像をセルに直接埋め込む方法のいずれかによって、画像を1つのセルに正確に合わせる方法について説明します。
+keywords: Aspose.Cells, C++ライブラリ, スプレッドシート, 画像挿入, 画像埋め込み, セル内の画像, セルに画像を合わせる, PictureCollection, EmbeddedImage
 type: docs
 weight: 80
 url: /ja/cpp/inserting-an-image-into-a-cell/
+ai_search_scope: cells_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-
-Aspose.Cells は、単一セルに画像を関連付ける 2 つの異なる方法を提供します。フローティングピクチャはワークシートの描画レイヤ上の図形であり、セルの範囲を視覚的に覆うものです。一方、埋め込み画像はセル自体の中に保存され、セルの表示領域に合わせて自動的に拡大縮小されます。レイアウト要件に最も合った方法を選択してください。
-
+Aspose.Cellsは、画像を1つのセルに関連付ける2つの異なる方法を提供します。フローティング画像はワークシートの描画レイヤーに配置される図形であり、セルの範囲を視覚的に覆うのに対し、埋め込み画像はセル自体の中に格納され、セルの表示領域に合わせて自動的に拡大縮小されます。レイアウト要件に最も適したアプローチを選択してください。
 {{% /alert %}}
 
-## **はじめに**
+## **Introduction**
+1つのセルに正確に画像を合わせることは、視覚的なレポート、製品カタログ、社員ディレクトリ、ダッシュボード、在庫リストとして機能するスプレッドシートをデザインする際に一般的な要件です。多くのセルにわたって画像を引き伸ばしたり、ワークシート上に緩く配置したりする代わりに、所有するセルと整合性を保つクリーンなセル境界の画像が必要になる場合があります。
+Aspose.Cellsは、このシナリオを2つの補完的な方法でサポートします。
+- **方法1 — セル上にフローティング画像を配置する。** ワークシートに`Picture`を追加し、その`Placement`を`MoveAndSize`に設定し、配置セル（`UpperLeftRow`、`UpperLeftColumn`、`LowerRightRow`、`LowerRightColumn`）を調整して、画像がちょうど1つのセルを覆うようにします。
+- **方法2 — 画像をセルに直接埋め込む。** 画像のバイトをセルの`EmbeddedImage`プロパティに割り当てます。画像はセルの表示領域に合わせて自動的に拡大縮小され、セルと一緒に移動します。
+この記事の残りの部分では、両方のアプローチを順に説明し、関連するAPIを説明し、コードでの使用法を示します。
 
-ピクチャを単一セルにぴったり合わせることは、ビジュアルレポート、商品カタログ、社員ディレクトリ、ダッシュボード、在庫リストとして機能するスプレッドシートを設計する際によく求められる要件です。複数のセルにわたって画像を引き伸ばしたり、ワークシート上に緩く配置したりする代わりに、所有するセルに整列されたクリーンなセルバウンド画像を必要とする場合があります。
+## **Approach 1: Place a Picture Over a Cell**
+フローティング画像は、ワークシートの描画レイヤーに存在する`Picture`オブジェクトです。単一のセルの一部ではありませんが、セルの範囲に固定されます。画像の固定セル — 左上と右下の角 — は、ワークシート上の視覚的な範囲を決定します。デフォルトでは、新しく追加された画像は複数のセルにまたがります。
+フローティング画像を**ちょうど1つのセル**を覆うようにするには、次の手順が必要です。
+1. `Worksheet.Pictures.Add(int row, int column, Vector<uint8_t> stream)`を使用して画像を追加します。これにより、新しい画像が指定されたセルに固定されます。
+2. 4つの固定プロパティを設定して、画像の境界矩形が目的のセルと一致するようにします。
+3. ユーザーが列幅または行の高さを変更したときに、画像が基になるセルと共に移動およびサイズ変更されるように、`Picture.Placement`を`PlacementType.MoveAndSize`に設定します。
 
-Aspose.Cells は、このシナリオを 2 つの補完的な方法でサポートします。
-
-- **アプローチ 1 — フローティングピクチャをセル上に配置する。** ワークシートに `Picture` を追加し、その `Placement` を `MoveAndSize` に設定し、アンカーセル (`UpperLeftRow`、`UpperLeftColumn`、`LowerRightRow`、`LowerRightColumn`) を調整して、ピクチャがちょうど 1 セルを覆うようにします。
-- **アプローチ 2 — セル内に画像を直接埋め込む。** 画像のバイト列をセルの `EmbeddedImage` プロパティに割り当てます。画像はセルの表示領域に合わせて自動的に拡大縮小され、セルと一緒に移動します。
-
-この記事の残りの部分では、両方のアプローチについて順を追って説明し、関連する API を解説し、コードでの使用方法を示します。
-
-## **アプローチ 1: ピクチャをセル上に配置する**
-
-フローティングピクチャは、ワークシートの描画レイヤ上に存在する `Picture` オブジェクトです。単一セルの一部ではありませんが、セルの範囲にアンカーされます。ピクチャのアンカーセル (左上隅と右下隅) が、ワークシート上での視覚的な範囲を決定します。デフォルトでは、新しく追加されたピクチャは複数のセルにまたがります。
-
-フローティングピクチャが **ちょうど 1 セル** を覆うようにするには、次の手順が必要です。
-
-1. `Worksheet.Pictures.Add(int row, int column, Vector<uint8_t> stream)` を使用してピクチャを追加します。これにより、新しいピクチャが指定されたセルにアンカーされます。
-2. 4 つのアンカープロパティを設定して、ピクチャの境界矩形がターゲットセルと一致するようにします。
-3. ユーザーが列幅または行の高さを変更したときにピクチャが基になるセルと一緒に移動およびサイズ変更されるように、`Picture.Placement` を `PlacementType.MoveAndSize` に設定します。
-
-### **ピクチャを単一セルにアンカーする**
-
-ピクチャのアンカーは、4 つのゼロベースのインデックスプロパティによって定義されます。
-
-- `Picture.UpperLeftRow` — ピクチャの上端の行インデックス。
-- `Picture.UpperLeftColumn` — ピクチャの左端の列インデックス。
-- `Picture.LowerRightRow` — ピクチャの下端の行インデックス。ピクチャの下端を行 `r` の下部に配置するには、これを `r + 1` に設定します。
-- `Picture.LowerRightColumn` — ピクチャの右端の列インデックス。ピクチャの右端を列 `c` の右側に配置するには、これを `c + 1` に設定します。
-
-たとえば、ピクチャを **C6** セル (行インデックス `5`、列インデックス `2`) に正確にはめ込むには、`UpperLeftRow = 5`、`UpperLeftColumn = 2`、`LowerRightRow = 6`、`LowerRightColumn = 3` を設定します。
+### **Anchoring the Picture to a Single Cell**
+画像の固定は、4つの0から始まるインデックスプロパティによって定義されます。
+- `Picture.UpperLeftRow` — 画像の上端の行インデックス。
+- `Picture.UpperLeftColumn` — 画像の左端の列インデックス。
+- `Picture.LowerRightRow` — 画像の下端の行インデックス。画像の下端を行`r`の下部に配置するには、これを`r + 1`に設定します。
+- `Picture.LowerRightColumn` — 画像の右端の列インデックス。画像の右端を列`c`の右側に配置するには、これを`c + 1`に設定します。
 
 {{% alert color="primary" %}}
+Aspose.Cellsの行と列のインデックスは**0から始まる**ものです。セルC6の行インデックスは5、列インデックスは2です。右下アンカーのオフバイワンエラーは、画像が隣接セルに重なって表示される最も一般的な原因です。
 
-Aspose.Cells の行および列のインデックスは **ゼロベース** です。C6 セルの行インデックスは 5、列インデックスは 2 です。右下アンカーの off-by-one エラーは、ピクチャが隣接セルにはみ出して表示される最も一般的な原因です。
+### **Controlling Placement Behavior**
+`Picture.Placement`は`PlacementType`型の列挙型であり、ユーザーが下の行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に推奨される値は`PlacementType.MoveAndSize`であり、これにより画像が基になるセルと一緒に移動およびサイズ変更され、正確なフィット感が維持されます。
 
-{{% /alert %}}
-
-### **配置動作の制御**
-
-`Picture.Placement` は `PlacementType` 型の列挙型であり、ユーザーが基になる行または列のサイズを変更したときのピクチャの動作を制御します。単一セルピクチャに推奨される値は `PlacementType.MoveAndSize` であり、これによりピクチャが基になるセルと一緒に移動およびサイズ変更され、正確なフィット感が維持されます。
-
-### **ステップバイステップの手順**
-
-1. 新しい `Workbook` を作成します (または既存のものを開きます)。
-2. `workbook.Worksheets[0]` からターゲットの `Worksheet` にアクセスします。
-3. 画像ファイルをディスクから `Vector<uint8_t>` バイトバッファに読み込み、画像のバイト列を API で利用できるようにします。
-4. `worksheet.Pictures.Add(5, 2, imageData)` を呼び出して、C6 セルにアンカーされたピクチャを追加します。返された `Picture` 参照をキャプチャします。
-5. 4 つのアンカー座標を設定して、ピクチャが C6 セルのみを覆うようにします: `UpperLeftRow = 5`、`UpperLeftColumn = 2`、`LowerRightRow = 6`、`LowerRightColumn = 3`。
-6. 列または行のサイズが変更されたときにピクチャが C6 に整列された状態を維持するように、`picture.Placement = PlacementType.MoveAndSize` を設定します。
-7. オプションとして、C6 セルにのみピクチャが含まれていることを示すために、周囲のセルにサンプルテキストを追加します。
-8. ワークブックをディスクに `.xlsx` ファイルとして保存します。
-
+### **Step-by-Step Instructions**
+1. 新しい`Workbook`を作成します（または既存のものを開きます）。
+2. `workbook.GetWorksheets().Get(0]`から対象の`Worksheet`にアクセスします。
+3. 画像ファイルをディスクから`Vector<uint8_t>`バイトバッファに読み込み、画像バイトをAPIで利用できるようにします。
+4. `worksheet.Pictures.Add(5, 2, imageData)`を呼び出して、セルC6に固定された画像を追加します。返された`Picture`参照を取得します。
+5. 画像がセルC6のみを覆うように、4つの固定座標を設定します：`UpperLeftRow = 5`、`UpperLeftColumn = 2`、`LowerRightRow = 6`、`LowerRightColumn = 3`。
+6. 列または行のサイズが変更されたときに画像をC6に整列させたままにするために、`picture.Placement = PlacementType.MoveAndSize`を設定します。
+7. オプションで、セルC6のみが画像を含むことを示すために、周囲のセルにサンプルテキストを追加します。
+8. ワークブックを`.xlsx`ファイルとしてディスクに保存します。
 次のコードは、完全なアプローチを示しています。
 
 ```cpp
@@ -73,23 +57,17 @@ Aspose.Cells の行および列のインデックスは **ゼロベース** で�
 #include <fstream>
 #include <vector>
 #include <iterator>
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
     std::ifstream fs("logo.png", std::ios::binary);
     std::vector<uint8_t> stdData((std::istreambuf_iterator<char>(fs)),
                                   std::istreambuf_iterator<char>());
     fs.close();
-
     Vector<uint8_t> imageData(reinterpret_cast<const uint8_t*>(stdData.data()),
                               static_cast<int32_t>(stdData.size()));
-
     int picIndex = worksheet.GetPictures().Add(5, 2, imageData);
     Picture picture = worksheet.GetPictures().Get(picIndex);
     picture.SetUpperLeftRow(5);
@@ -97,36 +75,29 @@ int main() {
     picture.SetLowerRightRow(6);
     picture.SetLowerRightColumn(3);
     picture.SetPlacement(PlacementType::MoveAndSize);
-
     workbook.Save(u"output.xlsx", SaveFormat::Xlsx);
-
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **アプローチ 2: セル内に画像を直接埋め込む**
+## **Approach 2: Embed an Image Directly in a Cell**
+Aspose.Cellsは、セルにバインドされた画像のよりシンプルなメカニズムも公開しています。それは`Cell.EmbeddedImage`プロパティです。このプロパティに画像バイトを割り当てると、画像がインラインコンテンツのようにセル自体に添付されます。
 
-Aspose.Cells は、セルバウンド画像に対してより簡単なメカニズムも公開しています: `Cell.EmbeddedImage` プロパティです。このプロパティに画像のバイト列を割り当てると、画像はインラインコンテンツであるかのようにセル自体に添付されます。
+### **How Embedded Images Work**
+- 画像は描画レイヤー上の図形としてではなく、セルコンテンツの一部として保存されます。
+- 画像はセルのレンダリング境界内に収まるように自動的に拡大縮小されます。アンカー座標や配置設定は必要ありません。
+- セルは実際のアドレスを持つ実際のセルのままであり、数式で参照したり、行の一部として並べ替えたり、他のセルレベルの操作で使用したりできます。
+これにより、`Cell.EmbeddedImage`は目標が単に「このセル内に存在する画像」である場合に最も簡潔なオプションになります。
 
-### **埋め込み画像の仕組み**
-
-- 画像は描画レイヤ上の図形としてではなく、セルコンテンツの一部として保存されます。
-- 画像はセルのレンダリング境界に合わせて自動的に拡大縮小されます。アンカー座標や配置設定は不要です。
-- セルは実際のセルとしてのアドレスを保持し、数式で参照したり、行の一部として並べ替えたり、他のセルレベルの操作で使用したりできます。
-
-これにより、`Cell.EmbeddedImage` は、「このセルの中に存在する画像」という単純な目的の場合に最も簡潔なオプションとなります。
-
-### **ステップバイステップの手順**
-
-1. 新しい `Workbook` を作成します (または既存のものを開きます)。
-2. `workbook.Worksheets[0]` からターゲットの `Worksheet` にアクセスします。
-3. 画像ファイルをディスクから `Vector<uint8_t>` バイト配列に読み込みます。
-4. ターゲットセルへの参照を取得します — `worksheet.Cells["C6"]` または `worksheet.Cells[5, 2]` のいずれかを使用します。
-5. バイト配列をセルの `EmbeddedImage` プロパティに割り当てます。
-6. オプションとして、埋め込み画像をより目立たせるために、ターゲット行および列の行の高さと列の幅を調整します。
-7. ワークブックをディスクに `.xlsx` ファイルとして保存します。
-
+### **Step-by-Step Instructions**
+1. 新しい`Workbook`を作成します（または既存のものを開きます）。
+2. `workbook.GetWorksheets().Get(0]`から対象の`Worksheet`にアクセスします。
+3. 画像ファイルをディスクから`Vector<uint8_t>`バイト配列に読み込みます。
+4. 対象のセルへの参照を取得します — `worksheet.GetCells().Get("C6"]`または`worksheet.GetCells().Get(5, 2]`のいずれかで。
+5. バイト配列をセルの`EmbeddedImage`プロパティに割り当てます。
+6. オプションで、対象行と列の行の高さと列幅を調整して、埋め込み画像をより目立つようにします。
+7. ワークブックを`.xlsx`ファイルとしてディスクに保存します。
 次のコードは、完全なアプローチを示しています。
 
 ```cpp
@@ -134,66 +105,47 @@ Aspose.Cells は、セルバウンド画像に対してより簡単なメカニ�
 #include <vector>
 #include <fstream>
 #include <iterator>
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-
     Cell cell = worksheet.GetCells().Get(u"C6");
-
-    // 画像ファイルをバイト配列に読み込む
+    // Read the image file into a byte array
     std::ifstream file("logo.png", std::ios::binary);
     std::vector<uint8_t> stdImageData((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     file.close();
-
-    // ポインタ+サイズコンストラクタを使用して std::vector を Aspose::Cells::Vector に変換する
+    // Convert std::vector to Aspose::Cells::Vector using pointer+size constructor
     Vector<uint8_t> imageData(stdImageData.data(), (int32_t)stdImageData.size());
-
-    // 画像をセルに直接埋め込む
+    // Embed the image directly into the cell
     cell.SetEmbeddedImage(imageData);
-
-    // 埋め込まれた画像をより見やすくするために、オプションで行の高さと列の幅を調整する
-    worksheet.GetCells().SetColumnWidth(2, 30);   // 列 C (インデックス 2)
-    worksheet.GetCells().SetRowHeight(5, 100);    // 行 6 (インデックス 5)
-
-    // 結果のワークブックを .xlsx ファイルとして保存する
+    // Optionally adjust row height and column width so the embedded image is more visible
+    worksheet.GetCells().SetColumnWidth(2, 30);   // Column C (index 2)
+    worksheet.GetCells().SetRowHeight(5, 100);    // Row 6 (index 5)
+    // Save the resulting workbook as an .xlsx file
     wb.Save(u"output.xlsx", SaveFormat::Xlsx);
-
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **適切なアプローチの選択**
-
-両方のアプローチは単一セル内に収まるピクチャを生成しますが、ピクチャの保存方法と動作が異なります。
-
-- **次のような場合は、フローティングピクチャ (アプローチ 1) を使用します。**
-  - 他の描画オブジェクトとの配置、レイヤリング、または整列をより細かく制御する必要がある場合。
-  - ピクチャを他の図形と一緒に選択したり、並べ替えたり、グループ化したりできる図形として扱いたい場合。
-  - すでに `PictureCollection` で動作するコードとのレガシー互換性が必要な場合。
+## **Choosing the Right Approach**
+どちらのアプローチも単一セル内に収まる画像を生成しますが、画像の保存方法と動作が異なります。
+- **次のような場合は、フローティング画像（方法1）を使用します。**
+  - 他の描画オブジェクトとの配置、レイヤー化、整列をより細かく制御する必要がある場合。
+  - 画像を、他の図形と一緒に選択、並べ替え、グループ化できる図形として動作させたい場合。
+  - すでに`PictureCollection`で動作するコードとのレガシー互換性が必要な場合。
   - ワークシートのレイアウトに基づいてアンカー座標を動的に計算する必要がある場合。
-
-- **次のような場合は、埋め込み画像 (アプローチ 2) を使用します。**
-  - セルへの画像の挿入をできる限りシンプルにしたい場合。
-  - 画像が他のセルコンテンツと同様にセルと一緒に移動するようにする場合。
-  - 画像を図形として操作する必要がない場合。
-
-{{% alert color="primary" %}}
-
-両方のアプローチは同じワークブック内で共存できます。2 つのメカニズムはファイル内の異なるストレージレイヤを使用するため、あるセルにはフローティングピクチャを配置し、他のセルには画像を直接埋め込むことができます。
-
+- **次のような場合は、埋め込み画像（方法2）を使用します。**
+  - セルへの画像の最も簡単な挿入方法を希望する場合。
+  - 画像が他のセルコンテンツのようにセルと一緒に移動する必要がある場合。
 {{% /alert %}}
 
-## **関連記事**
-
-- [セルにピクチャを挿入する方法](/cells/ja/cpp/how-to-place-image-to-cell/)
-- [画像ハイパーリンクを追加](/cells/ja/cpp/add-image-hyperlinks/)
-- [URL から Web 画像を Excel ワークシートに読み込む](/cells/ja/cpp/load-a-web-image-from-a-url-into-an-excel-worksheet/)
-- [位置、サイズ、およびデザイナーグラフを操作する](/cells/ja/cpp/manipulate-position-size-and-designer-chart/)
+## Related Articles
+- [Aspose.Cells for C++のExcelカメラ](/cells/ja/cpp/excel-camera/)
+- [Aspose.Cells for C++でピボットテーブルにフィルターフィールドを追加](/cells/ja/cpp/add-page-field-in-pivot-table/)
+- [Aspose.Cells for C++でピボットテーブルにスタイルを適用](/cells/ja/cpp/apply-style-to-pivot-table/)
+- [ピボットテーブルのページフィールドのレイアウトを変更](/cells/ja/cpp/change-page-field-layout/)
+- [Aspose.Cells for C++でスパークラインを画像とHTMLに変換](/cells/ja/cpp/convert-sparkline-to-image-and-html/)
 
 {{< app/cells/assistant language="cpp" >}}

@@ -1,10 +1,10 @@
 ---
 title: Pivot Tabelle erstellen
+description: Erstellen und Formatieren einer Pivot Tabelle mit Aspose.Cells für Python via .NET.
 linktitle: Pivot Tabelle erstellen
+url: /de/cpp/pivot-tables/
 type: docs
 weight: 160
-url: /de/cpp/pivot-tables/
-description: Erstellen und Formatieren einer Pivot Tabelle mit Aspose.Cells für Python via .NET.
 keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,11 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Einführung**
 Bitte verwenden Sie die [PivotTableCollection.Add()](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottablecollection/add/) Methode, um eine Pivot-Tabelle innerhalb des Arbeitsblatts zu erstellen. Sobald die Pivot-Tabelle erstellt ist, können Sie damit über die [PivotTable](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/) Klasse arbeiten.
+
 ## **Pivot-Tabelle erstellen**
 Der folgende Beispielcode zeigt, wie man eine Pivot-Tabelle erstellt und damit arbeitet. Bitte überprüfen Sie die mit diesem Code generierte [Ausgabedatei](23167010.xlsx) und den folgenden Screenshot, der die [Ausgabedatei](23167010.xlsx) in Microsoft Excel zeigt.
-
 ![todo:image_alt_text](create-pivot-table_1.png)
+
 ## **Beispielcode**
+
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-CreatePivotTable-new.cpp" >}}
 
 {{< app/cells/assistant language="cpp" >}}

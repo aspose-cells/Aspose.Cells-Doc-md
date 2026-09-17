@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for .NET'te PivotTable değer alanlarını yönetme
-linktitle: Değer Alanları
-description: Aspose.Cells for .NET'te özet tablonun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özet fonksiyonunun nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
-keywords: Aspose.Cells, .NET, özet tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
+title: Aspose.Cells for .NET'te Pivot Tablosu Değer Alanlarını Yönetme
+linktitle: Aspose.Cells for .NET'te Pivot Tablosu Değer Alanlarını Yönetme
+description: Aspose.Cells for .NET'te bir pivot tablosunun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özetleme işlevinin nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
+keywords: Aspose.Cells, .NET, pivot tablosu, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Toplam, Ortalama
 type: docs
 weight: 230
 url: /tr/net/manage-value-fields/
@@ -11,185 +11,141 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Veri Bölgesine Alan Ekleme
-Veri (değer) bölgesine bir temel alan eklemek, özet tablonun kaynak verilerinizi nasıl toplayacağını şekillendirmenin ilk adımıdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak-sütun adını kabul eden `PivotTable.AddFieldToArea(PivotFieldType, string)` aşırı yüklemesini kullanıma sunar. Bir alan veri bölgesine eklendikten sonra, API bu alanı `PivotTable.DataFields` koleksiyonu aracılığıyla, alanların eklendiği sırayla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun `Count` ile özetlenir.
+Bir temel alanı veri (değer) bölgesine eklemek, bir pivot tablosunun kaynak verileri nasıl toplayacağını şekillendirmede ilk adımdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak sütun adını kabul eden bir aşırı yükleme olan `PivotTable.AddFieldToArea(PivotFieldType, string)` metodunu sunar. Bir alan veri bölgesine eklendikten sonra, API onu alanların eklenme sırasına göre `PivotTable.DataFields` koleksiyonu aracılığıyla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun varsayılan olarak `Count` kullanır.
 
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-
-// A1:D1 aralığında başlıklar
-worksheet.Cells[0, 0].PutValue("Category");
-worksheet.Cells[0, 1].PutValue("Item");
-worksheet.Cells[0, 2].PutValue("Year");
-worksheet.Cells[0, 3].PutValue("Amount");
-
-// j değişkenine göre dallanan iç içe döngüler kullanarak A2:D9 veri satırları
-for (int i = 1; i <= 8; i++)
+string[] headers = { "Category", "Item", "Year", "Amount" };
+for (int j = 0; j < headers.Length; j++)
 {
- for (int j = 0; j < 4; j++)
- {
- switch (j)
- {
- case 0:
- worksheet.Cells[i, j].PutValue(i <= 4 ? "Fruit" : "Vegetable");
- break;
- case 1:
- if (i == 1 || i == 2) worksheet.Cells[i, j].PutValue("Apple");
- else if (i == 3 || i == 4) worksheet.Cells[i, j].PutValue("Banana");
- else if (i == 5 || i == 6) worksheet.Cells[i, j].PutValue("Carrot");
- else worksheet.Cells[i, j].PutValue("Daikon");
- break;
- case 2:
- worksheet.Cells[i, j].PutValue(2020 + ((i - 1) % 2));
- break;
- case 3:
- if (i == 1) worksheet.Cells[i, j].PutValue(100);
- else if (i == 2) worksheet.Cells[i, j].PutValue(150);
- else if (i == 3) worksheet.Cells[i, j].PutValue(80);
- else if (i == 4) worksheet.Cells[i, j].PutValue(90);
- else if (i == 5) worksheet.Cells[i, j].PutValue(50);
- else if (i == 6) worksheet.Cells[i, j].PutValue(60);
- else if (i == 7) worksheet.Cells[i, j].PutValue(40);
- else worksheet.Cells[i, j].PutValue(45);
- break;
- }
- }
+    worksheet.Cells[0, j].PutValue(headers[j]);
 }
-
-// F3 hücresine PivotTable1 adında bir pivot tablo ekle
+object[,] data = {
+    { "Fruit",     "Apple",  2020, 100 },
+    { "Fruit",     "Apple",  2021, 150 },
+    { "Fruit",     "Banana", 2020,  80 },
+    { "Fruit",     "Banana", 2021,  90 },
+    { "Vegetable", "Carrot", 2020,  50 },
+    { "Vegetable", "Carrot", 2021,  60 },
+    { "Vegetable", "Daikon", 2020,  40 },
+    { "Vegetable", "Daikon", 2021,  45 }
+};
+for (int i = 0; i < data.GetLength(0); i++)
+{
+    for (int j = 0; j < data.GetLength(1); j++)
+    {
+        worksheet.Cells[i + 1, j].PutValue(data[i, j]);
+    }
+}
 int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-// Pivot düzeni: Satırda Category ve Item, Sütunda Year, veri alanı olarak Amount
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-
 pivotTable.CalculateData();
 workbook.Save("output_drag.xlsx");
 ```
 
-## Özet Fonksiyonunu Değiştirme
-Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarılır ve onun `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` dahil olmak üzere kullanılabilir toplamlar arasında geçiş yapmanızı sağlar.
+## Özetleme İşlevini Değiştirme
+Bir alan veri bölgesinde bulunduğunda, Aspose.Cells onu `PivotTable.DataFields` üzerindeki `PivotField` nesnesi aracılığıyla sunar. Her `PivotField`, `ConsolidationFunction` türünde, o alanın temel değerlerine uygulanan toplamı kontrol eden yazılabilir bir `Function` özelliğine sahiptir. `ConsolidationFunction`, `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` üyelerine sahip bir enum'dur; ilk altısı gerçek dünya kullanım durumlarının büyük çoğunluğunu kapsar, son dördü ise varyans analizi için yararlı istatistiksel toplamlardır.
+
 {{% alert color="primary" %}}
-`Function`'ı değiştirmek yalnızca toplamı etkiler, kaynak sütun değişmez.
+`Function` özelliğinin değiştirilmesi yalnızca toplamı etkiler; kaynak sütun ve pivot'un satır/sütun yapısı değiştirilmez. Mevcut bir veri alanı için toplamı değiştirmek üzere `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` ayarlayın ve ardından pivot'u yeniden oluşturmak için `pivotTable.CalculateData()` çağırın.
 {{% /alert %}}
-Bu nedenle, tek bir özet içinde, bir veri alanını `Sum` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanı ekleyebilirsiniz.
 
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-
-worksheet.Cells[0, 0].PutValue("Category");
-worksheet.Cells[0, 1].PutValue("Item");
-worksheet.Cells[0, 2].PutValue("Year");
-worksheet.Cells[0, 3].PutValue("Amount");
-
-for (int i = 1; i <= 8; i++)
+string[] headers = { "Category", "Item", "Year", "Amount" };
+for (int j = 0; j < headers.Length; j++)
 {
- for (int j = 0; j <= 3; j++)
- {
- if (j == 0)
- {
- worksheet.Cells[i, j].PutValue(i <= 5 ? "Fruit" : "Vegetable");
- }
- else if (j == 1)
- {
- string[] items = { "Apple", "Apple", "Banana", "Banana", "Carrot", "Carrot", "Daikon", "Daikon" };
- worksheet.Cells[i, j].PutValue(items[i - 1]);
- }
- else if (j == 2)
- {
- int[] years = { 2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021 };
- worksheet.Cells[i, j].PutValue(years[i - 1]);
- }
- else
- {
- int[] amounts = { 100, 150, 80, 90, 50, 60, 40, 45 };
- worksheet.Cells[i, j].PutValue(amounts[i - 1]);
- }
- }
+    worksheet.Cells[0, j].PutValue(headers[j]);
 }
-
+object[,] data = {
+    { "Fruit",     "Apple",  2020, 100 },
+    { "Fruit",     "Apple",  2021, 150 },
+    { "Fruit",     "Banana", 2020,  80 },
+    { "Fruit",     "Banana", 2021,  90 },
+    { "Vegetable", "Carrot", 2020,  50 },
+    { "Vegetable", "Carrot", 2021,  60 },
+    { "Vegetable", "Daikon", 2020,  40 },
+    { "Vegetable", "Daikon", 2021,  45 }
+};
+for (int i = 0; i < data.GetLength(0); i++)
+{
+    for (int j = 0; j < data.GetLength(1); j++)
+    {
+        worksheet.Cells[i + 1, j].PutValue(data[i, j]);
+    }
+}
 int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
-
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-
 PivotField countField = pivotTable.DataFields[1];
 countField.Function = ConsolidationFunction.Count;
-
 pivotTable.CalculateData();
-
 workbook.Save("output_function.xlsx");
 ```
 
 ## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adlı ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu Satır veya Sütun bölgesine temel bir özet alanı olarak sürükleyebilirsiniz; bu, birden çok ölçümü yan yana düzenlemek için kullanışlıdır.
+Bir pivot tablosu iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adı verilen ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu temel bir pivot alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz; bu, birden çok ölçümü yan yana düzenlemek için kullanışlıdır.
+
 {{% alert color="primary" %}}
-`PivotTable.ValuesField`, hiç değer alanı yoksa veya yalnızca bir değer alanı varsa çalışmaz.
+`PivotTable.ValuesField` hiç değer alanı yoksa veya yalnızca bir değer alanı varsa çalışmaz.
 {{% /alert %}}
-Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı özet yapısı üzerinde gösteren uçtan uca üç örnek üzerinden ilerler.
 
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-
-worksheet.Cells[0, 0].PutValue("Category");
-worksheet.Cells[0, 1].PutValue("Item");
-worksheet.Cells[0, 2].PutValue("Year");
-worksheet.Cells[0, 3].PutValue("Amount");
-
-string[] categories = { "Fruit", "Fruit", "Fruit", "Fruit", "Vegetable", "Vegetable", "Vegetable", "Vegetable" };
-string[] items = { "Apple", "Apple", "Banana", "Banana", "Carrot", "Carrot", "Daikon", "Daikon" };
-int[] years = { 2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021 };
-int[] amounts = { 100, 150, 80, 90, 50, 60, 40, 45 };
-
-for (int i = 1; i <= 8; i++)
+string[] headers = { "Category", "Item", "Year", "Amount" };
+for (int j = 0; j < headers.Length; j++)
 {
- for (int j = 0; j <= 3; j++)
- {
- if (j == 0) worksheet.Cells[i, j].PutValue(categories[i - 1]);
- else if (j == 1) worksheet.Cells[i, j].PutValue(items[i - 1]);
- else if (j == 2) worksheet.Cells[i, j].PutValue(years[i - 1]);
- else worksheet.Cells[i, j].PutValue(amounts[i - 1]);
- }
+    worksheet.Cells[0, j].PutValue(headers[j]);
 }
-
+object[,] data = {
+    { "Fruit",     "Apple",  2020, 100 },
+    { "Fruit",     "Apple",  2021, 150 },
+    { "Fruit",     "Banana", 2020,  80 },
+    { "Fruit",     "Banana", 2021,  90 },
+    { "Vegetable", "Carrot", 2020,  50 },
+    { "Vegetable", "Carrot", 2021,  60 },
+    { "Vegetable", "Daikon", 2020,  40 },
+    { "Vegetable", "Daikon", 2021,  45 }
+};
+for (int i = 0; i < data.GetLength(0); i++)
+{
+    for (int j = 0; j < data.GetLength(1); j++)
+    {
+        worksheet.Cells[i + 1, j].PutValue(data[i, j]);
+    }
+}
 int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-
 pivotTable.DataFields[1].Function = ConsolidationFunction.Count;
-
 pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.ValuesField.Name);
-
 pivotTable.CalculateData();
 workbook.Save("output_plot.xlsx");
 ```

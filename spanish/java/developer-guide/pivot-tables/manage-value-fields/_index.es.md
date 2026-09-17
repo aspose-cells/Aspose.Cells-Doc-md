@@ -1,7 +1,7 @@
 ---
 title: Campos de valores en Aspose.Cells for Java
-linktitle: Campos de valores en Aspose.Cells for Java
 description: Aprenda cómo agregar campos base a la región de datos de una tabla dinámica, cambiar la función de resumen con PivotField.Function y trazar el campo de valor en el eje de fila o columna en Aspose.Cells for Java.
+linktitle: Campos de valores en Aspose.Cells for Java
 keywords: Aspose.Cells, Java, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Suma, Promedio
 type: docs
 weight: 230
@@ -11,22 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Agregar un campo a la región de datos
-
 Añadir un campo base a la región de datos (valores) es el primer paso para configurar cómo una tabla dinámica agrega sus datos de origen. Aspose.Cells expone `PivotTable.addFieldToArea(PivotFieldType, String)`, una sobrecarga que acepta la constante `PivotFieldType.DATA` y el nombre de la columna de origen. Una vez que se añade un campo a la región de datos, la API lo expone a través de la colección `PivotTable.getDataFields()`, en el orden en que se añadieron los campos. Por defecto, una columna de origen numérica se resume con `ConsolidationFunction.SUM`, mientras que una columna no numérica toma como valor predeterminado `COUNT`.
 
 ```java
 import com.aspose.cells.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 // Encabezados en A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-
 // Filas de datos A2:D9 usando bucles anidados con bifurcación en j
 for (int i = 1; i <= 8; i++)
 {
@@ -59,23 +55,19 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-
 // Agregar tabla dinámica en F3 con el nombre PivotTable1
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 // Diseño de tabla dinámica: Categoría e Ítem en Fila, Año en Columna, Monto como campo de datos
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
 ## Cambiar la función de resumen
-
 Cada campo colocado en la región de datos se envuelve internamente como una instancia de `PivotField`, y su propiedad `getFunction()` devuelve un valor de la enumeración `ConsolidationFunction`. El mismo setter `setFunction(...)` permite alternar entre los agregados disponibles, incluyendo `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` y `VARP`.
 
 {{% alert color="primary" %}}
@@ -87,16 +79,13 @@ Por lo tanto, puede mantener un campo de datos como `SUM` mientras añade un seg
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -107,32 +96,25 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
-
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
 
 ## Trazar campos de valores en el eje de fila o columna
-
 Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells expone un campo virtual adicional llamado `PivotTable.getValuesField()`. Este campo virtual representa el agregado de cada campo de datos que reside en la región de datos. Puede arrastrarlo a la región de fila o columna como un campo base de la tabla dinámica, lo cual resulta útil para disponer varias medidas en paralelo.
 
 {{% alert color="primary" %}}
@@ -144,16 +126,13 @@ Los escenarios a continuación recorren tres ejemplos de extremo a extremo que d
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -164,25 +143,20 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField());
-
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for C++'ta Değer Alanları
-linktitle: Aspose.Cells for C++'ta Değer Alanları
 description: Aspose.Cells for C++ kullanarak bir pivot tablonun veri bölgesine temel alanlar eklemeyi, PivotField.Function ile özetleme fonksiyonunu değiştirmeyi ve değer alanını Satır veya Sütun eksenine yerleştirmeyi öğrenin.
+linktitle: Aspose.Cells for C++'ta Değer Alanları
 keywords: Aspose.Cells, C++, pivot tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -11,30 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Veri Bölgesine Alan Ekleme
-
 Bir temel alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak verilerinizi nasıl topladığını şekillendirmedeki ilk adımdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak sütun adını kabul eden bir aşırı yükleme olan `PivotTable.AddFieldToArea(PivotFieldType, string)` yöntemini sunar. Bir alan veri bölgesine eklendikten sonra API, onu alanların eklenme sırasıyla `PivotTable.DataFields` koleksiyonu aracılığıyla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun varsayılan olarak `Count` olur.
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Aspose::Cells::Startup();
-
  Workbook workbook;
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
-
  Cells cells = worksheet.GetCells();
-
  // A1:D1 aralığındaki başlıklar
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
-
  // j üzerinde dallanan iç içe döngüler kullanarak A2:D9 veri satırları
  for (int i = 1; i <= 8; i++)
  {
@@ -67,27 +60,22 @@ int main() {
  }
  }
  }
-
  // F3 konumunda PivotTable1 adında bir pivot tablo ekle
  int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-
  // Pivot düzeni: Satırda Category ve Item, Sütunda Year, veri alanı olarak Amount
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
-
  Aspose::Cells::Cleanup();
  return 0;
 }
 ```
 
 ## Özetleme Fonksiyonunu Değiştirme
-
 Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarmalanır ve onun `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` dahil mevcut toplamalar arasında geçiş yapmanıza olanak tanır.
 
 {{% alert color="primary" %}}
@@ -101,14 +89,12 @@ Bu nedenle tek bir pivot içinde, bir veri alanını `Sum` olarak bırakırken a
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
-
  Vector<Vector<Object*>> data;
  // Verileri doldur...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
@@ -126,7 +112,6 @@ int main() {
 ```
 
 ## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
-
 Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adında ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu temel bir pivot alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz; bu, birden çok ölçümü yan yana düzenlemek için kullanışlıdır.
 
 {{% alert color="primary" %}}
@@ -140,7 +125,6 @@ Aşağıdaki senaryolar, aynı pivot yapısı üzerinde yukarıda açıklanan he
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);

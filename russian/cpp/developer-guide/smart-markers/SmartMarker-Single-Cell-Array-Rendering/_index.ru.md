@@ -1,39 +1,30 @@
 ---
 title: Рендеринг массивов SmartMarker в одну ячейку | Aspose.Cells C++
+description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в Smart Markers с Aspose.Cells for C++.
 linktitle: Рендеринг массивов SmartMarker в одну ячейку | Aspose.Cells
-description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в Smart Markers с Aspose.Cells for Aspose.Cells for C++.
+url: /ru/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 keywords: Aspose.Cells, C++ библиотека, электронные таблицы, Smart Markers, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
-url: /ru/cpp/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-
 Aspose.Cells поддерживает рендеринг данных массива в одну ячейку через Smart Markers. Используя атрибут `ArrayAsSingle` вместе с атрибутом `ExtraDelimiter`, разработчики могут управлять тем, как элементы массива разделяются внутри одной ячейки, обеспечивая гибкое форматирование для отчётов и шаблонов.
 
-{{% /alert %}}
-
 ## **Введение**
-
 Smart Markers в Aspose.Cells — это мощная функция на основе шаблонов, которая позволяет динамически заполнять данные электронной таблицы с помощью выражений маркеров, таких как `&=DataSource.Field`. Маркер размещается в рабочей книге дизайнера, и когда шаблон обрабатывается `WorkbookDesigner`, маркеры заменяются значениями из предоставленного источника данных.
-
 По умолчанию, когда Smart Marker ссылается на свойство массива (например, `&=DataSource.Numbers`), механизм разворачивает массив и помещает каждый элемент в отдельную соседнюю ячейку — либо горизонтально по строке, либо вертикально по столбцу. Хотя такое поведение удобно во многих сценариях, существуют ситуации, в которых предпочтительнее отобразить весь массив в одной ячейке, с объединёнными элементами, разделёнными выбранным вами разделителем.
-
 Атрибуты `ArrayAsSingle` и `ExtraDelimiter`, используемые вместе внутри тега Smart Marker, решают именно эту задачу. Они позволяют сохранять компактные и предсказуемые макеты отчётов, продолжая работать нативно с источниками данных в виде массивов.
 
 ## **Зачем нужна эта функция**
 
 ### **Поведение развёртывания массива по умолчанию**
-
 Когда Smart Marker ссылается на свойство массива, Aspose.Cells по умолчанию разворачивает массив по нескольким ячейкам. Например, маркер вида `&=Product.Tags` для `string[]`, содержащего четыре значения, поместит каждое значение в отдельную ячейку, смещая остальное содержимое шаблона в стороны и потенциально нарушая тщательно продуманные макеты отчётов.
 
 ### **Ограничения стандартных сценариев использования**
-
 Существует множество практических сценариев, в которых поведение развёртывания по умолчанию нежелательно:
-
 - **Отчёты в стиле сводки**, которым необходим компактный макет с одной строкой на запись.
 - **Списки тегов, меток или ключевых слов**, которые должны отображаться как значения, разделённые запятыми или вертикальной чертой, внутри одной ячейки.
 - **Чипы фильтров или индикаторы статуса**, которые группируют несколько значений в одном месте для удобства чтения.
@@ -41,13 +32,10 @@ Smart Markers в Aspose.Cells — это мощная функция на осн
 - **Кросс-платформенная совместимость**, когда некоторые потребители не допускают массивов, растянутых на несколько ячеек.
 
 ### **Какую проблему это решает**
-
 Без встроенного механизма разработчикам пришлось бы предварительно обрабатывать данные в C++ — объединять массивы в строки с разделителями перед привязкой их к дизайнеру рабочей книги. Это дублирует логику, усложняет модели данных и увеличивает вероятность ошибок. Атрибуты `ArrayAsSingle` и `ExtraDelimiter` устраняют этот обходной путь, обрабатывая форматирование декларативно внутри самого Smart Marker.
 
 ## **Преимущества функции**
-
 Использование атрибутов `ArrayAsSingle` и `ExtraDelimiter` в ваших Smart Markers даёт ряд преимуществ:
-
 - **Размещение в одной ячейке**: Все элементы массива отображаются ровно в одной ячейке, сохраняя макеты компактными и предсказуемыми.
 - **Управление пользовательским разделителем**: Укажите любую строку-разделитель, которую хотите — запятую, точку с запятой, дефис, вертикальную черту, перевод строки или любой другой произвольный текст.
 - **Форматирование на основе шаблона**: Не требуется дополнительный код для предварительной обработки данных; правила форматирования содержатся внутри тега Smart Marker.
@@ -58,7 +46,6 @@ Smart Markers в Aspose.Cells — это мощная функция на осн
 ## **Как использовать эту функцию**
 
 ### **Синтаксис Smart Marker**
-
 Атрибуты `ArrayAsSingle` и `ExtraDelimiter` передаются в виде пар ключ-значение внутри круглых скобок стандартного Smart Marker. Общий синтаксис:
 
 ```
@@ -66,21 +53,15 @@ Smart Markers в Aspose.Cells — это мощная функция на осн
 ```
 
 Маркер состоит из следующих частей:
-
 - `&=DataSource.ArrayProperty` — стандартный Smart Marker, ссылающийся на свойство массива в привязанном источнике данных.
 - `arrayasSingle=true` — указывает механизму отобразить весь массив в одной ячейке. Только значение `true` активирует поведение с одной ячейкой.
 - `extraDelimiter=", "` — определяет разделитель, помещаемый между элементами массива. Значение является строковым литералом; оно может быть пустым, одним символом или многосимвольной строкой.
 
 {{% alert color="primary" %}}
-
 Атрибут `extraDelimiter` принимает любой строковый литерал, включая многосимвольные разделители, произвольный текст или escape-последовательности, такие как `\n` для вывода с переводом строки. Если массив пуст, результирующая ячейка остаётся пустой.
 
-{{% /alert %}}
-
 ### **Пошаговый рабочий процесс**
-
 Следующий рабочий процесс описывает, как отобразить массив в одной ячейке с помощью Smart Markers.
-
 1. **Подготовьте источник данных**: Создайте класс (или структуру данных), который предоставляет свойство, возвращающее массив. Свойство может возвращать `std::vector<std::string>`, `std::vector<int>` или любой другой поддерживаемый тип массива/вектора.
 2. **Создайте рабочую книгу дизайнера**: Создайте новую `Workbook`, добавьте строку заголовка и разместите ячейку Smart Marker, которая ссылается на свойство массива с атрибутами `arrayasSingle` и `extraDelimiter`.
 3. **Создайте экземпляр WorkbookDesigner**: Создайте объект `WorkbookDesigner`, прикрепите к нему рабочую книгу дизайнера и привяжите ваш источник данных с помощью метода `SetDataSource`.
@@ -91,20 +72,15 @@ Smart Markers в Aspose.Cells — это мощная функция на осн
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     Workbook wb;
     WorksheetCollection sheets = wb.GetWorksheets();
     Worksheet ws = sheets.Get(0);
     Cells cells = ws.GetCells();
-
     cells.Get(u"A1").PutValue(u"Tags");
     cells.Get(u"A2").PutValue(u"&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-
     // WorkbookDesigner недоступен в Aspose.Cells для C++
     // Нам нужно имитировать обработку SmartMarker, заменяя маркеры вручную
     // Поскольку Aspose.Cells C++ не поддерживает WorkbookDesigner, мы будем использовать замену U16String
@@ -115,9 +91,7 @@ int main() {
     // Заменяем смарт-маркер фактическими данными
     value = value.Replace(marker, replacement);
     cells.Get(u"A2").PutValue(value);
-
     wb.Save(u"output_arraySingle.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -129,31 +103,23 @@ int main() {
 #include "Aspose.Cells.h"
 #include <string>
 #include <sstream>
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     int scores[] = { 95, 88, 76, 100, 67 };
     int scoresCount = sizeof(scores) / sizeof(scores[0]);
-
     std::ostringstream joined;
     for (int i = 0; i < scoresCount; ++i) {
         if (i > 0) joined << " - ";
         joined << scores[i];
     }
     std::string joinedStr = joined.str();
-
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-
     cells.Get(u"A1").PutValue(u"Scores");
     cells.Get(u"A2").PutValue(U16String(joinedStr.c_str()));
-
     wb.Save(u"output_numericArray.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -164,60 +130,46 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 #include <vector>
-
 using namespace Aspose::Cells;
-
 struct Order {
     std::vector<U16String> Items;
 };
-
 int main() {
     Aspose::Cells::Startup();
-
     // Подготовить источник данных
     Order order;
     order.Items = { u"Apple", u"Banana", u"Cherry", u"Date" };
-
     // Создать книгу и получить первый рабочий лист
     Workbook wb;
     Worksheet sheet = wb.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-
     // Раздел 1: Смарт-маркер по умолчанию - значения распределяются горизонтально по ячейкам
     cells.Get(u"A1").PutValue(u"Default Spreading Behavior:");
     cells.Get(u"A2").PutValue(u"&=Order.Items");
-
     // Раздел 2: Новая отрисовка в одной ячейке с использованием arrayasSingle и extraDelimiter
     cells.Get(u"A4").PutValue(u"Single Cell Rendering (arrayasSingle=true):");
     cells.Get(u"A5").PutValue(u"&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-
     // Привязать источник данных и обработать смарт-маркеры
     WorkbookDesigner designer(wb);
     designer.SetDataSource(u"Order", order);
     designer.Process();
-
     // Сохранить полученную книгу
     wb.Save(u"output_comparison.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
 ### **Примечания и лучшие практики**
-
 Учитывайте следующие моменты при работе с атрибутами `ArrayAsSingle` и `ExtraDelimiter`:
-
 - Значение `extraDelimiter` обрабатывается как строковый литерал; экранируйте любые специальные символы, которые ваш процессор шаблонов может интерпретировать.
 - Атрибут `arrayasSingle` принимает логическое значение (`true` / `false`). Только `true` активирует поведение с одной ячейкой; любое другое значение возвращается к поведению развёртывания по умолчанию.
 - Если массив пуст или равен null, ячейка остаётся пустой (или содержит пустую строку в зависимости от типа данных).
 - Функция работает как с объектными источниками данных, так и с источниками `DataSet` и `DataTable`, где столбец может быть разделён на массивы.
 - Для вывода с переводом строки можно использовать `\n` в качестве значения разделителя.
 - Размещайте Smart Marker в ячейке, которая имеет достаточную ширину для отображения результирующей объединённой строки; в противном случае содержимое может визуально переполняться в соседние ячейки в зависимости от формата.
+{{% /alert %}}
 
-## **Связанные статьи**
-
-- [Smart Markers](/cells/ru/cpp/smart-markers/)
-- [Объединение и разъединение ячеек](/cells/ru/cpp/merging-and-unmerging-cells/)
+{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

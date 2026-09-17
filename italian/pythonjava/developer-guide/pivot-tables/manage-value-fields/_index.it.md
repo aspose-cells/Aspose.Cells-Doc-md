@@ -1,7 +1,7 @@
 ---
 title: Campi Valore in Aspose.Cells for Python via Java
-linktitle: Campi Valore
 description: Scopri come aggiungere campi base all'area dati di una tabella pivot, modificare la funzione di riepilogo con PivotField.Function e visualizzare il campo valore sull'asse Riga o Colonna in Aspose.Cells for Python via Java
+linktitle: Campi Valore
 keywords: Aspose.Cells, Python via Java, tabella pivot, campo valore, PivotField, PivotField.Function, campo dati, PivotTable.ValuesField, Somma, Media
 type: docs
 weight: 230
@@ -11,21 +11,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Aggiunta di un Campo all'Area Dati
-
 L'aggiunta di un campo base all'area dati (valore) è il primo passo per definire come una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.addFieldToArea(PivotFieldType, string)`, un overload che accetta la costante `PivotFieldType.DATA` e il nome della colonna di origine. Una volta che un campo viene aggiunto all'area dati, l'API lo espone attraverso la raccolta `PivotTable.DataFields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.SUM`, mentre una colonna non numerica utilizza `COUNT` come valore predefinito.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -39,20 +35,17 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
 ## Modifica della Funzione di Riepilogo
-
 Ogni campo posizionato nell'area dati viene incapsulato internamente come un'istanza di `PivotField`, e la sua proprietà `Function` restituisce un valore dall'enum `ConsolidationFunction`. Lo stesso setter `Function` consente di passare tra gli aggregati disponibili, tra cui `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` e `VARP`.
 
 {{% alert color="primary" %}}
@@ -64,15 +57,12 @@ Puoi quindi lasciare un campo dati come `SUM` mentre aggiungi un secondo campo d
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -86,7 +76,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -95,13 +84,11 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
 ## Visualizzazione dei Campi Valore sull'Asse Riga o Colonna
-
 Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un campo virtuale aggiuntivo chiamato `PivotTable.ValuesField`. Questo campo virtuale rappresenta l'aggregato di ogni campo dati presente nell'area dati. Puoi trascinarlo nell'area Riga o Colonna come campo pivot di base, utile per disporre più misure fianco a fianco.
 
 {{% alert color="primary" %}}
@@ -113,15 +100,12 @@ Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna de
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -135,7 +119,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -145,7 +128,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

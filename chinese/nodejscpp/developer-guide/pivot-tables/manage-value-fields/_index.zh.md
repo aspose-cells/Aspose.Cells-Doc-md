@@ -1,7 +1,7 @@
 ---
-title: 在 Aspose.Cells for Node.js via C++ 中管理数据透视表的值字段
-linktitle: 在 Aspose.Cells for Node.js via C++ 中管理数据透视表的值字段
-description: 学习如何向 Aspose.Cells for Node.js via C++ 数据透视表的数据区域添加基础字段,通过 PivotField.Function 更改汇总函数,并将值字段绘制到行轴或列轴。
+title: 使用 Aspose.Cells for Node.js via C++ 管理数据透视表值字段
+linktitle: 使用 Aspose.Cells for Node.js via C++ 管理数据透视表值字段
+description: 了解如何在 Aspose.Cells for Node.js via C++ 中将基本字段添加到数据透视表的数据区域、使用 PivotField.Function 更改汇总函数，以及将值字段放置到行轴或列轴。
 keywords: Aspose.Cells, Node.js via C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -10,202 +10,126 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## Adding a Field to the Data Region
-→ ## 向数据区域添加字段
-
-"Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data."
-→ "向数据(值)区域添加基础字段是塑造数据透视表如何聚合源数据的第一步。"
-
-"Aspose.Cells exposes `PivotTable.addFieldToArea(PivotFieldType, string)`, an overload that accepts the constant `PivotFieldType.Data` and the source-column name."
-→ "Aspose.Cells 公开了 `PivotTable.addFieldToArea(PivotFieldType, string)`,这是一个接受常量 `PivotFieldType.Data` 和源列名称的重载。"
-
-"Once a field is added to the data region, the API exposes it through the `PivotTable.getDataFields()` collection, in the order in which the fields were added."
-→ "一旦字段被添加到数据区域,API 会通过 `PivotTable.getDataFields()` 集合公开它,顺序与字段添加顺序一致。"
-
-"By default, a numeric source column is summarised with `ConsolidationFunction.Sum`, while a non-numeric column defaults to `Count`."
-→ "默认情况下,数值型源列使用 `ConsolidationFunction.Sum` 进行汇总,而非数值型列默认使用 `Count`。"
+## 将字段添加到数据区域
+将基本字段添加到数据（值）区域，是确定数据透视表如何汇总源数据的第一步。Aspose.Cells 提供了 `PivotTable.AddFieldToArea(PivotFieldType, string)` 重载，该重载接受常量 `PivotFieldType.Data` 和源列名称。字段添加到数据区域后，API 会通过 `PivotTable.DataFields` 集合按字段添加顺序将其公开。默认情况下，数值源列使用 `Sum` 汇总，而非数值列默认使用 `Count` 汇总。
 
 ```javascript
-aspose.cells");
-
+const AsposeCells = require("aspose.cells");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
-// A1:D1 中的表头
-worksheet.getCells().get(0, 0).putValue("Category");
-worksheet.getCells().get(0, 1).putValue("Item");
-worksheet.getCells().get(0, 2).putValue("Year");
-worksheet.getCells().get(0, 3).putValue("Amount");
-
-// 使用嵌套循环根据 j 分支处理 A2:D9 数据行
-for (let i = 1; i <= 8; i++) {
- for (let j = 0; j < 4; j++) {
- switch (j) {
- case 0:
- worksheet.getCells().get(i, j).putValue(i <= 4 ? "Fruit" : "Vegetable");
- break;
- case 1:
- if (i === 1 || i === 2) worksheet.getCells().get(i, j).putValue("Apple");
- else if (i === 3 || i === 4) worksheet.getCells().get(i, j).putValue("Banana");
- else if (i === 5 || i === 6) worksheet.getCells().get(i, j).putValue("Carrot");
- else worksheet.getCells().get(i, j).putValue("Daikon");
- break;
- case 2:
- worksheet.getCells().get(i, j).putValue(2020 + ((i - 1) % 2));
- break;
- case 3:
- if (i === 1) worksheet.getCells().get(i, j).putValue(100);
- else if (i === 2) worksheet.getCells().get(i, j).putValue(150);
- else if (i === 3) worksheet.getCells().get(i, j).putValue(80);
- else if (i === 4) worksheet.getCells().get(i, j).putValue(90);
- else if (i === 5) worksheet.getCells().get(i, j).putValue(50);
- else if (i === 6) worksheet.getCells().get(i, j).putValue(60);
- else if (i === 7) worksheet.getCells().get(i, j).putValue(40);
- else worksheet.getCells().get(i, j).putValue(45);
- break;
- }
- }
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
-// 在 F3 位置添加名为 PivotTable1 的数据透视表
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
-// 数据透视表布局：Category 和 Item 放在行，Year 放在列，Amount 作为数据字段
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
-## Changing the Summary Function
-→ ## 更改汇总函数
+## 更改汇总函数
+字段位于数据区域后，Aspose.Cells 会通过 `PivotTable.DataFields` 中的 `PivotField` 对象将其公开。每个 `PivotField` 都有一个可写的 `Function` 属性，其类型为 `ConsolidationFunction`，用于控制应用于该字段基础值的聚合方式。`ConsolidationFunction` 是一个枚举，包含 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp` 成员。前六个成员可满足现实中的绝大多数使用场景，后四个成员则适用于方差分析等统计汇总。
 
-"Every field placed in the data region is wrapped internally as a `PivotField` instance, and its `getFunction()` property returns a value from the `ConsolidationFunction` enum."
-→ "放置在数据区域中的每个字段在内部被包装为 `PivotField` 实例,其 `getFunction()` 属性返回 `ConsolidationFunction` 枚举中的一个值。"
-
-→ "同一个 `setFunction()` setter 可让您在可用的聚合之间切换,包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`。"
-
-Alert: "Changing the summary function only affects the aggregate, the source column does not change."
-→ "更改汇总函数只会影响聚合结果,源列不会改变。"
-
-→ "因此,您可以在单个数据透视表中将一个数据字段保留为 `Sum`,同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段。"
+{{% alert color="primary" %}}
+更改 `Function` 只会影响汇总方式，不会修改源列以及数据透视表的行/列结构。要更改现有数据字段的汇总方式，请设置 `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;`，然后调用 `pivotTable.CalculateData()` 重新呈现数据透视表。
+{{% /alert %}}
 
 ```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
+const AsposeCells = require("aspose.cells");
+const workbook = new AsposeCells.Workbook();
+const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
-worksheet.getCells().get(0, 0).putValue("Category");
-worksheet.getCells().get(0, 1).putValue("Item");
-worksheet.getCells().get(0, 2).putValue("Year");
-worksheet.getCells().get(0, 3).putValue("Amount");
-
-for (let i = 1; i <= 8; i++)
-{
- for (let j = 0; j <= 3; j++)
- {
- if (j == 0)
- {
- worksheet.getCells().get(i, j).putValue(i <= 5 ? "Fruit" : "Vegetable");
- }
- else if (j == 1)
- {
- let items = ["Apple", "Apple", "Banana", "Banana", "Carrot", "Carrot", "Daikon", "Daikon"];
- worksheet.getCells().get(i, j).putValue(items[i - 1]);
- }
- else if (j == 2)
- {
- let years = [2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021];
- worksheet.getCells().get(i, j).putValue(years[i - 1]);
- }
- else
- {
- let amounts = [100, 150, 80, 90, 50, 60, 40, 45];
- worksheet.getCells().get(i, j).putValue(amounts[i - 1]);
- }
- }
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
+const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
-let countField = pivotTable.getDataFields().get(1);
-countField.setFunction(AsposeCells.ConsolidationFunction.Count);
-
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
 pivotTable.calculateData();
-
 workbook.save("output_function.xlsx");
 ```
 
-## Plotting Value Fields to Row or Column Axis
-→ ## 将值字段绘制到行轴或列轴
+## 将值字段放置到行轴或列轴
+当数据透视表包含两个或更多数据字段时，Aspose.Cells 还会公开一个名为 `PivotTable.ValuesField` 的附加虚拟字段。该虚拟字段表示位于数据区域中的所有数据字段的汇总结果。你可以像基本数据透视字段一样将其拖放到行区域或列区域，从而并排布局多个度量值。
 
-"When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.getValuesField`."
-→ "当数据透视表包含两个或更多数据字段时,Aspose.Cells 会公开一个名为 `PivotTable.getValuesField` 的额外虚拟字段。"
-
-"This virtual field represents the aggregate of every data field that lives in the data region."
-→ "该虚拟字段表示位于数据区域中的每个数据字段的聚合。"
-
-"You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side."
-→ "您可以将其作为基础数据透视字段拖动到行区域或列区域,这对于并排放置多个度量值非常有用。"
-
-Alert: "`PivotTable.getValuesField()` does not work if there is no or only one value field."
-→ "如果没有值字段或只有一个值字段,`PivotTable.getValuesField()` 无法使用。"
-
-""
-→ "下面的场景通过三个端到端示例演示针对同一数据透视表结构的上述每个功能。"
+{{% alert color="primary" %}}
+如果没有值字段，或仅有一个值字段，则 `PivotTable.ValuesField` 无法正常工作。
+{{% /alert %}}
 
 ```javascript
-let workbook = new AsposeCells.Workbook();
-let worksheet = workbook.getWorksheets().get(0);
+const AsposeCells = require("aspose.cells");
+const workbook = new AsposeCells.Workbook();
+const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
-worksheet.getCells().get(0, 0).putValue("Category");
-worksheet.getCells().get(0, 1).putValue("Item");
-worksheet.getCells().get(0, 2).putValue("Year");
-worksheet.getCells().get(0, 3).putValue("Amount");
-
-let categories = ["Fruit", "Fruit", "Fruit", "Fruit", "Vegetable", "Vegetable", "Vegetable", "Vegetable"];
-let items = ["Apple", "Apple", "Banana", "Banana", "Carrot", "Carrot", "Daikon", "Daikon"];
-let years = [2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021];
-let amounts = [100, 150, 80, 90, 50, 60, 40, 45];
-
-for (let i = 1; i <= 8; i++)
-{
- for (let j = 0; j <= 3; j++)
- {
- if (j == 0) worksheet.getCells().get(i, j).putValue(categories[i - 1]);
- else if (j == 1) worksheet.getCells().get(i, j).putValue(items[i - 1]);
- else if (j == 2) worksheet.getCells().get(i, j).putValue(years[i - 1]);
- else worksheet.getCells().get(i, j).putValue(amounts[i - 1]);
- }
+const headers = ["Category", "Item", "Year", "Amount"];
+for (let j = 0; j < headers.length; j++) {
+    worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
+const data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020,  80],
+    ["Fruit",     "Banana", 2021,  90],
+    ["Vegetable", "Carrot", 2020,  50],
+    ["Vegetable", "Carrot", 2021,  60],
+    ["Vegetable", "Daikon", 2020,  40],
+    ["Vegetable", "Daikon", 2021,  45]
+];
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
+    }
+}
+const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
+const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
 pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
-
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

@@ -1,8 +1,8 @@
 ---
-title: Convertir minigráficos a imagen y HTML en Aspose.Cells for C++
-linktitle: Convert Sparkline to Image and HTML
-description: Aprenda a renderizar minigráficos de Aspose.Cells como imágenes independientes para incrustar en celdas y exportar hojas de cálculo con minigráficos a HTML usando HtmlSaveOptions.
-keywords: Aspose.Cells, C++, minigráfico, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, renderizar minigráfico, convertir minigráfico a imagen, exportar minigráfico a HTML
+title: Convertir minigráficos a imágenes y HTML en Aspose.Cells for C++
+linktitle: Convertir minigráficos a imágenes y HTML en Aspose.Cells for C++
+description: Aprenda a generar imágenes independientes de los minigráficos de Aspose.Cells para incrustarlas en celdas y exportar a HTML hojas de cálculo con minigráficos mediante HtmlSaveOptions.
+keywords: Aspose.Cells, C++, minigráfico, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, generar minigráfico, convertir minigráfico en imagen, exportar minigráfico a HTML
 type: docs
 weight: 120
 url: /es/cpp/convert-sparkline-to-image-and-html/
@@ -11,148 +11,123 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Los minigráficos son gráficos en miniatura colocados dentro de las celdas de la hoja de cálculo. Aspose.Cells le permite extraer cada minigráfico como una imagen independiente (para incrustarlo en otra celda o en un informe externo) y también exportar toda la hoja de cálculo con minigráficos a HTML para su distribución en el navegador. La propiedad `Cell.EmbeddedImage` utilizada en este artículo está disponible en **Aspose.Cells 26.5 y posteriores**.
-{{% /alert %}}
+Los minigráficos son gráficos en miniatura colocados dentro de las celdas de una hoja de cálculo. Aspose.Cells permite extraer cada minigráfico como una imagen independiente (para incrustarlo en otra celda o en un informe externo) y también exportar toda la hoja de cálculo con minigráficos a HTML para su distribución mediante navegadores. La propiedad `Cell.EmbeddedImage` utilizada en este artículo está disponible en **Aspose.Cells 26.5 y versiones posteriores**.
 
 ## **Introducción**
+Los minigráficos son una forma compacta de visualizar tendencias directamente dentro de una hoja de cálculo. Aunque los usuarios de Excel los ven en las celdas, en muchos escenarios reales es necesario extraer un minigráfico de ellas; por ejemplo, para insertarlo como imagen estática en otra celda, adjuntarlo a un correo electrónico automatizado o incluirlo como imagen en un informe HTML publicado en la web.
+Aspose.Cells admite ambas operaciones. El método `Sparkline.ToImage` genera una imagen de un minigráfico individual en forma de vector de bytes `Vector<uint8_t>`, y los bytes resultantes se pueden asignar a `Cell.EmbeddedImage` para almacenar la imagen dentro de una sola celda del libro de trabajo. Por otra parte, `HtmlSaveOptions` permite convertir el libro de trabajo completo, incluidos los minigráficos, en un archivo HTML autocontenido. Este artículo explica ambos flujos de trabajo de principio a fin.
 
-Los minigráficos son una forma compacta de visualizar tendencias directamente dentro de una hoja de cálculo. Mientras que los usuarios de Excel los ven en su lugar, muchos escenarios del mundo real requieren que un minigráfico salga de la celda — por ejemplo, para ser incrustado en una celda diferente como una imagen estática, adjunto a un correo electrónico automatizado, o renderizado como parte de un informe HTML publicado en la web.
-
-Aspose.Cells admite ambas operaciones. El método `Sparkline.ToImage` renderiza un minigráfico individual a un flujo, y los bytes resultantes pueden asignarse a `Cell.EmbeddedImage` de modo que la imagen se almacene dentro de una sola celda del libro de trabajo. Por separado, `HtmlSaveOptions` le permite convertir el libro de trabajo completo — minigráficos y todo — en un archivo HTML autónomo. Este artículo recorre ambos flujos de trabajo de extremo a extremo.
-
-## **Flujo de trabajo 1 — Renderizar minigráficos a imágenes e incrustarlos en celdas**
-
-En este flujo de trabajo construirá una hoja de cálculo que contiene un pequeño rango de valores de origen, adjuntará tres grupos de minigráficos diferentes (Línea, Columna y Apilado/Win-Loss) a ese rango, renderizará cada grupo como un PNG, y escribirá esos bytes PNG en celdas adyacentes como imágenes incrustadas. El resultado final es un único archivo `.xlsx` que contiene tanto los minigráficos activos como sus contrapartes de imagen renderizadas.
+## **Flujo de trabajo 1 — Generar minigráficos como imágenes e incrustarlos en celdas**
+En este flujo de trabajo, creará una hoja de cálculo que contiene un rango reducido de valores de origen, asociará tres grupos diferentes de minigráficos (Línea, Columna y Apilado/Ganancia-Pérdida) a ese rango, generará cada minigráfico en formato PNG y guardará los bytes de cada imagen en celdas adyacentes como imágenes incrustadas. El resultado final será un único archivo `.xlsx` que contiene tanto los minigráficos activos como sus imágenes estáticas equivalentes.
 
 ### **Instrucciones paso a paso**
-
 1. Defina un directorio de trabajo y asegúrese de que exista en disco.
-2. Cree un nuevo `Workbook` y obtenga una referencia a la primera `Worksheet`.
-3. Rellene las celdas `A1` a `E1` con cinco valores numéricos de muestra (por ejemplo, ventas diarias o lecturas de temperatura).
-4. Agregue tres objetos `SparklineGroup` a la hoja de cálculo llamando a `worksheet.SparklineGroups.Add(...)`:
-   - Un grupo `SparklineType.Line` anclado en `F1`, con rango de datos `A1:E1`.
-   - Un grupo `SparklineType.Column` anclado en `G1`, con rango de datos `A1:E1`.
-   - Un grupo `SparklineType.Stacked` (win/loss) anclado en `H1`, con rango de datos `A1:E1`.
-5. Construya una instancia de `ImageOrPrintOptions` y establezca su `ImageType` a `ImageType.Png` para que cada minigráfico se renderice como un PNG transparente.
-6. Para cada uno de los tres grupos, renderice su único minigráfico usando `group.Sparklines[0].ToImage(memoryStream, imageOptions)`, convierta el `MemoryStream` a un `Vector<uint8_t>`, y asigne el arreglo a `worksheet.Cells["F2"].EmbeddedImage`, `worksheet.Cells["G2"].EmbeddedImage`, y `worksheet.Cells["H2"].EmbeddedImage` respectivamente.
+2. Cree un nuevo `Workbook` y obtenga una referencia al primer `Worksheet`.
+3. Introduzca cinco valores numéricos de ejemplo en las celdas `A1` a `E1` (por ejemplo, ventas diarias o lecturas de temperatura).
+4. Añada tres objetos `SparklineGroup` a la hoja de cálculo mediante una llamada a `worksheet.SparklineGroups.Add(...)`:
+   - Un grupo `SparklineType.Line` con `F1` como celda de anclaje y `A1:E1` como rango de datos.
+   - Un grupo `SparklineType.Column` con `G1` como celda de anclaje y `A1:E1` como rango de datos.
+   - Un grupo `SparklineType.Stacked` (ganancia/pérdida) con `H1` como celda de anclaje y `A1:E1` como rango de datos.
+5. Cree una instancia de `ImageOrPrintOptions` y establezca su propiedad `ImageType` en `ImageType.Png` para generar cada minigráfico como una imagen PNG transparente.
+6. En cada uno de los tres grupos, genere su único minigráfico mediante `group.Sparklines[0].ToImage(imageOptions)`. La llamada devuelve directamente los bytes de la imagen como un `Vector<uint8_t>`; a continuación, asigne respectivamente el vector a `worksheet.GetCells().Get("F2"].EmbeddedImage`, `worksheet.GetCells().Get("G2"].EmbeddedImage` y `worksheet.GetCells().Get("H2"].EmbeddedImage`.
 7. Guarde el libro de trabajo como `output_with_sparklines.xlsx`.
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-
     CellArea lineArea;
     lineArea.StartColumn = 5;
     lineArea.EndColumn = 5;
     lineArea.StartRow = 0;
     lineArea.EndRow = 0;
     int lineIdx = worksheet.GetSparklineGroups().Add(SparklineType::Line, U16String("A1:E1"), false, lineArea);
-
     CellArea columnArea;
     columnArea.StartColumn = 6;
     columnArea.EndColumn = 6;
     columnArea.StartRow = 0;
     columnArea.EndRow = 0;
     int columnIdx = worksheet.GetSparklineGroups().Add(SparklineType::Column, U16String("A1:E1"), false, columnArea);
-
     CellArea stackedArea;
     stackedArea.StartColumn = 7;
     stackedArea.EndColumn = 7;
     stackedArea.StartRow = 0;
     stackedArea.EndRow = 0;
     int stackedIdx = worksheet.GetSparklineGroups().Add(SparklineType::Stacked, U16String("A1:E1"), false, stackedArea);
-
     ImageOrPrintOptions imageOptions;
     imageOptions.SetImageType(ImageType::Png);
-
     Sparkline lineSp = worksheet.GetSparklineGroups().Get(lineIdx).GetSparklines().Get(0);
     Vector<uint8_t> lineImg = lineSp.ToImage(imageOptions);
     worksheet.GetCells().Get(u"F2").SetEmbeddedImage(lineImg);
-
     Sparkline columnSp = worksheet.GetSparklineGroups().Get(columnIdx).GetSparklines().Get(0);
     Vector<uint8_t> columnImg = columnSp.ToImage(imageOptions);
     worksheet.GetCells().Get(u"G2").SetEmbeddedImage(columnImg);
-
     Sparkline stackedSp = worksheet.GetSparklineGroups().Get(stackedIdx).GetSparklines().Get(0);
     Vector<uint8_t> stackedImg = stackedSp.ToImage(imageOptions);
     worksheet.GetCells().Get(u"H2").SetEmbeddedImage(stackedImg);
-
     workbook.Save(u"output_with_sparklines.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-El código anterior produce un libro de trabajo donde cada representación visual de un minigráfico se duplica en dos formas: el minigráfico nativo y activo anclado en la fila 1, y una imagen PNG estática incrustada directamente en una celda vecina en la fila 2. Debido a que las imágenes viven dentro del propio archivo, el libro de trabajo sigue siendo un único artefacto autónomo que puede ser enviado por correo electrónico o archivado sin romper las referencias de imagen incrustadas. Renderice cada grupo de minigráficos como un PNG, convierta el `MemoryStream` a un `Vector<uint8_t>`, y asigne el arreglo a la propiedad `EmbeddedImage` de la celda de destino — la asignación es lo que hace que la imagen sea parte del contenido almacenado de la celda.
+El código anterior crea un libro de trabajo en el que cada representación visual de un minigráfico se duplica en dos formatos: el minigráfico nativo y activo, anclado en la fila 1, y una imagen PNG estática insertada directamente en una celda adyacente de la fila 2. Dado que las imágenes se almacenan en el propio archivo, el libro de trabajo constituye un único artefacto autocontenido que se puede enviar por correo electrónico o archivar sin que se rompan las referencias a las imágenes incrustadas. Genere cada minigráfico como una imagen PNG — `Sparkline.ToImage(ImageOrPrintOptions)` devuelve directamente los bytes de la imagen en forma de `Vector<uint8_t>` — y asigne el vector a la propiedad `EmbeddedImage` de la celda de destino; esta asignación es la que incorpora la imagen al contenido almacenado de la celda.
 
 {{% alert color="primary" %}}
-Dado que cada grupo de minigráficos está anclado a una sola celda, puede acceder a él a través del indexador `group.Sparklines[0]` en lugar de enumerar con `foreach`. Esto mantiene corto el código de renderizado y coincide con el patrón típico de "un minigráfico por celda ancla". Almacenar los bytes de la imagen mediante `Cell.EmbeddedImage` requiere Aspose.Cells 26.5 o posterior.
-{{% /alert %}}
+Como cada grupo de minigráficos está asociado a una sola celda, puede obtenerlo mediante el operador de indexación `group.Sparklines[0]` en lugar de recorrer la colección con `foreach`. Esto reduce el código necesario para generar las imágenes y se ajusta al patrón habitual de «un minigráfico por celda de anclaje». Guardar los bytes de la imagen mediante `Cell.EmbeddedImage` requiere Aspose.Cells 26.5 o posterior.
 
 ## **Flujo de trabajo 2 — Exportar la hoja de cálculo con minigráficos a HTML**
-
-Una vez que el libro de trabajo contiene minigráficos activos (y opcionalmente contrapartes de imágenes incrustadas), toda la hoja de cálculo puede ser publicada en la web guardándola como HTML. La clase `HtmlSaveOptions` expone los controles que necesita para controlar esta exportación; en este flujo de trabajo reutilizará el archivo `output_with_sparklines.xlsx` producido por el Flujo de trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
+Una vez que el libro de trabajo contiene minigráficos activos (y, opcionalmente, imágenes estáticas equivalentes), la hoja de cálculo se puede publicar en la web guardándola como HTML. La clase `HtmlSaveOptions` ofrece las opciones necesarias para controlar esta exportación. En este flujo de trabajo, reutilizará el archivo `output_with_sparklines.xlsx` producido por el flujo de trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
 
 ### **Instrucciones paso a paso**
-
-1. Asegúrese de que el archivo `output_with_sparklines.xlsx` producido por el Flujo de trabajo 1 esté disponible en disco en su directorio de trabajo.
-2. Cargue ese archivo en una nueva instancia de `Workbook`.
-3. Cree una instancia de `HtmlSaveOptions` y establezca su propiedad `ExportActiveWorksheetOnly` a `true` para que el archivo HTML resultante contenga solo la hoja de cálculo activa en lugar de todo el libro de trabajo.
-4. Llame a `workbook.Save("sparklines.html", htmlOptions)` para escribir la salida HTML en disco.
+1. Asegúrese de que el archivo `output_with_sparklines.xlsx` producido por el flujo de trabajo 1 esté disponible en disco dentro de su directorio de trabajo.
+2. Cargue el archivo en una nueva instancia de `Workbook`.
+3. Cree una instancia de `HtmlSaveOptions` y establezca su propiedad `ExportActiveWorksheetOnly` en `true` para que el archivo HTML resultante contenga únicamente la hoja de cálculo activa, en lugar del libro de trabajo completo.
+4. Llame a `workbook.Save("sparklines.html", htmlOptions)` para guardar la salida HTML en disco.
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
-
 int main() {
     Aspose::Cells::Startup();
-
     Workbook workbook(u"output_with_sparklines.xlsx");
     HtmlSaveOptions htmlOptions;
     htmlOptions.SetExportActiveWorksheetOnly(true);
     workbook.Save(u"sparklines.html", htmlOptions);
-
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-El código anterior toma el libro de trabajo con minigráficos del Flujo de trabajo 1 y lo convierte en un archivo HTML portátil. Los minigráficos se conservan como renderizaciones SVG o PNG en línea dentro del HTML generado, dependiendo del modo de exportación, para que los usuarios finales puedan ver las tendencias en cualquier navegador moderno sin necesidad de tener Excel instalado. Al establecer `ExportActiveWorksheetOnly` a `true`, evita publicar accidentalmente hojas ocultas o datos auxiliares — solo se exporta la hoja de cálculo actualmente visible para el usuario.
+El código anterior convierte el libro de trabajo con minigráficos del flujo de trabajo 1 en un archivo HTML portable. Los minigráficos se conservan como representaciones SVG o PNG en línea dentro del HTML generado, según el modo de exportación, de modo que los usuarios finales pueden consultar las tendencias en cualquier navegador moderno sin necesidad de tener Excel instalado. Al establecer `ExportActiveWorksheetOnly` en `true`, evita publicar accidentalmente hojas ocultas o datos auxiliares; únicamente se exporta la hoja de cálculo que el usuario ve actualmente.
 
 {{% alert color="primary" %}}
-La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar la salida, como `ExportHiddenWorksheet`, `ExportImagesAsBase64` y `Encoding`. Ajústelas según sea necesario para su destino de implementación.
-{{% /alert %}}
+La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar con precisión la salida, como `ExportHiddenWorksheet`, `ExportImagesAsBase64` y `Encoding`. Ajústelas según las necesidades de su entorno de implementación.
 
 ## **Resumen de la API**
-
-Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Aspose.Cells que trabajan juntas.
-
-- `SparklineGroup` y el descriptor de acceso de colección `worksheet.SparklineGroups` se utilizan para declarar el tipo (Line, Column, Stacked), el rango de datos y la celda ancla para cada grupo de minigráficos. En este artículo cada grupo está anclado a una sola celda, por lo que se accede al grupo a través de `worksheet.SparklineGroups[i]`.
-- `Sparkline` y el indexador `group.Sparklines[0]` devuelven el minigráfico individual dentro de un grupo. Dado que cada grupo en el ejemplo contiene exactamente un minigráfico, no se requiere un bucle `foreach`.
-- `Sparkline.ToImage(Stream, ImageOrPrintOptions)` es el método de renderizado que escribe una imagen del minigráfico en un `Stream` proporcionado. El método devuelve `void`; usted lee los bytes del flujo después de la llamada.
-- `Cell.EmbeddedImage` es una propiedad `Vector<uint8_t>` que almacena una imagen dentro de una sola celda. Está disponible en **Aspose.Cells 26.5 y posteriores** y es la forma recomendada de devolver un minigráfico renderizado por `ToImage` al mismo libro de trabajo.
-- `HtmlSaveOptions.ExportActiveWorksheetOnly` (un `bool`) restringe la exportación HTML a la hoja de cálculo activa. Es una de las propiedades más utilizadas de `HtmlSaveOptions` al generar informes de una sola página.
-- `ImageOrPrintOptions.ImageType` reside en el espacio de nombres `Aspose.Cells.Drawing` y selecciona el formato de imagen (por ejemplo, `ImageType.Png`) utilizado al renderizar con `ToImage` y al imprimir hojas de cálculo a imágenes.
+Los flujos de trabajo anteriores se basan en un pequeño conjunto de API de Aspose.Cells que funcionan conjuntamente.
+- `SparklineGroup` y la propiedad de colección `worksheet.SparklineGroups` permiten especificar el tipo (Línea, Columna, Apilado), el rango de datos y la celda de anclaje de cada grupo de minigráficos. En este artículo, cada grupo está anclado a una sola celda, por lo que se puede obtener mediante `worksheet.SparklineGroups[i]`.
+- `Sparkline` y el operador de indexación `group.Sparklines[0]` permiten obtener el minigráfico individual de un grupo. Como cada grupo del ejemplo contiene exactamente un minigráfico, no es necesario usar un bucle `foreach`.
+- `Sparkline.ToImage(ImageOrPrintOptions)` es el método de generación de imágenes que devuelve directamente una imagen del minigráfico en forma de vector de bytes `Vector<uint8_t>`.
+- `HtmlSaveOptions.ExportActiveWorksheetOnly` (un `bool`) restringe la exportación HTML a la hoja de cálculo activa. Es una de las propiedades de `HtmlSaveOptions` más utilizadas cuando se generan informes de una sola página.
+- `ImageOrPrintOptions.ImageType` se encuentra en el namespace `Aspose.Cells.Drawing` y permite seleccionar el formato de imagen, por ejemplo, `ImageType.Png`, utilizado al generar una imagen con `ToImage` y al imprimir hojas de cálculo como imágenes.
 
 ## **Artículos relacionados**
+- [Minigráficos en Aspose.Cells for C++](/cells/es/cpp/sparkline/)
+- [Insertar una imagen en una celda](/cells/es/cpp/inserting-an-image-into-a-cell/)
+- [Renderizado de una matriz de una sola celda mediante SmartMarker | Aspose.Cells for C++](/cells/es/cpp/SmartMarker-Single-Cell-Array-Rendering/)
+{{% /alert %}}
 
-- [Sparklines in Aspose.Cells for C++](/cells/es/cpp/sparkline/)
-- [Inserting an Image into a Cell](/cells/es/cpp/inserting-an-image-into-a-cell/)
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/es/cpp/SmartMarker-Single-Cell-Array-Rendering/)
+{{% /alert %}}
+
+{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

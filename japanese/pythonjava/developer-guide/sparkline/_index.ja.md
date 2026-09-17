@@ -1,7 +1,7 @@
 ---
-title: Aspose.Cells for Python via Java におけるスパークライン
-linktitle: スパークライン
-description: Aspose.Cells はスプレッドシートファイルを扱うための Python via Java ライブラリであり、ワークシートセル内に配置されるミニチュアチャートであるスパークラインの作成をサポートします。この記事では、Aspose.Cells ライブラリを使用して、折れ線、縦棒、勝敗のスパークラインを追加およびカスタマイズする方法について説明します。
+title: Aspose.Cells for Python via Java でのスパークライン
+linktitle: Aspose.Cells for Python via Java でのスパークライン
+description: Aspose.Cells はスプレッドシートファイルを扱うための Python via Java ライブラリであり、ワークシートセル内に配置されるミニチュアチャートであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して折れ線、縦棒、勝敗のスパークラインを追加およびカスタマイズする方法について説明します。
 keywords: Aspose.Cells, Python via Java ライブラリ, スプレッドシート, スパークライン, 折れ線スパークライン, 縦棒スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
 type: docs
 weight: 195
@@ -11,233 +11,22 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-
-Aspose.Cells は、ワークシートセル内のスパークライン作成をサポートしています。スパークラインは単一セルに収まるミニチュアチャートであり、データ傾向を素早く視覚的に表現します。Aspose.Cells は折れ線、縦棒、勝敗のスパークラインをサポートしており、それぞれを色、線の太さ、高値/安値、マーカーに関してカスタマイズできます。
-
-{{% /alert %}}
+Aspose.Cells はワークシートセル内のスパークラインの作成をサポートしています。スパークラインは 1 つのセル内に収まるミニチュアチャートであり、データの傾向をすばやく視覚的に表現します。Aspose.Cells は折れ線、縦棒、勝敗のスパークラインをサポートしており、それぞれを色、線の太さ、高値/安値ポイント、マーカーなどに関してカスタマイズできます。
 
 ## **はじめに**
-
-スパークラインはセル内に収まる小さなチャートであり、完全なチャートほどのスペースを取らずにデータの行や列の隣にすばやく傾向を表示したい場合に便利です。Excel は **折れ線**、**縦棒**、**勝敗** の 3 種類のスパークラインをサポートしています。Aspose.Cells は、`Aspose.Cells.Charts` 名前空間にある `SparklineGroup` および `SparklineGroupCollection` API を介してこの機能を提供します。
-
-Aspose.Cells では、追加するすべてのスパークラインが `worksheet.getSparklineGroups().add(...)` を通じて作成され、`SparklineGroup` オブジェクトが返されます。その後、そのオブジェクトを使用して、スパークラインの種類、データ範囲、配置先セル、線の色、線の太さ、マーカー、高値/安値インジケーターなどの視覚的なプロパティを設定できます。
-
-{{% alert color="primary" %}}
-
-単一の `SparklineGroup` は、同じスタイルを共有する 1 つ以上のスパークラインを含めることができます。`add` を呼び出してデータの行と単一の配置先セルを渡すと、そのセル内に 1 つのスパークラインが作成されます。配置先範囲が 1 セルより広い場合は、各配置先セルに個別のスパークラインが描画され、すべて同じスタイルとデータ範囲が使用されます。
-
-{{% /alert %}}
-
-この記事では、Aspose.Cells がサポートする 3 種類のスパークライン — **折れ線**、**縦棒**、**勝敗** — のそれぞれについて、追加方法、色のカスタマイズ方法、結果として得られるワークブックの保存方法を説明します。
+スパークラインはセル内に収まる小さなチャートであり、完全なグラフが占めるスペースを取らずにデータの行や列の隣にすばやく傾向を表示したい場合に便利です。Excel は 3 種類のスパークライン (**折れ線**、**縦棒**、**勝敗**) をサポートしています。Aspose.Cells は `Aspose.Cells.Charts` 名前空間にある `SparklineGroup` および `SparklineGroupCollection` API を通じてこの機能を提供します。
+Aspose.Cells では、追加するすべてのスパークラインが `worksheet.getSparklineGroups().add(...)` を通じて作成され、これは `SparklineGroup` オブジェクトを返します。そのオブジェクトを使用して、スパークラインのタイプ、データ範囲、配置先セル、および線の色、線の太さ、マーカー、高値/安値ポイントインジケーターなどの視覚的なプロパティを設定できます。
+この記事では、Aspose.Cells がサポートする 3 種類のスパークラインタイプ (**折れ線**、**縦棒**、**勝敗**) それぞれについて説明し、追加方法、色のカスタマイズ、結果として得られるワークブックの保存方法を示します。
 
 ## **折れ線スパークライン**
-
-折れ線スパークラインは、データ系列のデータ点を通る連続した線を描画するため、時間の経過に伴う傾向を示すための最も自然な選択肢です。Aspose.Cells では、`add` メソッドに `SparklineType.LINE` を渡すことで折れ線スパークラインが作成されます。
-
-ワークフローは他のスパークライン種別と同じです:
-
+折れ線スパークラインは、系列のデータポイントを通って連続した線を描画するため、時間の経過に伴う傾向を示すための最も自然な選択肢です。Aspose.Cells では、`add` メソッドに `SparklineType.LINE` を渡すことで折れ線スパークラインが作成されます。
 1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-2. (たとえば 1 行目の A 列から E 列に) 視覚化したい値を持つソースデータの行を入力します。
-3. スパークラインが描画される配置先セルを記述する `CellArea` を構築します。
-4. `worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest)` を呼び出します。3 番目の引数である `false` は、データ範囲が水平方向 (行) であり、垂直方向 (列) ではないことを Aspose.Cells に伝えます。
-5. 必要に応じて、返された `SparklineGroup` をカスタマイズします。折れ線スパークラインの場合は、`group.getLine().getColor()` (`Aspose.Cells.Drawing` の `CellsColor` を必要とします) を使用して線の色を設定し、線の太さを調整し、高値/安値マーカーを切り替えることができます。
+2. 視覚化する値を使用して、ソースデータの行 (たとえば、1 行目、A 列から E 列) にデータを入力します。
+3. スパークラインが描画される配置先セルを示す `CellArea` を構築します。
+4. `worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest)` を呼び出します。3 番目の引数である `false` は、データ範囲が縦 (列) ではなく横 (行) であることを Aspose.Cells に伝えます。
+5. 必要に応じて、返された `SparklineGroup` をカスタマイズします。折れ線スパークラインの場合、`group.getLine().getColor()` (これは `Aspose.Cells.Drawing` の `CellsColor` を必要とします) を使用して線の色を設定したり、線の太さを調整したり、高値/安値ポイントのマーカーを切り替えたりできます。
 6. ワークブックを保存します。
-
-次の例では、ワークブックを作成し、セル A1 から E1 に値 5、-3、8、-2、6 を書き込み、それらの値をトレースする折れ線スパークラインをセル F1 に追加します。また、線の色を赤にカスタマイズし、高値と安値のマーカーを有効化します。
-
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, CellArea, SparklineType
-from java.awt import Color
-
-# ステップ1: Workbookを作成し、最初のワークシートを取得する
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-cells = worksheet.getCells()
-
-# ステップ2: サンプル値 5, -3, 8, -2, 6 をセル A1:E1 に書き込む
-cells.get("A1").putValue(5)
-cells.get("B1").putValue(-3)
-cells.get("C1").putValue(8)
-cells.get("D1").putValue(-2)
-cells.get("E1").putValue(6)
-
-# ステップ3: 宛先セル F1 を指す CellArea を作成する
-dest = CellArea()
-dest.setStartColumn(5)  # 列 F (0から始まるインデックス)
-dest.setEndColumn(5)
-dest.setStartRow(0)     # 行 1 (0から始まるインデックス)
-dest.setEndRow(0)
-
-# ステップ4: A1:E1 から F1 に折れ線スパークラインを追加する
-# SparklineGroups.add は新しく追加されたグループのインデックスを返します
-index = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, dest)
-group = worksheet.getSparklineGroups().get(index)
-
-# ステップ5: 赤色の CellsColor を作成し、スパークラインの線の色に割り当てる
-red = workbook.createCellsColor()
-red.setColor(Color.RED)
-group.setSeriesColor(red)
-
-# ステップ6: 高値マーカーと低値マーカーを有効にする
-group.setShowHighPoint(True)
-group.setShowLowPoint(True)
-
-# ステップ7: ワークブックを保存する
-workbook.save("output_line.xlsx")
-
-jpype.shutdownJVM()
-```
-
-## **縦棒スパークライン**
-
-縦棒スパークラインは、各データ点を垂直な棒としてレンダリングします。そのため、大きさが意味を持つデータ (たとえば月次売上高や個数) に適しています。Aspose.Cells では、`add` メソッドに `SparklineType.COLUMN` を渡すことで縦棒スパークラインを作成します。
-
-手順は折れ線スパークラインの例と同様です:
-
-1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-2. 視覚化する値で同じソース範囲 (A1:E1) を入力します。
-3. 配置先セルを記述する `CellArea` を構築します。
-4. `worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest)` を呼び出します。
-5. 必要に応じて、結果として得られる `SparklineGroup` をカスタマイズします (たとえば、`group.getType()` を設定して種類を確認したり、棒の色を調整したりします)。
-6. 折れ線スパークラインの例を上書きしないように、ワークブックを別の出力ファイルに保存します。
-
-次の例では、5、-3、8、-2、6 を A1:E1 に書き込み、F1 に縦棒スパークラインをレンダリングします。負の値は下向きの棒として、正の値は上向きの棒として描画されるため、プラスとマイナスの寄与を一目で簡単に識別できます。
-
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-
-# Step 1: Workbookを作成し、最初のワークシートを取得する
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-
-# Step 2: A1:E1にサンプル値を書き込む
-values = [5, -3, 8, -2, 6]
-for i in range(len(values)):
-    worksheet.getCells().get(0, i).putValue(values[i])
-
-# Step 3: F1を指すCellAreaを構築する（列インデックス5、行インデックス0）
-dest = CellArea()
-dest.setStartColumn(5)
-dest.setEndColumn(5)
-dest.setStartRow(0)
-dest.setEndRow(0)
-
-# Step 4: 目的セルにColumnスパークラインを追加する
-idx = worksheet.getSparklineGroups().add(
-    SparklineType.Column, "A1:E1", False, dest)
-group = worksheet.getSparklineGroups().get(idx)
-
-# Step 5: group.Typeを読み取ってスパークラインの種類を確認する
-print("Sparkline Type added: " + str(group.getType()))
-
-# Step 6: ワークブックを保存する
-workbook.save("output_column.xlsx")
-
-print("Workbook saved as output_column.xlsx")
-
-jpype.shutdownJVM()
-```
-
-## **勝敗スパークライン**
-
-勝敗スパークラインは、2 つの結果のみを表示するように設計された縦棒スパークラインの特殊なバリエーションです。正の値は「上」バー (勝ち) として描画され、ゼロまたは負の値は「下」バー (負け) として描画されます。勝敗スパークラインは、一連の勝ち負け、合否結果、または時系列の二値結果を視覚化するためによく使用されます。
-
-Aspose.Cells では、`add` メソッドに `SparklineType.STACKED` を渡すことで勝敗スパークラインが作成されます。(名前にもかかわらず、`SparklineType.STACKED` は勝敗レンダリングを要求するために使用される enum 値です。)
-
-手順は他の 2 つの種類と同じです:
-
-1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-2. ソース範囲を入力します。勝敗スパークラインはすべての値を勝ちまたは負けとして扱うため、値そのものの大きさは重要ではなく、符号のみが重要です。正の値は上バーになり、非正の値は下バーになります。
-3. 配置先セルを記述する `CellArea` を構築します。
-4. `worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest)` を呼び出します。
-5. 必要に応じて、返された `SparklineGroup` をカスタマイズします (たとえば、勝ちバーと負けバーのアクセントカラーを設定します)。
-6. 3 つの例すべてがディスク上に共存できるよう、ワークブックを別のファイル名で保存します。
-
-次の例では、前の 2 つのセクションと同じ入力データを使用します。値 5、-3、8、-2、6 は勝ち、負け、勝ち、負け、勝ち として解釈され、F1 に描画されるスパークラインはそのパターンを正確に反映します。
-
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, CellsColor, Color
-
-# ステップ1: Workbookを作成し、最初のワークシートを取得する
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("WinLoss")
-
-# ステップ2: 1行目にサンプルデータを入力する: A1=5, B1=-3, C1=8, D1=-2, E1=6
-worksheet.getCells().get("A1").putValue(5)
-worksheet.getCells().get("B1").putValue(-3)
-worksheet.getCells().get("C1").putValue(8)
-worksheet.getCells().get("D1").putValue(-2)
-worksheet.getCells().get("E1").putValue(6)
-
-# ステップ3: F1を指すCellAreaを構築する（列5、行0）
-dest = CellArea()
-dest.setStartColumn(5)   # F列
-dest.setEndColumn(5)
-dest.setStartRow(0)      # 1行目
-dest.setEndRow(0)
-
-# ステップ4: Win/Lossスパークラインを追加する（SparklineType.Stacked）
-groupIndex = worksheet.getSparklineGroups().add(
-    SparklineType.Stacked,
-    "A1:E1",
-    False,
-    dest)
-group = worksheet.getSparklineGroups().get(groupIndex)
-
-# ステップ5: スパークライングループをカスタマイズする
-# 高値マーカーと安値マーカーを有効にする
-group.setShowHighPoint(True)
-group.setShowLowPoint(True)
-group.setShowNegativePoints(True)
-
-# 高値の色を緑に設定する
-highColor = workbook.createCellsColor()
-highColor.setColor(Color.GREEN)
-group.setHighPointColor(highColor)
-
-# 安値の色を赤に設定する
-lowColor = workbook.createCellsColor()
-lowColor.setColor(Color.RED)
-group.setLowPointColor(lowColor)
-
-# 負のポイントの色をオレンジに設定する
-negColor = workbook.createCellsColor()
-negColor.setColor(Color.ORANGE)
-group.setNegativePointsColor(negColor)
-
-# デフォルトの系列色を設定する（ポジティブなバーに使用）
-seriesColor = workbook.createCellsColor()
-seriesColor.setColor(Color.STEELBLUE)
-group.setSeriesColor(seriesColor)
-
-# ステップ6: ワークブックを保存する
-workbook.save("output_winloss.xlsx")
-
-print("Workbook saved successfully: output_winloss.xlsx")
-
-jpype.shutdownJVM()
-```
-
-## **3 種類のスパークラインをすべて組み合わせる**
-
-前の 3 つの例はそれぞれ独自のワークブックを生成するため、出力ファイルを個別に確認できます。ただし実際のシナリオでは、複数のデータ系列を並べて比較したい場合がよくあります。これを行う最もクリーンな方法は、複数のスパークライン グループを同じワークシートに配置し、各グループが異なるスタイルをレンダリングするようにすることです。
-
-複数の `SparklineGroup` オブジェクトを同じ `SparklineGroupCollection` に追加でき、各グループは異なる配置先セルまたは異なる範囲を対象とすることができます。たとえば、F1 に折れ線スパークライン、F2 に縦棒スパークライン、F3 に勝敗スパークラインを配置し、すべて 1 行目の同じソースデータを読み取るようにして、3 つの異なる視覚的表現を同じ数値で見ることができます。
-
-次の複合例では、単一のワークブックを作成し、1 行目に値 5、-3、8、-2、6 を入力してから、F1、F2、F3 のセルに 3 つのスパークライン グループ (各種類 1 つずつ) を追加し、結果として得られるファイルが 3 つのスパークライン スタイルすべてを一度に示すようにします。
+次の例では、ワークブックを作成し、セル A1 から E1 に値 5、-3、8、-2、6 を書き込み、それらの値をトレースする折れ線スパークラインをセル F1 に追加します。また、線の色を赤にカスタマイズし、高値および安値ポイントのマーカーを有効化します。
 
 ```python
 import jpype
@@ -246,19 +35,16 @@ jpype.startJVM()
 from asposecells.api import Workbook
 from asposecells.api import Workbook, CellArea, CellsColor, SparklineType
 from java.awt import Color
-
-# ステップ1: Workbookを作成し、最初のワークシートを取得します
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-
-# ステップ2: 1行目 (A1:E1) にサンプルデータを入力します
+# Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-
-# ステップ3: F1に折れ線スパークライングループを追加します
+# Step 3: Add a Line sparkline group at F1
 lineArea = CellArea()
 lineArea.setStartColumn(5)
 lineArea.setEndColumn(5)
@@ -266,13 +52,11 @@ lineArea.setStartRow(0)
 lineArea.setEndRow(0)
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 lineGroup = worksheet.getSparklineGroups().get(lineIdx)
-
-# CellsColorを使用して折れ線スパークラインの色をカスタマイズします
+# Customize the line sparkline color via CellsColor
 lineColor = workbook.createCellsColor()
 lineColor.setColor(Color.BLUE)
 lineGroup.setSeriesColor(lineColor)
-
-# ステップ4: F2に縦棒スパークライングループを追加します
+# Step 4: Add a Column sparkline group at F2
 columnArea = CellArea()
 columnArea.setStartColumn(5)
 columnArea.setEndColumn(5)
@@ -280,13 +64,11 @@ columnArea.setStartRow(1)
 columnArea.setEndRow(1)
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 columnGroup = worksheet.getSparklineGroups().get(columnIdx)
-
-# 縦棒スパークラインのシリーズ色をカスタマイズします
+# Customize the column sparkline series color
 columnColor = workbook.createCellsColor()
 columnColor.setColor(Color.GREEN)
 columnGroup.setSeriesColor(columnColor)
-
-# ステップ5: F3にWin/Loss（積み上げ）スパークライングループを追加します
+# Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stackedArea = CellArea()
 stackedArea.setStartColumn(5)
 stackedArea.setEndColumn(5)
@@ -294,34 +76,172 @@ stackedArea.setStartRow(2)
 stackedArea.setEndRow(2)
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 stackedGroup = worksheet.getSparklineGroups().get(stackedIdx)
-
-# Win/Lossスパークラインのシリーズ色をカスタマイズします
+# Customize the win/loss sparkline series color
 stackedColor = workbook.createCellsColor()
-stackedColor.setColor(Color(255, 140, 0))  # ダークオレンジ
+stackedColor.setColor(Color(255, 140, 0))  # DarkOrange
 stackedGroup.setSeriesColor(stackedColor)
-
-# ステップ6: ワークブックを保存します
+# Step 6: Save the workbook
 workbook.save("output_all.xlsx")
-
 jpype.shutdownJVM()
 ```
 
-{{% alert color="primary" %}}
+## **縦棒スパークライン**
+縦棒スパークラインは、各データポイントを縦棒としてレンダリングします。これにより、値が意味を持つデータ (たとえば、月次売上数値や件数) によく適しています。Aspose.Cells では、`add` メソッドに `SparklineType.COLUMN` を渡すことで縦棒スパークラインを作成します。
+手順は折れ線スパークラインの例と同じです。
+1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
+3. 配置先セルを示す `CellArea` を構築します。
+4. `worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest)` を呼び出します。
+5. 必要に応じて、結果として得られる `SparklineGroup` をカスタマイズします。たとえば、`group.getType()` を設定してタイプを確認したり、棒の色を調整したりします。
+6. 折れ線スパークラインの例を上書きしないように、別の出力ファイルにワークブックを保存します。
+以下の例では、A1:E1 に値 5、-3、8、-2、6 を書き込み、F1 に縦棒スパークラインを描画します。負の値は下向きの棒として、正の値は上向きの棒として描画されるため、一目で正と負の寄与を識別できます。
 
-単一のワークシート内で複数のスパークライン グループを組み合わせる場合、各グループは独立しています。同じソース範囲を共有することも、異なるソース範囲を使用することもでき、個別にスタイルを設定できます。これにより、既存のワークシート内に直接、セルの視覚化の小さな「ダッシュボード」を簡単に構築できます。
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook
+from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
+# ステップ 1: Workbook を作成し、最初のワークシートを取得します
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+# ステップ 2: サンプル値を A1:E1 に書き込みます
+values = [5, -3, 8, -2, 6]
+for i in range(len(values)):
+    worksheet.getCells().get(0, i).putValue(values[i])
+# ステップ 3: F1 (列インデックス 5、行インデックス 0) を指す CellArea を作成します
+dest = CellArea()
+dest.setStartColumn(5)
+dest.setEndColumn(5)
+dest.setStartRow(0)
+dest.setEndRow(0)
+# ステップ 4: コピー先のセルに Column スパークラインを追加します
+idx = worksheet.getSparklineGroups().add(
+    SparklineType.Column, "A1:E1", False, dest)
+group = worksheet.getSparklineGroups().get(idx)
+# ステップ 5: group.Type を読み取ってスパークラインのタイプを確認します
+print("Sparkline Type added: " + str(group.getType()))
+# ステップ 6: ワークブックを保存します
+workbook.save("output_column.xlsx")
+print("Workbook saved as output_column.xlsx")
+jpype.shutdownJVM()
+```
 
-{{% /alert %}}
+## **勝敗スパークライン**
+勝敗スパークラインは、縦棒スパークラインの特殊なバリエーションであり、2 つの結果のみを表示するように設計されています。正の値は「上向き」の棒 (勝ち) として、ゼロまたは負の値は「下向き」の棒 (負け) として描画されます。勝敗スパークラインは、勝ちと負けのシーケンス、合否結果、または時間にわたる任意の二項結果の可視化に一般的に使用されます。
+Aspose.Cells では、`add` メソッドに `SparklineType.STACKED` を渡すことで勝敗スパークラインが作成されます (名前にもかかわらず、`SparklineType.STACKED` は勝敗レンダリングを要求するために使用される列挙値です)。
+1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
+2. ソース範囲にデータを入力します。勝敗スパークラインではすべての値が勝ちか負けのいずれかとして扱われるため、値の大きさは重要ではなく、符号のみが重要です。正の値は上向きの棒になり、非正の値は下向きの棒になります。
+3. 配置先セルを示す `CellArea` を構築します。
+4. `worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest)` を呼び出します。
+5. 必要に応じて、返された `SparklineGroup` をカスタマイズします。たとえば、勝ち棒と負け棒のアクセント色を設定します。
+6. 3 つの例すべてがディスク上に共存できるように、ワークブックを別のファイル名で保存します。
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook
+from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, CellsColor, Color
+# Step 1: Create a Workbook and get the first worksheet
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("WinLoss")
+# Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+worksheet.getCells().get("A1").putValue(5)
+worksheet.getCells().get("B1").putValue(-3)
+worksheet.getCells().get("C1").putValue(8)
+worksheet.getCells().get("D1").putValue(-2)
+worksheet.getCells().get("E1").putValue(6)
+# Step 3: Build a CellArea pointing to F1 (column 5, row 0)
+dest = CellArea()
+dest.setStartColumn(5)   # F
+dest.setEndColumn(5)
+dest.setStartRow(0)      # row 1
+dest.setEndRow(0)
+# Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
+groupIndex = worksheet.getSparklineGroups().add(
+    SparklineType.Stacked,
+    "A1:E1",
+    False,
+    dest)
+group = worksheet.getSparklineGroups().get(groupIndex)
+# Step 5: Customize the sparkline group
+# Enable high-point and low-point markers
+group.setShowHighPoint(True)
+group.setShowLowPoint(True)
+group.setShowNegativePoints(True)
+# Set the high-point color to green
+highColor = workbook.createCellsColor()
+highColor.setColor(Color.GREEN)
+group.setHighPointColor(highColor)
+# Set the low-point color to red
+lowColor = workbook.createCellsColor()
+lowColor.setColor(Color.RED)
+group.setLowPointColor(lowColor)
+# Set the negative-point color to orange
+negColor = workbook.createCellsColor()
+negColor.setColor(Color.ORANGE)
+group.setNegativePointsColor(negColor)
+# Set the default series color (used for positive bars)
+seriesColor = workbook.createCellsColor()
+seriesColor.setColor(Color.STEELBLUE)
+group.setSeriesColor(seriesColor)
+# Step 6: Save the workbook
+workbook.save("output_winloss.xlsx")
+print("Workbook saved successfully: output_winloss.xlsx")
+jpype.shutdownJVM()
+```
+
+## **3 種類のスパークラインタイプの組み合わせ**
+以下の組み合わせ例では、単一のワークブックを作成し、1 行目に値 5、-3、8、-2、6 を入力し、セル F1、F2、F3 に 3 つのスパークライングループを追加します (各タイプの 1 つずつ)。これにより、結果として得られるファイルが 3 種類のスパークラインスタイルを一度に示します。
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook
+from asposecells.api import Workbook, CellArea, SparklineType
+from java.awt import Color
+# Step 1: Create a Workbook and get the first worksheet
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+cells = worksheet.getCells()
+# Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
+cells.get("A1").putValue(5)
+cells.get("B1").putValue(-3)
+cells.get("C1").putValue(8)
+cells.get("D1").putValue(-2)
+cells.get("E1").putValue(6)
+# Step 3: Build a CellArea pointing to destination cell F1
+dest = CellArea()
+dest.setStartColumn(5)  # column F (0-indexed)
+dest.setEndColumn(5)
+dest.setStartRow(0)     # row 1 (0-indexed)
+dest.setEndRow(0)
+# Step 4: Add a Line sparkline from A1:E1 into F1
+# SparklineGroups.add returns the index of the newly added group
+index = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, dest)
+group = worksheet.getSparklineGroups().get(index)
+# Step 5: Create a red CellsColor and assign it to the sparkline line color
+red = workbook.createCellsColor()
+red.setColor(Color.RED)
+group.setSeriesColor(red)
+# Step 6: Enable high-point and low-point markers
+group.setShowHighPoint(True)
+group.setShowLowPoint(True)
+# Step 7: Save the workbook
+workbook.save("output_line.xlsx")
+jpype.shutdownJVM()
+```
 
 ## **スパークラインの外観のカスタマイズ**
-
-`SparklineGroup` が作成されて `worksheet.getSparklineGroups()` に追加された後、ワークブックを保存する前にその視覚的プロパティのいくつかを読み取ったり変更したりできます。最も一般的にカスタマイズされるプロパティは次のとおりです:
-
-- **`group.getType()`** — `SparklineType` (LINE、COLUMN、または STACKED)。これはグループが追加されるときに設定されますが、読み戻して確認できます。
-- **`group.getLine().getColor()`** — 線の色で、`workbook.createCellsColor()` を通じて作成された `CellsColor` として表されます。これは折れ線スパークラインの線の色に使用するプロパティです。
-- **`group.getLine().getWeight()`** — ポイント単位の線の太さ。値が大きいほど、太い線が生成されます。
-- **高値/安値マーカー** — 最高および最低データ点に小さなマーカーをオンにするフラグで、極端な値を強調するのに役立ちます。
-- **最初/最後/負のポイントマーカー** — 最初、最後、および負のデータ点にマーカーを切り替えるフラグ。
-
-色を変更するには、常に `CellsColor` インスタンスを作成し、関連プロパティに割り当ててください。`java.awt.Color` をスパークラインの色プロパティに直接割り当てないでください。それらは `Aspose.Cells.Drawing` の `CellsColor` 型を必要とします。`add` メソッド自体は完全に型付けされた `SparklineGroup` オブジェクトを返すため、戻り値のプロパティ代入を連鎖させることも、ローカル変数に格納して保存前にカスタマイズすることもできます。
+`SparklineGroup` が作成されて `worksheet.getSparklineGroups()` に追加されたら、ワークブックを保存する前にその視覚的なプロパティのいくつかを読み取ったり変更したりできます。最も一般的にカスタマイズされるプロパティは次のとおりです。
+- **`group.getType()`** — `SparklineType` (LINE、COLUMN、または STACKED)。これはグループが追加される際に設定されますが、読み戻して確認できます。
+- **`group.getLine().getColor()`** — 線の色。`workbook.createCellsColor()` を介して作成された `CellsColor` として表されます。これは折れ線スパークラインの線の色を設定するために使用するプロパティです。
+- **`group.getLine().getWeight()`** — ポイント単位の線の太さ。値を大きくすると線が太くなります。
+- **高値/安値ポイントマーカー** — 最高および最低のデータポイントに小さなマーカーをオンにするフラグ。極端な値を強調するのに役立ちます。
+- **最初/最後/負のポイントマーカー** — 最初、最後、および負のデータポイントのマーカーを切り替えるフラグ。
+色を変更するには、常に `CellsColor` インスタンスを作成し、関連するプロパティに割り当てます。`java.awt.Color` をスパークラインの色プロパティに直接割り当てないでください。これらは `Aspose.Cells.Drawing` の `CellsColor` 型を必要とします。`add` メソッド自体は完全に型指定された `SparklineGroup` オブジェクトを返すため、戻り値に対してプロパティ割り当てをチェーンしたり、ローカル変数に保存して保存前にカスタマイズしたりできます。
+{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

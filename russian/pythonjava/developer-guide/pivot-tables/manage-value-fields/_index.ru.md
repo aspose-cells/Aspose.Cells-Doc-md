@@ -1,7 +1,7 @@
 ---
 title: Поля значений в Aspose.Cells for Python via Java
-linktitle: Поля значений в Aspose.Cells for Python via Java
 description: Узнайте, как добавлять базовые поля в область данных сводной таблицы, изменять итоговую функцию с помощью PivotField.Function и размещать поле значений на оси строк или столбцов в Aspose.Cells for Python via Java.
+linktitle: Поля значений в Aspose.Cells for Python via Java
 keywords: Aspose.Cells, Python via Java, сводная таблица, поле значений, PivotField, PivotField.Function, поле данных, PivotTable.ValuesField, Сумма, Среднее
 type: docs
 weight: 230
@@ -16,15 +16,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -38,37 +35,34 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
 ## Изменение итоговой функции
 Каждое поле, помещённое в область данных, внутренне оборачивается как экземпляр `PivotField`, и его свойство `Function` возвращает значение из перечисления `ConsolidationFunction`. Тот же сеттер `Function` позволяет переключаться между доступными агрегатами, включая `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` и `VARP`.
+
 {{% alert color="primary" %}}
 Изменение `Function` влияет только на агрегат, исходный столбец при этом не изменяется.
 {{% /alert %}}
+
 Таким образом, можно оставить одно поле данных как `SUM`, добавив второе поле данных, ссылающееся на тот же исходный столбец, но использующее `COUNT` или `AVERAGE`, всё в рамках одной сводной таблицы.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -82,7 +76,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -91,30 +84,28 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
 ## Размещение полей значений на оси строк или столбцов
 Когда сводная таблица содержит два или более полей данных, Aspose.Cells предоставляет дополнительное виртуальное поле `PivotTable.ValuesField`. Это виртуальное поле представляет собой агрегат всех полей данных, находящихся в области данных. Его можно перетащить в область строк или столбцов как базовое поле сводной таблицы, что полезно для расположения нескольких мер бок о бок.
+
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` не работает, если полей значений нет или присутствует только одно такое поле.
 {{% /alert %}}
+
 Приведённые ниже сценарии демонстрируют три полноценных примера, в которых каждая из описанных выше возможностей раскрывается на одной и той же структуре сводной таблицы.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -128,7 +119,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -138,7 +128,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

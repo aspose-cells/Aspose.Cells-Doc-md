@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java'da Değer Alanları
-linktitle: Aspose.Cells for Python via Java'da Değer Alanları
 description: Aspose.Cells for Python via Java'da bir pivot tablonun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özet fonksiyonunun nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
+linktitle: Aspose.Cells for Python via Java'da Değer Alanları
 keywords: Aspose.Cells, Python via Java, pivot tablosu, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Toplam, Ortalama
 type: docs
 weight: 230
@@ -16,15 +16,12 @@ Bir temel alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak veriler
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -38,37 +35,34 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-
 pivot_table.calculate_data()
 workbook.save("output_drag.xlsx")
 ```
 
 ## Özet Fonksiyonunu Değiştirme
 Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği olarak sarmalanır ve `Function` özelliği `ConsolidationFunction` enum'undan bir değer döndürür. Aynı `Function` ayarlayıcısı, `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STDDEV`, `STDDEVP`, `VAR` ve `VARP` dahil olmak üzere kullanılabilir toplamalar arasında geçiş yapmanıza olanak tanır.
+
 {{% alert color="primary" %}}
 `Function`'ı değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
 {{% /alert %}}
+
 Bu nedenle, aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı eklerken tek bir veri alanını `SUM` olarak bırakabilirsiniz; tümü tek bir pivot içinde gerçekleşir.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -82,7 +76,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -91,30 +84,28 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-
 pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
 ## Değer Alanlarını Satır veya Sütun Eksenine Yerleştirme
 Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adında ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde bulunan her veri alanının toplamını temsil eder. Onu, birden çok ölçüyü yan yana düzenlemek için kullanışlı bir temel pivot alanı olarak Satır veya Sütun bölgesine sürükleyebilirsiniz.
+
 {{% alert color="primary" %}}
 `PivotTable.ValuesField`, değer alanı yoksa veya yalnızca bir tane varsa çalışmaz.
 {{% /alert %}}
+
 Aşağıdaki senaryolar, yukarıda açıklanan her bir yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek üzerinden ilerler.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
     worksheet.cells.get(0, j).put_value(h)
-
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -128,7 +119,6 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.cells.get(i + 1, j).put_value(val)
-
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
 pivot_table = worksheet.pivot_tables[pivot_index]
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
@@ -138,7 +128,6 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-
 pivot_table.calculate_data()
 workbook.save("output_plot.xlsx")
 ```

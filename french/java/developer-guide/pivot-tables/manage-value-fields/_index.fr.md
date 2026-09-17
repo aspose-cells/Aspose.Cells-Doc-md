@@ -1,7 +1,7 @@
 ---
 title: Champs de valeur dans Aspose.Cells for Java
-linktitle: Champs de valeur dans Aspose.Cells for Java
 description: Apprenez à ajouter des champs de base à la zone de données d'un tableau croisé dynamique, à modifier la fonction de synthèse avec PivotField.Function, et à tracer le champ de valeur sur l'axe Ligne ou Colonne dans Aspose.Cells for Java.
+linktitle: Champs de valeur dans Aspose.Cells for Java
 keywords: Aspose.Cells, Java, tableau croisé dynamique, champ de valeur, PivotField, PivotField.Function, champ de données, PivotTable.ValuesField, Somme, Moyenne
 type: docs
 weight: 230
@@ -15,17 +15,14 @@ L'ajout d'un champ de base à la zone de données (valeur) constitue la premièr
 
 ```java
 import com.aspose.cells.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 // En-têtes dans A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-
 // Lignes de données A2:D9 utilisant des boucles imbriquées avec branchement sur j
 for (int i = 1; i <= 8; i++)
 {
@@ -58,41 +55,37 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-
 // Ajouter un tableau croisé dynamique à F3 avec le nom PivotTable1
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 // Disposition du tableau croisé dynamique : Category et Item en ligne, Year en colonne, Amount comme champ de données
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
 ## Modification de la fonction de synthèse
 Chaque champ placé dans la zone de données est encapsulé en interne en tant qu'instance de `PivotField`, et sa propriété `getFunction()` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `setFunction(...)` vous permet de basculer entre les agrégats disponibles, notamment `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` et `VARP`.
+
 {{% alert color="primary" %}}
 La modification de `Function` n'affecte que l'agrégat, la colonne source ne change pas.
 {{% /alert %}}
+
 Vous pouvez donc conserver un champ de données avec la fonction `SUM` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `COUNT` ou `AVERAGE`, le tout dans un seul tableau croisé dynamique.
 
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -103,50 +96,43 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
-
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
 
 ## Tracé des champs de valeur sur l'axe Ligne ou Colonne
 Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.getValuesField()`. Ce champ virtuel représente l'agrégat de chaque champ de données résidant dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ de pivot de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
+
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
 {{% /alert %}}
+
 Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus sur la même structure de tableau croisé dynamique.
 
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -157,25 +143,20 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField());
-
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```

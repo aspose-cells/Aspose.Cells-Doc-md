@@ -1,7 +1,7 @@
 ---
 title: Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET
-linktitle: Agregar campos de filtro
 description: Aprenda a añadir y configurar campos de filtro en tablas dinámicas con Aspose.Cells for Node.js via Java, incluyendo cómo añadir campos de filtro, filtrado de selección única y filtrado de selección múltiple.
+linktitle: Agregar campos de filtro
 keywords: Aspose.Cells, Node.js via Java, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
@@ -15,31 +15,24 @@ Aspose.Cells admite el ciclo de vida completo de los campos de filtro en tablas 
 {{% /alert %}}
 
 ## **Introducción**
-
 Un campo de filtro es un campo dinámico que controla *qué subconjunto* de los datos de origen se muestra en el cuerpo de la tabla dinámica. Los usuarios finales lo ven como un desplegable en la parte superior de una tabla dinámica renderizada en Excel, y al seleccionar uno de los elementos de página disponibles, el cuerpo de la tabla dinámica se reconstruye de modo que solo se resumen los registros que pertenecen a ese elemento de página. Un campo dinámico se convierte en un campo de filtro cuando se registra como `PivotFieldType.Page` en lugar de `PivotFieldType.Row`, `PivotFieldType.Column` o `PivotFieldType.Data`.
-
 Un campo de filtro puede operar con dos comportamientos. En el comportamiento predeterminado de **selección única** solo un elemento de página es visible a la vez, por lo que el cuerpo de la tabla dinámica resume exactamente un subconjunto. En el comportamiento de **selección múltiple** el campo expone una lista de casillas de verificación, y el cuerpo de la tabla dinámica resume la unión de cada elemento de página marcado. El mismo campo de origen puede moverse de un lado a otro entre estos comportamientos alternando una sola propiedad.
-
 Aspose.Cells for Node.js via Java expone dos formas equivalentes para registrar un campo de filtro. La API de alto nivel es `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")`, que toma el nombre de la columna de origen y añade el campo en una sola llamada. La API de bajo nivel es `pivotTable.getPageFields().add(PivotField)`, que se utiliza cuando ya tiene una referencia a `PivotField` y desea añadir la misma instancia de campo al área de filtro. Ambas API terminan rellenando la misma colección `PageFields`, y el resto de este artículo demuestra cómo elegir entre ellas y cómo controlar cada modo de filtrado.
 
 ## **Añadir un campo de filtro**
-
 Hay dos formas de registrar un campo dinámico en el área de filtro. La llamada de alto nivel toma el nombre de la columna de origen como una cadena y es la ruta más común. La llamada de bajo nivel acepta una instancia existente de `PivotField` y es conveniente cuando la misma instancia de campo debe reutilizarse en múltiples áreas de la tabla dinámica. Ambas llamadas colocan el campo en `pivotTable.getPageFields()`, tras lo cual aparece como el desplegable de página en la parte superior de la tabla dinámica renderizada.
 
 ### Añadir un campo de filtro con addFieldToArea
-
 El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de filtro, actualiza la tabla dinámica y guarda el libro de trabajo.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 // Configurar la fila de encabezado
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-
 // Poblar 9 filas de datos de muestra: Fruta, Año, Cantidad
 var data = [
     [ "apple", 2020, 100 ],
@@ -52,43 +45,35 @@ var data = [
     [ "apple", 2022, 170 ],
     [ "orange", 2021, 110 ]
 ];
-
 for (var i = 0; i < data.length; i++)
 {
     worksheet.getCells().get(i + 1, 0).putValue(data[i][0]);
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-
 // Agregar una tabla dinámica anclada en la celda E3
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 // Agregar campos a sus áreas: Fruta como Fila, Cantidad como Datos, Año como Campo de Página
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-
 // Actualizar y calcular los datos de la tabla dinámica
 pivotTable.calculateData();
-
 // Guardar el libro de trabajo
 workbook.save("pageFieldSample.xlsx");
 ```
 
 ### Añadir un campo de filtro con getPageFields().add
-
 Cuando ya trabaja con una instancia de `PivotField`, puede pasarla directamente a `pivotTable.getPageFields().add`. La tabla dinámica y el campo de filtro se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de filtro con la llamada a la API de bajo nivel.
 
 ```javascript
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
 // Encabezados
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-
 // Datos de muestra (9 filas)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
@@ -99,43 +84,34 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-
 // Agregar tabla dinámica en E3 cubriendo A1:C10
 let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
-
 // Fruit -> Fila, Amount -> Datos (Year irá a Página abajo)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-
 // Enfoque de bajo nivel: obtener el PivotField Year existente de BaseFields
 // y registrarlo en el área Page mediante PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-
 // Actualizar para que el nuevo campo de página se refleje en el libro guardado
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 ## **Filtrado de selección única (mostrando un elemento de página)**
-
 En el comportamiento predeterminado de selección única, el campo de filtro se renderiza como un único desplegable y el entero `PivotField.CurrentPageItem` selecciona qué elemento de página controla el cuerpo de la tabla dinámica. Asignar un índice específico selecciona ese único elemento; asignar el centinela especial `0x7FFD` (decimal 32765) borra el filtro para que todos los elementos de página se resuman a la vez. La selección única es el modo predeterminado; no necesita habilitarla explícitamente.
 
 ### Mostrar todos los elementos
-
 Establecer `CurrentPageItem` al valor mágico `0x7FFD` equivale a borrar el filtro de página; el cuerpo de la tabla dinámica resume todos los elementos de página como si no se aplicara ningún filtro.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
-
 // Rellenar datos de Fruta/Año/Cantidad
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-
 var data = [
     ["Apple", 2022, 100],
     ["Apple", 2023, 150],
@@ -144,105 +120,82 @@ var data = [
     ["Cherry", 2022, 200],
     ["Cherry", 2023, 250]
 ];
-
 for (var r = 0; r < data.length; r++) {
     for (var c = 0; c < data[r].length; c++) {
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-
 // Crear tabla dinámica en E3
 var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
-
 // Configurar campos de la tabla dinámica: Fruta→Fila, Cantidad→Datos, Año→Página
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-
 pivotTable.calculateData();
-
 // Limpiar el filtro de página para que todos los elementos del campo de página sean visibles.
 // 0x7FFD (decimal 32765) es el valor centinela especial que significa "todos los elementos" —
 // equivalente a seleccionar "(Todos)" en el desplegable del campo de página de Excel.
 pivotTable.getPageFields().get(0).setCurrentPageItem(0x7FFD);
-
 workbook.save("output.xlsx");
 ```
 
 ### Mostrar un elemento específico
-
 Establecer `CurrentPageItem` a un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista ordenada de elementos del campo de filtro, por lo que, por ejemplo, `1` selecciona el segundo elemento tras ordenar.
 
 ```javascript
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
-
 // Agregar datos de muestra (Fruta/Año/Monto)
 cells.get("A1").setValue("Fruit");
 cells.get("B1").setValue("Year");
 cells.get("C1").setValue("Amount");
-
 cells.get("A2").setValue("Apple");
 cells.get("B2").setValue("2020");
 cells.get("C2").setValue("100");
-
 cells.get("A3").setValue("Apple");
 cells.get("B3").setValue("2021");
 cells.get("C3").setValue("150");
-
 cells.get("A4").setValue("Banana");
 cells.get("B4").setValue("2020");
 cells.get("C4").setValue("200");
-
 cells.get("A5").setValue("Banana");
 cells.get("B5").setValue("2021");
 cells.get("C5").setValue("250");
-
 // Agregar tabla dinámica en E3
 var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
-
 // Agregar campos: Fruta→Fila, Monto→Datos, Año→Página
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-
 // Operaciones específicas del campo de página
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = segundo elemento en orden ascendente (por ejemplo, "2021")
-
 // Actualizar y calcular tabla dinámica
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 ## **Filtrado de selección múltiple**
-
 El filtrado de selección múltiple convierte el desplegable de página en una lista de casillas de verificación y permite al usuario final elegir varios elementos de página simultáneamente. Aspose.Cells expone dos propiedades que trabajan juntas. `PivotField.IsMultipleItemSelectionAllowed` debe establecerse en `true` antes de que la interfaz de selección múltiple surta efecto. Una vez habilitada, `PivotItem.IsHidden` controla qué elementos aparecen en la lista de casillas de verificación, por lo que puede mostrar todos los elementos o crear una lista blanca solo con elementos específicos.
-
 El código a continuación habilita la selección múltiple en el mismo campo de filtro Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A revela todos los elementos de página dejando `IsHidden` establecido en `false` para cada entrada, mientras que la Parte B crea una lista blanca solo con los valores de origen que elija y oculta todo lo demás mediante un bloque `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-
 // — La tabla dinámica y el campo de página se construyen exactamente como en
 //   Escenario 1a (datos de Fruta/Año/Cantidad, pivote en E3, Fruta→Fila,
 //   Cantidad→Datos, Año→Página mediante AddFieldToArea).
 //   A continuación aplicamos filtrado de selección múltiple en el campo de página.
-
 const workbook = new AsposeCells.Workbook();
 const sheet = workbook.getWorksheets().get(0);
 const cells = sheet.getCells();
-
 // Datos de muestra: Fruta | Año | Cantidad
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
-
 const data = [
     ["apple",  "2019", "100"],
     ["apple",  "2020", "150"],
@@ -254,31 +207,25 @@ const data = [
     ["grape",  "2020", "170"],
     ["grape",  "2021", "220"]
 ];
-
 for (let i = 0; i < data.length; i++) {
     cells.get(i + 1, 0).putValue(data[i][0]);
     cells.get(i + 1, 1).putValue(parseInt(data[i][1]));
     cells.get(i + 1, 2).putValue(parseInt(data[i][2]));
 }
-
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
 const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
-
 // — Habilitar selección múltiple en el campo de página
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-
 // Parte A — seleccionar TODOS los elementos (hacer visible cada elemento)
 const pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (let i = 0; i < pivotItems.getCount(); i++) {
     pivotItems.get(i).setHidden(false);
 }
-
 // Parte B — seleccionar solo elementos específicos por valor de origen
 for (let i = 0; i < pivotItems.getCount(); i++) {
     switch (pivotItems.get(i).getStringValue()) {
@@ -292,18 +239,14 @@ for (let i = 0; i < pivotItems.getCount(); i++) {
             break;
     }
 }
-
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 > **Nota:** Cuando utilice el filtrado de selección múltiple mediante `PivotItem.IsHidden`, **al menos un `PivotItem` debe permanecer visible** (`IsHidden == false`). Si todos los elementos están ocultos, Excel se bloqueará al abrir el archivo o renderizará una tabla dinámica en blanco. Verifique siempre que su lista blanca de selección múltiple incluya al menos un elemento de sus datos de origen.
 
 ## **¿Qué API y qué modo debo usar?**
-
 La tabla a continuación resume cuándo usar cada API y modo para que pueda elegir la combinación correcta sin leer cada escenario en detalle.
-
 | Escenario / Caso de uso | API recomendada | Propiedad utilizada | Notas |
 |---|---|---|---|
 | Añadir un campo de filtro por nombre de columna de origen (más común) | `pivotTable.addFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | Alto nivel, una sola línea. Use esto a menos que necesite una referencia a `PivotField`. |

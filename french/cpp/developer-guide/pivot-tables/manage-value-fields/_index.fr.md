@@ -1,7 +1,7 @@
 ---
 title: Champs de valeur dans Aspose.Cells for C++
-linktitle: Champs de valeur dans Aspose.Cells for C++
 description: Découvrez comment ajouter des champs de base à la zone de données d'un tableau croisé dynamique, modifier la fonction de synthèse avec PivotField.Function, et tracer le champ de valeur sur l'axe Ligne ou Colonne dans Aspose.Cells for C++.
+linktitle: Champs de valeur dans Aspose.Cells for C++
 keywords: Aspose.Cells, C++, tableau croisé dynamique, champ de valeur, PivotField, PivotField.Function, champ de données, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -11,30 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Ajout d'un champ à la zone de données
-
 L'ajout d'un champ de base à la zone de données (valeur) constitue la première étape pour façonner la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.AddFieldToArea(PivotFieldType, string)`, une surcharge qui accepte la constante `PivotFieldType.Data` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.DataFields`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est résumée avec `ConsolidationFunction.Sum`, tandis qu'une colonne non numérique utilise `Count` par défaut.
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Aspose::Cells::Startup();
-
  Workbook workbook;
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
-
  Cells cells = worksheet.GetCells();
-
  // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
-
  // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
@@ -67,27 +60,22 @@ int main() {
  }
  }
  }
-
  // Add pivot table at F3 with name PivotTable1
  int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-
  // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
-
  Aspose::Cells::Cleanup();
  return 0;
 }
 ```
 
 ## Modification de la fonction de synthèse
-
 Chaque champ placé dans la zone de données est encapsulé en interne sous forme d'instance `PivotField`, et sa propriété `Function` renvoie une valeur de l'énumération `ConsolidationFunction`. Le même setter `Function` vous permet de basculer entre les agrégats disponibles, notamment `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, et `Varp`.
 
 {{% alert color="primary" %}}
@@ -101,14 +89,12 @@ Vous pouvez donc conserver un champ de données en tant que `Sum` tout en ajouta
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
-
  Vector<Vector<Object*>> data;
  // Fill data ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
@@ -126,7 +112,6 @@ int main() {
 ```
 
 ## Tracer les champs de valeur sur l'axe Ligne ou Colonne
-
 Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, Aspose.Cells expose un champ virtuel supplémentaire appelé `PivotTable.ValuesField`. Ce champ virtuel représente l'agrégat de chaque champ de données résidant dans la zone de données. Vous pouvez le faire glisser dans la zone Ligne ou Colonne en tant que champ croisé dynamique de base, ce qui est utile pour disposer plusieurs mesures côte à côte.
 
 {{% alert color="primary" %}}
@@ -140,7 +125,6 @@ Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustr
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);

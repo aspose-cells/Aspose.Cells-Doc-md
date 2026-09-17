@@ -10,34 +10,28 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 linktitle: Add Filter Fields
 ---
 
-
 {{% alert color="primary" %}}
 Aspose.Cells supports the full lifecycle of filter fields in pivot tables. You can add a filter field through a high-level convenience API or through the lower-level `PageFields` collection, and you can drive the filter in single-select mode, clear it to show every filter item, or switch the field to multi-select so users can pick several filter items at once through the checkbox UI in Excel.
 {{% /alert %}}
 
 ## **Introduction**
-
 A filter field is a pivot field that controls *which subset* of the source data the pivot body displays. End users see it as a dropdown at the top of a rendered pivot in Excel, and selecting one of the available filter items rebuilds the pivot body so that only the records belonging to that filter item are summarized. A pivot field becomes a filter field when it is registered as `PivotFieldType.Page` rather than `PivotFieldType.Row`, `PivotFieldType.Column`, or `PivotFieldType.Data`.
 
 ## **Adding a Filter Field**
 
 ### Adding a Filter Field with addFieldToArea
-
 The following example builds a small Fruit / Year / Amount dataset, places a pivot table at cell E3 with `Fruit` on the row area, `Amount` on the data area, and `Year` on the filter area, refreshes the pivot, and saves the workbook.
 
 ```java
 import com.aspose.cells.*;
-
 // Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 // Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-
 // Populate 9 rows of sample data: Fruit, Year, Amount
 Object[][] data = new Object[][]
 {
@@ -51,52 +45,42 @@ Object[][] data = new Object[][]
     { "apple", 2022, 170 },
     { "orange", 2021, 110 }
 };
-
 for (int i = 0; i < data.length; i++)
 {
     worksheet.getCells().get(i + 1, 0).putValue(data[i][0]);
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-
 // Add a pivot table anchored at cell E3
 int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-
 // Refresh and calculate the pivot table data
 pivotTable.calculateData();
-
 // Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
 ### Adding a Filter Field with PageFields.add
-
 When you already work with a `PivotField` instance, you can pass it directly to `PivotTable.PageFields.add`. The pivot table and filter field are constructed exactly as in the previous scenario; only the final filter-area registration is replaced with the lower-level API call.
 
 ```java
 import com.aspose.cells.*;
-
 // - The pivot table and page field are constructed exactly as in
 //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit->Row,
 //   Amount->Data). Below we obtain the Year PivotField from the
 //   BaseFields collection and pass it to PageFields.Add - the
 //   low-level alternative to AddFieldToArea. The result is
 //   functionally identical to Scenario 1a.
-
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-
 // Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-
 // Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
@@ -107,45 +91,35 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-
 // Add pivot table at E3 covering A1:C10
 int pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
 PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
-
 // Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 // Low-level approach: grab the existing Year PivotField from BaseFields
 // and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-
 // Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 ## **Single-Select Filtering (Showing One Filter Item)**
-
 In the default single-select behavior, the filter field renders as a single dropdown and the `PivotField.CurrentPageItem` integer selects which filter item drives the pivot body. Assigning a specific index picks that one item; assigning the special sentinel `0x7FFD` (decimal 32765) clears the filter so every filter item is summarized at once. Single-select is the default; you do not need to enable it explicitly.
 
 ### Showing All Items
-
 Setting `CurrentPageItem` to the magic value `0x7FFD` is equivalent to clearing the filter: the pivot body summarizes every filter item as if no filter were applied.
 
 ```java
 import com.aspose.cells.*;
-
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-
 // Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-
 Object[][] data = new Object[][]
 {
     {"Apple", 2022, 100},
@@ -155,7 +129,6 @@ Object[][] data = new Object[][]
     {"Cherry", 2022, 200},
     {"Cherry", 2023, 250}
 };
-
 for (int r = 0; r < data.length; r++)
 {
     for (int c = 0; c < data[r].length; c++)
@@ -163,95 +136,74 @@ for (int r = 0; r < data.length; r++)
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-
 // Create pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 int index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 PivotTable pivot = pivotTables.get(index);
-
 // Configure pivot fields: Fruit to Row, Amount to Data, Year to Page
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
-
 pivot.calculateData();
-
 // Clear the page filter so every item in the page field is visible.
 // 0x7FFD (decimal 32765) is the special sentinel value that means "all items",
 // equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot.getPageFields().get(0).setCurrentPageItem((short)0x7FFD);
-
 workbook.save("output.xlsx");
 ```
 
 ### Showing One Specific Item
-
 Setting `CurrentPageItem` to a real index picks just that one filter item. The index is the position of the item in the filter field's sorted item list, so for example `1` selects the second item after sorting.
 
 ```java
 import com.aspose.cells.*;
-
 // Create workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
 // Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
-
 cells.get("A2").putValue("Apple");
 cells.get("B2").putValue("2020");
 cells.get("C2").putValue("100");
-
 cells.get("A3").putValue("Apple");
 cells.get("B3").putValue("2021");
 cells.get("C3").putValue("150");
-
 cells.get("A4").putValue("Banana");
 cells.get("B4").putValue("2020");
 cells.get("C4").putValue("200");
-
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-
 // Add pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 int pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 PivotTable pivotTable = pivotTables.get(pivotIndex);
-
 // Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-
 // Page-field-specific operations
 pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = second item in sorted order (e.g. "2021")
-
 // Refresh and calculate pivot table
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 ## **Multi-Select Filtering**
-
 Multi-select filtering turns the filter dropdown into a checkbox list and lets the end user pick several filter items simultaneously. Aspose.Cells exposes two properties that work together. `PivotField.IsMultipleItemSelectionAllowed` must be set to `true` before the multi-select UI takes effect at all. After it is enabled, `PivotItem.IsHidden` controls which items appear in the checkbox list, so you can either show every item or whitelist only specific items.
 
 ```java
 import com.aspose.cells.*;
-
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
 // Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
-
 String[][] data = new String[][]
 {
     { "apple",  "2019", "100" },
@@ -264,33 +216,27 @@ String[][] data = new String[][]
     { "grape",  "2020", "170" },
     { "grape",  "2021", "220" }
 };
-
 for (int i = 0; i < data.length; i++)
 {
     cells.get(i + 1, 0).putValue(data[i][0]);
     cells.get(i + 1, 1).putValue(Integer.parseInt(data[i][1]));
     cells.get(i + 1, 2).putValue(Integer.parseInt(data[i][2]));
 }
-
 Worksheet pivotSheet = workbook.getWorksheets().add("Pivot");
 PivotTableCollection pivots = pivotSheet.getPivotTables();
 int pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
 PivotTable pivotTable = pivots.get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-
 // -- Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-
 // Part A -- select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     pivotItems.get(i).setHidden(false);
 }
-
 // Part B -- select only specific items by source value
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
@@ -306,18 +252,14 @@ for (int i = 0; i < pivotItems.getCount(); i++)
             break;
     }
 }
-
 pivotTable.calculateData();
-
 workbook.save("output.xlsx");
 ```
 
 > **Note:** When using multi-select filtering through `PivotItem.IsHidden`, **at least one `PivotItem` must remain visible** (`IsHidden == false`). If every item is hidden, Excel either crashes when opening the file or renders a blank pivot. Always verify that your multi-select whitelist includes at least one item from your source data.
 
 ## **Which API and Which Mode Should I Use?**
-
 The table below summarizes when to use each API and mode so you can pick the right combination without reading every scenario in detail.
-
 | Scenario / Use Case | Recommended API | Property Used | Notes |
 |---|---|---|---|
 | Add a filter field by source-column name (most common) | `PivotTable.addFieldToArea(PivotFieldType.PAGE, "fieldName")` | n/a | High-level, one-line. Use this unless you need a `PivotField` reference. |

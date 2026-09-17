@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for C++ 中的值字段
-linktitle: Aspose.Cells for C++ 中的值字段
 description: 了解如何在 Aspose.Cells for C++ 中将基础字段添加到数据透视表的数据区域，使用 PivotField.Function 更改汇总函数，并将值字段绘制到行轴或列轴上。
+linktitle: Aspose.Cells for C++ 中的值字段
 keywords: Aspose.Cells, C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -15,25 +15,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Aspose::Cells::Startup();
-
  Workbook workbook;
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
-
  Cells cells = worksheet.GetCells();
-
  // A1:D1 中的表头
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
-
  // 使用嵌套循环根据 j 分支处理 A2:D9 的数据行
  for (int i = 1; i <= 8; i++)
  {
@@ -66,20 +60,16 @@ int main() {
  }
  }
  }
-
  // 在 F3 位置添加名为 PivotTable1 的数据透视表
  int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-
  // 数据透视表布局：Category 和 Item 作为行，Year 作为列，Amount 作为数据字段
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
-
  Aspose::Cells::Cleanup();
  return 0;
 }
@@ -87,9 +77,11 @@ int main() {
 
 ## 更改汇总函数
 放置在数据区域中的每个字段在内部都被包装为 `PivotField` 实例，其 `Function` 属性返回 `ConsolidationFunction` 枚举中的值。同一个 `Function` setter 允许您在可用的聚合之间切换，包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`。
+
 {{% alert color="primary" %}}
 更改 `Function` 仅影响聚合，源列不会改变。
 {{% /alert %}}
+
 因此，您可以将一个数据字段保留为 `Sum`，同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段，所有这些都在单个数据透视表中完成。
 
 ```cpp
@@ -97,14 +89,12 @@ int main() {
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
 	Workbook workbook;
 	Worksheet ws = workbook.GetWorksheets().Get(0);
 	ws->SetName("Data");
 	Vector<String> headers{ "Category", "Item", "Year", "Amount" };
 	for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
-
 	Vector<Vector<Object*>> data;
 	// 填充数据 ...
 	int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
@@ -123,9 +113,11 @@ int main() {
 
 ## 将值字段绘制到行轴或列轴
 当数据透视表包含两个或更多数据字段时，Aspose.Cells 会公开一个额外的虚拟字段，称为 `PivotTable.ValuesField`。此虚拟字段表示数据区域中每个数据字段的聚合。您可以将其作为基础数据透视字段拖到行区域或列区域，这对于将多个度量并排排列非常有用。
+
 {{% alert color="primary" %}}
 如果没有值字段或只有一个值字段，则 `PivotTable.ValuesField` 不起作用。
 {{% /alert %}}
+
 以下场景通过三个端到端示例演示了针对同一数据透视结构上述每项功能。
 
 ```cpp
@@ -133,7 +125,6 @@ int main() {
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);

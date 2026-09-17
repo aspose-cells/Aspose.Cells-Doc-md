@@ -1,7 +1,7 @@
 ---
 title: حقول القيم في Aspose.Cells for C++
-linktitle: حقول القيم في Aspose.Cells for C++
 description: تعلّم كيفية إضافة الحقول الأساسية إلى منطقة البيانات في الجدول المحوري، وتغيير دالة التلخيص باستخدام PivotField.Function، ورسم حقل القيم على محور الصفوف أو الأعمدة في Aspose.Cells for C++.
+linktitle: حقول القيم في Aspose.Cells for C++
 keywords: Aspose.Cells, C++, جدول محوري, حقل القيم, PivotField, PivotField.Function, حقل البيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -15,25 +15,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```cpp
 #include "Aspose.Cells.h"
-
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Aspose::Cells::Startup();
-
  Workbook workbook;
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
-
  Cells cells = worksheet.GetCells();
-
  // العناوين في A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
-
  // صفوف البيانات A2:D9 باستخدام حلقات متداخلة متفرعة على j
  for (int i = 1; i <= 8; i++)
  {
@@ -66,20 +60,16 @@ int main() {
  }
  }
  }
-
  // إضافة جدول محوري في F3 باسم PivotTable1
  int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
  PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-
  // تخطيط الجدول المحوري: Category و Item في الصف، Year في العمود، Amount كحقل بيانات
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
  pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-
  pivotTable.CalculateData();
  workbook.Save(u"output_drag.xlsx");
-
  Aspose::Cells::Cleanup();
  return 0;
 }
@@ -87,9 +77,11 @@ int main() {
 
 ## تغيير دالة التلخيص
 يتم تغليف كل حقل موضوع في منطقة البيانات داخليًا كنسخة من `PivotField`، وتُعيد خاصية `Function` الخاصة به قيمة من تعداد `ConsolidationFunction`. يتيح لك مُعيِّن `Function` ذاته التنقل بين التجمّعات المتاحة، بما في ذلك `Sum` و `Count` و `Average` و `Max` و `Min` و `Product` و `StdDev` و `StdDevp` و `Var` و `Varp`.
+
 {{% alert color="primary" %}}
 تغيير `Function` يؤثر فقط على التجمّع، ولا يتغير عمود المصدر.
 {{% /alert %}}
+
 لذا يمكنك ترك حقل بيانات واحد كـ `Sum` بينما تُضيف حقل بيانات ثانٍ يستهدف عمود المصدر نفسه لكنه يستخدم `Count` أو `Average`، وكل ذلك في جدول محوري واحد.
 
 ```cpp
@@ -97,14 +89,12 @@ int main() {
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);
  ws->SetName("Data");
  Vector<String> headers{ "Category", "Item", "Year", "Amount" };
  for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
-
  Vector<Vector<Object*>> data;
  // ملء البيانات ...
  int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
@@ -123,9 +113,11 @@ int main() {
 
 ## رسم حقول القيم على محور الصفوف أو الأعمدة
 عندما يحتوي الجدول المحوري على حقلين من البيانات أو أكثر، يعرض Aspose.Cells حقلًا افتراضيًا إضافيًا يُسمى `PivotTable.ValuesField`. يمثّل هذا الحقل الافتراضي تجمّع كل حقل بيانات موجود في منطقة البيانات. يمكنك سحبه إلى منطقة الصفوف أو الأعمدة كحقل محوري أساسي، وهو أمر مفيد لعرض مقاييس متعددة جنبًا إلى جنب.
+
 {{% alert color="primary" %}}
 لا يعمل `PivotTable.ValuesField` إذا لم يكن هناك حقل قيم أو كان هناك حقل قيم واحد فقط.
 {{% /alert %}}
+
 تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة توضح كل قدرة موصوفة أعلاه على نفس بنية الجدول المحوري.
 
 ```cpp
@@ -133,7 +125,6 @@ int main() {
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main() {
  Workbook workbook;
  Worksheet ws = workbook.GetWorksheets().Get(0);

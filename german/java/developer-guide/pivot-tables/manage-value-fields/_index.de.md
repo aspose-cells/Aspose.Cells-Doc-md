@@ -1,7 +1,7 @@
 ---
 title: Wertfelder in Aspose.Cells for Java
-linktitle: Wertfelder
 description: Erfahren Sie, wie Sie Basisfelder zum Datenbereich einer PivotTable hinzufügen, die Zusammenfassungsfunktion mit PivotField.Function ändern und das Wertfeld auf der Zeilen- oder Spaltenachse in Aspose.Cells for Java anordnen.
+linktitle: Wertfelder
 keywords: Aspose.Cells, Java, PivotTable, Wertfeld, PivotField, PivotField.Function, Datenfeld, PivotTable.ValuesField, Summe, Mittelwert
 type: docs
 weight: 230
@@ -15,17 +15,14 @@ Das Hinzufügen eines Basisfelds zum Daten- (Wert-) Bereich ist der erste Schrit
 
 ```java
 import com.aspose.cells.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 // Überschriften in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-
 // Datenzeilen A2:D9 mit verschachtelten Schleifen, die nach j verzweigen
 for (int i = 1; i <= 8; i++)
 {
@@ -58,41 +55,37 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-
 // Pivot-Tabelle bei F3 mit dem Namen PivotTable1 hinzufügen
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 // Pivot-Layout: Category und Item in Zeile, Year in Spalte, Amount als Datenfeld
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
 
 ## Ändern der Zusammenfassungsfunktion
 Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekapselt, und die Eigenschaft `getFunction()` gibt einen Wert aus der Enumeration `ConsolidationFunction` zurück. Mit dem Setter `setFunction(...)` können Sie zwischen den verfügbaren Aggregaten wechseln, einschließlich `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `PRODUCT`, `STD_DEV`, `STD_DEVP`, `VAR` und `VARP`.
+
 {{% alert color="primary" %}}
 Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
 {{% /alert %}}
+
 Sie können daher ein Datenfeld als `SUM` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `COUNT` oder `AVERAGE` verwendet, alles in einer einzigen PivotTable.
 
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -103,50 +96,43 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
-
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-
 PivotField countField = pivotTable.getDataFields().get(1);
 countField.setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
 
 ## Anordnen von Wertfeldern auf der Zeilen- oder Spaltenachse
 Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ein zusätzliches virtuelles Feld namens `PivotTable.getValuesField()` bereit. Dieses virtuelle Feld stellt das Aggregat aller Datenfelder dar, die sich im Datenbereich befinden. Sie können es als Basis-Pivotfeld in den Zeilen- oder Spaltenbereich ziehen, was nützlich ist, um mehrere Kennzahlen nebeneinander anzuordnen.
+
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
 {{% /alert %}}
+
 Die folgenden Szenarien erläutern drei durchgängige Beispiele, die jede oben beschriebene Funktion anhand derselben Pivot-Struktur demonstrieren.
 
 ```java
 import com.aspose.cells.*;
 import com.aspose.cells.pivot.*;
-
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-
 String[] headers = { "Category", "Item", "Year", "Amount" };
 for (int j = 0; j < headers.length; j++) {
  worksheet.getCells().get(0, j).putValue(headers[j]);
 }
-
 Object[][] data = {
  { "Fruit", "Apple", 2020, 100 },
  { "Fruit", "Apple", 2021, 150 },
@@ -157,25 +143,20 @@ Object[][] data = {
  { "Vegetable", "Daikon", 2020, 40 },
  { "Vegetable", "Daikon", 2021, 45 }
 };
-
 for (int i = 0; i < data.length; i++) {
  for (int j = 0; j < data[i].length; j++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-
 int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT);
-
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, pivotTable.getValuesField());
-
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
