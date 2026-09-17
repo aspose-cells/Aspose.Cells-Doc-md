@@ -1,32 +1,5 @@
 ---
 title: ラベルまたは値でピボットテーブルをフィルターする
-
-```csharp
-using Aspose.Cells;
-using Aspose.Cells.Pivot;
-var workbook = new Workbook("sample.xlsx");
-var worksheet = workbook.Worksheets[0];
-var pivotTable = worksheet.PivotTables[0];
-var rowField = pivotTable.RowFields[0];
-var dataField = pivotTable.DataFields[0];
-// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
-int dataFieldIndex = -1;
-for (int i = 0; i < pivotTable.DataFields.Count; i++)
-{
-    if (pivotTable.DataFields[i] == dataField)
-    {
-        dataFieldIndex = i;
-        break;
-    }
-}
-if (dataFieldIndex >= 0)
-{
-    rowField.FilterByValue(dataFieldIndex, PivotFilterType.ValueGreaterThan, 5000, double.MaxValue);
-}
-pivotTable.PivotCache.Refresh();
-workbook.Save("output.xlsx");
-```
-
 description: Aspose.Cells for .NETは包括的なピボットテーブルのフィルター機能をサポートしています。この記事では、ラベルフィルター、日付フィルター、値フィルター、トップ10フィルター、およびピボット項目の非表示/表示によってピボットテーブルのデータをフィルターする方法を説明します。
 linktitle: ラベルまたは値でフィルター
 keywords: Aspose.Cells, .NET library, spreadsheet, pivot table, filter, label filter, value filter, date filter, top 10 filter, pivot item, hide pivot item
@@ -124,6 +97,32 @@ workbook.Save(outputPath);
 値フィルターは、ピボットテーブルがデータ領域で計算する集約値に対して機能します。テキストラベルを照合する代わりに、数値の合計をしきい値と比較します。典型的な使用例には、売上合計が目標額を超える製品のみを表示したり、取引数が範囲内に入る地域のみを表示したりすることが含まれます。
 Aspose.Cellsは、`PivotField.FilterByValue(int valueFieldIndex, PivotFilterType filterType, double value1, double value2)`メソッドを通じて値フィルタリングを公開します。`valueFieldIndex`パラメータは、評価するデータフィールドを指定します（`pivotTable.DataFields.IndexOf(dataField)`を使用するか、コレクションを反復処理して位置を見つけます）。`filterType`パラメータは、`ValueGreaterThan`、`ValueLessThan`、`ValueBetween`、`ValueEqual`、`ValueNotEqual`、`ValueGreaterThanOrEqual`、`ValueLessThanOrEqual`などの値を使用します。2つの`double`引数はしきい値を提供します。
 次の例では、ピボットテーブルを含むワークブックを読み込み、集約された売上が数値のしきい値を超える項目のみを保持する値フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
+
+```csharp
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+var workbook = new Workbook("sample.xlsx");
+var worksheet = workbook.Worksheets[0];
+var pivotTable = worksheet.PivotTables[0];
+var rowField = pivotTable.RowFields[0];
+var dataField = pivotTable.DataFields[0];
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
+int dataFieldIndex = -1;
+for (int i = 0; i < pivotTable.DataFields.Count; i++)
+{
+    if (pivotTable.DataFields[i] == dataField)
+    {
+        dataFieldIndex = i;
+        break;
+    }
+}
+if (dataFieldIndex >= 0)
+{
+    rowField.FilterByValue(dataFieldIndex, PivotFilterType.ValueGreaterThan, 5000, double.MaxValue);
+}
+pivotTable.PivotCache.Refresh();
+workbook.Save("output.xlsx");
+```
 
 ## **トップ10フィルター**
 トップ10フィルターは、選択した値フィールドに基づいて最高または最低のN個の項目のみを保持する、値フィルターの特殊な形式です。「収益別トップ10製品」や「販売数別ボトム5地域」などのランキングレポートによく使用されます。
