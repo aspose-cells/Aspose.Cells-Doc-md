@@ -2,7 +2,7 @@
 title: Pivot Tabelle erstellen
 description: Erstellen und Formatieren einer Pivot Tabelle mit Aspose.Cells für Python via .NET.
 linktitle: Pivot Tabelle erstellen
-url: /de/java/pivot-tables/
+url: /de/java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.

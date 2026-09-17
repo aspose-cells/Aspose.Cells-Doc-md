@@ -2,7 +2,7 @@
 title: Insertar tabla dinámica
 description: Crear y formatear tabla dinámica con Aspose.Cells for Python via .NET.
 linktitle: Tablas dinámicas
-url: /es/python-net/pivot-tables/
+url: /es/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

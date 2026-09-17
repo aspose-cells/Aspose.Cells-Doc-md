@@ -2,7 +2,7 @@
 title: 插入数据透视表
 description: 创建和格式化Excel电子表格文件的数据透视表。
 linktitle: 数据透视表
-url: /zh/nodejs-cpp/pivot-tables/
+url: /zh/nodejs-cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: 创建数据透视表，插入数据透视表，格式化数据透视表。

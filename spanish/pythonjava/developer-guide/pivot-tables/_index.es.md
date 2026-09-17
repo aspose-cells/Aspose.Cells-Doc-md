@@ -2,7 +2,7 @@
 title: Tablas dinámicas
 description: Crear y dar formato a tablas dinámicas de archivos de hojas de cálculo de Excel.
 linktitle: Tablas dinámicas
-url: /es/python-java/pivot-tables/
+url: /es/python-java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Crear tabla dinámica, insertar tabla dinámica, formatear tabla dinámica.

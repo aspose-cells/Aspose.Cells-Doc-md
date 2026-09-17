@@ -2,7 +2,7 @@
 title: إدراج جدول محوري
 description: إنشاء وتنسيق الجداول المحورية في ملفات جداول البيانات في Excel.
 linktitle: الجداول المحورية
-url: /ar/net/pivot-tables/
+url: /ar/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: إنشاء جدول محوري، إدراج جدول محوري، تنسيق جدول محوري.

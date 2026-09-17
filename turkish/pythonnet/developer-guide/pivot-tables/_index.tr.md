@@ -2,7 +2,7 @@
 title: Pivot Tablo Ekle
 description: Aspose.Cells for Python via .NET ile Pivot Tablosu oluşturma ve biçimlendirme.
 linktitle: Pivot Tabloları
-url: /tr/python-net/pivot-tables/
+url: /tr/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

@@ -2,7 +2,7 @@
 title: Skapa Pivot tabel
 description: Skapa och formatera pivot tabell med Aspose.Cells för Python via .NET.
 linktitle: Skapa Pivot tabel
-url: /sv/java/pivot-tables/
+url: /sv/java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Skapa pivot tabell, Infoga pivot tabell, Formatera pivot tabell.

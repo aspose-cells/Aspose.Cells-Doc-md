@@ -2,7 +2,7 @@
 title: Insert Pivot Table
 description: Create and format pivot tables of Excel spreadsheet files.
 linktitle: Pivot Tables
-url: /net/pivot-tables/
+url: /net/create-pivot-table/
 type: docs
 weight: 160
 keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.

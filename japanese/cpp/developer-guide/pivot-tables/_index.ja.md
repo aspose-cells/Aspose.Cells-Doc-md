@@ -2,7 +2,7 @@
 title: ピボットテーブルを作成する
 description: Aspose.Cells for Python via .NETでピボットテーブルを作成し、書式を設定する。
 linktitle: ピボットテーブルを作成する
-url: /ja/cpp/pivot-tables/
+url: /ja/cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: ピボットテーブルを作成し、ピボットテーブルを挿入し、ピボットテーブルを書式設定します。

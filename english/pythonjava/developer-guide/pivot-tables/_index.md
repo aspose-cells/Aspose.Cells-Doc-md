@@ -2,7 +2,7 @@
 title: Pivot Tables
 linktitle: Pivot Tables
 description: Create and format pivot tables of Excel spreadsheet files.
-url: /python-java/pivot-tables/
+url: /python-java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.

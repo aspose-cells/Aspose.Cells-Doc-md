@@ -2,7 +2,7 @@
 title: 插入数据透视表
 description: 使用Aspose.Cells for Python via .NET创建和格式化数据透视表。
 linktitle: 数据透视表
-url: /zh/python-net/pivot-tables/
+url: /zh/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

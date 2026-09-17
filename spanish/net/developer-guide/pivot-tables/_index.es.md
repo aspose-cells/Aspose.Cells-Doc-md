@@ -2,7 +2,7 @@
 title: Insertar tabla dinámica
 description: Crear y dar formato a tablas dinámicas de archivos de hojas de cálculo de Excel.
 linktitle: Tablas dinámicas
-url: /es/net/pivot-tables/
+url: /es/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: Crear tabla dinámica, insertar tabla dinámica, formatear tabla dinámica.

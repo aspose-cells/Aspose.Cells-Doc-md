@@ -2,7 +2,7 @@
 title: Вставка сводной таблицы
 description: Создание и форматирование сводных таблиц файла электронной таблицы Excel.
 linktitle: Сводные таблицы
-url: /ru/nodejs-cpp/pivot-tables/
+url: /ru/nodejs-cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: Создание сводной таблицы, вставка сводной таблицы, форматирование сводной таблицы.

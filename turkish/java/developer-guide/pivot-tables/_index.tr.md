@@ -2,7 +2,7 @@
 title: Pivot Tablosu Oluştur
 description: Aspose.Cells for Python via .NET ile Pivot Tablosu oluşturma ve biçimlendirme.
 linktitle: Pivot Tablosu Oluştur
-url: /tr/java/pivot-tables/
+url: /tr/java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.

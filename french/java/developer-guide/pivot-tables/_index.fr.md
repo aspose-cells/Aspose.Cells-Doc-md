@@ -2,7 +2,7 @@
 title: Créer un tableau croisé dynamique
 description: Créer et Formater un Tableau Croisé Dynamique avec Aspose.Cells pour Python via .NET.
 linktitle: Créer un tableau croisé dynamique
-url: /fr/java/pivot-tables/
+url: /fr/java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Créer un Tableau Croisé Dynamique, Insérer un Tableau Croisé Dynamique, Formater un Tableau Croisé Dynamique.

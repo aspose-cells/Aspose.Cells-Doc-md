@@ -2,7 +2,7 @@
 title: Insérer un tableau croisé dynamique
 description: Créer et Formater un Tableau Croisé Dynamique avec Aspose.Cells pour Python via .NET.
 linktitle: Tableaux croisés dynamiques
-url: /fr/python-net/pivot-tables/
+url: /fr/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

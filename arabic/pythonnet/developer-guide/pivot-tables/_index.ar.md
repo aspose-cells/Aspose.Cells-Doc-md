@@ -2,7 +2,7 @@
 title: إدراج جدول محوري
 description: إنشاء وتنسيق جدول دوران بواسطة Aspose.Cells for Python via .NET.
 linktitle: جداول الدوران
-url: /ar/python-net/pivot-tables/
+url: /ar/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

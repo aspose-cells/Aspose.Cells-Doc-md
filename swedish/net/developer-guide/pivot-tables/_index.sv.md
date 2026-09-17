@@ -2,7 +2,7 @@
 title: Infoga pivot tabell
 description: Skapa och formatera pivottabeller i Excel kalkylbladsfiler.
 linktitle: Pivot tabeller
-url: /sv/net/pivot-tables/
+url: /sv/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: Skapa pivot tabell, Infoga pivot tabell, Formatera pivot tabell.

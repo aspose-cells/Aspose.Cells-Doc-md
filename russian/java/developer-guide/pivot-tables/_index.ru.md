@@ -2,7 +2,7 @@
 title: Создание сводной таблицы
 description: Создание и форматирование сводной таблицы с помощью Aspose.Cells для Python via .NET.
 linktitle: Создание сводной таблицы
-url: /ru/java/pivot-tables/
+url: /ru/java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Создание сводной таблицы, вставка сводной таблицы, форматирование сводной таблицы.

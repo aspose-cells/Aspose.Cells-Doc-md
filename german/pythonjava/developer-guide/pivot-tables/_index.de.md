@@ -2,7 +2,7 @@
 title: Pivot Tabellen
 description: Erstellen und Formatieren von Pivot Tabellen in Excel Tabellendateien.
 linktitle: Pivot Tabellen
-url: /de/python-java/pivot-tables/
+url: /de/python-java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Pivot Tabelle erstellen, Pivot Tabelle einfügen, Pivot Tabelle formatieren.

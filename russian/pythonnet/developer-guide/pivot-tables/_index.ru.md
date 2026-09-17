@@ -2,7 +2,7 @@
 title: Вставка сводной таблицы
 description: Создание и форматирование сводной таблицы с помощью Aspose.Cells для Python via .NET.
 linktitle: Сводные таблицы
-url: /ru/python-net/pivot-tables/
+url: /ru/python-net/create-pivot-table/
 type: docs
 weight: 160
 ai_search_scope: cells_pythonnet

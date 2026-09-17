@@ -2,7 +2,7 @@
 title: Create Pivot Table
 linktitle: Create Pivot Table
 description: Create and format Pivot Table with Aspose.Cells for Python via .NET.
-url: /java/pivot-tables/
+url: /java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.

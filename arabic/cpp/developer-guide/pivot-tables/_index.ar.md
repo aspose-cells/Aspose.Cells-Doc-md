@@ -2,7 +2,7 @@
 title: إنشاء جدول معالجة محوري
 description: إنشاء وتنسيق جدول دوران بواسطة Aspose.Cells for Python via .NET.
 linktitle: إنشاء جدول معالجة محوري
-url: /ar/cpp/pivot-tables/
+url: /ar/cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: إنشاء جدول دوران، إدراج جدول دوران، تنسيق جدول دوران.

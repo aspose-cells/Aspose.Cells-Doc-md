@@ -2,7 +2,7 @@
 title: Pivot Tablo Ekle
 description: Excel elek tablo dosyalarının pivot tablolarını oluşturun ve biçimlendirin.
 linktitle: Pivot Tabloları
-url: /tr/net/pivot-tables/
+url: /tr/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.

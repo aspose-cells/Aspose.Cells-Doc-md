@@ -2,7 +2,7 @@
 title: Insertar tabla dinámica
 description: Crear y dar formato a tablas dinámicas de archivos de hojas de cálculo de Excel.
 linktitle: Tablas dinámicas
-url: /es/nodejs-cpp/pivot-tables/
+url: /es/nodejs-cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: Crear tabla dinámica, insertar tabla dinámica, formatear tabla dinámica.

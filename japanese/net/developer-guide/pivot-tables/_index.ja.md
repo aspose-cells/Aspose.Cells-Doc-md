@@ -2,7 +2,7 @@
 title: ピボットテーブルを挿入する
 description: Excelスプレッドシートファイルのピボットテーブルを作成し、書式を設定する。
 linktitle: ピボットテーブル
-url: /ja/net/pivot-tables/
+url: /ja/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: ピボットテーブルを作成し、ピボットテーブルを挿入し、ピボットテーブルを書式設定します。

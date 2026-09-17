@@ -2,7 +2,7 @@
 title: Insérer un tableau croisé dynamique
 description: Créer et formater des tableaux croisés dynamiques de fichiers de feuilles de calcul Excel.
 linktitle: Tableaux croisés dynamiques
-url: /fr/nodejs-cpp/pivot-tables/
+url: /fr/nodejs-cpp/create-pivot-table/
 type: docs
 weight: 160
 keywords: Créer un Tableau Croisé Dynamique, Insérer un Tableau Croisé Dynamique, Formater un Tableau Croisé Dynamique.

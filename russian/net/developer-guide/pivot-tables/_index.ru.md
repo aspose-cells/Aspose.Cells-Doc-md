@@ -2,7 +2,7 @@
 title: Вставка сводной таблицы
 description: Создание и форматирование сводных таблиц файла электронной таблицы Excel.
 linktitle: Сводные таблицы
-url: /ru/net/pivot-tables/
+url: /ru/net/create-pivot-table/
 type: docs
 weight: 160
 keywords: Создание сводной таблицы, вставка сводной таблицы, форматирование сводной таблицы.

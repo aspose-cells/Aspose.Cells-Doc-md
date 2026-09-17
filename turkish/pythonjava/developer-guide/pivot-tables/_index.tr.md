@@ -2,7 +2,7 @@
 title: Pivot Tabloları
 description: Excel elek tablo dosyalarının pivot tablolarını oluşturun ve biçimlendirin.
 linktitle: Pivot Tabloları
-url: /tr/python-java/pivot-tables/
+url: /tr/python-java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.

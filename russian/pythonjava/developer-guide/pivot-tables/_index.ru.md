@@ -2,7 +2,7 @@
 title: Сводные таблицы
 description: Создание и форматирование сводных таблиц файла электронной таблицы Excel.
 linktitle: Сводные таблицы
-url: /ru/python-java/pivot-tables/
+url: /ru/python-java/create-pivot-table/
 type: docs
 weight: 160
 keywords: Создание сводной таблицы, вставка сводной таблицы, форматирование сводной таблицы.
